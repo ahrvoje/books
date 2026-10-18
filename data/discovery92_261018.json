@@ -1,0 +1,507 @@
+{
+  "report": "analysis_discover92_261018_1550.md",
+  "reviewedAt": "2026-10-18 15:50",
+  "timeZone": "Europe/Warsaw",
+  "threshold": {
+    "operator": ">",
+    "value": 92
+  },
+  "formula": "sum(x*x/max for E,S,D; x for the other seven criteria) + T",
+  "scope": "Four nominated main book records; auxiliary search results, other-book widgets, bibliographies and verification reviews do not expand the discovery corpus.",
+  "scoreConfidence": "moderate",
+  "thresholdRobustnessConfidence": "low",
+  "entries": [
+    {
+      "key": "guilmartin",
+      "source": 50,
+      "title": "Gunpowder and Galleys",
+      "subtitle": "Changing Technology and Mediterranean Warfare at Sea in the Sixteenth Century",
+      "author": "John F. Guilmartin Jr.",
+      "firstYear": 1974,
+      "sourceUrl": "https://openlibrary.org/books/OL5435101M/Gunpowder_and_galleys",
+      "sourceLabel": "Open Library: main book record",
+      "purchaseUrl": "https://www.amazon.de/dp/1591143470",
+      "format": "hardcover; no verified paperback located",
+      "editionYear": 2003,
+      "isbn13": "9781591143475",
+      "reader": {
+        "platform": "Goodreads",
+        "rating": 4.53,
+        "count": 43,
+        "url": "https://www.goodreads.com/book/show/1724209.Gunpowder_and_Galleys_"
+      },
+      "status": "recommended",
+      "eligibilityConfidence": "moderate",
+      "hardExclusions": [],
+      "veto": null,
+      "vetoAssessmentConfidence": "moderate",
+      "verdict": "recommend",
+      "scoreConfidence": "moderate",
+      "criteria": [
+        {
+          "code": "E",
+          "name": "Evidence and inferential integrity",
+          "max": 20,
+          "power": 2,
+          "linearPoints": 18,
+          "contribution": 16.2,
+          "assessment": "Detailed historical reconstruction and physical constraints; missing powder supply analysis and incomplete access to adverse reviews prevent higher attainment."
+        },
+        {
+          "code": "S",
+          "name": "Systems integration",
+          "max": 17,
+          "power": 2,
+          "linearPoints": 17,
+          "contribution": 17,
+          "assessment": "Geography, ship design, labor, prices, armaments and competing strategic commitments form an integrated explanation."
+        },
+        {
+          "code": "U",
+          "name": "Transferable strategic utility",
+          "max": 15,
+          "power": 1,
+          "linearPoints": 15,
+          "contribution": 15,
+          "assessment": "Exceptional reuse in technology adoption, scarce complements, platform choice and procurement strategy."
+        },
+        {
+          "code": "M",
+          "name": "Mechanistic and causal depth",
+          "max": 12,
+          "power": 1,
+          "linearPoints": 12,
+          "contribution": 12,
+          "assessment": "The central question is answered through explicit physical, logistical and economic constraints, not presumed backwardness."
+        },
+        {
+          "code": "D",
+          "name": "Information density and length justification",
+          "max": 10,
+          "power": 2,
+          "linearPoints": 9,
+          "contribution": 8.1,
+          "assessment": "Alternating cases and analysis earn most of the length; technical appendices and some dry detail cost one raw point."
+        },
+        {
+          "code": "R",
+          "name": "Durability and resistance to hype",
+          "max": 9,
+          "power": 1,
+          "linearPoints": 9,
+          "contribution": 9,
+          "assessment": "A mature historical explanation with no dependence on a current forecast."
+        },
+        {
+          "code": "F",
+          "name": "Direct domain fit",
+          "max": 7,
+          "power": 1,
+          "linearPoints": 7,
+          "contribution": 7,
+          "assessment": "Direct match to strategic technology, resource allocation, quantification and military power."
+        },
+        {
+          "code": "A",
+          "name": "Expert authority and intellectual standing",
+          "max": 5,
+          "power": 1,
+          "linearPoints": 5,
+          "contribution": 5,
+          "assessment": "Specialist standing is supported by serious assessments across three decades, including Moran and Richon."
+        },
+        {
+          "code": "N",
+          "name": "Narrative architecture and clarity",
+          "max": 3,
+          "power": 1,
+          "linearPoints": 2,
+          "contribution": 2,
+          "assessment": "Analytical organization is effective but technical density and endnotes slow reading."
+        },
+        {
+          "code": "P",
+          "name": "Authorial precision and finesse",
+          "max": 2,
+          "power": 1,
+          "linearPoints": 2,
+          "contribution": 2,
+          "assessment": "Careful distinctions between tactics, operational reach and strategic results."
+        }
+      ],
+      "thematicDeduction": 0,
+      "unroundedTotal": 93.3,
+      "displayTotal": "93.30",
+      "meetsTarget": true
+    },
+    {
+      "key": "headrick",
+      "source": 51,
+      "title": "The Invisible Weapon",
+      "subtitle": "Telecommunications and International Politics, 1851–1945",
+      "author": "Daniel R. Headrick",
+      "firstYear": 1991,
+      "sourceUrl": "https://academic.oup.com/book/47948",
+      "sourceLabel": "Oxford: main book record and contents",
+      "purchaseUrl": "https://www.amazon.de/dp/0199930333",
+      "format": "paperback",
+      "editionYear": 2012,
+      "isbn13": "9780199930333",
+      "reader": {
+        "platform": "Goodreads",
+        "rating": 4.22,
+        "count": 9,
+        "url": "https://www.goodreads.com/en/book/show/4043611-the-invisible-weapon"
+      },
+      "status": "recommended",
+      "eligibilityConfidence": "moderate",
+      "hardExclusions": [],
+      "veto": null,
+      "vetoAssessmentConfidence": "moderate",
+      "verdict": "recommend",
+      "scoreConfidence": "moderate",
+      "criteria": [
+        {
+          "code": "E",
+          "name": "Evidence and inferential integrity",
+          "max": 20,
+          "power": 2,
+          "linearPoints": 18,
+          "contribution": 16.2,
+          "assessment": "Documented historical synthesis; strategic effects are not cleanly isolated and peacetime cases are less developed."
+        },
+        {
+          "code": "S",
+          "name": "Systems integration",
+          "max": 17,
+          "power": 2,
+          "linearPoints": 17,
+          "contribution": 17,
+          "assessment": "Links communications engineering, firms, network ownership, commerce, diplomacy and military intelligence."
+        },
+        {
+          "code": "U",
+          "name": "Transferable strategic utility",
+          "max": 15,
+          "power": 1,
+          "linearPoints": 14,
+          "contribution": 14,
+          "assessment": "Reusable account of infrastructure dependence, control points and technological substitution; modern transfer needs judgment."
+        },
+        {
+          "code": "M",
+          "name": "Mechanistic and causal depth",
+          "max": 12,
+          "power": 1,
+          "linearPoints": 11,
+          "contribution": 11,
+          "assessment": "Shows how network access and interception alter options; not a complete causal explanation of diplomatic outcomes."
+        },
+        {
+          "code": "D",
+          "name": "Information density and length justification",
+          "max": 10,
+          "power": 2,
+          "linearPoints": 9,
+          "contribution": 8.1,
+          "assessment": "A compact chronological account; familiar late-war material reduces marginal value."
+        },
+        {
+          "code": "R",
+          "name": "Durability and resistance to hype",
+          "max": 9,
+          "power": 1,
+          "linearPoints": 9,
+          "contribution": 9,
+          "assessment": "Historical mechanisms survive changes in communications hardware."
+        },
+        {
+          "code": "F",
+          "name": "Direct domain fit",
+          "max": 7,
+          "power": 1,
+          "linearPoints": 7,
+          "contribution": 7,
+          "assessment": "Communications infrastructure, industrial organization and geostrategy directly fit."
+        },
+        {
+          "code": "A",
+          "name": "Expert authority and intellectual standing",
+          "max": 5,
+          "power": 1,
+          "linearPoints": 5,
+          "contribution": 5,
+          "assessment": "Established technology historian; contemporary specialist assessment recognizes the book's substantive contribution."
+        },
+        {
+          "code": "N",
+          "name": "Narrative architecture and clarity",
+          "max": 3,
+          "power": 1,
+          "linearPoints": 3,
+          "contribution": 3,
+          "assessment": "Accessible cumulative narrative, with technology and political changes in an intelligible sequence."
+        },
+        {
+          "code": "P",
+          "name": "Authorial precision and finesse",
+          "max": 2,
+          "power": 1,
+          "linearPoints": 2,
+          "contribution": 2,
+          "assessment": "Rejects a simple technology-determines-politics account; maintains useful conceptual distinctions."
+        }
+      ],
+      "thematicDeduction": 0,
+      "unroundedTotal": 92.3,
+      "displayTotal": "92.30",
+      "meetsTarget": true
+    },
+    {
+      "key": "landes",
+      "source": 52,
+      "title": "Revolution in Time",
+      "subtitle": "Clocks and the Making of the Modern World",
+      "author": "David S. Landes",
+      "firstYear": 1983,
+      "sourceUrl": "https://books.google.com/books/about/Revolution_in_Time.html?id=iVSOyg877usC",
+      "sourceLabel": "Harvard book record on Google Books",
+      "purchaseUrl": "https://www.amazon.de/dp/0674002822",
+      "format": "paperback",
+      "editionYear": 2000,
+      "isbn13": "9780674002821",
+      "reader": {
+        "platform": "Goodreads",
+        "rating": 3.88,
+        "count": 185,
+        "url": "https://www.goodreads.com/book/show/1993849"
+      },
+      "status": "recommended",
+      "eligibilityConfidence": "high",
+      "hardExclusions": [],
+      "veto": null,
+      "vetoAssessmentConfidence": "moderate",
+      "verdict": "recommend",
+      "scoreConfidence": "moderate",
+      "criteria": [
+        {
+          "code": "E",
+          "name": "Evidence and inferential integrity",
+          "max": 20,
+          "power": 2,
+          "linearPoints": 18,
+          "contribution": 16.2,
+          "assessment": "Substantial scholarship and critical specialist praise; broad cultural explanations do not have experimental identification."
+        },
+        {
+          "code": "S",
+          "name": "Systems integration",
+          "max": 17,
+          "power": 2,
+          "linearPoints": 17,
+          "contribution": 17,
+          "assessment": "Connects precision engineering, navigation, production, trade, work discipline and cultural demand."
+        },
+        {
+          "code": "U",
+          "name": "Transferable strategic utility",
+          "max": 15,
+          "power": 1,
+          "linearPoints": 14,
+          "contribution": 14,
+          "assessment": "Strong lessons on standards, manufacturing advantage and industry migration; one industry cannot prove a universal growth model."
+        },
+        {
+          "code": "M",
+          "name": "Mechanistic and causal depth",
+          "max": 12,
+          "power": 1,
+          "linearPoints": 11,
+          "contribution": 11,
+          "assessment": "Explains feedback between demand, precision and production capability; some cultural causal claims remain provisional."
+        },
+        {
+          "code": "D",
+          "name": "Information density and length justification",
+          "max": 10,
+          "power": 2,
+          "linearPoints": 9,
+          "contribution": 8.1,
+          "assessment": "Technical development and industrial comparison generally earn their space for this reader; unevenness costs one raw point."
+        },
+        {
+          "code": "R",
+          "name": "Durability and resistance to hype",
+          "max": 9,
+          "power": 1,
+          "linearPoints": 9,
+          "contribution": 9,
+          "assessment": "Long historical scope; the value does not rest on dated predictions about electronic watches."
+        },
+        {
+          "code": "F",
+          "name": "Direct domain fit",
+          "max": 7,
+          "power": 1,
+          "linearPoints": 7,
+          "contribution": 7,
+          "assessment": "Precision, technology, industry and civilization are central subjects."
+        },
+        {
+          "code": "A",
+          "name": "Expert authority and intellectual standing",
+          "max": 5,
+          "power": 1,
+          "linearPoints": 5,
+          "contribution": 5,
+          "assessment": "Expert economic historian; Hobsbawm and Golinski supply substantive assessments, not merely publisher blurbs."
+        },
+        {
+          "code": "N",
+          "name": "Narrative architecture and clarity",
+          "max": 3,
+          "power": 1,
+          "linearPoints": 3,
+          "contribution": 3,
+          "assessment": "Three connected parts and clear prose organize a difficult subject; density alone does not make the architecture poor."
+        },
+        {
+          "code": "P",
+          "name": "Authorial precision and finesse",
+          "max": 2,
+          "power": 1,
+          "linearPoints": 2,
+          "contribution": 2,
+          "assessment": "Specialist reviewers identify precise, controlled and lucid historical explanation."
+        }
+      ],
+      "thematicDeduction": 0,
+      "unroundedTotal": 92.3,
+      "displayTotal": "92.30",
+      "meetsTarget": true
+    },
+    {
+      "key": "stephan",
+      "source": 53,
+      "title": "How Economics Shapes Science",
+      "subtitle": "",
+      "author": "Paula Stephan",
+      "firstYear": 2012,
+      "sourceUrl": "https://www.jstor.org/stable/j.ctt2jbqd1",
+      "sourceLabel": "Harvard/JSTOR: main book record, contents and extracts",
+      "purchaseUrl": "https://www.amazon.de/dp/0674088166",
+      "format": "paperback",
+      "editionYear": 2015,
+      "isbn13": "9780674088160",
+      "reader": {
+        "platform": "Goodreads",
+        "rating": 3.94,
+        "count": 123,
+        "url": "https://www.goodreads.com/en/book/show/13148639-how-economics-shapes-science"
+      },
+      "status": "recommended",
+      "eligibilityConfidence": "moderate",
+      "hardExclusions": [],
+      "veto": null,
+      "vetoAssessmentConfidence": "moderate",
+      "verdict": "recommend",
+      "scoreConfidence": "moderate",
+      "criteria": [
+        {
+          "code": "E",
+          "name": "Evidence and inferential integrity",
+          "max": 20,
+          "power": 2,
+          "linearPoints": 19,
+          "contribution": 18.05,
+          "assessment": "Explicit treatment of uncertainty and counterfactuals; evidence that cuts against a simple marketization critique is retained."
+        },
+        {
+          "code": "S",
+          "name": "Systems integration",
+          "max": 17,
+          "power": 2,
+          "linearPoints": 16,
+          "contribution": 15.058823529411764,
+          "assessment": "Connects careers, laboratories, funding, institutions and economic growth; corporate science receives less attention."
+        },
+        {
+          "code": "U",
+          "name": "Transferable strategic utility",
+          "max": 15,
+          "power": 1,
+          "linearPoints": 14,
+          "contribution": 14,
+          "assessment": "Useful for evaluating research incentives, grant structures and institutional choices."
+        },
+        {
+          "code": "M",
+          "name": "Mechanistic and causal depth",
+          "max": 12,
+          "power": 1,
+          "linearPoints": 11,
+          "contribution": 11,
+          "assessment": "Strong incentive mechanisms; aggregate causal estimates and optimum funding remain unsettled."
+        },
+        {
+          "code": "D",
+          "name": "Information density and length justification",
+          "max": 10,
+          "power": 2,
+          "linearPoints": 9,
+          "contribution": 8.1,
+          "assessment": "An unusually dense synthesis; some descriptive material slows reading."
+        },
+        {
+          "code": "R",
+          "name": "Durability and resistance to hype",
+          "max": 9,
+          "power": 1,
+          "linearPoints": 8,
+          "contribution": 8,
+          "assessment": "General mechanisms endure, but funding figures and labor-market conditions are period-specific."
+        },
+        {
+          "code": "F",
+          "name": "Direct domain fit",
+          "max": 7,
+          "power": 1,
+          "linearPoints": 7,
+          "contribution": 7,
+          "assessment": "Scientific organization and research allocation directly fit this reader."
+        },
+        {
+          "code": "A",
+          "name": "Expert authority and intellectual standing",
+          "max": 5,
+          "power": 1,
+          "linearPoints": 5,
+          "contribution": 5,
+          "assessment": "Established economics-of-science scholar; specialist reviews engage closely with the evidence."
+        },
+        {
+          "code": "N",
+          "name": "Narrative architecture and clarity",
+          "max": 3,
+          "power": 1,
+          "linearPoints": 2,
+          "contribution": 2,
+          "assessment": "A clear cumulative analysis, though parts read as a descriptive survey."
+        },
+        {
+          "code": "P",
+          "name": "Authorial precision and finesse",
+          "max": 2,
+          "power": 1,
+          "linearPoints": 2,
+          "contribution": 2,
+          "assessment": "Carefully qualified claims and separation of evidence from prescription."
+        }
+      ],
+      "thematicDeduction": 0,
+      "unroundedTotal": 90.20882352941176,
+      "displayTotal": "90.21",
+      "meetsTarget": false
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+# Excluded books
+
+Hard-excluded source books under [AGENTS.md](AGENTS.md). This is the cumulative list for both exclusion rules. [Review and provenance](analysis_exclusions_261018_0045.md). [Rule-5 review and two additional rule-2 exclusions](analysis_veto5_261018_1428.md#hard-exclusion-precedence).
+
+- 11/22/63 — Stephen King
+- 2666 — Roberto Bolaño
+- A Calendar of Wisdom — Leo Tolstoy
+- A Confederacy of Dunces — John Kennedy Toole
+- A Field Guide to the North American Prairie — Stephen R. Jones; Ruth Carol Cushman
+- A Fire Upon the Deep
+- A Little Life — Hanya Yanagihara
+- A Path Through the Jungle — Steve Peters
+- A Pattern Language — Christopher Alexander; Sara Ishikawa; Murray Silverstein; et al.
+- A Raisin in the Sun — Lorraine Hansberry
+- A Separate Peace — John Knowles
+- A Thousand Splendid Suns — Khaled Hosseini
+- A Tree Grows in Brooklyn — Betty Smith
+- A Wizard of Earthsea
+- Accelerando
+- Act of Oblivion
+- Adventures of Huckleberry Finn — Mark Twain
+- Airborne Electronic Hardware Design Assurance — Randall Fulton; Roy Vandermolen
+- All That the Rain Promises and More — David Arora
+- All the Light We Cannot See — Anthony Doerr
+- American Dirt — Jeanine Cummins
+- An Illustrated Book of Bad Arguments — Ali Almossawi
+- Anna Karenina — Leo Tolstoy
+- Anne of Green Gables — L. M. Montgomery
+- Annihilation
+- Artificial Intelligence: A Modern Approach — Stuart Russell; Peter Norvig
+- Atlas Shrugged — Ayn Rand
+- Aubrey–Maturin series
+- Backgammon — Paul Magriel; Renée Magriel Roberts
+- Bad Wisdom — Bill Drummond; Mark Manning / Zodiac Mindwarp
+- Barbed Wire Heart
+- Big Swiss
+- Blandings
+- Bleak House — Charles Dickens
+- Blindness — José Saramago
+- Blindsight
+- Blood Meridian
+- Boy's Life — Robert R. McCammon
+- Built to Sell
+- Catch-22 — Joseph Heller
+- Chaos in Dynamical Systems — Edward Ott
+- Chaotic Evolution and Strange Attractors — David Ruelle
+- Charlotte's Web — E. B. White
+- Chasing the Rabbit — Steven J. Spear
+- Children of Dune
+- Cicero trilogy
+- Civilizations — Laurent Binet
+- Cold Mountain — Charles Frazier
+- Commonweal
+- Complex PTSD: From Surviving to Thriving — Pete Walker
+- Computer Networking: A Top-Down Approach — James F. Kurose; Keith W. Ross
+- Concepts of Physics — H. C. Verma
+- Conceptual Physics — Paul G. Hewitt
+- Conversations on Quantum Gravity — Jácome Armas (editor)
+- Cradle
+- Creativity, Inc. — Ed Catmull; Amy Wallace
+- Crime and Punishment — Fyodor Dostoevsky
+- Critical Chain
+- Culture series
+- Dalva — Jim Harrison
+- Danny, the Champion of the World — Roald Dahl
+- Dark Integers
+- Death and Croissants
+- Demon Copperhead — Barbara Kingsolver
+- Demons — Fyodor Dostoevsky
+- Designing Data-Intensive Applications — Martin Kleppmann
+- Diaspora
+- Divine Proportions — Norman J. Wildberger
+- Don't Think of an Elephant! — George Lakoff
+- Dune — Frank Herbert
+- Earthsea
+- East of Eden — John Steinbeck
+- Echopraxia
+- Ecology of the Planted Aquarium — Diana Walstad
+- Economics — Paul A. Samuelson; William D. Nordhaus
+- Electric Warfare — Jason Carlisle
+- Empire of the Sun
+- Empress of Forever
+- Engineering in Plain Sight — Grady Hillhouse
+- EPA 608 Study Guide — Author unspecified
+- Equoid
+- Eragon
+- Everything Flows
+- Excession
+- Exhalation
+- Fall; or, Dodge in Hell
+- Fatherland — Robert Harris
+- Flowers for Algernon — Daniel Keyes
+- Fungi of Temperate Europe — Thomas Læssøe; Jens H. Petersen
+- Gaining Ground — Jennifer A. Clack
+- Gaudy Night — Dorothy L. Sayers
+- Germinal — Émile Zola
+- Geronimo Rex — Barry Hannah
+- Giovanni's Room — James Baldwin
+- Global Business — Mike W. Peng (source identity conditional)
+- Global Strategy — Mike W. Peng
+- God Emperor of Dune
+- Goldratt's Rules of Flow
+- Goodbye to Berlin
+- Gravitation — Charles W. Misner; Kip S. Thorne; John Archibald Wheeler
+- Hard-Boiled Wonderland and the End of the World — Haruki Murakami
+- Harry Potter
+- Harry Potter and the Methods of Rationality
+- Harry Potter and the Prisoner of Azkaban — J. K. Rowling
+- Hierarchy
+- House of Leaves
+- How Big Things Get Done — Bent Flyvbjerg; Dan Gardner
+- How Technology Works — DK
+- How to Invent Everything — Ryan North
+- Hunter's Run — George R. R. Martin; Gardner Dozois; Daniel Abraham
+- Hyperion — Dan Simmons
+- I Am Pilgrim — Terry Hayes
+- Impro — Keith Johnstone
+- Infinite Jest
+- Ishmael — Daniel Quinn
+- It's Not Luck
+- J R — William Gaddis
+- Jack Reacher (series) — Lee Child; later Andrew Child
+- Jeeves
+- Jurassic Park
+- Last Horizon
+- Leave It to Psmith
+- Legends of the Fall — Jim Harrison
+- Leo Africanus
+- Les Misérables — Victor Hugo
+- Les Particules élémentaires / Atomised — Michel Houellebecq
+- Lexicon Urthus — Michael Andre-Driussi
+- Libra — Don DeLillo
+- Licanius trilogy
+- Logicomix — Apostolos Doxiadis; Christos Papadimitriou
+- Lonesome Dove — Larry McMurtry
+- Long Steel Rail — Norm Cohen
+- Loonshots — Safi Bahcall
+- Lord of Mysteries
+- Love Among the Chickens
+- Malazan Book of the Fallen — Steven Erikson
+- Mathematical Methods of Classical Mechanics — V. I. Arnold
+- Mean Spirit — Linda Hogan
+- Measure What Matters — Katie Delahaye Paine
+- Middlemarch — George Eliot
+- Mike and Psmith
+- Moby-Dick — Herman Melville
+- Mr Norris Changes Trains
+- Mutiny on the Bounty — Charles Nordhoff; James Norman Hall (probable source identity)
+- My Grandmother's Hands — Resmaa Menakem
+- Needful Things — Stephen King
+- Neuromancer
+- No Country for Old Men — Cormac McCarthy
+- North Woods — Daniel Mason
+- Oil 101 — Morgan Downey
+- One Hundred Years of Solitude — Gabriel García Márquez
+- Open-Channel Hydraulics — Ven Te Chow
+- Operating Systems: Three Easy Pieces — Remzi H. Arpaci-Dusseau; Andrea C. Arpaci-Dusseau
+- Outer Dark
+- Permutation City
+- Piranesi — Susanna Clarke
+- Postsingular
+- Principles of Economics — N. Gregory Mankiw
+- Program = Proof — Samuel Mimram
+- Project Hail Mary — Andy Weir
+- Psmith
+- Psmith in the City
+- Psmith, Journalist
+- Public Relations — Edward L. Bernays
+- Quantum Electrodynamics — Richard P. Feynman
+- Quantum Field Theory for the Gifted Amateur — Tom Lancaster; Stephen J. Blundell
+- Radiation Detection and Measurement — Glenn F. Knoll
+- Red Rising
+- Relational Syllogisms and the History of Arabic Logic, 900–1900 — Khaled El-Rouayheb
+- Repairman Jack (series) — F. Paul Wilson
+- Romeo and Juliet — William Shakespeare
+- Rule of the Bone — Russell Banks
+- Rust Atomics and Locks — Mara Bos
+- Salt, Fat, Acid, Heat — Samin Nosrat
+- Schild's Ladder
+- Sea/Shadow trilogies
+- Shantaram — Gregory David Roberts
+- Siddhartha — Hermann Hesse
+- Site Reliability Engineering — Niall Richard Murphy; Betsy Beyer; Chris Jones; Jennifer Petoff (editors)
+- Snow Crash
+- Sometimes a Great Notion — Ken Kesey
+- Spin Sucks — Gini Dietrich
+- Stability and Chaos in Celestial Mechanics — Alessandra Celletti
+- Statistical Consequences of Fat Tails — Nassim Nicholas Taleb
+- Steppenwolf — Hermann Hesse
+- Stoner — John Williams
+- Suttree — Cormac McCarthy
+- Terraform: Watch/Worlds/Burn
+- The Agony and the Ecstasy — Irving Stone
+- The Anarchist Cookbook — William Powell
+- The Annapolis Book of Seamanship — John Rousmaniere
+- The Art of the Pitch — Peter Coughter
+- The Ashley Book of Knots — Clifford W. Ashley
+- The Attention Revolution — B. Alan Wallace
+- The Berlin Stories
+- The Book of Lost Names — Kristin Harmel
+- The Book Thief — Markus Zusak
+- The Book Woman of Troublesome Creek — Kim Michele Richardson
+- The Brothers Karamazov — Fyodor Dostoevsky
+- The Cider House Rules — John Irving
+- The City & the City
+- The Clan of the Cave Bear — Jean M. Auel
+- The Corrections — Jonathan Franzen
+- The Count of Monte Cristo — Alexandre Dumas
+- The Dark Forest
+- The Dark Side of the Moon — Martin Suter
+- The Death of Grass — John Christopher
+- The Design Thinking Playbook — Michael Lewrick; Patrick Link; Larry Leifer
+- The DevOps Handbook — Gene Kim; Jez Humble; Patrick Debois; John Willis
+- The Diamond Age
+- The Diamond Eye — Kate Quinn
+- The Expanse
+- The Fear Index
+- The Forever War
+- The Ghost
+- The Goal
+- The Goal: A Business Graphic Novel
+- The God Engines
+- The Golden Notebook
+- The Good Earth — Pearl S. Buck
+- The Grapes of Wrath — John Steinbeck
+- The Grass Is Singing
+- The Great Alone — Kristin Hannah
+- The Great Divorce — C. S. Lewis
+- The Green Mile — Stephen King
+- The Help — Kathryn Stockett
+- The Herbal Home Remedy Book — Joyce A. Wardwell
+- The Hunt for Red October
+- The Idiot
+- The Iliad — Homer
+- The Illuminatus! Trilogy
+- The Kingkiller Chronicle
+- The Kite Runner — Khaled Hosseini
+- The Knowledge — Lewis Dartnell
+- The Labyrinth of the Spirits
+- The Last Samurai — Helen DeWitt
+- The Laundry Files
+- The Left Hand of Darkness
+- The Life-Changing Magic of Tidying Up — Marie Kondo
+- The Lord of the Rings — J. R. R. Tolkien
+- The Magus — John Fowles
+- The Man Who Folded Himself
+- The March North
+- The Martian — Andy Weir
+- The Master and Margarita — Mikhail Bulgakov
+- The Mind Illuminated — John Yates; Matthew Immergut; Jeremy Graves
+- The Name of the Rose — Umberto Eco
+- The Name of the Wind — Patrick Rothfuss
+- The Narrow Road to the Deep North — Richard Flanagan
+- The Natural Way to Draw — Kimon Nicolaïdes
+- The Odyssey — Homer
+- The Once and Future King — T. H. White
+- The Palace of Dreams — Ismail Kadare
+- The Phoenix Project
+- The Post-Office Girl — Stefan Zweig
+- The Prophet — Kahlil Gibran
+- The Prose Edda — Snorri Sturluson
+- The Punishings — H. R. Bellicosa
+- The Road — Cormac McCarthy
+- The Road Home — Jim Harrison
+- The Sailor Who Fell from Grace with the Sea
+- The Science of Scaling — Benjamin Hardy; Blake Erickson
+- The Screwtape Letters — C. S. Lewis
+- The Sea of Fertility
+- The Second Sleep
+- The Shadow of the Torturer
+- The Shadow of the Wind — Carlos Ruiz Zafón
+- The Silent Patient — Alex Michaelides
+- The Sound and the Fury
+- The Story of B — Daniel Quinn
+- The Sunken Land Begins to Rise Again
+- The Tartar Steppe — Dino Buzzati
+- The Theoretical Minimum — Leonard Susskind and collaborators
+- The Three-Body Problem
+- The Thursday Murder Club
+- The Time Machine — H. G. Wells
+- The Time Traveler's Wife — Audrey Niffenegger
+- The Utopians trilogy
+- The Wandering Inn
+- The Water Knife
+- The Way of Kings
+- The Will of the Many
+- The Windup Girl
+- The Word for World Is Forest
+- There Are No Electrons — Kenn Amdahl
+- This Is How You Lose the Time War
+- Three Men in a Boat
+- Titanium Noir
+- To Kill a Mockingbird — Harper Lee
+- Trading and Exchanges — Larry Harris
+- Trading Under Fire — Major Gonzo
+- Traveler's Gate
+- True Grit — Charles Portis
+- Turning the Mind into an Ally — Sakyong Mipham
+- Ukridge
+- Ulysses
+- Underworld — Don DeLillo
+- Unsheltered — Barbara Kingsolver
+- Vorkosigan Saga
+- Walking Your Blues Away — Thom Hartmann
+- War and Peace — Leo Tolstoy
+- Ward
+- Way Station — Clifford D. Simak
+- Wheel of Time
+- When I Say No, I Feel Guilty — Manuel J. Smith
+- When We Cease to Understand the World
+- Yellowface

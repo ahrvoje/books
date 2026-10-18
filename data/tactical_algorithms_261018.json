@@ -1,0 +1,58 @@
+{
+  "books": [
+    {
+      "id": "algorithms",
+      "source": 113,
+      "status": "recommended",
+      "confidence": "moderate",
+      "sourceUrl": "https://us.macmillan.com/books/9781627790369/algorithmstoliveby/",
+      "reviews": [
+        [
+          "Russ Allbery, full review by a computer-science reader",
+          "https://www.eyrie.org/~eagle/reviews/books/1-62779-037-3.html"
+        ],
+        [
+          "Author's original-year and scope record",
+          "https://brianchristian.org/algorithms-to-live-by/"
+        ],
+        [
+          "Publisher introduction and original 2016 publication",
+          "https://us.macmillan.com/books/9781627790369/algorithmstoliveby/"
+        ]
+      ],
+      "purchaseAsin": "1250118360",
+      "format": "paperback",
+      "raw": [
+        18.5,
+        15,
+        14,
+        11,
+        9,
+        9,
+        7,
+        5,
+        3,
+        1.5
+      ],
+      "notes": [
+        "Established computational results support the argument, and a technically experienced reviewer finds few errors in familiar topics; mapping ideal assumptions to ordinary decisions is sometimes too confident.",
+        "Connects computing, mathematical decision problems, cognitive science, operations research and everyday coordination; production and large institutions receive less attention.",
+        "Resource limits, exploration, scheduling and approximate decisions offer reusable heuristics, although several concepts will be familiar to this reader.",
+        "Explains problem structure, computational constraints and tradeoffs; real-world applications do not always retain the assumptions of the formal result.",
+        "Compact chapter development and clear examples sustain useful content; some introductory material has lower novelty for an experienced modeller.",
+        "The core results concern enduring constraints on computation and decision making, rather than a current technology cycle.",
+        "Computing, quantification, resource allocation and efficient heuristics directly fit the stated interests.",
+        "Griffiths supplies direct research authority in computational cognition, complemented by Christian's synthesis and practitioner scrutiny.",
+        "Eleven connected problem families support a cumulative argument about bounded decisions.",
+        "Clear and controlled explanation overall; categorical promises about optimal everyday choices occasionally exceed the stated model assumptions."
+      ],
+      "case": "The publisher introduction develops a general argument about decisions under limited time, information and computational resources. Allbery reports that chapters explain algorithms, compare human decisions and examine empirical studies; their explanatory value survives even where practical advice adds little. This supports eligibility as narrative computational science. Its main limit is the gap between a formal optimum and a realistic decision problem.",
+      "objection": "Optimal-stopping prescriptions can sound more generally valid than their assumptions allow. Familiar computer-science concepts and thin coverage of industrial institutions also limit the incremental value for this reader.",
+      "eligibility": "Pass hard rule 2 with moderate confidence. The strongest exclusion evidence is the explicit promise of practical guidance for everyday decisions. However, the full stated argument and independently described chapter structure prioritize explaining computational problems, constraints and human cognition. Practical applications do not establish instructional primacy. This supersedes the earlier proposed exclusion, which over-weighted practical marketing and method-labelled chapters. No serious veto is established.",
+      "T11": 0,
+      "T12": 0,
+      "periodEnd": null,
+      "theme": "Computational decision problems and resource constraints are central. Philosophical implications and daily-life advice support the explanatory argument rather than make it a philosophical treatise. T11=T12=0. It is not about a bounded historical period, so H13=0. P14 uses the original 2016 work; the US paperback published in 2017 does not reset age."
+    }
+  ]
+}

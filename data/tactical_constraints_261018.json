@@ -1,0 +1,138 @@
+{
+  "reviewYear": 2026,
+  "confidence": "high for mathematical constraints; moderate for search priorities",
+  "exactConstraint": {
+    "qualityLoss": "L = 100 - sum(positive criterion contributions)",
+    "deductionMagnitude": "d = -(T11+T12+H13+P14+O15)",
+    "target": "total > 92 if and only if L+d < 8",
+    "strictBoundary": "A ceiling equal to 92 does not qualify.",
+    "necessaryConditions": [
+      "Both thematic deductions must be zero. Either -10 deduction alone makes the target impossible.",
+      "A verified Amazon count below 100 makes the target impossible, because its deduction is at least 10.",
+      "With 100-999 Amazon ratings, publication-age plus history-age loss must be strictly below 3; all quality loss must fit inside what remains.",
+      "With at least 1000 Amazon ratings, publication-age plus history-age loss must be strictly below 8; all quality loss must fit inside what remains.",
+      "For H13=0, 100-999 ratings requires an original year later than 1996 even at perfect positive attainment. At least 1000 ratings requires an original year later than 1946.",
+      "An unknown Amazon count receives the prescribed zero fallback after attempts, but unknown is not evidence that the book is popular. Do not select inaccessible counts to evade the rule."
+    ],
+    "criterionBound": "For remaining quality-loss budget B=8-d, each quadratic criterion must independently satisfy x>sqrt(m*(m-B)) when 0<B<m. Each linear criterion must satisfy x>m-B. These are necessary, not sufficient; the losses also have to sum to less than B.",
+    "examples": [
+      {
+        "condition": "E=18, S=16, D=8",
+        "qualityLossFromTheseThreeAlone": 9.341176470588236,
+        "conclusion": "Cannot exceed 92 even with every other criterion perfect and no deductions."
+      },
+      {
+        "condition": "E=18 and 100-999 Amazon ratings",
+        "minimumLoss": 8.8,
+        "conclusion": "Cannot exceed 92 even before publication age and all other quality losses."
+      },
+      {
+        "condition": "E=19, 100-999 Amazon ratings, original year 2015 or earlier",
+        "minimumLossAt2015": 8.05,
+        "conclusion": "Cannot exceed 92 even if every other criterion is perfect and H13=0."
+      },
+      {
+        "condition": "2020 original publication, H13=0, at least1000 ratings",
+        "remainingQualityLossBudgetExclusive": 7.4
+      },
+      {
+        "condition": "2020 original publication, H13=0, 100-999 ratings",
+        "remainingQualityLossBudgetExclusive": 2.4
+      }
+    ]
+  },
+  "heuristicFilters": [
+    "Search first among explanatory technology, production, materials, computing, logistics and innovation books first published since 2006. This is a priority window, not an exclusion rule.",
+    "Prefer a verified Amazon aggregate of at least 1000, because eliminating the five-point penalty usually matters more than small differences in public star ratings.",
+    "Prefer broad cross-period or present-system explanations. A bounded historical case can still qualify, but its exact endpoint consumes the same eight-point loss budget.",
+    "Look for both detailed specialist approval and specific negative reviews. A string of generic recommendations does not establish evidence integrity or causal depth.",
+    "Use Goodreads, StoryGraph and LibraryThing ratings to find reader reception and repeated complaints; do not translate their counts into Amazon counts or their stars into the rubric score.",
+    "Select a short complete thread with a narrow industrial or systems question before a very large generic best-books thread. Once a source is adopted, account for every title in its accessible main content and comments.",
+    "Look for concrete discussion of bottlenecks, production scale, complementary inputs, process reliability, adoption constraints and substitution. These offer better topic-fit signals than the word technology alone.",
+    "Use source yields only after measuring them: unique eligible titles, mathematical ceiling survivors, fully evidenced assessments and research time. No numerical success probabilities are justified by the present data."
+  ],
+  "calibrationAudit": {
+    "snapshots": [
+      "data/single_scores_261018.json",
+      "data/discovery90_261018.json",
+      "data/research92_261018.json"
+    ],
+    "scoredRecords": 1187,
+    "maxEvidenceRaw": 19,
+    "maxDensityRaw": 9,
+    "interpretation": "No E20 or D10 occurs in the current data. The most recent39 assessments also use mostly integer values around E17-18 and D8-9. This suggests compressed scale use worth auditing; it does not prove any individual score is wrong or authorize an uplift.",
+    "rubricRisks": [
+      "Evidence integrity does not require a controlled experiment or a fully quantified causal model for every historical narrative.",
+      "Authority can come from access, practice or unusual synthesis; being a journalist is not an automatic cap.",
+      "Density measures whether length is earned. Difficulty or slow reading belongs primarily under clarity, unless the difficulty is caused by unnecessary material.",
+      "Each raised score needs a specific corrected rationale or new evidence. A target shortfall is not evidence.",
+      "The same identified flaw should not silently be charged to several criteria unless it has a distinct effect on each."
+    ]
+  },
+  "sourceAdvice": [
+    {
+      "source": "Hacker News",
+      "url": "https://github.com/HackerNews/API",
+      "verifiedCapability": "The official API exposes child comment IDs and thread descendant counts.",
+      "use": "Find narrow Ask HN threads on manufacturing, infrastructure, industrial history and systems. Traverse the comment tree, record missing/dead items, and inspect disagreement.",
+      "limitation": "Votes and repeated mentions are discovery signals, not independent factual verification."
+    },
+    {
+      "source": "LibraryThing",
+      "url": "https://www.librarything.com/topic/347682",
+      "verifiedCapability": "The founder's feature announcement describes tag, date and author filters, including custom date ranges.",
+      "use": "Seed with known good books; combine technology/industrial-history tags and a recent original-publication range; diversify authors.",
+      "limitation": "The announcement warns publication dates can be imperfect. Recommendation similarity is not a quality score. Current direct page returned a high-load redirect, but the indexed official announcement was accessible."
+    },
+    {
+      "source": "The StoryGraph",
+      "url": "https://www.thestorygraph.com/",
+      "verifiedCapability": "Official site describes mood, pace, fiction/nonfiction and genre filters, custom tags and lists, and fractional reader ratings.",
+      "use": "Check recurring complaints about repetition, weak structure or shallow content; use nonfiction and subject filters for discovery.",
+      "limitation": "Mood fit and aggregate enjoyment do not demonstrate factual reliability or specialist depth."
+    },
+    {
+      "source": "Book Marks",
+      "url": "https://bookmarks.reviews/bookmarks-how-it-works/",
+      "verifiedCapability": "Its database admits books after at least three outlet reviews, assigns four categories and weights accepted reviews equally.",
+      "use": "Open the mixed and negative reviews as well as positive ones. Follow links to the original review, especially to identify concrete objections.",
+      "limitation": "Its method normally considers reviews within three months of publication; this can miss later corrections. Literary reviewers have different expertise. The aggregate is not a scientific validation."
+    },
+    {
+      "source": "Five Books",
+      "url": "https://fivebooks.com/support-us/",
+      "verifiedCapability": "The site interviews experts about five selected books and their reasons.",
+      "use": "Search expert interviews on technology, economic history, engineering and industrial change. Explanations are more useful than a bare list.",
+      "limitation": "A specialist can nominate textbooks, old works or narrow books that fail this repository's rules. The interviewer's selection is not independent replication."
+    },
+    {
+      "source": "Science and research prizes",
+      "url": "https://royalsociety.org/medals-and-prizes/science-book-prize/",
+      "verifiedCapability": "The Royal Society maintains popular science prize shortlists and judging information.",
+      "use": "Use shortlists as one discovery pool, then apply the reader's topic and technical-depth filters.",
+      "limitation": "Many excellent popular science books are introductory physics, disease or environment books and therefore poor fits here."
+    }
+  ],
+  "priorityAuditCandidates": [
+    {
+      "title": "The Fabric of Civilization",
+      "reason": "Close to threshold and an invalid own-research authority cap; inspect primary notes and adverse reviews before changes."
+    },
+    {
+      "title": "Material World",
+      "reason": "Strong systems fit; old E and D rationales are generic. New specialist review and primary excerpt permit an evidence-led audit."
+    },
+    {
+      "title": "Energy and Civilization",
+      "reason": "Old density penalty conflates demanding content with padding. Check original production year first: a revised predecessor could increase P14."
+    },
+    {
+      "title": "Chip War",
+      "reason": "Old evidence penalty cites incompleteness rather than a specified error; investigate engineering and historical objections independently."
+    },
+    {
+      "title": "How the World Really Works",
+      "reason": "Highest current score, but named adverse technical and causal objections already support its deductions. Closeness alone is insufficient to raise it."
+    }
+  ]
+}

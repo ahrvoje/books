@@ -1,0 +1,53 @@
+// New rules resolve classification uncertainty with a decision, not a score interval.
+// Existing numeric period assessments remain estimates with their original confidence.
+module.exports={
+  periods:{
+    s52:[null,'Clockmaking is compared across many eras; no single historical period is central.','moderate'],
+    s48:[null,'Radar invention, wartime development and later applications span several periods; no single historical period is established.','moderate'],
+    q0019:[1990,'Use about 1990 for the central postwar development of personal computing. This is an assessed endpoint, not an exact last event.','low','https://press.stripe.com/the-dream-machine'],
+    q0018:[null,'The contents compare antiquity, the Middle Ages, the Renaissance and industrialization to explain technological change; this is a cross-period argument.','high','https://academic.oup.com/book/10218'],
+    q0025:[null,'An investigation of grain-trading institutions and their mechanisms, including contemporary crisis reporting; no single historical period is established.','moderate'],
+    q0022:[1865,'The central nineteenth-century lens-adoption story reaches the American Civil War; use its end, rather than Fresnel’s death.','moderate','https://edelweiss-assets.abovethetreeline.com/NO/pdfs/WWNSPR2013_FINAL.pdf'],
+    q0041:[1900,'The historical gunpowder era ends around the close of the nineteenth century; use 1900 as an approximate endpoint.','moderate','https://www.degruyterbrill.com/document/doi/10.1515/9781400874446-toc/html'],
+    q0042:[1982,'The final part covers the first twenty-five years of the space age; 1957 + 25 gives the assessed endpoint 1982.','moderate','https://www.press.jhu.edu/books/title/2651/heavens-and-earth'],
+    q0074:[1969,'Use the late-1960s endpoint of the original central industrial history. Later prefaces and afterwords do not reset its central period.','low','https://en.wikipedia.org/wiki/The_Unbound_Prometheus'],
+    q0086:[1906,'The central historical quest culminates in the first Northwest Passage transit; later voyages are an extension. Endpoint is a scope judgment.','moderate','https://www.penguin.co.uk/books/56561/arctic-labyrinth-by-williams-glyn/9780141932583'],
+    q0096:[2000,'The named central period is twentieth-century physics; use the century’s end as the assessed endpoint.','moderate','https://www.jstor.org/stable/j.ctv10crfmk'],
+    q0097:[null,'Mathematical development across several eras supports an explanatory argument; no single central period.','moderate'],
+    q0128:[1991,'The central responsibility debate is set in the nuclear Cold War; use the end of that historical period.','low','https://books.google.com/books/about/In_the_Shadow_of_the_Bomb.html?id=oWQiAQAAQBAJ'],
+    q0114:[null,'A cross-period explanation of celestial dynamics, not an account confined to one historical period.','moderate'],
+    q0130:[1971,'The central causal narrative is the postwar resolution of renormalization and electroweak theory, culminating around 1971; later collider material is its application.','low','https://openlibrary.org/books/OL39206554M'],
+    q0168:[1985,'Use the mid-1980s as an approximate endpoint for the central twentieth-century particle-physics narrative.','low'],
+    q0184:[1995,'Use the mid-1990s as an approximate endpoint for Wheeler’s retrospective scientific career account.','low'],
+    q0167:[1930,'The central historical subject is the emergence of quantum mechanics, through its consolidation around 1930.','moderate','https://nzdr.ru/data/media/biblio/kolxoz/P/PE/Mead%20C.A.%20Collective%20Electrodynamics..%20quantum%20foundations%20of%20electromagnetism%20%28MIT%2C%202000%29%28ISBN%200262133784%29%28160s%29_PE_.pdf'],
+    q0206:[null,'Radium’s applications and consequences cross several eras; no single central historical period is established.','moderate'],
+    q0331:[2000,'The named central historical period is the twentieth century of cigarette commercialization and public-health conflict.','moderate'],
+    q0297:[800,'Use about 800 for the early Chan patriarchal-lineage formation discussed in the prior dossier; approximate historical endpoint.','low'],
+    q0388:[2010,'Use about 2010 for the end of the town’s multi-decade contamination and investigation narrative; approximate endpoint.','low'],
+    q0385:[2006,'Use the mid-2000s prosecution and sentencing as the end of the central smuggling narrative; assessed endpoint.','low'],
+    q0501:[2009,'The nominated revised diplomatic history runs from 1938 into the early Obama period; approximate endpoint 2009.','low'],
+    q0703:[1980,'Use about 1980 for the central twentieth-century jazz/organized-crime history; approximate endpoint.','low'],
+    q0745:[1920,'Use about 1920 for the post-emancipation family-search history; approximate endpoint.','low'],
+    q0846:[1900,'Use the end of the nineteenth century for the central Old West saloon history.','moderate'],
+    q0883:[1945,'The historical fate of the six family members during the Holocaust is central; the later investigation supplies the evidence.','moderate'],
+    q0890:[1911,'The Parker family frontier history reaches Quanah Parker’s final years; use 1911 as the assessed endpoint.','low'],
+    q0889:[1290,'Eleanor of Castile’s life and death are the historical center; the modern walk is the narrative device.','moderate'],
+    q0930:[1969,'The central family story concerns prize contests in the 1950s and 1960s; use the end of the latter decade.','low'],
+    q0939:[1960,'Use about 1960 for the early-life and millinery memoir; approximate endpoint.','low']
+  },
+  originalYears:{
+    q0076:[-399,'About 400 BCE; approximate composition endpoint, encoded in astronomical year numbering.','low'],
+    q0144:[1934,'Original German publication in 1934, despite the 1935 imprint; not the 1959 English translation.','high','https://plato.stanford.edu/archives/spr2016/entries/scientific-discovery/'],
+    q0266:[1994,'The author confirms first publication in 1994; 1993 is the copyright date.','high','https://wepeterson.com/almostperfect/'],
+    q0401:[-349,'About 350 BCE; approximate composition, encoded in astronomical year numbering.','moderate','https://classics.mit.edu/Aristotle/nicomachaen.html'],
+    q0613:[175,'About 175 CE, the midpoint of the existing c. 170–180 composition interval; not the date of the Hays translation.','low'],
+    q0686:[-379,'About 380 BCE; approximate composition within the existing c. 385–370 BCE interval.','low'],
+    q0760:[1953,'Use first production of the nominated multi-volume biography, 1953; the unresolved 1985 abridgment identity remains disclosed.','low'],
+    q0952:[2026,'Use the documented print year; the earlier audio-production date remains unconfirmed.','low'],
+    q0977:[-374,'About 375 BCE; approximate composition, not a modern edition date.','low'],
+    q1029:[-299,'About 300 BCE; approximate compilation at the boundary of the existing fourth/third-century BCE dating.','low'],
+    q1046:[150,'About 150 CE as an approximate endpoint for production of the ancient Christian collection assumed in the prior dossier; individual components are older.','low'],
+    q1121:[100,'About 100 CE as an approximate completion date for the composite ancient work; not a modern edition date.','low'],
+    q1125:[1050,'About 1050 CE, midpoint of the eleventh century of original compilation; not the 1938–1956 edition.','low','https://en.wikipedia.org/wiki/Lebor_Gab%C3%A1la_%C3%89renn']
+  }
+};

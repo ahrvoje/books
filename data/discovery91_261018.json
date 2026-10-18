@@ -1,0 +1,615 @@
+{
+  "report": "analysis_discover91_261018_1528.md",
+  "reviewedAt": "2026-10-18 15:28",
+  "timeZone": "Europe/Warsaw",
+  "scope": "Five nominated main book records; related-product catalogues, bibliographies and incidental search results are verification context.",
+  "threshold": {
+    "operator": ">",
+    "value": 91
+  },
+  "formula": "sum(x*x/max for E,S,D; x for the other seven criteria) + T",
+  "scoreConfidence": "moderate for recommendations; low for veto counterfactual",
+  "thresholdRobustnessConfidence": "low",
+  "entries": [
+    {
+      "key": "vincenti",
+      "source": 45,
+      "title": "What Engineers Know and How They Know It",
+      "subtitle": "Analytical Studies from Aeronautical History",
+      "author": "Walter G. Vincenti",
+      "firstYear": 1990,
+      "sourceUrl": "https://www.press.jhu.edu/books/title/3022/what-engineers-know-and-how-they-know-it",
+      "status": "recommended",
+      "hardExclusions": [],
+      "eligibilityConfidence": "high",
+      "veto": null,
+      "vetoAssessmentConfidence": "moderate",
+      "scoreConfidence": "moderate",
+      "verdict": "recommend",
+      "reportAnchor": "vincenti",
+      "criteria": [
+        {
+          "code": "E",
+          "name": "Evidence and inferential integrity",
+          "max": 20,
+          "power": 2,
+          "linearPoints": 19,
+          "contribution": 18.05
+        },
+        {
+          "code": "S",
+          "name": "Systems integration",
+          "max": 17,
+          "power": 2,
+          "linearPoints": 16,
+          "contribution": 15.058823529411764
+        },
+        {
+          "code": "U",
+          "name": "Transferable strategic utility",
+          "max": 15,
+          "power": 1,
+          "linearPoints": 14,
+          "contribution": 14
+        },
+        {
+          "code": "M",
+          "name": "Mechanistic and causal depth",
+          "max": 12,
+          "power": 1,
+          "linearPoints": 11,
+          "contribution": 11
+        },
+        {
+          "code": "D",
+          "name": "Information density and length justification",
+          "max": 10,
+          "power": 2,
+          "linearPoints": 9,
+          "contribution": 8.1
+        },
+        {
+          "code": "R",
+          "name": "Durability and resistance to hype",
+          "max": 9,
+          "power": 1,
+          "linearPoints": 9,
+          "contribution": 9
+        },
+        {
+          "code": "F",
+          "name": "Direct domain fit",
+          "max": 7,
+          "power": 1,
+          "linearPoints": 7,
+          "contribution": 7
+        },
+        {
+          "code": "A",
+          "name": "Expert authority and intellectual standing",
+          "max": 5,
+          "power": 1,
+          "linearPoints": 5,
+          "contribution": 5
+        },
+        {
+          "code": "N",
+          "name": "Narrative architecture and clarity",
+          "max": 3,
+          "power": 1,
+          "linearPoints": 2,
+          "contribution": 2
+        },
+        {
+          "code": "P",
+          "name": "Authorial precision and finesse",
+          "max": 2,
+          "power": 1,
+          "linearPoints": 2,
+          "contribution": 2
+        }
+      ],
+      "thematicDeduction": 0,
+      "total": 91.20882352941176,
+      "totalExact": "31011/340",
+      "displayTotal": "91.21",
+      "meetsTarget": true,
+      "paperback": {
+        "isbn13": "9780801845888",
+        "isbn10": "0801845882",
+        "year": 1993,
+        "pages": 336,
+        "url": "https://www.amazon.de/dp/0801845882",
+        "availabilityVerified": false
+      },
+      "readers": {
+        "platform": "Goodreads",
+        "rating": 3.86,
+        "count": 94,
+        "url": "https://www.goodreads.com/book/show/10509008",
+        "retrieved": "2026-10-18",
+        "basis": "Indexed snapshot; not live cross-platform average."
+      }
+    },
+    {
+      "key": "rosenberg",
+      "source": 46,
+      "title": "Inside the Black Box",
+      "subtitle": "Technology and Economics",
+      "author": "Nathan Rosenberg",
+      "firstYear": 1982,
+      "sourceUrl": "https://www.cambridge.org/core/books/inside-the-black-box/BB7C8D2465C25E58C7A0A83AF420EA71",
+      "status": "recommended",
+      "hardExclusions": [],
+      "eligibilityConfidence": "moderate",
+      "veto": null,
+      "vetoAssessmentConfidence": "moderate",
+      "scoreConfidence": "moderate",
+      "verdict": "recommend",
+      "reportAnchor": "rosenberg",
+      "criteria": [
+        {
+          "code": "E",
+          "name": "Evidence and inferential integrity",
+          "max": 20,
+          "power": 2,
+          "linearPoints": 18,
+          "contribution": 16.2
+        },
+        {
+          "code": "S",
+          "name": "Systems integration",
+          "max": 17,
+          "power": 2,
+          "linearPoints": 17,
+          "contribution": 17
+        },
+        {
+          "code": "U",
+          "name": "Transferable strategic utility",
+          "max": 15,
+          "power": 1,
+          "linearPoints": 14,
+          "contribution": 14
+        },
+        {
+          "code": "M",
+          "name": "Mechanistic and causal depth",
+          "max": 12,
+          "power": 1,
+          "linearPoints": 11,
+          "contribution": 11
+        },
+        {
+          "code": "D",
+          "name": "Information density and length justification",
+          "max": 10,
+          "power": 2,
+          "linearPoints": 9,
+          "contribution": 8.1
+        },
+        {
+          "code": "R",
+          "name": "Durability and resistance to hype",
+          "max": 9,
+          "power": 1,
+          "linearPoints": 9,
+          "contribution": 9
+        },
+        {
+          "code": "F",
+          "name": "Direct domain fit",
+          "max": 7,
+          "power": 1,
+          "linearPoints": 7,
+          "contribution": 7
+        },
+        {
+          "code": "A",
+          "name": "Expert authority and intellectual standing",
+          "max": 5,
+          "power": 1,
+          "linearPoints": 5,
+          "contribution": 5
+        },
+        {
+          "code": "N",
+          "name": "Narrative architecture and clarity",
+          "max": 3,
+          "power": 1,
+          "linearPoints": 2,
+          "contribution": 2
+        },
+        {
+          "code": "P",
+          "name": "Authorial precision and finesse",
+          "max": 2,
+          "power": 1,
+          "linearPoints": 2,
+          "contribution": 2
+        }
+      ],
+      "thematicDeduction": 0,
+      "total": 91.3,
+      "totalExact": "913/10",
+      "displayTotal": "91.30",
+      "meetsTarget": true,
+      "paperback": {
+        "isbn13": "9780521273671",
+        "isbn10": "0521273676",
+        "year": 1983,
+        "pages": 320,
+        "url": "https://www.amazon.de/dp/0521273676",
+        "availabilityVerified": false
+      },
+      "readers": {
+        "platform": "Goodreads",
+        "rating": 4.65,
+        "count": 23,
+        "url": "https://www.goodreads.com/book/show/2100863.Inside_the_Black_Box",
+        "retrieved": "2026-10-18",
+        "basis": "Indexed snapshot; not live cross-platform average."
+      }
+    },
+    {
+      "key": "friedman",
+      "source": 47,
+      "title": "Fighting the Great War at Sea",
+      "subtitle": "Strategy, Tactics and Technology",
+      "author": "Norman Friedman",
+      "firstYear": 2014,
+      "sourceUrl": "https://www.pen-and-sword.co.uk/Fighting-the-Great-War-at-Sea-ePub/p/10484",
+      "status": "recommended",
+      "hardExclusions": [],
+      "eligibilityConfidence": "high",
+      "veto": null,
+      "vetoAssessmentConfidence": "moderate",
+      "scoreConfidence": "moderate",
+      "verdict": "recommend",
+      "reportAnchor": "friedman",
+      "criteria": [
+        {
+          "code": "E",
+          "name": "Evidence and inferential integrity",
+          "max": 20,
+          "power": 2,
+          "linearPoints": 18,
+          "contribution": 16.2
+        },
+        {
+          "code": "S",
+          "name": "Systems integration",
+          "max": 17,
+          "power": 2,
+          "linearPoints": 17,
+          "contribution": 17
+        },
+        {
+          "code": "U",
+          "name": "Transferable strategic utility",
+          "max": 15,
+          "power": 1,
+          "linearPoints": 14,
+          "contribution": 14
+        },
+        {
+          "code": "M",
+          "name": "Mechanistic and causal depth",
+          "max": 12,
+          "power": 1,
+          "linearPoints": 11,
+          "contribution": 11
+        },
+        {
+          "code": "D",
+          "name": "Information density and length justification",
+          "max": 10,
+          "power": 2,
+          "linearPoints": 9,
+          "contribution": 8.1
+        },
+        {
+          "code": "R",
+          "name": "Durability and resistance to hype",
+          "max": 9,
+          "power": 1,
+          "linearPoints": 9,
+          "contribution": 9
+        },
+        {
+          "code": "F",
+          "name": "Direct domain fit",
+          "max": 7,
+          "power": 1,
+          "linearPoints": 7,
+          "contribution": 7
+        },
+        {
+          "code": "A",
+          "name": "Expert authority and intellectual standing",
+          "max": 5,
+          "power": 1,
+          "linearPoints": 5,
+          "contribution": 5
+        },
+        {
+          "code": "N",
+          "name": "Narrative architecture and clarity",
+          "max": 3,
+          "power": 1,
+          "linearPoints": 2,
+          "contribution": 2
+        },
+        {
+          "code": "P",
+          "name": "Authorial precision and finesse",
+          "max": 2,
+          "power": 1,
+          "linearPoints": 2,
+          "contribution": 2
+        }
+      ],
+      "thematicDeduction": 0,
+      "total": 91.3,
+      "totalExact": "913/10",
+      "displayTotal": "91.30",
+      "meetsTarget": true,
+      "paperback": {
+        "isbn13": "9781526765499",
+        "isbn10": "1526765497",
+        "year": 2019,
+        "pages": 416,
+        "url": "https://www.amazon.de/dp/1526765497",
+        "availabilityVerified": false
+      },
+      "readers": {
+        "platform": "Goodreads",
+        "rating": 3.96,
+        "count": 92,
+        "url": "https://www.goodreads.com/book/show/50672362-fighting-the-great-war-at-sea",
+        "retrieved": "2026-10-18",
+        "basis": "Indexed snapshot; not live cross-platform average."
+      }
+    },
+    {
+      "key": "buderi",
+      "source": 48,
+      "title": "The Invention That Changed the World",
+      "subtitle": "How a Small Group of Radar Pioneers Won the Second World War and Launched a Technological Revolution",
+      "author": "Robert Buderi",
+      "firstYear": 1996,
+      "sourceUrl": "https://www.simonandschuster.com/books/The-Invention-That-Changed-the-World/Robert-Buderi/9780684835297",
+      "status": "recommended",
+      "hardExclusions": [],
+      "eligibilityConfidence": "high",
+      "veto": null,
+      "vetoAssessmentConfidence": "moderate",
+      "scoreConfidence": "moderate",
+      "verdict": "recommend",
+      "reportAnchor": "buderi",
+      "criteria": [
+        {
+          "code": "E",
+          "name": "Evidence and inferential integrity",
+          "max": 20,
+          "power": 2,
+          "linearPoints": 18,
+          "contribution": 16.2
+        },
+        {
+          "code": "S",
+          "name": "Systems integration",
+          "max": 17,
+          "power": 2,
+          "linearPoints": 17,
+          "contribution": 17
+        },
+        {
+          "code": "U",
+          "name": "Transferable strategic utility",
+          "max": 15,
+          "power": 1,
+          "linearPoints": 14,
+          "contribution": 14
+        },
+        {
+          "code": "M",
+          "name": "Mechanistic and causal depth",
+          "max": 12,
+          "power": 1,
+          "linearPoints": 11,
+          "contribution": 11
+        },
+        {
+          "code": "D",
+          "name": "Information density and length justification",
+          "max": 10,
+          "power": 2,
+          "linearPoints": 8,
+          "contribution": 6.4
+        },
+        {
+          "code": "R",
+          "name": "Durability and resistance to hype",
+          "max": 9,
+          "power": 1,
+          "linearPoints": 9,
+          "contribution": 9
+        },
+        {
+          "code": "F",
+          "name": "Direct domain fit",
+          "max": 7,
+          "power": 1,
+          "linearPoints": 7,
+          "contribution": 7
+        },
+        {
+          "code": "A",
+          "name": "Expert authority and intellectual standing",
+          "max": 5,
+          "power": 1,
+          "linearPoints": 4,
+          "contribution": 4
+        },
+        {
+          "code": "N",
+          "name": "Narrative architecture and clarity",
+          "max": 3,
+          "power": 1,
+          "linearPoints": 3,
+          "contribution": 3
+        },
+        {
+          "code": "P",
+          "name": "Authorial precision and finesse",
+          "max": 2,
+          "power": 1,
+          "linearPoints": 2,
+          "contribution": 2
+        }
+      ],
+      "thematicDeduction": 0,
+      "total": 89.6,
+      "totalExact": "448/5",
+      "displayTotal": "89.60",
+      "meetsTarget": false,
+      "paperback": {
+        "isbn13": "9780684835297",
+        "isbn10": "0684835290",
+        "year": 1998,
+        "pages": 576,
+        "url": "https://www.amazon.de/dp/0684835290",
+        "availabilityVerified": false
+      },
+      "readers": {
+        "platform": "Goodreads",
+        "rating": 4.22,
+        "count": 136,
+        "url": "https://www.goodreads.com/book/show/1377709",
+        "retrieved": "2026-10-18",
+        "basis": "Indexed snapshot; not live cross-platform average."
+      }
+    },
+    {
+      "key": "mackenzie",
+      "source": 49,
+      "title": "Inventing Accuracy",
+      "subtitle": "A Historical Sociology of Nuclear Missile Guidance",
+      "author": "Donald MacKenzie",
+      "firstYear": 1990,
+      "sourceUrl": "https://mitpress.mit.edu/9780262631471/inventing-accuracy/",
+      "status": "vetoed",
+      "hardExclusions": [],
+      "eligibilityConfidence": "moderate",
+      "veto": "V5",
+      "vetoAssessmentConfidence": "moderate",
+      "scoreConfidence": "low",
+      "verdict": "vetoed",
+      "reportAnchor": "mackenzie",
+      "criteria": [
+        {
+          "code": "E",
+          "name": "Evidence and inferential integrity",
+          "max": 20,
+          "power": 2,
+          "linearPoints": 17,
+          "contribution": 14.45
+        },
+        {
+          "code": "S",
+          "name": "Systems integration",
+          "max": 17,
+          "power": 2,
+          "linearPoints": 17,
+          "contribution": 17
+        },
+        {
+          "code": "U",
+          "name": "Transferable strategic utility",
+          "max": 15,
+          "power": 1,
+          "linearPoints": 14,
+          "contribution": 14
+        },
+        {
+          "code": "M",
+          "name": "Mechanistic and causal depth",
+          "max": 12,
+          "power": 1,
+          "linearPoints": 11,
+          "contribution": 11
+        },
+        {
+          "code": "D",
+          "name": "Information density and length justification",
+          "max": 10,
+          "power": 2,
+          "linearPoints": 8,
+          "contribution": 6.4
+        },
+        {
+          "code": "R",
+          "name": "Durability and resistance to hype",
+          "max": 9,
+          "power": 1,
+          "linearPoints": 9,
+          "contribution": 9
+        },
+        {
+          "code": "F",
+          "name": "Direct domain fit",
+          "max": 7,
+          "power": 1,
+          "linearPoints": 7,
+          "contribution": 7
+        },
+        {
+          "code": "A",
+          "name": "Expert authority and intellectual standing",
+          "max": 5,
+          "power": 1,
+          "linearPoints": 5,
+          "contribution": 5
+        },
+        {
+          "code": "N",
+          "name": "Narrative architecture and clarity",
+          "max": 3,
+          "power": 1,
+          "linearPoints": 2,
+          "contribution": 2
+        },
+        {
+          "code": "P",
+          "name": "Authorial precision and finesse",
+          "max": 2,
+          "power": 1,
+          "linearPoints": 2,
+          "contribution": 2
+        }
+      ],
+      "thematicDeduction": 0,
+      "total": 87.85,
+      "totalExact": "1757/20",
+      "displayTotal": "87.85",
+      "meetsTarget": false,
+      "paperback": {
+        "isbn13": "9780262631471",
+        "isbn10": "0262631474",
+        "year": 1993,
+        "pages": 480,
+        "url": "https://www.amazon.de/dp/0262631474",
+        "availabilityVerified": false
+      },
+      "readers": {
+        "platform": "Goodreads",
+        "rating": 4.08,
+        "count": 88,
+        "url": "https://www.goodreads.com/book/show/988064.Inventing_Accuracy",
+        "retrieved": "2026-10-18",
+        "basis": "Indexed snapshot; not live cross-platform average."
+      }
+    }
+  ]
+}

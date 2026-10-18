@@ -1,0 +1,27 @@
+{
+  "id": "algorithms",
+  "source": 113,
+  "status": "superseded",
+  "author": "Brian Christian; Tom Griffiths",
+  "title": "Algorithms to Live By",
+  "rule": 2,
+  "confidence": "moderate",
+  "sourceUrl": "https://us.macmillan.com/books/9781627790369/algorithmstoliveby/",
+  "reason": "The introduction expressly promises practical suggestions for specific everyday problems. Eleven chapters are organized as methods to apply: optimal stopping, exploration, sorting, caching, scheduling, Bayes, overfitting, relaxation, randomness, networking and game theory. Under the repository's strict primary-purpose test, this is a mixed conceptual narrative whose main organizing purpose remains applying methods.",
+  "counterargument": "Strong explanatory computer-science narrative and accessible history; no classroom exercises. This makes classification less clear than a textbook. Parent should resolve consistently with comparable previous exclusions. Do not infer exclusion merely from the word Algorithms.",
+  "evidence": [
+    [
+      "Authorized introduction and stated practical aims",
+      "https://us.macmillan.com/books/9781627790369/algorithmstoliveby/"
+    ],
+    [
+      "Publisher-supplied contents and excerpt",
+      "https://read.riversideca.gov/Mobile/BakerAndTaylor/Excerpt?ISBN=9781627790369&UPC=&position=1"
+    ],
+    [
+      "Russ Allbery, direct review",
+      "https://www.eyrie.org/~eagle/reviews/books/1-62779-037-3.html"
+    ]
+  ],
+  "resolution": "Superseded after independent gate review and fuller main-purpose reassessment. The explanatory account of computational constraints and human cognition is primary; practical applications do not establish instructional primacy. Eligible normalized record: data/tactical_algorithms_261018.json."
+}

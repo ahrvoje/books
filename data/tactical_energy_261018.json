@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-18",
+  "purpose": "Independent calibration of Energy and Civilization and completion of the Origins of Efficiency assessment. Raw criterion attainments are proposed without calculating target scores. No main lists were edited.",
+  "criterion_order": ["E", "S", "U", "M", "D", "R", "F", "A", "N", "P"],
+  "criterion_maxima": {"E":20,"S":17,"U":15,"M":12,"D":10,"R":9,"F":7,"A":5,"N":3,"P":2},
+  "energy_and_civilization": {
+    "title": "Energy and Civilization: A History",
+    "author": "Vaclav Smil",
+    "record_id": "q0006",
+    "prior_sources": [10,11],
+    "prior_assessment": "analysis_pastefollow_261018_0130.md#f059",
+    "prior_ledger": "data/single_scores_261018.json",
+    "prior_raw": {"E":18,"S":17,"U":14,"M":11.294117647058824,"D":7,"R":9,"F":7,"A":5,"N":2,"P":2},
+    "prior_raw_note": "The prior original-scale M16/17 was migrated to 12*(16/17); S12/12 was migrated to 17. The present reassessment does not round these migrated attainments or apply the quadratic transformation twice.",
+    "prior_reasons": {
+      "E_A": "Extensive quantitative synthesis and expertise; historical estimates differ in quality and should not be treated as equally precise.",
+      "M_U_S_F": "Energy conversion, power density and production limits connect physics with agriculture, industry and institutions. Exceptional transfer and integration.",
+      "D_R": "The prior text said the dense historical span costs reading efficiency, while physical constraints are durable.",
+      "N_P": "Demanding architecture but disciplined concepts; substantial update of the separately nominated 1994 work.",
+      "eligibility": "Quantitative explanatory history, not a course or engineering reference; no serious veto established. T11=T12=H13=0."
+    },
+    "publication_lineage": {
+      "edition_year": 2017,
+      "paperback_year": 2018,
+      "scoring_original_year": 1994,
+      "P14": -3.2,
+      "prior_P14": -0.9,
+      "confidence": "high",
+      "reason": "MIT Press explicitly classifies the 2017 work as an updated and expanded version of Energy in World History (1994). Smil's preface confirms the old book's publication in 1994 and explains the enlargement. Under the user's rule, a revised edition does not reset the publication-age clock. The 1993 completion of the manuscript does not replace the 1994 publication year.",
+      "qualification": "The preface calls it 'a substantially new book with a new title'. This is evidence of a major revision, not a reason to conceal the lineage or silently reset rule 14. Retain the 2017 title identity and explain the separate scoring-origin year. Do not automatically merge q0006 with the separately nominated Energy in World History q0047: the older text has its own content and rating evidence.",
+      "copyright_scope": "The author preface and publisher record were verified. The complete copyright leaf was not inspected."
+    },
+    "sources": [
+      {
+        "url": "https://mitpress.mit.edu/9780262035774/energy-and-civilization/",
+        "kind": "Primary publisher record",
+        "scope": "Inspected complete accessible publisher description and edition metadata.",
+        "evidence": "Hardcover dated May 12, 2017, ISBN 9780262035774; paperback dated November 13, 2018, ISBN 9780262536165; 568 pages, 113 figures. Publisher states that the work expands and updates the 1994 Energy in World History. Describes connections between energy, agriculture, industry, transportation, communication, economics and social development."
+      },
+      {
+        "url": "https://academic.oup.com/mit-press-scholarship-online/book/13253/chapter-abstract/166570345",
+        "kind": "Author's preface, official MIT Press Scholarship Online distribution",
+        "scope": "Read the full indexed extract of Preface and Acknowledgments, pages ix-x. Direct open failed; the extract was returned by search. This is not a claim of reading the whole book.",
+        "evidence": "Smil states that Energy in World History appeared in 1994 after manuscript completion in July 1993. The 2017 text is about 60 percent longer, with 40 percent more images and over twice as many references. Boxes contain calculations, explanations and tables; the synthesis uses historians, scientists, engineers and economists."
+      },
+      {
+        "url": "https://eandt.theiet.org/2017/09/05/book-review-energy-and-civilization-history-vaclav-smil",
+        "kind": "Signed engineering-publication review: Dominic Lenton, September 5, 2017",
+        "scope": "Read the accessible review text.",
+        "evidence": "Finds an interdisciplinary narrative connecting practical energy constraints and social development across millennia. Technical boxes can be skipped without breaking the narrative. Independently identifies the book as an extensive update of the 1994 work. Supports rule-2 eligibility and length justification."
+      },
+      {
+        "url": "https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/16970/Warren_2018_LE_Smilreview_AAM.pdf?sequence=1",
+        "kind": "Charles R. Warren's accepted specialist review, Local Environment, 2018",
+        "scope": "Read substantial indexed manuscript excerpts, particularly the assessment and concluding paragraphs; full PDF retrieval failed. Bibliographic identity cross-checked at https://research-portal.st-andrews.ac.uk/en/publications/energy-and-civilisation-a-history/.",
+        "evidence": "Praises detailed quantitative evidence and the synthesis of technical detail with historical scale. Notes that Smil explicitly rejects simple energetic determinism and recognizes other historical causes. The main reservation is factual overload and little personal or biographical texture. That reservation bears mainly on narrative access, not proof of padding or low information density."
+      },
+      {
+        "url": "https://stm.cairn.info/journal-of-energy-history-2018-1-page-1i?lang=en",
+        "pdf_url": "https://stm.cairn.info/article/JEHRHE_001_0001i/pdf?lang=en",
+        "kind": "Adverse signed specialist review: Roberto Cantoni, Journal of Energy History, 2018, issue 1",
+        "scope": "Read indexed opening and critical sections and concluding audience assessment, including PDF page 6; did not obtain the complete PDF. Direct page/PDF access returned 403 or failed.",
+        "evidence": "Praises extensive data, sources, coherence and a compact technical account. Criticizes linear technological history, insufficient human agency and social context, and selective attention to politics and inequality. Concedes its usefulness to engineers, natural scientists and economic historians. This is substantive counterevidence to perfect causal and evidential marks. The review's preference for more colonial, class and environmental history is not itself a user-fit requirement or proof of factual failure."
+      }
+    ],
+    "proposed_raw": {"E":18,"S":17,"U":14,"M":11.294117647058824,"D":9,"R":9,"F":7,"A":5,"N":2,"P":2},
+    "criterion_decisions": {
+      "E": "Retain 18. Quantitative source synthesis is strong, and explicit limits on energy-based explanation matter. Historical reconstruction and contested framing still prevent a near-perfect empirical-integrity claim. The new reviews do not audit all estimates or resolve the adverse historian's causal reservations.",
+      "S": "Retain 17. Physical energy, conversion technology, agricultural production, transport, industrial scale and economic development are connected throughout the account. The rubric requires integration of several relevant layers, not exhaustive coverage of every social-history subfield. Limited human agency is still a constraint on the scope of the causal explanation.",
+      "U": "Retain 14. Orders of magnitude, power density, conversion losses and infrastructure inertia transfer broadly. These constraints are more directly reusable than the book's ability to explain which political choices prevail.",
+      "M": "Retain 11.294117647058824. Strong mechanisms of energy conversion, productive limits and technology diffusion. Do not raise this to 12 while specialist criticism of historical context and causal selection remains unresolved.",
+      "D": "Raise 7 to 9. The earlier reason was density and reading difficulty, which misapplies this criterion. New reviews, including the adverse review, support a large amount of useful information in a coherent account. Boxes reduce disruption. Keep a one-point loss because the wide catalog of technical comparisons does not always yield an equally strong integrated historical explanation; there is no complete chapter-by-chapter audit establishing perfect economy.",
+      "R": "Retain 9. Long-run physical and infrastructure constraints provide durable value even as current energy shares change.",
+      "F": "Retain 7. Energy, engineering, industry, production and the material basis of civilization are central.",
+      "A": "Retain 5. Established specialist synthesis with sustained serious engagement, including critical attention rather than only publicity blurbs.",
+      "N": "Retain 2. Clear overall chronology and helpful boxes coexist with factual overload and a demanding reading experience. This is the appropriate place to retain the prior reading-access reservation.",
+      "P": "Retain 2. The conceptual and quantitative language is disciplined. Dryness is not imprecision."
+    },
+    "eligibility": {"decision":"pass", "confidence":"high", "reason":"Sustained interdisciplinary explanatory history for readers beyond specialist training. Calculations, detail and use in teaching do not make the book instructional."},
+    "veto": {"decision":"none established", "confidence":"moderate", "reason":"The adverse review identifies interpretive limitations but does not establish a serious central factual failure. Other specialist evidence confirms that the author expressly limits energy determinism. Do not treat either praise or criticism alone as conclusive."},
+    "other_deductions": {"T11":0,"T12":0,"H13":0,"H13_reason":"Broad account from prehistory through modern industry, with no single central historical period.","O15":0,"O15_source":"Inherited independently verified count 1221 for amazon.com ASIN 0262536161 in data/single_scores_261018.json; not retrieved again by this subagent."},
+    "assessment_confidence": "moderate",
+    "calibration_note": "The D change corrects a criterion mismatch; it is not a reward for broad approval or an attempt to reach a target score. The publication-age correction is independently required and offsets part of the D change."
+  },
+  "origins_of_efficiency": {
+    "title": "The Origins of Efficiency",
+    "author": "Brian Potter",
+    "original_year": 2025,
+    "prior_dossier": "data/tactical_social_261018.json#origins_efficiency",
+    "proposed_raw": {"E":19,"S":17,"U":15,"M":12,"D":8.5,"R":9,"F":7,"A":4,"N":2.5,"P":1.5},
+    "assessment_confidence": "moderate",
+    "evidence_scope": "Read the main text across the 20-page publisher Chapter 1 excerpt and the full accessible Watson, Hampton and MacWright reviews. This is not a full-book reading or an audit of all historical source notes.",
+    "sources": [
+      {"url":"https://assets.stripeassets.com/fzn2n1nzq965/5jlLbEZjWfQl635f1GdGLJ/9faaf48b9d2266bc61b11ed84d90b5ad/ORIGINS-OF-EFFICIENCY-ZINE.pdf", "evidence":"Primary excerpt models transformation steps, throughput, input costs, work in progress and variation. It explicitly identifies neglected physical details, changing rates, cross-step interactions and product-design effects. Lightbulb manufacture supplies a concrete historical case. Visible note markers are not a substitute for checking their sources."},
+      {"url":"https://miketalksai.substack.com/p/brian-potters-the-origins-of-efficiency", "evidence":"Michael Watson's August 19, 2026 full-book review identifies specific mechanisms: incremental assembly-line development, manufacture/assembly tradeoffs, interchangeable parts, transport costs, location, market scale, setup reduction and process variation. He plans to use the material in teaching and reports substantial notes and bibliography. This is direct specialist engagement but not an independent factual audit."},
+      {"url":"https://www.cdm.expert/blog/originsefficiency", "evidence":"Manufacturing consultant Scott Hampton describes chapters 2-5 on processes, inputs, rates, scale and step removal, and chapter 6 on variability and growing queues. He emphasizes limits, tradeoffs and unsuccessful changes. His stated policy is to review only excellent books, which creates selection bias; the concrete mechanism descriptions remain useful evidence."},
+      {"url":"https://macwright.com/2026/04/19/origins-of-efficiency", "evidence":"Tom MacWright reports that chapters repeatedly alternate between theory and examples; theory can seem repetitive or obvious, and the long-form organization worked poorly for him. He likes the author's existing work, making this useful adverse evidence. He calls the book mostly apolitical and explicitly does not know whether the publisher influenced its text."}
+    ],
+    "criterion_reasons": {
+      "E":"19: The excerpt shows bounded claims, explicit simplifications and concrete history; specialist readers confirm detailed research. Not 20: no full audit of the historical source chain or broad record of correction and rebuttal was available.",
+      "S":"17: Physical transformations, process engineering, labor, inventory, product design, transport, markets and scale are connected through a common production account. Stronger than merely listing industries.",
+      "U":"15: The central classifications and tradeoffs are designed to explain recurrent gains across industries. Practitioner and teaching use independently supports transfer.",
+      "M":"12: The available chapter and detailed reviews directly explain constraints, queues, variation, coupled production steps and why apparent improvements can fail. Full attainment here does not imply perfect historical evidence in E.",
+      "D":"8.5: Concrete cases support the length, but a direct reader's account of repeated theory and uneven theory/example balance is real contrary evidence. Do not erase it to reach the target.",
+      "R":"9: Production constraints and mechanisms should survive present firms and policy fashions.",
+      "F":"7: Direct match to production, industrial quality, engineering, logistics and improvement.",
+      "A":"4: Relevant engineering practice and useful unusual synthesis, with some direct expert engagement. A recent first book has not yet accumulated the same specialist record as Smil's established synthesis.",
+      "N":"2.5: A clear framework joins the material, but the alternating structure does not work equally well for all readers.",
+      "P":"1.5: The sample is concrete and conceptually careful, while repeated or obvious formulations reported by the adverse reader prevent full prose-finesse attainment."
+    },
+    "hard_exclusion": {"decision":"pass", "confidence":"moderate", "reason":"The observed purpose and structure explain how production efficiency developed through mechanisms and historical cases. No exercises, certification sequence or operating procedure dominate the inspected material. Full contents would strengthen the judgment; practical utility and classroom adoption alone do not trigger rule 2."},
+    "veto": {"decision":"none established", "confidence":"moderate", "reason":"No serious factual failure or necessary ideological premise established. Publisher/funder affiliations by themselves do not prove ideological capture."},
+    "deductions": {"T11":0,"T12":0,"H13":0,"P14":-0.1,"O15":-5,"O15_provenance":"Parent independently verified 186 Amazon ratings; refer to data/tactical_amazon_261018.json for product and snapshot evidence."},
+    "target_note":"This raw vector was selected from the evidence without calculating a target total. It must not be increased because the known obscurity deduction makes the requested threshold difficult."
+  }
+}

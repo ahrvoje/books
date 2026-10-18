@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "counts": {
+    "recommended": 966,
+    "vetoed": 172,
+    "hardExcluded": 301,
+    "rescored": 1138,
+    "allSourceEntries": 1439,
+    "lower": 1138,
+    "higher": 0,
+    "unchanged": 0,
+    "bandsBefore": {
+      "Recommend": 117,
+      "Consider": 195,
+      "Selective": 224,
+      "Low priority": 294,
+      "Poor fit": 136
+    },
+    "bandsAfter": {
+      "Recommend": 35,
+      "Consider": 131,
+      "Selective": 182,
+      "Low priority": 300,
+      "Poor fit": 318
+    },
+    "bandChanges": 596
+  },
+  "onlyQuadraticCriteria": [
+    "E",
+    "S",
+    "D"
+  ],
+  "linearCausalMaximum": 12,
+  "quadraticIntegrationMaximum": 17,
+  "allOldTotalsReconciled": true,
+  "allNewTotalsIndependentlyVerified": true,
+  "allNewLocalLinksValid": true,
+  "allCurrentStatusesPreserved": true,
+  "allHistoricalFilesUnchanged": true,
+  "hardExclusionsUnscored": true,
+  "baselineSha256": "a674376e74db0b884f6943f9d4cb2ea4429bdc2183eb6c7b1ad496695f869f57",
+  "outputSha256": {
+    "analysis_quadratic_261018_1453.md": "232983befffc6e207eb3c3749f33ac73bd9891c3a5ef42842e94c8c314337ab2",
+    "RECOMMENDED_BOOKS.md": "14cd96e9197219bafe76829fd19fca68b9793e6bea846a2140b608add85b2421",
+    "VETOED_BOOKS.md": "950efa80ed7c7ddc0eb34be8915f3ee52a2c282fd6007b664724b0e57a7eedc7",
+    "SOURCES.md": "c09c8795b5366851933bc9d8649acc06ace1933f720bb5b71de9465cc6b7b439",
+    "data/quadratic_scores.json": "2b9b141e49a7f032ff3716bf48c4322c4359d68064d9df56405907a3c636b929"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "review": "analysis_pubcap_261018_2125.md",
+  "stats": {
+    "reviewed": 1148,
+    "recommended": 975,
+    "vetoed": 173,
+    "singleScores": 1148,
+    "amazonObserved": 1033,
+    "amazonFallbacks": 115,
+    "newlyRecovered": 663,
+    "theme12": 468,
+    "historicalDeductions": 590,
+    "publishingDeductions": 1133,
+    "obscurityBands": {
+      "0": 501,
+      "-20": 38,
+      "-10": 147,
+      "-5": 347
+    },
+    "excluded": 301,
+    "publicationCapChanged": 31,
+    "top100AmazonObserved": 100,
+    "firstAmazonFallbackRank": 102
+  },
+  "arithmetic": "1,148 independently recalculated finite totals; positive attainment retained; five deductions verified separately",
+  "boundaries": "Obscurity 9/10/99/100/999/1000; fractional recency; H13 cap; P14 cap at 100 years, including ancient/BCE works and future-year zero",
+  "tables": {
+    "recommended": 975,
+    "vetoed": 173,
+    "rankedFiveColumns": 975,
+    "fullCriterionRows": 1148,
+    "sources": 53,
+    "excluded": 301
+  },
+  "preservation": "All historical report and exclusion hashes match; status, source numbers, original metadata and veto reasons preserved",
+  "links": "All referenced local files and new anchors exist",
+  "publicationCapChanged": 31,
+  "format": "Both main title columns contain links only; recommended file starts with the table"
+}
