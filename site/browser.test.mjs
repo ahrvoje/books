@@ -29,6 +29,10 @@ try {
   await page.waitForFunction(count=>Number(document.querySelector('#matching-count').textContent.replace(/\D/g,''))===count,bookCount);
   assert.equal(await page.locator('#notice').isVisible(),false,'Catalog updates must be silent');
   assert.equal(await page.locator('#selection strong').textContent(),'0');
+  assert.equal(await page.locator('.table-scroll[tabindex="0"],.column-scrollbar[tabindex="0"]').count(),0,'Passive table containers must not be Tab stops');
+  await page.locator('[data-page="vetoed"]').click();
+  await page.locator('[data-page="books"]').click();
+  assert.notEqual(await page.evaluate(()=>document.activeElement.id),'results','Navigation must not focus the whole books container');
   assert.deepEqual((await page.locator('#matching-list th[data-column]').evaluateAll(nodes=>nodes.map(n=>n.dataset.column))).slice(0,4),['year','raw:PG','raw:O15','raw:SRC']);
   assert.equal(await page.locator('#matching-list th[data-column]').count(),4);
   assert.equal(await page.locator('#matching-list th[data-column="raw:O15"]').textContent(),'Amazon ratings');

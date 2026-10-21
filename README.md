@@ -6,12 +6,20 @@ The initial ranking uses the repository's existing 15-rule evaluation. Filters, 
 
 ## Use
 
+The [top-200 metadata update](data/top200_261022/REPORT.md) adds 25 print-edition page counts and 23 verified Amazon rating aggregates. After recalculating the obscurity deductions, the top 200 has complete page counts and 151 verified Amazon counts; 49 counts remain unknown after retrieval attempts. The active catalog is `data/top200_261022/compiled.json`. All content assessments and non-rating deductions are unchanged.
+
+The [remaining-title review](data/remaining_261021/REPORT.md) resolves 954 of 968 records after four identity splits: 683 new eligible works, 33 new vetoed works, 156 new hard exclusions, 52 existing-work matches, 27 within-batch duplicates and three non-book references. Fourteen records remain unresolved. All new scores have low confidence; density estimates use descriptions and selected evidence, not full-text coverage. The catalog now contains 3,630 recommended, 238 vetoed and 1,414 excluded works. The active catalog is `data/remaining_261021/compiled.json`.
+
+The earlier [identity and assessment continuation](data/source_review_261021/REPORT.md) resolved 173 pending records, added 11 scored works and 154 hard exclusions, and reconciled eight duplicate records.
+
+The earlier [maintenance and source intake](data/source_batch_261021/REPORT.md) recovered 59 missing Amazon counts, completing the top 100 at that stage, applied the English/Croatian exclusion, and removed passive table Tab stops. There are 206 registered sources. The 32-source assimilation remains **incomplete** because auxiliary-page coverage and the blocked Bookshop source are unresolved. Later additions changed the top 100; another retrieval attempt left some new entrants without verified counts. Unknown counts receive the specified zero obscurity deduction.
+
 The [rating-gap update](analysis/analysis_ratinggaps_261021_1704.md) adds 181 verified counts: 169 recommended and 12 vetoed. Coverage is 1,499/2,938 recommended and 39/205 vetoed; 1,605 remain unknown after an Amazon access challenge stopped direct retrieval. Known counts retain their product, marketplace and snapshot date. Only the affected obscurity deductions and totals change. Both lists display Amazon counts.
 
 1. Search by title, author, or subtitle.
 2. Open **Filter books** to set raw-value, normalized-level, or contribution limits. Filtered books remain below the matching list.
 3. Open **Adjust scoring** to enable a variable, choose its normalization and curve, and set a signed weight. For a linear page term, choose **Points per page**, set the rate to `-0.01`, and set reference `0`. Raw anchors set the caps.
-4. **Define ideal book** shares the scoring model. Its optional domain target requires explicit depth, importance, strength, and confidence choices.
+4. **Define ideal book** shares the scoring model. Choose subjects, desired depth and importance, plus minimum connection strength and confidence, then **Apply**. A target alone does not change ranking: enable and weight a target measure in **Adjust scoring**, or use it in filters, columns or the Pareto plot. Subject coverage works only when all selected subject depths are known. No book currently has a complete connection review, so the connected measures remain unknown.
 5. Open **Pareto tradeoffs** and choose **Score / sources** to compare known catalog values immediately. The three boundaries are red, blue and dark yellow. Each is computed after removing every book on the earlier boundaries. Page and connection axes require the corresponding evidence.
 6. Panel edits are drafts until **Apply**. **Cancel** discards them. Selection and text search act immediately.
 7. Open **Columns** to select raw values and score contributions. The default shows Year, Pages, Amazon ratings, and Sources, alongside Score, Title / author, selection, and Details. Scoring changes do not add columns; manual column choices remain custom. The same choices appear as labelled values on a phone.
@@ -33,7 +41,7 @@ The generated site is in `docs/`, the folder name supported by GitHub Pages bran
 
 For the configured remote `ahrvoje/books`, the default project URL would be `https://ahrvoje.github.io/books/`. Commit and push `docs/index.html` and `docs/.nojekyll`, then choose **Settings → Pages → Deploy from a branch → main → /docs → Save**. [GitHub publishing instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
-Publishing `/docs` includes only the approximately 3.12 MB site, keeping the research tree outside the published folder and well below the 1 GB published-site limit. [GitHub Pages limits](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits). Displayed book facts and assessments use lossless gzip compression and base64 encoding. Raw edition collection metadata stays in the research tree. Full historical analyses stay in the repository. The build enforces a limit of 1,500 bytes per recommended or vetoed book.
+Publishing `/docs` includes only the approximately 3.72 MB site, keeping the research tree outside the published folder and well below the 1 GB published-site limit. [GitHub Pages limits](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits). Displayed book facts and assessments use lossless gzip compression and base64 encoding. Raw edition collection metadata stays in the research tree. Full historical analyses stay in the repository. The build enforces a limit of 1,500 bytes per recommended or vetoed book.
 
 This change prepares the local files only. It does not commit, push, enable Pages, or verify a live deployment. Rebuild and publish the generated files in `docs/` after later catalog changes.
 

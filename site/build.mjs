@@ -198,6 +198,7 @@ export function build() {
       .replace('/* BOOK_FORM */', () => rule('## Hard exclusion rules', 'Works which do not represent a book'))
       .replace('/* FICTION */', () => rule('## Hard exclusion rules', 'Exclude fiction books'))
       .replace('/* REFERENCE */', () => rule('## Hard exclusion rules', 'Technical training and reference exclusion'))
+      .replace('/* LANGUAGE */', () => rule('## Hard exclusion rules', 'Exclude books not available in English or Croatian'))
       .replace('/* V4 */', () => rule('## Veto rules', 'Hype or ephemerality dependence'))
       .replace('/* V5 */', () => rule('## Veto rules', 'Religious doctrine or ideological extremism'))
       .replace('/* V6 */', () => rule('## Veto rules', 'Partisan mobilization'))

@@ -1,214 +1,249 @@
 # Vetoed books
 
-Updated **2026-10-21, Europe/Warsaw**. **205 unique source works**. [Rating-count update](analysis/analysis_ratinggaps_261021_1704.md); [category review](analysis/analysis_categories_261021_1600.md). Scores remain counterfactual and do not override vetoes.
+[Language exclusion update](analysis/analysis_top100lang_261021_2230.md).
+
+Updated **2026-10-22, Europe/Warsaw**. **238 unique source works**. [Rating-count update](analysis/analysis_ratinggaps_261021_1704.md); [category review](analysis/analysis_categories_261021_1600.md). Scores remain counterfactual and do not override vetoes.
 
 | Entry date | First year | Author | Title | Counterfactual /100 | Veto | Veto confidence | Sources | Pages (edition) | Amazon ratings |
 |---|---|---|---|---:|---|---|---|---:|---:|
-| 2026-10-20 | 2001 | Jim Collins | [Good To Great](analysis/analysis_vetogates_261021_0047.md#g0154) | **49.92** | V1 | moderate | 115, 149 | [300](https://openlibrary.org/books/OL17035731M/Good_to_great) | [9137](https://www.amazon.com.au/dp/0066620996) |
-| 2026-10-20 | 2000 | Stephen Ambrose | [Nothing Like It in the World](analysis/analysis_vetogates_261021_0047.md#nc7d6716583) | **44.66** | V1 | moderate | 141, 143 | [432](https://www.simonandschuster.net/books/Nothing-Like-It-In-the-World/Stephen-E-Ambrose/9780743210836) | Unknown |
-| 2026-10-20 | 2012 | Ray Kurzweil | [How to Create a Mind](analysis/analysis_vetogates_261021_0047.md#nc91dae0186) | **42.87** | V1; V4 | moderate | 135 | [352](https://www.penguinrandomhouse.com/books/306914/how-to-create-a-mind-by-ray-kurzweil/9781101601105/) | Unknown |
-| 2026-10-19 | 2020 | Peter H. Diamandis; Steven Kotler | [The Future Is Faster Than You Think](analysis/analysis_vetogates_261021_0047.md#g0402) | **41.17** | V4 | moderate | 116 | [384](https://openlibrary.org/books/OL29822139M/Future_Is_Faster_Than_You_Think) | Unknown |
-| 2026-10-17 | 2014 | Annie Jacobsen | [Operation Paperclip](analysis/analysis_vetogates_261021_0047.md#q1004) | **37.67** | V1 | moderate | 4, 5, 139 | [592](https://books.google.com/books/about/Operation_Paperclip.html?id=Rs1CCgAAQBAJ) | Unknown |
-| 2026-10-19 | 1910 | Norman Angell | [The Great Illusion](analysis/analysis_vetogates_261021_0047.md#g1303) | **37.34** | V1 | moderate | 126 | [407](https://openlibrary.org/books/OL7165009M/The_great_illusion) | Unknown |
-| 2026-10-17 | 2022 | Peter Zeihan | [The End of the World Is Just the Beginning](analysis/analysis_vetogates_261021_0047.md#q1015) | **37.16** | V4 | moderate | 8, 9, 132 | [400](https://openlibrary.org/books/OL38246202M/The_End_of_the_World_Is_Just_the_Beginning) | Unknown |
-| 2026-10-20 | 2023 | Will Hermes | [Lou Reed: The King of New York](analysis/analysis_vetogates_261021_0047.md#ndf6ff2456c) | **36.84** | V3 | moderate | 132 | [560](https://books.google.com/books/about/Lou_Reed.html?id=XnagEAAAQBAJ) | Unknown |
-| 2026-10-19 | 2009 | Andre Agassi | [Open](analysis/analysis_vetogates_261021_0047.md#g0020) | **36.67** | V3 | moderate | 114, 148 | [385](https://openlibrary.org/books/OL24460818M/Open) | [25508](https://www.amazon.com.au/dp/0307268195) |
-| 2026-10-19 | 2001 | Hans-Hermann Hoppe | [Democracy: The God That Failed](analysis/analysis_vetogates_261021_0047.md#g0716) | **36.62** | V5 | high | 119 | [220](https://openlibrary.org/books/OL8056090M/Democracy_The_God_that_Failed) | Unknown |
-| 2026-10-17 | 2007 | Tim Weiner | [Legacy of Ashes](analysis/analysis_vetogates_261021_0047.md#q1009) | **36.17** | V1 | moderate | 5 | [702](https://openlibrary.org/books/OL35365831M/Legacy_of_ashes) | Unknown |
-| 2026-10-17 | 2021 | Séamas O'Reilly | [Did Ye Hear Mammy Died?](analysis/analysis_vetogates_261021_0047.md#q1057) | **35.89** | V3 | moderate | 3 | [192](https://www.hachettebookgroup.com/titles/seamas-oreilly/did-ye-hear-mammy-died/9780316424271/) | [2825](https://www.amazon.com.au/dp/1668607549) |
-| 2026-10-19 | 1973 | Murray N. Rothbard | [For A New Liberty](analysis/analysis_categories_261021_1600.md#g0721) | **35.72** | V6 | moderate | 119 | [432](https://openlibrary.org/books/OL37766442M/For_a_New_Liberty) | Unknown |
-| 2026-10-20 | 1788 | Alexander Hamilton; James Madison; John Jay | [The Federalist Papers](analysis/analysis_categories_261021_1600.md#n63b96e5c2a) | **35.17** | V6 | high | 132 | [559](https://openlibrary.org/books/OL7589397M/The_Federalist_Papers_(Mentor_Book_Mt328)) | Unknown |
-| 2026-10-17 | 2009 | Iain McGilchrist | [The Master and His Emissary](analysis/analysis_vetogates_261021_0047.md#q1016) | **35.02** | V1 | moderate | 2, 8, 144 | [616](https://yalebooks.yale.edu/book/9780300245929/master-and-his-emissary/?trk=article-ssr-frontend-pulse_little-text-block) | Unknown |
-| 2026-10-17 | 2017 | Vijay Prashad | [Red Star Over the Third World](analysis/analysis_categories_261021_1600.md#q1025) | **34.25** | V6 | moderate | 5 | [144](https://openlibrary.org/books/OL29411537M/Red_Star_over_the_Third_World) | Unknown |
-| 2026-10-20 | 2023 | Michael Lewis | [Going Infinite: The Rise and Fall of a New Tycoon](analysis/analysis_vetogates_261021_0047.md#n6c8b42af06) | **33.56** | V1 | moderate | 128 | [288](https://wwnorton.co.uk/books/9781324074335-going-infinite) | [10489](https://www.amazon.com/dp/1324074337) |
-| 2026-10-17 | 2010 | Christopher Ryan; Cacilda Jethá | [Sex at Dawn](analysis/analysis_vetogates_261021_0047.md#q1058) | **33.35** | V1 | moderate | 6, 132 | [400](https://openlibrary.org/books/OL24521078M/Sex_at_dawn) | Unknown |
-| 2026-10-20 | 2022 | Katherine Rundell | [Super-Infinite](analysis/analysis_vetogates_261021_0047.md#n00fa6f411e) | **32.83** | V3 | moderate | 132 | [352](https://academic.macmillan.com/academictrade/9781250872500/superinfinite/) | Unknown |
-| 2026-10-20 | 2012 | Scott Jurek; Steve Friedman | [Eat & Run](analysis/analysis_vetogates_261021_0047.md#n2044af222d) | **32.38** | V3 | moderate | 132 | [273](https://books.google.com/books/about/Eat_Run.html?id=WDwS3NAS26gC) | Unknown |
-| 2026-10-17 | 1922 | Errico Malatesta | [At the Café](analysis/analysis_categories_261021_1600.md#q0994) | **32.24** | V6 | moderate | 5 | [157](https://openlibrary.org/books/OL60309114M/At_The_Café) | Unknown |
-| 2026-10-19 | 2014 | Steven Kotler | [The Rise of Superman](analysis/analysis_vetogates_261021_0047.md#g0669) | **32.21** | V4 | moderate | 118, 162 | [234](https://openlibrary.org/books/OL27156095M/The_rise_of_superman) | Unknown |
-| 2026-10-17 | 1978 | Albert Camus | [Travels in the Americas](analysis/analysis_vetogates_261021_0047.md#q1053) | **31.45** | V3 | moderate | 8 | [152](https://openlibrary.org/books/OL57518033M/Travels_in_the_Americas) | Unknown |
-| 2026-10-20 | 1986 | Patrick Leigh Fermor | [Between the Woods and the Water](analysis/analysis_vetogates_261021_0047.md#n00c6e6fe81) | **31.38** | V3 | moderate | 135 | [280](https://www.nyrb.com/products/between-the-woods-and-the-water) | Unknown |
-| 2026-10-20 | 2011 | Annie Jacobsen | [Area 51: An Uncensored History of America's Top Secret Military Base](analysis/analysis_vetogates_261021_0047.md#nc758fbb344) | **30.84** | V1 | moderate | 139 | [592](https://www.hachettebookgroup.com/titles/annie-jacobsen/area-51/9780316202305/) | Unknown |
-| 2026-10-17 | 1848 | Karl Marx; Friedrich Engels | [The Communist Manifesto](analysis/analysis_categories_261021_1600.md#q1005) | **30.75** | V1; V5; V6 | high | 2, 5 | [92](https://openlibrary.org/books/OL54148524M/Communist_Manifesto) | Unknown |
-| 2026-10-17 | 2020 | Brian C. Muraresku | [The Immortality Key](analysis/analysis_vetogates_261021_0047.md#q1074) | **30.54** | V1 | moderate | 8 | [352](https://openlibrary.org/books/OL29844403M/Immortality_Key) | Unknown |
-| 2026-10-20 | 1996 | James McBride | [The Color of Water](analysis/analysis_vetogates_261021_0047.md#n83f907156f) | **30.46** | V3 | moderate | 132 | [336](https://www.penguinrandomhouse.com/books/348278/the-color-of-water-by-james-mcbride/) | Unknown |
-| 2026-10-20 | 2013 | Patrick Leigh Fermor | [The Broken Road](analysis/analysis_vetogates_261021_0047.md#need2181c15) | **30.39** | V3 | moderate | 135 | [392](https://www.penguinrandomhouse.com/books/236046/the-broken-road-by-patrick-leigh-fermor-edited-by-colin-thubron-and-artemis-cooper/9781590177792/) | Unknown |
-| 2026-10-21 | 2008 | Pete Sampras with Peter Bodo | [A Champion's Mind](analysis/analysis_bgbillgates_261021_0210.md#bgef288074cb) | **29.98** | V3 | moderate | 148 | [306](https://books.google.com/books/about/A_Champion_s_Mind.html?id=w3HAwAEACAAJ) | Unknown |
-| 2026-10-17 | 150 | Multiple ancient authors | [The Bible](analysis/analysis_vetogates_261021_0047.md#q1046) | **29.97** | V5 | moderate | 6, 8 | Unknown | Unknown |
-| 2026-10-20 | 2023 | Michio Kaku | [Quantum Supremacy](analysis/analysis_vetogates_261021_0047.md#n298e5c0ab7) | **29.83** | V1; V4 | moderate | 139 | [352](https://books.google.com/books/about/Quantum_Supremacy.html?hl=en&id=WkDSEAAAQBAJ&output=html_text) | Unknown |
-| 2026-10-20 | 1970 | Isaac Asimov | [Asimov’s Guide to Shakespeare](analysis/analysis_vetogates_261021_0047.md#nc168b938b7) | **29.67** | V3 | moderate | 135 | [1513](https://books.google.com/books?id=QUYgAQAAIAAJ) | Unknown |
-| 2026-10-20 | 1977 | Patrick Leigh Fermor | [A Time of Gifts](analysis/analysis_vetogates_261021_0047.md#n400d8c6d93) | **29.60** | V3 | moderate | 135 | [344](https://www.nyrb.com/products/a-time-of-gifts) | Unknown |
-| 2026-10-17 | 2021 | Iain McGilchrist | [The Matter with Things](analysis/analysis_vetogates_261021_0047.md#q1047) | **29.30** | V1 | moderate | 8 | [1500](https://openlibrary.org/books/OL35588435M/The_Matter_with_Things) | Unknown |
-| 2026-10-17 | 2014 | Bessel van der Kolk | [The Body Keeps the Score](analysis/analysis_vetogates_261021_0047.md#q1080) | **28.93** | V1 | moderate | 4, 6, 7, 8, 143 | [464](https://www.penguinrandomhouse.com/books/313183/the-body-keeps-the-score-by-bessel-van-der-kolk-md/) | Unknown |
-| 2026-10-20 | 2003 | David Foster Wallace | [Everything and More: A Compact History of Infinity](analysis/analysis_vetogates_261021_0047.md#n1583471893) | **28.69** | V1 | moderate | 135, 140 | [320](https://www.ams.org/journals/notices/200406/200406FullIssue.pdf) | Unknown |
-| 2026-10-17 | 2011 | Stephen Greenblatt | [The Swerve](analysis/analysis_vetogates_261021_0047.md#q1034) | **28.58** | V1 | moderate | 2, 7 | [356](https://openlibrary.org/books/OL25053773M/The_swerve) | Unknown |
-| 2026-10-21 | 1941 | James Burnham | [The Managerial Revolution](analysis/analysis_bgmarcandree_261021_0210.md#bgf32c34d084) | **28.47** | V1 | moderate | 162 | [285](https://openlibrary.org/books/OL6429598M/The_managerial_revolution) | Unknown |
-| 2026-10-20 | 2022 | Harvey Fierstein | [I Was Better Last Night](analysis/analysis_vetogates_261021_0047.md#nc2cbcb068f) | **28.42** | V3 | moderate | 132 | [400](https://www.penguinrandomhouse.com/books/678118/i-was-better-last-night-by-harvey-fierstein/9780593320525/) | [1411](https://www.amazon.com/dp/0593320522) |
-| 2026-10-20 | 2023 | Britney Spears | [The Woman in Me](analysis/analysis_vetogates_261021_0047.md#nfd0337d156) | **28.13** | V3 | moderate | 132 | [288](https://books.google.com/books/about/The_Woman_in_Me.html?id=15p5zwEACAAJ) | Unknown |
-| 2026-10-19 | 2017 | Thi Bui | [The Best We Could Do](analysis/analysis_vetogates_261021_0047.md#g1300) | **27.88** | V3 | moderate | 126, 148 | [327](https://openlibrary.org/books/OL26886785M/The_Best_We_Could_Do) | Unknown |
-| 2026-10-20 | 2019 | Brian Toohey | [Secret: The Making of Australia's Security State](analysis/analysis_vetogates_261021_0047.md#nf36ec9efbe) | **27.72** | V1 | moderate | 141 | [400](https://www.simonandschuster.com/books/Secret/Brian-Toohey/9780522872804) | Unknown |
-| 2026-10-17 | 1985 | Oliver Sacks | [The Man Who Mistook His Wife for a Hat](analysis/analysis_vetogates_261021_0047.md#q1075) | **27.35** | V1 | moderate | 6 | [312](https://openlibrary.org/books/OL46626867M/Man_Who_Mistook_His_Wife_for_a_Hat) | Unknown |
-| 2026-10-17 | 2023 | John Trent | [Second Sunrise](analysis/analysis_vetogates_261021_0047.md#q1091) | **27.16** | V3 | moderate | 4 | [192](https://imusic.se/books/9798985191301/john-trent-2023-second-sunrise-five-decades-of-history-at-the-western-states-endurance-run-inbunden-bok) | Unknown |
-| 2026-10-20 | 2021 | Billy Porter | [Unprotected](analysis/analysis_vetogates_261021_0047.md#na80c1dd0b2) | **26.93** | V3 | moderate | 132 | [288](https://books.google.com/books/about/Unprotected.html?id=i8QdEAAAQBAJ) | Unknown |
-| 2026-10-20 | 2023 | Elliot Page | [Pageboy](analysis/analysis_vetogates_261021_0047.md#n1d712210cc) | **26.63** | V3 | moderate | 132 | [288](https://us.macmillan.com/books/9781250878359/pageboy/) | Unknown |
-| 2026-10-17 | 2009 | Christopher McDougall | [Born to Run](analysis/analysis_vetogates_261021_0047.md#q1073) | **26.42** | V1 | moderate | 3 | [266](https://openlibrary.org/books/OL39203498M/Born_to_run) | Unknown |
-| 2026-10-17 | 2017 | Matthew Walker | [Why We Sleep](analysis/analysis_vetogates_261021_0047.md#q1088) | **26.05** | V1 | moderate | 8, 132, 148 | [368](https://openlibrary.org/books/OL26935529M/Why_We_Sleep) | Unknown |
-| 2026-10-17 | 1947 | Anne Frank | [The Diary of a Young Girl](analysis/analysis_vetogates_261021_0047.md#q0879) | **25.94** | V3 | moderate | 8, 132 | [352](https://openlibrary.org/books/OL7359688M/The_Diary_of_a_Young_Girl_(Puffin_modern_classics)) | Unknown |
-| 2026-10-19 | 2019 | Axel Vervoordt | [Portraits of Interiors](analysis/analysis_vetogates_261021_0047.md#g1275) | **25.64** | V3 | moderate | 125 | [320](https://www.axel-vervoordt.com/books/portraits-of-interiors) | [179](https://www.amazon.com.au/dp/2080203754) |
-| 2026-10-20 | 2015 | Patrick Taylor | [Lost on Purpose: The Adventures of a 21st Century Mountain Man](analysis/analysis_vetogates_261021_0047.md#nb75ecb1bfa) | **25.27** | V3 | low | 143 | [190](https://www.barnesandnoble.com/w/lost-on-purpose-patrick-taylor/1123138557) | Unknown |
-| 2026-10-17 | 2015 | David Talbot | [The Devil's Chessboard](analysis/analysis_vetogates_261021_0047.md#q1052) | **25.24** | V1 | moderate | 2, 4 | [686](https://openlibrary.org/books/OL27190177M/The_devil's_chessboard) | Unknown |
-| 2026-10-17 | 2005 | Carole Radziwill | [What Remains](analysis/analysis_vetogates_261021_0047.md#q1101) | **25.23** | V3 | moderate | 4 | [264](https://openlibrary.org/books/OL20944750M/What_remains) | Unknown |
-| 2026-10-19 | 2021 | Sean McMeekin | [Stalin's War](analysis/analysis_vetogates_261021_0047.md#g1298) | **24.43** | V1; V2 | moderate | 126, 167 | [864](https://openlibrary.org/books/OL32520472M/Stalin's_War) | Unknown |
-| 2026-10-20 | 2017 | Cat Marnell | [How to Murder Your Life](analysis/analysis_vetogates_261021_0047.md#n9e8aa13554) | **24.37** | V3 | moderate | 132 | [384](https://www.simonandschuster.com/books/How-to-Murder-Your-Life/Cat-Marnell/9781476752396) | [4779](https://www.amazon.com/dp/1476752397) |
-| 2026-10-17 | 1998 | Leonard Shlain | [The Alphabet Versus the Goddess](analysis/analysis_vetogates_261021_0047.md#q1100) | **24.36** | V1 | moderate | 7 | [464](https://openlibrary.org/books/OL361538M/The_alphabet_versus_the_goddess) | Unknown |
-| 2026-10-17 | 2006 | Greg Mortenson; David Oliver Relin | [Three Cups of Tea](analysis/analysis_vetogates_261021_0047.md#q1093) | **24.35** | V1 | high | 6 | [338](https://openlibrary.org/books/OL24766756M/Three_cups_of_tea) | Unknown |
-| 2026-10-20 | 1998 | Thich Nhat Hanh | [The Heart of the Buddha's Teaching](analysis/analysis_vetogates_261021_0047.md#n07829fa11f) | **24.18** | V5 | high | 144 | [265](https://openlibrary.org/books/OL356095M/The_heart_of_the_Buddha's_teaching) | Unknown |
-| 2026-10-17 | -299 | Traditionally Laozi | [Tao Te Ching](analysis/analysis_vetogates_261021_0047.md#q1029) | **24.13** | V5 | moderate | 2, 130, 173 | [49](https://openlibrary.org/books/OL61330534M/Tao_te_ching) | Unknown |
-| 2026-10-17 | 2023 | Bob Crowley; Hal V. Hall; Tim Twietmeyer | [The Places We Run](analysis/analysis_vetogates_261021_0047.md#q1107) | **24.11** | V3 | moderate | 4 | Unknown | Unknown |
-| 2026-10-17 | 2017 | John Hodgman | [Vacationland](analysis/analysis_vetogates_261021_0047.md#q1108) | **23.98** | V3 | moderate | 6 | [308](https://openlibrary.org/books/OL26940586M/Vacationland) | Unknown |
-| 2026-10-19 | 2010 | Angus Cook; Matthew Barney; Elizabeth Peyton | [Matthew Barney & Elizabeth Peyton: Blood of Two](analysis/analysis_vetogates_261021_0047.md#g1274) | **23.65** | V3 | moderate | 125 | [139](https://openlibrary.org/books/OL44867483M/Matthew_Barney_Elizabeth_Peyton) | Unknown |
-| 2026-10-20 | 2022 | Selma Blair | [Mean Baby](analysis/analysis_vetogates_261021_0047.md#nf5ac85a6d8) | **23.62** | V3 | moderate | 132 | [320](https://www.penguinrandomhouse.com/books/646493/mean-baby-by-selma-blair/9780593082775/) | Unknown |
-| 2026-10-17 | 2008 | Nicholson Baker | [Human Smoke](analysis/analysis_vetogates_261021_0047.md#q1051) | **23.54** | V1 | moderate | 5 | [800](https://openlibrary.org/books/OL11758382M/Human_Smoke) | Unknown |
-| 2026-10-20 | 2023 | Hadley Vlahos | [The In-Between](analysis/analysis_vetogates_261021_0047.md#n22eb055506) | **23.47** | V3 | moderate | 145 | [288](https://www.penguinrandomhouse.com/books/709707/the-in-between-by-hadley-vlahos-rn/) | Unknown |
-| 2026-10-19 | 1997 | Rick Bragg | [All Over but the Shoutin'](analysis/analysis_vetogates_261021_0047.md#g0036) | **23.11** | V3 | moderate | 114 | [329](https://openlibrary.org/books/OL664354M/All_over_but_the_shoutin') | [3153](https://www.amazon.com.au/dp/0679774025) |
-| 2026-10-17 | 2001 | Haven Kimmel | [A Girl Named Zippy](analysis/analysis_vetogates_261021_0047.md#q1097) | **23.09** | V3 | moderate | 3 | [275](https://openlibrary.org/books/OL6781028M/A_girl_named_Zippy) | Unknown |
-| 2026-10-19 | 2002 | Ben Mezrich | [Bringing Down The House](analysis/analysis_vetogates_261021_0047.md#g0506) | **22.75** | V1 | moderate | 117 | [257](https://openlibrary.org/books/OL24202327M/Bringing_down_the_house) | Unknown |
-| 2026-10-17 | 1994 | Richard Preston | [The Hot Zone](analysis/analysis_vetogates_261021_0047.md#q1087) | **22.61** | V1 | moderate | 2, 3, 4, 143 | [368](https://www.penguinrandomhouse.com/books/133843/the-hot-zone-by-richard-preston/) | Unknown |
-| 2026-10-19 | 1977 | Bruce Chatwin | [In Patagonia](analysis/analysis_vetogates_261021_0047.md#g1047) | **22.60** | V3 | moderate | 122 | [260](https://openlibrary.org/books/OL22595741M/In_Patagonia) | Unknown |
-| 2026-10-20 | 2019 | Françoise Vergès | [Decolonial Feminism](analysis/analysis_categories_261021_1600.md#n4b4d8691d3) | **22.58** | V6 | moderate | 145 | [128](https://openlibrary.org/books/OL29466645M/Decolonial_Feminism) | Unknown |
-| 2026-10-17 | 1999 | Gabor Maté | [Scattered Minds](analysis/analysis_vetogates_261021_0047.md#q1099) | **22.54** | V1 | moderate | 4 | [368](https://www.penguinrandomhouse.com/books/734461/scattered-minds-by-gabor-mate-md/9780593714379/) | Unknown |
-| 2026-10-17 | 1973 | Chögyam Trungpa | [Cutting Through Spiritual Materialism](analysis/analysis_vetogates_261021_0047.md#q1055) | **21.90** | V5 | moderate | 4, 153 | [256](https://openlibrary.org/books/OL8697747M/Cutting_Through_Spiritual_Materialism) | Unknown |
-| 2026-10-17 | 1992 | Joseph Mitchell | [Up in the Old Hotel](analysis/analysis_vetogates_261021_0047.md#q1094) | **21.88** | V3 | moderate | 8 | [716](https://openlibrary.org/books/OL1743584M/Up_in_the_old_hotel_and_other_stories) | Unknown |
-| 2026-10-17 | 2012 | Steven Holcomb; Steve Eubanks | [But Now I See](analysis/analysis_vetogates_261021_0047.md#q1109) | **21.84** | V3 | moderate | 3 | [210](https://openlibrary.org/books/OL30662909M/But_now_I_see) | Unknown |
-| 2026-10-17 | 1992 | Terence McKenna | [Food of the Gods](analysis/analysis_vetogates_261021_0047.md#q1104) | **21.83** | V1 | moderate | 2, 122 | [311](https://openlibrary.org/books/OL21857296M/Food_of_the_gods) | Unknown |
-| 2026-10-20 | 1998 | Travis Roy; E. M. Swift | [Eleven Seconds](analysis/analysis_vetogates_261021_0047.md#n300d2c4171) | **21.38** | V3 | moderate | 143 | [240](https://www.hachettebookgroup.com/titles/travis-roy/eleven-seconds/9780446521888/?lens=grand-central-publishing) | Unknown |
-| 2026-10-20 | 2010 | Henri J. M. Nouwen | [Spiritual Formation](analysis/analysis_vetogates_261021_0047.md#n71f5038224) | **21.17** | V5 | high | 132 | [161](https://openlibrary.org/books/OL33431066M/Spiritual_Formation) | Unknown |
-| 2026-10-20 | 2023 | Paris Hilton | [Paris: The Memoir](analysis/analysis_vetogates_261021_0047.md#n3e1a9a8e6e) | **21.12** | V3 | moderate | 132 | [336](https://books.google.com/books/about/Paris.html?id=o7hfzwEACAAJ) | Unknown |
-| 2026-10-20 | 2021 | Sophie Ellis-Bextor | [Spinning Plates](analysis/analysis_vetogates_261021_0047.md#n057517a2a7) | **21.02** | V3 | moderate | 132 | [336](https://openlibrary.org/books/OL33902382M/Spinning_Plates_Music_Men_Motherhood_and_Me) | Unknown |
-| 2026-10-19 | 2002 | Mahatma Gandhi; John Dear (editor) | [Mohandas Gandhi: Essential Writings](analysis/analysis_vetogates_261021_0047.md#g0967) | **20.58** | V5 | moderate | 121 | [191](https://openlibrary.org/books/OL18138585M/Mohandas_Gandhi) | Unknown |
-| 2026-10-17 | 2021 | Michelle Zauner | [Crying in H Mart](analysis/analysis_vetogates_261021_0047.md#q1084) | **20.56** | V3 | moderate | 4 | [256](https://openlibrary.org/books/OL30530106M/Crying_in_H_Mart) | Unknown |
-| 2026-10-20 | 1970 | Shunryu Suzuki | [Zen Mind, Beginners Mind](analysis/analysis_vetogates_261021_0047.md#g0929) | **20.42** | V5 | high | 121, 153 | [154](https://openlibrary.org/books/OL58679847M/Zen_Mind_Beginners_Mind) | Unknown |
-| 2026-10-17 | 2015 | Norman Ohler | [Blitzed](analysis/analysis_vetogates_261021_0047.md#q1063) | **20.04** | V1 | moderate | 2, 6, 162 | [272](https://www.penguin.com.au/books/blitzed-9780241256985) | Unknown |
-| 2026-10-17 | 2010 | Gary Taubes | [Why We Get Fat](analysis/analysis_vetogates_261021_0047.md#q1110) | **19.99** | V1 | moderate | 8, 168 | [257](https://openlibrary.org/books/OL24412483M/Why_we_get_fat_and_what_to_do_about_it) | Unknown |
-| 2026-10-20 | 2021 | James Whiteside | [Center Center](analysis/analysis_vetogates_261021_0047.md#n6be813ad2b) | **19.77** | V3 | moderate | 132 | [256](https://www.penguinrandomhouse.com/books/670038/center-center-by-james-whiteside/) | Unknown |
-| 2026-10-20 | 2014 | Bruce Pascoe | [Dark Emu](analysis/analysis_vetogates_261021_0047.md#neb36c15307) | **19.61** | V1 | moderate | 141 | [278](https://www.magabala.com/products/dark-emu) | Unknown |
-| 2026-10-21 | 2021 | Roger Garside | [China Coup](analysis/analysis_bgbalajisrin_261021_0210.md#bga0071a132f) | **19.57** | V4 | high | 167 | [256](https://www.ucpress.edu/books/china-coup/paper) | Unknown |
-| 2026-10-20 | -250 | Qoheleth (anonymous ancient author) | [Ecclesiastes](analysis/analysis_vetogates_261021_0047.md#nbf3cf4826a) | **19.57** | V5 | moderate | 135 | Unknown | Unknown |
-| 2026-10-20 | 2022 | Matthew Perry | [Friends, Lovers, and the Big Terrible Thing](analysis/analysis_vetogates_261021_0047.md#nee1fdd71da) | **19.37** | V3 | moderate | 132 | [272](https://books.google.com/books/about/Friends_Lovers_and_the_Big_Terrible_Thin.html?id=qeKEzwEACAAJ) | Unknown |
-| 2026-10-17 | 1969 | Henri Charrière | [Papillon](analysis/analysis_vetogates_261021_0047.md#q1086) | **19.35** | V1 | moderate | 6 | [434](https://openlibrary.org/books/OL47224922M/Papillon) | Unknown |
-| 2026-10-20 | 2023 | Julia Fox | [Down the Drain](analysis/analysis_vetogates_261021_0047.md#n108ec51230) | **19.28** | V3 | moderate | 132 | [336](https://www.simonandschuster.com/books/Down-the-Drain/Julia-Fox/9781668011515) | [4565](https://www.amazon.com/dp/1668011514) |
-| 2026-10-20 | 1984 | John Berger | [And Our Faces, My Heart, Brief as Photos](analysis/analysis_vetogates_261021_0047.md#naf9acccd63) | **19.22** | V3 | moderate | 132 | [120](https://www.penguinrandomhouse.com/books/808921/and-our-faces-my-heart-brief-as-photos-by-john-berger/9798896230588/) | Unknown |
-| 2026-10-17 | 1960 | William L. Shirer | [The Rise and Fall of the Third Reich](analysis/analysis_vetogates_261021_0047.md#q1048) | **19.01** | V1 | moderate | 1, 2, 5, 6, 132 | [1272](https://openlibrary.org/books/OL58667555M/The_Rise_And_Fall_Of_The_Third_Reich) | Unknown |
-| 2026-10-17 | 2007 | David Talbot (probable identification) | [Brothers](analysis/analysis_vetogates_261021_0047.md#q1070) | **18.68** | V1 | moderate | 4 | [496](https://openlibrary.org/books/OL10723420M/Brothers) | Unknown |
-| 2026-10-17 | 1960 | John Graves | [Goodbye to a River](analysis/analysis_vetogates_261021_0047.md#q1090) | **18.50** | V3 | moderate | 8 | [306](https://openlibrary.org/books/OL1852376M/Goodbye_to_a_river) | Unknown |
-| 2026-10-21 | 2015 | Peter Wohlleben | [The Hidden Life of Trees](analysis/analysis_bgblasmoros_261021_0210.md#bgab0ba11a72) | **18.37** | V1 | moderate | 173 | [288](https://greystonebooks.com/collections/uk/products/the-hidden-life-of-trees) | Unknown |
-| 2026-10-21 | 1976 | Antony C. Sutton | [Wall Street and the Rise of Hitler](analysis/analysis_bgbalajisrin_261021_0210.md#bgb6df17e31a) | **17.99** | V1 | moderate | 167 | [220](https://openlibrary.org/books/OL4884289M/Wall_Street_and_the_rise_of_Hitler) | Unknown |
-| 2026-10-17 | 2014 | Edward E. Baptist | [The Half Has Never Been Told](analysis/analysis_vetogates_261021_0047.md#q1066) | **17.77** | V1 | high | 5 | [526](https://openlibrary.org/books/OL25638805M/The_Half_Has_Never_Been_Told) | Unknown |
-| 2026-10-17 | 2011 | S. Nassir Ghaemi | [A First-Rate Madness](analysis/analysis_vetogates_261021_0047.md#q1083) | **17.74** | V1 | moderate | 4 | [340](https://openlibrary.org/books/OL24839022M/A_first-rate_madness) | Unknown |
-| 2026-10-21 | 1969 | Chögyam Trungpa | [Meditation in Action](analysis/analysis_bgstevejobs_261021_0210.md#bg67806b87bb) | **17.69** | V5 | high | 153 | [128](https://www.shambhala.com/meditation-in-action-1018.html) | Unknown |
-| 2026-10-21 | 1991 | Anthony De Mello | [The Way to Love](analysis/analysis_bgjustinkan_261021_0210.md#bg1bf6621e11) | **17.63** | V5 | high | 158 | [196](https://openlibrary.org/books/OL1099237M/The_way_to_love) | Unknown |
-| 2026-10-20 | 1966 | Lawrence S. Ritter | [The Glory of Their Times](analysis/analysis_vetogates_261021_0047.md#n56a988fd25) | **17.53** | V3 | moderate | 135 | [384](https://books.google.com/books/about/The_Glory_of_Their_Times.html?id=DXJgvIwXW6MC) | Unknown |
-| 2026-10-17 | 1953 | Shirley Jackson | [Life Among the Savages](analysis/analysis_vetogates_261021_0047.md#q1098) | **17.45** | V3 | moderate | 6 | [229](https://openlibrary.org/books/OL27186365M/Life_among_the_savages) | Unknown |
-| 2026-10-20 | 2020 | Benjamin Bikman | [Why We Get Sick](analysis/analysis_vetogates_261021_0047.md#nb5b5cbaa5e) | **17.32** | V1 | moderate | 132 | [270](https://openlibrary.org/books/OL29530207M/Why_We_Get_Sick) | Unknown |
-| 2026-10-17 | 1918 | Oswald Spengler | [The Decline of the West](analysis/analysis_vetogates_261021_0047.md#q1059) | **17.20** | V1 | moderate | 7 | [468](https://openlibrary.org/books/OL58797222M/The_decline_of_the_west) | Unknown |
-| 2026-10-17 | 1992 | William Manchester | [A World Lit Only by Fire](analysis/analysis_vetogates_261021_0047.md#q1072) | **16.78** | V1 | moderate | 2 | [318](https://openlibrary.org/books/OL1558958M/A_world_lit_only_by_fire) | Unknown |
-| 2026-10-17 | 2005 | Bruce H. Lipton | [The Biology of Belief](analysis/analysis_vetogates_261021_0047.md#q1126) | **16.74** | V1 | moderate | 6 | [204](https://openlibrary.org/books/OL24966458M/The_biology_of_belief) | Unknown |
-| 2026-10-19 | 2016 | Zach Anner | [If At Birth You Don't Succeed](analysis/analysis_vetogates_261021_0047.md#g0073) | **16.09** | V3 | moderate | 114 | [338](https://openlibrary.org/books/OL27202370M/If_at_birth_you_don't_succeed) | [687](https://www.amazon.com.au/dp/162779364X) |
-| 2026-10-17 | 1999 | Martha Beck | [Expecting Adam](analysis/analysis_vetogates_261021_0047.md#q1124) | **15.91** | V5 | moderate | 5 | [328](https://openlibrary.org/books/OL365796M/Expecting_Adam) | Unknown |
-| 2026-10-19 | 2015 | Cheryl Strayed | [Brave Enough](analysis/analysis_vetogates_261021_0047.md#g0049) | **15.49** | V3 | moderate | 114 | [160](https://openlibrary.org/books/OL32871632M/Brave_Enough) | Unknown |
-| 2026-10-21 | 1974 | Antony C. Sutton | [Wall Street and the Bolshevik Revolution](analysis/analysis_bgbalajisrin_261021_0210.md#bgb91b2c2d62) | **15.29** | V1 | moderate | 167 | [232](https://openlibrary.org/books/OL29548558M/Wall_Street_and_the_Bolshevik_Revolution) | Unknown |
-| 2026-10-17 | 1956 | Sławomir Rawicz; Ronald Downing | [The Long Walk](analysis/analysis_vetogates_261021_0047.md#q1106) | **15.23** | V1 | high | 6 | [240](https://openlibrary.org/books/OL15977708M/The_long_walk) | Unknown |
-| 2026-10-20 | 2015 | Jenny Lawson | [Furiously Happy: A Funny Book About Horrible Things](analysis/analysis_vetogates_261021_0047.md#nf9c8eb6d82) | **15.14** | V3 | moderate | 135 | [329](https://books.google.com/books?id=J4xjrgEACAAJ) | Unknown |
-| 2026-10-20 | 1999 | David Keys | [Catastrophe: An Investigation into the Origins of the Modern World](analysis/analysis_vetogates_261021_0047.md#n7f242a07e2) | **15.12** | V1 | moderate | 141 | [368](https://www.penguinrandomhouse.com/books/92253/catastrophe-by-david-keys/) | Unknown |
-| 2026-10-19 | 2018 | Michelle Obama | [Becoming](analysis/analysis_vetogates_261021_0047.md#g0040) | **14.91** | V3 | moderate | 114 | [448](https://openlibrary.org/books/OL26502526M/Becoming) | Unknown |
-| 2026-10-17 | 1993 | Jennifer Toth | [The Mole People](analysis/analysis_vetogates_261021_0047.md#q1122) | **14.67** | V1 | moderate | 3 | [267](https://openlibrary.org/books/OL1414520M/The_mole_people) | Unknown |
-| 2026-10-19 | 2003 | Laurence Shames; Peter Barton | [Not Fade Away](analysis/analysis_vetogates_261021_0047.md#g0097) | **14.56** | V3 | moderate | 114 | [224](https://openlibrary.org/books/OL3303478M/Not_fade_away) | Unknown |
-| 2026-10-19 | 2005 | Jung Chang; Jon Halliday | [Mao: The Unknown Story](analysis/analysis_vetogates_261021_0047.md#g0733) | **13.98** | V1 | moderate | 119 | [814](https://openlibrary.org/books/OL22163185M/Mao) | Unknown |
-| 2026-10-19 | 2020 | Matthew McConaughey | [Greenlights](analysis/analysis_vetogates_261021_0047.md#g0066) | **13.60** | V3 | moderate | 114, 132 | [304](https://openlibrary.org/books/OL38567778M/Greenlights) | [73035](https://www.amazon.com.au/dp/1472280849) |
-| 2026-10-17 | 1995 | Dave Pelzer | [A Child Called It](analysis/analysis_vetogates_261021_0047.md#q1119) | **13.57** | V3 | moderate | 5 | [144](https://openlibrary.org/books/OL7988848M/A_Child_Called_It) | Unknown |
-| 2026-10-17 | 2008 | Carrie Fisher | [Wishful Drinking](analysis/analysis_vetogates_261021_0047.md#q1103) | **13.32** | V3 | moderate | 4 | [163](https://openlibrary.org/books/OL24930605M/Wishful_drinking) | Unknown |
-| 2026-10-20 | 1997 | Don Miguel Ruiz | [The Four Agreements](analysis/analysis_vetogates_261021_0047.md#g0919) | **13.12** | V5 | moderate | 121, 173 | [224](https://openlibrary.org/books/OL12112215M/The_Four_Agreements) | Unknown |
-| 2026-10-19 | 2017 | Gucci Mane; Neil Martinez-Belkin | [The Autobiography of Gucci Mane](analysis/analysis_vetogates_261021_0047.md#g0116) | **13.12** | V3 | moderate | 114 | [304](https://openlibrary.org/books/OL26870733M/The_Autobiography_of_Gucci_Mane) | [5172](https://www.amazon.com.au/dp/1501165321) |
-| 2026-10-19 | 2010 | Stephen Fry | [The Fry Chronicles](analysis/analysis_vetogates_261021_0047.md#g0119) | **12.91** | V3 | moderate | 114 | [438](https://openlibrary.org/books/OL27133499M/The_Fry_chronicles) | [1493](https://www.amazon.com.au/dp/1590207149) |
-| 2026-10-17 | 2018 | David Michael Rice | [Desert Soliloquy](analysis/analysis_vetogates_261021_0047.md#q1129) | **12.88** | V3 | moderate | 4 | [268](https://openlibrary.org/books/OL40717359M/Desert_Soliloquy) | Unknown |
-| 2026-10-19 | 1995 | Graham Hancock | [Fingerprints of the Gods](analysis/analysis_vetogates_261021_0047.md#g1038) | **12.87** | V1 | moderate | 122 | [578](https://openlibrary.org/books/OL24670018M/Fingerprints_of_the_gods) | Unknown |
-| 2026-10-19 | 2018 | Stan Smith | [Stan Smith: Some People Think I’m a Shoe](analysis/analysis_vetogates_261021_0047.md#g0299) | **12.84** | V3 | moderate | 115 | [328](https://openlibrary.org/books/OL26977287M/Stan_Smith) | [102](https://www.amazon.com.au/dp/0847862747) |
-| 2026-10-19 | 2017 | Eddie Izzard | [Believe Me](analysis/analysis_vetogates_261021_0047.md#g0042) | **12.76** | V3 | moderate | 114, 148 | [348](https://openlibrary.org/books/OL27236071M/Believe_me) | [1704](https://www.amazon.com.au/dp/0399175830) |
-| 2026-10-21 | 2013 | Jim Gaffigan | [Dad Is Fat](analysis/analysis_bgbillgates_261021_0210.md#bg59d68af938) | **12.53** | V3 | moderate | 148 | [274](https://openlibrary.org/books/OL27144148M/Dad_is_fat) | Unknown |
-| 2026-10-17 | 2006 | Carolly Erickson | [Royal Panoply](analysis/analysis_vetogates_261021_0047.md#q1105) | **12.41** | V3 | moderate | 2 | [368](https://openlibrary.org/books/OL9483396M/Royal_Panoply) | Unknown |
-| 2026-10-21 | -250 | Anonymous Buddhist compilers; translated by Eknath Easwaran | [The Dhammapada](analysis/analysis_bgstevejobs_261021_0210.md#bg8007edf6c2) | **12.23** | V5 | high | 153 | [280](https://www.amazon.com.au/dp/1586380206) | [1996](https://www.amazon.com.au/dp/1586380206) |
-| 2026-10-17 | 1972 | Herbert Dingle | [Science at the Crossroads](analysis/analysis_vetogates_261021_0047.md#q1130) | **12.18** | V1 | high | 3 | [256](https://openlibrary.org/books/OL5318664M/Science_at_the_crossroads.) | Unknown |
-| 2026-10-19 | 2012 | Peter Schiff | [The Real Crash](analysis/analysis_vetogates_261021_0047.md#g0898) | **12.17** | V4 | moderate | 120 | [464](https://openlibrary.org/books/OL27999752M/The_Real_Crash) | Unknown |
-| 2026-10-19 | 2019 | Kimberley Strassel | [Resistance (At All Costs)](analysis/analysis_categories_261021_1600.md#g0750) | **11.43** | V6 | moderate | 119 | [256](https://www.amazon.com.au/dp/1538701774) | [1424](https://www.amazon.com.au/dp/1538701774) |
-| 2026-10-17 | 2013 | Brad Willis (Bhava Ram) | [Warrior Pose](analysis/analysis_vetogates_261021_0047.md#q1132) | **11.16** | V1 | moderate | 7 | [384](https://openlibrary.org/books/OL33464810M/Warrior_Pose) | Unknown |
-| 2026-10-17 | 1971 | Ayn Rand; Peter Schwartz (expanded edition) | [The New Left / The Return of the Primitive](analysis/analysis_vetogates_261021_0047.md#q1092) | **10.74** | V2 | moderate | 5 | [204](https://openlibrary.org/books/OL3622165M/The_New_Left) | Unknown |
-| 2026-10-17 | 100 | Multiple ancient authors (1 Enoch assumed) | [The Book of Enoch](analysis/analysis_vetogates_261021_0047.md#q1121) | **10.58** | V5 | moderate | 6 | Unknown | Unknown |
-| 2026-10-17 | 1998 | Farley Mowat | [The Farfarers](analysis/analysis_vetogates_261021_0047.md#q1102) | **10.43** | V1 | moderate | 8 | [377](https://openlibrary.org/books/OL45770M/The_farfarers) | Unknown |
-| 2026-10-19 | 1962 | John Steinbeck | [Travels with Charley](analysis/analysis_vetogates_261021_0047.md#g0013) | **10.23** | V3 | moderate | 114 | [277](https://openlibrary.org/books/OL2718931M/Travels_with_Charley) | [9135](https://www.amazon.com.au/dp/0140053204) |
-| 2026-10-17 | 1946 | Paramahansa Yogananda | [Autobiography of a Yogi](analysis/analysis_vetogates_261021_0047.md#q1120) | **9.89** | V5 | moderate | 4, 7, 114, 153 | [591](https://openlibrary.org/books/OL24200800M/Autobiography_of_a_Yogi) | [9252](https://www.amazon.com.au/dp/0876120796) |
-| 2026-10-19 | 2019 | Ned Ryun | [Restoring Our Republic](analysis/analysis_categories_261021_1600.md#g0751) | **9.71** | V6 | moderate | 119 | [288](https://www.amazon.com.au/dp/1705870775) | [208](https://www.amazon.com.au/dp/1705870775) |
-| 2026-10-20 | 1776 | Thomas Paine | [Common Sense](analysis/analysis_categories_261021_1600.md#n28d920ca6a) | **9.48** | V6 | high | 135 | [112](https://www.penguinrandomhouse.com/books/126135/common-sense-by-thomas-paine/) | Unknown |
-| 2026-10-21 | 1999 | Arthur Herman | [Joseph McCarthy](analysis/analysis_bgmarcandree_261021_0210.md#bg18fb64ebd8) | **9.32** | V1; V2 | moderate | 162 | [404](https://openlibrary.org/books/OL43222M/Joseph_McCarthy) | Unknown |
-| 2026-10-17 | 2004 | Adyashanti | [Emptiness Dancing](analysis/analysis_vetogates_261021_0047.md#q1118) | **8.95** | V5 | moderate | 2 | [238](https://openlibrary.org/books/OL3438369M/Emptiness_dancing) | Unknown |
-| 2026-10-17 | 1997 | Eckhart Tolle | [The Power of Now](analysis/analysis_vetogates_261021_0047.md#q1117) | **8.29** | V5 | high | 6, 158 | [235](https://openlibrary.org/books/OL26648226M/The_Power_of_Now) | Unknown |
-| 2026-10-19 | 2011 | Adyashanti | [Falling into Grace](analysis/analysis_vetogates_261021_0047.md#g0941) | **8.19** | V5 | moderate | 121 | [248](https://openlibrary.org/books/OL28493857M/Falling_into_Grace) | Unknown |
-| 2026-10-19 | 1997 | Stephen Fry | [Moab Is My Washpot](analysis/analysis_vetogates_261021_0047.md#g0088) | **8.05** | V3 | moderate | 114 | [366](https://openlibrary.org/books/OL6778146M/Moab_is_my_washpot) | [73](https://www.amazon.com.au/dp/1569472025) |
-| 2026-10-17 | 2009 | Ozzy Osbourne; Chris Ayres | [I Am Ozzy](analysis/analysis_vetogates_261021_0047.md#q1116) | **7.56** | V3 | moderate | 6 | [390](https://openlibrary.org/books/OL32106917M/I_am_Ozzy) | Unknown |
-| 2026-10-17 | 2004 | Anthony Kiedis; Larry Sloman | [Scar Tissue](analysis/analysis_vetogates_261021_0047.md#q1111) | **7.47** | V3 | moderate | 4 | [465](https://openlibrary.org/books/OL25553707M/Scar_tissue) | Unknown |
-| 2026-10-17 | 2007 | Nikki Sixx; Ian Gittins | [The Heroin Diaries](analysis/analysis_vetogates_261021_0047.md#q1112) | **7.23** | V3 | moderate | 6 | [413](https://openlibrary.org/books/OL18294830M/The_heroin_diaries) | Unknown |
-| 2026-10-17 | 2005 | Eckhart Tolle | [A New Earth](analysis/analysis_vetogates_261021_0047.md#q1123) | **7.19** | V5 | moderate | 4 | [315](https://openlibrary.org/books/OL3407556M/A_New_Earth) | Unknown |
-| 2026-10-19 | 2007 | Marcus Luttrell; Patrick Robinson | [Lone Survivor](analysis/analysis_vetogates_261021_0047.md#g1284) | **6.78** | V1 | moderate | 126, 152, 162 | [464](https://openlibrary.org/books/OL29675859M/Lone_Survivor) | Unknown |
-| 2026-10-20 | 2010 | Oliver Benjamin; The Church of the Latter-Day Dude | [The Dude De Ching](analysis/analysis_vetogates_261021_0047.md#n264eee6abf) | **6.63** | V5 | high | 130 | [220](https://www.amazon.com/dp/1539451054) | [372](https://www.amazon.com/dp/1539451054) |
-| 2026-10-20 | 350 | Various ancient authors; King James translators | [The Holy Bible (King James Version)](analysis/analysis_vetogates_261021_0047.md#nb7f45a5548) | **6.46** | V5 | high | 135 | [1274](https://www.christianbook.com/kjv-standard-text-bible-hardcover/9780521508827/pd/1508827) | Unknown |
-| 2026-10-20 | 857 | Huang Po; P’ei Hsiu (compiler); John Blofeld (translator) | [The Zen Teaching of Huang Po](analysis/analysis_vetogates_261021_0047.md#n0c5b1aa9d6) | **5.63** | V5 | high | 130 | [144](https://groveatlantic.com/book/the-zen-teaching-of-huang-po/) | [560](https://www.amazon.com/dp/0802150926) |
-| 2026-10-20 | 1975 | Georges Perec | [An Attempt at Exhausting a Place in Paris](analysis/analysis_vetogates_261021_0047.md#naee6ed9298) | **5.46** | V3 | moderate | 132 | [72](https://www.amazon.com/dp/0984115528) | [71](https://www.amazon.com/dp/0984115528) |
-| 2026-10-19 | 2020 | Madeleine Westerhout | [Off The Record](analysis/analysis_vetogates_261021_0047.md#g0741) | **5.29** | V3 | moderate | 119 | [304](https://openlibrary.org/books/OL28118518M/Off_the_Record) | Unknown |
-| 2026-10-19 | 2013 | Anjelica Huston | [A Story Lately Told](analysis/analysis_vetogates_261021_0047.md#g0033) | **4.92** | V3 | moderate | 114 | [254](https://openlibrary.org/books/OL27151079M/A_story_lately_told) | [555](https://www.amazon.com.au/dp/1451656297) |
-| 2026-10-19 | 2004 | Jed McKenna | [Spiritually Incorrect Enlightenment](analysis/analysis_vetogates_261021_0047.md#g0957) | **4.62** | V5 | moderate | 121 | [320](https://openlibrary.org/books/OL8564548M/Spiritually_Incorrect_Enlightenment) | Unknown |
-| 2026-10-19 | 2020 | Horace Cooper | [How Trump Is Making Black America Great Again](analysis/analysis_categories_261021_1600.md#g0726) | **4.59** | V6 | high | 119 | [240](https://openlibrary.org/books/OL29829048M/How_Trump_Is_Making_Black_America_Great_Again) | Unknown |
-| 2026-10-21 | 1971 | Ram Dass | [Be Here Now](analysis/analysis_bgstevejobs_261021_0210.md#bg2dae4c82d8) | **4.43** | V5 | moderate | 153 | [416](https://www.penguinrandomhouse.com/books/36952/be-here-now-by-ram-dass/) | Unknown |
-| 2026-10-19 | 2007 | Jed McKenna | [Spiritual Warfare](analysis/analysis_vetogates_261021_0047.md#g0956) | **4.39** | V5 | moderate | 121 | [328](https://openlibrary.org/books/OL11780900M/Spiritual_Warfare) | Unknown |
-| 2026-10-21 | 1972 | Thaddeus Golas | [Lazy Man's Guide to Enlightenment](analysis/analysis_bgstevejobs_261021_0210.md#bg4ea98dc691) | **4.28** | V5 | moderate | 153 | [112](https://books.google.com/books/about/Lazy_Man_s_Guide_to_Enlightenment.html?id=wpOn8RvPzU4C) | Unknown |
-| 2026-10-17 | 2007 | Charles Eisenstein | [The Ascent of Humanity](analysis/analysis_vetogates_261021_0047.md#q1127) | **4.27** | V1 | moderate | 9 | [604](https://openlibrary.org/books/OL8591202M/The_Ascent_of_Humanity) | Unknown |
-| 2026-10-21 | 2001 | don Miguel Ruiz and Janet Mills | [The Circle of Fire](analysis/analysis_bgblasmoros_261021_0210.md#bg0e7efb521b) | **4.14** | V5 | high | 173 | [128](https://www.penguinrandomhouse.com/books/601802/the-circle-of-fire-by-don-miguel-ruiz-and-janet-mills/) | Unknown |
-| 2026-10-20 | 1973 | Nisargadatta Maharaj | [I Am That](analysis/analysis_vetogates_261021_0047.md#ndc7acfe5cb) | **3.94** | V5 | moderate | 132 | [550](https://www.amazon.com/dp/0893860220) | [200](https://www.amazon.com/dp/0893860220) |
-| 2026-10-19 | 2002 | Jed McKenna | [Spiritual Enlightenment, the Damnedest Thing](analysis/analysis_vetogates_261021_0047.md#g0925) | **3.89** | V5 | moderate | 121 | [324](https://www.amazon.com/dp/0980184843) | [1287](https://www.amazon.com/dp/0980184843) |
-| 2026-10-19 | 1987 | Donald J. Trump; Tony Schwartz | [Trump: The Art of the Deal](analysis/analysis_vetogates_261021_0047.md#g0350) | **3.75** | V1 | moderate | 115 | [372](https://openlibrary.org/books/OL23109280M/Trump) | [18864](https://www.amazon.com.au/dp/0394555287) |
-| 2026-10-19 | 2020 | Corey R. Lewandowski; David N. Bossie | [Trump: America First](analysis/analysis_categories_261021_1600.md#g0791) | **3.49** | V6 | high | 119 | [304](https://openlibrary.org/books/OL29809139M/Trump_America_First) | Unknown |
-| 2026-10-19 | 2019 | Lee Smith | [The Plot Against the President](analysis/analysis_categories_261021_1600.md#g0777) | **3.35** | V6 | moderate | 119 | [304](https://openlibrary.org/books/OL28720012M/Plot_Against_the_President) | Unknown |
-| 2026-10-19 | 2016 | Jed McKenna | [Dreamstate](analysis/analysis_vetogates_261021_0047.md#g0938) | **2.67** | V5 | moderate | 121 | [260](https://openlibrary.org/books/OL37741987M/Dreamstate) | Unknown |
-| 2026-10-19 | 2020 | Nick Adams | [Trump and Churchill](analysis/analysis_categories_261021_1600.md#g0792) | **2.08** | V6 | high | 119 | [224](https://openlibrary.org/books/OL29837741M/Trump_and_Churchill) | Unknown |
-| 2026-10-20 | 1975 | Andy Warhol | [The Philosophy of Andy Warhol](analysis/analysis_vetogates_261021_0047.md#n95cc0004bf) | **1.67** | V3 | moderate | 135 | [241](https://books.google.co.uk/books?id=1FCc8dxclXcC) | Unknown |
-| 2026-10-20 | 1963 | Barbara Payton | [I Am Not Ashamed](analysis/analysis_vetogates_261021_0047.md#n776dae28e5) | **1.66** | V3 | moderate | 132 | [216](https://spurleditions.com/i-am-not-ashamed) | [123](https://www.amazon.com/dp/1943679029) |
-| 2026-10-19 | 2013 | Osho | [The Art of Living and Dying](analysis/analysis_vetogates_261021_0047.md#g0962) | **1.54** | V5 | moderate | 121 | [272](https://www.amazon.com.au/dp/1780285310) | [195](https://www.amazon.com.au/dp/1780285310) |
-| 2026-10-21 | 2013 | William J. Birnes | [UFO Hunters: Book One](analysis/analysis_bgbalajisrin_261021_0210.md#bgf76d4a1d05) | **1.10** | V1 | moderate | 167 | [352](https://us.macmillan.com/books/9780765325228/ufohunters/) | Unknown |
-| 2026-10-19 | 2020 | Dinesh D'Souza | [United States of Socialism](analysis/analysis_categories_261021_1600.md#g0793) | **1.08** | V6 | high | 119 | [304](https://openlibrary.org/books/OL28238231M/United_States_of_Socialism) | Unknown |
-| 2026-10-17 | 2015 | Zecharia Sitchin; Janet Sitchin, editor | [The Anunnaki Chronicles](analysis/analysis_vetogates_261021_0047.md#q1131) | **0.96** | V1 | moderate | 8 | [375](https://openlibrary.org/books/OL27187750M/The_Anunnaki_chronicles) | Unknown |
-| 2026-10-17 | 1985 | Christian O'Brien; Barbara Joy O'Brien | [The Genius of the Few](analysis/analysis_vetogates_261021_0047.md#q1128) | **0.66** | V1 | moderate | 8 | [320](https://books.google.com/books/about/The_Genius_of_the_Few.html?id=v2wSAQAAIAAJ) | Unknown |
-| 2026-10-19 | 2020 | Pete Hegseth | [American Crusade](analysis/analysis_categories_261021_1600.md#g0703) | **0.32** | V5; V6 | high | 119 | [352](https://openlibrary.org/books/OL28135919M/American_Crusade) | Unknown |
-| 2026-10-19 | 2020 | Sean Hannity | [Live Free or Die](analysis/analysis_categories_261021_1600.md#g0732) | **0.32** | V6 | moderate | 119 | [352](https://openlibrary.org/books/OL28561348M/Live_Free_Or_Die) | Unknown |
-| 2026-10-21 | 1973 | Paul Williams | [Das Energi](analysis/analysis_bgstevejobs_261021_0210.md#bg8b5117b700) | **-1.07** | V5 | high | 153 | [160](https://openlibrary.org/books/OL8390403M/Das_Energi) | Unknown |
-| 2026-10-19 | 2020 | Charlie Kirk | [The MAGA Doctrine](analysis/analysis_categories_261021_1600.md#g0771) | **-1.23** | V6 | high | 119 | [256](https://openlibrary.org/books/OL28914900M/MAGA_Doctrine) | Unknown |
-| 2026-10-17 | 2004 | David McGowan | [Programmed to Kill](analysis/analysis_vetogates_261021_0047.md#q1133) | **-2.32** | V1 | moderate | 9 | [406](https://openlibrary.org/books/OL7555555M/Programmed_to_Kill) | Unknown |
-| 2026-10-20 | 1937 | Julius Evola | [The Mystery of the Grail](analysis/analysis_vetogates_261021_0047.md#na8a63131c5) | **-2.33** | V5 | moderate | 132 | [208](https://www.innertraditions.com/books/the-mystery-of-the-grail) | Unknown |
-| 2026-10-17 | 1995 | David R. Hawkins | [Power vs. Force](analysis/analysis_vetogates_261021_0047.md#q1136) | **-2.42** | V1; V5 | moderate | 8 | [341](https://openlibrary.org/books/OL3949031M/Power_vs._force) | Unknown |
-| 2026-10-19 | 2019 | Donald Trump Jr. | [Triggered](analysis/analysis_categories_261021_1600.md#g0790) | **-2.98** | V6 | high | 119 | [304](https://www.amazon.com.au/dp/154608603X) | [7222](https://www.amazon.com.au/dp/154608603X) |
-| 2026-10-19 | 2020 | Lou Dobbs | [The Trump Century](analysis/analysis_categories_261021_1600.md#g0785) | **-3.47** | V6 | high | 119 | [272](https://openlibrary.org/books/OL29853520M/Trump_Century) | Unknown |
-| 2026-10-21 | 1901 | Richard Maurice Bucke | [Cosmic Consciousness](analysis/analysis_bgstevejobs_261021_0210.md#bg4084ddbdc3) | **-3.66** | V1; V5 | high | 153 | [338](https://openlibrary.org/books/OL47325016M/Cosmic_Consciousness) | Unknown |
-| 2026-10-19 | 2020 | David Horowitz | [Blitz: Trump Will Smash the Left and Win](analysis/analysis_categories_261021_1600.md#g0705) | **-4.12** | V4; V6 | high | 119 | [272](https://www.amazon.com.au/dp/1630061387) | [11446](https://www.amazon.com.au/dp/1630061387) |
-| 2026-10-19 | 2020 | Donald Trump Jr. | [Liberal Privilege](analysis/analysis_categories_261021_1600.md#g0731) | **-4.12** | V6 | high | 119 | [318](https://en.wikipedia.org/wiki/Liberal_Privilege) | [2983](https://www.amazon.com.au/dp/B08FY8TS7B) |
-| 2026-10-20 | 1930 | Edith Hamilton | [The Greek Way](analysis/analysis_vetogates_261021_0047.md#nbf6adc7afb) | **-4.74** | V2 | moderate | 141 | [347](https://openlibrary.org/books/OL17604736M/The_Greek_way.) | Unknown |
-| 2026-10-17 | 1976 | Zecharia Sitchin | [The 12th Planet](analysis/analysis_vetogates_261021_0047.md#q1134) | **-5.02** | V1 | moderate | 8 | [384](https://openlibrary.org/books/OL1530507M/The_12th_Planet) | Unknown |
-| 2026-10-17 | 1976 | Zecharia Sitchin | [The Earth Chronicles](analysis/analysis_vetogates_261021_0047.md#q1135) | **-5.39** | V1 | high | 8 | [243](https://openlibrary.org/books/OL3289260M/The_earth_chronicles_expeditions) | Unknown |
-| 2026-10-19 | 2002 | Sarah Mower | [Oscar: The Style, Inspiration and Life of Oscar de la Renta](analysis/analysis_vetogates_261021_0047.md#g0100) | **-6.82** | V3 | moderate | 114 | [192](https://openlibrary.org/books/OL8943268M/Oscar) | [4](https://www.amazon.com.au/dp/B01N1WAOZV) |
-| 2026-10-19 | 1942 | Salvador Dalí | [The Secret Life of Salvador Dalí](analysis/analysis_vetogates_261021_0047.md#g0134) | **-7.22** | V3 | moderate | 114 | [400](https://openlibrary.org/books/OL1732139M/The_secret_life_of_Salvador_Dalí) | [329](https://www.amazon.com.au/dp/0486274543) |
-| 2026-10-19 | 1996 | Logie Bruce-Lockhart | [Stuff and Nonsense](analysis/analysis_vetogates_261021_0047.md#g0111) | **-9.21** | V3 | low | 114 | [152](https://openlibrary.org/books/OL11577329M/Stuff_and_Nonsense) | [1](https://www.amazon.com.au/dp/0948400404) |
-| 2026-10-17 | 1985 | William J. Benson; Martin J. Beckman | [The Law That Never Was](analysis/analysis_vetogates_261021_0047.md#q1137) | **-16.10** | V1 | high | 6 | Unknown | Unknown |
-| 2026-10-19 | 1980 | Osho | [Sun Rises in the Evening](analysis/analysis_vetogates_261021_0047.md#g0959) | **-16.23** | V5 | moderate | 121 | [364](https://www.amazon.com/dp/0880501391) | [3](https://www.amazon.com/dp/0880501391) |
-| 2026-10-19 | 1981 | David Lifton | [Best Evidence](analysis/analysis_vetogates_261021_0047.md#g0044) | **-16.43** | V1 | moderate | 114 | [747](https://openlibrary.org/books/OL4125510M/Best_evidence) | [175](https://www.amazon.com.au/dp/B01N90ZGJ4) |
-| 2026-10-19 | 1982 | Osho | [The Great Challenge](analysis/analysis_vetogates_261021_0047.md#g0969) | **-16.56** | V5 | high | 121 | [220](https://www.amazon.com/dp/8172610076) | [4](https://www.amazon.com/dp/8172610076) |
-| 2026-10-17 | 1925 | Adolf Hitler | [Mein Kampf](analysis/analysis_categories_261021_1600.md#q1138) | **-16.84** | V1; V2; V5; V6 | high | 8, 132 | [308](https://openlibrary.org/books/OL55722130M/Mein_Kampf) | Unknown |
-| 2026-10-21 | 1928 | Edmond Bordeaux Szekely | [The Essene Gospel of Peace](analysis/analysis_bgstevejobs_261021_0210.md#bg7200d9adb3) | **-18.07** | V5 | high | 153 | [72](https://openlibrary.org/books/OL24237127M/The_Essene_Gospel_of_peace) | Unknown |
+| 2026-10-20 | 2001 | Jim Collins | [Good To Great](analysis/analysis_vetogates_261021_0047.md#g0154) | 49.92 | V1 | moderate | 115, 149, 177, 188, 193 | [300](https://openlibrary.org/books/OL17035731M/Good_to_great) | [9137](https://www.amazon.com.au/dp/0066620996) |
+| 2026-10-20 | 2000 | Stephen Ambrose | [Nothing Like It in the World](analysis/analysis_vetogates_261021_0047.md#nc7d6716583) | 44.66 | V1 | moderate | 141, 143 | [432](https://www.simonandschuster.net/books/Nothing-Like-It-In-the-World/Stephen-E-Ambrose/9780743210836) | Unknown |
+| 2026-10-20 | 2012 | Ray Kurzweil | [How to Create a Mind](analysis/analysis_vetogates_261021_0047.md#nc91dae0186) | 42.87 | V1; V4 | moderate | 135 | [352](https://www.penguinrandomhouse.com/books/306914/how-to-create-a-mind-by-ray-kurzweil/9781101601105/) | Unknown |
+| 2026-10-19 | 2020 | Peter H. Diamandis; Steven Kotler | [The Future Is Faster Than You Think](analysis/analysis_vetogates_261021_0047.md#g0402) | 41.17 | V4 | moderate | 116, 187, 193 | [384](https://openlibrary.org/books/OL29822139M/Future_Is_Faster_Than_You_Think) | Unknown |
+| 2026-10-17 | 2014 | Annie Jacobsen | [Operation Paperclip](analysis/analysis_vetogates_261021_0047.md#q1004) | 37.67 | V1 | moderate | 4, 5, 139 | [592](https://books.google.com/books/about/Operation_Paperclip.html?id=Rs1CCgAAQBAJ) | Unknown |
+| 2026-10-19 | 1910 | Norman Angell | [The Great Illusion](analysis/analysis_vetogates_261021_0047.md#g1303) | 37.34 | V1 | moderate | 126 | [407](https://openlibrary.org/books/OL7165009M/The_great_illusion) | Unknown |
+| 2026-10-17 | 2022 | Peter Zeihan | [The End of the World Is Just the Beginning](analysis/analysis_vetogates_261021_0047.md#q1015) | 37.16 | V4 | moderate | 8, 9, 132, 187, 196, 197 | [400](https://openlibrary.org/books/OL38246202M/The_End_of_the_World_Is_Just_the_Beginning) | Unknown |
+| 2026-10-20 | 2023 | Will Hermes | [Lou Reed: The King of New York](analysis/analysis_vetogates_261021_0047.md#ndf6ff2456c) | 36.84 | V3 | moderate | 132 | [560](https://books.google.com/books/about/Lou_Reed.html?id=XnagEAAAQBAJ) | Unknown |
+| 2026-10-19 | 2009 | Andre Agassi | [Open](analysis/analysis_vetogates_261021_0047.md#g0020) | 36.67 | V3 | moderate | 114, 148 | [385](https://openlibrary.org/books/OL24460818M/Open) | [25508](https://www.amazon.com.au/dp/0307268195) |
+| 2026-10-19 | 2001 | Hans-Hermann Hoppe | [Democracy: The God That Failed](analysis/analysis_vetogates_261021_0047.md#g0716) | 36.62 | V5 | high | 119 | [220](https://openlibrary.org/books/OL8056090M/Democracy_The_God_that_Failed) | Unknown |
+| 2026-10-17 | 2007 | Tim Weiner | [Legacy of Ashes](analysis/analysis_vetogates_261021_0047.md#q1009) | 36.17 | V1 | moderate | 5, 199 | [702](https://openlibrary.org/books/OL35365831M/Legacy_of_ashes) | Unknown |
+| 2026-10-17 | 2021 | Séamas O'Reilly | [Did Ye Hear Mammy Died?](analysis/analysis_vetogates_261021_0047.md#q1057) | 35.89 | V3 | moderate | 3 | [192](https://www.hachettebookgroup.com/titles/seamas-oreilly/did-ye-hear-mammy-died/9780316424271/) | [2825](https://www.amazon.com.au/dp/1668607549) |
+| 2026-10-19 | 1973 | Murray N. Rothbard | [For A New Liberty](analysis/analysis_categories_261021_1600.md#g0721) | 35.72 | V6 | moderate | 119 | [432](https://openlibrary.org/books/OL37766442M/For_a_New_Liberty) | Unknown |
+| 2026-10-20 | 1788 | Alexander Hamilton; James Madison; John Jay | [The Federalist Papers](analysis/analysis_categories_261021_1600.md#n63b96e5c2a) | 35.17 | V6 | high | 132, 189, 200 | [559](https://openlibrary.org/books/OL7589397M/The_Federalist_Papers_(Mentor_Book_Mt328)) | Unknown |
+| 2026-10-17 | 2009 | Iain McGilchrist | [The Master and His Emissary](analysis/analysis_vetogates_261021_0047.md#q1016) | 35.02 | V1 | moderate | 2, 8, 144, 192 | [616](https://yalebooks.yale.edu/book/9780300245929/master-and-his-emissary/?trk=article-ssr-frontend-pulse_little-text-block) | Unknown |
+| 2026-10-17 | 2017 | Vijay Prashad | [Red Star Over the Third World](analysis/analysis_categories_261021_1600.md#q1025) | 34.25 | V6 | moderate | 5 | [144](https://openlibrary.org/books/OL29411537M/Red_Star_over_the_Third_World) | Unknown |
+| 2026-10-20 | 2023 | Michael Lewis | [Going Infinite: The Rise and Fall of a New Tycoon](analysis/analysis_vetogates_261021_0047.md#n6c8b42af06) | 33.56 | V1 | moderate | 128, 187 | [288](https://wwnorton.co.uk/books/9781324074335-going-infinite) | [10489](https://www.amazon.com/dp/1324074337) |
+| 2026-10-17 | 2010 | Christopher Ryan; Cacilda Jethá | [Sex at Dawn](analysis/analysis_vetogates_261021_0047.md#q1058) | 33.35 | V1 | moderate | 6, 132, 205 | [400](https://openlibrary.org/books/OL24521078M/Sex_at_dawn) | Unknown |
+| 2026-10-20 | 2022 | Katherine Rundell | [Super-Infinite](analysis/analysis_vetogates_261021_0047.md#n00fa6f411e) | 32.83 | V3 | moderate | 132 | [352](https://academic.macmillan.com/academictrade/9781250872500/superinfinite/) | Unknown |
+| 2026-10-20 | 2012 | Scott Jurek; Steve Friedman | [Eat & Run](analysis/analysis_vetogates_261021_0047.md#n2044af222d) | 32.38 | V3 | moderate | 132 | [273](https://books.google.com/books/about/Eat_Run.html?id=WDwS3NAS26gC) | Unknown |
+| 2026-10-17 | 1922 | Errico Malatesta | [At the Café](analysis/analysis_categories_261021_1600.md#q0994) | 32.24 | V6 | moderate | 5 | [157](https://openlibrary.org/books/OL60309114M/At_The_Café) | Unknown |
+| 2026-10-19 | 2014 | Steven Kotler | [The Rise of Superman](analysis/analysis_vetogates_261021_0047.md#g0669) | 32.21 | V4 | moderate | 118, 162 | [234](https://openlibrary.org/books/OL27156095M/The_rise_of_superman) | Unknown |
+| 2026-10-17 | 1978 | Albert Camus | [Travels in the Americas](analysis/analysis_vetogates_261021_0047.md#q1053) | 31.45 | V3 | moderate | 8 | [152](https://openlibrary.org/books/OL57518033M/Travels_in_the_Americas) | Unknown |
+| 2026-10-20 | 1986 | Patrick Leigh Fermor | [Between the Woods and the Water](analysis/analysis_vetogates_261021_0047.md#n00c6e6fe81) | 31.38 | V3 | moderate | 135 | [280](https://www.nyrb.com/products/between-the-woods-and-the-water) | Unknown |
+| 2026-10-22 | 2011 | Patrick Thorpe | [The Legend of Zelda: Hyrule Historia](analysis/analysis_remaining_261022_0042.md#rem-u0090) | 31.33 | V3 | moderate | 175 | Unknown | Unknown |
+| 2026-10-20 | 2011 | Annie Jacobsen | [Area 51: An Uncensored History of America's Top Secret Military Base](analysis/analysis_vetogates_261021_0047.md#nc758fbb344) | 30.84 | V1 | moderate | 139 | [592](https://www.hachettebookgroup.com/titles/annie-jacobsen/area-51/9780316202305/) | Unknown |
+| 2026-10-17 | 1848 | Karl Marx; Friedrich Engels | [The Communist Manifesto](analysis/analysis_categories_261021_1600.md#q1005) | 30.75 | V1; V5; V6 | high | 2, 5, 177, 183, 185, 187, 200 | [92](https://openlibrary.org/books/OL54148524M/Communist_Manifesto) | Unknown |
+| 2026-10-17 | 2020 | Brian C. Muraresku | [The Immortality Key](analysis/analysis_vetogates_261021_0047.md#q1074) | 30.54 | V1 | moderate | 8 | [352](https://openlibrary.org/books/OL29844403M/Immortality_Key) | Unknown |
+| 2026-10-20 | 1996 | James McBride | [The Color of Water](analysis/analysis_vetogates_261021_0047.md#n83f907156f) | 30.46 | V3 | moderate | 132 | [336](https://www.penguinrandomhouse.com/books/348278/the-color-of-water-by-james-mcbride/) | Unknown |
+| 2026-10-20 | 2013 | Patrick Leigh Fermor | [The Broken Road](analysis/analysis_vetogates_261021_0047.md#need2181c15) | 30.39 | V3 | moderate | 135 | [392](https://www.penguinrandomhouse.com/books/236046/the-broken-road-by-patrick-leigh-fermor-edited-by-colin-thubron-and-artemis-cooper/9781590177792/) | Unknown |
+| 2026-10-21 | 2008 | Pete Sampras with Peter Bodo | [A Champion's Mind](analysis/analysis_bgbillgates_261021_0210.md#bgef288074cb) | 29.98 | V3 | moderate | 148 | [306](https://books.google.com/books/about/A_Champion_s_Mind.html?id=w3HAwAEACAAJ) | Unknown |
+| 2026-10-17 | 150 | Multiple ancient authors | [The Bible](analysis/analysis_vetogates_261021_0047.md#q1046) | 29.97 | V5 | moderate | 6, 8 | Unknown | Unknown |
+| 2026-10-20 | 2023 | Michio Kaku | [Quantum Supremacy](analysis/analysis_vetogates_261021_0047.md#n298e5c0ab7) | 29.83 | V1; V4 | moderate | 139 | [352](https://books.google.com/books/about/Quantum_Supremacy.html?hl=en&id=WkDSEAAAQBAJ&output=html_text) | Unknown |
+| 2026-10-20 | 1970 | Isaac Asimov | [Asimov’s Guide to Shakespeare](analysis/analysis_vetogates_261021_0047.md#nc168b938b7) | 29.67 | V3 | moderate | 135 | [1513](https://books.google.com/books?id=QUYgAQAAIAAJ) | Unknown |
+| 2026-10-20 | 1977 | Patrick Leigh Fermor | [A Time of Gifts](analysis/analysis_vetogates_261021_0047.md#n400d8c6d93) | 29.60 | V3 | moderate | 135 | [344](https://www.nyrb.com/products/a-time-of-gifts) | Unknown |
+| 2026-10-17 | 2021 | Iain McGilchrist | [The Matter with Things](analysis/analysis_vetogates_261021_0047.md#q1047) | 29.30 | V1 | moderate | 8 | [1500](https://openlibrary.org/books/OL35588435M/The_Matter_with_Things) | Unknown |
+| 2026-10-17 | 2014 | Bessel van der Kolk | [The Body Keeps the Score](analysis/analysis_vetogates_261021_0047.md#q1080) | 28.93 | V1 | moderate | 4, 6, 7, 8, 143, 193, 205 | [464](https://www.penguinrandomhouse.com/books/313183/the-body-keeps-the-score-by-bessel-van-der-kolk-md/) | Unknown |
+| 2026-10-20 | 2003 | David Foster Wallace | [Everything and More: A Compact History of Infinity](analysis/analysis_vetogates_261021_0047.md#n1583471893) | 28.69 | V1 | moderate | 135, 140 | [320](https://www.ams.org/journals/notices/200406/200406FullIssue.pdf) | Unknown |
+| 2026-10-17 | 2011 | Stephen Greenblatt | [The Swerve](analysis/analysis_vetogates_261021_0047.md#q1034) | 28.58 | V1 | moderate | 2, 7, 184, 199 | [356](https://openlibrary.org/books/OL25053773M/The_swerve) | Unknown |
+| 2026-10-21 | 1941 | James Burnham | [The Managerial Revolution](analysis/analysis_bgmarcandree_261021_0210.md#bgf32c34d084) | 28.47 | V1 | moderate | 162 | [285](https://openlibrary.org/books/OL6429598M/The_managerial_revolution) | Unknown |
+| 2026-10-20 | 2022 | Harvey Fierstein | [I Was Better Last Night](analysis/analysis_vetogates_261021_0047.md#nc2cbcb068f) | 28.42 | V3 | moderate | 132 | [400](https://www.penguinrandomhouse.com/books/678118/i-was-better-last-night-by-harvey-fierstein/9780593320525/) | [1411](https://www.amazon.com/dp/0593320522) |
+| 2026-10-20 | 2023 | Britney Spears | [The Woman in Me](analysis/analysis_vetogates_261021_0047.md#nfd0337d156) | 28.13 | V3 | moderate | 132 | [288](https://books.google.com/books/about/The_Woman_in_Me.html?id=15p5zwEACAAJ) | Unknown |
+| 2026-10-19 | 2017 | Thi Bui | [The Best We Could Do](analysis/analysis_vetogates_261021_0047.md#g1300) | 27.88 | V3 | moderate | 126, 148 | [327](https://openlibrary.org/books/OL26886785M/The_Best_We_Could_Do) | Unknown |
+| 2026-10-20 | 2019 | Brian Toohey | [Secret: The Making of Australia's Security State](analysis/analysis_vetogates_261021_0047.md#nf36ec9efbe) | 27.72 | V1 | moderate | 141 | [400](https://www.simonandschuster.com/books/Secret/Brian-Toohey/9780522872804) | Unknown |
+| 2026-10-17 | 1985 | Oliver Sacks | [The Man Who Mistook His Wife for a Hat](analysis/analysis_vetogates_261021_0047.md#q1075) | 27.35 | V1 | moderate | 6, 203 | [312](https://openlibrary.org/books/OL46626867M/Man_Who_Mistook_His_Wife_for_a_Hat) | Unknown |
+| 2026-10-17 | 2023 | John Trent | [Second Sunrise](analysis/analysis_vetogates_261021_0047.md#q1091) | 27.16 | V3 | moderate | 4 | [192](https://imusic.se/books/9798985191301/john-trent-2023-second-sunrise-five-decades-of-history-at-the-western-states-endurance-run-inbunden-bok) | Unknown |
+| 2026-10-20 | 2021 | Billy Porter | [Unprotected](analysis/analysis_vetogates_261021_0047.md#na80c1dd0b2) | 26.93 | V3 | moderate | 132 | [288](https://books.google.com/books/about/Unprotected.html?id=i8QdEAAAQBAJ) | Unknown |
+| 2026-10-20 | 2023 | Elliot Page | [Pageboy](analysis/analysis_vetogates_261021_0047.md#n1d712210cc) | 26.63 | V3 | moderate | 132 | [288](https://us.macmillan.com/books/9781250878359/pageboy/) | Unknown |
+| 2026-10-17 | 2009 | Christopher McDougall | [Born to Run](analysis/analysis_vetogates_261021_0047.md#q1073) | 26.42 | V1 | moderate | 3 | [266](https://openlibrary.org/books/OL39203498M/Born_to_run) | Unknown |
+| 2026-10-17 | 2017 | Matthew Walker | [Why We Sleep](analysis/analysis_vetogates_261021_0047.md#q1088) | 26.05 | V1 | moderate | 8, 132, 148, 193, 203 | [368](https://openlibrary.org/books/OL26935529M/Why_We_Sleep) | Unknown |
+| 2026-10-22 | 2006 | Francis S. Collins | [The Language of God: A Scientist Presents Evidence for Belief](analysis/analysis_remaining_261022_0042.md#rem-u1647) | 25.99 | V5 | moderate | 205 | Unknown | Unknown |
+| 2026-10-17 | 1947 | Anne Frank | [The Diary of a Young Girl](analysis/analysis_vetogates_261021_0047.md#q0879) | 25.94 | V3 | moderate | 8, 132, 183, 185, 186, 189, 194, 195, 199 | [352](https://openlibrary.org/books/OL7359688M/The_Diary_of_a_Young_Girl_(Puffin_modern_classics)) | Unknown |
+| 2026-10-19 | 2019 | Axel Vervoordt | [Portraits of Interiors](analysis/analysis_vetogates_261021_0047.md#g1275) | 25.64 | V3 | moderate | 125 | [320](https://www.axel-vervoordt.com/books/portraits-of-interiors) | [179](https://www.amazon.com.au/dp/2080203754) |
+| 2026-10-22 | 2017 | Nintendo | [The Legend of Zelda: Encyclopedia](analysis/analysis_remaining_261022_0042.md#rem-u0093-b) | 25.58 | V3 | moderate | 175 | Unknown | Unknown |
+| 2026-10-22 | 2012 | Christopher D. Wallis | [Tantra Illuminated](analysis/analysis_remaining_261022_0042.md#rem-u0202) | 25.33 | V5 | moderate | 177 | [516](https://www.amazon.com.au/dp/0989761304) | [769](https://www.amazon.com.au/dp/0989761304) |
+| 2026-10-20 | 2015 | Patrick Taylor | [Lost on Purpose: The Adventures of a 21st Century Mountain Man](analysis/analysis_vetogates_261021_0047.md#nb75ecb1bfa) | 25.27 | V3 | low | 143 | [190](https://www.barnesandnoble.com/w/lost-on-purpose-patrick-taylor/1123138557) | Unknown |
+| 2026-10-17 | 2015 | David Talbot | [The Devil's Chessboard](analysis/analysis_vetogates_261021_0047.md#q1052) | 25.24 | V1 | moderate | 2, 4 | [686](https://openlibrary.org/books/OL27190177M/The_devil's_chessboard) | Unknown |
+| 2026-10-17 | 2005 | Carole Radziwill | [What Remains](analysis/analysis_vetogates_261021_0047.md#q1101) | 25.23 | V3 | moderate | 4 | [264](https://openlibrary.org/books/OL20944750M/What_remains) | Unknown |
+| 2026-10-19 | 2021 | Sean McMeekin | [Stalin's War](analysis/analysis_vetogates_261021_0047.md#g1298) | 24.43 | V1; V2 | moderate | 126, 167 | [864](https://openlibrary.org/books/OL32520472M/Stalin's_War) | Unknown |
+| 2026-10-20 | 2017 | Cat Marnell | [How to Murder Your Life](analysis/analysis_vetogates_261021_0047.md#n9e8aa13554) | 24.37 | V3 | moderate | 132 | [384](https://www.simonandschuster.com/books/How-to-Murder-Your-Life/Cat-Marnell/9781476752396) | [4779](https://www.amazon.com/dp/1476752397) |
+| 2026-10-22 | 1995 | Ted Kaczynski | [Industrial Society and Its Future](analysis/analysis_remaining_261022_0042.md#rem-u0205) | 24.37 | V6 | moderate | 177 | Unknown | Unknown |
+| 2026-10-17 | 1998 | Leonard Shlain | [The Alphabet Versus the Goddess](analysis/analysis_vetogates_261021_0047.md#q1100) | 24.36 | V1 | moderate | 7 | [464](https://openlibrary.org/books/OL361538M/The_alphabet_versus_the_goddess) | Unknown |
+| 2026-10-17 | 2006 | Greg Mortenson; David Oliver Relin | [Three Cups of Tea](analysis/analysis_vetogates_261021_0047.md#q1093) | 24.35 | V1 | high | 6 | [338](https://openlibrary.org/books/OL24766756M/Three_cups_of_tea) | Unknown |
+| 2026-10-20 | 1998 | Thich Nhat Hanh | [The Heart of the Buddha's Teaching](analysis/analysis_vetogates_261021_0047.md#n07829fa11f) | 24.18 | V5 | high | 144 | [265](https://openlibrary.org/books/OL356095M/The_heart_of_the_Buddha's_teaching) | Unknown |
+| 2026-10-17 | -299 | Traditionally Laozi | [Tao Te Ching](analysis/analysis_vetogates_261021_0047.md#q1029) | 24.13 | V5 | moderate | 2, 130, 173, 183, 185 | [49](https://openlibrary.org/books/OL61330534M/Tao_te_ching) | Unknown |
+| 2026-10-17 | 2023 | Bob Crowley; Hal V. Hall; Tim Twietmeyer | [The Places We Run](analysis/analysis_vetogates_261021_0047.md#q1107) | 24.11 | V3 | moderate | 4 | Unknown | Unknown |
+| 2026-10-22 | 2001 | Nick Cook | [The Hunt for Zero Point](analysis/analysis_remaining_261022_0042.md#rem-u1803) | 24.09 | V1 | moderate | 193 | Unknown | Unknown |
+| 2026-10-17 | 2017 | John Hodgman | [Vacationland](analysis/analysis_vetogates_261021_0047.md#q1108) | 23.98 | V3 | moderate | 6 | [308](https://openlibrary.org/books/OL26940586M/Vacationland) | Unknown |
+| 2026-10-19 | 2010 | Angus Cook; Matthew Barney; Elizabeth Peyton | [Matthew Barney & Elizabeth Peyton: Blood of Two](analysis/analysis_vetogates_261021_0047.md#g1274) | 23.65 | V3 | moderate | 125 | [139](https://openlibrary.org/books/OL44867483M/Matthew_Barney_Elizabeth_Peyton) | Unknown |
+| 2026-10-20 | 2022 | Selma Blair | [Mean Baby](analysis/analysis_vetogates_261021_0047.md#nf5ac85a6d8) | 23.62 | V3 | moderate | 132 | [320](https://www.penguinrandomhouse.com/books/646493/mean-baby-by-selma-blair/9780593082775/) | Unknown |
+| 2026-10-17 | 2008 | Nicholson Baker | [Human Smoke](analysis/analysis_vetogates_261021_0047.md#q1051) | 23.54 | V1 | moderate | 5 | [800](https://openlibrary.org/books/OL11758382M/Human_Smoke) | Unknown |
+| 2026-10-20 | 2023 | Hadley Vlahos | [The In-Between](analysis/analysis_vetogates_261021_0047.md#n22eb055506) | 23.47 | V3 | moderate | 145 | [288](https://www.penguinrandomhouse.com/books/709707/the-in-between-by-hadley-vlahos-rn/) | Unknown |
+| 2026-10-19 | 1997 | Rick Bragg | [All Over but the Shoutin'](analysis/analysis_vetogates_261021_0047.md#g0036) | 23.11 | V3 | moderate | 114 | [329](https://openlibrary.org/books/OL664354M/All_over_but_the_shoutin') | [3153](https://www.amazon.com.au/dp/0679774025) |
+| 2026-10-17 | 2001 | Haven Kimmel | [A Girl Named Zippy](analysis/analysis_vetogates_261021_0047.md#q1097) | 23.09 | V3 | moderate | 3 | [275](https://openlibrary.org/books/OL6781028M/A_girl_named_Zippy) | Unknown |
+| 2026-10-19 | 2002 | Ben Mezrich | [Bringing Down The House](analysis/analysis_vetogates_261021_0047.md#g0506) | 22.75 | V1 | moderate | 117 | [257](https://openlibrary.org/books/OL24202327M/Bringing_down_the_house) | Unknown |
+| 2026-10-17 | 1994 | Richard Preston | [The Hot Zone](analysis/analysis_vetogates_261021_0047.md#q1087) | 22.61 | V1 | moderate | 2, 3, 4, 143, 203 | [368](https://www.penguinrandomhouse.com/books/133843/the-hot-zone-by-richard-preston/) | Unknown |
+| 2026-10-19 | 1977 | Bruce Chatwin | [In Patagonia](analysis/analysis_vetogates_261021_0047.md#g1047) | 22.60 | V3 | moderate | 122 | [260](https://openlibrary.org/books/OL22595741M/In_Patagonia) | Unknown |
+| 2026-10-20 | 2019 | Françoise Vergès | [Decolonial Feminism](analysis/analysis_categories_261021_1600.md#n4b4d8691d3) | 22.58 | V6 | moderate | 145 | [128](https://openlibrary.org/books/OL29466645M/Decolonial_Feminism) | Unknown |
+| 2026-10-17 | 1999 | Gabor Maté | [Scattered Minds](analysis/analysis_vetogates_261021_0047.md#q1099) | 22.54 | V1 | moderate | 4 | [368](https://www.penguinrandomhouse.com/books/734461/scattered-minds-by-gabor-mate-md/9780593714379/) | Unknown |
+| 2026-10-22 | 2025 | Sarah Hull | [Wind-up Digger: A Toy and Book Gift Featuring a Hands-On Exploration Of Diggers And Construction Sites](analysis/analysis_remaining_261022_0042.md#rem-u0367) | 22.24 | V3 | moderate | 181 | Unknown | Unknown |
+| 2026-10-17 | 1973 | Chögyam Trungpa | [Cutting Through Spiritual Materialism](analysis/analysis_vetogates_261021_0047.md#q1055) | 21.90 | V5 | moderate | 4, 153 | [256](https://openlibrary.org/books/OL8697747M/Cutting_Through_Spiritual_Materialism) | Unknown |
+| 2026-10-17 | 1992 | Joseph Mitchell | [Up in the Old Hotel](analysis/analysis_vetogates_261021_0047.md#q1094) | 21.88 | V3 | moderate | 8 | [716](https://openlibrary.org/books/OL1743584M/Up_in_the_old_hotel_and_other_stories) | Unknown |
+| 2026-10-17 | 2012 | Steven Holcomb; Steve Eubanks | [But Now I See](analysis/analysis_vetogates_261021_0047.md#q1109) | 21.84 | V3 | moderate | 3 | [210](https://openlibrary.org/books/OL30662909M/But_now_I_see) | Unknown |
+| 2026-10-17 | 1992 | Terence McKenna | [Food of the Gods](analysis/analysis_vetogates_261021_0047.md#q1104) | 21.83 | V1 | moderate | 2, 122 | [311](https://openlibrary.org/books/OL21857296M/Food_of_the_gods) | Unknown |
+| 2026-10-22 | 1983 | Deng Xiaoping | [Selected Works of Deng Xiaoping](analysis/analysis_remaining_261022_0042.md#rem-u1893) | 21.49 | V6 | moderate | 193 | Unknown | Unknown |
+| 2026-10-20 | 1998 | Travis Roy; E. M. Swift | [Eleven Seconds](analysis/analysis_vetogates_261021_0047.md#n300d2c4171) | 21.38 | V3 | moderate | 143 | [240](https://www.hachettebookgroup.com/titles/travis-roy/eleven-seconds/9780446521888/?lens=grand-central-publishing) | Unknown |
+| 2026-10-20 | 2010 | Henri J. M. Nouwen | [Spiritual Formation](analysis/analysis_vetogates_261021_0047.md#n71f5038224) | 21.17 | V5 | high | 132 | [161](https://openlibrary.org/books/OL33431066M/Spiritual_Formation) | Unknown |
+| 2026-10-20 | 2023 | Paris Hilton | [Paris: The Memoir](analysis/analysis_vetogates_261021_0047.md#n3e1a9a8e6e) | 21.12 | V3 | moderate | 132 | [336](https://books.google.com/books/about/Paris.html?id=o7hfzwEACAAJ) | Unknown |
+| 2026-10-20 | 2021 | Sophie Ellis-Bextor | [Spinning Plates](analysis/analysis_vetogates_261021_0047.md#n057517a2a7) | 21.02 | V3 | moderate | 132 | [336](https://openlibrary.org/books/OL33902382M/Spinning_Plates_Music_Men_Motherhood_and_Me) | Unknown |
+| 2026-10-19 | 2002 | Mahatma Gandhi; John Dear (editor) | [Mohandas Gandhi: Essential Writings](analysis/analysis_vetogates_261021_0047.md#g0967) | 20.58 | V5 | moderate | 121 | [191](https://openlibrary.org/books/OL18138585M/Mohandas_Gandhi) | Unknown |
+| 2026-10-17 | 2021 | Michelle Zauner | [Crying in H Mart](analysis/analysis_vetogates_261021_0047.md#q1084) | 20.56 | V3 | moderate | 4, 176 | [256](https://openlibrary.org/books/OL30530106M/Crying_in_H_Mart) | Unknown |
+| 2026-10-20 | 1970 | Shunryu Suzuki | [Zen Mind, Beginners Mind](analysis/analysis_vetogates_261021_0047.md#g0929) | 20.42 | V5 | high | 121, 153 | [154](https://openlibrary.org/books/OL58679847M/Zen_Mind_Beginners_Mind) | Unknown |
+| 2026-10-22 | 2026 | John C. Lennox | [My Story: A spiritual and intellectual autobiography](analysis/analysis_remaining_261022_0042.md#rem-u0469) | 20.27 | V5 | moderate | 182 | Unknown | Unknown |
+| 2026-10-17 | 2015 | Norman Ohler | [Blitzed](analysis/analysis_vetogates_261021_0047.md#q1063) | 20.04 | V1 | moderate | 2, 6, 162, 199 | [272](https://www.penguin.com.au/books/blitzed-9780241256985) | Unknown |
+| 2026-10-17 | 2010 | Gary Taubes | [Why We Get Fat](analysis/analysis_vetogates_261021_0047.md#q1110) | 19.99 | V1 | moderate | 8, 168 | [257](https://openlibrary.org/books/OL24412483M/Why_we_get_fat_and_what_to_do_about_it) | Unknown |
+| 2026-10-20 | 2021 | James Whiteside | [Center Center](analysis/analysis_vetogates_261021_0047.md#n6be813ad2b) | 19.77 | V3 | moderate | 132 | [256](https://www.penguinrandomhouse.com/books/670038/center-center-by-james-whiteside/) | Unknown |
+| 2026-10-20 | 2014 | Bruce Pascoe | [Dark Emu](analysis/analysis_vetogates_261021_0047.md#neb36c15307) | 19.61 | V1 | moderate | 141 | [278](https://www.magabala.com/products/dark-emu) | Unknown |
+| 2026-10-21 | 2021 | Roger Garside | [China Coup](analysis/analysis_bgbalajisrin_261021_0210.md#bga0071a132f) | 19.57 | V4 | high | 167 | [256](https://www.ucpress.edu/books/china-coup/paper) | Unknown |
+| 2026-10-20 | -250 | Qoheleth (anonymous ancient author) | [Ecclesiastes](analysis/analysis_vetogates_261021_0047.md#nbf3cf4826a) | 19.57 | V5 | moderate | 135 | Unknown | Unknown |
+| 2026-10-20 | 2022 | Matthew Perry | [Friends, Lovers, and the Big Terrible Thing](analysis/analysis_vetogates_261021_0047.md#nee1fdd71da) | 19.37 | V3 | moderate | 132 | [272](https://books.google.com/books/about/Friends_Lovers_and_the_Big_Terrible_Thin.html?id=qeKEzwEACAAJ) | Unknown |
+| 2026-10-17 | 1969 | Henri Charrière | [Papillon](analysis/analysis_vetogates_261021_0047.md#q1086) | 19.35 | V1 | moderate | 6 | [434](https://openlibrary.org/books/OL47224922M/Papillon) | Unknown |
+| 2026-10-20 | 2023 | Julia Fox | [Down the Drain](analysis/analysis_vetogates_261021_0047.md#n108ec51230) | 19.28 | V3 | moderate | 132 | [336](https://www.simonandschuster.com/books/Down-the-Drain/Julia-Fox/9781668011515) | [4565](https://www.amazon.com/dp/1668011514) |
+| 2026-10-20 | 1984 | John Berger | [And Our Faces, My Heart, Brief as Photos](analysis/analysis_vetogates_261021_0047.md#naf9acccd63) | 19.22 | V3 | moderate | 132 | [120](https://www.penguinrandomhouse.com/books/808921/and-our-faces-my-heart-brief-as-photos-by-john-berger/9798896230588/) | Unknown |
+| 2026-10-17 | 1960 | William L. Shirer | [The Rise and Fall of the Third Reich](analysis/analysis_vetogates_261021_0047.md#q1048) | 19.01 | V1 | moderate | 1, 2, 5, 6, 132, 189, 200 | [1272](https://openlibrary.org/books/OL58667555M/The_Rise_And_Fall_Of_The_Third_Reich) | Unknown |
+| 2026-10-22 | 2014 | Rupi Kaur | [Milk and Honey](analysis/analysis_remaining_261022_0042.md#rem-u0765) | 18.96 | V3 | moderate | 186 | [224](https://www.amazon.com.au/dp/1449483135) | [61753](https://www.amazon.com.au/dp/1449483135) |
+| 2026-10-17 | 2007 | David Talbot (probable identification) | [Brothers](analysis/analysis_vetogates_261021_0047.md#q1070) | 18.68 | V1 | moderate | 4 | [496](https://openlibrary.org/books/OL10723420M/Brothers) | Unknown |
+| 2026-10-17 | 1960 | John Graves | [Goodbye to a River](analysis/analysis_vetogates_261021_0047.md#q1090) | 18.50 | V3 | moderate | 8 | [306](https://openlibrary.org/books/OL1852376M/Goodbye_to_a_river) | Unknown |
+| 2026-10-21 | 2015 | Peter Wohlleben | [The Hidden Life of Trees](analysis/analysis_bgblasmoros_261021_0210.md#bgab0ba11a72) | 18.37 | V1 | moderate | 173, 205 | [288](https://greystonebooks.com/collections/uk/products/the-hidden-life-of-trees) | Unknown |
+| 2026-10-21 | 1976 | Antony C. Sutton | [Wall Street and the Rise of Hitler](analysis/analysis_bgbalajisrin_261021_0210.md#bgb6df17e31a) | 17.99 | V1 | moderate | 167 | [220](https://openlibrary.org/books/OL4884289M/Wall_Street_and_the_rise_of_Hitler) | Unknown |
+| 2026-10-17 | 2014 | Edward E. Baptist | [The Half Has Never Been Told](analysis/analysis_vetogates_261021_0047.md#q1066) | 17.77 | V1 | high | 5 | [526](https://openlibrary.org/books/OL25638805M/The_Half_Has_Never_Been_Told) | Unknown |
+| 2026-10-17 | 2011 | S. Nassir Ghaemi | [A First-Rate Madness](analysis/analysis_vetogates_261021_0047.md#q1083) | 17.74 | V1 | moderate | 4 | [340](https://openlibrary.org/books/OL24839022M/A_first-rate_madness) | Unknown |
+| 2026-10-21 | 1969 | Chögyam Trungpa | [Meditation in Action](analysis/analysis_bgstevejobs_261021_0210.md#bg67806b87bb) | 17.69 | V5 | high | 153 | [128](https://www.shambhala.com/meditation-in-action-1018.html) | Unknown |
+| 2026-10-21 | 1991 | Anthony De Mello | [The Way to Love](analysis/analysis_bgjustinkan_261021_0210.md#bg1bf6621e11) | 17.63 | V5 | high | 158 | [196](https://openlibrary.org/books/OL1099237M/The_way_to_love) | Unknown |
+| 2026-10-20 | 1966 | Lawrence S. Ritter | [The Glory of Their Times](analysis/analysis_vetogates_261021_0047.md#n56a988fd25) | 17.53 | V3 | moderate | 135 | [384](https://books.google.com/books/about/The_Glory_of_Their_Times.html?id=DXJgvIwXW6MC) | Unknown |
+| 2026-10-17 | 1953 | Shirley Jackson | [Life Among the Savages](analysis/analysis_vetogates_261021_0047.md#q1098) | 17.45 | V3 | moderate | 6 | [229](https://openlibrary.org/books/OL27186365M/Life_among_the_savages) | Unknown |
+| 2026-10-20 | 2020 | Benjamin Bikman | [Why We Get Sick](analysis/analysis_vetogates_261021_0047.md#nb5b5cbaa5e) | 17.32 | V1 | moderate | 132 | [270](https://openlibrary.org/books/OL29530207M/Why_We_Get_Sick) | Unknown |
+| 2026-10-17 | 1918 | Oswald Spengler | [The Decline of the West](analysis/analysis_vetogates_261021_0047.md#q1059) | 17.20 | V1 | moderate | 7 | [468](https://openlibrary.org/books/OL58797222M/The_decline_of_the_west) | Unknown |
+| 2026-10-17 | 1992 | William Manchester | [A World Lit Only by Fire](analysis/analysis_vetogates_261021_0047.md#q1072) | 16.78 | V1 | moderate | 2, 200 | [318](https://openlibrary.org/books/OL1558958M/A_world_lit_only_by_fire) | Unknown |
+| 2026-10-17 | 2005 | Bruce H. Lipton | [The Biology of Belief](analysis/analysis_vetogates_261021_0047.md#q1126) | 16.74 | V1 | moderate | 6, 177 | [204](https://openlibrary.org/books/OL24966458M/The_biology_of_belief) | Unknown |
+| 2026-10-19 | 2016 | Zach Anner | [If At Birth You Don't Succeed](analysis/analysis_vetogates_261021_0047.md#g0073) | 16.09 | V3 | moderate | 114 | [338](https://openlibrary.org/books/OL27202370M/If_at_birth_you_don't_succeed) | [687](https://www.amazon.com.au/dp/162779364X) |
+| 2026-10-17 | 1999 | Martha Beck | [Expecting Adam](analysis/analysis_vetogates_261021_0047.md#q1124) | 15.91 | V5 | moderate | 5 | [328](https://openlibrary.org/books/OL365796M/Expecting_Adam) | Unknown |
+| 2026-10-19 | 2015 | Cheryl Strayed | [Brave Enough](analysis/analysis_vetogates_261021_0047.md#g0049) | 15.49 | V3 | moderate | 114 | [160](https://openlibrary.org/books/OL32871632M/Brave_Enough) | Unknown |
+| 2026-10-21 | 1974 | Antony C. Sutton | [Wall Street and the Bolshevik Revolution](analysis/analysis_bgbalajisrin_261021_0210.md#bgb91b2c2d62) | 15.29 | V1 | moderate | 167 | [232](https://openlibrary.org/books/OL29548558M/Wall_Street_and_the_Bolshevik_Revolution) | Unknown |
+| 2026-10-22 | 2007 | Song Hongbing | [Currency Wars I: Currency Warfare](analysis/analysis_remaining_261022_0042.md#rem-u1223) | 15.26 | V1 | moderate | 196, 197 | Unknown | Unknown |
+| 2026-10-17 | 1956 | Sławomir Rawicz; Ronald Downing | [The Long Walk](analysis/analysis_vetogates_261021_0047.md#q1106) | 15.23 | V1 | high | 6 | [240](https://openlibrary.org/books/OL15977708M/The_long_walk) | Unknown |
+| 2026-10-20 | 2015 | Jenny Lawson | [Furiously Happy: A Funny Book About Horrible Things](analysis/analysis_vetogates_261021_0047.md#nf9c8eb6d82) | 15.14 | V3 | moderate | 135 | [329](https://books.google.com/books?id=J4xjrgEACAAJ) | Unknown |
+| 2026-10-20 | 1999 | David Keys | [Catastrophe: An Investigation into the Origins of the Modern World](analysis/analysis_vetogates_261021_0047.md#n7f242a07e2) | 15.12 | V1 | moderate | 141 | [368](https://www.penguinrandomhouse.com/books/92253/catastrophe-by-david-keys/) | Unknown |
+| 2026-10-19 | 2018 | Michelle Obama | [Becoming](analysis/analysis_vetogates_261021_0047.md#g0040) | 14.91 | V3 | moderate | 114, 183, 185, 186 | [448](https://openlibrary.org/books/OL26502526M/Becoming) | Unknown |
+| 2026-10-22 | 2014 | Xi Jinping | [The Governance of China](analysis/analysis_remaining_261022_0042.md#rem-u1891) | 14.86 | V6 | moderate | 193 | Unknown | Unknown |
+| 2026-10-17 | 1993 | Jennifer Toth | [The Mole People](analysis/analysis_vetogates_261021_0047.md#q1122) | 14.67 | V1 | moderate | 3 | [267](https://openlibrary.org/books/OL1414520M/The_mole_people) | Unknown |
+| 2026-10-19 | 2003 | Laurence Shames; Peter Barton | [Not Fade Away](analysis/analysis_vetogates_261021_0047.md#g0097) | 14.56 | V3 | moderate | 114 | [224](https://openlibrary.org/books/OL3303478M/Not_fade_away) | Unknown |
+| 2026-10-19 | 2005 | Jung Chang; Jon Halliday | [Mao: The Unknown Story](analysis/analysis_vetogates_261021_0047.md#g0733) | 13.98 | V1 | moderate | 119 | [814](https://openlibrary.org/books/OL22163185M/Mao) | Unknown |
+| 2026-10-19 | 2020 | Matthew McConaughey | [Greenlights](analysis/analysis_vetogates_261021_0047.md#g0066) | 13.60 | V3 | moderate | 114, 132 | [304](https://openlibrary.org/books/OL38567778M/Greenlights) | [73035](https://www.amazon.com.au/dp/1472280849) |
+| 2026-10-17 | 1995 | Dave Pelzer | [A Child Called It](analysis/analysis_vetogates_261021_0047.md#q1119) | 13.57 | V3 | moderate | 5 | [144](https://openlibrary.org/books/OL7988848M/A_Child_Called_It) | Unknown |
+| 2026-10-17 | 2008 | Carrie Fisher | [Wishful Drinking](analysis/analysis_vetogates_261021_0047.md#q1103) | 13.32 | V3 | moderate | 4 | [163](https://openlibrary.org/books/OL24930605M/Wishful_drinking) | Unknown |
+| 2026-10-20 | 1997 | Don Miguel Ruiz | [The Four Agreements](analysis/analysis_vetogates_261021_0047.md#g0919) | 13.12 | V5 | moderate | 121, 173, 183, 193 | [224](https://openlibrary.org/books/OL12112215M/The_Four_Agreements) | Unknown |
+| 2026-10-19 | 2017 | Gucci Mane; Neil Martinez-Belkin | [The Autobiography of Gucci Mane](analysis/analysis_vetogates_261021_0047.md#g0116) | 13.12 | V3 | moderate | 114 | [304](https://openlibrary.org/books/OL26870733M/The_Autobiography_of_Gucci_Mane) | [5172](https://www.amazon.com.au/dp/1501165321) |
+| 2026-10-19 | 2010 | Stephen Fry | [The Fry Chronicles](analysis/analysis_vetogates_261021_0047.md#g0119) | 12.91 | V3 | moderate | 114 | [438](https://openlibrary.org/books/OL27133499M/The_Fry_chronicles) | [1493](https://www.amazon.com.au/dp/1590207149) |
+| 2026-10-17 | 2018 | David Michael Rice | [Desert Soliloquy](analysis/analysis_vetogates_261021_0047.md#q1129) | 12.88 | V3 | moderate | 4 | [268](https://openlibrary.org/books/OL40717359M/Desert_Soliloquy) | Unknown |
+| 2026-10-22 | 2010 | Eric Metaxas | [Bonhoeffer: Pastor, Martyr, Prophet, Spy](analysis/analysis_remaining_261022_0042.md#rem-u1328) | 12.87 | V2 | moderate | 200 | Unknown | Unknown |
+| 2026-10-19 | 1995 | Graham Hancock | [Fingerprints of the Gods](analysis/analysis_vetogates_261021_0047.md#g1038) | 12.87 | V1 | moderate | 122 | [578](https://openlibrary.org/books/OL24670018M/Fingerprints_of_the_gods) | Unknown |
+| 2026-10-19 | 2018 | Stan Smith | [Stan Smith: Some People Think I’m a Shoe](analysis/analysis_vetogates_261021_0047.md#g0299) | 12.84 | V3 | moderate | 115 | [328](https://openlibrary.org/books/OL26977287M/Stan_Smith) | [102](https://www.amazon.com.au/dp/0847862747) |
+| 2026-10-19 | 2017 | Eddie Izzard | [Believe Me](analysis/analysis_vetogates_261021_0047.md#g0042) | 12.76 | V3 | moderate | 114, 148 | [348](https://openlibrary.org/books/OL27236071M/Believe_me) | [1704](https://www.amazon.com.au/dp/0399175830) |
+| 2026-10-22 | 1952 | C. S. Lewis | [Mere Christianity](analysis/analysis_remaining_261022_0042.md#rem-u0534) | 12.72 | V5 | moderate | 183, 185 | Unknown | Unknown |
+| 2026-10-21 | 2013 | Jim Gaffigan | [Dad Is Fat](analysis/analysis_bgbillgates_261021_0210.md#bg59d68af938) | 12.53 | V3 | moderate | 148 | [274](https://openlibrary.org/books/OL27144148M/Dad_is_fat) | Unknown |
+| 2026-10-17 | 2006 | Carolly Erickson | [Royal Panoply](analysis/analysis_vetogates_261021_0047.md#q1105) | 12.41 | V3 | moderate | 2 | [368](https://openlibrary.org/books/OL9483396M/Royal_Panoply) | Unknown |
+| 2026-10-21 | -250 | Anonymous Buddhist compilers; translated by Eknath Easwaran | [The Dhammapada](analysis/analysis_bgstevejobs_261021_0210.md#bg8007edf6c2) | 12.23 | V5 | high | 153 | [280](https://www.amazon.com.au/dp/1586380206) | [1996](https://www.amazon.com.au/dp/1586380206) |
+| 2026-10-17 | 1972 | Herbert Dingle | [Science at the Crossroads](analysis/analysis_vetogates_261021_0047.md#q1130) | 12.18 | V1 | high | 3 | [256](https://openlibrary.org/books/OL5318664M/Science_at_the_crossroads.) | Unknown |
+| 2026-10-19 | 2012 | Peter Schiff | [The Real Crash](analysis/analysis_vetogates_261021_0047.md#g0898) | 12.17 | V4 | moderate | 120 | [464](https://openlibrary.org/books/OL27999752M/The_Real_Crash) | Unknown |
+| 2026-10-19 | 2019 | Kimberley Strassel | [Resistance (At All Costs)](analysis/analysis_categories_261021_1600.md#g0750) | 11.43 | V6 | moderate | 119 | [256](https://www.amazon.com.au/dp/1538701774) | [1424](https://www.amazon.com.au/dp/1538701774) |
+| 2026-10-22 | 400 | Augustine of Hippo | [Confessions](analysis/analysis_remaining_261022_0042.md#rem-u0976) | 11.32 | V5 | moderate | 189 | Unknown | Unknown |
+| 2026-10-17 | 2013 | Brad Willis (Bhava Ram) | [Warrior Pose](analysis/analysis_vetogates_261021_0047.md#q1132) | 11.16 | V1 | moderate | 7 | [384](https://openlibrary.org/books/OL33464810M/Warrior_Pose) | Unknown |
+| 2026-10-22 | 2004 | Lee Strobel | [The Case for a Creator: A Journalist Investigates Scientific Evidence That Points Toward God](analysis/analysis_remaining_261022_0042.md#rem-u1049) | 11.12 | V5 | moderate | 190 | [352](https://www.amazon.com.au/dp/0310259134) | [2063](https://www.amazon.com.au/dp/0310259134) |
+| 2026-10-22 | 2001 | Avula Parthasarathy | [Choice Upanishads](analysis/analysis_remaining_261022_0042.md#rem-u0208) | 10.84 | V5 | moderate | 177 | Unknown | Unknown |
+| 2026-10-17 | 1971 | Ayn Rand; Peter Schwartz (expanded edition) | [The New Left / The Return of the Primitive](analysis/analysis_vetogates_261021_0047.md#q1092) | 10.74 | V2 | moderate | 5 | [204](https://openlibrary.org/books/OL3622165M/The_New_Left) | Unknown |
+| 2026-10-17 | 100 | Multiple ancient authors (1 Enoch assumed) | [The Book of Enoch](analysis/analysis_vetogates_261021_0047.md#q1121) | 10.58 | V5 | moderate | 6 | Unknown | Unknown |
+| 2026-10-17 | 1998 | Farley Mowat | [The Farfarers](analysis/analysis_vetogates_261021_0047.md#q1102) | 10.43 | V1 | moderate | 8 | [377](https://openlibrary.org/books/OL45770M/The_farfarers) | Unknown |
+| 2026-10-22 | 2015 | Thomas R. Valletta | [The Book of Mormon Study Guide: Start to Finish](analysis/analysis_remaining_261022_0042.md#rem-u0783) | 10.24 | V5 | moderate | 186 | Unknown | Unknown |
+| 2026-10-19 | 1962 | John Steinbeck | [Travels with Charley](analysis/analysis_vetogates_261021_0047.md#g0013) | 10.23 | V3 | moderate | 114 | [277](https://openlibrary.org/books/OL2718931M/Travels_with_Charley) | [9135](https://www.amazon.com.au/dp/0140053204) |
+| 2026-10-22 | 2000 | James Bradley; Ron Powers | [Flags of Our Fathers](analysis/analysis_remaining_261022_0042.md#rem-u1322) | 9.99 | V1 | moderate | 200 | Unknown | Unknown |
+| 2026-10-22 | 2016 | Chris Smith | [The Daily Show: An Oral History as Told by Jon Stewart, the Correspondents, Staff and Guests](analysis/analysis_remaining_261022_0042.md#rem-u0853) | 9.90 | V3 | moderate | 187 | Unknown | Unknown |
+| 2026-10-17 | 1946 | Paramahansa Yogananda | [Autobiography of a Yogi](analysis/analysis_vetogates_261021_0047.md#q1120) | 9.89 | V5 | moderate | 4, 7, 114, 153, 189 | [591](https://openlibrary.org/books/OL24200800M/Autobiography_of_a_Yogi) | [9252](https://www.amazon.com.au/dp/0876120796) |
+| 2026-10-19 | 2019 | Ned Ryun | [Restoring Our Republic](analysis/analysis_categories_261021_1600.md#g0751) | 9.71 | V6 | moderate | 119 | [288](https://www.amazon.com.au/dp/1705870775) | [208](https://www.amazon.com.au/dp/1705870775) |
+| 2026-10-20 | 1776 | Thomas Paine | [Common Sense](analysis/analysis_categories_261021_1600.md#n28d920ca6a) | 9.48 | V6 | high | 135, 185, 201 | [112](https://www.penguinrandomhouse.com/books/126135/common-sense-by-thomas-paine/) | Unknown |
+| 2026-10-21 | 1999 | Arthur Herman | [Joseph McCarthy](analysis/analysis_bgmarcandree_261021_0210.md#bg18fb64ebd8) | 9.32 | V1; V2 | moderate | 162 | [404](https://openlibrary.org/books/OL43222M/Joseph_McCarthy) | Unknown |
+| 2026-10-22 | -200 | Eknath Easwaran | [The Bhagavad Gita](analysis/analysis_remaining_261022_0042.md#rem-u0724) | 9.17 | V5 | moderate | 185 | Unknown | Unknown |
+| 2026-10-22 | 2003 | David Ridges | [Book of Mormon Made Easier Box Set (with Chronological Map)](analysis/analysis_remaining_261022_0042.md#rem-u0784) | 9.04 | V5 | moderate | 186 | Unknown | Unknown |
+| 2026-10-17 | 2004 | Adyashanti | [Emptiness Dancing](analysis/analysis_vetogates_261021_0047.md#q1118) | 8.95 | V5 | moderate | 2 | [238](https://openlibrary.org/books/OL3438369M/Emptiness_dancing) | Unknown |
+| 2026-10-17 | 1997 | Eckhart Tolle | [The Power of Now](analysis/analysis_vetogates_261021_0047.md#q1117) | 8.29 | V5 | high | 6, 158, 177, 183 | [235](https://openlibrary.org/books/OL26648226M/The_Power_of_Now) | Unknown |
+| 2026-10-19 | 2011 | Adyashanti | [Falling into Grace](analysis/analysis_vetogates_261021_0047.md#g0941) | 8.19 | V5 | moderate | 121 | [248](https://openlibrary.org/books/OL28493857M/Falling_into_Grace) | Unknown |
+| 2026-10-19 | 1997 | Stephen Fry | [Moab Is My Washpot](analysis/analysis_vetogates_261021_0047.md#g0088) | 8.05 | V3 | moderate | 114 | [366](https://openlibrary.org/books/OL6778146M/Moab_is_my_washpot) | [73](https://www.amazon.com.au/dp/1569472025) |
+| 2026-10-22 | 550 | Swami Gaudapada | [Mandukya Karika](analysis/analysis_remaining_261022_0042.md#rem-u0193) | 8.02 | V5 | moderate | 177 | Unknown | Unknown |
+| 2026-10-17 | 2009 | Ozzy Osbourne; Chris Ayres | [I Am Ozzy](analysis/analysis_vetogates_261021_0047.md#q1116) | 7.56 | V3 | moderate | 6 | [390](https://openlibrary.org/books/OL32106917M/I_am_Ozzy) | Unknown |
+| 2026-10-17 | 2004 | Anthony Kiedis; Larry Sloman | [Scar Tissue](analysis/analysis_vetogates_261021_0047.md#q1111) | 7.47 | V3 | moderate | 4 | [465](https://openlibrary.org/books/OL25553707M/Scar_tissue) | Unknown |
+| 2026-10-17 | 2007 | Nikki Sixx; Ian Gittins | [The Heroin Diaries](analysis/analysis_vetogates_261021_0047.md#q1112) | 7.23 | V3 | moderate | 6 | [413](https://openlibrary.org/books/OL18294830M/The_heroin_diaries) | Unknown |
+| 2026-10-17 | 2005 | Eckhart Tolle | [A New Earth](analysis/analysis_vetogates_261021_0047.md#q1123) | 7.19 | V5 | moderate | 4 | [315](https://openlibrary.org/books/OL3407556M/A_New_Earth) | Unknown |
+| 2026-10-22 | 1951 | Mao Zedong | [Selected Works of Mao Tse-tung](analysis/analysis_remaining_261022_0042.md#rem-u1888) | 7.00 | V6 | moderate | 193 | Unknown | Unknown |
+| 2026-10-19 | 2007 | Marcus Luttrell; Patrick Robinson | [Lone Survivor](analysis/analysis_vetogates_261021_0047.md#g1284) | 6.78 | V1 | moderate | 126, 152, 162 | [464](https://openlibrary.org/books/OL29675859M/Lone_Survivor) | Unknown |
+| 2026-10-20 | 2010 | Oliver Benjamin; The Church of the Latter-Day Dude | [The Dude De Ching](analysis/analysis_vetogates_261021_0047.md#n264eee6abf) | 6.63 | V5 | high | 130 | [220](https://www.amazon.com/dp/1539451054) | [372](https://www.amazon.com/dp/1539451054) |
+| 2026-10-20 | 350 | Various ancient authors; King James translators | [The Holy Bible (King James Version)](analysis/analysis_vetogates_261021_0047.md#nb7f45a5548) | 6.46 | V5 | high | 135 | [1274](https://www.christianbook.com/kjv-standard-text-bible-hardcover/9780521508827/pd/1508827) | Unknown |
+| 2026-10-20 | 857 | Huang Po; P’ei Hsiu (compiler); John Blofeld (translator) | [The Zen Teaching of Huang Po](analysis/analysis_vetogates_261021_0047.md#n0c5b1aa9d6) | 5.63 | V5 | high | 130 | [144](https://groveatlantic.com/book/the-zen-teaching-of-huang-po/) | [560](https://www.amazon.com/dp/0802150926) |
+| 2026-10-20 | 1975 | Georges Perec | [An Attempt at Exhausting a Place in Paris](analysis/analysis_vetogates_261021_0047.md#naee6ed9298) | 5.46 | V3 | moderate | 132 | [72](https://www.amazon.com/dp/0984115528) | [71](https://www.amazon.com/dp/0984115528) |
+| 2026-10-22 | 2021 | James Aladiran | [Life On Fire](analysis/analysis_remaining_261022_0042.md#rem-u0119) | 5.43 | V5 | moderate | 176 | Unknown | Unknown |
+| 2026-10-19 | 2020 | Madeleine Westerhout | [Off The Record](analysis/analysis_vetogates_261021_0047.md#g0741) | 5.29 | V3 | moderate | 119 | [304](https://openlibrary.org/books/OL28118518M/Off_the_Record) | Unknown |
+| 2026-10-19 | 2013 | Anjelica Huston | [A Story Lately Told](analysis/analysis_vetogates_261021_0047.md#g0033) | 4.92 | V3 | moderate | 114 | [254](https://openlibrary.org/books/OL27151079M/A_story_lately_told) | [555](https://www.amazon.com.au/dp/1451656297) |
+| 2026-10-19 | 2004 | Jed McKenna | [Spiritually Incorrect Enlightenment](analysis/analysis_vetogates_261021_0047.md#g0957) | 4.62 | V5 | moderate | 121 | [320](https://openlibrary.org/books/OL8564548M/Spiritually_Incorrect_Enlightenment) | Unknown |
+| 2026-10-19 | 2020 | Horace Cooper | [How Trump Is Making Black America Great Again](analysis/analysis_categories_261021_1600.md#g0726) | 4.59 | V6 | high | 119 | [240](https://openlibrary.org/books/OL29829048M/How_Trump_Is_Making_Black_America_Great_Again) | Unknown |
+| 2026-10-21 | 1971 | Ram Dass | [Be Here Now](analysis/analysis_bgstevejobs_261021_0210.md#bg2dae4c82d8) | 4.43 | V5 | moderate | 153 | [416](https://www.penguinrandomhouse.com/books/36952/be-here-now-by-ram-dass/) | Unknown |
+| 2026-10-19 | 2007 | Jed McKenna | [Spiritual Warfare](analysis/analysis_vetogates_261021_0047.md#g0956) | 4.39 | V5 | moderate | 121 | [328](https://openlibrary.org/books/OL11780900M/Spiritual_Warfare) | Unknown |
+| 2026-10-21 | 1972 | Thaddeus Golas | [Lazy Man's Guide to Enlightenment](analysis/analysis_bgstevejobs_261021_0210.md#bg4ea98dc691) | 4.28 | V5 | moderate | 153 | [112](https://books.google.com/books/about/Lazy_Man_s_Guide_to_Enlightenment.html?id=wpOn8RvPzU4C) | Unknown |
+| 2026-10-17 | 2007 | Charles Eisenstein | [The Ascent of Humanity](analysis/analysis_vetogates_261021_0047.md#q1127) | 4.27 | V1 | moderate | 9 | [604](https://openlibrary.org/books/OL8591202M/The_Ascent_of_Humanity) | Unknown |
+| 2026-10-21 | 2001 | don Miguel Ruiz and Janet Mills | [The Circle of Fire](analysis/analysis_bgblasmoros_261021_0210.md#bg0e7efb521b) | 4.14 | V5 | high | 173 | [128](https://www.penguinrandomhouse.com/books/601802/the-circle-of-fire-by-don-miguel-ruiz-and-janet-mills/) | Unknown |
+| 2026-10-20 | 1973 | Nisargadatta Maharaj | [I Am That](analysis/analysis_vetogates_261021_0047.md#ndc7acfe5cb) | 3.94 | V5 | moderate | 132 | [550](https://www.amazon.com/dp/0893860220) | [200](https://www.amazon.com/dp/0893860220) |
+| 2026-10-19 | 2002 | Jed McKenna | [Spiritual Enlightenment, the Damnedest Thing](analysis/analysis_vetogates_261021_0047.md#g0925) | 3.89 | V5 | moderate | 121 | [324](https://www.amazon.com/dp/0980184843) | [1287](https://www.amazon.com/dp/0980184843) |
+| 2026-10-19 | 1987 | Donald J. Trump; Tony Schwartz | [Trump: The Art of the Deal](analysis/analysis_vetogates_261021_0047.md#g0350) | 3.75 | V1 | moderate | 115 | [372](https://openlibrary.org/books/OL23109280M/Trump) | [18864](https://www.amazon.com.au/dp/0394555287) |
+| 2026-10-19 | 2020 | Corey R. Lewandowski; David N. Bossie | [Trump: America First](analysis/analysis_categories_261021_1600.md#g0791) | 3.49 | V6 | high | 119 | [304](https://openlibrary.org/books/OL29809139M/Trump_America_First) | Unknown |
+| 2026-10-19 | 2019 | Lee Smith | [The Plot Against the President](analysis/analysis_categories_261021_1600.md#g0777) | 3.35 | V6 | moderate | 119 | [304](https://openlibrary.org/books/OL28720012M/Plot_Against_the_President) | Unknown |
+| 2026-10-22 | 100 | Thomas Nelson | [Holy Bible: KJV Standard Size Thumb Index Edition: Burgundy (King James Bible)](analysis/analysis_remaining_261022_0042.md#rem-u0545) | 2.89 | V5 | moderate | 183 | Unknown | Unknown |
+| 2026-10-19 | 2016 | Jed McKenna | [Dreamstate](analysis/analysis_vetogates_261021_0047.md#g0938) | 2.67 | V5 | moderate | 121 | [260](https://openlibrary.org/books/OL37741987M/Dreamstate) | Unknown |
+| 2026-10-19 | 2020 | Nick Adams | [Trump and Churchill](analysis/analysis_categories_261021_1600.md#g0792) | 2.08 | V6 | high | 119 | [224](https://openlibrary.org/books/OL29837741M/Trump_and_Churchill) | Unknown |
+| 2026-10-20 | 1975 | Andy Warhol | [The Philosophy of Andy Warhol](analysis/analysis_vetogates_261021_0047.md#n95cc0004bf) | 1.67 | V3 | moderate | 135 | [241](https://books.google.co.uk/books?id=1FCc8dxclXcC) | Unknown |
+| 2026-10-20 | 1963 | Barbara Payton | [I Am Not Ashamed](analysis/analysis_vetogates_261021_0047.md#n776dae28e5) | 1.66 | V3 | moderate | 132 | [216](https://spurleditions.com/i-am-not-ashamed) | [123](https://www.amazon.com/dp/1943679029) |
+| 2026-10-19 | 2013 | Osho | [The Art of Living and Dying](analysis/analysis_vetogates_261021_0047.md#g0962) | 1.54 | V5 | moderate | 121 | [272](https://www.amazon.com.au/dp/1780285310) | [195](https://www.amazon.com.au/dp/1780285310) |
+| 2026-10-21 | 2013 | William J. Birnes | [UFO Hunters: Book One](analysis/analysis_bgbalajisrin_261021_0210.md#bgf76d4a1d05) | 1.10 | V1 | moderate | 167 | [352](https://us.macmillan.com/books/9780765325228/ufohunters/) | Unknown |
+| 2026-10-19 | 2020 | Dinesh D'Souza | [United States of Socialism](analysis/analysis_categories_261021_1600.md#g0793) | 1.08 | V6 | high | 119 | [304](https://openlibrary.org/books/OL28238231M/United_States_of_Socialism) | Unknown |
+| 2026-10-17 | 2015 | Zecharia Sitchin; Janet Sitchin, editor | [The Anunnaki Chronicles](analysis/analysis_vetogates_261021_0047.md#q1131) | 0.96 | V1 | moderate | 8 | [375](https://openlibrary.org/books/OL27187750M/The_Anunnaki_chronicles) | Unknown |
+| 2026-10-17 | 1985 | Christian O'Brien; Barbara Joy O'Brien | [The Genius of the Few](analysis/analysis_vetogates_261021_0047.md#q1128) | 0.66 | V1 | moderate | 8 | [320](https://books.google.com/books/about/The_Genius_of_the_Few.html?id=v2wSAQAAIAAJ) | Unknown |
+| 2026-10-19 | 2020 | Pete Hegseth | [American Crusade](analysis/analysis_categories_261021_1600.md#g0703) | 0.32 | V5; V6 | high | 119 | [352](https://openlibrary.org/books/OL28135919M/American_Crusade) | Unknown |
+| 2026-10-19 | 2020 | Sean Hannity | [Live Free or Die](analysis/analysis_categories_261021_1600.md#g0732) | 0.32 | V6 | moderate | 119 | [352](https://openlibrary.org/books/OL28561348M/Live_Free_Or_Die) | Unknown |
+| 2026-10-21 | 1973 | Paul Williams | [Das Energi](analysis/analysis_bgstevejobs_261021_0210.md#bg8b5117b700) | -1.07 | V5 | high | 153 | [160](https://openlibrary.org/books/OL8390403M/Das_Energi) | Unknown |
+| 2026-10-19 | 2020 | Charlie Kirk | [The MAGA Doctrine](analysis/analysis_categories_261021_1600.md#g0771) | -1.23 | V6 | high | 119 | [256](https://openlibrary.org/books/OL28914900M/MAGA_Doctrine) | Unknown |
+| 2026-10-22 | 1979 | Swami Lakshmanjoo | [Shiva Sutras](analysis/analysis_remaining_261022_0042.md#rem-u0240) | -1.36 | V5 | moderate | 177 | [352](https://www.amazon.com.au/dp/1434314073) | [19](https://www.amazon.com.au/dp/1434314073) |
+| 2026-10-17 | 2004 | David McGowan | [Programmed to Kill](analysis/analysis_vetogates_261021_0047.md#q1133) | -2.32 | V1 | moderate | 9 | [406](https://openlibrary.org/books/OL7555555M/Programmed_to_Kill) | Unknown |
+| 2026-10-20 | 1937 | Julius Evola | [The Mystery of the Grail](analysis/analysis_vetogates_261021_0047.md#na8a63131c5) | -2.33 | V5 | moderate | 132 | [208](https://www.innertraditions.com/books/the-mystery-of-the-grail) | Unknown |
+| 2026-10-17 | 1995 | David R. Hawkins | [Power vs. Force](analysis/analysis_vetogates_261021_0047.md#q1136) | -2.42 | V1; V5 | moderate | 8 | [341](https://openlibrary.org/books/OL3949031M/Power_vs._force) | Unknown |
+| 2026-10-22 | 2006 | Rhonda Byrne | [The Secret (The Secret, #1)](analysis/analysis_remaining_261022_0042.md#rem-u0722) | -2.84 | V1 | moderate | 185 | Unknown | Unknown |
+| 2026-10-19 | 2019 | Donald Trump Jr. | [Triggered](analysis/analysis_categories_261021_1600.md#g0790) | -2.98 | V6 | high | 119 | [304](https://www.amazon.com.au/dp/154608603X) | [7222](https://www.amazon.com.au/dp/154608603X) |
+| 2026-10-19 | 2020 | Lou Dobbs | [The Trump Century](analysis/analysis_categories_261021_1600.md#g0785) | -3.47 | V6 | high | 119 | [272](https://openlibrary.org/books/OL29853520M/Trump_Century) | Unknown |
+| 2026-10-21 | 1901 | Richard Maurice Bucke | [Cosmic Consciousness](analysis/analysis_bgstevejobs_261021_0210.md#bg4084ddbdc3) | -3.66 | V1; V5 | high | 153 | [338](https://openlibrary.org/books/OL47325016M/Cosmic_Consciousness) | Unknown |
+| 2026-10-19 | 2020 | David Horowitz | [Blitz: Trump Will Smash the Left and Win](analysis/analysis_categories_261021_1600.md#g0705) | -4.12 | V4; V6 | high | 119 | [272](https://www.amazon.com.au/dp/1630061387) | [11446](https://www.amazon.com.au/dp/1630061387) |
+| 2026-10-19 | 2020 | Donald Trump Jr. | [Liberal Privilege](analysis/analysis_categories_261021_1600.md#g0731) | -4.12 | V6 | high | 119 | [318](https://en.wikipedia.org/wiki/Liberal_Privilege) | [2983](https://www.amazon.com.au/dp/B08FY8TS7B) |
+| 2026-10-22 | 2018 | Osho | [Enlightenment Is Your Nature](analysis/analysis_remaining_261022_0042.md#rem-u0225) | -4.22 | V5 | moderate | 177 | [240](https://www.amazon.com.au/dp/1786780496) | [44](https://www.amazon.com.au/dp/1786780496) |
+| 2026-10-20 | 1930 | Edith Hamilton | [The Greek Way](analysis/analysis_vetogates_261021_0047.md#nbf6adc7afb) | -4.74 | V2 | moderate | 141 | [347](https://openlibrary.org/books/OL17604736M/The_Greek_way.) | Unknown |
+| 2026-10-17 | 1976 | Zecharia Sitchin | [The 12th Planet](analysis/analysis_vetogates_261021_0047.md#q1134) | -5.02 | V1 | moderate | 8 | [384](https://openlibrary.org/books/OL1530507M/The_12th_Planet) | Unknown |
+| 2026-10-17 | 1976 | Zecharia Sitchin | [The Earth Chronicles](analysis/analysis_vetogates_261021_0047.md#q1135) | -5.39 | V1 | high | 8 | [243](https://openlibrary.org/books/OL3289260M/The_earth_chronicles_expeditions) | Unknown |
+| 2026-10-22 | 1944 | Neville Goddward | [Feeling is the Secret](analysis/analysis_remaining_261022_0042.md#rem-u0257) | -6.16 | V1 | moderate | 177 | Unknown | Unknown |
+| 2026-10-19 | 2002 | Sarah Mower | [Oscar: The Style, Inspiration and Life of Oscar de la Renta](analysis/analysis_vetogates_261021_0047.md#g0100) | -6.82 | V3 | moderate | 114 | [192](https://openlibrary.org/books/OL8943268M/Oscar) | [4](https://www.amazon.com.au/dp/B01N1WAOZV) |
+| 2026-10-22 | 2023 | Pierre Kory; Jenna McCarthy | [War on Ivermectin: The Medicine that Saved Millions and Could Have Ended the Pandemic](analysis/analysis_remaining_261022_0042.md#rem-u0490) | -7.06 | V1 | moderate | 182 | Unknown | Unknown |
+| 2026-10-19 | 1942 | Salvador Dalí | [The Secret Life of Salvador Dalí](analysis/analysis_vetogates_261021_0047.md#g0134) | -7.22 | V3 | moderate | 114 | [400](https://openlibrary.org/books/OL1732139M/The_secret_life_of_Salvador_Dalí) | [329](https://www.amazon.com.au/dp/0486274543) |
+| 2026-10-22 | 2021 | Robert F. Kennedy Jr. | [Real Anthony Fauci: Bill Gates, Big Pharma, and the Global War on Democracy and Public Health (Children’s Health Defense)](analysis/analysis_remaining_261022_0042.md#rem-u0460) | -7.23 | V1 | moderate | 182 | Unknown | Unknown |
+| 2026-10-22 | 1944 | Mao Zedong | [Serve the People](analysis/analysis_remaining_261022_0042.md#rem-u1890) | -8.27 | V6 | high | 193 | Unknown | Unknown |
+| 2026-10-19 | 1996 | Logie Bruce-Lockhart | [Stuff and Nonsense](analysis/analysis_vetogates_261021_0047.md#g0111) | -9.21 | V3 | low | 114 | [152](https://openlibrary.org/books/OL11577329M/Stuff_and_Nonsense) | [1](https://www.amazon.com.au/dp/0948400404) |
+| 2026-10-17 | 1985 | William J. Benson; Martin J. Beckman | [The Law That Never Was](analysis/analysis_vetogates_261021_0047.md#q1137) | -16.10 | V1 | high | 6 | Unknown | Unknown |
+| 2026-10-19 | 1980 | Osho | [Sun Rises in the Evening](analysis/analysis_vetogates_261021_0047.md#g0959) | -16.23 | V5 | moderate | 121 | [364](https://www.amazon.com/dp/0880501391) | [3](https://www.amazon.com/dp/0880501391) |
+| 2026-10-19 | 1981 | David Lifton | [Best Evidence](analysis/analysis_vetogates_261021_0047.md#g0044) | -16.43 | V1 | moderate | 114 | [747](https://openlibrary.org/books/OL4125510M/Best_evidence) | [175](https://www.amazon.com.au/dp/B01N90ZGJ4) |
+| 2026-10-19 | 1982 | Osho | [The Great Challenge](analysis/analysis_vetogates_261021_0047.md#g0969) | -16.56 | V5 | high | 121 | [220](https://www.amazon.com/dp/8172610076) | [4](https://www.amazon.com/dp/8172610076) |
+| 2026-10-17 | 1925 | Adolf Hitler | [Mein Kampf](analysis/analysis_categories_261021_1600.md#q1138) | -16.84 | V1; V2; V5; V6 | high | 8, 132, 201 | [308](https://openlibrary.org/books/OL55722130M/Mein_Kampf) | Unknown |
+| 2026-10-21 | 1928 | Edmond Bordeaux Szekely | [The Essene Gospel of Peace](analysis/analysis_bgstevejobs_261021_0210.md#bg7200d9adb3) | -18.07 | V5 | high | 153 | [72](https://openlibrary.org/books/OL24237127M/The_Essene_Gospel_of_peace) | Unknown |
 
 ## Counterfactual breakdowns and reasons
 
@@ -1651,3 +1686,333 @@ Positive criteria and non-rating deductions are unchanged. O15 uses verified new
 **V5; high confidence.** V5: a purported gospel presents religious healing doctrine as authoritative truth. Ancient-manuscript provenance remains unverified.
 
 [Complete assessment and evidence](analysis/analysis_bgstevejobs_261021_0210.md#bg7200d9adb3). Sources: 153.
+
+### The Legend of Zelda: Hyrule Historia — Patrick Thorpe
+
+**V3; moderate confidence.** Game-world chronology, franchise lore and concept art dominate the described contents. A creator introduction does not establish a sustained transferable design explanation. Art about fiction is not automatically a fictional book. V3, moderate confidence: after named lore and local game detail are removed, little explanatory payload is established.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 9.80 | 0.53 | 2.00 | 2.00 | 2.50 | 7.00 | 1.00 | 4.00 | 2.50 | 1.50 | 0.00 | 0.00 | 0.00 | -1.50 | 0.00 | 31.33 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0090). Sources: 175.
+
+### Life On Fire — James Aladiran
+
+**V5; moderate confidence.** The source explicitly presents scripture, spiritual warfare and a coming movement of the Holy Spirit as the book's authoritative framework. V5 high confidence from the stated devotional purpose; these are counterfactual scores only, not endorsement or a recommendation.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0.80 | 0.53 | 1.00 | 2.00 | 1.60 | 5.00 | 0.00 | 2.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -0.50 | 0.00 | 5.43 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0119). Sources: 176.
+
+### Mandukya Karika — Swami Gaudapada
+
+**V5; moderate confidence.** The Karika develops nondual spiritual doctrine through an authoritative interpretation of the Mandukya Upanishad. English translation is verified. Establishing spiritual realization and the identity of self and ultimate reality is the purpose, not historical analysis of belief. Composition about 550 CE is approximate; counterfactual score suspends only V5.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 2.45 | 1.47 | 3.00 | 2.00 | 3.60 | 8.00 | 0.00 | 4.00 | 2.00 | 1.50 | 0.00 | -10.00 | 0.00 | -10.00 | 0.00 | 8.02 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0193). Sources: 177.
+
+### Tantra Illuminated — Christopher D. Wallis
+
+**V5; moderate confidence.** History and exposition of nondual Tantra can be read as an account of an intellectual tradition. The historical account is combined with endorsement of a divine underlying consciousness and spiritual liberation. The introduction and Activity of the Divine passage present these teachings as truths for practitioners. V5 rests on that affirmative purpose, not the topic of Tantra.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 8.45 | 2.88 | 5.00 | 5.00 | 4.90 | 8.00 | 0.00 | 3.50 | 2.50 | 1.50 | 0.00 | -10.00 | 0.00 | -1.40 | -5.00 | 25.33 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0202). Sources: 177.
+
+### Industrial Society and Its Future — Ted Kaczynski
+
+**V6; moderate confidence.** The introduction calls for revolution against industrial society and the strategy sections instruct adherents on recruitment, propaganda and maintaining ideological commitment. Primary text paragraphs 4 and 187–206 establish movement-building as a central purpose. The veto rests on this purpose, not the author's criminal biography or the manifesto label. Counterfactual E retains unsupported inevitability claims and caricatured psychology.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 2.45 | 7.12 | 4.00 | 4.00 | 4.90 | 6.00 | 4.00 | 2.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -3.10 | 0.00 | 24.37 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0205). Sources: 177.
+
+### Choice Upanishads — Avula Parthasarathy
+
+**V5; moderate confidence.** Translated Upanishadic scripture and exposition treat spiritual truths as authoritative doctrine. The nominated work is Parthasarathy’s modern selection, translation and commentary, first edition 2001, not a separately nominated ancient Upanishad. English/Sanskrit publication is established. Retain V5 for its affirmative spiritual teaching.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0.80 | 0.94 | 1.00 | 3.00 | 3.60 | 8.00 | 0.00 | 3.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -2.50 | 0.00 | 10.84 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0208). Sources: 177.
+
+### Enlightenment Is Your Nature — Osho
+
+**V5; moderate confidence.** Spiritual self-realization is presented as the revelation of an innate enlightened nature. V5 moderate confidence; counterfactual score only. The current collection's date must not be confused with dates of earlier talks.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0.45 | 0.53 | 1.00 | 2.00 | 1.60 | 6.00 | 0.00 | 2.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -0.80 | -10.00 | -4.22 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0225). Sources: 177.
+
+### Shiva Sutras — Swami Lakshmanjoo
+
+**V5; moderate confidence.** Revealed aphorisms and commentary establish Kashmir Shaivite spiritual doctrine as authoritative. V5 high confidence in purpose. This source nominates Lakshmanjoo's commentary, not all works mentioned by the source's shorthand; publication history needs verification.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0.80 | 0.94 | 1.00 | 3.00 | 3.60 | 8.00 | 0.00 | 3.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -4.70 | -10.00 | -1.36 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0240). Sources: 177.
+
+### Feeling is the Secret — Neville Goddward
+
+**V1; moderate confidence.** The inspected public-domain opening asserts that feeling produces external reality and deliberately omits evidential argument in favor of personal confirmation. This is a central causal claim insulated from disconfirmation, not a modest habit heuristic. V1 high confidence; publisher also identifies the imagination-as-God doctrine.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0.20 | 0.24 | 1.00 | 1.00 | 1.60 | 4.00 | 0.00 | 1.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -8.20 | 0.00 | -6.16 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0257). Sources: 177.
+
+### Wind-up Digger: A Toy and Book Gift Featuring a Hands-On Exploration Of Diggers And Construction Sites — Sarah Hull
+
+**V3; moderate confidence.** A wind-up toy runs through constructed scenes; only a small sprinkling of machine facts is described. The physical toy/activity, rather than transferable explanation, dominates. V3 moderate confidence; actual printed book form prevents H1.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 7.20 | 0.24 | 1.00 | 2.00 | 0.90 | 5.00 | 1.00 | 2.00 | 2.00 | 1.00 | 0.00 | 0.00 | 0.00 | -0.10 | 0.00 | 22.24 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0367). Sources: 181.
+
+### Real Anthony Fauci: Bill Gates, Big Pharma, and the Global War on Democracy and Public Health (Children’s Health Defense) — Robert F. Kennedy Jr.
+
+**V1; moderate confidence.** Inspected passages in the HIV chapters present old causation doubts as unresolved and portray rejection of AIDS denialism as institutional suppression. V1 high confidence: this framing fails to engage the converging evidence and randomized antiretroviral trial results available before publication. The decision concerns the book's reasoning, not the author's political identity; disease and political power trigger both deductions.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0.20 | 1.47 | 1.00 | 2.00 | 1.60 | 2.00 | 1.00 | 1.50 | 2.00 | 0.50 | -10.00 | -10.00 | 0.00 | -0.50 | 0.00 | -7.23 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0460). Sources: 182.
+
+### My Story: A spiritual and intellectual autobiography — John C. Lennox
+
+**V5; moderate confidence.** The described intellectual autobiography is framed around defending Christian faith and its harmony with reason. The publisher’s Chapter 16 extract explicitly defends the divine nature of Christ and presents acceptance of it as the rational conclusion. Read with the stated apologetic purpose of the autobiography, this supports V5. The author’s mathematical career does not override the gate.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 3.20 | 1.47 | 3.00 | 3.00 | 3.60 | 7.00 | 2.00 | 3.50 | 2.50 | 1.00 | 0.00 | -10.00 | 0.00 | 0.00 | 0.00 | 20.27 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0469). Sources: 182.
+
+### War on Ivermectin: The Medicine that Saved Millions and Could Have Ended the Pandemic — Pierre Kory; Jenna McCarthy
+
+**V1; moderate confidence.** The publisher explicitly asserts unequivocal ivermectin efficacy and explains contrary findings through a coordinated suppressive campaign. V1 high confidence: this central certainty conflicts with randomized trials available before publication, including TOGETHER and ACTIV-6. Scientific disagreement is not itself proof of a cabal. Counterfactual scoring retains the flaw; disease and political/institutional conflict trigger both deductions.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0.20 | 0.94 | 1.00 | 2.00 | 1.60 | 2.00 | 1.00 | 2.00 | 2.00 | 0.50 | -10.00 | -10.00 | 0.00 | -0.30 | 0.00 | -7.06 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0490). Sources: 182.
+
+### Mere Christianity — C. S. Lewis
+
+**V5; moderate confidence.** Christian apologetic argument seeks to establish Christian doctrine as true and authoritative. V5 high confidence in the book's stated purpose. The collected book dates to 1952; constituent radio talks and separately published components date earlier and are disclosed for age review.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1.25 | 1.47 | 2.00 | 4.00 | 4.90 | 8.00 | 0.00 | 4.00 | 3.00 | 1.50 | 0.00 | -10.00 | 0.00 | -7.40 | 0.00 | 12.72 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0534). Sources: 183, 185.
+
+### Holy Bible: KJV Standard Size Thumb Index Edition: Burgundy (King James Bible) — Thomas Nelson
+
+**V5; moderate confidence.** The nominated Christian Bible is scripture, including the Hebrew and Christian collections, rather than a historical analysis of religion. V5 high confidence. Approximate final New Testament composition endpoint around 100 CE gives capped P14; a modern KJV printing does not reset age.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0.45 | 0.94 | 1.00 | 2.00 | 2.50 | 9.00 | 0.00 | 4.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -10.00 | 0.00 | 2.89 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0545). Sources: 183.
+
+### The Secret (The Secret, #1) — Rhonda Byrne
+
+**V1; moderate confidence.** The central law-of-attraction claim treats thoughts as a reliable means to produce external circumstances. V1 high confidence in the material causal failure, subject to a direct publisher/text citation in the final record. It is not merely advice to clarify goals; counterfactual scores retain the flaw.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0.20 | 0.24 | 1.00 | 1.00 | 1.23 | 2.00 | 0.00 | 1.00 | 2.00 | 0.50 | 0.00 | -10.00 | 0.00 | -2.00 | 0.00 | -2.84 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0722). Sources: 185.
+
+### The Bhagavad Gita — Eknath Easwaran
+
+**V5; moderate confidence.** The Bhagavad Gita is a scriptural religious dialogue presenting divine authority and spiritual duty. V5 high confidence. Easwaran is translator/commentator; approximate composition around 200 BCE is low-confidence bibliographic judgment with capped P14.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0.80 | 1.47 | 2.00 | 3.00 | 4.90 | 9.00 | 0.00 | 4.00 | 2.50 | 1.50 | 0.00 | -10.00 | 0.00 | -10.00 | 0.00 | 9.17 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0724). Sources: 185.
+
+### Milk and Honey — Rupi Kaur
+
+**V3; moderate confidence.** Lyric poems center on personal pain, relationships and emotional expression rather than explanatory models or scientific biography. V3 moderate confidence. Poetry is not excluded as fiction merely because it is verse; counterfactual score reflects the absent target intellectual payload.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 5.00 | 0.06 | 1.00 | 1.00 | 1.60 | 6.00 | 0.00 | 2.50 | 2.00 | 1.00 | 0.00 | 0.00 | 0.00 | -1.20 | 0.00 | 18.96 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0765). Sources: 186.
+
+### The Book of Mormon Study Guide: Start to Finish — Thomas R. Valletta
+
+**V5; moderate confidence.** A study guide is expressly intended to interpret and support the Book of Mormon as scripture. V5 high confidence. Religious study is not automatically technical training; full counterfactual scoring is retained under the doctrinal veto.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0.80 | 0.94 | 1.00 | 2.00 | 3.60 | 7.00 | 0.00 | 3.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -1.10 | 0.00 | 10.24 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0783). Sources: 186.
+
+### Book of Mormon Made Easier Box Set (with Chronological Map) — David Ridges
+
+**V5; moderate confidence.** The set supplies scriptural text and doctrinal explanation to facilitate devotional study. V5 high confidence. First component production date needs verification; later boxed-set packaging cannot reset P14.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0.80 | 0.94 | 1.00 | 2.00 | 3.60 | 7.00 | 0.00 | 3.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -2.30 | 0.00 | 9.04 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0784). Sources: 186.
+
+### The Daily Show: An Oral History as Told by Jon Stewart, the Correspondents, Staff and Guests — Chris Smith
+
+**V3; moderate confidence.** An oral history of a television comedy program primarily records personalities, incidents and production memories. V3 moderate confidence: a sustained reusable institutional/production model is not established. Correct author Chris Smith; Jon Stewart supplies a foreword. Counterfactual score only.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 9.80 | 0.94 | 2.00 | 2.00 | 3.60 | 6.00 | 0.00 | 3.50 | 2.50 | 1.00 | -10.00 | -10.00 | -0.44 | -1.00 | 0.00 | 9.90 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0853). Sources: 187.
+
+### Confessions — Augustine of Hippo
+
+**V5; moderate confidence.** Augustine's autobiographical work addresses God and establishes Christian spiritual truth through confession and theological reflection. V5 high confidence. Approximate completion around 400 CE, not the date of a printed edition, governs capped P14.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 2.45 | 1.47 | 2.00 | 3.00 | 4.90 | 9.00 | 0.00 | 4.50 | 2.50 | 1.50 | 0.00 | -10.00 | 0.00 | -10.00 | 0.00 | 11.32 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0976). Sources: 189.
+
+### The Case for a Creator: A Journalist Investigates Scientific Evidence That Points Toward God — Lee Strobel
+
+**V5; moderate confidence.** The stated aim is to use selected scientific claims to establish a creator's existence. V5 high confidence in explicit apologetic purpose. The veto does not apply to neutral histories of religion or science; scores remain counterfactual.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1.25 | 1.47 | 2.00 | 3.00 | 3.60 | 5.00 | 1.00 | 2.50 | 2.50 | 1.00 | 0.00 | -10.00 | 0.00 | -2.20 | 0.00 | 11.12 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u1049). Sources: 190.
+
+### Currency Wars I: Currency Warfare — Song Hongbing
+
+**V1; moderate confidence.** Currency Wars presents modern financial history through alleged concealed control by banking families. The source’s causal account centers on concealed banking-family control of modern monetary history. The specific Federal Reserve ownership/control premise conflicts with its statutory governance and nonordinary member-bank stock. This materially unsupported causal core supports V1 at moderate confidence; no claim to a complete primary-text audit is made.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0.80 | 4.76 | 3.00 | 3.00 | 3.60 | 4.00 | 3.00 | 1.50 | 2.50 | 1.00 | 0.00 | -10.00 | 0.00 | -1.90 | 0.00 | 15.26 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u1223). Sources: 196, 197.
+
+### Flags of Our Fathers — James Bradley; Ron Powers
+
+**V1; moderate confidence.** The family-centered account is built around the identification of the men in the celebrated Iwo Jima photograph. USMC investigations in 2016 and 2019 corrected central identifications, including John Bradley. The original book's defining identification is materially wrong; veto confidence high for that version, subject to a verified corrected edition. Counterfactual score retains the flaw.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 4.05 | 2.88 | 5.00 | 4.00 | 4.90 | 6.00 | 2.00 | 3.00 | 3.00 | 1.00 | -10.00 | -10.00 | -3.24 | -2.60 | 0.00 | 9.99 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u1322). Sources: 200.
+
+### Bonhoeffer: Pastor, Martyr, Prophet, Spy — Eric Metaxas
+
+**V2; moderate confidence.** The biography offers an accessible narrative of religious resistance to Nazism. Bonhoeffer editor Clifford Green identifies selective treatment of Union Seminary influences and dismissal of prison theology to fit an evangelical-liberal opposition. This concerns the narrative's interpretive structure, not the author's religion alone; veto confidence moderate. Counterfactual E retains source distortion.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 4.05 | 3.76 | 5.00 | 4.00 | 4.90 | 7.00 | 2.00 | 3.00 | 3.00 | 1.00 | -10.00 | -10.00 | -3.24 | -1.60 | 0.00 | 12.87 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u1328). Sources: 200.
+
+### The Language of God: A Scientist Presents Evidence for Belief — Francis S. Collins
+
+**V5; moderate confidence.** The work uses scientific and personal arguments to establish religious belief as true. The publisher describes a sustained case for faith and the integration of Christian belief with science, rather than detached history of religion. V5 concerns this apologetic purpose; the author’s scientific expertise does not override it.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 5.00 | 3.76 | 4.00 | 3.00 | 4.23 | 7.00 | 2.00 | 5.00 | 2.50 | 1.50 | 0.00 | -10.00 | 0.00 | -2.00 | 0.00 | 25.99 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u1647). Sources: 205.
+
+### The Hunt for Zero Point — Nick Cook
+
+**V1; moderate confidence.** The investigation links alleged Nazi and secret aerospace projects with antigravity and vacuum-energy technology. Retain V1 at moderate confidence. The publisher presents suppressed Nazi-to-US antigravity projects as the central historical discovery, while identifying interviews and speculative links as the evidence. That inference does not establish the alleged technology. This decision uses the publisher's account of the central claim, not a verified reading of representative chapters; whole-book assessment confidence remains low.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0.80 | 3.76 | 3.00 | 2.00 | 3.03 | 3.00 | 4.00 | 3.50 | 2.50 | 1.00 | 0.00 | 0.00 | 0.00 | -2.50 | 0.00 | 24.09 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u1803). Sources: 193.
+
+### Selected Works of Mao Tse-tung — Mao Zedong
+
+**V6; moderate confidence.** The collection combines political analysis with directives to party cadres and justification of Communist leadership. Official publication history dates the first official Chinese Selected Works volume to 12 October 1951 and describes its role in party ideological education. Read with the primary political directives already inspected, this supports V6. The collection is not scored as detached historiography.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1.80 | 5.88 | 5.00 | 4.00 | 4.90 | 7.00 | 2.00 | 4.00 | 2.00 | 1.00 | -10.00 | -10.00 | -3.08 | -7.50 | 0.00 | 7.00 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u1888). Sources: 193.
+
+### Serve the People — Mao Zedong
+
+**V6; high confidence.** A commemorative address calls for dedication to the revolutionary collective and legitimizes sacrifice for its cause. The full short address is a memorial exhortation to party and revolutionary-army members, assigning moral worth to sacrifice for the movement and calling for continued dedication. This establishes allegiance reinforcement, rather than detached political analysis.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1.80 | 0.53 | 2.00 | 1.00 | 1.60 | 6.00 | 0.00 | 4.00 | 2.00 | 1.00 | -10.00 | -10.00 | 0.00 | -8.20 | 0.00 | -8.27 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u1890). Sources: 193.
+
+### The Governance of China — Xi Jinping
+
+**V6; moderate confidence.** An official speech collection presents the governing program and repeatedly calls for commitment to the party's leadership and mission. The 2014 first volume’s party-building sections explicitly call on members to renew faith in party character, uphold principles and strengthen political discipline. Across the official speech collection this reinforces allegiance; V6 is supported by these passages, not merely by authorship or a policy program.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 2.45 | 5.88 | 5.00 | 4.00 | 4.23 | 5.00 | 2.00 | 4.50 | 2.00 | 1.00 | -10.00 | -10.00 | 0.00 | -1.20 | 0.00 | 14.86 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u1891). Sources: 193.
+
+### Selected Works of Deng Xiaoping — Deng Xiaoping
+
+**V6; moderate confidence.** Speeches combine economic reform with directives on party authority and ideological discipline. The official Volume II publication note identifies its predecessor Selected Works (1975–1982) as published in 1983. The nominated collection therefore begins in 1983 despite later volume renumbering. Four Cardinal Principles explicitly requires party leadership and ideological adherence, supporting V6 together with the collection’s political-directive purpose.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 4.05 | 8.47 | 6.00 | 5.00 | 5.63 | 7.00 | 3.00 | 5.00 | 2.00 | 1.00 | -10.00 | -10.00 | -1.36 | -4.30 | 0.00 | 21.49 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u1893). Sources: 193.
+
+### The Legend of Zelda: Encyclopedia — Nintendo
+
+**V3; moderate confidence.** The encyclopedia catalogs characters, items, maps and relationships within Zelda's invented world. Contemporaneous publication reporting identifies the Japanese Hyrule Encyclopedia release in early March 2017. The English Encyclopedia is a later translation. Retain the V3 lore-reference judgment, distinct from a fiction-narrative exclusion.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 8.45 | 0.53 | 1.00 | 1.00 | 2.50 | 6.00 | 0.00 | 4.00 | 2.00 | 1.00 | 0.00 | 0.00 | 0.00 | -0.90 | 0.00 | 25.58 |
+
+[Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0093-b). Sources: 175.

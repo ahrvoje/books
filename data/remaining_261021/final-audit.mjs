@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+const j=p=>JSON.parse(fs.readFileSync(p)),dir='data/remaining_261021/',c=j(j('data/catalog.json').compiled),r=j(dir+'review.json'),p=j('data/source_batch_261021/pending.json');
+assert.equal(p.length,14);
+assert(fs.existsSync(r.report));
+const top=c.currentBooks.filter(b=>b.status==='recommended').sort((a,b)=>b.total-a.total).slice(0,100);
+const veto=fs.readFileSync('VETOED_BOOKS.md','utf8');
+const old=j(dir+'prepublication-ledgers.json')['VETOED_BOOKS.md'];
+assert(veto.includes(old.slice(old.indexOf('## Counterfactual breakdowns'))),'Prior veto details lost');
+for(const b of c.currentBooks.filter(b=>b.id.startsWith('rem-')&&b.status==='vetoed'))assert(veto.includes('### '+b.title+' — '+b.author));
+const result={catalog:j('data/catalog.json').compiled,report:r.report,recommended:c.currentBooks.filter(b=>b.status==='recommended').length,vetoed:c.currentBooks.filter(b=>b.status==='vetoed').length,excluded:c.exclusions.length,pending:p.length,top100KnownAmazon:top.filter(b=>b.amazon?.count!=null).length,top100UnknownAmazon:top.filter(b=>b.amazon?.count==null).map(b=>({id:b.id,title:b.title})),newVerifiedAmazon:c.currentBooks.filter(b=>b.id.startsWith('rem-')&&b.amazon?.count!=null).length};
+fs.writeFileSync(dir+'validation.json',JSON.stringify(result,null,2)+'\n');
+console.log(result);

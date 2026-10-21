@@ -10,7 +10,7 @@
 <body>
 <a class="skip" href="#results">Skip to books</a>
 <header class="masthead">
-  <div class="title-row"><h1>Book selection<span class="blue">.</span></h1><button id="selection" class="selection">Selected <strong>0</strong></button></div>
+  <div class="title-row"><div><h1>Book selection<span class="blue">.</span></h1><p class="branding">by Hrvoje Abraham, ahrvoje@gmail.com</p></div><button id="selection" class="selection">Selected <strong>0</strong></button></div>
   <nav class="library-nav" aria-label="Library pages"><a href="#books" data-page="books" aria-current="page">Books <span id="nav-books-count"></span></a><a href="#vetoed" data-page="vetoed">Vetoed <span id="nav-vetoed-count"></span></a><a href="#excluded" data-page="excluded">Excluded <span id="nav-excluded-count"></span></a><a href="#sources" data-page="sources">Sources <span id="nav-sources-count"></span></a><a href="#methodology" data-page="methodology">Methodology</a></nav>
   <div id="book-toolbar" class="search-row"><label class="search-label" for="search">Search the library</label><input id="search" type="search" placeholder="Title, author, or subtitle…" autocomplete="off"><button id="export">Export settings</button><label class="button file-label">Import<input type="file" id="import" accept=".json,application/json"></label><button id="variables" aria-pressed="false" aria-label="Show variable aliases" title="Show variable aliases">ƒx</button></div>
 </header>
@@ -46,7 +46,7 @@
 </main>
 <main id="excluded-view" class="reference-view" hidden aria-labelledby="excluded-title" tabindex="-1">
   <div class="section-title"><h2 id="excluded-title">Excluded books</h2><span>Alphabetical</span></div>
-  <p class="intro">Fiction and works excluded by the technical training and reference rule. Historical surveys can qualify when their explanatory prose has value beyond locating references. Excluded books have no score. See <a href="#method-exclusions">the exclusion methodology</a> for the precise rule.</p>
+  <p class="intro">Fiction, technical training and reference works, and books unavailable in English or Croatian. An English or Croatian translation qualifies. Historical surveys can qualify when their explanatory prose has value beyond locating references. Excluded books have no score. See <a href="#method-exclusions">the exclusion methodology</a> for the precise rules.</p>
   <ul id="excluded-list" class="excluded-list"></ul>
 </main>
 <main id="sources-view" class="reference-view" hidden aria-labelledby="sources-title" tabindex="-1">

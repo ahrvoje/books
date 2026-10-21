@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import exclusions from './exclusion-decisions.mjs';
+import {existing,aliases} from './identity.mjs';
+import p from './queue.mjs';
+import unresolved from './unresolved.mjs';
+import nonbooks from './nonbooks.mjs';
+const d='data/remaining_261021/';
+const rows=fs.readdirSync(d).filter(f=>/^assessments-.*\.txt$/.test(f)).flatMap(f=>fs.readFileSync(d+f,'utf8').split('\n').filter(l=>l&&!l.startsWith('#')).map(l=>({file:f,id:l.split('|')[0],fields:l.split('|')})));
+const covered=new Set([...rows.map(r=>r.id),...exclusions.map(x=>x.batchId),...Object.keys(existing),...Object.keys(aliases),...unresolved.map(x=>x.batchId),...nonbooks.map(x=>x.batchId)]),left=p.filter(b=>!covered.has(b.batchId));
+const duplicates=rows.filter((r,i)=>rows.findIndex(x=>x.id===r.id)<i).map(r=>r.id),invalid=rows.filter(r=>r.fields.length!==9).map(r=>[r.id,r.fields.length]);
+console.log({draftAssessments:rows.length,screenedExclusions:exclusions.length,existingMatches:Object.keys(existing).length,aliases:Object.keys(aliases).length,unresolvedIdentities:unresolved.length,nonbooks:nonbooks.length,covered:covered.size,remainingWithoutDraftDisposition:left.length,duplicates,invalid});
+fs.writeFileSync(d+'unreviewed.json',JSON.stringify(left,null,2));
+if(process.argv[2]==='list')console.log(left.map(b=>b.batchId+' | '+b.title+' | '+b.author).join('\n'));
