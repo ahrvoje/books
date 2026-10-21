@@ -1,0 +1,640 @@
+# Excluded books
+
+Hard-excluded source books under [AGENTS.md](AGENTS.md). One alphabetized entry per underlying work; no scores. Original exclusions retain their historical evidence in [the earlier review](analysis_exclusions_261018_0045.md). New and revised decisions are documented in the Glasp source analyses linked from [SOURCES.md](SOURCES.md).
+
+- #AskGaryVee — Gary Vaynerchuk
+- 7 Powers — Hamilton Helmer
+- 11/22/63 — Stephen King
+- 100 Deadly Skills — Clint Emerson
+- 101 Things I Learned in Engineering School — John Kuprenas; Matthew Frederick
+- 1000 Ways to Make $1,000 — F.C. Minaker
+- 2666 — Roberto Bolaño
+- A Calendar of Wisdom — Leo Tolstoy
+- A Confederacy of Dunces — John Kennedy Toole
+- A Few Lessons from Sherlock Holmes — Peter Bevelin
+- A Field Guide to the North American Prairie — Stephen R. Jones; Ruth Carol Cushman
+- A Fire Upon the Deep
+- A Guide To Econometrics — Peter E. Kennedy
+- A Guide To The Good Life — William B. Irvine
+- A History of the Theory of Investments — Mark Rubinstein
+- A Little Life — Hanya Yanagihara
+- A Path Through the Jungle — Steve Peters
+- A Pattern Language — Christopher Alexander
+- A Practical Guide for Policy Analysis — Eugene Bardach; Eric M. Patashnik
+- A Raisin in the Sun — Lorraine Hansberry
+- A Random Walk Down Wall Street — Burton Malkiel
+- A Separate Peace — John Knowles
+- A Thousand Splendid Suns — Khaled Hosseini
+- A Tree Grows in Brooklyn — Betty Smith
+- A Wizard of Earthsea
+- A Woman Makes a Plan — Maye Musk
+- Accelerando
+- Act of Oblivion
+- Adventures of Huckleberry Finn — Mark Twain
+- Airborne Electronic Hardware Design Assurance — Randall Fulton; Roy Vandermolen
+- All I Want to Know is Where I'm Going To Die So I'll Never Go There — Peter Bevelin
+- All Quiet on the Western Front — Erich Maria Remarque
+- All That the Rain Promises and More — David Arora
+- All the Light We Cannot See — Anthony Doerr
+- American Dirt — Jeanine Cummins
+- An Everyone Culture — Robert Kegan
+- An Illustrated Book of Bad Arguments — Ali Almossawi
+- Anna Karenina — Leo Tolstoy
+- Anne of Green Gables — L. M. Montgomery
+- Annihilation
+- ANSI Common Lisp — Paul Graham
+- Anthropic Bias — Nick Bostrom
+- Anything You Want — Derek Sivers
+- Artificial Intelligence: A Modern Approach — Stuart Russell; Peter Norvig
+- Asset Management — Andrew Ang
+- Atlas Shrugged — Ayn Rand
+- Aubrey–Maturin series
+- Backgammon — Paul Magriel; Renée Magriel Roberts
+- Bad Wisdom — Bill Drummond; Mark Manning / Zodiac Mindwarp
+- Barbed Wire Heart
+- Beating The Street — Peter Lynch
+- Behind the Cloud — Marc Benioff; Carlye Adler
+- Being With Dying — Joan Halifax
+- Bet With the Best — Andrew Beyer
+- Beyond Entrepreneurship — Jim Collins
+- Big Swiss
+- Blandings
+- Bleak House — Charles Dickens
+- Blindness — José Saramago
+- Blindsight
+- Blitzscaling — Reid Hoffman; Chris Yeh
+- Blood Meridian
+- Blue Ocean Strategy — W. Chan Kim
+- Boy's Life — Robert R. McCammon
+- Built To Last — Jim Collins
+- Built to Sell
+- Calculus Made Easy — Silvanus P. Thompson
+- Can't Hurt Me — David Goggins
+- Capital Returns — Edward Chancellor
+- Cashing in on the American Dream — Paul Terhorst
+- Catch-22 — Joseph Heller
+- Certain To Win — Chet Richards
+- Chaos in Dynamical Systems — Edward Ott
+- Chaotic Evolution and Strange Attractors — David Ruelle
+- Charlie Munger: The Complete Investor — Tren Griffin
+- Charlotte's Web — E. B. White
+- Chasing the Rabbit — Steven J. Spear
+- Children of Dune
+- Cicero trilogy
+- Civilizations — Laurent Binet
+- Clear Thinking — Shane Parrish
+- Cold Calling Techniques — Stephan Schiffman
+- Cold Mountain — Charles Frazier
+- Common Stocks and Uncommon Profits — Philip Fisher
+- Commonweal
+- Competing Against Luck — Clayton Christensen
+- Competing Against Time — George Stalk, Jr.
+- Competing in the Age of AI — Marco Iansiti; Karim R. Lakhani
+- Competition Demystified — Bruce Greenwald
+- Competitive Strategy — Michael Porter
+- Complex PTSD: From Surviving to Thriving — Pete Walker
+- Complexity and the Economy — W. Brian Arthur
+- Computer Networking: A Top-Down Approach — James F. Kurose; Keith W. Ross
+- Concentrated Investing — Allen C. Benello
+- Concepts of Physics — H. C. Verma
+- Conceptual Physics — Paul G. Hewitt
+- Confessions of a Pricing Man — Hermann Simon
+- Conscious Business — Fred Kofman
+- Contrarian Investment Strategies — David Dreman
+- Conversations on Quantum Gravity — Jácome Armas (editor)
+- Cradle
+- Crash Proof 2.0 — Peter Schiff
+- Creating Shareholder Value — Alfred Rappaport
+- Creativity, Inc. — Ed Catmull
+- Crime and Punishment — Fyodor Dostoevsky
+- Critical Chain
+- Crossing the Chasm — Geoffrey Moore
+- Culture series
+- Dalva — Jim Harrison
+- Danny, the Champion of the World — Roald Dahl
+- Dare To Fly — Martha McSally
+- Dark Integers
+- Data-Driven Marketing — Mark Jeffery
+- Dealing with Darwin — Geoffrey A. Moore
+- Dear Founder — Maynard Webb
+- Death and Croissants
+- Deep Learning: A Visual Approach — Andrew Glassner
+- Deep Value — Tobias Carlisle
+- DeMark Indicators — Jason Perl
+- Demon Copperhead — Barbara Kingsolver
+- Demons — Fyodor Dostoevsky
+- Designing Data-Intensive Applications — Martin Kleppmann
+- Diaminds — Mihnea Moldoveanu
+- Diaspora
+- Die With Zero — Bill Perkins
+- Divine Proportions — Norman J. Wildberger
+- Don't Make Me Think — Steve Krug
+- Don't Think of an Elephant! — George Lakoff
+- Double your Profits — Bob Fifer
+- Dune — Frank Herbert
+- Earthsea
+- East of Eden — John Steinbeck
+- Eating The Big Fish — Adam Morgan
+- Echopraxia
+- Ecology of the Planted Aquarium — Diana Walstad
+- Economics — Paul A. Samuelson; William D. Nordhaus
+- Electric Warfare — Jason Carlisle
+- Empire of the Sun
+- Empress of Forever
+- End of Illness — David B. Agus
+- Engineering in Plain Sight — Grady Hillhouse
+- EPA 608 Study Guide — Author unspecified
+- Equoid
+- Eragon
+- Essentialism — Greg McKeown
+- Euclid's Elements — Euclid
+- Everything Flows
+- Excession
+- Execution — Larry Bossidy
+- Exhalation
+- Expectations Investing — Michael Mauboussin
+- Explaining Social Behavior — Jon Elster
+- Exponential Organizations — Salim Ismail
+- Fall; or, Dodge in Hell
+- Farsighted — Steven Johnson
+- Fatherland — Robert Harris
+- Fear and Loathing in Las Vegas — Hunter S. Thompson
+- Filters Against Folly — Garrett Hardin
+- Financial Derivatives — Jamil Baz
+- Flowers for Algernon — Daniel Keyes
+- Focus — Al Ries
+- Founding Sales — Peter Kazanjy
+- Fundamentals of Plasma Physics — Paul M. Bellan
+- Fungi of Temperate Europe — Thomas Læssøe; Jens H. Petersen
+- Future Forward — Glenn Rifkin
+- Gaining Ground — Jennifer A. Clack
+- Game Engine Black Book: DOOM — Fabien Sanglard
+- Gaudy Night — Dorothy L. Sayers
+- Germinal — Émile Zola
+- Geronimo Rex — Barry Hannah
+- Get Smarter — Seymour Schulich
+- Getting Everything You Can Out of All You've Got — Jay Abraham
+- Getting It Done — Roger Fisher
+- Getting Past No — William Ury
+- Getting Real — 37signals (Jason Fried; David Heinemeier Hansson; Matthew Linderman)
+- Getting to Yes — Roger Fisher
+- Giovanni's Room — James Baldwin
+- Global Business — Mike W. Peng (source identity conditional)
+- Global Strategy — Mike W. Peng
+- God Emperor of Dune
+- Goldratt's Rules of Flow
+- Good Profit — Charles Koch
+- Good To Great — Jim Collins
+- Goodbye to Berlin
+- Gravitation — Charles W. Misner; Kip S. Thorne; John Archibald Wheeler
+- Growth IQ — Tiffani Bova
+- Hard-Boiled Wonderland and the End of the World — Haruki Murakami
+- Harry Potter
+- Harry Potter and the Methods of Rationality
+- Harry Potter and the Prisoner of Azkaban — J. K. Rowling
+- Hierarchy
+- High Growth Handbook — Elad Gil
+- High Output Management — Andrew Grove
+- History and Geography of Human Genes — L. Luca Cavalli-Sforza; Paolo Menozzi; Alberto Piazza
+- Hooked — Nir Eyal
+- Hopping Over The Rabbit Hole — Anthony Scaramucci
+- Hornblower Saga — C.S. Forester
+- House of Leaves
+- How An Economy Grows and Why It Crashes — Peter D. Schiff; Andrew J. Schiff
+- How Big Things Get Done — Bent Flyvbjerg; Dan Gardner
+- How Companies Win — Rick Kash
+- How Google Works — Eric Schmidt
+- How Technology Works — DK
+- How To Buy Stocks — Louis Engel
+- How To Decide — Annie Duke
+- How to Fail at Almost Everything and Still Win Big — Scott Adams
+- How to Get Lucky — Max Gunther
+- How To Get Rich — Felix Dennis
+- How to Invent Everything — Ryan North
+- How to Make Millions with Your Ideas — Dan S. Kennedy
+- How To Win at the Sport of Business — Mark Cuban
+- How Will You Measure Your Life? — Clayton Christensen
+- Hug Your Haters — Jay Baer
+- Hunter's Run — George R. R. Martin; Gardner Dozois; Daniel Abraham
+- Hyperion — Dan Simmons
+- I Am Pilgrim — Terry Hayes
+- I Will Teach You To Be Rich — Ramit Sethi
+- Impro — Keith Johnstone
+- Indistractable — Nir Eyal
+- Infinite Jest
+- Innovation and Entrepreneurship — Peter Drucker
+- Insanely Simple — Ken Segall
+- Inside the Investor's Brain — Richard Peterson
+- Intellectual Life in the Middle Ages — Lesley M. Smith; Benedicta Ward (editors)
+- Ishmael — Daniel Quinn
+- It's About Damn Time — Arlan Hamilton
+- It's Earnings That Count — Hewitt Heiserman
+- It's Not How Good You Are - It's How Good You Want To Be — Paul Arden
+- It's Not Luck
+- J R — William Gaddis
+- Jack Reacher (series) — Lee Child; later Andrew Child
+- Jeeves
+- Judgment in Managerial Decision Making — Max Bazerman
+- Jurassic Park
+- Karl Marx's Theory of History — G. A. Cohen
+- Last Horizon
+- Lean Solutions — James P. Womack
+- Lean Thinking — James Womack
+- Leapfrog — Nathalie Molina Nino
+- Learn or Die — Edward Hess
+- Leave It to Psmith
+- Legends of the Fall — Jim Harrison
+- Leo Africanus
+- Les Misérables — Victor Hugo
+- Les Particules élémentaires / Atomised — Michel Houellebecq
+- Lessons — Gisele Bündchen
+- Letters to a Young Scientist — Edward Wilson
+- Lexicon Urthus — Michael Andre-Driussi
+- Libra — Don DeLillo
+- Licanius trilogy
+- Life Is What You Make It — Peter Buffett
+- Linchpin — Seth Godin
+- Logicomix — Apostolos Doxiadis; Christos Papadimitriou
+- Lonesome Dove — Larry McMurtry
+- Long Steel Rail — Norm Cohen
+- Loonshots — Safi Bahcall
+- Lord of Mysteries
+- Love Among the Chickens
+- Machine Learning for Dummies — John Paul Mueller; Luca Massaron
+- Made to Stick — Chip Heath
+- Malazan Book of the Fallen — Steven Erikson
+- Man, Economy, and State — Murray Rothbard
+- Managing Oneself — Peter Drucker
+- Margin of Safety — Seth Klarman
+- Market Wizards — Jack D. Schwager
+- Mastering the Core Teachings of the Buddha — Daniel Ingram
+- Mastering The Market Cycle — Howard Marks
+- Mastery — George Leonard
+- Math, Better Explained — Kalid Azad
+- Mathematical Methods of Classical Mechanics — V. I. Arnold
+- Mathematician's Delight — W. Sawyer
+- Mathematics: Its Content, Methods and Meaning — A. D. Aleksandrov; A. N. Kolmogorov; M. A. Lavrentyev (eds.)
+- Mean Spirit — Linda Hogan
+- Measure What Matters — Katie Delahaye Paine
+- Measure What Matters — John Doerr
+- Memos From The Chairman — Alan Greenberg
+- Middlemarch — George Eliot
+- Mike and Psmith
+- Moby-Dick — Herman Melville
+- Modelling Extremal Events — Paul Embrechts; Claudia Klüppelberg; Thomas Mikosch
+- Modern Engineering for Design of Liquid Propellant Rocket Engines — Dieter K. Huzel; David H. Huang
+- Molecular Biology of the Cell — Bruce Alberts; Alexander Johnson; Julian Lewis; David Morgan; Martin Raff; Keith Roberts; Peter Walter
+- Monetizing Innovation — Madhavan Ramanujam
+- Money — Tony Robbins
+- Mr Norris Changes Trains
+- Mutiny on the Bounty — Charles Nordhoff; James Norman Hall (probable source identity)
+- My Grandmother's Hands — Resmaa Menakem
+- Needful Things — Stephen King
+- Negotiating The Impossible — Deepak Malhotra
+- Neuromancer
+- No Bullshit Guide to Math and Physics — Ivan Savov
+- No Country for Old Men — Cormac McCarthy
+- No Rules Rules — Reed Hastings
+- North Woods — Daniel Mason
+- Now, Discover Your Strengths — Don Clifton
+- Obvious Adams — Robert Updegraff
+- Oil 101 — Morgan Downey
+- On Writing — Stephen King
+- One Hundred Years of Solitude — Gabriel García Márquez
+- One Simple Idea — Stephen Key
+- One Up on Wall Street — Peter Lynch
+- Only the Paranoid Survive — Andy Grove
+- Open-Channel Hydraulics — Ven Te Chow
+- Operating Systems: Three Easy Pieces — Remzi H. Arpaci-Dusseau; Andrea C. Arpaci-Dusseau
+- Order Without Design — Alain Bertaud
+- Originals — Adam Grant
+- Orwell's Revenge — Peter W. Huber
+- Out of the Crisis — W. Edwards Deming
+- Outer Dark
+- Paradigms — Joel Arthur Barker
+- Paradigms of Artificial Intelligence Programming — Peter Norvig
+- Peak — Chip Conley
+- Pebbles of Perception — Laurence Endersen
+- Permutation City
+- Physics from Finance — Jakob Schwichtenberg
+- Piranesi — Susanna Clarke
+- Platform Revolution — Geoffrey G. Parker; Marshall W. Van Alstyne; Sangeet Paul Choudary
+- Play Bigger — Al Ramadan
+- Positioning — Al Ries
+- Postsingular
+- Powerful — Patty McCord
+- Primed to Perform — Neel Doshi
+- Principles — Ray Dalio
+- Principles of Economics — N. Gregory Mankiw
+- Principles of Economics — Saifedean Ammous
+- Probability Theory — S.R.S. Varadhan
+- Probability, Random Variables and Stochastic Processes — Athanasios Papoulis
+- Product Design for the Web — Randy Hunt
+- Program = Proof — Samuel Mimram
+- Project Hail Mary — Andy Weir
+- Psmith
+- Psmith in the City
+- Psmith, Journalist
+- Public Relations — Edward L. Bernays
+- Q.E.D. — Burkard Polster
+- Quality Investing — Lawrence A. Cunningham
+- Quality of Earnings — Thornton O'Glove
+- Quantum Electrodynamics — Richard P. Feynman
+- Quantum Field Theory for the Gifted Amateur — Tom Lancaster; Stephen J. Blundell
+- Radiation Detection and Measurement — Glenn F. Knoll
+- Radical Candor — Kim Scott
+- Rational Decisions — Ken Binmore
+- Rational Expectations — William Bernstein
+- Red Rising
+- Relational Syllogisms and the History of Arabic Logic, 900–1900 — Khaled El-Rouayheb
+- Reminiscences of a Stock Operator — Edwin Lefevre
+- Remote — Jason Fried & David Heinemeier Hansson
+- Repairman Jack (series) — F. Paul Wilson
+- Rework — Jason Fried
+- Rich Dad, Poor Dad — Robert Kiyosaki
+- Rich Dad's Cashflow Quadrant — Robert Kiyosaki
+- Rich Woman — Kim Kiyosaki
+- Romeo and Juliet — William Shakespeare
+- Rule of the Bone — Russell Banks
+- Rust Atomics and Locks — Mara Bos
+- Salt, Fat, Acid, Heat — Samin Nosrat
+- Savage News — Jessica Yellin
+- Scaling People — Claire Hughes Johnson
+- Schild's Ladder
+- Scientific Advertising — Claude C. Hopkins
+- Sea/Shadow trilogies
+- Secret Sauce — Austen Allred & Vin Clancy
+- Secrets of Closing the Sale — Zig Ziglar
+- Secrets of Power Negotiating — Roger Dawson
+- Secrets of Sand Hill Road — Scott Kupor
+- Security Analysis — Benjamin Graham
+- Seeking Wisdom — Peter Bevelin
+- Self-Made Success — Shaan Patel
+- Sell with a Story — Paul Smith
+- Shantaram — Gregory David Roberts
+- Siddhartha — Hermann Hesse
+- Simple Rules — Donald Sull
+- Site Reliability Engineering — Niall Richard Murphy; Betsy Beyer; Chris Jones; Jennifer Petoff (editors)
+- Six Easy Pieces — Richard P. Feynman
+- Six Not-So-Easy Pieces — Richard Feynman
+- Snow Crash
+- Solution Selling — Michael Bosworth
+- Sometimes a Great Notion — Ken Kesey
+- Spin Sucks — Gini Dietrich
+- Stability and Chaos in Celestial Mechanics — Alessandra Celletti
+- Start With Why — Simon Sinek
+- Startup Playbook — Sam Altman
+- Statistical Consequences of Fat Tails — Nassim Nicholas Taleb
+- Statistical Consequences of Fat Tails — Nassim Taleb
+- Statistical Models — David A. Freedman
+- Steppenwolf — Hermann Hesse
+- Stoner — John Williams
+- Structure and Interpretation of Computer Programs — Harold Abelson; Gerald Jay Sussman; Julie Sussman
+- Successful Investing is a Process — Jacques Lussier
+- Super Maker — Jaime Schmidt
+- Survival to Thrival — Bob Tinker
+- Suttree — Cormac McCarthy
+- Switch — Chip & Dan Heath
+- Take On The Street — Arthur Levitt
+- Talent — Tyler Cowen & Daniel Gross
+- Talking To Humans — Giff Constable
+- Team of Teams — Stanley McChrystal
+- Team Topologies — Matthew Skelton
+- Technical Analysis of the Financial Markets — John Murphy
+- Terraform: Watch/Worlds/Burn
+- The 4 Hour Work Week — Tim Ferriss
+- The 22 Immutable Laws of Marketing — Al Ries
+- The 48 Laws of Power — Robert Greene
+- The 80/20 Principle — Richard Koch
+- The Advantage — Patrick Lencioni
+- The Aeneid — Virgil
+- The Agony and the Ecstasy — Irving Stone
+- The Alliance — Reid Hoffman
+- The Almanack of Naval Ravikant — Eric Jorgenson
+- The Anarchist Cookbook — William Powell
+- The Annapolis Book of Seamanship — John Rousmaniere
+- The Art of Computer Programming — Donald E. Knuth
+- The Art Of Doing Science And Engineering — Richard W. Hamming
+- The Art of Scientific Investigation — W. I. B. Beveridge
+- The Art of the Pitch — Peter Coughter
+- The Art of War — Sun-Tzu
+- The Ashley Book of Knots — Clifford W. Ashley
+- The Aspirational Investor — Ashvin Chhabra
+- The Attention Revolution — B. Alan Wallace
+- The Back of the Napkin — Dan Roam
+- The Berlin Stories
+- The Blank Swan — Elie Ayache
+- The Book of Five Rings — Miyamoto Musashi
+- The Book of Lost Names — Kristin Harmel
+- The Book Thief — Markus Zusak
+- The Book Woman of Troublesome Creek — Kim Michele Richardson
+- The Brand Flip — Marty Neumeier
+- The Brothers Karamazov — Fyodor Dostoevsky
+- The Charisma Myth — Olivia Fox Cabane
+- The Cider House Rules — John Irving
+- The City & the City
+- The Clan of the Cave Bear — Jean M. Auel
+- The Cold Start Problem — Andrew Chen
+- The Compleat Strategyst — J. D. Williams
+- The Complete Guide to Sales Force Incentive Compensation — Andris A. Zoltners
+- The Corrections — Jonathan Franzen
+- The Count of Monte Cristo — Alexandre Dumas
+- The Courage To Be Disliked — Ichiro Kishimi; Fumitake Koga
+- The Creative Curve — Allen Gannett
+- The Dao of Capital — Mark Spitznagel
+- The Dark Forest
+- The Dark Side of the Moon — Martin Suter
+- The Death of Grass — John Christopher
+- The Design Thinking Playbook — Michael Lewrick; Patrick Link; Larry Leifer
+- The DevOps Handbook — Gene Kim; Jez Humble; Patrick Debois; John Willis
+- The Diamond Age
+- The Diamond Eye — Kate Quinn
+- The Dip — Seth Godin
+- The Economics of Microfinance — Beatriz Armendáriz
+- The Elements of Statistical Learning — Trevor Hastie; Robert Tibshirani; Jerome Friedman
+- The Emotionally Intelligent Investor — Ravee Mehta
+- The Enchiridion — Epictetus
+- The Expanse
+- The Fear Index
+- The Feynman Lectures on Physics — Richard P. Feynman; Robert B. Leighton; Matthew Sands
+- The Forever War
+- The Four Agreements — Don Miguel Ruiz
+- The Ghost
+- The Global Macro Edge — John Netto
+- The Goal — Eliyahu Goldratt
+- The Goal: A Business Graphic Novel
+- The God Engines
+- The Golden Notebook
+- The Good Earth — Pearl S. Buck
+- The Grapes of Wrath — John Steinbeck
+- The Grass Is Singing
+- The Great Alone — Kristin Hannah
+- The Great CEO Within — Matt Mochary
+- The Great Divorce — C. S. Lewis
+- The Great Mental Models — Shane Parrish; Rhiannon Beaubien
+- The Green Mile — Stephen King
+- The Hard Thing About Hard Things — Ben Horowitz
+- The Help — Kathryn Stockett
+- The Herbal Home Remedy Book — Joyce A. Wardwell
+- The Hunt for Red October
+- The Idiot
+- The Iliad — Homer
+- The Illuminatus! Trilogy
+- The Infinite Game — Simon Sinek
+- The Inmates Are Running the Asylum — Alan Cooper
+- The Innovator's Solution — Clayton Christensen
+- The Intelligent Investor — Benjamin Graham
+- The Kelly Capital Growth Investment Criterion — Leonard C. Maclean
+- The Kingkiller Chronicle
+- The Kite Runner — Khaled Hosseini
+- The Knowledge — Lewis Dartnell
+- The Labyrinth of the Spirits
+- The Last Days of Night — Graham Moore
+- The Last Samurai — Helen DeWitt
+- The Laundry Files
+- The Lean Startup — Eric Ries
+- The Left Hand of Darkness
+- The Life-Changing Magic of Tidying Up — Marie Kondo
+- The Little Book of Bull Moves — Peter Schiff
+- The Little Book of Common Sense Investing — John Bogle
+- The Little Book of Investing Like the Pros — Joshua Pearl
+- The Lizard King — Jamie Weinstein; Will Rahn
+- The Lord of the Rings — J. R. R. Tolkien
+- The Macintosh Way — Guy Kawasaki
+- The Magus — John Fowles
+- The Man Who Folded Himself
+- The March North
+- The Martian — Andy Weir
+- The Master and Margarita — Mikhail Bulgakov
+- The Mathematics of Politics — E. Arthur Robinson Jr.; Daniel H. Ullman
+- The Medici Effect — Frans Johansson
+- The Messy Middle — Scott Belsky
+- The Method Method — Eric Ryan
+- The Mind Illuminated — John Yates; Matthew Immergut; Jeremy Graves
+- The Model Thinker — Scott Page
+- The Most Important Thing — Howard Marks
+- The Name of the Rose — Umberto Eco
+- The Name of the Wind — Patrick Rothfuss
+- The Narrow Road to the Deep North — Richard Flanagan
+- The Natural Way to Draw — Kimon Nicolaïdes
+- The New Atlantis — Francis Bacon
+- The New Market Wizards — Jack D. Schwager
+- The New One Minute Manager — Ken Blanchard
+- The Odyssey — Homer
+- The Once and Future King — T. H. White
+- The Only Investment Guide You'll Ever Need — Andrew Tobias
+- The Oz Principle — Roger Connors
+- The Painted Bird — Jerzy Kosinski
+- The Palace of Dreams — Ismail Kadare
+- The Phoenix Project
+- The Post-Office Girl — Stefan Zweig
+- The Power of Broke — Daymond John
+- The Power of Full Engagement — Jim Loehr
+- The Power of Relentless — Wayne Allyn Root
+- The Princeton Companion to Mathematics — Timothy Gowers
+- The Principia — Isaac Newton
+- The Prophet — Kahlil Gibran
+- The Prose Edda — Snorri Sturluson
+- The Punishings — H. R. Bellicosa
+- The Pursuit of Wow! — Tom Peters
+- The Richest Man in Babylon — George Clason
+- The Road — Cormac McCarthy
+- The Road Home — Jim Harrison
+- The Robert Collier Letter Book — Robert Collier
+- The Sailor Who Fell from Grace with the Sea
+- The Science of Scaling — Benjamin Hardy; Blake Erickson
+- The Science of Success — Charles Koch
+- The Screwtape Letters — C. S. Lewis
+- The Sea of Fertility
+- The Second Sleep
+- The Shadow of the Torturer
+- The Shadow of the Wind — Carlos Ruiz Zafón
+- The Silent Patient — Alex Michaelides
+- The Skeptics' Guide to the Universe — Steven Novella; Bob Novella; Cara Santa Maria; Jay Novella; Evan Bernstein
+- The Smartest Investment Book You'll Ever Read — Daniel R. Solin
+- The Sound and the Fury
+- The Start-up of You — Reid Hoffman
+- The Statistical Mechanics of Financial Markets — Johannes Voit
+- The Story of B — Daniel Quinn
+- The Sunken Land Begins to Rise Again
+- The Tao of Charlie Munger — David Clark
+- The Tartar Steppe — Dino Buzzati
+- The Theoretical Minimum — Leonard Susskind and collaborators
+- The Theory of Investment Value — John Burr Williams
+- The Things They Carried — Tim O'Brien
+- The Three-Body Problem
+- The Thursday Murder Club
+- The Time Machine — H. G. Wells
+- The Time Traveler's Wife — Audrey Niffenegger
+- The Underdog Founder — Edrizio de la Cruz
+- The Utopians trilogy
+- The Wandering Inn
+- The War of Art — Steven Pressfield
+- The Warren Buffett Portfolio — Robert G. Hagstrom
+- The Warren Buffett Way — Robert Hagstrom
+- The Warrior Ethos — Steven Pressfield
+- The Water Knife
+- The Way of Kings
+- The Will of the Many
+- The Windup Girl
+- The Word for World Is Forest
+- There Are No Electrons — Kenn Amdahl
+- Think Like — Aaron Sansoni
+- Think Like a Rocket Scientist — Ozan Varol
+- Think Twice — Michael Mauboussin
+- Thinking In Bets — Annie Duke
+- Thinking In Systems — Donella H. Meadows
+- Thinking Physics — Lewis Carroll Epstein
+- Thinking with Type — Ellen Lupton
+- This Is How You Lose the Time War
+- Three Men in a Boat
+- Tipping Points — Liz Wheeler
+- Titanium Noir
+- To Kill a Mockingbird — Harper Lee
+- Tools of Titans — Tim Ferriss
+- Traction — Gino Wickman
+- Trader Vic — Victor Sperandeo
+- Trading and Exchanges — Larry Harris
+- Trading Under Fire — Major Gonzo
+- Trailblazer — Marc Benioff; Monica Langley
+- Traveler's Gate
+- Tribe of Mentors — Tim Ferriss
+- True Grit — Charles Portis
+- Turning the Mind into an Ally — Sakyong Mipham
+- Ukridge
+- Ulysses
+- Understanding Michael Porter — Joan Magretta
+- Underworld — Don DeLillo
+- Unsheltered — Barbara Kingsolver
+- Unstoppable Prosperity — Charles Payne
+- Valuation — Tim Koller
+- Value Investing — James Montier
+- Virtual Economies — Vili Lehdonvirta; Edward Castronova
+- Visual Explanations — Edward Tufte
+- Vorkosigan Saga
+- Waking Up — Sam Harris
+- Walking Your Blues Away — Thom Hartmann
+- War and Peace — Leo Tolstoy
+- Ward
+- Way Station — Clifford D. Simak
+- Wealth of Wisdom — Tom McCullough
+- What Works on Wall Street — James O'Shaughnessy
+- What You Do Is Who You Are — Ben Horowitz
+- Wheel of Time
+- When — Daniel Pink
+- When I Say No, I Feel Guilty — Manuel J. Smith
+- When We Cease to Understand the World
+- Whiplash — Joi Ito
+- Who — Geoff Smart
+- Win Bigly — Scott Adams
+- Winning — Jack Welch
+- Winning The Loser's Game — Charles Ellis
+- Without a Doubt — Surbhi Sarna
+- Without Their Permission — Alexis Ohanian
+- Work Rules! — Laszlo Bock
+- Working Backwards — Colin Bryar & Bill Carr
+- XKCD — Randall Munroe
+- Yellowface
+- You Can Be a Stock Market Genius — Joel Greenblatt
+- Zen Mind, Beginners Mind — Shunryu Suzuki
+- Zero to One — Peter Thiel; Blake Masters

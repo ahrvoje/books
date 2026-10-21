@@ -1,0 +1,22 @@
+import {gate,save,book} from './hn-utils.mjs';
+const h2=[
+ [402,'The explanatory chapters support a program for understanding and stopping problem drinking. The author explicitly provides detailed instructions for beating alcoholism; the principal intended use is self-treatment training.','https://books.google.com/books/about/Alcohol_Explained.html?id=jwcjjgEACAAJ'],
+ [413,'Case studies and short principles teach marketers how to make and promote distinctive products. The application prompts, process and brainstorming sections establish a business-skills guide rather than a sustained historical explanation.','https://lib.ccsdetroit.edu/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=30560'],
+ [427,'The contents teach a relationship method through five named practices, self-assessment and application to couples. Its main purpose is improving interpersonal skills.','https://www.moodypublishers.com/the-5-love-languagesreg'],
+ [431,'The book guides readers through Tibetan Buddhist compassion and wisdom practices. The intended outcome is learning and performing meditation, so H2 applies before a religious veto.','https://www.simonandschuster.com/books/Awakening-Through-Love/John-Makransky/9780861719556'],
+ [432,'The publisher specifies a four-stage meditation practice with sequential visualization and blessings. Teaching a spiritual procedure is the main structure; H2 precedes V5.','https://www.shambhala.com/the-heart-of-unconditional-love-3446.html'],
+ [470,'The publisher presents communication tools and ordered steps for obtaining desired results in difficult conversations. Skill development is the organizing purpose.','https://www.mheducation.com/highered/mhp/product/crucial-conversations-3e.html?viewOption=student'],
+ [471,'A programming guide that teaches development with the Phoenix LiveView framework. Its worked code and technical implementation purpose meet H2.','https://pragprog.com/titles/liveview/programming-phoenix-liveview/'],
+ [485,'A philosophy section supports a thirty-day digital declutter procedure and detailed practices for changing technology use. The primary intended use is behavior and habit training.','https://calnewport.com/my-new-book-digital-minimalism/'],
+ [501,'The author’s society identifies a guide to living the classical stages of spiritual development. Spiritual exercises and practices constitute a training sequence, so H2 applies before V5.','https://www.henrinouwen.org/books/spiritual-formation?rq=Spiritual+formation']
+];
+const rows=h2.map(([i,why,url])=>gate(i,'excluded',why,'Hard exclusion H2 applies before vetoes and scoring.',[url],{exclusion:'H2',confidence:i===402||i===485||i===501?'moderate':'high'}));
+rows.push(
+ gate(442,'excluded','A separately published science-fiction adventure story; the publisher explicitly classifies it as fiction.','H1 applies. The source nominates this story, not an unnamed collection.',['https://us.macmillan.com/books/9781466876477/thecolonel/'],{exclusion:'H1',confidence:'high'}),
+ gate(444,'excluded','The publisher identifies a science-fiction novella.','H1 applies to the named novella; no other collection contents are added.',['https://subterraneanpress.com/chiang-soyl/'],{exclusion:'H1',confidence:'high'}),
+ gate(417,'unresolved','A biography is mentioned without title or author.','Eugene Meyer has several biographical accounts. The source’s bookshelf attribution does not establish a particular work; no substitute is scored.',[],{confidence:'low'}),
+ gate(418,'unresolved','A biography is mentioned without title or author.','Max Planck biographies by Brandon Brown and other writers cannot be distinguished from this source wording. Identity remains unresolved.',[],{confidence:'low'}),
+ gate(420,'unresolved','A complete mixed literary anthology is nominated, with no selected volumes.','The Harvard Classics set includes fiction and nonfiction. The source does not identify eligible works or a coherent nonfiction scope; do not silently expand the set into unnamed books.',[],{confidence:'moderate'}),
+ gate(412,'unresolved','The source gives only Effectuation, without author, subtitle or edition.','Retrieved records include Sarasvathy’s research monograph and related entrepreneurship instructional works. The nomination is not specific enough to choose among them.',['https://effectuation.org/effectuation-books-and-chapters','https://books.google.com/books/about/Effectuation.html?id=oTRZEAAAQBAJ'],{confidence:'low'})
+);
+save(rows);

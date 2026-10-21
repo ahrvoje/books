@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "reviewed": "2026-10-20",
+  "packet": "data/sources_261020/hn/transfer-reddit.json",
+  "output": "data/sources_261020/reddit/hn-assessments.json",
+  "counts": {
+    "assigned": 92,
+    "decisions": 92,
+    "recommended": 64,
+    "excluded": 18,
+    "vetoed": 5,
+    "unresolved": 5,
+    "scored": 69,
+    "verifiedEditionPages": 36,
+    "amazonKnown": 3,
+    "amazonUnknown": 66,
+    "domainReviewed": 68,
+    "withMechanisms": 45
+  },
+  "validation": {
+    "errors": [],
+    "ids": "Exactly the assigned 92 IDs; no other packet indices assessed.",
+    "criteria": "All scored works have ten bounded raw attainments and ten individual notes, dates and five deduction inputs.",
+    "gates": "All excluded/unresolved records are unscored.",
+    "amazon": "All 89 new candidates have individual saved public-index searches; six corrected author queries also saved. No new product total-rating count established. Three previous observations preserved with actual original dates.",
+    "edition": "Identified print/ebook edition extents only; no audio or partial nominated set. Some library print records do not specify binding."
+  },
+  "unknownEndpoints": [],
+  "uncertainIdentities": [
+    {
+      "id": "ne0ed2e6c69",
+      "title": "Effectuation",
+      "reason": "Retrieved records include Sarasvathy’s research monograph and related entrepreneurship instructional works. The nomination is not specific enough to choose among them."
+    },
+    {
+      "id": "nd48d7d2891",
+      "title": "Unnamed Eugene Meyer biography",
+      "reason": "Eugene Meyer has several biographical accounts. The source’s bookshelf attribution does not establish a particular work; no substitute is scored."
+    },
+    {
+      "id": "ndbfe1caa53",
+      "title": "Unnamed Max Planck biography",
+      "reason": "Max Planck biographies by Brandon Brown and other writers cannot be distinguished from this source wording. Identity remains unresolved."
+    },
+    {
+      "id": "n6052b213d7",
+      "title": "Harvard Classics",
+      "reason": "The Harvard Classics set includes fiction and nonfiction. The source does not identify eligible works or a coherent nonfiction scope; do not silently expand the set into unnamed books."
+    },
+    {
+      "id": "n4eaa344023",
+      "title": "Low-tech Magazine collected books",
+      "reason": "The publisher now lists chronological and thematic series, a 2025 compressed edition and a 2026 fourth volume. These cannot be silently substituted for a 2023 nomination. Retain the actual collective mention in the source audit; do not invent individual nominated volumes."
+    }
+  ],
+  "reviewConcerns": [
+    "All nine formerly unknown historical endpoints now have supported estimates, with explicit confidence and scope limitations in hn-endpoint-followup.json. No unknown-endpoint zero fallback remains.",
+    "Some source titles were produced by an AI transcription comment. Source mention provenance remains that comment; title/author identity was checked independently where possible.",
+    "Capital I/II are V5 counterfactual assessments. Science in Action, Open Circuits, Of Bicycles/Bakelites/Bulbs and The Computing Universe have explicit H2 boundary explanations; Reassembling the Social and Electric Science are H2 exclusions based on purpose and structure.",
+    "Forces of Production changed to V5 after primary preface and epilogue review established a sustained activist purpose. Full counterfactual criteria remain; E/P and both thematic flags were reassessed from that evidence.",
+    "Go East, Young Man identity is resolved. E/A were revised because the cited review disputes accusations previously used to discount the memoir; all other raw attainments and dated Amazon evidence were retained.",
+    "Page counts may be catalogued main numbered extents rather than retail total sheets; each record states its edition and, when relevant, pagination limitation.",
+    "All domain and connection reviews are partial; no absence-of-evidence values were filled with zero."
+  ]
+}

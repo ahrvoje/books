@@ -1,0 +1,73 @@
+{
+  "reviewed": "2026-10-20",
+  "assignedIndices": "0–116 and 271–368",
+  "expected": 215,
+  "saved": 215,
+  "statuses": {
+    "recommended": 140,
+    "vetoed": 22,
+    "excluded": 46,
+    "unresolved": 7
+  },
+  "scored": 162,
+  "editions": 107,
+  "unavailableAmazon": 121,
+  "unresolved": [
+    {
+      "id": "n3b3ca42576",
+      "title": "Zapped",
+      "reason": "The author’s published-work list contains no Zapped. The exact title–author search did not establish a matching work. Other authors have books with this short title, so substitution would be speculative."
+    },
+    {
+      "id": "nfd7d210c25",
+      "title": "Room to Table",
+      "reason": "The claimed Room to the Table by Adam Chandler did not resolve. His author bibliography identifies Drive-Thru Dreams and 99% Perspiration, neither a safe substitute for this claim."
+    },
+    {
+      "id": "n85a1460b51",
+      "title": "Twisted",
+      "reason": "The claimed Twisted by Keith Payne did not resolve in exact searches. Unrelated results do not establish identity; no alternative book is substituted."
+    },
+    {
+      "id": "nec12781ec2",
+      "title": "How You Feel",
+      "reason": "The claimed How Do You Feel by Dr. Johanna Goldbeck did not resolve in exact searches. No bibliography established a matching work."
+    },
+    {
+      "id": "n157fd5c8ab",
+      "title": "Trees in the Wilderness",
+      "reason": "The claimed Trees in the Wilderness by Chris Martenson did not resolve. Retrieved bibliography concerns The Crash Course and Prosper; neither is substituted."
+    },
+    {
+      "id": "nbba4516bf4",
+      "title": "Aurora Consurgens",
+      "reason": "The bare title can refer to the medieval alchemical treatise or the modern edition and extended commentary by Marie-Louise von Franz. The source gives no author or version, so scope and original year cannot safely be assigned."
+    },
+    {
+      "id": "n8d9b451c73",
+      "title": "Napoleonic Wars",
+      "reason": "The source says David Chandler’s Napoleonic Wars. Chandler wrote both On the Napoleonic Wars and The Campaigns of Napoleon; the wording does not securely identify either. Do not silently substitute the better-known book."
+    }
+  ],
+  "checks": "All assigned IDs exactly once; no transferred IDs; ten criterion notes and raw attainments; no audio pages; valid domain IDs; unknown counts remain null.",
+  "corrections": [
+    "Rape of Nanking central endpoint 1945 → 1938.",
+    "Wild Girls unsupported single 1930 endpoint withdrawn; cross-period account.",
+    "MOD/COM domain aliases corrected to QNT/CMP.",
+    "Two unverified guessed bibliography links replaced with retrieved author/Google Books records."
+  ],
+  "coverageLimitations": [
+    "Reddit source 147 was inaccessible; no titles inferred.",
+    "Source 145 image returned 403/cache miss. Named books from its transcription comment are comment claims, not verified cover identifications.",
+    "Collapsed More Replies branches with cache misses remain incomplete; extraction audit records them.",
+    "Most new assessments use publisher descriptions, contents, samples and bibliography; confidence remains low where full critical evaluation is not available.",
+    "New Amazon counts are limited to two verified public product observations; other title-author index attempts exposed no usable aggregate and direct collection stopped at an access challenge."
+  ],
+  "laterReview": [
+    "This Is for Everyone V5 is moderate-confidence because the publisher explicitly combines memoir and manifesto; the technical memoir passes H2.",
+    "Vanishing Treasures V5 is moderate-confidence because the conservation appeal is presented as a main purpose; natural-history topic alone is not the gate.",
+    "Several H2 boundaries are mixed explanatory/instructional works; each record states the primary-purpose evidence.",
+    "Series page extents remain unknown where only individual volumes or an abridgment were verified.",
+    "Some historical scope endpoints are approximate and explicitly low confidence; no publication year is used as a substitute for an unknown historical endpoint."
+  ]
+}

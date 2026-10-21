@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reading List for Physics &amp; Mathematics Majors — R. L. Herman, UNCW</title>
+<style>
+  :root {
+    --teal-dark: #0F6E56; --teal-mid: #1D9E75; --teal-light: #E1F5EE; --teal-pale: #f0faf6;
+    --blue-dark: #185FA5; --blue-mid: #378ADD; --blue-light: #E6F1FB;
+    --amber-dark: #854F0B; --amber-mid: #BA7517; --amber-light: #FAEEDA;
+    --gray-dark: #2C2C2A; --gray-mid: #5F5E5A; --gray-light: #F1EFE8; --gray-pale: #faf9f7;
+    --purple-dark: #3C3489; --purple-light: #EEEDFE;
+    --coral-dark: #993C1D; --coral-light: #FAECE7;
+    --border: #D3D1C7; --text: #1a1a18; --text-muted: #5F5E5A; --text-light: #888780;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Georgia, 'Times New Roman', serif; font-size: 16px; line-height: 1.75; color: var(--text); background: var(--gray-pale); }
+  nav { background: var(--teal-dark); padding: 0; }
+  nav ul { display: flex; flex-wrap: wrap; list-style: none; max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
+  nav ul li a { display: block; padding: 0.7rem 0.9rem; color: rgba(255,255,255,0.85); text-decoration: none; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 13.5px; letter-spacing: 0.02em; transition: color 0.2s; }
+  nav ul li a:hover { color: #fff; }
+  .page-wrapper { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem 4rem; }
+  header { background: var(--teal-dark); color: #fff; padding: 3rem 0 2.5rem; margin-bottom: 2.5rem; }
+  header .inner { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
+  header h1 { font-family: 'Palatino Linotype', Palatino, Georgia, serif; font-size: 2.2rem; font-weight: normal; line-height: 1.25; margin-bottom: 0.5rem; }
+  header p { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; opacity: 0.8; margin-bottom: 0; }
+  header .subtitle { font-size: 1.05rem; opacity: 0.9; margin-top: 0.4rem; font-style: italic; }
+  .jump-nav { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 1.25rem 1.5rem; margin-bottom: 2.5rem; }
+  .jump-nav h2 { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin-bottom: 0.75rem; font-weight: 600; }
+  .jump-nav .links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .jump-nav a { display: inline-block; padding: 0.3rem 0.85rem; border-radius: 20px; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 13px; text-decoration: none; transition: background 0.15s; }
+  .jump-nav a.qm { background: var(--blue-light); color: var(--blue-dark); }
+  .jump-nav a.qm:hover { background: #B5D4F4; }
+  .jump-nav a.hm { background: var(--teal-light); color: var(--teal-dark); }
+  .jump-nav a.hm:hover { background: #9FE1CB; }
+  .jump-nav a.gen { background: var(--gray-light); color: var(--gray-dark); }
+  .jump-nav a.gen:hover { background: #D3D1C7; }
+  .reco-banner { display: flex; gap: 1.5rem; margin-bottom: 2.5rem; }
+  .reco-card { flex: 1; border-radius: 10px; padding: 1.25rem 1.5rem; border: 1px solid; }
+  .reco-card.qm { background: var(--blue-light); border-color: #B5D4F4; }
+  .reco-card.hm { background: var(--teal-light); border-color: #9FE1CB; }
+  .reco-card h2 { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; margin-bottom: 0.6rem; }
+  .reco-card.qm h2 { color: var(--blue-dark); }
+  .reco-card.hm h2 { color: var(--teal-dark); }
+  .reco-card p { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 13.5px; line-height: 1.5; color: var(--gray-dark); margin-bottom: 0.75rem; }
+  .reco-card ul { list-style: none; padding: 0; }
+  .reco-card ul li { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 13px; padding: 0.2rem 0; color: var(--gray-dark); }
+  .reco-card ul li::before { content: '→ '; font-weight: 700; }
+  .reco-card.qm ul li::before { color: var(--blue-dark); }
+  .reco-card.hm ul li::before { color: var(--teal-dark); }
+  .section-head { display: flex; align-items: baseline; gap: 1rem; margin: 2.5rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid; }
+  .section-head h2 { font-family: 'Palatino Linotype', Palatino, Georgia, serif; font-size: 1.55rem; font-weight: normal; }
+  .section-head .badge { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; padding: 0.2rem 0.65rem; border-radius: 20px; }
+  .section-head.teal { border-color: var(--teal-mid); }
+  .section-head.teal h2 { color: var(--teal-dark); }
+  .section-head.blue { border-color: var(--blue-mid); }
+  .section-head.blue h2 { color: var(--blue-dark); }
+  .section-head.amber { border-color: var(--amber-mid); }
+  .section-head.amber h2 { color: var(--amber-dark); }
+  .section-head.gray { border-color: var(--border); }
+  .section-head.gray h2 { color: var(--gray-dark); }
+  .section-head.purple { border-color: #AFA9EC; }
+  .section-head.purple h2 { color: var(--purple-dark); }
+  .section-head.coral { border-color: #F0997B; }
+  .section-head.coral h2 { color: var(--coral-dark); }
+  .badge.new { background: var(--teal-light); color: var(--teal-dark); }
+  .badge.qm { background: var(--blue-light); color: var(--blue-dark); }
+  .badge.math { background: var(--amber-light); color: var(--amber-dark); }
+  .subsection h3 { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--text-muted); font-weight: 600; margin: 1.5rem 0 0.75rem; }
+  ul.books { list-style: none; padding: 0; }
+  ul.books li { padding: 0.45rem 0 0.45rem 1.1rem; border-bottom: 1px solid var(--gray-light); position: relative; font-size: 15.5px; line-height: 1.6; }
+  ul.books li:last-child { border-bottom: none; }
+  ul.books li::before { content: '·'; position: absolute; left: 0; color: var(--text-light); font-size: 1.3rem; line-height: 1.3; }
+  ul.books li em { font-style: italic; }
+  ul.books li a { color: var(--blue-dark); }
+  ul.books li a:hover { text-decoration: underline; }
+  ul.books li .author { color: var(--text-muted); font-size: 14.5px; }
+  ul.books li .note { display: block; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 13px; color: var(--text-muted); margin-top: 0.1rem; font-style: normal; }
+  .tag { display: inline-block; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.4rem; vertical-align: middle; position: relative; top: -1px; }
+  .tag.new2023 { background: var(--teal-light); color: var(--teal-dark); }
+  .tag.new2024 { background: #C0DD97; color: #27500A; }
+  .tag.new2025 { background: #F4C0D1; color: #72243E; }
+  .tag.textbook { background: var(--blue-light); color: var(--blue-dark); }
+  .tag.starred { background: var(--amber-light); color: var(--amber-dark); }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 0 2rem; }
+  .callout { border-left: 3px solid; padding: 0.75rem 1rem; margin: 1rem 0; border-radius: 0 6px 6px 0; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 13.5px; line-height: 1.55; color: var(--gray-dark); }
+  .callout.teal { border-color: var(--teal-mid); background: var(--teal-pale); }
+  .callout.blue { border-color: var(--blue-mid); background: var(--blue-light); }
+  .callout a { color: var(--blue-dark); }
+  .sidebar-layout { display: grid; grid-template-columns: 1fr 260px; gap: 2rem; align-items: start; }
+  .sidebar-box { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 1.1rem 1.25rem; }
+  .sidebar-box h3 { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); font-weight: 700; margin-bottom: 0.75rem; }
+  .sidebar-box ul { list-style: none; padding: 0; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 13px; }
+  .sidebar-box ul li { padding: 0.3rem 0; border-bottom: 1px solid var(--gray-light); }
+  .sidebar-box ul li:last-child { border-bottom: none; }
+  .sidebar-box ul li a { color: var(--blue-dark); text-decoration: none; }
+  .sidebar-box ul li a:hover { text-decoration: underline; }
+  .legend { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0 0 2rem; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12.5px; align-items: center; }
+  .legend span.label { color: var(--text-muted); margin-right: 0.25rem; }
+  footer { margin-top: 4rem; padding: 1.5rem 0; border-top: 1px solid var(--border); font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12.5px; color: var(--text-muted); }
+  footer a { color: var(--text-muted); }
+  footer .quick-links { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+  @media (max-width: 700px) {
+    header h1 { font-size: 1.5rem; }
+    .reco-banner { flex-direction: column; }
+    .two-col { grid-template-columns: 1fr; }
+    .sidebar-layout { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="https://people.uncw.edu/hermanr/index.htm">Home</a></li>
+    <li><a href="https://people.uncw.edu/hermanr/teaching.htm">Teaching</a></li>
+    <li><a href="https://people.uncw.edu/hermanr/research.htm">Research</a></li>
+    <li><a href="https://people.uncw.edu/hermanr/technology.htm">Technology</a></li>
+    <li><a href="https://people.uncw.edu/hermanr/background.htm">Background</a></li>
+    <li><a href="https://people.uncw.edu/hermanr/family.htm">Family</a></li>
+    <li><a href="https://people.uncw.edu/hermanr/links.htm">Links</a></li>
+    <li><a href="https://people.uncw.edu/hermanr/contact.htm">Contact</a></li>
+  </ul>
+</nav>
+
+<header>
+  <div class="inner">
+    <h1>Reading List for Physics &amp; Mathematics Majors</h1>
+    <p class="subtitle">Popular books, biographies, and selected textbooks — curated by R. L. Herman, UNCW</p>
+    <p style="margin-top:0.75rem;">See also: <a href="https://people.uncw.edu/hermanr/qm/books.htm" style="color:rgba(255,255,255,0.75);">My 2012 List</a> &nbsp;·&nbsp; <a href="http://www.goodreads.com/shelf/show/physics" style="color:rgba(255,255,255,0.75);">Goodreads Physics Shelf</a></p>
+  </div>
+</header>
+
+<div class="page-wrapper">
+
+  <div class="jump-nav">
+    <h2>Jump to section</h2>
+    <div class="links">
+      <a href="#qm-students" class="qm">&#128300; For QM Students</a>
+      <a href="#hm-students" class="hm">&#128208; For History of Math Students</a>
+      <a href="#theoretical-minimum" class="gen">Theoretical Minimum Series</a>
+      <a href="#quantum" class="qm">Quantum Mechanics</a>
+      <a href="#cosmology" class="gen">Cosmology</a>
+      <a href="#relativity" class="gen">Relativity</a>
+      <a href="#higgs" class="gen">Higgs &amp; Particle Physics</a>
+      <a href="#biography" class="gen">Biography</a>
+      <a href="#history-math" class="hm">History of Mathematics</a>
+      <a href="#math-popular" class="hm">Popular Mathematics</a>
+      <a href="#other" class="gen">Other Interesting Reads</a>
+    </div>
+  </div>
+
+  <div class="legend">
+    <span class="label">Tags:</span>
+    <span class="tag new2023">2023</span> published 2023 &nbsp;
+    <span class="tag new2024">2024</span> published 2024 &nbsp;
+    <span class="tag new2025">2025</span> published 2025 &nbsp;
+    <span class="tag textbook">textbook</span> textbook / course text &nbsp;
+    <span class="tag starred">&#9733; recommended</span> especially recommended
+  </div>
+
+  <!-- STUDENT RECOMMENDATION CARDS -->
+  <div class="reco-banner">
+    <div class="reco-card qm" id="qm-students">
+      <h2>&#128225; Starting Quantum Mechanics?</h2>
+      <p>Before (or alongside) your first QM course, these popular books build intuition for the weirdness ahead — no prior formalism required.</p>
+      <ul>
+        <li><em>Quantum</em> — Manjit Kumar (the history and personalities)</li>
+        <li><em>What Is Real?</em> — Adam Becker (interpretations of QM)</li>
+        <li><em>Through Two Doors at Once</em> — Anil Ananthaswamy</li>
+        <li><em>Dance of the Photons</em> — Anton Zeilinger (entanglement)</li>
+        <li><em>The Age of Entanglement</em> — Louisa Gilder</li>
+        <li><em>Something Deeply Hidden</em> — Sean Carroll (many-worlds)</li>
+        <li><em>QED</em> — Richard Feynman (beautifully accessible)</li>
+        <li>Susskind's <em>Theoretical Minimum: QM</em></li>
+      </ul>
+    </div>
+    <div class="reco-card hm" id="hm-students">
+      <h2>&#128220; Taking History of Mathematics?</h2>
+      <p>Excellent background reading to enrich the course — from ancient origins to modern discoveries.</p>
+      <ul>
+        <li><em>Fermat's Enigma</em> — Simon Singh (gripping narrative)</li>
+        <li><em>The Man Who Knew Infinity</em> — Robert Kanigel (Ramanujan)</li>
+        <li><em>Zero</em> — Charles Seife (biography of a number)</li>
+        <li><em>Infinitesimal</em> — Amir Alexander (calculus controversy)</li>
+        <li><em>The Secret Lives of Numbers</em> — Kitagawa &amp; Revell (2024)</li>
+        <li><em>A Little History of Mathematics</em> — Snezana Lawrence (2025)</li>
+        <li><em>Mathematics for Human Flourishing</em> — Francis Su</li>
+        <li><em>The Music of the Primes</em> — Marcus du Sautoy</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- THEORETICAL MINIMUM -->
+  <div class="section-head teal" id="theoretical-minimum">
+    <h2>Theoretical Minimum Series</h2>
+    <span class="badge new">Leonard Susskind</span>
+  </div>
+  <div class="callout teal">A superb series for students who want real physics with real math — accessible but rigorous. Highly recommended before or alongside your QM course.</div>
+  <ul class="books">
+    <li><em>The Theoretical Minimum: What You Need to Know to Start Doing Physics</em> <span class="author">— Leonard Susskind &amp; George Hrabovsky, 2013</span> <span class="note">Classical mechanics. The ideal starting point.</span></li>
+    <li><em>Quantum Mechanics: The Theoretical Minimum</em> <span class="author">— Leonard Susskind &amp; Art Friedman</span> <span class="tag starred">&#9733; recommended</span></li>
+    <li><em>Special Relativity and Classical Field Theory: The Theoretical Minimum</em> <span class="author">— Leonard Susskind &amp; Art Friedman, 2017</span></li>
+    <li><em>General Relativity: The Theoretical Minimum</em> <span class="author">— Leonard Susskind &amp; André Cabannes, 2023</span> <span class="tag new2023">2023</span></li>
+  </ul>
+
+  <!-- QUANTUM MECHANICS -->
+  <div class="section-head blue" id="quantum">
+    <h2>Quantum Mechanics</h2>
+    <span class="badge qm">Popular &amp; Accessible</span>
+  </div>
+  <div class="sidebar-layout">
+    <div>
+      <ul class="books">
+        <li><em><a href="https://www.amazon.com/Infinity-Puzzle-Quantum-Orderly-Universe/dp/0465021441">The Infinity Puzzle</a></em> <span class="author">— Frank Close</span></li>
+        <li><em>The Age of Entanglement</em> <span class="author">— Louisa Gilder</span> <span class="tag starred">&#9733; recommended</span> <span class="note">The human story behind quantum mechanics — beautifully written.</span></li>
+        <li><em>Quantum</em> <span class="author">— Manjit Kumar</span> <span class="tag starred">&#9733; recommended</span> <span class="note">Excellent history of QM, from Planck through the Einstein–Bohr debates.</span></li>
+        <li><em>The Quantum Story</em> <span class="author">— Jim Baggott</span></li>
+        <li><em>Uncertainty</em> <span class="author">— David Lindley</span> <span class="note">The story of Heisenberg's uncertainty principle.</span></li>
+        <li><em>Entanglement</em> <span class="author">— Amir D. Aczel</span></li>
+        <li><em><a href="https://www.amazon.com/Through-Two-Doors-Once-Experiment/dp/1101986093">Through Two Doors at Once</a></em> <span class="author">— Anil Ananthaswamy</span> <span class="tag starred">&#9733; recommended</span> <span class="note">The double-slit experiment as a window into QM's deepest puzzles.</span></li>
+        <li><em><a href="https://www.amazon.com/Dance-Photons-Einstein-Quantum-Teleportation/dp/0374239665">Dance of the Photons</a></em> <span class="author">— Anton Zeilinger</span> <span class="note">Nobel laureate's accessible account of quantum entanglement and teleportation.</span></li>
+        <li><em>Einstein's Dice and Schrödinger's Cat</em> <span class="author">— Paul Halpern</span></li>
+        <li><em>The Quantum Moment</em> <span class="author">— Crease &amp; Goldhaber</span></li>
+        <li><em><a href="https://www.amazon.com/What-Real-Unfinished-Meaning-Quantum/dp/0465096050">What Is Real?</a></em> <span class="author">— Adam Becker</span> <span class="tag starred">&#9733; recommended</span></li>
+        <li><em>Something Deeply Hidden</em> <span class="author">— Sean Carroll, 2019</span> <span class="note">Many-worlds interpretation, written for a general audience by a leading physicist.</span></li>
+        <li><em>Helgoland</em> <span class="author">— Carlo Rovelli, 2021</span> <span class="note">Rovelli's beautifully written meditation on what quantum mechanics really means.</span></li>
+        <li><em>QED: The Strange Theory of Light and Matter</em> <span class="author">— Richard Feynman</span> <span class="tag starred">&#9733; recommended</span> <span class="note">Quantum electrodynamics without equations — Feynman at his most accessible.</span></li>
+        <li><em><a href="http://www.amazon.com/Introducing-Quantum-Theory-Sciences-Discovery/dp/1840468505">Introducing Quantum Theory: A Graphic Guide</a></em> <span class="author">— J. P. McEvoy &amp; Oscar Zarate</span></li>
+        <li><em>Quantum Supremacy</em> <span class="author">— Michio Kaku, 2023</span> <span class="tag new2023">2023</span> <span class="note">Popular account of the quantum computing revolution.</span></li>
+      </ul>
+    </div>
+    <div>
+      <div class="sidebar-box">
+        <h3>QM Reading &amp; Videos</h3>
+        <ul>
+          <li><a href="http://www.feynmanlectures.caltech.edu/">Feynman Lectures (online)</a></li>
+          <li><a href="http://theoreticalminimum.com/courses">Susskind: Theoretical Minimum Lectures</a></li>
+          <li><a href="http://www.vega.org.uk/video/subseries/8">Feynman Robb Lectures</a></li>
+          <li><a href="http://www.amazon.com/QED-Strange-Theory-Light-Matter/dp/0691024170">QED — Feynman (Amazon)</a></li>
+        </ul>
+      </div>
+      <div class="sidebar-box" style="margin-top:1rem;">
+        <h3>Online Lists</h3>
+        <ul>
+          <li><a href="http://www.goodreads.com/shelf/show/physics">Goodreads Physics Shelf</a></li>
+          <li><a href="https://people.uncw.edu/hermanr/qm/books.htm">Herman's 2012 Book List</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- COSMOLOGY -->
+  <div class="section-head gray" id="cosmology">
+    <h2>Cosmology &amp; Astrophysics</h2>
+  </div>
+  <div class="subsection"><h3>Popular Reading</h3></div>
+  <div class="two-col">
+    <ul class="books">
+      <li><em><a href="https://www.amazon.com/End-Everything-Astrophysically-Speaking/dp/B07Z8B5NZ8">The End of Everything (Astrophysically Speaking)</a></em> <span class="author">— Katie Mack</span> <span class="tag starred">&#9733; recommended</span></li>
+      <li><em><a href="https://www.amazon.com/How-Make-Apple-Pie-Scratch/dp/B08JD25KSQ">How to Make an Apple Pie from Scratch</a></em> <span class="author">— Harry Cliff</span></li>
+      <li><em><a href="https://www.amazon.com/Bright-Galaxies-Dark-Matter-Beyond/dp/0262547236">Bright Galaxies, Dark Matter, and Beyond: Vera Rubin</a></em> <span class="author">— A. J. Yeager</span></li>
+      <li><em><a href="https://www.amazon.com/Glass-Universe-Harvard-Observatory-Measure/dp/0143111345">The Glass Universe</a></em> <span class="author">— Dava Sobel</span></li>
+      <li><em><a href="https://www.amazon.com/Accelerating-Universe-Infinite-Expansion-Cosmological/dp/0471399760">The Accelerating Universe</a></em> <span class="author">— Mario Livio</span></li>
+      <li><em><a href="https://www.amazon.com/Cosmic-Cocktail-Matter-Science-Essentials/dp/0691169187">The Cosmic Cocktail</a></em> <span class="author">— Katherine Freese</span> <span class="note">The search for dark matter.</span></li>
+      <li><em><a href="https://www.amazon.com/Day-We-Found-Universe/dp/0307276600">The Day We Found the Universe</a></em> <span class="author">— Marcia Bartusiak</span></li>
+      <li><em><a href="http://www.amazon.com/The-Percent-Universe-Discover-Reality/dp/0618982442">The 4% Universe</a></em> <span class="author">— Richard Panek</span></li>
+    </ul>
+    <ul class="books">
+      <li><em><a href="http://www.goodreads.com/book/show/6371455-from-eternity-to-here">From Eternity to Here</a></em> <span class="author">— Sean M. Carroll</span></li>
+      <li><em>Cycles of Time</em> <span class="author">— Roger Penrose</span></li>
+      <li><em>The Grand Design</em> <span class="author">— Stephen Hawking</span></li>
+      <li><em>The Hidden Reality</em> <span class="author">— Brian Greene</span></li>
+      <li><em>How the Universe Got Its Spots</em> <span class="author">— Janna Levin</span></li>
+      <li><em><a href="http://www.goodreads.com/book/show/22543.Death_by_Black_Hole">Death by Black Hole</a></em> <span class="author">— Neil deGrasse Tyson</span></li>
+      <li><em>A Universe from Nothing</em> <span class="author">— Lawrence M. Krauss</span></li>
+      <li><em>Starborn: How the Stars Made Us</em> <span class="author">— Roberto Trotta, 2023</span> <span class="tag new2023">2023</span></li>
+    </ul>
+  </div>
+  <div class="subsection"><h3>Textbooks &amp; Course Texts</h3></div>
+  <div class="callout blue"><strong>Key:</strong> * = PHY 490 &nbsp; ** = HON 210</div>
+  <ul class="books">
+    <li><em><a href="https://www.amazon.com/Introduction-Cosmology-Barbara-Ryden/dp/1107154839">Introduction to Cosmology</a></em> <span class="author">— B. Ryden</span> <span class="tag textbook">textbook</span> <span class="note">* PHY 490</span></li>
+    <li><em><a href="https://www.amazon.com/Fundamentals-Astrophysics-Stan-Owocki/dp/110894812X">Fundamentals of Astrophysics</a></em> <span class="author">— S. Owocki</span> <span class="tag textbook">textbook</span> <span class="note">* PHY 490</span></li>
+    <li><em><a href="https://www.amazon.com/First-Three-Minutes-Modern-Universe/dp/0465024378">The First Three Minutes</a></em> <span class="author">— S. Weinberg</span> <span class="note">** HON 210</span></li>
+    <li><em><a href="http://www.amazon.com/Big-Bang-Origin-Universe-P-S/dp/0007162219">Big Bang: The Origin of the Universe</a></em> <span class="author">— S. Singh</span> <span class="note">** HON 210</span></li>
+    <li><em><a href="https://www.amazon.com/Cosmology-Curious-Undergraduate-Lecture-Physics/dp/3319860631">Cosmology for the Curious</a></em> <span class="author">— Perlov &amp; Vilenkin</span> <span class="note">** HON 210</span></li>
+    <li><em><a href="http://www.amazon.com/Brief-History-Time-Stephen-Hawking/dp/0553380168">A Brief History of Time</a></em> <span class="author">— S. Hawking</span></li>
+    <li><em><a href="http://www.amazon.com/Briefer-History-Time-Stephen-Hawking/dp/0553385461">A Briefer History of Time</a></em> <span class="author">— S. Hawking &amp; L. Mlodinow</span></li>
+    <li><em><a href="https://www.amazon.com/Cosmologys-Century-History-Understanding-Universe/dp/0691196028">Cosmology's Century</a></em> <span class="author">— P. J. E. Peebles</span> <span class="tag textbook">textbook</span></li>
+    <li><em><a href="https://www.amazon.com/Introduction-Modern-Cosmology-Andrew-Liddle/dp/1118502140">An Introduction to Modern Cosmology</a></em> <span class="author">— A. Liddle</span> <span class="tag textbook">textbook</span></li>
+    <li><em><a href="https://www.amazon.com/Lectures-Astrophysics-Steven-Weinberg/dp/1108415075">Lectures on Astrophysics</a></em> <span class="author">— S. Weinberg</span> <span class="tag textbook">textbook</span></li>
+    <li><em><a href="https://www.amazon.com/Cosmology-Steven-Weinberg/dp/0198526822">Cosmology</a></em> <span class="author">— S. Weinberg</span> <span class="tag textbook">textbook</span> <span class="note">Advanced</span></li>
+    <li><em><a href="https://www.amazon.com/dp/1108819052">Gravity's Fatal Attraction</a></em> <span class="author">— Begelman &amp; Rees</span></li>
+    <li><em><a href="https://www.amazon.com/Cosmic-Origins-Sciences-Understand-Universe/dp/3030982165">Cosmic Origins</a></em> <span class="author">— M. M. Waldrop</span></li>
+  </ul>
+  <p style="margin-top:0.75rem;font-family:sans-serif;font-size:13px;color:var(--text-muted);">See also: <a href="https://www.goodreads.com/list/show/27731.History_of_the_Universe_and_Earth">Goodreads: History of the Universe &amp; Earth</a></p>
+
+  <!-- RELATIVITY -->
+  <div class="section-head gray" id="relativity">
+    <h2>Relativity &amp; Gravitational Waves</h2>
+  </div>
+  <ul class="books">
+    <li><em>Ripples in Spacetime</em> <span class="author">— Govert Schilling &amp; Martin Rees</span></li>
+    <li><em>Black Hole Blues</em> <span class="author">— Janna Levin</span> <span class="note">The story behind the detection of gravitational waves (LIGO).</span></li>
+    <li><em>The Science of Interstellar</em> <span class="author">— Kip Thorne</span> <span class="note">The physics behind the film.</span></li>
+    <li><em>A Perfect Theory</em> <span class="author">— Pedro Ferreira</span> <span class="note">A history of general relativity.</span></li>
+    <li><em>Black Hole</em> <span class="author">— Marcia Bartusiak</span></li>
+    <li><em><a href="http://www.goodreads.com/book/show/2161966.The_Black_Hole_War">The Black Hole War</a></em> <span class="author">— Leonard Susskind</span></li>
+    <li><em><a href="https://www.amazon.com/Einsteins-Unfinished-Symphony-Gamble-Astronomy/dp/0300223390">Einstein's Unfinished Symphony</a></em> <span class="author">— Marcia Bartusiak</span></li>
+    <li><em>Black Holes: The Key to Understanding the Universe</em> <span class="author">— Brian Cox &amp; Jeff Forshaw, 2022</span> <span class="note">Accessible and visually rich exploration.</span></li>
+  </ul>
+
+  <!-- HIGGS -->
+  <div class="section-head gray" id="higgs">
+    <h2>Higgs &amp; Particle Physics</h2>
+  </div>
+  <ul class="books">
+    <li><em>Elusive: How Peter Higgs Solved the Mystery of Mass</em> <span class="author">— Frank Close, 2022</span> <span class="note">The definitive account of the Higgs boson story.</span></li>
+    <li><em>The Particle at the End of the Universe</em> <span class="author">— Sean Carroll</span></li>
+    <li><em>Knocking on Heaven's Door</em> <span class="author">— Lisa Randall</span></li>
+    <li><em>Present at the Creation: The Story of CERN and the Large Hadron Collider</em> <span class="author">— Amir Aczel</span></li>
+  </ul>
+
+  <!-- BIOGRAPHY -->
+  <div class="section-head purple" id="biography">
+    <h2>Biography &amp; Scientific Lives</h2>
+  </div>
+  <div class="two-col">
+    <ul class="books">
+      <li><em><a href="https://www.amazon.com/Faraday-Maxwell-Electromagnetic-Field-Revolutionized/dp/1633886077">Faraday, Maxwell, and the Electromagnetic Field</a></em> <span class="author">— Forbes &amp; Mahon</span> <span class="tag starred">&#9733; recommended</span></li>
+      <li><em>The Strangest Man</em> <span class="author">— Graham Farmelo</span> <span class="note">About Dirac.</span></li>
+      <li><em>Einstein</em> <span class="author">— Walter Isaacson</span></li>
+      <li><em>Einstein and the Quantum</em> <span class="author">— A. Douglas Stone</span></li>
+      <li><em>The Last Man Who Knew Everything: Enrico Fermi</em> <span class="author">— David N. Schwartz</span></li>
+      <li><em>The Pope of Physics: Enrico Fermi and the Birth of the Atomic Age</em> <span class="author">— Gino Segre &amp; Bettina Hoerlin</span></li>
+      <li><em>Genius: The Life and Science of Richard Feynman</em> <span class="author">— James Gleick</span></li>
+      <li><em>Quantum Man: Richard Feynman's Life in Science</em> <span class="author">— Lawrence M. Krauss</span></li>
+      <li><em>The Quantum Labyrinth: Feynman and Wheeler</em> <span class="author">— Paul Halpern</span></li>
+      <li><em><a href="http://www.amazon.com/Stephen-Hawking-Unfettered-Mind-Macsci/dp/0230340601">Stephen Hawking: An Unfettered Mind</a></em> <span class="author">— Kitty Ferguson</span></li>
+      <li><em>Traveling to Infinity</em> <span class="author">— Jane Hawking</span> <span class="note">Basis for the film The Theory of Everything.</span></li>
+    </ul>
+    <ul class="books">
+      <li><em><a href="https://www.amazon.com/Oliver-Heaviside-Electrical-Genius-Victorian/dp/0801869099">Oliver Heaviside</a></em> <span class="author">— Nahin</span></li>
+      <li><em>Newton and the Counterfeiter</em> <span class="author">— Thomas Levenson</span></li>
+      <li><em>Robert Oppenheimer</em> <span class="author">— Ray Monk</span></li>
+      <li><em>American Prometheus</em> <span class="author">— Kai Bird &amp; Martin J. Sherwin</span> <span class="note">Basis for the film Oppenheimer.</span></li>
+      <li><em>The General and the Genius: Groves and Oppenheimer</em> <span class="author">— James Kunetka</span></li>
+      <li><em>Half-Life: Bruno Pontecorvo, Physicist or Spy</em> <span class="author">— Frank Close</span></li>
+      <li><em>Trinity: The Treachery and Pursuit of the Most Dangerous Spy</em> <span class="author">— Frank Close</span></li>
+      <li><em>The Man Who Knew Infinity</em> <span class="author">— Robert Kanigel</span> <span class="note">Life of Ramanujan.</span></li>
+      <li><em>A Mind at Play: How Claude Shannon Invented the Information Age</em> <span class="author">— Goodman &amp; Soni</span></li>
+      <li><em>Wizard: The Life and Times of Nikola Tesla</em> <span class="author">— Marc Seifer</span></li>
+      <li><em>Alan Turing: The Enigma</em> <span class="author">— Andrew Hodges</span></li>
+      <li><em>Emmy Noether: Her Life, Work, and Influence</em> <span class="author">— Lee Phillips, 2024</span> <span class="tag new2024">2024</span></li>
+    </ul>
+  </div>
+
+  <!-- HISTORY OF MATHEMATICS -->
+  <div class="section-head teal" id="history-math">
+    <h2>History of Mathematics</h2>
+    <span class="badge math">For HOM Students</span>
+  </div>
+  <div class="callout teal">These books are particularly relevant for students in <strong>MAT 496: History of Mathematics</strong>. The starred entries are especially recommended as companion reading.</div>
+
+  <div class="subsection"><h3>Classic Histories &amp; Overviews</h3></div>
+  <ul class="books">
+    <li><em>A History of Mathematics</em> <span class="author">— Carl B. Boyer &amp; Uta C. Merzbach</span> <span class="tag starred">&#9733; recommended</span> <span class="note">The standard comprehensive reference. Dense but authoritative.</span></li>
+    <li><em>Mathematics and Its History</em> <span class="author">— John Stillwell</span> <span class="tag starred">&#9733; recommended</span> <span class="note">Beautifully organized; connects historical development to actual mathematics.</span></li>
+    <li><em>A History of Mathematics: From Mesopotamia to Modernity</em> <span class="author">— Luke Hodgkin</span></li>
+    <li><em>The Mathematical Experience</em> <span class="author">— Davis &amp; Hersh</span> <span class="note">What is mathematics? A philosophical tour.</span></li>
+    <li><em>Mathematics: The Loss of Certainty</em> <span class="author">— Morris Kline</span></li>
+    <li><em>Mathematical Thought from Ancient to Modern Times</em> <span class="author">— Morris Kline, 3 vols.</span> <span class="tag textbook">textbook</span></li>
+    <li><em>The History of Mathematics: An Introduction</em> <span class="author">— David Burton</span> <span class="tag textbook">textbook</span></li>
+  </ul>
+
+  <div class="subsection"><h3>Popular &amp; Accessible Histories</h3></div>
+  <ul class="books">
+    <li><em>Fermat's Enigma</em> <span class="author">— Simon Singh</span> <span class="tag starred">&#9733; recommended</span> <span class="note">Andrew Wiles and the proof of Fermat's Last Theorem. Unputdownable.</span></li>
+    <li><em>The Man Who Loved Only Numbers</em> <span class="author">— Paul Hoffman</span> <span class="note">Life of the eccentric genius Paul Erdős.</span></li>
+    <li><em>Zero: The Biography of a Dangerous Idea</em> <span class="author">— Charles Seife</span></li>
+    <li><em>The Music of the Primes</em> <span class="author">— Marcus du Sautoy</span> <span class="note">The Riemann Hypothesis and the mystery of prime numbers.</span></li>
+    <li><em>Infinitesimal: How a Dangerous Mathematical Theory Shaped the Modern World</em> <span class="author">— Amir Alexander</span> <span class="tag starred">&#9733; recommended</span> <span class="note">The battle over calculus and infinitesimals in 17th-century Europe.</span></li>
+    <li><em>Love and Math: The Heart of Hidden Reality</em> <span class="author">— Edward Frenkel</span> <span class="note">A mathematical autobiography; Langlands program and modern mathematics.</span></li>
+    <li><em>The Man Who Knew Infinity</em> <span class="author">— Robert Kanigel</span> <span class="note">Life of Ramanujan — essential reading.</span></li>
+    <li><em>Gödel, Escher, Bach: An Eternal Golden Braid</em> <span class="author">— Douglas Hofstadter</span> <span class="note">Pulitzer Prize-winning exploration of mind, meaning, and mathematics.</span></li>
+    <li><em>Mathematics for Human Flourishing</em> <span class="author">— Francis Su</span> <span class="tag starred">&#9733; recommended</span> <span class="note">Beautifully written; makes the case that mathematics is for everyone.</span></li>
+    <li><em>The Golden Ratio</em> <span class="author">— Mario Livio</span></li>
+    <li><em>Prime Obsession: Bernhard Riemann and the Greatest Unsolved Problem in Mathematics</em> <span class="author">— John Derbyshire</span></li>
+    <li><em>Unknown Quantity: A Real and Imaginary History of Algebra</em> <span class="author">— John Derbyshire</span></li>
+    <li><em>Infinite Powers: How Calculus Reveals the Secrets of the Universe</em> <span class="author">— Steven Strogatz, 2019</span> <span class="note">A beautifully written history of calculus for the general reader.</span></li>
+    <li><em>The Joy of X: A Guided Tour of Math, from One to Infinity</em> <span class="author">— Steven Strogatz</span> <span class="tag starred">&#9733; recommended</span></li>
+    <li><em>Once Upon a Prime: The Wondrous Connections Between Mathematics and Literature</em> <span class="author">— Sarah Hart, 2023</span> <span class="tag new2023">2023</span></li>
+  </ul>
+
+  <div class="subsection"><h3>Recent Additions (2023–2025)</h3></div>
+  <ul class="books">
+    <li><em>The Secret Lives of Numbers: A Global History of Mathematics &amp; Its Unsung Trailblazers</em> <span class="author">— Kate Kitagawa &amp; Timothy Revell, Penguin 2024</span> <span class="tag new2024">2024</span> <span class="note">Deliberately global in scope — African, Asian, and Indigenous contributions get full treatment alongside the European tradition.</span></li>
+    <li><em>A Little History of Mathematics</em> <span class="author">— Snezana Lawrence, Yale University Press 2025</span> <span class="tag new2025">2025</span> <span class="note">Accessible one-volume introduction; fresh perspective on the discipline's breadth.</span></li>
+    <li><em>Sourcebook in the Mathematics of Ancient Greece and the Eastern Mediterranean</em> <span class="author">— Ed. Victor Katz, Princeton University Press 2024</span> <span class="tag new2024">2024</span> <span class="tag textbook">textbook</span></li>
+  </ul>
+
+  <div class="subsection"><h3>Women &amp; Underrepresented Mathematicians</h3></div>
+  <ul class="books">
+    <li><em>Hidden Figures</em> <span class="author">— Margot Lee Shetterly</span> <span class="tag starred">&#9733; recommended</span> <span class="note">The African-American women mathematicians at NASA who helped win the Space Race.</span></li>
+    <li><em>The Glass Universe</em> <span class="author">— Dava Sobel</span> <span class="note">The women computers of the Harvard Observatory.</span></li>
+    <li><em>Emmy Noether: The Most Important Mathematician You've Never Heard Of</em> <span class="author">— Helaine Bettmann</span></li>
+    <li><em>Ada Lovelace: The Making of a Computer Scientist</em> <span class="author">— Hollings, Martin &amp; Rice</span></li>
+    <li><em>The Equation That Couldn't Be Solved</em> <span class="author">— Mario Livio</span> <span class="note">Group theory and the quintic equation, through Galois and Abel.</span></li>
+  </ul>
+
+  <!-- POPULAR MATHEMATICS -->
+  <div class="section-head amber" id="math-popular">
+    <h2>Popular Mathematics</h2>
+  </div>
+  <div class="two-col">
+    <ul class="books">
+      <li><em><a href="http://www.amazon.com/Brief-History-Time-Stephen-Hawking/dp/0553380168">A Brief History of Time</a></em> <span class="author">— S. Hawking</span></li>
+      <li><em><a href="https://www.amazon.com/Many-Worlds-One-Search-Universes/dp/0809067226">Many Worlds in One</a></em> <span class="author">— A. Vilenkin</span></li>
+      <li><em><a href="https://www.amazon.com/Endless-Universe-Beyond-Rewriting-History/dp/0767915011">Endless Universe: Beyond the Big Bang</a></em> <span class="author">— Steinhardt &amp; Turok</span></li>
+      <li><em><a href="http://www.amazon.com/Elegant-Universe-Superstrings-Dimensions-Ultimate/dp/0375708111">The Elegant Universe</a></em> or <em><a href="http://www.amazon.com/Fabric-Cosmos-Space-Texture-Reality/dp/0375727205">The Fabric of the Cosmos</a></em> <span class="author">— B. Greene</span></li>
+      <li><em><a href="https://www.amazon.com/Until-End-Time-Evolving-Universe/dp/052543217">Until the End of Time</a></em> <span class="author">— Brian Greene</span></li>
+      <li><em>Our Mathematical Universe</em> <span class="author">— Max Tegmark</span></li>
+      <li><em>The Drunkard's Walk</em> <span class="author">— Leonard Mlodinow</span></li>
+      <li><em>The Character of Physical Law</em> <span class="author">— Richard Feynman</span></li>
+    </ul>
+    <ul class="books">
+      <li><em><a href="http://www.amazon.com/Parallel-Worlds-Journey-Creation-Dimensions/dp/1400033721">Parallel Worlds</a></em> <span class="author">— M. Kaku</span></li>
+      <li><em><a href="http://www.amazon.com/Warped-Passages-Unraveling-Mysteries-Dimensions/dp/0060531096">Warped Passages</a></em> <span class="author">— L. Randall</span></li>
+      <li><em><a href="https://www.amazon.com/dp/0393867307">Under Alien Skies</a></em> <span class="author">— P. Plait</span></li>
+      <li><em>Time Reborn</em> <span class="author">— Lee Smolin</span></li>
+      <li><em>Physics on the Fringe</em> <span class="author">— Margaret Wertheim</span></li>
+      <li><em>How the Hippies Saved Physics</em> <span class="author">— David Kaiser</span></li>
+      <li><em>Physics for Future Presidents</em> <span class="author">— Richard Muller</span></li>
+      <li><em>Chaos: Making a New Science</em> <span class="author">— James Gleick</span> <span class="note">The classic account of chaos theory.</span></li>
+    </ul>
+  </div>
+  <p style="margin-top:0.75rem;font-family:sans-serif;font-size:13px;color:var(--text-muted);">See also: <a href="http://www.goodreads.com/shelf/show/physics">Goodreads Popular Physics Books</a></p>
+
+  <!-- OTHER -->
+  <div class="section-head coral" id="other">
+    <h2>Other Interesting Reads</h2>
+  </div>
+  <div class="two-col">
+    <ul class="books">
+      <li><em>The Making of the Atomic Bomb</em> <span class="author">— Richard Rhodes</span> <span class="tag starred">&#9733; recommended</span></li>
+      <li><em>The Universe in the Rearview Mirror</em> <span class="author">— Dave Goldberg</span> <span class="note">Hidden symmetries that shape reality.</span></li>
+      <li><em>A Short Bright Flash</em> <span class="author">— Theresa Levitt</span> <span class="note">History of the Fresnel lens.</span></li>
+      <li><em>Operation Paperclip</em> <span class="author">— Annie Jacobsen</span> <span class="note">Program that brought German scientists to the US.</span></li>
+      <li><em>Farewell to Reality</em> <span class="author">— Jim Baggott</span></li>
+      <li><em>Beyond Uncertainty</em> <span class="author">— David Cassidy</span> <span class="note">About Heisenberg.</span></li>
+      <li><em>First War of Physics</em> <span class="author">— Jim Baggott</span> <span class="note">History of the atomic bomb.</span></li>
+    </ul>
+    <ul class="books">
+      <li><em>Einstein's Cosmos</em> <span class="author">— Michio Kaku</span></li>
+      <li><em>Physics of the Future</em> <span class="author">— Michio Kaku</span></li>
+      <li><em><a href="http://www.goodreads.com/book/show/1168341.Physics_of_the_Impossible">Physics of the Impossible</a></em> <span class="author">— Michio Kaku</span></li>
+      <li><em>Collider</em> <span class="author">— Paul Halpern</span></li>
+      <li><em>Area 51: An Uncensored History</em> <span class="author">— Annie Jacobson</span></li>
+      <li><em>The Joy of Why</em> <span class="author">— Steven Strogatz, 2023</span> <span class="tag new2023">2023</span></li>
+      <li><em>Physics of the Impossible</em> <span class="author">— Michio Kaku</span></li>
+    </ul>
+  </div>
+
+  <footer>
+    <p style="margin-bottom:0.75rem;"><strong>The information contained on this web page does not necessarily represent UNC Wilmington official information.</strong></p>
+    <div class="quick-links">
+      <a href="https://people.uncw.edu/hermanr/lecturenotes.htm">Lecture Notes</a>
+      <a href="https://people.uncw.edu/hermanr/classes.htm">Recent Classes</a>
+      <a href="https://people.uncw.edu/hermanr/videos.htm">Math &amp; Physics Videos</a>
+      <a href="http://people.uncw.edu/hermanr/latex/">LaTeX</a>
+      <a href="http://people.uncw.edu/hermanr/Wiki/MatlabWiki.html">MATLAB</a>
+      <a href="https://people.uncw.edu/hermanr/maple.htm">Maple</a>
+      <a href="https://people.uncw.edu/hermanr/OpenSourceMath.htm">Open Source Software</a>
+      <a href="http://www.uncw.edu/math/">Math &amp; Stat Dept</a>
+      <a href="http://www.uncw.edu/">UNC Wilmington</a>
+    </div>
+    <p style="margin-top:1rem;">Maintained by Dr. Russell L. Herman — Last Updated: May 2026</p>
+  </footer>
+
+</div>
+</body>
+</html>

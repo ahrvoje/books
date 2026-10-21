@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+const dir='data/books_guru_261021/';
+const read=f=>JSON.parse(fs.readFileSync(dir+f,'utf8'));
+const overrides=read('identity-overrides.json');
+overrides.bg289150a756={new:true,reason:'Explicit whole Dune series nomination; prior h0287 covers the single novel, not the whole named set. Individual novels already named as cards remain separate collected units; no further volumes are invented.'};
+overrides.bg89b649685b={new:true,reason:'Whole Earth Catalog is a distinct publication from Whole Earth Discipline. Printed catalog/book-form scope requires assessment; archive periodical labeling alone does not settle the book-form gate.'};
+overrides.bga8650202da={priorId:'g1165',reason:'Publisher explicitly identifies Buffett & Munger – A Study in Simplicity and Uncommon, Common Sense as the subtitle of All I Want To Know Is Where I’m Going To Die So I’ll Never Go There. Verified https://order.poorcharliesalmanack.com/all_i_want_to_know.php title and subtitle.',confidence:'high'};
+for(const id of ['bg1446206755','bg622fa3d298','bg4966971060','bg29c2a70efb','bg728421135d','bg6aa9e627bf','bg28fd6b1b74'])overrides[id]={priorId:'h0242',reason:'Named Culture novel is within the explicitly previously covered whole Culture series, h0242. Prior source8 named the series. Publisher/author bibliography: https://www.hachettebookgroup.com/series/culture/ and https://iainbanks.co.uk/breaking-into-banks/ . Component title retained in occurrences; no new assessment.',confidence:id==='bg622fa3d298'?'moderate':'high'};
+overrides.bg6a039b00a6={priorId:'h0708',reason:'Death’s End is the third volume of the explicitly previously covered three-volume Remembrance of Earth’s Past sequence, h0708; source132 assessed the whole-series nomination.',confidence:'high'};
+fs.writeFileSync(dir+'identity-overrides.json',JSON.stringify(overrides,null,2)+'\n');

@@ -1,0 +1,122 @@
+{
+  "url": "https://openlibrary.org/works/OL21105881W/editions.json?limit=1000",
+  "retrievedAt": "2026-10-18T23:21:17.006Z",
+  "status": 200,
+  "data": {
+    "links": {
+      "self": "/works/OL21105881W/editions.json?limit=1000",
+      "work": "/works/OL21105881W"
+    },
+    "size": 2,
+    "entries": [
+      {
+        "type": {
+          "key": "/type/edition"
+        },
+        "authors": [
+          {
+            "key": "/authors/OL3056316A"
+          }
+        ],
+        "isbn_13": [
+          "9781472910530"
+        ],
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "pagination": "288",
+        "publish_date": "2014",
+        "publishers": [
+          "Bloomsbury Publishing Plc"
+        ],
+        "source_records": [
+          "bwb:9781472910530"
+        ],
+        "subjects": [
+          "Cancer, genetic aspects"
+        ],
+        "title": "P53",
+        "subtitle": "The Gene That Cracked the Cancer Code",
+        "full_title": "P53 The Gene That Cracked the Cancer Code",
+        "works": [
+          {
+            "key": "/works/OL21105881W"
+          }
+        ],
+        "key": "/books/OL48653605M",
+        "latest_revision": 1,
+        "revision": 1,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2023-07-17T06:59:58.029726"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2023-07-17T06:59:58.029726"
+        }
+      },
+      {
+        "publishers": [
+          "Bloomsbury Publishing Plc"
+        ],
+        "subtitle": "The Gene That Cracked the Cancer Code",
+        "source_records": [
+          "bwb:9781472910523",
+          "ia:p53genethatcrack0000arms_z0x6",
+          "promise:bwb_daily_pallets_2021-04-07"
+        ],
+        "title": "P53",
+        "number_of_pages": 288,
+        "isbn_13": [
+          "9781472910523"
+        ],
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "full_title": "P53 The Gene That Cracked the Cancer Code",
+        "lc_classifications": [
+          "RC268.44.P16"
+        ],
+        "publish_date": "2015",
+        "key": "/books/OL28569601M",
+        "authors": [
+          {
+            "key": "/authors/OL3056316A"
+          }
+        ],
+        "works": [
+          {
+            "key": "/works/OL21105881W"
+          }
+        ],
+        "type": {
+          "key": "/type/edition"
+        },
+        "subjects": [
+          "Oncogenes"
+        ],
+        "covers": [
+          11512727
+        ],
+        "ocaid": "p53genethatcrack0000arms_z0x6",
+        "local_id": [
+          "urn:bwbsku:KO-989-803"
+        ],
+        "latest_revision": 3,
+        "revision": 3,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2020-08-04T17:15:08.904499"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2023-01-14T22:34:02.643499"
+        }
+      }
+    ]
+  }
+}

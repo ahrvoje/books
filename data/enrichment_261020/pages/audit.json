@@ -1,0 +1,1723 @@
+{
+  "generated": "2026-10-20T15:01:50.178Z",
+  "counts": {
+    "total": 1636,
+    "pages": 1510,
+    "remaining": 126,
+    "attempted": 1636,
+    "highConfidence": 354,
+    "moderateConfidence": 1156,
+    "languageUnstated": 177,
+    "formatUnstated": 564,
+    "sources": {
+      "Open Library": 1152,
+      "www.amazon.com.au": 149,
+      "www.amazon.com": 198,
+      "MIT Press": 1,
+      "Penguin Random House": 1,
+      "Penguin Random House / Knopf": 1,
+      "www.indigo.ca": 1,
+      "Hillsdale College, The Churchill Project": 1,
+      "academic.macmillan.com": 1,
+      "www.penguinrandomhouse.com": 2,
+      "www.abramsbooks.com": 1,
+      "www.simonandschuster.com": 1,
+      "www.campusbooks.com": 1
+    },
+    "unknownReasons": {
+      "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.": 78,
+      "Edition identity mismatch or insufficient author/title evidence.": 8,
+      "Audio edition: catalog number_of_pages is not a print page count.": 7,
+      "No title-and-author-matching Open Library work from batch search.": 19,
+      "Strict title/subtitle, format, page-count or edition metadata audit rejected this candidate.": 1,
+      "Edition has no page count.": 11,
+      "Implausible page count needs specific verification.": 1,
+      "Suspicious16-page retail count held for independent verification.": 1
+    }
+  },
+  "validation": {
+    "all1636HaveOutcome": true,
+    "everyKnownPageCountHasEditionAndSource": true,
+    "noAudioDiscCounts": true,
+    "noUnverifiedSub20PageCounts": true,
+    "completeSeriesAggregatesChecked": true,
+    "uniqueEditionIdentities": true,
+    "canonicalLedgersAndScoresUnchanged": true
+  },
+  "limitations": [
+    "Open Library is community-maintained. Edition identities and pages were checked, but all catalog entries are not independently corroborated. Confidence is moderate.",
+    "Catalog number_of_pages may mean last numbered page and may omit preliminary or plate pages. Publisher totals take precedence where checked; basis is recorded.",
+    "Not stated by source is an explicit unknown for language or binding; it does not imply English or paperback.",
+    "Google Books API quota was unavailable. Amazon returned Server Busy/CAPTCHA; its pass was stopped after920 of1199 targeted metadata records. No block was bypassed.",
+    "Exact print totals cannot be supplied for unresolved work identities, unverified series scope, blocked metadata, or audio-only candidates.",
+    "New rating observations are separate in missing-ratings.json and do not alter canonical score inputs."
+  ],
+  "concerns": [
+    {
+      "id": "energy",
+      "reason": "Repository original year1994 conflicts with MIT Press first hardcover publication2017 for Energy and Civilization. Canonical age remains unchanged pending review.",
+      "url": "https://mitpress.mit.edu/9780262536165/energy-and-civilization/"
+    },
+    {
+      "id": "g0194",
+      "reason": "Open Library edition description contains unrelated gambling-site promotion. Description excluded from evidence; page metadata304 remains moderate confidence pending corroboration."
+    },
+    {
+      "id": "q0490",
+      "title": "Catch the Devil",
+      "repositoryYear": 2026,
+      "editionYear": 2025,
+      "url": "https://openlibrary.org/books/OL60900145M/Catch_the_Devil",
+      "reason": "Selected edition year predates repository original year. Could be catalog/prepublication metadata or earlier repository date error; verify separately."
+    },
+    {
+      "id": "q0620",
+      "title": "Super Fly",
+      "repositoryYear": 2021,
+      "editionYear": 2020,
+      "url": "https://openlibrary.org/books/OL29505613M/Super_Fly",
+      "reason": "Selected edition year predates repository original year. Could be catalog/prepublication metadata or earlier repository date error; verify separately."
+    },
+    {
+      "id": "q0795",
+      "title": "README.txt",
+      "repositoryYear": 2022,
+      "editionYear": 2021,
+      "url": "https://openlibrary.org/books/OL29817538M/README.txt",
+      "reason": "Selected edition year predates repository original year. Could be catalog/prepublication metadata or earlier repository date error; verify separately."
+    },
+    {
+      "id": "q0928",
+      "title": "In Cold Blood",
+      "repositoryYear": 1966,
+      "editionYear": 1965,
+      "url": "https://openlibrary.org/books/OL58878743M/in_cold_blood",
+      "reason": "Selected edition year predates repository original year. Could be catalog/prepublication metadata or earlier repository date error; verify separately."
+    },
+    {
+      "id": "g0234",
+      "title": "Dear Chairman",
+      "repositoryYear": 2016,
+      "editionYear": 2015,
+      "url": "https://openlibrary.org/books/OL27202681M/Dear_chairman",
+      "reason": "Selected edition year predates repository original year. Could be catalog/prepublication metadata or earlier repository date error; verify separately."
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "id": "q0123",
+      "title": "The Third Reich trilogy",
+      "reason": "Strict title/subtitle, format, page-count or edition metadata audit rejected this candidate.",
+      "rejectedEdition": {
+        "pages": 2489,
+        "id": "ASIN:0140911677",
+        "url": "https://www.amazon.com/dp/0140911677",
+        "retrieved": "2026-10-20T14:39:48.420Z",
+        "language": "English",
+        "format": "Hardcover",
+        "year": 2008,
+        "confidence": "high",
+        "title": "The Third Reich trilogy",
+        "authors": "by Richard J. Evans (Author) Format: Hardcover",
+        "isbn10": [
+          "0140911677"
+        ],
+        "isbn13": [
+          "9780140911671"
+        ],
+        "notes": "Page count and edition metadata observed on the same matching product page. Other editions can have different pagination.",
+        "source": {
+          "provider": "www.amazon.com",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0123-0140911677-www.amazon.com-acd2e6b5b32fd477.html.gz",
+          "sha256": "d26cbf8b45db8ead42f93c89990565725e5ca3c7dbe86d5d6634680c9331904c"
+        }
+      }
+    },
+    {
+      "id": "q0144",
+      "title": "The Logic of Scientific Discovery",
+      "reason": "Strict title/subtitle, format, page-count or edition metadata audit rejected this candidate.",
+      "rejectedEdition": {
+        "pages": 544,
+        "id": "ASIN:0415278449",
+        "url": "https://www.amazon.com.au/dp/0415278449",
+        "retrieved": "2026-10-20T14:40:46.058Z",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2002,
+        "confidence": "high",
+        "title": "The Logic of Scientific Discovery (Routledge Classics): Volume 56",
+        "authors": "by Karl Popper (Author) Format: Paperback",
+        "isbn10": [
+          "9780415278447"
+        ],
+        "isbn13": [
+          "9780415278447"
+        ],
+        "notes": "Page count and edition metadata observed on the same matching product page. Other editions can have different pagination.",
+        "source": {
+          "provider": "www.amazon.com.au",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0144-0415278449-www.amazon.com.au-89a2b429ef3e55fd.html.gz",
+          "sha256": "7ece50e9284b823aafb38c5fcf24907ed12c80085dbc30109a128d74ee8b236e"
+        }
+      }
+    },
+    {
+      "id": "q0254",
+      "title": "Life: An Unauthorised Biography",
+      "reason": "Edition identity mismatch or insufficient author/title evidence.",
+      "rejectedEdition": {
+        "pages": 368,
+        "id": "OL7424848M",
+        "url": "https://openlibrary.org/books/OL7424848M/Life",
+        "retrieved": "2026-10-20T14:37:06.006Z",
+        "language": "English",
+        "format": "Hardcover",
+        "year": 1998,
+        "confidence": "moderate",
+        "title": "Life: a natural history of the first four billion years of life on earth",
+        "authors": "Richard Fortey",
+        "publisher": "Alfred A. Knopf",
+        "isbn10": [
+          "0375401199"
+        ],
+        "isbn13": [
+          "9780375401190"
+        ],
+        "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Source pagination: xiii, 346 p. : ill. ;. Source: raw/ol-editions-245-4d44d75977c591f4.json",
+        "source": {
+          "provider": "Open Library",
+          "api": "https://openlibrary.org/api/books?bibkeys=OLID:OL26884776M,OLID:OL25898036M,OLID:OL27786977M,OLID:OL49831774M,OLID:OL35993358M,OLID:OL36097787M,OLID:OL35862194M,OLID:OL35590747M,OLID:OL40133494M,OLID:OL38245697M,OLID:OL60877276M,OLID:OL46122604M,OLID:OL36689110M,OLID:OL62456765M,OLID:OL56034889M,OLID:OL27740089M,OLID:OL39216579M,OLID:OL27962257M,OLID:OL50964608M,OLID:OL62675128M,OLID:OL50956222M,OLID:OL53021666M,OLID:OL49341670M,OLID:OL29462156M,OLID:OL60463442M,OLID:OL27698142M,OLID:OL29851941M,OLID:OL27999959M,OLID:OL7424848M,OLID:OL37115703M,OLID:OL7426213M,OLID:OL7256152M,OLID:OL9213590M,OLID:OL701143M,OLID:OL7593933M&jscmd=details&format=json",
+          "rawFile": "data/enrichment_261020/pages/raw/ol-editions-245-4d44d75977c591f4.json",
+          "sha256": "70c070cf387a2269ad7aa94787ef2e1896a0c1b919848b7d4c48e5304aca9b1f",
+          "editionKey": "/books/OL7424848M"
+        }
+      }
+    },
+    {
+      "id": "q0524",
+      "title": "The Age of Faith",
+      "reason": "Edition identity mismatch or insufficient author/title evidence.",
+      "rejectedEdition": {
+        "pages": 1200,
+        "id": "ISBN:0671012002",
+        "url": "https://openlibrary.org/books/OL7644421M/The_Age_of_Faith_(The_Story_of_Civilization_Volume_4)",
+        "retrieved": "2026-10-20T14:30:44.775Z",
+        "language": "English",
+        "format": "Hardcover",
+        "year": 1980,
+        "confidence": "moderate",
+        "title": "The Age of Faith (The Story of Civilization, Volume 4)",
+        "authors": "Will Durant",
+        "publisher": "Simon & Schuster",
+        "isbn10": [
+          "0671012002"
+        ],
+        "isbn13": [
+          "9780671012007"
+        ],
+        "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Source: raw/ol-isbn-490-cad4767ed60ce211.json",
+        "source": {
+          "provider": "Open Library",
+          "api": "https://openlibrary.org/api/books?bibkeys=ISBN:014199004X,ISBN:0679768440,ISBN:0393324826,ISBN:0805023968,ISBN:1473635365,ISBN:1101990597,ISBN:0140275010,ISBN:0374533407,ISBN:085705774X,ISBN:0060508159,ISBN:0140455477,ISBN:0062200127,ISBN:1501176730,ISBN:0143116215,ISBN:0307279286,ISBN:0679722165,ISBN:0316907928,ISBN:0060839872,ISBN:014303653X,ISBN:0750939931,ISBN:1416547878,ISBN:0805073698,ISBN:0374527253,ISBN:0812979494,ISBN:0767928857,ISBN:0593471482,ISBN:1631494538,ISBN:0593230868,ISBN:0691156662,ISBN:0307275906,ISBN:0671012002,ISBN:1476770514,ISBN:0099771012,ISBN:0671869205,ISBN:0684827123&jscmd=details&format=json",
+          "rawFile": "data/enrichment_261020/pages/raw/ol-isbn-490-cad4767ed60ce211.json",
+          "sha256": "250fd19397a3a44b9d2bdfa2f135646258a2f95c75774d9cc5817999fc792300",
+          "editionKey": "/books/OL7644421M",
+          "corroboration": {
+            "url": "https://www.amazon.pl/dp/0671012002",
+            "retrieved": "2026-10-18T18:43:10.205Z",
+            "title": "Age of Faith: 004",
+            "byline": "Wydanie: Angielski Durant (Autor) Format: Twarda oprawa"
+          }
+        }
+      }
+    },
+    {
+      "id": "q0548",
+      "title": "Russia: Revolution and Civil War, 1917–1921",
+      "reason": "Strict title/subtitle, format, page-count or edition metadata audit rejected this candidate.",
+      "rejectedEdition": {
+        "pages": 592,
+        "id": "ASIN:1474610161",
+        "url": "https://www.amazon.com/dp/1474610161",
+        "retrieved": "2026-10-20T14:44:12.345Z",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2023,
+        "confidence": "high",
+        "title": "Russia",
+        "authors": "by Antony Beevor (Author) Format: Paperback",
+        "isbn10": [
+          "1474610161"
+        ],
+        "isbn13": [
+          "9781474610162"
+        ],
+        "notes": "Page count, title, author, language, format and edition year observed on the same product page. Product ID verified from the landing page when available; original request URL retained in provenance.",
+        "source": {
+          "provider": "www.amazon.com",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0548-1474610161-www.amazon.com-90bb2611c8b704e0.html.gz",
+          "sha256": "18e07b7bc7a2555c4496c0b236c087bb80b0e33a0b641ffc8d014afce5d324ca",
+          "requestedUrl": "https://www.amazon.com/dp/1474610161"
+        }
+      }
+    },
+    {
+      "id": "q0573",
+      "title": "Ultralearning",
+      "reason": "Audio edition: catalog number_of_pages is not a print page count.",
+      "rejectedEdition": {
+        "pages": 1,
+        "id": "ISBN:1982662964",
+        "url": "https://openlibrary.org/books/OL30762434M/Ultralearning",
+        "retrieved": "2026-10-20T14:30:57.601Z",
+        "language": "Not stated by source",
+        "format": "audio cd",
+        "year": 2019,
+        "confidence": "moderate",
+        "title": "Ultralearning: Master Hard Skills, Outsmart the Competition, and Accelerate Your Career",
+        "authors": "Scott Young",
+        "publisher": "Harpercollins; HarperCollins B and Blackstone Audio",
+        "isbn10": [
+          "1982662964"
+        ],
+        "isbn13": [
+          "9781982662967"
+        ],
+        "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Language is not recorded. Source: raw/ol-isbn-665-e02e6759b5963dce.json",
+        "source": {
+          "provider": "Open Library",
+          "api": "https://openlibrary.org/api/books?bibkeys=ISBN:1493022008,ISBN:0865471185,ISBN:0143134272,ISBN:1400052181,ISBN:0684808862,ISBN:0684834960,ISBN:0520230884,ISBN:0520254988,ISBN:0192802151,ISBN:1982662964,ISBN:0008305706,ISBN:0142437905,ISBN:1476727252,ISBN:1476727260,ISBN:006266140X,ISBN:0141030577,ISBN:030740885X,ISBN:0801851866,ISBN:1324065915,ISBN:054705372X,ISBN:1529365287,ISBN:0061253804,ISBN:0061253715,ISBN:1895431727,ISBN:074533542X,ISBN:1408898950,ISBN:1250849357,ISBN:0743255194,ISBN:1911214179,ISBN:1250192811,ISBN:1541602951,ISBN:0374233624,ISBN:191154716X,ISBN:1787301699,ISBN:125087291X&jscmd=details&format=json",
+          "rawFile": "data/enrichment_261020/pages/raw/ol-isbn-665-e02e6759b5963dce.json",
+          "sha256": "8c1b7ffa5f63f785dde1b64abc07e1456ced851c10224a485e39a982e7677d0b",
+          "editionKey": "/books/OL30762434M",
+          "corroboration": {
+            "url": "https://www.amazon.it/dp/1982662964",
+            "retrieved": "2026-10-18T18:56:34.206Z",
+            "title": "Ultralearning: Master Hard Skills, Outsmart the Competition, and Accelerate Your Career",
+            "byline": "Edizione Inglese di Scott H. Young (Narratore), James Clear (Avanti) Formato: Audio CD"
+          }
+        }
+      }
+    },
+    {
+      "id": "q0628",
+      "title": "A Billion Years",
+      "reason": "Audio edition: catalog number_of_pages is not a print page count.",
+      "rejectedEdition": {
+        "pages": 1,
+        "id": "OL39482592M",
+        "url": "https://openlibrary.org/books/OL39482592M/A_Billion_Years",
+        "retrieved": "2026-10-20T14:37:21.503Z",
+        "language": "Not stated by source",
+        "format": "audio cd",
+        "year": 2022,
+        "confidence": "moderate",
+        "title": "A Billion Years: My Escape From a Life in the Highest Ranks of Scientology",
+        "authors": "Mike Rinder",
+        "publisher": "Simon & Schuster Audio and Blackstone Publishing",
+        "isbn10": [
+          "1797149792"
+        ],
+        "isbn13": [
+          "9781797149790"
+        ],
+        "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Language is not recorded. Source: raw/ol-editions-700-614f716c7234e72e.json",
+        "source": {
+          "provider": "Open Library",
+          "api": "https://openlibrary.org/api/books?bibkeys=OLID:OL37626589M,OLID:OL38059318M,OLID:OL39482592M,OLID:OL50729215M,OLID:OL58610872M,OLID:OL62233946M,OLID:OL59856081M,OLID:OL58611598M,OLID:OL58445960M,OLID:OL522446M,OLID:OL9554083M,OLID:OL9195661M,OLID:OL23024003M,OLID:OL9285086M,OLID:OL7330438M,OLID:OL32776861M,OLID:OL32312529M,OLID:OL36747384M,OLID:OL34774887M,OLID:OL35989938M,OLID:OL57768482M,OLID:OL60991260M,OLID:OL57759982M,OLID:OL57571725M,OLID:OL43029531M,OLID:OL28724946M,OLID:OL29508898M,OLID:OL30537109M,OLID:OL31476684M,OLID:OL32509243M,OLID:OL34685330M,OLID:OL28732137M,OLID:OL38935267M,OLID:OL51586216M,OLID:OL48180680M&jscmd=details&format=json",
+          "rawFile": "data/enrichment_261020/pages/raw/ol-editions-700-614f716c7234e72e.json",
+          "sha256": "124df08a0ba7de76f354929b662c3f7b087560f6071cd0b5330afda50bb29af0",
+          "editionKey": "/books/OL39482592M"
+        }
+      }
+    },
+    {
+      "id": "q0725",
+      "title": "Generations",
+      "reason": "Audio edition: catalog number_of_pages is not a print page count.",
+      "rejectedEdition": {
+        "pages": 1,
+        "id": "OL46527162M",
+        "url": "https://openlibrary.org/books/OL46527162M/The_Generations",
+        "retrieved": "2026-10-20T14:37:22.604Z",
+        "language": "Not stated by source",
+        "format": "audio cd",
+        "year": 2023,
+        "confidence": "moderate",
+        "title": "The Generations",
+        "authors": "Jean M. Twenge",
+        "publisher": "Simon & Schuster Audio and Blackstone Publishing",
+        "isbn10": [
+          "1797150960"
+        ],
+        "isbn13": [
+          "9781797150963"
+        ],
+        "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Language is not recorded. Source: raw/ol-editions-735-c5a96f22f0161d89.json",
+        "source": {
+          "provider": "Open Library",
+          "api": "https://openlibrary.org/api/books?bibkeys=OLID:OL51341816M,OLID:OL46527162M,OLID:OL57360656M,OLID:OL62451445M,OLID:OL60898952M,OLID:OL50964528M,OLID:OL51155019M,OLID:OL50511899M,OLID:OL38789071M,OLID:OL40156069M,OLID:OL38328312M,OLID:OL38552152M,OLID:OL39277881M,OLID:OL60577829M,OLID:OL25284377M,OLID:OL24080826M,OLID:OL24288380M,OLID:OL24892535M,OLID:OL43353761M,OLID:OL28599814M,OLID:OL50520037M,OLID:OL48258863M,OLID:OL42738057M,OLID:OL32830998M,OLID:OL38633464M,OLID:OL55254810M,OLID:OL46847717M,OLID:OL45603502M,OLID:OL32224197M,OLID:OL27261403M,OLID:OL35975778M,OLID:OL62370481M,OLID:OL53345550M,OLID:OL27909521M,OLID:OL37981372M&jscmd=details&format=json",
+          "rawFile": "data/enrichment_261020/pages/raw/ol-editions-735-c5a96f22f0161d89.json",
+          "sha256": "3f94e010f30e3c4f52987eb14f134f21c739704380973fc383e7d23cc907a5f6",
+          "editionKey": "/books/OL46527162M"
+        }
+      }
+    },
+    {
+      "id": "q0794",
+      "title": "Personal Narrative of a Pilgrimage to Al-Madinah and Meccah",
+      "reason": "Edition identity mismatch or insufficient author/title evidence.",
+      "rejectedEdition": {
+        "pages": 256,
+        "id": "OL54934875M",
+        "url": "https://openlibrary.org/books/OL54934875M/Personal_Narrative_of_a_Pilgrimage_to_Al-Madinah_and_Meccah_-_Volume_2",
+        "retrieved": "2026-10-20T14:37:26.391Z",
+        "language": "English",
+        "format": "Not stated by source",
+        "year": 2018,
+        "confidence": "moderate",
+        "title": "Personal Narrative of a Pilgrimage to Al-Madinah and Meccah - Volume 2",
+        "authors": "Richard Francis Burton",
+        "publisher": "CreateSpace Independent Publishing Platform",
+        "isbn10": [],
+        "isbn13": [
+          "9781722089467"
+        ],
+        "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Source: raw/ol-editions-840-240d47589903e523.json",
+        "source": {
+          "provider": "Open Library",
+          "api": "https://openlibrary.org/api/books?bibkeys=OLID:OL42989080M,OLID:OL42332395M,OLID:OL33199887M,OLID:OL54934875M,OLID:OL55876139M,OLID:OL48700932M,OLID:OL48705482M,OLID:OL46197972M,OLID:OL45153788M,OLID:OL59245183M,OLID:OL57727922M,OLID:OL53223020M,OLID:OL47456756M,OLID:OL47456757M,OLID:OL31855187M,OLID:OL34187660M,OLID:OL32425140M,OLID:OL39942704M,OLID:OL38798906M,OLID:OL51045166M,OLID:OL34535189M,OLID:OL39426163M,OLID:OL48175066M,OLID:OL7925573M,OLID:OL22407813M,OLID:OL7925574M,OLID:OL25899407M,OLID:OL23109505M,OLID:OL43308887M,OLID:OL7432842M,OLID:OL13635512M,OLID:OL40427346M,OLID:OL37679812M,OLID:OL47018135M,OLID:OL34729057M&jscmd=details&format=json",
+          "rawFile": "data/enrichment_261020/pages/raw/ol-editions-840-240d47589903e523.json",
+          "sha256": "4b7b3bdbc9f3f6675416aa3cb888a81e7f987ff61a76b61f5e4e45e21fba1c17",
+          "editionKey": "/books/OL54934875M"
+        }
+      }
+    },
+    {
+      "id": "q0805",
+      "title": "Educated",
+      "reason": "Audio edition: catalog number_of_pages is not a print page count.",
+      "rejectedEdition": {
+        "pages": 354,
+        "id": "OL45153788M",
+        "url": "https://openlibrary.org/books/OL45153788M/Educated",
+        "retrieved": "2026-10-20T14:37:26.391Z",
+        "language": "English",
+        "format": "Preloaded digital audio player",
+        "year": 2018,
+        "confidence": "moderate",
+        "title": "Educated: A Memoir",
+        "authors": "Tara Westover; Julia Whelan",
+        "publisher": "Random House Audio",
+        "isbn10": [
+          "1987146123"
+        ],
+        "isbn13": [
+          "9781987146127"
+        ],
+        "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Source: raw/ol-editions-840-240d47589903e523.json",
+        "source": {
+          "provider": "Open Library",
+          "api": "https://openlibrary.org/api/books?bibkeys=OLID:OL42989080M,OLID:OL42332395M,OLID:OL33199887M,OLID:OL54934875M,OLID:OL55876139M,OLID:OL48700932M,OLID:OL48705482M,OLID:OL46197972M,OLID:OL45153788M,OLID:OL59245183M,OLID:OL57727922M,OLID:OL53223020M,OLID:OL47456756M,OLID:OL47456757M,OLID:OL31855187M,OLID:OL34187660M,OLID:OL32425140M,OLID:OL39942704M,OLID:OL38798906M,OLID:OL51045166M,OLID:OL34535189M,OLID:OL39426163M,OLID:OL48175066M,OLID:OL7925573M,OLID:OL22407813M,OLID:OL7925574M,OLID:OL25899407M,OLID:OL23109505M,OLID:OL43308887M,OLID:OL7432842M,OLID:OL13635512M,OLID:OL40427346M,OLID:OL37679812M,OLID:OL47018135M,OLID:OL34729057M&jscmd=details&format=json",
+          "rawFile": "data/enrichment_261020/pages/raw/ol-editions-840-240d47589903e523.json",
+          "sha256": "4b7b3bdbc9f3f6675416aa3cb888a81e7f987ff61a76b61f5e4e45e21fba1c17",
+          "editionKey": "/books/OL45153788M"
+        }
+      }
+    },
+    {
+      "id": "q0889",
+      "title": "Eleanor: A 200-Mile Walk in Search of England's Lost Queen",
+      "reason": "Edition identity mismatch or insufficient author/title evidence.",
+      "rejectedEdition": {
+        "pages": 336,
+        "id": "ISBN:1035076942",
+        "url": "https://openlibrary.org/books/OL60853642M/Eleanor",
+        "retrieved": "2026-10-20T14:31:23.040Z",
+        "language": "English",
+        "format": "Not stated by source",
+        "year": 2025,
+        "confidence": "moderate",
+        "title": "Eleanor: On the Trail of England's Lost Queen",
+        "authors": "Alice Loxton",
+        "publisher": "Pan Macmillan",
+        "isbn10": [],
+        "isbn13": [
+          "9781035076949"
+        ],
+        "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Source: raw/ol-isbn-980-17079b2e80d2028e.json",
+        "source": {
+          "provider": "Open Library",
+          "api": "https://openlibrary.org/api/books?bibkeys=ISBN:0826476945,ISBN:5557108157,ISBN:1400034620,ISBN:1501168703,ISBN:1570626111,ISBN:0008702861,ISBN:1035076950,ISBN:1035076942,ISBN:1605984124,ISBN:0061233323,ISBN:014310974X,ISBN:1590171330,ISBN:1594485755,ISBN:0593313003,ISBN:1954118112,ISBN:0060936223,ISBN:1519285973,ISBN:143849601X,ISBN:1438496001,ISBN:0349408246,ISBN:0349408262,ISBN:0399176136,ISBN:176099698X,ISBN:0399591893,ISBN:1859849296,ISBN:1455523003,ISBN:0062457713,ISBN:1368119301,ISBN:014313342X,ISBN:0743211235,ISBN:0894864025,ISBN:0063209799,ISBN:0241143810,ISBN:0147509793,ISBN:0767902521&jscmd=details&format=json",
+          "rawFile": "data/enrichment_261020/pages/raw/ol-isbn-980-17079b2e80d2028e.json",
+          "sha256": "d3cc2d0006b2850fd37ee4a889af9753feb607f090d6b4051693dfb66595ac47",
+          "editionKey": "/books/OL60853642M"
+        }
+      }
+    },
+    {
+      "id": "q0906",
+      "title": "Listening to Prestige",
+      "reason": "Strict title/subtitle, format, page-count or edition metadata audit rejected this candidate.",
+      "rejectedEdition": {
+        "pages": 314,
+        "id": "ASIN:1519285973",
+        "url": "https://www.amazon.com/dp/1519285973",
+        "retrieved": "2026-10-20T14:46:56.963Z",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2015,
+        "confidence": "high",
+        "title": "Listening to Prestige: Vol. 1 1949-1953",
+        "authors": "by Tad Richards (Author) Format: Paperback",
+        "isbn10": [
+          "1519285973"
+        ],
+        "isbn13": [
+          "9781519285973"
+        ],
+        "notes": "Page count and edition metadata observed on the same matching product page. Other editions can have different pagination.",
+        "source": {
+          "provider": "www.amazon.com",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0906-1519285973-www.amazon.com-83751d73f12b706a.html.gz",
+          "sha256": "e6d095eec5698fbf1d8ef986224c94488f7361947172a160ccae77a53d1339eb"
+        }
+      }
+    },
+    {
+      "id": "g0099",
+      "title": "One of a Kind",
+      "reason": "Implausible page count needs specific verification.",
+      "rejectedEdition": {
+        "pages": 8,
+        "id": "ISBN:074347659X",
+        "url": "https://openlibrary.org/books/OL7951004M/One_of_a_Kind",
+        "retrieved": "2026-10-20T14:31:32.839Z",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2006,
+        "confidence": "moderate",
+        "title": "One of a Kind: The Rise and Fall of Stuey \"The Kid\" Ungar, The World's Greatest Poker Player",
+        "authors": "Nolan Dalla; Peter Alson",
+        "publisher": "Atria",
+        "isbn10": [
+          "074347659X"
+        ],
+        "isbn13": [
+          "9780743476591"
+        ],
+        "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Source: raw/ol-isbn-1155-bff8b8b3aff1ef1e.json",
+        "source": {
+          "provider": "Open Library",
+          "api": "https://openlibrary.org/api/books?bibkeys=ISBN:0307743748,ISBN:152475921X,ISBN:0671636030,ISBN:046503294X,ISBN:0061148458,ISBN:0316349240,ISBN:0387960783,ISBN:0767929977,ISBN:1594204209,ISBN:9280637231,ISBN:0061121088,ISBN:1101974303,ISBN:068482535X,ISBN:1101947209,ISBN:0140432175,ISBN:0345466411,ISBN:0006375219,ISBN:0618134328,ISBN:1410483487,ISBN:0345808975,ISBN:074347659X,ISBN:0674976290,ISBN:1438297076,ISBN:0812968360,ISBN:052594124X,ISBN:1565125096,ISBN:052556036X,ISBN:0394714393,ISBN:0689121350,ISBN:1620401959,ISBN:1455581097,ISBN:0393310698,ISBN:1501130781,ISBN:150113079X,ISBN:1731703007&jscmd=details&format=json",
+          "rawFile": "data/enrichment_261020/pages/raw/ol-isbn-1155-bff8b8b3aff1ef1e.json",
+          "sha256": "8b06bea23ad31278d288c8258bf59213729f0abb24b2f673ea9705ba5493c095",
+          "editionKey": "/books/OL7951004M"
+        }
+      }
+    },
+    {
+      "id": "g0314",
+      "title": "The Billionaire Shell Game",
+      "reason": "A full investigative book is listed as16 pages by the retailer. This suspicious count needs independent publisher/library verification.",
+      "rejectedEdition": {
+        "pages": 16,
+        "id": "ASIN:0385479271",
+        "url": "https://www.amazon.com.au/dp/0385479271",
+        "retrieved": "2026-10-20T14:48:34.378Z",
+        "language": "English",
+        "format": "Hardcover",
+        "year": 1998,
+        "confidence": "high",
+        "title": "Billionaire Shell Game",
+        "authors": "by L. J. Davis (Author) Format: Hardcover",
+        "isbn10": [
+          "0385479271"
+        ],
+        "isbn13": [
+          "9780385479271"
+        ],
+        "notes": "Page count, title, author, language, format and edition year observed on the same product page. Product ID verified from the landing page when available; original request URL retained in provenance.",
+        "source": {
+          "provider": "www.amazon.com.au",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-g0314-0385479271-www.amazon.com.au-c589bff851f0232d.html.gz",
+          "sha256": "802d8f26ecf02011f45f366c45e39d2a997d987736724225983f4d3043c4d9e3",
+          "requestedUrl": "https://www.amazon.com.au/dp/0385479271"
+        }
+      }
+    },
+    {
+      "id": "g0328",
+      "title": "The Harder You Work, The Luckier You Get",
+      "reason": "Audio edition: catalog number_of_pages is not a print page count.",
+      "rejectedEdition": {
+        "pages": 1,
+        "id": "OL32803506M",
+        "url": "https://openlibrary.org/books/OL32803506M/The_Harder_You_Work_the_Luckier_You_Get",
+        "retrieved": "2026-10-20T14:37:36.732Z",
+        "language": "Not stated by source",
+        "format": "audio cd",
+        "year": 2019,
+        "confidence": "moderate",
+        "title": "The Harder You Work, the Luckier You Get: An Entrepreneur's Memoir",
+        "authors": "Joe Ricketts",
+        "publisher": "Simon & Schuster Audio and Blackstone Publishing; Simon & Schuster Audio",
+        "isbn10": [
+          "1797103334"
+        ],
+        "isbn13": [
+          "9781797103334"
+        ],
+        "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Language is not recorded. Source: raw/ol-editions-1155-5ea28820ae603ab9.json",
+        "source": {
+          "provider": "Open Library",
+          "api": "https://openlibrary.org/api/books?bibkeys=OLID:OL33999405M,OLID:OL26122813M,OLID:OL44255811M,OLID:OL21336636M,OLID:OL3506304M,OLID:OL36603064M,OLID:OL26137186M,OLID:OL27521866M,OLID:OL29239481M,OLID:OL29193860M,OLID:OL24254051M,OLID:OL23391919M,OLID:OL24115083M,OLID:OL24022288M,OLID:OL24001618M,OLID:OL60314559M,OLID:OL32803506M,OLID:OL27698232M,OLID:OL37475988M,OLID:OL26335198M,OLID:OL8858213M,OLID:OL24850970M,OLID:OL12443060M,OLID:OL9539523M,OLID:OL24321382M,OLID:OL43043976M,OLID:OL29037498M,OLID:OL53248057M,OLID:OL26335531M,OLID:OL53236123M,OLID:OL29822980M,OLID:OL35848023M,OLID:OL27691638M,OLID:OL29819871M,OLID:OL28733355M&jscmd=details&format=json",
+          "rawFile": "data/enrichment_261020/pages/raw/ol-editions-1155-5ea28820ae603ab9.json",
+          "sha256": "38e4f90c7dd841111d7fbb363f58e9d330df0514ceaec92c84e592d535ac756e",
+          "editionKey": "/books/OL32803506M"
+        }
+      }
+    },
+    {
+      "id": "g0802",
+      "title": "The Rise of the Rest",
+      "reason": "Audio edition: catalog number_of_pages is not a print page count.",
+      "rejectedEdition": {
+        "pages": 1,
+        "id": "OL40223223M",
+        "url": "https://openlibrary.org/books/OL40223223M/The_Rise_of_the_Rest",
+        "retrieved": "2026-10-20T14:37:37.833Z",
+        "language": "Not stated by source",
+        "format": "audio cd",
+        "year": 2022,
+        "confidence": "moderate",
+        "title": "The Rise of the Rest: How Entrepreneurs in Surprising Places are Building the New American Dream",
+        "authors": "Steve Case",
+        "publisher": "Simon & Schuster Audio and Blackstone Publishing",
+        "isbn10": [
+          "1797146289"
+        ],
+        "isbn13": [
+          "9781797146287"
+        ],
+        "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Language is not recorded. Source: raw/ol-editions-1190-5e32950f4c0fd203.json",
+        "source": {
+          "provider": "Open Library",
+          "api": "https://openlibrary.org/api/books?bibkeys=OLID:OL28297124M,OLID:OL57767535M,OLID:OL8692914M,OLID:OL21187867M,OLID:OL21019599M,OLID:OL24297438M,OLID:OL25979377M,OLID:OL24538039M,OLID:OL24383287M,OLID:OL27857022M,OLID:OL24050296M,OLID:OL40223223M,OLID:OL38060323M,OLID:OL38014906M,OLID:OL48686418M,OLID:OL23380405M,OLID:OL62674266M,OLID:OL51158350M,OLID:OL46951146M,OLID:OL46920346M,OLID:OL45620908M,OLID:OL680930M,OLID:OL16170553M,OLID:OL118282M,OLID:OL17947142M,OLID:OL29822173M,OLID:OL29937695M,OLID:OL27909467M,OLID:OL28557586M,OLID:OL45621567M,OLID:OL28522750M,OLID:OL33442411M,OLID:OL25651604M,OLID:OL26759301M,OLID:OL45026013M&jscmd=details&format=json",
+          "rawFile": "data/enrichment_261020/pages/raw/ol-editions-1190-5e32950f4c0fd203.json",
+          "sha256": "bfc4c82a38141f6b43c17047a74b9bf67833aed1f7dd3f9d7f32a0223a263741",
+          "editionKey": "/books/OL40223223M"
+        }
+      }
+    },
+    {
+      "id": "g0990",
+      "title": "The Last Lion: Defender of the Realm, 1940–1965",
+      "reason": "Audio edition: catalog number_of_pages is not a print page count.",
+      "rejectedEdition": {
+        "pages": 3,
+        "id": "OL11044692M",
+        "url": "https://openlibrary.org/books/OL11044692M/The_Last_Lion",
+        "retrieved": "2026-10-20T14:37:40.152Z",
+        "language": "English",
+        "format": "CD-ROM",
+        "year": 2008,
+        "confidence": "moderate",
+        "title": "The Last Lion: Winston Spencer Churchill, Visions of Glory, 1874-1932",
+        "authors": "William Manchester",
+        "publisher": "Blackstone Audiobooks, Inc.",
+        "isbn10": [
+          "0786189592"
+        ],
+        "isbn13": [
+          "9780786189595"
+        ],
+        "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Source: raw/ol-editions-1260-4bfed9b92aba15ca.json",
+        "source": {
+          "provider": "Open Library",
+          "api": "https://openlibrary.org/api/books?bibkeys=OLID:OL18661603M,OLID:OL9564923M,OLID:OL38266557M,OLID:OL9386678M,OLID:OL38348180M,OLID:OL27372394M,OLID:OL29367469M,OLID:OL28726375M,OLID:OL29431371M,OLID:OL25216568M,OLID:OL4930145M,OLID:OL48149172M,OLID:OL33996568M,OLID:OL38511265M,OLID:OL25920967M,OLID:OL7522548M,OLID:OL9452939M,OLID:OL11044692M,OLID:OL10686789M,OLID:OL12580497M,OLID:OL12580454M,OLID:OL21632769M,OLID:OL21383263M,OLID:OL46939682M,OLID:OL58669588M,OLID:OL9534988M,OLID:OL39554969M,OLID:OL59041291M,OLID:OL24853859M,OLID:OL10321423M,OLID:OL52045124M,OLID:OL24842579M,OLID:OL27953981M,OLID:OL27471512M,OLID:OL37070223M&jscmd=details&format=json",
+          "rawFile": "data/enrichment_261020/pages/raw/ol-editions-1260-4bfed9b92aba15ca.json",
+          "sha256": "463fa21043d32045d575de6ab6227b4f869bf1bac4ddab5b912d1dda68f58028",
+          "editionKey": "/books/OL11044692M"
+        }
+      }
+    },
+    {
+      "id": "g0990",
+      "title": "The Last Lion: Defender of the Realm, 1940–1965",
+      "reason": "Edition identity mismatch or insufficient author/title evidence.",
+      "rejectedEdition": {
+        "pages": 821,
+        "id": "OL10686789M",
+        "url": "https://openlibrary.org/books/OL10686789M/Last_Lion",
+        "retrieved": "2026-10-20T14:37:40.152Z",
+        "language": "Not stated by source",
+        "format": "Paperback",
+        "year": 1989,
+        "confidence": "moderate",
+        "title": "Last Lion",
+        "authors": "William Manchester",
+        "publisher": "Abacus",
+        "isbn10": [
+          "0349104956"
+        ],
+        "isbn13": [
+          "9780349104959"
+        ],
+        "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Language is not recorded. Source: raw/ol-editions-1260-4bfed9b92aba15ca.json",
+        "source": {
+          "provider": "Open Library",
+          "api": "https://openlibrary.org/api/books?bibkeys=OLID:OL18661603M,OLID:OL9564923M,OLID:OL38266557M,OLID:OL9386678M,OLID:OL38348180M,OLID:OL27372394M,OLID:OL29367469M,OLID:OL28726375M,OLID:OL29431371M,OLID:OL25216568M,OLID:OL4930145M,OLID:OL48149172M,OLID:OL33996568M,OLID:OL38511265M,OLID:OL25920967M,OLID:OL7522548M,OLID:OL9452939M,OLID:OL11044692M,OLID:OL10686789M,OLID:OL12580497M,OLID:OL12580454M,OLID:OL21632769M,OLID:OL21383263M,OLID:OL46939682M,OLID:OL58669588M,OLID:OL9534988M,OLID:OL39554969M,OLID:OL59041291M,OLID:OL24853859M,OLID:OL10321423M,OLID:OL52045124M,OLID:OL24842579M,OLID:OL27953981M,OLID:OL27471512M,OLID:OL37070223M&jscmd=details&format=json",
+          "rawFile": "data/enrichment_261020/pages/raw/ol-editions-1260-4bfed9b92aba15ca.json",
+          "sha256": "463fa21043d32045d575de6ab6227b4f869bf1bac4ddab5b912d1dda68f58028",
+          "editionKey": "/books/OL10686789M"
+        }
+      }
+    },
+    {
+      "id": "g1073",
+      "title": "The American Story",
+      "reason": "Audio edition: catalog number_of_pages is not a print page count.",
+      "rejectedEdition": {
+        "pages": 1,
+        "id": "OL32039920M",
+        "url": "https://openlibrary.org/books/OL32039920M/The_American_Story",
+        "retrieved": "2026-10-20T14:37:43.190Z",
+        "language": "Not stated by source",
+        "format": "audio cd",
+        "year": 2019,
+        "confidence": "moderate",
+        "title": "The American Story: Conversations with Master Historians",
+        "authors": "David M. Rubenstein",
+        "publisher": "Simon & Schuster Audio; Simon & Schuster Audio and Blackstone Publishing",
+        "isbn10": [
+          "1797105973"
+        ],
+        "isbn13": [
+          "9781797105970"
+        ],
+        "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Language is not recorded. Source: raw/ol-editions-1330-e7e5a6c1f49c1af8.json",
+        "source": {
+          "provider": "Open Library",
+          "api": "https://openlibrary.org/api/books?bibkeys=OLID:OL3945234M,OLID:OL26326582M,OLID:OL24412591M,OLID:OL27126747M,OLID:OL24892940M,OLID:OL26055062M,OLID:OL24914264M,OLID:OL32122318M,OLID:OL8411158M,OLID:OL9700767M,OLID:OL38893377M,OLID:OL56470582M,OLID:OL56608459M,OLID:OL52041553M,OLID:OL26456535M,OLID:OL29775230M,OLID:OL27340815M,OLID:OL27326746M,OLID:OL28707289M,OLID:OL28646652M,OLID:OL10488933M,OLID:OL10553396M,OLID:OL29137420M,OLID:OL15375618M,OLID:OL20898348M,OLID:OL17149570M,OLID:OL32039920M,OLID:OL34934391M,OLID:OL17640462M,OLID:OL19949287M,OLID:OL47856387M,OLID:OL6134350M,OLID:OL28653699M,OLID:OL34968522M,OLID:OL30166823M&jscmd=details&format=json",
+          "rawFile": "data/enrichment_261020/pages/raw/ol-editions-1330-e7e5a6c1f49c1af8.json",
+          "sha256": "0548d5d87446ca3665862bdc9920a9b1a7dfb6f52ac060d704be32d817f7dd9c",
+          "editionKey": "/books/OL32039920M"
+        }
+      }
+    },
+    {
+      "id": "g1112",
+      "title": "The Life of Greece",
+      "reason": "Edition identity mismatch or insufficient author/title evidence.",
+      "rejectedEdition": {
+        "pages": 828,
+        "id": "ISBN:1684115558",
+        "url": "https://openlibrary.org/books/OL27370376M/The_Life_of_Greece",
+        "retrieved": "2026-10-20T14:31:56.064Z",
+        "language": "Not stated by source",
+        "format": "paperback",
+        "year": 2018,
+        "confidence": "moderate",
+        "title": "The Life of Greece: The Story of Civilization, Volume II",
+        "authors": "Will Durant",
+        "publisher": "WWW.Snowballpublishing.com",
+        "isbn10": [
+          "1684115558"
+        ],
+        "isbn13": [
+          "9781684115556"
+        ],
+        "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Language is not recorded. Source: raw/ol-isbn-1400-055a2060b7563f9a.json",
+        "source": {
+          "provider": "Open Library",
+          "api": "https://openlibrary.org/api/books?bibkeys=ISBN:0691166285,ISBN:0465027660,ISBN:0140513485,ISBN:0192852639,ISBN:0140440070,ISBN:0195069552,ISBN:1340823721,ISBN:0385260326,ISBN:1590178580,ISBN:0525431837,ISBN:0743283430,ISBN:1846147581,ISBN:0415315271,ISBN:094500110X,ISBN:0316409146,ISBN:0262526859,ISBN:0907579248,ISBN:067121988X,ISBN:1567310214,ISBN:0671012150,ISBN:0207942269,ISBN:1684115558,ISBN:1567310125,ISBN:0671616005,ISBN:1953953239,ISBN:0812979680,ISBN:0857197681,ISBN:1250217768,ISBN:081297381X,ISBN:1422184234,ISBN:0470481544,ISBN:1736110527,ISBN:1137525754,ISBN:0231143737,ISBN:0804138613&jscmd=details&format=json",
+          "rawFile": "data/enrichment_261020/pages/raw/ol-isbn-1400-055a2060b7563f9a.json",
+          "sha256": "c6f73fbb4dc9876459a2f17a46c5df72968cc427fb793fa109a49ce0a1c57b14",
+          "editionKey": "/books/OL27370376M"
+        }
+      }
+    },
+    {
+      "id": "g1220",
+      "title": "The Robber Barons: The Great American Capitalists, 1861–1901",
+      "reason": "Edition identity mismatch or insufficient author/title evidence.",
+      "rejectedEdition": {
+        "pages": 492,
+        "id": "ISBN:0156767902",
+        "url": "https://openlibrary.org/books/OL7366181M/The_Robber_Barons",
+        "retrieved": "2026-10-20T14:32:00.018Z",
+        "language": "English",
+        "format": "Not stated by source",
+        "year": 1962,
+        "confidence": "moderate",
+        "title": "The Robber Barons",
+        "authors": "Josephson, Matthew",
+        "publisher": "Harcourt",
+        "isbn10": [
+          "0156767902"
+        ],
+        "isbn13": [
+          "9780156767903"
+        ],
+        "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Source: raw/ol-isbn-1435-8d5962b89b214cf6.json",
+        "source": {
+          "provider": "Open Library",
+          "api": "https://openlibrary.org/api/books?bibkeys=ISBN:0465043577,ISBN:0671662384,ISBN:0966446100,ISBN:0471119792,ISBN:0812979907,ISBN:0140238565,ISBN:0307339866,ISBN:0812979273,ISBN:0060564148,ISBN:0029030129,ISBN:1118010418,ISBN:0452281806,ISBN:0140278796,ISBN:1118843282,ISBN:0812968719,ISBN:0990619915,ISBN:0307886026,ISBN:0471660469,ISBN:0142180718,ISBN:0691186731,ISBN:1118122771,ISBN:1610396995,ISBN:073521798X,ISBN:0156767902,ISBN:1118339290,ISBN:0691142165,ISBN:1394168446,ISBN:1610398270,ISBN:0358299284,ISBN:0141975652,ISBN:1684221854,ISBN:1934137170,ISBN:0387947914,ISBN:0393310728,ISBN:039334777X&jscmd=details&format=json",
+          "rawFile": "data/enrichment_261020/pages/raw/ol-isbn-1435-8d5962b89b214cf6.json",
+          "sha256": "dbaa11cfa5346b71fe923aa08900150d4ffa49f49a92806749451555b6546fc1",
+          "editionKey": "/books/OL7366181M"
+        }
+      }
+    },
+    {
+      "id": "g1231",
+      "title": "Warren Buffett: Inside the Ultimate Money Mind",
+      "reason": "Edition identity mismatch or insufficient author/title evidence.",
+      "rejectedEdition": {
+        "pages": 320,
+        "id": "OL28110352M",
+        "url": "https://openlibrary.org/books/OL28110352M/The_Warren_Buffett_Way",
+        "retrieved": "2026-10-20T14:37:46.508Z",
+        "language": "Not stated by source",
+        "format": "hardcover",
+        "year": 2013,
+        "confidence": "moderate",
+        "title": "The Warren Buffett Way",
+        "authors": "Robert G. Hagstrom",
+        "publisher": "Wiley",
+        "isbn10": [
+          "1118503252"
+        ],
+        "isbn13": [
+          "9781118503256"
+        ],
+        "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Language is not recorded. Source: raw/ol-editions-1435-80efe1148db3a965.json",
+        "source": {
+          "provider": "Open Library",
+          "api": "https://openlibrary.org/api/books?bibkeys=OLID:OL35889577M,OLID:OL50626071M,OLID:OL39897948M,OLID:OL28110352M,OLID:OL50642300M,OLID:OL39876600M,OLID:OL36299819M,OLID:OL25434499M,OLID:OL47140239M,OLID:OL35366530M,OLID:OL27510543M,OLID:OL27725010M,OLID:OL38511150M,OLID:OL23192368M,OLID:OL26774315M,OLID:OL34293712M,OLID:OL29653356M,OLID:OL27305987M,OLID:OL27215764M,OLID:OL25947406M,OLID:OL27204018M,OLID:OL35664421M,OLID:OL34536862M,OLID:OL22379733M,OLID:OL27834414M,OLID:OL30281901M,OLID:OL29068985M,OLID:OL23780610M,OLID:OL29523700M,OLID:OL28655295M,OLID:OL36757328M,OLID:OL39273911M,OLID:OL40853714M,OLID:OL55034416M,OLID:OL28898910M&jscmd=details&format=json",
+          "rawFile": "data/enrichment_261020/pages/raw/ol-editions-1435-80efe1148db3a965.json",
+          "sha256": "3cbbc456a44a113813b864a465c27f6f28070f07451efa12f64279e89fdeaa19",
+          "editionKey": "/books/OL28110352M"
+        }
+      }
+    },
+    {
+      "id": "g0446",
+      "title": "More From Less",
+      "reason": "Audio edition: catalog number_of_pages is not a print page count.",
+      "rejectedEdition": {
+        "pages": 1,
+        "id": "OL33881323M",
+        "url": "https://openlibrary.org/books/OL33881323M/More_from_Less",
+        "retrieved": "2026-10-20T14:37:58.086Z",
+        "language": "Not stated by source",
+        "format": "audio cd",
+        "year": 2019,
+        "confidence": "moderate",
+        "title": "More from Less: How We Learned to Create More Without Using More",
+        "authors": "Andrew McAfee",
+        "publisher": "Simon & Schuster Audio; Simon & Schuster Audio and Blackstone Publishing",
+        "isbn10": [
+          "1508294984"
+        ],
+        "isbn13": [
+          "9781508294986"
+        ],
+        "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Language is not recorded. Source: raw/ol-editions-1750-421361932d23fc25.json",
+        "source": {
+          "provider": "Open Library",
+          "api": "https://openlibrary.org/api/books?bibkeys=OLID:OL9249983M,OLID:OL27555977M,OLID:OL35975371M,OLID:OL34953140M,OLID:OL33881323M,OLID:OL34102714M,OLID:OL28729587M,OLID:OL7933054M,OLID:OL35890597M,OLID:OL7933129M,OLID:OL8958785M,OLID:OL20928967M,OLID:OL24318081M,OLID:OL24475604M,OLID:OL27115808M,OLID:OL62108051M,OLID:OL4730848M,OLID:OL4287152M,OLID:OL7348443M,OLID:OL9303095M,OLID:OL9305221M,OLID:OL7350569M,OLID:OL8858211M,OLID:OL8858173M,OLID:OL24247468M,OLID:OL30623894M,OLID:OL49662807M,OLID:OL31913494M,OLID:OL32405347M,OLID:OL35866440M,OLID:OL32167408M,OLID:OL31965654M,OLID:OL61865871M,OLID:OL24425175M,OLID:OL16612800M&jscmd=details&format=json",
+          "rawFile": "data/enrichment_261020/pages/raw/ol-editions-1750-421361932d23fc25.json",
+          "sha256": "addd9c5406f5d0933f4c1c8e2307d53751e13e7c6a976c8320b18494b7e3babf",
+          "editionKey": "/books/OL33881323M"
+        }
+      }
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "q0209",
+      "title": "SAS: Rogue Heroes",
+      "author": "Ben Macintyre",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0254",
+      "title": "Life: An Unauthorised Biography",
+      "author": "Richard Fortey",
+      "reason": "Edition identity mismatch or insufficient author/title evidence.",
+      "attempts": 4
+    },
+    {
+      "id": "q0313",
+      "title": "Agent Zo",
+      "author": "Clare Mulley",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 7
+    },
+    {
+      "id": "q0392",
+      "title": "38 Londres Street",
+      "author": "Philippe Sands",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 9
+    },
+    {
+      "id": "q0379",
+      "title": "The Border",
+      "author": "Erika Fatland",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0380",
+      "title": "The Cauldron",
+      "author": "Simon Sebag Montefiore",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0377",
+      "title": "The Big Con",
+      "author": "Mariana Mazzucato; Rosie Collington",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0515",
+      "title": "How to See Like a Machine",
+      "author": "Trevor Paglen",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 5
+    },
+    {
+      "id": "q0551",
+      "title": "Standardizing Minority Languages",
+      "author": "Pia Lane; James Costa; Haley De Korne (eds.)",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 5
+    },
+    {
+      "id": "q0510",
+      "title": "A Rome of One's Own",
+      "author": "Emma Southon",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0506",
+      "title": "The Rigor of Angels",
+      "author": "William Egginton",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0574",
+      "title": "We Don't Know Ourselves",
+      "author": "Fintan O'Toole",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0529",
+      "title": "The Invention of Power",
+      "author": "Bruce Bueno de Mesquita",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0527",
+      "title": "The Game (Ken Dryden)",
+      "author": "Ken Dryden",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0594",
+      "title": "The Birds That Audubon Missed",
+      "author": "Kenn Kaufman",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0607",
+      "title": "What an Owl Knows",
+      "author": "Jennifer Ackerman",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 10
+    },
+    {
+      "id": "q0618",
+      "title": "Rough Sleepers",
+      "author": "Tracy Kidder",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 11
+    },
+    {
+      "id": "q0614",
+      "title": "No One's Coming",
+      "author": "Kevin Hazzard",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 5
+    },
+    {
+      "id": "q0617",
+      "title": "Ravensbrück (probable)",
+      "author": "Sarah Helm (probable)",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0573",
+      "title": "Ultralearning",
+      "author": "Scott H. Young",
+      "reason": "Audio edition: catalog number_of_pages is not a print page count.",
+      "attempts": 7
+    },
+    {
+      "id": "q0636",
+      "title": "Stolen Revolution",
+      "author": "Yeganeh Torbati; Bozorgmehr Sharafedin",
+      "reason": "No title-and-author-matching Open Library work from batch search.",
+      "attempts": 3
+    },
+    {
+      "id": "q0643",
+      "title": "The Good Virus",
+      "author": "Tom Ireland",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0627",
+      "title": "The Gulag Archipelago, Volume 1",
+      "author": "Aleksandr Solzhenitsyn",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 7
+    },
+    {
+      "id": "q0652",
+      "title": "Belly Woman",
+      "author": "Benjamin Oren Black",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 9
+    },
+    {
+      "id": "q0695",
+      "title": "Victory in the Kitchen",
+      "author": "Annie Gray",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 6
+    },
+    {
+      "id": "q0688",
+      "title": "The Indifferent Stars Above",
+      "author": "Daniel James Brown",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 10
+    },
+    {
+      "id": "q0674",
+      "title": "End of Days",
+      "author": "Chris Jennings",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 5
+    },
+    {
+      "id": "q0628",
+      "title": "A Billion Years",
+      "author": "Mike Rinder",
+      "reason": "Audio edition: catalog number_of_pages is not a print page count.",
+      "attempts": 8
+    },
+    {
+      "id": "q0700",
+      "title": "Careless People",
+      "author": "Sarah Wynn-Williams",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 9
+    },
+    {
+      "id": "q0686",
+      "title": "Symposium",
+      "author": "Plato (probable)",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0717",
+      "title": "There Is No Place for Us",
+      "author": "Brian Goldstone",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 6
+    },
+    {
+      "id": "q0702",
+      "title": "Cosmographia / A Description of Africa",
+      "author": "Leo Africanus",
+      "reason": "No title-and-author-matching Open Library work from batch search.",
+      "attempts": 3
+    },
+    {
+      "id": "q0725",
+      "title": "Generations",
+      "author": "Jean M. Twenge",
+      "reason": "Audio edition: catalog number_of_pages is not a print page count.",
+      "attempts": 10
+    },
+    {
+      "id": "q0730",
+      "title": "The Beast (likely migrant-train account)",
+      "author": "Óscar Martínez (probable)",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0733",
+      "title": "The Vanishing Family",
+      "author": "Robert Kolker",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0668",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 13
+    },
+    {
+      "id": "q0729",
+      "title": "Starry Messenger",
+      "author": "Neil deGrasse Tyson",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 9
+    },
+    {
+      "id": "q0742",
+      "title": "Buckley: The Life and the Revolution That Changed America",
+      "author": "Sam Tanenhaus",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 5
+    },
+    {
+      "id": "q0749",
+      "title": "The Country of the Blind",
+      "author": "Andrew Leland",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 10
+    },
+    {
+      "id": "q0743",
+      "title": "Crisis in the Red Zone",
+      "author": "Richard Preston",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 7
+    },
+    {
+      "id": "q0760",
+      "title": "Henry James biography (version unresolved)",
+      "author": "Leon Edel",
+      "reason": "No title-and-author-matching Open Library work from batch search.",
+      "attempts": 3
+    },
+    {
+      "id": "q0764",
+      "title": "Out There",
+      "author": "Peter Rowe",
+      "reason": "No title-and-author-matching Open Library work from batch search.",
+      "attempts": 3
+    },
+    {
+      "id": "q0770",
+      "title": "Black Pill",
+      "author": "Elle Reeve",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 10
+    },
+    {
+      "id": "q0794",
+      "title": "Personal Narrative of a Pilgrimage to Al-Madinah and Meccah",
+      "author": "Richard F. Burton",
+      "reason": "Edition identity mismatch or insufficient author/title evidence.",
+      "attempts": 6
+    },
+    {
+      "id": "q0805",
+      "title": "Educated",
+      "author": "Tara Westover",
+      "reason": "Audio edition: catalog number_of_pages is not a print page count.",
+      "attempts": 4
+    },
+    {
+      "id": "q0806",
+      "title": "Fatherland",
+      "author": "Burkhard Bilger",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 9
+    },
+    {
+      "id": "q0815",
+      "title": "Uproar!",
+      "author": "Alice Loxton",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 5
+    },
+    {
+      "id": "q0818",
+      "title": "Dinner with the President",
+      "author": "Alex Prud'homme",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0840",
+      "title": "Killer in the Kremlin",
+      "author": "John Sweeney",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 8
+    },
+    {
+      "id": "q0864",
+      "title": "Kulang na Silya",
+      "author": "Ricky Lee",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0885",
+      "title": "The Season",
+      "author": "Helen Garner",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0877",
+      "title": "My Last Sigh",
+      "author": "Luis Buñuel; with Jean-Claude Carrière",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 5
+    },
+    {
+      "id": "q0893",
+      "title": "Of Time and Turtles",
+      "author": "Sy Montgomery",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 9
+    },
+    {
+      "id": "q0889",
+      "title": "Eleanor: A 200-Mile Walk in Search of England's Lost Queen",
+      "author": "Alice Loxton",
+      "reason": "Edition identity mismatch or insufficient author/title evidence.",
+      "attempts": 7
+    },
+    {
+      "id": "q0897",
+      "title": "The Mindful Carnivore",
+      "author": "Tovar Cerulli",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 5
+    },
+    {
+      "id": "q0901",
+      "title": "Beautiful Country",
+      "author": "Qian Julie Wang",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 9
+    },
+    {
+      "id": "q0906",
+      "title": "Listening to Prestige",
+      "author": "Tad Richards",
+      "reason": "Strict title/subtitle, format, page-count or edition metadata audit rejected this candidate.",
+      "attempts": 4
+    },
+    {
+      "id": "q0904",
+      "title": "Jazz with a Beat",
+      "author": "Tad Richards",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 9
+    },
+    {
+      "id": "q0910",
+      "title": "A Fortunate Life",
+      "author": "Albert B. Facey",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0908",
+      "title": "The Book of Murder",
+      "author": "Matt Murphy",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0918",
+      "title": "The Game (Neil Strauss)",
+      "author": "Neil Strauss",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0932",
+      "title": "What's Our Problem?",
+      "author": "Tim Urban",
+      "reason": "Edition has no page count.",
+      "attempts": 4
+    },
+    {
+      "id": "q0927",
+      "title": "Fear and Loathing on the Campaign Trail '72",
+      "author": "Hunter S. Thompson",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 9
+    },
+    {
+      "id": "q0944",
+      "title": "The Barefoot Bandit",
+      "author": "Bob Friel",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 7
+    },
+    {
+      "id": "q0948",
+      "title": "Une histoire populaire du baseball",
+      "author": "Gaétan Alibert",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0950",
+      "title": "Chaos",
+      "author": "Tom O’Neill; Dan Piepenbring",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0952",
+      "title": "It Was Never About You",
+      "author": "J. C. Maurer",
+      "reason": "No title-and-author-matching Open Library work from batch search.",
+      "attempts": 3
+    },
+    {
+      "id": "q0954",
+      "title": "I've Been Fired!",
+      "author": "Molly Hardy",
+      "reason": "No title-and-author-matching Open Library work from batch search.",
+      "attempts": 3
+    },
+    {
+      "id": "q0961",
+      "title": "Famesick",
+      "author": "Lena Dunham",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 5
+    },
+    {
+      "id": "q0964",
+      "title": "A Piece of Cake (probable)",
+      "author": "Cupcake Brown (probable)",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "q0965",
+      "title": "How to Kid for Adults",
+      "author": "Adam Davis",
+      "reason": "No title-and-author-matching Open Library work from batch search.",
+      "attempts": 3
+    },
+    {
+      "id": "q0966",
+      "title": "Actress of a Certain Age",
+      "author": "Jeff Hiller",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 5
+    },
+    {
+      "id": "eghbal",
+      "title": "Working in Public",
+      "author": "Nadia Eghbal",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "nuts",
+      "title": "Nuts and Bolts",
+      "author": "Roma Agrawal",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 9
+    },
+    {
+      "id": "efficiency",
+      "title": "The Origins of Efficiency",
+      "author": "Brian Potter",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "uncertainty",
+      "title": "The Art of Uncertainty",
+      "author": "David Spiegelhalter",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "g0030",
+      "title": "99% True",
+      "author": "Paul McGowan",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "g0068",
+      "title": "Howard Hughes (originally Empire)",
+      "author": "Donald L. Barlett; James B. Steele",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "g0074",
+      "title": "In Pursuit of the Common Good",
+      "author": "Paul Newman; A. E. Hotchner",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 6
+    },
+    {
+      "id": "g0076",
+      "title": "Jim Grant UNICEF Visionary",
+      "author": "Richard Jolly (editor); Peter Adamson and other contributors",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "g0099",
+      "title": "One of a Kind",
+      "author": "Nolan Dalla; Peter Alson",
+      "reason": "Implausible page count needs specific verification.",
+      "attempts": 2
+    },
+    {
+      "id": "g0131",
+      "title": "The Minefield Girl",
+      "author": "Sofia Ek",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "g0238",
+      "title": "Dream Big",
+      "author": "Cristiane Correa",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 6
+    },
+    {
+      "id": "g0267",
+      "title": "Limping on Water",
+      "author": "Phil Beuth",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 5
+    },
+    {
+      "id": "g0289",
+      "title": "Roger Ailes",
+      "author": "Zev Chafets",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 6
+    },
+    {
+      "id": "g0314",
+      "title": "The Billionaire Shell Game",
+      "author": "L. J. Davis",
+      "reason": "Suspicious16-page retail count held for independent verification.",
+      "attempts": 3
+    },
+    {
+      "id": "g0328",
+      "title": "The Harder You Work, The Luckier You Get",
+      "author": "Joe Ricketts",
+      "reason": "Audio edition: catalog number_of_pages is not a print page count.",
+      "attempts": 6
+    },
+    {
+      "id": "g1278",
+      "title": "L’immaterialità del materiale: Claudio Silvestrin",
+      "author": "Franco Bertoni; Germano Celant (eds.)",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "g0796",
+      "title": "Principles for Dealing With The Changing World Order",
+      "author": "Ray Dalio",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "g0802",
+      "title": "The Rise of the Rest",
+      "author": "Steve Case",
+      "reason": "Audio edition: catalog number_of_pages is not a print page count.",
+      "attempts": 6
+    },
+    {
+      "id": "g0804",
+      "title": "The Wealth of Nations",
+      "author": "Adam Smith",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 10
+    },
+    {
+      "id": "g0818",
+      "title": "Adaptive Markets",
+      "author": "Andrew W. Lo",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "g0854",
+      "title": "One Billion Hungry",
+      "author": "Gordon Conway, with Katy Wilson",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "g0862",
+      "title": "Race Against The Machine",
+      "author": "Erik Brynjolfsson; Andrew McAfee",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 5
+    },
+    {
+      "id": "g0889",
+      "title": "The Money Game",
+      "author": "George J. W. Goodman (Adam Smith)",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "g0986",
+      "title": "The Rise And Fall Of American Growth",
+      "author": "Robert J. Gordon",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 5
+    },
+    {
+      "id": "g0990",
+      "title": "The Last Lion: Defender of the Realm, 1940–1965",
+      "author": "William Manchester; Paul Reid",
+      "reason": "Edition identity mismatch or insufficient author/title evidence.",
+      "attempts": 8
+    },
+    {
+      "id": "g1028",
+      "title": "Democracy In America",
+      "author": "Alexis de Tocqueville",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 10
+    },
+    {
+      "id": "g1061",
+      "title": "No Applause - Just Throw Money",
+      "author": "Trav S.D.",
+      "reason": "No complete verified catalog edition; public product metadata was blocked by CAPTCHA/Server Busy.",
+      "attempts": 4
+    },
+    {
+      "id": "g1073",
+      "title": "The American Story",
+      "author": "David M. Rubenstein",
+      "reason": "Audio edition: catalog number_of_pages is not a print page count.",
+      "attempts": 4
+    },
+    {
+      "id": "g1092",
+      "title": "The House of Rothschild, Volume I: Money’s Prophets, 1798–1848",
+      "author": "Niall Ferguson",
+      "reason": "No title-and-author-matching Open Library work from batch search.",
+      "attempts": 2
+    },
+    {
+      "id": "g1095",
+      "title": "The Journey of Crazy Horse",
+      "author": "Joseph M. Marshall III",
+      "reason": "No title-and-author-matching Open Library work from batch search.",
+      "attempts": 2
+    },
+    {
+      "id": "g1103",
+      "title": "The Oxford History of Britain, Volume I: Roman and Anglo-Saxon Britain",
+      "author": "Peter Salway; John Blair",
+      "reason": "No title-and-author-matching Open Library work from batch search.",
+      "attempts": 2
+    },
+    {
+      "id": "g1104",
+      "title": "The Persian Expedition (Anabasis)",
+      "author": "Xenophon",
+      "reason": "No title-and-author-matching Open Library work from batch search.",
+      "attempts": 2
+    },
+    {
+      "id": "g1105",
+      "title": "The Quest for El Cid",
+      "author": "Richard Fletcher",
+      "reason": "Edition identity mismatch or insufficient author/title evidence.",
+      "attempts": 7
+    },
+    {
+      "id": "g1005b",
+      "title": "Rousseau and Revolution",
+      "author": "Will Durant; Ariel Durant",
+      "reason": "Edition has no page count.",
+      "attempts": 5
+    },
+    {
+      "id": "g1005d",
+      "title": "The Age of Reason Begins",
+      "author": "Will Durant; Ariel Durant",
+      "reason": "Edition has no page count.",
+      "attempts": 4
+    },
+    {
+      "id": "g1005e",
+      "title": "The Age of Voltaire",
+      "author": "Will Durant; Ariel Durant",
+      "reason": "Edition has no page count.",
+      "attempts": 4
+    },
+    {
+      "id": "g1112b",
+      "title": "Caesar and Christ",
+      "author": "Will Durant",
+      "reason": "Edition has no page count.",
+      "attempts": 8
+    },
+    {
+      "id": "g1112c",
+      "title": "Our Oriental Heritage",
+      "author": "Will Durant",
+      "reason": "Edition has no page count.",
+      "attempts": 6
+    },
+    {
+      "id": "g1112e",
+      "title": "The Reformation",
+      "author": "Will Durant",
+      "reason": "No title-and-author-matching Open Library work from batch search.",
+      "attempts": 2
+    },
+    {
+      "id": "g1182",
+      "title": "F.I.A.S.C.O.: Blood in the Water on Wall Street",
+      "author": "Frank Partnoy",
+      "reason": "No title-and-author-matching Open Library work from batch search.",
+      "attempts": 2
+    },
+    {
+      "id": "g1220",
+      "title": "The Robber Barons: The Great American Capitalists, 1861–1901",
+      "author": "Matthew Josephson",
+      "reason": "Edition identity mismatch or insufficient author/title evidence.",
+      "attempts": 2
+    },
+    {
+      "id": "g1231",
+      "title": "Warren Buffett: Inside the Ultimate Money Mind",
+      "author": "Robert G. Hagstrom",
+      "reason": "Edition identity mismatch or insufficient author/title evidence.",
+      "attempts": 6
+    },
+    {
+      "id": "g1246",
+      "title": "A Mathematician's Lament",
+      "author": "Paul Lockhart",
+      "reason": "Edition has no page count.",
+      "attempts": 3
+    },
+    {
+      "id": "g0950",
+      "title": "Montaigne's Essays",
+      "author": "Michel de Montaigne",
+      "reason": "No title-and-author-matching Open Library work from batch search.",
+      "attempts": 2
+    },
+    {
+      "id": "g0742",
+      "title": "On Power",
+      "author": "Robert A. Caro",
+      "reason": "Edition has no page count.",
+      "attempts": 3
+    },
+    {
+      "id": "g0603",
+      "title": "Idea Makers",
+      "author": "Stephen Wolfram",
+      "reason": "Edition has no page count.",
+      "attempts": 4
+    },
+    {
+      "id": "g0605",
+      "title": "Information: A Very Short Introduction",
+      "author": "Luciano Floridi",
+      "reason": "Edition has no page count.",
+      "attempts": 4
+    },
+    {
+      "id": "g0617",
+      "title": "Nature via Nurture (also The Agile Gene)",
+      "author": "Matt Ridley",
+      "reason": "No title-and-author-matching Open Library work from batch search.",
+      "attempts": 2
+    },
+    {
+      "id": "g0641",
+      "title": "Sustainable Energy Without the Hot Air",
+      "author": "David J. C. MacKay",
+      "reason": "No title-and-author-matching Open Library work from batch search.",
+      "attempts": 2
+    },
+    {
+      "id": "g0642",
+      "title": "Sustainable Materials With Both Eyes Open",
+      "author": "Julian M. Allwood; Jonathan M. Cullen",
+      "reason": "No title-and-author-matching Open Library work from batch search.",
+      "attempts": 2
+    },
+    {
+      "id": "g0647",
+      "title": "The Bias That Divides Us",
+      "author": "Keith Stanovich",
+      "reason": "No title-and-author-matching Open Library work from batch search.",
+      "attempts": 2
+    },
+    {
+      "id": "g0514",
+      "title": "In-N-Out Burger",
+      "author": "Stacy Perman",
+      "reason": "Edition has no page count.",
+      "attempts": 7
+    },
+    {
+      "id": "g0399",
+      "title": "Superintelligence",
+      "author": "Nick Bostrom",
+      "reason": "Edition identity mismatch or insufficient author/title evidence.",
+      "attempts": 8
+    },
+    {
+      "id": "g0406",
+      "title": "The Master Switch",
+      "author": "Tim Wu",
+      "reason": "No title-and-author-matching Open Library work from batch search.",
+      "attempts": 2
+    }
+  ]
+}

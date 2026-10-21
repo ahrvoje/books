@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {results,byIndex,dir} from './assess-math.mjs';
+import './math-rows-a.mjs';
+import './math-rows-b.mjs';
+assert.equal(results.length,130);
+assert.equal(new Set(results.map(a=>a.id)).size,130);
+for(const b of byIndex.values())assert(results.some(a=>a.id===b.id),b.title);
+fs.writeFileSync(dir+'math-assessments.json',JSON.stringify(results,null,2)+'\n');
+console.log(JSON.stringify({decisions:results.length,scored:results.filter(a=>a.raw).length}));

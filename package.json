@@ -1,0 +1,14 @@
+{
+  "name": "book-selection",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node site/build.mjs",
+    "test": "node --test site/model.test.mjs",
+    "preview": "node site/serve.mjs",
+    "test:browser": "node site/browser.test.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

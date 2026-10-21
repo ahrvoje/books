@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+const dir='data/books_guru_261021/',read=f=>fs.readFileSync(f,'utf8');
+const sha=s=>crypto.createHash('sha256').update(s).digest('hex');
+const target=dir+'baseline.json';
+if(fs.existsSync(target))throw new Error('Baseline already exists; do not reset it.');
+const compiled=JSON.parse(read('data/catalog.json')).compiled;
+const files=Object.fromEntries(['AGENTS.md','RECOMMENDED_BOOKS.md','VETOED_BOOKS.md','EXCLUDED_BOOKS.md','SOURCES.md','data/catalog.json','site/enrichment.json',compiled].map(f=>[f,{sha256:sha(read(f)),...(/\.md$/.test(f)?{text:read(f)}:{})}]));
+const history=Object.fromEntries(fs.readdirSync('analysis').filter(f=>f.endsWith('.md')).map(f=>['analysis/'+f,sha(read('analysis/'+f))]));
+fs.writeFileSync(target,JSON.stringify({createdAt:new Date().toISOString(),compiled,files,history},null,2)+'\n');
+console.log({compiled,historicalAnalyses:Object.keys(history).length});

@@ -1,0 +1,87 @@
+{
+  "url": "https://openlibrary.org/works/OL16794984W/editions.json?limit=1000",
+  "retrievedAt": "2026-10-18T23:40:21.485Z",
+  "status": 200,
+  "data": {
+    "links": {
+      "self": "/works/OL16794984W/editions.json?limit=1000",
+      "work": "/works/OL16794984W"
+    },
+    "size": 1,
+    "entries": [
+      {
+        "publishers": [
+          "Digital Frontier Press"
+        ],
+        "classifications": {},
+        "source_records": [
+          "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run04.mrc:351031061:2393",
+          "amazon:0984725113",
+          "marc:marc_loc_2016/BooksAll.2016.part40.utf8:157725398:1596",
+          "ia:raceagainstmachi0000bryn",
+          "promise:bwb_daily_pallets_2020-07-23",
+          "marc:marc_columbia/Columbia-extract-20221130-024.mrc:15882322:2674",
+          "marc:harvard_bibliographic_metadata/ab.bib.13.20150123.full.mrc:867347942:1696",
+          "marc:harvard_bibliographic_metadata/20220215_035.bib.mrc:142225606:2402"
+        ],
+        "title": "Race Against The Machine",
+        "lccn": [
+          "2012545336"
+        ],
+        "identifiers": {
+          "amazon": [
+            ""
+          ]
+        },
+        "covers": [
+          7238678
+        ],
+        "local_id": [
+          "urn:sfpl:31223106285407",
+          "urn:bwbsku:O6-CFR-842"
+        ],
+        "isbn_10": [
+          "0984725113"
+        ],
+        "lc_classifications": [
+          "HC79.I55 B79 2011",
+          "HC79.I55 B79 2012"
+        ],
+        "publish_date": "2011",
+        "key": "/books/OL25415580M",
+        "works": [
+          {
+            "key": "/works/OL16794984W"
+          }
+        ],
+        "type": {
+          "key": "/type/edition"
+        },
+        "ocaid": "raceagainstmachi0000bryn",
+        "oclc_numbers": [
+          "774919852"
+        ],
+        "description": {
+          "type": "/type/text",
+          "value": "Examines how information technologies are affecting jobs, skills, wages, and the economy. As one of the most important forces in the economy today, digital technologies are transforming the world of work and are key drivers of productivity and growth."
+        },
+        "number_of_pages": 92,
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "latest_revision": 11,
+        "revision": 11,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2012-09-29T10:03:19.971947"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2026-04-17T17:46:15.511819"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1337 @@
+[
+  {
+    "index": 20,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "low",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "The prior snapshot exposes only a review-label count. Total ratings are unverified; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0307742482",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 416,
+        "id": "ISBN:9780307742483",
+        "url": "https://www.penguinrandomhouse.com/books/208562/killers-of-the-flower-moon-movie-tie-in-edition-by-david-grann/9780307742483/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2018,
+        "confidence": "high"
+      },
+      "domains": {
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Guardianship and compromised policing enable crimes.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/208562/killers-of-the-flower-moon-movie-tie-in-edition-by-david-grann/9780307742483/"
+          ]
+        },
+        "ECO": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Oil-derived rents create incentives for dispossession.",
+          "refs": [
+            "analysis/analysis_readlately_261017_2316.md#h006"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Public investigative history, not fiction or professional instruction.",
+    "reason": "No serious veto established. Oil rents, guardianship and captured law enforcement explain a system of crimes beyond individual personalities.",
+    "reassessment": "Reread h006 and the current deduction row. The publisher confirms the investigative and institutional scope. Retain all ten attainments, no veto, T11=-10, T12=0, 2017 and approximate 1930 endpoint. Prior Reviews count is not a verified total-rating label; O15 remains zero through the unknown-count fallback. Replace the catalogued 400-page extent with publisher-confirmed 416 pages for the same paperback ISBN.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/208562/killers-of-the-flower-moon-movie-tie-in-edition-by-david-grann/9780307742483/",
+      "analysis/analysis_readlately_261017_2316.md#h006",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0565"
+    ],
+    "raw": [
+      17,
+      12.75,
+      9,
+      7.764705882352941,
+      7,
+      8,
+      3,
+      4,
+      3,
+      2
+    ],
+    "notes": [
+      "E17: records and renewed investigation support the crimes and institutional failures; private reconstruction remains limited.",
+      "S12.75: mineral wealth, guardianship and policing are causally joined.",
+      "U9: rent capture and compromised oversight transfer beyond this case.",
+      "M7.7647: incentives and enforcement failures explain more than a murder chronology.",
+      "D7: extended crime reconstruction lowers mechanism density.",
+      "R8: predation through institutions remains a durable problem.",
+      "F3: resources and institutions fit, but racial persecution dominates.",
+      "A4: substantial documentary investigation supports authority.",
+      "N3: the successive investigations form a clear structure.",
+      "P2: the prior assessment of controlled reporting remains supported."
+    ],
+    "year": 2017,
+    "yearNote": "Original 2017 retained from prior verified record; 2018 is the paperback edition.",
+    "periodEnd": 1930,
+    "periodNote": "Approximate end of the principal Osage murder investigations; later reflections are not the central period.",
+    "themeNote": "T11=-10: American racial persecution is central. T12=0: institutional power explains crime but is not a general politics or power treatise."
+  },
+  {
+    "index": 21,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "Johnstown Flood McCullough 0671207148 amazon.com",
+          "auditFile": "data/sources_261020/math/reddit-research-061.json",
+          "result": "No verified total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Johnstown%20Flood%20David%20McCullough%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 304,
+        "id": "ISBN:9780671207144",
+        "url": "https://www.simonandschuster.com/books/Johnstown-Flood/David-McCullough/9780671207144",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 1987,
+        "confidence": "high"
+      },
+      "domains": {
+        "ENG": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "The dam and its physical vulnerability explain the flood.",
+          "refs": [
+            "https://www.simonandschuster.com/books/Johnstown-Flood/David-McCullough/9780671207144"
+          ]
+        },
+        "QLT": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Maintenance and ignored warnings are central failures.",
+          "refs": [
+            "https://www.simonandschuster.com/books/Johnstown-Flood/David-McCullough/9780671207144"
+          ]
+        },
+        "INS": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Ownership arrangements separate decision power from downstream exposure.",
+          "refs": [
+            "https://www.simonandschuster.com/books/Johnstown-Flood/David-McCullough/9780671207144"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "ownership-maintenance-and-downstream-risk",
+            "domains": [
+              "ENG",
+              "QLT",
+              "INS"
+            ],
+            "roles": {
+              "ENG": "Dam condition and failure",
+              "QLT": "Maintenance and warning response",
+              "INS": "Resort ownership and responsibility"
+            },
+            "statement": "Owners’ maintenance choices and failure to act on warnings leave a physical vulnerability that exposes people downstream.",
+            "scope": "South Fork Dam and the 1889 flood.",
+            "strength": 3,
+            "confidence": "moderate",
+            "refs": [
+              "https://www.simonandschuster.com/books/Johnstown-Flood/David-McCullough/9780671207144"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "General narrative history of an engineering disaster and its social setting, not dam-design instruction.",
+    "reason": "No veto established. Maintenance choices, ignored warnings and unequal responsibility supply transferable content.",
+    "evidence": [
+      "https://www.simonandschuster.com/books/Johnstown-Flood/David-McCullough/9780671207144",
+      "https://openlibrary.org/books/OL5716109M/The_Johnstown_flood"
+    ],
+    "raw": [
+      16,
+      11,
+      10,
+      8,
+      8,
+      9,
+      5,
+      4,
+      3,
+      2
+    ],
+    "notes": [
+      "E16: documentary reconstruction supports the sequence; scene-level accuracy was not independently audited.",
+      "S11: dam condition, ownership and warning response interact.",
+      "U10: neglected maintenance and weak accountability transfer.",
+      "M8: physical failure is connected to prior decisions rather than treated as pure chance.",
+      "D8: one disaster concentrates the evidence.",
+      "R9: maintenance and responsibility remain durable problems.",
+      "F5: engineering and reliability fit despite the civic-tragedy frame.",
+      "A4: McCullough’s historical research provides strong narrative authority.",
+      "N3: the sample builds toward the failure clearly.",
+      "P2: concrete description preserves the distinction between choices and consequences."
+    ],
+    "year": 1968,
+    "yearNote": "Library first-edition record gives 1968; inspected paperback is 1987.",
+    "periodEnd": 1889,
+    "periodNote": "The May 1889 flood is the central episode.",
+    "themeNote": "T11=-10: American urban disaster and its victims are central. T12=0: engineering responsibility leads rather than political doctrine."
+  },
+  {
+    "index": 22,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "low",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": 2354,
+      "status": "Verified matching archived product response; explicit global ratings label. Title and author checked.",
+      "marketplace": "www.amazon.com",
+      "asin": "014311882X",
+      "url": "https://www.amazon.com/dp/014311882X",
+      "retrievedAt": "2026-10-20T14:43:18.951Z",
+      "evidence": [
+        "data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">2,354 global ratings"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.amazon.com/dp/014311882X",
+          "retrievedAt": "2026-10-20T14:43:18.951Z",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0476-014311882X-www.amazon.com-0af75e00055f4cc8.html.gz",
+          "result": "Matching title, author and explicit global-rating label."
+        }
+      ]
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/014311882X",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Amazon archived product: 2354 global ratings; 2026-10-20T14:43:18.951Z.",
+    "enrichment": {
+      "edition": {
+        "pages": 336,
+        "id": "ISBN:9780143118824",
+        "url": "https://www.penguinrandomhouse.com/books/301154/the-poisoners-handbook-by-deborah-blum/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2011,
+        "confidence": "high"
+      },
+      "domains": {
+        "SCI": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Chemistry supplies the central explanatory methods.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/301154/the-poisoners-handbook-by-deborah-blum/"
+          ]
+        },
+        "QNT": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Measurement distinguishes poisons and evidential claims.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/301154/the-poisoners-handbook-by-deborah-blum/"
+          ]
+        },
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Professional forensic offices replace compromised coroner practices.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/301154/the-poisoners-handbook-by-deborah-blum/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "measurement-reforms-death-investigation",
+            "domains": [
+              "SCI",
+              "QNT",
+              "INS"
+            ],
+            "roles": {
+              "SCI": "Chemical identification",
+              "QNT": "Measured toxicological evidence",
+              "INS": "Professional medical-examiner authority"
+            },
+            "statement": "Repeatable chemical measurement supplies evidence that changes death investigation from patronage judgment to a more accountable institution.",
+            "scope": "Jazz Age New York; not a claim that all forensic methods are now reliable.",
+            "strength": 3,
+            "confidence": "moderate",
+            "refs": [
+              "https://www.penguinrandomhouse.com/books/301154/the-poisoners-handbook-by-deborah-blum/"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Despite the title, this is narrative history of forensic chemistry, not a poison or laboratory manual.",
+    "reason": "No veto established. The adoption of measurement and institutional standards supplies clear transferable content.",
+    "reassessment": "Reread m098 and the current deduction row. Publisher description confirms the chemistry-to-public-institution account, supporting all ten retained attainments and no veto. Retain 2010, approximate 1936, T11=-10 and T12=0. The archived matching Amazon response gives 2,354 explicit global ratings, superseding the ambiguous older Reviews label without changing O15.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/301154/the-poisoners-handbook-by-deborah-blum/",
+      "analysis/analysis_mustreads_261017_2010.md#m098",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0476"
+    ],
+    "raw": [
+      17,
+      12.75,
+      10,
+      8.470588235294118,
+      8,
+      8,
+      4,
+      4,
+      3,
+      2
+    ],
+    "notes": [
+      "E17: documented cases ground the transition to forensic evidence.",
+      "S12.75: chemistry, measurement and public institutions interact.",
+      "U10: replacing status with reproducible evidence transfers.",
+      "M8.4706: laboratory tests explain how ambiguous deaths became testable cases.",
+      "D8: case-centered chapters serve a coherent scientific history.",
+      "R8: evidential standards remain useful beyond the period.",
+      "F4: scientific organization fits, while crime and urban history reduce direct fit.",
+      "A4: Blum’s scientific reporting supports accessible interpretation.",
+      "N3: recurring investigators unify separate poison cases.",
+      "P2: technical distinctions are explained without becoming a procedure manual."
+    ],
+    "year": 2010,
+    "yearNote": "Original 2010 retained from prior record; paperback is 2011.",
+    "periodEnd": 1936,
+    "periodNote": "Approximate end of the principal Norris-era forensic institution narrative.",
+    "themeNote": "T11=-10: New York urban crime and public-health history are central. T12=0: forensic science leads; politics is explanatory context."
+  },
+  {
+    "index": 23,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": -10,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "The Poison Squad Deborah Blum amazon.com",
+          "auditFile": "data/sources_261020/math/reddit-research-058.json",
+          "result": "Film product found; its ratings rejected as the wrong medium. No verified book aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Poison%20Squad%20%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 352,
+        "id": "ISBN:9780143111122",
+        "url": "https://www.penguinrandomhouse.com/books/312067/the-poison-squad-by-deborah-blum/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2019,
+        "confidence": "high"
+      },
+      "domains": {
+        "SCI": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Chemical testing establishes adulteration and exposure.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/312067/the-poison-squad-by-deborah-blum/"
+          ]
+        },
+        "QLT": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Food safety and standards are sustained subjects.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/312067/the-poison-squad-by-deborah-blum/"
+          ]
+        },
+        "PRD": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Manufacturing practices and cheap substitutes create the problem.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/312067/the-poison-squad-by-deborah-blum/"
+          ]
+        },
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Regulatory authority and industry resistance determine adoption.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/312067/the-poison-squad-by-deborah-blum/"
+          ]
+        },
+        "POL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "The federal reform struggle organizes the narrative.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/312067/the-poison-squad-by-deborah-blum/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "food-testing-and-regulatory-resistance",
+            "domains": [
+              "PRD",
+              "SCI",
+              "QLT",
+              "INS"
+            ],
+            "roles": {
+              "PRD": "Incentives for cheap food adulteration",
+              "SCI": "Chemical exposure tests",
+              "QLT": "Safety standards",
+              "INS": "Industry influence over enforcement"
+            },
+            "statement": "Testing exposes risks created by production incentives, but standards require institutional power to overcome resistance from affected producers.",
+            "scope": "Wiley’s food-regulation campaign.",
+            "strength": 3,
+            "confidence": "moderate",
+            "refs": [
+              "https://www.penguinrandomhouse.com/books/312067/the-poison-squad-by-deborah-blum/"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "author": "Deborah Blum",
+    "eligibility": "Narrative history of food chemistry and regulation, not a laboratory manual or a current campaigning handbook.",
+    "reason": "No serious veto established at moderate confidence. The book explains a historical reform campaign; an activist subject alone does not make the book primarily activism. Hero-centered framing warrants restraint.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/312067/the-poison-squad-by-deborah-blum/",
+      "https://www.pbs.org/wgbh/americanexperience/films/poison-squad/"
+    ],
+    "raw": [
+      16,
+      13,
+      11,
+      9,
+      7,
+      8,
+      5,
+      4,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E16: historical reporting grounds the struggle, though the heroic frame can simplify opposition.",
+      "S13: manufacturing incentives, chemistry and regulatory authority interact.",
+      "U11: testing, vested interests and standards enforcement transfer.",
+      "M9: adulteration incentives and resistance to testing explain regulatory delay.",
+      "D7: a long reform campaign includes personality and political detail.",
+      "R8: measurement and regulatory capture remain durable issues.",
+      "F5: chemistry and industrial quality fit, with policy receiving substantial attention.",
+      "A4: Blum has established science-reporting expertise.",
+      "N3: Wiley’s sustained campaign gives the chronology a clear line.",
+      "P1.5: moral contrast can exceed the precision of a neutral institutional account."
+    ],
+    "year": 2018,
+    "yearNote": "Publisher identifies the September 2018 ebook; 2019 is paperback.",
+    "periodEnd": 1912,
+    "periodNote": "Wiley’s resignation closes the principal federal campaign; PBS author interview corroborates that date, while later legacy is secondary.",
+    "themeNote": "T11=-10: American food-safety and public-health history dominate. T12=-10: the sustained struggle for regulatory policy is central alongside chemistry."
+  },
+  {
+    "index": 24,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": 1010,
+      "status": "Verified matching archived product response; explicit global ratings label. Title and author checked.",
+      "marketplace": "www.amazon.com.au",
+      "asin": "0307351793",
+      "url": "https://www.amazon.com.au/dp/0307351793",
+      "retrievedAt": "2026-10-20T14:39:19.518Z",
+      "evidence": [
+        "data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">1,010 global ratings"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.amazon.com.au/dp/0307351793",
+          "retrievedAt": "2026-10-20T14:39:19.518Z",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0039-0307351793-www.amazon.com.au-2c1caa9733374bce.html.gz",
+          "result": "Matching title, author and explicit global-rating label."
+        }
+      ]
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0307351793",
+    "purchaseFormat": "Paperback edition locator supplied by the assessment; see cited edition evidence.",
+    "reader": "Amazon archived product: 1010 global ratings; 2026-10-20T14:39:19.518Z.",
+    "enrichment": {
+      "edition": {
+        "pages": 336,
+        "id": "ISBN:9780307351791",
+        "url": "https://www.penguinrandomhouse.com/books/73464/the-alchemy-of-air-by-thomas-hager-author-of-the-demon-under-the-microscope/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2009,
+        "confidence": "high"
+      },
+      "domains": {
+        "SCI": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Nitrogen-fixation chemistry is central.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/73464/the-alchemy-of-air-by-thomas-hager-author-of-the-demon-under-the-microscope/"
+          ]
+        },
+        "ENG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Making synthesis work industrially is a central problem.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/73464/the-alchemy-of-air-by-thomas-hager-author-of-the-demon-under-the-microscope/"
+          ]
+        },
+        "PRD": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Large-volume fertilizer and chemical production changes supply.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/73464/the-alchemy-of-air-by-thomas-hager-author-of-the-demon-under-the-microscope/"
+          ]
+        },
+        "SCL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Laboratory-to-factory scale is an explicit central transition.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/73464/the-alchemy-of-air-by-thomas-hager-author-of-the-demon-under-the-microscope/"
+          ]
+        },
+        "MIL": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Explosive feedstocks connect the process to war capacity.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/73464/the-alchemy-of-air-by-thomas-hager-author-of-the-demon-under-the-microscope/"
+          ]
+        },
+        "INN": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Discovery and commercial realization are the main historical arc.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/73464/the-alchemy-of-air-by-thomas-hager-author-of-the-demon-under-the-microscope/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "nitrogen-synthesis-to-strategic-supply",
+            "domains": [
+              "SCI",
+              "ENG",
+              "SCL",
+              "PRD",
+              "MIL"
+            ],
+            "roles": {
+              "SCI": "Nitrogen-fixation reaction",
+              "ENG": "Industrial process realization",
+              "SCL": "Factory-scale operation",
+              "PRD": "Fertilizer and chemical output",
+              "MIL": "Explosive-material supply"
+            },
+            "statement": "Engineering and scaling turn a laboratory reaction into sustained chemical output, making the same process important to agriculture and military supply.",
+            "scope": "Haber–Bosch development and its early industrial consequences; no claim that it alone explains war.",
+            "strength": 4,
+            "confidence": "moderate",
+            "refs": [
+              "https://www.penguinrandomhouse.com/books/73464/the-alchemy-of-air-by-thomas-hager-author-of-the-demon-under-the-microscope/"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "A general scientific and industrial history, not a chemistry or reactor-design textbook.",
+    "reason": "No serious veto established. Laboratory synthesis and industrial scaling connect to food production and military supply; broad historical consequences require causal restraint.",
+    "reassessment": "Reread g0645, p036 and the current deduction row. New publisher scope supports the unusually strong integration judgment but does not remove monocausal-history cautions. Retain every attainment, no veto, both zero themes, 2008 and 1940. Archived 1,010 global ratings verify O15=0 with a newer observation of the same product.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/73464/the-alchemy-of-air-by-thomas-hager-author-of-the-demon-under-the-microscope/",
+      "analysis/analysis_glaspsci_261019_0144.md#g0645",
+      "analysis/analysis_pastedlists_261018_0118.md#p036",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0039"
+    ],
+    "raw": [
+      17,
+      17,
+      13,
+      9.882352941176471,
+      9,
+      8,
+      7,
+      4,
+      3,
+      2
+    ],
+    "notes": [
+      "E17: scientific and industrial evidence is substantial; sweeping war and population claims require care.",
+      "S17: laboratory chemistry, engineering, production scale and strategic supply form one connected account.",
+      "U13: turning a discovery into dependable volume production transfers strongly.",
+      "M9.8824: process and scale constraints explain consequences beyond inventor biography.",
+      "D9: technical and biographical material serves the same industrial transformation.",
+      "R8: scale-up lessons persist despite period-specific technology.",
+      "F7: chemistry, engineering and production directly fit.",
+      "A4: Hager’s sustained science history supports authority.",
+      "N3: linked careers organize the transition from discovery to industry.",
+      "P2: the earlier precision judgment remains supported, with macrohistorical reservations retained."
+    ],
+    "year": 2008,
+    "yearNote": "Publisher dates the ebook to September 2008; paperback is 2009.",
+    "periodEnd": 1940,
+    "periodNote": "The central Haber–Bosch industrial and biographical arc closes around Bosch’s death in 1940; later consequences are context.",
+    "themeNote": "T11=0: the book’s central object is an industrial process, not an environmental campaign or national civic history. T12=0: military and political uses follow the technology."
+  },
+  {
+    "index": 25,
+    "status": "recommended",
+    "confidence": "low",
+    "yearConfidence": "moderate",
+    "periodConfidence": "moderate",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "Five Past Midnight in Bhopal Lapierre Moro amazon.com",
+          "auditFile": "data/sources_261020/math/reddit-research-057.json",
+          "result": "No matching verifiable Amazon aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Five%20Past%20Midnight%20in%20Bhopal%20%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 432,
+        "id": "ISBN:9780446530880",
+        "url": "https://www.hachettebookgroup.com/titles/dominique-lapierre/five-past-midnight-in-bhopal/9780446530880/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Hardcover",
+        "year": 2002,
+        "confidence": "high"
+      },
+      "domains": {
+        "ENG": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Chemical-plant hazards contribute to the disaster explanation.",
+          "refs": [
+            "https://www.hachettebookgroup.com/titles/dominique-lapierre/five-past-midnight-in-bhopal/9780446530880/"
+          ]
+        },
+        "PRD": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Pesticide manufacturing establishes the industrial setting and incentives.",
+          "refs": [
+            "https://www.hachettebookgroup.com/titles/dominique-lapierre/five-past-midnight-in-bhopal/9780446530880/"
+          ]
+        },
+        "QLT": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Unheeded warning and safety failures supply causal content.",
+          "refs": [
+            "https://www.hachettebookgroup.com/titles/dominique-lapierre/five-past-midnight-in-bhopal/9780446530880/"
+          ]
+        },
+        "INS": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Corporate and local responsibility shape exposure and response.",
+          "refs": [
+            "https://www.hachettebookgroup.com/titles/dominique-lapierre/five-past-midnight-in-bhopal/9780446530880/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "author": "Dominique Lapierre; Javier Moro",
+    "eligibility": "A narrative reconstruction of an industrial disaster and its victims for the public, not safety training.",
+    "reason": "No serious veto is established by the inspected evidence. The human-centered reconstruction contains industrial risk and responsibility lessons; causal detail and humanitarian framing limit confidence.",
+    "evidence": [
+      "https://www.hachettebookgroup.com/titles/dominique-lapierre/five-past-midnight-in-bhopal/9780446530880/",
+      "https://books.google.com/books/about/Il_%C3%A9tait_minuit_cinq_%C3%A0_Bhopal.html?id=uQLXPAAACAAJ",
+      "https://openlibrary.org/books/OL8890406M/Il_Etait_Minuit_Cinq_a_Bhopal"
+    ],
+    "raw": [
+      13,
+      12,
+      10,
+      8,
+      6,
+      8,
+      5,
+      3,
+      3,
+      1
+    ],
+    "notes": [
+      "E13: researched reconstruction supports the event, but private scenes and simple blame narratives remain uncertain.",
+      "S12: chemical production, safety decisions and corporate responsibility interact.",
+      "U10: neglected warnings and distributed responsibility transfer.",
+      "M8: the industrial hazard and failed safeguards provide causal content.",
+      "D6: extensive victim and humanitarian narrative dilutes technical explanation.",
+      "R8: process-safety responsibility is durable.",
+      "F5: production and reliability fit; suffering and disaster aftermath dominate much of the book.",
+      "A3: experienced narrative reporting is useful without specialist process-engineering authority.",
+      "N3: the converging human stories provide a strong chronology.",
+      "P1: emotional contrast can narrow uncertainty and causal nuance."
+    ],
+    "year": 2001,
+    "yearNote": "French original Il était minuit cinq à Bhopal is catalogued by Laffont in 2001; English edition is 2002.",
+    "periodEnd": 1984,
+    "periodNote": "The December 1984 accident is central; its later humanitarian consequences are secondary to that reconstructed event.",
+    "themeNote": "T11=-10: toxic exposure, environmental harm and human suffering are central. T12=0: industrial disaster leads rather than political doctrine."
+  },
+  {
+    "index": 26,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "The prior snapshot exposes only a review-label count. Total ratings are unverified; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0375760989",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 432,
+        "id": "ISBN:9780375760983",
+        "url": "https://www.penguinrandomhouse.com/books/96300/shadow-divers-by-robert-kurson/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2005,
+        "confidence": "high"
+      },
+      "domains": {
+        "ENG": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Diving gear and depth constrain evidence access.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/96300/shadow-divers-by-robert-kurson/"
+          ]
+        },
+        "HEU": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Competing identifications are tested against artifacts and records.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/96300/shadow-divers-by-robert-kurson/"
+          ]
+        },
+        "MIL": {
+          "value": 1,
+          "confidence": "moderate",
+          "rationale": "U-boat operations provide historical context to identification.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/96300/shadow-divers-by-robert-kurson/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "An investigation and adventure narrative, not a technical-diving manual.",
+    "reason": "No serious veto established. Physical constraints, testing and correction of official records supply intellectual payload; adventure and personality remain prominent.",
+    "reassessment": "Reread h048 and the current deduction row. Retain all ten attainments, no veto, both zero themes and original 2004. Correct periodEnd from discovery in 1991 to identification in 1997: publisher explicitly describes the six-year investigation. Replace the inconsistent OL hardcover/416-page record with publisher paperback/432 pages for the same ISBN. Prior Reviews count is ambiguous; O15=0 fallback remains the result.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/96300/shadow-divers-by-robert-kurson/",
+      "https://penguinrandomhousesecondaryeducation.com/book/?isbn=9781415904770",
+      "analysis/analysis_readlately_261017_2316.md#h048",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0321"
+    ],
+    "raw": [
+      16,
+      11.333333333333334,
+      11,
+      7.764705882352941,
+      7,
+      8,
+      5,
+      3,
+      3,
+      2
+    ],
+    "notes": [
+      "E16: physical evidence and revised identification anchor the investigation; scene reconstruction remains limited.",
+      "S11.3333: diving equipment, human limits and historical records interact.",
+      "U11: testing assumptions against material evidence transfers.",
+      "M7.7647: equipment and evidence constraints explain the search more than a formal method.",
+      "D7: relationships and obsession take substantial space.",
+      "R8: error correction and inquiry remain useful.",
+      "F5: technical constraints and evidence fit despite the adventure focus.",
+      "A3: reporting access supports authority without making the author a technical specialist.",
+      "N3: successive hypotheses create an effective investigative structure.",
+      "P2: concrete descriptions retain the earlier strong prose assessment."
+    ],
+    "year": 2004,
+    "yearNote": "Publisher gives first ebook in June 2004; paperback in 2005.",
+    "periodEnd": 1997,
+    "periodNote": "Identification closes six years of investigation after the 1991 discovery; the old endpoint incorrectly used the start.",
+    "themeNote": "T11=0: undersea investigation rather than American civic history. T12=0: wartime identity is the puzzle; modern technical inquiry is central."
+  },
+  {
+    "index": 27,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": 32713,
+      "status": "Verified matching archived product response; explicit global ratings label. Title and author checked.",
+      "marketplace": "www.amazon.com.au",
+      "asin": "0525431993",
+      "url": "https://www.amazon.com.au/dp/0525431993",
+      "retrievedAt": "2026-10-20T14:39:32.912Z",
+      "evidence": [
+        "data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">32,713 global ratings"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.amazon.com.au/dp/0525431993",
+          "retrievedAt": "2026-10-20T14:39:32.912Z",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0035-0525431993-www.amazon.com.au-f4d1926ee9358841.html.gz",
+          "result": "Matching title, author and explicit global-rating label."
+        }
+      ]
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0525431993",
+    "purchaseFormat": "Paperback edition locator supplied by the assessment; see cited edition evidence.",
+    "reader": "Amazon archived product: 32713 global ratings; 2026-10-20T14:39:32.912Z.",
+    "enrichment": {
+      "edition": {
+        "pages": 400,
+        "id": "ISBN:9780525431992",
+        "url": "https://www.penguinrandomhouse.com/books/549478/bad-blood-by-john-carreyrou/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2020,
+        "confidence": "high"
+      },
+      "domains": {
+        "HTC": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Claims about diagnostic technology organize the account.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/549478/bad-blood-by-john-carreyrou/"
+          ]
+        },
+        "QLT": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Unvalidated performance and quality failures are central.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/549478/bad-blood-by-john-carreyrou/"
+          ]
+        },
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Governance and secrecy control information flow.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/549478/bad-blood-by-john-carreyrou/"
+          ]
+        },
+        "FIN": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Funding and investor prestige sustain the enterprise.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/549478/bad-blood-by-john-carreyrou/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "funding-secrecy-and-unverified-technology",
+            "domains": [
+              "HTC",
+              "QLT",
+              "INS",
+              "FIN"
+            ],
+            "roles": {
+              "HTC": "Claimed diagnostic capability",
+              "QLT": "Absent independent validation",
+              "INS": "Secrecy and suppression of objections",
+              "FIN": "Prestige-backed financing"
+            },
+            "statement": "Financing and governance protect technological claims from independent validation, allowing a failing product to persist despite internal contrary evidence.",
+            "scope": "Theranos; not a general claim against private technological investment.",
+            "strength": 4,
+            "confidence": "moderate",
+            "refs": [
+              "https://www.penguinrandomhouse.com/books/549478/bad-blood-by-john-carreyrou/"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Investigative narrative about technological fraud, not medical instruction or a business how-to manual.",
+    "reason": "No veto established. Validation failures, financing and suppressed internal evidence form an unusually transferable failure case.",
+    "reassessment": "Reread g0160, a167 and the current deduction row. Publisher account confirms investigation and validation failures; retain every attainment, no veto, both zero themes, 2018 and 2017. Later trial afterword does not change original year or central episode. Archived 32,713 explicit global ratings replaces 32,706 without changing O15.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/549478/bad-blood-by-john-carreyrou/",
+      "analysis/analysis_glaspbiz_261019_0144.md#g0160",
+      "analysis/analysis_anysubject_261017_2227.md#a167",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0035"
+    ],
+    "raw": [
+      18,
+      15.583333333333334,
+      14,
+      10.588235294117647,
+      8,
+      8,
+      6,
+      4,
+      3,
+      2
+    ],
+    "notes": [
+      "E18: extensive reporting and employee testimony support the exposure; individual motives retain uncertainty.",
+      "S15.5833: technology, financing, governance and secrecy reinforce one another.",
+      "U14: independent validation and incentive-aware diligence transfer strongly.",
+      "M10.5882: the account explains how weak verification survived strong contrary evidence.",
+      "D8: narrative detail mostly serves the unfolding failure.",
+      "R8: validation and institutional incentives outlast the startup.",
+      "F6: high-tech quality and governance fit, though scandal takes space.",
+      "A4: Carreyrou’s original investigation gives direct evidential authority.",
+      "N3: discovery and concealment form a cumulative structure.",
+      "P2: clear distinctions between demonstrated results and claims support precision."
+    ],
+    "year": 2018,
+    "yearNote": "Publisher original ebook May 2018; paperback 2020 and later afterwords do not reset it.",
+    "periodEnd": 2017,
+    "periodNote": "Retain the original investigation and collapse endpoint; trial material in later afterwords is not the central original period.",
+    "themeNote": "T11=0: diagnostic technology fraud rather than disease history. T12=0: finance and power act on the central technology-validation failure."
+  },
+  {
+    "index": 28,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "moderate",
+    "periodConfidence": "low",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "The Lizard King 0446699756 amazon.com",
+          "auditFile": "data/sources_261020/math/reddit-research-062.json",
+          "result": "No matching verified Amazon rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Lizard%20King%20Bryan%20Christy%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 256,
+        "id": "ISBN:9780446699754",
+        "url": "https://www.hachettebookgroup.com/titles/bryan-christy/the-lizard-king/9780446699754/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2009,
+        "confidence": "high"
+      },
+      "domains": {
+        "TRD": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "International legal and illegal reptile trade is central.",
+          "refs": [
+            "https://www.hachettebookgroup.com/titles/bryan-christy/the-lizard-king/9780446699754/"
+          ]
+        },
+        "LOG": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Import-export channels conceal valuable animals among routine shipments.",
+          "refs": [
+            "https://www.thelizardkingbook.com/"
+          ]
+        },
+        "INS": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Investigators and jurisdiction limits shape the trade.",
+          "refs": [
+            "https://www.hachettebookgroup.com/titles/bryan-christy/the-lizard-king/9780446699754/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Investigative narrative of wildlife trafficking for general readers, not an animal-care or enforcement manual.",
+    "reason": "No serious veto established. Smuggling incentives and the interaction of legal trade with enforcement provide payload beyond colorful criminals; conservation concerns do not by themselves establish an activist primary purpose.",
+    "evidence": [
+      "https://www.hachettebookgroup.com/titles/bryan-christy/the-lizard-king/9780446699754/",
+      "https://www.thelizardkingbook.com/",
+      "https://biodiversitygroup.org/wp-content/uploads/2022/06/TBG-Library-20220607.pdf"
+    ],
+    "raw": [
+      15,
+      11,
+      8,
+      8,
+      8,
+      8,
+      3,
+      3,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E15: original investigation supports the trading network; full court-record checking is incomplete.",
+      "S11: collecting demand, international trade and enforcement interact.",
+      "U8: legal fronts and jurisdiction gaps offer transferable lessons.",
+      "M8: incentives and concealment explain trade better than a simple criminal profile.",
+      "D8: the compact narrative stays close to one market.",
+      "R8: illicit-market structure remains durable.",
+      "F3: trade and institutions fit, but wildlife crime dominates.",
+      "A3: Christy’s law background and original reporting support the investigation.",
+      "N3: the pursuit gives a clear organizing line.",
+      "P1.5: colorful characterization sometimes leads the analysis."
+    ],
+    "year": 2008,
+    "yearNote": "Library catalog identifies the 2008 Twelve edition; inspected paperback is 2009.",
+    "periodEnd": 2001,
+    "periodNote": "Approximate close of the principal 1990s enforcement story, including the Wong prosecution. Publisher and author descriptions establish that scope but not the final chapter boundary; revisit against full text.",
+    "themeNote": "T11=-10: wildlife exploitation and conservation are central. T12=0: trade and criminal investigation lead rather than politics or finance."
+  },
+  {
+    "index": 29,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "The prior snapshot exposes only a review-label count. Total ratings are unverified; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "url": "https://www.amazon.com.au/dp/0008331766",
+          "requestedUrl": "https://www.amazon.com.au/dp/0008331766",
+          "retrievedAt": "2026-10-18T18:32:15.214Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "974c2f53df27239d0f2c94344d9b19e48016c0b39ee48d1cb003f859652fdc0c"
+        },
+        {
+          "url": "https://www.amazon.com/dp/0008331766",
+          "requestedUrl": "https://www.amazon.com/dp/0008331766",
+          "retrievedAt": "2026-10-18T18:32:15.406Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "02b838db79c488f30c19919f9ee395ca3108fd91f4a9865319b9c22bda6ff9ed"
+        },
+        {
+          "url": "https://www.amazon.de/dp/0008331766",
+          "requestedUrl": "https://www.amazon.de/dp/0008331766",
+          "retrievedAt": "2026-10-18T18:32:15.521Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "d115a67221a23888cc84d81a08410a42f2a7f7963932d14149094109a97fa73a"
+        },
+        {
+          "url": "https://www.amazon.co.uk/dp/0008331766",
+          "requestedUrl": "https://www.amazon.co.uk/dp/0008331766",
+          "retrievedAt": "2026-10-18T18:32:15.567Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "4028ea08a3c24b51671a249d1dd78f9401afcdba0c64002dc319edc68dc989ea"
+        },
+        {
+          "url": "https://www.amazon.it/dp/0008331766",
+          "requestedUrl": "https://www.amazon.it/dp/0008331766",
+          "retrievedAt": "2026-10-18T18:32:15.631Z",
+          "httpStatus": 200,
+          "title": "No Beast So Fierce: The Champawat Tiger and Her Hunter, the First Tiger Conservationist",
+          "byline": "Edizione Inglese di Dane Huckelbridge (Autore) Formato: Copertina flessibile",
+          "topCount": 609,
+          "globalCount": null,
+          "titleMatch": true,
+          "authorMatch": true,
+          "verified": true,
+          "evidence": [
+            "<span id=\"acrCustomerReviewText\" aria-label=\"609 Recensioni\" class=\"a-size-small\">(609)</span>"
+          ],
+          "sha256": "0d2c2d88a078d0e4513dd82af2ffe45db5d9c7cfc680c4b6f263fa193eae2dd7"
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0008331766",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 304,
+        "id": "ISBN:0008331766",
+        "url": "https://openlibrary.org/books/OL28057098M/No_Beast_So_Fierce",
+        "retrieved": "2026-10-20T14:31:19.099Z",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2020,
+        "confidence": "moderate",
+        "title": "No Beast So Fierce: The Champawat Tiger and Her Hunter, the First Tiger Conservationist",
+        "authors": "Dane Huckelbridge",
+        "publisher": "HarperCollins Publishers Limited",
+        "isbn10": [],
+        "isbn13": [
+          "9780008331764"
+        ],
+        "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Source: raw/ol-isbn-910-fc32b479036c64bd.json Publisher confirms the format for this ISBN: https://www.williamcollinsbooks.co.uk/products/no-beast-so-fierce-the-champawat-tiger-and-her-hunter-the-first-tiger-conservationist-dane-huckelbridge-9780008331764/",
+        "source": {
+          "provider": "Open Library",
+          "api": "https://openlibrary.org/api/books?bibkeys=ISBN:0472065211,ISBN:0375701001,ISBN:0753826615,ISBN:1529342724,ISBN:1804991201,ISBN:052543495X,ISBN:1451654685,ISBN:0465068367,ISBN:0394498240,ISBN:0316492922,ISBN:1611450438,ISBN:0375725601,ISBN:0307277690,ISBN:0399573305,ISBN:1541602579,ISBN:1541606361,ISBN:1501110861,ISBN:0091902053,ISBN:0060905638,ISBN:1582434867,ISBN:031627898X,ISBN:0593230272,ISBN:164782057X,ISBN:0143119982,ISBN:0865475121,ISBN:0712677925,ISBN:0679769560,ISBN:1476702721,ISBN:074324754X,ISBN:1785038664,ISBN:0812978900,ISBN:0966250842,ISBN:0008331766,ISBN:1680516426,ISBN:9353766753&jscmd=details&format=json",
+          "rawFile": "data/enrichment_261020/pages/raw/ol-isbn-910-fc32b479036c64bd.json",
+          "sha256": "18b110faa5ac2f9e485738f064382e5f1928cdd4decf9d006c15a74ec1407655",
+          "editionKey": "/books/OL28057098M",
+          "corroboration": {
+            "url": "https://www.amazon.it/dp/0008331766",
+            "retrieved": "2026-10-18T18:32:15.631Z",
+            "title": "No Beast So Fierce: The Champawat Tiger and Her Hunter, the First Tiger Conservationist",
+            "byline": "Edizione Inglese di Dane Huckelbridge (Autore) Formato: Copertina flessibile"
+          }
+        }
+      },
+      "domains": {},
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Biology/ecology does not map directly to the specific physics-oriented SCI definition; no unsupported domain grades added. Full text remains uninspected."
+      }
+    },
+    "eligibility": "Narrative natural and social history, not fiction or a hunting manual. This is Huckelbridge’s work, not Edward Bunker’s novel of the same title.",
+    "reason": "No serious veto established. Injury, human exposure and institutional context offer some causal content, with substantial reconstruction uncertainty and weak direct domain fit.",
+    "reassessment": "Reread m099 and the current deduction row. Publisher confirms the 1900–1907 tiger narrative and ecological interpretation. Retain all ten attainments, no veto, T11=-10, T12=0, 2019 and 1907. The old 609 Recensioni label does not establish total ratings; use unknown-count fallback, changing O15 from -5 to 0. Confirm the prior 2020 ISBN is paperback; retain its catalogued 304 pages.",
+    "evidence": [
+      "https://www.williamcollinsbooks.co.uk/products/no-beast-so-fierce-the-champawat-tiger-and-her-hunter-the-first-tiger-conservationist-dane-huckelbridge-9780008331764/",
+      "analysis/analysis_mustreads_261017_2010.md#m099",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0858",
+      "https://books.google.com/books/about/No_Beast_So_Fierce.html?id=Mb0DugEACAAJ"
+    ],
+    "raw": [
+      13,
+      9.916666666666666,
+      7,
+      6.352941176470588,
+      7,
+      7,
+      1,
+      3,
+      3,
+      1
+    ],
+    "notes": [
+      "E13: historical and natural-history evidence supports a bounded account; reconstructed behavior limits certainty.",
+      "S9.9167: injury, habitat and human exposure connect within a narrow system.",
+      "U7: contextual explanations of danger offer limited transfer.",
+      "M6.3529: plausible causal chains are less secure than direct experimental evidence.",
+      "D7: pursuit narrative takes space beyond explanatory content.",
+      "R7: predator and human interaction remains of interest but has limited strategic range.",
+      "F1: the central ecological and hunting topic fits poorly.",
+      "A3: researched nonfiction supports moderate authority, not specialist biological expertise.",
+      "N3: the pursuit has a clear narrative line.",
+      "P1: dramatic superlatives and reconstruction reduce precision."
+    ],
+    "year": 2019,
+    "yearNote": "Publisher/library original 2019; paperback 2020 is a reprint.",
+    "periodEnd": 1907,
+    "periodNote": "The main tiger killings and hunt end in 1907; Corbett’s later conservation work is secondary.",
+    "themeNote": "T11=-10: ecological disruption and conservation dominate the broader argument. T12=0: colonial administration is context rather than the main political subject."
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "validatedAt": "2026-10-20T22:58:16.451Z",
+  "rulesSha256": "0d6086ac479d01cd6ddfa19c7909ce89121a88e3bbff68a0503b9c0470b49448",
+  "report": "analysis/analysis_vetogates_261021_0047.md",
+  "reviewed": 355,
+  "restored": 185,
+  "before": {
+    "recommended": 2591,
+    "vetoed": 355,
+    "excluded": 903
+  },
+  "after": {
+    "recommended": 2776,
+    "vetoed": 169,
+    "excluded": 904
+  },
+  "historicalAnalysesPreserved": 64,
+  "unreviewedRecommendationsPreserved": 2591,
+  "unreviewedExclusionsPreserved": 903,
+  "coverage": {
+    "books": 2776,
+    "pages": 2088,
+    "domains": 0,
+    "domainBooks": 1973,
+    "domainValues": 6206,
+    "reviewed": 2192,
+    "mechanisms": 201,
+    "connections": 0
+  },
+  "datasetHash": "9ecfe8392db1420b",
+  "html": {
+    "bytes": 40350681,
+    "sha256": "af2320cb97e787018b366def1e2235c7ca6462770f73e1f470c8e3b261a6e7cd"
+  },
+  "checks": "Review coverage, canonical membership and scores, rule version, evidence references, historical analyses, unaffected records and delivered HTML agreement passed."
+}

@@ -1,0 +1,1015 @@
+# Excluded books
+
+Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.md). One alphabetized entry per work; no scores.
+
+- #AskGaryVee — Gary Vaynerchuk
+- $100M Offers — Alex Hormozi
+- 100 Deadly Skills — Clint Emerson
+- 1000 Ways to Make $1,000 — F.C. Minaker
+- 101 Things I Learned in Engineering School — John Kuprenas; Matthew Frederick
+- 11/22/63 — Stephen King
+- 2666 — Roberto Bolaño
+- 36 Arguments for the Existence of God — Rebecca Newberger Goldstein
+- A Book of Abstract Algebra — Charles C. Pinter
+- A Calendar of Wisdom — Leo Tolstoy
+- A Clash of Kings — George R. R. Martin
+- A Comprehensive Introduction to Differential Geometry — Michael Spivak
+- A Confederacy of Dunces — John Kennedy Toole
+- A Course in Mathematics for Students of Physics, Volume 2 — Paul Bamberg; Shlomo Sternberg
+- A Dance with Dragons — George R. R. Martin
+- A Deepness in the Sky — Vernor Vinge
+- A Desolation Called Peace — Arkady Martine
+- A Feast for Crows — George R. R. Martin
+- A Few Lessons from Sherlock Holmes — Peter Bevelin
+- A Field Guide to the North American Prairie — Stephen R. Jones; Ruth Carol Cushman
+- A Fire Upon the Deep — Vernor Vinge
+- A First Course in Algebraic Topology — Czes Kosniowski
+- A Game of Thrones — George R. R. Martin
+- A Gentle Course in Local Class Field Theory — Pierre Guillot
+- A Gentleman in Moscow — Amor Towles
+- A Guide To Econometrics — Peter E. Kennedy
+- A History of the Theory of Investments — Mark Rubinstein
+- A Little Life — Hanya Yanagihara
+- A Mathematical Gift: The Interplay between Topology, Functions, Geometry, and Algebra — Kenji Ueno; Koji Shiga; Shigeyuki Morita
+- A Memory Called Empire — Arkady Martine
+- A Painter of Our Time — John Berger
+- A Path Through the Jungle — Steve Peters
+- A Pattern Language — Christopher Alexander
+- A Perfect Vacuum — Stanisław Lem
+- A Practical Guide for Policy Analysis — Eugene Bardach; Eric M. Patashnik
+- A Raisin in the Sun — Lorraine Hansberry
+- A Room with a View — E. M. Forster
+- A Royal Road to Algebraic Geometry — Audun Holme
+- A Rulebook for Arguments — Anthony Weston
+- A Separate Peace — John Knowles
+- A Soldier of the Great War — Mark Helprin
+- A Storm of Swords — George R. R. Martin
+- A Thousand Splendid Suns — Khaled Hosseini
+- A Trajectory Description of Quantum Processes — A. S. Sanz
+- A Tree Grows in Brooklyn — Betty Smith
+- A Walk Among the Tombstones — Lawrence Block
+- A Wizard of Earthsea
+- Abel's Theorem in Problems and Solutions — V. B. Alekseev
+- Abhajaner Mahabharat — Mahbub Lilen
+- Abstract Algebra — I. N. Herstein
+- Accelerando
+- ACT for Treating Children — Tamar D. Black
+- Act of Oblivion
+- Adventures of Huckleberry Finn — Mark Twain
+- Advertising Secrets of the Written Word — Joseph Sugarman
+- Affliction — Russell Banks
+- After Dark — Haruki Murakami
+- Agents of Dreamland — Caitlín R. Kiernan
+- AI 2041: Ten Visions for Our Future — Kai-Fu Lee; Chen Qiufan
+- Airborne Electronic Hardware Design Assurance — Randall Fulton; Roy Vandermolen
+- Alcoholics Anonymous — Alcoholics Anonymous World Services
+- Alecto the Ninth — Tamsyn Muir
+- Algebra — Michael Artin
+- Algebra: Chapter 0 — Paolo Aluffi
+- Algebraic Geometry — Robin Hartshorne
+- Algebraic Geometry and Arithmetic Curves — Qing Liu
+- Algebraic Number Theory — J. W. S. Cassels; A. Fröhlich (editors)
+- Algebraic Topology — Allen Hatcher
+- All of Statistics: A Concise Course in Statistical Inference — Larry Wasserman
+- All Quiet on the Western Front — Erich Maria Remarque
+- All That the Rain Promises and More — David Arora
+- All the Light We Cannot See — Anthony Doerr
+- All the Mathematics You Missed: But Need to Know for Graduate School — Thomas A. Garrity
+- Altered Carbon — Richard K. Morgan
+- American Dirt — Jeanine Cummins
+- American Gods — Neil Gaiman
+- An American Marriage — Tayari Jones
+- An Artist of the Floating World — Kazuo Ishiguro
+- An Illustrated Book of Bad Arguments — Ali Almossawi
+- An Introduction to Manifolds — Loring W. Tu
+- An Introduction to Modern Cosmology — A. Liddle
+- An Introduction to Non-Classical Logic — Graham Priest
+- An Introduction to Statistical Learning — Gareth James; Daniela Witten; Trevor Hastie; Robert Tibshirani
+- Anathem — Neal Stephenson
+- And Another Thing... — Eoin Colfer
+- Android Karenina — Leo Tolstoy; Ben H. Winters
+- Animal Farm — George Orwell
+- Anna Karenina — Leo Tolstoy
+- Anne of Green Gables — L. M. Montgomery
+- Annihilation — Jeff VanderMeer
+- ANSI Common Lisp — Paul Graham
+- Anthem — Ayn Rand
+- Artemis — Andy Weir
+- Artificial Intelligence: A Modern Approach — Stuart Russell; Peter Norvig
+- Asset Management — Andrew Ang
+- Atlas Shrugged — Ayn Rand
+- Atomic Habits — James Clear
+- Aubrey–Maturin series
+- Awaken the Giant Within — Tony Robbins
+- Awakening Joy — James Baraz, Shoshana Alexander
+- Awakening Through Love — John Makransky
+- Backgammon — Paul Magriel; Renée Magriel Roberts
+- Bad Wisdom — Bill Drummond; Mark Manning / Zodiac Mindwarp
+- Barbed Wire Heart
+- Bargaining for Advantage — G. Richard Shell
+- Beating The Street — Peter Lynch
+- Being Logical — D. Q. McInerny
+- Being With Dying — Joan Halifax
+- Bet With the Best — Andrew Beyer
+- Beware of Chicken — Casualfarmer
+- Beyond Entrepreneurship — Jim Collins
+- Bibliographical History of Electricity and Magnetism — Paul Fleury Mottelay
+- Big Swiss
+- Bit-Slice Microprocessor Design — John Mick; Jim Brick
+- Blandings
+- Blandings Castle series — P. G. Wodehouse
+- Bleak House — Charles Dickens
+- Blindness — José Saramago
+- Blindsight
+- Bliss Montage — Ling Ma
+- Blood Meridian — Cormac McCarthy
+- Blood Music — Greg Bear
+- Blood Song — Anthony Ryan
+- Bloody Rose — Nicholas Eames
+- Bobby Dollar trilogy — Tad Williams
+- Book of Proof — Richard Hammack
+- Borne — Jeff VanderMeer
+- Boy's Life — Robert R. McCammon
+- Brave New World — Aldous Huxley
+- Break the Cycle — Mariel Buqué
+- Break the Good Girl Myth — Majo Molfino
+- Breaking Bias — Anu Gupta
+- Brief Interviews with Hideous Men — David Foster Wallace
+- Brownian Motion — Peter Mörters; Yuval Peres
+- Buddha’s Little Finger — Victor Pelevin
+- Built to Sell — John Warrillow
+- Bunny — Mona Awad
+- But What Will People Say? — Sahaj Kaur Kohli
+- C++17 Standard Library Quick Reference — Peter Van Weert; Marc Gregoire
+- Calculus Made Easy — Silvanus P. Thompson
+- Calculus on Manifolds — Michael Spivak
+- Calculus, Volume 1 — Tom M. Apostol
+- Candide — Voltaire
+- Captain Corelli’s Mandolin — Louis de Bernières
+- Cashing in on the American Dream — Paul Terhorst
+- Catch-22 — Joseph Heller
+- Celestial Mechanics — Shlomo Sternberg
+- Century Rain — Alastair Reynolds
+- Cerebus — Dave Sim
+- Chaos in Dynamical Systems — Edward Ott
+- Chapterhouse: Dune — Frank Herbert
+- Charlotte's Web — E. B. White
+- Children of Dune
+- Children of Virtue and Vengeance — Tomi Adeyemi
+- Cicero trilogy
+- Circe — Madeline Miller
+- Civilizations — Laurent Binet
+- Classical Mechanics with Calculus of Variations and Optimal Control — Mark Levi
+- Classics on Fractals — Gerald A. Edgar (editor)
+- Clean Architecture — Robert C. Martin
+- Clean Code — Robert C. Martin
+- Clear and Simple as the Truth: Writing Classic Prose — Francis-Noël Thomas; Mark Turner
+- Clochemerle — Gabriel Chevallier
+- Cloudsplitter — Russell Banks
+- Code Complete — Steve McConnell
+- Cold Calling Techniques — Stephan Schiffman
+- Cold Mountain — Charles Frazier
+- Collected Fictions — Jorge Luis Borges
+- Collected works of Balzac — Honoré de Balzac
+- Collected works of Shakespeare — William Shakespeare
+- Colorless Tsukuru Tazaki and His Years of Pilgrimage — Haruki Murakami
+- Combinatorial Set Theory: With a Gentle Introduction to Forcing — Lorenz J. Halbeisen
+- Commonweal
+- Commutative Algebra with a View toward Algebraic Geometry — David Eisenbud
+- Company of Liars — Karen Maitland
+- Complex Analysis — Lars Ahlfors
+- Complex Analysis — Theodore W. Gamelin
+- Complex PTSD: From Surviving to Thriving — Pete Walker
+- Computer Networking: A Top-Down Approach — James F. Kurose; Keith W. Ross
+- Computing the Continuous Discretely — Matthias Beck; Sinai Robins
+- Concepts of Physics — H. C. Verma
+- Conceptual Physics — Paul G. Hewitt
+- Concrete Mathematics — Ronald L. Graham; Donald E. Knuth; Oren Patashnik
+- Conjugate Duality and Optimization — R. Tyrrell Rockafellar
+- Conscious Business — Fred Kofman
+- Contact — Carl Sagan
+- Contemporary Abstract Algebra — Joseph A. Gallian
+- Continental Drift — Russell Banks
+- Contrarian Investment Strategies — David Dreman
+- Cosmology — S. Weinberg
+- Cosmology for the Curious — Perlov & Vilenkin
+- Cradle — Will Wight
+- Crash Proof 2.0 — Peter Schiff
+- Crawl-Space Computing — Lawrence J. Dickson
+- Crazy Rich Asians — Kevin Kwan
+- Creating Shareholder Value — Alfred Rappaport
+- Crime and Punishment — Fyodor Dostoevsky
+- Critical Chain
+- Critical Reasoning: A Romp Through the Foothills of Logic — Marianne Talbot
+- Critical Thinking Skills for Dummies — Martin Cohen
+- Critical Thinking: A Concise Guide — Tracy Bowell; Gary Kemp
+- Critical Thinking: The Basics — Stuart Hanscomb
+- Crucial Conversations — Kerry Patterson et al.
+- Crush It! — Gary Vaynerchuk
+- Cryptonomicon — Neal Stephenson
+- Cuentos Completos — Jorge Luis Borges
+- Culture series
+- Curso de Análise, Volume 1 — Elon Lages Lima
+- Curso de Análise, Volume 2 — Elon Lages Lima
+- CyberSecurity 101: Fundamentals for Junior Engineers and Job Seekers — Andreas
+- Daemon — Daniel Suarez
+- Dalva — Jim Harrison
+- Danny, the Champion of the World — Roald Dahl
+- Dark Integers
+- Dark Matter — Blake Crouch
+- Data-Driven Marketing — Mark Jeffery
+- Daughter of the Moon Goddess — Sue Lynn Tan
+- De Re Metallica — Georgius Agricola
+- Dead Astronauts — Jeff VanderMeer
+- Dead Souls — Nikolai Gogol
+- Deadhouse Gates — Steven Erikson
+- Dear Founder — Maynard Webb
+- Death and Croissants
+- Decolonizing Trauma Work — Renee Linklater
+- Deep Learning — Ian Goodfellow, Yoshua Bengio, Aaron Courville
+- Deep Learning: A Visual Approach — Andrew Glassner
+- DeMark Indicators — Jason Perl
+- Demon Copperhead — Barbara Kingsolver
+- Demons — Fyodor Dostoevsky
+- Designing Brand Identity — Alina Wheeler, Rob Meyerson
+- Designing Data-Intensive Applications — Martin Kleppmann
+- Dhalgren — Samuel R. Delany
+- Diaspora
+- Die with Zero — Bill Perkins
+- Diet for a Small Planet — Frances Moore Lappé
+- Dieter Rams: The Complete Works — Klaus Klemp
+- Differential Equations: Geometric Theory — Solomon Lefschetz
+- Differential Geometry: Connections, Curvature, and Characteristic Classes — Loring W. Tu
+- Differently Morphous — Yahtzee Croshaw
+- Dirk Gently’s Holistic Detective Agency — Douglas Adams
+- Discriminants, Resultants, and Multidimensional Determinants — I. M. Gelfand; M. M. Kapranov; A. V. Zelevinsky
+- Discworld series — Terry Pratchett
+- Div, Grad, Curl, and All That — H. M. Schey
+- Divine Proportions — Norman J. Wildberger
+- Don Quixote — Miguel de Cervantes; Edith Grossman (translator)
+- Don't Make Me Think — Steve Krug
+- Don't Think of an Elephant! — George Lakoff
+- Double your Profits — Bob Fifer
+- Dracula — Bram Stoker
+- Dune — Frank Herbert
+- Dune Messiah — Frank Herbert
+- Dune series — Frank Herbert
+- Dungeon Crawler Carl — Matt Dinniman
+- Dust of Dreams — Steven Erikson
+- Dynamical Systems — George D. Birkhoff
+- Dynamical Systems in Neuroscience: The Geometry of Excitability and Bursting — Eugene M. Izhikevich
+- Earthsea
+- Earthsea series — Ursula K. Le Guin
+- East of Eden — John Steinbeck
+- Eating The Big Fish — Adam Morgan
+- Echopraxia
+- Ecology of the Planted Aquarium — Diana Walstad
+- Economics — Paul A. Samuelson; William D. Nordhaus
+- Effortless Mastery — Kenny Werner
+- Electric Warfare — Jason Carlisle
+- Elementary Applied Topology — Robert Ghrist
+- Elementary Differential Geometry — Andrew Pressley
+- Elementary Linear Algebra — Howard Anton; Chris Rorres
+- Elements of Clojure — Zach Tellman
+- Elements of Information Theory — Thomas M. Cover, Joy A. Thomas
+- Elliptic Curves, Modular Forms and Their L-Functions — Álvaro Lozano-Robledo
+- Emma — Jane Austen
+- Empire of the Sun
+- Empress of Forever
+- End of Illness — David B. Agus
+- Ender’s Game — Orson Scott Card
+- Endymion — Dan Simmons
+- Engineering General Intelligence, Volume 1 — Ben Goertzel; Cassio Pennachin; Nil Geisweiller
+- Engineering General Intelligence, Volume 2 — Ben Goertzel; Cassio Pennachin; Nil Geisweiller
+- Engineering in Plain Sight — Grady Hillhouse
+- Eon — Greg Bear
+- EPA 608 Study Guide — Author unspecified
+- Epic of Gilgamesh — Stephen Mitchell (version)
+- Equoid
+- Eragon
+- Essentialism — Greg McKeown
+- Euclid's Elements — Euclid
+- Eve’s Hollywood — Eve Babitz
+- Everything Flows
+- Evolution: Selected Papers — Sewall Wright
+- Excession — Iain M. Banks
+- Exhalation — Ted Chiang
+- Expectations Investing — Michael Mauboussin
+- Expeditionary Force series — Craig Alanson
+- Expert Secrets — Russell Brunson
+- Exponential Organizations — Salim Ismail
+- Fahrenheit 451 — Ray Bradbury
+- Fall; or, Dodge in Hell
+- Fatherland — Robert Harris
+- Fear and Loathing in Las Vegas — Hunter S. Thompson
+- Fierce Love — Jacqui Lewis
+- Financial Derivatives — Jamil Baz
+- Firefall — Peter Watts
+- First Law cycle — Joe Abercrombie
+- Flowers for Algernon — Daniel Keyes
+- For Whom the Bell Tolls — Ernest Hemingway
+- Forget the Funnel — Claire Suellentrop; Georgiana Laudi
+- Forward the Foundation — Isaac Asimov
+- Foundation — Isaac Asimov
+- Foundation and Earth — Isaac Asimov
+- Foundation trilogy — Isaac Asimov
+- Foundation's Edge — Isaac Asimov
+- Foundations of Analysis — Edmund Landau
+- Foundations of Stable Homotopy Theory — David Barnes; Constanze Roitzheim
+- Founding Sales — Peter Kazanjy
+- Four Pivots — Shawn Ginwright
+- Frank Stewart's Bridge Club — Frank Stewart
+- Frankenstein — Mary Shelley
+- Frisco Kid — Jack London
+- Functions of Bounded Variation and Free Discontinuity Problems — Luigi Ambrosio; Nicola Fusco; Diego Pallara
+- Fundamentals of Astrophysics — S. Owocki
+- Fundamentals of Plasma Physics — Paul M. Bellan
+- Fungi of Temperate Europe — Thomas Læssøe; Jens H. Petersen
+- G. — John Berger
+- Galois Theory — David A. Cox
+- Game Engine Black Book: DOOM — Fabien Sanglard
+- Game Theory and Strategy — Philip D. Straffin
+- Gardens of the Moon — Steven Erikson
+- Gaudy Night — Dorothy L. Sayers
+- Gauge Fields, Knots, and Gravity — John C. Baez; Javier P. Muniain
+- General Relativity: The Theoretical Minimum — Leonard Susskind & André Cabannes
+- Germinal — Émile Zola
+- Geronimo Rex — Barry Hannah
+- Get Smarter — Seymour Schulich
+- Getting Everything You Can Out of All You've Got — Jay Abraham
+- Getting It Done — Roger Fisher
+- Getting Past No — William Ury
+- Getting Real — 37signals (Jason Fried; David Heinemeier Hansson; Matthew Linderman)
+- Getting to Yes — Roger Fisher; William Ury
+- Gideon the Ninth — Tamsyn Muir
+- Giovanni’s Room — James Baldwin
+- Glamorama — Bret Easton Ellis
+- Glasshouse — Charles Stross
+- Global Business — Mike W. Peng (source identity conditional)
+- Global Health — A Lindstrand, S Bergstrom, H Rosling
+- Global Strategy — Mike W. Peng
+- God Emperor of Dune
+- Goldratt's Rules of Flow
+- Goodbye to Berlin
+- Gravitation — Charles W. Misner; Kip S. Thorne; John Archibald Wheeler
+- Group Theory and Physics — Shlomo Sternberg
+- Groups and Symmetries — Yvette Kosmann-Schwarzbach
+- Hacking Sales — Max Altschuler
+- Halftime — Bob Buford
+- Hamlet — William Shakespeare
+- Hamnet — Maggie O'Farrell
+- Hard-Boiled Wonderland and the End of the World — Haruki Murakami
+- Harrow the Ninth — Tamsyn Muir
+- Harry Potter — J. K. Rowling
+- Harry Potter and the Methods of Rationality — Eliezer Yudkowsky
+- Harry Potter and the Prisoner of Azkaban — J. K. Rowling
+- Heretics of Dune — Frank Herbert
+- Hierarchy — James Islington
+- High Fidelity — Nick Hornby
+- High Growth Handbook — Elad Gil
+- High-Dimensional Probability — Roman Vershynin
+- His Master’s Voice — Stanisław Lem
+- History and Geography of Human Genes — L. Luca Cavalli-Sforza; Paolo Menozzi; Alberto Piazza
+- Holy Fire — Bruce Sterling
+- Homotopical Topology — Anatoly T. Fomenko; Dmitry Fuchs
+- Hooked — Nir Eyal
+- Hopping Over The Rabbit Hole — Anthony Scaramucci
+- Hornblower Saga — C.S. Forester
+- House of Chains — Steven Erikson
+- House of Leaves
+- How An Economy Grows and Why It Crashes — Peter D. Schiff; Andrew J. Schiff
+- How Companies Win — Rick Kash
+- How Technology Works — DK
+- How To Buy Stocks — Louis Engel
+- How To Decide — Annie Duke
+- How to Get Lucky — Max Gunther
+- How to Invent Everything — Ryan North
+- How to Make Millions with Your Ideas — Dan S. Kennedy
+- How to Raise a Healthy Gamer — Alok Kanojia
+- How to Read a Book — Mortimer J. Adler; Charles Van Doren
+- How To Set-Up Your Business For Under $1000 — Dan Fleyshman, Branden Hampton
+- How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber; Elaine Mazlish
+- How to Talk so Little Kids Will Listen — Joanna Faber, Julie King
+- How to Think About Weird Things — Theodore Schick; Lewis Vaughn
+- Hug Your Haters — Jay Baer
+- Human Resource Exploitation Training Manual — Central Intelligence Agency
+- Hunter's Run — George R. R. Martin; Gardner Dozois; Daniel Abraham
+- Hyperefficient: Optimize Your Brain to Transform the Way You Work — Mithu Storoni
+- Hyperion — Dan Simmons
+- I Am Pilgrim — Terry Hayes
+- I Will Teach You To Be Rich — Ramit Sethi
+- If on a Winter’s Night a Traveler — Italo Calvino
+- Ikigai — Héctor García; Francesc Miralles
+- Imaginary Magnitude — Stanisław Lem
+- Imperium trilogy — Robert Harris
+- Impro — Keith Johnstone
+- Indistractable — Nir Eyal
+- Infinite Jest
+- Info-Ops: Build the Right Thing — Daniel Markham
+- Introduction to 3-Manifolds — Jennifer Schultens
+- Introduction to Commutative Algebra — Michael F. Atiyah; I. G. Macdonald
+- Introduction to Cosmology — B. Ryden
+- Introduction to Electrodynamics — David J. Griffiths
+- Introduction to Logic — Irving M. Copi; Carl Cohen; Kenneth McMahon
+- Introduction to Modern Dynamics: Chaos, Networks, Space and Time — David D. Nolte
+- Introduction to Modern Number Theory: Fundamental Problems, Ideas and Theories — Yuri I. Manin; Alexei A. Panchishkin
+- Introduction to Probability — Joseph K. Blitzstein; Jessica Hwang
+- Introduction to Quantum Mechanics — Alexander Givental
+- Introduction to Representation Theory — Pavel Etingof; Oleg Golberg; Sebastian Hensel; Tiankai Liu; Alex Schwendner; Dmitry Vaintrob; Elena Yudovina
+- Introduction to the Modern Theory of Dynamical Systems — Anatole Katok; Boris Hasselblatt
+- Inventing the Future — Albert Cory
+- Invincible Compendium 1 — Robert Kirkman
+- Invincible Compendium 2 — Robert Kirkman
+- Invincible Compendium 3 — Robert Kirkman
+- Invisible Cities — Italo Calvino
+- Invisible Man — Ralph Ellison
+- Ishmael — Daniel Quinn
+- Islands in the Net — Bruce Sterling
+- It — Stephen King
+- It's About Damn Time — Arlan Hamilton
+- It's About TIME! — James R. Ball; Jennifer A. Kuchta
+- It's Earnings That Count — Hewitt Heiserman
+- It's Not How Good You Are - It's How Good You Want To Be — Paul Arden
+- It's Not Luck
+- J R — William Gaddis
+- Jack Reacher (series) — Lee Child; later Andrew Child
+- Jade City — Fonda Lee
+- Jeeves
+- Jeeves and Wooster series — P. G. Wodehouse
+- Jerusalem — Alan Moore
+- Jonathan Livingston Seagull — Richard Bach
+- Judgment in Managerial Decision Making — Max Bazerman
+- Jurassic Park
+- Kaikeyi — Vaishnavi Patel
+- Khana Mihirer Dhipi — Bani Basu
+- Kill Decision — Daniel Suarez
+- Kill It with Fire — Marianne Bellotti
+- King Lear — William Shakespeare
+- Kings of the Wyld — Nicholas Eames
+- Klara and the Sun — Kazuo Ishiguro
+- Kristin Lavransdatter — Sigrid Undset
+- Labyrinths — Jorge Luis Borges
+- Land — Maggie O'Farrell
+- Last Horizon
+- Law of Attraction — Michael J. Losier
+- Leapfrog — Nathalie Molina Nino
+- Learning Modern Algebra from Early Attempts to Prove Fermat's Last Theorem — Al Cuoco; Joseph Rotman
+- Leave It to Psmith
+- Lectures on Astrophysics — S. Weinberg
+- Lectures on Probability Theory and Mathematical Statistics — Marco Taboga
+- Legends & Lattes — Travis Baldree
+- Legends of the Fall — Jim Harrison
+- Leo Africanus
+- Les Misérables — Victor Hugo
+- Les Particules élémentaires / Atomised — Michel Houellebecq
+- Less Than Zero — Bret Easton Ellis
+- Lexicon Urthus — Michael Andre-Driussi
+- Libra — Don DeLillo
+- Lincoln in the Bardo — George Saunders
+- Linear Algebra Done Right — Sheldon Axler
+- Logic — Wilfrid Hodges
+- Logic Primer — Colin Allen; Michael Hand
+- Logicomix — Apostolos Doxiadis; Christos Papadimitriou
+- Lolita — Vladimir Nabokov
+- Lonesome Dove — Larry McMurtry
+- Long Steel Rail — Norm Cohen
+- Lord of Mysteries
+- Love Among the Chickens
+- Macbeth — William Shakespeare
+- Machine Learning for Dummies — John Paul Mueller; Luca Massaron
+- Malazan Book of the Fallen — Steven Erikson
+- Mastering the Core Teachings of the Buddha — Daniel Ingram
+- Math, Better Explained — Kalid Azad
+- Mathematical Methods of Classical Mechanics — V. I. Arnold
+- Mathematics for Computer Science — Eric Lehman; F. Thomson Leighton; Albert R. Meyer
+- Mean Spirit — Linda Hogan
+- Measure What Matters — Katie Delahaye Paine
+- Memories of Ice — Steven Erikson
+- Memos From The Chairman — Alan Greenberg
+- Middlemarch — George Eliot
+- Midnight Tides — Steven Erikson
+- Mike and Psmith
+- Mistborn series — Brandon Sanderson
+- Moby-Dick — Herman Melville
+- Modelling Extremal Events — Paul Embrechts; Claudia Klüppelberg; Thomas Mikosch
+- Modern Cryptography and Elliptic Curves: A Beginner's Guide — Thomas R. Shemanske
+- Modern Engineering for Design of Liquid Propellant Rocket Engines — Dieter K. Huzel; David H. Huang
+- Modernist Cuisine — Nathan Myhrvold, Chris Young, Maxime Bilet
+- Molecular Biology of the Cell — Bruce Alberts; Alexander Johnson; Julian Lewis; David Morgan; Martin Raff; Keith Roberts; Peter Walter
+- Molecular Thermodynamics — Donald A. McQuarrie; John D. Simon
+- Money — Tony Robbins
+- Monk & Robot — Becky Chambers
+- Moonshine beyond the Monster — Terry Gannon
+- Morse Theory — John Milnor
+- Mother of Learning — nobody103
+- Mr Norris Changes Trains
+- Mucusless Diet Healing System — Arnold Ehret
+- Mutiny on the Bounty — Charles Nordhoff; James Norman Hall (probable source identity)
+- My Dark Vanessa — Kate Elizabeth Russell
+- My Grandmother's Hands — Resmaa Menakem
+- Naive Set Theory — Paul R. Halmos
+- Needful Things — Stephen King
+- Neural Networks and Deep Learning — Michael Nielsen
+- Neuromancer — William Gibson
+- Never Eat Alone — Keith Ferrazzi; Tahl Raz
+- Never Let Me Go — Kazuo Ishiguro
+- Neverwhere — Neil Gaiman
+- New Methods of Celestial Mechanics — Henri Poincaré; Daniel L. Goroff (editor)
+- Nexus — Ramez Naam
+- Nicole Oresme and the Medieval Geometry of Qualities and Motions — Marshall Clagett
+- Nine Stories — J. D. Salinger
+- Nineteen Eighty-Four — George Orwell
+- No Bullshit Guide to Math and Physics — Ivan Savov
+- No Country for Old Men — Cormac McCarthy
+- Nona the Ninth — Tamsyn Muir
+- Nonlinear Dynamics and Chaos — Steven H. Strogatz
+- Nonviolent Communication — Marshall B. Rosenberg
+- North Woods — Daniel Mason
+- Norwegian Wood — Haruki Murakami
+- Notes from Underground — Fyodor Dostoevsky
+- Notes on the Synthesis of Form — Christopher Alexander
+- Nothing to Fear — Julie McFadden
+- Now, Discover Your Strengths — Don Clifton
+- Number Theory 1: Fermat's Dream — Kazuya Kato; Nobushige Kurokawa; Takeshi Saito
+- Number Theory 2: Introduction to Class Field Theory — Kazuya Kato; Nobushige Kurokawa; Takeshi Saito
+- Number Theory 3: Iwasawa Theory and Modular Forms — Nobushige Kurokawa; Masato Kurihara; Takeshi Saito
+- Number Theory Revealed: A Masterclass — Andrew Granville
+- Numerical Linear Algebra — Lloyd N. Trefethen; David Bau III
+- Object-Oriented Analysis and Design with Applications — Grady Booch
+- Obvious Adams — Robert Updegraff
+- Office Hours with a Geometric Group Theorist — Matt Clay; Dan Margalit (editors)
+- Ogilvy on Advertising — David Ogilvy
+- Oil 101 — Morgan Downey
+- Old Man’s War — John Scalzi
+- On Lisp — Paul Graham
+- On the Road — Jack Kerouac
+- One Flew Over the Cuckoo’s Nest — Ken Kesey
+- One Hundred Years of Solitude — Gabriel García Márquez
+- One Simple Idea — Stephen Key
+- One Thousand Exercises in Probability — Geoffrey R. Grimmett, David R. Stirzaker
+- One to Many — Jason Fladlien
+- Open-Channel Hydraulics — Ven Te Chow
+- Operating Systems: Three Easy Pieces — Remzi H. Arpaci-Dusseau; Andrea C. Arpaci-Dusseau
+- Options, Futures, and Other Derivatives — John Hull
+- Origin — Dan Brown
+- Orwell's Revenge — Peter W. Huber
+- Othello — William Shakespeare
+- Outer Dark — Cormac McCarthy
+- Outer Order, Inner Calm — Gretchen Rubin
+- Pale Fire — Vladimir Nabokov
+- Paradigms of Artificial Intelligence Programming — Peter Norvig
+- Perdido Street Station — China Miéville
+- Permutation City — Greg Egan
+- Physics for Scientists and Engineers — Paul A. Tipler, Gene Mosca
+- Piranesi — Susanna Clarke
+- Points of Origin — John L. Orr
+- Postsingular — Rudy Rucker
+- Powers — Ursula K. Le Guin
+- Prelude to Foundation — Isaac Asimov
+- Pride and Prejudice — Jane Austen
+- Principles of Economics — N. Gregory Mankiw
+- Principles of Economics — Saifedean Ammous
+- Principles of Neurobiology — Liqun Luo
+- Probability, Random Variables and Stochastic Processes — Athanasios Papoulis
+- Problems from the Book — Titu Andreescu; Gabriel Dospinescu
+- Product Design for the Web — Randy Hunt
+- Program = Proof — Samuel Mimram
+- Programming Phoenix LiveView — Bruce A. Tate; Sophie DeBenedetto
+- Project Hail Mary — Andy Weir
+- Proxima — Stephen Baxter
+- Psmith — P. G. Wodehouse
+- Psmith in the City — P. G. Wodehouse
+- Psmith, Journalist — P. G. Wodehouse
+- Psychology of the Rich Aunt — Erich Mühsam
+- Public Relations — Edward L. Bernays
+- Python for Finance — Yves Hilpisch
+- Q.E.D. — Burkard Polster
+- Quality of Earnings — Thornton O'Glove
+- Quantum Electrodynamics — Richard P. Feynman
+- Radiation Detection and Measurement — Glenn F. Knoll
+- Rapid Interpretation of EKGs — Dale Dubin
+- Rational Expectations — William Bernstein
+- Ready Player One — Ernest Cline
+- Ready Player Two — Ernest Cline
+- Real and Complex Analysis — Walter Rudin
+- Reaper's Gale — Steven Erikson
+- Recursion — Blake Crouch
+- Red Rising — Pierce Brown
+- Red Rising saga — Pierce Brown
+- Redwinter series — Ed McDonald
+- Regularity Theory for Elliptic PDE — Xavier Fernández-Real; Xavier Ros-Oton
+- Reinforcement Learning — Richard S. Sutton, Andrew G. Barto
+- Remembrance of Earth's Past — Cixin Liu
+- Reminiscences of a Stock Operator — Edwin Lefevre
+- Rendezvous With Rama — Arthur C. Clarke
+- Repairman Jack (series) — F. Paul Wilson
+- Revolutionary Road — Richard Yates
+- Rifters trilogy — Peter Watts
+- Ring — Koji Suzuki
+- Ringworld — Larry Niven
+- Riverworld series — Philip José Farmer
+- Romeo and Juliet — William Shakespeare
+- Rose/House — Arkady Martine
+- Rule of the Bone — Russell Banks
+- Rust Atomics and Locks — Mara Bos
+- Salt, Fat, Acid, Heat — Samin Nosrat
+- Savage News — Jessica Yellin
+- Scaling People — Claire Hughes Johnson
+- Scarne on Cards — John Scarne
+- Schaum's Outline of Principles of Accounting I — Joel Lerner, James Cashin
+- Schild's Ladder — Greg Egan
+- Schismatrix — Bruce Sterling
+- Sea of Tranquility — Emily St. John Mandel
+- Sea/Shadow trilogies
+- Secret Sauce — Austen Allred & Vin Clancy
+- Secrets of Closing the Sale — Zig Ziglar
+- Secrets of Power Negotiating — Roger Dawson
+- Security Analysis — Benjamin Graham
+- Seeker — Arwen Elys Dayton
+- Seiobo There Below — László Krasznahorkai
+- Sell with a Story — Paul Smith
+- Sengoku Komachi Kurōtan — Kyouchikutou; manga adaptation by Hajime Sawada
+- Series on Mathematical Analysis — Elias Zakon
+- Seveneves — Neal Stephenson
+- Shades of Magic trilogy — V. E. Schwab
+- Shadows of the Apt — Adrian Tchaikovsky
+- Shantaram — Gregory David Roberts
+- Sharkproof — Harvey MacKay
+- Sherlock Holmes collected works — Arthur Conan Doyle
+- Shift — Hugh Howey
+- Siddhartha — Hermann Hesse
+- Site Reliability Engineering — Niall Richard Murphy; Betsy Beyer; Chris Jones; Jennifer Petoff (editors)
+- Six Days of the Condor — James Grady
+- Six of Crows — Leigh Bardugo
+- Sixty Stories — Donald Barthelme
+- Slaughterhouse-Five — Kurt Vonnegut
+- Slow Horses / Slough House series — Mick Herron
+- Snow Crash — Neal Stephenson
+- Solaris — Stanisław Lem
+- Solution Selling — Michael Bosworth
+- Something Wicked This Way Comes — Ray Bradbury
+- Sometimes a Great Notion — Ken Kesey
+- Sourcebook in the Mathematics of Ancient Greece and the Eastern Mediterranean — Victor J. Katz; Clemency Montelle (editors)
+- Sources of Quantum Mechanics — B. L. van der Waerden (editor)
+- South of the Border, West of the Sun — Haruki Murakami
+- Southern Reach Trilogy — Jeff VanderMeer
+- Speaker for the Dead — Orson Scott Card
+- Spin Sucks — Gini Dietrich
+- Starship Troopers — Robert A. Heinlein
+- Starship's Mage — Glynn Stewart
+- Startup Playbook — Sam Altman
+- Station Eleven — Emily St. John Mandel
+- Statistical Inference — George Casella; Roger L. Berger
+- Statistics — David Freedman, Robert Pisani, Roger Purves
+- Steering the Craft — Ursula K. Le Guin
+- Steppenwolf — Hermann Hesse
+- Stochastic Calculus — Paolo Baldi
+- Stoner — John Williams
+- Stories of Your Life & Others — Ted Chiang
+- Story of Your Life — Ted Chiang
+- Straight from the Book — Titu Andreescu; Gabriel Dospinescu
+- Stranger in a Strange Land — Robert A. Heinlein
+- Strangers — Dean Koontz
+- Structure and Interpretation of Computer Programs — Harold Abelson; Gerald Jay Sussman; Julie Sussman
+- Structured Computer Organization — Andrew S. Tanenbaum
+- Successful Investing is a Process — Jacques Lussier
+- Sum — David Eagleman
+- Surreal Numbers — Donald E. Knuth
+- Surviving Climate Anxiety: A Guide to Coping, Healing, and Thriving — Thomas Doherty
+- Suttree — Cormac McCarthy
+- Talking To Humans — Giff Constable
+- Teach Your Child to Read in 100 Easy Lessons — Siegfried Engelmann; Phyllis Haddox; Elaine Bruner
+- Technical Analysis of the Financial Markets — John Murphy
+- Teixcalaan — Arkady Martine
+- Terraform: Watch/Worlds/Burn
+- Tess of the d'Urbervilles — Thomas Hardy
+- Test-Driven Development with Python — Harry Percival
+- The 4 Hour Work Week — Tim Ferriss
+- The 4-Hour Chef — Timothy Ferriss
+- The ACT Workbook for Kids — Tamar D. Black
+- The Adventures of Amina al-Sirafi — Shannon Chakraborty
+- The Adventures of Tom Sawyer — Mark Twain
+- The Aeneid — Virgil
+- The Age of Innocence — Edith Wharton
+- The Agony and the Ecstasy — Irving Stone
+- The Alchemist — Paulo Coelho
+- The Algebraist — Iain M. Banks
+- The Amazing Maurice and His Educated Rodents — Terry Pratchett
+- The Anarchist Cookbook — William Powell
+- The Annapolis Book of Seamanship — John Rousmaniere
+- The Apple II Circuit Description — Winston D. Gayler
+- The Art of Computer Programming — Donald E. Knuth
+- The Art of the Pitch — Peter Coughter
+- The Ashley Book of Knots — Clifford W. Ashley
+- The Attention Revolution — B. Alan Wallace
+- The Axe — Sigrid Undset
+- The Back of the Napkin — Dan Roam
+- The Baron in the Trees — Italo Calvino
+- The Bear and the Serpent (Echoes of the Fall, volume 2; source: “Bear/Serpent one”) — Adrian Tchaikovsky
+- The Bee Sting — Paul Murray
+- The Berlin Stories — Christopher Isherwood
+- The Blacktongue Thief — Christopher Buehlman
+- The Blade Itself — Joe Abercrombie
+- The Bogleheads’ Guide to Investing — Taylor Larimore; Mel Lindauer; Michael LeBoeuf
+- The Bonehunters — Steven Erikson
+- The Book of Five Rings — Miyamoto Musashi
+- The Book of Lost Names — Kristin Harmel
+- The Book Thief — Markus Zusak
+- The Book Woman of Troublesome Creek — Kim Michele Richardson
+- The Books of Jacob — Olga Tokarczuk
+- The Brothers Karamazov — Fyodor Dostoevsky
+- The C Programming Language — Brian W. Kernighan; Dennis M. Ritchie
+- The C++ Programming Language — Bjarne Stroustrup
+- The Call of Cthulhu — H. P. Lovecraft
+- The Call of the Wild — Jack London
+- The Cat's Table — Michael Ondaatje
+- The Catcher in the Rye — J. D. Salinger
+- The Charisma Myth — Olivia Fox Cabane
+- The Cider House Rules — John Irving
+- The City & the City — China Miéville
+- The Clan of the Cave Bear — Jean M. Auel
+- The Coaching Habit — Michael Bungay Stanier
+- The Colonel — Peter Watts
+- The Complete Guide to Fasting — Dr. Jason Fung
+- The Complete Guide to Sales Force Incentive Compensation — Andris A. Zoltners
+- The Complete Stories — Franz Kafka
+- The Cornerstone — Zoé Oldenbourg
+- The Corrections — Jonathan Franzen
+- The Count of Monte Cristo — Alexandre Dumas
+- The Covenant of Water — Abraham Verghese
+- The Crippled God — Steven Erikson
+- The Dark Forest — Liu Cixin
+- The Dark Side of the Moon — Martin Suter
+- The Dark Tower — Stephen King
+- The Death of Grass — John Christopher
+- The Deed of Paksenarrion — Elizabeth Moon
+- The Design Thinking Playbook — Michael Lewrick; Patrick Link; Larry Leifer
+- The DevOps Handbook — Gene Kim; Jez Humble; Patrick Debois; John Willis
+- The Dharma Bums — Jack Kerouac
+- The Diamond Age — Neal Stephenson
+- The Diamond Eye — Kate Quinn
+- The Divine Comedy — Dante Alighieri
+- The Elements of Statistical Learning — Trevor Hastie; Robert Tibshirani; Jerome Friedman
+- The Elements of Typographic Style — Robert Bringhurst
+- The Expanse series — James S. A. Corey
+- The Fall of Hyperion — Dan Simmons
+- The Farseer Trilogy — Robin Hobb
+- The Fault in Our Stars — John Green
+- The Fear Index — Robert Harris
+- The Fellowship of the Ring — J. R. R. Tolkien
+- The First 20 Hours — Josh Kaufman
+- The Forever War — Joe Haldeman
+- The Founders Trilogy — Robert Jackson Bennett
+- The Fountainhead — Ayn Rand
+- The Four Steps to the Epiphany — Steve Blank
+- The Frugal Wizard’s Handbook for Surviving Medieval England — Brandon Sanderson
+- The Fuck-Up — Arthur Nersesian
+- The Gap and the Gain — Dan Sullivan; Benjamin Hardy
+- The Ghost — Robert Harris
+- The Girl Who Fell Beneath the Sea — Axie Oh
+- The Girl with the Dragon Tattoo / Millennium series — Stieg Larsson
+- The Glass Bead Game — Hermann Hesse
+- The Global Macro Edge — John Netto
+- The Goal — Eliyahu Goldratt
+- The Goal: A Business Graphic Novel — Eliyahu M. Goldratt; Dwight Jon Zimmerman; Dean Motter
+- The God Engines — John Scalzi
+- The Godfather — Mario Puzo
+- The Golden Notebook — Doris Lessing
+- The Golf Omnibus — P. G. Wodehouse
+- The Good Earth — Pearl S. Buck
+- The Grapes of Wrath — John Steinbeck
+- The Grass Is Singing — Doris Lessing
+- The Great Alone — Kristin Hannah
+- The Great CEO Within — Matt Mochary
+- The Great Cities Duology — N. K. Jemisin
+- The Great Divorce — C. S. Lewis
+- The Great Gatsby — F. Scott Fitzgerald
+- The Green Mile — Stephen King
+- The Gripping Hand — Larry Niven; Jerry Pournelle
+- The Handbook of Rationality — Markus Knauff; Wolfgang Spohn (editors)
+- The Handmaid’s Tale — Margaret Atwood
+- The Headspace Guide to Meditation and Mindfulness — Andy Puddicombe
+- The Heart — Maylis de Kerangal
+- The Heart of Unconditional Love — Tulku Thondup
+- The Help — Kathryn Stockett
+- The Herbal Home Remedy Book — Joyce A. Wardwell
+- The Hitchhiker’s Guide to the Galaxy — Douglas Adams
+- The Hobbit — J. R. R. Tolkien
+- The Hunger Games — Suzanne Collins
+- The Hunt for Red October — Tom Clancy
+- The Hyperion Cantos — Dan Simmons
+- The Idiot — Fyodor Dostoevsky
+- The Iliad — Homer
+- The Illuminatus! Trilogy — Robert Shea; Robert Anton Wilson
+- The Intentional Engineer — Jeff Perry
+- The Invincible — Stanisław Lem
+- The Kelly Capital Growth Investment Criterion — Leonard C. Maclean
+- The Kinetic Theory of Gases — Stephen G. Brush
+- The Kingkiller Chronicle — Patrick Rothfuss
+- The Kite Runner — Khaled Hosseini
+- The Labyrinth of the Spirits — Carlos Ruiz Zafón
+- The Last Days of Night — Graham Moore
+- The Last Samurai — Helen DeWitt
+- The Laundry Files — Charles Stross
+- The Left Hand of Darkness — Ursula K. Le Guin
+- The Leviathan — Rosie Andrews
+- The Library at Mount Char — Scott Hawkins
+- The Licanius Trilogy — James Islington
+- The Life-Changing Magic of Not Giving a F*ck — Sarah Knight
+- The Life-Changing Magic of Tidying Up — Marie Kondo
+- THE LIGHT OF OTHER DAYS — Arthur C. Clarke, Stephen Baxter
+- The Lincoln Highway — Amor Towles
+- The Little Book of Bull Moves — Peter Schiff
+- The Little Book of Investing Like the Pros — Joshua Pearl
+- The Little Prince — Antoine de Saint-Exupéry
+- The Little Schemer — Daniel P. Friedman; Matthias Felleisen
+- The Liveship Traders trilogy — Robin Hobb
+- The Lizard King — Jamie Weinstein; Will Rahn
+- The Locked Tomb series — Tamsyn Muir
+- The Longevity Solution — Dr. James DiNicolantonio, Dr. Jason Fung
+- The Lord of the Rings — J. R. R. Tolkien
+- The Lost World — Arthur Conan Doyle
+- The Love of Singular Men — Victor Heringer
+- The Magic Mountain — Thomas Mann
+- The Magus — John Fowles
+- The Man Who Folded Himself — David Gerrold
+- The March North — Graydon Saunders
+- The Martian — Andy Weir
+- The Master and Margarita — Mikhail Bulgakov
+- The Master of Hestviken — Sigrid Undset
+- The Metamorphosis of Prime Intellect — Roger Williams
+- The Mind Illuminated — John Yates; Matthew Immergut; Jeremy Graves
+- The Ministry for the Future — Kim Stanley Robinson
+- The Moon Is a Harsh Mistress — Robert A. Heinlein
+- The Mote in God’s Eye — Larry Niven; Jerry Pournelle
+- The Motive — Patrick M. Lencioni
+- The Mysterious Island — Jules Verne
+- The Name of the Rose — Umberto Eco
+- The Name of the Wind — Patrick Rothfuss
+- The Narrow Road to the Deep North — Richard Flanagan
+- The Natural Way to Draw — Kimon Nicolaïdes
+- The Nature of Mathematical Modeling — Neil Gershenfeld
+- The New Animals — Pip Adams
+- The New Atlantis — Francis Bacon
+- The New One Minute Manager — Ken Blanchard
+- The Ocean at the End of the Lane — Neil Gaiman
+- The Odyssey — Homer; Emily Wilson (translator)
+- The Old Man and the Sea — Ernest Hemingway
+- The Once and Future King — T. H. White
+- The Only Investment Guide You'll Ever Need — Andrew Tobias
+- The Overstory — Richard Powers
+- The Pain We Carry — Natalie Y. Gutiérrez
+- The Painted Bird — Jerzy Kosinski
+- The Palace of Dreams — Ismail Kadare
+- The Palace of Illusions — Chitra Banerjee Divakaruni
+- The Paladin’s Legacy — Elizabeth Moon
+- The Paper Menagerie and Other Stories — Ken Liu
+- The Phantom of the Opera — Gaston Leroux
+- The Phoenix Project — Gene Kim; Kevin Behr; George Spafford
+- The Picture of Dorian Gray — Oscar Wilde
+- The Pillars of the Earth — Ken Follett
+- The Pocket Guide to Product Launches — Mary Sheehan
+- The Post-Office Girl — Stefan Zweig
+- The Power — Naomi Alderman
+- The Power and the Glory — Graham Greene
+- The Power of Full Engagement — Jim Loehr
+- The Power of Logic — Frances Howard-Snyder; Daniel Howard-Snyder; Ryan Wasserman
+- The Practice of Natural Movement — Erwan Le Corre
+- The Princeton Companion to Applied Mathematics — Nicholas J. Higham et al. (editors)
+- The Princeton Companion to Mathematics — Timothy Gowers; June Barrow-Green; Imre Leader (editors)
+- The Prophet — Kahlil Gibran
+- The Prose Edda — Snorri Sturluson
+- The Punishings — H. R. Bellicosa
+- The Remains of the Day — Kazuo Ishiguro
+- The Richest Man in Babylon — George Clason
+- The Road — Cormac McCarthy
+- The Road Home — Jim Harrison
+- The Robert Collier Letter Book — Robert Collier
+- The Rose Society — Marie Lu
+- The Rosie Effect — Graeme Simsion
+- The Rosie Project — Graeme Simsion
+- The Sailor Who Fell from Grace with the Sea — Yukio Mishima
+- The Sales Acceleration Formula — Mark Roberge
+- The Sandman — Neil Gaiman
+- The Science of Hitting — Ted Williams and John Underwood
+- The Science of Scaling — Benjamin Hardy; Blake Erickson
+- The Screwtape Letters — C. S. Lewis
+- The Sea of Fertility — Yukio Mishima
+- The Seasoned Schemer — Daniel P. Friedman; Matthias Felleisen
+- The Second Sleep — Robert Harris
+- The Sense of Structure — George Gopen
+- The Shadow of the Torturer — Gene Wolfe
+- The Shadow of the Wind — Carlos Ruiz Zafón
+- The Shadow of What Was Lost — James Islington
+- The Shards — Bret Easton Ellis
+- The Shockwave Rider — John Brunner
+- The Short-Timers — Gustav Hasford
+- The Signature of All Things — Elizabeth Gilbert
+- The Silent Patient — Alex Michaelides
+- The Silmarillion — J. R. R. Tolkien
+- The Sirens of Titan — Kurt Vonnegut
+- The Social Animal — Elliot Aronson
+- The Sound and the Fury — William Faulkner
+- The Specialist — Charles Sale
+- The Stormlight Archive — Brandon Sanderson
+- The Story of B — Daniel Quinn
+- The Strange Bird — Jeff VanderMeer
+- The Sundays of Jean Dézert — Jean de La Ville de Mirmont
+- The Sunken Land Begins to Rise Again — M. John Harrison
+- The Sunlit Man — Brandon Sanderson
+- The Sympathizer — Viet Thanh Nguyen
+- The Tartar Steppe — Dino Buzzati
+- The Temple of the Golden Pavilion — Yukio Mishima
+- The Ten Thousand Doors of January — Alix E. Harrow
+- The Things They Carried — Tim O'Brien
+- The Three Musketeers series — Alexandre Dumas
+- The Three-Body Problem — Cixin Liu
+- The Thursday Murder Club — Richard Osman
+- The Time Machine — H. G. Wells
+- The Time Traveler’s Wife — Audrey Niffenegger
+- The Two Towers — J. R. R. Tolkien
+- The Ultimate ETF Guidebook — David Stevenson; David Tuckwell
+- The Unicorn Project — Gene Kim
+- The Up-and-Under series — A. Deborah Baker
+- The Utopians trilogy
+- The Wandering Inn — pirateaba
+- The Warden — Anthony Trollope
+- The Water Knife — Paolo Bacigalupi
+- The Way of Kings — Brandon Sanderson
+- The Wheel of Time — Robert Jordan; Brandon Sanderson
+- The Will of the Many — James Islington
+- The Wind-Up Bird Chronicle — Haruki Murakami
+- The Windup Girl — Paolo Bacigalupi
+- The Wise Man’s Fear — Patrick Rothfuss
+- The Word for World Is Forest — Ursula K. Le Guin
+- The World Is Not Enough — Zoé Oldenbourg
+- The Young Elites series — Marie Lu
+- The Zenith Angle — Bruce Sterling
+- Theory of Bastards — Audrey Schulman
+- Theory of Oscillators — A. A. Andronov; A. A. Vitt; S. E. Khaikin
+- There Is No Antimemetics Division — qntm
+- Thief of Souls — Brian Klingborg
+- Thinking from A to Z — Nigel Warburton
+- Thinking Physics — Lewis Carroll Epstein
+- Thinking with Type — Ellen Lupton
+- This Is How You Lose the Time War — Amal El-Mohtar; Max Gladstone
+- Three Men in a Boat — Jerome K. Jerome
+- Through the Looking-Glass — Lewis Carroll
+- Tigana — Guy Gavriel Kay
+- Timeline of World History — Matt Baker; John Andrews (editors)
+- Tipping Points — Liz Wheeler
+- Titanium Noir — Nick Harkaway
+- To Kill a Mockingbird — Harper Lee
+- To the Lighthouse — Virginia Woolf
+- Toll the Hounds — Steven Erikson
+- Tom Swan and the Head of St. George — Christian Cameron
+- Tomorrow, and Tomorrow, and Tomorrow — Gabrielle Zevin
+- Topics in Algebra — I. N. Herstein
+- Traction — Gino Wickman
+- Trader Vic — Victor Sperandeo
+- Trading Under Fire — Major Gonzo
+- Traveler's Gate — Will Wight
+- Travels with My Aunt — Graham Greene
+- Tress of the Emerald Sea — Brandon Sanderson
+- True Grit — Charles Portis
+- Trust — Hernan Diaz
+- Turning the Mind into an Ally — Sakyong Mipham
+- Turtles All the Way Down — John Green
+- Typee: A Peep at Polynesian Life — Herman Melville
+- Ukridge — P. G. Wodehouse
+- Ultima — Stephen Baxter
+- Ulysses — James Joyce
+- Undermajordomo Minor — Patrick deWitt
+- Underworld — Don DeLillo
+- Unsheltered — Barbara Kingsolver
+- Unstoppable Prosperity — Charles Payne
+- Use of Weapons — Iain M. Banks
+- V for Vendetta — Alan Moore; David Lloyd
+- Valid — Chris Bergeron
+- Valuation — Tim Koller
+- Victory City — Salman Rushdie
+- Visual Complex Functions — Elias Wegert
+- Vita Nostra — Marina Dyachenko; Sergey Dyachenko
+- Vorkosigan Saga — Lois McMaster Bujold
+- Waking Up: Overcoming the Obstacles to Human Potential — Charles T. Tart
+- Walking Through Clear Water in a Pool Painted Black — Cookie Mueller
+- Walking Your Blues Away — Thom Hartmann
+- War and Peace — Leo Tolstoy
+- Ward — Wildbow
+- Ware Tetralogy — Rudy Rucker
+- Watchmen — Alan Moore; Dave Gibbons
+- Watership Down — Richard Adams
+- Way Station — Clifford D. Simak
+- Wayfarers series — Becky Chambers
+- We Are Legion (We Are Bob) — Dennis E. Taylor
+- Wealth of Wisdom — Tom McCullough
+- When I Say No, I Feel Guilty — Manuel J. Smith
+- When We Cease to Understand the World — Benjamín Labatut
+- Who — Geoff Smart
+- Whole Earth Catalog — Stewart Brand (editor)
+- Win Your Case — Gerry Spence
+- Wool — Hugh Howey
+- Wool series — Hugh Howey
+- XKCD — Randall Munroe
+- Yellowface — R. F. Kuang
+- Yumi and the Nightmare Painter — Brandon Sanderson

@@ -1,0 +1,1564 @@
+{
+  "efficiency": {
+    "domains": {
+      "MAT": {
+        "value": 2,
+        "rationale": "Glass composition constrains usable output.",
+        "refs": [
+          "https://assets.stripeassets.com/fzn2n1nzq965/5jlLbEZjWfQl635f1GdGLJ/9faaf48b9d2266bc61b11ed84d90b5ad/ORIGINS-OF-EFFICIENCY-ZINE.pdf"
+        ],
+        "confidence": "moderate"
+      },
+      "ENE": {
+        "value": 1,
+        "rationale": "Continuous furnace fuel use affects unit cost.",
+        "refs": [
+          "https://assets.stripeassets.com/fzn2n1nzq965/5jlLbEZjWfQl635f1GdGLJ/9faaf48b9d2266bc61b11ed84d90b5ad/ORIGINS-OF-EFFICIENCY-ZINE.pdf"
+        ],
+        "confidence": "moderate"
+      },
+      "FIN": {
+        "value": 1,
+        "rationale": "Work in process ties up paid capital.",
+        "refs": [
+          "https://assets.stripeassets.com/fzn2n1nzq965/5jlLbEZjWfQl635f1GdGLJ/9faaf48b9d2266bc61b11ed84d90b5ad/ORIGINS-OF-EFFICIENCY-ZINE.pdf"
+        ],
+        "confidence": "moderate"
+      },
+      "QNT": {
+        "value": 2,
+        "rationale": "Explicit production-rate, buffer and yield model.",
+        "refs": [
+          "https://assets.stripeassets.com/fzn2n1nzq965/5jlLbEZjWfQl635f1GdGLJ/9faaf48b9d2266bc61b11ed84d90b5ad/ORIGINS-OF-EFFICIENCY-ZINE.pdf"
+        ],
+        "confidence": "moderate"
+      }
+    },
+    "mechanisms": [
+      {
+        "id": "glass-yield",
+        "domains": [
+          "MAT",
+          "ENG",
+          "QLT",
+          "PRD"
+        ],
+        "roles": {
+          "MAT": "Mixture input",
+          "ENG": "Furnace and mold settings",
+          "QLT": "Variation and rejection",
+          "PRD": "Usable bulb output"
+        },
+        "statement": "Mixing and temperature variation change glass consistency and molding yield.",
+        "scope": "Chapter 1, glass bulb production.",
+        "refs": [
+          "https://assets.stripeassets.com/fzn2n1nzq965/5jlLbEZjWfQl635f1GdGLJ/9faaf48b9d2266bc61b11ed84d90b5ad/ORIGINS-OF-EFFICIENCY-ZINE.pdf"
+        ],
+        "strength": 3,
+        "confidence": "moderate"
+      },
+      {
+        "id": "buffers-capital",
+        "domains": [
+          "PRD",
+          "LOG",
+          "FIN"
+        ],
+        "roles": {
+          "PRD": "Workstation rates",
+          "LOG": "Intermediate inventory",
+          "FIN": "Capital tied in unsold output"
+        },
+        "statement": "Synchronizing production steps reduces waiting inventory and its capital commitment.",
+        "scope": "Chapter 1, bulb factories and process buffers.",
+        "refs": [
+          "https://assets.stripeassets.com/fzn2n1nzq965/5jlLbEZjWfQl635f1GdGLJ/9faaf48b9d2266bc61b11ed84d90b5ad/ORIGINS-OF-EFFICIENCY-ZINE.pdf"
+        ],
+        "strength": 3,
+        "confidence": "moderate"
+      },
+      {
+        "id": "furnace-scale",
+        "domains": [
+          "ENE",
+          "PRD",
+          "SCL",
+          "ECO"
+        ],
+        "roles": {
+          "ENE": "Continuous fuel input",
+          "PRD": "Operating rate",
+          "SCL": "Output volume",
+          "ECO": "Cost per bulb"
+        },
+        "statement": "More output spreads furnace fuel and other fixed costs; technology and demand constrain feasible scale.",
+        "scope": "Chapter 1, bulb factory utilization.",
+        "refs": [
+          "https://assets.stripeassets.com/fzn2n1nzq965/5jlLbEZjWfQl635f1GdGLJ/9faaf48b9d2266bc61b11ed84d90b5ad/ORIGINS-OF-EFFICIENCY-ZINE.pdf"
+        ],
+        "strength": 3,
+        "confidence": "moderate"
+      }
+    ],
+    "joins": [
+      {
+        "from": "glass-yield",
+        "to": "buffers-capital",
+        "handoff": "Bulb blanks passed to subsequent assembly",
+        "statement": "Produced blanks become inputs to later workstations; their waiting stock is work in process.",
+        "scope": "Chapter 1, blank production followed by bulb assembly.",
+        "strength": 3,
+        "confidence": "moderate",
+        "refs": [
+          "https://assets.stripeassets.com/fzn2n1nzq965/5jlLbEZjWfQl635f1GdGLJ/9faaf48b9d2266bc61b11ed84d90b5ad/ORIGINS-OF-EFFICIENCY-ZINE.pdf"
+        ]
+      },
+      {
+        "from": "glass-yield",
+        "to": "furnace-scale",
+        "handoff": "Usable bulb output rate",
+        "statement": "Transformation rate and yield determine the output over which continuously incurred inputs are allocated.",
+        "scope": "Chapter 1 process model and bulb-factory unit costs.",
+        "strength": 2,
+        "confidence": "moderate",
+        "refs": [
+          "https://assets.stripeassets.com/fzn2n1nzq965/5jlLbEZjWfQl635f1GdGLJ/9faaf48b9d2266bc61b11ed84d90b5ad/ORIGINS-OF-EFFICIENCY-ZINE.pdf"
+        ]
+      }
+    ],
+    "inspected": [
+      "Publisher Chapter 1 sample, main text across the 20-page PDF; no whole-book claim."
+    ],
+    "refs": [
+      "https://assets.stripeassets.com/fzn2n1nzq965/5jlLbEZjWfQl635f1GdGLJ/9faaf48b9d2266bc61b11ed84d90b5ad/ORIGINS-OF-EFFICIENCY-ZINE.pdf"
+    ],
+    "primaryReviewed": true
+  },
+  "arthur": {
+    "domains": {},
+    "mechanisms": [
+      {
+        "id": "phenomena-components",
+        "domains": [
+          "SCI",
+          "ENG",
+          "INN"
+        ],
+        "roles": {
+          "SCI": "Physical effects made usable",
+          "ENG": "Existing subsystem combinations",
+          "INN": "New functional technology"
+        },
+        "statement": "Novel technologies combine prior components that exploit physical effects; component availability constrains possible combinations.",
+        "scope": "Opening argument and jet-engine illustration; universality is not established.",
+        "refs": [
+          "https://www.simonandschuster.com/books/The-Nature-of-Technology/W-Brian-Arthur/9781416544067",
+          "analysis/analysis_widerd_261018_2208.md"
+        ],
+        "strength": 3,
+        "confidence": "moderate"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Publisher opening excerpt: existing components, natural phenomena and the jet-engine illustration; catalog contents.",
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://www.simonandschuster.com/books/The-Nature-of-Technology/W-Brian-Arthur/9781416544067",
+      "https://openlibrary.org/books/OL26333311M"
+    ],
+    "primaryReviewed": true
+  },
+  "buildings": {
+    "domains": {},
+    "mechanisms": [
+      {
+        "id": "different-change-rates",
+        "domains": [
+          "ENG",
+          "QLT",
+          "INS"
+        ],
+        "roles": {
+          "ENG": "Physical layers and interfaces",
+          "QLT": "Maintenance and interface failure",
+          "INS": "Occupant and ownership decisions"
+        },
+        "statement": "Building layers change at different rates; user and ownership choices can preserve adaptability or produce maintenance conflicts.",
+        "scope": "Adaptation of occupied buildings; prior analysis supplies the layer mechanism.",
+        "refs": [
+          "analysis/analysis_research92_261018_2235.md",
+          "https://www.penguinrandomhouse.com/books/320919/how-buildings-learn-by-stewart-brand/"
+        ],
+        "strength": 2,
+        "confidence": "moderate"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Publisher description plus prior assessment of layers, maintenance and ownership."
+    ],
+    "refs": [
+      "https://www.penguinrandomhouse.com/books/320919/how-buildings-learn-by-stewart-brand/"
+    ],
+    "primaryReviewed": true
+  },
+  "city": {
+    "domains": {
+      "POL": {
+        "value": 3,
+        "rationale": "Several sections examine treaties, jurisdiction and the creation of space states; explanatory depth beyond this contents evidence remains provisional.",
+        "refs": [
+          "https://openlibrary.org/books/OL47486574M",
+          "analysis/analysis_research92_261018_2235.md"
+        ],
+        "confidence": "moderate"
+      },
+      "ECO": {
+        "value": 2,
+        "rationale": "Settlement labor, company towns and economic viability receive distinct chapters and recur in the prior systems assessment.",
+        "refs": [
+          "https://openlibrary.org/books/OL47486574M",
+          "analysis/analysis_research92_261018_2235.md"
+        ],
+        "confidence": "moderate"
+      },
+      "MIL": {
+        "value": 1,
+        "rationale": "A dedicated chapter considers space war, but this review does not establish sustained military depth.",
+        "refs": [
+          "https://openlibrary.org/books/OL47486574M"
+        ],
+        "confidence": "low"
+      }
+    },
+    "mechanisms": [
+      {
+        "id": "habitat-supply",
+        "domains": [
+          "ENG",
+          "LOG",
+          "SCL"
+        ],
+        "roles": {
+          "ENG": "Life-support and habitat constraints",
+          "LOG": "Inputs, outputs and resupply",
+          "SCL": "Population viability"
+        },
+        "statement": "A settlement must sustain material flows and life support as population grows; these constraints limit plausible settlement plans.",
+        "scope": "Technical settlement assessment; political-risk claims are not merged into this mechanism.",
+        "refs": [
+          "analysis/analysis_research92_261018_2235.md",
+          "https://openlibrary.org/books/OL47486574M"
+        ],
+        "strength": 2,
+        "confidence": "moderate"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Publisher description and full catalog table of contents covering habitats, supplies, law and settlement governance.",
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://www.penguinrandomhouse.com/books/639449/a-city-on-mars-by-kelly-and-zach-weinersmith/",
+      "https://openlibrary.org/books/OL47486574M"
+    ],
+    "primaryReviewed": true
+  },
+  "energy": {
+    "domains": {},
+    "mechanisms": [
+      {
+        "id": "conversion-production",
+        "domains": [
+          "ENE",
+          "ENG",
+          "PRD",
+          "ECO"
+        ],
+        "roles": {
+          "ENE": "Available useful energy",
+          "ENG": "Conversion equipment",
+          "PRD": "Productive capacity",
+          "ECO": "Material output and development"
+        },
+        "statement": "Conversion technology changes the useful energy available for production and thereby constrains material output.",
+        "scope": "Cross-period energy-production explanation; energy is not treated as a sufficient cause of every historical event.",
+        "refs": [
+          "analysis/analysis_glaspsci_261019_0144.md#g0587",
+          "https://mitpress.mit.edu/9780262035774/energy-and-civilization/"
+        ],
+        "strength": 2,
+        "confidence": "moderate"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "MIT Press description of conversion, agriculture, industry and transport, compared with prior assessment."
+    ],
+    "refs": [
+      "https://mitpress.mit.edu/9780262035774/energy-and-civilization/"
+    ],
+    "primaryReviewed": true
+  },
+  "eghbal": {
+    "domains": {
+      "ECO": {
+        "value": 2,
+        "rationale": "Maintenance costs and scarce developer attention explain software production incentives.",
+        "refs": [
+          "analysis/analysis_glasptech_261019_0144.md#g0412",
+          "https://press.stripe.com/working-in-public"
+        ],
+        "confidence": "moderate"
+      }
+    },
+    "mechanisms": [
+      {
+        "id": "maintenance-capacity",
+        "domains": [
+          "CMP",
+          "SCL",
+          "INS",
+          "ECO"
+        ],
+        "roles": {
+          "CMP": "Reusable software and its maintenance",
+          "SCL": "User growth",
+          "INS": "Contributor capacity and incentives",
+          "ECO": "Scarce attention and upkeep cost"
+        },
+        "statement": "Usage can expand faster than maintainer capacity, changing the cost and incentive structure of open-source production.",
+        "scope": "Open-source projects; extension to all online creators remains less secure.",
+        "refs": [
+          "analysis/analysis_glasptech_261019_0144.md#g0412",
+          "https://press.stripe.com/working-in-public"
+        ],
+        "strength": 3,
+        "confidence": "moderate"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Publisher book description, read independently of other books displayed on the same page."
+    ],
+    "refs": [
+      "https://press.stripe.com/working-in-public"
+    ],
+    "primaryReviewed": true
+  },
+  "algorithms": {
+    "domains": {},
+    "mechanisms": [
+      {
+        "id": "bounded-computation",
+        "domains": [
+          "CMP",
+          "QNT",
+          "HEU"
+        ],
+        "roles": {
+          "CMP": "Algorithmic resource requirements",
+          "QNT": "Formal problem assumptions",
+          "HEU": "Decision rule under limited resources"
+        },
+        "statement": "Formal algorithmic tradeoffs yield decision rules under time and information limits, conditional on the real task matching the model.",
+        "scope": "Computational problem families in the prior review, not a claim that every life decision has a proven optimum.",
+        "refs": [
+          "analysis/analysis_tactical92_261018_2302.md"
+        ],
+        "strength": 2,
+        "confidence": "moderate"
+      }
+    ],
+    "joins": [],
+    "inspected": [],
+    "refs": []
+  },
+  "alignment": {
+    "domains": {},
+    "mechanisms": [
+      {
+        "id": "proxy-decisions",
+        "domains": [
+          "CMP",
+          "QNT",
+          "INS"
+        ],
+        "roles": {
+          "CMP": "Training representation and objective",
+          "QNT": "Proxy for the intended target",
+          "INS": "Decisions delegated to the system"
+        },
+        "statement": "A learned proxy can diverge from the intended objective when institutions use model outputs to make decisions.",
+        "scope": "Machine-learning alignment and institutional applications documented in the prior assessment.",
+        "refs": [
+          "analysis/analysis_tactical92_261018_2302.md",
+          "https://openlibrary.org/books/OL32011635M"
+        ],
+        "strength": 2,
+        "confidence": "moderate"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL32011635M"
+    ],
+    "primaryReviewed": false
+  },
+  "evolution": {
+    "domains": {},
+    "mechanisms": [
+      {
+        "id": "failure-redesign",
+        "domains": [
+          "ENG",
+          "MAT",
+          "PRD",
+          "INN"
+        ],
+        "roles": {
+          "ENG": "Artifact constraints",
+          "MAT": "Material form",
+          "PRD": "Manufacturing feasibility",
+          "INN": "Successive redesign"
+        },
+        "statement": "Dissatisfaction with an artifact prompts redesign within material and manufacturing constraints.",
+        "scope": "Comparative everyday-object histories; not a universal law that failure is necessary for invention.",
+        "refs": [
+          "analysis/analysis_research92_261018_2235.md",
+          "https://openlibrary.org/books/OL1398731M"
+        ],
+        "strength": 2,
+        "confidence": "moderate"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL1398731M"
+    ],
+    "primaryReviewed": false
+  },
+  "fictions": {
+    "domains": {},
+    "mechanisms": [
+      {
+        "id": "incentives-inference",
+        "domains": [
+          "INS",
+          "QNT"
+        ],
+        "roles": {
+          "INS": "Publication and career incentives",
+          "QNT": "Analytical flexibility and statistical selection"
+        },
+        "statement": "Rewards for publishable results can select analyses and suppress failed studies, distorting the evidence available to later inference.",
+        "scope": "Research publication practices; extreme cases cannot establish prevalence in every field.",
+        "refs": [
+          "analysis/analysis_tactical92_261018_2302.md",
+          "https://openlibrary.org/books/OL28176623M"
+        ],
+        "strength": 2,
+        "confidence": "moderate"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL28176623M"
+    ],
+    "primaryReviewed": false
+  },
+  "g0032": {
+    "domains": {
+      "CMP": {
+        "value": 2,
+        "rationale": "Shannon information work and computing recur across the description and several contents sections; this supports substantial coverage, not a textbook-level treatment.",
+        "refs": [
+          "https://openlibrary.org/books/OL26924043M",
+          "analysis/analysis_glaspbio_261019_0144.md#g0032"
+        ],
+        "confidence": "moderate"
+      },
+      "MIL": {
+        "value": 1,
+        "rationale": "Fire control and wartime research are specific episodes; their depth is uncertain.",
+        "refs": [
+          "https://openlibrary.org/books/OL26924043M",
+          "analysis/analysis_glaspbio_261019_0144.md#g0032"
+        ],
+        "confidence": "low"
+      }
+    },
+    "mechanisms": [],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL26924043M"
+    ],
+    "primaryReviewed": false
+  },
+  "g0192": {
+    "domains": {
+      "QLT": {
+        "value": 1,
+        "rationale": "The jacket identifies Six Sigma as a concrete management initiative; it does not establish detailed reliability analysis.",
+        "refs": [
+          "https://openlibrary.org/books/OL3318675M",
+          "analysis/analysis_glaspbiz_261019_0144.md#g0192"
+        ],
+        "confidence": "low"
+      },
+      "TRD": {
+        "value": 1,
+        "rationale": "Globalization is named as a concrete corporate initiative, with limited evidence of depth.",
+        "refs": [
+          "https://openlibrary.org/books/OL3318675M",
+          "analysis/analysis_glaspbiz_261019_0144.md#g0192"
+        ],
+        "confidence": "low"
+      }
+    },
+    "mechanisms": [],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL3318675M"
+    ],
+    "primaryReviewed": false
+  },
+  "g0273": {
+    "domains": {
+      "LOG": {
+        "value": 1,
+        "rationale": "The railroad acquisition is a distinct contents chapter within the manufacturing memoir.",
+        "refs": [
+          "https://openlibrary.org/books/OL3412764M",
+          "analysis/analysis_glaspbiz_261019_0144.md#g0273"
+        ],
+        "confidence": "low"
+      }
+    },
+    "mechanisms": [],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL3412764M"
+    ],
+    "primaryReviewed": false
+  },
+  "g0323": {
+    "domains": {
+      "CMP": {
+        "value": 1,
+        "rationale": "Digital distribution platforms change how artists reach audiences; technical computing detail is not established.",
+        "refs": [
+          "https://openlibrary.org/books/OL28227173M",
+          "analysis/analysis_glaspbiz_261019_0144.md#g0323"
+        ],
+        "confidence": "low"
+      }
+    },
+    "mechanisms": [
+      {
+        "id": "platform-livelihood",
+        "domains": [
+          "CMP",
+          "ECO",
+          "INS"
+        ],
+        "roles": {
+          "CMP": "Digital publication and distribution",
+          "ECO": "Artist income and funding",
+          "INS": "Production and promotion responsibilities"
+        },
+        "statement": "Digital access and funding changes shift more commercial tasks onto individual artists, changing the conditions for earning a living.",
+        "scope": "Artist interviews and the catalog-described argument; no universal claim about all creative work.",
+        "refs": [
+          "https://openlibrary.org/books/OL28227173M",
+          "analysis/analysis_glaspbiz_261019_0144.md#g0323"
+        ],
+        "strength": 2,
+        "confidence": "low"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL28227173M"
+    ],
+    "primaryReviewed": false
+  },
+  "g0374": {
+    "domains": {
+      "ECO": {
+        "value": 2,
+        "rationale": "Employment displacement and the economic response recur in the description and contents.",
+        "refs": [
+          "https://openlibrary.org/books/OL26575450M",
+          "analysis/analysis_glasptech_261019_0144.md#g0374"
+        ],
+        "confidence": "moderate"
+      }
+    },
+    "mechanisms": [],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL26575450M"
+    ],
+    "primaryReviewed": false
+  },
+  "g0404": {
+    "domains": {
+      "QLT": {
+        "value": 2,
+        "rationale": "Grid failures and operating instability recur across the account of changing generation and infrastructure.",
+        "refs": [
+          "https://openlibrary.org/books/OL27211014M",
+          "analysis/analysis_glasptech_261019_0144.md#g0404"
+        ],
+        "confidence": "moderate"
+      },
+      "ENG": {
+        "value": 2,
+        "rationale": "Electricity-system components, variable generation and system adaptation are substantial explanatory objects.",
+        "refs": [
+          "https://openlibrary.org/books/OL27211014M",
+          "analysis/analysis_glasptech_261019_0144.md#g0404"
+        ],
+        "confidence": "moderate"
+      }
+    },
+    "mechanisms": [
+      {
+        "id": "grid-inertia",
+        "domains": [
+          "ENE",
+          "ENG",
+          "QLT",
+          "INS"
+        ],
+        "roles": {
+          "ENE": "Variable electricity supply",
+          "ENG": "Inherited system configuration",
+          "QLT": "Operating failures",
+          "INS": "Centralized utility organization"
+        },
+        "statement": "Changing generation characteristics challenge a grid built around older operating and organizational assumptions.",
+        "scope": "US electricity-grid history; promotional claims of imminent collapse are not adopted as facts.",
+        "refs": [
+          "https://openlibrary.org/books/OL27211014M",
+          "analysis/analysis_glasptech_261019_0144.md#g0404"
+        ],
+        "strength": 2,
+        "confidence": "low"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL27211014M"
+    ],
+    "primaryReviewed": false
+  },
+  "g0418": {
+    "domains": {
+      "HTC": {
+        "value": 2,
+        "rationale": "Autonomous missiles, drones and robotic swarms receive repeated treatment.",
+        "refs": [
+          "https://openlibrary.org/books/OL26959079M",
+          "analysis/analysis_glasptech_261019_0144.md#g0418"
+        ],
+        "confidence": "moderate"
+      },
+      "STR": {
+        "value": 2,
+        "rationale": "Arms races, operational speed and stability receive a developed contents section.",
+        "refs": [
+          "https://openlibrary.org/books/OL26959079M",
+          "analysis/analysis_glasptech_261019_0144.md#g0418"
+        ],
+        "confidence": "moderate"
+      },
+      "POL": {
+        "value": 2,
+        "rationale": "Arms-control and legal-policy decisions have multiple named sections, supporting more than minor treatment.",
+        "refs": [
+          "https://openlibrary.org/books/OL26959079M",
+          "analysis/analysis_glasptech_261019_0144.md#g0418"
+        ],
+        "confidence": "moderate"
+      }
+    },
+    "mechanisms": [
+      {
+        "id": "autonomous-control",
+        "domains": [
+          "CMP",
+          "QLT",
+          "MIL",
+          "INS"
+        ],
+        "roles": {
+          "CMP": "Autonomous decision software",
+          "QLT": "Failure and control limits",
+          "MIL": "Weapon employment",
+          "INS": "Command authorization"
+        },
+        "statement": "Delegating weapon decisions to software changes failure modes and the human command structure needed to retain control.",
+        "scope": "Autonomous-weapons safety and command sections; no claim of a fully quantified risk model.",
+        "refs": [
+          "https://openlibrary.org/books/OL26959079M",
+          "analysis/analysis_glasptech_261019_0144.md#g0418"
+        ],
+        "strength": 2,
+        "confidence": "moderate"
+      },
+      {
+        "id": "speed-stability",
+        "domains": [
+          "CMP",
+          "MIL",
+          "STR"
+        ],
+        "roles": {
+          "CMP": "Machine-speed interaction",
+          "MIL": "Competing weapon systems",
+          "STR": "Escalation and strategic stability"
+        },
+        "statement": "Competing autonomous systems can create pressures for faster action that affect escalation control.",
+        "scope": "The speed-race and stability sections; strength is limited by contents-level evidence.",
+        "refs": [
+          "https://openlibrary.org/books/OL26959079M",
+          "analysis/analysis_glasptech_261019_0144.md#g0418"
+        ],
+        "strength": 1,
+        "confidence": "low"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL26959079M"
+    ],
+    "primaryReviewed": false
+  },
+  "g0482": {
+    "domains": {
+      "POL": {
+        "value": 1,
+        "rationale": "Government-backed demand is an identified enabling condition; wider policy depth is not established.",
+        "refs": [
+          "https://openlibrary.org/books/OL7598862M",
+          "analysis/analysis_glasptech_261019_0144.md#g0482"
+        ],
+        "confidence": "low"
+      }
+    },
+    "mechanisms": [
+      {
+        "id": "supercomputer-development",
+        "domains": [
+          "CMP",
+          "ENG",
+          "INS",
+          "HTC"
+        ],
+        "roles": {
+          "CMP": "Computational architecture",
+          "ENG": "Physical implementation constraints",
+          "INS": "Small teams and corporate autonomy",
+          "HTC": "Realized supercomputer capability"
+        },
+        "statement": "Architecture and implementation choices develop within organizational arrangements that can enable or obstruct a high-performance machine.",
+        "scope": "Cray industry history; the short review does not justify a universal superiority claim for small teams.",
+        "refs": [
+          "analysis/analysis_glasptech_261019_0144.md#g0482",
+          "https://openlibrary.org/books/OL7598862M"
+        ],
+        "strength": 2,
+        "confidence": "low"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL7598862M"
+    ],
+    "primaryReviewed": false
+  },
+  "g0588": {
+    "domains": {
+      "ENG": {
+        "value": 2,
+        "rationale": "Engine, reactor, sequestration and wind-system constraints recur through the detailed contents.",
+        "refs": [
+          "https://openlibrary.org/books/OL24493456M",
+          "analysis/analysis_glaspsci_261019_0144.md#g0588"
+        ],
+        "confidence": "moderate"
+      },
+      "MAT": {
+        "value": 1,
+        "rationale": "Resource availability and competing fuel feedstocks receive identifiable treatment.",
+        "refs": [
+          "https://openlibrary.org/books/OL24493456M",
+          "analysis/analysis_glaspsci_261019_0144.md#g0588"
+        ],
+        "confidence": "low"
+      },
+      "POL": {
+        "value": 1,
+        "rationale": "A closing policy section translates the technical comparison into policy implications.",
+        "refs": [
+          "https://openlibrary.org/books/OL24493456M",
+          "analysis/analysis_glaspsci_261019_0144.md#g0588"
+        ],
+        "confidence": "low"
+      }
+    },
+    "mechanisms": [
+      {
+        "id": "transition-rate",
+        "domains": [
+          "ENE",
+          "LOG",
+          "SCL",
+          "ECO"
+        ],
+        "roles": {
+          "ENE": "Replacement energy supply",
+          "LOG": "Required new infrastructure",
+          "SCL": "Deployment volume and pace",
+          "ECO": "Cost constraints"
+        },
+        "statement": "Large installed systems and the expense of replacement infrastructure constrain how quickly energy supply can change.",
+        "scope": "Energy-transition comparisons; historical technology forecasts are not treated as current facts.",
+        "refs": [
+          "analysis/analysis_glaspsci_261019_0144.md#g0588",
+          "https://openlibrary.org/books/OL24493456M"
+        ],
+        "strength": 2,
+        "confidence": "moderate"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL24493456M"
+    ],
+    "primaryReviewed": false
+  },
+  "g0823": {
+    "domains": {
+      "QNT": {
+        "value": 2,
+        "rationale": "Measuring intangible investment and national-account effects is an explicit recurring task.",
+        "refs": [
+          "https://openlibrary.org/books/OL26943713M",
+          "analysis/analysis_glaspecon_261019_0144.md#g0823"
+        ],
+        "confidence": "moderate"
+      },
+      "POL": {
+        "value": 1,
+        "rationale": "A specific section examines policy questions, but its depth was not directly sampled.",
+        "refs": [
+          "https://openlibrary.org/books/OL26943713M",
+          "analysis/analysis_glaspecon_261019_0144.md#g0823"
+        ],
+        "confidence": "low"
+      },
+      "INN": {
+        "value": 1,
+        "rationale": "Research and design assets provide concrete innovation cases within the investment argument.",
+        "refs": [
+          "https://openlibrary.org/books/OL26943713M",
+          "analysis/analysis_glaspecon_261019_0144.md#g0823"
+        ],
+        "confidence": "low"
+      }
+    },
+    "mechanisms": [
+      {
+        "id": "intangible-capital",
+        "domains": [
+          "FIN",
+          "SCL",
+          "INS",
+          "ECO"
+        ],
+        "roles": {
+          "FIN": "Intangible investment",
+          "SCL": "Reuse and spillovers",
+          "INS": "Firm organization and complements",
+          "ECO": "Productivity and returns"
+        },
+        "statement": "Scalability, sunk costs and spillovers make intangible investments behave differently from physical assets, changing financing and firm incentives.",
+        "scope": "Intangible-capital explanation; measurement uncertainty and outcome attribution remain limits.",
+        "refs": [
+          "analysis/analysis_glaspecon_261019_0144.md#g0823",
+          "https://openlibrary.org/books/OL26943713M"
+        ],
+        "strength": 2,
+        "confidence": "moderate"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL26943713M"
+    ],
+    "primaryReviewed": false
+  },
+  "g0876": {
+    "domains": {
+      "FIN": {
+        "value": 2,
+        "rationale": "Financial flows, credit risk and investment implications are explicit sections; eligibility as a guide needs separate review.",
+        "refs": [
+          "https://openlibrary.org/books/OL27195690M",
+          "analysis/analysis_glaspecon_261019_0144.md#g0876"
+        ],
+        "confidence": "moderate"
+      },
+      "POL": {
+        "value": 2,
+        "rationale": "Regulation, intervention and fiscal policy receive developed contents sections.",
+        "refs": [
+          "https://openlibrary.org/books/OL27195690M",
+          "analysis/analysis_glaspecon_261019_0144.md#g0876"
+        ],
+        "confidence": "moderate"
+      },
+      "TRD": {
+        "value": 2,
+        "rationale": "Global energy markets and globalization structure several parts of the account.",
+        "refs": [
+          "https://openlibrary.org/books/OL27195690M",
+          "analysis/analysis_glaspecon_261019_0144.md#g0876"
+        ],
+        "confidence": "moderate"
+      },
+      "STR": {
+        "value": 1,
+        "rationale": "Energy security and geopolitics have a dedicated section, without enough sampled text for a deeper grade.",
+        "refs": [
+          "https://openlibrary.org/books/OL27195690M",
+          "analysis/analysis_glaspecon_261019_0144.md#g0876"
+        ],
+        "confidence": "low"
+      }
+    },
+    "mechanisms": [],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL27195690M"
+    ],
+    "primaryReviewed": false
+  },
+  "g1089": {
+    "domains": {
+      "FIN": {
+        "value": 1,
+        "rationale": "Investment flows and financing regional infrastructure are identifiable topics; sweeping predictions do not establish mechanism strength.",
+        "refs": [
+          "https://openlibrary.org/books/OL28918206M",
+          "analysis/analysis_glasphist_261019_0144.md#g1089"
+        ],
+        "confidence": "low"
+      }
+    },
+    "mechanisms": [],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL28918206M"
+    ],
+    "primaryReviewed": false
+  },
+  "q0010": {
+    "domains": {
+      "POL": {
+        "value": 2,
+        "rationale": "Comparative city chapters explicitly examine political coordination of electricity systems.",
+        "refs": [
+          "https://openlibrary.org/books/OL49819465M",
+          "analysis/analysis_web80_261018_0229.md#w19"
+        ],
+        "confidence": "moderate"
+      },
+      "INN": {
+        "value": 2,
+        "rationale": "Invention, technology transfer and reverse salients recur across the historical structure.",
+        "refs": [
+          "https://openlibrary.org/books/OL49819465M",
+          "analysis/analysis_web80_261018_0229.md#w19"
+        ],
+        "confidence": "moderate"
+      }
+    },
+    "mechanisms": [
+      {
+        "id": "electric-system-growth",
+        "domains": [
+          "ENE",
+          "ENG",
+          "FIN",
+          "INS",
+          "SCL"
+        ],
+        "roles": {
+          "ENE": "Electricity supply and load",
+          "ENG": "Bottleneck and network design",
+          "FIN": "System investment",
+          "INS": "Institutional control",
+          "SCL": "Interconnected-system growth"
+        },
+        "statement": "Load balancing and technical bottlenecks shape investment needs, while institutional control conditions how interconnected electricity systems expand.",
+        "scope": "Comparative electrification histories; the framework is interpretive, not a predictive law.",
+        "refs": [
+          "analysis/analysis_web80_261018_0229.md#w19",
+          "https://openlibrary.org/books/OL49819465M"
+        ],
+        "strength": 2,
+        "confidence": "moderate"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL49819465M"
+    ],
+    "primaryReviewed": false
+  },
+  "q0024": {
+    "domains": {
+      "ENG": {
+        "value": 1,
+        "rationale": "Audio engineering and MP3 development form one specific narrative strand.",
+        "refs": [
+          "https://openlibrary.org/books/OL27220028M",
+          "analysis/analysis_obscurebooks_261017_1936.md"
+        ],
+        "confidence": "low"
+      },
+      "PRD": {
+        "value": 1,
+        "rationale": "A compact-disc manufacturing plant provides a concrete production episode.",
+        "refs": [
+          "https://openlibrary.org/books/OL27220028M",
+          "analysis/analysis_obscurebooks_261017_1936.md"
+        ],
+        "confidence": "low"
+      }
+    },
+    "mechanisms": [],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL27220028M"
+    ],
+    "primaryReviewed": false
+  },
+  "q0102": {
+    "domains": {
+      "ENG": {
+        "value": 2,
+        "rationale": "Design and construction of network switching equipment are substantial parts of the described history.",
+        "refs": [
+          "https://openlibrary.org/books/OL10859636M",
+          "analysis/analysis_glasptech_261019_0144.md#g0490"
+        ],
+        "confidence": "moderate"
+      },
+      "POL": {
+        "value": 1,
+        "rationale": "ARPA contracts and public research funding are specific enabling conditions.",
+        "refs": [
+          "https://openlibrary.org/books/OL10859636M",
+          "analysis/analysis_glasptech_261019_0144.md#g0490"
+        ],
+        "confidence": "low"
+      }
+    },
+    "mechanisms": [
+      {
+        "id": "funded-network",
+        "domains": [
+          "CMP",
+          "ENG",
+          "INS",
+          "POL"
+        ],
+        "roles": {
+          "CMP": "Protocols and resource sharing",
+          "ENG": "Switching equipment",
+          "INS": "Research collaboration and contracts",
+          "POL": "Public research support"
+        },
+        "statement": "Publicly funded collaboration joins switching hardware and communication protocols to make remote computer-resource sharing possible.",
+        "scope": "Early ARPANET history; not a claim that military operations governed every technical design.",
+        "refs": [
+          "analysis/analysis_glasptech_261019_0144.md#g0490",
+          "https://openlibrary.org/books/OL10859636M"
+        ],
+        "strength": 2,
+        "confidence": "moderate"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL10859636M"
+    ],
+    "primaryReviewed": false
+  },
+  "g0234": {
+    "domains": {},
+    "mechanisms": [
+      {
+        "id": "ownership-control",
+        "domains": [
+          "FIN",
+          "INS"
+        ],
+        "roles": {
+          "FIN": "Shareholder capital and returns",
+          "INS": "Directors and manager control"
+        },
+        "statement": "Conflicting owner and manager interests produce shareholder interventions into corporate decisions.",
+        "scope": "The corporate disputes selected in the catalog description and prior assessment.",
+        "refs": [
+          "https://openlibrary.org/books/OL27202681M",
+          "analysis/analysis_glaspbiz_261019_0144.md#g0234"
+        ],
+        "strength": 2,
+        "confidence": "low"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL27202681M"
+    ],
+    "primaryReviewed": false
+  },
+  "g0288": {
+    "domains": {},
+    "mechanisms": [
+      {
+        "id": "relational-pricing",
+        "domains": [
+          "INS",
+          "ECO"
+        ],
+        "roles": {
+          "INS": "Agent networks and evaluation communities",
+          "ECO": "Talent prices and project transactions"
+        },
+        "statement": "Agents use relationships and shared evaluations to establish value and arrange transactions for differentiated talent.",
+        "scope": "Hollywood talent markets described in the contents; generalization outside this market remains untested.",
+        "refs": [
+          "https://openlibrary.org/books/OL26939723M",
+          "analysis/analysis_glaspbiz_261019_0144.md#g0288"
+        ],
+        "strength": 2,
+        "confidence": "low"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL26939723M"
+    ],
+    "primaryReviewed": false
+  },
+  "g0290": {
+    "domains": {},
+    "mechanisms": [
+      {
+        "id": "short-term-incentives",
+        "domains": [
+          "INS",
+          "FIN"
+        ],
+        "roles": {
+          "INS": "Manager compensation and reporting",
+          "FIN": "Investment horizon and capital value"
+        },
+        "statement": "Short-horizon performance rewards can redirect managers away from longer-term investment value.",
+        "scope": "Corporate and investment management incentives; this records the argument without accepting a complete explanation of the financial crisis.",
+        "refs": [
+          "https://openlibrary.org/books/OL24827585M",
+          "analysis/analysis_glaspbiz_261019_0144.md#g0290"
+        ],
+        "strength": 2,
+        "confidence": "low"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL24827585M"
+    ],
+    "primaryReviewed": false
+  },
+  "g0319": {
+    "domains": {},
+    "mechanisms": [],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL8021047M"
+    ],
+    "primaryReviewed": false
+  },
+  "g0435": {
+    "domains": {},
+    "mechanisms": [
+      {
+        "id": "uncertain-preferences",
+        "domains": [
+          "CMP",
+          "QNT",
+          "HEU"
+        ],
+        "roles": {
+          "CMP": "Objective design for AI",
+          "QNT": "Uncertainty about preferences",
+          "HEU": "Deference to human decisions"
+        },
+        "statement": "The proposed design makes uncertainty about human preferences a reason for a system to seek guidance instead of rigidly pursuing a fixed objective.",
+        "scope": "Russell proposed design framework; the catalog does not verify every claimed proof or deployment guarantee.",
+        "refs": [
+          "https://openlibrary.org/books/OL27724147M",
+          "analysis/analysis_glasptech_261019_0144.md#g0435"
+        ],
+        "strength": 2,
+        "confidence": "low"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL27724147M"
+    ],
+    "primaryReviewed": false
+  },
+  "g1198": {
+    "domains": {},
+    "mechanisms": [
+      {
+        "id": "horizon-mismatch",
+        "domains": [
+          "FIN",
+          "INS"
+        ],
+        "roles": {
+          "FIN": "Long-lived investment commitments",
+          "INS": "Fund-manager incentives and planning"
+        },
+        "statement": "Internal incentives and investor constraints can prevent long-horizon capital from being managed on a genuinely long horizon.",
+        "scope": "The book-described institutional-investment cases; the description does not establish effect sizes.",
+        "refs": [
+          "https://openlibrary.org/books/OL27337633M",
+          "analysis/analysis_glaspinvest_261019_0144.md#g1198"
+        ],
+        "strength": 2,
+        "confidence": "low"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL27337633M"
+    ],
+    "primaryReviewed": false
+  },
+  "q0005": {
+    "domains": {},
+    "mechanisms": [
+      {
+        "id": "lean-system",
+        "domains": [
+          "PRD",
+          "QLT",
+          "LOG",
+          "INS"
+        ],
+        "roles": {
+          "PRD": "Factory flow",
+          "QLT": "Production quality",
+          "LOG": "Supplier coordination",
+          "INS": "Work organization"
+        },
+        "statement": "Production flow and quality depend jointly on supplier coordination and the organization of factory work.",
+        "scope": "Comparative lean-production account; success narratives do not prove universal transfer.",
+        "refs": [
+          "analysis/analysis_readlately_261017_2316.md#h119",
+          "https://openlibrary.org/books/OL7949172M"
+        ],
+        "strength": 2,
+        "confidence": "moderate"
+      }
+    ],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL7949172M"
+    ],
+    "primaryReviewed": false
+  },
+  "internet": {
+    "domains": {},
+    "mechanisms": [],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL26978003M"
+    ],
+    "primaryReviewed": false
+  },
+  "mitchell": {
+    "domains": {},
+    "mechanisms": [],
+    "joins": [],
+    "inspected": [
+      "Matching Open Library edition description and/or available contents read for domain scope; publisher-origin text remains a catalog observation."
+    ],
+    "refs": [
+      "https://openlibrary.org/books/OL27945874M"
+    ],
+    "primaryReviewed": false
+  },
+  "g0444": {
+    "domains": {},
+    "mechanisms": [
+      {
+        "id": "adoption-resistance",
+        "domains": [
+          "ENG",
+          "INS",
+          "INN"
+        ],
+        "roles": {
+          "ENG": "Changed operating technology",
+          "INS": "Organizational routines and resistance",
+          "INN": "Adoption or delayed adoption"
+        },
+        "statement": "Existing routines and institutional commitments can obstruct adoption even when a technical change offers operational gains.",
+        "scope": "Historical adoption essays; strength is limited by short case summaries.",
+        "refs": [
+          "analysis/analysis_glasptech_261019_0144.md#g0444",
+          "https://openlibrary.org/books/OL29310542M"
+        ],
+        "strength": 2,
+        "confidence": "low"
+      }
+    ],
+    "joins": [],
+    "inspected": [],
+    "refs": []
+  },
+  "g0872": {
+    "domains": {},
+    "mechanisms": [
+      {
+        "id": "relative-productivity",
+        "domains": [
+          "PRD",
+          "ECO"
+        ],
+        "roles": {
+          "PRD": "Unequal output growth per worker",
+          "ECO": "Relative wages and service prices"
+        },
+        "statement": "Unequal productivity growth changes the relative cost of labor-intensive services as wages respond to the wider economy.",
+        "scope": "Baumol cost-disease mechanism; not an exhaustive cause of every health or education price increase.",
+        "refs": [
+          "analysis/analysis_glaspecon_261019_0144.md#g0872",
+          "https://openlibrary.org/books/OL27143892M"
+        ],
+        "strength": 2,
+        "confidence": "low"
+      }
+    ],
+    "joins": [],
+    "inspected": [],
+    "refs": []
+  },
+  "g1141": {
+    "domains": {},
+    "mechanisms": [
+      {
+        "id": "noise-and-selection",
+        "domains": [
+          "QNT",
+          "HEU"
+        ],
+        "roles": {
+          "QNT": "Skill, luck and regression",
+          "HEU": "Judging observed performance"
+        },
+        "statement": "Separating noise from skill changes how observed success should guide future choices.",
+        "scope": "Cross-activity performance inference, with simpler models than many real decisions require.",
+        "refs": [
+          "analysis/analysis_glaspinvest_261019_0144.md#g1141",
+          "https://openlibrary.org/books/OL25317159M"
+        ],
+        "strength": 2,
+        "confidence": "low"
+      }
+    ],
+    "joins": [],
+    "inspected": [],
+    "refs": []
+  },
+  "q0054": {
+    "domains": {},
+    "mechanisms": [
+      {
+        "id": "failure-assumptions",
+        "domains": [
+          "ENG",
+          "QLT",
+          "HEU"
+        ],
+        "roles": {
+          "ENG": "Design extrapolation",
+          "QLT": "Safety margin and failure",
+          "HEU": "Revision of design judgment"
+        },
+        "statement": "Failures expose where design assumptions or safety margins fail to transfer, prompting changes in subsequent judgment.",
+        "scope": "Selected engineering histories; selection of accidents does not establish statistical base rates.",
+        "refs": [
+          "analysis/analysis_web80_261018_0229.md#w21",
+          "https://openlibrary.org/books/OL1566661M"
+        ],
+        "strength": 2,
+        "confidence": "low"
+      }
+    ],
+    "joins": [],
+    "inspected": [],
+    "refs": []
+  },
+  "q0099": {
+    "domains": {},
+    "mechanisms": [
+      {
+        "id": "organizational-failure",
+        "domains": [
+          "ENG",
+          "QLT",
+          "INS"
+        ],
+        "roles": {
+          "ENG": "Component interactions",
+          "QLT": "Weak warning signs and failure",
+          "INS": "Schedule pressure and response"
+        },
+        "statement": "Organizational pressure and response to weak signals can amplify failures produced by interacting components.",
+        "scope": "Reconstructed accident cases; uncertainty about counterfactual control remains.",
+        "refs": [
+          "analysis/analysis_web80_261018_0229.md#w24",
+          "https://openlibrary.org/books/OL15538745M"
+        ],
+        "strength": 2,
+        "confidence": "low"
+      }
+    ],
+    "joins": [],
+    "inspected": [],
+    "refs": []
+  },
+  "q0142": {
+    "domains": {},
+    "mechanisms": [
+      {
+        "id": "attack-defense",
+        "domains": [
+          "CMP",
+          "QNT",
+          "STR"
+        ],
+        "roles": {
+          "CMP": "Cipher and key-distribution design",
+          "QNT": "Mathematical attack constraints",
+          "STR": "Adversarial adaptation"
+        },
+        "statement": "Attacks reveal weaknesses that motivate new defensive designs and key-distribution methods.",
+        "scope": "Historical cryptography; no assurance about current cryptographic security.",
+        "refs": [
+          "analysis/analysis_physcanon_261018_0147.md#p079",
+          "https://openlibrary.org/books/OL7440495M"
+        ],
+        "strength": 2,
+        "confidence": "low"
+      }
+    ],
+    "joins": [],
+    "inspected": [],
+    "refs": []
+  }
+}

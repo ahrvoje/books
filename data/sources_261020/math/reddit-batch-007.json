@@ -1,0 +1,1192 @@
+[
+  {
+    "index": 50,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": 1936,
+      "status": "Verified matching archived product response; explicit global ratings label. Title and author checked.",
+      "marketplace": "www.amazon.com.au",
+      "asin": "080214425X",
+      "url": "https://www.amazon.com.au/dp/080214425X",
+      "retrievedAt": "2026-10-20T14:40:35.140Z",
+      "evidence": [
+        "data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">1,936 global ratings"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.amazon.com.au/dp/080214425X",
+          "retrievedAt": "2026-10-20T14:40:35.140Z",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0157-080214425X-www.amazon.com.au-3048c4d07ab9fe6f.html.gz",
+          "result": "Matching title, author and explicit global-rating label."
+        }
+      ]
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/080214425X",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Amazon archived product: 1936 global ratings; 2026-10-20T14:40:35.140Z.",
+    "enrichment": {
+      "edition": {
+        "pages": 528,
+        "id": "ISBN:9780802144256",
+        "url": "https://groveatlantic.com/book/ship-of-gold-in-the-deep-blue-sea/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2009,
+        "confidence": "high"
+      },
+      "domains": {
+        "ENG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Deep-ocean equipment and working access organize the project.",
+          "refs": [
+            "https://groveatlantic.com/book/ship-of-gold-in-the-deep-blue-sea/"
+          ]
+        },
+        "HTC": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Remote recovery technology enables a previously infeasible task.",
+          "refs": [
+            "https://groveatlantic.com/book/ship-of-gold-in-the-deep-blue-sea/"
+          ]
+        },
+        "HEU": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Search and iterative problem solving guide the recovery.",
+          "refs": [
+            "analysis/analysis_bestever_261017_2138.md#b072"
+          ]
+        },
+        "FIN": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Project funding sustains uncertain technical development.",
+          "refs": [
+            "analysis/analysis_bestever_261017_2138.md#b072"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "funded-search-and-ocean-engineering",
+            "domains": [
+              "ENG",
+              "HTC",
+              "HEU",
+              "FIN"
+            ],
+            "roles": {
+              "ENG": "Operating at extreme depth",
+              "HTC": "Remote recovery equipment",
+              "HEU": "Search and iterative testing",
+              "FIN": "Capital sustaining uncertain development"
+            },
+            "statement": "Financing supports iterative search and equipment development until remote tools can operate at the depth of the wreck.",
+            "scope": "Central America recovery project; later financial conduct is outside this mechanism.",
+            "strength": 3,
+            "confidence": "moderate",
+            "refs": [
+              "analysis/analysis_bestever_261017_2138.md#b072"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Narrative account of a shipwreck and technical recovery project, not salvage instruction.",
+    "reason": "No serious veto established. The recovery project supplies real engineering and search lessons; it is not an endorsement of the later conduct of its participants.",
+    "reassessment": "Reread b072 and the current deduction row. Publisher confirms the technical recovery scope and explicitly dates the treasure’s return to October1989. Retain all ten attainments, no veto, zero themes and 1998; correct old endpoint1988 to1989. Archived matching product confirms 1,936 global ratings, with no deduction change.",
+    "evidence": [
+      "https://groveatlantic.com/book/ship-of-gold-in-the-deep-blue-sea/",
+      "analysis/analysis_bestever_261017_2138.md#b072",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0157"
+    ],
+    "raw": [
+      16,
+      14.166666666666666,
+      12,
+      9.176470588235293,
+      7,
+      9,
+      6,
+      4,
+      3,
+      2
+    ],
+    "notes": [
+      "E16: reporting and project access support events, with participant-selection limits.",
+      "S14.1667: search, underwater engineering and project finance interact.",
+      "U12: staged search and equipment adaptation transfer.",
+      "M9.1765: depth and operating constraints explain the recovery work.",
+      "D7: the long shipwreck narrative reduces technical concentration.",
+      "R9: engineering under uncertainty remains durable.",
+      "F6: ocean engineering and complex project execution fit strongly.",
+      "A4: detailed original reporting supports authority.",
+      "N3: historical loss and modern recovery form a clear double arc.",
+      "P2: concrete technical explanation supports the earlier prose assessment."
+    ],
+    "year": 1998,
+    "yearNote": "Publisher explicitly identifies original publication in1998; inspected paperback2009.",
+    "periodEnd": 1989,
+    "periodNote": "Publisher dates the recovered treasure’s return to October1989, completing the main modern recovery arc.",
+    "themeNote": "T11=0: technical recovery dominates the transferable account despite the American shipwreck. T12=0: finance enables engineering rather than becoming the main topic."
+  },
+  {
+    "index": 51,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "moderate",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": 4200,
+      "status": "Verified matching archived product response; explicit global ratings label. Title and author checked.",
+      "marketplace": "www.amazon.com.au",
+      "asin": "1451683235",
+      "url": "https://www.amazon.com.au/dp/1451683235",
+      "retrievedAt": "2026-10-20T14:41:04.273Z",
+      "evidence": [
+        "data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">4,200 global ratings"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.amazon.com.au/dp/1451683235",
+          "retrievedAt": "2026-10-20T14:41:04.273Z",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0278-1451683235-www.amazon.com.au-53b0a420a65b3d03.html.gz",
+          "result": "Matching title, author and explicit global-rating label."
+        }
+      ]
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/1451683235",
+    "purchaseFormat": "Anniversary hardcover, ISBN9781451683233; earlier paperback label corrected.",
+    "reader": "Amazon archived product: 4200 global ratings; 2026-10-20T14:41:04.273Z.",
+    "enrichment": {
+      "edition": {
+        "pages": 608,
+        "id": "ISBN:9781451683233",
+        "url": "https://www.simonandschuster.com/books/The-Great-Bridge/David-McCullough/9781451683233/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Hardcover",
+        "year": 2012,
+        "confidence": "high"
+      },
+      "domains": {
+        "ENG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Bridge design and construction constraints are central.",
+          "refs": [
+            "https://www.simonandschuster.com/books/The-Great-Bridge/David-McCullough/9781451683233/"
+          ]
+        },
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Project authority, work and civic governance shape execution.",
+          "refs": [
+            "https://www.simonandschuster.com/books/The-Great-Bridge/David-McCullough/9781451683233/"
+          ]
+        },
+        "FIN": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Financing and public commitments sustain the project.",
+          "refs": [
+            "analysis/analysis_pastedlists_261018_0118.md#p018"
+          ]
+        },
+        "QLT": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Structural reliability and material integrity are recurring concerns.",
+          "refs": [
+            "https://www.simonandschuster.com/books/The-Great-Bridge/David-McCullough/9781451683233/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "bridge-design-and-project-governance",
+            "domains": [
+              "ENG",
+              "INS",
+              "FIN",
+              "QLT"
+            ],
+            "roles": {
+              "ENG": "Structural and construction choices",
+              "INS": "Project and civic authority",
+              "FIN": "Funding continuity",
+              "QLT": "Reliability constraints"
+            },
+            "statement": "A viable bridge design still requires sustained finance and authority to manage construction risks and preserve required quality.",
+            "scope": "Brooklyn Bridge project.",
+            "strength": 3,
+            "confidence": "moderate",
+            "refs": [
+              "analysis/analysis_pastedlists_261018_0118.md#p018"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Public historical narrative of a bridge project and its civic setting, not civil-engineering instruction.",
+    "reason": "No serious veto established. Engineering, capital and organization supply transferable content despite substantial urban and family history.",
+    "reassessment": "Reread p018 and current deduction row. Publisher excerpt confirms the engineering/project account. Retain all ten attainments, no veto, T11=-10, T12=0,1972 and1883. Archived Amazon.com.au product supplies4,200 explicit global ratings; a lower count than the older US product is a different-market observation, not subtraction. O15 remains0. Correct linkedISBN9781451683233 to2012 anniversary hardcover,608pages.",
+    "evidence": [
+      "https://www.simonandschuster.com/books/The-Great-Bridge/David-McCullough/9781451683233/",
+      "analysis/analysis_pastedlists_261018_0118.md#p018",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0278"
+    ],
+    "raw": [
+      18,
+      15.583333333333334,
+      12,
+      9.882352941176471,
+      6,
+      9,
+      6,
+      5,
+      3,
+      2
+    ],
+    "notes": [
+      "E18: documentary project history supports reliability without proving a universal theory.",
+      "S15.5833: design, finance, labor and civic authority interact.",
+      "U12: complex infrastructure execution offers strong transfer.",
+      "M9.8824: technical and organizational constraints explain delays and choices.",
+      "D6: family and New York history reduce mechanism density.",
+      "R9: infrastructure coordination remains durable.",
+      "F6: engineering and major-project execution closely fit.",
+      "A5: established historical scholarship and sustained serious attention support the retained maximum.",
+      "N3: construction provides a clear cumulative chronology.",
+      "P2: the sample states technical objections and decisions clearly."
+    ],
+    "year": 1972,
+    "yearNote": "Original1972 retained from prior sourced assessment;2012 is the anniversary edition.",
+    "periodEnd": 1883,
+    "periodNote": "Publisher narrative ends with the completed bridge in1883.",
+    "themeNote": "T11=-10: New York urban and civic history is a major organizing frame. T12=0: politics and finance support the engineering project."
+  },
+  {
+    "index": 52,
+    "status": "vetoed",
+    "confidence": "low",
+    "yearConfidence": "high",
+    "periodConfidence": "low",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Eleven Seconds\" \"Travis Roy\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-125.json",
+          "result": "No verified matching book total-rating aggregate; podcast results are not book ratings."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Eleven%20Seconds%20%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 240,
+        "id": "ISBN:9780446521888",
+        "url": "https://www.hachettebookgroup.com/titles/travis-roy/eleven-seconds/9780446521888/?lens=grand-central-publishing",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Hardcover",
+        "year": 1998,
+        "confidence": "high"
+      },
+      "domains": {},
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "author": "Travis Roy; E. M. Swift",
+    "veto": "V3",
+    "vetoConfidence": "moderate",
+    "eligibility": "A sports-injury and recovery memoir, not fiction or a medical instruction manual.",
+    "reason": "V3 at moderate confidence: the inspected purpose is personal courage, family support and adaptation after injury. It does not establish sustained mechanisms or models beyond general inspiration, and the science/high-tech biography exception does not apply.",
+    "raw": [
+      14,
+      4,
+      4,
+      3,
+      6,
+      7,
+      0,
+      3,
+      2.5,
+      1.5
+    ],
+    "notes": [
+      "E14: participant experience supports personal testimony, not general causal inference.",
+      "S4: family and rehabilitation connect within one life.",
+      "U4: coping examples offer limited transferable insight.",
+      "M3: recovery is narrated more than explained through general mechanisms.",
+      "D6: personal chronology serves the memoir but little analytical development.",
+      "R7: lived experience remains meaningful beyond news cycles.",
+      "F0: sports injury and personal recovery do not illuminate the preferred domains.",
+      "A3: Roy has direct authority on his experience.",
+      "N2.5: the accident and adaptation supply a coherent arc.",
+      "P1.5: inspirational framing is clearer than it is analytically exact."
+    ],
+    "year": 1998,
+    "yearNote": "Publisher identifies January1998 hardcover;2008ebook is later.",
+    "periodEnd": 1997,
+    "periodNote": "Approximate endpoint of the initial post-1995-injury recovery recounted before the1998 publication; exact memoir cutoff not available.",
+    "themeNote": "T11=-10: an American personal-tragedy and recovery frame. T12=0: no listed second-theme domain predominates.",
+    "evidence": [
+      "https://www.hachettebookgroup.com/titles/travis-roy/eleven-seconds/9780446521888/?lens=grand-central-publishing"
+    ]
+  },
+  {
+    "index": 53,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "moderate",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Packing for Mars\" \"Mary Roach\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-126.json",
+          "result": "No verified matching book total-rating aggregate; podcast results are not book ratings."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Packing%20for%20Mars%20Mary%20Roach%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 352,
+        "id": "ISBN:9781324036050",
+        "url": "https://wwnorton.co.uk/books/9781324036050-packing-for-mars-c7f61350-17d2-4922-8905-ebce8919afc7",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2022,
+        "confidence": "high"
+      },
+      "domains": {
+        "ENG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Life-support and capsule designs are tested against human limits.",
+          "refs": [
+            "https://wwnorton.co.uk/books/9781324036050-packing-for-mars-c7f61350-17d2-4922-8905-ebce8919afc7"
+          ]
+        },
+        "HTC": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Spacecraft technologies provide the central setting.",
+          "refs": [
+            "https://wwnorton.co.uk/books/9781324036050-packing-for-mars-c7f61350-17d2-4922-8905-ebce8919afc7"
+          ]
+        },
+        "QLT": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Crash and equipment tests reveal failure constraints.",
+          "refs": [
+            "https://wwnorton.co.uk/books/9781324036050-packing-for-mars-c7f61350-17d2-4922-8905-ebce8919afc7"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "Packing for Mars: The Curious Science of Life in the Void",
+    "author": "Mary Roach",
+    "eligibility": "Reported explanatory science essays for the public, not astronaut training despite the title.",
+    "reason": "No serious veto established. Human limits in engineered environments provide real design constraints; humorous curiosities reduce synthesis.",
+    "evidence": [
+      "https://wwnorton.co.uk/books/9781324036050-packing-for-mars-c7f61350-17d2-4922-8905-ebce8919afc7",
+      "https://books.google.com/books/about/Packing_for_Mars.html?hl=en&id=cg0ZR4rzzQoC&output=html_text"
+    ],
+    "raw": [
+      16,
+      11,
+      9,
+      8,
+      7,
+      8,
+      6,
+      3.5,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E16: interviews and observed tests ground unusual operational questions.",
+      "S11: human physiology and spacecraft design interact.",
+      "U9: designing around human limitations transfers to other engineered environments.",
+      "M8: concrete tests explain constraints, without a unified design theory.",
+      "D7: comic diversions and curiosities lower analytical density.",
+      "R8: basic human constraints endure while hardware changes.",
+      "F6: space engineering and testing fit well.",
+      "A3.5: strong science reporting gives access without specialist authority.",
+      "N3: focused questions make unfamiliar details readable.",
+      "P1.5: humor sometimes leads the conceptual explanation."
+    ],
+    "year": 2010,
+    "yearNote": "Contemporary2010 publication record and original review establish the first year; inspected paperback2022.",
+    "periodEnd": null,
+    "periodNote": "Cross-mission investigation of spaceflight constraints, not a single historic period.",
+    "themeNote": "T11=0: physiology is a design constraint, not disease history. T12=0: engineering questions lead rather than military doctrine."
+  },
+  {
+    "index": 54,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The Emerald Mile\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-130.json",
+          "result": "No verified matching book total-rating aggregate; podcast results are not book ratings."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Emerald%20Mile%20%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 432,
+        "id": "ISBN:9781439159859",
+        "url": "https://www.simonandschuster.com/books/The-Emerald-Mile/Kevin-Fedarko/9781439159859",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Hardcover",
+        "year": 2013,
+        "confidence": "high"
+      },
+      "domains": {
+        "ENG": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Glen Canyon Dam’s flood emergency is a substantial strand.",
+          "refs": [
+            "https://www.simonandschuster.com/books/The-Emerald-Mile/Kevin-Fedarko/9781439159859"
+          ]
+        },
+        "QLT": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Potential dam failure and emergency response matter to the narrative.",
+          "refs": [
+            "https://www.simonandschuster.com/books/The-Emerald-Mile/Kevin-Fedarko/9781439159859"
+          ]
+        },
+        "HEU": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Boat crews adapt to extraordinary river conditions.",
+          "refs": [
+            "https://www.simonandschuster.com/books/The-Emerald-Mile/Kevin-Fedarko/9781439159859"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "author": "Kevin Fedarko",
+    "eligibility": "Narrative history of a flood, dam emergency and river journey, not boating instruction.",
+    "reason": "No serious veto established. Flood-control and dam vulnerabilities provide payload alongside the adventure; environmental history is a subject rather than sufficient evidence of activism.",
+    "raw": [
+      16,
+      11,
+      8,
+      8,
+      6,
+      8,
+      4,
+      3.5,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E16: reporting and river knowledge support the event reconstruction.",
+      "S11: hydraulic forces, dam operation and boat decisions intersect.",
+      "U8: operating under unusual physical conditions supplies bounded lessons.",
+      "M8: dam and river dynamics explain constraints beyond the speed record.",
+      "D6: long regional and adventure narrative reduces technical concentration.",
+      "R8: hydraulic and infrastructure limits remain durable.",
+      "F4: engineering fits, but recreation and place dominate.",
+      "A3.5: field familiarity and substantial reporting support authority.",
+      "N3: dam crisis and river run form a strong parallel structure.",
+      "P1.5: epic language can romanticize exceptional risk-taking."
+    ],
+    "year": 2013,
+    "yearNote": "Publisher first hardcover May2013.",
+    "periodEnd": 1983,
+    "periodNote": "The1983 Colorado flood and record river run are central.",
+    "themeNote": "T11=-10: American regional and environmental history supplies the broader frame. T12=0: engineering and river adventure lead.",
+    "evidence": [
+      "https://www.simonandschuster.com/books/The-Emerald-Mile/Kevin-Fedarko/9781439159859"
+    ]
+  },
+  {
+    "index": 55,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The Disappearing Spoon\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-131.json",
+          "result": "No verified matching book total-rating aggregate; podcast results are not book ratings."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Disappearing%20Spoon%20%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 400,
+        "id": "ISBN:9780316051644",
+        "url": "https://www.hachettebookgroup.com/titles/sam-kean/the-disappearing-spoon/9780316051644/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Hardcover",
+        "year": 2010,
+        "confidence": "high"
+      },
+      "domains": {
+        "SCI": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Atomic and chemical properties organize the book.",
+          "refs": [
+            "https://www.hachettebookgroup.com/titles/sam-kean/the-disappearing-spoon/9780316051644/"
+          ]
+        },
+        "MAT": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Elemental materials and their uses are sustained subjects.",
+          "refs": [
+            "https://www.hachettebookgroup.com/titles/sam-kean/the-disappearing-spoon/9780316051644/"
+          ]
+        },
+        "MIL": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Separate chapters explain elements in war and the Cold War.",
+          "refs": [
+            "https://samkean.com/thedisappearingspoon.html"
+          ]
+        },
+        "QNT": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Precision tools and the periodic structure receive substantive chapters.",
+          "refs": [
+            "https://samkean.com/thedisappearingspoon.html"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "author": "Sam Kean",
+    "eligibility": "Historical and explanatory popular chemistry organized by stories, not a course textbook or laboratory manual.",
+    "reason": "No serious veto established. Material properties and uses give the anecdotes conceptual payload; wide topic coverage does not imply deep systems integration.",
+    "evidence": [
+      "https://www.hachettebookgroup.com/titles/sam-kean/the-disappearing-spoon/9780316051644/",
+      "https://samkean.com/thedisappearingspoon.html"
+    ],
+    "raw": [
+      15,
+      10,
+      7,
+      7,
+      7,
+      8,
+      4,
+      3.5,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E15: science reporting supports the account, but anecdotal history needs cautious inference.",
+      "S10: elements reach war, money and technology, often as separate examples.",
+      "U7: material-property reasoning transfers modestly.",
+      "M7: selected properties explain applications without sustained industrial causal chains.",
+      "D7: lively anecdotes compete with conceptual development.",
+      "R8: elemental properties and discovery history are durable.",
+      "F4: chemistry and material applications fit, but much is introductory.",
+      "A3.5: established science communication supports moderate authority.",
+      "N3: the periodic-table structure organizes varied stories.",
+      "P1.5: colorful biographical shorthand reduces precision."
+    ],
+    "year": 2010,
+    "yearNote": "Publisher first hardcover July2010.",
+    "periodEnd": null,
+    "periodNote": "Cross-period history and explanation of elements, not one historical era.",
+    "themeNote": "T11=0: disease and environmental examples are subsidiary. T12=0: war and finance are applications of the central chemistry."
+  },
+  {
+    "index": 56,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": 0,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Neptune’s Inferno\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-132.json",
+          "result": "No verified matching book total-rating aggregate; podcast results are not book ratings."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Neptune's%20Inferno%20%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 544,
+        "id": "ISBN:9780553385120",
+        "url": "https://www.penguinrandomhouse.com/books/82863/neptunes-inferno-by-james-d-hornfischer/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2012,
+        "confidence": "high"
+      },
+      "domains": {
+        "MIL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Naval combat is the sustained central subject.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/82863/neptunes-inferno-by-james-d-hornfischer/"
+          ]
+        },
+        "STR": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Command decisions alter campaign outcomes.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/82863/neptunes-inferno-by-james-d-hornfischer/"
+          ]
+        },
+        "LOG": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Constrained ships and supplies shape operational possibilities.",
+          "refs": [
+            "https://books.google.com/books?id=hibi0mxglN8C"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "author": "James D. Hornfischer",
+    "eligibility": "Documentary battle narrative for public readers, not naval instruction.",
+    "reason": "No serious veto established. Command decisions and operational learning provide payload beyond the personal combat stories.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/82863/neptunes-inferno-by-james-d-hornfischer/",
+      "https://books.google.com/books?id=hibi0mxglN8C"
+    ],
+    "raw": [
+      16,
+      11,
+      9,
+      8,
+      7,
+      9,
+      4,
+      4,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E16: documents and survivor accounts ground the battles; US perspective limits balance.",
+      "S11: naval technology, command and supply constraints intersect.",
+      "U9: operational learning and coordination offer transferable analogies.",
+      "M8: tactical choices and changing capability explain parts of the campaign.",
+      "D7: crew biographies and combat detail reduce analytical density.",
+      "R9: the historical coordination problems remain durable.",
+      "F4: technology and strategy fit, but battle narrative dominates.",
+      "A4: sustained specialist naval-history reporting supports authority.",
+      "N3: linked actions make the campaign readable.",
+      "P1.5: heroic framing can simplify uncertainty and opposing perspectives."
+    ],
+    "year": 2011,
+    "yearNote": "Publisher first ebook January2011; paperback2012.",
+    "periodEnd": 1942,
+    "periodNote": "The principal seven naval actions are the1942 Guadalcanal sequence; the wider land campaign’s later end is not substituted.",
+    "themeNote": "T11=0: internationally consequential operations rather than American domestic history. T12=-10: war is central."
+  },
+  {
+    "index": 57,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"A Bridge Too Far\" \"Ryan\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-133.json",
+          "result": "No verified matching book total-rating aggregate; podcast results are not book ratings."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=A%20Bridge%20Too%20Far%20Cornelius%20Ryan%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 672,
+        "id": "ISBN:9781439126714",
+        "url": "https://www.simonandschuster.com/books/A-Bridge-Too-Far/Cornelius-Ryan/9781439126714",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Ebook",
+        "year": 2010,
+        "confidence": "high"
+      },
+      "domains": {
+        "MIL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "The airborne operation is central.",
+          "refs": [
+            "https://www.simonandschuster.com/books/A-Bridge-Too-Far/Cornelius-Ryan/9781439126714"
+          ]
+        },
+        "LOG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Air transport, bridges and reinforcement routes constrain the plan.",
+          "refs": [
+            "https://www.simonandschuster.com/books/A-Bridge-Too-Far/Cornelius-Ryan/9781439126714"
+          ]
+        },
+        "STR": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Operational assumptions and coordination determine outcomes.",
+          "refs": [
+            "https://www.simonandschuster.com/books/A-Bridge-Too-Far/Cornelius-Ryan/9781439126714"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "author": "Cornelius Ryan",
+    "eligibility": "Documentary history, not fiction despite one catalog’s erroneous genre tag; not a military procedure manual.",
+    "reason": "No serious veto established. Overextended plans, geography and limited coordination supply transferable failure lessons.",
+    "evidence": [
+      "https://www.simonandschuster.com/books/A-Bridge-Too-Far/Cornelius-Ryan/9781439126714",
+      "https://books.google.com/books?id=VAFoAAAAMAAJ"
+    ],
+    "raw": [
+      16,
+      12,
+      11,
+      9,
+      7,
+      9,
+      4,
+      4,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E16: broad participant and documentary reconstruction supports events, with memory limits.",
+      "S12: geography, air transport and command assumptions interact.",
+      "U11: plans dependent on many sequential successes offer useful risk lessons.",
+      "M9: bottlenecks and delayed support explain failure beyond personalities.",
+      "D7: a large cast adds human detail beyond causal necessity.",
+      "R9: coordination and overreach remain durable problems.",
+      "F4: logistics and strategy fit, but combat is central.",
+      "A4: Ryan’s extensive documentary method supports authority.",
+      "N3: converging civilian and military perspectives clarify the operation.",
+      "P1.5: dramatic reconstruction can exceed certainty about individual thought."
+    ],
+    "year": 1974,
+    "yearNote": "First1974 SimonandSchuster record; inspected ebook2010 is a reissue.",
+    "periodEnd": 1944,
+    "periodNote": "Operation Market Garden inSeptember1944 is the central episode.",
+    "themeNote": "T11=0: multinational operational history. T12=-10: warfare and strategy dominate."
+  },
+  {
+    "index": 58,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The Challenger Launch Decision\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-134.json",
+          "result": "No verified matching book total-rating aggregate; podcast results are not book ratings."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Challenger%20Launch%20Decision%20Diane%20Vaughan%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 620,
+        "id": "ISBN:9780226346823",
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html?app=true",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2015,
+        "confidence": "high"
+      },
+      "domains": {
+        "QLT": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Anomaly handling and accepted risk are central.",
+          "refs": [
+            "https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html?app=true"
+          ]
+        },
+        "INS": {
+          "value": 4,
+          "confidence": "moderate",
+          "rationale": "Organizational culture and structural secrecy provide the central explanatory theory.",
+          "refs": [
+            "https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html?app=true"
+          ]
+        },
+        "ENG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Booster technical evidence constrains the decisions.",
+          "refs": [
+            "https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html?app=true"
+          ]
+        },
+        "PRD": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Production culture shapes acceptance of technical anomalies.",
+          "refs": [
+            "https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html?app=true"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "normalized-anomalies-and-structural-secrecy",
+            "domains": [
+              "ENG",
+              "QLT",
+              "INS",
+              "PRD"
+            ],
+            "roles": {
+              "ENG": "Technical anomalies",
+              "QLT": "Safety classification and acceptable risk",
+              "INS": "Fragmented organizational knowledge",
+              "PRD": "Production expectations"
+            },
+            "statement": "Repeated anomalies become accepted within local routines; production culture and fragmented information prevent the organization from treating their accumulation as a launch-stopping signal.",
+            "scope": "Challenger decision process; the model is historical explanation, not a deterministic law.",
+            "strength": 4,
+            "confidence": "moderate",
+            "refs": [
+              "https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html?app=true"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "author": "Diane Vaughan",
+    "eligibility": "A sustained historical explanation of organizational failure, not technical training. The core reconstructs decisions and develops a broadly applicable argument; research-method appendices are secondary.",
+    "reason": "No serious veto established. Repeated acceptance of anomalies and fragmented knowledge provide specific mechanisms beyond individual blame.",
+    "evidence": [
+      "https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html?app=true",
+      "https://www.bibliovault.org/BV.landing.epl?ISBN=9780226346823",
+      "https://journals.sagepub.com/doi/pdf/10.1525/ctx.2002.1.2.68"
+    ],
+    "raw": [
+      18,
+      15,
+      14,
+      11,
+      7,
+      9,
+      7,
+      4.5,
+      2,
+      2
+    ],
+    "notes": [
+      "E18: detailed records and historical ethnography test the conventional misconduct account.",
+      "S15: hardware risk, production culture and information structure interact.",
+      "U14: normalizing anomalies and fragmented knowledge transfer widely.",
+      "M11: incremental acceptance explains failure without assuming malicious individuals.",
+      "D7: exhaustive organizational detail adds evidential value but slows synthesis.",
+      "R9: institutional learning and risk acceptance remain durable.",
+      "F7: high technology, reliability and scientific organization fit directly.",
+      "A4.5: original sociological investigation and sustained influence support authority.",
+      "N2: dense theory interrupts an otherwise clear reconstruction.",
+      "P2: explicit distinctions between misconduct, error and cultural acceptance support precision."
+    ],
+    "year": 1996,
+    "yearNote": "Author’s retrospective explicitly identifies first publication inJanuary1996; enlarged edition2015/2016 does not reset it.",
+    "periodEnd": 1986,
+    "periodNote": "The launch decision inJanuary1986 ends the central causal reconstruction; Columbia appears in a later preface.",
+    "themeNote": "T11=-10: the American Challenger disaster is the central case. T12=0: organizational risk and technology lead, with politics auxiliary."
+  },
+  {
+    "index": 59,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": -10,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Katrina\" \"Gary Rivlin\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-135.json",
+          "result": "No verified matching book total-rating aggregate; podcast results are not book ratings."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Katrina%20Gary%20Rivlin%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 480,
+        "id": "ISBN:9781451692259",
+        "url": "https://www.simonandschuster.com/books/Katrina/Gary-Rivlin/9781451692259",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2016,
+        "confidence": "high"
+      },
+      "domains": {
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Recovery institutions allocate authority and aid.",
+          "refs": [
+            "https://www.simonandschuster.com/books/Katrina/Gary-Rivlin/9781451692259"
+          ]
+        },
+        "FIN": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Public budgets, banks and rebuilding finance constrain recovery.",
+          "refs": [
+            "https://www.simonandschuster.com/books/Katrina/Gary-Rivlin/9781451692259"
+          ]
+        },
+        "POL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Political decisions and access determine rebuilding priorities.",
+          "refs": [
+            "https://www.simonandschuster.com/books/Katrina/Gary-Rivlin/9781451692259"
+          ]
+        },
+        "ENG": {
+          "value": 1,
+          "confidence": "moderate",
+          "rationale": "Destroyed infrastructure is essential context but technical design is not deeply examined.",
+          "refs": [
+            "https://www.simonandschuster.com/books/Katrina/Gary-Rivlin/9781451692259"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "author": "Gary Rivlin",
+    "eligibility": "Investigative social and institutional history, not emergency-management instruction.",
+    "reason": "No serious veto established. Fiscal capacity, infrastructure and unequal access explain recovery. Strong criticism is not itself proof of ideological capture or a primarily activist book.",
+    "evidence": [
+      "https://www.simonandschuster.com/books/Katrina/Gary-Rivlin/9781451692259",
+      "https://www.simonandschuster.com/books/Katrina/Gary-Rivlin/9781451692266"
+    ],
+    "raw": [
+      16,
+      12,
+      9,
+      8,
+      7,
+      8,
+      3,
+      4,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E16: sustained reporting and multiple local actors support the reconstruction.",
+      "S12: infrastructure, finance and political access shape rebuilding.",
+      "U9: recovery capacity and resource allocation offer transferable institutional lessons.",
+      "M8: funding and administrative choices explain uneven outcomes.",
+      "D7: extensive local personalities reduce general-mechanism density.",
+      "R8: recovery governance remains durable.",
+      "F3: institutions and infrastructure fit, but urban and racial history dominate.",
+      "A4: experienced investigative reporting supports authority.",
+      "N3: a decade of recovery gives the cases a coherent arc.",
+      "P1.5: moral and personal framing sometimes exceeds institutional explanation."
+    ],
+    "year": 2015,
+    "yearNote": "Publisher original ebookAugust2015; paperback2016.",
+    "periodEnd": 2015,
+    "periodNote": "Publisher explicitly frames the account as a decade of recovery afterAugust2005, not the storm alone.",
+    "themeNote": "T11=-10: American urban, racial and disaster history are central. T12=-10: rebuilding politics and allocation of power are also central."
+  }
+]

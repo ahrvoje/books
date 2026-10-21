@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "reviewed": "2026-10-20",
+  "method": "Additional publisher, author, chapter-abstract and primary-text checks. Approximate endpoints remain explicit estimates, never publication-year substitutions. No complete copyrighted text is reproduced in this audit.",
+  "books": [
+    {
+      "packetIndex": 489,
+      "id": "n12cd6120b9",
+      "periodEnd": 2023,
+      "periodConfidence": "low",
+      "periodApproximate": true,
+      "periodNote": "Approximately 2023 for the third edition. Pan Macmillan India's edition description explicitly says the expanded narrative reaches the present and identifies pandemic-era developments, Modi's reelection and Kashmir's changed status. Its stated release context is 30 January 2023. This estimates the endpoint of the publisher's stated present-day scope, rather than assuming that publication year always equals historical endpoint; the exact last narrated event was not verified.",
+      "evidence": ["https://www.panmacmillan.co.in/authors/ramachandra-guha/india-after-gandhi/9789395624596"],
+      "auditFiles": ["data/sources_261020/reddit/raw/hn-period-primary-489.json"]
+    },
+    {
+      "packetIndex": 508,
+      "id": "n99a0799831",
+      "periodEnd": 1999,
+      "periodConfidence": "moderate",
+      "periodApproximate": true,
+      "periodNote": "Approximately 1999 for the nominated 2000 updated edition. The archived book website's historical chronology ends with 1999 industry events; its separate 2000 page is a calendar of author events, not continued computer history. The publisher press release identifies the updated edition. This supports a late-1999 scope estimate, although the printed book's final sentence was not inspected.",
+      "evidence": ["https://www.landsnail.com/apple/local/fire-site/fitv_press.html", "https://www.landsnail.com/apple/local/fire-site/fitv_timeline_1999.html", "https://www.landsnail.com/apple/local/fire-site/fitv_timeline_2000.html"],
+      "auditFiles": ["data/sources_261020/reddit/raw/hn-period-508-press.html", "data/sources_261020/reddit/raw/hn-period-508-1999.html", "data/sources_261020/reddit/raw/hn-period-508-2000.html"],
+      "limitation": "Library of Congress contents lookup failed through the web reader and normal fetch encountered an HTTPS-to-HTTP redirect. The publisher's advance page extents conflict with later catalog extents; no new page count inferred."
+    },
+    {
+      "packetIndex": 515,
+      "id": "n42dad48542",
+      "periodEnd": 1980,
+      "periodConfidence": "moderate",
+      "periodApproximate": true,
+      "periodNote": "Approximately 1980 for the central technical-creation narrative in the 78-page portion explicitly linked by the source. The Computer History Museum manuscript's last pages trace PL/I-G development from 1978 to its 1980 release alongside CP/M 2.2. Scattered later autobiographical asides do not extend that central sequence. The later unpublished memoir portion was not assessed; the full-work page count remains unknown.",
+      "evidence": ["https://computerhistory.org/blog/computer-history-museum-license-agreement-for-the-kildall-manuscript/", "https://d1yx3ys82bpsa0.cloudfront.net/kildall-p.1-78-publishable-lowres.pdf"],
+      "primaryTextLocator": "Published manuscript, printed pages 74 and 76–78. Viewed under CHM's personal-use license; no manuscript copy stored or redistributed."
+    },
+    {
+      "packetIndex": 557,
+      "id": "n32bad24987",
+      "periodEnd": 2001,
+      "periodConfidence": "low",
+      "periodApproximate": true,
+      "periodNote": "Circa 2001 is a deliberately approximate early-twenty-first-century endpoint. MIT Press explicitly describes the history as running from the nineteenth to the early twenty-first century. The exact closing event was not established; 2001 represents the beginning of that stated endpoint period rather than substituting the book's 2003 publication date.",
+      "evidence": ["https://mitpress.mit.edu/9780262533881/the-government-machine/", "https://mitpress.mit.edu/9780262012027/the-government-machine/"],
+      "auditFiles": ["data/sources_261020/reddit/raw/hn-period-primary-557.json"]
+    },
+    {
+      "packetIndex": 559,
+      "id": "nbb441343d2",
+      "periodEnd": 1995,
+      "periodConfidence": "low",
+      "periodApproximate": true,
+      "periodNote": "Circa 1995 represents the midpoint of the final explicitly supported decade. The publisher's chapter-five abstract places the professional and academic formation of computer science between the 1970s and the 1990s. The broader account begins in mid-century; the exact last event was not verified. This is a marked estimate within the stated 1990s scope, not an assertion of an exact 1995 closing event.",
+      "evidence": ["https://doi.org/10.7551/mitpress/9780262050937.003.0005", "https://academic.oup.com/mit-press-scholarship-online/book/13348"],
+      "auditFiles": ["data/sources_261020/reddit/raw/hn-period-research4-559.json", "data/sources_261020/reddit/raw/hn-period-research5-559.json"]
+    },
+    {
+      "packetIndex": 568,
+      "id": "n6e384d5b37",
+      "periodEnd": 1929,
+      "periodConfidence": "moderate",
+      "periodApproximate": true,
+      "periodNote": "Approximately 1929 for the core account of corporate engineering and institutional formation. The Society for the History of Technology identifies Noble's dissertation as covering 1900–1929 and explicitly states that it was published as America by Design. The book also supplies nineteenth-century background; the dissertation scope supports the central endpoint, not a claim that no later comparison appears.",
+      "evidence": ["https://www.historyoftechnology.org/memorials/david-noble/", "https://www.everand.com/book/769874056/America-by-Design-Science-Technology-and-the-Rise-of-Corporate-Capitalism"],
+      "primaryTextLocator": "SHOT memorial paragraphs on the 1974 dissertation and its publication in 1977; licensed book preview supplies early industrial background."
+    },
+    {
+      "packetIndex": 569,
+      "id": "n49be7cca17",
+      "periodEnd": 1978,
+      "periodConfidence": "moderate",
+      "periodApproximate": true,
+      "periodNote": "Approximately 1978 for the central study. The author's own epilogue, printed page 341, identifies 1948–1978 as roughly the time frame of the study. The epilogue also discusses developments through 1983, which are later framing rather than the central research period. The 2010 reprint preface does not reset historical scope or original publication age.",
+      "evidence": ["https://achrafkassioui.com/library/David%20F.%20Noble%20-%20Forces%20of%20Production.pdf", "https://www.everand.com/book/769878795/Forces-of-Production"],
+      "primaryTextLocator": "Transaction reprint, ISBN 9781412818285, printed page 341 footnote (PDF page 376, one-based). Only factual audit notes retained; complete book not copied to repository.",
+      "additionalGateEvidence": "2010 preface, printed ix, explicitly describes the book as a contribution to the labor movement. Original preface, printed xiii, states a purpose directed toward reflection and revolution. These primary purpose statements require V5 reconsideration; they are stronger evidence than merely identifying a critical treatment of corporations."
+    },
+    {
+      "packetIndex": 574,
+      "id": "nf53a8fe4fc",
+      "periodEnd": 1991,
+      "periodConfidence": "moderate",
+      "periodApproximate": true,
+      "periodNote": "Approximately 1991 for the startup reporting that forms the central narrative. In the author's 2014 interview, Werth explicitly describes his agreed reporting period as 1989 and 1990 extending into 1991. This dates the central observation, not the 1994 publication; later framing or paperback updates are secondary.",
+      "evidence": ["https://www.fool.com/investing/general/2014/02/27/from-startup-to-billion-dollar-biotech-an-inside-l.aspx"],
+      "primaryTextLocator": "Interview with Barry Werth, answer explaining how he decided the time period for The Billion-Dollar Molecule."
+    },
+    {
+      "packetIndex": 576,
+      "id": "na1fc93ff83",
+      "periodEnd": 1909,
+      "periodConfidence": "low",
+      "periodApproximate": true,
+      "periodNote": "Circa 1909: the author's book page starts the account with the 1869 transcontinental completion and explicitly describes a four-decade history extending into the twentieth century. The estimate follows that stated span (1869 plus approximately forty years); the exact final narrated event was not inspected.",
+      "evidence": ["https://michaelhiltzik.com/iron-empires/"],
+      "auditFiles": ["data/sources_261020/reddit/raw/hn-period-research5-576.json"]
+    }
+  ],
+  "otherScopeEvidence": {
+    "title": "Operators and Things",
+    "author": "Barbara O'Brien",
+    "owner": "root",
+    "periodEnd": 1955,
+    "confidence": "low",
+    "note": "Publisher identifies a six-month episode in the 1950s. Circa 1955 is a midpoint estimate of that stated decade, not the 1958 publication date. Sent to root; its primary assessment was not edited.",
+    "url": "https://www.silverbirchpress.com/operators_and_things.html"
+  }
+}

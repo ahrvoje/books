@@ -1,0 +1,1160 @@
+[
+  {
+    "index": 70,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The Holocaust\" \"Laurence Rees\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-183.json",
+          "result": "Public index search did not expose a matching Amazon total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Holocaust%20Laurence%20Rees%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 552,
+        "id": "ISBN:9781610398459",
+        "url": "https://www.hachettebookgroup.com/titles/laurence-rees/the-holocaust/9781610398459/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Ebook",
+        "year": 2017,
+        "confidence": "high"
+      },
+      "domains": {
+        "POL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "State decisions and escalating extermination policy organize the history.",
+          "refs": [
+            "https://www.hachettebookgroup.com/titles/laurence-rees/the-holocaust/9781610398459/"
+          ]
+        },
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Institutional participation connects leaders to implementation.",
+          "refs": [
+            "https://www.hachettebookgroup.com/titles/laurence-rees/the-holocaust/9781610398459/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Chronological explanatory history for a general audience; neither fiction nor specialist training.",
+    "reason": "No serious veto established. The analysis of cumulative state decisions supplies transferable institutional content despite weak topic fit.",
+    "raw": [
+      18,
+      11,
+      8,
+      9,
+      8,
+      9,
+      2,
+      4.5,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E18: interviews and historical research offer substantial evidence; testimony still needs corroboration.",
+      "S11: state decisions, ideology and social participation connect.",
+      "U8: incremental escalation and institutional complicity transfer.",
+      "M9: successive decisions explain development rather than attributing everything to one order.",
+      "D8: chronological synthesis generally earns its substantial length.",
+      "R9: the historical evidence and escalation problem remain durable.",
+      "F2: institutional history fits indirectly; technology and production are peripheral.",
+      "A4.5: decades of documentary research support authority.",
+      "N3: chronological escalation creates a clear structure.",
+      "P1.5: accessible compression can obscure unresolved historical disputes."
+    ],
+    "year": 2017,
+    "yearNote": "Publisher first ebook April 2017; UK original January 2017 also verified.",
+    "periodEnd": 1945,
+    "periodNote": "The Nazi persecution and extermination process through the end of the Second World War is central.",
+    "themeNote": "T11=-10: racial persecution is the central topic. T12=-10: state power and political decisions dominate.",
+    "evidence": [
+      "https://www.hachettebookgroup.com/titles/laurence-rees/the-holocaust/9781610398459/"
+    ]
+  },
+  {
+    "index": 71,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "The prior snapshot exposes only a review-label count. Total ratings are unverified; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0813595835",
+    "purchaseFormat": "Paperback edition locator supplied by the assessment; see cited edition evidence.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 216,
+        "id": "ISBN:9780813595832",
+        "url": "https://utpdistribution.com/9780813595832/ignition/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2018,
+        "confidence": "high",
+        "notes": "Current publisher and distributor agree on 216 pages; the 2018 advance catalog and legacy Open Library record say 302. Prefer current edition metadata, with this conflict retained."
+      },
+      "domains": {
+        "SCI": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Propellant chemistry and physical performance are explained.",
+          "refs": [
+            "https://www.rutgersuniversitypress.org/9780813599175"
+          ]
+        },
+        "ENG": {
+          "value": 4,
+          "confidence": "moderate",
+          "rationale": "Feasible propulsion systems are the organizing problem.",
+          "refs": [
+            "https://www.rutgersuniversitypress.org/9780813599175"
+          ]
+        },
+        "QLT": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Testing and hazardous failures constrain choices.",
+          "refs": [
+            "https://www.rutgersuniversitypress.org/9780813599175"
+          ]
+        },
+        "INN": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Competing laboratories develop and reject new propellants.",
+          "refs": [
+            "https://www.rutgersuniversitypress.org/9780813599175"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "propellant-feasibility",
+            "domains": [
+              "SCI",
+              "ENG",
+              "QLT"
+            ],
+            "roles": {
+              "SCI": "Chemical and physical performance limits",
+              "ENG": "Required propulsion and handling performance",
+              "QLT": "Safety and experimental failure constraints"
+            },
+            "statement": "A high-performing propellant becomes usable only when its chemistry also meets handling and test constraints.",
+            "scope": "Liquid rocket propellant selection",
+            "strength": 3,
+            "confidence": "moderate",
+            "refs": [
+              "https://www.rutgersuniversitypress.org/9780813599175"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Participant history and memoir dominate the chemistry; the contents do not form a propellant-design course or procedure manual.",
+    "reason": "No serious veto established. Competing physical and operational constraints provide a particularly direct engineering payload.",
+    "reassessment": "Reread the g0604 assessment and source 93 calculation, then publisher contents and edition records. Retain all ten attainments, both zero theme deductions, original 1972 and approximate 1970 endpoint. No repeat-mention bonus. Correct the paperback length from the legacy 302-page catalog estimate to the current publisher and distributor value of 216; both conflicting observations remain documented.",
+    "evidence": [
+      "https://www.rutgersuniversitypress.org/9780813599175",
+      "analysis/analysis_glaspsci_261019_0144.md#g0604",
+      "analysis/analysis_research92_261018_2235.md",
+      "https://utpdistribution.com/9780813595832/ignition/",
+      "https://www.rutgersuniversitypress.org/wp-content/uploads/2017/12/Final_Complete_SS18_Seasonal_Sans_Crops.pdf"
+    ],
+    "raw": [
+      18,
+      15,
+      14,
+      12,
+      9,
+      9,
+      7,
+      5,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E18: direct research participation supplies evidence with memoir selection limits.",
+      "S15: chemistry, testing, handling and mission performance interact.",
+      "U14: choosing among incompatible design constraints transfers strongly.",
+      "M12: physical failure modes and performance trade-offs are unusually concrete.",
+      "D9: compact episodes contain substantial technical explanation.",
+      "R9: physical constraints and experimental discipline remain useful.",
+      "F7: engineering development and reliability directly fit.",
+      "A5: Clark conducted propellant research himself.",
+      "N3: experimental stories make the scientific progression memorable.",
+      "P1.5: deliberate comic exaggeration sometimes reduces qualification."
+    ],
+    "year": 1972,
+    "yearNote": "Publisher explicitly identifies the original 1972 work; the inspected edition is 2018.",
+    "periodEnd": 1970,
+    "periodNote": "Retain the approximate end of the main mid-century propellant-development narrative; exact final event not established.",
+    "themeNote": "T11=0: international technical development. T12=0: propellant science and engineering are central, military use an application."
+  },
+  {
+    "index": 72,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Atoms and Ashes\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-183.json",
+          "result": "Public index search did not expose a matching Amazon total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Atoms%20and%20Ashes%20Serhii%20Plokhy%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 368,
+        "id": "ISBN:9781324021049",
+        "url": "https://wwnorton.co.uk/books/9781324021049-atoms-and-ashes",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Hardcover",
+        "year": 2022,
+        "confidence": "high"
+      },
+      "domains": {
+        "ENE": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Nuclear power and fuel production organize the cases.",
+          "refs": [
+            "https://wwnorton.co.uk/books/9781324021049-atoms-and-ashes"
+          ]
+        },
+        "ENG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Reactor design and technical failure receive sustained explanation.",
+          "refs": [
+            "https://wwnorton.co.uk/books/9781324021049-atoms-and-ashes"
+          ]
+        },
+        "QLT": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Safety failures and accident response are central.",
+          "refs": [
+            "https://wwnorton.co.uk/books/9781324021049-atoms-and-ashes"
+          ]
+        },
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Government and organizational decisions shape failure and response.",
+          "refs": [
+            "https://wwnorton.co.uk/books/9781324021049-atoms-and-ashes"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Comparative nuclear-disaster history for general readers; it explains events rather than training reactor operators.",
+    "reason": "No serious veto established. Cross-country comparison offers institutional failure lessons; selecting catastrophes alone does not estimate normal nuclear risk.",
+    "raw": [
+      17,
+      14,
+      12,
+      10,
+      8,
+      9,
+      7,
+      4.5,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E17: historical synthesis supports the cases; catastrophe selection limits risk inference.",
+      "S14: reactor design, military programs and government decisions connect.",
+      "U12: organizational response and accident escalation transfer across infrastructure.",
+      "M10: technical defects and institutional choices explain failures.",
+      "D8: six bounded cases keep the comparison concentrated.",
+      "R9: safety and accountability problems outlast current energy debates.",
+      "F7: nuclear energy, engineering and institutional risk fit directly.",
+      "A4.5: substantial archival historical expertise supports the account.",
+      "N3: separate disasters create a clear comparative architecture.",
+      "P1.5: broad risk framing needs denominators beyond the selected cases."
+    ],
+    "year": 2022,
+    "yearNote": "Publisher original 2022.",
+    "periodEnd": 2011,
+    "periodNote": "The six central accidents culminate in Fukushima in 2011; later cleanup is aftermath.",
+    "themeNote": "T11=0: technical and institutional accident mechanisms dominate, not environmental activism. T12=0: nuclear systems are central; military and political contexts support them.",
+    "evidence": [
+      "https://wwnorton.co.uk/books/9781324021049-atoms-and-ashes"
+    ]
+  },
+  {
+    "index": 73,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Atomic Accidents\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-183.json",
+          "result": "Public index search did not expose a matching Amazon total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Atomic%20Accidents%20James%20Mahaffey%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 464,
+        "id": "ISBN:9781605986807",
+        "url": "https://www.simonandschuster.net/books/Atomic-Accidents/James-Mahaffey/9781605986807",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2015,
+        "confidence": "high"
+      },
+      "domains": {
+        "SCI": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Nuclear phenomena explain accident sequences.",
+          "refs": [
+            "https://www.simonandschuster.net/books/Atomic-Accidents/James-Mahaffey/9781605986807"
+          ]
+        },
+        "ENG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Designed systems and their failures are analyzed.",
+          "refs": [
+            "https://www.simonandschuster.net/books/Atomic-Accidents/James-Mahaffey/9781605986807"
+          ]
+        },
+        "QLT": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Accident diagnosis and learning organize the book.",
+          "refs": [
+            "https://www.simonandschuster.net/books/Atomic-Accidents/James-Mahaffey/9781605986807"
+          ]
+        },
+        "ENE": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Nuclear power is a sustained application.",
+          "refs": [
+            "https://www.simonandschuster.net/books/Atomic-Accidents/James-Mahaffey/9781605986807"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "accident-learning",
+            "domains": [
+              "SCI",
+              "ENG",
+              "QLT"
+            ],
+            "roles": {
+              "SCI": "Physical explanation of the incident",
+              "ENG": "System design that permits the sequence",
+              "QLT": "Investigation and correction of mistaken diagnoses"
+            },
+            "statement": "Understanding the physical failure changes which engineering and operating corrections can prevent repetition.",
+            "scope": "Nuclear accident investigation",
+            "strength": 3,
+            "confidence": "moderate",
+            "refs": [
+              "https://www.simonandschuster.net/books/Atomic-Accidents/James-Mahaffey/9781605986807"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Popular explanatory history of nuclear failures, not an operating manual or specialist reference.",
+    "reason": "No serious veto established. Failure analysis has strong payload; the author’s stated support for nuclear energy requires attention to case selection but does not itself establish ideological capture.",
+    "evidence": [
+      "https://www.simonandschuster.net/books/Atomic-Accidents/James-Mahaffey/9781605986807",
+      "https://openlibrary.org/books/OL26882734M/Atomic_accidents"
+    ],
+    "raw": [
+      17,
+      13,
+      12,
+      11,
+      8,
+      9,
+      7,
+      4.5,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E17: expert reconstruction supports technical explanations; broad conclusions still depend on selected cases.",
+      "S13: scientific understanding, engineering and operating practice connect.",
+      "U12: learning from mistakes and mistaken diagnoses transfers.",
+      "M11: physical accident sequences and failures of interpretation are central.",
+      "D8: many cases provide substantial information with some anecdotal digression.",
+      "R9: failure mechanisms remain useful.",
+      "F7: energy engineering and reliability directly fit.",
+      "A4.5: applied nuclear research experience supports technical authority.",
+      "N3: incident-by-incident explanation provides a readable structure.",
+      "P1.5: humor and advocacy need separation from technical claims."
+    ],
+    "year": 2014,
+    "yearNote": "Original Pegasus edition 2014; inspected paperback 2015.",
+    "periodEnd": 2011,
+    "periodNote": "The nominated subtitle and history culminate in Fukushima, 2011.",
+    "themeNote": "T11=0: accident mechanics are central, not ecology or disease. T12=0: energy and engineering lead."
+  },
+  {
+    "index": 74,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "low",
+    "T11": -10,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Blind Man's Bluff\" \"Sontag\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-187.json",
+          "result": "Public index search did not expose a matching Amazon total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Blind%20Man's%20Bluff%20Sherry%20Sontag%3B%20Christopher%20Drew%3B%20Annette%20Lawrence%20Drew%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 400,
+        "id": "ISBN:9780099409984",
+        "url": "https://www.thalia.de/shop/home/artikeldetails/A1003235885",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2000,
+        "confidence": "moderate"
+      },
+      "domains": {
+        "MIL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Submarine missions and naval organization are central.",
+          "refs": [
+            "https://books.google.sn/books?hl=fr&id=Zo0LzmyjP-4C"
+          ]
+        },
+        "ENG": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Collection equipment and undersea operating constraints are explained.",
+          "refs": [
+            "https://books.google.sn/books?hl=fr&id=Zo0LzmyjP-4C"
+          ]
+        },
+        "STR": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Intelligence acquisition serves Cold War decisions.",
+          "refs": [
+            "https://books.google.sn/books?hl=fr&id=Zo0LzmyjP-4C"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Investigative narrative history, not submarine operations training.",
+    "reason": "No serious veto established. Intelligence collection and technical adaptation provide payload, with secrecy and retrospective sources limiting verification.",
+    "evidence": [
+      "https://books.google.sn/books?hl=fr&id=Zo0LzmyjP-4C",
+      "https://www.hachettebookgroup.com/book-list/12-of-the-best-cold-war-history-books/",
+      "https://www.thalia.de/shop/home/artikeldetails/A1003235885"
+    ],
+    "raw": [
+      16,
+      13,
+      11,
+      9,
+      8,
+      8,
+      5,
+      4,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E16: interviews and documents support the narrative; classified gaps remain.",
+      "S13: submarine engineering, intelligence and state strategy interact.",
+      "U11: information acquisition under severe operational constraints transfers.",
+      "M9: covert collection methods connect technical capability to intelligence.",
+      "D8: bounded missions carry substantial explanatory detail.",
+      "R8: the operational history remains useful beyond obsolete equipment.",
+      "F5: technical intelligence fits within a military-centered account.",
+      "A4: extended investigative reporting supports access and authority.",
+      "N3: missions provide a coherent narrative sequence.",
+      "P1.5: reconstructed clandestine scenes require uncertainty caution."
+    ],
+    "year": 1998,
+    "yearNote": "Original PublicAffairs October 1998 bibliographic record.",
+    "periodEnd": 1991,
+    "periodNote": "Approximate end of the central Cold War arc; the original book includes post-Cold-War discussion and the exact final central episode was not established.",
+    "themeNote": "T11=-10: American naval institutional history dominates. T12=-10: military espionage is central."
+  },
+  {
+    "index": 75,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": 0,
+    "T12": -10,
+    "amazon": {
+      "count": 11587,
+      "status": "Verified matching archived product response; explicit global ratings label. Title and author checked.",
+      "marketplace": "www.amazon.com.au",
+      "asin": "0141994975",
+      "url": "https://www.amazon.com.au/dp/0141994975",
+      "retrievedAt": "2026-10-20T14:41:05.890Z",
+      "evidence": [
+        "data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">11,587 global ratings"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.amazon.com.au/dp/0141994975",
+          "retrievedAt": "2026-10-20T14:41:05.890Z",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0201-0141994975-www.amazon.com.au-7db62553c505a277.html.gz",
+          "result": "Matching title, author and explicit global-rating label."
+        }
+      ]
+    },
+    "purchaseUrl": "https://www.amazon.com/dp/0141994975",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Amazon archived product: 11587 global ratings; 2026-10-20T14:41:05.890Z.",
+    "enrichment": {
+      "edition": {
+        "pages": 592,
+        "id": "ASIN:0141994975",
+        "url": "https://www.amazon.com.au/dp/0141994975",
+        "retrieved": "2026-10-20T14:41:05.890Z",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2026,
+        "confidence": "high",
+        "title": "1929: The Inside Story of The Greatest Crash in Wall Street History",
+        "authors": "by Andrew Ross Sorkin (Author) Format: Paperback",
+        "isbn10": [
+          "0141994975"
+        ],
+        "isbn13": [
+          "9780141994970"
+        ],
+        "notes": "Page count, title, author, language, format and edition year observed on the same product page. Product ID verified from the landing page when available; original request URL retained in provenance.",
+        "source": {
+          "provider": "www.amazon.com.au",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0201-0141994975-www.amazon.com.au-7db62553c505a277.html.gz",
+          "sha256": "d192da4cdec86fdca69ede6f11145420d7a5cf1a898bf160e5219d413e6b0e84",
+          "requestedUrl": "https://www.amazon.com.au/dp/0141994975"
+        }
+      },
+      "domains": {
+        "FIN": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Leverage, banks and speculative markets dominate.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/665634/1929-by-andrew-ross-sorkin/9780593296974/"
+          ]
+        },
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Financial institutions and official response are sustained subjects.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/665634/1929-by-andrew-ross-sorkin/9780593296974/"
+          ]
+        },
+        "POL": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Washington decisions affect crisis response.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/665634/1929-by-andrew-ross-sorkin/9780593296974/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Historical financial narrative for general readers; no investment procedure or textbook structure.",
+    "reason": "No serious veto established. Leverage, incentives and official response provide useful content; the character-centered narrative is not a complete macroeconomic explanation.",
+    "reassessment": "Reread N078 and current deduction row, then publisher scope and the Northern Trust review. Retain E15/S14.1667/U12/M9.1765/D6/R7/A4/N3/P2; reduce F7 to 5 because the actual central content is finance and personalities rather than the core technical domains. Retain T11=0, T12=-10, 2025 and 1933; endpoint confidence rises from low to moderate through reviewed descriptions of the aftermath. Archived matching Amazon aggregate replaces the older count without crossing a band.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/665634/1929-by-andrew-ross-sorkin/9780593296974/",
+      "analysis/analysis_top3alltime_261017_1900.md",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0201",
+      "https://www.advisorperspectives.com/commentaries/2026/09/22/review-1929?topic=tax-planning",
+      "https://www.policymagazine.ca/1929-another-absorbing-postmortem-from-wall-streets-crisis-coroner/"
+    ],
+    "raw": [
+      15,
+      14.166666666666666,
+      12,
+      9.176470588235293,
+      6,
+      7,
+      5,
+      4,
+      3,
+      2
+    ],
+    "notes": [
+      "E15: archival reconstruction is substantial but full macroeconomic causation remains less secure.",
+      "S14.1667: leverage, banks and official intervention interact.",
+      "U12: speculation and institutional incentives transfer.",
+      "M9.1765: financial amplification is explained within a personality-centered frame.",
+      "D6: extended character and scene detail lowers analytical density.",
+      "R7: crisis lessons are durable, but the recent interpretation has limited testing.",
+      "F5: financial risk fits indirectly; technical systems are not central.",
+      "A4: financial reporting experience supports authority.",
+      "N3: dated scenes organize the crash and aftermath clearly.",
+      "P2: the narrative remains controlled and concrete."
+    ],
+    "year": 2025,
+    "yearNote": "Publisher original October 2025.",
+    "periodEnd": 1933,
+    "periodNote": "The main crash-and-aftermath account extends into 1933.",
+    "themeNote": "T11=0: transferable financial-system crisis rather than national-bereavement history. T12=-10: finance is central."
+  },
+  {
+    "index": 76,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": -10,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Bordering on Chaos\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-183.json",
+          "result": "Public index search did not expose a matching Amazon total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Bordering%20on%20Chaos%20Andr%C3%A9s%20Oppenheimer%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 367,
+        "id": "ISBN:9780316650953",
+        "url": "https://openlibrary.org/books/OL808538M/Bordering_on_chaos",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Print edition; binding unverified",
+        "year": 1996,
+        "confidence": "moderate"
+      },
+      "domains": {
+        "POL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Mexican political transition and elite conflict organize the narrative.",
+          "refs": [
+            "https://books.google.com/books/about/Bordering_on_Chaos.html?hl=en&id=dmpnQgAACAAJ"
+          ]
+        },
+        "FIN": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Peso crisis and bailout connect capital to state decisions.",
+          "refs": [
+            "https://books.google.com/books/about/Bordering_on_Chaos.html?hl=en&id=dmpnQgAACAAJ"
+          ]
+        },
+        "TRD": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "NAFTA negotiations affect the institutional setting.",
+          "refs": [
+            "https://books.google.com/books/about/Bordering_on_Chaos.html?hl=en&id=dmpnQgAACAAJ"
+          ]
+        },
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Party-state practices and legitimacy shape crisis response.",
+          "refs": [
+            "https://books.google.com/books/about/Bordering_on_Chaos.html?hl=en&id=dmpnQgAACAAJ"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Investigative political-economic narrative, not specialist instruction.",
+    "reason": "No serious veto established at moderate confidence. Interviews expose connections between elite politics, capital and legitimacy; future-prosperity claims are dated and less secure.",
+    "evidence": [
+      "https://books.google.com/books/about/Bordering_on_Chaos.html?hl=en&id=dmpnQgAACAAJ",
+      "https://openlibrary.org/books/OL808538M/Bordering_on_chaos",
+      "https://panhandlepbs.org/wgbh/pages/frontline/shows/mexico/readings/arrestoppenheim.html"
+    ],
+    "raw": [
+      15,
+      13,
+      9,
+      8,
+      7,
+      7,
+      3,
+      4,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E15: direct interviews and reporting support events; concealed motives and forward claims remain uncertain.",
+      "S13: capital flows, trade integration and political legitimacy connect.",
+      "U9: elite incentives and financial fragility transfer beyond Mexico.",
+      "M8: reporting explains some institutional links but relies heavily on personalities.",
+      "D7: revelations compete with biographical detail.",
+      "R7: crisis mechanisms last; contemporary predictions date.",
+      "F3: political economy fits indirectly.",
+      "A4: experienced regional reporting supports access.",
+      "N3: the crisis sequence is clearly narrated.",
+      "P1.5: dramatic framing can exceed the certainty of motive evidence."
+    ],
+    "year": 1996,
+    "yearNote": "Original English and Spanish works recorded in 1996.",
+    "periodEnd": 1995,
+    "periodNote": "Central 1994–1995 political and peso crises, including the 1995 Salinas–Zedillo settlement.",
+    "themeNote": "T11=-10: modern Mexican national history dominates. T12=-10: politics and finance are central."
+  },
+  {
+    "index": 77,
+    "status": "recommended",
+    "confidence": "low",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "The prior snapshot exposes only a review-label count. Total ratings are unverified; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0449005615",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 448,
+        "id": "ISBN:9780449005613",
+        "url": "https://www.penguinrandomhouse.com/books/79975/seabiscuit-by-laura-hillenbrand/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2002,
+        "confidence": "high"
+      },
+      "domains": {},
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Narrative sports biography, not horse-training instruction.",
+    "reason": "No serious veto established at low confidence. Selection and adaptation supply modest transferable content, though the sporting celebrity story dominates and fits poorly.",
+    "reassessment": "Reread a117 and the current deduction row, then publisher description and author interview. Retain all ten attainments, no veto, both themes, original 2001 and central 1940 endpoint. Retain explicit limits on transferable claims. Publisher corrects the linked paperback length from 399 numbered pages in the old catalog record to 448 total pages.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/79975/seabiscuit-by-laura-hillenbrand/",
+      "analysis/analysis_anysubject_261017_2227.md#a117",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0796"
+    ],
+    "raw": [
+      16,
+      8.5,
+      7,
+      5.647058823529412,
+      8,
+      8,
+      1,
+      3,
+      3,
+      2
+    ],
+    "notes": [
+      "E16: researched reporting supports the race narrative.",
+      "S8.5: trainer, owner and rider coordination gives limited integration.",
+      "U7: matching capabilities and adapting to setbacks offer modest lessons.",
+      "M5.6471: success is narrated more strongly than causally tested.",
+      "D8: the focused story generally earns its length.",
+      "R8: historical narrative value persists.",
+      "F1: horse racing has little direct domain fit.",
+      "A3: substantial reporting supports the history without specialist modeling.",
+      "N3: the coordinated underdog story is memorable.",
+      "P2: precise scene writing supports clarity."
+    ],
+    "year": 2001,
+    "yearNote": "Author interview explicitly dates the original bestseller to March 2001; a stray earlier audio listing does not reset the original year.",
+    "periodEnd": 1940,
+    "periodNote": "Retain the end of the central racing career, rather than the horse’s later death.",
+    "themeNote": "T11=-10: American sports and celebrity history. T12=0: finance and media are supporting contexts."
+  },
+  {
+    "index": 78,
+    "status": "recommended",
+    "confidence": "low",
+    "yearConfidence": "high",
+    "periodConfidence": "low",
+    "T11": -10,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "The prior snapshot exposes only a review-label count. Total ratings are unverified; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0812974492",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 528,
+        "id": "ISBN:9780812987119",
+        "url": "https://www.penguinrandomhouse.com/books/79977/unbroken-movie-tie-in-edition-by-laura-hillenbrand/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2014,
+        "confidence": "high"
+      },
+      "domains": {},
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Reported survival biography; neither fiction nor a survival training manual.",
+    "reason": "No serious veto established at low confidence. Adaptation under captivity has limited transferable content, but personal resilience should not be treated as a proven general method. Religious redemption is biographical content rather than a devotional manual.",
+    "reassessment": "Reread a031 and the current deduction row, then publisher scope. Retain all ten attainments, no veto, both -10 theme deductions, original 2010 and the dominant wartime endpoint 1945. The postwar redemption section is explicitly acknowledged; 1945 describes the central wartime interval, not the last event in the book.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/79977/unbroken-movie-tie-in-edition-by-laura-hillenbrand/",
+      "analysis/analysis_anysubject_261017_2227.md#a031",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0814"
+    ],
+    "raw": [
+      16,
+      8.5,
+      7,
+      4.9411764705882355,
+      7,
+      8,
+      1,
+      4,
+      3,
+      2
+    ],
+    "notes": [
+      "E16: testimony and reported reconstruction support the ordeal.",
+      "S8.5: military, captivity and personal adaptation interact only modestly.",
+      "U7: coping and improvisation offer limited reusable observations.",
+      "M4.9412: resilience is shown more than causally explained.",
+      "D7: narrative detail often serves emotional impact.",
+      "R8: the historical testimony remains durable.",
+      "F1: athletic and captivity biography fits weakly.",
+      "A4: sustained investigative biography supports authority.",
+      "N3: survival, return and aftermath form a coherent arc.",
+      "P2: disciplined scene writing supports readability."
+    ],
+    "year": 2010,
+    "yearNote": "Publisher original hardcover November 2010.",
+    "periodEnd": 1945,
+    "periodNote": "Dominant wartime survival and captivity period ends in 1945. Substantial postwar trauma and redemption follow; the chosen central boundary remains an explicit judgment.",
+    "themeNote": "T11=-10: American military ordeal and trauma. T12=-10: war and captivity dominate."
+  },
+  {
+    "index": 79,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": 594,
+      "status": "Verified matching archived product response; explicit global ratings label. Title and author checked.",
+      "marketplace": "www.amazon.com.au",
+      "asin": "0141042826",
+      "url": "https://www.amazon.com.au/dp/0141042826",
+      "retrievedAt": "2026-10-20T14:39:48.441Z",
+      "evidence": [
+        "data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">594 global ratings"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.amazon.com.au/dp/0141042826",
+          "retrievedAt": "2026-10-20T14:39:48.441Z",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0067-0141042826-www.amazon.com.au-e1ef651504cc1b08.html.gz",
+          "result": "Matching title, author and explicit global-rating label."
+        }
+      ]
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0141042826",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Amazon archived product: 594 global ratings; 2026-10-20T14:39:48.441Z.",
+    "enrichment": {
+      "edition": {
+        "pages": 592,
+        "id": "ISBN:9780141042824",
+        "url": "https://www.penguin.co.uk/books/133389/most-secret-war-by-rv-jones/9780141042824",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2009,
+        "confidence": "high",
+        "notes": "Publisher gives 592 pages for ISBN 9780141042824; archived Amazon Australia gave 608 for the same ISBN. Prefer publisher; conflicting retail observation retained in prior enrichment."
+      },
+      "domains": {
+        "SCI": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Physical inference underlies detection and deception.",
+          "refs": [
+            "https://www.penguin.co.uk/books/133389/most-secret-war-by-rv-jones/9780141042824"
+          ]
+        },
+        "ENG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Radar countermeasures and detection devices are developed.",
+          "refs": [
+            "https://www.penguin.co.uk/books/133389/most-secret-war-by-rv-jones/9780141042824"
+          ]
+        },
+        "INN": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Scientific ideas are converted into wartime countermeasures.",
+          "refs": [
+            "https://www.penguin.co.uk/books/133389/most-secret-war-by-rv-jones/9780141042824"
+          ]
+        },
+        "MIL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Enemy weapons and operational response provide constraints.",
+          "refs": [
+            "https://www.penguin.co.uk/books/133389/most-secret-war-by-rv-jones/9780141042824"
+          ]
+        },
+        "STR": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Evidence evaluation and adversarial adaptation recur.",
+          "refs": [
+            "analysis/analysis_pastedlists_261018_0118.md#p044"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "countermeasure-cycle",
+            "domains": [
+              "SCI",
+              "ENG",
+              "MIL"
+            ],
+            "roles": {
+              "SCI": "Inference about enemy signals and devices",
+              "ENG": "Design of detection and deception measures",
+              "MIL": "Operational threat and response requirements"
+            },
+            "statement": "Physical hypotheses about an enemy system guide a countermeasure whose military effect tests the original interpretation.",
+            "scope": "Second World War scientific intelligence",
+            "strength": 3,
+            "confidence": "moderate",
+            "refs": [
+              "https://www.penguin.co.uk/books/133389/most-secret-war-by-rv-jones/9780141042824"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "A physicist’s scientific-intelligence memoir and explanatory history, not an operational training manual.",
+    "reason": "No serious veto established. Hypothesis testing and countermeasure design have clear payload; retrospective self-presentation limits evidence confidence.",
+    "reassessment": "Reread p044 and the current deduction row, then publisher content and edition metadata. Retain all ten attainments, no veto, T11=0, original 1978 and 1945. Change T12 from -10 to 0: the organizing work is technical detection and countermeasure invention, not political intelligence or military doctrine. Replace the retail 608-page value with publisher 592 for the same paperback ISBN; the conflict is retained. Archived 594 global ratings remains in the -5 band.",
+    "evidence": [
+      "https://www.penguin.co.uk/books/133389/most-secret-war-by-rv-jones/9780141042824",
+      "analysis/analysis_pastedlists_261018_0118.md#p044",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0067"
+    ],
+    "raw": [
+      16,
+      15.583333333333334,
+      14,
+      10.588235294117647,
+      7,
+      9,
+      7,
+      4,
+      3,
+      2
+    ],
+    "notes": [
+      "E16: first-person expertise is strong but memory and self-attribution limit inference.",
+      "S15.5833: physical evidence, instruments and operational response connect.",
+      "U14: testing rival hypotheses and countermeasures transfers strongly.",
+      "M10.5882: detection and deception cycles explain outcomes.",
+      "D7: memoir detail reduces analytical concentration.",
+      "R9: reasoning under uncertainty remains useful.",
+      "F7: applied physics and high-tech problem solving fit directly.",
+      "A4: direct participation supplies authority with insider limits.",
+      "N3: episodes form a clear wartime narrative.",
+      "P2: concrete technical prose supports precision."
+    ],
+    "year": 1978,
+    "yearNote": "Original 1978 retained from the sourced prior assessment; current paperback is 2009.",
+    "periodEnd": 1945,
+    "periodNote": "The scientific-intelligence work of the Second World War is central.",
+    "themeNote": "T11=0: international technical conflict, not isolated national history. T12=0: scientific detection and invention are central; military operations are their application."
+  }
+]

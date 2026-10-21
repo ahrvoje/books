@@ -1,0 +1,4 @@
+module.exports=[
+{id:'g0881',status:'excluded',exclusion:2,confidence:'high',reason:'A specialist trading and investment framework: the author teaches proprietary risk measures, operations, analytics and execution to investors, traders and financial advisers. The main purpose is applying an investment method. General market discussion does not override rule 2.',evidence:['https://www.amazon.de/dp/B074MNQ2X6']},
+{id:'g0888',status:'excluded',exclusion:2,confidence:'high',reason:'An investment strategy guide organized around preserving and moving assets, selecting countries and positions, and profiting from adverse markets. Historical discussion supports the reader’s investment procedure; it is not the main explanatory purpose. Exclude before considering forecast or ideological defects.',evidence:['https://books.google.com/books?id=1MdXWR7sVpEC']}
+];

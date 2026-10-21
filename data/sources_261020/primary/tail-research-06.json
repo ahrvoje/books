@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "index": 772,
+      "url": "https://www.ams.org/journals/notices/200406/200406FullIssue.pdf",
+      "needle": "blunders"
+    },
+    {
+      "index": 693,
+      "url": "https://studylib.net/doc/18227007/energy-in-nature-and-society--general-energetics-and-complex",
+      "needle": "rewrite"
+    },
+    {
+      "index": 594,
+      "url": "https://www.penguinrandomhouse.com/books/602589/finding-the-mother-tree-by-suzanne-simard/9780525565994/",
+      "needle": "offspring"
+    }
+  ],
+  "results": [
+    {
+      "status": "fulfilled",
+      "value": "Internal Error ()\nciteturn1745view0 [wordlim: 200] Source: find({\"ref_id\":\"https://www.ams.org/journals/notices/200406/200406FullIssue.pdf\",\"pattern\":\"blunders\"}); Total lines: 1\nNo matching text found for \"blunders\""
+    },
+    {
+      "status": "fulfilled",
+      "value": "Internal Error ()\nciteturn1746view0 [wordlim: 200] Source: find({\"ref_id\":\"https://studylib.net/doc/18227007/energy-in-nature-and-society--general-energetics-and-complex\",\"pattern\":\"rewrite\"}); Total lines: 1\nNo matching text found for \"rewrite\""
+    },
+    {
+      "status": "fulfilled",
+      "value": "Finding the Mother Tree by Suzanne Simard: 9780525565994 | PenguinRandomHouse.com: Books (https://www.penguinrandomhouse.com/books/602589/finding-the-mother-tree-by-suzanne-simard/9780525565994/)\nciteturn1744view0 [wordlim: 200] Crawled: 5 months ago; Content type: text/html; Source: find({\"ref_id\":\"https://www.penguinrandomhouse.com/books/602589/finding-the-mother-tree-by-suzanne-simard/9780525565994/\",\"pattern\":\"offspring\"}); Total lines: 748\nNo matching text found for \"offspring\""
+    }
+  ]
+}

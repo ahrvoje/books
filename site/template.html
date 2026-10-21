@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A personal nonfiction catalog. Compare evidence, mechanisms, domain connections, and reading tradeoffs.">
+  <title>Book selection — a working library</title>
+  <style>/* STYLES */</style>
+</head>
+<body>
+<a class="skip" href="#results">Skip to books</a>
+<header class="masthead">
+  <div class="eyebrow">A WORKING LIBRARY <span>01 / NONFICTION</span></div>
+  <div class="title-row"><div><h1>Book selection<span class="blue">.</span></h1><p>Find the mechanisms. Compare the tradeoffs.</p></div><button id="selection" class="selection">Selected <strong>0</strong></button></div>
+  <nav class="library-nav" aria-label="Library pages"><a href="#books" data-page="books" aria-current="page">Books <span id="nav-books-count"></span></a><a href="#vetoed" data-page="vetoed">Vetoed <span id="nav-vetoed-count"></span></a><a href="#excluded" data-page="excluded">Excluded <span id="nav-excluded-count"></span></a><a href="#sources" data-page="sources">Sources <span id="nav-sources-count"></span></a><a href="#methodology" data-page="methodology">Methodology</a></nav>
+  <div id="book-toolbar" class="search-row"><label class="search-label" for="search">Search the library</label><input id="search" type="search" placeholder="Title, author, or subtitle…" autocomplete="off"><button id="export">Export settings</button><label class="button file-label">Import<input type="file" id="import" accept=".json,application/json"></label><button id="variables" aria-pressed="false" aria-label="Show variable aliases" title="Show variable aliases">ƒx</button></div>
+</header>
+<div id="notice" class="notice" role="status" hidden></div>
+<div id="books-view" class="layout">
+  <aside class="control-shell" aria-label="Catalog controls">
+    <div class="control-heading">YOUR MODEL</div>
+    <nav id="panel-tabs" class="panel-tabs" aria-label="Model sections">
+      <button data-panel="filters">Filters <span id="filter-count">0</span></button>
+      <button data-panel="scoring">Scoring <span>±</span></button>
+      <button data-panel="ideal">Ideal book <span>◎</span></button>
+      <button data-panel="pareto">Pareto <span>↗</span></button>
+    </nav>
+    <section class="model-card"><div class="eyebrow">CURRENT MODEL</div><strong id="model-name">Repository evaluation</strong><p id="model-description">15 rules. Evidence, integration, utility.</p><div id="data-summary"></div><button id="data-review" class="text-button">Data and review notes ↗</button></section>
+    <section id="editor" hidden aria-labelledby="editor-title">
+      <div class="editor-head"><h2 id="editor-title"></h2><button id="close-editor" aria-label="Close editor">×</button></div>
+      <div id="editor-body"></div>
+      <div class="editor-foot"><p id="draft-preview" aria-live="polite"></p><div id="validation" role="alert"></div><div class="actions"><button id="reset-section">Reset section</button><button id="cancel">Cancel</button><button id="apply" class="primary">Apply</button></div></div>
+    </section>
+  </aside>
+  <main id="results" tabindex="-1">
+    <div class="result-summary"><div><strong id="matching-count"></strong> matching <span class="separator">/</span> <span id="filtered-count"></span> filtered</div><div id="missing-summary"></div><button id="columns">Columns</button></div>
+    <div id="chips" class="chips"></div>
+    <section id="plot-section" hidden aria-labelledby="plot-title"><div class="section-title"><h2 id="plot-title">The tradeoff map</h2><button id="hide-plot" class="text-button">Hide plot</button></div><p id="plot-caption"></p><div id="plot"></div><div id="plot-tooltip" role="status" hidden></div><div class="plot-legend"><span class="legend-front">◉ Pareto-optimal among matching books</span><span>· Other books</span><span>Curve is a visual guide; only dots are books.</span></div></section>
+    <section aria-labelledby="matching-title"><div class="section-title"><h2 id="matching-title">Matching books</h2><span>Sorted by current score ↓</span></div><div id="matching-list"></div></section>
+    <section id="filtered-section" aria-labelledby="filtered-title"><div class="section-title"><h2 id="filtered-title">Filtered books <span id="filtered-heading-count"></span></h2><button id="toggle-filtered" class="text-button" aria-expanded="true">Collapse</button></div><p class="muted">Still in the collection. The same score, with failed filters shown.</p><div id="filtered-list"></div></section>
+    <footer><span>Local calculations · Original assessments retained</span><button id="footer-review" class="text-button">Data and review notes</button><button id="clear-selection" class="text-button">Clear selection</button></footer>
+  </main>
+</div>
+<main id="vetoed-view" class="reference-view" hidden aria-labelledby="vetoed-title" tabindex="-1">
+  <div class="section-title"><h2 id="vetoed-title">Vetoed books</h2><span>Stored score ↓</span></div>
+  <p class="intro">The veto remains in force. These are the recorded counterfactual scores: they suspend only the veto gate and retain the identified flaws. This list uses the saved repository assessment.</p>
+  <div id="vetoed-list"></div>
+</main>
+<main id="excluded-view" class="reference-view" hidden aria-labelledby="excluded-title" tabindex="-1">
+  <div class="section-title"><h2 id="excluded-title">Excluded books</h2><span>Alphabetical</span></div>
+  <p class="intro">Fiction and works that do not pass the current instruction and specialist-reference rule, including its expert narrative exception. These books have no score. See <a href="#method-exclusions">the exclusion methodology</a> for the precise rule.</p>
+  <ul id="excluded-list" class="excluded-list"></ul>
+</main>
+<main id="sources-view" class="reference-view" hidden aria-labelledby="sources-title" tabindex="-1">
+  <div class="section-title"><h2 id="sources-title">Sources</h2><span>By source number</span></div>
+  <p class="intro">Every entry in the source register, including recommendation lists, research and repository reviews. Source numbers match the book details. External sources open in a new tab; saved inputs and the linked analyses are included here for offline reading.</p>
+  <table class="source-table"><thead><tr><th scope="col">No.</th><th scope="col">Date added</th><th scope="col">Source</th><th scope="col">Analysis</th></tr></thead><tbody id="sources-list"></tbody></table>
+</main>
+<main id="methodology-view" class="reference-view methodology" hidden aria-labelledby="methodology-title" tabindex="-1">/* METHODOLOGY */</main>
+<dialog id="details"><div class="dialog-head"><h2 id="details-title">Book details</h2><button id="close-details" aria-label="Close details">×</button></div><div id="details-body"></div></dialog>
+<noscript>This catalog needs JavaScript for local calculations. No network connection is needed.</noscript>
+<script id="catalog-data" type="application/json">/* DATA */</script>
+<script type="module">/* APPLICATION */</script>
+</body>
+</html>

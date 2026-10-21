@@ -1,0 +1,8 @@
+const fs=require('fs'),inv=require('./inventory.json'),prior=require('./prior.json');
+const keys=['E','S','U','M','D','R','F','A','N','P'];
+const docs=fs.readdirSync(__dirname+'/catalog').filter(f=>f.endsWith('.json')).flatMap(f=>{try{return JSON.parse(fs.readFileSync(__dirname+'/catalog/'+f)).data?.docs||[]}catch{return[]}});
+function evidence(id){const b=inv.books.find(x=>x.id===id);const a=JSON.parse(fs.readFileSync(__dirname+'/amazon/'+id+'.json'));const d=docs.find(x=>x.isbn?.includes(b.appearances[0].asin));return [...new Set([a.selected?.url,d?'https://openlibrary.org'+d.key:null,b.appearances[0].url].filter(Boolean))];}
+function row(id,year,raw,T11,T12,periodEnd,reason,rationale,extra={}){return{id,status:'recommended',year,raw,T11,T12,periodEnd,periodConfidence:periodEnd===null?'high':'moderate',yearConfidence:'moderate',confidence:'low',reason,rationale,evidence:evidence(id),...extra};}
+function excluded(id,exclusion,reason,extra={}){return{id,status:'excluded',exclusion,confidence:'high',reason,evidence:evidence(id),...extra};}
+function retain(id,priorId,reason,rationale,extra={}){const x=prior.find(x=>x.id===priorId);return{id,priorId,status:x.status,year:x.originalYear??x.production?.year,raw:x.raw||keys.map(k=>x.linearPoints[k]),T11:x.deductions.T11,T12:x.deductions.T12,periodEnd:x.periodEnd??x.assessment?.periodEnd??null,confidence:x.scoreConfidence||x.confidence||'moderate',yearConfidence:'high',periodConfidence:'moderate',veto:x.veto,vetoConfidence:x.vetoConfidence,reason,rationale,notes:x.notes,evidence:evidence(id),...extra};}
+module.exports={row,excluded,retain};

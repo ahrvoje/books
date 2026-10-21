@@ -1,0 +1,1347 @@
+[
+  {
+    "index": 40,
+    "status": "recommended",
+    "confidence": "low",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "The prior snapshot exposes only a review-label count. Total ratings are unverified; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/1324094648",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 464,
+        "id": "ISBN:9781324094647",
+        "url": "https://books.google.com/books/about/The_Gales_of_November.html?id=eloQ0QEACAAJ",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Hardcover",
+        "year": 2025,
+        "confidence": "moderate"
+      },
+      "domains": {
+        "LOG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Great Lakes freight transport is the industrial setting.",
+          "refs": [
+            "https://johnubacon.com/the-gales-of-november/"
+          ]
+        },
+        "ENG": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Vessel design and severe operating conditions shape risk.",
+          "refs": [
+            "analysis/analysis_anysubject_261017_2227.md#a066"
+          ]
+        },
+        "QLT": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "The uncertain loss is examined as a safety failure.",
+          "refs": [
+            "https://johnubacon.com/the-gales-of-november/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Investigative shipping and disaster narrative for general readers, not seamanship instruction.",
+    "reason": "No serious veto established. Design, shipping incentives and uncertain causal evidence provide a bounded risk case.",
+    "reassessment": "Reread a066 and the current deduction row. Author description confirms interviews, shipping context and uncertainty about the loss. Retain every attainment, no veto, T11=-10, T12=0, 2025 and 1975. The earlier Reviews label does not verify total ratings; use O15=0 fallback. Confirm 464 pages in a matching hardcover catalog record.",
+    "evidence": [
+      "https://johnubacon.com/the-gales-of-november/",
+      "analysis/analysis_anysubject_261017_2227.md#a066",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0597",
+      "https://books.google.com/books/about/The_Gales_of_November.html?id=eloQ0QEACAAJ"
+    ],
+    "raw": [
+      16,
+      12.75,
+      10,
+      7.764705882352941,
+      7,
+      7,
+      4,
+      3,
+      3,
+      2
+    ],
+    "notes": [
+      "E16: interviews and shipping records support context; no survivors limits causal certainty.",
+      "S12.75: weather, vessel design and operating incentives interact.",
+      "U10: low-margin operations under uncertain hazards offer transferable lessons.",
+      "M7.7647: competing failure explanations prevent a definitive chain.",
+      "D7: crew biographies and family aftermath reduce mechanism density.",
+      "R7: shipping risk is durable; recent publication limits established reception.",
+      "F4: logistics and engineering fit, while disaster memorial dominates.",
+      "A3: reporting access is useful without specialist naval-engineering authority.",
+      "N3: vessel and crew histories build toward the known loss.",
+      "P2: qualified causes support the earlier precision judgment."
+    ],
+    "year": 2025,
+    "yearNote": "Author identifies first publication on 7 October 2025.",
+    "periodEnd": 1975,
+    "periodNote": "The Fitzgerald sinking in November 1975 is the central event.",
+    "themeNote": "T11=-10: American maritime tragedy and families are central. T12=0: shipping risk rather than war or political doctrine."
+  },
+  {
+    "index": 41,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "id": "material",
+      "title": "Material World",
+      "author": "Ed Conway",
+      "year": 2023,
+      "asins": [
+        "0593467426"
+      ],
+      "count": 3305,
+      "attempts": [
+        {
+          "url": "https://www.amazon.com/dp/0593467426",
+          "requestedUrl": "https://www.amazon.com/dp/0593467426",
+          "retrievedAt": "2026-10-18T20:48:00.243Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "pageTitle": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "languageMismatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "5e3cd658eb14eeabffb56f9f6c73761f636c103c53107964038eb131a083c650"
+        },
+        {
+          "url": "https://www.amazon.it/dp/0593467426",
+          "requestedUrl": "https://www.amazon.it/dp/0593467426",
+          "retrievedAt": "2026-10-18T20:48:00.393Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "pageTitle": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "languageMismatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "4a467c0bc0fdd59e05da1e417e5f395979ad38170dffb82cd1a7e75032fe8de0"
+        },
+        {
+          "url": "https://www.amazon.de/dp/0593467426",
+          "requestedUrl": "https://www.amazon.de/dp/0593467426",
+          "retrievedAt": "2026-10-18T20:48:00.474Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "pageTitle": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "languageMismatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "b3bbbb8101e87c1950ea212be71be9a30b7f97cb72d695daabc601223ad049ff"
+        },
+        {
+          "url": "https://www.amazon.com.au/dp/0593467426",
+          "requestedUrl": "https://www.amazon.com.au/dp/0593467426",
+          "retrievedAt": "2026-10-18T20:48:00.526Z",
+          "httpStatus": 200,
+          "title": "Material World: The Six Raw Materials That Shape Modern Civilization",
+          "byline": "by Ed Conway (Author) Format: Paperback",
+          "pageTitle": "Material World: The Six Raw Materials That Shape Modern Civilization : Conway, Ed: Amazon.com.au: Books",
+          "topCount": 3305,
+          "globalCount": 3305,
+          "titleMatch": true,
+          "authorMatch": true,
+          "languageMismatch": false,
+          "verified": true,
+          "evidence": [
+            "<span id=\"acrCustomerReviewText\" aria-label=\"3,305 reviews\" class=\"a-size-small\">(3,305)</span>",
+            "<span data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">3,305 global ratings</span>"
+          ],
+          "sha256": "90d88aad3138fe264f201ab66a363050142bc6c64f2e94e5b77ecf021174f696"
+        }
+      ],
+      "url": "https://www.amazon.com.au/dp/0593467426",
+      "attemptedAt": "2026-10-18T20:48:00.526Z",
+      "sourceSnapshot": "Direct public product page",
+      "evidence": [
+        "<span id=\"acrCustomerReviewText\" aria-label=\"3,305 reviews\" class=\"a-size-small\">(3,305)</span>",
+        "<span data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">3,305 global ratings</span>"
+      ],
+      "status": "verified matching Amazon product aggregate",
+      "productTitle": "Material World: The Six Raw Materials That Shape Modern Civilization",
+      "byline": "by Ed Conway (Author) Format: Paperback",
+      "asin": "0593467426",
+      "marketplace": "www.amazon.com.au",
+      "confidence": "high",
+      "verifiedAt": "2026-10-18T20:48:00.526Z",
+      "stars": 4.7,
+      "starsEvidence": {
+        "url": "https://www.amazon.com.au/dp/0593467426",
+        "retrievedAt": "2026-10-18T20:48:03.756Z",
+        "snippet": "<span id=\"acrPopover\" class=\"reviewCountTextLinkedHistogram noUnderline\" title=\"4.7 out of 5 stars\">"
+      }
+    },
+    "purchaseUrl": "https://www.amazon.com/dp/0593467426",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Retained Amazon snapshot: 3305 total ratings; 2026-10-18T20:48:00.526Z.",
+    "enrichment": {
+      "edition": {
+        "pages": 512,
+        "id": "ISBN:9780593467428",
+        "url": "https://www.penguinrandomhouse.com/books/703268/material-world-by-ed-conway/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2025,
+        "confidence": "high"
+      },
+      "domains": {
+        "MAT": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Six industrial materials organize the book.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/703268/material-world-by-ed-conway/"
+          ]
+        },
+        "PRD": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Transformation and processing are central.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/703268/material-world-by-ed-conway/"
+          ]
+        },
+        "ENE": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Energy requirements connect the material chains.",
+          "refs": [
+            "analysis/analysis_tactical92_261018_2302.md#material"
+          ]
+        },
+        "LOG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Specialized supply chains connect extraction to users.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/703268/material-world-by-ed-conway/"
+          ]
+        },
+        "TRD": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "International dependence links material production across countries.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/703268/material-world-by-ed-conway/"
+          ]
+        },
+        "SCL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Scale constraints recur across production chains.",
+          "refs": [
+            "analysis/analysis_tactical92_261018_2302.md#material"
+          ]
+        },
+        "ENG": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Processing technology changes usable material properties.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/703268/material-world-by-ed-conway/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "material-transformation-and-specialized-supply",
+            "domains": [
+              "MAT",
+              "PRD",
+              "ENE",
+              "LOG",
+              "TRD",
+              "SCL"
+            ],
+            "roles": {
+              "MAT": "Suitable physical inputs",
+              "PRD": "Transformation into usable products",
+              "ENE": "Energy requirements",
+              "LOG": "Movement among specialized facilities",
+              "TRD": "Cross-border supplier dependence",
+              "SCL": "Volume and replication constraints"
+            },
+            "statement": "Suitable materials require energy-intensive transformation at specialized scale, so expanding output depends on coordinated suppliers and cross-border transport rather than raw abundance alone.",
+            "scope": "The six industrial chains; this is a recurring mechanism, not evidence of every possible pairwise connection.",
+            "strength": 4,
+            "confidence": "moderate",
+            "refs": [
+              "analysis/analysis_tactical92_261018_2302.md#material"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Explanatory reporting on industrial material chains for general readers, not a processing manual.",
+    "reason": "No serious veto established. Six material chains directly explain industrial interdependence. Previously identified peripheral factual and wording errors remain charged under E and P.",
+    "reassessment": "Read p077 and the full Source110 reassessment in tactical92, including all ten reasons and the current deductions. Retain the updated D9/A4.5/P1.5 rather than reverting to the older vector. All other attainments, gates, zero themes, 2023 and non-period scope remain supported by new publisher scope. Retain verified 3,305 global ratings at the original date. Use the publisher’s 512-page 2025 paperback rather than another edition’s numbered 500 pages.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/703268/material-world-by-ed-conway/",
+      "analysis/analysis_physcanon_261018_0147.md#p077",
+      "analysis/analysis_tactical92_261018_2302.md#material"
+    ],
+    "raw": [
+      18,
+      17,
+      14,
+      11.294117647058824,
+      9,
+      9,
+      7,
+      4.5,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E18: primary supply-chain reporting is strong; the earlier geological chronology error remains a bounded flaw.",
+      "S17: materials, energy, transformation, capital and global suppliers form connected explanations.",
+      "U14: concentrated inputs and scale constraints transfer directly.",
+      "M11.2941: production links are concrete, though some technical explanations remain introductory.",
+      "D9: six distinct chains largely earn their length; repeated dependence claims prevent maximum.",
+      "R9: material properties and industrial interdependence are durable.",
+      "F7: production, supply chains and technological scale match directly.",
+      "A4.5: access and serious professional reception support unusual synthesis.",
+      "N3: material-based chapters organize a complex network clearly.",
+      "P1.5: silicon/silica looseness and the overdrawn material-versus-ethereal metaphor remain limitations."
+    ],
+    "year": 2023,
+    "yearNote": "Original 2023; publisher paperback date 2025 does not reset age.",
+    "periodEnd": null,
+    "periodNote": "Contemporary and cross-period material systems, with no single central historical interval.",
+    "themeNote": "T11=0: environmental consequences are constraints within the production account, not the main topic. T12=0: power and finance are applications of material systems."
+  },
+  {
+    "index": 42,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "id": "q0049",
+      "title": "Dark Sun",
+      "author": "Richard Rhodes",
+      "url": "https://www.amazon.com.au/dp/0684824140",
+      "attemptedAt": "2026-10-18T18:28:19.311Z",
+      "count": 1084,
+      "sourceSnapshot": "Direct public product page",
+      "evidence": [
+        "<span id=\"acrCustomerReviewText\" aria-label=\"1,084 reviews\" class=\"a-size-small\">(1,084)</span>",
+        "<span data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">1,084 global ratings</span>"
+      ],
+      "status": "verified matching Amazon product aggregate",
+      "fallback": {
+        "market": "amazon.de",
+        "url": "https://www.amazon.de/dp/0684824140",
+        "result": "No accessible count"
+      },
+      "attempts": [
+        {
+          "url": "https://www.amazon.com.au/dp/0684824140",
+          "requestedUrl": "https://www.amazon.com.au/dp/0684824140",
+          "retrievedAt": "2026-10-18T18:28:19.311Z",
+          "httpStatus": 200,
+          "title": "Dark Sun: The Making of the Hydrogen Bomb",
+          "byline": "by Rhodes (Author) Format: Paperback",
+          "topCount": 1084,
+          "globalCount": 1084,
+          "titleMatch": true,
+          "authorMatch": true,
+          "verified": true,
+          "evidence": [
+            "<span id=\"acrCustomerReviewText\" aria-label=\"1,084 reviews\" class=\"a-size-small\">(1,084)</span>",
+            "<span data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">1,084 global ratings</span>"
+          ],
+          "sha256": "04003498b261073b3ba917d4b82c713b332fd00e73c9f37e0bb9959f459ca939"
+        }
+      ],
+      "productTitle": "Dark Sun: The Making of the Hydrogen Bomb",
+      "byline": "by Rhodes (Author) Format: Paperback",
+      "asin": "0684824140",
+      "marketplace": "www.amazon.com.au",
+      "confidence": "high",
+      "verifiedAt": "2026-10-18T18:28:19.311Z",
+      "retrievedAt": "2026-10-18T18:28:19.311Z"
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0684824140",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Retained Amazon snapshot: 1084 total ratings; 2026-10-18T18:28:19.311Z.",
+    "enrichment": {
+      "edition": {
+        "pages": 736,
+        "id": "ISBN:9780684824147",
+        "url": "https://www.simonandschuster.com/books/Dark-Sun/Richard-Rhodes/9780684824147",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 1996,
+        "confidence": "high"
+      },
+      "domains": {
+        "SCI": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Nuclear science and the hydrogen-bomb development are central.",
+          "refs": [
+            "https://www.simonandschuster.com/books/Dark-Sun/Richard-Rhodes/9780684824147"
+          ]
+        },
+        "ENG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Realizing scientific possibilities in working technology is central.",
+          "refs": [
+            "https://www.simonandschuster.com/books/Dark-Sun/Richard-Rhodes/9780684824147"
+          ]
+        },
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Research organizations and state authority shape development.",
+          "refs": [
+            "https://www.simonandschuster.com/books/Dark-Sun/Richard-Rhodes/9780684824147"
+          ]
+        },
+        "MIL": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Military requirements determine the strategic use of developments.",
+          "refs": [
+            "https://www.simonandschuster.com/books/Dark-Sun/Richard-Rhodes/9780684824147"
+          ]
+        },
+        "POL": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "US–Soviet rivalry and domestic authority shape decisions.",
+          "refs": [
+            "https://www.simonandschuster.com/books/Dark-Sun/Richard-Rhodes/9780684824147"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "scientific-programs-under-state-rivalry",
+            "domains": [
+              "SCI",
+              "ENG",
+              "INS",
+              "MIL",
+              "POL"
+            ],
+            "roles": {
+              "SCI": "Emerging nuclear knowledge",
+              "ENG": "Realization of technical capability",
+              "INS": "Laboratories and state control",
+              "MIL": "Arsenal requirements",
+              "POL": "Superpower competition"
+            },
+            "statement": "State rivalry and military demands direct scientific organizations toward engineering difficult capabilities, while secrecy and political control alter the exchange of evidence.",
+            "scope": "Historical thermonuclear programs; no operational design detail is supplied.",
+            "strength": 4,
+            "confidence": "moderate",
+            "refs": [
+              "https://www.simonandschuster.com/books/Dark-Sun/Richard-Rhodes/9780684824147"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Scientific, industrial and intelligence history, not weapons construction instruction.",
+    "reason": "No serious veto established. Scientific constraints, institutions and rivalry supply substantial mechanisms beyond personalities.",
+    "reassessment": "Reread p054 and the current deduction row, and inspect publisher excerpt. Retain every attainment, no veto and both zero themes. Original 1995 is confirmed by excerpt copyright. Correct approximate 1963 endpoint to the catalogued narrative’s explicit 1962 Cuban crisis end. Retain verified 1,084 global ratings at the original observation date; confirm 736-page paperback.",
+    "evidence": [
+      "https://www.simonandschuster.com/books/Dark-Sun/Richard-Rhodes/9780684824147",
+      "https://openlibrary.org/books/OL7720934M/Dark_Sun",
+      "analysis/analysis_physcanon_261018_0147.md#p054",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0049"
+    ],
+    "raw": [
+      18,
+      17,
+      13,
+      10.588235294117647,
+      6,
+      9,
+      7,
+      4,
+      3,
+      2
+    ],
+    "notes": [
+      "E18: US and Soviet records support the account; secrecy and retrospective testimony limit completeness.",
+      "S17: physics, industrial effort, intelligence and state rivalry are closely joined.",
+      "U13: scientific organization under strategic pressure transfers.",
+      "M10.5882: technical constraints and institutional choices explain development.",
+      "D6: long espionage and biographical passages reduce concentration.",
+      "R9: technological competition and escalation remain durable.",
+      "F7: nuclear science and strategic technology fit directly.",
+      "A4: Rhodes’s sustained documentary scholarship supports authority.",
+      "N3: the chronology connects scientific and political developments.",
+      "P2: the inspected excerpt separates estimates, evidence and decisions."
+    ],
+    "year": 1995,
+    "yearNote": "Publisher excerpt copyright 1995; paperback 1996.",
+    "periodEnd": 1962,
+    "periodNote": "Catalog description identifies the Cuban missile crisis as the closing principal episode, replacing the earlier approximate early-1960s date.",
+    "themeNote": "T11=0: international scientific and industrial competition. T12=0: thermonuclear development is the organizing topic; rivalry and intelligence serve that account."
+  },
+  {
+    "index": 43,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "low",
+    "T11": 0,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Arsenals of Folly\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-100.json",
+          "result": "No verified matching book total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Arsenals%20of%20Folly%20Richard%20Rhodes%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 432,
+        "id": "ISBN:9780375713941",
+        "url": "https://www.penguinrandomhouse.com/books/141602/arsenals-of-folly-by-richard-rhodes/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2008,
+        "confidence": "high"
+      },
+      "domains": {
+        "STR": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Nuclear rivalry and signaling form the main argument.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/141602/arsenals-of-folly-by-richard-rhodes/"
+          ]
+        },
+        "MIL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Arsenal buildup and arms control are sustained subjects.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/141602/arsenals-of-folly-by-richard-rhodes/"
+          ]
+        },
+        "POL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Leadership and domestic political decisions organize the account.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/141602/arsenals-of-folly-by-richard-rhodes/"
+          ]
+        },
+        "INS": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Intelligence channels influence perceived threats.",
+          "refs": [
+            "https://search.worldcat.org/title/1022735338"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Documentary political and strategic history with a sustained argument, not a technical manual.",
+    "reason": "No serious veto established at moderate confidence. The anti-arms-race position is explicit, but the inspected documentation does not establish evidence-subordinating allegiance. Strongly asymmetric attribution and threat-inflation claims constrain E/P.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/141602/arsenals-of-folly-by-richard-rhodes/",
+      "https://search.worldcat.org/title/1022735338",
+      "https://www.sandia.gov/app/uploads/sites/81/2021/07/labnews03-16-07.pdf"
+    ],
+    "raw": [
+      15,
+      14,
+      11,
+      9,
+      7,
+      8,
+      5,
+      4,
+      3,
+      1
+    ],
+    "notes": [
+      "E15: declassified documents and interviews support events; broad blame claims need counterevidence.",
+      "S14: weapons, intelligence, domestic politics and diplomacy interact.",
+      "U11: threat inflation and signaling errors transfer.",
+      "M9: arms-race incentives explain escalation beyond leader chronology.",
+      "D7: political biographies dilute the central mechanism.",
+      "R8: strategic misperception remains useful.",
+      "F5: nuclear technology and risk fit, while diplomacy dominates.",
+      "A4: established nuclear-history research supports authority.",
+      "N3: parallel leadership stories converge on negotiations.",
+      "P1: categorical anti-deterrence language narrows causal caution."
+    ],
+    "year": 2007,
+    "yearNote": "Publisher first ebook October 2007; paperback 2008.",
+    "periodEnd": 1989,
+    "periodNote": "Approximate close of the central Reagan–Gorbachev decade and Cold War arms-race arc; 1986 summit is its climax, not necessarily its final narrated event.",
+    "themeNote": "T11=0: international strategic history rather than one-nation civic history. T12=-10: politics, diplomacy and nuclear strategy are central."
+  },
+  {
+    "index": 44,
+    "status": "unresolved",
+    "confidence": "high",
+    "eligibility": "A work-level decision is not possible because the source names no specific Roman-history volume.",
+    "reason": "The source says Isaac Asimov’s Roman history. It does not distinguish The Roman Republic, The Roman Empire or a collective nomination; do not add external candidate titles as source books.",
+    "evidence": [
+      "https://www.reddit.com/r/suggestmeabook/comments/1vo9rfk/comment/p3p54vn/"
+    ],
+    "identityNotes": "Author identifiable; title and volume scope unresolved. Retain in source audit only, with no score or ledger entry."
+  },
+  {
+    "index": 45,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "low",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": 5140,
+      "status": "Verified matching archived product response; explicit global ratings label. Title and author checked.",
+      "marketplace": "www.amazon.com",
+      "asin": "1101981636",
+      "url": "https://www.amazon.com/dp/1101981636",
+      "retrievedAt": "2026-10-20T14:42:52.857Z",
+      "evidence": [
+        "data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">5,140 global ratings"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.amazon.com/dp/1101981636",
+          "retrievedAt": "2026-10-20T14:42:52.857Z",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0405-1101981636-www.amazon.com-64f44ebd2370b846.html.gz",
+          "result": "Matching title, author and explicit global-rating label."
+        }
+      ]
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/1101981636",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Amazon archived product: 5140 global ratings; 2026-10-20T14:42:52.857Z.",
+    "enrichment": {
+      "edition": {
+        "pages": 336,
+        "id": "ISBN:9781101981634",
+        "url": "https://www.penguinrandomhouse.com/books/534655/the-feather-thief-by-kirk-wallace-johnson/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2019,
+        "confidence": "high"
+      },
+      "domains": {
+        "INS": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Museum security and prosecution shape the outcome.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/534655/the-feather-thief-by-kirk-wallace-johnson/"
+          ]
+        },
+        "ECO": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Collector demand assigns high private value to feathers.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/534655/the-feather-thief-by-kirk-wallace-johnson/"
+          ]
+        },
+        "TRD": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "A dispersed black market moves stolen specimens.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/534655/the-feather-thief-by-kirk-wallace-johnson/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Investigative crime narrative; fly-tying background is explanatory, not the principal instructional structure.",
+    "reason": "No serious veto established. Black-market incentives, collection security and evidential loss supply payload beyond the unusual thief.",
+    "reassessment": "Reread a093 and the current deduction row. Publisher interview confirms substantial original investigation. Retain every attainment, no veto, zero themes and 2018. Correct 2009 crime-only endpoint to approximate 2016: the author’s later investigation occupies the final narrative and lasted about five years after 2011. Archived 5,140 explicit global ratings supersedes 5,096 without changing O15.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/534655/the-feather-thief-by-kirk-wallace-johnson/",
+      "https://watermarkbooks.com/book/9781101981610",
+      "https://books.google.com/books/about/The_Feather_Thief.html?id=ufEtDwAAQBAJ",
+      "analysis/analysis_anysubject_261017_2227.md#a093",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0405"
+    ],
+    "raw": [
+      16,
+      11.333333333333334,
+      9,
+      7.0588235294117645,
+      7,
+      8,
+      3,
+      4,
+      3,
+      2
+    ],
+    "notes": [
+      "E16: interviews and case records ground the investigation; missing specimens limit resolution.",
+      "S11.3333: collections, private demand and weak security interact.",
+      "U9: asset valuation and institutional blind spots transfer.",
+      "M7.0588: market incentives explain the crime more than a full general model.",
+      "D7: pursuit and personality detail take substantial space.",
+      "R8: protection of knowledge assets remains durable.",
+      "F3: institutions and markets fit, but the hobby-crime subject dominates.",
+      "A4: original interviews and sustained inquiry support authority.",
+      "N3: theft, prosecution and renewed investigation provide clear stages.",
+      "P2: the earlier reporting precision judgment remains supported."
+    ],
+    "year": 2018,
+    "yearNote": "Publisher first ebook April 2018; paperback 2019.",
+    "periodEnd": 2016,
+    "periodNote": "Approximate end of the author’s five-year investigation begun in 2011, supported by the bookseller’s review and publisher description of the extended search; final chapter date still unverified.",
+    "themeNote": "T11=0: specimens are stolen knowledge assets; ecology is not the dominant argument. T12=0: market incentives are auxiliary to crime investigation."
+  },
+  {
+    "index": 46,
+    "status": "vetoed",
+    "confidence": "low",
+    "yearConfidence": "moderate",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "The prior snapshot exposes only a review-label count. Total ratings are unverified; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "retrievedAt": "2026-10-18T18:33:01.139Z",
+          "error": "No exact product identifier; title search required",
+          "verified": false
+        },
+        {
+          "url": "https://www.amazon.com.au/dp/1442386509",
+          "requestedUrl": "https://www.amazon.com.au/dp/1442386509",
+          "retrievedAt": "2026-10-18T18:46:24.517Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "cde6853cb0efd7bc9f4c3ad9fbe14e7a5f61d05a5aa313347d7641064eba35ce"
+        },
+        {
+          "url": "https://www.amazon.com.au/dp/487031200X",
+          "requestedUrl": "https://www.amazon.com.au/dp/487031200X",
+          "retrievedAt": "2026-10-18T18:46:24.708Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "e089d543a5fe78871afac540db5aaa63e650500c839c2b54d9c517aac1cb4fdf"
+        },
+        {
+          "url": "https://www.amazon.com.au/dp/0671045180",
+          "requestedUrl": "https://www.amazon.com.au/dp/0671045180",
+          "retrievedAt": "2026-10-18T18:46:24.914Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "54b4aab1c119673803a9e517f802dc447808f05f94624363c178a005eb37d127"
+        },
+        {
+          "url": "https://www.amazon.com.au/dp/1863594930",
+          "requestedUrl": "https://www.amazon.com.au/dp/1863594930",
+          "retrievedAt": "2026-10-18T18:46:25.078Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "8a7bcfcc9012436a8a11933e49940410cf5a8bc1439c5d5980b1ed7818f380e2"
+        },
+        {
+          "url": "https://www.amazon.com.au/dp/0385479565",
+          "requestedUrl": "https://www.amazon.com.au/dp/0385479565",
+          "retrievedAt": "2026-10-18T18:46:25.245Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "f02da80d9a4465478f24e40e0bcaa7c917020498c7ee0bb519fcc1e2e41c8467"
+        },
+        {
+          "url": "https://www.amazon.it/dp/1442386509",
+          "requestedUrl": "https://www.amazon.it/dp/1442386509",
+          "retrievedAt": "2026-10-18T18:57:14.080Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "pageTitle": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "d1d0d85a09679cfb2e4655d268f34e88b82b763bb677508ba9b6e9d2bdb0408b"
+        },
+        {
+          "url": "https://www.amazon.it/dp/487031200X",
+          "requestedUrl": "https://www.amazon.it/dp/487031200X",
+          "retrievedAt": "2026-10-18T18:57:14.145Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "pageTitle": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "185c457a7393c536cc968268582ba4f0b529e637c6b1aa2832bc4944d63f59f0"
+        },
+        {
+          "url": "https://www.amazon.it/dp/0671045180",
+          "requestedUrl": "https://www.amazon.it/dp/0671045180",
+          "retrievedAt": "2026-10-18T18:57:14.209Z",
+          "httpStatus": 200,
+          "title": "The Hot Zone",
+          "byline": "Edizione Inglese di Richard Preston (Autore), Howard McGillin (Narratore) Formato: Audio Cassetta",
+          "pageTitle": "The Hot Zone : Preston, Richard, McGillin, Howard: Amazon.it: Libri",
+          "topCount": 7686,
+          "globalCount": null,
+          "titleMatch": true,
+          "authorMatch": true,
+          "verified": true,
+          "evidence": [
+            "<span id=\"acrCustomerReviewText\" aria-label=\"7.686 Recensioni\" class=\"a-size-small\">(7.686)</span>"
+          ],
+          "sha256": "ca66bca9d5d60b47834b74fa375427c8c387c474ca7c6c648608fa001dbf3bb2"
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.it/dp/0671045180",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 368,
+        "id": "ISBN:9780385495226",
+        "url": "https://www.penguinrandomhouse.com/books/133843/the-hot-zone-by-richard-preston/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 1999,
+        "confidence": "high"
+      },
+      "domains": {
+        "INS": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Laboratory and public response organizations are sustained subjects.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/133843/the-hot-zone-by-richard-preston/"
+          ]
+        },
+        "QLT": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Containment and procedural failure are discussed, with reliability concerns.",
+          "refs": [
+            "analysis/analysis_mustreads_261017_2010.md#m010"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "veto": "V1",
+    "vetoConfidence": "moderate",
+    "eligibility": "Narrative nonfiction, not a virology textbook; its flaws are assessed at the veto stage.",
+    "reason": "Retain V1: prior specific criticism identified misleading bodily-effects and risk framing. CDC evidence distinguishes Reston from human disease and contradicts a generalized lethal-virus frame. Current publisher copy still blends these risks.",
+    "reassessment": "Reread m010 and the current deduction row. The earlier linked criticism could not be reopened, but its recorded specific findings and newly retrieved CDC account support retaining the moderate-confidence V1. Retain all ten counterfactual attainments, T11=-10, T12=0, 1994 and 1989. Prior Recensioni count is not explicit total ratings; O15 remains zero through fallback.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/133843/the-hot-zone-by-richard-preston/",
+      "analysis/analysis_mustreads_261017_2010.md#m010",
+      "analysis/analysis_pubcap_261018_2125.md#d-q1087",
+      "https://www.cdc.gov/vhf/ebola/index.html",
+      "https://www.cdc.gov/ebola/hcp/clinical-signs/index.html"
+    ],
+    "raw": [
+      8,
+      8.5,
+      6,
+      4.9411764705882355,
+      7,
+      5,
+      2,
+      3,
+      3,
+      1
+    ],
+    "notes": [
+      "E8: specific overstatement of bodily effects and risk materially weakens integrity.",
+      "S8.5: laboratories, response institutions and infection connect, with distorted risk framing.",
+      "U6: containment lessons survive only with external correction.",
+      "M4.9412: dramatic escalation weakens causal calibration.",
+      "D7: focused reporting is mixed with horror amplification.",
+      "R5: outdated risk presentation reduces durability.",
+      "F2: laboratory organization is relevant but disease dominates.",
+      "A3: reporting access does not resolve specialist criticism.",
+      "N3: the outbreak narrative is compelling and clear.",
+      "P1: visceral language overstates what the evidence establishes."
+    ],
+    "year": 1994,
+    "yearNote": "Original 1994 retained from the prior sourced assessment; 1999 is the inspected reprint.",
+    "periodEnd": 1989,
+    "periodNote": "The Reston outbreak in 1989 is the principal narrative event.",
+    "themeNote": "T11=-10: disease is central. T12=0: military personnel act as responders rather than making warfare the main topic."
+  },
+  {
+    "index": 47,
+    "status": "recommended",
+    "confidence": "low",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": -10,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The Demon in the Freezer\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-101.json",
+          "result": "No verified matching book total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Demon%20in%20the%20Freezer%20Richard%20Preston%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 304,
+        "id": "ISBN:9780345466631",
+        "url": "https://www.penguinrandomhouse.com/books/133841/the-demon-in-the-freezer-by-richard-preston/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Mass-market paperback",
+        "year": 2003,
+        "confidence": "high"
+      },
+      "domains": {
+        "MIL": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Biological weapons and biodefense shape the investigation.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/133841/the-demon-in-the-freezer-by-richard-preston/"
+          ]
+        },
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Research and security institutions govern retained pathogens and response.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/133841/the-demon-in-the-freezer-by-richard-preston/"
+          ]
+        },
+        "STR": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Preparedness and dual-use threats motivate the account.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/133841/the-demon-in-the-freezer-by-richard-preston/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Public explanatory disease and biodefense narrative, not laboratory instruction.",
+    "reason": "No serious veto established at low confidence. The history and interviews provide evidence, while strong claims about secret stocks and future threats remain uncertain. The Hot Zone veto is not automatically transferred to a different work.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/133841/the-demon-in-the-freezer-by-richard-preston/",
+      "https://catalog.freelibrary.org/Record/240313",
+      "https://www.bmj.com/content/325/7376/1367.2"
+    ],
+    "raw": [
+      11,
+      11,
+      8,
+      7,
+      6,
+      5,
+      3,
+      3,
+      3,
+      1
+    ],
+    "notes": [
+      "E11: interviews and eradication history support parts; secret-stock certainty exceeds inspected evidence.",
+      "S11: research, eradication, security and public institutions connect.",
+      "U8: dual-use control and preparedness offer bounded lessons.",
+      "M7: response chains are explained, but worst-case threat claims are less secure.",
+      "D6: anthrax and smallpox strands compete for attention.",
+      "R5: a 2002 threat snapshot and current-investigation claims age poorly.",
+      "F3: strategic research organization fits less than the disease focus.",
+      "A3: reporting access supports narrative authority, not all technical forecasts.",
+      "N3: personal accounts make complex institutions readable.",
+      "P1: demon and super-threat framing weakens calibrated uncertainty."
+    ],
+    "year": 2002,
+    "yearNote": "Publisher and library first-edition record establish 2002; paperback 2003.",
+    "periodEnd": 2002,
+    "periodNote": "The historical account extends through the 2001 anthrax response and then-current 2002 investigation/research, rather than ending at smallpox eradication.",
+    "themeNote": "T11=-10: disease and eradication are central. T12=-10: biological weapons and biodefense are also central."
+  },
+  {
+    "index": 48,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Coming of Age in the Milky Way\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-102.json",
+          "result": "No verified matching book total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Coming%20of%20Age%20in%20the%20Milky%20Way%20Timothy%20Ferris%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 512,
+        "id": "ISBN:9780060535957",
+        "url": "https://atlanticbooks.com/products/coming-of-age-in-the-milky-way-9780060535957",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2003,
+        "confidence": "moderate"
+      },
+      "domains": {
+        "SCI": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Astronomy and cosmology organize the full historical account.",
+          "refs": [
+            "https://books.google.com/books/about/Coming_of_Age_in_the_Milky_Way.html?id=a8nuAAAAMAAJ"
+          ]
+        },
+        "QNT": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Mathematical models and changing observational scales recur.",
+          "refs": [
+            "https://books.google.com/books/about/Coming_of_Age_in_the_Milky_Way.html?id=a8nuAAAAMAAJ"
+          ]
+        },
+        "INS": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Research institutions and intellectual authority shape acceptance.",
+          "refs": [
+            "https://books.google.com/books/about/Coming_of_Age_in_the_Milky_Way.html?id=LlvAcgkZGwoC"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Broad history of cosmological ideas for lay readers, not an astronomy course or specialist monograph.",
+    "reason": "No serious veto established. Model change and observational constraints provide payload; much physics will be familiar to the intended expert reader.",
+    "evidence": [
+      "https://books.google.com/books/about/Coming_of_Age_in_the_Milky_Way.html?id=a8nuAAAAMAAJ",
+      "https://atlanticbooks.com/products/coming-of-age-in-the-milky-way-9780060535957",
+      "https://books.google.com/books/about/Coming_of_Age_in_the_Milky_Way.html?id=LlvAcgkZGwoC"
+    ],
+    "raw": [
+      16,
+      10,
+      8,
+      8,
+      7,
+      7,
+      4,
+      4,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E16: historical research supports the scientific chronology; late-twentieth-century cosmology is dated.",
+      "S10: observations, mathematical models and intellectual institutions connect.",
+      "U8: model revision offers epistemic lessons more than practical strategy.",
+      "M8: changing explanatory models show why evidence displaced earlier pictures.",
+      "D7: broad biography and familiar science reduce density for this reader.",
+      "R7: intellectual history endures while the contemporary science endpoint ages.",
+      "F4: physics is directly relevant but introductory to a cosmology specialist.",
+      "A4: established science writing and scientific engagement support authority.",
+      "N3: the expanding picture of space and time gives a clear arc.",
+      "P1.5: vivid biographical characterization can simplify historical motives."
+    ],
+    "year": 1988,
+    "yearNote": "Morrow original 1988 bibliographic record; 2003 paperback does not reset age.",
+    "periodEnd": null,
+    "periodNote": "Broad ancient-to-modern intellectual history across periods, not one bounded central era.",
+    "themeNote": "T11=0: scientific intellectual history. T12=0: political and religious institutions are context to astronomy."
+  },
+  {
+    "index": 49,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Why Beauty Is Truth\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-103.json",
+          "result": "No matching book aggregate; unrelated podcast discarded."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Why%20Beauty%20Is%20Truth%20Ian%20Stewart%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 304,
+        "id": "ISBN:9780465082377",
+        "url": "https://www.hachettebookgroup.com/titles/ian-stewart/why-beauty-is-truth/9780465082377/?lens=basic-books",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2008,
+        "confidence": "high"
+      },
+      "domains": {
+        "QNT": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Symmetry and group-theoretic ideas are the main subject.",
+          "refs": [
+            "https://www.hachettebookgroup.com/titles/ian-stewart/why-beauty-is-truth/9780465082377/?lens=basic-books"
+          ]
+        },
+        "SCI": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Relativity, quantum theory and cosmology are major applications.",
+          "refs": [
+            "https://www.hachettebookgroup.com/titles/ian-stewart/why-beauty-is-truth/9780465082377/?lens=basic-books"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Narrative history and explanation of symmetry for general readers. Biographical chapters and sustained conceptual development dominate, not exercises or training.",
+    "reason": "No serious veto established. The historical mathematical account is useful; the final speculative physics cannot be treated as established explanation.",
+    "evidence": [
+      "https://www.hachettebookgroup.com/titles/ian-stewart/why-beauty-is-truth/9780465082377/?lens=basic-books",
+      "https://books.google.com/books/about/Why_Beauty_Is_Truth.html?id=DSFWGMvYnYYC",
+      "https://www.nature.com/articles/447038a"
+    ],
+    "raw": [
+      16,
+      11,
+      8,
+      9,
+      8,
+      8,
+      5,
+      4.5,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E16: mathematical history is grounded; speculative final physics needs explicit limits.",
+      "S11: algebraic symmetry and physical theory are connected.",
+      "U8: structural reasoning transfers intellectually more than operationally.",
+      "M9: the evolution of algebraic concepts explains how symmetry became useful.",
+      "D8: one conceptual line gives the biographies purpose.",
+      "R8: mathematics and its history are durable; speculative applications less so.",
+      "F5: mathematical physics fits, but much is familiar to a QFT specialist.",
+      "A4.5: Stewart is an established research mathematician and expositor.",
+      "N3: chronological lives support cumulative conceptual development.",
+      "P1.5: romantic biographical summaries and beauty rhetoric simplify uncertainties."
+    ],
+    "year": 2007,
+    "yearNote": "Original 2007 supported by contemporary Nature review and publisher-supplied record; paperback 2008.",
+    "periodEnd": null,
+    "periodNote": "Cross-period mathematical history from antiquity to modern applications; no single central historical endpoint.",
+    "themeNote": "T11=0: mathematical intellectual history. T12=0: beauty is an organizing mathematical theme rather than a philosophy treatise."
+  }
+]

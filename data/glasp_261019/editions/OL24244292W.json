@@ -1,0 +1,61 @@
+{
+  "url": "https://openlibrary.org/works/OL24244292W/editions.json?limit=1000",
+  "retrievedAt": "2026-10-18T23:30:33.255Z",
+  "status": 200,
+  "data": {
+    "links": {
+      "self": "/works/OL24244292W/editions.json?limit=1000",
+      "work": "/works/OL24244292W"
+    },
+    "size": 1,
+    "entries": [
+      {
+        "type": {
+          "key": "/type/edition"
+        },
+        "title": "Self-Reliance",
+        "authors": [
+          {
+            "key": "/authors/OL18405A"
+          }
+        ],
+        "publish_date": "Mar 08, 2019",
+        "source_records": [
+          "amazon:0359490921",
+          "bwb:9780359490929"
+        ],
+        "number_of_pages": 54,
+        "publishers": [
+          "Lulu.com"
+        ],
+        "isbn_10": [
+          "0359490921"
+        ],
+        "isbn_13": [
+          "9780359490929"
+        ],
+        "physical_format": "hardcover",
+        "full_title": "Self-Reliance",
+        "covers": [
+          10723925
+        ],
+        "works": [
+          {
+            "key": "/works/OL24244292W"
+          }
+        ],
+        "key": "/books/OL32070465M",
+        "latest_revision": 3,
+        "revision": 3,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2021-03-24T19:21:38.608881"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2026-01-15T06:57:23.620495"
+        }
+      }
+    ]
+  }
+}

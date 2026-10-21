@@ -1,0 +1,5 @@
+const fs=require('fs'),p=require('./prior.json'),i=require('./inventory.json');
+const cat=process.argv[2]||'science',start=+(process.argv[3]||0),end=+(process.argv[4]||999);
+const bs=i.books.filter(b=>b.appearances[0].category===cat&&b.priorCandidates.some(c=>c.id)).slice(start,end);
+for(const b of bs){for(const c of b.priorCandidates.filter(c=>c.id)){const x=p.find(x=>x.id===c.id);if(!x)continue;console.log(JSON.stringify({id:b.id,prior:x.id,title:x.title,year:x.originalYear??x.production?.year,raw:x.raw||x.linearPoints,deductions:x.deductions,period:x.periodEnd??x.assessment?.periodEnd,reason:x.case,notes:x.notes,objection:x.objection}));const ref=x.priorAssessment||x.priorReport;if(ref){let[file,anchor]=ref.split('#');if(fs.existsSync(file)){let t=fs.readFileSync(file,'utf8'),pos=anchor?t.indexOf('id="'+anchor+'"'):-1;if(pos<0){pos=t.indexOf('— '+x.title);if(pos<0)pos=t.indexOf('### '+x.title);if(pos<0)pos=t.lastIndexOf(x.title);}let end=t.indexOf('<a id=',pos+10);if(end<0)end=t.indexOf('<a id=',pos+10);console.log(t.slice(Math.max(0,pos-10),end>pos?Math.min(end,pos+4500):pos+4500));}}}}
+

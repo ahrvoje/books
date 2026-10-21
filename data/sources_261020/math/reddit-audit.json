@@ -1,0 +1,63 @@
+{
+  "reviewed": "2026-10-20",
+  "ownedRange": "Reddit packet local indices 0–119 inclusive",
+  "assigned": 120,
+  "completed": 120,
+  "transferred": [
+    {
+      "range": "120–133",
+      "owner": "/root",
+      "packet": "math/transfer-root-final.json"
+    },
+    {
+      "range": "134–153",
+      "owner": "/root/domains_a",
+      "packet": "math/reddit-packet.json, local indices 134–153"
+    }
+  ],
+  "statuses": {
+    "recommended": 103,
+    "vetoed": 11,
+    "excluded": 3,
+    "unresolved": 3
+  },
+  "newPrimaryScopeReviews": 117,
+  "unresolvedIdentityReviews": 3,
+  "verifiedEditionRecords": 114,
+  "verifiedAmazonAggregates": 28,
+  "domainEntries": 356,
+  "mechanismRecords": 31,
+  "checks": {
+    "completeOwnership": true,
+    "uniqueIds": true,
+    "tenBookSpecificNotes": true,
+    "attainmentBounds": true,
+    "knownDomainCodes": true,
+    "mechanismParticipantRoles": true,
+    "noScoresOnHardExclusions": true
+  },
+  "limitations": "Publisher/library descriptions, contents, selected excerpts, original research and prior book assessments were reviewed. This is not a full-text review of every book. Domain profiles remain partial; uncoded fields are unknown, not absent. Amazon native retrieval stopped at a shopping/CAPTCHA challenge; later searches and earlier explicit global-rating snapshots are individually recorded.",
+  "unresolved": [
+    {
+      "id": "na029d02a7d",
+      "title": "Roman history (unspecified)",
+      "reason": "The source says Isaac Asimov’s Roman history. It does not distinguish The Roman Republic, The Roman Empire or a collective nomination; do not add external candidate titles as source books."
+    },
+    {
+      "id": "n9df5d9ffc4",
+      "title": "Family of Spies",
+      "reason": "The authorless title could mean Christine Kuehn’s 2025 WWII family history or Pete Earley’s 1988 John Walker spy-ring account. The neighboring recent books make Kuehn plausible but do not uniquely establish identity. No scores or edition are assigned to the ambiguous mention."
+    },
+    {
+      "id": "n00eec59674",
+      "title": "Raised on Radio",
+      "reason": "Paul Rees’s 2026 AOR history and Gerald Nachman’s earlier radio-era history both fit the exact title. The source gives neither author, subtitle nor era. The adjacent new books are insufficient to choose one. No score or edition is assigned."
+    }
+  ],
+  "reviewConcerns": [
+    "Quantum Computing Since Democritus retained at moderate eligibility confidence: mixed lecture-derived technical structure, but explicit cross-field explanatory purpose.",
+    "Doing Good Better excluded H2 at moderate confidence: its main structure trains readers to apply five decision questions to choices.",
+    "Shackleton’s Forgotten Men uses 1982 at moderate confidence based on an explicit specialist-author date correction and the earlier alternate-title record; original copyright-page comparison was unavailable.",
+    "Some historical endpoints are bounded judgments from the dominant narrative, marked low confidence when final chapter scope was not verified."
+  ]
+}

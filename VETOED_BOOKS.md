@@ -1,1792 +1,2285 @@
 # Vetoed books
 
-Updated **2026-10-18 22:35, Europe/Warsaw**. **177 unique source books or nominated series** remain vetoed. [Rules 11–15 baseline](analysis_pubcap_261018_2125.md) · [New discovery assessment](analysis_research92_261018_2235.md) · [Earlier discovery assessment](analysis_widerd_261018_2208.md) · [Prior veto decisions](analysis_veto5_261018_1428.md) · [Hard exclusions](EXCLUDED_BOOKS.md).
-
-Each counterfactual score suspends only the veto gate and retains the identified flaws. Order uses unrounded totals. Veto confidence is separate from score confidence. The full ledger and review show every deduction and Amazon fallback.
+Updated **2026-10-21, Europe/Warsaw**. **187 unique source works**. The prior [V4/V5 review](analysis/analysis_vetogates_261021_0047.md) remains the gate assessment for existing entries. [Books Guru batch](data/books_guru_261021/REPORT.md) adds new-title decisions and source provenance. Counterfactual scores suspend only the veto gate and retain identified flaws.
 
 | Entry date | First year | Author | Title | Counterfactual /100 | Veto | Veto confidence | Sources |
 |---|---|---|---|---:|---|---|---|
-| 2026-10-18 | 2023 | Deb Chachra | [How Infrastructure Works](analysis_research92_261018_2235.md#infrastructure) | **85.30** | V5 | moderate | 90 |
-| 2026-10-18 | 2020 | Matt Ridley | [How Innovation Works](analysis_research92_261018_2235.md#ridley) | **78.61** | V5 | moderate | 75 |
-| 2026-10-18 | 1990 | Donald MacKenzie | [Inventing Accuracy](analysis_discover91_261018_1528.md#mackenzie) | **72.81** | V5 | moderate | 49 |
-| 2026-10-18 | 2020 | Lee Vinsel; Andrew L. Russell | [The Innovation Delusion](analysis_research92_261018_2235.md#delusion) | **72.51** | V5 | high | 89 |
-| 2026-10-17 | 2020 | David Vine | [The United States of War](analysis_veto5_261018_1428.md#v5-0196) | **62.14** | V5 | moderate | 5 |
-| 2026-10-18 | 2024 | Peter S. Goodman | [How the World Ran Out of Everything](analysis_widerd_261018_2208.md#goodman) | **58.40** | V5 | moderate | 67 |
-| 2026-10-17 | 2019 | Shoshana Zuboff | [The Age of Surveillance Capitalism](analysis_veto5_261018_1428.md#v5-0328) | **56.16** | V5 | moderate | 9 |
-| 2026-10-17 | 2014 | Bryan Stevenson | [Just Mercy](analysis_veto5_261018_1428.md#v5-0564) | **54.97** | V5 | high | 4, 5 |
-| 2026-10-17 | 1962 | Rachel Carson | [Silent Spring](analysis_veto5_261018_1428.md#v5-0488) | **53.78** | V5 | high | 8 |
-| 2026-10-17 | 2014 | William Easterly | [The Tyranny of Experts](analysis_veto5_261018_1428.md#v5-0264) | **53.61** | V5 | moderate | 3 |
-| 2026-10-17 | 2007 | Raj Patel | [Stuffed and Starved](analysis_veto5_261018_1428.md#v5-0363) | **53.21** | V5 | high | 5 |
-| 2026-10-17 | 2018 | Steven Pinker | [Enlightenment Now](analysis_veto5_261018_1428.md#v5-0378) | **53.20** | V5 | high | 5 |
-| 2026-10-17 | 2019 | Bryan Caplan; Zach Weinersmith | [Open Borders](analysis_veto5_261018_1428.md#v5-0276) | **52.78** | V5 | high | 8 |
-| 2026-10-17 | 2020 | David Attenborough; Jonnie Hughes | [A Life on Our Planet](analysis_veto5_261018_1428.md#v5-0660) | **52.34** | V5 | high (conditional identity) | 3 |
-| 2026-10-17 | 2023 | Matthew Desmond | [Poverty, by America](analysis_veto5_261018_1428.md#v5-0486) | **49.63** | V5 | high | 5, 8, 9 |
-| 2026-10-17 | 2025 | Gilbert Achcar | [Gaza Catastrophe](analysis_veto5_261018_1428.md#v5-0481) | **48.53** | V5 | moderate | 5 |
-| 2026-10-17 | 1949 | Aldo Leopold | [A Sand County Almanac](analysis_veto5_261018_1428.md#v5-0559) | **48.23** | V5 | high | 7 |
-| 2026-10-17 | 2011 compilation; earlier component books | Noam Chomsky; edited by Arthur Naiman | [How the World Works](analysis_veto5_261018_1428.md#v5-0460) | **48.02** | V5 | high | 9 |
-| 2026-10-17 | 2017 | Reza Aslan | [God: A Human History](analysis_veto5_261018_1428.md#v5-0691) | **46.59** | V5 | high | 8 |
-| 2026-10-17 | 2022 | Jessie Singer | [There Are No Accidents](analysis_veto5_261018_1428.md#v5-0656) | **46.33** | V5 | moderate | 4 |
-| 2026-10-17 | 2023 | Yanis Varoufakis | [Technofeudalism](analysis_veto5_261018_1428.md#v5-0544) | **46.17** | V5 | high | 9 |
-| 2026-10-17 | 2017 | Jason Hickel | [The Divide](analysis_veto5_261018_1428.md#v5-0444) | **46.10** | V5 | high | 9 |
-| 2026-10-17 | 2005 | Reza Aslan | [No god but God](analysis_veto5_261018_1428.md#v5-0569) | **46.02** | V5 | moderate | 8 |
-| 2026-10-17 | 2007 | Naomi Klein | [The Shock Doctrine](analysis_veto5_261018_1428.md#v5-0525) | **45.22** | V5 | high | 4, 5, 9 |
-| 2026-10-17 | 1945 | Karl R. Popper | [The Open Society and Its Enemies](analysis_veto5_261018_1428.md#v5-0284) | **44.18** | V5 | high | 7 |
-| 2026-10-17 | 1997 | Dorothy Roberts | [Killing the Black Body](analysis_veto5_261018_1428.md#v5-0565) | **42.83** | V5 | high | 5 |
-| 2026-10-17 | 2009 | Jonathan Safran Foer | [Eating Animals](analysis_veto5_261018_1428.md#v5-0811) | **42.56** | V5 | high | 5, 6 |
-| 2026-10-17 | 2011 | James Rickards | [Currency Wars](analysis_explainworld_261017_2336.md#w037) | **41.01** | V4 | moderate | 9 |
-| 2026-10-17 | 2013 | Martha C. Nussbaum | [Political Emotions](analysis_veto5_261018_1428.md#v5-0382) | **40.88** | V5 | high | 5 |
-| 2026-10-17 | 1993 | James Howard Kunstler | [The Geography of Nowhere](analysis_veto5_261018_1428.md#v5-0698) | **40.83** | V5 | moderate | 7 |
-| 2026-10-17 | 2018 | David Graeber | [Bullshit Jobs](analysis_veto5_261018_1428.md#v5-0610) | **40.41** | V5 | moderate | 8 |
-| 2026-10-17 | 1975 | Peter Singer | [Animal Liberation](analysis_veto5_261018_1428.md#v5-0402) | **40.39** | V5 | high | 5 |
-| 2026-10-17 | 2018 | Anand Giridharadas | [Winners Take All](analysis_veto5_261018_1428.md#v5-0681) | **40.23** | V5 | high | 9 |
-| 2026-10-17 | 2015 | Johann Hari | [Chasing the Scream](analysis_veto5_261018_1428.md#v5-0870) | **40.17** | V5 | high | 5, 6 |
-| 2026-10-17 | 1879 | Henry George | [Progress and Poverty](analysis_veto5_261018_1428.md#v5-0209) | **39.74** | V5 | high | 5 |
-| 2026-10-17 | 4th century BCE | Plato | [Republic](analysis_veto5_261018_1428.md#v5-0412) | **39.73** | V5 | moderate | 8 |
-| 2026-10-17 | 1938 | Virginia Woolf | [Three Guineas](analysis_veto5_261018_1428.md#v5-0473) | **39.51** | V5 | high | 6 |
-| 2026-10-17 | 1971 | Eduardo Galeano | [Open Veins of Latin America](analysis_veto5_261018_1428.md#v5-0593) | **39.31** | V5 | moderate | 2, 5 |
-| 2026-10-17 | 2019 | Martin Hägglund | [This Life: Secular Faith and Spiritual Freedom](analysis_veto5_261018_1428.md#v5-0555) | **38.96** | V5 | high | 5 |
-| 2026-10-17 | 2013 | Robin Wall Kimmerer | [Braiding Sweetgrass](analysis_veto5_261018_1428.md#v5-0887) | **38.53** | V5 | high | 6 |
-| 2026-10-17 | 2010 | Michelle Alexander | [The New Jim Crow](analysis_veto5_261018_1428.md#v5-0677) | **38.13** | V5 | high | 2 |
-| 2026-10-17 | 2014 | Annie Jacobsen | [Operation Paperclip](analysis_changedmind_261017_2105.md#c099) | **37.67** | V1 | high | 4, 5 |
-| 2026-10-17 | 2023 | Michael R. J. Bonner | [In Defense of Civilization](analysis_veto5_261018_1428.md#v5-0512) | **37.51** | V5 | moderate | 8 |
-| 2026-10-17 | 2022 | Peter Zeihan | [The End of the World Is Just the Beginning](analysis_explainworld_261017_2336.md#w085) | **37.16** | V4 | moderate | 8, 9 |
-| 2026-10-17 | 1995 | William Blum | [Killing Hope](analysis_veto5_261018_1428.md#v5-0536) | **37.03** | V5 | moderate | 5 |
-| 2026-10-17 | 2007 | Tim Weiner | [Legacy of Ashes](analysis_changedmind_261017_2105.md#c114) | **36.17** | V1 | moderate | 5 |
-| 2026-10-17 | 2001 | Rickie Solinger | [Beggars and Choosers](analysis_veto5_261018_1428.md#v5-0707) | **35.97** | V5 | high | 5 |
-| 2026-10-17 | 2020 | Dan Hicks | [The Brutish Museums](analysis_veto5_261018_1428.md#v5-0671) | **35.97** | V5 | high | 7 |
-| 2026-10-17 | 2020 | Vijay Prashad | [Washington Bullets](analysis_veto5_261018_1428.md#v5-0657) | **35.92** | V5 | high | 2, 4, 5 |
-| 2026-10-17 | 2020 | Jason Hickel | [Less Is More](analysis_veto5_261018_1428.md#v5-0796) | **35.92** | V5 | high | 9 |
-| 2026-10-17 | 2021 | Séamas O'Reilly | [Did Ye Hear Mammy Died?](analysis_obscurebooks_261017_1936.md#o150--did-ye-hear-mammy-died) | **35.89** | V3 | moderate | 3 |
-| 2026-10-17 | 2006 | Richard Dawkins | [The God Delusion](analysis_veto5_261018_1428.md#v5-0699) | **35.40** | V5 | high | 5 |
-| 2026-10-17 | 2009 | Iain McGilchrist | [The Master and His Emissary](analysis_readlately_261017_2316.md#h109) | **35.02** | V1 | moderate | 2, 8 |
-| 2026-10-17 | 2025 | John Sanbonmatsu | [The Omnivore's Deception](analysis_veto5_261018_1428.md#v5-0778) | **34.69** | V5 | high | 5 |
-| 2026-10-17 | 2024 | Alexei Navalny | [Patriot](analysis_veto5_261018_1428.md#v5-0820) | **34.48** | V5 | high | 7 |
-| 2026-10-17 | 2007 | Barbara Kingsolver; Steven L. Hopp; Camille Kingsolver | [Animal, Vegetable, Miracle](analysis_veto5_261018_1428.md#v5-0930) | **34.45** | V5 | high | 5 |
-| 2026-10-17 | 2014 | Roxanne Dunbar-Ortiz | [An Indigenous Peoples' History of the United States](analysis_veto5_261018_1428.md#v5-0787) | **34.25** | V5 | moderate | 6 |
-| 2026-10-17 | 2019 | Jemar Tisby | [The Color of Compromise](analysis_veto5_261018_1428.md#v5-0823) | **33.61** | V5 | high | 7 |
-| 2026-10-17 | 2010 | Christopher Ryan; Cacilda Jethá | [Sex at Dawn](analysis_bestever_261017_2138.md#b031) | **33.35** | V1 | moderate | 6 |
-| 2026-10-17 | 1867 (vol. I; work unspecified) | Karl Marx | [Capital / Das Kapital](analysis_definitive_261017_1900.md) | **33.27** | V1; V5 | V5: high; prior: moderate | 1 |
-| 2026-10-17 | 2025 | Robert B. Reich | [Coming Up Short: A Memoir of My America](analysis_veto5_261018_1428.md#v5-0828) | **32.86** | V5 | high | 5 |
-| 2026-10-17 | 1990 | Anthony de Mello | [Awareness](analysis_veto5_261018_1428.md#v5-0951) | **32.10** | V5 | high | 6 |
-| 2026-10-17 | 2021 | Nikole Hannah-Jones; Caitlin Roper; Ilena Silverman; Jake Silverstein (eds.) | [The 1619 Project: A New Origin Story](analysis_veto5_261018_1428.md#v5-0861) | **31.92** | V5 | moderate | 5 |
-| 2026-10-17 | 1855 | Frederick Douglass | [My Bondage and My Freedom](analysis_veto5_261018_1428.md#v5-0720) | **31.70** | V5 | high | 6 |
-| 2026-10-17 | 2013 | William Blum | [America's Deadliest Export: Democracy](analysis_veto5_261018_1428.md#v5-0740) | **31.27** | V5 | high | 5 |
-| 2026-10-17 | 2026 | Adam H. Johnson | [How to Sell a Genocide](analysis_veto5_261018_1428.md#v5-0852) | **30.74** | V5 | high | 5, 9 |
-| 2026-10-17 | 2020 | Brian C. Muraresku | [The Immortality Key](analysis_readlately_261017_2316.md#h166) | **30.54** | V1 | moderate | 8 |
-| 2026-10-17 | c. 1st millennium BCE–2nd century CE | Multiple ancient authors | [The Bible](analysis_veto5_261018_1428.md#v5-0898) | **29.97** | V5 | high | 6, 8 |
-| 2026-10-17 | 2021 | Iain McGilchrist | [The Matter with Things](analysis_readlately_261017_2316.md#h108) | **29.30** | V1; V5 | V5: moderate; prior: moderate | 8 |
-| 2026-10-17 | 2017 | Vijay Prashad | [Red Star Over the Third World](analysis_veto5_261018_1428.md#v5-0797) | **29.25** | V5 | high | 5 |
-| 2026-10-17 | 2022 | James Bridle | [Ways of Being](analysis_veto5_261018_1428.md#v5-0841) | **29.16** | V5 | high | 8 |
-| 2026-10-17 | 2016 | Todd McGowan | [Capitalism and Desire](analysis_veto5_261018_1428.md#v5-0869) | **28.98** | V5 | high | 8, 9 |
-| 2026-10-17 | 1950 | Aimé Césaire | [Discourse on Colonialism](analysis_veto5_261018_1428.md#v5-0794) | **28.90** | V5 | high | 4 |
-| 2026-10-17 | 2011 | Stephen Greenblatt | [The Swerve](analysis_anysubject_261017_2227.md#a109) | **28.58** | V1 | high | 2, 7 |
-| 2026-10-17 | 2009 | Karen Armstrong | [The Case for God](analysis_veto5_261018_1428.md#v5-0775) | **28.53** | V5 | high | 8 |
-| 2026-10-17 | 2011 | Owen Jones | [Chavs](analysis_veto5_261018_1428.md#v5-0888) | **28.21** | V5 | high | 3 |
-| 2026-10-17 | 2022 | Elie Mystal | [Allow Me to Retort](analysis_veto5_261018_1428.md#v5-0905) | **28.19** | V5 | high | 3 |
-| 2026-10-17 | 2003 | Angela Y. Davis | [Are Prisons Obsolete?](analysis_veto5_261018_1428.md#v5-0867) | **27.99** | V5 | high | 2 |
-| 2026-10-17 | 1993 | Helen Prejean | [Dead Man Walking](analysis_veto5_261018_1428.md#v5-0792) | **27.49** | V5 | high | 5 |
-| 2026-10-17 | 1985 | Oliver Sacks | [The Man Who Mistook His Wife for a Hat](analysis_bestever_261017_2138.md#b033) | **27.35** | V1 | high | 6 |
-| 2026-10-17 | 2023 | John Trent | [Second Sunrise](analysis_mustreads_261017_2010.md#m015) | **27.16** | V3 | moderate | 4 |
-| 2026-10-17 | 2017 | Matthew Walker | [Why We Sleep](analysis_readlately_261017_2316.md#h156) | **26.05** | V1 | moderate | 8 |
-| 2026-10-17 | 1848 | Karl Marx; Friedrich Engels | [The Communist Manifesto](analysis_changedmind_261017_2105.md#c070) | **25.75** | V2; V1; V5 | V5: high; prior: moderate | 2, 5 |
-| 2026-10-17 | 2024 | Tracy Rosenthal; Leonardo Vilchis | [Abolish Rent](analysis_veto5_261018_1428.md#v5-0950) | **25.34** | V5 | high | 9 |
-| 2026-10-17 | 2015 | David Talbot | [The Devil's Chessboard](analysis_mustreads_261017_2010.md#m063) | **25.24** | V1 | moderate | 2, 4 |
-| 2026-10-17 | 2015 | Ta-Nehisi Coates | [Between the World and Me](analysis_veto5_261018_1428.md#v5-0939) | **25.20** | V5 | moderate | 6 |
-| 2026-10-17 | 2019 | McKenzie Wark | [Capital Is Dead](analysis_veto5_261018_1428.md#v5-0766) | **25.15** | V5 | high | 8 |
-| 2026-10-17 | 1980 | Howard Zinn | [A People's History of the United States](analysis_veto5_261018_1428.md#v5-0884) | **24.83** | V5 | high | 5, 6, 7, 9 |
-| 2026-10-17 | 1981 | bell hooks | [Ain't I a Woman: Black Women and Feminism](analysis_veto5_261018_1428.md#v5-0885) | **24.44** | V5 | high | 2 |
-| 2026-10-17 | 2019 | Jenny Odell | [How to Do Nothing](analysis_veto5_261018_1428.md#v5-0956) | **24.43** | V5 | high | 8 |
-| 2026-10-17 | 2006 | Greg Mortenson; David Oliver Relin | [Three Cups of Tea](analysis_bestever_261017_2138.md#b111) | **24.35** | V1 | high | 6 |
-| 2026-10-17 | 1965 | Malcolm X; Alex Haley | [The Autobiography of Malcolm X](analysis_veto5_261018_1428.md#v5-0834) | **24.30** | V5 | high | 2 |
-| 2026-10-17 | c. 4th–3rd century BCE | Traditionally Laozi | [Tao Te Ching](analysis_veto5_261018_1428.md#v5-0822) | **24.13** | V5 | high | 2 |
-| 2026-10-17 | 2023 | Bob Crowley; Hal V. Hall; Tim Twietmeyer | [The Places We Run](analysis_mustreads_261017_2010.md#m014) | **24.11** | V3 | moderate | 4 |
-| 2026-10-17 | 2014 | Bessel van der Kolk | [The Body Keeps the Score](analysis_readlately_261017_2316.md#h142) | **23.93** | V1 | moderate | 4, 6, 7, 8 |
-| 2026-10-17 | 1978; English 1987 | René Girard; with Jean-Michel Oughourlian and Guy Lefort | [Things Hidden Since the Foundation of the World](analysis_veto5_261018_1428.md#v5-0806) | **23.69** | V5 | moderate | 9 |
-| 2026-10-17 | 1968 | Edward Abbey | [Desert Solitaire](analysis_veto5_261018_1428.md#v5-1016) | **23.27** | V5 | high | 4 |
-| 2026-10-17 | 2001 | Haven Kimmel | [A Girl Named Zippy](analysis_obscurebooks_261017_1936.md#o062--a-girl-named-zippy) | **23.09** | V3 | moderate | 3 |
-| 2026-10-17 | 2018 | Aruna D'Souza | [Whitewalling](analysis_veto5_261018_1428.md#v5-0995) | **22.70** | V5 | high | 7 |
-| 2026-10-17 | 1994 | Richard Preston | [The Hot Zone](analysis_mustreads_261017_2010.md#m010) | **22.61** | V1 | moderate | 2, 3, 4 |
-| 2026-10-17 | 1999 | Gabor Maté | [Scattered Minds](analysis_mustreads_261017_2010.md#m034) | **22.54** | V1 | moderate | 4 |
-| 2026-10-17 | 2025 | Muhannad Ayyash | [Lordship and Liberation in Palestine-Israel](analysis_veto5_261018_1428.md#v5-0991) | **22.54** | V5 | high | 3 |
-| 2026-10-17 | 2021 | Catherine Liu | [Virtue Hoarders](analysis_veto5_261018_1428.md#v5-1009) | **22.38** | V5 | high | 4 |
-| 2026-10-17 | 1922 | Errico Malatesta | [At the Café](analysis_veto5_261018_1428.md#v5-0587) | **22.24** | V5 | high | 5 |
-| 2026-10-17 | 1973 | Chögyam Trungpa | [Cutting Through Spiritual Materialism](analysis_veto5_261018_1428.md#v5-0932) | **21.90** | V5 | high | 4 |
-| 2026-10-17 | 1992 | Terence McKenna | [Food of the Gods](analysis_veto5_261018_1428.md#v5-1059) | **21.83** | V5 | moderate | 2 |
-| 2026-10-17 | 1978; English 2023 | Albert Camus | [Travels in the Americas](analysis_readlately_261017_2316.md#h149) | **21.45** | V3 | moderate | 8 |
-| 2026-10-17 | 1990 | Patricia Hill Collins | [Black Feminist Thought](analysis_veto5_261018_1428.md#v5-0789) | **21.06** | V5 | high | 5 |
-| 2026-10-17 | 2021 | Michelle Zauner | [Crying in H Mart](analysis_mustreads_261017_2010.md#m130) | **20.56** | V3 | moderate | 4 |
-| 2026-10-17 | 2023 | Sohrab Ahmari | [Tyranny, Inc.](analysis_veto5_261018_1428.md#v5-0880) | **20.26** | V5 | high | 8 |
-| 2026-10-17 | 2015 | Norman Ohler | [Blitzed](analysis_bestever_261017_2138.md#b067) | **20.04** | V1 | moderate | 2, 6 |
-| 2026-10-17 | 2010 | Gary Taubes | [Why We Get Fat](analysis_readlately_261017_2316.md#h087) | **19.99** | V1 | moderate | 8 |
-| 2026-10-17 | 2007 | Naomi Wolf | [The End of America](analysis_veto5_261018_1428.md#v5-1019) | **19.48** | V5 | high | 4 |
-| 2026-10-17 | 1998 | Leonard Shlain | [The Alphabet Versus the Goddess](analysis_anysubject_261017_2227.md#a140) | **19.36** | V1 | moderate | 7 |
-| 2026-10-17 | 1969 | Henri Charrière | [Papillon](analysis_bestever_261017_2138.md#b079) | **19.35** | V1 | moderate | 6 |
-| 2026-10-17 | 2018 | Ijeoma Oluo | [So You Want to Talk About Race](analysis_veto5_261018_1428.md#v5-1031) | **19.04** | V5 | high | 5 |
-| 2026-10-17 | 2018 | Timothy Morton | [Being Ecological](analysis_veto5_261018_1428.md#v5-1026) | **18.65** | V5 | high | 6 |
-| 2026-10-17 | 2008 | Nicholson Baker | [Human Smoke](analysis_changedmind_261017_2105.md#c040) | **18.54** | V1; V5 | V5: moderate; prior: moderate | 5 |
-| 2026-10-17 | 2014 | Edward E. Baptist | [The Half Has Never Been Told](analysis_changedmind_261017_2105.md#c119) | **17.77** | V1 | high | 5 |
-| 2026-10-17 | 2011 | S. Nassir Ghaemi | [A First-Rate Madness](analysis_mustreads_261017_2010.md#m023) | **17.74** | V1 | moderate | 4 |
-| 2026-10-17 | 1983 | Peter Matthiessen | [In the Spirit of Crazy Horse](analysis_veto5_261018_1428.md#v5-0914) | **17.37** | V5 | high | 4 |
-| 2026-10-17 | 1992 | William Manchester | [A World Lit Only by Fire](analysis_top3alltime_261017_1900.md) | **16.78** | V1 | moderate | 2 |
-| 2026-10-17 | 1987 | Assata Shakur | [Assata](analysis_veto5_261018_1428.md#v5-1011) | **15.56** | V5 | high | 6 |
-| 2026-10-17 | 2005 | Carole Radziwill | [What Remains](analysis_mustreads_261017_2010.md#m006) | **15.23** | V3 | moderate | 4 |
-| 2026-10-17 | 1956 | Sławomir Rawicz; Ronald Downing | [The Long Walk](analysis_bestever_261017_2138.md#b080) | **15.23** | V1 | high | 6 |
-| 2026-10-17 | 1994 | Christina Hoff Sommers | [Who Stole Feminism?](analysis_veto5_261018_1428.md#v5-0982) | **15.05** | V5 | high | 7 |
-| 2026-10-17 | 1993 | Jennifer Toth | [The Mole People](analysis_obscurebooks_261017_1936.md#o031--the-mole-people) | **14.67** | V1 | moderate | 3 |
-| 2026-10-17 | 2017 | John Hodgman | [Vacationland](analysis_bestever_261017_2138.md#b083) | **13.98** | V3 | moderate | 6 |
-| 2026-10-17 | 1952 | Pearson H. Corbett | [Jacob Hamblin: The Peacemaker](analysis_veto5_261018_1428.md#v5-1047) | **13.74** | V5 | high | 8 |
-| 2026-10-17 | 2007 | David Talbot (probable identification) | [Brothers](analysis_mustreads_261017_2010.md#m158) | **13.68** | V1 (conditional) | moderate | 4 |
-| 2026-10-17 | 1995 | Dave Pelzer | [A Child Called It](analysis_changedmind_261017_2105.md#c067) | **13.57** | V3 | moderate | 5 |
-| 2026-10-17 | 1960 | John Graves | [Goodbye to a River](analysis_readlately_261017_2316.md#h045) | **13.50** | V3 | moderate | 8 |
-| 2026-10-17 | 2025 | Samuel Miller McDonald | [Progress](analysis_veto5_261018_1428.md#v5-0856) | **13.41** | V5 | high | 7 |
-| 2026-10-17 | 2008 | Carrie Fisher | [Wishful Drinking](analysis_mustreads_261017_2010.md#m052) | **13.32** | V3 | moderate | 4 |
-| 2026-10-17 | 2011 | Charles Eisenstein | [Sacred Economics](analysis_veto5_261018_1428.md#v5-1037) | **13.21** | V5 | high | 8 |
-| 2026-10-17 | 2018 | David Michael Rice | [Desert Soliloquy](analysis_mustreads_261017_2010.md#m136) | **12.88** | V3 | moderate | 4 |
-| 2026-10-17 | 1953 | Shirley Jackson | [Life Among the Savages](analysis_bestever_261017_2138.md#b086) | **12.45** | V3 | moderate | 6 |
-| 2026-10-17 | 1972 | Herbert Dingle | [Science at the Crossroads](analysis_obscurebooks_261017_1936.md#o143--science-at-the-crossroads) | **12.18** | V1 | high | 3 |
-| 2026-10-17 | 1952 | C. G. Jung | [Answer to Job](analysis_veto5_261018_1428.md#v5-0970) | **12.14** | V5 | moderate | 3 |
-| 2026-10-17 | 2012 | Steven Holcomb; Steve Eubanks | [But Now I See](analysis_obscurebooks_261017_1936.md#o112--but-now-i-see) | **11.84** | V3 | moderate | 3 |
-| 2026-10-17 | 2005 | Bruce H. Lipton | [The Biology of Belief](analysis_bestever_261017_2138.md#b100) | **11.74** | V1; V5 | V5: moderate; prior: high | 6 |
-| 2026-10-17 | 1979 | Jack D. Forbes | [Columbus and Other Cannibals](analysis_veto5_261018_1428.md#v5-1015) | **11.68** | V5 | high | 9 |
-| 2026-10-17 | 2013 | Brad Willis (Bhava Ram) | [Warrior Pose](analysis_anysubject_261017_2227.md#a021) | **11.16** | V1; V5 | V5: moderate; prior: moderate | 7 |
-| 2026-10-17 | 1999 | Martha Beck | [Expecting Adam](analysis_changedmind_261017_2105.md#c047) | **10.91** | V1; V5 | V5: high; prior: moderate | 5 |
-| 2026-10-17 | 1967 | Guy Debord | [The Society of the Spectacle](analysis_veto5_261018_1428.md#v5-0757) | **10.85** | V5 | high | 4 |
-| 2026-10-17 | 1971 / 1999 | Ayn Rand; Peter Schwartz (expanded edition) | [The New Left / The Return of the Primitive](analysis_changedmind_261017_2105.md#c072) | **10.74** | V2; V5 | V5: high; prior: moderate | 5 |
-| 2026-10-17 | c. 3rd century BCE–1st century CE | Multiple ancient authors (1 Enoch assumed) | [The Book of Enoch](analysis_bestever_261017_2138.md#b118) | **10.58** | V1 (conditional); V5 | V5: high (conditional identity); prior: moderate | 6 |
-| 2026-10-17 | 1984 | Dun Mihaka; Diane Prince | [Whakapohane](analysis_veto5_261018_1428.md#v5-1053) | **10.07** | V5 | moderate | 3 |
-| 2026-10-17 | 1946 | Paramahansa Yogananda | [Autobiography of a Yogi](analysis_anysubject_261017_2227.md#a084) | **9.89** | V1; V5 | V5: high; prior: high | 4, 7 |
-| 2026-10-17 | 2009 | Christopher McDougall | [Born to Run](analysis_obscurebooks_261017_1936.md#o048--born-to-run) | **8.93** | V1 | moderate | 3 |
-| 2026-10-17 | 1997 | Eckhart Tolle | [The Power of Now](analysis_bestever_261017_2138.md#b126) | **8.29** | V1; V5 | V5: high; prior: moderate | 6 |
-| 2026-10-17 | 2009 | RZA | [The Tao of Wu](analysis_veto5_261018_1428.md#v5-1067) | **8.07** | V5 | high | 8 |
-| 2026-10-17 | 2002 | Martin Amis | [Koba the Dread](analysis_veto5_261018_1428.md#v5-0989) | **8.06** | V5 | moderate | 4 |
-| 2026-10-17 | 2009 | Ozzy Osbourne; Chris Ayres | [I Am Ozzy](analysis_bestever_261017_2138.md#b035) | **7.56** | V3 | moderate | 6 |
-| 2026-10-17 | 2004 | Anthony Kiedis; Larry Sloman | [Scar Tissue](analysis_mustreads_261017_2010.md#m153) | **7.47** | V3 | moderate | 4 |
-| 2026-10-17 | 2007 | Nikki Sixx; Ian Gittins | [The Heroin Diaries](analysis_bestever_261017_2138.md#b037) | **7.23** | V3 | moderate | 6 |
-| 2026-10-17 | 1918–1922 | Oswald Spengler | [The Decline of the West](analysis_anysubject_261017_2227.md#a139) | **7.20** | V1 | moderate | 7 |
-| 2026-10-17 | 2005 | Eckhart Tolle | [A New Earth](analysis_mustreads_261017_2010.md#m036) | **7.19** | V1; V5 | V5: high; prior: moderate | 4 |
-| 2026-10-17 | 1949 | Arthur M. Schlesinger Jr. | [The Vital Center](analysis_veto5_261018_1428.md#v5-0733) | **6.93** | V5 | high | 5 |
-| 2026-10-17 | 1992 | Joseph Mitchell | [Up in the Old Hotel](analysis_readlately_261017_2316.md#h111) | **6.88** | V3 | moderate | 8 |
-| 2026-10-17 | 2020 | Sarah Wilson | [This One Wild and Precious Life](analysis_veto5_261018_1428.md#v5-1068) | **4.53** | V5 | high | 2 |
-| 2026-10-17 | 2004 | Adyashanti | [Emptiness Dancing](analysis_veto5_261018_1428.md#v5-1069) | **3.95** | V5 | high | 2 |
-| 2026-10-17 | 1968 | Eldridge Cleaver | [Soul on Ice](analysis_veto5_261018_1428.md#v5-1052) | **2.63** | V5 | high | 5 |
-| 2026-10-17 | 2006 | Carolly Erickson | [Royal Panoply](analysis_top3alltime_261017_1900.md) | **2.41** | V3 | moderate | 2 |
-| 2026-10-17 | 2015 | Zecharia Sitchin; Janet Sitchin, editor | [The Anunnaki Chronicles](analysis_readlately_261017_2316.md#h066) | **0.96** | V1 | high | 8 |
-| 2026-10-17 | 1985 | Christian O'Brien; Barbara Joy O'Brien | [The Genius of the Few](analysis_readlately_261017_2316.md#h063) | **0.66** | V1 | moderate | 8 |
-| 2026-10-17 | 1998 | Farley Mowat | [The Farfarers](analysis_readlately_261017_2316.md#h152) | **0.43** | V1 | high | 8 |
-| 2026-10-17 | 2015 | Franco Berardi | [Heroes: Mass Murder and Suicide](analysis_veto5_261018_1428.md#v5-1065) | **-0.21** | V5 | moderate | 2 |
-| 2026-10-17 | 1960 | William L. Shirer | [The Rise and Fall of the Third Reich](analysis_bestever_261017_2138.md#b138) | **-0.99** | V1 | moderate | 1, 2, 5, 6 |
-| 2026-10-17 | 1995 | David R. Hawkins | [Power vs. Force](analysis_readlately_261017_2316.md#h164) | **-2.42** | V1; V5 | V5: high; prior: high | 8 |
-| 2026-10-17 | 1976 | Zecharia Sitchin | [The 12th Planet](analysis_readlately_261017_2316.md#h064) | **-5.02** | V1 | high | 8 |
-| 2026-10-17 | 2007 | Charles Eisenstein | [The Ascent of Humanity](analysis_explainworld_261017_2336.md#w060) | **-5.73** | V1; V5 | V5: high; prior: moderate | 9 |
-| 2026-10-17 | 2004 | David McGowan | [Programmed to Kill](analysis_explainworld_261017_2336.md#w092) | **-7.32** | V1 | moderate | 9 |
-| 2026-10-17 | 1976–2007; series | Zecharia Sitchin | [The Earth Chronicles](analysis_readlately_261017_2316.md#h065) | **-10.39** | V1 | high | 8 |
-| 2026-10-17 | Medieval; ed. 1938–56 | Anonymous; R. A. S. Macalister, ed./trans. | [The Book of Invasions (Lebor Gabála Érenn)](analysis_veto5_261018_1428.md#v5-1070) | **-13.43** | V5 | moderate | 1 |
-| 2026-10-17 | 1985 | William J. Benson; Martin J. Beckman | [The Law That Never Was](analysis_bestever_261017_2138.md#b106) | **-16.10** | V1; V5 | V5: moderate; prior: high | 6 |
-| 2026-10-17 | 1925–1926 | Adolf Hitler | [Mein Kampf](analysis_readlately_261017_2316.md#h095) | **-16.84** | V2; V1; V5 | V5: high; prior: high | 8 |
-
-## Full counterfactual score table
-
-E/S/D are already curved contributions. P14 is publication age; O15 is obscurity. Full inputs, confidence and explanations are in the [baseline review](analysis_pubcap_261018_2125.md) and discovery reviews [54–74](analysis_widerd_261018_2208.md) and [75–98](analysis_research92_261018_2235.md).
-
-| Work · prior assessment | E² /20 | S² /17 | U /15 | M /12 | D² /10 | R /9 | F /7 | A /5 | N /3 | P /2 | T11 | T12 | H13 | P14 | O15 | Total | Verdict · confidence | Sources |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|---|
-| <a id="d-research92-infrastructure"></a>[How Infrastructure Works — Deb Chachra](analysis_research92_261018_2235.md#infrastructure) | 16.20 | 17.00 | 14.00 | 11.00 | 6.40 | 9.00 | 7.00 | 5.00 | 3.00 | 2.00 | 0.00 | 0.00 | 0.00 | -0.30 | -5.00 | **85.30** | Veto V5 · moderate | [90](analysis_research92_261018_2235.md#infrastructure) |
-| <a id="d-research92-ridley"></a>[How Innovation Works — Matt Ridley](analysis_research92_261018_2235.md#ridley) | 11.25 | 15.06 | 13.00 | 10.00 | 6.40 | 8.00 | 7.00 | 4.00 | 3.00 | 1.50 | 0.00 | 0.00 | 0.00 | -0.60 | 0.00 | **78.61** | Veto V5 · moderate | [75](analysis_research92_261018_2235.md#ridley) |
-| <a id="d-s49"></a>[Inventing Accuracy — Donald MacKenzie](analysis_discover91_261018_1528.md#mackenzie) | 14.45 | 17.00 | 14.00 | 11.00 | 6.40 | 9.00 | 7.00 | 5.00 | 2.00 | 2.00 | 0.00 | 0.00 | -1.44 | -3.60 | -10.00 | **72.81** | Veto V5 · low | [49](analysis_discover91_261018_1528.md) |
-| <a id="d-research92-delusion"></a>[The Innovation Delusion — Lee Vinsel; Andrew L. Russell](analysis_research92_261018_2235.md#delusion) | 14.45 | 15.06 | 14.00 | 11.00 | 8.10 | 9.00 | 7.00 | 5.00 | 3.00 | 1.50 | -10.00 | 0.00 | 0.00 | -0.60 | -5.00 | **72.51** | Veto V5 · moderate | [89](analysis_research92_261018_2235.md#delusion) |
-| <a id="d-q0967"></a>[The United States of War — David Vine](analysis_changedmind_261017_2105.md#c004) | 11.25 | 14.28 | 12.00 | 9.88 | 3.60 | 8.00 | 7.00 | 4.00 | 2.00 | 1.00 | 0.00 | -10.00 | -0.28 | -0.60 | 0.00 | **62.14** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-discovery-goodman"></a>[How the World Ran Out of Everything — Peter S. Goodman](analysis_widerd_261018_2208.md#goodman) | 9.80 | 15.06 | 12.00 | 9.00 | 4.90 | 8.00 | 7.00 | 4.00 | 3.00 | 1.00 | 0.00 | -10.00 | -0.16 | -0.20 | -5.00 | **58.40** | Veto V5 · low | [67](analysis_widerd_261018_2208.md#goodman) |
-| <a id="d-q0972"></a>[The Age of Surveillance Capitalism — Shoshana Zuboff](analysis_explainworld_261017_2336.md#w027) | 9.80 | 14.28 | 12.00 | 9.18 | 1.60 | 7.00 | 6.00 | 4.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -0.70 | 0.00 | **56.16** | Veto V5 · low | [9](analysis_explainworld_261017_2336.md) |
-| <a id="d-q0990"></a>[Just Mercy — Bryan Stevenson](analysis_changedmind_261017_2105.md#c016) | 14.45 | 7.56 | 10.00 | 7.76 | 6.40 | 8.00 | 2.00 | 5.00 | 3.00 | 2.00 | -10.00 | 0.00 | 0.00 | -1.20 | 0.00 | **54.97** | Veto V5 · low | [4](analysis_mustreads_261017_2010.md), [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q0983"></a>[Silent Spring — Rachel Carson](analysis_readlately_261017_2316.md#h012) | 14.45 | 9.56 | 10.00 | 7.76 | 6.40 | 9.00 | 3.00 | 5.00 | 3.00 | 2.00 | -10.00 | 0.00 | 0.00 | -6.40 | 0.00 | **53.78** | Veto V5 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q0969"></a>[The Tyranny of Experts — William Easterly](analysis_obscurebooks_261017_1936.md) | 8.45 | 14.28 | 12.00 | 9.18 | 4.90 | 8.00 | 5.00 | 5.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -1.20 | -5.00 | **53.61** | Veto V5 · low | [3](analysis_obscurebooks_261017_1936.md) |
-| <a id="d-q0973"></a>[Stuffed and Starved — Raj Patel](analysis_changedmind_261017_2105.md#c061) | 8.45 | 14.28 | 10.00 | 8.47 | 4.90 | 8.00 | 5.00 | 3.00 | 2.00 | 1.00 | 0.00 | 0.00 | 0.00 | -1.90 | -10.00 | **53.21** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q0974"></a>[Enlightenment Now — Steven Pinker](analysis_changedmind_261017_2105.md#c116) | 8.45 | 14.28 | 10.00 | 7.76 | 2.50 | 8.00 | 5.00 | 4.00 | 3.00 | 1.00 | 0.00 | -10.00 | 0.00 | -0.80 | 0.00 | **53.20** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q0970"></a>[Open Borders — Bryan Caplan; Zach Weinersmith](analysis_readlately_261017_2316.md#h145) | 9.80 | 11.81 | 11.00 | 8.47 | 6.40 | 8.00 | 4.00 | 4.00 | 3.00 | 2.00 | 0.00 | -10.00 | 0.00 | -0.70 | -5.00 | **52.78** | Veto V5 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1000"></a>[A Life on Our Planet — David Attenborough; Jonnie Hughes](analysis_obscurebooks_261017_1936.md) | 11.25 | 11.81 | 8.00 | 7.76 | 6.40 | 7.00 | 2.00 | 4.00 | 3.00 | 2.00 | -10.00 | 0.00 | -0.28 | -0.60 | 0.00 | **52.34** | Veto V5 · low | [3](analysis_obscurebooks_261017_1936.md) |
-| <a id="d-q0982"></a>[Poverty, by America — Matthew Desmond](analysis_explainworld_261017_2336.md#w021) | 11.25 | 11.81 | 11.00 | 8.47 | 6.40 | 8.00 | 4.00 | 4.00 | 3.00 | 2.00 | -10.00 | -10.00 | 0.00 | -0.30 | 0.00 | **49.63** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md), [8](analysis_readlately_261017_2316.md), [9](analysis_explainworld_261017_2336.md) |
-| <a id="d-q0981"></a>[Gaza Catastrophe — Gilbert Achcar](analysis_changedmind_261017_2105.md#c126) | 7.20 | 11.81 | 9.00 | 7.76 | 4.90 | 5.00 | 6.00 | 4.00 | 2.00 | 1.00 | 0.00 | -10.00 | -0.04 | -0.10 | 0.00 | **48.53** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q0989"></a>[A Sand County Almanac — Aldo Leopold](analysis_anysubject_261017_2227.md#a062) | 12.80 | 7.56 | 9.00 | 8.47 | 8.10 | 9.00 | 2.00 | 4.00 | 3.00 | 2.00 | -10.00 | 0.00 | 0.00 | -7.70 | 0.00 | **48.23** | Veto V5 · low | [7](analysis_anysubject_261017_2227.md) |
-| <a id="d-q0979"></a>[How the World Works — Noam Chomsky; edited by Arthur Naiman](analysis_explainworld_261017_2336.md#w061) | 6.05 | 11.81 | 10.00 | 7.76 | 4.90 | 8.00 | 5.00 | 3.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -1.50 | 0.00 | **48.02** | Veto V5 · low | [9](analysis_explainworld_261017_2336.md) |
-| <a id="d-q1006"></a>[God: A Human History — Reza Aslan](analysis_readlately_261017_2316.md#h208) | 6.05 | 5.78 | 8.00 | 7.06 | 3.60 | 8.00 | 2.00 | 3.00 | 3.00 | 1.00 | 0.00 | 0.00 | 0.00 | -0.90 | 0.00 | **46.59** | Veto V5 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q0998"></a>[There Are No Accidents — Jessie Singer](analysis_mustreads_261017_2010.md#m039) | 9.80 | 9.56 | 11.00 | 8.47 | 4.90 | 7.00 | 4.00 | 3.00 | 3.00 | 1.00 | -10.00 | 0.00 | 0.00 | -0.40 | -5.00 | **46.33** | Veto V5 · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q0987"></a>[Technofeudalism — Yanis Varoufakis](analysis_explainworld_261017_2336.md#w026) | 5.00 | 11.81 | 10.00 | 7.76 | 4.90 | 5.00 | 6.00 | 3.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -0.30 | 0.00 | **46.17** | Veto V5 · low | [9](analysis_explainworld_261017_2336.md) |
-| <a id="d-q0978"></a>[The Divide — Jason Hickel](analysis_explainworld_261017_2336.md#w068) | 6.05 | 14.28 | 10.00 | 7.76 | 4.90 | 7.00 | 5.00 | 3.00 | 3.00 | 1.00 | 0.00 | -10.00 | 0.00 | -0.90 | -5.00 | **46.10** | Veto V5 · low | [9](analysis_explainworld_261017_2336.md) |
-| <a id="d-q0992"></a>[No god but God — Reza Aslan](analysis_readlately_261017_2316.md#h210) | 7.20 | 7.56 | 9.00 | 7.76 | 3.60 | 8.00 | 3.00 | 3.00 | 3.00 | 1.00 | 0.00 | 0.00 | 0.00 | -2.10 | -5.00 | **46.02** | Veto V5 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q0985"></a>[The Shock Doctrine — Naomi Klein](analysis_explainworld_261017_2336.md#w014) | 6.05 | 11.81 | 10.00 | 7.76 | 2.50 | 7.00 | 5.00 | 3.00 | 3.00 | 1.00 | 0.00 | -10.00 | 0.00 | -1.90 | 0.00 | **45.22** | Veto V5 · low | [4](analysis_mustreads_261017_2010.md), [5](analysis_changedmind_261017_2105.md), [9](analysis_explainworld_261017_2336.md) |
-| <a id="d-q0971"></a>[The Open Society and Its Enemies — Karl R. Popper](analysis_anysubject_261017_2227.md#a042) | 9.80 | 11.81 | 12.00 | 9.18 | 2.50 | 9.00 | 5.00 | 5.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -8.10 | -5.00 | **44.18** | Veto V5 · low | [7](analysis_anysubject_261017_2227.md) |
-| <a id="d-q0991"></a>[Killing the Black Body — Dorothy Roberts](analysis_changedmind_261017_2105.md#c133) | 12.80 | 9.56 | 10.00 | 8.47 | 4.90 | 9.00 | 2.00 | 5.00 | 2.00 | 2.00 | -10.00 | -10.00 | 0.00 | -2.90 | 0.00 | **42.83** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1027"></a>[Eating Animals — Jonathan Safran Foer](analysis_bestever_261017_2138.md#b127) | 8.45 | 7.56 | 9.00 | 6.35 | 4.90 | 8.00 | 2.00 | 3.00 | 3.00 | 2.00 | -10.00 | 0.00 | 0.00 | -1.70 | 0.00 | **42.56** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md), [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q0997"></a>[Currency Wars — James Rickards](analysis_explainworld_261017_2336.md#w037) | 4.05 | 11.81 | 9.00 | 7.06 | 3.60 | 4.00 | 6.00 | 3.00 | 3.00 | 1.00 | 0.00 | -10.00 | 0.00 | -1.50 | 0.00 | **41.01** | Veto V4 · low | [9](analysis_explainworld_261017_2336.md) |
-| <a id="d-q0975"></a>[Political Emotions — Martha C. Nussbaum](analysis_changedmind_261017_2105.md#c063) | 11.25 | 9.56 | 10.00 | 7.76 | 3.60 | 9.00 | 2.00 | 5.00 | 2.00 | 2.00 | 0.00 | -10.00 | 0.00 | -1.30 | -10.00 | **40.88** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1007"></a>[The Geography of Nowhere — James Howard Kunstler](analysis_anysubject_261017_2227.md#a057) | 7.20 | 9.56 | 11.00 | 8.47 | 4.90 | 8.00 | 3.00 | 3.00 | 3.00 | 1.00 | -10.00 | 0.00 | 0.00 | -3.30 | -5.00 | **40.83** | Veto V5 · low | [7](analysis_anysubject_261017_2227.md) |
-| <a id="d-q0996"></a>[Bullshit Jobs — David Graeber](analysis_readlately_261017_2316.md#h027) | 5.00 | 7.56 | 9.00 | 7.06 | 3.60 | 7.00 | 4.00 | 4.00 | 3.00 | 1.00 | 0.00 | -10.00 | 0.00 | -0.80 | 0.00 | **40.41** | Veto V5 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q0976"></a>[Animal Liberation — Peter Singer](analysis_changedmind_261017_2105.md#c032) | 11.25 | 5.78 | 11.00 | 7.06 | 6.40 | 9.00 | 1.00 | 5.00 | 2.00 | 2.00 | 0.00 | -10.00 | 0.00 | -5.10 | -5.00 | **40.39** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1003"></a>[Winners Take All — Anand Giridharadas](analysis_explainworld_261017_2336.md#w019) | 9.80 | 9.56 | 11.00 | 7.76 | 4.90 | 7.00 | 4.00 | 3.00 | 3.00 | 1.00 | -10.00 | -10.00 | 0.00 | -0.80 | 0.00 | **40.23** | Veto V5 · low | [9](analysis_explainworld_261017_2336.md) |
-| <a id="d-q1040"></a>[Chasing the Scream — Johann Hari](analysis_bestever_261017_2138.md#b049) | 6.05 | 9.56 | 9.00 | 7.06 | 3.60 | 7.00 | 3.00 | 2.00 | 3.00 | 1.00 | -10.00 | 0.00 | 0.00 | -1.10 | 0.00 | **40.17** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md), [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q0968"></a>[Progress and Poverty — Henry George](analysis_changedmind_261017_2105.md#c083) | 8.45 | 11.81 | 12.00 | 9.88 | 3.60 | 9.00 | 6.00 | 5.00 | 2.00 | 2.00 | 0.00 | -10.00 | 0.00 | -10.00 | -10.00 | **39.74** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q0977"></a>[Republic — Plato](analysis_readlately_261017_2316.md#h205) | 7.20 | 9.56 | 11.00 | 8.47 | 2.50 | 9.00 | 3.00 | 5.00 | 2.00 | 2.00 | 0.00 | -10.00 | 0.00 | -10.00 | 0.00 | **39.73** | Veto V5 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q0980"></a>[Three Guineas — Virginia Woolf](analysis_bestever_261017_2138.md#b120) | 9.80 | 7.56 | 9.00 | 7.06 | 4.90 | 9.00 | 2.00 | 5.00 | 2.00 | 2.00 | 0.00 | -10.00 | 0.00 | -8.80 | 0.00 | **39.51** | Veto V5 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q0995"></a>[Open Veins of Latin America — Eduardo Galeano](analysis_changedmind_261017_2105.md#c101) | 4.05 | 11.81 | 8.00 | 7.06 | 4.90 | 7.00 | 5.00 | 3.00 | 3.00 | 1.00 | 0.00 | -10.00 | 0.00 | -5.50 | 0.00 | **39.31** | Veto V5 · low | [2](analysis_top3alltime_261017_1900.md), [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q0988"></a>[This Life: Secular Faith and Spiritual Freedom — Martin Hägglund](analysis_changedmind_261017_2105.md#c074) | 8.45 | 7.56 | 11.00 | 7.06 | 3.60 | 8.00 | 2.00 | 4.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -0.70 | -5.00 | **38.96** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1044"></a>[Braiding Sweetgrass — Robin Wall Kimmerer](analysis_bestever_261017_2138.md#b102) | 9.80 | 5.78 | 7.00 | 5.65 | 3.60 | 8.00 | 1.00 | 4.00 | 3.00 | 2.00 | -10.00 | 0.00 | 0.00 | -1.30 | 0.00 | **38.53** | Veto V5 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1002"></a>[The New Jim Crow — Michelle Alexander](analysis_top3alltime_261017_1900.md) | 9.80 | 7.56 | 10.00 | 8.47 | 4.90 | 8.00 | 2.00 | 4.00 | 3.00 | 2.00 | -10.00 | -10.00 | 0.00 | -1.60 | 0.00 | **38.13** | Veto V5 · low | [2](analysis_top3alltime_261017_1900.md) |
-| <a id="d-q1004"></a>[Operation Paperclip — Annie Jacobsen](analysis_changedmind_261017_2105.md#c099) | 2.45 | 11.81 | 8.00 | 6.35 | 2.50 | 7.00 | 7.00 | 2.00 | 3.00 | 1.00 | 0.00 | -10.00 | -2.24 | -1.20 | 0.00 | **37.67** | Veto V1 · low | [4](analysis_mustreads_261017_2010.md), [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q0984"></a>[In Defense of Civilization — Michael R. J. Bonner](analysis_readlately_261017_2316.md#h229) | 6.05 | 11.81 | 10.00 | 7.06 | 4.90 | 7.00 | 5.00 | 3.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -0.30 | -10.00 | **37.51** | Veto V5 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1015"></a>[The End of the World Is Just the Beginning — Peter Zeihan](analysis_explainworld_261017_2336.md#w085) | 3.20 | 11.81 | 8.00 | 7.06 | 2.50 | 3.00 | 6.00 | 2.00 | 3.00 | 1.00 | 0.00 | -10.00 | 0.00 | -0.40 | 0.00 | **37.16** | Veto V4 · low | [8](analysis_readlately_261017_2316.md), [9](analysis_explainworld_261017_2336.md) |
-| <a id="d-q0986"></a>[Killing Hope — William Blum](analysis_changedmind_261017_2105.md#c110) | 6.05 | 11.81 | 9.00 | 7.06 | 2.50 | 8.00 | 6.00 | 3.00 | 2.00 | 1.00 | 0.00 | -10.00 | -1.28 | -3.10 | -5.00 | **37.03** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1009"></a>[Legacy of Ashes — Tim Weiner](analysis_changedmind_261017_2105.md#c114) | 2.45 | 9.56 | 8.00 | 6.35 | 2.50 | 7.00 | 6.00 | 3.00 | 3.00 | 1.00 | 0.00 | -10.00 | -0.80 | -1.90 | 0.00 | **36.17** | Veto V1 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1010"></a>[Beggars and Choosers — Rickie Solinger](analysis_changedmind_261017_2105.md#c087) | 11.25 | 7.56 | 9.00 | 7.76 | 4.90 | 8.00 | 2.00 | 4.00 | 2.00 | 2.00 | -10.00 | -10.00 | 0.00 | -2.50 | 0.00 | **35.97** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1001"></a>[The Brutish Museums — Dan Hicks](analysis_anysubject_261017_2227.md#a087) | 12.80 | 9.56 | 9.00 | 7.76 | 3.60 | 8.00 | 3.00 | 5.00 | 2.00 | 1.00 | -10.00 | -10.00 | -5.16 | -0.60 | 0.00 | **35.97** | Veto V5 · low | [7](analysis_anysubject_261017_2227.md) |
-| <a id="d-q0999"></a>[Washington Bullets — Vijay Prashad](analysis_changedmind_261017_2105.md#c013) | 5.00 | 9.56 | 8.00 | 7.06 | 4.90 | 6.00 | 5.00 | 3.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -0.60 | -5.00 | **35.92** | Veto V5 · low | [2](analysis_top3alltime_261017_1900.md), [4](analysis_mustreads_261017_2010.md), [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1024"></a>[Less Is More — Jason Hickel](analysis_explainworld_261017_2336.md#w053) | 6.05 | 11.81 | 9.00 | 7.76 | 4.90 | 6.00 | 4.00 | 3.00 | 3.00 | 1.00 | -10.00 | -10.00 | 0.00 | -0.60 | 0.00 | **35.92** | Veto V5 · low | [9](analysis_explainworld_261017_2336.md) |
-| <a id="d-q1057"></a>[Did Ye Hear Mammy Died? — Séamas O'Reilly](analysis_obscurebooks_261017_1936.md) | 11.25 | 1.06 | 2.00 | 2.12 | 6.40 | 7.00 | 0.00 | 3.00 | 3.00 | 2.00 | 0.00 | 0.00 | -1.44 | -0.50 | 0.00 | **35.89** | Veto V3 · low | [3](analysis_obscurebooks_261017_1936.md) |
-| <a id="d-q1008"></a>[The God Delusion — Richard Dawkins](analysis_changedmind_261017_2105.md#c065) | 7.20 | 4.25 | 8.00 | 6.35 | 3.60 | 8.00 | 2.00 | 4.00 | 3.00 | 1.00 | 0.00 | -10.00 | 0.00 | -2.00 | 0.00 | **35.40** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1016"></a>[The Master and His Emissary — Iain McGilchrist](analysis_readlately_261017_2316.md#h109) | 3.20 | 9.56 | 8.00 | 6.35 | 1.60 | 6.00 | 5.00 | 4.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -1.70 | 0.00 | **35.02** | Veto V1 · low | [2](analysis_top3alltime_261017_1900.md), [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1019"></a>[The Omnivore's Deception — John Sanbonmatsu](analysis_changedmind_261017_2105.md#c059) | 6.05 | 5.78 | 8.00 | 6.35 | 3.60 | 7.00 | 1.00 | 4.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -0.10 | 0.00 | **34.69** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1028"></a>[Patriot — Alexei Navalny](analysis_anysubject_261017_2227.md#a120) | 11.25 | 7.56 | 8.00 | 6.35 | 3.60 | 7.00 | 3.00 | 3.00 | 3.00 | 2.00 | -10.00 | -10.00 | -0.08 | -0.20 | 0.00 | **34.48** | Veto V5 · low | [7](analysis_anysubject_261017_2227.md) |
-| <a id="d-q1054"></a>[Animal, Vegetable, Miracle — Barbara Kingsolver; Steven L. Hopp; Camille Kingsolver](analysis_changedmind_261017_2105.md#c118) | 8.45 | 5.78 | 7.00 | 6.35 | 3.60 | 7.00 | 1.00 | 3.00 | 3.00 | 2.00 | -10.00 | 0.00 | -0.84 | -1.90 | 0.00 | **34.45** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1020"></a>[An Indigenous Peoples' History of the United States — Roxanne Dunbar-Ortiz](analysis_bestever_261017_2138.md#b130) | 8.45 | 9.56 | 9.00 | 7.06 | 4.90 | 8.00 | 2.00 | 4.00 | 2.00 | 1.00 | -10.00 | -10.00 | -0.52 | -1.20 | 0.00 | **34.25** | Veto V5 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1030"></a>[The Color of Compromise — Jemar Tisby](analysis_anysubject_261017_2227.md#a178) | 9.80 | 7.56 | 8.00 | 7.06 | 4.90 | 8.00 | 2.00 | 3.00 | 3.00 | 1.00 | -10.00 | -10.00 | 0.00 | -0.70 | 0.00 | **33.61** | Veto V5 · low | [7](analysis_anysubject_261017_2227.md) |
-| <a id="d-q1058"></a>[Sex at Dawn — Christopher Ryan; Cacilda Jethá](analysis_bestever_261017_2138.md#b031) | 2.45 | 4.25 | 6.00 | 5.65 | 3.60 | 6.00 | 1.00 | 2.00 | 3.00 | 1.00 | 0.00 | 0.00 | 0.00 | -1.60 | 0.00 | **33.35** | Veto V1 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q0993"></a>[Capital / Das Kapital — Karl Marx](analysis_definitive_261017_1900.md) | 4.05 | 9.56 | 10.00 | 7.06 | 1.60 | 8.00 | 6.00 | 5.00 | 1.00 | 1.00 | 0.00 | -10.00 | 0.00 | -10.00 | 0.00 | **33.27** | Veto V1; V5 · low | [1](analysis_definitive_261017_1900.md) |
-| <a id="d-q1031"></a>[Coming Up Short: A Memoir of My America — Robert B. Reich](analysis_changedmind_261017_2105.md#c023) | 8.45 | 7.56 | 8.00 | 6.35 | 3.60 | 7.00 | 3.00 | 4.00 | 3.00 | 2.00 | -10.00 | -10.00 | 0.00 | -0.10 | 0.00 | **32.86** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1061"></a>[Awareness — Anthony de Mello](analysis_bestever_261017_2138.md#b040) | 5.00 | 1.06 | 7.00 | 4.24 | 6.40 | 7.00 | 0.00 | 2.00 | 2.00 | 1.00 | 0.00 | 0.00 | 0.00 | -3.60 | 0.00 | **32.10** | Veto V5 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1037"></a>[The 1619 Project: A New Origin Story — Nikole Hannah-Jones; Caitlin Roper; Ilena Silverman; Jake Silverstein (eds.)](analysis_changedmind_261017_2105.md#c010) | 7.20 | 9.56 | 8.00 | 7.06 | 3.60 | 7.00 | 2.00 | 4.00 | 3.00 | 1.00 | -10.00 | -10.00 | 0.00 | -0.50 | 0.00 | **31.92** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1011"></a>[My Bondage and My Freedom — Frederick Douglass](analysis_bestever_261017_2138.md#b112) | 12.80 | 5.78 | 9.00 | 7.06 | 4.90 | 9.00 | 1.00 | 4.00 | 3.00 | 2.00 | -10.00 | 0.00 | -6.84 | -10.00 | 0.00 | **31.70** | Veto V5 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1013"></a>[America's Deadliest Export: Democracy — William Blum](analysis_changedmind_261017_2105.md#c008) | 4.05 | 9.56 | 8.00 | 6.35 | 3.60 | 6.00 | 5.00 | 2.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -1.30 | -5.00 | **31.27** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1035"></a>[How to Sell a Genocide — Adam H. Johnson](analysis_explainworld_261017_2336.md#w048) | 5.00 | 5.78 | 8.00 | 6.35 | 3.60 | 4.00 | 3.00 | 2.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | 0.00 | 0.00 | **30.74** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md), [9](analysis_explainworld_261017_2336.md) |
-| <a id="d-q1074"></a>[The Immortality Key — Brian C. Muraresku](analysis_readlately_261017_2316.md#h166) | 2.45 | 4.25 | 5.00 | 4.94 | 2.50 | 4.00 | 2.00 | 2.00 | 3.00 | 1.00 | 0.00 | 0.00 | 0.00 | -0.60 | 0.00 | **30.54** | Veto V1 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1046"></a>[The Bible — Multiple ancient authors](analysis_readlately_261017_2316.md#h224) | 4.05 | 5.78 | 7.00 | 4.24 | 0.90 | 9.00 | 1.00 | 5.00 | 2.00 | 1.00 | 0.00 | 0.00 | 0.00 | -10.00 | 0.00 | **29.97** | Veto V5 · low | [6](analysis_bestever_261017_2138.md), [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1047"></a>[The Matter with Things — Iain McGilchrist](analysis_readlately_261017_2316.md#h108) | 3.20 | 7.56 | 7.00 | 5.65 | 0.40 | 5.00 | 4.00 | 4.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -0.50 | 0.00 | **29.30** | Veto V1; V5 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1025"></a>[Red Star Over the Third World — Vijay Prashad](analysis_changedmind_261017_2105.md#c012) | 4.05 | 7.56 | 7.00 | 5.65 | 4.90 | 6.00 | 4.00 | 3.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -0.90 | -5.00 | **29.25** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1033"></a>[Ways of Being — James Bridle](analysis_readlately_261017_2316.md#h172) | 7.20 | 11.81 | 9.00 | 7.06 | 2.50 | 6.00 | 4.00 | 3.00 | 3.00 | 1.00 | -10.00 | -10.00 | 0.00 | -0.40 | -5.00 | **29.16** | Veto V5 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1039"></a>[Capitalism and Desire — Todd McGowan](analysis_explainworld_261017_2336.md#w056) | 4.05 | 5.78 | 7.00 | 5.65 | 2.50 | 6.00 | 2.00 | 4.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -1.00 | 0.00 | **28.98** | Veto V5 · low | [8](analysis_readlately_261017_2316.md), [9](analysis_explainworld_261017_2336.md) |
-| <a id="d-q1023"></a>[Discourse on Colonialism — Aimé Césaire](analysis_mustreads_261017_2010.md#m065) | 7.20 | 7.56 | 8.00 | 5.65 | 8.10 | 9.00 | 2.00 | 5.00 | 3.00 | 1.00 | -10.00 | -10.00 | 0.00 | -7.60 | 0.00 | **28.90** | Veto V5 · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1034"></a>[The Swerve — Stephen Greenblatt](analysis_anysubject_261017_2227.md#a109) | 2.45 | 5.78 | 6.00 | 4.94 | 4.90 | 6.00 | 3.00 | 4.00 | 3.00 | 2.00 | 0.00 | 0.00 | -12.00 | -1.50 | 0.00 | **28.58** | Veto V1 · low | [2](analysis_top3alltime_261017_1900.md), [7](analysis_anysubject_261017_2227.md) |
-| <a id="d-q1018"></a>[The Case for God — Karen Armstrong](analysis_readlately_261017_2316.md#h122) | 7.20 | 5.78 | 7.00 | 5.65 | 3.60 | 8.00 | 1.00 | 4.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -1.70 | -5.00 | **28.53** | Veto V5 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1045"></a>[Chavs — Owen Jones](analysis_obscurebooks_261017_1936.md) | 7.20 | 7.56 | 8.00 | 7.06 | 4.90 | 6.00 | 2.00 | 3.00 | 3.00 | 1.00 | -10.00 | -10.00 | 0.00 | -1.50 | 0.00 | **28.21** | Veto V5 · low | [3](analysis_obscurebooks_261017_1936.md) |
-| <a id="d-q1049"></a>[Allow Me to Retort — Elie Mystal](analysis_obscurebooks_261017_1936.md) | 6.05 | 5.78 | 8.00 | 6.35 | 6.40 | 6.00 | 3.00 | 3.00 | 3.00 | 1.00 | -10.00 | -10.00 | 0.00 | -0.40 | 0.00 | **28.19** | Veto V5 · low | [3](analysis_obscurebooks_261017_1936.md) |
-| <a id="d-q1038"></a>[Are Prisons Obsolete? — Angela Y. Davis](analysis_top3alltime_261017_1900.md) | 6.05 | 5.78 | 8.00 | 7.06 | 6.40 | 8.00 | 2.00 | 4.00 | 2.00 | 1.00 | -10.00 | -10.00 | 0.00 | -2.30 | 0.00 | **27.99** | Veto V5 · low | [2](analysis_top3alltime_261017_1900.md) |
-| <a id="d-q1022"></a>[Dead Man Walking — Helen Prejean](analysis_changedmind_261017_2105.md#c080) | 11.25 | 5.78 | 8.00 | 6.35 | 6.40 | 8.00 | 1.00 | 4.00 | 3.00 | 2.00 | -10.00 | -10.00 | 0.00 | -3.30 | -5.00 | **27.49** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1075"></a>[The Man Who Mistook His Wife for a Hat — Oliver Sacks](analysis_bestever_261017_2138.md#b033) | 2.45 | 2.95 | 6.00 | 5.65 | 6.40 | 7.00 | 3.00 | 4.00 | 3.00 | 1.00 | -10.00 | 0.00 | 0.00 | -4.10 | 0.00 | **27.35** | Veto V1 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1091"></a>[Second Sunrise — John Trent](analysis_mustreads_261017_2010.md#m015) | 11.25 | 1.89 | 3.00 | 2.82 | 2.50 | 7.00 | 0.00 | 4.00 | 3.00 | 2.00 | -10.00 | 0.00 | 0.00 | -0.30 | 0.00 | **27.16** | Veto V3 · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1088"></a>[Why We Sleep — Matthew Walker](analysis_readlately_261017_2316.md#h156) | 2.45 | 4.25 | 7.00 | 5.65 | 3.60 | 5.00 | 1.00 | 4.00 | 3.00 | 1.00 | -10.00 | 0.00 | 0.00 | -0.90 | 0.00 | **26.05** | Veto V1 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1005"></a>[The Communist Manifesto — Karl Marx; Friedrich Engels](analysis_changedmind_261017_2105.md#c070) | 2.45 | 7.56 | 7.00 | 5.65 | 8.10 | 8.00 | 4.00 | 5.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -10.00 | -5.00 | **25.75** | Veto V2; V1; V5 · low | [2](analysis_top3alltime_261017_1900.md), [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1060"></a>[Abolish Rent — Tracy Rosenthal; Leonardo Vilchis](analysis_explainworld_261017_2336.md#w036) | 5.00 | 5.78 | 8.00 | 6.35 | 6.40 | 6.00 | 2.00 | 3.00 | 2.00 | 1.00 | -10.00 | -10.00 | 0.00 | -0.20 | 0.00 | **25.34** | Veto V5 · low | [9](analysis_explainworld_261017_2336.md) |
-| <a id="d-q1052"></a>[The Devil's Chessboard — David Talbot](analysis_mustreads_261017_2010.md#m063) | 3.20 | 9.56 | 8.00 | 6.35 | 2.50 | 6.00 | 6.00 | 3.00 | 3.00 | 1.00 | -10.00 | -10.00 | -2.28 | -1.10 | 0.00 | **25.24** | Veto V1 · low | [2](analysis_top3alltime_261017_1900.md), [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1056"></a>[Between the World and Me — Ta-Nehisi Coates](analysis_bestever_261017_2138.md#b121) | 8.45 | 2.95 | 7.00 | 4.94 | 6.40 | 8.00 | 1.00 | 3.00 | 3.00 | 2.00 | -10.00 | -10.00 | -0.44 | -1.10 | 0.00 | **25.20** | Veto V5 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1017"></a>[Capital Is Dead — McKenzie Wark](analysis_readlately_261017_2316.md#h165) | 4.05 | 7.56 | 8.00 | 5.65 | 3.60 | 6.00 | 4.00 | 4.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -0.70 | -10.00 | **25.15** | Veto V5 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1042"></a>[A People's History of the United States — Howard Zinn](analysis_explainworld_261017_2336.md#w090) | 6.05 | 9.56 | 8.00 | 6.35 | 2.50 | 8.00 | 3.00 | 3.00 | 3.00 | 1.00 | -10.00 | -10.00 | -1.04 | -4.60 | 0.00 | **24.83** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md), [6](analysis_bestever_261017_2138.md), [7](analysis_anysubject_261017_2227.md), [9](analysis_explainworld_261017_2336.md) |
-| <a id="d-q1043"></a>[Ain't I a Woman: Black Women and Feminism — bell hooks](analysis_top3alltime_261017_1900.md) | 7.20 | 5.78 | 8.00 | 7.06 | 4.90 | 8.00 | 1.00 | 4.00 | 2.00 | 1.00 | -10.00 | -10.00 | 0.00 | -4.50 | 0.00 | **24.44** | Veto V5 · low | [2](analysis_top3alltime_261017_1900.md) |
-| <a id="d-q1062"></a>[How to Do Nothing — Jenny Odell](analysis_readlately_261017_2316.md#h157) | 7.20 | 5.78 | 8.00 | 5.65 | 2.50 | 7.00 | 2.00 | 3.00 | 2.00 | 2.00 | -10.00 | -10.00 | 0.00 | -0.70 | 0.00 | **24.43** | Veto V5 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1093"></a>[Three Cups of Tea — Greg Mortenson; David Oliver Relin](analysis_bestever_261017_2138.md#b111) | 1.25 | 1.89 | 5.00 | 3.53 | 3.60 | 5.00 | 2.00 | 1.00 | 3.00 | 1.00 | 0.00 | 0.00 | -0.92 | -2.00 | 0.00 | **24.35** | Veto V1 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1032"></a>[The Autobiography of Malcolm X — Malcolm X; Alex Haley](analysis_top3alltime_261017_1900.md) | 9.80 | 5.78 | 8.00 | 6.35 | 4.90 | 8.00 | 2.00 | 3.00 | 3.00 | 2.00 | -10.00 | -10.00 | -2.44 | -6.10 | 0.00 | **24.30** | Veto V5 · low | [2](analysis_top3alltime_261017_1900.md) |
-| <a id="d-q1029"></a>[Tao Te Ching — Traditionally Laozi](analysis_top3alltime_261017_1900.md) | 3.20 | 1.89 | 8.00 | 4.94 | 8.10 | 9.00 | 2.00 | 4.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -10.00 | 0.00 | **24.13** | Veto V5 · low | [2](analysis_top3alltime_261017_1900.md) |
-| <a id="d-q1107"></a>[The Places We Run — Bob Crowley; Hal V. Hall; Tim Twietmeyer](analysis_mustreads_261017_2010.md#m014) | 9.80 | 1.89 | 3.00 | 2.12 | 3.60 | 7.00 | 1.00 | 3.00 | 2.00 | 1.00 | -10.00 | 0.00 | 0.00 | -0.30 | 0.00 | **24.11** | Veto V3 · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1080"></a>[The Body Keeps the Score — Bessel van der Kolk](analysis_readlately_261017_2316.md#h142) | 3.20 | 5.78 | 7.00 | 5.65 | 2.50 | 6.00 | 2.00 | 4.00 | 3.00 | 1.00 | -10.00 | 0.00 | 0.00 | -1.20 | -5.00 | **23.93** | Veto V1 · low | [4](analysis_mustreads_261017_2010.md), [6](analysis_bestever_261017_2138.md), [7](analysis_anysubject_261017_2227.md), [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1026"></a>[Things Hidden Since the Foundation of the World — René Girard; with Jean-Michel Oughourlian and Guy Lefort](analysis_explainworld_261017_2336.md#w046) | 4.05 | 5.78 | 9.00 | 7.06 | 1.60 | 8.00 | 2.00 | 4.00 | 1.00 | 1.00 | 0.00 | -10.00 | 0.00 | -4.80 | -5.00 | **23.69** | Veto V5 · low | [9](analysis_explainworld_261017_2336.md) |
-| <a id="d-q1078"></a>[Desert Solitaire — Edward Abbey](analysis_mustreads_261017_2010.md#m122) | 8.45 | 2.95 | 5.00 | 3.53 | 4.90 | 8.00 | 1.00 | 3.00 | 3.00 | 2.00 | -10.00 | 0.00 | -2.76 | -5.80 | 0.00 | **23.27** | Veto V5 · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1097"></a>[A Girl Named Zippy — Haven Kimmel](analysis_obscurebooks_261017_1936.md) | 11.25 | 1.06 | 2.00 | 2.12 | 6.40 | 7.00 | 0.00 | 3.00 | 3.00 | 2.00 | -10.00 | 0.00 | -2.24 | -2.50 | 0.00 | **23.09** | Veto V3 · low | [3](analysis_obscurebooks_261017_1936.md) |
-| <a id="d-q1069"></a>[Whitewalling — Aruna D'Souza](analysis_anysubject_261017_2227.md#a086) | 7.20 | 4.25 | 7.00 | 5.65 | 6.40 | 6.00 | 1.00 | 3.00 | 2.00 | 1.00 | -10.00 | 0.00 | 0.00 | -0.80 | -10.00 | **22.70** | Veto V5 · low | [7](analysis_anysubject_261017_2227.md) |
-| <a id="d-q1087"></a>[The Hot Zone — Richard Preston](analysis_mustreads_261017_2010.md#m010) | 3.20 | 4.25 | 6.00 | 4.94 | 4.90 | 5.00 | 2.00 | 3.00 | 3.00 | 1.00 | -10.00 | 0.00 | -1.48 | -3.20 | 0.00 | **22.61** | Veto V1 · low | [2](analysis_top3alltime_261017_1900.md), [3](analysis_obscurebooks_261017_1936.md), [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1099"></a>[Scattered Minds — Gabor Maté](analysis_mustreads_261017_2010.md#m034) | 2.45 | 4.25 | 6.00 | 4.94 | 3.60 | 5.00 | 2.00 | 3.00 | 3.00 | 1.00 | -10.00 | 0.00 | 0.00 | -2.70 | 0.00 | **22.54** | Veto V1 · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1068"></a>[Lordship and Liberation in Palestine-Israel — Muhannad Ayyash](analysis_obscurebooks_261017_1936.md) | 5.00 | 5.78 | 7.00 | 6.35 | 2.50 | 6.00 | 3.00 | 4.00 | 2.00 | 1.00 | -10.00 | -10.00 | 0.00 | -0.10 | 0.00 | **22.54** | Veto V5 · low | [3](analysis_obscurebooks_261017_1936.md) |
-| <a id="d-q1071"></a>[Virtue Hoarders — Catherine Liu](analysis_mustreads_261017_2010.md#m066) | 4.05 | 5.78 | 7.00 | 5.65 | 6.40 | 6.00 | 2.00 | 3.00 | 2.00 | 1.00 | -10.00 | -10.00 | 0.00 | -0.50 | 0.00 | **22.38** | Veto V5 · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q0994"></a>[At the Café — Errico Malatesta](analysis_changedmind_261017_2105.md#c095) | 5.00 | 5.78 | 10.00 | 7.06 | 6.40 | 8.00 | 3.00 | 4.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -10.00 | -10.00 | **22.24** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1055"></a>[Cutting Through Spiritual Materialism — Chögyam Trungpa](analysis_mustreads_261017_2010.md#m124) | 5.00 | 1.06 | 7.00 | 4.24 | 4.90 | 8.00 | 1.00 | 3.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -5.30 | 0.00 | **21.90** | Veto V5 · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1104"></a>[Food of the Gods — Terence McKenna](analysis_top3alltime_261017_1900.md) | 1.25 | 2.95 | 4.00 | 3.53 | 2.50 | 5.00 | 1.00 | 2.00 | 2.00 | 1.00 | 0.00 | 0.00 | 0.00 | -3.40 | 0.00 | **21.83** | Veto V5 · low | [2](analysis_top3alltime_261017_1900.md) |
-| <a id="d-q1053"></a>[Travels in the Americas — Albert Camus](analysis_readlately_261017_2316.md#h149) | 11.25 | 1.06 | 3.00 | 2.12 | 4.90 | 8.00 | 0.00 | 4.00 | 3.00 | 2.00 | 0.00 | 0.00 | -3.08 | -4.80 | -10.00 | **21.45** | Veto V3 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1021"></a>[Black Feminist Thought — Patricia Hill Collins](analysis_changedmind_261017_2105.md#c090) | 8.45 | 7.56 | 9.00 | 7.06 | 3.60 | 9.00 | 2.00 | 5.00 | 2.00 | 1.00 | -10.00 | -10.00 | 0.00 | -3.60 | -10.00 | **21.06** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1084"></a>[Crying in H Mart — Michelle Zauner](analysis_mustreads_261017_2010.md#m130) | 11.25 | 1.06 | 4.00 | 2.82 | 6.40 | 8.00 | 0.00 | 3.00 | 3.00 | 2.00 | -10.00 | -10.00 | -0.48 | -0.50 | 0.00 | **20.56** | Veto V3 · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1041"></a>[Tyranny, Inc. — Sohrab Ahmari](analysis_readlately_261017_2316.md#h040) | 6.05 | 7.56 | 9.00 | 7.06 | 4.90 | 6.00 | 3.00 | 3.00 | 3.00 | 1.00 | -10.00 | -10.00 | 0.00 | -0.30 | -10.00 | **20.26** | Veto V5 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1063"></a>[Blitzed — Norman Ohler](analysis_bestever_261017_2138.md#b067) | 4.05 | 5.78 | 7.00 | 5.65 | 4.90 | 6.00 | 5.00 | 2.00 | 3.00 | 1.00 | -10.00 | -10.00 | -3.24 | -1.10 | 0.00 | **20.04** | Veto V1 · low | [2](analysis_top3alltime_261017_1900.md), [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1110"></a>[Why We Get Fat — Gary Taubes](analysis_readlately_261017_2316.md#h087) | 1.80 | 2.95 | 6.00 | 4.94 | 4.90 | 4.00 | 1.00 | 2.00 | 3.00 | 1.00 | -10.00 | 0.00 | 0.00 | -1.60 | 0.00 | **19.99** | Veto V1 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1079"></a>[The End of America — Naomi Wolf](analysis_mustreads_261017_2010.md#m126) | 4.05 | 5.78 | 7.00 | 5.65 | 4.90 | 5.00 | 3.00 | 2.00 | 3.00 | 1.00 | -10.00 | -10.00 | 0.00 | -1.90 | 0.00 | **19.48** | Veto V5 · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1100"></a>[The Alphabet Versus the Goddess — Leonard Shlain](analysis_anysubject_261017_2227.md#a140) | 1.25 | 5.78 | 4.00 | 3.53 | 1.60 | 5.00 | 2.00 | 1.00 | 2.00 | 1.00 | 0.00 | 0.00 | 0.00 | -2.80 | -5.00 | **19.36** | Veto V1 · low | [7](analysis_anysubject_261017_2227.md) |
-| <a id="d-q1086"></a>[Papillon — Henri Charrière](analysis_bestever_261017_2138.md#b079) | 1.80 | 1.06 | 5.00 | 3.53 | 4.90 | 6.00 | 1.00 | 1.00 | 3.00 | 1.00 | 0.00 | 0.00 | -3.24 | -5.70 | 0.00 | **19.35** | Veto V1 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1082"></a>[So You Want to Talk About Race — Ijeoma Oluo](analysis_changedmind_261017_2105.md#c033) | 6.05 | 2.95 | 7.00 | 4.94 | 4.90 | 7.00 | 1.00 | 2.00 | 3.00 | 1.00 | -10.00 | -10.00 | 0.00 | -0.80 | 0.00 | **19.04** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1081"></a>[Being Ecological — Timothy Morton](analysis_bestever_261017_2138.md#b122) | 6.05 | 4.25 | 7.00 | 5.65 | 2.50 | 7.00 | 1.00 | 3.00 | 2.00 | 1.00 | -10.00 | -10.00 | 0.00 | -0.80 | 0.00 | **18.65** | Veto V5 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1051"></a>[Human Smoke — Nicholson Baker](analysis_changedmind_261017_2105.md#c040) | 2.45 | 7.56 | 5.00 | 4.24 | 2.50 | 7.00 | 5.00 | 2.00 | 2.00 | 1.00 | 0.00 | -10.00 | -3.40 | -1.80 | -5.00 | **18.54** | Veto V1; V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1066"></a>[The Half Has Never Been Told — Edward E. Baptist](analysis_changedmind_261017_2105.md#c119) | 1.80 | 9.56 | 7.00 | 5.65 | 3.60 | 7.00 | 4.00 | 3.00 | 3.00 | 1.00 | -10.00 | -10.00 | -6.64 | -1.20 | 0.00 | **17.77** | Veto V1 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1083"></a>[A First-Rate Madness — S. Nassir Ghaemi](analysis_mustreads_261017_2010.md#m023) | 2.45 | 4.25 | 7.00 | 4.94 | 3.60 | 6.00 | 3.00 | 4.00 | 3.00 | 1.00 | -10.00 | -10.00 | 0.00 | -1.50 | 0.00 | **17.74** | Veto V1 · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1050"></a>[In the Spirit of Crazy Horse — Peter Matthiessen](analysis_mustreads_261017_2010.md#m125) | 7.20 | 7.56 | 8.00 | 6.35 | 1.60 | 8.00 | 2.00 | 4.00 | 3.00 | 1.00 | -10.00 | -10.00 | -2.04 | -4.30 | -5.00 | **17.37** | Veto V5 · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1072"></a>[A World Lit Only by Fire — William Manchester](analysis_top3alltime_261017_1900.md) | 1.80 | 2.95 | 5.00 | 3.53 | 4.90 | 5.00 | 3.00 | 2.00 | 3.00 | 1.00 | 0.00 | 0.00 | -12.00 | -3.40 | 0.00 | **16.78** | Veto V1 · low | [2](analysis_top3alltime_261017_1900.md) |
-| <a id="d-q1076"></a>[Assata — Assata Shakur](analysis_bestever_261017_2138.md#b125) | 6.05 | 4.25 | 6.00 | 4.94 | 4.90 | 8.00 | 1.00 | 2.00 | 3.00 | 1.00 | -10.00 | -10.00 | -1.68 | -3.90 | 0.00 | **15.56** | Veto V5 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1101"></a>[What Remains — Carole Radziwill](analysis_mustreads_261017_2010.md#m006) | 11.25 | 1.06 | 3.00 | 2.12 | 4.90 | 7.00 | 0.00 | 3.00 | 3.00 | 2.00 | -10.00 | -10.00 | 0.00 | -2.10 | 0.00 | **15.23** | Veto V3 · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1106"></a>[The Long Walk — Sławomir Rawicz; Ronald Downing](analysis_bestever_261017_2138.md#b080) | 0.80 | 1.06 | 4.00 | 2.82 | 4.90 | 6.00 | 1.00 | 1.00 | 3.00 | 1.00 | 0.00 | 0.00 | -3.36 | -7.00 | 0.00 | **15.23** | Veto V1 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1065"></a>[Who Stole Feminism? — Christina Hoff Sommers](analysis_anysubject_261017_2227.md#a125) | 6.05 | 4.25 | 8.00 | 6.35 | 3.60 | 7.00 | 2.00 | 3.00 | 2.00 | 1.00 | -10.00 | -10.00 | 0.00 | -3.20 | -5.00 | **15.05** | Veto V5 · low | [7](analysis_anysubject_261017_2227.md) |
-| <a id="d-q1122"></a>[The Mole People — Jennifer Toth](analysis_obscurebooks_261017_1936.md) | 1.25 | 2.95 | 5.00 | 3.53 | 3.60 | 5.00 | 2.00 | 2.00 | 3.00 | 1.00 | -10.00 | 0.00 | -1.36 | -3.30 | 0.00 | **14.67** | Veto V1 · low | [3](analysis_obscurebooks_261017_1936.md) |
-| <a id="d-q1108"></a>[Vacationland — John Hodgman](analysis_bestever_261017_2138.md#b083) | 9.80 | 1.06 | 3.00 | 2.12 | 4.90 | 7.00 | 0.00 | 2.00 | 3.00 | 2.00 | -10.00 | -10.00 | 0.00 | -0.90 | 0.00 | **13.98** | Veto V3 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1089"></a>[Jacob Hamblin: The Peacemaker — Pearson H. Corbett](analysis_readlately_261017_2316.md#h097) | 6.05 | 4.25 | 6.00 | 4.94 | 2.50 | 7.00 | 1.00 | 2.00 | 2.00 | 1.00 | -10.00 | 0.00 | -5.60 | -7.40 | 0.00 | **13.74** | Veto V5 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1070"></a>[Brothers — David Talbot (probable identification)](analysis_mustreads_261017_2010.md#m158) | 3.20 | 7.56 | 7.00 | 5.65 | 2.50 | 6.00 | 4.00 | 3.00 | 3.00 | 1.00 | -10.00 | -10.00 | -2.32 | -1.90 | -5.00 | **13.68** | Veto V1 (conditional) · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1119"></a>[A Child Called It — Dave Pelzer](analysis_changedmind_261017_2105.md#c067) | 5.00 | 1.06 | 4.00 | 2.82 | 4.90 | 6.00 | 0.00 | 2.00 | 2.00 | 1.00 | -10.00 | 0.00 | -2.12 | -3.10 | 0.00 | **13.57** | Veto V3 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1090"></a>[Goodbye to a River — John Graves](analysis_readlately_261017_2316.md#h045) | 11.25 | 1.89 | 3.00 | 2.12 | 3.60 | 8.00 | 0.00 | 3.00 | 3.00 | 2.00 | -10.00 | 0.00 | -2.76 | -6.60 | -5.00 | **13.50** | Veto V3 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1036"></a>[Progress — Samuel Miller McDonald](analysis_anysubject_261017_2227.md#a053) | 6.05 | 11.81 | 9.00 | 7.06 | 3.60 | 6.00 | 4.00 | 3.00 | 2.00 | 1.00 | -10.00 | -10.00 | 0.00 | -0.10 | -20.00 | **13.41** | Veto V5 · low | [7](analysis_anysubject_261017_2227.md) |
-| <a id="d-q1103"></a>[Wishful Drinking — Carrie Fisher](analysis_mustreads_261017_2010.md#m052) | 9.80 | 1.06 | 3.00 | 2.12 | 4.90 | 7.00 | 0.00 | 3.00 | 3.00 | 2.00 | -10.00 | -10.00 | -0.76 | -1.80 | 0.00 | **13.32** | Veto V3 · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1085"></a>[Sacred Economics — Charles Eisenstein](analysis_readlately_261017_2316.md#h227) | 3.20 | 7.56 | 8.00 | 6.35 | 1.60 | 5.00 | 3.00 | 2.00 | 2.00 | 1.00 | -10.00 | -10.00 | 0.00 | -1.50 | -5.00 | **13.21** | Veto V5 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1129"></a>[Desert Soliloquy — David Michael Rice](analysis_mustreads_261017_2010.md#m136) | 5.00 | 1.06 | 3.00 | 2.12 | 2.50 | 6.00 | 0.00 | 1.00 | 2.00 | 1.00 | -10.00 | 0.00 | 0.00 | -0.80 | 0.00 | **12.88** | Veto V3 · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1098"></a>[Life Among the Savages — Shirley Jackson](analysis_bestever_261017_2138.md#b086) | 9.80 | 0.47 | 3.00 | 2.12 | 6.40 | 8.00 | 0.00 | 3.00 | 3.00 | 2.00 | -10.00 | 0.00 | -3.04 | -7.30 | -5.00 | **12.45** | Veto V3 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1130"></a>[Science at the Crossroads — Herbert Dingle](analysis_obscurebooks_261017_1936.md) | 0.20 | 0.47 | 2.00 | 1.41 | 2.50 | 3.00 | 5.00 | 1.00 | 1.00 | 1.00 | 0.00 | 0.00 | 0.00 | -5.40 | 0.00 | **12.18** | Veto V1 · low | [3](analysis_obscurebooks_261017_1936.md) |
-| <a id="d-q1064"></a>[Answer to Job — C. G. Jung](analysis_obscurebooks_261017_1936.md) | 2.45 | 2.95 | 5.00 | 4.24 | 4.90 | 7.00 | 1.00 | 4.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -7.40 | -5.00 | **12.14** | Veto V5 · low | [3](analysis_obscurebooks_261017_1936.md) |
-| <a id="d-q1109"></a>[But Now I See — Steven Holcomb; Steve Eubanks](analysis_obscurebooks_261017_1936.md) | 8.45 | 1.06 | 3.00 | 2.82 | 4.90 | 6.00 | 1.00 | 2.00 | 3.00 | 1.00 | -10.00 | 0.00 | 0.00 | -1.40 | -10.00 | **11.84** | Veto V3 · low | [3](analysis_obscurebooks_261017_1936.md) |
-| <a id="d-q1126"></a>[The Biology of Belief — Bruce H. Lipton](analysis_bestever_261017_2138.md#b100) | 0.45 | 1.06 | 3.00 | 2.82 | 2.50 | 3.00 | 1.00 | 2.00 | 2.00 | 1.00 | 0.00 | 0.00 | 0.00 | -2.10 | -5.00 | **11.74** | Veto V1; V5 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1077"></a>[Columbus and Other Cannibals — Jack D. Forbes](analysis_explainworld_261017_2336.md#w042) | 4.05 | 5.78 | 7.00 | 5.65 | 4.90 | 6.00 | 2.00 | 3.00 | 2.00 | 1.00 | -10.00 | -10.00 | 0.00 | -4.70 | -5.00 | **11.68** | Veto V5 · low | [9](analysis_explainworld_261017_2336.md) |
-| <a id="d-q1132"></a>[Warrior Pose — Brad Willis (Bhava Ram)](analysis_anysubject_261017_2227.md#a021) | 1.25 | 1.89 | 4.00 | 2.82 | 2.50 | 4.00 | 0.00 | 2.00 | 3.00 | 1.00 | -10.00 | 0.00 | 0.00 | -1.30 | 0.00 | **11.16** | Veto V1; V5 · low | [7](analysis_anysubject_261017_2227.md) |
-| <a id="d-q1124"></a>[Expecting Adam — Martha Beck](analysis_changedmind_261017_2105.md#c047) | 0.45 | 1.06 | 3.00 | 2.12 | 2.50 | 6.00 | 0.00 | 2.00 | 2.00 | 1.00 | 0.00 | 0.00 | -1.52 | -2.70 | -5.00 | **10.91** | Veto V1; V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1014"></a>[The Society of the Spectacle — Guy Debord](analysis_mustreads_261017_2010.md#m064) | 4.05 | 7.56 | 8.00 | 5.65 | 2.50 | 9.00 | 3.00 | 5.00 | 1.00 | 1.00 | 0.00 | -10.00 | 0.00 | -5.90 | -20.00 | **10.85** | Veto V5 · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1092"></a>[The New Left / The Return of the Primitive — Ayn Rand; Peter Schwartz (expanded edition)](analysis_changedmind_261017_2105.md#c072) | 2.45 | 4.25 | 6.00 | 4.94 | 3.60 | 6.00 | 3.00 | 3.00 | 2.00 | 1.00 | -10.00 | -10.00 | 0.00 | -5.50 | 0.00 | **10.74** | Veto V2; V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1121"></a>[The Book of Enoch — Multiple ancient authors (1 Enoch assumed)](analysis_bestever_261017_2138.md#b118) | 0.80 | 1.06 | 2.00 | 2.12 | 1.60 | 8.00 | 0.00 | 2.00 | 2.00 | 1.00 | 0.00 | 0.00 | 0.00 | -10.00 | 0.00 | **10.58** | Veto V1 (conditional); V5 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1096"></a>[Whakapohane — Dun Mihaka; Diane Prince](analysis_obscurebooks_261017_1936.md) | 7.20 | 4.25 | 6.00 | 4.94 | 1.60 | 7.00 | 1.00 | 2.00 | 1.00 | 1.00 | -10.00 | -10.00 | -1.72 | -4.20 | 0.00 | **10.07** | Veto V5 · low | [3](analysis_obscurebooks_261017_1936.md) |
-| <a id="d-q1120"></a>[Autobiography of a Yogi — Paramahansa Yogananda](analysis_anysubject_261017_2227.md#a084) | 0.45 | 1.06 | 3.00 | 2.12 | 2.50 | 7.00 | 0.00 | 2.00 | 2.00 | 1.00 | 0.00 | 0.00 | -3.24 | -8.00 | 0.00 | **9.89** | Veto V1; V5 · low | [4](analysis_mustreads_261017_2010.md), [7](analysis_anysubject_261017_2227.md) |
-| <a id="d-q1073"></a>[Born to Run — Christopher McDougall](analysis_obscurebooks_261017_1936.md) | 3.20 | 1.89 | 5.00 | 4.94 | 3.60 | 5.00 | 1.00 | 2.00 | 3.00 | 1.00 | 0.00 | 0.00 | 0.00 | -1.70 | -20.00 | **8.93** | Veto V1 · low | [3](analysis_obscurebooks_261017_1936.md) |
-| <a id="d-q1117"></a>[The Power of Now — Eckhart Tolle](analysis_bestever_261017_2138.md#b126) | 0.80 | 1.06 | 4.00 | 2.82 | 2.50 | 6.00 | 0.00 | 1.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -2.90 | 0.00 | **8.29** | Veto V1; V5 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1114"></a>[The Tao of Wu — RZA](analysis_readlately_261017_2316.md#h054) | 5.00 | 1.06 | 5.00 | 3.53 | 4.90 | 6.00 | 0.00 | 2.00 | 2.00 | 1.00 | -10.00 | -10.00 | -0.72 | -1.70 | 0.00 | **8.07** | Veto V5 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1067"></a>[Koba the Dread — Martin Amis](analysis_mustreads_261017_2010.md#m111) | 6.05 | 5.78 | 6.00 | 4.94 | 3.60 | 8.00 | 2.00 | 3.00 | 3.00 | 1.00 | -10.00 | -10.00 | -2.92 | -2.40 | -10.00 | **8.06** | Veto V5 · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1116"></a>[I Am Ozzy — Ozzy Osbourne; Chris Ayres](analysis_bestever_261017_2138.md#b035) | 7.20 | 1.06 | 3.00 | 2.12 | 3.60 | 7.00 | 0.00 | 2.00 | 3.00 | 1.00 | -10.00 | -10.00 | -0.72 | -1.70 | 0.00 | **7.56** | Veto V3 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1111"></a>[Scar Tissue — Anthony Kiedis; Larry Sloman](analysis_mustreads_261017_2010.md#m153) | 7.20 | 1.06 | 4.00 | 2.82 | 2.50 | 7.00 | 0.00 | 2.00 | 3.00 | 1.00 | -10.00 | -10.00 | -0.92 | -2.20 | 0.00 | **7.47** | Veto V3 · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1112"></a>[The Heroin Diaries — Nikki Sixx; Ian Gittins](analysis_bestever_261017_2138.md#b037) | 7.20 | 1.06 | 4.00 | 2.82 | 3.60 | 6.00 | 0.00 | 2.00 | 3.00 | 1.00 | -10.00 | -10.00 | -1.56 | -1.90 | 0.00 | **7.23** | Veto V3 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1059"></a>[The Decline of the West — Oswald Spengler](analysis_anysubject_261017_2227.md#a139) | 1.80 | 7.56 | 6.00 | 4.94 | 0.90 | 7.00 | 4.00 | 2.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -10.00 | -10.00 | **7.20** | Veto V1 · low | [7](analysis_anysubject_261017_2227.md) |
-| <a id="d-q1123"></a>[A New Earth — Eckhart Tolle](analysis_mustreads_261017_2010.md#m036) | 0.80 | 1.06 | 4.00 | 2.82 | 1.60 | 5.00 | 0.00 | 1.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -2.10 | 0.00 | **7.19** | Veto V1; V5 · low | [4](analysis_mustreads_261017_2010.md) |
-| <a id="d-q1012"></a>[The Vital Center — Arthur M. Schlesinger Jr.](analysis_changedmind_261017_2105.md#c088) | 7.20 | 7.56 | 9.00 | 7.06 | 4.90 | 9.00 | 4.00 | 5.00 | 2.00 | 2.00 | -10.00 | -10.00 | -3.08 | -7.70 | -20.00 | **6.93** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1094"></a>[Up in the Old Hotel — Joseph Mitchell](analysis_readlately_261017_2316.md#h111) | 11.25 | 1.89 | 3.00 | 2.12 | 2.50 | 8.00 | 0.00 | 4.00 | 3.00 | 2.00 | -10.00 | -10.00 | -2.48 | -3.40 | -5.00 | **6.88** | Veto V3 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1115"></a>[This One Wild and Precious Life — Sarah Wilson](analysis_top3alltime_261017_1900.md) | 4.05 | 2.95 | 5.00 | 3.53 | 3.60 | 5.00 | 1.00 | 2.00 | 2.00 | 1.00 | -10.00 | -10.00 | 0.00 | -0.60 | -5.00 | **4.53** | Veto V5 · low | [2](analysis_top3alltime_261017_1900.md) |
-| <a id="d-q1118"></a>[Emptiness Dancing — Adyashanti](analysis_top3alltime_261017_1900.md) | 1.25 | 0.47 | 4.00 | 2.82 | 3.60 | 5.00 | 0.00 | 1.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -2.20 | -5.00 | **3.95** | Veto V5 · low | [2](analysis_top3alltime_261017_1900.md) |
-| <a id="d-q1095"></a>[Soul on Ice — Eldridge Cleaver](analysis_changedmind_261017_2105.md#c082) | 5.00 | 2.95 | 5.00 | 4.24 | 3.60 | 7.00 | 1.00 | 3.00 | 3.00 | 1.00 | -10.00 | -10.00 | -2.36 | -5.80 | -5.00 | **2.63** | Veto V5 · low | [5](analysis_changedmind_261017_2105.md) |
-| <a id="d-q1105"></a>[Royal Panoply — Carolly Erickson](analysis_top3alltime_261017_1900.md) | 9.80 | 1.89 | 2.00 | 2.12 | 3.60 | 7.00 | 1.00 | 3.00 | 2.00 | 2.00 | -10.00 | -10.00 | 0.00 | -2.00 | -10.00 | **2.41** | Veto V3 · low | [2](analysis_top3alltime_261017_1900.md) |
-| <a id="d-q1131"></a>[The Anunnaki Chronicles — Zecharia Sitchin; Janet Sitchin, editor](analysis_readlately_261017_2316.md#h066) | 0.45 | 1.89 | 2.00 | 2.12 | 1.60 | 2.00 | 1.00 | 1.00 | 2.00 | 0.00 | 0.00 | 0.00 | -12.00 | -1.10 | 0.00 | **0.96** | Veto V1 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1128"></a>[The Genius of the Few — Christian O'Brien; Barbara Joy O'Brien](analysis_readlately_261017_2316.md#h063) | 0.45 | 1.89 | 3.00 | 2.82 | 1.60 | 3.00 | 1.00 | 1.00 | 2.00 | 0.00 | 0.00 | 0.00 | -12.00 | -4.10 | 0.00 | **0.66** | Veto V1 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1102"></a>[The Farfarers — Farley Mowat](analysis_readlately_261017_2316.md#h152) | 1.25 | 2.95 | 4.00 | 3.53 | 2.50 | 4.00 | 2.00 | 1.00 | 3.00 | 1.00 | 0.00 | 0.00 | -12.00 | -2.80 | -10.00 | **0.43** | Veto V1 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1113"></a>[Heroes: Mass Murder and Suicide — Franco Berardi](analysis_top3alltime_261017_1900.md) | 1.80 | 4.25 | 5.00 | 4.24 | 3.60 | 5.00 | 2.00 | 2.00 | 2.00 | 1.00 | -10.00 | -10.00 | 0.00 | -1.10 | -10.00 | **-0.21** | Veto V5 · low | [2](analysis_top3alltime_261017_1900.md) |
-| <a id="d-q1048"></a>[The Rise and Fall of the Third Reich — William L. Shirer](analysis_bestever_261017_2138.md#b138) | 4.05 | 7.56 | 8.00 | 5.65 | 3.60 | 7.00 | 6.00 | 3.00 | 3.00 | 1.00 | -10.00 | -10.00 | -3.24 | -6.60 | -20.00 | **-0.99** | Veto V1 · low | [1](analysis_definitive_261017_1900.md), [2](analysis_top3alltime_261017_1900.md), [5](analysis_changedmind_261017_2105.md), [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1136"></a>[Power vs. Force — David R. Hawkins](analysis_readlately_261017_2316.md#h164) | 0.20 | 0.47 | 2.00 | 1.41 | 1.60 | 2.00 | 0.00 | 1.00 | 2.00 | 0.00 | 0.00 | -10.00 | 0.00 | -3.10 | 0.00 | **-2.42** | Veto V1; V5 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1134"></a>[The 12th Planet — Zecharia Sitchin](analysis_readlately_261017_2316.md#h064) | 0.20 | 1.06 | 2.00 | 2.12 | 1.60 | 2.00 | 1.00 | 0.00 | 2.00 | 0.00 | 0.00 | 0.00 | -12.00 | -5.00 | 0.00 | **-5.02** | Veto V1 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1127"></a>[The Ascent of Humanity — Charles Eisenstein](analysis_explainworld_261017_2336.md#w060) | 1.25 | 5.78 | 5.00 | 4.24 | 0.90 | 4.00 | 2.00 | 1.00 | 2.00 | 0.00 | -10.00 | -10.00 | 0.00 | -1.90 | -10.00 | **-5.73** | Veto V1; V5 · low | [9](analysis_explainworld_261017_2336.md) |
-| <a id="d-q1133"></a>[Programmed to Kill — David McGowan](analysis_explainworld_261017_2336.md#w092) | 0.80 | 2.95 | 3.00 | 3.53 | 1.60 | 3.00 | 2.00 | 1.00 | 2.00 | 0.00 | -10.00 | -10.00 | 0.00 | -2.20 | -5.00 | **-7.32** | Veto V1 · low | [9](analysis_explainworld_261017_2336.md) |
-| <a id="d-q1135"></a>[The Earth Chronicles — Zecharia Sitchin](analysis_readlately_261017_2316.md#h065) | 0.20 | 1.89 | 2.00 | 2.12 | 0.40 | 2.00 | 1.00 | 0.00 | 2.00 | 0.00 | 0.00 | 0.00 | -12.00 | -5.00 | -5.00 | **-10.39** | Veto V1 · low | [8](analysis_readlately_261017_2316.md) |
-| <a id="d-q1125"></a>[The Book of Invasions (Lebor Gabála Érenn) — Anonymous; R. A. S. Macalister, ed./trans.](analysis_definitive_261017_1900.md) | 7.20 | 1.06 | 3.00 | 1.41 | 0.90 | 9.00 | 0.00 | 4.00 | 1.00 | 1.00 | -10.00 | -10.00 | -12.00 | -10.00 | 0.00 | **-13.43** | Veto V5 · low | [1](analysis_definitive_261017_1900.md) |
-| <a id="d-q1137"></a>[The Law That Never Was — William J. Benson; Martin J. Beckman](analysis_bestever_261017_2138.md#b106) | 0.45 | 1.06 | 2.00 | 1.41 | 1.60 | 3.00 | 1.00 | 1.00 | 1.00 | 0.00 | -10.00 | -10.00 | -4.52 | -4.10 | 0.00 | **-16.10** | Veto V1; V5 · low | [6](analysis_bestever_261017_2138.md) |
-| <a id="d-q1138"></a>[Mein Kampf — Adolf Hitler](analysis_readlately_261017_2316.md#h095) | 0.05 | 1.89 | 2.00 | 2.82 | 0.40 | 2.00 | 2.00 | 1.00 | 1.00 | 0.00 | -10.00 | -10.00 | 0.00 | -10.00 | 0.00 | **-16.84** | Veto V2; V1; V5 · low | [8](analysis_readlately_261017_2316.md) |
-
-The following reasons and disposition notes are preserved from prior reviews. Historical scores in those notes are superseded by the current tables above.
-
-## Reasons and evidence
-
-### Capital / Das Kapital
-
-**Current rule-5 update (2026-10-18): V1; V5. V5 confidence: high; prior grounds: moderate.** The sustained critique of capitalism is also a foundational socialist political-economic argument. This ideological purpose independently meets V5. The existing V1 assessment remains at moderate confidence. [Review](analysis_veto5_261018_1428.md#old-v5-1). The prior score vector and total are unchanged; counterfactual score confidence remains low.
-
-**Earlier source reasoning (preserved; its statements that religion or advocacy alone were insufficient are superseded by V5):**
-
-**Veto:** V1; confidence moderate. **Counterfactual:** 63/100; confidence low. **T:** 0. No predominant listed negative theme; critique of capitalism is not itself a thematic deduction.
-
-The prior analysis identifies an unsupported exclusive role for labour in surplus value and problems linking values, prices and profit rates. Other interpretations and substantial accounts of production, accumulation and conflict retain intellectual value; the veto is for use as a reliable standalone causal model, not for Marx's political identity. [Stanford Encyclopedia of Philosophy, economics section](https://plato.stanford.edu/archives/spr2024/entries/marx/#Econ).
-
-E9 and M10 reflect the disputed theoretical foundations. U10/S9/F6 credit reusable questions about production, accumulation and institutions. D4/N1/P1 reflect the large reading cost and conceptual difficulty; R8/A5 credit long specialist engagement without treating influence as proof.
-
-[Source 1 analysis](analysis_definitive_261017_1900.md).
-
-### The Communist Manifesto
-
-**Current rule-5 update (2026-10-18): V2; V1; V5. V5 confidence: high; prior grounds: moderate.** An explicit communist political manifesto. V5 applies independently of the existing V1 and V2 judgments, whose prior confidence remains moderate. [Review](analysis_veto5_261018_1428.md#old-v5-4). The prior score vector and total are unchanged; counterfactual score confidence remains low.
-
-**Earlier source reasoning (preserved; its statements that religion or advocacy alone were insufficient are superseded by V5):**
-
-**Veto:** V2; V1; confidence moderate. **Counterfactual:** 59/100; confidence low. **T:** 0. International industrial and political argument; political allegiance is addressed by the veto and E, not an invented thematic penalty.
-
-The text contains durable observations about industrial change and world markets. Its governing argument nevertheless compresses historical explanation into antagonistic classes and asserts the necessary victory of one side without a causal demonstration that rules out alternatives. Under the requested strict standard, the political program and asserted inevitability cannot be treated as an evidence-led model. Historical importance is a separate use. [Marx and Engels, Manifesto, chapter I — primary text](https://www.marxists.org/archive/marx/works/1848/communist-manifesto/ch01.htm).
-
-E7/M8/U7 reflect class reduction and asserted inevitability. S8/F4 credit the links among production, markets and institutional power. D9/R8/A5 recognize brevity and sustained scholarly attention. N2/P1 distinguish rhetorical force from analytical precision.
-
-[Source 2 analysis](analysis_top3alltime_261017_1900.md).
-
-**Source 5 reassessment:** veto V2; V1 retained; confidence moderate. All ten criteria and T unchanged; counterfactual **59/100**, score confidence low. Contributing sources: **2, 5**. V2; V1, moderate confidence, remains. The central program asserts class-based historical necessity and eventual victory without establishing that alternatives are excluded. Industrial change and world markets retain M/S/F; influence and compactness support A/R/D. The thread's praise does not repair the inferential gap. Every counterfactual criterion and T=0 stay unchanged. [Latest assessment](analysis_changedmind_261017_2105.md#c070).
-
-
-### The Swerve
-
-**Veto:** V1; confidence high. **Counterfactual:** 52/100; confidence low. **T:** 0. Cross-European intellectual history; no listed theme predominates.
-
-The recovery narrative has literary and historical value. The decisive problem is the thesis that rediscovering Lucretius explains the emergence of modernity: Monfasani identifies a weak causal bridge and a distorted contrast with medieval intellectual life. This concerns the organizing explanation, not a few peripheral mistakes. [John Monfasani, Reviews in History (2012)](https://reviews.history.ac.uk/review/1283/print/).
-
-E7/M7 reflect the weak recovery-of-Lucretius-to-modernity causal claim. U6/S7 give limited credit to transmission of ideas and cultural institutions. D7/R6/F3/A4/N3/P2 preserve the book's compact narrative, literary expertise and clarity while limiting direct strategic value.
-
-[Source 2 analysis](analysis_top3alltime_261017_1900.md).
-
-**Source 7 reassessment (2026-10-17, 22:27:32 +02:00):** The earlier specialist criticism of the Lucretius-to-modernity thesis still supports V1 with high confidence. The new nomination does not repair that causal leap. Keep E7/M7/U6/S7/D7/R6/F3/A4/N3/P2/T0 = 52 as the flawed counterfactual. Literary accomplishment is retained; it does not validate the central historical explanation.
-
-**Current contributing sources:** 2, 7. **Veto:** V1, high confidence. **Counterfactual:** E7 / M7 / U6 / S7 / D7 / R6 / F3 / A4 / N3 / P2 / T0 = **52/100**, low score confidence. [Full current assessment](analysis_anysubject_261017_2227.md#a109).
-
-### The Rise and Fall of the Third Reich
-
-**Veto:** V1; confidence moderate. **Counterfactual:** 49/100; confidence low. **T:** -10. Single-nation regime history and political leadership; one deduction.
-
-Reporting access and documents remain useful. Rosenfeld's scholarly reception study, especially pp. 102–108, establishes that the national-continuity thesis is central, not a stray remark: German cultural traits are made to carry the explanation of Nazism. It also shows that critics had political commitments, so their number is not proof. The veto is this assessment's judgment that the deterministic causal bridge fails the required standard. [Gavriel D. Rosenfeld, Journal of Contemporary History 29 (1994), pp. 95–128](https://marcuse.faculty.history.ucsb.edu/classes/201/articles/94RosenfeldShirerJCH.pdf).
-
-Retains the earlier explicit counterfactual vector. E9/M8/U8/S8 reflect the national-character causal defect; D6/R7 preserve documentary value while recognizing length and an aging explanatory frame. F6/A3/N3/P1 credit access, relevant institutions and narrative strength without restoring causal reliability.
-
-[Source 1 analysis](analysis_definitive_261017_1900.md); [Source 2 analysis](analysis_top3alltime_261017_1900.md).
-
-**Source 5 reassessment:** veto V1 retained; confidence moderate. All ten criteria and T unchanged; counterfactual **49/100**, score confidence low. Contributing sources: **1, 2, 5**. V1, moderate confidence, remains. The national-character and long-continuity explanation identified in prior specialist criticism is not repaired by the new recommendation. Contemporary observation and documentary reporting retain some E/A, but the causal frame constrains M/U/S/P. Length and uneven explanation limit D; readability supports N. Every counterfactual component and T remain unchanged. [Latest assessment](analysis_changedmind_261017_2105.md#c041).
-
-**Source 6 reassessment:** National-character determinism does not establish the explanation of Nazism. Veto V1 retained with moderate confidence; all criteria and T unchanged. Counterfactual **49/100**, score confidence low. Current sources: **1, 2, 5, 6**. [Full reassessment](analysis_bestever_261017_2138.md#b138).
-
-### Blitzed
-
-**Veto:** V1; confidence moderate. **Counterfactual:** 45/100; confidence low. **T:** -10. Predominantly one national regime and its political/military leaders; one deduction.
-
-Documented drug use does not establish that drugs explain Nazi military success or Hitler's consequential choices. Historian Roger Moorhouse distinguishes the real pharmacological history from the book's much larger causal claims. Under this strict rubric, those central leaps outweigh its useful descriptive material. [Roger Moorhouse's historian's review](https://www.rogermoorhouse.com/blitzed-by-norman-ohler-a-historians-review).
-
-E9/M8 limit the move from documented drug use to major military and political causation. U7/S7/F5 recognize pharmacology, logistics and command as relevant connections. D7/R6/A2/N3/P1 credit readability and lasting subject matter while reflecting limited specialist authority and causal precision.
-
-[Source 2 analysis](analysis_top3alltime_261017_1900.md).
-
-**Source 6 reassessment:** Drug use is made to explain outcomes beyond the evidence. Veto V1 retained with moderate confidence; all criteria and T unchanged. Counterfactual **45/100**, score confidence low. Current sources: **2, 6**. [Full reassessment](analysis_bestever_261017_2138.md#b067).
-
-### A World Lit Only by Fire
-
-**Veto:** V1; confidence moderate. **Counterfactual:** 42/100; confidence low. **T:** 0. Broad European history rather than a predominantly single-nation account.
-
-The medieval-darkness premise depends on sweeping claims and unreliable use of hostile or literary anecdotes as social evidence. Emanuel's page-referenced review identifies concrete examples of that source problem. He is an amateur reviewer, which limits confidence. Adams's specialist Speculum review was bibliographically verified but its full text was not retrieved; no claim here depends on pretending to have read it. [Curt Emanuel's page-referenced review](https://medievalhistorygeek.wordpress.com/2010/04/02/book-review-a-world-lit-only-by-fire/); [Jeremy duQuesnay Adams, Speculum review record (1995)](https://www.journals.uchicago.edu/doi/10.2307/2864746).
-
-E6/M5/U5/S5 reflect unreliable medieval generalization and the limited transfer of its causal story. D7/N3 credit a concise readable narrative; R5/F3/A2/P1 reflect weak specialist standing for this subject and insufficient conceptual control.
-
-[Source 2 analysis](analysis_top3alltime_261017_1900.md).
-
-### Royal Panoply
-
-**Veto:** V3; confidence moderate. **Counterfactual:** 34/100; confidence low. **T:** -10. Political rulers and single-nation royal history; one deduction.
-
-The accessible review describes a chronological collection of short royal lives centered on parentage, character and succession. It offers competent portraits, but little sustained explanation of institutional constraints or mechanisms after the personalities are removed. This veto concerns the form and payload of this particular book, not monarchy as a subject. [Kirkus review and first-publication date](https://www.kirkusreviews.com/book-reviews/carolly-erickson/royal-panoply/).
-
-E14 does not presume factual failure. M3/U2/S4/F1 express the lack of sustained mechanisms beyond portraits, succession and personalities. D6/R7/A3/N2/P2 credit competent short biography and durable historical interest. Removing the veto does not create missing strategic content.
-
-[Source 2 analysis](analysis_top3alltime_261017_1900.md).
-
-## Disposition audit
-
-The current list contains 70 unique vetoed books from sources 1–9. The 2026-10-18 rule-2 review transferred three former vetoes to [EXCLUDED_BOOKS.md](EXCLUDED_BOOKS.md) and removed their current counterfactual entries. Each remaining veto retains all contributing sources and its full counterfactual vector. The three current book lists are mutually exclusive. Prior source analyses remain history. [Exclusion audit](analysis_exclusions_261018_0045.md).
-
-
-
-### Did Ye Hear Mammy Died?
-
-**Veto:** V3; confidence moderate. **Counterfactual:** 46/100; confidence low. **T:** 0 (none). **Sources:** 3.
-
-The principal value is a distinctive family voice, remembered grief and comic observation. After the family and childhood particulars are removed, too little explicit method or generalizable mechanism remains for this request. V3 has moderate confidence. Do not add a disease or single-nation-history deduction merely for bereavement or a memoir's location.
-
-[Scope / bibliographic evidence](https://www.hachettebookgroup.com/titles/seamas-oreilly/did-ye-hear-mammy-died/9780316424264/?lens=little-brown-paperbacks) · [Paperback record: 9780708899236](https://www.hachette.co.uk/titles/seamas-oreilly/did-ye-hear-mammy-died/9780708899236/).
-
-[Source 3 analysis](analysis_obscurebooks_261017_1936.md).
-
-### Born to Run
-
-**Veto:** V1; confidence moderate. **Counterfactual:** 42/100; confidence low. **T:** 0 (none; sport lowers fit but is not a listed deduction). **Sources:** 3.
-
-A primary anthropological study directly challenges the picture of naturally effortless, exceptionally healthy Tarahumara runners and identifies false claims in the book. That picture supplies a central causal promise, so V1 applies at moderate confidence. The race story and some physiology remain in the counterfactual score; no invented sport deduction is added.
-
-[Scope / bibliographic evidence](https://www.penguinrandomhouse.com/books/111281/born-to-run-by-christopher-mcdougall/) · [Paperback record: 9780307279187](https://www.penguinrandomhouse.com/books/111281/born-to-run-by-christopher-mcdougall/) · [Lieberman et al. (2020), Current Anthropology](https://www.journals.uchicago.edu/doi/10.1086/708810).
-
-[Source 3 analysis](analysis_obscurebooks_261017_1936.md).
-
-### A Girl Named Zippy
-
-**Veto:** V3; confidence moderate. **Counterfactual:** 36/100; confidence low. **T:** -10 (US small-town childhood). **Sources:** 3.
-
-The book's value is chiefly remembered childhood, family and comic observation. After local incidents and personalities are removed, the retrieved material offers too little mechanism or reusable method for this request. V3 has moderate confidence. The counterfactual preserves its narrative strengths and applies the US local-life deduction.
-
-[Scope / bibliographic evidence](https://www.penguinrandomhouse.com/books/92611/a-girl-named-zippy-by-haven-kimmel/) · [Paperback record: 9780767915052](https://www.penguinrandomhouse.com/books/92611/a-girl-named-zippy-by-haven-kimmel/).
-
-[Source 3 analysis](analysis_obscurebooks_261017_1936.md).
-
-### But Now I See
-
-**Veto:** V3; confidence moderate. **Counterfactual:** 33/100; confidence low. **T:** -10 (disease and recovery). **Sources:** 3.
-
-The athlete's memoir centers on personal adversity, restored vision and sporting achievement. The retrieved material does not offer enough mechanism or transferable method beyond perseverance, so V3 applies at moderate confidence. It is outside the science/high-tech biography exception. The counterfactual retains access and narrative value, with the disease deduction.
-
-[Scope / bibliographic evidence](https://www.simonandschuster.com/books/But-Now-I-See/Steven-Holcomb/9781939529855) · [Paperback record: 9781939529855](https://www.simonandschuster.com/books/But-Now-I-See/Steven-Holcomb/9781939529855).
-
-[Source 3 analysis](analysis_obscurebooks_261017_1936.md).
-
-### The Mole People
-
-**Veto:** V1; confidence moderate. **Counterfactual:** 29/100; confidence low. **T:** -10 (US urban homelessness). **Sources:** 3.
-
-Brennan's location-by-location checks identify serious errors in places presented as observed, undermining the central claim to reliable underground reporting. V1 has moderate confidence: tunnel errors do not prove that every person's story is invented. Some social observations and narrative value remain in the counterfactual score, with T for US urban issues.
-
-[Scope / bibliographic evidence](https://en.wikipedia.org/wiki/The_Mole_People_%28book%29) · Paperback edition: unverified. · [Brennan's detailed location audit](https://www.columbia.edu/~brennan/abandoned/mole-people.html).
-
-[Source 3 analysis](analysis_obscurebooks_261017_1936.md).
-
-### Science at the Crossroads
-
-**Veto:** V1; confidence high. **Counterfactual:** 24/100; confidence low. **T:** 0 (none). **Sources:** 3.
-
-The claimed contradiction in special relativity compares clock rates defined with different simultaneity conventions and event pairs. It does not invalidate the Lorentz transformations. Because that error is central to the book's case, V1 has high confidence. Technical subject matter earns some F, but author credentials do not rescue E/M/U or precision.
-
-[Scope / bibliographic evidence](https://www.ilglifo.it/pubblicazioni/Dingle_Science_at_the_Crossroads_Anteprima.pdf) · Paperback edition: unverified. · [Lambare (2026), preprint; central reciprocity error](https://arxiv.org/abs/2605.00057) · [Historical study of the dispute](https://www.sciencedirect.com/science/article/abs/pii/S1355219810000663).
-
-[Source 3 analysis](analysis_obscurebooks_261017_1936.md).
+| 2026-10-20 | 2001 | Jim Collins | [Good To Great](analysis/analysis_vetogates_261021_0047.md#g0154) | **49.92** | V1 | moderate | 115, 149 |
+| 2026-10-20 | 2000 | Stephen Ambrose | [Nothing Like It in the World](analysis/analysis_vetogates_261021_0047.md#nc7d6716583) | **44.66** | V1 | moderate | 141, 143 |
+| 2026-10-20 | 2012 | Ray Kurzweil | [How to Create a Mind](analysis/analysis_vetogates_261021_0047.md#nc91dae0186) | **42.87** | V1; V4 | moderate | 135 |
+| 2026-10-19 | 2020 | Peter H. Diamandis; Steven Kotler | [The Future Is Faster Than You Think](analysis/analysis_vetogates_261021_0047.md#g0402) | **41.17** | V4 | moderate | 116 |
+| 2026-10-17 | 2014 | Annie Jacobsen | [Operation Paperclip](analysis/analysis_vetogates_261021_0047.md#q1004) | **37.67** | V1 | moderate | 4, 5, 139 |
+| 2026-10-19 | 1910 | Norman Angell | [The Great Illusion](analysis/analysis_vetogates_261021_0047.md#g1303) | **37.34** | V1 | moderate | 126 |
+| 2026-10-17 | 2022 | Peter Zeihan | [The End of the World Is Just the Beginning](analysis/analysis_vetogates_261021_0047.md#q1015) | **37.16** | V4 | moderate | 8, 9, 132 |
+| 2026-10-20 | 2023 | Will Hermes | [Lou Reed: The King of New York](analysis/analysis_vetogates_261021_0047.md#ndf6ff2456c) | **36.84** | V3 | moderate | 132 |
+| 2026-10-19 | 2009 | Andre Agassi | [Open](analysis/analysis_vetogates_261021_0047.md#g0020) | **36.67** | V3 | moderate | 114, 148 |
+| 2026-10-19 | 2001 | Hans-Hermann Hoppe | [Democracy: The God That Failed](analysis/analysis_vetogates_261021_0047.md#g0716) | **36.62** | V5 | high | 119 |
+| 2026-10-17 | 2007 | Tim Weiner | [Legacy of Ashes](analysis/analysis_vetogates_261021_0047.md#q1009) | **36.17** | V1 | moderate | 5 |
+| 2026-10-17 | 2021 | Séamas O'Reilly | [Did Ye Hear Mammy Died?](analysis/analysis_vetogates_261021_0047.md#q1057) | **35.89** | V3 | moderate | 3 |
+| 2026-10-17 | 2009 | Iain McGilchrist | [The Master and His Emissary](analysis/analysis_vetogates_261021_0047.md#q1016) | **35.02** | V1 | moderate | 2, 8, 144 |
+| 2026-10-20 | 2023 | Michael Lewis | [Going Infinite: The Rise and Fall of a New Tycoon](analysis/analysis_vetogates_261021_0047.md#n6c8b42af06) | **33.56** | V1 | moderate | 128 |
+| 2026-10-17 | 2010 | Christopher Ryan; Cacilda Jethá | [Sex at Dawn](analysis/analysis_vetogates_261021_0047.md#q1058) | **33.35** | V1 | moderate | 6, 132 |
+| 2026-10-20 | 2022 | Katherine Rundell | [Super-Infinite](analysis/analysis_vetogates_261021_0047.md#n00fa6f411e) | **32.83** | V3 | moderate | 132 |
+| 2026-10-20 | 2012 | Scott Jurek; Steve Friedman | [Eat & Run](analysis/analysis_vetogates_261021_0047.md#n2044af222d) | **32.38** | V3 | moderate | 132 |
+| 2026-10-19 | 2014 | Steven Kotler | [The Rise of Superman](analysis/analysis_vetogates_261021_0047.md#g0669) | **32.21** | V4 | moderate | 118, 162 |
+| 2026-10-17 | 1978 | Albert Camus | [Travels in the Americas](analysis/analysis_vetogates_261021_0047.md#q1053) | **31.45** | V3 | moderate | 8 |
+| 2026-10-20 | 1986 | Patrick Leigh Fermor | [Between the Woods and the Water](analysis/analysis_vetogates_261021_0047.md#n00c6e6fe81) | **31.38** | V3 | moderate | 135 |
+| 2026-10-20 | 2011 | Annie Jacobsen | [Area 51: An Uncensored History of America's Top Secret Military Base](analysis/analysis_vetogates_261021_0047.md#nc758fbb344) | **30.84** | V1 | moderate | 139 |
+| 2026-10-17 | 1848 | Karl Marx; Friedrich Engels | [The Communist Manifesto](analysis/analysis_vetogates_261021_0047.md#q1005) | **30.75** | V1; V5 | moderate | 2, 5 |
+| 2026-10-19 | 2019 | Axel Vervoordt | [Portraits of Interiors](analysis/analysis_vetogates_261021_0047.md#g1275) | **30.64** | V3 | moderate | 125 |
+| 2026-10-17 | 2020 | Brian C. Muraresku | [The Immortality Key](analysis/analysis_vetogates_261021_0047.md#q1074) | **30.54** | V1 | moderate | 8 |
+| 2026-10-20 | 1996 | James McBride | [The Color of Water](analysis/analysis_vetogates_261021_0047.md#n83f907156f) | **30.46** | V3 | moderate | 132 |
+| 2026-10-20 | 2013 | Patrick Leigh Fermor | [The Broken Road](analysis/analysis_vetogates_261021_0047.md#need2181c15) | **30.39** | V3 | moderate | 135 |
+| 2026-10-21 | 2008 | Pete Sampras with Peter Bodo | [A Champion's Mind](analysis/analysis_bgbillgates_261021_0210.md#bgef288074cb) | **29.98** | V3 | moderate | 148 |
+| 2026-10-17 | 150 | Multiple ancient authors | [The Bible](analysis/analysis_vetogates_261021_0047.md#q1046) | **29.97** | V5 | moderate | 6, 8 |
+| 2026-10-20 | 2023 | Michio Kaku | [Quantum Supremacy](analysis/analysis_vetogates_261021_0047.md#n298e5c0ab7) | **29.83** | V1; V4 | moderate | 139 |
+| 2026-10-20 | 1970 | Isaac Asimov | [Asimov’s Guide to Shakespeare](analysis/analysis_vetogates_261021_0047.md#nc168b938b7) | **29.67** | V3 | moderate | 135 |
+| 2026-10-20 | 1977 | Patrick Leigh Fermor | [A Time of Gifts](analysis/analysis_vetogates_261021_0047.md#n400d8c6d93) | **29.60** | V3 | moderate | 135 |
+| 2026-10-17 | 2021 | Iain McGilchrist | [The Matter with Things](analysis/analysis_vetogates_261021_0047.md#q1047) | **29.30** | V1 | moderate | 8 |
+| 2026-10-17 | 2014 | Bessel van der Kolk | [The Body Keeps the Score](analysis/analysis_vetogates_261021_0047.md#q1080) | **28.93** | V1 | moderate | 4, 6, 7, 8, 143 |
+| 2026-10-20 | 2003 | David Foster Wallace | [Everything and More: A Compact History of Infinity](analysis/analysis_vetogates_261021_0047.md#n1583471893) | **28.69** | V1 | moderate | 135, 140 |
+| 2026-10-17 | 2011 | Stephen Greenblatt | [The Swerve](analysis/analysis_vetogates_261021_0047.md#q1034) | **28.58** | V1 | moderate | 2, 7 |
+| 2026-10-21 | 1941 | James Burnham | [The Managerial Revolution](analysis/analysis_bgmarcandree_261021_0210.md#bgf32c34d084) | **28.47** | V1 | moderate | 162 |
+| 2026-10-20 | 2022 | Harvey Fierstein | [I Was Better Last Night](analysis/analysis_vetogates_261021_0047.md#nc2cbcb068f) | **28.42** | V3 | moderate | 132 |
+| 2026-10-20 | 2023 | Britney Spears | [The Woman in Me](analysis/analysis_vetogates_261021_0047.md#nfd0337d156) | **28.13** | V3 | moderate | 132 |
+| 2026-10-19 | 2017 | Thi Bui | [The Best We Could Do](analysis/analysis_vetogates_261021_0047.md#g1300) | **27.88** | V3 | moderate | 126, 148 |
+| 2026-10-20 | 2019 | Brian Toohey | [Secret: The Making of Australia's Security State](analysis/analysis_vetogates_261021_0047.md#nf36ec9efbe) | **27.72** | V1 | moderate | 141 |
+| 2026-10-17 | 1985 | Oliver Sacks | [The Man Who Mistook His Wife for a Hat](analysis/analysis_vetogates_261021_0047.md#q1075) | **27.35** | V1 | moderate | 6 |
+| 2026-10-17 | 2023 | John Trent | [Second Sunrise](analysis/analysis_vetogates_261021_0047.md#q1091) | **27.16** | V3 | moderate | 4 |
+| 2026-10-20 | 2021 | Billy Porter | [Unprotected](analysis/analysis_vetogates_261021_0047.md#na80c1dd0b2) | **26.93** | V3 | moderate | 132 |
+| 2026-10-20 | 2023 | Elliot Page | [Pageboy](analysis/analysis_vetogates_261021_0047.md#n1d712210cc) | **26.63** | V3 | moderate | 132 |
+| 2026-10-17 | 2009 | Christopher McDougall | [Born to Run](analysis/analysis_vetogates_261021_0047.md#q1073) | **26.42** | V1 | moderate | 3 |
+| 2026-10-17 | 2017 | Matthew Walker | [Why We Sleep](analysis/analysis_vetogates_261021_0047.md#q1088) | **26.05** | V1 | moderate | 8, 132, 148 |
+| 2026-10-17 | 1947 | Anne Frank | [The Diary of a Young Girl](analysis/analysis_vetogates_261021_0047.md#q0879) | **25.94** | V3 | moderate | 8, 132 |
+| 2026-10-20 | 2015 | Patrick Taylor | [Lost on Purpose: The Adventures of a 21st Century Mountain Man](analysis/analysis_vetogates_261021_0047.md#nb75ecb1bfa) | **25.27** | V3 | low | 143 |
+| 2026-10-17 | 2015 | David Talbot | [The Devil's Chessboard](analysis/analysis_vetogates_261021_0047.md#q1052) | **25.24** | V1 | moderate | 2, 4 |
+| 2026-10-17 | 2005 | Carole Radziwill | [What Remains](analysis/analysis_vetogates_261021_0047.md#q1101) | **25.23** | V3 | moderate | 4 |
+| 2026-10-19 | 2021 | Sean McMeekin | [Stalin's War](analysis/analysis_vetogates_261021_0047.md#g1298) | **24.43** | V1; V2 | moderate | 126, 167 |
+| 2026-10-20 | 2017 | Cat Marnell | [How to Murder Your Life](analysis/analysis_vetogates_261021_0047.md#n9e8aa13554) | **24.37** | V3 | moderate | 132 |
+| 2026-10-17 | 1998 | Leonard Shlain | [The Alphabet Versus the Goddess](analysis/analysis_vetogates_261021_0047.md#q1100) | **24.36** | V1 | moderate | 7 |
+| 2026-10-17 | 2006 | Greg Mortenson; David Oliver Relin | [Three Cups of Tea](analysis/analysis_vetogates_261021_0047.md#q1093) | **24.35** | V1 | high | 6 |
+| 2026-10-20 | 1998 | Thich Nhat Hanh | [The Heart of the Buddha's Teaching](analysis/analysis_vetogates_261021_0047.md#n07829fa11f) | **24.18** | V5 | high | 144 |
+| 2026-10-17 | -299 | Traditionally Laozi | [Tao Te Ching](analysis/analysis_vetogates_261021_0047.md#q1029) | **24.13** | V5 | moderate | 2, 130, 173 |
+| 2026-10-17 | 2023 | Bob Crowley; Hal V. Hall; Tim Twietmeyer | [The Places We Run](analysis/analysis_vetogates_261021_0047.md#q1107) | **24.11** | V3 | moderate | 4 |
+| 2026-10-17 | 2017 | John Hodgman | [Vacationland](analysis/analysis_vetogates_261021_0047.md#q1108) | **23.98** | V3 | moderate | 6 |
+| 2026-10-19 | 2010 | Angus Cook; Matthew Barney; Elizabeth Peyton | [Matthew Barney & Elizabeth Peyton: Blood of Two](analysis/analysis_vetogates_261021_0047.md#g1274) | **23.65** | V3 | moderate | 125 |
+| 2026-10-20 | 2022 | Selma Blair | [Mean Baby](analysis/analysis_vetogates_261021_0047.md#nf5ac85a6d8) | **23.62** | V3 | moderate | 132 |
+| 2026-10-17 | 2008 | Nicholson Baker | [Human Smoke](analysis/analysis_vetogates_261021_0047.md#q1051) | **23.54** | V1 | moderate | 5 |
+| 2026-10-20 | 2023 | Hadley Vlahos | [The In-Between](analysis/analysis_vetogates_261021_0047.md#n22eb055506) | **23.47** | V3 | moderate | 145 |
+| 2026-10-19 | 1997 | Rick Bragg | [All Over but the Shoutin'](analysis/analysis_vetogates_261021_0047.md#g0036) | **23.11** | V3 | moderate | 114 |
+| 2026-10-17 | 2001 | Haven Kimmel | [A Girl Named Zippy](analysis/analysis_vetogates_261021_0047.md#q1097) | **23.09** | V3 | moderate | 3 |
+| 2026-10-19 | 2002 | Ben Mezrich | [Bringing Down The House](analysis/analysis_vetogates_261021_0047.md#g0506) | **22.75** | V1 | moderate | 117 |
+| 2026-10-17 | 1994 | Richard Preston | [The Hot Zone](analysis/analysis_vetogates_261021_0047.md#q1087) | **22.61** | V1 | moderate | 2, 3, 4, 143 |
+| 2026-10-19 | 1977 | Bruce Chatwin | [In Patagonia](analysis/analysis_vetogates_261021_0047.md#g1047) | **22.60** | V3 | moderate | 122 |
+| 2026-10-17 | 1999 | Gabor Maté | [Scattered Minds](analysis/analysis_vetogates_261021_0047.md#q1099) | **22.54** | V1 | moderate | 4 |
+| 2026-10-17 | 1973 | Chögyam Trungpa | [Cutting Through Spiritual Materialism](analysis/analysis_vetogates_261021_0047.md#q1055) | **21.90** | V5 | moderate | 4, 153 |
+| 2026-10-17 | 1992 | Joseph Mitchell | [Up in the Old Hotel](analysis/analysis_vetogates_261021_0047.md#q1094) | **21.88** | V3 | moderate | 8 |
+| 2026-10-17 | 2012 | Steven Holcomb; Steve Eubanks | [But Now I See](analysis/analysis_vetogates_261021_0047.md#q1109) | **21.84** | V3 | moderate | 3 |
+| 2026-10-17 | 1992 | Terence McKenna | [Food of the Gods](analysis/analysis_vetogates_261021_0047.md#q1104) | **21.83** | V1 | moderate | 2, 122 |
+| 2026-10-20 | 1998 | Travis Roy; E. M. Swift | [Eleven Seconds](analysis/analysis_vetogates_261021_0047.md#n300d2c4171) | **21.38** | V3 | moderate | 143 |
+| 2026-10-20 | 2010 | Henri J. M. Nouwen | [Spiritual Formation](analysis/analysis_vetogates_261021_0047.md#n71f5038224) | **21.17** | V5 | high | 132 |
+| 2026-10-20 | 2023 | Paris Hilton | [Paris: The Memoir](analysis/analysis_vetogates_261021_0047.md#n3e1a9a8e6e) | **21.12** | V3 | moderate | 132 |
+| 2026-10-20 | 2021 | Sophie Ellis-Bextor | [Spinning Plates](analysis/analysis_vetogates_261021_0047.md#n057517a2a7) | **21.02** | V3 | moderate | 132 |
+| 2026-10-19 | 2002 | Mahatma Gandhi; John Dear (editor) | [Mohandas Gandhi: Essential Writings](analysis/analysis_vetogates_261021_0047.md#g0967) | **20.58** | V5 | moderate | 121 |
+| 2026-10-17 | 2021 | Michelle Zauner | [Crying in H Mart](analysis/analysis_vetogates_261021_0047.md#q1084) | **20.56** | V3 | moderate | 4 |
+| 2026-10-20 | 1970 | Shunryu Suzuki | [Zen Mind, Beginners Mind](analysis/analysis_vetogates_261021_0047.md#g0929) | **20.42** | V5 | high | 121, 153 |
+| 2026-10-17 | 2015 | Norman Ohler | [Blitzed](analysis/analysis_vetogates_261021_0047.md#q1063) | **20.04** | V1 | moderate | 2, 6, 162 |
+| 2026-10-17 | 2010 | Gary Taubes | [Why We Get Fat](analysis/analysis_vetogates_261021_0047.md#q1110) | **19.99** | V1 | moderate | 8, 168 |
+| 2026-10-20 | 2021 | James Whiteside | [Center Center](analysis/analysis_vetogates_261021_0047.md#n6be813ad2b) | **19.77** | V3 | moderate | 132 |
+| 2026-10-20 | 2014 | Bruce Pascoe | [Dark Emu](analysis/analysis_vetogates_261021_0047.md#neb36c15307) | **19.61** | V1 | moderate | 141 |
+| 2026-10-21 | 2021 | Roger Garside | [China Coup](analysis/analysis_bgbalajisrin_261021_0210.md#bga0071a132f) | **19.57** | V4 | high | 167 |
+| 2026-10-20 | -250 | Qoheleth (anonymous ancient author) | [Ecclesiastes](analysis/analysis_vetogates_261021_0047.md#nbf3cf4826a) | **19.57** | V5 | moderate | 135 |
+| 2026-10-20 | 2022 | Matthew Perry | [Friends, Lovers, and the Big Terrible Thing](analysis/analysis_vetogates_261021_0047.md#nee1fdd71da) | **19.37** | V3 | moderate | 132 |
+| 2026-10-17 | 1969 | Henri Charrière | [Papillon](analysis/analysis_vetogates_261021_0047.md#q1086) | **19.35** | V1 | moderate | 6 |
+| 2026-10-20 | 2023 | Julia Fox | [Down the Drain](analysis/analysis_vetogates_261021_0047.md#n108ec51230) | **19.28** | V3 | moderate | 132 |
+| 2026-10-20 | 1984 | John Berger | [And Our Faces, My Heart, Brief as Photos](analysis/analysis_vetogates_261021_0047.md#naf9acccd63) | **19.22** | V3 | moderate | 132 |
+| 2026-10-17 | 1960 | William L. Shirer | [The Rise and Fall of the Third Reich](analysis/analysis_vetogates_261021_0047.md#q1048) | **19.01** | V1 | moderate | 1, 2, 5, 6, 132 |
+| 2026-10-17 | 2007 | David Talbot (probable identification) | [Brothers](analysis/analysis_vetogates_261021_0047.md#q1070) | **18.68** | V1 | moderate | 4 |
+| 2026-10-17 | 1960 | John Graves | [Goodbye to a River](analysis/analysis_vetogates_261021_0047.md#q1090) | **18.50** | V3 | moderate | 8 |
+| 2026-10-21 | 2015 | Peter Wohlleben | [The Hidden Life of Trees](analysis/analysis_bgblasmoros_261021_0210.md#bgab0ba11a72) | **18.37** | V1 | moderate | 173 |
+| 2026-10-21 | 1976 | Antony C. Sutton | [Wall Street and the Rise of Hitler](analysis/analysis_bgbalajisrin_261021_0210.md#bgb6df17e31a) | **17.99** | V1 | moderate | 167 |
+| 2026-10-17 | 2014 | Edward E. Baptist | [The Half Has Never Been Told](analysis/analysis_vetogates_261021_0047.md#q1066) | **17.77** | V1 | high | 5 |
+| 2026-10-17 | 2011 | S. Nassir Ghaemi | [A First-Rate Madness](analysis/analysis_vetogates_261021_0047.md#q1083) | **17.74** | V1 | moderate | 4 |
+| 2026-10-21 | 1969 | Chögyam Trungpa | [Meditation in Action](analysis/analysis_bgstevejobs_261021_0210.md#bg67806b87bb) | **17.69** | V5 | high | 153 |
+| 2026-10-21 | 1991 | Anthony De Mello | [The Way to Love](analysis/analysis_bgjustinkan_261021_0210.md#bg1bf6621e11) | **17.63** | V5 | high | 158 |
+| 2026-10-20 | 1966 | Lawrence S. Ritter | [The Glory of Their Times](analysis/analysis_vetogates_261021_0047.md#n56a988fd25) | **17.53** | V3 | moderate | 135 |
+| 2026-10-17 | 1953 | Shirley Jackson | [Life Among the Savages](analysis/analysis_vetogates_261021_0047.md#q1098) | **17.45** | V3 | moderate | 6 |
+| 2026-10-20 | 2020 | Benjamin Bikman | [Why We Get Sick](analysis/analysis_vetogates_261021_0047.md#nb5b5cbaa5e) | **17.32** | V1 | moderate | 132 |
+| 2026-10-17 | 1918 | Oswald Spengler | [The Decline of the West](analysis/analysis_vetogates_261021_0047.md#q1059) | **17.20** | V1 | moderate | 7 |
+| 2026-10-17 | 1992 | William Manchester | [A World Lit Only by Fire](analysis/analysis_vetogates_261021_0047.md#q1072) | **16.78** | V1 | moderate | 2 |
+| 2026-10-17 | 2005 | Bruce H. Lipton | [The Biology of Belief](analysis/analysis_vetogates_261021_0047.md#q1126) | **16.74** | V1 | moderate | 6 |
+| 2026-10-19 | 2016 | Zach Anner | [If At Birth You Don't Succeed](analysis/analysis_vetogates_261021_0047.md#g0073) | **16.09** | V3 | moderate | 114 |
+| 2026-10-17 | 1999 | Martha Beck | [Expecting Adam](analysis/analysis_vetogates_261021_0047.md#q1124) | **15.91** | V5 | moderate | 5 |
+| 2026-10-19 | 2015 | Cheryl Strayed | [Brave Enough](analysis/analysis_vetogates_261021_0047.md#g0049) | **15.49** | V3 | moderate | 114 |
+| 2026-10-21 | 1974 | Antony C. Sutton | [Wall Street and the Bolshevik Revolution](analysis/analysis_bgbalajisrin_261021_0210.md#bgb91b2c2d62) | **15.29** | V1 | moderate | 167 |
+| 2026-10-17 | 1956 | Sławomir Rawicz; Ronald Downing | [The Long Walk](analysis/analysis_vetogates_261021_0047.md#q1106) | **15.23** | V1 | high | 6 |
+| 2026-10-20 | 2015 | Jenny Lawson | [Furiously Happy: A Funny Book About Horrible Things](analysis/analysis_vetogates_261021_0047.md#nf9c8eb6d82) | **15.14** | V3 | moderate | 135 |
+| 2026-10-20 | 1999 | David Keys | [Catastrophe: An Investigation into the Origins of the Modern World](analysis/analysis_vetogates_261021_0047.md#n7f242a07e2) | **15.12** | V1 | moderate | 141 |
+| 2026-10-19 | 2018 | Michelle Obama | [Becoming](analysis/analysis_vetogates_261021_0047.md#g0040) | **14.91** | V3 | moderate | 114 |
+| 2026-10-17 | 1993 | Jennifer Toth | [The Mole People](analysis/analysis_vetogates_261021_0047.md#q1122) | **14.67** | V1 | moderate | 3 |
+| 2026-10-19 | 2003 | Laurence Shames; Peter Barton | [Not Fade Away](analysis/analysis_vetogates_261021_0047.md#g0097) | **14.56** | V3 | moderate | 114 |
+| 2026-10-19 | 2005 | Jung Chang; Jon Halliday | [Mao: The Unknown Story](analysis/analysis_vetogates_261021_0047.md#g0733) | **13.98** | V1 | moderate | 119 |
+| 2026-10-19 | 2020 | Matthew McConaughey | [Greenlights](analysis/analysis_vetogates_261021_0047.md#g0066) | **13.60** | V3 | moderate | 114, 132 |
+| 2026-10-17 | 1995 | Dave Pelzer | [A Child Called It](analysis/analysis_vetogates_261021_0047.md#q1119) | **13.57** | V3 | moderate | 5 |
+| 2026-10-17 | 2008 | Carrie Fisher | [Wishful Drinking](analysis/analysis_vetogates_261021_0047.md#q1103) | **13.32** | V3 | moderate | 4 |
+| 2026-10-20 | 1997 | Don Miguel Ruiz | [The Four Agreements](analysis/analysis_vetogates_261021_0047.md#g0919) | **13.12** | V5 | moderate | 121, 173 |
+| 2026-10-19 | 2017 | Gucci Mane; Neil Martinez-Belkin | [The Autobiography of Gucci Mane](analysis/analysis_vetogates_261021_0047.md#g0116) | **13.12** | V3 | moderate | 114 |
+| 2026-10-19 | 2010 | Stephen Fry | [The Fry Chronicles](analysis/analysis_vetogates_261021_0047.md#g0119) | **12.91** | V3 | moderate | 114 |
+| 2026-10-17 | 2018 | David Michael Rice | [Desert Soliloquy](analysis/analysis_vetogates_261021_0047.md#q1129) | **12.88** | V3 | moderate | 4 |
+| 2026-10-19 | 1995 | Graham Hancock | [Fingerprints of the Gods](analysis/analysis_vetogates_261021_0047.md#g1038) | **12.87** | V1 | moderate | 122 |
+| 2026-10-19 | 2018 | Stan Smith | [Stan Smith: Some People Think I’m a Shoe](analysis/analysis_vetogates_261021_0047.md#g0299) | **12.84** | V3 | moderate | 115 |
+| 2026-10-19 | 2017 | Eddie Izzard | [Believe Me](analysis/analysis_vetogates_261021_0047.md#g0042) | **12.76** | V3 | moderate | 114, 148 |
+| 2026-10-21 | 2013 | Jim Gaffigan | [Dad Is Fat](analysis/analysis_bgbillgates_261021_0210.md#bg59d68af938) | **12.53** | V3 | moderate | 148 |
+| 2026-10-17 | 2006 | Carolly Erickson | [Royal Panoply](analysis/analysis_vetogates_261021_0047.md#q1105) | **12.41** | V3 | moderate | 2 |
+| 2026-10-21 | -250 | Anonymous Buddhist compilers; translated by Eknath Easwaran | [The Dhammapada](analysis/analysis_bgstevejobs_261021_0210.md#bg8007edf6c2) | **12.23** | V5 | high | 153 |
+| 2026-10-17 | 1972 | Herbert Dingle | [Science at the Crossroads](analysis/analysis_vetogates_261021_0047.md#q1130) | **12.18** | V1 | high | 3 |
+| 2026-10-19 | 2012 | Peter Schiff | [The Real Crash](analysis/analysis_vetogates_261021_0047.md#g0898) | **12.17** | V4 | moderate | 120 |
+| 2026-10-17 | 2013 | Brad Willis (Bhava Ram) | [Warrior Pose](analysis/analysis_vetogates_261021_0047.md#q1132) | **11.16** | V1 | moderate | 7 |
+| 2026-10-17 | 1971 | Ayn Rand; Peter Schwartz (expanded edition) | [The New Left / The Return of the Primitive](analysis/analysis_vetogates_261021_0047.md#q1092) | **10.74** | V2 | moderate | 5 |
+| 2026-10-17 | 100 | Multiple ancient authors (1 Enoch assumed) | [The Book of Enoch](analysis/analysis_vetogates_261021_0047.md#q1121) | **10.58** | V5 | moderate | 6 |
+| 2026-10-17 | 1998 | Farley Mowat | [The Farfarers](analysis/analysis_vetogates_261021_0047.md#q1102) | **10.43** | V1 | moderate | 8 |
+| 2026-10-19 | 1962 | John Steinbeck | [Travels with Charley](analysis/analysis_vetogates_261021_0047.md#g0013) | **10.23** | V3 | moderate | 114 |
+| 2026-10-17 | 1946 | Paramahansa Yogananda | [Autobiography of a Yogi](analysis/analysis_vetogates_261021_0047.md#q1120) | **9.89** | V5 | moderate | 4, 7, 114, 153 |
+| 2026-10-21 | 1999 | Arthur Herman | [Joseph McCarthy](analysis/analysis_bgmarcandree_261021_0210.md#bg18fb64ebd8) | **9.32** | V1; V2 | moderate | 162 |
+| 2026-10-17 | 2004 | Adyashanti | [Emptiness Dancing](analysis/analysis_vetogates_261021_0047.md#q1118) | **8.95** | V5 | moderate | 2 |
+| 2026-10-17 | 1997 | Eckhart Tolle | [The Power of Now](analysis/analysis_vetogates_261021_0047.md#q1117) | **8.29** | V5 | high | 6, 158 |
+| 2026-10-19 | 2011 | Adyashanti | [Falling into Grace](analysis/analysis_vetogates_261021_0047.md#g0941) | **8.19** | V5 | moderate | 121 |
+| 2026-10-19 | 1997 | Stephen Fry | [Moab Is My Washpot](analysis/analysis_vetogates_261021_0047.md#g0088) | **8.05** | V3 | moderate | 114 |
+| 2026-10-17 | 2009 | Ozzy Osbourne; Chris Ayres | [I Am Ozzy](analysis/analysis_vetogates_261021_0047.md#q1116) | **7.56** | V3 | moderate | 6 |
+| 2026-10-17 | 2004 | Anthony Kiedis; Larry Sloman | [Scar Tissue](analysis/analysis_vetogates_261021_0047.md#q1111) | **7.47** | V3 | moderate | 4 |
+| 2026-10-17 | 2007 | Nikki Sixx; Ian Gittins | [The Heroin Diaries](analysis/analysis_vetogates_261021_0047.md#q1112) | **7.23** | V3 | moderate | 6 |
+| 2026-10-17 | 2005 | Eckhart Tolle | [A New Earth](analysis/analysis_vetogates_261021_0047.md#q1123) | **7.19** | V5 | moderate | 4 |
+| 2026-10-19 | 2007 | Marcus Luttrell; Patrick Robinson | [Lone Survivor](analysis/analysis_vetogates_261021_0047.md#g1284) | **6.78** | V1 | moderate | 126, 152, 162 |
+| 2026-10-20 | 2010 | Oliver Benjamin; The Church of the Latter-Day Dude | [The Dude De Ching](analysis/analysis_vetogates_261021_0047.md#n264eee6abf) | **6.63** | V5 | high | 130 |
+| 2026-10-19 | 2013 | Osho | [The Art of Living and Dying](analysis/analysis_vetogates_261021_0047.md#g0962) | **6.54** | V5 | moderate | 121 |
+| 2026-10-20 | 350 | Various ancient authors; King James translators | [The Holy Bible (King James Version)](analysis/analysis_vetogates_261021_0047.md#nb7f45a5548) | **6.46** | V5 | high | 135 |
+| 2026-10-20 | 857 | Huang Po; P’ei Hsiu (compiler); John Blofeld (translator) | [The Zen Teaching of Huang Po](analysis/analysis_vetogates_261021_0047.md#n0c5b1aa9d6) | **5.63** | V5 | high | 130 |
+| 2026-10-20 | 1975 | Georges Perec | [An Attempt at Exhausting a Place in Paris](analysis/analysis_vetogates_261021_0047.md#naee6ed9298) | **5.46** | V3 | moderate | 132 |
+| 2026-10-19 | 2020 | Madeleine Westerhout | [Off The Record](analysis/analysis_vetogates_261021_0047.md#g0741) | **5.29** | V3 | moderate | 119 |
+| 2026-10-19 | 2013 | Anjelica Huston | [A Story Lately Told](analysis/analysis_vetogates_261021_0047.md#g0033) | **4.92** | V3 | moderate | 114 |
+| 2026-10-19 | 2004 | Jed McKenna | [Spiritually Incorrect Enlightenment](analysis/analysis_vetogates_261021_0047.md#g0957) | **4.62** | V5 | moderate | 121 |
+| 2026-10-21 | 1971 | Ram Dass | [Be Here Now](analysis/analysis_bgstevejobs_261021_0210.md#bg2dae4c82d8) | **4.43** | V5 | moderate | 153 |
+| 2026-10-19 | 2007 | Jed McKenna | [Spiritual Warfare](analysis/analysis_vetogates_261021_0047.md#g0956) | **4.39** | V5 | moderate | 121 |
+| 2026-10-21 | 1972 | Thaddeus Golas | [Lazy Man's Guide to Enlightenment](analysis/analysis_bgstevejobs_261021_0210.md#bg4ea98dc691) | **4.28** | V5 | moderate | 153 |
+| 2026-10-17 | 2007 | Charles Eisenstein | [The Ascent of Humanity](analysis/analysis_vetogates_261021_0047.md#q1127) | **4.27** | V1 | moderate | 9 |
+| 2026-10-21 | 2001 | don Miguel Ruiz and Janet Mills | [The Circle of Fire](analysis/analysis_bgblasmoros_261021_0210.md#bg0e7efb521b) | **4.14** | V5 | high | 173 |
+| 2026-10-20 | 1973 | Nisargadatta Maharaj | [I Am That](analysis/analysis_vetogates_261021_0047.md#ndc7acfe5cb) | **3.94** | V5 | moderate | 132 |
+| 2026-10-19 | 2002 | Jed McKenna | [Spiritual Enlightenment, the Damnedest Thing](analysis/analysis_vetogates_261021_0047.md#g0925) | **3.89** | V5 | moderate | 121 |
+| 2026-10-19 | 1980 | Osho | [Sun Rises in the Evening](analysis/analysis_vetogates_261021_0047.md#g0959) | **3.77** | V5 | moderate | 121 |
+| 2026-10-19 | 1987 | Donald J. Trump; Tony Schwartz | [Trump: The Art of the Deal](analysis/analysis_vetogates_261021_0047.md#g0350) | **3.75** | V1 | moderate | 115 |
+| 2026-10-19 | 1982 | Osho | [The Great Challenge](analysis/analysis_vetogates_261021_0047.md#g0969) | **3.44** | V5 | high | 121 |
+| 2026-10-19 | 2016 | Jed McKenna | [Dreamstate](analysis/analysis_vetogates_261021_0047.md#g0938) | **2.67** | V5 | moderate | 121 |
+| 2026-10-20 | 1975 | Andy Warhol | [The Philosophy of Andy Warhol](analysis/analysis_vetogates_261021_0047.md#n95cc0004bf) | **1.67** | V3 | moderate | 135 |
+| 2026-10-20 | 1963 | Barbara Payton | [I Am Not Ashamed](analysis/analysis_vetogates_261021_0047.md#n776dae28e5) | **1.66** | V3 | moderate | 132 |
+| 2026-10-21 | 2013 | William J. Birnes | [UFO Hunters: Book One](analysis/analysis_bgbalajisrin_261021_0210.md#bgf76d4a1d05) | **1.10** | V1 | moderate | 167 |
+| 2026-10-17 | 2015 | Zecharia Sitchin; Janet Sitchin, editor | [The Anunnaki Chronicles](analysis/analysis_vetogates_261021_0047.md#q1131) | **0.96** | V1 | moderate | 8 |
+| 2026-10-17 | 1985 | Christian O'Brien; Barbara Joy O'Brien | [The Genius of the Few](analysis/analysis_vetogates_261021_0047.md#q1128) | **0.66** | V1 | moderate | 8 |
+| 2026-10-19 | 2020 | Pete Hegseth | [American Crusade](analysis/analysis_vetogates_261021_0047.md#g0703) | **0.32** | V5 | moderate | 119 |
+| 2026-10-21 | 1973 | Paul Williams | [Das Energi](analysis/analysis_bgstevejobs_261021_0210.md#bg8b5117b700) | **-1.07** | V5 | high | 153 |
+| 2026-10-17 | 2004 | David McGowan | [Programmed to Kill](analysis/analysis_vetogates_261021_0047.md#q1133) | **-2.32** | V1 | moderate | 9 |
+| 2026-10-20 | 1937 | Julius Evola | [The Mystery of the Grail](analysis/analysis_vetogates_261021_0047.md#na8a63131c5) | **-2.33** | V5 | moderate | 132 |
+| 2026-10-17 | 1995 | David R. Hawkins | [Power vs. Force](analysis/analysis_vetogates_261021_0047.md#q1136) | **-2.42** | V1; V5 | moderate | 8 |
+| 2026-10-21 | 1901 | Richard Maurice Bucke | [Cosmic Consciousness](analysis/analysis_bgstevejobs_261021_0210.md#bg4084ddbdc3) | **-3.66** | V1; V5 | high | 153 |
+| 2026-10-19 | 2020 | David Horowitz | [Blitz: Trump Will Smash the Left and Win](analysis/analysis_vetogates_261021_0047.md#g0705) | **-4.12** | V4 | moderate | 119 |
+| 2026-10-20 | 1930 | Edith Hamilton | [The Greek Way](analysis/analysis_vetogates_261021_0047.md#nbf6adc7afb) | **-4.74** | V2 | moderate | 141 |
+| 2026-10-17 | 1976 | Zecharia Sitchin | [The 12th Planet](analysis/analysis_vetogates_261021_0047.md#q1134) | **-5.02** | V1 | moderate | 8 |
+| 2026-10-17 | 1976 | Zecharia Sitchin | [The Earth Chronicles](analysis/analysis_vetogates_261021_0047.md#q1135) | **-5.39** | V1 | high | 8 |
+| 2026-10-19 | 2002 | Sarah Mower | [Oscar: The Style, Inspiration and Life of Oscar de la Renta](analysis/analysis_vetogates_261021_0047.md#g0100) | **-6.82** | V3 | moderate | 114 |
+| 2026-10-19 | 1942 | Salvador Dalí | [The Secret Life of Salvador Dalí](analysis/analysis_vetogates_261021_0047.md#g0134) | **-7.22** | V3 | moderate | 114 |
+| 2026-10-19 | 1996 | Logie Bruce-Lockhart | [Stuff and Nonsense](analysis/analysis_vetogates_261021_0047.md#g0111) | **-9.21** | V3 | low | 114 |
+| 2026-10-17 | 1985 | William J. Benson; Martin J. Beckman | [The Law That Never Was](analysis/analysis_vetogates_261021_0047.md#q1137) | **-16.10** | V1 | high | 6 |
+| 2026-10-19 | 1981 | David Lifton | [Best Evidence](analysis/analysis_vetogates_261021_0047.md#g0044) | **-16.43** | V1 | moderate | 114 |
+| 2026-10-17 | 1925 | Adolf Hitler | [Mein Kampf](analysis/analysis_vetogates_261021_0047.md#q1138) | **-16.84** | V1; V2; V5 | high | 8, 132 |
+| 2026-10-21 | 1928 | Edmond Bordeaux Szekely | [The Essene Gospel of Peace](analysis/analysis_bgstevejobs_261021_0210.md#bg7200d9adb3) | **-18.07** | V5 | high | 153 |
+
+## Counterfactual breakdowns and reasons
+
+The following retained assessments are unchanged. Full assessments for new works appear under Books Guru additions below. Source lists include the new provenance.
+
+E/S/D are quadratic; the other positive criteria are linear. Cells show linear attainment → contribution.
+
+| Work | E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Total |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| [Good To Great](analysis/analysis_vetogates_261021_0047.md#g0154) | 9.00 → 4.05 | 12.00 → 8.47 | 10.00 → 10.00 | 6.00 → 6.00 | 7.00 → 4.90 | 7.00 → 7.00 | 4.00 → 4.00 | 4.00 → 4.00 | 3.00 → 3.00 | 1.00 → 1.00 | 0.00 | 0.00 | 0.00 | -2.50 | 0.00 | 49.92 |
+| [Nothing Like It in the World](analysis/analysis_vetogates_261021_0047.md#nc7d6716583) | 8.00 → 3.20 | 13.00 → 9.94 | 9.00 → 9.00 | 6.00 → 6.00 | 7.00 → 4.90 | 7.00 → 7.00 | 7.00 → 7.00 | 2.50 → 2.50 | 3.00 → 3.00 | 1.00 → 1.00 | 0.00 | 0.00 | -6.28 | -2.60 | 0.00 | 44.66 |
+| [How to Create a Mind](analysis/analysis_vetogates_261021_0047.md#nc91dae0186) | 8.00 → 3.20 | 12.00 → 8.47 | 5.00 → 5.00 | 5.00 → 5.00 | 6.00 → 3.60 | 4.00 → 4.00 | 7.00 → 7.00 | 4.00 → 4.00 | 3.00 → 3.00 | 1.00 → 1.00 | 0.00 | 0.00 | 0.00 | -1.40 | 0.00 | 42.87 |
+| [The Future Is Faster Than You Think](analysis/analysis_vetogates_261021_0047.md#g0402) | 9.00 → 4.05 | 11.00 → 7.12 | 6.00 → 6.00 | 5.00 → 5.00 | 6.00 → 3.60 | 3.00 → 3.00 | 6.00 → 6.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.00 → 1.00 | 0.00 | 0.00 | 0.00 | -0.60 | 0.00 | 41.17 |
+| [Operation Paperclip](analysis/analysis_vetogates_261021_0047.md#q1004) | 7.00 → 2.45 | 14.17 → 11.81 | 8.00 → 8.00 | 6.35 → 6.35 | 5.00 → 2.50 | 7.00 → 7.00 | 7.00 → 7.00 | 2.00 → 2.00 | 3.00 → 3.00 | 1.00 → 1.00 | 0.00 | -10.00 | -2.24 | -1.20 | 0.00 | 37.67 |
+| [The Great Illusion](analysis/analysis_vetogates_261021_0047.md#g1303) | 10.00 → 5.00 | 13.00 → 9.94 | 9.00 → 9.00 | 8.00 → 8.00 | 7.00 → 4.90 | 8.00 → 8.00 | 5.00 → 5.00 | 4.00 → 4.00 | 2.00 → 2.00 | 1.50 → 1.50 | 0.00 | -10.00 | 0.00 | -10.00 | 0.00 | 37.34 |
+| [The End of the World Is Just the Beginning](analysis/analysis_vetogates_261021_0047.md#q1015) | 8.00 → 3.20 | 14.17 → 11.81 | 8.00 → 8.00 | 7.06 → 7.06 | 5.00 → 2.50 | 3.00 → 3.00 | 6.00 → 6.00 | 2.00 → 2.00 | 3.00 → 3.00 | 1.00 → 1.00 | 0.00 | -10.00 | 0.00 | -0.40 | 0.00 | 37.16 |
+| [Lou Reed: The King of New York](analysis/analysis_vetogates_261021_0047.md#ndf6ff2456c) | 16.00 → 12.80 | 9.00 → 4.76 | 5.00 → 5.00 | 5.00 → 5.00 | 6.00 → 3.60 | 7.00 → 7.00 | 1.00 → 1.00 | 4.00 → 4.00 | 3.00 → 3.00 | 1.50 → 1.50 | -10.00 | 0.00 | -0.52 | -0.30 | 0.00 | 36.84 |
+| [Open](analysis/analysis_vetogates_261021_0047.md#g0020) | 14.00 → 9.80 | 5.00 → 1.47 | 4.00 → 4.00 | 3.00 → 3.00 | 7.00 → 4.90 | 7.00 → 7.00 | 1.00 → 1.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | 0.00 | 0.00 | -0.80 | -1.70 | 0.00 | 36.67 |
+| [Democracy: The God That Failed](analysis/analysis_vetogates_261021_0047.md#g0716) | 9.00 → 4.05 | 12.00 → 8.47 | 8.00 → 8.00 | 6.00 → 6.00 | 6.00 → 3.60 | 8.00 → 8.00 | 4.00 → 4.00 | 4.00 → 4.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | -10.00 | 0.00 | -2.50 | 0.00 | 36.62 |
+| [Legacy of Ashes](analysis/analysis_vetogates_261021_0047.md#q1009) | 7.00 → 2.45 | 12.75 → 9.56 | 8.00 → 8.00 | 6.35 → 6.35 | 5.00 → 2.50 | 7.00 → 7.00 | 6.00 → 6.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.00 → 1.00 | 0.00 | -10.00 | -0.80 | -1.90 | 0.00 | 36.17 |
+| [Did Ye Hear Mammy Died?](analysis/analysis_vetogates_261021_0047.md#q1057) | 15.00 → 11.25 | 4.25 → 1.06 | 2.00 → 2.00 | 2.12 → 2.12 | 8.00 → 6.40 | 7.00 → 7.00 | 0.00 → 0.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | 0.00 | 0.00 | -1.44 | -0.50 | 0.00 | 35.89 |
+| [The Master and His Emissary](analysis/analysis_vetogates_261021_0047.md#q1016) | 8.00 → 3.20 | 12.75 → 9.56 | 8.00 → 8.00 | 6.35 → 6.35 | 4.00 → 1.60 | 6.00 → 6.00 | 5.00 → 5.00 | 4.00 → 4.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | -10.00 | 0.00 | -1.70 | 0.00 | 35.02 |
+| [Going Infinite: The Rise and Fall of a New Tycoon](analysis/analysis_vetogates_261021_0047.md#n6c8b42af06) | 8.00 → 3.20 | 10.00 → 5.88 | 7.00 → 7.00 | 5.00 → 5.00 | 7.00 → 4.90 | 6.00 → 6.00 | 4.00 → 4.00 | 4.00 → 4.00 | 3.00 → 3.00 | 1.00 → 1.00 | 0.00 | -10.00 | -0.12 | -0.30 | 0.00 | 33.56 |
+| [Sex at Dawn](analysis/analysis_vetogates_261021_0047.md#q1058) | 7.00 → 2.45 | 8.50 → 4.25 | 6.00 → 6.00 | 5.65 → 5.65 | 6.00 → 3.60 | 6.00 → 6.00 | 1.00 → 1.00 | 2.00 → 2.00 | 3.00 → 3.00 | 1.00 → 1.00 | 0.00 | 0.00 | 0.00 | -1.60 | 0.00 | 33.35 |
+| [Super-Infinite](analysis/analysis_vetogates_261021_0047.md#n00fa6f411e) | 17.00 → 14.45 | 7.00 → 2.88 | 3.00 → 3.00 | 3.00 → 3.00 | 7.00 → 4.90 | 8.00 → 8.00 | 0.00 → 0.00 | 4.00 → 4.00 | 3.00 → 3.00 | 2.00 → 2.00 | 0.00 | 0.00 | -12.00 | -0.40 | 0.00 | 32.83 |
+| [Eat & Run](analysis/analysis_vetogates_261021_0047.md#n2044af222d) | 12.00 → 7.20 | 6.00 → 2.12 | 4.00 → 4.00 | 4.00 → 4.00 | 6.00 → 3.60 | 6.00 → 6.00 | 0.00 → 0.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.50 → 1.50 | 0.00 | 0.00 | -0.64 | -1.40 | 0.00 | 32.38 |
+| [The Rise of Superman](analysis/analysis_vetogates_261021_0047.md#g0669) | 9.00 → 4.05 | 8.00 → 3.76 | 5.00 → 5.00 | 4.00 → 4.00 | 6.00 → 3.60 | 4.00 → 4.00 | 2.00 → 2.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.00 → 1.00 | 0.00 | 0.00 | 0.00 | -1.20 | 0.00 | 32.21 |
+| [Travels in the Americas](analysis/analysis_vetogates_261021_0047.md#q1053) | 15.00 → 11.25 | 4.25 → 1.06 | 3.00 → 3.00 | 2.12 → 2.12 | 7.00 → 4.90 | 8.00 → 8.00 | 0.00 → 0.00 | 4.00 → 4.00 | 3.00 → 3.00 | 2.00 → 2.00 | 0.00 | 0.00 | -3.08 | -4.80 | 0.00 | 31.45 |
+| [Between the Woods and the Water](analysis/analysis_vetogates_261021_0047.md#n00c6e6fe81) | 14.00 → 9.80 | 8.00 → 3.76 | 2.00 → 2.00 | 3.00 → 3.00 | 5.00 → 2.50 | 8.00 → 8.00 | 1.00 → 1.00 | 4.00 → 4.00 | 3.00 → 3.00 | 2.00 → 2.00 | 0.00 | 0.00 | -3.68 | -4.00 | 0.00 | 31.38 |
+| [Area 51: An Uncensored History of America's Top Secret Military Base](analysis/analysis_vetogates_261021_0047.md#nc758fbb344) | 6.00 → 1.80 | 13.00 → 9.94 | 5.00 → 5.00 | 5.00 → 5.00 | 5.00 → 2.50 | 7.00 → 7.00 | 7.00 → 7.00 | 2.00 → 2.00 | 3.00 → 3.00 | 0.50 → 0.50 | 0.00 | -10.00 | -1.40 | -1.50 | 0.00 | 30.84 |
+| [The Communist Manifesto](analysis/analysis_vetogates_261021_0047.md#q1005) | 7.00 → 2.45 | 11.33 → 7.56 | 7.00 → 7.00 | 5.65 → 5.65 | 9.00 → 8.10 | 8.00 → 8.00 | 4.00 → 4.00 | 5.00 → 5.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | -10.00 | 0.00 | -10.00 | 0.00 | 30.75 |
+| [Portraits of Interiors](analysis/analysis_vetogates_261021_0047.md#g1275) | 14.00 → 9.80 | 4.00 → 0.94 | 2.00 → 2.00 | 2.00 → 2.00 | 4.00 → 1.60 | 7.00 → 7.00 | 1.00 → 1.00 | 4.00 → 4.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | 0.00 | 0.00 | -0.70 | 0.00 | 30.64 |
+| [The Immortality Key](analysis/analysis_vetogates_261021_0047.md#q1074) | 7.00 → 2.45 | 8.50 → 4.25 | 5.00 → 5.00 | 4.94 → 4.94 | 5.00 → 2.50 | 4.00 → 4.00 | 2.00 → 2.00 | 2.00 → 2.00 | 3.00 → 3.00 | 1.00 → 1.00 | 0.00 | 0.00 | 0.00 | -0.60 | 0.00 | 30.54 |
+| [The Color of Water](analysis/analysis_vetogates_261021_0047.md#n83f907156f) | 14.00 → 9.80 | 8.00 → 3.76 | 4.00 → 4.00 | 5.00 → 5.00 | 7.00 → 4.90 | 7.00 → 7.00 | 1.00 → 1.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | 0.00 | 0.00 | -3.00 | 0.00 | 30.46 |
+| [The Broken Road](analysis/analysis_vetogates_261021_0047.md#need2181c15) | 13.00 → 8.45 | 7.00 → 2.88 | 2.00 → 2.00 | 3.00 → 3.00 | 5.00 → 2.50 | 8.00 → 8.00 | 1.00 → 1.00 | 3.50 → 3.50 | 2.00 → 2.00 | 2.00 → 2.00 | 0.00 | 0.00 | -3.64 | -1.30 | 0.00 | 30.39 |
+| [The Bible](analysis/analysis_vetogates_261021_0047.md#q1046) | 9.00 → 4.05 | 9.92 → 5.78 | 7.00 → 7.00 | 4.24 → 4.24 | 3.00 → 0.90 | 9.00 → 9.00 | 1.00 → 1.00 | 5.00 → 5.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | 0.00 | 0.00 | -10.00 | 0.00 | 29.97 |
+| [Quantum Supremacy](analysis/analysis_vetogates_261021_0047.md#n298e5c0ab7) | 5.00 → 1.25 | 10.00 → 5.88 | 3.00 → 3.00 | 3.00 → 3.00 | 5.00 → 2.50 | 2.00 → 2.00 | 7.00 → 7.00 | 2.00 → 2.00 | 3.00 → 3.00 | 0.50 → 0.50 | 0.00 | 0.00 | 0.00 | -0.30 | 0.00 | 29.83 |
+| [Asimov’s Guide to Shakespeare](analysis/analysis_vetogates_261021_0047.md#nc168b938b7) | 15.00 → 11.25 | 6.00 → 2.12 | 2.00 → 2.00 | 3.00 → 3.00 | 3.00 → 0.90 | 8.00 → 8.00 | 1.00 → 1.00 | 3.50 → 3.50 | 2.00 → 2.00 | 1.50 → 1.50 | 0.00 | 0.00 | 0.00 | -5.60 | 0.00 | 29.67 |
+| [A Time of Gifts](analysis/analysis_vetogates_261021_0047.md#n400d8c6d93) | 14.00 → 9.80 | 7.00 → 2.88 | 2.00 → 2.00 | 3.00 → 3.00 | 5.00 → 2.50 | 8.00 → 8.00 | 1.00 → 1.00 | 4.00 → 4.00 | 3.00 → 3.00 | 2.00 → 2.00 | 0.00 | 0.00 | -3.68 | -4.90 | 0.00 | 29.60 |
+| [The Matter with Things](analysis/analysis_vetogates_261021_0047.md#q1047) | 8.00 → 3.20 | 11.33 → 7.56 | 7.00 → 7.00 | 5.65 → 5.65 | 2.00 → 0.40 | 5.00 → 5.00 | 4.00 → 4.00 | 4.00 → 4.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | -10.00 | 0.00 | -0.50 | 0.00 | 29.30 |
+| [The Body Keeps the Score](analysis/analysis_vetogates_261021_0047.md#q1080) | 8.00 → 3.20 | 9.92 → 5.78 | 7.00 → 7.00 | 5.65 → 5.65 | 5.00 → 2.50 | 6.00 → 6.00 | 2.00 → 2.00 | 4.00 → 4.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | 0.00 | 0.00 | -1.20 | 0.00 | 28.93 |
+| [Everything and More: A Compact History of Infinity](analysis/analysis_vetogates_261021_0047.md#n1583471893) | 7.00 → 2.45 | 9.00 → 4.76 | 4.00 → 4.00 | 4.00 → 4.00 | 4.00 → 1.60 | 7.00 → 7.00 | 7.00 → 7.00 | 2.00 → 2.00 | 2.00 → 2.00 | 0.50 → 0.50 | 0.00 | 0.00 | -4.32 | -2.30 | 0.00 | 28.69 |
+| [The Swerve](analysis/analysis_vetogates_261021_0047.md#q1034) | 7.00 → 2.45 | 9.92 → 5.78 | 6.00 → 6.00 | 4.94 → 4.94 | 7.00 → 4.90 | 6.00 → 6.00 | 3.00 → 3.00 | 4.00 → 4.00 | 3.00 → 3.00 | 2.00 → 2.00 | 0.00 | 0.00 | -12.00 | -1.50 | 0.00 | 28.58 |
+| [I Was Better Last Night](analysis/analysis_vetogates_261021_0047.md#nc2cbcb068f) | 13.00 → 8.45 | 5.00 → 1.47 | 4.00 → 4.00 | 3.00 → 3.00 | 7.00 → 4.90 | 7.00 → 7.00 | 1.00 → 1.00 | 4.00 → 4.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | 0.00 | 0.00 | -0.40 | 0.00 | 28.42 |
+| [The Woman in Me](analysis/analysis_vetogates_261021_0047.md#nfd0337d156) | 13.00 → 8.45 | 7.00 → 2.88 | 4.00 → 4.00 | 5.00 → 5.00 | 6.00 → 3.60 | 6.00 → 6.00 | 1.00 → 1.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.50 → 1.50 | -10.00 | 0.00 | 0.00 | -0.30 | 0.00 | 28.13 |
+| [The Best We Could Do](analysis/analysis_vetogates_261021_0047.md#g1300) | 15.00 → 11.25 | 5.00 → 1.47 | 3.00 → 3.00 | 3.00 → 3.00 | 7.00 → 4.90 | 7.00 → 7.00 | 1.00 → 1.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | 0.00 | -0.84 | -0.90 | 0.00 | 27.88 |
+| [Secret: The Making of Australia's Security State](analysis/analysis_vetogates_261021_0047.md#nf36ec9efbe) | 9.00 → 4.05 | 12.00 → 8.47 | 8.00 → 8.00 | 6.00 → 6.00 | 7.00 → 4.90 | 6.00 → 6.00 | 5.00 → 5.00 | 3.00 → 3.00 | 2.00 → 2.00 | 1.00 → 1.00 | -10.00 | -10.00 | 0.00 | -0.70 | 0.00 | 27.72 |
+| [The Man Who Mistook His Wife for a Hat](analysis/analysis_vetogates_261021_0047.md#q1075) | 7.00 → 2.45 | 7.08 → 2.95 | 6.00 → 6.00 | 5.65 → 5.65 | 8.00 → 6.40 | 7.00 → 7.00 | 3.00 → 3.00 | 4.00 → 4.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | 0.00 | 0.00 | -4.10 | 0.00 | 27.35 |
+| [Second Sunrise](analysis/analysis_vetogates_261021_0047.md#q1091) | 15.00 → 11.25 | 5.67 → 1.89 | 3.00 → 3.00 | 2.82 → 2.82 | 5.00 → 2.50 | 7.00 → 7.00 | 0.00 → 0.00 | 4.00 → 4.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | 0.00 | 0.00 | -0.30 | 0.00 | 27.16 |
+| [Unprotected](analysis/analysis_vetogates_261021_0047.md#na80c1dd0b2) | 13.00 → 8.45 | 7.00 → 2.88 | 4.00 → 4.00 | 4.00 → 4.00 | 6.00 → 3.60 | 6.00 → 6.00 | 1.00 → 1.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.50 → 1.50 | -10.00 | 0.00 | 0.00 | -0.50 | 0.00 | 26.93 |
+| [Pageboy](analysis/analysis_vetogates_261021_0047.md#n1d712210cc) | 13.00 → 8.45 | 7.00 → 2.88 | 4.00 → 4.00 | 4.00 → 4.00 | 6.00 → 3.60 | 6.00 → 6.00 | 1.00 → 1.00 | 3.00 → 3.00 | 2.50 → 2.50 | 1.50 → 1.50 | -10.00 | 0.00 | 0.00 | -0.30 | 0.00 | 26.63 |
+| [Born to Run](analysis/analysis_vetogates_261021_0047.md#q1073) | 8.00 → 3.20 | 6.00 → 2.12 | 4.00 → 4.00 | 4.00 → 4.00 | 6.00 → 3.60 | 5.00 → 5.00 | 1.00 → 1.00 | 2.00 → 2.00 | 3.00 → 3.00 | 1.00 → 1.00 | 0.00 | 0.00 | -0.80 | -1.70 | 0.00 | 26.42 |
+| [Why We Sleep](analysis/analysis_vetogates_261021_0047.md#q1088) | 7.00 → 2.45 | 8.50 → 4.25 | 7.00 → 7.00 | 5.65 → 5.65 | 6.00 → 3.60 | 5.00 → 5.00 | 1.00 → 1.00 | 4.00 → 4.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | 0.00 | 0.00 | -0.90 | 0.00 | 26.05 |
+| [The Diary of a Young Girl](analysis/analysis_vetogates_261021_0047.md#q0879) | 16.00 → 12.80 | 5.67 → 1.89 | 6.00 → 6.00 | 3.53 → 3.53 | 7.00 → 4.90 | 9.00 → 9.00 | 0.00 → 0.00 | 4.00 → 4.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | 0.00 | -3.28 | -7.90 | 0.00 | 25.94 |
+| [Lost on Purpose: The Adventures of a 21st Century Mountain Man](analysis/analysis_vetogates_261021_0047.md#nb75ecb1bfa) | 11.00 → 6.05 | 2.00 → 0.24 | 3.00 → 3.00 | 2.00 → 2.00 | 6.00 → 3.60 | 6.00 → 6.00 | 1.00 → 1.00 | 2.00 → 2.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | 0.00 | -0.52 | -1.10 | 0.00 | 25.27 |
+| [The Devil's Chessboard](analysis/analysis_vetogates_261021_0047.md#q1052) | 8.00 → 3.20 | 12.75 → 9.56 | 8.00 → 8.00 | 6.35 → 6.35 | 5.00 → 2.50 | 6.00 → 6.00 | 6.00 → 6.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | -10.00 | -2.28 | -1.10 | 0.00 | 25.24 |
+| [What Remains](analysis/analysis_vetogates_261021_0047.md#q1101) | 15.00 → 11.25 | 4.25 → 1.06 | 3.00 → 3.00 | 2.12 → 2.12 | 7.00 → 4.90 | 7.00 → 7.00 | 0.00 → 0.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | 0.00 | 0.00 | -2.10 | 0.00 | 25.23 |
+| [Stalin's War](analysis/analysis_vetogates_261021_0047.md#g1298) | 8.00 → 3.20 | 12.00 → 8.47 | 7.00 → 7.00 | 6.00 → 6.00 | 5.00 → 2.50 | 7.00 → 7.00 | 6.00 → 6.00 | 4.00 → 4.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | -10.00 | -3.24 | -0.50 | 0.00 | 24.43 |
+| [How to Murder Your Life](analysis/analysis_vetogates_261021_0047.md#n9e8aa13554) | 12.00 → 7.20 | 5.00 → 1.47 | 4.00 → 4.00 | 4.00 → 4.00 | 6.00 → 3.60 | 7.00 → 7.00 | 0.00 → 0.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | 0.00 | 0.00 | -0.90 | 0.00 | 24.37 |
+| [The Alphabet Versus the Goddess](analysis/analysis_vetogates_261021_0047.md#q1100) | 5.00 → 1.25 | 9.92 → 5.78 | 4.00 → 4.00 | 3.53 → 3.53 | 4.00 → 1.60 | 5.00 → 5.00 | 2.00 → 2.00 | 1.00 → 1.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | 0.00 | 0.00 | -2.80 | 0.00 | 24.36 |
+| [Three Cups of Tea](analysis/analysis_vetogates_261021_0047.md#q1093) | 5.00 → 1.25 | 5.67 → 1.89 | 5.00 → 5.00 | 3.53 → 3.53 | 6.00 → 3.60 | 5.00 → 5.00 | 2.00 → 2.00 | 1.00 → 1.00 | 3.00 → 3.00 | 1.00 → 1.00 | 0.00 | 0.00 | -0.92 | -2.00 | 0.00 | 24.35 |
+| [The Heart of the Buddha's Teaching](analysis/analysis_vetogates_261021_0047.md#n07829fa11f) | 10.00 → 5.00 | 7.00 → 2.88 | 5.00 → 5.00 | 4.00 → 4.00 | 6.00 → 3.60 | 8.00 → 8.00 | 0.00 → 0.00 | 4.00 → 4.00 | 3.00 → 3.00 | 1.50 → 1.50 | 0.00 | -10.00 | 0.00 | -2.80 | 0.00 | 24.18 |
+| [Tao Te Ching](analysis/analysis_vetogates_261021_0047.md#q1029) | 8.00 → 3.20 | 5.67 → 1.89 | 8.00 → 8.00 | 4.94 → 4.94 | 9.00 → 8.10 | 9.00 → 9.00 | 2.00 → 2.00 | 4.00 → 4.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | -10.00 | 0.00 | -10.00 | 0.00 | 24.13 |
+| [The Places We Run](analysis/analysis_vetogates_261021_0047.md#q1107) | 14.00 → 9.80 | 5.67 → 1.89 | 3.00 → 3.00 | 2.12 → 2.12 | 6.00 → 3.60 | 7.00 → 7.00 | 1.00 → 1.00 | 3.00 → 3.00 | 2.00 → 2.00 | 1.00 → 1.00 | -10.00 | 0.00 | 0.00 | -0.30 | 0.00 | 24.11 |
+| [Vacationland](analysis/analysis_vetogates_261021_0047.md#q1108) | 14.00 → 9.80 | 4.25 → 1.06 | 3.00 → 3.00 | 2.12 → 2.12 | 7.00 → 4.90 | 7.00 → 7.00 | 0.00 → 0.00 | 2.00 → 2.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | 0.00 | 0.00 | -0.90 | 0.00 | 23.98 |
+| [Matthew Barney & Elizabeth Peyton: Blood of Two](analysis/analysis_vetogates_261021_0047.md#g1274) | 14.00 → 9.80 | 3.00 → 0.53 | 1.00 → 1.00 | 1.00 → 1.00 | 4.00 → 1.60 | 6.00 → 6.00 | 0.00 → 0.00 | 3.00 → 3.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | 0.00 | -0.68 | -1.60 | 0.00 | 23.65 |
+| [Mean Baby](analysis/analysis_vetogates_261021_0047.md#nf5ac85a6d8) | 13.00 → 8.45 | 5.00 → 1.47 | 3.00 → 3.00 | 4.00 → 4.00 | 6.00 → 3.60 | 6.00 → 6.00 | 0.00 → 0.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.50 → 1.50 | -10.00 | 0.00 | 0.00 | -0.40 | 0.00 | 23.62 |
+| [Human Smoke](analysis/analysis_vetogates_261021_0047.md#q1051) | 7.00 → 2.45 | 11.33 → 7.56 | 5.00 → 5.00 | 4.24 → 4.24 | 5.00 → 2.50 | 7.00 → 7.00 | 5.00 → 5.00 | 2.00 → 2.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | -10.00 | -3.40 | -1.80 | 0.00 | 23.54 |
+| [The In-Between](analysis/analysis_vetogates_261021_0047.md#n22eb055506) | 12.00 → 7.20 | 5.00 → 1.47 | 3.00 → 3.00 | 4.00 → 4.00 | 6.00 → 3.60 | 6.00 → 6.00 | 1.00 → 1.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.50 → 1.50 | -10.00 | 0.00 | 0.00 | -0.30 | 0.00 | 23.47 |
+| [All Over but the Shoutin'](analysis/analysis_vetogates_261021_0047.md#g0036) | 14.00 → 9.80 | 5.00 → 1.47 | 3.00 → 3.00 | 2.00 → 2.00 | 7.00 → 4.90 | 8.00 → 8.00 | 0.00 → 0.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | 0.00 | -1.16 | -2.90 | 0.00 | 23.11 |
+| [A Girl Named Zippy](analysis/analysis_vetogates_261021_0047.md#q1097) | 15.00 → 11.25 | 4.25 → 1.06 | 2.00 → 2.00 | 2.12 → 2.12 | 8.00 → 6.40 | 7.00 → 7.00 | 0.00 → 0.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | 0.00 | -2.24 | -2.50 | 0.00 | 23.09 |
+| [Bringing Down The House](analysis/analysis_vetogates_261021_0047.md#g0506) | 7.00 → 2.45 | 8.00 → 3.76 | 6.00 → 6.00 | 5.00 → 5.00 | 6.00 → 3.60 | 6.00 → 6.00 | 4.00 → 4.00 | 2.00 → 2.00 | 3.00 → 3.00 | 0.50 → 0.50 | 0.00 | -10.00 | -1.16 | -2.40 | 0.00 | 22.75 |
+| [The Hot Zone](analysis/analysis_vetogates_261021_0047.md#q1087) | 8.00 → 3.20 | 8.50 → 4.25 | 6.00 → 6.00 | 4.94 → 4.94 | 7.00 → 4.90 | 5.00 → 5.00 | 2.00 → 2.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | 0.00 | -1.48 | -3.20 | 0.00 | 22.61 |
+| [In Patagonia](analysis/analysis_vetogates_261021_0047.md#g1047) | 10.00 → 5.00 | 4.00 → 0.94 | 2.00 → 2.00 | 2.00 → 2.00 | 6.00 → 3.60 | 8.00 → 8.00 | 0.00 → 0.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | 0.00 | 0.00 | -2.04 | -4.90 | 0.00 | 22.60 |
+| [Scattered Minds](analysis/analysis_vetogates_261021_0047.md#q1099) | 7.00 → 2.45 | 8.50 → 4.25 | 6.00 → 6.00 | 4.94 → 4.94 | 6.00 → 3.60 | 5.00 → 5.00 | 2.00 → 2.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | 0.00 | 0.00 | -2.70 | 0.00 | 22.54 |
+| [Cutting Through Spiritual Materialism](analysis/analysis_vetogates_261021_0047.md#q1055) | 10.00 → 5.00 | 4.25 → 1.06 | 7.00 → 7.00 | 4.24 → 4.24 | 7.00 → 4.90 | 8.00 → 8.00 | 1.00 → 1.00 | 3.00 → 3.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | -10.00 | 0.00 | -5.30 | 0.00 | 21.90 |
+| [Up in the Old Hotel](analysis/analysis_vetogates_261021_0047.md#q1094) | 15.00 → 11.25 | 5.67 → 1.89 | 3.00 → 3.00 | 2.12 → 2.12 | 5.00 → 2.50 | 8.00 → 8.00 | 0.00 → 0.00 | 4.00 → 4.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | 0.00 | -2.48 | -3.40 | 0.00 | 21.88 |
+| [But Now I See](analysis/analysis_vetogates_261021_0047.md#q1109) | 13.00 → 8.45 | 4.25 → 1.06 | 3.00 → 3.00 | 2.82 → 2.82 | 7.00 → 4.90 | 6.00 → 6.00 | 1.00 → 1.00 | 2.00 → 2.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | 0.00 | 0.00 | -1.40 | 0.00 | 21.84 |
+| [Food of the Gods](analysis/analysis_vetogates_261021_0047.md#q1104) | 5.00 → 1.25 | 7.08 → 2.95 | 4.00 → 4.00 | 3.53 → 3.53 | 5.00 → 2.50 | 5.00 → 5.00 | 1.00 → 1.00 | 2.00 → 2.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | 0.00 | 0.00 | -3.40 | 0.00 | 21.83 |
+| [Eleven Seconds](analysis/analysis_vetogates_261021_0047.md#n300d2c4171) | 14.00 → 9.80 | 4.00 → 0.94 | 4.00 → 4.00 | 3.00 → 3.00 | 6.00 → 3.60 | 7.00 → 7.00 | 0.00 → 0.00 | 3.00 → 3.00 | 2.50 → 2.50 | 1.50 → 1.50 | -10.00 | 0.00 | -1.16 | -2.80 | 0.00 | 21.38 |
+| [Spiritual Formation](analysis/analysis_vetogates_261021_0047.md#n71f5038224) | 9.00 → 4.05 | 6.00 → 2.12 | 4.00 → 4.00 | 3.00 → 3.00 | 6.00 → 3.60 | 8.00 → 8.00 | 0.00 → 0.00 | 4.00 → 4.00 | 2.50 → 2.50 | 1.50 → 1.50 | 0.00 | -10.00 | 0.00 | -1.60 | 0.00 | 21.17 |
+| [Paris: The Memoir](analysis/analysis_vetogates_261021_0047.md#n3e1a9a8e6e) | 12.00 → 7.20 | 6.00 → 2.12 | 3.00 → 3.00 | 4.00 → 4.00 | 6.00 → 3.60 | 5.00 → 5.00 | 0.00 → 0.00 | 3.00 → 3.00 | 2.50 → 2.50 | 1.00 → 1.00 | -10.00 | 0.00 | 0.00 | -0.30 | 0.00 | 21.12 |
+| [Spinning Plates](analysis/analysis_vetogates_261021_0047.md#n057517a2a7) | 13.00 → 8.45 | 5.00 → 1.47 | 3.00 → 3.00 | 3.00 → 3.00 | 6.00 → 3.60 | 5.00 → 5.00 | 0.00 → 0.00 | 3.00 → 3.00 | 2.50 → 2.50 | 1.50 → 1.50 | -10.00 | 0.00 | 0.00 | -0.50 | 0.00 | 21.02 |
+| [Mohandas Gandhi: Essential Writings](analysis/analysis_vetogates_261021_0047.md#g0967) | 10.00 → 5.00 | 10.00 → 5.88 | 7.00 → 7.00 | 5.00 → 5.00 | 6.00 → 3.60 | 8.00 → 8.00 | 1.00 → 1.00 | 4.00 → 4.00 | 2.00 → 2.00 | 1.50 → 1.50 | -10.00 | -10.00 | 0.00 | -2.40 | 0.00 | 20.58 |
+| [Crying in H Mart](analysis/analysis_vetogates_261021_0047.md#q1084) | 15.00 → 11.25 | 4.25 → 1.06 | 4.00 → 4.00 | 2.82 → 2.82 | 8.00 → 6.40 | 8.00 → 8.00 | 0.00 → 0.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | -10.00 | -0.48 | -0.50 | 0.00 | 20.56 |
+| [Zen Mind, Beginners Mind](analysis/analysis_vetogates_261021_0047.md#g0929) | 10.00 → 5.00 | 6.00 → 2.12 | 4.00 → 4.00 | 3.00 → 3.00 | 7.00 → 4.90 | 8.00 → 8.00 | 0.00 → 0.00 | 5.00 → 5.00 | 2.50 → 2.50 | 1.50 → 1.50 | 0.00 | -10.00 | 0.00 | -5.60 | 0.00 | 20.42 |
+| [Blitzed](analysis/analysis_vetogates_261021_0047.md#q1063) | 9.00 → 4.05 | 9.92 → 5.78 | 7.00 → 7.00 | 5.65 → 5.65 | 7.00 → 4.90 | 6.00 → 6.00 | 5.00 → 5.00 | 2.00 → 2.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | -10.00 | -3.24 | -1.10 | 0.00 | 20.04 |
+| [Why We Get Fat](analysis/analysis_vetogates_261021_0047.md#q1110) | 6.00 → 1.80 | 7.08 → 2.95 | 6.00 → 6.00 | 4.94 → 4.94 | 7.00 → 4.90 | 4.00 → 4.00 | 1.00 → 1.00 | 2.00 → 2.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | 0.00 | 0.00 | -1.60 | 0.00 | 19.99 |
+| [Center Center](analysis/analysis_vetogates_261021_0047.md#n6be813ad2b) | 12.00 → 7.20 | 5.00 → 1.47 | 3.00 → 3.00 | 3.00 → 3.00 | 6.00 → 3.60 | 5.00 → 5.00 | 0.00 → 0.00 | 3.00 → 3.00 | 2.50 → 2.50 | 1.50 → 1.50 | -10.00 | 0.00 | 0.00 | -0.50 | 0.00 | 19.77 |
+| [Dark Emu](analysis/analysis_vetogates_261021_0047.md#neb36c15307) | 9.00 → 4.05 | 10.00 → 5.88 | 6.00 → 6.00 | 5.00 → 5.00 | 7.00 → 4.90 | 5.00 → 5.00 | 4.00 → 4.00 | 2.50 → 2.50 | 2.00 → 2.00 | 1.00 → 1.00 | -10.00 | 0.00 | -9.52 | -1.20 | 0.00 | 19.61 |
+| [Ecclesiastes](analysis/analysis_vetogates_261021_0047.md#nbf3cf4826a) | 9.00 → 4.05 | 6.00 → 2.12 | 6.00 → 6.00 | 3.00 → 3.00 | 8.00 → 6.40 | 9.00 → 9.00 | 1.00 → 1.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | 0.00 | -10.00 | 0.00 | -10.00 | 0.00 | 19.57 |
+| [Friends, Lovers, and the Big Terrible Thing](analysis/analysis_vetogates_261021_0047.md#nee1fdd71da) | 12.00 → 7.20 | 5.00 → 1.47 | 3.00 → 3.00 | 3.00 → 3.00 | 6.00 → 3.60 | 5.00 → 5.00 | 0.00 → 0.00 | 3.00 → 3.00 | 2.50 → 2.50 | 1.00 → 1.00 | -10.00 | 0.00 | 0.00 | -0.40 | 0.00 | 19.37 |
+| [Papillon](analysis/analysis_vetogates_261021_0047.md#q1086) | 6.00 → 1.80 | 4.25 → 1.06 | 5.00 → 5.00 | 3.53 → 3.53 | 7.00 → 4.90 | 6.00 → 6.00 | 1.00 → 1.00 | 1.00 → 1.00 | 3.00 → 3.00 | 1.00 → 1.00 | 0.00 | 0.00 | -3.24 | -5.70 | 0.00 | 19.35 |
+| [Down the Drain](analysis/analysis_vetogates_261021_0047.md#n108ec51230) | 12.00 → 7.20 | 4.00 → 0.94 | 3.00 → 3.00 | 3.00 → 3.00 | 6.00 → 3.60 | 6.00 → 6.00 | 0.00 → 0.00 | 2.00 → 2.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | 0.00 | -0.16 | -0.30 | 0.00 | 19.28 |
+| [And Our Faces, My Heart, Brief as Photos](analysis/analysis_vetogates_261021_0047.md#naf9acccd63) | 12.00 → 7.20 | 6.00 → 2.12 | 3.00 → 3.00 | 3.00 → 3.00 | 6.00 → 3.60 | 7.00 → 7.00 | 0.00 → 0.00 | 3.00 → 3.00 | 2.50 → 2.50 | 2.00 → 2.00 | 0.00 | -10.00 | 0.00 | -4.20 | 0.00 | 19.22 |
+| [The Rise and Fall of the Third Reich](analysis/analysis_vetogates_261021_0047.md#q1048) | 9.00 → 4.05 | 11.33 → 7.56 | 8.00 → 8.00 | 5.65 → 5.65 | 6.00 → 3.60 | 7.00 → 7.00 | 6.00 → 6.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | -10.00 | -3.24 | -6.60 | 0.00 | 19.01 |
+| [Brothers](analysis/analysis_vetogates_261021_0047.md#q1070) | 8.00 → 3.20 | 11.33 → 7.56 | 7.00 → 7.00 | 5.65 → 5.65 | 5.00 → 2.50 | 6.00 → 6.00 | 4.00 → 4.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | -10.00 | -2.32 | -1.90 | 0.00 | 18.68 |
+| [Goodbye to a River](analysis/analysis_vetogates_261021_0047.md#q1090) | 15.00 → 11.25 | 5.67 → 1.89 | 3.00 → 3.00 | 2.12 → 2.12 | 6.00 → 3.60 | 8.00 → 8.00 | 0.00 → 0.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | 0.00 | -2.76 | -6.60 | 0.00 | 18.50 |
+| [The Half Has Never Been Told](analysis/analysis_vetogates_261021_0047.md#q1066) | 6.00 → 1.80 | 12.75 → 9.56 | 7.00 → 7.00 | 5.65 → 5.65 | 6.00 → 3.60 | 7.00 → 7.00 | 4.00 → 4.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | -10.00 | -6.64 | -1.20 | 0.00 | 17.77 |
+| [A First-Rate Madness](analysis/analysis_vetogates_261021_0047.md#q1083) | 7.00 → 2.45 | 8.50 → 4.25 | 7.00 → 7.00 | 4.94 → 4.94 | 6.00 → 3.60 | 6.00 → 6.00 | 3.00 → 3.00 | 4.00 → 4.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | -10.00 | 0.00 | -1.50 | 0.00 | 17.74 |
+| [The Glory of Their Times](analysis/analysis_vetogates_261021_0047.md#n56a988fd25) | 16.00 → 12.80 | 5.00 → 1.47 | 1.00 → 1.00 | 2.00 → 2.00 | 5.00 → 2.50 | 8.00 → 8.00 | 0.00 → 0.00 | 4.00 → 4.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | 0.00 | -3.24 | -6.00 | 0.00 | 17.53 |
+| [Life Among the Savages](analysis/analysis_vetogates_261021_0047.md#q1098) | 14.00 → 9.80 | 2.83 → 0.47 | 3.00 → 3.00 | 2.12 → 2.12 | 8.00 → 6.40 | 8.00 → 8.00 | 0.00 → 0.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | 0.00 | -3.04 | -7.30 | 0.00 | 17.45 |
+| [Why We Get Sick](analysis/analysis_vetogates_261021_0047.md#nb5b5cbaa5e) | 8.00 → 3.20 | 6.00 → 2.12 | 3.00 → 3.00 | 4.00 → 4.00 | 6.00 → 3.60 | 4.00 → 4.00 | 1.00 → 1.00 | 4.00 → 4.00 | 2.00 → 2.00 | 1.00 → 1.00 | -10.00 | 0.00 | 0.00 | -0.60 | 0.00 | 17.32 |
+| [The Decline of the West](analysis/analysis_vetogates_261021_0047.md#q1059) | 6.00 → 1.80 | 11.33 → 7.56 | 6.00 → 6.00 | 4.94 → 4.94 | 3.00 → 0.90 | 7.00 → 7.00 | 4.00 → 4.00 | 2.00 → 2.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | -10.00 | 0.00 | -10.00 | 0.00 | 17.20 |
+| [A World Lit Only by Fire](analysis/analysis_vetogates_261021_0047.md#q1072) | 6.00 → 1.80 | 7.08 → 2.95 | 5.00 → 5.00 | 3.53 → 3.53 | 7.00 → 4.90 | 5.00 → 5.00 | 3.00 → 3.00 | 2.00 → 2.00 | 3.00 → 3.00 | 1.00 → 1.00 | 0.00 | 0.00 | -12.00 | -3.40 | 0.00 | 16.78 |
+| [The Biology of Belief](analysis/analysis_vetogates_261021_0047.md#q1126) | 3.00 → 0.45 | 4.25 → 1.06 | 3.00 → 3.00 | 2.82 → 2.82 | 5.00 → 2.50 | 3.00 → 3.00 | 1.00 → 1.00 | 2.00 → 2.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | 0.00 | 0.00 | -2.10 | 0.00 | 16.74 |
+| [If At Birth You Don't Succeed](analysis/analysis_vetogates_261021_0047.md#g0073) | 13.00 → 8.45 | 4.00 → 0.94 | 3.00 → 3.00 | 2.00 → 2.00 | 6.00 → 3.60 | 7.00 → 7.00 | 0.00 → 0.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.50 → 1.50 | -10.00 | 0.00 | -0.40 | -1.00 | -5.00 | 16.09 |
+| [Expecting Adam](analysis/analysis_vetogates_261021_0047.md#q1124) | 3.00 → 0.45 | 4.25 → 1.06 | 3.00 → 3.00 | 2.12 → 2.12 | 5.00 → 2.50 | 6.00 → 6.00 | 0.00 → 0.00 | 2.00 → 2.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | 0.00 | -1.52 | -2.70 | 0.00 | 15.91 |
+| [Brave Enough](analysis/analysis_vetogates_261021_0047.md#g0049) | 7.00 → 2.45 | 2.00 → 0.24 | 2.00 → 2.00 | 1.00 → 1.00 | 3.00 → 0.90 | 5.00 → 5.00 | 0.00 → 0.00 | 2.00 → 2.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | 0.00 | 0.00 | -1.10 | 0.00 | 15.49 |
+| [The Long Walk](analysis/analysis_vetogates_261021_0047.md#q1106) | 4.00 → 0.80 | 4.25 → 1.06 | 4.00 → 4.00 | 2.82 → 2.82 | 7.00 → 4.90 | 6.00 → 6.00 | 1.00 → 1.00 | 1.00 → 1.00 | 3.00 → 3.00 | 1.00 → 1.00 | 0.00 | 0.00 | -3.36 | -7.00 | 0.00 | 15.23 |
+| [Furiously Happy: A Funny Book About Horrible Things](analysis/analysis_vetogates_261021_0047.md#nf9c8eb6d82) | 12.00 → 7.20 | 4.00 → 0.94 | 1.00 → 1.00 | 2.00 → 2.00 | 4.00 → 1.60 | 6.00 → 6.00 | 0.00 → 0.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.50 → 1.50 | -10.00 | 0.00 | 0.00 | -1.10 | 0.00 | 15.14 |
+| [Catastrophe: An Investigation into the Origins of the Modern World](analysis/analysis_vetogates_261021_0047.md#n7f242a07e2) | 7.00 → 2.45 | 12.00 → 8.47 | 6.00 → 6.00 | 4.00 → 4.00 | 7.00 → 4.90 | 4.00 → 4.00 | 4.00 → 4.00 | 2.50 → 2.50 | 2.50 → 2.50 | 1.00 → 1.00 | -10.00 | 0.00 | -12.00 | -2.70 | 0.00 | 15.12 |
+| [Becoming](analysis/analysis_vetogates_261021_0047.md#g0040) | 13.00 → 8.45 | 6.00 → 2.12 | 4.00 → 4.00 | 3.00 → 3.00 | 5.00 → 2.50 | 7.00 → 7.00 | 1.00 → 1.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | -10.00 | -0.36 | -0.80 | 0.00 | 14.91 |
+| [The Mole People](analysis/analysis_vetogates_261021_0047.md#q1122) | 5.00 → 1.25 | 7.08 → 2.95 | 5.00 → 5.00 | 3.53 → 3.53 | 6.00 → 3.60 | 5.00 → 5.00 | 2.00 → 2.00 | 2.00 → 2.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | 0.00 | -1.36 | -3.30 | 0.00 | 14.67 |
+| [Not Fade Away](analysis/analysis_vetogates_261021_0047.md#g0097) | 13.00 → 8.45 | 5.00 → 1.47 | 4.00 → 4.00 | 3.00 → 3.00 | 7.00 → 4.90 | 7.00 → 7.00 | 1.00 → 1.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | -10.00 | -0.96 | -2.30 | 0.00 | 14.56 |
+| [Mao: The Unknown Story](analysis/analysis_vetogates_261021_0047.md#g0733) | 8.00 → 3.20 | 10.00 → 5.88 | 6.00 → 6.00 | 5.00 → 5.00 | 5.00 → 2.50 | 6.00 → 6.00 | 3.00 → 3.00 | 3.00 → 3.00 | 3.00 → 3.00 | 0.50 → 0.50 | -10.00 | -10.00 | -2.00 | -2.10 | 0.00 | 13.98 |
+| [Greenlights](analysis/analysis_vetogates_261021_0047.md#g0066) | 10.00 → 5.00 | 4.00 → 0.94 | 3.00 → 3.00 | 2.00 → 2.00 | 5.00 → 2.50 | 5.00 → 5.00 | 0.00 → 0.00 | 2.00 → 2.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | 0.00 | -0.24 | -0.60 | 0.00 | 13.60 |
+| [A Child Called It](analysis/analysis_vetogates_261021_0047.md#q1119) | 10.00 → 5.00 | 4.25 → 1.06 | 4.00 → 4.00 | 2.82 → 2.82 | 7.00 → 4.90 | 6.00 → 6.00 | 0.00 → 0.00 | 2.00 → 2.00 | 2.00 → 2.00 | 1.00 → 1.00 | -10.00 | 0.00 | -2.12 | -3.10 | 0.00 | 13.57 |
+| [Wishful Drinking](analysis/analysis_vetogates_261021_0047.md#q1103) | 14.00 → 9.80 | 4.25 → 1.06 | 3.00 → 3.00 | 2.12 → 2.12 | 7.00 → 4.90 | 7.00 → 7.00 | 0.00 → 0.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | -10.00 | -0.76 | -1.80 | 0.00 | 13.32 |
+| [The Four Agreements](analysis/analysis_vetogates_261021_0047.md#g0919) | 7.00 → 2.45 | 5.00 → 1.47 | 4.00 → 4.00 | 3.00 → 3.00 | 6.00 → 3.60 | 6.00 → 6.00 | 0.00 → 0.00 | 2.00 → 2.00 | 2.50 → 2.50 | 1.00 → 1.00 | 0.00 | -10.00 | 0.00 | -2.90 | 0.00 | 13.12 |
+| [The Autobiography of Gucci Mane](analysis/analysis_vetogates_261021_0047.md#g0116) | 12.00 → 7.20 | 6.00 → 2.12 | 4.00 → 4.00 | 3.00 → 3.00 | 6.00 → 3.60 | 6.00 → 6.00 | 1.00 → 1.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.50 → 1.50 | -10.00 | -10.00 | -0.40 | -0.90 | 0.00 | 13.12 |
+| [The Fry Chronicles](analysis/analysis_vetogates_261021_0047.md#g0119) | 13.00 → 8.45 | 6.00 → 2.12 | 4.00 → 4.00 | 3.00 → 3.00 | 5.00 → 2.50 | 7.00 → 7.00 | 1.00 → 1.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | -10.00 | -1.56 | -1.60 | 0.00 | 12.91 |
+| [Desert Soliloquy](analysis/analysis_vetogates_261021_0047.md#q1129) | 10.00 → 5.00 | 4.25 → 1.06 | 3.00 → 3.00 | 2.12 → 2.12 | 5.00 → 2.50 | 6.00 → 6.00 | 0.00 → 0.00 | 1.00 → 1.00 | 2.00 → 2.00 | 1.00 → 1.00 | -10.00 | 0.00 | 0.00 | -0.80 | 0.00 | 12.88 |
+| [Fingerprints of the Gods](analysis/analysis_vetogates_261021_0047.md#g1038) | 3.00 → 0.45 | 6.00 → 2.12 | 2.00 → 2.00 | 2.00 → 2.00 | 3.00 → 0.90 | 2.00 → 2.00 | 2.00 → 2.00 | 1.00 → 1.00 | 3.00 → 3.00 | 0.50 → 0.50 | 0.00 | 0.00 | 0.00 | -3.10 | 0.00 | 12.87 |
+| [Stan Smith: Some People Think I’m a Shoe](analysis/analysis_vetogates_261021_0047.md#g0299) | 14.00 → 9.80 | 4.00 → 0.94 | 2.00 → 2.00 | 2.00 → 2.00 | 3.00 → 0.90 | 6.00 → 6.00 | 1.00 → 1.00 | 3.00 → 3.00 | 2.00 → 2.00 | 1.00 → 1.00 | -10.00 | 0.00 | 0.00 | -0.80 | -5.00 | 12.84 |
+| [Believe Me](analysis/analysis_vetogates_261021_0047.md#g0042) | 13.00 → 8.45 | 5.00 → 1.47 | 3.00 → 3.00 | 2.00 → 2.00 | 6.00 → 3.60 | 7.00 → 7.00 | 1.00 → 1.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.50 → 1.50 | -10.00 | -10.00 | -0.36 | -0.90 | 0.00 | 12.76 |
+| [Royal Panoply](analysis/analysis_vetogates_261021_0047.md#q1105) | 14.00 → 9.80 | 5.67 → 1.89 | 2.00 → 2.00 | 2.12 → 2.12 | 6.00 → 3.60 | 7.00 → 7.00 | 1.00 → 1.00 | 3.00 → 3.00 | 2.00 → 2.00 | 2.00 → 2.00 | -10.00 | -10.00 | 0.00 | -2.00 | 0.00 | 12.41 |
+| [Science at the Crossroads](analysis/analysis_vetogates_261021_0047.md#q1130) | 2.00 → 0.20 | 2.83 → 0.47 | 2.00 → 2.00 | 1.41 → 1.41 | 5.00 → 2.50 | 3.00 → 3.00 | 5.00 → 5.00 | 1.00 → 1.00 | 1.00 → 1.00 | 1.00 → 1.00 | 0.00 | 0.00 | 0.00 | -5.40 | 0.00 | 12.18 |
+| [The Real Crash](analysis/analysis_vetogates_261021_0047.md#g0898) | 7.00 → 2.45 | 11.00 → 7.12 | 5.00 → 5.00 | 5.00 → 5.00 | 5.00 → 2.50 | 3.00 → 3.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | 0.50 → 0.50 | -10.00 | -10.00 | 0.00 | -1.40 | 0.00 | 12.17 |
+| [Warrior Pose](analysis/analysis_vetogates_261021_0047.md#q1132) | 5.00 → 1.25 | 5.67 → 1.89 | 4.00 → 4.00 | 2.82 → 2.82 | 5.00 → 2.50 | 4.00 → 4.00 | 0.00 → 0.00 | 2.00 → 2.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | 0.00 | 0.00 | -1.30 | 0.00 | 11.16 |
+| [The New Left / The Return of the Primitive](analysis/analysis_vetogates_261021_0047.md#q1092) | 7.00 → 2.45 | 8.50 → 4.25 | 6.00 → 6.00 | 4.94 → 4.94 | 6.00 → 3.60 | 6.00 → 6.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | 1.00 → 1.00 | -10.00 | -10.00 | 0.00 | -5.50 | 0.00 | 10.74 |
+| [The Book of Enoch](analysis/analysis_vetogates_261021_0047.md#q1121) | 4.00 → 0.80 | 4.25 → 1.06 | 2.00 → 2.00 | 2.12 → 2.12 | 4.00 → 1.60 | 8.00 → 8.00 | 0.00 → 0.00 | 2.00 → 2.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | 0.00 | 0.00 | -10.00 | 0.00 | 10.58 |
+| [The Farfarers](analysis/analysis_vetogates_261021_0047.md#q1102) | 5.00 → 1.25 | 7.08 → 2.95 | 4.00 → 4.00 | 3.53 → 3.53 | 5.00 → 2.50 | 4.00 → 4.00 | 2.00 → 2.00 | 1.00 → 1.00 | 3.00 → 3.00 | 1.00 → 1.00 | 0.00 | 0.00 | -12.00 | -2.80 | 0.00 | 10.43 |
+| [Travels with Charley](analysis/analysis_vetogates_261021_0047.md#g0013) | 8.00 → 3.20 | 5.00 → 1.47 | 3.00 → 3.00 | 2.00 → 2.00 | 6.00 → 3.60 | 7.00 → 7.00 | 1.00 → 1.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | 0.00 | -2.64 | -6.40 | 0.00 | 10.23 |
+| [Autobiography of a Yogi](analysis/analysis_vetogates_261021_0047.md#q1120) | 3.00 → 0.45 | 4.25 → 1.06 | 3.00 → 3.00 | 2.12 → 2.12 | 5.00 → 2.50 | 7.00 → 7.00 | 0.00 → 0.00 | 2.00 → 2.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | 0.00 | -3.24 | -8.00 | 0.00 | 9.89 |
+| [Emptiness Dancing](analysis/analysis_vetogates_261021_0047.md#q1118) | 5.00 → 1.25 | 2.83 → 0.47 | 4.00 → 4.00 | 2.82 → 2.82 | 6.00 → 3.60 | 5.00 → 5.00 | 0.00 → 0.00 | 1.00 → 1.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | -10.00 | 0.00 | -2.20 | 0.00 | 8.95 |
+| [The Power of Now](analysis/analysis_vetogates_261021_0047.md#q1117) | 4.00 → 0.80 | 4.25 → 1.06 | 4.00 → 4.00 | 2.82 → 2.82 | 5.00 → 2.50 | 6.00 → 6.00 | 0.00 → 0.00 | 1.00 → 1.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | -10.00 | 0.00 | -2.90 | 0.00 | 8.29 |
+| [Falling into Grace](analysis/analysis_vetogates_261021_0047.md#g0941) | 5.00 → 1.25 | 4.00 → 0.94 | 3.00 → 3.00 | 2.00 → 2.00 | 5.00 → 2.50 | 5.00 → 5.00 | 0.00 → 0.00 | 2.00 → 2.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | -10.00 | 0.00 | -1.50 | 0.00 | 8.19 |
+| [Moab Is My Washpot](analysis/analysis_vetogates_261021_0047.md#g0088) | 13.00 → 8.45 | 4.00 → 0.94 | 3.00 → 3.00 | 2.00 → 2.00 | 6.00 → 3.60 | 7.00 → 7.00 | 0.00 → 0.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | 0.00 | -2.04 | -2.90 | -10.00 | 8.05 |
+| [I Am Ozzy](analysis/analysis_vetogates_261021_0047.md#q1116) | 12.00 → 7.20 | 4.25 → 1.06 | 3.00 → 3.00 | 2.12 → 2.12 | 6.00 → 3.60 | 7.00 → 7.00 | 0.00 → 0.00 | 2.00 → 2.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | -10.00 | -0.72 | -1.70 | 0.00 | 7.56 |
+| [Scar Tissue](analysis/analysis_vetogates_261021_0047.md#q1111) | 12.00 → 7.20 | 4.25 → 1.06 | 4.00 → 4.00 | 2.82 → 2.82 | 5.00 → 2.50 | 7.00 → 7.00 | 0.00 → 0.00 | 2.00 → 2.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | -10.00 | -0.92 | -2.20 | 0.00 | 7.47 |
+| [The Heroin Diaries](analysis/analysis_vetogates_261021_0047.md#q1112) | 12.00 → 7.20 | 4.25 → 1.06 | 4.00 → 4.00 | 2.82 → 2.82 | 6.00 → 3.60 | 6.00 → 6.00 | 0.00 → 0.00 | 2.00 → 2.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | -10.00 | -1.56 | -1.90 | 0.00 | 7.23 |
+| [A New Earth](analysis/analysis_vetogates_261021_0047.md#q1123) | 4.00 → 0.80 | 4.25 → 1.06 | 4.00 → 4.00 | 2.82 → 2.82 | 4.00 → 1.60 | 5.00 → 5.00 | 0.00 → 0.00 | 1.00 → 1.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | -10.00 | 0.00 | -2.10 | 0.00 | 7.19 |
+| [Lone Survivor](analysis/analysis_vetogates_261021_0047.md#g1284) | 7.00 → 2.45 | 5.00 → 1.47 | 4.00 → 4.00 | 3.00 → 3.00 | 6.00 → 3.60 | 6.00 → 6.00 | 2.00 → 2.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | -10.00 | -0.84 | -1.90 | 0.00 | 6.78 |
+| [The Dude De Ching](analysis/analysis_vetogates_261021_0047.md#n264eee6abf) | 8.00 → 3.20 | 3.00 → 0.53 | 4.00 → 4.00 | 2.00 → 2.00 | 5.00 → 2.50 | 6.00 → 6.00 | 0.00 → 0.00 | 2.00 → 2.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | -10.00 | 0.00 | -1.60 | -5.00 | 6.63 |
+| [The Art of Living and Dying](analysis/analysis_vetogates_261021_0047.md#g0962) | 4.00 → 0.80 | 4.00 → 0.94 | 3.00 → 3.00 | 2.00 → 2.00 | 4.00 → 1.60 | 5.00 → 5.00 | 0.00 → 0.00 | 2.00 → 2.00 | 2.00 → 2.00 | 0.50 → 0.50 | 0.00 | -10.00 | 0.00 | -1.30 | 0.00 | 6.54 |
+| [The Holy Bible (King James Version)](analysis/analysis_vetogates_261021_0047.md#nb7f45a5548) | 4.00 → 0.80 | 8.00 → 3.76 | 3.00 → 3.00 | 2.00 → 2.00 | 3.00 → 0.90 | 9.00 → 9.00 | 1.00 → 1.00 | 3.00 → 3.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | -10.00 | 0.00 | -10.00 | 0.00 | 6.46 |
+| [The Zen Teaching of Huang Po](analysis/analysis_vetogates_261021_0047.md#n0c5b1aa9d6) | 8.00 → 3.20 | 3.00 → 0.53 | 4.00 → 4.00 | 2.00 → 2.00 | 7.00 → 4.90 | 9.00 → 9.00 | 0.00 → 0.00 | 4.00 → 4.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | -10.00 | 0.00 | -10.00 | -5.00 | 5.63 |
+| [An Attempt at Exhausting a Place in Paris](analysis/analysis_vetogates_261021_0047.md#naee6ed9298) | 14.00 → 9.80 | 2.00 → 0.24 | 3.00 → 3.00 | 1.00 → 1.00 | 6.00 → 3.60 | 7.00 → 7.00 | 0.00 → 0.00 | 4.00 → 4.00 | 2.00 → 2.00 | 2.00 → 2.00 | -10.00 | 0.00 | -2.08 | -5.10 | -10.00 | 5.46 |
+| [Off The Record](analysis/analysis_vetogates_261021_0047.md#g0741) | 12.00 → 7.20 | 5.00 → 1.47 | 3.00 → 3.00 | 2.00 → 2.00 | 5.00 → 2.50 | 3.00 → 3.00 | 1.00 → 1.00 | 2.00 → 2.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | -10.00 | -0.28 | -0.60 | 0.00 | 5.29 |
+| [A Story Lately Told](analysis/analysis_vetogates_261021_0047.md#g0033) | 14.00 → 9.80 | 4.00 → 0.94 | 2.00 → 2.00 | 2.00 → 2.00 | 6.00 → 3.60 | 7.00 → 7.00 | 0.00 → 0.00 | 3.00 → 3.00 | 3.00 → 3.00 | 2.00 → 2.00 | -10.00 | -10.00 | -2.12 | -1.30 | -5.00 | 4.92 |
+| [Spiritually Incorrect Enlightenment](analysis/analysis_vetogates_261021_0047.md#g0957) | 5.00 → 1.25 | 5.00 → 1.47 | 3.00 → 3.00 | 2.00 → 2.00 | 4.00 → 1.60 | 4.00 → 4.00 | 0.00 → 0.00 | 1.00 → 1.00 | 2.00 → 2.00 | 0.50 → 0.50 | 0.00 | -10.00 | 0.00 | -2.20 | 0.00 | 4.62 |
+| [Spiritual Warfare](analysis/analysis_vetogates_261021_0047.md#g0956) | 5.00 → 1.25 | 4.00 → 0.94 | 3.00 → 3.00 | 2.00 → 2.00 | 4.00 → 1.60 | 4.00 → 4.00 | 0.00 → 0.00 | 1.00 → 1.00 | 2.00 → 2.00 | 0.50 → 0.50 | 0.00 | -10.00 | 0.00 | -1.90 | 0.00 | 4.39 |
+| [The Ascent of Humanity](analysis/analysis_vetogates_261021_0047.md#q1127) | 5.00 → 1.25 | 9.92 → 5.78 | 5.00 → 5.00 | 4.24 → 4.24 | 3.00 → 0.90 | 4.00 → 4.00 | 2.00 → 2.00 | 1.00 → 1.00 | 2.00 → 2.00 | 0.00 → 0.00 | -10.00 | -10.00 | 0.00 | -1.90 | 0.00 | 4.27 |
+| [I Am That](analysis/analysis_vetogates_261021_0047.md#ndc7acfe5cb) | 6.00 → 1.80 | 4.00 → 0.94 | 4.00 → 4.00 | 3.00 → 3.00 | 5.00 → 2.50 | 7.00 → 7.00 | 0.00 → 0.00 | 2.00 → 2.00 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 | -10.00 | 0.00 | -5.30 | -5.00 | 3.94 |
+| [Spiritual Enlightenment, the Damnedest Thing](analysis/analysis_vetogates_261021_0047.md#g0925) | 5.00 → 1.25 | 4.00 → 0.94 | 3.00 → 3.00 | 2.00 → 2.00 | 4.00 → 1.60 | 4.00 → 4.00 | 0.00 → 0.00 | 1.00 → 1.00 | 2.00 → 2.00 | 0.50 → 0.50 | 0.00 | -10.00 | 0.00 | -2.40 | 0.00 | 3.89 |
+| [Sun Rises in the Evening](analysis/analysis_vetogates_261021_0047.md#g0959) | 4.00 → 0.80 | 5.00 → 1.47 | 3.00 → 3.00 | 2.00 → 2.00 | 4.00 → 1.60 | 5.00 → 5.00 | 0.00 → 0.00 | 2.00 → 2.00 | 2.00 → 2.00 | 0.50 → 0.50 | 0.00 | -10.00 | 0.00 | -4.60 | 0.00 | 3.77 |
+| [Trump: The Art of the Deal](analysis/analysis_vetogates_261021_0047.md#g0350) | 7.00 → 2.45 | 8.00 → 3.76 | 5.00 → 5.00 | 4.00 → 4.00 | 5.00 → 2.50 | 5.00 → 5.00 | 1.00 → 1.00 | 2.00 → 2.00 | 3.00 → 3.00 | 0.50 → 0.50 | -10.00 | -10.00 | -1.56 | -3.90 | 0.00 | 3.75 |
+| [The Great Challenge](analysis/analysis_vetogates_261021_0047.md#g0969) | 4.00 → 0.80 | 4.00 → 0.94 | 3.00 → 3.00 | 2.00 → 2.00 | 4.00 → 1.60 | 5.00 → 5.00 | 0.00 → 0.00 | 2.00 → 2.00 | 2.00 → 2.00 | 0.50 → 0.50 | 0.00 | -10.00 | 0.00 | -4.40 | 0.00 | 3.44 |
+| [Dreamstate](analysis/analysis_vetogates_261021_0047.md#g0938) | 4.00 → 0.80 | 5.00 → 1.47 | 2.00 → 2.00 | 2.00 → 2.00 | 3.00 → 0.90 | 3.00 → 3.00 | 0.00 → 0.00 | 1.00 → 1.00 | 2.00 → 2.00 | 0.50 → 0.50 | 0.00 | -10.00 | 0.00 | -1.00 | 0.00 | 2.67 |
+| [The Philosophy of Andy Warhol](analysis/analysis_vetogates_261021_0047.md#n95cc0004bf) | 11.00 → 6.05 | 6.00 → 2.12 | 2.00 → 2.00 | 2.00 → 2.00 | 4.00 → 1.60 | 7.00 → 7.00 | 0.00 → 0.00 | 3.00 → 3.00 | 2.00 → 2.00 | 1.00 → 1.00 | -10.00 | -10.00 | 0.00 | -5.10 | 0.00 | 1.67 |
+| [I Am Not Ashamed](analysis/analysis_vetogates_261021_0047.md#n776dae28e5) | 9.00 → 4.05 | 3.00 → 0.53 | 3.00 → 3.00 | 2.00 → 2.00 | 7.00 → 4.90 | 6.00 → 6.00 | 0.00 → 0.00 | 2.00 → 2.00 | 2.00 → 2.00 | 1.00 → 1.00 | -10.00 | 0.00 | -2.52 | -6.30 | -5.00 | 1.66 |
+| [The Anunnaki Chronicles](analysis/analysis_vetogates_261021_0047.md#q1131) | 3.00 → 0.45 | 5.67 → 1.89 | 2.00 → 2.00 | 2.12 → 2.12 | 4.00 → 1.60 | 2.00 → 2.00 | 1.00 → 1.00 | 1.00 → 1.00 | 2.00 → 2.00 | 0.00 → 0.00 | 0.00 | 0.00 | -12.00 | -1.10 | 0.00 | 0.96 |
+| [The Genius of the Few](analysis/analysis_vetogates_261021_0047.md#q1128) | 3.00 → 0.45 | 5.67 → 1.89 | 3.00 → 3.00 | 2.82 → 2.82 | 4.00 → 1.60 | 3.00 → 3.00 | 1.00 → 1.00 | 1.00 → 1.00 | 2.00 → 2.00 | 0.00 → 0.00 | 0.00 | 0.00 | -12.00 | -4.10 | 0.00 | 0.66 |
+| [American Crusade](analysis/analysis_vetogates_261021_0047.md#g0703) | 6.00 → 1.80 | 6.00 → 2.12 | 3.00 → 3.00 | 3.00 → 3.00 | 5.00 → 2.50 | 3.00 → 3.00 | 1.00 → 1.00 | 2.00 → 2.00 | 2.00 → 2.00 | 0.50 → 0.50 | -10.00 | -10.00 | 0.00 | -0.60 | 0.00 | 0.32 |
+| [Programmed to Kill](analysis/analysis_vetogates_261021_0047.md#q1133) | 4.00 → 0.80 | 7.08 → 2.95 | 3.00 → 3.00 | 3.53 → 3.53 | 4.00 → 1.60 | 3.00 → 3.00 | 2.00 → 2.00 | 1.00 → 1.00 | 2.00 → 2.00 | 0.00 → 0.00 | -10.00 | -10.00 | 0.00 | -2.20 | 0.00 | -2.32 |
+| [The Mystery of the Grail](analysis/analysis_vetogates_261021_0047.md#na8a63131c5) | 3.00 → 0.45 | 6.00 → 2.12 | 2.00 → 2.00 | 2.00 → 2.00 | 5.00 → 2.50 | 3.00 → 3.00 | 0.00 → 0.00 | 2.00 → 2.00 | 2.00 → 2.00 | 0.50 → 0.50 | 0.00 | -10.00 | 0.00 | -8.90 | 0.00 | -2.33 |
+| [Power vs. Force](analysis/analysis_vetogates_261021_0047.md#q1136) | 2.00 → 0.20 | 2.83 → 0.47 | 2.00 → 2.00 | 1.41 → 1.41 | 4.00 → 1.60 | 2.00 → 2.00 | 0.00 → 0.00 | 1.00 → 1.00 | 2.00 → 2.00 | 0.00 → 0.00 | 0.00 | -10.00 | 0.00 | -3.10 | 0.00 | -2.42 |
+| [Blitz: Trump Will Smash the Left and Win](analysis/analysis_vetogates_261021_0047.md#g0705) | 5.00 → 1.25 | 5.00 → 1.47 | 2.00 → 2.00 | 2.00 → 2.00 | 5.00 → 2.50 | 2.00 → 2.00 | 1.00 → 1.00 | 2.00 → 2.00 | 2.00 → 2.00 | 0.50 → 0.50 | -10.00 | -10.00 | -0.24 | -0.60 | 0.00 | -4.12 |
+| [The Greek Way](analysis/analysis_vetogates_261021_0047.md#nbf6adc7afb) | 8.00 → 3.20 | 8.00 → 3.76 | 5.00 → 5.00 | 4.00 → 4.00 | 7.00 → 4.90 | 7.00 → 7.00 | 2.00 → 2.00 | 3.00 → 3.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | -10.00 | -12.00 | -9.60 | 0.00 | -4.74 |
+| [The 12th Planet](analysis/analysis_vetogates_261021_0047.md#q1134) | 2.00 → 0.20 | 4.25 → 1.06 | 2.00 → 2.00 | 2.12 → 2.12 | 4.00 → 1.60 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 → 0.00 | 2.00 → 2.00 | 0.00 → 0.00 | 0.00 | 0.00 | -12.00 | -5.00 | 0.00 | -5.02 |
+| [The Earth Chronicles](analysis/analysis_vetogates_261021_0047.md#q1135) | 2.00 → 0.20 | 5.67 → 1.89 | 2.00 → 2.00 | 2.12 → 2.12 | 2.00 → 0.40 | 2.00 → 2.00 | 1.00 → 1.00 | 0.00 → 0.00 | 2.00 → 2.00 | 0.00 → 0.00 | 0.00 | 0.00 | -12.00 | -5.00 | 0.00 | -5.39 |
+| [Oscar: The Style, Inspiration and Life of Oscar de la Renta](analysis/analysis_vetogates_261021_0047.md#g0100) | 12.00 → 7.20 | 4.00 → 0.94 | 2.00 → 2.00 | 2.00 → 2.00 | 3.00 → 0.90 | 6.00 → 6.00 | 1.00 → 1.00 | 3.00 → 3.00 | 2.00 → 2.00 | 1.50 → 1.50 | -10.00 | 0.00 | -0.96 | -2.40 | -20.00 | -6.82 |
+| [The Secret Life of Salvador Dalí](analysis/analysis_vetogates_261021_0047.md#g0134) | 7.00 → 2.45 | 3.00 → 0.53 | 2.00 → 2.00 | 1.00 → 1.00 | 4.00 → 1.60 | 6.00 → 6.00 | 0.00 → 0.00 | 2.00 → 2.00 | 3.00 → 3.00 | 1.00 → 1.00 | -10.00 | 0.00 | -3.40 | -8.40 | -5.00 | -7.22 |
+| [Stuff and Nonsense](analysis/analysis_vetogates_261021_0047.md#g0111) | 11.00 → 6.05 | 4.00 → 0.94 | 2.00 → 2.00 | 2.00 → 2.00 | 5.00 → 2.50 | 6.00 → 6.00 | 0.00 → 0.00 | 2.00 → 2.00 | 2.00 → 2.00 | 1.50 → 1.50 | -10.00 | 0.00 | -1.20 | -3.00 | -20.00 | -9.21 |
+| [The Law That Never Was](analysis/analysis_vetogates_261021_0047.md#q1137) | 3.00 → 0.45 | 4.25 → 1.06 | 2.00 → 2.00 | 1.41 → 1.41 | 4.00 → 1.60 | 3.00 → 3.00 | 1.00 → 1.00 | 1.00 → 1.00 | 1.00 → 1.00 | 0.00 → 0.00 | -10.00 | -10.00 | -4.52 | -4.10 | 0.00 | -16.10 |
+| [Best Evidence](analysis/analysis_vetogates_261021_0047.md#g0044) | 5.00 → 1.25 | 4.00 → 0.94 | 2.00 → 2.00 | 2.00 → 2.00 | 3.00 → 0.90 | 3.00 → 3.00 | 1.00 → 1.00 | 2.00 → 2.00 | 2.00 → 2.00 | 0.50 → 0.50 | -10.00 | -10.00 | -2.52 | -4.50 | -5.00 | -16.43 |
+| [Mein Kampf](analysis/analysis_vetogates_261021_0047.md#q1138) | 1.00 → 0.05 | 5.67 → 1.89 | 2.00 → 2.00 | 2.82 → 2.82 | 2.00 → 0.40 | 2.00 → 2.00 | 2.00 → 2.00 | 1.00 → 1.00 | 1.00 → 1.00 | 0.00 → 0.00 | -10.00 | -10.00 | 0.00 | -10.00 | 0.00 | -16.84 |
+
+### Good To Great
+
+**V1; moderate confidence.** Retain V1 at moderate confidence: the documented selection of transition dates, missing risk adjustment and weak out-of-period checks undermine the advertised discovery of portable success causes. Collins's acknowledgment of correlation and the framework's practical interest are considered. Later company failures alone are not the reason.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0154). Sources: 115, 149.
+
+### Nothing Like It in the World
+
+**V1; moderate confidence.** Retain V1 at moderate confidence: the specialist errata identify numerous material construction, finance and quantitative errors. Reports conflict about paperback corrections; a reliably corrected edition remains unverified.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#nc7d6716583). Sources: 141, 143.
+
+### How to Create a Mind
+
+**V1; V4; moderate confidence.** Retain V1 and V4 at moderate confidence: the specialist critique challenges the leap from engineering pattern-recognition systems to an adequate theory of the neocortex. The advertised explanatory breakthrough outruns its evidence. This is a central present explanatory claim, not a veto merely for discussing future AI.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#nc91dae0186). Sources: 135.
+
+### The Future Is Faster Than You Think
+
+**V4; moderate confidence.** Retain V4: the book's published flying-car extract moves from demonstrations and company targets to declaring the transition already here and infrastructure imminent. Together with its decade-wide transformation promise, this shows premature importance claims rather than sufficiently guarded scenario analysis.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0402). Sources: 116.
 
 ### Operation Paperclip
 
-**Veto:** V1; confidence high. **Counterfactual:** 59/100; confidence low. **Sources:** 4. **T:** 0; none.
+**V1; moderate confidence.** Retain V1: Neufeld documents recurring technical and institutional errors and invented dramatic detail, including treating V1 and V2 as successive versions. Those failures affect the central technological narrative, independently of the moral position.
 
-E7 / M9 / U8 / S10 / D5 / R7 / F7 / A2 / N3 / P1 / T0.
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1004). Sources: 4, 5, 139.
 
-Neufeld identifies repeated technical and institutional errors, invented scene detail and weak archival citations in material within his expertise. These are substantial reliability defects in the book's core technology-recruitment account, not merely disagreement with its moral stance. V1 has high confidence. The counterfactual preserves strategic topic value while sharply reducing E/A/P; the cross-national transfer of expertise receives T0.
+### The Great Illusion
 
-[Reader record and book description](https://www.goodreads.com/book/show/230762228-operation-paperclip); [Michael J. Neufeld's specialist review](https://www.thespacereview.com/article/2769/1).
+**V1; moderate confidence.** Retain the independent V1 finding: the argument overstates how far economic interdependence removes material gains from territorial control. The case is not that Angell claimed war was impossible, and peace advocacy is not a veto.
 
-[Source 4 assessment](analysis_mustreads_261017_2010.md#m013).
-
-**Source 5 reassessment:** veto V1 retained; confidence high. All ten criteria and T unchanged; counterfactual **59/100**, score confidence low. Contributing sources: **4, 5**. V1, high confidence, remains. The previously documented specialist objections concern technical and institutional errors and unsupported reconstructed detail in the core account. A new endorsement supplies no correction. Strategic subject fit and cross-system links still support F/S, while E/A/P remain low. All counterfactual criteria and T=0 are unchanged. [Latest assessment](analysis_changedmind_261017_2105.md#c099).
-
-### The Devil's Chessboard
-
-**Veto:** V1; confidence moderate. **Counterfactual:** 48/100; confidence low. **Sources:** 2, 4. **T:** -10; US political power and American tragedy.
-
-E8 / M9 / U8 / S9 / D5 / R6 / F6 / A3 / N3 / P1 / T-10.
-
-The new praise concerns compulsive reading, not the evidential link to the assassination allegation. Reassessment keeps E8/M9 and the prior moderate-confidence V1; U8/S9/F6 preserve real intelligence-history relevance. D5/R6/A3/N3/P1 and T-10 stand. The CIA affiliation of the cited critic remains a material limitation, not a reason to ignore the specific inferential gap.
-
-[Reader record and book description](https://www.goodreads.com/book/show/32671498-the-devil-s-chessboard); [CIA Studies in Intelligence review](https://www.cia.gov/resources/csi/static/review-the-devils-chessboard.pdf).
-
-[Source 4 assessment](analysis_mustreads_261017_2010.md#m063); prior reports: [analysis_top3alltime_261017_1900.md](analysis_top3alltime_261017_1900.md).
-
-### Brothers
-
-**Veto:** V1; confidence moderate; conditional on the probable David Talbot identification. **Counterfactual:** 43/100; confidence low. **Sources:** 4. **T:** -10; American political figures and assassination.
-
-E8 / M8 / U7 / S8 / D5 / R6 / F4 / A3 / N3 / P1 / T-10.
-
-The bare reference Brothers (JFK and RFK) most likely denotes Talbot's book, but the author was not given. On that identification, specific criticism of unsupported documentary inferences and the organizing assassination suspicion support V1 at moderate confidence. Favorable reception and criticism of the critic are acknowledged. Identity confidence is moderate; the counterfactual and veto are conditional, not certain identification.
-
-[Reader record and book description](https://www.goodreads.com/book/show/524654.Brothers); [Bohning's critique and Talbot's response](https://www.historynewsnetwork.org/blog/40789); [Favorable Publishers Weekly review](https://www.publishersweekly.com/9780743269186).
-
-[Source 4 assessment](analysis_mustreads_261017_2010.md#m158).
-
-
-### A First-Rate Madness
-
-**Veto:** V1; confidence moderate. **Counterfactual:** 40/100; confidence low. **Sources:** 4. **T:** -10; political leaders and disease.
-
-E7 / M7 / U7 / S6 / D6 / R6 / F3 / A4 / N3 / P1 / T-10.
-
-The advertised claim that mood disorders make the best crisis leaders goes beyond selected retrospective diagnoses and leadership anecdotes. Selection on famous outcomes, uncertain diagnoses and unmeasured counterexamples prevent the proposed causal conclusion. V1 is this assessment's inference, at moderate confidence. Clinical authority earns A but does not repair historical identification; T applies once.
-
-[Reader record and book description](https://www.goodreads.com/book/show/12213551); [Publisher's central claim](https://www.penguinrandomhouse.com/books/305742/a-first-rate-madness-by-nassir-ghaemi/); [Kirkus review](https://www.kirkusreviews.com/book-reviews/nassir-ghaemi/first-rate-madness/).
-
-[Source 4 assessment](analysis_mustreads_261017_2010.md#m023).
-
-### Crying in H Mart
-
-**Veto:** V3; confidence moderate. **Counterfactual:** 40/100; confidence low. **Sources:** 4. **T:** -10; disease, minority identity and media celebrity.
-
-E15 / M4 / U4 / S3 / D8 / R8 / F0 / A3 / N3 / P2 / T-10.
-
-The memoir's central value is personal grief, cultural belonging and remembered food. The checked material does not establish much reusable mechanism after those relationships and experiences are removed, so V3 applies at moderate confidence. Counterfactual E/D/R/N/P still credit direct testimony and literary control. T remains -10; the veto is payload, not identity or disease by itself.
-
-[Reader record and book description](https://www.goodreads.com/book/show/185988169-crying-in-h-mart).
-
-[Source 4 assessment](analysis_mustreads_261017_2010.md#m130).
-
-### The Hot Zone
-
-**Veto:** V1; confidence moderate. **Counterfactual:** 38/100; confidence low. **Sources:** 2, 3, 4. **T:** -10; disease.
-
-E8 / M7 / U6 / S6 / D7 / R5 / F2 / A3 / N3 / P1 / T-10.
-
-Reassessed both prior decisions: source 2 retained it at 44; source 3 vetoed it at counterfactual 38 after specific criticism of bodily effects and risk framing. The new comment repeats the horror response and supplies no corrective evidence. Keep source 3's full vector and V1 at moderate confidence; laboratory response still earns limited M/U/S.
-
-[Reader record and book description](https://www.goodreads.com/book/show/13067775); [Specific criticism of The Hot Zone](https://www.wlrn.org/npr-breaking-news/2014-11-11/how-the-hot-zone-got-it-wrong-and-other-tales-of-ebolas-history); [CDC: Reston and human infection](https://www.cdc.gov/mmwr/volumes/65/su/su6503a2.htm).
-
-[Source 4 assessment](analysis_mustreads_261017_2010.md#m010); prior reports: [analysis_top3alltime_261017_1900.md](analysis_top3alltime_261017_1900.md); [analysis_obscurebooks_261017_1936.md](analysis_obscurebooks_261017_1936.md).
-
-### Second Sunrise
-
-**Veto:** V3; confidence moderate. **Counterfactual:** 37/100; confidence low. **Sources:** 4. **T:** -10; US local sporting history.
-
-E15 / M4 / U3 / S4 / D5 / R7 / F0 / A4 / N3 / P2 / T-10.
-
-The publisher describes a photographic history of a particular race, its runners and traditions. After local names, race milestones and personalities are removed, little analytical payload is established. V3 has moderate confidence. Direct participation supports A and the visual narrative supports N, but neither substitutes for mechanisms; the American local-history focus receives T.
-
-[Reader record and book description](https://www.goodreads.com/book/show/139289570-second-sunrise); [Publisher's description](https://broadbookpress.com/second-sunrise).
-
-[Source 4 assessment](analysis_mustreads_261017_2010.md#m015).
-
-### Scattered Minds
-
-**Veto:** V1; confidence moderate. **Counterfactual:** 36/100; confidence low. **Sources:** 4. **T:** -10; disease.
-
-E7 / M7 / U6 / S6 / D6 / R5 / F2 / A3 / N3 / P1 / T-10.
-
-The book's advertised account treats attention disorder as a reversible developmental response to stress, while acknowledging some genetic predisposition. Modern genetic findings do not by themselves exclude environmental effects, but they undermine dismissal of inherited causation; the stress-to-disorder and cure claims are not adequately identified. V1 has moderate confidence. The counterfactual retains practical and autobiographical content.
-
-[Reader record and book description](https://www.goodreads.com/book/show/1351181.Scattered_Minds); [Author's description](https://drgabormate.com/book/scattered-minds/); [Demontis et al., 2023: ADHD genetic association study](https://www.nature.com/articles/s41588-022-01285-8).
-
-[Source 4 assessment](analysis_mustreads_261017_2010.md#m034).
-
-### What Remains
-
-**Veto:** V3; confidence moderate. **Counterfactual:** 36/100; confidence low. **Sources:** 4. **T:** -10; celebrity, disease and American tragedy.
-
-E15 / M3 / U3 / S3 / D7 / R7 / F0 / A3 / N3 / P2 / T-10.
-
-The central value is intimate testimony about love, illness and bereavement. Once the personal relationships and famous family are removed, the checked material supplies little explicit mechanism, constraint or reusable decision method. V3 applies at moderate confidence. The counterfactual still credits memoir access and readable prose; it does not invent analytical depth.
-
-[Reader record and book description](https://www.goodreads.com/book/show/179462600-what-remains).
-
-[Source 4 assessment](analysis_mustreads_261017_2010.md#m006).
-
-### Wishful Drinking
-
-**Veto:** V3; confidence moderate. **Counterfactual:** 35/100; confidence low. **Sources:** 4. **T:** -10; media celebrity and disease.
-
-E14 / M3 / U3 / S3 / D7 / R7 / F0 / A3 / N3 / P2 / T-10.
-
-The stage-derived memoir's main value is comic personal testimony about family, fame and illness. The checked scope does not establish a substantial reusable model once personalities and incidents are removed. V3 has moderate confidence. Voice and direct experience earn counterfactual credit, while M/U/S/F remain low. T applies once to celebrity and disease.
-
-[Reader record and book description](https://www.goodreads.com/book/show/6734757-wishful-drinking).
-
-[Source 4 assessment](analysis_mustreads_261017_2010.md#m052).
-
-### The Places We Run
-
-**Veto:** V3; confidence moderate. **Counterfactual:** 34/100; confidence low. **Sources:** 4. **T:** -10; US regional trail history.
-
-E14 / M3 / U3 / S4 / D6 / R7 / F1 / A3 / N2 / P1 / T-10.
-
-This is the identifiable ebook STATES: The Places We Run. Its main content explains local trail names and historical people and places. The checked material does not establish a substantial reusable model beyond that locality. V3 has moderate confidence; historical and geographic interest still receive counterfactual credit. T concerns regional American history, not running itself.
-
-[Local book notice and scope](https://www.parc-auburn.org/uploads/5/8/0/1/58018097/confluencedec2023b_1.pdf).
-
-[Source 4 assessment](analysis_mustreads_261017_2010.md#m014).
-
-### Scar Tissue
-
-**Veto:** V3; confidence moderate. **Counterfactual:** 31/100; confidence low. **Sources:** 4. **T:** -10; media celebrity and addiction.
-
-E12 / M4 / U4 / S3 / D5 / R7 / F0 / A2 / N3 / P1 / T-10.
-
-The checked material centers on the performer's life, relationships and repeated addiction experiences. It establishes little systematic mechanism or decision method after those particulars are removed. V3 has moderate confidence, separately from the thematic dislike. Counterfactual evidence and narrative points credit firsthand access; T applies once to celebrity and illness-related content.
-
-[Reader record and book description](https://www.goodreads.com/book/show/43258137-scar-tissue).
-
-[Source 4 assessment](analysis_mustreads_261017_2010.md#m153).
-
-### Autobiography of a Yogi
-
-**Current rule-5 update (2026-10-18): V1; V5. V5 confidence: high; prior grounds: high.** The memoir teaches and promotes a religious path through its spiritual lineage and miracle accounts. V5 applies independently of the existing high-confidence V1 judgment. [Review](analysis_veto5_261018_1428.md#old-v5-53). The prior score vector and total are unchanged; counterfactual score confidence remains low.
-
-**Earlier source reasoning (preserved; its statements that religion or advocacy alone were insufficient are superseded by V5):**
-
-**Veto:** V1; confidence high. **Counterfactual:** 29/100; confidence low. **Sources:** 4. **T:** 0; none.
-
-E3 / M3 / U3 / S3 / D5 / R7 / F0 / A2 / N2 / P1 / T0.
-
-Miracles, reincarnation and spiritual authority are presented as explanations of reality rather than as externally testable claims. They are central to the book's advertised intellectual content, so V1 has high confidence under the requested standard. The memoir has cultural and historical value, retained in its counterfactual, but this does not restore evidential reliability. T0: religion is not a listed thematic deduction.
-
-[Reader record and book description](https://www.goodreads.com/book/show/6270751-autobiography-of-a-yogi); [Author's organization: book description](https://yogananda.org/autobiography-of-a-yogi).
-
-[Source 4 assessment](analysis_mustreads_261017_2010.md#m135).
-
-**Source 7 reassessment (2026-10-17, 22:27:32 +02:00):** V1 remains high-confidence: miracle and supernatural claims are treated as factual support for the worldview. The new nomination supplies no independent validation. The flawed counterfactual remains E3/M3/U3/S3/D5/R7/F0/A2/N2/P1/T0 = 29. Religious subject matter alone is not the veto or a thematic deduction.
-
-**Current contributing sources:** 4, 7. **Veto:** V1, high confidence. **Counterfactual:** E3 / M3 / U3 / S3 / D5 / R7 / F0 / A2 / N2 / P1 / T0 = **29/100**, low score confidence. [Full current assessment](analysis_anysubject_261017_2227.md#a084).
-
-### A New Earth
-
-**Current rule-5 update (2026-10-18): V1; V5. V5 confidence: high; prior grounds: moderate.** The book promotes spiritual transformation and awakening as its central purpose. V5 applies independently of the existing V1 concerns. [Review](analysis_veto5_261018_1428.md#old-v5-56). The prior score vector and total are unchanged; counterfactual score confidence remains low.
-
-**Earlier source reasoning (preserved; its statements that religion or advocacy alone were insufficient are superseded by V5):**
-
-**Veto:** V1; confidence moderate. **Counterfactual:** 28/100; confidence low. **Sources:** 4. **T:** 0; none.
-
-E4 / M4 / U4 / S3 / D4 / R5 / F0 / A1 / N2 / P1 / T0.
-
-The organizing claim makes a spiritual transformation of ego the route to ending personal and global suffering. It does not provide a testable evidential bridge for that broad causal claim. V1 applies at moderate confidence; this is not a veto merely for religion or contemplative practice. T0 follows because spirituality is not one of rule 11's listed themes.
-
-[Reader record and book description](https://www.goodreads.com/book/show/3099981-new-earth); [Publisher's description](https://www.penguinrandomhouse.com/books/291884/a-new-earth-oprahs-book-club-by-eckhart-tolle/).
-
-[Source 4 assessment](analysis_mustreads_261017_2010.md#m036).
-
-### Desert Soliloquy
-
-**Veto:** V3; confidence moderate. **Counterfactual:** 24/100; confidence low. **Sources:** 4. **T:** -10; American local desert history.
-
-E10 / M3 / U3 / S3 / D5 / R6 / F0 / A1 / N2 / P1 / T-10.
-
-The author's account emphasizes comic cave-living stories and regional historical characters. The checked scope establishes little transferable mechanism beyond personal withdrawal and local anecdotes. V3 has moderate confidence; it is a real memoir, not a discarded joke title. Limited independent scrutiny constrains E/A, and the predominant regional American subject receives T.
-
-[Reader record and book description](https://www.goodreads.com/book/show/60848474-desert-soliloquy-second-edition); [Author's description](https://davidmichaelrice.com/).
-
-[Source 4 assessment](analysis_mustreads_261017_2010.md#m136).
-
-### Human Smoke
-
-**Current rule-5 update (2026-10-18): V1; V5. V5 confidence: moderate; prior grounds: moderate.** The selected historical fragments serve a sustained pacifist political argument about the Second World War. V5 independently applies to the antiwar polemic; the existing V1 concern about inference remains. [Review](analysis_veto5_261018_1428.md#old-v5-11). The prior score vector and total are unchanged; counterfactual score confidence remains low.
-
-**Earlier source reasoning (preserved; its statements that religion or advocacy alone were insufficient are superseded by V5):**
-
-**Veto:** V1; confidence moderate. **Counterfactual:** 48/100; confidence low. **Sources:** 5. **T=0:** International war and strategic choice.
-
-E7 / M6 / U5 / S8 / D5 / R7 / F5 / A2 / N2 / P1 / T0.
-
-V1, moderate confidence. Documentary fragments are real evidence, but chronology and juxtaposition do not establish the book's broad counterfactual conclusion about whether fighting the war helped anyone. Missing context and selective comparison damage the central inference, not just a peripheral detail. The counterfactual score retains those flaws. Historical fragments and concise scenes supply limited residual value.
-
-[Scope / edition evidence](https://www.simonandschuster.com/books/Human-Smoke/Nicholson-Baker/9781416572466) · [Menand: inference and context](https://www.newyorker.com/magazine/2008/04/14/peace-now) · [Publishers Weekly: scope and context](https://www.publishersweekly.com/9781416567844).
-
-[Source 5 assessment](analysis_changedmind_261017_2105.md#c040).
-
-### Expecting Adam
-
-**Current rule-5 update (2026-10-18): V1; V5. V5 confidence: high; prior grounds: moderate.** Miraculous guidance and spiritual transformation organize the memoir. That substantial religious purpose meets V5 independently of the existing V1 judgment. [Review](analysis_veto5_261018_1428.md#old-v5-57). The prior score vector and total are unchanged; counterfactual score confidence remains low.
-
-**Earlier source reasoning (preserved; its statements that religion or advocacy alone were insufficient are superseded by V5):**
-
-**Veto:** V1; confidence moderate. **Counterfactual:** 28/100; confidence low. **Sources:** 5. **T=0:** Spiritual memoir; no listed predominant thematic deduction.
-
-E3 / M3 / U3 / S3 / D5 / R6 / F0 / A2 / N2 / P1 / T0.
-
-V1, moderate confidence. The author and publisher make miraculous guidance and supernatural experience central to the transformation story. Personal conviction is not evidence that these events have an external supernatural cause. The counterfactual score retains that epistemic weakness. Family experience and readable memoir provide limited residual value, but they do not repair the central explanatory claim.
-
-[Scope / edition evidence](https://www.hachette.co.uk/titles/martha-beck/expecting-adam/9780749921903/) · [Author: central miraculous-experience claims](https://marthabeck.com/product/expecting-adam/).
-
-[Source 5 assessment](analysis_changedmind_261017_2105.md#c047).
-
-### A Child Called It
-
-**Veto:** V3; confidence moderate. **Counterfactual:** 29/100; confidence low. **Sources:** 5. **T=-10:** American childhood abuse and personal tragedy.
-
-E10 / M4 / U4 / S3 / D7 / R6 / F0 / A2 / N2 / P1 / T-10.
-
-V3, moderate confidence. The core is a sequence of personal abuse and survival episodes. Removing the individual ordeal leaves little developed explanation of institutional mechanisms or reusable decision rules. This is a payload judgment, not a finding that the testimony is false. Limited retrospective evidence constrains E/A; narrative readability and historical persistence retain D/R/N. The counterfactual score keeps the narrow scope and American-tragedy deduction.
-
-[Scope / edition evidence](https://www.simonandschuster.com/books/A-Child-Called-It/Dave-Pelzer/9781558743663).
-
-[Source 5 assessment](analysis_changedmind_261017_2105.md#c067).
-
-### The New Left / The Return of the Primitive
-
-**Current rule-5 update (2026-10-18): V2; V5. V5 confidence: high; prior grounds: moderate.** The essays defend Objectivist political values against opposing cultural and environmental programs. The sustained ideological polemic directly meets V5, alongside the existing V2 judgment. [Review](analysis_veto5_261018_1428.md#old-v5-32). The prior score vector and total are unchanged; counterfactual score confidence remains low.
-
-**Earlier source reasoning (preserved; its statements that religion or advocacy alone were insufficient are superseded by V5):**
-
-**Veto:** V2; confidence moderate. **Counterfactual:** 37/100; confidence low. **Sources:** 5. **T=-10:** American cultural politics and environmental polemic.
-
-E7 / M7 / U6 / S6 / D6 / R6 / F3 / A3 / N2 / P1 / T-10.
-
-V2, moderate confidence. The organizing argument classifies diverse opponents as irrational or primitive through a prior philosophical allegiance. The published framing and representative material do not supply symmetric tests of rival explanations. Some arguments for industry and individual agency remain, but the counterfactual score retains the doctrinal reduction. The 1999 expanded edition contains the 1971 essays plus Peter Schwartz's additions.
-
-[Scope / edition evidence](https://www.penguinrandomhouse.com/books/331169/the-return-of-the-primitive-by-ayn-rand/9780452011847/) · [Ayn Rand Institute: contents and governing argument](https://estore.aynrand.org/products/return-of-the-primitive-the-anti-industrial-revolution) · [Original and expanded edition distinction](https://courses.aynrand.org/works/return-of-the-primitive-exp-edition-of-the-new-left/).
-
-[Source 5 assessment](analysis_changedmind_261017_2105.md#c072).
-
-### Legacy of Ashes
-
-**Veto:** V1; confidence moderate. **Counterfactual:** 58/100; confidence low. **Sources:** 5. **T=0:** International intelligence and strategic institutions.
-
-E7 / M9 / U8 / S9 / D5 / R7 / F6 / A3 / N3 / P1 / T0.
-
-V1, moderate confidence. Specialist criticism identifies factual and source-context errors that support a uniformly failure-driven history. The ICBM-estimate chronology is a concrete example. A CIA historian has institutional interests, so the decision also considers external intelligence-history criticism. The counterfactual score preserves real access, narrative skill and strategic scope while retaining the reliability defects.
-
-[Scope / edition evidence](https://www.penguinrandomhouse.com/books/188076/legacy-of-ashes-national-book-award-winner-by-tim-weiner/) · [Dujmovic: documented errors and context](https://www.cia.gov/resources/csi/static/legacy-of-ashes.pdf) · [Richelson: independent specialist criticism](https://web.archive.org/web/20081008084108/http://www.washingtondecoded.com/site/2007/09/sins-of-omissio.html).
-
-[Source 5 assessment](analysis_changedmind_261017_2105.md#c114).
-
-### The Half Has Never Been Told
-
-**Veto:** V1; confidence high. **Counterfactual:** 44/100; confidence low. **Sources:** 5. **T=-10:** American slavery and racial economic history.
-
-E6 / M8 / U7 / S9 / D6 / R7 / F4 / A3 / N3 / P1 / T-10.
-
-V1, high confidence. The central account links rising cotton productivity to intensified coercion while inadequately handling biological innovation, and uses problematic aggregation to estimate slavery's contribution to national output. Economic historians identify these as causal and accounting defects. The veto concerns the explanatory claims, not the reality or severity of slavery. The counterfactual score keeps both the documented historical material and these flaws.
-
-[Scope / edition evidence](https://www.hachettebookgroup.com/titles/edward-e-baptist/the-half-has-never-been-told/9780465049660/?lens=basic-books) · [Hilt: economic history and causal/accounting objections](https://www.cambridge.org/core/journals/journal-of-economic-history/article/economic-history-historical-analysis-and-the-new-history-of-capitalism/E17BEA48B930F6F25F328B5A79332A6E) · [Olmstead and Rhode: cotton productivity and the new history of capitalism](https://ideas.repec.org/a/eee/exehis/v67y2018icp1-17.html).
-
-[Source 5 assessment](analysis_changedmind_261017_2105.md#c119).
-
-### Sex at Dawn
-
-**Veto:** V1; confidence moderate. **Counterfactual:** 46/100; confidence low. **Sources:** 6. **T=0:** Sexual behavior is not a listed thematic deduction.
-
-E7 / M8 / U6 / S6 / D6 / R6 / F1 / A2 / N3 / P1 / T0.
-
-Selective comparative evidence undermines the ancestral-mating thesis. The counterfactual retains the identified defect; the full criterion rationale and evidence are in the [source 6 assessment](analysis_bestever_261017_2138.md#b031).
-
-[Scope / edition record](<https://pmc.ncbi.nlm.nih.gov/articles/PMC10426919/>) · [Ellsworth: specialist review](<https://journals.sagepub.com/doi/10.1177/147470491100900305>).
-
-### The Man Who Mistook His Wife for a Hat
-
-**Veto:** V1; confidence high. **Counterfactual:** 42/100; confidence low. **Sources:** 6. **T=-10:** Neurological disorders.
-
-E7 / M8 / U6 / S5 / D8 / R7 / F3 / A4 / N3 / P1 / T-10.
-
-Altered case narratives weaken the evidential basis. The counterfactual retains the identified defect; the full criterion rationale and evidence are in the [source 6 assessment](analysis_bestever_261017_2138.md#b033).
-
-[Scope / edition record](<https://www.penguinrandomhouse.com/books/691748/the-man-who-mistook-his-wife-for-a-hat-by-oliver-sacks/9780593466674/>) · [Aviv: archival investigation, December 2025](<https://www.newyorker.com/magazine/2025/12/15/oliver-sacks-put-himself-into-his-case-studies-what-was-the-cost>).
-
-
-### Papillon
-
-**Veto:** V1; confidence moderate. **Counterfactual:** 38/100; confidence low. **Sources:** 6. **T=0:** Escape memoir; no automatic national-history deduction.
-
-E6 / M5 / U5 / S3 / D7 / R6 / F1 / A1 / N3 / P1 / T0.
-
-The claimed firsthand adventures have substantial factual and attribution failures. The counterfactual retains the identified defect; the full criterion rationale and evidence are in the [source 6 assessment](analysis_bestever_261017_2138.md#b079).
-
-[Scope / edition record](<https://www.penguinrandomhouse.com/books/579270/papillon-spanish-edition-by-henri-charriere/>) · [Weightman: contemporary review](<https://www.nybooks.com/articles/1970/10/08/moth-myth/>) · [Warwick: investigation and genre dispute](<https://warwick.ac.uk/fac/arts/modernlanguages/applying/undergraduate/frenchmodules/fr325ps/outline/policing4/papillon_session_2_of_2.pdf>).
-
-### Three Cups of Tea
-
-**Veto:** V1; confidence high. **Counterfactual:** 37/100; confidence low. **Sources:** 6. **T=0:** International philanthropy and education.
-
-E5 / M5 / U5 / S4 / D6 / R5 / F2 / A1 / N3 / P1 / T0.
-
-Material challenges undermine the central founding and kidnapping narratives. The counterfactual retains the identified defect; the full criterion rationale and evidence are in the [source 6 assessment](analysis_bestever_261017_2138.md#b111).
-
-[Scope / edition record](<https://www.pbs.org/newshour/show/questions-over-three-cups-of-tea-author-s-credibility-charity>).
-
-### Life Among the Savages
-
-**Veto:** V3; confidence moderate. **Counterfactual:** 36/100; confidence low. **Sources:** 6. **T=-10:** American domestic and small-town memoir.
-
-E14 / M3 / U3 / S2 / D8 / R8 / F0 / A3 / N3 / P2 / T-10.
-
-Domestic sketches leave little developed transferable analysis. The counterfactual retains the identified defect; the full criterion rationale and evidence are in the [source 6 assessment](analysis_bestever_261017_2138.md#b086).
-
-[Scope / edition record](<https://www.penguinrandomhouse.com/books/318211/life-among-the-savages-by-shirley-jackson/>).
-
-### The Long Walk
-
-**Veto:** V1; confidence high. **Counterfactual:** 34/100; confidence low. **Sources:** 6. **T=0:** International escape narrative.
-
-E4 / M4 / U4 / S3 / D7 / R6 / F1 / A1 / N3 / P1 / T0.
-
-Documentary records conflict with the claimed escape narrative. The counterfactual retains the identified defect; the full criterion rationale and evidence are in the [source 6 assessment](analysis_bestever_261017_2138.md#b080).
-
-[Scope / edition record](<https://www.historynewsnetwork.org/article/did-slawomir-rawicz-truly-walk-from-soviet-gulag-t>).
-
-### Vacationland
-
-**Veto:** V3; confidence moderate. **Counterfactual:** 34/100; confidence low. **Sources:** 6. **T=-10:** American regional life and media personality.
-
-E14 / M3 / U3 / S3 / D7 / R7 / F0 / A2 / N3 / P2 / T-10.
-
-Personal comic episodes leave little developed transferable analysis. The counterfactual retains the identified defect; the full criterion rationale and evidence are in the [source 6 assessment](analysis_bestever_261017_2138.md#b083).
-
-[Scope / edition record](<https://www.penguinrandomhouse.com/books/557020/vacationland-by-john-hodgman/>).
-
-### The Heroin Diaries
-
-**Veto:** V3; confidence moderate. **Counterfactual:** 31/100; confidence low. **Sources:** 6. **T=-10:** Celebrity and addiction.
-
-E12 / M4 / U4 / S3 / D6 / R6 / F0 / A2 / N3 / P1 / T-10.
-
-Personal addiction diary leaves little developed transferable analysis. The counterfactual retains the identified defect; the full criterion rationale and evidence are in the [source 6 assessment](analysis_bestever_261017_2138.md#b037).
-
-[Scope / edition record](<https://www.simonandschuster.co.uk/books/The-Heroin-Diaries/Nikki-Sixx/9781471171239>).
-
-### I Am Ozzy
-
-**Veto:** V3; confidence moderate. **Counterfactual:** 30/100; confidence low. **Sources:** 6. **T=-10:** Media celebrity and addiction.
-
-E12 / M3 / U3 / S3 / D6 / R7 / F0 / A2 / N3 / P1 / T-10.
-
-Celebrity anecdotes leave little developed transferable analysis. The counterfactual retains the identified defect; the full criterion rationale and evidence are in the [source 6 assessment](analysis_bestever_261017_2138.md#b035).
-
-[Scope / edition record](<https://www.hachettebookgroup.com/titles/ozzy-osbourne/i-am-ozzy/9780446569903/>).
-
-### The Power of Now
-
-**Current rule-5 update (2026-10-18): V1; V5. V5 confidence: high; prior grounds: moderate.** Spiritual awakening and liberation from the ego are the central teachings. V5 applies to this religious-spiritual account independently of the existing V1 judgment. [Review](analysis_veto5_261018_1428.md#old-v5-51). The prior score vector and total are unchanged; counterfactual score confidence remains low.
-
-**Earlier source reasoning (preserved; its statements that religion or advocacy alone were insufficient are superseded by V5):**
-
-**Veto:** V1; confidence moderate. **Counterfactual:** 30/100; confidence low. **Sources:** 6. **T=0:** Spiritual self-help is not a T category.
-
-E4 / M4 / U4 / S3 / D5 / R6 / F0 / A1 / N2 / P1 / T0.
-
-Introspection does not establish the proposed general spiritual mechanism. The counterfactual retains the identified defect; the full criterion rationale and evidence are in the [source 6 assessment](analysis_bestever_261017_2138.md#b126).
-
-[Scope / edition record](<https://books.google.com/books/about/The_Power_of_Now.html?id=sQYqRCIhFAMC>) · [Earlier related-work assessment: A New Earth](<analysis_mustreads_261017_2010.md#m036>).
-
-### The Book of Enoch
-
-**Current rule-5 update (2026-10-18): V1 (conditional); V5. V5 confidence: high (conditional identity); prior grounds: moderate.** For the assumed work, 1 Enoch, the religious and apocalyptic character directly meets V5. Identity uncertainty remains; this is not a resolution among 1, 2 and 3 Enoch. The prior V1 judgment is retained conditionally. [Review](analysis_veto5_261018_1428.md#old-v5-54). The prior score vector and total are unchanged; counterfactual score confidence remains low.
-
-**Earlier source reasoning (preserved; its statements that religion or advocacy alone were insufficient are superseded by V5):**
-
-**Veto:** V1; confidence moderate. **Counterfactual:** 29/100; confidence low. **Sources:** 6. **T=0:** Apocalyptic religion; no listed thematic deduction.
-
-E4 / M3 / U2 / S3 / D4 / R8 / F0 / A2 / N2 / P1 / T0.
-
-Supernatural cosmology lacks independently established evidence. Conditional: 1 Enoch is assumed; 2 Enoch and 3 Enoch are distinct works. The counterfactual retains the identified defect; the full criterion rationale and evidence are in the [source 6 assessment](analysis_bestever_261017_2138.md#b118).
-
-[Scope / edition record](<https://academic.oup.com/book/45589/chapter-abstract/394766115>).
-
-### The Biology of Belief
-
-**Current rule-5 update (2026-10-18): V1; V5. V5 confidence: moderate; prior grounds: high.** The account of biology advances a spiritual worldview about belief and personal transformation. V5 independently applies to that substantial purpose; the prior high-confidence V1 claim remains unchanged. [Review](analysis_veto5_261018_1428.md#old-v5-58). The prior score vector and total are unchanged; counterfactual score confidence remains low.
-
-**Earlier source reasoning (preserved; its statements that religion or advocacy alone were insufficient are superseded by V5):**
-
-**Veto:** V1; confidence high. **Counterfactual:** 27/100; confidence low. **Sources:** 6. **T=0:** Belief and biology; no separate listed theme established.
-
-E3 / M4 / U3 / S3 / D5 / R3 / F1 / A2 / N2 / P1 / T0.
-
-Gene regulation does not establish broad biological control by belief. The counterfactual retains the identified defect; the full criterion rationale and evidence are in the [source 6 assessment](analysis_bestever_261017_2138.md#b100).
-
-[Scope / edition record](<https://www.simonandschuster.com/authors/Bruce-H-Lipton/263299246>) · [NHGRI: what epigenetics establishes](<https://www.genome.gov/genetics-glossary/Epigenetics>).
-
-### The Law That Never Was
-
-**Current rule-5 update (2026-10-18): V1; V5. V5 confidence: moderate; prior grounds: high.** The historical-legal claim is used to promote tax resistance. That political campaign meets V5; the existing high-confidence V1 judgment is not replaced by a weaker category finding. [Review](analysis_veto5_261018_1428.md#old-v5-69). The prior score vector and total are unchanged; counterfactual score confidence remains low.
-
-**Earlier source reasoning (preserved; its statements that religion or advocacy alone were insufficient are superseded by V5):**
-
-**Veto:** V1; confidence high. **Counterfactual:** 10/100; confidence low. **Sources:** 6. **T=-10:** American tax and constitutional controversy.
-
-E3 / M2 / U2 / S3 / D4 / R3 / F1 / A1 / N1 / P0 / T-10.
-
-The central non-ratification inference fails against the appellate record. The counterfactual retains the identified defect; the full criterion rationale and evidence are in the [source 6 assessment](analysis_bestever_261017_2138.md#b106).
-
-[Scope / edition record](<https://law.justia.com/cases/federal/appellate-courts/ca7/08-1312/08-1312-2009-04-06-opinion-2011-02-25.html>).
-
-### The Decline of the West
-
-**Source 7 reassessment (2026-10-17, 22:27:32 +02:00):** V1, moderate confidence. The central scheme gives cultures an organism-like life cycle and treats civilizational decline as destiny. Analogy can generate hypotheses, but it does not establish those necessary stages or their causes. The source's claim that the pattern is unfolding now adds no test. Historical influence and broad comparisons remain credited; the unsupported causal structure remains in the counterfactual.
-
-**Current contributing sources:** 7. **Veto:** V1, moderate confidence. **Counterfactual:** E6 / M7 / U6 / S8 / D3 / R7 / F4 / A2 / N2 / P1 / T0 = **46/100**, low score confidence. [Full current assessment](analysis_anysubject_261017_2227.md#a139).
-
-### The Alphabet Versus the Goddess
-
-**Source 7 reassessment (2026-10-17, 22:27:32 +02:00):** V1, moderate confidence. The proposed chain from alphabetic literacy through hemispheric dominance to patriarchy converts broad associations into a causal account of civilizations. The inspected description and review expose the central inference, but do not supply the evidence needed to isolate it from competing causes. Narrative range is retained in the score; causal validity is not granted by a surgeon's authority.
-
-**Current contributing sources:** 7. **Veto:** V1, moderate confidence. **Counterfactual:** E5 / M5 / U4 / S7 / D4 / R5 / F2 / A1 / N2 / P1 / T0 = **36/100**, low score confidence. [Full current assessment](analysis_anysubject_261017_2227.md#a140).
-
-### Warrior Pose
-
-**Current rule-5 update (2026-10-18): V1; V5. V5 confidence: moderate; prior grounds: moderate.** The memoir advances a spiritual yoga and self-healing transformation. That substantial spiritual purpose meets V5; the prior V1 judgment and disease deduction remain unchanged. [Review](analysis_veto5_261018_1428.md#old-v5-64). The prior score vector and total are unchanged; counterfactual score confidence remains low.
-
-**Earlier source reasoning (preserved; its statements that religion or advocacy alone were insufficient are superseded by V5):**
-
-**Source 7 reassessment (2026-10-17, 22:27:32 +02:00):** V1, moderate confidence. The book's stated central claim attributes recovery from cancer and a failed back operation to yoga and self-healing. A personal recovery story cannot isolate that cause or establish a transferable treatment claim. This is an inference failure, not a claim that the author fabricated his illness. Narrative skill remains in the counterfactual score; the causal defect remains too.
-
-**Current contributing sources:** 7. **Veto:** V1, moderate confidence. **Counterfactual:** E5 / M4 / U4 / S4 / D5 / R4 / F0 / A2 / N3 / P1 / T-10 = **22/100**, low score confidence. [Full current assessment](analysis_anysubject_261017_2227.md#a021).
-
-## Source 8 reconciliation
-
-The Bible was removed from the current veto list after reassessment of the unspecified collection and the source context. Its earlier analysis remains as history; the current decision and full vector are in [analysis_readlately_261017_2316.md](analysis_readlately_261017_2316.md#h224). At the time of the source-8 review, seventeen newly vetoed entries were added; The Master and His Emissary and The Body Keeps the Score retain their prior vetoes and all source numbers.
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g1303). Sources: 126.
 
 ### The End of the World Is Just the Beginning
 
-**V4; moderate confidence. Counterfactual 56/100; low score confidence. Sources 8, 9.** The source's scrambled title resolves to Zeihan's named book, not a new work. The preference over Marshall supplies no test of its deglobalization forecast. Keep V4 at moderate confidence and E8/M10/U8/S10/D5/R3/F6/A2/N3/P1/T0. Demographic and supply-chain constraints retain limited counterfactual credit. Total 56 and low score confidence remain; source 9 is added to source 8.
+**V4; moderate confidence.** Retain V4 after checking the author's actual book extracts: the globalization collapse is treated as inevitable, while uncertainty is mainly about timing. Geographic constraints are real, but the central revolutionary transition is not presented with balanced alternative trajectories and guardrails.
 
-Full criterion vector: `8 / 10 / 8 / 10 / 5 / 3 / 6 / 2 / 3 / 1 / 0`. T: None. [Current analysis](analysis_explainworld_261017_2336.md#w085); [prior analysis](analysis_readlately_261017_2316.md#h148).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1015). Sources: 8, 9, 132.
+
+### Lou Reed: The King of New York
+
+**V3; moderate confidence.** Retain V3 at moderate confidence: the artistic networks are real, but the reviewed account remains organized around Reed and his music, with too little sustained transferable explanation. This is not a science or high-tech biography.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#ndf6ff2456c). Sources: 132.
+
+### Open
+
+**V3; moderate confidence.** Retain V3: coaching and persistence observations remain subsidiary to one athletic career and do not establish a developed transferable model. Sports subject matter alone is not the gate.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0020). Sources: 114, 148.
+
+### Democracy: The God That Failed
+
+**V5; high confidence.** Retain V5 with high confidence: printed pp.218–219 explicitly prescribe excluding and physically removing advocates of democracy/communism and named disfavored lifestyles from the proposed order. Contractual-community framing is considered, but does not erase the prescribed suppression of dissent. This is specific textual evidence, not a veto of libertarian economics.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0716). Sources: 119.
+
+### Legacy of Ashes
+
+**V1; moderate confidence.** Retain V1 at moderate confidence: the documented rearrangement of the January 1961 intelligence discussions and other source-context errors materially support the uniformly failure-driven narrative. This finding concerns traceable evidence, not criticism of the CIA.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1009). Sources: 5.
+
+### Did Ye Hear Mammy Died?
+
+**V3; moderate confidence.** Retain V3 at moderate confidence: the main payload is personal loss, family adaptation and comic remembrance, not a developed general explanatory account. Bereavement and location alone do not create an additional thematic disease or single-nation-history deduction.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1057). Sources: 3.
 
 ### The Master and His Emissary
 
-**V1; moderate confidence. Counterfactual 56/100; low score confidence. Sources 2, 8.** Corballis directly challenges the extension from brain asymmetry to Western cultural history. The new comments add repetition and scope concerns but no empirical repair. Retain the earlier gate and complete counterfactual vector, while acknowledging favorable specialist reception and real hemispheric asymmetries.
+**V1; moderate confidence.** Retain V1: the specialist criticism targets the unsupported bridge from real hemispheric differences to a causal history of Western civilization. A broad philosophical synthesis is allowed, but that particular explanatory dependence remains insufficiently grounded.
 
-Full criterion vector: `8 / 9 / 8 / 9 / 4 / 6 / 5 / 4 / 2 / 1 / 0`. T: None. [Current analysis](analysis_readlately_261017_2316.md#h109).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1016). Sources: 2, 8, 144.
 
-### The Matter with Things
+### Going Infinite: The Rise and Fall of a New Tycoon
 
-**Current rule-5 update (2026-10-18): V1; V5. V5 confidence: moderate; prior grounds: moderate.** The work uses its account of mind and reality to defend a substantial sacred and divine worldview. That constructive spiritual-metaphysical purpose meets V5; the existing V1 inference concern remains unchanged. [Review](analysis_veto5_261018_1428.md#old-v5-9). The prior score vector and total are unchanged; counterfactual score confidence remains low.
+**V1; moderate confidence.** Retain V1 at moderate confidence: the cited close review identifies important omissions and asymmetric handling of financial conduct that undermine the explanatory portrayal. Access to the protagonist is genuine but does not establish independent causal reliability. This is not a veto simply because the subject committed fraud.
 
-**Earlier source reasoning (preserved; its statements that religion or advocacy alone were insufficient are superseded by V5):**
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n6c8b42af06). Sources: 128.
 
-**V1; moderate confidence. Counterfactual 49/100; low score confidence. Sources 8.** The move from hemispheric attention differences to a privileged account of reality exceeds what the neuroscience can establish. A favorable psychiatric review and Ellis's detailed objections show genuine disagreement; the central inferential bridge warrants V1 at moderate confidence, not rejection of every neurological observation.
+### Sex at Dawn
 
-Full criterion vector: `8 / 8 / 7 / 8 / 2 / 5 / 4 / 4 / 2 / 1 / 0`. T: None. [Current analysis](analysis_readlately_261017_2316.md#h108).
+**V1; moderate confidence.** Retain V1 at moderate confidence: the direct specialist review identifies selective primate comparison and omitted pair-bond and forager evidence central to the ancestral thesis. Alternative sexual norms are not the ground.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1058). Sources: 6, 132.
+
+### Super-Infinite
+
+**V3; moderate confidence.** Retain V3: this accomplished literary biography chiefly reconstructs Donne’s life, poems and milieu. It does not meet the science, mathematics or high-tech biography exception, and general institutional or strategic mechanisms remain secondary. Literary quality is retained in the score.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n00fa6f411e). Sources: 132.
+
+### Eat & Run
+
+**V3; moderate confidence.** Retain V3 at moderate confidence: sporting performance and personal development dominate; diet and training anecdotes do not develop a sufficiently general explanatory account. Incidental recipes do not make the whole memoir a procedure manual.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n2044af222d). Sources: 132.
+
+### The Rise of Superman
+
+**V4; moderate confidence.** Retain V4: extreme-sports cases are used to support premature claims of revolutionary general performance improvement. The surviving concern is importance inflation beyond established causal science, not speculative prediction as such.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0669). Sources: 118, 162.
 
 ### Travels in the Americas
 
-**V3; moderate confidence. Counterfactual 48/100; low score confidence. Sources 8.** These short journals preserve impressions and the author's state of mind. After removing travel encounters and personal observation, little sustained mechanism or general method remains for this task. Literary and historical value survive in the counterfactual score; V3 is about this payload test.
+**V3; moderate confidence.** Retain V3: encounters, impressions and Camus's inner life are the principal payload. The reviewed journals offer little sustained mechanism once those particular journeys are removed.
 
-Full criterion vector: `15 / 3 / 3 / 3 / 7 / 8 / 0 / 4 / 3 / 2 / 0`. T: None. [Current analysis](analysis_readlately_261017_2316.md#h149).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1053). Sources: 8.
+
+### Between the Woods and the Water
+
+**V3; moderate confidence.** Retain V3 at moderate confidence: literary encounters, landscapes and cultural memories dominate. Historical context does not develop into a sustained model independent of the journey; the memoir's prose and durability remain credited.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n00c6e6fe81). Sources: 135.
+
+### Area 51: An Uncensored History of America's Top Secret Military Base
+
+**V1; moderate confidence.** Retain V1: the sensational Roswell explanation involving Soviet human experimentation depends on an uncorroborated account, while the cited aerospace historian identifies concrete technical errors. Genuine secrecy history does not repair the material inferential failure in a central advertised revelation.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#nc758fbb344). Sources: 139.
+
+### The Communist Manifesto
+
+**V1; V5; moderate confidence.** Retain V1/V5 at moderate confidence. V5 rests on specific prescriptions in chapter II for coercive class rule and confiscation from emigrants and rebels, together with chapter IV’s forcible overthrow; the manifesto label and economic reform are not the grounds. V1 concerns the central claim of necessary historical victory derived from selective class analogy. Do not retain V2 merely because the argument belongs to an ideological school.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1005). Sources: 2, 5.
+
+### Portraits of Interiors
+
+**V3; moderate confidence.** Retain V3: the photographic interiors and aesthetic reflections have limited developed mechanism or strategy beyond the individual spaces. This is a design presentation, not a technical operating reference.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g1275). Sources: 125.
 
 ### The Immortality Key
 
-**V1; moderate confidence. Counterfactual 42/100; low score confidence. Sources 8.** Evidence for psychoactive substances in some ancient settings does not establish a continuous psychedelic origin of Greek mystery and Christian sacramental practice. Specialist criticism targets that central extrapolation. The archaeological search has documentary value, but V1 applies at moderate confidence to the proposed historical bridge.
+**V1; moderate confidence.** Retain V1: finding psychoactive substances in some ancient settings does not establish the proposed continuity from Greek mysteries to Christian origins. The specialist objection concerns this central historical chain, not research into religion.
 
-Full criterion vector: `7 / 7 / 5 / 6 / 5 / 4 / 2 / 2 / 3 / 1 / 0`. T: None. [Current analysis](analysis_readlately_261017_2316.md#h166).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1074). Sources: 8.
 
-### The Body Keeps the Score
+### The Color of Water
 
-**V1; moderate confidence. Counterfactual 41/100; low score confidence. Sources 4, 6, 7, 8.** The new personal recommendation does not resolve the causal and treatment overreach examined in prior analyses. The published critical commentary supports retaining V1 at moderate confidence, not a field-wide unanimous verdict. Every counterfactual component and the disease deduction remain unchanged.
+**V3; moderate confidence.** Retain V3: the paired family memoir offers strong testimony and literary insight but little sustained mechanism or reusable model beyond the particular lives. Its quality and historical value are preserved in the counterfactual score.
 
-Full criterion vector: `8 / 8 / 7 / 7 / 5 / 6 / 2 / 4 / 3 / 1 / -10`. T: Trauma and treatment. [Current analysis](analysis_readlately_261017_2316.md#h142).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n83f907156f). Sources: 132.
 
-### Why We Sleep
+### The Broken Road
 
-**V1; moderate confidence. Counterfactual 38/100; low score confidence. Sources 8.** The critique identifies overbroad risk statements and presentation problems. Walker's response qualifies cancer claims, promises corrections and distinguishes observational evidence from causality; it does not resolve every central overstatement. Retain real sleep science in the counterfactual while applying V1 at moderate confidence.
+**V3; moderate confidence.** Retain V3: the posthumously completed travel narrative offers observation of places, people and culture, but little explicit transferable mechanism once itinerary and encounters are removed. Its unfinished and edited origin limits evidential confidence without changing its nonfiction identity.
 
-Full criterion vector: `7 / 8 / 7 / 6 / 6 / 5 / 1 / 4 / 3 / 1 / -10`. T: Disease and health-risk claims. [Current analysis](analysis_readlately_261017_2316.md#h156).
-
-### Goodbye to a River
-
-**V3; moderate confidence. Counterfactual 37/100; low score confidence. Sources 8.** The river journey chiefly preserves local stories, landscape and personal memory. After removing that setting, too little developed mechanism remains for this reading purpose. Literary quality and historical testimony retain counterfactual points; the rejection is a low-transfer judgment, not a claim of falsehood.
-
-Full criterion vector: `15 / 3 / 3 / 4 / 6 / 8 / 0 / 3 / 3 / 2 / -10`. T: Environment and Texas local history. [Current analysis](analysis_readlately_261017_2316.md#h045).
-
-### Up in the Old Hotel
-
-**V3; moderate confidence. Counterfactual 37/100; low score confidence. Sources 8.** The collection's strength is observation of particular New Yorkers and places. Little developed general mechanism remains after those portraits are removed, so V3 applies for this task. Literary control and documentary value still earn counterfactual credit; low fit alone is not the stated gate.
-
-Full criterion vector: `15 / 3 / 3 / 4 / 5 / 8 / 0 / 4 / 3 / 2 / -10`. T: American urban history. [Current analysis](analysis_readlately_261017_2316.md#h111).
-
-### The Farfarers
-
-**V1; high confidence. Counterfactual 35/100; low score confidence. Sources 8.** Brown's archaeological review identifies sound-alike place names and rejection of Dorset evidence as central defects in the proposed Alban migration history. Explicit speculation does not repair invalid inference from the available evidence. V1 applies; the book is marketed as historical nonfiction despite fictional reconstructions.
-
-Full criterion vector: `5 / 5 / 4 / 5 / 5 / 4 / 2 / 1 / 3 / 1 / 0`. T: None. [Current analysis](analysis_readlately_261017_2316.md#h152).
-
-### Why We Get Fat
-
-**V1; moderate confidence. Counterfactual 32/100; low score confidence. Sources 8.** The strong carbohydrate-insulin account makes causal claims that controlled metabolic studies do not support in the required form. This central inferential problem warrants V1, while readability and some physiological discussion retain counterfactual credit. This does not imply that carbohydrate restriction can never help an individual.
-
-Full criterion vector: `6 / 7 / 6 / 5 / 7 / 4 / 1 / 2 / 3 / 1 / -10`. T: Disease and obesity. [Current analysis](analysis_readlately_261017_2316.md#h087).
-
-### The Genius of the Few
-
-**V1; moderate confidence. Counterfactual 25/100; low score confidence. Sources 8.** The reconstruction treats contested readings of myth as evidence for an actual civilizing group and Garden of Eden history. The project's own research proposal still seeks archaeological substantiation. The central historical inference is not established; entertainment and speculative coherence cannot replace evidence.
-
-Full criterion vector: `3 / 4 / 3 / 4 / 4 / 3 / 1 / 1 / 2 / 0 / 0`. T: None. [Current analysis](analysis_readlately_261017_2316.md#h063).
-
-### The Anunnaki Chronicles
-
-**V1; high confidence. Counterfactual 22/100; low score confidence. Sources 8.** This edited collection documents Sitchin's research history but does not repair the mistranslations and unsupported ancient-astronaut premise. Archival access to an author's notes earns limited documentary credit, not validation of the central historical explanation.
-
-Full criterion vector: `3 / 3 / 2 / 4 / 4 / 2 / 1 / 1 / 2 / 0 / 0`. T: None. [Current analysis](analysis_readlately_261017_2316.md#h066).
-
-### The 12th Planet
-
-**V1; high confidence. Counterfactual 19/100; low score confidence. Sources 8.** The ancient-astronaut account depends on mistranslated Mesopotamian terms and unsupported astronomical readings. Heiser's source-based examination directly challenges the Nibiru foundation. These are central evidence failures, not merely speculative details around a sound historical explanation.
-
-Full criterion vector: `2 / 3 / 2 / 3 / 4 / 2 / 1 / 0 / 2 / 0 / 0`. T: None. [Current analysis](analysis_readlately_261017_2316.md#h064).
-
-### The Earth Chronicles
-
-**V1; high confidence. Counterfactual 18/100; low score confidence. Sources 8.** The nominated series extends the same ancient-astronaut reconstruction. Its underlying textual and astronomical bridge remains unsupported, and repeating the premise through several volumes adds no independent evidence. The long series also loses density relative to the already weak first-volume case.
-
-Full criterion vector: `2 / 3 / 2 / 4 / 2 / 2 / 1 / 0 / 2 / 0 / 0`. T: None. [Current analysis](analysis_readlately_261017_2316.md#h065).
-
-### Power vs. Force
-
-**Current rule-5 update (2026-10-18): V1; V5. V5 confidence: high; prior grounds: high.** The supposed consciousness hierarchy is presented as a spiritual account of truth and human development. This religious-spiritual teaching meets V5 independently of its existing high-confidence V1 failure. [Review](analysis_veto5_261018_1428.md#old-v5-68). The prior score vector and total are unchanged; counterfactual score confidence remains low.
-
-**Earlier source reasoning (preserved; its statements that religion or advocacy alone were insufficient are superseded by V5):**
-
-**V1; high confidence. Counterfactual 17/100; low score confidence. Sources 8.** The central method claims to calibrate truth and consciousness through muscle testing. Neither the procedure nor the numerical hierarchy provides a validated route to those conclusions; disagreement is explained through the same unverified hierarchy. V1 concerns the core epistemic method, not merely spiritual language.
-
-Full criterion vector: `2 / 2 / 2 / 2 / 4 / 2 / 0 / 1 / 2 / 0 / 0`. T: None. [Current analysis](analysis_readlately_261017_2316.md#h164).
-
-### Mein Kampf
-
-**Current rule-5 update (2026-10-18): V2; V1; V5. V5 confidence: high; prior grounds: high.** A political and racial-ideological program organized around Nazism. V5 directly applies alongside the existing high-confidence V1 and V2 findings. [Review](analysis_veto5_261018_1428.md#old-v5-70). The prior score vector and total are unchanged; counterfactual score confidence remains low.
-
-**Earlier source reasoning (preserved; its statements that religion or advocacy alone were insufficient are superseded by V5):**
-
-**V2; V1; high confidence. Counterfactual 9/100; low score confidence. Sources 8.** Racial hierarchy, conspiracy and political allegiance organize the work and displace evidence. These are central ideological and epistemic failures. Its importance as a primary document about Nazism does not make its argument a reliable explanatory model; the historical-document use is distinct.
-
-Full criterion vector: `1 / 4 / 2 / 4 / 2 / 2 / 2 / 1 / 1 / 0 / -10`. T: Political figure, racial ideology and national agenda. [Current analysis](analysis_readlately_261017_2316.md#h095).
-
-## Source 9 additions
-
-Three new vetoes are added; the existing Zeihan entry is reassessed above. Counterfactual values retain each identified flaw and do not make these books recommended.
-
-### Currency Wars
-
-**V4; moderate confidence. Counterfactual 61/100; low score confidence. Sources 9.** Historical devaluations and financial-war exercises retain some mechanism and strategic value. The book's forward-looking payoff centers on crisis scenarios and monetary breakdown without sufficiently balanced uncertainty. The author's presentation of the book confirms that emphasis. V4 applies at moderate confidence; counterfactual points preserve the history and risk concepts without accepting the predicted trajectory. This is not an investment recommendation.
-
-Full criterion vector: `9 / 10 / 9 / 10 / 6 / 4 / 6 / 3 / 3 / 1 / 0`. T: None. [Current analysis](analysis_explainworld_261017_2336.md#w037).
-
-### The Ascent of Humanity
-
-**Current rule-5 update (2026-10-18): V1; V5. V5 confidence: high; prior grounds: moderate.** The civilizational narrative advocates ecological and spiritual transformation. V5 independently applies to that program, alongside the existing V1 finding. [Review](analysis_veto5_261018_1428.md#old-v5-59). The prior score vector and total are unchanged; counterfactual score confidence remains low.
-
-**Earlier source reasoning (preserved; its statements that religion or advocacy alone were insufficient are superseded by V5):**
-
-**V1; moderate confidence. Counterfactual 25/100; low score confidence. Sources 9.** The civilizational transition story invokes a return to connection with nature and treats unsupported scientific claims as foundations for that transition. Its own water chapter presents high-dilution homeopathy as an established information-transfer phenomenon. This is not merely a stated spiritual preference: unsupported physical efficacy supplies an explanatory bridge. V1 applies at moderate confidence; limited social critique survives only in the counterfactual score.
-
-Full criterion vector: `5 / 6 / 5 / 7 / 3 / 4 / 2 / 1 / 2 / 0 / -10`. T: Ecological and spiritual transformation. [Current analysis](analysis_explainworld_261017_2336.md#w060).
-
-### Programmed to Kill
-
-**V1; moderate confidence. Counterfactual 19/100; low score confidence. Sources 9.** Chapter 8 links an alleged assassin-training program to Henry Lee Lucas through timing and institutional associations. These do not establish recruitment or control. This unsupported causal bridge supports V1 at moderate confidence. Counterfactual points retain limited documentary value; T covers the American crime narrative.
-
-Full criterion vector: `4 / 5 / 3 / 5 / 4 / 3 / 2 / 1 / 2 / 0 / -10`. T: American crime and conspiracy narrative. [Current analysis](analysis_explainworld_261017_2336.md#w092).
-
-
-## Veto rule 5 additions
-
-These entries were transferred from the recommendation list in the [rule-5 review](analysis_veto5_261018_1428.md). All ten allocations and the single thematic deduction are unchanged; only the veto gate changes. Counterfactual score confidence is low. Original entry dates and all contributing source numbers are retained.
-
-### The United States of War
-
-**V5; moderate confidence. Counterfactual 80/100; low score confidence. Sources 5.** The history is organized as an antiwar argument against the basing system and toward ending permanent war. That sustained political advocacy meets V5; the retained institutional mechanisms still earn counterfactual credit.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `15 / 14 / 12 / 11 / 6 / 8 / 7 / 4 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0196) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### Progress and Poverty
-
-**V5; high confidence. Counterfactual 79/100; low score confidence. Sources 5.** The explanation of rents and poverty serves a sustained land-reform program centered on the single tax. Its political-economic prescription meets V5 even where the underlying mechanisms remain useful.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `13 / 14 / 12 / 10 / 6 / 9 / 6 / 5 / 2 / 2 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0209) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### The Tyranny of Experts
-
-**V5; moderate confidence. Counterfactual 77/100; low score confidence. Sources 3.** The book advances a rights-centered political program against authoritarian development, rather than only comparing development outcomes. V5 applies to that governing advocacy; the earlier inferential cautions remain.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `13 / 13 / 12 / 11 / 7 / 8 / 5 / 5 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0264) · [Prior criterion assessment](analysis_obscurebooks_261017_1936.md).
-
-### Open Borders
-
-**V5; high confidence. Counterfactual 76/100; low score confidence. Sources 8.** A sustained economic and moral case for opening national borders. The graphic format is nonfiction argument; the central immigration-policy campaign meets V5.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `14 / 12 / 11 / 10 / 8 / 8 / 4 / 4 / 3 / 2 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0276) · [Prior criterion assessment](analysis_readlately_261017_2316.md).
-
-### The Open Society and Its Enemies
-
-**V5; high confidence. Counterfactual 76/100; low score confidence. Sources 7.** The work is a sustained defense of liberal democracy against rival political doctrines. V5 applies to ideological advocacy even when the defended institutions and arguments have substantial intellectual value.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `14 / 13 / 12 / 10 / 5 / 9 / 5 / 5 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0284) · [Prior criterion assessment](analysis_anysubject_261017_2227.md).
-
-### The Age of Surveillance Capitalism
-
-**V5; moderate confidence. Counterfactual 74/100; low score confidence. Sources 9.** The diagnosis of digital power is joined to a sustained political demand to resist and replace the surveillance order. This programmatic advocacy meets V5; it does not erase the useful business-model analysis.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `14 / 13 / 12 / 11 / 4 / 7 / 6 / 4 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0328) · [Prior criterion assessment](analysis_explainworld_261017_2336.md).
-
-### Stuffed and Starved
-
-**V5; high confidence. Counterfactual 72/100; low score confidence. Sources 5.** The food-system critique advances food sovereignty and political change in the distribution of power over food. This sustained advocacy meets V5; it is not vetoed merely for discussing food or agriculture.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `13 / 12 / 10 / 11 / 7 / 8 / 5 / 3 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0363) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### Enlightenment Now
-
-**V5; high confidence. Counterfactual 71/100; low score confidence. Sources 5.** The book explicitly defends reason, science, humanism and progress as a governing social program. The manifesto component meets V5 even though empirical trend evidence retains value.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `13 / 11 / 10 / 11 / 5 / 8 / 5 / 4 / 3 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0378) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### Political Emotions
-
-**V5; high confidence. Counterfactual 71/100; low score confidence. Sources 5.** The central project prescribes how liberal societies should cultivate public emotions to sustain their political ideals. This is a normative political program, which V5 now excludes.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `15 / 11 / 10 / 9 / 6 / 9 / 2 / 5 / 2 / 2 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0382) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### Animal Liberation
-
-**V5; high confidence. Counterfactual 70/100; low score confidence. Sources 5.** The argument seeks a fundamental change in how people treat animals and supplies the ethical basis for animal liberation. Sustained movement advocacy meets V5 without requiring a finding that its ethics are false.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `15 / 10 / 11 / 7 / 8 / 9 / 1 / 5 / 2 / 2 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0402) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### Republic
-
-**V5; moderate confidence. Counterfactual 70/100; low score confidence. Sources 8.** The dialogue develops and defends a preferred political and educational order. This substantial normative political doctrine meets V5. Its philosophical dialogue form remains eligible nonfiction under the prior format assessment.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `12 / 12 / 11 / 9 / 5 / 9 / 3 / 5 / 2 / 2 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0412) · [Prior criterion assessment](analysis_readlately_261017_2316.md).
-
-### The Divide
-
-**V5; high confidence. Counterfactual 69/100; low score confidence. Sources 9.** The account of global inequality supports an explicit program to change the international economic order. Political-economic advocacy is a governing purpose, so V5 applies independently of the unresolved causal disputes.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 11 / 10 / 11 / 7 / 7 / 5 / 3 / 3 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0444) · [Prior criterion assessment](analysis_explainworld_261017_2336.md).
-
-### How the World Works
-
-**V5; high confidence. Counterfactual 68/100; low score confidence. Sources 9.** The interview collection advances a sustained oppositional political interpretation of power and a case for political action. Its campaign purpose meets V5; useful institutional questions survive only in the counterfactual.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 11 / 10 / 10 / 7 / 8 / 5 / 3 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0460) · [Prior criterion assessment](analysis_explainworld_261017_2336.md).
-
-### Three Guineas
-
-**V5; high confidence. Counterfactual 68/100; low score confidence. Sources 6.** The essay is a sustained feminist and antiwar intervention arguing for changes in education, work and public power. Its literary nonfiction form passes the hard exclusions; V5 applies to the advocacy.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `14 / 10 / 9 / 8 / 7 / 9 / 2 / 5 / 2 / 2 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0473) · [Prior criterion assessment](analysis_bestever_261017_2138.md).
-
-### Gaza Catastrophe
-
-**V5; moderate confidence. Counterfactual 67/100; low score confidence. Sources 5.** The book presents a sustained political indictment of the forces behind the Gaza war and the international order. V5 applies to that organizing polemic, not simply to its region, author or legal terminology.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `12 / 11 / 9 / 10 / 7 / 5 / 6 / 4 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0481) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### Poverty, by America
-
-**V5; high confidence. Counterfactual 67/100; low score confidence. Sources 5, 8, 9.** The book calls for poverty abolition and asks readers to change policy and their own participation in systems that sustain poverty. This central civil and economic reform campaign meets V5.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `15 / 12 / 11 / 10 / 8 / 8 / 4 / 4 / 3 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0486) · [Prior criterion assessment](analysis_explainworld_261017_2336.md).
-
-### Silent Spring
-
-**V5; high confidence. Counterfactual 67/100; low score confidence. Sources 8.** The evidence about pesticide harm supports a sustained intervention to change pesticide use and public policy. This environmental advocacy meets V5; historical importance and reliable risk insights do not override the gate.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `17 / 11 / 10 / 9 / 8 / 9 / 3 / 5 / 3 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0488) · [Prior criterion assessment](analysis_readlately_261017_2316.md).
-
-### In Defense of Civilization
-
-**V5; moderate confidence. Counterfactual 66/100; low score confidence. Sources 8.** Historical cases support a prescriptive project of cultural renewal through inherited ideals of order, clarity and beauty. That governing civilizational advocacy meets V5; the judgment does not rest on the author's employment or politics.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 10 / 10 / 10 / 7 / 7 / 5 / 3 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0512) · [Prior criterion assessment](analysis_readlately_261017_2316.md).
-
-### The Shock Doctrine
-
-**V5; high confidence. Counterfactual 66/100; low score confidence. Sources 4, 5, 9.** The crisis-capitalism thesis is developed as a sustained political indictment and argument for resistance to the associated economic program. This ideological advocacy meets V5 without needing a fresh V1 finding.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 11 / 10 / 10 / 5 / 7 / 5 / 3 / 3 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0525) · [Prior criterion assessment](analysis_explainworld_261017_2336.md).
-
-### Killing Hope
-
-**V5; moderate confidence. Counterfactual 65/100; low score confidence. Sources 5.** The case collection is organized as a sustained anti-imperialist indictment of American intervention. V5 applies to that governing political polemic; documentary value remains in the counterfactual.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 10 / 9 / 10 / 5 / 8 / 6 / 3 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0536) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### Technofeudalism
-
-**V5; high confidence. Counterfactual 65/100; low score confidence. Sources 9.** The account of platform rents supports a political argument for moving beyond the present economic order. Its programmatic ideological purpose meets V5; the disputed regime label is not newly treated as proven false.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `10 / 11 / 10 / 10 / 7 / 5 / 6 / 3 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0544) · [Prior criterion assessment](analysis_explainworld_261017_2336.md).
-
-### This Life: Secular Faith and Spiritual Freedom
-
-**V5; high confidence. Counterfactual 65/100; low score confidence. Sources 5.** The book expressly argues for secular faith and a social order beyond religion and capitalism. That sustained philosophical-political program meets V5.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `13 / 10 / 11 / 8 / 6 / 8 / 2 / 4 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0555) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### A Sand County Almanac
-
-**V5; high confidence. Counterfactual 64/100; low score confidence. Sources 7.** The land ethic asks readers to adopt an ecological moral duty and change human relations with land. This substantial environmental advocacy meets V5 despite the natural-history observations.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `16 / 12 / 9 / 8 / 9 / 9 / 2 / 4 / 3 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0559) · [Prior criterion assessment](analysis_anysubject_261017_2227.md).
-
-### Just Mercy
-
-**V5; high confidence. Counterfactual 64/100; low score confidence. Sources 4, 5.** The legal memoir makes a sustained case for reforming punishment and racial injustice. Its central civil-justice advocacy meets V5; firsthand evidence and institutional lessons remain credited.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `17 / 11 / 10 / 8 / 8 / 8 / 2 / 5 / 3 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0564) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### Killing the Black Body
-
-**V5; high confidence. Counterfactual 64/100; low score confidence. Sources 5.** Historical and legal analysis serves an explicit reproductive-freedom and racial-justice argument. The sustained civil advocacy meets V5, independently of the quality of its legal history.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `16 / 12 / 10 / 9 / 7 / 9 / 2 / 5 / 2 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0565) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### No god but God
-
-**V5; moderate confidence. Counterfactual 64/100; low score confidence. Sources 8.** The historical account also advances a reformist interpretation of Islam and its future. This substantial religious argument meets V5; studying Islamic history alone would not suffice.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `12 / 11 / 9 / 8 / 6 / 8 / 3 / 3 / 3 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0569) · [Prior criterion assessment](analysis_readlately_261017_2316.md).
-
-### At the Café
-
-**V5; high confidence. Counterfactual 63/100; low score confidence. Sources 5.** The staged conversations explain and defend anarchism. They are expository nonfiction rather than a novel, but the central ideological case directly meets V5.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `10 / 10 / 10 / 7 / 8 / 8 / 3 / 4 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0587) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### Open Veins of Latin America
-
-**V5; moderate confidence. Counterfactual 63/100; low score confidence. Sources 2, 5.** The history is organized as an anti-imperialist political-economic indictment with an emancipatory purpose. V5 applies to this sustained ideological argument, not merely to Latin American subject matter.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `9 / 10 / 8 / 10 / 7 / 7 / 5 / 3 / 3 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0593) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### Bullshit Jobs
-
-**V5; moderate confidence. Counterfactual 62/100; low score confidence. Sources 8.** The diagnosis of work serves a sustained political critique of the existing economic order and the case for alternative arrangements. This ideological purpose meets V5; the prior sampling limitations remain in the score.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `10 / 10 / 9 / 8 / 6 / 7 / 4 / 4 / 3 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0610) · [Prior criterion assessment](analysis_readlately_261017_2316.md).
-
-### There Are No Accidents
-
-**V5; moderate confidence. Counterfactual 61/100; low score confidence. Sources 4.** The analysis of preventable harm is framed as a sustained call to change the political and economic distribution of risk. That civic advocacy meets V5; general safety research alone would not.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `14 / 12 / 11 / 9 / 7 / 7 / 4 / 3 / 3 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0656) · [Prior criterion assessment](analysis_mustreads_261017_2010.md).
-
-### Washington Bullets
-
-**V5; high confidence. Counterfactual 61/100; low score confidence. Sources 2, 4, 5.** A campaigning anti-imperialist account of interventions and resistance. The prior review already identified its campaigning selection; V5 now supplies a category veto without requiring proof of V2.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `10 / 10 / 8 / 9 / 7 / 6 / 5 / 3 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0657) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### A Life on Our Planet
-
-**V5; high (conditional identity) confidence. Counterfactual 60/100; low score confidence. Sources 3.** The probable nominated work combines testimony with an explicit plan to restore the planet. Environmental campaigning meets V5 if A Life on Our Planet is the intended title; the unresolved alternative Life on Earth does not inherit this decision.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `15 / 11 / 8 / 10 / 8 / 7 / 2 / 4 / 3 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0660) · [Prior criterion assessment](analysis_obscurebooks_261017_1936.md).
-
-### The Brutish Museums
-
-**V5; high confidence. Counterfactual 60/100; low score confidence. Sources 7.** The book argues for restitution and the transformation of museums through a decolonial program. Its manifesto purpose meets V5; provenance scholarship retains counterfactual value.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `16 / 11 / 9 / 9 / 6 / 8 / 3 / 5 / 2 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0671) · [Prior criterion assessment](analysis_anysubject_261017_2227.md).
-
-### The New Jim Crow
-
-**V5; high confidence. Counterfactual 60/100; low score confidence. Sources 2.** The institutional critique supports a sustained movement argument against mass incarceration and racial caste. This civil-justice advocacy meets V5 rather than merely receiving the thematic deduction.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `14 / 12 / 10 / 8 / 7 / 8 / 2 / 4 / 3 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0677) · [Prior criterion assessment](analysis_top3alltime_261017_1900.md).
-
-### Winners Take All
-
-**V5; high confidence. Counterfactual 60/100; low score confidence. Sources 9.** The critique of elite philanthropy seeks a shift of reform power toward democratic collective action. Its sustained political advocacy meets V5; the prior limitations of selected cases remain.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `14 / 11 / 11 / 9 / 7 / 7 / 4 / 3 / 3 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0681) · [Prior criterion assessment](analysis_explainworld_261017_2336.md).
-
-### God: A Human History
-
-**V5; high confidence. Counterfactual 59/100; low score confidence. Sources 8.** The publisher states a purpose beyond religious history: developing a more universal spirituality. That constructive spiritual argument meets V5.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 10 / 8 / 7 / 6 / 8 / 2 / 3 / 3 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0691) · [Prior criterion assessment](analysis_readlately_261017_2316.md).
-
-### The Geography of Nowhere
-
-**V5; moderate confidence. Counterfactual 59/100; low score confidence. Sources 7.** The critique of the American built environment advances a sustained normative case for changing settlement and community design. This political-environmental advocacy meets V5; urban subject matter alone would only trigger T.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `12 / 12 / 11 / 9 / 7 / 8 / 3 / 3 / 3 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0698) · [Prior criterion assessment](analysis_anysubject_261017_2227.md).
-
-### The God Delusion
-
-**V5; high confidence. Counterfactual 59/100; low score confidence. Sources 5.** A sustained argument against religious belief and for abandoning it. V5 applies symmetrically to this worldview advocacy and to religious apologetics; no new factual-error claim is implied.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `12 / 9 / 8 / 6 / 6 / 8 / 2 / 4 / 3 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0699) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### Beggars and Choosers
-
-**V5; high confidence. Counterfactual 58/100; low score confidence. Sources 5.** The historical argument advocates reproductive rights and contests the politics of individual choice. Its sustained civil-reform purpose meets V5.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `15 / 11 / 9 / 8 / 7 / 8 / 2 / 4 / 2 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0707) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### My Bondage and My Freedom
-
-**V5; high confidence. Counterfactual 58/100; low score confidence. Sources 6.** The autobiography is also a sustained abolitionist intervention against slavery, including arguments directed at public opinion and political change. Its documentary value does not exempt that central civil activism under V5.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `16 / 10 / 9 / 7 / 7 / 9 / 1 / 4 / 3 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0720) · [Prior criterion assessment](analysis_bestever_261017_2138.md).
-
-### The Vital Center
-
-**V5; high confidence. Counterfactual 58/100; low score confidence. Sources 5.** A sustained defense of anti-totalitarian democratic liberalism and its political program. V5 applies to that ideological purpose, even though the position is presented as a center between extremes.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `12 / 10 / 9 / 8 / 7 / 9 / 4 / 5 / 2 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0733) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### America's Deadliest Export: Democracy
-
-**V5; high confidence. Counterfactual 57/100; low score confidence. Sources 5.** The work is a sustained political polemic against American foreign policy and the claim that it exports democracy. V5 applies to that campaigning purpose without changing the unresolved V1/V2 assessment.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `9 / 9 / 8 / 9 / 6 / 6 / 5 / 2 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0740) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### The Society of the Spectacle
-
-**V5; high confidence. Counterfactual 57/100; low score confidence. Sources 4.** The theses advance a revolutionary critique of capitalist social relations. Its central Situationist political doctrine meets V5; conceptual influence does not exempt an ideological work.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `9 / 8 / 8 / 8 / 5 / 9 / 3 / 5 / 1 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0757) · [Prior criterion assessment](analysis_mustreads_261017_2010.md).
-
-### Capital Is Dead
-
-**V5; high confidence. Counterfactual 56/100; low score confidence. Sources 8.** The information-economy thesis is used to reframe anticapitalist politics and class struggle. This substantial ideological intervention meets V5; the counterfactual retains the weakness of the regime classification.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `9 / 8 / 8 / 8 / 6 / 6 / 4 / 4 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0766) · [Prior criterion assessment](analysis_readlately_261017_2316.md).
-
-### The Case for God
-
-**V5; high confidence. Counterfactual 56/100; low score confidence. Sources 8.** The book argues for a preferred understanding and practice of religion. This religious apologetic purpose meets V5, distinct from a descriptive history of religious institutions.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `12 / 8 / 7 / 7 / 6 / 8 / 1 / 4 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0775) · [Prior criterion assessment](analysis_readlately_261017_2316.md).
-
-### The Omnivore's Deception
-
-**V5; high confidence. Counterfactual 56/100; low score confidence. Sources 5.** The central argument advocates ending animal exploitation and rejects ethical-meat reform. That sustained animal-liberation program meets V5.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 9 / 8 / 7 / 6 / 7 / 1 / 4 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0778) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### An Indigenous Peoples' History of the United States
-
-**V5; moderate confidence. Counterfactual 55/100; low score confidence. Sources 6.** The narrative deliberately advances a decolonial political reinterpretation of national history. V5 applies to its sustained ideological intervention; the decision does not follow from the author's identity or the topic alone.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `13 / 10 / 9 / 9 / 7 / 8 / 2 / 4 / 2 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0787) · [Prior criterion assessment](analysis_bestever_261017_2138.md).
-
-### Black Feminist Thought
-
-**V5; high confidence. Counterfactual 55/100; low score confidence. Sources 5.** The book develops Black feminist thought as a framework for empowerment, social justice and action. That constructive ideological and activist purpose meets V5 even though the argument has scholarly standing.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `13 / 10 / 9 / 8 / 6 / 9 / 2 / 5 / 2 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0789) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### Dead Man Walking
-
-**V5; high confidence. Counterfactual 55/100; low score confidence. Sources 5.** The witness account advances a sustained case against the death penalty. This central civil and moral campaign meets V5; a memoir form does not remove the advocacy.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `15 / 9 / 8 / 7 / 8 / 8 / 1 / 4 / 3 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0792) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### Discourse on Colonialism
-
-**V5; high confidence. Counterfactual 55/100; low score confidence. Sources 4.** An explicit anticolonial political polemic. Its central ideological and emancipatory argument directly meets V5.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `12 / 8 / 8 / 8 / 9 / 9 / 2 / 5 / 3 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0794) · [Prior criterion assessment](analysis_mustreads_261017_2010.md).
-
-### Less Is More
-
-**V5; high confidence. Counterfactual 55/100; low score confidence. Sources 9.** A sustained case for degrowth and a different political-economic order. Environmental and ideological advocacy meet V5 independently of whether each empirical claim is reliable.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 11 / 9 / 10 / 7 / 6 / 4 / 3 / 3 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0796) · [Prior criterion assessment](analysis_explainworld_261017_2336.md).
-
-### Red Star Over the Third World
-
-**V5; high confidence. Counterfactual 55/100; low score confidence. Sources 5.** The commemorative argument promotes the emancipatory political legacy of the Russian Revolution. This substantial ideological advocacy meets V5; historical influence alone does not exempt it.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `9 / 8 / 7 / 8 / 7 / 6 / 4 / 3 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0797) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### Things Hidden Since the Foundation of the World
-
-**V5; moderate confidence. Counterfactual 55/100; low score confidence. Sources 9.** The theory culminates in a privileged theological account of biblical and Gospel revelation. That constructive religious argument is substantial enough for V5; its comparative concepts retain counterfactual credit.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `9 / 10 / 9 / 7 / 4 / 8 / 2 / 4 / 1 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0806) · [Prior criterion assessment](analysis_explainworld_261017_2336.md).
-
-### Eating Animals
-
-**V5; high confidence. Counterfactual 54/100; low score confidence. Sources 5, 6.** Reporting on food production serves an explicit ethical argument to change participation in animal consumption. This sustained animal-welfare and social advocacy meets V5.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `13 / 9 / 9 / 8 / 7 / 8 / 2 / 3 / 3 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0811) · [Prior criterion assessment](analysis_bestever_261017_2138.md).
-
-### Patriot
-
-**V5; high confidence. Counterfactual 54/100; low score confidence. Sources 7.** The political memoir and prison testimony explicitly call for continuation of the author's opposition movement. V5 applies to this substantial activist purpose, not merely to political authorship.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `15 / 9 / 8 / 8 / 6 / 7 / 3 / 3 / 3 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0820) · [Prior criterion assessment](analysis_anysubject_261017_2227.md).
-
-### Tao Te Ching
-
-**V5; high confidence. Counterfactual 54/100; low score confidence. Sources 2.** A foundational Daoist text offering spiritual and governing teachings. V5 applies to that religious-philosophical doctrine; the prior format review found that it is not a procedural manual.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `8 / 7 / 8 / 4 / 9 / 9 / 2 / 4 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0822) · [Prior criterion assessment](analysis_top3alltime_261017_1900.md).
-
-### The Color of Compromise
-
-**V5; high confidence. Counterfactual 54/100; low score confidence. Sources 7.** The historical narrative is addressed to Christians as a call to confront racial injustice and change church practice. Both religious exhortation and civil activism meet V5.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `14 / 10 / 8 / 8 / 7 / 8 / 2 / 3 / 3 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0823) · [Prior criterion assessment](analysis_anysubject_261017_2227.md).
-
-### Coming Up Short: A Memoir of My America
-
-**V5; high confidence. Counterfactual 53/100; low score confidence. Sources 5.** The memoir culminates in an explicit call to recover community and democratic capitalism. That sustained political program meets V5 alongside its personal history.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `13 / 9 / 8 / 8 / 6 / 7 / 3 / 4 / 3 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0828) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### The Autobiography of Malcolm X
-
-**V5; high confidence. Counterfactual 53/100; low score confidence. Sources 2.** The autobiography advances religious and political commitments through conversion, movement organizing and racial emancipation. This substantial religious and civil-activist purpose meets V5.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `14 / 9 / 8 / 7 / 7 / 8 / 2 / 3 / 3 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0834) · [Prior criterion assessment](analysis_top3alltime_261017_1900.md).
-
-### Ways of Being
-
-**V5; high confidence. Counterfactual 53/100; low score confidence. Sources 8.** The discussion of intelligence supports a program for ecological and political coexistence. This central environmental-ideological advocacy meets V5; computation analogies retain limited counterfactual value.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `12 / 10 / 9 / 10 / 5 / 6 / 4 / 3 / 3 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0841) · [Prior criterion assessment](analysis_readlately_261017_2316.md).
-
-### How to Sell a Genocide
-
-**V5; high confidence. Counterfactual 52/100; low score confidence. Sources 5, 9.** The media critique is a sustained political intervention against the production of consent for the Gaza war. Its campaigning purpose meets V5; the prior T=0 correction remains because the claimed influence is international.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `10 / 9 / 8 / 7 / 6 / 4 / 3 / 2 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0852) · [Prior criterion assessment](analysis_explainworld_261017_2336.md).
-
-### Progress
-
-**V5; high confidence. Counterfactual 52/100; low score confidence. Sources 7.** The historical argument explicitly calls for dismantling and rebuilding the meaning of progress to avert ecological destruction. That environmental-political program meets V5.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 10 / 9 / 10 / 6 / 6 / 4 / 3 / 2 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0856) · [Prior criterion assessment](analysis_anysubject_261017_2227.md).
-
-### The 1619 Project: A New Origin Story
-
-**V5; moderate confidence. Counterfactual 52/100; low score confidence. Sources 5.** The collection advances a civic reinterpretation of national origins tied to a racial-justice program, including the concluding reparations argument. This substantial ideological and activist purpose meets V5; this judgment concerns the book, not every claim in the earlier newspaper project.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `12 / 10 / 8 / 9 / 6 / 7 / 2 / 4 / 3 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0861) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### Are Prisons Obsolete?
-
-**V5; high confidence. Counterfactual 51/100; low score confidence. Sources 2.** A sustained case for prison abolition. Its explicit civil and political program directly meets V5.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 10 / 8 / 7 / 8 / 8 / 2 / 4 / 2 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0867) · [Prior criterion assessment](analysis_top3alltime_261017_1900.md).
-
-### Capitalism and Desire
-
-**V5; high confidence. Counterfactual 51/100; low score confidence. Sources 8, 9.** The publisher states that the psychoanalytic account aims to free readers from attachment to capitalism and open political change. This constructive anticapitalist purpose meets V5.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `9 / 8 / 7 / 7 / 5 / 6 / 2 / 4 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0869) · [Prior criterion assessment](analysis_explainworld_261017_2336.md).
-
-### Chasing the Scream
-
-**V5; high confidence. Counterfactual 51/100; low score confidence. Sources 5, 6.** The narrative advocates changing drug prohibition and the institutions of the drug war. This substantial political reform campaign meets V5; the prior evidence limitations remain unchanged.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 10 / 9 / 9 / 6 / 7 / 3 / 2 / 3 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0870) · [Prior criterion assessment](analysis_bestever_261017_2138.md).
-
-### Tyranny, Inc.
-
-**V5; high confidence. Counterfactual 51/100; low score confidence. Sources 8.** The cases of private coercion support a sustained political argument for a different economic settlement. V5 applies to that ideological program rather than to the author's political affiliation.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 10 / 9 / 8 / 7 / 6 / 3 / 3 / 3 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0880) · [Prior criterion assessment](analysis_readlately_261017_2316.md).
-
-### A People's History of the United States
-
-**V5; high confidence. Counterfactual 50/100; low score confidence. Sources 5, 6, 7, 9.** The work openly organizes national history around an oppositional politics of popular struggle. Its sustained activist and ideological purpose meets V5; no fresh conclusion about every historical claim is required.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 9 / 8 / 9 / 5 / 8 / 3 / 3 / 3 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0884) · [Prior criterion assessment](analysis_explainworld_261017_2336.md).
-
-### Ain't I a Woman: Black Women and Feminism
-
-**V5; high confidence. Counterfactual 50/100; low score confidence. Sources 2.** The book advances a Black feminist critique and program for changing feminist politics. This central ideological and civil-activist purpose directly meets V5.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `12 / 10 / 8 / 7 / 7 / 8 / 1 / 4 / 2 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0885) · [Prior criterion assessment](analysis_top3alltime_261017_1900.md).
-
-### Braiding Sweetgrass
-
-**V5; high confidence. Counterfactual 50/100; low score confidence. Sources 6.** The essays seek an ecological consciousness grounded in reciprocal obligations with the living world. This central environmental and spiritual exhortation meets V5; botanical observations remain credited.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `14 / 8 / 7 / 7 / 6 / 8 / 1 / 4 / 3 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0887) · [Prior criterion assessment](analysis_bestever_261017_2138.md).
-
-### Chavs
-
-**V5; high confidence. Counterfactual 50/100; low score confidence. Sources 3.** A sustained political polemic against the stigmatization of the working class and for a different class politics. This advocacy meets V5, beyond its separate national-history deduction.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `12 / 10 / 8 / 8 / 7 / 6 / 2 / 3 / 3 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0888) · [Prior criterion assessment](analysis_obscurebooks_261017_1936.md).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#need2181c15). Sources: 135.
 
 ### The Bible
 
-**V5; high confidence. Counterfactual 50/100; low score confidence. Sources 6, 8.** The nominated work is a collection of religious scriptures, not a historical study of them. V5 now applies regardless of canon or translation. The source-8 removal of V1 is not reversed: a category veto does not prove a single empirical argument false.
+**V5; moderate confidence.** Retain V5 because the nominated work is scripture. Do not add V1 solely because its diverse genres include religious and supernatural accounts; a modern empirical argument is not the only possible reading of this compilation.
 
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `9 / 6 / 7 / 7 / 3 / 9 / 1 / 5 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0898) · [Prior criterion assessment](analysis_readlately_261017_2316.md).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1046). Sources: 6, 8.
 
-### Allow Me to Retort
+### Quantum Supremacy
 
-**V5; high confidence. Counterfactual 49/100; low score confidence. Sources 3.** The constitutional argument is a sustained political and racial-justice polemic. V5 applies to its advocacy purpose; the previous lack of a proven V2 defect no longer preserves eligibility.
+**V1; V4; moderate confidence.** Retain V1/V4: Aaronson identifies central computability and quantum-speedup errors and the absence of algorithmic limits behind transformative promises. The new balanced-speculation allowance does not cover those demonstrated errors or missing guardrails.
 
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 9 / 8 / 7 / 8 / 6 / 3 / 3 / 3 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0905) · [Prior criterion assessment](analysis_obscurebooks_261017_1936.md).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n298e5c0ab7). Sources: 139.
 
-### In the Spirit of Crazy Horse
+### Asimov’s Guide to Shakespeare
 
-**V5; high confidence. Counterfactual 49/100; low score confidence. Sources 4.** The account advances the cause of the American Indian Movement and a contested legal-defense campaign. This substantial civil and political advocacy meets V5; surviving litigation is not treated as proof of its claims.
+**V3; moderate confidence.** Retain V3 at moderate confidence: the value mainly lies in explaining particular plays and allusions, with limited general method beyond that material. It is a lay literary guide, not a specialist technical reference, so the reference exclusion is not substituted mechanically.
 
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `12 / 9 / 8 / 8 / 4 / 8 / 2 / 4 / 3 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0914) · [Prior criterion assessment](analysis_mustreads_261017_2010.md).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#nc168b938b7). Sources: 135.
 
-### Animal, Vegetable, Miracle
+### A Time of Gifts
 
-**V5; high confidence. Counterfactual 48/100; low score confidence. Sources 5.** The household narrative is used to advocate local food production and changed consumption as an environmental and social response. That sustained campaign meets V5; it is not primarily a recipe manual.
+**V3; moderate confidence.** Retain V3 at moderate confidence: the remembered journey, places and encounters are the chief payload. Cultural context and perceptive observations are credited, but the prior account identifies no sustained general model beyond literary travel memory.
 
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `13 / 9 / 7 / 7 / 6 / 7 / 1 / 3 / 3 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0930) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n400d8c6d93). Sources: 135.
+
+### The Matter with Things
+
+**V1; moderate confidence.** Retain the independent V1 finding on the move from selected neuroscience to a comprehensive account of reality. Remove V5: sacred interpretation or a nonmaterialist position is not automatically religious doctrine presented as authoritative truth.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1047). Sources: 8.
+
+### The Body Keeps the Score
+
+**V1; moderate confidence.** Retain V1 at moderate confidence: the specialist claim audit identifies unsupported central claims about trauma’s effects on brain function and the special efficacy of body-based treatments. This does not imply that trauma is unreal or that all therapies discussed lack evidence; the veto is tied to the book’s overgeneralized explanatory and treatment claims.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1080). Sources: 4, 6, 7, 8, 143.
+
+### Everything and More: A Compact History of Infinity
+
+**V1; moderate confidence.** Retain V1: Michael Harris's specialist review identifies substantive mathematical mistakes and conceptual confusion in a book whose central job is to explain infinity. Literary ambition and genuine mathematical interest do not repair this central explanatory unreliability.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n1583471893). Sources: 135, 140.
+
+### The Swerve
+
+**V1; moderate confidence.** Retain V1: the specialist critique identifies material caricature of medieval intellectual life and an overstated causal link from recovery of Lucretius to modernity. These concern the book's organizing explanation, not simply disagreement about emphasis.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1034). Sources: 2, 7.
+
+### I Was Better Last Night
+
+**V3; moderate confidence.** Retain V3 at moderate confidence: theatrical and personal recollections carry the work, with limited developed craft or institutional analysis beyond the author's career. Literary and historical interest remain credited; identity and activism are not gates.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#nc2cbcb068f). Sources: 132.
+
+### The Woman in Me
+
+**V3; moderate confidence.** Retain V3: the individual's life and family experiences dominate over sustained explanation of conservatorship or the entertainment business. Institutional detail is credited in scoring but does not supply a developed transferable account.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#nfd0337d156). Sources: 132.
+
+### The Best We Could Do
+
+**V3; moderate confidence.** Retain V3: this is a nonfiction graphic family memoir, not a novel, but its main gain is testimony about displacement and intergenerational experience. It offers little sustained general model after the family history is removed.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g1300). Sources: 126, 148.
+
+### Secret: The Making of Australia's Security State
+
+**V1; moderate confidence.** Retain V1 at moderate confidence: Tanter’s specific Pine Gap comparison documents selective quotation of Ball and conflation of verification requirements. The political critique is allowed; the material technical inference remains faulty.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#nf36ec9efbe). Sources: 141.
+
+### The Man Who Mistook His Wife for a Hat
+
+**V1; moderate confidence.** Retain V1: the prior archival investigation identifies material alteration of case narratives central to the book's clinical explanation. This does not imply that every patient was invented or deny Sacks's medical expertise.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1075). Sources: 6.
+
+### Second Sunrise
+
+**V3; moderate confidence.** Retain V3: the photographic race history chiefly preserves runners, local milestones and traditions, with too little transferable analytical content after those particulars are removed.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1091). Sources: 4.
+
+### Unprotected
+
+**V3; moderate confidence.** Retain V3: the account centers on individual survival and performance experience. Institutional barriers are present but not developed into a substantial reusable explanation; identity and discrimination themes alone are not vetoes.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#na80c1dd0b2). Sources: 132.
+
+### Pageboy
+
+**V3; moderate confidence.** Retain V3: the reviewed memoir’s main value is individual experience, with insufficient developed transferable explanation. The finding does not depend on Page’s identity or political position.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n1d712210cc). Sources: 132.
+
+### Born to Run
+
+**V1; moderate confidence.** Retain V1 at moderate confidence: the anthropological reassessment disputes the simplified account of Raramuri running and the associated general prescription. Correct the inherited criterion notes, which mistakenly described Springsteen's unrelated memoir; retain McDougall's 2009 identity and audited rating fallback.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1073). Sources: 3.
+
+### Why We Sleep
+
+**V1; moderate confidence.** Retain V1: the detailed prior critique and author response leave material health-risk overstatements and evidential handling unresolved. The decision is about those central claims, not the importance of sleep itself.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1088). Sources: 8, 132, 148.
+
+### The Diary of a Young Girl
+
+**V3; moderate confidence.** Retain V3: this household diary and account of a developing inner life has exceptional witness value, but little sustained mechanism or transferable model after the particular people and events are removed. Neither a science biography nor a technical memoir exception applies.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q0879). Sources: 8, 132.
+
+### Lost on Purpose: The Adventures of a 21st Century Mountain Man
+
+**V3; low confidence.** Retain V3 at low confidence: the inspected journal-based journey chiefly supplies personal reinvention and wilderness experience, with too little developed mechanism. The sparse evidence is a stated review limit; technical employment alone does not make this a high-tech biography.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#nb75ecb1bfa). Sources: 143.
+
+### The Devil's Chessboard
+
+**V1; moderate confidence.** Retain V1: the central Dulles–Kennedy conspiracy explanation relies on connections and attributed motives that the cited documentary record does not establish. The CIA affiliation of the detailed critic limits confidence; archival access does not itself validate the causal bridge.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1052). Sources: 2, 4.
+
+### What Remains
+
+**V3; moderate confidence.** Retain V3: relationships, illness and individual loss provide the main payload. The reviewed material does not develop a substantial general mechanism beyond those experiences.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1101). Sources: 4.
+
+### Stalin's War
+
+**V1; V2; moderate confidence.** Retain V1/V2 at moderate confidence: the specialist exchange and author reply leave the central leap from Soviet gains to predominant authorship of the war and asymmetric treatment of alternatives unresolved. Some specific criticisms were answered, so they are not all counted as proven.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g1298). Sources: 126, 167.
+
+### How to Murder Your Life
+
+**V3; moderate confidence.** Retain V3 at moderate confidence: first-person career and addiction episodes dominate, with limited general institutional or causal explanation. Media and disease deductions remain separate from this payload finding.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n9e8aa13554). Sources: 132.
+
+### The Alphabet Versus the Goddess
+
+**V1; moderate confidence.** Retain V1 at moderate confidence: the central alphabet-to-brain-hemisphere-to-patriarchy causal chain rests on unsupported neurological generalization and selective cultural analogy. The author’s public thesis and the linguist’s specific analysis support this finding; criticism is not based on feminism or a manifesto label.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1100). Sources: 7.
+
+### Three Cups of Tea
+
+**V1; high confidence.** Retain V1: the reviewed documentary challenges undermine the central founding and kidnapping stories. The finding concerns the claimed narrative evidence, not a substitution of charity-finance controversy for book accuracy.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1093). Sources: 6.
+
+### The Heart of the Buddha's Teaching
+
+**V5; high confidence.** Retain V5: the work explicitly explains and endorses Buddhist teachings as a path of transformation. It is a religious teaching text, although its sustained explanation passes the manual exclusion.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n07829fa11f). Sources: 144.
+
+### Tao Te Ching
+
+**V5; moderate confidence.** Retain V5 at moderate confidence: the nominated primary text is a foundational Daoist scripture, not a historical study of one. Its important philosophical and strategic uses are retained in the counterfactual score but do not override the explicit scripture gate.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1029). Sources: 2, 130, 173.
+
+### The Places We Run
+
+**V3; moderate confidence.** Retain V3: trails, runners and local recollections provide the principal documentary value. The reviewed scope supplies little developed causal or strategic mechanism beyond those regional specifics.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1107). Sources: 4.
+
+### Vacationland
+
+**V3; moderate confidence.** Retain V3: personal comic experience and regional encounters dominate. The reviewed scope does not develop an explanation or model that transfers beyond those settings.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1108). Sources: 6.
+
+### Matthew Barney & Elizabeth Peyton: Blood of Two
+
+**V3; moderate confidence.** Retain V3: the installation documentation has visual and archival value but too little transferable intellectual content beyond this artwork. It is a published art volume, not an operating manual.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g1274). Sources: 125.
+
+### Mean Baby
+
+**V3; moderate confidence.** Retain V3: illness, identity, family and celebrity are principally personal testimony, with too little developed transferable account. Illness itself is a separate theme, not this veto.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#nf5ac85a6d8). Sources: 132.
+
+### Human Smoke
+
+**V1; moderate confidence.** Lift V5 but retain V1 at moderate confidence: the cited direct critique identifies selective fragments and missing causal context supporting a large counterfactual claim about war. Pacifism itself is permitted; the finding concerns the inference built from the selected record.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1051). Sources: 5.
+
+### The In-Between
+
+**V3; moderate confidence.** Retain V3: the main payload is individual patient testimony, personal comfort and the nurse's experience rather than developed general models. It is not a nursing procedure manual; promotional supernatural praise is not used as an invented factual veto.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n22eb055506). Sources: 145.
+
+### All Over but the Shoutin'
+
+**V3; moderate confidence.** Retain V3: remembered family hardship and personal scenes do most of the work. The prior assessment credits prose and witness but finds little independent mechanism or reusable model beyond the particular life.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0036). Sources: 114.
+
+### A Girl Named Zippy
+
+**V3; moderate confidence.** Retain V3: family incidents and the narrator's comic perspective carry the book; the prior source-specific assessment did not find a sustained explanatory model beyond those memories. Narrative quality does not itself supply the missing transferable account.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1097). Sources: 3.
+
+### Bringing Down The House
+
+**V1; moderate confidence.** Retain V1: participant testimony disputes materially reconstructed scenes and events presented as factual narrative. Card-counting and team risk provide genuine payload, but the central nonfiction reconstruction has serious reliability limits.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0506). Sources: 117.
+
+### The Hot Zone
+
+**V1; moderate confidence.** Retain V1: the prior review identifies materially sensational bodily-effects descriptions and confusion between Reston and lethal human Ebola hazards. These are central to the narrative's claimed danger, independently of the disease topic penalty.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1087). Sources: 2, 3, 4, 143.
+
+### In Patagonia
+
+**V3; moderate confidence.** Retain V3: the travel vignettes preserve local lives and legends rather than a sustained transferable explanatory model. Reconstruction concerns lower evidence marks but do not independently establish V1.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g1047). Sources: 122.
+
+### Scattered Minds
+
+**V1; moderate confidence.** Retain V1 at moderate confidence: the author’s current description says ADD is not inherited and is reversible, while large genetic studies establish inherited contribution. Environmental influence remains possible; the veto concerns the unsupported exclusion and reversal claims.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1099). Sources: 4.
 
 ### Cutting Through Spiritual Materialism
 
-**V5; high confidence. Counterfactual 48/100; low score confidence. Sources 4.** The lectures teach Buddhist spiritual understanding and practice. Their religious purpose meets V5 even where self-deception observations have secular uses; the work is not primarily an exercise manual.
+**V5; moderate confidence.** Retain V5: the work teaches a Buddhist path and diagnoses spiritual error within that authoritative framework; it is not merely an external analysis of Buddhism. The distinction between self-display and learning has transferable value but cannot override the devotional/doctrinal gate.
 
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `10 / 6 / 7 / 3 / 7 / 8 / 1 / 3 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0932) · [Prior criterion assessment](analysis_mustreads_261017_2010.md).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1055). Sources: 4, 153.
 
-### Between the World and Me
+### Up in the Old Hotel
 
-**V5; moderate confidence. Counterfactual 47/100; low score confidence. Sources 6.** The letter is also a sustained intervention in racial politics, arguing for changed understanding of the American social order. Its substantial civil-advocacy purpose meets V5; memoir form and prose quality do not exempt it.
+**V3; moderate confidence.** Retain V3: portraits of particular New Yorkers and locations supply the main value. The reviewed collection gives little developed general causal explanation after those particulars are removed.
 
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `13 / 7 / 7 / 5 / 8 / 8 / 1 / 3 / 3 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0939) · [Prior criterion assessment](analysis_bestever_261017_2138.md).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1094). Sources: 8.
 
-### Abolish Rent
+### But Now I See
 
-**V5; high confidence. Counterfactual 46/100; low score confidence. Sources 9.** An explicit tenant-movement manifesto for ending rent-based domination. V5 applies to the political program. Analysis and movement reporting are the main structure, so it is not reclassified as a procedural manual.
+**V3; moderate confidence.** Retain V3: the athlete's recovery and competitive life dominate, without enough transferable medical or organizational explanation after the personal story is removed. A medical episode does not automatically invoke the science-biography exception.
 
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `10 / 9 / 8 / 7 / 8 / 6 / 2 / 3 / 2 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0950) · [Prior criterion assessment](analysis_explainworld_261017_2336.md).
-
-### Awareness
-
-**V5; high confidence. Counterfactual 46/100; low score confidence. Sources 6.** Spiritual talks aim at awakening and release from attachment. This religious-spiritual teaching meets V5, while the discursive format does not by itself establish a procedural hard exclusion.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `10 / 6 / 7 / 3 / 8 / 7 / 0 / 2 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0951) · [Prior criterion assessment](analysis_bestever_261017_2138.md).
-
-### How to Do Nothing
-
-**V5; high confidence. Counterfactual 46/100; low score confidence. Sources 8.** The critique of the attention economy is a sustained call for political and ecological resistance through redirected attention. This programmatic advocacy meets V5.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `12 / 8 / 8 / 7 / 5 / 7 / 2 / 3 / 2 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0956) · [Prior criterion assessment](analysis_readlately_261017_2316.md).
-
-### Answer to Job
-
-**V5; moderate confidence. Counterfactual 45/100; low score confidence. Sources 3.** The essay develops a constructive theological interpretation of God, revelation and moral transformation. V5 applies to that substantial religious argument; it is not classified as fiction or rejected merely for analyzing an old text.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `7 / 6 / 5 / 5 / 7 / 7 / 1 / 4 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0970) · [Prior criterion assessment](analysis_obscurebooks_261017_1936.md).
-
-### Who Stole Feminism?
-
-**V5; high confidence. Counterfactual 45/100; low score confidence. Sources 7.** The book is a sustained intervention in feminist politics that defends one version of feminism against another. V5 applies to ideological advocacy on either side; the earlier uncertainty about V2 remains separate.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 9 / 8 / 6 / 6 / 7 / 2 / 3 / 2 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0982) · [Prior criterion assessment](analysis_anysubject_261017_2227.md).
-
-### Koba the Dread
-
-**V5; moderate confidence. Counterfactual 44/100; low score confidence. Sources 4.** The literary-historical essay is a sustained political polemic against communist apologetics. This ideological intervention meets V5; criticism of state violence is not newly treated as a factual error.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 7 / 6 / 7 / 6 / 8 / 2 / 3 / 3 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0989) · [Prior criterion assessment](analysis_mustreads_261017_2010.md).
-
-### Lordship and Liberation in Palestine-Israel
-
-**V5; high confidence. Counterfactual 44/100; low score confidence. Sources 3.** The book explicitly argues for decolonial sovereignty as the political alternative to colonial modernity. That constructive liberation program meets V5; proof of suppressed counterexamples under V2 is unnecessary.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `10 / 9 / 7 / 7 / 5 / 6 / 3 / 4 / 2 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0991) · [Prior criterion assessment](analysis_obscurebooks_261017_1936.md).
-
-### Whitewalling
-
-**V5; high confidence. Counterfactual 44/100; low score confidence. Sources 7.** The museum controversies support a sustained antiracist intervention in art institutions. Its civil-activist purpose meets V5; the small sample and prior limits remain in the counterfactual.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `12 / 8 / 7 / 6 / 8 / 6 / 1 / 3 / 2 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-0995) · [Prior criterion assessment](analysis_anysubject_261017_2227.md).
-
-### Virtue Hoarders
-
-**V5; high confidence. Counterfactual 43/100; low score confidence. Sources 4.** An explicit political polemic against the professional-managerial class and its claimed virtue. The sustained ideological intervention meets V5 despite its small institutional payload.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `9 / 8 / 7 / 7 / 8 / 6 / 2 / 3 / 2 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-1009) · [Prior criterion assessment](analysis_mustreads_261017_2010.md).
-
-### Assata
-
-**V5; high confidence. Counterfactual 42/100; low score confidence. Sources 6.** The participant account advances a revolutionary political cause and defense of a movement. That substantial activist purpose meets V5; the decision does not resolve contested allegations about the author.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 7 / 6 / 6 / 7 / 8 / 1 / 2 / 3 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-1011) · [Prior criterion assessment](analysis_bestever_261017_2138.md).
-
-### Columbus and Other Cannibals
-
-**V5; high confidence. Counterfactual 42/100; low score confidence. Sources 9.** The colonial critique advances an Indigenous ethical-political worldview against exploitation. This sustained ideological and decolonial program meets V5, without treating cultural provenance itself as a defect.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `9 / 8 / 7 / 7 / 7 / 6 / 2 / 3 / 2 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-1015) · [Prior criterion assessment](analysis_explainworld_261017_2336.md).
-
-### Desert Solitaire
-
-**V5; high confidence. Counterfactual 42/100; low score confidence. Sources 4.** The essays make wilderness defense and opposition to industrial tourism a substantial organizing purpose. Environmental advocacy therefore meets V5; literary observations do not override it.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `13 / 5 / 5 / 5 / 7 / 8 / 1 / 3 / 3 / 2 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-1016) · [Prior criterion assessment](analysis_mustreads_261017_2010.md).
-
-### The End of America
-
-**V5; high confidence. Counterfactual 42/100; low score confidence. Sources 4.** A sustained call to political action against authoritarian change in the United States. This civic manifesto meets V5 without needing to classify every comparison or prediction as false.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `9 / 8 / 7 / 7 / 7 / 5 / 3 / 2 / 3 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-1019) · [Prior criterion assessment](analysis_mustreads_261017_2010.md).
-
-### Being Ecological
-
-**V5; high confidence. Counterfactual 41/100; low score confidence. Sources 6.** The work argues for adopting an ecological way of understanding and inhabiting the world. That constructive environmental philosophy and advocacy meets V5.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 8 / 7 / 6 / 5 / 7 / 1 / 3 / 2 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-1026) · [Prior criterion assessment](analysis_bestever_261017_2138.md).
-
-### So You Want to Talk About Race
-
-**V5; high confidence. Counterfactual 41/100; low score confidence. Sources 5.** The explanatory chapters advocate antiracist understanding and action. V5 applies to the civil-activist purpose. The mixed discussion-and-advice structure is not established as primarily a procedural manual, so hard exclusion 2 is not asserted.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 7 / 7 / 5 / 7 / 7 / 1 / 2 / 3 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-1031) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### Sacred Economics
-
-**V5; high confidence. Counterfactual 40/100; low score confidence. Sources 8.** The monetary critique advances a spiritual and ecological program of gift exchange, commons and economic transformation. That sustained ideological-spiritual advocacy meets V5.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `8 / 9 / 8 / 8 / 4 / 5 / 3 / 2 / 2 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-1037) · [Prior criterion assessment](analysis_readlately_261017_2316.md).
-
-### Jacob Hamblin: The Peacemaker
-
-**V5; high confidence. Counterfactual 38/100; low score confidence. Sources 8.** The biography is a faith-centered account of a Mormon missionary, including spiritual authority and miracle narratives. Its religious purpose meets V5; this is the Corbett biography, not another work about Hamblin.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `11 / 7 / 6 / 6 / 5 / 7 / 1 / 2 / 2 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-1047) · [Prior criterion assessment](analysis_readlately_261017_2316.md).
-
-### Soul on Ice
-
-**V5; high confidence. Counterfactual 37/100; low score confidence. Sources 5.** The essays articulate and advance a revolutionary racial-political worldview. This sustained ideological intervention meets V5, beyond the thematic deduction.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `10 / 6 / 5 / 5 / 6 / 7 / 1 / 3 / 3 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-1052) · [Prior criterion assessment](analysis_changedmind_261017_2105.md).
-
-### Whakapohane
-
-**V5; moderate confidence. Counterfactual 37/100; low score confidence. Sources 3.** The account defends a political protest and frames the associated prosecution as a struggle against state authority. Its participant activist purpose meets V5; the 1984 work and expanded later version remain the same qualified source entry.
-
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `12 / 7 / 6 / 6 / 4 / 7 / 1 / 2 / 1 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-1053) · [Prior criterion assessment](analysis_obscurebooks_261017_1936.md).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1109). Sources: 3.
 
 ### Food of the Gods
 
-**V5; moderate confidence. Counterfactual 35/100; low score confidence. Sources 2.** The history of psychoactive plants supports a call to recover shamanic and psychedelic spirituality as a response to modern culture. This substantial spiritual-cultural program meets V5; the evolutionary claims retain their prior low evidential credit.
+**V1; moderate confidence.** Retain V1 at moderate confidence: the central psychedelic-driver account of language and cognition rests on unsupported evolutionary causal links, not evidence capable of selecting that explanation against alternatives. Historical explanation is assessed separately from the new allowance for guarded future scenarios.
 
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `5 / 5 / 4 / 5 / 5 / 5 / 1 / 2 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-1059) · [Prior criterion assessment](analysis_top3alltime_261017_1900.md).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1104). Sources: 2, 122.
 
-### Heroes: Mass Murder and Suicide
+### Eleven Seconds
 
-**V5; moderate confidence. Counterfactual 31/100; low score confidence. Sources 2.** The cases are organized into an anticapitalist political diagnosis and appeal to recover social alternatives. This ideological intervention meets V5; the counterfactual keeps the untested causal links and T=-10.
+**V3; moderate confidence.** Retain V3: personal injury, rehabilitation and relationships carry the account. Transferable resilience observations are present but not developed into a substantial independent model; this is not a scientific biography merely because an injury is central.
 
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `6 / 6 / 5 / 6 / 6 / 5 / 2 / 2 / 2 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-1065) · [Prior criterion assessment](analysis_top3alltime_261017_1900.md).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n300d2c4171). Sources: 143.
 
-### The Tao of Wu
+### Spiritual Formation
 
-**V5; high confidence. Counterfactual 31/100; low score confidence. Sources 8.** The autobiography conveys a sustained spiritual teaching drawn from the author's religious and philosophical commitments. V5 applies to that substantial teaching, in addition to its already penalized celebrity context.
+**V5; high confidence.** Retain V5: the authorized compilation’s primary purpose is Christian spiritual formation and fuller encounter with God. This is devotional teaching, not merely historical discussion or civic ethics.
 
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `10 / 5 / 5 / 3 / 7 / 6 / 0 / 2 / 2 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-1067) · [Prior criterion assessment](analysis_readlately_261017_2316.md).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n71f5038224). Sources: 132.
 
-### This One Wild and Precious Life
+### Paris: The Memoir
 
-**V5; high confidence. Counterfactual 31/100; low score confidence. Sources 2.** The personal narrative calls for collective ecological and social change, grounded partly in spiritual renewal. This environmental-activist purpose meets V5.
+**V3; moderate confidence.** Retain V3 at moderate confidence: the reviewed account mainly supplies personal testimony about abuse, fame and self-definition; institutional observations remain too undeveloped to satisfy the transferable-payload requirement.
 
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `9 / 5 / 5 / 5 / 6 / 5 / 1 / 2 / 2 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-1068) · [Prior criterion assessment](analysis_top3alltime_261017_1900.md).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n3e1a9a8e6e). Sources: 132.
+
+### Spinning Plates
+
+**V3; moderate confidence.** Retain V3: music career and family reflection predominate, with too little developed intellectual payload beyond personal balance observations. Incidental advice does not make it a procedure manual.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n057517a2a7). Sources: 132.
+
+### Mohandas Gandhi: Essential Writings
+
+**V5; moderate confidence.** Retain V5 at moderate confidence: this particular Orbis Spiritual Masters selection is expressly arranged for spiritual seekers around prayer, fasting and the search for God. Nonviolent political advocacy alone is not the ground.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0967). Sources: 121.
+
+### Crying in H Mart
+
+**V3; moderate confidence.** Retain V3 at moderate confidence: food and cultural memory organize the personal grief narrative, but the reviewed account develops little reusable explanatory model beyond that life. Literary architecture and precision remain credited.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1084). Sources: 4.
+
+### Zen Mind, Beginners Mind
+
+**V5; high confidence.** Retain V5: the collected talks explicitly teach Zen Buddhist understanding and practice. Their reflective narrative form passes the reference/manual exclusion, but their central religious teaching remains within V5.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0929). Sources: 121, 153.
+
+### Blitzed
+
+**V1; moderate confidence.** Retain V1 at moderate confidence: the cited historian's direct review distinguishes documented drug use from the book's excessive causal explanation of military and leadership decisions. The error concerns central causal weighting, not the existence of stimulant use.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1063). Sources: 2, 6, 162.
+
+### Why We Get Fat
+
+**V1; moderate confidence.** Retain V1: the strong carbohydrate–insulin explanation of obesity conflicts with the required implications tested in the cited controlled metabolic evidence. This does not imply that no low-carbohydrate diet can work for an individual.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1110). Sources: 8, 168.
+
+### Center Center
+
+**V3; moderate confidence.** Retain V3: personal and theatrical episodes dominate; reusable training or institutional reasoning is limited. Some imaginative passages do not make the whole marketed memoir fiction. The nontechnical narrative passes the reference gate.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n6be813ad2b). Sources: 132.
+
+### Dark Emu
+
+**V1; moderate confidence.** Retain V1 at moderate confidence: the specialist critique disputes selective source interpretation and the shift from documented land/food management to the stronger agriculture thesis central to the book. This does not deny Indigenous expertise or land management, nor veto an Indigenous perspective.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#neb36c15307). Sources: 141.
+
+### Ecclesiastes
+
+**V5; moderate confidence.** Retain V5: the nominated work is scripture itself, not an external historical or literary analysis. Its skeptical passages and durable philosophical insights are credited counterfactually but do not remove the explicit scripture gate.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#nbf3cf4826a). Sources: 135.
+
+### Friends, Lovers, and the Big Terrible Thing
+
+**V3; moderate confidence.** Retain V3 at moderate confidence: personal addiction and career episodes dominate, while general causal or treatment analysis is limited. The science-biography exception does not apply merely because illness appears. Personal witness and narrative quality remain credited.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#nee1fdd71da). Sources: 132.
+
+### Papillon
+
+**V1; moderate confidence.** Retain V1 at moderate confidence: the claimed firsthand basis of major adventures is materially disputed in the cited historical and teaching evidence. Preserve its claimed-nonfiction identity rather than silently relabeling the book fiction.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1086). Sources: 6.
+
+### Down the Drain
+
+**V3; moderate confidence.** Retain V3: a sequence of personal crises, relationships and career encounters carries the narrative, with limited developed transferable mechanism once those episodes are removed. This is a payload judgment, not a veto for the author's identity.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n108ec51230). Sources: 132.
+
+### And Our Faces, My Heart, Brief as Photos
+
+**V3; moderate confidence.** Retain V3 at moderate confidence: essays and poems link perception with memory, but the retrieved publisher account identifies primarily a lyrical meditation rather than a developed explanatory model or reusable method. Its philosophical interest is credited in the counterfactual score; this is not an exclusion for poetry or Marxist affiliation.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#naf9acccd63). Sources: 132.
+
+### The Rise and Fall of the Third Reich
+
+**V1; moderate confidence.** Retain V1: the reviewed specialist criticism identifies national-character and historical-inevitability generalization as a serious part of the causal explanation. The archival and narrative value is retained; the gate is not dislike of military or national history.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1048). Sources: 1, 2, 5, 6, 132.
+
+### Brothers
+
+**V1; moderate confidence.** Retain V1 at moderate confidence, conditional on the retained identification of the short source title as David Talbot's Brothers. The cited critical exchange questions key sourcing and causal reconstruction; Talbot's response and favorable reception are acknowledged. Do not turn the unresolved short-title identity into certainty.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1070). Sources: 4.
+
+### Goodbye to a River
+
+**V3; moderate confidence.** Retain V3 at moderate confidence: remembered people, places and a changing river carry the book. The reviewed material contains little developed mechanism after the local narrative is removed; ecological and US local-history themes are separately scored.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1090). Sources: 8.
+
+### The Half Has Never Been Told
+
+**V1; high confidence.** Retain V1: the reviewed economic-historical objections target quantitative double counting and the central inference from coercion to cotton productivity while neglecting seed innovation. The subject's thematic penalty is separate from this evidence failure.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1066). Sources: 5.
+
+### A First-Rate Madness
+
+**V1; moderate confidence.** Retain V1 at moderate confidence: retrospective diagnoses and selected successful leaders do not establish that mental illness causes superior crisis leadership. This is the central explanatory claim, beyond the reasonable narrower point that psychiatric illness need not prevent achievement.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1083). Sources: 4.
+
+### The Glory of Their Times
+
+**V3; moderate confidence.** Retain V3: careers, personalities and local baseball memories dominate the oral histories. The reviewed material supplies little developed reusable mechanism after those details are removed; sports content alone is not the veto.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n56a988fd25). Sources: 135.
+
+### Life Among the Savages
+
+**V3; moderate confidence.** Retain V3: comic family sketches offer little transferable analysis beyond their particular incidents. The publisher identifies memoir, so fiction exclusion is not applied merely because Jackson also wrote fiction.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1098). Sources: 6.
+
+### Why We Get Sick
+
+**V1; moderate confidence.** Retain V1: the prior expert review identifies central overreach in the unified-cause and carbohydrate-to-insulin-resistance claims. Individual useful observations do not repair the governing causal account.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#nb5b5cbaa5e). Sources: 132.
+
+### The Decline of the West
+
+**V1; moderate confidence.** Retain V1 at moderate confidence: the primary text treats civilizational analogy as historical necessity, including inevitable Caesarism and unavoidable imperialism. This is a central inferential failure, not a veto on pessimism or comparative history. The broader work contains observations and political contingencies, which remain credited but do not establish the asserted necessary sequence.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1059). Sources: 7.
+
+### A World Lit Only by Fire
+
+**V1; moderate confidence.** Retain V1 at moderate confidence: the prior page-specific critique identifies substantive anachronisms and a distorted picture of medieval ignorance that support the book's central contrast. Specialist-review full text was not obtained; the access limit lowers confidence and is not concealed.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1072). Sources: 2.
+
+### The Biology of Belief
+
+**V1; moderate confidence.** Retain V1 and lift V5: the publisher’s stated central claim jumps from cellular responses and epigenetics to control of biology by energetic messages from thought. Established regulation of gene expression does not establish this proposed mental control. Spiritual language alone does not establish a separate doctrinal veto.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1126). Sources: 6.
+
+### If At Birth You Don't Succeed
+
+**V3; moderate confidence.** Retain V3: the comic disability and media memoir offers personal encouragement, but too little developed explanation after its individual incidents are removed.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0073). Sources: 114.
+
+### Expecting Adam
+
+**V5; moderate confidence.** Retain V5 at moderate confidence: the narrative invites acceptance of supernatural guidance and spiritual transformation, rather than restricting itself to historical observation of belief. Remove the redundant separate V1 gate; the low evidence score still records unverifiable miracle claims.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1124). Sources: 5.
+
+### Brave Enough
+
+**V3; moderate confidence.** Retain V3: a selection of short maxims does not develop the reasoning, constraints or evidential support needed for a transferable explanatory account. Some memorable heuristics earn limited utility; this is a real nonfiction book, not an operating manual.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0049). Sources: 114.
+
+### The Long Walk
+
+**V1; high confidence.** Retain V1: documentary records reviewed previously conflict with the claimed firsthand Siberian escape and route. Keep the work's nonfiction presentation distinct from an unsupported reclassification as a novel.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1106). Sources: 6.
+
+### Furiously Happy: A Funny Book About Horrible Things
+
+**V3; moderate confidence.** Retain V3 at moderate confidence: comic personal episodes provide recognition and experience, but little developed mechanism or reusable explanatory framework survives removal of the narrator's incidents. This is not a dismissal of illness testimony.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#nf9c8eb6d82). Sources: 135.
+
+### Catastrophe: An Investigation into the Origins of the Modern World
+
+**V1; moderate confidence.** Retain V1: the central causal package links a specific 535 Krakatau event to numerous distant changes more strongly than the geological and historical evidence supports. Research supports major sixth-century volcanic shocks, but does not validate this specific source/date or the book's universal causal chain.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n7f242a07e2). Sources: 141.
+
+### Becoming
+
+**V3; moderate confidence.** Retain V3 at moderate confidence: personal development and life inside a political family dominate over sustained explanatory treatment of institutions. Some career and organizational observations earn utility credit, but the prior assessment found little independent model after the individual life is removed.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0040). Sources: 114.
+
+### The Mole People
+
+**V1; moderate confidence.** Retain V1: the prior location-by-location audit identifies serious physical and access errors in places presented as directly observed. This undermines central reporting claims without showing that every person or incident was invented.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1122). Sources: 3.
+
+### Not Fade Away
+
+**V3; moderate confidence.** Retain V3: mortality and fulfillment dominate the personal life account. Barton’s cable-business career is background here, not a sustained science or high-tech biography with the exception’s payload.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0097). Sources: 114.
+
+### Mao: The Unknown Story
+
+**V1; moderate confidence.** Retain V1 at moderate confidence: specialist source checks identify unsupported or distorted sourcing behind major Mao-centered claims. The finding does not require approval of Mao or rejection of all reported atrocities.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0733). Sources: 119.
+
+### Greenlights
+
+**V3; moderate confidence.** Retain V3: personal episodes and generalized motivational lessons dominate without sufficient developed constraints or explanatory mechanisms. Readability and anecdotal heuristics receive limited credit; this is not a celebrity-identity veto.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0066). Sources: 114, 132.
+
+### A Child Called It
+
+**V3; moderate confidence.** The account's main value is witness to an individual child's suffering and survival. The prior assessment found little developed explanatory model once the personal events are removed. Retain V3; this is not a judgment that abuse testimony lacks human value.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1119). Sources: 5.
+
+### Wishful Drinking
+
+**V3; moderate confidence.** Retain V3: family, illness and celebrity recollection provide the principal payload. The reviewed work does not develop sufficient reusable explanation beyond personal episodes.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1103). Sources: 4.
+
+### The Four Agreements
+
+**V5; moderate confidence.** Retain V5: the work teaches an inherited Toltec spiritual framework and liberation through its agreements as authoritative guidance. This is more than a secular argument that happens to use religious examples; its teaching purpose is central.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0919). Sources: 121, 173.
+
+### The Autobiography of Gucci Mane
+
+**V3; moderate confidence.** Retain V3: the central payload is a performer’s personal account of fame, imprisonment and recovery. It does not develop production, organization or general mechanisms enough to meet the transfer threshold, and the technical-biography exception does not apply.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0116). Sources: 114.
+
+### The Fry Chronicles
+
+**V3; moderate confidence.** Retain V3: the account mainly records Fry's personal and entertainment career formation; the reviewed chapters do not develop a substantial reusable account of media production. Celebrity subject matter alone is not the finding.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0119). Sources: 114.
+
+### Desert Soliloquy
+
+**V3; moderate confidence.** Retain V3 at moderate confidence: the retained source-specific account identifies literary observation and individual reflection, with little developed model beyond local experience. The limited evidence lowers score confidence; it does not justify inventing a technical or fiction exclusion.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1129). Sources: 4.
+
+### Fingerprints of the Gods
+
+**V1; moderate confidence.** Retain V1: the central lost-civilization reconstruction depends on misread map evidence and unsupported chronological/archaeological inferences identified in the retained detailed critique. The gate is not disagreement with a speculative hypothesis alone.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g1038). Sources: 122.
+
+### Stan Smith: Some People Think I’m a Shoe
+
+**V3; moderate confidence.** Retain V3: this illustrated celebration of Smith and his namesake shoe documents a sporting and brand icon, but supplies little sustained explanation of design, manufacturing, brand economics or transferable strategy. Its published art-book form passes the hard gates.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0299). Sources: 115.
+
+### Believe Me
+
+**V3; moderate confidence.** Retain V3 at moderate confidence: anecdotes of identity, performance and career supply the main value, with only limited transferable craft or institutional analysis. This is not within the science/high-tech biography exception.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0042). Sources: 114, 148.
+
+### Royal Panoply
+
+**V3; moderate confidence.** Retain V3 at moderate confidence: the royal portraits chiefly retain parentage, personality and succession rather than sustained explanation of institutional constraints. Single-nation history remains a separate deduction.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1105). Sources: 2.
+
+### Science at the Crossroads
+
+**V1; high confidence.** Retain V1 at high confidence: the claimed relativistic contradiction compares clock rates defined with different event pairs and simultaneity conventions. A sustained expert argument passes the reference gate but does not validate that error.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1130). Sources: 3.
+
+### The Real Crash
+
+**V4; moderate confidence.** Retain V4: the actual opening chapter frames U.S. bankruptcy and a crash worse than the Great Depression as inevitable; proposed policies mainly soften the result. This is stronger than guarded scenario analysis. Remove V5 because monetary-policy campaigning is permitted.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0898). Sources: 120.
+
+### Warrior Pose
+
+**V1; moderate confidence.** Retain V1: a personal recovery narrative is used to support a yoga or spiritual self-healing causal claim without adequate evidence. Remove V5: spiritual transformation in memoir does not itself establish authoritative religious doctrine.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1132). Sources: 7.
+
+### The New Left / The Return of the Primitive
+
+**V2; moderate confidence.** Retain the separately documented V2: representative arguments reduce diverse opponents to irrational or primitive motives through prior philosophical allegiance rather than symmetric tests. Remove V5: Objectivist advocacy and a polemical label alone do not constitute extremism.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1092). Sources: 5.
+
+### The Book of Enoch
+
+**V5; moderate confidence.** Retain V5: the identified ancient Enochic work is religious apocalyptic scripture, not a modern study of it. Remove the former conditional V1 claim; supernatural content alone is not a separately established modern factual-failure judgment. Edition identity remains only moderately certain.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1121). Sources: 6.
+
+### The Farfarers
+
+**V1; moderate confidence.** Retain V1: the archaeological critique identifies inference from similar-sounding place names and dismissal of conflicting Dorset evidence as central to the proposed migration history. Calling a reconstruction speculative does not repair these specific evidential failures.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1102). Sources: 8.
+
+### Travels with Charley
+
+**V3; moderate confidence.** Retain V3: personal observations and episodes across America dominate over developed general explanation. Reconstruction concerns remain score limits; no new V1 is inferred merely from the literary form.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0013). Sources: 114.
+
+### Autobiography of a Yogi
+
+**V5; moderate confidence.** Retain V5: the autobiography presents spiritual masters, miraculous powers and realization as religious truth and a path to follow. Remove a redundant separate V1 label; the evidence score still discounts unverified miracle narratives and doctrinal inference.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1120). Sources: 4, 7, 114, 153.
 
 ### Emptiness Dancing
 
-**V5; high confidence. Counterfactual 30/100; low score confidence. Sources 2.** The work teaches spiritual awakening and a view of ultimate reality. That religious-spiritual purpose directly meets V5; the retained format assessment treats it as discursive teaching rather than a technical practice manual.
+**V5; moderate confidence.** Retain V5: the collected spiritual teaching presents awakening and nondual realization as truth to be recognized, not an external analysis of religion. Limited general observations about attention remain credited but do not override doctrine.
 
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `5 / 4 / 4 / 2 / 6 / 5 / 0 / 1 / 2 / 1 / 0`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-1069) · [Prior criterion assessment](analysis_top3alltime_261017_1900.md).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1118). Sources: 2.
 
-### Inventing Accuracy — source 49
+### The Power of Now
 
-**V5; moderate veto confidence. Counterfactual 87.85/100; low score confidence.** The inspected scholarly review identifies opposition to the continued existence and development of nuclear weapons as one of the book's purposes. This meets the repository's strict activism gate. The competing interpretation—that its normative conclusion is incidental to a substantial history—is retained, so confidence is moderate. [Evidence, objection and eligibility assessment](analysis_discover91_261018_1528.md#mackenzie).
+**V5; high confidence.** Retain V5: awakening, ego-transcendence and spiritual liberation are taught as authoritative truths and practices. Remove the insufficiently specific additional V1 label; metaphysical claims do not automatically create a separate factual veto.
 
-Only the veto gate is suspended below. The contested theoretical framing, limits to causal separation and reading burden remain in the score. T = **0.00**: international strategic technology, not a predominantly penalized theme. Exact counterfactual total: **1757/20 = 87.85**.
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1117). Sources: 6, 158.
 
-| Criterion | Maximum | Raw attainment | Contribution |
-|---|---:|---:|---:|
-| Evidence and inferential integrity | 20.00 | 17.00 | 14.45 |
-| Systems integration | 17.00 | 17.00 | 17.00 |
-| Transferable strategic utility | 15.00 | 14.00 | 14.00 |
-| Mechanistic and causal depth | 12.00 | 11.00 | 11.00 |
-| Information density and length justification | 10.00 | 8.00 | 6.40 |
-| Durability and resistance to hype | 9.00 | 9.00 | 9.00 |
-| Direct domain fit | 7.00 | 7.00 | 7.00 |
-| Expert authority and intellectual standing | 5.00 | 5.00 | 5.00 |
-| Narrative architecture and clarity | 3.00 | 2.00 | 2.00 |
-| Authorial precision and finesse | 2.00 | 2.00 | 2.00 |
+### Falling into Grace
 
-Only evidence, systems integration and information density are quadratic. [Structured calculation](data/discovery91_261018.json). The score does not make the book recommended.
+**V5; moderate confidence.** Retain V5: the book presents spiritual awakening and release from the separate self as its central truth and aim. This concerns the book's devotional teaching, not a separate practical audio course or the author's identity.
 
-### The Book of Invasions (Lebor Gabála Érenn)
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0941). Sources: 121.
 
-**V5; moderate confidence. Counterfactual 28/100; low score confidence. Sources 1.** The medieval narrative constructs a Christian universal and national origin account. V5 applies to that religious-ideological purpose. It remains a historical primary text rather than being relabeled a modern novel; the narrative text, not a modern scholarly apparatus alone, is the nominated work.
+### Moab Is My Washpot
 
-Full criterion vector (E/M/U/S/D/R/F/A/N/P/T): `12 / 2 / 3 / 3 / 3 / 9 / 0 / 4 / 1 / 1 / -10`. [Current review and evidence](analysis_veto5_261018_1428.md#v5-1070) · [Prior criterion assessment](analysis_definitive_261017_1900.md).
+**V3; moderate confidence.** Retain V3: Fry’s adolescent recollections supply literary and personal value but little developed mechanism beyond those experiences.
 
-## How the World Ran Out of Everything — Peter S. Goodman
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0088). Sources: 114.
 
-**V5; moderate veto confidence. Counterfactual 58.40; low score confidence. Source 67.** Passes both hard exclusions: narrative nonfiction, not a logistics manual. Veto V5, moderate confidence: the central account advances a sustained political-economic reform case through the supply-chain narrative. No additional V1 or V2 veto is asserted without stronger checking of the book's complete treatment of counterevidence.
+### I Am Ozzy
 
-Wellisz identifies repeated denunciations and the concluding programme of stronger unions and antitrust enforcement. Grabow, writing from an opposing policy perspective, alleges missing regulatory and demand-side explanations. His ideological label is not accepted as proof; the repeated advocacy independently described by Wellisz supports the narrower V5 decision.
+**V3; moderate confidence.** Retain V3: outrageous personal and band stories dominate, without a sustained transferable model beyond the career. Musical fame does not trigger the science/high-tech exception; narrative entertainment retains counterfactual credit.
 
-[Full evidence and criterion breakdown](analysis_widerd_261018_2208.md#goodman).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1116). Sources: 6.
 
-## How Infrastructure Works — Deb Chachra
+### Scar Tissue
 
-**V5; moderate veto confidence. Counterfactual 85.30; moderate score confidence. Source 90.** Narrative explanatory nonfiction passes hard exclusions. V5 applies to the sustained environmental and civic transformation programme; moderate confidence because engineering explanation occupies much of the book. No claim of factual unreliability is implied by this veto.
+**V3; moderate confidence.** Retain V3: the musician’s relationships, addiction and career dominate, with little developed transferable mechanism beyond the life story. Celebrity and illness deductions are separate.
 
-Describing an engineering constraint does not uniquely determine a social programme for meeting it.
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1111). Sources: 4.
 
-[Full evidence and criterion breakdown](analysis_research92_261018_2235.md#infrastructure).
+### The Heroin Diaries
 
-## How Innovation Works — Matt Ridley
+**V3; moderate confidence.** Retain V3: individual addiction experience and rock-career testimony dominate. The reviewed account does not develop a sustained transferable explanation of addiction or institutional production; memoir form and illness alone are not vetoes.
 
-**V5; moderate veto confidence. Counterfactual 78.61; moderate score confidence. Source 75.** Narrative and argument pass the hard exclusions. V5 applies at a serious level to the governing advocacy. V1/V2 are not separately asserted from a disagreement about policy; V3/V4 do not apply.
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1112). Sources: 6.
 
-A preferred institutional model does too much explanatory work. Positive examples do not establish that public research and private development are substitutes.
+### A New Earth
 
-[Full evidence and criterion breakdown](analysis_research92_261018_2235.md#ridley).
+**V5; moderate confidence.** Retain V5 for a central spiritual teaching presented as transformative truth, not for self-help or the author's popularity. The prior separate V1 claim is not needed: unverifiable spiritual premises are addressed by the explicit doctrine gate and low evidence score.
 
-## The Innovation Delusion — Lee Vinsel; Andrew L. Russell
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1123). Sources: 4.
 
-**V5; high veto confidence. Counterfactual 72.51; moderate score confidence. Source 89.** Passes hard exclusions as a sustained argument. V5 applies to its manifesto and civil-economic advocacy. No independent V1/V2 finding is made; the counterfactual preserves the strong maintenance content.
+### Lone Survivor
 
-Maintenance and innovation often reinforce each other. Treating their advocates as opposing camps can obscure that relationship.
+**V1; moderate confidence.** Retain V1: Darack documents material discrepancies in the mission purpose, command structure and target description. Exact enemy strength remains disputed; the veto does not depend on adopting one disputed count.
 
-[Full evidence and criterion breakdown](analysis_research92_261018_2235.md#delusion).
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g1284). Sources: 126, 152, 162.
+
+### The Dude De Ching
+
+**V5; high confidence.** Retain V5: the Church of the Latter-Day Dude explicitly issues the adaptation as its own scripture. Humor does not change the nominated work's religious-text purpose.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n264eee6abf). Sources: 130.
+
+### The Art of Living and Dying
+
+**V5; moderate confidence.** Retain V5: the central purpose is to teach spiritual realization and liberation from ordinary beliefs about death, with the teacher’s metaphysical claims presented as truth. Anecdotes and exposition dominate over a specific procedural manual.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0962). Sources: 121.
+
+### The Holy Bible (King James Version)
+
+**V5; high confidence.** Retain V5: the nominated King James Bible is a scriptural corpus. Its literary diversity, historical importance and translation do not change that work-level identity.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#nb7f45a5548). Sources: 135.
+
+### The Zen Teaching of Huang Po
+
+**V5; high confidence.** Retain V5: the text teaches One Mind and awakening as the central religious truth. Its philosophical interest and historical value do not change its primary doctrinal purpose.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n0c5b1aa9d6). Sources: 130.
+
+### An Attempt at Exhausting a Place in Paris
+
+**V3; moderate confidence.** Retain V3: this is a published nonfiction experiment in recording ordinary detail, not fiction or a technical reference. Its value is the observational artifact; after the site-specific inventory is removed, little explanatory mechanism remains. The attentional experiment earns limited utility credit.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#naee6ed9298). Sources: 132.
+
+### Off The Record
+
+**V3; moderate confidence.** Retain V3: access, relationships and dismissal dominate the White House memoir, with little developed explanation beyond generic loyalty and discretion lessons.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0741). Sources: 119.
+
+### A Story Lately Told
+
+**V3; moderate confidence.** Retain V3: family, relationships and remembered artistic personalities dominate, with too little developed institutional or creative method independent of those scenes. The science/high-tech biography exception does not apply to this work.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0033). Sources: 114.
+
+### Spiritually Incorrect Enlightenment
+
+**V5; moderate confidence.** Retain V5 at moderate confidence: the work advances its own authoritative awakening metaphysics through dialogue and literary interpretation. Rejection of other religions is not evidence that it lacks a doctrinal purpose.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0957). Sources: 121.
+
+### Spiritual Warfare
+
+**V5; moderate confidence.** Retain V5 at moderate confidence: awakening and self-dissolution are taught as authoritative spiritual truth through a teacher narrative. Criticism of conventional religion does not turn this into neutral religious analysis.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0956). Sources: 121.
+
+### The Ascent of Humanity
+
+**V1; moderate confidence.** Retain V1 and lift V5: the author’s own central transition argument asserts that water transmits meaningful information and invokes homeopathy and Emoto’s inadequately controlled images as support. These are evidential failures, not merely an allowed civilizational vision. Ecology, reform and spiritual vocabulary do not independently establish V5.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1127). Sources: 9.
+
+### I Am That
+
+**V5; moderate confidence.** Retain V5: the dialogues teach nondual spiritual realization as truth rather than analyzing a religion from outside. Their question-and-answer form is not fiction or a technical manual; philosophical interest is credited without overriding doctrine.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#ndc7acfe5cb). Sources: 132.
+
+### Spiritual Enlightenment, the Damnedest Thing
+
+**V5; moderate confidence.** Retain V5 at moderate confidence: the author presents himself as a spiritual master teaching singular ultimate truth and enlightenment, not merely analyzing beliefs. The mixed narrative and exposition is not primarily a procedure curriculum.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0925). Sources: 121.
+
+### Sun Rises in the Evening
+
+**V5; moderate confidence.** Retain V5: the collected Zen discourses teach enlightenment and spiritual realization as authoritative truth through a master’s voice. They are not primarily historical analysis of Zen; the central exposition is not a technical procedure manual.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0959). Sources: 121.
+
+### Trump: The Art of the Deal
+
+**V1; moderate confidence.** Retain V1: the coauthor's firsthand account identifies construction of a misleading success persona at the center of the memoir. This is an independently evidenced autobiographical-integrity concern, not a veto for politics or wealth advice.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0350). Sources: 115.
+
+### The Great Challenge
+
+**V5; high confidence.** Retain V5: the talks offer authoritative spiritual guidance about consciousness and transcendence. The central purpose is spiritual teaching rather than historical analysis of religious ideas.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0969). Sources: 121.
+
+### Dreamstate
+
+**V5; moderate confidence.** Retain V5: the work presents spiritual realization and the unreality of ordinary experience as its guiding authoritative truth. The finding concerns nondual doctrine, not the sensational subtitle or a supposed factual conspiracy claim.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0938). Sources: 121.
+
+### The Philosophy of Andy Warhol
+
+**V3; moderate confidence.** Retain V3: the reviewed work chiefly preserves Warhol's persona, tastes and aphoristic opinions. It does not develop a substantial explanatory account of art production, markets or institutions after the personal detail is removed.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n95cc0004bf). Sources: 135.
+
+### I Am Not Ashamed
+
+**V3; moderate confidence.** Retain V3 at moderate confidence: personal testimony and remembered incidents carry the account, with limited developed mechanism beyond the individual life. The identity or occupation of the narrator is not itself a veto.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#n776dae28e5). Sources: 132.
+
+### The Anunnaki Chronicles
+
+**V1; moderate confidence.** Retain V1: the edited selection reproduces the unsupported ancient-astronaut and linguistic framework rather than supplying independent validation or a critical history of its errors. Its status as an archive of Sitchin’s thought does not repair the central factual claims.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1131). Sources: 8.
+
+### The Genius of the Few
+
+**V1; moderate confidence.** Retain V1: myth and linguistic readings are used to establish a real civilizing group and Eden history while archaeological validation is still being sought. The necessary bridge from interpretation to historical occurrence is not supplied.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1128). Sources: 8.
+
+### American Crusade
+
+**V5; moderate confidence.** Retain V5 at moderate confidence for the book's specific call to intimidate political opponents and its qualified openness to armed conflict, documented in direct readings of the text. Conservative advocacy alone is not the reason. The author's claim that opponents seek annihilation must not be misquoted as his own announced aim; full text access was incomplete.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0703). Sources: 119.
+
+### Programmed to Kill
+
+**V1; moderate confidence.** Retain V1: the cited chapter makes a central assassin-program inference from timing and institutional associations without establishing recruitment or control. This is an invalid causal bridge, not merely an unconventional hypothesis.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1133). Sources: 9.
+
+### The Mystery of the Grail
+
+**V5; moderate confidence.** Retain V5: the work presents Grail symbolism as an authoritative route to hidden initiation and spiritual hierarchy, rather than only analyzing beliefs historically. Remove the separately weak V1 label: unverified esotericism alone is not an additional demonstrated factual failure.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#na8a63131c5). Sources: 132.
+
+### Power vs. Force
+
+**V1; V5; moderate confidence.** Retain V1/V5: muscle testing is presented as a universal truth detector and an authoritative spiritual hierarchy, without a validated bridge to either claim. The gate is about the central epistemic and spiritual authority claims, not meditation vocabulary.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1136). Sources: 8.
+
+### Blitz: Trump Will Smash the Left and Win
+
+**V4; moderate confidence.** Lift V5 but retain V4 at moderate confidence: the publisher's own framing and contents make the immediate 2020 campaign outcome and partisan confrontation the central payoff. This is passing-election dependence, not a veto for conservative advocacy or all political forecasting. No unsupported extremism finding is retained.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0705). Sources: 119.
+
+### The Greek Way
+
+**V2; moderate confidence.** Retain V2: the prior classicist critique identifies specific Greek/Western superiority contrasts and omission of adverse Greek evidence, not merely affection for Greek civilization. This serious asymmetry supports V2 separately from the removed broad ideological gate.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#nbf6adc7afb). Sources: 141.
+
+### The 12th Planet
+
+**V1; moderate confidence.** Retain V1: the central ancient-astronaut account depends on unsupported readings of Mesopotamian terms and astronomical claims, including Nibiru. The failure concerns the proposed factual explanation, not an unpopular historical topic.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1134). Sources: 8.
+
+### The Earth Chronicles
+
+**V1; high confidence.** Retain V1: the nominated series treats unsupported readings of ancient texts and astronomical claims as the foundation of its ancient-astronaut history. The prior linguistic and astronomical objections concern that foundation, not mere speculative imagination.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1135). Sources: 8.
+
+### Oscar: The Style, Inspiration and Life of Oscar de la Renta
+
+**V3; moderate confidence.** Retain V3: the illustrated designer portrait celebrates style, homes and clients but does not develop a sustained production or design mechanism.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0100). Sources: 114.
+
+### The Secret Life of Salvador Dalí
+
+**V3; moderate confidence.** Retain V3: personal myth, artistic persona and memory dominate over developed reusable explanation. The autobiography is not hard-excluded merely for fantastical self-presentation; reliability limits remain in its score.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0134). Sources: 114.
+
+### Stuff and Nonsense
+
+**V3; low confidence.** Retain V3 at low confidence: the identified nonfiction recollections center on personal incidents and angling rather than reusable mechanisms. This is the Logie Bruce-Lockhart book, not another work with the same generic title. Sparse accessible evidence limits the gate confidence.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0111). Sources: 114.
+
+### The Law That Never Was
+
+**V1; high confidence.** Retain V1: the central Sixteenth Amendment non-ratification claim was rejected in the cited judicial record. Remove V5: tax-resistance advocacy alone is no longer sufficient, and the factual gate already has independent evidence.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1137). Sources: 6.
+
+### Best Evidence
+
+**V1; moderate confidence.** Retain V1: the central body-alteration theory relies on speculative reconstruction and strained reconciliation of evidence rather than a sufficiently supported chain. The earlier critique addresses this mechanism, not merely an unpopular view of the assassination.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#g0044). Sources: 114.
+
+### Mein Kampf
+
+**V1; V2; V5; high confidence.** Retain V1/V2/V5: the racial-conspiracy account substitutes racial allegiance for evidence and explicitly promotes persecution and domination. The veto rests on those substantive claims, not the manifesto label.
+
+[Complete assessment and evidence](analysis/analysis_vetogates_261021_0047.md#q1138). Sources: 8, 132.
+
+## Books Guru additions
+
+<a id="bgef288074cb"></a>
+### A Champion's Mind — Pete Sampras with Peter Bodo
+
+**vetoed; moderate eligibility confidence.** Published nonfiction tennis career memoir with sustained exposition or narrative; not an exam text, specialist reference or procedural manual. V3: the inspected narrative centers on matches, rivals, personal pressures and a champion’s life; general determination lessons do not supply a substantial mechanism beyond this career.
+
+Sources: 148.
+
+| Gate | Finding |
+|---|---|
+| BOOK_FORM | Published book confirmed in the cited primary publication record. |
+| FICTION | Nonfiction tennis career memoir. |
+| REFERENCE | Sustained tennis career memoir intended for readers beyond procedural training or specialist lookup. |
+| V1 | No serious central evidential failure established in the inspected material; First-person account is credible about experience but selectively retrospective. |
+| V2 | No serious substitution of allegiance for evidence established; the identified limitations remain scored. |
+| V3 | V3: the inspected narrative centers on matches, rivals, personal pressures and a champion’s life; general determination lessons do not supply a substantial mechanism beyond this career. |
+| V4 | No primary dependence on passing publicity established; Sports experience persists but adds little durable general analysis. |
+| V5 | No central authoritative doctrine or specifically evidenced extremist advocacy established; subject and reform proposals alone are insufficient. |
+
+[Evidence 1](https://books.google.com/books/about/A_Champion_s_Mind.html?id=w3HAwAEACAAJ); [Evidence 2](https://www.udb.hr/wp-content/uploads/2020/12/A-Champions-Mind-Pete-Sampras.pdf).
+
+| Criterion | Linear attainment | Contribution | Basis |
+|---|---:|---:|---|
+| Evidence and inferential integrity | 14.00/20 | 9.80 | First-person account is credible about experience but selectively retrospective |
+| Systems integration | 4.00/17 | 0.94 | Few links extend beyond coaching, competition and personal life |
+| Transferable strategic utility | 4.00/15 | 4.00 | Generic persistence lessons offer little cross-domain strategic model |
+| Mechanistic and causal depth | 3.00/12 | 3.00 | Match recollections outweigh explanation of reusable causal systems |
+| Information density | 5.00/10 | 2.50 | Career episodes consume substantial space relative to analytical payload |
+| Durability | 6.00/9 | 6.00 | Sports experience persists but adds little durable general analysis |
+| Direct domain fit | 0.00/7 | 0.00 | Tennis has negligible direct fit with the requested domains |
+| Expert authority | 3.00/5 | 3.00 | Sampras has elite playing authority but limited analytic scholarship |
+| Narrative architecture | 2.00/3 | 2.00 | Chronological career episodes are readable |
+| Authorial precision | 1.50/2 | 1.50 | Direct memoir prose is clear rather than conceptually precise |
+
+| Deduction | Points | Basis |
+|---|---:|---|
+| T11 | 0.00 | T11 0: sports is an unwanted preference but is not itself in the enumerated thematic deduction; the memoir centers on athletic competition rather than media celebrity. T12 0: no listed central auxiliary domain. |
+| T12 | 0.00 | Applied independently; T11 0: sports is an unwanted preference but is not itself in the enumerated thematic deduction; the memoir centers on athletic competition rather than media celebrity. T12 0: no listed central auxiliary domain. |
+| H13 | -0.96 | Period end 2002; moderate. Central competitive career ends with the 2002 US Open, explicitly identified in the publisher description. |
+| P14 | -1.80 | Original year 2008; moderate. Original publication 2008 identified in the cited publication record; reprints do not reset it. |
+| O15 | 0.00 | Unknown; zero-deduction fallback. unknown; no explicit total-rating aggregate recovered; O15 fallback 0 |
+
+**29.98 — counterfactual; V3 (moderate).** Score confidence moderate. Positive subtotal 32.74.
+
+Reader snapshot: Unavailable; no independently verified reader aggregate.. [Purchase locator](https://www.amazon.com/dp/030738330X). Source product locator; edition and availability not yet independently verified.
+
+Amazon: [amazon.com](https://www.amazon.com/dp/030738330X); see URL; retrieved 2026-10-21. unknown; no explicit total-rating aggregate recovered; O15 fallback 0
+
+Amazon attempts (2026-10-21): {"url":"https://www.amazon.com/dp/030738330X","method":"Public product retrieval and global ratings text search","result":"No explicit global-ratings text returned","evidence":"data/books_guru_261021/b-am-7.txt","retrieved":"2026-10-21"}.
+
+
+<a id="bgf32c34d084"></a>
+### The Managerial Revolution — James Burnham
+
+**vetoed; high eligibility confidence.** Historical and predictive political-economic argument; not a classroom or operational reference work. V1, moderate confidence: the central claim of inevitable convergence on managerial rule is supported by treating transient wartime dominance as an irreversible structural trend. Specific book predictions contradict that claimed necessity. This is not a veto for discussing authoritarianism or making a prediction.
+
+Sources: 162.
+
+| Gate | Finding |
+|---|---|
+| BOOK_FORM | Published book; identity checked against the cited record. |
+| FICTION | Nonfiction. |
+| REFERENCE | Historical and predictive political-economic argument; not a classroom or operational reference work. |
+| V1 | Serious inferential failure: p.226 treats Russian subordination to the European center as assured and interprets the invasion as confirmation of the theory. Orwell documents the book’s irreversible German-European consolidation claim and incompatible outcomes. Distinguish these book passages from his later magazine predictions. |
+| V2 | No demonstrated dependence of the central argument on allegiance rather than evidence. |
+| V3 | Pass: the separation of ownership from organizational control is a transferable institutional model, despite the separate inferential failure in the claimed inevitable trajectory. |
+| V4 | Forecasting itself is permitted. The identified problem is unwarranted structural necessity, assessed under V1; no additional V4 assigned. |
+| V5 | Description of authoritarian managerial society is not sufficient evidence of extremist advocacy; no V5 assigned. |
+
+[Evidence 1](https://platypus1917.org/wp-content/uploads/James-Burnham-The-Managerial-Revolution-John-Day-1941.pdf); [Evidence 2](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/second-thoughts-on-james-burnham/).
+
+| Criterion | Linear attainment | Contribution | Basis |
+|---|---:|---:|---|
+| Evidence and inferential integrity | 8.00/20 | 3.20 | Central necessity claim overreads wartime evidence |
+| Systems integration | 12.00/17 | 8.47 | Connects ownership, industrial control and state power |
+| Transferable strategic utility | 8.00/15 | 8.00 | Control-versus-ownership distinction remains useful |
+| Mechanistic and causal depth | 7.00/12 | 7.00 | Managerial incentives are plausible; inevitability is not |
+| Information density | 7.00/10 | 4.90 | Focused thesis with repeated deterministic assertions |
+| Durability | 5.00/9 | 5.00 | Ownership/control survives; grand trajectory does not |
+| Direct domain fit | 4.00/7 | 4.00 | Industrial organization and power partly fit |
+| Expert authority | 3.00/5 | 3.00 | Serious theorist; forecast evidence is weak |
+| Narrative architecture | 2.20/3 | 2.20 | Coherent argument makes flaws inspectable |
+| Authorial precision | 1.20/2 | 1.20 | Categorical language understates alternative outcomes |
+
+| Deduction | Points | Basis |
+|---|---:|---|
+| T11 | 0.00 | T11=0: cross-national political-economic argument. T12=-10: political power and regime structure are central. |
+| T12 | -10.00 | Applied independently; T11=0: cross-national political-economic argument. T12=-10: political power and regime structure are central. |
+| H13 | 0.00 | Period end none; high. Sustained explanatory argument across examples; no single central historical period. H13=0. |
+| P14 | -8.50 | Original year 1941; high. Original publication year supported by the cited publisher or bibliographic record; later editions do not reset it. |
+| O15 | 0.00 | Unknown; zero-deduction fallback. No unambiguous matching Amazon total-ratings aggregate was retrievable. Books Guru figures are unverified; O15=0 fallback. |
+
+**28.47 — counterfactual; V1 (moderate).** Score confidence moderate. Positive subtotal 46.97.
+
+Reader snapshot: Unavailable; Books Guru reader figures are unverified.. [Purchase locator](https://www.amazon.de/s?k=The%20Managerial%20Revolution%20James%20Burnham%20paperback). Paperback search locator; edition availability not verified.
+
+Amazon attempts (2026-10-21): [Attempt](https://www.amazon.com/dp/1839013184).
+
+
+<a id="bga0071a132f"></a>
+### China Coup — Roger Garside
+
+**vetoed; moderate eligibility confidence.** Published nonfiction forecast; the author explicitly distinguishes semi-fictional scenarios from the main analytical part, so it is not excluded as a fiction book. V4: the preface predicts Xi’s removal before the November 2022 party congress, with the main argument explaining why it will happen. A brief uncertainty acknowledgment does not supply elaborate balanced guardrails for this central dated claim.
+
+Sources: 167.
+
+| Gate | Finding |
+|---|---|
+| BOOK_FORM | Published book confirmed in the cited primary publication record. |
+| FICTION | Nonfiction political forecast of a Chinese leadership coup. |
+| REFERENCE | Sustained political forecast of a Chinese leadership coup intended for readers beyond procedural training or specialist lookup. |
+| V1 | No serious central evidential failure established in the inspected material; Institutional observations do not justify the precise central coup prediction. |
+| V2 | No serious substitution of allegiance for evidence established; the identified limitations remain scored. |
+| V3 | Some regime-constraint lessons survive the weakly bounded forecast; Infers elite decisions from pressures without reliable causal identification. |
+| V4 | V4: the preface predicts Xi’s removal before the November 2022 party congress, with the main argument explaining why it will happen. A brief uncertainty acknowledgment does not supply elaborate balanced guardrails for this central dated claim. |
+| V5 | No central authoritative doctrine or specifically evidenced extremist advocacy established; subject and reform proposals alone are insufficient. |
+
+[Evidence 1](https://www.ucpress.edu/books/china-coup/paper); [Evidence 2](https://anyflip.com/mhnd/jrrg/basic/).
+
+| Criterion | Linear attainment | Contribution | Basis |
+|---|---:|---:|---|
+| Evidence and inferential integrity | 9.00/20 | 4.05 | Institutional observations do not justify the precise central coup prediction |
+| Systems integration | 11.00/17 | 7.12 | Connects Chinese elites, economy, international pressure and legitimacy |
+| Transferable strategic utility | 6.00/15 | 6.00 | Some regime-constraint lessons survive the weakly bounded forecast |
+| Mechanistic and causal depth | 5.00/12 | 5.00 | Infers elite decisions from pressures without reliable causal identification |
+| Information density | 7.00/10 | 4.90 | Compact structure combines analysis with extended imagined scenes |
+| Durability | 3.00/9 | 3.00 | Central value is tied to a near-term political event prediction |
+| Direct domain fit | 3.00/7 | 3.00 | Geostrategic risk fits, productive systems remain secondary |
+| Expert authority | 4.00/5 | 4.00 | Garside has diplomatic and development-banking experience |
+| Narrative architecture | 2.00/3 | 2.00 | Scenario, explanation and aftermath give a clear architecture |
+| Authorial precision | 1.00/2 | 1.00 | The preface’s categorical timing exceeds its uncertainty caveat |
+
+| Deduction | Points | Basis |
+|---|---:|---|
+| T11 | -10.00 | T11 -10: Chinese national politics. T12 -10: political leadership and regime change. |
+| T12 | -10.00 | Applied independently; T11 -10: Chinese national politics. T12 -10: political leadership and regime change. |
+| H13 | 0.00 | Period end none; moderate. A forecast, not a bounded historical period; H13 remains zero. |
+| P14 | -0.50 | Original year 2021; moderate. Original publication 2021 identified in the cited publication record; reprints do not reset it. |
+| O15 | 0.00 | Unknown; zero-deduction fallback. unknown; no explicit total-rating aggregate recovered; O15 fallback 0 |
+
+**19.57 — counterfactual; V4 (high).** Score confidence moderate. Positive subtotal 40.07.
+
+Reader snapshot: Unavailable; no independently verified reader aggregate.. [Purchase locator](https://www.amazon.com/dp/0520380975). Source product locator; edition and availability not yet independently verified.
+
+Amazon: [amazon.com](https://www.amazon.com/dp/0520380975); see URL; retrieved 2026-10-21. unknown; no explicit total-rating aggregate recovered; O15 fallback 0
+
+Amazon attempts (2026-10-21): {"url":"https://www.amazon.com/dp/0520380975","method":"Public product retrieval and global ratings text search","result":"No explicit global-ratings text returned","evidence":"data/books_guru_261021/b-am-56.txt","retrieved":"2026-10-21"}.
+
+
+<a id="bgab0ba11a72"></a>
+### The Hidden Life of Trees — Peter Wohlleben
+
+**vetoed; moderate eligibility confidence.** Popular explanatory forest narrative rather than forestry instruction or specialist reference. V1, moderate: the book builds its central account of forest society on confident claims about family-like care and directed cooperation. Its own preface presents pain, memory and parent-child living as established knowledge; specialist critiques identify key altruistic mother-tree interpretations as unsupported. This finding distinguishes valid fungal networks from the stronger social-purpose claims and does not assert a unanimous scientific judgment.
+
+Sources: 173.
+
+| Gate | Finding |
+|---|---|
+| BOOK_FORM | Matching publication record confirms The Hidden Life of Trees as a published book. |
+| FICTION | Presented as nonfiction argument, history, biography or reflective essays; no fiction gate established. |
+| REFERENCE | Popular explanatory forest narrative rather than forestry instruction or specialist reference. |
+| V1 | The original German preface, page 8, treats tree pain, memory and parent-child living as established knowledge that changes the account of forest life. This social-family interpretation is central, not a decorative analogy. The specific 2023 critiques of mother-tree and fungal-network interpretations identify unsupported inferences about directed nurturing and altruistic sharing. Their criticism does not deny the existence of fungal networks or every form of resource transfer. |
+| V2 | The inspected account offers reasons and evidence rather than requiring allegiance; limitations are reflected in evidence attainment. |
+| V3 | Observation of interdependence has limited utility when motives are anthropomorphized. |
+| V4 | Basic ecology lasts; overclaimed network narratives age poorly. No serious dependence on unsupported revolutionary prediction established. |
+| V5 | No central scripture/devotion or specific advocacy of dehumanization, persecution, violent domination or suppression of dissent established. |
+
+[Evidence 1](https://greystonebooks.com/collections/uk/products/the-hidden-life-of-trees); [Evidence 2](https://www.nature.com/articles/s41559-023-01986-1); [Evidence 3](https://pubmed.ncbi.nlm.nih.gov/37735061/); [Evidence 4](https://www.sciencedirect.com/science/article/pii/S1360138523002728); [Evidence 5](https://content.penguinrandomhouse.de/content/edition/excerpts_extended/Leseprobe_978-3-453-28067-0.pdf).
+
+| Criterion | Linear attainment | Contribution | Basis |
+|---|---:|---:|---|
+| Evidence and inferential integrity | 7.00/20 | 2.45 | The preface makes family-like care part of its central forest account; specific expert critiques challenge the inferred altruistic cooperation, not the mere existence of fungal networks. |
+| Systems integration | 6.00/17 | 2.12 | Tree physiology and fungal networks connect, but causal integration is overstated. |
+| Transferable strategic utility | 4.00/15 | 4.00 | Observation of interdependence has limited utility when motives are anthropomorphized. |
+| Mechanistic and causal depth | 4.00/12 | 4.00 | Useful biology is mixed with unsupported social-purpose explanations. |
+| Information density | 7.00/10 | 4.90 | Short chapters are readable, but metaphor often substitutes for evidence. |
+| Durability | 5.00/9 | 5.00 | Basic ecology lasts; overclaimed network narratives age poorly. |
+| Direct domain fit | 1.00/7 | 1.00 | Forest ecology is remote from the central technology/industry profile. |
+| Expert authority | 2.50/5 | 2.50 | Practical forestry experience does not settle contested network biology. |
+| Narrative architecture | 2.50/3 | 2.50 | A clear forest narrative is memorable. |
+| Authorial precision | 1.00/2 | 1.00 | Human-family vocabulary blurs metaphor and empirical claim. |
+
+| Deduction | Points | Basis |
+|---|---:|---|
+| T11 | -10.00 | T11: ecology dominates. T12: natural science, not politics or philosophy, is central. |
+| T12 | 0.00 | Applied independently; T11: ecology dominates. T12: natural science, not politics or philosophy, is central. |
+| H13 | 0.00 | Period end none; moderate. General forest-life argument, not a bounded historical narrative. |
+| P14 | -1.10 | Original year 2015; high. The original German publisher sample gives release 25 May 2015 on its opening publication sheet and copyright 2015 on page 4. Greystone's 2016 English translation does not reset original age. |
+| O15 | 0.00 | Unknown; zero-deduction fallback. Unknown after direct retrieval; O15=0 fallback. |
+
+**18.37 — counterfactual; V1 (moderate).** Score confidence moderate. Positive subtotal 29.47.
+
+Reader snapshot: Unavailable: no independently verified reader aggregate.. [Purchase locator](https://www.amazon.com/dp/1771642483). Unknown; source product locator not format-verified.
+
+Amazon: [amazon.com](https://www.amazon.com/dp/1771642483); 1771642483; retrieved 2026-10-20T23:39:01.286Z. Unknown after direct retrieval; O15=0 fallback.
+
+Amazon attempts (2026-10-20T23:39:01.286Z): {"url":"https://www.amazon.com/dp/1771642483","retrievedAt":"2026-10-20T23:39:01.286Z","httpStatus":200,"outcome":"Access-check or unavailable response; matching product contents and total ratings could not be verified.","evidence":"data/books_guru_261021/a-amazon/bgab0ba11a72.json"}.
+
+
+<a id="bgb6df17e31a"></a>
+### Wall Street and the Rise of Hitler — Antony C. Sutton
+
+**vetoed; moderate eligibility confidence.** Historical argument about corporate finance and Nazism, not extremist advocacy or technical reference. V1, moderate: financing and benefiting from regimes does not by itself demonstrate a coordinated plan to create them. Genuine business collaboration is not denied; the central stronger inference is not established.
+
+Sources: 167.
+
+| Gate | Finding |
+|---|---|
+| BOOK_FORM | Matching publication record confirms Wall Street and the Rise of Hitler as a published book. |
+| FICTION | Presented as nonfiction argument, history, biography or reflective essays; no fiction gate established. |
+| REFERENCE | Historical argument about corporate finance and Nazism, not extremist advocacy or technical reference. |
+| V1 | Chapter XII turns documented loans, shareholdings and profits into a claim of a financial elite deliberately installing Hitler and Roosevelt. Chapter XI admits common-address evidence is compatible with coincidence; the conclusion does not supply the missing causal identification. |
+| V2 | The inspected account offers reasons and evidence rather than requiring allegiance; limitations are reflected in evidence attainment. |
+| V3 | The documents may inform further study, not reliable general lessons from the thesis. |
+| V4 | Historical collaboration remains relevant; the causal claim stays unreliable. No serious dependence on unsupported revolutionary prediction established. |
+| V5 | The book criticizes Nazism and corporate complicity; it does not advocate extremist domination. |
+
+[Evidence 1](https://rapeutation.com/cia.wallstreetriseofhitler.ch12.htm); [Evidence 2](https://www.biknotes.com/_files/ugd/b8b6dc_d66b204418a94485a4db79a45c2256b1.pdf); [Evidence 3](https://books.google.com/books/about/Wall_Street_and_the_Rise_of_Hitler.html?id=syTIwwEACAAJ).
+
+| Criterion | Linear attainment | Contribution | Basis |
+|---|---:|---:|---|
+| Evidence and inferential integrity | 7.00/20 | 2.45 | Specific corporate links coexist with a much less supported coordinating-elite thesis. |
+| Systems integration | 10.00/17 | 5.88 | Industrial finance and political power connect, but influence is conflated with control. |
+| Transferable strategic utility | 4.00/15 | 4.00 | The documents may inform further study, not reliable general lessons from the thesis. |
+| Mechanistic and causal depth | 4.00/12 | 4.00 | Timing, ownership and profits do not isolate intentional regime creation. |
+| Information density | 7.00/10 | 4.90 | The compact argument has detail but repetitive network assertions. |
+| Durability | 6.00/9 | 6.00 | Historical collaboration remains relevant; the causal claim stays unreliable. |
+| Direct domain fit | 3.50/7 | 3.50 | Industry and strategic finance partly fit. |
+| Expert authority | 2.50/5 | 2.50 | Sutton's archival effort matters, but authority cannot repair inference. |
+| Narrative architecture | 2.00/3 | 2.00 | A cumulative structure makes the thesis clear. |
+| Authorial precision | 1.00/2 | 1.00 | Categorical conclusions exceed the text's own local uncertainty. |
+
+| Deduction | Points | Basis |
+|---|---:|---|
+| T11 | 0.00 | T11: transnational corporate and state links. T12: finance, political power and war dominate. |
+| T12 | -10.00 | Applied independently; T11: transnational corporate and state links. T12: finance, political power and war dominate. |
+| H13 | -3.24 | Period end 1945; moderate. Central Nazi-era financial relationships extend through World War II and immediate control-commission discussion; endpoint 1945. |
+| P14 | -5.00 | Original year 1976; high. The original '76 Press publication record gives 1976; Clairview 2010 is later. |
+| O15 | 0.00 | Unknown; zero-deduction fallback. Unknown after direct retrieval; O15=0 fallback. |
+
+**17.99 — counterfactual; V1 (moderate).** Score confidence moderate. Positive subtotal 36.23.
+
+Reader snapshot: Unavailable: no independently verified reader aggregate.. [Purchase locator](https://www.amazon.com/dp/0892450045). Unknown; source product locator not format-verified.
+
+Amazon: [amazon.com](https://www.amazon.com/dp/0892450045); 0892450045; retrieved 2026-10-20T23:39:04.083Z. Unknown after direct retrieval; O15=0 fallback.
+
+Amazon attempts (2026-10-20T23:39:04.083Z): {"url":"https://www.amazon.com/dp/0892450045","retrievedAt":"2026-10-20T23:39:04.083Z","httpStatus":200,"outcome":"Access-check or unavailable response; matching product contents and total ratings could not be verified.","evidence":"data/books_guru_261021/a-amazon/bgb6df17e31a.json"}.
+
+
+<a id="bg67806b87bb"></a>
+### Meditation in Action — Chögyam Trungpa
+
+**vetoed; high eligibility confidence.** The contents and publisher account begin with the Buddha's life and develop transmission, compassion and the six paramitas as a sustained religious explanation. Meditation practice appears within that account; it is not primarily a sequential sitting, breathing or technique-procedure manual. The reference gate therefore passes before V5 is applied. V5: the work teaches the Buddhist path, using the Buddha's life and six paramitas as enlightened actions. This is spiritual instruction toward a religious goal, not detached historical or philosophical analysis of Buddhism.
+
+Sources: 153.
+
+| Gate | Finding |
+|---|---|
+| BOOK_FORM | Pass: the cited publication evidence identifies a published Buddhist spiritual teaching. |
+| FICTION | Pass: Buddhist spiritual teaching; not a fictional work. |
+| REFERENCE | Pass: The contents and publisher account begin with the Buddha's life and develop transmission, compassion and the six paramitas as a sustained religious explanation. Meditation practice appears within that account; it is not primarily a sequential sitting, breathing or technique-procedure manual. The reference gate therefore passes before V5 is applied. |
+| V1 | No serious failure established in the inspected evidence. Experiential reflection is not empirical proof of enlightenment claims. |
+| V2 | No specific allegiance-dependent exclusion of counterevidence established. Religious tradition supplies the authoritative path and goal. |
+| V3 | Transferable content: Attention and compassion can have secular transfer. |
+| V4 | No serious dependence on a passing claim established. The moral teaching is durable within its tradition. |
+| V5 | V5: the work teaches the Buddhist path, using the Buddha's life and six paramitas as enlightened actions. This is spiritual instruction toward a religious goal, not detached historical or philosophical analysis of Buddhism. |
+
+[Evidence 1](https://www.shambhala.com/meditation-in-action-1018.html); [Evidence 2](https://www.chronicleproject.com/meditation-in-action/); [Evidence 3](https://books.google.com/books/about/Meditation_in_Action.html?id=vhYvAAAAYAAJ).
+
+| Criterion | Linear attainment | Contribution | Basis |
+|---|---:|---:|---|
+| Evidence and inferential integrity | 9.00/20 | 4.05 | Experiential reflection is not empirical proof of enlightenment claims. |
+| Systems integration | 4.00/17 | 0.94 | Personal conduct connects to Buddhist doctrine rather than broad technical systems. |
+| Transferable strategic utility | 5.00/15 | 5.00 | Attention and compassion can have secular transfer. |
+| Mechanistic and causal depth | 3.00/12 | 3.00 | The teaching is interpretive rather than causally tested. |
+| Information density | 8.00/10 | 6.40 | A short focused work has good density. |
+| Durability | 7.00/9 | 7.00 | The moral teaching is durable within its tradition. |
+| Direct domain fit | 1.00/7 | 1.00 | Technical-domain fit is minimal. |
+| Expert authority | 3.00/5 | 3.00 | Trungpa has direct authority within the tradition, not scientific validation. |
+| Narrative architecture | 2.00/3 | 2.00 | Simple exposition is accessible. |
+| Authorial precision | 1.00/2 | 1.00 | Doctrinal goals need distinction from observable effects. |
+
+| Deduction | Points | Basis |
+|---|---:|---|
+| T11 | 0.00 | T11=0: general religious teaching. T12=-10: spiritual philosophy is central. |
+| T12 | -10.00 | Applied independently; T11=0: general religious teaching. T12=-10: spiritual philosophy is central. |
+| H13 | 0.00 | Period end none; moderate. This Buddhist spiritual teaching develops a general or cross-period argument; no single central historical endpoint is imposed. |
+| P14 | -5.70 | Original year 1969; high. The cited publication record identifies 1969 as the original publication year; later editions do not reset it. |
+| O15 | 0.00 | Unknown; zero-deduction fallback. Unknown: the direct product request encountered a shared transport EACCES failure; no product content was returned. Source-reported counts are unverified. O15=0 fallback. |
+
+**17.69 — counterfactual; V5 (high).** Score confidence moderate. Positive subtotal 33.39.
+
+Reader snapshot: Unavailable: no independently verified reader aggregate.. [Purchase locator](https://www.amazon.com/dp/159030876X). Unknown; product locator supplied by the source has not established this format.
+
+Amazon: [amazon.com](https://www.amazon.com/dp/159030876X); 159030876X; retrieved 2026-10-21. Unknown: the direct product request encountered a shared transport EACCES failure; no product content was returned. Source-reported counts are unverified. O15=0 fallback.
+
+Amazon attempts (2026-10-21): {"url":"https://www.amazon.com/dp/159030876X","attemptedAt":"2026-10-20T23:32:49.193Z","status":"fetch failed EACCES","method":"direct public HTTP fetch; shared environment transport failure","evidence":"data/books_guru_261021/c-amazon.json"}.
+
+
+<a id="bg1bf6621e11"></a>
+### The Way to Love — Anthony De Mello
+
+**vetoed; moderate eligibility confidence.** Published devotional meditations with sustained reflections, not fiction or a technical meditation procedure. V5: devotional Gospel-based meditations, not detached analysis of religious ideas.
+
+Sources: 158.
+
+| Gate | Finding |
+|---|---|
+| BOOK_FORM | Matching publication record confirms The Way to Love as a published book. |
+| FICTION | Presented as nonfiction argument, history, biography or reflective essays; no fiction gate established. |
+| REFERENCE | Published devotional meditations with sustained reflections, not fiction or a technical meditation procedure. |
+| V1 | Introspection offers observations but spiritual claims lack independent validation. No serious central epistemic failure established in the inspected evidence. |
+| V2 | Gospel-based spiritual authority establishes V5; the inspected meditations do not independently establish asymmetric political argument. |
+| V3 | Recognizing projection gives a limited portable heuristic. |
+| V4 | Questions about desire and attachment persist. No serious dependence on unsupported revolutionary prediction established. |
+| V5 | Thirty-one meditations are each led by a Gospel quotation; the book seeks spiritual liberation through these teachings. Devotional purpose, not the author's priesthood alone, establishes V5. |
+
+[Evidence 1](https://www.penguinrandomhouse.com/books/39373/the-way-to-love-by-anthony-de-mello/); [Evidence 2](https://search.worldcat.org/title/25372563); [Evidence 3](https://openlibrary.org/books/OL1704966M/The_way_to_love).
+
+| Criterion | Linear attainment | Contribution | Basis |
+|---|---:|---:|---|
+| Evidence and inferential integrity | 8.00/20 | 3.20 | Introspection offers observations but spiritual claims lack independent validation. |
+| Systems integration | 3.00/17 | 0.53 | Love, desire and awareness connect at personal level. |
+| Transferable strategic utility | 5.00/15 | 5.00 | Recognizing projection gives a limited portable heuristic. |
+| Mechanistic and causal depth | 3.00/12 | 3.00 | Attachment is asserted as an explanation rather than tested. |
+| Information density | 8.00/10 | 6.40 | Short meditations are compact. |
+| Durability | 7.00/9 | 7.00 | Questions about desire and attachment persist. |
+| Direct domain fit | 0.00/7 | 0.00 | No substantial technological or institutional fit. |
+| Expert authority | 2.50/5 | 2.50 | De Mello's standing is spiritual and therapeutic, not empirical proof. |
+| Narrative architecture | 2.00/3 | 2.00 | Meditations have clear individual structure. |
+| Authorial precision | 1.50/2 | 1.50 | Pithy language is memorable but sometimes absolute. |
+
+| Deduction | Points | Basis |
+|---|---:|---|
+| T11 | 0.00 | T11: no listed predominant topic. T12: spiritual and ethical philosophy is central. |
+| T12 | -10.00 | Applied independently; T11: no listed predominant topic. T12: spiritual and ethical philosophy is central. |
+| H13 | 0.00 | Period end none; moderate. Timeless devotional reflections, not historical-period narrative. |
+| P14 | -3.50 | Original year 1991; high. Library edition notes identify original Call to Love, India 1991; Doubleday 1992 and 1995 reprints do not reset it. |
+| O15 | 0.00 | Unknown; zero-deduction fallback. Unknown after direct retrieval; O15=0 fallback. |
+
+**17.63 — counterfactual; V5 (high).** Score confidence moderate. Positive subtotal 31.13.
+
+Reader snapshot: Unavailable: no independently verified reader aggregate.. [Purchase locator](https://www.amazon.com/dp/038524939X). Unknown; source product locator not format-verified.
+
+Amazon: [amazon.com](https://www.amazon.com/dp/038524939X); 038524939X; retrieved 2026-10-20T23:39:03.300Z. Unknown after direct retrieval; O15=0 fallback.
+
+Amazon attempts (2026-10-20T23:39:03.300Z): {"url":"https://www.amazon.com/dp/038524939X","retrievedAt":"2026-10-20T23:39:03.300Z","httpStatus":200,"outcome":"Access-check or unavailable response; matching product contents and total ratings could not be verified.","evidence":"data/books_guru_261021/a-amazon/bg1bf6621e11.json"}.
+
+
+<a id="bgb91b2c2d62"></a>
+### Wall Street and the Bolshevik Revolution — Antony C. Sutton
+
+**vetoed; moderate eligibility confidence.** Document-based historical argument, not fiction or financial instruction; gate issue is inference. V1, moderate: the central coordinating-financier explanation exceeds what the presented relationships establish. Some financial contacts are real evidence; the veto concerns the unsupported causal leap, not merely an unpopular thesis.
+
+Sources: 167.
+
+| Gate | Finding |
+|---|---|
+| BOOK_FORM | Matching publication record confirms Wall Street and the Bolshevik Revolution as a published book. |
+| FICTION | Presented as nonfiction argument, history, biography or reflective essays; no fiction gate established. |
+| REFERENCE | Document-based historical argument, not fiction or financial instruction; gate issue is inference. |
+| V1 | Chapter XI moves from commercial relationships and admitted unexplained concentration at 120 Broadway to an organized monopoly program converting Russia into a captive colony. The cited associations do not identify that coordinated intent or establish it as the cause of revolutionary success. |
+| V2 | A libertarian frame is evident, but no separate V2 is needed; the specific defect is the V1 causal inference. |
+| V3 | The source material suggests research questions, not reliable strategic conclusions. |
+| V4 | Historical links retain interest, while the overarching inference remains weak. No serious dependence on unsupported revolutionary prediction established. |
+| V5 | No central scripture/devotion or specific advocacy of dehumanization, persecution, violent domination or suppression of dissent established. |
+
+[Evidence 1](https://www.rapeutation.com/cia.wallstreetbolshevik.ch11.htm); [Evidence 2](https://www.rapeutation.com/cia.wallstreetbolshevik.pref.htm); [Evidence 3](https://www.voltairenet.org/IMG/pdf/Sutton_Wall_Street_and_the_bolshevik_revolution-5.pdf).
+
+| Criterion | Linear attainment | Contribution | Basis |
+|---|---:|---:|---|
+| Evidence and inferential integrity | 7.00/20 | 2.45 | Documents support contacts; they do not establish the claimed integrated political program. |
+| Systems integration | 9.00/17 | 4.76 | Finance and political change are connected but the integration overclaims coordination. |
+| Transferable strategic utility | 4.00/15 | 4.00 | The source material suggests research questions, not reliable strategic conclusions. |
+| Mechanistic and causal depth | 4.00/12 | 4.00 | Association and subsequent benefit are treated as evidence of planned causation. |
+| Information density | 7.00/10 | 4.90 | Document summaries are dense; argument repeatedly returns to the same network. |
+| Durability | 6.00/9 | 6.00 | Historical links retain interest, while the overarching inference remains weak. |
+| Direct domain fit | 3.00/7 | 3.00 | Institutional power and finance partly fit. |
+| Expert authority | 2.50/5 | 2.50 | Sutton's economic-history experience does not validate this distinct causal thesis. |
+| Narrative architecture | 2.00/3 | 2.00 | Chapters build toward a clear but overextended conclusion. |
+| Authorial precision | 1.00/2 | 1.00 | Confidence in coordinated purpose exceeds acknowledged evidential gaps. |
+
+| Deduction | Points | Basis |
+|---|---:|---|
+| T11 | 0.00 | T11: transnational institutional links, not single-nation-only influence. T12: revolutionary politics and finance dominate. |
+| T12 | -10.00 | Applied independently; T11: transnational institutional links, not single-nation-only influence. T12: revolutionary politics and finance dominate. |
+| H13 | -4.12 | Period end 1923; moderate. Central financial/organizational links run from 1917 revolution through establishment of Ruskombank in 1923; later comparisons are argumentative extensions. |
+| P14 | -5.20 | Original year 1974; high. The original author's preface is dated March 1974; 2011 Clairview is a reprint. |
+| O15 | 0.00 | Unknown; zero-deduction fallback. Unknown after direct retrieval; O15=0 fallback. |
+
+**15.29 — counterfactual; V1 (moderate).** Score confidence moderate. Positive subtotal 34.61.
+
+Reader snapshot: Unavailable: no independently verified reader aggregate.. [Purchase locator](https://www.amazon.com/dp/190557035X). Unknown; source product locator not format-verified.
+
+Amazon: [amazon.com](https://www.amazon.com/dp/190557035X); 190557035X; retrieved 2026-10-20T23:39:03.941Z. Unknown after direct retrieval; O15=0 fallback.
+
+Amazon attempts (2026-10-20T23:39:03.941Z): {"url":"https://www.amazon.com/dp/190557035X","retrievedAt":"2026-10-20T23:39:03.941Z","httpStatus":200,"outcome":"Access-check or unavailable response; matching product contents and total ratings could not be verified.","evidence":"data/books_guru_261021/a-amazon/bgb91b2c2d62.json"}.
+
+
+<a id="bg59d68af938"></a>
+### Dad Is Fat — Jim Gaffigan
+
+**vetoed; moderate eligibility confidence.** Published nonfiction comic parenting memoir with sustained exposition or narrative; not an exam text, specialist reference or procedural manual. V3: the inspected purpose and structure are humorous personal family episodes. Recognition and amusement remain after the anecdotes, but little explicit transferable intellectual model.
+
+Sources: 148.
+
+| Gate | Finding |
+|---|---|
+| BOOK_FORM | Published book confirmed in the cited primary publication record. |
+| FICTION | Nonfiction comic parenting memoir. |
+| REFERENCE | Sustained comic parenting memoir intended for readers beyond procedural training or specialist lookup. |
+| V1 | No serious central evidential failure established in the inspected material; Personal observations are credible as memoir, not general parenting evidence. |
+| V2 | No serious substitution of allegiance for evidence established; the identified limitations remain scored. |
+| V3 | V3: the inspected purpose and structure are humorous personal family episodes. Recognition and amusement remain after the anecdotes, but little explicit transferable intellectual model. |
+| V4 | No primary dependence on passing publicity established; Family humor persists but specific observations add limited durable analysis. |
+| V5 | No central authoritative doctrine or specifically evidenced extremist advocacy established; subject and reform proposals alone are insufficient. |
+
+[Evidence 1](https://www.penguinrandomhouse.com/books/225886/dad-is-fat-by-jim-gaffigan/9780385349079/).
+
+| Criterion | Linear attainment | Contribution | Basis |
+|---|---:|---:|---|
+| Evidence and inferential integrity | 12.00/20 | 7.20 | Personal observations are credible as memoir, not general parenting evidence |
+| Systems integration | 3.00/17 | 0.53 | Domestic and entertainment contexts provide little systems integration |
+| Transferable strategic utility | 2.00/15 | 2.00 | Comic recognition offers minimal strategic transfer |
+| Mechanistic and causal depth | 2.00/12 | 2.00 | Scenes emphasize absurdity rather than causal mechanisms |
+| Information density | 4.00/10 | 1.60 | Humor and anecdote dominate over explanatory density |
+| Durability | 5.00/9 | 5.00 | Family humor persists but specific observations add limited durable analysis |
+| Direct domain fit | 0.00/7 | 0.00 | No direct technical or institutional-system fit |
+| Expert authority | 2.00/5 | 2.00 | Gaffigan has comic and parental experience, not analytical expertise |
+| Narrative architecture | 2.00/3 | 2.00 | Short episodes support an accessible comic rhythm |
+| Authorial precision | 1.50/2 | 1.50 | Comic exaggeration is deliberate rather than analytically precise |
+
+| Deduction | Points | Basis |
+|---|---:|---|
+| T11 | -10.00 | T11 -10: media-celebrity personal memoir. T12 0: parenting humor is not predominantly finance, politics or philosophy. |
+| T12 | 0.00 | Applied independently; T11 -10: media-celebrity personal memoir. T12 0: parenting humor is not predominantly finance, politics or philosophy. |
+| H13 | 0.00 | Period end none; moderate. An explanatory or broad cross-period account with no single central historical interval. |
+| P14 | -1.30 | Original year 2013; moderate. Original publication 2013 identified in the cited publication record; reprints do not reset it. |
+| O15 | 0.00 | Unknown; zero-deduction fallback. unknown; no explicit total-rating aggregate recovered; O15 fallback 0 |
+
+**12.53 — counterfactual; V3 (moderate).** Score confidence moderate. Positive subtotal 23.83.
+
+Reader snapshot: Unavailable; no independently verified reader aggregate.. [Purchase locator](https://www.amazon.com/dp/0385349076). Source product locator; edition and availability not yet independently verified.
+
+Amazon: [amazon.com](https://www.amazon.com/dp/0385349076); see URL; retrieved 2026-10-21. unknown; no explicit total-rating aggregate recovered; O15 fallback 0
+
+Amazon attempts (2026-10-21): {"url":"https://www.amazon.com/dp/0385349076","method":"Public product retrieval and global ratings text search","result":"No explicit global-ratings text returned","evidence":"data/books_guru_261021/b-am-66.txt","retrieved":"2026-10-21"}.
+
+
+<a id="bg8007edf6c2"></a>
+### The Dhammapada — Anonymous Buddhist compilers; translated by Eknath Easwaran
+
+**vetoed; moderate eligibility confidence.** Published translation of an ethical scripture in verse, not fiction or a procedural meditation manual. V5: the nominated text is Buddhist scripture, with a devotional translation/commentary, rather than detached analysis of religion.
+
+Sources: 153.
+
+| Gate | Finding |
+|---|---|
+| BOOK_FORM | Matching publication record confirms The Dhammapada as a published book. |
+| FICTION | Presented as nonfiction argument, history, biography or reflective essays; no fiction gate established. |
+| REFERENCE | Published translation of an ethical scripture in verse, not fiction or a procedural meditation manual. |
+| V1 | Ethical observations coexist with untestable liberation and rebirth claims. No serious central epistemic failure established in the inspected evidence. |
+| V2 | The inspected scripture establishes doctrinal authority under V5. A separate finding about asymmetric treatment of empirical counterevidence is not established from these passages. |
+| V3 | Restraint and attention offer limited portable heuristics despite the doctrine gate. |
+| V4 | Its long reception supports durability without verifying metaphysics. No serious dependence on unsupported revolutionary prediction established. |
+| V5 | Scripture presented as the Buddha's authoritative path to liberation; the publisher's excerpt invokes release from rebirth and sainthood. This is doctrine/devotion, not a history of Buddhism. |
+
+[Evidence 1](https://www.bmcm.org/store/the-dhammapada/); [Evidence 2](https://www.bmcm.org/inspiration/passages/saint/); [Evidence 3](https://royalasiaticarchives.org/index.php/dhammapada?sf_culture=en).
+
+| Criterion | Linear attainment | Contribution | Basis |
+|---|---:|---:|---|
+| Evidence and inferential integrity | 6.00/20 | 1.80 | Ethical observations coexist with untestable liberation and rebirth claims. |
+| Systems integration | 3.00/17 | 0.53 | Psychological and ethical concerns connect; external systems receive little analysis. |
+| Transferable strategic utility | 6.00/15 | 6.00 | Restraint and attention offer limited portable heuristics despite the doctrine gate. |
+| Mechanistic and causal depth | 3.00/12 | 3.00 | Conduct is prescribed more than causally tested. |
+| Information density | 8.00/10 | 6.40 | Short verses compress instruction with little padding. |
+| Durability | 8.00/9 | 8.00 | Its long reception supports durability without verifying metaphysics. |
+| Direct domain fit | 0.00/7 | 0.00 | No direct industrial, technological or quantitative fit. |
+| Expert authority | 3.00/5 | 3.00 | Canonical standing is religious and literary, not empirical authority. |
+| Narrative architecture | 2.00/3 | 2.00 | Verse groupings and introductions aid navigation. |
+| Authorial precision | 1.50/2 | 1.50 | Compact aphorisms trade analytical qualification for memorability. |
+
+| Deduction | Points | Basis |
+|---|---:|---|
+| T11 | 0.00 | T11: no predominant listed negative topic. T12: ethical and spiritual philosophy is central. |
+| T12 | -10.00 | Applied independently; T11: no predominant listed negative topic. T12: ethical and spiritual philosophy is central. |
+| H13 | 0.00 | Period end none; moderate. Timeless ethical scripture; composition age is handled by P14, not H13. |
+| P14 | -10.00 | Original year -250; moderate. Approximate mid-third-century BCE compilation placeholder, based on Royal Asiatic Society dating to the third century BCE. Translation does not reset original age; exact compilation is uncertain. |
+| O15 | 0.00 | Unknown; zero-deduction fallback. Unknown after direct retrieval; O15=0 fallback. |
+
+**12.23 — counterfactual; V5 (high).** Score confidence moderate. Positive subtotal 32.23.
+
+Reader snapshot: Unavailable: no independently verified reader aggregate.. [Purchase locator](https://www.amazon.com/dp/1586380206). Unknown; source product locator not format-verified.
+
+Amazon: [amazon.com](https://www.amazon.com/dp/1586380206); 1586380206; retrieved 2026-10-20T23:39:00.664Z. Unknown after direct retrieval; O15=0 fallback.
+
+Amazon attempts (2026-10-20T23:39:00.664Z): {"url":"https://www.amazon.com/dp/1586380206","retrievedAt":"2026-10-20T23:39:00.664Z","httpStatus":200,"outcome":"Access-check or unavailable response; matching product contents and total ratings could not be verified.","evidence":"data/books_guru_261021/a-amazon/bg8007edf6c2.json"}.
+
+
+<a id="bg18fb64ebd8"></a>
+### Joseph McCarthy — Arthur Herman
+
+**vetoed; high eligibility confidence.** A narrative biography and explicit historical argument, not reference instruction. V1/V2: the central rehabilitation uses unsupported intelligence inferences and asymmetric treatment. Tanenhaus identifies the Lattimore recruitment claim as exceeding Klehr/Radosh, whose coauthor expressly rejects that implication; the review also documents unqualified security-risk counts and contrasting excuses for McCarthy versus condemnation of Welch. Kirkus independently describes one-sided characterizations. These are specific defects in the central vindication, not a veto for political affiliation.
+
+Sources: 162.
+
+| Gate | Finding |
+|---|---|
+| BOOK_FORM | Pass: the cited publication evidence identifies a published revisionist political biography. |
+| FICTION | Pass: revisionist political biography; not a fictional work. |
+| REFERENCE | Pass: A narrative biography and explicit historical argument, not reference instruction. |
+| V1 | V1/V2: the central rehabilitation uses unsupported intelligence inferences and asymmetric treatment. Tanenhaus identifies the Lattimore recruitment claim as exceeding Klehr/Radosh, whose coauthor expressly rejects that implication; the review also documents unqualified security-risk counts and contrasting excuses for McCarthy versus condemnation of Welch. Kirkus independently describes one-sided characterizations. These are specific defects in the central vindication, not a veto for political affiliation. |
+| V2 | V1/V2: the central rehabilitation uses unsupported intelligence inferences and asymmetric treatment. Tanenhaus identifies the Lattimore recruitment claim as exceeding Klehr/Radosh, whose coauthor expressly rejects that implication; the review also documents unqualified security-risk counts and contrasting excuses for McCarthy versus condemnation of Welch. Kirkus independently describes one-sided characterizations. These are specific defects in the central vindication, not a veto for political affiliation. |
+| V3 | Transferable content: Some institutional episodes remain useful under the counterfactual gate. |
+| V4 | No serious dependence on a passing claim established. The era is durable; the distorted interpretation is not. |
+| V5 | No authoritative religious doctrine or specifically evidenced extremist advocacy established in this revisionist political biography. |
+
+[Evidence 1](https://www.nybooks.com/articles/2000/11/30/un-american-activities/); [Evidence 2](https://www.kirkusreviews.com/book-reviews/arthur-herman/joseph-mccarthy/); [Evidence 3](https://cspancollections.gmu.edu/files/original/f89e9d5e76d9b398c20ea370dde9ae99f0356091.pdf).
+
+| Criterion | Linear attainment | Contribution | Basis |
+|---|---:|---:|---|
+| Evidence and inferential integrity | 6.00/20 | 1.80 | The Lattimore inference exceeds its cited source; security-risk categories are misleadingly used. |
+| Systems integration | 10.00/17 | 5.88 | State institutions, intelligence and political rhetoric connect. |
+| Transferable strategic utility | 5.00/15 | 5.00 | Some institutional episodes remain useful under the counterfactual gate. |
+| Mechanistic and causal depth | 4.00/12 | 4.00 | Vindication displaces balanced causal analysis. |
+| Information density | 6.00/10 | 3.60 | Detailed narrative is weakened by partisan repetition. |
+| Durability | 6.00/9 | 6.00 | The era is durable; the distorted interpretation is not. |
+| Direct domain fit | 3.00/7 | 3.00 | Institutional power partly fits. |
+| Expert authority | 3.00/5 | 3.00 | Historical training does not cure the specific source problem. |
+| Narrative architecture | 2.00/3 | 2.00 | Senate scenes provide readable narrative. |
+| Authorial precision | 0.50/2 | 0.50 | Asymmetric and categorical characterizations reduce precision. |
+
+| Deduction | Points | Basis |
+|---|---:|---|
+| T11 | -10.00 | T11=-10: an American political figure dominates. T12=-10: politics and power are central. |
+| T12 | -10.00 | Applied independently; T11=-10: an American political figure dominates. T12=-10: politics and power are central. |
+| H13 | -2.76 | Period end 1957; moderate. The biography covers McCarthy through his 1957 death. |
+| P14 | -2.70 | Original year 1999; moderate. Kirkus records a1December 1999 release, preceding the 2000 copyright/catalog year. The earliest documented release year 1999 is used. |
+| O15 | 0.00 | Unknown; zero-deduction fallback. Unknown: the direct product request encountered a shared transport EACCES failure; no product content was returned. Source-reported counts are unverified. O15=0 fallback. |
+
+**9.32 — counterfactual; V1; V2 (moderate).** Score confidence moderate. Positive subtotal 34.78.
+
+Reader snapshot: Unavailable: no independently verified reader aggregate.. [Purchase locator](https://www.amazon.com/dp/0684836254). Unknown; product locator supplied by the source has not established this format.
+
+Amazon: [amazon.com](https://www.amazon.com/dp/0684836254); 0684836254; retrieved 2026-10-21. Unknown: the direct product request encountered a shared transport EACCES failure; no product content was returned. Source-reported counts are unverified. O15=0 fallback.
+
+Amazon attempts (2026-10-21): {"url":"https://www.amazon.com/dp/0684836254","attemptedAt":"2026-10-20T23:32:49.053Z","status":"fetch failed EACCES","method":"direct public HTTP fetch; shared environment transport failure","evidence":"data/books_guru_261021/c-amazon.json"}.
+
+
+<a id="bg2dae4c82d8"></a>
+### Be Here Now — Ram Dass
+
+**vetoed; moderate eligibility confidence.** The published book combines autobiography and sustained illustrated spiritual teaching; its main purpose is devotional, rather than a narrow technical procedure. V5: the book’s central role is spiritual awakening and guru-based devotional teaching, rather than historical analysis of religious ideas.
+
+Sources: 153.
+
+| Gate | Finding |
+|---|---|
+| BOOK_FORM | Published book confirmed in the cited primary publication record. |
+| FICTION | Nonfiction spiritual autobiography and devotional teaching. |
+| REFERENCE | Sustained spiritual autobiography and devotional teaching intended for readers beyond procedural training or specialist lookup. |
+| V1 | No serious central evidential failure established in the inspected material; Personal spiritual testimony is not independently testable evidence. |
+| V2 | No serious substitution of allegiance for evidence established; the identified limitations remain scored. |
+| V3 | Attention practices offer limited transferable value outside the doctrine; Spiritual states replace explicit causal explanations. |
+| V4 | No primary dependence on passing publicity established; Some contemplative themes endure independently of counterculture fashion. |
+| V5 | V5: the book’s central role is spiritual awakening and guru-based devotional teaching, rather than historical analysis of religious ideas. |
+
+[Evidence 1](https://www.penguinrandomhouse.com/books/36952/be-here-now-by-ram-dass/).
+
+| Criterion | Linear attainment | Contribution | Basis |
+|---|---:|---:|---|
+| Evidence and inferential integrity | 6.00/20 | 1.80 | Personal spiritual testimony is not independently testable evidence |
+| Systems integration | 3.00/17 | 0.53 | Spiritual experience is connected to daily life rather than relevant systems |
+| Transferable strategic utility | 4.00/15 | 4.00 | Attention practices offer limited transferable value outside the doctrine |
+| Mechanistic and causal depth | 2.00/12 | 2.00 | Spiritual states replace explicit causal explanations |
+| Information density | 4.00/10 | 1.60 | Illustration and aphorism reduce argumentative information density |
+| Durability | 5.00/9 | 5.00 | Some contemplative themes endure independently of counterculture fashion |
+| Direct domain fit | 0.00/7 | 0.00 | No substantial fit to scientific or industrial mechanisms |
+| Expert authority | 2.00/5 | 2.00 | Psychology background does not validate the devotional claims |
+| Narrative architecture | 2.00/3 | 2.00 | Autobiography and illustrated teaching create a memorable but fragmented form |
+| Authorial precision | 1.00/2 | 1.00 | Aphoristic spiritual language is imprecise |
+
+| Deduction | Points | Basis |
+|---|---:|---|
+| T11 | 0.00 | T11 0: none of its listed themes predominates. T12 -10: spiritual philosophy is central. |
+| T12 | -10.00 | Applied independently; T11 0: none of its listed themes predominates. T12 -10: spiritual philosophy is central. |
+| H13 | 0.00 | Period end none; moderate. An explanatory or broad cross-period account with no single central historical interval. |
+| P14 | -5.50 | Original year 1971; moderate. Original publication 1971 identified in the cited publication record; reprints do not reset it. |
+| O15 | 0.00 | Unknown; zero-deduction fallback. unknown; no explicit total-rating aggregate recovered; O15 fallback 0 |
+
+**4.43 — counterfactual; V5 (moderate).** Score confidence moderate. Positive subtotal 19.93.
+
+Reader snapshot: Unavailable; no independently verified reader aggregate.. [Purchase locator](https://www.amazon.com/dp/0517543052). paperback; edition matched to cited bibliographic record; live availability unverified
+
+Amazon: [amazon.com](https://www.amazon.com/dp/0517543052); see URL; retrieved 2026-10-21. unknown; no explicit total-rating aggregate recovered; O15 fallback 0
+
+Amazon attempts (2026-10-21): {"url":"https://www.amazon.com/dp/0517543052","method":"Public product retrieval and global ratings text search","result":"No explicit global-ratings text returned","evidence":"data/books_guru_261021/b-am-33.txt","retrieved":"2026-10-21"}.
+
+
+<a id="bg4ea98dc691"></a>
+### Lazy Man's Guide to Enlightenment — Thaddeus Golas
+
+**vetoed; high eligibility confidence.** A short metaphysical and moral exposition, not a technical procedure manual; teaching includes a broad account of reality. V5: the central enlightenment teaching presents an infinite, living, conscious universe and limitless spiritual identity as truths to realize. Inspected passages on pages 54 and 63 assert this ontology rather than analyze it as a historical or contestable scientific account. Secular compassion advice does not displace that central doctrinal purpose.
+
+Sources: 153.
+
+| Gate | Finding |
+|---|---|
+| BOOK_FORM | Pass: the cited publication evidence identifies a published spiritual teaching. |
+| FICTION | Pass: spiritual teaching; not a fictional work. |
+| REFERENCE | Pass: A short metaphysical and moral exposition, not a technical procedure manual; teaching includes a broad account of reality. |
+| V1 | No serious failure established in the inspected evidence. Metaphysical assertions lack evidential tests. |
+| V2 | No specific allegiance-dependent exclusion of counterevidence established. Claims that all beings form an infinite conscious universe are asserted as spiritual truth, not investigated as hypotheses. |
+| V3 | Transferable content: Compassionate reframing has limited secular transfer. |
+| V4 | No serious dependence on a passing claim established. Some moral reflections endure despite unsupported cosmology. |
+| V5 | V5: the central enlightenment teaching presents an infinite, living, conscious universe and limitless spiritual identity as truths to realize. Inspected passages on pages 54 and 63 assert this ontology rather than analyze it as a historical or contestable scientific account. Secular compassion advice does not displace that central doctrinal purpose. |
+
+[Evidence 1](https://books.google.com/books/about/Lazy_Man_s_Guide_to_Enlightenment.html?hl=en&id=wpOn8RvPzU4C&output=html_text); [Evidence 2](https://books.google.com/books/about/Lazy_Man_s_Guide_to_Enlightenment.html?id=wpOn8RvPzU4C).
+
+| Criterion | Linear attainment | Contribution | Basis |
+|---|---:|---:|---|
+| Evidence and inferential integrity | 5.00/20 | 1.25 | Metaphysical assertions lack evidential tests. |
+| Systems integration | 3.00/17 | 0.53 | Consciousness and reality are joined through doctrine rather than mechanisms. |
+| Transferable strategic utility | 3.00/15 | 3.00 | Compassionate reframing has limited secular transfer. |
+| Mechanistic and causal depth | 1.00/12 | 1.00 | Vibration and consciousness language supplies no tested causal model. |
+| Information density | 7.00/10 | 4.90 | The brief teaching is compact. |
+| Durability | 5.00/9 | 5.00 | Some moral reflections endure despite unsupported cosmology. |
+| Direct domain fit | 0.00/7 | 0.00 | The preferred technical domains are absent. |
+| Expert authority | 1.50/5 | 1.50 | Personal spiritual authorship supplies little scientific authority. |
+| Narrative architecture | 2.00/3 | 2.00 | The short exposition is readable. |
+| Authorial precision | 0.50/2 | 0.50 | Metaphysical language blurs claim and metaphor. |
+
+| Deduction | Points | Basis |
+|---|---:|---|
+| T11 | 0.00 | T11=0: general spiritual teaching. T12=-10: spiritual philosophy is central. |
+| T12 | -10.00 | Applied independently; T11=0: general spiritual teaching. T12=-10: spiritual philosophy is central. |
+| H13 | 0.00 | Period end none; moderate. This spiritual teaching develops a general or cross-period argument; no single central historical endpoint is imposed. |
+| P14 | -5.40 | Original year 1972; high. The publisher description explicitly identifies first self-publication in 1972;2002 is a reprint. |
+| O15 | 0.00 | Unknown; zero-deduction fallback. Unknown: the direct product request encountered a shared transport EACCES failure; no product content was returned. Source-reported counts are unverified. O15=0 fallback. |
+
+**4.28 — counterfactual; V5 (moderate).** Score confidence moderate. Positive subtotal 19.68.
+
+Reader snapshot: Unavailable: no independently verified reader aggregate.. [Purchase locator](https://www.amazon.com/dp/1423606027). Unknown; product locator supplied by the source has not established this format.
+
+Amazon: [amazon.com](https://www.amazon.com/dp/1423606027); 1423606027; retrieved 2026-10-21. Unknown: the direct product request encountered a shared transport EACCES failure; no product content was returned. Source-reported counts are unverified. O15=0 fallback.
+
+Amazon attempts (2026-10-21): {"url":"https://www.amazon.com/dp/1423606027","attemptedAt":"2026-10-20T23:32:49.091Z","status":"fetch failed EACCES","method":"direct public HTTP fetch; shared environment transport failure","evidence":"data/books_guru_261021/c-amazon.json"}.
+
+
+<a id="bg0e7efb521b"></a>
+### The Circle of Fire — don Miguel Ruiz and Janet Mills
+
+**vetoed; high eligibility confidence.** Prayers and spiritual reflections form a published devotional book, not a technical reference or fictional narrative. V5: an explicitly devotional collection first titled Prayers: A Communion with Our Creator. The author's publisher statement identifies prayer and realizing spiritual identity as central; this is not merely a philosophical proposal.
+
+Sources: 173.
+
+| Gate | Finding |
+|---|---|
+| BOOK_FORM | Pass: the cited publication evidence identifies a published devotional prayer collection. |
+| FICTION | Pass: devotional prayer collection; not a fictional work. |
+| REFERENCE | Pass: Prayers and spiritual reflections form a published devotional book, not a technical reference or fictional narrative. |
+| V1 | No serious failure established in the inspected evidence. Devotional assertions are not tested evidence. |
+| V2 | No specific allegiance-dependent exclusion of counterevidence established. The publisher and author explicitly identify communion with the Creator as the work's purpose. |
+| V3 | Transferable content: Compassion offers limited secular transfer. |
+| V4 | No serious dependence on a passing claim established. Devotional use can persist, though technical utility is slight. |
+| V5 | V5: an explicitly devotional collection first titled Prayers: A Communion with Our Creator. The author's publisher statement identifies prayer and realizing spiritual identity as central; this is not merely a philosophical proposal. |
+
+[Evidence 1](https://www.penguinrandomhouse.com/books/601802/the-circle-of-fire-by-don-miguel-ruiz-and-janet-mills/); [Evidence 2](https://www.penguinrandomhouseretail.com/book/?isbn=9781878424648).
+
+| Criterion | Linear attainment | Contribution | Basis |
+|---|---:|---:|---|
+| Evidence and inferential integrity | 4.00/20 | 0.80 | Devotional assertions are not tested evidence. |
+| Systems integration | 2.00/17 | 0.24 | Human relationships are framed spiritually, with little systems content. |
+| Transferable strategic utility | 2.00/15 | 2.00 | Compassion offers limited secular transfer. |
+| Mechanistic and causal depth | 1.00/12 | 1.00 | Prayer supplies no demonstrated causal mechanism. |
+| Information density | 6.00/10 | 3.60 | A short collection is compact but analytically sparse. |
+| Durability | 5.00/9 | 5.00 | Devotional use can persist, though technical utility is slight. |
+| Direct domain fit | 0.00/7 | 0.00 | The preferred domains are absent. |
+| Expert authority | 1.50/5 | 1.50 | Spiritual teaching authority does not establish empirical claims. |
+| Narrative architecture | 2.00/3 | 2.00 | Brief prayers are accessible. |
+| Authorial precision | 0.50/2 | 0.50 | Spiritual identity is asserted rather than precisely argued. |
+
+| Deduction | Points | Basis |
+|---|---:|---|
+| T11 | 0.00 | T11=0: general devotion. T12=-10: spiritual philosophy is central. |
+| T12 | -10.00 | Applied independently; T11=0: general devotion. T12=-10: spiritual philosophy is central. |
+| H13 | 0.00 | Period end none; moderate. This devotional prayer collection develops a general or cross-period argument; no single central historical endpoint is imposed. |
+| P14 | -2.50 | Original year 2001; high. The publisher explicitly states first publication in 2001 as Prayers: A Communion with Our Creator; The Circle of Fire is the 2013 retitle, not a new original work. |
+| O15 | 0.00 | Unknown; zero-deduction fallback. Unknown: the direct product request encountered a shared transport EACCES failure; no product content was returned. Source-reported counts are unverified. O15=0 fallback. |
+
+**4.14 — counterfactual; V5 (high).** Score confidence moderate. Positive subtotal 16.64.
+
+Reader snapshot: Unavailable: no independently verified reader aggregate.. [Purchase locator](https://www.amazon.com/dp/1878424645). Unknown; product locator supplied by the source has not established this format.
+
+Amazon: [amazon.com](https://www.amazon.com/dp/1878424645); 1878424645; retrieved 2026-10-21. Unknown: the direct product request encountered a shared transport EACCES failure; no product content was returned. Source-reported counts are unverified. O15=0 fallback.
+
+Amazon attempts (2026-10-21): {"url":"https://www.amazon.com/dp/1878424645","attemptedAt":"2026-10-20T23:32:49.719Z","status":"fetch failed EACCES","method":"direct public HTTP fetch; shared environment transport failure","evidence":"data/books_guru_261021/c-amazon.json"}.
+
+
+<a id="bgf76d4a1d05"></a>
+### UFO Hunters: Book One — William J. Birnes
+
+**vetoed; moderate eligibility confidence.** Published nonfiction account of alleged investigations, not fiction or a technical manual. V1: the investigative frame promotes extraordinary identifications as facts without the evidential standard those identifications require. The judgment concerns the author's own assertion, not merely a quoted witness.
+
+Sources: 167.
+
+| Gate | Finding |
+|---|---|
+| BOOK_FORM | Matching publication record confirms UFO Hunters: Book One as a published book. |
+| FICTION | Presented as nonfiction argument, history, biography or reflective essays; no fiction gate established. |
+| REFERENCE | Published nonfiction account of alleged investigations, not fiction or a technical manual. |
+| V1 | Chapter 1 opening, in Birnes's own narration before the separate Colonel X quotation, states the camera captured a bovine-human hybrid fetus. An extraordinary biological conclusion is treated as established from a filmed appearance without a verified identification chain in the inspected account. |
+| V2 | The inspected account offers reasons and evidence rather than requiring allegiance; limitations are reflected in evidence attainment. |
+| V3 | Few reliable decision tools survive the unsupported identifications. |
+| V4 | The television-series setting and extraordinary claims reduce durability. The concrete primary-text defect is recorded under V1; launch publicity alone does not establish V4. |
+| V5 | No central scripture/devotion or specific advocacy of dehumanization, persecution, violent domination or suppression of dissent established. |
+
+[Evidence 1](https://us.macmillan.com/books/9780765325228/ufohunters/); [Evidence 2](https://www.abebooks.com/9780765325204/UFO-Hunters-Book-Birnes-William-0765325209/plp).
+
+| Criterion | Linear attainment | Contribution | Basis |
+|---|---:|---:|---|
+| Evidence and inferential integrity | 3.00/20 | 0.45 | The author's hybrid identification is asserted without verified biological evidence. |
+| Systems integration | 3.00/17 | 0.53 | Aircraft, biology and government secrecy are linked speculatively. |
+| Transferable strategic utility | 2.00/15 | 2.00 | Few reliable decision tools survive the unsupported identifications. |
+| Mechanistic and causal depth | 2.00/12 | 2.00 | Suspicion and visual resemblance substitute for tested explanations. |
+| Information density | 4.00/10 | 1.60 | Production stories and sensational incidents limit analytical density. |
+| Durability | 2.00/9 | 2.00 | Value relies heavily on unresolved extraordinary claims and television controversy. |
+| Direct domain fit | 1.00/7 | 1.00 | Technical vocabulary is present but reliable technical payload is weak. |
+| Expert authority | 1.00/5 | 1.00 | Investigators' credentials do not validate the book's extraordinary inferences. |
+| Narrative architecture | 2.00/3 | 2.00 | Episode-based storytelling is readable. |
+| Authorial precision | 0.50/2 | 0.50 | Categorical labels obscure uncertainty about what was observed. |
+
+| Deduction | Points | Basis |
+|---|---:|---|
+| T11 | -10.00 | T11: the narrative is chiefly American UFO incidents and institutions. T12: paranormal investigation, not military doctrine or media analysis, is central. |
+| T12 | 0.00 | Applied independently; T11: the narrative is chiefly American UFO incidents and institutions. T12: paranormal investigation, not military doctrine or media analysis, is central. |
+| H13 | -0.68 | Period end 2009; moderate. The central narrative follows the 2007–2009 television investigations; older UFO cases are subjects of those investigations. |
+| P14 | -1.30 | Original year 2013; high. Tor's original hardcover ISBN 9780765325204 was published 2013; 2015 paperback does not reset it. |
+| O15 | 0.00 | Unknown; zero-deduction fallback. Unknown after direct retrieval; O15=0 fallback. |
+
+**1.10 — counterfactual; V1 (moderate).** Score confidence moderate. Positive subtotal 13.08.
+
+Reader snapshot: Unavailable: no independently verified reader aggregate.. [Purchase locator](https://www.amazon.com/dp/0765325209). Unknown; source product locator not format-verified.
+
+Amazon: [amazon.com](https://www.amazon.com/dp/0765325209); 0765325209; retrieved 2026-10-20T23:39:03.581Z. Unknown after direct retrieval; O15=0 fallback.
+
+Amazon attempts (2026-10-20T23:39:03.581Z): {"url":"https://www.amazon.com/dp/0765325209","retrievedAt":"2026-10-20T23:39:03.581Z","httpStatus":200,"outcome":"Access-check or unavailable response; matching product contents and total ratings could not be verified.","evidence":"data/books_guru_261021/a-amazon/bgf76d4a1d05.json"}.
+
+
+<a id="bg8b5117b700"></a>
+### Das Energi — Paul Williams
+
+**vetoed; moderate eligibility confidence.** Published nonfiction spiritual aphorisms on consciousness and cosmic energy with sustained exposition or narrative; not an exam text, specialist reference or procedural manual. V5: the primary text repeatedly presents divine selfhood and collective awakening as truth, including sections 6, 70–76. This is devotional metaphysics rather than analytical discussion of spirituality.
+
+Sources: 153.
+
+| Gate | Finding |
+|---|---|
+| BOOK_FORM | Published book confirmed in the cited primary publication record. |
+| FICTION | Nonfiction spiritual aphorisms on consciousness and cosmic energy. |
+| REFERENCE | Sustained spiritual aphorisms on consciousness and cosmic energy intended for readers beyond procedural training or specialist lookup. |
+| V1 | No serious central evidential failure established in the inspected material; Assertions about universal consciousness lack an evidential method. |
+| V2 | No serious substitution of allegiance for evidence established; the identified limitations remain scored. |
+| V3 | Positive reflection offers little reliable cross-domain method; Metaphysical assertions substitute for causal explanation. |
+| V4 | No primary dependence on passing publicity established; Historical counterculture interest exceeds durable analytical content. |
+| V5 | V5: the primary text repeatedly presents divine selfhood and collective awakening as truth, including sections 6, 70–76. This is devotional metaphysics rather than analytical discussion of spirituality. |
+
+[Evidence 1](https://paulwilliams.com/writings.html); [Evidence 2](https://www.scribd.com/document/342241662/Das-Energi-by-Paul-Williams).
+
+| Criterion | Linear attainment | Contribution | Basis |
+|---|---:|---:|---|
+| Evidence and inferential integrity | 4.00/20 | 0.80 | Assertions about universal consciousness lack an evidential method |
+| Systems integration | 3.00/17 | 0.53 | Cosmic energy is a spiritual metaphor rather than a worked system |
+| Transferable strategic utility | 3.00/15 | 3.00 | Positive reflection offers little reliable cross-domain method |
+| Mechanistic and causal depth | 2.00/12 | 2.00 | Metaphysical assertions substitute for causal explanation |
+| Information density | 3.00/10 | 0.90 | Short aphorisms contain little developed argument |
+| Durability | 4.00/9 | 4.00 | Historical counterculture interest exceeds durable analytical content |
+| Direct domain fit | 0.00/7 | 0.00 | Spiritual energy is not physical or industrial energy analysis |
+| Expert authority | 1.00/5 | 1.00 | Williams has cultural-writing experience, not scientific authority here |
+| Narrative architecture | 1.50/3 | 1.50 | Brief meditations are readable but not cumulative explanation |
+| Authorial precision | 0.50/2 | 0.50 | Undefined energy and divinity language is conceptually loose |
+
+| Deduction | Points | Basis |
+|---|---:|---|
+| T11 | 0.00 | T11 0: no listed unwanted theme dominates. T12 -10: spiritual philosophy. |
+| T12 | -10.00 | Applied independently; T11 0: no listed unwanted theme dominates. T12 -10: spiritual philosophy. |
+| H13 | 0.00 | Period end none; moderate. An explanatory or broad cross-period account with no single central historical interval. |
+| P14 | -5.30 | Original year 1973; moderate. Author estate lists Das Energi (1973), written in 1970. Use the first published-book year 1973, not later reprints. |
+| O15 | 0.00 | Unknown; zero-deduction fallback. unknown; no explicit total-rating aggregate recovered; O15 fallback 0 |
+
+**-1.07 — counterfactual; V5 (high).** Score confidence moderate. Positive subtotal 14.23.
+
+Reader snapshot: Unavailable; no independently verified reader aggregate.. [Purchase locator](https://www.amazon.com/dp/0934558000). Source product locator; edition and availability not yet independently verified.
+
+Amazon: [amazon.com](https://www.amazon.com/dp/0934558000); see URL; retrieved 2026-10-21. unknown; no explicit total-rating aggregate recovered; O15 fallback 0
+
+Amazon attempts (2026-10-21): {"url":"https://www.amazon.com/dp/0934558000","method":"Public product retrieval and global ratings text search","result":"No explicit global-ratings text returned","evidence":"data/books_guru_261021/b-am-69.txt","retrieved":"2026-10-21"}.
+
+
+<a id="bg4084ddbdc3"></a>
+### Cosmic Consciousness — Richard Maurice Bucke
+
+**vetoed; moderate eligibility confidence.** Published nonfiction metaphysical account of higher consciousness with sustained exposition or narrative; not an exam text, specialist reference or procedural manual. V5: Bucke treats cosmic consciousness as revealing divine unity and eternal life as authoritative truth. V1 also applies to treating selected spiritual testimony as proof of universal biological and metaphysical claims.
+
+Sources: 153.
+
+| Gate | Finding |
+|---|---|
+| BOOK_FORM | Published book confirmed in the cited primary publication record. |
+| FICTION | Nonfiction metaphysical account of higher consciousness. |
+| REFERENCE | Sustained metaphysical account of higher consciousness intended for readers beyond procedural training or specialist lookup. |
+| V1 | V5: Bucke treats cosmic consciousness as revealing divine unity and eternal life as authoritative truth. V1 also applies to treating selected spiritual testimony as proof of universal biological and metaphysical claims. |
+| V2 | No serious substitution of allegiance for evidence established; the identified limitations remain scored. |
+| V3 | Historical self-reflection offers little reliable strategic method; A staged spiritual evolution substitutes assertion for causal evidence. |
+| V4 | No primary dependence on passing publicity established; Historical interest persists, but the truth claims are not durable science. |
+| V5 | V5: Bucke treats cosmic consciousness as revealing divine unity and eternal life as authoritative truth. V1 also applies to treating selected spiritual testimony as proof of universal biological and metaphysical claims. |
+
+[Evidence 1](https://original.sacred-texts.com/eso/cc/cc05.htm); [Evidence 2](https://selfdefinition.org/christian/Cosmic-Consciousness-by-Richard-M-Bucke-text.pdf); [Evidence 3](https://www.penguinrandomhouse.com/books/321631/cosmic-consciousness-by-richard-maurice-bucke/).
+
+| Criterion | Linear attainment | Contribution | Basis |
+|---|---:|---:|---|
+| Evidence and inferential integrity | 4.00/20 | 0.80 | Selected mystical testimony cannot establish universal metaphysical conclusions |
+| Systems integration | 4.00/17 | 0.94 | Links consciousness, religion and evolution by loose analogy |
+| Transferable strategic utility | 3.00/15 | 3.00 | Historical self-reflection offers little reliable strategic method |
+| Mechanistic and causal depth | 2.00/12 | 2.00 | A staged spiritual evolution substitutes assertion for causal evidence |
+| Information density | 4.00/10 | 1.60 | Long exemplary lives repeat the central untested thesis |
+| Durability | 4.00/9 | 4.00 | Historical interest persists, but the truth claims are not durable science |
+| Direct domain fit | 0.00/7 | 0.00 | Supernatural interpretation has negligible fit to requested mechanisms |
+| Expert authority | 2.00/5 | 2.00 | Medical training does not validate metaphysical inference |
+| Narrative architecture | 1.50/3 | 1.50 | Stages and biographies provide an intelligible but repetitive structure |
+| Authorial precision | 0.50/2 | 0.50 | Categorical spiritual claims lack careful evidential limits |
+
+| Deduction | Points | Basis |
+|---|---:|---|
+| T11 | 0.00 | T11 0: no listed negative theme predominates. T12 -10: metaphysical philosophy is central. |
+| T12 | -10.00 | Applied independently; T11 0: no listed negative theme predominates. T12 -10: metaphysical philosophy is central. |
+| H13 | 0.00 | Period end none; moderate. An explanatory or broad cross-period account with no single central historical interval. |
+| P14 | -10.00 | Original year 1901; moderate. Original 1901 publication is recorded in the digitized primary text; later reprints do not reset it. |
+| O15 | 0.00 | Unknown; zero-deduction fallback. unknown; no explicit total-rating aggregate recovered; O15 fallback 0 |
+
+**-3.66 — counterfactual; V1; V5 (high).** Score confidence moderate. Positive subtotal 16.34.
+
+Reader snapshot: Unavailable; no independently verified reader aggregate.. [Purchase locator](https://www.amazon.com/dp/1578989620). Source product locator; edition and availability not yet independently verified.
+
+Amazon: [amazon.com](https://www.amazon.com/dp/1578989620); see URL; retrieved 2026-10-21. unknown; no explicit total-rating aggregate recovered; O15 fallback 0
+
+Amazon attempts (2026-10-21): {"url":"https://www.amazon.com/dp/1578989620","method":"Public product retrieval and global ratings text search","result":"No explicit global-ratings text returned","evidence":"data/books_guru_261021/b-am-62.txt","retrieved":"2026-10-21"}.
+
+
+<a id="bg7200d9adb3"></a>
+### The Essene Gospel of Peace — Edmond Bordeaux Szekely
+
+**vetoed; moderate eligibility confidence.** Published purported religious gospel in dialogue form; not marketed as fiction or a modern technical manual. V5: a purported gospel presents religious healing doctrine as authoritative truth. Ancient-manuscript provenance remains unverified.
+
+Sources: 153.
+
+| Gate | Finding |
+|---|---|
+| BOOK_FORM | Matching publication record confirms The Essene Gospel of Peace as a published book. |
+| FICTION | Presented as nonfiction argument, history, biography or reflective essays; no fiction gate established. |
+| REFERENCE | Published purported religious gospel in dialogue form; not marketed as fiction or a modern technical manual. |
+| V1 | The asserted ancient provenance and healing authority lack verified support. No serious central epistemic failure established in the inspected evidence. |
+| V2 | The inspected gospel establishes religious healing authority under V5. No separate political or national allegiance claim is inferred from its religious form. |
+| V3 | Some restraint advice is portable, but the doctrine supplies little reliable strategy. |
+| V4 | Value depends on devotional belief, not durable verified models. No serious dependence on unsupported revolutionary prediction established. |
+| V5 | Book 1 opening and subsequent teaching attribute healing authority to Jesus, Satan and the Earthly Mother's angels. Establishing this doctrine is central. |
+
+[Evidence 1](https://essene.com/GospelOfPeace/peace1.html); [Evidence 2](https://www.thenazareneway.com/essene_gospel_of_peace_book1.htm).
+
+| Criterion | Linear attainment | Contribution | Basis |
+|---|---:|---:|---|
+| Evidence and inferential integrity | 2.00/20 | 0.20 | The asserted ancient provenance and healing authority lack verified support. |
+| Systems integration | 3.00/17 | 0.53 | Body, diet and cosmic doctrine connect by assertion. |
+| Transferable strategic utility | 2.00/15 | 2.00 | Some restraint advice is portable, but the doctrine supplies little reliable strategy. |
+| Mechanistic and causal depth | 1.00/12 | 1.00 | Angelic and satanic explanations replace testable biological mechanisms. |
+| Information density | 5.00/10 | 2.50 | Repetitive exhortation limits information density. |
+| Durability | 3.00/9 | 3.00 | Value depends on devotional belief, not durable verified models. |
+| Direct domain fit | 0.00/7 | 0.00 | No reliable technical or industrial payload. |
+| Expert authority | 0.50/5 | 0.50 | Szekely's claimed manuscript access is not independent authority. |
+| Narrative architecture | 1.50/3 | 1.50 | Dialogue is readable but repetitive. |
+| Authorial precision | 0.50/2 | 0.50 | Absolute therapeutic language lacks careful qualification. |
+
+| Deduction | Points | Basis |
+|---|---:|---|
+| T11 | -10.00 | T11: healing and illness dominate the body-related teaching. T12: spiritual/ethical doctrine is central. |
+| T12 | -10.00 | Applied independently; T11: healing and illness dominate the body-related teaching. T12: spiritual/ethical doctrine is central. |
+| H13 | 0.00 | Period end none; moderate. Doctrinal dialogue presented as timeless teaching, not a verified historical-period narrative. |
+| P14 | -9.80 | Original year 1928; moderate. The movement's publication history states first French publication 1928 and English 1937. The claimed ancient origin is not accepted as a verified composition date. |
+| O15 | 0.00 | Unknown; zero-deduction fallback. Unknown after direct retrieval; O15=0 fallback. |
+
+**-18.07 — counterfactual; V5 (high).** Score confidence moderate. Positive subtotal 11.73.
+
+Reader snapshot: Unavailable: no independently verified reader aggregate.. [Purchase locator](https://www.amazon.com/dp/0895640007). Unknown; source product locator not format-verified.
+
+Amazon: [amazon.com](https://www.amazon.com/dp/0895640007); 0895640007; retrieved 2026-10-20T23:39:00.783Z. Unknown after direct retrieval; O15=0 fallback.
+
+Amazon attempts (2026-10-20T23:39:00.783Z): {"url":"https://www.amazon.com/dp/0895640007","retrievedAt":"2026-10-20T23:39:00.783Z","httpStatus":200,"outcome":"Access-check or unavailable response; matching product contents and total ratings could not be verified.","evidence":"data/books_guru_261021/a-amazon/bg7200d9adb3.json"}.
+

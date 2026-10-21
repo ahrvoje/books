@@ -1,0 +1,1240 @@
+[
+  {
+    "index": 100,
+    "status": "vetoed",
+    "confidence": "low",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": 0,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The New Confessions of an Economic Hit Man\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-247.json",
+          "result": "Public search did not expose a verified matching total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20New%20Confessions%20of%20an%20Economic%20Hit%20Man%20John%20Perkins%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 384,
+        "id": "ISBN:9781626566767",
+        "url": "https://www.oreilly.com/library/view/the-new-confessions/9781626566767/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Ebook",
+        "year": 2016,
+        "confidence": "high"
+      },
+      "domains": {
+        "FIN": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "International loans and debt are sustained subjects.",
+          "refs": [
+            "https://www.oreilly.com/library/view/the-new-confessions/9781626566767/"
+          ]
+        },
+        "POL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "State influence and intervention organize the argument.",
+          "refs": [
+            "https://www.oreilly.com/library/view/the-new-confessions/9781626566767/"
+          ]
+        },
+        "ECO": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Development and corporate incentives are recurring contexts.",
+          "refs": [
+            "https://www.oreilly.com/library/view/the-new-confessions/9781626566767/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "The New Confessions of an Economic Hit Man",
+    "veto": "V5",
+    "vetoConfidence": "moderate",
+    "eligibility": "Revised political memoir and argument for public readers, not professional instruction. Most chapters narrate claimed experience; action chapters are secondary in structure.",
+    "reason": "V5 applies to the explicit political campaign against the asserted economic-hit-man system. The inspected material does not independently verify the central covert-causation allegations; counterfactual E and M remain low. No separate V1 finding is invented from lack of verification.",
+    "raw": [
+      10,
+      12,
+      7,
+      6,
+      6,
+      6,
+      3,
+      2.5,
+      3,
+      0.5
+    ],
+    "notes": [
+      "E10: memoir testimony does not independently verify the broad covert-control claims.",
+      "S12: debt, corporations, governments and coercion are linked, with uncertain causal attribution.",
+      "U7: incentives and dependency provide some transferable questions.",
+      "M6: asserted intentional control often substitutes for tested causal alternatives.",
+      "D6: revised examples expand a repeated central thesis.",
+      "R6: debt and power persist, but current allegations date.",
+      "F3: finance and institutional power fit as auxiliary interests.",
+      "A2.5: claimed insider access is relevant but not independent corroboration.",
+      "N3: chronological parts organize the account clearly.",
+      "P0.5: categorical rhetoric conceals important evidential uncertainty."
+    ],
+    "year": 2004,
+    "yearNote": "The licensed publisher description explicitly identifies the 2004 original; the 2016 expanded second edition does not reset production age.",
+    "periodEnd": 2015,
+    "periodNote": "The revised edition extends its central retrospective account through 2004–2015, before the 2016 publication.",
+    "themeNote": "T11=0: international economic influence is not mainly American domestic history. T12=-10: finance and political power organize the account.",
+    "evidence": [
+      "https://www.oreilly.com/library/view/the-new-confessions/9781626566767/"
+    ]
+  },
+  {
+    "index": 101,
+    "status": "vetoed",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": -10,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Understanding Power\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-247.json",
+          "result": "Public search did not expose a verified matching total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Understanding%20Power%20Noam%20Chomsky%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 416,
+        "id": "ISBN:9781565847033",
+        "url": "https://thenewpress.org/books/understanding-power/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2002,
+        "confidence": "high"
+      },
+      "domains": {
+        "POL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "American foreign and domestic policy is sustained.",
+          "refs": [
+            "https://thenewpress.org/books/understanding-power/"
+          ]
+        },
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Institutional influence and public participation organize the analysis.",
+          "refs": [
+            "https://thenewpress.org/books/understanding-power/"
+          ]
+        },
+        "ECO": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Economic interests are linked to policy.",
+          "refs": [
+            "https://thenewpress.org/books/understanding-power/"
+          ]
+        },
+        "MIL": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "War and foreign intervention are recurring cases.",
+          "refs": [
+            "https://thenewpress.org/books/understanding-power/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "Understanding Power",
+    "veto": "V5",
+    "vetoConfidence": "moderate",
+    "eligibility": "Edited public discussions and political argument, not a procedural or specialist training text.",
+    "reason": "V5 applies: the publisher frames the collected discussions around popular struggle and political change. This is distinct from treating any political disagreement as ideological capture; no V2 finding is asserted solely from the author’s position.",
+    "evidence": [
+      "https://thenewpress.org/books/understanding-power/",
+      "https://books.google.com/books/about/Understanding_Power.html?id=SE2Iv_uD9nEC"
+    ],
+    "raw": [
+      13,
+      13,
+      9,
+      8,
+      6,
+      7,
+      3,
+      3.5,
+      2.5,
+      1
+    ],
+    "notes": [
+      "E13: concrete historical claims need case-specific checking beyond edited discussion.",
+      "S13: media, institutions, economic interests and foreign policy connect.",
+      "U9: agenda-setting and institutional incentives offer transferable models.",
+      "M8: causal explanations are substantial but selected to support a political thesis.",
+      "D6: spoken discussion repeats and digresses.",
+      "R7: institutional questions endure beyond the named disputes.",
+      "F3: power and strategic context fit indirectly.",
+      "A3.5: sustained political scholarship supports scope without settling contested claims.",
+      "N2.5: editorial organization improves a discontinuous discussion format.",
+      "P1: sweeping formulations reduce qualification."
+    ],
+    "year": 2002,
+    "yearNote": "Publisher first book edition February 2002; earlier talks are source material, not an earlier book publication.",
+    "periodEnd": null,
+    "periodNote": "Cross-period institutional and political argument, not one bounded historical episode.",
+    "themeNote": "T11=-10: American foreign and domestic policy, including Vietnam, is predominant. T12=-10 separately: politics, media and power are central."
+  },
+  {
+    "index": 102,
+    "status": "vetoed",
+    "confidence": "low",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "The prior snapshot exposes only a review-label count. Total ratings are unverified; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "url": "https://www.amazon.com.au/dp/055277331X",
+          "requestedUrl": "https://www.amazon.com.au/dp/055277331X",
+          "retrievedAt": "2026-10-18T18:32:44.823Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "e260b98bdcf3b2fb3cd2967b9b616a34779d497afa8fd6b0859a5d35f7b9ee05"
+        },
+        {
+          "url": "https://www.amazon.com/dp/055277331X",
+          "requestedUrl": "https://www.amazon.com/dp/055277331X",
+          "retrievedAt": "2026-10-18T18:32:44.988Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "2bf15ac64ce1b237316f3c9d930ce8ba49e68cf80268af0e024e296c87d60a88"
+        },
+        {
+          "url": "https://www.amazon.de/dp/055277331X",
+          "requestedUrl": "https://www.amazon.de/dp/055277331X",
+          "retrievedAt": "2026-10-18T18:32:45.141Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "d07470c1efec3ec930d877da606cf7a2ac8662bed6c781fd8e60abeb6cc2cda6"
+        },
+        {
+          "url": "https://www.amazon.co.uk/dp/055277331X",
+          "requestedUrl": "https://www.amazon.co.uk/dp/055277331X",
+          "retrievedAt": "2026-10-18T18:32:45.228Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "e099bccca9f50ae02cd5aa5209cc62e9eb77eb9f11a320fe5059c250f71898db"
+        },
+        {
+          "url": "https://www.amazon.it/dp/055277331X",
+          "requestedUrl": "https://www.amazon.it/dp/055277331X",
+          "retrievedAt": "2026-10-18T18:32:45.368Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "e2acb1e0c0570041e6973bcc8bacd513dec3cfceb92baf07d0dd63263115ffb5"
+        },
+        {
+          "url": "https://www.amazon.com.au/dp/0593058259",
+          "requestedUrl": "https://www.amazon.com.au/dp/0593058259",
+          "retrievedAt": "2026-10-18T18:43:51.152Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "a4dbdfd6177672e178e481894554d765b1b79eddf35d36689c1ec5c26fefac7a"
+        },
+        {
+          "url": "https://www.amazon.com.au/dp/1400153786",
+          "requestedUrl": "https://www.amazon.com.au/dp/1400153786",
+          "retrievedAt": "2026-10-18T18:43:51.320Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "d380307f77afced93c0f3fb6bd232b97a092deea364d7eb5ab6fd57bb39c77b5"
+        },
+        {
+          "url": "https://www.amazon.com.au/dp/1400103789",
+          "requestedUrl": "https://www.amazon.com.au/dp/1400103789",
+          "retrievedAt": "2026-10-18T18:43:51.487Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "46b46b7fc0cd2a7a599e0d69aa9dc61502e64dda9e54285670fc41a375610630"
+        },
+        {
+          "url": "https://www.amazon.com.au/dp/9185625868",
+          "requestedUrl": "https://www.amazon.com.au/dp/9185625868",
+          "retrievedAt": "2026-10-18T18:43:51.681Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "7659f2a78b8167eb71b663e2101d660779c42070d11261d574bd27fb527d4e9f"
+        },
+        {
+          "url": "https://www.amazon.com.au/dp/8467031972",
+          "requestedUrl": "https://www.amazon.com.au/dp/8467031972",
+          "retrievedAt": "2026-10-18T18:43:51.845Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "7c1bfb33dba7f911a84f6a8039a47897314710f8da263ab0e223aee4dd843974"
+        },
+        {
+          "url": "https://www.amazon.pl/dp/055277331X",
+          "requestedUrl": "https://www.amazon.pl/dp/055277331X",
+          "retrievedAt": "2026-10-18T18:43:28.168Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "pageTitle": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "a5e9c0c9502c03b11c491f0b77e4dd131c0213de4748026a912563a6f0ac320c"
+        },
+        {
+          "url": "https://www.amazon.it/dp/0593058259",
+          "requestedUrl": "https://www.amazon.it/dp/0593058259",
+          "retrievedAt": "2026-10-18T18:56:56.228Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "pageTitle": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "fa18957e405250351315790fd07a2244ffd025c68cd0f09d64d40228c26e4dfa"
+        },
+        {
+          "url": "https://www.amazon.it/dp/1400153786",
+          "requestedUrl": "https://www.amazon.it/dp/1400153786",
+          "retrievedAt": "2026-10-18T18:56:56.273Z",
+          "httpStatus": 200,
+          "title": "The God Delusion",
+          "byline": "Edizione Inglese di Richard Dawkins (Autore, Narratore), Lalla Ward (Narratore) Formato: Audio CD",
+          "pageTitle": "The God Delusion : Dawkins, Richard, Dawkins, Richard, Ward, Lalla: Amazon.it: Libri",
+          "topCount": 12366,
+          "globalCount": null,
+          "titleMatch": true,
+          "authorMatch": true,
+          "verified": true,
+          "evidence": [
+            "<span id=\"acrCustomerReviewText\" aria-label=\"12.366 Recensioni\" class=\"a-size-small\">(12.366)</span>"
+          ],
+          "sha256": "8b9c149968db66ff7c0b9c9684cc905e77dca6ad14ef9451e387cedb154b228a"
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/055277331X",
+    "purchaseFormat": "Paperback edition locator supplied by the assessment; see cited edition evidence.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 496,
+        "id": "ISBN:9781804997123",
+        "url": "https://www.penguin.co.uk/books/350427/the-god-delusion-by-dawkins-richard/9781804997123",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2025,
+        "confidence": "high"
+      },
+      "domains": {
+        "HEU": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Evidence standards and explanatory economy recur.",
+          "refs": [
+            "analysis/analysis_changedmind_261017_2105.md#c065"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "The God Delusion",
+    "veto": "V5",
+    "vetoConfidence": "high",
+    "eligibility": "Public argument about religion, not specialist instruction.",
+    "reason": "Retain V5 for the organizing anti-religious ideological campaign. Opposition to religion alone does not establish V2. Biological expertise does not establish equal authority over every philosophical claim.",
+    "reassessment": "Reread g0557, c065 and current deduction row, then publisher scope. Retain all ten attainments, V5, T11=0, T12=-10, original 2006 and no bounded period. Preserve only a verified prior rating aggregate under the shared Amazon audit rule.",
+    "evidence": [
+      "https://www.penguin.co.uk/books/350427/the-god-delusion-by-dawkins-richard/9781804997123",
+      "analysis/analysis_glaspsci_261019_0144.md#g0557",
+      "analysis/analysis_changedmind_261017_2105.md#c065",
+      "analysis/analysis_pubcap_261018_2125.md#d-q1008"
+    ],
+    "raw": [
+      12,
+      8.5,
+      8,
+      6.352941176470588,
+      6,
+      8,
+      2,
+      4,
+      3,
+      1
+    ],
+    "notes": [
+      "E12: religious and philosophical generalizations exceed the strongest biological evidence.",
+      "S8.5: science and belief connect with limited institutional depth.",
+      "U8: explanatory economy and evidence standards transfer.",
+      "M6.3529: causal accounts of belief are selective.",
+      "D6: polemical repetition reduces concentration.",
+      "R8: the basic epistemic dispute is durable.",
+      "F2: religion is remote from the preferred technical systems.",
+      "A4: biological authority does not settle all philosophical disputes.",
+      "N3: the argument remains accessible and cumulative.",
+      "P1: broad polemical claims reduce precision."
+    ],
+    "year": 2006,
+    "yearNote": "Publisher identifies the 2006 original; the selected paperback is 2025.",
+    "periodEnd": null,
+    "periodNote": "General argument about religion, not a bounded historical period.",
+    "themeNote": "T11=0: no predominant rule-11 theme. T12=-10: philosophy of religion is central."
+  },
+  {
+    "index": 103,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "The prior snapshot exposes only a review-label count. Total ratings are unverified; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0198788606",
+    "purchaseFormat": "Paperback edition locator supplied by the assessment; see cited edition evidence.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 496,
+        "id": "ISBN:9780198788607",
+        "url": "https://india.oup.com/product/the-selfish-gene-9780198788607",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2016,
+        "confidence": "high"
+      },
+      "domains": {
+        "SCI": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Replication and selection form the sustained explanation.",
+          "refs": [
+            "https://india.oup.com/product/the-selfish-gene-9780198788607"
+          ]
+        },
+        "QNT": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Evolutionarily stable strategy models organize several explanations.",
+          "refs": [
+            "https://india.oup.com/product/the-selfish-gene-9780198788607"
+          ]
+        },
+        "STR": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Competition and cooperation are examined through stable strategies.",
+          "refs": [
+            "https://india.oup.com/product/the-selfish-gene-9780198788607"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "The Selfish Gene",
+    "eligibility": "Conceptual evolutionary explanation for general readers, not a course or methods manual.",
+    "reason": "No serious veto established. Replicators, selection and strategic interaction provide durable models; the gene-centered view is not treated as a complete account of all biological levels.",
+    "reassessment": "Reread g0545, m091 and current deduction row; compare the publisher’s contents. Retain all ten attainments, no veto, both zero themes, 1976 and no bounded historical endpoint. Edition is the 2016 anniversary paperback; Amazon handling preserves only verified aggregates.",
+    "evidence": [
+      "https://india.oup.com/product/the-selfish-gene-9780198788607",
+      "analysis/analysis_glaspsci_261019_0144.md#g0545",
+      "analysis/analysis_mustreads_261017_2010.md#m091",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0111"
+    ],
+    "raw": [
+      18,
+      11.333333333333334,
+      12,
+      10.588235294117647,
+      9,
+      9,
+      4,
+      5,
+      3,
+      2
+    ],
+    "notes": [
+      "E18: established selection concepts support the central explanation, with limits on extrapolation.",
+      "S11.3333: replicators, organisms and social behavior connect.",
+      "U12: selection and stable strategy models transfer.",
+      "M10.5882: causal logic of replication and selection is explicit.",
+      "D9: conceptual exposition is concentrated.",
+      "R9: core evolutionary models remain useful.",
+      "F4: strategic and quantitative concepts fit indirectly.",
+      "A5: specialist authority supports the biological account.",
+      "N3: examples build a clear explanatory sequence.",
+      "P2: controlled distinctions sustain conceptual clarity."
+    ],
+    "year": 1976,
+    "yearNote": "The 2016 fortieth-anniversary publisher record establishes original 1976.",
+    "periodEnd": null,
+    "periodNote": "Evolutionary explanation is not a bounded human historical period.",
+    "themeNote": "T11=0: biology is not automatically an environmental theme. T12=0: biological explanation is central."
+  },
+  {
+    "index": 104,
+    "status": "recommended",
+    "confidence": "low",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The Order of Time\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-247.json",
+          "result": "Public search did not expose a verified matching total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.com/dp/0735216118",
+    "purchaseFormat": "Source edition; format/stock not independently established.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 256,
+        "id": "ISBN:9780735216129",
+        "url": "https://www.penguinrandomhouse.com/books/551483/the-order-of-time-by-carlo-rovelli/9780735216129",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Ebook",
+        "year": 2018,
+        "confidence": "high"
+      },
+      "domains": {
+        "SCI": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Relativity, quantum theory and the physical nature of time are sustained.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/551483/the-order-of-time-by-carlo-rovelli/9780735216129"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "The Order of Time",
+    "eligibility": "Popular sustained explanation of time in physics, not a technical course.",
+    "reason": "No serious veto established. Established physics and frontier interpretations must remain distinct; strategic novelty is limited for this reader.",
+    "reassessment": "Reread g0667 and compare the publisher’s description and Italian original. Retain all ten attainments, no veto, 2017 and no historical endpoint. Correct T12 from -10 to 0: physical accounts of time organize the book, while philosophy and literature support interpretation. T11 remains 0. Unverified Amazon count remains unknown.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/551483/the-order-of-time-by-carlo-rovelli/9780735216129",
+      "analysis/analysis_glaspsci_261019_0144.md#g0667",
+      "https://www.adelphi.it/libro/9788845979071"
+    ],
+    "raw": [
+      15,
+      8,
+      3,
+      7,
+      7,
+      7,
+      7,
+      5,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E15: established results and speculative time interpretations need separation.",
+      "S8: physical theories connect with philosophical interpretation, not many practical systems.",
+      "U3: much of the physics is familiar to this reader.",
+      "M7: accessible explanation omits technical derivation.",
+      "D7: focused prose also includes literary reflection.",
+      "R7: established concepts endure; frontier interpretations may change.",
+      "F7: physics directly matches the domain, despite low novelty.",
+      "A5: the author has direct research expertise.",
+      "N3: a compact sequence develops the problem of time.",
+      "P1.5: evocative formulations sometimes outrun qualification."
+    ],
+    "year": 2017,
+    "yearNote": "Adelphi’s Italian original is 2017; English translation 2018 does not reset age.",
+    "periodEnd": null,
+    "periodNote": "Physical and conceptual argument, not a historical-period account.",
+    "themeNote": "T11=0: no listed central negative theme. T12=0: physics is central; philosophy is an interpretive layer."
+  },
+  {
+    "index": 105,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": 3453,
+      "status": "Verified matching archived product response; explicit global ratings label. Title and author checked.",
+      "marketplace": "www.amazon.com",
+      "asin": "0805073698",
+      "url": "https://www.amazon.com/dp/0805073698",
+      "retrievedAt": "2026-10-20T14:43:43.337Z",
+      "evidence": [
+        "data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">3,453 global ratings"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.amazon.com/dp/0805073698",
+          "retrievedAt": "2026-10-20T14:43:43.337Z",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0483-0805073698-www.amazon.com-d5302a807fa453a2.html.gz",
+          "result": "Matching title, author and explicit global-rating label."
+        }
+      ]
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0805073698",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Amazon archived product: 3453 global ratings; 2026-10-20T14:43:43.337Z.",
+    "enrichment": {
+      "edition": {
+        "pages": 560,
+        "id": "ISBN:9781429935654",
+        "url": "https://us.macmillan.com/books/9781429935654/whyzebrasdontgetulcers/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Ebook",
+        "year": 2004,
+        "confidence": "high"
+      },
+      "domains": {
+        "SCI": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Stress physiology and feedback across body systems are sustained.",
+          "refs": [
+            "https://us.macmillan.com/books/9781429935654/whyzebrasdontgetulcers/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "Why Zebras Don't Get Ulcers",
+    "eligibility": "The contents principally explain stress physiology across body systems. A final practical-management chapter does not make the preceding explanatory structure a manual.",
+    "reason": "No serious veto established. Feedback and physiological tradeoffs provide transferable explanation; dated findings and animal-to-human extrapolation constrain confidence.",
+    "reassessment": "Reread the full O096 section and current deduction row, then publisher description and library contents. Retain all ten attainments, no veto, T11=-10, T12=0, original 1994 and no period. Contents confirm explanation dominates advice. Use the verified archived 3,453-global-rating product snapshot.",
+    "evidence": [
+      "https://us.macmillan.com/books/9781429935654/whyzebrasdontgetulcers/",
+      "analysis/analysis_obscurebooks_261017_1936.md",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0483",
+      "https://opac.nluo.ac.in/bib/16082"
+    ],
+    "raw": [
+      16,
+      12.75,
+      11,
+      9.882352941176471,
+      7,
+      7,
+      3,
+      5,
+      3,
+      2
+    ],
+    "notes": [
+      "E16: physiological studies support the account with age and extrapolation limits.",
+      "S12.75: stress, endocrine response and multiple organ systems connect.",
+      "U11: chronic feedback and resource tradeoffs transfer.",
+      "M9.8824: the book explains linked physiological processes.",
+      "D7: examples and health detail reduce concentration for this reader.",
+      "R7: broad principles endure while empirical detail changes.",
+      "F3: biological systems fit indirectly.",
+      "A5: direct neuroendocrinology expertise supports authority.",
+      "N3: body-system chapters provide clear organization.",
+      "P2: distinctions are controlled without eliminating uncertainty."
+    ],
+    "year": 1994,
+    "yearNote": "Retain original 1994 from the prior sourced record; the selected third-edition ebook is 2004.",
+    "periodEnd": null,
+    "periodNote": "Physiological explanation, not a bounded historical account.",
+    "themeNote": "T11=-10: disease and stress-related health are predominant. T12=0: no central politics, finance or philosophy."
+  },
+  {
+    "index": 106,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": -10,
+    "amazon": {
+      "count": 10633,
+      "status": "Verified matching archived product response; explicit global ratings label. Title and author checked.",
+      "marketplace": "www.amazon.com.au",
+      "asin": "0307719227",
+      "url": "https://www.amazon.com.au/dp/0307719227",
+      "retrievedAt": "2026-10-20T14:40:41.537Z",
+      "evidence": [
+        "data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">10,633 global ratings"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.amazon.com.au/dp/0307719227",
+          "retrievedAt": "2026-10-20T14:40:41.537Z",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0178-0307719227-www.amazon.com.au-4dafa4da78c4deae.html.gz",
+          "result": "Matching title, author and explicit global-rating label."
+        }
+      ]
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0307719227",
+    "purchaseFormat": "Paperback edition locator supplied by the assessment; see cited edition evidence.",
+    "reader": "Amazon archived product: 10633 global ratings; 2026-10-20T14:40:41.537Z.",
+    "enrichment": {
+      "edition": {
+        "pages": 544,
+        "id": "ISBN:9780307719225",
+        "url": "https://www.penguinrandomhouse.com/books/205014/why-nations-fail-by-daron-acemoglu-and-james-a-robinson/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2013,
+        "confidence": "high"
+      },
+      "domains": {
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Institutional rules organize the argument.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/205014/why-nations-fail-by-daron-acemoglu-and-james-a-robinson/"
+          ]
+        },
+        "POL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Political constraints determine extraction incentives.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/205014/why-nations-fail-by-daron-acemoglu-and-james-a-robinson/"
+          ]
+        },
+        "ECO": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Growth and prosperity are the outcomes explained.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/205014/why-nations-fail-by-daron-acemoglu-and-james-a-robinson/"
+          ]
+        },
+        "INN": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Innovation incentives connect institutions to growth.",
+          "refs": [
+            "analysis/analysis_physcanon_261018_0147.md#p070"
+          ]
+        },
+        "PRD": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Production is linked to institutional incentives.",
+          "refs": [
+            "analysis/analysis_glaspecon_261019_0144.md#g0815"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "institutional-innovation",
+            "domains": [
+              "POL",
+              "INS",
+              "INN",
+              "ECO"
+            ],
+            "roles": {
+              "POL": "Constraints on rulers",
+              "INS": "Rules governing extraction and opportunity",
+              "INN": "Incentives to introduce productive change",
+              "ECO": "Growth and prosperity outcomes"
+            },
+            "statement": "Political constraints shape institutions, which change incentives for innovation and thus economic development; the comparative evidence does not establish this as a sufficient explanation.",
+            "scope": "Comparative development argument",
+            "strength": 3,
+            "confidence": "moderate",
+            "refs": [
+              "analysis/analysis_physcanon_261018_0147.md#p070"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "Why Nations Fail",
+    "eligibility": "Comparative explanatory history and argument, not an economics textbook.",
+    "reason": "No serious veto established. Institutional incentives provide transferable mechanisms; selected cases and binary categories do not uniquely establish causation.",
+    "reassessment": "Reread g0815, p070 and current deduction row; compare the publisher’s scope. Retain every attainment, no veto, T11=0, T12=-10, original 2012 and no single historical endpoint. Use one verified Australian archived aggregate, not a sum with the earlier US count.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/205014/why-nations-fail-by-daron-acemoglu-and-james-a-robinson/",
+      "analysis/analysis_glaspecon_261019_0144.md#g0815",
+      "analysis/analysis_physcanon_261018_0147.md#p070",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0178"
+    ],
+    "raw": [
+      15,
+      15.583333333333334,
+      12,
+      9.882352941176471,
+      6,
+      8,
+      6,
+      5,
+      3,
+      1
+    ],
+    "notes": [
+      "E15: substantial comparative scholarship faces case-selection problems.",
+      "S15.5833: political constraints, institutions and production connect.",
+      "U12: incentive structures transfer across development cases.",
+      "M9.8824: mechanisms are useful but institutional labels do not uniquely identify causes.",
+      "D6: repeated inclusive/extractive framing reduces density.",
+      "R8: institutional development questions endure.",
+      "F6: production and state capacity closely fit.",
+      "A5: scholarly expertise supports authority.",
+      "N3: the repeated comparative architecture is clear.",
+      "P1: binary classifications lose nuance."
+    ],
+    "year": 2012,
+    "yearNote": "Publisher original 2012; paperback 2013.",
+    "periodEnd": null,
+    "periodNote": "Broad comparative argument across periods has no single central historical endpoint.",
+    "themeNote": "T11=0: cross-national account. T12=-10: political institutions and power are central."
+  },
+  {
+    "index": 107,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": -10,
+    "amazon": {
+      "count": 1466,
+      "status": "Verified matching archived product response; explicit global ratings label. Title and author checked.",
+      "marketplace": "www.amazon.com.au",
+      "asin": "0374533229",
+      "url": "https://www.amazon.com.au/dp/0374533229",
+      "retrievedAt": "2026-10-20T14:40:03.956Z",
+      "evidence": [
+        "data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">1,466 global ratings"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.amazon.com.au/dp/0374533229",
+          "retrievedAt": "2026-10-20T14:40:03.956Z",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0115-0374533229-www.amazon.com.au-6c23a0fc75659acd.html.gz",
+          "result": "Matching title, author and explicit global-rating label."
+        }
+      ]
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0374533229",
+    "purchaseFormat": "Paperback edition locator supplied by the assessment; see cited edition evidence.",
+    "reader": "Amazon archived product: 1466 global ratings; 2026-10-20T14:40:03.956Z.",
+    "enrichment": {
+      "edition": {
+        "pages": 608,
+        "id": "ISBN:9780374533229",
+        "url": "https://academic.macmillan.com/academictrade/9780374533229/theoriginsofpoliticalorder/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2012,
+        "confidence": "high"
+      },
+      "domains": {
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "State capacity, law and accountability are sustained.",
+          "refs": [
+            "https://academic.macmillan.com/academictrade/9780374533229/theoriginsofpoliticalorder/"
+          ]
+        },
+        "POL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Political order and constraints on rulers are central.",
+          "refs": [
+            "https://academic.macmillan.com/academictrade/9780374533229/theoriginsofpoliticalorder/"
+          ]
+        },
+        "MIL": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "War and competition influence state formation in the excerpt.",
+          "refs": [
+            "https://academic.macmillan.com/academictrade/9780374533229/theoriginsofpoliticalorder/"
+          ]
+        },
+        "ECO": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Development and social mobilization interact with institutions.",
+          "refs": [
+            "https://academic.macmillan.com/academictrade/9780374533229/theoriginsofpoliticalorder/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "The Origins of Political Order",
+    "eligibility": "Comparative institutional history for public readers, not specialist methods training.",
+    "reason": "No serious veto established. State capacity, impersonal administration and constraints on rulers provide reusable models; wide categories and selected cases limit inference.",
+    "reassessment": "Reread g0743, p076 and current deduction row, then publisher excerpt. Retain all ten attainments, no veto, T11=0, T12=-10, 2011 and no single historical endpoint. Use the verified archived 1,466-rating Australian snapshot.",
+    "evidence": [
+      "https://academic.macmillan.com/academictrade/9780374533229/theoriginsofpoliticalorder/",
+      "analysis/analysis_glasppol_261019_0144.md#g0743",
+      "analysis/analysis_physcanon_261018_0147.md#p076",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0115"
+    ],
+    "raw": [
+      16,
+      15.583333333333334,
+      13,
+      9.882352941176471,
+      6,
+      9,
+      6,
+      5,
+      3,
+      2
+    ],
+    "notes": [
+      "E16: wide scholarship is limited by comparative case selection.",
+      "S15.5833: state capacity, law, social structure and accountability connect.",
+      "U13: institutional development and decay models transfer.",
+      "M9.8824: causal accounts identify constraints without uniquely isolating them.",
+      "D6: long comparative treatment repeats distinctions.",
+      "R9: institutional formation is a durable subject.",
+      "F6: state capacity and organization fit strongly.",
+      "A5: sustained political scholarship supports authority.",
+      "N3: the comparative structure is clear.",
+      "P2: distinctions between institutions remain disciplined."
+    ],
+    "year": 2011,
+    "yearNote": "Original 2011; selected paperback 2012.",
+    "periodEnd": null,
+    "periodNote": "Comparative synthesis from early social organization across many periods; no single central bounded period.",
+    "themeNote": "T11=0: cross-national institutions. T12=-10: political order and state formation are central."
+  },
+  {
+    "index": 108,
+    "status": "recommended",
+    "confidence": "low",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": -10,
+    "amazon": {
+      "count": 12206,
+      "status": "Verified matching archived product response; explicit global ratings label. Title and author checked.",
+      "marketplace": "www.amazon.com",
+      "asin": "0307455777",
+      "url": "https://www.amazon.com/dp/0307455777",
+      "retrievedAt": "2026-10-20T14:43:02.802Z",
+      "evidence": [
+        "data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">12,206 global ratings"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.amazon.com/dp/0307455777",
+          "retrievedAt": "2026-10-20T14:43:02.802Z",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0415-0307455777-www.amazon.com-380717f1fa1cc33c.html.gz",
+          "result": "Matching title, author and explicit global-rating label."
+        }
+      ]
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0307455777",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Amazon archived product: 12206 global ratings; 2026-10-20T14:43:02.802Z.",
+    "enrichment": {
+      "edition": {
+        "pages": 528,
+        "id": "ISBN:9780307455772",
+        "url": "https://www.penguinrandomhouse.com/books/73535/the-righteous-mind-by-jonathan-haidt/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2013,
+        "confidence": "high"
+      },
+      "domains": {
+        "HEU": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Intuition and post hoc reasoning organize the explanation.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/73535/the-righteous-mind-by-jonathan-haidt/"
+          ]
+        },
+        "POL": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Political division is a sustained application.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/73535/the-righteous-mind-by-jonathan-haidt/"
+          ]
+        },
+        "INS": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Group cooperation and social institutions are linked.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/73535/the-righteous-mind-by-jonathan-haidt/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "The Righteous Mind",
+    "eligibility": "Explanatory moral-psychology argument, not self-help training.",
+    "reason": "No serious veto established. The measurement critique limits universal foundation claims, but does not refute every intuition or group-cooperation argument.",
+    "reassessment": "Reread f027 and current deduction row, then publisher scope and Iurino/Saucier’s research abstract. Retain all ten attainments and no veto: cross-country measurement problems remain material but not a universal refutation. Retain T11=0, T12=-10, 2012 and no period. Refresh paperback scope to publisher 528 pages and use the archived 12,206 global ratings.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/73535/the-righteous-mind-by-jonathan-haidt/",
+      "analysis/analysis_pastefollow_261018_0130.md#f027",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0415",
+      "https://journals.sagepub.com/doi/10.1177/1073191118817916"
+    ],
+    "raw": [
+      13,
+      12.75,
+      11,
+      8.470588235294118,
+      7,
+      7,
+      3,
+      4,
+      3,
+      1
+    ],
+    "notes": [
+      "E13: cross-country measurement limits weaken universal category claims.",
+      "S12.75: intuition, group cooperation and political division connect.",
+      "U11: post hoc reasoning and attachment models transfer.",
+      "M8.4706: evolutionary origins and universal foundations are less well identified.",
+      "D7: readable synthesis repeats its categories.",
+      "R7: broad questions endure while empirical claims need revision.",
+      "F3: reasoning and political context fit indirectly.",
+      "A4: research expertise supports the inquiry without resolving measurement problems.",
+      "N3: the structure is clear and memorable.",
+      "P1: broad biological and political formulations lose precision."
+    ],
+    "year": 2012,
+    "yearNote": "Publisher original hardcover 2012; selected paperback 2013.",
+    "periodEnd": null,
+    "periodNote": "General moral-psychology argument with cross-period examples.",
+    "themeNote": "T11=0: American partisanship is only one application. T12=-10: moral philosophy and political division are central."
+  },
+  {
+    "index": 109,
+    "status": "excluded",
+    "confidence": "moderate",
+    "exclusion": "H2",
+    "eligibility": "The contents teach five decision questions, then apply them to charity selection, consumer choices, careers and cause priorities. The main structure trains the reader to apply an effective-altruism decision procedure.",
+    "reason": "H2 applies before any veto or score. This is not excluded merely for philosophy or charitable subject matter: the staged questions, worked applications and concluding instructions make practical method application the main purpose.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/316786/doing-good-better-by-william-macaskill/",
+      "https://content.www.wellcomecollection.org/works/mbzuxckt"
+    ]
+  }
+]

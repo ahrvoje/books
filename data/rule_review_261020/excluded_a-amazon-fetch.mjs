@@ -1,0 +1,7 @@
+import fs from 'node:fs';
+const path='data/rule_review_261020/excluded_a-amazon-attempts.json';
+const prior=fs.existsSync(path)?JSON.parse(fs.readFileSync(path,'utf8')):[];
+const rows=JSON.parse(fs.readFileSync('data/rule_review_261020/excluded_a-decisions.json','utf8')).filter(x=>x.status!=='excluded'&&x.amazon.count===null&&!x.amazon.attempts?.length&&!prior.some(p=>p.reviewId===x.reviewId));
+let cursor=0;
+await Promise.all(Array.from({length:4},async()=>{while(cursor<rows.length){const row=rows[cursor++];const url=row.purchaseUrl;const entry={reviewId:row.reviewId,title:row.title,author:row.author,url,retrievedAt:new Date().toISOString(),count:null,verified:false};try{const r=await fetch(url,{signal:AbortSignal.timeout(12000)});const body=await r.text();entry.status=r.status;entry.bytes=body.length;entry.pageTitle=body.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]?.trim()||null;entry.ratingCandidates=[...body.matchAll(/.{0,60}(?:global ratings|Kundenbewertungen|ratings|Bewertungen).{0,60}/gi)].slice(0,12).map(m=>m[0]);entry.result=r.ok?'No identity-verified product aggregate extracted; candidates retained for manual review.':'HTTP response did not supply an identity-verified product aggregate.';}catch(e){entry.error=e.message;entry.result='Retrieval failed; no rating count obtained.';}prior.push(entry);fs.writeFileSync(path,JSON.stringify(prior,null,2)+'\n');console.log(row.reviewId,entry.status||entry.error);}}));
+console.log(JSON.stringify({attempted:rows.length,total:prior.length}));

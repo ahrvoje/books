@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Intentional Engineer Book</title>
+    <meta name="description" content="">
+	<meta name="keywords" content="">
+    <meta name="robots" content="index, follow">
+    <link rel="shortcut icon" href="https://kartrausers.s3.amazonaws.com/mtengineering/31012164_65208fb57831e_kartrausers.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://d11n7da8rpqbjy.cloudfront.net/mtengineering/1157671359788The_IE_ebook_cover.jpg">
+
+    <!-- Font icons preconnect -->
+    <link rel="preconnect" href="//app.kartra.com" crossorigin>
+    <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="//fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="//d2uolguxr56s4e.cloudfront.net" crossorigin>
+     
+
+    <link rel="dns-prefetch" href="//app.kartra.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//d2uolguxr56s4e.cloudfront.net">
+     
+
+    <!--
+        Google fonts are computed and loaded on page build via save.js
+        Individual stylesheets required are listed in /css/new/css/pages/skeleton.css
+    -->
+
+    <!--<link href="//d2uolguxr56s4e.cloudfront.net/internal/pages/css/skeleton.min.css" rel="stylesheet">-->
+    <link type="text/css" rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,600,600i,700,700i,900,900i|Lato:300,300i,400,400i,600,600i,700,700i,900,900i|Raleway:300,300i,400,400i,600,600i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,900,900i|Nunito:300,300i,400,400i,600,600i,700,700i,900,900i|Oswald:300,300i,400,400i,600,600i,700,700i,900,900i|Bowlby+One:300,300i,400,400i,600,600i,700,700i,900,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><link rel="stylesheet" href="//d2uolguxr56s4e.cloudfront.net/internal/pages/css/new_bootstrap.css">
+
+    <link rel="preload" href="//d2uolguxr56s4e.cloudfront.net/internal/pages/css/kartra_components.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="//app.kartra.com/css/new/css/pages/font-awesome.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <noscript>
+        <link rel="stylesheet" href="//d2uolguxr56s4e.cloudfront.net/internal/pages/css/kartra_components.css">
+        <link rel="stylesheet" href="//app.kartra.com/css/new/css/pages/font-awesome.css">
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,600,600i,700,700i,900,900i|Lato:300,300i,400,400i,600,600i,700,700i,900,900i|Raleway:300,300i,400,400i,600,600i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,900,900i|Nunito:300,300i,400,400i,600,600i,700,700i,900,900i|Oswald:300,300i,400,400i,600,600i,700,700i,900,900i|Bowlby+One:300,300i,400,400i,600,600i,700,700i,900,900i&display=swap">
+</noscript>
+    
+    <script>
+        /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+        (function(w){"use strict";if(!w.loadCSS){w.loadCSS=function(){}}var rp=loadCSS.relpreload={};rp.support=function(){var ret;try{ret=w.document.createElement("link").relList.supports("preload")}catch(e){ret=false}return function(){return ret}}();rp.bindMediaToggle=function(link){var finalMedia=link.media||"all";function enableStylesheet(){link.media=finalMedia}if(link.addEventListener){link.addEventListener("load",enableStylesheet)}else if(link.attachEvent){link.attachEvent("onload",enableStylesheet)}setTimeout(function(){link.rel="stylesheet";link.media="only x"});setTimeout(enableStylesheet,3e3)};rp.poly=function(){if(rp.support()){return}var links=w.document.getElementsByTagName("link");for(var i=0;i<links.length;i++){var link=links[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"&&!link.getAttribute("data-loadcss")){link.setAttribute("data-loadcss",true);rp.bindMediaToggle(link)}}};if(!rp.support()){rp.poly();var run=w.setInterval(rp.poly,500);if(w.addEventListener){w.addEventListener("load",function(){rp.poly();w.clearInterval(run)})}else if(w.attachEvent){w.attachEvent("onload",function(){rp.poly();w.clearInterval(run)})}}if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}else{w.loadCSS=loadCSS}})(typeof global!=="undefined"?global:this);
+
+        window.global_id = 'u3odwODAxjXc';
+        window.secure_base_url = '//app.kartra.com/';
+    </script>
+    
+    <!--headerIncludes-->
+    <style>
+    .overlay_builder {
+        position: relative;
+    }
+
+    .kartra_optin_footer-poweredby > p {
+        font-size: 12px;
+        line-height: 130%;
+        font-weight: 300;
+        color: #333;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+	body.modal-open{
+		overflow:hidden;
+		overflow-x:;
+	}
+
+    
+	#page_background_color
+	{
+		background-color:#ffffff;
+	}
+	body
+	{
+		background-color:#ffffff;
+		
+	}
+	
+
+    [data-effect] {
+        visibility: hidden;
+    }
+    
+    </style>
+    <script>
+        var google_analytics = null;
+        window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+gtag('js', new Date());
+
+gtag('config', 'GTM-WDCFFZ6');
+    </script>
+    <script src="/js/build/front/pages/skeleton-above.js"></script>
+</head>
+<body>
+
+    <div style="height:0px;width:0px;opacity:0;position:fixed" class="js_kartra_trackable_object" data-kt-type="kartra_page_tracking" data-kt-value="u3odwODAxjXc" data-kt-owner="8g8bN3Xr">
+    </div>
+    <div id="page" class="page container-fluid">
+        <div id="page_background_color" class="row">
+<div class="content content--popup-overflow-visible" style="background-color: rgb(255, 255, 255); padding: 20px 0px;" id="_652098493b226">
+        <div class="overflow_background_wrapper">
+            <div class="background_changer background_changer--blur0" style="background-image: none; opacity: 1;" alt=""></div>
+            <div class="background_changer_overlay" style="background-image: none;"></div>
+        </div>
+        <nav class="navbar navbar-inverse navbar--only-sm-padding-top-extra-small navbar-light navbar--md-sm-center">
+            <div class="container nav-elem-wrapper">
+                <div class="navbar-header nav-elem-col">
+                    <div class="navbar-logo--md-center navbar-logo--only-sm-position-top navbar-logo--xs-flex-1">
+                        <div data-component="image" href="javascript: void(0);">
+                            <img class="kartra_image kartra_image--logo kartra_image--margin-bottom-none sm-logo-pull-center pull-center background_changer--blur0" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="" style="border-color: rgb(51, 122, 183); border-style: none; border-width: 0px; margin: 0px auto; opacity: 1;" data-original="https://d11n7da8rpqbjy.cloudfront.net/mtengineering/66200634697JP_Horizontal_no_background.png">
+                        </div>
+                    </div>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar_DlPYfE0JNT" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbar_DlPYfE0JNT" class="navbar-collapse nav-elem-col js_kartra_component_holder navbar-collapse--md-padding-none collapse" aria-expanded="false" style="height: 1.33333px;">
+                    <div class="navbar-collapse__inner navbar-collapse__inner--sm-padding-top-big-tiny navbar-collapse__inner--sm-padding-bottom-big-tiny navbar-collapse__inner--md-sm-vertical-center navbar-collapse__inner--only-md-justtify-content-space-between navbar-collapse__inner--only-sm-justtify-content-center js_kartra_component_holder">
+                        <div class="left-nav-item">
+                            <ul class="nav navbar-nav navbar-left navbar-nav--md-sm-padding-top-bottom-small">
+                                
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="right-nav-item right-nav-item--md-sm-flex right-nav-item--md-sm-vertical-center">
+                            <ul class="nav navbar-nav navbar-right navbar-right--margin-right-none navbar-nav--md-sm-padding-top-bottom-small">
+                                
+                                
+                            </ul>
+                            <div class="inline_elements_wrapper pull-right xs-pull-center inline_elements_wrapper--last-child-margin-bottom-none inline_elements_wrapper--md-sm-margin-left-small">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+    </div>
+<div class="content content--sm-padding-bottom-medium" style="padding: 0px 0px 50px; background-color: rgb(255, 255, 255);" id="_z4buhwdz8">
+<style id="pagesInternalCSS">
+	.kartra_list--ty-social-icon .kartra_list__item{
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.kartra_list--ty-social-icon .kartra_icon{
+	    top: 4px;
+	    border: 0px !important;
+	    box-shadow: 0px 3px 15px rgba(0,0,0,.1);
+	}
+	.kartra_list--ty-social-icon .kartra_icon--medium {
+	    width: 40px;
+	    height: 40px;
+	    font-size: 20px;
+	}	
+</style>
+
+<div class="background_changer background_changer--blur0" style="opacity: 1; background-image: none;"></div>
+<div class="background_changer_overlay" style="background-image: none;"></div>
+<div>
+<div class="row row--margin-left-right-none row--equal background_changer--blur0" data-component="grid" id="accordion-I7lpGUbhYp" style="background-color: rgba(0, 0, 0, 0);border-radius: 0px;border-width: 0px;border-style: none;background-image: none;background-size: cover;opacity: 1;"><div class="col-md-12" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-width: 0px; border-style: none; padding: 50px 15px 130px; background-image: none; margin: 0px;">
+<div style="border-radius: 0px; border-width: 0px; border-style: none; border-color: rgb(51, 51, 51); padding: 50px 15px 0px;  opacity: 1; background-color: rgb(43, 148, 255);" class="background-item background_changer--blur0 js-bg-next-gen" data-bg='url("//d11n7da8rpqbjy.cloudfront.net/Kartra/8203609_1582901423899shape2.jpg")'></div>  
+<div>
+<div class="container"><div class="row" data-component="grid" id="accordion-I7lpGUbhYp"><div class="col-md-10 col-md-offset-1"><div class="js_kartra_component_holder">
+
+<div data-component="headline" id="accordion-jFHhmAyHdZ">
+<div class="kartra_headline kartra_headline--raleway-font kartra_headline--size-giant kartra_headline--text-center kartra_headline--white cke_editable cke_show_borders" style="position: relative; margin-top: 0px; margin-bottom: 15px;" tabindex="0" spellcheck="false" role="textbox" aria-multiline="true" aria-label="false" aria-describedby="cke_49" aria-controls="cke_81" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false" data-wsc-instance="true"><p style="line-height: 1.2em;"><strong><span style="font-family: Lato; line-height: 1.2em;">Upgrade Your Life and Career With Intention</span></strong></p></div>
+</div>
+<div data-component="text" id="accordion-l1AUiStpkC">
+<div class="kartra_text kartra_text--extra-small kartra_text--white kartra_text--text-center" style="margin: 0px 0px 20px; position: relative;" aria-controls="cke_1967" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p style="font-size: 1.2rem;"><span style="font-size: 1.2rem; font-family: Lato;">"If there was ever the perfect time for <em><span style="font-size: 1.2rem; font-family: Lato;"><span style="font-size: 1.2rem; font-family: Lato;">The Intentional Engineer</span></span></em> to be published, it is now!"</span></p>
+
+<p style="font-size: 1.2rem;"><span style="font-size: 1.2rem; font-family: Lato;">— John A. White, Jr.</span></p>
+</div>
+</div>
+</div></div></div></div>
+</div>
+</div></div>
+<div>
+<div class="container"><div class="row row--margin-left-right-none row--equal background_changer--blur0" data-component="grid" id="accordion-I7lpGUbhYp" style="background-color: rgba(0, 0, 0, 0);border-radius: 0px;border-style: none;border-width: 0px;margin: -100px 0px 0px;background-image: none;opacity: 1;box-shadow: 0px 5px 30px rgba(0,0,0,0.2);">
+<div class="col-md-6 column--vertical-center background_changer--blur0" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; padding: 50px 40px 30px; background-image: none; opacity: 1; margin-top: 0px; margin-bottom: 0px;">
+<div class="background-item background_changer--blur0" style="background-color: rgb(251, 251, 251); border-radius: 0px; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; background-image: none; opacity: 1;"></div>
+<div class="js_kartra_component_holder">
+<div data-component="headline" id="O39ZyHklZs">
+<div class="kartra_headline kartra_headline--raleway-font kartra_headline--h1 kartra_headline--dark-slate-grey" style="position: relative; margin-top: 0px; margin-bottom: 20px;" aria-controls="cke_431" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p style="line-height: 1.2em;"><b>The book all engineers and tech professionals need right now</b></p>
+</div>
+</div>
+<div data-component="text" id="EyaEjqvCrH">
+<div class="kartra_text kartra_text--extra-small kartra_text--dim-grey" style="margin: 0px 0px 40px; position: relative;" aria-controls="cke_79" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p><span>Want to create more meaning, growth, impact, and joy in your engineering or technical career? Want to get more clarity on the next steps in your career path? Wish you could better align your career and life...while getting paid more and utilizing your greatest strengths?</span></p>
+</div>
+</div>
+<div data-component="list">
+    <ul class="kartra_list">
+        <li class="kartra_list__item kartra_list__item--table" href="javascript: void(0);">
+            <div class="kartra_icon kartra_icon--light-blue-green kartra_icon--negative-margin-left-tiny-important kartra_icon--medium" style="background-color: rgba(0, 0, 0, 0);margin: -10px auto;">
+                <span style="color: rgb(43, 148, 255);" class="kartra_icon__icon fa fa-check"></span>
+            </div>
+            <div class="kartra_item_info kartra_item_info--padding-left-tiny">
+                <div class="kartra_item_info__headline kartra_item_info__headline--raleway-font kartra_item_info__headline--h5 kartra_item_info__headline--font-weight-regular kartra_item_info__headline--dark-slate-grey" style="margin-top: 0px; margin-bottom: 10px; position: relative;" aria-controls="cke_6186" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p><strong>Transformational Principles</strong></p>
+</div>
+                <div class="kartra_item_info__text kartra_item_info__text--light-grey kartra_item_info__text--size-extra-medium kartra_item_info__text--margin-bottom-extra-small" style="position: relative; margin-top: 0px; margin-bottom: 30px;" aria-controls="cke_7040" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p>Learn the principles of life and work success that will transform how you do everything!</p>
+</div>
+            </div>
+        </li>
+<li class="kartra_list__item kartra_list__item--table" href="javascript: void(0);">
+            <div class="kartra_icon kartra_icon--light-blue-green kartra_icon--medium" style="background-color: rgba(0, 0, 0, 0);margin: -10px auto;">
+                <span style="color: rgb(43, 148, 255);" class="kartra_icon__icon fa fa-check"></span>
+            </div>
+            <div class="kartra_item_info kartra_item_info--padding-left-tiny">
+                <div class="kartra_item_info__headline kartra_item_info__headline--raleway-font kartra_item_info__headline--h5 kartra_item_info__headline--font-weight-regular kartra_item_info__headline--dark-slate-grey" style="margin-top: 0px; margin-bottom: 10px; position: relative;" aria-controls="cke_6637" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p><strong>Action Oriented</strong></p>
+</div>
+                <div class="kartra_item_info__text kartra_item_info__text--light-grey kartra_item_info__text--size-extra-medium kartra_item_info__text--margin-bottom-extra-small" style="position: relative; margin-top: 0px; margin-bottom: 30px;" aria-controls="cke_7697" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p>Don't just learn the ideas, put them into action! Filled with actionable ideas and activities to get you making progress right away!</p>
+</div>
+            </div>
+        </li>
+        
+                                            
+    </ul>
+</div>
+<div data-component="button" id="z63EUAFMsL"><a href="https://amzn.to/498ABvK" class="kartra_button1 kartra_button1--shadow-01 kartra_button1--default kartra_button1--solid kartra_button1--full-width kartra_button1--rounded kartra_button1--shadow-medium pull-center toggle_pagelink" style="background-color: rgb(43, 148, 255); color: rgb(255, 255, 255); margin: 10px auto 20px; font-weight: 700; font-family: Raleway;" data-frame-id="_z4buhwdz8" target="_blank">Get Print or Digital Version</a></div>
+<div data-component="button" id="z63EUAFMsL"><a href="https://www.audible.com/pd/B0CXR1L4ZD/?source_code=AUDFPWS0223189MWT-BK-ACX0-390022&amp;ref=acx_bty_BK_ACX0_390022_rh_us" class="kartra_button1 kartra_button1--shadow-01 kartra_button1--default kartra_button1--solid kartra_button1--full-width kartra_button1--rounded kartra_button1--shadow-medium pull-center toggle_pagelink" style="background-color: rgb(43, 148, 255); color: rgb(255, 255, 255); margin: 10px auto 20px; font-weight: 700; font-family: Raleway;" data-frame-id="_z4buhwdz8" target="_blank">Get Audiobook</a></div>
+</div>
+</div>
+<div class="col-md-6 background_changer--blur0" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; padding: 50px 40px 40px 30px; background-image: none; opacity: 1; margin-top: 0px; margin-bottom: 0px;">
+<div class="background-item background_changer--blur0" style="background-color: rgb(235, 240, 243); border-radius: 0px; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; background-image: none; opacity: 1;"></div>
+<div class="js_kartra_component_holder">
+<div data-component="headline" id="C74rTUWDme">
+<div class="kartra_headline kartra_headline--raleway-font kartra_headline--text-center kartra_headline--h1 kartra_headline--dark-slate-grey" style="position: relative; margin-top: 0px; margin-bottom: 15px;" aria-controls="cke_3094" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p style="line-height: 1.2em;"><strong>The Intentional Engineer</strong></p>
+</div>
+</div>
+<div data-component="text" id="rmiCFSlggw">
+<div class="kartra_text kartra_text--extra-small kartra_text--text-center kartra_text--dim-grey" style="margin: 0px; position: relative;" aria-controls="cke_611" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false"></div>
+</div>
+<div data-component="image" href="javascript: void(0);">
+                            <img class="kartra_image kartra_image--max-width-full pull-center background_changer--blur0" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" style="border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; margin: 0px auto; opacity: 1; width: 452px; max-width: 100%; height: auto;" alt="" data-original="https://d11n7da8rpqbjy.cloudfront.net/mtengineering/1157671359788The_IE_ebook_cover.jpg">
+                        </div>
+</div>
+</div>
+</div></div>
+</div>
+    </div>
+</div>
+<div class="content" style="padding: 40px 0px 20px; background-color: rgb(255, 255, 255);" id="_mewno7hqu">
+                <style id="pagesInternalCSS">
+	.kartra_list--ty-social-icon .kartra_list__item{
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.kartra_list--ty-social-icon .kartra_icon{
+	    top: 4px;
+	    border: 0px !important;
+	    box-shadow: 0px 3px 15px rgba(0,0,0,.1);
+	}
+	.kartra_list--ty-social-icon .kartra_icon--medium {
+	    width: 40px;
+	    height: 40px;
+	    font-size: 20px;
+	}	
+</style>
+<div class="background_changer background_changer--blur0" style="background-image: none; opacity: 0.2;"></div>
+                <div class="background_changer_overlay" style="background-image: none;"></div>
+                <div class="container">
+<div class="row" data-component="grid" id="dTNdlH7N6V"><div class="col-md-10 col-md-offset-1"><div class="js_kartra_component_holder">
+<div data-component="headline" id="LvnSEidgBn">
+<div class="kartra_headline kartra_headline--raleway-font kartra_headline--text-center kartra_headline--size-extra-large kartra_headline--dark-slate-grey" style="position: relative; margin-top: 0px; margin-bottom: 20px;" aria-controls="cke_509" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p style="line-height: 1.2em;"><b><span style="line-height: 1.2em;">What You <span style="color: rgb(43, 148, 255); line-height: 1.2em;">Will Learn</span></span></b></p>
+</div>
+</div>
+<div data-component="text" id="Euy3QA7dQB">
+                                <div class="kartra_text kartra_text--extra-small kartra_text--text-center kartra_text--dim-grey kartra_text--line-height-large kartra_text--margin-bottom-extra-medium" style="position: relative; margin-top: 0px; margin-bottom: 50px;" aria-controls="cke_7234" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p style="font-size: 0.8rem;"><span style="font-size:0.80rem;"><em><span style="font-size: 0.8rem;">The Intentional Engineer</span></em> is full of gems. Here are just a few highlights:</span></p>
+</div>
+                            </div>
+</div></div></div>
+<div class="row" data-component="grid">
+<div class="col-md-6"><div class="js_kartra_component_holder"><div class="kartra_element_bg kartra_element_bg--padding-small kartra_element_bg--padding-bottom-tiny kartra_element_bg--margin-bottom-extra-small" data-component="bundle" id="YDSrt172EW_shuY5kUm3W_BverxS9pwh" style="margin-top: 0px; margin-bottom: 40px; padding: 30px 30px 10px;">
+                            <div style="background-color: rgb(255, 255, 255); border-radius: 6px; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; background-image: none; opacity: 1; box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 40px;" class="background-item background_changer--blur0"></div>
+                            <div class="row row--equal" data-component="grid">
+                                <div class="col-md-5 column--vertical-center background_changer--blur0" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; padding: 0px 15px; background-image: none; opacity: 1;">
+                                    <div class="js_kartra_component_holder"><div data-component="image" href="javascript: void(0);"><img class="kartra_image kartra_image--max-width-full sm-pull-center pull-left background_changer--blur0" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" onerror="this.onerror=null;this.src='https://d2uolguxr56s4e.cloudfront.net/img/kartrapages/placeholder.jpg';" style="border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; margin: 0px 0px 20px; opacity: 1;" alt="" data-original="https://d11n7da8rpqbjy.cloudfront.net/mtengineering/77638673460a_football_field_with_the_words_start_written_on_it.jpg"></div></div>
+                                </div>
+                                <div class="col-md-7 column--vertical-center background_changer--blur0" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; padding: 0px 15px; background-image: none; opacity: 1;">
+                                    <div class="js_kartra_component_holder">
+<div data-component="headline" id="nkYxZjE3jM">
+<div class="kartra_headline kartra_headline--sm-text-center kartra_headline--raleway-font kartra_headline--h5 kartra_headline--dark-slate-grey" style="position: relative; margin-top: 0px; margin-bottom: 10px;" aria-controls="cke_3306" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p style="line-height: 1.2em;"><strong><span style="line-height: 1.2em;"><span style="line-height: 1.2em;">Chapter <span style="line-height: 1.2em;">One:</span><span style="color: rgb(43, 148, 255); line-height: 1.2em;"> Start Where You Are</span></span></span></strong></p>
+</div>
+</div>
+<div data-component="text" id="BxcP4cXEXQ">
+                                <div class="kartra_text kartra_text--sm-text-center kartra_text--extra-small kartra_text--dim-grey kartra_text--line-height-large kartra_text--margin-bottom-extra-medium" style="position: relative; margin-top: 0px; margin-bottom: 20px;" aria-controls="cke_512" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p>No matter the current situation of your life and career, get started on your own path of creating a life of intention.</p>
+</div>
+                            </div>
+</div>
+                                </div>
+                            </div>
+                        </div></div></div>
+<div class="col-md-6"><div class="js_kartra_component_holder"><div class="kartra_element_bg kartra_element_bg--padding-small kartra_element_bg--padding-bottom-tiny kartra_element_bg--margin-bottom-extra-small" data-component="bundle" id="fCsenbsFZm_mEvoTL9TT4" style="margin-top: 0px; margin-bottom: 40px; padding: 30px 30px 10px;">
+                            <div style="background-color: rgb(255, 255, 255); border-radius: 6px; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; background-image: none; opacity: 1; box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 40px;" class="background-item background_changer--blur0"></div>
+                            <div class="row row--equal" data-component="grid">
+                                <div class="col-md-5 column--vertical-center background_changer--blur0" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; padding: 0px 15px; background-image: none; opacity: 1;">
+                                    <div class="js_kartra_component_holder"><div data-component="image" href="javascript: void(0);"><img class="kartra_image kartra_image--max-width-full sm-pull-center pull-left background_changer--blur0" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" onerror="this.onerror=null;this.src='https://d2uolguxr56s4e.cloudfront.net/img/kartrapages/placeholder.jpg';" style="border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; margin: 0px 0px 20px; opacity: 1;" alt="" data-original="https://d11n7da8rpqbjy.cloudfront.net/mtengineering/566282461235person_holding_black_pencil_on_white_printer_paper.jpg"></div></div>
+                                </div>
+                                <div class="col-md-7 column--vertical-center background_changer--blur0" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; padding: 0px 15px; background-image: none; opacity: 1;">
+                                    <div class="js_kartra_component_holder">
+<div data-component="headline" id="nkYxZjE3jM">
+<div class="kartra_headline kartra_headline--sm-text-center kartra_headline--raleway-font kartra_headline--h5 kartra_headline--dark-slate-grey" style="position: relative; margin-top: 0px; margin-bottom: 10px;" aria-controls="cke_3736" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p style="line-height: 1.2em;"><strong><span style="line-height: 1.2em;"><span style="line-height: 1.2em;">Chapter <span style="line-height: 1.2em;">Two:</span><span style="color: rgb(43, 148, 255); line-height: 1.2em;"> Design With Intention</span></span></span></strong></p>
+</div>
+</div>
+<div data-component="text" id="BxcP4cXEXQ">
+                                <div class="kartra_text kartra_text--sm-text-center kartra_text--extra-small kartra_text--dim-grey kartra_text--line-height-large kartra_text--margin-bottom-extra-medium" style="position: relative; margin-top: 0px; margin-bottom: 20px;" aria-controls="cke_1037" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p>Identify your core values, prototype your way forward, and improve your decision making.</p>
+</div>
+                            </div>
+</div>
+                                </div>
+                            </div>
+                        </div></div></div>
+</div>
+<div class="row" data-component="grid">
+<div class="col-md-6"><div class="js_kartra_component_holder"><div class="kartra_element_bg kartra_element_bg--padding-small kartra_element_bg--padding-bottom-tiny kartra_element_bg--margin-bottom-extra-small" data-component="bundle" id="YDSrt172EW_shuY5kUm3W_BverxS9pwh" style="margin-top: 0px; margin-bottom: 40px; padding: 30px 30px 10px;">
+                            <div style="background-color: rgb(255, 255, 255); border-radius: 6px; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; background-image: none; opacity: 1; box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 40px;" class="background-item background_changer--blur0"></div>
+                            <div class="row row--equal" data-component="grid">
+                                <div class="col-md-5 column--vertical-center background_changer--blur0" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; padding: 0px 15px; background-image: none; opacity: 1;">
+                                    <div class="js_kartra_component_holder"><div data-component="image" href="javascript: void(0);"><img class="kartra_image kartra_image--max-width-full sm-pull-center pull-left background_changer--blur0" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" onerror="this.onerror=null;this.src='https://d2uolguxr56s4e.cloudfront.net/img/kartrapages/placeholder.jpg';" style="border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; margin: 0px 0px 20px; opacity: 1;" alt="" data-original="https://d11n7da8rpqbjy.cloudfront.net/mtengineering/731787320726brown_brain_decor_in_selective-focus_photography.jpg"></div></div>
+                                </div>
+                                <div class="col-md-7 column--vertical-center background_changer--blur0" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; padding: 0px 15px; background-image: none; opacity: 1;">
+                                    <div class="js_kartra_component_holder">
+<div data-component="headline" id="nkYxZjE3jM">
+<div class="kartra_headline kartra_headline--sm-text-center kartra_headline--raleway-font kartra_headline--h5 kartra_headline--dark-slate-grey" style="position: relative; margin-top: 0px; margin-bottom: 10px;" aria-controls="cke_4127" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p style="line-height: 1.2em;"><strong><span style="line-height: 1.2em;"><span style="line-height: 1.2em;">Chapter <span style="line-height: 1.2em;">Three:</span><span style="color: rgb(43, 148, 255); line-height: 1.2em;"> The Power of Mindsets</span></span></span></strong></p>
+</div>
+</div>
+<div data-component="text" id="BxcP4cXEXQ">
+                                <div class="kartra_text kartra_text--sm-text-center kartra_text--extra-small kartra_text--dim-grey kartra_text--line-height-large kartra_text--margin-bottom-extra-medium" style="position: relative; margin-top: 0px; margin-bottom: 20px;" aria-controls="cke_1951" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p>Discover how mindsets impact everything you do, and some of the key mindsets you'll want to change to live up to your potential.</p>
+</div>
+                            </div>
+</div>
+                                </div>
+                            </div>
+                        </div></div></div>
+<div class="col-md-6"><div class="js_kartra_component_holder"><div class="kartra_element_bg kartra_element_bg--padding-small kartra_element_bg--padding-bottom-tiny kartra_element_bg--margin-bottom-extra-small" data-component="bundle" id="fCsenbsFZm_mEvoTL9TT4" style="margin-top: 0px; margin-bottom: 40px; padding: 30px 30px 10px;">
+                            <div style="background-color: rgb(255, 255, 255); border-radius: 6px; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; background-image: none; opacity: 1; box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 40px;" class="background-item background_changer--blur0"></div>
+                            <div class="row row--equal" data-component="grid">
+                                <div class="col-md-5 column--vertical-center background_changer--blur0" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; padding: 0px 15px; background-image: none; opacity: 1;">
+                                    <div class="js_kartra_component_holder"><div data-component="image" href="javascript: void(0);"><img class="kartra_image kartra_image--max-width-full sm-pull-center pull-left background_changer--blur0" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" onerror="this.onerror=null;this.src='https://d2uolguxr56s4e.cloudfront.net/img/kartrapages/placeholder.jpg';" style="border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; margin: 0px 0px 20px; opacity: 1;" alt="" data-original="https://d11n7da8rpqbjy.cloudfront.net/mtengineering/556601964498focus_photography_of_car_shift_gear.jpg"></div></div>
+                                </div>
+                                <div class="col-md-7 column--vertical-center background_changer--blur0" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; padding: 0px 15px; background-image: none; opacity: 1;">
+                                    <div class="js_kartra_component_holder">
+<div data-component="headline" id="nkYxZjE3jM">
+<div class="kartra_headline kartra_headline--sm-text-center kartra_headline--raleway-font kartra_headline--h5 kartra_headline--dark-slate-grey" style="position: relative; margin-top: 0px; margin-bottom: 10px;" aria-controls="cke_4900" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p style="line-height: 1.2em;"><strong><span style="line-height: 1.2em;">Chapter <span style="line-height: 1.2em;">Four:</span><span style="color: rgb(43, 148, 255); line-height: 1.2em;"> Shift Your Mindset</span></span></strong></p>
+</div>
+</div>
+<div data-component="text" id="BxcP4cXEXQ">
+                                <div class="kartra_text kartra_text--sm-text-center kartra_text--extra-small kartra_text--dim-grey kartra_text--line-height-large kartra_text--margin-bottom-extra-medium" style="position: relative; margin-top: 0px; margin-bottom: 20px;" aria-controls="cke_2626" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p>Go through the step-by-step process to upgrade your mindset in order to make meaningful changes in your life and career.</p>
+</div>
+                            </div>
+</div>
+                                </div>
+                            </div>
+                        </div></div></div>
+</div>
+</div>
+            </div>
+<div class="content" style="padding: 40px 0px 20px; background-color: rgb(255, 255, 255);" id="_eir7dedu8">
+                <style id="pagesInternalCSS">
+	.kartra_list--ty-social-icon .kartra_list__item{
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.kartra_list--ty-social-icon .kartra_icon{
+	    top: 4px;
+	    border: 0px !important;
+	    box-shadow: 0px 3px 15px rgba(0,0,0,.1);
+	}
+	.kartra_list--ty-social-icon .kartra_icon--medium {
+	    width: 40px;
+	    height: 40px;
+	    font-size: 20px;
+	}	
+</style>
+<div class="background_changer background_changer--blur0" style="background-image: none; opacity: 0.2;"></div>
+                <div class="background_changer_overlay" style="background-image: none;"></div>
+                <div class="container">
+<div class="row" data-component="grid" id="dTNdlH7N6V"></div>
+<div class="row" data-component="grid">
+<div class="col-md-6"><div class="js_kartra_component_holder"><div class="kartra_element_bg kartra_element_bg--padding-small kartra_element_bg--padding-bottom-tiny kartra_element_bg--margin-bottom-extra-small" data-component="bundle" id="1jrtGKmh2G" style="margin-top: 0px; margin-bottom: 40px; padding: 30px 30px 10px;">
+                            <div style="background-color: rgb(255, 255, 255); border-radius: 6px; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; background-image: none; opacity: 1; box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 40px;" class="background-item background_changer--blur0"></div>
+                            <div class="row row--equal" data-component="grid">
+                                <div class="col-md-5 column--vertical-center background_changer--blur0" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; padding: 0px 15px; background-image: none; opacity: 1;">
+                                    <div class="js_kartra_component_holder"><div data-component="image" href="javascript: void(0);"><img class="kartra_image kartra_image--max-width-full sm-pull-center pull-left background_changer--blur0" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" onerror="this.onerror=null;this.src='https://d2uolguxr56s4e.cloudfront.net/img/kartrapages/placeholder.jpg';" style="border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; margin: 0px 0px 20px; opacity: 1; width: 122px; max-width: 100%; height: auto;" alt="" data-original="https://d11n7da8rpqbjy.cloudfront.net/mtengineering/220743696453trees_and_plants.jpg"></div></div>
+                                </div>
+                                <div class="col-md-7 column--vertical-center background_changer--blur0" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; padding: 0px 15px; background-image: none; opacity: 1;">
+                                    <div class="js_kartra_component_holder">
+<div data-component="headline" id="nkYxZjE3jM">
+<div class="kartra_headline kartra_headline--sm-text-center kartra_headline--raleway-font kartra_headline--h5 kartra_headline--dark-slate-grey" style="position: relative; margin-top: 0px; margin-bottom: 10px;" aria-controls="cke_78" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p style="line-height: 1.2em;"><strong><span style="line-height: 1.2em;"><span style="line-height: 1.2em;">Chapter <span style="line-height: 1.2em;">Five:</span><span style="color: rgb(43, 148, 255); line-height: 1.2em;"> Get Career Clarity</span></span></span></strong></p>
+</div>
+</div>
+<div data-component="text" id="BxcP4cXEXQ">
+                                <div class="kartra_text kartra_text--sm-text-center kartra_text--extra-small kartra_text--dim-grey kartra_text--line-height-large kartra_text--margin-bottom-extra-medium" style="position: relative; margin-top: 0px; margin-bottom: 20px;" aria-controls="cke_81" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p>Discover what you truly care about so that you can focus and accelerate your progress. Get help and insights from others along the way!</p>
+</div>
+                            </div>
+</div>
+                                </div>
+                            </div>
+                        </div></div></div>
+<div class="col-md-6"><div class="js_kartra_component_holder"><div class="kartra_element_bg kartra_element_bg--padding-small kartra_element_bg--padding-bottom-tiny kartra_element_bg--margin-bottom-extra-small" data-component="bundle" id="fCsenbsFZm_mEvoTL9TT4_TdAGkDUrSd" style="margin-top: 0px; margin-bottom: 40px; padding: 30px 30px 10px;">
+                            <div style="background-color: rgb(255, 255, 255); border-radius: 6px; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; background-image: none; opacity: 1; box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 40px;" class="background-item background_changer--blur0"></div>
+                            <div class="row row--equal" data-component="grid">
+                                <div class="col-md-5 column--vertical-center background_changer--blur0" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; padding: 0px 15px; background-image: none; opacity: 1;">
+                                    <div class="js_kartra_component_holder"><div data-component="image" href="javascript: void(0);"><img class="kartra_image kartra_image--max-width-full sm-pull-center pull-center background_changer--blur0" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" onerror="this.onerror=null;this.src='https://d2uolguxr56s4e.cloudfront.net/img/kartrapages/placeholder.jpg';" style="border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; margin: 0px auto 20px; opacity: 1;" alt="" data-original="https://d11n7da8rpqbjy.cloudfront.net/mtengineering/1111038601990a_close_up_of_a_street_sign_on_the_ground.jpg"></div></div>
+                                </div>
+                                <div class="col-md-7 column--vertical-center background_changer--blur0" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; padding: 0px 15px; background-image: none; opacity: 1;">
+                                    <div class="js_kartra_component_holder">
+<div data-component="headline" id="nkYxZjE3jM">
+<div class="kartra_headline kartra_headline--sm-text-center kartra_headline--raleway-font kartra_headline--h5 kartra_headline--dark-slate-grey" style="position: relative; margin-top: 0px; margin-bottom: 10px;" aria-controls="cke_536" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p style="line-height: 1.2em;"><strong><span style="line-height: 1.2em;"><span style="line-height: 1.2em;">Chapter <span style="line-height: 1.2em;">Six:</span><span style="color: rgb(43, 148, 255); line-height: 1.2em;"> Discover Your Genius Zones</span></span></span></strong></p>
+</div>
+</div>
+<div data-component="text" id="BxcP4cXEXQ">
+                                <div class="kartra_text kartra_text--sm-text-center kartra_text--extra-small kartra_text--dim-grey kartra_text--line-height-large kartra_text--margin-bottom-extra-medium" style="position: relative; margin-top: 0px; margin-bottom: 20px;" aria-controls="cke_888" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p>Your genius zones are a key to your satisfaction and success. Get in flow, identify your genius zones, and learn how to leverage them in a big way!</p>
+</div>
+                            </div>
+</div>
+                                </div>
+                            </div>
+                        </div></div></div>
+</div>
+<div class="row" data-component="grid">
+<div class="col-md-6"><div class="js_kartra_component_holder"><div class="kartra_element_bg kartra_element_bg--padding-small kartra_element_bg--padding-bottom-tiny kartra_element_bg--margin-bottom-extra-small" data-component="bundle" id="YDSrt172EW_shuY5kUm3W_BverxS9pwh_rJMCZdZRKf" style="margin-top: 0px; margin-bottom: 40px; padding: 30px 30px 10px;">
+                            <div style="background-color: rgb(255, 255, 255); border-radius: 6px; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; background-image: none; opacity: 1; box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 40px;" class="background-item background_changer--blur0"></div>
+                            <div class="row row--equal" data-component="grid">
+                                <div class="col-md-5 column--vertical-center background_changer--blur0" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; padding: 0px 15px; background-image: none; opacity: 1;">
+                                    <div class="js_kartra_component_holder"><div data-component="image" href="javascript: void(0);"><img class="kartra_image kartra_image--max-width-full sm-pull-center pull-left background_changer--blur0" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" onerror="this.onerror=null;this.src='https://d2uolguxr56s4e.cloudfront.net/img/kartrapages/placeholder.jpg';" style="border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; margin: 0px 0px 20px; opacity: 1;" alt="" data-original="https://d11n7da8rpqbjy.cloudfront.net/mtengineering/816517680335a_tiled_wall_with_the_words_yots_aloy_on_it.jpg"></div></div>
+                                </div>
+                                <div class="col-md-7 column--vertical-center background_changer--blur0" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; padding: 0px 15px; background-image: none; opacity: 1;">
+                                    <div class="js_kartra_component_holder">
+<div data-component="headline" id="nkYxZjE3jM">
+<div class="kartra_headline kartra_headline--sm-text-center kartra_headline--raleway-font kartra_headline--h5 kartra_headline--dark-slate-grey" style="position: relative; margin-top: 0px; margin-bottom: 10px;" aria-controls="cke_1395" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p style="line-height: 1.2em;"><strong><span style="line-height: 1.2em;"><span style="line-height: 1.2em;">Chapter <span style="line-height: 1.2em;">Seven:</span><span style="color: rgb(43, 148, 255); line-height: 1.2em;"> Control Your Narrative by Growing Your Personal Brand</span></span></span></strong></p>
+</div>
+</div>
+<div data-component="text" id="BxcP4cXEXQ">
+                                <div class="kartra_text kartra_text--sm-text-center kartra_text--extra-small kartra_text--dim-grey kartra_text--line-height-large kartra_text--margin-bottom-extra-medium" style="position: relative; margin-top: 0px; margin-bottom: 20px;" aria-controls="cke_1602" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p>You have a personal brand whether you create it or not. Utilize yours in all of your critical interactions!</p>
+</div>
+                            </div>
+</div>
+                                </div>
+                            </div>
+                        </div></div></div>
+<div class="col-md-6"><div class="js_kartra_component_holder"><div class="kartra_element_bg kartra_element_bg--padding-small kartra_element_bg--padding-bottom-tiny kartra_element_bg--margin-bottom-extra-small" data-component="bundle" id="fCsenbsFZm_mEvoTL9TT4_eumY0GlYHQ" style="margin-top: 0px; margin-bottom: 40px; padding: 30px 30px 10px;">
+                            <div style="background-color: rgb(255, 255, 255); border-radius: 6px; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; background-image: none; opacity: 1; box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 40px;" class="background-item background_changer--blur0"></div>
+                            <div class="row row--equal" data-component="grid">
+                                <div class="col-md-5 column--vertical-center background_changer--blur0" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; padding: 0px 15px; background-image: none; opacity: 1;">
+                                    <div class="js_kartra_component_holder"><div data-component="image" href="javascript: void(0);"><img class="kartra_image kartra_image--max-width-full sm-pull-center pull-left background_changer--blur0" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" onerror="this.onerror=null;this.src='https://d2uolguxr56s4e.cloudfront.net/img/kartrapages/placeholder.jpg';" style="border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; margin: 0px 0px 20px; opacity: 1;" alt="" data-original="https://d11n7da8rpqbjy.cloudfront.net/mtengineering/485648476551brown_tree.jpg"></div></div>
+                                </div>
+                                <div class="col-md-7 column--vertical-center background_changer--blur0" style="background-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: none; border-width: 0px; padding: 0px 15px; background-image: none; opacity: 1;">
+                                    <div class="js_kartra_component_holder">
+<div data-component="headline" id="nkYxZjE3jM">
+<div class="kartra_headline kartra_headline--sm-text-center kartra_headline--raleway-font kartra_headline--h5 kartra_headline--dark-slate-grey" style="position: relative; margin-top: 0px; margin-bottom: 10px;" aria-controls="cke_1953" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p style="line-height: 1.2em;"><strong><span style="line-height: 1.2em;">Chapter <span style="line-height: 1.2em;">Eight:</span><span style="color: rgb(43, 148, 255); line-height: 1.2em;"> Skills that Support Your Intentions</span></span></strong></p>
+</div>
+</div>
+<div data-component="text" id="BxcP4cXEXQ">
+                                <div class="kartra_text kartra_text--sm-text-center kartra_text--extra-small kartra_text--dim-grey kartra_text--line-height-large kartra_text--margin-bottom-extra-medium" style="position: relative; margin-top: 0px; margin-bottom: 20px;" aria-controls="cke_2395" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p>Learn the transformative power of communication, accountability, feedback, and relationships to support your intentional life.</p>
+</div>
+                            </div>
+</div>
+                                </div>
+                            </div>
+                        </div></div></div>
+</div>
+</div>
+            </div>
+<div class="content content--padding-large" style="background-color: rgb(255, 255, 255); padding: 30px 0px;" id="_ix2evqhdm">
+        <style id="pagesInternalCSS">
+	.kartra_list--ty-social-icon .kartra_list__item{
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.kartra_list--ty-social-icon .kartra_icon{
+	    top: 4px;
+	    border: 0px !important;
+	    box-shadow: 0px 3px 15px rgba(0,0,0,.1);
+	}
+	.kartra_list--ty-social-icon .kartra_icon--medium {
+	    width: 40px;
+	    height: 40px;
+	    font-size: 20px;
+	}	
+</style>
+<div class="background_changer background_changer--blur0" style="background-image: none; opacity: 1;"></div>
+        <div class="background_changer_overlay" style="background-image: none;"></div>
+        <div class="container">
+            <div class="row" data-component="grid"><div class="col-md-10 col-md-offset-1"><div class="js_kartra_component_holder">
+<div data-component="button" id="G2Lu2HaImw"><a href="https://amzn.to/498ABvK" class="kartra_button1 kartra_button1--shadow-01 kartra_button1--default kartra_button1--solid kartra_button1--full-width kartra_button1--rounded kartra_button1--shadow-medium pull-center toggle_pagelink" style="background-color: rgb(43, 148, 255); color: rgb(255, 255, 255); margin: -10px auto 65px; font-weight: 700; font-family: Raleway;" data-frame-id="_ix2evqhdm" target="_blank">Get Print/Digital Version</a></div>
+<div data-component="button" id="29uQ1pG3F1"><a href="https://www.audible.com/pd/B0CXR1L4ZD/?source_code=AUDFPWS0223189MWT-BK-ACX0-390022&amp;ref=acx_bty_BK_ACX0_390022_rh_us" class="kartra_button1 kartra_button1--shadow-01 kartra_button1--default kartra_button1--solid kartra_button1--full-width kartra_button1--rounded kartra_button1--shadow-medium pull-center toggle_pagelink" style="background-color: rgb(43, 148, 255); color: rgb(255, 255, 255); margin: -10px auto 65px; font-weight: 700; font-family: Raleway;" data-frame-id="_ix2evqhdm" target="_blank">Get Audiobook</a></div>
+<div data-component="headline" id="LvnSEidgBn">
+<div class="kartra_headline kartra_headline--raleway-font kartra_headline--text-center kartra_headline--size-extra-large kartra_headline--dark-slate-grey" style="position: relative; margin-top: 0px; margin-bottom: 20px;" aria-controls="cke_82" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p style="line-height: 1.2em;"><b>Advance Praise for <em>The Intentional Engineer</em></b></p>
+</div>
+</div>
+<div data-component="text" id="Euy3QA7dQB">
+                                <div class="kartra_text kartra_text--extra-small kartra_text--text-center kartra_text--dim-grey kartra_text--line-height-large kartra_text--margin-bottom-extra-medium" style="position: relative; margin-top: 0px; margin-bottom: 50px;" aria-controls="cke_81" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p>Here's what a few industry experts have to say!</p>
+</div>
+                            </div>
+</div></div></div>
+<div class="row row--equal" data-component="grid">
+                <div class="col-md-4 column--sm-margin-bottom-small column--vertical-center">
+                    <div class="js_kartra_component_holder">
+                        <div class="kartra_element_bg kartra_element_bg--padding-small kartra_element_bg--border-black-transparent-near-grey-medium column--margin-bottom-small js_kartra_component_holder" data-component="bundle" style="margin-top: 0px; margin-bottom: 25px; padding: 25px;">
+                            <div style="background-color: rgb(255, 255, 255);box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 40px;border-radius: 6px;border-color: rgb(51, 51, 51);border-style: none;border-width: 0px;background-image: none;opacity: 1;" class="background-item background-item--overlap background-item--rounded-tiny background_changer--blur0">
+                                <span class="background-item__arrow background-item__arrow--left-arrow-down" style="left: 30px;"></span>
+                            </div>
+                            <div data-component="text">
+                                <div class="kartra_text kartra_text--dim-grey kartra_text--overlap kartra_text--quotes-medium-right kartra_text--padding-right-small kartra_text--margin-bottom-none" style="position: relative;" aria-controls="cke_2434" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p>In <em>The Intentional Engineer, </em>Jeff Perry masterfully guides engineers and technical professionals through a transformative journey towards a purpose-driven career. Perry's insights challenge the conventional norms and urge readers to design their lives with intention, aligning their unique genius with their career aspirations. <strong>This book is not just a manual; it's a call to action for every engineer to rise, introspect, and pave a path filled with intention and clarity. </strong></p>
+</div>
+                            </div>
+                        </div>
+<div class="kartra_testimonial_author_block kartra_testimonial_author_block--flex kartra_testimonial_author_block--vertical-center pull-left" data-component="bundle" style="margin: 0px 0px 50px;" id="9HPMK9XSDH_htSeIM6Gts">
+                            <div class="kartra_testimonial_author_block__image">
+                                <div class="kartra_element_bg kartra_element_bg--thumb-size-medium kartra_element_bg--align-left" data-component="bundle" style="margin-top: 0px; margin-bottom: 0px; padding: 0px;">
+                                    <div style="border-radius: 50px; background-color: rgba(0, 0, 0, 0); border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; opacity: 1;" class="background-item background_changer--blur0" alt="" data-bg='url("https://d11n7da8rpqbjy.cloudfront.net/mtengineering/577997956532Huseyin.jpg")'></div>
+                                </div> 
+                            </div>
+                            <div class="kartra_testimonial_author_block__info kartra_testimonial_author_block__info--padding-left-extra-small kartra_testimonial_author_block__info--adjust-width js_kartra_component_holder">
+                                <div data-component="headline">
+                                    <div class="kartra_headline kartra_headline--raleway-font kartra_headline--h5 kartra_headline--text-left kartra_headline--dark-slate-grey kartra_headline--margin-bottom-none" style="margin-top: 0px; margin-bottom: 5px; position: relative;" aria-controls="cke_20151" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p><strong>Hüseyin Kilic</strong></p>
+</div>
+                                </div>
+<div data-component="text">
+                                    <div class="kartra_text kartra_text--dim-grey kartra_text--text-small kartra_text--margin-bottom-none" style="position: relative;" aria-controls="cke_13762" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p><font color="#2b94ff">Founder &amp; CEO of Interesting Engineering</font></p>
+</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+<div class="kartra_element_bg kartra_element_bg--padding-small kartra_element_bg--border-black-transparent-near-grey-medium column--margin-bottom-small js_kartra_component_holder" data-component="bundle" style="margin-top: 0px; margin-bottom: 25px; padding: 25px;" id="vaLPWsapFp">
+                            <div style="background-color: rgb(255, 255, 255);box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 40px;border-radius: 6px;border-color: rgb(51, 51, 51);border-style: none;border-width: 0px;background-image: none;opacity: 1;" class="background-item background-item--overlap background-item--rounded-tiny background_changer--blur0">
+                                <span class="background-item__arrow background-item__arrow--left-arrow-down" style="left: 30px;"></span>
+                            </div>
+                            <div data-component="text">
+                                <div class="kartra_text kartra_text--dim-grey kartra_text--overlap kartra_text--quotes-medium-right kartra_text--padding-right-small kartra_text--margin-bottom-none" style="position: relative;" aria-controls="cke_12543" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p>Jeff Perry's much-needed focus on the impact of being intentional in our engineering roles is a breath of fresh air to an ever-more entitled workforce. <strong><em>The Intentional Engineer</em> is an essential read</strong> for anyone that wants to see beyond the daily grind of colorless work and truly make a difference in the lives around them. The outcomes to those around us and to our business will be important. But <strong>the change to us will be truly transformative.</strong></p>
+</div>
+                            </div>
+                        </div>
+                        <div class="kartra_testimonial_author_block kartra_testimonial_author_block--flex kartra_testimonial_author_block--vertical-center pull-left" data-component="bundle" style="margin: 0px 0px 50px;" id="ubLgQ5Ey6N">
+                            <div class="kartra_testimonial_author_block__image">
+                                <div class="kartra_element_bg kartra_element_bg--thumb-size-medium kartra_element_bg--align-left" data-component="bundle" style="margin-top: 0px; margin-bottom: 0px; padding: 0px;">
+                                    <div style="border-radius: 50px; background-color: rgba(0, 0, 0, 0); border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; opacity: 1;" class="background-item background_changer--blur0" alt="" data-bg='url("https://d11n7da8rpqbjy.cloudfront.net/mtengineering/112912659108Colin.jpg")'></div>
+                                </div> 
+                            </div>
+                            <div class="kartra_testimonial_author_block__info kartra_testimonial_author_block__info--padding-left-extra-small kartra_testimonial_author_block__info--adjust-width js_kartra_component_holder">
+                                <div data-component="headline">
+                                    <div class="kartra_headline kartra_headline--raleway-font kartra_headline--h5 kartra_headline--text-left kartra_headline--dark-slate-grey kartra_headline--margin-bottom-none" style="margin-top: 0px; margin-bottom: 5px; position: relative;" aria-controls="cke_10905" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p><strong>Colin Campbell</strong></p>
+</div>
+                                </div>
+<div data-component="text">
+                                    <div class="kartra_text kartra_text--dim-grey kartra_text--text-small kartra_text--margin-bottom-none" style="position: relative;" aria-controls="cke_11317" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p><font color="#2b94ff">President &amp; CEO of METER Group, Inc.</font></p>
+</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 column--sm-margin-bottom-small column--vertical-center">
+                    <div class="js_kartra_component_holder">
+                        <div class="kartra_element_bg kartra_element_bg--padding-small kartra_element_bg--border-black-transparent-near-grey-medium column--margin-bottom-small js_kartra_component_holder" data-component="bundle" style="margin-top: 0px; margin-bottom: 25px; padding: 25px;">
+                            <div style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 40px; border-radius: 6px; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; background-image: none; opacity: 1;" class="background-item background-item--overlap background-item--rounded-tiny background_changer--blur0">
+                                <span class="background-item__arrow background-item__arrow--left-arrow-down" style="left: 30px;"></span>
+                            </div>
+                            <div data-component="text">
+                                <div class="kartra_text kartra_text--dim-grey kartra_text--overlap kartra_text--quotes-medium-right kartra_text--padding-right-small kartra_text--margin-bottom-none" style="position: relative;" aria-controls="cke_5212" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p>Intentional Living is the art of making our own choices before others' choices make us. Jeff Perry has written a book that teaches engineers how to create a beautiful life on purpose—using the mindset and skill set of innovative engineers. <strong>Must read.</strong></p>
+</div>
+                            </div>
+                        </div>
+<div class="kartra_testimonial_author_block kartra_testimonial_author_block--flex kartra_testimonial_author_block--vertical-center pull-left" data-component="bundle" style="margin: 0px 0px 50px;" id="wLAHQquT6X_5v6de5DBD8">
+                            <div class="kartra_testimonial_author_block__image">
+                                <div class="kartra_element_bg kartra_element_bg--thumb-size-medium kartra_element_bg--align-left" data-component="bundle" style="margin-top: 0px; margin-bottom: 0px; padding: 0px;">
+                                    <div style="border-radius: 50px; background-color: rgba(0, 0, 0, 0); border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; opacity: 1;" class="background-item background_changer--blur0" alt="" data-bg='url("https://d11n7da8rpqbjy.cloudfront.net/mtengineering/72762524261Richie.jpg")'></div>
+                                </div>                                 
+                            </div>
+                            <div class="kartra_testimonial_author_block__info kartra_testimonial_author_block__info--padding-left-extra-small kartra_testimonial_author_block__info--adjust-width js_kartra_component_holder">
+                                <div data-component="headline">
+                                    <div class="kartra_headline kartra_headline--raleway-font kartra_headline--h5 kartra_headline--text-left kartra_headline--dark-slate-grey kartra_headline--margin-bottom-none" style="margin-top: 0px; margin-bottom: 5px; position: relative;" aria-controls="cke_5776" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p><strong>Richie Norton</strong></p>
+</div>
+                                </div>
+                                <div data-component="text">
+                                    <div class="kartra_text kartra_text--dim-grey kartra_text--text-small kartra_text--margin-bottom-none" style="position: relative;" aria-controls="cke_8691" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p><span style="color:#2b94ff;">Bestselling author of <em>Anti-Time Management</em></span></p>
+</div>
+                                </div>
+                            </div>
+                        </div>
+<div class="kartra_element_bg kartra_element_bg--padding-small kartra_element_bg--border-black-transparent-near-grey-medium column--margin-bottom-small js_kartra_component_holder" data-component="bundle" style="margin-top: 0px; margin-bottom: 25px; padding: 25px;" id="bdarGUwnF8">
+                            <div style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 40px; border-radius: 6px; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; background-image: none; opacity: 1;" class="background-item background-item--overlap background-item--rounded-tiny background_changer--blur0">
+                                <span class="background-item__arrow background-item__arrow--left-arrow-down" style="left: 30px;"></span>
+                            </div>
+                            <div data-component="text">
+                                <div class="kartra_text kartra_text--dim-grey kartra_text--overlap kartra_text--quotes-medium-right kartra_text--padding-right-small kartra_text--margin-bottom-none" style="position: relative;" aria-controls="cke_19186" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p><strong>This is the mindset book every engineer needs</strong>, with practical, no-frills information and exercises on how to get clear on what you want, unpack negative beliefs that may be holding you back, and turn that self-awareness into intentional action. If you're an engineer or technologist who has found yourself on autopilot in your career and unhappy with your current path, this book is for you.</p>
+</div>
+                            </div>
+                        </div>
+                        <div class="kartra_testimonial_author_block kartra_testimonial_author_block--flex kartra_testimonial_author_block--vertical-center pull-left" data-component="bundle" style="margin: 0px 0px 50px;" id="gVrgrBZQE1">
+                            <div class="kartra_testimonial_author_block__image">
+                                <div class="kartra_element_bg kartra_element_bg--thumb-size-medium kartra_element_bg--align-left" data-component="bundle" style="margin-top: 0px; margin-bottom: 0px; padding: 0px;">
+                                    <div style="border-radius: 50px; background-color: rgba(0, 0, 0, 0); border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; opacity: 1;" class="background-item background_changer--blur0" alt="" data-bg='url("https://d11n7da8rpqbjy.cloudfront.net/mtengineering/159897293207Stephanie.jpg")'></div>
+                                </div>                                 
+                            </div>
+                            <div class="kartra_testimonial_author_block__info kartra_testimonial_author_block__info--padding-left-extra-small kartra_testimonial_author_block__info--adjust-width js_kartra_component_holder">
+                                <div data-component="headline">
+                                    <div class="kartra_headline kartra_headline--raleway-font kartra_headline--h5 kartra_headline--text-left kartra_headline--dark-slate-grey kartra_headline--margin-bottom-none" style="margin-top: 0px; margin-bottom: 5px; position: relative;" aria-controls="cke_15995" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p><strong>Stephanie Slocum, P.E.</strong></p>
+</div>
+                                </div>
+                                <div data-component="text">
+                                    <div class="kartra_text kartra_text--dim-grey kartra_text--text-small kartra_text--margin-bottom-none" style="position: relative;" aria-controls="cke_16428" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p><font color="#2b94ff">Author of <em>She Engineers</em> and founder of Engineers Rising, LLC</font></p>
+</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 column--sm-margin-bottom-small column--vertical-center">
+                    <div class="js_kartra_component_holder">
+                        <div class="kartra_element_bg kartra_element_bg--padding-small kartra_element_bg--border-black-transparent-near-grey-medium column--margin-bottom-small js_kartra_component_holder" data-component="bundle" style="margin-top: 0px; margin-bottom: 25px; padding: 25px;">
+                            <div style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 40px; border-radius: 6px; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; background-image: none; opacity: 1;" class="background-item background-item--overlap background-item--rounded-tiny background_changer--blur0">
+                                <span class="background-item__arrow background-item__arrow--left-arrow-down" style="left: 30px;"></span>
+                            </div>
+                            <div data-component="text">
+                                <div class="kartra_text kartra_text--dim-grey kartra_text--overlap kartra_text--quotes-medium-right kartra_text--padding-right-small kartra_text--margin-bottom-none" style="position: relative;" aria-controls="cke_12156" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p>To be successful in today's world, an engineer's mindset is just as important, if not more, than one's skill sets. <strong>In this book, Jeff Perry provides practical insights for building the right mindset to win in one's career and life.</strong></p>
+</div>
+                            </div>
+                        </div>
+<div class="kartra_testimonial_author_block kartra_testimonial_author_block--flex kartra_testimonial_author_block--vertical-center pull-left" data-component="bundle" style="margin: 0px 0px 50px;" id="exo0NdrCb8_Cibi4aS1ze">
+                            <div class="kartra_testimonial_author_block__image">
+                                <div class="kartra_element_bg kartra_element_bg--thumb-size-medium kartra_element_bg--align-left" data-component="bundle" style="margin-top: 0px; margin-bottom: 0px; padding: 0px;">
+                                    <div style="border-radius: 50px; background-color: rgba(0, 0, 0, 0); border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; opacity: 1;" class="background-item background_changer--blur0" alt="" data-bg='url("https://d11n7da8rpqbjy.cloudfront.net/mtengineering/101855173298Anthony.jpg")'></div>
+                                </div> 
+                            </div>
+                            <div class="kartra_testimonial_author_block__info kartra_testimonial_author_block__info--padding-left-extra-small kartra_testimonial_author_block__info--adjust-width js_kartra_component_holder">
+                                <div data-component="headline">
+                                    <div class="kartra_headline kartra_headline--raleway-font kartra_headline--h5 kartra_headline--text-left kartra_headline--dark-slate-grey kartra_headline--margin-bottom-none" style="margin-top: 0px; margin-bottom: 5px; position: relative;" aria-controls="cke_7928" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p><strong>Anthony Fasano, P.E.</strong></p>
+</div>
+                                </div>
+                                <div data-component="text">
+                                    <div class="kartra_text kartra_text--dim-grey kartra_text--text-small kartra_text--margin-bottom-none" style="position: relative;" aria-controls="cke_9022" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p><span style="color:#2b94ff;">Bestselling author of <em>Engineer Your Own Success</em> </span></p>
+</div>
+                                </div>
+                            </div>
+                        </div>
+<div class="kartra_element_bg kartra_element_bg--padding-small kartra_element_bg--border-black-transparent-near-grey-medium column--margin-bottom-small js_kartra_component_holder" data-component="bundle" style="margin-top: 0px; margin-bottom: 25px; padding: 25px;" id="JT1DMf0fYg">
+                            <div style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 40px; border-radius: 6px; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; background-image: none; opacity: 1;" class="background-item background-item--overlap background-item--rounded-tiny background_changer--blur0">
+                                <span class="background-item__arrow background-item__arrow--left-arrow-down" style="left: 30px;"></span>
+                            </div>
+                            <div data-component="text">
+                                <div class="kartra_text kartra_text--dim-grey kartra_text--overlap kartra_text--quotes-medium-right kartra_text--padding-right-small kartra_text--margin-bottom-none" style="position: relative;" aria-controls="cke_19596" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p>An engaging, informative book that offers clear explanations and step-by-step guidelines for identifying and reaching your values and goals, both personally and professionally. <strong>A tremendous resource for engineers, scientists, and other technical students and professionals who are seeking to build a happier, healthier, more intentional life.</strong></p>
+</div>
+                            </div>
+                        </div>
+<div class="kartra_testimonial_author_block kartra_testimonial_author_block--flex kartra_testimonial_author_block--vertical-center pull-left" data-component="bundle" style="margin: 0px 0px 50px;" id="8cu25ScesK_sYwIKRY49T">
+                            <div class="kartra_testimonial_author_block__image">
+                                <div class="kartra_element_bg kartra_element_bg--thumb-size-medium kartra_element_bg--align-left" data-component="bundle" style="margin-top: 0px; margin-bottom: 0px; padding: 0px;">
+                                    <div style="border-radius: 50px; background-color: rgba(0, 0, 0, 0); border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; opacity: 1;" class="background-item background_changer--blur0" alt="" data-bg='url("https://d11n7da8rpqbjy.cloudfront.net/mtengineering/222229765426Katy.jpg")'></div>
+                                </div> 
+                            </div>
+                            <div class="kartra_testimonial_author_block__info kartra_testimonial_author_block__info--padding-left-extra-small kartra_testimonial_author_block__info--adjust-width js_kartra_component_holder">
+                                <div data-component="headline">
+                                    <div class="kartra_headline kartra_headline--raleway-font kartra_headline--h5 kartra_headline--text-left kartra_headline--dark-slate-grey kartra_headline--margin-bottom-none" style="margin-top: 0px; margin-bottom: 5px; position: relative;" aria-controls="cke_18146" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p><strong>Katy Luchini Colbry, PhD</strong></p>
+</div>
+                                </div>
+                                <div data-component="text">
+                                    <div class="kartra_text kartra_text--dim-grey kartra_text--text-small kartra_text--margin-bottom-none" style="position: relative;" aria-controls="cke_18622" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p><font color="#2b94ff">Assistant Dean, Engineering Graduate Student Services, Michigan State University</font></p>
+</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="content content--padding-semi-large" style="background-color: rgb(0, 126, 255); padding: 80px 0px 60px;" id="_kxtyjzcsl">
+            <style id="pagesInternalCSS">
+	.kartra_list--ty-social-icon .kartra_list__item{
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.kartra_list--ty-social-icon .kartra_icon{
+	    top: 4px;
+	    border: 0px !important;
+	    box-shadow: 0px 3px 15px rgba(0,0,0,.1);
+	}
+	.kartra_list--ty-social-icon .kartra_icon--medium {
+	    width: 40px;
+	    height: 40px;
+	    font-size: 20px;
+	}	
+</style>
+<div class="background_changer background_changer--blur0 js-bg-next-gen" style="opacity: 0.3;" data-bg='url("//d11n7da8rpqbjy.cloudfront.net/Kartra/8203758_1582902028580shape3.jpg")'></div>
+            <div class="background_changer_overlay" style="background-image: none;"></div>
+            <div class="container">
+                <div class="row" data-component="grid" id="tsHnENL8Cw"><div class="col-md-10 col-md-offset-1"><div class="js_kartra_component_holder">
+<div data-component="headline" id="LvnSEidgBn">
+<div class="kartra_headline kartra_headline--raleway-font kartra_headline--text-center kartra_headline--size-extra-large kartra_headline--white" style="position: relative; margin-top: 0px; margin-bottom: 20px;" aria-controls="cke_80" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p style="line-height: 1.2em;"><strong>Get your copy of <em>The Intentional Engineer</em> today!</strong></p>
+</div>
+</div>
+
+<div data-component="button" id="7c3TITupq3"><a href="https://amzn.to/498ABvK" class="kartra_button1 kartra_button1--shadow-01 kartra_button1--default kartra_button1--solid kartra_button1--full-width kartra_button1--rounded kartra_button1--shadow-medium pull-center toggle_pagelink" style="background-color: rgb(255, 255, 255); color: rgb(55, 71, 79); margin: 10px auto 20px; font-weight: 700; font-family: Raleway;" data-frame-id="_kxtyjzcsl" target="_blank">Get Print/Digital Version</a></div>
+<div data-component="button" id="7c3TITupq3"><a href="https://www.audible.com/pd/B0CXR1L4ZD/?source_code=AUDFPWS0223189MWT-BK-ACX0-390022&amp;ref=acx_bty_BK_ACX0_390022_rh_us" class="kartra_button1 kartra_button1--shadow-01 kartra_button1--default kartra_button1--solid kartra_button1--full-width kartra_button1--rounded kartra_button1--shadow-medium pull-center toggle_pagelink" style="background-color: rgb(255, 255, 255); color: rgb(55, 71, 79); margin: 10px auto 20px; font-weight: 700; font-family: Raleway;" data-frame-id="_kxtyjzcsl" target="_blank">Get Audiobook</a></div>
+</div></div></div>
+            </div>
+        </div>
+<div class="content content--padding-extra-large" style="background-color: rgba(255, 255, 255,1);" id="_fwm7t1avn">
+            <div class="background_changer" style="" data-bg="url(//d2uolguxr56s4e.cloudfront.net/img/kartrapages/kp_bg_new_v1_78.png)"></div>
+            <div class="background_changer_overlay"></div>
+            <div class="container">
+                <div class="row row--equal" data-component="grid">
+                    <div class="col-md-6 column--vertical-center">
+                        <div class="js_kartra_component_holder">
+                            <div data-component="headline">
+                                <div class="kartra_headline kartra_headline--size-large kartra_headline--oswald-font kartra_headline--font-weight-regular kartra_headline--deep-dark-blue kartra_headline--margin-bottom-tiny" style="position: relative;" aria-controls="cke_78" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p><strong><span style="font-family: Roboto;">Put the Book Into Action</span></strong></p>
+</div>
+                            </div>
+                            <div data-component="headline">
+                                <div class="kartra_headline kartra_headline--h5 kartra_headline--oswald-font kartra_headline--font-weight-regular kartra_headline--deep-dark-blue kartra_headline--margin-bottom-special-medium" style="position: relative;" aria-controls="cke_4037" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p style="font-size: 1rem;"><strong><span style="font-size: 1rem;"><span style="font-family: Roboto; font-size: 1rem;">With <em><span style="font-family: Roboto; font-size: 1rem;"><span style="font-family: Roboto; font-size: 1rem;">The Intentional Engineer Workbook</span></span></em></span></span></strong></p>
+</div>
+                            </div>
+                            <div data-component="text">
+                                <div class="kartra_text kartra_text--extra-small kartra_text--nunito-font kartra_text--dim-grey kartra_text--margin-bottom-extra-medium" style="position: relative;" aria-controls="cke_3058" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p style="font-size: 0.8rem;"><span style="font-family: Roboto; font-size: 0.8rem;">Filled with action items, reflection questions, and space to get clarity, the workbook allows you to put all of the principles from the book into application! Get a digital copy for FREE!</span></p>
+</div>
+                            </div> 
+                            <div data-component="button">
+                                <a href="https://app.kartra.com/redirect_to/?asset=page&amp;id=olYjXEZrt9dT" class="kartra_button1 kartra_button1--oswald-font kartra_button1--dark-dodger-blue-two kartra_button1--icon-right kartra_button1--margin-bottom-special-medium kartra_button1--solid kartra_button1--full-width kartra_button1--rounded pull-center toggle_pagelink" style="font-weight: 700; background-color: rgb(67, 129, 255); color: rgb(255, 255, 255); margin: 0px auto 30px; font-family: Roboto;" data-frame-id="_fwm7t1avn" target="_blank" data-project-id="1" data-page-id="439">Get the Workbook!</a>
+                            </div>                                                      
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-md-offset-1 column--vertical-center">
+                        <div class="js_kartra_component_holder">
+                            <div data-component="image" href="javascript: void(0);">
+                                <img class="kartra_image kartra_image--max-width-full kartra_image--margin-bottom-special-medium pull-center background_changer--blur0" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="" style="border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; margin: 0px auto 30px; opacity: 1;" data-original="https://d11n7da8rpqbjy.cloudfront.net/mtengineering/373792491123Workbook_Multimedia_color.jpg">
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div class="content content--padding-medium" style="background-color: #212121;" id="_652098493b22a">
+                <div class="background_changer"></div>
+                <div class="background_changer_overlay"></div>
+                <div class="container">
+                    <div class="row row--equal" data-component="grid">
+                        <div class="col-md-12 column--vertical-center">
+                            <div class="js_kartra_component_holder">
+                                <div data-component="text">
+                                    <div class="kartra_text kartra_text--open-sans-font kartra_text--font-weight-regular kartra_text--extra-dark-grey kartra_text--sm-text-center" style="position: relative;" aria-controls="cke_78" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p style="text-align: center;">© Copyrights by <strong>Jeff Perry</strong>. All Rights Reserved.</p>
+</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+<div class="modal fade popup_modal popup-modal js_trackable_wrapper" id="popup_exit" data-trigger="mouseaway" data-reocur="every" role="dialog" aria-hidden="true">
+<div class="modal-dialog modal-lg"><div class="modal-content"><button type="button" class="closer close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button><div class="modal-body">
+
+<div class="content content--popup-large light" style="background-color: rgb(23, 120, 188); padding: 0px;" id="_gine6exr2">
+        <div class="background_changer background_changer--blur0" alt="" style="background-image: none; opacity: 1;"></div>
+        <div class="background_changer_overlay" style="background-image: none;"></div>
+        <div class="container-fluid page-popup-container--large">
+            <div class="row" data-component="grid">
+                <div class="col-md-8 col-md-offset-2 column--padding-small column--padding-top-extra-medium column--padding-bottom-extra-medium column--sm-padding-top-bottom-extra-medium-adjust">
+                    <div class="js_kartra_component_holder">
+                        <div data-component="headline">
+                            <div class="kartra_headline kartra_headline--extra-giant kartra_headline--text-center kartra_headline--white kartra_headline--bowlby-one kartra_headline--font-weight-regular">
+                                <p>WAIT!</p>
+                            </div>
+                        </div>
+                        <div data-component="divider">
+                            <hr class="kartra_divider kartra_divider--full kartra_divider--border-extra-tiny kartra_divider--border-white-small-transparent">
+                        </div>
+                        <div data-component="headline">
+                            <div class="kartra_headline kartra_headline--size-large kartra_headline--text-center kartra_headline--white kartra_headline--nunito kartra_headline--font-weight-bold" style="position: relative;" aria-controls="cke_78" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p>Did you forget to order the book?</p>
+</div>
+                        </div>
+                        <div data-component="headline">
+                            <div class="kartra_headline kartra_headline--h4 kartra_headline--text-center kartra_headline--lato-font kartra_headline--font-weight-medium kartra_headline--white" style="position: relative;" aria-controls="cke_567" aria-activedescendant="" aria-autocomplete="list" aria-expanded="false">
+<p>Click here to get your copy today!</p>
+</div>
+                        </div>
+<div data-component="button"><a href="javascript: void(0);" class="kartra_button1 kartra_button1--default kartra_button1--solid kartra_button1--full-width kartra_button1--rounded pull-center" style="background-color: rgb(8, 182, 35); color: rgb(255, 255, 255); margin: 0px auto 20px; font-weight: 700; font-family: Lato;" data-frame-id="_gine6exr2" target="_parent">Order Now</a></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="page-popup-footer-powered-by page-popup-footer-powered-by--text-right">
+            <p>Powered by <strong>KARTRA</strong></p>
+        </div>
+    </div>
+
+</div></div></div>
+</div>
+</div>
+    <script async defer src="https://app.kartra.com/js/build/front/pages/optin.js"></script>
+</div>
+<!-- /#page -->
+    <div style="height:0px;width:0px;opacity:0;position:fixed">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-WDCFFZ6"></script>​
+    </div>
+    <div style="height:0px;width:0px;opacity:0;position:fixed">
+        
+    </div>
+
+    <!-- Load JS here for greater good =============================-->
+    <script src="/js/build/front/pages/skeleton-immediate.js"></script>
+    <script src="/js/build/front/pages/skeleton-below.js" async defer></script>
+    <script src="//app.kartra.com/resources/js/analytics/8g8bN3Xr" async defer></script>
+    <script src="//app.kartra.com/resources/js/page_check?page_id=u3odwODAxjXc" async defer></script>
+    <script>
+    if (typeof window['jQuery'] !== 'undefined') {
+        window.jsVars = {"vendor_time_format":"12h","page_title":"The Intentional Engineer Book","page_description":"","page_keywords":"","page_robots":"index, follow","secure_base_url":"\/\/app.kartra.com\/","global_id":"u3odwODAxjXc"};
+        window.global_id = 'u3odwODAxjXc';
+        window.secure_base_url = '//app.kartra.com/';
+
+        window.parent.postMessage({
+            title: window.jsVars.page_title,
+            description: window.jsVars.page_description,
+            keywords: window.jsVars.page_keywords,
+            robots: window.jsVars.page_robots,
+            domain: 'app.kartra.com'
+        }, '*');
+
+        // trigger the analytics on modal shown
+        jQuery(window).on('shown.bs.modal', function(e) {
+            if (typeof e.target !== 'undefined') {
+                var modalClass = e.target.className;
+                if (modalClass !== '') {
+                    var modalElements = document.getElementsByClassName(modalClass);
+                    if (typeof modalElements[0] !== 'undefined') {
+                        var event = new Event('kartra_show_hidden_asset');
+                        modalElements[0].dispatchEvent(event);
+                    }
+                }
+            }
+        });
+
+        if( typeof Porthole !== 'undefined' ) {
+            //domainn is a separate variable to domain
+            windowProxy= new Porthole.WindowProxy('//mtengineering.kartra.com/front/deal/proxy');
+        }
+    }
+    </script>
+    <footer>
+        <div style="height:0px;width:0px;opacity:0;position:fixed">
+            
+        </div>
+    </footer>
+    <!-- GDPR cookie BANNER -->
+<div class="gdpr_flapjack_banner js_gdpr_flapjack_banner lang-var-{language_code}" style="display: none;">
+    <button type="button" class="gdpr-uncollapse-button js_show_gdpr_banner">
+        {:lang_general_banner_cookies}
+    </button>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-grid grid-gdpr-banner">
+                    <div>
+                        <div class="js_gdrp_cookie_banner_text gdpr-text">
+                            {:lang_general_banner_cookie_disclaimer}
+                        </div>
+                        <div class="gdpr_link_wrapper">
+                            <a href="" target="_blank" class="js_gdpr_button">{:lang_general_banner_cookie_privacy}</a>
+                            <span></span>
+                            <a href="" target="_blank" class="">{:lang_general_banner_cookie_cookie}</a>
+                        </div>
+                    </div>
+                    <div class="gdpr_button_block">
+                        <div class="gdpr_toggler">
+                            <label class="toggler_label selected">{:lang_general_banner_cookie_accept_all}</label>
+                            <div class="switcher">
+                                <input type="checkbox" name="gdpr_cookies" id="gdpr_cookies" class="cmn-toggle js_accepted_cookies"  value="2">
+                                <label for="gdpr_cookies"></label>
+                            </div>
+                            <label class="toggler_label ">{:lang_general_banner_cookie_only_essential}</label>
+                        </div>
+                        <button class="gdpr_close js_gdpr_close" type="button" data-type="kartra_page" data-type-id="438" data-type-owner="8g8bN3Xr">{:lang_general_save}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--// GDPR cookie BANNER -->  
+
+    <script src="//app.kartra.com/resources/js/kartra_embed_wild_card?type=kartra_page&amp;owner=8g8bN3Xr"></script>
+</body>
+</html>

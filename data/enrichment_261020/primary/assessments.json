@@ -1,0 +1,749 @@
+{
+  "material": {
+    "domains": {
+      "MAT": {
+        "value": 4,
+        "confidence": "moderate",
+        "rationale": "Six material chains structure the account.",
+        "refs": [
+          "https://cdn.penguin.co.uk/dam-assets/books/9780753559154/9780753559154-sample.pdf",
+          "analysis/analysis_physcanon_261018_0147.md#p077"
+        ]
+      },
+      "ENE": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Energy costs constrain material transformation.",
+        "refs": [
+          "https://cdn.penguin.co.uk/dam-assets/books/9780753559154/9780753559154-sample.pdf",
+          "analysis/analysis_physcanon_261018_0147.md#p077"
+        ]
+      },
+      "PRD": {
+        "value": 4,
+        "confidence": "moderate",
+        "rationale": "Extraction and industrial processing form sustained explanations.",
+        "refs": [
+          "https://cdn.penguin.co.uk/dam-assets/books/9780753559154/9780753559154-sample.pdf",
+          "analysis/analysis_physcanon_261018_0147.md#p077"
+        ]
+      },
+      "LOG": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Supplier dependence and downstream shortages recur.",
+        "refs": [
+          "https://cdn.penguin.co.uk/dam-assets/books/9780753559154/9780753559154-sample.pdf",
+          "analysis/analysis_physcanon_261018_0147.md#p077"
+        ]
+      },
+      "ECO": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Prices transmit constraints across industries.",
+        "refs": [
+          "https://cdn.penguin.co.uk/dam-assets/books/9780753559154/9780753559154-sample.pdf",
+          "analysis/analysis_physcanon_261018_0147.md#p077"
+        ]
+      },
+      "TRD": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "International specialization supports the material chains.",
+        "refs": [
+          "https://cdn.penguin.co.uk/dam-assets/books/9780753559154/9780753559154-sample.pdf",
+          "analysis/analysis_physcanon_261018_0147.md#p077"
+        ]
+      },
+      "SCL": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Industrial capacity and concentrated suppliers constrain expansion.",
+        "refs": [
+          "https://cdn.penguin.co.uk/dam-assets/books/9780753559154/9780753559154-sample.pdf",
+          "analysis/analysis_physcanon_261018_0147.md#p077"
+        ]
+      }
+    },
+    "connections": {
+      "status": "partial",
+      "mechanisms": [
+        {
+          "id": "gas-ammonia-co2",
+          "statement": "Gas price rises curtailed ammonia production; the lost CO2 by-product then constrained food preservation and handling.",
+          "scope": "Introduction, printed pp. 9–10: British fertilizer plants and food-sector dependence.",
+          "roles": {
+            "ENE": "Gas input",
+            "ECO": "Price incentive to stop",
+            "PRD": "Ammonia plant operation",
+            "MAT": "CO2 by-product",
+            "LOG": "Food preservation and handling"
+          },
+          "domains": [
+            "ENE",
+            "ECO",
+            "PRD",
+            "MAT",
+            "LOG"
+          ],
+          "strength": 3,
+          "confidence": "moderate",
+          "refs": [
+            "https://cdn.penguin.co.uk/dam-assets/books/9780753559154/9780753559154-sample.pdf",
+            "analysis/analysis_physcanon_261018_0147.md#p077"
+          ]
+        }
+      ],
+      "joins": [],
+      "limitations": "Primary sample or publisher/author description and the cited prior assessment were inspected. These records establish specific explanations, not an exhaustive inventory of the book. No absent domains are inferred from an excerpt."
+    },
+    "primaryReview": {
+      "retrieved": "2026-10-20",
+      "refs": [
+        "https://cdn.penguin.co.uk/dam-assets/books/9780753559154/9780753559154-sample.pdf",
+        "analysis/analysis_physcanon_261018_0147.md#p077"
+      ],
+      "method": "Manual semantic assessment; numerical depth and strength are interpretations of the cited evidence, not publisher ratings.",
+      "confidence": "moderate"
+    }
+  },
+  "q0004": {
+    "domains": {
+      "LOG": {
+        "value": 4,
+        "confidence": "moderate",
+        "rationale": "Intermodal freight is the central system.",
+        "refs": [
+          "https://assets.press.princeton.edu/chapters/s9383.pdf",
+          "analysis/analysis_glaspbiz_261019_0144.md#g0204"
+        ]
+      },
+      "INS": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Standards and labor coordination enable adoption.",
+        "refs": [
+          "https://assets.press.princeton.edu/chapters/s9383.pdf",
+          "analysis/analysis_glaspbiz_261019_0144.md#g0204"
+        ]
+      },
+      "FIN": {
+        "value": 2,
+        "confidence": "moderate",
+        "rationale": "Complementary capital investment changes industry viability.",
+        "refs": [
+          "https://assets.press.princeton.edu/chapters/s9383.pdf",
+          "analysis/analysis_glaspbiz_261019_0144.md#g0204"
+        ]
+      },
+      "PRD": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Lower freight costs change production locations.",
+        "refs": [
+          "https://assets.press.princeton.edu/chapters/s9383.pdf",
+          "analysis/analysis_glaspbiz_261019_0144.md#g0204"
+        ]
+      },
+      "TRD": {
+        "value": 4,
+        "confidence": "moderate",
+        "rationale": "Global supply chains are a sustained explanatory outcome.",
+        "refs": [
+          "https://assets.press.princeton.edu/chapters/s9383.pdf",
+          "analysis/analysis_glaspbiz_261019_0144.md#g0204"
+        ]
+      },
+      "ECO": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Transport costs alter economic geography.",
+        "refs": [
+          "https://assets.press.princeton.edu/chapters/s9383.pdf",
+          "analysis/analysis_glaspbiz_261019_0144.md#g0204"
+        ]
+      },
+      "SCL": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Network scale changes the reach of producers.",
+        "refs": [
+          "https://assets.press.princeton.edu/chapters/s9383.pdf",
+          "analysis/analysis_glaspbiz_261019_0144.md#g0204"
+        ]
+      },
+      "ENG": {
+        "value": 2,
+        "confidence": "moderate",
+        "rationale": "Container handling requires compatible physical systems.",
+        "refs": [
+          "https://assets.press.princeton.edu/chapters/s9383.pdf",
+          "analysis/analysis_glaspbiz_261019_0144.md#g0204"
+        ]
+      }
+    },
+    "connections": {
+      "status": "partial",
+      "mechanisms": [
+        {
+          "id": "intermodal-system",
+          "statement": "Compatible equipment, standards and investment make the container part of a cheaper transport system.",
+          "scope": "Chapter 1 and prior standards/investment assessment.",
+          "roles": {
+            "ENG": "Compatible handling equipment",
+            "INS": "Standards and labor coordination",
+            "FIN": "Complementary investment",
+            "LOG": "Transport cost and time"
+          },
+          "domains": [
+            "ENG",
+            "INS",
+            "FIN",
+            "LOG"
+          ],
+          "strength": 3,
+          "confidence": "moderate",
+          "refs": [
+            "https://assets.press.princeton.edu/chapters/s9383.pdf",
+            "analysis/analysis_glaspbiz_261019_0144.md#g0204"
+          ]
+        },
+        {
+          "id": "production-geography",
+          "statement": "Lower freight costs permit dispersed specialist plants to exchange components and serve distant markets.",
+          "scope": "Chapter 1, pp. 2–3.",
+          "roles": {
+            "LOG": "Cheaper transport",
+            "PRD": "Dispersed specialist plants",
+            "TRD": "International supply chains",
+            "ECO": "Location incentives",
+            "SCL": "Market reach"
+          },
+          "domains": [
+            "LOG",
+            "PRD",
+            "TRD",
+            "ECO",
+            "SCL"
+          ],
+          "strength": 3,
+          "confidence": "moderate",
+          "refs": [
+            "https://assets.press.princeton.edu/chapters/s9383.pdf",
+            "analysis/analysis_glaspbiz_261019_0144.md#g0204"
+          ]
+        }
+      ],
+      "joins": [
+        {
+          "from": "intermodal-system",
+          "to": "production-geography",
+          "handoff": "Lower transport cost",
+          "statement": "The cheaper freight service changes viable production locations and supply-chain reach.",
+          "scope": "Chapter 1 follows container-system costs into industrial geography.",
+          "strength": 3,
+          "confidence": "moderate",
+          "refs": [
+            "https://assets.press.princeton.edu/chapters/s9383.pdf",
+            "analysis/analysis_glaspbiz_261019_0144.md#g0204"
+          ]
+        }
+      ],
+      "limitations": "Primary sample or publisher/author description and the cited prior assessment were inspected. These records establish specific explanations, not an exhaustive inventory of the book. No absent domains are inferred from an excerpt."
+    },
+    "primaryReview": {
+      "retrieved": "2026-10-20",
+      "refs": [
+        "https://assets.press.princeton.edu/chapters/s9383.pdf",
+        "analysis/analysis_glaspbiz_261019_0144.md#g0204"
+      ],
+      "method": "Manual semantic assessment; numerical depth and strength are interpretations of the cited evidence, not publisher ratings.",
+      "confidence": "moderate"
+    }
+  },
+  "q0011": {
+    "domains": {
+      "HTC": {
+        "value": 4,
+        "confidence": "moderate",
+        "rationale": "Semiconductors organize the entire account.",
+        "refs": [
+          "https://www.christophermiller.net/books",
+          "analysis/analysis_physcanon_261018_0147.md#p072"
+        ]
+      },
+      "CMP": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Computing capability explains chip demand and applications.",
+        "refs": [
+          "https://www.christophermiller.net/books",
+          "analysis/analysis_physcanon_261018_0147.md#p072"
+        ]
+      },
+      "PRD": {
+        "value": 4,
+        "confidence": "moderate",
+        "rationale": "Design and manufacturing capabilities drive competition.",
+        "refs": [
+          "https://www.christophermiller.net/books",
+          "analysis/analysis_physcanon_261018_0147.md#p072"
+        ]
+      },
+      "TRD": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "International specialization creates dependencies.",
+        "refs": [
+          "https://www.christophermiller.net/books",
+          "analysis/analysis_physcanon_261018_0147.md#p072"
+        ]
+      },
+      "POL": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "State competition shapes semiconductor access.",
+        "refs": [
+          "https://www.christophermiller.net/books",
+          "analysis/analysis_physcanon_261018_0147.md#p072"
+        ]
+      },
+      "MIL": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Military applications explain strategic value.",
+        "refs": [
+          "https://www.christophermiller.net/books",
+          "analysis/analysis_physcanon_261018_0147.md#p072"
+        ]
+      },
+      "STR": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Control of supply and capability changes strategic options.",
+        "refs": [
+          "https://www.christophermiller.net/books",
+          "analysis/analysis_physcanon_261018_0147.md#p072"
+        ]
+      }
+    },
+    "connections": {
+      "status": "partial",
+      "mechanisms": [
+        {
+          "id": "chips-to-power",
+          "statement": "Control of chip design and manufacture determines access to computing capabilities used in military systems, making supply dependence strategically important.",
+          "scope": "Author synopsis and prior semiconductor-supply assessment.",
+          "roles": {
+            "HTC": "Semiconductor capability",
+            "CMP": "Computing performance",
+            "PRD": "Manufacturing control",
+            "TRD": "Cross-border dependence",
+            "MIL": "Military applications",
+            "POL": "State competition",
+            "STR": "Supply-control choices"
+          },
+          "domains": [
+            "HTC",
+            "CMP",
+            "PRD",
+            "TRD",
+            "MIL",
+            "POL",
+            "STR"
+          ],
+          "strength": 3,
+          "confidence": "moderate",
+          "refs": [
+            "https://www.christophermiller.net/books",
+            "analysis/analysis_physcanon_261018_0147.md#p072"
+          ]
+        }
+      ],
+      "joins": [],
+      "limitations": "Primary sample or publisher/author description and the cited prior assessment were inspected. These records establish specific explanations, not an exhaustive inventory of the book. No absent domains are inferred from an excerpt."
+    },
+    "primaryReview": {
+      "retrieved": "2026-10-20",
+      "refs": [
+        "https://www.christophermiller.net/books",
+        "analysis/analysis_physcanon_261018_0147.md#p072"
+      ],
+      "method": "Manual semantic assessment; numerical depth and strength are interpretations of the cited evidence, not publisher ratings.",
+      "confidence": "moderate"
+    }
+  },
+  "q0030": {
+    "domains": {
+      "SCI": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Discovery is connected to applied nuclear physics; some exposition is familiar to this reader.",
+        "refs": [
+          "https://www.simonandschuster.com/books/The-Making-of-the-Atomic-Bomb/Richard-Rhodes/9781451677614",
+          "analysis/analysis_glasphist_261019_0144.md#g1097"
+        ]
+      },
+      "HTC": {
+        "value": 4,
+        "confidence": "moderate",
+        "rationale": "Nuclear weapon development forms the sustained central account.",
+        "refs": [
+          "https://www.simonandschuster.com/books/The-Making-of-the-Atomic-Bomb/Richard-Rhodes/9781451677614",
+          "analysis/analysis_glasphist_261019_0144.md#g1097"
+        ]
+      },
+      "PRD": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Industrial scale connects discovery to weapons.",
+        "refs": [
+          "https://www.simonandschuster.com/books/The-Making-of-the-Atomic-Bomb/Richard-Rhodes/9781451677614",
+          "analysis/analysis_glasphist_261019_0144.md#g1097"
+        ]
+      },
+      "INS": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Scientific organization enables coordinated development.",
+        "refs": [
+          "https://www.simonandschuster.com/books/The-Making-of-the-Atomic-Bomb/Richard-Rhodes/9781451677614",
+          "analysis/analysis_glasphist_261019_0144.md#g1097"
+        ]
+      },
+      "MIL": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Wartime urgency shapes the development programme.",
+        "refs": [
+          "https://www.simonandschuster.com/books/The-Making-of-the-Atomic-Bomb/Richard-Rhodes/9781451677614",
+          "analysis/analysis_glasphist_261019_0144.md#g1097"
+        ]
+      },
+      "ENG": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "The account follows scientific ideas into working devices.",
+        "refs": [
+          "https://www.simonandschuster.com/books/The-Making-of-the-Atomic-Bomb/Richard-Rhodes/9781451677614",
+          "analysis/analysis_glasphist_261019_0144.md#g1097"
+        ]
+      }
+    },
+    "connections": {
+      "status": "partial",
+      "mechanisms": [
+        {
+          "id": "discovery-to-production",
+          "statement": "Wartime nuclear capability required discovery, device engineering, industrial production and coordinated scientific work within one programme.",
+          "scope": "Manhattan Project synthesis in the publisher overview and prior assessment.",
+          "roles": {
+            "SCI": "Nuclear discoveries",
+            "HTC": "Weapon capability",
+            "ENG": "Working device",
+            "PRD": "Industrial scale",
+            "INS": "Scientific coordination",
+            "MIL": "Wartime objective"
+          },
+          "domains": [
+            "SCI",
+            "HTC",
+            "ENG",
+            "PRD",
+            "INS",
+            "MIL"
+          ],
+          "strength": 3,
+          "confidence": "moderate",
+          "refs": [
+            "https://www.simonandschuster.com/books/The-Making-of-the-Atomic-Bomb/Richard-Rhodes/9781451677614",
+            "analysis/analysis_glasphist_261019_0144.md#g1097"
+          ]
+        }
+      ],
+      "joins": [],
+      "limitations": "Primary sample or publisher/author description and the cited prior assessment were inspected. These records establish specific explanations, not an exhaustive inventory of the book. No absent domains are inferred from an excerpt."
+    },
+    "primaryReview": {
+      "retrieved": "2026-10-20",
+      "refs": [
+        "https://www.simonandschuster.com/books/The-Making-of-the-Atomic-Bomb/Richard-Rhodes/9781451677614",
+        "analysis/analysis_glasphist_261019_0144.md#g1097"
+      ],
+      "method": "Manual semantic assessment; numerical depth and strength are interpretations of the cited evidence, not publisher ratings.",
+      "confidence": "moderate",
+      "limitations": "The publisher blurb misdates nuclear fission to the nineteenth century. That statement is rejected; it is not used to set dates or domain grades."
+    }
+  },
+  "q0069": {
+    "domains": {
+      "HTC": {
+        "value": 4,
+        "confidence": "moderate",
+        "rationale": "Advanced aircraft programmes are the central account.",
+        "refs": [
+          "https://www.hachettebookgroup.com/titles/ben-r-rich/skunk-works/9780316246934/",
+          "analysis/analysis_glasptech_261019_0144.md#g0462"
+        ]
+      },
+      "ENG": {
+        "value": 4,
+        "confidence": "moderate",
+        "rationale": "Design and testing explain technical delivery.",
+        "refs": [
+          "https://www.hachettebookgroup.com/titles/ben-r-rich/skunk-works/9780316246934/",
+          "analysis/analysis_glasptech_261019_0144.md#g0462"
+        ]
+      },
+      "INS": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Team autonomy and procurement shape execution.",
+        "refs": [
+          "https://www.hachettebookgroup.com/titles/ben-r-rich/skunk-works/9780316246934/",
+          "analysis/analysis_glasptech_261019_0144.md#g0462"
+        ]
+      },
+      "MIL": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Mission requirements set design objectives.",
+        "refs": [
+          "https://www.hachettebookgroup.com/titles/ben-r-rich/skunk-works/9780316246934/",
+          "analysis/analysis_glasptech_261019_0144.md#g0462"
+        ]
+      },
+      "INN": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Development work explains how new capabilities emerge.",
+        "refs": [
+          "https://www.hachettebookgroup.com/titles/ben-r-rich/skunk-works/9780316246934/",
+          "analysis/analysis_glasptech_261019_0144.md#g0462"
+        ]
+      },
+      "QLT": {
+        "value": 2,
+        "confidence": "moderate",
+        "rationale": "Testing and dependable performance are substantial threads.",
+        "refs": [
+          "https://www.hachettebookgroup.com/titles/ben-r-rich/skunk-works/9780316246934/",
+          "analysis/analysis_glasptech_261019_0144.md#g0462"
+        ]
+      }
+    },
+    "connections": {
+      "status": "partial",
+      "mechanisms": [
+        {
+          "id": "mission-to-aircraft",
+          "statement": "Mission requirements, design choices, testing and team autonomy jointly shape delivery of advanced aircraft.",
+          "scope": "Aircraft development programmes; insider account with the limits recorded in the prior assessment.",
+          "roles": {
+            "MIL": "Mission objectives",
+            "HTC": "Advanced aircraft capability",
+            "ENG": "Design choices",
+            "QLT": "Testing",
+            "INS": "Autonomy and procurement",
+            "INN": "Capability development"
+          },
+          "domains": [
+            "MIL",
+            "HTC",
+            "ENG",
+            "QLT",
+            "INS",
+            "INN"
+          ],
+          "strength": 3,
+          "confidence": "moderate",
+          "refs": [
+            "https://www.hachettebookgroup.com/titles/ben-r-rich/skunk-works/9780316246934/",
+            "analysis/analysis_glasptech_261019_0144.md#g0462"
+          ]
+        }
+      ],
+      "joins": [],
+      "limitations": "Primary sample or publisher/author description and the cited prior assessment were inspected. These records establish specific explanations, not an exhaustive inventory of the book. No absent domains are inferred from an excerpt."
+    },
+    "primaryReview": {
+      "retrieved": "2026-10-20",
+      "refs": [
+        "https://www.hachettebookgroup.com/titles/ben-r-rich/skunk-works/9780316246934/",
+        "analysis/analysis_glasptech_261019_0144.md#g0462"
+      ],
+      "method": "Manual semantic assessment; numerical depth and strength are interpretations of the cited evidence, not publisher ratings.",
+      "confidence": "moderate"
+    }
+  },
+  "smil": {
+    "domains": {
+      "ENE": {
+        "value": 4,
+        "confidence": "moderate",
+        "rationale": "Energy conversion is a central sustained explanation.",
+        "refs": [
+          "https://penguinrandomhousehighereducation.com/2025/02/13/how-the-world-really-works/",
+          "https://www.penguinrandomhouse.com/books/666342/how-the-world-really-works-by-vaclav-smil/",
+          "analysis/analysis_widerd_261018_2208.md"
+        ]
+      },
+      "QNT": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Units, rates and per-capita comparisons test claims.",
+        "refs": [
+          "https://penguinrandomhousehighereducation.com/2025/02/13/how-the-world-really-works/",
+          "https://www.penguinrandomhouse.com/books/666342/how-the-world-really-works-by-vaclav-smil/",
+          "analysis/analysis_widerd_261018_2208.md"
+        ]
+      },
+      "ENG": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Conversion technology mediates useful output.",
+        "refs": [
+          "https://penguinrandomhousehighereducation.com/2025/02/13/how-the-world-really-works/",
+          "https://www.penguinrandomhouse.com/books/666342/how-the-world-really-works-by-vaclav-smil/",
+          "analysis/analysis_widerd_261018_2208.md"
+        ]
+      },
+      "MAT": {
+        "value": 4,
+        "confidence": "moderate",
+        "rationale": "Essential industrial materials structure the account.",
+        "refs": [
+          "https://penguinrandomhousehighereducation.com/2025/02/13/how-the-world-really-works/",
+          "https://www.penguinrandomhouse.com/books/666342/how-the-world-really-works-by-vaclav-smil/",
+          "analysis/analysis_widerd_261018_2208.md"
+        ]
+      },
+      "PRD": {
+        "value": 4,
+        "confidence": "moderate",
+        "rationale": "Food and material production link inputs to output.",
+        "refs": [
+          "https://penguinrandomhousehighereducation.com/2025/02/13/how-the-world-really-works/",
+          "https://www.penguinrandomhouse.com/books/666342/how-the-world-really-works-by-vaclav-smil/",
+          "analysis/analysis_widerd_261018_2208.md"
+        ]
+      },
+      "LOG": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Physical supply dependence constrains production.",
+        "refs": [
+          "https://penguinrandomhousehighereducation.com/2025/02/13/how-the-world-really-works/",
+          "https://www.penguinrandomhouse.com/books/666342/how-the-world-really-works-by-vaclav-smil/",
+          "analysis/analysis_widerd_261018_2208.md"
+        ]
+      },
+      "SCL": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Throughput and scale limit substitution.",
+        "refs": [
+          "https://penguinrandomhousehighereducation.com/2025/02/13/how-the-world-really-works/",
+          "https://www.penguinrandomhouse.com/books/666342/how-the-world-really-works-by-vaclav-smil/",
+          "analysis/analysis_widerd_261018_2208.md"
+        ]
+      },
+      "ECO": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "Useful energy and material output support prosperity.",
+        "refs": [
+          "https://penguinrandomhousehighereducation.com/2025/02/13/how-the-world-really-works/",
+          "https://www.penguinrandomhouse.com/books/666342/how-the-world-really-works-by-vaclav-smil/",
+          "analysis/analysis_widerd_261018_2208.md"
+        ]
+      }
+    },
+    "connections": {
+      "status": "partial",
+      "mechanisms": [
+        {
+          "id": "useful-energy",
+          "statement": "Fuel availability and conversion efficiency jointly determine useful energy; this limits the scale of physical work and production.",
+          "scope": "Chapter 1 excerpt and repository assessment of industrial inputs.",
+          "roles": {
+            "ENE": "Primary energy",
+            "ENG": "Conversion efficiency",
+            "QNT": "Comparable useful-energy quantities",
+            "PRD": "Physical production",
+            "SCL": "Available throughput",
+            "ECO": "Material output"
+          },
+          "domains": [
+            "ENE",
+            "ENG",
+            "QNT",
+            "PRD",
+            "SCL",
+            "ECO"
+          ],
+          "strength": 3,
+          "confidence": "moderate",
+          "refs": [
+            "https://penguinrandomhousehighereducation.com/2025/02/13/how-the-world-really-works/",
+            "https://www.penguinrandomhouse.com/books/666342/how-the-world-really-works-by-vaclav-smil/",
+            "analysis/analysis_widerd_261018_2208.md"
+          ]
+        },
+        {
+          "id": "material-inputs",
+          "statement": "Large-scale material production depends on energy inputs and connected supply systems, which constrain substitution.",
+          "scope": "Publisher overview and repository assessment; alternative pathways are incompletely treated.",
+          "roles": {
+            "ENE": "Process energy",
+            "MAT": "Industrial materials",
+            "PRD": "Production routes",
+            "LOG": "Supply systems",
+            "SCL": "Required scale"
+          },
+          "domains": [
+            "ENE",
+            "MAT",
+            "PRD",
+            "LOG",
+            "SCL"
+          ],
+          "strength": 3,
+          "confidence": "moderate",
+          "refs": [
+            "https://penguinrandomhousehighereducation.com/2025/02/13/how-the-world-really-works/",
+            "https://www.penguinrandomhouse.com/books/666342/how-the-world-really-works-by-vaclav-smil/",
+            "analysis/analysis_widerd_261018_2208.md"
+          ]
+        }
+      ],
+      "joins": [
+        {
+          "from": "useful-energy",
+          "to": "material-inputs",
+          "handoff": "Available useful process energy",
+          "statement": "Energy after conversion supplies the industrial processes assessed in the material account.",
+          "scope": "Shared physical-input argument; no universal prediction about future technologies is assumed.",
+          "strength": 3,
+          "confidence": "moderate",
+          "refs": [
+            "https://penguinrandomhousehighereducation.com/2025/02/13/how-the-world-really-works/",
+            "https://www.penguinrandomhouse.com/books/666342/how-the-world-really-works-by-vaclav-smil/",
+            "analysis/analysis_widerd_261018_2208.md"
+          ]
+        }
+      ],
+      "limitations": "Primary sample or publisher/author description and the cited prior assessment were inspected. These records establish specific explanations, not an exhaustive inventory of the book. No absent domains are inferred from an excerpt."
+    },
+    "primaryReview": {
+      "retrieved": "2026-10-20",
+      "refs": [
+        "https://penguinrandomhousehighereducation.com/2025/02/13/how-the-world-really-works/",
+        "https://www.penguinrandomhouse.com/books/666342/how-the-world-really-works-by-vaclav-smil/",
+        "analysis/analysis_widerd_261018_2208.md"
+      ],
+      "method": "Manual semantic assessment; numerical depth and strength are interpretations of the cited evidence, not publisher ratings.",
+      "confidence": "moderate"
+    }
+  }
+}

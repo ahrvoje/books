@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import assert from 'node:assert/strict';
+const dir='data/veto_review_261021/',read=f=>fs.readFileSync(f,'utf8'),sha=s=>crypto.createHash('sha256').update(s).digest('hex');
+assert(!fs.existsSync(dir+'baseline.json'),'Baseline already exists');
+const compiled=JSON.parse(read('data/catalog.json')).compiled,data=JSON.parse(read(compiled));
+const files=Object.fromEntries(['AGENTS.md','RECOMMENDED_BOOKS.md','VETOED_BOOKS.md','EXCLUDED_BOOKS.md','SOURCES.md','site/enrichment.json','data/catalog.json',compiled].map(f=>[f,{sha256:sha(read(f)),...(/\.md$/.test(f)?{text:read(f)}:{})}]));
+const history=Object.fromEntries(fs.readdirSync('analysis').filter(f=>f.endsWith('.md')).map(f=>['analysis/'+f,sha(read('analysis/'+f))]));
+fs.writeFileSync(dir+'baseline.json',JSON.stringify({compiled,files,history},null,2)+'\n');
+const books=data.currentBooks.filter(b=>b.status==='vetoed').sort((a,b)=>a.title.localeCompare(b.title,'en'));
+const size=Math.ceil(books.length/3);
+for(const [i,name]of ['a','b','c'].entries())fs.writeFileSync(dir+name+'-input.json',JSON.stringify(books.slice(i*size,(i+1)*size),null,2)+'\n');
+console.log(JSON.stringify({books:books.length,batches:[size,size,books.length-2*size],history:Object.keys(history).length}));

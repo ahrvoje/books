@@ -1,0 +1,111 @@
+{
+  "url": "https://openlibrary.org/search.json?q=isbn%3A%280979663687+OR+0190938021+OR+0679411585+OR+0891419063%29&fields=key%2Ctitle%2Cauthor_name%2Cfirst_publish_year%2Cisbn%2Cedition_count&limit=100",
+  "retrievedAt": "2026-10-18T22:33:30.575Z",
+  "status": 200,
+  "ids": [
+    "g1313",
+    "g1314",
+    "g1315",
+    "g1316"
+  ],
+  "data": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "isbn:(0979663687 OR 0190938021 OR 0679411585 OR 0891419063)",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Harold G. Moore",
+          "Joseph L. Galloway"
+        ],
+        "edition_count": 20,
+        "first_publish_year": 1992,
+        "isbn": [
+          "0345472640",
+          "9780345472649",
+          "9788447350452",
+          "0060082569",
+          "0060975768",
+          "9780786244959",
+          "9788434466852",
+          "1559948671",
+          "9781402504938",
+          "9780974776989",
+          "9780060082567",
+          "0060506989",
+          "8434466856",
+          "0552150266",
+          "078624495X",
+          "0679411585",
+          "034547581X",
+          "9780552150262",
+          "8447350452",
+          "9781559948678",
+          "1853105023",
+          "1402504934",
+          "9780613621670",
+          "0613621670",
+          "097477698X",
+          "9780679411581",
+          "9780060975760",
+          "9780345475817",
+          "9781853105029",
+          "9780060506988"
+        ],
+        "key": "/works/OL3919996W",
+        "title": "We Were Soldiers Once... and Young"
+      },
+      {
+        "author_name": [
+          "E.B. Sledge"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2007,
+        "isbn": [
+          "9780307549587",
+          "9780891419198",
+          "0307549585",
+          "9780891419068",
+          "0891419195",
+          "0891419063"
+        ],
+        "key": "/works/OL8621576W",
+        "title": "With the Old Breed"
+      },
+      {
+        "author_name": [
+          "Gary Brecher"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2008,
+        "isbn": [
+          "0979663687",
+          "9781593763022",
+          "1593763026",
+          "9780979663680"
+        ],
+        "key": "/works/OL9776215W",
+        "title": "War nerd"
+      },
+      {
+        "author_name": [
+          "Jeffrey A. Friedman"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2019,
+        "isbn": [
+          "0197619134",
+          "9780197619131",
+          "0190938021",
+          "9780190938024"
+        ],
+        "key": "/works/OL21363686W",
+        "title": "War and Chance"
+      }
+    ]
+  }
+}

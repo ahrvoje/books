@@ -1,0 +1,1194 @@
+[
+  {
+    "index": 30,
+    "status": "recommended",
+    "confidence": "low",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The Tiger\" \"John Vaillant\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-078.json",
+          "result": "No verified matching book total-rating aggregate; unrelated podcasts rejected."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Tiger%20John%20Vaillant%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 352,
+        "id": "ISBN:9780307389046",
+        "url": "https://www.penguinrandomhouse.com/books/182226/the-tiger-by-john-vaillant/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2011,
+        "confidence": "high"
+      },
+      "domains": {},
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "General narrative natural history, not a hunting manual or fiction.",
+    "reason": "No serious veto established. Economic insecurity and human-predator interaction supply bounded explanation; attributing vengeance to the animal is a substantial inferential limit.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/182226/the-tiger-by-john-vaillant/",
+      "https://books.google.com/books/about/The_Tiger.html?id=12e3dl0noZkC"
+    ],
+    "raw": [
+      13,
+      10,
+      7,
+      7,
+      7,
+      8,
+      1,
+      3.5,
+      3,
+      1
+    ],
+    "notes": [
+      "E13: reporting grounds events; claims about animal intention remain uncertain.",
+      "S10: local livelihoods and human exposure connect to predation.",
+      "U7: contextual risk explanation transfers only modestly.",
+      "M7: injury and exposure explain danger better than the vengeance frame.",
+      "D7: regional description extends beyond the central incident.",
+      "R8: human-predator conflict is durable.",
+      "F1: natural history has little direct fit with the preferred industrial domains.",
+      "A3.5: sustained field reporting supports moderate authority.",
+      "N3: the pursuit gives the account a clear line.",
+      "P1: anthropomorphic certainty weakens precision."
+    ],
+    "year": 2010,
+    "yearNote": "Publisher ebook first published August 2010; paperback 2011.",
+    "periodEnd": 1997,
+    "periodNote": "Publisher-supplied Google Books description places the main hunt in December 1997.",
+    "themeNote": "T11=-10: wildlife conservation and environmental context dominate. T12=0: local institutions are background to the hunt."
+  },
+  {
+    "index": 31,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "moderate",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "id": "q0598",
+      "title": "The Golden Spruce",
+      "author": "John Vaillant",
+      "url": "https://www.amazon.com.au/dp/0099515792",
+      "attemptedAt": "2026-10-18T18:31:08.125Z",
+      "count": 1499,
+      "sourceSnapshot": "Direct public product page",
+      "evidence": [
+        "<span id=\"acrCustomerReviewText\" aria-label=\"1,499 reviews\" class=\"a-size-small\">(1,499)</span>",
+        "<span data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">1,499 global ratings</span>"
+      ],
+      "status": "verified matching Amazon product aggregate",
+      "attempts": [
+        {
+          "url": "https://www.amazon.com.au/dp/0099515792",
+          "requestedUrl": "https://www.amazon.com.au/dp/0099515792",
+          "retrievedAt": "2026-10-18T18:31:08.125Z",
+          "httpStatus": 200,
+          "title": "The Golden Spruce: A True Story of Myth, Madness and Greed",
+          "byline": "by John Vaillant (Author) Format: Paperback",
+          "topCount": 1499,
+          "globalCount": 1499,
+          "titleMatch": true,
+          "authorMatch": true,
+          "verified": true,
+          "evidence": [
+            "<span id=\"acrCustomerReviewText\" aria-label=\"1,499 reviews\" class=\"a-size-small\">(1,499)</span>",
+            "<span data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">1,499 global ratings</span>"
+          ],
+          "sha256": "09b8aa15421366e056e710eb2092ac98697f46bdce87d6062223894886ba5119"
+        }
+      ],
+      "productTitle": "The Golden Spruce: A True Story of Myth, Madness and Greed",
+      "byline": "by John Vaillant (Author) Format: Paperback",
+      "asin": "0099515792",
+      "marketplace": "www.amazon.com.au",
+      "confidence": "high",
+      "verifiedAt": "2026-10-18T18:31:08.125Z",
+      "retrievedAt": "2026-10-18T18:31:08.125Z"
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0099515792",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Retained Amazon snapshot: 1499 total ratings; 2026-10-18T18:31:08.125Z.",
+    "enrichment": {
+      "edition": {
+        "pages": 352,
+        "id": "ISBN:9780099515791",
+        "url": "https://www.penguin.co.uk/books/396600/the-golden-spruce-by-vaillant-john/9780099515791",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2007,
+        "confidence": "high"
+      },
+      "domains": {
+        "PRD": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Industrial logging practices explain the conflict.",
+          "refs": [
+            "analysis/analysis_bestever_261017_2138.md#b095"
+          ]
+        },
+        "MAT": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Timber extraction and valuation are sustained material concerns.",
+          "refs": [
+            "analysis/analysis_bestever_261017_2138.md#b095"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Narrative investigation of logging, culture and one destructive act; not forestry instruction.",
+    "reason": "No serious veto established. The book examines an environmental protest as a historical event rather than functioning principally as a campaign manual. Industrial incentives provide payload beyond the mystery.",
+    "reassessment": "Reread b095 and the current deduction row. Publisher description supports the logging/cultural account and its limited generalizability. Retain all ten attainments, no veto, T11=-10, T12=0, 2005 and 1997. Retain the explicitly labeled 1,499 global-rating observation at its original retrieval date. Publisher confirms the 352-page paperback.",
+    "evidence": [
+      "https://www.penguin.co.uk/books/396600/the-golden-spruce-by-vaillant-john/9780099515791",
+      "analysis/analysis_bestever_261017_2138.md#b095",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0598"
+    ],
+    "raw": [
+      16,
+      12.75,
+      9,
+      7.764705882352941,
+      7,
+      8,
+      3,
+      4,
+      3,
+      2
+    ],
+    "notes": [
+      "E16: reporting grounds logging and the destruction; motive remains partly uncertain.",
+      "S12.75: production incentives, technology and cultural value interact.",
+      "U9: conflicting measures of value transfer beyond forestry.",
+      "M7.7647: industrial incentives explain context more securely than one person’s act.",
+      "D7: tree and regional history reduce analytical concentration.",
+      "R8: material and symbolic value conflicts endure.",
+      "F3: industry fits, while environment and cultural history dominate.",
+      "A4: substantial reporting supports the historical reconstruction.",
+      "N3: the disappearance and destruction organize the account.",
+      "P2: concrete descriptive prose supports the earlier judgment."
+    ],
+    "year": 2005,
+    "yearNote": "Original 2005 retained from prior sourced assessment; UK paperback is 2007.",
+    "periodEnd": 1997,
+    "periodNote": "The destruction and disappearance in 1997 form the central episode.",
+    "themeNote": "T11=-10: environmental and Indigenous cultural history are central. T12=0: industrial/resource history rather than political doctrine."
+  },
+  {
+    "index": 32,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Endurance\" \"Scott Kelly\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-079.json",
+          "result": "No verified matching book total-rating aggregate; unrelated podcasts rejected."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Endurance%20Scott%20Kelly%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 496,
+        "id": "ISBN:9780525432432",
+        "url": "https://www.penguinrandomhouse.com/books/549529/endurance-by-scott-kelly/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2018,
+        "confidence": "high"
+      },
+      "domains": {
+        "HTC": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Life aboard the ISS is the principal technical setting.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/549529/endurance-by-scott-kelly/"
+          ]
+        },
+        "ENG": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Depressurization, debris and equipment constraints shape daily life.",
+          "refs": [
+            "https://www.scottkelly.com/endurance"
+          ]
+        },
+        "INS": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Close cooperation among crew members is a sustained operational constraint.",
+          "refs": [
+            "https://www.scottkelly.com/endurance"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Astronaut memoir and explanatory account for the public; training episodes do not make its structure instructional.",
+    "reason": "No serious veto established. Long-duration mission constraints provide some payload, and the science/high-tech memoir exception also applies. Personal inspiration limits density.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/549529/endurance-by-scott-kelly/",
+      "https://www.scottkelly.com/endurance"
+    ],
+    "raw": [
+      15,
+      10,
+      8,
+      7,
+      6,
+      8,
+      6,
+      4.5,
+      2.5,
+      1.5
+    ],
+    "notes": [
+      "E15: participant testimony gives direct access but limited independent checking.",
+      "S10: spacecraft constraints, human limits and team living interact.",
+      "U8: adaptation and cooperation have bounded transfer.",
+      "M7: operational problems are described more than systematically modeled.",
+      "D6: childhood and personal relationships occupy much of the memoir.",
+      "R8: long-duration mission constraints remain relevant.",
+      "F6: space technology and its practical limits fit well.",
+      "A4.5: Kelly has direct command and engineering experience.",
+      "N2.5: alternating life and mission stories broaden but diffuse the structure.",
+      "P1.5: candid testimony includes inspirational generalization."
+    ],
+    "year": 2017,
+    "yearNote": "Publisher first ebook October 2017; paperback 2018.",
+    "periodEnd": 2016,
+    "periodNote": "The year-long ISS mission and return in 2016 complete the principal memoir arc.",
+    "themeNote": "T11=0: a spaceflight memoir, not primarily American civic history or national tragedy. T12=0: military career is background to space operations."
+  },
+  {
+    "index": 33,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Shattered Sword\" \"Parshall\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-080.json",
+          "result": "No verified matching book total-rating aggregate; unrelated podcasts rejected."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Shattered%20Sword%20Jonathan%20Parshall%3B%20Anthony%20Tully%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 640,
+        "id": "ISBN:9781574889246",
+        "url": "https://www.nebraskapress.unl.edu/potomac-books/9781574889246/shattered-sword/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2007,
+        "confidence": "high"
+      },
+      "domains": {
+        "MIL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Battle operations and doctrine are central.",
+          "refs": [
+            "https://www.nebraskapress.unl.edu/potomac-books/9781574889246/shattered-sword/"
+          ]
+        },
+        "ENG": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Carrier and aircraft capabilities constrain operations.",
+          "refs": [
+            "https://www.nebraskapress.unl.edu/potomac-books/9781574889246/shattered-sword/"
+          ]
+        },
+        "LOG": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Aircraft preparation and movement constrain readiness.",
+          "refs": [
+            "https://books.google.com/books/about/Shattered_Sword.html?hl=en&id=krvlaQ5PQOQC&output=html_text"
+          ]
+        },
+        "STR": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Planning and operational decisions are sustained subjects.",
+          "refs": [
+            "https://www.nebraskapress.unl.edu/potomac-books/9781574889246/shattered-sword/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "carrier-constraints-and-operational-outcomes",
+            "domains": [
+              "ENG",
+              "MIL",
+              "STR"
+            ],
+            "roles": {
+              "ENG": "Carrier and aircraft capabilities",
+              "MIL": "Naval air operations",
+              "STR": "Operational planning and timing"
+            },
+            "statement": "Carrier technology and operating practice constrain which plans can be executed, explaining outcomes that personality-centered accounts misattribute.",
+            "scope": "Japanese carrier operations at Midway.",
+            "strength": 3,
+            "confidence": "moderate",
+            "refs": [
+              "https://www.nebraskapress.unl.edu/potomac-books/9781574889246/shattered-sword/"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Detailed combat narrative and historical argument for military-history readers. Chronological chapters and a causal conclusion dominate; technical appendices do not make it specialist training.",
+    "reason": "No serious veto established. Japanese operational records, carrier constraints and source criticism provide clear transferable payload.",
+    "evidence": [
+      "https://www.nebraskapress.unl.edu/potomac-books/9781574889246/shattered-sword/",
+      "https://books.google.com/books/about/Shattered_Sword.html?hl=en&id=krvlaQ5PQOQC&output=html_text"
+    ],
+    "raw": [
+      18,
+      14,
+      12,
+      11,
+      8,
+      9,
+      5,
+      4.5,
+      2.5,
+      1.5
+    ],
+    "notes": [
+      "E18: Japanese primary records and explicit correction of inherited accounts support integrity.",
+      "S14: aircraft operations, carrier design and naval doctrine interact.",
+      "U12: operational bottlenecks and source criticism transfer well.",
+      "M11: technical constraints explain timing and failure beyond heroic narrative.",
+      "D8: detailed chronology earns much space, though appendices exceed general needs.",
+      "R9: the historical operational analysis is durable.",
+      "F5: technology and logistics fit; battle remains central.",
+      "A4.5: sustained naval scholarship and specialist engagement support authority.",
+      "N2.5: chronology is clear but dense operational detail slows it.",
+      "P1.5: forceful correction of predecessors can narrow interpretive caution."
+    ],
+    "year": 2005,
+    "yearNote": "Publisher lists November 2005 hardcover, November 2007 paperback.",
+    "periodEnd": 1942,
+    "periodNote": "The Battle of Midway in June 1942 is central.",
+    "themeNote": "T11=0: international naval operations rather than one-nation civic history. T12=-10: war and operational doctrine are central."
+  },
+  {
+    "index": 34,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"1942\" \"Parshall\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-081.json",
+          "result": "No verified matching book total-rating aggregate; unrelated podcasts rejected."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=1942%3A%20Crux%20of%20War%20Jonathan%20Parshall%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 1280,
+        "id": "ISBN:9780197848371",
+        "url": "https://books.google.com/books/about/1942.html?id=6CWc0QEACAAJ",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Print edition; binding not stated in inspected primary record",
+        "year": 2026,
+        "confidence": "moderate"
+      },
+      "domains": {
+        "MIL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Global military campaigns organize the book.",
+          "refs": [
+            "https://academic.oup.com/book/63193"
+          ]
+        },
+        "STR": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "The strategic balance across fronts is the main argument.",
+          "refs": [
+            "https://academic.oup.com/book/63193"
+          ]
+        },
+        "LOG": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Supply constraints connect geographically separate campaigns.",
+          "refs": [
+            "https://books.google.com/books/about/1942.html?id=P1nkEQAAQBAJ"
+          ]
+        },
+        "PRD": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Material output contributes to the changing global balance.",
+          "refs": [
+            "https://books.google.com/books/about/1942.html?id=P1nkEQAAQBAJ"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Oxford abstracts, contents and notes extent inspected; complete chapters unavailable. Binding remains explicitly unverified."
+      }
+    },
+    "eligibility": "A month-by-month global explanatory war history. Its length and scholarly apparatus do not make it a course text or procedural reference.",
+    "reason": "No serious veto established. The argument rejects one decisive battle in favor of interacting fronts and material capacity. Limited access to full chapters keeps confidence moderate.",
+    "evidence": [
+      "https://academic.oup.com/book/63193",
+      "https://books.google.com/books/about/1942.html?id=6CWc0QEACAAJ",
+      "https://academic.oup.com/book/63193/chapter-abstract/569291426"
+    ],
+    "raw": [
+      16,
+      15,
+      12,
+      10,
+      6,
+      8,
+      5,
+      4,
+      2.5,
+      1.5
+    ],
+    "notes": [
+      "E16: extensive notes and a testable comparative thesis support the account; full evidential audit is incomplete.",
+      "S15: simultaneous fronts and material constraints are explicitly integrated.",
+      "U12: distributed constraints challenge single-event explanations.",
+      "M10: the global balance is explained through interacting campaigns, not one turning point.",
+      "D6: 1,280 pages impose a major density cost.",
+      "R8: historical synthesis is durable, though its new thesis has limited postpublication scrutiny.",
+      "F5: logistics and production fit within a war-centered account.",
+      "A4: Parshall’s established operational scholarship supports authority.",
+      "N2.5: monthly organization helps comparison but demands substantial reader tracking.",
+      "P1.5: a broad decisive-year thesis requires counterfactual caution."
+    ],
+    "year": 2026,
+    "yearNote": "Oxford copyright and publication record establish 2026; online and print release dates differ within that year.",
+    "periodEnd": 1942,
+    "periodNote": "The contents end with December 1942 and a closing assessment.",
+    "themeNote": "T11=0: global comparative history. T12=-10: military strategy and war are central."
+  },
+  {
+    "index": 35,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Flight 232\" \"Gonzales\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-082.json",
+          "result": "No verified matching book total-rating aggregate; unrelated podcasts rejected."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Flight%20232%20Laurence%20Gonzales%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 432,
+        "id": "ISBN:9780393351262",
+        "url": "https://wwnorton.co.uk/books/9780393351262-flight-232-44f76e93-4898-463c-abca-f4253dd7b2f0",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2015,
+        "confidence": "high"
+      },
+      "domains": {
+        "ENG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Aircraft control-system failure organizes the incident.",
+          "refs": [
+            "https://wwnorton.co.uk/books/9780393351262-flight-232-44f76e93-4898-463c-abca-f4253dd7b2f0"
+          ]
+        },
+        "MAT": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "A flaw in the titanium fan disk is traced in the investigation.",
+          "refs": [
+            "https://wwnorton.co.uk/books/9780393351262-flight-232-44f76e93-4898-463c-abca-f4253dd7b2f0"
+          ]
+        },
+        "QLT": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Failure analysis and safety assurance are central.",
+          "refs": [
+            "https://wwnorton.co.uk/books/9780393351262-flight-232-44f76e93-4898-463c-abca-f4253dd7b2f0"
+          ]
+        },
+        "HEU": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Crew improvisation compensates for lost normal controls.",
+          "refs": [
+            "https://wwnorton.co.uk/books/9780393351262-flight-232-44f76e93-4898-463c-abca-f4253dd7b2f0"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "material-defect-to-control-loss",
+            "domains": [
+              "MAT",
+              "ENG",
+              "QLT",
+              "HEU"
+            ],
+            "roles": {
+              "MAT": "Flawed titanium disk",
+              "ENG": "Aircraft control vulnerability",
+              "QLT": "Failure investigation",
+              "HEU": "Improvised control after failure"
+            },
+            "statement": "A material defect defeats normal control systems; the crew improvises within remaining capability while investigators trace the initiating fault.",
+            "scope": "United Airlines Flight 232.",
+            "strength": 3,
+            "confidence": "moderate",
+            "refs": [
+              "https://wwnorton.co.uk/books/9780393351262-flight-232-44f76e93-4898-463c-abca-f4253dd7b2f0"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Public disaster reconstruction and explanatory investigation, not flight instruction.",
+    "reason": "No serious veto established. Material defects, shared hydraulic vulnerability and crew improvisation supply concrete reliability lessons.",
+    "evidence": [
+      "https://wwnorton.co.uk/books/9780393351262-flight-232-44f76e93-4898-463c-abca-f4253dd7b2f0",
+      "https://books.google.com/books/about/Flight_232.html?id=DsemngEACAAJ"
+    ],
+    "raw": [
+      17,
+      14,
+      13,
+      11,
+      7,
+      9,
+      7,
+      4,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E17: interviews and physical failure investigation provide complementary evidence.",
+      "S14: metallurgy, aircraft systems, crew and rescue response interact.",
+      "U13: common-cause failure and constrained improvisation transfer strongly.",
+      "M11: a small material defect is traced through system failure.",
+      "D7: survivor experience occupies space beyond the technical investigation.",
+      "R9: reliability and emergency adaptation remain durable.",
+      "F7: engineering quality and failure analysis directly fit.",
+      "A4: Gonzales combines reporting with flight experience.",
+      "N3: incident and investigation create a clear two-stage narrative.",
+      "P1.5: dramatic reconstruction limits certainty about private experience."
+    ],
+    "year": 2014,
+    "yearNote": "Publisher and bibliographic record identify 2014 original; paperback 2015.",
+    "periodEnd": 1990,
+    "periodNote": "The 1989 crash and subsequent investigation form the central arc; 1990 is the principal investigation endpoint, not later survivor anniversaries.",
+    "themeNote": "T11=-10: the American disaster and survivor experience are central. T12=0: technical failure and response lead."
+  },
+  {
+    "index": 36,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "moderate",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": 2986,
+      "status": "Verified matching archived product response; explicit global ratings label. Title and author checked.",
+      "marketplace": "www.amazon.com",
+      "asin": "0393353710",
+      "url": "https://www.amazon.com/dp/0393353710",
+      "retrievedAt": "2026-10-20T14:43:02.720Z",
+      "evidence": [
+        "data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">2,986 global ratings"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.amazon.com/dp/0393353710",
+          "retrievedAt": "2026-10-20T14:43:02.720Z",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0350-0393353710-www.amazon.com-5662ed1c37051eca.html.gz",
+          "result": "Matching title, author and explicit global-rating label."
+        }
+      ]
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0393353710",
+    "purchaseFormat": "Paperback edition locator supplied by the assessment; see cited edition evidence.",
+    "reader": "Amazon archived product: 2986 global ratings; 2026-10-20T14:43:02.720Z.",
+    "enrichment": {
+      "edition": {
+        "pages": 336,
+        "id": "ASIN:0393353710",
+        "url": "https://www.amazon.com/dp/0393353710",
+        "retrieved": "2026-10-20T14:43:02.720Z",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2017,
+        "confidence": "high",
+        "title": "Deep Survival: Who Lives, Who Dies, and Why",
+        "authors": "by Laurence Gonzales (Author) Format: Paperback",
+        "isbn10": [
+          "0393353710"
+        ],
+        "isbn13": [
+          "9780393353716"
+        ],
+        "notes": "Page count, title, author, language, format and edition year observed on the same product page. Product ID verified from the landing page when available; original request URL retained in provenance.",
+        "source": {
+          "provider": "www.amazon.com",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0350-0393353710-www.amazon.com-5662ed1c37051eca.html.gz",
+          "sha256": "f840f8e56fd8a7e9103676cf154fad8ed5a4846ba7a362751ae1c265fb0bb63a",
+          "requestedUrl": "https://www.amazon.com/dp/0393353710"
+        }
+      },
+      "domains": {
+        "HEU": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Perception and mental-model revision are the sustained subject.",
+          "refs": [
+            "https://books.google.com/books/about/Deep_Survival.html?id=FjAfDgAAQBAJ"
+          ]
+        },
+        "QNT": {
+          "value": 1,
+          "confidence": "moderate",
+          "rationale": "Risk estimates are discussed, but the cases do not support calibrated probability claims.",
+          "refs": [
+            "analysis/analysis_glaspstrat_261019_0144.md#g0498"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Predominantly a narrative investigation of perception and survival, with advice secondary to the explanatory cases. Contents do not establish a procedural wilderness manual.",
+    "reason": "Retain no serious veto. Survivor selection and retrospective causation materially limit the explanatory claims without proving a central falsehood.",
+    "reassessment": "Reread g0498, a196 and the current deduction row. The inspected contents confirm case narrative rather than procedural training. Retain every attainment, no veto, zero themes, 2003 and no single period. Archived matching product gives 2,986 explicit global ratings, replacing 2,983 without changing O15. Retain its verified 336-page paperback.",
+    "evidence": [
+      "https://books.google.com/books/about/Deep_Survival.html?id=FjAfDgAAQBAJ",
+      "analysis/analysis_glaspstrat_261019_0144.md#g0498",
+      "analysis/analysis_anysubject_261017_2227.md#a196",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0350"
+    ],
+    "raw": [
+      12,
+      9.916666666666666,
+      13,
+      9.176470588235293,
+      8,
+      7,
+      5,
+      3,
+      3,
+      1
+    ],
+    "notes": [
+      "E12: selected survivors and retrospective explanation constrain causal reliability.",
+      "S9.9167: perception, stress and physical exposure interact in bounded cases.",
+      "U13: adapting mental models under pressure offers strong heuristic value.",
+      "M9.1765: cognitive failure chains are useful but not controlled tests.",
+      "D8: concentrated episodes advance the same inquiry.",
+      "R7: adaptation remains useful while some cognitive explanations may age.",
+      "F5: risk and heuristic thinking fit well.",
+      "A3: experienced reporting provides access, not experimental authority.",
+      "N3: survival episodes make the argument memorable.",
+      "P1: universal-sounding survival claims exceed the case design."
+    ],
+    "year": 2003,
+    "yearNote": "Prior original 2003 corroborated by bibliographic earlier editions; inspected expanded edition is 2017.",
+    "periodEnd": null,
+    "periodNote": "Cross-period inquiry into survival and decision-making, not a single historical episode.",
+    "themeNote": "T11=0: natural settings are case contexts, not environmental advocacy. T12=0: decision and adaptation mechanisms lead rather than philosophy or military doctrine."
+  },
+  {
+    "index": 37,
+    "status": "vetoed",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Crossings\" \"Ben Goldfarb\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-083.json",
+          "result": "No verified matching book total-rating aggregate; unrelated podcasts rejected."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Crossings%3A%20How%20Road%20Ecology%20Is%20Shaping%20Our%20Future%20Ben%20Goldfarb%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 384,
+        "id": "ISBN:9781324005896",
+        "url": "https://wwnorton.co.uk/books/9781324005896-crossings",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Hardcover",
+        "year": 2023,
+        "confidence": "high"
+      },
+      "domains": {
+        "LOG": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Road networks provide the infrastructure under study.",
+          "refs": [
+            "https://wwnorton.co.uk/books/9781324005896-crossings"
+          ]
+        },
+        "ENG": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Crossings and road modification change barrier effects.",
+          "refs": [
+            "https://wwnorton.co.uk/books/9781324005896-crossings"
+          ]
+        },
+        "INS": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Planning and conservation decisions determine deployment.",
+          "refs": [
+            "https://www.bengoldfarb.com/crossingsold"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "Crossings: How Road Ecology Is Shaping the Future of Our Planet",
+    "veto": "V5",
+    "vetoConfidence": "moderate",
+    "eligibility": "A public explanatory and argumentative account, not a road-design manual.",
+    "reason": "V5 at moderate confidence: the author explicitly combines diagnosis with an environmental program to change road building and restore habitats. This is a primary normative purpose, beyond incidentally reporting ecological history. Counterfactual scoring retains that fit problem.",
+    "evidence": [
+      "https://wwnorton.co.uk/books/9781324005896-crossings",
+      "https://www.bengoldfarb.com/crossingsold",
+      "https://search.worldcat.org/title/1396185975"
+    ],
+    "raw": [
+      16,
+      13,
+      10,
+      9,
+      8,
+      8,
+      4,
+      4,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E16: field reporting and road-ecology research ground the described effects.",
+      "S13: infrastructure, animal movement and planning decisions are linked.",
+      "U10: network fragmentation and design externalities transfer to other systems.",
+      "M9: barriers, collision exposure and habitat fragmentation provide mechanisms.",
+      "D8: varied sites illuminate a coherent infrastructure problem.",
+      "R8: built-network effects outlast current policy disputes.",
+      "F4: infrastructure fits, while ecology is the main purpose.",
+      "A4: specialized environmental reporting supports the inquiry.",
+      "N3: site visits make the causal effects accessible.",
+      "P1.5: advocacy language sometimes merges description with prescription."
+    ],
+    "year": 2023,
+    "yearNote": "Author and publisher establish 2023 first publication.",
+    "periodEnd": null,
+    "periodNote": "Contemporary cross-country explanation with historical examples, not one central historical period.",
+    "themeNote": "T11=-10: ecology and environmental restoration are central. T12=0: infrastructure/ecology leads, with policy a means."
+  },
+  {
+    "index": 38,
+    "status": "recommended",
+    "confidence": "low",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Biological War\" \"Jacobsen\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-084.json",
+          "result": "No verified matching book total-rating aggregate; unrelated podcasts rejected."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Biological%20War%20Annie%20Jacobsen%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 432,
+        "id": "ISBN:9798217046034",
+        "url": "https://www.penguinrandomhouse.com/books/783250/biological-war-by-annie-jacobsen/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Hardcover",
+        "year": 2026,
+        "confidence": "high"
+      },
+      "domains": {
+        "MIL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Biological warfare is the central threat scenario.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/783250/biological-war-by-annie-jacobsen/"
+          ]
+        },
+        "STR": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Preparedness and response under uncertainty shape the scenario.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/783250/biological-war-by-annie-jacobsen/"
+          ]
+        },
+        "INS": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Governmental and medical institutions determine response.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/783250/biological-war-by-annie-jacobsen/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Interview-based explanatory scenario presented as nonfiction, not a novel or technical biological-weapons procedure manual.",
+    "reason": "No serious veto established on the inspected evidence, at low confidence. A constructed catastrophic chain can illuminate vulnerability but cannot establish its likelihood or inevitability; no unsupported technical details are adopted here.",
+    "raw": [
+      11,
+      13,
+      9,
+      8,
+      7,
+      6,
+      4,
+      3,
+      3,
+      1
+    ],
+    "notes": [
+      "E11: identified expert interviews support access; the compound scenario is not a probability estimate.",
+      "S13: laboratories, public health, infrastructure and government response interact.",
+      "U9: preparedness and propagation risks offer bounded transfer.",
+      "M8: causal sequencing exposes dependencies but relies on selected contingencies.",
+      "D7: one scenario provides focus while dramatic escalation takes space.",
+      "R6: biological-threat procedures and current capabilities can change rapidly.",
+      "F4: strategic risk fits, but disease and warfare dominate.",
+      "A3: experienced reporting does not substitute for broad technical validation.",
+      "N3: the escalating timeline makes dependencies legible.",
+      "P1: civilization-collapse framing can exceed demonstrated likelihood."
+    ],
+    "year": 2026,
+    "yearNote": "Publisher first hardcover July 2026; this is published, not an announced future title.",
+    "periodEnd": null,
+    "periodNote": "Hypothetical future scenario with background history; H13=0.",
+    "themeNote": "T11=-10: pandemic disease is central. T12=-10: biological warfare and state response are central.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/783250/biological-war-by-annie-jacobsen/"
+    ]
+  },
+  {
+    "index": 39,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": -10,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "The prior snapshot exposes only a review-label count. Total ratings are unverified; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0143125788",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 656,
+        "id": "ISBN:9780143125785",
+        "url": "https://www.penguinrandomhouse.com/books/303337/command-and-control-by-eric-schlosser/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2014,
+        "confidence": "high"
+      },
+      "domains": {
+        "ENG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Nuclear weapon and missile systems create physical constraints.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/303337/command-and-control-by-eric-schlosser/"
+          ]
+        },
+        "QLT": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Accident prevention and reliability are central.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/303337/command-and-control-by-eric-schlosser/"
+          ]
+        },
+        "MIL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Military arsenals and readiness govern deployment.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/303337/command-and-control-by-eric-schlosser/"
+          ]
+        },
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Command and safety authority determine decisions.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/303337/command-and-control-by-eric-schlosser/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "readiness-versus-safety",
+            "domains": [
+              "ENG",
+              "QLT",
+              "MIL",
+              "INS"
+            ],
+            "roles": {
+              "ENG": "Complex weapon hardware",
+              "QLT": "Accident prevention",
+              "MIL": "Readiness requirements",
+              "INS": "Command and safety authority"
+            },
+            "statement": "Readiness demands and divided authority constrain how engineering safeguards are adopted, creating failure paths that individual competence cannot fully control.",
+            "scope": "US nuclear arsenal history and Damascus accident.",
+            "strength": 4,
+            "confidence": "moderate",
+            "refs": [
+              "https://www.penguinrandomhouse.com/books/303337/command-and-control-by-eric-schlosser/"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Investigative nuclear-safety history for public readers, not weapons design or operation instruction.",
+    "reason": "No serious veto established. Readiness-versus-safety tensions and organizational information failures provide strong transferable mechanisms.",
+    "reassessment": "Reread p078 and the current deduction row. Publisher confirms the 1980 Damascus accident frame and broad arsenal history. Retain all ten attainments, no veto, both -10 themes and 2013. Correct the unsupported 1982 endpoint to the explicitly dated central accident in 1980; broader historical passages and later lessons do not define a different main episode. Earlier Reviews count is ambiguous; O15 remains zero through fallback.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/303337/command-and-control-by-eric-schlosser/",
+      "analysis/analysis_physcanon_261018_0147.md#p078",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0163"
+    ],
+    "raw": [
+      18,
+      17,
+      14,
+      11.294117647058824,
+      7,
+      9,
+      7,
+      4,
+      3,
+      2
+    ],
+    "notes": [
+      "E18: documentary reporting supports failures; near misses cannot quantify catastrophe probability.",
+      "S17: weapons engineering, military readiness and institutional control are closely joined.",
+      "U14: control architecture and warning failures transfer widely.",
+      "M11.2941: failure chains connect physical faults with organizational decisions.",
+      "D7: extended accident reconstruction reduces analytical density.",
+      "R9: safety-versus-readiness conflicts remain durable.",
+      "F7: high technology, reliability and strategic risk fit directly.",
+      "A4: extensive investigative reporting supports authority.",
+      "N3: the accident provides a clear thread through institutional history.",
+      "P2: prior clarity judgment remains supported, with probability limits explicit."
+    ],
+    "year": 2013,
+    "yearNote": "Publisher first ebook September 2013; paperback 2014.",
+    "periodEnd": 1980,
+    "periodNote": "Damascus accident is the central narrative episode; wider arsenal history is interleaved context.",
+    "themeNote": "T11=-10: the US accident/disaster frame is central. T12=-10: military nuclear control is also central."
+  }
+]

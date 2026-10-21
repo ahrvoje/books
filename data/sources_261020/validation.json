@@ -1,0 +1,27 @@
+{
+  "reviewed": "2026-10-20",
+  "datasetHash": "913cb7020a837d4d",
+  "catalogBooks": 2131,
+  "candidateDecisions": 1554,
+  "uniqueWorkRecords": 1549,
+  "sourceAnalyses": 21,
+  "publicationPreflight": "Passed before the one-time write of 31 outputs; saved baseline hashes matched.",
+  "referenceAudit": "No missing local references, invalid anchors or duplicate assessment IDs.",
+  "calculationTests": {"passed": 13, "failed": 0, "p95For2000BooksMs": 8.2},
+  "browser": {
+    "engine": "Chromium",
+    "isolatedSingleHtmlFile": true,
+    "httpRequests": 0,
+    "pageErrors": 0,
+    "renderedRows": 2131,
+    "viewportWidthsWithoutPageOverflow": [320, 390, 768, 1099, 1100, 1440],
+    "desktopAndPhoneScreenshotsInspected": true,
+    "observedRenderMs": 192.5,
+    "outputDirectory": "site/qa-output/"
+  },
+  "limits": [
+    "Tests do not establish complete source capture or complete domain and connection evidence.",
+    "Physical phones, on-screen keyboards, Safari and Firefox were not tested.",
+    "Performance values are local measurements."
+  ]
+}

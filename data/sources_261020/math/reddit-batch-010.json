@@ -1,0 +1,973 @@
+[
+  {
+    "index": 80,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": 26162,
+      "status": "Verified matching archived product response; explicit global ratings label. Title and author checked.",
+      "marketplace": "www.amazon.com",
+      "asin": "0385494785",
+      "url": "https://www.amazon.com/dp/0385494785",
+      "retrievedAt": "2026-10-20T14:42:42.654Z",
+      "evidence": [
+        "data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">26,162 global ratings"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.amazon.com/dp/0385494785",
+          "retrievedAt": "2026-10-20T14:42:42.654Z",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0334-0385494785-www.amazon.com-20a85b2479e8cfd3.html.gz",
+          "result": "Matching title, author and explicit global-rating label."
+        }
+      ]
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0385494785",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Amazon archived product: 26162 global ratings; 2026-10-20T14:42:42.654Z.",
+    "enrichment": {
+      "edition": {
+        "pages": 384,
+        "id": "ISBN:9780385494786",
+        "url": "https://www.penguinrandomhouse.com/books/95441/into-thin-air-by-jon-krakauer-new-afterword-by-the-author/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 1999,
+        "confidence": "high"
+      },
+      "domains": {
+        "STR": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Turnaround and commitment decisions under uncertainty recur.",
+          "refs": [
+            "analysis/analysis_anysubject_261017_2227.md#a182"
+          ]
+        },
+        "LOG": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Expedition support and resource limits shape decisions.",
+          "refs": [
+            "analysis/analysis_anysubject_261017_2227.md#a182"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Participant expedition narrative, not climbing instruction.",
+    "reason": "No serious veto established. Coordination and irreversible decisions supply payload, while oxygen-depleted memory and competing testimony limit causal confidence.",
+    "reassessment": "Reread a182 and the current deduction row, then publisher scope and dates. Retain all ten attainments, gates, both zero themes, original 1997 and endpoint 1996. Strong publisher praise does not remove the prior eyewitness limitations. Update the verified archived Amazon aggregate without changing its band.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/95441/into-thin-air-by-jon-krakauer-new-afterword-by-the-author/",
+      "analysis/analysis_anysubject_261017_2227.md#a182",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0334"
+    ],
+    "raw": [
+      14,
+      9.916666666666666,
+      12,
+      8.470588235294118,
+      8,
+      8,
+      4,
+      3,
+      3,
+      2
+    ],
+    "notes": [
+      "E14: firsthand reporting is limited by impaired memory and disputed events.",
+      "S9.9167: coordination, supplies and human limits interact.",
+      "U12: turnaround decisions and escalating commitment transfer.",
+      "M8.4706: failure sequences are useful but causal attribution remains contested.",
+      "D8: a focused expedition earns its detail.",
+      "R8: decision and coordination problems remain durable.",
+      "F4: strategic risk and resource limits fit indirectly.",
+      "A3: participant journalism supplies access, not neutral omniscience.",
+      "N3: the ascent and disaster form a strong structure.",
+      "P2: precise narrative coexists with explicit perspective limits."
+    ],
+    "year": 1997,
+    "yearNote": "Publisher original hardcover April 1997.",
+    "periodEnd": 1996,
+    "periodNote": "The central Everest disaster occurred in May 1996.",
+    "themeNote": "T11=0: multinational expedition risk, not American tragedy or national history. T12=0: no listed second-theme subject dominates."
+  },
+  {
+    "index": 81,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Fly by Wire\" Langewiesche ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-203.json",
+          "result": "Public index search did not expose a verified matching Amazon total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Fly%20by%20Wire%20William%20Langewiesche%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 208,
+        "id": "ISBN:9780312655389",
+        "url": "https://academic.macmillan.com/academictrade/9780312655389/flybywire/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2010,
+        "confidence": "high"
+      },
+      "domains": {
+        "ENG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Aircraft and flight-control design are central.",
+          "refs": [
+            "https://us.macmillan.com/books/9780312655389/flybywire/"
+          ]
+        },
+        "CMP": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Fly-by-wire software changes control authority.",
+          "refs": [
+            "https://us.macmillan.com/books/9780312655389/flybywire/"
+          ]
+        },
+        "QLT": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Testing and operating safety constrain performance.",
+          "refs": [
+            "https://us.macmillan.com/books/9780312655389/flybywire/"
+          ]
+        },
+        "INS": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Airline labor and organizational incentives affect operation.",
+          "refs": [
+            "https://us.macmillan.com/books/9780312655389/flybywire/"
+          ]
+        },
+        "FIN": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Bankruptcy and financing constraints affect airline decisions.",
+          "refs": [
+            "https://us.macmillan.com/books/9780312655389/flybywire/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "automation-safety",
+            "domains": [
+              "CMP",
+              "ENG",
+              "QLT"
+            ],
+            "roles": {
+              "CMP": "Control laws restrict pilot commands",
+              "ENG": "Aircraft aerodynamic limits define safe maneuvers",
+              "QLT": "Testing and incident response determine acceptable protection"
+            },
+            "statement": "Software protection links the aircraft’s physical envelope to which pilot commands the system will execute.",
+            "scope": "Airbus fly-by-wire safety",
+            "strength": 3,
+            "confidence": "moderate",
+            "refs": [
+              "https://books.google.com/books/about/Fly_by_Wire.html?id=ChhBFtCiJ8IC"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Explanatory aviation reporting with a technical history, not pilot training.",
+    "reason": "No serious veto established. Automation, operating constraints and incentives give strong payload; counter-heroic framing should not substitute for balanced attribution.",
+    "evidence": [
+      "https://us.macmillan.com/books/9780312655389/flybywire/",
+      "https://books.google.com/books/about/Fly_by_Wire.html?id=ChhBFtCiJ8IC",
+      "https://academic.macmillan.com/academictrade/9780312655389/flybywire/"
+    ],
+    "raw": [
+      16,
+      15,
+      13,
+      11,
+      9,
+      9,
+      7,
+      4,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E16: reporting and technical explanation support the account; attributed motives need caution.",
+      "S15: control software, aircraft design, testing and airline economics connect.",
+      "U13: human-machine authority and safety trade-offs transfer widely.",
+      "M11: flight protections and failure sequences receive concrete explanation.",
+      "D9: the short account concentrates substantial systems content.",
+      "R9: automation and operational reliability remain durable.",
+      "F7: engineering, computing and safety directly fit.",
+      "A4: aviation experience and investigative reporting support authority.",
+      "N3: the flight anchors the technical history clearly.",
+      "P1.5: skeptical psychological asides reduce precision."
+    ],
+    "year": 2009,
+    "yearNote": "Original Macmillan ebook November 2009; inspected paperback 2010.",
+    "periodEnd": 2009,
+    "periodNote": "The technical history is organized around the January 2009 Hudson landing.",
+    "themeNote": "T11=0: international aviation technology is central, not local tragedy. T12=0: finance and industrial relations support the engineering account."
+  },
+  {
+    "index": 82,
+    "status": "recommended",
+    "confidence": "low",
+    "yearConfidence": "high",
+    "periodConfidence": "low",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The Lost Empire of Emanuel Nobel\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-204.json",
+          "result": "Public index search did not expose a verified matching Amazon total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Lost%20Empire%20of%20Emanuel%20Nobel%20%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 368,
+        "id": "ISBN:9781668074749",
+        "url": "https://www.simonandschuster.com/books/The-Lost-Empire-of-Emanuel-Nobel/Douglas-Brunt/9781668074749",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Hardcover",
+        "year": 2026,
+        "confidence": "high"
+      },
+      "domains": {
+        "ENE": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Petroleum industry growth organizes the biography.",
+          "refs": [
+            "https://www.simonandschuster.com/books/The-Lost-Empire-of-Emanuel-Nobel/Douglas-Brunt/9781668074749"
+          ]
+        },
+        "PRD": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Refining improvements and production organization recur.",
+          "refs": [
+            "https://insignia.claycountygov.com/Library/ItemDetail?i=256448&l=All&ti=0"
+          ]
+        },
+        "LOG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Transport innovations support oil-market expansion.",
+          "refs": [
+            "https://insignia.claycountygov.com/Library/ItemDetail?i=256448&l=All&ti=0"
+          ]
+        },
+        "INN": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Imported practices are adapted and improved.",
+          "refs": [
+            "https://www.simonandschuster.com/books/The-Lost-Empire-of-Emanuel-Nobel/Douglas-Brunt/9781668074749"
+          ]
+        },
+        "POL": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Revolution threatens the industrial enterprise.",
+          "refs": [
+            "https://www.simonandschuster.com/books/The-Lost-Empire-of-Emanuel-Nobel/Douglas-Brunt/9781668074749"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "author": "Douglas Brunt",
+    "eligibility": "Industrial family biography and narrative history for public readers.",
+    "reason": "No serious veto established at low confidence. Refining, transport and organizational adaptation offer strong subject fit; recent publication and heroic framing limit quality certainty.",
+    "evidence": [
+      "https://www.simonandschuster.com/books/The-Lost-Empire-of-Emanuel-Nobel/Douglas-Brunt/9781668074749",
+      "https://insignia.claycountygov.com/Library/ItemDetail?i=256448&l=All&ti=0",
+      "https://www.kirkusreviews.com/book-reviews/douglas-brunt/the-lost-empire-of-emanuel-nobel/"
+    ],
+    "raw": [
+      15,
+      14,
+      11,
+      9,
+      7,
+      8,
+      7,
+      3,
+      3,
+      1
+    ],
+    "notes": [
+      "E15: documented historical narrative is plausible; sweeping neglected-genius claims need restraint.",
+      "S14: oil production, transport, labor and political upheaval connect.",
+      "U11: adapting imported practices and managing institutional exposure transfer.",
+      "M9: industrial improvements are explained within a family narrative.",
+      "D7: personal and revolutionary history compete with mechanisms.",
+      "R8: historical industrial constraints remain useful.",
+      "F7: energy and industrial development directly fit.",
+      "A3: narrative research is evident; specialist scrutiny remains limited.",
+      "N3: rise and loss of an enterprise give a clear arc.",
+      "P1: emphatic hero-restoration framing reduces qualification."
+    ],
+    "year": 2026,
+    "yearNote": "Publisher original May 2026.",
+    "periodEnd": 1932,
+    "periodNote": "Approximate biographical endpoint at Emanuel Nobel’s death, supported by library identity; exact final central chapter boundary remains unverified.",
+    "themeNote": "T11=0: industrial development and international competition dominate rather than isolated national history. T12=0: energy enterprise is central; revolution and finance are contexts."
+  },
+  {
+    "index": 83,
+    "status": "unresolved",
+    "confidence": "low",
+    "author": "Unresolved: Christine Kuehn or Pete Earley",
+    "eligibility": "Both identified candidates are nonfiction narratives, but the source does not identify which work it names.",
+    "reason": "The authorless title could mean Christine Kuehn’s 2025 WWII family history or Pete Earley’s 1988 John Walker spy-ring account. The neighboring recent books make Kuehn plausible but do not uniquely establish identity. No scores or edition are assigned to the ambiguous mention.",
+    "evidence": [
+      "https://celadonbooks.com/book/family-of-spies/",
+      "https://books.google.com/books/about/Family_of_Spies.html?id=Dd7eAAAAMAAJ",
+      "https://www.reddit.com/r/suggestmeabook/comments/1vo9rfk/comment/p3rkhn4/"
+    ],
+    "identityNotes": "The source says books read this year, not books published this year. Do not infer author from recency alone."
+  },
+  {
+    "index": 84,
+    "status": "unresolved",
+    "confidence": "low",
+    "author": "Unresolved: Paul Rees or Gerald Nachman",
+    "eligibility": "Two nonfiction cultural histories share the title; source identity is unresolved.",
+    "reason": "Paul Rees’s 2026 AOR history and Gerald Nachman’s earlier radio-era history both fit the exact title. The source gives neither author, subtitle nor era. The adjacent new books are insufficient to choose one. No score or edition is assigned.",
+    "evidence": [
+      "https://www.hachettebookgroup.com/titles/paul-rees/raised-on-radio/9781668654156/",
+      "https://www.penguinrandomhouse.com/books/119469/raised-on-radio-by-gerald-nachman/9780307828941/",
+      "https://www.reddit.com/r/suggestmeabook/comments/1vo9rfk/comment/p3rkhn4/"
+    ],
+    "identityNotes": "Reading-date language does not establish publication date or identity."
+  },
+  {
+    "index": 85,
+    "status": "recommended",
+    "confidence": "low",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The Peking Express\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-205.json",
+          "result": "Public index search did not expose a verified matching Amazon total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Peking%20Express%20James%20M.%20Zimmerman%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 352,
+        "id": "ISBN:9781541701724",
+        "url": "https://www.hachettebookgroup.com/titles/james-m-zimmerman/the-peking-express/9781541701724/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Ebook",
+        "year": 2023,
+        "confidence": "high"
+      },
+      "domains": {
+        "POL": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Government weakness and foreign pressure affect the crisis.",
+          "refs": [
+            "https://www.hachettebookgroup.com/titles/james-m-zimmerman/the-peking-express/9781541701724/"
+          ]
+        },
+        "STR": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Hostages supply bargaining leverage.",
+          "refs": [
+            "https://www.hachettebookgroup.com/titles/james-m-zimmerman/the-peking-express/9781541701724/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Narrative hostage-crisis history; not fiction despite thriller comparisons.",
+    "reason": "No serious veto established at low confidence. Bargaining and fragmented authority provide some reusable content, but the colorful local episode dominates.",
+    "raw": [
+      15,
+      10,
+      7,
+      6,
+      7,
+      8,
+      3,
+      3.5,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E15: historical reporting supports the event; large claims about national collapse need caution.",
+      "S10: railway access, foreign pressure and local authority interact.",
+      "U7: hostage leverage and divided authority offer limited transfer.",
+      "M6: negotiations are narrated more than systematically modeled.",
+      "D7: personalities and adventure occupy much of the book.",
+      "R8: the historical case remains durable.",
+      "F3: infrastructure and state capacity appear but are secondary.",
+      "A3.5: regional expertise supports contextual reporting.",
+      "N3: the siege provides a clear narrative frame.",
+      "P1.5: dramatic national-impact framing reduces causal precision."
+    ],
+    "year": 2023,
+    "yearNote": "Publisher and author site identify first edition April 2023.",
+    "periodEnd": 1923,
+    "periodNote": "The May 1923 train seizure and ensuing hostage crisis are central.",
+    "themeNote": "T11=-10: a localized Chinese historical episode dominates. T12=-10: political coercion and state authority organize its interpretation.",
+    "evidence": [
+      "https://www.hachettebookgroup.com/titles/james-m-zimmerman/the-peking-express/9781541701724/"
+    ]
+  },
+  {
+    "index": 86,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": 9265,
+      "status": "Verified archived title, Mary Roach author byline and explicit global ratings label.",
+      "marketplace": "www.amazon.com",
+      "asin": "0393324826",
+      "url": "https://www.amazon.com/dp/0393324826",
+      "retrievedAt": "2026-10-20T14:43:28.742Z",
+      "evidence": [
+        "data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">9,265 global ratings"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.amazon.com/dp/0393324826",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0452-0393324826-www.amazon.com-b64e7e62b67a1dce.html.gz",
+          "retrievedAt": "2026-10-20T14:43:28.742Z",
+          "result": "Author byline inspected in decompressed archived response; 9,265 global ratings."
+        }
+      ]
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0393324826",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Amazon: 9,265 global ratings, observed 2026-10-20.",
+    "enrichment": {
+      "edition": {
+        "pages": 303,
+        "id": "ASIN:0393324826",
+        "url": "https://www.amazon.com/dp/0393324826",
+        "retrieved": "2026-10-20T14:43:28.742Z",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2004,
+        "confidence": "high",
+        "title": "Stiff: The Curious Lives of Human Cadavers",
+        "authors": "by Mary Roach (Author) Format: Paperback",
+        "isbn10": [
+          "0393324826"
+        ],
+        "isbn13": [
+          "9780393324822"
+        ],
+        "notes": "Page count, title, author, language, format and edition year observed on the same product page. Product ID verified from the landing page when available; original request URL retained in provenance.",
+        "source": {
+          "provider": "www.amazon.com",
+          "rawFile": "data/enrichment_261020/pages/raw/amazon-q0452-0393324826-www.amazon.com-b64e7e62b67a1dce.html.gz",
+          "sha256": "562a0851156ae13ee405181a6673f84da8465e3d0e1b52e97ab99c0d5f5580a4",
+          "requestedUrl": "https://www.amazon.com/dp/0393324826"
+        }
+      },
+      "domains": {
+        "QLT": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Crash testing and accident investigation use cadaver evidence.",
+          "refs": [
+            "https://maryroach.net/stiffTOC.html"
+          ]
+        },
+        "ENG": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Impact tolerance informs vehicle safety design.",
+          "refs": [
+            "https://maryroach.net/stiffTOC.html"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Popular reporting about cadaver research and practice; it does not teach dissection or clinical procedures.",
+    "reason": "No serious veto established. Empirical uses of bodies provide intellectual content, though strategic depth is modest.",
+    "reassessment": "Reread a026 and current deduction row, then the author’s full contents. Retain all ten attainments, gates, both zero themes, original 2003 and no central period. Crash testing and investigation justify limited engineering/reliability fields. Verify the archived product author byline as Mary Roach and retain the explicit 9,265 global-rating aggregate.",
+    "evidence": [
+      "https://maryroach.net/stiffTOC.html",
+      "analysis/analysis_anysubject_261017_2227.md#a026",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0452",
+      "https://www.amazon.com/dp/0393324826",
+      "https://books.google.com/books/about/Stiff_The_Curious_Lives_of_Human_Cadaver.html?hl=en&id=lDX9C441kxkC&output=html_text"
+    ],
+    "raw": [
+      16,
+      9.916666666666666,
+      8,
+      7.0588235294117645,
+      8,
+      8,
+      3,
+      3,
+      3,
+      2
+    ],
+    "notes": [
+      "E16: direct reporting supports empirical processes with anecdotal limits.",
+      "S9.9167: bodies, research practices and institutions connect.",
+      "U8: experimental design and evidence from failure offer modest transfer.",
+      "M7.0588: bodily processes and research uses are explained selectively.",
+      "D8: compact topical chapters keep reporting dense.",
+      "R8: the empirical and ethical questions persist.",
+      "F3: safety testing fits; much anatomy is outside preferred domains.",
+      "A3: careful science reporting supplies authority.",
+      "N3: varied uses create a readable chapter structure.",
+      "P2: exact comic prose generally clarifies the subject."
+    ],
+    "year": 2003,
+    "yearNote": "Original 2003 record retained; inspected paperback/ebook records are 2004.",
+    "periodEnd": null,
+    "periodNote": "Cross-period thematic reporting, not one central historical interval.",
+    "themeNote": "T11=0: cadaver use is not predominantly disease history. T12=0: no listed second-theme subject dominates."
+  },
+  {
+    "index": 87,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": -10,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The Doomsday Machine\" \"Ellsberg\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-206.json",
+          "result": "Public index search did not expose a verified matching Amazon total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Doomsday%20Machine%20Daniel%20Ellsberg%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 432,
+        "id": "ISBN:9781408889145",
+        "url": "https://www.bloomsbury.com/uk/doomsday-machine-9781408889145/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Ebook",
+        "year": 2017,
+        "confidence": "high"
+      },
+      "domains": {
+        "MIL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Nuclear war plans and forces are central.",
+          "refs": [
+            "https://www.bloomsbury.com/uk/doomsday-machine-9781408889145/"
+          ]
+        },
+        "STR": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Deterrence and catastrophic-risk decisions organize the argument.",
+          "refs": [
+            "https://www.bloomsbury.com/uk/doomsday-machine-9781408889145/"
+          ]
+        },
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Delegation and command structures determine risk.",
+          "refs": [
+            "https://chipublib.bibliocommons.com/v2/record/S126C1920121"
+          ]
+        },
+        "POL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Civil authority and nuclear policy are sustained subjects.",
+          "refs": [
+            "https://www.bloomsbury.com/uk/doomsday-machine-9781408889145/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Insider memoir and sustained nuclear-policy argument, not a weapons or planning manual.",
+    "reason": "No serious veto established at moderate confidence. The dominant memoir and institutional explanation provide substantial payload. Its disarmament recommendations do not erase that explanatory structure, but present-policy extrapolation needs separate evidence.",
+    "evidence": [
+      "https://www.bloomsbury.com/uk/doomsday-machine-9781408889145/",
+      "https://books.google.com/books/about/The_Doomsday_Machine.html?id=I3gvDwAAQBAJ",
+      "https://chipublib.bibliocommons.com/v2/record/S126C1920121"
+    ],
+    "raw": [
+      16,
+      14,
+      12,
+      10,
+      8,
+      8,
+      5,
+      4.5,
+      3,
+      1
+    ],
+    "notes": [
+      "E16: insider evidence and declassified records support history; continuity claims need caution.",
+      "S14: weapons, command authority and national strategy connect.",
+      "U12: delegated authority and catastrophic-risk incentives transfer.",
+      "M10: launch authority and planning structures explain escalation risk.",
+      "D8: memoir and institutional account carry substantial detail.",
+      "R8: command-risk lessons persist beyond the current-policy frame.",
+      "F5: strategic risk fits, but military policy is central.",
+      "A4.5: direct planning access supports unusual authority.",
+      "N3: memoir anchors complex institutional claims.",
+      "P1: emphatic catastrophe rhetoric sometimes compresses uncertainty."
+    ],
+    "year": 2017,
+    "yearNote": "Publisher original December 2017.",
+    "periodEnd": 1962,
+    "periodNote": "The firsthand Eisenhower–Kennedy planning and Cuban-crisis core ends in 1962; later policy argument is comparative extrapolation.",
+    "themeNote": "T11=-10: American nuclear-policy institutional history dominates. T12=-10: nuclear war planning and political power are central."
+  },
+  {
+    "index": 88,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "low",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "url": "https://www.amazon.com.au/dp/0671636030",
+      "requestedUrl": "https://www.amazon.com.au/dp/0671636030",
+      "retrievedAt": "2026-10-18T22:26:33.584Z",
+      "httpStatus": 200,
+      "asin": "0671636030",
+      "title": "Fate Is the Hunter: A Pilot's Memoir",
+      "byline": "by Ernest K Gann (Author) Format: Paperback",
+      "pageTitle": "Fate Is the Hunter: A Pilot&#x27;s Memoir - Gann, Ernest K | 9780671636036 | Amazon.com.au | Books",
+      "topCount": 2418,
+      "globalCount": 2418,
+      "count": 2418,
+      "star": "4.7 out of 5 stars",
+      "titleMatch": true,
+      "authorMatch": true,
+      "verified": true,
+      "evidence": [
+        "<span id=\"acrCustomerReviewText\" aria-label=\"2,418 reviews\" class=\"a-size-small\">(2,418)</span>",
+        "<span data-hook=\"total-review-count\" class=\"a-size-base a-color-secondary\">2,418 global ratings</span>"
+      ],
+      "description": "id=\"bookDescription_feature_div\" class=\"celwidget\" data-feature-name=\"bookDescription\" data-csa-c-type=\"widget\" data-csa-c-content-id=\"bookDescription\" data-csa-c-slot-id=\"bookDescription_feature_div\" data-csa-c-asin=\"0671636030\" data-csa-c-is-in-initial-active-row=\"false\"> Ernest K. Gann's classic pilot's memoir is an up-close and thrilling account of the treacherous early days of commercial aviation. \"Few writers have ever drawn readers so intimately into the shielded sanctum of the cockpit, and it is hear that Mr. Gann is truly the artist\" (The New York Times Book Review).\"A splendid and many-faceted personal memoir that is not only one man's story but the story, in essence, of all men who fly\" (Chicago Tribune). In his inimitable style, Gann brings you right into the cockpit, recounting both the triumphs and terrors of pilots who flew when flying was anything but routine. Read more",
+      "details": "id=\"detailBullets_feature_div\" class=\"celwidget\" data-feature-name=\"detailBullets\" data-csa-c-type=\"widget\" data-csa-c-content-id=\"detailBullets\" data-csa-c-slot-id=\"detailBullets_feature_div\" data-csa-c-asin=\"\" data-csa-c-is-in-initial-active-row=\"false\">",
+      "sha256": "1f2d862d82d906d6efbcd16f4826c229f399802fd1fa2556cd1e58f0333cb3c1",
+      "marketplace": "www.amazon.com.au",
+      "snapshot": "Direct public product page; Amazon may aggregate linked editions.",
+      "attemptFiles": [
+        "data/glasp_261019/amazon/g0059.json"
+      ]
+    },
+    "purchaseUrl": "https://www.amazon.com/dp/0671636030",
+    "purchaseFormat": "Paperback",
+    "reader": "Retained Amazon snapshot: 2418 total ratings; 2026-10-18T22:26:33.584Z.",
+    "enrichment": {
+      "edition": {
+        "pages": 416,
+        "id": "ISBN:9780671636036",
+        "url": "https://www.simonandschuster.ca/books/Fate-is-the-Hunter/Ernest-K-Gann/9780671636036",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 1986,
+        "confidence": "high"
+      },
+      "domains": {
+        "ENG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Aircraft capability and equipment constraints recur.",
+          "refs": [
+            "https://www.simonandschuster.ca/books/Fate-is-the-Hunter/Ernest-K-Gann/9780671636036"
+          ]
+        },
+        "QLT": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Operating errors and near failures organize lessons.",
+          "refs": [
+            "https://www.simonandschuster.ca/books/Fate-is-the-Hunter/Ernest-K-Gann/9780671636036"
+          ]
+        },
+        "STR": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Judgment under uncertainty is a recurring theme.",
+          "refs": [
+            "https://www.simonandschuster.ca/books/Fate-is-the-Hunter/Ernest-K-Gann/9780671636036"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Commercial pilot memoir, not flight instruction. The technical-memoir exception also supports eligibility.",
+    "reason": "No serious veto established. Operating constraints and chance yield risk lessons, with retrospective selection limits.",
+    "reassessment": "Reread g0059 and current calculation, then publisher excerpt and the Army Aviation Digest review. Retain every attainment, gate, both zero themes, 1961 and approximate 1950 endpoint. Replace the catalog’s 390 numbered pages with publisher total 416 for the same paperback edition.",
+    "evidence": [
+      "https://www.simonandschuster.ca/books/Fate-is-the-Hunter/Ernest-K-Gann/9780671636036",
+      "analysis/analysis_glaspbio_261019_0144.md#g0059",
+      "https://d34w7g4gy10iej.cloudfront.net/pubs/pdf_76731.pdf"
+    ],
+    "raw": [
+      16,
+      11,
+      12,
+      9,
+      8,
+      9,
+      7,
+      4,
+      3,
+      2
+    ],
+    "notes": [
+      "E16: direct flying experience is filtered through retrospective memoir.",
+      "S11: equipment, weather and crew judgment interact.",
+      "U12: uncertainty and operational humility transfer.",
+      "M9: concrete incidents expose failure pathways.",
+      "D8: selected flight episodes remain concentrated.",
+      "R9: risk and fallibility lessons endure.",
+      "F7: aviation engineering and reliability fit directly.",
+      "A4: extensive operating experience supports authority.",
+      "N3: linked episodes form a coherent professional life.",
+      "P2: exact cockpit detail supports clarity."
+    ],
+    "year": 1961,
+    "yearNote": "Original 1961 confirmed in the Aviation Digest review; paperback reprint 1986.",
+    "periodEnd": 1950,
+    "periodNote": "Approximate endpoint of the central commercial-flying career; review describes the early 1950s without an exact final year.",
+    "themeNote": "T11=0: technical aviation memoir rather than national history. T12=0: wartime flying is part of a broader operating career."
+  },
+  {
+    "index": 89,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "The prior snapshot exposes only a review-label count. Total ratings are unverified; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/1982117354",
+    "purchaseFormat": "Hardcover: ISBN 9781982117351, publisher verified; prior paperback label corrected.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 496,
+        "id": "ISBN:9781982117351",
+        "url": "https://www.simonandschuster.com/books/The-Song-of-the-Cell/Siddhartha-Mukherjee/9781982117351",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Hardcover",
+        "year": 2022,
+        "confidence": "high"
+      },
+      "domains": {
+        "SCI": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Discovery and scientific explanation of cells are sustained.",
+          "refs": [
+            "https://www.simonandschuster.com/books/The-Song-of-the-Cell/Siddhartha-Mukherjee/9781982117351"
+          ]
+        },
+        "INN": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Cell understanding is translated into therapies.",
+          "refs": [
+            "https://www.simonandschuster.com/books/The-Song-of-the-Cell/Siddhartha-Mukherjee/9781982117351"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Narrative scientific and medical explanation for the public, not cellular-biology training.",
+    "reason": "No serious veto established. Discovery and therapeutic mechanisms survive the patient-story framing, but disease remains central and core-domain fit is limited.",
+    "reassessment": "Reread h201 and current deduction row, then publisher structure and description. Retain all ten attainments, gates, T11=-10, T12=0, original 2022 and no central period. Correct the prior claim that ISBN 9781982117351 is paperback: publisher identifies hardcover, 496 pages.",
+    "evidence": [
+      "https://www.simonandschuster.com/books/The-Song-of-the-Cell/Siddhartha-Mukherjee/9781982117351",
+      "analysis/analysis_readlately_261017_2316.md#h201",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0557"
+    ],
+    "raw": [
+      16,
+      12.75,
+      10,
+      8.470588235294118,
+      6,
+      8,
+      4,
+      4,
+      3,
+      2
+    ],
+    "notes": [
+      "E16: medical expertise supports explanation; therapeutic prospect claims need caution.",
+      "S12.75: cellular research, discovery and clinical applications connect.",
+      "U10: modular organization and translation of research offer transfer.",
+      "M8.4706: cellular functions are explained selectively.",
+      "D6: patient stories dilute technical concentration.",
+      "R8: core biological understanding is durable.",
+      "F4: research and innovation fit indirectly.",
+      "A4: active clinical and research experience supports authority.",
+      "N3: discovery-to-treatment progression is clear.",
+      "P2: precise explanatory prose handles complex ideas."
+    ],
+    "year": 2022,
+    "yearNote": "Publisher original October 2022.",
+    "periodEnd": null,
+    "periodNote": "Broad history and current explanatory synthesis across centuries, without one central interval.",
+    "themeNote": "T11=-10: disease and treatment are predominant. T12=0: no listed second-theme subject is central."
+  }
+]

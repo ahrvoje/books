@@ -1,0 +1,64 @@
+{
+  "127": {
+    "nonBooks": [
+      {"title":"10 Percent True","type":"podcast","author":"Steve Davies","line":162},
+      {"title":"Jeremiah Weed crash account","type":"web article","identityNotes":"Linked contextual anecdote, not a named book."}
+    ],
+    "unresolvedMentions": [
+      {"text":"Peter's book","line":93,"reason":"No title or full author supplied. No book identity inferred."}
+    ]
+  },
+  "141": {
+    "nonBooks": [],
+    "unresolvedMentions": [
+      {"text":"A bunch of books by Michael Pollan on botany and psychology","line":37,"reason":"No individual titles supplied."},
+      {"text":"Any book by John McPhee","line":443,"reason":"Basin and Range and Oranges are separately inventoried; no other title inferred."}
+    ]
+  },
+  "142": {
+    "nonBooks": [
+      {"title":"The Philosopher’s Toolkit","author":"Patrick Grim","type":"Great Courses lecture series","line":159,"identityNotes":"Comment explicitly says this is a lecture series, not a book."},
+      {"title":"Logic puzzles","type":"general activity","identityNotes":"No named book supplied."}
+    ]
+  },
+  "143": {
+    "nonBooks": [
+      {"title":"Firebug","type":"podcast","line":36},
+      {"title":"Hardcore History","author":"Dan Carlin","type":"podcast","line":749}
+    ],
+    "unresolvedMentions": [
+      {"text":"Anything by Jon Krakauer","line":734,"reason":"Individually named titles are separately inventoried; no additional title inferred."},
+      {"text":"John Scalzi is good with sci-fi","line":986,"reason":"Author-only reference; no title inferred."}
+    ]
+  },
+  "144": {
+    "nonBooks": [
+      {"title":"Wake up to life","author":"Anthony De Mello","type":"YouTube resource","line":24},
+      {"title":"Stanford lectures","author":"Robert Sapolsky","type":"lecture series","line":82},
+      {"title":"Hardcore History","author":"Dan Carlin","type":"podcast","line":124},
+      {"title":"In Our Time","type":"podcast","line":313},
+      {"title":"Justice","author":"Michael Sandel","type":"Harvard lecture series","line":335,"identityNotes":"This comment specifically praises the lectures; no book inferred from that reference."},
+      {"title":"Cushvlog","type":"video series","line":346},
+      {"title":"CS50 Introduction to Programming with Python","type":"online course","line":394,"url":"https://cs50.harvard.edu/python/2022/"},
+      {"title":"Colorado River and western drought video","type":"YouTube video","line":500}
+    ]
+  },
+  "145": {
+    "nonBooks": [],
+    "unresolvedMentions": [
+      {"text":"OP book-cover grid","reason":"Exact image URL was identified, but the CDN denied access and the web reader returned a cache miss. No covers were inspected. Book titles in the AI-transcription comment are recorded only as claims by that commenter, with their source spelling retained."}
+    ]
+  },
+  "146": {
+    "nonBooks": [],
+    "unresolvedMentions": [
+      {"text":"Linked original crosspost","url":"https://www.reddit.com/r/Recommend_A_Book/comments/1x31bsw/books_widely_considered_to_be_the_definitive_work/","reason":"Web reader returned cache miss. Its separate comments could not be read."}
+    ]
+  },
+  "147": {
+    "nonBooks": [],
+    "unresolvedMentions": [
+      {"text":"Used book haul OP and possible book images","reason":"Source page and body were unavailable. No actual source book titles or covers captured. Search returned other threads, which were not used as evidence for this source."}
+    ]
+  }
+}

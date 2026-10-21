@@ -1,0 +1,101 @@
+{
+  "url": "https://openlibrary.org/works/OL19764287W/editions.json?limit=1000",
+  "retrievedAt": "2026-10-18T23:28:01.228Z",
+  "status": 200,
+  "data": {
+    "links": {
+      "self": "/works/OL19764287W/editions.json?limit=1000",
+      "work": "/works/OL19764287W"
+    },
+    "size": 1,
+    "entries": [
+      {
+        "other_titles": [
+          "Some people think I'm a shoe!",
+          "Some people think I am a shoe!"
+        ],
+        "subtitle": "some people think I'm a shoe!",
+        "isbn_10": [
+          "0847862747"
+        ],
+        "local_id": [
+          "urn:sfpl:31223134167379",
+          "urn:sfpl:31223134167361",
+          "urn:sfpl:31223134167387",
+          "urn:bwbsku:P7-ARL-394"
+        ],
+        "full_title": "Stan Smith some people think I'm a shoe!",
+        "lc_classifications": [
+          "GV749.S64",
+          "GV749.S64S7 2018"
+        ],
+        "key": "/books/OL26977287M",
+        "authors": [
+          {
+            "key": "/authors/OL1802719A"
+          },
+          {
+            "key": "/authors/OL2657353A"
+          }
+        ],
+        "isbn_13": [
+          "9780847862740"
+        ],
+        "pagination": "328 pages",
+        "source_records": [
+          "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run06.mrc:208106227:2333",
+          "bwb:9780847862740",
+          "promise:bwb_daily_pallets_2022-03-17"
+        ],
+        "title": "Stan Smith",
+        "dewey_decimal_class": [
+          "685/.31",
+          "796.342"
+        ],
+        "number_of_pages": 328,
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "lccn": [
+          "2018940295"
+        ],
+        "subjects": [
+          "Interviews",
+          "Sneakers",
+          "Tennis players",
+          "Pictorial works",
+          "Anecdotes"
+        ],
+        "subject_people": [
+          "Stan Smith (1946-)"
+        ],
+        "publish_country": "nyu",
+        "publish_date": "2018",
+        "by_statement": "edited by Stan Smith with Richard Evans",
+        "oclc_numbers": [
+          "1027829711"
+        ],
+        "works": [
+          {
+            "key": "/works/OL19764287W"
+          }
+        ],
+        "type": {
+          "key": "/type/edition"
+        },
+        "latest_revision": 3,
+        "revision": 3,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2019-05-31T09:55:12.145991"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2022-12-07T00:36:28.145325"
+        }
+      }
+    ]
+  }
+}

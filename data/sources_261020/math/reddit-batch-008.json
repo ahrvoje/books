@@ -1,0 +1,1250 @@
+[
+  {
+    "index": 60,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Dreadnought Robert Massie\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-154.json",
+          "result": "No verified matching book total-rating aggregate; non-book results rejected."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Dreadnought%20Robert%20K.%20Massie%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 1040,
+        "id": "ISBN:9780307819932",
+        "url": "https://www.penguinrandomhouse.com/books/108893/dreadnought-by-robert-kinloch-massie/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Ebook",
+        "year": 2012,
+        "confidence": "high"
+      },
+      "domains": {
+        "MIL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Naval armament rivalry is central.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/108893/dreadnought-by-robert-kinloch-massie/"
+          ]
+        },
+        "STR": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Escalating plans and perceptions structure the account.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/108893/dreadnought-by-robert-kinloch-massie/"
+          ]
+        },
+        "POL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Diplomacy and national leadership are sustained subjects.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/108893/dreadnought-by-robert-kinloch-massie/"
+          ]
+        },
+        "ENG": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Battleship innovation changes competitive expectations.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/108893/dreadnought-by-robert-kinloch-massie/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Public historical narrative of naval rivalry, not naval design or strategic training.",
+    "reason": "No serious veto established. Arms-race incentives and diplomatic misperception supply payload, though personal biography dominates much of the length.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/108893/dreadnought-by-robert-kinloch-massie/",
+      "https://books.google.com/books/about/Dreadnought.html?id=JIlqvQml07cC"
+    ],
+    "raw": [
+      17,
+      13,
+      10,
+      8,
+      5,
+      9,
+      4,
+      4,
+      3,
+      2
+    ],
+    "notes": [
+      "E17: extensive historical reconstruction supports events; private motives remain less certain.",
+      "S13: naval technology, national rivalry and diplomacy interact.",
+      "U10: competitive escalation and misperception transfer.",
+      "M8: institutional and strategic choices are explained through a largely biographical frame.",
+      "D5: more than a thousand pages of personalities and diplomacy impose a major density cost.",
+      "R9: arms-race dynamics remain durable.",
+      "F4: technology and strategy fit, but political lives lead.",
+      "A4: established historical research supports authority.",
+      "N3: linked national and personal rivalries provide a coherent arc.",
+      "P2: precise narrative detail supports clarity."
+    ],
+    "year": 1991,
+    "yearNote": "Original 1991 bibliographic record; inspected ebook 2012.",
+    "periodEnd": 1914,
+    "periodNote": "The narrative builds to the outbreak of the First World War.",
+    "themeNote": "T11=0: comparative international history. T12=-10: naval strategy and politics are central."
+  },
+  {
+    "index": 61,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Castles of Steel Robert Massie\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-155.json",
+          "result": "No verified matching book total-rating aggregate; non-book results rejected."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Castles%20of%20Steel%20Robert%20K.%20Massie%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 896,
+        "id": "ISBN:9780345408785",
+        "url": "https://www.penguinrandomhouse.com/books/108889/castles-of-steel-by-robert-k-massie/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2004,
+        "confidence": "high"
+      },
+      "domains": {
+        "MIL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Naval operations organize the book.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/108889/castles-of-steel-by-robert-k-massie/"
+          ]
+        },
+        "STR": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Sea-power decisions are its central argument.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/108889/castles-of-steel-by-robert-k-massie/"
+          ]
+        },
+        "LOG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Supply and sea access connect operations to war outcomes.",
+          "refs": [
+            "https://books.google.com/books/about/Castles_of_Steel.html?id=LUSXbXK-Ue8C"
+          ]
+        },
+        "TRD": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Blockade links shipping access to national resources.",
+          "refs": [
+            "https://books.google.com/books/about/Castles_of_Steel.html?id=LUSXbXK-Ue8C"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Explanatory naval war history for the public, not operational instruction.",
+    "reason": "No serious veto established. Sea control, supply and strategic decisions provide transferable mechanisms; the strong sea-power thesis needs comparison with other causes of victory.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/108889/castles-of-steel-by-robert-k-massie/",
+      "https://books.google.com/books/about/Castles_of_Steel.html?id=LUSXbXK-Ue8C"
+    ],
+    "raw": [
+      17,
+      14,
+      11,
+      9,
+      6,
+      9,
+      5,
+      4,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E17: documentary narrative supports operations; claims about decisive sea power need causal caution.",
+      "S14: fleets, trade access, supply and political decisions connect.",
+      "U11: control of transport networks and dispersed command transfer.",
+      "M9: blockade and naval operating choices explain strategic effects.",
+      "D6: long battle and personality passages reduce analytical concentration.",
+      "R9: the historical resource-control problem remains durable.",
+      "F5: logistics and naval technology fit within a war-centered account.",
+      "A4: Massie’s sustained historical research supports authority.",
+      "N3: campaigns are integrated into the larger war chronology.",
+      "P1.5: sweeping claims about what won the war reduce precision."
+    ],
+    "year": 2003,
+    "yearNote": "Publisher original ebook October 2003; paperback 2004.",
+    "periodEnd": 1918,
+    "periodNote": "The naval war of 1914–1918 is the central period.",
+    "themeNote": "T11=0: international naval history. T12=-10: military operations and strategy dominate."
+  },
+  {
+    "index": 62,
+    "status": "vetoed",
+    "confidence": "low",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "Prior count rejected: two-book bundle, not nominated standalone work; review-label ambiguity also remains. Public Amazon access is challenged; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "retrievedAt": "2026-10-18T18:33:00.915Z",
+          "error": "No exact product identifier; title search required",
+          "verified": false
+        },
+        {
+          "url": "https://www.amazon.com.au/dp/6047769527",
+          "requestedUrl": "https://www.amazon.com.au/dp/6047769527",
+          "retrievedAt": "2026-10-18T18:46:07.784Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "b7167ac50cb157c2deb7d025c62cd2adb6b908c7c85f9488599e1e833bcc34ff"
+        },
+        {
+          "url": "https://www.amazon.com.au/dp/9123938080",
+          "requestedUrl": "https://www.amazon.com.au/dp/9123938080",
+          "retrievedAt": "2026-10-18T18:46:08.241Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "3543ca79f17c60e17c3823d1f028437e3092d27efd97cb87f93ea01319aff794"
+        },
+        {
+          "url": "https://www.amazon.com.au/dp/0241003989",
+          "requestedUrl": "https://www.amazon.com.au/dp/0241003989",
+          "retrievedAt": "2026-10-18T18:46:08.432Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "7d882a240c20ec0badce7135f3e56d8e3be5cbc548daf63b3ea1ee39d68a35ce"
+        },
+        {
+          "url": "https://www.amazon.com.au/dp/1469092360",
+          "requestedUrl": "https://www.amazon.com.au/dp/1469092360",
+          "retrievedAt": "2026-10-18T18:46:08.603Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "3478800f81770514d0d395805d49cbaf97c6e79e8ed973154475a1a8378ea648"
+        },
+        {
+          "url": "https://www.amazon.com.au/dp/0141978619",
+          "requestedUrl": "https://www.amazon.com.au/dp/0141978619",
+          "retrievedAt": "2026-10-18T18:46:08.771Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "70b230e98f56fb5c2e7c54c46ba8ac16163eb3c58312b1a1484a961275f96010"
+        },
+        {
+          "url": "https://www.amazon.it/dp/6047769527",
+          "requestedUrl": "https://www.amazon.it/dp/6047769527",
+          "retrievedAt": "2026-10-18T18:57:11.876Z",
+          "httpStatus": 200,
+          "title": "",
+          "byline": "",
+          "pageTitle": "",
+          "topCount": null,
+          "globalCount": null,
+          "titleMatch": false,
+          "authorMatch": false,
+          "verified": false,
+          "evidence": [],
+          "sha256": "2cd380961859d04b0e2a072fdfe70a930d9daac6097e4cec06d9b9531ab2a1d2"
+        },
+        {
+          "url": "https://www.amazon.it/dp/9123938080",
+          "requestedUrl": "https://www.amazon.it/dp/9123938080",
+          "retrievedAt": "2026-10-18T18:57:11.948Z",
+          "httpStatus": 200,
+          "title": "The Body Keeps The Score: Mind, Brain And Body In Transformation Of Trauma & Hidden Healing Powers Of Super & Whole Foods: Plant Based Diet Proven To Prevent & Reverse Disease 2 Books Collection Set",
+          "byline": "Edizione Inglese di Bessel van der Kolk (Autore), Iota (Autore) Formato: Copertina flessibile",
+          "pageTitle": "The Body Keeps The Score: Mind, Brain And Body In Transformation Of Trauma & Hidden Healing Powers Of Super & Whole Foods: Plant Based Diet Proven To Prevent & Reverse Disease 2 Books Collection Set : Bessel van der Kolk, Iota: Amazon.it: Libri",
+          "topCount": 158,
+          "globalCount": null,
+          "titleMatch": true,
+          "authorMatch": true,
+          "verified": true,
+          "evidence": [
+            "<span id=\"acrCustomerReviewText\" aria-label=\"158 Recensioni\" class=\"a-size-small\">(158)</span>"
+          ],
+          "sha256": "35fb17afe9a2ab35c31fece7da77cf95c56a23e68d14de19b2801376f9e44c97"
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The+Body+Keeps+the+Score+Bessel+van+der+Kolk+9780143127741",
+    "purchaseFormat": "Search locator for standalone paperback ISBN9780143127741; old two-book-bundle locator rejected.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 464,
+        "id": "ISBN:9780143127741",
+        "url": "https://www.penguinrandomhouse.com/books/313183/the-body-keeps-the-score-by-bessel-van-der-kolk-md/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2015,
+        "confidence": "high"
+      },
+      "domains": {},
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Do not convert disputed neurological claims into confident domain or mechanism grades. Primary-purpose judgment remains narrative/argumentative, with a moderate-confidence V1."
+      }
+    },
+    "veto": "V1",
+    "vetoConfidence": "moderate",
+    "eligibility": "A popular explanatory and therapeutic argument illustrated by clinical cases, not a practitioner procedure manual. The inspected structure argues about trauma and treatment rather than training one specialist technique.",
+    "reason": "Retain V1 at moderate confidence. A recent specialist commentary identifies selective evidence and causal/treatment overreach. This is a substantive published criticism, not a claim of unanimous field rejection.",
+    "reassessment": "Reread h142 and the current deduction row, publisher scope, contents and Scheeringa’s commentary. Retain every counterfactual attainment, V1, T11=-10, T12=0, 2014 and no central historical period. Reject the earlier 158-count product: ASIN 9123938080 is a two-book bundle with an unrelated Iota title, and its Recensioni label is ambiguous. O15 changes from -5 to 0 through the specified unknown-count fallback; no quality criterion changes because of that correction.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/313183/the-body-keeps-the-score-by-bessel-van-der-kolk-md/",
+      "analysis/analysis_readlately_261017_2316.md#h142",
+      "analysis/analysis_pubcap_261018_2125.md#d-q1080",
+      "https://openlibrary.org/books/OL27158788M/The_Body_Keeps_the_Score",
+      "https://pubmed.ncbi.nlm.nih.gov/41178089/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13386322/"
+    ],
+    "raw": [
+      8,
+      9.916666666666666,
+      7,
+      5.647058823529412,
+      5,
+      6,
+      2,
+      4,
+      3,
+      1
+    ],
+    "notes": [
+      "E8: published criticism identifies selective evidence and unsupported causal/treatment superiority claims.",
+      "S9.9167: brain, body and relationships are connected but not securely calibrated.",
+      "U7: clinical observations offer some insight despite unreliable broad claims.",
+      "M5.6471: neurobiological narratives exceed demonstrated causal mechanisms.",
+      "D5: repeated clinical stories dilute the argument.",
+      "R6: trauma remains important, but evidential overreach limits lasting reliability.",
+      "F2: clinical trauma has little direct fit with preferred domains.",
+      "A4: substantial research experience remains relevant despite specific criticism.",
+      "N3: cases make a clear and memorable narrative.",
+      "P1: strong metaphors can conceal causal uncertainty."
+    ],
+    "year": 2014,
+    "yearNote": "Publisher original hardcover September 2014; paperback 2015.",
+    "periodEnd": null,
+    "periodNote": "General trauma and treatment argument across cases, not a historical period.",
+    "themeNote": "T11=-10: trauma and clinical treatment dominate. T12=0: no listed second-theme domain is central."
+  },
+  {
+    "index": 63,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The End Is Always Near Dan Carlin\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-156.json",
+          "result": "No verified matching book total-rating aggregate; non-book results rejected."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20End%20Is%20Always%20Near%20Dan%20Carlin%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 288,
+        "id": "ISBN:9780008340933",
+        "url": "https://books.google.com/books?id=TRsnwAEACAAJ",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Print edition; binding unverified",
+        "year": 2019,
+        "confidence": "moderate"
+      },
+      "domains": {
+        "STR": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Civilizational vulnerability and catastrophic decisions recur.",
+          "refs": [
+            "https://books.google.com/books?id=TRsnwAEACAAJ"
+          ]
+        },
+        "MIL": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Violence and nuclear near misses are major cases.",
+          "refs": [
+            "https://books.google.com/books?id=TRsnwAEACAAJ"
+          ]
+        },
+        "INS": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Institutional collapse connects historical episodes.",
+          "refs": [
+            "https://books.google.com/books?id=TRsnwAEACAAJ"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Comparative historical essays and thought experiments, not fiction or procedural training.",
+    "reason": "No serious veto established. Collapse and technological risk offer transferable questions, but selected cases do not establish universal cycles or forecasts.",
+    "evidence": [
+      "https://books.google.com/books?id=TRsnwAEACAAJ",
+      "https://www.perlego.com/book/1230650/the-end-is-always-near-apocalyptic-moments-from-the-bronze-age-collapse-to-nuclear-near-misses-pdf",
+      "https://d1xcdyhu7q1ws8.cloudfront.net/wp-content/uploads/2019/09/13202716/EndIsAlwaysNear_enhance.pdf"
+    ],
+    "raw": [
+      13,
+      12,
+      9,
+      7,
+      8,
+      7,
+      4,
+      3,
+      3,
+      1
+    ],
+    "notes": [
+      "E13: synthesis uses historical examples but selection and counterfactuals limit inference.",
+      "S12: institutions, violence, technology and collapse are compared.",
+      "U9: fragility questions encourage useful stress testing.",
+      "M7: patterns are suggested more than causally isolated.",
+      "D8: compact essays keep each question focused.",
+      "R7: historical risk persists, while apocalyptic framing can age.",
+      "F4: technological and strategic risk fit, with broad historical speculation dominant.",
+      "A3: experienced historical synthesis is not original specialist research.",
+      "N3: explicit questions organize the essays well.",
+      "P1: sweeping analogies can blur differences between eras."
+    ],
+    "year": 2019,
+    "yearNote": "Publisher-supplied record and copyright establish 2019.",
+    "periodEnd": null,
+    "periodNote": "Comparative episodes across ancient and modern history, not one central interval.",
+    "themeNote": "T11=0: disease is one episode rather than the predominant topic. T12=-10: violence, war and strategic catastrophe organize the collection."
+  },
+  {
+    "index": 64,
+    "status": "recommended",
+    "confidence": "low",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The Etymologicon Mark Forsyth\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-157.json",
+          "result": "No verified matching book total-rating aggregate; non-book results rejected."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Etymologicon%20Mark%20Forsyth%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 272,
+        "id": "ISBN:9781785781704",
+        "url": "https://www.iconbooks.com/ib-title/the-etymologicon-3/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2016,
+        "confidence": "high"
+      },
+      "domains": {},
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "A connected narrative of word histories, not a dictionary or language-learning manual.",
+    "reason": "No serious veto established at low confidence. Borrowing and semantic change supply a small transferable process, though most value lies in individual curiosities and direct fit is minimal.",
+    "evidence": [
+      "https://www.iconbooks.com/ib-title/the-etymologicon-3/",
+      "https://books.google.com/books?id=KUZxTvay3PMC"
+    ],
+    "raw": [
+      14,
+      4,
+      4,
+      5,
+      7,
+      8,
+      0,
+      3,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E14: dictionary-based histories support many connections; individual derivations were not independently audited.",
+      "S4: thematic word links rarely connect the requested material systems.",
+      "U4: semantic-change examples offer limited reusable insight.",
+      "M5: origins explain particular words more than general linguistic mechanisms.",
+      "D7: concise entries maintain pace but vary in intellectual payload.",
+      "R8: historical etymology resists news cycles.",
+      "F0: language curiosities do not directly illuminate the preferred domains.",
+      "A3: a practiced writer’s research supports moderate authority.",
+      "N3: a circular sequence connects otherwise separate entries.",
+      "P1.5: wit sometimes favors a neat story over qualification."
+    ],
+    "year": 2011,
+    "yearNote": "Icon’s original publisher-supplied record dates first publication November 2011; inspected paperback 2016.",
+    "periodEnd": null,
+    "periodNote": "Cross-period word histories, not one historical interval.",
+    "themeNote": "T11=0: linguistic history. T12=0: political and religious words are examples, not central arguments."
+  },
+  {
+    "index": 65,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Chamber Divers Rachel Lance\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-158.json",
+          "result": "No verified matching book total-rating aggregate; non-book results rejected."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Chamber%20Divers%20Rachel%20Lance%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 448,
+        "id": "ISBN:9780593184943",
+        "url": "https://www.penguinrandomhouse.com/books/671553/chamber-divers-by-rachel-lance/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2026,
+        "confidence": "high"
+      },
+      "domains": {
+        "ENG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Underwater equipment and physical operating limits are central.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/671553/chamber-divers-by-rachel-lance/"
+          ]
+        },
+        "SCI": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Pressure effects motivate experimental investigation.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/671553/chamber-divers-by-rachel-lance/"
+          ]
+        },
+        "QLT": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Testing reveals survivable operating limits.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/671553/chamber-divers-by-rachel-lance/"
+          ]
+        },
+        "MIL": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Reconnaissance requirements direct the research.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/671553/chamber-divers-by-rachel-lance/"
+          ]
+        },
+        "INN": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "New underwater capability is the principal historical result.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/671553/chamber-divers-by-rachel-lance/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "underwater-tests-enable-reconnaissance",
+            "domains": [
+              "SCI",
+              "ENG",
+              "QLT",
+              "MIL"
+            ],
+            "roles": {
+              "SCI": "Pressure and physiological constraints",
+              "ENG": "Underwater equipment",
+              "QLT": "Tests of operating limits",
+              "MIL": "Covert reconnaissance requirements"
+            },
+            "statement": "Experimental evidence about underwater limits informs equipment and operating choices needed for reconnaissance in hostile environments.",
+            "scope": "Pre-D-Day research; no operational diving instructions.",
+            "strength": 3,
+            "confidence": "moderate",
+            "refs": [
+              "https://www.penguinrandomhouse.com/books/671553/chamber-divers-by-rachel-lance/"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Archival science and engineering narrative, not diving instruction despite technical subject matter.",
+    "reason": "No serious veto established. Experimental constraints, equipment and reconnaissance needs supply real mechanisms. Heroic claims about decisive contributions warrant restraint.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/671553/chamber-divers-by-rachel-lance/",
+      "https://bedfordsquarepublishers.co.uk/book/chamber-divers/"
+    ],
+    "raw": [
+      17,
+      14,
+      12,
+      10,
+      8,
+      8,
+      6,
+      4.5,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E17: archival investigation and technical expertise support the account; decisive-war claims remain bounded.",
+      "S14: pressure physiology, equipment, research institutions and operations connect.",
+      "U12: testing under physical constraints and translating results into capability transfer.",
+      "M10: experimental limits explain how underwater operations became feasible.",
+      "D8: researcher stories largely advance the technical problem.",
+      "R8: constrained experimentation remains useful.",
+      "F6: applied physics and equipment development fit strongly.",
+      "A4.5: Lance’s biomedical engineering and diving research provide direct expertise.",
+      "N3: the research-to-operation arc is clear.",
+      "P1.5: heroic framing can overstate one contribution to D-Day."
+    ],
+    "year": 2024,
+    "yearNote": "Publisher original ebook April 2024; inspected paperback 2026.",
+    "periodEnd": 1944,
+    "periodNote": "D-Day reconnaissance and its enabling research form the central arc; later consequences are secondary.",
+    "themeNote": "T11=0: injury risk is an experimental constraint, not a disease-history focus. T12=0: scientific and equipment development lead; war supplies the application."
+  },
+  {
+    "index": 66,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The Secret Horsepower Race Calum Douglas\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-159.json",
+          "result": "No verified matching book total-rating aggregate; non-book results rejected."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Secret%20Horsepower%20Race%20Calum%20E.%20Douglas%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 480,
+        "id": "ISBN:9781911658504",
+        "url": "https://www.casematepublishers.com/9781911658900/the-secret-horsepower-race/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Hardcover",
+        "year": 2020,
+        "confidence": "high"
+      },
+      "domains": {
+        "ENG": {
+          "value": 4,
+          "confidence": "moderate",
+          "rationale": "Engine-design constraints supply the central explanation.",
+          "refs": [
+            "https://www.casematepublishers.com/9781911658900/the-secret-horsepower-race/"
+          ]
+        },
+        "PRD": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Manufacturing and development programs determine realizable output.",
+          "refs": [
+            "https://www.enginehistory.org/Reviews/book_reviews_9.shtml"
+          ]
+        },
+        "MAT": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Fuel and component properties constrain performance.",
+          "refs": [
+            "https://www.enginehistory.org/Reviews/book_reviews_9.shtml"
+          ]
+        },
+        "INN": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Iterative performance improvement organizes the chronology.",
+          "refs": [
+            "https://www.casematepublishers.com/9781911658900/the-secret-horsepower-race/"
+          ]
+        },
+        "MIL": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Air-combat requirements motivate engineering choices.",
+          "refs": [
+            "https://www.casematepublishers.com/9781911658900/the-secret-horsepower-race/"
+          ]
+        },
+        "INS": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Managerial and intelligence arrangements shape development.",
+          "refs": [
+            "https://www.enginehistory.org/Reviews/book_reviews_9.shtml"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "engine-performance-and-industrial-constraints",
+            "domains": [
+              "ENG",
+              "MAT",
+              "PRD",
+              "INN",
+              "MIL"
+            ],
+            "roles": {
+              "ENG": "Engine design",
+              "MAT": "Fuel and component limits",
+              "PRD": "Manufacturing realization",
+              "INN": "Iterative improvements",
+              "MIL": "Aircraft performance demands"
+            },
+            "statement": "Performance demands drive successive engine changes, but material properties and manufacturability constrain which improvements become operational capability.",
+            "scope": "Western fighter-engine development through 1945.",
+            "strength": 4,
+            "confidence": "moderate",
+            "refs": [
+              "https://www.enginehistory.org/Reviews/book_reviews_9.shtml"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Retain at moderate confidence as chronological explanatory industrial history. Nine historical chapters dominate before a technical overview; design detail explains historical decisions rather than training engine design. The specialist-reference description is a real boundary concern.",
+    "reason": "No serious veto established. Archival comparisons of engineering, fuels and organizational choices supply strong utility. Claims that engine power alone determines air superiority are overbroad.",
+    "evidence": [
+      "https://www.casematepublishers.com/9781911658900/the-secret-horsepower-race/",
+      "https://www.enginehistory.org/Reviews/book_reviews_9.shtml",
+      "https://www.si.edu/object/secret-horsepower-race-western-front-fighter-engine-development-calum-e-douglas%3Asiris_sil_1155141",
+      "https://mortonsbooks.co.uk/images/mortons-books-cat-2021.pdf"
+    ],
+    "raw": [
+      17,
+      15,
+      13,
+      11,
+      8,
+      9,
+      7,
+      4,
+      2,
+      1.5
+    ],
+    "notes": [
+      "E17: archival comparisons and designer memoirs provide evidence; wartime causal claims need limits.",
+      "S15: engine design, fuels, production and intelligence connect.",
+      "U13: physical bottlenecks and competing development choices transfer strongly.",
+      "M11: design decisions are explained through specific engineering constraints.",
+      "D8: technical detail is substantive but exceeds some general readers’ needs.",
+      "R9: historical engineering trade-offs remain durable.",
+      "F7: performance, improvement and industrial intelligence directly fit.",
+      "A4: engine-design expertise and archival work support authority.",
+      "N2: dense diagrams and design detail interrupt the chronology.",
+      "P1.5: some strategic claims overstate the sufficiency of engine power."
+    ],
+    "year": 2020,
+    "yearNote": "Smithsonian and publisher establish original 2020; special 2021 editions do not reset it.",
+    "periodEnd": 1945,
+    "periodNote": "The final chronological chapter is 1945; the technical overview is not a later historical period.",
+    "themeNote": "T11=0: comparative industrial history. T12=0: engine development is central; warfare motivates and applies it."
+  },
+  {
+    "index": 67,
+    "status": "recommended",
+    "confidence": "low",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": -10,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Queen Victoria Little Wars Byron Farwell\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-160.json",
+          "result": "No verified matching book total-rating aggregate; non-book results rejected."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Queen%20Victoria's%20Little%20Wars%20Byron%20Farwell%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 432,
+        "id": "ISBN:9780393302356",
+        "url": "https://bookshop.org/p/books/queen-victoria-s-little-wars-byron-farwell/7294608/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 1985,
+        "confidence": "moderate"
+      },
+      "domains": {
+        "MIL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Colonial campaigns organize the book.",
+          "refs": [
+            "https://openlibrary.org/books/OL4583199M/Queen_Victoria%27s_little_wars."
+          ]
+        },
+        "INS": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Regimental organization helps explain campaign behavior.",
+          "refs": [
+            "https://www.geocities.ws/cdferree/review/december.htm"
+          ]
+        },
+        "POL": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Imperial decisions and rivalries frame the expeditions.",
+          "refs": [
+            "https://www.geocities.ws/cdferree/review/december.htm"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Popular chronological military history, not tactical instruction.",
+    "reason": "No serious veto established at low confidence. Organizational and expedition constraints offer some payload, but anecdotal imperial framing limits explanatory range and balance.",
+    "evidence": [
+      "https://openlibrary.org/books/OL4583199M/Queen_Victoria%27s_little_wars.",
+      "https://books.google.nu/books?id=Kmr-hCx8wiMC&lr=",
+      "https://bookshop.org/p/books/queen-victoria-s-little-wars-byron-farwell/7294608/",
+      "https://www.geocities.ws/cdferree/review/december.htm"
+    ],
+    "raw": [
+      13,
+      8,
+      7,
+      6,
+      6,
+      8,
+      2,
+      3.5,
+      3,
+      1
+    ],
+    "notes": [
+      "E13: researched campaigns support events, but anecdotal selection and imperial perspective constrain integrity.",
+      "S8: army organization and political context connect within British expansion.",
+      "U7: expedition and institutional failures offer limited transfer.",
+      "M6: personalities and episodes often displace sustained causal explanation.",
+      "D6: colorful marginal incidents reduce analytical concentration.",
+      "R8: the historical cases remain durable.",
+      "F2: military and imperial narrative provides little technological depth.",
+      "A3.5: sustained military-history work supports moderate authority.",
+      "N3: an accessible campaign sequence holds the overview together.",
+      "P1: heroic imperial language can flatten opposing experience."
+    ],
+    "year": 1972,
+    "yearNote": "Library first US edition identifies 1972; inspected paperback 1985.",
+    "periodEnd": 1902,
+    "periodNote": "The reviewed campaign scope runs through the end of the Boer War, rather than stopping at Victoria’s 1901 death.",
+    "themeNote": "T11=-10: British imperial national history is the organizing perspective. T12=-10: military campaigns are central."
+  },
+  {
+    "index": 68,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "low",
+    "T11": -10,
+    "T12": -10,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Going Clear Lawrence Wright\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-161.json",
+          "result": "No verified matching book total-rating aggregate; non-book results rejected."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Going%20Clear%20Lawrence%20Wright%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 560,
+        "id": "ISBN:9780307745309",
+        "url": "https://www.penguinrandomhouse.com/books/212925/going-clear-by-lawrence-wright/9780307745309/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2013,
+        "confidence": "high"
+      },
+      "domains": {
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Organizational rules and control structures are central.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/212925/going-clear-by-lawrence-wright/9780307745309/"
+          ]
+        },
+        "POL": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Legal protection and institutional power shape public accountability.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/212925/going-clear-by-lawrence-wright/9780307745309/"
+          ]
+        },
+        "FIN": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Accumulated wealth helps sustain the organization.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/212925/going-clear-by-lawrence-wright/9780307745309/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "eligibility": "Investigative history of a religious organization, not devotional writing or religious instruction.",
+    "reason": "No serious veto established. Organizational control, legal pressure and celebrity recruitment provide transferable mechanisms. A book investigating religion is not itself a religious doctrine under V5.",
+    "raw": [
+      17,
+      11,
+      9,
+      8,
+      7,
+      8,
+      3,
+      4,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E17: archives and many interviews support the account; disputed insider allegations require care.",
+      "S11: belief, legal institutions, wealth and celebrity status interact.",
+      "U9: coercive organizations and information control offer transferable lessons.",
+      "M8: commitment and organizational pressure explain persistence beyond biography.",
+      "D7: celebrity and founder detail reduce mechanism density.",
+      "R8: institutional control remains useful beyond current personalities.",
+      "F3: institutional power fits, but religion and celebrity dominate.",
+      "A4: extensive investigative reporting supports authority.",
+      "N3: organizational history and personal exits create a clear line.",
+      "P1.5: vivid psychological characterization retains some inferential risk."
+    ],
+    "year": 2013,
+    "yearNote": "Publisher original ebook January 2013; paperback November 2013.",
+    "periodEnd": 2012,
+    "periodNote": "Approximate close of the contemporary organizational history before first publication; exact final dated episode remains unverified.",
+    "themeNote": "T11=-10: Hollywood celebrity and American institutional history are central. T12=-10: organizational power is a central explanatory object.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/212925/going-clear-by-lawrence-wright/9780307745309/"
+    ]
+  },
+  {
+    "index": 69,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "low",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The Facemaker Lindsey Fitzharris\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-162.json",
+          "result": "No verified matching book total-rating aggregate; non-book results rejected."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Facemaker%20Lindsey%20Fitzharris%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 320,
+        "id": "ISBN:9780141990293",
+        "url": "https://www.bol.com/nl/nl/p/the-facemaker/9300000132304952/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2023,
+        "confidence": "moderate"
+      },
+      "domains": {
+        "INN": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Development of reconstructive surgery is the central historical result.",
+          "refs": [
+            "https://wp.penguin.co.uk/wp-content/uploads/2022/06/PenguinPressCatalogueSS22March22Update.pdf"
+          ]
+        },
+        "INS": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "A dedicated hospital combines doctors, nurses and artists.",
+          "refs": [
+            "https://wp.penguin.co.uk/wp-content/uploads/2022/06/PenguinPressCatalogueSS22March22Update.pdf"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Medical surgical innovation is not automatically mapped to physics-oriented SCI or industrial ENG. Only clearly supported innovation and organizational values are assigned."
+      }
+    },
+    "author": "Lindsey Fitzharris",
+    "eligibility": "Public history of surgical innovation and patients, not a surgery textbook or procedural manual.",
+    "reason": "No serious veto established. Combining reconstruction, art and team organization provides an innovation account beyond the biographical exception.",
+    "evidence": [
+      "https://wp.penguin.co.uk/wp-content/uploads/2022/06/PenguinPressCatalogueSS22March22Update.pdf",
+      "https://catalog.slcpl.org/search/title.aspx?=&cn=971151&ctx=1.1033.0.0.7&lp=0&pos=1",
+      "https://www.bol.com/nl/nl/p/the-facemaker/9300000132304952/"
+    ],
+    "raw": [
+      17,
+      12,
+      10,
+      8,
+      8,
+      8,
+      4,
+      4,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E17: historical research and patient records support the account; hero-centered selection limits completeness.",
+      "S12: surgical craft, art and hospital organization interact.",
+      "U10: multidisciplinary reconstruction and iterative improvement transfer.",
+      "M8: technical innovations are explained without becoming a procedural course.",
+      "D8: patient stories largely illuminate the reconstruction problem.",
+      "R8: innovation under severe constraints remains durable.",
+      "F4: improvement and technical craft fit, while medical biography leads.",
+      "A4: Fitzharris’s history-of-medicine research supports authority.",
+      "N3: patients and surgeon provide a clear cumulative arc.",
+      "P1.5: heroic and emotive language sometimes exceeds analytical restraint."
+    ],
+    "year": 2022,
+    "yearNote": "Publisher catalog and library first edition establish June 2022; inspected paperback 2023.",
+    "periodEnd": 1925,
+    "periodNote": "Approximate endpoint for the principal First World War reconstruction program and its early aftermath; exact final chapter boundary needs full-text review.",
+    "themeNote": "T11=0: repair of war injuries, not a disease history or American tragedy. T12=0: surgical innovation is central, with war as the source of the problem."
+  }
+]

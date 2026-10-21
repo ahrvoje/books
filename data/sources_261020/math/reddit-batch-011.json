@@ -1,0 +1,1029 @@
+[
+  {
+    "index": 90,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The Code Breaker\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-231.json",
+          "result": "Matching title search did not expose a verified Amazon total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Code%20Breaker%20Walter%20Isaacson%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 560,
+        "id": "ISBN:9781982115869",
+        "url": "https://www.simonandschuster.com/books/The-Code-Breaker/Walter-Isaacson/9781982115869",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2022,
+        "confidence": "high"
+      },
+      "domains": {
+        "SCI": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Gene-editing discovery and explanation are sustained.",
+          "refs": [
+            "https://www.simonandschuster.com/books/The-Code-Breaker/Walter-Isaacson/9781982115869"
+          ]
+        },
+        "INN": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Laboratory findings become biotechnology.",
+          "refs": [
+            "https://www.simonandschuster.com/books/The-Code-Breaker/Walter-Isaacson/9781982115869"
+          ]
+        },
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Competition and collaboration shape research.",
+          "refs": [
+            "https://www.simonandschuster.com/books/The-Code-Breaker/Walter-Isaacson/9781982115869"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "The Code Breaker",
+    "eligibility": "Scientific biography and explanatory narrative, not a gene-editing training text.",
+    "reason": "No serious veto established. Scientific organization and translation provide payload; expansive future claims should be separated from demonstrated results.",
+    "raw": [
+      16,
+      14,
+      11,
+      9,
+      7,
+      8,
+      5,
+      4,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E16: reporting supports discovery history; future transformation claims are less established.",
+      "S14: laboratory discovery, competition and biotech application connect.",
+      "U11: collaboration and research incentives transfer.",
+      "M9: gene-editing processes receive accessible but selective explanation.",
+      "D7: biography and current-event material reduce concentration.",
+      "R8: discovery history lasts beyond forecasts.",
+      "F5: scientific organization and innovation fit more than the biology itself.",
+      "A4: extensive biographical reporting supports authority.",
+      "N3: Doudna’s career anchors the scientific story.",
+      "P1.5: revolution framing can overstate certainty."
+    ],
+    "year": 2021,
+    "yearNote": "Publisher identifies the original 2021 work; paperback 2022.",
+    "periodEnd": 2020,
+    "periodNote": "The discovery biography culminates in the 2020 Nobel and pandemic research period.",
+    "themeNote": "T11=0: discovery and research organization lead; treatment is an application. T12=0: science and innovation are central.",
+    "evidence": [
+      "https://www.simonandschuster.com/books/The-Code-Breaker/Walter-Isaacson/9781982115869"
+    ]
+  },
+  {
+    "index": 91,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The Premonition\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-231.json",
+          "result": "Matching title search did not expose a verified Amazon total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Premonition%20Michael%20Lewis%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 320,
+        "id": "ISBN:9780393881554",
+        "url": "https://wwnorton.co.uk/books/9780393881554-the-premonition/formats",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Hardcover",
+        "year": 2021,
+        "confidence": "high"
+      },
+      "domains": {
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Public-health organization and authorization failures are central.",
+          "refs": [
+            "https://wwnorton.co.uk/books/9780393881554-the-premonition"
+          ]
+        },
+        "QNT": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Transmission modeling informs response proposals.",
+          "refs": [
+            "https://wwnorton.co.uk/books/9780393881554-the-premonition"
+          ]
+        },
+        "POL": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Federal directives constrain implementation.",
+          "refs": [
+            "https://wwnorton.co.uk/books/9780393881554-the-premonition"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "The Premonition",
+    "eligibility": "Reported public-health narrative, not epidemiology training.",
+    "reason": "No serious veto established at moderate confidence. Institutional coordination gives transferable content, but hero-centered selection and rapid publication constrain causal confidence.",
+    "raw": [
+      14,
+      12,
+      10,
+      8,
+      8,
+      6,
+      3,
+      3.5,
+      3,
+      1
+    ],
+    "notes": [
+      "E14: direct reporting supplies detail; favorable protagonists need independent scrutiny.",
+      "S12: models, local operations and federal institutions connect.",
+      "U10: permission barriers and information flow transfer.",
+      "M8: bureaucratic failure is explained through selected cases.",
+      "D8: focused reporting avoids much digression.",
+      "R6: early-pandemic judgments remain historically contingent.",
+      "F3: organizational risk fits indirectly.",
+      "A3.5: reporting experience supports access but not epidemiological authority.",
+      "N3: linked protagonists make institutions legible.",
+      "P1: sharp hero-obstacle framing reduces nuance."
+    ],
+    "year": 2021,
+    "yearNote": "Publisher original May 2021.",
+    "periodEnd": 2020,
+    "periodNote": "The central early COVID-19 response is in 2020, with earlier preparedness background.",
+    "themeNote": "T11=-10: disease and American public-health response dominate. T12=0: disease response is central; politics is a governing context.",
+    "evidence": [
+      "https://wwnorton.co.uk/books/9780393881554-the-premonition"
+    ]
+  },
+  {
+    "index": 92,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The Secret in Building 26\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-231.json",
+          "result": "Matching title search did not expose a verified Amazon total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Secret%20in%20Building%2026%20%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 272,
+        "id": "ISBN:0375508074",
+        "url": "https://www.archives.gov/research/alic/special-collections/taylor-collection.html",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Print edition; binding unverified",
+        "year": 2004,
+        "confidence": "moderate",
+        "notes": "Library pagination xxix, 272 pages; value records numbered main pagination, not an inferred total including preliminaries."
+      },
+      "domains": {
+        "CMP": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Electromechanical search attacks Enigma settings.",
+          "refs": [
+            "https://search.worldcat.org/pt/title/The-secret-in-Building-26-%3A-the-untold-story-of-America%27s-ultra-war-against-the-U-boat-Enigma-codes/oclc/52766186"
+          ]
+        },
+        "ENG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Desch’s machine design is central.",
+          "refs": [
+            "https://search.worldcat.org/pt/title/The-secret-in-Building-26-%3A-the-untold-story-of-America%27s-ultra-war-against-the-U-boat-Enigma-codes/oclc/52766186"
+          ]
+        },
+        "INN": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "A new machine is developed under urgent constraints.",
+          "refs": [
+            "https://search.worldcat.org/pt/title/The-secret-in-Building-26-%3A-the-untold-story-of-America%27s-ultra-war-against-the-U-boat-Enigma-codes/oclc/52766186"
+          ]
+        },
+        "MIL": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "U-boat tracking sets the operational requirement.",
+          "refs": [
+            "https://search.worldcat.org/pt/title/The-secret-in-Building-26-%3A-the-untold-story-of-America%27s-ultra-war-against-the-U-boat-Enigma-codes/oclc/52766186"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [
+          {
+            "id": "bombe-search",
+            "domains": [
+              "CMP",
+              "ENG",
+              "MIL"
+            ],
+            "roles": {
+              "CMP": "Required search over new cipher settings",
+              "ENG": "High-speed electromechanical implementation",
+              "MIL": "Time-limited need to track submarine operations"
+            },
+            "statement": "Cipher search becomes operationally useful only when the machine can process settings fast enough for the naval intelligence requirement.",
+            "scope": "Four-rotor naval Enigma response",
+            "strength": 3,
+            "confidence": "moderate",
+            "refs": [
+              "https://search.worldcat.org/pt/title/The-secret-in-Building-26-%3A-the-untold-story-of-America%27s-ultra-war-against-the-U-boat-Enigma-codes/oclc/52766186"
+            ]
+          }
+        ],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "The Secret in Building 26",
+    "author": "Jim DeBrosse; Colin B. Burke",
+    "eligibility": "Narrative engineering and cryptographic history for public readers, not cryptanalysis instruction.",
+    "reason": "No serious veto established. Machine development under time and secrecy constraints provides payload; exclusive American-triumph rhetoric needs caution.",
+    "evidence": [
+      "https://search.worldcat.org/pt/title/The-secret-in-Building-26-%3A-the-untold-story-of-America%27s-ultra-war-against-the-U-boat-Enigma-codes/oclc/52766186",
+      "https://daytoncodebreakers.org/more/contact/",
+      "https://www.archives.gov/research/alic/special-collections/taylor-collection.html",
+      "https://tug.org/utah/bibnet/authors/t/turing-alan-mathison.pdf"
+    ],
+    "raw": [
+      16,
+      14,
+      12,
+      10,
+      8,
+      9,
+      7,
+      4,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E16: archival research supports reconstruction; priority claims require context.",
+      "S14: cryptographic requirements, engineering and naval urgency connect.",
+      "U12: mission-driven development under secrecy transfers.",
+      "M10: the machine’s search capability explains the technical breakthrough.",
+      "D8: a bounded project supports dense treatment.",
+      "R9: development and coordination constraints endure.",
+      "F7: computing and engineering fit directly.",
+      "A4: historical research and local reporting support authority.",
+      "N3: the project provides a clear arc.",
+      "P1.5: exceptionalist triumph framing needs qualification."
+    ],
+    "year": 2004,
+    "yearNote": "Original 2004 confirmed by National Archives and project archive.",
+    "periodEnd": 1945,
+    "periodNote": "Central wartime development and use through the Second World War; later personal aftermath is secondary.",
+    "themeNote": "T11=0: a technology-development project with international effects. T12=0: engineering and computation lead; war provides the use case."
+  },
+  {
+    "index": 93,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The Man Who Ate His Boots\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-232.json",
+          "result": "Matching title search did not expose a verified Amazon total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Man%20Who%20Ate%20His%20Boots%20%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 464,
+        "id": "ISBN:9780307276568",
+        "url": "https://www.penguinrandomhouse.com/books/17611/the-man-who-ate-his-boots-by-anthony-brandt/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2011,
+        "confidence": "high"
+      },
+      "domains": {
+        "LOG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Provisioning and equipment burden constrain expeditions.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/17611/the-man-who-ate-his-boots-by-anthony-brandt/"
+          ]
+        },
+        "INS": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Admiralty assumptions and status barriers block learning.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/17611/the-man-who-ate-his-boots-by-anthony-brandt/"
+          ]
+        },
+        "STR": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Repeated commitment despite contrary evidence shapes choices.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/17611/the-man-who-ate-his-boots-by-anthony-brandt/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "The Man Who Ate His Boots",
+    "author": "Anthony Brandt",
+    "eligibility": "Explanatory exploration history rather than navigation instruction.",
+    "reason": "No serious veto established. Failed learning and resource constraints provide transferable lessons. The inspected review identifies peripheral factual mistakes, which lower precision without establishing central V1 failure.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/17611/the-man-who-ate-his-boots-by-anthony-brandt/",
+      "https://magazine.columbia.edu/article/book-review-man-who-ate-his-boots"
+    ],
+    "raw": [
+      15,
+      11,
+      10,
+      8,
+      7,
+      9,
+      4,
+      3.5,
+      3,
+      1
+    ],
+    "notes": [
+      "E15: historical reconstruction is substantial; documented minor errors limit confidence.",
+      "S11: geography, supplies and Admiralty institutions connect.",
+      "U10: ignoring local knowledge and escalating commitment transfer.",
+      "M8: organizational beliefs explain repeated expedition failures.",
+      "D7: personality and royal detail dilute mechanisms.",
+      "R9: limits of planning and learning persist.",
+      "F4: logistics and strategic error fit indirectly.",
+      "A3.5: historical editing and research support authority.",
+      "N3: successive expeditions form a clear argument.",
+      "P1: the review identifies avoidable name and relationship errors."
+    ],
+    "year": 2010,
+    "yearNote": "Publisher original ebook March 2010; paperback 2011.",
+    "periodEnd": 1854,
+    "periodNote": "The central Admiralty search culminates in McClure’s 1850–1854 journey and the end of the main search program; later epilogue is secondary.",
+    "themeNote": "T11=-10: British exploration history dominates. T12=0: logistics and exploration, not military doctrine or political power, organize the main account."
+  },
+  {
+    "index": 94,
+    "status": "recommended",
+    "confidence": "low",
+    "yearConfidence": "moderate",
+    "periodConfidence": "high",
+    "T11": 0,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"Shackleton's Forgotten Men\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-232.json",
+          "result": "Matching title search did not expose a verified Amazon total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=Shackleton's%20Forgotten%20Men%20%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 256,
+        "id": "ISBN:9780712668071",
+        "url": "https://www.penguin.com.au/books/shackletons-forgotten-men-9780712668071",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2001,
+        "confidence": "high"
+      },
+      "domains": {
+        "LOG": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Supply depots and loss of transport organize the account.",
+          "refs": [
+            "https://www.penguin.com.au/books/shackletons-forgotten-men-9780712668071"
+          ]
+        },
+        "STR": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Separated teams act under incomplete information.",
+          "refs": [
+            "https://www.penguin.com.au/books/shackletons-forgotten-men-9780712668071"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "Shackleton's Forgotten Men",
+    "author": "Lennard Bickel",
+    "eligibility": "Reported Antarctic expedition history, not survival instruction.",
+    "reason": "No serious veto established. Supply-chain dependence and isolated-team coordination provide payload; a heroic retrospective frame limits inference.",
+    "evidence": [
+      "https://www.penguin.com.au/books/shackletons-forgotten-men-9780712668071",
+      "https://books.google.com/books?id=RJteswEACAAJ",
+      "https://www.antarctic-circle.org/TACcollection.html",
+      "https://artandobject.co.nz/pdf/Cat_139.pdf",
+      "https://www.cnrs-scrn.org/northern_mariner/vol13/tnm_13_2_59-98.pdf"
+    ],
+    "raw": [
+      15,
+      10,
+      10,
+      8,
+      8,
+      9,
+      4,
+      3.5,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E15: survivor interviews and records support the story with retrospective limits.",
+      "S10: depot supply, transport loss and team coordination connect.",
+      "U10: dependent missions and failure contingencies transfer.",
+      "M8: loss of supplies explains the cascading hardship.",
+      "D8: a compact expedition account remains concentrated.",
+      "R9: logistical dependence and planning failure endure.",
+      "F4: resource management fits indirectly.",
+      "A3.5: direct survivor access supports historical reporting.",
+      "N3: the parallel support mission has a clear arc.",
+      "P1.5: heroic framing can obscure alternative decisions."
+    ],
+    "year": 2000,
+    "yearNote": "Physical collection and auction records establish the 2000 first American edition under this title. Bickel’s related 1982 Shackleton’s Forgotten Argonauts was located, but no inspected record establishes whether this is the same original text or a distinct/reworked account. Original-production identity remains a review concern; do not silently treat 2001 reprint as first publication.",
+    "periodEnd": 1917,
+    "periodNote": "The Ross Sea support-party story runs through the 1917 rescue.",
+    "themeNote": "T11=0: Antarctic logistics rather than national history or American tragedy. T12=0: expedition supply is central."
+  },
+  {
+    "index": 95,
+    "status": "excluded",
+    "confidence": "high",
+    "exclusion": "H1",
+    "eligibility": "Publisher identifies Maggie O’Farrell’s Land as a novel.",
+    "reason": "Historical fiction about an Irish mapmaker and his family. Apply H1 before scoring.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/678944/land-by-maggie-ofarrell/9780593320648/"
+    ]
+  },
+  {
+    "index": 96,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "The prior snapshot exposes only a review-label count. Total ratings are unverified; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/1400052181",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 400,
+        "id": "ISBN:9781400052189",
+        "url": "https://www.penguinrandomhouse.com/books/168191/the-immortal-life-of-henrietta-lacks-by-rebecca-skloot/9781400052189/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2011,
+        "confidence": "high"
+      },
+      "domains": {
+        "INS": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Consent and tissue-ownership institutions are sustained.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/168191/the-immortal-life-of-henrietta-lacks-by-rebecca-skloot/9781400052189/"
+          ]
+        },
+        "INN": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Cell cultures enable successive research applications.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/168191/the-immortal-life-of-henrietta-lacks-by-rebecca-skloot/9781400052189/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "The Immortal Life of Henrietta Lacks",
+    "eligibility": "Investigative scientific and family history, not clinical instruction or an activism manual.",
+    "reason": "No serious veto established. Consent, tissue ownership and institutional incentives provide transferable content despite poor theme fit.",
+    "reassessment": "Reread p008 and the current deduction row, then publisher scope and dated contents. Retain every attainment, gate, both themes and original 2010. Correct periodEnd 1951 to 2009: death is an early event, while the substantial research/family narrative continues to the final dated chapter in 2009. This is an endpoint correction, not a quality bonus.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/168191/the-immortal-life-of-henrietta-lacks-by-rebecca-skloot/9781400052189/",
+      "analysis/analysis_physcanon_261018_0147.md#p008",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0648",
+      "https://books.google.com/books?vid=ISBN9781400052172"
+    ],
+    "raw": [
+      17,
+      11.333333333333334,
+      8,
+      7.0588235294117645,
+      6,
+      8,
+      4,
+      4,
+      3,
+      2
+    ],
+    "notes": [
+      "E17: documentary reporting and interviews support the account.",
+      "S11.3333: research, ownership and family consequences connect.",
+      "U8: consent and governance questions transfer.",
+      "M7.0588: institutional mechanisms receive selective explanation.",
+      "D6: family narrative occupies substantial space.",
+      "R8: research-governance issues persist.",
+      "F4: scientific organization fits more than the disease narrative.",
+      "A4: sustained investigative work supports authority.",
+      "N3: interwoven timelines remain clear.",
+      "P2: controlled reporting handles personal and scientific detail."
+    ],
+    "year": 2010,
+    "yearNote": "Publisher first hardcover February 2010.",
+    "periodEnd": 2009,
+    "periodNote": "The dated contents culminate in The Long Road to Clover, 2009, after extensive 1970s–2000s research and family history.",
+    "themeNote": "T11=-10 once: racial history, disease and an American family dominate. T12=0: governance is supporting context, not central politics or finance."
+  },
+  {
+    "index": 97,
+    "status": "recommended",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "moderate",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "The prior snapshot exposes only a review-label count. Total ratings are unverified; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/dp/0618773479",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 352,
+        "id": "ISBN:9780547347776",
+        "url": "https://books.google.com/books/about/The_Worst_Hard_Time.html?id=np1RwDQfpjsC",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Ebook",
+        "year": 2006,
+        "confidence": "high"
+      },
+      "domains": {
+        "PRD": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Agricultural output choices shape vulnerability.",
+          "refs": [
+            "analysis/analysis_anysubject_261017_2227.md#a168"
+          ]
+        },
+        "INS": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Institutional response affects adaptation.",
+          "refs": [
+            "analysis/analysis_anysubject_261017_2227.md#a168"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "The Worst Hard Time",
+    "eligibility": "Environmental and social history, not an agricultural manual.",
+    "reason": "No serious veto established. Agricultural incentives and physical constraints provide payload despite strong theme mismatch.",
+    "reassessment": "Reread a168 and current deduction row, then publisher description and contemporary publication report. Retain all ten attainments, no veto, T11=-10, T12=0, 1939 and original 2005. The 2005 date is supported by the contemporary report of an advanced December release; many later listings say 2006.",
+    "evidence": [
+      "https://books.google.com/books/about/The_Worst_Hard_Time.html?id=np1RwDQfpjsC",
+      "analysis/analysis_anysubject_261017_2227.md#a168",
+      "analysis/analysis_pubcap_261018_2125.md#d-q0626",
+      "https://www.publishersweekly.com/pw/print/20051205/19844-talk-of-the-trade.html",
+      "https://openlibrary.org/books/OL7604874M/The_Worst_Hard_Time"
+    ],
+    "raw": [
+      16,
+      11.333333333333334,
+      9,
+      7.764705882352941,
+      7,
+      8,
+      3,
+      4,
+      3,
+      2
+    ],
+    "notes": [
+      "E16: survivor reporting supports the history with memory limits.",
+      "S11.3333: farm incentives, physical conditions and institutional response connect.",
+      "U9: exceeding resource limits and delayed adaptation transfer.",
+      "M7.7647: agricultural practices explain part of the disaster.",
+      "D7: family narratives reduce analytical concentration.",
+      "R8: resource-use lessons endure.",
+      "F3: production and institutional risk fit indirectly.",
+      "A4: investigative experience supports the account.",
+      "N3: families provide a coherent historical structure.",
+      "P2: controlled reportage makes conditions clear."
+    ],
+    "year": 2005,
+    "yearNote": "Contemporary Publishers Weekly report identifies December 14, 2005 release after schedule advancement; not the 2006 award/reprint year.",
+    "periodEnd": 1939,
+    "periodNote": "Retain the end of the central Dust Bowl decade, supported by the catalog’s 1931–1939 scope.",
+    "themeNote": "T11=-10 once: American environmental disaster and regional history. T12=0: politics is context."
+  },
+  {
+    "index": 98,
+    "status": "recommended",
+    "confidence": "low",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"The Radioactive Boy Scout\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-232.json",
+          "result": "Matching title search did not expose a verified Amazon total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=The%20Radioactive%20Boy%20Scout%20Ken%20Silverstein%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 240,
+        "id": "ISBN:9780812966602",
+        "url": "https://www.penguinrandomhouse.com/books/167319/the-radioactive-boy-scout-by-ken-silverstein/9780812966602/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2005,
+        "confidence": "high"
+      },
+      "domains": {
+        "QLT": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Unsupervised hazardous experimentation and response are central.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/167319/the-radioactive-boy-scout-by-ken-silverstein/9780812966602/"
+          ]
+        },
+        "INS": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Oversight gaps shape the incident and cleanup.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/167319/the-radioactive-boy-scout-by-ken-silverstein/9780812966602/"
+          ]
+        },
+        "SCI": {
+          "value": 1,
+          "confidence": "low",
+          "rationale": "Basic nuclear concepts are discussed, with precision concerns.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/167319/the-radioactive-boy-scout-by-ken-silverstein/9780812966602/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "The Radioactive Boy Scout",
+    "eligibility": "Reported biography of a hazardous experiment, not instructions for constructing a reactor.",
+    "reason": "No serious veto established at low confidence. Oversight and information-access failures provide some payload. Do not treat the publisher’s reactor language as proof of a functioning reactor or adopt its unquantified population-risk claim.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/167319/the-radioactive-boy-scout-by-ken-silverstein/9780812966602/",
+      "https://pubs.acs.org/doi/10.1021/cen-v076n048.p056",
+      "https://harpers.org/archive/1998/11/the-radioactive-boy-scout/4/"
+    ],
+    "raw": [
+      13,
+      10,
+      8,
+      7,
+      7,
+      8,
+      4,
+      3,
+      3,
+      1
+    ],
+    "notes": [
+      "E13: reporting supports the incident; reactor and risk rhetoric need technical checking.",
+      "S10: materials access, experimentation and regulatory response connect.",
+      "U8: uncontrolled experimentation and oversight gaps transfer.",
+      "M7: technical explanation is selective and sometimes sensationally framed.",
+      "D7: the short incident is expanded through personal context.",
+      "R8: safety and information problems persist.",
+      "F4: nuclear experimentation fits, but depth is limited.",
+      "A3: investigative reporting supports access, not nuclear authority.",
+      "N3: escalation and discovery provide a clear arc.",
+      "P1: dramatic technical labels need qualification."
+    ],
+    "year": 2004,
+    "yearNote": "Original book March 2004; the earlier 1998 magazine article is a precursor, not this book edition.",
+    "periodEnd": 1995,
+    "periodNote": "Central experiment and cleanup culminate in 1995, corroborated by the contemporary ACS report.",
+    "themeNote": "T11=-10: localized American contamination incident and family story. T12=0: technical experimentation is central."
+  },
+  {
+    "index": 99,
+    "status": "vetoed",
+    "confidence": "moderate",
+    "yearConfidence": "high",
+    "periodConfidence": "high",
+    "T11": -10,
+    "T12": 0,
+    "amazon": {
+      "count": null,
+      "status": "No verified total-rating aggregate; O15=0 unknown-count fallback.",
+      "attemptedAt": "2026-10-20",
+      "attempts": [
+        {
+          "query": "site:amazon.com \"How to Avoid a Climate Disaster\" ratings",
+          "auditFile": "data/sources_261020/math/reddit-research-232.json",
+          "result": "Matching title search did not expose a verified Amazon total-rating aggregate."
+        }
+      ],
+      "accessNote": "Native Amazon requests stopped after a Continue shopping / validateCaptcha challenge on 2026-10-20. No claim that every later product was fetched."
+    },
+    "purchaseUrl": "https://www.amazon.de/s?k=How%20to%20Avoid%20a%20Climate%20Disaster%20Bill%20Gates%20paperback",
+    "purchaseFormat": "Search locator only; Amazon product format unverified.",
+    "reader": "Unavailable verified reader aggregate.",
+    "enrichment": {
+      "edition": {
+        "pages": 272,
+        "id": "ISBN:9780593081853",
+        "url": "https://www.penguinrandomhouse.com/books/633968/how-to-avoid-a-climate-disaster-by-bill-gates/",
+        "retrieved": "2026-10-20",
+        "language": "English",
+        "format": "Paperback",
+        "year": 2022,
+        "confidence": "high"
+      },
+      "domains": {
+        "ENE": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Energy production and substitution are sustained.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/633968/how-to-avoid-a-climate-disaster-by-bill-gates/"
+          ]
+        },
+        "PRD": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Industrial materials and manufacturing emissions are central sectors.",
+          "refs": [
+            "https://books.google.com/books?id=pHK0DwAAQBAJ"
+          ]
+        },
+        "LOG": {
+          "value": 2,
+          "confidence": "moderate",
+          "rationale": "Transport substitution is one major sector.",
+          "refs": [
+            "https://books.google.com/books?id=pHK0DwAAQBAJ"
+          ]
+        },
+        "INN": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Innovation and deployment barriers organize the proposal.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/633968/how-to-avoid-a-climate-disaster-by-bill-gates/"
+          ]
+        },
+        "ECO": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Cost premiums determine adoption feasibility.",
+          "refs": [
+            "https://books.google.com/books?id=pHK0DwAAQBAJ"
+          ]
+        },
+        "POL": {
+          "value": 3,
+          "confidence": "moderate",
+          "rationale": "Government action supports the proposed transition.",
+          "refs": [
+            "https://www.penguinrandomhouse.com/books/633968/how-to-avoid-a-climate-disaster-by-bill-gates/"
+          ]
+        }
+      },
+      "connections": {
+        "status": "partial",
+        "mechanisms": [],
+        "joins": [],
+        "limitations": "Listed descriptions, contents, excerpts and prior book-specific reviews inspected. Full text and all potential interactions were not audited."
+      },
+      "research": {
+        "reviewed": "2026-10-20",
+        "unknownReason": "Uncoded domain depth remains unknown; limited source coverage does not establish absence."
+      }
+    },
+    "title": "How to Avoid a Climate Disaster",
+    "veto": "V5",
+    "vetoConfidence": "high",
+    "eligibility": "Public explanatory policy argument, not specialist technical instruction. Sector explanations and proposed public actions do not constitute professional methods training.",
+    "reason": "V5 applies: the stated organizing purpose is an environmental action plan for net-zero emissions, including government and individual action. The counterfactual assessment retains its substantial technical and economic content.",
+    "evidence": [
+      "https://www.penguinrandomhouse.com/books/633968/how-to-avoid-a-climate-disaster-by-bill-gates/",
+      "https://books.google.com/books?id=pHK0DwAAQBAJ",
+      "https://catalog.libraries.vsc.edu/cgi-bin/koha/opac-detail.pl?biblionumber=520847&shelfbrowse_itemnumber=709013"
+    ],
+    "raw": [
+      16,
+      15,
+      12,
+      10,
+      9,
+      7,
+      7,
+      4,
+      3,
+      1.5
+    ],
+    "notes": [
+      "E16: quantified sector discussion is useful; future feasibility remains uncertain.",
+      "S15: energy, industry, transport, costs and policy connect.",
+      "U12: cost premiums and deployment constraints transfer.",
+      "M10: emissions sources and substitution barriers receive clear explanation.",
+      "D9: short sector chapters keep the account concentrated.",
+      "R7: physical constraints persist while prices and forecasts date.",
+      "F7: energy, production and innovation directly fit.",
+      "A4: technology investment experience and expert consultation support authority.",
+      "N3: sector structure makes the argument clear.",
+      "P1.5: optimistic feasibility language needs qualification."
+    ],
+    "year": 2021,
+    "yearNote": "Publisher original hardcover February 2021.",
+    "periodEnd": null,
+    "periodNote": "Contemporary explanatory and prospective plan, not a historical interval.",
+    "themeNote": "T11=-10: climate/environment is the organizing topic. T12=0: technology and energy dominate the proposed means; policy supports them."
+  }
+]

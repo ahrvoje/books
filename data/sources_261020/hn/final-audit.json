@@ -1,0 +1,50 @@
+{
+  "reviewed": "2026-10-20",
+  "ownDecisions": 611,
+  "transferred": 225,
+  "totalPacket": 836,
+  "remaining": 0,
+  "statuses": {
+    "excluded": 429,
+    "recommended": 150,
+    "unresolved": 3,
+    "vetoed": 28,
+    "nonbook": 1
+  },
+  "invalid": [],
+  "unresolved": [
+    {
+      "id": "n30a6a5c99a",
+      "title": "Rocket Men",
+      "status": "unresolved",
+      "reason": "The source says only “And Rocket Men.” Both Robert Kurson’s Apollo 8 account and Craig Nelson’s Apollo 11 account fit the surrounding recommendation of narrative technology history. Both predate the comment. No author, mission, subtitle or link selects one, so neither is silently nominated or scored."
+    },
+    {
+      "id": "n00a65a5c33",
+      "title": "Connections",
+      "status": "unresolved",
+      "reason": "Connections exists in book and documentary forms, but this source says that the documentary is highly recommended and supplies no book edition or subtitle. Preserve the ambiguous book-intent mention without scoring an assumed adaptation."
+    },
+    {
+      "id": "n44be3d79e4",
+      "title": "Aramis",
+      "status": "nonbook",
+      "reason": "Merge Aramis into Aramis, or the Love of Technology; author and subject match."
+    },
+    {
+      "id": "n73b6b2ab06",
+      "title": "Firefly trilogy",
+      "status": "unresolved",
+      "reason": "The author bibliography identifies Firefall as an omnibus of Blindsight and Echopraxia, and separately identifies the Rifters trilogy. Either could underlie the source error; silently selecting one would invent a title identity. Both plausible candidates are fiction, but no separate canonical work is added or scored."
+    }
+  ],
+  "concerns": [
+    "All connection inventories are partial unless a preserved earlier record explicitly established completeness.",
+    "Family Lexicon: the author says no events were invented; retained as nonfiction despite novel marketing. Its 1950 period endpoint now has a scholarly citation.",
+    "Perec: invalid publisher ISBN rejected; exact matching 2010 edition verified.",
+    "Last Lion nomination covers the complete three-volume series, not prior g0990 volume 3; distinct canonicalId n_last_lion_series and retainPrior true.",
+    "Kershaw Hitler: nominated single-volume abridgment uses its own page count, with original 1998 production date retained.",
+    "Fatu-Hiva: 1974 rewrite retains original 1938 production date; assessment concerns the nominated revised work.",
+    "World Order: critical evidence reduced integrity and causal scores; serious V2 not established sufficiently to veto."
+  ]
+}

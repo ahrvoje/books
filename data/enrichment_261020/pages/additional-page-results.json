@@ -1,0 +1,103 @@
+{
+  "q0702": {
+    "edition": {
+      "pages": 560,
+      "id": "ISBN:9780241543931",
+      "url": "https://www.penguin.co.uk/books/446348/the-cosmography-and-geography-of-africa-by-africanus-leo/9780241543931",
+      "retrieved": "2026-10-20T15:05:17.848Z",
+      "language": "English",
+      "format": "Paperback",
+      "year": 2023,
+      "confidence": "high",
+      "title": "The Cosmography and Geography of Africa",
+      "authors": "Johannes Leo Africanus",
+      "publisher": "Penguin Classics",
+      "isbn13": [
+        "9780241543931"
+      ],
+      "publicationDate": "2023-03-02",
+      "notes": "Complete English translation by Anthony Ossa-Richardson and Richard J. Oosterhoff, based on the surviving manuscript. Publisher sample contents cover all seven manuscript books, notes and index; this is not one volume of the Pory/Brown edition or a partial anthology. Publisher extent includes introduction and notes. UK publication date; the same ISBN reached US distribution in 2024. The original composition year is separate and unchanged.",
+      "source": {
+        "url": "https://www.penguin.co.uk/books/446348/the-cosmography-and-geography-of-africa-by-africanus-leo/9780241543931",
+        "retrieved": "2026-10-20T15:05:17.848Z",
+        "rawFile": "data/enrichment_261020/pages/raw/additional-q0702-0-b6bfab1c1019b6e1.html.gz",
+        "status": 200,
+        "sha256": "33c516a7aa265a7b7837edc86dde91b9169927a33e3d3f6a16473cd61b80460c",
+        "provider": "Penguin Books UK",
+        "corroboration": {
+          "url": "https://www.research.ed.ac.uk/en/publications/the-cosmography-and-geography-of-africa/",
+          "retrieved": "2026-10-20T15:05:19.378Z",
+          "rawFile": "data/enrichment_261020/pages/raw/additional-q0702-1-88461aebe6883316.html.gz",
+          "status": 200,
+          "sha256": "924cc06ca318943a1da6d429d100251da33d41944bd2a21ff6e3636ed79e3f8b",
+          "provider": "University of Edinburgh: translator research record"
+        },
+        "scope": {
+          "url": "https://cdn.penguin.co.uk/dam-assets/books/9780241543931/9780241543931-sample.pdf",
+          "retrieved": "2026-10-20T15:05:26.820Z",
+          "status": 200,
+          "rawFile": "data/enrichment_261020/pages/raw/additional-q0702-penguin-sample.pdf",
+          "sha256": "e08390b677702ce315dbbadf29c22081e11a5be8059d954f2cd896ec3830a8bf",
+          "provider": "Penguin Books UK publisher sample",
+          "inspected": "Copyright page (PDF page 5); contents (PDF pages 6–7); introduction on textual basis (printed pages xxv–xxviii).",
+          "finding": "The manuscript is the source text; two substantial Ramusio passages absent from the manuscript are included in brackets. Translators explain sentence editing and removal of empty repetition. All seven manuscript books are present."
+        }
+      }
+    },
+    "reason": null,
+    "alternativeCompleteEdition": {
+      "title": "The History and Description of Africa",
+      "author": "Leo Africanus",
+      "translator": "John Pory",
+      "editor": "Robert Brown",
+      "publisher": "Cambridge University Press",
+      "language": "English",
+      "format": "Three-volume paperback set",
+      "year": 2010,
+      "pages": 1288,
+      "calculation": "364 + 488 + 436 = 1288; sum of publisher extents, not cumulative last-page numbers.",
+      "scope": "All three volumes of the Pory/Brown edition, with commentary and all nine books of the Ramusio-derived arrangement.",
+      "components": [
+        {
+          "volume": 1,
+          "isbn13": "9781108012881",
+          "pages": 364,
+          "source": {
+            "url": "https://www.cambridge.org/core/books/history-and-description-of-africa/97E2E0EC4BBEC18496871C315C965CC1",
+            "retrieved": "2026-10-20T15:05:20.847Z",
+            "rawFile": "data/enrichment_261020/pages/raw/additional-q0702-2-ca03914b0dd02b49.html.gz",
+            "status": 200,
+            "sha256": "04ef2ff2bedf22245a4b5c02ae0619437a4bd97a088663a8dd00f439815576f3",
+            "provider": "Cambridge University Press"
+          }
+        },
+        {
+          "volume": 2,
+          "isbn13": "9781108012898",
+          "pages": 488,
+          "source": {
+            "url": "https://www.cambridge.org/core/books/the-history-and-description-of-africa/B6E0CCB61666C4CDC948C59BDD1FABA3",
+            "retrieved": "2026-10-20T15:05:22.766Z",
+            "rawFile": "data/enrichment_261020/pages/raw/additional-q0702-3-7534cb6e77b54667.html.gz",
+            "status": 200,
+            "sha256": "f776afe3cf90da1a50a67192d63467d5044e65549b18d97ed23034b83779318b",
+            "provider": "Cambridge University Press"
+          }
+        },
+        {
+          "volume": 3,
+          "isbn13": "9781108012904",
+          "pages": 436,
+          "source": {
+            "url": "https://www.cambridge.org/core/books/history-and-description-of-africa/B613803A560E64B69E037D9C0AB203BA",
+            "retrieved": "2026-10-20T15:05:24.582Z",
+            "rawFile": "data/enrichment_261020/pages/raw/additional-q0702-4-406cd8ce1d4055cb.html.gz",
+            "status": 200,
+            "sha256": "5925b4b4fe775bca42a482fd836b0a8ff8f5c1cecc46a3173102864a37f5d2d4",
+            "provider": "Cambridge University Press"
+          }
+        }
+      ]
+    }
+  }
+}

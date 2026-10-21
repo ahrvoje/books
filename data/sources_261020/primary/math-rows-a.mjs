@@ -1,0 +1,160 @@
+import {score,narrative,explanation} from './assess-math.mjs';
+score(90,2008,1964,[16,10,6,8,7,9,7,4,3,1.5],
+ 'Documented debate with some dramatic simplification|Ideas and research communities interact|Limited new material for this physicist|Explains incompatible assumptions and experiments|Biographical drama reduces density|Foundational disputes endure|Direct quantum-physics fit|Experienced physics writer|Clear debate structure|Reality language needs care',
+ 'A history of the Einstein–Bohr debate with Bell as the later turning point. It offers intellectual history rather than technical training.',
+ {periodConfidence:'low',periodNote:'Use 1964 for the Bell-theorem culmination of the central debate; later experimental updates are secondary. This is an assessed central endpoint.'});
+score(91,2018,null,[16,11,7,8,7,8,7,4,3,1.5],
+ 'Historical documentation is stronger than the anti-Copenhagen polemic|Foundations and institutional incentives connect|Research conformity offers some transferable lessons|Distinguishes mathematical results from interpretations|Some recurring polemical framing|Interpretation questions persist|Direct quantum foundations fit|Astrophysics training and reporting|Cumulative historical argument|Opposing positions need fuller qualification',
+ 'The treatment of neglected interpretations has value, but the heroic-outsider framing is not independent proof. No serious veto is established from the reviewed evidence.',
+ {T12:-10,themeNote:'T11=0. T12=-10: interpretation and the meaning of quantum reality are central.'});
+score(92,2005,null,[18,11,7,10,8,9,7,5,3,2],
+ 'Direct experimental account with clear logical distinctions|Quantum physics and information tasks connect|Experimental design lessons have some reuse|Explains Bell tests and teleportation constraints|Examples support the argument|Established quantum-information principles endure|Direct physics and computing fit|Leading experimental contributor|Clear staged explanation|Separates correlation from usable signaling',
+ 'Illustrative Alice/Bob dialogues serve a sustained explanation, not fiction or a specialist laboratory manual.',
+ {yearNote:'Indiana University catalog identifies Dance of the Photons as the English version of Einsteins Spuk; the author’s Academy of Europe bibliography dates the German original to 2005. The 2010 English edition does not reset P14.',yearConfidence:'high'});
+score(93,2008,1982,[16,10,7,8,7,9,7,3.5,3,1.5],
+ 'Letters and papers support the history; reconstructed dialogue needs care|People, institutions and theory interact|Research debate yields modest transferable value|Explains entanglement tests and conceptual change|Personal scenes take considerable space|Foundational history endures|Direct quantum physics fit|Substantial research, less specialist authority|Lively connected narrative|Dialogue can imply excessive immediacy',
+ 'Document-based reconstructed conversations are a narrative device within nonfiction, not grounds for H1. The central entanglement debate has explanatory payload.',
+ {periodConfidence:'low',periodNote:'Use 1982 for the Aspect-test culmination of the main entanglement story; later developments are secondary. Editorial endpoint, not a claim about the last page.'});
+score(98,2000,null,[14,10,6,7,7,8,7,3,3,1],
+ 'Historical compression and sweeping conflict claims need caution|Notation, mathematical ideas and cultural acceptance connect|Useful representational lessons, few operational models|Explains zero and infinity more than historical causation|Short, but metaphor occupies space|Core mathematical ideas endure|Direct mathematical fit|Science journalist|Memorable conceptual thread|Danger and conflict language overstates',
+ 'A popular conceptual history. Dramatic East/West and faith/reason framing lowers precision; it is not a technical textbook.');
+score(99,2014,1703,[15,13,9,8,7,9,7,4,3,1.5],
+ 'Documented disputes; sweeping civilizational causation is less secure|Mathematics, religion and institutions interact|Gatekeeping and research tolerance have reuse|Explains conflicts better than proving macrohistorical effects|Detailed disputes mostly advance the thesis|Institutional constraints endure|Mathematics and scientific organization fit|Historian of mathematics|Coherent conflict narrative|The subtitle exceeds the causal demonstration',
+ 'The seventeenth-century disputes show how institutions constrain mathematical methods. The strong claim about shaping modern society is assessed cautiously.',
+ {periodConfidence:'low',periodNote:'Use 1703, the death of John Wallis, as the assessed endpoint of the principal seventeenth-century dispute participants; later consequences are secondary.'});
+score(100,2023,null,[15,11,7,7,7,8,7,4,3,1.5],
+ 'Wide historical synthesis; short portraits compress context|Mathematics, migration and access institutions connect|Talent recognition offers some transferable value|Explains barriers more than technical mechanisms|Many brief lives limit depth|Global history has lasting value|Mathematical development fits|Historian and science journalist|Readable chronological range|Corrective framing can overgeneralize',
+ 'A global historical account of overlooked mathematicians. Its central attention to exclusion receives the thematic deduction; historical recovery alone does not establish V5.',
+ {T11:-10,themeNote:'T11=-10: racial, gender and other minority barriers are a predominant organizing subject. T12=0: mathematical work remains the central field.',yearNote:'The Penguin Autumn 2023 catalogue records the UK original. The 2024 US edition is not the original year.'});
+score(101,2025,null,[16,10,5,7,7,8,7,4,3,1.5],
+ 'Historian’s broad synthesis with necessary compression|Mathematics connects to social settings|Low marginal utility for an expert reader|Explains conceptual changes at introductory depth|Brief chapters still repeat familiar material|Historical ideas remain useful|Direct mathematical subject|Specialist history-of-mathematics background|Clear chronological progression|Accessible and mostly controlled',
+ 'A general-reader history across civilizations, not a textbook course. Low novelty is reflected in U and D rather than exclusion.');
+score(102,2020,null,[15,9,6,5,7,8,5,4,3,1.5],
+ 'Personal cases support reflection, not broad causal proof|Mathematical practice and human purposes connect|Some useful reflection on motivation and access|Virtue claims are more interpretive than mechanistic|Essays are focused but repeat themes|Mathematical culture is durable|Limited depth in the preferred technical systems|Practicing mathematician and educator|Clear thematic essays|Normative claims remain identifiable',
+ 'The puzzles are incidental to an argument about the human value of mathematics. It is neither a mathematics training text nor, on the reviewed contents, primarily a political activist manifesto.',
+ {T12:-10,themeNote:'T11=0: justice and prison correspondence are part of a broader account of play, truth, beauty and community. T12=-10: the philosophy and human purpose of mathematics are central.'});
+score(103,2003,null,[16,11,7,8,7,9,7,5,3,1.5],
+ 'Mathematical history is stronger than promotional cryptographic claims|Number theory, computing and physical analogies connect|Some cross-field discovery lessons|Explains the prime problem at a popular level|Biographical detours reduce density|The core unresolved problem endures|Direct mathematical fit|Research mathematician|Strong narrative thread|Practical consequences need qualification',
+ 'A history and explanation of prime-number research. No proof-training purpose is dominant; the reader gains more history than new mathematical technique.');
+score(108,2007,1935,[16,10,6,8,8,9,7,4,3,1.5],
+ 'Sourced conceptual history with compressed interpretation disputes|Scientific ideas and communities interact|Limited new material for this reader|Explains measurement and conceptual constraints|Compact historical focus|Foundational history endures|Direct physics fit|Astrophysicist and experienced editor|Clear account of the dispute|Metaphorical cultural influence needs caution',
+ 'The central account concerns the formation and contest of uncertainty in quantum mechanics.',
+ {periodConfidence:'low',periodNote:'Use 1935 for the EPR-era culmination of the main Einstein–Bohr–Heisenberg dispute; later influence is secondary.'});
+score(109,2002,null,[14,9,5,7,7,8,7,3.5,3,1],
+ 'Historical and experimental account sometimes oversells implications|Quantum experiments and information applications connect|Small marginal value for a specialist|Explains correlations but popular metaphors blur limits|Short overview of familiar material|Core results endure more than forecasts|Direct physics fit|Mathematical writer with research interviews|Readable discovery sequence|Teleportation and instantaneous effect language needs care',
+ 'A popular account of entanglement and its experiments. The reviewed scope supports inclusion with lower evidence and precision marks, not an invented whole-book veto.',
+ {yearNote:'WorldCat identifies the original Four Walls Eight Windows edition as 2002. An unsourced filename claiming 2001 is not used.'});
+score(110,2015,1955,[16,10,7,8,7,9,7,4,3,1.5],
+ 'Researched scientific relationship with reconstructed motives|Theory, collaboration and intellectual competition connect|Lessons in model commitment and research choice|Explains the unified-field pursuit and its limits|Personal detail reduces density|Scientific disagreement remains useful|Direct theoretical-physics history|Physicist and historian|Clear paired narrative|Motive claims need qualification',
+ 'The Einstein–Schrödinger relationship explains scientific disagreement and a failed research program; it is not a technical monograph.',
+ {periodNote:'Use 1955, Einstein’s death, for the central paired research relationship; Schrödinger’s later life is aftermath.'});
+score(111,2014,null,[16,11,7,6,7,8,6,4,3,1.5],
+ 'Documents cultural uses without making them physical evidence|Physics, language and culture connect|Useful warnings about exported scientific metaphors|Cultural diffusion is less causally tested|Examples sometimes outrun explanatory depth|Misuse of scientific concepts is durable|Science communication fits partly|Physicist and philosopher combine expertise|Clear thematic progression|Separates many metaphors from physical claims',
+ 'This is a cultural history of quantum ideas. It does not endorse every popular appropriation it describes.',
+ {author:'Robert P. Crease; Alfred Scharff Goldhaber',T12:-10,themeNote:'T11=0: not predominantly celebrity or local American history. T12=-10: cultural meaning and philosophy of physics organize the account.'});
+score(112,2020,null,[15,8,4,7,8,7,7,5,3,1.5],
+ 'Relational interpretation is argued, not experimentally selected|Foundations connect to philosophical analogies|Little new strategic use for this specialist|Explains relational claims without unique empirical tests|Concise but partly philosophical digression|Core questions endure; interpretation remains contested|Direct quantum foundations fit|Relevant theoretical physicist|Clear short argument|Analogies need careful boundaries',
+ 'A general explanation and defense of relational quantum mechanics. Buddhist philosophical references do not by themselves make the book religious; no V5 is established.',
+ {T12:-10,themeNote:'T11=0. T12=-10: ontology and the meaning of quantum states are central.',yearNote:'The original Italian Adelphi edition is 2020; the later English translation does not reset P14.'});
+score(113,1996,null,[15,7,3,6,7,8,7,3.5,3,1.5],
+ 'Broadly established introductory history|Mostly stays within physics|Very little new content for this reader|Conceptual sketches omit technical depth|Brief, but familiar throughout|Basic quantum ideas endure|Direct physics subject|Science writer and illustrator|Visual sequence aids clarity|Graphics require simplification',
+ 'A graphic general-reader explanation, not a course for learning calculations. A guide label and educational value alone do not trigger H2.',
+ {author:'J. P. McEvoy; Oscar Zarate',yearNote:'The original 1996 Introducing Quantum Theory/Quantum Theory for Beginners record is retained; Graphic Guide editions are later revisions.'});
+score(114,2023,null,[5,10,3,3,5,2,7,2,3,0.5],
+ 'Specialist review identifies material computing errors|Many application fields are named, weakly connected|Unsupported promises offer little decision value|Speedup and deployment constraints are misstated|Applications repeat unproved promises|Revolution claims depend on forecasts|Quantum computing is directly relevant|Physics fame does not establish computing authority|Readable popular survey|Certainty greatly exceeds support',
+ 'V1 and V4: Scott Aaronson’s direct review identifies substantive errors about quantum computation and unsupported transformative promises across unrelated fields. Counterfactual marks retain these flaws.',
+ {status:'vetoed',veto:'V1; V4',vetoConfidence:'high'});
+score(115,2020,null,[17,8,4,8,8,7,7,5,3,1.5],
+ 'Alternative scenarios and uncertainty are explicitly compared|Mostly within cosmology|Low novelty for the specified reader|Explains different physical end-state mechanisms|Compact but elementary for this audience|Constraints endure; cosmological parameters can change|Direct cosmology fit|Research cosmologist|Clear scenario structure|Humor sometimes substitutes for detail',
+ 'Conditional end-of-universe scenarios are not asserted predictions. This remains explanatory nonfiction rather than V4 merely because it discusses the future.');
+score(116,2021,null,[17,12,7,9,7,8,7,5,3,1.5],
+ 'Participant reporting tied to established measurements|Particle physics, astrophysics and large experiments connect|Experimental constraints provide some transferable value|Explains matter origins and measurement bottlenecks|Long introductory passages reduce marginal density|Established mechanisms endure|Direct particle-physics fit|Experimental particle physicist|Clear material-origin thread|Popular analogies slightly limit precision',
+ 'The title is figurative: the book explains matter origins, laboratory evidence and open questions. It is not an instruction manual.');
+score(117,2021,2016,[17,11,8,8,8,9,7,4,3,1.5],
+ 'Researched biography with observational evidence|Instrumentation, inference and scientific institutions interact|Persistence and evidence acceptance have reuse|Explains the role of rotation-curve evidence|Focused life-and-work account|Scientific evidence disputes endure|Direct cosmology and science-organization fit|Science journalist with biographical research|Coherent discovery narrative|Causal credit requires qualification',
+ 'Rubin’s biography connects measurement to acceptance of dark matter. Discrimination is a constraint in the scientific account, not a standalone activist program.',
+ {author:'Ashley Jean Yeager',periodNote:'Full Rubin life account ends in 2016.'});
+score(118,2016,1956,[17,12,9,8,8,9,7,4,3,2],
+ 'Archival sources support the collective biography|Plate technology, classification and institutional labor connect|Data organization and research division transfer|Explains how classification enables inference|Technical detail generally advances the story|Scientific data organization remains useful|Astronomy and computation fit|Experienced science historian|Coherent collective story|Controlled historical prose',
+ 'The Harvard women’s astronomical work supplies technical and institutional mechanisms. Gender barriers are part of that scientific history; they do not automatically trigger a minority-history deduction.',
+ {periodConfidence:'low',periodNote:'Use 1956, Cecilia Payne-Gaposchkin’s Harvard professorship, as the assessed culmination of the central institutional account; not the last death among all participants.'});
+score(119,2000,null,[15,9,4,7,7,6,7,5,3,1.5],
+ 'Observed acceleration is stronger than aesthetic preferences|Cosmology and theory-choice ideas connect|Low marginal utility for this cosmologist|Explains expansion models at introductory level|Familiar exposition and aesthetics dilute density|Early parameter estimates and expectations have aged|Direct cosmology subject|Research astrophysicist|Clear conceptual survey|Beauty is not an empirical selection rule',
+ 'A contemporary account of accelerating expansion at original publication. It is read as a dated scientific account; obsolete frontier expectations are not silently treated as current.');
+score(120,2014,null,[17,11,6,8,8,7,7,5,3,1.5],
+ 'Participant evidence is strong; WIMP expectations remain hypotheses|Astrophysical evidence and detector technologies connect|Experimental constraints have some wider use|Explains indirect inference and direct-search logic|Focused account with personal passages|Core evidence endures; candidate preferences age|Direct cosmology and particle-physics fit|Leading dark-matter researcher|Clear evidence-to-search progression|Discovery optimism needs dating',
+ 'A firsthand explanation of dark-matter evidence and search strategies. It is not a dark-matter methods manual or proof that a particular candidate exists.');
+score(121,2009,1929,[17,12,8,9,8,9,7,4,3,2],
+ 'Historical sources and observational disputes are examined|Instruments, calibration and research institutions connect|Measurement and credit lessons transfer|Explains distance estimation and evidence revision|Focused historical account|Calibration lessons endure|Direct astronomy and science organization|Experienced astronomy historian|Clear cumulative discovery narrative|Careful separation of contributors',
+ 'The discovery of external galaxies and expansion shows how instruments, calibration and institutional credit interact.',
+ {periodNote:'The central transformation culminates in Hubble’s 1929 velocity-distance relation; use 1929 rather than the 1925 announcement alone.'});
+score(122,2011,2003,[17,12,8,8,7,8,7,4,3,1.5],
+ 'Extensive interviews, with participant-credit disputes|Observation, instrumentation and team competition connect|Independent checks and collaboration have reuse|Explains inference from several observational channels|Rivalries consume some space|Evidence convergence is durable|Direct cosmology and organization fit|Experienced science reporter|Strong discovery narrative|Dramatic rivalry can oversimplify',
+ 'The book follows the emergence of the dark-matter/dark-energy cosmological picture; technical results and team coordination both matter.',
+ {periodConfidence:'low',periodNote:'Use 2003 for the central convergence on the precision-cosmology composition picture; subsequent interviews and updates are secondary.'});
+score(123,2010,null,[17,9,5,9,7,8,7,5,3,2],
+ 'Established thermodynamics is distinguished from cosmological proposals|Entropy connects several physical scales|Some reusable boundary-condition reasoning|Strong explanation of irreversibility and probability|Long introductory exposition for this reader|Core thermodynamics is durable|Direct physics and cosmology fit|Relevant theoretical physicist|Coherent entropy-centered argument|Generally controlled conceptual distinctions',
+ 'A general explanation of time’s arrow and cosmological boundary conditions. It is not a technical statistical-mechanics course.');
+score(124,2010,null,[14,8,4,8,7,6,7,5,2,1.5],
+ 'The cyclic proposal is speculative and not established|Geometric and thermodynamic ideas connect within physics|Little strategic utility for this reader|Detailed conceptual mechanism with unresolved assumptions|Dense argument, uneven accessibility|Speculative framework may not endure|Direct mathematical cosmology fit|Relevant mathematical physicist|Demanding but connected argument|Proposal and evidence need separation',
+ 'A sustained argument for conformal cyclic cosmology. Equations and difficulty do not make it a specialist training monograph. Speculation is scored cautiously rather than automatically vetoed.');
+score(125,2010,null,[13,8,3,6,7,6,7,5,3,1],
+ 'Metaphysical conclusions exceed the empirical force of the models|Mostly foundational physics|Low marginal utility for this reader|Explains possibilities better than model selection|Compact but familiar and rhetorically broad|Established basics outlast frontier claims|Direct fundamental-physics subject|Relevant authors, unequal field roles|Readable short argument|Spontaneous creation and model dependence need qualification',
+ 'A general scientific and philosophical argument. The reviewed evidence supports low attainments for overreach, but does not establish a serious whole-book veto.',
+ {author:'Stephen Hawking; Leonard Mlodinow',T12:-10,themeNote:'T11=0. T12=-10: why the universe exists and the philosophical status of models are central.'});
+score(126,2011,null,[16,9,4,8,7,6,7,5,3,1.5],
+ 'Distinguishes several speculative multiverse proposals|Connects several physics frameworks, few external systems|Low new practical value for this specialist|Explains proposed mechanisms with testability limits|Long survey of familiar foundations|Speculative parts have uncertain durability|Direct theoretical-physics fit|Relevant researcher|Clear comparison of possibilities|Analogy can overstate physical reality',
+ 'A survey of possible multiverse models, not a claim that all are observed. No technical training purpose or serious veto is established.');
+score(127,2002,null,[15,8,4,7,7,8,7,5,3,1.5],
+ 'Research diary distinguishes personal experience from theory|Topology and cosmology connect|Some research-choice lessons, little strategic scope|Explains finite-space possibilities|Personal diary passages reduce density|Geometric questions endure|Direct mathematical cosmology fit|Research cosmologist|Personal thread aids readability|Informal metaphors need boundaries',
+ 'Memoir and explanatory letters about cosmic topology. The personal form does not remove the mathematical-science biography exception.');
+score(128,2007,null,[16,8,4,7,6,8,7,4,3,1.5],
+ 'Mostly established science, with compressed examples|Several astronomy topics, limited integrated system|Little new knowledge for the reader|Accessible mechanisms rather than technical depth|Collected essays repeat introductions|Core astronomy is durable|Direct physics subject|Astrophysicist and communicator|Readable essays, weaker cumulative architecture|Punchy language sometimes simplifies',
+ 'A collection of explanatory astronomy essays. The celebrity of the author is not the central topic and does not trigger T11.');
+score(130,2023,null,[15,13,8,7,7,8,7,4,3,1.5],
+ 'History is evidential; no-star counterfactuals are illustrative|Astronomy, navigation, timekeeping and culture connect|Measurement infrastructure has transferable value|Explains dependencies better than counterfactual inevitability|Imagined alternatives consume some space|Astronomical infrastructure lessons endure|Science, navigation and scaling fit|Cosmologist extending into cultural history|Strong thematic thread|Counterfactual certainty needs restraint',
+ 'Historical exposition is paired with explicit imagined alternatives. The counterfactual device does not make the main work fiction. Dark-sky preservation is secondary to astronomy’s historical role.',
+ {eligibility:'The predominant structure is explanatory cultural and scientific history; clearly labeled imagined alternatives illustrate the argument. H1 does not apply to a nonfiction counterfactual device. It is not technical training.'});
+score(133,1977,null,[18,8,4,9,8,8,7,5,3,2],
+ 'Strong core physics, dated parameter assumptions identified|Nuclear and cosmological processes connect|Little novelty for this specialist|Clear thermal-history mechanism|Compact but largely familiar|Core framework endures despite revised numbers|Direct particle-cosmology fit|Foundational particle physicist|Clear chronology of physical processes|Precise popular exposition',
+ 'A general-reader account of early-universe physics, not a cosmology calculation manual. Original 1977 production is retained despite later revisions.');
+score(134,2004,null,[16,11,6,8,7,8,7,4,3,1.5],
+ 'Historical synthesis with clear evidence episodes|Theory, observation and institutions connect|Evidence comparison provides moderate reuse|Explains competing models and observational tests|Long introductory history reduces density|Scientific-method lessons endure|Direct cosmology history|Physics-trained science writer|Clear model-dispute narrative|Popular framing compresses uncertainty',
+ 'A broad history of cosmology for general readers. Its introductory level lowers utility for the specified reader but is not an exclusion.');
+score(137,2005,null,[16,7,3,7,7,7,7,4.5,3,1.5],
+ 'Reliable general foundations with dated frontier ideas|Mostly within physics|Very low novelty for a cosmology specialist|Accessible explanation without much depth|Shorter and clearer, still familiar|Core theory endures|Direct physics subject|Relevant authorship|More accessible conceptual sequence|Simplification limits precision',
+ 'A newly recast, shorter explanatory work related to A Brief History of Time, rather than a course text.',
+ {author:'Stephen Hawking; Leonard Mlodinow',yearNote:'Use 2005 for the separately authored and recast Briefer History, not a reprint date of A Brief History of Time.'});
+score(138,2020,2003,[19,13,10,10,8,9,7,5,2,2],
+ 'Participant history compares measurements and alternatives carefully|Several observations, models and research practices converge|Model testing and independent convergence transfer|Strong account of empirical constraints|Technical detail is relevant but demanding|Research-method lessons are durable|Direct cosmology and scientific organization|Foundational contributor|Dense thematic history|Careful distinction of inference and open questions',
+ 'The chapters trace the historical testing of cosmological models and end with the ways of research. This is a technical intellectual history, not a course in applying cosmological calculations. H2 is assessed as not triggered with moderate confidence.',
+ {eligibility:'A sustained historical argument about how cosmology became empirical, organized around competing evidence and discoveries. Technical passages support that history. It is not primarily a textbook or methods reference; difficulty alone cannot trigger H2.',periodNote:'The contents identify the 1998–2003 revolution as the historical culmination, followed by a chapter on research practice.'});
+score(142,1995,null,[17,10,5,9,8,8,7,5,3,1.5],
+ 'Expert explanation separates observations from theoretical models|Gravity links several astronomical regimes|Limited new practical value for this reader|Explains collapse, accretion and black-hole behavior|Focused explanation, largely familiar|Established mechanisms endure|Direct astrophysics fit|Two relevant astrophysicists|Clear conceptual progression|Analogies remain approximate',
+ 'The main structure is a sustained explanation of black-hole discovery and astrophysics. The publisher also markets it to undergraduates and supplies optional online questions; these do not change the principal explanatory structure into a calculation course.',
+ {yearConfidence:'high',yearNote:'Cambridge front matter explicitly says first published 1995. The third edition has a 2021 imprint but the publisher dates its paperback release to November 2020; neither resets P14.',confidence:'moderate'});
+score(143,2022,null,[16,11,6,8,7,7,7,4,3,1.5],
+ 'Journalistic synthesis of research, specialist reception not fully established|Instruments, theory and scientific groups connect|Some transferable evidence-building lessons|Explains development of cosmic models|Broad account has familiar exposition|Foundations endure; frontier details can age|Direct cosmology subject|Experienced science journalist|Cumulative research narrative|Frontier certainty needs qualification',
+ 'The publisher expressly describes a narrative of scientific discoveries and their acceptance, rather than a cosmology course.',
+ {author:'M. Mitchell Waldrop',yearConfidence:'high',yearNote:'Springer identifies the original book as 2022, DOI 10.1007/978-3-030-98214-0.'});
+score(144,2017,2015,[17,13,9,9,8,8,7,4,3,1.5],
+ 'Reported history tied to instrument results|Relativity, precision engineering and international teams connect|Noise control and coordination lessons transfer|Explains signal detection and apparatus constraints|Technical history largely earns its length|Large-instrument lessons are durable|Direct physics and engineering fit|Experienced astronomy reporter|Clear path to detection|Some discovery drama',
+ 'The gravitational-wave discovery is an engineering and institutional achievement as well as a theoretical result.',
+ {author:'Govert Schilling',periodNote:'The central instrument-development narrative culminates in the September 2015 first detection; its February 2016 announcement is not the physical event endpoint.'});
+score(145,2016,2015,[17,12,9,8,8,9,7,5,3,2],
+ 'Interviews and physics expertise support the account|Theory, instrument engineering and organization connect|Coordination under long uncertainty has reuse|Explains technical and human obstacles|Compact narrative with purposeful detail|Research-organization lessons endure|Direct physics and high-tech fit|Research physicist|Strong cumulative story|Controlled and memorable prose',
+ 'A narrative of the LIGO effort, with the first detection in the closing update. It is not an instrument-operation manual.',
+ {periodNote:'Use 2015 for the first gravitational-wave detection covered by the closing account.'});
+score(146,2014,null,[17,10,5,9,8,8,7,5,3,2],
+ 'Clearly labels established science, extrapolation and speculation|Relativity, visualization and technical production connect|Useful constraint communication, little new QFT content|Explains physical constraints behind the visual scenarios|Focused examples serve a clear purpose|Core relativity endures beyond the film|Direct physics fit|Relevant gravitational physicist|Clear distinction of scientific categories|Careful labeling of speculative assumptions',
+ 'This is nonfiction about the science used in a fictional film. It is not the film’s novelization and is not hard-excluded as fiction.');
+score(147,2014,null,[17,11,7,9,8,9,7,5,3,1.5],
+ 'Researched history and relevant specialist knowledge|Mathematical theory, observations and research groups connect|Theory maturation and neglected ideas have reuse|Explains conceptual and empirical development|Focused century-long account|Relativity history endures|Direct theoretical-physics fit|Research cosmologist|Clear chronological and conceptual arc|Popular simplification is limited',
+ 'Correct the source’s A Perfect Theory to The Perfect Theory. This is the history and development of general relativity, not a relativity textbook.',
+ {title:'The Perfect Theory: A Century of Geniuses and the Battle over General Relativity',author:'Pedro G. Ferreira'});
+score(148,2015,null,[17,11,7,8,8,9,7,4,3,2],
+ 'Documented discovery history|Theory, observations and scientific acceptance connect|Evidence acceptance offers reusable lessons|Explains conceptual obstacles and observational constraints|Compact historical focus|Scientific change remains useful|Direct astrophysics fit|Experienced astronomy historian|Strong unifying story|Controlled technical language',
+ 'A general history of the black-hole idea across generations. It is not a specialist technical monograph.');
+score(149,2008,null,[16,10,6,9,7,8,7,5,3,1.5],
+ 'Participant account is clear but takes sides|Gravity, quantum theory and information connect|Some consistency-based reasoning transfers|Explains the information paradox and holographic response|Personal debate takes space|Core conceptual constraints endure|Direct theoretical-physics fit|Central research participant|Memorable argumentative structure|Victory rhetoric exceeds final empirical resolution',
+ 'A personal explanatory history of the black-hole information debate. The argument’s partisan tone lowers precision without establishing a serious veto.');

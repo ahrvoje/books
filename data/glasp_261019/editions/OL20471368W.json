@@ -1,0 +1,112 @@
+{
+  "url": "https://openlibrary.org/works/OL20471368W/editions.json?limit=1000",
+  "retrievedAt": "2026-10-18T23:23:15.700Z",
+  "status": 200,
+  "data": {
+    "links": {
+      "self": "/works/OL20471368W/editions.json?limit=1000",
+      "work": "/works/OL20471368W"
+    },
+    "size": 2,
+    "entries": [
+      {
+        "type": {
+          "key": "/type/edition"
+        },
+        "authors": [
+          {
+            "key": "/authors/OL7757886A"
+          }
+        ],
+        "isbn_13": [
+          "9781320688642"
+        ],
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "publish_date": "2015",
+        "publishers": [
+          "Blurb"
+        ],
+        "source_records": [
+          "bwb:9781320688642"
+        ],
+        "title": "Syntax and Sage",
+        "works": [
+          {
+            "key": "/works/OL20471368W"
+          }
+        ],
+        "key": "/books/OL51925517M",
+        "latest_revision": 1,
+        "revision": 1,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2024-06-18T20:43:33.055006"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2024-06-18T20:43:33.055006"
+        }
+      },
+      {
+        "publishers": [
+          "Farmer & Farmer Press"
+        ],
+        "identifiers": {
+          "amazon": [
+            "0692563636"
+          ]
+        },
+        "subtitle": "Reflections on Software and Nature",
+        "covers": [
+          9135987
+        ],
+        "physical_format": "hardcover",
+        "full_title": "Syntax & Sage : Reflections on Software and Nature",
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2019-11-16T00:11:04.534738"
+        },
+        "latest_revision": 1,
+        "key": "/books/OL27699492M",
+        "authors": [
+          {
+            "key": "/authors/OL7757886A"
+          }
+        ],
+        "source_records": [
+          "amazon:0692563636"
+        ],
+        "title": "Syntax & Sage",
+        "notes": {
+          "type": "/type/text",
+          "value": "Source title: Syntax & Sage: Reflections on Software and Nature"
+        },
+        "number_of_pages": 120,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2019-11-16T00:11:04.534738"
+        },
+        "isbn_13": [
+          "9780692563632"
+        ],
+        "isbn_10": [
+          "0692563636"
+        ],
+        "publish_date": "2016",
+        "works": [
+          {
+            "key": "/works/OL20471368W"
+          }
+        ],
+        "type": {
+          "key": "/type/edition"
+        },
+        "revision": 1
+      }
+    ]
+  }
+}
