@@ -173,3 +173,4 @@
 | 171 | 2026-10-21 | [Ken Griffin — Books Guru recommendations](https://books-guru.com/experts/ken-griffin) | [Source analysis](analysis/analysis_bgkengriffin_261021_0210.md) |
 | 172 | 2026-10-21 | [David Friedberg — Books Guru recommendations](https://books-guru.com/experts/david-friedberg) | [Source analysis](analysis/analysis_bgdavidfried_261021_0210.md) |
 | 173 | 2026-10-21 | [Blas Moros — Books Guru recommendations](https://books-guru.com/experts/blas-moros) | [Source analysis](analysis/analysis_bgblasmoros_261021_0210.md) |
+| 174 | 2026-10-21 | [H3/V6 category review: current repository rules](https://github.com/ahrvoje/books/blob/main/AGENTS.md) | [Category review](analysis/analysis_categories_261021_1600.md) |

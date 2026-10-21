@@ -3,6 +3,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
+import { gzipSync } from 'node:zlib';
 import { REGISTRY, DOMAIN_IDS, defaultModel, evaluateBook, format, fold, known } from './model.mjs';
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -39,6 +40,15 @@ export function validateConnections(book) {
 }
 export function buildDataset() {
   const compiled = json(json('data/catalog.json').compiled), ledger = rows(read('RECOMMENDED_BOOKS.md'));
+  const editions = json('site/editions.json');
+  const currentIds = new Set(compiled.currentBooks.map(b=>b.id));
+  for(const [id,e] of Object.entries(editions)){
+    assert(currentIds.has(id), `Edition for a non-current scored work: ${id}`);
+    assert(Number.isInteger(e.pages) && e.pages>0 && e.id && safeURL(e.url) && e.retrieved && e.language && e.format && Number.isInteger(e.year), `Incomplete edition: ${id}`);
+    assert(!/audio/i.test(e.format), `Audio is not a page-count edition: ${id}`);
+  }
+  const pageCell = e => e ? `[${e.pages}](${e.url})` : 'Unknown';
+  const ratingCell = a => a?.count == null ? 'Unknown' : `[${a.count}](${a.url})`;
   if (compiled.audit.rulesSha256) assert.equal(crypto.createHash('sha256').update(read('AGENTS.md')).digest('hex'), compiled.audit.rulesSha256,
     'Repository rules changed after the recorded review; reconcile catalog judgments before rebuilding.');
   const eligible = compiled.currentBooks.filter(b => b.status === 'recommended');
@@ -49,8 +59,13 @@ export function buildDataset() {
   const vetoed = rows(read('VETOED_BOOKS.md')).map(row => {
     const b = vetoRecords.get(key(row[2], titleOf(row[3]))), score = row[4].replace(/\*/g, '');
     assert(b && format(b.total) === score, `Unmatched veto ledger score: ${row[3]}`);
+    assert.equal(row[8],pageCell(editions[b.id]), `Vetoed page-count mismatch: ${b.id}`);
+    assert.equal(row[9],ratingCell(b.amazon), `Vetoed rating-count mismatch: ${b.id}`);
     return { id: b.id, title: titleOf(row[3]), author: row[2], year: row[1], score,
       veto: row[5], confidence: row[6], sources: row[7], analysis: analysisPath(link(row[3])),
+      edition: editions[b.id] || null,
+      ratingReview: b.ratingReview?.analysis || '',
+      amazon: {count:b.amazon?.count ?? null,url:safeURL(b.amazon?.url),marketplace:b.amazon?.marketplace || '',product:b.amazon?.asin || '',retrieved:b.amazon?.retrievedAt || b.amazon?.retrieved || b.amazon?.verifiedAt || '',limitations:b.amazon?.status || 'No verified count.'},
       reason: b.vetoReason || b.reason || b.eligibility || b.assessment?.note || 'See the retained assessment for the veto rationale.' };
   });
   assert.equal(vetoed.length, vetoRecords.size, 'Veto ledger membership mismatch');
@@ -80,7 +95,10 @@ export function buildDataset() {
     assert(known(b.year) && (b.periodEnd === null || known(b.periodEnd)));
     const sources = [...new Set(row[5].match(/\d+/g).map(Number))].sort((a, c) => a - c);
     sources.forEach(id => assert(sourceMap[id], `Unknown source ${id}`));
-    const extra = enrichment.books[b.id] || {}, values = Object.fromEntries(REGISTRY.map(r => [r.id, null]));
+    const extra = { ...(enrichment.books[b.id] || {}) }, values = Object.fromEntries(REGISTRY.map(r => [r.id, null]));
+    extra.edition ||= editions[b.id];
+    assert.equal(row[6],pageCell(extra.edition), `Recommended page-count mismatch: ${b.id}`);
+    assert.equal(row[7],ratingCell(b.amazon), `Recommended rating-count mismatch: ${b.id}`);
     REGISTRY.slice(0, 10).forEach((r, i) => { assert(b.raw[i] >= 0 && b.raw[i] <= r.max); values[r.id] = b.raw[i]; });
     Object.assign(values, { T11: -b.T11 / 10, T12: -b.T12 / 10, SRC: sources.length, O15: b.amazon?.count ?? null, PG: extra.edition?.pages ?? null });
     for (const id of DOMAIN_IDS) {
@@ -94,8 +112,14 @@ export function buildDataset() {
     REGISTRY.slice(0, 10).forEach((r, i) => {
       const c = b.criteria?.find(c => c.code === r.id);
       evidence[r.id] = { rationale: c?.assessment || b.notes?.[i] || 'Retained current repository assessment.', confidence: b.evidenceConfidence || b.confidence || b.scoreConfidence || 'moderate', refs: [analysisPath(b.reviewAnchor || b.currentReview || b.priorReport)].filter(Boolean) };
+      if (r.id === 'D') {
+        evidence.D.confidence = b.densityAssessment?.confidence || 'low';
+        evidence.D.rationale = (b.densityAssessment ? 'Reviewed learning yield. ' : 'Prior estimate; not recalibrated under the learning-yield protocol. ') + evidence.D.rationale;
+        if (b.densityAssessment) evidence.D.refs = b.densityAssessment.refs;
+      }
     });
     Object.assign(evidence, extra.domains || {});
+    if(b.ratingReview) evidence.O15={rationale:b.amazon.status,confidence:b.amazon.confidence,refs:[b.ratingReview.analysis,b.amazon.url]};
     if (extra.edition) evidence.PG = {
       rationale: `${extra.edition.pages} pages in ${extra.edition.id}; ${extra.edition.language}, ${extra.edition.format}, edition year ${extra.edition.year}. ${extra.edition.notes || extra.edition.note || ''}`,
       confidence: extra.edition.confidence || 'moderate', refs: [extra.edition.url]
@@ -107,7 +131,7 @@ export function buildDataset() {
       yearConfidence: b.yearConfidence || b.production?.confidence || 'moderate', periodConfidence: b.periodConfidence || 'moderate',
       verdict: b.verdict || '', evidence, analysis: analysisPath(b.reviewAnchor || b.currentReview || b.priorReport),
       amazon: { count: values.O15, url: safeURL(b.amazon?.url), marketplace: b.amazon?.marketplace || '', product: b.amazon?.asin || b.amazon?.productIdentifier || b.amazon?.product || '', retrieved: b.amazon?.verifiedAt || b.amazon?.retrievedAt || b.amazon?.retrieved || b.amazon?.attemptedAt || '', limitations: b.amazon?.status || 'See source assessment.' },
-      reader: b.reader || '', edition: extra.edition || null, research: extra.research || null,
+      reader: b.reader || '', edition: extra.edition || null, research: extra.research || null, ratingReview: b.ratingReview?.analysis || '',
       connections: extra.connections || { status: 'unreviewed', mechanisms: [], joins: [], limitations: 'Domain and connection evidence has not been coded under this model.' },
       base: b.total, ledgerScore: +row[4], ledgerMismatch: false
     };
@@ -154,6 +178,12 @@ export function buildDataset() {
 }
 export function build() {
   const dataset = buildDataset();
+  // Keep book evidence offline; full historical reports stay in the repository.
+  const portableBook = b => ({ ...b, ...(b.edition ? { edition: Object.fromEntries(
+    ['pages', 'id', 'url', 'retrieved', 'language', 'format', 'year', 'confidence', 'notes', 'note'].filter(k => k in b.edition).map(k => [k, b.edition[k]])
+  ) } : {}) });
+  const portable = { ...dataset, books: dataset.books.map(portableBook), vetoed: dataset.vetoed.map(portableBook), documents: {} };
+  const payload = gzipSync(JSON.stringify(portable), { level: 9 }).toString('base64');
   const model = read('site/model.mjs').replace(/^export /gm, '');
   const rules = read('AGENTS.md'), escape = text => text.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
   const rule = (heading, prefix) => {
@@ -167,14 +197,16 @@ export function build() {
       .replace('/* CRITERIA */', () => REGISTRY.slice(0,10).map(r=>`<tr><td>${r.name}</td><td>${r.max}</td><td>${r.quadratic?'Quadratic':'Linear'}</td><td>${r.description}</td></tr>`).join(''))
       .replace('/* BOOK_FORM */', () => rule('## Hard exclusion rules', 'Works which do not represent a book'))
       .replace('/* FICTION */', () => rule('## Hard exclusion rules', 'Exclude fiction books'))
-      .replace('/* REFERENCE */', () => rule('## Hard exclusion rules', 'Exclude textbooks'))
+      .replace('/* REFERENCE */', () => rule('## Hard exclusion rules', 'Technical training and reference exclusion'))
       .replace('/* V4 */', () => rule('## Veto rules', 'Hype or ephemerality dependence'))
       .replace('/* V5 */', () => rule('## Veto rules', 'Religious doctrine or ideological extremism'))
+      .replace('/* V6 */', () => rule('## Veto rules', 'Partisan mobilization'))
       .replace('/* RULES */', () => escape(rules)))
     .replace('/* STYLES */', () => read('site/style.css'))
-    .replace('/* DATA */', () => JSON.stringify(dataset).replace(/</g, '\\u003c').replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029'))
+    .replace('/* DATA */', () => payload)
     .replace('/* APPLICATION */', () => model + '\n' + read('site/app.js'));
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+  assert(Buffer.byteLength(html) <= 1500 * (dataset.books.length + dataset.vetoed.length), 'Standalone HTML exceeds 1,500 bytes per recommended or vetoed book.');
   fs.writeFileSync(HTML_FILE, html);
   fs.writeFileSync(path.join(OUTPUT_DIR, '.nojekyll'), '');
   console.log(`Built docs/index.html: ${dataset.books.length} books, ${Buffer.byteLength(html).toLocaleString('en')} bytes, dataset ${dataset.datasetHash}`);

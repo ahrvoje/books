@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-21",
+  "counts": {
+    "screened": 4219,
+    "recommended": 2938,
+    "vetoed": 205,
+    "excluded": 1076,
+    "newExclusions": 67,
+    "newVetoes": 18,
+    "addedV6": 4,
+    "readmitted": 2
+  },
+  "existingParametersUnchanged": true,
+  "uniqueMembership": true,
+  "historicalSnapshot": "data/books_guru_261021/compiled.json",
+  "report": "analysis/analysis_categories_261021_1600.md",
+  "htmlBytes": 3599827,
+  "htmlSha256": "9026998f5fd681e304a6220650be0e256e97dfdd43ba2c35d3ec0935ea7ac6d0",
+  "calculationTests": 15,
+  "browser": {
+    "errors": [],
+    "networkRequests": [],
+    "viewports": [
+      {
+        "width": 320,
+        "scroll": 320,
+        "renderMs": 261
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "renderMs": 261
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "renderMs": 261
+      },
+      {
+        "width": 1099,
+        "scroll": 1099,
+        "renderMs": 261
+      },
+      {
+        "width": 1100,
+        "scroll": 1100,
+        "renderMs": 261
+      },
+      {
+        "width": 1440,
+        "scroll": 1440,
+        "renderMs": 261
+      }
+    ],
+    "checks": "Isolated compressed file; 2938 books, 205 vetoed works and 1076 exclusions; 174 sources with online input and analysis links; offline book evidence and methodology; silent catalog migration; four default columns; controls above results; underlined titles; filters, signed rate, Pareto, settings, mobile drafts and persistence passed."
+  }
+}

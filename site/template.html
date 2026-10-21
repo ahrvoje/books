@@ -10,20 +10,18 @@
 <body>
 <a class="skip" href="#results">Skip to books</a>
 <header class="masthead">
-  <div class="eyebrow">A WORKING LIBRARY <span>01 / NONFICTION</span></div>
-  <div class="title-row"><div><h1>Book selection<span class="blue">.</span></h1><p>Find the mechanisms. Compare the tradeoffs.</p></div><button id="selection" class="selection">Selected <strong>0</strong></button></div>
+  <div class="title-row"><h1>Book selection<span class="blue">.</span></h1><button id="selection" class="selection">Selected <strong>0</strong></button></div>
   <nav class="library-nav" aria-label="Library pages"><a href="#books" data-page="books" aria-current="page">Books <span id="nav-books-count"></span></a><a href="#vetoed" data-page="vetoed">Vetoed <span id="nav-vetoed-count"></span></a><a href="#excluded" data-page="excluded">Excluded <span id="nav-excluded-count"></span></a><a href="#sources" data-page="sources">Sources <span id="nav-sources-count"></span></a><a href="#methodology" data-page="methodology">Methodology</a></nav>
   <div id="book-toolbar" class="search-row"><label class="search-label" for="search">Search the library</label><input id="search" type="search" placeholder="Title, author, or subtitle…" autocomplete="off"><button id="export">Export settings</button><label class="button file-label">Import<input type="file" id="import" accept=".json,application/json"></label><button id="variables" aria-pressed="false" aria-label="Show variable aliases" title="Show variable aliases">ƒx</button></div>
 </header>
 <div id="notice" class="notice" role="status" hidden></div>
 <div id="books-view" class="layout">
   <aside class="control-shell" aria-label="Catalog controls">
-    <div class="control-heading">YOUR MODEL</div>
     <nav id="panel-tabs" class="panel-tabs" aria-label="Model sections">
-      <button data-panel="filters">Filters <span id="filter-count">0</span></button>
-      <button data-panel="scoring">Scoring <span>±</span></button>
-      <button data-panel="ideal">Ideal book <span>◎</span></button>
-      <button data-panel="pareto">Pareto <span>↗</span></button>
+      <button data-panel="filters" title="Choose which books appear"><span aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 5h18l-7 8v6l-4 2v-8Z"/></svg></span> Filter books <span id="filter-count">0</span></button>
+      <button data-panel="scoring" title="Change criterion weights and score curves"><span aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 7h18M3 17h18M8 3v8M16 13v8"/></svg></span> Adjust scoring</button>
+      <button data-panel="ideal" title="Choose desired subjects and connections"><span aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span> Define ideal book</button>
+      <button data-panel="pareto" title="Compare books across two measures with three Pareto boundaries"><span aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 3v18h18M6 16l5-6 5-3 5-2"/><circle cx="11" cy="10" r="1.5"/><circle cx="16" cy="7" r="1.5"/></svg></span> Pareto tradeoffs</button>
     </nav>
     <section class="model-card"><div class="eyebrow">CURRENT MODEL</div><strong id="model-name">Repository evaluation</strong><p id="model-description">15 rules. Evidence, integration, utility.</p><div id="data-summary"></div><button id="data-review" class="text-button">Data and review notes ↗</button></section>
     <section id="editor" hidden aria-labelledby="editor-title">
@@ -35,8 +33,8 @@
   <main id="results" tabindex="-1">
     <div class="result-summary"><div><strong id="matching-count"></strong> matching <span class="separator">/</span> <span id="filtered-count"></span> filtered</div><div id="missing-summary"></div><button id="columns">Columns</button></div>
     <div id="chips" class="chips"></div>
-    <section id="plot-section" hidden aria-labelledby="plot-title"><div class="section-title"><h2 id="plot-title">The tradeoff map</h2><button id="hide-plot" class="text-button">Hide plot</button></div><p id="plot-caption"></p><div id="plot"></div><div id="plot-tooltip" role="status" hidden></div><div class="plot-legend"><span class="legend-front">◉ Pareto-optimal among matching books</span><span>· Other books</span><span>Curve is a visual guide; only dots are books.</span></div></section>
-    <section aria-labelledby="matching-title"><div class="section-title"><h2 id="matching-title">Matching books</h2><span>Sorted by current score ↓</span></div><div id="matching-list"></div></section>
+    <section id="plot-section" hidden aria-labelledby="plot-title"><div class="section-title"><h2 id="plot-title">Pareto tradeoffs</h2><button id="hide-plot" class="text-button">Hide plot</button></div><p id="plot-caption"></p><div id="plot"></div><div id="plot-tooltip" role="status" hidden></div><div class="plot-legend"><span class="pareto-layer-1">● 1 · Main boundary</span><span class="pareto-layer-2">● 2 · After removing layer 1</span><span class="pareto-layer-3">● 3 · After removing layers 1–2</span><span>Lines join books; intermediate points are not books.</span></div></section>
+    <section aria-label="Matching books, sorted by current score"><div id="matching-list"></div></section>
     <section id="filtered-section" aria-labelledby="filtered-title"><div class="section-title"><h2 id="filtered-title">Filtered books <span id="filtered-heading-count"></span></h2><button id="toggle-filtered" class="text-button" aria-expanded="true">Collapse</button></div><p class="muted">Still in the collection. The same score, with failed filters shown.</p><div id="filtered-list"></div></section>
     <footer><span>Local calculations · Original assessments retained</span><button id="footer-review" class="text-button">Data and review notes</button><button id="clear-selection" class="text-button">Clear selection</button></footer>
   </main>
@@ -48,18 +46,18 @@
 </main>
 <main id="excluded-view" class="reference-view" hidden aria-labelledby="excluded-title" tabindex="-1">
   <div class="section-title"><h2 id="excluded-title">Excluded books</h2><span>Alphabetical</span></div>
-  <p class="intro">Fiction and works that do not pass the current instruction and specialist-reference rule, including its expert narrative exception. These books have no score. See <a href="#method-exclusions">the exclusion methodology</a> for the precise rule.</p>
+  <p class="intro">Fiction and works excluded by the technical training and reference rule. Historical surveys can qualify when their explanatory prose has value beyond locating references. Excluded books have no score. See <a href="#method-exclusions">the exclusion methodology</a> for the precise rule.</p>
   <ul id="excluded-list" class="excluded-list"></ul>
 </main>
 <main id="sources-view" class="reference-view" hidden aria-labelledby="sources-title" tabindex="-1">
   <div class="section-title"><h2 id="sources-title">Sources</h2><span>By source number</span></div>
-  <p class="intro">Every entry in the source register, including recommendation lists, research and repository reviews. Source numbers match the book details. External sources open in a new tab; saved inputs and the linked analyses are included here for offline reading.</p>
+  <p class="intro">Every entry in the source register, including recommendation lists, research and repository reviews. Source numbers match the book details. Sources and full analyses open online in a new tab. Book details and calculations remain available offline.</p>
   <table class="source-table"><thead><tr><th scope="col">No.</th><th scope="col">Date added</th><th scope="col">Source</th><th scope="col">Analysis</th></tr></thead><tbody id="sources-list"></tbody></table>
 </main>
 <main id="methodology-view" class="reference-view methodology" hidden aria-labelledby="methodology-title" tabindex="-1">/* METHODOLOGY */</main>
 <dialog id="details"><div class="dialog-head"><h2 id="details-title">Book details</h2><button id="close-details" aria-label="Close details">×</button></div><div id="details-body"></div></dialog>
 <noscript>This catalog needs JavaScript for local calculations. No network connection is needed.</noscript>
-<script id="catalog-data" type="application/json">/* DATA */</script>
+<script id="catalog-data" type="application/gzip+base64">/* DATA */</script>
 <script type="module">/* APPLICATION */</script>
 </body>
 </html>

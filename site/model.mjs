@@ -7,7 +7,7 @@ const positives = [
   ['S', 'Systems integration', 17, true, 'Coherent connections between relevant layers of a system.'],
   ['U', 'Transferable strategic utility', 15, false, 'Models and lessons reusable across decisions and cases.'],
   ['M', 'Mechanistic and causal depth', 12, false, 'Incentives, feedback, bottlenecks, constraints, and failure modes.'],
-  ['D', 'Information density', 10, true, 'Evidence and explanation that justify the length.'],
+  ['D', 'Information density', 10, true, 'Useful learning per unit of reading: distinct facts, mechanisms, evidence and illuminating cases. Repeated frameworks are not padding when new cases add knowledge.'],
   ['R', 'Durability', 9, false, 'Usefulness beyond personalities, disputes, and hype.'],
   ['F', 'Direct domain fit', 7, false, 'Fit to the scientific, industrial, and strategic interests in the repository.'],
   ['A', 'Expert authority', 5, false, 'Scholarship, practice, access, and specialist scrutiny.'],
@@ -58,7 +58,7 @@ export const REGISTRY = [
 export const BY_ID = Object.fromEntries(REGISTRY.map(r => [r.id, r]));
 const hasID = id => typeof id === 'string' && Object.hasOwn(BY_ID, id);
 export const CORE_COLUMNS = ['year', 'raw:PG', 'raw:O15', 'raw:SRC'];
-export const DEFAULT_COLUMNS = [...CORE_COLUMNS, ...REGISTRY.filter(r => r.weight !== 0).map(r => 'points:' + r.id)];
+export const DEFAULT_COLUMNS = [...CORE_COLUMNS];
 const columnNames = { E: 'Evidence', S: 'Systems integration', U: 'Strategic utility', M: 'Causal depth', D: 'Information density',
   R: 'Durability', F: 'Domain fit', A: 'Expert authority', N: 'Narrative clarity', P: 'Prose precision', T11: 'Unwanted theme',
   T12: 'Secondary topic', H13: 'Topic age', P14: 'Publication age', O15: 'Amazon ratings', PG: 'Pages', SRC: 'Sources' };
@@ -73,7 +73,7 @@ export const COLUMNS = [
 ];
 export const COLUMN_BY_ID = Object.fromEntries(COLUMNS.map(c => [c.id, c]));
 export function displayedColumns(model) {
-  const ids = model.columnsMode === 'active' ? [...CORE_COLUMNS, ...REGISTRY.filter(r => model.terms[r.id].enabled).map(r => 'points:' + r.id)] : model.columns || DEFAULT_COLUMNS;
+  const ids = model.columnsMode === 'active' ? DEFAULT_COLUMNS : model.columns || DEFAULT_COLUMNS;
   return [...CORE_COLUMNS.filter(id => ids.includes(id)), ...ids.filter(id => !CORE_COLUMNS.includes(id))];
 }
 export function restoreColumns(model) {
@@ -314,6 +314,14 @@ export function clearTarget(model) {
   model.target = null; model.exact = '';
   for (const id of DERIVED_IDS) { model.terms[id].enabled = false; delete model.filters[id]; }
   model.axes = model.axes.map(a => a && (DERIVED_IDS.includes(a.id) || (a.kind === 'sum' && a.terms.some(t => DERIVED_IDS.includes(t.id)))) ? null : a);
+}
+export function frontierLayers(rows, axes) {
+  let remaining = rows;
+  return Array.from({length:3}, () => {
+    const layer = frontier(remaining, axes);
+    remaining = remaining.filter(r => !layer.has(r.book.id));
+    return layer;
+  });
 }
 export function validateModel(m) {
   const errors = [];

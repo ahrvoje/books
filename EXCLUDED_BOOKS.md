@@ -1,6 +1,6 @@
 # Excluded books
 
-Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.md). One alphabetized entry per work; no scores.
+Hard-excluded source books. [Latest category review](analysis/analysis_categories_261021_1600.md). One alphabetized entry per work; no scores.
 
 - #AskGaryVee — Gary Vaynerchuk
 - $100M Offers — Alex Hormozi
@@ -33,15 +33,18 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - A Mathematical Gift: The Interplay between Topology, Functions, Geometry, and Algebra — Kenji Ueno; Koji Shiga; Shigeyuki Morita
 - A Memory Called Empire — Arkady Martine
 - A Painter of Our Time — John Berger
+- A Panoramic View of Riemannian Geometry — Marcel Berger
 - A Path Through the Jungle — Steve Peters
 - A Pattern Language — Christopher Alexander
 - A Perfect Vacuum — Stanisław Lem
+- A Philosophy of Software Design — John Ousterhout
 - A Practical Guide for Policy Analysis — Eugene Bardach; Eric M. Patashnik
 - A Raisin in the Sun — Lorraine Hansberry
 - A Room with a View — E. M. Forster
 - A Royal Road to Algebraic Geometry — Audun Holme
 - A Rulebook for Arguments — Anthony Weston
 - A Separate Peace — John Knowles
+- A Short History of Mathematical Population Dynamics — Nicolas Bacaër
 - A Soldier of the Great War — Mark Helprin
 - A Storm of Swords — George R. R. Martin
 - A Thousand Splendid Suns — Khaled Hosseini
@@ -80,6 +83,7 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - American Gods — Neil Gaiman
 - An American Marriage — Tayari Jones
 - An Artist of the Floating World — Kazuo Ishiguro
+- An Elementary Primer for Gauge Theory — K. Moriyasu
 - An Illustrated Book of Bad Arguments — Ali Almossawi
 - An Introduction to Manifolds — Loring W. Tu
 - An Introduction to Modern Cosmology — A. Liddle
@@ -107,13 +111,13 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - Bad Wisdom — Bill Drummond; Mark Manning / Zodiac Mindwarp
 - Barbed Wire Heart
 - Bargaining for Advantage — G. Richard Shell
+- Basic Notions of Algebra — Igor R. Shafarevich
 - Beating The Street — Peter Lynch
 - Being Logical — D. Q. McInerny
 - Being With Dying — Joan Halifax
 - Bet With the Best — Andrew Beyer
 - Beware of Chicken — Casualfarmer
 - Beyond Entrepreneurship — Jim Collins
-- Bibliographical History of Electricity and Magnetism — Paul Fleury Mottelay
 - Big Swiss
 - Bit-Slice Microprocessor Design — John Mick; Jim Brick
 - Blandings
@@ -151,7 +155,9 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - Celestial Mechanics — Shlomo Sternberg
 - Century Rain — Alastair Reynolds
 - Cerebus — Dave Sim
+- Chaos in Classical and Quantum Mechanics — Martin C. Gutzwiller
 - Chaos in Dynamical Systems — Edward Ott
+- Chaotic Evolution and Strange Attractors — David Ruelle
 - Chapterhouse: Dune — Frank Herbert
 - Charlotte's Web — E. B. White
 - Children of Dune
@@ -180,7 +186,9 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - Complex Analysis — Lars Ahlfors
 - Complex Analysis — Theodore W. Gamelin
 - Complex PTSD: From Surviving to Thriving — Pete Walker
+- Computer Engineering — C. Gordon Bell; J. Craig Mudge; John E. McNamara
 - Computer Networking: A Top-Down Approach — James F. Kurose; Keith W. Ross
+- Computers, Rigidity, and Moduli — Shmuel Weinberger
 - Computing the Continuous Discretely — Matthias Beck; Sinai Robins
 - Concepts of Physics — H. C. Verma
 - Conceptual Physics — Paul G. Hewitt
@@ -281,7 +289,6 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - Endymion — Dan Simmons
 - Engineering General Intelligence, Volume 1 — Ben Goertzel; Cassio Pennachin; Nil Geisweiller
 - Engineering General Intelligence, Volume 2 — Ben Goertzel; Cassio Pennachin; Nil Geisweiller
-- Engineering in Plain Sight — Grady Hillhouse
 - Eon — Greg Bear
 - EPA 608 Study Guide — Author unspecified
 - Epic of Gilgamesh — Stephen Mitchell (version)
@@ -292,6 +299,7 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - Eve’s Hollywood — Eve Babitz
 - Everything Flows
 - Evolution: Selected Papers — Sewall Wright
+- Evolutionary Dynamics: Exploring the Equations of Life — Martin A. Nowak
 - Excession — Iain M. Banks
 - Exhalation — Ted Chiang
 - Expectations Investing — Michael Mauboussin
@@ -302,6 +310,7 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - Fall; or, Dodge in Hell
 - Fatherland — Robert Harris
 - Fear and Loathing in Las Vegas — Hunter S. Thompson
+- Feynman's Thesis: A New Approach to Quantum Theory — Richard P. Feynman; Laurie M. Brown (editor)
 - Fierce Love — Jacqui Lewis
 - Financial Derivatives — Jamil Baz
 - Firefall — Peter Watts
@@ -318,15 +327,19 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - Foundations of Stable Homotopy Theory — David Barnes; Constanze Roitzheim
 - Founding Sales — Peter Kazanjy
 - Four Pivots — Shawn Ginwright
+- Fourier Analysis — T. W. Körner
 - Frank Stewart's Bridge Club — Frank Stewart
 - Frankenstein — Mary Shelley
 - Frisco Kid — Jack London
+- From Clocks to Chaos — Leon Glass; Michael C. Mackey
+- From Mathematics to Generic Programming — Alexander A. Stepanov; Daniel E. Rose
 - Functions of Bounded Variation and Free Discontinuity Problems — Luigi Ambrosio; Nicola Fusco; Diego Pallara
 - Fundamentals of Astrophysics — S. Owocki
 - Fundamentals of Plasma Physics — Paul M. Bellan
 - Fungi of Temperate Europe — Thomas Læssøe; Jens H. Petersen
 - G. — John Berger
 - Galois Theory — David A. Cox
+- Galois' Dream: Group Theory and Differential Equations — Michio Kuga
 - Game Engine Black Book: DOOM — Fabien Sanglard
 - Game Theory and Strategy — Philip D. Straffin
 - Gardens of the Moon — Steven Erikson
@@ -352,6 +365,7 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - Goldratt's Rules of Flow
 - Goodbye to Berlin
 - Gravitation — Charles W. Misner; Kip S. Thorne; John Archibald Wheeler
+- Grothendieck–Serre Correspondence — Alexander Grothendieck; Jean-Pierre Serre
 - Group Theory and Physics — Shlomo Sternberg
 - Groups and Symmetries — Yvette Kosmann-Schwarzbach
 - Hacking Sales — Max Altschuler
@@ -455,6 +469,7 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - Leapfrog — Nathalie Molina Nino
 - Learning Modern Algebra from Early Attempts to Prove Fermat's Last Theorem — Al Cuoco; Joseph Rotman
 - Leave It to Psmith
+- Leçons de mathématiques d'aujourd'hui — Éric Charpentier; Nicolas Nikolski (editors; collective lecture series)
 - Lectures on Astrophysics — S. Weinberg
 - Lectures on Probability Theory and Mathematical Statistics — Marco Taboga
 - Legends & Lattes — Travis Baldree
@@ -481,6 +496,8 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - Mastering the Core Teachings of the Buddha — Daniel Ingram
 - Math, Better Explained — Kalid Azad
 - Mathematical Methods of Classical Mechanics — V. I. Arnold
+- Mathematical Omnibus: Thirty Lectures on Classic Mathematics — Dmitry Fuchs; Serge Tabachnikov
+- Mathematics and Its History — John Stillwell
 - Mathematics for Computer Science — Eric Lehman; F. Thomson Leighton; Albert R. Meyer
 - Mean Spirit — Linda Hogan
 - Measure What Matters — Katie Delahaye Paine
@@ -522,6 +539,7 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - No Bullshit Guide to Math and Physics — Ivan Savov
 - No Country for Old Men — Cormac McCarthy
 - Nona the Ninth — Tamsyn Muir
+- Noncommutative Geometry — Alain Connes
 - Nonlinear Dynamics and Chaos — Steven H. Strogatz
 - Nonviolent Communication — Marshall B. Rosenberg
 - North Woods — Daniel Mason
@@ -533,6 +551,7 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - Number Theory 1: Fermat's Dream — Kazuya Kato; Nobushige Kurokawa; Takeshi Saito
 - Number Theory 2: Introduction to Class Field Theory — Kazuya Kato; Nobushige Kurokawa; Takeshi Saito
 - Number Theory 3: Iwasawa Theory and Modular Forms — Nobushige Kurokawa; Masato Kurihara; Takeshi Saito
+- Number Theory in Science and Communication — Manfred R. Schroeder
 - Number Theory Revealed: A Masterclass — Andrew Granville
 - Numerical Linear Algebra — Lloyd N. Trefethen; David Bau III
 - Object-Oriented Analysis and Design with Applications — Grady Booch
@@ -542,6 +561,7 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - Oil 101 — Morgan Downey
 - Old Man’s War — John Scalzi
 - On Lisp — Paul Graham
+- On Numbers and Games — John H. Conway
 - On the Road — Jack Kerouac
 - One Flew Over the Cuckoo’s Nest — Ken Kesey
 - One Hundred Years of Solitude — Gabriel García Márquez
@@ -556,26 +576,34 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - Othello — William Shakespeare
 - Outer Dark — Cormac McCarthy
 - Outer Order, Inner Calm — Gretchen Rubin
+- p-adic Analysis Compared with Real — Svetlana Katok
+- p-adic Numbers: An Introduction — Fernando Q. Gouvêa
 - Pale Fire — Vladimir Nabokov
 - Paradigms of Artificial Intelligence Programming — Peter Norvig
 - Perdido Street Station — China Miéville
 - Permutation City — Greg Egan
 - Physics for Scientists and Engineers — Paul A. Tipler, Gene Mosca
+- Physics from Finance — Jakob Schwichtenberg
 - Piranesi — Susanna Clarke
 - Points of Origin — John L. Orr
 - Postsingular — Rudy Rucker
 - Powers — Ursula K. Le Guin
 - Prelude to Foundation — Isaac Asimov
 - Pride and Prejudice — Jane Austen
+- Primes of the Form x² + ny² — David A. Cox
+- Princeton Lectures in Analysis — Elias M. Stein; Rami Shakarchi
 - Principles of Economics — N. Gregory Mankiw
 - Principles of Economics — Saifedean Ammous
 - Principles of Neurobiology — Liqun Luo
+- Probability Theory — S.R.S. Varadhan
+- Probability Theory: The Logic of Science — E. T. Jaynes
 - Probability, Random Variables and Stochastic Processes — Athanasios Papoulis
 - Problems from the Book — Titu Andreescu; Gabriel Dospinescu
 - Product Design for the Web — Randy Hunt
 - Program = Proof — Samuel Mimram
 - Programming Phoenix LiveView — Bruce A. Tate; Sophie DeBenedetto
 - Project Hail Mary — Andy Weir
+- Proofs from THE BOOK — Martin Aigner; Günter M. Ziegler
 - Proxima — Stephen Baxter
 - Psmith — P. G. Wodehouse
 - Psmith in the City — P. G. Wodehouse
@@ -586,11 +614,18 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - Q.E.D. — Burkard Polster
 - Quality of Earnings — Thornton O'Glove
 - Quantum Electrodynamics — Richard P. Feynman
+- Quantum Field Theory for the Gifted Amateur — Tom Lancaster; Stephen J. Blundell
+- Quantum Mechanics: The Theoretical Minimum — Leonard Susskind & Art Friedman
+- Quantum Theory for Mathematicians — Brian C. Hall
 - Radiation Detection and Measurement — Glenn F. Knoll
+- Random Walk and the Heat Equation — Gregory F. Lawler
+- Random Walks and Electric Networks — Peter G. Doyle; J. Laurie Snell
 - Rapid Interpretation of EKGs — Dale Dubin
 - Rational Expectations — William Bernstein
+- Rational Number Theory in the 20th Century: From PNT to FLT — Władysław Narkiewicz
 - Ready Player One — Ernest Cline
 - Ready Player Two — Ernest Cline
+- Real Analysis: Measure Theory, Integration, and Hilbert Spaces — Elias M. Stein; Rami Shakarchi
 - Real and Complex Analysis — Walter Rudin
 - Reaper's Gale — Steven Erikson
 - Recursion — Blake Crouch
@@ -640,6 +675,7 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - Siddhartha — Hermann Hesse
 - Site Reliability Engineering — Niall Richard Murphy; Betsy Beyer; Chris Jones; Jennifer Petoff (editors)
 - Six Days of the Condor — James Grady
+- Six Not-So-Easy Pieces — Richard Feynman
 - Six of Crows — Leigh Bardugo
 - Sixty Stories — Donald Barthelme
 - Slaughterhouse-Five — Kurt Vonnegut
@@ -654,12 +690,16 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - South of the Border, West of the Sun — Haruki Murakami
 - Southern Reach Trilogy — Jeff VanderMeer
 - Speaker for the Dead — Orson Scott Card
+- Special Relativity and Classical Field Theory: The Theoretical Minimum — Leonard Susskind & Art Friedman
 - Spin Sucks — Gini Dietrich
+- Stability and Chaos in Celestial Mechanics — Alessandra Celletti
 - Starship Troopers — Robert A. Heinlein
 - Starship's Mage — Glynn Stewart
 - Startup Playbook — Sam Altman
 - Station Eleven — Emily St. John Mandel
+- Statistical Consequences of Fat Tails — Nassim Nicholas Taleb
 - Statistical Inference — George Casella; Roger L. Berger
+- Statistical Models — David A. Freedman
 - Statistics — David Freedman, Robert Pisani, Roger Purves
 - Steering the Craft — Ursula K. Le Guin
 - Steppenwolf — Hermann Hesse
@@ -677,9 +717,11 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - Surreal Numbers — Donald E. Knuth
 - Surviving Climate Anxiety: A Guide to Coping, Healing, and Thriving — Thomas Doherty
 - Suttree — Cormac McCarthy
+- Synchronization: A Universal Concept in Nonlinear Sciences — Arkady Pikovsky; Michael Rosenblum; Jürgen Kurths
 - Talking To Humans — Giff Constable
 - Teach Your Child to Read in 100 Easy Lessons — Siegfried Engelmann; Phyllis Haddox; Elaine Bruner
 - Technical Analysis of the Financial Markets — John Murphy
+- Teichmüller Theory, Volume 1 — John H. Hubbard
 - Teixcalaan — Arkady Martine
 - Terraform: Watch/Worlds/Burn
 - Tess of the d'Urbervilles — Thomas Hardy
@@ -699,7 +741,9 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - The Annapolis Book of Seamanship — John Rousmaniere
 - The Apple II Circuit Description — Winston D. Gayler
 - The Art of Computer Programming — Donald E. Knuth
+- The Art of Probability — Richard W. Hamming
 - The Art of the Pitch — Peter Coughter
+- The Art of Unix Programming — Eric S. Raymond
 - The Ashley Book of Knots — Clifford W. Ashley
 - The Attention Revolution — B. Alan Wallace
 - The Axe — Sigrid Undset
@@ -730,6 +774,7 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - The Clan of the Cave Bear — Jean M. Auel
 - The Coaching Habit — Michael Bungay Stanier
 - The Colonel — Peter Watts
+- The Compleat Strategyst — J. D. Williams
 - The Complete Guide to Fasting — Dr. Jason Fung
 - The Complete Guide to Sales Force Incentive Compensation — Andris A. Zoltners
 - The Complete Stories — Franz Kafka
@@ -744,11 +789,13 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - The Death of Grass — John Christopher
 - The Deed of Paksenarrion — Elizabeth Moon
 - The Design Thinking Playbook — Michael Lewrick; Patrick Link; Larry Leifer
+- The Development of Prime Number Theory: From Euclid to Hardy and Littlewood — Władysław Narkiewicz
 - The DevOps Handbook — Gene Kim; Jez Humble; Patrick Debois; John Willis
 - The Dharma Bums — Jack Kerouac
 - The Diamond Age — Neal Stephenson
 - The Diamond Eye — Kate Quinn
 - The Divine Comedy — Dante Alighieri
+- The Economics of Microfinance — Beatriz Armendáriz; Jonathan Morduch
 - The Elements of Statistical Learning — Trevor Hastie; Robert Tibshirani; Jerome Friedman
 - The Elements of Typographic Style — Robert Bringhurst
 - The Expanse series — James S. A. Corey
@@ -757,6 +804,7 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - The Fault in Our Stars — John Green
 - The Fear Index — Robert Harris
 - The Fellowship of the Ring — J. R. R. Tolkien
+- The Feynman Lectures on Physics — Richard P. Feynman; Robert B. Leighton; Matthew Sands
 - The First 20 Hours — Josh Kaufman
 - The Forever War — Joe Haldeman
 - The Founders Trilogy — Robert Jackson Bennett
@@ -765,6 +813,7 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - The Frugal Wizard’s Handbook for Surviving Medieval England — Brandon Sanderson
 - The Fuck-Up — Arthur Nersesian
 - The Gap and the Gain — Dan Sullivan; Benjamin Hardy
+- The Geometry of Biological Time — Arthur T. Winfree
 - The Ghost — Robert Harris
 - The Girl Who Fell Beneath the Sea — Axie Oh
 - The Girl with the Dragon Tattoo / Millennium series — Stieg Larsson
@@ -793,6 +842,7 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - The Heart of Unconditional Love — Tulku Thondup
 - The Help — Kathryn Stockett
 - The Herbal Home Remedy Book — Joyce A. Wardwell
+- The History of Mathematics: An Introduction — David Burton
 - The Hitchhiker’s Guide to the Galaxy — Douglas Adams
 - The Hobbit — J. R. R. Tolkien
 - The Hunger Games — Suzanne Collins
@@ -837,6 +887,9 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - The Martian — Andy Weir
 - The Master and Margarita — Mikhail Bulgakov
 - The Master of Hestviken — Sigrid Undset
+- The Mathematical Theory of Communication — Claude E. Shannon; Warren Weaver
+- The Mathematics of Politics — E. Arthur Robinson Jr.; Daniel H. Ullman
+- The Mathematics of Time — Stephen Smale
 - The Metamorphosis of Prime Intellect — Roger Williams
 - The Mind Illuminated — John Yates; Matthew Immergut; Jeremy Graves
 - The Ministry for the Future — Kim Stanley Robinson
@@ -877,11 +930,13 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - The Practice of Natural Movement — Erwan Le Corre
 - The Princeton Companion to Applied Mathematics — Nicholas J. Higham et al. (editors)
 - The Princeton Companion to Mathematics — Timothy Gowers; June Barrow-Green; Imre Leader (editors)
+- The Principia — Isaac Newton
 - The Prophet — Kahlil Gibran
 - The Prose Edda — Snorri Sturluson
 - The Punishings — H. R. Bellicosa
 - The Remains of the Day — Kazuo Ishiguro
 - The Richest Man in Babylon — George Clason
+- The Rising Sea: Foundations of Algebraic Geometry — Ravi Vakil
 - The Road — Cormac McCarthy
 - The Road Home — Jim Harrison
 - The Robert Collier Letter Book — Robert Collier
@@ -911,7 +966,9 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - The Social Animal — Elliot Aronson
 - The Sound and the Fury — William Faulkner
 - The Specialist — Charles Sale
+- The Statistical Mechanics of Financial Markets — Johannes Voit
 - The Stormlight Archive — Brandon Sanderson
+- The Story of Algebraic Numbers in the First Half of the 20th Century: From Hilbert to Tate — Władysław Narkiewicz
 - The Story of B — Daniel Quinn
 - The Strange Bird — Jeff VanderMeer
 - The Sundays of Jean Dézert — Jean de La Ville de Mirmont
@@ -921,6 +978,8 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - The Tartar Steppe — Dino Buzzati
 - The Temple of the Golden Pavilion — Yukio Mishima
 - The Ten Thousand Doors of January — Alix E. Harrow
+- The Theoretical Minimum — Leonard Susskind and collaborators
+- The Theoretical Minimum: What You Need to Know to Start Doing Physics — Leonard Susskind & George Hrabovsky
 - The Things They Carried — Tim O'Brien
 - The Three Musketeers series — Alexandre Dumas
 - The Three-Body Problem — Cixin Liu
@@ -946,8 +1005,10 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - The Young Elites series — Marie Lu
 - The Zenith Angle — Bruce Sterling
 - Theory of Bastards — Audrey Schulman
+- Theory of Games and Economic Behavior — John von Neumann; Oskar Morgenstern
 - Theory of Oscillators — A. A. Andronov; A. A. Vitt; S. E. Khaikin
 - There Is No Antimemetics Division — qntm
+- Thermodynamics and an Introduction to Thermostatistics — Herbert B. Callen
 - Thief of Souls — Brian Klingborg
 - Thinking from A to Z — Nigel Warburton
 - Thinking Physics — Lewis Carroll Epstein
@@ -975,6 +1036,7 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - Trust — Hernan Diaz
 - Turning the Mind into an Ally — Sakyong Mipham
 - Turtles All the Way Down — John Green
+- Twelve Landmarks of Twentieth-Century Analysis — Denis Choimet; Hervé Queffélec
 - Typee: A Peep at Polynesian Life — Herman Melville
 - Ukridge — P. G. Wodehouse
 - Ultima — Stephen Baxter
@@ -987,8 +1049,11 @@ Hard-excluded source books. [Latest source batch](data/books_guru_261021/REPORT.
 - V for Vendetta — Alan Moore; David Lloyd
 - Valid — Chris Bergeron
 - Valuation — Tim Koller
+- Vector Calculus, Linear Algebra, and Differential Forms: A Unified Approach — John H. Hubbard; Barbara Burke Hubbard
 - Victory City — Salman Rushdie
+- Visual Complex Analysis — Tristan Needham
 - Visual Complex Functions — Elias Wegert
+- Visual Group Theory — Nathan Carter
 - Vita Nostra — Marina Dyachenko; Sergey Dyachenko
 - Vorkosigan Saga — Lois McMaster Bujold
 - Waking Up: Overcoming the Obstacles to Human Potential — Charles T. Tart

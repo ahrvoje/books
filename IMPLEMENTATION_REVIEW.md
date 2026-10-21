@@ -4,25 +4,31 @@ Date: 2026-10-21. Decisions and concerns are recorded for later review. No respo
 
 ## Delivered
 
-`docs/index.html` is one monolithic, dependency-free HTML file. It contains the catalog, cited repository analyses, styles and application code. It needs no server, account, installation or network connection. External evidence and purchase links are optional.
+Latest update: [rating gaps and Pareto boundaries](analysis/analysis_ratinggaps_261021_1704.md). Added 181 explicit total-rating aggregates, preserving prior known counts. Coverage: 1,499 recommended and 39 vetoed works; 1,605 remain unknown. Amazon returned an access challenge, which stopped direct collection. Only O15 and its resulting totals/verdicts change. Both ledgers and both HTML lists show linked counts. The display removes the marked filler, uses equal 16×16 icons and labels the control Pareto tradeoffs. Three successive boundaries use red, blue and dark yellow. The size contract is 1,500 bytes per recommended or vetoed work (4,714,500 bytes at current membership). Current validation: `node data/ratings_pareto_261021/validate.mjs --browser`.
+
+The [page-count and density review](analysis/analysis_densitypages_261021_1630.md) adds edition counts to both Markdown ledgers and the vetoed HTML view. Coverage is 2,927/2,938 recommended and 200/205 vetoed works. Sixteen unresolved counts remain unknown. Only three density estimates change; the other criteria, deductions, categories and existing enrichment records are preserved. The clarified density protocol measures useful learning per reading effort and credits examples that teach distinct content. Unreviewed density estimates are labelled in the HTML. Full edition collection metadata stays in the repository; the HTML retains the count, edition identity, source link, date, format, language, confidence and notes.
+
+Earlier page-count update: all 15 tests and offline Chromium checks at six widths passed. HTML: 3,076,901 bytes. Its [validation record](data/pages_density_261021/validation.json) records preservation, coverage and the tested HTML hash for that historical snapshot.
+
+`docs/index.html` is one monolithic, dependency-free HTML file. It contains the catalog, links to cited repository analyses, styles and application code. It needs no server, account, installation or network connection. External evidence and purchase links are optional.
 
 The 43-variable model supports signed normalized scoring, independent filters, selection, settings import/export and an optional Pareto plot. Matching and filtered books are separately sorted by score. All rows render without pagination. Authors follow titles on the same line. The Columns panel selects raw values and score contributions; phones show the selected facts below each title.
 
 The initial ranking reproduces the current 15-rule evaluation. Domain variables, page counts, source-count scoring and connection measures start inactive. Improved ideal-book defaults remain for later review.
 
-The top navigation opens Books, Vetoed, Excluded, Sources and Methodology within the same HTML. Vetoed shows every current stored counterfactual score with its reason and analysis. Excluded shows every current hard-excluded work without scores. Sources presents all 173 registered entries with their numbers, dates, original links and saved analyses. All four pasted source inputs are also embedded for offline reading. Reference views have no filtering or scoring controls. Methodology explains source collection, identity checks, exclusions, vetoes, all scoring rules, evidence, domain connections and custom controls. All hard exclusions, V4, V5 and the complete rules appendix come directly from `AGENTS.md`, identified by rule content rather than numbering.
+The top navigation opens Books, Vetoed, Excluded, Sources and Methodology within the same HTML. Vetoed shows every current stored counterfactual score with its reason and analysis. Excluded shows every current hard-excluded work without scores. Sources presents all 174 registered entries with their numbers, dates, original links and saved analyses. Full source inputs and historical analyses open from repository links; current book details remain offline. Reference views have no filtering or scoring controls. Methodology explains source collection, identity checks, exclusions, vetoes, all scoring rules, evidence, domain connections and custom controls. All hard exclusions, V4, V5, V6 and the complete rules appendix come directly from `AGENTS.md`, identified by rule content rather than numbering.
 
-Default columns follow the active scoring criteria. Year, Pages, Amazon ratings and Sources come first, followed by readable contribution names, with Details last. A top horizontal scrollbar makes wide desktop tables accessible; phones show the selected facts below each title. Custom column choices persist. Compatible catalog updates restore settings silently, and the old three-column default migrates to the new default without a catalog-change warning.
+Default optional columns are Year, Pages, Amazon ratings and Sources only, with Details last. All four configuration buttons stay above results, with leading icons and distinct pastel colors. Book links are dark navy and underlined. A top horizontal scrollbar makes wide desktop tables accessible; phones show the selected facts below each title. Custom column choices persist. Compatible catalog updates restore settings silently, and the old three-column default migrates to the new default without a catalog-change warning.
 
-The [Books Guru batch](data/books_guru_261021/REPORT.md) gives current membership and new-title decisions. The [V4/V5 review](data/veto_review_261021/REPORT.md), [earlier H2/V5 audit](data/rule_review_261020/REPORT.md), [source integration audit](data/sources_261020/REPORT.md) and [enrichment audit](data/enrichment_261020/REPORT.md) remain dated historical records. Recommended-list membership includes low-scoring books and poor fits; it is not an endorsement of every title.
+The [H3/V6 category review](analysis/analysis_categories_261021_1600.md) gives current membership: 2,938 recommended, 205 vetoed and 1,076 excluded. Existing scores are unchanged; two admissions receive first baselines. The [Books Guru batch](data/books_guru_261021/REPORT.md) records preceding source decisions. The [V4/V5 review](data/veto_review_261021/REPORT.md), [earlier H2/V5 audit](data/rule_review_261020/REPORT.md), [source integration audit](data/sources_261020/REPORT.md) and [enrichment audit](data/enrichment_261020/REPORT.md) remain dated historical records. Recommended-list membership includes low-scoring books and poor fits; it is not an endorsement of every title.
 
 ## Sources page and static hosting
 
 The subsequent Sources-page update changes presentation only; it does not collect evidence or change book assessments. Source rows come directly from `SOURCES.md`, with build checks for unique numbers, dates and links. The browser check compares every rendered source to the embedded register, opens all pasted inputs offline, restores the Sources route after reload, and checks widths of 320, 390 and 1,440 pixels.
 
-The build writes `docs/index.html` and `docs/.nojekyll` for GitHub Pages. The output folder is shared by the build, preview and validation tools. The root HTML has been moved rather than duplicated. Select `main` and `/docs` as the publishing source; the [README](README.md#github-pages) records setup steps. Only the approximately 43 MB site is published from this folder. No remote publication or repository settings change is part of this update.
+The build writes `docs/index.html` and `docs/.nojekyll` for GitHub Pages. The output folder is shared by the build, preview and validation tools. The root HTML has been moved rather than duplicated. Select `main` and `/docs` as the publishing source; the [README](README.md#github-pages) records setup steps. Only the approximately 3.12 MB site is published from this folder. No remote publication or repository settings change is part of this update.
 
-## Books Guru source batch and column layout
+## Earlier Books Guru source batch and column layout (superseded where noted above)
 
 The 26 submitted expert lists contain 976 book cards. All advertised card counts match the captures, including pagination. The collection also checks 393 recommendation quotations and records 35 explicit auxiliary book mentions. Identity matching reduces these nominations to 832 distinct works: 462 previously covered works and 370 new works. The user's explicit instruction for this batch permits source-only updates to earlier entries. Earlier scores, judgments and metadata remain unchanged; repeated list appearances add provenance only.
 
@@ -83,7 +89,7 @@ The 1994 origin for *Energy and Civilization* is retained after a fresh publishe
 
 - The matching, filtered, vetoed and excluded lists render every applicable row. There is no cap, pagination, virtualization or “Show next” control.
 - Every variable offers raw and contribution columns. Original year, period end and baseline score are additional choices. Column settings persist and export.
-- Cited repository analyses are embedded. Copying only `index.html` preserves those analyses and the working application. Raw research captures remain repository audit files.
+- Current book details, category reasons and scoring inputs are embedded. Copying only `index.html` preserves the working application. Full historical analyses and raw captures remain repository files reached through online links.
 - All scoring controls have numeric inputs. Caps and curves use explicit fields; arbitrary executable formulas are not accepted.
 - Switching to a direct rate preserves the current linear contribution. A nonlinear curve uses normalized weight mode and previews the result.
 - Advanced count bands and piecewise knots use a validated JSON editor.
@@ -98,7 +104,9 @@ The publication preflight checks every input decision, eight gate findings, scor
 
 The calculation and browser checks cover the full catalog, baseline equivalence, normalization, signed rates, caps, filters, Pareto ties, connection fixtures, local evidence references, settings and responsive layouts. The browser test copies only `index.html` to an isolated folder and blocks HTTP requests.
 
-Current validation after the Books Guru publication:
+Earlier H3/V6 validation: 4,219 unique identities retained; 2,938 recommended, 205 vetoed and 1,076 excluded. All surviving existing scored parameters are unchanged. All 15 calculation/data tests pass. Offline Chromium checks pass at six widths, with no page errors or HTTP requests. The HTML is 3,599,827 bytes. See [category validation](data/category_review_261021/validation.json).
+
+Earlier validation after the Books Guru publication (historical counts and packaging):
 
 - All 15 calculation and data tests passed for 3,021 eligible works, 187 vetoed works and 1,011 hard exclusions.
 - The source audit accounts for all 832 distinct nominated works: 462 prior works skipped and 370 new decisions. The 26 captures match their advertised counts.
@@ -117,8 +125,10 @@ Earlier validation after the V4/V5 publication:
 - SHA-256 checks confirm all 64 historical analyses and the prior compiled catalog remain unchanged. All 2,591 previously recommended and 903 previously excluded records remain exact. Decision-file hashes match the published review.
 - Every one of the 355 prior vetoed books maps to exactly one current reviewed work. Each has numbered source attribution. All new assessment anchors exist, and all local decision references resolve.
 
-Current browser output and screenshots are saved in `site/qa-output/`. The current [Books Guru validation record](data/books_guru_261021/validation.json) includes coverage, counts and the dataset hash. The earlier [V4/V5 validation](data/veto_review_261021/validation.json), [H2/V5 validation](data/rule_review_261020/validation.json) and [source-integration validation](data/sources_261020/validation.json) remain historical.
+Current browser output and screenshots are saved in `site/qa-output/`. The [Books Guru validation record](data/books_guru_261021/validation.json), [V4/V5 validation](data/veto_review_261021/validation.json), [H2/V5 validation](data/rule_review_261020/validation.json) and [source-integration validation](data/sources_261020/validation.json) remain historical.
 
 Confidence is **high** in the tested arithmetic, ledger agreement and offline file independence. Book judgments retain their recorded **high**, **moderate** or **low** confidence.
 
 Physical phones, mobile on-screen keyboards, Safari and Firefox are not verified by Chromium viewport checks. Implementation confidence and book-assessment confidence are separate: a passing calculation test does not resolve missing book evidence.
+
+Priority review: [top-50 review](analysis/analysis_topreview_261021_1712.md) corrects two high-ranked assessments. The active snapshot is data/top_review_261021/compiled.json. The remaining top-50 rows are a review queue, not a completed full-text assessment. No additional Amazon counts were accepted from ambiguous indexed counters.

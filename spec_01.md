@@ -1,6 +1,6 @@
 # Book selection site — specification 01
 
-Date: 2026-10-21, Europe/Warsaw. Revision: 10 — publish the stand-alone site from the GitHub Pages docs folder.
+Date: 2026-10-21, Europe/Warsaw. Revision: 13 — compact layout, equal icons, rating gap update and three successive Pareto boundaries.
 
 Build a small, stand-alone site that loads the recommended book collection, lets the reader change filters and scoring rules, and explains the resulting order. Add an optional two-axis Pareto plot for comparing tradeoffs.
 
@@ -10,7 +10,7 @@ The site serves one reader: a theoretical physicist with strong interests in mec
 
 | Decision | Specification | Confidence |
 |---|---|---|
-| Stand-alone delivery | One monolithic, dependency-free `docs/index.html` with embedded data, cited repository analyses, CSS, and JavaScript. The file works by itself when copied to another folder and opened locally, or when served by a static host. | High: explicit requirement. |
+| Stand-alone delivery | One monolithic, dependency-free `docs/index.html` with embedded data, links to cited repository analyses, CSS, and JavaScript. The file works by itself when copied to another folder and opened locally, or when served by a static host. | High: explicit requirement. |
 | Collection | Include each current work in `RECOMMENDED_BOOKS.md` once in the interactive Books view. Separate read-only views present the current veto and exclusion ledgers. | High: explicit requirement. |
 | Book model | 43 numeric fields: 15 existing rules, 20 domains, source count, page count, and six calculated measures of coverage and connection. A separate list of evidenced mechanisms preserves connections among any number of domains. | Moderate: proposed modeling design; definitions and arithmetic are explicit. |
 | Initial ideal and ranking | Reproduce the current `RECOMMENDED_BOOKS.md` evaluation, including all 15 rules. New inputs have zero ranking weight, and no connection target is selected. Later defaults require an explicit replacement. | High: explicit requirement; arithmetic equivalence is specified below. |
@@ -19,7 +19,7 @@ The site serves one reader: a theoretical physicist with strong interests in mec
 | Selection | A checkbox per book creates a local selection. Selection alone does not change its score or filter status. | Moderate: minimum useful interpretation of selection. |
 | Pareto support | Include the feature, but keep its controls and plot off by default. Both axes can use any input. | High: implements the optional display. |
 | Reference style | Use a compact, text-led catalog with search and expandable filters. Specific visual tokens below are proposed choices. | Moderate: interpretation of the reference. |
-| Desktop and phone | The same data and operations, with a desktop control column and table, and phone control sheets and stacked book rows. | High: required scope; exact layout choices are proposals. |
+| Desktop and phone | The same data and operations, with controls above the desktop table, and phone control sheets and stacked book rows. | High: required scope; exact layout choices are proposals. |
 
 The specification defines the model and how to assess it. The focused book investigation in section 4.7 informs the design; it does not establish complete new domain values, connection records, or page counts for the catalog.
 
@@ -42,7 +42,7 @@ The following visual choices are proposals, not claims about the reference's exa
 | Density | Compact rows with enough spacing to track a title across columns. Avoid large cards and large empty areas. |
 | Numeric columns | Right-align headings and values on the same edge. Use compact widths by value type; wrap readable names and put the contribution unit on a separate line. Derive column widths, minimum table width and the top scrollbar extent from the same width calculation. |
 | Width | Center the content up to 1,440 CSS px. Support a 320 px viewport without page-wide horizontal scrolling. |
-| Controls | Search and counts remain easy to reach. Group controls as Filters, Scoring, Ideal book, and Pareto. Search the variable list by name or alias. |
+| Controls | Search and counts remain easy to reach. Group controls as Filter books, Adjust scoring, Define ideal book, and Pareto tradeoffs. Use distinct subtle pastel backgrounds and a 16×16 SVG icon for each button. Omit the decorative masthead labels, tagline, model heading and redundant matching-list heading. Titles are underlined dark navy links. Search the variable list by name or alias. |
 | Matching rows | Full contrast, restrained score emphasis, visible selection checkbox. |
 | Filtered rows | Muted gray text and a pale background. Keep titles and controls readable; do not reduce opacity on the whole interactive row. |
 | Focus and hover | Clear focus outline. A focused or hovered muted row returns to full text contrast. |
@@ -50,39 +50,27 @@ The following visual choices are proposals, not claims about the reference's exa
 
 ### 2.1 Desktop: viewport width at least 1,100 px
 
-Use a two-column layout below the title/search bar: a 320 px control column, a 24 px gap, and the results column. Keep the control column within the viewport height with its own scroll area. The document scrolls through the results. Sticky elements must not cover a focused control or row.
-
-```text
-Book selection                    Search titles or authors…   Selected …
-Controls                          Matching …   Filtered …   Missing data …
-  Find a variable…                Active filters and ideal-book summary
-  Filters                         Optional Pareto plot
-  Scoring
-  Ideal book                      Matching books
-  Pareto                          □ Score  Title / author   Year  Sources Pages
-                                  …
-  [Reset section]
-  Preview: … matches              Filtered books
-  [Cancel] [Apply]                … muted rows, same order and columns
-```
+Keep all four configuration buttons above the results at every viewport width. Use one full-width results area, with dialog controls opened from the buttons. Sticky elements must not cover a focused control or row.
 
 Use a semantic table with aligned score, year, source count, and page columns. Put the author after the title on the same line in smaller type. Allow long titles and authors to wrap. Keep selection and details controls separate from the purchase link. The default list emphasizes `TOTAL`.
 
-The **Columns** panel controls which optional columns appear in both lists. Offer each of the 43 variables as a raw value and as its contribution to the current score. Also offer original publication year, central historical period end, and repository baseline. Use readable names such as “Amazon ratings”; aliases belong in the variable editor. Label contributions as points so they cannot be mistaken for raw attainment. Default to Year → Pages → Amazon ratings → Sources, followed by every enabled scoring contribution. Details stays last. The default follows changes to enabled scoring terms; manual column choices switch to a custom selection. Provide default, quality-contribution and recency presets. Column choices persist and round-trip with model settings; they never change scoring or filtering. Wide tables have horizontal scrolling accessible above the rows; phone rows show the selected labelled facts.
+The **Columns** panel controls which optional columns appear in both lists. Offer each of the 43 variables as a raw value and as its contribution to the current score. Also offer original publication year, central historical period end, and repository baseline. Use readable names such as “Amazon ratings”; aliases belong in the variable editor. Label contributions as points so they cannot be mistaken for raw attainment. Default to Year → Pages → Amazon ratings → Sources only. Details stays last. Scoring changes do not add columns; manual column choices switch to a custom selection. Provide default, quality-contribution and recency presets. Column choices persist and round-trip with model settings; they never change scoring or filtering. Wide tables have horizontal scrolling accessible above the rows; phone rows show the selected labelled facts.
 
 ### Library navigation and methodology
 
-Top navigation links switch between Books, Vetoed, Excluded, Sources and Methodology within the same monolithic HTML. Vetoed shows every current vetoed work in saved ledger order, with its stored counterfactual score, rule, confidence, sources and embedded assessment. Excluded shows every hard-excluded work alphabetically, without scores. Reference views contain no filtering, scoring, selection or model controls. Changing the Books model cannot change their contents or scores. Import existing records only; these interface changes perform no new book research or assessment.
+Top navigation links switch between Books, Vetoed, Excluded, Sources and Methodology within the same monolithic HTML. Vetoed shows every current vetoed work in saved ledger order, with its stored counterfactual score, year, edition page count, rule, confidence, sources and embedded reason. Page counts link to edition evidence and appear in phone rows and Details. Unknown counts stay unknown. Excluded shows every hard-excluded work alphabetically, without scores. Reference views contain no filtering, scoring, selection or model controls. Changing the Books model cannot change their contents or scores. Import existing records only; these interface changes perform no new book research or assessment.
 
-Sources shows every registered entry from `SOURCES.md`, ordered by source number, without pagination. Include the number, date added, source label and link, and the linked stored analysis. Embed locally saved source inputs as well as analyses so a copied HTML file retains their content offline. External source links open in a new tab. Use aligned columns on desktop and stacked labelled entries on phones. `#sources` is a direct, reloadable route within the HTML.
+Sources shows every registered entry from `SOURCES.md`, ordered by source number, without pagination. Include the number, date added, source label and link, and the linked stored analysis. Keep full source inputs and historical analyses in the repository and link to them online. Embed current book details, category reasons and scoring inputs offline. Use lossless gzip/base64 for the dataset and enforce an HTML limit of 1,500 bytes per recommended or vetoed book. External source links open in a new tab. Use aligned columns on desktop and stacked labelled entries on phones. `#sources` is a direct, reloadable route within the HTML.
 
 The generated HTML must work on a static host under a project path such as `/books/`, without server routing or runtime dependencies. Build directly into `docs/`, with `index.html` and `.nojekyll` as its only required files. Do not retain a second root HTML. Use the same output location for preview and verification, and document GitHub Pages configuration as branch `main`, folder `/docs`. Hosting preparation does not itself publish the repository.
 
 Methodology explains source capture, identity resolution, reassessment, hard exclusions, vetoes, all scoring criteria and deductions, date/count evidence, uncertainty, domains, connections and custom controls. Include the exact current `AGENTS.md` instructions at build time so the complete rules are available offline. Links and browser history must work on desktop and phone.
 
-The hard exclusions now cover non-book works, fiction, and instruction/reference works, in that order. Non-book references remain outside all three book ledgers. The instruction/reference rule allows expert-to-expert works with some narrative structure unless explicitly intended for exams, instructions or reference. Course use, specialist readership and broad practical advice are not sufficient reasons to exclude. Veto 4 allows educated speculative prediction when the argument is professional, substantiated, balanced and has elaborate safeguards. Veto 5 covers religious doctrine and explicit advocacy of ideological extremism, with specific evidence. Manifesto labels, advocacy, activism, political positions, technological visions, institutional criticism and proposed reforms are insufficient. Historical or analytical discussion is not itself advocacy. The other vetoes and all scoring rules remain unchanged. Review all 355 currently vetoed works under these revisions, including independent checks of the other gates. Retain a decision, evidence and confidence per work, and the full scoring breakdown for each admitted or vetoed work. Preserve earlier analyses as history.
+H3 excludes books whose main purpose is technical training, proofs, derivations, procedures or specialist reference, including historical technical treatises. Narrative passages alone do not override that purpose. Explanatory histories, surveys and annotated chronologies may qualify when they explain discoveries and systems without requiring course study. V6 excludes dominant partisan recruitment, allegiance-building and campaign attacks; a political view, criticism or proposed reform alone is insufficient. H3 precedes vetoes.
 
-Embed the visible text of all hard exclusions and vetoes 4 and 5 directly from `AGENTS.md`, identified by their content rather than position. Use stable names for the exclusion findings so renumbering cannot change their meaning. The compiled catalog records the SHA-256 hash of the rules used for its review. Reject a build when that hash differs from the current instructions, so a newly worded methodology cannot silently accompany judgments made under older rules.
+The [category review](analysis/analysis_categories_261021_1600.md) screens all 4,219 current works, with targeted purpose and mobilization checks. Current totals are 2,938 recommended, 205 vetoed and 1,076 excluded. Existing scores and parameters remain unchanged; two previously unscored admissions receive first baselines. Earlier analyses remain history.
+
+Embed all hard exclusions and vetoes 4–6 directly from AGENTS.md by rule name. Reject builds when the reviewed rules hash differs from AGENTS.md.
 
 Restore compatible saved settings and known selections silently when the catalog hash changes. Do not display a catalog-change warning on restore or import. Preserve validation messages for genuinely invalid settings. Migrate the former default Year/Sources/Pages column selection to the new automatic default; preserve custom selections.
 
@@ -605,7 +593,7 @@ Provide these axis choices. Those using connection measures are available only a
 | Fit and reading length | `FIT`, maximize | `PG`, minimize | Explore topical return against reading length. |
 | Breadth and connection | `COV`, maximize | `LINK`, maximize | Distinguish broad topic coverage from connected explanation for the same ideal. |
 
-The title score in the tooltip always means the current ranking `TOTAL`, even when neither axis is `TOTAL`. Page count is a length proxy; do not relabel it as measured reading time.
+The title score in the tooltip always means the current ranking `TOTAL`, even when neither axis is `TOTAL`. Page count is a length proxy; do not relabel it as measured reading time. It is not a density measure: typography, figures, references and reader background alter reading effort. Density is an independent judgment of useful learning for the length.
 
 ### 7.2 Exact dominance
 
@@ -620,20 +608,20 @@ AND (X(a) > X(b) OR Y(a) > Y(b))
 
 Use full-precision evaluated values. Do not compare rounded labels. Books with identical coordinates do not dominate each other and share frontier status. If one is dominated by a third book, every book at those coordinates is dominated.
 
-The active frontier is computed only over matching books with both coordinates available. Filtered books can be shown as muted background points, but cannot dominate a matching book or receive the active-frontier marker. Recompute after applied changes to filters or axes, and after connection-target changes when an axis or filter depends on a target measure. A ranking-only change affects the frontier only when an axis or active filter depends on that ranking.
+Compute three successive boundaries over matching books with both coordinates available. Layer 1 is the main frontier (red); remove every title in it, including all coordinate ties, then compute layer 2 (blue); remove layers 1 and 2, then compute layer 3 (dark yellow). Empty layers remain empty; do not repeat an earlier frontier. Filtered books can be shown as muted background points, but cannot dominate a matching book or receive the active-frontier marker. Recompute after applied changes to filters or axes, and after connection-target changes when an axis or filter depends on a target measure. A ranking-only change affects the frontier only when an axis or active filter depends on that ranking.
 
 ### 7.3 Marks, curve, and interaction
 
 | Element | Required behavior |
 |---|---|
-| Frontier book | Bold, high-contrast circled dot: larger center and a clear outer ring. |
+| Frontier book | Larger dot in its layer color; layer 1 also has an outer ring. Accessible labels identify the layer number. |
 | Other matching book | Small, less pronounced dot. |
 | Filtered book | Small, pale-gray dot, on by default; it remains hoverable. |
 | Shared coordinates | Keep the true coordinates. Use one cluster mark with a count; hover/focus lists the titles and their scores. Do not jitter coordinates used for dominance. |
 | Tooltip | Concise title and `TOTAL`; also include the two labelled coordinates and filter status when needed. |
 | Hover/focus/tap | Show the same tooltip; keyboard focus and touch must work. A separate action can open the inline book details. |
 | Curve | A thin, smooth guide through the unique frontier coordinates in axis order; use monotone interpolation without overshoot. |
-| Legend | State “Pareto-optimal among matching books” and “Curve is a visual guide; only dots are books.” |
+| Legend | Identify layers 1–3 by number and color, explain removal of earlier layers, and state that curves are guides rather than additional books. |
 
 A curved guide is not a set of attainable books and is not used to test dominance. Do not compute a convex hull: a non-convex part of the Pareto frontier must remain represented. Keep every actual nondominated point emphasized.
 
@@ -645,7 +633,7 @@ Use SVG for the plot at the current collection size. Match each plotted work to 
 
 ### 8.1 Minimal architecture
 
-Prepare a normalized book dataset and a variable registry during the build. A small generator embeds both into one HTML file. Use plain JavaScript, CSS, and SVG without third-party runtime libraries, remote assets, or adjacent file dependencies. Embed cited repository analyses so those evidence links also work from a copied HTML file. Development tests may use separate tools; the delivered HTML must not need them.
+Prepare a normalized book dataset and a variable registry during the build. A small generator embeds both into one HTML file. Use plain JavaScript, CSS, and SVG without third-party runtime libraries, remote assets, or adjacent file dependencies. Embed current book evidence and link to full repository analyses online. Development tests may use separate tools; the delivered HTML must not need them.
 
 The runtime needs five small responsibilities: load validated data, evaluate models, evaluate filters, compute the frontier, and render the interface. Use one evaluator for ranking and axes. Do not duplicate formulas inside widgets or chart code.
 
@@ -773,3 +761,9 @@ Use meaningful calculation and interaction checks. These are implementation requ
 The original eight plan items map to sections 1/8 (stand-alone site), 2 (reference style), 4 (variable model), 5/6 (transforms and filters), 6.2 (two sorted lists), 7.1 (aliases and two dimensions), 7.2–7.3 (Pareto frontier and interaction), and 4.5 (sources and pages). Multi-domain evidence and optional matching are in 4.4/4.6, the existing-book investigation in 4.7, and desktop/phone layouts in 2.1–2.5. Revision 3 defines the repository-based initial ideal in 5.3 and universal normalization, signed weights, and direct page/year rates in 5.1–5.2.
 
 The implementation is complete as a functional site when the mandatory behavior and checks pass and any missing enrichment is counted and visible. It is complete as a fully assessed catalog only when the additional coverage requirement in section 8.4 also passes.
+
+## Focused density calibration and edition enrichment
+
+Use the D protocol in AGENTS.md: credit distinct learning from facts, mechanisms, evidence and cases, even when they share a framework. Deduct only for low-yield material, and consider the full book. Record inspected coverage and confidence. The first calibration reviews Why Nations Fail, The Righteous Mind and A Thousand Brains; other estimates remain marked as not recalibrated. Keep D quadratic with maximum 10 and change no other criterion to compensate.
+
+Shared supplemental edition records in site/editions.json serve recommended and vetoed works. Preserve earlier verified editions. Require title and author agreement, edition identity, positive page count, source URL and retrieval date. Exclude audio durations and work-level median pages; series require a verified set total. Both Markdown tables include a linked Pages column.

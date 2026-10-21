@@ -2,8 +2,9 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { performance } from 'node:perf_hooks';
 import { REGISTRY, DOMAIN_IDS, defaultModel, defaultTerm, clone, normalize, shape, coefficients, changeMode, termValue, validateTerm,
-  validateModel, connectionValues, evaluateBook, evaluateCatalog, filterReasons, frontier, clearTarget, format, columnValue, DEFAULT_COLUMNS, displayedColumns, restoreColumns, COLUMN_BY_ID } from './model.mjs';
+  validateModel, connectionValues, evaluateBook, evaluateCatalog, filterReasons, frontier, frontierLayers, clearTarget, format, columnValue, DEFAULT_COLUMNS, displayedColumns, restoreColumns, COLUMN_BY_ID } from './model.mjs';
 import fs from 'node:fs';
+import { gunzipSync } from 'node:zlib';
 import path from 'node:path';
 import { ROOT, HTML_FILE, build, buildDataset, validateConnections } from './build.mjs';
 const close = (a, b) => assert(Math.abs(a - b) < 1e-9, `${a} != ${b}`);
@@ -38,17 +39,17 @@ test('canonical full, half, flag, age, and count contributions', () => {
   assert.equal(termValue(null, defaultTerm('O15'), 'O15').missing, false);
 });
 
-test('default columns follow active scoring, with readable facts and preserved custom choices', () => {
+test('default columns stay compact when scoring changes, preserving custom choices', () => {
   const m=clone(model),facts=['year','raw:PG','raw:O15','raw:SRC'];
   assert.deepEqual(displayedColumns(m).slice(0,4),facts);
   assert.equal(COLUMN_BY_ID['raw:O15'].short,'Amazon ratings');
-  assert.equal(displayedColumns(m).length,19);
+  assert.equal(displayedColumns(m).length,4);
   m.terms.PG.enabled=true;m.terms.E.enabled=false;
-  assert(displayedColumns(m).includes('points:PG'));assert(!displayedColumns(m).includes('points:E'));
+  assert.deepEqual(displayedColumns(m),facts);
   m.columnsMode='custom';m.columns=['year','periodEnd'];
   assert.deepEqual(displayedColumns(m),['year','periodEnd']);
   delete m.columnsMode;m.columns=['year','raw:SRC','raw:PG'];restoreColumns(m);
-  assert.equal(m.columnsMode,'active');assert(displayedColumns(m).includes('points:PG'));
+  assert.equal(m.columnsMode,'active');assert.deepEqual(displayedColumns(m),facts);
   delete m.columnsMode;m.columns=['year','points:M'];restoreColumns(m);
   assert.equal(m.columnsMode,'custom');assert.deepEqual(m.columns,['year','points:M']);
   m.columnsMode='invalid';assert(validateModel(m).length);
@@ -60,6 +61,8 @@ test('read-only collections retain saved membership and veto scores', () => {
   data.vetoed.forEach((b,i)=>{
     const cells=vetoLines[i].split('|').slice(1,-1).map(x=>x.trim());
     assert.equal(b.score,cells[4].replace(/\*/g,''));assert.equal(b.veto,cells[5]);
+    assert.equal(cells[8],b.edition?`[${b.edition.pages}](${b.edition.url})`:'Unknown');
+    if(b.edition)assert(!/audio|disc|cassette/i.test(b.edition.format));
     assert(data.documents[b.analysis.split('#')[0]],'Veto assessment must work in the isolated file');
     assert(!data.books.some(r=>r.id===b.id));
   });
@@ -88,7 +91,8 @@ test('edition facts, domain provenance, and partial reviews retain their meaning
     if (b.research) assert.deepEqual(b.research.unknownDomains,DOMAIN_IDS.filter(id=>b.values[id]===null));
     const observation=b.research?.newAmazonObservation;
     if (observation) {
-      assert.equal(b.values.O15,null,'New observations must not silently overwrite baseline inputs');
+      if(!b.ratingReview)assert.equal(b.values.O15,null,'New observations must not silently overwrite baseline inputs');
+      else assert(b.evidence.O15.refs.includes(b.ratingReview),'A baseline rating update requires a recorded review');
       assert(Number.isInteger(observation.count)&&observation.count>=0);
       assert(observation.product&&observation.url&&observation.marketplace&&observation.retrieved);
       close(evaluateBook(b,model).total,b.base);
@@ -185,6 +189,19 @@ test('Pareto ties, minimization, non-convex frontier and missing points', () => 
     assert.deepEqual([...frontier(ps,config)].sort(),expected);
   }
 });
+test('three Pareto layers remove all ties and honor both axis directions', () => {
+  const rows=[['a',5,5],['tie',5,5],['b',4,4],['c',3,3],['d',2,2],['missing',null,9]].map(([id,x,y])=>({book:{id},axes:[x,y]}));
+  assert.deepEqual(frontierLayers(rows,[{direction:'max'},{direction:'max'}]).map(s=>[...s]),[['a','tie'],['b'],['c']]);
+  for(const sx of [-1,1])for(const sy of [-1,1]){
+    let remaining=rows.filter(r=>r.axes.every(v=>v!==null));
+    const actual=frontierLayers(rows,[{direction:sx===1?'max':'min'},{direction:sy===1?'max':'min'}]);
+    actual.forEach(layer=>{
+      const expected=remaining.filter(b=>!remaining.some(a=>sx*a.axes[0]>=sx*b.axes[0]&&sy*a.axes[1]>=sy*b.axes[1]&&(sx*a.axes[0]>sx*b.axes[0]||sy*a.axes[1]>sy*b.axes[1]))).map(r=>r.book.id).sort();
+      assert.deepEqual([...layer].sort(),expected);remaining=remaining.filter(r=>!expected.includes(r.book.id));
+    });
+  }
+  assert.deepEqual(frontierLayers([], [null,null]).map(s=>s.size),[0,0,0]);
+});
 test('model export is reproducible and rejects incompatible or invalid models', () => {
   assert.deepEqual(validateModel(JSON.parse(JSON.stringify(model))),[]);
   assert(validateModel({...model,version:2}).length);
@@ -202,20 +219,30 @@ test('generated standalone script parses without replacement-string corruption',
   build();
   const html=fs.readFileSync(HTML_FILE,'utf8');
   const script=html.match(/<script type="module">([\s\S]*?)<\/script>/)[1];
-  assert.doesNotThrow(()=>new Function(script));
+  assert.doesNotThrow(()=>new (Object.getPrototypeOf(async function(){}).constructor)(script));
   assert(script.includes('const $$ ='));
-  const embedded=JSON.parse(html.match(/<script id="catalog-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
+  const payload=html.match(/<script id="catalog-data" type="application\/gzip\+base64">([\s\S]*?)<\/script>/)[1];
+  const embedded=JSON.parse(gunzipSync(Buffer.from(payload,'base64')));
   assert.equal(embedded.books.length,data.books.length);
-  assert(Object.keys(embedded.documents).length>=33);
+  for (const collection of ['books','vetoed']) embedded[collection].forEach((b,i)=>{
+    const expected=JSON.parse(JSON.stringify(data[collection][i]));
+    if(expected.edition){
+      for(const k of ['pages','id','url','retrieved','language','format','year','confidence','notes','note'])assert.deepEqual(b.edition[k],expected.edition[k]);
+      expected.edition=b.edition;
+    }
+    assert.deepEqual(b,expected,'Portable records preserve all displayed facts and assessments');
+  });
+  assert.deepEqual(embedded.documents,{});
+  assert(Buffer.byteLength(html)<=1500*(data.books.length+data.vetoed.length));
   assert(!html.includes('src="http'));
   const rules=fs.readFileSync(path.join(ROOT,'AGENTS.md'),'utf8');
-  for(const [heading,prefix] of [['## Hard exclusion rules','Works which do not represent a book'],['## Hard exclusion rules','Exclude fiction books'],['## Hard exclusion rules','Exclude textbooks'],['## Veto rules','Hype or ephemerality dependence'],['## Veto rules','Religious doctrine or ideological extremism']]){
+  for(const [heading,prefix] of [['## Hard exclusion rules','Works which do not represent a book'],['## Hard exclusion rules','Exclude fiction books'],['## Hard exclusion rules','Technical training and reference exclusion'],['## Veto rules','Hype or ephemerality dependence'],['## Veto rules','Religious doctrine or ideological extremism'],['## Veto rules','Partisan mobilization']]){
     const text=rules.split(heading)[1].split(/\r?\n/).map(line=>line.replace(/^\d+\. /,'')).find(line=>line.startsWith(prefix));
     const escaped=text.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
     const methodology=html.split('id="methodology-view"')[1].split('<section aria-labelledby="method-rules">')[0];
     assert(methodology.includes(escaped),'Visible methodology must include the exact current rule');
   }
-  for(const marker of ['BOOK_FORM','FICTION','REFERENCE','V4','V5'])assert(!html.includes('/* '+marker+' */'));
+  for(const marker of ['BOOK_FORM','FICTION','REFERENCE','V4','V5','V6'])assert(!html.includes('/* '+marker+' */'));
 });
 test('catalog calculation performance: 30 updates over 2000 works', () => {
   const books=Array.from({length:2000},(_,i)=>({...data.books[i%data.books.length],id:'perf'+i}));

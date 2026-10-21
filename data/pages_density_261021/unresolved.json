@@ -1,0 +1,979 @@
+[
+  {
+    "id": "q0760",
+    "title": "Henry James biography (version unresolved)",
+    "author": "Leon Edel",
+    "status": "recommended",
+    "reason": "No title-and-author-matching Open Library work from batch search.",
+    "attempts": [
+      {
+        "kind": "ol-isbn",
+        "accepted": false,
+        "reason": "No valid ISBN in source records.",
+        "retrieved": "2026-10-21T14:11:48.669Z"
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22Ravensbr%C3%BCck%22%20AND%20author%3A%22helm%22)%20OR%20(title%3A%22Symposium%22%20AND%20author%3A%22plato%22)%20OR%20(title%3A%22The%20Beast%22%20AND%20author%3A%22martinez%22)%20OR%20(title%3A%22Henry%20James%20biography%22%20AND%20author%3A%22edel%22)%20OR%20(title%3A%22Une%20histoire%20populaire%20du%20baseball%22%20AND%20author%3A%22alibert%22)%20OR%20(title%3A%22It%20Was%20Never%20About%20You%22%20AND%20author%3A%22maurer%22)%20OR%20(title%3A%22A%20Piece%20of%20Cake%22%20AND%20author%3A%22brown%22)%20OR%20(title%3A%22On%20Power%22%20AND%20author%3A%22caro%22)%20OR%20(title%3A%22Apology%22%20AND%20author%3A%22plato%22)%20OR%20(title%3A%22American%20history%20series%22%20AND%20author%3A%22asimov%22)&fields=key,title,author_name,editions,edition_key,language&limit=100&lang=en",
+        "rawFile": "raw/ol-search-0-6ce3b604b2f84d75.json",
+        "retrieved": "2026-10-21T14:13:00.778Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22Henry%20James%20biography%22%20AND%20author%3A%22edel%22)&fields=key,title,author_name,editions,edition_key,language&limit=20&lang=en",
+        "rawFile": "raw/ol-single-3-b2508677a1812f5f.json",
+        "retrieved": "2026-10-21T14:16:00.495Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "amazon",
+        "reason": "No exact product identifier.",
+        "accepted": false,
+        "retrieved": "2026-10-21T14:20:45.843Z"
+      }
+    ]
+  },
+  {
+    "id": "q0952",
+    "title": "It Was Never About You",
+    "author": "J. C. Maurer",
+    "status": "recommended",
+    "reason": "No title-and-author-matching Open Library work from batch search.",
+    "attempts": [
+      {
+        "kind": "ol-isbn",
+        "accepted": false,
+        "reason": "No valid ISBN in source records.",
+        "retrieved": "2026-10-21T14:11:48.669Z"
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22Ravensbr%C3%BCck%22%20AND%20author%3A%22helm%22)%20OR%20(title%3A%22Symposium%22%20AND%20author%3A%22plato%22)%20OR%20(title%3A%22The%20Beast%22%20AND%20author%3A%22martinez%22)%20OR%20(title%3A%22Henry%20James%20biography%22%20AND%20author%3A%22edel%22)%20OR%20(title%3A%22Une%20histoire%20populaire%20du%20baseball%22%20AND%20author%3A%22alibert%22)%20OR%20(title%3A%22It%20Was%20Never%20About%20You%22%20AND%20author%3A%22maurer%22)%20OR%20(title%3A%22A%20Piece%20of%20Cake%22%20AND%20author%3A%22brown%22)%20OR%20(title%3A%22On%20Power%22%20AND%20author%3A%22caro%22)%20OR%20(title%3A%22Apology%22%20AND%20author%3A%22plato%22)%20OR%20(title%3A%22American%20history%20series%22%20AND%20author%3A%22asimov%22)&fields=key,title,author_name,editions,edition_key,language&limit=100&lang=en",
+        "rawFile": "raw/ol-search-0-6ce3b604b2f84d75.json",
+        "retrieved": "2026-10-21T14:13:00.778Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22It%20Was%20Never%20About%20You%22%20AND%20author%3A%22maurer%22)&fields=key,title,author_name,editions,edition_key,language&limit=20&lang=en",
+        "rawFile": "raw/ol-single-5-e53094b426688d07.json",
+        "retrieved": "2026-10-21T14:16:02.698Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "amazon",
+        "reason": "No exact product identifier.",
+        "accepted": false,
+        "retrieved": "2026-10-21T14:20:46.771Z"
+      }
+    ]
+  },
+  {
+    "id": "g0742",
+    "title": "On Power",
+    "author": "Robert A. Caro",
+    "status": "recommended",
+    "reason": "Product identity could not be verified.",
+    "attempts": [
+      {
+        "kind": "ol-isbn",
+        "accepted": false,
+        "reason": "No valid ISBN in source records.",
+        "retrieved": "2026-10-21T14:11:48.669Z"
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22Ravensbr%C3%BCck%22%20AND%20author%3A%22helm%22)%20OR%20(title%3A%22Symposium%22%20AND%20author%3A%22plato%22)%20OR%20(title%3A%22The%20Beast%22%20AND%20author%3A%22martinez%22)%20OR%20(title%3A%22Henry%20James%20biography%22%20AND%20author%3A%22edel%22)%20OR%20(title%3A%22Une%20histoire%20populaire%20du%20baseball%22%20AND%20author%3A%22alibert%22)%20OR%20(title%3A%22It%20Was%20Never%20About%20You%22%20AND%20author%3A%22maurer%22)%20OR%20(title%3A%22A%20Piece%20of%20Cake%22%20AND%20author%3A%22brown%22)%20OR%20(title%3A%22On%20Power%22%20AND%20author%3A%22caro%22)%20OR%20(title%3A%22Apology%22%20AND%20author%3A%22plato%22)%20OR%20(title%3A%22American%20history%20series%22%20AND%20author%3A%22asimov%22)&fields=key,title,author_name,editions,edition_key,language&limit=100&lang=en",
+        "rawFile": "raw/ol-search-0-6ce3b604b2f84d75.json",
+        "retrieved": "2026-10-21T14:13:00.778Z",
+        "status": 200,
+        "workKeys": [
+          "/works/OL27711839W"
+        ],
+        "editionKeys": [
+          "OL37804071M"
+        ],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "ol-candidate-edition",
+        "editionKey": "OL37804071M",
+        "rawFile": "raw/ol-editions-0-1f06045adc331ccb.json",
+        "retrieved": "2026-10-21T14:14:44.201Z",
+        "accepted": false,
+        "title": "On Power",
+        "author": "Robert A. Caro",
+        "pages": null,
+        "year": 2019,
+        "language": "",
+        "idMatch": true,
+        "titleMatch": true,
+        "authorMatch": true,
+        "reason": "Audio edition: catalog number_of_pages is not a print page count."
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22On%20Power%22%20AND%20author%3A%22caro%22)&fields=key,title,author_name,editions,edition_key,language&limit=20&lang=en",
+        "rawFile": "raw/ol-single-7-a8ef8260b0b91e18.json",
+        "retrieved": "2026-10-21T14:16:04.914Z",
+        "status": 200,
+        "workKeys": [
+          "/works/OL27711839W"
+        ],
+        "editionKeys": [
+          "OL37804071M"
+        ],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "ol-candidate-edition",
+        "editionKey": "OL37804071M",
+        "rawFile": "raw/ol-editions-0-44681453d3d5f85c.json",
+        "retrieved": "2026-10-21T14:18:47.314Z",
+        "accepted": false,
+        "title": "On Power",
+        "author": "Robert A. Caro",
+        "pages": null,
+        "year": 2019,
+        "language": "",
+        "idMatch": true,
+        "titleMatch": true,
+        "authorMatch": true,
+        "reason": "Audio edition: catalog number_of_pages is not a print page count."
+      },
+      {
+        "kind": "ol-full-edition-check",
+        "editionKey": "OL37804071M",
+        "rawFile": "raw/ol-subtitle-0-a6af6e66f598fd2d.json",
+        "retrieved": "2026-10-21T14:20:18.226Z",
+        "accepted": false,
+        "title": "On Power",
+        "author": "Robert A. Caro",
+        "pages": null,
+        "year": 2019,
+        "language": "",
+        "idMatch": true,
+        "titleMatch": true,
+        "authorMatch": true,
+        "reason": "Audio edition: catalog number_of_pages is not a print page count."
+      },
+      {
+        "kind": "amazon",
+        "url": "https://www.amazon.com.au/dp/B06XNKVH16",
+        "retrieved": "2026-10-21T14:20:49.118Z",
+        "rawFile": "raw/amazon-g0742-B06XNKVH16-www.amazon.com.au-22813e119c3cbb22.html.gz",
+        "status": 404,
+        "title": "",
+        "byline": "",
+        "pages": null,
+        "year": null,
+        "fields": {},
+        "titleMatch": false,
+        "authorMatch": false,
+        "accepted": false,
+        "reason": "No complete matching edition metadata."
+      },
+      {
+        "kind": "amazon",
+        "url": "https://www.amazon.com/dp/B06XNKVH16",
+        "retrieved": "2026-10-21T14:20:51.310Z",
+        "rawFile": "raw/amazon-g0742-B06XNKVH16-www.amazon.com-ca0a76ead9c54da6.html.gz",
+        "status": 404,
+        "title": "",
+        "byline": "",
+        "pages": null,
+        "year": null,
+        "fields": {},
+        "titleMatch": false,
+        "authorMatch": false,
+        "accepted": false,
+        "reason": "No complete matching edition metadata."
+      }
+    ]
+  },
+  {
+    "id": "nd03e48d4f5",
+    "title": "American history series (four volumes, North America to 1918)",
+    "author": "Isaac Asimov",
+    "status": "recommended",
+    "reason": "No title-and-author-matching Open Library work from batch search.",
+    "attempts": [
+      {
+        "kind": "ol-isbn",
+        "accepted": false,
+        "reason": "No valid ISBN in source records.",
+        "retrieved": "2026-10-21T14:11:48.670Z"
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22Ravensbr%C3%BCck%22%20AND%20author%3A%22helm%22)%20OR%20(title%3A%22Symposium%22%20AND%20author%3A%22plato%22)%20OR%20(title%3A%22The%20Beast%22%20AND%20author%3A%22martinez%22)%20OR%20(title%3A%22Henry%20James%20biography%22%20AND%20author%3A%22edel%22)%20OR%20(title%3A%22Une%20histoire%20populaire%20du%20baseball%22%20AND%20author%3A%22alibert%22)%20OR%20(title%3A%22It%20Was%20Never%20About%20You%22%20AND%20author%3A%22maurer%22)%20OR%20(title%3A%22A%20Piece%20of%20Cake%22%20AND%20author%3A%22brown%22)%20OR%20(title%3A%22On%20Power%22%20AND%20author%3A%22caro%22)%20OR%20(title%3A%22Apology%22%20AND%20author%3A%22plato%22)%20OR%20(title%3A%22American%20history%20series%22%20AND%20author%3A%22asimov%22)&fields=key,title,author_name,editions,edition_key,language&limit=100&lang=en",
+        "rawFile": "raw/ol-search-0-6ce3b604b2f84d75.json",
+        "retrieved": "2026-10-21T14:13:00.778Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22American%20history%20series%22%20AND%20author%3A%22asimov%22)&fields=key,title,author_name,editions,edition_key,language&limit=20&lang=en",
+        "rawFile": "raw/ol-single-8-d5123dfe7cdef0e2.json",
+        "retrieved": "2026-10-21T14:16:06.018Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "amazon",
+        "reason": "No exact product identifier.",
+        "accepted": false,
+        "retrieved": "2026-10-21T14:20:51.497Z"
+      }
+    ]
+  },
+  {
+    "id": "n3b8bb28e32",
+    "title": "A Year in Development",
+    "author": "Data General",
+    "status": "recommended",
+    "reason": "No title-and-author-matching Open Library work from batch search.",
+    "attempts": [
+      {
+        "kind": "ol-isbn",
+        "accepted": false,
+        "reason": "No valid ISBN in source records.",
+        "retrieved": "2026-10-21T14:11:48.670Z"
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22A%20Year%20in%20Development%22%20AND%20author%3A%22general%22)%20OR%20(title%3A%22The%20Never-Ending%20Challenge%20of%20Engineering%22%20AND%20author%3A%22rickover%22)%20OR%20(title%3A%22What%27s%20Happening%20in%20the%20Mathematical%20Sciences%22%20AND%20author%3A%22cipra%22)%20OR%20(title%3A%22Sierra%20Hotel%22%20AND%20author%3A%22anderegg%22)%20OR%20(title%3A%22Stealth%22%20AND%20author%3A%22westwick%22)%20OR%20(title%3A%22Book%20and%20Dagger%22%20AND%20author%3A%22graham%22)%20OR%20(title%3A%22Women%27s%20Work%22%20AND%20author%3A%22barber%22)%20OR%20(title%3A%22The%20Mummies%20of%20%C3%9Cr%C3%BCmchi%22%20AND%20author%3A%22barber%22)%20OR%20(title%3A%22The%20Disappearance%20of%20Lydia%20Harvey%22%20AND%20author%3A%22laite%22)%20OR%20(title%3A%22Scoff%22%20AND%20author%3A%22vogler%22)&fields=key,title,author_name,editions,edition_key,language&limit=100&lang=en",
+        "rawFile": "raw/ol-search-10-6385c3b659df5062.json",
+        "retrieved": "2026-10-21T14:13:03.717Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22A%20Year%20in%20Development%22%20AND%20author%3A%22general%22)&fields=key,title,author_name,editions,edition_key,language&limit=20&lang=en",
+        "rawFile": "raw/ol-single-9-528f895f625f8b78.json",
+        "retrieved": "2026-10-21T14:16:07.119Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "amazon",
+        "reason": "No exact product identifier.",
+        "accepted": false,
+        "retrieved": "2026-10-21T14:20:51.497Z"
+      }
+    ]
+  },
+  {
+    "id": "n62ef81f195",
+    "title": "British Intelligence in the Second World War",
+    "author": "F. H. Hinsley et al.",
+    "status": "recommended",
+    "reason": "No title-and-author-matching Open Library work from batch search.",
+    "attempts": [
+      {
+        "kind": "ol-isbn",
+        "accepted": false,
+        "reason": "No valid ISBN in source records.",
+        "retrieved": "2026-10-21T14:11:48.670Z"
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22Enemy%20at%20the%20Gates%22%20AND%20author%3A%22craig%22)%20OR%20(title%3A%22The%20Soviet%20Strategic%20Offensive%20in%20Manchuria%2C%201945%22%20AND%20author%3A%22glantz%22)%20OR%20(title%3A%22The%20Battle%20of%20the%20Atlantic%22%20AND%20author%3A%22dimbleby%22)%20OR%20(title%3A%22Hirohito%20and%20the%20Making%20of%20Modern%20Japan%22%20AND%20author%3A%22bix%22)%20OR%20(title%3A%22The%20Crisis%20of%20German%20Ideology%22%20AND%20author%3A%22mosse%22)%20OR%20(title%3A%22Greeks%2C%20Romans%2C%20Germans%22%20AND%20author%3A%22chapoutot%22)%20OR%20(title%3A%22British%20Intelligence%20in%20the%20Second%20World%20War%22%20AND%20author%3A%22al%22)%20OR%20(title%3A%22Influence%22%20AND%20author%3A%22cialdini%22)%20OR%20(title%3A%22Copey%20of%20Harvard%22%20AND%20author%3A%22adams%22)%20OR%20(title%3A%22Autobiography%20of%20Mark%20Twain%22%20AND%20author%3A%22twain%22)&fields=key,title,author_name,editions,edition_key,language&limit=100&lang=en",
+        "rawFile": "raw/ol-search-50-7ad164335df7c3b0.json",
+        "retrieved": "2026-10-21T14:13:21.530Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22British%20Intelligence%20in%20the%20Second%20World%20War%22%20AND%20author%3A%22al%22)&fields=key,title,author_name,editions,edition_key,language&limit=20&lang=en",
+        "rawFile": "raw/ol-single-32-935309cf52dbad42.json",
+        "retrieved": "2026-10-21T14:16:32.573Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "amazon",
+        "reason": "No exact product identifier.",
+        "accepted": false,
+        "retrieved": "2026-10-21T14:20:51.538Z"
+      }
+    ]
+  },
+  {
+    "id": "n42dad48542",
+    "title": "Computer Connections",
+    "author": "Gary Kildall",
+    "status": "recommended",
+    "reason": "No title-and-author-matching Open Library work from batch search.",
+    "attempts": [
+      {
+        "kind": "ol-isbn",
+        "accepted": false,
+        "reason": "No valid ISBN in source records.",
+        "retrieved": "2026-10-21T14:11:48.670Z"
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22Turing%E2%80%99s%20Cathedral%22%20AND%20author%3A%22dyson%22)%20OR%20(title%3A%22The%20Universal%20Computer%22%20AND%20author%3A%22davis%22)%20OR%20(title%3A%22Computer%20Connections%22%20AND%20author%3A%22kildall%22)%20OR%20(title%3A%22The%20Myth%20of%20the%20Machine%22%20AND%20author%3A%22mumford%22)%20OR%20(title%3A%22Making%20PCR%22%20AND%20author%3A%22rabinow%22)%20OR%20(title%3A%22Computing%20in%20the%20Middle%20Ages%22%20AND%20author%3A%22ornstein%22)%20OR%20(title%3A%22Accidental%20Empires%22%20AND%20author%3A%22cringely%22)%20OR%20(title%3A%22The%20Difference%20Between%20God%20and%20Larry%20Ellison%22%20AND%20author%3A%22wilson%22)%20OR%20(title%3A%22Railroaded%22%20AND%20author%3A%22white%22)%20OR%20(title%3A%22Novum%20Organum%22%20AND%20author%3A%22bacon%22)&fields=key,title,author_name,editions,edition_key,language&limit=100&lang=en",
+        "rawFile": "raw/ol-search-70-f2e9f8a237922553.json",
+        "retrieved": "2026-10-21T14:13:29.570Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22Computer%20Connections%22%20AND%20author%3A%22kildall%22)&fields=key,title,author_name,editions,edition_key,language&limit=20&lang=en",
+        "rawFile": "raw/ol-single-39-5abb8b5df6e6f0da.json",
+        "retrieved": "2026-10-21T14:16:40.313Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "amazon",
+        "reason": "No exact product identifier.",
+        "accepted": false,
+        "retrieved": "2026-10-21T14:20:51.538Z"
+      }
+    ]
+  },
+  {
+    "id": "n86606a9cda",
+    "title": "What Are Numbers?",
+    "author": "A. A. Kirillov",
+    "status": "recommended",
+    "reason": "No title-and-author-matching Open Library work from batch search.",
+    "attempts": [
+      {
+        "kind": "ol-isbn",
+        "accepted": false,
+        "reason": "No valid ISBN in source records.",
+        "retrieved": "2026-10-21T14:11:48.670Z"
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22Value%20Investing%22%20AND%20author%3A%22montier%22)%20OR%20(title%3A%22Visual%20Explanations%22%20AND%20author%3A%22tufte%22)%20OR%20(title%3A%22What%20Are%20Numbers%3F%22%20AND%20author%3A%22kirillov%22)%20OR%20(title%3A%22What%20Works%20on%20Wall%20Street%22%20AND%20author%3A%22shaughnessy%22)%20OR%20(title%3A%22Winning%22%20AND%20author%3A%22welch%22)%20OR%20(title%3A%22Without%20a%20Doubt%22%20AND%20author%3A%22sarna%22)%20OR%20(title%3A%22Work%20Rules!%22%20AND%20author%3A%22bock%22)%20OR%20(title%3A%22Workplace%20Management%22%20AND%20author%3A%22ohno%22)%20OR%20(title%3A%22Zero%20to%20One%22%20AND%20author%3A%22thiel%22)%20OR%20(title%3A%22Gaza%20Catastrophe%22%20AND%20author%3A%22achcar%22)&fields=key,title,author_name,editions,edition_key,language&limit=100&lang=en",
+        "rawFile": "raw/ol-search-210-6a090ec71d37d998.json",
+        "retrieved": "2026-10-21T14:13:58.758Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22What%20Are%20Numbers%3F%22%20AND%20author%3A%22kirillov%22)&fields=key,title,author_name,editions,edition_key,language&limit=20&lang=en",
+        "rawFile": "raw/ol-single-68-60194b9fab40c3ab.json",
+        "retrieved": "2026-10-21T14:17:12.303Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "amazon",
+        "reason": "No exact product identifier.",
+        "accepted": false,
+        "retrieved": "2026-10-21T14:21:07.287Z"
+      }
+    ]
+  },
+  {
+    "id": "g0816",
+    "title": "A Great Leap Forward?",
+    "author": "John Mauldin; Worth Wray, editors",
+    "status": "recommended",
+    "reason": "Matching product page did not expose all required edition metadata.",
+    "attempts": [
+      {
+        "kind": "ol-isbn",
+        "accepted": false,
+        "reason": "No valid ISBN in source records.",
+        "retrieved": "2026-10-21T14:11:48.670Z"
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22The%20Internet%20of%20Money%20Volume%201%22%20AND%20author%3A%22antonopoulos%22)%20OR%20(title%3A%22The%20Internet%20of%20Money%20Volume%202%22%20AND%20author%3A%22antonopoulos%22)%20OR%20(title%3A%22Smart%20People%20Should%20Build%20Things%22%20AND%20author%3A%22yang%22)%20OR%20(title%3A%22Soil%22%20AND%20author%3A%22dungy%22)%20OR%20(title%3A%22A%20Child%20Called%20It%22%20AND%20author%3A%22pelzer%22)%20OR%20(title%3A%22A%20Fighting%20Chance%22%20AND%20author%3A%22warren%22)%20OR%20(title%3A%22A%20First-Rate%20Madness%22%20AND%20author%3A%22ghaemi%22)%20OR%20(title%3A%22A%20Great%20Leap%20Forward%3F%22%20AND%20author%3A%22mauldin%22)%20OR%20(title%3A%22A%20Life%20on%20Our%20Planet%22%20AND%20author%3A%22attenborough%22)%20OR%20(title%3A%22A%20New%20Earth%22%20AND%20author%3A%22tolle%22)&fields=key,title,author_name,editions,edition_key,language&limit=100&lang=en",
+        "rawFile": "raw/ol-search-260-bbea02f109d851bf.json",
+        "retrieved": "2026-10-21T14:14:09.281Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22A%20Great%20Leap%20Forward%3F%22%20AND%20author%3A%22mauldin%22)&fields=key,title,author_name,editions,edition_key,language&limit=20&lang=en",
+        "rawFile": "raw/ol-single-88-331c87338100e6f2.json",
+        "retrieved": "2026-10-21T14:17:34.359Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "amazon",
+        "url": "https://www.amazon.com.au/dp/B00ZAKBDBA",
+        "retrieved": "2026-10-21T14:21:25.415Z",
+        "rawFile": "raw/amazon-g0816-B00ZAKBDBA-www.amazon.com.au-6dd786114af6e838.html.gz",
+        "status": 200,
+        "title": "A Great Leap Forward?: Making Sense of China’s Cooling Credit Boom, Technological Transformation, High Stakes Rebalancing, Geopolitical Rise, & Reserve Currency Dream",
+        "byline": "by John Mauldin (Editor), Worth Wray (Editor) Format: Kindle Edition",
+        "format": "Kindle Edition",
+        "productId": "B00ZAKBDBA",
+        "pages": null,
+        "language": "English",
+        "year": 2015,
+        "fields": {
+          "book_details-ebook_pages": "418 pages",
+          "language": "English",
+          "book_details-accessibility_metadata": "Learn more",
+          "book_details-publication_date": "8 June 2015",
+          "book_details-file_size": "26.5 MB",
+          "book_details-page_flip": "Enabled",
+          "book_details-word_wise": "Enabled",
+          "book_details-advanced_type_setting": "Enabled",
+          "ASIN &rlm; : &lrm;": "B00ZAKBDBA",
+          "Publisher &rlm; : &lrm;": "Mauldin Economics",
+          "Accessibility &rlm; : &lrm;": "Learn more",
+          "Publication date &rlm; : &lrm;": "8 June 2015",
+          "Language &rlm; : &lrm;": "English",
+          "File size &rlm; : &lrm;": "26.5 MB",
+          "Screen Reader &rlm; : &lrm;": "Supported",
+          "Enhanced typesetting &rlm; : &lrm;": "Enabled",
+          "X-Ray &rlm; : &lrm;": "Enabled",
+          "Word Wise &rlm; : &lrm;": "Enabled",
+          "Print length &rlm; : &lrm;": "418 pages",
+          "ISBN-13 &rlm; : &lrm;": "978-0996453400",
+          "Page Flip &rlm; : &lrm;": "Enabled",
+          "Best Sellers Rank": "1,774,354 in Kindle Store ( See Top 100 in Kindle Store ) 357 in International Economics (Kindle Store)"
+        },
+        "titleMatch": true,
+        "authorMatch": true,
+        "accepted": false,
+        "reason": "No complete matching edition metadata."
+      },
+      {
+        "kind": "amazon",
+        "url": "https://www.amazon.com/dp/B00ZAKBDBA",
+        "retrieved": "2026-10-21T14:21:28.719Z",
+        "rawFile": "raw/amazon-g0816-B00ZAKBDBA-www.amazon.com-08500a88210be5ae.html.gz",
+        "status": 200,
+        "title": "A Great Leap Forward?: Making Sense of China’s Cooling Credit Boom, Technological Transformation, High Stakes Rebalancing, Geopolitical Rise, & Reserve Currency Dream",
+        "byline": "by John Mauldin (Editor), Worth Wray (Editor) Format: Kindle Edition",
+        "format": "Kindle Edition",
+        "productId": "B00ZAKBDBA",
+        "pages": null,
+        "language": "English",
+        "year": 2015,
+        "fields": {
+          "book_details-ebook_pages": "418 pages",
+          "language": "English",
+          "book_details-accessibility_metadata": "Learn more",
+          "book_details-publication_date": "June 8, 2015",
+          "book_details-file_size": "26.5 MB",
+          "book_details-page_flip": "Enabled",
+          "book_details-word_wise": "Enabled",
+          "book_details-advanced_type_setting": "Enabled",
+          "ASIN &rlm; : &lrm;": "B00ZAKBDBA",
+          "Publisher &rlm; : &lrm;": "Mauldin Economics",
+          "Accessibility &rlm; : &lrm;": "Learn more",
+          "Publication date &rlm; : &lrm;": "June 8, 2015",
+          "Language &rlm; : &lrm;": "English",
+          "File size &rlm; : &lrm;": "26.5 MB",
+          "Screen Reader &rlm; : &lrm;": "Supported",
+          "Enhanced typesetting &rlm; : &lrm;": "Enabled",
+          "X-Ray &rlm; : &lrm;": "Enabled",
+          "Word Wise &rlm; : &lrm;": "Enabled",
+          "Print length &rlm; : &lrm;": "418 pages",
+          "ISBN-13 &rlm; : &lrm;": "978-0996453400",
+          "Page Flip &rlm; : &lrm;": "Enabled",
+          "Best Sellers Rank": "#3,886,622 in Kindle Store ( See Top 100 in Kindle Store ) #917 in International Economics (Kindle Store)"
+        },
+        "titleMatch": true,
+        "authorMatch": true,
+        "accepted": false,
+        "reason": "No complete matching edition metadata."
+      }
+    ]
+  },
+  {
+    "id": "nbf3cf4826a",
+    "title": "Ecclesiastes",
+    "author": "Qoheleth (anonymous ancient author)",
+    "status": "vetoed",
+    "reason": "No title-and-author-matching Open Library work from batch search.",
+    "attempts": [
+      {
+        "kind": "ol-isbn",
+        "accepted": false,
+        "reason": "No valid ISBN in source records.",
+        "retrieved": "2026-10-21T14:11:48.670Z"
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22Eating%20Animals%22%20AND%20author%3A%22foer%22)%20OR%20(title%3A%22Ecclesiastes%22%20AND%20author%3A%22qoheleth%22)%20OR%20(title%3A%22Emptiness%20Dancing%22%20AND%20author%3A%22adyashanti%22)%20OR%20(title%3A%22Greenlights%22%20AND%20author%3A%22mcconaughey%22)%20OR%20(title%3A%22Heaven%20on%20Earth%22%20AND%20author%3A%22muravchik%22)%20OR%20(title%3A%22History%20Has%20Begun%22%20AND%20author%3A%22macaes%22)%20OR%20(title%3A%22How%20the%20World%20Works%22%20AND%20author%3A%22chomsky%22)%20OR%20(title%3A%22How%20to%20Sell%20a%20Genocide%22%20AND%20author%3A%22johnson%22)%20OR%20(title%3A%22However%20Long%20the%20Night%22%20AND%20author%3A%22molloy%22)%20OR%20(title%3A%22I%20Am%20Ozzy%22%20AND%20author%3A%22osbourne%22)&fields=key,title,author_name,editions,edition_key,language&limit=100&lang=en",
+        "rawFile": "raw/ol-search-290-2de02e804ca965a6.json",
+        "retrieved": "2026-10-21T14:14:13.406Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22Ecclesiastes%22%20AND%20author%3A%22qoheleth%22)&fields=key,title,author_name,editions,edition_key,language&limit=20&lang=en",
+        "rawFile": "raw/ol-single-101-6dafcded577af6ab.json",
+        "retrieved": "2026-10-21T14:17:48.752Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "amazon",
+        "reason": "No exact product identifier.",
+        "accepted": false,
+        "retrieved": "2026-10-21T14:21:35.018Z"
+      }
+    ]
+  },
+  {
+    "id": "q1046",
+    "title": "The Bible",
+    "author": "Multiple ancient authors",
+    "status": "vetoed",
+    "reason": "No title-and-author-matching Open Library work from batch search.",
+    "attempts": [
+      {
+        "kind": "ol-isbn",
+        "accepted": false,
+        "reason": "No valid ISBN in source records.",
+        "retrieved": "2026-10-21T14:11:48.670Z"
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22Spiritual%20Formation%22%20AND%20author%3A%22nouwen%22)%20OR%20(title%3A%22Spiritual%20Warfare%22%20AND%20author%3A%22mckenna%22)%20OR%20(title%3A%22Sun%20Rises%20in%20the%20Evening%22%20AND%20author%3A%22osho%22)%20OR%20(title%3A%22Taken%20for%20Granted%22%20AND%20author%3A%22caldwell%22)%20OR%20(title%3A%22Tao%20Te%20Ching%22%20AND%20author%3A%22laozi%22)%20OR%20(title%3A%22The%20Anunnaki%20Chronicles%22%20AND%20author%3A%22sitchin%22)%20OR%20(title%3A%22The%20Art%20of%20Living%20and%20Dying%22%20AND%20author%3A%22osho%22)%20OR%20(title%3A%22The%20Autobiography%20of%20Malcolm%20X%22%20AND%20author%3A%22x%22)%20OR%20(title%3A%22The%20Bible%22%20AND%20author%3A%22authors%22)%20OR%20(title%3A%22The%20Book%20of%20Enoch%22%20AND%20author%3A%22authors%22)&fields=key,title,author_name,editions,edition_key,language&limit=100&lang=en",
+        "rawFile": "raw/ol-search-330-636d4671f774ddb2.json",
+        "retrieved": "2026-10-21T14:14:20.663Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22The%20Bible%22%20AND%20author%3A%22authors%22)&fields=key,title,author_name,editions,edition_key,language&limit=20&lang=en",
+        "rawFile": "raw/ol-single-118-da129623cdb35cde.json",
+        "retrieved": "2026-10-21T14:18:07.537Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "amazon",
+        "reason": "No exact product identifier.",
+        "accepted": false,
+        "retrieved": "2026-10-21T14:21:54.717Z"
+      }
+    ]
+  },
+  {
+    "id": "q1121",
+    "title": "The Book of Enoch",
+    "author": "Multiple ancient authors (1 Enoch assumed)",
+    "status": "vetoed",
+    "reason": "No title-and-author-matching Open Library work from batch search.",
+    "attempts": [
+      {
+        "kind": "ol-isbn",
+        "accepted": false,
+        "reason": "No valid ISBN in source records.",
+        "retrieved": "2026-10-21T14:11:48.670Z"
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22Spiritual%20Formation%22%20AND%20author%3A%22nouwen%22)%20OR%20(title%3A%22Spiritual%20Warfare%22%20AND%20author%3A%22mckenna%22)%20OR%20(title%3A%22Sun%20Rises%20in%20the%20Evening%22%20AND%20author%3A%22osho%22)%20OR%20(title%3A%22Taken%20for%20Granted%22%20AND%20author%3A%22caldwell%22)%20OR%20(title%3A%22Tao%20Te%20Ching%22%20AND%20author%3A%22laozi%22)%20OR%20(title%3A%22The%20Anunnaki%20Chronicles%22%20AND%20author%3A%22sitchin%22)%20OR%20(title%3A%22The%20Art%20of%20Living%20and%20Dying%22%20AND%20author%3A%22osho%22)%20OR%20(title%3A%22The%20Autobiography%20of%20Malcolm%20X%22%20AND%20author%3A%22x%22)%20OR%20(title%3A%22The%20Bible%22%20AND%20author%3A%22authors%22)%20OR%20(title%3A%22The%20Book%20of%20Enoch%22%20AND%20author%3A%22authors%22)&fields=key,title,author_name,editions,edition_key,language&limit=100&lang=en",
+        "rawFile": "raw/ol-search-330-636d4671f774ddb2.json",
+        "retrieved": "2026-10-21T14:14:20.663Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22The%20Book%20of%20Enoch%22%20AND%20author%3A%22authors%22)&fields=key,title,author_name,editions,edition_key,language&limit=20&lang=en",
+        "rawFile": "raw/ol-single-119-952141c7458ce462.json",
+        "retrieved": "2026-10-21T14:18:08.638Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "amazon",
+        "reason": "No exact product identifier.",
+        "accepted": false,
+        "retrieved": "2026-10-21T14:21:54.717Z"
+      }
+    ]
+  },
+  {
+    "id": "q1125",
+    "title": "The Book of Invasions (Lebor Gabála Érenn)",
+    "author": "Anonymous; R. A. S. Macalister, ed./trans.",
+    "status": "recommended",
+    "reason": "No title-and-author-matching Open Library work from batch search.",
+    "attempts": [
+      {
+        "kind": "ol-isbn",
+        "accepted": false,
+        "reason": "No valid ISBN in source records.",
+        "retrieved": "2026-10-21T14:11:48.670Z"
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22The%20Book%20of%20Invasions%22%20AND%20author%3A%22anonymous%22)%20OR%20(title%3A%22The%20Capitalist%20Manifesto%22%20AND%20author%3A%22norberg%22)%20OR%20(title%3A%22The%20Decline%20of%20the%20West%22%20AND%20author%3A%22spengler%22)%20OR%20(title%3A%22The%20Earth%20Chronicles%22%20AND%20author%3A%22sitchin%22)%20OR%20(title%3A%22The%20End%20of%20the%20World%20Is%20Just%20the%20Beginning%22%20AND%20author%3A%22zeihan%22)%20OR%20(title%3A%22The%20Farfarers%22%20AND%20author%3A%22mowat%22)%20OR%20(title%3A%22The%20Federalist%20Papers%22%20AND%20author%3A%22hamilton%22)%20OR%20(title%3A%22The%20Four%20Agreements%22%20AND%20author%3A%22ruiz%22)%20OR%20(title%3A%22The%20Future%20Is%20Faster%20Than%20You%20Think%22%20AND%20author%3A%22diamandis%22)%20OR%20(title%3A%22The%20Gallic%20Wars%22%20AND%20author%3A%22caesar%22)&fields=key,title,author_name,editions,edition_key,language&limit=100&lang=en",
+        "rawFile": "raw/ol-search-340-f645adc0ac188d0b.json",
+        "retrieved": "2026-10-21T14:14:21.795Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22The%20Book%20of%20Invasions%22%20AND%20author%3A%22anonymous%22)&fields=key,title,author_name,editions,edition_key,language&limit=20&lang=en",
+        "rawFile": "raw/ol-single-120-2532dfa81e58e8a6.json",
+        "retrieved": "2026-10-21T14:18:09.738Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "amazon",
+        "reason": "No exact product identifier.",
+        "accepted": false,
+        "retrieved": "2026-10-21T14:21:54.717Z"
+      }
+    ]
+  },
+  {
+    "id": "q1137",
+    "title": "The Law That Never Was",
+    "author": "William J. Benson; Martin J. Beckman",
+    "status": "vetoed",
+    "reason": "No title-and-author-matching Open Library work from batch search.",
+    "attempts": [
+      {
+        "kind": "ol-isbn",
+        "accepted": false,
+        "reason": "No valid ISBN in source records.",
+        "retrieved": "2026-10-21T14:11:48.670Z"
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22The%20Genius%20of%20the%20Few%22%20AND%20author%3A%22brien%22)%20OR%20(title%3A%22The%20Great%20Challenge%22%20AND%20author%3A%22osho%22)%20OR%20(title%3A%22The%20Great%20Illusion%22%20AND%20author%3A%22angell%22)%20OR%20(title%3A%22The%20Greek%20Way%22%20AND%20author%3A%22hamilton%22)%20OR%20(title%3A%22The%20Heart%20of%20the%20Buddha%27s%20Teaching%22%20AND%20author%3A%22hanh%22)%20OR%20(title%3A%22The%20Hockey%20Stick%20Illusion%22%20AND%20author%3A%22montford%22)%20OR%20(title%3A%22The%20Immortality%20Key%22%20AND%20author%3A%22muraresku%22)%20OR%20(title%3A%22The%20Law%20That%20Never%20Was%22%20AND%20author%3A%22benson%22)%20OR%20(title%3A%22The%20Long%20Walk%22%20AND%20author%3A%22rawicz%22)%20OR%20(title%3A%22The%20Man%20Who%20Mistook%20His%20Wife%20for%20a%20Hat%22%20AND%20author%3A%22sacks%22)&fields=key,title,author_name,editions,edition_key,language&limit=100&lang=en",
+        "rawFile": "raw/ol-search-350-5eeb837e62865197.json",
+        "retrieved": "2026-10-21T14:14:25.497Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22The%20Law%20That%20Never%20Was%22%20AND%20author%3A%22benson%22)&fields=key,title,author_name,editions,edition_key,language&limit=20&lang=en",
+        "rawFile": "raw/ol-single-125-f8d9456bddf78a5d.json",
+        "retrieved": "2026-10-21T14:18:15.275Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "amazon",
+        "reason": "No exact product identifier.",
+        "accepted": false,
+        "retrieved": "2026-10-21T14:22:00.700Z"
+      }
+    ]
+  },
+  {
+    "id": "g0373",
+    "title": "The Network State",
+    "author": "Balaji S. Srinivasan",
+    "status": "recommended",
+    "reason": "Matching product page did not expose all required edition metadata.",
+    "attempts": [
+      {
+        "kind": "ol-isbn",
+        "accepted": false,
+        "reason": "No valid ISBN in source records.",
+        "retrieved": "2026-10-21T14:11:48.670Z"
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22The%20Matter%20with%20Things%22%20AND%20author%3A%22mcgilchrist%22)%20OR%20(title%3A%22The%20Mole%20People%22%20AND%20author%3A%22toth%22)%20OR%20(title%3A%22The%20Network%20State%22%20AND%20author%3A%22srinivasan%22)%20OR%20(title%3A%22The%20New%20Jim%20Crow%22%20AND%20author%3A%22alexander%22)%20OR%20(title%3A%22The%20New%20Left%22%20AND%20author%3A%22rand%22)%20OR%20(title%3A%22The%20Ones%20We%E2%80%99ve%20Been%20Waiting%20For%22%20AND%20author%3A%22alter%22)%20OR%20(title%3A%22The%20Places%20We%20Run%22%20AND%20author%3A%22crowley%22)%20OR%20(title%3A%22The%20Plot%20Against%20the%20President%22%20AND%20author%3A%22smith%22)%20OR%20(title%3A%22The%20Power%20of%20Now%22%20AND%20author%3A%22tolle%22)%20OR%20(title%3A%22The%20Rise%20and%20Fall%20of%20the%20Third%20Reich%22%20AND%20author%3A%22shirer%22)&fields=key,title,author_name,editions,edition_key,language&limit=100&lang=en",
+        "rawFile": "raw/ol-search-360-b3b4c61dd3c69443.json",
+        "retrieved": "2026-10-21T14:14:29.778Z",
+        "status": 200,
+        "workKeys": [
+          "/works/OL37531110W"
+        ],
+        "editionKeys": [
+          "OL50556475M"
+        ],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "ol-candidate-edition",
+        "editionKey": "OL50556475M",
+        "rawFile": "raw/ol-editions-1225-bd9b3de62ab79773.json",
+        "retrieved": "2026-10-21T14:15:23.193Z",
+        "accepted": false,
+        "title": "The Network State: How To Start a New Country",
+        "author": "",
+        "pages": null,
+        "year": 2022,
+        "language": "",
+        "idMatch": true,
+        "titleMatch": true,
+        "authorMatch": false,
+        "reason": "Edition identity mismatch or insufficient author/title evidence."
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22The%20Network%20State%22%20AND%20author%3A%22srinivasan%22)&fields=key,title,author_name,editions,edition_key,language&limit=20&lang=en",
+        "rawFile": "raw/ol-single-127-9c38eadf845e0059.json",
+        "retrieved": "2026-10-21T14:18:17.478Z",
+        "status": 200,
+        "workKeys": [
+          "/works/OL37531110W"
+        ],
+        "editionKeys": [
+          "OL50556475M"
+        ],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "ol-candidate-edition",
+        "editionKey": "OL50556475M",
+        "rawFile": "raw/ol-editions-175-5dbe80c181506573.json",
+        "retrieved": "2026-10-21T14:18:52.904Z",
+        "accepted": false,
+        "title": "The Network State: How To Start a New Country",
+        "author": "",
+        "pages": null,
+        "year": 2022,
+        "language": "",
+        "idMatch": true,
+        "titleMatch": true,
+        "authorMatch": false,
+        "reason": "Edition identity mismatch or insufficient author/title evidence."
+      },
+      {
+        "kind": "ol-full-edition-check",
+        "editionKey": "OL50556475M",
+        "rawFile": "raw/ol-subtitle-315-6347af80fa2dcda0.json",
+        "retrieved": "2026-10-21T14:20:28.251Z",
+        "accepted": false,
+        "title": "The Network State: How To Start a New Country",
+        "author": "",
+        "pages": null,
+        "year": 2022,
+        "language": "",
+        "idMatch": true,
+        "titleMatch": true,
+        "authorMatch": false,
+        "reason": "Edition identity mismatch or insufficient author/title evidence."
+      },
+      {
+        "kind": "amazon",
+        "url": "https://www.amazon.com.au/dp/B09VPKZR3G",
+        "retrieved": "2026-10-21T14:22:01.714Z",
+        "rawFile": "raw/amazon-g0373-B09VPKZR3G-www.amazon.com.au-c3a45600a7eb624e.html.gz",
+        "status": 200,
+        "title": "The Network State: How To Start a New Country",
+        "byline": "by Balaji Srinivasan (Author) Format: Kindle Edition",
+        "format": "Kindle Edition",
+        "productId": "B09VPKZR3G",
+        "pages": null,
+        "language": "English",
+        "year": 2022,
+        "fields": {
+          "book_details-ebook_pages": "474 pages",
+          "language": "English",
+          "book_details-accessibility_metadata": "Learn more",
+          "book_details-publication_date": "4 July 2022",
+          "book_details-file_size": "6.3 MB",
+          "book_details-page_flip": "Enabled",
+          "book_details-word_wise": "Enabled",
+          "book_details-advanced_type_setting": "Enabled",
+          "ASIN &rlm; : &lrm;": "B09VPKZR3G",
+          "Accessibility &rlm; : &lrm;": "Learn more",
+          "Publication date &rlm; : &lrm;": "4 July 2022",
+          "Language &rlm; : &lrm;": "English",
+          "File size &rlm; : &lrm;": "6.3 MB",
+          "Enhanced typesetting &rlm; : &lrm;": "Enabled",
+          "X-Ray &rlm; : &lrm;": "Enabled",
+          "Word Wise &rlm; : &lrm;": "Enabled",
+          "Print length &rlm; : &lrm;": "474 pages",
+          "Page Flip &rlm; : &lrm;": "Enabled",
+          "Best Sellers Rank": "115,926 in Kindle Store ( See Top 100 in Kindle Store ) 69 in Political Philosophy (Kindle Store)"
+        },
+        "titleMatch": true,
+        "authorMatch": true,
+        "accepted": false,
+        "reason": "No complete matching edition metadata."
+      },
+      {
+        "kind": "amazon",
+        "url": "https://www.amazon.com/dp/B09VPKZR3G",
+        "retrieved": "2026-10-21T14:22:05.016Z",
+        "rawFile": "raw/amazon-g0373-B09VPKZR3G-www.amazon.com-0abd7fa7c0a0faae.html.gz",
+        "status": 200,
+        "title": "The Network State: How To Start a New Country",
+        "byline": "by Balaji Srinivasan (Author) Format: Kindle Edition",
+        "format": "Kindle Edition",
+        "productId": "B09VPKZR3G",
+        "pages": null,
+        "language": "English",
+        "year": 2022,
+        "fields": {
+          "book_details-ebook_pages": "474 pages",
+          "language": "English",
+          "book_details-accessibility_metadata": "Learn more",
+          "book_details-publication_date": "July 4, 2022",
+          "book_details-file_size": "6.3 MB",
+          "book_details-page_flip": "Enabled",
+          "book_details-word_wise": "Enabled",
+          "book_details-advanced_type_setting": "Enabled",
+          "ASIN &rlm; : &lrm;": "B09VPKZR3G",
+          "Publisher &rlm; : &lrm;": "Amazon Kindle",
+          "Accessibility &rlm; : &lrm;": "Learn more",
+          "Publication date &rlm; : &lrm;": "July 4, 2022",
+          "Language &rlm; : &lrm;": "English",
+          "File size &rlm; : &lrm;": "6.3 MB",
+          "Enhanced typesetting &rlm; : &lrm;": "Enabled",
+          "X-Ray &rlm; : &lrm;": "Enabled",
+          "Word Wise &rlm; : &lrm;": "Enabled",
+          "Print length &rlm; : &lrm;": "474 pages",
+          "Page Flip &rlm; : &lrm;": "Enabled",
+          "Best Sellers Rank": "#282,570 in Kindle Store ( See Top 100 in Kindle Store ) #224 in Political Philosophy (Kindle Store)"
+        },
+        "titleMatch": true,
+        "authorMatch": true,
+        "accepted": false,
+        "reason": "No complete matching edition metadata."
+      }
+    ]
+  },
+  {
+    "id": "q1107",
+    "title": "The Places We Run",
+    "author": "Bob Crowley; Hal V. Hall; Tim Twietmeyer",
+    "status": "vetoed",
+    "reason": "No title-and-author-matching Open Library work from batch search.",
+    "attempts": [
+      {
+        "kind": "ol-isbn",
+        "accepted": false,
+        "reason": "No valid ISBN in source records.",
+        "retrieved": "2026-10-21T14:11:48.670Z"
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22The%20Matter%20with%20Things%22%20AND%20author%3A%22mcgilchrist%22)%20OR%20(title%3A%22The%20Mole%20People%22%20AND%20author%3A%22toth%22)%20OR%20(title%3A%22The%20Network%20State%22%20AND%20author%3A%22srinivasan%22)%20OR%20(title%3A%22The%20New%20Jim%20Crow%22%20AND%20author%3A%22alexander%22)%20OR%20(title%3A%22The%20New%20Left%22%20AND%20author%3A%22rand%22)%20OR%20(title%3A%22The%20Ones%20We%E2%80%99ve%20Been%20Waiting%20For%22%20AND%20author%3A%22alter%22)%20OR%20(title%3A%22The%20Places%20We%20Run%22%20AND%20author%3A%22crowley%22)%20OR%20(title%3A%22The%20Plot%20Against%20the%20President%22%20AND%20author%3A%22smith%22)%20OR%20(title%3A%22The%20Power%20of%20Now%22%20AND%20author%3A%22tolle%22)%20OR%20(title%3A%22The%20Rise%20and%20Fall%20of%20the%20Third%20Reich%22%20AND%20author%3A%22shirer%22)&fields=key,title,author_name,editions,edition_key,language&limit=100&lang=en",
+        "rawFile": "raw/ol-search-360-b3b4c61dd3c69443.json",
+        "retrieved": "2026-10-21T14:14:29.778Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "ol-work-search",
+        "url": "https://openlibrary.org/search.json?q=(title%3A%22The%20Places%20We%20Run%22%20AND%20author%3A%22crowley%22)&fields=key,title,author_name,editions,edition_key,language&limit=20&lang=en",
+        "rawFile": "raw/ol-single-129-eb88e640214d0679.json",
+        "retrieved": "2026-10-21T14:18:19.679Z",
+        "status": 200,
+        "workKeys": [],
+        "editionKeys": [],
+        "accepted": false,
+        "reason": "Candidate selection only; no page count inferred from work search."
+      },
+      {
+        "kind": "amazon",
+        "reason": "No exact product identifier.",
+        "accepted": false,
+        "retrieved": "2026-10-21T14:22:01.178Z"
+      }
+    ]
+  }
+]

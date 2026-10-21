@@ -22,11 +22,15 @@ try {
   const legacy=defaultModel();delete legacy.columnsMode;legacy.columns=['year','raw:SRC','raw:PG'];legacy.selected=['removed-book'];
   await page.evaluate(model=>localStorage.setItem('books.model.v3',JSON.stringify({datasetHash:'older-catalog',model})),legacy);
   await page.reload();
+  assert.equal(await page.locator('.masthead>.eyebrow,.title-row p,#matching-title').count(),0);
+  assert.match(await page.locator('[data-panel="pareto"]').textContent(),/Pareto/);
+  const iconSizes=await page.locator('.panel-tabs svg').evaluateAll(nodes=>nodes.map(n=>({width:n.getBoundingClientRect().width,height:n.getBoundingClientRect().height})));
+  assert.deepEqual(iconSizes,Array.from({length:4},()=>({width:16,height:16})));
   await page.waitForFunction(count=>Number(document.querySelector('#matching-count').textContent.replace(/\D/g,''))===count,bookCount);
   assert.equal(await page.locator('#notice').isVisible(),false,'Catalog updates must be silent');
   assert.equal(await page.locator('#selection strong').textContent(),'0');
   assert.deepEqual((await page.locator('#matching-list th[data-column]').evaluateAll(nodes=>nodes.map(n=>n.dataset.column))).slice(0,4),['year','raw:PG','raw:O15','raw:SRC']);
-  assert.equal(await page.locator('#matching-list th[data-column]').count(),19);
+  assert.equal(await page.locator('#matching-list th[data-column]').count(),4);
   assert.equal(await page.locator('#matching-list th[data-column="raw:O15"]').textContent(),'Amazon ratings');
   const columnLayout = await page.locator('#matching-list .book-table').evaluate(table => {
     const row=table.tBodies[0].rows[0];
@@ -39,10 +43,9 @@ try {
   assert(columnLayout.width<2000,'Default columns must use compact widths');
   assert(columnLayout.columns.every(c=>c.width<=80.1&&c.alignment==='right'&&c.valueAlignment==='right'&&c.rightDifference<1),
     'Numeric headings and values must align in the same compact column');
-  await page.locator('#matching-list .column-scrollbar').evaluate(el=>{el.scrollLeft=500;});
-  await page.waitForFunction(()=>document.querySelector('#matching-list .table-scroll').scrollLeft===500);
-  await page.locator('#matching-list .column-scrollbar').evaluate(el=>{el.scrollLeft=0;});
-  await page.waitForFunction(()=>document.querySelector('#matching-list .table-scroll').scrollLeft===0);
+  assert.equal(await page.locator('#matching-list .column-scrollbar').count(),0);
+  assert(await page.locator('.control-shell').evaluate(el=>el.getBoundingClientRect().bottom<=document.querySelector('#results').getBoundingClientRect().top));
+  assert(await page.locator('.book-title').first().evaluate(el=>getComputedStyle(el).textDecorationLine.includes('underline')));
   assert.equal(await page.locator('#matching-list tr[data-book]').count(),bookCount);
   assert.equal(await page.locator('[data-more]').count(),0);
   await page.screenshot({ path: path.join(out, 'desktop.png') });
@@ -52,13 +55,15 @@ try {
   await page.locator('[data-page="vetoed"]').click();
   assert.equal(await page.locator('#vetoed-list tr[data-veto-book]').count(),expected.vetoed.length);
   assert.equal(await page.locator('#vetoed-list .score').first().textContent(),expected.vetoed[0].score);
+  assert.deepEqual(await page.locator('#vetoed-list tr[data-veto-book]').evaluateAll(rows=>rows.map(r=>r.children[3].textContent)),expected.vetoed.map(b=>String(b.edition?.pages ?? 'Unknown')));
   assert.equal(await page.locator('.control-shell').isVisible(),false);
   assert.equal(await page.locator('#book-toolbar').isVisible(),false);
   assert.equal(await page.locator('#selection').isVisible(),false);
   await page.locator('[data-veto-details]').first().click();
   assert((await page.locator('#details-body').textContent()).includes('counterfactual'));
-  await page.locator('#details-body [data-evidence]').click();
-  await page.locator('.embedded-analysis').waitFor();await page.locator('#close-details').click();
+  assert((await page.locator('#details-body').textContent()).includes('Pages:'));
+  assert((await page.locator('#details-body a[href*="github.com/ahrvoje/books"]').count())>0);
+  await page.locator('#close-details').click();
   await page.screenshot({path:path.join(out,'vetoed-desktop.png')});
   await page.setViewportSize({width:390,height:844});
   await page.screenshot({path:path.join(out,'vetoed-phone.png')});
@@ -76,16 +81,12 @@ try {
   assert.deepEqual(await page.locator('#sources-list tr').evaluateAll(rows=>rows.map(row=>({
     id:+row.dataset.source,date:row.querySelector('time').dateTime,label:row.querySelector('.source-title').textContent,
     url:row.querySelector('.source-title a').dataset.evidence||row.querySelector('.source-title a').getAttribute('href'),
-    analysis:row.querySelector('.source-analysis a').dataset.evidence
-  }))),Object.values(expected.sources).sort((a,b)=>a.id-b.id).map(({id,date,label,url,analysis})=>({id,date,label,url,analysis})));
+    analysis:row.querySelector('.source-analysis a').getAttribute('href')
+  }))),Object.values(expected.sources).sort((a,b)=>a.id-b.id).map(({id,date,label,url,analysis})=>({id,date,label,url:url.startsWith('data/')?'https://github.com/ahrvoje/books/blob/main/'+url:url,analysis:'https://github.com/ahrvoje/books/blob/main/'+analysis})));
   for(const source of Object.values(expected.sources).filter(s=>s.url.startsWith('data/'))){
-    await page.locator(`[data-source="${source.id}"] .source-title a`).click();
-    assert.equal(await page.locator('.embedded-analysis').textContent(),expected.documents[source.url]);
-    assert.equal(await page.locator('[data-back-book]').count(),0);
-    await page.locator('#close-details').click();
+    assert.equal(await page.locator(`[data-source="${source.id}"] .source-title a`).getAttribute('href'),'https://github.com/ahrvoje/books/blob/main/'+source.url);
   }
-  await page.locator('#sources-list .source-analysis a').last().click();
-  await page.locator('.embedded-analysis').waitFor();await page.locator('#close-details').click();
+  assert.equal(await page.locator('#sources-list .source-analysis a').last().getAttribute('target'),'_blank');
   for(const width of [320,390,1440]){
     await page.setViewportSize({width,height:900});await page.evaluate(()=>scrollTo(0,0));
     assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Sources must fit viewport');
@@ -96,6 +97,7 @@ try {
   }
   await page.locator('[data-page="methodology"]').click();
   assert((await page.locator('#methodology-view').textContent()).includes('V5'));
+  assert((await page.locator('#methodology-view').textContent()).includes('Information density means useful learning'));
   await page.locator('.exact-rules summary').click();
   assert((await page.locator('.exact-rules pre').textContent()).includes('THE ANALYSIS PROMPT'));
   await page.locator('.exact-rules summary').click();
@@ -120,9 +122,7 @@ try {
   assert.equal(await page.locator('#matching-list td[data-column="points:E"]').first().textContent(),'16.20');
   assert.equal(await page.locator('#matching-list td[data-column="periodEnd"]').first().textContent(),'n/a');
   await page.locator('#matching-list [data-details]').first().click();
-  await page.locator('#details-body [data-evidence]').first().click();
-  await page.locator('.embedded-analysis').waitFor();
-  assert((await page.locator('.embedded-analysis').textContent()).length>100);
+  assert((await page.locator('#details-body a[href*="github.com/ahrvoje/books"]').count())>0);
   await page.locator('#close-details').click();
   await page.locator('#columns').click();
   await page.locator('[data-columns-preset="default"]').click();
@@ -147,7 +147,7 @@ try {
   await page.waitForFunction(()=>document.querySelector('[data-formula="terms.PG"]').textContent.includes('-5.00 points'));
   await page.locator('#apply').click();
   assert.equal(await page.locator('#model-name').textContent(),'Custom evaluation');
-  assert.equal(await page.locator('#matching-list th[data-column="points:PG"]').count(),1);
+  assert.equal(await page.locator('#matching-list th[data-column="points:PG"]').count(),0);
   await page.locator('[data-page="vetoed"]').click();
   assert.equal(await page.locator('#vetoed-list .score').first().textContent(),expected.vetoed[0].score);
   assert.equal(await page.locator('.control-shell').isVisible(),false);
@@ -163,6 +163,9 @@ try {
   await page.waitForFunction(()=>!document.querySelector('#apply').disabled);
   await page.locator('#apply').click();
   assert(await page.locator('.plot-point').count()>0,'Verified lengths must support score/pages comparison');
+  assert.equal(await page.locator('[data-frontier-layer]').count(),3);
+  assert.deepEqual(await page.locator('[data-frontier-layer]').evaluateAll(nodes=>nodes.map(n=>getComputedStyle(n).stroke)),['rgb(181, 43, 43)','rgb(35, 90, 178)','rgb(155, 118, 0)']);
+  for(const layer of [1,2,3])assert(await page.locator(`[data-pareto-layer="${layer}"]`).count()>0);
   await page.locator('[data-panel="pareto"]').click();
   await page.locator('[data-axis-preset="sources"]').click();
   await page.waitForFunction(()=>!document.querySelector('#apply').disabled);
@@ -239,6 +242,6 @@ try {
   await page.locator('#matching-count').waitFor();
   assert.equal(await page.locator('#selection strong').textContent(),'1');
   assert.deepEqual(errors,[]);assert.deepEqual(requests,[]);
-  fs.writeFileSync(path.join(out,'results.json'),JSON.stringify({errors,networkRequests:requests,viewports:observations,checks:`Isolated single file; ${bookCount} books, ${expected.vetoed.length} vetoed works and ${expected.excluded.length} exclusions; ${Object.keys(expected.sources).length} sources with dates, links and embedded inputs; embedded methodology and evidence; silent catalog migration; readable automatic columns; filters, signed rate, Pareto, settings, mobile drafts and persistence passed.`},null,2));
+  fs.writeFileSync(path.join(out,'results.json'),JSON.stringify({errors,networkRequests:requests,viewports:observations,checks:`Isolated compressed file; ${bookCount} books, ${expected.vetoed.length} vetoed works and ${expected.excluded.length} exclusions; ${Object.keys(expected.sources).length} sources with online input and analysis links; offline book evidence and methodology; silent catalog migration; four default columns; controls above results; underlined titles; filters, signed rate, Pareto, settings, mobile drafts and persistence passed.`},null,2));
   console.log(JSON.stringify({browser:'Chromium',offline:true,errors,networkRequests:requests.length,viewports:observations,screenshots:out},null,2));
 } finally { await browser.close(); }

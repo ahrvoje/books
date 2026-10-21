@@ -1,9 +1,10 @@
-const DATA = JSON.parse(document.getElementById('catalog-data').textContent);
+const packed = Uint8Array.from(atob(document.getElementById('catalog-data').textContent.trim()), c => c.charCodeAt(0));
+const DATA = JSON.parse(await new Response(new Blob([packed]).stream().pipeThrough(new DecompressionStream('gzip'))).text());
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
 const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const url = value => /^(https?:\/\/|analysis\/)/.test(value || '') ? value : '';
-const anchor = (href, text) => DATA.documents?.[href?.split('#')[0]] ? `<a href="#evidence" data-evidence="${esc(href)}">${esc(text)}</a>` : url(href) ? `<a href="${esc(href)}" target="_blank" rel="noopener">${esc(text)}</a>` : esc(text);
+const url = value => /^(analysis|data)\//.test(value || '') ? 'https://github.com/ahrvoje/books/blob/main/' + value : /^https?:\/\//.test(value || '') ? value : '';
+const anchor = (href, text) => DATA.documents?.[href?.split('#')[0]] ? `<a href="#evidence" data-evidence="${esc(href)}">${esc(text)}</a>` : url(href) ? `<a href="${esc(url(href))}" target="_blank" rel="noopener">${esc(text)}</a>` : esc(text);
 const STORAGE = 'books.model.v3';
 const initial = defaultModel(DATA.reviewYear);
 let state = clone(initial), draft = null, currentPanel = '', previousFocus = null, aliases = false;
@@ -102,8 +103,8 @@ function renderList(kind, rows) {
 function columnsEditor() {
   draft.columns = displayedColumns(draft);
   return `<p class="intro">Choose raw facts and contributions to the current score. Title, author, total score, selection, and Details always remain visible. Selected columns follow the same order in both lists. On phones they appear below the title.</p>
-    <p class="help">${draft.columnsMode === 'active' ? 'Default: metadata and all enabled scoring contributions. Columns follow changes to the scoring model.' : 'Custom column selection. Choose the default to follow enabled scoring criteria.'}</p>
-    <div class="preset-row"><button data-columns-preset="default">Enabled scoring + facts</button><button data-columns-preset="quality">Quality contributions</button><button data-columns-preset="recency">Dates and recency</button><button data-columns-preset="none">No extra columns</button></div>
+    <p class="help">${draft.columnsMode === 'active' ? 'Default: year, pages, Amazon ratings, and sources.' : 'Custom column selection. Choose the default to restore the four book facts.'}</p>
+    <div class="preset-row"><button data-columns-preset="default">Default book facts</button><button data-columns-preset="quality">Quality contributions</button><button data-columns-preset="recency">Dates and recency</button><button data-columns-preset="none">No extra columns</button></div>
     <label class="field">Find a column<input type="search" data-column-search></label>
     ${COLUMNS.filter(c=>c.kind==='metadata').map(c=>`<label class="check" data-column-choice="${c.id}"><input type="checkbox" data-column-toggle="${c.id}" ${draft.columns.includes(c.id)?'checked':''}>${esc(c.label)}</label>`).join('')}
     ${REGISTRY.map(r=>`<div class="column-choice" data-column-variable="${r.id}"><strong>${esc(r.name)} <span class="alias">${r.id}</span></strong><div class="field-row">${['raw','points'].map(kind=>`<label class="check"><input type="checkbox" data-column-toggle="${kind}:${r.id}" ${draft.columns.includes(kind+':'+r.id)?'checked':''}>${kind==='raw'?'Raw '+esc(r.unit):'Score points'}</label>`).join('')}</div></div>`).join('')}`;
@@ -199,7 +200,7 @@ function renderEditor(preserve = false) {
   } else if (currentPanel === 'scoring') html = '<p class="intro">Raw value → normalized level → curve → signed points. Negative weights are allowed. The repository baseline stays available.</p>' + variableList('scoring');
   else if (currentPanel === 'ideal') html = idealEditor();
   else if (currentPanel === 'columns') html = columnsEditor();
-  else html = `${field('Show Pareto plot', 'plot', draft.plot, { check: true })}<p class="help">Only matching books with known axis values determine the frontier.</p><div class="preset-row"><button data-axis-preset="pages">Score / pages</button><button data-axis-preset="sources">Score / sources</button>${draft.target ? '<button data-axis-preset="fit">Score / connection fit</button><button data-axis-preset="breadth">Coverage / connections</button>' : ''}</div>${axisEditor(0)}${axisEditor(1)}`;
+  else html = `${field('Show Pareto plot', 'plot', draft.plot, { check: true })}<p class="help">Each boundary uses matching books with known axis values. Remove all books on a boundary before finding the next.</p><div class="preset-row"><button data-axis-preset="pages">Score / pages</button><button data-axis-preset="sources">Score / sources</button>${draft.target ? '<button data-axis-preset="fit">Score / connection fit</button><button data-axis-preset="breadth">Coverage / connections</button>' : ''}</div>${axisEditor(0)}${axisEditor(1)}`;
   body.innerHTML = html;
   $$('details', body).forEach(e => { if (opens.includes(e.dataset.variable || 'axis:' + e.dataset.axisTerm)) e.open = true; });
   if (preserve) body.scrollTop = oldScroll;
@@ -435,8 +436,8 @@ function showBook(id) {
   html += `<h3>Contributing sources (${b.sources.length})</h3><div class="details-links">${b.sources.map(id => anchor(DATA.sources[id].url, `${id} · ${DATA.sources[id].label}`)).join(' ')}</div>
     <h3>Reader-rating evidence</h3><p>Baseline Amazon count: ${b.amazon.count ?? 'unknown'} ratings. ${anchor(b.amazon.url, b.amazon.marketplace || 'Product snapshot')} ${esc(b.amazon.product)}. Retrieved ${esc(b.amazon.retrieved || 'not available')}.</p><p class="help">${esc(b.amazon.limitations)}</p>${b.reader ? `<p>Other recorded rating: ${esc(b.reader)}</p>` : ''}`;
   const observation = b.research?.newAmazonObservation;
-  if (observation) html += `<p><strong>New observation: ${observation.count.toLocaleString()} Amazon ratings.</strong> ${anchor(observation.url, observation.marketplace)} · ${esc(observation.product)} · retrieved ${esc(observation.retrieved)} · ${esc(observation.confidence)} confidence.</p><p class="help">${esc(observation.limitations)} This observation is retained for the next baseline update; it does not change this saved evaluation.</p>`;
-  else if (b.research?.amazonReviewReason) html += `<p class="help">Rating lookup: ${esc(b.research.amazonReviewReason)}</p>`;
+  if (observation && !b.ratingReview) html += `<p><strong>New observation: ${observation.count.toLocaleString()} Amazon ratings.</strong> ${anchor(observation.url, observation.marketplace)} · ${esc(observation.product)} · retrieved ${esc(observation.retrieved)} · ${esc(observation.confidence)} confidence.</p><p class="help">${esc(observation.limitations)} This observation is retained for the next baseline update; it does not change this saved evaluation.</p>`;
+  else if (!b.ratingReview && b.research?.amazonReviewReason) html += `<p class="help">Rating lookup: ${esc(b.research.amazonReviewReason)}</p>`;
   showDialog(b.title, html);
 }
 $('#close-details').onclick = () => $('#details').close();
@@ -487,9 +488,10 @@ function renderPlot() {
   if (!state.plot) return;
   $('#plot-tooltip').hidden = true;
   if (state.axes.some(a => !a)) { $('#plot').innerHTML = '<p class="plot-empty">Choose two axes in Pareto to draw the plot.</p>'; return; }
-  const front = frontier(result.matching, state.axes), points = result.rows.filter(r => r.axes.every(known));
+  const layers = frontierLayers(result.matching, state.axes), points = result.rows.filter(r => r.axes.every(known));
+  const layerOf = group => layers.findIndex(layer => group.some(r => layer.has(r.book.id))) + 1;
   const missing = result.rows.length - points.length;
-  $('#plot-caption').textContent = `${front.size} frontier titles · ${missing.toLocaleString()} unplotted: missing axis data. ${state.axes.map(a => a.label + (a.direction === 'max' ? ' ↑' : ' ↓')).join(' / ')}`;
+  $('#plot-caption').textContent = `Boundary sizes: ${layers.map(layer=>layer.size).join(' / ')} · ${missing.toLocaleString()} unplotted: missing axis data. ${state.axes.map(a => a.label + (a.direction === 'max' ? ' ↑' : ' ↓')).join(' / ')}`;
   if (!points.length) { $('#plot').innerHTML = '<p class="plot-empty">No books have both axis values.<br>Page and domain evidence may be missing. Choose “Score / sources” to compare known values.</p>'; return; }
   const W = Math.max(270, $('#plot').clientWidth), H = innerWidth < 768 ? 300 : 350, pad = { l: 52, r: 18, t: 22, b: 54 };
   const bounds = [0, 1].map(i => { const v = points.map(r => r.axes[i]), lo = Math.min(...v), hi = Math.max(...v), margin = (hi - lo || Math.max(1, Math.abs(lo) * .1)) * .06; return [lo - margin, hi + margin]; });
@@ -506,13 +508,15 @@ function renderPlot() {
   for (const r of points) {
     const key = JSON.stringify(r.axes); if (!unique.has(key)) unique.set(key, []); unique.get(key).push(r);
   }
-  plotGroups = [...unique.values()].sort((a, b) => Number(a.some(r=>front.has(r.book.id))) - Number(b.some(r=>front.has(r.book.id))));
-  const frontierPoints = [...new Map(points.filter(r => front.has(r.book.id)).map(r => [JSON.stringify(r.axes), [x(r.axes[0]), y(r.axes[1])]])).values()].sort((a, b) => a[0] - b[0]);
-  svg += `<path class="frontier-line" d="${curvePath(frontierPoints)}"/>`;
+  plotGroups = [...unique.values()].sort((a, b) => (layerOf(b)||4) - (layerOf(a)||4));
+  layers.forEach((layer,i)=>{
+    const frontierPoints = [...new Map(points.filter(r => layer.has(r.book.id)).map(r => [JSON.stringify(r.axes), [x(r.axes[0]), y(r.axes[1])]])).values()].sort((a, b) => a[0] - b[0]);
+    svg += `<path class="frontier-line pareto-layer-${i+1}" data-frontier-layer="${i+1}" d="${curvePath(frontierPoints)}"/>`;
+  });
   plotGroups.forEach((group, i) => {
-    const r = group[0], px = x(r.axes[0]), py = y(r.axes[1]), best = group.some(r => front.has(r.book.id)), filtered = group.every(r => r.reasons.length);
-    svg += `<g class="plot-point" data-point="${i}" tabindex="0" role="button" aria-label="${esc(group.map(r=>r.book.title).join('; '))}. ${group.length} title${group.length===1?'':'s'}. ${best?'Pareto optimal.':''}">
-      <circle class="${best ? 'plot-front' : 'plot-dot' + (filtered ? ' filtered-dot' : '')}" cx="${px}" cy="${py}" r="${best ? 4 : 2.5}"/>${best ? `<circle class="plot-ring" cx="${px}" cy="${py}" r="8"/>` : ''}
+    const r = group[0], px = x(r.axes[0]), py = y(r.axes[1]), layer = layerOf(group), best = layer > 0, filtered = group.every(r => r.reasons.length);
+    svg += `<g class="plot-point pareto-layer-${layer}" data-point="${i}" data-pareto-layer="${layer}" tabindex="0" role="button" aria-label="${esc(group.map(r=>r.book.title).join('; '))}. ${group.length} title${group.length===1?'':'s'}. ${best?'Pareto boundary '+layer+'.':''}">
+      <circle class="${best ? 'plot-front' : 'plot-dot' + (filtered ? ' filtered-dot' : '')}" cx="${px}" cy="${py}" r="${best ? 4 : 2.5}"/>${layer===1 ? `<circle class="plot-ring" cx="${px}" cy="${py}" r="8"/>` : ''}
       ${group.length > 1 && best ? `<text class="axis-label" x="${px+9}" y="${py-8}">${group.length}</text>` : ''}<circle class="hit-area" cx="${px}" cy="${py}" r="12"/></g>`;
   });
   svg += `<text class="axis-label" text-anchor="middle" x="${W/2}" y="${H-8}">${esc(state.axes[0].label)} · ${state.axes[0].direction === 'max' ? 'higher preferred' : 'lower preferred'}</text>
@@ -532,14 +536,14 @@ $('#plot').addEventListener('keydown', e => { const p = e.target.closest('[data-
 $('#plot').addEventListener('change', e => { if (e.target.id === 'point-selector' && e.target.value !== '') showPoint(+e.target.value); });
 $('#plot-tooltip').addEventListener('click', e => { if (e.target.closest('[data-close-tooltip]')) $('#plot-tooltip').hidden = true; });
 function renderReferenceLists() {
-  $('#vetoed-list').innerHTML = `<div class="table-scroll" tabindex="0" aria-label="All ${DATA.vetoed.length} vetoed books"><table class="veto-table"><thead><tr><th>Stored score</th><th>Title / author</th><th>Year</th><th>Veto</th><th>Confidence</th><th>Sources</th><th>Details</th></tr></thead><tbody>${DATA.vetoed.map(b=>`<tr data-veto-book="${esc(b.id)}"><td class="veto-score"><span class="score">${esc(b.score)}</span></td><td class="veto-title"><span class="book-title">${esc(b.title)}</span><span class="author"> — ${esc(b.author)}</span><div class="mobile-meta">Year ${esc(b.year)} · ${esc(b.veto)} · ${esc(b.confidence)} confidence · Sources ${esc(b.sources)}</div></td><td class="veto-meta">${esc(b.year)}</td><td class="veto-meta">${esc(b.veto)}</td><td class="veto-meta">${esc(b.confidence)}</td><td class="veto-meta">${esc(b.sources)}</td><td class="veto-action"><button class="text-button details-button" data-veto-details="${esc(b.id)}" aria-label="Details for ${esc(b.title)}">Details</button></td></tr>`).join('')}</tbody></table></div>`;
+  $('#vetoed-list').innerHTML = `<div class="table-scroll" tabindex="0" aria-label="All ${DATA.vetoed.length} vetoed books"><table class="veto-table"><thead><tr><th>Stored score</th><th>Title / author</th><th>Year</th><th>Pages</th><th>Amazon ratings</th><th>Veto</th><th>Confidence</th><th>Sources</th><th>Details</th></tr></thead><tbody>${DATA.vetoed.map(b=>`<tr data-veto-book="${esc(b.id)}"><td class="veto-score"><span class="score">${esc(b.score)}</span></td><td class="veto-title"><span class="book-title">${esc(b.title)}</span><span class="author"> — ${esc(b.author)}</span><div class="mobile-meta">Year ${esc(b.year)} · Pages ${esc(b.edition?.pages ?? "Unknown")} · Amazon ratings ${esc(b.amazon.count ?? "Unknown")} · ${esc(b.veto)} · ${esc(b.confidence)} confidence · Sources ${esc(b.sources)}</div></td><td class="veto-meta">${esc(b.year)}</td><td class="veto-meta">${b.edition ? anchor(b.edition.url,String(b.edition.pages)) : "Unknown"}</td><td class="veto-meta">${b.amazon.count!==null ? anchor(b.amazon.url,String(b.amazon.count)) : "Unknown"}</td><td class="veto-meta">${esc(b.veto)}</td><td class="veto-meta">${esc(b.confidence)}</td><td class="veto-meta">${esc(b.sources)}</td><td class="veto-action"><button class="text-button details-button" data-veto-details="${esc(b.id)}" aria-label="Details for ${esc(b.title)}">Details</button></td></tr>`).join('')}</tbody></table></div>`;
   $('#excluded-list').innerHTML = DATA.excluded.map(b=>`<li>${esc(b)}</li>`).join('');
   $('#sources-list').innerHTML = Object.values(DATA.sources).sort((a,b)=>a.id-b.id).map(s=>`<tr data-source="${s.id}"><th scope="row" class="source-number">${s.id}</th><td class="source-date"><time datetime="${esc(s.date)}">${esc(s.date)}</time></td><td class="source-title">${anchor(s.url,s.label)}</td><td class="source-analysis">${anchor(s.analysis,'Read analysis')}</td></tr>`).join('');
 }
 $('#vetoed-list').onclick = e => {
   const id=e.target.closest('[data-veto-details]')?.dataset.vetoDetails;if(!id)return;
   const b=DATA.vetoed.find(b=>b.id===id);currentDetails=null;
-  showDialog(b.title, `<p>${esc(b.author)} · original year ${esc(b.year)}</p><div class="facts"><div><strong>${esc(b.score)}</strong><span>Stored counterfactual score</span></div><div><strong>${esc(b.veto)}</strong><span>Veto · ${esc(b.confidence)} confidence</span></div></div><p>${esc(b.reason)}</p><p>The veto remains in force. This score suspends only that gate and retains the recorded flaws and deductions.</p><p>Contributing sources: ${esc(b.sources)}.</p><div class="details-links">${anchor(b.analysis,'Full recorded assessment')}</div>`);
+  showDialog(b.title, `<p>${esc(b.author)} · original year ${esc(b.year)}</p><div class="facts"><div><strong>${esc(b.score)}</strong><span>Stored counterfactual score</span></div><div><strong>${esc(b.veto)}</strong><span>Veto · ${esc(b.confidence)} confidence</span></div></div><p>${esc(b.reason)}</p><p>The veto remains in force. This score suspends only that gate and retains the recorded flaws and deductions.</p><p>Pages: ${b.edition ? `${anchor(b.edition.url,String(b.edition.pages))} · ${esc(b.edition.id)} · ${esc(b.edition.format)} · ${esc(b.edition.year)}. ${esc(b.edition.notes || "")}` : "Unknown: no verified matching edition count."}</p><p>Amazon ratings: ${b.amazon.count!==null ? anchor(b.amazon.url,String(b.amazon.count)) : "Unknown"}. ${esc(b.amazon.marketplace)} · ${esc(b.amazon.product)} · Retrieved ${esc(b.amazon.retrieved)}. ${esc(b.amazon.limitations)}</p><p>Contributing sources: ${esc(b.sources)}.</p><div class="details-links">${anchor(b.analysis,'Full recorded assessment')} ${b.ratingReview ? anchor(b.ratingReview,'Rating and total update') : ''}</div>`);
 };
 function showPage(focus = false) {
   const hash=location.hash.slice(1),name=hash.replace(/-view$/,''),page=['vetoed','excluded','sources','methodology'].includes(name)?name:hash.startsWith('method-')?'methodology':'books';
