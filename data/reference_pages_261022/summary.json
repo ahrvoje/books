@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-22",
+  "definition": "RP counts distinct printed pages in explicitly documented references, bibliography, source notes, and endnote sections. It excludes indexes, acknowledgments, glossaries, inline citations and online supplements. Catalog-only ranges can omit separately unlisted notes; section scope is retained.",
+  "recommended": {
+    "total": 3629,
+    "known": 1501,
+    "unknown": 2128
+  },
+  "vetoed": {
+    "total": 238,
+    "known": 38,
+    "unknown": 200
+  },
+  "top100": {
+    "total": 100,
+    "known": 79,
+    "unknown": 21
+  },
+  "top250": {
+    "total": 250,
+    "known": 187,
+    "unknown": 63
+  },
+  "total": {
+    "total": 3867,
+    "known": 1539,
+    "unknown": 2328
+  },
+  "confidence": "Moderate for catalogued ranges and contents boundaries; unknown for missing counts.",
+  "scoring": "RP is optional, disabled and weighted zero by default. Existing scores and gates are unchanged."
+}

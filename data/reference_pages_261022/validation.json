@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-22",
+  "passed": true,
+  "targetCount": 3867,
+  "recommended": 3629,
+  "vetoed": 238,
+  "known": 1539,
+  "unknown": 2328,
+  "allTargetsAttempted": true,
+  "allFinalUnknownsReceivedGooglePass": true,
+  "manualRecords": 111,
+  "methodCounts": {
+    "reviewed-contents-or-catalog": 111,
+    "contents-boundaries": 81,
+    "unknown": 2328,
+    "catalogued-ranges": 955,
+    "google-contents-boundaries": 392
+  },
+  "baselineScoresUnchanged": true,
+  "referenceVariable": "RP",
+  "defaultWeight": 0,
+  "tests": {
+    "calculation": "npm test",
+    "parser": "node --test data/reference_pages_261022/collect.test.mjs",
+    "focusedBrowser": "node data/reference_pages_261022/browser.test.mjs",
+    "fullBrowserLimitation": "Existing site/browser.test.mjs stops at line 25: the unchanged branded header has a title-row paragraph but the test expects none. Focused reference-page browser tests cover the new behavior."
+  },
+  "htmlSha256": "d3c191ee14888ee235fa68e7a70d59390a8f16c67f7844e6d588a5c1d34a36c2"
+}
