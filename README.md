@@ -1,8 +1,8 @@
-# Book selection
+# Book explorer
 
 Open **[docs/index.html](docs/index.html)** in a current browser. It is one monolithic HTML file containing the compressed catalog, styles, and application code. No server, account, installation, other file, or network connection is needed to use it. Book details and calculations work offline. Full source inputs and historical analyses open online in the repository. The browser uses its built-in DecompressionStream; no external library is loaded.
 
-The initial ranking uses the repository's existing 15-rule evaluation. Filters, custom scoring, selected books, and the optional Pareto plot run locally. Settings can be exported and imported as JSON. Purchase and source links open only when selected.
+The initial ranking uses the repository's existing 15-rule evaluation. Filters, custom scoring, and the optional Pareto plot run locally. Settings can be exported and imported as JSON. Purchase and source links open only when selected.
 
 ## Use
 
@@ -24,9 +24,9 @@ The [rating-gap update](analysis/analysis_ratinggaps_261021_1704.md) adds 181 ve
 2. Open **Filter books** to set raw-value, normalized-level, or contribution limits. Filtered books remain below the matching list.
 3. Open **Adjust scoring** to enable a variable, choose its normalization and curve, and set a signed weight. For a linear page term, choose **Points per page**, set the rate to `-0.01`, and set reference `0`. Raw anchors set the caps.
 4. **Define ideal book** shares the scoring model. Choose subjects, desired depth and importance, plus minimum connection strength and confidence, then **Apply**. A target alone does not change ranking: enable and weight a target measure in **Adjust scoring**, or use it in filters, columns or the Pareto plot. Subject coverage works only when all selected subject depths are known. No book currently has a complete connection review, so the connected measures remain unknown.
-5. Open **Pareto tradeoffs** and choose **Score / sources** to compare known catalog values immediately. The three boundaries are red, blue and dark yellow. Each is computed after removing every book on the earlier boundaries. Page and connection axes require the corresponding evidence.
-6. Panel edits are drafts until **Apply**. **Cancel** discards them. Selection and text search act immediately.
-7. Open **Columns** to select raw values and score contributions. The default shows Year, Pages, Amazon ratings, and Sources, alongside Score, Title / author, selection, and Details. Scoring changes do not add columns; manual column choices remain custom. The same choices appear as labelled values on a phone.
+5. Open **Pareto tradeoffs**, choose the X and Y variables, and select **Apply** to show the plot and its boundaries. The three boundaries are red, blue and dark yellow. Lines end at actual book coordinates. A boundary with one coordinate is a highlighted dot without a line. All books with finite coordinates are plotted, including filtered books; non-finite logarithmic coordinates are omitted. Boundaries use plottable matching books, or visible filtered books when no matching books can be plotted; the caption identifies that fallback. Each is computed after removing every book on the earlier boundaries. Both axes offer BASE, TOTAL, and all variables. Each axis can independently be linear or logarithmic. Logarithmic display omits zero and negative values on that axis and reports their count; it does not change scores. Boundaries are calculated from the books that can be plotted, using their original values. Page and connection axes require the corresponding evidence.
+6. Panel edits are drafts until **Apply**. **Cancel** discards them. Text search and the plot axis scales act immediately.
+7. Open **Columns** to select raw values and score contributions. The default shows Year, Pages, Amazon ratings, and Sources, alongside Score, Title / author and Details. Scoring changes do not add columns; manual column choices remain custom. The same choices appear as labelled values on a phone.
 8. Use the top links for **Vetoed**, **Excluded**, **Sources**, and **Methodology**. These views are embedded in the same file. Vetoed shows saved counterfactual scores; excluded works have no score. Sources lists all entries from `SOURCES.md`, with source number, date added, original link and saved analysis. Source inputs and full analyses open online. These reference views have no filter or scoring controls. Methodology explains the process and includes the exact repository rules.
 
 The **ƒx** button shows variable aliases. The whole recommended catalog renders at once across the two lists, with no pagination, row limit, or “load more” control. Search narrows the visible collection. Titles and authors share one compact line when space permits.
@@ -75,7 +75,7 @@ npx playwright install chromium
 npm run test:browser
 ```
 
-The browser test copies only `docs/index.html` to an isolated folder, opens that copy with a `file:` URL, and blocks HTTP requests. It checks every rendered row, selected columns, online analysis links, controls, export/import, selection, Pareto interaction, and layouts at six widths. Screenshots and results go to the ignored `site/qa-output/` directory. `BOOKS_PLAYWRIGHT_MODULE` can point to an existing Playwright `index.mjs` installation instead of installing another copy.
+The browser test copies only `docs/index.html` to an isolated folder, opens that copy with a `file:` URL, and blocks HTTP requests. It checks every rendered row, selected columns, online analysis links, controls, export/import, Pareto interaction, and layouts at six widths. Screenshots and results go to the ignored `site/qa-output/` directory. `BOOKS_PLAYWRIGHT_MODULE` can point to an existing Playwright `index.mjs` installation instead of installing another copy.
 
 ## Files and data
 

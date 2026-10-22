@@ -105,7 +105,7 @@ export function defaultTerm(id, target = null) {
 }
 export function defaultModel(reviewYear = 2026) {
   return { version: VERSION, reviewYear, target: null, terms: Object.fromEntries(REGISTRY.map(r => [r.id, defaultTerm(r.id)])), filters: {},
-    query: '', selectedOnly: false, selected: [], exact: '', requireKnown: false, baseMin: null, totalMin: null, plot: false, showFiltered: true,
+    query: '', selectedOnly: false, selected: [], exact: '', requireKnown: false, baseMin: null, totalMin: null, plot: false, xScale: 'linear', yScale: 'linear', showFiltered: true,
     columns: [...DEFAULT_COLUMNS], columnsMode: 'active',
     axes: [{ kind: 'aggregate', id: 'BASE', direction: 'max', label: 'Repository score', terms: [] },
       { kind: 'raw', id: 'PG', direction: 'min', label: 'Pages', terms: [] }] };
@@ -345,6 +345,7 @@ export function validateModel(m) {
     if (!m.target && DERIVED_IDS.includes(id) && f.enabled) errors.push(`${id} filter requires a target.`);
   }
   if (!['', 'coverage', 'connected', 'joint'].includes(m.exact) || (m.exact && !m.target)) errors.push('Invalid exact target filter.');
+  for (const axis of ['x', 'y']) if (m[axis + 'Scale'] !== undefined && !['linear', 'log'].includes(m[axis + 'Scale'])) errors.push(`Invalid ${axis.toUpperCase()}-axis scale.`);
   if (!Array.isArray(m.axes) || m.axes.length !== 2) errors.push('Two axis slots are required.');
   else for (const a of m.axes) {
     if (a === null) continue;

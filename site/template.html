@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="A personal nonfiction catalog. Compare evidence, mechanisms, domain connections, and reading tradeoffs.">
-  <title>Book selection — a working library</title>
+  <title>Book explorer — a working library</title>
   <style>/* STYLES */</style>
 </head>
 <body>
 <a class="skip" href="#results">Skip to books</a>
 <header class="masthead">
-  <div class="title-row"><div class="title-brand"><h1>Book selection<span class="blue">.</span></h1><p class="branding">by Hrvoje Abraham, ahrvoje@gmail.com</p></div><button id="selection" class="selection">Selected <strong>0</strong></button></div>
+  <div class="title-row"><div class="title-brand"><h1>Book explorer<span class="blue">.</span></h1><p class="branding">by Hrvoje Abraham, ahrvoje@gmail.com</p></div></div>
   <nav class="library-nav" aria-label="Library pages"><a href="#books" data-page="books" aria-current="page">Books <span id="nav-books-count"></span></a><a href="#vetoed" data-page="vetoed">Vetoed <span id="nav-vetoed-count"></span></a><a href="#excluded" data-page="excluded">Excluded <span id="nav-excluded-count"></span></a><a href="#sources" data-page="sources">Sources <span id="nav-sources-count"></span></a><a href="#methodology" data-page="methodology">Methodology</a></nav>
   <div id="book-toolbar" class="search-row"><label class="search-label" for="search">Search the library</label><input id="search" type="search" placeholder="Title, author, or subtitle…" autocomplete="off"><button id="export">Export settings</button><label class="button file-label">Import<input type="file" id="import" accept=".json,application/json"></label></div>
 </header>
@@ -33,10 +33,10 @@
   <main id="results" tabindex="-1">
     <div class="result-summary"><div><strong id="matching-count"></strong> matching <span class="separator">/</span> <span id="filtered-count"></span> filtered</div><div id="missing-summary"></div><button id="columns">Columns</button></div>
     <div id="chips" class="chips"></div>
-    <section id="plot-section" hidden aria-labelledby="plot-title"><div class="section-title"><h2 id="plot-title">Pareto tradeoffs</h2><button id="hide-plot" class="text-button">Hide plot</button></div><p id="plot-caption"></p><div id="plot"></div><div id="plot-tooltip" role="status" hidden></div><div class="plot-legend"><span class="pareto-layer-1">● 1 · Main boundary</span><span class="pareto-layer-2">● 2 · After removing layer 1</span><span class="pareto-layer-3">● 3 · After removing layers 1–2</span><span>Lines join books; intermediate points are not books.</span></div></section>
+    <section id="plot-section" hidden aria-labelledby="plot-title"><div class="section-title"><h2 id="plot-title">Pareto tradeoffs</h2><button id="hide-plot" class="text-button">Hide plot</button></div><div class="field-row"><label class="field plot-scale">X-axis scale<select id="plot-x-scale"><option value="linear">Linear</option><option value="log">Logarithmic</option></select></label><label class="field plot-scale">Y-axis scale<select id="plot-y-scale"><option value="linear">Linear</option><option value="log">Logarithmic</option></select></label></div><p id="plot-caption"></p><div id="plot"></div></section>
     <section aria-label="Matching books, sorted by current score"><div id="matching-list"></div></section>
     <section id="filtered-section" aria-labelledby="filtered-title"><div class="section-title"><h2 id="filtered-title">Filtered books <span id="filtered-heading-count"></span></h2><button id="toggle-filtered" class="text-button" aria-expanded="true">Collapse</button></div><p class="muted">Still in the collection. The same score, with failed filters shown.</p><div id="filtered-list"></div></section>
-    <footer><span>Local calculations · Original assessments retained</span><button id="footer-review" class="text-button">Data and review notes</button><button id="clear-selection" class="text-button">Clear selection</button></footer>
+    <footer><span>Local calculations · Original assessments retained</span><button id="footer-review" class="text-button">Data and review notes</button></footer>
   </main>
 </div>
 <main id="vetoed-view" class="reference-view" hidden aria-labelledby="vetoed-title" tabindex="-1">
