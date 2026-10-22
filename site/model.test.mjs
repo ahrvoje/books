@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { performance } from 'node:perf_hooks';
 import { REGISTRY, DOMAIN_IDS, defaultModel, defaultTerm, clone, normalize, shape, coefficients, changeMode, termValue, validateTerm,
-  validateModel, connectionValues, evaluateBook, evaluateCatalog, filterReasons, frontier, frontierLayers, clearTarget, format, columnValue, DEFAULT_COLUMNS, displayedColumns, restoreColumns, COLUMN_BY_ID } from './model.mjs';
+  validateModel, connectionValues, evaluateBook, evaluateCatalog, filterReasons, frontier, frontierLayers, clearTarget, format, columnValue, DEFAULT_COLUMNS, displayedColumns, restoreColumns, restoreOptionalTerms, COLUMN_BY_ID } from './model.mjs';
 import fs from 'node:fs';
 import { gunzipSync } from 'node:zlib';
 import path from 'node:path';
@@ -16,15 +16,33 @@ function fixture() {
     connections: { status: 'complete', mechanisms: [], joins: [] } };
 }
 const target = { domains: DOMAIN_IDS.slice(0, 8).map(id => ({ id, depth: 3, importance: 1 })), strength: 2, confidence: 'moderate' };
+test('reference pages support rates, missing-data filters, columns, and existing saved settings', () => {
+  const previous = defaultModel(); delete previous.terms.RP;
+  assert.deepEqual(validateModel(restoreOptionalTerms(previous)), []);
+  assert.equal(previous.terms.RP.enabled, false);
+  const book = fixture(), custom = defaultModel(); book.values.RP = 40;
+  const baseline = evaluateBook(book, custom).total;
+  Object.assign(custom.terms.RP, { enabled: true, mode: 'rate', rate: 0.1 });
+  const scored = evaluateBook(book, custom);
+  close(scored.total, baseline + 4);
+  assert.equal(columnValue(scored, 'raw:RP'), 40);
+  close(columnValue(scored, 'points:RP'), 4);
+  book.values.RP = null;
+  const unknown = evaluateBook(book, custom);
+  assert(unknown.missing.includes('RP'));
+  custom.requireKnown = true;
+  assert(filterReasons(unknown, custom).length > 0);
+  assert(data.vetoed.every(b => Object.hasOwn(b.referencePages, 'pages')));
+});
 function mechanism(id, domains, strength = 4) {
   return { id, domains, strength, confidence: 'high', statement: 'Synthetic joint constraint', scope: 'Test system',
     roles: Object.fromEntries(domains.map(d => [d, 'constraint'])), refs: ['synthetic test fixture'] };
 }
-test('dataset identity, 43 variables, exact current baseline, and display reconciliation', () => {
+test('dataset identity, 44 variables, exact current baseline, and display reconciliation', () => {
   const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/catalog.json'), 'utf8'));
   const compiled = JSON.parse(fs.readFileSync(path.join(ROOT, catalog.compiled), 'utf8'));
   assert.equal(data.books.length, compiled.currentBooks.filter(b => b.status === 'recommended').length);
-  assert.equal(REGISTRY.length, 43); assert.equal(new Set(REGISTRY.map(r => r.id)).size, 43);
+  assert.equal(REGISTRY.length, 44); assert.equal(new Set(REGISTRY.map(r => r.id)).size, 44);
   assert.deepEqual(validateModel(model), []);
   assert.equal(data.issues.length, 0);
   for (const b of data.books) { close(evaluateBook(b, model).total, b.base); assert.equal(evaluateBook(b, model).missing.length, 0); }

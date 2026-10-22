@@ -7,7 +7,7 @@ const url = value => /^(analysis|data)\//.test(value || '') ? 'https://github.co
 const anchor = (href, text) => DATA.documents?.[href?.split('#')[0]] ? `<a href="#evidence" data-evidence="${esc(href)}">${esc(text)}</a>` : url(href) ? `<a href="${esc(url(href))}" target="_blank" rel="noopener">${esc(text)}</a>` : esc(text);
 const STORAGE = 'books.model.v3';
 const initial = defaultModel(DATA.reviewYear);
-let state = clone(initial), draft = null, currentPanel = '', previousFocus = null, aliases = false;
+let state = clone(initial), draft = null, currentPanel = '', previousFocus = null;
 let result, rowById = new Map(), previewTimer, searchTimer, dirty = false;
 let currentDetails = null, plotGroups = [];
 function notify(text) { $('#notice').innerHTML = text ? `<span>${esc(text)}</span> <button type="button" data-dismiss-notice aria-label="Dismiss notice">×</button>` : ''; $('#notice').hidden = !text; }
@@ -16,7 +16,7 @@ function restore() {
   try {
     const saved = JSON.parse(localStorage.getItem(STORAGE) || 'null');
     if (saved) {
-      const errors = validateModel(saved.model);
+      const errors = validateModel(restoreOptionalTerms(saved.model));
       if (errors.length) notify('Saved settings were not loaded: ' + errors[0]);
       else {
         state = saved.model; restoreColumns(state);
@@ -151,7 +151,7 @@ function variableList(type) {
       ${pair(field('Minimum (inclusive)', `filters.${r.id}.min`, f.min, { nullable: true }), field('Maximum (inclusive)', `filters.${r.id}.max`, f.max, { nullable: true }))}
       ${field('Unknown values', `filters.${r.id}.unknown`, f.unknown, { choices: [['exclude', 'Exclude unknown'], ['include', 'Include unknown'], ['only', 'Only unknown']] })}`;
     else body = termEditor(r.id, draft.terms[r.id], `terms.${r.id}`);
-    html += `<details class="variable" data-variable="${r.id}"><summary><span>${esc(r.name)} ${aliases ? `<span class="alias">${r.id}</span>` : ''}</span><small>${esc(summary)}</small></summary><div class="variable-body">${body}</div></details>`;
+    html += `<details class="variable" data-variable="${r.id}"><summary><span>${esc(r.name)} <span class="alias">${r.id}</span></span><small>${esc(summary)}</small></summary><div class="variable-body">${body}</div></details>`;
   }
   return html;
 }
@@ -353,7 +353,6 @@ $('#apply').onclick = () => {
 $('#cancel').onclick = $('#close-editor').onclick = closeEditor;
 $('#panel-tabs').onclick = e => { const b = e.target.closest('[data-panel]'); if (b) openEditor(b.dataset.panel); };
 $('#columns').onclick = () => openEditor('columns');
-$('#variables').onclick = () => { aliases = !aliases; $('#variables').setAttribute('aria-pressed', aliases); if (draft) renderEditor(true); };
 $('#search').addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(() => { state.query = $('#search').value; if (draft) draft.query = state.query; persist(); render(); }, 150); });
 $('#selection').onclick = () => { state.selectedOnly = !state.selectedOnly; if (draft) draft.selectedOnly = state.selectedOnly; persist(); render(); };
 $('#clear-selection').onclick = () => { state.selected = []; if (draft) draft.selected = []; persist(); render(); };
@@ -398,7 +397,7 @@ $('#import').onchange = async e => {
   const file = e.target.files[0]; if (!file) return;
   try {
     if (file.size > 2_000_000) throw Error('Settings file is too large.');
-    const saved = JSON.parse(await file.text()), errors = validateModel(saved.model);
+    const saved = JSON.parse(await file.text()), errors = validateModel(restoreOptionalTerms(saved.model));
     if (errors.length) throw Error(errors[0]);
     const ids = new Set(DATA.books.map(b => b.id));
     saved.model.selected = saved.model.selected.filter(id => ids.has(id));
@@ -537,14 +536,14 @@ $('#plot').addEventListener('keydown', e => { const p = e.target.closest('[data-
 $('#plot').addEventListener('change', e => { if (e.target.id === 'point-selector' && e.target.value !== '') showPoint(+e.target.value); });
 $('#plot-tooltip').addEventListener('click', e => { if (e.target.closest('[data-close-tooltip]')) $('#plot-tooltip').hidden = true; });
 function renderReferenceLists() {
-  $('#vetoed-list').innerHTML = `<div class="table-scroll" tabindex="-1" aria-label="All ${DATA.vetoed.length} vetoed books"><table class="veto-table"><thead><tr><th>Stored score</th><th>Title / author</th><th>Year</th><th>Pages</th><th>Amazon ratings</th><th>Veto</th><th>Confidence</th><th>Sources</th><th>Details</th></tr></thead><tbody>${DATA.vetoed.map(b=>`<tr data-veto-book="${esc(b.id)}"><td class="veto-score"><span class="score">${esc(b.score)}</span></td><td class="veto-title"><span class="book-title">${esc(b.title)}</span><span class="author"> — ${esc(b.author)}</span><div class="mobile-meta">Year ${esc(b.year)} · Pages ${esc(b.edition?.pages ?? "Unknown")} · Amazon ratings ${esc(b.amazon.count ?? "Unknown")} · ${esc(b.veto)} · ${esc(b.confidence)} confidence · Sources ${esc(b.sources)}</div></td><td class="veto-meta">${esc(b.year)}</td><td class="veto-meta">${b.edition ? anchor(b.edition.url,String(b.edition.pages)) : "Unknown"}</td><td class="veto-meta">${b.amazon.count!==null ? anchor(b.amazon.url,String(b.amazon.count)) : "Unknown"}</td><td class="veto-meta">${esc(b.veto)}</td><td class="veto-meta">${esc(b.confidence)}</td><td class="veto-meta">${esc(b.sources)}</td><td class="veto-action"><button class="text-button details-button" data-veto-details="${esc(b.id)}" aria-label="Details for ${esc(b.title)}">Details</button></td></tr>`).join('')}</tbody></table></div>`;
+  $('#vetoed-list').innerHTML = `<div class="table-scroll" tabindex="-1" aria-label="All ${DATA.vetoed.length} vetoed books"><table class="veto-table"><thead><tr><th>Stored score</th><th>Title / author</th><th>Year</th><th>Pages</th><th>Reference pages</th><th>Amazon ratings</th><th>Veto</th><th>Confidence</th><th>Sources</th><th>Details</th></tr></thead><tbody>${DATA.vetoed.map(b=>`<tr data-veto-book="${esc(b.id)}"><td class="veto-score"><span class="score">${esc(b.score)}</span></td><td class="veto-title"><span class="book-title">${esc(b.title)}</span><span class="author"> — ${esc(b.author)}</span><div class="mobile-meta">Year ${esc(b.year)} · Pages ${esc(b.edition?.pages ?? "Unknown")} · Reference pages ${esc(b.referencePages.pages ?? "Unknown")} · Amazon ratings ${esc(b.amazon.count ?? "Unknown")} · ${esc(b.veto)} · ${esc(b.confidence)} confidence · Sources ${esc(b.sources)}</div></td><td class="veto-meta">${esc(b.year)}</td><td class="veto-meta">${b.edition ? anchor(b.edition.url,String(b.edition.pages)) : "Unknown"}</td><td class="veto-meta">${b.referencePages.pages!==null ? anchor(b.referencePages.url,String(b.referencePages.pages)) : "Unknown"}</td><td class="veto-meta">${b.amazon.count!==null ? anchor(b.amazon.url,String(b.amazon.count)) : "Unknown"}</td><td class="veto-meta">${esc(b.veto)}</td><td class="veto-meta">${esc(b.confidence)}</td><td class="veto-meta">${esc(b.sources)}</td><td class="veto-action"><button class="text-button details-button" data-veto-details="${esc(b.id)}" aria-label="Details for ${esc(b.title)}">Details</button></td></tr>`).join('')}</tbody></table></div>`;
   $('#excluded-list').innerHTML = DATA.excluded.map(b=>`<li>${esc(b)}</li>`).join('');
   $('#sources-list').innerHTML = Object.values(DATA.sources).sort((a,b)=>a.id-b.id).map(s=>`<tr data-source="${s.id}"><th scope="row" class="source-number">${s.id}</th><td class="source-date"><time datetime="${esc(s.date)}">${esc(s.date)}</time></td><td class="source-title">${anchor(s.url,s.label)}</td><td class="source-analysis">${anchor(s.analysis,'Read analysis')}</td></tr>`).join('');
 }
 $('#vetoed-list').onclick = e => {
   const id=e.target.closest('[data-veto-details]')?.dataset.vetoDetails;if(!id)return;
   const b=DATA.vetoed.find(b=>b.id===id);currentDetails=null;
-  showDialog(b.title, `<p>${esc(b.author)} · original year ${esc(b.year)}</p><div class="facts"><div><strong>${esc(b.score)}</strong><span>Stored counterfactual score</span></div><div><strong>${esc(b.veto)}</strong><span>Veto · ${esc(b.confidence)} confidence</span></div></div><p>${esc(b.reason)}</p><p>The veto remains in force. This score suspends only that gate and retains the recorded flaws and deductions.</p><p>Pages: ${b.edition ? `${anchor(b.edition.url,String(b.edition.pages))} · ${esc(b.edition.id)} · ${esc(b.edition.format)} · ${esc(b.edition.year)}. ${esc(b.edition.notes || "")}` : "Unknown: no verified matching edition count."}</p><p>Amazon ratings: ${b.amazon.count!==null ? anchor(b.amazon.url,String(b.amazon.count)) : "Unknown"}. ${esc(b.amazon.marketplace)} · ${esc(b.amazon.product)} · Retrieved ${esc(b.amazon.retrieved)}. ${esc(b.amazon.limitations)}</p><p>Contributing sources: ${esc(b.sources)}.</p><div class="details-links">${anchor(b.analysis,'Full recorded assessment')} ${b.ratingReview ? anchor(b.ratingReview,'Rating and total update') : ''}</div>`);
+  showDialog(b.title, `<p>${esc(b.author)} · original year ${esc(b.year)}</p><div class="facts"><div><strong>${esc(b.score)}</strong><span>Stored counterfactual score</span></div><div><strong>${esc(b.veto)}</strong><span>Veto · ${esc(b.confidence)} confidence</span></div></div><p>${esc(b.reason)}</p><p>The veto remains in force. This score suspends only that gate and retains the recorded flaws and deductions.</p><p>Pages: ${b.edition ? `${anchor(b.edition.url,String(b.edition.pages))} · ${esc(b.edition.id)} · ${esc(b.edition.format)} · ${esc(b.edition.year)}. ${esc(b.edition.notes || "")}` : "Unknown: no verified matching edition count."}</p><p>Reference pages: ${b.referencePages.pages===null ? esc(b.referencePages.reason) : `${anchor(b.referencePages.url,String(b.referencePages.pages))} · ${esc(b.referencePages.edition.id)} · ${esc(b.referencePages.confidence)} confidence. ${esc(b.referencePages.ranges.map(r=>`${r.label} ${r.start}–${r.end}`).join("; "))}. ${esc(b.referencePages.limitation)}`}</p><p>Amazon ratings: ${b.amazon.count!==null ? anchor(b.amazon.url,String(b.amazon.count)) : "Unknown"}. ${esc(b.amazon.marketplace)} · ${esc(b.amazon.product)} · Retrieved ${esc(b.amazon.retrieved)}. ${esc(b.amazon.limitations)}</p><p>Contributing sources: ${esc(b.sources)}.</p><div class="details-links">${anchor(b.analysis,'Full recorded assessment')} ${b.ratingReview ? anchor(b.ratingReview,'Rating and total update') : ''}</div>`);
 };
 function showPage(focus = false) {
   const hash=location.hash.slice(1),name=hash.replace(/-view$/,''),page=['vetoed','excluded','sources','methodology'].includes(name)?name:hash.startsWith('method-')?'methodology':'books';

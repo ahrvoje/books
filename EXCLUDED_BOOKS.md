@@ -734,6 +734,7 @@
 - On Earth as it is Beneath — Ana Paula Maia
 - On Lisp — Paul Graham
 - On Numbers and Games — John H. Conway
+- On Power — Robert A. Caro
 - On Protracted War — Mao Zedong
 - On the Road — Jack Kerouac
 - One Flew Over the Cuckoo’s Nest — Ken Kesey

@@ -1,0 +1,63 @@
+{
+  "g0742": {
+    "domains": {
+      "POL": {
+        "value": 2,
+        "confidence": "low",
+        "rationale": "Historical research reflections provide concise political-power mechanisms through a narrow set of examples. This POL depth is a new interpretation of the cited prior assessment, not a full-text measurement.",
+        "refs": [
+          "analysis/analysis_glasppol_261019_0144.md#g0742"
+        ]
+      },
+      "INS": {
+        "value": 1,
+        "confidence": "low",
+        "rationale": "Historical research reflections provide concise political-power mechanisms through a narrow set of examples. This INS depth is a new interpretation of the cited prior assessment, not a full-text measurement.",
+        "refs": [
+          "analysis/analysis_glasppol_261019_0144.md#g0742"
+        ]
+      }
+    },
+    "connections": {
+      "status": "partial",
+      "mechanisms": [],
+      "joins": [],
+      "inspected": [
+        "Book-specific prior repository assessment: analysis/analysis_glasppol_261019_0144.md#g0742"
+      ],
+      "limitations": "Bounded review of the listed materials. The full book, all chapters and all possible cross-domain explanations have not been inspected for this schema. Missing records are not evidence of no connections."
+    },
+    "research": {
+      "reviewed": "2026-10-20",
+      "domainBasis": "Manual semantic reading of book-specific prior assessment; no title-keyword rubric or automatic grade conversion.",
+      "primaryReview": null,
+      "unknownDomains": [
+        "SCI",
+        "QNT",
+        "CMP",
+        "HTC",
+        "ENG",
+        "ENE",
+        "MAT",
+        "PRD",
+        "QLT",
+        "LOG",
+        "TRD",
+        "SCL",
+        "INN",
+        "ECO",
+        "FIN",
+        "MIL",
+        "STR",
+        "HEU"
+      ],
+      "unknownReason": "The inspected materials do not establish domain-specific depth for these fields. Absence of discussion in a short assessment or catalog description is not evidence of absence in the book. Further contents or full-text evidence remains necessary.",
+      "pageAttempts": 3,
+      "pageReason": "Audio original. No verified paginated print or ebook edition was found; listening duration cannot be converted into a page count. The publisher identifies an Audible exclusive adaptation of two speeches, and the contemporary AP report states there would be no print or ebook edition.",
+      "newAmazonObservation": null,
+      "amazonReviewReason": "No cached matching product response; public collection stopped at CAPTCHA/Server Busy.",
+      "domainAudit": "data/enrichment_261020/domains_a/assessments.json",
+      "pageAudit": "data/enrichment_261020/domains_b/page-gap-results.json"
+    }
+  }
+}

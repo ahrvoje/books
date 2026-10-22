@@ -12,7 +12,9 @@ Earlier page-count update: all 15 tests and offline Chromium checks at six width
 
 `docs/index.html` is one monolithic, dependency-free HTML file. It contains the catalog, links to cited repository analyses, styles and application code. It needs no server, account, installation or network connection. External evidence and purchase links are optional.
 
-The 43-variable model supports signed normalized scoring, independent filters, selection, settings import/export and an optional Pareto plot. Matching and filtered books are separately sorted by score. All rows render without pagination. Authors follow titles on the same line. The Columns panel selects raw values and score contributions; phones show the selected facts below each title.
+The 44-variable model supports signed normalized scoring, independent filters, selection, settings import/export and an optional Pareto plot. Matching and filtered books are separately sorted by score. All rows render without pagination. Authors follow titles on the same line. The Columns panel selects raw values and score contributions; phones show the selected facts below each title.
+
+The [reference-page collection](data/reference_pages_261022/report.html) adds `RP` for all current recommended and vetoed works. Counts identify documented reference sections in an edition; unknowns stay explicit. It starts disabled with zero weight. Existing settings acquire that disabled term on restore or import. The build checks membership and inclusive range arithmetic. The focused browser test covers the new column, rate scoring, filtering, evidence, vetoed rows and mobile layout. The older full browser suite currently stops at its unchanged header assertion (line 25); that unrelated layout is outside this change.
 
 The initial ranking reproduces the current 15-rule evaluation. Domain variables, page counts, source-count scoring and connection measures start inactive. Improved ideal-book defaults remain for later review.
 

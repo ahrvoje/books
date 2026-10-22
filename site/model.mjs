@@ -46,6 +46,7 @@ export const REGISTRY = [
   ...DOMAIN_IDS.map((id, i) => ({ id, name: domains[i][0], description: domains[i][1], max: 4, weight: 0, unit: 'depth', group: 'Domains' })),
   { id: 'SRC', name: 'Contributing sources', max: 10, weight: 0, unit: 'sources', group: 'Length and sources', description: 'Distinct recorded source IDs, not independent endorsements.' },
   { id: 'PG', name: 'Edition length', max: 1000, weight: 0, unit: 'pages', group: 'Length and sources', description: 'Verified pages in the identified edition or complete nominated series.' },
+  { id: 'RP', name: 'Reference pages', max: 100, weight: 0, unit: 'pages', group: 'Length and sources', description: 'Documented pages of references, bibliography, or endnotes in an identified edition. Scope varies by source; excludes the index. Unknown is not zero. More pages do not establish better evidence.' },
   ...[
     ['COV', 'Target coverage', 'Weighted coverage of the desired domain depths.'],
     ['FLOOR', 'Weakest target coverage', 'Coverage of the least satisfied target domain.'],
@@ -61,7 +62,7 @@ export const CORE_COLUMNS = ['year', 'raw:PG', 'raw:O15', 'raw:SRC'];
 export const DEFAULT_COLUMNS = [...CORE_COLUMNS];
 const columnNames = { E: 'Evidence', S: 'Systems integration', U: 'Strategic utility', M: 'Causal depth', D: 'Information density',
   R: 'Durability', F: 'Domain fit', A: 'Expert authority', N: 'Narrative clarity', P: 'Prose precision', T11: 'Unwanted theme',
-  T12: 'Secondary topic', H13: 'Topic age', P14: 'Publication age', O15: 'Amazon ratings', PG: 'Pages', SRC: 'Sources' };
+  T12: 'Secondary topic', H13: 'Topic age', P14: 'Publication age', O15: 'Amazon ratings', PG: 'Pages', RP: 'Reference pages', SRC: 'Sources' };
 export const COLUMNS = [
   { id: 'year', label: 'Original year', short: 'Year', kind: 'metadata' },
   { id: 'periodEnd', label: 'Central historical period end', short: 'Period end', kind: 'metadata' },
@@ -108,6 +109,10 @@ export function defaultModel(reviewYear = 2026) {
     columns: [...DEFAULT_COLUMNS], columnsMode: 'active',
     axes: [{ kind: 'aggregate', id: 'BASE', direction: 'max', label: 'Repository score', terms: [] },
       { kind: 'raw', id: 'PG', direction: 'min', label: 'Pages', terms: [] }] };
+}
+export function restoreOptionalTerms(model) {
+  if (model?.version === VERSION && model.terms && !Object.hasOwn(model.terms, 'RP')) model.terms.RP = defaultTerm('RP');
+  return model;
 }
 export function normalize(v, t) {
   let n;

@@ -1,0 +1,259 @@
+{
+  "alternate_locations": {
+    "servers": [
+      {
+        "server": "dn721909.ca.archive.org",
+        "dir": "/0/items/year-in-dev"
+      },
+      {
+        "server": "dn760106.eu.archive.org",
+        "dir": "/0/items/year-in-dev"
+      }
+    ],
+    "workable": [
+      {
+        "server": "dn721909.ca.archive.org",
+        "dir": "/0/items/year-in-dev"
+      },
+      {
+        "server": "dn760106.eu.archive.org",
+        "dir": "/0/items/year-in-dev"
+      }
+    ]
+  },
+  "created": 1792654727,
+  "d1": "ia601002.us.archive.org",
+  "d2": "ia801002.us.archive.org",
+  "dir": "/34/items/year-in-dev",
+  "files": [
+    {
+      "name": "YearInDev.pdf",
+      "source": "original",
+      "mtime": "1609357112",
+      "size": "79905761",
+      "md5": "80a824df9d49806f4afcbb40928fadee",
+      "crc32": "6903ebfa",
+      "sha1": "0be27aa9734e320050e40133b07cbd71e4e3e8a3",
+      "format": "Image Container PDF"
+    },
+    {
+      "name": "YearInDev_chocr.html.gz",
+      "source": "derivative",
+      "format": "chOCR",
+      "original": "YearInDev_jp2.zip",
+      "mtime": "1609360527",
+      "size": "5350494",
+      "md5": "c83be9b5356025707c427daccfb0ad8e",
+      "crc32": "160888b6",
+      "sha1": "0003bf9478676b8529fd07477c192cde1b4538f7"
+    },
+    {
+      "name": "YearInDev_djvu.txt",
+      "source": "derivative",
+      "format": "DjVuTXT",
+      "original": "YearInDev_djvu.xml",
+      "mtime": "1609360584",
+      "size": "407609",
+      "md5": "5300aa73a9fa21a083d3df8b28d3d266",
+      "crc32": "3823cfe2",
+      "sha1": "3b0ce64b401a11b262a6169cebf1a5d93d66c210"
+    },
+    {
+      "name": "YearInDev_djvu.xml",
+      "source": "derivative",
+      "format": "Djvu XML",
+      "original": "YearInDev_chocr.html.gz",
+      "mtime": "1609360576",
+      "size": "5517527",
+      "md5": "42f21d66c94e4b2307069ddd186515f3",
+      "crc32": "0e4ee922",
+      "sha1": "24533486a7cfd9c6721d11ba6ab1c83ac60e84ce"
+    },
+    {
+      "name": "YearInDev_hocr.html",
+      "source": "derivative",
+      "hocr_char_to_word_module_version": "1.0.0",
+      "hocr_char_to_word_hocr_version": "1.1.2",
+      "format": "hOCR",
+      "original": "YearInDev_chocr.html.gz",
+      "mtime": "1617590970",
+      "size": "10399455",
+      "md5": "13451318d45dfedfc600c9f406dd8425",
+      "crc32": "08c956d4",
+      "sha1": "fd4f1d3300c17e4690b5e8ea18c986a805fef87d"
+    },
+    {
+      "name": "YearInDev_hocr_pageindex.json.gz",
+      "source": "derivative",
+      "hocr_pageindex_module_version": "1.0.0",
+      "hocr_pageindex_hocr_version": "1.1.0",
+      "format": "OCR Page Index",
+      "original": "YearInDev_hocr.html",
+      "mtime": "1617591041",
+      "size": "1386",
+      "md5": "c2ec01132f16cd27cd9f6f29661896b4",
+      "crc32": "e2191371",
+      "sha1": "55cc333d5d5b3657d27c4c509079381a823c74e1"
+    },
+    {
+      "name": "YearInDev_hocr_searchtext.txt.gz",
+      "source": "derivative",
+      "hocr_fts_text_module_version": "1.1.0",
+      "hocr_fts_text_hocr_version": "1.1.0",
+      "word_conf_0_10": "219",
+      "word_conf_11_20": "140",
+      "word_conf_21_30": "149",
+      "word_conf_31_40": "151",
+      "word_conf_41_50": "158",
+      "word_conf_51_60": "167",
+      "word_conf_61_70": "257",
+      "word_conf_71_80": "463",
+      "word_conf_81_90": "1414",
+      "word_conf_91_100": "66148",
+      "format": "OCR Search Text",
+      "original": "YearInDev_hocr.html",
+      "mtime": "1617591065",
+      "size": "146847",
+      "md5": "66733b54f176d66de667c364caa3d2e5",
+      "crc32": "ac51fd9f",
+      "sha1": "96665ab5282ae2ada71c13dca7184a54edb130aa"
+    },
+    {
+      "name": "YearInDev_jp2.zip",
+      "source": "derivative",
+      "format": "Single Page Processed JP2 ZIP",
+      "original": "YearInDev.pdf",
+      "mtime": "1609358146",
+      "size": "73021455",
+      "md5": "de3ffb826f74d1ee342182b3c136fa7a",
+      "crc32": "3b942a81",
+      "sha1": "3de4689ab40c1cbf5305a408548c238df3328854",
+      "filecount": "114"
+    },
+    {
+      "name": "YearInDev_page_numbers.json",
+      "source": "derivative",
+      "format": "Page Numbers JSON",
+      "original": "YearInDev_djvu.xml",
+      "mtime": "1609360680",
+      "size": "21107",
+      "md5": "97223d2cba0dda8758326fd74cfb82b9",
+      "crc32": "327f06dd",
+      "sha1": "cc61c97253854e1b4256b1fe841352b87b79bfc6"
+    },
+    {
+      "name": "YearInDev_scandata.xml",
+      "source": "derivative",
+      "format": "Scandata",
+      "original": "YearInDev_djvu.xml",
+      "mtime": "1609360681",
+      "size": "40310",
+      "md5": "459ec96a9aa84fff3b3460aa4243dfc5",
+      "crc32": "114bf203",
+      "sha1": "17564439c9acfd636519a5bc242a2dd000fac7cd"
+    },
+    {
+      "name": "YearInDev_text.pdf",
+      "source": "derivative",
+      "format": "Additional Text PDF",
+      "original": "YearInDev_page_numbers.json",
+      "mtime": "1609365450",
+      "size": "18659279",
+      "md5": "83dd9776cb7a77ed050e0cba2267c862",
+      "crc32": "a381c41a",
+      "sha1": "76ec139619b4c98dea253340a1d177bd759cd402"
+    },
+    {
+      "name": "__ia_thumb.jpg",
+      "source": "original",
+      "mtime": "1617591102",
+      "size": "18560",
+      "md5": "83e5092339e86c24531a14dd00fa2fd4",
+      "crc32": "0e818bc1",
+      "sha1": "050604b76832866c1438b14ae04fc25ad3ec04bd",
+      "format": "Item Tile",
+      "rotation": "0"
+    },
+    {
+      "name": "year-in-dev_archive.torrent",
+      "source": "metadata",
+      "btih": "f39ae7f0f347ce1b7dfb57a15c77d231447258f8",
+      "mtime": "1617591084",
+      "size": "10941",
+      "md5": "f8a2039192d67ff44572ab0364da62d5",
+      "crc32": "c2782e52",
+      "sha1": "fd0ba2ec4a80a4150265730e86bb959d5e4f116e",
+      "format": "Archive BitTorrent"
+    },
+    {
+      "name": "year-in-dev_files.xml",
+      "source": "original",
+      "format": "Metadata",
+      "md5": "eaf7b58c981668ca1cdfdc5916022c3d",
+      "summation": "md5"
+    },
+    {
+      "name": "year-in-dev_meta.sqlite",
+      "source": "original",
+      "mtime": "1609357223",
+      "size": "11264",
+      "md5": "4f2f4468fc1e8c16c2d77c549ef02aaa",
+      "crc32": "48ef0f9f",
+      "sha1": "6754f3dc29a01ad0cb24e629908bf7c446d05366",
+      "format": "Metadata"
+    },
+    {
+      "name": "year-in-dev_meta.xml",
+      "source": "original",
+      "mtime": "1617591065",
+      "size": "1467",
+      "md5": "8b408945f71d0eb1cabd42666671711a",
+      "crc32": "720ec69d",
+      "sha1": "8de6bb40002939b0d76783993d0c248add2e01b8",
+      "format": "Metadata"
+    }
+  ],
+  "files_count": 16,
+  "item_last_updated": 1760266604,
+  "item_size": 193513462,
+  "metadata": {
+    "identifier": "year-in-dev",
+    "mediatype": "texts",
+    "collection": [
+      "opensource",
+      "community"
+    ],
+    "creator": "Data General",
+    "date": "1987",
+    "description": "A graphically rich account of a year in computer hardware and software development at minicomputer maker Data General in 1985.",
+    "language": "eng",
+    "scanner": "Internet Archive HTML5 Uploader 1.6.4",
+    "subject": [
+      "development",
+      "minicomputer"
+    ],
+    "title": "A Year in Development",
+    "uploader": "bitmason@gmail.com",
+    "publicdate": "2020-12-30 19:39:42",
+    "addeddate": "2020-12-30 19:39:42",
+    "curation": "[curator]validator@archive.org[/curator][date]20201230194106[/date][comment]checked for malware[/comment]",
+    "identifier-access": "http://archive.org/details/year-in-dev",
+    "identifier-ark": "ark:/13960/t80m2940g",
+    "ppi": "300",
+    "ocr": "tesseract 4.1.1",
+    "ocr_parameters": "-l eng",
+    "ocr_module_version": "0.0.10",
+    "ocr_detected_script": "Latin",
+    "ocr_detected_script_conf": "0.9959",
+    "ocr_detected_lang": "en",
+    "ocr_detected_lang_conf": "1.0000",
+    "page_number_confidence": "93.81",
+    "pdf_module_version": "0.0.6"
+  },
+  "server": "ia601002.us.archive.org",
+  "uniq": 1139690586,
+  "workable_servers": [
+    "ia601002.us.archive.org",
+    "ia801002.us.archive.org"
+  ]
+}

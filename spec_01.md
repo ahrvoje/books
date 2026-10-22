@@ -12,7 +12,7 @@ The site serves one reader: a theoretical physicist with strong interests in mec
 |---|---|---|
 | Stand-alone delivery | One monolithic, dependency-free `docs/index.html` with embedded data, links to cited repository analyses, CSS, and JavaScript. The file works by itself when copied to another folder and opened locally, or when served by a static host. | High: explicit requirement. |
 | Collection | Include each current work in `RECOMMENDED_BOOKS.md` once in the interactive Books view. Separate read-only views present the current veto and exclusion ledgers. | High: explicit requirement. |
-| Book model | 43 numeric fields: 15 existing rules, 20 domains, source count, page count, and six calculated measures of coverage and connection. A separate list of evidenced mechanisms preserves connections among any number of domains. | Moderate: proposed modeling design; definitions and arithmetic are explicit. |
+| Book model | 44 numeric fields: 15 existing rules, 20 domains, source count, page count, reference pages, and six calculated measures of coverage and connection. A separate list of evidenced mechanisms preserves connections among any number of domains. | Moderate: proposed modeling design; definitions and arithmetic are explicit. |
 | Initial ideal and ranking | Reproduce the current `RECOMMENDED_BOOKS.md` evaluation, including all 15 rules. New inputs have zero ranking weight, and no connection target is selected. Later defaults require an explicit replacement. | High: explicit requirement; arithmetic equivalence is specified below. |
 | Normalization | Every criterion supports a bounded level in `[0,1]` or `[-1,1]`, shown as `[0,100]` or `[-100,100]`. A separate signed weight converts that level to score points. | High: explicit requirement. |
 | Filtered books | Keep them in a separate muted list below the matching books. Both lists use the same current score. | High: explicit requirement. |
@@ -54,7 +54,7 @@ Keep all four configuration buttons above the results at every viewport width. U
 
 Use a semantic table with aligned score, year, source count, and page columns. Put the author after the title on the same line in smaller type. Allow long titles and authors to wrap. Keep selection and details controls separate from the purchase link. The default list emphasizes `TOTAL`.
 
-The **Columns** panel controls which optional columns appear in both lists. Offer each of the 43 variables as a raw value and as its contribution to the current score. Also offer original publication year, central historical period end, and repository baseline. Use readable names such as “Amazon ratings”; aliases belong in the variable editor. Label contributions as points so they cannot be mistaken for raw attainment. Default to Year → Pages → Amazon ratings → Sources only. Details stays last. Scoring changes do not add columns; manual column choices switch to a custom selection. Provide default, quality-contribution and recency presets. Column choices persist and round-trip with model settings; they never change scoring or filtering. Wide tables have horizontal scrolling accessible above the rows; phone rows show the selected labelled facts.
+The **Columns** panel controls which optional columns appear in both lists. Offer each of the 44 variables as a raw value and as its contribution to the current score. Also offer original publication year, central historical period end, and repository baseline. Use readable names such as “Amazon ratings”; aliases belong in the variable editor. Label contributions as points so they cannot be mistaken for raw attainment. Default to Year → Pages → Amazon ratings → Sources only. Details stays last. Scoring changes do not add columns; manual column choices switch to a custom selection. Provide default, quality-contribution and recency presets. Column choices persist and round-trip with model settings; they never change scoring or filtering. Wide tables have horizontal scrolling accessible above the rows; phone rows show the selected labelled facts.
 
 ### Library navigation and methodology
 
@@ -163,7 +163,7 @@ One display discrepancy was found during initial specification verification: *Th
 
 The site does not edit these ledgers. Changes to canonical assessments require the repository review process and a new data build.
 
-## 4. The 43-field model and its connection evidence
+## 4. The 44-field model and its connection evidence
 
 ### 4.1 Common rules
 
@@ -275,18 +275,21 @@ Structural validation checks fields, IDs, ranges, and dependencies. Deciding whe
 
 Each book has `connectionReview.status = unreviewed | partial | complete`, plus inspected material and limitations. Complete means the declared evidence review is finished, not a claim to have read every page. An empty completed review means no qualifying connection was found. A partial or unreviewed set is unknown for final connection scores, not evidence of no connections.
 
-### 4.5 Inputs 36–37: source count and page count
+### 4.5 Inputs 36–38: source count, page count and reference pages
 
 | # | Alias | Value and definition | Evidence and limitations |
 |---:|---|---|---|
 | 36 | `SRC` | Number of distinct contributing source IDs for the work in `SOURCES.md`; integer ≥1 for this collection. | Deduplicate IDs. Repeated comments, mentions, or editions within one source do not increase it. This measures recorded exposure, not independent evidence of quality. |
 | 37 | `PG` | Number of pages in one identified reading edition; positive integer or unknown. | Record ISBN or another edition ID, language, format, edition year, provider URL, and retrieval date. Prefer the linked paperback; otherwise identify the actual edition used. |
+| 38 | `RP` | Distinct pages in documented reference, bibliography, source-note or endnote sections; non-negative integer or unknown. | Store the edition, source, retrieval date, inclusive ranges or contents boundaries, and confidence. Exclude indexes, acknowledgments, glossaries, inline citations and online supplements. Unlisted sections can remain outside the documented count. Missing is not zero. |
 
 Count all sources that the repository records as contributing to the work. Do not relabel them as independent endorsements. A wider source count may help discovery, but has zero weight in the default quality score.
 
 For a nominated multi-volume series, `PG` is the sum for the complete nominated set, using a documented compatible edition set. If only some volume lengths are known, `PG` is unknown. A single nominated volume uses that volume's length. Do not use ebook location counts, audiobook minutes, or a guessed average as page counts.
 
-### 4.6 Fields 38–43: derived measures for an optional connection target
+`RP` is an optional extent variable, not a quality judgment or citation count. Contents boundaries can include a final blank page. Do not divide it by `PG` unless both use the same edition. Catalogued ranges and contents boundaries normally support moderate confidence. Preserve scores and gates when collecting this metadata; its default weight is zero. Every current recommended and vetoed work must have an `RP` record, including explicit unknowns. Collection proceeds through recommended books in descending score order, then vetoed books. Use cached evidence before new retrieval, and retain unresolved cases after bounded attempts.
+
+### 4.6 Fields 39–44: derived measures for an optional connection target
 
 These six fields are calculated from the book evidence and an optional **connection target**, not assessed as six more subjective grades. The initial ideal-book model is the existing repository evaluation in section 5.3. Connection measures extend it only when the user configures a target and chooses how to use the results. Every field can then be filtered, transformed for ranking, or used on either Pareto axis.
 
@@ -312,12 +315,12 @@ Calculate connected coverage as follows:
 
 | # | Alias | Name | Definition and range |
 |---:|---|---|---|
-| 38 | `COV` | Target coverage | `100 × sum(w_i × a_i) / W`; 0–100. Rewards relevant depth, whether connected or not. |
-| 39 | `FLOOR` | Weakest target coverage | `100 × min(a_i for i in T)`; 0–100. Missing or shallow targets cannot be concealed by strong other topics. |
-| 40 | `LINK` | Connected target strength | Strongest confidence-qualified connected coverage from the algorithm above; 0–100. Includes domain depth and connection strength. |
-| 41 | `SPAN` | Domains in one connected explanation | At level `tau`, the largest number of selected domains meeting their desired depths in a qualifying component; 0–the size of `T`. |
-| 42 | `ORDER` | Domains in one joint mechanism | At level `tau`, the largest number of selected domains meeting their desired depths in one accepted mechanism record; 0–the size of `T`. Distinguishes a joint explanation from a longer chain. |
-| 43 | `FIT` | Integrated connection fit | `LINK × (0.5 + 0.5 × FLOOR/100)`; 0–100. A missing required domain halves connected-coverage credit; complete depth coverage applies no reduction. |
+| 39 | `COV` | Target coverage | `100 × sum(w_i × a_i) / W`; 0–100. Rewards relevant depth, whether connected or not. |
+| 40 | `FLOOR` | Weakest target coverage | `100 × min(a_i for i in T)`; 0–100. Missing or shallow targets cannot be concealed by strong other topics. |
+| 41 | `LINK` | Connected target strength | Strongest confidence-qualified connected coverage from the algorithm above; 0–100. Includes domain depth and connection strength. |
+| 42 | `SPAN` | Domains in one connected explanation | At level `tau`, the largest number of selected domains meeting their desired depths in a qualifying component; 0–the size of `T`. |
+| 43 | `ORDER` | Domains in one joint mechanism | At level `tau`, the largest number of selected domains meeting their desired depths in one accepted mechanism record; 0–the size of `T`. Distinguishes a joint explanation from a longer chain. |
+| 44 | `FIT` | Integrated connection fit | `LINK × (0.5 + 0.5 × FLOOR/100)`; 0–100. A missing required domain halves connected-coverage credit; complete depth coverage applies no reduction. |
 
 For `SPAN` and `ORDER`, a component/record must contain at least two selected domains with positive depth, as for `LINK`. The count meeting desired depth can then be 0, 1, or more. Invariants: `ORDER ≤ SPAN ≤ size(T)`, `LINK ≤ COV`, and `FIT ≤ LINK`. Counts remain native counts; their initial normalization, once a target is configured, divides by `size(T)`.
 
@@ -377,7 +380,7 @@ The sample suggests conversion chains, complementary inputs, bottlenecks, resear
 
 ### 5.1 One evaluator: normalize, shape, and weight
 
-Every one of the 43 numeric fields can independently be a filter, a ranking variable, a Pareto variable, or all three. This includes the six derived connection measures once their target is configured. A filter does not enable scoring, and a scoring weight does not enable a filter. Mechanism records supply evidence; their count is not a scoring variable.
+Every one of the 44 numeric fields can independently be a filter, a ranking variable, a Pareto variable, or all three. This includes the six derived connection measures once their target is configured. A filter does not enable scoring, and a scoring weight does not enable a filter. Mechanism records supply evidence; their count is not a scoring variable.
 
 Keep three quantities distinct: raw value `v` in native units, normalized level `n`, and contribution `c` in score points. Each term has a normalization, a curve, and a signed weight. Use the same evaluator for ranking and weighted axes:
 
@@ -452,6 +455,7 @@ All initial terms use `[0,1]`, no reversal, and `b=0`. These mappings reproduce 
 | `SPAN`, `ORDER` | Raw anchors `0..size(T)`; requires a configured target. | Linear | 0; scoring off |
 | `SRC` | Fixed raw anchors `0..10` sources; editable when enabled. | Linear | 0; scoring off |
 | `PG` | Fixed raw anchors `0..1000` pages; editable when enabled. | Linear | 0; scoring off |
+| `RP` | Fixed raw anchors `0..100` reference pages; editable when enabled. | Linear | 0; scoring off |
 
 For example, normalized evidence gives `20×(E/20)² = E²/20`; normalized topic age gives `−12×clamp(H13/300,0,1) = −min(12,H13/25)`. A normalized criterion is bounded; the weighted contribution and final sum need not lie in either normalized range.
 
@@ -527,7 +531,7 @@ For a Pareto axis, an unknown input with a nonzero coefficient prevents a coordi
 
 ### 6.1 Filters
 
-Each of the 43 numeric fields offers a filter independently of whether its scoring weight is zero. Connection fields require a configured target:
+Each of the 44 numeric fields offers a filter independently of whether its scoring weight is zero. Connection fields require a configured target:
 
 - Numeric inputs: inclusive minimum and maximum in native units.
 - `T11` and `T12`: either, flag present, or flag absent.

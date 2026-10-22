@@ -6,6 +6,10 @@ The initial ranking uses the repository's existing 15-rule evaluation. Filters, 
 
 ## Use
 
+**Reference pages (`RP`)** is available in **Adjust scoring**, **Filter books**, **Columns**, and **Pareto tradeoffs**. It starts disabled with zero weight, so saved scores do not change. The [collection report](data/reference_pages_261022/report.html) lists every recommended and vetoed work, the documented section ranges, and remaining unknowns. Counts have moderate confidence and identify an edition; bibliography-only records can omit separate notes. Do not combine RP and total pages unless their editions match. More reference pages do not establish better evidence.
+
+The [reference-page gap review](data/reference_gaps_261022/REPORT.md) checked the 100 highest-ranked books with missing reference-page counts and added 28 verified counts. The remaining 72 are still unknown; documented ranges, edition details, and unresolved cases are retained in the report. Scores are unchanged.
+
 The [top-200 metadata update](data/top200_261022/REPORT.md) adds 25 print-edition page counts and 23 verified Amazon rating aggregates. After recalculating the obscurity deductions, the top 200 has complete page counts and 151 verified Amazon counts; 49 counts remain unknown after retrieval attempts. The active catalog is `data/top200_261022/compiled.json`. All content assessments and non-rating deductions are unchanged.
 
 The [remaining-title review](data/remaining_261021/REPORT.md) resolves 954 of 968 records after four identity splits: 683 new eligible works, 33 new vetoed works, 156 new hard exclusions, 52 existing-work matches, 27 within-batch duplicates and three non-book references. Fourteen records remain unresolved. All new scores have low confidence; density estimates use descriptions and selected evidence, not full-text coverage. The catalog now contains 3,630 recommended, 238 vetoed and 1,414 excluded works. The active catalog is `data/remaining_261021/compiled.json`.
@@ -85,6 +89,8 @@ The browser test copies only `docs/index.html` to an isolated folder, opens that
 | `site/methodology.html` | Readable methodology, with the precise repository instructions embedded during the build. |
 | `site/enrichment.json` | Evidence-backed domain grades, edition lengths, connection records, and explicit unknowns. |
 | `site/editions.json` | Supplemental edition evidence for recommended and vetoed works; original enrichment records are preserved. |
+| `site/reference-pages.json` | Reference-page variable for every current recommended and vetoed work, with edition, section ranges, source, confidence and explicit unknowns. |
+| `data/reference_pages_261022/` | Ranked collection attempts, cached library and contents evidence, reviewed web records, coverage report and validation. |
 | `data/pages_density_261021/` | Historical compiled catalog, page-count evidence, unresolved cases, three density decisions and preservation checks. |
 | `data/ratings_pareto_261021/` | Rating-update snapshot, recovered Amazon counts, unresolved gaps, score changes and preservation checks. |
 | `site/merge-enrichment.mjs` | Validates full-catalog review coverage and merges the dated research artifacts. |

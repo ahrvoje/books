@@ -41,7 +41,22 @@ export function validateConnections(book) {
 export function buildDataset() {
   const compiled = json(json('data/catalog.json').compiled), ledger = rows(read('RECOMMENDED_BOOKS.md'));
   const editions = json('site/editions.json');
+  const referencePages = json('site/reference-pages.json');
   const currentIds = new Set(compiled.currentBooks.map(b=>b.id));
+  assert.deepEqual(Object.keys(referencePages).sort(), [...currentIds].sort(), 'Reference-page coverage differs from current scored membership');
+  for (const [id,r] of Object.entries(referencePages)) {
+    assert(r.pages === null || Number.isInteger(r.pages) && r.pages >= 0, `Invalid reference-page count: ${id}`);
+    assert(['unknown','low','moderate','high'].includes(r.confidence), `Invalid reference confidence: ${id}`);
+    if (r.pages !== null) {
+      assert(r.edition?.id && safeURL(r.url) && r.ranges?.length, `Missing reference-page evidence: ${id}`);
+      const pages = new Set();
+      for (const span of r.ranges) {
+        assert(Number.isInteger(span.start) && Number.isInteger(span.end) && span.start > 0 && span.end >= span.start, `Invalid reference range: ${id}`);
+        for(let p=span.start;p<=span.end;p++) pages.add(p);
+      }
+      assert.equal(r.pages, pages.size, `Reference range arithmetic mismatch: ${id}`);
+    }
+  }
   for(const [id,e] of Object.entries(editions)){
     assert(currentIds.has(id), `Edition for a non-current scored work: ${id}`);
     assert(Number.isInteger(e.pages) && e.pages>0 && e.id && safeURL(e.url) && e.retrieved && e.language && e.format && Number.isInteger(e.year), `Incomplete edition: ${id}`);
@@ -64,6 +79,7 @@ export function buildDataset() {
     return { id: b.id, title: titleOf(row[3]), author: row[2], year: row[1], score,
       veto: row[5], confidence: row[6], sources: row[7], analysis: analysisPath(link(row[3])),
       edition: editions[b.id] || null,
+      referencePages: referencePages[b.id],
       ratingReview: b.ratingReview?.analysis || '',
       amazon: {count:b.amazon?.count ?? null,url:safeURL(b.amazon?.url),marketplace:b.amazon?.marketplace || '',product:b.amazon?.asin || '',retrieved:b.amazon?.retrievedAt || b.amazon?.retrieved || b.amazon?.verifiedAt || '',limitations:b.amazon?.status || 'No verified count.'},
       reason: b.vetoReason || b.reason || b.eligibility || b.assessment?.note || 'See the retained assessment for the veto rationale.' };
@@ -100,7 +116,7 @@ export function buildDataset() {
     assert.equal(row[6],pageCell(extra.edition), `Recommended page-count mismatch: ${b.id}`);
     assert.equal(row[7],ratingCell(b.amazon), `Recommended rating-count mismatch: ${b.id}`);
     REGISTRY.slice(0, 10).forEach((r, i) => { assert(b.raw[i] >= 0 && b.raw[i] <= r.max); values[r.id] = b.raw[i]; });
-    Object.assign(values, { T11: -b.T11 / 10, T12: -b.T12 / 10, SRC: sources.length, O15: b.amazon?.count ?? null, PG: extra.edition?.pages ?? null });
+    Object.assign(values, { T11: -b.T11 / 10, T12: -b.T12 / 10, SRC: sources.length, O15: b.amazon?.count ?? null, PG: extra.edition?.pages ?? null, RP: referencePages[b.id].pages });
     for (const id of DOMAIN_IDS) {
       const e = extra.domains?.[id]; if (!e) continue;
       assert(Number.isInteger(e.value) && e.value >= 0 && e.value <= 4 && e.refs?.length && e.rationale && ['high', 'moderate', 'low'].includes(e.confidence));
@@ -119,6 +135,9 @@ export function buildDataset() {
       }
     });
     Object.assign(evidence, extra.domains || {});
+    const rp = referencePages[b.id];
+    evidence.RP = { confidence: rp.confidence, refs: [rp.url].filter(Boolean),
+      rationale: rp.pages === null ? rp.reason : `${rp.pages} documented reference pages in ${rp.edition.id}: ${rp.ranges.map(s=>`${s.label} ${s.start}–${s.end}`).join('; ')}. ${rp.sameEditionAsPG ? 'Same edition as the length field.' : 'Reference edition can differ from the length field; do not divide the two counts without matching editions.'} ${rp.limitation}` };
     if(b.ratingReview) evidence.O15={rationale:b.amazon.status,confidence:b.amazon.confidence,refs:[b.ratingReview.analysis,b.amazon.url]};
     if (extra.edition) evidence.PG = {
       rationale: `${extra.edition.pages} pages in ${extra.edition.id}; ${extra.edition.language}, ${extra.edition.format}, edition year ${extra.edition.year}. ${extra.edition.notes || extra.edition.note || ''}`,
@@ -132,6 +151,7 @@ export function buildDataset() {
       verdict: b.verdict || '', evidence, analysis: analysisPath(b.reviewAnchor || b.currentReview || b.priorReport),
       amazon: { count: values.O15, url: safeURL(b.amazon?.url), marketplace: b.amazon?.marketplace || '', product: b.amazon?.asin || b.amazon?.productIdentifier || b.amazon?.product || '', retrieved: b.amazon?.verifiedAt || b.amazon?.retrievedAt || b.amazon?.retrieved || b.amazon?.attemptedAt || '', limitations: b.amazon?.status || 'See source assessment.' },
       reader: b.reader || '', edition: extra.edition || null, research: extra.research || null, ratingReview: b.ratingReview?.analysis || '',
+      referencePages: rp,
       connections: extra.connections || { status: 'unreviewed', mechanisms: [], joins: [], limitations: 'Domain and connection evidence has not been coded under this model.' },
       base: b.total, ledgerScore: +row[4], ledgerMismatch: false
     };
@@ -168,6 +188,7 @@ export function buildDataset() {
   return { version: 2, modelVersion: 3, reviewYear: 2026, datasetHash: hash, generated: new Date().toISOString(), books, vetoed, excluded: exclusions, sources: sourceMap, issues, documents,
     coverage: {
       books: books.length, pages: books.filter(b => b.edition).length,
+      referencePages: books.filter(b => known(b.values.RP)).length,
       domains: books.filter(b => DOMAIN_IDS.every(id => known(b.values[id]))).length,
       domainBooks: books.filter(b => DOMAIN_IDS.some(id => known(b.values[id]))).length,
       domainValues: books.reduce((n,b) => n + DOMAIN_IDS.filter(id => known(b.values[id])).length, 0),
