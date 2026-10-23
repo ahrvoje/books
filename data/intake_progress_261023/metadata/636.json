@@ -1,0 +1,92 @@
+{
+  "index": 636,
+  "title": "More: The 10,000-Year Rise of the World Economy",
+  "url": "https://openlibrary.org/search.json?title=More%3A%20The%2010%2C000-Year%20Rise%20of%20the%20World%20Economy&author=Coggan%2C%20P.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:00.189Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Philip Coggan"
+        ],
+        "first_publish_year": 2020,
+        "isbn": [
+          "1541736311",
+          "161039982X",
+          "1610399846",
+          "1788163850",
+          "1781258082",
+          "9781541736313",
+          "9781788163859",
+          "9781781258088",
+          "9781610399845",
+          "9781610399821",
+          "1610399838",
+          "1781258090",
+          "9781781258095",
+          "9781610399838"
+        ],
+        "key": "/works/OL21660377W",
+        "language": [
+          "eng"
+        ],
+        "title": "More"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=More&author=Coggan&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "More",
+    "key": "/works/OL21660377W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL962165A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Economic history"
+    ],
+    "covers": [
+      10829944
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-26T01:46:04.509037"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-04-17T02:25:29.673185"
+    }
+  }
+}

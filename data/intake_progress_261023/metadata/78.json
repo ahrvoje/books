@@ -1,0 +1,76 @@
+{
+  "index": 78,
+  "title": "GDP",
+  "url": "https://openlibrary.org/search.json?isbn=0691156794&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:56:37.468Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Diane Coyle"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "0691156794",
+          "9780691156798"
+        ],
+        "key": "/works/OL19367055W",
+        "language": [
+          "eng"
+        ],
+        "title": "GDP: A Brief but Affectionate History"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "History",
+      "Gross domestic product",
+      "Econometrics",
+      "Economics",
+      "Economic history",
+      "Economics, history",
+      "Gross national product"
+    ],
+    "key": "/works/OL19367055W",
+    "title": "GDP: A Brief but Affectionate History",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL228027A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8488986
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Why did the size of the U S economy increase by 3 percent on one day in mid-2013 - or Ghana's balloon by 60 percent overnight in 2010? Why did the U K financial industry show its fastest expansion ever at the end of 2008 - just as the world's financial system went into meltdown? This title deals with these questions."
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-03-30T11:48:12.446436"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-10-09T20:33:27.631670"
+    }
+  }
+}

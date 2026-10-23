@@ -1,0 +1,80 @@
+{
+  "index": 595,
+  "title": "Various and Ingenious Machines (2 Vols. )",
+  "url": "https://openlibrary.org/search.json?title=Various%20and%20Ingenious%20Machines%20(2%20Vols.%20)&author=Bryan%20Lawton&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:44.046Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Bryan Lawton"
+        ],
+        "first_publish_year": 2004,
+        "isbn": [
+          "9789004136090",
+          "9004136096"
+        ],
+        "key": "/works/OL9090913W",
+        "language": [
+          "eng"
+        ],
+        "title": "Various and Ingenious Machines"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Various%20and%20Ingenious%20Machines&author=Bryan%20Lawton&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T23:49:31.020345"
+    },
+    "subjects": [
+      "Mechanical engineering"
+    ],
+    "latest_revision": 3,
+    "key": "/works/OL9090913W",
+    "title": "Various and Ingenious Machines",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3191340A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-01T03:29:09.642157"
+    },
+    "covers": [
+      2278472
+    ],
+    "revision": 3
+  }
+}

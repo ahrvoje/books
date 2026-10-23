@@ -1,0 +1,72 @@
+{
+  "index": 189,
+  "title": "Inside the Peloton",
+  "url": "https://openlibrary.org/search.json?isbn=1848271115&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:57:50.838Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Nicolas Roche"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "9781848271111",
+          "9781446463628",
+          "1446463621",
+          "1848271115"
+        ],
+        "key": "/works/OL21037542W",
+        "language": [
+          "eng"
+        ],
+        "title": "Inside the Peloton"
+      }
+    ]
+  },
+  "work": {
+    "title": "Inside the Peloton",
+    "subjects": [
+      "Cycling",
+      "Athletes, biography",
+      "Ireland, biography",
+      "Cyclists",
+      "Biography"
+    ],
+    "key": "/works/OL21037542W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3956663A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      14306616
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-02T23:17:17.312206"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-05-04T08:04:36.389409"
+    }
+  }
+}

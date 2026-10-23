@@ -1,0 +1,72 @@
+{
+  "index": 54,
+  "title": "The Glass Bathyscaphe",
+  "url": "https://openlibrary.org/search.json?title=The%20Glass%20Bathyscaphe&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:26.724Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Alan Macfarlane"
+        ],
+        "first_publish_year": 2002,
+        "isbn": [
+          "9781861973948",
+          "9781861974006",
+          "1861974000",
+          "1861973942"
+        ],
+        "key": "/works/OL15624702W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Glass Bathyscaphe"
+      }
+    ]
+  },
+  "work": {
+    "title": "The Glass Bathyscaphe",
+    "subjects": [
+      "Long Now Manual for Civilization",
+      "Glass",
+      "History",
+      "Social aspects",
+      "Glass trade"
+    ],
+    "key": "/works/OL15624702W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL536894A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      917729
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-01-06T00:32:00.119318"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-12-07T13:51:37.857795"
+    }
+  }
+}

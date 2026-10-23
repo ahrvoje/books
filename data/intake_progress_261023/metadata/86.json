@@ -1,0 +1,67 @@
+{
+  "index": 86,
+  "title": "Mind-Body Problem",
+  "url": "https://openlibrary.org/search.json?isbn=0233977279&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:56:43.227Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Rebecca Goldstein"
+        ],
+        "first_publish_year": 1985,
+        "isbn": [
+          "0233977279",
+          "9780233977270"
+        ],
+        "key": "/works/OL11323652W",
+        "language": [
+          "eng"
+        ],
+        "title": "The mind-body problem"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T04:27:21.027858"
+    },
+    "subjects": [
+      "Married people",
+      "Fiction"
+    ],
+    "latest_revision": 3,
+    "key": "/works/OL11323652W",
+    "title": "The mind-body problem",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL4757062A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2019-11-27T21:42:06.885011"
+    },
+    "covers": [
+      9156889
+    ],
+    "revision": 3
+  }
+}

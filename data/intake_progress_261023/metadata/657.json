@@ -1,0 +1,123 @@
+{
+  "index": 657,
+  "title": "Soft Machines: Nanotechnology and Life",
+  "url": "https://openlibrary.org/search.json?title=Soft%20Machines%3A%20Nanotechnology%20and%20Life&author=Jones%2C%20R.A.L.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:07.200Z",
+  "status": 200,
+  "search": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Richard A. L. Jones"
+        ],
+        "first_publish_year": 2004,
+        "isbn": [
+          "0199226628",
+          "0198528558",
+          "9780198528555",
+          "9780199226627"
+        ],
+        "key": "/works/OL1821392W",
+        "language": [
+          "eng"
+        ],
+        "title": "Soft machines"
+      },
+      {
+        "author_name": [
+          "Richard A. Jones"
+        ],
+        "first_publish_year": 2008,
+        "isbn": [
+          "128134611X",
+          "9781281346117"
+        ],
+        "key": "/works/OL29379678W",
+        "language": [
+          "eng"
+        ],
+        "title": "Soft Machines"
+      },
+      {
+        "author_name": [
+          "Richard A. L. Jones"
+        ],
+        "first_publish_year": 2007,
+        "isbn": [
+          "9780191567247",
+          "0191567248"
+        ],
+        "key": "/works/OL28811801W",
+        "language": [
+          "eng"
+        ],
+        "title": "Soft Machines"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Soft%20Machines&author=Jones&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "first_publish_date": "2004",
+    "title": "Soft machines",
+    "covers": [
+      131079
+    ],
+    "lc_classifications": [
+      "T174.7 .J66 2004"
+    ],
+    "key": "/works/OL1821392W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL218365A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "620.5"
+    ],
+    "subjects": [
+      "Nanotechnology"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "Enthusiasts look forward to a time when tiny machines reassemble matter and process information but is their vision realistic? 'Soft Machines' explains why the nanoworld is so different to the macro-world that we are all familar with and shows how it has more in common with biology than conventional engineering."
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:25:39.660399"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-08-09T09:00:34.677587"
+    }
+  }
+}

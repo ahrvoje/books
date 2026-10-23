@@ -1,0 +1,78 @@
+{
+  "index": 303,
+  "title": "Less and More",
+  "url": "https://openlibrary.org/search.json?isbn=3899553977&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:27.587Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Klaus Klemp",
+          "Keiko Ueki-Polet"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "9783899553970",
+          "9783899555844",
+          "3899555848",
+          "3899553977"
+        ],
+        "key": "/works/OL20665131W",
+        "language": [
+          "eng"
+        ],
+        "title": "Less and More"
+      }
+    ]
+  },
+  "work": {
+    "title": "Less and More",
+    "covers": [
+      9332525
+    ],
+    "key": "/works/OL20665131W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7475088A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7832278A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Industrial designers",
+      "Germany, biography"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-04-22T06:10:47.022884"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-06-17T04:53:58.117665"
+    }
+  }
+}

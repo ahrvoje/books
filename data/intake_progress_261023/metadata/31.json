@@ -1,0 +1,91 @@
+{
+  "index": 31,
+  "title": "Catalogues and Counters: A History of Sears, Roebuck & Company",
+  "url": "https://openlibrary.org/search.json?title=Catalogues%20and%20Counters%3A%20A%20History%20of%20Sears%2C%20Roebuck%20%26%20Company&author=Boris%20Emmet%2C%20John%20E.%20Jeuck&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:16.819Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Boris Emmet",
+          "John E. Jeuck"
+        ],
+        "first_publish_year": 1950,
+        "isbn": [
+          "9780226207100",
+          "0226207102"
+        ],
+        "key": "/works/OL6924359W",
+        "language": [
+          "eng"
+        ],
+        "title": "Catalogues and counters"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Catalogues%20and%20Counters&author=Boris%20Emmet&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "subjects": [
+      "Roebuck and Company Sears",
+      "Roebuck and Co Sears",
+      "Sears, roebuck and company"
+    ],
+    "key": "/works/OL6924359W",
+    "title": "Catalogues and counters",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1917821A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3392371A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      9467450
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T20:01:35.013302"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-08-23T10:29:10.192974"
+    }
+  }
+}

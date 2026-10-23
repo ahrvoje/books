@@ -1,0 +1,102 @@
+{
+  "index": 79,
+  "title": "This Town",
+  "url": "https://openlibrary.org/search.json?isbn=0399161309&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:56:38.941Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Mark Leibovich"
+        ],
+        "first_publish_year": 2013,
+        "isbn": [
+          "0399170685",
+          "9780399170683",
+          "9780399161308",
+          "0399161309"
+        ],
+        "key": "/works/OL17647470W",
+        "language": [
+          "eng"
+        ],
+        "title": "This town"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "\"A book about contemporary political culture in Washington, DC\"--\n\nWashington funerals can make great networking opportunities. Disgraced Hill aides can overcome ignominy and emerge with a more potent \"brand\" than many elected members of Congress. There are no Democrats and Republicans anymore in the nation's capital, just millionaires. That is the grubby secret of the place in the twenty-first century: no matter how many elections you lose, apologies you make, or scandals you endure, Washington is the nexus of big politics, big money, big media, and big vanity."
+    },
+    "title": "This town",
+    "covers": [
+      9156878
+    ],
+    "subject_places": [
+      "United States",
+      "Washington (D.C.)"
+    ],
+    "subjects": [
+      "Politics and government",
+      "Political culture",
+      "POLITICAL SCIENCE / Political Process / General",
+      "Politicians",
+      "POLITICAL SCIENCE / Government / National",
+      "Politicians, united states",
+      "United states, politics and government",
+      "Washington (d.c.), politics and government",
+      "nyt:hardcover-nonfiction=2013-08-04",
+      "New York Times bestseller",
+      "New York Times reviewed"
+    ],
+    "key": "/works/OL17647470W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2803550A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "links": [
+      {
+        "url": "http://www.nytimes.com/2013/07/08/books/this-town-by-mark-leibovich-skewers-washingtons-insiders.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      },
+      {
+        "url": "http://www.nytimes.com/2013/07/28/books/review/this-town-by-mark-leibovich.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2017-04-28T11:38:58.200508"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-08-07T00:09:35.789801"
+    }
+  }
+}

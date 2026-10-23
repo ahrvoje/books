@@ -1,0 +1,74 @@
+{
+  "index": 695,
+  "title": "Fabless",
+  "url": "https://openlibrary.org/search.json?title=Fabless&author=Daniel%20Nenni&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:22.119Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Daniel Nenni",
+          "Paul McLellan"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "9781497525047",
+          "9781467593076",
+          "1467593079",
+          "1497525047"
+        ],
+        "key": "/works/OL20346624W",
+        "language": [
+          "eng"
+        ],
+        "title": "Fabless"
+      }
+    ]
+  },
+  "work": {
+    "title": "Fabless",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-10-25T19:48:00.488319"
+    },
+    "covers": [
+      9011987
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2019-10-25T19:48:00.488319"
+    },
+    "latest_revision": 1,
+    "key": "/works/OL20346624W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7713100A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7713101A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

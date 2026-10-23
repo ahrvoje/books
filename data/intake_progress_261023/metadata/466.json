@@ -1,0 +1,73 @@
+{
+  "index": 466,
+  "title": "A Primer of Drug Action",
+  "url": "https://openlibrary.org/search.json?isbn=1429233435&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:01:20.190Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Robert M. Julien"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "1429233435",
+          "9781429233439"
+        ],
+        "key": "/works/OL16767675W",
+        "language": [
+          "eng"
+        ],
+        "title": "A primer of drug action"
+      }
+    ]
+  },
+  "work": {
+    "title": "A primer of drug action",
+    "subjects": [
+      "Psychopharmacology",
+      "Psychotropic drugs",
+      "Pharmacology",
+      "Therapeutic use"
+    ],
+    "key": "/works/OL16767675W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL389108A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      12197168
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "This updated guide to the effects of psychoactive drugs on the brain and behaviour provides enhanced pedagogy throughout. The book now features a chapter on herbal medicines and their use in treating psychological disorders."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2012-08-08T06:28:59.833189"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-07-09T00:48:16.009316"
+    }
+  }
+}

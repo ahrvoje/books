@@ -1,0 +1,81 @@
+{
+  "index": 751,
+  "title": "Everyone Else Must Fail",
+  "url": "https://openlibrary.org/search.json?title=Everyone%20Else%20Must%20Fail&author=Karen%20Southwick&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:54.258Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Karen Southwick"
+        ],
+        "first_publish_year": 2003,
+        "isbn": [
+          "9780712621489",
+          "0712621482",
+          "9780609610695",
+          "0609610694"
+        ],
+        "key": "/works/OL1903969W",
+        "language": [
+          "eng"
+        ],
+        "title": "Everyone Else Must Fail"
+      },
+      {
+        "author_name": [
+          "Karen Southwick"
+        ],
+        "first_publish_year": 2003,
+        "isbn": [
+          "0609610694",
+          "9780609610695"
+        ],
+        "key": "/works/OL15139023W",
+        "language": [
+          "eng"
+        ],
+        "title": "Everyone else must fail"
+      }
+    ]
+  },
+  "work": {
+    "title": "Everyone Else Must Fail",
+    "covers": [
+      390824
+    ],
+    "first_publish_date": "November 11, 2003",
+    "key": "/works/OL1903969W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL227932A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:32:51.052388"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-11-17T16:12:09.465979"
+    }
+  }
+}

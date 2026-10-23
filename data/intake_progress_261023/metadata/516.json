@@ -1,0 +1,75 @@
+{
+  "index": 516,
+  "title": "This Will Change Everything",
+  "url": "https://openlibrary.org/search.json?isbn=0061899674&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:01:53.815Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John Brockman"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "0061899674",
+          "9780061899676"
+        ],
+        "key": "/works/OL17389796W",
+        "language": [
+          "eng"
+        ],
+        "title": "This Will Change Everything Ideas That Will Shape The Future"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Social prediction",
+      "Forecasting",
+      "Discoveries in science",
+      "Twenty-first century",
+      "Forecasts",
+      "Human evolution"
+    ],
+    "key": "/works/OL17389796W",
+    "title": "This Will Change Everything Ideas That Will Shape The Future",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL412690A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      7482499
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"Edge.org presents 125 of today's leading thinkers ... [responding to the question,] 'What game-changing scientific ideas and developments do you expect to live to see?'\"--Cover."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2016-10-14T02:41:53.962025"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-05-09T02:43:40.568463"
+    }
+  }
+}

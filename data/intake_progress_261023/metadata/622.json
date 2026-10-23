@@ -1,0 +1,97 @@
+{
+  "index": 622,
+  "title": "This New Ocean: The Story of the First Space Age",
+  "url": "https://openlibrary.org/search.json?title=This%20New%20Ocean%3A%20The%20Story%20of%20the%20First%20Space%20Age&author=William%20E.%20Burrows&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:54.851Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "William E. Burrows"
+        ],
+        "first_publish_year": 1999,
+        "isbn": [
+          "0375754857",
+          "9780375754852"
+        ],
+        "key": "/works/OL7916258W",
+        "language": [
+          "eng"
+        ],
+        "title": "This New Ocean"
+      },
+      {
+        "author_name": [
+          "Burrows, William E."
+        ],
+        "first_publish_year": 1998,
+        "isbn": [
+          "0679445218",
+          "9780679445210"
+        ],
+        "key": "/works/OL1804796W",
+        "language": [
+          "eng"
+        ],
+        "title": "太空物种 This new ocean"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=This%20New%20Ocean&author=William%20E.%20Burrows&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:13:10.061272"
+    },
+    "subjects": [
+      "Astronautics",
+      "Exploration",
+      "Outer space, exploration"
+    ],
+    "latest_revision": 4,
+    "key": "/works/OL7916258W",
+    "title": "This New Ocean",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2643909A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-04T05:06:26.306427"
+    },
+    "covers": [
+      230139
+    ],
+    "revision": 4
+  }
+}

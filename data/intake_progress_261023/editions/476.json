@@ -1,0 +1,75 @@
+{
+  "index": 476,
+  "title": "Cairo",
+  "retrievedAt": "2026-10-23T19:23:13.974Z",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/works/OL19706733W/editions.json?limit=100",
+      "status": 200
+    },
+    {
+      "url": "https://www.amazon.de/dp/0345803515",
+      "status": 200,
+      "title": "Amazon.de",
+      "countText": null,
+      "globalText": null,
+      "sha256": "9b15dbf866b2cc4fc6d0f62b331d1b8c0124af5e0c7fb7d4ac0ae2678ff6cfe0",
+      "bytes": 3815
+    },
+    {
+      "url": "https://www.amazon.com/dp/0345803515",
+      "status": 200,
+      "title": "Amazon.com",
+      "countText": null,
+      "globalText": null,
+      "sha256": "c7b7c256cbe694a4366e8ad399f2fd43c367c84b8dc59ce957942e1cf5145aa3",
+      "bytes": 3781
+    }
+  ],
+  "edition": {
+    "type": {
+      "key": "/type/edition"
+    },
+    "authors": [
+      {
+        "key": "/authors/OL82114A"
+      }
+    ],
+    "isbn_13": [
+      "9781408835548"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "pagination": "224",
+    "publish_date": "2012",
+    "publishers": [
+      "Bloomsbury Publishing Plc"
+    ],
+    "source_records": [
+      "bwb:9781408835548"
+    ],
+    "title": "Cairo",
+    "subtitle": "My City, Our Revolution",
+    "full_title": "Cairo My City, Our Revolution",
+    "works": [
+      {
+        "key": "/works/OL19706733W"
+      }
+    ],
+    "key": "/books/OL48649747M",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2023-07-17T06:49:06.766425"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-07-17T06:49:06.766425"
+    }
+  },
+  "work": "https://openlibrary.org/works/OL19706733W"
+}

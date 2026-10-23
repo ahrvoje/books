@@ -1,0 +1,78 @@
+{
+  "index": 497,
+  "title": "WikiLeaks",
+  "retrievedAt": "2026-10-23T19:23:22.682Z",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/works/OL16955797W/editions.json?limit=100",
+      "status": 200
+    },
+    {
+      "url": "https://www.amazon.de/dp/161039061X",
+      "status": 200,
+      "title": "Amazon.de",
+      "countText": null,
+      "globalText": null,
+      "sha256": "dc51c175c54ad4f1a3f566af62a45a6a1b4bfda9ac8b6a8edce4ad068af43a9d",
+      "bytes": 3815
+    },
+    {
+      "url": "https://www.amazon.com/dp/161039061X",
+      "status": 200,
+      "title": "Amazon.com",
+      "countText": null,
+      "globalText": null,
+      "sha256": "366dd1503c5363c32e8b8c2724b9080a1d9c4140e90718704ef136fb05590351",
+      "bytes": 3781
+    }
+  ],
+  "edition": {
+    "type": {
+      "key": "/type/edition"
+    },
+    "authors": [
+      {
+        "key": "/authors/OL9416425A"
+      },
+      {
+        "key": "/authors/OL7013735A"
+      }
+    ],
+    "isbn_13": [
+      "9780852652404"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "pagination": "352",
+    "publish_date": "2011",
+    "publishers": [
+      "Penguin Random House"
+    ],
+    "source_records": [
+      "bwb:9780852652404"
+    ],
+    "title": "WikiLeaks",
+    "subtitle": "Inside Julian Assange's War on Secrecy",
+    "full_title": "WikiLeaks Inside Julian Assange's War on Secrecy",
+    "works": [
+      {
+        "key": "/works/OL16955797W"
+      }
+    ],
+    "key": "/books/OL40380124M",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-11-18T08:00:07.785262"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-11-18T08:00:07.785262"
+    }
+  },
+  "work": "https://openlibrary.org/works/OL16955797W"
+}

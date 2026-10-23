@@ -1,0 +1,95 @@
+{
+  "index": 739,
+  "title": "Chips and Change",
+  "url": "https://openlibrary.org/search.json?title=Chips%20and%20Change&author=Clair%20Brown&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:46.144Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Clair Brown",
+          "Greg Linden"
+        ],
+        "first_publish_year": 2009,
+        "isbn": [
+          "1282694359",
+          "9780262516822",
+          "9780262259422",
+          "0262259427",
+          "0262516829",
+          "026225865X",
+          "9781282694354",
+          "9780262258654"
+        ],
+        "key": "/works/OL21034745W",
+        "language": [
+          "eng"
+        ],
+        "title": "Chips and Change"
+      },
+      {
+        "author_name": [
+          "Clair Brown"
+        ],
+        "first_publish_year": 2009,
+        "isbn": [
+          "0262013460",
+          "9780262013468"
+        ],
+        "key": "/works/OL3476200W",
+        "language": [
+          "eng"
+        ],
+        "title": "Chips and change"
+      }
+    ]
+  },
+  "work": {
+    "title": "Chips and Change",
+    "subjects": [
+      "Semiconductor industry",
+      "Business cycles",
+      "Management"
+    ],
+    "key": "/works/OL21034745W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8041500A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8007504A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-02T21:03:14.065707"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-01-01T20:57:40.807338"
+    }
+  }
+}

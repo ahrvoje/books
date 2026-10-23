@@ -1,0 +1,89 @@
+{
+  "index": 671,
+  "title": "The Art of Sanctions: A View from the Field",
+  "url": "https://openlibrary.org/search.json?title=The%20Art%20of%20Sanctions%3A%20A%20View%20from%20the%20Field&author=Nephew%2C%20R.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:12.228Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Richard Nephew"
+        ],
+        "first_publish_year": 2017,
+        "isbn": [
+          "0231180268",
+          "0231542550",
+          "9780231542555",
+          "9780231180269",
+          "0231180276",
+          "9780231180276"
+        ],
+        "key": "/works/OL20227482W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Art of Sanctions"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=The%20Art%20of%20Sanctions&author=Nephew&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "subjects": [
+      "Economic sanctions",
+      "Iraq, economic conditions",
+      "International economic relations",
+      "International relations",
+      "Case studies",
+      "Commerce"
+    ],
+    "key": "/works/OL20227482W",
+    "title": "The Art of Sanctions",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7666949A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8880763
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-10-11T13:26:00.614669"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-02-17T04:07:53.897713"
+    }
+  }
+}

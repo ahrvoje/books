@@ -1,0 +1,74 @@
+{
+  "index": 767,
+  "title": "Fearless Genius",
+  "url": "https://openlibrary.org/search.json?title=Fearless%20Genius&author=Doug%20Menuez&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:04:04.671Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Doug Menuez"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "9781476752693",
+          "9781476752730",
+          "1476752699",
+          "1476752737"
+        ],
+        "key": "/works/OL17564928W",
+        "language": [
+          "eng"
+        ],
+        "title": "Fearless Genius"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "High technology",
+      "Microelectronics industry",
+      "Documentary photography",
+      "Pictorial works",
+      "History",
+      "Microelectronics industry, united states",
+      "California, description and travel"
+    ],
+    "key": "/works/OL17564928W",
+    "title": "Fearless Genius",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL717363A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      7831427
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2016-10-14T22:30:25.679062"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-03-17T02:37:58.934506"
+    }
+  }
+}

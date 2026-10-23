@@ -1,0 +1,124 @@
+{
+  "index": 22,
+  "title": "Food: A Very Short Introduction",
+  "url": "https://openlibrary.org/search.json?title=Food%3A%20A%20Very%20Short%20Introduction&author=John%20Krebs&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:12.768Z",
+  "status": 200,
+  "search": {
+    "numFound": 5,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 5,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Great Britain: Parliament: House of Lords: Science and Technology Committee",
+          "Steward Sutherland Sutherland of Houndwood",
+          "John Krebs Krebs"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "9780108459221",
+          "0108459225"
+        ],
+        "key": "/works/OL28245974W",
+        "language": [
+          "eng"
+        ],
+        "title": "Nanotechnologies and Food Vol. 1"
+      },
+      {
+        "author_name": [
+          "Great Britain: Parliament: House of Lords: Science and Technology Committee",
+          "Stewart Ross Sutherland Sutherland of Houndwood",
+          "John Krebs Krebs"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "0108459233",
+          "9780108459238"
+        ],
+        "key": "/works/OL28264529W",
+        "language": [
+          "eng"
+        ],
+        "title": "Nanotechnologies and Food : 1st report of session 2009-10, Vol. 2"
+      },
+      {
+        "author_name": [
+          "John Krebs"
+        ],
+        "first_publish_year": 2013,
+        "isbn": [
+          "0199661081",
+          "9780199661084"
+        ],
+        "key": "/works/OL21057088W",
+        "language": [
+          "eng"
+        ],
+        "title": "Food"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Food&author=John%20Krebs&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Nanotechnologies and Food Vol. 1",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9974392A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL10513540A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL10513942A"
+        }
+      }
+    ],
+    "key": "/works/OL28245974W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-07-17T13:49:59.061763"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-07-17T13:49:59.061763"
+    }
+  }
+}

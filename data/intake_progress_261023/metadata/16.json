@@ -1,0 +1,109 @@
+{
+  "index": 16,
+  "title": "Cotton: The Biography of a Revolutionary Fiber",
+  "url": "https://openlibrary.org/search.json?title=Cotton%3A%20The%20Biography%20of%20a%20Revolutionary%20Fiber&author=Stephen%20Yafa&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:11.099Z",
+  "status": 200,
+  "search": {
+    "numFound": 5,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 5,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Stephen Yafa"
+        ],
+        "first_publish_year": 2006,
+        "isbn": [
+          "9780143037224",
+          "0143037226"
+        ],
+        "key": "/works/OL7989441W",
+        "language": [
+          "eng"
+        ],
+        "title": "Cotton"
+      },
+      {
+        "author_name": [
+          "Stephen H. Yafa"
+        ],
+        "first_publish_year": 2005,
+        "isbn": [
+          "0670033677",
+          "0143037226",
+          "9780670033676",
+          "9780143037224"
+        ],
+        "key": "/works/OL146591W",
+        "language": [
+          "eng"
+        ],
+        "title": "Cotton"
+      },
+      {
+        "author_name": [
+          "Stephen Yafa"
+        ],
+        "first_publish_year": 2004,
+        "isbn": [
+          "1419333216",
+          "9780670033676",
+          "9781419333217",
+          "0670033677"
+        ],
+        "key": "/works/OL7989442W",
+        "language": [
+          "eng"
+        ],
+        "title": "Big Cotton"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Cotton&author=Stephen%20Yafa&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:16:33.711345"
+    },
+    "title": "Cotton",
+    "covers": [
+      111335
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-04-28T09:34:26.307352"
+    },
+    "latest_revision": 2,
+    "key": "/works/OL7989441W",
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL2660263A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 2
+  }
+}

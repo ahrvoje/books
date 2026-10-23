@@ -1,0 +1,76 @@
+{
+  "index": 175,
+  "title": "The Antarctic Book of Cooking and Cleaning",
+  "url": "https://openlibrary.org/search.json?isbn=0062395033&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:57:41.559Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Wendy Trusler",
+          "Carol Devine"
+        ],
+        "first_publish_year": 2015,
+        "isbn": [
+          "0062395033",
+          "9780062395030",
+          "9780062395047",
+          "0062395041"
+        ],
+        "key": "/works/OL26483772W",
+        "language": [
+          "eng"
+        ],
+        "title": "Antarctic Book of Cooking and Cleaning"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Antarctic Book of Cooking and Cleaning",
+    "subjects": [
+      "Antarctica",
+      "Cooking",
+      "Polar regions, description and travel"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9978741A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL5283098A"
+        }
+      }
+    ],
+    "key": "/works/OL26483772W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-12-25T14:34:25.871196"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-12-25T14:34:25.871196"
+    }
+  }
+}

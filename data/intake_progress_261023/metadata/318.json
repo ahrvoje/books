@@ -1,0 +1,95 @@
+{
+  "index": 318,
+  "title": "No Future for You",
+  "url": "https://openlibrary.org/search.json?isbn=0262028336&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:42.205Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Chris Lehmann",
+          "Thomas Frank"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "9781322110721",
+          "0262028336",
+          "026232590X",
+          "0262325896",
+          "9780262028332",
+          "9780262325882",
+          "9780262325899",
+          "1322110727",
+          "9780262325905",
+          "0262325888"
+        ],
+        "key": "/works/OL17929935W",
+        "language": [
+          "eng"
+        ],
+        "title": "No Future For You"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Social conditions",
+      "Politics and government",
+      "Popular culture",
+      "Civilization",
+      "Political culture",
+      "United states, civilization, 1970-",
+      "Popular culture, united states",
+      "United states, social conditions, 1980-",
+      "United states, politics and government, 2001-2009",
+      "United states, politics and government, 2009-2017",
+      "HISTORY / United States / State & Local / General",
+      "History",
+      "Capitalism"
+    ],
+    "key": "/works/OL17929935W",
+    "title": "No Future For You",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1481868A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL389289A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8259243
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2018-10-13T19:16:48.626492"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-08T06:28:45.751996"
+    }
+  }
+}

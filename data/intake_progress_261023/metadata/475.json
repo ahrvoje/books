@@ -1,0 +1,81 @@
+{
+  "index": 475,
+  "title": "Historic San Francisco",
+  "url": "https://openlibrary.org/search.json?isbn=187936705X&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:01:26.122Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Rand Richards"
+        ],
+        "first_publish_year": 1991,
+        "isbn": [
+          "1879367009",
+          "187936705X",
+          "9781879367050",
+          "9781879367005"
+        ],
+        "key": "/works/OL3494371W",
+        "language": [
+          "eng"
+        ],
+        "title": "Historic San Francisco"
+      }
+    ]
+  },
+  "work": {
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-02-14T08:13:06.617800"
+    },
+    "title": "Historic San Francisco",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T03:42:36.565577"
+    },
+    "covers": [
+      925535
+    ],
+    "subject_places": [
+      "San Francisco",
+      "California",
+      "San Francisco (Calif.)"
+    ],
+    "first_publish_date": "1991",
+    "latest_revision": 7,
+    "key": "/works/OL3494371W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL583621A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Buildings, structures",
+      "Guidebooks",
+      "Historic sites",
+      "Antiquities",
+      "Museums",
+      "Architecture",
+      "Historic buildings",
+      "History"
+    ],
+    "revision": 7
+  }
+}

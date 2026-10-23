@@ -1,0 +1,84 @@
+{
+  "index": 443,
+  "title": "Engines of Logic",
+  "url": "https://openlibrary.org/search.json?isbn=0393322297&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:01:05.495Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Martin Davis"
+        ],
+        "first_publish_year": 2001,
+        "isbn": [
+          "0393322297",
+          "9780393322293"
+        ],
+        "key": "/works/OL2056707W",
+        "language": [
+          "eng"
+        ],
+        "title": "Engines of Logic"
+      }
+    ]
+  },
+  "work": {
+    "subtitle": "Mathematicians and the Origin of the Computer",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-19T02:52:59.481025"
+    },
+    "title": "Engines of Logic",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:48:18.776212"
+    },
+    "covers": [
+      250208
+    ],
+    "first_sentence": {
+      "type": "/type/text",
+      "value": "SITUATED SOUTHEAST OF the German city of Hanover, the ore-rich veins of the Harz mountain region had been mined since the middle of the tenth century."
+    },
+    "first_publish_date": "September 2001",
+    "latest_revision": 6,
+    "key": "/works/OL2056707W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL250844A"
+        }
+      }
+    ],
+    "excerpts": [
+      {
+        "excerpt": {
+          "type": "/type/text",
+          "value": "SITUATED SOUTHEAST OF the German city of Hanover, the ore-rich veins of the Harz mountain region had been mined since the middle of the tenth century."
+        },
+        "page": "First sentence"
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Electronic digital computers",
+      "History",
+      "Logic",
+      "Computers"
+    ],
+    "revision": 6
+  }
+}

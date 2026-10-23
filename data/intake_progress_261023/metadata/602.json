@@ -1,0 +1,63 @@
+{
+  "index": 602,
+  "title": "Nuclear Weapons",
+  "url": "https://openlibrary.org/search.json?title=Nuclear%20Weapons&author=Mark%20Wolverton&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:47.046Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Mark Wolverton"
+        ],
+        "first_publish_year": 2022,
+        "isbn": [
+          "0262543311",
+          "9780262543316"
+        ],
+        "key": "/works/OL25915423W",
+        "language": [
+          "eng"
+        ],
+        "title": "Nuclear Weapons"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Nuclear Weapons",
+    "subjects": [
+      "Military art and science"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2821136A"
+        }
+      }
+    ],
+    "key": "/works/OL25915423W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-10-09T16:39:58.050974"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-10-09T16:39:58.050974"
+    }
+  }
+}

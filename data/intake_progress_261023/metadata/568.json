@@ -1,0 +1,104 @@
+{
+  "index": 568,
+  "title": "India Becoming",
+  "url": "https://openlibrary.org/search.json?isbn=1594488193&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:27.494Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Akash Kapur"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "1594486530",
+          "1594488193",
+          "9781594488191",
+          "9781594486531"
+        ],
+        "key": "/works/OL16361339W",
+        "language": [
+          "eng"
+        ],
+        "title": "India becoming"
+      },
+      {
+        "author_name": [
+          "Akash Kapur"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "1594488193",
+          "9781594488191"
+        ],
+        "key": "/works/OL16361340W",
+        "language": [
+          "eng"
+        ],
+        "title": "India becoming"
+      }
+    ]
+  },
+  "work": {
+    "key": "/works/OL16361339W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7052049A"
+        }
+      }
+    ],
+    "title": "India becoming",
+    "subject_places": [
+      "India"
+    ],
+    "subjects": [
+      "Economic conditions",
+      "Social conditions",
+      "HISTORY / Asia / India & South Asia",
+      "Rural conditions",
+      "HISTORY / Modern / 21st Century",
+      "Social change",
+      "New York Times reviewed",
+      "India, economic conditions",
+      "India, social conditions",
+      "India, rural conditions"
+    ],
+    "subject_times": [
+      "21st century"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "links": [
+      {
+        "url": "http://www.nytimes.com/2012/05/27/books/review/india-becoming-by-akash-kapur.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-12-28T11:15:33.821006"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-29T10:17:25.616045"
+    }
+  }
+}

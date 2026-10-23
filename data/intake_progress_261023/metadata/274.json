@@ -1,0 +1,76 @@
+{
+  "index": 274,
+  "title": "About Face 2.0",
+  "url": "https://openlibrary.org/search.json?isbn=0764526413&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:58:56.139Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Cooper, Alan"
+        ],
+        "first_publish_year": 2003,
+        "isbn": [
+          "9780764526411",
+          "0764526413"
+        ],
+        "key": "/works/OL17918918W",
+        "language": [
+          "eng"
+        ],
+        "title": "About face 2.0"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Interfaces utilisateur (informatique)",
+      "Human-computer interaction",
+      "Interfaces utilisateurs (Informatique)",
+      "Grafische gebruikersinterfaces",
+      "Interaction homme-ordinateur",
+      "User interfaces (Computer systems)",
+      "Interaction homme-machine (Informatique)",
+      "Vormgeving",
+      "User interfaces (computer systems)",
+      "Interfaces utilisateurs (informatique)",
+      "Interaction homme-machine (informatique)"
+    ],
+    "key": "/works/OL17918918W",
+    "title": "About face 2.0",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL34698A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      520699
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2018-09-09T05:54:01.801805"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-19T23:49:36.394500"
+    }
+  }
+}

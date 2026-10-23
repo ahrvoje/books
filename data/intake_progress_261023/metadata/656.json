@@ -1,0 +1,145 @@
+{
+  "index": 656,
+  "title": "Edison: A Life of Invention",
+  "url": "https://openlibrary.org/search.json?title=Edison%3A%20A%20Life%20of%20Invention&author=Israel%2C%20P.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:06.699Z",
+  "status": 200,
+  "search": {
+    "numFound": 7,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 7,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Paul Israel"
+        ],
+        "first_publish_year": 1998,
+        "isbn": [
+          "0471362700",
+          "9780471529422",
+          "078611794X",
+          "9780471362708",
+          "9780786117949",
+          "0471529427"
+        ],
+        "key": "/works/OL1839457W",
+        "language": [
+          "eng"
+        ],
+        "title": "Edison"
+      },
+      {
+        "author_name": [
+          "Paul Israel"
+        ],
+        "first_publish_year": 2024,
+        "isbn": [
+          "1538134268",
+          "9781538134269"
+        ],
+        "key": "/works/OL37833160W",
+        "language": [
+          "eng"
+        ],
+        "title": "Thomas Edison"
+      },
+      {
+        "author_name": [
+          "Robert Friedel",
+          "Paul Israel"
+        ],
+        "first_publish_year": 1987,
+        "isbn": [
+          "0801899443",
+          "9780813512549",
+          "0813512549",
+          "9780801899447"
+        ],
+        "key": "/works/OL17073522W",
+        "language": [
+          "eng"
+        ],
+        "title": "Edison's Electric Light"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Edison&author=Israel&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "lc_classifications": [
+      "TK140.E3 I87 1998"
+    ],
+    "title": "Edison",
+    "covers": [
+      305522
+    ],
+    "first_sentence": {
+      "type": "/type/text",
+      "value": "The world might never have heard of Thomas Alva Edison if his family had not been forced to leave their home in the small village of Vienna in Upper Canada (what is today the province of Ontario)."
+    },
+    "subject_places": [
+      "United States"
+    ],
+    "first_publish_date": "1998",
+    "subject_people": [
+      "Thomas A. Edison (1847-1931)"
+    ],
+    "key": "/works/OL1839457W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL220312A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "621.3/092",
+      "B"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Biography",
+      "Inventors",
+      "Edison, thomas a. (thomas alva), 1847-1931",
+      "Science",
+      "Uitvinders",
+      "Biographies",
+      "Invention scientifique"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Through relentless tinkering, by trial and error, the story goes, Thomas Alva Edison perseveres - and changes the world. Working against the common perception of Edison as a symbol of a mythic American past where persistence and individuality yielded hard-earned success, Israel demonstrates how Edison's remarkable career was actually very much a product of the inventor's fast-changing era.\n\nInformed by more than five million pages of archival documents, Paul Israel's ambitious life of Edison brightens the unexamined corners of a singularly influential and triumphant career in science. Edison is the only biography to cover the whole of Edison's career in invention, including his early, foundational work in telegraphy. The portrait of Thomas Alva Edison that emerges from this peerless biography is of a man of genius and astounding foresight."
+    },
+    "latest_revision": 12,
+    "revision": 12,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:27:00.312120"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-07-14T05:19:20.047050"
+    }
+  }
+}

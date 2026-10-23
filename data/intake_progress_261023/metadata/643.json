@@ -1,0 +1,118 @@
+{
+  "index": 643,
+  "title": "The Population Bomb",
+  "url": "https://openlibrary.org/search.json?title=The%20Population%20Bomb&author=Ehrlich%2C%20P.R.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:02.233Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Paul R. Ehrlich"
+        ],
+        "first_publish_year": 1968,
+        "isbn": [
+          "9780345277732",
+          "9780345311672",
+          "0345244907",
+          "9780345216571",
+          "9781568495873",
+          "1568495870",
+          "0345216571",
+          "0345221710",
+          "9780345244901",
+          "9780871560193",
+          "0345289994",
+          "9780345221711",
+          "9780345338341",
+          "0345311671",
+          "0345021398",
+          "0345338340",
+          "9780345289995",
+          "9780345021717",
+          "0345021711",
+          "0891908677",
+          "0345277732",
+          "0871560194",
+          "9780345021397"
+        ],
+        "key": "/works/OL3294965W",
+        "language": [
+          "eng",
+          "fre",
+          "und"
+        ],
+        "title": "The Population Bomb"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=The%20Population%20Bomb&author=Ehrlich&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "The Population Bomb",
+    "covers": [
+      811558,
+      14890480,
+      8012567,
+      13532759,
+      15041266
+    ],
+    "first_sentence": {
+      "type": "/type/text",
+      "value": "I have understood the population explosion intellectually for a long time."
+    },
+    "first_publish_date": "1968",
+    "key": "/works/OL3294965W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL538947A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "excerpts": [
+      {
+        "excerpt": "I have understood the population explosion intellectually for a long time."
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Population",
+      "Population Growth"
+    ],
+    "latest_revision": 14,
+    "revision": 14,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T03:16:59.576933"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-01-13T19:09:27.076959"
+    }
+  }
+}

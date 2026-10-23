@@ -1,0 +1,86 @@
+{
+  "index": 72,
+  "title": "How Judges Think",
+  "url": "https://openlibrary.org/search.json?isbn=0674028201&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:56:35.146Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Richard A. Posner",
+          "Richard A. Posner"
+        ],
+        "first_publish_year": 2008,
+        "isbn": [
+          "9780674028203",
+          "0674033833",
+          "9780674033832",
+          "9780674241220",
+          "0674028201",
+          "0674048067",
+          "0674241223",
+          "9780674048065"
+        ],
+        "key": "/works/OL1924288W",
+        "language": [
+          "eng"
+        ],
+        "title": "How Judges Think"
+      }
+    ]
+  },
+  "work": {
+    "title": "How Judges Think",
+    "covers": [
+      2548206
+    ],
+    "subject_places": [
+      "United States"
+    ],
+    "first_publish_date": "April 15, 2008",
+    "key": "/works/OL1924288W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL230698A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7391298A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Judicial process",
+      "Law, united states"
+    ],
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:34:43.527461"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-06-06T21:45:25.503964"
+    }
+  }
+}

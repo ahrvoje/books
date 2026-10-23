@@ -1,0 +1,116 @@
+{
+  "index": 27,
+  "title": "The Wheel: Inventions and Reinventions",
+  "url": "https://openlibrary.org/search.json?title=The%20Wheel%3A%20Inventions%20and%20Reinventions&author=Richard%20Bulliet&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:15.150Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Richard W. Bulliet"
+        ],
+        "first_publish_year": 1975,
+        "isbn": [
+          "0231072341",
+          "023107235X",
+          "9780674091306",
+          "0674091302",
+          "9780231072359",
+          "9780231072342"
+        ],
+        "key": "/works/OL3895369W",
+        "language": [
+          "eng"
+        ],
+        "title": "The camel and the wheel"
+      },
+      {
+        "author_name": [
+          "Richard W. Bulliet"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "9780231540612",
+          "0231173385",
+          "9780231173384",
+          "0231540612"
+        ],
+        "key": "/works/OL20025308W",
+        "language": [
+          "eng"
+        ],
+        "title": "The wheel"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=The%20Wheel&author=Richard%20Bulliet&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "covers": [
+      4089891
+    ],
+    "key": "/works/OL3895369W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL707304A"
+        }
+      }
+    ],
+    "title": "The camel and the wheel",
+    "subject_places": [
+      "Middle East",
+      "North Africa"
+    ],
+    "subjects": [
+      "Animals and history",
+      "Camels",
+      "History",
+      "Transportation",
+      "Wheels",
+      "Middle east, history",
+      "Africa, north, history",
+      "Transportation, history"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "Discusses why the camel replaced wheeled vehicles as a method of transportation in the Middle East and North Africa between the 3rd and 6th centuries A.D."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T04:48:25.048375"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-01-20T18:16:19.970471"
+    }
+  }
+}

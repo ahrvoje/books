@@ -1,0 +1,77 @@
+{
+  "index": 39,
+  "title": "The New Organon",
+  "url": "https://openlibrary.org/search.json?title=The%20New%20Organon&author=Francis%20Bacon&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:19.839Z",
+  "status": 200,
+  "search": {
+    "numFound": 7,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 7,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Francis Bacon"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "1480136239",
+          "9781480136236"
+        ],
+        "key": "/works/OL33713713W",
+        "title": "The New Organon"
+      },
+      {
+        "author_name": [
+          "Francis Bacon"
+        ],
+        "first_publish_year": 1960,
+        "key": "/works/OL36434816W",
+        "title": "The New organon, and related writings"
+      },
+      {
+        "author_name": [
+          "Francis Bacon"
+        ],
+        "first_publish_year": 2015,
+        "isbn": [
+          "9781614277835",
+          "1614277834"
+        ],
+        "key": "/works/OL38082538W",
+        "title": "The New Organon and Related Writings"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The New Organon",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL23720A"
+        }
+      }
+    ],
+    "key": "/works/OL33713713W",
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2023-01-14T06:02:29.112012"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-02-27T00:40:47.346423"
+    }
+  }
+}

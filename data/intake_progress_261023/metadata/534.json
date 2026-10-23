@@ -1,0 +1,68 @@
+{
+  "index": 534,
+  "title": "Cooking as Courtship (Under Structure)",
+  "url": "https://openlibrary.org/search.json?isbn=0965706915&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:04.789Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Susan Wiegand"
+        ],
+        "first_publish_year": 1997,
+        "isbn": [
+          "0965706915",
+          "9780965706919"
+        ],
+        "key": "/works/OL573037W",
+        "language": [
+          "eng"
+        ],
+        "title": "Cooking as courtship"
+      }
+    ]
+  },
+  "work": {
+    "title": "Cooking as courtship",
+    "covers": [
+      730062
+    ],
+    "key": "/works/OL573037W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL41778A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Cookery",
+      "Courtship",
+      "Cooking"
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-08T05:32:35.201065"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-12-01T22:50:49.022354"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "index": 13,
+  "title": "The Epic of Steel",
+  "url": "https://openlibrary.org/search.json?title=The%20Epic%20of%20Steel&author=Douglas%20A.%20Fisher&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:10.598Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Douglas A. Fisher"
+        ],
+        "first_publish_year": 1963,
+        "key": "/works/OL31365621W",
+        "title": "The epic of steel"
+      },
+      {
+        "author_name": [
+          "Douglas A. Fisher"
+        ],
+        "first_publish_year": 1963,
+        "key": "/works/OL22441315W",
+        "language": [
+          "eng"
+        ],
+        "title": "The epic of steel"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The epic of steel",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL10276362A"
+        }
+      }
+    ],
+    "key": "/works/OL31365621W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-12-07T00:00:58.622455"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-07T00:00:58.622455"
+    }
+  }
+}

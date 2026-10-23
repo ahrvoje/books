@@ -1,0 +1,65 @@
+{
+  "index": 345,
+  "title": "No One a Neutral",
+  "url": "https://openlibrary.org/search.json?isbn=0939427591&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:00.538Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Norman Antokol"
+        ],
+        "first_publish_year": 1990,
+        "isbn": [
+          "9780939427598",
+          "0939427591"
+        ],
+        "key": "/works/OL4484997W",
+        "language": [
+          "eng"
+        ],
+        "title": "No one a neutral"
+      }
+    ]
+  },
+  "work": {
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-12-04T14:53:36.308223"
+    },
+    "title": "No one a neutral",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T06:29:25.399967"
+    },
+    "subjects": [
+      "Hostages",
+      "Political kidnapping",
+      "Terrorism"
+    ],
+    "latest_revision": 2,
+    "key": "/works/OL4484997W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL895158A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 2
+  }
+}

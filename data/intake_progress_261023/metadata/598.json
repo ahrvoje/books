@@ -1,0 +1,95 @@
+{
+  "index": 598,
+  "title": "Baidarka",
+  "url": "https://openlibrary.org/search.json?title=Baidarka&author=George%20Dyson&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:45.294Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "George Dyson"
+        ],
+        "first_publish_year": 1986,
+        "isbn": [
+          "9780882403151",
+          "088240315X"
+        ],
+        "key": "/works/OL2038458W",
+        "language": [
+          "eng"
+        ],
+        "title": "Baidarka"
+      },
+      {
+        "author_name": [
+          "George Dyson"
+        ],
+        "first_publish_year": 1986,
+        "isbn": [
+          "9780882403151",
+          "088240315X"
+        ],
+        "key": "/works/OL8589356W",
+        "language": [
+          "eng"
+        ],
+        "title": "Baidarka"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1986",
+    "title": "Baidarka",
+    "covers": [
+      1638447
+    ],
+    "subject_places": [
+      "Alaska"
+    ],
+    "lc_classifications": [
+      "VM357 .D95 1986"
+    ],
+    "key": "/works/OL2038458W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL246738A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "623.8/29"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Boats",
+      "Aleuts",
+      "Indians of North America",
+      "Bidarkas",
+      "Kayaks"
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:45:32.899299"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-29T01:57:26.674001"
+    }
+  }
+}

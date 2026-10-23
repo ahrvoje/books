@@ -1,0 +1,75 @@
+{
+  "index": 241,
+  "title": "A Vast Machine",
+  "retrievedAt": "2026-10-23T19:21:59.086Z",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/works/OL15315933W/editions.json?limit=100",
+      "status": 200
+    },
+    {
+      "url": "https://www.amazon.de/dp/0262518635",
+      "status": 200,
+      "title": "Amazon.de",
+      "countText": null,
+      "globalText": null,
+      "sha256": "30925608149e222f10828ec1eeb4729ad9e3bb331253792da5d97aff455d8909",
+      "bytes": 3815
+    },
+    {
+      "url": "https://www.amazon.com/dp/0262518635",
+      "status": 200,
+      "title": "Amazon.com",
+      "countText": null,
+      "globalText": null,
+      "sha256": "332e062e1e61b2aef0582c691a1ea3f78a040dca6f2e0eab8d78b147a27d1b27",
+      "bytes": 3781
+    }
+  ],
+  "edition": {
+    "type": {
+      "key": "/type/edition"
+    },
+    "authors": [
+      {
+        "key": "/authors/OL447795A"
+      }
+    ],
+    "isbn_13": [
+      "9781282899315"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "number_of_pages": 547,
+    "publish_date": "2010",
+    "publishers": [
+      "MIT Press"
+    ],
+    "source_records": [
+      "bwb:9781282899315"
+    ],
+    "title": "Vast Machine",
+    "subtitle": "Computer Models, Climate Data, and the Politics of Global Warming",
+    "full_title": "Vast Machine Computer Models, Climate Data, and the Politics of Global Warming",
+    "works": [
+      {
+        "key": "/works/OL15315933W"
+      }
+    ],
+    "key": "/books/OL53242780M",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-08-17T08:21:45.206928"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-08-17T08:21:45.206928"
+    }
+  },
+  "work": "https://openlibrary.org/works/OL15315933W"
+}

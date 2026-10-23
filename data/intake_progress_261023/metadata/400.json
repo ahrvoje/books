@@ -1,0 +1,73 @@
+{
+  "index": 400,
+  "title": "Backpacking California",
+  "url": "https://openlibrary.org/search.json?isbn=0899974465&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:36.225Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Wilderness Press"
+        ],
+        "first_publish_year": 2008,
+        "isbn": [
+          "0899974465",
+          "9780899974460"
+        ],
+        "key": "/works/OL19927734W",
+        "language": [
+          "eng"
+        ],
+        "title": "Backpacking California"
+      }
+    ]
+  },
+  "work": {
+    "subject_places": [
+      "California"
+    ],
+    "subjects": [
+      "Trails",
+      "Guidebooks",
+      "Backpacking",
+      "Hiking",
+      "California, guidebooks"
+    ],
+    "key": "/works/OL19927734W",
+    "title": "Backpacking California",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6574944A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      10656769
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-16T03:18:14.581836"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-02-23T05:29:39.010143"
+    }
+  }
+}

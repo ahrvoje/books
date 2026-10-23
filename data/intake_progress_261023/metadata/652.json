@@ -1,0 +1,96 @@
+{
+  "index": 652,
+  "title": "Power Play: Elon Musk, Tesla, and the Best of the Century",
+  "url": "https://openlibrary.org/search.json?title=Power%20Play%3A%20Elon%20Musk%2C%20Tesla%2C%20and%20the%20Best%20of%20the%20Century&author=Higgins%2C%20T.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:05.265Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Tim Higgins"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "9780593414309",
+          "9780753554395",
+          "1984898248",
+          "9780753554401",
+          "9780753554371",
+          "0753554372",
+          "9798492264284",
+          "0753554399",
+          "0385545460",
+          "9780385545464",
+          "0593414306",
+          "9781984898241",
+          "0385545452",
+          "9780753554388",
+          "0753554402",
+          "9780385545457",
+          "0753554380"
+        ],
+        "key": "/works/OL24622938W",
+        "language": [
+          "eng"
+        ],
+        "title": "Power Play"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Power%20Play&author=Higgins&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Power Play",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3076462A"
+        }
+      }
+    ],
+    "covers": [
+      11297472,
+      11752441
+    ],
+    "key": "/works/OL24622938W",
+    "subjects": [
+      "Economics"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-06-23T05:33:05.427396"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-06-06T23:37:19.287138"
+    }
+  }
+}

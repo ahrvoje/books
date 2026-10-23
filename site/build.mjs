@@ -76,19 +76,26 @@ export function buildDataset() {
     assert(b && format(b.total) === score, `Unmatched veto ledger score: ${row[3]}`);
     assert.equal(row[8],pageCell(editions[b.id]), `Vetoed page-count mismatch: ${b.id}`);
     assert.equal(row[9],ratingCell(b.amazon), `Vetoed rating-count mismatch: ${b.id}`);
-    return { id: b.id, title: titleOf(row[3]), author: row[2], year: row[1], score,
+    return { id: b.id, title: titleOf(row[3]), author: row[2], year: row[1], score, sourceCount: new Set(row[7].match(/\d+/g)).size,
       veto: row[5], confidence: row[6], sources: row[7], analysis: analysisPath(link(row[3])),
       edition: editions[b.id] || null,
       referencePages: referencePages[b.id],
       ratingReview: b.ratingReview?.analysis || '',
       amazon: {count:b.amazon?.count ?? null,url:safeURL(b.amazon?.url),marketplace:b.amazon?.marketplace || '',product:b.amazon?.asin || '',retrieved:b.amazon?.retrievedAt || b.amazon?.retrieved || b.amazon?.verifiedAt || '',limitations:b.amazon?.status || 'No verified count.'},
       reason: b.vetoReason || b.reason || b.eligibility || b.assessment?.note || 'See the retained assessment for the veto rationale.' };
-  });
+  }).sort((a, b) => compiled.currentBooks.find(v => v.id === b.id).total - compiled.currentBooks.find(v => v.id === a.id).total || a.title.localeCompare(b.title));
   assert.equal(vetoed.length, vetoRecords.size, 'Veto ledger membership mismatch');
   const forbidden = new Set(vetoRecords.keys());
   const exclusions = read('EXCLUDED_BOOKS.md').split(/\r?\n/).filter(l => l.startsWith('- ')).map(l => clean(l.slice(2)));
   assert.deepEqual(exclusions, compiled.exclusions.map(b => clean((b.line || `- ${b.title}${b.author ? ' — ' + b.author : ''}`).replace(/^- /, ''))),
     'Excluded ledger membership differs from the reviewed catalog.');
+  const categories = json('site/exclusion-categories.json');
+  const categoryNames = ['Mathematics, Physics, Science', 'Technology, Engineering, Innovation', 'Computing, IT', 'Business, Economy, Geostrategy', 'Misc. Non-fiction', 'Fiction'];
+  assert.deepEqual(Object.keys(categories).sort(), compiled.exclusions.map(b => b.id).sort(), 'Every excluded book needs one category');
+  for (const category of Object.values(categories)) assert(categoryNames.includes(category), 'Invalid exclusion category');
+  const excludedGroups = categoryNames.map(name => ({ name, books: compiled.exclusions.filter(b => categories[b.id] === name)
+    .map(b => clean((b.line || `- ${b.title}${b.author ? ' — ' + b.author : ''}`).replace(/^- /, '')))
+    .sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'base' })) }));
   const sourceMap = {};
   for (const line of read('SOURCES.md').split(/\r?\n/).filter(l => /^\| \d+ \|/.test(l))) {
     const cells = line.split('|').slice(1, -1).map(s => s.trim());
@@ -185,7 +192,7 @@ export function buildDataset() {
     }
   }
   const hash = crypto.createHash('sha256').update(JSON.stringify(books)).digest('hex').slice(0, 16);
-  return { version: 2, modelVersion: 3, reviewYear: 2026, datasetHash: hash, generated: new Date().toISOString(), books, vetoed, excluded: exclusions, sources: sourceMap, issues, documents,
+  return { version: 2, modelVersion: 3, reviewYear: 2026, datasetHash: hash, generated: new Date().toISOString(), books, vetoed, excluded: exclusions, excludedGroups, sources: sourceMap, issues, documents,
     coverage: {
       books: books.length, pages: books.filter(b => b.edition).length,
       referencePages: books.filter(b => known(b.values.RP)).length,

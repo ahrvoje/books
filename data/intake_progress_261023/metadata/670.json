@@ -1,0 +1,121 @@
+{
+  "index": 670,
+  "title": "The Great Hedge of India",
+  "url": "https://openlibrary.org/search.json?title=The%20Great%20Hedge%20of%20India&author=Moxham%2C%20R.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:11.879Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Roy Moxham"
+        ],
+        "first_publish_year": 2001,
+        "isbn": [
+          "9781841194677",
+          "1841194670",
+          "0786708409",
+          "0786709766",
+          "9780786709762",
+          "9780786708406",
+          "1841192600",
+          "9781841192604",
+          "9780756787554",
+          "9780753156162",
+          "0756787556",
+          "0753156164"
+        ],
+        "key": "/works/OL4612824W",
+        "language": [
+          "eng"
+        ],
+        "title": "The great hedge of India"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=The%20Great%20Hedge%20of%20India&author=Moxham&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "The great hedge of India",
+    "covers": [
+      543165
+    ],
+    "subject_places": [
+      "Customs Line (India and Pakistan)",
+      "India"
+    ],
+    "subjects": [
+      "Salt industry and trade",
+      "Description and travel",
+      "Journeys",
+      "Hedges",
+      "Travel",
+      "History",
+      "Douane",
+      "15.75 history of Asia",
+      "Descriptions et voyages",
+      "India, description and travel",
+      "India, history, british occupation, 1765-1947",
+      "New York Times reviewed"
+    ],
+    "subject_people": [
+      "Roy Moxham"
+    ],
+    "key": "/works/OL4612824W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL945421A"
+        }
+      }
+    ],
+    "subject_times": [
+      "19th century",
+      "British occupation, 1765-1947"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "links": [
+      {
+        "url": "http://www.nytimes.com/2001/06/03/books/travel.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 12,
+    "revision": 12,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T06:58:08.982706"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-08-06T21:11:47.370810"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "index": 20,
+  "title": "Flintknapping: Making & Understanding Stone Tools",
+  "url": "https://openlibrary.org/search.json?title=Flintknapping%3A%20Making%20%26%20Understanding%20Stone%20Tools&author=John%20C.%20Whittaker&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:12.114Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John C. Whittaker"
+        ],
+        "first_publish_year": 1994,
+        "isbn": [
+          "029279083X",
+          "9780292790834",
+          "9780292790827",
+          "0292790821"
+        ],
+        "key": "/works/OL3926733W",
+        "language": [
+          "eng"
+        ],
+        "title": "Flintknapping"
+      },
+      {
+        "author_name": [
+          "John C. Whittaker"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "9780292792555",
+          "0292748183",
+          "9780292748187",
+          "0292792557"
+        ],
+        "key": "/works/OL25858936W",
+        "language": [
+          "eng"
+        ],
+        "title": "Flintknapping"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Flintknapping&author=John%20C.%20Whittaker&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "subjects": [
+      "Flintknapping",
+      "Stone implements",
+      "Flint",
+      "Social sciences",
+      "Archaeology"
+    ],
+    "key": "/works/OL3926733W",
+    "title": "Flintknapping",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL715290A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      3937768
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Flintknapping, the making of stone tools, is an ancient craft enjoying a resurgence of interest among both amateur and professional students of prehistoric cultures. In this new guide, John C. Whittaker offers the most detailed handbook on flintknapping currently available and the only one written from the archaeological perspective of interpreting stone tools as well as making them.\n\nFlintknapping contains detailed, practical information on making stone tools. Whittaker starts at the beginner level and progresses to discussion of a wide range of techniques. He includes information on necessary tools and materials, as well as step-by-step instructions for making several basic stone tool types. Numerous diagrams allow the reader to visualize the flintknapping process, and drawings of many stone tools illustrate the discussions and serve as models for beginning knappers.\n\nWhittaker also considers the archaeological value of stone tools as a record of the history of past cultures and of the development of tool technology through time and its human consequences. He includes numerous references to scholarly and more general literature and an extensive bibliography for readers who wish to pursue these topics further.\n\nWritten for a wide amateur and professional audience, Flintknapping will be essential for practicing knappers as well as for teachers of the history of technology, experimental archaeology, and stone tool analysis."
+    },
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T04:52:56.319485"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-07-25T04:56:00.440860"
+    }
+  }
+}

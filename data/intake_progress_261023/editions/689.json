@@ -1,0 +1,70 @@
+{
+  "index": 689,
+  "title": "First Light",
+  "retrievedAt": "2026-10-23T19:24:53.262Z",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/works/OL761341W/editions.json?limit=100",
+      "status": 200
+    },
+    {
+      "url": "https://www.amazon.de/dp/0307817423",
+      "status": 200,
+      "title": "Amazon.de",
+      "countText": null,
+      "globalText": null,
+      "sha256": "b1c15e91b7f9407816f8872af34e291cf444c583039e5ec87c1757011337afe5",
+      "bytes": 3815
+    },
+    {
+      "url": "https://www.amazon.com/dp/0307817423",
+      "status": 200,
+      "title": "Amazon.com",
+      "countText": null,
+      "globalText": null,
+      "sha256": "2db6791fd34f549d6e67b2d9966e8803135b9020baf92dddab183007726a9e2d",
+      "bytes": 3781
+    }
+  ],
+  "edition": {
+    "publishers": [
+      "Random House"
+    ],
+    "subtitle": "The Search for the Edge of the Universe",
+    "title": "First Light",
+    "identifiers": {},
+    "isbn_13": [
+      "9780307817426"
+    ],
+    "covers": [
+      9328575
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-04-17T22:08:17.852854"
+    },
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-04-17T22:09:42.285236"
+    },
+    "publish_date": "1996",
+    "key": "/books/OL27940762M",
+    "classifications": {},
+    "latest_revision": 3,
+    "works": [
+      {
+        "key": "/works/OL761341W"
+      }
+    ],
+    "type": {
+      "key": "/type/edition"
+    },
+    "revision": 3
+  },
+  "work": "https://openlibrary.org/works/OL761341W"
+}

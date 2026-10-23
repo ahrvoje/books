@@ -1,0 +1,89 @@
+{
+  "index": 555,
+  "title": "Bruno Munari",
+  "url": "https://openlibrary.org/search.json?isbn=0262200651&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:19.147Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Aldo Tanchis"
+        ],
+        "first_publish_year": 1987,
+        "isbn": [
+          "9780262200653",
+          "0262200651"
+        ],
+        "key": "/works/OL19106229W",
+        "language": [
+          "eng"
+        ],
+        "title": "Bruno Munari"
+      },
+      {
+        "author_name": [
+          "Aldo Tanchis"
+        ],
+        "first_publish_year": 1986,
+        "isbn": [
+          "9780262200653",
+          "9780853315155",
+          "0262200651",
+          "0853315159"
+        ],
+        "key": "/works/OL4969230W",
+        "language": [
+          "ita",
+          "eng"
+        ],
+        "title": "Bruno Munari"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Italy",
+      "20th century",
+      "Criticism and interpretation",
+      "Design",
+      "History",
+      "Art, italian"
+    ],
+    "subject_people": [
+      "Bruno Munari"
+    ],
+    "key": "/works/OL19106229W",
+    "title": "Bruno Munari",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6261080A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-03-10T04:30:55.385356"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-08-17T03:26:44.840863"
+    }
+  }
+}

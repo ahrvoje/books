@@ -1,0 +1,97 @@
+{
+  "index": 693,
+  "title": "Engineering the World: Stories from the First 75 Years",
+  "url": "https://openlibrary.org/search.json?title=Engineering%20the%20World%3A%20Stories%20from%20the%20First%2075%20Years&author=Caleb%20Pirtle&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:21.120Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Caleb Pirtle III"
+        ],
+        "first_publish_year": 2005,
+        "isbn": [
+          "0870745026",
+          "9780870745027"
+        ],
+        "key": "/works/OL8687553W",
+        "language": [
+          "eng"
+        ],
+        "title": "Engineering The World"
+      },
+      {
+        "author_name": [
+          "Caleb Pirtle"
+        ],
+        "first_publish_year": 2005,
+        "isbn": [
+          "9780870745027",
+          "0870745026"
+        ],
+        "key": "/works/OL2576289W",
+        "language": [
+          "eng"
+        ],
+        "title": "Engineering the world"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Engineering%20the%20World&author=Caleb%20Pirtle&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T23:08:14.719342"
+    },
+    "subjects": [
+      "Electronics",
+      "History",
+      "Texas Instruments Incorporated"
+    ],
+    "latest_revision": 5,
+    "key": "/works/OL8687553W",
+    "title": "Engineering The World",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2937522A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-02-13T14:56:25.969795"
+    },
+    "covers": [
+      660053
+    ],
+    "revision": 5
+  }
+}

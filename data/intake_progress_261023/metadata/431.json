@@ -1,0 +1,82 @@
+{
+  "index": 431,
+  "title": "Citizen Sim",
+  "url": "https://openlibrary.org/search.json?isbn=1632260131&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:57.497Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Michael Solana"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "9781632260130",
+          "1632260131"
+        ],
+        "key": "/works/OL24254977W",
+        "language": [
+          "eng"
+        ],
+        "title": "Citizen Sim"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Citizen Sim",
+    "subjects": [
+      "Teenage boys",
+      "Juvenile fiction",
+      "Inventions",
+      "Invisibility",
+      "Demonology",
+      "Assassins",
+      "Hackers",
+      "Fiction, science fiction, general",
+      "Fiction, fantasy, general"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9127210A"
+        }
+      }
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Johnny Clark is an ordinary, teenaged slacker from an ordinary family in an ordinary town. But when he wakes up on his fifteenth birthday with memories and abilities that don't belong to him, he's compelled to build a machine that turns him invisible and erases his entire life. Now, with the help of Layla Storm, a rambunctious, teenaged girl with a taste for trouble and a secret that could end the world, he must escape demonic creatures and a lethal band of interstellar assassins as he races to uncover the extraordinary truth about his past. The duo's only hope for survival lies in the mysterious clues left by the enigmatic Citizen Sim, a rogue hacker who will either save Johnny's life or be his end, but not before pushing him head first into a kaleidoscopic future world that is as dazzling as it is dangerous."
+    },
+    "covers": [
+      10740209
+    ],
+    "key": "/works/OL24254977W",
+    "genres": [
+      "/tags/OL179T",
+      "/tags/OL169T"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-03-26T11:17:47.788945"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-08-15T10:31:56.857765"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "index": 419,
+  "title": "Maui Revealed",
+  "url": "https://openlibrary.org/search.json?isbn=0981461034&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:49.500Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Andrew Doughty"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "0981461034",
+          "9780981461038"
+        ],
+        "key": "/works/OL17404689W",
+        "title": "Maui Revealed The Ultimate Guidebook"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2016-10-14T04:14:42.025153"
+    },
+    "subjects": [
+      "Guidebooks"
+    ],
+    "latest_revision": 3,
+    "key": "/works/OL17404689W",
+    "title": "Maui Revealed The Ultimate Guidebook",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL242748A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2017-05-02T00:03:53.995180"
+    },
+    "covers": [
+      7512220
+    ],
+    "revision": 3
+  }
+}

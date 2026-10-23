@@ -1,0 +1,123 @@
+{
+  "index": 727,
+  "title": "IBM: The Rise and Fall and Reinvention of a Global Icon",
+  "url": "https://openlibrary.org/search.json?title=IBM%3A%20The%20Rise%20and%20Fall%20and%20Reinvention%20of%20a%20Global%20Icon&author=James%20W.%20Cortada&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:40.168Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "James W. Cortada"
+        ],
+        "first_publish_year": 2019,
+        "isbn": [
+          "0262351498",
+          "0262039443",
+          "9780262351485",
+          "9780262351478",
+          "9780262351492",
+          "0262351471",
+          "026235148X",
+          "9780262039444"
+        ],
+        "key": "/works/OL20156546W",
+        "language": [
+          "eng"
+        ],
+        "title": "IBM"
+      },
+      {
+        "author_name": [
+          "James W. Cortada"
+        ],
+        "first_publish_year": 2023,
+        "isbn": [
+          "9780262547826",
+          "0262547821"
+        ],
+        "key": "/works/OL35772135W",
+        "language": [
+          "eng"
+        ],
+        "title": "IBM"
+      },
+      {
+        "author_name": [
+          "James W. Cortada"
+        ],
+        "first_publish_year": 2023,
+        "isbn": [
+          "023121300X",
+          "9780231213004"
+        ],
+        "key": "/works/OL35726416W",
+        "language": [
+          "eng"
+        ],
+        "title": "Inside IBM"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=IBM&author=James%20W.%20Cortada&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "subjects": [
+      "International business machines corporation",
+      "Computer industry",
+      "History",
+      "54.01 history of computer science"
+    ],
+    "key": "/works/OL20156546W",
+    "title": "IBM",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL27551A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8801637
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "This is a history of IBM, a huge multinational firm, from its origins in the 1880s to the present. It demonstrates that this supplier of computers, software and information technology services played a profound role in shaping how other large organizations and economies evolved in the twentieth century. It describes its strategies, expansions, how various parts of the company collaborated and competed within the firm overcoming problems, a nearly fatal period in the early 1990s, and its recurring revivals and successes. The book is unique for several reasons. First, it is a comprehensive volume covering technologies, managerial actions, strategies, sales, the role of customers, and government regulatory and legal issues. Second, it is the only history that covers the post 1980 period down to 2018. (The last major history of IBM was published in the early 1990s.) Third, its emphasis on the role of corporate and sales culture is unique among books concerning IBM. Fourth, this book provides the greatest amount of detail available today about IBM's role in Western and Eastern Europe. The book is also unique because the author brings to the project several perspectives: that of an employee close to much of the critical events of one-third of the company's history, that of a trained historian, and that of an experienced student of the history of computing in business. Thus, he is able to integrate the entire history of the company from its origins to the present, demonstrating, for example, legacies of a prior era still evident in today's company, an ability to connect IBM's behaviors in each decade to those of other large multinational corporations, and to the computing activities of its many thousands of customers--"
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-10-04T09:37:16.241895"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-05-05T15:42:14.000175"
+    }
+  }
+}

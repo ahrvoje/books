@@ -1,0 +1,80 @@
+{
+  "index": 489,
+  "title": "Legacy",
+  "url": "https://openlibrary.org/search.json?isbn=0195379616&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:01:35.468Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Harry Ostrer"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "0195379616",
+          "9780195379617"
+        ],
+        "key": "/works/OL16308100W",
+        "language": [
+          "eng"
+        ],
+        "title": "Legacy: a genetic history of the Jewish people"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Origin",
+      "Jews",
+      "Identity",
+      "Jews, identity",
+      "Inborn Genetic Diseases",
+      "Ethnology",
+      "Genetics",
+      "Medical Genetics",
+      "History",
+      "Judaism",
+      "Religious aspects"
+    ],
+    "key": "/works/OL16308100W",
+    "title": "Legacy: a genetic history of the Jewish people",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL390685A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8686891
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Who are the Jews-- a race, a people, a religious group? Osterer offers readers an entirely fresh perspective on the Jewish people and their history, with a cutting-edge portrait of population genetics, a field which may soon take its place as a pillar of group identity alongside shared spirituality, shared social values, and a shared cultural legacy."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-11-30T08:44:21.007067"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-06-22T08:00:38.909015"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "index": 490,
+  "title": "Flying the Alaska Wild",
+  "url": "https://openlibrary.org/search.json?isbn=0896585891&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:01:35.787Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Mort D. Mason"
+        ],
+        "first_publish_year": 2002,
+        "isbn": [
+          "9780896585898",
+          "0896585891"
+        ],
+        "key": "/works/OL8634260W",
+        "language": [
+          "eng"
+        ],
+        "title": "Flying the Alaska Wild"
+      }
+    ]
+  },
+  "work": {
+    "title": "Flying the Alaska Wild",
+    "covers": [
+      695748
+    ],
+    "key": "/works/OL8634260W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2907221A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Bush flying",
+      "Bush pilots",
+      "Description and travel"
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T23:03:12.940762"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-12-05T12:24:03.256644"
+    }
+  }
+}

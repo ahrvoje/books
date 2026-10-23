@@ -1,0 +1,93 @@
+{
+  "index": 696,
+  "title": "Information for Everyone: The Applied Materials Story",
+  "url": "https://openlibrary.org/search.json?title=Information%20for%20Everyone%3A%20The%20Applied%20Materials%20Story&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:22.806Z",
+  "status": 200,
+  "search": {
+    "numFound": 9,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 9,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "first_publish_year": 1993,
+        "isbn": [
+          "0947976191",
+          "9780947976194"
+        ],
+        "key": "/works/OL19377769W",
+        "language": [
+          "eng"
+        ],
+        "title": "Information for everyone"
+      },
+      {
+        "author_name": [
+          "Eric Nee"
+        ],
+        "first_publish_year": 2003,
+        "isbn": [
+          "0972615407",
+          "9780972615402"
+        ],
+        "key": "/works/OL9655048W",
+        "language": [
+          "eng"
+        ],
+        "title": "Information for everyone"
+      },
+      {
+        "author_name": [
+          "LAMSAC."
+        ],
+        "first_publish_year": 1989,
+        "key": "/works/OL10748783W",
+        "language": [
+          "eng"
+        ],
+        "title": "Information for everyone"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Information%20for%20Everyone&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2019-04-02T04:54:58.109748"
+    },
+    "title": "Information for everyone",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-04-02T04:54:58.109748"
+    },
+    "subject_places": [
+      "Scotland"
+    ],
+    "subjects": [
+      "Community information services"
+    ],
+    "latest_revision": 1,
+    "key": "/works/OL19377769W",
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "index": 22,
+  "title": "Food: A Very Short Introduction",
+  "retrievedAt": "2026-10-23T19:05:52.881Z",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/works/OL28245974W/editions.json?limit=100",
+      "status": 200
+    },
+    {
+      "url": "https://www.amazon.de/dp/0108459225",
+      "status": 200,
+      "title": "Amazon.de",
+      "countText": null,
+      "globalText": null,
+      "sha256": "3f75b565e465f1a7404ee60d0f3d1bc7097b6b0cd1a5a6e6572b1bd8464ae1f2",
+      "bytes": 3815
+    },
+    {
+      "url": "https://www.amazon.com/dp/0108459225",
+      "status": 200,
+      "title": "Amazon.com",
+      "countText": null,
+      "globalText": null,
+      "sha256": "f68a26d54624e7ee441d72c56ef42a43b58b56d8d5dce39514a7a288dab7b707",
+      "bytes": 3781
+    }
+  ],
+  "edition": {
+    "type": {
+      "key": "/type/edition"
+    },
+    "authors": [
+      {
+        "key": "/authors/OL9974392A"
+      },
+      {
+        "key": "/authors/OL10513540A"
+      },
+      {
+        "key": "/authors/OL10513942A"
+      }
+    ],
+    "isbn_13": [
+      "9780108459221"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "pagination": "112",
+    "publish_date": "2010",
+    "publishers": [
+      "Stationery Office, The"
+    ],
+    "source_records": [
+      "bwb:9780108459221"
+    ],
+    "title": "Nanotechnologies and Food Vol. 1",
+    "subtitle": "Report",
+    "works": [
+      {
+        "key": "/works/OL28245974W"
+      }
+    ],
+    "key": "/books/OL38655982M",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-07-17T13:49:59.061763"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-07-17T13:49:59.061763"
+    }
+  },
+  "work": "https://openlibrary.org/works/OL28245974W"
+}

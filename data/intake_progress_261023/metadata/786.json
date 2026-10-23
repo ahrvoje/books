@@ -1,0 +1,65 @@
+{
+  "index": 786,
+  "title": "A Great Leap Forward",
+  "url": "https://openlibrary.org/search.json?isbn=0300188161&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:26:18.420Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Alexander J. Field"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "9780300188165",
+          "0300188161"
+        ],
+        "key": "/works/OL17564037W",
+        "title": "A Great Leap Forward\r\n            \r\n                Yale Series in Economic and Financial History"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2016-10-14T22:18:47.253940"
+    },
+    "subjects": [
+      "Depressions, 1929",
+      "United states, economic conditions, 1918-1945",
+      "United states, economic conditions, 20th century"
+    ],
+    "latest_revision": 3,
+    "key": "/works/OL17564037W",
+    "title": "A Great Leap Forward\r\n            \r\n                Yale Series in Economic and Financial History",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1009962A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-03T03:16:39.059373"
+    },
+    "covers": [
+      7829644
+    ],
+    "revision": 3
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "index": 313,
+  "title": "On Ugliness",
+  "url": "https://openlibrary.org/search.json?isbn=0847829863&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:39.464Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Umberto Eco",
+          "Alastair McEwen"
+        ],
+        "first_publish_year": 2007,
+        "isbn": [
+          "1846551226",
+          "9780847837236",
+          "9780857051622",
+          "9781846551222",
+          "0847837238",
+          "9780847829866",
+          "0847829863",
+          "0857051628"
+        ],
+        "key": "/works/OL14916420W",
+        "language": [
+          "eng",
+          "und"
+        ],
+        "title": "On Ugliness"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Ugliness",
+      "Ugliness in art.",
+      "Philosophy",
+      "Art",
+      "Aesthetics",
+      "Ugliness in art",
+      "History",
+      "Art and philosophy",
+      "Art, philosophy",
+      "Aesthetics, history",
+      "Grotesque"
+    ],
+    "key": "/works/OL14916420W",
+    "title": "On Ugliness",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL20735A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7325356A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      2663585,
+      5487024,
+      5471764
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "'On Ugliness' is a study of the concept of ugliness through time. The text presents Eco's captivating and intelligent analysis of an idea through its manifestation in art, literature, architecture and photography."
+    },
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-03-12T12:58:42.053029"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-10-13T00:01:07.529253"
+    }
+  }
+}

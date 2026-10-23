@@ -1,0 +1,108 @@
+{
+  "index": 677,
+  "title": "Imperial Chemical Industries: A History: Vols 1 and 2",
+  "url": "https://openlibrary.org/search.json?title=Imperial%20Chemical%20Industries%3A%20A%20History%3A%20Vols%201%20and%202&author=Reader%2C%20W.J.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:14.020Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "W. J. Reader"
+        ],
+        "first_publish_year": 1970,
+        "isbn": [
+          "0192159372",
+          "9780192159373"
+        ],
+        "key": "/works/OL4982575W",
+        "language": [
+          "eng"
+        ],
+        "title": "Imperial Chemical industries"
+      },
+      {
+        "author_name": [
+          "W. J Reader"
+        ],
+        "first_publish_year": 1977,
+        "key": "/works/OL12746545W",
+        "language": [
+          "eng"
+        ],
+        "title": "Imperial Chemical Industries and the state, 1926-1945"
+      },
+      {
+        "author_name": [
+          "W. J. Reader"
+        ],
+        "first_publish_year": 1997,
+        "isbn": [
+          "9780192159441",
+          "0192159445"
+        ],
+        "key": "/works/OL4982563W",
+        "title": "Imperial Chemical Industries Vol 2 1926-52"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Imperial%20Chemical%20Industries&author=Reader&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "covers": [
+      9475234
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-10-12T21:46:38.906017"
+    },
+    "latest_revision": 4,
+    "key": "/works/OL4982575W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1076982A"
+        }
+      }
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T08:12:49.586460"
+    },
+    "title": "Imperial Chemical industries",
+    "subject_places": [
+      "Great Britain"
+    ],
+    "subjects": [
+      "Chemical industry",
+      "Imperial Chemical Industries",
+      "Imperial Chemical Industries, ltd"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 4
+  }
+}

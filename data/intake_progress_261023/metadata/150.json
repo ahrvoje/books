@@ -1,0 +1,78 @@
+{
+  "index": 150,
+  "title": "Book from the Ground",
+  "url": "https://openlibrary.org/search.json?isbn=0262027089&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:57:25.199Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Xu, Bing"
+        ],
+        "first_publish_year": 2013,
+        "isbn": [
+          "9780262027083",
+          "0262027089"
+        ],
+        "key": "/works/OL23176860W",
+        "title": "Book from the ground"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "\"Xu Bing spent seven years gathering materials, experimenting, revising, and arranging thousands of pictograms to construct this narrative. The result is a readable story without words recording 24 hours in the day of the life of a typical urban white-collar worker. Using an exclusively visual language, the text could be published anywhere without translation\"--Back cover."
+    },
+    "key": "/works/OL23176860W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL680986A"
+        }
+      }
+    ],
+    "title": "Book from the ground",
+    "subject_places": [
+      "China"
+    ],
+    "subjects": [
+      "Artists' books",
+      "Signs and symbols",
+      "Miscellenea",
+      "White collar workers",
+      "Fiction",
+      "Icons (Computer graphics)",
+      "Miscellanea",
+      "Picture-writing",
+      "Comics & graphic novels, general"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      10656913
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-11-12T18:19:13.331821"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-08-17T09:20:28.037219"
+    }
+  }
+}

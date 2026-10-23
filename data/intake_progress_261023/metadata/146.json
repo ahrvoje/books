@@ -1,0 +1,67 @@
+{
+  "index": 146,
+  "title": "Coding the Matrix",
+  "url": "https://openlibrary.org/search.json?isbn=0615880991&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:57:21.905Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Philip N. Klein"
+        ],
+        "first_publish_year": 2013,
+        "isbn": [
+          "9780615880990",
+          "061585673X",
+          "9780615856735",
+          "0615880991"
+        ],
+        "key": "/works/OL22321354W",
+        "title": "Coding the Matrix"
+      }
+    ]
+  },
+  "work": {
+    "title": "Coding the Matrix",
+    "covers": [
+      10453141
+    ],
+    "key": "/works/OL22321354W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7597657A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Algebras, linear",
+      "Computer science--mathematics",
+      "Qa184.2 .k538 2013"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-09-21T09:25:31.744889"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-19T23:11:25.488024"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "index": 784,
+  "title": "Lincoln",
+  "retrievedAt": "2026-10-23T19:29:34.735Z",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/works/OL14936701W/editions.json?limit=100",
+      "status": 200
+    },
+    {
+      "url": "https://www.amazon.de/dp/0060773367",
+      "status": 200,
+      "title": "Amazon.de",
+      "countText": null,
+      "globalText": null,
+      "sha256": "81b9dfa60b549ae1187554e83fbf11f414ba573a19b9c7d7e7e789ebe14c9edb",
+      "bytes": 3815
+    },
+    {
+      "url": "https://www.amazon.com/dp/0060773367",
+      "status": 200,
+      "title": "Amazon.com",
+      "countText": null,
+      "globalText": null,
+      "sha256": "50ee2a38d7d8e502c35a4c0e2a5d78a77a0b2803f002984c42eaeff124debcff",
+      "bytes": 3781
+    }
+  ],
+  "edition": {
+    "type": {
+      "key": "/type/edition"
+    },
+    "authors": [
+      {
+        "key": "/authors/OL20623A"
+      }
+    ],
+    "isbn_13": [
+      "9780061717871"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "publish_date": "2008",
+    "publishers": [
+      "HarperCollins Publishers"
+    ],
+    "source_records": [
+      "bwb:9780061717871"
+    ],
+    "title": "Lincoln",
+    "subtitle": "The Biography of a Writer",
+    "full_title": "Lincoln The Biography of a Writer",
+    "works": [
+      {
+        "key": "/works/OL14936701W"
+      }
+    ],
+    "key": "/books/OL37377881M",
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-03-01T03:05:02.501479"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-05-18T13:09:36.107571"
+    }
+  },
+  "work": "https://openlibrary.org/works/OL14936701W"
+}

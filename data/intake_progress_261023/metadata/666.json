@@ -1,0 +1,85 @@
+{
+  "index": 666,
+  "title": "The Weight of Nations: Material Outflows from Industrial Economies",
+  "url": "https://openlibrary.org/search.json?title=The%20Weight%20of%20Nations%3A%20Material%20Outflows%20from%20Industrial%20Economies&author=Matthews%2C%20E.%20(ed.)&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:09.991Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Emily Matthews"
+        ],
+        "first_publish_year": 2000,
+        "isbn": [
+          "9781569734391",
+          "1569734399"
+        ],
+        "key": "/works/OL7801234W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Weight of Nations"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=The%20Weight%20of%20Nations&author=Matthews&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "The Weight of Nations",
+    "subjects": [
+      "Raw materials",
+      "Statistics",
+      "Sustainable development",
+      "Natural resources",
+      "Economic development",
+      "Environmental aspects"
+    ],
+    "key": "/works/OL7801234W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2466321A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      14373526
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T21:55:28.766912"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-08-12T11:51:02.125184"
+    }
+  }
+}

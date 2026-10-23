@@ -1,0 +1,146 @@
+{
+  "index": 769,
+  "title": "Project X: Nissin Cup Noodle",
+  "url": "https://openlibrary.org/search.json?title=Project%20X%3A%20Nissin%20Cup%20Noodle&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:04:05.126Z",
+  "status": 200,
+  "search": {
+    "numFound": 526,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 526,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Stuart Gibbs"
+        ],
+        "first_publish_year": 2022,
+        "isbn": [
+          "9781797145518",
+          "1797145517",
+          "1534479511",
+          "9781534479500",
+          "1534479503",
+          "153447949X",
+          "9781534479517",
+          "9798855046533",
+          "9781534479494"
+        ],
+        "key": "/works/OL27139936W",
+        "language": [
+          "eng"
+        ],
+        "title": "Spy School Project X"
+      },
+      {
+        "author_name": [
+          "Jim Shepard"
+        ],
+        "first_publish_year": 2003,
+        "isbn": [
+          "140004071X",
+          "9781417675999",
+          "9781400033485",
+          "1400033489",
+          "9781400040711",
+          "1417675993",
+          "0307427331",
+          "9780307427335"
+        ],
+        "key": "/works/OL2712924W",
+        "language": [
+          "eng"
+        ],
+        "title": "Project X"
+      },
+      {
+        "author_name": [
+          "Tony Bradman"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "0198340532",
+          "0198340125",
+          "9780198340577",
+          "0198340575",
+          "9780198340539",
+          "9780198340140",
+          "0198340273",
+          "9780198340126",
+          "0198340109",
+          "9780198340270",
+          "9780198340201",
+          "0198340117",
+          "0198340214",
+          "0198340141",
+          "9780198340119",
+          "0198340257",
+          "9780198340256",
+          "9780198340553",
+          "9780198340218",
+          "9780198340515",
+          "9780198340133",
+          "0198340559",
+          "0198340206",
+          "9780198340232",
+          "0198340133",
+          "0198340230",
+          "9780198340102",
+          "0198340516"
+        ],
+        "key": "/works/OL20406582W",
+        "title": "Project X Code"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Project%20X&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Spy School Project X",
+    "subjects": [
+      "Children's fiction"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6742551A"
+        }
+      }
+    ],
+    "key": "/works/OL27139936W",
+    "covers": [
+      12886545
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-01-28T11:49:57.131614"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-08-23T10:21:11.934096"
+    }
+  }
+}

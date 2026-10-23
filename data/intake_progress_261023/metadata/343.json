@@ -1,0 +1,113 @@
+{
+  "index": 343,
+  "title": "Structure and Interpretation of Classical Mechanics",
+  "url": "https://openlibrary.org/search.json?isbn=0262194554&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:59.414Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Gerald Jay Sussman",
+          "Jack Widsom"
+        ],
+        "first_publish_year": 2001,
+        "isbn": [
+          "9780262326667",
+          "9780262326674",
+          "9780262028967",
+          "0262028964",
+          "9780262194556",
+          "9780262307338",
+          "9780262326650",
+          "0262326655",
+          "0262326671",
+          "0262307332",
+          "0262326663",
+          "0262194554"
+        ],
+        "key": "/works/OL16797774W",
+        "language": [
+          "eng"
+        ],
+        "title": "Structure and Interpretation of Classical Mechanics"
+      }
+    ]
+  },
+  "work": {
+    "description": "This textbook takes an innovative approach to the teaching of classical mechanics, emphasizing the development of general but practical intellectual tools to support the analysis of nonlinear Hamiltonian systems. The development is organized around a progressively more sophisticated analysis of particular natural systems and weaves examples throughout the presentation. Explorations of phenomena such as transitions to chaos, nonlinear resonances, and resonance overlap to help the student to develop appropriate analytic tools for understanding. Computational algorithms communicate methods used in the analysis of dynamical phenomena. Expressing the methods of mechanics in a computer language forces them to be unambiguous and computationally effective. Once formalized as a procedure, a mathematical idea also becomes a tool that can be used directly to compute results. *(Publisher's Description)*",
+    "links": [
+      {
+        "url": "http://groups.csail.mit.edu/mac/users/gjs/6946/sicm-html/book.html",
+        "type": {
+          "key": "/type/link"
+        },
+        "title": "Full Text Available Online"
+      }
+    ],
+    "title": "Structure and Interpretation of Classical Mechanics",
+    "covers": [
+      150718
+    ],
+    "subjects": [
+      "Physics",
+      "Scheme (Programming Language)",
+      "Classical Mechanics",
+      "Mechanics",
+      "Analytical mechanics",
+      "Mécanique",
+      "Mechanics (physics)",
+      "SCIENCE",
+      "General",
+      "Solids"
+    ],
+    "key": "/works/OL16797774W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1963807A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7167284A"
+        }
+      }
+    ],
+    "excerpts": [
+      {
+        "comment": "Describes the philosophy of the text",
+        "excerpt": "Computational algorithms are used to communicate precisely some of the methods used in the analysis of dynamical phenomena. Expressing the methods of variational mechanics in a computer language forces them to be unambiguous and computationally effective. Computation requires us to be precise about the representation of mechanical and geometric notions as computational objects and permits us to represent explicitly the algorithms for manipulating these objects. Also, once formalized as a procedure, a mathematical idea becomes a tool that can be used directly to compute results.\r\n\r\nActive exploration on the part of the student is an essential part of the learning experience. Our focus is on understanding the motion of systems; to learn about motion the student must actively explore the motion of systems through simulation and experiment. The exercises and projects are an integral part of the presentation.\r\n\r\nThat the mathematics is precise enough to be interpreted automatically allows active exploration to be extended to it. The requirement that the computer be able to interpret any expression provides strict and immediate feedback as to whether the expression is correctly formulated. Experience demonstrates that interaction with the computer in this way uncovers and corrects many deficiencies in understanding.\r\n\r\nIn this book we express computational methods in Scheme, a dialect of the Lisp family of programming languages that we also use in our introductory computer science subject at MIT. There are many good expositions of Scheme. We provide a short introduction to Scheme in an appendix.",
+        "author": {
+          "key": "/people/bnewbold"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2012-11-25T14:31:48.423540"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-17T02:06:40.479979"
+    }
+  }
+}

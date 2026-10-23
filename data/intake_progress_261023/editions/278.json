@@ -1,0 +1,76 @@
+{
+  "index": 278,
+  "title": "The Anabasis",
+  "retrievedAt": "2026-10-23T19:22:02.622Z",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/works/OL29439084W/editions.json?limit=100",
+      "status": 200
+    },
+    {
+      "url": "https://www.amazon.de/s?k=The%20Anabasis%20Xenophon",
+      "status": 503,
+      "title": "\nTut uns Leid!\n",
+      "countText": null,
+      "globalText": null,
+      "sha256": "d06e81cad467060714a9a0127001908a1af170e9570ac149771da617ea9092cf",
+      "bytes": 2292
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Anabasis%20Xenophon",
+      "status": 503,
+      "title": "Sorry! Something went wrong!",
+      "countText": null,
+      "globalText": null,
+      "sha256": "470de24561f8fdb4c965acb40542fe9fad14e1843793a497a3bacd906d05544c",
+      "bytes": 2671
+    }
+  ],
+  "edition": {
+    "type": {
+      "key": "/type/edition"
+    },
+    "authors": [
+      {
+        "key": "/authors/OL10218359A"
+      }
+    ],
+    "isbn_13": [
+      "9798621846077"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "pagination": "299",
+    "publish_date": "2020",
+    "publishers": [
+      "Independently Published"
+    ],
+    "source_records": [
+      "bwb:9798621846077"
+    ],
+    "title": "Anabasis",
+    "weight": "0.864",
+    "subtitle": "Large Print",
+    "full_title": "Anabasis Large Print",
+    "works": [
+      {
+        "key": "/works/OL29439084W"
+      }
+    ],
+    "key": "/books/OL41999884M",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-11-29T08:04:50.716506"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-11-29T08:04:50.716506"
+    }
+  },
+  "work": "https://openlibrary.org/works/OL29439084W"
+}

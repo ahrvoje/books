@@ -1,0 +1,95 @@
+{
+  "index": 651,
+  "title": "City of Light: The Story of Fiber Optics",
+  "url": "https://openlibrary.org/search.json?title=City%20of%20Light%3A%20The%20Story%20of%20Fiber%20Optics&author=Hecht%2C%20J.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:05.102Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jeff Hecht"
+        ],
+        "first_publish_year": 1999,
+        "isbn": [
+          "9780195108187",
+          "1280452978",
+          "0195108183",
+          "0195162552",
+          "9780195162554",
+          "0198026765",
+          "9780198026761",
+          "9781280452970"
+        ],
+        "key": "/works/OL1809574W",
+        "language": [
+          "eng"
+        ],
+        "title": "City of light"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=City%20of%20Light&author=Hecht&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "City of light",
+    "covers": [
+      1127486
+    ],
+    "first_publish_date": "1999",
+    "key": "/works/OL1809574W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL217059A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "621.36/92"
+    ],
+    "subjects": [
+      "Fiber optics",
+      "Technology"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "\"City of Light tells the story of fiber optics, tracing its transformation from 19th-century parlor trick into the foundation of our global communications network. Written for a broad audience by a journalist who has covered the field for twenty years, the books is a lively account of both the people and the ideas behind this revolutionary technology.\"--Jacket."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:24:44.731306"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-12-03T09:23:57.075978"
+    }
+  }
+}

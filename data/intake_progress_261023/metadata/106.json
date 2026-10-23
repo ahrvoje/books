@@ -1,0 +1,86 @@
+{
+  "index": 106,
+  "title": "The 60s: The Story of a Decade",
+  "url": "https://openlibrary.org/search.json?isbn=0679644830&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:56:56.804Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Henry Finder",
+          "David Remnick"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "9780679644835",
+          "0679644830"
+        ],
+        "key": "/works/OL20042877W",
+        "language": [
+          "eng"
+        ],
+        "title": "The 60s"
+      }
+    ]
+  },
+  "work": {
+    "key": "/works/OL20042877W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7320992A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL228037A"
+        }
+      }
+    ],
+    "title": "The 60s",
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Nineteen sixties",
+      "Civilization",
+      "HISTORY / United States / 20th Century",
+      "LITERARY COLLECTIONS / American / General",
+      "HISTORY / Social History",
+      "LITERARY COLLECTIONS / American"
+    ],
+    "subject_times": [
+      "1945-"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      12815999
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-19T18:40:43.093246"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-20T05:40:49.487449"
+    }
+  }
+}

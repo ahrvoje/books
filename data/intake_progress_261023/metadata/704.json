@@ -1,0 +1,87 @@
+{
+  "index": 704,
+  "title": "Brunel: The Man Who Built the World",
+  "url": "https://openlibrary.org/search.json?title=Brunel%3A%20The%20Man%20Who%20Built%20the%20World&author=Steven%20Brindle&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:26.468Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Steven Brindle"
+        ],
+        "first_publish_year": 2005,
+        "isbn": [
+          "9781780226484",
+          "9780753821251",
+          "0753821257",
+          "9780297844082",
+          "1780226489",
+          "0297844083"
+        ],
+        "key": "/works/OL8355007W",
+        "language": [
+          "eng"
+        ],
+        "title": "Brunel"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Brunel&author=Steven%20Brindle&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "Brunel",
+    "covers": [
+      1408851
+    ],
+    "key": "/works/OL8355007W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2780666A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Engineers, biography",
+      "Civil engineers",
+      "Biography",
+      "Spoorwegen"
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:41:19.815303"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-10-21T06:07:43.760600"
+    }
+  }
+}

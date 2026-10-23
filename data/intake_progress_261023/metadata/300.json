@@ -1,0 +1,70 @@
+{
+  "index": 300,
+  "title": "General Knowledge",
+  "url": "https://openlibrary.org/search.json?isbn=186154068X&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:24.149Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Stephen Bayley"
+        ],
+        "first_publish_year": 2000,
+        "isbn": [
+          "186154068X",
+          "9781861540683"
+        ],
+        "key": "/works/OL4346383W",
+        "language": [
+          "eng"
+        ],
+        "title": "General knowledge"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Design",
+      "History",
+      "Modern Aesthetics",
+      "Twentieth century",
+      "Modern Civilization"
+    ],
+    "key": "/works/OL4346383W",
+    "title": "General knowledge",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL850911A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      917170
+    ],
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T06:06:02.454677"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-07-16T05:01:00.634683"
+    }
+  }
+}

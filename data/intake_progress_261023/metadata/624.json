@@ -1,0 +1,76 @@
+{
+  "index": 624,
+  "title": "Crick: A Mind in Motion – from DNA to the Brain",
+  "url": "https://openlibrary.org/search.json?title=Crick%3A%20A%20Mind%20in%20Motion%20%E2%80%93%20from%20DNA%20to%20the%20Brain&author=Matthew%20Cobb&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:56.141Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Matthew Cobb"
+        ],
+        "first_publish_year": 2025,
+        "isbn": [
+          "9781541602885",
+          "9781800811058",
+          "1541602889",
+          "1800811055"
+        ],
+        "key": "/works/OL44560287W",
+        "language": [
+          "eng"
+        ],
+        "title": "Crick"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Crick&author=Matthew%20Cobb&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Crick",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL13636159A"
+        }
+      }
+    ],
+    "key": "/works/OL44560287W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2025-12-12T22:02:51.393187"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-12-12T22:02:51.393187"
+    }
+  }
+}

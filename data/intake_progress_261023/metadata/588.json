@@ -1,0 +1,92 @@
+{
+  "index": 588,
+  "title": "The Engineering Book: From the Catapult to the Curiosity Rover : 250 Milestones in the History of Engineering",
+  "url": "https://openlibrary.org/search.json?title=The%20Engineering%20Book%3A%20From%20the%20Catapult%20to%20the%20Curiosity%20Rover%20%3A%20250%20Milestones%20in%20the%20History%20of%20Engineering&author=Marshall%20Brain&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:40.638Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Marshall Brain"
+        ],
+        "first_publish_year": 2015,
+        "isbn": [
+          "1454908092",
+          "9781454908098",
+          "9781454908104",
+          "1454908106"
+        ],
+        "key": "/works/OL20006227W",
+        "language": [
+          "eng"
+        ],
+        "title": "The engineering book"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=The%20Engineering%20Book&author=Marshall%20Brain&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "subjects": [
+      "Engineering",
+      "Technology and civilization",
+      "Western Civilization",
+      "Technological innovations",
+      "Popular works",
+      "History",
+      "Engineering, history"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Engineering is where human knowledge meets real-world problems--and solves them. It's the source of some of our greatest inventions, from the catapult to the jet engine, from the cell phone to the Large Hadron Collider. Marshall Brain, creator of the How Stuff Works series, provides a detailed look at 250 milestones in aerospace, architecture, chemistry, computer engineering, and more, from ancient history to the present."
+    },
+    "key": "/works/OL20006227W",
+    "title": "The engineering book",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL341863A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      12178059
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-19T03:47:03.828542"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-11-02T20:53:24.581176"
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "index": 600,
+  "title": "The Physicists: The History of a Scientific Community in Modern America",
+  "url": "https://openlibrary.org/search.json?title=The%20Physicists%3A%20The%20History%20of%20a%20Scientific%20Community%20in%20Modern%20America&author=Daniel%20Kevles&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:46.153Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Daniel J. Kevles"
+        ],
+        "first_publish_year": 1978,
+        "isbn": [
+          "0674666550",
+          "9780394466316",
+          "9780394726694",
+          "0394466314",
+          "0394726693",
+          "9780674666566",
+          "9780674666559",
+          "0674666569"
+        ],
+        "key": "/works/OL2753726W",
+        "language": [
+          "eng"
+        ],
+        "title": "The physicists"
+      },
+      {
+        "author_name": [
+          "Daniel J. Kevles"
+        ],
+        "first_publish_year": 2005,
+        "isbn": [
+          "0674666569",
+          "9780674666566"
+        ],
+        "key": "/works/OL8062531W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Physicists"
+      },
+      {
+        "author_name": [
+          "Daniel J. Kevles"
+        ],
+        "first_publish_year": 1978,
+        "isbn": [
+          "9780394466316",
+          "0394466314"
+        ],
+        "key": "/works/OL12585571W",
+        "language": [
+          "eng"
+        ],
+        "title": "The physicists"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=The%20Physicists&author=Daniel%20Kevles&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-18T18:59:49.731753"
+    },
+    "title": "The physicists",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T00:21:14.831695"
+    },
+    "covers": [
+      413775
+    ],
+    "subject_places": [
+      "United States"
+    ],
+    "first_publish_date": "1978",
+    "latest_revision": 8,
+    "key": "/works/OL2753726W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL404120A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "530/.0973"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "History",
+      "Physics",
+      "Physicists",
+      "Science",
+      "Physics, history",
+      "Science, history, united states"
+    ],
+    "revision": 8
+  }
+}

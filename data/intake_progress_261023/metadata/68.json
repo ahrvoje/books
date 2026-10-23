@@ -1,0 +1,99 @@
+{
+  "index": 68,
+  "title": "Petroleum Refining in Nontechnical Language",
+  "url": "https://openlibrary.org/search.json?title=Petroleum%20Refining%20in%20Nontechnical%20Language&author=Leffler%2C%20W.L.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:56:34.220Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "William L. Leffler"
+        ],
+        "first_publish_year": 2000,
+        "isbn": [
+          "9781593705008",
+          "1593709854",
+          "1593701586",
+          "9781593701581",
+          "9781593709853",
+          "9780878147762",
+          "9781593702809",
+          "159370500X",
+          "1593702809",
+          "0878147764"
+        ],
+        "key": "/works/OL121986W",
+        "language": [
+          "eng"
+        ],
+        "title": "Petroleum refining in nontechnical language"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Petroleum%20Refining%20in%20Nontechnical%20Language&author=Leffler&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "Petroleum refining in nontechnical language",
+    "covers": [
+      1631320
+    ],
+    "first_publish_date": "2000",
+    "key": "/works/OL121986W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1237962A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "665.5/3"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Petroleum chemicals",
+      "Petroleum",
+      "Refining",
+      "Petroleum, refining",
+      "Pétrole",
+      "Raffinage",
+      "Produits pétrochimiques",
+      "Petrochemical"
+    ],
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-10-18T11:31:02.960693"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-21T22:47:01.567201"
+    }
+  }
+}

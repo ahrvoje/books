@@ -1,0 +1,95 @@
+{
+  "index": 706,
+  "title": "Historical Building Construction",
+  "url": "https://openlibrary.org/search.json?title=Historical%20Building%20Construction&author=Donald%20Friedman&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:27.531Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Donald Friedman"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "0393732681",
+          "9780393732689"
+        ],
+        "key": "/works/OL13557302W",
+        "language": [
+          "eng"
+        ],
+        "title": "Historical building construction"
+      },
+      {
+        "author_name": [
+          "Donald Friedman"
+        ],
+        "first_publish_year": 1995,
+        "isbn": [
+          "9780393702002",
+          "0393702006"
+        ],
+        "key": "/works/OL18319238W",
+        "language": [
+          "eng"
+        ],
+        "title": "Historical building construction"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "2010",
+    "title": "Historical building construction",
+    "lc_classifications": [
+      "TH3361 .F75 2010"
+    ],
+    "key": "/works/OL13557302W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6420971A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "690/.24"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Historic buildings, conservation and restoration",
+      "Building, history",
+      "Historic buildings",
+      "Maintenance and repair",
+      "Conservation and restoration",
+      "Building history series",
+      "Building",
+      "History"
+    ],
+    "covers": [
+      13220177
+    ],
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T09:55:25.827296"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-02-02T21:48:31.987296"
+    }
+  }
+}

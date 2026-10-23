@@ -1,0 +1,79 @@
+{
+  "index": 526,
+  "title": "My First Trip to China",
+  "url": "https://openlibrary.org/search.json?isbn=9881604621&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:00.130Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Kin-ming Liu"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "9881604621",
+          "9789881604620"
+        ],
+        "key": "/works/OL19962477W",
+        "language": [
+          "eng"
+        ],
+        "title": "My first trip to China"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "\"... these deftly edited views from the outside make up one great story: the history of Communist China. More than a history of one damned thing happening after another, this is a history of perceptions, lies, myths, and revelations, as much about China as her rulers wish it to be seen as about those who have chosen to see China, more and sometimes less clearly, over the last half century. (Ian Buruma, author of Bad Elements: Chinese Rebels from Los Angeles to Beijing) The opening of China to the world, and then of the world to China, is one of modern history's most consequential stories. That story is told in a fresh, innovative fashion in this insightful collection of personal experiences related by a distinguished collection of historians, diplomats, journalists, political writers, and others who ventured behind the Bamboo Curtain early on. Leading the way are disillusioned leftists stunned by the horrors of the Cultural Revolution and Mao's Great Leap Forward. They gradually give way to knowing observers of a tumultuous society determined to become once again a world power. Their accounts form an impressionistic vision of epochal change taking place on the gallop. (Jim Hoagland, contributing editor, The Washington Post ).\"--Back cover."
+    },
+    "key": "/works/OL19962477W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7591658A"
+        }
+      }
+    ],
+    "title": "My first trip to China",
+    "subject_places": [
+      "China"
+    ],
+    "subjects": [
+      "Social conditions",
+      "Description and travel",
+      "Travelers' writings",
+      "History",
+      "China, description and travel",
+      "China, social conditions",
+      "China, history"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      12919494
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-18T00:01:14.928141"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-02-17T02:50:14.447740"
+    }
+  }
+}

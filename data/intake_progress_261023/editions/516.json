@@ -1,0 +1,102 @@
+{
+  "index": 516,
+  "title": "This Will Change Everything",
+  "retrievedAt": "2026-10-23T19:23:33.605Z",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/works/OL17389796W/editions.json?limit=100",
+      "status": 200
+    },
+    {
+      "url": "https://www.amazon.de/dp/0061899674",
+      "status": 200,
+      "title": "Amazon.de",
+      "countText": null,
+      "globalText": null,
+      "sha256": "855080e517579e6d1377cb9cbe8da30d2ff5ef9c8a88f677908dadc86a07b0b3",
+      "bytes": 3815
+    },
+    {
+      "url": "https://www.amazon.com/dp/0061899674",
+      "status": 200,
+      "title": "Amazon.com",
+      "countText": null,
+      "globalText": null,
+      "sha256": "56a67b023992a5dd42665559312bf64304b6804934411dedd3137b5db46364e1",
+      "bytes": 3781
+    }
+  ],
+  "edition": {
+    "publishers": [
+      "Harper Perennial"
+    ],
+    "source_records": [
+      "ia:isbn_9780061899676",
+      "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run04.mrc:35750807:2637",
+      "bwb:9780061899676",
+      "amazon:0061899674",
+      "promise:bwb_daily_pallets_2022-05-25",
+      "marc:marc_columbia/Columbia-extract-20221130-016.mrc:37660583:1432",
+      "marc:harvard_bibliographic_metadata/ab.bib.12.20150123.full.mrc:230405114:8210",
+      "marc:marc_nuls/NULS_PHC_180925.mrc:274330964:8407",
+      "idb:9780061899676",
+      "marc:harvard_bibliographic_metadata/20220215_037.bib.mrc:268301724:8874"
+    ],
+    "title": "This Will Change Everything Ideas That Will Shape The Future",
+    "identifiers": {},
+    "covers": [
+      7482482
+    ],
+    "isbn_13": [
+      "9780061899676"
+    ],
+    "local_id": [
+      "urn:sfpl:31223090496465",
+      "urn:sfpl:31223084328369",
+      "urn:sfpl:31223090496515",
+      "urn:sfpl:31223090496523",
+      "urn:sfpl:31223090496531",
+      "urn:bwbsku:W7-CEJ-214",
+      "urn:nuls:31786102655666"
+    ],
+    "publish_date": "2010",
+    "key": "/books/OL25969961M",
+    "ocaid": "isbn_9780061899676",
+    "works": [
+      {
+        "key": "/works/OL17389796W"
+      }
+    ],
+    "type": {
+      "key": "/type/edition"
+    },
+    "lc_classifications": [
+      "Q180.55.D57 T45 2010",
+      "HM901 .T45 2010"
+    ],
+    "oclc_numbers": [
+      "419852004"
+    ],
+    "number_of_pages": 390,
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"Edge.org presents 125 of today's leading thinkers ... [responding to the question,] 'What game-changing scientific ideas and developments do you expect to live to see?'\"--Cover."
+    },
+    "latest_revision": 12,
+    "revision": 12,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2016-10-14T02:41:53.962025"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-05-09T02:43:40.568463"
+    }
+  },
+  "work": "https://openlibrary.org/works/OL17389796W"
+}

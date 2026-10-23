@@ -1,0 +1,143 @@
+{
+  "index": 24,
+  "title": "Famine: A Short History",
+  "url": "https://openlibrary.org/search.json?title=Famine%3A%20A%20Short%20History&author=Cormac%20%C3%93%20Gr%C3%A1da&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:13.831Z",
+  "status": 200,
+  "search": {
+    "numFound": 14,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 14,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Cormac Ó Gráda"
+        ],
+        "first_publish_year": 1989,
+        "isbn": [
+          "9781349082698",
+          "0521557879",
+          "0717117316",
+          "1349082694",
+          "9780717117314",
+          "9780521552660",
+          "9780521557870",
+          "9780333398838",
+          "0333398831",
+          "0521552664"
+        ],
+        "key": "/works/OL1915532W",
+        "language": [
+          "eng"
+        ],
+        "title": "The great Irish famine"
+      },
+      {
+        "author_name": [
+          "Cormac Ó Gráda"
+        ],
+        "first_publish_year": 1988,
+        "isbn": [
+          "0719017858",
+          "0719040353",
+          "9780719040344",
+          "9780719026768",
+          "9780719017858",
+          "0719040345",
+          "0719026768",
+          "9780719040351"
+        ],
+        "key": "/works/OL1915530W",
+        "language": [
+          "eng"
+        ],
+        "title": "Ireland before and after the famine"
+      },
+      {
+        "author_name": [
+          "Cormac Ó Gráda",
+          "Andres Eiriksson"
+        ],
+        "first_publish_year": 2006,
+        "isbn": [
+          "9781904558583",
+          "9781904558576",
+          "1904558577",
+          "1904558585"
+        ],
+        "key": "/works/OL1915518W",
+        "language": [
+          "eng",
+          "und"
+        ],
+        "title": "Ireland's great famine"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Famine&author=Cormac%20%C3%93%20Gr%C3%A1da&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "The great Irish famine",
+    "covers": [
+      4041095
+    ],
+    "subject_places": [
+      "Ireland"
+    ],
+    "first_publish_date": "1989",
+    "key": "/works/OL1915532W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL229478A"
+        }
+      }
+    ],
+    "subject_times": [
+      "19th century",
+      "Famine, 1845-1852",
+      "1837-1901"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "History",
+      "Famines",
+      "Economic conditions",
+      "Social conditions",
+      "Population",
+      "Famines -- Ireland -- History -- 19th century",
+      "Ireland, history, famine, 1845-1852"
+    ],
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:33:58.482291"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-10-05T08:26:25.527034"
+    }
+  }
+}

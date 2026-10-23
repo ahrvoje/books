@@ -1,0 +1,104 @@
+{
+  "index": 177,
+  "title": "The Hand",
+  "url": "https://openlibrary.org/search.json?isbn=0679412492&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:57:43.130Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Frank R. Wilson"
+        ],
+        "first_publish_year": 1998,
+        "isbn": [
+          "0679740473",
+          "9780679740476",
+          "0679412492",
+          "9780679412496"
+        ],
+        "key": "/works/OL2742531W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Hand"
+      }
+    ]
+  },
+  "work": {
+    "lc_classifications": [
+      "QP334 .W53 1998"
+    ],
+    "title": "The Hand",
+    "covers": [
+      417496
+    ],
+    "first_sentence": {
+      "type": "/type/text",
+      "value": "THE EARLIEST DIRECT HUMAN ANCESTORS were the australopithecines, \"southern apes\" of Africa who walked upright."
+    },
+    "first_publish_date": "1998",
+    "key": "/works/OL2742531W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL402213A"
+        }
+      }
+    ],
+    "excerpts": [
+      {
+        "excerpt": {
+          "type": "/type/text",
+          "value": "THE EARLIEST DIRECT HUMAN ANCESTORS were the australopithecines, \"southern apes\" of Africa who walked upright."
+        },
+        "page": "First sentence"
+      }
+    ],
+    "subjects": [
+      "Physiology",
+      "Hand",
+      "Handen",
+      "New York Times reviewed"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "dewey_number": [
+      "612/.91"
+    ],
+    "links": [
+      {
+        "url": "http://www.nytimes.com/1998/07/19/books/get-a-grip.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "The Hand delineates the ways in which our hands have shaped our development - cognitive, emotional, linguistic, and psychological - in light of the most recent research being done in anthropology, neuroscience, linguistics, and psychology. Frank Wilson's inquiry incorporates the experiences and insights of jugglers, surgeons, musicians, puppeteers, and car mechanics. His book illuminates how our hands influence learning and how we, in turn, use our hands to leave our personal stamp on the world."
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T00:20:00.902556"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-07-13T19:39:17.194173"
+    }
+  }
+}

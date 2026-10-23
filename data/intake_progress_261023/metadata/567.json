@@ -1,0 +1,87 @@
+{
+  "index": 567,
+  "title": "The New Typography",
+  "url": "https://openlibrary.org/search.json?isbn=0520071468&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:27.137Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jan Tschichold"
+        ],
+        "first_publish_year": 1970,
+        "isbn": [
+          "0520071468",
+          "9780520071469"
+        ],
+        "key": "/works/OL1220117W",
+        "language": [
+          "eng"
+        ],
+        "title": "Neue Typographie"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1970",
+    "title": "Neue Typographie",
+    "covers": [
+      324668
+    ],
+    "lc_classifications": [
+      "Z116 .T7513 1995"
+    ],
+    "key": "/works/OL1220117W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL123335A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "686.2/2"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Graphic design",
+      "Printing",
+      "Graphic arts",
+      "Graphic design (Typography)",
+      "Art",
+      "Esthetics",
+      "Typographie",
+      "Arts graphiques",
+      "Typografie",
+      "Grafische vormgeving",
+      "Book design"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Since its intitial publication in Berlin in 1928, Jan Tschichold's The New Typography has been recognized as the definitive treatise on book and graphic design in the machine age. At once a key theoretical document of Central European modernism between the world wars and an invaluable source of working principles for the practicing designer, this classic work enjoys the reputation among book artists that Le Corbusier's Toward a New Architectire has long held among architects.\n\nThe book's legendary renown is certain to increase with the long-overdue appearance of this first English translation, published in a form that reflects Tschichold's original typography and design.\n\nRanging from theoretical discussions of typography in the age of photography and mechanical standardization to practical considerations in designing business forms, The New Typography remains essential reading for designers, art historians, and all those concerned with the evolution of visual communication in the twentieth century."
+    },
+    "latest_revision": 10,
+    "revision": 10,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T20:46:36.446984"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-07-18T07:35:43.352386"
+    }
+  }
+}

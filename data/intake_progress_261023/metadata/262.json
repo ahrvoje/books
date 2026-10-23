@@ -1,0 +1,84 @@
+{
+  "index": 262,
+  "title": "New York Diaries",
+  "url": "https://openlibrary.org/search.json?isbn=067964332X&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:58:44.473Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Teresa Carpenter"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "9780679644279",
+          "9780679643326",
+          "067964427X",
+          "067964332X"
+        ],
+        "key": "/works/OL16528870W",
+        "language": [
+          "eng"
+        ],
+        "title": "New York Diaries, 1609 to 2009"
+      }
+    ]
+  },
+  "work": {
+    "description": "Writings culled from the archives of libraries, historical societies, and private estates have been assembled to offer a view of the iconic metropolis of New York. Includes excerpts from the writings of Henry Hudson, Mark Twain, Thomas Edison, Andy Warhol, and many others",
+    "title": "New York Diaries, 1609 to 2009",
+    "covers": [
+      9348623
+    ],
+    "subject_places": [
+      "New York (N.Y.)"
+    ],
+    "subjects": [
+      "Social life and customs",
+      "Diaries",
+      "History",
+      "New York Times reviewed"
+    ],
+    "key": "/works/OL16528870W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL773333A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "links": [
+      {
+        "title": "New York Times review",
+        "url": "http://www.nytimes.com/2012/01/20/books/new-york-diaries-1609-to-2000-review.html",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2012-02-29T11:23:18.766551"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-09-16T05:40:56.929599"
+    }
+  }
+}

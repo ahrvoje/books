@@ -1,0 +1,103 @@
+{
+  "index": 324,
+  "title": "What It Takes",
+  "url": "https://openlibrary.org/search.json?isbn=0394562607&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:46.140Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Richard Ben Cramer"
+        ],
+        "first_publish_year": 1992,
+        "isbn": [
+          "9780701147631",
+          "0679746498",
+          "0517286858",
+          "0394562607",
+          "0517117193",
+          "9780517117194",
+          "9780517286852",
+          "9780394562605",
+          "9780679746492",
+          "0701147636"
+        ],
+        "key": "/works/OL2919674W",
+        "language": [
+          "eng"
+        ],
+        "title": "What it takes"
+      }
+    ]
+  },
+  "work": {
+    "title": "What it takes",
+    "subject_times": [
+      "1988"
+    ],
+    "covers": [
+      8259880
+    ],
+    "first_sentence": {
+      "type": "/type/text",
+      "value": "THIS IS about as good as it gets, as close as American politics offers to a mortal lock."
+    },
+    "subject_places": [
+      "United States"
+    ],
+    "first_publish_date": "1992",
+    "key": "/works/OL2919674W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL444767A"
+        }
+      }
+    ],
+    "excerpts": [
+      {
+        "excerpt": {
+          "type": "/type/text",
+          "value": "THIS IS about as good as it gets, as close as American politics offers to a mortal lock."
+        },
+        "page": "First sentence"
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Presidents",
+      "Presidential candidates",
+      "Biography",
+      "Election",
+      "Elections",
+      "Presidents, united states, election, 1988"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Cramer tells the life stories of the principal primary candidates, including Bush, Dole, Biden, Dukakis, and Gary Hart."
+    },
+    "latest_revision": 9,
+    "revision": 9,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T01:04:13.895405"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-03-28T19:03:59.754788"
+    }
+  }
+}

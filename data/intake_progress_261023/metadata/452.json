@@ -1,0 +1,82 @@
+{
+  "index": 452,
+  "title": "And Suddenly the Inventor Appeared",
+  "url": "https://openlibrary.org/search.json?isbn=0964074028&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:01:11.457Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "G. Altshuller",
+          "H. Altov"
+        ],
+        "first_publish_year": 1996,
+        "isbn": [
+          "0964074028",
+          "9780964074026"
+        ],
+        "key": "/works/OL19563340W",
+        "language": [
+          "eng"
+        ],
+        "title": "And suddenly the inventor appeared"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Creative ability in technology",
+      "Créativité en technologie",
+      "Inventions",
+      "Inventors",
+      "Inventeurs",
+      "Vernieuwing",
+      "Probleemoplossing",
+      "Methodologie"
+    ],
+    "key": "/works/OL19563340W",
+    "title": "And suddenly the inventor appeared",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3004253A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3004254A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      727723
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-04-09T05:08:15.930106"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-11-06T07:11:16.014908"
+    }
+  }
+}

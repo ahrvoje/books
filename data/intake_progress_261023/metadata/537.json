@@ -1,0 +1,78 @@
+{
+  "index": 537,
+  "title": "Amazing Airplanes (Amazing Machines)",
+  "url": "https://openlibrary.org/search.json?isbn=0753459159&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:06.783Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Tony Mitton"
+        ],
+        "first_publish_year": 2002,
+        "isbn": [
+          "9780753459157",
+          "0753454033",
+          "9780753454039",
+          "0753459159"
+        ],
+        "key": "/works/OL2027295W",
+        "language": [
+          "eng"
+        ],
+        "title": "Amazing Airplanes (Amazing Machines)"
+      }
+    ]
+  },
+  "work": {
+    "title": "Amazing Airplanes (Amazing Machines)",
+    "covers": [
+      500305
+    ],
+    "first_sentence": {
+      "type": "/type/text",
+      "value": "An airplane is amazing, for it travels through the sky, above the clouds for miles and miles, so very fast and high!"
+    },
+    "first_publish_date": "September 1, 2002",
+    "key": "/works/OL2027295W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL244841A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Airplanes, juvenile literature",
+      "Airplanes",
+      "Transportation",
+      "Transportation, juvenile literature",
+      "Juvenile literature",
+      "Air travel"
+    ],
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:44:20.272527"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-12-03T16:22:06.627908"
+    }
+  }
+}

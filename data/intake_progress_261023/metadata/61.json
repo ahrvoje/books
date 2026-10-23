@@ -1,0 +1,72 @@
+{
+  "index": 61,
+  "title": "Still the Iron Age",
+  "url": "https://openlibrary.org/search.json?title=Still%20the%20Iron%20Age&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:30.687Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "0128042338",
+          "9780128042335",
+          "9780128042359",
+          "0128042354"
+        ],
+        "key": "/works/OL21123829W",
+        "language": [
+          "eng"
+        ],
+        "title": "Still the Iron Age"
+      }
+    ]
+  },
+  "work": {
+    "title": "Still the Iron Age",
+    "subjects": [
+      "Iron",
+      "Steel",
+      "Iron industry and trade",
+      "Steel industry and trade",
+      "Iron, metallurgy",
+      "Steel, metallurgy",
+      "History",
+      "Social aspects"
+    ],
+    "key": "/works/OL21123829W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL222057A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-05T01:59:41.816919"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-02-10T06:47:25.193417"
+    }
+  }
+}

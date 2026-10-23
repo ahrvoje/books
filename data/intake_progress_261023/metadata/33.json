@@ -1,0 +1,83 @@
+{
+  "index": 33,
+  "title": "Defying Providence: Smallpox and the Forgotten 18th-Century Medical Revolution",
+  "url": "https://openlibrary.org/search.json?title=Defying%20Providence%3A%20Smallpox%20and%20the%20Forgotten%2018th-Century%20Medical%20Revolution&author=Arthur%20Boylston&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:17.529Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Dr Arthur william Boylston M.D."
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "1478232455",
+          "9781478232452"
+        ],
+        "key": "/works/OL20391827W",
+        "language": [
+          "eng"
+        ],
+        "title": "Defying Providence"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Defying%20Providence&author=Arthur%20Boylston&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "Defying Providence",
+    "covers": [
+      9058528
+    ],
+    "key": "/works/OL20391827W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7728637A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Smallpox",
+      "Vaccination",
+      "History",
+      "Prevention & control"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-11-02T06:44:31.014080"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-09-27T18:12:20.942430"
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "index": 359,
+  "title": "Exploratory Data Analysis",
+  "url": "https://openlibrary.org/search.json?title=Exploratory%20Data%20Analysis&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:09.501Z",
+  "status": 200,
+  "search": {
+    "numFound": 67,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 67,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John Wilder Tukey"
+        ],
+        "first_publish_year": 1970,
+        "isbn": [
+          "0201076160",
+          "0134995457",
+          "9780201076165",
+          "9780134995458"
+        ],
+        "key": "/works/OL9572429W",
+        "language": [
+          "eng"
+        ],
+        "title": "Exploratory data analysis"
+      },
+      {
+        "author_name": [
+          "Suresh Kumar Mukhiya",
+          "Usman Ahmed"
+        ],
+        "first_publish_year": 2020,
+        "isbn": [
+          "9781789535624",
+          "9781789537253",
+          "1789537258",
+          "178953562X"
+        ],
+        "key": "/works/OL25248777W",
+        "language": [
+          "eng"
+        ],
+        "title": "Hands-On Exploratory Data Analysis with Python"
+      },
+      {
+        "author_name": [
+          "Wendy L. Martinez"
+        ],
+        "first_publish_year": 2004,
+        "isbn": [
+          "1439812209",
+          "9781439812211",
+          "1439812217",
+          "1032179058",
+          "149877606X",
+          "9781315349848",
+          "1315366967",
+          "9781498776066",
+          "0203483375",
+          "1498776078",
+          "9781498776073",
+          "9781032179056",
+          "9781439812204",
+          "9781315366968",
+          "1315349841",
+          "1315330814",
+          "9781315330815",
+          "9780203483374"
+        ],
+        "key": "/works/OL16951793W",
+        "language": [
+          "eng"
+        ],
+        "title": "Exploratory data analysis with MATLAB"
+      }
+    ]
+  },
+  "work": {
+    "title": "Exploratory data analysis",
+    "key": "/works/OL9572429W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL24871A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "first_publish_date": "1970",
+    "covers": [
+      134055,
+      8647759
+    ],
+    "first_sentence": {
+      "type": "/type/text",
+      "value": "Exploratory data analysis is detective work — — numerical detective work — — or counting detective work — — or graphical detective work."
+    },
+    "lc_classifications": [
+      "HA29 .T783"
+    ],
+    "dewey_number": [
+      "519.5"
+    ],
+    "subjects": [
+      "Mathematical statistics",
+      "Statistics",
+      "Sociale wetenschappen",
+      "Datenauswertung",
+      "Data-analyse",
+      "Mathematics",
+      "Statistical Data Interpretation",
+      "Statistique"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T00:48:39.100776"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-04-15T22:42:03.746987"
+    }
+  }
+}

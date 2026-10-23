@@ -1,0 +1,144 @@
+{
+  "index": 321,
+  "title": "Open City",
+  "url": "https://openlibrary.org/search.json?isbn=0812980093&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:44.164Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Teju Cole",
+          "Xavier Pàmies Giménez"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "9127135535",
+          "9782207112502",
+          "0812980093",
+          "9780571279425",
+          "2207112500",
+          "0571279449",
+          "8793209029",
+          "9780571279432",
+          "0571279422",
+          "9788793209022",
+          "2264061006",
+          "9789127135536",
+          "9781456121983",
+          "1299096808",
+          "9780812980097",
+          "0571279430",
+          "9782264061003",
+          "9780571279449",
+          "1400068096",
+          "9788477275305",
+          "9781299096806",
+          "9781400068098",
+          "1456121987",
+          "8477275300"
+        ],
+        "key": "/works/OL16579451W",
+        "language": [
+          "fre",
+          "dan",
+          "eng",
+          "swe"
+        ],
+        "title": "Open city"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Fiction",
+      "Nigerians",
+      "Race",
+      "Identity (Psychology)",
+      "Fiction, psychological",
+      "New york (n.y.), fiction",
+      "Fiction, urban",
+      "Fiction, general",
+      "New York Times reviewed",
+      "Identity",
+      "Fiction, urban & street lit",
+      "Nigérians",
+      "Romans, nouvelles",
+      "Identité (Psychologie)",
+      "Literary"
+    ],
+    "key": "/works/OL16579451W",
+    "title": "Open city",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6791028A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8741634A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      6680908,
+      8959744,
+      14256140,
+      14256141,
+      14256139
+    ],
+    "links": [
+      {
+        "url": "http://www.nytimes.com/2011/02/27/books/review/Syjuco-t.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      },
+      {
+        "url": "http://www.nytimes.com/2011/05/19/books/open-city-by-teju-cole-book-review.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Along the streets of Manhattan, a young Nigerian doctor doing his residency wanders aimlessly. The walks meet a need for Julius: they are a release from the tightly regulated mental environment of work, and they give him the opportunity to process his relationships, his recent breakup with his girlfriend, his present, his past."
+    },
+    "subject_places": [
+      "New York City"
+    ],
+    "subject_people": [
+      "Nigerians"
+    ],
+    "latest_revision": 12,
+    "revision": 12,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2012-04-06T02:18:56.077086"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-09-06T22:15:17.956471"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "index": 732,
+  "title": "Funding a Revolution: Government Support for Computing Research",
+  "url": "https://openlibrary.org/search.json?title=Funding%20a%20Revolution%3A%20Government%20Support%20for%20Computing%20Research&author=National%20Research%20Council&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:42.848Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "National Research Council (US)"
+        ],
+        "first_publish_year": 1999,
+        "isbn": [
+          "0309062780",
+          "9780309062787"
+        ],
+        "key": "/works/OL6887295W",
+        "language": [
+          "eng"
+        ],
+        "title": "Funding a Revolution"
+      },
+      {
+        "author_name": [
+          "National Research Council",
+          "Computer Science and Telecommunications Board",
+          "Committee on Innovations in Computing and Communications: Lessons from History"
+        ],
+        "first_publish_year": 1999,
+        "isbn": [
+          "0309173523",
+          "9780309205122",
+          "0309205123",
+          "9780309525015",
+          "0309525012",
+          "9780309173520"
+        ],
+        "key": "/works/OL29372477W",
+        "language": [
+          "eng"
+        ],
+        "title": "Funding a Revolution"
+      },
+      {
+        "author_name": [
+          "National Research Council Staff",
+          "Computer Science and Telecommunications Board Staff"
+        ],
+        "first_publish_year": 1999,
+        "isbn": [
+          "9780309062787",
+          "0309062780"
+        ],
+        "key": "/works/OL19526572W",
+        "language": [
+          "eng"
+        ],
+        "title": "Funding a revolution"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Funding%20a%20Revolution&author=National%20Research%20Council&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "subtitle": "Government Support for Computing Research",
+    "covers": [
+      1165622
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-02-13T09:26:10.222529"
+    },
+    "latest_revision": 6,
+    "key": "/works/OL6887295W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1901196A"
+        }
+      }
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T19:57:35.988917"
+    },
+    "title": "Funding a Revolution",
+    "subjects": [
+      "Research grants",
+      "Computer science",
+      "High performance computing"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 6
+  }
+}

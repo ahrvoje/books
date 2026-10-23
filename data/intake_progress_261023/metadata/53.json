@@ -1,0 +1,109 @@
+{
+  "index": 53,
+  "title": "Sand: The Never-Ending Story",
+  "url": "https://openlibrary.org/search.json?title=Sand%3A%20The%20Never-Ending%20Story&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:26.359Z",
+  "status": 200,
+  "search": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Michael Welland"
+        ],
+        "first_publish_year": 2009,
+        "isbn": [
+          "0520265971",
+          "1299132308",
+          "9780520265974",
+          "9780199588183",
+          "9780520942004",
+          "0520942000",
+          "019958818X",
+          "9781299132306"
+        ],
+        "key": "/works/OL20464512W",
+        "language": [
+          "eng"
+        ],
+        "title": "Sand"
+      },
+      {
+        "author_name": [
+          "Michael Welland"
+        ],
+        "key": "/works/OL17308461W",
+        "title": "Sand"
+      },
+      {
+        "author_name": [
+          "Michael Welland"
+        ],
+        "first_publish_year": 2009,
+        "isbn": [
+          "0520254376",
+          "9780520254374"
+        ],
+        "key": "/works/OL11869839W",
+        "language": [
+          "eng"
+        ],
+        "title": "Sand"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Sand&author=Welland&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "Sand",
+    "covers": [
+      9130046
+    ],
+    "key": "/works/OL20464512W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7755300A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Sand",
+      "Sandstone"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-11-14T20:07:24.378381"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-29T04:26:12.098138"
+    }
+  }
+}

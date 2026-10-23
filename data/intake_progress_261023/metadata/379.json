@@ -1,0 +1,70 @@
+{
+  "index": 379,
+  "title": "Manhattan Project",
+  "url": "https://openlibrary.org/search.json?isbn=0316329738&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:22.191Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Stephane Groueff"
+        ],
+        "first_publish_year": 1967,
+        "isbn": [
+          "0316329738",
+          "9780595092383",
+          "0595092381",
+          "9780316329736"
+        ],
+        "key": "/works/OL8141212W",
+        "language": [
+          "eng"
+        ],
+        "title": "Manhattan Project"
+      }
+    ]
+  },
+  "work": {
+    "title": "Manhattan Project",
+    "covers": [
+      386707
+    ],
+    "key": "/works/OL8141212W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2712653A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Atomic bomb",
+      "History",
+      "Manhattan Project (U.S.)"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:27:09.747761"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-01-07T17:33:36.576659"
+    }
+  }
+}

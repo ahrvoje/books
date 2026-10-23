@@ -1,0 +1,103 @@
+{
+  "index": 35,
+  "title": "Germ Theory: Medical Pioneers in Infectious Diseases",
+  "url": "https://openlibrary.org/search.json?title=Germ%20Theory%3A%20Medical%20Pioneers%20in%20Infectious%20Diseases&author=Dr.%20Robert%20Gaynes&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:18.523Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Robert P. Gaynes"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "9781683673835",
+          "1683673778",
+          "9781555815295",
+          "9781683673774",
+          "9781683673781",
+          "9781683673491",
+          "1683673492",
+          "155581722X",
+          "9781683673767",
+          "9781555817220",
+          "1683673832",
+          "1683673786",
+          "168367376X",
+          "9781683671107",
+          "1683671104",
+          "1555815294"
+        ],
+        "key": "/works/OL15933899W",
+        "language": [
+          "eng"
+        ],
+        "title": "Germ theory"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Germ%20Theory&author=Robert%20Gaynes&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "Germ theory",
+    "subjects": [
+      "Medical scientists",
+      "Microbiologists",
+      "Germ theory of disease",
+      "History",
+      "Biography",
+      "Scientists, biography",
+      "Germ Theory of Disease",
+      "Infectious Disease Medicine",
+      "Communicable Diseases",
+      "Microbiology"
+    ],
+    "key": "/works/OL15933899W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6940981A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      12383674
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-07-26T17:11:58.851980"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-11T23:00:36.208044"
+    }
+  }
+}

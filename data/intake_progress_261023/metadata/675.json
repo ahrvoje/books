@@ -1,0 +1,88 @@
+{
+  "index": 675,
+  "title": "The Last Beach",
+  "url": "https://openlibrary.org/search.json?title=The%20Last%20Beach&author=Pilkey%2C%20O.H.%20and%20Cooper%2C%20J.A.G.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:13.521Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Orrin H. Pilkey"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "0822358093",
+          "9780822357988",
+          "9780822358091",
+          "0822357984"
+        ],
+        "key": "/works/OL19994859W",
+        "language": [
+          "eng"
+        ],
+        "title": "The last beach"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=The%20Last%20Beach&author=Pilkey&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "\"The Last Beach is an urgent call to save the world's beaches while there is still time. The geologists Orrin H. Pilkey and J. Andrew G. Cooper sound the alarm in this frank assessment of our current relationship with beaches and their grim future if we do not change the way we understand and treat our irreplaceable shores. Combining case studies and anecdotes from around the world, they argue that many of the world's developed beaches, including some in Florida and in Spain, are virtually doomed and that we must act immediately to save imperiled beaches. After explaining beaches as dynamic ecosystems, Pilkey and Cooper assess the harm done by dense oceanfront development accompanied by the construction of massive seawalls to protect new buildings from a shoreline that encroaches as sea levels rise. They discuss the toll taken by sand mining, trash that washes up on beaches, and pollution, which has contaminated not only the water but also, surprisingly, the sand. Acknowledging the challenge of reconciling our actions with our love of beaches, the geologists offer suggestions for reversing course, insisting that given the space, beaches can take care of themselves and provide us with multiple benefits.\" -- Publisher's description."
+    },
+    "covers": [
+      9212324
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2019-12-17T09:15:40.545158"
+    },
+    "latest_revision": 2,
+    "key": "/works/OL19994859W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL526575A"
+        }
+      }
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-18T18:55:48.155410"
+    },
+    "title": "The last beach",
+    "subjects": [
+      "Seashore ecology",
+      "Environmental aspects",
+      "Beaches"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 2
+  }
+}

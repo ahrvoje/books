@@ -1,0 +1,81 @@
+{
+  "index": 314,
+  "title": "Weather Whys",
+  "url": "https://openlibrary.org/search.json?isbn=0399535705&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:39.900Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Paul Yeager"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "9780399535703",
+          "0399535705"
+        ],
+        "key": "/works/OL15300497W",
+        "language": [
+          "eng"
+        ],
+        "title": "Weather whys"
+      },
+      {
+        "author_name": [
+          "Paul Yeager"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "9780399535703",
+          "0399535705"
+        ],
+        "key": "/works/OL15530791W",
+        "language": [
+          "eng"
+        ],
+        "title": "Weather whys"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-08-10T10:24:29.432163"
+    },
+    "subjects": [
+      "Weather",
+      "Miscellanea",
+      "Popular works"
+    ],
+    "subtitle": "facts, myths, and oddities",
+    "key": "/works/OL15300497W",
+    "title": "Weather whys",
+    "latest_revision": 1,
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL5139761A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-08-10T10:24:29.432163"
+    },
+    "revision": 1
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "index": 243,
+  "title": "Weather of the San Francisco Bay Region",
+  "url": "https://openlibrary.org/search.json?isbn=0520229908&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:58:25.540Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Harold Gilliam"
+        ],
+        "first_publish_year": 1962,
+        "isbn": [
+          "9780520229891",
+          "9780520935945",
+          "0520229908",
+          "0520935942",
+          "0520229894",
+          "9780520229907",
+          "0520004698",
+          "9780520004696"
+        ],
+        "key": "/works/OL3635243W",
+        "language": [
+          "eng"
+        ],
+        "title": "Weather of the San Francisco Bay region"
+      }
+    ]
+  },
+  "work": {
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-19T03:15:01.681404"
+    },
+    "title": "Weather of the San Francisco Bay region",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T04:02:41.901283"
+    },
+    "covers": [
+      4341057
+    ],
+    "subject_places": [
+      "San Francisco Bay Area (Calif.)"
+    ],
+    "first_publish_date": "1962",
+    "latest_revision": 8,
+    "key": "/works/OL3635243W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL620657A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Climate",
+      "San francisco bay area (calif.)",
+      "California, climate",
+      "Climatology"
+    ],
+    "revision": 8
+  }
+}

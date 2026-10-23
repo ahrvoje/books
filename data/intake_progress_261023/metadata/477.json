@@ -1,0 +1,77 @@
+{
+  "index": 477,
+  "title": "Isn't it Well for Ye?",
+  "url": "https://openlibrary.org/search.json?isbn=1848271484&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:01:27.876Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Colm O'Regan"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "9781848271487",
+          "1848271484"
+        ],
+        "key": "/works/OL17512382W",
+        "language": [
+          "eng"
+        ],
+        "title": "Isnt It Well For Ye The Wonderful World Of The Irish Mammy"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Humor, topic, men, women & relationships",
+      "Motherhood",
+      "Humor",
+      "Mothers",
+      "Irish wit and humor"
+    ],
+    "key": "/works/OL17512382W",
+    "title": "Isnt It Well For Ye The Wonderful World Of The Irish Mammy",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7335502A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      7726478
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Explores the phenomenon of the Irish Mammy and what she might say about everything from the 'new mass' to the cardinal sin of not owning a cough bottle and the importance of airing clothes properly. Did you know, for instance, that Hamlet had an Irish Mammy? So if you're an Irish Mammy, this book can act as your guide."
+    },
+    "genres": [
+      "/tags/OL172T"
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2016-10-14T15:56:12.175694"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-09-01T07:20:25.597721"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "index": 582,
+  "title": "Whole Earth Epilog",
+  "url": "https://openlibrary.org/search.json?isbn=0140039503&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:37.154Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Stewart Brand"
+        ],
+        "first_publish_year": 1974,
+        "isbn": [
+          "0140616152",
+          "0140039503",
+          "9780140039504",
+          "9780140616156"
+        ],
+        "key": "/works/OL823142W",
+        "language": [
+          "eng"
+        ],
+        "title": "Whole Earth Epilog"
+      }
+    ]
+  },
+  "work": {
+    "title": "Whole Earth Epilog",
+    "key": "/works/OL823142W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL69677A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Nature",
+      "Catalogs",
+      "Equipment and supplies",
+      "Handicraft",
+      "Manufactures",
+      "Manufactures -- Catalogs",
+      "Handicraft -- Equipment and supplies -- Catalogs",
+      "Handicraft -- Equipment and supplies"
+    ],
+    "covers": [
+      13232408,
+      8371032
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "p. 451-768 : 37 cm"
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T04:58:25.291321"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-08-01T00:42:26.240575"
+    }
+  }
+}

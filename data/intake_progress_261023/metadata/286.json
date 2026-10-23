@@ -1,0 +1,72 @@
+{
+  "index": 286,
+  "title": "Nmap Network Scanning",
+  "url": "https://openlibrary.org/search.json?isbn=0979958717&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:09.604Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Gordon Lyon"
+        ],
+        "first_publish_year": 2009,
+        "isbn": [
+          "9780979958717",
+          "0979958717"
+        ],
+        "key": "/works/OL17502539W",
+        "title": "Nmap Network Scanning"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "This is the official guide to the nmap tool (\"network mapper\") written by \"Fyodor\" or Gordon Lyon.  Some chapters are online at www.nmap.org but this volume has the full documentation (other than what's been posted as announcements at that website or at insecure.org).  An entire portscanning tutorial chapter is included, even though the usual use of the tool is simply to invoke at the command line prompt:\r\n\r\n # nmap (Internet Protocol address of target)  \r\nlike so:\r\n # nmap 127.0.0.1\r\n... which will scan your own machine.\r\n\r\nBut there are many specific commands (or sub-commands added after the invocation, like \"flags\" in Unix/Linux) that help you look for specific things, plus more to learn like tuning nmap's performance, tuning its \"invasiveness\" so that it scans ports in a less \"noisy\" manner to avoid detection, using nmap to remotely detect which OS the target runs, and much more.  The tool even has its own scripting engine so you can automate repetitive tasks.  Lyon even describes the popular GUI (graphical user interface) to nmap, called Zenmap, and there's a chapter on how to defend against nmap, should it be employed in an inelegant manner against you."
+    },
+    "covers": [
+      7706856
+    ],
+    "key": "/works/OL17502539W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1850300A"
+        }
+      }
+    ],
+    "title": "Nmap Network Scanning",
+    "subjects": [
+      "nmap",
+      "network mapper",
+      "Computer networks",
+      "Security measures",
+      "Computer programs",
+      "Monitoring"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2016-10-14T14:47:12.793417"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-12-22T21:56:22.305854"
+    }
+  }
+}

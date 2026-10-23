@@ -1,0 +1,78 @@
+{
+  "index": 435,
+  "title": "Bicycling Science",
+  "url": "https://openlibrary.org/search.json?isbn=0262731541&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:59.846Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David Gordon Wilson"
+        ],
+        "first_publish_year": 2004,
+        "isbn": [
+          "9780262232371",
+          "0262731541",
+          "0262232375",
+          "9780262731546"
+        ],
+        "key": "/works/OL2742756W",
+        "language": [
+          "eng"
+        ],
+        "title": "Bicycling science"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "2004",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-01T03:51:59.049473"
+    },
+    "title": "Bicycling science",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T00:20:07.077602"
+    },
+    "covers": [
+      1154323
+    ],
+    "lc_classifications": [
+      "TL410 .W546 2004"
+    ],
+    "latest_revision": 6,
+    "key": "/works/OL2742756W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL402264A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "629.227/2/015313"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Bicycles",
+      "Dynamics",
+      "History",
+      "Cycling"
+    ],
+    "revision": 6
+  }
+}

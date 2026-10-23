@@ -1,0 +1,66 @@
+{
+  "index": 251,
+  "title": "Science",
+  "url": "https://openlibrary.org/search.json?isbn=0140297413&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:58:32.579Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John R. Gribbin"
+        ],
+        "first_publish_year": 2002,
+        "isbn": [
+          "0140297413",
+          "9780140297416"
+        ],
+        "key": "/works/OL7918956W",
+        "language": [
+          "eng"
+        ],
+        "title": "Science"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:13:16.993636"
+    },
+    "subjects": [
+      "Science, history"
+    ],
+    "latest_revision": 4,
+    "key": "/works/OL7918956W",
+    "title": "Science",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL24877A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-01T01:58:46.480631"
+    },
+    "covers": [
+      101138
+    ],
+    "revision": 4
+  }
+}

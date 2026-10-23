@@ -1,0 +1,76 @@
+{
+  "index": 456,
+  "title": "Topology",
+  "url": "https://openlibrary.org/search.json?isbn=8120320468&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:01:13.835Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "James R. Munkres"
+        ],
+        "first_publish_year": 1988,
+        "isbn": [
+          "9780131816299",
+          "9780131784499",
+          "8120320468",
+          "0876922906",
+          "0131816292",
+          "9780876922903",
+          "0131784498",
+          "9788120320468"
+        ],
+        "key": "/works/OL113948W",
+        "language": [
+          "eng"
+        ],
+        "title": "Topology"
+      }
+    ]
+  },
+  "work": {
+    "title": "Topology",
+    "covers": [
+      88212
+    ],
+    "key": "/works/OL113948W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL32582A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Topology"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "This book provides a convenient single text resource for bridging between general and algebraic topology courses. Two separate, distinct sections (one on general, point set topology, the other on algebraic topology) are each suitable for a one-semester course and are based around the same set of basic, core topics."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-10-18T02:50:10.177820"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-08T02:06:44.907831"
+    }
+  }
+}

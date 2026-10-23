@@ -1,0 +1,138 @@
+{
+  "index": 731,
+  "title": "Computing: A Concise History",
+  "url": "https://openlibrary.org/search.json?title=Computing%3A%20A%20Concise%20History&author=Paul%20Ceruzzi&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:42.470Z",
+  "status": 200,
+  "search": {
+    "numFound": 8,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 8,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Paul E. Ceruzzi"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "0262310376",
+          "1280777753",
+          "9780262310376",
+          "1469003988",
+          "0262310384",
+          "9781469003986",
+          "9780262517676",
+          "0262517671",
+          "9781280777752",
+          "9780262310383"
+        ],
+        "key": "/works/OL16495612W",
+        "language": [
+          "eng"
+        ],
+        "title": "Computing"
+      },
+      {
+        "author_name": [
+          "Paul E. Ceruzzi"
+        ],
+        "first_publish_year": 1998,
+        "isbn": [
+          "9780585481135",
+          "0262332876",
+          "9780262287272",
+          "0585078246",
+          "9780262332873",
+          "9780585078243",
+          "9780262032551",
+          "0262032554",
+          "058548113X",
+          "0262287277"
+        ],
+        "key": "/works/OL1897180W",
+        "language": [
+          "eng"
+        ],
+        "title": "A history of modern computing"
+      },
+      {
+        "author_name": [
+          "Paul E. Ceruzzi"
+        ],
+        "first_publish_year": 2000,
+        "isbn": [
+          "9780613924139",
+          "0613924134",
+          "9780262532037",
+          "0262532034",
+          "0613911318",
+          "9780613911313"
+        ],
+        "key": "/works/OL1897181W",
+        "language": [
+          "eng"
+        ],
+        "title": "A History of Modern Computing, 2nd Edition (History of Computing)"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Computing&author=Paul%20Ceruzzi&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "subjects": [
+      "Computer science",
+      "History",
+      "electronic computing",
+      "computer networking"
+    ],
+    "key": "/works/OL16495612W",
+    "title": "Computing",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL227112A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      9400142,
+      8125897
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "A brief, U.S.-centric history of the hardware and software around electronic computing from the 1940s to the 2010s."
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2012-02-08T08:42:57.935169"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-05-22T14:43:19.818602"
+    }
+  }
+}

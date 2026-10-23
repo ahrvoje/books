@@ -1,0 +1,81 @@
+{
+  "index": 659,
+  "title": "A North Sea Diary, 1914–1918",
+  "url": "https://openlibrary.org/search.json?title=A%20North%20Sea%20Diary%2C%201914%E2%80%931918&author=King-Hall%2C%20S.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:07.545Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Sir Stephen King-Hall"
+        ],
+        "first_publish_year": 1900,
+        "key": "/works/OL1160219W",
+        "language": [
+          "eng"
+        ],
+        "title": "A North Sea diary, 1914-1918 / Commander Stephen King-Hall"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=A%20North%20Sea%20Diary%2C%201914%E2%80%931918&author=King-Hall&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T20:36:59.761883"
+    },
+    "subjects": [
+      "World War, 1914-1918",
+      "Southampton (Cruiser)",
+      "Great Britain. Royal Navy",
+      "Great Britain",
+      "Sea life",
+      "Naval operations"
+    ],
+    "latest_revision": 4,
+    "key": "/works/OL1160219W",
+    "title": "A North Sea diary, 1914-1918 / Commander Stephen King-Hall",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL117505A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2011-12-18T23:43:44.689247"
+    },
+    "covers": [
+      5678000
+    ],
+    "revision": 4
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "index": 667,
+  "title": "Prometheans in the Lab: Chemistry and the Making of the Modern World",
+  "url": "https://openlibrary.org/search.json?title=Prometheans%20in%20the%20Lab%3A%20Chemistry%20and%20the%20Making%20of%20the%20Modern%20World&author=McGrayne%2C%20S.%20B.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:10.230Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Sharon Bertsch McGrayne"
+        ],
+        "first_publish_year": 2001,
+        "isbn": [
+          "9780071350075",
+          "0071407952",
+          "9780071407953",
+          "9780071386685",
+          "0071386688",
+          "0071350071"
+        ],
+        "key": "/works/OL1961742W",
+        "language": [
+          "eng"
+        ],
+        "title": "Prometheans in the Lab"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Prometheans%20in%20the%20Lab&author=McGrayne&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "Prometheans in the Lab",
+    "covers": [
+      56641
+    ],
+    "first_sentence": {
+      "type": "/type/text",
+      "value": "Nicolas Leblanc was a catch-as-catch-can chemist, a \"wannabe\" scientist hovering on the fringes of stardom."
+    },
+    "first_publish_date": "July 25, 2001",
+    "key": "/works/OL1961742W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL235469A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Technical Chemistry",
+      "Chemists",
+      "Biography",
+      "History",
+      "Kleuren",
+      "Scheikundigen",
+      "Biographies",
+      "Histoire",
+      "Chimistes",
+      "DDT",
+      "Chimie industrielle",
+      "Suiker",
+      "Zeep",
+      "Water",
+      "Polyamiden",
+      "Chemistry, technical, history",
+      "Chemistry"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Table of contents includes: Soap and Nicholas Leblanc, Color and William Henry Perkin, Sugar and Norbert Rillieux, Clean water and Edward Frankland, Fertilizer, poison gas, and Fritz Haber, Leaded gasoline, safe refrigeration and Thomas Midgley, Jr., Nylon and Wallace Hume Carothers, DDT and Paul Hermann Muller, Lead-free gasoline and Clair C. Patterson."
+    },
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:37:56.918862"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-01-12T23:13:00.437127"
+    }
+  }
+}

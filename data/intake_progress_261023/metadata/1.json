@@ -1,0 +1,100 @@
+{
+  "index": 1,
+  "title": "The Future and Its Enemies: The Growing Conflict Over Creativity, Enterprise, and Progress",
+  "url": "https://openlibrary.org/search.json?title=The%20Future%20and%20Its%20Enemies%3A%20The%20Growing%20Conflict%20Over%20Creativity%2C%20Enterprise%2C%20and%20Progress&author=Virginia%20Postrel&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:06.796Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Virginia Postrel"
+        ],
+        "first_publish_year": 1999,
+        "isbn": [
+          "0684862697",
+          "9780684862699",
+          "1439135320",
+          "9781439135327"
+        ],
+        "key": "/works/OL16583577W",
+        "language": [
+          "eng"
+        ],
+        "title": "The future and its enemies"
+      },
+      {
+        "author_name": [
+          "Virginia I. Postrel"
+        ],
+        "first_publish_year": 1998,
+        "isbn": [
+          "9780684827605",
+          "0684862697",
+          "0684827603",
+          "9780684862699"
+        ],
+        "key": "/works/OL1939177W",
+        "language": [
+          "eng"
+        ],
+        "title": "The future and its enemies"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=The%20Future%20and%20Its%20Enemies&author=Virginia%20Postrel&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-03-02T08:09:18.428826"
+    },
+    "title": "The future and its enemies",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2012-04-11T14:01:47.863041"
+    },
+    "subjects": [
+      "Creative ability",
+      "Forecasting",
+      "Quality of life",
+      "Technological forecasting",
+      "Social prediction"
+    ],
+    "latest_revision": 3,
+    "key": "/works/OL16583577W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2629056A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 3
+  }
+}

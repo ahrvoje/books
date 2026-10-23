@@ -1,0 +1,91 @@
+{
+  "index": 503,
+  "title": "The Rain Forests of Home",
+  "url": "https://openlibrary.org/search.json?isbn=1559634804&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:01:45.133Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Peter K. Schoonmaker",
+          "Bettina Von Hagen",
+          "Edward C. Wolf"
+        ],
+        "first_publish_year": 1997,
+        "isbn": [
+          "1559634790",
+          "9781559634793",
+          "9781559634809",
+          "1559634804"
+        ],
+        "key": "/works/OL19663849W",
+        "language": [
+          "eng"
+        ],
+        "title": "The rain forests of home"
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      1884531
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2019-05-13T09:22:22.156120"
+    },
+    "latest_revision": 1,
+    "key": "/works/OL19663849W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1009387A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL5338811A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL327053A"
+        }
+      }
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-05-13T09:22:22.156120"
+    },
+    "title": "The rain forests of home",
+    "subject_places": [
+      "Northwest Coast of North America"
+    ],
+    "subjects": [
+      "Congresses",
+      "Rain forests",
+      "Rain forest ecology"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

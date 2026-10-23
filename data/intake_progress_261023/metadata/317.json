@@ -1,0 +1,80 @@
+{
+  "index": 317,
+  "title": "The Pea and the Sun",
+  "url": "https://openlibrary.org/search.json?isbn=1568813279&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:41.821Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Leonard M. Wapner"
+        ],
+        "first_publish_year": 2005,
+        "isbn": [
+          "1568815859",
+          "9781568815855",
+          "9781439864845",
+          "9781568812137",
+          "9781568813271",
+          "1439864845",
+          "0429104928",
+          "1568813279",
+          "9780429104923",
+          "1568812132"
+        ],
+        "key": "/works/OL8896439W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Pea and the Sun"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Banach-Tarski paradox",
+      "History",
+      "Banach algebras"
+    ],
+    "key": "/works/OL8896439W",
+    "title": "The Pea and the Sun",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3064470A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      812152
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"Take an apple and cut it into five pieces. Would you believe that these five pieces can be reassembled in such a fashion so as to create two apples equal in shape and size to the original? Would you believe that you could make something as large as the sun by breaking a pea into a finite number of pieces and putting it back together again? Neither did Leonard Wapner, author of The Pea and the Sun, when he was first introduced to the Banach-Tarski paradox, which asserts exactly such a notion.\" \"The Pea and the Sun catalogues the people, events, and mathematics that contributed to the discovery of Banach and Tarski's magical paradox. Wapner makes one of the most interesting problems of advanced mathematics accessible to the non-mathematician.\"--Jacket."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T23:29:42.167398"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-11-02T11:38:14.148073"
+    }
+  }
+}

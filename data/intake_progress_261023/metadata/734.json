@@ -1,0 +1,94 @@
+{
+  "index": 734,
+  "title": "Extra Life",
+  "url": "https://openlibrary.org/search.json?title=Extra%20Life&author=Steven%20Johnson&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:43.695Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Steven Johnson"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "9780525538851",
+          "0525538852"
+        ],
+        "key": "/works/OL24403874W",
+        "title": "Extra Life"
+      },
+      {
+        "author_name": [
+          "Steven Johnson"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "0525538879",
+          "9780525538875",
+          "0593395697",
+          "0593351495",
+          "9780593351499",
+          "9780525538868",
+          "9780593395691",
+          "0525538860"
+        ],
+        "key": "/works/OL27735682W",
+        "language": [
+          "eng"
+        ],
+        "title": "Extra Life"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Extra Life",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL389304A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "covers": [
+      10944614
+    ],
+    "key": "/works/OL24403874W",
+    "subjects": [
+      "New York Times reviewed",
+      "Public health"
+    ],
+    "links": [
+      {
+        "title": "New York Times review",
+        "url": "https://www.nytimes.com/2021/05/11/books/review/extra-life-steven-johnson.html",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-05-05T17:45:54.991053"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-04-22T19:51:16.903667"
+    }
+  }
+}

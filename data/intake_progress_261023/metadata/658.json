@@ -1,0 +1,89 @@
+{
+  "index": 658,
+  "title": "Romantic Copper: Its Lure and Lore",
+  "url": "https://openlibrary.org/search.json?title=Romantic%20Copper%3A%20Its%20Lure%20and%20Lore&author=Joralemon%2C%20I.B.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:07.321Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ira B. Joralemon"
+        ],
+        "first_publish_year": 1934,
+        "key": "/works/OL2523972W",
+        "language": [
+          "eng"
+        ],
+        "title": "Romantic copper"
+      },
+      {
+        "author_name": [
+          "ira b. joralemon "
+        ],
+        "first_publish_year": 1934,
+        "key": "/works/OL43332897W",
+        "language": [
+          "eng"
+        ],
+        "title": "romantic copper"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Romantic%20Copper&author=Joralemon&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "key": "/works/OL2523972W",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T23:52:03.064183"
+    },
+    "title": "Romantic copper",
+    "id": 37701187,
+    "subject_places": [
+      "United States"
+    ],
+    "first_publish_date": "1934",
+    "latest_revision": 2,
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-02-05T08:33:59.457666"
+    },
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL356054A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Copper mines and mining",
+      "History",
+      "Copper industry and trade"
+    ],
+    "revision": 2
+  }
+}

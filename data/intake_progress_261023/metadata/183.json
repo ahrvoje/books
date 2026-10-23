@@ -1,0 +1,84 @@
+{
+  "index": 183,
+  "title": "The Moon",
+  "url": "https://openlibrary.org/search.json?isbn=0387360557&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:57:46.862Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Madhu Thangavelu"
+        ],
+        "first_publish_year": 2007,
+        "isbn": [
+          "9780387360553",
+          "0387360557"
+        ],
+        "key": "/works/OL15691924W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Moon"
+      },
+      {
+        "first_publish_year": 2007,
+        "isbn": [
+          "0387360557",
+          "9780387360553"
+        ],
+        "key": "/works/OL16973889W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Moon"
+      }
+    ]
+  },
+  "work": {
+    "subtitle": "Resources, Future Development and Settlement",
+    "covers": [
+      8696879
+    ],
+    "key": "/works/OL15691924W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3275281A"
+        }
+      }
+    ],
+    "title": "The Moon",
+    "subjects": [
+      "Exploration",
+      "Moon, exploration"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "\"The Moon: Resources, Future Development and Settlement describes the feasible settlement of the Moon in the coming century. The book stresses that the envisioned \"Planet Moon Project\" will link the technological and cultural expertise of humanity to the virtually limitless resources of space.\"--Jacket."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-03-23T19:12:56.597939"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-11-30T08:29:09.094837"
+    }
+  }
+}

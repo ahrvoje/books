@@ -1,0 +1,99 @@
+{
+  "index": 740,
+  "title": "Cobalt Red",
+  "url": "https://openlibrary.org/search.json?title=Cobalt%20Red&author=Siddharth%20Kara&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:46.786Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Siddharth Kara"
+        ],
+        "first_publish_year": 2022,
+        "isbn": [
+          "1250284309",
+          "1250284295",
+          "9780190886233",
+          "1250322154",
+          "0190886234",
+          "9781250284303",
+          "9781250284297",
+          "9781250322159",
+          "9788383196435",
+          "8383196431"
+        ],
+        "key": "/works/OL26346638W",
+        "language": [
+          "pol",
+          "eng"
+        ],
+        "title": "Cobalt Red"
+      },
+      {
+        "author_name": [
+          "Siddharth Kara"
+        ],
+        "first_publish_year": 2023,
+        "key": "/works/OL38075222W",
+        "title": "Cobalt Red"
+      },
+      {
+        "author_name": [
+          "Siddharth Kara"
+        ],
+        "first_publish_year": 2023,
+        "key": "/works/OL38075226W",
+        "title": "Cobalt Red"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Cobalt Red",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL5148468A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "key": "/works/OL26346638W",
+    "covers": [
+      13156257
+    ],
+    "subjects": [
+      "nyt:combined-print-and-e-book-nonfiction=2023-02-19",
+      "New York Times bestseller",
+      "Cobalt industry--Moral and ethical aspects--Congo (Democratic Republic)",
+      "Cobalt mines and mining--Moral and ethical aspects--Congo (Democratic Republic)",
+      "Miners--Abuse of--Congo (Democratic Republic)",
+      "Human rights--Congo (Democratic Republic)"
+    ],
+    "subject_places": [
+      "Congo (Democratic Republic)"
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-11-03T07:39:21.271985"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-05-26T03:20:39.001447"
+    }
+  }
+}

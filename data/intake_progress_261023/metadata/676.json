@@ -1,0 +1,125 @@
+{
+  "index": 676,
+  "title": "The Gates of Europe: A History of Ukraine",
+  "url": "https://openlibrary.org/search.json?title=The%20Gates%20of%20Europe%3A%20A%20History%20of%20Ukraine&author=Plokhy%2C%20S.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:13.786Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Serhii Plokhy"
+        ],
+        "first_publish_year": 2015,
+        "isbn": [
+          "9780141980614",
+          "9780241188101",
+          "9780241188088",
+          "9780465094868",
+          "1494519275",
+          "0465094864",
+          "0241188105",
+          "0241188083",
+          "1541675649",
+          "9781541675643",
+          "0141980613",
+          "9781494519278"
+        ],
+        "key": "/works/OL20220008W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Gates of Europe"
+      },
+      {
+        "author_name": [
+          "Serhii Plokhy"
+        ],
+        "first_publish_year": 2015,
+        "isbn": [
+          "9780465050918",
+          "0465050913"
+        ],
+        "key": "/works/OL17722572W",
+        "language": [
+          "ukr",
+          "eng"
+        ],
+        "title": "The gates of Europe"
+      },
+      {
+        "author_name": [
+          "Serhii Plokhy"
+        ],
+        "first_publish_year": 2017,
+        "isbn": [
+          "1668623269",
+          "0465093469",
+          "9781668623268",
+          "9780465093465"
+        ],
+        "key": "/works/OL34805261W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Gates of Europe"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=The%20Gates%20of%20Europe&author=Plokhy&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "subjects": [
+      "Ukraine, history",
+      "nyt:paperback-nonfiction=2022-03-20",
+      "New York Times bestseller"
+    ],
+    "key": "/works/OL20220008W",
+    "title": "The Gates of Europe",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6464882A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8872269
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-10-10T18:02:35.748259"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-05-27T23:55:18.358014"
+    }
+  }
+}

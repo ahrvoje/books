@@ -1,0 +1,66 @@
+{
+  "index": 418,
+  "title": "Moon Lander",
+  "url": "https://openlibrary.org/search.json?isbn=1588342735&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:48.167Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Thomas J. Kelly"
+        ],
+        "first_publish_year": 2009,
+        "isbn": [
+          "9781588342737",
+          "1588342735"
+        ],
+        "key": "/works/OL19700292W",
+        "title": "Moon lander"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Lunar excursion module",
+      "Project Apollo (U.S.)",
+      "Space flight to the moon"
+    ],
+    "key": "/works/OL19700292W",
+    "title": "Moon lander",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL8204038A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      6297797,
+      6297797
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-05-20T13:29:29.932350"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-01-25T23:15:14.368370"
+    }
+  }
+}

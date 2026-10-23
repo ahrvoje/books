@@ -1,0 +1,111 @@
+{
+  "index": 90,
+  "title": "Fear No Evil",
+  "url": "https://openlibrary.org/search.json?isbn=1891620029&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:56:45.496Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Anatoly Shcharansky"
+        ],
+        "first_publish_year": 1988,
+        "isbn": [
+          "9780679725428",
+          "0340506075",
+          "0679725423",
+          "9781891620027",
+          "9780340506073",
+          "9780394558783",
+          "0297793829",
+          "9780297793823",
+          "0394558782",
+          "1891620029"
+        ],
+        "key": "/works/OL1938043W",
+        "language": [
+          "rus",
+          "eng"
+        ],
+        "title": "Fear no evil"
+      },
+      {
+        "first_publish_year": 1998,
+        "isbn": [
+          "1891620029",
+          "9781891620027"
+        ],
+        "key": "/works/OL17035466W",
+        "language": [
+          "eng"
+        ],
+        "title": "Fear no evil"
+      }
+    ]
+  },
+  "work": {
+    "title": "Fear no evil",
+    "covers": [
+      9156872
+    ],
+    "subject_places": [
+      "Soviet Union"
+    ],
+    "first_publish_date": "1988",
+    "subject_people": [
+      "Anatoly Shcharansky"
+    ],
+    "key": "/works/OL1938043W",
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL232526A"
+        }
+      }
+    ],
+    "subject_times": [
+      "Imprisonment"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Biography",
+      "Civil rights",
+      "Imprisonment",
+      "Imprisonment, 1977-1986",
+      "Jews",
+      "Political prisoners",
+      "Refuseniks",
+      "Soviet Union",
+      "Shcharansky, Anatoly",
+      "Jews, soviet union",
+      "Political prisoners, soviet union",
+      "Civil rights, soviet union",
+      "Political prisoners, south africa"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "The prison memoirs of the Soviet dissident and Jewish activist relate the harrowing events of his nine years in KGB custody, from interrogation to release."
+    },
+    "latest_revision": 12,
+    "revision": 12,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:35:56.165683"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-02-06T01:14:12.374568"
+    }
+  }
+}

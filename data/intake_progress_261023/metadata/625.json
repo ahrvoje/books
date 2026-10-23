@@ -1,0 +1,76 @@
+{
+  "index": 625,
+  "title": "The Egg and Sperm Race: The Seventeenth-Century Scientists Who Unravelled the Secrets of Sex, Life and Growth",
+  "url": "https://openlibrary.org/search.json?title=The%20Egg%20and%20Sperm%20Race%3A%20The%20Seventeenth-Century%20Scientists%20Who%20Unravelled%20the%20Secrets%20of%20Sex%2C%20Life%20and%20Growth&author=Matthew%20Cobb&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:56.187Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Matthew Cobb"
+        ],
+        "isbn": [
+          "0743276094",
+          "9780743276092"
+        ],
+        "key": "/works/OL12971267W",
+        "language": [
+          "und"
+        ],
+        "title": "EGG & SPERM RACE: THE SEVENTEENTH-CENTURY SCIENTISTS WHO UNLOCKED THE SECRETS OF SEX, LIFE AND GROWTH"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=The%20Egg%20and%20Sperm%20Race&author=Matthew%20Cobb&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "EGG & SPERM RACE: THE SEVENTEENTH-CENTURY SCIENTISTS WHO UNLOCKED THE SECRETS OF SEX, LIFE AND GROWTH",
+    "covers": [
+      5511611
+    ],
+    "key": "/works/OL12971267W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1432998A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T08:16:11.502933"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-02-23T18:11:00.176434"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "index": 637,
+  "title": "Liquid Stone: New Architecture in Concrete",
+  "url": "https://openlibrary.org/search.json?title=Liquid%20Stone%3A%20New%20Architecture%20in%20Concrete&author=Cohen%2C%20J.-L.%20and%20Martin%2C%20G.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:00.520Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jean-Louis Cohen"
+        ],
+        "first_publish_year": 2006,
+        "isbn": [
+          "9783764374839",
+          "3764374837"
+        ],
+        "key": "/works/OL25091683W",
+        "language": [
+          "eng"
+        ],
+        "title": "Liquid Stone"
+      },
+      {
+        "author_name": [
+          "Jean-Louis Cohen",
+          "Gerard Martin Moeller"
+        ],
+        "first_publish_year": 2007,
+        "isbn": [
+          "9781568985701",
+          "1568985703"
+        ],
+        "key": "/works/OL18407260W",
+        "language": [
+          "eng"
+        ],
+        "title": "Liquid stone"
+      },
+      {
+        "author_name": [
+          "Jean-Louis Cohen",
+          "Moeller, Jr., G. Martin, GMartin"
+        ],
+        "first_publish_year": 2006,
+        "isbn": [
+          "9783764378639",
+          "3764378638"
+        ],
+        "key": "/works/OL38017594W",
+        "language": [
+          "eng"
+        ],
+        "title": "Liquid Stone"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Liquid%20Stone&author=Cohen&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Liquid Stone",
+    "subjects": [
+      "Concrete construction",
+      "Architecture, modern, 20th century",
+      "Architecture, modern, 21st century"
+    ],
+    "covers": [
+      2236783
+    ],
+    "key": "/works/OL25091683W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL190659A"
+        }
+      }
+    ],
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-09-16T08:16:27.867569"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-16T08:16:27.867569"
+    }
+  }
+}

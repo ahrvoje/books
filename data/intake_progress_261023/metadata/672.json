@@ -1,0 +1,74 @@
+{
+  "index": 672,
+  "title": "Ten Materials That Shaped Our World",
+  "url": "https://openlibrary.org/search.json?title=Ten%20Materials%20That%20Shaped%20Our%20World&author=Norton%2C%20M.%20G.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:12.930Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "M. Grant Norton"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "9783030752125",
+          "3030752127"
+        ],
+        "key": "/works/OL25323535W",
+        "language": [
+          "eng"
+        ],
+        "title": "Ten Materials That Shaped Our World"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Ten%20Materials%20That%20Shaped%20Our%20World&author=Norton&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Ten Materials That Shaped Our World",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2681051A"
+        }
+      }
+    ],
+    "key": "/works/OL25323535W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-09-28T09:52:02.984863"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-28T09:52:02.984863"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "index": 682,
+  "title": "A Brief History of Motion: From the Wheel to the Car to What Comes Next",
+  "url": "https://openlibrary.org/search.json?title=A%20Brief%20History%20of%20Motion%3A%20From%20the%20Wheel%20to%20the%20Car%20to%20What%20Comes%20Next&author=Standage%2C%20T.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:15.627Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Tom Standage"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "1526608324",
+          "9781526608314",
+          "9781635579369",
+          "1635579368",
+          "9781526608345",
+          "1526608308",
+          "9781635573619",
+          "1635573610",
+          "9781526608307",
+          "1526608316",
+          "1526608340",
+          "9781526608321"
+        ],
+        "key": "/works/OL25292322W",
+        "language": [
+          "eng"
+        ],
+        "title": "A Brief History of Motion"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=A%20Brief%20History%20of%20Motion&author=Standage&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "A Brief History of Motion",
+    "covers": [
+      11984743,
+      11942711
+    ],
+    "key": "/works/OL25292322W",
+    "subjects": [
+      "Engineering"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL228269A"
+        }
+      }
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-09-22T17:25:31.999269"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-01-04T20:50:10.788425"
+    }
+  }
+}

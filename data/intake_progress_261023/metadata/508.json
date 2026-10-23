@@ -1,0 +1,72 @@
+{
+  "index": 508,
+  "title": "This Will Make You Smarter",
+  "url": "https://openlibrary.org/search.json?isbn=085752111X&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:01:47.827Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John Brockman"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "085752111X",
+          "9780552778480",
+          "0552778486",
+          "9780857521118"
+        ],
+        "key": "/works/OL19551770W",
+        "language": [
+          "eng"
+        ],
+        "title": "This Will Make You Smarter"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-04-08T03:33:44.250393"
+    },
+    "subjects": [
+      "Thought and thinking",
+      "Cognition",
+      "Brain",
+      "Consciousness",
+      "Neurosciences"
+    ],
+    "latest_revision": 2,
+    "key": "/works/OL19551770W",
+    "title": "This Will Make You Smarter",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6432667A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-10-10T02:06:04.246648"
+    },
+    "covers": [
+      8523107
+    ],
+    "revision": 2
+  }
+}

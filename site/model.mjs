@@ -57,6 +57,14 @@ export const REGISTRY = [
   ].map(([id, name, description]) => ({ id, name, description, max: ['SPAN', 'ORDER'].includes(id) ? 20 : 100, weight: 0, unit: ['SPAN', 'ORDER'].includes(id) ? 'domains' : 'level', group: 'Connections', derived: true }))
 ].map(r => ({ group: 'Existing evaluation', ...r }));
 export const BY_ID = Object.fromEntries(REGISTRY.map(r => [r.id, r]));
+export function rawGuidance(id) {
+  const r = BY_ID[id];
+  if (r.unit === 'flag') return 'Raw values: 0 = does not apply; 1 = applies.';
+  if (r.unit === 'depth') return 'Raw range: 0–4 in whole steps, from absent to sustained domain depth. Unknown is separate from 0.';
+  if (id === 'O15') return 'Raw range: 0 and above (whole-number ratings); no fixed upper limit. Default deductions: 0–9 → −20; 10–99 → −10; 100–999 → −5; 1,000+ → 0. Unknown is separate from 0.';
+  if (['years', 'ratings', 'sources', 'pages'].includes(r.unit)) return `Raw range: 0 and above (${r.unit}); no fixed upper limit. The default upper scoring anchor is ${r.max}, not a limit on raw values. Unknown is separate from 0.`;
+  return `Raw range: 0–${r.max} ${r.unit === 'attainment' ? 'attainment points' : r.unit === 'level' ? 'percent' : r.unit}. ${r.derived ? 'Requires a configured target and sufficient evidence.' : 'Higher values mean greater attainment.'}`;
+}
 const hasID = id => typeof id === 'string' && Object.hasOwn(BY_ID, id);
 export const CORE_COLUMNS = ['year', 'raw:PG', 'raw:O15', 'raw:SRC'];
 export const DEFAULT_COLUMNS = [...CORE_COLUMNS];

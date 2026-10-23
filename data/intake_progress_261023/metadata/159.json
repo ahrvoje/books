@@ -1,0 +1,72 @@
+{
+  "index": 159,
+  "title": "The Planet Remade",
+  "url": "https://openlibrary.org/search.json?isbn=0691148252&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:57:31.133Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Oliver Morton"
+        ],
+        "first_publish_year": 2020,
+        "isbn": [
+          "9780691148250",
+          "0691148252"
+        ],
+        "key": "/works/OL17475536W",
+        "language": [
+          "eng"
+        ],
+        "title": "Remaking the Sky"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Climate change mitigation",
+      "Environmental engineering",
+      "Climatic changes"
+    ],
+    "key": "/works/OL17475536W",
+    "title": "Remaking the Sky",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1513476A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      7653245
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Introduction: Two Questions -- Part One: Energies.  The top of the world -- A planet called weather -- Pinatubo -- Dimming the noontime sun -- Coming to think this way -- Moving the goalposts.  Part Two: Substances.  Nitrogen -- Carbon past, carbon present -- Carbon present, carbon future -- Sulphur and soggy mirrors.  Part Three: Possibilities.  The ends of the world -- The deliberate planet."
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2016-10-14T11:40:51.104750"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-12-15T02:21:07.551357"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "index": 292,
+  "title": "Biohazard",
+  "retrievedAt": "2026-10-23T19:22:03.431Z",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/works/OL7920991W/editions.json?limit=100",
+      "status": 200
+    },
+    {
+      "url": "https://www.amazon.de/dp/0375502319",
+      "status": 200,
+      "title": "Amazon.de",
+      "countText": null,
+      "globalText": null,
+      "sha256": "8085ee08ddeb9aa5b4b534a42c24b2d6f4604e599cad0ea9c2fb5d6e197ac322",
+      "bytes": 3815
+    },
+    {
+      "url": "https://www.amazon.com/dp/0375502319",
+      "status": 200,
+      "title": "Amazon.com",
+      "countText": null,
+      "globalText": null,
+      "sha256": "3cdc2dc4865d176c686cf7b2b8294a896b1c64fa17fe9e1cf14d6fb65268aec2",
+      "bytes": 3781
+    }
+  ],
+  "edition": {
+    "type": {
+      "key": "/type/edition"
+    },
+    "authors": [
+      {
+        "key": "/authors/OL2645029A"
+      }
+    ],
+    "isbn_13": [
+      "9781407010755"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "publish_date": "2008",
+    "publishers": [
+      "Penguin Random House"
+    ],
+    "source_records": [
+      "bwb:9781407010755"
+    ],
+    "title": "Biohazard",
+    "full_title": "Biohazard",
+    "works": [
+      {
+        "key": "/works/OL7920991W"
+      }
+    ],
+    "key": "/books/OL40373514M",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-11-18T06:25:44.121303"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-11-18T06:25:44.121303"
+    }
+  },
+  "work": "https://openlibrary.org/works/OL7920991W"
+}

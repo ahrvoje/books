@@ -1,0 +1,114 @@
+{
+  "index": 649,
+  "title": "Energy and the Wealth of Nations",
+  "url": "https://openlibrary.org/search.json?title=Energy%20and%20the%20Wealth%20of%20Nations&author=Hall%2C%20C.A.S.%20and%20Klitgaard%2C%20K.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:04.309Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Charles A.S. Hall",
+          "Kent Klitgaard"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "9783030097646",
+          "3319662198",
+          "3319662171",
+          "9783319662176",
+          "3030097641",
+          "9783319662190"
+        ],
+        "key": "/works/OL20523383W",
+        "language": [
+          "ger"
+        ],
+        "title": "Energy and the Wealth of Nations"
+      },
+      {
+        "author_name": [
+          "Charles A. S. Hall"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "9781441993984",
+          "9781441993977",
+          "1441993975",
+          "1441993983"
+        ],
+        "key": "/works/OL19847454W",
+        "language": [
+          "eng"
+        ],
+        "title": "Energy and the Wealth of Nations"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Energy%20and%20the%20Wealth%20of%20Nations&author=Hall&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-12-09T17:24:32.781336"
+    },
+    "subjects": [
+      "Power resources",
+      "Environmental economics",
+      "Sustainable development",
+      "Engineering economy",
+      "Energy policy"
+    ],
+    "latest_revision": 2,
+    "key": "/works/OL20523383W",
+    "title": "Energy and the Wealth of Nations",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7774904A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7774905A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-10-11T14:03:53.862239"
+    },
+    "covers": [
+      9174033
+    ],
+    "revision": 2
+  }
+}

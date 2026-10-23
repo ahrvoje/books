@@ -1,0 +1,106 @@
+{
+  "index": 192,
+  "title": "A Philosophical Essay on Probabilities",
+  "url": "https://openlibrary.org/search.json?isbn=1298496853&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:57:52.832Z",
+  "status": 200,
+  "search": {
+    "numFound": 10,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 10,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Pierre Simon marquis de Laplace"
+        ],
+        "first_publish_year": 1951,
+        "isbn": [
+          "9781602063280",
+          "1602063281"
+        ],
+        "key": "/works/OL9005096W",
+        "language": [
+          "eng"
+        ],
+        "title": "A philosophical essay on probabilities"
+      },
+      {
+        "author_name": [
+          "Pierre Simon marquis de Laplace"
+        ],
+        "first_publish_year": 1952,
+        "isbn": [
+          "0343669242",
+          "9780343669249"
+        ],
+        "key": "/works/OL24595360W",
+        "title": "A Philosophical Essay on Probabilities"
+      },
+      {
+        "author_name": [
+          "Pierre Simon marquis de Laplace"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "0353133388",
+          "035313337X",
+          "9780353133389",
+          "9780353133372"
+        ],
+        "key": "/works/OL24458268W",
+        "title": "A Philosophical Essay on Probabilities"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=A%20Philosophical%20Essay%20on%20Probabilities&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "A philosophical essay on probabilities",
+    "covers": [
+      2010215
+    ],
+    "key": "/works/OL9005096W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3133858A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Probabilities"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T23:40:35.335999"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-10-22T23:32:48.306933"
+    }
+  }
+}

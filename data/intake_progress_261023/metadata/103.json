@@ -1,0 +1,104 @@
+{
+  "index": 103,
+  "title": "Alibaba",
+  "url": "https://openlibrary.org/search.json?isbn=0062413406&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:56:54.849Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Duncan Clark"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "0062413406",
+          "0062413414",
+          "9781504697057",
+          "9780062413413",
+          "9570848715",
+          "9780062562555",
+          "006256255X",
+          "9789570848717",
+          "9780062413420",
+          "9787508665160",
+          "1504697057",
+          "7508665163",
+          "9780062413406",
+          "0062413422"
+        ],
+        "key": "/works/OL20023885W",
+        "language": [
+          "chi",
+          "eng"
+        ],
+        "title": "Alibaba"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "Traces the founding of Alibaba, the world's second largest Internet company, by an English teacher from humble origins, drawing on exclusive interviews to explore how the company and Jack Ma have become icons and leading employers in China's booming private sector."
+    },
+    "title": "Alibaba",
+    "covers": [
+      9242590
+    ],
+    "subject_places": [
+      "China"
+    ],
+    "subjects": [
+      "Electronic commerce",
+      "Alibaba (Firm)",
+      "Internet marketing",
+      "Internet auctions",
+      "China, commerce",
+      "New York Times reviewed",
+      "Industries, china"
+    ],
+    "subject_people": [
+      "Yun Ma (1964-)"
+    ],
+    "key": "/works/OL20023885W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3140898A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "links": [
+      {
+        "url": "http://www.nytimes.com/2016/04/17/books/review/alibaba-the-house-that-jack-ma-built-by-duncan-clark.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-19T11:02:41.799401"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-12-25T16:50:04.375792"
+    }
+  }
+}

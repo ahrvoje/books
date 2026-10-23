@@ -1,0 +1,84 @@
+{
+  "index": 96,
+  "title": "The End of Error",
+  "url": "https://openlibrary.org/search.json?isbn=1482239868&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:56:49.493Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John L. Gustafson"
+        ],
+        "first_publish_year": 2015,
+        "isbn": [
+          "1482239868",
+          "9781138402195",
+          "9781482239874",
+          "1351665596",
+          "9781315161532",
+          "9781351665605",
+          "1138402192",
+          "135166560X",
+          "1482239876",
+          "9781351665599",
+          "1315161532",
+          "9781482239867"
+        ],
+        "key": "/works/OL21551768W",
+        "language": [
+          "eng"
+        ],
+        "title": "End of Error"
+      }
+    ]
+  },
+  "work": {
+    "title": "End of Error",
+    "subjects": [
+      "Numerical analysis, data processing",
+      "Mathematics",
+      "Roundoff errors",
+      "Error analysis (Mathematics)",
+      "Numerical analysis",
+      "Data processing",
+      "Erreurs d'arrondi",
+      "Théorie des erreurs",
+      "Analyse numérique",
+      "Informatique",
+      "MATHEMATICS",
+      "General"
+    ],
+    "key": "/works/OL21551768W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8243670A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-23T18:39:07.325106"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-15T05:14:14.534380"
+    }
+  }
+}

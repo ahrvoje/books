@@ -1,0 +1,76 @@
+{
+  "index": 203,
+  "title": "What Should We Be Worried About?",
+  "url": "https://openlibrary.org/search.json?isbn=006229623X&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:57:59.867Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John Brockman"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "9780062296238",
+          "006229623X"
+        ],
+        "key": "/works/OL17684925W",
+        "language": [
+          "eng"
+        ],
+        "title": "What should we be worried about?"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "Posing the question \"What should we be worried about?\" to one hundred fifty of the world's greatest minds, this collection of responses reveals what about the present or the future worries each of them the most."
+    },
+    "covers": [
+      7958444
+    ],
+    "key": "/works/OL17684925W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL412690A"
+        }
+      }
+    ],
+    "title": "What should we be worried about?",
+    "subjects": [
+      "Science",
+      "Forecasting",
+      "Fear",
+      "Worry",
+      "Social prediction",
+      "Science, psychological aspects",
+      "Social aspects"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2017-05-03T06:35:12.103967"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-10-12T19:33:21.466196"
+    }
+  }
+}

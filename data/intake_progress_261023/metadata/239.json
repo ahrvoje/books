@@ -1,0 +1,72 @@
+{
+  "index": 239,
+  "title": "BSD Hacks",
+  "url": "https://openlibrary.org/search.json?isbn=0596006799&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:58:23.141Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Dru Lavigne"
+        ],
+        "first_publish_year": 2004,
+        "isbn": [
+          "9780596552565",
+          "9780596153526",
+          "0596006799",
+          "059615352X",
+          "9780596006792",
+          "0596552564"
+        ],
+        "key": "/works/OL5757633W",
+        "language": [
+          "eng"
+        ],
+        "title": "BSD Hacks"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Berkeley BSD (Computer file)",
+      "Operating systems (Computers)",
+      "UNIX (computer operating system)"
+    ],
+    "key": "/works/OL5757633W",
+    "title": "BSD Hacks",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL1401074A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      388926
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T17:55:16.094725"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-08-30T20:58:15.824437"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "index": 726,
+  "title": "Geniuses at War",
+  "url": "https://openlibrary.org/search.json?title=Geniuses%20at%20War&author=David%20A.%20Price&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:39.880Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David A. Price"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "0525521542",
+          "9780525521549"
+        ],
+        "key": "/works/OL25766669W",
+        "language": [
+          "eng"
+        ],
+        "title": "Geniuses at War"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Geniuses at War",
+    "subjects": [
+      "World history",
+      "Cryptography",
+      "History",
+      "Lorenz cipher system",
+      "World War, 1939-1945",
+      "Electronic intelligence"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2942966A"
+        }
+      }
+    ],
+    "key": "/works/OL25766669W",
+    "description": {
+      "type": "/type/text",
+      "value": "\"Geniuses at War is the dramatic, untold story of the brilliant team who built the world's first digital electronic computer at Bletchley Park, during a critical time in World War II. Decoding the communication of the Nazi high command was imperative for the success of the Allied invasion of Normandy. The Nazi missives were encrypted by the \"Tunny\" cipher, a code that was orders of magnitude more difficult to crack than the infamous Enigma code. But Tommy Flowers, a maverick English working-class engineer, devised the ingenious, daring, and controversial plan to build a machine that could think at breathtaking speed and break the code in nearly real time. Together with the pioneering mathematician Max Newman and Enigma code-breaker Alan Turing, Flowers and his team produced--against the odds, the clock, and a resistant leadership--Colossus, the world's first digital electronic computer, the machine that would help bring the war to an end. With fascinating detail and illuminating insight, David A. Price's Geniuses at War tells, for the first time, the mesmerizing story of the great minds behind Colossus, and chronicles their remarkable feats of engineering genius which ushered in the dawn of the digital age\"--"
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-10-07T04:32:28.859207"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-03-30T15:25:52.712459"
+    }
+  }
+}

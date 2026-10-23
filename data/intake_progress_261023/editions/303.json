@@ -1,0 +1,92 @@
+{
+  "index": 303,
+  "title": "Less and More",
+  "retrievedAt": "2026-10-23T19:22:05.345Z",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/works/OL20665131W/editions.json?limit=100",
+      "status": 200
+    },
+    {
+      "url": "https://www.amazon.de/dp/3899553977",
+      "status": 200,
+      "title": "Amazon.de",
+      "countText": null,
+      "globalText": null,
+      "sha256": "a20d5999f5d6d011fe7707d544c22bdc592123cfe2e1cb023934cc54cad6b89d",
+      "bytes": 3815
+    },
+    {
+      "url": "https://www.amazon.com/dp/3899553977",
+      "status": 200,
+      "title": "Amazon.com",
+      "countText": null,
+      "globalText": null,
+      "sha256": "74b954bb539a2c2fee85cfdc6d23af372de4e9438a92c1071ab2ca217c7bff2f",
+      "bytes": 3781
+    }
+  ],
+  "edition": {
+    "type": {
+      "key": "/type/edition"
+    },
+    "authors": [
+      {
+        "key": "/authors/OL7475088A"
+      },
+      {
+        "key": "/authors/OL7832278A"
+      }
+    ],
+    "isbn_13": [
+      "9783899555844"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "lc_classifications": [
+      "TS140.R36L4 2015"
+    ],
+    "pagination": "808",
+    "publish_date": "2015",
+    "publishers": [
+      "Die Gestalten Verlag",
+      "gestalten"
+    ],
+    "source_records": [
+      "bwb:9783899555844",
+      "amazon:3899555848"
+    ],
+    "subjects": [
+      "Industrial designers",
+      "Germany, biography"
+    ],
+    "title": "Less and More",
+    "weight": "1.846",
+    "subtitle": "The Design Ethos of Dieter Rams",
+    "full_title": "Less and More The Design Ethos of Dieter Rams",
+    "works": [
+      {
+        "key": "/works/OL20665131W"
+      }
+    ],
+    "key": "/books/OL36725781M",
+    "covers": [
+      13677011
+    ],
+    "number_of_pages": 808,
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-01-27T09:21:32.700068"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-03-19T21:32:34.084344"
+    }
+  },
+  "work": "https://openlibrary.org/works/OL20665131W"
+}

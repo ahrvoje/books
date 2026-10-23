@@ -1,0 +1,93 @@
+{
+  "index": 629,
+  "title": "Resource Flows: The Material Basis of Industrial Economies",
+  "url": "https://openlibrary.org/search.json?title=Resource%20Flows%3A%20The%20Material%20Basis%20of%20Industrial%20Economies&author=Adriaanse%2C%20A.%20and%20World%20Resources%20Institute%20(eds)&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:58.100Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Albert Adriaanse"
+        ],
+        "first_publish_year": 1997,
+        "isbn": [
+          "9781569732090",
+          "1569732094"
+        ],
+        "key": "/works/OL8898640W",
+        "language": [
+          "eng"
+        ],
+        "title": "Resource Flows"
+      },
+      {
+        "author_name": [
+          "Albert Adriaanse"
+        ],
+        "first_publish_year": 1997,
+        "isbn": [
+          "1569732094",
+          "9781569732090"
+        ],
+        "key": "/works/OL19223479W",
+        "language": [
+          "eng"
+        ],
+        "title": "Resource flows"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Resource%20Flows&author=Adriaanse&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "Resource Flows",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T23:29:50.109454"
+    },
+    "covers": [
+      6687853,
+      4838544
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2011-02-23T19:57:02.662913"
+    },
+    "latest_revision": 3,
+    "key": "/works/OL8898640W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3065554A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 3
+  }
+}

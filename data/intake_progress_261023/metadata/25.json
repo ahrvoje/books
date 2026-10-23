@@ -1,0 +1,110 @@
+{
+  "index": 25,
+  "title": "Sextant: A Young Man's Daring Sea Voyage and the Men Who Mapped the World's Oceans",
+  "url": "https://openlibrary.org/search.json?title=Sextant%3A%20A%20Young%20Man's%20Daring%20Sea%20Voyage%20and%20the%20Men%20Who%20Mapped%20the%20World's%20Oceans&author=David%20Barrie&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:14.435Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David Barrie"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "9780007516568",
+          "006227936X",
+          "0007516576",
+          "9780007516582",
+          "9780062279354",
+          "0007516584",
+          "0062279351",
+          "0007516568",
+          "9780062279361",
+          "9780007516575"
+        ],
+        "key": "/works/OL21085110W",
+        "language": [
+          "eng"
+        ],
+        "title": "Sextant"
+      },
+      {
+        "author_name": [
+          "David Barrie"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "0062279343",
+          "9780062279347"
+        ],
+        "key": "/works/OL23410258W",
+        "language": [
+          "eng"
+        ],
+        "title": "Sextant"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Sextant&author=David%20Barrie&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "Sextant",
+    "subjects": [
+      "Navigation, history",
+      "Voyages around the world",
+      "Nautical astronomy",
+      "Travel",
+      "Navigation",
+      "History",
+      "Sextant"
+    ],
+    "key": "/works/OL21085110W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3778371A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "In the tradition of Dava Sobel's 'Longitude' comes sailing expert David Barrie's compelling and dramatic tale of invention and discovery - an eloquent elegy to one of the most important navigational instruments ever created, and the daring mariners who used it to explore, conquer, and map the world."
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-04T07:21:48.126589"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-07T07:19:51.529909"
+    }
+  }
+}

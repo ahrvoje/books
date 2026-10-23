@@ -1,0 +1,100 @@
+{
+  "index": 601,
+  "title": "Burning the Sky: Operation Argus and the Untold Story of the Cold War Nuclear Tests in Outer Space",
+  "url": "https://openlibrary.org/search.json?title=Burning%20the%20Sky%3A%20Operation%20Argus%20and%20the%20Untold%20Story%20of%20the%20Cold%20War%20Nuclear%20Tests%20in%20Outer%20Space&author=Mark%20Wolverton&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:46.949Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Mark Wolverton"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "1468314173",
+          "1468314181",
+          "9781468314175",
+          "9781468314182",
+          "1982618833",
+          "9781982618834"
+        ],
+        "key": "/works/OL20539022W",
+        "language": [
+          "eng"
+        ],
+        "title": "Burning the Sky"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Burning%20the%20Sky&author=Mark%20Wolverton&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "Burning the Sky",
+    "covers": [
+      9187237
+    ],
+    "key": "/works/OL20539022W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2821136A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Nuclear weapons",
+      "Atmosphere, upper",
+      "Operation Argus, 1958",
+      "Testing",
+      "High-altitude nuclear explosions",
+      "Upper atmosphere",
+      "Research",
+      "Artificial radiation belts",
+      "HISTORY / Military / Nuclear Warfare",
+      "HISTORY / Military / Weapons",
+      "HISTORY / United States / 20th Century",
+      "SCIENCE / History",
+      "Atomic bomb"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"After the Soviet Union proved to the US that it possessed an operational intercontinental ballistic missile with the launch of Sputnik in the October 1957, the world watched anxiously as the two superpowers engaged in a game of nuclear one-upmanship. In the midst of this rising tension, Nicholas Christofilos, an eccentric Greek-American physicist, brought forth an outlandish, albeit ingenious, idea to defend the US from a Soviet attack: launching nuclear warheads to detonate in outer space, creating an artificial radiation belt that would fry incoming Soviet ICBMs. Known as Operation Argus, this plan is the most secret and riskiest scientific experiment in history, and classified details of these nuclear tests have been long obscured. In Burning the Sky, Mark Wolverton tells the unknown and controversial story of this scheme to reveal a fascinating narrative that still has powerful resonances today\"--from publisher's description."
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-12-13T01:23:00.117958"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-05-03T21:28:21.398707"
+    }
+  }
+}

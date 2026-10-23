@@ -1,0 +1,76 @@
+{
+  "index": 374,
+  "title": "Garbage Collection",
+  "url": "https://openlibrary.org/search.json?isbn=0471941484&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:19.591Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jones, Richard"
+        ],
+        "first_publish_year": 1996,
+        "isbn": [
+          "9780471941484",
+          "0471941484"
+        ],
+        "key": "/works/OL3262343W",
+        "language": [
+          "eng"
+        ],
+        "title": "Garbage collection"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1996",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-04T00:04:19.462553"
+    },
+    "title": "Garbage collection",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T03:07:59.368125"
+    },
+    "covers": [
+      307398
+    ],
+    "lc_classifications": [
+      "QA76.9.G37 J66 1996"
+    ],
+    "latest_revision": 4,
+    "key": "/works/OL3262343W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL531725A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "005.4/2"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Memory management (Computer science)",
+      "Computer algorithms",
+      "Garbage collection (Computer science)",
+      "Refuse and refuse disposal"
+    ],
+    "revision": 4
+  }
+}

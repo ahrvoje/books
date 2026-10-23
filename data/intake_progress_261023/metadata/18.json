@@ -1,0 +1,100 @@
+{
+  "index": 18,
+  "title": "Plastic: A Toxic Love Story",
+  "url": "https://openlibrary.org/search.json?title=Plastic%3A%20A%20Toxic%20Love%20Story&author=Susan%20Freinkel&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:56:33.194Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Susan Freinkel"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "9781921758485",
+          "9780547549149",
+          "1921758481",
+          "9781299883895",
+          "0547549148",
+          "1299883893"
+        ],
+        "key": "/works/OL20881308W",
+        "language": [
+          "eng"
+        ],
+        "title": "Plastic"
+      },
+      {
+        "author_name": [
+          "Susan Freinkel"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "054715240X",
+          "9780547152400"
+        ],
+        "key": "/works/OL15976336W",
+        "language": [
+          "eng"
+        ],
+        "title": "Plastic"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Plastic&author=Susan%20Freinkel&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-06-22T03:14:33.348993"
+    },
+    "subjects": [
+      "Environmental studies",
+      "Plastics"
+    ],
+    "latest_revision": 2,
+    "key": "/works/OL20881308W",
+    "title": "Plastic",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7949415A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-02T18:09:11.162338"
+    },
+    "covers": [
+      10206152
+    ],
+    "revision": 2
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "index": 284,
+  "title": "Hacking the Xbox",
+  "url": "https://openlibrary.org/search.json?isbn=0613920392&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:07.482Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Andrew \"Bunnie\" Huang"
+        ],
+        "first_publish_year": 2003,
+        "isbn": [
+          "9780613920391",
+          "0974057509",
+          "0613920392",
+          "9781593270292",
+          "1593270291",
+          "9780974057507"
+        ],
+        "key": "/works/OL8838876W",
+        "language": [
+          "eng"
+        ],
+        "title": "Hacking the Xbox"
+      }
+    ]
+  },
+  "work": {
+    "subtitle": "An Introduction to Reverse Engineering",
+    "description": {
+      "type": "/type/text",
+      "value": "\"Hacking the Xbox\" is a fascinating book about exactly what it says.  If you have no interest in gory details of JTAG probe points, cryptography, so called \"trusted computing\" and \"digital rights management\" and the technical issues at stake in trying to implement and/or attack them... then this book will bore you to tears.  If you *do* have such interests, then you are in for a treat.\r\n\r\nThe book opens with 5 chapters of fairly broad physical overview, walking through the hardware systems in Xbox consoles and some (relatively) simple projects to get your hands dirty with a soldering iron.  Then on to some meaty chapters introducing you to the security model of the platform, and the attacks that the author and others developed to ultimately succeed at running arbitrary code on these systems.  These chapters provide a fascinating blow-by-blow account of the process of developing the attacks.  Then, we wrap up with some practical material regarding how to use these attacks to run, for instance, Xbox-Linux on a hacked machine, and some bigger picture information on the legal environment facing US hackers interested in these matters."
+    },
+    "title": "Hacking the Xbox",
+    "covers": [
+      870251
+    ],
+    "subjects": [
+      "Reverse engineering",
+      "Computer hackers",
+      "Computer security",
+      "Trusted computing",
+      "DRM",
+      "DMCA",
+      "Security research",
+      "Hackers",
+      "xbox",
+      "hardware",
+      "reverse",
+      "hacking",
+      "power",
+      "rom",
+      "security",
+      "soldering",
+      "solder",
+      "engineering",
+      "reverse engineering",
+      "power supply",
+      "flash rom",
+      "soldering iron",
+      "circuit board",
+      "front panel",
+      "xbox security",
+      "hard drive",
+      "boot rom",
+      "xbox motherboard"
+    ],
+    "key": "/works/OL8838876W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3310049A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 9,
+    "revision": 9,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T23:24:11.596303"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-08-13T13:12:30.188635"
+    }
+  }
+}

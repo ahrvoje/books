@@ -1,0 +1,63 @@
+{
+  "index": 364,
+  "title": "Has Man A Future?",
+  "url": "https://openlibrary.org/search.json?isbn=0671299859&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:13.126Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Bertrand Russell"
+        ],
+        "first_publish_year": 1962,
+        "isbn": [
+          "0671299859",
+          "9780671299859"
+        ],
+        "key": "/works/OL15056401W",
+        "language": [
+          "eng"
+        ],
+        "title": "Has Man a Future"
+      }
+    ]
+  },
+  "work": {
+    "title": "Has Man a Future",
+    "key": "/works/OL15056401W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL112912A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Nuclear disarmament"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-04-16T23:04:25.140580"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-04-17T05:58:25.908071"
+    }
+  }
+}

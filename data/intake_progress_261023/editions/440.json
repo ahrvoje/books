@@ -1,0 +1,83 @@
+{
+  "index": 440,
+  "title": "Hooligan",
+  "retrievedAt": "2026-10-23T19:22:58.108Z",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/works/OL4960035W/editions.json?limit=100",
+      "status": 200
+    },
+    {
+      "url": "https://www.amazon.de/dp/0805238859",
+      "status": 200,
+      "title": "Amazon.de",
+      "countText": null,
+      "globalText": null,
+      "sha256": "4529fd373eb72b062e65f4efb57a2cbd8c0491ddcd3d6156938b877c899afd46",
+      "bytes": 3815
+    },
+    {
+      "url": "https://www.amazon.com/dp/0805238859",
+      "status": 200,
+      "title": "Amazon.com",
+      "countText": null,
+      "globalText": null,
+      "sha256": "c124849734ffe419b5520b96899f5eb63be8a24dba3fb629700fc3ddedf24bfa",
+      "bytes": 3781
+    }
+  ],
+  "edition": {
+    "type": {
+      "key": "/type/edition"
+    },
+    "authors": [
+      {
+        "key": "/authors/OL1070365A"
+      }
+    ],
+    "isbn_13": [
+      "9780333233993"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "lc_classifications": [
+      "HV6947"
+    ],
+    "pagination": "xi, 283",
+    "publish_date": "1983",
+    "publishers": [
+      "Macmillan Publishers Limited"
+    ],
+    "source_records": [
+      "bwb:9780333233993",
+      "idb:9780333233993"
+    ],
+    "subjects": [
+      "Crime, great britain"
+    ],
+    "title": "Hooligan",
+    "subtitle": "A History of Respectable Fears",
+    "full_title": "Hooligan A History of Respectable Fears",
+    "works": [
+      {
+        "key": "/works/OL4960035W"
+      }
+    ],
+    "key": "/books/OL44102053M",
+    "number_of_pages": 288,
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-12-17T04:10:45.872070"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-19T21:59:30.223566"
+    }
+  },
+  "work": "https://openlibrary.org/works/OL4960035W"
+}

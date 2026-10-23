@@ -1,0 +1,79 @@
+{
+  "index": 396,
+  "title": "Land of Lisp",
+  "url": "https://openlibrary.org/search.json?isbn=1593272812&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:33.801Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Conrad Barski"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "1593272006",
+          "9781593272005",
+          "9781593272814",
+          "9781593273491",
+          "1593273495",
+          "1593272812"
+        ],
+        "key": "/works/OL16807102W",
+        "language": [
+          "eng"
+        ],
+        "title": "Land of Lisp"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "computer programming",
+      "lisp",
+      "progamming",
+      "Computer games",
+      "COMMON LISP (Computer program language)",
+      "Programming",
+      "LISP (Computer program language)",
+      "Computer games, programming",
+      "Programming languages (electronic computers)",
+      "Lisp (computer program language)"
+    ],
+    "key": "/works/OL16807102W",
+    "title": "Land of Lisp",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL7170939A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      7262193
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2013-09-21T18:10:37.326318"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-03-20T10:14:15.529549"
+    }
+  }
+}

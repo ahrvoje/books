@@ -1,0 +1,82 @@
+{
+  "index": 336,
+  "title": "Stairway Walks in San Francisco",
+  "url": "https://openlibrary.org/search.json?isbn=0899976379&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:54.473Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Adah Bakalinsky"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "1643590146",
+          "0899976379",
+          "9780899976372",
+          "9781643590141"
+        ],
+        "key": "/works/OL19944160W",
+        "language": [
+          "eng"
+        ],
+        "title": "Stairway walks in San Francisco"
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      9209707
+    ],
+    "key": "/works/OL19944160W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL656349A"
+        }
+      }
+    ],
+    "title": "Stairway walks in San Francisco",
+    "subject_places": [
+      "San Francisco",
+      "California",
+      "San Francisco (Calif.)"
+    ],
+    "subjects": [
+      "Guidebooks",
+      "Walking",
+      "Stairs",
+      "Tours",
+      "San francisco (calif.), description and travel",
+      "San francisco (calif.), guidebooks"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "\"Hundreds of stairways traverse San Francisco’s 42 hills, exposing incredible vistas while connecting colorful, unique neighborhoods, and veteran guide Adah Bakalinsky loves them all. Her updated Stairway Walks in San Francisco explores clandestine corridors from Lands End to Bernal Heights while sharing captivating architectural, historical, pop culture, and horticultural notes along the way. Long-term locals and tourists alike have used the book for over 25 years to adventurously uncover San Francisco’s unexpected details. This revised and expanded edition has been thoroughly updated and includes three additional walks, new maps, and new color photographs. A comprehensive appendix lists every one of the city's 600-plus public stairways.\"--Publisher's description."
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-16T21:21:19.065208"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-06-10T12:18:41.588586"
+    }
+  }
+}

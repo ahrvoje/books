@@ -1,0 +1,91 @@
+{
+  "index": 604,
+  "title": "The Depths of Space: The Story of the Pioneer Planetary Probes",
+  "url": "https://openlibrary.org/search.json?title=The%20Depths%20of%20Space%3A%20The%20Story%20of%20the%20Pioneer%20Planetary%20Probes&author=Mark%20Wolverton&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:47.450Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Mark Wolverton"
+        ],
+        "first_publish_year": 2004,
+        "isbn": [
+          "9780309197274",
+          "0309167795",
+          "9780309167796",
+          "0309533236",
+          "0309090504",
+          "9780309533232",
+          "0309197279",
+          "9780309090506"
+        ],
+        "key": "/works/OL8454907W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Depths of Space"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=The%20Depths%20of%20Space&author=Mark%20Wolverton&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "subjects": [
+      "Jupiter probes",
+      "Exploration",
+      "Pioneer Project",
+      "Space flight to Jupiter",
+      "Space flight",
+      "Jupiter (planet)"
+    ],
+    "key": "/works/OL8454907W",
+    "title": "The Depths of Space",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2821136A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      169125
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:48:55.031115"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-09-17T06:23:19.483405"
+    }
+  }
+}

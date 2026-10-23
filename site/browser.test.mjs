@@ -61,7 +61,9 @@ try {
   await page.locator('[data-page="vetoed"]').click();
   assert.equal(await page.locator('#vetoed-list tr[data-veto-book]').count(),expected.vetoed.length);
   assert.equal(await page.locator('#vetoed-list .score').first().textContent(),expected.vetoed[0].score);
-  assert.deepEqual(await page.locator('#vetoed-list tr[data-veto-book]').evaluateAll(rows=>rows.map(r=>r.children[3].textContent)),expected.vetoed.map(b=>String(b.edition?.pages ?? 'Unknown')));
+  assert.deepEqual(await page.locator('#vetoed-list tr[data-veto-book]').evaluateAll(rows=>rows.map(r=>[3,4,5,8].map(i=>r.children[i].textContent))),expected.vetoed.map(b=>[b.edition?.pages ?? '—',b.referencePages.pages ?? '—',b.amazon.count ?? '—',b.sourceCount].map(String)));
+  assert.equal(await page.locator('#vetoed-list td a').count(),0);
+  assert(await page.locator('#vetoed-list .veto-meta').evaluateAll(cells=>cells.every(c=>c.textContent!=='Unknown')));
   assert.equal(await page.locator('.control-shell').isVisible(),false);
   assert.equal(await page.locator('#book-toolbar').isVisible(),false);
   await page.locator('[data-veto-details]').first().click();
@@ -74,6 +76,7 @@ try {
   await page.screenshot({path:path.join(out,'vetoed-phone.png')});
   await page.locator('[data-page="excluded"]').click();
   assert.equal(await page.locator('#excluded-list li').count(),expected.excluded.length);
+  assert.deepEqual(await page.locator('#excluded-list section').evaluateAll(groups=>groups.map(g=>({heading:g.querySelector('h3').textContent,books:[...g.querySelectorAll('li')].map(li=>li.textContent)}))),expected.excludedGroups.map(g=>({heading:`${g.name} (${g.books.length})`,books:g.books})));
   assert.equal(await page.locator('#excluded-view .score,#excluded-view input').count(),0);
   await page.screenshot({path:path.join(out,'excluded-phone.png')});
   await page.locator('[data-page="sources"]').click();
@@ -133,6 +136,8 @@ try {
   await page.waitForFunction(()=>!document.querySelector('#apply').disabled);
   await page.locator('#apply').click();
   await page.locator('[data-panel="filters"]').click();
+  assert.match(await page.locator('[data-variable="E"] .raw-guidance').textContent(),/0–20 attainment points/);
+  assert.match(await page.locator('[data-variable="O15"] .raw-guidance').textContent(),/no fixed upper limit/);
   await page.locator('[data-variable="SRC"] summary').click();
   await page.locator('[data-path="filters.SRC.enabled"]').check();
   await page.locator('[data-path="filters.SRC.min"]').fill('3');
@@ -141,6 +146,8 @@ try {
   assert.notEqual(await page.locator('#filtered-count').textContent(), '0');
   assert.equal(await page.locator('tr[data-book]').count(),bookCount);
   await page.locator('[data-panel="scoring"]').click();
+  assert.match(await page.locator('[data-variable="S"] .raw-guidance').textContent(),/0–17 attainment points/);
+  assert.match(await page.locator('[data-variable="PG"] .raw-guidance').textContent(),/no fixed upper limit/);
   await page.locator('[data-variable="PG"] summary').click();
   await page.locator('[data-path="terms.PG.enabled"]').check();
   await page.locator('[data-path="terms.PG.mode"]').selectOption('rate');

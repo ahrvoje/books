@@ -1,0 +1,83 @@
+{
+  "index": 123,
+  "title": "The Sea Ranch",
+  "url": "https://openlibrary.org/search.json?isbn=1616891777&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:57:07.189Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Donlyn Lyndon"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "9781616891770",
+          "1616891777"
+        ],
+        "key": "/works/OL19976179W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Sea Ranch"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "\"One hundred miles north of San Francisco, the Sonoma County coast meets the Pacific Ocean in a magnificent display of nature. This is the location of the Sea Ranch, an area covering several thousand acres of large, open meadows and forested natural settings and interspersed with award-winning architecture. The ecologically inspired plan drawn up for the Sea Ranch in the mid-1960s caused a quiet revolution in architecture. Renowned landscape designer Lawrence Halprin's master plan incorporated a set of building guidelines that structured the visual, as well as physical, impact upon the landscape. Subsequent buildings by architects such as Joseph Esherick, Charles Willard Moore, Donlyn Lyndon, and William Turnbull have been recognized worldwide for their remarkable environmental sensitivity. This revised and updated edition of the now-classic monograph, the only one on the Sea Ranch, contains eleven additional projects and an updated account of the ongoing development process and land-management issues\"--"
+    },
+    "title": "The Sea Ranch",
+    "subject_places": [
+      "California",
+      "Sea Ranch (Calif.)",
+      "Sea Ranch"
+    ],
+    "subjects": [
+      "Architecture",
+      "Planned communities",
+      "History",
+      "Architecture, united states",
+      "Architecture, environmental aspects",
+      "City planning, united states",
+      "ARCHITECTURE / Regional",
+      "Regional",
+      "Environmental aspects"
+    ],
+    "key": "/works/OL19976179W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL586025A"
+        }
+      }
+    ],
+    "subject_times": [
+      "20th century"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-18T10:27:06.213313"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-07-10T11:37:10.554495"
+    }
+  }
+}

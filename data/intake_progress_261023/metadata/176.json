@@ -1,0 +1,97 @@
+{
+  "index": 176,
+  "title": "Wooden",
+  "url": "https://openlibrary.org/search.json?isbn=0809230410&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:57:41.809Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John R. Wooden",
+          "John Wooden"
+        ],
+        "first_publish_year": 1997,
+        "isbn": [
+          "1932378472",
+          "9780809230419",
+          "0809230410",
+          "9781932378467",
+          "9781932378474",
+          "1932378464"
+        ],
+        "key": "/works/OL682796W",
+        "language": [
+          "eng"
+        ],
+        "title": "Wooden"
+      }
+    ]
+  },
+  "work": {
+    "subtitle": "a lifetime of observations and reflections on and off the court",
+    "title": "Wooden",
+    "covers": [
+      593983,
+      2125181
+    ],
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Basketball coaches",
+      "Biography",
+      "Coaching (Athletics)",
+      "Conduct of life",
+      "Philosophy",
+      "Wooden, john r., 1910-2010",
+      "Basketball, biography"
+    ],
+    "subject_people": [
+      "John R. Wooden"
+    ],
+    "key": "/works/OL682796W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL53651A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2637309A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "The former basketball coach at UCLA shares his personal philosophy on family, achievement, success, and excellence."
+    },
+    "latest_revision": 10,
+    "revision": 10,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T01:17:06.473895"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-11-23T08:08:42.730783"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "index": 65,
+  "title": "Metals, Energy and Sustainability: The Story of Doctor Copper and King Coal",
+  "url": "https://openlibrary.org/search.json?title=Metals%2C%20Energy%20and%20Sustainability%3A%20The%20Story%20of%20Doctor%20Copper%20and%20King%20Coal&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:33.032Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Barry Golding",
+          "Suzanne D. Golding"
+        ],
+        "first_publish_year": 2017,
+        "isbn": [
+          "9783319511733",
+          "9783319845869",
+          "3319511734",
+          "3319845861"
+        ],
+        "key": "/works/OL20727367W",
+        "title": "Metals, Energy and Sustainability"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Metals%2C%20Energy%20and%20Sustainability&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-05-11T17:42:18.928982"
+    },
+    "subjects": [
+      "Coal mines and mining",
+      "Copper mines and mining"
+    ],
+    "latest_revision": 2,
+    "key": "/works/OL20727367W",
+    "title": "Metals, Energy and Sustainability",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7883362A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7883363A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-05T14:30:20.363741"
+    },
+    "covers": [
+      9412463
+    ],
+    "revision": 2
+  }
+}

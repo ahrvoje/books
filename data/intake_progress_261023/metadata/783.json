@@ -1,0 +1,73 @@
+{
+  "index": 783,
+  "title": "Upstart",
+  "url": "https://openlibrary.org/search.json?isbn=1848891237&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:26:16.436Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Edward M. Walsh"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "9781848891234",
+          "1848891237"
+        ],
+        "key": "/works/OL23316441W",
+        "language": [
+          "eng"
+        ],
+        "title": "Upstart"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "Ed Walsh returned to Ireland in 1970 to blunder into setting up an institute of education. He found a decaying mansion on a riverside site, gathered talented young people and secured funding from the World Bank and European Investment Bank to build what became the University of Limerick. Along the way, Ed made powerful enemies as he challenged official cant, traditional academics and clerical humbug. This is an inspiring, frank and often funny memoir by a passionate educational leader."
+    },
+    "key": "/works/OL23316441W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2102403A"
+        }
+      }
+    ],
+    "title": "Upstart",
+    "subjects": [
+      "History",
+      "Biography",
+      "University of Limerick",
+      "Universities and colleges, ireland"
+    ],
+    "subject_people": [
+      "Edward M. Walsh"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-11-14T06:23:58.184147"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-07-17T14:50:18.316509"
+    }
+  }
+}

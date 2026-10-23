@@ -1,0 +1,87 @@
+{
+  "index": 349,
+  "title": "Bicycle Design",
+  "url": "https://openlibrary.org/search.json?isbn=0262026759&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:03.689Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Tony Hadland",
+          "Hans-Erhard Lessing"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "026252970X",
+          "9780262529709",
+          "0262026759",
+          "9780262026758"
+        ],
+        "key": "/works/OL19988820W",
+        "language": [
+          "eng"
+        ],
+        "title": "Bicycle design - An Illustrated History"
+      }
+    ]
+  },
+  "work": {
+    "description": "\"The bicycle ranks as one of the most enduring, most widely used vehicles in the world, with more than a billion produced during almost two hundred years of cycling history. This book offers an authoritative and comprehensive account of the bicycle's technical and historical evolution, from the earliest velocipedes (invented to fill the need for horseless transport during a shortage of oats) to modern racing bikes, mountain bikes, and recumbents. It traces the bicycle's development in terms of materials, ergonomics, and vehicle physics, as carried out by inventors, entrepreneurs, and manufacturers.\"-- book jacket.",
+    "title": "Bicycle design - An Illustrated History",
+    "covers": [
+      9023401
+    ],
+    "subjects": [
+      "Design and construction",
+      "Bicycles",
+      "Parts",
+      "History",
+      "Java (computer program language)",
+      "Bicycles / Design and construction / History",
+      "Bicycles / Parts / History"
+    ],
+    "key": "/works/OL19988820W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2985899A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL4000082A"
+        }
+      }
+    ],
+    "subject_times": [
+      "19th to 21st century"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-18T16:32:30.350596"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-07T11:21:34.857988"
+    }
+  }
+}

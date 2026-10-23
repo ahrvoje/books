@@ -1,0 +1,100 @@
+{
+  "index": 684,
+  "title": "Exactly: How Precision Engineers Created the Modern World",
+  "url": "https://openlibrary.org/search.json?title=Exactly%3A%20How%20Precision%20Engineers%20Created%20the%20Modern%20World&author=Winchester%2C%20S.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:16.358Z",
+  "status": 200,
+  "search": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Simon Winchester"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "9780008241780",
+          "0008241783"
+        ],
+        "key": "/works/OL21164571W",
+        "title": "Exactly"
+      },
+      {
+        "author_name": [
+          "Simon Winchester"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "9780008241766",
+          "0008241767"
+        ],
+        "key": "/works/OL19351310W",
+        "title": "Exactly: How Precision Engineers Created the Modern World"
+      },
+      {
+        "author_name": [
+          "Winchester Simon"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "9780008241773",
+          "0008241775"
+        ],
+        "key": "/works/OL24572693W",
+        "title": "Exactly"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Exactly&author=Winchester&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "subjects": [
+      "Engineering",
+      "Engineers"
+    ],
+    "subtitle": "How Precision Engineers Created the Modern World",
+    "key": "/works/OL21164571W",
+    "title": "Exactly",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL220363A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-09T10:05:17.752869"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-11-02T07:34:06.459090"
+    }
+  }
+}

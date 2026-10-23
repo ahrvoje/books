@@ -1,0 +1,69 @@
+{
+  "index": 204,
+  "title": "Make Better Landings",
+  "url": "https://openlibrary.org/search.json?isbn=0442213085&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:58:00.151Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Alan Ellesmere Bramson"
+        ],
+        "first_publish_year": 1982,
+        "isbn": [
+          "0711019525",
+          "9780442213084",
+          "0442213085",
+          "9780711019522"
+        ],
+        "key": "/works/OL5606645W",
+        "language": [
+          "eng"
+        ],
+        "title": "Make Better Landings"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T10:45:08.605643"
+    },
+    "subjects": [
+      "Airplanes",
+      "Landing"
+    ],
+    "latest_revision": 5,
+    "key": "/works/OL5606645W",
+    "title": "Make Better Landings",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1350498A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-02-28T18:57:42.088466"
+    },
+    "covers": [
+      5905365
+    ],
+    "revision": 5
+  }
+}

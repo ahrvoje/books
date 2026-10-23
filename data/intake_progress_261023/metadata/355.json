@@ -1,0 +1,95 @@
+{
+  "index": 355,
+  "title": "Mathematics",
+  "url": "https://openlibrary.org/search.json?isbn=0486409163&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:07.206Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Andrei Nikolaevich Kolmogorov",
+          "M. A. Lavrentʹev",
+          "A.D Alexsandrov"
+        ],
+        "first_publish_year": 1962,
+        "isbn": [
+          "9780880294805",
+          "9780262510059",
+          "0880294809",
+          "0486409163",
+          "9780486409160",
+          "0262510057"
+        ],
+        "key": "/works/OL15393360W",
+        "language": [
+          "eng"
+        ],
+        "title": "Mathematics"
+      }
+    ]
+  },
+  "work": {
+    "subtitle": "It's Content, Methods and Meaning",
+    "description": {
+      "type": "/type/text",
+      "value": "An overview of concepts and areas of research in the field of Mathematics, for a general audience."
+    },
+    "title": "Mathematics",
+    "covers": [
+      7391009
+    ],
+    "subjects": [
+      "Textbooks",
+      "Mathematics",
+      "Mathematics textbooks"
+    ],
+    "key": "/works/OL15393360W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL349766A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6842064A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6410199A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 10,
+    "revision": 10,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-10-01T18:31:35.112277"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-04-16T12:24:06.892705"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "index": 12,
+  "title": "Stuff: The Materials the World Is Made Of",
+  "url": "https://openlibrary.org/search.json?title=Stuff%3A%20The%20Materials%20the%20World%20Is%20Made%20Of&author=Ivan%20Amato&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:10.512Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ivan Amato"
+        ],
+        "first_publish_year": 1997,
+        "isbn": [
+          "9780465083282",
+          "0380731533",
+          "9780380731534",
+          "0465083285"
+        ],
+        "key": "/works/OL2183891W",
+        "language": [
+          "eng"
+        ],
+        "title": "Stuff"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Stuff&author=Ivan%20Amato&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "first_publish_date": "1997",
+    "title": "Stuff",
+    "covers": [
+      299186
+    ],
+    "lc_classifications": [
+      "TA403.2 .A48 1997"
+    ],
+    "key": "/works/OL2183891W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL276998A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "dewey_number": [
+      "620.1/1"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Materials",
+      "Popular works",
+      "High technology",
+      "New York Times reviewed",
+      "Long Now Manual for Civilization"
+    ],
+    "links": [
+      {
+        "title": "New York Times review",
+        "url": "http://www.nytimes.com/1997/08/17/books/material-world.html",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "From plastics to smart materials to never-before-seen composites, scientists have transformed the raw materials of the wilderness into the stuff of the modern world. Now, award-winning journalist Ivan Amato explores this fascinating science.\r\n\r\nMuch more than a history of the material sciences, Stuff brims with interviews with cutting-edge experts in the field, many of whom are building new materials literally atom by atom, and describes such astounding achievements as artificial diamonds created from peanut butter and how nanotechnologists are building new-age, state-of-the-art machines no thicker than a few hundred atoms.\r\n\r\nCompelling and informative, it gives readers a marvelous glimpse into the modern world of technology and the smart materials that are at the forefront of tomorrow's breakthroughs in computers, military weaponry, electronics, and more."
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T23:05:46.880168"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-03-21T22:54:57.121538"
+    }
+  }
+}

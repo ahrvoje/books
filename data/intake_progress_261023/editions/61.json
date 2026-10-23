@@ -1,0 +1,79 @@
+{
+  "index": 61,
+  "title": "Still the Iron Age",
+  "retrievedAt": "2026-10-23T19:24:01.666Z",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/works/OL21123829W/editions.json?limit=100",
+      "status": 200
+    },
+    {
+      "url": "https://www.amazon.de/dp/0128042354",
+      "status": 200,
+      "title": "Amazon.de",
+      "countText": null,
+      "globalText": null,
+      "sha256": "82470d13b048267aabd21bbf2cf1e15fa2d746cbb75bdeace3d65c1065295631",
+      "bytes": 3815
+    },
+    {
+      "url": "https://www.amazon.com/dp/0128042354",
+      "status": 200,
+      "title": "Amazon.com",
+      "countText": null,
+      "globalText": null,
+      "sha256": "f7ab109e41bc6c27a3a3889010319026ddf854aa08585a24b11656d4b1567e0f",
+      "bytes": 3781
+    }
+  ],
+  "edition": {
+    "type": {
+      "key": "/type/edition"
+    },
+    "authors": [
+      {
+        "key": "/authors/OL222057A"
+      }
+    ],
+    "isbn_13": [
+      "9780128042359"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "number_of_pages": 280,
+    "publish_date": "2016",
+    "publishers": [
+      "Elsevier Science & Technology Books"
+    ],
+    "source_records": [
+      "bwb:9780128042359"
+    ],
+    "subjects": [
+      "Iron, metallurgy",
+      "Steel, metallurgy"
+    ],
+    "title": "Still the Iron Age",
+    "subtitle": "Iron and Steel in the Modern World",
+    "full_title": "Still the Iron Age Iron and Steel in the Modern World",
+    "works": [
+      {
+        "key": "/works/OL21123829W"
+      }
+    ],
+    "key": "/books/OL34517747M",
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-10-05T14:12:53.893492"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-23T14:01:25.558509"
+    }
+  },
+  "work": "https://openlibrary.org/works/OL21123829W"
+}

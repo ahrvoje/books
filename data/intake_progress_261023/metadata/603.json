@@ -1,0 +1,96 @@
+{
+  "index": 603,
+  "title": "A Life in Twilight: The Final Years of J. Robert Oppenheimer",
+  "url": "https://openlibrary.org/search.json?title=A%20Life%20in%20Twilight%3A%20The%20Final%20Years%20of%20J.%20Robert%20Oppenheimer&author=Mark%20Wolverton&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:47.355Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Mark Wolverton"
+        ],
+        "first_publish_year": 2008,
+        "isbn": [
+          "0312374402",
+          "1429953284",
+          "9781429953283",
+          "9780312374402"
+        ],
+        "key": "/works/OL8454908W",
+        "language": [
+          "eng"
+        ],
+        "title": "A life in twilight"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=A%20Life%20in%20Twilight&author=Mark%20Wolverton&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "A life in twilight",
+    "covers": [
+      8089725
+    ],
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Biography",
+      "Last years",
+      "Physicists",
+      "Oppenheimer, j. robert, 1904-1967",
+      "Physicists, biography"
+    ],
+    "subject_people": [
+      "J. Robert Oppenheimer (1904-1967)"
+    ],
+    "key": "/works/OL8454908W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2821136A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "\"A Life in Twilight reveals the least-known and most enigmatic period of J. Robert Oppenheimer's life, from the public humiliation he endured after the 1954 Atomic Energy Commission's investigation into his alleged communist leanings and connections, to his death in 1967. It covers Oppenheimer's continued work as a scientist and philosopher and head of the Institute for Advanced Study in Princeton, and his often controversial public appearances, as well as parts of his private life.\" \"What emerges is a portrait of a man known to many as the \"father of the atomic bomb\"--Who was toppled from the highest echelons of politics and society, and then had to see his honor and name blackened, but succeeded in maintaining his dignity and rebuilding a shattered life, although he never truly recovered from the McCarthy-inspired persecution he suffered. Previously unpublished FBI files fill out the picture and cast a sinister cloud over Oppenheimer's final years, during which he remained under occasional surveillance.\"--Jacket."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:48:55.031115"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-10-27T23:44:24.750652"
+    }
+  }
+}

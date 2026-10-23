@@ -1,0 +1,86 @@
+{
+  "index": 249,
+  "title": "How to Abandon Ship",
+  "url": "https://openlibrary.org/search.json?isbn=0870333887&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:58:29.461Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Richards, Phil",
+          "Banigan, John J."
+        ],
+        "first_publish_year": 1942,
+        "isbn": [
+          "194482412X",
+          "9781944824129",
+          "1944824073",
+          "9780870333880",
+          "0870333887",
+          "9781944824075"
+        ],
+        "key": "/works/OL4630678W",
+        "language": [
+          "eng"
+        ],
+        "title": "How to abandon ship"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T07:00:53.764238"
+    },
+    "subjects": [
+      "Abandoning of",
+      "Lifesaving",
+      "Navigation",
+      "Ships",
+      "Shipwrecks",
+      "Survival after airplane accidents, shipwrecks",
+      "Shipwreck survival",
+      "Survival after airplane accidents, shipwrecks, etc., handbooks, manuals, etc."
+    ],
+    "latest_revision": 7,
+    "key": "/works/OL4630678W",
+    "title": "How to abandon ship",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7275780A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7275781A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-10-11T06:39:27.572025"
+    },
+    "covers": [
+      1617094
+    ],
+    "revision": 7
+  }
+}

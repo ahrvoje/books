@@ -1,0 +1,128 @@
+{
+  "index": 265,
+  "title": "Say Again, Please",
+  "url": "https://openlibrary.org/search.json?isbn=1560277602&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:58:47.815Z",
+  "status": 200,
+  "search": {
+    "numFound": 8,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 8,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Bob Gardner"
+        ],
+        "first_publish_year": 1995,
+        "isbn": [
+          "9781560274285",
+          "156027428X",
+          "1619547740",
+          "1619540894",
+          "9781619547742",
+          "9781560275732",
+          "1560272244",
+          "1644252937",
+          "9781619540897",
+          "161954881X",
+          "1560275731",
+          "9781560272243",
+          "9781619548817",
+          "9781644252932"
+        ],
+        "key": "/works/OL8859436W",
+        "language": [
+          "eng"
+        ],
+        "title": "Say Again, Please"
+      },
+      {
+        "author_name": [
+          "Robert E. Gardner"
+        ],
+        "first_publish_year": 1995,
+        "isbn": [
+          "1560275731",
+          "9781560272243",
+          "1560272244",
+          "9781560275732"
+        ],
+        "key": "/works/OL2932160W",
+        "language": [
+          "eng"
+        ],
+        "title": "Say again, please"
+      },
+      {
+        "author_name": [
+          "Thomas H. Bradford"
+        ],
+        "first_publish_year": 1991,
+        "isbn": [
+          "0963073850",
+          "9780963073846",
+          "9780963073853",
+          "0963073893",
+          "9780963073891",
+          "0963073842"
+        ],
+        "key": "/works/OL8799141W",
+        "language": [
+          "eng"
+        ],
+        "title": "Say That Again, Please!"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Say%20Again%2C%20Please&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T23:26:21.492878"
+    },
+    "subjects": [
+      "Radio in aeronautics"
+    ],
+    "latest_revision": 4,
+    "key": "/works/OL8859436W",
+    "title": "Say Again, Please",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3042088A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-10-10T13:03:21.742103"
+    },
+    "covers": [
+      789991
+    ],
+    "revision": 4
+  }
+}

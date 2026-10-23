@@ -1,0 +1,73 @@
+{
+  "index": 406,
+  "title": "The Lives of the Poets",
+  "url": "https://openlibrary.org/search.json?isbn=0199226741&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:40.159Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Samuel Johnson"
+        ],
+        "first_publish_year": 2009,
+        "isbn": [
+          "9780199226740",
+          "0199226741"
+        ],
+        "key": "/works/OL16935904W",
+        "language": [
+          "eng"
+        ],
+        "title": "The lives of the poets"
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      8688872
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-01T23:10:34.374519"
+    },
+    "latest_revision": 3,
+    "key": "/works/OL16935904W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL21070A"
+        }
+      }
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2014-07-28T20:32:57.391532"
+    },
+    "title": "The lives of the poets",
+    "subjects": [
+      "English Poets",
+      "History and criticism",
+      "Biography",
+      "Johnson, samuel, 1709-1784"
+    ],
+    "subject_times": [
+      "Early modern, 1500-1700",
+      "18th century"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 3
+  }
+}

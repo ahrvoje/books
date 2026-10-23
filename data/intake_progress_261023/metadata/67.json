@@ -1,0 +1,82 @@
+{
+  "index": 67,
+  "title": "Natural Gas: Fuel for the 21st Century",
+  "url": "https://openlibrary.org/search.json?title=Natural%20Gas%3A%20Fuel%20for%20the%2021st%20Century&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:34.130Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "first_publish_year": 2015,
+        "isbn": [
+          "9781119012849",
+          "1119012848",
+          "1119012864",
+          "9781119012863",
+          "9781119012856",
+          "1119012856"
+        ],
+        "key": "/works/OL21577479W",
+        "language": [
+          "eng"
+        ],
+        "title": "Natural Gas"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Natural%20Gas&author=Smil&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "Natural Gas",
+    "subjects": [
+      "Natural gas",
+      "Gas as fuel"
+    ],
+    "key": "/works/OL21577479W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL222057A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-24T06:34:54.195103"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-11-24T18:15:33.478905"
+    }
+  }
+}

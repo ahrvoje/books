@@ -1,0 +1,76 @@
+{
+  "index": 224,
+  "title": "Artful Sentences",
+  "url": "https://openlibrary.org/search.json?isbn=0961392185&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:58:13.883Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Virginia Tufte"
+        ],
+        "first_publish_year": 2006,
+        "isbn": [
+          "0961392185",
+          "9780961392185"
+        ],
+        "key": "/works/OL162054W",
+        "language": [
+          "eng"
+        ],
+        "title": "Artful Sentences"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "\"...  Neither a composition handbook nor a history of rhetoric nor an exposition of other critics' syntactic theories, Tufte's book lays out the author's own very special understanding of how sentences work and what they can do. Tufte's knowledge of literature is so far-reaching that her examples are always apposite and surprising. And her recognition that syntax is itself symbolic makes this a pivotal book for all who write.  ...\" -- Marjorie Perloff  (From the back cover.)"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2014-07-29T13:31:01.760660"
+    },
+    "title": "Artful Sentences",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-10-20T06:37:26.376002"
+    },
+    "covers": [
+      1690377
+    ],
+    "first_publish_date": "2006",
+    "latest_revision": 5,
+    "key": "/works/OL162054W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2123403A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Rhetoric",
+      "Sentences",
+      "Authorship",
+      "Creative writing",
+      "Style",
+      "English language"
+    ],
+    "revision": 5
+  }
+}

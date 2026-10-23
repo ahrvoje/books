@@ -1,0 +1,57 @@
+{
+  "index": 275,
+  "title": "n+1 Number Thirteen",
+  "url": "https://openlibrary.org/search.json?isbn=0982597754&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:58:58.808Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "n+1"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "9780982597750",
+          "0982597754"
+        ],
+        "key": "/works/OL35978859W",
+        "title": "N+1 Issue 13"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "N+1 Issue 13",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL12985452A"
+        }
+      }
+    ],
+    "key": "/works/OL35978859W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2023-06-22T01:07:40.173402"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-06-22T01:07:40.173402"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "index": 641,
+  "title": "Tennant’s Stalk: The Story of the Tennants of the Glen",
+  "url": "https://openlibrary.org/search.json?title=Tennant%E2%80%99s%20Stalk%3A%20The%20Story%20of%20the%20Tennants%20of%20the%20Glen&author=Crathorne%2C%20N.%2C%20Eliot%20(Baroness%20of%20Harwood)%2C%20K.%20and%20Dugdale%2C%20J.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:01.498Z",
+  "status": 200,
+  "search": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Crathorne, Nancy Dugdale Baroness"
+        ],
+        "first_publish_year": 1973,
+        "isbn": [
+          "0333138201",
+          "9780333138205"
+        ],
+        "key": "/works/OL9413785W",
+        "title": "Tennant's Stalk"
+      },
+      {
+        "author_name": [
+          "Crathorne, Nancy Dugdale Baroness"
+        ],
+        "first_publish_year": 1973,
+        "isbn": [
+          "0333133201"
+        ],
+        "key": "/works/OL7222940W",
+        "language": [
+          "eng"
+        ],
+        "title": "Tennant's Stalk"
+      },
+      {
+        "author_name": [
+          "Crathorne, Nancy Dugdale Baroness"
+        ],
+        "key": "/works/OL13716339W",
+        "language": [
+          "eng"
+        ],
+        "title": "Tennant's Stalk"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Tennant%E2%80%99s%20Stalk&author=Crathorne&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "Tennant's Stalk",
+    "key": "/works/OL9413785W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2081592A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      10810190
+    ],
+    "subjects": [
+      "Scotland, genealogy"
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T00:28:43.695115"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-17T05:44:54.094804"
+    }
+  }
+}

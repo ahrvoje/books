@@ -1,0 +1,102 @@
+{
+  "index": 19,
+  "title": "Nanofuture: What's Next For Nanotechnology",
+  "url": "https://openlibrary.org/search.json?title=Nanofuture%3A%20What's%20Next%20For%20Nanotechnology&author=J.%20Storrs%20Hall&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:12.074Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "J. Storrs Hall"
+        ],
+        "first_publish_year": 2005,
+        "isbn": [
+          "9781591022879",
+          "1591022878"
+        ],
+        "key": "/works/OL8978487W",
+        "language": [
+          "eng"
+        ],
+        "title": "Nanofuture"
+      },
+      {
+        "author_name": [
+          "J. Storrs Hall"
+        ],
+        "first_publish_year": 2006,
+        "isbn": [
+          "1615921001",
+          "9781615921003",
+          "8170493102",
+          "9788170493105"
+        ],
+        "key": "/works/OL10229787W",
+        "language": [
+          "eng"
+        ],
+        "title": "Nanofuture"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Nanofuture&author=J.%20Storrs%20Hall&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "subjects": [
+      "Nanotechnology",
+      "Trends"
+    ],
+    "key": "/works/OL8978487W",
+    "title": "Nanofuture",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3117031A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      862462
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Flying cars, space travel for everyone, the elimination of poverty and hunger, and powerful new tools to combat disease and even fight aging - these are some of the amazing predicted developments of nanotechnology, the emerging science of designing and building machines at the molecular and atomic levels. [In this book, the author] explains how nanotechnology will make possible many of the science fiction dreams of the past. [In the book, he also] analyzes the benefits as well as the potential risks.-Dust jacket."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T23:37:38.570545"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-04-02T10:53:32.788147"
+    }
+  }
+}

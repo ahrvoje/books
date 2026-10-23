@@ -1,0 +1,72 @@
+{
+  "index": 325,
+  "title": "Future Shop",
+  "url": "https://openlibrary.org/search.json?isbn=0312063598&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:47.482Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jim Snider"
+        ],
+        "first_publish_year": 1992,
+        "isbn": [
+          "9780312063597",
+          "0312063598"
+        ],
+        "key": "/works/OL4461271W",
+        "language": [
+          "eng"
+        ],
+        "title": "Future shop"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Consumer education",
+      "Teleshopping",
+      "Shopping"
+    ],
+    "key": "/works/OL4461271W",
+    "title": "Future shop",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL889294A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8013337
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Terra Ziporyn is an ETHS alumna, class of 1976."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T06:26:06.245961"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-01-22T09:14:58.109068"
+    }
+  }
+}

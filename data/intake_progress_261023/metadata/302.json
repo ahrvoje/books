@@ -1,0 +1,70 @@
+{
+  "index": 302,
+  "title": "North Star over My Shoulder",
+  "url": "https://openlibrary.org/search.json?isbn=0743262301&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:27.146Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Bob Buck"
+        ],
+        "first_publish_year": 2002,
+        "isbn": [
+          "9780743219648",
+          "0743227662",
+          "0743262301",
+          "9780743262309",
+          "9780743227667",
+          "0743219643"
+        ],
+        "key": "/works/OL8443050W",
+        "language": [
+          "eng"
+        ],
+        "title": "North Star over My Shoulder"
+      }
+    ]
+  },
+  "work": {
+    "title": "North Star over My Shoulder",
+    "covers": [
+      474337
+    ],
+    "key": "/works/OL8443050W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2814839A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Aeronautics, history"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:47:55.903938"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-12-29T01:05:57.481972"
+    }
+  }
+}

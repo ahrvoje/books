@@ -1,0 +1,105 @@
+{
+  "index": 505,
+  "title": "The National Parks",
+  "url": "https://openlibrary.org/search.json?isbn=0307268969&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:01:45.951Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Dayton Duncan"
+        ],
+        "first_publish_year": 2009,
+        "isbn": [
+          "0307268969",
+          "0739366327",
+          "9780739366325",
+          "9780375712104",
+          "9780307268969",
+          "0375712100"
+        ],
+        "key": "/works/OL2770608W",
+        "language": [
+          "eng"
+        ],
+        "title": "The national parks"
+      },
+      {
+        "first_publish_year": 2009,
+        "isbn": [
+          "0307268969",
+          "9780307268969"
+        ],
+        "key": "/works/OL17030168W",
+        "language": [
+          "eng"
+        ],
+        "title": "The national parks"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "2009",
+    "title": "The national parks",
+    "covers": [
+      6308949
+    ],
+    "lc_classifications": [
+      "SB482.A4 D85 2009"
+    ],
+    "key": "/works/OL2770608W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL407732A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "333.78/30973"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "United States",
+      "United States. National Park Service",
+      "Nationalpark",
+      "Nature conservation",
+      "Interviews",
+      "Local History",
+      "National parks and reserves",
+      "Pictorial works",
+      "History",
+      "nyt:hardcover-nonfiction=2009-10-18",
+      "New York Times bestseller",
+      "National parks and reserves, united states",
+      "United states, history, local"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "In this evocative and lavishly illustrated narrative, Ken Burns and Dayton Duncan delve into the history of the park idea, from the first sighting by white men in 1851 of the valley that would become Yosemite and the creation of the world's first national park at Yellowstone in 1872, through the most recent additions to a system that now encompasses nearly four hundred sites and 84 million acres."
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T00:23:14.285392"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-01-17T15:28:02.999925"
+    }
+  }
+}

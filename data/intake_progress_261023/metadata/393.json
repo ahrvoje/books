@@ -1,0 +1,88 @@
+{
+  "index": 393,
+  "title": "The Little Airplane",
+  "url": "https://openlibrary.org/search.json?isbn=037581079X&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:31.835Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Lois Lenski"
+        ],
+        "first_publish_year": 1938,
+        "isbn": [
+          "9780375810794",
+          "0809810042",
+          "9780809810048",
+          "0192795384",
+          "0385392087",
+          "9780375910791",
+          "0375910794",
+          "9780192795380",
+          "9780385392082",
+          "037581079X"
+        ],
+        "key": "/works/OL1526390W",
+        "language": [
+          "eng"
+        ],
+        "title": "The little airplane"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "Pilot Small flies his airplane over the countryside, does a loopy-loop, makes an emergency landing, and finally returns safely to the hangar."
+    },
+    "title": "The little airplane",
+    "covers": [
+      233698
+    ],
+    "first_sentence": {
+      "type": "/type/text",
+      "value": "Pilot Small has a little airplane."
+    },
+    "first_publish_date": "1938",
+    "key": "/works/OL1526390W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL162026A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Air pilots",
+      "Juvenile fiction",
+      "Fiction",
+      "Airplanes",
+      "Children's fiction",
+      "Picture books"
+    ],
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T21:47:19.775756"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-05-18T17:02:59.871556"
+    }
+  }
+}

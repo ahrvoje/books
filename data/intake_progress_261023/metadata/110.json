@@ -1,0 +1,72 @@
+{
+  "index": 110,
+  "title": "Pioneering Portfolio Management",
+  "url": "https://openlibrary.org/search.json?isbn=0684864436&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:56:58.805Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David F. Swensen"
+        ],
+        "first_publish_year": 2000,
+        "isbn": [
+          "1416544690",
+          "9780684864433",
+          "0684864436",
+          "9781416554035",
+          "1416554033",
+          "9781416544692"
+        ],
+        "key": "/works/OL8312100W",
+        "language": [
+          "eng"
+        ],
+        "title": "Pioneering Portfolio Management"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:37:49.312019"
+    },
+    "subjects": [
+      "Portfolio management",
+      "Investments"
+    ],
+    "latest_revision": 6,
+    "key": "/works/OL8312100W",
+    "title": "Pioneering Portfolio Management",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2762257A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-12-01T19:54:27.024375"
+    },
+    "covers": [
+      1786908,
+      428404
+    ],
+    "revision": 6
+  }
+}

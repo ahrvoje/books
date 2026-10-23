@@ -1,0 +1,93 @@
+{
+  "index": 17,
+  "title": "Plastic: The Making of a Synthetic Century",
+  "url": "https://openlibrary.org/search.json?title=Plastic%3A%20The%20Making%20of%20a%20Synthetic%20Century&author=Stephen%20Fenichell&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:11.444Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Stephen Fenichell"
+        ],
+        "first_publish_year": 1996,
+        "isbn": [
+          "0887307329",
+          "0887308627",
+          "9780887308628",
+          "9780887307324"
+        ],
+        "key": "/works/OL3231305W",
+        "language": [
+          "eng"
+        ],
+        "title": "Plastic"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Plastic&author=Stephen%20Fenichell&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "first_publish_date": "1996",
+    "title": "Plastic",
+    "covers": [
+      684212
+    ],
+    "lc_classifications": [
+      "TP1116 .F46 1996"
+    ],
+    "key": "/works/OL3231305W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL526390A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "668.4"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "History",
+      "Plastics",
+      "Plastics -- History",
+      "Popular culture",
+      "Plastics industry and trade"
+    ],
+    "latest_revision": 9,
+    "revision": 9,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T03:00:39.111720"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-02-26T18:23:10.041227"
+    }
+  }
+}

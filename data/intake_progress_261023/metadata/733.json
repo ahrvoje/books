@@ -1,0 +1,114 @@
+{
+  "index": 733,
+  "title": "Transforming Computer Technology: Information Processing for the Pentagon",
+  "url": "https://openlibrary.org/search.json?title=Transforming%20Computer%20Technology%3A%20Information%20Processing%20for%20the%20Pentagon&author=Arthur%20L.%20Norberg&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:43.206Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Arthur L. Norberg",
+          "Judy E. O'Neill",
+          "Kerry J. Freedman"
+        ],
+        "first_publish_year": 2000,
+        "isbn": [
+          "9780801863691",
+          "0801863694"
+        ],
+        "key": "/works/OL20988757W",
+        "language": [
+          "eng"
+        ],
+        "title": "Transforming Computer Technology"
+      },
+      {
+        "author_name": [
+          "Arthur L. Norberg"
+        ],
+        "first_publish_year": 1996,
+        "isbn": [
+          "0801851521",
+          "9780801851520"
+        ],
+        "key": "/works/OL2935100W",
+        "language": [
+          "eng"
+        ],
+        "title": "Transforming computer technology"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Transforming%20Computer%20Technology&author=Arthur%20L.%20Norberg&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-07-31T15:52:36.685422"
+    },
+    "subjects": [
+      "Computers, history",
+      "Military art and science, data processing"
+    ],
+    "latest_revision": 1,
+    "key": "/works/OL20988757W",
+    "title": "Transforming Computer Technology",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL447457A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2799314A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2799315A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-07-31T15:52:36.685422"
+    },
+    "covers": [
+      1509092
+    ],
+    "revision": 1
+  }
+}

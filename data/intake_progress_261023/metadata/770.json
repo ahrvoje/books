@@ -1,0 +1,65 @@
+{
+  "index": 770,
+  "title": "The Making of Karateka",
+  "url": "https://openlibrary.org/search.json?title=The%20Making%20of%20Karateka&author=Jordan%20Mechner&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:04:06.210Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jordan Mechner"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "1480297232",
+          "1962413225",
+          "9781480297234",
+          "9781962413220"
+        ],
+        "key": "/works/OL28594042W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Making of Karateka"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The Making of Karateka",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3907637A"
+        }
+      }
+    ],
+    "key": "/works/OL28594042W",
+    "covers": [
+      13295242
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-07-25T13:21:30.845768"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-02-11T05:06:32.665881"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "index": 552,
+  "title": "The Philosophy Book",
+  "retrievedAt": "2026-10-23T19:23:44.784Z",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/works/OL15921779W/editions.json?limit=100",
+      "status": 200
+    },
+    {
+      "url": "https://www.amazon.de/dp/0744091969",
+      "status": 200,
+      "title": "Amazon.de",
+      "countText": null,
+      "globalText": null,
+      "sha256": "439247ff90395a9252acb7fa02d299502b07949e94f6d1e4d24ff5f178377e92",
+      "bytes": 3815
+    },
+    {
+      "url": "https://www.amazon.com/dp/0744091969",
+      "status": 200,
+      "title": "Amazon.com",
+      "countText": null,
+      "globalText": null,
+      "sha256": "a3d9106234fb11c86d6af0a413f3cf7355330efdd97bcd337484b288b44acb00",
+      "bytes": 3781
+    }
+  ],
+  "edition": {
+    "type": {
+      "key": "/type/edition"
+    },
+    "authors": [
+      {
+        "key": "/authors/OL2655350A"
+      }
+    ],
+    "isbn_13": [
+      "9780744091960"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "pagination": "360",
+    "publish_date": "2024",
+    "publishers": [
+      "Dorling Kindersley Publishing, Incorporated"
+    ],
+    "source_records": [
+      "bwb:9780744091960"
+    ],
+    "title": "Philosophy Book",
+    "weight": "0.568",
+    "full_title": "Philosophy Book",
+    "works": [
+      {
+        "key": "/works/OL15921779W"
+      }
+    ],
+    "key": "/books/OL51612017M",
+    "covers": [
+      14814642
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-04-17T08:14:26.373464"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-06-01T09:21:13.973284"
+    }
+  },
+  "work": "https://openlibrary.org/works/OL15921779W"
+}

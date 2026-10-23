@@ -1,0 +1,84 @@
+{
+  "index": 385,
+  "title": "Life Stories",
+  "url": "https://openlibrary.org/search.json?isbn=0375757511&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:26.168Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David Remnick"
+        ],
+        "first_publish_year": 2000,
+        "isbn": [
+          "0375757511",
+          "9780375757518",
+          "0375503552",
+          "9780375503559"
+        ],
+        "key": "/works/OL1904991W",
+        "language": [
+          "eng"
+        ],
+        "title": "Life Stories"
+      },
+      {
+        "author_name": [
+          "David Remnick"
+        ],
+        "first_publish_year": 2001,
+        "isbn": [
+          "0375757511",
+          "9780375757518"
+        ],
+        "key": "/works/OL19502859W",
+        "language": [
+          "eng"
+        ],
+        "title": "Life stories"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "January 11, 2000",
+    "title": "Life Stories",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:32:55.165173"
+    },
+    "covers": [
+      230375
+    ],
+    "first_sentence": {
+      "type": "/type/text",
+      "value": "WHEN things get too much for me."
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-04-28T08:03:55.422159"
+    },
+    "latest_revision": 3,
+    "key": "/works/OL1904991W",
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL228037A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "id": 37083142,
+    "revision": 3
+  }
+}

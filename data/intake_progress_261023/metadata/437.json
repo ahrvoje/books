@@ -1,0 +1,80 @@
+{
+  "index": 437,
+  "title": "The Founder's Dilemmas",
+  "url": "https://openlibrary.org/search.json?isbn=0691149135&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:01:01.510Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Noam Wasserman",
+          "Noam Wasserman"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "1400841933",
+          "9780691149134",
+          "9781400841936",
+          "0691149135"
+        ],
+        "key": "/works/OL16152741W",
+        "language": [
+          "eng"
+        ],
+        "title": "The founder's dilemmas"
+      }
+    ]
+  },
+  "work": {
+    "title": "The founder's dilemmas",
+    "subjects": [
+      "Management",
+      "New business enterprises",
+      "Entrepreneurship",
+      "Business"
+    ],
+    "key": "/works/OL16152741W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7000720A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8176252A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      12893128
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-10-22T09:34:18.769438"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-09-09T08:48:02.296951"
+    }
+  }
+}

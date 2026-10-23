@@ -1,0 +1,93 @@
+{
+  "index": 30,
+  "title": "A History of the Global Stock Market: From Ancient Rome to Silicon Valley",
+  "url": "https://openlibrary.org/search.json?title=A%20History%20of%20the%20Global%20Stock%20Market%3A%20From%20Ancient%20Rome%20to%20Silicon%20Valley&author=B.%20Mark%20Smith&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:16.690Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "B. Mark Smith"
+        ],
+        "first_publish_year": 2004,
+        "isbn": [
+          "9780226764047",
+          "0226764044"
+        ],
+        "key": "/works/OL8034588W",
+        "language": [
+          "eng"
+        ],
+        "title": "A History of the Global Stock Market"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=A%20History%20of%20the%20Global%20Stock%20Market&author=B.%20Mark%20Smith&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "A History of the Global Stock Market",
+    "covers": [
+      143060
+    ],
+    "key": "/works/OL8034588W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2674979A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Stock exchanges",
+      "Stocks",
+      "Securities",
+      "Markt",
+      "Aandelen",
+      "Bourse",
+      "Actions (Titres de societe?)",
+      "Valeurs mobilieres",
+      "Actions (Titres de société)",
+      "Valeurs mobilières"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Resource added for the Financial Institutions Management program 101144."
+    },
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:19:25.451988"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-09-19T23:05:02.982872"
+    }
+  }
+}

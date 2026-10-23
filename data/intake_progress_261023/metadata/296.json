@@ -1,0 +1,84 @@
+{
+  "index": 296,
+  "title": "Manifestoes",
+  "url": "https://openlibrary.org/search.json?isbn=0801485916&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:20.822Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Janet Lyon"
+        ],
+        "first_publish_year": 1999,
+        "isbn": [
+          "9780801436352",
+          "0801485916",
+          "9781501728358",
+          "1501728350",
+          "0801436354",
+          "9780801485916"
+        ],
+        "key": "/works/OL1950571W",
+        "language": [
+          "eng"
+        ],
+        "title": "Manifestoes"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1999",
+    "title": "Manifestoes",
+    "covers": [
+      565128
+    ],
+    "lc_classifications": [
+      "PN51 .L936 1999"
+    ],
+    "key": "/works/OL1950571W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL233908A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "809/.93358"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Feminism and literature",
+      "Modernism (Literature)",
+      "Politics and literature",
+      "Revolutionary literature",
+      "Avant-garde (Aesthetics)",
+      "History and criticism",
+      "Revolutionary literature, history and criticism",
+      "Literary manifestos"
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:36:56.799739"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-07-16T05:59:47.276902"
+    }
+  }
+}

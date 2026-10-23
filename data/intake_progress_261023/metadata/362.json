@@ -1,0 +1,75 @@
+{
+  "index": 362,
+  "title": "China Takes Off",
+  "url": "https://openlibrary.org/search.json?isbn=0295962984&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:11.469Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "E. E. Bauer"
+        ],
+        "first_publish_year": 1986,
+        "isbn": [
+          "0295962984",
+          "9780295962986"
+        ],
+        "key": "/works/OL19187476W",
+        "language": [
+          "eng"
+        ],
+        "title": "China takes off"
+      }
+    ]
+  },
+  "work": {
+    "key": "/works/OL19187476W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL40492A"
+        }
+      }
+    ],
+    "title": "China takes off",
+    "subject_places": [
+      "China"
+    ],
+    "subjects": [
+      "Technology transfer",
+      "Economic conditions",
+      "China, civilization",
+      "China, history, 1949-"
+    ],
+    "subject_times": [
+      "1976-2000"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      13906613
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-03-11T09:29:27.380840"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-10-17T07:47:28.497355"
+    }
+  }
+}

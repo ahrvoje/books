@@ -1,0 +1,88 @@
+{
+  "index": 99,
+  "title": "Photoviz: Visualizing Information through Photography",
+  "url": "https://openlibrary.org/search.json?isbn=3899556453&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:56:51.487Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Nicholas Felton",
+          "Sven Ehmann"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "9783899556452",
+          "3899556453"
+        ],
+        "key": "/works/OL25700868W",
+        "language": [
+          "eng"
+        ],
+        "title": "Photoviz"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Photoviz",
+    "subjects": [
+      "Technical illustration",
+      "Information visualization",
+      "Photography",
+      "Scientific applications",
+      "Artistic Photography",
+      "Fotografie",
+      "Informationsgrafik",
+      "Visualisierung",
+      "Bildverarbeitung",
+      "Computeranimation"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9712438A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6997878A"
+        }
+      }
+    ],
+    "key": "/works/OL25700868W",
+    "covers": [
+      14805807
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Stories told with graphics and infographics are now being visualised through photography. 'Photoviz' shows how these powerful images are depicting correlations, making the invisible visible, and revealing more detail than classic photojournalism."
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-10-05T17:09:55.297361"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-02-23T08:20:12.858803"
+    }
+  }
+}

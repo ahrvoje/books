@@ -1,0 +1,77 @@
+{
+  "index": 28,
+  "title": "The Locomotive Pioneers: Early Steam Locomotive Development 1801–1851",
+  "url": "https://openlibrary.org/search.json?title=The%20Locomotive%20Pioneers%3A%20Early%20Steam%20Locomotive%20Development%201801%E2%80%931851&author=Anthony%20Burton&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:15.566Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Anthony Burton"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "1473843685",
+          "9781473843684"
+        ],
+        "key": "/works/OL20583595W",
+        "title": "The Locomotive Pioneers"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=The%20Locomotive%20Pioneers&author=Anthony%20Burton&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "The Locomotive Pioneers",
+    "covers": [
+      9224874
+    ],
+    "key": "/works/OL20583595W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2628244A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Locomotives, history"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-12-19T20:28:04.747269"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-06-17T19:39:30.641622"
+    }
+  }
+}

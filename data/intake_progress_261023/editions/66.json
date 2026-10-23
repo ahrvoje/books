@@ -1,0 +1,74 @@
+{
+  "index": 66,
+  "title": "The Frackers",
+  "retrievedAt": "2026-10-23T19:24:05.969Z",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/works/OL19704377W/editions.json?limit=100",
+      "status": 200
+    },
+    {
+      "url": "https://www.amazon.de/dp/0241966736",
+      "status": 200,
+      "title": "Amazon.de",
+      "countText": null,
+      "globalText": null,
+      "sha256": "7bd73c341b8588ed2a8fb1fc3c92bac442d9fa3902c022d977e9b85e160c12fc",
+      "bytes": 3815
+    },
+    {
+      "url": "https://www.amazon.com/dp/0241966736",
+      "status": 200,
+      "title": "Amazon.com",
+      "countText": null,
+      "globalText": null,
+      "sha256": "0ddb73aaa9dea418053b26c8108257ad629efdfe6b075887ea4028d09b8f563e",
+      "bytes": 3781
+    }
+  ],
+  "edition": {
+    "type": {
+      "key": "/type/edition"
+    },
+    "authors": [
+      {
+        "key": "/authors/OL6722114A"
+      }
+    ],
+    "isbn_13": [
+      "9780241966730"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "publish_date": "2013",
+    "publishers": [
+      "Penguin Books, Limited"
+    ],
+    "source_records": [
+      "bwb:9780241966730"
+    ],
+    "title": "Frackers",
+    "subtitle": "The Outrageous Inside Story of the New Energy Revolution",
+    "full_title": "Frackers The Outrageous Inside Story of the New Energy Revolution",
+    "works": [
+      {
+        "key": "/works/OL19704377W"
+      }
+    ],
+    "key": "/books/OL38807658M",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-07-18T18:32:30.471605"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-07-18T18:32:30.471605"
+    }
+  },
+  "work": "https://openlibrary.org/works/OL19704377W"
+}

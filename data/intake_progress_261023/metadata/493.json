@@ -1,0 +1,81 @@
+{
+  "index": 493,
+  "title": "The Machinery of Life",
+  "url": "https://openlibrary.org/search.json?isbn=0387849246&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:01:37.799Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David S. Goodsell"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "0387849246",
+          "9780387849249"
+        ],
+        "key": "/works/OL17801704W",
+        "title": "The machinery of life - 2. ed."
+      },
+      {
+        "author_name": [
+          "David S. Goodsell"
+        ],
+        "first_publish_year": 2009,
+        "isbn": [
+          "0387849254",
+          "0387849246",
+          "9780387849249",
+          "9780387849256"
+        ],
+        "key": "/works/OL16927254W",
+        "language": [
+          "eng"
+        ],
+        "title": "The machinery of life"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2017-10-27T18:35:22.819164"
+    },
+    "subjects": [
+      "Cells",
+      "Molecular biology"
+    ],
+    "latest_revision": 2,
+    "key": "/works/OL17801704W",
+    "title": "The machinery of life - 2. ed.",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL455356A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-21T03:59:54.765425"
+    },
+    "covers": [
+      8086158
+    ],
+    "revision": 2
+  }
+}

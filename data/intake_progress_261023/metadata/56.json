@@ -1,0 +1,83 @@
+{
+  "index": 56,
+  "title": "Concrete Planet",
+  "url": "https://openlibrary.org/search.json?title=Concrete%20Planet&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:56:33.874Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Robert Courland"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "1616144823",
+          "9781633888166",
+          "163388869X",
+          "1633888169",
+          "9781633888692",
+          "9781616144821"
+        ],
+        "key": "/works/OL26826305W",
+        "language": [
+          "eng"
+        ],
+        "title": "Concrete Planet"
+      },
+      {
+        "author_name": [
+          "Robert Courland"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "9781616144814",
+          "1616144815"
+        ],
+        "key": "/works/OL16652410W",
+        "language": [
+          "eng"
+        ],
+        "title": "Concrete planet"
+      },
+      {
+        "key": "/works/OL17183490W",
+        "title": "Concrete planet : the strange and fascinating story of the world's most common man-made material"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Concrete Planet",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3763008A"
+        }
+      }
+    ],
+    "key": "/works/OL26826305W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-12-30T20:44:26.158475"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-12-30T20:44:26.158475"
+    }
+  }
+}

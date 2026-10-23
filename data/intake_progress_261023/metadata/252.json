@@ -1,0 +1,74 @@
+{
+  "index": 252,
+  "title": "The Portable Medieval Reader",
+  "url": "https://openlibrary.org/search.json?isbn=0670465437&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:58:32.792Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "James Bruce Ross",
+          "Mary Martin McLaughlin"
+        ],
+        "first_publish_year": 1949,
+        "isbn": [
+          "0670465429",
+          "9780670465439",
+          "0670465437",
+          "9780670465422"
+        ],
+        "key": "/works/OL18849708W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Portable medieval reader"
+      }
+    ]
+  },
+  "work": {
+    "title": "The Portable medieval reader",
+    "key": "/works/OL18849708W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6970914A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL4870614A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Fiction, general"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-02-17T12:05:25.343954"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-17T13:57:34.820562"
+    }
+  }
+}

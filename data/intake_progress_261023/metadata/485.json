@@ -1,0 +1,86 @@
+{
+  "index": 485,
+  "title": "John Maynard Keynes",
+  "url": "https://openlibrary.org/search.json?isbn=0143036157&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:01:33.149Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Robert Skidelsky"
+        ],
+        "first_publish_year": 2003,
+        "isbn": [
+          "9780143036159",
+          "9780333903124",
+          "0333903129",
+          "9780330488679",
+          "0330488678",
+          "0143036157"
+        ],
+        "key": "/works/OL7975021W",
+        "language": [
+          "eng"
+        ],
+        "title": "John Maynard Keynes 1883-1946"
+      },
+      {
+        "author_name": [
+          "Robert Jacob Alexander Skidelsky"
+        ],
+        "first_publish_year": 2005,
+        "isbn": [
+          "0143036157",
+          "9780143036159"
+        ],
+        "key": "/works/OL2441968W",
+        "language": [
+          "eng"
+        ],
+        "title": "John Maynard Keynes, 1883-1946"
+      }
+    ]
+  },
+  "work": {
+    "title": "John Maynard Keynes 1883-1946",
+    "covers": [
+      200136
+    ],
+    "key": "/works/OL7975021W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2657967A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Keynes, john maynard, 1883-1946",
+      "Economists, biography"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:15:55.302574"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-11-03T03:00:08.700639"
+    }
+  }
+}

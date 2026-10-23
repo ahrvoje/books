@@ -1,0 +1,101 @@
+{
+  "index": 64,
+  "title": "The Next Greatest Thing",
+  "url": "https://openlibrary.org/search.json?title=The%20Next%20Greatest%20Thing&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:32.695Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Patrick Dahl",
+          "Richard A. Pence"
+        ],
+        "first_publish_year": 1984,
+        "isbn": [
+          "0917599004",
+          "9780917599002"
+        ],
+        "key": "/works/OL19121382W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Next greatest thing"
+      },
+      {
+        "author_name": [
+          "Richard A. Pence"
+        ],
+        "first_publish_year": 1984,
+        "isbn": [
+          "8460901"
+        ],
+        "key": "/works/OL8684745W",
+        "language": [
+          "eng"
+        ],
+        "title": "The next greatest thing"
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      5326856,
+      4789910
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2019-07-31T01:42:55.038693"
+    },
+    "latest_revision": 3,
+    "key": "/works/OL19121382W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2935730A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2935729A"
+        }
+      }
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-03-10T09:58:30.664804"
+    },
+    "title": "The Next greatest thing",
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "United States",
+      "Rural electrification",
+      "United States. Rural Electrification Administration",
+      "Electric power distribution",
+      "U.S. Rural Electrification Administration",
+      "History",
+      "Sociology - General",
+      "Social Science",
+      "Sociology"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 3
+  }
+}

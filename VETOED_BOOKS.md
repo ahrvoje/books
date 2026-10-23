@@ -2,12 +2,12 @@
 
 [Language exclusion update](analysis/analysis_top100lang_261021_2230.md).
 
-Updated **2026-10-23, Europe/Warsaw**. **252 unique source works**. [Rating-count update](analysis/analysis_ratinggaps_261021_1704.md); [category review](analysis/analysis_categories_261021_1600.md). Scores remain counterfactual and do not override vetoes.
+Updated **2026-10-23, Europe/Warsaw**. **254 unique source works**. [Rating-count update](analysis/analysis_ratinggaps_261021_1704.md); [category review](analysis/analysis_categories_261021_1600.md). Scores remain counterfactual and do not override vetoes.
 
 | Entry date | First year | Author | Title | Counterfactual /100 | Veto | Veto confidence | Sources | Pages (edition) | Amazon ratings |
 |---|---|---|---|---:|---|---|---|---:|---:|
 | 2026-10-20 | 2001 | Jim Collins | [Good To Great](analysis/analysis_vetogates_261021_0047.md#g0154) | 49.92 | V1 | moderate | 115, 149, 177, 188, 193, 207 | [300](https://openlibrary.org/books/OL17035731M/Good_to_great) | [9137](https://www.amazon.com.au/dp/0066620996) |
-| 2026-10-20 | 2000 | Stephen Ambrose | [Nothing Like It in the World](analysis/analysis_vetogates_261021_0047.md#nc7d6716583) | 44.66 | V1 | moderate | 141, 143 | [432](https://www.simonandschuster.net/books/Nothing-Like-It-In-the-World/Stephen-E-Ambrose/9780743210836) | Unknown |
+| 2026-10-20 | 2000 | Stephen Ambrose | [Nothing Like It in the World](analysis/analysis_vetogates_261021_0047.md#nc7d6716583) | 44.66 | V1 | moderate | 141, 143, 229, 245 | [432](https://www.simonandschuster.net/books/Nothing-Like-It-In-the-World/Stephen-E-Ambrose/9780743210836) | Unknown |
 | 2026-10-20 | 2012 | Ray Kurzweil | [How to Create a Mind](analysis/analysis_vetogates_261021_0047.md#nc91dae0186) | 42.87 | V1; V4 | moderate | 135 | [352](https://www.penguinrandomhouse.com/books/306914/how-to-create-a-mind-by-ray-kurzweil/9781101601105/) | Unknown |
 | 2026-10-19 | 2020 | Peter H. Diamandis; Steven Kotler | [The Future Is Faster Than You Think](analysis/analysis_vetogates_261021_0047.md#g0402) | 41.17 | V4 | moderate | 116, 187, 193 | [384](https://openlibrary.org/books/OL29822139M/Future_Is_Faster_Than_You_Think) | Unknown |
 | 2026-10-17 | 2014 | Annie Jacobsen | [Operation Paperclip](analysis/analysis_vetogates_261021_0047.md#q1004) | 37.67 | V1 | moderate | 4, 5, 139 | [592](https://books.google.com/books/about/Operation_Paperclip.html?id=Rs1CCgAAQBAJ) | Unknown |
@@ -32,12 +32,12 @@ Updated **2026-10-23, Europe/Warsaw**. **252 unique source works**. [Rating-coun
 | 2026-10-20 | 1986 | Patrick Leigh Fermor | [Between the Woods and the Water](analysis/analysis_vetogates_261021_0047.md#n00c6e6fe81) | 31.38 | V3 | moderate | 135 | [280](https://www.nyrb.com/products/between-the-woods-and-the-water) | Unknown |
 | 2026-10-22 | 2011 | Patrick Thorpe | [The Legend of Zelda: Hyrule Historia](analysis/analysis_remaining_261022_0042.md#rem-u0090) | 31.33 | V3 | moderate | 175 | Unknown | Unknown |
 | 2026-10-20 | 2011 | Annie Jacobsen | [Area 51: An Uncensored History of America's Top Secret Military Base](analysis/analysis_vetogates_261021_0047.md#nc758fbb344) | 30.84 | V1 | moderate | 139 | [592](https://www.hachettebookgroup.com/titles/annie-jacobsen/area-51/9780316202305/) | Unknown |
-| 2026-10-17 | 1848 | Karl Marx; Friedrich Engels | [The Communist Manifesto](analysis/analysis_categories_261021_1600.md#q1005) | 30.75 | V1; V5; V6 | high | 2, 5, 177, 183, 185, 187, 200 | [92](https://openlibrary.org/books/OL54148524M/Communist_Manifesto) | Unknown |
+| 2026-10-17 | 1848 | Karl Marx; Friedrich Engels | [The Communist Manifesto](analysis/analysis_categories_261021_1600.md#q1005) | 30.75 | V1; V5; V6 | high | 2, 5, 177, 183, 185, 187, 200, 229 | [92](https://openlibrary.org/books/OL54148524M/Communist_Manifesto) | Unknown |
 | 2026-10-17 | 2020 | Brian C. Muraresku | [The Immortality Key](analysis/analysis_vetogates_261021_0047.md#q1074) | 30.54 | V1 | moderate | 8 | [352](https://openlibrary.org/books/OL29844403M/Immortality_Key) | Unknown |
 | 2026-10-20 | 1996 | James McBride | [The Color of Water](analysis/analysis_vetogates_261021_0047.md#n83f907156f) | 30.46 | V3 | moderate | 132 | [336](https://www.penguinrandomhouse.com/books/348278/the-color-of-water-by-james-mcbride/) | Unknown |
 | 2026-10-20 | 2013 | Patrick Leigh Fermor | [The Broken Road](analysis/analysis_vetogates_261021_0047.md#need2181c15) | 30.39 | V3 | moderate | 135 | [392](https://www.penguinrandomhouse.com/books/236046/the-broken-road-by-patrick-leigh-fermor-edited-by-colin-thubron-and-artemis-cooper/9781590177792/) | Unknown |
 | 2026-10-21 | 2008 | Pete Sampras with Peter Bodo | [A Champion's Mind](analysis/analysis_bgbillgates_261021_0210.md#bgef288074cb) | 29.98 | V3 | moderate | 148 | [306](https://books.google.com/books/about/A_Champion_s_Mind.html?id=w3HAwAEACAAJ) | Unknown |
-| 2026-10-17 | 150 | Multiple ancient authors | [The Bible](analysis/analysis_vetogates_261021_0047.md#q1046) | 29.97 | V5 | moderate | 6, 8 | Unknown | Unknown |
+| 2026-10-17 | 150 | Multiple ancient authors | [The Bible](analysis/analysis_vetogates_261021_0047.md#q1046) | 29.97 | V5 | moderate | 6, 8, 240, 245 | Unknown | Unknown |
 | 2026-10-20 | 2023 | Michio Kaku | [Quantum Supremacy](analysis/analysis_vetogates_261021_0047.md#n298e5c0ab7) | 29.83 | V1; V4 | moderate | 139 | [352](https://books.google.com/books/about/Quantum_Supremacy.html?hl=en&id=WkDSEAAAQBAJ&output=html_text) | Unknown |
 | 2026-10-20 | 1970 | Isaac Asimov | [Asimov’s Guide to Shakespeare](analysis/analysis_vetogates_261021_0047.md#nc168b938b7) | 29.67 | V3 | moderate | 135 | [1513](https://books.google.com/books?id=QUYgAQAAIAAJ) | Unknown |
 | 2026-10-20 | 1977 | Patrick Leigh Fermor | [A Time of Gifts](analysis/analysis_vetogates_261021_0047.md#n400d8c6d93) | 29.60 | V3 | moderate | 135 | [344](https://www.nyrb.com/products/a-time-of-gifts) | Unknown |
@@ -97,7 +97,7 @@ Updated **2026-10-23, Europe/Warsaw**. **252 unique source works**. [Rating-coun
 | 2026-10-20 | 2021 | Sophie Ellis-Bextor | [Spinning Plates](analysis/analysis_vetogates_261021_0047.md#n057517a2a7) | 21.02 | V3 | moderate | 132 | [336](https://openlibrary.org/books/OL33902382M/Spinning_Plates_Music_Men_Motherhood_and_Me) | Unknown |
 | 2026-10-19 | 2002 | Mahatma Gandhi; John Dear (editor) | [Mohandas Gandhi: Essential Writings](analysis/analysis_vetogates_261021_0047.md#g0967) | 20.58 | V5 | moderate | 121 | [191](https://openlibrary.org/books/OL18138585M/Mohandas_Gandhi) | Unknown |
 | 2026-10-17 | 2021 | Michelle Zauner | [Crying in H Mart](analysis/analysis_vetogates_261021_0047.md#q1084) | 20.56 | V3 | moderate | 4, 176 | [256](https://openlibrary.org/books/OL30530106M/Crying_in_H_Mart) | Unknown |
-| 2026-10-20 | 1970 | Shunryu Suzuki | [Zen Mind, Beginners Mind](analysis/analysis_vetogates_261021_0047.md#g0929) | 20.42 | V5 | high | 121, 153 | [154](https://openlibrary.org/books/OL58679847M/Zen_Mind_Beginners_Mind) | Unknown |
+| 2026-10-20 | 1970 | Shunryu Suzuki | [Zen Mind, Beginners Mind](analysis/analysis_vetogates_261021_0047.md#g0929) | 20.42 | V5 | high | 121, 153, 232 | [154](https://openlibrary.org/books/OL58679847M/Zen_Mind_Beginners_Mind) | Unknown |
 | 2026-10-22 | 2026 | John C. Lennox | [My Story: A spiritual and intellectual autobiography](analysis/analysis_remaining_261022_0042.md#rem-u0469) | 20.27 | V5 | moderate | 182 | Unknown | Unknown |
 | 2026-10-17 | 2015 | Norman Ohler | [Blitzed](analysis/analysis_vetogates_261021_0047.md#q1063) | 20.04 | V1 | moderate | 2, 6, 162, 199 | [272](https://www.penguin.com.au/books/blitzed-9780241256985) | Unknown |
 | 2026-10-17 | 2010 | Gary Taubes | [Why We Get Fat](analysis/analysis_vetogates_261021_0047.md#q1110) | 19.99 | V1 | moderate | 8, 168 | [257](https://openlibrary.org/books/OL24412483M/Why_we_get_fat_and_what_to_do_about_it) | Unknown |
@@ -137,7 +137,7 @@ Updated **2026-10-23, Europe/Warsaw**. **252 unique source works**. [Rating-coun
 | 2026-10-22 | 2014 | Xi Jinping | [The Governance of China](analysis/analysis_remaining_261022_0042.md#rem-u1891) | 14.86 | V6 | moderate | 193 | Unknown | Unknown |
 | 2026-10-17 | 1993 | Jennifer Toth | [The Mole People](analysis/analysis_vetogates_261021_0047.md#q1122) | 14.67 | V1 | moderate | 3 | [267](https://openlibrary.org/books/OL1414520M/The_mole_people) | Unknown |
 | 2026-10-19 | 2003 | Laurence Shames; Peter Barton | [Not Fade Away](analysis/analysis_vetogates_261021_0047.md#g0097) | 14.56 | V3 | moderate | 114 | [224](https://openlibrary.org/books/OL3303478M/Not_fade_away) | Unknown |
-| 2026-10-19 | 2005 | Jung Chang; Jon Halliday | [Mao: The Unknown Story](analysis/analysis_vetogates_261021_0047.md#g0733) | 13.98 | V1 | moderate | 119 | [814](https://openlibrary.org/books/OL22163185M/Mao) | Unknown |
+| 2026-10-19 | 2005 | Jung Chang; Jon Halliday | [Mao: The Unknown Story](analysis/analysis_vetogates_261021_0047.md#g0733) | 13.98 | V1 | moderate | 119, 231 | [814](https://openlibrary.org/books/OL22163185M/Mao) | Unknown |
 | 2026-10-19 | 2020 | Matthew McConaughey | [Greenlights](analysis/analysis_vetogates_261021_0047.md#g0066) | 13.60 | V3 | moderate | 114, 132 | [304](https://openlibrary.org/books/OL38567778M/Greenlights) | [73035](https://www.amazon.com.au/dp/1472280849) |
 | 2026-10-17 | 1995 | Dave Pelzer | [A Child Called It](analysis/analysis_vetogates_261021_0047.md#q1119) | 13.57 | V3 | moderate | 5 | [144](https://openlibrary.org/books/OL7988848M/A_Child_Called_It) | Unknown |
 | 2026-10-17 | 2008 | Carrie Fisher | [Wishful Drinking](analysis/analysis_vetogates_261021_0047.md#q1103) | 13.32 | V3 | moderate | 4 | [163](https://openlibrary.org/books/OL24930605M/Wishful_drinking) | Unknown |
@@ -156,7 +156,7 @@ Updated **2026-10-23, Europe/Warsaw**. **252 unique source works**. [Rating-coun
 | 2026-10-17 | 1972 | Herbert Dingle | [Science at the Crossroads](analysis/analysis_vetogates_261021_0047.md#q1130) | 12.18 | V1 | high | 3 | [256](https://openlibrary.org/books/OL5318664M/Science_at_the_crossroads.) | Unknown |
 | 2026-10-19 | 2012 | Peter Schiff | [The Real Crash](analysis/analysis_vetogates_261021_0047.md#g0898) | 12.17 | V4 | moderate | 120 | [464](https://openlibrary.org/books/OL27999752M/The_Real_Crash) | Unknown |
 | 2026-10-19 | 2019 | Kimberley Strassel | [Resistance (At All Costs)](analysis/analysis_categories_261021_1600.md#g0750) | 11.43 | V6 | moderate | 119 | [256](https://www.amazon.com.au/dp/1538701774) | [1424](https://www.amazon.com.au/dp/1538701774) |
-| 2026-10-22 | 400 | Augustine of Hippo | [Confessions](analysis/analysis_remaining_261022_0042.md#rem-u0976) | 11.32 | V5 | moderate | 189 | Unknown | Unknown |
+| 2026-10-22 | 400 | Augustine of Hippo | [Confessions](analysis/analysis_remaining_261022_0042.md#rem-u0976) | 11.32 | V5 | moderate | 189, 232 | Unknown | Unknown |
 | 2026-10-17 | 2013 | Brad Willis (Bhava Ram) | [Warrior Pose](analysis/analysis_vetogates_261021_0047.md#q1132) | 11.16 | V1 | moderate | 7 | [384](https://openlibrary.org/books/OL33464810M/Warrior_Pose) | Unknown |
 | 2026-10-22 | 2004 | Lee Strobel | [The Case for a Creator: A Journalist Investigates Scientific Evidence That Points Toward God](analysis/analysis_remaining_261022_0042.md#rem-u1049) | 11.12 | V5 | moderate | 190 | [352](https://www.amazon.com.au/dp/0310259134) | [2063](https://www.amazon.com.au/dp/0310259134) |
 | 2026-10-22 | 2001 | Avula Parthasarathy | [Choice Upanishads](analysis/analysis_remaining_261022_0042.md#rem-u0208) | 10.84 | V5 | moderate | 177 | Unknown | Unknown |
@@ -255,9 +255,11 @@ Updated **2026-10-23, Europe/Warsaw**. **252 unique source works**. [Rating-coun
 | 2026-10-23 | 1991 | Pema Chodron | [The Wisdom of No Escape](analysis/analysis_hn15155833_261023_0229.md#intake-0505) | 11.73 | V5 | moderate | 215 | [110](https://openlibrary.org/books/OL22987203M) | Unknown |
 | 2026-10-23 | 100 | Various early Christian authors | [The New Testament](analysis/analysis_hn15155833_261023_0229.md#intake-0517) | 0.28 | V5 | moderate | 215 | Unknown | Unknown |
 | 2026-10-23 | 80 | Traditionally James | [Epistle of James](analysis/analysis_hn15155833_261023_0229.md#intake-0518) | -0.51 | V5 | moderate | 215 | Unknown | Unknown |
-| 2026-10-23 | 650 | Traditionally revelations to Muhammad | [The Quran](analysis/analysis_hn15155833_261023_0229.md#intake-0520) | -0.62 | V5 | moderate | 215 | Unknown | Unknown |
+| 2026-10-23 | 650 | Traditionally revelations to Muhammad | [The Quran](analysis/analysis_hn15155833_261023_0229.md#intake-0520) | -0.62 | V5 | moderate | 215, 245 | Unknown | Unknown |
 | 2026-10-23 | 1999 | Dave Andrews | [Christianarchy](analysis/analysis_hn15155833_261023_0229.md#intake-0522) | 11.22 | V5 | moderate | 215 | [195](https://openlibrary.org/books/OL26355870M) | Unknown |
 | 2026-10-23 | 2003 | Maureen McKenna; Irene Howat | [From Whitewashed Stairs to Heaven](analysis/analysis_hn25317963_261023_0229.md#intake-0570) | 5.28 | V5 | moderate | 216 | [208](https://openlibrary.org/books/OL9001995M) | Unknown |
+| 2026-10-23 | 2006 | Annie Leibovitz | [A Photographer's Life](analysis/analysis_collison_261023_2134.md#progress-0260) | 12.64 | V3 | moderate | 232 | [480](https://openlibrary.org/books/OL22743474M) | Unknown |
+| 2026-10-23 | 1968 | Paul R. Ehrlich | [The Population Bomb](analysis/analysis_materialbib_261023_2134.md#progress-0643) | 21.02 | V1 | moderate | 231 | Unknown | Unknown |
 
 ## Counterfactual breakdowns and reasons
 
@@ -2174,3 +2176,23 @@ Positive criteria and non-rating deductions are unchanged. O15 uses verified new
 | 2.45 | 0.53 | 2.00 | 1.00 | 1.60 | 5.00 | 0.00 | 2.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -2.30 | 0.00 | 5.28 |
 
 [Full raw attainments and evidence](analysis/analysis_hn25317963_261023_0229.md#intake-0570). Sources: 216.
+
+### A Photographer's Life — Annie Leibovitz
+
+**V3; moderate veto confidence; low counterfactual-score confidence.** V3: photographic retrospective centres on celebrity assignments and private family life, with no sustained mechanisms or generalizable intellectual argument established by the museum's book/exhibition description. Counterfactual score retains the low analytical payload.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 14.45 | 0.53 | 1.00 | 1.00 | 2.50 | 7.00 | 0.00 | 4.50 | 2.50 | 2.00 | -10.00 | -10.00 | -0.84 | -2.00 | 0.00 | 12.64 |
+
+Sources: 232. [Full raw breakdown and evidence](analysis/analysis_collison_261023_2134.md#progress-0260).
+
+### The Population Bomb — Paul R. Ehrlich
+
+**V1; moderate veto confidence; low counterfactual-score confidence.** V1: the opening treats mass starvation in the 1970s as unavoidable despite intervention; the failed central forecast suppresses technological and agricultural uncertainty. Counterfactual score retains that inferential failure.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1.80 | 7.12 | 5.00 | 5.00 | 4.90 | 3.00 | 2.00 | 4.00 | 2.50 | 1.50 | -10.00 | 0.00 | 0.00 | -5.80 | 0.00 | 21.02 |
+
+Sources: 231. [Full raw breakdown and evidence](analysis/analysis_materialbib_261023_2134.md#progress-0643).

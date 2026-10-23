@@ -1,0 +1,73 @@
+{
+  "index": 468,
+  "title": "Uncontrolled",
+  "url": "https://openlibrary.org/search.json?isbn=046502324X&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:01:21.804Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jim Manzi"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "9780465029310",
+          "046502324X",
+          "9780465023240",
+          "0465029310"
+        ],
+        "key": "/works/OL16499554W",
+        "language": [
+          "eng"
+        ],
+        "title": "Uncontrolled"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Social aspects",
+      "Experiments",
+      "Research",
+      "Social sciences",
+      "Experimental design",
+      "Social sciences, research"
+    ],
+    "key": "/works/OL16499554W",
+    "title": "Uncontrolled",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7077701A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      9490157
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2012-02-08T11:09:48.482155"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-17T06:38:16.017344"
+    }
+  }
+}

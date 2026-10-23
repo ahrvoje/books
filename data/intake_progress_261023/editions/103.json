@@ -1,0 +1,83 @@
+{
+  "index": 103,
+  "title": "Alibaba",
+  "retrievedAt": "2026-10-23T19:06:07.000Z",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/works/OL20023885W/editions.json?limit=100",
+      "status": 200
+    },
+    {
+      "url": "https://www.amazon.de/dp/0062413406",
+      "status": 200,
+      "title": "Amazon.de",
+      "countText": null,
+      "globalText": null,
+      "sha256": "ecebbd4fb5864106abc0bd4b1aa5053acb45fd184eec67476c4806cfdbed4ae0",
+      "bytes": 3815
+    },
+    {
+      "url": "https://www.amazon.com/dp/0062413406",
+      "status": 200,
+      "title": "Amazon.com",
+      "countText": null,
+      "globalText": null,
+      "sha256": "9316ebdb8ea60fb9e25723f7f6ab6712d847976e9161ad370ba7d18017ae06d1",
+      "bytes": 3781
+    }
+  ],
+  "edition": {
+    "type": {
+      "key": "/type/edition"
+    },
+    "authors": [
+      {
+        "key": "/authors/OL3140898A"
+      }
+    ],
+    "isbn_13": [
+      "9780062562555"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "lc_classifications": [
+      "HF5548.325.C6C48"
+    ],
+    "pagination": "304",
+    "publish_date": "2016",
+    "publishers": [
+      "HarperCollins Publishers"
+    ],
+    "source_records": [
+      "bwb:9780062562555"
+    ],
+    "subjects": [
+      "Electronic commerce",
+      "Industries, china"
+    ],
+    "title": "Alibaba",
+    "weight": "0.382",
+    "subtitle": "the House That Jack Ma Built",
+    "full_title": "Alibaba the House That Jack Ma Built",
+    "works": [
+      {
+        "key": "/works/OL20023885W"
+      }
+    ],
+    "key": "/books/OL37441422M",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-03-01T19:30:11.981827"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-03-01T19:30:11.981827"
+    }
+  },
+  "work": "https://openlibrary.org/works/OL20023885W"
+}

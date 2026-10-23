@@ -1,0 +1,133 @@
+{
+  "index": 683,
+  "title": "Disorder: Hard Times in the 21st Century",
+  "url": "https://openlibrary.org/search.json?title=Disorder%3A%20Hard%20Times%20in%20the%2021st%20Century&author=Thompson%2C%20H.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:15.808Z",
+  "status": 200,
+  "search": {
+    "numFound": 52,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 52,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Helen Thompson"
+        ],
+        "first_publish_year": 2022,
+        "isbn": [
+          "0198864981",
+          "9780198864981"
+        ],
+        "key": "/works/OL25345956W",
+        "language": [
+          "eng"
+        ],
+        "title": "Disorder"
+      },
+      {
+        "author_name": [
+          "Ron A. Thompson"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "0415998360",
+          "1138884421",
+          "9781135839642",
+          "9781135839666",
+          "9780203879856",
+          "9781135839611",
+          "1135839611",
+          "9780415998369",
+          "0203879856",
+          "9781135839628",
+          "9781138884427",
+          "1135839670",
+          "1135839662",
+          "9781135839673",
+          "113583962X",
+          "1135839646"
+        ],
+        "key": "/works/OL4289997W",
+        "language": [
+          "eng"
+        ],
+        "title": "Eating disorders in sport"
+      },
+      {
+        "author_name": [
+          "Charlotte E. Thompson"
+        ],
+        "first_publish_year": 1999,
+        "isbn": [
+          "9780198029465",
+          "9780195128437",
+          "0198029462",
+          "9781280831157",
+          "1280831154",
+          "0195128435"
+        ],
+        "key": "/works/OL15054874W",
+        "language": [
+          "eng"
+        ],
+        "title": "Raising a child with a neuromuscular disorder"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Disorder&author=Thompson&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Disorder",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL1551918A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "key": "/works/OL25345956W",
+    "subtitle": "Hard Times in the 21st Century",
+    "subjects": [
+      "Geopolitics",
+      "Politics and government",
+      "Economic conditions",
+      "Géopolitique",
+      "Economic history"
+    ],
+    "covers": [
+      12886464
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-09-28T16:11:51.328472"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-10T21:14:43.398134"
+    }
+  }
+}

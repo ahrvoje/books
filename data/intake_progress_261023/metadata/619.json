@@ -1,0 +1,83 @@
+{
+  "index": 619,
+  "title": "Ausgepowert: Das Ende des Olzeitalters als Chance",
+  "url": "https://openlibrary.org/search.json?title=Ausgepowert%3A%20Das%20Ende%20des%20Olzeitalters%20als%20Chance&author=Marcel%20H%C3%A4nggi&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:53.881Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Marcel Hänggi"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "3858694460",
+          "9783858694461"
+        ],
+        "key": "/works/OL16717030W",
+        "language": [
+          "ger"
+        ],
+        "title": "Ausgepowert"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Ausgepowert&author=Marcel%20H%C3%A4nggi&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "Ausgepowert",
+    "subjects": [
+      "Natural resources",
+      "Renewable energy sources",
+      "Social aspects",
+      "Environmental aspects",
+      "Power resources",
+      "Energy policy",
+      "Climatic changes"
+    ],
+    "key": "/works/OL16717030W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7156822A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2012-07-25T15:37:55.435378"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-01-04T23:41:16.181159"
+    }
+  }
+}

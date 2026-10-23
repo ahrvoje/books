@@ -1,0 +1,113 @@
+{
+  "index": 463,
+  "title": "About Face 3",
+  "url": "https://openlibrary.org/search.json?isbn=0470084111&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:01:18.192Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Alan Cooper",
+          "Alan Cooper",
+          "Robert Reimann",
+          "David Cronin"
+        ],
+        "first_publish_year": 2007,
+        "isbn": [
+          "0470084111",
+          "1118079159",
+          "9780470084113",
+          "9780470467886",
+          "9781118079157",
+          "1280855711",
+          "9781280855719",
+          "0470467886"
+        ],
+        "key": "/works/OL16795238W",
+        "language": [
+          "eng"
+        ],
+        "title": "About Face 3"
+      },
+      {
+        "author_name": [
+          "Cooper, Alan"
+        ],
+        "first_publish_year": 2007,
+        "isbn": [
+          "9780470084113",
+          "0470084111"
+        ],
+        "key": "/works/OL18452148W",
+        "language": [
+          "eng"
+        ],
+        "title": "About face 3"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2012-10-03T21:26:03.582035"
+    },
+    "subjects": [
+      "User interfaces (Computer systems)",
+      "Human-computer interaction"
+    ],
+    "subtitle": "The Essentials of Interaction Design",
+    "key": "/works/OL16795238W",
+    "title": "About Face 3",
+    "latest_revision": 4,
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7166514A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL714122A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2730648A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2105318A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2019-05-29T03:39:02.586958"
+    },
+    "revision": 4
+  }
+}

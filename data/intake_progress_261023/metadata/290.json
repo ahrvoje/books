@@ -1,0 +1,68 @@
+{
+  "index": 290,
+  "title": "Snowdrops",
+  "url": "https://openlibrary.org/search.json?isbn=1848874537&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:14.161Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Andrew Miller"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "9781848874534",
+          "1848874537"
+        ],
+        "key": "/works/OL22107102W",
+        "title": "Snowdrops"
+      }
+    ]
+  },
+  "work": {
+    "title": "Snowdrops",
+    "covers": [
+      10441660
+    ],
+    "key": "/works/OL22107102W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6890051A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Russia (federation), fiction",
+      "Crime, fiction",
+      "Fiction, psychological"
+    ],
+    "genres": [
+      "/tags/OL166T"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-09-13T13:48:30.351190"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-08-31T11:36:35.759273"
+    }
+  }
+}

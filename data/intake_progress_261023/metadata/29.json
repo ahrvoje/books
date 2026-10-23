@@ -1,0 +1,128 @@
+{
+  "index": 29,
+  "title": "The Coming of the Book: The Impact of Printing, 1450-1800",
+  "url": "https://openlibrary.org/search.json?title=The%20Coming%20of%20the%20Book%3A%20The%20Impact%20of%20Printing%2C%201450-1800&author=Lucien%20Febvre%20%26%20Henri-Jean%20Martin&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:16.161Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Lucien Febvre"
+        ],
+        "first_publish_year": 1976,
+        "isbn": [
+          "0860917975",
+          "0902308173",
+          "9780902308176",
+          "9781859841082",
+          "1859841082",
+          "9780860917977"
+        ],
+        "key": "/works/OL834988W",
+        "language": [
+          "und",
+          "eng"
+        ],
+        "title": "The Coming of the Book"
+      },
+      {
+        "author_name": [
+          "Lucien Febvre"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "9781844676347",
+          "9781844676330",
+          "1844676331",
+          "184467634X"
+        ],
+        "key": "/works/OL15890025W",
+        "language": [
+          "eng"
+        ],
+        "title": "The coming of the book"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=The%20Coming%20of%20the%20Book&author=Lucien%20Febvre&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "subtitle": "The Impact of Printing 1450-1800 (Verso Classics, 10)",
+    "title": "The Coming of the Book",
+    "covers": [
+      9269631
+    ],
+    "subject_places": [
+      "Europe"
+    ],
+    "subjects": [
+      "Books",
+      "History",
+      "Printing",
+      "Social aspects of Printing",
+      "History.\u001e 0",
+      "Histoire",
+      "Industrie du livre",
+      "Imprimerie",
+      "Boekwezen",
+      "Maatschappij",
+      "Livres",
+      "Printing, history",
+      "Books--history",
+      "Printing--history",
+      "Z4 .f413 1976",
+      "070.5/73",
+      "Z4 .f413 1997",
+      "002",
+      "Social aspects"
+    ],
+    "key": "/works/OL834988W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL4463385A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "\"The emergence of the book was not merely an event of world historical importance, but the dawn of modernity. In this much praised work, Lucien Febvre and Henri-Jean Martin mesh together economic and technological history, sociology and anthropology, with the study of consciousness itself to root the development of printing in the changing social relations and ideological struggles of Western Europe. Now that the printed page may become a thing of the past, The Coming of the Book is more pertinent than ever.\"--"
+    },
+    "latest_revision": 14,
+    "revision": 14,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T05:16:18.123980"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-02-06T04:28:37.286900"
+    }
+  }
+}

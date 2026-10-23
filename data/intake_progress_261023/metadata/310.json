@@ -1,0 +1,84 @@
+{
+  "index": 310,
+  "title": "Arguably",
+  "url": "https://openlibrary.org/search.json?isbn=1455502782&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:36.211Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Christopher Hitchens"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "9781455502783",
+          "9780857892584",
+          "1455506788",
+          "9781455506781",
+          "0857892584",
+          "1455502782"
+        ],
+        "key": "/works/OL21748088W",
+        "language": [
+          "eng"
+        ],
+        "title": "Arguably"
+      }
+    ]
+  },
+  "work": {
+    "title": "Arguably",
+    "subjects": [
+      "Essays (single author)",
+      "Political science",
+      "nyt:e-book-nonfiction=2012-01-01",
+      "New York Times bestseller",
+      "New York Times reviewed",
+      "American essays"
+    ],
+    "key": "/works/OL21748088W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7205006A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "links": [
+      {
+        "url": "http://www.nytimes.com/2011/09/11/books/review/arguably-essays-by-christopher-hitchens-book-review.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "covers": [
+      12622952
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-28T21:13:35.420270"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-21T08:05:53.405724"
+    }
+  }
+}

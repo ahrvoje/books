@@ -1,0 +1,111 @@
+{
+  "index": 41,
+  "title": "Philosophical Letters: Or, Letters Regarding the English Nation",
+  "url": "https://openlibrary.org/search.json?title=Philosophical%20Letters%3A%20Or%2C%20Letters%20Regarding%20the%20English%20Nation&author=Voltaire&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:21.360Z",
+  "status": 200,
+  "search": {
+    "numFound": 5,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 5,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Voltaire"
+        ],
+        "first_publish_year": 1992,
+        "isbn": [
+          "0679600035",
+          "9780679600039"
+        ],
+        "key": "/works/OL15227941W",
+        "language": [
+          "eng"
+        ],
+        "title": "Candide and Philosophical Letters"
+      },
+      {
+        "author_name": [
+          "Voltaire"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "0486143163",
+          "9780486143163"
+        ],
+        "key": "/works/OL28034142W",
+        "language": [
+          "eng"
+        ],
+        "title": "Philosophical Letters : (Letters Concerning the English Nation)"
+      },
+      {
+        "author_name": [
+          "Voltaire"
+        ],
+        "first_publish_year": 1961,
+        "isbn": [
+          "0672603268",
+          "9780672603266"
+        ],
+        "key": "/works/OL33978179W",
+        "title": "Philosophical Letters (The Library of Liberal Arts)"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Philosophical%20Letters&author=Voltaire&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "Candide and Philosophical Letters",
+    "key": "/works/OL15227941W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL32293A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      12736218
+    ],
+    "subjects": [
+      "Continental european fiction (fictional works by one author)",
+      "Translations into English",
+      "Civilization",
+      "Modern Philosophy",
+      "Imaginary letters"
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-07-17T00:33:44.002748"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-07-12T22:50:01.404567"
+    }
+  }
+}

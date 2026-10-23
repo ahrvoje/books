@@ -1,0 +1,75 @@
+{
+  "index": 340,
+  "title": "Feynman Lectures on Computation",
+  "url": "https://openlibrary.org/search.json?isbn=0201489910&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:57.160Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Richard Phillips Feynman"
+        ],
+        "first_publish_year": 1996,
+        "isbn": [
+          "0738202967",
+          "9780738202969",
+          "9780201489910",
+          "0201489910"
+        ],
+        "key": "/works/OL514615W",
+        "language": [
+          "eng"
+        ],
+        "title": "Feynman lectures on computation"
+      }
+    ]
+  },
+  "work": {
+    "title": "Feynman lectures on computation",
+    "covers": [
+      135005
+    ],
+    "key": "/works/OL514615W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL35793A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Electronic data processing",
+      "Computer science",
+      "Qa76 .f45 1999",
+      "Long Now Manual for Civilization"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "From 1983 to 1986, the legendary physicist and teacher Richard Feynman gave a course at Caltech called \"Potentialities and Limitations of Computing Machines.\".\n\nAlthough the lectures are over ten years old, most of the material is timeless and presents a \"Feynmanesque\" overview of many standard and some not-so-standard topics in computer science. These include compatibility, Turing machines (or as Feynman said, \"Mr. Turing's machines\"), information theory, Shannon's Theorem, reversible computation, the thermodynamics of computation, the quantum limits to computation, and the physics of VLSI devices.\n\nTaken together, these lectures represent a unique exploration of the fundamental limitations of digital computers.\n\nFeynman's philosophy of learning and discovery comes through strongly in these lectures. He constantly points out the benefits of playing around with concepts and working out solutions to problems on your own - before looking at the back of the book for the answers.\n\nAs Feynman says in the lectures: \"If you keep proving stuff that others have done, getting confidence, increasing the complexities of your solutions - for the fun of it - then one day you'll turn around and discover that nobody actually did that one! And that's the way to become a computer scientist.\""
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-08T04:11:50.315352"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-03-25T16:41:14.039132"
+    }
+  }
+}

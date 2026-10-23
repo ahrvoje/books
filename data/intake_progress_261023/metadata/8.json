@@ -1,0 +1,63 @@
+{
+  "index": 8,
+  "title": "An Encyclopedia of the History of Technology",
+  "url": "https://openlibrary.org/search.json?title=An%20Encyclopedia%20of%20the%20History%20of%20Technology&author=Ian%20McNeil&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:08.494Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ian Mcneil"
+        ],
+        "first_publish_year": 1996,
+        "isbn": [
+          "9780415147927",
+          "0415147921"
+        ],
+        "key": "/works/OL8089776W",
+        "language": [
+          "eng"
+        ],
+        "title": "An Encyclopedia of the History of Technology"
+      }
+    ]
+  },
+  "work": {
+    "title": "An Encyclopedia of the History of Technology",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:23:13.145584"
+    },
+    "covers": [
+      264409
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2012-06-15T06:44:14.365573"
+    },
+    "latest_revision": 3,
+    "key": "/works/OL8089776W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2693502A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 3
+  }
+}

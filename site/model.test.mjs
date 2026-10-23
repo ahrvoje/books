@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { performance } from 'node:perf_hooks';
-import { REGISTRY, DOMAIN_IDS, defaultModel, defaultTerm, clone, normalize, shape, coefficients, changeMode, termValue, validateTerm,
+import { REGISTRY, DOMAIN_IDS, rawGuidance, defaultModel, defaultTerm, clone, normalize, shape, coefficients, changeMode, termValue, validateTerm,
   validateModel, connectionValues, evaluateBook, evaluateCatalog, filterReasons, frontier, frontierLayers, frontierPath, clearTarget, format, columnValue, DEFAULT_COLUMNS, displayedColumns, restoreColumns, restoreOptionalTerms, COLUMN_BY_ID } from './model.mjs';
 import fs from 'node:fs';
 import { gunzipSync } from 'node:zlib';
@@ -77,14 +77,29 @@ test('read-only collections retain saved membership and veto scores', () => {
   const vetoLines=fs.readFileSync(path.join(ROOT,'VETOED_BOOKS.md'),'utf8').split(/\r?\n/).filter(l=>/^\| \d{4}-/.test(l));
   assert.equal(data.vetoed.length,vetoLines.length);
   data.vetoed.forEach((b,i)=>{
-    const cells=vetoLines[i].split('|').slice(1,-1).map(x=>x.trim());
+    const cells=vetoLines.map(l=>l.split('|').slice(1,-1).map(x=>x.trim())).find(c=>c[2]===b.author && (c[3].match(/^\[([^\]]+)\]/)?.[1]||c[3])===b.title);
     assert.equal(b.score,cells[4].replace(/\*/g,''));assert.equal(b.veto,cells[5]);
+    assert.equal(b.sourceCount,new Set(cells[7].match(/\d+/g)).size);
+    if(i)assert(+data.vetoed[i-1].score>=+b.score,'Vetoed table must stay in descending score order');
     assert.equal(cells[8],b.edition?`[${b.edition.pages}](${b.edition.url})`:'Unknown');
     if(b.edition)assert(!/audio|disc|cassette/i.test(b.edition.format));
     assert(data.documents[b.analysis.split('#')[0]],'Veto assessment must work in the isolated file');
     assert(!data.books.some(r=>r.id===b.id));
   });
   assert.deepEqual(data.excluded,fs.readFileSync(path.join(ROOT,'EXCLUDED_BOOKS.md'),'utf8').split(/\r?\n/).filter(l=>l.startsWith('- ')).map(l=>l.slice(2).normalize('NFKC').replace(/\s+/g,' ').trim()));
+  assert.deepEqual(data.excludedGroups.map(g=>g.name),['Mathematics, Physics, Science','Technology, Engineering, Innovation','Computing, IT','Business, Economy, Geostrategy','Misc. Non-fiction','Fiction']);
+  assert.deepEqual(data.excludedGroups.flatMap(g=>g.books).sort(),[...data.excluded].sort());
+  for(const g of data.excludedGroups)assert.deepEqual(g.books,[...g.books].sort((a,b)=>a.localeCompare(b,'en',{sensitivity:'base'})));
+  for(const [title,category] of [['Harry Potter','Fiction'],['Security Analysis','Business, Economy, Geostrategy'],['Designing Data-Intensive Applications','Computing, IT'],['Introduction to Electrodynamics','Mathematics, Physics, Science'],['Rocket Propulsion Elements','Technology, Engineering, Innovation'],['The Elder Scrolls: The Official Cookbook','Misc. Non-fiction']])assert(data.excludedGroups.find(g=>g.name===category).books.some(b=>b===title||b.startsWith(title+' —')));
+});
+
+test('parameter guidance distinguishes raw scales from scoring anchors', () => {
+  for(const r of REGISTRY)assert(rawGuidance(r.id).length>20);
+  for(const r of REGISTRY.slice(0,10))assert(rawGuidance(r.id).includes(`0–${r.max} attainment points`));
+  for(const id of ['H13','P14','O15','SRC','PG','RP'])assert(rawGuidance(id).includes('no fixed upper limit'));
+  assert(rawGuidance('O15').includes('1,000+ → 0'));
+  assert(rawGuidance('T11').includes('1 = applies'));
+  assert(rawGuidance('SCI').includes('Unknown is separate from 0'));
 });
 
 test('edition facts, domain provenance, and partial reviews retain their meaning', () => {

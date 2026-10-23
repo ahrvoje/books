@@ -1,0 +1,60 @@
+{
+  "index": 375,
+  "title": "In Our Time",
+  "url": "https://openlibrary.org/search.json?isbn=1847248365&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:19.822Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Hywel Williams"
+        ],
+        "first_publish_year": 2009,
+        "isbn": [
+          "1847248365",
+          "9781847248367"
+        ],
+        "key": "/works/OL34961170W",
+        "title": "In Our Time"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "In Our Time",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL5691755A"
+        }
+      }
+    ],
+    "covers": [
+      13866913
+    ],
+    "key": "/works/OL34961170W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2023-04-08T21:23:23.857407"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-04-08T21:23:23.857407"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "index": 291,
+  "title": "Advanced Topics in Types and Programming Languages",
+  "url": "https://openlibrary.org/search.json?isbn=0262162288&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:15.548Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Benjamin C. Pierce"
+        ],
+        "first_publish_year": 2004,
+        "isbn": [
+          "1548918032",
+          "9781548918033",
+          "0262281597",
+          "1423729846",
+          "9781423729846",
+          "9780262552677",
+          "0262552671",
+          "9780262281591",
+          "9780262332668",
+          "0262162288",
+          "9780262162289",
+          "0262332663"
+        ],
+        "key": "/works/OL17832622W",
+        "language": [
+          "eng"
+        ],
+        "title": "Advanced topics in types and programming languages"
+      },
+      {
+        "author_name": [
+          "Benjamin C. Pierce"
+        ],
+        "first_publish_year": 2004,
+        "isbn": [
+          "0262162288",
+          "9780262162289"
+        ],
+        "key": "/works/OL4078116W",
+        "language": [
+          "eng"
+        ],
+        "title": "Advanced Topics in Types and Programming Languages"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Programming languages (Electronic computers)"
+    ],
+    "key": "/works/OL17832622W",
+    "title": "Advanced topics in types and programming languages",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7937626A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8125988
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"The topics covered include precise type analyses, which extend simple type systems to give them a better grip on the run time behavior of systems; type systems for low-level languages; applications of types to reasoning about computer programs; type theory as a framework for the design of sophisticated module systems; and advanced techniques in ML-style type inference.\" \"Advanced Topics in Types and Programming Languages can be used in the classroom and as a resource for professionals. Most chapters include exercises, ranging in difficulty from quick comprehension checks to challenging extensions, many with solutions.\"--Jacket."
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2018-01-26T01:15:43.247088"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-09-23T17:43:18.538968"
+    }
+  }
+}

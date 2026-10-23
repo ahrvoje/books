@@ -1,0 +1,82 @@
+{
+  "index": 195,
+  "title": "Neuroscience",
+  "url": "https://openlibrary.org/search.json?isbn=0781760038&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:57:54.143Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Mark F. Bear",
+          "Barry W. Connors",
+          "Michael A. Paradiso"
+        ],
+        "first_publish_year": 2006,
+        "isbn": [
+          "9780781760034",
+          "0781760038"
+        ],
+        "key": "/works/OL20098728W",
+        "title": "Neuroscience: Exploring the Brain, 3rd Edition"
+      }
+    ]
+  },
+  "work": {
+    "title": "Neuroscience: Exploring the Brain, 3rd Edition",
+    "covers": [
+      8761084
+    ],
+    "key": "/works/OL20098728W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL443247A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2761441A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2761442A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Brain",
+      "Neurosciences"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-08-24T08:02:42.018777"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-09-19T16:00:10.351324"
+    }
+  }
+}

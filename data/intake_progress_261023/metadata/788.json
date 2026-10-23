@@ -1,0 +1,76 @@
+{
+  "index": 788,
+  "title": "The Deep",
+  "url": "https://openlibrary.org/search.json?isbn=0226595668&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:26:20.055Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Claire Nouvian"
+        ],
+        "first_publish_year": 2007,
+        "isbn": [
+          "0226595668",
+          "9780226595665"
+        ],
+        "key": "/works/OL9161037W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Deep"
+      },
+      {
+        "author_name": [
+          "Claire Nouvian"
+        ],
+        "first_publish_year": 2007,
+        "isbn": [
+          "0226595668",
+          "9780226595665"
+        ],
+        "key": "/works/OL18207150W",
+        "language": [
+          "eng"
+        ],
+        "title": "The deep"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T23:56:43.934191"
+    },
+    "title": "The Deep",
+    "covers": [
+      142353
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-04-28T09:58:49.108302"
+    },
+    "latest_revision": 2,
+    "key": "/works/OL9161037W",
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL3236661A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 2
+  }
+}

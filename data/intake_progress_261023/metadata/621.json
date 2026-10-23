@@ -1,0 +1,97 @@
+{
+  "index": 621,
+  "title": "Ways of Knowing: A New History of Science, Technology, and Medicine",
+  "url": "https://openlibrary.org/search.json?title=Ways%20of%20Knowing%3A%20A%20New%20History%20of%20Science%2C%20Technology%2C%20and%20Medicine&author=John%20Pickstone&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:54.780Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John V. Pickstone"
+        ],
+        "first_publish_year": 2000,
+        "isbn": [
+          "0719059933",
+          "0719059941",
+          "9780719059933",
+          "9780226667959",
+          "0226667944",
+          "9780226667942",
+          "0226667952",
+          "9780719059940"
+        ],
+        "key": "/works/OL5474571W",
+        "language": [
+          "eng"
+        ],
+        "title": "Ways of Knowing"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Ways%20of%20Knowing&author=John%20Pickstone&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "subjects": [
+      "Medicine",
+      "Science",
+      "Technology",
+      "History",
+      "Science, history",
+      "Technology, history",
+      "Medicine, history",
+      "History of Medicine"
+    ],
+    "key": "/works/OL5474571W",
+    "title": "Ways of Knowing",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1295269A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      4675648
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "This text provides an accessible framework for understanding science, technology, and medicine (STM) in the West from the Renaissance to the 21st-century. John V. Pickstone's approach has four key features. First, he synthesizes the long-term histories and philosophies of disciplines that are normally studied separately. Second, he dissects STM into specific ways of knowing - natural history, analysis, and experimentalism - with separate but interlinked elements. Third, he explores these ways of knowing as forms of work related to our various technologies for making, mending, and destroying. And finally, he relates scientific and technical knowledges to popular understandings and to politics.\n\nCovering a wide range of subjects, from minerals and machines to patients and pharmaceuticals, and from experimental physics to genetic engineering, Pickstone's \"Ways of Knowing\" challenges the reader to re-examine traditional conceptualizations of the history, philosophy, and social studies of science, technology, and medicine."
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T10:12:42.200004"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-01-10T05:14:41.663971"
+    }
+  }
+}

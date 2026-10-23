@@ -1,0 +1,79 @@
+{
+  "index": 580,
+  "title": "Computer Lib",
+  "url": "https://openlibrary.org/search.json?isbn=0893470023&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:35.485Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ted Nelson"
+        ],
+        "first_publish_year": 1974,
+        "isbn": [
+          "0893470023",
+          "9780893470029",
+          "9780914845492",
+          "0914845497"
+        ],
+        "key": "/works/OL4972656W",
+        "language": [
+          "eng"
+        ],
+        "title": "Computer Lib/Dream Machines"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "Nelson writes passionately about the need for people to understand computers deeply, more deeply than was generally promoted as computer literacy, which he considers a superficial kind of familiarity with particular hardware and software. His rallying cry \"Down with Cybercrud\" is against the centralization of computers such as that performed by IBM at the time, as well as against what he sees as the intentional untruths that \"computer people\" tell to non-computer people to keep them from understanding computers. In Dream Machines, Nelson covers the flexible media potential of the computer, which was shockingly new at the time."
+    },
+    "covers": [
+      8401567,
+      8401568,
+      -1
+    ],
+    "key": "/works/OL4972656W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL247519A"
+        }
+      }
+    ],
+    "title": "Computer Lib/Dream Machines",
+    "subjects": [
+      "Computers",
+      "Internet",
+      "Literature"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "genres": [
+      "/tags/OL174T"
+    ],
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T08:10:41.619589"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-08-17T22:03:44.937192"
+    }
+  }
+}

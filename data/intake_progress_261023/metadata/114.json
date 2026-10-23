@@ -1,0 +1,91 @@
+{
+  "index": 114,
+  "title": "Suck",
+  "url": "https://openlibrary.org/search.json?isbn=1888869275&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:57:01.525Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Joey Anuff",
+          "Ana Marie Cox"
+        ],
+        "first_publish_year": 1997,
+        "isbn": [
+          "9781888869279",
+          "1888869275"
+        ],
+        "key": "/works/OL19394587W",
+        "language": [
+          "eng"
+        ],
+        "title": "Suck"
+      },
+      {
+        "first_publish_year": 1997,
+        "isbn": [
+          "9781888869279",
+          "1888869275"
+        ],
+        "key": "/works/OL16501032W",
+        "language": [
+          "eng"
+        ],
+        "title": "Suck"
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      936737
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2019-04-02T09:58:23.546244"
+    },
+    "latest_revision": 1,
+    "key": "/works/OL19394587W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2675398A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1436212A"
+        }
+      }
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-04-02T09:58:23.546244"
+    },
+    "title": "Suck",
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Mass media and culture",
+      "Mass media and technology"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

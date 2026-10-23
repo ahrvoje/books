@@ -1,0 +1,96 @@
+{
+  "index": 650,
+  "title": "War of Invention",
+  "url": "https://openlibrary.org/search.json?title=War%20of%20Invention&author=Hartcup%2C%20G.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:04.609Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Guy Hartcup"
+        ],
+        "first_publish_year": 1988,
+        "isbn": [
+          "0080335918",
+          "9780080335919"
+        ],
+        "key": "/works/OL496248W",
+        "language": [
+          "eng"
+        ],
+        "title": "The war of invention"
+      },
+      {
+        "author_name": [
+          "Guy Hartcup"
+        ],
+        "first_publish_year": 1988,
+        "key": "/works/OL43026915W",
+        "language": [
+          "eng"
+        ],
+        "title": "The War of Invention Scientific Development"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=War%20of%20Invention&author=Hartcup&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "subjects": [
+      "World War, 1914-1918",
+      "Technology",
+      "Science",
+      "Military art and science, history",
+      "History",
+      "Medical Laboratory Science"
+    ],
+    "key": "/works/OL496248W",
+    "title": "The war of invention",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL33027A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      4124155
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-08T03:38:32.839042"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-07-08T22:29:19.811434"
+    }
+  }
+}

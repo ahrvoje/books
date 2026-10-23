@@ -1,0 +1,69 @@
+{
+  "index": 162,
+  "title": "Designing for People",
+  "url": "https://openlibrary.org/search.json?isbn=1581153120&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:57:33.126Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Henry Dreyfuss"
+        ],
+        "first_publish_year": 1955,
+        "isbn": [
+          "0670003921",
+          "1581153120",
+          "9781581153125",
+          "9780670003921"
+        ],
+        "key": "/works/OL5597062W",
+        "language": [
+          "eng"
+        ],
+        "title": "Designing for people"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Human engineering",
+      "Industrial Design"
+    ],
+    "key": "/works/OL5597062W",
+    "title": "Designing for people",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1347387A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      841623
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T10:43:14.498392"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-07-16T07:32:37.525384"
+    }
+  }
+}

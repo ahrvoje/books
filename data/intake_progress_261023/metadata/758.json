@@ -1,0 +1,61 @@
+{
+  "index": 758,
+  "title": "Bienvenue dans le nouveau monde",
+  "url": "https://openlibrary.org/search.json?title=Bienvenue%20dans%20le%20nouveau%20monde&author=Mathilde%20Ramadier&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:58.484Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Mathilde Ramadier"
+        ],
+        "first_publish_year": 2017,
+        "isbn": [
+          "9791094841419",
+          "9791094841402"
+        ],
+        "key": "/works/OL19797678W",
+        "language": [
+          "fre"
+        ],
+        "title": "Bienvenue dans le nouveau monde"
+      }
+    ]
+  },
+  "work": {
+    "subtitle": "comment j'ai survécu à la coolitude des startups",
+    "title": "Bienvenue dans le nouveau monde",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-06-20T17:34:19.937588"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2019-06-20T17:36:23.900654"
+    },
+    "latest_revision": 2,
+    "key": "/works/OL19797678W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7554081A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 2
+  }
+}

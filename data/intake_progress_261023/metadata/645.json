@@ -1,0 +1,122 @@
+{
+  "index": 645,
+  "title": "Edison’s Electric Light: The Art of Invention",
+  "url": "https://openlibrary.org/search.json?title=Edison%E2%80%99s%20Electric%20Light%3A%20The%20Art%20of%20Invention&author=Friedel%2C%20R.%20and%20Israel%2C%20P.B.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:03.145Z",
+  "status": 200,
+  "search": {
+    "numFound": 5,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 5,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Robert Friedel",
+          "Paul Israel"
+        ],
+        "first_publish_year": 1987,
+        "isbn": [
+          "0801899443",
+          "9780813512549",
+          "0813512549",
+          "9780801899447"
+        ],
+        "key": "/works/OL17073522W",
+        "language": [
+          "eng"
+        ],
+        "title": "Edison's Electric Light"
+      },
+      {
+        "author_name": [
+          "Robert D. Friedel"
+        ],
+        "first_publish_year": 1986,
+        "isbn": [
+          "0813511186",
+          "9780813511184"
+        ],
+        "key": "/works/OL3936526W",
+        "language": [
+          "eng"
+        ],
+        "title": "Edison's electric light"
+      },
+      {
+        "author_name": [
+          "Robert D. Friedel"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "0801894824",
+          "9780801894824"
+        ],
+        "key": "/works/OL19806977W",
+        "language": [
+          "eng"
+        ],
+        "title": "The story of Edison's electric light"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Edison%E2%80%99s%20Electric%20Light&author=Friedel&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2014-11-12T04:33:49.652697"
+    },
+    "subjects": [
+      "Electric lighting",
+      "Inventions"
+    ],
+    "latest_revision": 4,
+    "key": "/works/OL17073522W",
+    "title": "Edison's Electric Light",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3333502A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL220312A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-27T13:49:52.252638"
+    },
+    "covers": [
+      7313289
+    ],
+    "revision": 4
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "index": 535,
+  "title": "Possiplex",
+  "url": "https://openlibrary.org/search.json?isbn=089347004X&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:06.143Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ted Nelson"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "089347004X",
+          "9780893470043"
+        ],
+        "key": "/works/OL20419270W",
+        "title": "Possiplex"
+      }
+    ]
+  },
+  "work": {
+    "title": "Possiplex",
+    "covers": [
+      9086794
+    ],
+    "key": "/works/OL20419270W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL247519A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "This seems to be a duplicate entry of https://openlibrary.org/works/OL19085949W/Possiplex and https://openlibrary.org/works/OL42994472W/An_Autobiography_of_Ted_Nelson_Possiplex_Movies_Intellect_Creative_Control_My_Computer_Life_and_the_ likely produced both by an importer and human entry. It seems there might be just one original edition, and in my copy, the copyright is 2010-2011, so it's not certain that there's a separate 2011 edition."
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-11-07T06:31:52.061095"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-11-23T12:19:22.033424"
+    }
+  }
+}

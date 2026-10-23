@@ -1,0 +1,94 @@
+{
+  "index": 47,
+  "title": "Masters of the Universe: Hayek, Friedman, and the Birth of Neoliberal Politics",
+  "url": "https://openlibrary.org/search.json?title=Masters%20of%20the%20Universe%3A%20Hayek%2C%20Friedman%2C%20and%20the%20Birth%20of%20Neoliberal%20Politics&author=Daniel%20Stedman%20Jones&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:24.400Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Daniel Stedman Jones"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "1400844738",
+          "9781283571449",
+          "9780691161013",
+          "0691161011",
+          "9781400851836",
+          "0691151571",
+          "1400851831",
+          "9780691151571",
+          "1283571447",
+          "9781400844739"
+        ],
+        "key": "/works/OL16490214W",
+        "language": [
+          "eng"
+        ],
+        "title": "Masters of the universe"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Masters%20of%20the%20Universe&author=Daniel%20Stedman%20Jones&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2012-02-01T11:42:41.516954"
+    },
+    "subjects": [
+      "Economic policy",
+      "Political aspects",
+      "Neoliberalism",
+      "Economics",
+      "History",
+      "Liberalism",
+      "Economics, political aspects"
+    ],
+    "latest_revision": 3,
+    "key": "/works/OL16490214W",
+    "title": "Masters of the universe",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3948877A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-03T18:50:02.590632"
+    },
+    "covers": [
+      9015445
+    ],
+    "revision": 3
+  }
+}

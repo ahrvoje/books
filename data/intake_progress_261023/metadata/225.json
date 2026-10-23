@@ -1,0 +1,82 @@
+{
+  "index": 225,
+  "title": "Murder Trials",
+  "url": "https://openlibrary.org/search.json?isbn=0880290757&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:58:14.160Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Cicero"
+        ],
+        "first_publish_year": 1975,
+        "isbn": [
+          "014044288X",
+          "0880290757",
+          "9780140442885",
+          "9780880290753"
+        ],
+        "key": "/works/OL15838545W",
+        "language": [
+          "eng",
+          "lat"
+        ],
+        "title": "Murder trials"
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      6802073,
+      103851
+    ],
+    "key": "/works/OL15838545W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL28743A"
+        }
+      }
+    ],
+    "title": "Murder trials",
+    "subject_places": [
+      "Rome"
+    ],
+    "subjects": [
+      "Speeches, addresses, etc., Latin",
+      "Translations into English",
+      "Trials (Murder)",
+      "Forensic orations",
+      "History",
+      "Ancient"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "\"Cicero was still in his twenties when he got Sextus Roscius off a charge of murdering his father and nearly sixty when he defended King Deiotarus, accused of trying to murder Caesar. In between (with, among others, his speeches for Cluentius and Rabirius), he built a reputation as the greatest orator of his time. Cicero defended his practice partly on moral or compassionate grounds of 'human decency' -- sentiments with which we today would agree. His clients generally went free. And in vindicating men -- who sometimes did not deserve it -- he left us a mass of detail about Roman life, law and history and, in two of the speeches, graphic pictures of the 'gun-law' of small provincial towns.\" -- Provided by publisher"
+    },
+    "latest_revision": 9,
+    "revision": 9,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-07-08T12:07:32.987932"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-05-16T04:39:30.210187"
+    }
+  }
+}

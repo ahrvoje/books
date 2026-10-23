@@ -1,0 +1,92 @@
+{
+  "index": 267,
+  "title": "The Killing Zone",
+  "url": "https://openlibrary.org/search.json?isbn=007136269X&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:58:49.181Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Paul A Craig"
+        ],
+        "first_publish_year": 2001,
+        "isbn": [
+          "007136269X",
+          "9780071362696"
+        ],
+        "key": "/works/OL12003337W",
+        "language": [
+          "eng"
+        ],
+        "title": "The killing zone"
+      },
+      {
+        "author_name": [
+          "Paul A. Craig"
+        ],
+        "first_publish_year": 2000,
+        "isbn": [
+          "9781644253731",
+          "007136269X",
+          "9780071362696",
+          "1644253739",
+          "1644253690",
+          "9781644253694"
+        ],
+        "key": "/works/OL2619337W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Killing Zone"
+      }
+    ]
+  },
+  "work": {
+    "lc_classifications": [
+      "TL553.5 .C73 2001"
+    ],
+    "key": "/works/OL12003337W",
+    "title": "The killing zone",
+    "first_publish_date": "2001",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL5179574A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Aeronautics",
+      "Safety measures",
+      "Aircraft accidents",
+      "Aeronautics, safety measures"
+    ],
+    "covers": [
+      13018923
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T05:53:42.389799"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-04T02:02:16.603141"
+    }
+  }
+}

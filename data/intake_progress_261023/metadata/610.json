@@ -1,0 +1,85 @@
+{
+  "index": 610,
+  "title": "Growth Recurring: Economic Change in World History",
+  "url": "https://openlibrary.org/search.json?title=Growth%20Recurring%3A%20Economic%20Change%20in%20World%20History&author=Eric%20Jones&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:50.917Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Eric Lionel Jones"
+        ],
+        "first_publish_year": 2000,
+        "isbn": [
+          "9780472097289",
+          "9780472067282",
+          "0472067281",
+          "0472097288"
+        ],
+        "key": "/works/OL8246554W",
+        "language": [
+          "eng"
+        ],
+        "title": "Growth Recurring"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Growth%20Recurring&author=Eric%20Jones&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "subjects": [
+      "History",
+      "Economic development",
+      "Economic history",
+      "World history"
+    ],
+    "key": "/works/OL8246554W",
+    "title": "Growth Recurring",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2744947A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      4647088
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:34:02.555588"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-02-25T12:23:02.394319"
+    }
+  }
+}

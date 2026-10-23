@@ -1,0 +1,80 @@
+{
+  "index": 380,
+  "title": "The Mechanical Bride",
+  "url": "https://openlibrary.org/search.json?isbn=1584230509&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:23.529Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Marshall McLuhan"
+        ],
+        "first_publish_year": 1951,
+        "isbn": [
+          "9780814908860",
+          "9780807061893",
+          "0814908861",
+          "0807061891",
+          "1584230509",
+          "9781584230502"
+        ],
+        "key": "/works/OL871839W",
+        "language": [
+          "eng",
+          "und"
+        ],
+        "title": "The mechanical bride"
+      }
+    ]
+  },
+  "work": {
+    "subtitle": "folklore of industrial man",
+    "title": "The mechanical bride",
+    "covers": [
+      847927
+    ],
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Social psychology",
+      "Advertising",
+      "Consumers",
+      "Communication",
+      "Advertising, psychological aspects",
+      "Psychological aspects"
+    ],
+    "key": "/works/OL871839W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL76333A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 10,
+    "revision": 10,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T06:12:42.881283"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-03-08T16:30:59.776155"
+    }
+  }
+}

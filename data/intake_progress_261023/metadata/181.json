@@ -1,0 +1,71 @@
+{
+  "index": 181,
+  "title": "Seven Pillars of Wisdom",
+  "url": "https://openlibrary.org/search.json?isbn=1500601381&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:57:45.520Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "T.E. Lawrence"
+        ],
+        "first_publish_year": 1935,
+        "isbn": [
+          "9781500601386",
+          "1500601381"
+        ],
+        "key": "/works/OL34592162W",
+        "language": [
+          "eng"
+        ],
+        "title": "Seven Pillars of Wisdom"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Seven Pillars of Wisdom",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9953365A"
+        }
+      }
+    ],
+    "key": "/works/OL34592162W",
+    "covers": [
+      13725485
+    ],
+    "subjects": [
+      "Lawrence, t. e. (thomas edward), 1888-1935",
+      "Soldiers",
+      "World war, 1914-1918, campaigns",
+      "World war, 1914-1918, personal narratives",
+      "Arabs, history",
+      "Arabian peninsula, social life and customs"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2023-02-28T00:58:27.086560"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-09-28T10:24:37.672403"
+    }
+  }
+}

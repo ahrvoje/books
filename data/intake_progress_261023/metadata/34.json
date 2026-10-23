@@ -1,0 +1,106 @@
+{
+  "index": 34,
+  "title": "Miracle Cure: The Creation of Antibiotics and the Birth of Modern Medicine",
+  "url": "https://openlibrary.org/search.json?title=Miracle%20Cure%3A%20The%20Creation%20of%20Antibiotics%20and%20the%20Birth%20of%20Modern%20Medicine&author=William%20Rosen&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:17.785Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "William Rosen"
+        ],
+        "first_publish_year": 2017,
+        "isbn": [
+          "9780525428107",
+          "0525428100"
+        ],
+        "key": "/works/OL17850538W",
+        "language": [
+          "eng"
+        ],
+        "title": "Miracle Cure"
+      },
+      {
+        "author_name": [
+          "William Rosen"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "9780143110538",
+          "0143110535"
+        ],
+        "key": "/works/OL21306577W",
+        "language": [
+          "eng"
+        ],
+        "title": "Miracle Cure"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Miracle%20Cure&author=William%20Rosen&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "The epic history of how antibiotics were born, saving millions of lives and creating a vast new industry known as Big Pharma. As late as the 1930s, virtually no drug intended for sickness did any good; doctors could set bones, deliver babies, and offer palliative care. That all changed in less than a generation with the discovery and development of a new category of medicine known as antibiotics. By 1955, the age-old evolutionary relationship between humans and microbes had been transformed, trivializing once-deadly infections. William Rosen captures this revolution with all its false starts, lucky surprises, and eccentric characters. He explains why, given the complex nature of bacteria and their ability to rapidly evolve into new forms, the only way to locate and test potential antibiotic strains is by large-scale, systematic, trial-and-error experimentation. Organizing that research needs large, well-funded organizations and businesses, and so our entire scientific-industrial complex, built around the pharmaceutical company, was born. Timely, engrossing, and eye-opening, Miracle Cure is a must-read science narrativea drama of enormous range, combining science, technology, politics, and economics to illuminate the reasons behind one of the most dramatic changes in humanitys relationship with nature since the invention of agriculture ten thousand years ago. - Publisher."
+    },
+    "covers": [
+      8149896
+    ],
+    "key": "/works/OL17850538W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6748144A"
+        }
+      }
+    ],
+    "title": "Miracle Cure",
+    "subjects": [
+      "Antibacterial agents",
+      "History",
+      "Anti-infective agents",
+      "Medicine, history",
+      "Anti-Bacterial Agents",
+      "History, 19th Century",
+      "History, 20th Century",
+      "History, 21st Century"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2018-03-19T21:51:59.483820"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-20T15:45:06.445332"
+    }
+  }
+}

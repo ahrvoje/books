@@ -1,0 +1,93 @@
+{
+  "index": 187,
+  "title": "Chasing the Flame",
+  "url": "https://openlibrary.org/search.json?isbn=0143114859&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:57:49.553Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Samantha Power"
+        ],
+        "first_publish_year": 2008,
+        "isbn": [
+          "9780143114857",
+          "9780141020815",
+          "0141020814",
+          "0143114859"
+        ],
+        "key": "/works/OL20771985W",
+        "title": "Chasing the Flame"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Iraq war, 2003-2011",
+      "Diplomats, biography",
+      "Brazil, biography",
+      "Conflict management",
+      "Peace",
+      "War relief",
+      "United nations",
+      "New York Times reviewed",
+      "Biography",
+      "Peace-building",
+      "Iraq War, 2003-2011",
+      "Diplomats",
+      "Secours aux victimes de guerre",
+      "Consolidation de la paix",
+      "Guerre en Irak, 2003-2011",
+      "Diplomates",
+      "Biographies",
+      "Iraq War, 2003",
+      "United Nations. High Commission for Human Rights",
+      "United Nations"
+    ],
+    "key": "/works/OL20771985W",
+    "title": "Chasing the Flame",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7594360A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      9720463
+    ],
+    "links": [
+      {
+        "url": "http://www.nytimes.com/2008/02/17/books/review/Fukuyama-t.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-05-18T21:18:33.103531"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-09-16T05:35:23.597769"
+    }
+  }
+}

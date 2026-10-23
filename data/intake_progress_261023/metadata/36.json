@@ -1,0 +1,100 @@
+{
+  "index": 36,
+  "title": "Inventing Temperature: Measurement and Scientific Progress",
+  "url": "https://openlibrary.org/search.json?title=Inventing%20Temperature%3A%20Measurement%20and%20Scientific%20Progress&author=Hasok%20Chang&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:18.828Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Hasok Chang"
+        ],
+        "first_publish_year": 2004,
+        "isbn": [
+          "9780199835003",
+          "0195171276",
+          "9780198038245",
+          "9780195171273",
+          "0195337387",
+          "0198038240",
+          "0199835004",
+          "1280559152",
+          "9780195337389",
+          "9781280559150"
+        ],
+        "key": "/works/OL8004810W",
+        "language": [
+          "eng"
+        ],
+        "title": "Inventing Temperature"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Inventing%20Temperature&author=Hasok%20Chang&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "subjects": [
+      "Philosophy",
+      "Temperature measurements",
+      "Interdisciplinary approach to knowledge",
+      "Science",
+      "Thermometers",
+      "History",
+      "Long Now Manual for Civilization",
+      "Science, history",
+      "Science, philosophy"
+    ],
+    "key": "/works/OL8004810W",
+    "title": "Inventing Temperature",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2664537A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      1129026
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"What is temperature, and how can we measure it correctly? These may seem like simple questions, but the most renowned scientists struggled with them throughout the eighteenth and nineteenth centuries. In Inventing Temperature, Chang examines how scientists first created thermometers; how they measured temperature beyond the reach of standard thermometers; and how they managed to assess the reliability and accuracy of these instruments without a circular reliance on the instruments themselves.\" \"In a discussion that brings together the history of science with the philosophy of science, Chang presents the simple yet challenging epistemic and technical questions about these instruments, and the complex web of abstract philosophical issues surrounding them. Chang's book shows that many items of knowledge that we take for granted now are in fact spectacular achievements, obtained only after a great deal of innovative thinking, painstaking experiments, bold conjectures, and controversy. Lurking behind these achievements are some very important philosophical questions about how and when people accept the authority of science.\"--Jacket."
+    },
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:17:24.437108"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-12-09T13:14:17.960070"
+    }
+  }
+}

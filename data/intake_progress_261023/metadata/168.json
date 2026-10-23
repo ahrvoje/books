@@ -1,0 +1,79 @@
+{
+  "index": 168,
+  "title": "Libraries of the Future",
+  "url": "https://openlibrary.org/search.json?isbn=026212016X&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:57:37.133Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "J. C. R. Licklider"
+        ],
+        "first_publish_year": 1965,
+        "isbn": [
+          "9780262120166",
+          "026212016X"
+        ],
+        "key": "/works/OL10471033W",
+        "language": [
+          "eng"
+        ],
+        "title": "Libraries of the future"
+      }
+    ]
+  },
+  "work": {
+    "title": "Libraries of the future",
+    "covers": [
+      8412961
+    ],
+    "subjects": [
+      "Forecasting",
+      "Library science",
+      "Information technology",
+      "Information storage and retrieval systems",
+      "Information science",
+      "Libraries",
+      "Automatic Data Processing",
+      "Information Systems"
+    ],
+    "subject_people": [
+      "J. C. R. Licklider"
+    ],
+    "key": "/works/OL10471033W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2212917A"
+        }
+      }
+    ],
+    "subject_times": [
+      "2000"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 17,
+    "revision": 17,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T03:01:27.527473"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-12-24T17:34:14.388683"
+    }
+  }
+}

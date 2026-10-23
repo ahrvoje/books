@@ -1,0 +1,76 @@
+{
+  "index": 256,
+  "title": "Memorial",
+  "url": "https://openlibrary.org/search.json?isbn=0571274161&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:58:38.471Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Alice Oswald"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "9780571274161",
+          "0571274161"
+        ],
+        "key": "/works/OL16473888W",
+        "language": [
+          "eng"
+        ],
+        "title": "Memorial"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "English Poets",
+      "Poetry",
+      "English poetry",
+      "Trojan War"
+    ],
+    "subject_people": [
+      "Homer"
+    ],
+    "key": "/works/OL16473888W",
+    "title": "Memorial",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL447429A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      13604739
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"[An] original new poem which is also a translation of Homer's Iliad, by a poet who is also a classicist\"--Jacket."
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2012-01-25T12:36:33.913730"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-04-18T05:18:56.998704"
+    }
+  }
+}

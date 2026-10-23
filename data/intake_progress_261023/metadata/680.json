@@ -1,0 +1,86 @@
+{
+  "index": 680,
+  "title": "Still the Iron Age: Iron and Steel in the Modern World",
+  "url": "https://openlibrary.org/search.json?title=Still%20the%20Iron%20Age%3A%20Iron%20and%20Steel%20in%20the%20Modern%20World&author=Smil%2C%20V.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:14.941Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "0128042338",
+          "9780128042335",
+          "9780128042359",
+          "0128042354"
+        ],
+        "key": "/works/OL21123829W",
+        "language": [
+          "eng"
+        ],
+        "title": "Still the Iron Age"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Still%20the%20Iron%20Age&author=Smil&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "Still the Iron Age",
+    "subjects": [
+      "Iron",
+      "Steel",
+      "Iron industry and trade",
+      "Steel industry and trade",
+      "Iron, metallurgy",
+      "Steel, metallurgy",
+      "History",
+      "Social aspects"
+    ],
+    "key": "/works/OL21123829W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL222057A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-05T01:59:41.816919"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-02-10T06:47:25.193417"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "index": 718,
+  "title": "Code Name Ginger",
+  "url": "https://openlibrary.org/search.json?title=Code%20Name%20Ginger&author=Steve%20Kemper&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:35.129Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Steve Kemper"
+        ],
+        "first_publish_year": 2003,
+        "isbn": [
+          "1578516730",
+          "0385605226",
+          "9781578516735",
+          "9780385605229",
+          "0553815415",
+          "9780553815412"
+        ],
+        "key": "/works/OL5858306W",
+        "language": [
+          "eng"
+        ],
+        "title": "Code Name Ginger"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Scooters",
+      "Segway (Firm)"
+    ],
+    "key": "/works/OL5858306W",
+    "title": "Code Name Ginger",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1438526A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      834785
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T18:05:10.636219"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-09-11T16:22:52.220440"
+    }
+  }
+}

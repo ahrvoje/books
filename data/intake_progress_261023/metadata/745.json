@@ -1,0 +1,94 @@
+{
+  "index": 745,
+  "title": "Lawrence and Oppenheimer",
+  "url": "https://openlibrary.org/search.json?title=Lawrence%20and%20Oppenheimer&author=Nuel%20Pharr%20Davis&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:50.151Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Nuel Pharr Davis"
+        ],
+        "first_publish_year": 1968,
+        "isbn": [
+          "9780224616515",
+          "022461651X"
+        ],
+        "key": "/works/OL10632227W",
+        "language": [
+          "eng"
+        ],
+        "title": "Lawrence and Oppenheimer"
+      },
+      {
+        "author_name": [
+          "Nuel Pharr Davis"
+        ],
+        "first_publish_year": 1968,
+        "isbn": [
+          "9780306802805",
+          "0306802805"
+        ],
+        "key": "/works/OL5263590W",
+        "language": [
+          "eng"
+        ],
+        "title": "Lawrence and Oppenheimer"
+      },
+      {
+        "author_name": [
+          "Nuel Pharr Davis"
+        ],
+        "first_publish_year": 1968,
+        "key": "/works/OL18498001W",
+        "language": [
+          "eng"
+        ],
+        "title": "Lawrence and Oppenheimer"
+      }
+    ]
+  },
+  "work": {
+    "title": "Lawrence and Oppenheimer",
+    "key": "/works/OL10632227W",
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL4426643A"
+        }
+      }
+    ],
+    "subject_people": [
+      "Ernest Orlando Lawrence",
+      "J. Robert Oppenheimer (1904-1967)"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Nuclear physics"
+    ],
+    "covers": [
+      11666312
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T03:18:47.151452"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-08-17T02:22:27.196543"
+    }
+  }
+}

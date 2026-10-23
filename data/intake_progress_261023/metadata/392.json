@@ -1,0 +1,74 @@
+{
+  "index": 392,
+  "title": "Wings",
+  "url": "https://openlibrary.org/search.json?isbn=0393057674&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:31.458Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Tom D. Crouch"
+        ],
+        "first_publish_year": 2003,
+        "isbn": [
+          "0393057674",
+          "9780393326208",
+          "0393326209",
+          "9780393057676"
+        ],
+        "key": "/works/OL4631476W",
+        "language": [
+          "eng"
+        ],
+        "title": "Wings"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Aeronautics",
+      "History",
+      "Aeronautics, history"
+    ],
+    "key": "/works/OL4631476W",
+    "title": "Wings",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL950577A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      1194758
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"These pioneers were scientists, soldiers, or daredevils, whose names will echo down through the centuries. There are those, from Sir George Cayley to Wilbur and Orville Wright, who launched the air age. Aviators like Louis Bleriot, Charles Lindbergh, and Amelia Earhart bridged oceans to link nations and continents. Military pilots, from Manfred von Richthofen and Eddie Rickenbacker to Chuck Yeager and John Glenn, emerged as great national heroes. Brilliant scientists and engineers laid the foundation for revolutionary change: Prandtl, Rohrback, von Ohain, Whittle, Stack, Karman.\n\nThen there are the industrialists and designers: Fokker, Martin, Zeppelin, Douglas, Boeing, Sopwith, Tupolev, Northrop, Messerschmitt, Piper, Dassault, Readers will find all of them in these pages, along with many others whose names are already slipping from our memory.\"--Jacket."
+    },
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T07:00:53.764238"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-05-20T19:38:49.458423"
+    }
+  }
+}

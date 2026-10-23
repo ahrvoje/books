@@ -1,0 +1,64 @@
+{
+  "index": 360,
+  "title": "East African",
+  "url": "https://openlibrary.org/search.json?isbn=1873203225&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:09.811Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Davis, Peter J."
+        ],
+        "first_publish_year": 1993,
+        "isbn": [
+          "9781873203224",
+          "1873203225"
+        ],
+        "key": "/works/OL3643742W",
+        "language": [
+          "eng"
+        ],
+        "title": "East African"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1993",
+    "key": "/works/OL3643742W",
+    "title": "East African",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL287969A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "East African Airlines Corporation"
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T04:04:16.300543"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-10-08T18:26:20.570599"
+    }
+  }
+}

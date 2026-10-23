@@ -1,0 +1,89 @@
+{
+  "index": 590,
+  "title": "Engineers: A History of Engineering and Structural Design",
+  "url": "https://openlibrary.org/search.json?title=Engineers%3A%20A%20History%20of%20Engineering%20and%20Structural%20Design&author=Matthew%20Wells&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:41.458Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Matthew Wells"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "1134343205",
+          "9781134343249",
+          "9781134343201",
+          "9781134343195",
+          "1134343191",
+          "9780203358184",
+          "9781134343256",
+          "9781134343225",
+          "1134343248",
+          "1282569422",
+          "1134343221",
+          "9781282569423",
+          "1134343256",
+          "020335818X"
+        ],
+        "key": "/works/OL25233434W",
+        "language": [
+          "eng"
+        ],
+        "title": "Engineers"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Engineers&author=Matthew%20Wells&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Engineers",
+    "subjects": [
+      "Engineering design"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2020996A"
+        }
+      }
+    ],
+    "key": "/works/OL25233434W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-09-21T02:51:57.974176"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-21T02:51:57.974176"
+    }
+  }
+}

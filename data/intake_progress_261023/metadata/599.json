@@ -1,0 +1,76 @@
+{
+  "index": 599,
+  "title": "Splinters of Infinity: Cosmic Rays and the Clash of Two Nobel Prize–Winning Scientists over the Secrets of Creation",
+  "url": "https://openlibrary.org/search.json?title=Splinters%20of%20Infinity%3A%20Cosmic%20Rays%20and%20the%20Clash%20of%20Two%20Nobel%20Prize%E2%80%93Winning%20Scientists%20over%20the%20Secrets%20of%20Creation&author=Mark%20Wolverton&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:45.876Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Mark Wolverton"
+        ],
+        "first_publish_year": 2024,
+        "isbn": [
+          "0262048825",
+          "9780262377836",
+          "0262377837",
+          "9780262048828"
+        ],
+        "key": "/works/OL37617694W",
+        "language": [
+          "eng"
+        ],
+        "title": "Splinters of Infinity"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Splinters%20of%20Infinity&author=Mark%20Wolverton&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Splinters of Infinity",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2821136A"
+        }
+      }
+    ],
+    "key": "/works/OL37617694W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-01-31T07:02:22.285482"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-01-31T07:02:22.285482"
+    }
+  }
+}

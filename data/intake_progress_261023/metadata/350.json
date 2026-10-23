@@ -1,0 +1,90 @@
+{
+  "index": 350,
+  "title": "Lapham's Quarterly",
+  "url": "https://openlibrary.org/search.json?isbn=0615303366&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:03.811Z",
+  "status": 200,
+  "search": {
+    "numFound": 12,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 12,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Lewis H. Lapham"
+        ],
+        "first_publish_year": 2015,
+        "key": "/works/OL24277402W",
+        "language": [
+          "eng"
+        ],
+        "title": "Lapham's Quarterly"
+      },
+      {
+        "author_name": [
+          "Lewis H. (editor) Lapham"
+        ],
+        "first_publish_year": 2011,
+        "key": "/works/OL38064964W",
+        "title": "Lapham's Quarterly"
+      },
+      {
+        "first_publish_year": 2010,
+        "key": "/works/OL31491446W",
+        "title": "Lapham's Quarterly"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Lapham's%20Quarterly&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Lapham's Quarterly",
+    "subjects": [
+      "Emigration and immigration",
+      "Imperialism"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL402023A"
+        }
+      }
+    ],
+    "covers": [
+      10775205
+    ],
+    "key": "/works/OL24277402W",
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-03-27T08:00:54.064664"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-07-25T16:06:13.556001"
+    }
+  }
+}

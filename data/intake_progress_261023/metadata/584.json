@@ -1,0 +1,67 @@
+{
+  "index": 584,
+  "title": "The Great Fire",
+  "url": "https://openlibrary.org/search.json?isbn=0374278210&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:37.848Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Shirley Hazzard"
+        ],
+        "first_publish_year": 2003,
+        "isbn": [
+          "9780374278212",
+          "0374278210"
+        ],
+        "key": "/works/OL31671927W",
+        "language": [
+          "eng"
+        ],
+        "title": "Great Fire"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Great Fire",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL24134A"
+        }
+      }
+    ],
+    "covers": [
+      223519
+    ],
+    "key": "/works/OL31671927W",
+    "subjects": [
+      "Best books",
+      "Television programs"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-12-08T11:40:55.910686"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-04-17T04:19:02.832457"
+    }
+  }
+}

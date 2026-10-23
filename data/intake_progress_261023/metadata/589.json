@@ -1,0 +1,85 @@
+{
+  "index": 589,
+  "title": "The Engineer in History",
+  "url": "https://openlibrary.org/search.json?title=The%20Engineer%20in%20History&author=John%20Rae&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:41.234Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Rae, John"
+        ],
+        "first_publish_year": 1993,
+        "isbn": [
+          "9780820420622",
+          "082042062X"
+        ],
+        "key": "/works/OL3928991W",
+        "language": [
+          "eng"
+        ],
+        "title": "The engineer in history"
+      },
+      {
+        "author_name": [
+          "John Rae",
+          "Rudi Volti"
+        ],
+        "first_publish_year": 2001,
+        "isbn": [
+          "9780820451961",
+          "0820451967"
+        ],
+        "key": "/works/OL20978639W",
+        "language": [
+          "eng"
+        ],
+        "title": "The engineer in history"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T04:53:19.011552"
+    },
+    "subjects": [
+      "Engineering",
+      "Engineers",
+      "History",
+      "Engineering, history"
+    ],
+    "latest_revision": 4,
+    "key": "/works/OL3928991W",
+    "title": "The engineer in history",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL715830A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-27T13:53:31.315323"
+    },
+    "covers": [
+      3937883
+    ],
+    "revision": 4
+  }
+}

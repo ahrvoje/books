@@ -1,0 +1,103 @@
+{
+  "index": 627,
+  "title": "Life's Greatest Secret: The Race to Crack the Genetic Code",
+  "url": "https://openlibrary.org/search.json?title=Life's%20Greatest%20Secret%3A%20The%20Race%20to%20Crack%20the%20Genetic%20Code&author=Matthew%20Cobb&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:57.327Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Matthew Cobb"
+        ],
+        "first_publish_year": 2015,
+        "isbn": [
+          "0465062679",
+          "178125141X",
+          "9781781251416",
+          "9780465062676"
+        ],
+        "key": "/works/OL20006723W",
+        "language": [
+          "eng"
+        ],
+        "title": "Life's greatest secret"
+      },
+      {
+        "author_name": [
+          "Matthew Cobb"
+        ],
+        "first_publish_year": 2015,
+        "isbn": [
+          "0465062660",
+          "9780465062669"
+        ],
+        "key": "/works/OL37933166W",
+        "language": [
+          "eng"
+        ],
+        "title": "Life's Greatest Secret"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Life's%20Greatest%20Secret&author=Matthew%20Cobb&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "The story of the discovery and cracking of the genetic code, the thing that ultimately enables a spiraling molecule to give rise to the life that exists all around us."
+    },
+    "covers": [
+      10284157
+    ],
+    "key": "/works/OL20006723W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1432998A"
+        }
+      }
+    ],
+    "title": "Life's greatest secret",
+    "subjects": [
+      "Genetic code",
+      "DNA",
+      "Dna"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-19T03:58:05.298739"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-01-28T02:46:50.455577"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "index": 296,
+  "title": "Manifestoes",
+  "retrievedAt": "2026-10-23T19:22:04.681Z",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/works/OL1950571W/editions.json?limit=100",
+      "status": 200
+    },
+    {
+      "url": "https://www.amazon.de/dp/1501728350",
+      "status": 200,
+      "title": "Amazon.de",
+      "countText": null,
+      "globalText": null,
+      "sha256": "45ee0eb66fff668e7f487af30b5b0b9ec265892942d8a7879c208d3b987b68af",
+      "bytes": 3815
+    },
+    {
+      "url": "https://www.amazon.com/dp/1501728350",
+      "status": 200,
+      "title": "Amazon.com",
+      "countText": null,
+      "globalText": null,
+      "sha256": "183f7f2d1108d8cd2ead4f8e7790254d5118119ebd88babc76347d10cf9d9706",
+      "bytes": 3781
+    }
+  ],
+  "edition": {
+    "type": {
+      "key": "/type/edition"
+    },
+    "authors": [
+      {
+        "key": "/authors/OL233908A"
+      }
+    ],
+    "isbn_13": [
+      "9781501728358"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "number_of_pages": 864,
+    "publish_date": "1999",
+    "publishers": [
+      "Cornell University Press"
+    ],
+    "source_records": [
+      "idb:9781501728358",
+      "openalex:W4235442012"
+    ],
+    "title": "Manifestoes",
+    "identifiers": {
+      "open_alex": [
+        "W4235442012"
+      ]
+    },
+    "isbn_10": [
+      "1501728350"
+    ],
+    "full_title": "Manifestoes",
+    "works": [
+      {
+        "key": "/works/OL1950571W"
+      }
+    ],
+    "key": "/books/OL51664434M",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-04-24T23:01:18.345428"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-04-24T23:01:18.345428"
+    }
+  },
+  "work": "https://openlibrary.org/works/OL1950571W"
+}

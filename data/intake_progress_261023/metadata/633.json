@@ -1,0 +1,118 @@
+{
+  "index": 633,
+  "title": "Revolution in Miniature: The History and Impact of Semiconductor Electronics",
+  "url": "https://openlibrary.org/search.json?title=Revolution%20in%20Miniature%3A%20The%20History%20and%20Impact%20of%20Semiconductor%20Electronics&author=Braun%2C%20E.%20and%20MacDonald%2C%20S.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:59.437Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ernest Braun"
+        ],
+        "first_publish_year": 1978,
+        "isbn": [
+          "0521218152",
+          "9780521218153",
+          "9780521247016",
+          "0521247012",
+          "0521289033",
+          "9780521289030"
+        ],
+        "key": "/works/OL2722195W",
+        "language": [
+          "eng"
+        ],
+        "title": "Revolution in miniature"
+      },
+      {
+        "author_name": [
+          "Braun"
+        ],
+        "first_publish_year": 1980,
+        "isbn": [
+          "9780521297998",
+          "0521297990"
+        ],
+        "key": "/works/OL8124022W",
+        "language": [
+          "eng"
+        ],
+        "title": "Revolution in Miniature"
+      },
+      {
+        "author_name": [
+          "E. Braun"
+        ],
+        "first_publish_year": 1978,
+        "key": "/works/OL21411761M",
+        "language": [
+          "eng"
+        ],
+        "title": "Revolution in miniature"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=Revolution%20in%20Miniature&author=Braun&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "title": "Revolution in miniature",
+    "covers": [
+      332387
+    ],
+    "first_publish_date": "1978",
+    "key": "/works/OL2722195W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL398483A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "621.3815/2"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Electronics",
+      "Semiconductors",
+      "History",
+      "Computers",
+      "Electronics, history"
+    ],
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T00:17:50.246651"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-10-04T05:23:51.163218"
+    }
+  }
+}

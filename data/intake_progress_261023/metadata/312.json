@@ -1,0 +1,119 @@
+{
+  "index": 312,
+  "title": "JavaScript",
+  "url": "https://openlibrary.org/search.json?isbn=0596517742&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:59:37.532Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Douglas Crockford",
+          "Ke luo ke fu de",
+          "Yan xue kun",
+          "Douglas Crockford"
+        ],
+        "first_publish_year": 2008,
+        "isbn": [
+          "059615383X",
+          "7121177404",
+          "0596517742",
+          "9782744023286",
+          "1548955450",
+          "2744023280",
+          "9780596153830",
+          "9780596517748",
+          "9781548955458",
+          "9787121177408"
+        ],
+        "key": "/works/OL9486352W",
+        "language": [
+          "fre",
+          "eng",
+          "chi"
+        ],
+        "title": "JavaScript"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "JavaScript (Computer program language)",
+      "javascript",
+      "web",
+      "programming",
+      "browsers",
+      "JavaScript (Computer language)",
+      "General",
+      "Games",
+      "Com051260",
+      "Cs.cmp_sc.app_sw",
+      "Cs.cmp_sc.prog_lang",
+      "JAVA yu yan",
+      "Cheng xu she ji"
+    ],
+    "key": "/works/OL9486352W",
+    "title": "JavaScript",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL3501231A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9968926A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9968927A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL14426346A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      9245523,
+      2536428,
+      12492351
+    ],
+    "description": "Covers the bits of Javascript that are worth using, and how to use them, as well as the bits that should be avoided.",
+    "subtitle": "The Good Parts",
+    "latest_revision": 9,
+    "revision": 9,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T00:36:58.900414"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-06-04T19:06:43.348652"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "index": 135,
+  "title": "Existential America",
+  "url": "https://openlibrary.org/search.json?isbn=0801882001&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:57:15.146Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "George Cotkin"
+        ],
+        "first_publish_year": 2005,
+        "isbn": [
+          "9780801882005",
+          "0801882001"
+        ],
+        "key": "/works/OL19358071W",
+        "title": "Existential America"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-03-27T11:39:27.156444"
+    },
+    "subjects": [
+      "Existentialism",
+      "Philosophy, american"
+    ],
+    "latest_revision": 2,
+    "key": "/works/OL19358071W",
+    "title": "Existential America",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7488185A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-01T08:26:09.626377"
+    },
+    "covers": [
+      8472597
+    ],
+    "revision": 2
+  }
+}

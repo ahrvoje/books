@@ -1,0 +1,105 @@
+{
+  "index": 2,
+  "title": "The Decadent Society: How We Became the Victims of Our Own Success",
+  "url": "https://openlibrary.org/search.json?title=The%20Decadent%20Society%3A%20How%20We%20Became%20the%20Victims%20of%20Our%20Own%20Success&author=Ross%20Douthat&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:55:06.797Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ross Gregory Douthat"
+        ],
+        "first_publish_year": 2020,
+        "isbn": [
+          "9781476785257",
+          "1476785252",
+          "9781797103198",
+          "1797103199",
+          "8434433176",
+          "9781476785264",
+          "9788434433175",
+          "9781476785240",
+          "1476785260",
+          "1476785244"
+        ],
+        "key": "/works/OL20652745W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Decadent Society"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=The%20Decadent%20Society&author=Ross%20Douthat&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "subtitle": "How We Became the Victims of Our Own Success",
+    "key": "/works/OL20652745W",
+    "title": "The Decadent Society",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL5584601A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      9297047,
+      10206689,
+      10673408
+    ],
+    "subjects": [
+      "New York Times reviewed",
+      "Civilization, modern, 21st century",
+      "Popular culture",
+      "Civilization, history",
+      "Modern Civilization",
+      "History"
+    ],
+    "links": [
+      {
+        "url": "https://www.nytimes.com/2020/02/25/books/review/the-decadent-society-ross-douthat.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 10,
+    "revision": 10,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-03-12T18:56:05.681337"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-10-17T04:28:01.108071"
+    }
+  }
+}

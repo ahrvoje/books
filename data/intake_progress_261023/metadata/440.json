@@ -1,0 +1,92 @@
+{
+  "index": 440,
+  "title": "Hooligan",
+  "url": "https://openlibrary.org/search.json?isbn=0805238859&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:01:03.464Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Geoffrey Pearson"
+        ],
+        "first_publish_year": 1983,
+        "isbn": [
+          "1349170763",
+          "9780333234006",
+          "0333234006",
+          "0333233999",
+          "0805238859",
+          "9780333233993",
+          "9781349170760",
+          "9780805238853"
+        ],
+        "key": "/works/OL4960035W",
+        "language": [
+          "eng"
+        ],
+        "title": "Hooligan"
+      }
+    ]
+  },
+  "work": {
+    "title": "Hooligan",
+    "covers": [
+      198825
+    ],
+    "subject_places": [
+      "Great Britain"
+    ],
+    "subjects": [
+      "History",
+      "Hoodlums",
+      "Social conditions",
+      "Violent crimes",
+      "Crime, sociological aspects",
+      "Public opinion",
+      "Voyous",
+      "Histoire",
+      "Geschichte",
+      "Hooligan",
+      "Kriminologie",
+      "Straßenkriminalität",
+      "Vandalisme",
+      "Crimes et criminels"
+    ],
+    "key": "/works/OL4960035W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1070365A"
+        }
+      }
+    ],
+    "subject_times": [
+      "19th century",
+      "20th century"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T08:08:32.268475"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-06-14T04:31:24.829070"
+    }
+  }
+}

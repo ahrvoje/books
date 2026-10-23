@@ -1,0 +1,96 @@
+{
+  "index": 219,
+  "title": "Why Does the World Exist?",
+  "url": "https://openlibrary.org/search.json?isbn=0871403595&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:58:10.222Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jim Holt"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "9781847654106",
+          "0393080617",
+          "9780393065343",
+          "9781846682452",
+          "9780871403599",
+          "1846682452",
+          "0871403595",
+          "9780871403278",
+          "9780393080612",
+          "0871403277",
+          "184765410X",
+          "0393065340"
+        ],
+        "key": "/works/OL21455893W",
+        "language": [
+          "eng"
+        ],
+        "title": "Why Does the World Exist?"
+      }
+    ]
+  },
+  "work": {
+    "title": "Why Does the World Exist?",
+    "subjects": [
+      "Existentialism",
+      "Cosmology",
+      "nyt:paperback-nonfiction=2013-04-21",
+      "New York Times bestseller",
+      "New York Times reviewed"
+    ],
+    "key": "/works/OL21455893W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL724957A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "links": [
+      {
+        "url": "http://www.nytimes.com/2012/08/03/books/why-does-the-world-exist-by-jim-holt.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      },
+      {
+        "url": "http://www.nytimes.com/2012/08/05/books/review/why-does-the-world-exist-by-jim-holt.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "covers": [
+      11555386
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-21T11:29:20.203156"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-11-02T15:01:14.226216"
+    }
+  }
+}

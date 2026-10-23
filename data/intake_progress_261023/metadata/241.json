@@ -1,0 +1,80 @@
+{
+  "index": 241,
+  "title": "A Vast Machine",
+  "url": "https://openlibrary.org/search.json?isbn=0262518635&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:58:24.925Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Paul N. Edwards"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "0262290715",
+          "1282899317",
+          "9780262518635",
+          "9780262013925",
+          "9780262294096",
+          "9780262294102",
+          "9781282899315",
+          "0262294095",
+          "0262294109",
+          "9780262290715",
+          "0262013924",
+          "0262518635"
+        ],
+        "key": "/works/OL15315933W",
+        "language": [
+          "eng"
+        ],
+        "title": "A vast machine"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Climatology",
+      "History",
+      "Global temperature changes",
+      "Technological innovation",
+      "Meteorology",
+      "Weather forecasting",
+      "Meteorology, history"
+    ],
+    "subtitle": "computer models, climate data, and the politics of global warming",
+    "key": "/works/OL15315933W",
+    "title": "A vast machine",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL447795A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-08-13T14:49:18.699966"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-28T23:40:43.160184"
+    }
+  }
+}

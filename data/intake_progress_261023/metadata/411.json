@@ -1,0 +1,98 @@
+{
+  "index": 411,
+  "title": "Incompleteness",
+  "url": "https://openlibrary.org/search.json?isbn=0393051692&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:00:43.840Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Rebecca Goldstein"
+        ],
+        "first_publish_year": 2005,
+        "isbn": [
+          "9788961390088",
+          "0393051692",
+          "9780739457443",
+          "9780393051698",
+          "0739457446",
+          "8961390082",
+          "9780393327601",
+          "0393327604"
+        ],
+        "key": "/works/OL86044W",
+        "language": [
+          "eng"
+        ],
+        "title": "Incompleteness"
+      }
+    ]
+  },
+  "work": {
+    "subtitle": "The Proof and Paradox of Kurt Godel (Great Discoveries)",
+    "title": "Incompleteness",
+    "covers": [
+      247750
+    ],
+    "subject_places": [
+      "United States",
+      "Austria"
+    ],
+    "subjects": [
+      "Logicians",
+      "Biography",
+      "Proof theory",
+      "Gödel's theorem",
+      "Mathematics",
+      "Goedel, kurt, 1906-1978",
+      "Logiciens",
+      "Preuve, Théorie de la",
+      "Lógica matemática (teoria)",
+      "Biografias",
+      "Gödel, kurt",
+      "Logicians--united states--biography",
+      "Logicians--austria--biography",
+      "Qa29.g58 g65 2005",
+      "510/.92 b"
+    ],
+    "subject_people": [
+      "Kurt Gödel (1906-1978)"
+    ],
+    "key": "/works/OL86044W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL31774A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "\"An introduction to the life and thought of Kurt Gödel, who transformed our conception of math forever\" -- Provided by publisher."
+    },
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-10-17T11:24:20.769455"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-12-18T19:51:04.394380"
+    }
+  }
+}

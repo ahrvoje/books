@@ -1,0 +1,77 @@
+{
+  "index": 583,
+  "title": "The Next Whole Earth Catalog",
+  "url": "https://openlibrary.org/search.json?isbn=0394739515&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:37.459Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Stewart Brand"
+        ],
+        "first_publish_year": 1980,
+        "isbn": [
+          "9780394707761",
+          "9780317322736",
+          "0394707761",
+          "0394739515",
+          "0317322737",
+          "9780394739519"
+        ],
+        "key": "/works/OL823144W",
+        "language": [
+          "eng"
+        ],
+        "title": "Next Whole Earth Catalog"
+      }
+    ]
+  },
+  "work": {
+    "subtitle": "Access to Tools",
+    "title": "Next Whole Earth Catalog",
+    "key": "/works/OL823144W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL69677A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Catalogs",
+      "Equipment and supplies",
+      "Handicraft",
+      "Manufactures",
+      "Commercial catalogs",
+      "Long Now Manual for Civilization"
+    ],
+    "covers": [
+      13133216,
+      13908185
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T04:58:25.291321"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-03-25T05:55:26.912016"
+    }
+  }
+}

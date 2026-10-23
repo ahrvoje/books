@@ -1,0 +1,84 @@
+{
+  "index": 540,
+  "title": "Lore of Running",
+  "url": "https://openlibrary.org/search.json?isbn=0873229592&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:02:08.829Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Timothy Noakes"
+        ],
+        "first_publish_year": 1991,
+        "isbn": [
+          "0880114371",
+          "088011438X",
+          "9780873229593",
+          "9780880114370",
+          "9780880114387",
+          "0873229592"
+        ],
+        "key": "/works/OL15837988W",
+        "language": [
+          "eng"
+        ],
+        "title": "Lore of running"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Training",
+      "CORRIDAS",
+      "Course à pied",
+      "ATLETISMO",
+      "Running",
+      "Entraînement",
+      "Aspect physiologique",
+      "Physiological aspects",
+      "Physiological aspects of Running",
+      "Running [MESH]"
+    ],
+    "key": "/works/OL15837988W",
+    "title": "Lore of running",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL889253A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      6801597,
+      663251
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Discusses the details of physiology, biochemistry, racing, injuries, and tips for different aspects of running, and covers training methods, genetic versus trainable potential, information on programs--including those for marathons--from various experts, and a look at legendary figures and events in the history of the sport."
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-07-08T10:16:00.800518"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-05-20T10:42:40.000245"
+    }
+  }
+}

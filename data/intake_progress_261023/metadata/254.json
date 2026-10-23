@@ -1,0 +1,79 @@
+{
+  "index": 254,
+  "title": "Bill Bolton",
+  "url": "https://openlibrary.org/search.json?title=Bill%20Bolton&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:58:35.971Z",
+  "status": 200,
+  "search": {
+    "numFound": 13,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 13,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Noel Sainsbury"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "9781434418449",
+          "9781236683519",
+          "9798718401400",
+          "123668351X",
+          "1434418448"
+        ],
+        "key": "/works/OL28614116W",
+        "language": [
+          "eng"
+        ],
+        "title": "Bill Bolton, Flying Midshipman"
+      },
+      {
+        "author_name": [
+          "Lieutenant Noel Jr SAINSBURY"
+        ],
+        "first_publish_year": 1933,
+        "key": "/works/OL31534204W",
+        "title": "Bill Bolton"
+      },
+      {
+        "author_name": [
+          "Noel Sainsbury"
+        ],
+        "first_publish_year": 1933,
+        "key": "/works/OL14911104W",
+        "title": "Bill Bolton, flying midshipman"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Bill Bolton, Flying Midshipman",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL10605316A"
+        }
+      }
+    ],
+    "key": "/works/OL28614116W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-08-17T06:26:16.831602"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-08-17T06:26:16.831602"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "index": 673,
+  "title": "A History of Venice",
+  "url": "https://openlibrary.org/search.json?title=A%20History%20of%20Venice&author=Norwich%2C%20J.J.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:12.968Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John Julius Norwich"
+        ],
+        "first_publish_year": 1999,
+        "isbn": [
+          "0140066233",
+          "9780140066234"
+        ],
+        "key": "/works/OL764337W",
+        "language": [
+          "spa"
+        ],
+        "title": "Venice a History of"
+      }
+    ]
+  },
+  "retry": {
+    "url": "https://openlibrary.org/search.json?title=A%20History%20of%20Venice&author=Norwich&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+    "status": 200,
+    "previous": {
+      "numFound": 0,
+      "start": 0,
+      "numFoundExact": true,
+      "num_found": 0,
+      "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+      "q": "",
+      "offset": null,
+      "docs": []
+    }
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T03:27:30.237538"
+    },
+    "title": "Venice a History of",
+    "covers": [
+      93836
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-04-28T09:29:23.087989"
+    },
+    "latest_revision": 2,
+    "key": "/works/OL764337W",
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL62890A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 2
+  }
+}

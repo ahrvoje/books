@@ -1,0 +1,84 @@
+{
+  "index": 523,
+  "title": "Writing to the Moment",
+  "url": "https://openlibrary.org/search.json?isbn=0571175813&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:01:58.125Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Tom Paulin"
+        ],
+        "first_publish_year": 1996,
+        "isbn": [
+          "0571175821",
+          "0571175813",
+          "9780571175826",
+          "9780571175819"
+        ],
+        "key": "/works/OL2580856W",
+        "language": [
+          "eng"
+        ],
+        "title": "Writing to the moment"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1996",
+    "subtitle": "selected critical essays : 1980-1996",
+    "title": "Writing to the moment",
+    "covers": [
+      377053
+    ],
+    "subject_places": [
+      "Northern Ireland"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL369481A"
+        }
+      }
+    ],
+    "lc_classifications": [
+      "PR99 .P36 1996"
+    ],
+    "key": "/works/OL2580856W",
+    "dewey_number": [
+      "820.9"
+    ],
+    "subjects": [
+      "History and criticism",
+      "English literature",
+      "Criticism",
+      "Civilization",
+      "English poetry",
+      "Poetics"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T23:59:38.134038"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-11-18T14:20:27.959375"
+    }
+  }
+}

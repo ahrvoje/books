@@ -1,0 +1,87 @@
+{
+  "index": 252,
+  "title": "The Portable Medieval Reader",
+  "retrievedAt": "2026-10-23T19:22:00.425Z",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/works/OL18849708W/editions.json?limit=100",
+      "status": 200
+    },
+    {
+      "url": "https://www.amazon.de/dp/0670465437",
+      "status": 200,
+      "title": "Amazon.de",
+      "countText": null,
+      "globalText": null,
+      "sha256": "7c3dc6c1bf82c539ed4522eacfa571f445350d3520eaebaab1a2be83807bceb0",
+      "bytes": 3815
+    },
+    {
+      "url": "https://www.amazon.com/dp/0670465437",
+      "status": 200,
+      "title": "Amazon.com",
+      "countText": null,
+      "globalText": null,
+      "sha256": "a8fee47180e323b4c5af2196f662a6d0b6f5b476087aa5c133803f5da96c1f0d",
+      "bytes": 3781
+    }
+  ],
+  "edition": {
+    "type": {
+      "key": "/type/edition"
+    },
+    "authors": [
+      {
+        "key": "/authors/OL10276427A"
+      },
+      {
+        "key": "/authors/OL4870614A"
+      }
+    ],
+    "isbn_13": [
+      "9780670465422"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "lc_classifications": [
+      "PN667.R6"
+    ],
+    "publish_date": "1949",
+    "publishers": [
+      "Penguin Publishing Group"
+    ],
+    "source_records": [
+      "bwb:9780670465422",
+      "promise:bwb_daily_pallets_2024-08-19:P9-CKJ-724"
+    ],
+    "subjects": [
+      "Literature, medieval"
+    ],
+    "title": "Portable Medieval Reader",
+    "weight": "9.091",
+    "full_title": "Portable Medieval Reader",
+    "works": [
+      {
+        "key": "/works/OL18849708W"
+      }
+    ],
+    "key": "/books/OL44206554M",
+    "local_id": [
+      "urn:bwbsku:P9-CKJ-724"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-12-17T12:49:50.857997"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-08-21T01:26:25.185458"
+    }
+  },
+  "work": "https://openlibrary.org/works/OL18849708W"
+}

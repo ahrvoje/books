@@ -1,0 +1,80 @@
+{
+  "index": 728,
+  "title": "ICBM",
+  "url": "https://openlibrary.org/search.json?title=ICBM&author=G.%20Harry%20Stine&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T19:03:40.466Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "G. Harry Stine"
+        ],
+        "first_publish_year": 1991,
+        "isbn": [
+          "0517567687",
+          "9780517567685"
+        ],
+        "key": "/works/OL2660803W",
+        "language": [
+          "eng"
+        ],
+        "title": "ICBM"
+      }
+    ]
+  },
+  "work": {
+    "lc_classifications": [
+      "UG1312.I2 S75 1991"
+    ],
+    "key": "/works/OL2660803W",
+    "title": "ICBM",
+    "subject_places": [
+      "United States",
+      "Soviet Union"
+    ],
+    "first_publish_date": "1991",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL388053A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "623.4/51954"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Design and construction",
+      "History",
+      "Ballistic missiles",
+      "Intercontinental ballistic missiles"
+    ],
+    "covers": [
+      12187505
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T00:10:32.229110"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-10-23T06:25:38.336875"
+    }
+  }
+}

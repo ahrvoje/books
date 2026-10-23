@@ -1,0 +1,72 @@
+{
+  "index": 208,
+  "title": "The Chicken from Minsk",
+  "url": "https://openlibrary.org/search.json?isbn=0465071279&limit=3&fields=key,title,author_name,first_publish_year,isbn,language",
+  "retrievedAt": "2026-10-23T18:58:02.492Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Yuri B. Chernyak"
+        ],
+        "first_publish_year": 1995,
+        "isbn": [
+          "9780465071272",
+          "1857994086",
+          "0465071279",
+          "0297816888",
+          "9781857994087",
+          "9780297816881"
+        ],
+        "key": "/works/OL3740706W",
+        "language": [
+          "eng"
+        ],
+        "title": "The chicken from Minsk"
+      }
+    ]
+  },
+  "work": {
+    "title": "The chicken from Minsk",
+    "subjects": [
+      "Problems, exercises",
+      "Mathematical physics"
+    ],
+    "key": "/works/OL3740706W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL656457A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "The brainy and infuriatingly fun-to-solve problems that have kept the best Russian math and physics students biting their pencils as far back as the time of the czars."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T04:21:47.045042"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-04-12T15:27:20.580142"
+    }
+  }
+}
