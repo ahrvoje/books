@@ -1,0 +1,63 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=ISBN:1282569422&jscmd=details&format=json",
+  "retrieved": "2026-10-23T21:44:51.431Z",
+  "status": 200,
+  "data": {
+    "ISBN:1282569422": {
+      "bib_key": "ISBN:1282569422",
+      "info_url": "http://openlibrary.org/books/OL46035003M/Engineers",
+      "preview": "noview",
+      "preview_url": "http://openlibrary.org/books/OL46035003M/Engineers",
+      "details": {
+        "type": {
+          "key": "/type/edition"
+        },
+        "authors": [
+          {
+            "key": "/authors/OL2020996A",
+            "name": "Matthew Wells"
+          }
+        ],
+        "isbn_13": [
+          "9781282569423"
+        ],
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "pagination": "243",
+        "publish_date": "2010",
+        "publishers": [
+          "Routledge"
+        ],
+        "source_records": [
+          "bwb:9781282569423"
+        ],
+        "subjects": [
+          "Engineering design"
+        ],
+        "title": "Engineers",
+        "subtitle": "A History of Engineering and Structural Design",
+        "full_title": "Engineers A History of Engineering and Structural Design",
+        "works": [
+          {
+            "key": "/works/OL25233434W"
+          }
+        ],
+        "key": "/books/OL46035003M",
+        "latest_revision": 1,
+        "revision": 1,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2023-01-17T03:37:30.861431"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2023-01-17T03:37:30.861431"
+        }
+      }
+    }
+  },
+  "file": "data/top250_261023/raw/7a9343984dc443d4.json"
+}

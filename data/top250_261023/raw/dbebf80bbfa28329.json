@@ -1,0 +1,38 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Life's%20Greatest%20Secret&author=Matthew%20Cobb&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:46:47.794Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Matthew Cobb"
+        ],
+        "edition_key": [
+          "OL27186812M",
+          "OL34484745M"
+        ],
+        "key": "/works/OL20006723W",
+        "title": "Life's greatest secret"
+      },
+      {
+        "author_name": [
+          "Matthew Cobb"
+        ],
+        "edition_key": [
+          "OL51332817M"
+        ],
+        "key": "/works/OL37933166W",
+        "title": "Life's Greatest Secret"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/dbebf80bbfa28329.json"
+}

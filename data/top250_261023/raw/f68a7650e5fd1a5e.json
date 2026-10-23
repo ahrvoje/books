@@ -1,0 +1,63 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=ISBN:1467593079&jscmd=details&format=json",
+  "retrieved": "2026-10-23T21:47:41.574Z",
+  "status": 200,
+  "data": {
+    "ISBN:1467593079": {
+      "bib_key": "ISBN:1467593079",
+      "info_url": "http://openlibrary.org/books/OL51983700M/Fabless",
+      "preview": "noview",
+      "preview_url": "http://openlibrary.org/books/OL51983700M/Fabless",
+      "details": {
+        "type": {
+          "key": "/type/edition"
+        },
+        "authors": [
+          {
+            "key": "/authors/OL7713100A",
+            "name": "Daniel Nenni"
+          }
+        ],
+        "isbn_13": [
+          "9781467593076"
+        ],
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "publish_date": "2014",
+        "publishers": [
+          "Independent Publisher"
+        ],
+        "source_records": [
+          "bwb:9781467593076",
+          "promise:bwb_daily_pallets_2024-10-25:W9-CTQ-767"
+        ],
+        "title": "Fabless",
+        "subtitle": "the Transformation of the Semiconductor Industry",
+        "full_title": "Fabless the Transformation of the Semiconductor Industry",
+        "works": [
+          {
+            "key": "/works/OL20346624W"
+          }
+        ],
+        "key": "/books/OL51983700M",
+        "local_id": [
+          "urn:bwbsku:W9-CTQ-767"
+        ],
+        "latest_revision": 2,
+        "revision": 2,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2024-06-19T10:28:56.820194"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2025-10-04T07:51:01.594256"
+        }
+      }
+    }
+  },
+  "file": "data/top250_261023/raw/f68a7650e5fd1a5e.json"
+}

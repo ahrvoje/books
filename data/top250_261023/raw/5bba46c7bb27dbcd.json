@@ -1,0 +1,48 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Imperial%20Chemical%20Industries&author=W.%20J.%20Reader&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:50:30.528Z",
+  "status": 200,
+  "data": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "W. J. Reader"
+        ],
+        "edition_key": [
+          "OL5010250M",
+          "OL14811402M"
+        ],
+        "key": "/works/OL4982575W",
+        "title": "Imperial Chemical industries"
+      },
+      {
+        "author_name": [
+          "W. J. Reader"
+        ],
+        "edition_key": [
+          "OL10126482M"
+        ],
+        "key": "/works/OL4982563W",
+        "title": "Imperial Chemical Industries Vol 2 1926-52"
+      },
+      {
+        "author_name": [
+          "W. J Reader"
+        ],
+        "edition_key": [
+          "OL19386935M"
+        ],
+        "key": "/works/OL12746545W",
+        "title": "Imperial Chemical Industries and the state, 1926-1945"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/5bba46c7bb27dbcd.json"
+}

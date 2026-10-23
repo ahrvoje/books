@@ -1,0 +1,46 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Wings&author=Tom%20D.%20Crouch&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:45:09.075Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Tom D. Crouch"
+        ],
+        "edition_key": [
+          "OL7457664M",
+          "OL23271554M",
+          "OL7451964M",
+          "OL7454147M",
+          "OL22568580M"
+        ],
+        "key": "/works/OL4631476W",
+        "title": "Wings"
+      },
+      {
+        "author_name": [
+          "Tom D. Crouch"
+        ],
+        "edition_key": [
+          "OL29670759M",
+          "OL22218043M",
+          "OL7457352M",
+          "OL4103499M",
+          "OL7453835M",
+          "OL2049156M"
+        ],
+        "key": "/works/OL4631475W",
+        "title": "A dream of wings"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/f77ae06728fd8801.json"
+}

@@ -38,8 +38,23 @@ export function validateConnections(book) {
     assert(Number.isInteger(j.strength) && j.strength >= 1 && j.strength <= 4 && ['high', 'moderate', 'low'].includes(j.confidence));
   }
 }
+export function referenceRangeCount(ranges) {
+  const pages = new Set(), multiVolume = ranges.some(span => span.volume != null);
+  for (const span of ranges) {
+    assert(Number.isInteger(span.start) && Number.isInteger(span.end) && span.start > 0 && span.end >= span.start, 'Invalid reference range');
+    if (multiVolume) assert(typeof span.volume === 'string' && span.volume.trim(), 'Every range must identify its volume');
+    for (let p = span.start; p <= span.end; p++) pages.add(`${span.volume || ''}:${p}`);
+  }
+  return pages.size;
+}
 export function buildDataset() {
   const compiled = json(json('data/catalog.json').compiled), ledger = rows(read('RECOMMENDED_BOOKS.md'));
+  const ledgerHeaders = read('RECOMMENDED_BOOKS.md').split(/\r?\n/)[0].split('|').slice(1, -1).map(s => s.trim());
+  const ledgerColumn = name => {
+    const index = ledgerHeaders.indexOf(name);
+    assert(index >= 0, `Missing recommended ledger column: ${name}`);
+    return index;
+  };
   const editions = json('site/editions.json');
   const referencePages = json('site/reference-pages.json');
   const currentIds = new Set(compiled.currentBooks.map(b=>b.id));
@@ -49,12 +64,7 @@ export function buildDataset() {
     assert(['unknown','low','moderate','high'].includes(r.confidence), `Invalid reference confidence: ${id}`);
     if (r.pages !== null) {
       assert(r.edition?.id && safeURL(r.url) && r.ranges?.length, `Missing reference-page evidence: ${id}`);
-      const pages = new Set();
-      for (const span of r.ranges) {
-        assert(Number.isInteger(span.start) && Number.isInteger(span.end) && span.start > 0 && span.end >= span.start, `Invalid reference range: ${id}`);
-        for(let p=span.start;p<=span.end;p++) pages.add(p);
-      }
-      assert.equal(r.pages, pages.size, `Reference range arithmetic mismatch: ${id}`);
+      assert.equal(r.pages, referenceRangeCount(r.ranges), `Reference range arithmetic mismatch: ${id}`);
     }
   }
   for(const [id,e] of Object.entries(editions)){
@@ -116,12 +126,16 @@ export function buildDataset() {
     assert(b.raw?.length === 10 && b.raw.every(known));
     assert([0, -10].includes(b.T11) && [0, -10].includes(b.T12));
     assert(known(b.year) && (b.periodEnd === null || known(b.periodEnd)));
-    const sources = [...new Set(row[5].match(/\d+/g).map(Number))].sort((a, c) => a - c);
+    const sources = [...new Set(row[ledgerColumn(ledgerHeaders.includes('Sources') ? 'Sources' : 'Source')].match(/\d+/g).map(Number))].sort((a, c) => a - c);
     sources.forEach(id => assert(sourceMap[id], `Unknown source ${id}`));
     const extra = { ...(enrichment.books[b.id] || {}) }, values = Object.fromEntries(REGISTRY.map(r => [r.id, null]));
     extra.edition ||= editions[b.id];
-    assert.equal(row[6],pageCell(extra.edition), `Recommended page-count mismatch: ${b.id}`);
-    assert.equal(row[7],ratingCell(b.amazon), `Recommended rating-count mismatch: ${b.id}`);
+    assert.equal(row[ledgerColumn('Pages (edition)')],pageCell(extra.edition), `Recommended page-count mismatch: ${b.id}`);
+    assert.equal(row[ledgerColumn('Amazon ratings')],ratingCell(b.amazon), `Recommended rating-count mismatch: ${b.id}`);
+    if (ledgerHeaders.includes('Reference pages')) {
+      const rp = referencePages[b.id];
+      assert.equal(row[ledgerColumn('Reference pages')],rp.pages === null ? 'Unknown' : `[${rp.pages}](${rp.url})`, `Recommended reference-page mismatch: ${b.id}`);
+    }
     REGISTRY.slice(0, 10).forEach((r, i) => { assert(b.raw[i] >= 0 && b.raw[i] <= r.max); values[r.id] = b.raw[i]; });
     Object.assign(values, { T11: -b.T11 / 10, T12: -b.T12 / 10, SRC: sources.length, O15: b.amazon?.count ?? null, PG: extra.edition?.pages ?? null, RP: referencePages[b.id].pages });
     for (const id of DOMAIN_IDS) {

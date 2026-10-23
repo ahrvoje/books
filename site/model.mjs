@@ -66,7 +66,7 @@ export function rawGuidance(id) {
   return `Raw range: 0–${r.max} ${r.unit === 'attainment' ? 'attainment points' : r.unit === 'level' ? 'percent' : r.unit}. ${r.derived ? 'Requires a configured target and sufficient evidence.' : 'Higher values mean greater attainment.'}`;
 }
 const hasID = id => typeof id === 'string' && Object.hasOwn(BY_ID, id);
-export const CORE_COLUMNS = ['year', 'raw:PG', 'raw:O15', 'raw:SRC'];
+export const CORE_COLUMNS = ['year', 'raw:O15', 'raw:PG', 'raw:RP', 'raw:SRC'];
 export const DEFAULT_COLUMNS = [...CORE_COLUMNS];
 const columnNames = { E: 'Evidence', S: 'Systems integration', U: 'Strategic utility', M: 'Causal depth', D: 'Information density',
   R: 'Durability', F: 'Domain fit', A: 'Expert authority', N: 'Narrative clarity', P: 'Prose precision', T11: 'Unwanted theme',

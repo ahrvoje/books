@@ -1,0 +1,124 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL53242780M,ISBN:0262518635&jscmd=details&format=json",
+  "retrieved": "2026-10-23T21:49:25.360Z",
+  "status": 200,
+  "data": {
+    "OLID:OL53242780M": {
+      "bib_key": "OLID:OL53242780M",
+      "info_url": "http://openlibrary.org/books/OL53242780M/Vast_Machine",
+      "preview": "noview",
+      "preview_url": "http://openlibrary.org/books/OL53242780M/Vast_Machine",
+      "details": {
+        "type": {
+          "key": "/type/edition"
+        },
+        "authors": [
+          {
+            "key": "/authors/OL447795A",
+            "name": "Paul N. Edwards"
+          }
+        ],
+        "isbn_13": [
+          "9781282899315"
+        ],
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "number_of_pages": 547,
+        "publish_date": "2010",
+        "publishers": [
+          "MIT Press"
+        ],
+        "source_records": [
+          "bwb:9781282899315"
+        ],
+        "title": "Vast Machine",
+        "subtitle": "Computer Models, Climate Data, and the Politics of Global Warming",
+        "full_title": "Vast Machine Computer Models, Climate Data, and the Politics of Global Warming",
+        "works": [
+          {
+            "key": "/works/OL15315933W"
+          }
+        ],
+        "key": "/books/OL53242780M",
+        "latest_revision": 1,
+        "revision": 1,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2024-08-17T08:21:45.206928"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2024-08-17T08:21:45.206928"
+        }
+      }
+    },
+    "ISBN:0262518635": {
+      "bib_key": "ISBN:0262518635",
+      "info_url": "http://openlibrary.org/books/OL29549201M/Vast_Machine",
+      "preview": "noview",
+      "preview_url": "http://openlibrary.org/books/OL29549201M/Vast_Machine",
+      "details": {
+        "publishers": [
+          "MIT Press"
+        ],
+        "subtitle": "Computer Models, Climate Data, and the Politics of Global Warming",
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2020-08-27T05:34:43.188145"
+        },
+        "source_records": [
+          "bwb:9780262518635"
+        ],
+        "title": "Vast Machine",
+        "number_of_pages": 552,
+        "isbn_13": [
+          "9780262518635"
+        ],
+        "created": {
+          "type": "/type/datetime",
+          "value": "2020-08-27T05:34:43.188145"
+        },
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "full_title": "Vast Machine Computer Models, Climate Data, and the Politics of Global Warming",
+        "lc_classifications": [
+          "QC995.E296 2013"
+        ],
+        "publish_date": "2013",
+        "key": "/books/OL29549201M",
+        "authors": [
+          {
+            "key": "/authors/OL447795A",
+            "name": "Paul N. Edwards"
+          },
+          {
+            "key": "/authors/OL24920A",
+            "name": "Geoffrey C. Bowker"
+          }
+        ],
+        "latest_revision": 1,
+        "works": [
+          {
+            "key": "/works/OL15315933W"
+          }
+        ],
+        "type": {
+          "key": "/type/edition"
+        },
+        "subjects": [
+          "Weather forecasting",
+          "Climatology",
+          "Meteorology, history"
+        ],
+        "revision": 1
+      }
+    }
+  },
+  "file": "data/top250_261023/raw/81cdb61724b0131f.json"
+}

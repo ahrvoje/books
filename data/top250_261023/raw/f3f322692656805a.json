@@ -1,0 +1,40 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Oil&author=Vaclav%20Smil&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:42:56.570Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL11951059M",
+          "OL37476826M",
+          "OL28314888M",
+          "OL34016229M"
+        ],
+        "key": "/works/OL1855326W",
+        "title": "Oil"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL50672967M"
+        ],
+        "key": "/works/OL37597390W",
+        "title": "Oil"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/f3f322692656805a.json"
+}

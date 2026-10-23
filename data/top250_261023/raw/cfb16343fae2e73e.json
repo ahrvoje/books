@@ -1,0 +1,50 @@
+{
+  "url": "https://openlibrary.org/search.json?title=IBM&author=James%20W.%20Cortada&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:43:37.669Z",
+  "status": 200,
+  "data": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "James W. Cortada"
+        ],
+        "edition_key": [
+          "OL27337248M",
+          "OL29809849M",
+          "OL29809854M",
+          "OL29809852M"
+        ],
+        "key": "/works/OL20156546W",
+        "title": "IBM"
+      },
+      {
+        "author_name": [
+          "James W. Cortada"
+        ],
+        "edition_key": [
+          "OL48268181M"
+        ],
+        "key": "/works/OL35772135W",
+        "title": "IBM"
+      },
+      {
+        "author_name": [
+          "James W. Cortada"
+        ],
+        "edition_key": [
+          "OL48199803M"
+        ],
+        "key": "/works/OL35726416W",
+        "title": "Inside IBM"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/cfb16343fae2e73e.json"
+}

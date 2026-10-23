@@ -1,0 +1,39 @@
+{
+  "url": "https://openlibrary.org/search.json?title=The%20Wheel&author=Richard%20Bulliet&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:51:15.701Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Richard W. Bulliet"
+        ],
+        "edition_key": [
+          "OL5182870M",
+          "OL2203331M"
+        ],
+        "key": "/works/OL3895369W",
+        "title": "The camel and the wheel"
+      },
+      {
+        "author_name": [
+          "Richard W. Bulliet"
+        ],
+        "edition_key": [
+          "OL29734071M",
+          "OL27205357M"
+        ],
+        "key": "/works/OL20025308W",
+        "title": "The wheel"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/3d94ffadcd213a4a.json"
+}

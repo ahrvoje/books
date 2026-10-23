@@ -1,0 +1,66 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=ISBN:1454908106&jscmd=details&format=json",
+  "retrieved": "2026-10-23T21:58:13.081Z",
+  "status": 200,
+  "data": {
+    "ISBN:1454908106": {
+      "bib_key": "ISBN:1454908106",
+      "info_url": "http://openlibrary.org/books/OL40731105M/Engineering_Book",
+      "preview": "noview",
+      "preview_url": "http://openlibrary.org/books/OL40731105M/Engineering_Book",
+      "details": {
+        "type": {
+          "key": "/type/edition"
+        },
+        "authors": [
+          {
+            "key": "/authors/OL341863A",
+            "name": "Marshall Brain"
+          }
+        ],
+        "isbn_13": [
+          "9781454908104"
+        ],
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "pagination": "528",
+        "publish_date": "2015",
+        "publishers": [
+          "Sterling Publishing Co., Inc."
+        ],
+        "source_records": [
+          "bwb:9781454908104"
+        ],
+        "subjects": [
+          "Engineering, history",
+          "Technology and civilization",
+          "Technological innovations",
+          "Civilization, western, history"
+        ],
+        "title": "Engineering Book",
+        "subtitle": "From the Catapult to the Curiosity Rover, 250 Milestones in the History of Engineering",
+        "full_title": "Engineering Book From the Catapult to the Curiosity Rover, 250 Milestones in the History of Engineering",
+        "works": [
+          {
+            "key": "/works/OL20006227W"
+          }
+        ],
+        "key": "/books/OL40731105M",
+        "latest_revision": 1,
+        "revision": 1,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2022-11-20T21:50:49.622622"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2022-11-20T21:50:49.622622"
+        }
+      }
+    }
+  },
+  "file": "data/top250_261023/raw/4deef4e7a87321e4.json"
+}

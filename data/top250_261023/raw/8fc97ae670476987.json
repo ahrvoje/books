@@ -1,0 +1,130 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL53245334M,ISBN:0262517264&jscmd=details&format=json",
+  "retrieved": "2026-10-23T21:54:38.951Z",
+  "status": 200,
+  "data": {
+    "OLID:OL53245334M": {
+      "bib_key": "OLID:OL53245334M",
+      "info_url": "http://openlibrary.org/books/OL53245334M/Grace_Hopper_and_the_Invention_of_the_Information_Age",
+      "preview": "noview",
+      "preview_url": "http://openlibrary.org/books/OL53245334M/Grace_Hopper_and_the_Invention_of_the_Information_Age",
+      "details": {
+        "type": {
+          "key": "/type/edition"
+        },
+        "authors": [
+          {
+            "key": "/authors/OL6501411A",
+            "name": "Kurt W. Beyer"
+          }
+        ],
+        "dewey_decimal_class": [
+          "004.092"
+        ],
+        "isbn_13": [
+          "9781282694262"
+        ],
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "number_of_pages": 389,
+        "publish_date": "2009",
+        "publishers": [
+          "MIT Press"
+        ],
+        "source_records": [
+          "bwb:9781282694262"
+        ],
+        "title": "Grace Hopper and the Invention of the Information Age",
+        "full_title": "Grace Hopper and the Invention of the Information Age",
+        "works": [
+          {
+            "key": "/works/OL13645282W"
+          }
+        ],
+        "key": "/books/OL53245334M",
+        "latest_revision": 1,
+        "revision": 1,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2024-08-17T09:12:47.138963"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2024-08-17T09:12:47.138963"
+        }
+      }
+    },
+    "ISBN:0262517264": {
+      "bib_key": "ISBN:0262517264",
+      "info_url": "http://openlibrary.org/books/OL26140019M/Grace_Hopper_and_the_Invention_of_the_Information_Age_Lemelson_Center_Studies_in_Invention_and_Innov",
+      "preview": "restricted",
+      "preview_url": "https://archive.org/details/gracehopperinven0000beye_b2d6",
+      "thumbnail_url": "https://covers.openlibrary.org/b/id/7801304-S.jpg",
+      "details": {
+        "title": "Grace Hopper and the Invention of the Information Age                            Lemelson Center Studies in Invention and Innovation",
+        "publish_date": "2012",
+        "publishers": [
+          "MIT Press (MA)"
+        ],
+        "covers": [
+          7801304
+        ],
+        "type": {
+          "key": "/type/edition"
+        },
+        "isbn_13": [
+          "9780262517263"
+        ],
+        "lc_classifications": [
+          "QA76.2.H67B49 2012",
+          "QA76.2.H67 B49 2012"
+        ],
+        "source_records": [
+          "bwb:9780262517263",
+          "ia:gracehopperinven0000beye_b2d6",
+          "promise:bwb_daily_pallets_2022-03-17",
+          "marc:harvard_bibliographic_metadata/ab.bib.13.20150123.full.mrc:534856989:1803",
+          "marc:harvard_bibliographic_metadata/20220215_033.bib.mrc:302345138:2500"
+        ],
+        "ocaid": "gracehopperinven0000beye_b2d6",
+        "key": "/books/OL26140019M",
+        "works": [
+          {
+            "key": "/works/OL13645282W"
+          }
+        ],
+        "local_id": [
+          "urn:bwbsku:P7-BQK-708"
+        ],
+        "oclc_numbers": [
+          "819862490",
+          "775026877"
+        ],
+        "description": {
+          "type": "/type/text",
+          "value": "This is a biography which explores the career of computer visionary Grace Murray Hopper, whose innovative work in programming laid the foundations for the user-friendliness of today's personal computers."
+        },
+        "number_of_pages": 389,
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "latest_revision": 9,
+        "revision": 9,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2016-10-14T20:14:15.038005"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2026-03-29T23:30:19.309155"
+        }
+      }
+    }
+  },
+  "file": "data/top250_261023/raw/8fc97ae670476987.json"
+}

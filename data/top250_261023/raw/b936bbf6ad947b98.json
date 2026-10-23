@@ -1,0 +1,39 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Concrete%20Planet&author=Robert%20Courland&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:52:03.866Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Robert Courland"
+        ],
+        "edition_key": [
+          "OL60929581M",
+          "OL60865962M",
+          "OL36374718M"
+        ],
+        "key": "/works/OL26826305W",
+        "title": "Concrete Planet"
+      },
+      {
+        "author_name": [
+          "Robert Courland"
+        ],
+        "edition_key": [
+          "OL25329172M"
+        ],
+        "key": "/works/OL16652410W",
+        "title": "Concrete planet"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/b936bbf6ad947b98.json"
+}

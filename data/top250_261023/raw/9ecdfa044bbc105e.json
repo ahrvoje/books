@@ -1,0 +1,39 @@
+{
+  "url": "https://openlibrary.org/search.json?title=The%20Hand&author=Frank%20R.%20Wilson&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:55:23.223Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Frank R. Wilson"
+        ],
+        "edition_key": [
+          "OL698697M",
+          "OL7698617M",
+          "OL7700107M"
+        ],
+        "key": "/works/OL2742531W",
+        "title": "The Hand"
+      },
+      {
+        "author_name": [
+          "Frank R. Wilson"
+        ],
+        "edition_key": [
+          "OL11127405M"
+        ],
+        "key": "/works/OL2742527W",
+        "title": "The Hand Postcards"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/9ecdfa044bbc105e.json"
+}

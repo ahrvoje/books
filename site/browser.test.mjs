@@ -35,8 +35,8 @@ try {
   await page.locator('[data-page="vetoed"]').click();
   await page.locator('[data-page="books"]').click();
   assert.notEqual(await page.evaluate(()=>document.activeElement.id),'results','Navigation must not focus the whole books container');
-  assert.deepEqual((await page.locator('#matching-list th[data-column]').evaluateAll(nodes=>nodes.map(n=>n.dataset.column))).slice(0,4),['year','raw:PG','raw:O15','raw:SRC']);
-  assert.equal(await page.locator('#matching-list th[data-column]').count(),4);
+  assert.deepEqual((await page.locator('#matching-list th[data-column]').evaluateAll(nodes=>nodes.map(n=>n.dataset.column))).slice(0,5),['year','raw:O15','raw:PG','raw:RP','raw:SRC']);
+  assert.equal(await page.locator('#matching-list th[data-column]').count(),5);
   assert.equal(await page.locator('#matching-list th[data-column="raw:O15"]').textContent(),'Amazon ratings');
   const columnLayout = await page.locator('#matching-list .book-table').evaluate(table => {
     const row=table.tBodies[0].rows[0];
@@ -61,7 +61,7 @@ try {
   await page.locator('[data-page="vetoed"]').click();
   assert.equal(await page.locator('#vetoed-list tr[data-veto-book]').count(),expected.vetoed.length);
   assert.equal(await page.locator('#vetoed-list .score').first().textContent(),expected.vetoed[0].score);
-  assert.deepEqual(await page.locator('#vetoed-list tr[data-veto-book]').evaluateAll(rows=>rows.map(r=>[3,4,5,8].map(i=>r.children[i].textContent))),expected.vetoed.map(b=>[b.edition?.pages ?? '—',b.referencePages.pages ?? '—',b.amazon.count ?? '—',b.sourceCount].map(String)));
+  assert.deepEqual(await page.locator('#vetoed-list tr[data-veto-book]').evaluateAll(rows=>rows.map(r=>[6,7,5,8].map(i=>r.children[i].textContent))),expected.vetoed.map(b=>[b.edition?.pages ?? '—',b.referencePages.pages ?? '—',b.amazon.count ?? '—',b.sourceCount].map(String)));
   assert.equal(await page.locator('#vetoed-list td a').count(),0);
   assert(await page.locator('#vetoed-list .veto-meta').evaluateAll(cells=>cells.every(c=>c.textContent!=='Unknown')));
   assert.equal(await page.locator('.control-shell').isVisible(),false);

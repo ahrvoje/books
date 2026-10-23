@@ -1,0 +1,37 @@
+{
+  "url": "https://openlibrary.org/search.json?title=This%20New%20Ocean&author=William%20E.%20Burrows&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:44:10.798Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "William E. Burrows"
+        ],
+        "edition_key": [
+          "OL7427334M"
+        ],
+        "key": "/works/OL7916258W",
+        "title": "This New Ocean"
+      },
+      {
+        "author_name": [
+          "Burrows, William E."
+        ],
+        "edition_key": [
+          "OL344293M"
+        ],
+        "key": "/works/OL1804796W",
+        "title": "太空物种 This new ocean"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/c48d21cd5a619249.json"
+}

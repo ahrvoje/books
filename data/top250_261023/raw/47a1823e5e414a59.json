@@ -1,0 +1,46 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Microsoft%20Secrets&author=Michael%20A.%20Cusumano&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:43:33.141Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Michael A. Cusumano",
+          "Richard W. Selby"
+        ],
+        "edition_key": [
+          "OL24963663M",
+          "OL794539M",
+          "OL18459512M",
+          "OL44095618M",
+          "OL19012980M",
+          "OL13125875M",
+          "OL7722260M",
+          "OL9854926M"
+        ],
+        "key": "/works/OL1806233W",
+        "title": "Microsoft Secrets"
+      },
+      {
+        "author_name": [
+          "Michael A. Cusumano",
+          "Richard Selby"
+        ],
+        "edition_key": [
+          "OL51330514M"
+        ],
+        "key": "/works/OL37932111W",
+        "title": "Microsoft Secrets"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/47a1823e5e414a59.json"
+}

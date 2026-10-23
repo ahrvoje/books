@@ -1,0 +1,52 @@
+{
+  "progress-0669": {
+    "edition": {
+      "id": "ISBN:9781882771141",
+      "pages": 562,
+      "format": "Complete two-volume PDF edition",
+      "language": "English",
+      "year": 2025,
+      "url": "https://www.aramcolife.com/-/media/aramco-life/publications/history-books/history-book-english-v-1.pdf",
+      "retrieved": "2026-10-24",
+      "confidence": "high",
+      "notes": "Second edition, author Scott McMurray, verified title/copyright pages in both publisher PDFs. PDF document counts292+270=562, including covers and preliminaries. Volume2: https://www.aramcolife.com/-/media/aramco-life/publications/history-books/history-book-english-v-2.pdf . Original publication remains2011 for scoring."
+    },
+    "referenceRecord": {
+      "pages": 14,
+      "confidence": "high",
+      "method": "publisher-pdf-contents-boundaries",
+      "ranges": [
+        {
+          "start": 242,
+          "end": 247,
+          "label": "Volume1: Notes on sources",
+          "evidence": "Volume1 contents page7: Notes on sources242, Image credits248.",
+          "volume": "I"
+        },
+        {
+          "start": 218,
+          "end": 225,
+          "label": "Volume2: Notes on sources and bibliography",
+          "evidence": "Volume2 contents page7: Notes on sources218, Bibliography224, Image credits226.",
+          "volume": "II"
+        }
+      ],
+      "edition": {
+        "id": "ISBN:9781882771141",
+        "title": "Energy to the World: The Story of Saudi Aramco",
+        "author": "Scott McMurray",
+        "year": 2025,
+        "language": "English"
+      },
+      "url": "https://www.aramcolife.com/-/media/aramco-life/publications/history-books/history-book-english-v-1.pdf",
+      "source": {
+        "retrieved": "2026-10-24",
+        "file": "data/top250_261023/raw/aramco-vol1.pdf",
+        "additionalFile": "data/top250_261023/raw/aramco-vol2.pdf",
+        "evidence": "Both publisher PDFs: numbered contents inspected; complete two-volume reference sections sum6+8=14pages."
+      },
+      "sameEditionAsPG": true,
+      "limitation": "Numbered section spans from the 2025 second edition. Includes any blank final section pages; excludes credits and indexes."
+    }
+  }
+}

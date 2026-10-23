@@ -1,0 +1,46 @@
+{
+  "url": "https://openlibrary.org/search.json?title=The%20Smartest%20Guys%20in%20the%20Room&author=Bethany%20McLean&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:53:31.177Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Bethany McLean",
+          "Peter Elkind"
+        ],
+        "edition_key": [
+          "OL23052876M",
+          "OL3380022M",
+          "OL8858124M",
+          "OL28781974M",
+          "OL38807713M",
+          "OL24968499M",
+          "OL21062202M",
+          "OL16197280M",
+          "OL25208906M"
+        ],
+        "key": "/works/OL13294327W",
+        "title": "The Smartest Guys in the Room"
+      },
+      {
+        "author_name": [
+          "McLean, Bethany, Elkind, Peter"
+        ],
+        "edition_key": [
+          "OL47034529M"
+        ],
+        "key": "/works/OL34695472W",
+        "title": "Smartest Guys in the Room"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/bf20a138699e1785.json"
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://openlibrary.org/search.json?title=When%20the%20Machine%20Stopped&author=Max%20Holland&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:54:08.810Z",
+  "status": 200,
+  "data": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Max Holland"
+        ],
+        "edition_key": [
+          "OL24223773M"
+        ],
+        "key": "/works/OL15156093W",
+        "title": "When the machine stopped"
+      },
+      {
+        "author_name": [
+          "Max Holland"
+        ],
+        "edition_key": [
+          "OL9352985M",
+          "OL2053629M"
+        ],
+        "key": "/works/OL3964671W",
+        "title": "When the machine stopped"
+      },
+      {
+        "author_name": [
+          "Max Holland",
+          "Harvard Business School"
+        ],
+        "edition_key": [
+          "OL9694785M"
+        ],
+        "key": "/works/OL9694785M",
+        "title": "When the Machine Stopped"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/efb518e3eac2eacf.json"
+}

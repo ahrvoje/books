@@ -1,0 +1,42 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Tesla&author=W.%20Bernard%20Carlson&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:43:40.685Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "W. Bernard Carlson"
+        ],
+        "edition_key": [
+          "OL29216045M",
+          "OL29163641M",
+          "OL35356828M",
+          "OL27145129M",
+          "OL32658762M"
+        ],
+        "key": "/works/OL19964911W",
+        "title": "Tesla"
+      },
+      {
+        "author_name": [
+          "W. Bernard Carlson"
+        ],
+        "edition_key": [
+          "OL28560208M",
+          "OL51693977M"
+        ],
+        "key": "/works/OL21099090W",
+        "title": "Tesla - Inventor of the Electrical Age"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/750d1de183fdaf91.json"
+}

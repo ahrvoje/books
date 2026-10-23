@@ -1,0 +1,42 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Eccentric%20Orbits&author=John%20Bloom&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:53:02.585Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John Bloom"
+        ],
+        "edition_key": [
+          "OL26414807M"
+        ],
+        "key": "/works/OL17826348W",
+        "title": "Eccentric Orbits"
+      },
+      {
+        "author_name": [
+          "John Bloom"
+        ],
+        "edition_key": [
+          "OL34532240M",
+          "OL44102641M",
+          "OL28624842M",
+          "OL35515878M",
+          "OL48163834M",
+          "OL38296450M"
+        ],
+        "key": "/works/OL21145143W",
+        "title": "Eccentric Orbits"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/cb16708b181a7561.json"
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://openlibrary.org/search.json?title=X%2C%20Y%20%26%20Z&author=Dermot%20Turing&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:56:35.383Z",
+  "status": 200,
+  "data": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Dermot Turing"
+        ],
+        "edition_key": [
+          "OL27338707M",
+          "OL33857170M",
+          "OL29397720M",
+          "OL39954046M",
+          "OL37055419M"
+        ],
+        "key": "/works/OL20157869W",
+        "title": "X, Y & Z"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/5d56014dbaffded4.json"
+}

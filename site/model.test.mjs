@@ -6,7 +6,7 @@ import { REGISTRY, DOMAIN_IDS, rawGuidance, defaultModel, defaultTerm, clone, no
 import fs from 'node:fs';
 import { gunzipSync } from 'node:zlib';
 import path from 'node:path';
-import { ROOT, HTML_FILE, build, buildDataset, validateConnections } from './build.mjs';
+import { ROOT, HTML_FILE, build, buildDataset, validateConnections, referenceRangeCount } from './build.mjs';
 const close = (a, b) => assert(Math.abs(a - b) < 1e-9, `${a} != ${b}`);
 const data = buildDataset();
 const model = defaultModel();
@@ -16,6 +16,13 @@ function fixture() {
     connections: { status: 'complete', mechanisms: [], joins: [] } };
 }
 const target = { domains: DOMAIN_IDS.slice(0, 8).map(id => ({ id, depth: 3, importance: 1 })), strength: 2, confidence: 'moderate' };
+test('reference ranges distinguish volumes and deduplicate within each volume', () => {
+  assert.equal(referenceRangeCount([{start:10,end:12},{start:12,end:14}]),5);
+  assert.equal(referenceRangeCount([{volume:'I',start:10,end:12},{volume:'II',start:10,end:12}]),6);
+  assert.equal(referenceRangeCount([{volume:'I',start:10,end:12},{volume:'I',start:12,end:14}]),5);
+  assert.throws(()=>referenceRangeCount([{volume:'I',start:10,end:12},{start:10,end:12}]));
+});
+
 test('reference pages support rates, missing-data filters, columns, and existing saved settings', () => {
   const previous = defaultModel(); delete previous.terms.RP;
   assert.deepEqual(validateModel(restoreOptionalTerms(previous)), []);
@@ -58,10 +65,10 @@ test('canonical full, half, flag, age, and count contributions', () => {
 });
 
 test('default columns stay compact when scoring changes, preserving custom choices', () => {
-  const m=clone(model),facts=['year','raw:PG','raw:O15','raw:SRC'];
-  assert.deepEqual(displayedColumns(m).slice(0,4),facts);
+  const m=clone(model),facts=['year','raw:O15','raw:PG','raw:RP','raw:SRC'];
+  assert.deepEqual(displayedColumns(m),facts);
   assert.equal(COLUMN_BY_ID['raw:O15'].short,'Amazon ratings');
-  assert.equal(displayedColumns(m).length,4);
+  assert.equal(displayedColumns(m).length,5);
   m.terms.PG.enabled=true;m.terms.E.enabled=false;
   assert.deepEqual(displayedColumns(m),facts);
   m.columnsMode='custom';m.columns=['year','periodEnd'];

@@ -1,0 +1,57 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Code&author=Charles%20Petzold&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:50:51.598Z",
+  "status": 200,
+  "data": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Charles Petzold",
+          "Charles Petzold"
+        ],
+        "edition_key": [
+          "OL7890589M",
+          "OL45224660M",
+          "OL37826421M",
+          "OL48596347M",
+          "OL7890773M",
+          "OL48596346M",
+          "OL17703091M"
+        ],
+        "key": "/works/OL1972516W",
+        "title": "Code"
+      },
+      {
+        "author_name": [
+          "Charles Petzold"
+        ],
+        "edition_key": [
+          "OL16198279M",
+          "OL25420399M",
+          "OL7891109M",
+          "OL24251844M"
+        ],
+        "key": "/works/OL1972513W",
+        "title": "Applications = Code + Markup"
+      },
+      {
+        "author_name": [
+          "Charles Petzold"
+        ],
+        "edition_key": [
+          "OL24307141M"
+        ],
+        "key": "/works/OL15175390W",
+        "title": "Applications = Code + Markup: A Guide to the Microsoft® Windows® Presentation Foundation"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/e019cbb623e2b67b.json"
+}

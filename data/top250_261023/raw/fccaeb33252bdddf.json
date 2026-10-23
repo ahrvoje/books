@@ -1,0 +1,41 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Invent%20and%20Wander&author=Jeff%20Bezos&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:58:19.087Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Walter Isaacson",
+          "Jeff Bezos"
+        ],
+        "edition_key": [
+          "OL28302595M",
+          "OL31380184M"
+        ],
+        "key": "/works/OL20895272W",
+        "title": "Invent and Wander"
+      },
+      {
+        "author_name": [
+          "Jeff Bezos",
+          "Walter Isaacson",
+          "Albert Beteta Mas"
+        ],
+        "edition_key": [
+          "OL42178416M"
+        ],
+        "key": "/works/OL30687789W",
+        "title": "Crea y Divaga / Invent and Wander"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/fccaeb33252bdddf.json"
+}

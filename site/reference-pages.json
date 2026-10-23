@@ -5912,9 +5912,33 @@
     "limitation": "Count covers the displayed numbered reference sections. Google Books can omit sections from its contents list; a boundary may include a final blank page. Not a citation count or evidence-quality measure."
   },
   "n9b15ca96a1": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Unknown after 7 recorded lookup steps. No usable numeric reference-section extent was found; absence of a count is not evidence of zero references."
+    "pages": 44,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 329,
+        "end": 372,
+        "label": "Selected sources",
+        "evidence": "Nicola Twilley, Penguin2025 English edition. Selected Sources329, Index373; acknowledgments precede on323. Snapshot search-toc-072.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780735223301",
+      "title": "Frostbite",
+      "author": "Nicola Twilley",
+      "year": 2025,
+      "language": "English"
+    },
+    "url": "https://books.google.com/books/about/Frostbite.html?hl=en&id=nG1MEQAAQBAJ&output=html_text",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-17.json",
+      "evidence": "Nicola Twilley, Penguin2025 English edition. Selected Sources329, Index373; acknowledgments precede on323. Snapshot search-toc-072.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "q0017": {
     "pages": 16,
@@ -66251,9 +66275,32 @@
     "reason": "Reference-page ranges were not established in the inspected edition metadata; unknown is not zero."
   },
   "intake-0170": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Reference-page ranges were not established in the inspected edition metadata; unknown is not zero."
+    "pages": 56,
+    "confidence": "moderate",
+    "method": "google-contents-boundaries",
+    "ranges": [
+      {
+        "start": 325,
+        "end": 380,
+        "label": "NOTES",
+        "evidence": "NOTES 325; INDEX 381",
+        "method": "contents-boundary"
+      }
+    ],
+    "edition": {
+      "id": "GoogleBooks:dr34DwAAQBAJ",
+      "title": "Grace Hopper and the Invention of the Information Age",
+      "author": "Kurt W. Beyer",
+      "language": "English numbered contents"
+    },
+    "url": "https://books.google.com/books?id=dr34DwAAQBAJ&hl=en",
+    "source": {
+      "url": "https://books.google.com/books?vid=ISBN0262517264&hl=en",
+      "file": "data/top250_261023/raw/google-56e7902156da63a8.html.gz",
+      "retrieved": "2026-10-23T21:58:25.825Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition."
   },
   "intake-0171": {
     "pages": 11,
@@ -66495,9 +66542,48 @@
     "reason": "Reference-page ranges were not established in the inspected edition metadata; unknown is not zero."
   },
   "intake-0190": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Reference-page ranges were not established in the inspected edition metadata; unknown is not zero."
+    "pages": 277,
+    "confidence": "moderate",
+    "method": "complete-set-catalog-and-contents",
+    "ranges": [
+      {
+        "start": 397,
+        "end": 474,
+        "label": "Volume I: Notes and bibliographic essay",
+        "evidence": "Google Books contents for ISBN0195165888: Notes397, Bibliographic Essay465, Index475.",
+        "volume": "I"
+      },
+      {
+        "start": 491,
+        "end": 600,
+        "label": "Volume II: Bibliographical references",
+        "evidence": "Library record OL17187010M, ISBN019516587X, explicit references491–600.",
+        "volume": "II"
+      },
+      {
+        "start": 364,
+        "end": 452,
+        "label": "Volume III: Bibliographical references",
+        "evidence": "Library record OL17247026M, ISBN0195165861, explicit references364–452.",
+        "volume": "III"
+      }
+    ],
+    "edition": {
+      "id": "EditionSet:0195165888+019516587X+0195165861",
+      "title": "The Digital Hand (complete three-volume set)",
+      "author": "James W. Cortada",
+      "year": 2008,
+      "language": "English"
+    },
+    "url": "https://books.google.com/books?id=iHXjswEACAAJ",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/raw/425cce9d0b162aff.json",
+      "additionalFile": "data/top250_261023/web-digitaltoc.json",
+      "evidence": "All three volumes:78+110+89=277 reference-section pages. Each volume has separate pagination; overlapping numeric ranges belong to different volumes."
+    },
+    "sameEditionAsPG": true,
+    "limitation": "Complete three-volume reference count. The linked preview identifies volume I; volume II and III evidence is retained in the saved library records. Excludes indexes."
   },
   "intake-0191": {
     "pages": null,
@@ -68851,14 +68937,67 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0003": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 6,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 255,
+        "end": 260,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. 255-260",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL988328M",
+      "title": "Scientific culture and the making of the industrial West",
+      "author": "Margaret C. Jacob",
+      "year": "1997",
+      "language": "eng",
+      "pages": 269,
+      "isbn": [
+        "0195082192",
+        "0195082206"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL988328M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL988328M,ISBN:0195082192&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/7df2eabe6a624d7d.json",
+      "retrieved": "2026-10-23T21:54:49.461Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0004": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 41,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 493,
+        "end": 533,
+        "label": "Bibliographical references",
+        "evidence": "Deirdre N. McCloskey; English Chicago edition. Explicit catalog range 493–533. Snapshot search-ref-104.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780226556659",
+      "title": "Bourgeois Dignity: Why Economics Can't Explain the Modern World",
+      "author": "Deirdre McCloskey",
+      "year": 2010,
+      "language": "English"
+    },
+    "url": "https://ci.nii.ac.jp/ncid/BB03959635",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-13.json",
+      "evidence": "Deirdre N. McCloskey; English Chicago edition. Explicit catalog range 493–533. Snapshot search-ref-104.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0005": {
     "pages": null,
@@ -68891,14 +69030,70 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0011": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 4,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 288,
+        "end": 291,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. 288-291",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL697262M",
+      "title": "The substance of civilization: materials and human history from the stone age to the age of silicon",
+      "author": "Stephen L. Sass",
+      "year": "1998",
+      "language": "eng",
+      "pages": 291,
+      "isbn": [
+        "1559703717"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL697262M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL697262M,OLID:OL8612048M,OLID:OL28474340M,OLID:OL29175248M,OLID:OL51819628M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/f1814fd71a321ed2.json",
+      "retrieved": "2026-10-23T21:47:22.013Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0012": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 17,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 267,
+        "end": 283,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. 267-283",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL998298M",
+      "title": "Stuff: the materials the world is made of",
+      "author": "Ivan Amato",
+      "year": "1997",
+      "language": "eng",
+      "pages": 294,
+      "isbn": [
+        "0465083285"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL998298M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL998298M,ISBN:0465083285&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/b592e487567ca078.json",
+      "retrieved": "2026-10-23T21:57:34.016Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0013": {
     "pages": null,
@@ -68911,9 +69106,32 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0015": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 30,
+    "confidence": "moderate",
+    "method": "google-contents-boundaries",
+    "ranges": [
+      {
+        "start": 367,
+        "end": 396,
+        "label": "Notes",
+        "evidence": "Notes 367; Index 397",
+        "method": "contents-boundary"
+      }
+    ],
+    "edition": {
+      "id": "GoogleBooks:tTFxEAAAQBAJ",
+      "title": "Concrete Planet: The Strange and Fascinating Story of the World's Most ...",
+      "author": "Robert Courland",
+      "language": "English numbered contents"
+    },
+    "url": "https://books.google.com/books?id=tTFxEAAAQBAJ&hl=en",
+    "source": {
+      "url": "https://books.google.com/books?vid=ISBN163388869X&hl=en",
+      "file": "data/top250_261023/raw/google-d8c21c13abae7887.html.gz",
+      "retrieved": "2026-10-23T21:56:48.230Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition."
   },
   "progress-0016": {
     "pages": null,
@@ -68946,9 +69164,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0024": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 35,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 283,
+        "end": 317,
+        "label": "Bibliographical references",
+        "evidence": "Cormac O Grada English Princeton2009 edition: references[283]–317. ISBN corroborated Ohrstrom Library record68077. Snapshot search-ref-028.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780691122373",
+      "title": "Famine: A Short History",
+      "author": "Cormac Ó Gráda",
+      "year": 2009,
+      "language": "English"
+    },
+    "url": "https://iucat.iu.edu/iub/8096035",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-23.json",
+      "evidence": "Cormac O Grada English Princeton2009 edition: references[283]–317. ISBN corroborated Ohrstrom Library record68077. Snapshot search-ref-028.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0025": {
     "pages": null,
@@ -68961,9 +69203,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0027": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 3,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 237,
+        "end": 239,
+        "label": "Bibliographical references",
+        "evidence": "Richard W. Bulliet; English Columbia edition. Explicit catalog range 237–239. Snapshot search-ref-076.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780231173384",
+      "title": "The Wheel: Inventions and Reinventions",
+      "author": "Richard Bulliet",
+      "year": 2016,
+      "language": "English"
+    },
+    "url": "https://ci.nii.ac.jp/ncid/BB21276805",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-24.json",
+      "evidence": "Richard W. Bulliet; English Columbia edition. Explicit catalog range 237–239. Snapshot search-ref-076.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0028": {
     "pages": null,
@@ -69016,9 +69282,38 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0038": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 21,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 153,
+        "end": 173,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. 153-173",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL659492M",
+      "title": "Pasteur's quadrant: basic science and technological innovation",
+      "author": "Donald E. Stokes",
+      "year": "1997",
+      "language": "eng",
+      "pages": 180,
+      "isbn": [
+        "0815781784",
+        "0815781776"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL659492M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL659492M,OLID:OL26647799M,OLID:OL39597709M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/06afafc4b6a0efeb.json",
+      "retrieved": "2026-10-23T21:45:42.708Z"
+    },
+    "sameEditionAsPG": true,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0040": {
     "pages": null,
@@ -69061,9 +69356,32 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0049": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 10,
+    "confidence": "moderate",
+    "method": "google-contents-boundaries",
+    "ranges": [
+      {
+        "start": 258,
+        "end": 267,
+        "label": "Bibliography",
+        "evidence": "Bibliography 258; Index 268",
+        "method": "contents-boundary"
+      }
+    ],
+    "edition": {
+      "id": "GoogleBooks:McJ2omQnh34C",
+      "title": "Energy and the English Industrial Revolution",
+      "author": "E. A. Wrigley",
+      "language": "English numbered contents"
+    },
+    "url": "https://books.google.com/books?id=McJ2omQnh34C&hl=en",
+    "source": {
+      "url": "https://books.google.com/books?vid=ISBN0521766931&hl=en",
+      "file": "data/top250_261023/raw/google-966d3200990c4432.html.gz",
+      "retrieved": "2026-10-23T22:23:06.721Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition."
   },
   "progress-0052": {
     "pages": null,
@@ -69071,14 +69389,62 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0053": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 18,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 305,
+        "end": 322,
+        "label": "Sources and further reading",
+        "evidence": "Michael Welland. Sources and Further Reading305; Index323. Snapshot search-toc-048.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780520942004",
+      "title": "Sand: The Never-Ending Story",
+      "author": "Michael Welland",
+      "year": 2009,
+      "language": "English"
+    },
+    "url": "https://books.google.com/books/about/Sand.html?id=CVBNAgAAQBAJ",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-15.json",
+      "evidence": "Michael Welland. Sources and Further Reading305; Index323. Snapshot search-toc-048.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0054": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 14,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 220,
+        "end": 233,
+        "label": "Bibliographical references",
+        "evidence": "National Library of Ireland: Alan Macfarlane and Gerry Martin, English Profile edition, references220–233. Snapshot search-ref-040.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:1861974000",
+      "title": "The Glass Bathyscaphe",
+      "author": "Alan Macfarlane; Gerry Martin",
+      "year": 2002,
+      "language": "English"
+    },
+    "url": "https://catalogue.nli.ie/Record/vtls000287325",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-12.json",
+      "evidence": "National Library of Ireland: Alan Macfarlane and Gerry Martin, English Profile edition, references220–233. Snapshot search-ref-040.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0055": {
     "pages": null,
@@ -69086,19 +69452,101 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0059": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 34,
+    "confidence": "moderate",
+    "method": "google-contents-boundaries",
+    "ranges": [
+      {
+        "start": 359,
+        "end": 381,
+        "label": "Notes",
+        "evidence": "Notes 359; Select Bibliography 382",
+        "method": "contents-boundary"
+      },
+      {
+        "start": 382,
+        "end": 392,
+        "label": "Select Bibliography",
+        "evidence": "Select Bibliography 382; Index 393",
+        "method": "contents-boundary"
+      }
+    ],
+    "edition": {
+      "id": "GoogleBooks:B_K-DAAAQBAJ",
+      "title": "Salt and Civilization",
+      "author": "S.A.M. Adshead",
+      "language": "English numbered contents"
+    },
+    "url": "https://books.google.com/books?id=B_K-DAAAQBAJ&hl=en",
+    "source": {
+      "url": "https://books.google.com/books?vid=ISBN1349218413&hl=en",
+      "file": "data/top250_261023/raw/google-544616d5ecc551a6.html.gz",
+      "retrieved": "2026-10-23T21:53:10.397Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition."
   },
   "progress-0060": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 17,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 325,
+        "end": 341,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. 325-341",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL3377922M",
+      "title": "Mining in world history",
+      "author": "Martin Lynch",
+      "year": "2003",
+      "language": "eng",
+      "pages": 350,
+      "isbn": [
+        "1861891733"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL3377922M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL3377922M,OLID:OL8631344M,OLID:OL18178065M,OLID:OL51067220M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/9bbcc8ab959f84fc.json",
+      "retrieved": "2026-10-23T21:44:07.779Z"
+    },
+    "sameEditionAsPG": true,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0061": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 22,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 239,
+        "end": 260,
+        "label": "References",
+        "evidence": "Includes bibliographical references (pages 239-260) and index.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780128042335",
+      "title": "Still the Iron Age",
+      "author": "Vaclav Smil",
+      "year": 2016,
+      "language": "English"
+    },
+    "url": "https://minerva.maine.edu/record%3Db3276859~S10",
+    "source": {
+      "retrieved": "2026-10-23",
+      "file": "data/top250_261023/manual.json",
+      "evidence": "Includes bibliographical references (pages 239-260) and index."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0062": {
     "pages": null,
@@ -69126,9 +69574,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0067": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 24,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 221,
+        "end": 244,
+        "label": "References",
+        "evidence": "References 221; Index 245.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9781119012863",
+      "title": "Natural Gas: Fuel for the 21st Century",
+      "author": "Vaclav Smil",
+      "year": 2015,
+      "language": "English"
+    },
+    "url": "https://www.wiley-vch.de/en/areas-interest/engineering/natural-gas-978-1-119-01286-3",
+    "source": {
+      "retrieved": "2026-10-23",
+      "file": "data/top250_261023/manual-02.json",
+      "evidence": "References 221; Index 245."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0072": {
     "pages": null,
@@ -69156,9 +69628,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0078": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 10,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 143,
+        "end": 152,
+        "label": "Notes",
+        "evidence": "Diane Coyle. Notes143; Index153. Snapshot search-toc-024.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780691156798",
+      "title": "GDP",
+      "author": "Diane Coyle",
+      "year": 2014,
+      "language": "English"
+    },
+    "url": "https://www.fishpond.com/Books/GDP-Coyle-Diane/9780691156798",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-15.json",
+      "evidence": "Diane Coyle. Notes143; Index153. Snapshot search-toc-024.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0079": {
     "pages": null,
@@ -69191,9 +69687,37 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0087": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 16,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 279,
+        "end": 294,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. [279]-294",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL22265113M",
+      "title": "The company of strangers: a natural history of economic life",
+      "author": "Paul Seabright",
+      "year": "2004",
+      "language": "eng",
+      "pages": 304,
+      "isbn": [
+        "0691124523"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL22265113M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL7759115M,ISBN:0691124523&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/672c3be91fd701df.json",
+      "retrieved": "2026-10-23T21:46:12.800Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0088": {
     "pages": null,
@@ -69221,9 +69745,38 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0097": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 32,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 385,
+        "end": 416,
+        "label": "references",
+        "evidence": "references (pages 385-416",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL27210980M",
+      "title": "The age of em: work, love, and life when robots rule the Earth",
+      "author": "Robin Hanson",
+      "year": "2016",
+      "language": "eng",
+      "pages": 426,
+      "isbn": [
+        "0198754620",
+        "9780198754626"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL27210980M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL27210980M,ISBN:0198754620&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/a6d8b975897d8d5b.json",
+      "retrieved": "2026-10-23T21:54:47.961Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0098": {
     "pages": null,
@@ -69241,9 +69794,38 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0103": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 21,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 267,
+        "end": 287,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (pages 267-287",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL27203936M",
+      "title": "Alibaba: the house that Jack Ma built",
+      "author": "Duncan Clark",
+      "year": "2016",
+      "language": "eng",
+      "pages": 287,
+      "isbn": [
+        "0062413406",
+        "9780062413406"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL27203936M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=ISBN:0062413406&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/835327bbc7ba0b23.json",
+      "retrieved": "2026-10-23T21:58:04.041Z"
+    },
+    "sameEditionAsPG": true,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0104": {
     "pages": null,
@@ -69291,9 +69873,39 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0118": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 66,
+    "confidence": "moderate",
+    "method": "google-contents-boundaries",
+    "ranges": [
+      {
+        "start": 221,
+        "end": 258,
+        "label": "Notes",
+        "evidence": "Notes 221; Bibliography 259",
+        "method": "contents-boundary"
+      },
+      {
+        "start": 259,
+        "end": 286,
+        "label": "Bibliography",
+        "evidence": "Bibliography 259; Index 287",
+        "method": "contents-boundary"
+      }
+    ],
+    "edition": {
+      "id": "GoogleBooks:hrFIDAAAQBAJ",
+      "title": "How Not to Network a Nation: The Uneasy History of the Soviet Internet",
+      "author": "Benjamin Peters",
+      "language": "English numbered contents"
+    },
+    "url": "https://books.google.com/books?id=hrFIDAAAQBAJ&hl=en",
+    "source": {
+      "url": "https://books.google.com/books?vid=ISBN0262034182&hl=en",
+      "file": "data/top250_261023/raw/google-fbb66116dfcb8b6f.html.gz",
+      "retrieved": "2026-10-23T21:56:35.717Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition."
   },
   "progress-0122": {
     "pages": null,
@@ -69356,9 +69968,38 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0139": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 5,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 97,
+        "end": 101,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. 97-101",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL969949M",
+      "title": "Has globalization gone too far?",
+      "author": "Dani Rodrik",
+      "year": "1997",
+      "language": "eng",
+      "pages": 108,
+      "isbn": [
+        "0881322431",
+        "0881322415"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL969949M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL969949M,ISBN:0881322431&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/8a369d86246d151b.json",
+      "retrieved": "2026-10-23T21:46:14.301Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0140": {
     "pages": null,
@@ -69366,9 +70007,38 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0141": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 112,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 437,
+        "end": 548,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. [437]-548",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL17227245M",
+      "title": "The moral consequences of economic growth",
+      "author": "Benjamin M. Friedman",
+      "year": "2005",
+      "language": "eng",
+      "pages": 570,
+      "isbn": [
+        "1400095719",
+        "9781400095711"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL17227245M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL8364531M,ISBN:1400095719&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/74b23e7d4314dd3d.json",
+      "retrieved": "2026-10-23T21:51:42.772Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0143": {
     "pages": null,
@@ -69386,19 +70056,95 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0148": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 1,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 133,
+        "end": 133,
+        "label": "Bibliographical references",
+        "evidence": "English paperback by Henk Tennekes; CiNii explicitly locates bibliographical references on p.[133].",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780262700658",
+      "title": "The Simple Science of Flight",
+      "author": "Henk Tennekes",
+      "year": 1997,
+      "language": "English"
+    },
+    "url": "https://ci.nii.ac.jp/ncid/BA88243430",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-09.json",
+      "evidence": "English paperback by Henk Tennekes; CiNii explicitly locates bibliographical references on p.[133]."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0151": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 13,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 189,
+        "end": 201,
+        "label": "Bibliographical references",
+        "evidence": "Sherry Turkle; English MIT edition. Explicit catalog range 189–201. Snapshot search-ref-080.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:0262261545",
+      "title": "Simulation and Its Discontents",
+      "author": "Sherry Turkle",
+      "year": 2009,
+      "language": "English"
+    },
+    "url": "https://catalogo.share-cat.unina.it/sharecat/resource?dcnr=5&uri=UNINA9911149927003321&v=l",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-13.json",
+      "evidence": "Sherry Turkle; English MIT edition. Explicit catalog range 189–201. Snapshot search-ref-080.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0155": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 35,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 171,
+        "end": 205,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. [171]-205",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL1428208M",
+      "title": "Regional advantage: culture and competition in Silicon Valley and Route 128",
+      "author": "AnnaLee Saxenian",
+      "year": "1994",
+      "language": "eng",
+      "pages": 226,
+      "isbn": [
+        "0674753399"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL1428208M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL1428208M,OLID:OL7693399M,OLID:OL22992288M,OLID:OL52549856M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/1d019c55b25bed68.json",
+      "retrieved": "2026-10-23T21:51:41.267Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0159": {
     "pages": null,
@@ -69431,9 +70177,152 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0166": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 79,
+    "confidence": "high",
+    "method": "full-book-pdf-section-inspection",
+    "ranges": [
+      {
+        "start": 45,
+        "end": 47,
+        "label": "Chapter 2 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 68,
+        "end": 72,
+        "label": "Chapter 3 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 86,
+        "end": 90,
+        "label": "Chapter 4 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 115,
+        "end": 119,
+        "label": "Chapter 5 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 141,
+        "end": 145,
+        "label": "Chapter 6 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 162,
+        "end": 163,
+        "label": "Chapter 7 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 182,
+        "end": 183,
+        "label": "Chapter 8 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 200,
+        "end": 201,
+        "label": "Chapter 9 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 216,
+        "end": 221,
+        "label": "Chapter 10 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 235,
+        "end": 237,
+        "label": "Chapter 11 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 259,
+        "end": 261,
+        "label": "Chapter 12 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 282,
+        "end": 286,
+        "label": "Chapter 13 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 304,
+        "end": 307,
+        "label": "Chapter 14 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 343,
+        "end": 345,
+        "label": "Chapter 15 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 361,
+        "end": 362,
+        "label": "Chapter 16 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 376,
+        "end": 377,
+        "label": "Chapter 17 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 401,
+        "end": 401,
+        "label": "Chapter 18 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 442,
+        "end": 449,
+        "label": "Chapter 19 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 475,
+        "end": 480,
+        "label": "Chapter 20 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 499,
+        "end": 503,
+        "label": "Chapter 21 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      },
+      {
+        "start": 518,
+        "end": 519,
+        "label": "Chapter 22 references and/or further reading",
+        "evidence": "Named section heading and end of bibliographical material inspected in full PDF; printed pages correspond to PDF ordinals+24. Blank page378 excluded."
+      }
+    ],
+    "edition": {
+      "id": "ISBN:9780198570509",
+      "title": "Global Catastrophic Risks",
+      "author": "Nick Bostrom; Milan M. Cirkovic (editors)",
+      "year": 2008,
+      "language": "English"
+    },
+    "url": "https://issc.al.uw.edu.pl/wp-content/uploads/sites/2/2022/05/Nick-Bostrom-Milan-M.-Cirkovic-Global-Catastrophic-Risks-2008-Oxford-University-Press.pdf",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/raw/gcr.pdf",
+      "evidence": "Full580-page digitized edition, title/copyright and chapter headings inspected. All21 chapter-end reference/further-reading spans checked; introduction uses footnotes, not a separate reference section. Boundary extraction: gcr-boundaries.txt and check-gcr-edges.py."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Counts pages containing the explicitly named reference or further-reading sections, including a shared initial page with concluding prose. Excludes inline footnotes, blank pages, author biographies and index."
   },
   "progress-0167": {
     "pages": null,
@@ -69481,9 +70370,37 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0177": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 11,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 368,
+        "end": 378,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. 368-378",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL698697M",
+      "title": "The hand: how its use shapes the brain, language, and human culture",
+      "author": "Frank R. Wilson",
+      "year": "1998",
+      "language": "eng",
+      "pages": 397,
+      "isbn": [
+        "0679412492"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL698697M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL698697M,OLID:OL7698617M,OLID:OL7700107M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/616300aed3a4adf9.json",
+      "retrieved": "2026-10-23T21:55:24.723Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0178": {
     "pages": null,
@@ -69501,9 +70418,32 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0183": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 26,
+    "confidence": "moderate",
+    "method": "google-contents-boundaries",
+    "ranges": [
+      {
+        "start": 525,
+        "end": 550,
+        "label": "Bibliography",
+        "evidence": "Bibliography 525; Index 551",
+        "method": "contents-boundary"
+      }
+    ],
+    "edition": {
+      "id": "GoogleBooks:oxLBa_8tLHAC",
+      "title": "The Moon: Resources, Future Development and Settlement",
+      "author": "David Schrunk, Burton Sharpe, Bonnie L. Cooper, Madhu Thangavelu",
+      "language": "English numbered contents"
+    },
+    "url": "https://books.google.com/books?id=oxLBa_8tLHAC&hl=en",
+    "source": {
+      "url": "https://books.google.com/books?id=oxLBa_8tLHAC&source=gbs_book_other_versions&hl=en",
+      "file": "data/top250_261023/raw/google-397f5325a65230c4.html.gz",
+      "retrieved": "2026-10-23T21:55:08.126Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition."
   },
   "progress-0184": {
     "pages": null,
@@ -69641,9 +70581,32 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0228": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 30,
+    "confidence": "moderate",
+    "method": "google-contents-boundaries",
+    "ranges": [
+      {
+        "start": 317,
+        "end": 346,
+        "label": "Endnotes",
+        "evidence": "Endnotes 317; Index 347",
+        "method": "contents-boundary"
+      }
+    ],
+    "edition": {
+      "id": "GoogleBooks:Y7DOltmSGjgC",
+      "title": "Blown to Bits: Your Life, Liberty, and Happiness After the Digital Explosion",
+      "author": "Harold Abelson, Ken Ledeen, Harry R. Lewis",
+      "language": "English numbered contents"
+    },
+    "url": "https://books.google.com/books?id=Y7DOltmSGjgC&hl=en",
+    "source": {
+      "url": "https://books.google.com/books?vid=ISBN0137135599&hl=en",
+      "file": "data/top250_261023/raw/google-aa0f48ded08e53d4.html.gz",
+      "retrieved": "2026-10-23T21:53:32.931Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition."
   },
   "progress-0235": {
     "pages": null,
@@ -69661,9 +70624,32 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0241": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 68,
+    "confidence": "moderate",
+    "method": "google-contents-boundaries",
+    "ranges": [
+      {
+        "start": 441,
+        "end": 508,
+        "label": "Notes",
+        "evidence": "Notes 441; Index 509",
+        "method": "contents-boundary"
+      }
+    ],
+    "edition": {
+      "id": "GoogleBooks:K9_LsJBCqWMC",
+      "title": "A Vast Machine: Computer Models, Climate Data, and the Politics of Global ...",
+      "author": "Paul N. Edwards",
+      "language": "English numbered contents"
+    },
+    "url": "https://books.google.com/books?id=K9_LsJBCqWMC&hl=en",
+    "source": {
+      "url": "https://books.google.com/books?id=K9_LsJBCqWMC&source=gbs_book_other_versions&hl=en",
+      "file": "data/top250_261023/raw/google-216a34fbb96ae489.html.gz",
+      "retrieved": "2026-10-23T21:55:13.130Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition."
   },
   "progress-0242": {
     "pages": null,
@@ -69706,9 +70692,39 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0259": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 76,
+    "confidence": "moderate",
+    "method": "google-contents-boundaries",
+    "ranges": [
+      {
+        "start": 309,
+        "end": 368,
+        "label": "Notes",
+        "evidence": "Notes 309; Bibliography 369",
+        "method": "contents-boundary"
+      },
+      {
+        "start": 369,
+        "end": 384,
+        "label": "Bibliography",
+        "evidence": "Bibliography 369; Authors Interviews and Correspondence 385",
+        "method": "contents-boundary"
+      }
+    ],
+    "edition": {
+      "id": "GoogleBooks:IQYSDAAAQBAJ",
+      "title": "The Man Behind the Microchip: Robert Noyce and the Invention of Silicon Valley",
+      "author": "Leslie Berlin",
+      "language": "English numbered contents"
+    },
+    "url": "https://books.google.com/books?id=IQYSDAAAQBAJ&hl=en",
+    "source": {
+      "url": "https://books.google.com/books?vid=ISBN019531199X&hl=en",
+      "file": "data/top250_261023/raw/google-b18567b847cbb941.html.gz",
+      "retrieved": "2026-10-23T21:52:37.817Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition."
   },
   "progress-0260": {
     "pages": null,
@@ -69756,9 +70772,37 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0283": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 2,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 317,
+        "end": 318,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. 317-318",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL988391M",
+      "title": "The case for Mars: the plan to settle the red planet and why we must",
+      "author": "Robert Zubrin",
+      "year": "1996",
+      "language": "eng",
+      "pages": 328,
+      "isbn": [
+        "0684827573"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL988391M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL988391M,OLID:OL7721596M,OLID:OL18080178M,OLID:OL24827075M,OLID:OL27779811M,OLID:OL27779983M,OLID:OL33983338M,OLID:OL35284103M,OLID:OL35989384M,OLID:OL37157853M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/f45b04ab30ebf70e.json",
+      "retrieved": "2026-10-23T21:52:59.569Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0285": {
     "pages": null,
@@ -69801,9 +70845,38 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0306": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 26,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 245,
+        "end": 270,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. 245-270",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL1850361M",
+      "title": "Governing the commons: the evolution of institutions for collective action",
+      "author": "Elinor Ostrom",
+      "year": "1990",
+      "language": "eng",
+      "pages": 280,
+      "isbn": [
+        "0521371015",
+        "0521405998"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL1850361M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL53946738M,ISBN:0521405998&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/8a598057fa0cfde9.json",
+      "retrieved": "2026-10-23T21:42:41.522Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0307": {
     "pages": null,
@@ -69841,9 +70914,32 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0319": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 14,
+    "confidence": "moderate",
+    "method": "google-contents-boundaries",
+    "ranges": [
+      {
+        "start": 337,
+        "end": 350,
+        "label": "Bibliography",
+        "evidence": "Bibliography 337; Acknowledgments 351",
+        "method": "contents-boundary"
+      }
+    ],
+    "edition": {
+      "id": "GoogleBooks:d2yYDwAAQBAJ",
+      "title": "Mass Flourishing: How Grassroots Innovation Created Jobs, Challenge, and Change",
+      "author": "Edmund S. Phelps",
+      "language": "English numbered contents"
+    },
+    "url": "https://books.google.com/books?id=d2yYDwAAQBAJ&hl=en",
+    "source": {
+      "url": "https://books.google.com/books?id=d2yYDwAAQBAJ&source=gbs_book_other_versions&hl=en",
+      "file": "data/top250_261023/raw/google-97407538a1fb700c.html.gz",
+      "retrieved": "2026-10-23T21:53:40.440Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition."
   },
   "progress-0320": {
     "pages": null,
@@ -69916,14 +71012,66 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0346": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 23,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 259,
+        "end": 281,
+        "label": "Bibliographical references",
+        "evidence": "Michael Belfiore first English edition: references259–281. Snapshot search-ref-036.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780061577932",
+      "title": "The Department of Mad Scientists",
+      "author": "Michael P. Belfiore",
+      "year": 2009,
+      "language": "English"
+    },
+    "url": "https://catalog.freelibrary.org/Record/1758722",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-12.json",
+      "evidence": "Michael Belfiore first English edition: references259–281. Snapshot search-ref-036.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0347": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 8,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 530,
+        "end": 537,
+        "label": "Bibliography:",
+        "evidence": "Bibliography: p. 530-537",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL3781345M",
+      "title": "The chosen instrument: Pan Am, Juan Trippe, the rise and fall of an American entrepreneur",
+      "author": "Marylin Bender",
+      "year": "1982",
+      "language": "eng",
+      "pages": 605,
+      "isbn": [
+        "0671224646"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL3781345M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL3781345M,ISBN:0671224646&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/d712d87adc831015.json",
+      "retrieved": "2026-10-23T21:57:35.517Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0348": {
     "pages": null,
@@ -69931,9 +71079,38 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0349": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 20,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 529,
+        "end": 548,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (pages 529-548",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL27168939M",
+      "title": "Bicycle design: an illustrated history",
+      "author": "Tony Hadland",
+      "year": "2014",
+      "language": "eng",
+      "pages": 564,
+      "isbn": [
+        "0262026759",
+        "9780262026758"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL27168939M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL27168939M,ISBN:0262026759&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/9b4eb0a894ecd117.json",
+      "retrieved": "2026-10-23T21:43:49.714Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0353": {
     "pages": null,
@@ -69941,9 +71118,32 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0356": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 16,
+    "confidence": "moderate",
+    "method": "google-contents-boundaries",
+    "ranges": [
+      {
+        "start": 475,
+        "end": 490,
+        "label": "Notes",
+        "evidence": "Notes 475; Index 491",
+        "method": "contents-boundary"
+      }
+    ],
+    "edition": {
+      "id": "GoogleBooks:VUpUhgBnovwC",
+      "title": "The Wealth of Networks: How Social Production Transforms Markets and Freedom",
+      "author": "Yochai Benkler",
+      "language": "English numbered contents"
+    },
+    "url": "https://books.google.com/books?id=VUpUhgBnovwC&hl=en",
+    "source": {
+      "url": "https://books.google.com/books?vid=ISBN0300125771&hl=en",
+      "file": "data/top250_261023/raw/google-e685e25da4603031.html.gz",
+      "retrieved": "2026-10-23T21:52:47.828Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition."
   },
   "progress-0358": {
     "pages": null,
@@ -69991,9 +71191,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0372": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 26,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 209,
+        "end": 234,
+        "label": "Notes",
+        "evidence": "Cyrus Farivar, Rutgers English edition. JSTOR explicitly gives Notes209–234. Snapshot search-toc-060.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780813550787",
+      "title": "The Internet of Elsewhere",
+      "author": "Cyrus Farivar",
+      "year": 2011,
+      "language": "English"
+    },
+    "url": "https://www.jstor.org/stable/j.ctt5hjgfh",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-17.json",
+      "evidence": "Cyrus Farivar, Rutgers English edition. JSTOR explicitly gives Notes209–234. Snapshot search-toc-060.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0375": {
     "pages": null,
@@ -70001,9 +71225,35 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0379": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 2,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 363,
+        "end": 364,
+        "label": "Bibliography:",
+        "evidence": "Bibliography: p. 363-364",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL5534623M",
+      "title": "Manhattan Project: the untold story of the making of the atomic bomb.",
+      "author": "Stéphane Groueff",
+      "year": "1967",
+      "language": "eng",
+      "pages": 372,
+      "isbn": []
+    },
+    "url": "https://openlibrary.org/books/OL5534623M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL5534623M,OLID:OL5657901M,OLID:OL7545091M,OLID:OL16408305M,OLID:OL18564270M,OLID:OL23756538M,OLID:OL24935194M,OLID:OL43250271M,OLID:OL58690619M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/5193839b2f3870d4.json",
+      "retrieved": "2026-10-23T21:52:27.942Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0380": {
     "pages": null,
@@ -70051,9 +71301,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0392": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 14,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 677,
+        "end": 690,
+        "label": "Bibliographical references",
+        "evidence": "Tom D. Crouch, first English edition, library explicitly locates references[677]–690. Snapshot search-ref-020.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:0393057674",
+      "title": "Wings",
+      "author": "Tom D. Crouch",
+      "year": 2003,
+      "language": "English"
+    },
+    "url": "https://catalog.coloradocollege.edu/cgi-bin/koha/opac-detail.pl?biblionumber=412165",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-12.json",
+      "evidence": "Tom D. Crouch, first English edition, library explicitly locates references[677]–690. Snapshot search-ref-020.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0394": {
     "pages": null,
@@ -70066,9 +71340,37 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0397": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 9,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 493,
+        "end": 501,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. [493]-501",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL1432732M",
+      "title": "Fluid concepts & creative analogies: computer models of the fundamental mechanisms of thought",
+      "author": "Douglas R. Hofstadter",
+      "year": "1995",
+      "language": "eng",
+      "pages": 518,
+      "isbn": [
+        "0465051545"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL1432732M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL1432732M,OLID:OL7593406M,OLID:OL9067445M,OLID:OL18177009M,OLID:OL40337441M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/17d24353b12a075c.json",
+      "retrieved": "2026-10-23T21:55:33.748Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0398": {
     "pages": null,
@@ -70176,9 +71478,39 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0437": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 42,
+    "confidence": "moderate",
+    "method": "google-contents-boundaries",
+    "ranges": [
+      {
+        "start": 425,
+        "end": 450,
+        "label": "Notes",
+        "evidence": "Notes 425; Bibliography 451",
+        "method": "contents-boundary"
+      },
+      {
+        "start": 451,
+        "end": 466,
+        "label": "Bibliography",
+        "evidence": "Bibliography 451; Index 467",
+        "method": "contents-boundary"
+      }
+    ],
+    "edition": {
+      "id": "GoogleBooks:KmmYDwAAQBAJ",
+      "title": "The Founder's Dilemmas: Anticipating and Avoiding the Pitfalls That Can Sink ...",
+      "author": "Noam Wasserman",
+      "language": "English numbered contents"
+    },
+    "url": "https://books.google.com/books?id=KmmYDwAAQBAJ&hl=en",
+    "source": {
+      "url": "https://books.google.com/books?id=KmmYDwAAQBAJ&source=gbs_book_other_versions&hl=en",
+      "file": "data/top250_261023/raw/google-4378bb10e3738775.html.gz",
+      "retrieved": "2026-10-23T21:53:27.921Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition."
   },
   "progress-0439": {
     "pages": null,
@@ -70211,9 +71543,37 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0448": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 11,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 292,
+        "end": 302,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. 292-302",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL1007546M",
+      "title": "Crystal fire: the birth of the information age",
+      "author": "Riordan, Michael",
+      "year": "1997",
+      "language": "eng",
+      "pages": 352,
+      "isbn": [
+        "0393041247"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL1007546M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL1007546M,ISBN:0393041247&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/394667eceed41728.json",
+      "retrieved": "2026-10-23T21:42:58.071Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0450": {
     "pages": null,
@@ -70246,9 +71606,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0468": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 20,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 265,
+        "end": 284,
+        "label": "Bibliographical references",
+        "evidence": "University library acquisition list identifies Jim Manzi, Uncontrolled, Basic Books2012, xvii+300pages, references265–284. Snapshot web-ref-more6.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780465023240",
+      "title": "Uncontrolled",
+      "author": "Jim Manzi",
+      "year": 2012,
+      "language": "English"
+    },
+    "url": "https://va.lv/sites/default/files/Ekon_gram.jaunumi_2019.pdf",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-12.json",
+      "evidence": "University library acquisition list identifies Jim Manzi, Uncontrolled, Basic Books2012, xvii+300pages, references265–284. Snapshot web-ref-more6.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0470": {
     "pages": null,
@@ -70291,9 +71675,32 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0480": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 24,
+    "confidence": "moderate",
+    "method": "google-contents-boundaries",
+    "ranges": [
+      {
+        "start": 311,
+        "end": 334,
+        "label": "Notes",
+        "evidence": "Notes 311; Principal Sources Used 335",
+        "method": "contents-boundary"
+      }
+    ],
+    "edition": {
+      "id": "GoogleBooks:68TQCwAAQBAJ",
+      "title": "J. Robert Oppenheimer: A Life",
+      "author": "the late Abraham Pais",
+      "language": "English numbered contents"
+    },
+    "url": "https://books.google.com/books?id=68TQCwAAQBAJ&hl=en",
+    "source": {
+      "url": "https://books.google.com/books?id=68TQCwAAQBAJ&source=gbs_book_other_versions&hl=en",
+      "file": "data/top250_261023/raw/google-95b742b569cb180f.html.gz",
+      "retrieved": "2026-10-23T22:00:48.444Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition."
   },
   "progress-0481": {
     "pages": null,
@@ -70321,9 +71728,37 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0488": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 4,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 209,
+        "end": 212,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. [209]-212",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL24476294M",
+      "title": "Reinventing the automobile: personal urban mobility for the 21st century",
+      "author": "William J. Mitchell",
+      "year": "2010",
+      "language": "eng",
+      "pages": 227,
+      "isbn": [
+        "9780262013826"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL24476294M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=ISBN:0262013827&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/672f8d98ba46099b.json",
+      "retrieved": "2026-10-23T21:52:14.399Z"
+    },
+    "sameEditionAsPG": true,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0489": {
     "pages": null,
@@ -70336,9 +71771,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0493": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 1,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 159,
+        "end": 159,
+        "label": "Bibliographical references",
+        "evidence": "David S. Goodsell; English second edition. Explicit catalog range 159–159. Snapshot search-ref-144.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780387849249",
+      "title": "The Machinery of Life",
+      "author": "David S. Goodsell",
+      "year": 2009,
+      "language": "English"
+    },
+    "url": "https://wellcomecollection.org/works/b66e7k87",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-13.json",
+      "evidence": "David S. Goodsell; English second edition. Explicit catalog range 159–159. Snapshot search-ref-144.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0494": {
     "pages": null,
@@ -70426,9 +71885,39 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0517": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 14,
+    "confidence": "moderate",
+    "method": "google-contents-boundaries",
+    "ranges": [
+      {
+        "start": 143,
+        "end": 148,
+        "label": "Notes",
+        "evidence": "Notes 143; BIBLIOGRAPHY 149",
+        "method": "contents-boundary"
+      },
+      {
+        "start": 149,
+        "end": 156,
+        "label": "BIBLIOGRAPHY",
+        "evidence": "BIBLIOGRAPHY 149; INDEX 157",
+        "method": "contents-boundary"
+      }
+    ],
+    "edition": {
+      "id": "GoogleBooks:4PM1DgAAQBAJ",
+      "title": "Memory Machines: The Evolution of Hypertext",
+      "author": "Belinda Barnet",
+      "language": "English numbered contents"
+    },
+    "url": "https://books.google.com/books?id=4PM1DgAAQBAJ&hl=en",
+    "source": {
+      "url": "https://books.google.com/books?id=4PM1DgAAQBAJ&source=gbs_book_other_versions&hl=en",
+      "file": "data/top250_261023/raw/google-a79d3020dcc9873a.html.gz",
+      "retrieved": "2026-10-23T21:55:25.642Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition."
   },
   "progress-0518": {
     "pages": null,
@@ -70441,9 +71930,38 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0520": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 18,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 447,
+        "end": 464,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (pages 447-464",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL27200956M",
+      "title": "How the Internet became commercial: innovation, privatization, and the birth of a new network",
+      "author": "Shane M. Greenstein",
+      "year": "2015",
+      "language": "eng",
+      "pages": 474,
+      "isbn": [
+        "0691167362",
+        "9780691167367"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL27200956M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL27200956M,ISBN:0691167362&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/e4ffcb75922e9167.json",
+      "retrieved": "2026-10-23T21:42:00.872Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0522": {
     "pages": null,
@@ -70491,9 +72009,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0539": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 17,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 367,
+        "end": 383,
+        "label": "Bibliography",
+        "evidence": "Making Silicon Valley, Christophe Lecuyer, 2006. Includes bibliography (p. [367]-383) and index.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:0262122812",
+      "title": "Making Silicon Valley",
+      "author": "Christophe Lécuyer",
+      "year": 2006,
+      "language": "English"
+    },
+    "url": "https://www.sub.uni-goettingen.de/fileadmin/media/texte/fachreferate/fachreferat_geschichte/gok_p_2007_1.pdf",
+    "source": {
+      "retrieved": "2026-10-23",
+      "file": "data/top250_261023/manual.json",
+      "evidence": "Making Silicon Valley, Christophe Lecuyer, 2006. Includes bibliography (p. [367]-383) and index."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0552": {
     "pages": null,
@@ -70526,9 +72068,37 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0561": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 13,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 145,
+        "end": 157,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. [145]-157",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL1401276M",
+      "title": "A small matter of programming: perspectives on end user computing",
+      "author": "Bonnie A. Nardi",
+      "year": "1993",
+      "language": "eng",
+      "pages": 162,
+      "isbn": [
+        "0262140535"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL1401276M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=ISBN:0262140535&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/bec67bd4026af77f.json",
+      "retrieved": "2026-10-23T21:51:18.703Z"
+    },
+    "sameEditionAsPG": true,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0562": {
     "pages": null,
@@ -70581,14 +72151,62 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0585": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 5,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 622,
+        "end": 626,
+        "label": "Bibliographical references",
+        "evidence": "Canadian Centre for Architecture catalog identifies Bill Addis, English Phaidon2007 edition,640pages, references622–626. ISBN corroborated by Google Books eZkQAQAAMAAJ; saved web-pdf-3.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780714841465",
+      "title": "Building: 3000 Years of Design Engineering and Construction",
+      "author": "Bill Addis",
+      "year": 2007,
+      "language": "English"
+    },
+    "url": "https://www.cca.qc.ca/en/search/details/library/publication/127137749",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-19.json",
+      "evidence": "Canadian Centre for Architecture catalog identifies Bill Addis, English Phaidon2007 edition,640pages, references622–626. ISBN corroborated by Google Books eZkQAQAAMAAJ; saved web-pdf-3.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0586": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 23,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 887,
+        "end": 909,
+        "label": "Bibliographical references",
+        "evidence": "Frank P. Davidson and Kathleen Lusk Brooke; English complete two-volume set, continuous pagination. Explicit catalog range 887–909. Snapshot search-ref-076.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:0313333548",
+      "title": "Building the World: An Encyclopedia of the Great Engineering Projects in History",
+      "author": "Frank P. Davidson; Kathleen Lusk Brooke",
+      "year": 2006,
+      "language": "English"
+    },
+    "url": "https://natlib.govt.nz/records/22091994",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-13.json",
+      "evidence": "Frank P. Davidson and Kathleen Lusk Brooke; English complete two-volume set, continuous pagination. Explicit catalog range 887–909. Snapshot search-ref-076.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0587": {
     "pages": null,
@@ -70596,9 +72214,38 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0588": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 7,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 516,
+        "end": 522,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (pages 516-522",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL27186316M",
+      "title": "The engineering book: from the catapult to the Curiosity Rover : 250 milestones in the history of engineering",
+      "author": "Marshall Brain",
+      "year": "2015",
+      "language": "eng",
+      "pages": 527,
+      "isbn": [
+        "1454908092",
+        "9781454908098"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL27186316M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL27186316M,OLID:OL40731105M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/63b6c70bcdfefdce.json",
+      "retrieved": "2026-10-23T21:58:16.083Z"
+    },
+    "sameEditionAsPG": true,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0589": {
     "pages": null,
@@ -70606,9 +72253,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0590": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 27,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 208,
+        "end": 234,
+        "label": "Notes and bibliography",
+        "evidence": "Matthew Wells, Routledge2010: Notes208, Bibliography227, Index235. Snapshot search-toc-016.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9781134343256",
+      "title": "Engineers: A History of Engineering and Structural Design",
+      "author": "Matthew Wells",
+      "year": 2010,
+      "language": "English"
+    },
+    "url": "https://books.google.com/books/about/Engineers.html?id=VNp_AgAAQBAJ",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-14.json",
+      "evidence": "Matthew Wells, Routledge2010: Notes208, Bibliography227, Index235. Snapshot search-toc-016.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0591": {
     "pages": null,
@@ -70616,9 +72287,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0592": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 2,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 351,
+        "end": 352,
+        "label": "Further reading",
+        "evidence": "Digitized book text and contents: Further Reading351, Index353. Title/copyright identify ASME History and Heritage Committee, Purdue1997, ISBN1557530947(paperback). National digital-library scan https://ndl.ethernet.edu.et/bitstream/123456789/27124/1/447.pdf corroborates the reference section in indexed text, but directPDF retrieval failed. Two-page section span may include blank final page; excludes index. Saved web-pdf25-2.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:1557530947",
+      "title": "Landmarks in Mechanical Engineering",
+      "author": "ASME History and Heritage Committee",
+      "year": 1997,
+      "language": "English"
+    },
+    "url": "https://studylib.net/doc/28030087/landmarks-in-mechanical-engineering",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-21.json",
+      "evidence": "Digitized book text and contents: Further Reading351, Index353. Title/copyright identify ASME History and Heritage Committee, Purdue1997, ISBN1557530947(paperback). National digital-library scan https://ndl.ethernet.edu.et/bitstream/123456789/27124/1/447.pdf corroborates the reference section in indexed text, but directPDF retrieval failed. Two-page section span may include blank final page; excludes index. Saved web-pdf25-2.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0593": {
     "pages": null,
@@ -70636,9 +72331,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0596": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 68,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 333,
+        "end": 400,
+        "label": "Notes; Research Notes and Bibliography",
+        "evidence": "JSTOR publisher contents give Notes pp.333–372 and Research Notes and Bibliography pp.373–400; Index begins401. Google Books ISBN9780691133829 corroborates boundaries.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780691133829",
+      "title": "When Computers Were Human",
+      "author": "David Alan Grier",
+      "year": 2007,
+      "language": "English"
+    },
+    "url": "https://www.jstor.org/stable/j.ctt4cgc82",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-07.json",
+      "evidence": "JSTOR publisher contents give Notes pp.333–372 and Research Notes and Bibliography pp.373–400; Index begins401. Google Books ISBN9780691133829 corroborates boundaries."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0597": {
     "pages": null,
@@ -70676,9 +72395,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0604": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 2,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 237,
+        "end": 238,
+        "label": "Bibliographical references",
+        "evidence": "British National Bibliography record for Mark Wolverton explicitly identifies references pp.237–238.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:0309090504",
+      "title": "The Depths of Space: The Story of the Pioneer Planetary Probes",
+      "author": "Mark Wolverton",
+      "year": 2004,
+      "language": "English"
+    },
+    "url": "https://obnb.uk/p10338829-the-depths-of-space-the-story-of-the-pioneer-planetary-probes",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-11.json",
+      "evidence": "British National Bibliography record for Mark Wolverton explicitly identifies references pp.237–238."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0605": {
     "pages": null,
@@ -70691,29 +72434,158 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0609": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 50,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 587,
+        "end": 636,
+        "label": "BIBLIOGRAPHY",
+        "evidence": "BIBLIOGRAPHY 587; INDEX 637",
+        "method": "contents-boundary"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL33829618M",
+      "title": "The European Guilds: An Economic Analysis",
+      "author": "Sheilagh Ogilvie",
+      "year": "2021",
+      "language": "eng",
+      "pages": 688,
+      "isbn": [
+        "0691217025",
+        "9780691217024"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL33829618M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL33829618M,ISBN:0691217025&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/1774602661e4ea31.json",
+      "retrieved": "2026-10-23T21:41:54.849Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0610": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 22,
+    "confidence": "moderate",
+    "method": "google-contents-boundaries",
+    "ranges": [
+      {
+        "start": 195,
+        "end": 216,
+        "label": "Notes",
+        "evidence": "Notes 195; Select Bibliographical Guide 217",
+        "method": "contents-boundary"
+      }
+    ],
+    "edition": {
+      "id": "GoogleBooks:71Gd08l8X1YC",
+      "title": "Growth Recurring: Economic Change in World History",
+      "author": "Eric Lionel Jones",
+      "language": "English numbered contents"
+    },
+    "url": "https://books.google.com/books?id=71Gd08l8X1YC&hl=en",
+    "source": {
+      "url": "https://books.google.com/books?vid=ISBN0472067281&hl=en",
+      "file": "data/top250_261023/raw/google-43bdc81d4d09b072.html.gz",
+      "retrieved": "2026-10-23T21:52:10.297Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition."
   },
   "progress-0611": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 43,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 490,
+        "end": 532,
+        "label": "Bibliographical references",
+        "evidence": "Joel Mokyr; English Yale edition. Explicit catalog range 490–532. Snapshot search-ref-080.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780300124552",
+      "title": "The Enlightened Economy: An Economic History of Britain 1700–1850",
+      "author": "Joel Mokyr",
+      "year": 2009,
+      "language": "English"
+    },
+    "url": "https://opac.ramapo.edu/cgi-bin/koha/opac-detail.pl?biblionumber=259112",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-13.json",
+      "evidence": "Joel Mokyr; English Yale edition. Explicit catalog range 490–532. Snapshot search-ref-080.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0612": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 21,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 130,
+        "end": 150,
+        "label": "Bibliographical references",
+        "evidence": "Nicholas Crafts; English Cambridge edition. Explicit catalog range 130–150. Snapshot search-ref-112.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9781108438162",
+      "title": "Forging Ahead, Falling Behind and Fighting Back: British Economic Growth from the Industrial Revolution to the Financial Crisis",
+      "author": "Nicholas Crafts",
+      "year": 2018,
+      "language": "English"
+    },
+    "url": "https://ci.nii.ac.jp/ncid/BB26632871",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-13.json",
+      "evidence": "Nicholas Crafts; English Cambridge edition. Explicit catalog range 130–150. Snapshot search-ref-112.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0613": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 41,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 435,
+        "end": 475,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (pages 435-475",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL25107446M",
+      "title": "Institutions and European Trade: Merchant Guilds, 1000-1800",
+      "author": "Sheilagh Ogilvie",
+      "year": "2011",
+      "language": "eng",
+      "pages": 493,
+      "isbn": [
+        "9780521764179",
+        "9780521747929"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL25107446M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL25107446M,ISBN:0521764173&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/cea8b6833ea799cc.json",
+      "retrieved": "2026-10-23T21:44:40.906Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0614": {
     "pages": null,
@@ -70731,24 +72603,124 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0618": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 34,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 223,
+        "end": 256,
+        "label": "Notes",
+        "evidence": "Notes 223; Index 257.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780691242408",
+      "title": "Power Speed and Form: Engineers in the Making of the Twentieth Century",
+      "author": "David P. Billington; David P. Billington Jr.",
+      "year": 2022,
+      "language": "English"
+    },
+    "url": "https://pup-assets.imgix.net/onix/images/9780691242408/9780691242408.pdf?fm=pdf",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-19.json",
+      "evidence": "Notes 223; Index 257."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0620": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 49,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 393,
+        "end": 441,
+        "label": "Notes",
+        "evidence": "English Basic Books hardcover by Matthew Cobb. Numbered contents: Notes393, Picture credits442, Index445.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "YES24:93917500",
+      "title": "The Idea of the Brain: The Past and Future of Neuroscience",
+      "author": "Matthew Cobb",
+      "year": 2020,
+      "language": "English"
+    },
+    "url": "https://m.yes24.com/goods/detail/93917500",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-09.json",
+      "evidence": "English Basic Books hardcover by Matthew Cobb. Numbered contents: Notes393, Picture credits442, Index445."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0621": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 34,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 226,
+        "end": 259,
+        "label": "Bibliographical references",
+        "evidence": "Includes bibliographical references (p. [226]-259) and index.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:0719059941",
+      "title": "Ways of Knowing: A New History of Science, Technology, and Medicine",
+      "author": "John Pickstone",
+      "year": 2000,
+      "language": "English"
+    },
+    "url": "https://ci.nii.ac.jp/ncid/BA51926152",
+    "source": {
+      "retrieved": "2026-10-23",
+      "file": "data/top250_261023/manual-03.json",
+      "evidence": "Includes bibliographical references (p. [226]-259) and index."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0622": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 55,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 647,
+        "end": 701,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. [647]-701",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL344293M",
+      "title": "太空物种 This new ocean: the story of the first space age",
+      "author": "Burrows, William E.",
+      "year": "1998",
+      "language": "eng",
+      "pages": 723,
+      "isbn": [
+        "0679445218"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL344293M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL344293M,OLID:OL7427334M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/1563e94a9a3a4e4b.json",
+      "retrieved": "2026-10-23T21:45:35.164Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0623": {
     "pages": null,
@@ -70771,19 +72743,96 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0627": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 82,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 323,
+        "end": 404,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (pages [323]-404",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL27186812M",
+      "title": "Life's greatest secret: the race to crack the genetic code",
+      "author": "Matthew Cobb",
+      "year": "2015",
+      "language": "eng",
+      "pages": 434,
+      "isbn": [
+        "0465062679",
+        "9780465062676"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL27186812M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL27186812M,OLID:OL34484745M,OLID:OL51332817M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/6e26a616fc88acdb.json",
+      "retrieved": "2026-10-23T21:46:49.297Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0628": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 68,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 231,
+        "end": 298,
+        "label": "Notes",
+        "evidence": "English Yale book by David S. Abraham. Contents list Notes231, Acknowledgments299, Index303.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780300196795",
+      "title": "The Elements of Power: Gadgets, Guns, and the Struggle for a Sustainable Future in the Rare Metal Age",
+      "author": "David S. Abraham",
+      "year": 2015,
+      "language": "English"
+    },
+    "url": "https://www.yes24.com/product/goods/17544295",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-07.json",
+      "evidence": "English Yale book by David S. Abraham. Contents list Notes231, Acknowledgments299, Index303."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0630": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 5,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 412,
+        "end": 416,
+        "label": "Bibliographical references",
+        "evidence": "English second edition by Fred Aftalion, translated by Otto Theodor Benfey. Catalog explicitly identifies references pp.[412]–416.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:0941901297",
+      "title": "History of the International Chemical Industry",
+      "author": "Fred Aftalion",
+      "year": 2001,
+      "language": "English"
+    },
+    "url": "https://openlibrary.org/books/OL18140823M",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-11.json",
+      "evidence": "English second edition by Fred Aftalion, translated by Otto Theodor Benfey. Catalog explicitly identifies references pp.[412]–416."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0631": {
     "pages": null,
@@ -70796,9 +72845,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0633": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 26,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 219,
+        "end": 244,
+        "label": "References",
+        "evidence": "Braun and MacDonald. References219; Index245. Snapshot search-toc-020.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780521289030",
+      "title": "Revolution in Miniature: The History and Impact of Semiconductor Electronics",
+      "author": "Ernest Braun; Stuart Macdonald",
+      "year": 1982,
+      "language": "English"
+    },
+    "url": "https://books.google.com/books?id=03c4wldf-k4C",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-15.json",
+      "evidence": "Braun and MacDonald. References219; Index245. Snapshot search-toc-020.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0636": {
     "pages": null,
@@ -70811,9 +72884,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0638": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 25,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 447,
+        "end": 471,
+        "label": "Bibliographical references",
+        "evidence": "Dale C. Copeland; English Princeton edition. Explicit catalog range 447–471. Snapshot search-ref-092.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780691161594",
+      "title": "Economic Interdependence and War",
+      "author": "Dale C. Copeland",
+      "year": 2015,
+      "language": "English"
+    },
+    "url": "https://ci.nii.ac.jp/ncid/BB17161446",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-13.json",
+      "evidence": "Dale C. Copeland; English Princeton edition. Explicit catalog range 447–471. Snapshot search-ref-092.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0639": {
     "pages": null,
@@ -70831,14 +72928,66 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0644": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 22,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 219,
+        "end": 240,
+        "label": "Notes and selected bibliography",
+        "evidence": "Seth Fletcher. Notes219; Selected Bibliography237; Acknowledgments241; Index243. Snapshot search-toc-028.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9781429922913",
+      "title": "Bottled Lightning: Superbatteries, Electric Cars, and the New Lithium Economy",
+      "author": "Seth Fletcher",
+      "year": 2011,
+      "language": "English"
+    },
+    "url": "https://books.google.com/books/about/Bottled_Lightning.html?id=dvbZj2iPkPgC",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-15.json",
+      "evidence": "Seth Fletcher. Notes219; Selected Bibliography237; Acknowledgments241; Index243. Snapshot search-toc-028.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0645": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 15,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 233,
+        "end": 247,
+        "label": "Bibliography:",
+        "evidence": "Bibliography: p. 233-247",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL3021833M",
+      "title": "Edison's electric light: biography of an invention",
+      "author": "Robert D. Friedel",
+      "year": "1986",
+      "language": "eng",
+      "pages": 263,
+      "isbn": [
+        "0813511186"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL3021833M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL3021833M,OLID:OL8025208M,OLID:OL21373928M,OLID:OL23918910M,OLID:OL24002166M,OLID:OL38294471M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/ef2f2f1691255c32.json",
+      "retrieved": "2026-10-23T21:45:44.213Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0647": {
     "pages": null,
@@ -70846,9 +72995,39 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0648": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 134,
+    "confidence": "moderate",
+    "method": "google-contents-boundaries",
+    "ranges": [
+      {
+        "start": 503,
+        "end": 614,
+        "label": "Notes",
+        "evidence": "Notes 503; Bibliography 615",
+        "method": "contents-boundary"
+      },
+      {
+        "start": 615,
+        "end": 636,
+        "label": "Bibliography",
+        "evidence": "Bibliography 615; Acknowledgments 637",
+        "method": "contents-boundary"
+      }
+    ],
+    "edition": {
+      "id": "GoogleBooks:DITWDwAAQBAJ",
+      "title": "Wheel of Fortune: The Battle for Oil and Power in Russia",
+      "author": "Thane Gustafson",
+      "language": "English numbered contents"
+    },
+    "url": "https://books.google.com/books?id=DITWDwAAQBAJ&hl=en",
+    "source": {
+      "url": "https://books.google.com/books?vid=ISBN0674066472&hl=en",
+      "file": "data/top250_261023/raw/google-76e6cd12965f5a7b.html.gz",
+      "retrieved": "2026-10-23T21:59:03.357Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition."
   },
   "progress-0649": {
     "pages": null,
@@ -70856,19 +73035,99 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0650": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 3,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 216,
+        "end": 218,
+        "label": "Bibliography:",
+        "evidence": "Bibliography: p. 216-218",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL2397007M",
+      "title": "The war of invention: scientific developments, 1914-18",
+      "author": "Guy Hartcup",
+      "year": "1988",
+      "language": "eng",
+      "pages": 226,
+      "isbn": [
+        "0080335918"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL2397007M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL2397007M,OLID:OL20970601M,OLID:OL58615118M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/2f568bc54e1ac519.json",
+      "retrieved": "2026-10-23T21:53:53.747Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0651": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 46,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 259,
+        "end": 304,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. 259-304",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL347038M",
+      "title": "City of light: the story of fiber optics",
+      "author": "Jeff Hecht",
+      "year": "1999",
+      "language": "eng",
+      "pages": 316,
+      "isbn": [
+        "0195108183"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL347038M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL347038M,OLID:OL3319269M,OLID:OL35889618M,OLID:OL40391410M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/f407ed1dd4afebc2.json",
+      "retrieved": "2026-10-23T21:45:30.645Z"
+    },
+    "sameEditionAsPG": true,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0652": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 22,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 339,
+        "end": 360,
+        "label": "Notes",
+        "evidence": "Tim Higgins. Notes339; Index361. Snapshot search-toc-056.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780385545457",
+      "title": "Power Play: Tesla, Elon Musk, and the Bet of the Century",
+      "author": "Tim Higgins",
+      "year": 2021,
+      "language": "English"
+    },
+    "url": "https://www.betterworldbooks.com/product/detail/power-play-tesla-elon-musk-and-the-bet-of-the-century-9780385545457",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-15.json",
+      "evidence": "Tim Higgins. Notes339; Index361. Snapshot search-toc-056.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0653": {
     "pages": null,
@@ -70886,14 +73145,70 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0656": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 59,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 473,
+        "end": 531,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. 473-531",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL350728M",
+      "title": "Edison: a life of invention",
+      "author": "Paul Israel",
+      "year": "1998",
+      "language": "eng",
+      "pages": 552,
+      "isbn": [
+        "0471529427"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL350728M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL350728M,ISBN:0471529427&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/d2cf8512ccb72b44.json",
+      "retrieved": "2026-10-23T21:45:12.080Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0657": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 5,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 219,
+        "end": 223,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. [219]-223",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL3328714M",
+      "title": "Soft machines: nanotechnology and life",
+      "author": "Richard A. L. Jones",
+      "year": "2004",
+      "language": "eng",
+      "pages": 229,
+      "isbn": [
+        "0198528558"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL3328714M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL3328714M,OLID:OL9338615M,OLID:OL39572036M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/298087166137732c.json",
+      "retrieved": "2026-10-23T21:45:47.226Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0658": {
     "pages": null,
@@ -70916,19 +73231,96 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0663": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 3,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 297,
+        "end": 299,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (pages 297-299",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL27173305M",
+      "title": "The powerhouse: inside the invention of a battery to save the world",
+      "author": "Steve LeVine",
+      "year": "2015",
+      "language": "eng",
+      "pages": 308,
+      "isbn": [
+        "0670025844",
+        "9780670025848"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL27173305M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL27173305M,OLID:OL27202731M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/243d4010a0d393f1.json",
+      "retrieved": "2026-10-23T21:47:12.966Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0665": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 18,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 355,
+        "end": 372,
+        "label": "Bibliographical references",
+        "evidence": "Includes bibliographical references (p. 355-372) and index.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:0521662699",
+      "title": "Tiger Technology: The Creation of a Semiconductor Industry in East Asia",
+      "author": "John A. Mathews; Dong-Sung Cho",
+      "year": 2000,
+      "language": "English"
+    },
+    "url": "https://ci.nii.ac.jp/ncid/BA45997407.amp?l=en",
+    "source": {
+      "retrieved": "2026-10-23",
+      "file": "data/top250_261023/manual.json",
+      "evidence": "Includes bibliographical references (p. 355-372) and index."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0667": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 38,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 201,
+        "end": 238,
+        "label": "Bibliographical references",
+        "evidence": "Library record for Sharon Bertsch McGrayne explicitly identifies references pp.201–238.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:0071350071",
+      "title": "Prometheans in the Lab: Chemistry and the Making of the Modern World",
+      "author": "Sharon Bertsch McGrayne",
+      "year": 2001,
+      "language": "English"
+    },
+    "url": "https://opac.ueab.ac.ke/bib/42868",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-11.json",
+      "evidence": "Library record for Sharon Bertsch McGrayne explicitly identifies references pp.201–238."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0668": {
     "pages": null,
@@ -70936,9 +73328,41 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0669": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 14,
+    "confidence": "high",
+    "method": "publisher-pdf-contents-boundaries",
+    "ranges": [
+      {
+        "start": 242,
+        "end": 247,
+        "label": "Volume1: Notes on sources",
+        "evidence": "Volume1 contents page7: Notes on sources242, Image credits248.",
+        "volume": "I"
+      },
+      {
+        "start": 218,
+        "end": 225,
+        "label": "Volume2: Notes on sources and bibliography",
+        "evidence": "Volume2 contents page7: Notes on sources218, Bibliography224, Image credits226.",
+        "volume": "II"
+      }
+    ],
+    "edition": {
+      "id": "ISBN:9781882771141",
+      "title": "Energy to the World: The Story of Saudi Aramco",
+      "author": "Scott McMurray",
+      "year": 2025,
+      "language": "English"
+    },
+    "url": "https://www.aramcolife.com/-/media/aramco-life/publications/history-books/history-book-english-v-1.pdf",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/raw/aramco-vol1.pdf",
+      "additionalFile": "data/top250_261023/raw/aramco-vol2.pdf",
+      "evidence": "Both publisher PDFs: numbered contents inspected; complete two-volume reference sections sum6+8=14pages."
+    },
+    "sameEditionAsPG": true,
+    "limitation": "Numbered section spans from the 2025 second edition. Includes any blank final section pages; excludes credits and indexes."
   },
   "progress-0670": {
     "pages": null,
@@ -70981,19 +73405,90 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0681": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 3,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 199,
+        "end": 201,
+        "label": "Bibliographical references",
+        "evidence": "NEIT library, Vaclav Smil, revised English second edition: references199–201. Snapshot search-ref-004.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9781786072863",
+      "title": "Oil: A Beginner’s Guide",
+      "author": "Vaclav Smil",
+      "year": 2017,
+      "language": "English"
+    },
+    "url": "https://libcatalog.neit.edu/bib/304966",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-12.json",
+      "evidence": "NEIT library, Vaclav Smil, revised English second edition: references199–201. Snapshot search-ref-004.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0682": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 7,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 227,
+        "end": 233,
+        "label": "Bibliographical references",
+        "evidence": "Tom Standage English Bloomsbury paperback: references[227]–233. Snapshot search-ref-048.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9781526608307",
+      "title": "A Brief History of Motion: From the Wheel to the Car to What Comes Next",
+      "author": "Tom Standage",
+      "year": 2022,
+      "language": "English"
+    },
+    "url": "https://ci.nii.ac.jp/ncid/BC14441840",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-12.json",
+      "evidence": "Tom Standage English Bloomsbury paperback: references[227]–233. Snapshot search-ref-048.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0683": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 70,
+    "confidence": "moderate",
+    "method": "google-contents-boundaries",
+    "ranges": [
+      {
+        "start": 281,
+        "end": 350,
+        "label": "Notes",
+        "evidence": "Notes 281; Index 351",
+        "method": "contents-boundary"
+      }
+    ],
+    "edition": {
+      "id": "GoogleBooks:gmlbEAAAQBAJ",
+      "title": "Disorder: Hard Times in the 21st Century",
+      "author": "Helen Thompson",
+      "language": "English numbered contents"
+    },
+    "url": "https://books.google.com/books?id=gmlbEAAAQBAJ&hl=en",
+    "source": {
+      "url": "https://books.google.com/books?vid=ISBN0198864981&hl=en",
+      "file": "data/top250_261023/raw/google-69984e172946c435.html.gz",
+      "retrieved": "2026-10-23T21:58:35.833Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition."
   },
   "progress-0686": {
     "pages": null,
@@ -71001,14 +73496,70 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0687": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 9,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 317,
+        "end": 325,
+        "label": "Bibliography:",
+        "evidence": "Bibliography: p. 317-325",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL2053629M",
+      "title": "When the machine stopped: a cautionary tale from industrial America",
+      "author": "Max Holland",
+      "year": "1989",
+      "language": "eng",
+      "pages": 335,
+      "isbn": [
+        "0875842089"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL2053629M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL2053629M,OLID:OL9352985M,OLID:OL9694785M,OLID:OL24223773M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/a5dcbe4651130959.json",
+      "retrieved": "2026-10-23T21:54:10.313Z"
+    },
+    "sameEditionAsPG": true,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0688": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 3,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 225,
+        "end": 227,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. [225]-227",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL23246992M",
+      "title": "A thread across the ocean: the heroic story of the transatlantic cable",
+      "author": "John Steele Gordon",
+      "year": "2002",
+      "language": "eng",
+      "pages": 240,
+      "isbn": [
+        "0802713645"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL23246992M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL7277797M,OLID:OL7876837M,OLID:OL9232505M,OLID:OL10602337M,OLID:OL15568322M,OLID:OL23246992M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/300581ef2f4c2672.json",
+      "retrieved": "2026-10-23T21:51:51.814Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0689": {
     "pages": null,
@@ -71026,9 +73577,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0692": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 11,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 295,
+        "end": 305,
+        "label": "Bibliographical references",
+        "evidence": "Includes bibliographical references (pages 295-305) and index.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780262014243",
+      "title": "Makers of the Microchip",
+      "author": "Christophe Lécuyer; David C. Brock",
+      "year": 2010,
+      "language": "English"
+    },
+    "url": "https://librarycatalog.iowalakes.edu/cgi-bin/koha/opac-detail.pl?biblionumber=9353",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-19.json",
+      "evidence": "Includes bibliographical references (pages 295-305) and index."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0693": {
     "pages": null,
@@ -71051,9 +73626,37 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0701": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 8,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 464,
+        "end": 471,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. 464-471",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL1006156M",
+      "title": "A history of aerodynamics and its impact on flying machines",
+      "author": "John David Anderson",
+      "year": "1997",
+      "language": "eng",
+      "pages": 478,
+      "isbn": [
+        "0521454352"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL1006156M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL1006156M,ISBN:0521454352&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/c3df43248f3cff52.json",
+      "retrieved": "2026-10-23T21:48:29.697Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0702": {
     "pages": null,
@@ -71066,9 +73669,37 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0705": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 18,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 297,
+        "end": 314,
+        "label": "Bibliography:",
+        "evidence": "Bibliography: p. 297-314",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL2717461M",
+      "title": "Building construction before mechanization",
+      "author": "John Fitchen",
+      "year": "1986",
+      "language": "eng",
+      "pages": 326,
+      "isbn": [
+        "0262061023"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL2717461M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL2717461M,OLID:OL9830943M,OLID:OL21217986M,OLID:OL21365437M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/a398996cc0095670.json",
+      "retrieved": "2026-10-23T21:44:18.313Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0708": {
     "pages": null,
@@ -71081,14 +73712,70 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0710": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 72,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 283,
+        "end": 354,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. [283]-354",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL1112802M",
+      "title": "A nation of steel: the making of modern America, 1865-1925",
+      "author": "Thomas J. Misa",
+      "year": "1995",
+      "language": "eng",
+      "pages": 367,
+      "isbn": [
+        "0801849675"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL1112802M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL1112802M,OLID:OL7870438M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/cf704547ead946ec.json",
+      "retrieved": "2026-10-23T21:51:23.207Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0711": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 12,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 363,
+        "end": 374,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. 363-374",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL15556407M",
+      "title": "In the wake of Tacoma: suspension bridges and the quest for aerodynamic stability",
+      "author": "Scott, Richard",
+      "year": "2001",
+      "language": "eng",
+      "pages": 392,
+      "isbn": [
+        "0784405425"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL15556407M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL11031613M,OLID:OL15556407M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/6616bd6329bda2cf.json",
+      "retrieved": "2026-10-23T21:43:58.752Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0712": {
     "pages": null,
@@ -71121,9 +73808,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0719": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 17,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 378,
+        "end": 394,
+        "label": "Bibliographical references",
+        "evidence": "Georges Ifrah; English translation by E.F. Harding. Explicit catalog range 378–394. Snapshot search-ref-148.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:0471396710",
+      "title": "The Universal History of Computing",
+      "author": "Georges Ifrah",
+      "year": 2001,
+      "language": "English"
+    },
+    "url": "https://libcat.weber.edu/bib/1038534",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-13.json",
+      "evidence": "Georges Ifrah; English translation by E.F. Harding. Explicit catalog range 378–394. Snapshot search-ref-148.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0724": {
     "pages": null,
@@ -71131,24 +73842,124 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0725": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 97,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 611,
+        "end": 707,
+        "label": "Bibliography",
+        "evidence": "Paris Musees catalog explicitly identifies volume4part2Mechanical engineering, Needham and Wang Ling, English1974Cambridge edition, ISBN0521058031; bibliography611–707. Excludes index.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:0521058031",
+      "title": "Science and Civilisation in China: Volume 4, Part 2, Mechanical Engineering",
+      "author": "Joseph Needham",
+      "year": 1974,
+      "language": "English"
+    },
+    "url": "https://parismuseescollections.paris.fr/fr/ressources-bibliographiques/science-and-civilisation-in-china-volume-4-physics-and-physical-0",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-25.json",
+      "evidence": "Paris Musees catalog explicitly identifies volume4part2Mechanical engineering, Needham and Wang Ling, English1974Cambridge edition, ISBN0521058031; bibliography611–707. Excludes index."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0726": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 42,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 191,
+        "end": 232,
+        "label": "Notes and bibliography",
+        "evidence": "David A. Price, Knopf. Numbered Google Books contents: Notes191, Bibliography217, Index233.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780525521549",
+      "title": "Geniuses at War",
+      "author": "David A. Price",
+      "year": 2021,
+      "language": "English"
+    },
+    "url": "https://books.google.com/books/about/Geniuses_at_War.html?id=PNkvEAAAQBAJ",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-09.json",
+      "evidence": "David A. Price, Knopf. Numbered Google Books contents: Notes191, Bibliography217, Index233."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0727": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 64,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 623,
+        "end": 686,
+        "label": "Notes and bibliographic essay",
+        "evidence": "James W. Cortada: Notes623, Bibliographic Essay677, Index687. Later reprint; original year stays unchanged. Snapshot search-toc-012.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "GoogleBooks:nXW4EAAAQBAJ",
+      "title": "IBM: The Rise and Fall and Reinvention of a Global Icon",
+      "author": "James W. Cortada",
+      "year": 2023,
+      "language": "English"
+    },
+    "url": "https://books.google.com/books?id=nXW4EAAAQBAJ",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-19.json",
+      "evidence": "James W. Cortada: Notes623, Bibliographic Essay677, Index687. Later reprint; original year stays unchanged. Snapshot search-toc-012.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0728": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 3,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 281,
+        "end": 283,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. 281-283",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL1887841M",
+      "title": "ICBM: the making of the weapon that changed the world",
+      "author": "G. Harry Stine",
+      "year": "1991",
+      "language": "eng",
+      "pages": 291,
+      "isbn": [
+        "0517567687"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL1887841M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL7701966M,ISBN:0517567687&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/1c224441c25d1d0f.json",
+      "retrieved": "2026-10-23T21:53:55.248Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0729": {
     "pages": null,
@@ -71161,19 +73972,117 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0731": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 22,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 161,
+        "end": 168,
+        "label": "Notes",
+        "evidence": "Notes 161; Glossary 169",
+        "method": "contents-boundary"
+      },
+      {
+        "start": 177,
+        "end": 180,
+        "label": "Further Reading",
+        "evidence": "Further Reading 177; Bibliography 181",
+        "method": "contents-boundary"
+      },
+      {
+        "start": 181,
+        "end": 190,
+        "label": "Bibliography",
+        "evidence": "Bibliography 181; Index 191",
+        "method": "contents-boundary"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL25194467M",
+      "title": "Computing: a concise history",
+      "author": "Paul E. Ceruzzi",
+      "year": "2012",
+      "language": "eng",
+      "pages": 199,
+      "isbn": [
+        "9780262517676"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL25194467M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL25194467M,OLID:OL29141702M,OLID:OL29754260M,OLID:OL46529522M,OLID:OL53244227M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/1fbd966018da0b01.json",
+      "retrieved": "2026-10-23T21:45:29.144Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0732": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 16,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 250,
+        "end": 265,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. 250-265",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL398748M",
+      "title": "Funding a revolution: government support for computing research",
+      "author": "Committee on Innovations in Computing and Communications: Lessons from History, Computer Science and Telecommunications Board, National Research Council.",
+      "year": "1999",
+      "language": "eng",
+      "pages": 273,
+      "isbn": [
+        "0309062780"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL398748M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL9766327M,ISBN:0309062780&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/96e1347fcf15928a.json",
+      "retrieved": "2026-10-23T21:42:23.442Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0733": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 49,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 301,
+        "end": 349,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. [301]-349",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL791316M",
+      "title": "Transforming computer technology: information processing for the Pentagon, 1962-1986",
+      "author": "Arthur L. Norberg",
+      "year": "1996",
+      "language": "eng",
+      "pages": 360,
+      "isbn": [
+        "0801851521"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL791316M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL791316M,OLID:OL7870579M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/c95697d9c8cae6f3.json",
+      "retrieved": "2026-10-23T21:45:24.458Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0734": {
     "pages": null,
@@ -71186,9 +74095,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0737": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 1,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 155,
+        "end": 155,
+        "label": "Bibliographical references",
+        "evidence": "W. Daniel Hillis. Explicit catalog range p.155. Snapshot search-toc-044.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:0465025951",
+      "title": "The Pattern on the Stone",
+      "author": "W. Daniel Hillis",
+      "year": 1998,
+      "language": "English"
+    },
+    "url": "https://ci.nii.ac.jp/ncid/BA4470104X",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-15.json",
+      "evidence": "W. Daniel Hillis. Explicit catalog range p.155. Snapshot search-toc-044.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0738": {
     "pages": null,
@@ -71196,9 +74129,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0739": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 26,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 215,
+        "end": 240,
+        "label": "Notes and references",
+        "evidence": "Notes 215; References 233; Index 241.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780262013468",
+      "title": "Chips and Change",
+      "author": "Clair Brown; Greg Linden",
+      "year": 2009,
+      "language": "English"
+    },
+    "url": "https://toc.library.ethz.ch/objects/pdf/z01_978-0-262-01346-8_01.pdf",
+    "source": {
+      "retrieved": "2026-10-23",
+      "file": "data/top250_261023/manual.json",
+      "evidence": "Notes 215; References 233; Index 241."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0740": {
     "pages": null,
@@ -71216,14 +74173,70 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0743": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 3,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 520,
+        "end": 522,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. [520]-522",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL1432947M",
+      "title": "Gates: how Microsoft's mogul reinvented an industry and made himself the richest man in America",
+      "author": "Stephen Manes",
+      "year": "1994",
+      "language": "eng",
+      "pages": 541,
+      "isbn": [
+        "0671880748"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL1432947M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL7667444M,ISBN:0671880748&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/71232585eaf00c02.json",
+      "retrieved": "2026-10-23T21:58:34.164Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0744": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 15,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 477,
+        "end": 491,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. 477-491",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL794539M",
+      "title": "Microsoft secrets: how the world's most powerful software company creates technology, shapes markets, and manages people",
+      "author": "Michael A. Cusumano",
+      "year": "1995",
+      "language": "eng",
+      "pages": 512,
+      "isbn": [
+        "0028740483"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL794539M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL794539M,OLID:OL7722260M,OLID:OL9854926M,OLID:OL13125875M,OLID:OL18459512M,OLID:OL19012980M,OLID:OL24963663M,OLID:OL44095618M,OLID:OL51330514M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/ba8ab1148f005a6c.json",
+      "retrieved": "2026-10-23T21:43:34.649Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0745": {
     "pages": null,
@@ -71241,14 +74254,62 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0748": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 4,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 303,
+        "end": 306,
+        "label": "References",
+        "evidence": "Schein et al. Ingram contents: References303, Index307. Corroborated Google Books p3xpEQAAQBAJ. Snapshot search-toc-008.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9781576753057",
+      "title": "DEC Is Dead, Long Live DEC",
+      "author": "Edgar H. Schein et al.",
+      "year": 2004,
+      "language": "English"
+    },
+    "url": "https://campusstore.miamioh.edu/dec-dead-long-live-dec-schein-edgar/bk/9781576753057",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-14.json",
+      "evidence": "Schein et al. Ingram contents: References303, Index307. Corroborated Google Books p3xpEQAAQBAJ. Snapshot search-toc-008.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0749": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 10,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 292,
+        "end": 301,
+        "label": "Bibliographical references",
+        "evidence": "Paul B. Carroll and Chunka Mui English Portfolio edition: references[292]–301. Snapshot search-ref-044.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9781591842194",
+      "title": "Billion Dollar Lessons",
+      "author": "Paul B. Carroll; Chunka Mui",
+      "year": 2008,
+      "language": "English"
+    },
+    "url": "https://ci.nii.ac.jp/ncid/BB00251329",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-12.json",
+      "evidence": "Paul B. Carroll and Chunka Mui English Portfolio edition: references[292]–301. Snapshot search-ref-044.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0750": {
     "pages": null,
@@ -71261,9 +74322,33 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0752": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 6,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 273,
+        "end": 278,
+        "label": "Bibliographical references",
+        "evidence": "S. J. Liebowitz and Stephen E. Margolis; English Independent Institute edition. Explicit catalog range 273–278. Snapshot search-ref-088.json.",
+        "method": "reviewed-catalog-or-contents"
+      }
+    ],
+    "method": "reviewed-catalog-or-contents",
+    "edition": {
+      "id": "ISBN:9780945999805",
+      "title": "Winners, Losers & Microsoft",
+      "author": "Stan J. Liebowitz; Stephen E. Margolis",
+      "year": 1999,
+      "language": "English"
+    },
+    "url": "https://openlibrary.org/books/OL57348M",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/manual-13.json",
+      "evidence": "S. J. Liebowitz and Stephen E. Margolis; English Independent Institute edition. Explicit catalog range 273–278. Snapshot search-ref-088.json."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Count covers the named reference sections only; excludes the index. Contents boundaries can include a final blank page. Edition may differ from the page-count edition."
   },
   "progress-0753": {
     "pages": null,
@@ -71271,9 +74356,37 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0754": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 4,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 291,
+        "end": 294,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. 291-294",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL25264144M",
+      "title": "The Pixar touch: the making of a company",
+      "author": "David A. Price",
+      "year": "2009",
+      "language": "eng",
+      "pages": 310,
+      "isbn": [
+        "9780307278296"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL25264144M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL10352510M,OLID:OL18280873M,OLID:OL24252991M,OLID:OL25264144M,OLID:OL47307380M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/648497ec8c0a90e2.json",
+      "retrieved": "2026-10-23T21:47:03.913Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0755": {
     "pages": null,
@@ -71286,9 +74399,38 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0757": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 16,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 279,
+        "end": 294,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (pages 279-294",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL26951387M",
+      "title": "The space barons: Elon Musk, Jeff Bezos, and the quest to colonize the cosmos",
+      "author": "Christian Davenport",
+      "year": "2018",
+      "language": "eng",
+      "pages": 308,
+      "isbn": [
+        "1610398297",
+        "9781610398299"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL26951387M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL26951387M,OLID:OL26966147M,OLID:OL27754294M,OLID:OL32002760M,OLID:OL34908560M,OLID:OL35370731M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/c7602b7a2e4e98a4.json",
+      "retrieved": "2026-10-23T21:50:44.091Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0760": {
     "pages": null,
@@ -71311,9 +74453,38 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0764": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 17,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 407,
+        "end": 423,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (p. [407]-423",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL8858221M",
+      "title": "Bill & Dave: how Hewlett and Packard built the world's greatest company",
+      "author": "Michael S. Malone",
+      "year": "2007",
+      "language": "eng",
+      "pages": 438,
+      "isbn": [
+        "1591841526",
+        "9781591841524"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL8858221M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL8858221M,OLID:OL12375087M,OLID:OL17993996M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/89e09493354bd0b3.json",
+      "retrieved": "2026-10-23T21:49:19.349Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0765": {
     "pages": null,
@@ -71396,9 +74567,39 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0786": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 52,
+    "confidence": "moderate",
+    "method": "google-contents-boundaries",
+    "ranges": [
+      {
+        "start": 319,
+        "end": 350,
+        "label": "Notes",
+        "evidence": "Notes 319; Bibliography 351",
+        "method": "contents-boundary"
+      },
+      {
+        "start": 351,
+        "end": 370,
+        "label": "Bibliography",
+        "evidence": "Bibliography 351; Index 371",
+        "method": "contents-boundary"
+      }
+    ],
+    "edition": {
+      "id": "GoogleBooks:n2tXIWa8PoYC",
+      "title": "A Great Leap Forward: 1930s Depression and U.S. Economic Growth",
+      "author": "Alexander J. Field",
+      "language": "English numbered contents"
+    },
+    "url": "https://books.google.com/books?id=n2tXIWa8PoYC&hl=en",
+    "source": {
+      "url": "https://books.google.com/books?id=n2tXIWa8PoYC&source=gbs_book_other_versions&hl=en",
+      "file": "data/top250_261023/raw/google-35dabd86178e7c8f.html.gz",
+      "retrieved": "2026-10-23T21:57:53.299Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition."
   },
   "progress-0788": {
     "pages": null,
@@ -71411,9 +74612,38 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0791": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 57,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 415,
+        "end": 471,
+        "label": "bibliographical references",
+        "evidence": "bibliographical references (pages 415-471",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL27145129M",
+      "title": "Tesla: inventor of the electrical age",
+      "author": "W. Bernard Carlson",
+      "year": "2013",
+      "language": "eng",
+      "pages": 500,
+      "isbn": [
+        "0691057761",
+        "9780691057767"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL27145129M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL27145129M,OLID:OL29163641M,OLID:OL29216045M,OLID:OL32658762M,OLID:OL35356828M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/616fddf59d95f0a1.json",
+      "retrieved": "2026-10-23T21:45:33.662Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0792": {
     "pages": null,
@@ -71421,9 +74651,37 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0793": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 5,
+    "confidence": "moderate",
+    "ranges": [
+      {
+        "start": 273,
+        "end": 277,
+        "label": "Bibliography:",
+        "evidence": "Bibliography: p. 273-277",
+        "method": "catalogued-range"
+      }
+    ],
+    "method": "catalogued-range-or-contents-boundary",
+    "edition": {
+      "id": "OL18646670M",
+      "title": "Concorde: new shape in the sky",
+      "author": "Kenneth Owen",
+      "year": "1982",
+      "language": "eng",
+      "pages": 292,
+      "isbn": [
+        "0710602138"
+      ]
+    },
+    "url": "https://openlibrary.org/books/OL18646670M",
+    "source": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL3345004M,OLID:OL8762342M,OLID:OL16373600M,OLID:OL18646670M,OLID:OL22829798M&jscmd=details&format=json",
+      "file": "data/top250_261023/raw/2d67eec307fb5295.json",
+      "retrieved": "2026-10-23T21:48:38.720Z"
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Only explicitly bounded notes and bibliography sections are counted; excludes index. Reference edition can differ from the length edition."
   },
   "progress-0795": {
     "pages": null,
@@ -71476,9 +74734,56 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0813": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 7,
+    "confidence": "high",
+    "method": "publisher-pdf-section-inspection",
+    "ranges": [
+      {
+        "start": 26,
+        "end": 26,
+        "label": "Chapter1 references"
+      },
+      {
+        "start": 48,
+        "end": 48,
+        "label": "Chapter2 references"
+      },
+      {
+        "start": 66,
+        "end": 67,
+        "label": "Chapter3 references"
+      },
+      {
+        "start": 91,
+        "end": 91,
+        "label": "Chapter4 references"
+      },
+      {
+        "start": 118,
+        "end": 118,
+        "label": "Chapter5 references"
+      },
+      {
+        "start": 128,
+        "end": 128,
+        "label": "Chapter6 references"
+      }
+    ],
+    "edition": {
+      "id": "IEA:2018-publisher-PDF-132-pages",
+      "title": "The Future of Petrochemicals",
+      "author": "International Energy Agency",
+      "year": 2018,
+      "language": "English"
+    },
+    "url": "https://iea.blob.core.windows.net/assets/bee4ef3a-8876-4566-98cf-7a130c013805/The_Future_of_Petrochemicals.pdf",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/raw/petrochemicals.pdf",
+      "evidence": "All six reference headings and following section boundaries inspected in publisher PDF. Printed page numbers differ from PDF ordinals after91. Full PDF has132document pages; OECD catalog extent152 is a separate stored page-count record."
+    },
+    "sameEditionAsPG": false,
+    "limitation": "Counts the six explicitly titled chapter reference sections; excludes scattered footnotes. PDF pagination differs from OECD catalog extent."
   },
   "progress-0814": {
     "pages": null,
@@ -71486,9 +74791,32 @@
     "reason": "Bibliography/endnote page ranges not verified in the selected edition."
   },
   "progress-0815": {
-    "pages": null,
-    "confidence": "unknown",
-    "reason": "Bibliography/endnote page ranges not verified in the selected edition."
+    "pages": 26,
+    "confidence": "high",
+    "method": "publisher-pdf-section-inspection",
+    "ranges": [
+      {
+        "start": 254,
+        "end": 279,
+        "label": "References",
+        "evidence": "Printed254 starts References, printed279 ends bibliography, printed280 starts Acknowledgements; PDF ordinals256–281."
+      }
+    ],
+    "edition": {
+      "id": "ISBN:9789264679948",
+      "title": "The Role of Critical Minerals in Clean Energy Transitions",
+      "author": "International Energy Agency",
+      "year": 2021,
+      "language": "English"
+    },
+    "url": "https://iea.blob.core.windows.net/assets/ffd2a83b-8c30-4e9d-980a-52b6d9a86fdc/TheRoleofCriticalMineralsinCleanEnergyTransitions.pdf",
+    "source": {
+      "retrieved": "2026-10-24",
+      "file": "data/top250_261023/raw/minerals.pdf",
+      "evidence": "Publisher PDF287pages, original2021, correctedMarch2022. Reference heading and all26pages plus following acknowledgements boundary inspected."
+    },
+    "sameEditionAsPG": true,
+    "limitation": "Counts the named References section only; excludes the preceding technology-source table and scattered footnotes. CorrectedMarch2022 version of2021 report."
   },
   "progress-0817": {
     "pages": null,

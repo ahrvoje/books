@@ -1,0 +1,49 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Wheel%20of%20Fortune&author=Thane%20Gustafson&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:55:50.262Z",
+  "status": 200,
+  "data": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Thane Gustafson"
+        ],
+        "edition_key": [
+          "OL27419598M",
+          "OL25238581M"
+        ],
+        "key": "/works/OL16548276W",
+        "title": "Wheel of fortune"
+      },
+      {
+        "author_name": [
+          "Thane Gustafson"
+        ],
+        "edition_key": [
+          "OL29144932M",
+          "OL39578799M"
+        ],
+        "key": "/works/OL21500380W",
+        "title": "Wheel of Fortune"
+      },
+      {
+        "author_name": [
+          "Thane Gustafson"
+        ],
+        "edition_key": [
+          "OL25238580M"
+        ],
+        "key": "/works/OL16548277W",
+        "title": "Wheel of fortune"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/d1d89dff771e6c76.json"
+}

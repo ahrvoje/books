@@ -1,0 +1,70 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=ISBN:0008271100&jscmd=details&format=json",
+  "retrieved": "2026-10-23T21:44:19.822Z",
+  "status": 200,
+  "data": {
+    "ISBN:0008271100": {
+      "bib_key": "ISBN:0008271100",
+      "info_url": "http://openlibrary.org/books/OL37466316M/How_to_Build_a_Car",
+      "preview": "noview",
+      "preview_url": "http://openlibrary.org/books/OL37466316M/How_to_Build_a_Car",
+      "thumbnail_url": "https://covers.openlibrary.org/b/id/13168271-S.jpg",
+      "details": {
+        "type": {
+          "key": "/type/edition"
+        },
+        "authors": [
+          {
+            "key": "/authors/OL7638200A",
+            "name": "Adrian Newey"
+          }
+        ],
+        "isbn_13": [
+          "9780008271107"
+        ],
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "pagination": "400",
+        "publish_date": "2018",
+        "publishers": [
+          "HarperCollins Publishers"
+        ],
+        "source_records": [
+          "bwb:9780008271107",
+          "amazon:0008271100"
+        ],
+        "subjects": [
+          "Engineers, biography",
+          "Great britain, biography"
+        ],
+        "title": "How to Build a Car",
+        "weight": "0.270",
+        "subtitle": "The Autobiography of the World's Greatest Formula 1 Designer",
+        "full_title": "How to Build a Car The Autobiography of the World's Greatest Formula 1 Designer",
+        "works": [
+          {
+            "key": "/works/OL20657752W"
+          }
+        ],
+        "key": "/books/OL37466316M",
+        "covers": [
+          13168271
+        ],
+        "latest_revision": 2,
+        "revision": 2,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2022-03-02T01:05:46.358157"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2023-01-31T07:26:28.661769"
+        }
+      }
+    }
+  },
+  "file": "data/top250_261023/raw/dac7c2e40063d391.json"
+}

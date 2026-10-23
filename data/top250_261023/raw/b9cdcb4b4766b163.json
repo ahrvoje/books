@@ -1,0 +1,40 @@
+{
+  "url": "https://openlibrary.org/search.json?title=The%20Moon&author=David%20Schrunk&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:49:22.353Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David Schrunk",
+          "Burton Sharpe",
+          "Bonnie L. Cooper"
+        ],
+        "edition_key": [
+          "OL30934881M",
+          "OL37121366M"
+        ],
+        "key": "/works/OL23083764W",
+        "title": "The Moon"
+      },
+      {
+        "author_name": [
+          "David G. Schrunk"
+        ],
+        "edition_key": [
+          "OL669071M"
+        ],
+        "key": "/works/OL2660814W",
+        "title": "The moon, resources, future development and colonization"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/b9cdcb4b4766b163.json"
+}

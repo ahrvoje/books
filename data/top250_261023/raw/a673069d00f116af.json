@@ -1,0 +1,64 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=ISBN:0593081919&jscmd=details&format=json",
+  "retrieved": "2026-10-23T21:48:20.673Z",
+  "status": 200,
+  "data": {
+    "ISBN:0593081919": {
+      "bib_key": "ISBN:0593081919",
+      "info_url": "http://openlibrary.org/books/OL28283354M/Working",
+      "preview": "noview",
+      "preview_url": "http://openlibrary.org/books/OL28283354M/Working",
+      "thumbnail_url": "https://covers.openlibrary.org/b/id/10208782-S.jpg",
+      "details": {
+        "publishers": [
+          "Vintage"
+        ],
+        "source_records": [
+          "amazon:0593081919",
+          "bwb:9780593081914",
+          "idb:9780593081914"
+        ],
+        "title": "Working",
+        "number_of_pages": 240,
+        "isbn_13": [
+          "9780593081914"
+        ],
+        "covers": [
+          10208782
+        ],
+        "physical_format": "paperback",
+        "full_title": "Working",
+        "isbn_10": [
+          "0593081919"
+        ],
+        "publish_date": "Jan 07, 2020",
+        "key": "/books/OL28283354M",
+        "authors": [
+          {
+            "key": "/authors/OL797731A",
+            "name": "Robert A. Caro"
+          }
+        ],
+        "works": [
+          {
+            "key": "/works/OL20161697W"
+          }
+        ],
+        "type": {
+          "key": "/type/edition"
+        },
+        "latest_revision": 3,
+        "revision": 3,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2020-06-23T14:38:31.112188"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2023-12-19T23:09:39.898413"
+        }
+      }
+    }
+  },
+  "file": "data/top250_261023/raw/a673069d00f116af.json"
+}

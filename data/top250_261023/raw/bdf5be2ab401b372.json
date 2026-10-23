@@ -1,0 +1,60 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=ISBN:1280452978&jscmd=details&format=json",
+  "retrieved": "2026-10-23T21:43:17.652Z",
+  "status": 200,
+  "data": {
+    "ISBN:1280452978": {
+      "bib_key": "ISBN:1280452978",
+      "info_url": "http://openlibrary.org/books/OL40391410M/City_of_Light",
+      "preview": "noview",
+      "preview_url": "http://openlibrary.org/books/OL40391410M/City_of_Light",
+      "details": {
+        "type": {
+          "key": "/type/edition"
+        },
+        "authors": [
+          {
+            "key": "/authors/OL217059A",
+            "name": "Jeff Hecht"
+          }
+        ],
+        "isbn_13": [
+          "9781280452970"
+        ],
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "pagination": "316",
+        "publish_date": "1999",
+        "publishers": [
+          "Oxford University Press"
+        ],
+        "source_records": [
+          "bwb:9781280452970"
+        ],
+        "title": "City of Light",
+        "subtitle": "The Story of Fiber Optics",
+        "full_title": "City of Light The Story of Fiber Optics",
+        "works": [
+          {
+            "key": "/works/OL1809574W"
+          }
+        ],
+        "key": "/books/OL40391410M",
+        "latest_revision": 1,
+        "revision": 1,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2022-11-18T10:22:07.059994"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2022-11-18T10:22:07.059994"
+        }
+      }
+    }
+  },
+  "file": "data/top250_261023/raw/bdf5be2ab401b372.json"
+}

@@ -1,0 +1,38 @@
+{
+  "url": "https://openlibrary.org/search.json?title=War%20of%20Invention&author=Guy%20Hartcup&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:53:52.245Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Guy Hartcup"
+        ],
+        "edition_key": [
+          "OL2397007M",
+          "OL20970601M"
+        ],
+        "key": "/works/OL496248W",
+        "title": "The war of invention"
+      },
+      {
+        "author_name": [
+          "Guy Hartcup"
+        ],
+        "edition_key": [
+          "OL58615118M"
+        ],
+        "key": "/works/OL43026915W",
+        "title": "The War of Invention Scientific Development"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/9b3d6836315763de.json"
+}

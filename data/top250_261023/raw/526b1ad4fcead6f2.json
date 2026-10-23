@@ -1,0 +1,125 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=ISBN:0192159372&jscmd=details&format=json",
+  "retrieved": "2026-10-23T21:50:29.013Z",
+  "status": 200,
+  "data": {
+    "ISBN:0192159372": {
+      "bib_key": "ISBN:0192159372",
+      "info_url": "http://openlibrary.org/books/OL5010250M/Imperial_Chemical_Industries",
+      "preview": "restricted",
+      "preview_url": "https://archive.org/details/imperialchemical0002read",
+      "thumbnail_url": "https://covers.openlibrary.org/b/id/9475234-S.jpg",
+      "details": {
+        "publishers": [
+          "Oxford U.P."
+        ],
+        "table_of_contents": [
+          {
+            "level": 0,
+            "title": "v. 1. The forerunners, 1870-1926.",
+            "type": {
+              "key": "/type/toc_item"
+            }
+          },
+          {
+            "level": 0,
+            "title": "v. 2. The first quarter century, 1926-1952.",
+            "type": {
+              "key": "/type/toc_item"
+            }
+          }
+        ],
+        "isbn_10": [
+          "0192159372"
+        ],
+        "subject_place": [
+          "Great Britain."
+        ],
+        "covers": [
+          9475234
+        ],
+        "lc_classifications": [
+          "HD9652.5 .R4"
+        ],
+        "key": "/books/OL5010250M",
+        "authors": [
+          {
+            "key": "/authors/OL1076982A",
+            "name": "W. J. Reader"
+          }
+        ],
+        "ocaid": "imperialchemical0002read",
+        "publish_places": [
+          "London"
+        ],
+        "subjects": [
+          "Imperial Chemical Industries, ltd.",
+          "Chemical industry -- Great Britain."
+        ],
+        "pagination": "2 v.",
+        "source_records": [
+          "marc:OpenLibraries-Trent-MARCs/multi2.mrc:10084827:984",
+          "ia:imperialchemical0002read",
+          "ia:imperialchemical0001read",
+          "marc:marc_loc_2016/BooksAll.2016.part10.utf8:79860777:882",
+          "marc:harvard_bibliographic_metadata/ab.bib.01.20150123.full.mrc:404052914:1021"
+        ],
+        "subtitle": "a history",
+        "title": "Imperial Chemical Industries",
+        "dewey_decimal_class": [
+          "338.7/6/600942"
+        ],
+        "notes": {
+          "type": "/type/text",
+          "value": "Includes bibliographies and indexes."
+        },
+        "identifiers": {
+          "goodreads": [
+            "3733926"
+          ],
+          "librarything": [
+            "8389416"
+          ]
+        },
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "lccn": [
+          "76535300"
+        ],
+        "local_id": [
+          "urn:trent:0116301139972",
+          "urn:trent:0116301139980"
+        ],
+        "publish_date": "1970",
+        "publish_country": "enk",
+        "by_statement": "[by] W. J. Reader.",
+        "works": [
+          {
+            "key": "/works/OL4982575W"
+          }
+        ],
+        "type": {
+          "key": "/type/edition"
+        },
+        "oclc_numbers": [
+          "273462",
+          "6478101"
+        ],
+        "latest_revision": 10,
+        "revision": 10,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2008-04-01T03:28:50.625462"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2025-02-02T08:50:08.587381"
+        }
+      }
+    }
+  },
+  "file": "data/top250_261023/raw/526b1ad4fcead6f2.json"
+}

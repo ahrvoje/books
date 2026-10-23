@@ -1,0 +1,41 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Memory%20Machines&author=Belinda%20Barnet&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:49:48.313Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Belinda Barnet"
+        ],
+        "edition_key": [
+          "OL26181494M"
+        ],
+        "key": "/works/OL17578345W",
+        "title": "Memory Machines The Evolution Of Hypertext"
+      },
+      {
+        "author_name": [
+          "Belinda Barnet"
+        ],
+        "edition_key": [
+          "OL34623132M",
+          "OL39240102M",
+          "OL39244585M",
+          "OL34601608M",
+          "OL39245584M"
+        ],
+        "key": "/works/OL25731814W",
+        "title": "Memory Machines"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/7d4c709c1f4cd34f.json"
+}

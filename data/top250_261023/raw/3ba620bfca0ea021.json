@@ -1,0 +1,40 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Commodore&author=Brian%20Bagnall&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:58:01.038Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Brian Bagnall"
+        ],
+        "edition_key": [
+          "OL39451929M",
+          "OL29385534M",
+          "OL39383661M"
+        ],
+        "key": "/works/OL21627842W",
+        "title": "Commodore"
+      },
+      {
+        "author_name": [
+          "Brian Bagnall"
+        ],
+        "edition_key": [
+          "OL39825262M",
+          "OL26939996M"
+        ],
+        "key": "/works/OL19726890W",
+        "title": "Commodore"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/3ba620bfca0ea021.json"
+}

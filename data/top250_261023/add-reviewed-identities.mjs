@@ -1,0 +1,17 @@
+import fs from 'node:fs';
+const d='data/top250_261023/',p=d+'identity-overrides.json',o=JSON.parse(fs.readFileSync(p)),a=JSON.parse(fs.readFileSync(d+'amazon.json'));
+const items=[
+ ['progress-0725','0521058031','https://books.google.com/books?id=TEjjzAEACAAJ','Exact ISBN 9780521058032 identifies Joseph Needham, Volume 4, Part 2: Mechanical Engineering. Amazon omits Volume 4 from the product title but identifies Part 2 and Mechanical Engineering; this is distinct from the rejected medicine volume.'],
+ ['progress-0024','0691147973','https://assets.press.princeton.edu/catalogs/F10Paper.pdf','Princeton identifies Cormac Ó Gráda, Famine: A Short History, and paperback ISBN 9780691147970. Amazon encodes accented letters as HTML entities in its byline; the exact edition is the same work.'],
+ ['progress-0742','0970748108','https://www.abebooks.com/9780970748102/Spinoff-Personal-History-Industry-Changed-0970748108/plp','Independent ISBN record identifies Charles E. Sporck with Richard Molay and Spinoff, exact ISBN 0970748108. Amazon omits the author from the parsed byline.'],
+ ['progress-0217','0809095432','https://catalog.oslri.net/Record/584787','Ocean State Libraries identifies Marc Levinson, The Great A&P and the Struggle for Small Business in America, and exact ISBN0809095432. Amazon omits the author from the parsed byline.'],
+ ['progress-0728','0517567687','https://obnb.uk/p8747870-icbm-the-making-of-the-weapon-that-changed-the-world','British National Bibliography identifies G. Harry Stine, ICBM, and exact ISBN0517567687. Amazon omits the author from the parsed byline.'],
+ ['progress-0612','1108438164','https://books.google.com/books?id=jqDQswEACAAJ','Google Books identifies Nicholas Crafts and the exact ISBN1108438164. Amazon inserts publisher, binding and date into the title field; title and author identify the same work.'],
+ ['progress-0097','0198754620','https://fullsail.bywatersolutions.com/bib/16926','Library record identifies Robin Hanson, The Age of Em, and ISBN0198754620. Amazon abbreviates the byline to Hanson.'],
+ ['progress-0683','0198864981','https://books.google.com/books?id=gmlbEAAAQBAJ','Google Books identifies Helen Thompson, Disorder: Hard Times in the21stCentury, and exact ISBN0198864981. Amazon abbreviates the byline to Thompson.'],
+ ['progress-0718','1578516730','https://books.google.com/books/about/Code_Name_Ginger.html?id=1BG7YLR8aWcC','Google Books identifies Steve Kemper and the exact ISBN1578516730. Amazon abbreviates the byline to Kemper; title matches.'],
+ ['progress-0760','1838458514','https://discover.library.unt.edu/catalog/b7555845','University of North Texas identifies Richard C. Moss, expanded2021English edition, exact ISBN1838458514. Amazon assigns publisher Bitmap Books to its author field.'],
+ ['progress-0807','2708409298','https://www.mollat.com/livres/869560/nuts-et-bolts-of-construction-history-culture-technology-and-society','Exact complete-set ISBN9782708409293 and title match the four named editors in the independent edition record. Amazon omits authors and labels the product French/hardcover; the physical edition is English/paperback in independent records. Count retained for this ISBN with moderate identity confidence; Amazon binding/language are not adopted.']
+];
+for(const[id,asin,url,reason]of items){const t=a.books[id].attempts.find(a=>a.url.endsWith(asin));o[id]={asin,url,reason,observedTitle:t.title,observedByline:t.byline,...(id==='progress-0807'?{confidence:'moderate'}:{})};}
+fs.writeFileSync(p,JSON.stringify(o,null,2)+'\n');

@@ -1,0 +1,39 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Bootstrapping&author=Thierry%20Bardini&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:48:32.700Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Thierry Bardini"
+        ],
+        "edition_key": [
+          "OL7929333M",
+          "OL7929271M"
+        ],
+        "key": "/works/OL8443929W",
+        "title": "Bootstrapping"
+      },
+      {
+        "author_name": [
+          "Thierry Bardini"
+        ],
+        "edition_key": [
+          "OL51667863M",
+          "OL26404022M"
+        ],
+        "key": "/works/OL17814729W",
+        "title": "Bootstrapping"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/c2caffc5810da5f9.json"
+}

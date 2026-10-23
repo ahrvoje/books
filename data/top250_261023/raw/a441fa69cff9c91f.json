@@ -1,0 +1,51 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Tiger%20Technology&author=John%20A.%20Mathews&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-23T21:42:18.904Z",
+  "status": 200,
+  "data": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John A. Mathews",
+          "Dong-Sung Cho"
+        ],
+        "edition_key": [
+          "OL9545599M",
+          "OL40500741M"
+        ],
+        "key": "/works/OL21008307W",
+        "title": "Tiger Technology"
+      },
+      {
+        "author_name": [
+          "John A. Mathews",
+          "Dong-Sung Cho"
+        ],
+        "edition_key": [
+          "OL7750797M"
+        ],
+        "key": "/works/OL19907076W",
+        "title": "Tiger Technology"
+      },
+      {
+        "author_name": [
+          "Mathews John A.",
+          "Cho Dong-Sung"
+        ],
+        "edition_key": [
+          "OL34443972M"
+        ],
+        "key": "/works/OL25659877W",
+        "title": "Tiger Technology"
+      }
+    ]
+  },
+  "file": "data/top250_261023/raw/a441fa69cff9c91f.json"
+}

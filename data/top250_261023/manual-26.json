@@ -1,0 +1,59 @@
+{
+  "intake-0190": {
+    "referenceRecord": {
+      "pages": 277,
+      "confidence": "moderate",
+      "method": "complete-set-catalog-and-contents",
+      "ranges": [
+        {
+          "start": 397,
+          "end": 474,
+          "label": "Volume I: Notes and bibliographic essay",
+          "evidence": "Google Books contents for ISBN0195165888: Notes397, Bibliographic Essay465, Index475.",
+          "volume": "I"
+        },
+        {
+          "start": 491,
+          "end": 600,
+          "label": "Volume II: Bibliographical references",
+          "evidence": "Library record OL17187010M, ISBN019516587X, explicit references491–600.",
+          "volume": "II"
+        },
+        {
+          "start": 364,
+          "end": 452,
+          "label": "Volume III: Bibliographical references",
+          "evidence": "Library record OL17247026M, ISBN0195165861, explicit references364–452.",
+          "volume": "III"
+        }
+      ],
+      "edition": {
+        "id": "EditionSet:0195165888+019516587X+0195165861",
+        "title": "The Digital Hand (complete three-volume set)",
+        "author": "James W. Cortada",
+        "year": 2008,
+        "language": "English"
+      },
+      "url": "https://books.google.com/books?id=iHXjswEACAAJ",
+      "source": {
+        "retrieved": "2026-10-24",
+        "file": "data/top250_261023/raw/425cce9d0b162aff.json",
+        "additionalFile": "data/top250_261023/web-digitaltoc.json",
+        "evidence": "All three volumes:78+110+89=277 reference-section pages. Each volume has separate pagination; overlapping numeric ranges belong to different volumes."
+      },
+      "sameEditionAsPG": true,
+      "limitation": "Complete three-volume reference count. The linked preview identifies volume I; volume II and III evidence is retained in the saved library records. Excludes indexes."
+    },
+    "product": {
+      "id": "0195165888",
+      "title": "The Digital Hand, volume I",
+      "author": "James W. Cortada",
+      "format": "Hardcover",
+      "language": "English",
+      "url": "https://books.google.com/books?id=iHXjswEACAAJ",
+      "retrieved": "2026-10-24",
+      "confidence": "high",
+      "limitation": "Purchase link identifies volume I only, replacing the volume-I ebook link. Page and reference totals cover all three volumes. A single-volume rating aggregate is not adopted for the full-series nomination. German Amazon stock unverified."
+    }
+  }
+}
