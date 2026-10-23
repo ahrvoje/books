@@ -1,0 +1,99 @@
+{
+  "mention": "The Education of T. C. MITS",
+  "url": "https://openlibrary.org/search.json?title=The%20Education%20of%20T.%20C.%20MITS&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:55.527Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Lillian Rosanoff Lieber",
+          "Hugh Gray Lieber"
+        ],
+        "edition_count": 8,
+        "first_publish_year": 1942,
+        "isbn": [
+          "9781589880337",
+          "1589880331",
+          "0393009068",
+          "0393062783",
+          "9780393062786",
+          "9780393009064"
+        ],
+        "key": "/works/OL164064W",
+        "language": [
+          "eng"
+        ],
+        "title": "The education of T. C. Mits"
+      },
+      {
+        "author_name": [
+          "Various"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1944,
+        "key": "/works/OL43049394W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Education of T.C. Mits"
+      }
+    ]
+  },
+  "work": {
+    "title": "The education of T. C. Mits",
+    "covers": [
+      858608,
+      13420597,
+      13295252
+    ],
+    "first_publish_date": "1942",
+    "key": "/works/OL164064W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2168465A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2264936A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "510"
+    ],
+    "subjects": [
+      "Mathematics",
+      "Science, philosophy",
+      "Logic, symbolic and mathematical"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-10-20T07:18:19.628133"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-02-11T22:04:00.941850"
+    }
+  }
+}

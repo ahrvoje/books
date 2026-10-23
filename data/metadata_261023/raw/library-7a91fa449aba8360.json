@@ -1,0 +1,171 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22Valley%20of%20Genius%22%20AND%20author%3A%22fisher%22)%20OR%20(title%3A%22Le%20Ton%20beau%20de%20Marot%22%20AND%20author%3A%22hofstadter%22)%20OR%20(title%3A%22Out%20of%20the%20Shadows%22%20AND%20author%3A%22kingsman%22)%20OR%20(title%3A%22Revelations%20in%20Air%22%20AND%20author%3A%22stewart%22)%20OR%20(title%3A%22The%20CEO%22%20AND%20author%3A%22kurtzig%22)%20OR%20(title%3A%22Gamers%20at%20Work%22%20AND%20author%3A%22ramsay%22)%20OR%20(title%3A%22Meet%20Me%20by%20the%20Fountain%22%20AND%20author%3A%22lange%22)%20OR%20(title%3A%22Super%20Founders%22%20AND%20author%3A%22tamaseb%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T07:58:09.611Z",
+    "file": "data/metadata_261023/raw/library-7a91fa449aba8360.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 9,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 9,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"Valley of Genius\" AND author:\"fisher\") OR (title:\"Le Ton beau de Marot\" AND author:\"hofstadter\") OR (title:\"Out of the Shadows\" AND author:\"kingsman\") OR (title:\"Revelations in Air\" AND author:\"stewart\") OR (title:\"The CEO\" AND author:\"kurtzig\") OR (title:\"Gamers at Work\" AND author:\"ramsay\") OR (title:\"Meet Me by the Fountain\" AND author:\"lange\") OR (title:\"Super Founders\" AND author:\"tamaseb\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Douglas R. Hofstadter"
+        ],
+        "edition_key": [
+          "OL658780M",
+          "OL7961622M",
+          "OL28950507M",
+          "OL7594100M"
+        ],
+        "isbn": [
+          "9780465086436",
+          "0747533490",
+          "9780747533504",
+          "0465086438",
+          "0747533504",
+          "9780747533498",
+          "9780465086450",
+          "0465086454"
+        ],
+        "key": "/works/OL716846W",
+        "title": "Le Ton beau de Marot"
+      },
+      {
+        "author_name": [
+          "Ali Tamaseb"
+        ],
+        "edition_key": [
+          "OL32485194M",
+          "OL34968538M",
+          "OL34923728M"
+        ],
+        "isbn": [
+          "9781541768420",
+          "1541768426",
+          "9781541768413",
+          "9781541788817",
+          "1541788818",
+          "1541768418"
+        ],
+        "key": "/works/OL24513191W",
+        "title": "Super Founders"
+      },
+      {
+        "author_name": [
+          "Alexandra Lange"
+        ],
+        "edition_key": [
+          "OL48274421M",
+          "OL33877090M"
+        ],
+        "isbn": [
+          "1635576024",
+          "9781635576023",
+          "1639732055",
+          "9781639732050"
+        ],
+        "key": "/works/OL25296238W",
+        "title": "Meet Me By the Fountain"
+      },
+      {
+        "author_name": [
+          "Mr Jonathan Charles Kingsman"
+        ],
+        "edition_key": [
+          "OL28684441M"
+        ],
+        "isbn": [
+          "170426782X",
+          "9781704267821"
+        ],
+        "key": "/works/OL21180669W",
+        "title": "Out of the Shadows"
+      },
+      {
+        "author_name": [
+          "Adam Fisher"
+        ],
+        "edition_key": [
+          "OL37474655M",
+          "OL37299390M",
+          "OL26961186M"
+        ],
+        "isbn": [
+          "1455559024",
+          "9781455559008",
+          "9781455559015",
+          "1538714493",
+          "9781538714492",
+          "9781455559022",
+          "1455559016",
+          "1455559008"
+        ],
+        "key": "/works/OL19748133W",
+        "title": "Valley of genius"
+      },
+      {
+        "author_name": [
+          "Morgan Ramsay"
+        ],
+        "edition_key": [
+          "OL26044781M"
+        ],
+        "isbn": [
+          "9781430233510",
+          "1430233516"
+        ],
+        "key": "/works/OL17459796W",
+        "title": "Gamers At Work Stories Behind The Games People Play"
+      },
+      {
+        "author_name": [
+          "Morgan Ramsay"
+        ],
+        "edition_key": [
+          "OL26006460M"
+        ],
+        "isbn": [
+          "9781430241850",
+          "1430241853"
+        ],
+        "key": "/works/OL17423770W",
+        "title": "Online Gamers At Work"
+      },
+      {
+        "author_name": [
+          "Morgan Ramsay"
+        ],
+        "edition_key": [
+          "OL27040615M"
+        ],
+        "isbn": [
+          "9781430233527",
+          "1430233524"
+        ],
+        "key": "/works/OL19852128W",
+        "title": "Gamers at Work"
+      },
+      {
+        "author_name": [
+          "Jude Stewart"
+        ],
+        "edition_key": [
+          "OL32544188M"
+        ],
+        "isbn": [
+          "0143135996",
+          "9780143135999"
+        ],
+        "key": "/works/OL24549279W",
+        "title": "Revelations in Air"
+      }
+    ]
+  }
+}

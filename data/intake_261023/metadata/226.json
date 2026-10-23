@@ -1,0 +1,64 @@
+{
+  "mention": "Egg — Lizzie Stark",
+  "url": "https://openlibrary.org/search.json?title=Egg&author=Lizzie%20Stark&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:42.165Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Lizzie Stark"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2023,
+        "isbn": [
+          "9781324074472",
+          "0393531511",
+          "9780393531510",
+          "9780393531503",
+          "1324074477",
+          "0393531503"
+        ],
+        "key": "/works/OL27962862W",
+        "language": [
+          "eng"
+        ],
+        "title": "Egg"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Egg",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7019010A"
+        }
+      }
+    ],
+    "key": "/works/OL27962862W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-05-31T10:36:26.926716"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-05-31T10:36:26.926716"
+    }
+  }
+}

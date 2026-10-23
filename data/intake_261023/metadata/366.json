@@ -1,0 +1,111 @@
+{
+  "mention": "Brainfluence",
+  "url": "https://openlibrary.org/search.json?title=Brainfluence&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:51:13.125Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Roger Dooley"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 2011,
+        "isbn": [
+          "9781118175965",
+          "3862009874",
+          "1118175956",
+          "1501264281",
+          "1118175964",
+          "1118175948",
+          "9788492921164",
+          "8492921161",
+          "9781118175958",
+          "9783862009879",
+          "9781118175941",
+          "9781501264283"
+        ],
+        "key": "/works/OL21466403W",
+        "language": [
+          "spa",
+          "gem",
+          "eng"
+        ],
+        "title": "Brainfluence"
+      },
+      {
+        "author_name": [
+          "Roger Dooley"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2012,
+        "isbn": [
+          "1118113365",
+          "9781118113363"
+        ],
+        "key": "/works/OL16015216W",
+        "language": [
+          "eng"
+        ],
+        "title": "Brainfluence",
+        "ratings_average": 5,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Roger B. Dooley"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2012,
+        "isbn": [
+          "1283316080",
+          "9781283316088"
+        ],
+        "key": "/works/OL29020649W",
+        "language": [
+          "eng"
+        ],
+        "title": "Brainfluence"
+      }
+    ]
+  },
+  "work": {
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-21T21:15:55.859403"
+    },
+    "title": "Brainfluence",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-21T21:15:55.859403"
+    },
+    "subjects": [
+      "Marketing",
+      "Advertising",
+      "Consumers"
+    ],
+    "latest_revision": 1,
+    "key": "/works/OL21466403W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2661235A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

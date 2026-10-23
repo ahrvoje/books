@@ -1,0 +1,120 @@
+{
+  "mention": "Effective C++",
+  "url": "https://openlibrary.org/search.json?title=Effective%20C%2B%2B&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:45.527Z",
+  "status": 200,
+  "search": {
+    "numFound": 491,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 491,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Scott Meyers"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 1991,
+        "isbn": [
+          "0201924889",
+          "9780201924886",
+          "9780201563641",
+          "9780321334879",
+          "0201563649",
+          "0321334876"
+        ],
+        "key": "/works/OL2685843W",
+        "language": [
+          "eng"
+        ],
+        "title": "Effective C++",
+        "ratings_average": 4.090909,
+        "ratings_count": 11
+      },
+      {
+        "author_name": [
+          "Scott Meyers"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 1995,
+        "isbn": [
+          "013279747X",
+          "020163371X",
+          "0321545192",
+          "9780201633719",
+          "9780132797474",
+          "9788177589801",
+          "9780321545190",
+          "8177589806"
+        ],
+        "key": "/works/OL2685842W",
+        "language": [
+          "eng"
+        ],
+        "title": "More Effective C++",
+        "ratings_average": 4,
+        "ratings_count": 3
+      },
+      {
+        "author_name": [
+          "Robert C. Seacord"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2020,
+        "isbn": [
+          "9781718501041",
+          "1718501048"
+        ],
+        "key": "/works/OL25414289W",
+        "title": "Effective C"
+      }
+    ]
+  },
+  "work": {
+    "title": "Effective C++",
+    "covers": [
+      193724
+    ],
+    "first_publish_date": "December 30, 1991",
+    "key": "/works/OL2685843W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL392270A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "005.13/3"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "C++ (Computer program language)",
+      "C plus plus (computer program language)",
+      "Object-oriented programming (Computer science)",
+      "Qa76.73.c153 m48 2005"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Effective C++ has been updated to reflect the latest ANSI/ISO standards. The author, a recognised authority on C++, shows readers fifty ways to improve their programs and designs."
+    },
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T00:13:41.244762"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-01-30T07:14:01.376103"
+    }
+  }
+}

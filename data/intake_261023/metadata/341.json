@@ -1,0 +1,68 @@
+{
+  "mention": "The Tyranny of Science",
+  "url": "https://openlibrary.org/search.json?title=The%20Tyranny%20of%20Science&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:50:56.466Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "J. W. N. Sullivan"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 1986,
+        "isbn": [
+          "9780548116494",
+          "9781428625501",
+          "0548116490",
+          "142862550X"
+        ],
+        "key": "/works/OL6103270W",
+        "language": [
+          "eng"
+        ],
+        "title": "Gallio Or The Tyranny Of Science"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T18:33:39.022002"
+    },
+    "subjects": [
+      "Science"
+    ],
+    "latest_revision": 3,
+    "key": "/works/OL6103270W",
+    "title": "Gallio Or The Tyranny Of Science",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1553720A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-12-04T05:42:43.474614"
+    },
+    "covers": [
+      2850639
+    ],
+    "revision": 3
+  }
+}

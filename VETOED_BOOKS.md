@@ -2,11 +2,11 @@
 
 [Language exclusion update](analysis/analysis_top100lang_261021_2230.md).
 
-Updated **2026-10-22, Europe/Warsaw**. **238 unique source works**. [Rating-count update](analysis/analysis_ratinggaps_261021_1704.md); [category review](analysis/analysis_categories_261021_1600.md). Scores remain counterfactual and do not override vetoes.
+Updated **2026-10-23, Europe/Warsaw**. **252 unique source works**. [Rating-count update](analysis/analysis_ratinggaps_261021_1704.md); [category review](analysis/analysis_categories_261021_1600.md). Scores remain counterfactual and do not override vetoes.
 
 | Entry date | First year | Author | Title | Counterfactual /100 | Veto | Veto confidence | Sources | Pages (edition) | Amazon ratings |
 |---|---|---|---|---:|---|---|---|---:|---:|
-| 2026-10-20 | 2001 | Jim Collins | [Good To Great](analysis/analysis_vetogates_261021_0047.md#g0154) | 49.92 | V1 | moderate | 115, 149, 177, 188, 193 | [300](https://openlibrary.org/books/OL17035731M/Good_to_great) | [9137](https://www.amazon.com.au/dp/0066620996) |
+| 2026-10-20 | 2001 | Jim Collins | [Good To Great](analysis/analysis_vetogates_261021_0047.md#g0154) | 49.92 | V1 | moderate | 115, 149, 177, 188, 193, 207 | [300](https://openlibrary.org/books/OL17035731M/Good_to_great) | [9137](https://www.amazon.com.au/dp/0066620996) |
 | 2026-10-20 | 2000 | Stephen Ambrose | [Nothing Like It in the World](analysis/analysis_vetogates_261021_0047.md#nc7d6716583) | 44.66 | V1 | moderate | 141, 143 | [432](https://www.simonandschuster.net/books/Nothing-Like-It-In-the-World/Stephen-E-Ambrose/9780743210836) | Unknown |
 | 2026-10-20 | 2012 | Ray Kurzweil | [How to Create a Mind](analysis/analysis_vetogates_261021_0047.md#nc91dae0186) | 42.87 | V1; V4 | moderate | 135 | [352](https://www.penguinrandomhouse.com/books/306914/how-to-create-a-mind-by-ray-kurzweil/9781101601105/) | Unknown |
 | 2026-10-19 | 2020 | Peter H. Diamandis; Steven Kotler | [The Future Is Faster Than You Think](analysis/analysis_vetogates_261021_0047.md#g0402) | 41.17 | V4 | moderate | 116, 187, 193 | [384](https://openlibrary.org/books/OL29822139M/Future_Is_Faster_Than_You_Think) | Unknown |
@@ -14,7 +14,7 @@ Updated **2026-10-22, Europe/Warsaw**. **238 unique source works**. [Rating-coun
 | 2026-10-19 | 1910 | Norman Angell | [The Great Illusion](analysis/analysis_vetogates_261021_0047.md#g1303) | 37.34 | V1 | moderate | 126 | [407](https://openlibrary.org/books/OL7165009M/The_great_illusion) | Unknown |
 | 2026-10-17 | 2022 | Peter Zeihan | [The End of the World Is Just the Beginning](analysis/analysis_vetogates_261021_0047.md#q1015) | 37.16 | V4 | moderate | 8, 9, 132, 187, 196, 197 | [400](https://openlibrary.org/books/OL38246202M/The_End_of_the_World_Is_Just_the_Beginning) | Unknown |
 | 2026-10-20 | 2023 | Will Hermes | [Lou Reed: The King of New York](analysis/analysis_vetogates_261021_0047.md#ndf6ff2456c) | 36.84 | V3 | moderate | 132 | [560](https://books.google.com/books/about/Lou_Reed.html?id=XnagEAAAQBAJ) | Unknown |
-| 2026-10-19 | 2009 | Andre Agassi | [Open](analysis/analysis_vetogates_261021_0047.md#g0020) | 36.67 | V3 | moderate | 114, 148 | [385](https://openlibrary.org/books/OL24460818M/Open) | [25508](https://www.amazon.com.au/dp/0307268195) |
+| 2026-10-19 | 2009 | Andre Agassi | [Open](analysis/analysis_vetogates_261021_0047.md#g0020) | 36.67 | V3 | moderate | 114, 148, 215 | [385](https://openlibrary.org/books/OL24460818M/Open) | [25508](https://www.amazon.com.au/dp/0307268195) |
 | 2026-10-19 | 2001 | Hans-Hermann Hoppe | [Democracy: The God That Failed](analysis/analysis_vetogates_261021_0047.md#g0716) | 36.62 | V5 | high | 119 | [220](https://openlibrary.org/books/OL8056090M/Democracy_The_God_that_Failed) | Unknown |
 | 2026-10-17 | 2007 | Tim Weiner | [Legacy of Ashes](analysis/analysis_vetogates_261021_0047.md#q1009) | 36.17 | V1 | moderate | 5, 199 | [702](https://openlibrary.org/books/OL35365831M/Legacy_of_ashes) | Unknown |
 | 2026-10-17 | 2021 | Séamas O'Reilly | [Did Ye Hear Mammy Died?](analysis/analysis_vetogates_261021_0047.md#q1057) | 35.89 | V3 | moderate | 3 | [192](https://www.hachettebookgroup.com/titles/seamas-oreilly/did-ye-hear-mammy-died/9780316424271/) | [2825](https://www.amazon.com.au/dp/1668607549) |
@@ -43,14 +43,14 @@ Updated **2026-10-22, Europe/Warsaw**. **238 unique source works**. [Rating-coun
 | 2026-10-20 | 1977 | Patrick Leigh Fermor | [A Time of Gifts](analysis/analysis_vetogates_261021_0047.md#n400d8c6d93) | 29.60 | V3 | moderate | 135 | [344](https://www.nyrb.com/products/a-time-of-gifts) | Unknown |
 | 2026-10-17 | 2021 | Iain McGilchrist | [The Matter with Things](analysis/analysis_vetogates_261021_0047.md#q1047) | 29.30 | V1 | moderate | 8 | [1500](https://openlibrary.org/books/OL35588435M/The_Matter_with_Things) | Unknown |
 | 2026-10-17 | 2014 | Bessel van der Kolk | [The Body Keeps the Score](analysis/analysis_vetogates_261021_0047.md#q1080) | 28.93 | V1 | moderate | 4, 6, 7, 8, 143, 193, 205 | [464](https://www.penguinrandomhouse.com/books/313183/the-body-keeps-the-score-by-bessel-van-der-kolk-md/) | Unknown |
-| 2026-10-20 | 2003 | David Foster Wallace | [Everything and More: A Compact History of Infinity](analysis/analysis_vetogates_261021_0047.md#n1583471893) | 28.69 | V1 | moderate | 135, 140 | [320](https://www.ams.org/journals/notices/200406/200406FullIssue.pdf) | Unknown |
+| 2026-10-20 | 2003 | David Foster Wallace | [Everything and More: A Compact History of Infinity](analysis/analysis_vetogates_261021_0047.md#n1583471893) | 28.69 | V1 | moderate | 135, 140, 214 | [320](https://www.ams.org/journals/notices/200406/200406FullIssue.pdf) | Unknown |
 | 2026-10-17 | 2011 | Stephen Greenblatt | [The Swerve](analysis/analysis_vetogates_261021_0047.md#q1034) | 28.58 | V1 | moderate | 2, 7, 184, 199 | [356](https://openlibrary.org/books/OL25053773M/The_swerve) | Unknown |
 | 2026-10-21 | 1941 | James Burnham | [The Managerial Revolution](analysis/analysis_bgmarcandree_261021_0210.md#bgf32c34d084) | 28.47 | V1 | moderate | 162 | [285](https://openlibrary.org/books/OL6429598M/The_managerial_revolution) | Unknown |
 | 2026-10-20 | 2022 | Harvey Fierstein | [I Was Better Last Night](analysis/analysis_vetogates_261021_0047.md#nc2cbcb068f) | 28.42 | V3 | moderate | 132 | [400](https://www.penguinrandomhouse.com/books/678118/i-was-better-last-night-by-harvey-fierstein/9780593320525/) | [1411](https://www.amazon.com/dp/0593320522) |
 | 2026-10-20 | 2023 | Britney Spears | [The Woman in Me](analysis/analysis_vetogates_261021_0047.md#nfd0337d156) | 28.13 | V3 | moderate | 132 | [288](https://books.google.com/books/about/The_Woman_in_Me.html?id=15p5zwEACAAJ) | Unknown |
 | 2026-10-19 | 2017 | Thi Bui | [The Best We Could Do](analysis/analysis_vetogates_261021_0047.md#g1300) | 27.88 | V3 | moderate | 126, 148 | [327](https://openlibrary.org/books/OL26886785M/The_Best_We_Could_Do) | Unknown |
 | 2026-10-20 | 2019 | Brian Toohey | [Secret: The Making of Australia's Security State](analysis/analysis_vetogates_261021_0047.md#nf36ec9efbe) | 27.72 | V1 | moderate | 141 | [400](https://www.simonandschuster.com/books/Secret/Brian-Toohey/9780522872804) | Unknown |
-| 2026-10-17 | 1985 | Oliver Sacks | [The Man Who Mistook His Wife for a Hat](analysis/analysis_vetogates_261021_0047.md#q1075) | 27.35 | V1 | moderate | 6, 203 | [312](https://openlibrary.org/books/OL46626867M/Man_Who_Mistook_His_Wife_for_a_Hat) | Unknown |
+| 2026-10-17 | 1985 | Oliver Sacks | [The Man Who Mistook His Wife for a Hat](analysis/analysis_vetogates_261021_0047.md#q1075) | 27.35 | V1 | moderate | 6, 203, 208, 216 | [312](https://openlibrary.org/books/OL46626867M/Man_Who_Mistook_His_Wife_for_a_Hat) | Unknown |
 | 2026-10-17 | 2023 | John Trent | [Second Sunrise](analysis/analysis_vetogates_261021_0047.md#q1091) | 27.16 | V3 | moderate | 4 | [192](https://imusic.se/books/9798985191301/john-trent-2023-second-sunrise-five-decades-of-history-at-the-western-states-endurance-run-inbunden-bok) | Unknown |
 | 2026-10-20 | 2021 | Billy Porter | [Unprotected](analysis/analysis_vetogates_261021_0047.md#na80c1dd0b2) | 26.93 | V3 | moderate | 132 | [288](https://books.google.com/books/about/Unprotected.html?id=i8QdEAAAQBAJ) | Unknown |
 | 2026-10-20 | 2023 | Elliot Page | [Pageboy](analysis/analysis_vetogates_261021_0047.md#n1d712210cc) | 26.63 | V3 | moderate | 132 | [288](https://us.macmillan.com/books/9781250878359/pageboy/) | Unknown |
@@ -70,7 +70,7 @@ Updated **2026-10-22, Europe/Warsaw**. **238 unique source works**. [Rating-coun
 | 2026-10-17 | 1998 | Leonard Shlain | [The Alphabet Versus the Goddess](analysis/analysis_vetogates_261021_0047.md#q1100) | 24.36 | V1 | moderate | 7 | [464](https://openlibrary.org/books/OL361538M/The_alphabet_versus_the_goddess) | Unknown |
 | 2026-10-17 | 2006 | Greg Mortenson; David Oliver Relin | [Three Cups of Tea](analysis/analysis_vetogates_261021_0047.md#q1093) | 24.35 | V1 | high | 6 | [338](https://openlibrary.org/books/OL24766756M/Three_cups_of_tea) | Unknown |
 | 2026-10-20 | 1998 | Thich Nhat Hanh | [The Heart of the Buddha's Teaching](analysis/analysis_vetogates_261021_0047.md#n07829fa11f) | 24.18 | V5 | high | 144 | [265](https://openlibrary.org/books/OL356095M/The_heart_of_the_Buddha's_teaching) | Unknown |
-| 2026-10-17 | -299 | Traditionally Laozi | [Tao Te Ching](analysis/analysis_vetogates_261021_0047.md#q1029) | 24.13 | V5 | moderate | 2, 130, 173, 183, 185 | [49](https://openlibrary.org/books/OL61330534M/Tao_te_ching) | Unknown |
+| 2026-10-17 | -299 | Traditionally Laozi | [Tao Te Ching](analysis/analysis_vetogates_261021_0047.md#q1029) | 24.13 | V5 | moderate | 2, 130, 173, 183, 185, 215, 219 | [49](https://openlibrary.org/books/OL61330534M/Tao_te_ching) | Unknown |
 | 2026-10-17 | 2023 | Bob Crowley; Hal V. Hall; Tim Twietmeyer | [The Places We Run](analysis/analysis_vetogates_261021_0047.md#q1107) | 24.11 | V3 | moderate | 4 | Unknown | Unknown |
 | 2026-10-22 | 2001 | Nick Cook | [The Hunt for Zero Point](analysis/analysis_remaining_261022_0042.md#rem-u1803) | 24.09 | V1 | moderate | 193 | Unknown | Unknown |
 | 2026-10-17 | 2017 | John Hodgman | [Vacationland](analysis/analysis_vetogates_261021_0047.md#q1108) | 23.98 | V3 | moderate | 6 | [308](https://openlibrary.org/books/OL26940586M/Vacationland) | Unknown |
@@ -109,7 +109,7 @@ Updated **2026-10-22, Europe/Warsaw**. **238 unique source works**. [Rating-coun
 | 2026-10-17 | 1969 | Henri Charrière | [Papillon](analysis/analysis_vetogates_261021_0047.md#q1086) | 19.35 | V1 | moderate | 6 | [434](https://openlibrary.org/books/OL47224922M/Papillon) | Unknown |
 | 2026-10-20 | 2023 | Julia Fox | [Down the Drain](analysis/analysis_vetogates_261021_0047.md#n108ec51230) | 19.28 | V3 | moderate | 132 | [336](https://www.simonandschuster.com/books/Down-the-Drain/Julia-Fox/9781668011515) | [4565](https://www.amazon.com/dp/1668011514) |
 | 2026-10-20 | 1984 | John Berger | [And Our Faces, My Heart, Brief as Photos](analysis/analysis_vetogates_261021_0047.md#naf9acccd63) | 19.22 | V3 | moderate | 132 | [120](https://www.penguinrandomhouse.com/books/808921/and-our-faces-my-heart-brief-as-photos-by-john-berger/9798896230588/) | Unknown |
-| 2026-10-17 | 1960 | William L. Shirer | [The Rise and Fall of the Third Reich](analysis/analysis_vetogates_261021_0047.md#q1048) | 19.01 | V1 | moderate | 1, 2, 5, 6, 132, 189, 200 | [1272](https://openlibrary.org/books/OL58667555M/The_Rise_And_Fall_Of_The_Third_Reich) | Unknown |
+| 2026-10-17 | 1960 | William L. Shirer | [The Rise and Fall of the Third Reich](analysis/analysis_vetogates_261021_0047.md#q1048) | 19.01 | V1 | moderate | 1, 2, 5, 6, 132, 189, 200, 215 | [1272](https://openlibrary.org/books/OL58667555M/The_Rise_And_Fall_Of_The_Third_Reich) | Unknown |
 | 2026-10-22 | 2014 | Rupi Kaur | [Milk and Honey](analysis/analysis_remaining_261022_0042.md#rem-u0765) | 18.96 | V3 | moderate | 186 | [224](https://www.amazon.com.au/dp/1449483135) | [61753](https://www.amazon.com.au/dp/1449483135) |
 | 2026-10-17 | 2007 | David Talbot (probable identification) | [Brothers](analysis/analysis_vetogates_261021_0047.md#q1070) | 18.68 | V1 | moderate | 4 | [496](https://openlibrary.org/books/OL10723420M/Brothers) | Unknown |
 | 2026-10-17 | 1960 | John Graves | [Goodbye to a River](analysis/analysis_vetogates_261021_0047.md#q1090) | 18.50 | V3 | moderate | 8 | [306](https://openlibrary.org/books/OL1852376M/Goodbye_to_a_river) | Unknown |
@@ -171,7 +171,7 @@ Updated **2026-10-22, Europe/Warsaw**. **238 unique source works**. [Rating-coun
 | 2026-10-19 | 2019 | Ned Ryun | [Restoring Our Republic](analysis/analysis_categories_261021_1600.md#g0751) | 9.71 | V6 | moderate | 119 | [288](https://www.amazon.com.au/dp/1705870775) | [208](https://www.amazon.com.au/dp/1705870775) |
 | 2026-10-20 | 1776 | Thomas Paine | [Common Sense](analysis/analysis_categories_261021_1600.md#n28d920ca6a) | 9.48 | V6 | high | 135, 185, 201 | [112](https://www.penguinrandomhouse.com/books/126135/common-sense-by-thomas-paine/) | Unknown |
 | 2026-10-21 | 1999 | Arthur Herman | [Joseph McCarthy](analysis/analysis_bgmarcandree_261021_0210.md#bg18fb64ebd8) | 9.32 | V1; V2 | moderate | 162 | [404](https://openlibrary.org/books/OL43222M/Joseph_McCarthy) | Unknown |
-| 2026-10-22 | -200 | Eknath Easwaran | [The Bhagavad Gita](analysis/analysis_remaining_261022_0042.md#rem-u0724) | 9.17 | V5 | moderate | 185 | Unknown | Unknown |
+| 2026-10-22 | -200 | Eknath Easwaran | [The Bhagavad Gita](analysis/analysis_remaining_261022_0042.md#rem-u0724) | 9.17 | V5 | moderate | 185, 215 | Unknown | Unknown |
 | 2026-10-22 | 2003 | David Ridges | [Book of Mormon Made Easier Box Set (with Chronological Map)](analysis/analysis_remaining_261022_0042.md#rem-u0784) | 9.04 | V5 | moderate | 186 | Unknown | Unknown |
 | 2026-10-17 | 2004 | Adyashanti | [Emptiness Dancing](analysis/analysis_vetogates_261021_0047.md#q1118) | 8.95 | V5 | moderate | 2 | [238](https://openlibrary.org/books/OL3438369M/Emptiness_dancing) | Unknown |
 | 2026-10-17 | 1997 | Eckhart Tolle | [The Power of Now](analysis/analysis_vetogates_261021_0047.md#q1117) | 8.29 | V5 | high | 6, 158, 177, 183 | [235](https://openlibrary.org/books/OL26648226M/The_Power_of_Now) | Unknown |
@@ -198,7 +198,7 @@ Updated **2026-10-22, Europe/Warsaw**. **238 unique source works**. [Rating-coun
 | 2026-10-21 | 1972 | Thaddeus Golas | [Lazy Man's Guide to Enlightenment](analysis/analysis_bgstevejobs_261021_0210.md#bg4ea98dc691) | 4.28 | V5 | moderate | 153 | [112](https://books.google.com/books/about/Lazy_Man_s_Guide_to_Enlightenment.html?id=wpOn8RvPzU4C) | Unknown |
 | 2026-10-17 | 2007 | Charles Eisenstein | [The Ascent of Humanity](analysis/analysis_vetogates_261021_0047.md#q1127) | 4.27 | V1 | moderate | 9 | [604](https://openlibrary.org/books/OL8591202M/The_Ascent_of_Humanity) | Unknown |
 | 2026-10-21 | 2001 | don Miguel Ruiz and Janet Mills | [The Circle of Fire](analysis/analysis_bgblasmoros_261021_0210.md#bg0e7efb521b) | 4.14 | V5 | high | 173 | [128](https://www.penguinrandomhouse.com/books/601802/the-circle-of-fire-by-don-miguel-ruiz-and-janet-mills/) | Unknown |
-| 2026-10-20 | 1973 | Nisargadatta Maharaj | [I Am That](analysis/analysis_vetogates_261021_0047.md#ndc7acfe5cb) | 3.94 | V5 | moderate | 132 | [550](https://www.amazon.com/dp/0893860220) | [200](https://www.amazon.com/dp/0893860220) |
+| 2026-10-20 | 1973 | Nisargadatta Maharaj | [I Am That](analysis/analysis_vetogates_261021_0047.md#ndc7acfe5cb) | 3.94 | V5 | moderate | 132, 215 | [550](https://www.amazon.com/dp/0893860220) | [200](https://www.amazon.com/dp/0893860220) |
 | 2026-10-19 | 2002 | Jed McKenna | [Spiritual Enlightenment, the Damnedest Thing](analysis/analysis_vetogates_261021_0047.md#g0925) | 3.89 | V5 | moderate | 121 | [324](https://www.amazon.com/dp/0980184843) | [1287](https://www.amazon.com/dp/0980184843) |
 | 2026-10-19 | 1987 | Donald J. Trump; Tony Schwartz | [Trump: The Art of the Deal](analysis/analysis_vetogates_261021_0047.md#g0350) | 3.75 | V1 | moderate | 115 | [372](https://openlibrary.org/books/OL23109280M/Trump) | [18864](https://www.amazon.com.au/dp/0394555287) |
 | 2026-10-19 | 2020 | Corey R. Lewandowski; David N. Bossie | [Trump: America First](analysis/analysis_categories_261021_1600.md#g0791) | 3.49 | V6 | high | 119 | [304](https://openlibrary.org/books/OL29809139M/Trump_America_First) | Unknown |
@@ -242,8 +242,22 @@ Updated **2026-10-22, Europe/Warsaw**. **238 unique source works**. [Rating-coun
 | 2026-10-19 | 1980 | Osho | [Sun Rises in the Evening](analysis/analysis_vetogates_261021_0047.md#g0959) | -16.23 | V5 | moderate | 121 | [364](https://www.amazon.com/dp/0880501391) | [3](https://www.amazon.com/dp/0880501391) |
 | 2026-10-19 | 1981 | David Lifton | [Best Evidence](analysis/analysis_vetogates_261021_0047.md#g0044) | -16.43 | V1 | moderate | 114 | [747](https://openlibrary.org/books/OL4125510M/Best_evidence) | [175](https://www.amazon.com.au/dp/B01N90ZGJ4) |
 | 2026-10-19 | 1982 | Osho | [The Great Challenge](analysis/analysis_vetogates_261021_0047.md#g0969) | -16.56 | V5 | high | 121 | [220](https://www.amazon.com/dp/8172610076) | [4](https://www.amazon.com/dp/8172610076) |
-| 2026-10-17 | 1925 | Adolf Hitler | [Mein Kampf](analysis/analysis_categories_261021_1600.md#q1138) | -16.84 | V1; V2; V5; V6 | high | 8, 132, 201 | [308](https://openlibrary.org/books/OL55722130M/Mein_Kampf) | Unknown |
+| 2026-10-17 | 1925 | Adolf Hitler | [Mein Kampf](analysis/analysis_categories_261021_1600.md#q1138) | -16.84 | V1; V2; V5; V6 | high | 8, 132, 201, 215 | [308](https://openlibrary.org/books/OL55722130M/Mein_Kampf) | Unknown |
 | 2026-10-21 | 1928 | Edmond Bordeaux Szekely | [The Essene Gospel of Peace](analysis/analysis_bgstevejobs_261021_0210.md#bg7200d9adb3) | -18.07 | V5 | high | 153 | [72](https://openlibrary.org/books/OL24237127M/The_Essene_Gospel_of_peace) | Unknown |
+| 2026-10-23 | 1998 | Kary B. Mullis | [Dancing Naked in the Mind Field](analysis/analysis_enguvq9h4_261023_0229.md#intake-0123) | 26.12 | V1 | moderate | 208 | [240](https://openlibrary.org/books/OL18318494M) | Unknown |
+| 2026-10-23 | 2003 | Gary R. Renard | [The Disappearance of the Universe](analysis/analysis_hn15155833_261023_0229.md#intake-0385) | -2.21 | V5 | moderate | 215 | [430](https://openlibrary.org/books/OL8369464M) | Unknown |
+| 2026-10-23 | 1965 | Robert Paul Wolff; Barrington Moore Jr.; Herbert Marcuse | [A Critique of Pure Tolerance](analysis/analysis_hn15155833_261023_0229.md#intake-0402) | 16.12 | V5 | moderate | 215 | Unknown | Unknown |
+| 2026-10-23 | 1995 | Thich Nhat Hanh | [Living Buddha, Living Christ](analysis/analysis_hn15155833_261023_0229.md#intake-0409) | 14.64 | V5 | moderate | 215 | [240](https://openlibrary.org/books/OL8737849M) | Unknown |
+| 2026-10-23 | 1955 | Urantia Foundation | [The Urantia Book](analysis/analysis_hn15155833_261023_0229.md#intake-0426) | -8.26 | V5 | moderate | 215 | [2097](https://openlibrary.org/books/OL21082180M) | Unknown |
+| 2026-10-23 | 1904 | Rudolf Steiner | [Theosophy](analysis/analysis_hn15155833_261023_0229.md#intake-0434) | -9.66 | V5 | moderate | 215 | Unknown | Unknown |
+| 2026-10-23 | 50 | Paul the Apostle | [Epistle to the Galatians](analysis/analysis_hn15155833_261023_0229.md#intake-0442) | 0.28 | V5 | moderate | 215 | Unknown | Unknown |
+| 2026-10-23 | 2008 | George Lakoff | [The Political Mind](analysis/analysis_hn15155833_261023_0229.md#intake-0449) | 14.73 | V6 | moderate | 215 | [292](https://openlibrary.org/books/OL11067248M) | Unknown |
+| 2026-10-23 | 1991 | Pema Chodron | [The Wisdom of No Escape](analysis/analysis_hn15155833_261023_0229.md#intake-0505) | 11.73 | V5 | moderate | 215 | [110](https://openlibrary.org/books/OL22987203M) | Unknown |
+| 2026-10-23 | 100 | Various early Christian authors | [The New Testament](analysis/analysis_hn15155833_261023_0229.md#intake-0517) | 0.28 | V5 | moderate | 215 | Unknown | Unknown |
+| 2026-10-23 | 80 | Traditionally James | [Epistle of James](analysis/analysis_hn15155833_261023_0229.md#intake-0518) | -0.51 | V5 | moderate | 215 | Unknown | Unknown |
+| 2026-10-23 | 650 | Traditionally revelations to Muhammad | [The Quran](analysis/analysis_hn15155833_261023_0229.md#intake-0520) | -0.62 | V5 | moderate | 215 | Unknown | Unknown |
+| 2026-10-23 | 1999 | Dave Andrews | [Christianarchy](analysis/analysis_hn15155833_261023_0229.md#intake-0522) | 11.22 | V5 | moderate | 215 | [195](https://openlibrary.org/books/OL26355870M) | Unknown |
+| 2026-10-23 | 2003 | Maureen McKenna; Irene Howat | [From Whitewashed Stairs to Heaven](analysis/analysis_hn25317963_261023_0229.md#intake-0570) | 5.28 | V5 | moderate | 216 | [208](https://openlibrary.org/books/OL9001995M) | Unknown |
 
 ## Counterfactual breakdowns and reasons
 
@@ -2016,3 +2030,147 @@ Positive criteria and non-rating deductions are unchanged. O15 uses verified new
 | 8.45 | 0.53 | 1.00 | 1.00 | 2.50 | 6.00 | 0.00 | 4.00 | 2.00 | 1.00 | 0.00 | 0.00 | 0.00 | -0.90 | 0.00 | 25.58 |
 
 [Full raw attainments and evidence](analysis/analysis_remaining_261022_0042.md#rem-u0093-b). Sources: 175.
+
+## Source intake 2026-10-23
+
+[Deduplication and coverage audit](analysis/analysis_intake24_261023_0229.md). Existing assessments are unchanged; new vetoes below are counterfactual only.
+
+### Dancing Naked in the Mind Field — Kary B. Mullis
+
+**V1; moderate veto confidence; low score confidence.** The book's scientific worldview combines unsupported paranormal claims, astrology and rejection of established HIV causation. Scientific prestige does not validate these claims; counterfactual score retains the epistemic flaws.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1.80 | 2.12 | 5.00 | 3.00 | 2.50 | 4.00 | 4.00 | 3.00 | 2.50 | 1.00 | 0.00 | 0.00 | 0.00 | -2.80 | 0.00 | 26.12 |
+
+[Full raw attainments and evidence](analysis/analysis_enguvq9h4_261023_0229.md#intake-0123). Sources: 208.
+
+### The Disappearance of the Universe — Gary R. Renard
+
+**V5; moderate veto confidence; low score confidence.** Claimed supernatural teachers establish the authority of A Course in Miracles. Revealed spiritual doctrine is central, rather than historical analysis of religion.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0.45 | 0.24 | 1.00 | 1.00 | 0.90 | 3.00 | 0.00 | 1.00 | 2.00 | 0.50 | 0.00 | -10.00 | 0.00 | -2.30 | 0.00 | -2.21 |
+
+[Full raw attainments and evidence](analysis/analysis_hn15155833_261023_0229.md#intake-0385). Sources: 215.
+
+### A Critique of Pure Tolerance — Robert Paul Wolff; Barrington Moore Jr.; Herbert Marcuse
+
+**V5; moderate veto confidence; low score confidence.** Marcuse's central essay explicitly advocates withdrawing speech and assembly rights from political opponents, including opposition to extending public services, and endorses advance censorship. V5 rests on this direct advocacy of suppressed dissent, not on the authors' political position or the book's critical label. Other essays are not assumed to make identical claims.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 5.00 | 2.12 | 3.00 | 3.00 | 3.60 | 7.00 | 1.00 | 4.00 | 2.00 | 1.50 | 0.00 | -10.00 | 0.00 | -6.10 | 0.00 | 16.12 |
+
+[Full raw attainments and evidence](analysis/analysis_hn15155833_261023_0229.md#intake-0402). Sources: 215.
+
+### Living Buddha, Living Christ — Thich Nhat Hanh
+
+**V5; moderate veto confidence; low score confidence.** Buddhist and Christian teachings are presented as paths of spiritual practice and truth. The central purpose is devotional instruction, not detached history of religion.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 3.20 | 0.94 | 3.00 | 2.00 | 3.60 | 7.00 | 1.00 | 3.00 | 2.50 | 1.50 | 0.00 | -10.00 | 0.00 | -3.10 | 0.00 | 14.64 |
+
+[Full raw attainments and evidence](analysis/analysis_hn15155833_261023_0229.md#intake-0409). Sources: 215.
+
+### The Urantia Book — Urantia Foundation
+
+**V5; moderate veto confidence; low score confidence.** Revelatory cosmology and religious teachings are presented as authoritative truth. Scripture-like doctrine triggers V5 irrespective of its speculative science.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0.20 | 0.24 | 1.00 | 1.00 | 0.40 | 3.00 | 0.00 | 1.00 | 1.50 | 0.50 | 0.00 | -10.00 | 0.00 | -7.10 | 0.00 | -8.26 |
+
+[Full raw attainments and evidence](analysis/analysis_hn15155833_261023_0229.md#intake-0426). Sources: 215.
+
+### Theosophy — Rudolf Steiner
+
+**V5; moderate veto confidence; low score confidence.** Supersensible knowledge, soul and spirit are taught as authoritative realities. Religious-esoteric doctrine is the central purpose.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0.20 | 0.24 | 1.00 | 1.00 | 0.90 | 4.00 | 0.00 | 1.00 | 1.50 | 0.50 | 0.00 | -10.00 | 0.00 | -10.00 | 0.00 | -9.66 |
+
+[Full raw attainments and evidence](analysis/analysis_hn15155833_261023_0229.md#intake-0434). Sources: 215.
+
+### Epistle to the Galatians — Paul the Apostle
+
+**V5; moderate veto confidence; low score confidence.** Canonical epistle argues for religious doctrine and faith as authoritative truth. Approximate composition year 50 CE, moderate confidence; treated as the specifically nominated work.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1.25 | 0.53 | 1.00 | 1.00 | 2.50 | 8.00 | 0.00 | 3.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -10.00 | 0.00 | 0.28 |
+
+[Full raw attainments and evidence](analysis/analysis_hn15155833_261023_0229.md#intake-0442). Sources: 215.
+
+### The Political Mind — George Lakoff
+
+**V6; moderate veto confidence; low score confidence.** The author states that his task is to advance progressive thought and reclaim progressive American values, contrasting this with conservative framing. Representative chapter text and the author's account establish movement-directed mobilization as the governing purpose, not merely a policy conclusion.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 6.05 | 2.88 | 4.00 | 4.00 | 3.60 | 6.00 | 2.00 | 4.00 | 2.50 | 1.50 | -10.00 | -10.00 | 0.00 | -1.80 | 0.00 | 14.73 |
+
+[Full raw attainments and evidence](analysis/analysis_hn15155833_261023_0229.md#intake-0449). Sources: 215.
+
+### The Wisdom of No Escape — Pema Chodron
+
+**V5; moderate veto confidence; low score confidence.** Buddhist teachings and meditation are offered as a spiritual path. The devotional teaching purpose triggers V5; the judgment is not a veto of historical study of Buddhism.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 3.20 | 0.53 | 3.00 | 2.00 | 2.50 | 7.00 | 0.00 | 3.00 | 2.50 | 1.50 | 0.00 | -10.00 | 0.00 | -3.50 | 0.00 | 11.73 |
+
+[Full raw attainments and evidence](analysis/analysis_hn15155833_261023_0229.md#intake-0505). Sources: 215.
+
+### The New Testament — Various early Christian authors
+
+**V5; moderate veto confidence; low score confidence.** The source nominates Christian scripture, not a modern textbook sharing its title. Religious teaching is authoritative; approximate compilation endpoint 100 CE is low-confidence.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1.25 | 0.53 | 1.00 | 1.00 | 2.50 | 8.00 | 0.00 | 3.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -10.00 | 0.00 | 0.28 |
+
+[Full raw attainments and evidence](analysis/analysis_hn15155833_261023_0229.md#intake-0517). Sources: 215.
+
+### Epistle of James — Traditionally James
+
+**V5; moderate veto confidence; low score confidence.** Canonical religious epistle instructs belief and conduct. Approximate composition year 80 CE has low confidence; V5 concerns doctrine, not authorship certainty.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1.25 | 0.24 | 1.00 | 1.00 | 2.50 | 8.00 | 0.00 | 2.50 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -10.00 | 0.00 | -0.51 |
+
+[Full raw attainments and evidence](analysis/analysis_hn15155833_261023_0229.md#intake-0518). Sources: 215.
+
+### The Quran — Traditionally revelations to Muhammad
+
+**V5; moderate veto confidence; low score confidence.** Scripture establishes religious doctrine as authoritative truth. Approximate compilation year 650 CE, moderate confidence; the technical or literary merits do not remove V5.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1.25 | 0.53 | 1.00 | 1.00 | 1.60 | 8.00 | 0.00 | 3.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -10.00 | 0.00 | -0.62 |
+
+[Full raw attainments and evidence](analysis/analysis_hn15155833_261023_0229.md#intake-0520). Sources: 215.
+
+### Christianarchy — Dave Andrews
+
+**V5; moderate veto confidence; low score confidence.** The stated aim is social and personal renewal through Jesus's authentic message. Religious authority, rather than detached analysis, supplies the governing truth.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 2.45 | 1.47 | 3.00 | 2.00 | 2.50 | 6.00 | 1.00 | 2.50 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -2.70 | 0.00 | 11.22 |
+
+[Full raw attainments and evidence](analysis/analysis_hn15155833_261023_0229.md#intake-0522). Sources: 215.
+
+### From Whitewashed Stairs to Heaven — Maureen McKenna; Irene Howat
+
+**V5; moderate veto confidence; low score confidence.** Christian testimony presents faith and evangelism as the governing explanation and purpose. Devotional biography triggers V5 rather than a mere low topic score.
+
+| E | S | U | M | D | R | F | A | N | P | T11 | T12 | H13 | P14 | O15 | Counterfactual total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 2.45 | 0.53 | 2.00 | 1.00 | 1.60 | 5.00 | 0.00 | 2.00 | 2.00 | 1.00 | 0.00 | -10.00 | 0.00 | -2.30 | 0.00 | 5.28 |
+
+[Full raw attainments and evidence](analysis/analysis_hn25317963_261023_0229.md#intake-0570). Sources: 216.

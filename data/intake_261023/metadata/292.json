@@ -1,0 +1,84 @@
+{
+  "mention": "The Dragon Behind the Glass",
+  "url": "https://openlibrary.org/search.json?title=The%20Dragon%20Behind%20the%20Glass&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:50:25.455Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Emily Voigt"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2016,
+        "isbn": [
+          "9781799983859",
+          "1451678959",
+          "9781451678956",
+          "1451678967",
+          "9781451678949",
+          "1451678940",
+          "1799983854",
+          "9781451678963"
+        ],
+        "key": "/works/OL20030958W",
+        "language": [
+          "eng"
+        ],
+        "title": "The dragon behind the glass"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Scleropages formosus",
+      "Fishes",
+      "NATURE",
+      "Endangered Species",
+      "PETS",
+      "Fish & Aquariums",
+      "SCIENCE",
+      "Life Sciences",
+      "Zoology",
+      "Ichthyology & Herpetology",
+      "Collection and preservation",
+      "Rare fishes"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"A journalist's quest to find a wild Asian arowana--the world's most expensive aquarium fish--takes her on a global tour through the bizarre realm of ornamental fish hobbyists to some of the most remote jungles on the planet.\"--Dust jacket."
+    },
+    "key": "/works/OL20030958W",
+    "title": "The dragon behind the glass",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7608578A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-19T13:37:10.944734"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-07-01T20:52:25.402648"
+    }
+  }
+}

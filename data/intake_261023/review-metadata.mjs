@@ -1,0 +1,4 @@
+import fs from 'node:fs';
+const d='data/intake_261023',a=JSON.parse(fs.readFileSync(d+'/pending.json'));
+const start=+(process.argv[2]||0),end=+(process.argv[3]||a.length);
+for(let i=start;i<end;i++){const f=d+'/metadata/'+i+'.json';if(!fs.existsSync(f)){console.log(i,'PENDING',a[i].mention);continue}const m=JSON.parse(fs.readFileSync(f)),b=m.search?.docs?.[0],w=m.work;let desc=typeof w?.description==='string'?w.description:w?.description?.value;console.log(`${i}. ${m.mention} => ${b?.title||'NO RECORD'} | ${b?.author_name?.join('; ')} | ${b?.first_publish_year} | ${b?.key}`);if(desc)console.log(desc.replace(/\s+/g,' ').slice(0,500));if(w?.subjects)console.log('Subjects: '+w.subjects.slice(0,6).join('; '));if(m.search?.docs?.length>1)console.log('Alternatives: '+m.search.docs.slice(1).map(x=>`${x.title} / ${x.author_name} (${x.first_publish_year})`).join(' || '));}

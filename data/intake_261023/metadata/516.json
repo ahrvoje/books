@@ -1,0 +1,90 @@
+{
+  "mention": "Our Marvelous Native Tongue",
+  "url": "https://openlibrary.org/search.json?title=Our%20Marvelous%20Native%20Tongue&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:52:51.132Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Robert Claiborne"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 1983,
+        "isbn": [
+          "0812910389",
+          "0812916352",
+          "9780812916355",
+          "9780812910384"
+        ],
+        "key": "/works/OL4466498W",
+        "language": [
+          "eng"
+        ],
+        "title": "Our marvelous native tongue",
+        "ratings_average": 0,
+        "ratings_count": 0
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      4280646,
+      6792052
+    ],
+    "key": "/works/OL4466498W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL890580A"
+        }
+      }
+    ],
+    "title": "Our marvelous native tongue",
+    "subject_places": [
+      "Englisch"
+    ],
+    "subjects": [
+      "English language",
+      "History",
+      "Geschichte",
+      "New York Times reviewed"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "links": [
+      {
+        "url": "http://www.nytimes.com/1983/09/18/books/nonfiction-in-brief-165405.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Recounts a history of the English language from its Indo-European origins to the present."
+    },
+    "latest_revision": 11,
+    "revision": 11,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T06:27:02.904817"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-09T19:07:53.326689"
+    }
+  }
+}

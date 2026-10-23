@@ -1,0 +1,131 @@
+{
+  "mention": "Spirits of the Coast",
+  "url": "https://openlibrary.org/search.json?title=Spirits%20of%20the%20Coast&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:44.180Z",
+  "status": 200,
+  "search": {
+    "numFound": 12,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 12,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Martha Black",
+          "Lorne Hammond",
+          "Gavin Hanke",
+          "Jack Lohman",
+          "Nikki Sanchez"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2020,
+        "isbn": [
+          "9780772677686",
+          "0772677689"
+        ],
+        "key": "/works/OL21663405W",
+        "language": [
+          "eng"
+        ],
+        "title": "Spirits of the Coast"
+      },
+      {
+        "author_name": [
+          "Pierre Jakez Helias"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1986,
+        "isbn": [
+          "9788437221052",
+          "8437221056"
+        ],
+        "key": "/works/OL5399397W",
+        "language": [
+          "spa"
+        ],
+        "title": "El Espiritu De LA Costa: Leyendas Del Mar/the Spirit of the Coast"
+      },
+      {
+        "author_name": [
+          "Roger Holman"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2010,
+        "isbn": [
+          "9781906887674",
+          "1906887675"
+        ],
+        "key": "/works/OL37816481W",
+        "language": [
+          "eng"
+        ],
+        "title": "Spirit of the Dorset Coast"
+      }
+    ]
+  },
+  "work": {
+    "title": "Spirits of the Coast",
+    "key": "/works/OL21663405W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL545320A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8286964A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8286965A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1239921A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8286966A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      13006492
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-26T03:00:48.534746"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-03T19:09:00.322540"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "mention": "The Birth of Plenty",
+  "url": "https://openlibrary.org/search.json?title=The%20Birth%20of%20Plenty&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:51:39.134Z",
+  "status": 200,
+  "search": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "William Bernstein"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 2004,
+        "isbn": [
+          "4532197686",
+          "9780071421928",
+          "9784532352202",
+          "0071421920",
+          "9784532197681",
+          "4532352207",
+          "9784532197698",
+          "4532197694"
+        ],
+        "key": "/works/OL5926724W",
+        "language": [
+          "jpn",
+          "eng"
+        ],
+        "title": "The Birth of Plenty",
+        "ratings_average": 2,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "William J Bernstein"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2004,
+        "isbn": [
+          "9780071442916",
+          "007144291X"
+        ],
+        "key": "/works/OL15185575W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Birth of Plenty"
+      },
+      {
+        "author_name": [
+          "William Berstein"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2005,
+        "isbn": [
+          "9781932378573",
+          "193237857X"
+        ],
+        "key": "/works/OL8955965W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Birth of Plenty"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Economic history",
+      "Wealth",
+      "Quality of life"
+    ],
+    "key": "/works/OL5926724W",
+    "title": "The Birth of Plenty",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1465488A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      59242
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T18:12:13.470257"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-03-30T08:23:39.325179"
+    }
+  }
+}

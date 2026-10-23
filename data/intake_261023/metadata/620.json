@@ -1,0 +1,93 @@
+{
+  "mention": "Computer Systems: A Programmer's Perspective",
+  "url": "https://openlibrary.org/search.json?title=Computer%20Systems%3A%20A%20Programmer's%20Perspective&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:57.840Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Randal E. Bryant",
+          "David R. O'Hallaron"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2015,
+        "isbn": [
+          "013409266X",
+          "9780134092669"
+        ],
+        "key": "/works/OL19545341W",
+        "language": [
+          "eng"
+        ],
+        "title": "Computer Systems: A Programmer's Perspective (3rd Edition)"
+      },
+      {
+        "edition_count": 1,
+        "isbn": [
+          "1323311424",
+          "9781323311424"
+        ],
+        "key": "/works/OL31518291W",
+        "title": "Computer Systems A Programmer's Perspective Custom for Stanford University CS107"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Computers",
+      "Telecommunication",
+      "User interfaces (computer systems)",
+      "Computer systems",
+      "Qa76.5 .b795 2016",
+      "005.3"
+    ],
+    "key": "/works/OL19545341W",
+    "title": "Computer Systems: A Programmer's Perspective (3rd Edition)",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2649841A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2649842A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8511531
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"Computer systems: A Programmer’s Perspective explains the underlying elements common among all computer systems and how they affect general application performance. Written from the programmer’s perspective, this book strives to teach students how understanding basic elements of computer systems and executing real practice can lead them to create better programs.\"--Publisher's website."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-04-05T13:29:25.300413"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-07-13T05:15:37.936695"
+    }
+  }
+}

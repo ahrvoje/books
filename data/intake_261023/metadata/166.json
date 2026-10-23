@@ -1,0 +1,100 @@
+{
+  "mention": "In the Beginning Was the Command Line",
+  "url": "https://openlibrary.org/search.json?title=In%20the%20Beginning%20Was%20the%20Command%20Line&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:03.094Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Neal Stephenson"
+        ],
+        "edition_count": 10,
+        "first_publish_year": 1999,
+        "isbn": [
+          "9783442151776",
+          "0061568732",
+          "9780061568732",
+          "0061568740",
+          "0380815931",
+          "9780613917377",
+          "8493298220",
+          "0613917375",
+          "0061568767",
+          "3442151775",
+          "9780061568718",
+          "9780061568749",
+          "0061568716",
+          "9780061568763",
+          "0061568724",
+          "9780061832901",
+          "0061832901",
+          "9780061655760",
+          "0061655767",
+          "9788493298227",
+          "9780061568725",
+          "9780380815937"
+        ],
+        "key": "/works/OL38477W",
+        "language": [
+          "eng",
+          "ger",
+          "spa"
+        ],
+        "title": "In the Beginning...Was the Command Line",
+        "ratings_average": 3.6538463,
+        "ratings_count": 26
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "This is \"the Word\" -- one man's word, certainly -- about the art (and artifice) of the state of our computer-centric existence. And considering that the \"one man\" is Neal Stephenson, \"the hacker Hemingway\" (Newsweek) -- acclaimed novelist, pragmatist, seer, nerd-friendly philosopher, and nationally bestselling author of groundbreaking literary works (Snow Crash, Cryptonomicon, etc., etc.) -- the word is well worth hearing. Mostly well-reasoned examination and partial rant, Stephenson's In the Beginning...was the Command Line is a thoughtful, irreverent, hilarious treatise on the cyber-culture past and present; on operating system tyrannies and downloaded popular revolutions; on the Internet, Disney World, Big Bangs, not to mention the meaning of life itself."
+    },
+    "covers": [
+      8347565,
+      -1
+    ],
+    "key": "/works/OL38477W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL19430A"
+        }
+      }
+    ],
+    "title": "In the Beginning...Was the Command Line",
+    "subjects": [
+      "Computer Technology",
+      "Nonfiction",
+      "Operating systems (Computers)",
+      "Humor, form, essays",
+      "American wit and humor, science",
+      "Long Now Manual for Civilization"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 10,
+    "revision": 10,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-10-15T08:11:36.189237"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-03-25T05:31:25.935552"
+    }
+  }
+}

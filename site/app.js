@@ -457,20 +457,6 @@ $('#data-review').onclick = () => {
     <li><strong>Portability:</strong> this is one self-contained HTML file, including the catalog, styles, scripts, and cited repository analyses. All features and embedded evidence work offline. Only optional external purchase/publisher/source links need a connection.</li></ul><p class="help">Dataset ${esc(DATA.datasetHash)}. Build ${esc(DATA.generated)}. More review notes are in IMPLEMENTATION_REVIEW.md in the repository.</p>`);
 };
 $('#footer-review').onclick = () => $('#data-review').click();
-// Monotone cubic Hermite guide; only actual dots participate in dominance.
-function curvePath(points) {
-  if (points.length < 2) return '';
-  if (points.length === 2) return `M${points[0].join(',')}L${points[1].join(',')}`;
-  const slopes = points.slice(1).map((p, i) => (p[1] - points[i][1]) / (p[0] - points[i][0]));
-  const tangents = points.map((p, i) => i === 0 ? slopes[0] : i === points.length - 1 ? slopes.at(-1) :
-    slopes[i - 1] * slopes[i] <= 0 ? 0 : 2 / (1 / slopes[i - 1] + 1 / slopes[i]));
-  let path = `M${points[0].join(',')}`;
-  for (let i = 0; i < points.length - 1; i++) {
-    const a = points[i], b = points[i + 1], h = (b[0] - a[0]) / 3;
-    path += `C${a[0] + h},${a[1] + h * tangents[i]} ${b[0] - h},${b[1] - h * tangents[i + 1]} ${b.join(',')}`;
-  }
-  return path;
-}
 function renderPlot() {
   $('#plot-section').hidden = !state.plot;
   if (!state.plot) return;
@@ -519,7 +505,7 @@ function renderPlot() {
   layers.forEach((layer,i)=>{
     const frontierPoints = [...new Map(points.filter(r => layer.has(r.book.id)).map(r => [JSON.stringify(r.axes), [x(r.axes[0]), y(r.axes[1])]])).values()].sort((a, b) => a[0] - b[0]);
     if (frontierPoints.length < 2) return;
-    const path = curvePath(frontierPoints);
+    const path = frontierPath(frontierPoints, state.axes[0].direction);
     boundaries = `<path class="frontier-line pareto-layer-${i+1}" data-frontier-layer="${i+1}" d="${path}"/>` + boundaries;
   });
   plotGroups.forEach((group, i) => {

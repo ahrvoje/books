@@ -1,0 +1,465 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22Crypto%22%20AND%20author%3A%22levy%22)%20OR%20(title%3A%22Out%20of%20the%20Crystal%20Maze%22%20AND%20author%3A%22hoddeson%22)%20OR%20(title%3A%22The%20Quest%20for%20Artificial%20Intelligence%22%20AND%20author%3A%22nilsson%22)%20OR%20(title%3A%22Project%20Azorian%22%20AND%20author%3A%22polmar%22)%20OR%20(title%3A%22Carrying%20the%20Fire%22%20AND%20author%3A%22collins%22)%20OR%20(title%3A%22747%22%20AND%20author%3A%22sutter%22)%20OR%20(title%3A%22Platform%20Revolution%22%20AND%20author%3A%22parker%22)%20OR%20(title%3A%22Blood%2C%20Sweat%2C%20and%20Pixels%22%20AND%20author%3A%22schreier%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T07:54:49.967Z",
+    "file": "data/metadata_261023/raw/library-3770a277808252bc.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 26,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 26,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"Crypto\" AND author:\"levy\") OR (title:\"Out of the Crystal Maze\" AND author:\"hoddeson\") OR (title:\"The Quest for Artificial Intelligence\" AND author:\"nilsson\") OR (title:\"Project Azorian\" AND author:\"polmar\") OR (title:\"Carrying the Fire\" AND author:\"collins\") OR (title:\"747\" AND author:\"sutter\") OR (title:\"Platform Revolution\" AND author:\"parker\") OR (title:\"Blood, Sweat, and Pixels\" AND author:\"schreier\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jason Schreier"
+        ],
+        "edition_key": [
+          "OL28291354M",
+          "OL35830108M",
+          "OL26934492M",
+          "OL32060613M"
+        ],
+        "isbn": [
+          "0062651234",
+          "9780062651235",
+          "9780062651242",
+          "0062651242",
+          "1538453932",
+          "9781538453933",
+          "1538453924",
+          "9781538453926"
+        ],
+        "key": "/works/OL19721368W",
+        "title": "Blood, sweat, and pixels"
+      },
+      {
+        "author_name": [
+          "Michael Collins"
+        ],
+        "edition_key": [
+          "OL28242802M",
+          "OL27332310M",
+          "OL9357541M",
+          "OL7821601M",
+          "OL8703510M",
+          "OL8048503M"
+        ],
+        "isbn": [
+          "0553239481",
+          "9781885283146",
+          "9780374537760",
+          "9780815410287",
+          "9780553239485",
+          "1885283148",
+          "9780345245601",
+          "9781509896578",
+          "1509896570",
+          "0374537763",
+          "081541028X",
+          "0345245601"
+        ],
+        "key": "/works/OL5332088W",
+        "title": "Carrying the Fire"
+      },
+      {
+        "author_name": [
+          "Michael Collins"
+        ],
+        "edition_key": [
+          "OL5046766M",
+          "OL1901164M"
+        ],
+        "isbn": [
+          "0374119171",
+          "0374119198",
+          "9780374119195",
+          "9780374119171"
+        ],
+        "key": "/works/OL3953552W",
+        "title": "Carrying the fire"
+      },
+      {
+        "author_name": [
+          "Steven Levy"
+        ],
+        "edition_key": [
+          "OL44209090M",
+          "OL44228753M",
+          "OL44228894M",
+          "OL40335607M",
+          "OL40340586M",
+          "OL7351092M",
+          "OL7996166M",
+          "OL7995954M",
+          "OL7643220M",
+          "OL24745751M"
+        ],
+        "isbn": [
+          "0141884851",
+          "0140244328",
+          "9780786566686",
+          "9780786521951",
+          "9780786502561",
+          "0786521953",
+          "9780141884851",
+          "0141884843",
+          "0786502568",
+          "9780756777883",
+          "9780670859504",
+          "9780141884844",
+          "9780756757748",
+          "078656668X",
+          "9780140244328",
+          "0670859508",
+          "0756777887",
+          "0756757746"
+        ],
+        "key": "/works/OL15835594W",
+        "title": "Crypto"
+      },
+      {
+        "author_name": [
+          "Geoffrey Parker"
+        ],
+        "edition_key": [
+          "OL27209970M"
+        ],
+        "isbn": [
+          "0393249131",
+          "9780393249132"
+        ],
+        "key": "/works/OL20029923W",
+        "title": "Platform revolution"
+      },
+      {
+        "author_name": [
+          "Nilsson, Nils J."
+        ],
+        "edition_key": [
+          "OL24013083M"
+        ],
+        "isbn": [
+          "9780521116398",
+          "0521122937",
+          "0521116392",
+          "9780521122931"
+        ],
+        "key": "/works/OL16962439W",
+        "title": "The quest for artificial intelligence"
+      },
+      {
+        "author_name": [
+          "Jason Schreier",
+          "Ray Chase"
+        ],
+        "edition_key": [
+          "OL36623440M"
+        ],
+        "isbn": [
+          "9781538453919",
+          "1538453916"
+        ],
+        "key": "/works/OL27016925W",
+        "title": "Blood, Sweat, and Pixels Lib/E"
+      },
+      {
+        "author_name": [
+          "Joseph F. Sutter",
+          "Joe Sutter",
+          "Jay Spenser"
+        ],
+        "edition_key": [
+          "OL9238165M",
+          "OL3431978M",
+          "OL22745751M",
+          "OL7283458M"
+        ],
+        "isbn": [
+          "0060882417",
+          "9780060882419"
+        ],
+        "key": "/works/OL4494141W",
+        "title": "747"
+      },
+      {
+        "author_name": [
+          "Norman Polmar",
+          "Michael White"
+        ],
+        "edition_key": [
+          "OL24495111M",
+          "OL28497666M"
+        ],
+        "isbn": [
+          "1591146909",
+          "9781591146902",
+          "1591146682",
+          "9781591146681"
+        ],
+        "key": "/works/OL15538593W",
+        "title": "Project Azorian"
+      },
+      {
+        "author_name": [
+          "Nilsson, Nils J."
+        ],
+        "edition_key": [
+          "OL23534484M"
+        ],
+        "isbn": [
+          "0521116392",
+          "0521122937",
+          "9780521116398",
+          "9780521122931"
+        ],
+        "key": "/works/OL1311225W",
+        "title": "The quest for artificial intelligence"
+      },
+      {
+        "author_name": [
+          "Nils J. Nilsson"
+        ],
+        "edition_key": [
+          "OL58049318M"
+        ],
+        "key": "/works/OL42685946W",
+        "title": "The Quest for Artificial Intelligence a history of ideas and achievements"
+      },
+      {
+        "author_name": [
+          "Lillian Hoddeson"
+        ],
+        "edition_key": [
+          "OL2210825M",
+          "OL40393456M",
+          "OL35908515M"
+        ],
+        "isbn": [
+          "9780195053296",
+          "0195345320",
+          "9781280440311",
+          "9780195345322",
+          "1280440317",
+          "019505329X"
+        ],
+        "key": "/works/OL19196040W",
+        "title": "Out of the crystal maze"
+      },
+      {
+        "author_name": [
+          "Sangeet Paul Choudary",
+          "Marshall W. Van Alstyne",
+          "Geoffrey G. Parker"
+        ],
+        "edition_key": [
+          "OL28623630M",
+          "OL29720648M",
+          "OL32764082M",
+          "OL32889855M"
+        ],
+        "isbn": [
+          "9780393354355",
+          "1511366605",
+          "9781511366588",
+          "0393249123",
+          "0393354350",
+          "1511366583",
+          "9780393249125",
+          "9781511366601"
+        ],
+        "key": "/works/OL21144253W",
+        "title": "Platform Revolution"
+      },
+      {
+        "author_name": [
+          "Stephen Levy"
+        ],
+        "edition_key": [
+          "OL7798332M"
+        ],
+        "isbn": [
+          "0713993464",
+          "9780713993462"
+        ],
+        "key": "/works/OL7120935W",
+        "title": "Crypto"
+      },
+      {
+        "author_name": [
+          "Michael Collins"
+        ],
+        "edition_key": [
+          "OL24790789M"
+        ],
+        "isbn": [
+          "9780374531942",
+          "0374531943"
+        ],
+        "key": "/works/OL15882823W",
+        "title": "Carrying the fire"
+      },
+      {
+        "author_name": [
+          "Michael Collins"
+        ],
+        "edition_key": [
+          "OL29813987M"
+        ],
+        "isbn": [
+          "9781466899261",
+          "1466899263"
+        ],
+        "key": "/works/OL21865919W",
+        "title": "Carrying the Fire"
+      },
+      {
+        "author_name": [
+          "Geoffrey G. Parker",
+          "Marshall W. Van Alstyne",
+          "Sangeet Paul Choudary"
+        ],
+        "edition_key": [
+          "OL40236033M"
+        ],
+        "isbn": [
+          "8550806137",
+          "9788550806136"
+        ],
+        "key": "/works/OL29259909W",
+        "title": "Plataforma"
+      },
+      {
+        "author_name": [
+          "Joe Sutter",
+          "Jay Spenser"
+        ],
+        "edition_key": [
+          "OL7283459M",
+          "OL37360448M"
+        ],
+        "isbn": [
+          "9780062011527",
+          "0062011529",
+          "0060882425",
+          "9780060882426"
+        ],
+        "key": "/works/OL27419761W",
+        "title": "747"
+      },
+      {
+        "author_name": [
+          "Michael Collins"
+        ],
+        "edition_key": [
+          "OL60935851M",
+          "OL58742503M"
+        ],
+        "isbn": [
+          "9781461660880",
+          "1461660882"
+        ],
+        "key": "/works/OL43129781W",
+        "title": "Carrying the Fire "
+      },
+      {
+        "author_name": [
+          "Michael Collins"
+        ],
+        "edition_key": [
+          "OL48132471M"
+        ],
+        "isbn": [
+          "0491016034",
+          "9780491016032"
+        ],
+        "key": "/works/OL35686917W",
+        "title": "Carrying the Fire"
+      },
+      {
+        "author_name": [
+          "Michael Collins"
+        ],
+        "edition_key": [
+          "OL43614700M"
+        ],
+        "key": "/works/OL31903199W",
+        "title": "Carrying the Fire"
+      },
+      {
+        "author_name": [
+          "Michael Collins"
+        ],
+        "edition_key": [
+          "OL18325152M"
+        ],
+        "isbn": [
+          "0374119198",
+          "9780374119195"
+        ],
+        "key": "/works/OL3953547W",
+        "title": "Carrying the fire :ban astronaut's journeys"
+      },
+      {
+        "author_name": [
+          "Steven Levy"
+        ],
+        "edition_key": [
+          "OL40339340M"
+        ],
+        "isbn": [
+          "0141886021",
+          "9780141886022"
+        ],
+        "key": "/works/OL29342520W",
+        "title": "Crypto Ebook"
+      },
+      {
+        "author_name": [
+          "Joe Sutter",
+          "Jay P. Spenser"
+        ],
+        "edition_key": [
+          "OL9238166M"
+        ],
+        "isbn": [
+          "9780060882426",
+          "0060882425"
+        ],
+        "key": "/works/OL9238166M",
+        "title": "747"
+      },
+      {
+        "author_name": [
+          "Geoffrey Parker"
+        ],
+        "edition_key": [
+          "OL26936654M"
+        ],
+        "isbn": [
+          "8960515981",
+          "9788960515987"
+        ],
+        "key": "/works/OL19723533W",
+        "title": "P'ŭllaetf'om rebollusyŏn"
+      },
+      {
+        "author_name": [
+          "Adam LEVY"
+        ],
+        "edition_key": [
+          "OL44288086M"
+        ],
+        "isbn": [
+          "9798804680948"
+        ],
+        "key": "/works/OL32495021W",
+        "title": "BLOCKCHAIN, NFT, METAVERSE and CRYPTOCURRENCY [4 BOOKS In 1]"
+      }
+    ]
+  }
+}

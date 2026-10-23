@@ -1,0 +1,112 @@
+{
+  "mention": "Beautiful Code",
+  "url": "https://openlibrary.org/search.json?title=Beautiful%20Code&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:22.298Z",
+  "status": 200,
+  "search": {
+    "numFound": 14,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 14,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Andy Oram",
+          "Greg Wilson"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2007,
+        "isbn": [
+          "0596515987",
+          "0596510047",
+          "9780596510046",
+          "9780596515980"
+        ],
+        "key": "/works/OL19396663W",
+        "language": [
+          "eng"
+        ],
+        "title": "Beautiful Code",
+        "ratings_average": 3.1666667,
+        "ratings_count": 6
+      },
+      {
+        "author_name": [
+          "Zed Shaw"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2012,
+        "isbn": [
+          "9780321884916",
+          "0321884914"
+        ],
+        "key": "/works/OL17405916W",
+        "title": "Learn Python The Hard Way A Very Simple Introduction To The Terrifyingly Beautiful World Of Computers And Code",
+        "ratings_average": 5,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Evija Mehra"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2021,
+        "isbn": [
+          "9798653116100"
+        ],
+        "key": "/works/OL30854358W",
+        "language": [
+          "eng"
+        ],
+        "title": "Beauty Code"
+      }
+    ]
+  },
+  "work": {
+    "description": "How do the experts solve difficult problems in software development? In this unique and insightful book, leading computer scientists offer case studies that reveal how they found unusual, carefully designed solutions to high-profile projects. You will be able to look over the shoulder of major coding and design experts to see problems through their eyes.\r\n\r\nThis is not simply another design patterns book, or another software engineering treatise on the right and wrong way to do things. The authors think aloud as they work through their project's architecture, the tradeoffs made in its construction, and when it was important to break rules. Beautiful Code is an opportunity for master coders to tell their story. All author royalties will be donated to Amnesty International.",
+    "covers": [
+      8622062,
+      1312550
+    ],
+    "key": "/works/OL19396663W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL2726789A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      },
+      {
+        "author": {
+          "key": "/authors/OL659036A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "title": "Beautiful Code",
+    "subjects": [
+      "Software engineering",
+      "Computer programming"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-04-02T10:35:57.318163"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-06-24T17:23:30.522450"
+    }
+  }
+}

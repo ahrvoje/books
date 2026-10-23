@@ -1,0 +1,114 @@
+{
+  "mention": "Frogs into Princes",
+  "url": "https://openlibrary.org/search.json?title=Frogs%20into%20Princes&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:51:59.774Z",
+  "status": 200,
+  "search": {
+    "numFound": 9,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 9,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Richard Bandler"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1979,
+        "isbn": [
+          "0911226192",
+          "9780911226188",
+          "9780911226195",
+          "9781870845038",
+          "0911226184",
+          "187084503X"
+        ],
+        "key": "/works/OL3003257W",
+        "language": [
+          "eng"
+        ],
+        "title": "Frogs into princes"
+      },
+      {
+        "author_name": [
+          "John Grinder",
+          "Richard Bandler"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1979,
+        "key": "/works/OL17077437W",
+        "language": [
+          "eng"
+        ],
+        "title": "Frogs into princes",
+        "ratings_average": 5,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Larry Cuban"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2008,
+        "isbn": [
+          "9780807748596",
+          "9780807748602",
+          "0807748609",
+          "0807748595"
+        ],
+        "key": "/works/OL4303784W",
+        "language": [
+          "eng"
+        ],
+        "title": "Frogs into princes"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1979",
+    "title": "Frogs into princes",
+    "covers": [
+      4396574
+    ],
+    "lc_classifications": [
+      "RC480.5 .B313"
+    ],
+    "key": "/works/OL3003257W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL460856A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "616.8/914"
+    ],
+    "subjects": [
+      "Neurolinguistic programming",
+      "Psychotherapy",
+      "Body language",
+      "Psycholinguistics",
+      "Imagery (Psychology)"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T01:27:31.948268"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-03-07T13:42:13.070130"
+    }
+  }
+}

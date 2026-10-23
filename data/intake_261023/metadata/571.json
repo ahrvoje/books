@@ -1,0 +1,66 @@
+{
+  "mention": "Elements of Poker",
+  "url": "https://openlibrary.org/search.json?title=Elements%20of%20Poker&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:26.433Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Tommy Angelo"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2007,
+        "isbn": [
+          "1419680897",
+          "9781419680892"
+        ],
+        "key": "/works/OL9767093W",
+        "language": [
+          "eng"
+        ],
+        "title": "Elements of Poker"
+      }
+    ]
+  },
+  "work": {
+    "title": "Elements of Poker",
+    "covers": [
+      2801625
+    ],
+    "key": "/works/OL9767093W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3756179A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Poker"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T01:18:28.956290"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-09-21T22:13:26.546283"
+    }
+  }
+}

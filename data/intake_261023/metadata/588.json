@@ -1,0 +1,101 @@
+{
+  "mention": "Joel on Software",
+  "url": "https://openlibrary.org/search.json?title=Joel%20on%20Software&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:36.782Z",
+  "status": 200,
+  "search": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Joel Spolsky"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2004,
+        "isbn": [
+          "9781590593899",
+          "1590593898"
+        ],
+        "key": "/works/OL8912200W",
+        "language": [
+          "eng"
+        ],
+        "title": "Joel on Software",
+        "ratings_average": 3.8181818,
+        "ratings_count": 11
+      },
+      {
+        "author_name": [
+          "Joel Spolsky"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2004,
+        "isbn": [
+          "1590593898",
+          "9781590593899"
+        ],
+        "key": "/works/OL16069877W",
+        "language": [
+          "eng"
+        ],
+        "title": "Joel on software"
+      },
+      {
+        "author_name": [
+          "Joel Spolsky"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2008,
+        "isbn": [
+          "9781430209881",
+          "9781430220114",
+          "1430220112",
+          "1430209879",
+          "9781430209874",
+          "1430209887"
+        ],
+        "key": "/works/OL16586496W",
+        "language": [
+          "eng"
+        ],
+        "title": "More Joel on software"
+      }
+    ]
+  },
+  "work": {
+    "title": "Joel on Software",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T23:31:10.587588"
+    },
+    "covers": [
+      861359
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2019-10-23T06:46:54.036836"
+    },
+    "latest_revision": 3,
+    "key": "/works/OL8912200W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3074664A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 3
+  }
+}

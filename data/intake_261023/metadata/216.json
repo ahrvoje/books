@@ -1,0 +1,62 @@
+{
+  "mention": "The Secret Lives of Color",
+  "url": "https://openlibrary.org/search.json?title=The%20Secret%20Lives%20of%20Color&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:35.540Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Irb Media"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2022,
+        "isbn": [
+          "9798822531314"
+        ],
+        "key": "/works/OL28105039W",
+        "language": [
+          "eng"
+        ],
+        "title": "Summary of Kassia St. Clair's the Secret Lives of Color"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Summary of Kassia St. Clair's the Secret Lives of Color",
+    "subjects": [
+      "Reference books"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL10394876A"
+        }
+      }
+    ],
+    "key": "/works/OL28105039W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-06-19T09:08:52.906999"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-06-19T09:08:52.906999"
+    }
+  }
+}

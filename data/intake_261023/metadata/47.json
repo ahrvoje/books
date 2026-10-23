@@ -1,0 +1,115 @@
+{
+  "mention": "The Big Roads",
+  "url": "https://openlibrary.org/search.json?title=The%20Big%20Roads&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:45.800Z",
+  "status": 200,
+  "search": {
+    "numFound": 60,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 60,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Stan Berenstain"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1987,
+        "isbn": [
+          "9780394991344",
+          "0394891341",
+          "9780394891347",
+          "0394991346"
+        ],
+        "key": "/works/OL15108013W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Berenstain Bears and the Big Road Race",
+        "ratings_average": 4,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Earl Swift"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2011,
+        "isbn": [
+          "9780618812417",
+          "0618812415"
+        ],
+        "key": "/works/OL16011042W",
+        "language": [
+          "eng"
+        ],
+        "title": "The big roads",
+        "ratings_average": 4,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Tom E Clarke"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1966,
+        "key": "/works/OL13685860W",
+        "language": [
+          "eng"
+        ],
+        "title": "The big road"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "Papa Bear and his family watch as the little red car competes in a race against the big orange, yellow, green, and blue cars."
+    },
+    "covers": [
+      4616760
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-07-31T07:27:19.640754"
+    },
+    "latest_revision": 8,
+    "key": "/works/OL15108013W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL19823A"
+        }
+      }
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-04-30T00:05:15.206457"
+    },
+    "title": "The Berenstain Bears and the Big Road Race",
+    "subjects": [
+      "Fiction",
+      "Stories in rhyme",
+      "Bears",
+      "Juvenile fiction",
+      "Color",
+      "Automobile racing",
+      "Berenstain Bears (Fictitious characters)",
+      "Children's fiction",
+      "Bears, fiction",
+      "Berenstain bears (fictitious characters), fiction",
+      "Color, fiction",
+      "Automobile racing, fiction"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 8
+  }
+}

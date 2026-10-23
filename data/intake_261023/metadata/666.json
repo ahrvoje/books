@@ -1,0 +1,79 @@
+{
+  "mention": "xUnit Test Patterns",
+  "url": "https://openlibrary.org/search.json?title=xUnit%20Test%20Patterns&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:26.787Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Gerard Meszaros"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2007,
+        "isbn": [
+          "0321504801",
+          "9780131495050",
+          "9780321504807",
+          "0132797461",
+          "9780132797467",
+          "0131495054"
+        ],
+        "key": "/works/OL7951794W",
+        "language": [
+          "eng"
+        ],
+        "title": "xUnit Test Patterns",
+        "ratings_average": 4.5,
+        "ratings_count": 2
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "Automated testing is a cornerstone of agile development. An effective testing strategy will deliver new functionality more aggressively, accelerate user feedback, and improve quality. However, for many developers, creating effective automated tests is"
+    },
+    "covers": [
+      87720
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-01T10:12:02.370958"
+    },
+    "latest_revision": 6,
+    "key": "/works/OL7951794W",
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL2653099A"
+        }
+      }
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:14:55.264880"
+    },
+    "title": "xUnit Test Patterns",
+    "subjects": [
+      "Computer Technology",
+      "Nonfiction",
+      "Testing",
+      "Software patterns",
+      "Computer software",
+      "Computer software, development"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 6
+  }
+}

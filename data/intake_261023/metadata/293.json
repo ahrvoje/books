@@ -1,0 +1,80 @@
+{
+  "mention": "An Entirely Synthetic Fish",
+  "url": "https://openlibrary.org/search.json?title=An%20Entirely%20Synthetic%20Fish&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:50:25.807Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Anders Halverson"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2011,
+        "isbn": [
+          "9780300140880",
+          "0300140886"
+        ],
+        "key": "/works/OL20443233W",
+        "title": "An Entirely Synthetic Fish"
+      },
+      {
+        "author_name": [
+          "Anders Halverson"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2010,
+        "isbn": [
+          "0300140878",
+          "9780300140873"
+        ],
+        "key": "/works/OL15325684W",
+        "language": [
+          "eng"
+        ],
+        "title": "An entirely synthetic fish"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-11-10T13:21:02.100748"
+    },
+    "subjects": [
+      "Trout",
+      "Fisheries"
+    ],
+    "latest_revision": 2,
+    "key": "/works/OL20443233W",
+    "title": "An Entirely Synthetic Fish",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7748736A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-02T16:42:38.301411"
+    },
+    "covers": [
+      9109071
+    ],
+    "revision": 2
+  }
+}

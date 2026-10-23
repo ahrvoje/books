@@ -1,0 +1,95 @@
+{
+  "mention": "Agile Software Development, Principles, Patterns, and Practices",
+  "url": "https://openlibrary.org/search.json?title=Agile%20Software%20Development%2C%20Principles%2C%20Patterns%2C%20and%20Practices&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:48.767Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Robert C. Martin"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2002,
+        "isbn": [
+          "9780135974445",
+          "9780132760584",
+          "0132760584",
+          "0135974445",
+          "9781292025940",
+          "1292025948"
+        ],
+        "key": "/works/OL7952934W",
+        "language": [
+          "eng"
+        ],
+        "title": "Agile Software Development, Principles, Patterns, and Practices",
+        "ratings_average": 5,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "David D. Riley",
+          "Robert C. Martin"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2003,
+        "isbn": [
+          "9780582849983",
+          "0582849985"
+        ],
+        "key": "/works/OL29340477W",
+        "language": [
+          "eng"
+        ],
+        "title": "Object of Data Abstraction and Structures Using Java with Agile Software Development, Principles, Patterns and Practices"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "C & Visual C",
+      "C++ (Computer program language)",
+      "Object-oriented programming (Computer science)",
+      "Agile software development",
+      "Extreme programming",
+      "EXtreme programming"
+    ],
+    "key": "/works/OL7952934W",
+    "title": "Agile Software Development, Principles, Patterns, and Practices",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2653686A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      91081,
+      7703527
+    ],
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:14:59.472617"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-17T02:43:45.380247"
+    }
+  }
+}

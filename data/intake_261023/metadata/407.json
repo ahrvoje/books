@@ -1,0 +1,114 @@
+{
+  "mention": "They Made America",
+  "url": "https://openlibrary.org/search.json?title=They%20Made%20America&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:51:40.600Z",
+  "status": 200,
+  "search": {
+    "numFound": 18,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 18,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Harold Evans"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2004,
+        "isbn": [
+          "0316277665",
+          "0316070343",
+          "9780316277662",
+          "9780316070348"
+        ],
+        "key": "/works/OL15126328W",
+        "language": [
+          "eng"
+        ],
+        "title": "They made America"
+      },
+      {
+        "author_name": [
+          "Edna McGuire"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 1950,
+        "key": "/works/OL6910395W",
+        "language": [
+          "eng"
+        ],
+        "title": "They made America great"
+      },
+      {
+        "author_name": [
+          "Harold Evans"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2006,
+        "isbn": [
+          "0316013854",
+          "9780316013857"
+        ],
+        "key": "/works/OL15126329W",
+        "language": [
+          "eng"
+        ],
+        "title": "They Made America: From the Steam Engine to the Search Engine",
+        "ratings_average": 1,
+        "ratings_count": 1
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "An illustrated history of American innovators--some well known, some unknown, and all fascinating-- by the author of the bestselling The American Century."
+    },
+    "key": "/works/OL15126328W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2627012A"
+        }
+      }
+    ],
+    "title": "They made America",
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "History",
+      "Inventions",
+      "Inventors",
+      "Antiquarian",
+      "Nonfiction",
+      "Inventions, history",
+      "Inventeurs",
+      "Histoire",
+      "Erfindung",
+      "Erfinder"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      10768358
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-05-05T01:24:03.658780"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-03-27T04:56:35.802718"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "mention": "Computing Calamities",
+  "url": "https://openlibrary.org/search.json?title=Computing%20Calamities&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:32.100Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Robert L. Glass"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 1998,
+        "isbn": [
+          "0130828629",
+          "9780130828620"
+        ],
+        "key": "/works/OL1966540W",
+        "language": [
+          "eng"
+        ],
+        "title": "Computing Calamities"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "November 12, 1998",
+    "title": "Computing Calamities",
+    "covers": [
+      84408
+    ],
+    "subject_places": [
+      "United States",
+      "Case studies"
+    ],
+    "lc_classifications": [
+      "HD9696.2.U62 G55 1999"
+    ],
+    "key": "/works/OL1966540W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL236180A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "004/.068"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Management",
+      "Case studies",
+      "United States",
+      "Corporate turnarounds",
+      "Computer software industry",
+      "Computer industry",
+      "Computer industry -- United States -- Management -- Case studies.",
+      "Computer software industry -- United States -- Management -- Case studies.",
+      "Corporate turnarounds -- United States -- Case studies."
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Many great advances in technology have resulted from risky experimentation, but it's critical to remember and study the spectacular failures that also resulted from some of those risks. Failures can be mundane, like the typical complaints of software projects that are behind schedule and over budget, while others can be much more extravagant. In Computing Calamities, Robert L. Glass has collected war stories from around the industry. Laugh at these mistakes, and learn from them.\n\nSomeone else's failure could be the foundation of your success."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:38:25.034934"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-07-15T04:24:49.941676"
+    }
+  }
+}

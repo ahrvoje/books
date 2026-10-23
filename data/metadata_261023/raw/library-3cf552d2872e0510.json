@@ -1,0 +1,393 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22Flying%20Without%20Wings%22%20AND%20author%3A%22thompson%22)%20OR%20(title%3A%22The%20Perfect%20Theory%22%20AND%20author%3A%22ferreira%22)%20OR%20(title%3A%22The%20Power%20Law%22%20AND%20author%3A%22mallaby%22)%20OR%20(title%3A%22How%20to%20Avoid%20a%20Climate%20Disaster%22%20AND%20author%3A%22gates%22)%20OR%20(title%3A%22Angle%20of%20Attack%22%20AND%20author%3A%22gray%22)%20OR%20(title%3A%22China%20on%20the%20Ground%20in%20Latin%20America%22%20AND%20author%3A%22ellis%22)%20OR%20(title%3A%22The%20Big%20Short%22%20AND%20author%3A%22lewis%22)%20OR%20(title%3A%22Think%20Like%20a%20Rocket%20Scientist%22%20AND%20author%3A%22varol%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T07:56:57.534Z",
+    "file": "data/metadata_261023/raw/library-3cf552d2872e0510.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 14,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 14,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"Flying Without Wings\" AND author:\"thompson\") OR (title:\"The Perfect Theory\" AND author:\"ferreira\") OR (title:\"The Power Law\" AND author:\"mallaby\") OR (title:\"How to Avoid a Climate Disaster\" AND author:\"gates\") OR (title:\"Angle of Attack\" AND author:\"gray\") OR (title:\"China on the Ground in Latin America\" AND author:\"ellis\") OR (title:\"The Big Short\" AND author:\"lewis\") OR (title:\"Think Like a Rocket Scientist\" AND author:\"varol\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Bill Gates"
+        ],
+        "edition_key": [
+          "OL46545213M",
+          "OL35361399M",
+          "OL50216026M",
+          "OL47724248M",
+          "OL36348991M",
+          "OL36282117M",
+          "OL37870485M",
+          "OL38807338M",
+          "OL35664283M",
+          "OL32041462M",
+          "OL32005307M",
+          "OL29837259M",
+          "OL29837102M",
+          "OL29837097M",
+          "OL29469641M"
+        ],
+        "isbn": [
+          "0241448328",
+          "9788401025167",
+          "9786050986273",
+          "059321577X",
+          "9788535934274",
+          "9780593215777",
+          "9780241448328",
+          "9789863986515",
+          "832684120X",
+          "9780141993010",
+          "8535934278",
+          "9788326841200",
+          "0141993014",
+          "9863986518",
+          "8401025168",
+          "9783492071000",
+          "9780385546133",
+          "9780241448304",
+          "0735280444",
+          "0385546130",
+          "9780593081853",
+          "0593081854",
+          "9780593082782",
+          "9780385546140",
+          "0385546149",
+          "9780735280441",
+          "6050986274",
+          "0593082788",
+          "3492071007",
+          "0241448301"
+        ],
+        "key": "/works/OL21667536W",
+        "title": "How to Avoid a Climate Disaster"
+      },
+      {
+        "author_name": [
+          "Ozan Varol"
+        ],
+        "edition_key": [
+          "OL32822090M",
+          "OL29453172M",
+          "OL32884100M",
+          "OL28089218M",
+          "OL28334284M",
+          "OL33759785M",
+          "OL44280529M",
+          "OL34968479M",
+          "OL34944754M"
+        ],
+        "isbn": [
+          "1549159321",
+          "9781541762619",
+          "9781549159329",
+          "9781541762602",
+          "1541762606",
+          "9780753553602",
+          "9781549131837",
+          "9780753553589",
+          "1541762592",
+          "1541762622",
+          "1549131834",
+          "1541762614",
+          "0753553597",
+          "0753553600",
+          "9781541762626",
+          "9780753553596",
+          "0753553589",
+          "9781541762596"
+        ],
+        "key": "/works/OL20758000W",
+        "title": "Think Like a Rocket Scientist"
+      },
+      {
+        "author_name": [
+          "Michael Lewis",
+          "Francisco José Ramos Mena"
+        ],
+        "edition_key": [
+          "OL24437993M",
+          "OL25432358M",
+          "OL24128259M",
+          "OL32547280M",
+          "OL27197171M",
+          "OL40361746M",
+          "OL24080345M",
+          "OL27204793M",
+          "OL29594733M",
+          "OL28413150M",
+          "OL31994104M",
+          "OL24287358M",
+          "OL43115566M",
+          "OL40439915M",
+          "OL26742502M",
+          "OL24907400M",
+          "OL24478793M",
+          "OL47482695M",
+          "OL27289279M",
+          "OL29729342M",
+          "OL40365936M",
+          "OL24809816M",
+          "OL38797478M",
+          "OL24848838M",
+          "OL24823929M",
+          "OL45296397M",
+          "OL24098770M",
+          "OL38210962M",
+          "OL24403141M",
+          "OL24600548M"
+        ],
+        "isbn": [
+          "1846142571",
+          "9780141930565",
+          "9655121971",
+          "0393353168",
+          "141043026X",
+          "039335315X",
+          "0393078191",
+          "1594134618",
+          "9789866165788",
+          "0141983302",
+          "1508214468",
+          "9780393353150",
+          "6073138881",
+          "9781846142567",
+          "9786073138888",
+          "8499922333",
+          "0241956005",
+          "9788466344203",
+          "8466344209",
+          "9783442157051",
+          "1846142563",
+          "9866165787",
+          "3593393573",
+          "9783593393575",
+          "9780393072235",
+          "014193056X",
+          "9780141982946",
+          "9781508214465",
+          "0393072231",
+          "9780393338829",
+          "0141043539",
+          "3442157056",
+          "9780241956007",
+          "9781594134616",
+          "9781846142574",
+          "9780393078190",
+          "9780141983301",
+          "9780141043531",
+          "0393338827",
+          "9788499922331",
+          "0141982942",
+          "9781410430267",
+          "9780393353167"
+        ],
+        "key": "/works/OL15118378W",
+        "title": "The big short"
+      },
+      {
+        "author_name": [
+          "Sebastian Mallaby"
+        ],
+        "edition_key": [
+          "OL39279400M",
+          "OL37326120M",
+          "OL34142624M",
+          "OL38793382M",
+          "OL33925632M"
+        ],
+        "isbn": [
+          "0141988940",
+          "9780241557341",
+          "9780141988948",
+          "9780525559993",
+          "052555999X",
+          "0241356539",
+          "9780241356524",
+          "0241356520",
+          "9780241356531",
+          "0241557348"
+        ],
+        "key": "/works/OL25328015W",
+        "title": "The Power Law"
+      },
+      {
+        "author_name": [
+          "Ozan Varol"
+        ],
+        "edition_key": [
+          "OL32522392M"
+        ],
+        "isbn": [
+          "1549131818",
+          "9781549131813"
+        ],
+        "key": "/works/OL24536433W",
+        "title": "Think Like a Rocket Scientist : Simple Strategies You Can Use to Make Giant Leaps in Work and Life"
+      },
+      {
+        "author_name": [
+          "Mike Gray"
+        ],
+        "edition_key": [
+          "OL7350792M",
+          "OL7678675M",
+          "OL1702725M"
+        ],
+        "isbn": [
+          "9780517143599",
+          "014023280X",
+          "9780140232806",
+          "039301892X",
+          "0517143593",
+          "9780393018929"
+        ],
+        "key": "/works/OL2483989W",
+        "title": "Angle of Attack"
+      },
+      {
+        "author_name": [
+          "E. Ellis"
+        ],
+        "edition_key": [
+          "OL35797451M",
+          "OL35799395M"
+        ],
+        "isbn": [
+          "134949433X",
+          "9781349494330",
+          "9781137439772",
+          "1137439777"
+        ],
+        "key": "/works/OL26487586W",
+        "title": "China on the Ground in Latin America"
+      },
+      {
+        "author_name": [
+          "R. Evan Ellis"
+        ],
+        "edition_key": [
+          "OL39528311M"
+        ],
+        "isbn": [
+          "1322169365",
+          "9781322169361"
+        ],
+        "key": "/works/OL28792713W",
+        "title": "China on the Ground in Latin America"
+      },
+      {
+        "author_name": [
+          "Milton O. Thompson"
+        ],
+        "edition_key": [
+          "OL386008M",
+          "OL8473024M"
+        ],
+        "isbn": [
+          "9780947554781",
+          "0947554785",
+          "1560988320",
+          "9781560988328"
+        ],
+        "key": "/works/OL1994110W",
+        "title": "Flying without wings"
+      },
+      {
+        "author_name": [
+          "Mike Gray"
+        ],
+        "edition_key": [
+          "OL29048798M"
+        ],
+        "isbn": [
+          "039332513X",
+          "9780393325133"
+        ],
+        "key": "/works/OL21451996W",
+        "title": "Angle of Attack"
+      },
+      {
+        "author_name": [
+          "Robert Evan Ellis"
+        ],
+        "edition_key": [
+          "OL31017914M"
+        ],
+        "isbn": [
+          "9781137439765",
+          "1137439769"
+        ],
+        "key": "/works/OL23183011W",
+        "title": "China on the ground in Latin America"
+      },
+      {
+        "author_name": [
+          "Pedro G. Ferreira"
+        ],
+        "edition_key": [
+          "OL37410778M",
+          "OL37180708M",
+          "OL34601206M",
+          "OL27561321M",
+          "OL36305887M",
+          "OL33023057M"
+        ],
+        "isbn": [
+          "1306361087",
+          "1408704307",
+          "9781306361088",
+          "0349123675",
+          "0547554907",
+          "9781408704301",
+          "9781408703106",
+          "9780547554907",
+          "9780349123677",
+          "0544264088",
+          "1408703106",
+          "9780544264083"
+        ],
+        "key": "/works/OL20350696W",
+        "title": "The Perfect Theory"
+      },
+      {
+        "author_name": [
+          "Prof. Pedro G. Ferreira"
+        ],
+        "edition_key": [
+          "OL26811443M"
+        ],
+        "isbn": [
+          "9780547554891",
+          "0547554893"
+        ],
+        "key": "/works/OL19355016W",
+        "title": "The Perfect Theory: A Century of Geniuses and the Battle over General Relativity"
+      },
+      {
+        "author_name": [
+          "Bill Gates",
+          "Osnat Hadar",
+          "Kineret Higins-Daṿidi"
+        ],
+        "edition_key": [
+          "OL61605491M"
+        ],
+        "isbn": [
+          "9652013579",
+          "9789652013576"
+        ],
+        "key": "/works/OL45181093W",
+        "title": "אסון אקלימי"
+      }
+    ]
+  }
+}

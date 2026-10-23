@@ -1,0 +1,113 @@
+{
+  "mention": "Code Reading",
+  "url": "https://openlibrary.org/search.json?title=Code%20Reading&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:27.769Z",
+  "status": 200,
+  "search": {
+    "numFound": 178,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 178,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Diomidis Spinellis"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2003,
+        "isbn": [
+          "0672334267",
+          "0201799405",
+          "9780672334269",
+          "0672333708",
+          "9780201799408",
+          "9780672333705"
+        ],
+        "key": "/works/OL8022190W",
+        "language": [
+          "eng"
+        ],
+        "title": "Code Reading"
+      },
+      {
+        "author_name": [
+          "Kenneth L. Gebert"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 1972,
+        "isbn": [
+          "0826915426",
+          "9780826915429",
+          "9780826915504",
+          "0826915469",
+          "0826915523",
+          "0826915507",
+          "9780826915528",
+          "9780826915467"
+        ],
+        "key": "/works/OL5270930W",
+        "language": [
+          "eng"
+        ],
+        "title": "National electrical code blueprint reading"
+      },
+      {
+        "author_name": [
+          "Jeremy Keeshin"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2021,
+        "isbn": [
+          "9781544517988",
+          "1544517998",
+          "9781544517995",
+          "154451798X",
+          "1544517971",
+          "9781544517971"
+        ],
+        "key": "/works/OL34357676W",
+        "language": [
+          "eng"
+        ],
+        "title": "Read Write Code"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:18:38.245526"
+    },
+    "subjects": [
+      "Computer programming",
+      "Coding theory"
+    ],
+    "latest_revision": 3,
+    "key": "/works/OL8022190W",
+    "title": "Code Reading",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2671245A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-19T07:30:31.245203"
+    },
+    "covers": [
+      136418
+    ],
+    "revision": 3
+  }
+}

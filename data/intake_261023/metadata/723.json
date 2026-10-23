@@ -1,0 +1,123 @@
+{
+  "mention": "Essential .NET",
+  "url": "https://openlibrary.org/search.json?title=Essential%20.NET&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:04.764Z",
+  "status": 200,
+  "search": {
+    "numFound": 51,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 51,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Thuan L. Thai",
+          "Hoang Lam"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 2001,
+        "isbn": [
+          "0596517173",
+          "0596001657",
+          "9780596003029",
+          "0596005059",
+          "9780596001650",
+          "9780596517175",
+          "9780596005054",
+          "0596003021"
+        ],
+        "key": "/works/OL5745907W",
+        "language": [
+          "eng"
+        ],
+        "title": ".NET framework essentials"
+      },
+      {
+        "author_name": [
+          "Don Box",
+          "Chris Sells"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2002,
+        "isbn": [
+          "9780201734119",
+          "0201734117"
+        ],
+        "key": "/works/OL2741201W",
+        "language": [
+          "eng"
+        ],
+        "title": "Essential .NET"
+      },
+      {
+        "author_name": [
+          "Shahed Chowdhuri"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2016,
+        "isbn": [
+          "9781785889158",
+          "178588915X",
+          "1548535508",
+          "9781548535506"
+        ],
+        "key": "/works/OL19546327W",
+        "language": [
+          "eng"
+        ],
+        "title": "ASP.NET Core Essentials"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Development",
+      "Internet programming",
+      "Computer software",
+      "Microsoft .NET Framework",
+      "Computer software, development",
+      "Microsoft .net"
+    ],
+    "key": "/works/OL5745907W",
+    "title": ".NET framework essentials",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1397674A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2726797A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      388792,
+      6802184,
+      388635
+    ],
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T11:13:03.685306"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-07T19:58:37.816702"
+    }
+  }
+}

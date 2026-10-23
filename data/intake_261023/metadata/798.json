@@ -1,0 +1,91 @@
+{
+  "mention": "The Math Book — Clifford Pickover",
+  "url": "https://openlibrary.org/search.json?title=The%20Math%20Book&author=Clifford%20Pickover&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:53.439Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Clifford A. Pickover"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 2009,
+        "isbn": [
+          "9781402797491",
+          "9789571356990",
+          "1402788290",
+          "9571356999",
+          "9789089980977",
+          "9089980970",
+          "9781402757969",
+          "1435148037",
+          "9781435148031",
+          "1402797494",
+          "9781402788291",
+          "1402757964"
+        ],
+        "key": "/works/OL15167129W",
+        "language": [
+          "chi",
+          "spa",
+          "eng"
+        ],
+        "title": "The Math Book",
+        "ratings_average": 4.5,
+        "ratings_count": 4
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "History",
+      "Mathematics",
+      "Mathematics, history",
+      "Discoveries in science",
+      "Popular works"
+    ],
+    "key": "/works/OL15167129W",
+    "title": "The Math Book",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL31598A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      6391289,
+      7820066,
+      13859211,
+      8071056
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "This book covers 250 milestones in mathematical history, beginning millions of years ago with ancient \"ant odometers\" and moving through time to our modern-day quest for new dimensions."
+    },
+    "latest_revision": 9,
+    "revision": 9,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-06-07T21:07:08.593702"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-07-19T09:52:16.675934"
+    }
+  }
+}

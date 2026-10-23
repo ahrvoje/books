@@ -1,0 +1,111 @@
+{
+  "mention": "Professional JSP",
+  "url": "https://openlibrary.org/search.json?title=Professional%20JSP&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:44.785Z",
+  "status": 200,
+  "search": {
+    "numFound": 11,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 11,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Karl Avedal"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2000,
+        "isbn": [
+          "9781861003621",
+          "1861003625"
+        ],
+        "key": "/works/OL23797177W",
+        "language": [
+          "eng"
+        ],
+        "title": "Professional JSP"
+      },
+      {
+        "author_name": [
+          "Simon Brown",
+          "Robert Burdick",
+          "Jayson Falkner",
+          "Ben Galbraith",
+          "Rod Johnson",
+          "Larry Kim",
+          "Casey Kochmer",
+          "Thor Kristmundsson",
+          "Sing Li"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2001,
+        "isbn": [
+          "1861004958",
+          "9781861004956"
+        ],
+        "key": "/works/OL19561380W",
+        "language": [
+          "eng"
+        ],
+        "title": "Professional JSP"
+      },
+      {
+        "author_name": [
+          "Simon Brown"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2001,
+        "isbn": [
+          "1861004958",
+          "9781861004956"
+        ],
+        "key": "/works/OL17883622W",
+        "language": [
+          "eng"
+        ],
+        "title": "Professional JSP"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Professional JSP",
+    "subjects": [
+      "Web sites",
+      "Authoring programs",
+      "Web servers",
+      "Computer programs",
+      "Web site development",
+      "JavaServer pages"
+    ],
+    "covers": [
+      916247
+    ],
+    "key": "/works/OL23797177W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3045814A"
+        }
+      }
+    ],
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-12-06T23:40:09.413952"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-12-06T23:40:09.413952"
+    }
+  }
+}

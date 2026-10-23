@@ -1,0 +1,77 @@
+{
+  "mention": "C# for Experienced Programmers",
+  "url": "https://openlibrary.org/search.json?title=C%23%20for%20Experienced%20Programmers&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:12.761Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Harvey M. Deitel",
+          "Paul J. Deitel"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2002,
+        "isbn": [
+          "9780130461339",
+          "0130461334"
+        ],
+        "key": "/works/OL15120658W",
+        "language": [
+          "eng"
+        ],
+        "title": "C# For Experienced Programmers"
+      }
+    ]
+  },
+  "work": {
+    "title": "C# For Experienced Programmers",
+    "key": "/works/OL15120658W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL203473A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      },
+      {
+        "author": {
+          "key": "/authors/OL2648839A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "C# (Computer program language)",
+      "C (Computer program language)"
+    ],
+    "covers": [
+      15111756,
+      12792319
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-05-01T03:16:59.354664"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-08-14T13:15:49.681811"
+    }
+  }
+}

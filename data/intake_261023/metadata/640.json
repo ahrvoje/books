@@ -1,0 +1,103 @@
+{
+  "mention": "JUnit in Action",
+  "url": "https://openlibrary.org/search.json?title=JUnit%20in%20Action&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:10.527Z",
+  "status": 200,
+  "search": {
+    "numFound": 6,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 6,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Vincent Massol"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2004,
+        "isbn": [
+          "9781930110991",
+          "1930110995"
+        ],
+        "key": "/works/OL5753899W",
+        "language": [
+          "eng"
+        ],
+        "title": "JUnit in action"
+      },
+      {
+        "author_name": [
+          "Petar Tahchiev"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2011,
+        "isbn": [
+          "1935182021",
+          "9781935182023"
+        ],
+        "key": "/works/OL15937120W",
+        "language": [
+          "eng"
+        ],
+        "title": "JUnit in action"
+      },
+      {
+        "author_name": [
+          "Catalin Tudose",
+          "Petar Tahchiev",
+          "Felipe Leme",
+          "Gary Gregory",
+          "Vincent Massol"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2020,
+        "isbn": [
+          "1617297046",
+          "9781617297045"
+        ],
+        "key": "/works/OL22165050W",
+        "language": [
+          "eng"
+        ],
+        "title": "JUnit in Action, Third Edition"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-14T19:33:29.427101"
+    },
+    "subjects": [
+      "Java (Computer program language)",
+      "Object-oriented programming (Computer science)"
+    ],
+    "latest_revision": 6,
+    "key": "/works/OL5753899W",
+    "title": "JUnit in action",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1399884A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-02-13T11:32:05.488255"
+    },
+    "covers": [
+      954564
+    ],
+    "revision": 6
+  }
+}

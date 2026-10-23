@@ -1,0 +1,76 @@
+{
+  "mention": "Life Is Simple — Johnjoe McFadden",
+  "url": "https://openlibrary.org/search.json?title=Life%20Is%20Simple&author=Johnjoe%20McFadden&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:50:46.216Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Johnjoe McFadden"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 2021,
+        "isbn": [
+          "9781541620445",
+          "1541600312",
+          "1529364957",
+          "9781541620438",
+          "9781529364934",
+          "9781529364958",
+          "1541620437",
+          "9781541600317",
+          "1541620445",
+          "1529364930",
+          "9781529364941",
+          "1529364949"
+        ],
+        "key": "/works/OL25338016W",
+        "language": [
+          "eng"
+        ],
+        "title": "Life Is Simple"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Life Is Simple",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2623115A"
+        }
+      }
+    ],
+    "key": "/works/OL25338016W",
+    "subjects": [
+      "Science",
+      "Philosophy",
+      "History",
+      "Methodology"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-09-28T14:07:03.312619"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-12T07:43:18.780801"
+    }
+  }
+}

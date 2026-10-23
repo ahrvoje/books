@@ -1,0 +1,121 @@
+{
+  "mention": "Programming Windows",
+  "url": "https://openlibrary.org/search.json?title=Programming%20Windows&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:54.759Z",
+  "status": 200,
+  "search": {
+    "numFound": 586,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 586,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Charles Petzold"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 1988,
+        "isbn": [
+          "1556151004",
+          "1556152647",
+          "9781572319950",
+          "157231995X",
+          "9780914845911",
+          "9781556151002",
+          "9781556152641",
+          "0914845918"
+        ],
+        "key": "/works/OL1972517W",
+        "language": [
+          "eng"
+        ],
+        "title": "Programming Windows"
+      },
+      {
+        "author_name": [
+          "Charles Petzold"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1992,
+        "isbn": [
+          "9781556153952",
+          "1556153953"
+        ],
+        "key": "/works/OL1972509W",
+        "language": [
+          "eng"
+        ],
+        "title": "Programming Windows 3.1",
+        "ratings_average": 5,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Namir Clement Shammas"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 1992,
+        "isbn": [
+          "0079120482",
+          "0830641491",
+          "9780079120489",
+          "9780830641499"
+        ],
+        "key": "/works/OL2033679W",
+        "language": [
+          "eng"
+        ],
+        "title": "Windows Batch File Programming",
+        "ratings_average": 4,
+        "ratings_count": 1
+      }
+    ]
+  },
+  "work": {
+    "subtitle": "the Microsoft guide to programming for the MS-DOS : presentation manager, Windows 2.0 and Windows/386",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-11-11T09:03:30.546226"
+    },
+    "title": "Programming Windows",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:38:57.316693"
+    },
+    "covers": [
+      4125094
+    ],
+    "first_sentence": {
+      "type": "/type/text",
+      "value": "The book shows you how to write programs that run under Microsoft Windows 98, Microsoft Windows NT 4.0, and Windows NT 5.0."
+    },
+    "first_publish_date": "1988",
+    "latest_revision": 9,
+    "key": "/works/OL1972517W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL236999A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "IBM Personal Computer",
+      "Microsoft Windows (Computer file)",
+      "Microsoft Windows (Computer programs)",
+      "Operating systems (Computers)",
+      "Programming",
+      "IBM Personal computer"
+    ],
+    "revision": 9
+  }
+}

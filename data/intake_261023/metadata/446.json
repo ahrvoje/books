@@ -1,0 +1,123 @@
+{
+  "mention": "Golem XIV",
+  "url": "https://openlibrary.org/search.json?title=Golem%20XIV&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:52:05.502Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Stanisław Lem"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 1981,
+        "isbn": [
+          "9785976201699",
+          "5971328174",
+          "9783518377666",
+          "9667007574",
+          "9788415130406",
+          "3518377663",
+          "9788308006016",
+          "5170371071",
+          "9785971328179",
+          "9785170371075",
+          "8415130406",
+          "8308006019",
+          "3458141391",
+          "5976201695",
+          "9783458141396"
+        ],
+        "key": "/works/OL15335831W",
+        "language": [
+          "pol",
+          "ukr",
+          "rus",
+          "ger"
+        ],
+        "title": "Golem XIV",
+        "ratings_average": 2,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Stanisław Lem"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1981,
+        "isbn": [
+          "9788308073957",
+          "8308073956"
+        ],
+        "key": "/works/OL31865868W",
+        "language": [
+          "pol"
+        ],
+        "title": "Golem XIV [i.e. czternasty]"
+      },
+      {
+        "author_name": [
+          "Stanisław Lem"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2018,
+        "isbn": [
+          "8365983176",
+          "8887847681",
+          "9788887847680",
+          "9788365983176"
+        ],
+        "key": "/works/OL34968670W",
+        "title": "Golem XIV"
+      }
+    ]
+  },
+  "work": {
+    "title": "Golem XIV",
+    "key": "/works/OL15335831W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL29655A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      -1
+    ],
+    "subjects": [
+      "Interviews",
+      "Polish Authors",
+      "Polish Science fiction"
+    ],
+    "subject_people": [
+      "Stanisław Lem (1921-2006)"
+    ],
+    "subject_times": [
+      "20th century"
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-08-17T21:02:05.527006"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-08-25T05:49:30.627120"
+    }
+  }
+}

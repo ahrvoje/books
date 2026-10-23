@@ -1,0 +1,102 @@
+{
+  "mention": "Fancy Bear Goes Phishing",
+  "url": "https://openlibrary.org/search.json?title=Fancy%20Bear%20Goes%20Phishing&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:41.815Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Scott J. Shapiro"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2023,
+        "isbn": [
+          "9780374601171",
+          "0374601178",
+          "1250335671",
+          "9781250335678",
+          "0374601186",
+          "9780374601188"
+        ],
+        "key": "/works/OL28868802W",
+        "language": [
+          "eng"
+        ],
+        "title": "Fancy Bear Goes Phishing",
+        "ratings_average": 3.75,
+        "ratings_count": 4
+      },
+      {
+        "author_name": [
+          "Scott Shapiro"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2023,
+        "isbn": [
+          "0241461960",
+          "9780141993843",
+          "0141993847",
+          "9780241461969"
+        ],
+        "key": "/works/OL28802997W",
+        "language": [
+          "eng"
+        ],
+        "title": "Fancy Bear Goes Phishing"
+      },
+      {
+        "author_name": [
+          "Irb Media"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2024,
+        "isbn": [
+          "9798350066845"
+        ],
+        "key": "/works/OL37879398W",
+        "language": [
+          "eng"
+        ],
+        "title": "Summary of Scott J. Shapiro's Fancy Bear Goes Phishing"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Fancy Bear Goes Phishing",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL5629860A"
+        }
+      }
+    ],
+    "key": "/works/OL28868802W",
+    "covers": [
+      13247499
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-09-18T20:42:14.613176"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-02-04T10:03:24.519845"
+    }
+  }
+}

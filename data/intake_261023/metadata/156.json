@@ -1,0 +1,83 @@
+{
+  "mention": "The Code — Margaret O'Mara",
+  "url": "https://openlibrary.org/search.json?title=The%20Code&author=Margaret%20O'Mara&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:56.820Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Margaret O'Mara"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2019,
+        "isbn": [
+          "9780399562181",
+          "9780399562204",
+          "0399562206",
+          "0399562184"
+        ],
+        "key": "/works/OL20719548W",
+        "title": "The Code"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Business enterprises, united states",
+      "California, economic conditions",
+      "New York Times reviewed",
+      "Computer industry",
+      "Economic history",
+      "Technology, history",
+      "Economic conditions",
+      "Business enterprises",
+      "BUSINESS & ECONOMICS / Economic History",
+      "BUSINESS & ECONOMICS / Industries / Computers & Information Technology"
+    ],
+    "key": "/works/OL20719548W",
+    "title": "The Code",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7662122A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      9401824
+    ],
+    "links": [
+      {
+        "url": "https://www.nytimes.com/2019/07/09/books/review/the-code-margaret-omara.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-05-09T00:15:07.776218"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-12T10:00:32.909562"
+    }
+  }
+}

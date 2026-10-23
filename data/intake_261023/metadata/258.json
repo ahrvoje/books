@@ -1,0 +1,56 @@
+{
+  "mention": "The Cheese and the Worms",
+  "url": "https://openlibrary.org/search.json?title=The%20Cheese%20and%20the%20Worms&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:50:02.146Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Samuel Kline Cohn"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1981,
+        "key": "/works/OL42227660W",
+        "language": [
+          "eng"
+        ],
+        "title": "The cheese and the worms"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The cheese and the worms",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL530574A"
+        }
+      }
+    ],
+    "key": "/works/OL42227660W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-12-16T19:44:14.600454"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-12-16T19:44:14.600454"
+    }
+  }
+}

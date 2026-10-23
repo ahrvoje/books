@@ -1,0 +1,114 @@
+{
+  "mention": "Simply Fly",
+  "url": "https://openlibrary.org/search.json?title=Simply%20Fly&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:09.112Z",
+  "status": 200,
+  "search": {
+    "numFound": 9,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 9,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "G. R. Gopinath"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2009,
+        "isbn": [
+          "9788172238421",
+          "8172238428"
+        ],
+        "key": "/works/OL15490520W",
+        "language": [
+          "eng"
+        ],
+        "title": "Simply fly"
+      },
+      {
+        "author_name": [
+          "Captain G.R. Gopinath"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2011,
+        "isbn": [
+          "9789350291559",
+          "935029155X"
+        ],
+        "key": "/works/OL20684601W",
+        "language": [
+          "eng"
+        ],
+        "title": "Simply Fly"
+      },
+      {
+        "author_name": [
+          "G. R. Gopinath"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2009,
+        "isbn": [
+          "9788172238421",
+          "8172238428"
+        ],
+        "key": "/works/OL15617951W",
+        "language": [
+          "eng"
+        ],
+        "title": "Simply fly"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "Autobiography of G.R. Gopinath, b. 1951, founder of Air Deccan, India's first low-cost airline."
+    },
+    "title": "Simply fly",
+    "subject_places": [
+      "India"
+    ],
+    "subjects": [
+      "Aircraft industry",
+      "Airlines",
+      "Businesspeople",
+      "Cost of operation",
+      "Air Deccan (Airlines : India)",
+      "Biography",
+      "Air Deccan (Airline : India)"
+    ],
+    "subject_people": [
+      "G. R. Gopinath (1951-)"
+    ],
+    "key": "/works/OL15490520W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6852488A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      13033341
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-11-19T07:10:43.868226"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-24T08:07:18.173935"
+    }
+  }
+}

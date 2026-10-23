@@ -1,0 +1,94 @@
+{
+  "mention": "When the Heavens Went on Sale",
+  "url": "https://openlibrary.org/search.json?title=When%20the%20Heavens%20Went%20on%20Sale&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:26.888Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ashlee Vance"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 2022,
+        "isbn": [
+          "0062998889",
+          "9780753557754",
+          "9780062998880",
+          "0753557754",
+          "0062998870",
+          "9780753557778",
+          "9780062998903",
+          "0753557789",
+          "9780753557785",
+          "9780062998873",
+          "0753557770",
+          "0062998900"
+        ],
+        "key": "/works/OL28624340W",
+        "language": [
+          "eng"
+        ],
+        "title": "When the Heavens Went on Sale"
+      },
+      {
+        "author_name": [
+          "Ashlee Vance"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2024,
+        "isbn": [
+          "0753557762",
+          "9780753557761"
+        ],
+        "key": "/works/OL37831173W",
+        "language": [
+          "eng"
+        ],
+        "title": "When the Heavens Went on Sale"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "When the Heavens Went on Sale",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3513180A"
+        }
+      }
+    ],
+    "key": "/works/OL28624340W",
+    "covers": [
+      13234791
+    ],
+    "subjects": [
+      "nyt:hardcover-nonfiction=2023-05-28",
+      "New York Times bestseller",
+      "Transportation"
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-08-17T13:32:48.827354"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-04-22T02:01:53.809648"
+    }
+  }
+}

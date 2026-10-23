@@ -1,0 +1,115 @@
+{
+  "mention": "Think — William Rodgers",
+  "url": "https://openlibrary.org/search.json?title=Think&author=William%20Rodgers&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:03.773Z",
+  "status": 200,
+  "search": {
+    "numFound": 8,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 8,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "William Rodgers",
+          "Rodgers, William"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 1969,
+        "isbn": [
+          "9780297000235",
+          "0297000233"
+        ],
+        "key": "/works/OL8164852W",
+        "language": [
+          "eng"
+        ],
+        "title": "Think",
+        "ratings_average": 2,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "William Rodgers"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1969,
+        "isbn": [
+          "0812812263",
+          "9780812812268"
+        ],
+        "key": "/works/OL15154109W",
+        "language": [
+          "eng"
+        ],
+        "title": "Think"
+      },
+      {
+        "author_name": [
+          "Rodgers, William"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1969,
+        "isbn": [
+          "9780812812268",
+          "0812812263"
+        ],
+        "key": "/works/OL141234W",
+        "language": [
+          "eng"
+        ],
+        "title": "Think"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "International Business Machines Corporation",
+      "Watson, Thomas John, 1874-1956.",
+      "Watson, Thomas J., 1914-",
+      "International Business Machines Corporation.",
+      "Watson, thomas john, 1875-1956",
+      "International business machines corporation"
+    ],
+    "subject_people": [
+      "Thomas J. Watson (1914-)",
+      "Thomas John Watson (1874-1956)"
+    ],
+    "key": "/works/OL8164852W",
+    "title": "Think",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2725630A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2074611A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:29:50.289398"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-06-17T03:32:18.080261"
+    }
+  }
+}

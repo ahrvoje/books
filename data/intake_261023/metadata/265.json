@@ -1,0 +1,108 @@
+{
+  "mention": "Rain — Cynthia Barnett",
+  "url": "https://openlibrary.org/search.json?title=Rain&author=Cynthia%20Barnett&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:50:07.431Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Cynthia Barnett"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2015,
+        "isbn": [
+          "9780804137096",
+          "9780804137119",
+          "0804137110",
+          "0804137099"
+        ],
+        "key": "/works/OL20000614W",
+        "language": [
+          "eng"
+        ],
+        "title": "Rain",
+        "ratings_average": 3.5,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Cynthia Barnett",
+          "Christina Traister"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2015,
+        "isbn": [
+          "1511364130",
+          "9781511364133",
+          "1501224700",
+          "9781501224706"
+        ],
+        "key": "/works/OL24666545W",
+        "title": "Rain"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "Weaving together science with the human human story of our ambition to control rain, Barnett tells the story of rain -- elemental, mysterious, precious, and destructive."
+    },
+    "subjects": [
+      "Rain and rainfall",
+      "Climatic changes",
+      "Physical geography",
+      "Rainfall anomalies",
+      "Earth sciences",
+      "Droughts",
+      "Weather",
+      "New York Times reviewed",
+      "Rain",
+      "Climate Change"
+    ],
+    "key": "/works/OL20000614W",
+    "title": "Rain",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7059910A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "links": [
+      {
+        "url": "http://www.nytimes.com/2015/04/19/books/review/rain-a-natural-and-cultural-history-by-cynthia-barnett.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "covers": [
+      12757592
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-18T21:12:36.541318"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-20T09:23:49.134618"
+    }
+  }
+}

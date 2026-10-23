@@ -1,0 +1,103 @@
+{
+  "mention": "97 Things Every Programmer Should Know",
+  "url": "https://openlibrary.org/search.json?title=97%20Things%20Every%20Programmer%20Should%20Know&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:33.434Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Kevlin Henney"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2010,
+        "isbn": [
+          "9781449388966",
+          "1449388965",
+          "9781306809283",
+          "1449388671",
+          "9780596809485",
+          "9781449388676",
+          "1306809282",
+          "0596809484"
+        ],
+        "key": "/works/OL15166781W",
+        "language": [
+          "eng"
+        ],
+        "title": "97 Things Every Programmer Should Know",
+        "ratings_average": 3.4,
+        "ratings_count": 10
+      },
+      {
+        "author_name": [
+          "Kevlin Henney"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2019,
+        "isbn": [
+          "1491952695",
+          "9781491952696"
+        ],
+        "key": "/works/OL21303456W",
+        "language": [
+          "eng"
+        ],
+        "title": "97 Things Every Java Programmer Should Know"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Computer programmers",
+      "Development",
+      "Computer software",
+      "Computer programming",
+      "Programmierung",
+      "Génie logiciel",
+      "Programmation informatique",
+      "Programming languages (electronic computers)",
+      "Computer science"
+    ],
+    "key": "/works/OL15166781W",
+    "title": "97 Things Every Programmer Should Know",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2730509A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      6390636,
+      8727717
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Tap into the wisdom of experts to learn what every programmer should know, no matter what language you use. With the 97 short and extremely useful tips for programmers in this book, you'll expand your skills by adopting new approaches to old problems, learning appropriate best practices, and honing your craft through sound advice. With contributions from some of the most experienced and respected practitioners in the industry--including Michael Feathers, Pete Goodliffe, Diomidis Spinellis, Cay Horstmann, Verity Stob, and many more--this book contains practical knowledge and principles that you."
+    },
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-06-03T00:09:24.419363"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-10T16:46:59.575097"
+    }
+  }
+}

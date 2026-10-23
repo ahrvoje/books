@@ -1,0 +1,61 @@
+{
+  "mention": "Young Men and Fire",
+  "url": "https://openlibrary.org/search.json?title=Young%20Men%20and%20Fire&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:35.854Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Charles Cuthbert Hall"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1900,
+        "key": "/works/OL31879471W",
+        "language": [
+          "eng"
+        ],
+        "title": "The young men of the future ministry, how shall we fire them with the missionary passion and make them leaders of missionary churches"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The young men of the future ministry, how shall we fire them with the missionary passion and make them leaders of missionary churches",
+    "subjects": [
+      "Missionaries",
+      "Training of",
+      "Church work with youth"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1058042A"
+        }
+      }
+    ],
+    "key": "/works/OL31879471W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-12-09T16:26:37.389120"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-09T16:26:37.389120"
+    }
+  }
+}

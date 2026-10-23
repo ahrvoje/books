@@ -1,0 +1,85 @@
+{
+  "mention": "What's Cooking in the Kremlin?",
+  "url": "https://openlibrary.org/search.json?title=What's%20Cooking%20in%20the%20Kremlin%3F&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:41.775Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Witold Szablowski",
+          "Antonia Lloyd-Jones"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2023,
+        "isbn": [
+          "0143137182",
+          "9780143137184"
+        ],
+        "key": "/works/OL29214820W",
+        "language": [
+          "eng"
+        ],
+        "title": "What's Cooking in the Kremlin"
+      },
+      {
+        "author_name": [
+          "Wito SZABLOWSKI"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2023,
+        "isbn": [
+          "1837730199",
+          "9781837730193"
+        ],
+        "key": "/works/OL36042917W",
+        "language": [
+          "eng"
+        ],
+        "title": "What S Cooking in the Kremlin"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "What's Cooking in the Kremlin",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8051854A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3154834A"
+        }
+      }
+    ],
+    "key": "/works/OL29214820W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-10-20T03:13:56.955189"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-10-20T03:13:56.955189"
+    }
+  }
+}

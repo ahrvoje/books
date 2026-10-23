@@ -1,0 +1,82 @@
+{
+  "mention": "Pigeons — Andrew Blechman",
+  "url": "https://openlibrary.org/search.json?title=Pigeons&author=Andrew%20Blechman&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:50:23.594Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Andrew D. Blechman"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2006,
+        "isbn": [
+          "9780702236419",
+          "0702236411",
+          "9780802118349",
+          "9780802143280",
+          "0802118348",
+          "0802143288",
+          "9781555846008",
+          "1555846009"
+        ],
+        "key": "/works/OL8398715W",
+        "language": [
+          "eng"
+        ],
+        "title": "Pigeons"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Pigeons",
+      "New York Times reviewed"
+    ],
+    "key": "/works/OL8398715W",
+    "title": "Pigeons",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2800283A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      1511656
+    ],
+    "links": [
+      {
+        "url": "http://www.nytimes.com/2006/11/15/books/15grim.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:45:20.882437"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-08-06T22:40:13.048536"
+    }
+  }
+}

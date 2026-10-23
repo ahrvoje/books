@@ -1,0 +1,90 @@
+{
+  "mention": "Sonic Wind",
+  "url": "https://openlibrary.org/search.json?title=Sonic%20Wind&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:17.276Z",
+  "status": 200,
+  "search": {
+    "numFound": 13,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 13,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Craig Ryan"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2015,
+        "isbn": [
+          "1631490796",
+          "9780631491910",
+          "9781631490798",
+          "0631491910"
+        ],
+        "key": "/works/OL21120083W",
+        "language": [
+          "eng"
+        ],
+        "title": "Sonic Wind"
+      },
+      {
+        "author_name": [
+          "Craig Ryan"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2015,
+        "isbn": [
+          "9780871406774",
+          "0871406772"
+        ],
+        "key": "/works/OL20006326W",
+        "language": [
+          "eng"
+        ],
+        "title": "Sonic wind"
+      },
+      {
+        "edition_count": 1,
+        "first_publish_year": 1989,
+        "key": "/works/OL14681558M",
+        "language": [
+          "eng"
+        ],
+        "title": "Wind tunnel investigation of three sonic anemometers"
+      }
+    ]
+  },
+  "work": {
+    "title": "Sonic Wind",
+    "key": "/works/OL21120083W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7404439A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      14519464
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-04T23:47:42.293856"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-10-24T10:44:15.150939"
+    }
+  }
+}

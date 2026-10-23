@@ -1,0 +1,128 @@
+{
+  "mention": "Just My Type",
+  "url": "https://openlibrary.org/search.json?title=Just%20My%20Type&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:40.611Z",
+  "status": 200,
+  "search": {
+    "numFound": 24,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 24,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Simon Garfield"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2010,
+        "isbn": [
+          "9781592406524",
+          "1846683017",
+          "9781846683015",
+          "1592406521"
+        ],
+        "key": "/works/OL15928053W",
+        "language": [
+          "eng"
+        ],
+        "title": "Just my type",
+        "ratings_average": 3.6,
+        "ratings_count": 5
+      },
+      {
+        "author_name": [
+          "Simon Garfield"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2010,
+        "isbn": [
+          "1592407463",
+          "9781592407460",
+          "1847652921",
+          "9783550088797",
+          "3550088795",
+          "9781847652928"
+        ],
+        "key": "/works/OL19984777W",
+        "language": [
+          "eng"
+        ],
+        "title": "Just my type",
+        "ratings_average": 3,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Falon Ballard"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2023,
+        "isbn": [
+          "1472293495",
+          "9781472293497",
+          "0593419936",
+          "9780593419939"
+        ],
+        "key": "/works/OL28022870W",
+        "language": [
+          "eng"
+        ],
+        "title": "Just My Type"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "A quick and personal tour through the past and present of fonts, their design, and use."
+    },
+    "title": "Just my type",
+    "covers": [
+      6944207
+    ],
+    "subjects": [
+      "Type and type-founding",
+      "Graphic design (Typography)",
+      "Typographers",
+      "Psychological aspects",
+      "Social aspects",
+      "Biography",
+      "History",
+      "nyt:hardcover-nonfiction=2011-09-18",
+      "New York Times bestseller"
+    ],
+    "subject_people": [
+      "Eric Gill",
+      "Matthew Carter",
+      "Johannes Gutenberg",
+      "Frederic Goudy"
+    ],
+    "key": "/works/OL15928053W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL493583A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-07-26T14:27:24.020289"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-08-22T06:31:12.038690"
+    }
+  }
+}

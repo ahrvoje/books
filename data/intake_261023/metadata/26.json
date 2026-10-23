@@ -1,0 +1,123 @@
+{
+  "mention": "The Secret Race",
+  "url": "https://openlibrary.org/search.json?title=The%20Secret%20Race&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:32.117Z",
+  "status": 200,
+  "search": {
+    "numFound": 39,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 39,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Tyler Hamilton"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2012,
+        "isbn": [
+          "9780345530431",
+          "0345530411",
+          "9780345530417",
+          "0345530438"
+        ],
+        "key": "/works/OL19667333W",
+        "language": [
+          "eng"
+        ],
+        "title": "The secret race",
+        "ratings_average": 3.5,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Irb Media"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2022,
+        "isbn": [
+          "9798822582040"
+        ],
+        "key": "/works/OL28921192W",
+        "language": [
+          "eng"
+        ],
+        "title": "Summary of Tyler Hamilton & Daniel Coyle 's the Secret Race"
+      },
+      {
+        "author_name": [
+          "Tyler Hamilton"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2012,
+        "isbn": [
+          "0593071743",
+          "9780593071748"
+        ],
+        "key": "/works/OL17391313W",
+        "title": "The Secret Race Inside The Hidden World Of The Tour De France Doping Coverups And Winning At All Costs"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "Hamilton pulls back the curtain on the Tour de France and takes us into the secret world of professional cycling like never before: the doping, the lying, and his years as Lance Armstrong's teammate on U.S. Postal."
+    },
+    "title": "The secret race",
+    "covers": [
+      9828801
+    ],
+    "subjects": [
+      "Corrupt practices",
+      "Bicycle racing",
+      "Tour de France (Bicycle race) (NOBLE)28931",
+      "Tour de France (Bicycle race)",
+      "Cykelsport",
+      "Historia",
+      "Tour de France (Bicycle race) fast (OCoLC)fst01409064",
+      "nyt:combined-print-and-e-book-nonfiction=2012-09-23",
+      "New York Times bestseller",
+      "New York Times reviewed"
+    ],
+    "subject_people": [
+      "Tyler Hamilton (1971-)"
+    ],
+    "key": "/works/OL19667333W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7512856A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "links": [
+      {
+        "url": "http://www.nytimes.com/2012/11/11/books/review/the-secret-race-by-tyler-hamilton-and-daniel-coyle.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-05-15T04:52:32.220285"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-08-07T00:01:56.078050"
+    }
+  }
+}

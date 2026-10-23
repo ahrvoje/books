@@ -1,0 +1,109 @@
+{
+  "mention": "No Bugs!",
+  "url": "https://openlibrary.org/search.json?title=No%20Bugs!&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:09.787Z",
+  "status": 200,
+  "search": {
+    "numFound": 25,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 25,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David Thielen"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 1992,
+        "isbn": [
+          "9780321680976",
+          "0321680979",
+          "9780201608908",
+          "0201608901"
+        ],
+        "key": "/works/OL3957665W",
+        "language": [
+          "eng"
+        ],
+        "title": "No bugs!"
+      },
+      {
+        "author_name": [
+          "Barbara Teasdale",
+          "Natalia Logvanova"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2022,
+        "isbn": [
+          "9798985831511",
+          "9798985831528",
+          "9798985831504"
+        ],
+        "key": "/works/OL35743927W",
+        "language": [
+          "eng"
+        ],
+        "title": "NO-Bug Safari"
+      },
+      {
+        "author_name": [
+          "M. T. Coffin"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1995,
+        "isbn": [
+          "0380777851",
+          "9780380777853"
+        ],
+        "key": "/works/OL8048326W",
+        "language": [
+          "eng"
+        ],
+        "title": "My Teacher's a Bug (Spinetinglers, No 3)",
+        "ratings_average": 4,
+        "ratings_count": 1
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "C (Computer program language)",
+      "C++ (Computer program language)"
+    ],
+    "key": "/works/OL3957665W",
+    "title": "No bugs!",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL722596A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      4607078
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "xvi, 206 p. : 24 cm"
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T04:56:59.823427"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-10-23T05:02:28.796356"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "mention": "Hacker's Delight",
+  "url": "https://openlibrary.org/search.json?title=Hacker's%20Delight&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:35.435Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Henry S. Warren Jr."
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2002,
+        "isbn": [
+          "9780201914658",
+          "0321842685",
+          "9780321842688",
+          "0201914654"
+        ],
+        "key": "/works/OL8022414W",
+        "language": [
+          "eng"
+        ],
+        "title": "Hacker's Delight",
+        "ratings_average": 3,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Henry Warren"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2012,
+        "isbn": [
+          "9780133085006",
+          "9780133085013",
+          "0133085015",
+          "0133085007"
+        ],
+        "key": "/works/OL26343340W",
+        "language": [
+          "eng"
+        ],
+        "title": "Hacker's Delight"
+      }
+    ]
+  },
+  "work": {
+    "description": "\"This is a collection of small programming tricks that I have come across over many years. Most of them will work only on computers that represent integers in two's-complement form. Although a 32-bit machine is assumed when register length is relevant, most of the tricks are easily adapted to machines with other register sizes.\"\r\n\r\n\"This book does not deal with large tricks such as sophisticated sorting and compiler optimization techniques. Rather, it deals with small tricks that usually involve individual computer words or instructions, such as counting the number of 1-bits in a word. Such tricks often use a mixture of arithmetic and logical instructions.\"  -- From the preface.",
+    "key": "/works/OL8022414W",
+    "title": "Hacker's Delight",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL2671339A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      136606,
+      7280325,
+      8404011
+    ],
+    "first_publish_date": "2003",
+    "lc_classifications": [
+      "QA76.6 .W375 2003"
+    ],
+    "subjects": [
+      "Computer programming",
+      "Computer hackers",
+      "Hackers",
+      "Qa76.6 .w375 2013",
+      "005.1"
+    ],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hacker%27s_Delight",
+        "title": "Wikipedia",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:18:38.245526"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-19T21:53:02.567611"
+    }
+  }
+}

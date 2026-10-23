@@ -1,0 +1,75 @@
+{
+  "mention": "Mr. Bunny's Guide to ActiveX",
+  "url": "https://openlibrary.org/search.json?title=Mr.%20Bunny's%20Guide%20to%20ActiveX&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:24.491Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Carlton Egremont"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1996,
+        "isbn": [
+          "9780201485363",
+          "0201485362"
+        ],
+        "key": "/works/OL671663W",
+        "language": [
+          "eng"
+        ],
+        "title": "Mr. Bunny's guide to ActiveX",
+        "ratings_average": 0,
+        "ratings_count": 0
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "ActiveX",
+      "Humor",
+      "Internet programming",
+      "Object-oriented programming (Computer science)",
+      "Activex (computer program)"
+    ],
+    "key": "/works/OL671663W",
+    "title": "Mr. Bunny's guide to ActiveX",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL52374A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      134951
+    ],
+    "genres": [
+      "/tags/OL172T"
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T00:55:45.388708"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-08-30T12:29:02.527545"
+    }
+  }
+}

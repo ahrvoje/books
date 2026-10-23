@@ -1,0 +1,121 @@
+{
+  "mention": "To a Mountain in Tibet",
+  "url": "https://openlibrary.org/search.json?title=To%20a%20Mountain%20in%20Tibet&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:57.516Z",
+  "status": 200,
+  "search": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Colin Thubron"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2011,
+        "isbn": [
+          "9781446467183",
+          "144646718X",
+          "0099532646",
+          "0701183802",
+          "9780701183806",
+          "0061768278",
+          "9780061768279",
+          "9780099532644"
+        ],
+        "key": "/works/OL19367746W",
+        "language": [
+          "eng"
+        ],
+        "title": "To a Mountain in Tibet"
+      },
+      {
+        "author_name": [
+          "Colin Thubron"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2011,
+        "isbn": [
+          "9780061768262",
+          "006176826X"
+        ],
+        "key": "/works/OL15678748W",
+        "title": "To a Mountain in Tibet",
+        "ratings_average": 3.5,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Colin Thubron"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2011,
+        "isbn": [
+          "0062066056",
+          "9780701183790",
+          "0701183799",
+          "9780062066053"
+        ],
+        "key": "/works/OL26529335W",
+        "language": [
+          "eng"
+        ],
+        "title": "To a Mountain in Tibet"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Mountains",
+      "Travel",
+      "Religious aspects",
+      "Description and travel",
+      "Mountains, china, tibet autonomous region",
+      "Tibet autonomous region (china), description and travel",
+      "Spiritual life",
+      "New York Times reviewed"
+    ],
+    "key": "/works/OL19367746W",
+    "title": "To a Mountain in Tibet",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL433450A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8490295
+    ],
+    "links": [
+      {
+        "url": "http://www.nytimes.com/2011/03/06/books/review/Becker-t.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-03-30T17:15:04.037340"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-10-25T17:03:15.461319"
+    }
+  }
+}

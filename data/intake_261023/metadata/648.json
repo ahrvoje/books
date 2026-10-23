@@ -1,0 +1,75 @@
+{
+  "mention": "Thinking Forth",
+  "url": "https://openlibrary.org/search.json?title=Thinking%20Forth&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:15.102Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Leo Brodie"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 1984,
+        "isbn": [
+          "9780139175763",
+          "0976458705",
+          "9780976458708",
+          "9780139175688",
+          "0139175768",
+          "0139175687",
+          "9780935533002",
+          "0935533001"
+        ],
+        "key": "/works/OL4688490W",
+        "language": [
+          "eng"
+        ],
+        "title": "Thinking Forth",
+        "ratings_average": 5,
+        "ratings_count": 1
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T07:11:03.402783"
+    },
+    "subjects": [
+      "FORTH (Computer program language)",
+      "Forth (computer program language)"
+    ],
+    "latest_revision": 7,
+    "key": "/works/OL4688490W",
+    "title": "Thinking Forth",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL968500A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-18T18:08:54.605889"
+    },
+    "covers": [
+      742157
+    ],
+    "revision": 7
+  }
+}

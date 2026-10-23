@@ -1,0 +1,101 @@
+{
+  "mention": "Let It Go — Stephanie Shirley",
+  "url": "https://openlibrary.org/search.json?title=Let%20It%20Go&author=Stephanie%20Shirley&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:09.294Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Anonymous",
+          "Dame Stephanie Shirley"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2014,
+        "isbn": [
+          "9781782341543",
+          "0241395496",
+          "9781283704076",
+          "1782341536",
+          "1283704072",
+          "9781782341536",
+          "1782341544",
+          "9780241395493"
+        ],
+        "key": "/works/OL21204250W",
+        "language": [
+          "eng"
+        ],
+        "title": "Let IT Go"
+      },
+      {
+        "author_name": [
+          "Stephanie Shirley",
+          "Richard Askwith"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2012,
+        "isbn": [
+          "1782342826",
+          "9780241395509",
+          "9781782342823",
+          "9781782348313",
+          "178234831X",
+          "024139550X"
+        ],
+        "key": "/works/OL28354652W",
+        "language": [
+          "eng"
+        ],
+        "title": "Let It Go"
+      }
+    ]
+  },
+  "work": {
+    "title": "Let IT Go",
+    "subjects": [
+      "Philanthropists",
+      "Great britain, biography",
+      "Women, great britain"
+    ],
+    "key": "/works/OL21204250W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL904271A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8120119A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-13T13:20:26.244745"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-11-03T12:30:35.913813"
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "mention": "IBM's Early Computers",
+  "url": "https://openlibrary.org/search.json?title=IBM's%20Early%20Computers&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:14.109Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Charles J. Bashe",
+          "Lyle R. Johnson",
+          "John H. Palmer",
+          "Emerson W. Pugh"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1986,
+        "isbn": [
+          "0262022257",
+          "9780262022255"
+        ],
+        "key": "/works/OL15161215W",
+        "language": [
+          "eng"
+        ],
+        "title": "IBM's early computers"
+      },
+      {
+        "author_name": [
+          "Charles J. Bashe",
+          "Lyle R. Johnson",
+          "John H. Palmer",
+          "Emerson W. Pugh"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1985,
+        "isbn": [
+          "9780262523936",
+          "0262523930"
+        ],
+        "key": "/works/OL21712108W",
+        "language": [
+          "eng"
+        ],
+        "title": "IBM's Early Computers"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "IBM computers",
+      "International Business Machines Corporation",
+      "History",
+      "Computers, history"
+    ],
+    "key": "/works/OL15161215W",
+    "title": "IBM's early computers",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3289727A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2008931A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3289728A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL582098A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      6516448
+    ],
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-05-10T22:57:05.357059"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-08-17T02:55:50.253541"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "mention": "Tolbert Lanston and the Monotype",
+  "url": "https://openlibrary.org/search.json?title=Tolbert%20Lanston%20and%20the%20Monotype&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:55.979Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Richard L. Hopkins"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2012,
+        "isbn": [
+          "159732101X",
+          "9781597321013",
+          "1597321001",
+          "9781597321006"
+        ],
+        "key": "/works/OL22640035W",
+        "language": [
+          "eng"
+        ],
+        "title": "Tolbert Lanston and the monotype"
+      }
+    ]
+  },
+  "work": {
+    "title": "Tolbert Lanston and the monotype",
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Type and type-founding",
+      "Lanston Monotype Machine Company",
+      "Monotype",
+      "Typesetting machines",
+      "History",
+      "Art"
+    ],
+    "subject_people": [
+      "Tolbert Lanston (1844-1913)"
+    ],
+    "key": "/works/OL22640035W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8641236A"
+        }
+      }
+    ],
+    "subject_times": [
+      "20th century"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-10-18T03:34:37.004968"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-04-17T20:03:29.269423"
+    }
+  }
+}

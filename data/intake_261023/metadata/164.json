@@ -1,0 +1,126 @@
+{
+  "mention": "Close to the Machine",
+  "url": "https://openlibrary.org/search.json?title=Close%20to%20the%20Machine&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:01.435Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ellen Ullman"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 1997,
+        "isbn": [
+          "1250884128",
+          "9781250024589",
+          "0872863379",
+          "9781250002488",
+          "0872863328",
+          "9781250884121",
+          "9780872863323",
+          "9781782270249",
+          "9780872863378",
+          "1250002486",
+          "9781908968135",
+          "1782270248",
+          "1250024587",
+          "1908968133"
+        ],
+        "key": "/works/OL2693717W",
+        "language": [
+          "eng"
+        ],
+        "title": "Close to the Machine"
+      },
+      {
+        "edition_count": 1,
+        "isbn": [
+          "3518394495",
+          "9783518394496"
+        ],
+        "key": "/works/OL34949816W",
+        "title": "Close to the Machine. Mein Leben mit dem Computer."
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1997",
+    "title": "Close to the Machine",
+    "covers": [
+      3785763,
+      10669730
+    ],
+    "lc_classifications": [
+      "QA76.2.U43 A3 1997"
+    ],
+    "subject_people": [
+      "Ellen Ullman"
+    ],
+    "key": "/works/OL2693717W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL393690A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "dewey_number": [
+      "005.1/092",
+      "B"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Biography",
+      "Computer programmers",
+      "Computerprogrammeurs",
+      "Software",
+      "Ullman, Ellen",
+      "Computer programmers -- Biography",
+      "New York Times reviewed",
+      "BIOGRAPHY & AUTOBIOGRAPHY",
+      "General",
+      "Electronic data processing personnel",
+      "Computer programming",
+      "Computer industry"
+    ],
+    "links": [
+      {
+        "title": "New York Times review",
+        "url": "http://www.nytimes.com/1997/11/30/books/books-in-brief-nonfiction-228370.html",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Here is a candid account of the life of a software engineer who runs her own computer consulting business out of a live-work loft in San Francisco's Multimedia Gulch.\n\nImmersed in the abstract world of information, algorithms, and networks, she would like to give in to the seductions of the programmer's world, where \"weird logic dreamers\" like herself live \"close to the machine.\" Still, she is keenly aware that body and soul are not mechanical: desire, love, and the need to communicate face to face don't easily fit into lines of code or clicks in a Web browser. At every turn, she finds she cannot ignore the social and philosophical repercussions of her work.\n\nAs Ullman sees it, the cool world of cyberculture is neither the death of civilization nor its salvation - it is the vulnerable creation of people who are not so sure of just where they're taking us all."
+    },
+    "subject_places": [
+      "United States"
+    ],
+    "latest_revision": 16,
+    "revision": 16,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T00:14:45.082499"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-03-31T19:17:50.647248"
+    }
+  }
+}

@@ -1,0 +1,594 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22This%20Is%20for%20Everyone%22%20AND%20author%3A%22lee%22)%20OR%20(title%3A%22Work%20Rules!%22%20AND%20author%3A%22bock%22)%20OR%20(title%3A%22Invention%22%20AND%20author%3A%22wiener%22)%20OR%20(title%3A%22The%20Power%20Of%20Productivity%22%20AND%20author%3A%22lewis%22)%20OR%20(title%3A%22Competition%20Demystified%22%20AND%20author%3A%22greenwald%22)%20OR%20(title%3A%22Why%20We%20Fight%22%20AND%20author%3A%22blattman%22)%20OR%20(title%3A%22Railroader%22%20AND%20author%3A%22green%22)%20OR%20(title%3A%22How%20Africa%20Works%22%20AND%20author%3A%22studwell%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T07:56:21.484Z",
+    "file": "data/metadata_261023/raw/library-04c18533077670b3.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 35,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 35,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"This Is for Everyone\" AND author:\"lee\") OR (title:\"Work Rules!\" AND author:\"bock\") OR (title:\"Invention\" AND author:\"wiener\") OR (title:\"The Power Of Productivity\" AND author:\"lewis\") OR (title:\"Competition Demystified\" AND author:\"greenwald\") OR (title:\"Why We Fight\" AND author:\"blattman\") OR (title:\"Railroader\" AND author:\"green\") OR (title:\"How Africa Works\" AND author:\"studwell\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "William W. Lewis"
+        ],
+        "edition_key": [
+          "OL38266557M",
+          "OL9386678M",
+          "OL9564923M",
+          "OL38348180M"
+        ],
+        "isbn": [
+          "0226477002",
+          "9780226476988",
+          "9780226476766",
+          "9781282538092",
+          "0226476766",
+          "0226476987",
+          "9780226477008",
+          "1282538098"
+        ],
+        "key": "/works/OL9179757W",
+        "title": "The Power of Productivity"
+      },
+      {
+        "author_name": [
+          "Laszlo Bock"
+        ],
+        "edition_key": [
+          "OL53250943M",
+          "OL25674829M"
+        ],
+        "isbn": [
+          "1455554790",
+          "9781455554799",
+          "1444792377",
+          "9781444792379"
+        ],
+        "key": "/works/OL17104519W",
+        "title": "Work Rules! Insights from Inside Google That Will Transform How You Live and Lead"
+      },
+      {
+        "author_name": [
+          "Christopher Blattman"
+        ],
+        "edition_key": [
+          "OL38796845M",
+          "OL39275413M",
+          "OL33950509M",
+          "OL46682348M",
+          "OL32931486M"
+        ],
+        "isbn": [
+          "9781984881595",
+          "1984881590",
+          "0241444500",
+          "9780241444504",
+          "1984881574",
+          "9781984881571",
+          "9780241989258",
+          "0241989256",
+          "9780241989265",
+          "0241989264"
+        ],
+        "key": "/works/OL24790928W",
+        "title": "Why We Fight"
+      },
+      {
+        "author_name": [
+          "Tim Berners-Lee",
+          "Stephen Witt"
+        ],
+        "edition_key": [
+          "OL61059009M",
+          "OL60094062M",
+          "OL60554069M",
+          "OL57603575M",
+          "OL57558266M",
+          "OL57544475M"
+        ],
+        "isbn": [
+          "0374612463",
+          "0374612471",
+          "1035023687",
+          "1035023679",
+          "9780374612467",
+          "9780374612474",
+          "9781035023677",
+          "349800381X",
+          "9783498003814",
+          "9781035023684"
+        ],
+        "key": "/works/OL42412081W",
+        "title": "This Is for Everyone"
+      },
+      {
+        "author_name": [
+          "Laszlo Bock"
+        ],
+        "edition_key": [
+          "OL25874654M"
+        ],
+        "isbn": [
+          "1455554790",
+          "9781455554799"
+        ],
+        "key": "/works/OL17301517W",
+        "title": "Work Rules!"
+      },
+      {
+        "author_name": [
+          "Blattman  Christophe"
+        ],
+        "edition_key": [
+          "OL37843837M"
+        ],
+        "isbn": [
+          "0241444519",
+          "9780241444511"
+        ],
+        "key": "/works/OL27729876W",
+        "title": "Why We Fight"
+      },
+      {
+        "author_name": [
+          "Bruce Greenwald"
+        ],
+        "edition_key": [
+          "OL24308448M"
+        ],
+        "isbn": [
+          "1429531312",
+          "9781429531313",
+          "1429531282",
+          "9781429531283"
+        ],
+        "key": "/works/OL15176666W",
+        "title": "Competition Demystified"
+      },
+      {
+        "author_name": [
+          "Laszlo Bock"
+        ],
+        "edition_key": [
+          "OL40472562M",
+          "OL34611698M",
+          "OL34895723M",
+          "OL43731681M",
+          "OL29451668M",
+          "OL51449590M",
+          "OL34623175M"
+        ],
+        "isbn": [
+          "1444792385",
+          "1444792350",
+          "1538749289",
+          "9781455554805",
+          "9781444792362",
+          "9781455554812",
+          "9781444792355",
+          "9781538749289",
+          "1455554812",
+          "9781444792386",
+          "1478980877",
+          "1455554804",
+          "1444792369",
+          "9781478980872"
+        ],
+        "key": "/works/OL21657434W",
+        "title": "Work Rules!"
+      },
+      {
+        "author_name": [
+          "Bruce Greenwald",
+          "Judd Kahn"
+        ],
+        "edition_key": [
+          "OL8858152M"
+        ],
+        "isbn": [
+          "9781591840572",
+          "1591840570"
+        ],
+        "key": "/works/OL18574747W",
+        "title": "Competition demystified"
+      },
+      {
+        "author_name": [
+          "Bruce C. Greenwald",
+          "Judd Kahn"
+        ],
+        "edition_key": [
+          "OL8858232M"
+        ],
+        "isbn": [
+          "1591841801",
+          "9781591841807"
+        ],
+        "key": "/works/OL16925161W",
+        "title": "Competition demystified"
+      },
+      {
+        "author_name": [
+          "JOE STUDWELL"
+        ],
+        "edition_key": [
+          "OL61798641M"
+        ],
+        "isbn": [
+          "9781805226772",
+          "1805226770"
+        ],
+        "key": "/works/OL45341599W",
+        "title": "How Africa Works"
+      },
+      {
+        "author_name": [
+          "JOE STUDWELL"
+        ],
+        "edition_key": [
+          "OL61798643M"
+        ],
+        "isbn": [
+          "9781788167994",
+          "1788167996"
+        ],
+        "key": "/works/OL45341601W",
+        "title": "How Africa Works"
+      },
+      {
+        "author_name": [
+          "Greenwald, Bruce, Kahn, Judd"
+        ],
+        "edition_key": [
+          "OL45623946M"
+        ],
+        "key": "/works/OL33664070W",
+        "title": "Competition Demystified"
+      },
+      {
+        "author_name": [
+          "Norbert Wiener"
+        ],
+        "edition_key": [
+          "OL21557506M",
+          "OL1731159M",
+          "OL9763210M"
+        ],
+        "isbn": [
+          "0262731118",
+          "9780262731119",
+          "9780262231671",
+          "0262231670"
+        ],
+        "key": "/works/OL4307562W",
+        "title": "Invention"
+      },
+      {
+        "author_name": [
+          "Norbert Wiener"
+        ],
+        "edition_key": [
+          "OL53276186M"
+        ],
+        "isbn": [
+          "0585369178",
+          "9780585369174"
+        ],
+        "key": "/works/OL39136351W",
+        "title": "Invention"
+      },
+      {
+        "author_name": [
+          "Wiener"
+        ],
+        "edition_key": [
+          "OL9955915M"
+        ],
+        "isbn": [
+          "9780065023336",
+          "0065023331"
+        ],
+        "key": "/works/OL8310755W",
+        "title": "Writing Invention Software T/A the Advancing Writer Series"
+      },
+      {
+        "author_name": [
+          "Wiener"
+        ],
+        "edition_key": [
+          "OL9955908M"
+        ],
+        "isbn": [
+          "0065022890",
+          "9780065022896"
+        ],
+        "key": "/works/OL8310756W",
+        "title": "Writing Invention Software T/A the Advancing Writing Series"
+      },
+      {
+        "author_name": [
+          "Victor H. Green",
+          "Sam Sloan",
+          "Nat Gertler"
+        ],
+        "edition_key": [
+          "OL32260137M",
+          "OL32021882M",
+          "OL32189411M",
+          "OL31943587M",
+          "OL36882416M",
+          "OL39185704M",
+          "OL29961430M",
+          "OL42839239M",
+          "OL37680607M",
+          "OL49082946M",
+          "OL37873932M",
+          "OL56905232M",
+          "OL31943419M",
+          "OL32193402M",
+          "OL36432745M",
+          "OL32021886M"
+        ],
+        "isbn": [
+          "1684226953",
+          "1684228204",
+          "9781684116546",
+          "9781684116560",
+          "1684116562",
+          "1684227526",
+          "1936404745",
+          "168422490X",
+          "9781684224906",
+          "168422487X",
+          "9781949996067",
+          "9781639233656",
+          "1684226112",
+          "4871870820",
+          "1684116546",
+          "1639230343",
+          "9781684227525",
+          "9781684223749",
+          "9781639230341",
+          "9781684226115",
+          "9781684228201",
+          "9781684226955",
+          "9781936404742",
+          "1949996069",
+          "1684223741",
+          "9781936404674",
+          "9781950822225",
+          "9781684224876",
+          "9784871870825",
+          "1639233652",
+          "1936404672",
+          "1950822222"
+        ],
+        "key": "/works/OL24193316W",
+        "title": "The Negro Motorist Green-Book"
+      },
+      {
+        "author_name": [
+          "Winford L. Green"
+        ],
+        "edition_key": [
+          "OL8513006M",
+          "OL8513005M"
+        ],
+        "isbn": [
+          "1425738192",
+          "9781425738204",
+          "9781425738198",
+          "1425738206"
+        ],
+        "key": "/works/OL8794579W",
+        "title": "Railroading on the Illinois Central"
+      },
+      {
+        "author_name": [
+          "William Green"
+        ],
+        "edition_key": [
+          "OL15162405M"
+        ],
+        "key": "/works/OL11427293W",
+        "title": "Problems of railroad workers"
+      },
+      {
+        "author_name": [
+          "Rupal Patel, The Bank of England, Jack Meaning",
+          "John Brooks",
+          "Guy Raz",
+          "Laszlo Bock"
+        ],
+        "edition_key": [
+          "OL39473151M"
+        ],
+        "isbn": [
+          "9123457805",
+          "9789123457809"
+        ],
+        "key": "/works/OL28761126W",
+        "title": "Can’t We Just Print More Money, Work Rules, Business Adventures, How I Built This [Hardcover] 4 Books Collection Set"
+      },
+      {
+        "author_name": [
+          "Howard Green"
+        ],
+        "edition_key": [
+          "OL26975322M"
+        ],
+        "isbn": [
+          "1989025048",
+          "9781989025048"
+        ],
+        "key": "/works/OL19762317W",
+        "title": "Railroader"
+      },
+      {
+        "author_name": [
+          "W. C. Green"
+        ],
+        "edition_key": [
+          "OL7182404M"
+        ],
+        "key": "/works/OL7898342W",
+        "title": "Some facts about railroads"
+      },
+      {
+        "author_name": [
+          "Henry Green"
+        ],
+        "edition_key": [
+          "OL2342976M"
+        ],
+        "key": "/works/OL4927180W",
+        "title": "Verses by a railfan"
+      },
+      {
+        "author_name": [
+          "Laszlo Bock",
+          "Inbal Saggiv-Nakdimon"
+        ],
+        "edition_key": [
+          "OL59108785M"
+        ],
+        "key": "/works/OL43397914W",
+        "title": "ללמוד מהטובים ביותר"
+      },
+      {
+        "author_name": [
+          "John P. Green"
+        ],
+        "edition_key": [
+          "OL44478328M"
+        ],
+        "key": "/works/OL32663948W",
+        "title": "The present condition of the railways"
+      },
+      {
+        "author_name": [
+          "Christof Baier",
+          "Sarah Czirr",
+          "Astrid Lang",
+          "Gina Möller",
+          "Wiebke Windorf",
+          "Jürgen Wiener"
+        ],
+        "edition_key": [
+          "OL44067270M"
+        ],
+        "isbn": [
+          "9783837648591",
+          "3837648591"
+        ],
+        "key": "/works/OL32317152W",
+        "title": "\"Absolutely Free\"? - Invention und Gelegenheit in der Kunst"
+      },
+      {
+        "author_name": [
+          "Green, James S."
+        ],
+        "edition_key": [
+          "OL606152M"
+        ],
+        "key": "/works/OL1488875W",
+        "title": "Hannibal and Saint Joseph Railroad"
+      },
+      {
+        "author_name": [
+          "Walter R. Green"
+        ],
+        "edition_key": [
+          "OL36483060M"
+        ],
+        "isbn": [
+          "9781476688527",
+          "1476688524"
+        ],
+        "key": "/works/OL26908979W",
+        "title": "Nashville and Decatur in the Civil War"
+      },
+      {
+        "author_name": [
+          "Thomas Jefferson Green"
+        ],
+        "edition_key": [
+          "OL15431833M"
+        ],
+        "key": "/works/OL15431833M",
+        "title": "Letter from General Thomas J. Green, of California"
+      },
+      {
+        "author_name": [
+          "James Albert Green"
+        ],
+        "edition_key": [
+          "OL6908627M"
+        ],
+        "key": "/works/OL7785489W",
+        "title": "The dream of \"Ellen N\""
+      },
+      {
+        "author_name": [
+          "Green, James S."
+        ],
+        "edition_key": [
+          "OL14958082M"
+        ],
+        "key": "/works/OL1488874W",
+        "title": "Communication from the Hon. James S. Green and Willard P. Hall, Representatives in Congress from the State of Missouri, in relation to bill S. 248, granting the right of way and land for the St. Joseph and Hannibal Railroad"
+      },
+      {
+        "author_name": [
+          "Green Bay and Western Railroad Co"
+        ],
+        "edition_key": [
+          "OL52910057M"
+        ],
+        "key": "/works/OL38858888W",
+        "title": "Agreement between Green Bay and Western Railroad Company, Kewaunee, Green Bay and Western Railroad Company, the Ahnapee and Western Railway Company, and the Brotherhood of Railway and Steamship Clerks, Freight Handlers, Express and Station Employes, governing hours of service and working conditions of the employes therein named, effective, March 1, 1937"
+      },
+      {
+        "author_name": [
+          "Alexander",
+          "Green",
+          "Equitable Life Assurance Society of the United States",
+          "Union Pacific Railroad Company",
+          "New York (State). Supreme Court."
+        ],
+        "edition_key": [
+          "OL61907324M",
+          "OL61105353M"
+        ],
+        "key": "/works/OL44751567W",
+        "title": "The Equitable Life Assurance Society of the United States, plaintiff, against Union Pacific Railroad Company, defendant"
+      },
+      {
+        "author_name": [
+          "Albany (N.Y.).",
+          "Rensselaer",
+          "Cohoes (N.Y.).",
+          "Colonie",
+          "Green Island",
+          "Lansingburgh (N.Y.).",
+          "Troy",
+          "Waterford",
+          "Watervliet",
+          "New York (State)"
+        ],
+        "edition_key": [
+          "OL59347711M"
+        ],
+        "key": "/works/OL43539889W",
+        "title": "Franchises and ordinances [of street railroads of the Mohawk Valley region of New York State]"
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "mention": "Poor No More",
+  "url": "https://openlibrary.org/search.json?title=Poor%20No%20More&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:51:07.767Z",
+  "status": 200,
+  "search": {
+    "numFound": 21,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 21,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Robert Chester Ruark"
+        ],
+        "edition_count": 7,
+        "first_publish_year": 1959,
+        "isbn": [
+          "9780552087131",
+          "9780449232187",
+          "0552087130",
+          "1568493290",
+          "0449232182",
+          "9781568493299"
+        ],
+        "key": "/works/OL2999549W",
+        "language": [
+          "eng",
+          "heb"
+        ],
+        "title": "Poor no more"
+      },
+      {
+        "author_name": [
+          "Steven Bentley"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2016,
+        "isbn": [
+          "9798889453048",
+          "9781532011610",
+          "9798889453031",
+          "153201161X"
+        ],
+        "key": "/works/OL26605082W",
+        "language": [
+          "eng"
+        ],
+        "title": "Poor No More"
+      },
+      {
+        "author_name": [
+          "Robert Chester Ruark"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1959,
+        "isbn": [
+          "0241905389",
+          "9780241905388"
+        ],
+        "key": "/works/OL36525497W",
+        "title": "Poor No More"
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      7147061
+    ],
+    "first_publish_date": "1959",
+    "latest_revision": 7,
+    "key": "/works/OL2999549W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL460048A"
+        }
+      }
+    ],
+    "title": "Poor no more",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T01:26:02.012502"
+    },
+    "lc_classifications": [
+      "PZ3.R82 Po",
+      "PS3535.U15 Po"
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-02-14T06:21:09.630439"
+    },
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 7
+  }
+}

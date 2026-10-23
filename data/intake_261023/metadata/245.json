@@ -1,0 +1,90 @@
+{
+  "mention": "Bitch — Lucy Cooke",
+  "url": "https://openlibrary.org/search.json?title=Bitch&author=Lucy%20Cooke&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:53.757Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Lucy Cooke"
+        ],
+        "edition_count": 8,
+        "first_publish_year": 2021,
+        "isbn": [
+          "9781541674899",
+          "9781804990919",
+          "9781668615935",
+          "9781541674912",
+          "9781473541504",
+          "1541674901",
+          "1473541506",
+          "1804990914",
+          "9781541674905",
+          "154167491X",
+          "0857524135",
+          "1668615932",
+          "0857524127",
+          "9780857524133",
+          "1541674898",
+          "9780857524126"
+        ],
+        "key": "/works/OL21711213W",
+        "language": [
+          "eng"
+        ],
+        "title": "Bitch",
+        "ratings_average": 5,
+        "ratings_count": 1
+      }
+    ]
+  },
+  "work": {
+    "title": "Bitch",
+    "key": "/works/OL21711213W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7162441A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Females",
+      "Miscellanea",
+      "Women",
+      "Comparative Psychology",
+      "Evolution",
+      "Sex",
+      "Women, health and hygiene",
+      "Women's studies",
+      "Biodiversity"
+    ],
+    "covers": [
+      13693032
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-26T21:41:44.329813"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-03-21T16:28:54.461455"
+    }
+  }
+}

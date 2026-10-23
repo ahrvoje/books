@@ -1,0 +1,86 @@
+{
+  "mention": "The New Turing Omnibus",
+  "url": "https://openlibrary.org/search.json?title=The%20New%20Turing%20Omnibus&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:18.451Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "A.K. Dewdney"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1993,
+        "isbn": [
+          "0716782715",
+          "9780716782711",
+          "0805071660",
+          "9780805071665"
+        ],
+        "key": "/works/OL1950479W",
+        "language": [
+          "eng"
+        ],
+        "title": "The  (new) turing omnibus",
+        "ratings_average": 3,
+        "ratings_count": 3
+      }
+    ]
+  },
+  "work": {
+    "lc_classifications": [
+      "QA76 .D448 1993"
+    ],
+    "title": "The  (new) turing omnibus",
+    "covers": [
+      580997
+    ],
+    "first_sentence": {
+      "type": "/type/text",
+      "value": "A program specifies in the exact syntax of some programming language the computation one expects a computer to perform."
+    },
+    "first_publish_date": "1993",
+    "key": "/works/OL1950479W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2684201A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "004"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Electronic data processing",
+      "Computers",
+      "Computer science",
+      "Theoretische Informatik",
+      "Ordinateur",
+      "Informatique"
+    ],
+    "latest_revision": 9,
+    "revision": 9,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:36:51.203110"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-10-23T01:46:16.125238"
+    }
+  }
+}

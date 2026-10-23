@@ -1,0 +1,81 @@
+{
+  "mention": "A Coffin Full of Dreams",
+  "url": "https://openlibrary.org/search.json?title=A%20Coffin%20Full%20of%20Dreams&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:51:08.441Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Frisco Hitt"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1976,
+        "isbn": [
+          "0553079042",
+          "9780553079043"
+        ],
+        "key": "/works/OL18031257W",
+        "title": "A coffin full of dreams"
+      },
+      {
+        "author_name": [
+          "Frisco Hitt"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 1975,
+        "isbn": [
+          "9783811870192",
+          "9780285621572",
+          "0552102466",
+          "0285621572",
+          "9780552102469",
+          "381187019X"
+        ],
+        "key": "/works/OL6945022W",
+        "language": [
+          "eng",
+          "ger"
+        ],
+        "title": "A coffin full of dreams"
+      }
+    ]
+  },
+  "work": {
+    "title": "A coffin full of dreams",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2018-12-17T01:27:53.539804"
+    },
+    "covers": [
+      6475690
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2018-12-17T01:27:53.539804"
+    },
+    "latest_revision": 1,
+    "key": "/works/OL18031257W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1926790A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

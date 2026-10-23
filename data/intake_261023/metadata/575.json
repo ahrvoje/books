@@ -1,0 +1,84 @@
+{
+  "mention": "We Pointed Them North",
+  "url": "https://openlibrary.org/search.json?title=We%20Pointed%20Them%20North&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:29.449Z",
+  "status": 200,
+  "search": {
+    "numFound": 14,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 14,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "E. C. Abbott"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1939,
+        "key": "/works/OL10980501W",
+        "language": [
+          "eng"
+        ],
+        "title": "We pointed them north"
+      },
+      {
+        "author_name": [
+          "E. C. Abbott"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1955,
+        "isbn": [
+          "9780806113661",
+          "0806113669"
+        ],
+        "key": "/works/OL8448341W",
+        "language": [
+          "eng"
+        ],
+        "title": "We Pointed Them North"
+      },
+      {
+        "edition_count": 1,
+        "key": "/works/OL17653024W",
+        "title": "We pointed them North; recollections of a cowpuncher"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T03:48:30.939098"
+    },
+    "title": "We pointed them north",
+    "id": 46149821,
+    "subject_places": [
+      "West (U.S.)"
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-01-18T22:27:50.795962"
+    },
+    "latest_revision": 2,
+    "key": "/works/OL10980501W",
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL4564714A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Frontier and pioneer life",
+      "Ranch life",
+      "Cowboys"
+    ],
+    "revision": 2
+  }
+}

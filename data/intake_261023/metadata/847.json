@@ -1,0 +1,63 @@
+{
+  "mention": "Number Theory: An Approach Through History",
+  "url": "https://openlibrary.org/search.json?title=Number%20Theory%3A%20An%20Approach%20Through%20History&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:56:25.779Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "André Weil"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1984,
+        "isbn": [
+          "3764331410",
+          "9783764331412"
+        ],
+        "key": "/works/OL19088231W",
+        "title": "Number Theory: An approach through history from Hammurapi to Legendre"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Number theory"
+    ],
+    "key": "/works/OL19088231W",
+    "title": "Number Theory: An approach through history from Hammurapi to Legendre",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL124603A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8404780
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-03-06T05:10:08.657823"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-06-11T15:20:00.506033"
+    }
+  }
+}

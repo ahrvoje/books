@@ -1,0 +1,107 @@
+{
+  "mention": "Poke the Box",
+  "url": "https://openlibrary.org/search.json?title=Poke%20the%20Box&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:52:41.102Z",
+  "status": 200,
+  "search": {
+    "numFound": 7,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 7,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Seth Godin"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2013,
+        "isbn": [
+          "9780241209035",
+          "024120903X",
+          "1469235935",
+          "9781591848257",
+          "1469235927",
+          "9781469235936",
+          "9781469235929",
+          "1591848253"
+        ],
+        "key": "/works/OL20049856W",
+        "language": [
+          "eng"
+        ],
+        "title": "Poke the box"
+      },
+      {
+        "author_name": [
+          "Seth Godin"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2011,
+        "isbn": [
+          "9781936719006",
+          "1936719002"
+        ],
+        "key": "/works/OL17386451W",
+        "title": "Poke The Box When Was The Last Time You Did Something For The First Time",
+        "ratings_average": 3,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Seth Godin"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2011,
+        "isbn": [
+          "235456032X",
+          "9782354560324"
+        ],
+        "key": "/works/OL37775930W",
+        "title": "Poke the box (French Edition)"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Creative ability in business",
+      "Self-actualization (Psychology)",
+      "Success in business",
+      "Leadership"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"A one-two punch! half kick in the ass, half cheerleading encouragement.\"--Steven Pressfield, author of The War of Art. \"If you are happy being just a dreamer, perhaps you don't need this book. If you're enjoying the status quo, don't even consider reading this book. If you are content waiting for success to find you, please put this book down and go find something else to read. Why has Poke the Box become a cult classic? Because it's a book that dares readers to do something they're afraid of. It could be what you need, too. Is Seth Godin the Pied Piper for however many of us have been afraid to fail? Will I answer his call? Will you? --Peter Shermeta, reviewing the original edition of Poke the Box\"--Jacket-sleeve."
+    },
+    "key": "/works/OL20049856W",
+    "title": "Poke the box",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL217764A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      12747311
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-19T21:14:30.461855"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-05-17T05:27:53.886262"
+    }
+  }
+}

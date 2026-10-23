@@ -1,0 +1,302 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22The%20Digital%20Hand%22%20AND%20author%3A%22cortada%22)%20OR%20(title%3A%22Who%20Says%20Elephants%20Can't%20Dance%3F%22%20AND%20author%3A%22jr%22)%20OR%20(title%3A%22Now%20It%20Can%20Be%20Told%22%20AND%20author%3A%22groves%22)%20OR%20(title%3A%22The%20Social%20Instinct%22%20AND%20author%3A%22raihani%22)%20OR%20(title%3A%22X%2C%20Y%20%26%20Z%22%20AND%20author%3A%22turing%22)%20OR%20(title%3A%22The%20Last%20Man%20Who%20Knew%20Everything%22%20AND%20author%3A%22schwartz%22)%20OR%20(title%3A%22Chokepoints%22%20AND%20author%3A%22fishman%22)%20OR%20(title%3A%22A%20History%20of%20Computing%20in%20the%20Twentieth%20Century%22%20AND%20author%3A%22metropolis%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T07:56:30.501Z",
+    "file": "data/metadata_261023/raw/library-f9860ea2edad9d1b.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 14,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 14,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"The Digital Hand\" AND author:\"cortada\") OR (title:\"Who Says Elephants Can't Dance?\" AND author:\"jr\") OR (title:\"Now It Can Be Told\" AND author:\"groves\") OR (title:\"The Social Instinct\" AND author:\"raihani\") OR (title:\"X, Y & Z\" AND author:\"turing\") OR (title:\"The Last Man Who Knew Everything\" AND author:\"schwartz\") OR (title:\"Chokepoints\" AND author:\"fishman\") OR (title:\"A History of Computing in the Twentieth Century\" AND author:\"metropolis\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Leslie R. Groves"
+        ],
+        "edition_key": [
+          "OL19122711M",
+          "OL5183164M",
+          "OL55636511M",
+          "OL17727999M",
+          "OL43392085M",
+          "OL36778973M",
+          "OL49659323M",
+          "OL23806252M",
+          "OL3503290M",
+          "OL5823422M",
+          "OL19720901M"
+        ],
+        "isbn": [
+          "9780786748228",
+          "9781983587221",
+          "0306707381",
+          "0306801892",
+          "9780306707384",
+          "1983587222",
+          "9780306801891",
+          "0786748222"
+        ],
+        "key": "/works/OL5912728W",
+        "title": "Now it can be told : the story of the Manhattan Project"
+      },
+      {
+        "author_name": [
+          "Louis V. Gerstner Jr."
+        ],
+        "edition_key": [
+          "OL7277861M",
+          "OL7277924M",
+          "OL9232569M",
+          "OL9232479M",
+          "OL7277771M",
+          "OL9536457M",
+          "OL9232632M"
+        ],
+        "isbn": [
+          "9780060527150",
+          "9780060529444",
+          "0060527153",
+          "006052944X",
+          "9780060527167",
+          "9780060523794",
+          "0060527161",
+          "0060523794"
+        ],
+        "key": "/works/OL274410W",
+        "title": "Who Says Elephants Can't Dance? Inside IBM's Historic Turnaround"
+      },
+      {
+        "author_name": [
+          "Nichola Raihani"
+        ],
+        "edition_key": [
+          "OL32727264M",
+          "OL34686141M",
+          "OL34963288M",
+          "OL35861518M",
+          "OL39711201M",
+          "OL33829324M",
+          "OL32461552M"
+        ],
+        "isbn": [
+          "125026281X",
+          "1529112125",
+          "1250262836",
+          "1250262828",
+          "1473572924",
+          "9781250262820",
+          "1787332047",
+          "9781787332058",
+          "9781250262837",
+          "9781787332041",
+          "9781529112122",
+          "9781473572928",
+          "1787332055",
+          "9781250262813"
+        ],
+        "key": "/works/OL24498365W",
+        "title": "The Social Instinct"
+      },
+      {
+        "author_name": [
+          "Gerstner, Louis V., Jr."
+        ],
+        "edition_key": [
+          "OL37350995M",
+          "OL37344889M",
+          "OL37354028M",
+          "OL37380616M",
+          "OL37380617M"
+        ],
+        "isbn": [
+          "9780060543655",
+          "9780061134296",
+          "0061134279",
+          "9780061134272",
+          "0060543655",
+          "0061134295",
+          "9780061134289",
+          "0061134287",
+          "9780060535797",
+          "0060535792"
+        ],
+        "key": "/works/OL27418506W",
+        "title": "Who Says Elephants Can't Dance?"
+      },
+      {
+        "author_name": [
+          "David N. Schwartz"
+        ],
+        "edition_key": [
+          "OL26882607M"
+        ],
+        "isbn": [
+          "0465072925",
+          "9780465072927"
+        ],
+        "key": "/works/OL19663257W",
+        "title": "The last man who knew everything"
+      },
+      {
+        "author_name": [
+          "Edward Fishman"
+        ],
+        "edition_key": [
+          "OL57548034M",
+          "OL57545352M"
+        ],
+        "isbn": [
+          "9781783968916",
+          "9780593712979",
+          "1783968915",
+          "0593712978"
+        ],
+        "key": "/works/OL42412555W",
+        "title": "Chokepoints"
+      },
+      {
+        "author_name": [
+          "Dermot Turing"
+        ],
+        "edition_key": [
+          "OL27338707M",
+          "OL33857170M",
+          "OL29397720M",
+          "OL39954046M",
+          "OL37055419M"
+        ],
+        "isbn": [
+          "9780750989671",
+          "1398815020",
+          "9780750993937",
+          "9781398815025",
+          "0750993936",
+          "075098967X",
+          "0750987820",
+          "1398807923",
+          "9780750987820",
+          "9781398807921"
+        ],
+        "key": "/works/OL20157869W",
+        "title": "X, Y & Z"
+      },
+      {
+        "author_name": [
+          "Louis Gerstner",
+          "Louis V. Gerstner Jr"
+        ],
+        "edition_key": [
+          "OL7262543M"
+        ],
+        "isbn": [
+          "0007153627",
+          "9780007153626"
+        ],
+        "key": "/works/OL7262543M",
+        "title": "Who Says Elephants Can't Dance?"
+      },
+      {
+        "author_name": [
+          "Louis Gerstner",
+          "Louis V. Gerstner Jr"
+        ],
+        "edition_key": [
+          "OL9558507M"
+        ],
+        "isbn": [
+          "0007153619",
+          "9780007153619"
+        ],
+        "key": "/works/OL9558507M",
+        "title": "Who Says Elephants Can't Dance?"
+      },
+      {
+        "author_name": [
+          "Louis Gerstner",
+          "Louis V. Gerstner Jr"
+        ],
+        "edition_key": [
+          "OL9217258M"
+        ],
+        "isbn": [
+          "0007153627",
+          "9780007153626"
+        ],
+        "key": "/works/OL9217258M",
+        "title": "Who Says Elephants Can't Dance?"
+      },
+      {
+        "author_name": [
+          "David N Schwartz",
+          "Tristan Morris"
+        ],
+        "edition_key": [
+          "OL32478766M"
+        ],
+        "isbn": [
+          "9781549114175",
+          "1549114174"
+        ],
+        "key": "/works/OL24509229W",
+        "title": "The Last Man Who Knew Everything Lib/E"
+      },
+      {
+        "author_name": [
+          "James W. Cortada"
+        ],
+        "edition_key": [
+          "OL15585180M",
+          "OL24282373M",
+          "OL7390694M",
+          "OL22713354M"
+        ],
+        "isbn": [
+          "9780195165876",
+          "0195165888",
+          "9780195165883",
+          "0198037112",
+          "9780198037118",
+          "019516587X"
+        ],
+        "key": "/works/OL30457W",
+        "title": "The digital hand"
+      },
+      {
+        "author_name": [
+          "Lou Gerstner Jr."
+        ],
+        "edition_key": [
+          "OL9149764M"
+        ],
+        "isbn": [
+          "9789571338149",
+          "9571338141"
+        ],
+        "key": "/works/OL9126960W",
+        "title": "Who Says Elephants Can't Dance? Inside IBM's Historic Turnaround (Traditional Chinese) ('Shei shuo da xiang bu hui tiao wu', in traditional Chinese, NOT in English)"
+      },
+      {
+        "author_name": [
+          "James W Cortada"
+        ],
+        "edition_key": [
+          "OL17247026M",
+          "OL17187010M"
+        ],
+        "isbn": [
+          "9780195165869",
+          "0195165861",
+          "019516587X",
+          "9780195165876"
+        ],
+        "key": "/works/OL12078123W",
+        "title": "The digital hand"
+      }
+    ]
+  }
+}

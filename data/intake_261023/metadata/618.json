@@ -1,0 +1,94 @@
+{
+  "mention": "Things That Make Us Smart",
+  "url": "https://openlibrary.org/search.json?title=Things%20That%20Make%20Us%20Smart&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:56.101Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Donald A. Norman"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 1993,
+        "isbn": [
+          "0201626950",
+          "0201581299",
+          "9780201581294",
+          "1626815372",
+          "9780201626957",
+          "9781626815377"
+        ],
+        "key": "/works/OL1879172W",
+        "language": [
+          "eng"
+        ],
+        "title": "Things That Make Us Smart",
+        "ratings_average": 4.25,
+        "ratings_count": 4
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1993",
+    "description": {
+      "type": "/type/text",
+      "value": "Insightful and whimsical, profoundly intelligent and easily accessible, Don Norman has been exploring the design of our world for decades, exploring this complex relationship between humans and machines. In this seminal work, fully revised and updated, Norman gives us the first steps towards demanding a person-centered redesign of the machines we use every day.\r\n\r\nHumans have always worked with objects to extend our cognitive powers, from counting on our fingers to designing massive supercomputers. But advanced technology does more than merely assist with memory—the machines we create begin to shape how we think and, at times, even what we value. In THINGS THAT MAKE US SMART, Donald Norman explores the complex interaction between human thought and the technology it creates, arguing for the development of machines that fit our minds, rather than minds that must conform to the machine."
+    },
+    "title": "Things That Make Us Smart",
+    "covers": [
+      4004789,
+      6808554
+    ],
+    "first_sentence": {
+      "type": "/type/text",
+      "value": "THE GOOD NEWS IS THAT TECHNOLOGY CAN MAKE US SMART."
+    },
+    "lc_classifications": [
+      "T14 .N67 1993"
+    ],
+    "key": "/works/OL1879172W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL224976A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "303.48/34"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Philosophy",
+      "Cognitive science",
+      "Human-machine systems",
+      "Technology",
+      "Interação homem-máquina",
+      "Man-machine systems",
+      "Intellect"
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:30:22.862082"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-10-19T20:26:21.961429"
+    }
+  }
+}

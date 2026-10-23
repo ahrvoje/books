@@ -1,0 +1,95 @@
+{
+  "mention": "Design Patterns Explained",
+  "url": "https://openlibrary.org/search.json?title=Design%20Patterns%20Explained&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:47.099Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Alan Shalloway"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2002,
+        "isbn": [
+          "0321247140",
+          "9780321247148"
+        ],
+        "key": "/works/OL8021767W",
+        "language": [
+          "eng"
+        ],
+        "title": "Design patterns explained"
+      },
+      {
+        "author_name": [
+          "Alan Shalloway"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2001,
+        "isbn": [
+          "9780321630599",
+          "0201715945",
+          "0321630041",
+          "9780201715941",
+          "9780321630049",
+          "0321630599"
+        ],
+        "key": "/works/OL16925203W",
+        "language": [
+          "eng"
+        ],
+        "title": "Design patterns explained",
+        "ratings_average": 4,
+        "ratings_count": 1
+      }
+    ]
+  },
+  "work": {
+    "subtitle": "a new perspective on object-oriented design",
+    "covers": [
+      7388365
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-01T06:25:17.303371"
+    },
+    "latest_revision": 6,
+    "key": "/works/OL8021767W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2670974A"
+        }
+      }
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:18:33.504628"
+    },
+    "title": "Design patterns explained",
+    "subjects": [
+      "Development",
+      "Object-oriented methods (Computer science)",
+      "Software patterns",
+      "Object-oriented programming (Computer science)",
+      "Computer software",
+      "Object-oriented methods (computer science)",
+      "Computer software, development"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 6
+  }
+}

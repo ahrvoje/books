@@ -1,0 +1,68 @@
+{
+  "mention": "Across the Airless Wilds",
+  "url": "https://openlibrary.org/search.json?title=Across%20the%20Airless%20Wilds&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:45.108Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Earl Swift"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2021,
+        "isbn": [
+          "9780062986535",
+          "9780062986542",
+          "0062986538",
+          "0062986546"
+        ],
+        "key": "/works/OL24815538W",
+        "language": [
+          "eng"
+        ],
+        "title": "Across the Airless Wilds"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Across the Airless Wilds",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7487379A"
+        }
+      }
+    ],
+    "covers": [
+      11596184
+    ],
+    "key": "/works/OL24815538W",
+    "subjects": [
+      "Transportation"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-08-12T19:39:48.755025"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-30T10:14:12.207214"
+    }
+  }
+}

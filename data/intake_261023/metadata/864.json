@@ -1,0 +1,93 @@
+{
+  "mention": "Littlewood's Miscellany",
+  "url": "https://openlibrary.org/search.json?title=Littlewood's%20Miscellany&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:56:35.771Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John E. Littlewood"
+        ],
+        "edition_count": 13,
+        "first_publish_year": 1953,
+        "isbn": [
+          "9781015396142",
+          "9780343234829",
+          "1015401031",
+          "0343234823",
+          "1015396143",
+          "9780521337021",
+          "0353277274",
+          "052133702X",
+          "9780353277274",
+          "9781015401037",
+          "9780521330589",
+          "0511663048",
+          "9780511663048",
+          "0521330580"
+        ],
+        "key": "/works/OL1213170W",
+        "language": [
+          "und",
+          "eng"
+        ],
+        "title": "Littlewood's Miscellany"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1986",
+    "title": "Littlewood's Miscellany",
+    "covers": [
+      333841,
+      10922500,
+      11260827
+    ],
+    "lc_classifications": [
+      "QA7 .L75 1986"
+    ],
+    "key": "/works/OL1213170W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL122588A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "510",
+      "510.4"
+    ],
+    "subjects": [
+      "Mathematics"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "\"Littlewood's Miscellany, which includes most of the earlier work as well as much of the material Professor Littlewood collected after the publication of A Mathematician's Miscellany, allows us to see academic life in Cambridge, especially in Trinity College, through the eyes of one of its greatest figures. The joy that Professor Littlewood found in life and mathematics is reflected in the many amusing anecdotes about his contemporaries, written in his pungent, aphoristic style. The general reader should, in most instances, have no trouble following the mathematical passages\"--Publisher's description."
+    },
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T20:45:28.431002"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-04-27T17:09:53.924215"
+    }
+  }
+}

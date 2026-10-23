@@ -1,0 +1,98 @@
+{
+  "mention": "American Steel",
+  "url": "https://openlibrary.org/search.json?title=American%20Steel&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:03.114Z",
+  "status": 200,
+  "search": {
+    "numFound": 238,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 238,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Richard Preston"
+        ],
+        "edition_count": 1,
+        "isbn": [
+          "9780130296047",
+          "013029604X"
+        ],
+        "key": "/works/OL13373730W",
+        "title": "American steel"
+      },
+      {
+        "author_name": [
+          "Richard Preston"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1992,
+        "isbn": [
+          "9780380718221",
+          "0380718227"
+        ],
+        "key": "/works/OL7644723W",
+        "language": [
+          "eng"
+        ],
+        "title": "American Steel"
+      },
+      {
+        "author_name": [
+          "Paul A. Tiffany"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 1988,
+        "isbn": [
+          "9780735103467",
+          "0195043820",
+          "9780195043822",
+          "0735103461"
+        ],
+        "key": "/works/OL4960466W",
+        "language": [
+          "eng"
+        ],
+        "title": "The decline of American steel"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T09:23:15.281531"
+    },
+    "subjects": [
+      "Steel industry and trade",
+      "United States",
+      "Case studies"
+    ],
+    "latest_revision": 7,
+    "key": "/works/OL13373730W",
+    "title": "American steel",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6265544A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-02-13T05:57:25.021069"
+    },
+    "covers": [
+      7148709
+    ],
+    "revision": 7
+  }
+}

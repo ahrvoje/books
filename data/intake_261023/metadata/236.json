@@ -1,0 +1,101 @@
+{
+  "mention": "White Poverty",
+  "url": "https://openlibrary.org/search.json?title=White%20Poverty&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:47.910Z",
+  "status": 200,
+  "search": {
+    "numFound": 16,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 16,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Barber, William J., II",
+          "Jonathan Wilson-Hartgrove"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2024,
+        "isbn": [
+          "9781324096757",
+          "1324094877",
+          "9781324094876",
+          "1324096756"
+        ],
+        "key": "/works/OL37837535W",
+        "language": [
+          "eng"
+        ],
+        "title": "White Poverty"
+      },
+      {
+        "author_name": [
+          "Kaushika Amin",
+          "Carey Oppenheim",
+          "Child Poverty Action Group"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1992,
+        "isbn": [
+          "9780946744442",
+          "0946744440"
+        ],
+        "key": "/works/OL4515517W",
+        "language": [
+          "eng"
+        ],
+        "title": "Poverty in black and white"
+      },
+      {
+        "edition_count": 1,
+        "first_publish_year": 1993,
+        "key": "/works/OL16601942M",
+        "language": [
+          "eng"
+        ],
+        "title": "White poverty in Boston"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "White Poverty",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9613346A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7694704A"
+        }
+      }
+    ],
+    "key": "/works/OL37837535W",
+    "covers": [
+      14671129
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-02-17T08:24:49.613856"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-10-06T07:28:07.287486"
+    }
+  }
+}

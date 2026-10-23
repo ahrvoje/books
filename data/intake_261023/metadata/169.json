@@ -1,0 +1,87 @@
+{
+  "mention": "ENIAC — Scott McCartney",
+  "url": "https://openlibrary.org/search.json?title=ENIAC&author=Scott%20McCartney&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:05.112Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Scott McCartney"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 1999,
+        "isbn": [
+          "1721310754",
+          "0786116331",
+          "9780786116331",
+          "9780425176443",
+          "0425176444",
+          "9780802713483",
+          "0802713483",
+          "9781721310753"
+        ],
+        "key": "/works/OL3949725W",
+        "language": [
+          "eng"
+        ],
+        "title": "ENIAC",
+        "ratings_average": 3,
+        "ratings_count": 2
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      570757
+    ],
+    "key": "/works/OL3949725W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL720541A"
+        }
+      }
+    ],
+    "title": "ENIAC",
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "History",
+      "ENIAC (Computer)",
+      "Electronic digital computers",
+      "Computer industry",
+      "Computers",
+      "Geschiedenis (vorm)",
+      "Computers, history"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "John Mauchly and Presper Eckert designed and built the first digital, electronic computer. The story of their three-year race to create the legendary ENIAC and their three-decade struggle to gain credit for it has never been told and is a compelling tale of brilliance and misfortune.\n\nMauchly and Eckert met by chance in 1941 at the University of Pennsylvania's Moore School of Engineering. They soon developed a revolutionary vision: to use electricity as a means of computing - in other words, to make electricity \"think.\" Ignored by their colleagues, in early 1943 they were fortuitously discovered and funded by the U.S. Army, itself in urgent need of a machine that could quickly calculate ballistic missile trajectories in wartime Europe and Africa.\n\nIn the wake of their triumph, Mauchly and Eckert would be shadowed by personal tragedies and professional setbacks that are as absorbing as their invention is fascinating. They built the famous UNIVAC machine and formed the world's first computer company, only to be outflanked and outfinanced by IBM and other emerging competitors. They filed a patent on ENIAC and would spend the next twenty-five years defending their inventions against a host of claims.\n\nBased on original interviews with surviving participants and the first study of Mauchly's and Eckert's personal papers, ENIAC is a vital contribution to the history of technology."
+    },
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T04:55:52.868350"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-07-16T17:05:39.570642"
+    }
+  }
+}

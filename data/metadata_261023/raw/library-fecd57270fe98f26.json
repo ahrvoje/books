@@ -1,0 +1,344 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22Oulipo%22%20AND%20author%3A%22jr%22)%20OR%20(title%3A%22The%20Development%20of%20Mathematics%22%20AND%20author%3A%22bell%22)%20OR%20(title%3A%22The%20Tyranny%20of%20Science%22%20AND%20author%3A%22feyerabend%22)%20OR%20(title%3A%22Ludwig%20Wittgenstein%22%20AND%20author%3A%22monk%22)%20OR%20(title%3A%22Working%22%20AND%20author%3A%22terkel%22)%20OR%20(title%3A%22Travels%20in%20Siberia%22%20AND%20author%3A%22frazier%22)%20OR%20(title%3A%22The%20Sugar%20Barons%22%20AND%20author%3A%22parker%22)%20OR%20(title%3A%22A%20Brief%20History%20of%20Thought%22%20AND%20author%3A%22ferry%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T07:59:24.689Z",
+    "file": "data/metadata_261023/raw/library-fecd57270fe98f26.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 15,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 15,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"Oulipo\" AND author:\"jr\") OR (title:\"The Development of Mathematics\" AND author:\"bell\") OR (title:\"The Tyranny of Science\" AND author:\"feyerabend\") OR (title:\"Ludwig Wittgenstein\" AND author:\"monk\") OR (title:\"Working\" AND author:\"terkel\") OR (title:\"Travels in Siberia\" AND author:\"frazier\") OR (title:\"The Sugar Barons\" AND author:\"parker\") OR (title:\"A Brief History of Thought\" AND author:\"ferry\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ray Monk"
+        ],
+        "edition_key": [
+          "OL7349067M",
+          "OL21399889M",
+          "OL35764769M",
+          "OL13235997M",
+          "OL15314109M",
+          "OL1877387M",
+          "OL7320121M",
+          "OL18118083M",
+          "OL9274771M",
+          "OL9303719M",
+          "OL13236456M",
+          "OL23242151M"
+        ],
+        "isbn": [
+          "9780224027120",
+          "0224027123",
+          "0029216702",
+          "0099883708",
+          "1448112672",
+          "8433967258",
+          "0140159959",
+          "8433907735",
+          "9780099883708",
+          "9788433967251",
+          "9781448112678",
+          "9780029216705",
+          "9780140159950",
+          "9788433907738"
+        ],
+        "key": "/works/OL61803W",
+        "title": "Ludwig Wittgenstein"
+      },
+      {
+        "author_name": [
+          "Studs Terkel"
+        ],
+        "edition_key": [
+          "OL45862425M",
+          "OL36194828M",
+          "OL37173820M",
+          "OL37697987M",
+          "OL49218111M",
+          "OL7431013M",
+          "OL22856307M",
+          "OL5423929M",
+          "OL19298184M",
+          "OL9444143M",
+          "OL22991134M",
+          "OL9700703M",
+          "OL20237487M",
+          "OL7462350M",
+          "OL8666550M",
+          "OL24224390M",
+          "OL23113741M",
+          "OL7356473M",
+          "OL21087249M",
+          "OL21291289M",
+          "OL8781141M",
+          "OL24227002M",
+          "OL23022776M",
+          "OL8666888M",
+          "OL18434204M",
+          "OL22790332M"
+        ],
+        "isbn": [
+          "0140079378",
+          "9781565843424",
+          "0140551247",
+          "0394478843",
+          "9780380002597",
+          "9780140079371",
+          "9780394478845",
+          "9780345325693",
+          "9780394729534",
+          "9781280871108",
+          "1565843428",
+          "9780140551242",
+          "9780808596172",
+          "1280871105",
+          "9781565849440",
+          "1580811310",
+          "9781595587664",
+          "1565849442",
+          "9781580811316",
+          "9781567319958",
+          "0345325699",
+          "1567319955",
+          "0380002590",
+          "0808596179",
+          "0394729536",
+          "2916207430",
+          "9782916207438",
+          "1595587667"
+        ],
+        "key": "/works/OL3236300W",
+        "title": "Working"
+      },
+      {
+        "author_name": [
+          "Luc Ferry"
+        ],
+        "edition_key": [
+          "OL27133657M",
+          "OL28443486M",
+          "OL39943193M",
+          "OL35899316M"
+        ],
+        "isbn": [
+          "1786898071",
+          "9781786898074",
+          "9781847672872",
+          "0062074245",
+          "9780062074249",
+          "1847672876",
+          "0062074253",
+          "9780062074256"
+        ],
+        "key": "/works/OL19953350W",
+        "title": "A brief history of thought"
+      },
+      {
+        "author_name": [
+          "Ian Frazier"
+        ],
+        "edition_key": [
+          "OL24109852M"
+        ],
+        "isbn": [
+          "9780374278724",
+          "0374278725"
+        ],
+        "key": "/works/OL18704648W",
+        "title": "Travels in Siberia"
+      },
+      {
+        "author_name": [
+          "Ian Frazier"
+        ],
+        "edition_key": [
+          "OL25191014M"
+        ],
+        "isbn": [
+          "0374278725",
+          "9780374278724"
+        ],
+        "key": "/works/OL16491107W",
+        "title": "Travels in Siberia"
+      },
+      {
+        "author_name": [
+          "Eric Temple Bell"
+        ],
+        "edition_key": [
+          "OL16569264M",
+          "OL23790733M",
+          "OL6485783M",
+          "OL38284230M",
+          "OL38358750M",
+          "OL1720752M",
+          "OL21479537M",
+          "OL6410578M",
+          "OL21521014M"
+        ],
+        "isbn": [
+          "9781306363297",
+          "0486272397",
+          "9780486272399",
+          "9780486152288",
+          "0486152286",
+          "1306363292"
+        ],
+        "key": "/works/OL4091539W",
+        "title": "The development of mathematics"
+      },
+      {
+        "author_name": [
+          "Matthew Parker"
+        ],
+        "edition_key": [
+          "OL25028144M",
+          "OL36194588M",
+          "OL27624793M",
+          "OL28472843M"
+        ],
+        "isbn": [
+          "1446473104",
+          "0091925835",
+          "9780099558453",
+          "9781446473108",
+          "9780802777980",
+          "0099558459",
+          "0802777988",
+          "9780091925833"
+        ],
+        "key": "/works/OL16145174W",
+        "title": "The Sugar Barons"
+      },
+      {
+        "author_name": [
+          "Ian Frazier"
+        ],
+        "edition_key": [
+          "OL37364297M",
+          "OL28749709M",
+          "OL28171835M"
+        ],
+        "isbn": [
+          "1427210535",
+          "9781429964319",
+          "1429964316",
+          "0312610602",
+          "9781427210531",
+          "9780312610609"
+        ],
+        "key": "/works/OL20809695W",
+        "title": "Travels in Siberia"
+      },
+      {
+        "author_name": [
+          "Warren F. Motte Jr."
+        ],
+        "edition_key": [
+          "OL8662045M"
+        ],
+        "isbn": [
+          "1564781879",
+          "9781564781871"
+        ],
+        "key": "/works/OL8883703W",
+        "title": "Oulipo"
+      },
+      {
+        "author_name": [
+          "Ray Monk"
+        ],
+        "edition_key": [
+          "OL60666547M"
+        ],
+        "isbn": [
+          "3608917039",
+          "9783608917031"
+        ],
+        "key": "/works/OL44407176W",
+        "title": "Wittgenstein"
+      },
+      {
+        "author_name": [
+          "E.T. Bell"
+        ],
+        "edition_key": [
+          "OL47708862M",
+          "OL58803663M"
+        ],
+        "isbn": [
+          "9780070043305",
+          "0070043302"
+        ],
+        "key": "/works/OL35296629W",
+        "title": "Development of Mathematics"
+      },
+      {
+        "author_name": [
+          "James C. Klagge",
+          "Alfred Nordmann",
+          "Ray Monk"
+        ],
+        "edition_key": [
+          "OL39395304M",
+          "OL39452597M"
+        ],
+        "isbn": [
+          "1538163667",
+          "9781538163665",
+          "1538163675",
+          "9781538163672"
+        ],
+        "key": "/works/OL28704394W",
+        "title": "Movements of Thought"
+      },
+      {
+        "author_name": [
+          "Eric Temple Bell"
+        ],
+        "edition_key": [
+          "OL46993099M"
+        ],
+        "key": "/works/OL34662104W",
+        "title": "The development of mathematics"
+      },
+      {
+        "author_name": [
+          "Matthew Parker"
+        ],
+        "edition_key": [
+          "OL26815289M"
+        ],
+        "isbn": [
+          "0802717446",
+          "9780802717443"
+        ],
+        "key": "/works/OL19359028W",
+        "title": "The Sugar Barons: Family, Corruption, Empire, and War in the West Indies"
+      },
+      {
+        "author_name": [
+          "Studs Terkel"
+        ],
+        "edition_key": [
+          "OL32178348M",
+          "OL33272971M"
+        ],
+        "isbn": [
+          "1665140747",
+          "9781665140737",
+          "9781665140744",
+          "1665140739"
+        ],
+        "key": "/works/OL24317550W",
+        "title": "Working in America"
+      }
+    ]
+  }
+}

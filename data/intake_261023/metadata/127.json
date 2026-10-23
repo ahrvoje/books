@@ -1,0 +1,81 @@
+{
+  "mention": "Abolish Silicon Valley",
+  "url": "https://openlibrary.org/search.json?title=Abolish%20Silicon%20Valley&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:37.802Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Wendy Liu"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2020,
+        "isbn": [
+          "1912248700",
+          "9781912248704"
+        ],
+        "key": "/works/OL21872710W",
+        "language": [
+          "eng"
+        ],
+        "title": "Abolish Silicon Valley",
+        "ratings_average": 3.6666667,
+        "ratings_count": 3
+      }
+    ]
+  },
+  "work": {
+    "title": "Abolish Silicon Valley",
+    "key": "/works/OL21872710W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL13092696A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      10648839,
+      15099570
+    ],
+    "subjects": [
+      "Technology",
+      "Social aspects",
+      "Moral and ethical aspects",
+      "Business ethics",
+      "Capitalism",
+      "Technology and civilization",
+      "Economic conditions",
+      "TECHNOLOGY & ENGINEERING / Social Aspects",
+      "Economic history"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Innovation. Meritocracy. The possibility of overnight success. What's not to love about Silicon Valley? These days, it's hard to be unambiguously optimistic about the growth-at-all-costs ethos of the tech industry. Public opinion is souring in the wake of revelations about Cambridge Analytica, Theranos, and the workplace conditions of Amazon warehouse workers or Uber. We're starting to see the cracks in the edifice, as we realise that the wealth that the tech industry is so good at creating is neither sustainable nor always desirable. Abolish Silicon Valley is both a heartfelt personal story about the wasteful inequality and unsubstantiated lies of Silicon Valley, and a rallying call to engage in the radical politics needed to upend the status quo. Going beyond the idiosyncrasies of the individual founders and companies that characterise the industry today, Liu delves into the structural factors of the economy that led to Silicon Valley in its current form, and links them to the economy at large. Ultimately, she proposes a more radical way of developing technology, where innovation is conducted for the benefit of society at large, and not merely to enrich a select few."
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-31T17:42:01.393515"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-12-27T20:05:27.277216"
+    }
+  }
+}

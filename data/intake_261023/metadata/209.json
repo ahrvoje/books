@@ -1,0 +1,97 @@
+{
+  "mention": "More Programming Pearls",
+  "url": "https://openlibrary.org/search.json?title=More%20Programming%20Pearls&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:30.595Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jon Louis Bentley"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1988,
+        "isbn": [
+          "0201118890",
+          "9780201118896"
+        ],
+        "key": "/works/OL4986382W",
+        "language": [
+          "eng"
+        ],
+        "title": "More programming pearls",
+        "ratings_average": 3,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Jon Louis Bentley"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1986,
+        "isbn": [
+          "9780201500196",
+          "0201500191"
+        ],
+        "key": "/works/OL4986383W",
+        "language": [
+          "eng"
+        ],
+        "title": "Programming Pearls (2 Volumes - Programming Pearls and More Programming Pearls: Confessions of a Coder)"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "A second volume collecting Bentley's *Communications of the ACM* columns."
+    },
+    "covers": [
+      5725085
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-02-14T02:21:50.954620"
+    },
+    "latest_revision": 8,
+    "key": "/works/OL4986382W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1078133A"
+        }
+      }
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T08:13:31.779551"
+    },
+    "title": "More programming pearls",
+    "subjects": [
+      "heuristics",
+      "Programming",
+      "Computer programming",
+      "problem solving",
+      "algorithm design",
+      "Electronic digital computers",
+      "performance",
+      "Компьютеры",
+      "Программирование",
+      "Computers"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 8
+  }
+}

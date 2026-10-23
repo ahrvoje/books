@@ -1,0 +1,94 @@
+{
+  "mention": "Putting It Together — James Lapine",
+  "url": "https://openlibrary.org/search.json?title=Putting%20It%20Together&author=James%20Lapine&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:55.509Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "James Lapine"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2021,
+        "isbn": [
+          "9780374720223",
+          "9780374200091",
+          "0374200092",
+          "0374720223",
+          "1250849136",
+          "9781250849137"
+        ],
+        "key": "/works/OL21937124W",
+        "language": [
+          "eng"
+        ],
+        "title": "Putting It Together"
+      }
+    ]
+  },
+  "work": {
+    "title": "Putting It Together",
+    "key": "/works/OL21937124W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL337333A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "New York Times reviewed",
+      "nyt:hardcover-nonfiction=2021-08-22",
+      "New York Times bestseller",
+      "Music, history and criticism",
+      "Musicals",
+      "Production and direction",
+      "Sunday in the park with George (Sondheim, Stephen)"
+    ],
+    "links": [
+      {
+        "title": "New York Times review",
+        "url": "https://www.nytimes.com/2021/07/28/books/review/putting-it-together-james-lapine.html",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "subject_people": [
+      "Stephen Sondheim"
+    ],
+    "subject_places": [
+      "Ohio",
+      "Broadway",
+      "Booth Theater"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"A behind-the-scenes look at the making of the iconic Broadway musical Sunday in the Park with George\"--"
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-09-01T17:09:41.198052"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-10-23T19:49:53.208461"
+    }
+  }
+}

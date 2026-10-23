@@ -1,0 +1,128 @@
+{
+  "mention": "The Red Atlas",
+  "url": "https://openlibrary.org/search.json?title=The%20Red%20Atlas&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:20.595Z",
+  "status": 200,
+  "search": {
+    "numFound": 10,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 10,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John Davies",
+          "Alexander James Kent"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2017,
+        "isbn": [
+          "9780226389578",
+          "022638957X"
+        ],
+        "key": "/works/OL19722717W",
+        "language": [
+          "eng"
+        ],
+        "title": "The red atlas",
+        "ratings_average": 2.5,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Devi S. Laskar"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 2019,
+        "isbn": [
+          "1640093419",
+          "9781640093416",
+          "164009153X",
+          "1640091548",
+          "9781640091535",
+          "9780708899342",
+          "0708899323",
+          "070889934X",
+          "9780708899328",
+          "9781640091542"
+        ],
+        "key": "/works/OL21210922W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Atlas of Reds and Blues"
+      },
+      {
+        "author_name": [
+          "Michigan. University. McMath-Hulbert Observatory"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1950,
+        "key": "/works/OL12715875W",
+        "language": [
+          "eng"
+        ],
+        "title": "Photometric atlas of the near infra-red solar spectrum"
+      }
+    ]
+  },
+  "work": {
+    "subject_places": [
+      "Soviet Union"
+    ],
+    "subjects": [
+      "Atlases",
+      "Cartography",
+      "Soviet union, history",
+      "Soviet union, maps",
+      "Political aspects",
+      "Maps",
+      "History",
+      "Cartography -- Political aspects",
+      "Soviet Union -- History -- Maps"
+    ],
+    "key": "/works/OL19722717W",
+    "title": "The red atlas",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL7526893A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      },
+      {
+        "author": {
+          "key": "/authors/OL8147262A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      14511983
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "xiii, 234 pages : 24 cm"
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-05-24T00:40:50.722339"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-10-23T23:47:41.835494"
+    }
+  }
+}

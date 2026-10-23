@@ -1,0 +1,117 @@
+{
+  "mention": "The Light Ages",
+  "url": "https://openlibrary.org/search.json?title=The%20Light%20Ages&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:50:42.462Z",
+  "status": 200,
+  "search": {
+    "numFound": 153,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 153,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Seb Falk"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 2020,
+        "isbn": [
+          "9781324002949",
+          "0241374278",
+          "132400293X",
+          "9780241374252",
+          "014198967X",
+          "0393868400",
+          "0241374251",
+          "9780141989679",
+          "9780393868401",
+          "1324002948",
+          "9780241374276",
+          "9781324002932"
+        ],
+        "key": "/works/OL21605430W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Light Ages"
+      },
+      {
+        "author_name": [
+          "Ian R. MacLeod"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2005,
+        "isbn": [
+          "9780441012749",
+          "0441012744"
+        ],
+        "key": "/works/OL18130611W",
+        "title": "The light ages",
+        "ratings_average": 4,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Ian R. MacLeod"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2003,
+        "isbn": [
+          "9780743462440",
+          "0441011497",
+          "9780743462426",
+          "9780441011490",
+          "0743462424",
+          "0743462440"
+        ],
+        "key": "/works/OL22158826W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Light Ages",
+        "ratings_average": 4,
+        "ratings_count": 1
+      }
+    ]
+  },
+  "work": {
+    "title": "The Light Ages",
+    "covers": [
+      10386165
+    ],
+    "key": "/works/OL21605430W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8263878A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Science, medieval",
+      "Science, history",
+      "Medieval Science",
+      "Inventions",
+      "History"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-24T21:58:02.622236"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-16T05:42:20.337303"
+    }
+  }
+}

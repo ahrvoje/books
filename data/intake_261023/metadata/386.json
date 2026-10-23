@@ -1,0 +1,85 @@
+{
+  "mention": "Learn You a Haskell for Great Good!",
+  "url": "https://openlibrary.org/search.json?title=Learn%20You%20a%20Haskell%20for%20Great%20Good!&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:51:26.434Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Miran Lipovača"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2011,
+        "isbn": [
+          "9781593272838",
+          "9781593272951",
+          "1593272952",
+          "1593272839"
+        ],
+        "key": "/works/OL15916305W",
+        "language": [
+          "eng"
+        ],
+        "title": "Learn You a Haskell for Great Good!",
+        "ratings_average": 4.6,
+        "ratings_count": 5
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Haskell (Computer program language)",
+      "Programming languages (electronic computers)"
+    ],
+    "key": "/works/OL15916305W",
+    "title": "Learn You a Haskell for Great Good!",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL6936559A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8037819
+    ],
+    "identifiers": {
+      "wikidata": [
+        "Q139272299"
+      ],
+      "bookbrainz": [
+        "01b464a0-b64f-4b20-98e8-4ce21d0ecb07"
+      ],
+      "librarything": [
+        "10591726"
+      ],
+      "goodreads": [
+        "6787531"
+      ]
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-07-25T15:34:01.062828"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-04-13T15:23:40.043369"
+    }
+  }
+}

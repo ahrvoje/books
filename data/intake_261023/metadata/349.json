@@ -1,0 +1,86 @@
+{
+  "mention": "Galileo at Work",
+  "url": "https://openlibrary.org/search.json?title=Galileo%20at%20Work&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:51:01.788Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Stillman Drake"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 1978,
+        "isbn": [
+          "4320008189",
+          "9780226162263",
+          "9780486495422",
+          "0226162273",
+          "9780486286310",
+          "9780226162270",
+          "0486495426",
+          "9784320008182",
+          "0226162265",
+          "0486286312"
+        ],
+        "key": "/works/OL3744399W",
+        "language": [
+          "eng",
+          "jpn"
+        ],
+        "title": "Galileo at work",
+        "ratings_average": 0,
+        "ratings_count": 0
+      }
+    ]
+  },
+  "work": {
+    "title": "Galileo at work",
+    "covers": [
+      311784
+    ],
+    "subject_places": [
+      "Italy"
+    ],
+    "subjects": [
+      "Astronomers",
+      "Biography",
+      "Galilei, galileo, 1564-1642",
+      "Astronomy"
+    ],
+    "subject_people": [
+      "Galileo Galilei (1564-1642)"
+    ],
+    "key": "/works/OL3744399W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL657374A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T04:22:10.137442"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-09-06T05:24:59.499329"
+    }
+  }
+}

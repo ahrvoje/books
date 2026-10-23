@@ -1,0 +1,60 @@
+{
+  "mention": "Salvage: A Personal Odyssey",
+  "url": "https://openlibrary.org/search.json?title=Salvage%3A%20A%20Personal%20Odyssey&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:11.105Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ian Ian Tew"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2018,
+        "isbn": [
+          "1574093584",
+          "9781574093582"
+        ],
+        "key": "/works/OL44573731W",
+        "language": [
+          "eng"
+        ],
+        "title": "Salvage - a Personal Odyssey"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Salvage - a Personal Odyssey",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL16033568A"
+        }
+      }
+    ],
+    "key": "/works/OL44573731W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2025-12-13T00:25:51.797808"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-12-13T00:25:51.797808"
+    }
+  }
+}

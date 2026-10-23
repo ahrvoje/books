@@ -1,0 +1,99 @@
+{
+  "mention": "The Tao of Programming",
+  "url": "https://openlibrary.org/search.json?title=The%20Tao%20of%20Programming&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:39.444Z",
+  "status": 200,
+  "search": {
+    "numFound": 6,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 6,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "James, Geoffrey"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1987,
+        "isbn": [
+          "9780931137075",
+          "0931137071"
+        ],
+        "key": "/works/OL2171914W",
+        "language": [
+          "eng"
+        ],
+        "title": "The tao of programming"
+      },
+      {
+        "author_name": [
+          "K. E. McTaggart"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2003,
+        "key": "/works/OL23959694W",
+        "language": [
+          "eng"
+        ],
+        "title": "CTD measurements during 2003 and 2004 as part of the TAO/TRITON program"
+      },
+      {
+        "author_name": [
+          "K. E. McTaggart"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2007,
+        "key": "/works/OL24096220W",
+        "language": [
+          "eng"
+        ],
+        "title": "CTD measurements during 2005 and 2006 as part of the TAO/TRITON program"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1987",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-11-04T12:00:36.238508"
+    },
+    "title": "The tao of programming",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T23:04:06.334379"
+    },
+    "covers": [
+      710927
+    ],
+    "lc_classifications": [
+      "QA76.6 .J354 1987"
+    ],
+    "latest_revision": 4,
+    "key": "/works/OL2171914W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL274528A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "005"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Computer programming",
+      "Anecdotes, facetiae, satire",
+      "Anecdotes"
+    ],
+    "revision": 4
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "mention": "Advanced MS-DOS",
+  "url": "https://openlibrary.org/search.json?title=Advanced%20MS-DOS&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:00.090Z",
+  "status": 200,
+  "search": {
+    "numFound": 10,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 10,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ray Duncan"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1988,
+        "isbn": [
+          "0914845772",
+          "9781556151576",
+          "1556151578",
+          "9780914845775"
+        ],
+        "key": "/works/OL4095952W",
+        "language": [
+          "eng"
+        ],
+        "title": "Advanced MS DOS programming"
+      },
+      {
+        "author_name": [
+          "Ray Duncan"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 1986,
+        "isbn": [
+          "9780914845775",
+          "0914845772"
+        ],
+        "key": "/works/OL15854543W",
+        "language": [
+          "eng"
+        ],
+        "title": "Advanced MS-DOS"
+      },
+      {
+        "author_name": [
+          "rayduncon"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1988,
+        "key": "/works/OL15231885W",
+        "title": "advance ms dos programming"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "the book is about using ms dos programming language at an advanced level"
+    },
+    "covers": [
+      5728291
+    ],
+    "key": "/works/OL4095952W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL767310A"
+        }
+      }
+    ],
+    "title": "Advanced MS DOS programming",
+    "subjects": [
+      "Assembler language (Computer program language)",
+      "C (Computer program language)",
+      "C++ (Computer program language)",
+      "MS-DOS (Computer file)",
+      "programming",
+      "MS-DOS (Computer operating system)"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T05:20:38.497213"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-08-03T04:38:43.899281"
+    }
+  }
+}

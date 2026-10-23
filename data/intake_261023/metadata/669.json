@@ -1,0 +1,89 @@
+{
+  "mention": "Beginning C# 3.0",
+  "url": "https://openlibrary.org/search.json?title=Beginning%20C%23%203.0&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:29.425Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jack J. Purdum"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2007,
+        "isbn": [
+          "1281374490",
+          "0470261293",
+          "9780470261293",
+          "9781281374493"
+        ],
+        "key": "/works/OL15894494W",
+        "language": [
+          "eng"
+        ],
+        "title": "Beginning C# 3.0"
+      },
+      {
+        "author_name": [
+          "Jack Purdum"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2008,
+        "isbn": [
+          "047038428X",
+          "1118059611",
+          "9781118059616",
+          "9780470384282"
+        ],
+        "key": "/works/OL21458596W",
+        "language": [
+          "eng"
+        ],
+        "title": "Beginning C# 3. 0"
+      },
+      {
+        "edition_count": 1,
+        "key": "/works/OL17655726W",
+        "title": "Beginning C# 3.0 : an introduction to object oriented programming"
+      }
+    ]
+  },
+  "work": {
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2011-07-22T17:32:20.625707"
+    },
+    "title": "Beginning C# 3.0",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-07-22T17:32:20.625707"
+    },
+    "subjects": [
+      "C# (Computer program language)",
+      "Object-oriented programming (Computer science)"
+    ],
+    "latest_revision": 1,
+    "key": "/works/OL15894494W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL592756A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

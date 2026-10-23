@@ -1,0 +1,96 @@
+{
+  "mention": "The Shipping Man",
+  "url": "https://openlibrary.org/search.json?title=The%20Shipping%20Man&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:04.789Z",
+  "status": 200,
+  "search": {
+    "numFound": 55,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 55,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Edward Cocker"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 1664,
+        "key": "/works/OL3386239W",
+        "language": [
+          "eng"
+        ],
+        "title": "The guide to pen-man-ship"
+      },
+      {
+        "author_name": [
+          "James A. Kehl"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1997,
+        "isbn": [
+          "188391115X",
+          "9781883911157"
+        ],
+        "key": "/works/OL2640150W",
+        "language": [
+          "eng"
+        ],
+        "title": "When civilians manned the ships"
+      },
+      {
+        "author_name": [
+          "Joseph Bensinger"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2012,
+        "isbn": [
+          "1479171069",
+          "9781737704539",
+          "1737704536",
+          "9781479171064"
+        ],
+        "key": "/works/OL31153389W",
+        "language": [
+          "eng"
+        ],
+        "title": "Man, Ships, and the Sea"
+      }
+    ]
+  },
+  "work": {
+    "key": "/works/OL3386239W",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T03:26:27.638657"
+    },
+    "title": "The guide to pen-man-ship",
+    "id": 38562558,
+    "first_publish_date": "1664",
+    "latest_revision": 2,
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-02-13T19:23:38.003819"
+    },
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL553457A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Calligraphy",
+      "Early works to 1800",
+      "Penmanship",
+      "Copybooks"
+    ],
+    "revision": 2
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "mention": "Euler's Gem",
+  "url": "https://openlibrary.org/search.json?title=Euler's%20Gem&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:56:05.691Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David S. Richeson"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 2008,
+        "isbn": [
+          "9781400838561",
+          "9780691154572",
+          "0691126771",
+          "1400838568",
+          "9780691126777",
+          "9780691191997",
+          "0691191379",
+          "0691154570",
+          "9780691191379",
+          "9781283129268",
+          "1283129264",
+          "0691191999"
+        ],
+        "key": "/works/OL11930422W",
+        "language": [
+          "eng"
+        ],
+        "title": "Euler's Gem"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "2008",
+    "title": "Euler's Gem",
+    "covers": [
+      5352828
+    ],
+    "lc_classifications": [
+      "QA611.A3 R53 2008"
+    ],
+    "key": "/works/OL11930422W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL5125097A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "dewey_number": [
+      "514.09"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Topology",
+      "Polyhedra",
+      "History",
+      "Polyhedral functions",
+      "Mathematics",
+      "award:euler_book_prize"
+    ],
+    "subtitle": "The Polyhedron Formula and the Birth of Topology",
+    "description": {
+      "type": "/type/text",
+      "value": "Leonhard Euler's polyhedron formula describes the structure of many objects--from soccer balls and gemstones to Buckminster Fuller's buildings and giant all-carbon molecules. Yet Euler's formula is so simple it can be explained to a child. Euler's Gem tells the illuminating story of this indispensable mathematical idea --Front jacket flap."
+    },
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T05:43:11.002337"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-02-17T23:28:19.566500"
+    }
+  }
+}

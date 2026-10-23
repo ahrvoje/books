@@ -1,0 +1,83 @@
+{
+  "mention": "Zen of Code Optimization",
+  "url": "https://openlibrary.org/search.json?title=Zen%20of%20Code%20Optimization&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:58.096Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Michael Abrash"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1994,
+        "isbn": [
+          "9781883577032",
+          "1883577039"
+        ],
+        "key": "/works/OL2098183W",
+        "language": [
+          "eng"
+        ],
+        "title": "Zen of code optimization"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1994",
+    "description": {
+      "type": "/type/text",
+      "value": "Michael Abrash explores the inner workings of all Intel-based PCs including the hot new Pentium. This is the only book available that provides practical and innovative \"right-brain\" approaches to writing fast PC software using C/C++ and assembly language. This book is packed with \"from the trenches\" programming secrets and features \"undocumented\" Pentium programming tips. Provides hundreds of optimized coding examples."
+    },
+    "title": "Zen of code optimization",
+    "covers": [
+      9569165
+    ],
+    "lc_classifications": [
+      "QA76.73.C15 A224 1994"
+    ],
+    "key": "/works/OL2098183W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL259100A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "005.265"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "IBM compatible computers",
+      "C (Computer program language)",
+      "Programming",
+      "C++ (Computer program language)",
+      "Assembler language (Computer program language)",
+      "Assembly languages (Electronic computers)",
+      "IBM-compatible computers"
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:53:41.171454"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-08-27T05:58:21.761483"
+    }
+  }
+}

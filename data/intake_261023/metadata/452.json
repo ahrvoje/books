@@ -1,0 +1,78 @@
+{
+  "mention": "Selected Non-Fictions — Jorge Luis Borges",
+  "url": "https://openlibrary.org/search.json?title=Selected%20Non-Fictions&author=Jorge%20Luis%20Borges&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:52:09.105Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jorge Luis Borges"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1999,
+        "isbn": [
+          "9780670849475",
+          "0670849472",
+          "0140290117",
+          "9780140290110"
+        ],
+        "key": "/works/OL444890W",
+        "language": [
+          "eng"
+        ],
+        "title": "Selected non-fictions",
+        "ratings_average": 4,
+        "ratings_count": 1
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      10831091,
+      401367
+    ],
+    "key": "/works/OL444890W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL18928A"
+        }
+      }
+    ],
+    "title": "Selected non-fictions",
+    "subjects": [
+      "Translations into English",
+      "Essays (single author)",
+      "Borges, jorge luis, 1899-1986",
+      "Latin american literature, translations into english",
+      "Spanish essays"
+    ],
+    "subject_people": [
+      "Jorge Luis Borges (1899-)"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-10-28T23:39:27.794672"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-04-11T06:01:18.496856"
+    }
+  }
+}

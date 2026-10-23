@@ -1,0 +1,112 @@
+{
+  "mention": "The Art of the Comeback",
+  "url": "https://openlibrary.org/search.json?title=The%20Art%20of%20the%20Comeback&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:04.532Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Mike Fallat",
+          "Papa Joe Aviance",
+          "George Caceres",
+          "Amy Camodeca",
+          "Brendan Piper"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2019,
+        "isbn": [
+          "1072365626",
+          "9781072365624"
+        ],
+        "key": "/works/OL29790566W",
+        "language": [
+          "eng"
+        ],
+        "title": "True Art of the Comeback"
+      },
+      {
+        "author_name": [
+          "Glenn Greenberg"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2007,
+        "isbn": [
+          "9781416549789",
+          "1416549781"
+        ],
+        "key": "/works/OL26129032W",
+        "language": [
+          "eng"
+        ],
+        "title": "Star Trek Corps of Engineers - The Art of the Comeback"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "True Art of the Comeback",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL10184987A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL10920213A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9259292A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL11006365A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL11006366A"
+        }
+      }
+    ],
+    "key": "/works/OL29790566W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-11-22T12:02:39.015633"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-11-22T12:02:39.015633"
+    }
+  }
+}

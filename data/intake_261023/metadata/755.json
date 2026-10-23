@@ -1,0 +1,113 @@
+{
+  "mention": "Code Craft",
+  "url": "https://openlibrary.org/search.json?title=Code%20Craft&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:25.427Z",
+  "status": 200,
+  "search": {
+    "numFound": 17,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 17,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Pete Goodliffe"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2006,
+        "isbn": [
+          "9781593271190",
+          "1593271190"
+        ],
+        "key": "/works/OL8989111W",
+        "language": [
+          "eng"
+        ],
+        "title": "Code Craft",
+        "ratings_average": 5,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Korkut Onaran"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 2018,
+        "isbn": [
+          "1351203134",
+          "1351203150",
+          "9781351203128",
+          "9781351203135",
+          "0815365012",
+          "1351203126",
+          "1351203142",
+          "9781351203142",
+          "9781351203159",
+          "9780815365013",
+          "9780815365020",
+          "0815365020"
+        ],
+        "key": "/works/OL21349419W",
+        "language": [
+          "eng"
+        ],
+        "title": "Crafting Form-Based Codes"
+      },
+      {
+        "author_name": [
+          "International Maritime Organization"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2021,
+        "isbn": [
+          "9280116029",
+          "9789280116021"
+        ],
+        "key": "/works/OL26770809W",
+        "language": [
+          "eng"
+        ],
+        "title": "High Speed Craft  Code"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T23:38:41.320139"
+    },
+    "subjects": [
+      "Computer programming",
+      "Computer software",
+      "Development",
+      "Programming languages (Electronic computers)"
+    ],
+    "latest_revision": 3,
+    "key": "/works/OL8989111W",
+    "title": "Code Craft",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3123269A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-12-03T19:02:59.224941"
+    },
+    "covers": [
+      870295
+    ],
+    "revision": 3
+  }
+}

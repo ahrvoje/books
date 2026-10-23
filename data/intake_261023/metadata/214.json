@@ -1,0 +1,75 @@
+{
+  "mention": "American Gun — Cameron McWhirter Zusha Elinson",
+  "url": "https://openlibrary.org/search.json?title=American%20Gun&author=Cameron%20McWhirter%20Zusha%20Elinson&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:34.142Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Cameron McWhirter",
+          "Zusha Elinson"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2023,
+        "isbn": [
+          "9781250338006",
+          "0374103852",
+          "9780374722005",
+          "9780374103859",
+          "0374722005",
+          "125033800X"
+        ],
+        "key": "/works/OL34082885W",
+        "language": [
+          "eng"
+        ],
+        "title": "American Gun",
+        "ratings_average": 4,
+        "ratings_count": 1
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "American Gun",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7001634A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL12332249A"
+        }
+      }
+    ],
+    "key": "/works/OL34082885W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2023-01-17T11:51:31.703951"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-01-17T11:51:31.703951"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "mention": "The Story of My Experiments with Truth",
+  "url": "https://openlibrary.org/search.json?title=The%20Story%20of%20My%20Experiments%20with%20Truth&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:46.487Z",
+  "status": 200,
+  "search": {
+    "numFound": 22,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 22,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "M.K.Gandhi"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2020,
+        "isbn": [
+          "8183631517",
+          "9788183631518"
+        ],
+        "key": "/works/OL26200271W",
+        "title": "The Story Of My Experiments With Truth",
+        "ratings_average": 3,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Mahatma Gandhi"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2013,
+        "isbn": [
+          "9781482029307",
+          "1482029316",
+          "1482029308",
+          "9781482029314"
+        ],
+        "key": "/works/OL39712751W",
+        "language": [
+          "eng"
+        ],
+        "title": "Autobiography or the Story of My Experiments with Truth"
+      },
+      {
+        "author_name": [
+          "Mahadev Desai "
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1927,
+        "key": "/works/OL43213095W",
+        "language": [
+          "eng"
+        ],
+        "title": "An Autobiography ro The Story of My Experiments With Truth "
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The Story Of My Experiments With Truth",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8004718A"
+        }
+      }
+    ],
+    "covers": [
+      12194052
+    ],
+    "key": "/works/OL26200271W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-10-25T04:44:57.615397"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-10-25T04:44:57.615397"
+    }
+  }
+}

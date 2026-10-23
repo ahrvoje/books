@@ -1,0 +1,114 @@
+{
+  "mention": "The Practice of Programming",
+  "url": "https://openlibrary.org/search.json?title=The%20Practice%20of%20Programming&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:35.110Z",
+  "status": 200,
+  "search": {
+    "numFound": 222,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 222,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Brian W. Kernighan"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1999,
+        "isbn": [
+          "020161586X",
+          "9780201615869"
+        ],
+        "key": "/works/OL15333872W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Practice of Programming (Addison-Wesley Professional Computing Series)",
+        "ratings_average": 4,
+        "ratings_count": 4
+      },
+      {
+        "author_name": [
+          "Jerry Pocztar"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 1972,
+        "isbn": [
+          "9789231009365",
+          "9231009362"
+        ],
+        "key": "/works/OL7159289W",
+        "language": [
+          "eng"
+        ],
+        "title": "The theory and practice of programmed instruction"
+      },
+      {
+        "author_name": [
+          "Scarvia B. Anderson"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1978,
+        "isbn": [
+          "9780875893754",
+          "0875893759"
+        ],
+        "key": "/works/OL6795166W",
+        "language": [
+          "eng"
+        ],
+        "title": "The profession and practice of program evaluation"
+      }
+    ]
+  },
+  "work": {
+    "title": "The Practice of Programming (Addison-Wesley Professional Computing Series)",
+    "subjects": [
+      "Computer programming",
+      "Programmation (Informatique)",
+      "Programmierung",
+      "Programmeren (computers)",
+      "Algoritmen",
+      "Datastructuren",
+      "Interfaces",
+      "Programacao de computadores",
+      "Ordinateurs",
+      "Programmation",
+      "Programmation orientée objets (informatique)"
+    ],
+    "key": "/works/OL15333872W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL946967A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      135396
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "A compendium of practical matters of importance to working programmers."
+    },
+    "latest_revision": 10,
+    "revision": 10,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-08-17T09:24:47.868317"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-02-12T05:24:35.270359"
+    }
+  }
+}

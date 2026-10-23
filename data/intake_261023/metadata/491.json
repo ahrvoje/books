@@ -1,0 +1,155 @@
+{
+  "mention": "The Library at Night",
+  "url": "https://openlibrary.org/search.json?title=The%20Library%20at%20Night&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:52:34.820Z",
+  "status": 200,
+  "search": {
+    "numFound": 14,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 14,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Alberto Manguel"
+        ],
+        "edition_count": 9,
+        "first_publish_year": 2003,
+        "isbn": [
+          "9789170371486",
+          "0300139144",
+          "9780300151305",
+          "9780676975888",
+          "9780300139143",
+          "0676975887",
+          "0676975895",
+          "0300151306",
+          "9780676975895",
+          "9170371482"
+        ],
+        "key": "/works/OL42559W",
+        "language": [
+          "eng",
+          "swe"
+        ],
+        "title": "The Library at Night",
+        "ratings_average": 4.5,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Alberto Manguel"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2011,
+        "isbn": [
+          "7208103844",
+          "9787208103849"
+        ],
+        "key": "/works/OL16649928W",
+        "title": "夜晚的书斋 = The Library at Night"
+      },
+      {
+        "author_name": [
+          "Alberto Manguel"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2007,
+        "isbn": [
+          "8420647624",
+          "9788420647623"
+        ],
+        "key": "/works/OL15083809W",
+        "language": [
+          "spa"
+        ],
+        "title": "La biblioteca de noche / The Library at Night"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "\"The Library at Night - a series of essays on what might call the Platonic idea of a library - reveals some of its author's intellectual range and magpie learning... [It] is an elegant volume, in both its design and its text... Alberto Manguel has brought out a richly enjoyable book, absolutely enthralling for anyone who loves to read and an inspiration for anybody who has ever dreamed of building a library of his or her own.\" - Michael Dirda, Washington Post Book World"
+    },
+    "links": [
+      {
+        "url": "http://www.complete-review.com/reviews/manguela/library.htm",
+        "type": {
+          "key": "/type/link"
+        },
+        "title": "Comprehensive list of reviews"
+      }
+    ],
+    "title": "The Library at Night",
+    "covers": [
+      2355908
+    ],
+    "subjects": [
+      "Books and reading",
+      "Classification",
+      "History",
+      "Information organization",
+      "Libraries",
+      "architecture",
+      "culture",
+      "language",
+      "library",
+      "metadata",
+      "Criticism",
+      "Bibliothèques",
+      "Histoire",
+      "Livres et lecture",
+      "Bibliotheken",
+      "Lezen",
+      "Collectief geheugen",
+      "Culturele aspecten"
+    ],
+    "subject_people": [
+      "Michaelangelo"
+    ],
+    "key": "/works/OL42559W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL30928A"
+        }
+      }
+    ],
+    "excerpts": [
+      {
+        "excerpt": "A library of straight angles suggests division into parts or subjects, consistent with the medieval notion of a compartmentalized and hierarchical universe; a circular library more generously allows the reader to imagine that every last page is also the first. Ideally, for many readers, a library would be a combination of both, and intersection of circle and rectangle or oval and square, like the ground floor of a basilica.",
+        "pages": "138",
+        "author": {
+          "key": "/people/george08"
+        }
+      },
+      {
+        "excerpt": "Books, even after they have been given a shelf and a number, retain a mobility of their own. Left to their own devices, they assemble in unexpected formations; they follow secret rules of similarity, unchronicled genealogies, common interests and themes.",
+        "pages": "163",
+        "author": {
+          "key": "/people/george08"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 12,
+    "revision": 12,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-10-15T08:28:04.677953"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-12-30T23:50:28.395137"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "mention": "The Biography of Ottmar Mergenthaler, Inventor of the Linotype",
+  "url": "https://openlibrary.org/search.json?title=The%20Biography%20of%20Ottmar%20Mergenthaler%2C%20Inventor%20of%20the%20Linotype&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:55.138Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ottmar Mergenthaler"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1989,
+        "isbn": [
+          "0938768123",
+          "9780938768128",
+          "0938768131",
+          "9780938768135"
+        ],
+        "key": "/works/OL4661967W",
+        "language": [
+          "eng"
+        ],
+        "title": "The biography of Ottmar Mergenthaler, inventor of the linotype"
+      },
+      {
+        "author_name": [
+          "Carl Schlesinger"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1988,
+        "isbn": [
+          "0938768131",
+          "9780938768135"
+        ],
+        "key": "/works/OL8726240W",
+        "title": "Biography of Ottmar Mergenthaler Inventor of the Linotype"
+      },
+      {
+        "author_name": [
+          "Carl Schlesinger"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1989,
+        "isbn": [
+          "0938768123",
+          "9780938768128"
+        ],
+        "key": "/works/OL8726241W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Biography of Ottmar Mergenthaler, Inventor of the Linotype (Oak Knoll Series on the History of the Book)"
+      }
+    ]
+  },
+  "work": {
+    "key": "/works/OL4661967W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL959085A"
+        }
+      }
+    ],
+    "title": "The biography of Ottmar Mergenthaler, inventor of the linotype",
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "History",
+      "Linotype",
+      "Typesetting machines",
+      "Inventors",
+      "Biography",
+      "Zetmachines",
+      "Linotypes",
+      "Uitvinders"
+    ],
+    "subject_people": [
+      "Ottmar Mergenthaler (1854-1899)"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      11596269
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T07:05:55.616004"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-08-12T19:49:12.356824"
+    }
+  }
+}

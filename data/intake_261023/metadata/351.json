@@ -1,0 +1,110 @@
+{
+  "mention": "Object Thinking",
+  "url": "https://openlibrary.org/search.json?title=Object%20Thinking&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:51:03.101Z",
+  "status": 200,
+  "search": {
+    "numFound": 27,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 27,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "West, David"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2004,
+        "isbn": [
+          "9780735619654",
+          "0735619654"
+        ],
+        "key": "/works/OL5755326W",
+        "language": [
+          "eng"
+        ],
+        "title": "Object thinking",
+        "ratings_average": 4,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Tim Parsons"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2009,
+        "isbn": [
+          "9781350152885",
+          "2940439311",
+          "1350152889",
+          "9782940439317"
+        ],
+        "key": "/works/OL26505905W",
+        "language": [
+          "eng"
+        ],
+        "title": "Thinking : Objects"
+      },
+      {
+        "author_name": [
+          "Domenico Bertoloni Meli"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2006,
+        "isbn": [
+          "0801889448",
+          "9780801889448",
+          "9780801884276",
+          "0801884268",
+          "0801884276",
+          "9780801884269"
+        ],
+        "key": "/works/OL4291726W",
+        "language": [
+          "eng"
+        ],
+        "title": "Thinking with Objects"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Computer software",
+      "Development",
+      "Object-oriented methods (Computer science)",
+      "Object-oriented programming (computer science)",
+      "Qa76.64 .w478 2004b"
+    ],
+    "key": "/works/OL5755326W",
+    "title": "Object thinking",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1400309A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      461499
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-14T19:33:34.431498"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-19T23:35:15.973589"
+    }
+  }
+}

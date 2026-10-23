@@ -1,0 +1,107 @@
+{
+  "mention": "Killer on the Road — Ginger Strand",
+  "url": "https://openlibrary.org/search.json?title=Killer%20on%20the%20Road&author=Ginger%20Strand&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:38.501Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ginger Strand"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2012,
+        "isbn": [
+          "9780292744561",
+          "029274210X",
+          "9780292742109",
+          "0292757522",
+          "0292744560",
+          "9780292757523"
+        ],
+        "key": "/works/OL21519160W",
+        "language": [
+          "eng"
+        ],
+        "title": "Killer on the Road",
+        "ratings_average": 5,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Ginger Gail Strand"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2012,
+        "isbn": [
+          "0292726376",
+          "9780292726376"
+        ],
+        "key": "/works/OL16176381W",
+        "language": [
+          "eng"
+        ],
+        "title": "Killer on the road"
+      }
+    ]
+  },
+  "work": {
+    "title": "Killer on the Road",
+    "subjects": [
+      "United states, social conditions, 1945-",
+      "Automobile travel",
+      "Express highways",
+      "Violence",
+      "Murderers",
+      "Murder, united states",
+      "New York Times reviewed"
+    ],
+    "key": "/works/OL21519160W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2820557A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "links": [
+      {
+        "url": "http://www.nytimes.com/2012/09/05/books/killer-on-the-road-by-ginger-strand.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      },
+      {
+        "url": "http://www.nytimes.com/2012/09/09/books/review/killer-on-the-road-by-ginger-strand.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-23T00:32:23.623132"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-08-07T00:00:09.492398"
+    }
+  }
+}

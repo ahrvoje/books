@@ -1,0 +1,334 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22Dirac%22%20AND%20author%3A%22kragh%22)%20OR%20(title%3A%22The%20Essential%20Drucker%22%20AND%20author%3A%22drucker%22)%20OR%20(title%3A%22The%20History%20of%20Mathematical%20Proof%20in%20Ancient%20Traditions%22%20AND%20author%3A%22chemla%22)%20OR%20(title%3A%22The%20Beauty%20of%20Numbers%20in%20Nature%22%20AND%20author%3A%22stewart%22)%20OR%20(title%3A%22History%20of%20Programming%20Languages%22%20AND%20author%3A%22wexelblat%22)%20OR%20(title%3A%22Mathematics%22%20AND%20author%3A%22gowers%22)%20OR%20(title%3A%22Perfect%20Software%22%20AND%20author%3A%22weinberg%22)%20OR%20(title%3A%22The%20Clock%20of%20the%20Long%20Now%22%20AND%20author%3A%22brand%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T07:57:30.578Z",
+    "file": "data/metadata_261023/raw/library-9c4da38d96d1334e.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 18,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 18,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"Dirac\" AND author:\"kragh\") OR (title:\"The Essential Drucker\" AND author:\"drucker\") OR (title:\"The History of Mathematical Proof in Ancient Traditions\" AND author:\"chemla\") OR (title:\"The Beauty of Numbers in Nature\" AND author:\"stewart\") OR (title:\"History of Programming Languages\" AND author:\"wexelblat\") OR (title:\"Mathematics\" AND author:\"gowers\") OR (title:\"Perfect Software\" AND author:\"weinberg\") OR (title:\"The Clock of the Long Now\" AND author:\"brand\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Stewart Brand"
+        ],
+        "edition_key": [
+          "OL48132260M",
+          "OL7593119M",
+          "OL103877M",
+          "OL48127598M",
+          "OL7588794M"
+        ],
+        "isbn": [
+          "9780465007806",
+          "9780613246156",
+          "9780465045129",
+          "9780753810125",
+          "9780297642992",
+          "0297642995",
+          "0613246152",
+          "0465007805",
+          "0753810123",
+          "046504512X"
+        ],
+        "key": "/works/OL823145W",
+        "title": "The Clock of the Long Now"
+      },
+      {
+        "author_name": [
+          "Peter F. Drucker"
+        ],
+        "edition_key": [
+          "OL3967829M",
+          "OL24262241M"
+        ],
+        "isbn": [
+          "9780060771324",
+          "0061793620",
+          "0060771321",
+          "0066210879",
+          "9780061793622",
+          "9780066210872",
+          "0060010541",
+          "9780060010546"
+        ],
+        "key": "/works/OL2721793W",
+        "title": "The essential Drucker"
+      },
+      {
+        "author_name": [
+          "Peter F. Drucker"
+        ],
+        "edition_key": [
+          "OL9239993M",
+          "OL9244701M",
+          "OL7289996M",
+          "OL11636583M",
+          "OL7285286M"
+        ],
+        "isbn": [
+          "006093574X",
+          "9780060935740",
+          "9781402502408",
+          "9780061345012",
+          "1402502400",
+          "0061345016"
+        ],
+        "key": "/works/OL274333W",
+        "title": "The Essential Drucker"
+      },
+      {
+        "author_name": [
+          "Timothy Gowers"
+        ],
+        "edition_key": [
+          "OL35601363M",
+          "OL7384524M",
+          "OL37307250M",
+          "OL10146631M",
+          "OL23909360M",
+          "OL24488410M"
+        ],
+        "isbn": [
+          "0192853619",
+          "9789752984929",
+          "9789776263154",
+          "0199504687",
+          "9780199504688",
+          "9781402768972",
+          "9776263151",
+          "1402768974",
+          "9780192853615",
+          "9752984924"
+        ],
+        "key": "/works/OL7999772W",
+        "title": "Mathematics"
+      },
+      {
+        "author_name": [
+          "Timothy Gowers"
+        ],
+        "edition_key": [
+          "OL25921652M",
+          "OL11182845M",
+          "OL19327100M",
+          "OL29191722M",
+          "OL25424888M"
+        ],
+        "isbn": [
+          "0691118809",
+          "9781849726955",
+          "9780691118802",
+          "1849726957",
+          "9781400830398",
+          "1400830397",
+          "1282767194",
+          "9781282767195"
+        ],
+        "key": "/works/OL16802291W",
+        "title": "The Princeton Companion to Mathematics"
+      },
+      {
+        "author_name": [
+          "Ian Stewart"
+        ],
+        "edition_key": [
+          "OL26932097M",
+          "OL33023010M"
+        ],
+        "isbn": [
+          "0262534282",
+          "1782404716",
+          "9781782404712",
+          "9780262534284"
+        ],
+        "key": "/works/OL19718966W",
+        "title": "The beauty of numbers in nature"
+      },
+      {
+        "author_name": [
+          "Gerald M. Weinberg"
+        ],
+        "edition_key": [
+          "OL24630264M"
+        ],
+        "isbn": [
+          "1452318611",
+          "9781452318615"
+        ],
+        "key": "/works/OL15706713W",
+        "title": "Perfect Software and Other Illusions About Testing"
+      },
+      {
+        "author_name": [
+          "Gerald M. Weinberg"
+        ],
+        "edition_key": [
+          "OL16928391M"
+        ],
+        "isbn": [
+          "0932633692",
+          "9780932633699"
+        ],
+        "key": "/works/OL1958808W",
+        "title": "Perfect software--and other illusions about testing"
+      },
+      {
+        "author_name": [
+          "Helge Kragh"
+        ],
+        "edition_key": [
+          "OL7713437M",
+          "OL7738813M",
+          "OL2197532M"
+        ],
+        "isbn": [
+          "0521380898",
+          "0521017564",
+          "9780521017565",
+          "9780521380898"
+        ],
+        "key": "/works/OL73932W",
+        "title": "Dirac"
+      },
+      {
+        "author_name": [
+          "Richard L. Wexelblat"
+        ],
+        "edition_key": [
+          "OL40440906M"
+        ],
+        "isbn": [
+          "9781483266169",
+          "1483266168"
+        ],
+        "key": "/works/OL29401761W",
+        "title": "History of Programming Languages"
+      },
+      {
+        "author_name": [
+          "Helge Kragh"
+        ],
+        "edition_key": [
+          "OL30587124M",
+          "OL37250008M",
+          "OL27943648M"
+        ],
+        "isbn": [
+          "9783319243771",
+          "9783319243795",
+          "9783319796154",
+          "3319796151",
+          "3319243799",
+          "3319243772"
+        ],
+        "key": "/works/OL20664307W",
+        "title": "Varying Gravity"
+      },
+      {
+        "author_name": [
+          "Helge Kragh"
+        ],
+        "edition_key": [
+          "OL57560037M"
+        ],
+        "isbn": [
+          "1943657009",
+          "9781943657001"
+        ],
+        "key": "/works/OL42420520W",
+        "title": "Simply Dirac"
+      },
+      {
+        "author_name": [
+          "Peter F. Drucker"
+        ],
+        "edition_key": [
+          "OL12956091M"
+        ],
+        "isbn": [
+          "9789500722261",
+          "9500722267"
+        ],
+        "key": "/works/OL15014249W",
+        "title": "Escritos Fundamentales / The Essential Drucker"
+      },
+      {
+        "author_name": [
+          "Helge Kragh"
+        ],
+        "edition_key": [
+          "OL45314197M"
+        ],
+        "isbn": [
+          "9787535755643",
+          "753575564X"
+        ],
+        "key": "/works/OL33405128W",
+        "title": "Di la ke"
+      },
+      {
+        "author_name": [
+          "Timothy Gowers"
+        ],
+        "edition_key": [
+          "OL44241049M"
+        ],
+        "isbn": [
+          "9781402782169",
+          "1402782160"
+        ],
+        "key": "/works/OL32460545W",
+        "title": "Mathematics"
+      },
+      {
+        "author_name": [
+          "Peter F. Drucker"
+        ],
+        "edition_key": [
+          "OL35946482M"
+        ],
+        "isbn": [
+          "9780062378569",
+          "0062378562"
+        ],
+        "key": "/works/OL26560753W",
+        "title": "Peter Drucker Collection on Becoming an Effective Executive"
+      },
+      {
+        "author_name": [
+          "Peter F. Drucker"
+        ],
+        "edition_key": [
+          "OL56920518M"
+        ],
+        "isbn": [
+          "9784478300619",
+          "4478300615"
+        ],
+        "key": "/works/OL41916570W",
+        "title": "チェンジ・リーダーの条件"
+      },
+      {
+        "author_name": [
+          "Timothy Gowers"
+        ],
+        "edition_key": [
+          "OL55002831M"
+        ],
+        "isbn": [
+          "9655110842",
+          "9789655110845"
+        ],
+        "key": "/works/OL40446744W",
+        "title": "מתמטיקה"
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "mention": "The Man Who Discovered Quality",
+  "url": "https://openlibrary.org/search.json?title=The%20Man%20Who%20Discovered%20Quality&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:23.118Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Andrea Gabor"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 1990,
+        "isbn": [
+          "9780812917741",
+          "9780140165289",
+          "081291774X",
+          "0140165282"
+        ],
+        "key": "/works/OL3742211W",
+        "language": [
+          "eng"
+        ],
+        "title": "The man who discovered quality",
+        "ratings_average": 3.5,
+        "ratings_count": 2
+      }
+    ]
+  },
+  "work": {
+    "title": "The man who discovered quality",
+    "covers": [
+      4095216
+    ],
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Deming, W. Edwards (William Edwards), 1900-",
+      "Quality control",
+      "United States",
+      "Capitalists and financiers"
+    ],
+    "subject_people": [
+      "W. Edwards Deming (1900-)"
+    ],
+    "key": "/works/OL3742211W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL656809A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "Charismatic inventor of the Fourteen Point philosophy for quality, W. Edwards Deming took his techniques to Japan, where they were readily adopted and credited for that country's economic triumph. Here Gabor explores the development of \"quality\" as a management science, from the United States to Japan and back again."
+    },
+    "latest_revision": 9,
+    "revision": 9,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T04:21:54.164421"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-02-24T16:01:54.401819"
+    }
+  }
+}

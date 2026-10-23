@@ -1,0 +1,77 @@
+{
+  "mention": "Stan Veit's History of the Personal Computer",
+  "url": "https://openlibrary.org/search.json?title=Stan%20Veit's%20History%20of%20the%20Personal%20Computer&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:27.774Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Stanley Veit"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1993,
+        "isbn": [
+          "156664030X",
+          "9781566640305"
+        ],
+        "key": "/works/OL3963180W",
+        "language": [
+          "eng"
+        ],
+        "title": "Stan Veit's history of the personal computer"
+      },
+      {
+        "edition_count": 1,
+        "first_publish_year": 1993,
+        "isbn": [
+          "1566640237",
+          "9781566640237"
+        ],
+        "key": "/works/OL19638080W",
+        "title": "Stan Veit's History of the Personal Computer"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T04:57:55.044865"
+    },
+    "subjects": [
+      "History",
+      "Microcomputers"
+    ],
+    "latest_revision": 3,
+    "key": "/works/OL3963180W",
+    "title": "Stan Veit's history of the personal computer",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL723957A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-12-04T11:43:03.490146"
+    },
+    "covers": [
+      807869
+    ],
+    "revision": 3
+  }
+}

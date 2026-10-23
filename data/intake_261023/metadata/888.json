@@ -1,0 +1,84 @@
+{
+  "mention": "Out of the Crystal Maze",
+  "url": "https://openlibrary.org/search.json?title=Out%20of%20the%20Crystal%20Maze&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:56:50.768Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Lillian Hoddeson"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 1992,
+        "isbn": [
+          "9780195053296",
+          "0195345320",
+          "9781280440311",
+          "9780195345322",
+          "1280440317",
+          "019505329X"
+        ],
+        "key": "/works/OL19196040W",
+        "language": [
+          "eng"
+        ],
+        "title": "Out of the crystal maze"
+      },
+      {
+        "edition_count": 1,
+        "first_publish_year": 1992,
+        "isbn": [
+          "019505329X",
+          "9780195053296"
+        ],
+        "key": "/works/OL16976789W",
+        "language": [
+          "eng"
+        ],
+        "title": "Out of the crystal maze"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-03-11T12:38:41.426875"
+    },
+    "subjects": [
+      "Solid state physics",
+      "History"
+    ],
+    "latest_revision": 1,
+    "key": "/works/OL19196040W",
+    "title": "Out of the crystal maze",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2685377A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2019-03-11T12:38:41.426875"
+    },
+    "covers": [
+      1124286
+    ],
+    "revision": 1
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "mention": "CLR via C#",
+  "url": "https://openlibrary.org/search.json?title=CLR%20via%20C%23&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:00.140Z",
+  "status": 200,
+  "search": {
+    "numFound": 6,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 6,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jeffrey Richter"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2010,
+        "isbn": [
+          "9780735668768",
+          "0735667454",
+          "9780735667457",
+          "0735668779",
+          "9780735668775",
+          "0735668760"
+        ],
+        "key": "/works/OL19835016W",
+        "language": [
+          "eng"
+        ],
+        "title": "CLR via C#",
+        "ratings_average": 5,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Jeffrey Richter"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2010,
+        "isbn": [
+          "0735627045",
+          "9780735627048"
+        ],
+        "key": "/works/OL16237767W",
+        "language": [
+          "eng"
+        ],
+        "title": "CLR via C#",
+        "ratings_average": 5,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Jeffrey Richter"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2006,
+        "isbn": [
+          "9780735621633",
+          "0735621632"
+        ],
+        "key": "/works/OL2935793W",
+        "language": [
+          "eng"
+        ],
+        "title": "CLR via C#"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "C plus plus (computer program language)",
+      "Microsoft .net",
+      "Compiling (electronic computers)",
+      "Computer programming",
+      "C# (Computer program language)",
+      "Microsoft .NET Framework",
+      "Internet programming",
+      "Object-oriented programming (Computer science)"
+    ],
+    "key": "/works/OL19835016W",
+    "title": "CLR via C#",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL447592A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8629217
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-06-29T03:12:51.999042"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-09-06T23:56:37.074992"
+    }
+  }
+}

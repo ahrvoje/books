@@ -1,0 +1,167 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22The%20Origins%20of%20Efficiency%22%20AND%20author%3A%22potter%22)%20OR%20(title%3A%22Liftoff%22%20AND%20author%3A%22berger%22)%20OR%20(title%3A%22The%20Thinking%20Machine%22%20AND%20author%3A%22witt%22)%20OR%20(title%3A%22Reentry%22%20AND%20author%3A%22berger%22)%20OR%20(title%3A%22How%20Music%20Got%20Free%22%20AND%20author%3A%22witt%22)%20OR%20(title%3A%22Your%20Life%20Is%20Manufactured%22%20AND%20author%3A%22minshall%22)%20OR%20(title%3A%22Working%20in%20Public%22%20AND%20author%3A%22eghbal%22)%20OR%20(title%3A%22From%20Airline%20Reservations%20to%20Sonic%20the%20Hedgehog%22%20AND%20author%3A%22kelly%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T07:53:49.848Z",
+    "file": "data/metadata_261023/raw/library-3835d8821b3b3359.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 6,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 6,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"The Origins of Efficiency\" AND author:\"potter\") OR (title:\"Liftoff\" AND author:\"berger\") OR (title:\"The Thinking Machine\" AND author:\"witt\") OR (title:\"Reentry\" AND author:\"berger\") OR (title:\"How Music Got Free\" AND author:\"witt\") OR (title:\"Your Life Is Manufactured\" AND author:\"minshall\") OR (title:\"Working in Public\" AND author:\"eghbal\") OR (title:\"From Airline Reservations to Sonic the Hedgehog\" AND author:\"kelly\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Stephen Witt"
+        ],
+        "edition_key": [
+          "OL27220028M",
+          "OL51724231M",
+          "OL35640911M",
+          "OL35397856M",
+          "OL34513096M",
+          "OL27220027M",
+          "OL25691862M",
+          "OL27511182M",
+          "OL43521308M",
+          "OL26840176M"
+        ],
+        "isbn": [
+          "9781847923363",
+          "0525426612",
+          "9780143109341",
+          "9780698152526",
+          "1847923364",
+          "9780525426615",
+          "6056956156",
+          "1847922821",
+          "0143109340",
+          "9780099590071",
+          "9786056956157",
+          "9781847922823",
+          "9788494403378",
+          "0698152522",
+          "9781448190676",
+          "8494403370",
+          "1448190673",
+          "9791027800889",
+          "0099590077"
+        ],
+        "key": "/works/OL17121207W",
+        "title": "How Music Got Free"
+      },
+      {
+        "author_name": [
+          "Martin Campbell-Kelly"
+        ],
+        "edition_key": [
+          "OL9586457M",
+          "OL9756920M",
+          "OL26494203M"
+        ],
+        "isbn": [
+          "9780262033039",
+          "9780262532624",
+          "026253262X",
+          "0262033038"
+        ],
+        "key": "/works/OL3234694W",
+        "title": "From Airline Reservations to Sonic the Hedgehog"
+      },
+      {
+        "author_name": [
+          "Eric Berger"
+        ],
+        "edition_key": [
+          "OL32869872M",
+          "OL33918512M",
+          "OL36748848M",
+          "OL32375357M",
+          "OL29859016M",
+          "OL32307535M",
+          "OL32006506M",
+          "OL35863676M",
+          "OL29942794M",
+          "OL32375356M"
+        ],
+        "isbn": [
+          "006297999X",
+          "9781799948919",
+          "0062979973",
+          "9780008445621",
+          "9780062979988",
+          "9780062979971",
+          "0008445664",
+          "0062979981",
+          "9780008445638",
+          "0008445648",
+          "1799948919",
+          "0008445621",
+          "000844563X",
+          "9780008445669",
+          "9780062979995",
+          "1799948900",
+          "9781799948902",
+          "9780008445645"
+        ],
+        "key": "/works/OL21893953W",
+        "title": "Liftoff"
+      },
+      {
+        "author_name": [
+          "Martin Campbell-Kelly"
+        ],
+        "edition_key": [
+          "OL29561295M",
+          "OL29593454M",
+          "OL53279837M"
+        ],
+        "isbn": [
+          "0585444846",
+          "9780262269797",
+          "9780585444840",
+          "0262269791",
+          "0262250276",
+          "9780262250276"
+        ],
+        "key": "/works/OL21724258W",
+        "title": "From Airline Reservations to Sonic the Hedgehog"
+      },
+      {
+        "author_name": [
+          "Tim Minshall"
+        ],
+        "edition_key": [
+          "OL57550358M",
+          "OL57516669M"
+        ],
+        "isbn": [
+          "9780571381029",
+          "0571381014",
+          "9780571381012",
+          "0571381022"
+        ],
+        "key": "/works/OL42393581W",
+        "title": "Your Life Is Manufactured"
+      },
+      {
+        "author_name": [
+          "Eric Berger"
+        ],
+        "edition_key": [
+          "OL50554881M"
+        ],
+        "isbn": [
+          "1637745273",
+          "9781637745274"
+        ],
+        "key": "/works/OL37529642W",
+        "title": "Reentry"
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "mention": "Software Craftsmanship — Pete McBreen",
+  "url": "https://openlibrary.org/search.json?title=Software%20Craftsmanship&author=Pete%20McBreen&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:11.117Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Pete McBreen"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2001,
+        "isbn": [
+          "0201733862",
+          "9780201733860"
+        ],
+        "key": "/works/OL8021839W",
+        "language": [
+          "eng"
+        ],
+        "title": "Software Craftsmanship"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:18:33.504628"
+    },
+    "subjects": [
+      "Development",
+      "Computer software",
+      "Computer software, development"
+    ],
+    "latest_revision": 10,
+    "key": "/works/OL8021839W",
+    "title": "Software Craftsmanship",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2671040A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-19T02:45:09.214631"
+    },
+    "covers": [
+      136075
+    ],
+    "revision": 10
+  }
+}

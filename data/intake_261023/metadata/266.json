@@ -1,0 +1,100 @@
+{
+  "mention": "Strapless — Deborah Davis",
+  "url": "https://openlibrary.org/search.json?title=Strapless&author=Deborah%20Davis&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:50:07.781Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Deborah Davis",
+          "Davis, Deborah"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2003,
+        "isbn": [
+          "9781585422210",
+          "158542336X",
+          "9781585423361",
+          "9780750937061",
+          "0750937068",
+          "1585422215"
+        ],
+        "key": "/works/OL3949625W",
+        "language": [
+          "eng"
+        ],
+        "title": "Strapless"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Painters",
+      "Artists' models",
+      "Americans",
+      "Biography",
+      "History",
+      "New York Times reviewed",
+      "Madame X (Sargent, John Singer)",
+      "Painters, united states",
+      "Sargent, john singer, 1856-1925",
+      "Artists' models, biography",
+      "Americans, france",
+      "Paris (france), intellectual life",
+      "Artists, biography"
+    ],
+    "key": "/works/OL3949625W",
+    "title": "Strapless",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL720518A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1429932A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      850173
+    ],
+    "links": [
+      {
+        "url": "http://www.nytimes.com/2003/09/28/books/white-shoulders.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 10,
+    "revision": 10,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T04:55:52.868350"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-17T13:47:02.415870"
+    }
+  }
+}

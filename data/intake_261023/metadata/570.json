@@ -1,0 +1,87 @@
+{
+  "mention": "From Whitewashed Stairs to Heaven",
+  "url": "https://openlibrary.org/search.json?title=From%20Whitewashed%20Stairs%20to%20Heaven&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:25.129Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Maureen McKenna",
+          "Irene Howat"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2003,
+        "isbn": [
+          "9781857926163",
+          "1857926161"
+        ],
+        "key": "/works/OL20941458W",
+        "language": [
+          "eng"
+        ],
+        "title": "From whitewashed stairs to heaven"
+      }
+    ]
+  },
+  "work": {
+    "title": "From whitewashed stairs to heaven",
+    "covers": [
+      2058355
+    ],
+    "subject_places": [
+      "Scotland",
+      "Glasgow"
+    ],
+    "subjects": [
+      "Christian biography",
+      "Christian life",
+      "Social service",
+      "Christianity",
+      "Women, biography",
+      "Christian women"
+    ],
+    "subject_people": [
+      "Maureen McKenna"
+    ],
+    "key": "/works/OL20941458W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3161573A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2879910A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-07-25T04:51:01.341274"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-10-04T06:32:10.455812"
+    }
+  }
+}

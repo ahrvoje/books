@@ -1,0 +1,90 @@
+{
+  "mention": "Free Will — Sam Harris",
+  "url": "https://openlibrary.org/search.json?title=Free%20Will&author=Sam%20Harris&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:52:14.100Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Sam Harris"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2012,
+        "isbn": [
+          "1451683405",
+          "9781451683400"
+        ],
+        "key": "/works/OL16451681W",
+        "language": [
+          "eng"
+        ],
+        "title": "Free will",
+        "ratings_average": 3.5238094,
+        "ratings_count": 21
+      },
+      {
+        "author_name": [
+          "Sam Harris"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2012,
+        "isbn": [
+          "1451683472",
+          "9781451683479"
+        ],
+        "key": "/works/OL21483597W",
+        "language": [
+          "eng"
+        ],
+        "title": "Free Will"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "[Free Will][1] is a 2012 book by the American author and neuroscientist Sam Harris. Harris argues that the truth about the human mind (that free will is an illusion) does not undermine morality or diminish the importance of political and social freedom, and can as well as should change the way we think about some of the most important questions in life.\r\n\r\n\r\n  [1]: https://en.wikipedia.org/wiki/Free_Will_(book)"
+    },
+    "covers": [
+      7941299
+    ],
+    "key": "/works/OL16451681W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL709883A"
+        }
+      }
+    ],
+    "title": "Free will",
+    "subjects": [
+      "Free will and determinism",
+      "nyt:paperback-nonfiction=2012-03-25",
+      "New York Times bestseller"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2012-01-11T18:24:52.165051"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-08-06T01:15:00.194896"
+    }
+  }
+}

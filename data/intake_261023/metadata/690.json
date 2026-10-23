@@ -1,0 +1,142 @@
+{
+  "mention": "Structured Design",
+  "url": "https://openlibrary.org/search.json?title=Structured%20Design&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:42.780Z",
+  "status": 200,
+  "search": {
+    "numFound": 3751,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3751,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jack C. McCormac"
+        ],
+        "edition_count": 17,
+        "first_publish_year": 1965,
+        "isbn": [
+          "0273751352",
+          "9780273751359",
+          "9780060443467",
+          "9780065000603",
+          "9780130479594",
+          "9780134589657",
+          "9780132199919",
+          "0130479594",
+          "0065016270",
+          "9780137998821",
+          "0060443448",
+          "0134589653",
+          "0-352-08686-0",
+          "9780065016277",
+          "9780132218160",
+          "0065000609",
+          "0137998821",
+          "9780060443443",
+          "9780321009203",
+          "0060443464",
+          "0132199912",
+          "0321009207",
+          "013221816X"
+        ],
+        "key": "/works/OL1864861W",
+        "language": [
+          "eng"
+        ],
+        "title": "Structural Steel Design"
+      },
+      {
+        "author_name": [
+          "Arthur H. Nilson"
+        ],
+        "edition_count": 7,
+        "first_publish_year": 1991,
+        "isbn": [
+          "9780072483055",
+          "0071154256",
+          "9780073397948",
+          "0070465878",
+          "9780071008440",
+          "9780070465862",
+          "9780071154253",
+          "9780070465671",
+          "0073293490",
+          "0073397946",
+          "9780073293493",
+          "0070465673",
+          "9780070465879",
+          "0072483059",
+          "0071008446",
+          "007046586X"
+        ],
+        "key": "/works/OL3332768W",
+        "language": [
+          "eng"
+        ],
+        "title": "Design of concrete structures",
+        "ratings_average": 3,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Omer W. Blodgett"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 1966,
+        "key": "/works/OL147471W",
+        "language": [
+          "eng"
+        ],
+        "title": "Design of welded structures"
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      1072751
+    ],
+    "first_publish_date": "1965",
+    "key": "/works/OL1864861W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL223226A"
+        }
+      }
+    ],
+    "subjects": [
+      "Steel, Structural",
+      "Statics",
+      "Building, Iron and steel",
+      "Textbooks",
+      "Iron and steel Building",
+      "Structural Steel",
+      "Load factor design",
+      "Structural analysis (engineering)",
+      "Construcción de hierro y acero",
+      "Diseño estructural",
+      "Acero estructural"
+    ],
+    "title": "Structural Steel Design",
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 11,
+    "revision": 11,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:29:04.696546"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-07-23T15:12:59.566930"
+    }
+  }
+}

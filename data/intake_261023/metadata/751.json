@@ -1,0 +1,86 @@
+{
+  "mention": "Perl Best Practices",
+  "url": "https://openlibrary.org/search.json?title=Perl%20Best%20Practices&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:22.088Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Damian Conway"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2005,
+        "isbn": [
+          "9780596001735",
+          "0596516363",
+          "9780596516369",
+          "1306814960",
+          "9781306814966",
+          "0596001738"
+        ],
+        "key": "/works/OL8167301W",
+        "language": [
+          "eng"
+        ],
+        "title": "Perl Best Practices"
+      },
+      {
+        "author_name": [
+          "  Turoff"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2006,
+        "isbn": [
+          "9781558608252",
+          "1558608257"
+        ],
+        "key": "/works/OL39620245W",
+        "language": [
+          "eng"
+        ],
+        "title": "Best Practices in Perl"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Perl (Computer program language)"
+    ],
+    "key": "/works/OL8167301W",
+    "title": "Perl Best Practices",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2726800A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      388540
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:30:06.245443"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-02-05T12:27:31.178492"
+    }
+  }
+}

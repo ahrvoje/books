@@ -1,0 +1,88 @@
+{
+  "mention": "Graphics Programming Black Book",
+  "url": "https://openlibrary.org/search.json?title=Graphics%20Programming%20Black%20Book&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:58.764Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Michael Abrash"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1997,
+        "isbn": [
+          "9781576101742",
+          "1576101746"
+        ],
+        "key": "/works/OL2098178W",
+        "language": [
+          "eng"
+        ],
+        "title": "Michael Abrash's graphics programming black book"
+      }
+    ]
+  },
+  "work": {
+    "lc_classifications": [
+      "QA76.6 .A272 1997"
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-02-14T04:38:08.168538"
+    },
+    "title": "Michael Abrash's graphics programming black book",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:53:41.171454"
+    },
+    "covers": [
+      829834
+    ],
+    "first_sentence": {
+      "type": "/type/text",
+      "value": "What was it like working with John Carmack on Quake? Like being strapped onto a rocket during takeoff-in the middle of a hurricane."
+    },
+    "first_publish_date": "1997",
+    "latest_revision": 5,
+    "key": "/works/OL2098178W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL259100A"
+        }
+      }
+    ],
+    "excerpts": [
+      {
+        "excerpt": {
+          "type": "/type/text",
+          "value": "What was it like working with John Carmack on Quake? Like being strapped onto a rocket during takeoff-in the middle of a hurricane."
+        },
+        "page": "First sentence"
+      }
+    ],
+    "subjects": [
+      "Microcomputers",
+      "Computer graphics",
+      "Programming"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "dewey_number": [
+      "006.6/765"
+    ],
+    "revision": 5
+  }
+}

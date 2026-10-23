@@ -1,0 +1,88 @@
+{
+  "mention": "Why's Poignant Guide to Ruby",
+  "url": "https://openlibrary.org/search.json?title=Why's%20Poignant%20Guide%20to%20Ruby&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:47.126Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Why The Lucky Stiff"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2005,
+        "isbn": [
+          "9781838039509",
+          "1838039503",
+          "9781512212938",
+          "9781458392466",
+          "1512212938",
+          "1458392465"
+        ],
+        "key": "/works/OL22247013W",
+        "language": [
+          "eng"
+        ],
+        "title": "Why's (Poignant) Guide to Ruby"
+      },
+      {
+        "author_name": [
+          "Why the Lucky"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2014,
+        "isbn": [
+          "9781320132503",
+          "1320132502"
+        ],
+        "key": "/works/OL38249501W",
+        "language": [
+          "eng"
+        ],
+        "title": "Why's (poignant) Guide to Ruby"
+      }
+    ]
+  },
+  "work": {
+    "title": "Why's (Poignant) Guide to Ruby",
+    "key": "/works/OL22247013W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL8507995A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Ruby (computer program language)",
+      "Computer science"
+    ],
+    "covers": [
+      12458670,
+      12458660
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-09-17T18:10:45.358844"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-10-16T22:00:25.459952"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "mention": "The Gathering Storm — Winston Churchill",
+  "url": "https://openlibrary.org/search.json?title=The%20Gathering%20Storm&author=Winston%20Churchill&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:50:23.786Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Winston S. Churchill"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 1964,
+        "isbn": [
+          "9785557019590",
+          "5557019596",
+          "9051211619",
+          "5553679478",
+          "9785553679477",
+          "9789051211610"
+        ],
+        "key": "/works/OL39096879W",
+        "language": [
+          "eng",
+          "dut"
+        ],
+        "title": "The Gathering Storm"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The Gathering Storm",
+    "key": "/works/OL39096879W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL21970A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "description": "First half of the original *The Gathering Storm* book, sold as the first of 12-volume editions.",
+    "series": [
+      {
+        "series": {
+          "key": "/series/OL340112L"
+        },
+        "position": "1"
+      }
+    ],
+    "subtitle": "The Second World War, part 1",
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-08-16T01:08:23.065424"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-07-26T00:10:22.575508"
+    }
+  }
+}

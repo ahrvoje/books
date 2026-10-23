@@ -1,0 +1,90 @@
+{
+  "mention": "Latitude — Nicholas Crane",
+  "url": "https://openlibrary.org/search.json?title=Latitude&author=Nicholas%20Crane&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:08.853Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Nicholas Crane"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2021,
+        "isbn": [
+          "1643137964",
+          "0241478367",
+          "9780241478363",
+          "9781643137957",
+          "1643137956",
+          "9781405947343",
+          "1405947349",
+          "9781643137964"
+        ],
+        "key": "/works/OL25813659W",
+        "language": [
+          "eng"
+        ],
+        "title": "Latitude"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Latitude",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL269739A"
+        }
+      }
+    ],
+    "key": "/works/OL25813659W",
+    "subjects": [
+      "Latitude",
+      "Measurement",
+      "History",
+      "Scientific expeditions",
+      "Geodesy",
+      "Observations",
+      "Discoveries in science",
+      "Discoveries in geography",
+      "Discovery and exploration",
+      "Expéditions scientifiques",
+      "Histoire",
+      "Géodésie",
+      "Découvertes scientifiques",
+      "Découvertes géographiques",
+      "HISTORY",
+      "Expeditions & Discoveries",
+      "Civilization",
+      "TRANSPORTATION",
+      "Navigation"
+    ],
+    "covers": [
+      13814278
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-10-08T04:33:19.438189"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-04-03T14:45:29.341541"
+    }
+  }
+}

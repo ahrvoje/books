@@ -1,0 +1,105 @@
+{
+  "mention": "God's Clockmaker",
+  "url": "https://openlibrary.org/search.json?title=God's%20Clockmaker&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:50:42.161Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John North"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2006,
+        "isbn": [
+          "0826439624",
+          "1282709917",
+          "0826444741",
+          "9780826444745",
+          "9781282709911",
+          "9780826439628"
+        ],
+        "key": "/works/OL36020639W",
+        "language": [
+          "eng"
+        ],
+        "title": "God's Clockmaker"
+      },
+      {
+        "author_name": [
+          "John North"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2005,
+        "isbn": [
+          "9781852855710",
+          "9781852854515",
+          "1852854510",
+          "1852855711"
+        ],
+        "key": "/works/OL8061496W",
+        "language": [
+          "eng"
+        ],
+        "title": "God's Clockmaker"
+      },
+      {
+        "author_name": [
+          "JOHN DAVID NORTH"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2005,
+        "isbn": [
+          "9781852854515",
+          "1852854510"
+        ],
+        "key": "/works/OL13636484W",
+        "language": [
+          "und",
+          "eng"
+        ],
+        "title": "GOD'S CLOCKMAKER: RICHARD OF WALLINGFORD AND THE INVENTION OF TIME"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "God's Clockmaker",
+    "subjects": [
+      "Clock and watch makers",
+      "Astronomers",
+      "Time",
+      "Clock and watch making"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2684816A"
+        }
+      }
+    ],
+    "key": "/works/OL36020639W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2023-07-17T05:26:57.625691"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-07-17T05:26:57.625691"
+    }
+  }
+}

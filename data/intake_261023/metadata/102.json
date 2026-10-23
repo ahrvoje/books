@@ -1,0 +1,96 @@
+{
+  "mention": "Exponential — Azeem Azhar",
+  "url": "https://openlibrary.org/search.json?title=Exponential&author=Azeem%20Azhar&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:22.121Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Azeem Azhar"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2021,
+        "isbn": [
+          "1635768276",
+          "9781635769098",
+          "9781665078504",
+          "1635769094",
+          "1635769086",
+          "9781635768275",
+          "1665078502",
+          "9781635769081"
+        ],
+        "key": "/works/OL25014335W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Exponential Age"
+      },
+      {
+        "author_name": [
+          "Azeem Azhar"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2021,
+        "isbn": [
+          "184794292X",
+          "9781847942913",
+          "9781473578852",
+          "9781847942920",
+          "1847942903",
+          "1847942911",
+          "9781847942906",
+          "147357885X"
+        ],
+        "key": "/works/OL25268317W",
+        "language": [
+          "eng"
+        ],
+        "title": "Exponential"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The Exponential Age",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9423056A"
+        }
+      }
+    ],
+    "covers": [
+      11943847
+    ],
+    "key": "/works/OL25014335W",
+    "subjects": [
+      "Technology",
+      "Social aspects",
+      "Technology and civilization"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-09-11T00:37:23.742228"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-12T14:04:31.367245"
+    }
+  }
+}

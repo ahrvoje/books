@@ -1,0 +1,97 @@
+{
+  "mention": "Data Access Patterns",
+  "url": "https://openlibrary.org/search.json?title=Data%20Access%20Patterns&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:33.459Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Clifton Nock"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2003,
+        "isbn": [
+          "0131401572",
+          "9780131401570"
+        ],
+        "key": "/works/OL6036324W",
+        "language": [
+          "eng"
+        ],
+        "title": "Data Access Patterns"
+      },
+      {
+        "author_name": [
+          "Clifton Nock"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2008,
+        "isbn": [
+          "0321555627",
+          "9780321555625"
+        ],
+        "key": "/works/OL17558342W",
+        "title": "Data Access Patterns\r\n            \r\n                Software Patterns Paperback"
+      },
+      {
+        "author_name": [
+          "Juan Enriquez"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2002,
+        "key": "/works/OL39538011W",
+        "language": [
+          "eng"
+        ],
+        "title": "Genomic data access patterns as indicators of the diffusion of science and technology capability"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T18:24:56.766512"
+    },
+    "subjects": [
+      "Computer software",
+      "Development",
+      "Object-oriented programming (Computer science)",
+      "Relational databases",
+      "Software patterns",
+      "Computer storage devices",
+      "Memory management (computer science)"
+    ],
+    "latest_revision": 4,
+    "key": "/works/OL6036324W",
+    "title": "Data Access Patterns",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1517824A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-19T08:01:27.154262"
+    },
+    "covers": [
+      86912
+    ],
+    "revision": 4
+  }
+}

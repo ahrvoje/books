@@ -1,0 +1,91 @@
+{
+  "mention": "Professor Stewart's Hoard of Mathematical Treasures",
+  "url": "https://openlibrary.org/search.json?title=Professor%20Stewart's%20Hoard%20of%20Mathematical%20Treasures&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:55.084Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ian Stewart"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 2009,
+        "isbn": [
+          "9788537802700",
+          "0465021379",
+          "9780465021376",
+          "1846682924",
+          "9780465017751",
+          "9781846682926",
+          "9781847652621",
+          "8537802700",
+          "9781846683466",
+          "184765262X",
+          "0465017754",
+          "3498064150",
+          "9783498064150",
+          "1846683467"
+        ],
+        "key": "/works/OL16121440W",
+        "language": [
+          "por",
+          "eng",
+          "ger"
+        ],
+        "title": "Professor Stewart's hoard of mathematical treasures"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Miscellanea",
+      "Mathematics",
+      "Mathematical recreations",
+      "Mathematics, miscellanea"
+    ],
+    "key": "/works/OL16121440W",
+    "title": "Professor Stewart's hoard of mathematical treasures",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL22342A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      9431115,
+      10310246,
+      10456543,
+      8392669,
+      12370025
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Ian Stewart, author of the bestselling Professor Stewart's Cabinet of Mathematical Curiosities, presents a new and magical mix of games, puzzles, paradoxes, brainteasers, and riddles."
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-10-20T12:03:42.751987"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-04-01T15:32:12.567814"
+    }
+  }
+}

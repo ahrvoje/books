@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import {buildDataset} from '../../site/build.mjs';
+const dir='data/metadata_261023/';
+const data=buildDataset(), books=data.books.sort((a,b)=>b.base-a.base||a.id.localeCompare(b.id));
+const targets={created:new Date().toISOString(),ranking:'Current repository score before this metadata update; separate fixed top-200 missing lists.',pages:books.filter(b=>b.values.PG===null).slice(0,200).map(b=>b.id),ratings:books.filter(b=>b.values.O15===null).slice(0,200).map(b=>b.id),references:books.filter(b=>b.values.RP===null).slice(0,200).map(b=>b.id)};
+const ids=new Set([...targets.pages,...targets.ratings,...targets.references]);
+targets.books=books.filter(b=>ids.has(b.id)).map(({id,title,author,base,purchaseUrl,edition,amazon,referencePages})=>({id,title,author,score:base,purchaseUrl,edition,amazon,referencePages}));
+targets.coverage={books:books.length,pages:books.filter(b=>b.values.PG!==null).length,ratings:books.filter(b=>b.values.O15!==null).length,references:books.filter(b=>b.values.RP!==null).length};
+fs.writeFileSync(dir+'targets.json',JSON.stringify(targets,null,2)+'\n');
+fs.writeFileSync(dir+'links.json',JSON.stringify(books.map(({id,title,author,purchaseUrl,edition,amazon})=>({id,title,author,purchaseUrl,edition,amazon})),null,2)+'\n');
+console.log(targets.coverage,'Distinct targets',ids.size);
+for(const field of ['pages','ratings','references'])console.log(field,targets[field].length,targets[field].slice(0,20).map(id=>{const b=books.find(b=>b.id===id);return [id,b.title,b.author,b.base]}));

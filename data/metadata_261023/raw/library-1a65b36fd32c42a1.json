@@ -1,0 +1,422 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22UNIX%22%20AND%20author%3A%22kernighan%22)%20OR%20(title%3A%22The%20Right%20Kind%20of%20Crazy%22%20AND%20author%3A%22steltzner%22)%20OR%20(title%3A%22The%20Sporty%20Game%22%20AND%20author%3A%22newhouse%22)%20OR%20(title%3A%22Sweating%20Bullets%22%20AND%20author%3A%22gaskins%22)%20OR%20(title%3A%22The%20Code%22%20AND%20author%3A%22mara%22)%20OR%20(title%3A%22Technological%20Revolutions%20and%20Financial%20Capital%22%20AND%20author%3A%22perez%22)%20OR%20(title%3A%22Changing%20How%20the%20World%20Does%20Business%22%20AND%20author%3A%22frock%22)%20OR%20(title%3A%22Frostbite%22%20AND%20author%3A%22twilley%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T07:55:17.002Z",
+    "file": "data/metadata_261023/raw/library-1a65b36fd32c42a1.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 17,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 17,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"UNIX\" AND author:\"kernighan\") OR (title:\"The Right Kind of Crazy\" AND author:\"steltzner\") OR (title:\"The Sporty Game\" AND author:\"newhouse\") OR (title:\"Sweating Bullets\" AND author:\"gaskins\") OR (title:\"The Code\" AND author:\"mara\") OR (title:\"Technological Revolutions and Financial Capital\" AND author:\"perez\") OR (title:\"Changing How the World Does Business\" AND author:\"frock\") OR (title:\"Frostbite\" AND author:\"twilley\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Brian W. Kernighan",
+          "Dennis MacAlistair Ritchie"
+        ],
+        "edition_key": [
+          "OL9158856M",
+          "OL56511026M",
+          "OL47327320M",
+          "OL50500751M",
+          "OL47480870M",
+          "OL46705715M",
+          "OL42565347M",
+          "OL42576762M",
+          "OL42550022M",
+          "OL42527102M",
+          "OL42542904M",
+          "OL40348673M",
+          "OL40342728M",
+          "OL39809191M",
+          "OL34525948M",
+          "OL35572276M",
+          "OL32873408M",
+          "OL31881234M",
+          "OL27103089M",
+          "OL26998906M",
+          "OL25571269M",
+          "OL25566939M",
+          "OL9036293M",
+          "OL10075294M",
+          "OL9177883M",
+          "OL9036303M",
+          "OL10079990M",
+          "OL10085827M",
+          "OL24235177M",
+          "OL24505864M",
+          "OL24194262M",
+          "OL10080213M",
+          "OL12856818M",
+          "OL21056987M",
+          "OL20053207M",
+          "OL21972769M",
+          "OL8862396M",
+          "OL10080494M",
+          "OL10080015M",
+          "OL7335009M",
+          "OL9289662M",
+          "OL29431047M",
+          "OL24604598M",
+          "OL27325852M",
+          "OL9704155M",
+          "OL27325854M",
+          "OL4558528M",
+          "OL18213724M",
+          "OL21520937M",
+          "OL2030445M"
+        ],
+        "isbn": [
+          "9780131107502",
+          "0133086232",
+          "9780131103306",
+          "8570015860",
+          "0130282774",
+          "9780131107687",
+          "9789332549449",
+          "013110859X",
+          "9780133086232",
+          "0131148699",
+          "3446159460",
+          "9782225830358",
+          "2225820708",
+          "2100051164",
+          "9788320433562",
+          "1548817708",
+          "9780131103702",
+          "9780131108592",
+          "5279004731",
+          "9780131193710",
+          "2225800685",
+          "9332549443",
+          "9789688802052",
+          "9788320429794",
+          "0131103709",
+          "9788131704943",
+          "9789197029643",
+          "9780876925966",
+          "9798759820611",
+          "9197029645",
+          "9783446154971",
+          "9798468216194",
+          "9798477772476",
+          "9782100715770",
+          "0876924062",
+          "9780131101630",
+          "9785279004737",
+          "0131175327",
+          "2100715771",
+          "9780131148697",
+          "9798473390988",
+          "9782225820700",
+          "8320427193",
+          "8993712670",
+          "3446154973",
+          "9788993712674",
+          "9780876924068",
+          "9780133086218",
+          "9688802050",
+          "0131099507",
+          "9780130282774",
+          "0131158171",
+          "013110750X",
+          "8131704947",
+          "9788320427196",
+          "0131103628",
+          "8320433568",
+          "9783446159464",
+          "9798477795994",
+          "2225830355",
+          "7111128060",
+          "0131193716",
+          "9781548817701",
+          "0133086216",
+          "9782100051168",
+          "9787111128069",
+          "9780131175327",
+          "9798473424911",
+          "9780131103627",
+          "9780132583039",
+          "0131107682",
+          "0132583038",
+          "0131101633",
+          "9780131158177",
+          "9780131099845",
+          "0131099841",
+          "9788570015860",
+          "9780131099500",
+          "9782225800689",
+          "0876925964",
+          "832042979X",
+          "013110330X"
+        ],
+        "key": "/works/OL4617640W",
+        "title": "The C Programming Language"
+      },
+      {
+        "author_name": [
+          "Carlota Perez"
+        ],
+        "edition_key": [
+          "OL8916362M",
+          "OL8949952M"
+        ],
+        "isbn": [
+          "9781843763314",
+          "9781840649222",
+          "1840649224",
+          "1843763311"
+        ],
+        "key": "/works/OL224128W",
+        "title": "Technological Revolutions and Financial Capital"
+      },
+      {
+        "author_name": [
+          "Brian W. Kernighan"
+        ],
+        "edition_key": [
+          "OL28401909M",
+          "OL36619130M"
+        ],
+        "isbn": [
+          "1695978552",
+          "9785446116690",
+          "5446116690",
+          "9781695978553"
+        ],
+        "key": "/works/OL20966130W",
+        "title": "UNIX"
+      },
+      {
+        "author_name": [
+          "Roger Frock"
+        ],
+        "edition_key": [
+          "OL44280139M",
+          "OL44126823M",
+          "OL37959477M",
+          "OL35485017M",
+          "OL35462580M",
+          "OL8748640M"
+        ],
+        "isbn": [
+          "9781282300408",
+          "9781576754139",
+          "1442964774",
+          "9780369304261",
+          "9781442964778",
+          "1282300407",
+          "1609943295",
+          "9781576758809",
+          "157675880X",
+          "9781609943295",
+          "1576754138",
+          "0369304268"
+        ],
+        "key": "/works/OL8925539W",
+        "title": "Changing How the World Does Business"
+      },
+      {
+        "author_name": [
+          "Brian W. Kernighan"
+        ],
+        "edition_key": [
+          "OL3191213M"
+        ],
+        "isbn": [
+          "0139376992",
+          "9780139376993",
+          "013937681X",
+          "9780139376818"
+        ],
+        "key": "/works/OL4617636W",
+        "title": "The UNIX programming environment"
+      },
+      {
+        "author_name": [
+          "Adam Steltzner"
+        ],
+        "edition_key": [
+          "OL27205534M"
+        ],
+        "isbn": [
+          "9781591846925",
+          "1591846927"
+        ],
+        "key": "/works/OL20025484W",
+        "title": "The right kind of crazy"
+      },
+      {
+        "author_name": [
+          "Robert Gaskins"
+        ],
+        "edition_key": [
+          "OL25444884M",
+          "OL25326268M",
+          "OL25444885M",
+          "OL25418569M",
+          "OL25293481M"
+        ],
+        "isbn": [
+          "978-9851424-2-1",
+          "9780985142438",
+          "0985142413",
+          "9780985142445",
+          "0985142405",
+          "0-9851424-4–8",
+          "9780985142407",
+          "0985142448",
+          "0-9851424-3–X",
+          "098514243X",
+          "9780985142421",
+          "9780985142414",
+          "0985142421"
+        ],
+        "key": "/works/OL16610307W",
+        "title": "Sweating Bullets"
+      },
+      {
+        "author_name": [
+          "John Newhouse"
+        ],
+        "edition_key": [
+          "OL3785734M"
+        ],
+        "isbn": [
+          "9780394514475",
+          "0394514475"
+        ],
+        "key": "/works/OL2625941W",
+        "title": "The sporty game"
+      },
+      {
+        "author_name": [
+          "Nicola Twilley"
+        ],
+        "edition_key": [
+          "OL50730225M",
+          "OL60823879M"
+        ],
+        "isbn": [
+          "9780735223301",
+          "9780735223288",
+          "0735223300",
+          "0735223289"
+        ],
+        "key": "/works/OL37627336W",
+        "title": "Frostbite"
+      },
+      {
+        "author_name": [
+          "Robert Gaskins"
+        ],
+        "edition_key": [
+          "OL26474756M"
+        ],
+        "isbn": [
+          "0985142405",
+          "9780985142407"
+        ],
+        "key": "/works/OL17897646W",
+        "title": "Sweating Bullets"
+      },
+      {
+        "author_name": [
+          "Brian W. Kernighan"
+        ],
+        "edition_key": [
+          "OL19825186M",
+          "OL12592306M"
+        ],
+        "isbn": [
+          "2729601309",
+          "9782729601300"
+        ],
+        "key": "/works/OL4617629W",
+        "title": "L' environnement de programmation UNIX"
+      },
+      {
+        "author_name": [
+          "Carlota Perez"
+        ],
+        "edition_key": [
+          "OL46549844M"
+        ],
+        "isbn": [
+          "9781781005323",
+          "178100532X"
+        ],
+        "key": "/works/OL34328060W",
+        "title": "Technological Revolutions and Financial Capital"
+      },
+      {
+        "author_name": [
+          "Brian W. Kernighan"
+        ],
+        "edition_key": [
+          "OL21849065M"
+        ],
+        "key": "/works/OL4617633W",
+        "title": "A tutorial introduction to the UNIX text editor"
+      },
+      {
+        "author_name": [
+          "Brian W. Kernighan"
+        ],
+        "edition_key": [
+          "OL21849026M"
+        ],
+        "key": "/works/OL4617635W",
+        "title": "UNIX for beginners"
+      },
+      {
+        "author_name": [
+          "Brian W. Kernighan",
+          "Gary Nutt"
+        ],
+        "edition_key": [
+          "OL40340827M"
+        ],
+        "isbn": [
+          "0582894573",
+          "9780582894570"
+        ],
+        "key": "/works/OL29343699W",
+        "title": "Advanced Programming UNIX Environment"
+      },
+      {
+        "author_name": [
+          "Brian W. Kernighan"
+        ],
+        "edition_key": [
+          "OL37069841M"
+        ],
+        "isbn": [
+          "9788328371637",
+          "8328371634"
+        ],
+        "key": "/works/OL27306483W",
+        "title": "Jak Unix tworzyl historie"
+      },
+      {
+        "author_name": [
+          "Brian W. Kernighan"
+        ],
+        "edition_key": [
+          "OL13125528M"
+        ],
+        "isbn": [
+          "9789688800676",
+          "9688800678"
+        ],
+        "key": "/works/OL4617634W",
+        "title": "Unix Entorno de Programacion"
+      }
+    ]
+  }
+}

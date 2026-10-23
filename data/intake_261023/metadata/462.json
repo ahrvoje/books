@@ -1,0 +1,94 @@
+{
+  "mention": "Models — Mark Manson",
+  "url": "https://openlibrary.org/search.json?title=Models&author=Mark%20Manson&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:52:15.764Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Mark Manson"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2016,
+        "isbn": [
+          "1760558036",
+          "9781760558031",
+          "1463750358",
+          "9781463750350"
+        ],
+        "key": "/works/OL19888731W",
+        "language": [
+          "eng"
+        ],
+        "title": "Models",
+        "ratings_average": 4,
+        "ratings_count": 20
+      },
+      {
+        "author_name": [
+          "Mark Manson"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2019,
+        "isbn": [
+          "9123821167",
+          "9789123821167"
+        ],
+        "key": "/works/OL29251577W",
+        "title": "The subtle art of not giving a fck / Everything is fcked / Models"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Sexual behavior",
+      "Man-woman relationships",
+      "Conduct of life",
+      "Psychology",
+      "Seduction",
+      "Single men",
+      "Dating (Social customs)",
+      "Sexual attraction"
+    ],
+    "key": "/works/OL19888731W",
+    "title": "Models",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL2964000A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8696002
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Models is a book on becoming an attractive man. But it does not promote tricks, techniques, and tactics to manipulate the laws of attraction. Instead, Manson encourages men to partake in self-development to attract women in an honest way."
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-05T15:16:58.867560"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-09-13T08:47:21.065360"
+    }
+  }
+}

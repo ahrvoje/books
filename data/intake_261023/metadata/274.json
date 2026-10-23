@@ -1,0 +1,99 @@
+{
+  "mention": "The Genome War",
+  "url": "https://openlibrary.org/search.json?title=The%20Genome%20War&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:50:13.514Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "James Shreeve"
+        ],
+        "edition_count": 8,
+        "first_publish_year": 2004,
+        "isbn": [
+          "073669935X",
+          "0739309943",
+          "0345433742",
+          "9780375406294",
+          "0736697268",
+          "9780345433749",
+          "9780739309933",
+          "0739309935",
+          "9780739309940",
+          "9780736699358",
+          "9780736697262",
+          "0375406298"
+        ],
+        "key": "/works/OL3746579W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Genome War"
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      209688
+    ],
+    "key": "/works/OL3746579W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL657890A"
+        }
+      }
+    ],
+    "title": "The Genome War",
+    "subjects": [
+      "Human Genome Project",
+      "Vercommercialisering",
+      "Genanalyse",
+      "Genetic Research",
+      "History",
+      "New York Times reviewed",
+      "Human genome",
+      "Medical genetics"
+    ],
+    "subject_people": [
+      "J. Craig Venter"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "links": [
+      {
+        "url": "http://www.nytimes.com/2004/02/15/books/speed-reading-the-book-of-life.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "An account of the race to solve the world's greatest scientific challenge--the sequencing of the human genome--describes the competition between rival researchers Craig Venter and Francis Collins."
+    },
+    "latest_revision": 10,
+    "revision": 10,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T04:22:24.704128"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-04-19T20:38:37.683372"
+    }
+  }
+}

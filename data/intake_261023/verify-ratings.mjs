@@ -1,0 +1,5 @@
+import fs from 'node:fs';
+const d='data/intake_261023';let jobs=[];
+for(const f of fs.readdirSync(d+'/editions')){const j=JSON.parse(fs.readFileSync(d+'/editions/'+f));if(f==='864.json')continue;const a=j.attempts.find(a=>a.countText);if(a)jobs.push({index:+f.split('.')[0],url:a.url,expected:a.countText,title:a.title});}
+let next=0,out=[];async function worker(){while(next<jobs.length){const j=jobs[next++];try{const r=await fetch(j.url+'?th=1&psc=1',{signal:AbortSignal.timeout(15000)}),html=await r.text(),plain=html.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ');out.push({...j,status:r.status,retrieved:new Date().toISOString(),title:html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1],aggregate:plain.match(/[\d.,]+\s+(?:global ratings|globale Bewertungen|weltweite Bewertungen|Sternebewertungen)/i)?.[0]||null,stars:plain.match(/\d[.,]\d\s+(?:out of 5|von 5)/)?.[0]||null});}catch(e){out.push({...j,error:String(e)})}}}
+await Promise.all([worker(),worker(),worker()]);fs.writeFileSync(d+'/ratings-verified.json',JSON.stringify(out,null,2));console.log(out.map(x=>[x.index,x.aggregate,x.stars]));

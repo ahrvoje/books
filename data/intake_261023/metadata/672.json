@@ -1,0 +1,89 @@
+{
+  "mention": "More Effective C#",
+  "url": "https://openlibrary.org/search.json?title=More%20Effective%20C%23&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:31.446Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Bill Wagner"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2009,
+        "isbn": [
+          "0134579321",
+          "9780134579320",
+          "9780134579337",
+          "013457933X",
+          "9780321580481",
+          "0321580486"
+        ],
+        "key": "/works/OL16974445W",
+        "language": [
+          "eng"
+        ],
+        "title": "More effective C#"
+      },
+      {
+        "author_name": [
+          "Bill Wagner"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2017,
+        "isbn": [
+          "9780672337888",
+          "0672337886"
+        ],
+        "key": "/works/OL19545691W",
+        "title": "More Effective C#: 50 Specific Ways to Improve Your C# (Effective Software Development Series)"
+      }
+    ]
+  },
+  "work": {
+    "title": "More effective C#",
+    "subjects": [
+      "C? (Computer program language)",
+      "Microsoft .NET",
+      "C (Computer program language)",
+      "Database management",
+      "C# (Computer program language)",
+      "C♯ (Computer program language)",
+      "Microsoft .NET Framework"
+    ],
+    "key": "/works/OL16974445W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL246450A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      9908680
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2014-07-29T18:48:18.443125"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-01-24T09:25:49.340334"
+    }
+  }
+}

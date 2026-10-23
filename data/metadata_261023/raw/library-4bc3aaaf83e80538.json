@@ -1,0 +1,215 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22How%20to%20Make%20a%20Spaceship%22%20AND%20author%3A%22guthrie%22)%20OR%20(title%3A%22Plain%20Talk%22%20AND%20author%3A%22varian%22)%20OR%20(title%3A%22Into%20the%20Deep%22%20AND%20author%3A%22ballard%22)%20OR%20(title%3A%22Complexity%20and%20the%20Economy%22%20AND%20author%3A%22arthur%22)%20OR%20(title%3A%22Poor%20Economics%22%20AND%20author%3A%22banerjee%22)%20OR%20(title%3A%22Fab%22%20AND%20author%3A%22gershenfeld%22)%20OR%20(title%3A%22The%20Best%20of%20All%20Possible%20Worlds%22%20AND%20author%3A%22ekeland%22)%20OR%20(title%3A%22Super%20Pumped%22%20AND%20author%3A%22isaac%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T07:55:51.445Z",
+    "file": "data/metadata_261023/raw/library-4bc3aaaf83e80538.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 9,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 9,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"How to Make a Spaceship\" AND author:\"guthrie\") OR (title:\"Plain Talk\" AND author:\"varian\") OR (title:\"Into the Deep\" AND author:\"ballard\") OR (title:\"Complexity and the Economy\" AND author:\"arthur\") OR (title:\"Poor Economics\" AND author:\"banerjee\") OR (title:\"Fab\" AND author:\"gershenfeld\") OR (title:\"The Best of All Possible Worlds\" AND author:\"ekeland\") OR (title:\"Super Pumped\" AND author:\"isaac\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Abhijit Banerjee",
+          "Esther Duflo"
+        ],
+        "edition_key": [
+          "OL39220197M",
+          "OL34497801M",
+          "OL35289826M",
+          "OL34853755M",
+          "OL24654094M",
+          "OL34470667M",
+          "OL27995446M",
+          "OL28479838M",
+          "OL26631753M",
+          "OL32197685M"
+        ],
+        "isbn": [
+          "8184002807",
+          "1610390407",
+          "9781610390934",
+          "9788184001815",
+          "1280588098",
+          "9781665161527",
+          "9780718193669",
+          "0718193660",
+          "1610390938",
+          "1610391608",
+          "9781610391603",
+          "1611747511",
+          "9781610390408",
+          "8184001819",
+          "9781586487980",
+          "9781611747515",
+          "9788184002805",
+          "1586487981",
+          "9781280588099",
+          "1665161523"
+        ],
+        "key": "/works/OL15743097W",
+        "title": "Poor Economics"
+      },
+      {
+        "author_name": [
+          "Julian Guthrie"
+        ],
+        "edition_key": [
+          "OL28885574M",
+          "OL36220590M",
+          "OL43568583M",
+          "OL43635409M",
+          "OL28623273M",
+          "OL27218120M",
+          "OL34900191M"
+        ],
+        "isbn": [
+          "1410495205",
+          "1101980494",
+          "178416237X",
+          "9781473542372",
+          "9781410495204",
+          "9780593078280",
+          "1473542375",
+          "1594206724",
+          "0593078284",
+          "0593078292",
+          "9781594206726",
+          "9781101980491",
+          "9780593078297",
+          "9781784162375"
+        ],
+        "key": "/works/OL20038083W",
+        "title": "How to make a spaceship"
+      },
+      {
+        "author_name": [
+          "Mike Isaac"
+        ],
+        "edition_key": [
+          "OL27305017M"
+        ],
+        "isbn": [
+          "9780393652246",
+          "0393652246"
+        ],
+        "key": "/works/OL20125074W",
+        "title": "Super Pumped"
+      },
+      {
+        "author_name": [
+          "Neil Gershenfeld",
+          "Neil A. Gershenfeld"
+        ],
+        "edition_key": [
+          "OL51329521M",
+          "OL7593465M",
+          "OL7593466M",
+          "OL44138980M"
+        ],
+        "isbn": [
+          "9781459610576",
+          "1459610571",
+          "9780786722044",
+          "0465027466",
+          "0465027458",
+          "9780465027460",
+          "0786722045",
+          "9780465027453"
+        ],
+        "key": "/works/OL8203325W",
+        "title": "Fab"
+      },
+      {
+        "author_name": [
+          "Mike Isaac"
+        ],
+        "edition_key": [
+          "OL29490435M",
+          "OL29813253M"
+        ],
+        "isbn": [
+          "9780393652253",
+          "0393652254",
+          "0393358615",
+          "9780393358612"
+        ],
+        "key": "/works/OL21679231W",
+        "title": "Super Pumped"
+      },
+      {
+        "author_name": [
+          "Ivar Ekeland"
+        ],
+        "edition_key": [
+          "OL9563765M",
+          "OL9874795M"
+        ],
+        "isbn": [
+          "9780226199948",
+          "0226199940",
+          "9780226199955",
+          "0226199959"
+        ],
+        "key": "/works/OL8254358W",
+        "title": "The Best of All Possible Worlds"
+      },
+      {
+        "author_name": [
+          "W. Brian Arthur"
+        ],
+        "edition_key": [
+          "OL46096365M",
+          "OL27190613M",
+          "OL46041712M"
+        ],
+        "isbn": [
+          "9781322095967",
+          "0199334293",
+          "9780199334292",
+          "0199334307",
+          "1322095965",
+          "9780199334308"
+        ],
+        "key": "/works/OL20010530W",
+        "title": "Complexity and the economy"
+      },
+      {
+        "author_name": [
+          "Robert D. Ballard",
+          "Christopher Drew"
+        ],
+        "edition_key": [
+          "OL32641333M"
+        ],
+        "isbn": [
+          "9781426220999",
+          "1426220995"
+        ],
+        "key": "/works/OL24607125W",
+        "title": "Into the Deep"
+      },
+      {
+        "author_name": [
+          "Abhijit V. Banerjee",
+          "Esther Duflo"
+        ],
+        "edition_key": [
+          "OL60845801M"
+        ],
+        "isbn": [
+          "9781837312405",
+          "1837312400"
+        ],
+        "key": "/works/OL44556354W",
+        "title": "Poor Economics"
+      }
+    ]
+  }
+}

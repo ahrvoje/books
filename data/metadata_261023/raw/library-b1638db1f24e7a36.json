@@ -1,0 +1,465 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22Close%20to%20the%20Machine%22%20AND%20author%3A%22ullman%22)%20OR%20(title%3A%22Looking%20for%20a%20Ship%22%20AND%20author%3A%22mcphee%22)%20OR%20(title%3A%22Elements%20of%20the%20History%20of%20Mathematics%22%20AND%20author%3A%22bourbaki%22)%20OR%20(title%3A%22The%20Roald%20Amundsen%20Diaries%22%20AND%20author%3A%22amundsen%22)%20OR%20(title%3A%22Cows%20in%20the%20Maze%22%20AND%20author%3A%22stewart%22)%20OR%20(title%3A%22Mathematics%22%20AND%20author%3A%22dieudonne%22)%20OR%20(title%3A%22A%20Place%20of%20My%20Own%22%20AND%20author%3A%22pollan%22)%20OR%20(title%3A%22The%20Best%20Software%20Writing%20I%22%20AND%20author%3A%22spolsky%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T07:58:15.617Z",
+    "file": "data/metadata_261023/raw/library-b1638db1f24e7a36.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 24,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 24,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"Close to the Machine\" AND author:\"ullman\") OR (title:\"Looking for a Ship\" AND author:\"mcphee\") OR (title:\"Elements of the History of Mathematics\" AND author:\"bourbaki\") OR (title:\"The Roald Amundsen Diaries\" AND author:\"amundsen\") OR (title:\"Cows in the Maze\" AND author:\"stewart\") OR (title:\"Mathematics\" AND author:\"dieudonne\") OR (title:\"A Place of My Own\" AND author:\"pollan\") OR (title:\"The Best Software Writing I\" AND author:\"spolsky\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Michael Pollan"
+        ],
+        "edition_key": [
+          "OL31450648M",
+          "OL40400126M",
+          "OL27683191M",
+          "OL27683160M",
+          "OL21630763M",
+          "OL22446209M",
+          "OL7961633M",
+          "OL24283146M",
+          "OL9355854M",
+          "OL7685719M",
+          "OL996441M",
+          "OL7439172M",
+          "OL7961651M"
+        ],
+        "isbn": [
+          "1441836837",
+          "0747535132",
+          "0383037956",
+          "0143114743",
+          "9780385319904",
+          "9780517398753",
+          "9781440655630",
+          "0385319908",
+          "9780747533979",
+          "9780383037954",
+          "9780679415329",
+          "1440655634",
+          "9781440655647",
+          "9781299273870",
+          "1440655642",
+          "144065560X",
+          "0679415327",
+          "1441836845",
+          "9781441836847",
+          "0517398753",
+          "9781440655609",
+          "1299273874",
+          "9780143114741",
+          "0747533970",
+          "9781441836830",
+          "9780747535133"
+        ],
+        "key": "/works/OL3296486W",
+        "title": "A Place of My Own"
+      },
+      {
+        "author_name": [
+          "Ellen Ullman"
+        ],
+        "edition_key": [
+          "OL38408678M",
+          "OL680682M",
+          "OL39514781M",
+          "OL25131771M",
+          "OL37392443M",
+          "OL32431576M"
+        ],
+        "isbn": [
+          "1250884128",
+          "9781250024589",
+          "0872863379",
+          "9781250002488",
+          "0872863328",
+          "9781250884121",
+          "9780872863323",
+          "9781782270249",
+          "9780872863378",
+          "1250002486",
+          "9781908968135",
+          "1782270248",
+          "1250024587",
+          "1908968133"
+        ],
+        "key": "/works/OL2693717W",
+        "title": "Close to the Machine"
+      },
+      {
+        "author_name": [
+          "John McPhee"
+        ],
+        "edition_key": [
+          "OL19177609M",
+          "OL24911351M",
+          "OL28156408M",
+          "OL7676682M",
+          "OL7461588M",
+          "OL1868476M",
+          "OL1851738M",
+          "OL9067428M",
+          "OL37387257M"
+        ],
+        "isbn": [
+          "9781560541028",
+          "9780374523190",
+          "0374190771",
+          "3608913009",
+          "9780374190774",
+          "9780517106976",
+          "9781429958110",
+          "0921912099",
+          "0394589181",
+          "9780921912095",
+          "0517106973",
+          "9780394589183",
+          "1429958111",
+          "1560541024",
+          "0374523193",
+          "9783608913002"
+        ],
+        "key": "/works/OL116210W",
+        "title": "Looking for a ship"
+      },
+      {
+        "author_name": [
+          "Joel Spolsky"
+        ],
+        "edition_key": [
+          "OL8848759M"
+        ],
+        "isbn": [
+          "1590595009",
+          "9781590595008"
+        ],
+        "key": "/works/OL8912199W",
+        "title": "The Best Software Writing I"
+      },
+      {
+        "author_name": [
+          "Nicolas Bourbaki"
+        ],
+        "edition_key": [
+          "OL9062680M",
+          "OL377230M",
+          "OL1095377M",
+          "OL5357321M"
+        ],
+        "isbn": [
+          "9783540647676",
+          "3540193766",
+          "0387193766",
+          "9783540193760",
+          "9780387193762",
+          "3540647678"
+        ],
+        "key": "/works/OL1411424W",
+        "title": "Eléments d'histoire des mathématiques"
+      },
+      {
+        "author_name": [
+          "Avram Joel Spolsky"
+        ],
+        "edition_key": [
+          "OL30625535M",
+          "OL37090296M"
+        ],
+        "isbn": [
+          "1430212578",
+          "1430200383",
+          "9781430212577",
+          "9781430200383"
+        ],
+        "key": "/works/OL22589297W",
+        "title": "The Best Software Writing I"
+      },
+      {
+        "author_name": [
+          "Ian Stewart"
+        ],
+        "edition_key": [
+          "OL26000600M",
+          "OL40397512M"
+        ],
+        "isbn": [
+          "1283296810",
+          "0199562075",
+          "9780199562077",
+          "9781283296816"
+        ],
+        "key": "/works/OL17418325W",
+        "title": "Cows In The Maze"
+      },
+      {
+        "author_name": [
+          "Joel Spolsky"
+        ],
+        "edition_key": [
+          "OL18237893M"
+        ],
+        "isbn": [
+          "1590595009",
+          "9781590595008"
+        ],
+        "key": "/works/OL17945988W",
+        "title": "The best software writing I"
+      },
+      {
+        "author_name": [
+          "Nicolás Bourbaki"
+        ],
+        "edition_key": [
+          "OL51655038M"
+        ],
+        "isbn": [
+          "3642616933",
+          "9783642616938"
+        ],
+        "key": "/works/OL38051030W",
+        "title": "Elements Of The History Of Mathematics"
+      },
+      {
+        "author_name": [
+          "Ian Stewart"
+        ],
+        "edition_key": [
+          "OL60864406M"
+        ],
+        "isbn": [
+          "0191612731",
+          "9780191612732"
+        ],
+        "key": "/works/OL44566047W",
+        "title": "Cows in the Maze"
+      },
+      {
+        "author_name": [
+          "Norman Earl Steenrod",
+          "Paul R. Halmos",
+          "Max M. Schiffer",
+          "Jean Alexandre Dieudonné"
+        ],
+        "edition_key": [
+          "OL5293302M",
+          "OL14247733M",
+          "OL21107420M",
+          "OL21628236M",
+          "OL25971681M",
+          "OL19456679M"
+        ],
+        "isbn": [
+          "9780821800553",
+          "0821800558"
+        ],
+        "key": "/works/OL17391388W",
+        "title": "How To Write Mathematics"
+      },
+      {
+        "author_name": [
+          "Jean Alexandre Dieudonné"
+        ],
+        "edition_key": [
+          "OL7326513M",
+          "OL9281161M"
+        ],
+        "isbn": [
+          "0122155602",
+          "9780122155604"
+        ],
+        "key": "/works/OL7939514W",
+        "title": "A Panorama of Pure Mathematics (Pure and Applied Mathematics (Academic Pr))"
+      },
+      {
+        "author_name": [
+          "Jean Alexandre Dieudonné"
+        ],
+        "edition_key": [
+          "OL9281157M",
+          "OL7326509M"
+        ],
+        "isbn": [
+          "9780122155024",
+          "0122155025"
+        ],
+        "key": "/works/OL7939519W",
+        "title": "Treatise on Analysis Volume II. (Pure & Applied Mathematics 10-II)"
+      },
+      {
+        "author_name": [
+          "Jean Alexandre Dieudonné"
+        ],
+        "edition_key": [
+          "OL8125880M"
+        ],
+        "isbn": [
+          "9780824760113",
+          "0824760115"
+        ],
+        "key": "/works/OL7939511W",
+        "title": "Introduction to the Theory of Formal Groups (Pure & Applied Mathematics)"
+      },
+      {
+        "author_name": [
+          "Jean Alexandre Dieudonné"
+        ],
+        "edition_key": [
+          "OL7446632M",
+          "OL9060538M"
+        ],
+        "isbn": [
+          "354053346X",
+          "9783540533467",
+          "9780387533469",
+          "038753346X"
+        ],
+        "key": "/works/OL8056950W",
+        "title": "Mathematics - The Music of Reason"
+      },
+      {
+        "author_name": [
+          "Jean Alexandre Dieudonné"
+        ],
+        "edition_key": [
+          "OL7326510M",
+          "OL9281158M"
+        ],
+        "isbn": [
+          "0122155033",
+          "9780122155031"
+        ],
+        "key": "/works/OL7939517W",
+        "title": "Treatise on Analysis (Pure and Applied Mathematics, a Series of Monographs and Textbooks, 10)"
+      },
+      {
+        "author_name": [
+          "Jean Dieudonne",
+          "H.G. Dales",
+          "J.C. Dales"
+        ],
+        "edition_key": [
+          "OL28144886M",
+          "OL51028500M"
+        ],
+        "isbn": [
+          "366235358X",
+          "9783642080982",
+          "3642080987",
+          "9783662353585"
+        ],
+        "key": "/works/OL20792618W",
+        "title": "Mathematics - The Music of Reason"
+      },
+      {
+        "author_name": [
+          "Jean Alexandre Dieudonné"
+        ],
+        "edition_key": [
+          "OL1723794M"
+        ],
+        "isbn": [
+          "354053346X",
+          "038753346X",
+          "9780387533469",
+          "9783540533467"
+        ],
+        "key": "/works/OL686487W",
+        "title": "Mathematics-- the music of reason"
+      },
+      {
+        "author_name": [
+          "Jean Alexandre Dieudonné"
+        ],
+        "edition_key": [
+          "OL9362067M"
+        ],
+        "isbn": [
+          "0122155041",
+          "9780122155048"
+        ],
+        "key": "/works/OL7939513W",
+        "title": "Treatise on Analysis (Pure & Applied Mathematics)"
+      },
+      {
+        "author_name": [
+          "Jean Alexandre Dieudonné"
+        ],
+        "edition_key": [
+          "OL7532739M"
+        ],
+        "isbn": [
+          "0444861483",
+          "9780444861481"
+        ],
+        "key": "/works/OL8132090W",
+        "title": "History of Functional Analysis (North-Holland Mathematics Studies)"
+      },
+      {
+        "author_name": [
+          "Dieudonne Ndong Ovono"
+        ],
+        "edition_key": [
+          "OL39813949M"
+        ],
+        "isbn": [
+          "6137378535",
+          "9786137378533"
+        ],
+        "key": "/works/OL28955677W",
+        "title": "Applied Mathematics : Theories, Methods and Practices"
+      },
+      {
+        "author_name": [
+          "Jean Alexandre Dieudonné"
+        ],
+        "edition_key": [
+          "OL4093509M"
+        ],
+        "isbn": [
+          "0122155602",
+          "9780122155604"
+        ],
+        "key": "/works/OL686489W",
+        "title": "A panorama of pure mathematics, as seen by N. Bourbaki"
+      },
+      {
+        "author_name": [
+          "Jean Alexandre Dieudonné"
+        ],
+        "edition_key": [
+          "OL11419701M"
+        ],
+        "isbn": [
+          "9780821812020",
+          "0821812025"
+        ],
+        "key": "/works/OL7939512W",
+        "title": "On the Automorphisms of the Classical Groups (Memoirs of the American Mathematical Society)"
+      },
+      {
+        "author_name": [
+          "Jean Dieudonne",
+          "I. G. Macdonald"
+        ],
+        "edition_key": [
+          "OL35753912M"
+        ],
+        "isbn": [
+          "0080874134",
+          "9780080874135"
+        ],
+        "key": "/works/OL26464354W",
+        "title": "Panorama of Pure Mathematics, As Seen by N. Bourbaki"
+      }
+    ]
+  }
+}

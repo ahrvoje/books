@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { performance } from 'node:perf_hooks';
 import { REGISTRY, DOMAIN_IDS, defaultModel, defaultTerm, clone, normalize, shape, coefficients, changeMode, termValue, validateTerm,
-  validateModel, connectionValues, evaluateBook, evaluateCatalog, filterReasons, frontier, frontierLayers, clearTarget, format, columnValue, DEFAULT_COLUMNS, displayedColumns, restoreColumns, restoreOptionalTerms, COLUMN_BY_ID } from './model.mjs';
+  validateModel, connectionValues, evaluateBook, evaluateCatalog, filterReasons, frontier, frontierLayers, frontierPath, clearTarget, format, columnValue, DEFAULT_COLUMNS, displayedColumns, restoreColumns, restoreOptionalTerms, COLUMN_BY_ID } from './model.mjs';
 import fs from 'node:fs';
 import { gunzipSync } from 'node:zlib';
 import path from 'node:path';
@@ -219,6 +219,41 @@ test('three Pareto layers remove all ties and honor both axis directions', () =>
     });
   }
   assert.deepEqual(frontierLayers([], [null,null]).map(s=>s.size),[0,0,0]);
+});
+test('Pareto boundaries follow supported dominance without crossing between sparse points', () => {
+  assert.equal(frontierPath([], 'max'), '');
+  assert.equal(frontierPath([[1,2]], 'min'), '');
+  assert.equal(frontierPath([[1,2],[3,4]], 'max'), 'M1,2V4H3');
+  assert.equal(frontierPath([[1,2],[3,4]], 'min'), 'M1,2H3V4');
+  // Straight or smooth connectors cross here even though membership is correct.
+  const fixture = [[5,1],[6,8],[10,10],[4,1],[9,10],[3,1],[8,11]];
+  for (const sx of [-1,1]) for (const sy of [-1,1]) for (const log of [false,true]) {
+    const axes = [sx,sy].map(s=>({direction:s===1?'max':'min'}));
+    const rows = fixture.map(([x,y],i)=>({book:{id:String(i)},axes:[sx*x+20,-sy*y+20]}));
+    const layers = frontierLayers(rows,axes);
+    const transform = v=>log?Math.log10(v):v;
+    const points = rows.map(r=>({...r,axes:r.axes.map(transform)}));
+    const paths = layers.map(layer=>frontierPath(points.filter(r=>layer.has(r.book.id)).map(r=>r.axes).sort((a,b)=>a[0]-b[0]),axes[0].direction));
+    const segments = paths.map(path=>{
+      const commands = [...path.matchAll(/([MHV])([^MHV]+)/g)];
+      let position = commands.shift()[2].split(',').map(Number);
+      return commands.map(([,command,value])=>{
+        const next = command==='H'?[+value,position[1]]:[position[0],+value];
+        const segment=[position,next]; position=next; return segment;
+      });
+    });
+    segments.forEach((layer,i)=>layer.forEach(([a,b])=>{
+      const middle=a.map((v,j)=>(v+b[j])/2);
+      assert(points.some(p=>layers[i].has(p.book.id)&&p.axes.every((v,j)=>[sx,sy][j]*(v-middle[j])>=-1e-12)), 'Every segment is supported by an actual frontier book');
+    }));
+    // On every shared open X interval, successive boundaries stay ordered.
+    const xs=[...new Set(points.map(p=>p.axes[0]))].sort((a,b)=>a-b);
+    for(let j=1;j<xs.length;j++) {
+      const x=(xs[j-1]+xs[j])/2;
+      const ys=segments.map(layer=>layer.find(([a,b])=>a[0]<x&&x<b[0])?.[0][1]);
+      for(let i=1;i<ys.length;i++) if(ys[i-1]!==undefined&&ys[i]!==undefined) assert(sy*(ys[i-1]-ys[i])>=-1e-12);
+    }
+  }
 });
 test('model export is reproducible and rejects incompatible or invalid models', () => {
   assert.deepEqual(validateModel(JSON.parse(JSON.stringify(model))),[]);

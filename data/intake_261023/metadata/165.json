@@ -1,0 +1,84 @@
+{
+  "mention": "God and Golem, Inc.",
+  "url": "https://openlibrary.org/search.json?title=God%20and%20Golem%2C%20Inc.&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:01.767Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Norbert Wiener"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1966,
+        "key": "/works/OL38988813W",
+        "language": [
+          "eng"
+        ],
+        "title": "God and Golem, inc"
+      },
+      {
+        "author_name": [
+          "Norbert Wiener"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1964,
+        "key": "/works/OL23778983M",
+        "title": "God and Golem, inc."
+      },
+      {
+        "author_name": [
+          "Norbert Wiener"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1964,
+        "isbn": [
+          "9780262230094",
+          "0262230097"
+        ],
+        "key": "/works/OL39135239W",
+        "title": "God and Golem, Inc.",
+        "ratings_average": 0,
+        "ratings_count": 0
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "God and Golem, inc",
+    "subjects": [
+      "Cybernetics",
+      "Religion and science"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL837366A"
+        }
+      }
+    ],
+    "key": "/works/OL38988813W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-08-10T09:05:55.073609"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-08-10T09:05:55.073609"
+    }
+  }
+}

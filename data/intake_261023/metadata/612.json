@@ -1,0 +1,109 @@
+{
+  "mention": "Writing Solid Code",
+  "url": "https://openlibrary.org/search.json?title=Writing%20Solid%20Code&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:52.428Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Steve Maguire"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1993,
+        "isbn": [
+          "9781556155512",
+          "1556155514"
+        ],
+        "key": "/works/OL3488654W",
+        "language": [
+          "eng"
+        ],
+        "title": "Writing solid code",
+        "ratings_average": 4,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Steve Maguire"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2013,
+        "isbn": [
+          "1570740550",
+          "9781570740558"
+        ],
+        "key": "/works/OL37483663W",
+        "language": [
+          "eng"
+        ],
+        "title": "Writing Solid Code (20th Anniversary 2nd Edition)"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1993",
+    "title": "Writing solid code",
+    "covers": [
+      776716
+    ],
+    "lc_classifications": [
+      "QA76.73.C15 M335 1993"
+    ],
+    "key": "/works/OL3488654W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL582304A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "005.1/4"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Development",
+      "C (Computer program language)",
+      "Computer software",
+      "Détection erreur",
+      "Prévention",
+      "Logiciels",
+      "Conception logiciel",
+      "Test logiciel",
+      "Programmation WINDOWS",
+      "Débogage",
+      "C (programmeertaal)",
+      "Développement",
+      "Génie logiciel",
+      "C (langage de programmation)",
+      "Computer software -- Development"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "A Microsoft developer examines the problem of programming \"bugs, \" showing how and where developers make mistakes along the development process and providing ways users can detect errors early. Original."
+    },
+    "latest_revision": 11,
+    "revision": 11,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T03:41:59.432402"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-02-06T01:58:08.589346"
+    }
+  }
+}

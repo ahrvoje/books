@@ -1,0 +1,88 @@
+{
+  "mention": "Shooting Down the Stealth Fighter",
+  "url": "https://openlibrary.org/search.json?title=Shooting%20Down%20the%20Stealth%20Fighter&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:18.778Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Mihajlo S. Mijajlovic",
+          "Djordje (S) Anicic"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2022,
+        "isbn": [
+          "9781526780430",
+          "9781526780454",
+          "1526780437",
+          "1526780453"
+        ],
+        "key": "/works/OL35715918W",
+        "language": [
+          "eng"
+        ],
+        "title": "Shooting down the Stealth Fighter"
+      },
+      {
+        "author_name": [
+          "Mihajlo (Mike) S. Mijajlović",
+          "Djordje S. Aničić"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2021,
+        "isbn": [
+          "9781526780423",
+          "1526780429"
+        ],
+        "key": "/works/OL25773027W",
+        "language": [
+          "eng"
+        ],
+        "title": "Shooting down the Stealth Fighter"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Shooting down the Stealth Fighter",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL12913742A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL11305297A"
+        }
+      }
+    ],
+    "key": "/works/OL35715918W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2023-06-17T06:52:59.032528"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-06-17T06:52:59.032528"
+    }
+  }
+}

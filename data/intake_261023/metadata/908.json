@@ -1,0 +1,75 @@
+{
+  "mention": "Asimov on Chemistry",
+  "url": "https://openlibrary.org/search.json?title=Asimov%20on%20Chemistry&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:57:02.758Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Isaac Asimov"
+        ],
+        "edition_count": 7,
+        "first_publish_year": 1974,
+        "isbn": [
+          "0356082970",
+          "0385041004",
+          "0385040059",
+          "9780385041003",
+          "9780356082974",
+          "9780385040051"
+        ],
+        "key": "/works/OL46320W",
+        "language": [
+          "eng"
+        ],
+        "title": "Asimov on chemistry [17 essays]"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Science",
+      "Chemistry"
+    ],
+    "key": "/works/OL46320W",
+    "title": "Asimov on chemistry [17 essays]",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL34221A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      12713509
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Collection of essays:\r\n\r\nPART I. INORGANIC CHEMISTRY\r\nThe weighting game\r\nSlow burn\r\nThe element of perfection\r\nWelcome, stranger!\r\nDeath in the laboratory\r\nTo tell a chemist\r\n\r\nPART II. NUCLEAR CHEMISTRY\r\nThe evens have it\r\n\r\nPART III. ORGANIC CHEMISTRY\r\nYou too can speak Gaelic\r\n\r\nPART IV. BIOCHEMISTRY\r\nThe haste-makers\r\nLife's bottleneck\r\nThe egg and wee\r\nThat's life\r\nNot as we know it\r\n\r\nPART V. GEOCHEMISTRY\r\nRecipe for a planet\r\nNo more ice ages? \r\n\r\nPART VI. GENERAL\r\nThe nobelmen of science\r\nThe Isaac winners"
+    },
+    "latest_revision": 9,
+    "revision": 9,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-10-15T11:34:21.437031"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-04-01T17:10:34.112201"
+    }
+  }
+}

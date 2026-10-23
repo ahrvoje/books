@@ -1,0 +1,361 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22Out%20of%20the%20Crisis%22%20AND%20author%3A%22deming%22)%20OR%20(title%3A%22The%20Soul%20of%20A%20New%20Machine%22%20AND%20author%3A%22kidder%22)%20OR%20(title%3A%22Skunk%20Works%22%20AND%20author%3A%22rich%22)%20OR%20(title%3A%22Creativity%2C%20Inc.%22%20AND%20author%3A%22catmull%22)%20OR%20(title%3A%22Across%20the%20Airless%20Wilds%22%20AND%20author%3A%22swift%22)%20OR%20(title%3A%22Fancy%20Bear%20Goes%20Phishing%22%20AND%20author%3A%22shapiro%22)%20OR%20(title%3A%22The%20God%20Machine%22%20AND%20author%3A%22chiles%22)%20OR%20(title%3A%22Eccentric%20Orbits%22%20AND%20author%3A%22bloom%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T07:54:22.923Z",
+    "file": "data/metadata_261023/raw/library-3f379636dab2f32a.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 13,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 13,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"Out of the Crisis\" AND author:\"deming\") OR (title:\"The Soul of A New Machine\" AND author:\"kidder\") OR (title:\"Skunk Works\" AND author:\"rich\") OR (title:\"Creativity, Inc.\" AND author:\"catmull\") OR (title:\"Across the Airless Wilds\" AND author:\"swift\") OR (title:\"Fancy Bear Goes Phishing\" AND author:\"shapiro\") OR (title:\"The God Machine\" AND author:\"chiles\") OR (title:\"Eccentric Orbits\" AND author:\"bloom\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Tracy Kidder"
+        ],
+        "edition_key": [
+          "OL50388616M",
+          "OL40335541M",
+          "OL26474141M",
+          "OL28552863M",
+          "OL32925641M",
+          "OL26753212M",
+          "OL24951788M",
+          "OL25759921M",
+          "OL26450471M",
+          "OL25759920M",
+          "OL14413683M",
+          "OL7432710M",
+          "OL18796525M",
+          "OL23256229M",
+          "OL1011386M",
+          "OL4260406M",
+          "OL9585454M",
+          "OL17623724M",
+          "OL18441794M",
+          "OL3782891M",
+          "OL17279163M",
+          "OL22594827M",
+          "OL19458583M"
+        ],
+        "isbn": [
+          "9650302077",
+          "9780713914825",
+          "9780140062496",
+          "38071115X",
+          "0679602615",
+          "0140091343",
+          "2080644696",
+          "0380599317",
+          "9782080644695",
+          "9780896213425",
+          "9783034866941",
+          "0316491977",
+          "0896213420",
+          "038071115X",
+          "1478939591",
+          "0316491705",
+          "9780380711154",
+          "9780140091342",
+          "9789138613078",
+          "0316204552",
+          "0713914823",
+          "9789650302078",
+          "9780316491709",
+          "9781478939597",
+          "9780380599318",
+          "9780679602613",
+          "9780316204552",
+          "0140062491",
+          "9780316491976",
+          "9138613077",
+          "3034866941"
+        ],
+        "key": "/works/OL98218W",
+        "title": "The Soul of a New Machine"
+      },
+      {
+        "author_name": [
+          "W. Edwards Deming",
+          "W. Edwards Deming"
+        ],
+        "edition_key": [
+          "OL27978843M",
+          "OL25648916M",
+          "OL22322511M",
+          "OL2875698M",
+          "OL8298783M",
+          "OL14421804M",
+          "OL3964227M"
+        ],
+        "isbn": [
+          "0911379010",
+          "0262541157",
+          "9780521305532",
+          "9780911379013",
+          "0521305535",
+          "9780262541152"
+        ],
+        "key": "/works/OL3190937W",
+        "title": "Out of the crisis"
+      },
+      {
+        "author_name": [
+          "Ed Catmull",
+          "Amy Wallace"
+        ],
+        "edition_key": [
+          "OL47006833M",
+          "OL40414154M",
+          "OL27284255M",
+          "OL27545734M",
+          "OL31844609M",
+          "OL33468032M",
+          "OL45268922M",
+          "OL32808724M",
+          "OL26815645M",
+          "OL25648811M"
+        ],
+        "isbn": [
+          "1306564395",
+          "0593070100",
+          "0593594649",
+          "9781448126286",
+          "7508649478",
+          "1448126282",
+          "9781306564397",
+          "2378151500",
+          "0593070097",
+          "9780593070093",
+          "9780307361189",
+          "9787508649474",
+          "0307361187",
+          "9780593594643",
+          "9780812993011",
+          "9782378151508",
+          "9780593070109",
+          "9780804127448",
+          "0812993012",
+          "0804127441"
+        ],
+        "key": "/works/OL17078912W",
+        "title": "Creativity, Inc."
+      },
+      {
+        "author_name": [
+          "Scott J. Shapiro"
+        ],
+        "edition_key": [
+          "OL51092830M",
+          "OL39717105M",
+          "OL39683456M"
+        ],
+        "isbn": [
+          "9780374601171",
+          "0374601178",
+          "1250335671",
+          "9781250335678",
+          "0374601186",
+          "9780374601188"
+        ],
+        "key": "/works/OL28868802W",
+        "title": "Fancy Bear Goes Phishing"
+      },
+      {
+        "author_name": [
+          "Ben R. Rich",
+          "Leo Janos",
+          "Ben R./Janos, Leo Rich"
+        ],
+        "edition_key": [
+          "OL27507803M",
+          "OL9414767M",
+          "OL9757195M",
+          "OL44261594M",
+          "OL44153747M",
+          "OL33351714M",
+          "OL25651285M",
+          "OL19131089M",
+          "OL9650282M",
+          "OL1084890M"
+        ],
+        "isbn": [
+          "0316191426",
+          "0316743003",
+          "031624693X",
+          "9780751525953",
+          "5557117083",
+          "9781306759311",
+          "9780316191425",
+          "9780316743303",
+          "9780736631082",
+          "9781478934783",
+          "9780751515039",
+          "0751515035",
+          "9785557117081",
+          "1478934786",
+          "9780316743006",
+          "0736631089",
+          "1306759315",
+          "0751525952",
+          "9780316246934",
+          "0316743305"
+        ],
+        "key": "/works/OL3466236W",
+        "title": "Skunk Works"
+      },
+      {
+        "author_name": [
+          "Ed Catmull"
+        ],
+        "edition_key": [
+          "OL31214581M",
+          "OL60867358M"
+        ],
+        "isbn": [
+          "9780679644507",
+          "9780307361172",
+          "0679644504",
+          "0307361179"
+        ],
+        "key": "/works/OL23361858W",
+        "title": "Creativity, Inc"
+      },
+      {
+        "author_name": [
+          "John Bloom"
+        ],
+        "edition_key": [
+          "OL26414807M"
+        ],
+        "isbn": [
+          "0802121683",
+          "9780802121684"
+        ],
+        "key": "/works/OL17826348W",
+        "title": "Eccentric Orbits"
+      },
+      {
+        "author_name": [
+          "Scott Shapiro"
+        ],
+        "edition_key": [
+          "OL39557156M",
+          "OL51048289M"
+        ],
+        "isbn": [
+          "0241461960",
+          "9780141993843",
+          "0141993847",
+          "9780241461969"
+        ],
+        "key": "/works/OL28802997W",
+        "title": "Fancy Bear Goes Phishing"
+      },
+      {
+        "author_name": [
+          "Earl Swift"
+        ],
+        "edition_key": [
+          "OL32976995M",
+          "OL35994899M"
+        ],
+        "isbn": [
+          "9780062986535",
+          "9780062986542",
+          "0062986538",
+          "0062986546"
+        ],
+        "key": "/works/OL24815538W",
+        "title": "Across the Airless Wilds"
+      },
+      {
+        "author_name": [
+          "John Bloom"
+        ],
+        "edition_key": [
+          "OL34532240M",
+          "OL44102641M",
+          "OL28624842M",
+          "OL35515878M",
+          "OL48163834M",
+          "OL38296450M"
+        ],
+        "isbn": [
+          "9781611855357",
+          "0802192823",
+          "9781611855289",
+          "9781504738217",
+          "1611855284",
+          "0802126782",
+          "9781611859560",
+          "9780802192820",
+          "1504738217",
+          "1611859565",
+          "1611855357",
+          "9780802126788"
+        ],
+        "key": "/works/OL21145143W",
+        "title": "Eccentric Orbits"
+      },
+      {
+        "author_name": [
+          "Ed Catmull"
+        ],
+        "edition_key": [
+          "OL32786576M",
+          "OL52216167M"
+        ],
+        "isbn": [
+          "9788493914523",
+          "9788418053245",
+          "8493914525",
+          "8418053240"
+        ],
+        "key": "/works/OL24701364W",
+        "title": "Creatividad, S.A."
+      },
+      {
+        "author_name": [
+          "James R. Chiles"
+        ],
+        "edition_key": [
+          "OL26071580M",
+          "OL24256740M",
+          "OL7850570M"
+        ],
+        "isbn": [
+          "9780307485489",
+          "9780553804478",
+          "030748548X",
+          "0553383523",
+          "9780553383522",
+          "0553804472"
+        ],
+        "key": "/works/OL2208104W",
+        "title": "The God Machine"
+      },
+      {
+        "author_name": [
+          "W. Edwards Deming",
+          "Kevin Edwards Cahill",
+          "Kelly L. Allan"
+        ],
+        "edition_key": [
+          "OL29386061M"
+        ],
+        "isbn": [
+          "0262535947",
+          "9780262535946"
+        ],
+        "key": "/works/OL21628152W",
+        "title": "Out of the Crisis, Reissue"
+      }
+    ]
+  }
+}

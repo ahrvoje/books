@@ -1,0 +1,103 @@
+{
+  "mention": "Perfect Software",
+  "url": "https://openlibrary.org/search.json?title=Perfect%20Software&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:30.781Z",
+  "status": 200,
+  "search": {
+    "numFound": 6,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 6,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Gerald M. Weinberg"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2010,
+        "isbn": [
+          "1452318611",
+          "9781452318615"
+        ],
+        "key": "/works/OL15706713W",
+        "title": "Perfect Software and Other Illusions About Testing"
+      },
+      {
+        "author_name": [
+          "Gerald M. Weinberg"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2008,
+        "isbn": [
+          "0932633692",
+          "9780932633699"
+        ],
+        "key": "/works/OL1958808W",
+        "language": [
+          "eng"
+        ],
+        "title": "Perfect software--and other illusions about testing"
+      },
+      {
+        "author_name": [
+          "Warrner"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1998,
+        "isbn": [
+          "0673472507",
+          "9780673472502"
+        ],
+        "key": "/works/OL9291166W",
+        "language": [
+          "eng"
+        ],
+        "title": "Word Perfect, Limited Use Software"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "software development",
+      "testing",
+      "process",
+      "quality assurance",
+      "software QA"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "James Bach says, \"Read this book and get your head straight about testing. I consider Jerry (Weinberg) to be the greatest living tester.\" Answers the questions that puzzle the most people: Why do we have to bother testing? Why not just test everything? What is it that makes testing so hard? Why does testing take so long? Is perfect software even possible? Why can't we just accept a few bugs?"
+    },
+    "key": "/works/OL15706713W",
+    "title": "Perfect Software and Other Illusions About Testing",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL235110A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      7140488
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-04-11T21:53:23.060729"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-09-18T13:32:12.438655"
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22Nuts%20and%20Bolts%22%20AND%20author%3A%22agrawal%22)%20OR%20(title%3A%22Arriving%20Today%22%20AND%20author%3A%22mims%22)%20OR%20(title%3A%22Working%20Backwards%22%20AND%20author%3A%22bryar%22)%20OR%20(title%3A%22The%20Art%20of%20Statistics%22%20AND%20author%3A%22spiegelhalter%22)%20OR%20(title%3A%22Spacesuit%22%20AND%20author%3A%22monchaux%22)%20OR%20(title%3A%22Numbers%20Don%E2%80%99t%20Lie%22%20AND%20author%3A%22smil%22)%20OR%20(title%3A%22The%20Dream%20Machine%22%20AND%20author%3A%22waldrop%22)%20OR%20(title%3A%22How%20To%20Build%20A%20Car%22%20AND%20author%3A%22newey%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T07:54:04.907Z",
+    "file": "data/metadata_261023/raw/library-0050739bb2af328f.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 11,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 11,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"Nuts and Bolts\" AND author:\"agrawal\") OR (title:\"Arriving Today\" AND author:\"mims\") OR (title:\"Working Backwards\" AND author:\"bryar\") OR (title:\"The Art of Statistics\" AND author:\"spiegelhalter\") OR (title:\"Spacesuit\" AND author:\"monchaux\") OR (title:\"Numbers Don’t Lie\" AND author:\"smil\") OR (title:\"The Dream Machine\" AND author:\"waldrop\") OR (title:\"How To Build A Car\" AND author:\"newey\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Adrian Newey"
+        ],
+        "edition_key": [
+          "OL41084696M",
+          "OL39540498M",
+          "OL37470226M",
+          "OL37466429M",
+          "OL37466316M",
+          "OL33015898M",
+          "OL32516664M",
+          "OL27932348M"
+        ],
+        "isbn": [
+          "9780008196813",
+          "0008293392",
+          "9780008344108",
+          "9780008293390",
+          "0008344108",
+          "9780008271107",
+          "9780008352479",
+          "0008271100",
+          "9780008344092",
+          "9780008338435",
+          "0008196818",
+          "0008338434",
+          "0008344094",
+          "9780008196806",
+          "000819680X",
+          "000835247X"
+        ],
+        "key": "/works/OL20657752W",
+        "title": "How to Build a Car"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL38793393M",
+          "OL37760868M",
+          "OL29493299M",
+          "OL30659596M",
+          "OL34698534M"
+        ],
+        "isbn": [
+          "0241989701",
+          "978-84-18056-35-2",
+          "9780241454411",
+          "9780143136224",
+          "9788418056352",
+          "9780241989692",
+          "0241454417",
+          "0143136224",
+          "0241989698",
+          "9780241989708",
+          "8418056355"
+        ],
+        "key": "/works/OL21680958W",
+        "title": "Numbers Don't Lie"
+      },
+      {
+        "author_name": [
+          "David Spiegelhalter"
+        ],
+        "edition_key": [
+          "OL31878360M",
+          "OL28052042M",
+          "OL38803861M"
+        ],
+        "isbn": [
+          "1541675703",
+          "9780241258750",
+          "1541618513",
+          "0241258758",
+          "9781541675704",
+          "9781541618510"
+        ],
+        "key": "/works/OL20740482W",
+        "title": "The Art of Statistics"
+      },
+      {
+        "author_name": [
+          "Colin Bryar",
+          "Bill Carr"
+        ],
+        "edition_key": [
+          "OL30009387M",
+          "OL32939057M",
+          "OL28349624M",
+          "OL29535481M",
+          "OL30691728M",
+          "OL38326193M",
+          "OL31957562M"
+        ],
+        "isbn": [
+          "1250267595",
+          "9781250267603",
+          "1529033837",
+          "9781250788054",
+          "9781529033830",
+          "1529033829",
+          "9781250275714",
+          "9781529033823",
+          "1250788056",
+          "9781529033847",
+          "1529033845",
+          "1250275717",
+          "9781250267597",
+          "1250267609"
+        ],
+        "key": "/works/OL20924654W",
+        "title": "Working Backwards"
+      },
+      {
+        "author_name": [
+          "M. Mitchell Waldrop"
+        ],
+        "edition_key": [
+          "OL48557122M",
+          "OL28302661M",
+          "OL7360185M",
+          "OL7643779M"
+        ],
+        "isbn": [
+          "1953953360",
+          "0670899763",
+          "9781953953360",
+          "9780142001356",
+          "014200135X",
+          "9780670899760",
+          "9781732265110",
+          "1732265119"
+        ],
+        "key": "/works/OL4300550W",
+        "title": "The Dream Machine"
+      },
+      {
+        "author_name": [
+          "David J. Spiegelhalter"
+        ],
+        "edition_key": [
+          "OL27934422M",
+          "OL27934405M"
+        ],
+        "isbn": [
+          "0241398630",
+          "9780241398630"
+        ],
+        "key": "/works/OL20659633W",
+        "title": "The Art of Statistics"
+      },
+      {
+        "author_name": [
+          "Roma Agrawal"
+        ],
+        "edition_key": [
+          "OL46697283M",
+          "OL40318034M",
+          "OL50657431M",
+          "OL46779536M",
+          "OL51127024M",
+          "OL40327521M"
+        ],
+        "isbn": [
+          "152934008X",
+          "1324021527",
+          "9781324021537",
+          "1324021535",
+          "9781324086383",
+          "1324086386",
+          "152934011X",
+          "9781529340075",
+          "9781529340082",
+          "9781324021520",
+          "1529340071",
+          "9781529340112"
+        ],
+        "key": "/works/OL29327902W",
+        "title": "Nuts and Bolts"
+      },
+      {
+        "author_name": [
+          "Nicholas De Monchaux"
+        ],
+        "edition_key": [
+          "OL25001018M"
+        ],
+        "isbn": [
+          "9780262015202",
+          "026201520X"
+        ],
+        "key": "/works/OL16113272W",
+        "title": "Spacesuit"
+      },
+      {
+        "author_name": [
+          "Christopher Mims"
+        ],
+        "edition_key": [
+          "OL35882116M",
+          "OL34966151M"
+        ],
+        "isbn": [
+          "006298795X",
+          "9780062987952",
+          "0062987968",
+          "9780062987969"
+        ],
+        "key": "/works/OL25908134W",
+        "title": "Arriving Today"
+      },
+      {
+        "author_name": [
+          "M. Mitchell Waldrop"
+        ],
+        "edition_key": [
+          "OL24746051M"
+        ],
+        "isbn": [
+          "9780670899760",
+          "0670899763"
+        ],
+        "key": "/works/OL15835908W",
+        "title": "The dream machine"
+      },
+      {
+        "author_name": [
+          "Nicholas de Monchaux"
+        ],
+        "edition_key": [
+          "OL10155821M",
+          "OL32198354M"
+        ],
+        "isbn": [
+          "1522666192",
+          "9780387952956",
+          "0387952950",
+          "9781522666196"
+        ],
+        "key": "/works/OL9336498W",
+        "title": "Space Suit"
+      }
+    ]
+  }
+}

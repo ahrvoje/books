@@ -1,0 +1,102 @@
+{
+  "mention": "Super Founders",
+  "url": "https://openlibrary.org/search.json?title=Super%20Founders&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:40.595Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ali Tamaseb"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2021,
+        "isbn": [
+          "9781541768420",
+          "1541768426",
+          "9781541768413",
+          "9781541788817",
+          "1541788818",
+          "1541768418"
+        ],
+        "key": "/works/OL24513191W",
+        "language": [
+          "eng"
+        ],
+        "title": "Super Founders",
+        "ratings_average": 5,
+        "ratings_count": 1
+      },
+      {
+        "edition_count": 1,
+        "first_publish_year": 2021,
+        "isbn": [
+          "166934388X",
+          "9781669343882"
+        ],
+        "key": "/works/OL27172078W",
+        "language": [
+          "eng"
+        ],
+        "title": "Summary of Ali Tamaseb's Super Founders",
+        "ratings_average": 0,
+        "ratings_count": 0
+      },
+      {
+        "author_name": [
+          "Melissa R. Williams"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2022,
+        "isbn": [
+          "9798370661280"
+        ],
+        "key": "/works/OL34404218W",
+        "language": [
+          "eng"
+        ],
+        "title": "JAMIE LOPEZ BOOK : Jamie Lopez, 'Super Sized Salon' Star and Babydoll Beauty Couture Founder, Dead At 37?"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Super Founders",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9233231A"
+        }
+      }
+    ],
+    "covers": [
+      11140171
+    ],
+    "key": "/works/OL24513191W",
+    "subjects": [
+      "Economics"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-05-21T17:24:34.224559"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-21T22:12:16.010324"
+    }
+  }
+}

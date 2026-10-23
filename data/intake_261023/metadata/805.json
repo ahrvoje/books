@@ -1,0 +1,78 @@
+{
+  "mention": "The Calculus Diaries",
+  "url": "https://openlibrary.org/search.json?title=The%20Calculus%20Diaries&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:57.939Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jennifer Ouellette"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2010,
+        "isbn": [
+          "9780715645130",
+          "9780715641439",
+          "0143117378",
+          "9780143117377",
+          "0715645137",
+          "0715641433"
+        ],
+        "key": "/works/OL15351610W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Calculus Diaries"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "A mathphobe explores calculus by starting at the quotidian (more or less) and working to the underlying principles described by calculus."
+    },
+    "covers": [
+      6462736
+    ],
+    "key": "/works/OL15351610W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1433993A"
+        }
+      }
+    ],
+    "title": "The Calculus Diaries",
+    "subjects": [
+      "calculus",
+      "applied mathematics",
+      "Mathematics",
+      "Miscellanea",
+      "Calculus, problems, exercises, etc."
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-08-26T21:16:22.335443"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-07-24T04:25:44.868791"
+    }
+  }
+}

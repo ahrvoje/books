@@ -1,0 +1,117 @@
+{
+  "mention": "Meet Me in the Bathroom",
+  "url": "https://openlibrary.org/search.json?title=Meet%20Me%20in%20the%20Bathroom&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:06.780Z",
+  "status": 200,
+  "search": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Lizzy Goodman"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 2017,
+        "isbn": [
+          "9780571337972",
+          "0062233106",
+          "153841208X",
+          "057133797X",
+          "0571337996",
+          "9780571337996",
+          "9780062233103",
+          "1538412101",
+          "9781538412107",
+          "9781538412084",
+          "0062233122",
+          "9780062233127"
+        ],
+        "key": "/works/OL20168414W",
+        "language": [
+          "eng"
+        ],
+        "title": "Meet Me in the Bathroom",
+        "ratings_average": 5,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Elizabeth Goodman"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2017,
+        "isbn": [
+          "9780062233097",
+          "0062233092"
+        ],
+        "key": "/works/OL20060333W",
+        "language": [
+          "eng"
+        ],
+        "title": "Meet me in the bathroom",
+        "ratings_average": 3,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Irb Media"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2022,
+        "isbn": [
+          "9798822536432"
+        ],
+        "key": "/works/OL28130494W",
+        "language": [
+          "eng"
+        ],
+        "title": "Summary of Lizzy Goodman's Meet Me in the Bathroom"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Rock musicians, united states",
+      "Rock music, history and criticism",
+      "Music, american",
+      "Rock musicians",
+      "History",
+      "Rock music",
+      "History and criticism"
+    ],
+    "key": "/works/OL20168414W",
+    "title": "Meet Me in the Bathroom",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7640822A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8814554
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-10-05T16:13:10.544721"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-02-19T04:38:48.055511"
+    }
+  }
+}

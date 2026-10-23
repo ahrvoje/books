@@ -1,0 +1,80 @@
+{
+  "mention": "The Sleepwalkers — Arthur Koestler",
+  "url": "https://openlibrary.org/search.json?title=The%20Sleepwalkers&author=Arthur%20Koestler&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:50:40.119Z",
+  "status": 200,
+  "search": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Arthur Koestler"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1963,
+        "key": "/works/OL16068487W",
+        "language": [
+          "eng"
+        ],
+        "title": "The sleepwalker"
+      },
+      {
+        "author_name": [
+          "Arthur Koestler"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1968,
+        "key": "/works/OL31407181W",
+        "title": "The Sleepwalkers"
+      },
+      {
+        "author_name": [
+          "Arthur Koestler"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1963,
+        "key": "/works/OL43085464W",
+        "language": [
+          "eng"
+        ],
+        "title": "The sleepwalkers "
+      }
+    ]
+  },
+  "work": {
+    "title": "The sleepwalker",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-08-12T02:29:43.293718"
+    },
+    "covers": [
+      6918632
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-02-14T02:12:56.677299"
+    },
+    "latest_revision": 6,
+    "key": "/works/OL16068487W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL67707A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 6
+  }
+}

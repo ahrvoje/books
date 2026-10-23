@@ -1,0 +1,63 @@
+{
+  "mention": "Mathematics: An Illustrated History of Numbers",
+  "url": "https://openlibrary.org/search.json?title=Mathematics%3A%20An%20Illustrated%20History%20of%20Numbers&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:56:23.767Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Tom Jackson"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2012,
+        "isbn": [
+          "0985323043",
+          "9780985323042"
+        ],
+        "key": "/works/OL17578763W",
+        "title": "Mathematics An Illustrated History of Numbers 100 Ponderables"
+      }
+    ]
+  },
+  "work": {
+    "title": "Mathematics An Illustrated History of Numbers 100 Ponderables",
+    "covers": [
+      7858497
+    ],
+    "key": "/works/OL17578763W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL369392A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Mathematics, history"
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2016-10-19T02:59:39.199430"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-06-17T05:29:01.922875"
+    }
+  }
+}

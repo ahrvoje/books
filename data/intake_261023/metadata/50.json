@@ -1,0 +1,137 @@
+{
+  "mention": "Billion Dollar Loser",
+  "url": "https://openlibrary.org/search.json?title=Billion%20Dollar%20Loser&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:47.853Z",
+  "status": 200,
+  "search": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Reeves Wiedeman"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 2020,
+        "isbn": [
+          "9781529385069",
+          "1549107526",
+          "0316461342",
+          "9780316461344",
+          "0316461334",
+          "9780316461337",
+          "0316461369",
+          "1529385067",
+          "9781549107528",
+          "9780316461368"
+        ],
+        "key": "/works/OL21690758W",
+        "language": [
+          "eng"
+        ],
+        "title": "Billion Dollar Loser",
+        "ratings_average": 4,
+        "ratings_count": 5
+      },
+      {
+        "author_name": [
+          "Anonymous"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2020,
+        "isbn": [
+          "9781529385076",
+          "1529385075"
+        ],
+        "key": "/works/OL22149894W",
+        "language": [
+          "eng"
+        ],
+        "title": "Billion Dollar Loser"
+      },
+      {
+        "author_name": [
+          "Irb Media"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2022,
+        "isbn": [
+          "9798350033977"
+        ],
+        "key": "/works/OL31177149W",
+        "language": [
+          "eng"
+        ],
+        "title": "Summary of Reeves Wiedeman's Billion Dollar Loser"
+      }
+    ]
+  },
+  "work": {
+    "title": "Billion Dollar Loser",
+    "key": "/works/OL21690758W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8298456A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "New York Times reviewed",
+      "Economics",
+      "Finance",
+      "Business failures",
+      "Case studies",
+      "Commercial real estate",
+      "Management",
+      "WeWork (Firm)"
+    ],
+    "links": [
+      {
+        "url": "https://www.nytimes.com/2020/10/21/books/review-billion-dollar-loser-adam-neumann-wework-reeves-wiedeman.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      },
+      {
+        "url": "https://www.nytimes.com/2020/10/23/books/review/billion-dollar-loser-adam-neumann-wework-reeves-wiedeman.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      },
+      {
+        "url": "https://www.nytimes.com/2020/10/23/books/review/billion-dollar-loser-adam-neumann-wework-reeves-wiedemann.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "covers": [
+      10862942
+    ],
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-26T13:54:30.511681"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-15T15:41:08.574613"
+    }
+  }
+}

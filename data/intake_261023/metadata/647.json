@@ -1,0 +1,115 @@
+{
+  "mention": "Starting Forth",
+  "url": "https://openlibrary.org/search.json?title=Starting%20Forth&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:14.763Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Leo Brodie",
+          "Inc Staff Forth"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 1981,
+        "isbn": [
+          "9780138429300",
+          "9780138430795",
+          "9780138429225",
+          "0138430799",
+          "9780317060515",
+          "013843087X",
+          "0138429227",
+          "9780138430870",
+          "0138429308",
+          "0317060511"
+        ],
+        "key": "/works/OL4688489W",
+        "language": [
+          "eng"
+        ],
+        "title": "Starting FORTH"
+      },
+      {
+        "author_name": [
+          "Juergen Pintaske"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2018,
+        "isbn": [
+          "1717825699",
+          "9781717825698"
+        ],
+        "key": "/works/OL29985127W",
+        "language": [
+          "eng"
+        ],
+        "title": "Start with Forth 2017"
+      },
+      {
+        "author_name": [
+          "S. D. Roberts"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1989,
+        "isbn": [
+          "0911827013",
+          "9780911827019"
+        ],
+        "key": "/works/OL8672419W",
+        "language": [
+          "eng"
+        ],
+        "title": "FORTH Quick-Start Introduction (Bitfire Books)"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "FORTH (Computer program language)"
+    ],
+    "key": "/works/OL4688489W",
+    "title": "Starting FORTH",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL968500A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2656389A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      4961399
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T07:11:03.402783"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-12-27T19:48:43.421095"
+    }
+  }
+}

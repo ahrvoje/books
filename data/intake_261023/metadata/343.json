@@ -1,0 +1,78 @@
+{
+  "mention": "From Clockwork to Crapshoot",
+  "url": "https://openlibrary.org/search.json?title=From%20Clockwork%20to%20Crapshoot&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:50:57.794Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Roger G. Newton"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 2006,
+        "isbn": [
+          "0674266234",
+          "0674034872",
+          "9780674023376",
+          "9780674041493",
+          "9780674266230",
+          "9780674034877",
+          "0674023374",
+          "0674041496"
+        ],
+        "key": "/works/OL2644306W",
+        "language": [
+          "eng"
+        ],
+        "title": "From clockwork to crapshoot"
+      }
+    ]
+  },
+  "work": {
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-20T04:36:27.894485"
+    },
+    "title": "From clockwork to crapshoot",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T00:08:52.291355"
+    },
+    "covers": [
+      412698
+    ],
+    "first_publish_date": "2006",
+    "latest_revision": 5,
+    "key": "/works/OL2644306W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL385397A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "530.09"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Physics",
+      "History",
+      "Physics, history"
+    ],
+    "revision": 5
+  }
+}

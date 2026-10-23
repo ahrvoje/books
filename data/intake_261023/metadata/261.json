@@ -1,0 +1,121 @@
+{
+  "mention": "Alone on the Wall",
+  "url": "https://openlibrary.org/search.json?title=Alone%20on%20the%20Wall&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:50:04.112Z",
+  "status": 200,
+  "search": {
+    "numFound": 8,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 8,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Alex Honnold"
+        ],
+        "edition_count": 7,
+        "first_publish_year": 2015,
+        "isbn": [
+          "9780393353174",
+          "0393353176",
+          "0393356914",
+          "9780393247626",
+          "0393356140",
+          "9780393356144",
+          "9780393247633",
+          "0393247635",
+          "1529034426",
+          "9780393356915",
+          "9781529034424",
+          "9781447282730",
+          "1447282736",
+          "0393247627"
+        ],
+        "key": "/works/OL20010718W",
+        "language": [
+          "eng"
+        ],
+        "title": "Alone on the wall",
+        "ratings_average": 3.75,
+        "ratings_count": 4
+      },
+      {
+        "author_name": [
+          "Alex Honnold"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2001,
+        "isbn": [
+          "9781447282686",
+          "144728268X"
+        ],
+        "key": "/works/OL20402544W",
+        "title": "Alone on the Wall"
+      },
+      {
+        "author_name": [
+          "Alex Roberts David Honnold"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2015,
+        "isbn": [
+          "9781447282693",
+          "1447282698"
+        ],
+        "key": "/works/OL20307862W",
+        "title": "Alone on the Wall"
+      }
+    ]
+  },
+  "work": {
+    "title": "Alone on the wall",
+    "covers": [
+      10166317
+    ],
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Mountaineers",
+      "Biography",
+      "Rock climbing",
+      "nyt:sports=2015-12-13",
+      "New York Times bestseller",
+      "United states, biography"
+    ],
+    "subject_people": [
+      "Alex Honnold"
+    ],
+    "key": "/works/OL20010718W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7603191A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "\"The extreme climber famed for his solo ascents without ropes, partners or gear describes his seven most significant achievements, including a free-solo climb up Mexico's Sendero Luminoso and the Fitz Traverse ascent in Patagonia,\"--NoveList."
+    },
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-19T05:25:25.833160"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-02-14T16:18:30.953112"
+    }
+  }
+}

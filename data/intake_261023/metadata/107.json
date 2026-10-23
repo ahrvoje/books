@@ -1,0 +1,92 @@
+{
+  "mention": "An Officer, Not a Gentleman",
+  "url": "https://openlibrary.org/search.json?title=An%20Officer%2C%20Not%20a%20Gentleman&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:24.785Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Leroy J. Lester"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2007,
+        "isbn": [
+          "1893181960",
+          "9780979800801",
+          "9781893181960",
+          "0979800803"
+        ],
+        "key": "/works/OL9776448W",
+        "language": [
+          "eng"
+        ],
+        "title": "An Officer . . . Not a Gentleman"
+      },
+      {
+        "author_name": [
+          "Philip Playstowe"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2018,
+        "isbn": [
+          "9781385776605",
+          "1385776609"
+        ],
+        "key": "/works/OL28566059W",
+        "language": [
+          "eng"
+        ],
+        "title": "Gentleman's Guide in His Tour Through France. by an Officer, Who Lately Travelled on a Principle Which He Recommends Not to Spend More Money Than Is Requisite to Support, with Decency, the Character of an Englishman. the Sixth Ed"
+      }
+    ]
+  },
+  "work": {
+    "title": "An Officer . . . Not a Gentleman",
+    "covers": [
+      5182833
+    ],
+    "key": "/works/OL9776448W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3765218A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Marine engineers",
+      "Biography",
+      "Officers",
+      "Fishers",
+      "Vietnam War, 1961-1975",
+      "Personal narratives",
+      "Portuguese Americans",
+      "United States. Navy",
+      "United States"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T01:20:09.250696"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-12-19T23:52:08.903130"
+    }
+  }
+}

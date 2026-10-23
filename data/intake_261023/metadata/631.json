@@ -1,0 +1,108 @@
+{
+  "mention": "The Productive Programmer",
+  "url": "https://openlibrary.org/search.json?title=The%20Productive%20Programmer&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:04.515Z",
+  "status": 200,
+  "search": {
+    "numFound": 63,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 63,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Neal Ford"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2008,
+        "isbn": [
+          "9780596154325",
+          "0596519788",
+          "1306817293",
+          "9780596519780",
+          "9781306817295",
+          "0596154321",
+          "059655186X",
+          "9780596551865"
+        ],
+        "key": "/works/OL15940730W",
+        "language": [
+          "eng"
+        ],
+        "title": "The productive programmer",
+        "ratings_average": 4.5,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Canada. Dept. of External Affairs."
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1951,
+        "key": "/works/OL5028916W",
+        "language": [
+          "eng"
+        ],
+        "title": "Some Aspects of the Canadian Defence Production Programme"
+      },
+      {
+        "author_name": [
+          "P. P. I. Vaidyanathan"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1958,
+        "key": "/works/OL4263305W",
+        "language": [
+          "eng"
+        ],
+        "title": "A critical survey of the food production programme in Madras State"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "Suggests ways for software developers and programmers to work \" better, faster, and cheaper.\" Offers advice on tools for and the mechanics of productivity - \"how to work smarter, spurn interruptions, get the most out of your computer, and avoid repetition. ... [Recommends] practices that will help you elude common traps, improve your code, and become more valuable to your team.\"--Publisher."
+    },
+    "covers": [
+      8710347
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2019-07-06T14:48:31.063378"
+    },
+    "latest_revision": 2,
+    "key": "/works/OL15940730W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2752645A"
+        }
+      }
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-07-26T20:02:31.495232"
+    },
+    "title": "The productive programmer",
+    "subjects": [
+      "Development",
+      "Softwareentwicklung",
+      "Computer programming",
+      "Software engineering",
+      "Programmierung",
+      "Computer programmers",
+      "Computer software"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 2
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "mention": "Philip and Alex's Guide to Web Publishing",
+  "url": "https://openlibrary.org/search.json?title=Philip%20and%20Alex's%20Guide%20to%20Web%20Publishing&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:03.810Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Philip Greenspun"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1999,
+        "isbn": [
+          "0080513751",
+          "1558605347",
+          "9781558605343",
+          "9780080513751"
+        ],
+        "key": "/works/OL2897801W",
+        "language": [
+          "eng"
+        ],
+        "title": "Philip and Alex's Guide to Web Publishing",
+        "ratings_average": 5,
+        "ratings_count": 1
+      }
+    ]
+  },
+  "work": {
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-02-14T03:17:15.685393"
+    },
+    "title": "Philip and Alex's Guide to Web Publishing",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T00:58:49.974872"
+    },
+    "covers": [
+      784178
+    ],
+    "first_sentence": {
+      "type": "/type/text",
+      "value": "Why did the world buy 20 million expensive computers and connect them together?"
+    },
+    "first_publish_date": "April 1999",
+    "latest_revision": 6,
+    "key": "/works/OL2897801W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL440716A"
+        }
+      }
+    ],
+    "excerpts": [
+      {
+        "excerpt": {
+          "type": "/type/text",
+          "value": "Why did the world buy 20 million expensive computers and connect them together?"
+        },
+        "page": "First sentence"
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Sites Web",
+      "Elektronisch publiceren",
+      "Web sites",
+      "Websites",
+      "Création",
+      "HTML",
+      "Design",
+      "Édition sur le Web",
+      "Databases",
+      "Bases de données",
+      "Databanken",
+      "Vormgeving",
+      "Web publishing"
+    ],
+    "revision": 6
+  }
+}

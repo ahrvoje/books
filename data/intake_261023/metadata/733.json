@@ -1,0 +1,108 @@
+{
+  "mention": "C++ Black Book",
+  "url": "https://openlibrary.org/search.json?title=C%2B%2B%20Black%20Book&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:10.771Z",
+  "status": 200,
+  "search": {
+    "numFound": 20,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 20,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Steven Holzner"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2000,
+        "isbn": [
+          "1576107779",
+          "9781576107775",
+          "9781932111262",
+          "1932111263"
+        ],
+        "key": "/works/OL102160W",
+        "language": [
+          "eng"
+        ],
+        "title": "C++ Black Book",
+        "ratings_average": 5,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Max Fomitchev"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2002,
+        "isbn": [
+          "9781588802699",
+          "1588802698"
+        ],
+        "key": "/works/OL8927445W",
+        "language": [
+          "eng"
+        ],
+        "title": "Visual C++ .NET Programming Black Book"
+      },
+      {
+        "edition_count": 1,
+        "isbn": [
+          "932111697"
+        ],
+        "key": "/works/OL14437785M",
+        "title": "VISUAL C++ NET PPROGRAMMING BLACK BOOK"
+      }
+    ]
+  },
+  "work": {
+    "subtitle": "A Comprehensive Guide to C++ Mastery",
+    "description": {
+      "type": "/type/text",
+      "value": "This book is priceless among developers whose core programming language is C++. Before I begin, Steven Holzner is an exceptional programmer. His explanations of very complex topics in general terms place him well above most authors writing in the same genre. Prior to this publication, the C++ community was in shambles. Many developers began to customize their own procedures, namespaces, methods, even compilers. There wasn't any guarantee that you could port anything from another developer to run on your machine. ANSI, in response, standardized the language (ANSI-ISO Standardized C++). This move ensured that all developers, hobbyist and professional, were using he same code base. However, the ANSI standardization documents were long, cryptic, and difficult to understand...until C++ Black Book was published. After reading this book, I picked up the standardized ANSI version of C++, and still use it to this day. I would recommend any beginner or expert software engineer to purchase this book. I can't say enough great things about the book, or it's author."
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-07-29T03:38:07.141042"
+    },
+    "title": "C++ Black Book",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-10-17T18:36:50.013545"
+    },
+    "covers": [
+      830042
+    ],
+    "subjects": [
+      "C++",
+      "programming",
+      "software",
+      "computers",
+      "computer science",
+      "computer language",
+      "C++ (Computer program language)"
+    ],
+    "subject_people": [
+      "Steven Holzner"
+    ],
+    "key": "/works/OL102160W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL29435A"
+        }
+      }
+    ],
+    "latest_revision": 6,
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 6
+  }
+}

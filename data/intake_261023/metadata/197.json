@@ -1,0 +1,100 @@
+{
+  "mention": "Eiffel — Bertrand Meyer",
+  "url": "https://openlibrary.org/search.json?title=Eiffel&author=Bertrand%20Meyer&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:22.479Z",
+  "status": 200,
+  "search": {
+    "numFound": 5,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 5,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Bertrand Meyer"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 1991,
+        "isbn": [
+          "9780132479257",
+          "0132479257"
+        ],
+        "key": "/works/OL2624375W",
+        "language": [
+          "eng"
+        ],
+        "title": "Eiffel"
+      },
+      {
+        "author_name": [
+          "Bertrand Meyer"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1995,
+        "key": "/works/OL2624369W",
+        "language": [
+          "eng"
+        ],
+        "title": "ISE Eiffel"
+      },
+      {
+        "author_name": [
+          "Bertrand Meyer"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1991,
+        "isbn": [
+          "9789995129033",
+          "9995129035"
+        ],
+        "key": "/works/OL2624364W",
+        "title": "Eiffel Collection"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "October 1, 1991",
+    "title": "Eiffel",
+    "covers": [
+      89755
+    ],
+    "lc_classifications": [
+      "QA76.73.E36 M49 1991"
+    ],
+    "key": "/works/OL2624375W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL382352A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "005.13/3"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Eiffel (Computer program language)",
+      "Object-oriented programming (computer science)",
+      "Other programming languages"
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T00:06:54.292540"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-19T20:33:34.258567"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "mention": "Looking for a Ship",
+  "url": "https://openlibrary.org/search.json?title=Looking%20for%20a%20Ship&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:13.273Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John McPhee"
+        ],
+        "edition_count": 9,
+        "first_publish_year": 1990,
+        "isbn": [
+          "9781560541028",
+          "9780374523190",
+          "0374190771",
+          "3608913009",
+          "9780374190774",
+          "9780517106976",
+          "9781429958110",
+          "0921912099",
+          "0394589181",
+          "9780921912095",
+          "0517106973",
+          "9780394589183",
+          "1429958111",
+          "1560541024",
+          "0374523193",
+          "9783608913002"
+        ],
+        "key": "/works/OL116210W",
+        "language": [
+          "ger",
+          "eng"
+        ],
+        "title": "Looking for a ship",
+        "ratings_average": 4,
+        "ratings_count": 3
+      },
+      {
+        "edition_count": 1,
+        "isbn": [
+          "9780374190798",
+          "0374190798"
+        ],
+        "key": "/works/OL36424641W",
+        "title": "Looking for a Ship"
+      },
+      {
+        "author_name": [
+          "Natascha Libbert"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2018,
+        "isbn": [
+          "9789492051387",
+          "9492051389"
+        ],
+        "key": "/works/OL24152488W",
+        "language": [
+          "eng"
+        ],
+        "title": "Natascha Libbert - I Went Looking For A Ship"
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      223163,
+      10096501
+    ],
+    "key": "/works/OL116210W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL29767A"
+        }
+      }
+    ],
+    "title": "Looking for a ship",
+    "subjects": [
+      "Seafaring life",
+      "Stella Lykes (Ship)",
+      "Journeys",
+      "Merchant ships",
+      "Merchant marine"
+    ],
+    "subject_people": [
+      "John McPhee (1931-)"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "This is an extraordinary tale of life on the high seas aboard one of the last American merchant ships, the S.S. Stella Lykes, on a forty-two-day journey from Charleston down the Pacific coast of South America. As the crew of the Stella Lykes makes their ocean voyage, they tell stories of other runs and other ships, tales of disaster, stupidity, greed, generosity, and courage."
+    },
+    "latest_revision": 13,
+    "revision": 13,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-10-18T05:16:23.492575"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-04-06T17:45:31.262419"
+    }
+  }
+}

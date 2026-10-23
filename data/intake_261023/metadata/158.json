@@ -1,0 +1,88 @@
+{
+  "mention": "Gamers at Work",
+  "url": "https://openlibrary.org/search.json?title=Gamers%20at%20Work&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:57.473Z",
+  "status": 200,
+  "search": {
+    "numFound": 5,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 5,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Enicay"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2021,
+        "isbn": [
+          "9798702450575"
+        ],
+        "key": "/works/OL30922013W",
+        "language": [
+          "fre"
+        ],
+        "title": "Gamer at Work"
+      },
+      {
+        "author_name": [
+          "Morgan Ramsay"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2012,
+        "isbn": [
+          "9781430233510",
+          "1430233516"
+        ],
+        "key": "/works/OL17459796W",
+        "title": "Gamers At Work Stories Behind The Games People Play"
+      },
+      {
+        "author_name": [
+          "Morgan Ramsay"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2012,
+        "isbn": [
+          "9781430233527",
+          "1430233524"
+        ],
+        "key": "/works/OL19852128W",
+        "language": [
+          "eng"
+        ],
+        "title": "Gamers at Work"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Gamer at Work",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL10298240A"
+        }
+      }
+    ],
+    "key": "/works/OL30922013W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-12-02T11:00:20.570068"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-02T11:00:20.570068"
+    }
+  }
+}

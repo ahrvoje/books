@@ -1,0 +1,112 @@
+{
+  "mention": "The Art of Prolog",
+  "url": "https://openlibrary.org/search.json?title=The%20Art%20of%20Prolog&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:23.761Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Leon Sterling",
+          "Ehud Yehuda Shapiro"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 1986,
+        "isbn": [
+          "9780262192507",
+          "9780262691635",
+          "9780262193382",
+          "0262193388",
+          "0262192500",
+          "0262691639",
+          "9780262691055",
+          "0262691051"
+        ],
+        "key": "/works/OL3961566W",
+        "language": [
+          "eng"
+        ],
+        "title": "The art of Prolog",
+        "ratings_average": 4.5,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Leon Sterling",
+          "Ehud Yehuda Shapiro"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1987,
+        "isbn": [
+          "9780262691079",
+          "0262691078"
+        ],
+        "key": "/works/OL34571510W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Art of Prolog"
+      }
+    ]
+  },
+  "work": {
+    "subtitle": "advanced programming techniques",
+    "covers": [
+      8099021,
+      150629
+    ],
+    "key": "/works/OL3961566W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL723569A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1460172A"
+        }
+      }
+    ],
+    "title": "The art of Prolog",
+    "subjects": [
+      "Prolog (Computer program language)",
+      "Programming (Electronic computers)",
+      "Prolog (Langage de programmation)",
+      "PROLOG",
+      "Computers &amp; the internet",
+      "Programming",
+      "Computer science"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "This second edition contains revised chapters taking into account recent research advances. More advanced exercises have been included, and \"Part II The Prolog Language\" has been modified to be compatible with the new Prolog standard. This is a graduate level text that can be used for self-study."
+    },
+    "latest_revision": 14,
+    "revision": 14,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T04:57:39.052234"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-06-26T06:26:34.327362"
+    }
+  }
+}

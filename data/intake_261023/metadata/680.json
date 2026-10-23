@@ -1,0 +1,71 @@
+{
+  "mention": "Solid Code — Donis Marshall John Bruno",
+  "url": "https://openlibrary.org/search.json?title=Solid%20Code&author=Donis%20Marshall%20John%20Bruno&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:36.441Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Donis Marshall",
+          "John Bruno"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2009,
+        "isbn": [
+          "9780735638518",
+          "0735636613",
+          "9780735636613",
+          "0735638519"
+        ],
+        "key": "/works/OL25150687W",
+        "language": [
+          "eng"
+        ],
+        "title": "Solid Code"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Solid Code",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2736678A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3828686A"
+        }
+      }
+    ],
+    "key": "/works/OL25150687W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-09-18T03:29:47.756769"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-18T03:29:47.756769"
+    }
+  }
+}

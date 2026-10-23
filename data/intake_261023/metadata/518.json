@@ -1,0 +1,93 @@
+{
+  "mention": "Epistle of James",
+  "url": "https://openlibrary.org/search.json?title=Epistle%20of%20James&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:52:53.117Z",
+  "status": 200,
+  "search": {
+    "numFound": 431,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 431,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "James Moffatt"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2018,
+        "isbn": [
+          "9780341936954",
+          "9780343892814",
+          "0343892804",
+          "0343892812",
+          "9780343892807",
+          "9780341936961",
+          "0341936952",
+          "0341936960"
+        ],
+        "key": "/works/OL24460774W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Epistle of James"
+      },
+      {
+        "author_name": [
+          "C. Leslie Mitton"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 1966,
+        "key": "/works/OL6440043W",
+        "language": [
+          "eng"
+        ],
+        "title": "The epistle of James"
+      },
+      {
+        "author_name": [
+          "Ross, Alexander"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 1954,
+        "key": "/works/OL7490472W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Epistles of James and John"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The Epistle of James",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL5995594A"
+        }
+      }
+    ],
+    "covers": [
+      11063672
+    ],
+    "key": "/works/OL24460774W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-05-12T06:34:23.708907"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-05-12T06:34:23.708907"
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "mention": "Just for Fun",
+  "url": "https://openlibrary.org/search.json?title=Just%20for%20Fun&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:33.791Z",
+  "status": 200,
+  "search": {
+    "numFound": 204,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 204,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Linus Torvalds",
+          "David Diamond"
+        ],
+        "edition_count": 14,
+        "first_publish_year": 2001,
+        "isbn": [
+          "9781587990809",
+          "0694525448",
+          "9780694525393",
+          "0694525391",
+          "3423362995",
+          "9782746403215",
+          "1587990806",
+          "0066620732",
+          "9781587991516",
+          "9783446216846",
+          "9783423362993",
+          "3446216847",
+          "1587991519",
+          "9788811738961",
+          "0066620724",
+          "2746403218",
+          "9780694525447",
+          "9780066620725",
+          "8811738962",
+          "9780066620732"
+        ],
+        "key": "/works/OL12494344W",
+        "language": [
+          "ita",
+          "fre",
+          "ger",
+          "eng"
+        ],
+        "title": "Just for fun",
+        "ratings_average": 4.1,
+        "ratings_count": 10
+      },
+      {
+        "author_name": [
+          "Patricia M. Scarry"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1960,
+        "isbn": [
+          "9780307021168",
+          "0307021165"
+        ],
+        "key": "/works/OL4133968W",
+        "language": [
+          "eng"
+        ],
+        "title": "Just for fun",
+        "ratings_average": 5,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Debbie Mumm"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2005,
+        "isbn": [
+          "9781574864885",
+          "1574864882"
+        ],
+        "key": "/works/OL798896W",
+        "language": [
+          "eng"
+        ],
+        "title": "Just for Fun"
+      }
+    ]
+  },
+  "work": {
+    "title": "Just for fun",
+    "covers": [
+      6933170,
+      1008054,
+      7895276
+    ],
+    "subject_places": [
+      "Finland"
+    ],
+    "first_publish_date": "2001",
+    "subject_people": [
+      "Linus Torvalds (1969-)"
+    ],
+    "key": "/works/OL12494344W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL2633060A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      },
+      {
+        "author": {
+          "key": "/authors/OL13586847A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "dewey_number": [
+      "005.1092"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Biography",
+      "Computer programmers",
+      "Linux (computer operating system)",
+      "computer",
+      "open source",
+      "Autobiographie",
+      "Geschichte",
+      "Finland, biography"
+    ],
+    "description": "Linus Torvalds erzählt, wie es dazu kam, dass er Linux entwickelte und gibt Einblicke in seine Denkweise.",
+    "links": [
+      {
+        "title": "Buchvorstellung auf pro-linux.de",
+        "url": "http://www.pro-linux.de/artikel/2/print/684/buchvorstellung-just-for-fun.html",
+        "type": {
+          "key": "/type/link"
+        }
+      },
+      {
+        "title": "Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Just_for_Fun_(Buch)",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "excerpts": [
+      {
+        "pages": "262",
+        "excerpt": "Überleben. Sozialkontakte pflegen. Spaß haben. Das ist der Lauf der Dinge. Und deshalb wählten wir \"Just for Fun\" als Titel dieses Buches. Weil alles, war wir tun, letztlich unserer eigenen Unterhaltung zu dienen scheint. Jedenfalls wenn wir die Chance erhalten haben, so weit zu kommen.",
+        "comment": "Kurze Zusammenfassung von Torvalds' Lebensphilosophie.",
+        "author": {
+          "key": "/people/AndiPersti"
+        }
+      }
+    ],
+    "latest_revision": 12,
+    "revision": 12,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T07:03:05.292911"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-08-25T13:06:05.575503"
+    }
+  }
+}

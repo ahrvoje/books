@@ -1,0 +1,89 @@
+{
+  "mention": "Riding the Runaway Horse",
+  "url": "https://openlibrary.org/search.json?title=Riding%20the%20Runaway%20Horse&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:42.558Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Charles Kenney"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1992,
+        "isbn": [
+          "0316489190",
+          "9780316489195"
+        ],
+        "key": "/works/OL1822109W",
+        "language": [
+          "eng"
+        ],
+        "title": "Riding the runaway horse"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1992",
+    "description": {
+      "type": "/type/text",
+      "value": "An interesting book about an early computer pioneer, and the meteoric rise  of his company and its equally meteoric demise. Perhaps the saddest aspect of the book is that the fundamental flaw in Wang's character was that he was a control freak and determined  to allow no one except his son Fred to manage the company . This, and the fact  essentially the company became a one product enterprise, resulted in its rapid failure once the need for the product ( a stand alone word processor )  evaporated with the advent of the PC"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-02-13T18:02:13.648920"
+    },
+    "title": "Riding the runaway horse",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:25:39.660399"
+    },
+    "covers": [
+      7446494
+    ],
+    "subject_places": [
+      "United States"
+    ],
+    "lc_classifications": [
+      "HD9696.C64 W364 1992"
+    ],
+    "subject_people": [
+      "An Wang (1920-)"
+    ],
+    "key": "/works/OL1822109W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL218436A"
+        }
+      }
+    ],
+    "latest_revision": 8,
+    "dewey_number": [
+      "338.7/61004/0973"
+    ],
+    "subjects": [
+      "Inc Wang Laboratories",
+      "Electronic industries",
+      "Computer industry",
+      "History"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subject_times": [
+      "1950 - 1992"
+    ],
+    "revision": 8
+  }
+}

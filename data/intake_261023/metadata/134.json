@@ -1,0 +1,107 @@
+{
+  "mention": "Engineer to Win",
+  "url": "https://openlibrary.org/search.json?title=Engineer%20to%20Win&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:42.142Z",
+  "status": 200,
+  "search": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Carroll Smith"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1984,
+        "isbn": [
+          "9780879381868",
+          "0879381868"
+        ],
+        "key": "/works/OL4445096W",
+        "language": [
+          "eng"
+        ],
+        "title": "Engineer to win"
+      },
+      {
+        "author_name": [
+          "Carroll Smith"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1984,
+        "isbn": [
+          "0850456282",
+          "9780879381868",
+          "0879381868",
+          "9780850456288"
+        ],
+        "key": "/works/OL3006175W",
+        "language": [
+          "eng"
+        ],
+        "title": "Engineer to win",
+        "ratings_average": 5,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Donald V. Helgeson"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1994,
+        "isbn": [
+          "9780890067802",
+          "0890067805"
+        ],
+        "key": "/works/OL3488589W",
+        "language": [
+          "eng"
+        ],
+        "title": "Engineer's and manager's guide to winning proposals"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Racing Automobiles",
+      "Design and construction"
+    ],
+    "key": "/works/OL4445096W",
+    "title": "Engineer to win",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL884742A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      674929
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"Engineers to Win\" is a highly regarded book authored by Carroll Smith, a respected figure in the world of motorsports engineering. This insightful and comprehensive guide delves into the principles and techniques behind designing and constructing winning race cars. With a wealth of knowledge gained from his extensive experience as a race car engineer and mechanic, Smith shares practical advice, engineering concepts, and valuable strategies to help aspiring engineers excel in the competitive realm of motorsports. From aerodynamics and suspension tuning to vehicle dynamics and materials selection, this book covers a wide range of topics essential to achieving success on the race track. \"Engineers to Win\" is a must-read for anyone passionate about motorsports engineering, offering an invaluable resource for both beginners and seasoned professionals in the field."
+    },
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T06:23:41.455615"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-05-20T15:51:41.956239"
+    }
+  }
+}

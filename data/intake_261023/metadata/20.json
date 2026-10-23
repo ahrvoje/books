@@ -1,0 +1,60 @@
+{
+  "mention": "Out of the Shadows — Jonathan Kingsman",
+  "url": "https://openlibrary.org/search.json?title=Out%20of%20the%20Shadows&author=Jonathan%20Kingsman&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:28.668Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Mr Jonathan Charles Kingsman"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2019,
+        "isbn": [
+          "170426782X",
+          "9781704267821"
+        ],
+        "key": "/works/OL21180669W",
+        "title": "Out of the Shadows"
+      }
+    ]
+  },
+  "work": {
+    "title": "Out of the Shadows",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-12T17:31:25.729263"
+    },
+    "covers": [
+      10340108
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-12T17:31:25.729263"
+    },
+    "latest_revision": 1,
+    "key": "/works/OL21180669W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8110854A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "mention": "IBM's 360 and Early 370 Systems",
+  "url": "https://openlibrary.org/search.json?title=IBM's%20360%20and%20Early%20370%20Systems&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:15.447Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Emerson W. Pugh"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1991,
+        "isbn": [
+          "0262161230",
+          "9780262161237",
+          "0262517205",
+          "9780262517201"
+        ],
+        "key": "/works/OL3487773W",
+        "language": [
+          "eng"
+        ],
+        "title": "IBM's 360 and early 370 systems",
+        "ratings_average": 4,
+        "ratings_count": 1
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1991",
+    "title": "IBM's 360 and early 370 systems",
+    "covers": [
+      1154117
+    ],
+    "lc_classifications": [
+      "QA76.8.I12 P84 1991"
+    ],
+    "key": "/works/OL3487773W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL582098A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "004.1/25"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "IBM 370 (Computer)",
+      "IBM 360 (Computer)",
+      "IBM computers",
+      "History"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "No new product offering has had greater impact on the computer industry than the IBM System/360. IBM's 360 and Early 370 Systems describes the creation of this remarkable system and the developments it spawned, including its successor, System/370. The authors tell how System/360's widely-copied architecture came into being and how IBM failed in an effort to replace it ten years later with a bold development effort called FS, the Future System. --from publisher description."
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T03:41:51.474073"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-03-20T10:33:36.475843"
+    }
+  }
+}

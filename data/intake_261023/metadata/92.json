@@ -1,0 +1,120 @@
+{
+  "mention": "Project Azorian",
+  "url": "https://openlibrary.org/search.json?title=Project%20Azorian&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:15.191Z",
+  "status": 200,
+  "search": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Norman Polmar",
+          "Michael White"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2010,
+        "isbn": [
+          "1591146909",
+          "9781591146902",
+          "1591146682",
+          "9781591146681"
+        ],
+        "key": "/works/OL15538593W",
+        "language": [
+          "eng"
+        ],
+        "title": "Project Azorian"
+      },
+      {
+        "author_name": [
+          "The Central Intelligence Agency"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2017,
+        "isbn": [
+          "1365730700",
+          "9781365730702"
+        ],
+        "key": "/works/OL29122245W",
+        "language": [
+          "eng"
+        ],
+        "title": "Project Azorian"
+      },
+      {
+        "author_name": [
+          "United States. Central Intelligence Agency"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1985,
+        "key": "/works/OL33057300W",
+        "language": [
+          "eng"
+        ],
+        "title": "Project AZORIAN"
+      }
+    ]
+  },
+  "work": {
+    "subject_places": [
+      "Soviet Union"
+    ],
+    "subjects": [
+      "United States. Central Intelligence Agency",
+      "Submarine disasters",
+      "United States",
+      "Jennifer Project",
+      "K-129 (Submarine)",
+      "Soviet Union. Voenno-Morskoĭ Flot",
+      "Submarine forces",
+      "Soviet Union",
+      "Glomar Explorer (Ship)",
+      "History",
+      "Submarines (ships)",
+      "Soviet union, navy",
+      "United states, central intelligence agency"
+    ],
+    "key": "/works/OL15538593W",
+    "title": "Project Azorian",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL402912A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6078401A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      13253707
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-12-04T09:42:32.171193"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-02-19T19:38:42.024343"
+    }
+  }
+}

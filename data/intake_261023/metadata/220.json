@@ -1,0 +1,117 @@
+{
+  "mention": "The Bastard Brigade",
+  "url": "https://openlibrary.org/search.json?title=The%20Bastard%20Brigade&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:37.914Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Sam Kean"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 2019,
+        "isbn": [
+          "9781529374872",
+          "9781529374889",
+          "152937488X",
+          "0316381675",
+          "9780316381666",
+          "9781529374865",
+          "0316381667",
+          "1529374863",
+          "1529374871",
+          "9780316381680",
+          "0316381683",
+          "9780316381673"
+        ],
+        "key": "/works/OL20840092W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Bastard Brigade",
+        "ratings_average": 4,
+        "ratings_count": 3
+      },
+      {
+        "edition_count": 1,
+        "first_publish_year": 1972,
+        "isbn": [
+          "9780515268270",
+          "0515268275"
+        ],
+        "key": "/works/OL10431091M",
+        "language": [
+          "eng"
+        ],
+        "title": "The Bastard Brigade"
+      },
+      {
+        "edition_count": 1,
+        "isbn": [
+          "0450042448",
+          "9780450042447"
+        ],
+        "key": "/works/OL35578326W",
+        "title": "The Bastard Brigade"
+      }
+    ]
+  },
+  "work": {
+    "title": "The Bastard Brigade",
+    "covers": [
+      10148259
+    ],
+    "key": "/works/OL20840092W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6758454A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Manhattan project (u.s.)",
+      "United states, war department",
+      "World war, 1939-1945, military intelligence",
+      "Atomic bomb",
+      "World War, 1939-1945",
+      "Science",
+      "History",
+      "Nuclear physics",
+      "Research",
+      "HISTORY / Military / World War II",
+      "HISTORY / Military / Nuclear Warfare",
+      "HISTORY / Europe / Germany",
+      "United States. War Department. Alsos Mission",
+      "United States"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Traces the story of a renegade group of soldiers, scientists, and spies who were sent into Axis territory to spy on and sabotage Germany's nuclear weapons research and prevent Hitler from obtaining a nuclear bomb."
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-06-07T21:01:30.240420"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-08-21T17:56:35.541450"
+    }
+  }
+}

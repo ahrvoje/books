@@ -1,0 +1,86 @@
+{
+  "mention": "The Six-Month Fix",
+  "url": "https://openlibrary.org/search.json?title=The%20Six-Month%20Fix&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:00.770Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Gary Sutton"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2001,
+        "isbn": [
+          "9780470341957",
+          "9780471036265",
+          "0471036269",
+          "0470341955"
+        ],
+        "key": "/works/OL2926798W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Six Month Fix"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "November 15, 2001",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-04-28T08:24:08.593249"
+    },
+    "title": "The Six Month Fix",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T01:06:15.187301"
+    },
+    "covers": [
+      300433
+    ],
+    "first_sentence": {
+      "type": "/type/text",
+      "value": "We're not talking brain surgery."
+    },
+    "lc_classifications": [
+      "HD58.8 .S884 2002"
+    ],
+    "latest_revision": 3,
+    "key": "/works/OL2926798W",
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL446058A"
+        }
+      }
+    ],
+    "excerpts": [
+      {
+        "excerpt": {
+          "type": "/type/text",
+          "value": "We're not talking brain surgery."
+        },
+        "page": "First sentence"
+      }
+    ],
+    "subjects": [
+      "Corporate turnarounds",
+      "Corporate reorganizations",
+      "Business failures"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "id": 38103637,
+    "revision": 3
+  }
+}

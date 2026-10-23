@@ -1,0 +1,76 @@
+{
+  "mention": "Zen of Assembly Language",
+  "url": "https://openlibrary.org/search.json?title=Zen%20of%20Assembly%20Language&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:57.482Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Michael Abrash"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1990,
+        "isbn": [
+          "9780673386021",
+          "0673386023"
+        ],
+        "key": "/works/OL2098182W",
+        "language": [
+          "eng"
+        ],
+        "title": "Zen of assembly language",
+        "ratings_average": 5,
+        "ratings_count": 1
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1990",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-11-09T08:03:19.159173"
+    },
+    "title": "Zen of assembly language",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:53:41.171454"
+    },
+    "covers": [
+      8736560
+    ],
+    "lc_classifications": [
+      "QA76.73.A8 A27 1990"
+    ],
+    "latest_revision": 4,
+    "key": "/works/OL2098182W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL259100A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "005.265"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Assembler language (Computer program language)",
+      "Assembly languages (Electronic computers)"
+    ],
+    "revision": 4
+  }
+}

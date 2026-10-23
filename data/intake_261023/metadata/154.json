@@ -1,0 +1,83 @@
+{
+  "mention": "I Am Error",
+  "url": "https://openlibrary.org/search.json?title=I%20Am%20Error&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:55.119Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Nathan Altice"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 2015,
+        "isbn": [
+          "9780262534543",
+          "0262328402",
+          "9780262328395",
+          "0262028778",
+          "9780262328388",
+          "0262328380",
+          "9780262328401",
+          "0262328399",
+          "0262534541",
+          "9780262028776"
+        ],
+        "key": "/works/OL20078023W",
+        "language": [
+          "eng"
+        ],
+        "title": "I Am Error: The Nintendo Family Computer / Entertainment System Platform (Platform Studies)"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Nintendo video games",
+      "Video games",
+      "Design",
+      "Nintendo of America Inc",
+      "Video games, design"
+    ],
+    "key": "/works/OL20078023W",
+    "title": "I Am Error: The Nintendo Family Computer / Entertainment System Platform (Platform Studies)",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7618243A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8750289,
+      8882123
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "In the 1987 Nintendo Entertainment System videogame Zelda II: The Adventure of Link, a character famously declared: I AM ERROR. Puzzled players assumed that this cryptic mesage was a programming flaw, but it was actually a clumsy Japanese-English translation of \"My Name is Error,\" a benign programmer's joke. In I AM ERROR Nathan Altice explores the complex material histories of the Nintendo Entertainment System (and its Japanese predecessor, the Family Computer), offering a detailed analysis of its programming and engineering, its expressive affordances, and its cultural significance. Nintendo games were rife with mistranslated texts, but, as Altice explains, Nintendo's translation challenges were not just linguistic but also material, with consequences beyond simple misinterpretation. Emphasizing the technical and material evolution of Nintendo's first cartridge-based platform, Altice describes the development of the Family Computer (or Famicom) and its computational architecture; the \"translation\" problems faced while adapting the Famicom for the U.S. videogame market as the redesigned Entertainment System; Nintendo's breakthrough console title Super Mario Bros. and its remarkable software innovations; the introduction of Nintendo's short-lived proprietary disk format and the design repercussions onThe Legend of Zelda; Nintendo's efforts to extend their console's lifespan through cartridge augmentations; the Famicom's Audio Processing Unit (APU) and its importance for the chiptunes genre; and the emergence of software emulators and the new kinds of play they enabled."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-08-05T12:43:43.403840"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-05-07T16:24:02.168659"
+    }
+  }
+}

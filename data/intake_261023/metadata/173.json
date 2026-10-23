@@ -1,0 +1,80 @@
+{
+  "mention": "The Pentium Chronicles",
+  "url": "https://openlibrary.org/search.json?title=The%20Pentium%20Chronicles&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:07.432Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Robert P. Colwell"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2005,
+        "isbn": [
+          "0471736171",
+          "9780471736172",
+          "9780471749127",
+          "0471749125",
+          "047046903X",
+          "9780470469033"
+        ],
+        "key": "/works/OL8232086W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Pentium Chronicles"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "\"As chief architect of the P6, Robert Colwell offers a unique perspective as he unfolds the saga of a project that ballooned from a few architects to hundreds of engineers, many just out of school. Far more than a treatise on project management, The Pentium Chronicles gives the rationale, the personal triumphs, and the humor that characterized the P6 project, on undertaking that broke all technical boundaries by being the first to try an out-of-order, speculative superscalar architecture in a microprocessor.\" \"In down-to-earth language, organized around a framework \"we wish we had known about then,\" Chronicles describes the architecture and key decisions that shaped the P6, Intel's most successful chip to date. Colwell's inimitable style will have readers laughing out loud at the project team's creative solutions to well-known problems. From architectural planning in a storage room jimmied open with a credit card, to a marketing presentation using shopping carts, he takes readers through events from the projects's beginning through its production. As Colwell himself recognizes, success is all about learning from others, and Chronicles is filled with stories of ordinary and exceptional people and frank assessments of \"oops\" moments, like the infamous FDIV bug.\" \"As its subtitle implies, the book looks beyond RTL models and transistors to the Intel culture, often poking fun at corporate policies, like team-building exercises in which engineers ruthlessly shoot down each other's plans. Whatever your level of computing expertise, Chronicles will delight and inform you, leaving you with a better understanding of what it takes to create and grow a winning product.\"--BOOK JACKET"
+    },
+    "covers": [
+      306651
+    ],
+    "key": "/works/OL8232086W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2740829A"
+        }
+      }
+    ],
+    "title": "The Pentium Chronicles",
+    "subjects": [
+      "Intel Corporation",
+      "Intel microprocessors",
+      "Design and construction",
+      "Intel Corporation (Santa Clara",
+      "Calif.)",
+      "Pentium",
+      "Software engineering"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:33:03.599619"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-10-04T07:11:35.569252"
+    }
+  }
+}

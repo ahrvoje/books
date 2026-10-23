@@ -1,0 +1,126 @@
+{
+  "mention": "Fatal Defect",
+  "url": "https://openlibrary.org/search.json?title=Fatal%20Defect&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:25.809Z",
+  "status": 200,
+  "search": {
+    "numFound": 5,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 5,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ivars Peterson"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 1995,
+        "isbn": [
+          "0517193353",
+          "0812920236",
+          "0679740279",
+          "9780099197423",
+          "0614126207",
+          "9780614126204",
+          "8420679488",
+          "9780517193358",
+          "0099197421",
+          "9788420679488",
+          "9780679740278",
+          "9780812920239"
+        ],
+        "key": "/works/OL21315W",
+        "language": [
+          "eng",
+          "spa"
+        ],
+        "title": "Fatal Defect",
+        "ratings_average": 4,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Mike Avery"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2017,
+        "isbn": [
+          "9781976536199",
+          "1976536197"
+        ],
+        "key": "/works/OL41408140W",
+        "language": [
+          "eng"
+        ],
+        "title": "Fatal Defection"
+      },
+      {
+        "author_name": [
+          "Jefferson Scott"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1998,
+        "isbn": [
+          "9781576734520",
+          "1576734528"
+        ],
+        "key": "/works/OL1875029W",
+        "language": [
+          "eng"
+        ],
+        "title": "Fatal defect"
+      }
+    ]
+  },
+  "work": {
+    "title": "Fatal Defect",
+    "key": "/works/OL21315W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL24615A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Computer software, reliability",
+      "Computers, reliability",
+      "Reliability",
+      "Computers",
+      "Computer software",
+      "Programmfehler",
+      "Software",
+      "Zuverla ssigkeit",
+      "Computersicherheit",
+      "Zuverlässigkeit"
+    ],
+    "covers": [
+      604994,
+      -1
+    ],
+    "subtitle": "Chasing Killer Computer Bugs",
+    "description": {
+      "type": "/type/text",
+      "value": "More than ever, our society depends on the reliable - if not always correct - functioning of computers. Computers amplify not only our genius but our flaws, sometimes to intolerable extremes. Author Ivars Peterson traces the lurching history of software development and describes how misconceptions and mistakes have become an inextricable part of computer programs and systems.\r\n\r\nHe creates fascinating and colorful profiles of the people who hunt down these elusive computer bugs and struggle to make an inherently fallible system less treacherous. He also offers dozens of detailed examples of how computer failures occur - some amusing, some annoying, others terrifying, even fatal.\r\n\r\n. Each computer failure is a reminder that we all pay a price for sloppy thinking in software development, for making the rush to market a more important consideration than safety and reliability. No software can ever be guaranteed 100 percent bug-free, but if we analyze our past mistakes and rethink our approach to computers, we can defuse some ticking time bombs and create a more trustworthy next generation of computers."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-10-08T20:21:04.556628"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-08-09T02:13:31.352522"
+    }
+  }
+}

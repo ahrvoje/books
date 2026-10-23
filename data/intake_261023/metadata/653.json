@@ -1,0 +1,94 @@
+{
+  "mention": "Programming from the Ground Up",
+  "url": "https://openlibrary.org/search.json?title=Programming%20from%20the%20Ground%20Up&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:18.756Z",
+  "status": 200,
+  "search": {
+    "numFound": 16,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 16,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jonathan Bartlett"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2009,
+        "isbn": [
+          "9781616100643",
+          "1616100648"
+        ],
+        "key": "/works/OL21737514W",
+        "language": [
+          "eng"
+        ],
+        "title": "Programming from the Ground Up"
+      },
+      {
+        "author_name": [
+          "Herbert Schildt"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1999,
+        "isbn": [
+          "9780078825071",
+          "0078825075"
+        ],
+        "key": "/works/OL720068W",
+        "language": [
+          "eng"
+        ],
+        "title": "STL programming from the ground up"
+      },
+      {
+        "author_name": [
+          "Herbert Schildt"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1996,
+        "isbn": [
+          "0078825733",
+          "007882222X",
+          "9780078825736",
+          "9780078822223"
+        ],
+        "key": "/works/OL720101W",
+        "language": [
+          "eng"
+        ],
+        "title": "MFC programming from the ground up"
+      }
+    ]
+  },
+  "work": {
+    "title": "Programming from the Ground Up",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-28T12:50:31.519425"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-28T12:50:31.519425"
+    },
+    "latest_revision": 1,
+    "key": "/works/OL21737514W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL4787564A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

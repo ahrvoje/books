@@ -1,0 +1,93 @@
+{
+  "mention": "Papyrus — John Gaudet",
+  "url": "https://openlibrary.org/search.json?title=Papyrus&author=John%20Gaudet&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:50:36.126Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John J. Gaudet",
+          "John Gaudet"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2014,
+        "isbn": [
+          "1605988286",
+          "9781605988283",
+          "160598566X",
+          "9781605985664"
+        ],
+        "key": "/works/OL19981521W",
+        "language": [
+          "eng"
+        ],
+        "title": "Papyrus"
+      }
+    ]
+  },
+  "work": {
+    "description": "Offers an examination of the papyrus plant, looking at the important role it played in ancient Egyptian culture as a source of paper, as well as its unique properties that could help combat ecological and social problems in the modern world.",
+    "key": "/works/OL19981521W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL7595951A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      },
+      {
+        "author": {
+          "key": "/authors/OL3830362A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "title": "Papyrus",
+    "subject_places": [
+      "Egypt"
+    ],
+    "subjects": [
+      "Papyrus (The plant)",
+      "Papermaking",
+      "Swamp ecology",
+      "Civilization",
+      "Cyperaceae",
+      "Manuscripts (Papyri)",
+      "History",
+      "Papyrus swamps",
+      "Ecology",
+      "Papyrusstaude",
+      "Papyrus"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      11692258,
+      9152613
+    ],
+    "subtitle": "The Plant that Changed the World",
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-18T13:16:22.546837"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-06-15T12:10:32.845126"
+    }
+  }
+}

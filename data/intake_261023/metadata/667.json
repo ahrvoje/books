@@ -1,0 +1,123 @@
+{
+  "mention": "Effective C#",
+  "url": "https://openlibrary.org/search.json?title=Effective%20C%23&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:27.818Z",
+  "status": 200,
+  "search": {
+    "numFound": 10,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 10,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Bill Wagner"
+        ],
+        "edition_count": 8,
+        "first_publish_year": 2004,
+        "isbn": [
+          "0321245660",
+          "9780134579283",
+          "0321659112",
+          "9780134579948",
+          "0321659090",
+          "9780321659095",
+          "0134579283",
+          "9781530427321",
+          "1530427320",
+          "9780321245663",
+          "9780321659118",
+          "0321630165",
+          "0134579941",
+          "9780321630162"
+        ],
+        "key": "/works/OL2037010W",
+        "language": [
+          "eng"
+        ],
+        "title": "Effective C#"
+      },
+      {
+        "author_name": [
+          "Harry. H. Chaudhary."
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2014,
+        "isbn": [
+          "9781500193614",
+          "1500193615"
+        ],
+        "key": "/works/OL31201924W",
+        "title": "Effective C# : "
+      },
+      {
+        "author_name": [
+          "Bill Wagner"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2009,
+        "isbn": [
+          "0134579321",
+          "9780134579320",
+          "9780134579337",
+          "013457933X",
+          "9780321580481",
+          "0321580486"
+        ],
+        "key": "/works/OL16974445W",
+        "language": [
+          "eng"
+        ],
+        "title": "More effective C#"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "December 3, 2004",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-19T16:37:27.595607"
+    },
+    "title": "Effective C#",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:45:24.157702"
+    },
+    "covers": [
+      193238
+    ],
+    "lc_classifications": [
+      "QA76.73.C154 W343 2005"
+    ],
+    "latest_revision": 5,
+    "key": "/works/OL2037010W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL246450A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "005.13/3"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "C# (Computer program language)",
+      "Microsoft .NET",
+      "Database management",
+      "C♯ (Computer program language)",
+      "Microsoft .NET Framework",
+      "C sharp (computer program language)"
+    ],
+    "revision": 5
+  }
+}

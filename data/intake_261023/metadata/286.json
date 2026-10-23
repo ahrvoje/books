@@ -1,0 +1,103 @@
+{
+  "mention": "Many Things Under a Rock",
+  "url": "https://openlibrary.org/search.json?title=Many%20Things%20Under%20a%20Rock&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:50:21.510Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David Scheel",
+          "Laurel \"Yoyo\" Scheel"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 2023,
+        "isbn": [
+          "1529392616",
+          "1324076291",
+          "9781529392609",
+          "9781324020691",
+          "1529392640",
+          "9781529392647",
+          "9781324076292",
+          "9781324020707",
+          "1529392608",
+          "9781529392616",
+          "1324020695",
+          "1324020709"
+        ],
+        "key": "/works/OL29333097W",
+        "language": [
+          "eng"
+        ],
+        "title": "Many Things under a Rock",
+        "ratings_average": 4,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "David Scheel",
+          "Laurel \"Yoyo\" Scheel"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2024,
+        "isbn": [
+          "1324019999",
+          "1324020008",
+          "9781324020004",
+          "9781324019992"
+        ],
+        "key": "/works/OL37582659W",
+        "language": [
+          "eng"
+        ],
+        "title": "Many Things under a Rock Young Readers Edition"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Many Things under a Rock",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL10841513A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL10841514A"
+        }
+      }
+    ],
+    "key": "/works/OL29333097W",
+    "covers": [
+      13788421
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-11-17T07:44:53.162368"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-04-01T10:13:41.397776"
+    }
+  }
+}

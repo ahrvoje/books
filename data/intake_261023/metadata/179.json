@@ -1,0 +1,102 @@
+{
+  "mention": "The Annotated Turing",
+  "url": "https://openlibrary.org/search.json?title=The%20Annotated%20Turing&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:11.482Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Charles Petzold"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2008,
+        "isbn": [
+          "0470229055",
+          "9780470229057"
+        ],
+        "key": "/works/OL9372188W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Annotated Turing",
+        "ratings_average": 4.4,
+        "ratings_count": 5
+      },
+      {
+        "author_name": [
+          "Charles Petzold"
+        ],
+        "edition_count": 1,
+        "isbn": [
+          "9780470229057",
+          "0470229055"
+        ],
+        "key": "/works/OL13590664W",
+        "title": "The Annotated Turing"
+      },
+      {
+        "author_name": [
+          "Charles Petzold"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2008,
+        "isbn": [
+          "9780470229057",
+          "0470229055"
+        ],
+        "key": "/works/OL1972497W",
+        "language": [
+          "eng"
+        ],
+        "title": "The annotated Turing"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "Programming Legend Charles Petzold unlocks the secrets of the extraordinary and prescient 1936 paper by Alan M. Turing.\r\n\r\nMathematician Alan Turing invented an imaginary computer known as the Turing Machine; in an age before computers, he explored the concept of what it meant to be computable, creating the field of computability theory in the process, a foundation of present-day computer programming."
+    },
+    "covers": [
+      2424450
+    ],
+    "key": "/works/OL9372188W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL236999A"
+        }
+      }
+    ],
+    "title": "The Annotated Turing",
+    "subjects": [
+      "Turing machines",
+      "Computational complexity",
+      "Turing, alan mathison, 1912-1954"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T00:23:09.598031"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-10-10T23:08:56.686235"
+    }
+  }
+}

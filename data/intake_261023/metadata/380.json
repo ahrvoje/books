@@ -1,0 +1,79 @@
+{
+  "mention": "Marx's Inferno",
+  "url": "https://openlibrary.org/search.json?title=Marx's%20Inferno&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:51:22.754Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "William Clare Roberts"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2016,
+        "isbn": [
+          "0691180814",
+          "1400883709",
+          "0691172900",
+          "9780691172903",
+          "9780691180816",
+          "9781400883707"
+        ],
+        "key": "/works/OL21593790W",
+        "language": [
+          "eng"
+        ],
+        "title": "Marx's Inferno"
+      }
+    ]
+  },
+  "work": {
+    "title": "Marx's Inferno",
+    "subjects": [
+      "Marx, karl, 1818-1883",
+      "Dante alighieri, 1265-1321",
+      "Capitalism",
+      "Political aspects",
+      "Inferno (Dante Alighieri)",
+      "Kapital (Marx, Karl)",
+      "POLITICAL SCIENCE",
+      "Political Ideologies",
+      "Communism & Socialism",
+      "Political Economy"
+    ],
+    "key": "/works/OL21593790W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8258980A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      14148438
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-24T14:14:12.261968"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-04-18T23:17:21.055036"
+    }
+  }
+}

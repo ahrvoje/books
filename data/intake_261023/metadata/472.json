@@ -1,0 +1,126 @@
+{
+  "mention": "Statistical Rethinking",
+  "url": "https://openlibrary.org/search.json?title=Statistical%20Rethinking&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:52:22.099Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Richard McElreath"
+        ],
+        "edition_count": 12,
+        "first_publish_year": 2015,
+        "isbn": [
+          "0429642318",
+          "0429635974",
+          "1482253445",
+          "9781315321455",
+          "0429029608",
+          "1315321459",
+          "9780429639142",
+          "036713991X",
+          "9780429642319",
+          "1315372495",
+          "1482253461",
+          "9781482253481",
+          "148225347X",
+          "9781482253467",
+          "9780429635977",
+          "1315362619",
+          "9780367139919",
+          "9781482253443",
+          "9781315362618",
+          "9781315372495",
+          "0429639147",
+          "9781482253474",
+          "9780429029608",
+          "1482253488"
+        ],
+        "key": "/works/OL20743446W",
+        "language": [
+          "eng"
+        ],
+        "title": "Statistical Rethinking",
+        "ratings_average": 5,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Joseph B. Kadane"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1999,
+        "isbn": [
+          "0521640113",
+          "9780521649759",
+          "9781139173230",
+          "0521649757",
+          "1139173235",
+          "9780521640114"
+        ],
+        "key": "/works/OL1992486W",
+        "language": [
+          "eng"
+        ],
+        "title": "Rethinking the foundations of statistics"
+      }
+    ]
+  },
+  "work": {
+    "title": "Statistical Rethinking",
+    "subjects": [
+      "Bayesian statistical decision theory",
+      "R (Computer program language)",
+      "Programming languages (electronic computers)",
+      "MATHEMATICS",
+      "Probability & Statistics",
+      "General",
+      "r",
+      "Statistisches Modell",
+      "Bayes-Entscheidungstheorie",
+      "Software",
+      "Mathematical Computing",
+      "Statistical Data Interpretation",
+      "Bayes Theorem"
+    ],
+    "key": "/works/OL20743446W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3268989A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "\"Statistical Rethinking: A Bayesian Course with Examples in R and Stan builds readers’ knowledge of and confidence in statistical modeling. Reflecting the need for even minor programming in today’s model-based statistics, the book pushes readers to perform step-by-step calculations that are usually automated. This unique computational approach ensures that readers understand enough of the details to make reasonable choices and interpretations in their own modeling work. The text presents generalized linear multilevel models from a Bayesian perspective, relying on a simple logical interpretation of Bayesian probability and maximum entropy. It covers from the basics of regression to multilevel models. The author also discusses measurement error, missing data, and Gaussian process models for spatial and network autocorrelation.\" --Publisher's website."
+    },
+    "covers": [
+      15127873
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-05-16T23:39:17.078097"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-10-04T09:34:29.936859"
+    }
+  }
+}

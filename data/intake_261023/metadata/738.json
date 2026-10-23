@@ -1,0 +1,126 @@
+{
+  "mention": "Object-Oriented Software Construction",
+  "url": "https://openlibrary.org/search.json?title=Object-Oriented%20Software%20Construction&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:14.774Z",
+  "status": 200,
+  "search": {
+    "numFound": 7,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 7,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Bertrand Meyer"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 1988,
+        "isbn": [
+          "9780136290315",
+          "9780136291558",
+          "0136290493",
+          "9780136290490",
+          "0136291481",
+          "0136290310",
+          "0136291554",
+          "9780136291480"
+        ],
+        "key": "/works/OL2624376W",
+        "language": [
+          "eng"
+        ],
+        "title": "Object-oriented software construction"
+      },
+      {
+        "author_name": [
+          "Bertrand Meyer"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2000,
+        "isbn": [
+          "9780136291558",
+          "0136291554"
+        ],
+        "key": "/works/OL2624372W",
+        "language": [
+          "eng"
+        ],
+        "title": "Object-Oriented Software Construction (Book/CD-ROM)"
+      },
+      {
+        "author_name": [
+          "Kayshav Dattatri"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1999,
+        "isbn": [
+          "0130867691",
+          "9780130867698"
+        ],
+        "key": "/works/OL7948245W",
+        "language": [
+          "eng"
+        ],
+        "title": "C++: Effective Object-Oriented Software Construction"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "Object-Oriented Software Construction presents the methods and techniques of object-oriented design, based on a careful assessment of the underlying software-engineering issues. The book reviews both the techniques needed to obtain the full extent of the approach and object-oriented systems design, with emphasis on effective module-interface design.  Numerous examples of reusable software components are presented covering many of the important everyday programming structures.  The ideas and concepts are made concrete by realizing them in the Eiffel object-oriented programming language. (Back cover copy)"
+    },
+    "title": "Object-oriented software construction",
+    "covers": [
+      91282
+    ],
+    "first_sentence": {
+      "type": "/type/text",
+      "value": "The principal aim of software engineering is to help produce quality software."
+    },
+    "first_publish_date": "1988",
+    "key": "/works/OL2624376W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL382352A"
+        }
+      }
+    ],
+    "excerpts": [
+      {
+        "excerpt": "The principal aim of software engineering is to help produce quality software.",
+        "page": "First sentence"
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Development",
+      "Object-oriented programming (Computer science)",
+      "Computer software",
+      "Computer programs, design",
+      "Computer software -- Development",
+      "Computer software--development",
+      "Qa76.64 .m493 1997",
+      "005.1/17"
+    ],
+    "latest_revision": 10,
+    "revision": 10,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T00:06:54.292540"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-07-13T12:01:25.628084"
+    }
+  }
+}

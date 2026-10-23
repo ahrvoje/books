@@ -1,0 +1,87 @@
+{
+  "mention": "Purely Functional Data Structures",
+  "url": "https://openlibrary.org/search.json?title=Purely%20Functional%20Data%20Structures&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:33.766Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Chris Okasaki"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 1998,
+        "isbn": [
+          "1283870800",
+          "9780521631242",
+          "9781283870801",
+          "0521663504",
+          "9780521663502",
+          "0511825137",
+          "9780511825132",
+          "9780511530104",
+          "0521631246",
+          "0511530102"
+        ],
+        "key": "/works/OL1863182W",
+        "language": [
+          "eng"
+        ],
+        "title": "Purely functional data structures",
+        "ratings_average": 4.25,
+        "ratings_count": 4
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1998",
+    "title": "Purely functional data structures",
+    "covers": [
+      350788
+    ],
+    "lc_classifications": [
+      "QA76.9.D35 O35 1998"
+    ],
+    "key": "/works/OL1863182W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL223118A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "005.7/3"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Functional programming languages",
+      "Data structures (Computer science)",
+      "Langages de programmation fonctionnels",
+      "Structures de données (Informatique)",
+      "Functional programming (computer science)"
+    ],
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:28:54.177082"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-09-12T08:38:09.495155"
+    }
+  }
+}

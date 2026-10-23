@@ -206,3 +206,25 @@
 | 204 | 2026-10-21 | [Goodreads — popular science, page 2](https://www.goodreads.com/list/show/143259.Best_Popular_Science_Books_on_Goodreads?page=2) | [Remaining-title review; coverage limits recorded](analysis/analysis_remaining_261022_0042.md) |
 | 205 | 2026-10-21 | [Goodreads — popular science, page 3](https://www.goodreads.com/list/show/143259.Best_Popular_Science_Books_on_Goodreads?page=3) | [Remaining-title review; coverage limits recorded](analysis/analysis_remaining_261022_0042.md) |
 | 206 | 2026-10-21 | [Goodreads — popular science, page 4](https://www.goodreads.com/list/show/143259.Best_Popular_Science_Books_on_Goodreads?page=4) | [Remaining-title review; coverage limits recorded](analysis/analysis_remaining_261022_0042.md) |
+| 207 | 2026-10-23 | [Hacker News 42614722](https://news.ycombinator.com/item?id=42614722) | [Source review](analysis/analysis_hn42614722_261023_0229.md) |
+| 208 | 2026-10-23 | [Reddit r/engineering uvq9h4](https://www.reddit.com/r/engineering/comments/uvq9h4/) | [Source review; coverage limits recorded](analysis/analysis_enguvq9h4_261023_0229.md) |
+| 209 | 2026-10-23 | [Reddit r/suggestmeabook 1hy5iai](https://www.reddit.com/r/suggestmeabook/comments/1hy5iai/) | [Blocked; no titles extracted](analysis/analysis_smb1hy5iai_261023_0229.md) |
+| 210 | 2026-10-23 | [Reddit r/MechanicalEngineering 1sy03cs](https://www.reddit.com/r/MechanicalEngineering/comments/1sy03cs/) | [Source review; coverage limits recorded](analysis/analysis_mech1sy03cs_261023_0229.md) |
+| 211 | 2026-10-23 | [Hacker News 22692281](https://news.ycombinator.com/item?id=22692281) | [Source review](analysis/analysis_hn22692281_261023_0229.md) |
+| 212 | 2026-10-23 | [Reddit r/suggestmeabook 1hg08ou](https://www.reddit.com/r/suggestmeabook/comments/1hg08ou/) | [Source review; coverage limits recorded](analysis/analysis_smb1hg08ou_261023_0229.md) |
+| 213 | 2026-10-23 | [Reddit r/suggestmeabook 3rmh5s](https://www.reddit.com/r/suggestmeabook/comments/3rmh5s/) | [Source review; coverage limits recorded](analysis/analysis_smb3rmh5s_261023_0229.md) |
+| 214 | 2026-10-23 | [Hacker News 30489142](https://news.ycombinator.com/item?id=30489142) | [Source review](analysis/analysis_hn30489142_261023_0229.md) |
+| 215 | 2026-10-23 | [Hacker News 15155833](https://news.ycombinator.com/item?id=15155833) | [Source review](analysis/analysis_hn15155833_261023_0229.md) |
+| 216 | 2026-10-23 | [Hacker News 25317963](https://news.ycombinator.com/item?id=25317963) | [Source review](analysis/analysis_hn25317963_261023_0229.md) |
+| 217 | 2026-10-23 | [softwareengineering 5452](https://softwareengineering.stackexchange.com/questions/5452) | [Source review](analysis/analysis_seculture_261023_0229.md) |
+| 218 | 2026-10-23 | [softwareengineering 14650](https://softwareengineering.stackexchange.com/questions/14650) | [Source review](analysis/analysis_seinspired_261023_0229.md) |
+| 219 | 2026-10-23 | [stackoverflow 1711](https://stackoverflow.com/questions/1711) | [Source review](analysis/analysis_so1711_261023_0229.md) |
+| 220 | 2026-10-23 | [softwareengineering 966](https://softwareengineering.stackexchange.com/questions/966) | [Source review](analysis/analysis_senonprog_261023_0229.md) |
+| 221 | 2026-10-23 | [stackoverflow 3699242](https://stackoverflow.com/questions/3699242) | [Source review](analysis/analysis_solanguages_261023_0229.md) |
+| 222 | 2026-10-23 | [math 275](https://math.stackexchange.com/questions/275) | [Source review](analysis/analysis_mathlay_261023_0229.md) |
+| 223 | 2026-10-23 | [math 1674375](https://math.stackexchange.com/questions/1674375) | [Source review](analysis/analysis_mathideas_261023_0229.md) |
+| 224 | 2026-10-23 | [math 2783869](https://math.stackexchange.com/questions/2783869) | [Source review](analysis/analysis_mathadvanced_261023_0229.md) |
+| 225 | 2026-10-23 | [math 2436947](https://math.stackexchange.com/questions/2436947) | [Source review](analysis/analysis_mathhistory_261023_0229.md) |
+| 226 | 2026-10-23 | [hsm 2380](https://hsm.stackexchange.com/questions/2380) | [Source review](analysis/analysis_hsmphysics_261023_0229.md) |
+| 227 | 2026-10-23 | [hsm 15884](https://hsm.stackexchange.com/questions/15884) | [Source review](analysis/analysis_hsmquantum_261023_0229.md) |
+| 228 | 2026-10-23 | [physics 13020](https://physics.stackexchange.com/questions/13020) | [Source review](analysis/analysis_physlay_261023_0229.md) |

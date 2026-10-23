@@ -1,0 +1,117 @@
+{
+  "mention": "The Education of Cyrus",
+  "url": "https://openlibrary.org/search.json?title=The%20Education%20of%20Cyrus&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:20.775Z",
+  "status": 200,
+  "search": {
+    "numFound": 9,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 9,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Xenophon",
+          "Henry Graham Dakyns",
+          "Stawell Florence Melian"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2018,
+        "isbn": [
+          "0343052296",
+          "1015621031",
+          "9780343052287",
+          "9781015621039",
+          "0343052288",
+          "9780343052294"
+        ],
+        "key": "/works/OL24459699W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Education of Cyrus. Translated From the Greek of Xenophon"
+      },
+      {
+        "author_name": [
+          "Henry Graham Dakyns",
+          "Xenophon"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2022,
+        "isbn": [
+          "9798814646163"
+        ],
+        "key": "/works/OL28138731W",
+        "language": [
+          "eng"
+        ],
+        "title": "Cyropaedia : The Education of Cyrus"
+      },
+      {
+        "author_name": [
+          "Xenophon"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2016,
+        "isbn": [
+          "9781534654136",
+          "1534654135"
+        ],
+        "key": "/works/OL41437976W",
+        "language": [
+          "eng"
+        ],
+        "title": "Cyropaedia, the Education of Cyrus"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The Education of Cyrus. Translated From the Greek of Xenophon",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL54128A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7351830A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9209330A"
+        }
+      }
+    ],
+    "covers": [
+      11062098
+    ],
+    "key": "/works/OL24459699W",
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-05-12T02:09:41.426083"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-09-27T10:12:18.706619"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "mention": "Abandoned — Alden Todd",
+  "url": "https://openlibrary.org/search.json?title=Abandoned&author=Alden%20Todd&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:53.791Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Alden Todd"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2001,
+        "isbn": [
+          "1889963291",
+          "9781889963297",
+          "1889963534",
+          "9781889963532"
+        ],
+        "key": "/works/OL8641699W",
+        "language": [
+          "eng"
+        ],
+        "title": "Abandoned",
+        "ratings_average": 5,
+        "ratings_count": 1
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Popular Print Disabled Books",
+      "Discovery and exploration",
+      "Lady Franklin Bay Expedition (1881-1884)",
+      "Arctic regions, discovery and exploration"
+    ],
+    "key": "/works/OL8641699W",
+    "title": "Abandoned",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2911910A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      2092788
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T23:03:51.643060"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-11-02T02:54:23.528317"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "mention": "Object-Oriented Design Heuristics",
+  "url": "https://openlibrary.org/search.json?title=Object-Oriented%20Design%20Heuristics&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:43.438Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Arthur J. Riel"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1996,
+        "isbn": [
+          "9780201633856",
+          "020163385X"
+        ],
+        "key": "/works/OL2979695W",
+        "language": [
+          "eng"
+        ],
+        "title": "Object-oriented design heuristics",
+        "ratings_average": 5,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Arthur J. Riel"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1996,
+        "isbn": [
+          "9780321774965",
+          "0321774965"
+        ],
+        "key": "/works/OL21460645W",
+        "language": [
+          "eng"
+        ],
+        "title": "Object-Oriented Design Heuristics"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1996",
+    "title": "Object-oriented design heuristics",
+    "covers": [
+      135584
+    ],
+    "lc_classifications": [
+      "QA76.64 .R54 1996"
+    ],
+    "key": "/works/OL2979695W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL455968A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "005.1"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Object-oriented programming (Computer science)",
+      "Computers &amp; the internet",
+      "Programming"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Object-Oriented Design Heuristics offers insight into object-oriented design improvement. The more than sixty guidelines presented in this book are language-independent and allow you to rate the integrity of a software design. The heuristics are not written as hard and fast rules; they are meant to serve as warning mechanisms which allow the flexibility of ignoring the heuristic as necessary.\n\nThis tutorial-based approach, born out of the author's extensive experience developing software, teaching thousands of students, and critiquing designs in a variety of domains, allows you to apply the guidelines in a personalized manner.\n\nThe heuristics cover important topics ranging from classes and objects (with emphasis on their relationships including association, uses, containment, and both single and multiple inheritance) to physical object-oriented design. You will gain an understanding of the synergy that exists between design heuristics and the popular concept of design patterns; heuristics can highlight a problem in one facet of a design while patterns can provide the solution.\n\nProgrammers of all levels will find value in this book. The newcomer will discover a fast track to understanding the concepts of object-oriented programming. At the same time, experienced programmers seeking to strengthen their object-oriented development efforts will appreciate the insightful analysis. In short, with Object-Oriented Design Heuristics as your guide, you have the tools to become a better software developer."
+    },
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T01:20:05.801949"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-07-30T15:49:06.534368"
+    }
+  }
+}

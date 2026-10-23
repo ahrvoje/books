@@ -1,0 +1,108 @@
+{
+  "mention": "Literate Programming",
+  "url": "https://openlibrary.org/search.json?title=Literate%20Programming&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:16.505Z",
+  "status": 200,
+  "search": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Donald Knuth"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1992,
+        "isbn": [
+          "0937073814",
+          "9780937073803",
+          "9780937073810",
+          "0937073806"
+        ],
+        "key": "/works/OL1915631W",
+        "language": [
+          "eng"
+        ],
+        "title": "Literate programming",
+        "ratings_average": 5,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Joachim Schrod"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1997,
+        "isbn": [
+          "9781850323051",
+          "1850323054"
+        ],
+        "key": "/works/OL29420986W",
+        "language": [
+          "eng"
+        ],
+        "title": "Literate Programming"
+      },
+      {
+        "author_name": [
+          "Angus Duggan"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1993,
+        "key": "/works/OL12661714W",
+        "language": [
+          "eng"
+        ],
+        "title": "Literate programming"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1992",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-07-31T10:12:18.420333"
+    },
+    "title": "Literate programming",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:33:58.482291"
+    },
+    "covers": [
+      715228
+    ],
+    "lc_classifications": [
+      "QA76.6 .K644 1992"
+    ],
+    "latest_revision": 5,
+    "key": "/works/OL1915631W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL229501A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "005.1/1"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Computer programming",
+      "Electronic digital computers",
+      "Programming",
+      "Electronic digital computers, programming"
+    ],
+    "revision": 5
+  }
+}

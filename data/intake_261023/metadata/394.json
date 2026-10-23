@@ -1,0 +1,95 @@
+{
+  "mention": "Foucault's Pendulum",
+  "url": "https://openlibrary.org/search.json?title=Foucault's%20Pendulum&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:51:31.113Z",
+  "status": 200,
+  "search": {
+    "numFound": 15,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 15,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Michael Hagner",
+          "Robert Savage"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2025,
+        "isbn": [
+          "9781945861079",
+          "9781945861239",
+          "1945861061",
+          "1945861231",
+          "9781945861062",
+          "194586107X"
+        ],
+        "key": "/works/OL44554809W",
+        "language": [
+          "eng"
+        ],
+        "title": "Seeing Foucault's Pendulum"
+      },
+      {
+        "edition_count": 1,
+        "key": "/works/OL36767394W",
+        "title": "Foucault\"s Pendulum"
+      },
+      {
+        "author_name": [
+          "Alexander Adams",
+          "Alexander Adams"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1997,
+        "isbn": [
+          "0736637966",
+          "9780736637961"
+        ],
+        "key": "/works/OL9442657W",
+        "title": "Foucault's Pendulum"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Seeing Foucault's Pendulum",
+    "subjects": [
+      "Science"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL203413A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2902945A"
+        }
+      }
+    ],
+    "key": "/works/OL44554809W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2025-12-12T21:16:48.907898"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-12-12T21:16:48.907898"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "mention": "Implementation Patterns",
+  "url": "https://openlibrary.org/search.json?title=Implementation%20Patterns&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:30.089Z",
+  "status": 200,
+  "search": {
+    "numFound": 20,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 20,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Kent Beck"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2007,
+        "isbn": [
+          "0321543858",
+          "9780321413093",
+          "013270255X",
+          "9780132702553",
+          "0321413091",
+          "9780321543851"
+        ],
+        "key": "/works/OL1961690W",
+        "language": [
+          "eng"
+        ],
+        "title": "Implementation patterns",
+        "ratings_average": 4,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Terence Parr"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2009,
+        "isbn": [
+          "9781934356456",
+          "193435645X"
+        ],
+        "key": "/works/OL16986483W",
+        "language": [
+          "eng"
+        ],
+        "title": "Language Implementation Patterns"
+      },
+      {
+        "author_name": [
+          "Sean Keery",
+          "Clive Harber",
+          "Marcus Young"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2015,
+        "isbn": [
+          "9781782177357",
+          "1782177353",
+          "1789130913",
+          "9781789136203",
+          "9781782177340",
+          "1789136202",
+          "9781789130911",
+          "1782177345"
+        ],
+        "key": "/works/OL25226979W",
+        "language": [
+          "eng"
+        ],
+        "title": "Implementing Cloud Design Patterns for AWS"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "October 23, 2007",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-20T04:43:29.446673"
+    },
+    "title": "Implementation patterns",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:37:56.918862"
+    },
+    "covers": [
+      193986
+    ],
+    "lc_classifications": [
+      "QA76.76.P37 B33 2008",
+      "QA76.76.P37 B33 2008"
+    ],
+    "latest_revision": 4,
+    "key": "/works/OL1961690W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL235459A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Development",
+      "Software patterns",
+      "Computer software",
+      "Object-oriented programming (computer science)"
+    ],
+    "revision": 4
+  }
+}

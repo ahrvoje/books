@@ -1,0 +1,126 @@
+{
+  "mention": "Advanced Programming in the UNIX Environment",
+  "url": "https://openlibrary.org/search.json?title=Advanced%20Programming%20in%20the%20UNIX%20Environment&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:59.774Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "W. Richard Stevens",
+          "Stephen A. Rago"
+        ],
+        "edition_count": 15,
+        "first_publish_year": 1992,
+        "isbn": [
+          "0321637739",
+          "8178080966",
+          "032163800X",
+          "9789812358813",
+          "0201433079",
+          "9780201563177",
+          "9780201433074",
+          "9788131700051",
+          "0201563177",
+          "0201455714",
+          "8131700054",
+          "0321637992",
+          "0321525949",
+          "8131762556",
+          "9780201455717",
+          "9788131762554",
+          "9789332575905",
+          "9780321637734",
+          "9812358811",
+          "9780321637994",
+          "9332575908",
+          "9788178080963",
+          "9780321525949",
+          "9780321638007"
+        ],
+        "key": "/works/OL2705899W",
+        "language": [
+          "eng"
+        ],
+        "title": "Advanced programming in the Unix environment",
+        "ratings_average": 5,
+        "ratings_count": 5
+      },
+      {
+        "author_name": [
+          "Richard Stevens"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1992,
+        "key": "/works/OL42970076W",
+        "language": [
+          "eng"
+        ],
+        "title": "Advanced Programming in the UNIX Environment"
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      135189,
+      2384014,
+      8514521,
+      13762114,
+      14271149
+    ],
+    "first_publish_date": "1992",
+    "key": "/works/OL2705899W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL395628A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      },
+      {
+        "author": {
+          "key": "/authors/OL839950A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "subjects": [
+      "Operating systems (Computers)",
+      "UNIX (computer operating system)",
+      "open_syllabus_project",
+      "Computer programming",
+      "Computers",
+      "Systèmes d'exploitation (Ordinateurs)",
+      "Operating systems"
+    ],
+    "title": "Advanced programming in the Unix environment",
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "Rago carefully retains the spirit and approach that made this book a classic. Building on Stevens' work, he begins with basic topics such as files, directories, and processes, carefully laying the groundwork for understanding more advanced techniques, such as signal handling and terminal I/O. Substantial new material includes chapters on threads and multithreaded programming, using the socket interface to drive interprocess communication (IPC), and extensive coverage of the interfaces added to the latest version of the POSIX. 1 standard. Nearly all examples have been tested on four of today's most widely used UNIX/Linux platforms: FreeBSD 5.2.1; the Linux 2.4.22 kernel; Solaris 9; and Darwin 7.4.0, the FreeBSD/Mach hybrid underlying Apple's Mac OS X 10.3. As in the first edition, you'll learn through example, including more than 10,000 lines of downloadable, ANSI C source code. More than 400 system calls and functions are demonstrated with concise, complete programs that clearly illustrate their usage, arguments, and return values. To tie together what you've learned, the book presents several chapter-length case studies, each fully updated for contemporary environments. Advanced Programming in the UNIX® Environment has helped ageneration of programmers write code with exceptional power, performance, and reliability. Now updated for today's UNIX/Linux systems, this second edition will be even more indispensable."
+    },
+    "latest_revision": 19,
+    "revision": 19,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T00:16:10.243962"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-08-30T20:53:43.521159"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "mention": "The Autodesk File",
+  "url": "https://openlibrary.org/search.json?title=The%20Autodesk%20File&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:02.459Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John Walker"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1989,
+        "isbn": [
+          "9780934035637",
+          "0934035636"
+        ],
+        "key": "/works/OL18968708W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Autodesk file"
+      }
+    ]
+  },
+  "work": {
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Sources",
+      "Computer software industry",
+      "Inc Autodesk",
+      "History",
+      "Computer architecture & logic design",
+      "History Of Specific Companies",
+      "Microcomputer Programming",
+      "Business / Economics / Finance",
+      "United States",
+      "Computer Books: Operating Systems",
+      "Infrastructure",
+      "Autodesk, Inc",
+      "Autodesk, Inc.",
+      "Autocad (computer program)"
+    ],
+    "key": "/works/OL18968708W",
+    "title": "The Autodesk file",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2623822A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      13145355
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-02-18T14:07:56.990867"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-01-18T09:13:23.645799"
+    }
+  }
+}

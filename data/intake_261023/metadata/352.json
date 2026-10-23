@@ -1,0 +1,117 @@
+{
+  "mention": "Neuropath",
+  "url": "https://openlibrary.org/search.json?title=Neuropath&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:51:03.763Z",
+  "status": 200,
+  "search": {
+    "numFound": 77,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 77,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Scott Bakker"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 2008,
+        "isbn": [
+          "014316872X",
+          "9780752891514",
+          "0752891502",
+          "1409105199",
+          "9781409105190",
+          "9780143168720",
+          "0752882791",
+          "0752891510",
+          "9780752882796",
+          "9780752891507"
+        ],
+        "key": "/works/OL19658711W",
+        "language": [
+          "eng"
+        ],
+        "title": "Neuropath",
+        "ratings_average": 0,
+        "ratings_count": 0
+      },
+      {
+        "author_name": [
+          "R. Scott Bakker"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2010,
+        "isbn": [
+          "0765361574",
+          "9780765361578"
+        ],
+        "key": "/works/OL17792559W",
+        "title": "Neuropath",
+        "ratings_average": 0,
+        "ratings_count": 0
+      },
+      {
+        "author_name": [
+          "R. Scott Bakker"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2009,
+        "isbn": [
+          "0765321890",
+          "1429953993",
+          "9780765321893",
+          "9781429953993"
+        ],
+        "key": "/works/OL18626400W",
+        "language": [
+          "eng"
+        ],
+        "title": "Neuropath",
+        "ratings_average": 0,
+        "ratings_count": 0
+      }
+    ]
+  },
+  "work": {
+    "title": "Neuropath",
+    "covers": [
+      8571816
+    ],
+    "key": "/works/OL19658711W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7333566A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Fiction, thrillers, suspense",
+      "Serial murders, fiction",
+      "Fiction, action & adventure"
+    ],
+    "genres": [
+      "/tags/OL180T",
+      "/tags/OL164T"
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-05-10T01:03:47.127126"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-09-04T13:00:30.213639"
+    }
+  }
+}

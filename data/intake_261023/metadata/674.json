@@ -1,0 +1,123 @@
+{
+  "mention": "Enterprise Integration Patterns",
+  "url": "https://openlibrary.org/search.json?title=Enterprise%20Integration%20Patterns&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:32.430Z",
+  "status": 200,
+  "search": {
+    "numFound": 6,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 6,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Gregor Hohpe",
+          "Bobby Woolf"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 2003,
+        "isbn": [
+          "0321200683",
+          "9788131725085",
+          "9780321200686",
+          "8131725081",
+          "9780133065091",
+          "9780133065107",
+          "013306509X",
+          "0133065103"
+        ],
+        "key": "/works/OL6030059W",
+        "language": [
+          "eng"
+        ],
+        "title": "Enterprise integration patterns",
+        "ratings_average": 4,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Gregor Hohpe"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2019,
+        "isbn": [
+          "0134755731",
+          "9780134755748",
+          "013475574X",
+          "9780134699936",
+          "9780134755663",
+          "9780134755731",
+          "0134755669",
+          "0134699939"
+        ],
+        "key": "/works/OL21615013W",
+        "language": [
+          "eng"
+        ],
+        "title": "Enterprise Integration Patterns, Vol 2"
+      },
+      {
+        "author_name": [
+          "Gregor Hohpe",
+          "Woolf Bobby"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2012,
+        "key": "/works/OL42837707W",
+        "title": "Enterprise Integration Patterns"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Software development patterns",
+      "Management information systems",
+      "Message processing",
+      "Telecommunication",
+      "Telecommunication, data processing",
+      "Telecommunication--message processing",
+      "Tk5102.5 .h5882 2003",
+      "005.7/136"
+    ],
+    "key": "/works/OL6030059W",
+    "title": "Enterprise integration patterns",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1515224A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL5171556A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      192966,
+      6956156
+    ],
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T18:24:15.252423"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-19T21:50:12.958081"
+    }
+  }
+}

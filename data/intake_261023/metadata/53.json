@@ -1,0 +1,127 @@
+{
+  "mention": "Idea Man",
+  "url": "https://openlibrary.org/search.json?title=Idea%20Man&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:49.792Z",
+  "status": 200,
+  "search": {
+    "numFound": 169,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 169,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Paul Allen"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2011,
+        "isbn": [
+          "9781591843825",
+          "1591843820"
+        ],
+        "key": "/works/OL15708815W",
+        "language": [
+          "eng"
+        ],
+        "title": "Idea man",
+        "ratings_average": 3,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Paul Allen"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2011,
+        "isbn": [
+          "0241953707",
+          "0241954126",
+          "9780241954126",
+          "9781591843825",
+          "1591843820",
+          "9780141969381",
+          "9780241953709",
+          "0141969385"
+        ],
+        "key": "/works/OL16113865W",
+        "language": [
+          "eng"
+        ],
+        "title": "Idea man"
+      },
+      {
+        "author_name": [
+          "Floyd W. Matson"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 1976,
+        "isbn": [
+          "0440040388",
+          "9780440040385"
+        ],
+        "key": "/works/OL4444800W",
+        "language": [
+          "eng"
+        ],
+        "title": "The idea of man"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "In this long-awaited memoir, Allen, the co-founder of Microsoft, explains how he has solved problems, what he's learned from his many endeavors—both the triumphs and the failures—and his compelling vision for the future."
+    },
+    "subtitle": "a memoir by the co-founder of Microsoft",
+    "title": "Idea man",
+    "covers": [
+      6722597,
+      -1
+    ],
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Biography",
+      "Businessmen",
+      "Businesspeople",
+      "Unternehmer",
+      "Umschulungswerkstätten für Siedler und Auswanderer",
+      "Microsoft Corporation",
+      "History",
+      "nyt:combined-print-and-e-book-nonfiction=2011-05-08",
+      "New York Times bestseller",
+      "Businesspeople, biography"
+    ],
+    "subject_people": [
+      "Paul Allen (1953-2018)"
+    ],
+    "key": "/works/OL15708815W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6894038A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 13,
+    "revision": 13,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-04-15T16:42:20.111304"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-03-30T20:13:27.150702"
+    }
+  }
+}

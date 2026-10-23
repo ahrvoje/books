@@ -1,0 +1,108 @@
+{
+  "mention": "Start with No",
+  "url": "https://openlibrary.org/search.json?title=Start%20with%20No&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:52:39.099Z",
+  "status": 200,
+  "search": {
+    "numFound": 65,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 65,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jim Camp"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2002,
+        "isbn": [
+          "0609608002",
+          "9780609608005"
+        ],
+        "key": "/works/OL6214243W",
+        "language": [
+          "eng"
+        ],
+        "title": "Start with no",
+        "ratings_average": 5,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Kate Hardy"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 2014,
+        "isbn": [
+          "1460341376",
+          "9781460341377",
+          "0263254682",
+          "9781322075181",
+          "9780263243949",
+          "9780263254686",
+          "1322075182",
+          "026324394X"
+        ],
+        "key": "/works/OL20980362W",
+        "language": [
+          "eng"
+        ],
+        "title": "It Started with No Strings ..."
+      },
+      {
+        "author_name": [
+          "Jim Camp"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2004,
+        "isbn": [
+          "9788495787521",
+          "8495787520"
+        ],
+        "key": "/works/OL6214242W",
+        "language": [
+          "spa"
+        ],
+        "title": "De Entrada, Diga No / Start With No: The Negotiating Tools That the Pros Don't Want You to Know"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Negotiation in business",
+      "Ne gociations (Affaires)",
+      "Négociations (Affaires)"
+    ],
+    "key": "/works/OL6214243W",
+    "title": "Start with no",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1604168A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      390585
+    ],
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T18:46:14.290367"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-06-26T10:33:57.700830"
+    }
+  }
+}

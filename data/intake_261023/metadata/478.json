@@ -1,0 +1,107 @@
+{
+  "mention": "Algorithmic Learning in a Random World",
+  "url": "https://openlibrary.org/search.json?title=Algorithmic%20Learning%20in%20a%20Random%20World&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:52:26.448Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Vladimir Vovk",
+          "Alex Gammerman",
+          "Glenn Shafer"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 2005,
+        "isbn": [
+          "1441934715",
+          "3031066510",
+          "9780387250618",
+          "9783031066481",
+          "9783031066498",
+          "3031066480",
+          "9783031066511",
+          "0387001522",
+          "9780387001524",
+          "3031066499",
+          "0387250611",
+          "9781441934710"
+        ],
+        "key": "/works/OL18687912W",
+        "language": [
+          "eng"
+        ],
+        "title": "Algorithmic learning in a random world"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Stochastic processes",
+      "Algorithms",
+      "Prediction theory",
+      "Computer science",
+      "Data structures (Computer science)",
+      "Artificial intelligence",
+      "Mathematical statistics",
+      "Artificial Intelligence (incl. Robotics)",
+      "Statistics and Computing/Statistics Programs",
+      "Cryptology and Information Theory Data Structures"
+    ],
+    "key": "/works/OL18687912W",
+    "title": "Algorithmic learning in a random world",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2678487A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2678488A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL530930A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      1190360
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Conformal prediction is a valuable new method of machine learning. Conformal predictors are among the most accurate methods of machine learning, and unlike other state-of-the-art methods, they provide information about their own accuracy and reliability. This new monograph integrates mathematical theory and revealing experimental work. It demonstrates mathematically the validity of the reliability claimed by conformal predictors when they are applied to independent and identically distributed data, and it confirms experimentally that the accuracy is sufficient for many practical problems. Later chapters generalize these results to models called repetitive structures, which originate in the algorithmic theory of randomness and statistical physics. The approach is flexible enough to incorporate most existing methods of machine learning, including newer methods such as boosting and support vector machines and older methods such as nearest neighbors and the bootstrap. Topics and Features: * Describes how conformal predictors yield accurate and reliable predictions, complemented with quantitative measures of their accuracy and reliability * Handles both classification and regression problems * Explains how to apply the new algorithms to real-world data sets * Demonstrates the infeasibility of some standard prediction tasks * Explains connections with Kolmogorov’s algorithmic randomness, recent work in machine learning, and older work in statistics * Develops new methods of probability forecasting and shows how to use them for prediction in causal networks Researchers in computer science, statistics, and artificial intelligence will find the book an authoritative and rigorous treatment of some of the most promising new developments in machine learning. Practitioners and students in all areas of research that use quantitative prediction or machine learning will learn about important new methods."
+    },
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-02-11T05:31:31.189048"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-08-12T18:19:13.085645"
+    }
+  }
+}

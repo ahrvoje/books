@@ -1,0 +1,57 @@
+{
+  "mention": "Peter Norton's Assembly Language Book for the IBM PC",
+  "url": "https://openlibrary.org/search.json?title=Peter%20Norton's%20Assembly%20Language%20Book%20for%20the%20IBM%20PC&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:41.113Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Peter Norton"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1986,
+        "isbn": [
+          "0136621074",
+          "9780136621072"
+        ],
+        "key": "/works/OL31814436W",
+        "title": "Peter Norton's Assembly Language Book for the IBM Pc"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Peter Norton's Assembly Language Book for the IBM Pc",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL1911299A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "key": "/works/OL31814436W",
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-12-09T06:19:20.698830"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-11-09T18:30:13.580495"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "mention": "A Triumph of Genius",
+  "url": "https://openlibrary.org/search.json?title=A%20Triumph%20of%20Genius&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:51.293Z",
+  "status": 200,
+  "search": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ronald K. Fierstein"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2015,
+        "isbn": [
+          "9781627227698",
+          "1627227695"
+        ],
+        "key": "/works/OL20002669W",
+        "language": [
+          "eng"
+        ],
+        "title": "A triumph of genius"
+      },
+      {
+        "edition_count": 1,
+        "first_publish_year": 1764,
+        "key": "/works/OL16785721W",
+        "language": [
+          "eng"
+        ],
+        "title": "The triumph of genius, a dream"
+      },
+      {
+        "author_name": [
+          "Lafayette Female Academy (Lexington, Ky.)"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1826,
+        "key": "/works/OL44974053W",
+        "language": [
+          "eng"
+        ],
+        "title": "School exercises of the academy, including Triumphs of genius, a poem, by C.C. Nephew"
+      }
+    ]
+  },
+  "work": {
+    "key": "/works/OL20002669W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7601287A"
+        }
+      }
+    ],
+    "title": "A triumph of genius",
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Polaroid Land camera",
+      "Polaroid Corporation",
+      "History",
+      "Instant photography",
+      "Biography",
+      "Inventors",
+      "Trials, litigation",
+      "Patent infringement",
+      "Eastman Kodak Company"
+    ],
+    "subject_people": [
+      "Edwin H. Land (1909-1991)"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      12476175
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-18T22:19:53.323435"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-03-28T23:43:04.028722"
+    }
+  }
+}

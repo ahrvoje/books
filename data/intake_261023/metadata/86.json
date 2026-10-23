@@ -1,0 +1,106 @@
+{
+  "mention": "History in the Making",
+  "url": "https://openlibrary.org/search.json?title=History%20in%20the%20Making&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:11.132Z",
+  "status": 200,
+  "search": {
+    "numFound": 300,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 300,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Sir Henry Parkes"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 1892,
+        "isbn": [
+          "9780836957082",
+          "0836957083"
+        ],
+        "key": "/works/OL7028060W",
+        "language": [
+          "eng"
+        ],
+        "title": "Fifty years in the making of Australian history"
+      },
+      {
+        "author_name": [
+          "Kyle Roy Ward"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2006,
+        "isbn": [
+          "9781595580443",
+          "1595580441"
+        ],
+        "key": "/works/OL7797960W",
+        "language": [
+          "eng"
+        ],
+        "title": "History in the making"
+      },
+      {
+        "author_name": [
+          "Roy Swanstrom"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 1978,
+        "isbn": [
+          "0801082382",
+          "0819182664",
+          "9780877845812",
+          "0877845816",
+          "9780801082382",
+          "9780819182661"
+        ],
+        "key": "/works/OL4085588W",
+        "language": [
+          "eng"
+        ],
+        "title": "History in the making"
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      4546905
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-13T10:04:01.604849"
+    },
+    "latest_revision": 5,
+    "key": "/works/OL7028060W",
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL1968134A"
+        }
+      }
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T20:13:40.137840"
+    },
+    "title": "Fifty years in the making of Australian history",
+    "subject_places": [
+      "Great Britain",
+      "New South Wales"
+    ],
+    "subjects": [
+      "Colonies",
+      "History",
+      "Politics and government"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 5
+  }
+}

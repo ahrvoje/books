@@ -1,0 +1,111 @@
+{
+  "mention": "The Old New Thing",
+  "url": "https://openlibrary.org/search.json?title=The%20Old%20New%20Thing&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:29.775Z",
+  "status": 200,
+  "search": {
+    "numFound": 33,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 33,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Raymond Chen"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2006,
+        "isbn": [
+          "9780321440303",
+          "0321440307",
+          "9780321491954",
+          "9780132701648",
+          "0321491955",
+          "0132701642"
+        ],
+        "key": "/works/OL9256722W",
+        "language": [
+          "eng"
+        ],
+        "title": "The old new thing"
+      },
+      {
+        "author_name": [
+          "Lawrence Feingold"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2010,
+        "isbn": [
+          "0939409046",
+          "9780939409044"
+        ],
+        "key": "/works/OL17385581W",
+        "title": "The Mystery Of Israel And The Church Vol 2 Things New And Old"
+      },
+      {
+        "author_name": [
+          "George Robert Gleig"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2018,
+        "isbn": [
+          "0343731428",
+          "034373141X",
+          "9780343731410",
+          "9780341773108",
+          "9780341773092",
+          "9780343731427",
+          "0341773093",
+          "0341773107"
+        ],
+        "key": "/works/OL24709613W",
+        "language": [
+          "eng"
+        ],
+        "title": "Things Old and New, a Sequel to 'the Chronicles of Waltham', by the Author of 'the Subaltern'"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T00:08:18.469036"
+    },
+    "subjects": [
+      "Computer software",
+      "Development",
+      "Microsoft Windows (Computer file)",
+      "Operating systems (Computers)",
+      "Microsoft windows (computer program)",
+      "Operating systems (computers)",
+      "Computer software, development"
+    ],
+    "latest_revision": 4,
+    "key": "/works/OL9256722W",
+    "title": "The old new thing",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3312260A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-01T16:11:55.870493"
+    },
+    "covers": [
+      194071
+    ],
+    "revision": 4
+  }
+}

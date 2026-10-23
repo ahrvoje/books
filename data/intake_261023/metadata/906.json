@@ -1,0 +1,86 @@
+{
+  "mention": "About Time — Adam Frank",
+  "url": "https://openlibrary.org/search.json?title=About%20Time&author=Adam%20Frank&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:57:02.088Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Adam Frank"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2012,
+        "isbn": [
+          "1851689095",
+          "9781851689644",
+          "1851689648",
+          "9781851689095"
+        ],
+        "key": "/works/OL21199216W",
+        "language": [
+          "eng"
+        ],
+        "title": "About time"
+      },
+      {
+        "author_name": [
+          "Adam Frank"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2012,
+        "isbn": [
+          "1780740603",
+          "9781439169605",
+          "1439169608",
+          "9781780740607"
+        ],
+        "key": "/works/OL20402840W",
+        "language": [
+          "eng"
+        ],
+        "title": "About Time"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-13T11:21:49.025341"
+    },
+    "subjects": [
+      "Time"
+    ],
+    "latest_revision": 1,
+    "key": "/works/OL21199216W",
+    "title": "About time",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6348995A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-13T11:21:49.025341"
+    },
+    "covers": [
+      10349825
+    ],
+    "revision": 1
+  }
+}

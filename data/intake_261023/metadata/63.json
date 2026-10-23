@@ -1,0 +1,94 @@
+{
+  "mention": "Mrs P's Journey",
+  "url": "https://openlibrary.org/search.json?title=Mrs%20P's%20Journey&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:56.555Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Sarah Hartley"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2001,
+        "isbn": [
+          "9781471142055",
+          "9780743408769",
+          "1471142051",
+          "9780743208017",
+          "0743408764",
+          "0743208013"
+        ],
+        "key": "/works/OL5934915W",
+        "language": [
+          "eng"
+        ],
+        "title": "Mrs P's journey",
+        "ratings_average": 4,
+        "ratings_count": 1
+      }
+    ]
+  },
+  "work": {
+    "title": "Mrs P's journey",
+    "covers": [
+      471564
+    ],
+    "subject_places": [
+      "Great Britain"
+    ],
+    "subjects": [
+      "Artists",
+      "Biography",
+      "Businessmen",
+      "Businesswomen",
+      "Cartographers",
+      "Geographers' A-Z Map Company",
+      "History",
+      "Women artists",
+      "Women cartographers",
+      "Publishers and sellers of maps",
+      "Literature",
+      "Geographers",
+      "Businesswomen, biography",
+      "Artists, biography"
+    ],
+    "subject_people": [
+      "Phyllis Pearsall"
+    ],
+    "key": "/works/OL5934915W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1469206A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "genres": [
+      "/tags/OL174T"
+    ],
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T18:13:02.609338"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-08-28T22:46:40.500952"
+    }
+  }
+}

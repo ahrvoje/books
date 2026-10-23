@@ -1,0 +1,108 @@
+{
+  "mention": "A History of Pi",
+  "url": "https://openlibrary.org/search.json?title=A%20History%20of%20Pi&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:22.872Z",
+  "status": 200,
+  "search": {
+    "numFound": 12,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 12,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Petr Beckmann"
+        ],
+        "edition_count": 17,
+        "first_publish_year": 1970,
+        "isbn": [
+          "0911762078",
+          "9780880294188",
+          "1466887168",
+          "0911762183",
+          "0312381859",
+          "9780911762075",
+          "0911762124",
+          "9780312381851",
+          "9781466887169",
+          "0880294183",
+          "9780911762129",
+          "9780911762181"
+        ],
+        "key": "/works/OL4814410W",
+        "language": [
+          "eng"
+        ],
+        "title": "A History of π (PI)",
+        "ratings_average": 4,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Freeman Hansford Hart"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 1953,
+        "key": "/works/OL31270679W",
+        "language": [
+          "eng"
+        ],
+        "title": "A history of Pi Kappa Alpha,"
+      },
+      {
+        "edition_count": 1,
+        "first_publish_year": 1990,
+        "isbn": [
+          "9789992132555",
+          "9992132558"
+        ],
+        "key": "/works/OL13260462M",
+        "title": "A History of Pi"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Pi",
+      "Pi (Zahl)",
+      "Geschichte"
+    ],
+    "key": "/works/OL4814410W",
+    "title": "A History of π (PI)",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL1014695A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      7901790,
+      7901794,
+      7901791,
+      4734757,
+      8659336,
+      7903992
+    ],
+    "description": "The history of pi, says the author, though a small part of the history of mathematics, is nevertheless a mirror of the history of man. Petr Beckmann holds up this mirror, giving the background of the times when pi made progress and also when it did not, because science was being stifled by militarism or religious fanaticism. The mathematical level of this book is flexible, and there is plenty for readers of all ages and interests.",
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T07:37:31.327781"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-11-18T17:43:07.701892"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "mention": "The Will to Keep Winning",
+  "url": "https://openlibrary.org/search.json?title=The%20Will%20to%20Keep%20Winning&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:19.354Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Daigo Umehara"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2016,
+        "isbn": [
+          "9784093884860",
+          "4093884862"
+        ],
+        "key": "/works/OL46092886W",
+        "title": "The Will to Keep Winning",
+        "ratings_average": 0,
+        "ratings_count": 0
+      },
+      {
+        "edition_count": 1,
+        "first_publish_year": 2016,
+        "key": "/works/OL37892961W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Will to Keep Winning",
+        "ratings_average": 0,
+        "ratings_count": 0
+      }
+    ]
+  },
+  "work": {
+    "title": "The Will to Keep Winning",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL8168916A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "key": "/works/OL46092886W",
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2026-10-11T18:14:21.586268"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-10-11T18:14:21.586268"
+    }
+  }
+}

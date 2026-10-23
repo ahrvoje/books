@@ -1,0 +1,111 @@
+{
+  "mention": "More Effective C++",
+  "url": "https://openlibrary.org/search.json?title=More%20Effective%20C%2B%2B&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:46.801Z",
+  "status": 200,
+  "search": {
+    "numFound": 8,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 8,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Scott Meyers"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 1995,
+        "isbn": [
+          "013279747X",
+          "020163371X",
+          "0321545192",
+          "9780201633719",
+          "9780132797474",
+          "9788177589801",
+          "9780321545190",
+          "8177589806"
+        ],
+        "key": "/works/OL2685842W",
+        "language": [
+          "eng"
+        ],
+        "title": "More Effective C++",
+        "ratings_average": 4,
+        "ratings_count": 3
+      },
+      {
+        "author_name": [
+          "Bill Wagner"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2008,
+        "isbn": [
+          "0321485890",
+          "9780321485892"
+        ],
+        "key": "/works/OL2037007W",
+        "language": [
+          "eng"
+        ],
+        "title": "More effective C♯"
+      },
+      {
+        "edition_count": 1,
+        "first_publish_year": 2001,
+        "key": "/works/OL17720225M",
+        "language": [
+          "eng"
+        ],
+        "title": "Effectiveness of diffusion barrier coatings for Mo-Re embedded in C/SiC and C/C"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "December 29, 1995",
+    "title": "More Effective C++",
+    "covers": [
+      135577
+    ],
+    "lc_classifications": [
+      "QA76.73.C153 M495 1996"
+    ],
+    "key": "/works/OL2685842W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL392270A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "005.13/3"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "C++ (Computer program language)",
+      "C plus plus (computer program language)"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Meyers includes proven methods for improving program efficiency, comprehensive descriptions of advanced techniques such as virtual constructors, proxy classes and double-dispatching, and examples of the profound impact of exception handling."
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T00:13:41.244762"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-05-18T18:25:27.898928"
+    }
+  }
+}

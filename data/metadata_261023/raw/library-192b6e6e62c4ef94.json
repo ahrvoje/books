@@ -1,0 +1,105 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22Cartesian%20Economics%22%20AND%20author%3A%22soddy%22)%20OR%20(title%3A%22It%20Was%20Never%20About%20You%22%20AND%20author%3A%22maurer%22)%20OR%20(title%3A%22One%20Bullet%20Away%22%20AND%20author%3A%22fick%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T08:00:18.734Z",
+    "file": "data/metadata_261023/raw/library-192b6e6e62c4ef94.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"Cartesian Economics\" AND author:\"soddy\") OR (title:\"It Was Never About You\" AND author:\"maurer\") OR (title:\"One Bullet Away\" AND author:\"fick\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Nathaniel C. Fick"
+        ],
+        "edition_key": [
+          "OL37176983M",
+          "OL7953042M",
+          "OL7953043M",
+          "OL37099016M",
+          "OL11794772M",
+          "OL7605752M",
+          "OL29030441M",
+          "OL7606438M",
+          "OL37082400M",
+          "OL48136468M",
+          "OL10316529M"
+        ],
+        "isbn": [
+          "9780618556137",
+          "029784556X",
+          "0297857053",
+          "9780618773435",
+          "0743551877",
+          "0297846590",
+          "9781299881396",
+          "0547349548",
+          "0753821877",
+          "1419375938",
+          "9780743551878",
+          "9781419375934",
+          "0618556133",
+          "1299881394",
+          "9780743551861",
+          "9780297857051",
+          "0618773436",
+          "9780547349541",
+          "0743551869",
+          "9780753821879",
+          "9780297845560",
+          "9780297846598"
+        ],
+        "key": "/works/OL8455193W",
+        "title": "One Bullet Away"
+      },
+      {
+        "author_name": [
+          "Soddy, Frederick"
+        ],
+        "edition_key": [
+          "OL14348250M",
+          "OL6665000M"
+        ],
+        "key": "/works/OL1557522W",
+        "title": "Cartesian economics"
+      },
+      {
+        "author_name": [
+          "Nathaniel Fick"
+        ],
+        "edition_key": [
+          "OL24742790M"
+        ],
+        "isbn": [
+          "9780618556137",
+          "0618556133"
+        ],
+        "key": "/works/OL15832437W",
+        "title": "One bullet away"
+      },
+      {
+        "author_name": [
+          "Frederick 1877-1956 Soddy"
+        ],
+        "edition_key": [
+          "OL50874936M",
+          "OL46266180M"
+        ],
+        "isbn": [
+          "1020515988",
+          "1015003761",
+          "9781015003767",
+          "9781020515989"
+        ],
+        "key": "/works/OL34151064W",
+        "title": "Cartesian Economics [microform]; the Bearing of Physical Science upon State Stewardship"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "mention": "Entering Space",
+  "url": "https://openlibrary.org/search.json?title=Entering%20Space&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:24.471Z",
+  "status": 200,
+  "search": {
+    "numFound": 16,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 16,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Joseph P. Allen"
+        ],
+        "edition_count": 11,
+        "first_publish_year": 1984,
+        "isbn": [
+          "0941434761",
+          "9780748101610",
+          "0856137359",
+          "9780517641835",
+          "9780856137358",
+          "9780941434768",
+          "0517641836",
+          "9780941434539",
+          "5551223817",
+          "0941434745",
+          "0748101616",
+          "9780773720244",
+          "9785551223818",
+          "0941434532",
+          "0773720243",
+          "9780941434744"
+        ],
+        "key": "/works/OL5353484W",
+        "language": [
+          "eng"
+        ],
+        "title": "Entering space"
+      },
+      {
+        "author_name": [
+          "Robert Zubrin"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 1999,
+        "isbn": [
+          "0874779758",
+          "1585420360",
+          "9780874779752",
+          "9781585420360"
+        ],
+        "key": "/works/OL3281434W",
+        "language": [
+          "eng"
+        ],
+        "title": "Entering Space"
+      },
+      {
+        "author_name": [
+          "Robert Zubrin"
+        ],
+        "edition_count": 0,
+        "key": "/works/OL16041180W",
+        "title": "Entering space"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Astronautics",
+      "Space flight",
+      "Space shuttles"
+    ],
+    "key": "/works/OL5353484W",
+    "title": "Entering space",
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL1232250A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      6425119,
+      4809549
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Describes what is is like traveling and working in the space shuttle and looks at highlights of the space exploration program."
+    },
+    "latest_revision": 13,
+    "revision": 13,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T09:40:10.621272"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-09T19:29:03.034183"
+    }
+  }
+}

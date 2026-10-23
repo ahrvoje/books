@@ -1,0 +1,807 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22Time's%20Echo%22%20AND%20author%3A%22eichler%22)%20OR%20(title%3A%22Computer%20Connections%22%20AND%20author%3A%22kildall%22)%20OR%20(title%3A%22The%20Rediscovery%20of%20America%22%20AND%20author%3A%22blackhawk%22)%20OR%20(title%3A%22Empire%20of%20Ice%20and%20Stone%22%20AND%20author%3A%22levy%22)%20OR%20(title%3A%22The%20Art%20of%20Profitability%22%20AND%20author%3A%22slywotzky%22)%20OR%20(title%3A%22In%20the%20Beginning%20Was%20the%20Command%20Line%22%20AND%20author%3A%22stephenson%22)%20OR%20(title%3A%22The%20History%20of%20the%20Priority%20Dispute%20between%20Newton%20and%20Leibniz%22%20AND%20author%3A%22sonar%22)%20OR%20(title%3A%22Farthest%20North%22%20AND%20author%3A%22nansen%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T07:58:24.641Z",
+    "file": "data/metadata_261023/raw/library-94207bf05e6beaba.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 42,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 42,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"Time's Echo\" AND author:\"eichler\") OR (title:\"Computer Connections\" AND author:\"kildall\") OR (title:\"The Rediscovery of America\" AND author:\"blackhawk\") OR (title:\"Empire of Ice and Stone\" AND author:\"levy\") OR (title:\"The Art of Profitability\" AND author:\"slywotzky\") OR (title:\"In the Beginning Was the Command Line\" AND author:\"stephenson\") OR (title:\"The History of the Priority Dispute between Newton and Leibniz\" AND author:\"sonar\") OR (title:\"Farthest North\" AND author:\"nansen\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Neal Stephenson"
+        ],
+        "edition_key": [
+          "OL37383597M",
+          "OL37375882M",
+          "OL37379864M",
+          "OL9699141M",
+          "OL9034827M",
+          "OL26318881M",
+          "OL37364459M",
+          "OL24961816M",
+          "OL24249207M",
+          "OL7435585M"
+        ],
+        "isbn": [
+          "9783442151776",
+          "0061568732",
+          "9780061568732",
+          "0061568740",
+          "0380815931",
+          "9780613917377",
+          "8493298220",
+          "0613917375",
+          "0061568767",
+          "3442151775",
+          "9780061568718",
+          "9780061568749",
+          "0061568716",
+          "9780061568763",
+          "0061568724",
+          "9780061832901",
+          "0061832901",
+          "9780061655760",
+          "0061655767",
+          "9788493298227",
+          "9780061568725",
+          "9780380815937"
+        ],
+        "key": "/works/OL38477W",
+        "title": "In the Beginning...Was the Command Line"
+      },
+      {
+        "author_name": [
+          "Adrian Slywotzky"
+        ],
+        "edition_key": [
+          "OL40499339M",
+          "OL7536992M",
+          "OL7538426M",
+          "OL40473757M",
+          "OL8820132M",
+          "OL40486624M",
+          "OL24271701M",
+          "OL9531416M",
+          "OL40467711M"
+        ],
+        "isbn": [
+          "0759527725",
+          "0759507295",
+          "1586214705",
+          "9780759587403",
+          "0759598010",
+          "0759570469",
+          "9780446531504",
+          "9780446407281",
+          "0446407283",
+          "1586214713",
+          "9780759547339",
+          "9780759570467",
+          "9780446692274",
+          "9780759527720",
+          "0759547335",
+          "9780759598010",
+          "0446692271",
+          "9781586214715",
+          "075958740X",
+          "9780759507296",
+          "9781586214708",
+          "0446531502"
+        ],
+        "key": "/works/OL8135377W",
+        "title": "The Art of Profitability"
+      },
+      {
+        "author_name": [
+          "Buddy Levy"
+        ],
+        "edition_key": [
+          "OL36665691M",
+          "OL36928818M",
+          "OL44236145M"
+        ],
+        "isbn": [
+          "1250274451",
+          "9781250274458",
+          "9781250871633",
+          "1250274443",
+          "1250871638",
+          "9781250274441"
+        ],
+        "key": "/works/OL27043826W",
+        "title": "Empire of Ice and Stone"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL18896811M",
+          "OL13719181M",
+          "OL7098868M",
+          "OL18896826M",
+          "OL23674749M",
+          "OL8920645M",
+          "OL7158225M",
+          "OL22911458M",
+          "OL13692487M",
+          "OL21966612M",
+          "OL13809911M",
+          "OL16485540M",
+          "OL17129993M",
+          "OL24233775M",
+          "OL24233794M",
+          "OL23906029M",
+          "OL7833417M",
+          "OL23008527M",
+          "OL17470929M",
+          "OL13874674M",
+          "OL6963059M",
+          "OL7097779M",
+          "OL15007186M",
+          "OL17362502M",
+          "OL23652517M",
+          "OL5679028M",
+          "OL21706651M",
+          "OL15007185M",
+          "OL21859405M",
+          "OL7125050M",
+          "OL18896804M",
+          "OL21706669M"
+        ],
+        "isbn": [
+          "0375754725",
+          "0665181337",
+          "9780665296314",
+          "0665181353",
+          "9780715630310",
+          "9781841582177",
+          "9781602392373",
+          "0715630318",
+          "9780665181344",
+          "9780665181351",
+          "9780665181337",
+          "1841582174",
+          "0665296304",
+          "9780375754722",
+          "1602392374",
+          "9780665296307",
+          "0665181345",
+          "0665296312"
+        ],
+        "key": "/works/OL1362539W",
+        "title": "Fram over Polhavet"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL18753733M",
+          "OL21881065M",
+          "OL21881073M",
+          "OL24233762M",
+          "OL24233722M",
+          "OL24233764M",
+          "OL24233747M",
+          "OL18753464M",
+          "OL18753476M",
+          "OL18753708M",
+          "OL17391741M",
+          "OL13912147M",
+          "OL18753725M",
+          "OL13895642M",
+          "OL13912142M",
+          "OL21881068M",
+          "OL18000506M",
+          "OL18753468M",
+          "OL18246350M"
+        ],
+        "isbn": [
+          "0665440618",
+          "0665296320",
+          "9780665440625",
+          "9780665296345",
+          "9780665296321",
+          "0665440634",
+          "0665296339",
+          "9780665296505",
+          "0665296347",
+          "9780665440618",
+          "0665440626",
+          "0665296487",
+          "0665296495",
+          "9780665296499",
+          "9780665296482",
+          "9780665296338",
+          "9780665440632",
+          "0665296509"
+        ],
+        "key": "/works/OL1362537W",
+        "title": "Fridtjof Nansen's \"Farthest north\""
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL34457334M",
+          "OL39077532M",
+          "OL32901189M",
+          "OL34457321M",
+          "OL39085258M",
+          "OL39011585M",
+          "OL29068066M",
+          "OL32293344M",
+          "OL34490063M",
+          "OL31929736M",
+          "OL37961785M",
+          "OL37960930M",
+          "OL39046298M",
+          "OL35283648M",
+          "OL32325787M",
+          "OL32341945M",
+          "OL32757631M"
+        ],
+        "isbn": [
+          "1108030939",
+          "1376474131",
+          "9780342345731",
+          "9781108030922",
+          "9781108030946",
+          "9780344314506",
+          "1108030947",
+          "0342489593",
+          "9781376732245",
+          "9781376474138",
+          "9780342489596",
+          "0342345729",
+          "9780342345724",
+          "9781108030939",
+          "9781344969376",
+          "0344314502",
+          "0344460460",
+          "1344138373",
+          "9781344138376",
+          "1376732246",
+          "9780344460463",
+          "9781345084917",
+          "9781783340934",
+          "9780342489602",
+          "1783340932",
+          "0342489607",
+          "1626369615",
+          "0342345737",
+          "1345084919",
+          "1108030920",
+          "9781626369610",
+          "1783340436",
+          "1344969372",
+          "9781783340439"
+        ],
+        "key": "/works/OL21461468W",
+        "title": "Farthest North"
+      },
+      {
+        "author_name": [
+          "Jeremy Eichler"
+        ],
+        "edition_key": [
+          "OL49767947M",
+          "OL48191719M",
+          "OL46112328M"
+        ],
+        "isbn": [
+          "0525521712",
+          "9780525521723",
+          "0525521720",
+          "9780525521716",
+          "9780571370535",
+          "0571370535"
+        ],
+        "key": "/works/OL34052842W",
+        "title": "Time's Echo"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL54159095M",
+          "OL55352350M",
+          "OL60387776M",
+          "OL54215195M",
+          "OL55250461M"
+        ],
+        "isbn": [
+          "3734047692",
+          "9781463635947",
+          "146363594X",
+          "9783734047695",
+          "1542710219",
+          "9781542710213",
+          "9781976487064",
+          "1453688897",
+          "1976487064",
+          "9781453688892"
+        ],
+        "key": "/works/OL39752573W",
+        "title": "Farthest North"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL7427328M"
+        ],
+        "isbn": [
+          "9780375754722",
+          "0375754725"
+        ],
+        "key": "/works/OL8038097W",
+        "title": "Farthest North"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL48717468M",
+          "OL47755115M"
+        ],
+        "isbn": [
+          "110279385X",
+          "9781102793854"
+        ],
+        "key": "/works/OL35340578W",
+        "title": "Farthest North"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL15107922M"
+        ],
+        "isbn": [
+          "0701002301",
+          "9780701002305"
+        ],
+        "key": "/works/OL11394931W",
+        "title": "Farthest North"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen",
+          "Otto Neumann Sverdrup"
+        ],
+        "edition_key": [
+          "OL32364064M",
+          "OL33116871M",
+          "OL39036982M"
+        ],
+        "isbn": [
+          "034397746X",
+          "9780342019250",
+          "0343977478",
+          "9780343977474",
+          "0342019252",
+          "9780343977467"
+        ],
+        "key": "/works/OL24434736W",
+        "title": "Farthest North; Volume II"
+      },
+      {
+        "author_name": [
+          "Ned Blackhawk"
+        ],
+        "edition_key": [
+          "OL61121544M"
+        ],
+        "key": "/works/OL44765493W",
+        "title": "The Rediscovery of America"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL39722274M",
+          "OL46330745M"
+        ],
+        "isbn": [
+          "9781016636117",
+          "9780343415532",
+          "1016636113",
+          "0343415534"
+        ],
+        "key": "/works/OL28895417W",
+        "title": "Fridtjof Nansen's Farthest North, of II; Volume I"
+      },
+      {
+        "author_name": [
+          "Fritjof Nansen"
+        ],
+        "edition_key": [
+          "OL54490657M"
+        ],
+        "isbn": [
+          "9781461067153",
+          "1461067154"
+        ],
+        "key": "/works/OL40030722W",
+        "title": "Farthest North"
+      },
+      {
+        "author_name": [
+          "Jeremy Eichler"
+        ],
+        "edition_key": [
+          "OL50634591M",
+          "OL51324845M",
+          "OL52629537M"
+        ],
+        "isbn": [
+          "9780571370559",
+          "9780525563440",
+          "9780571370542",
+          "052556344X",
+          "0571370543",
+          "0571370551"
+        ],
+        "key": "/works/OL37574720W",
+        "title": "Time's Echo"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL45612863M"
+        ],
+        "key": "/works/OL33653760W",
+        "title": "Episodes from farthest north"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL62389899M"
+        ],
+        "key": "/works/OL45846383W",
+        "title": "Farthest North Vol. II"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL53640426M",
+          "OL53689096M",
+          "OL53688369M"
+        ],
+        "key": "/works/OL39416522W",
+        "title": "Farthest north"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen",
+          "Otto Neumann Sverdrup"
+        ],
+        "edition_key": [
+          "OL43215047M",
+          "OL46323522M",
+          "OL46323501M",
+          "OL39096591M"
+        ],
+        "isbn": [
+          "9781015452893",
+          "9781015448803",
+          "9781377147604",
+          "1015448801",
+          "1377147606",
+          "1015452892"
+        ],
+        "key": "/works/OL28516286W",
+        "title": "Farthest North"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL26898062M",
+          "OL44683005M",
+          "OL45008512M"
+        ],
+        "key": "/works/OL19681757W",
+        "title": "Farthest north"
+      },
+      {
+        "author_name": [
+          "Otto Sverdrup",
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL38449477M"
+        ],
+        "isbn": [
+          "9798805465872"
+        ],
+        "key": "/works/OL28092849W",
+        "title": "Farthest North : Illustrated"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL8769599M"
+        ],
+        "isbn": [
+          "9781903933091",
+          "1903933099"
+        ],
+        "key": "/works/OL15394463W",
+        "title": "Farthest North (The Complete Journey - Unabridged)"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL15037701M"
+        ],
+        "isbn": [
+          "9780426124900",
+          "0426124901"
+        ],
+        "key": "/works/OL11361988W",
+        "title": "Farthest North"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen",
+          "Ulf Bjorklund"
+        ],
+        "edition_key": [
+          "OL36623594M"
+        ],
+        "isbn": [
+          "1538521369",
+          "9781538521366"
+        ],
+        "key": "/works/OL27017021W",
+        "title": "Farthest North Lib/E"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL20589221M"
+        ],
+        "key": "/works/OL13170473W",
+        "title": "Farthest North Being the Record of a Voyage of Exploration of the Ship 'Fram .."
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL34467677M"
+        ],
+        "isbn": [
+          "1139014064",
+          "9781139014069"
+        ],
+        "key": "/works/OL25671015W",
+        "title": "Farthest North : Volume 1"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL34499441M"
+        ],
+        "isbn": [
+          "1139014072",
+          "9781139014076"
+        ],
+        "key": "/works/OL25687519W",
+        "title": "Farthest North : Volume 2"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL53689390M"
+        ],
+        "key": "/works/OL39455677W",
+        "title": "Fridtjof Nansen's \"Farthest north\""
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL25231679M"
+        ],
+        "isbn": [
+          "9780665527364",
+          "0665527365"
+        ],
+        "key": "/works/OL16541211W",
+        "title": "Farthest north"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL25239796M"
+        ],
+        "isbn": [
+          "0665527357",
+          "9780665527357"
+        ],
+        "key": "/works/OL16549693W",
+        "title": "Farthest north"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL24650232M"
+        ],
+        "isbn": [
+          "0665490836",
+          "9780665490835"
+        ],
+        "key": "/works/OL15739461W",
+        "title": "Farthest north"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL25039571M"
+        ],
+        "key": "/works/OL16158980W",
+        "title": "Farthest north"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL25039572M"
+        ],
+        "key": "/works/OL16158981W",
+        "title": "Farthest north"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL24609008M"
+        ],
+        "isbn": [
+          "0665440634",
+          "9780665440632"
+        ],
+        "key": "/works/OL15677484W",
+        "title": "Fridtjof Nansen's \"Farthest north\""
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen"
+        ],
+        "edition_key": [
+          "OL24608650M"
+        ],
+        "isbn": [
+          "9780665440625",
+          "0665440626"
+        ],
+        "key": "/works/OL15677140W",
+        "title": "Fridtjof Nansen's \"Farthest north\""
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen",
+          "Otto Neumann Sverdrup"
+        ],
+        "edition_key": [
+          "OL51409931M",
+          "OL50927607M"
+        ],
+        "isbn": [
+          "1022391526",
+          "9781022391529",
+          "1020442255",
+          "9781020442254"
+        ],
+        "key": "/works/OL37746374W",
+        "title": "Fridtjof Nansen's Farthest North"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen",
+          "Otto Neumann Sverdrup"
+        ],
+        "edition_key": [
+          "OL62283871M"
+        ],
+        "key": "/works/OL45755634W",
+        "title": "Farthest north"
+      },
+      {
+        "author_name": [
+          "Fridtjof 1861-1930 Nansen",
+          "Fram (Ship)"
+        ],
+        "edition_key": [
+          "OL44302855M",
+          "OL50870063M"
+        ],
+        "isbn": [
+          "1013661303",
+          "1014712467",
+          "9781014712462",
+          "9781013661303"
+        ],
+        "key": "/works/OL32507730W",
+        "title": "Farthest North [microform]"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen",
+          "Otto Neumann Sverdrup"
+        ],
+        "edition_key": [
+          "OL58397020M"
+        ],
+        "key": "/works/OL42862866W",
+        "title": "Fridtjof Nansen's Farthest north"
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen",
+          "Otto Neumann Sverdrup"
+        ],
+        "edition_key": [
+          "OL20477776M"
+        ],
+        "key": "/works/OL19807895W",
+        "title": "Farthest North: Being the Record of a Voyage of Exploration of the Ship \"Fram\" 1893-96, and of a ..."
+      },
+      {
+        "author_name": [
+          "Fridtjof Nansen",
+          "Otto Neumann Sverdrup"
+        ],
+        "edition_key": [
+          "OL20504284M"
+        ],
+        "key": "/works/OL19618765W",
+        "title": "Farthest North: Being a Record of a Voyage of Exploration of the Ship \"Fram\" 1893-96, and of a ..."
+      }
+    ]
+  }
+}

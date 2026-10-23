@@ -1,0 +1,93 @@
+{
+  "mention": "The Six Mountain-Travel Books",
+  "url": "https://openlibrary.org/search.json?title=The%20Six%20Mountain-Travel%20Books&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:47.122Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Eric Earle Shipton"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1985,
+        "isbn": [
+          "9780898860757",
+          "089886075X"
+        ],
+        "key": "/works/OL1200931W",
+        "language": [
+          "eng"
+        ],
+        "title": "The six mountain-travel books"
+      },
+      {
+        "author_name": [
+          "Eric Shipton"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2010,
+        "isbn": [
+          "1898573816",
+          "9781898573814"
+        ],
+        "key": "/works/OL15983500W",
+        "language": [
+          "eng"
+        ],
+        "title": "The six mountain-travel books"
+      }
+    ]
+  },
+  "work": {
+    "lc_classifications": [
+      "GV199.92.S53 A34 1985"
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-01-22T02:42:22.871054"
+    },
+    "title": "The six mountain-travel books",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T20:42:58.878810"
+    },
+    "subject_places": [
+      "Great Britain"
+    ],
+    "first_publish_date": "1985",
+    "latest_revision": 2,
+    "key": "/works/OL1200931W",
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL121223A"
+        }
+      }
+    ],
+    "subject_people": [
+      "Eric Earle Shipton (1907-)"
+    ],
+    "dewey_number": [
+      "796.5/22/0924",
+      "B"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Mountaineers",
+      "Biography",
+      "Mountaineering"
+    ],
+    "revision": 2
+  }
+}

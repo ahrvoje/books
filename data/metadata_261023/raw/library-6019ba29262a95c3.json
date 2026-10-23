@@ -1,0 +1,382 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22The%20Innovator%E2%80%99s%20Dilemma%22%20AND%20author%3A%22christensen%22)%20OR%20(title%3A%22Colossus%22%20AND%20author%3A%22copeland%22)%20OR%20(title%3A%22The%20Analogue%20Alternative%22%20AND%20author%3A%22small%22)%20OR%20(title%3A%22The%20Sciences%20of%20the%20Artificial%22%20AND%20author%3A%22simon%22)%20OR%20(title%3A%22Visual%20Explanations%22%20AND%20author%3A%22tufte%22)%20OR%20(title%3A%22A%20Short%20Bright%20Flash%22%20AND%20author%3A%22levitt%22)%20OR%20(title%3A%22When%20the%20Heavens%20Went%20on%20Sale%22%20AND%20author%3A%22vance%22)%20OR%20(title%3A%22IBM's%20Early%20Computers%22%20AND%20author%3A%22bashe%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T07:54:58.986Z",
+    "file": "data/metadata_261023/raw/library-6019ba29262a95c3.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 19,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 19,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"The Innovator’s Dilemma\" AND author:\"christensen\") OR (title:\"Colossus\" AND author:\"copeland\") OR (title:\"The Analogue Alternative\" AND author:\"small\") OR (title:\"The Sciences of the Artificial\" AND author:\"simon\") OR (title:\"Visual Explanations\" AND author:\"tufte\") OR (title:\"A Short Bright Flash\" AND author:\"levitt\") OR (title:\"When the Heavens Went on Sale\" AND author:\"vance\") OR (title:\"IBM's Early Computers\" AND author:\"bashe\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Clayton M. Christensen",
+          "L J Ganser",
+          "Don Leslie"
+        ],
+        "edition_key": [
+          "OL59116258M",
+          "OL33899797M",
+          "OL27581964M",
+          "OL27191008M",
+          "OL22255184M",
+          "OL32296026M",
+          "OL32598259M",
+          "OL35269611M",
+          "OL26797622M",
+          "OL26432023M",
+          "OL8663878M",
+          "OL3582509M",
+          "OL3971257M",
+          "OL9831612M",
+          "OL23073233M",
+          "OL7277716M",
+          "OL9232424M",
+          "OL973965M",
+          "OL21170033M",
+          "OL25262234M"
+        ],
+        "isbn": [
+          "9780066620695",
+          "1665143568",
+          "142219602X",
+          "9781633691780",
+          "1633691780",
+          "8835161185",
+          "4798100234",
+          "9788835161189",
+          "9781665143561",
+          "9780060521998",
+          "0060521996",
+          "1565114159",
+          "1665171537",
+          "9781665171533",
+          "9781665171540",
+          "0066620694",
+          "978-8835161189",
+          "9781681686905",
+          "1565113934",
+          "9780875845852",
+          "9781565114159",
+          "1681686902",
+          "9781565113930",
+          "0062060244",
+          "1665171545",
+          "9780062060242",
+          "0875845851",
+          "9781422196021",
+          "9784798100234"
+        ],
+        "key": "/works/OL1999873W",
+        "title": "The Innovator's Dilemma"
+      },
+      {
+        "author_name": [
+          "Edward R. Tufte"
+        ],
+        "edition_key": [
+          "OL45129207M",
+          "OL30551702M",
+          "OL18391324M",
+          "OL736758M",
+          "OL18179819M"
+        ],
+        "isbn": [
+          "9781930824157",
+          "9780961392123",
+          "0961392126",
+          "1930824157"
+        ],
+        "key": "/works/OL2824010W",
+        "title": "Visual Explanations"
+      },
+      {
+        "author_name": [
+          "Herbert Alexander Simon"
+        ],
+        "edition_key": [
+          "OL21519679M",
+          "OL975566M",
+          "OL4113166M",
+          "OL5680110M"
+        ],
+        "isbn": [
+          "0262191938",
+          "0262691914",
+          "9780262191937",
+          "026269073X",
+          "9780262691918",
+          "9780262690737"
+        ],
+        "key": "/works/OL1205035W",
+        "title": "The sciences of the artificial"
+      },
+      {
+        "author_name": [
+          "Ashlee Vance"
+        ],
+        "edition_key": [
+          "OL39270611M",
+          "OL46208440M",
+          "OL40143399M",
+          "OL37320741M",
+          "OL36757761M",
+          "OL40173715M"
+        ],
+        "isbn": [
+          "0062998889",
+          "9780753557754",
+          "9780062998880",
+          "0753557754",
+          "0062998870",
+          "9780753557778",
+          "9780062998903",
+          "0753557789",
+          "9780753557785",
+          "9780062998873",
+          "0753557770",
+          "0062998900"
+        ],
+        "key": "/works/OL28624340W",
+        "title": "When the Heavens Went on Sale"
+      },
+      {
+        "author_name": [
+          "Ashlee Vance"
+        ],
+        "edition_key": [
+          "OL51048306M"
+        ],
+        "isbn": [
+          "0753557762",
+          "9780753557761"
+        ],
+        "key": "/works/OL37831173W",
+        "title": "When the Heavens Went on Sale"
+      },
+      {
+        "author_name": [
+          "Charles J. Bashe",
+          "Lyle R. Johnson",
+          "John H. Palmer",
+          "Emerson W. Pugh"
+        ],
+        "edition_key": [
+          "OL3027471M"
+        ],
+        "isbn": [
+          "0262022257",
+          "9780262022255"
+        ],
+        "key": "/works/OL15161215W",
+        "title": "IBM's early computers"
+      },
+      {
+        "author_name": [
+          "Theresa Levitt"
+        ],
+        "edition_key": [
+          "OL29675661M",
+          "OL28021651M",
+          "OL26178724M"
+        ],
+        "isbn": [
+          "039306879X",
+          "9780393733945",
+          "9780393350890",
+          "0393733947",
+          "0393350894",
+          "9780393068795"
+        ],
+        "key": "/works/OL17575578W",
+        "title": "A Short Bright Flash"
+      },
+      {
+        "author_name": [
+          "Jack Copeland"
+        ],
+        "edition_key": [
+          "OL22722030M",
+          "OL7384386M",
+          "OL40387969M"
+        ],
+        "isbn": [
+          "1280753129",
+          "9781280753121",
+          "019284055X",
+          "9780192840554"
+        ],
+        "key": "/works/OL7999619W",
+        "title": "Colossus"
+      },
+      {
+        "author_name": [
+          "James S. Small"
+        ],
+        "edition_key": [
+          "OL7489414M",
+          "OL36720631M",
+          "OL54018237M",
+          "OL22490576M",
+          "OL46033574M",
+          "OL53944037M",
+          "OL36743210M",
+          "OL28781651M"
+        ],
+        "isbn": [
+          "9780203770214",
+          "0415271193",
+          "9781134699162",
+          "9781299695191",
+          "9781134699025",
+          "1134699026",
+          "1134699166",
+          "1299695191",
+          "0203770218",
+          "1134699093",
+          "9780415862998",
+          "9781134699094",
+          "9780415271196",
+          "041586299X"
+        ],
+        "key": "/works/OL8098049W",
+        "title": "The analogue alternative"
+      },
+      {
+        "author_name": [
+          "B. Jack Copeland"
+        ],
+        "edition_key": [
+          "OL3414828M"
+        ],
+        "isbn": [
+          "019284055X",
+          "9780192840554"
+        ],
+        "key": "/works/OL18349678W",
+        "title": "Colossus"
+      },
+      {
+        "author_name": [
+          "B. Jack Copeland"
+        ],
+        "edition_key": [
+          "OL27691098M"
+        ],
+        "isbn": [
+          "0199578141",
+          "9780199578146"
+        ],
+        "key": "/works/OL20464434W",
+        "title": "Colossus"
+      },
+      {
+        "author_name": [
+          "Charles J. Bashe",
+          "Lyle R. Johnson",
+          "John H. Palmer",
+          "Emerson W. Pugh"
+        ],
+        "edition_key": [
+          "OL9582730M"
+        ],
+        "isbn": [
+          "9780262523936",
+          "0262523930"
+        ],
+        "key": "/works/OL21712108W",
+        "title": "IBM's Early Computers"
+      },
+      {
+        "author_name": [
+          "Ashlee Vance",
+          "Michel Le Séac'h"
+        ],
+        "edition_key": [
+          "OL62596369M"
+        ],
+        "isbn": [
+          "9782266347600",
+          "2266347608"
+        ],
+        "key": "/works/OL46023138W",
+        "title": "New space"
+      },
+      {
+        "author_name": [
+          "Simon."
+        ],
+        "edition_key": [
+          "OL17380387M"
+        ],
+        "key": "/works/OL5407158W",
+        "title": "The sciences of the artificial"
+      },
+      {
+        "author_name": [
+          "James S. Small",
+          "Dr. James S. Small"
+        ],
+        "edition_key": [
+          "OL9107351M"
+        ],
+        "isbn": [
+          "9058232042",
+          "9789058232045"
+        ],
+        "key": "/works/OL9107351M",
+        "title": "The Analogue Alternative"
+      },
+      {
+        "author_name": [
+          "James Semple Small"
+        ],
+        "edition_key": [
+          "OL19773319M"
+        ],
+        "key": "/works/OL12882076W",
+        "title": "The analogue alternative"
+      },
+      {
+        "author_name": [
+          "H. A. Simon"
+        ],
+        "edition_key": [
+          "OL21375054M"
+        ],
+        "key": "/works/OL11267234W",
+        "title": "The sciences of the artificial"
+      },
+      {
+        "author_name": [
+          "Herbert Alexander Simon"
+        ],
+        "edition_key": [
+          "OL43197097M"
+        ],
+        "key": "/works/OL31531191W",
+        "title": "The sciences of the artificial, (Karl Taylor Compton lectures)"
+      },
+      {
+        "author_name": [
+          "B. Jack Copeland"
+        ],
+        "edition_key": [
+          "OL46083596M"
+        ],
+        "isbn": [
+          "9780191513152",
+          "0191513156"
+        ],
+        "key": "/works/OL34036743W",
+        "title": "Colossus : the secrets of Bletchley Park's code-breaking Computers"
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "mention": "Software Estimation",
+  "url": "https://openlibrary.org/search.json?title=Software%20Estimation&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:51.097Z",
+  "status": 200,
+  "search": {
+    "numFound": 103,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 103,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Steve McConnell"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2006,
+        "isbn": [
+          "9780735635135",
+          "0735637032",
+          "9780735637030",
+          "0735605351",
+          "0735635137",
+          "9780735605350"
+        ],
+        "key": "/works/OL2722066W",
+        "language": [
+          "eng"
+        ],
+        "title": "Software Estimation",
+        "ratings_average": 2,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Capers Jones"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 1998,
+        "isbn": [
+          "0071483004",
+          "9780079130945",
+          "9780071483001",
+          "0079130941"
+        ],
+        "key": "/works/OL1867356W",
+        "language": [
+          "eng"
+        ],
+        "title": "Estimating software costs"
+      },
+      {
+        "author_name": [
+          "Barry W. Boehm",
+          "Chris Abts",
+          "A. Winsor Brown",
+          "Sunita Chulani",
+          "Bradford K. Clark",
+          "Ellis Horowitz",
+          "Ray Madachy",
+          "Donald J. Reifer",
+          "Bert Steece",
+          "Barry W.Boehm"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2000,
+        "isbn": [
+          "9780137025763",
+          "9780130266927",
+          "0137025769",
+          "0130266922"
+        ],
+        "key": "/works/OL20830962W",
+        "language": [
+          "eng"
+        ],
+        "title": "Software Cost Estimation with COCOMO II",
+        "ratings_average": 5,
+        "ratings_count": 1
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      460978
+    ],
+    "first_publish_date": "March 1, 2006",
+    "key": "/works/OL2722066W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL398460A"
+        }
+      }
+    ],
+    "subjects": [
+      "Computer software",
+      "Development",
+      "Estimates",
+      "Software engineering",
+      "Computer software--development--estimates",
+      "Qa76.76.d47 m3934 2006"
+    ],
+    "title": "Software Estimation",
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T00:17:50.246651"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-19T23:35:07.721204"
+    }
+  }
+}

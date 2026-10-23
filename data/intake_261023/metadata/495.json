@@ -1,0 +1,116 @@
+{
+  "mention": "Starting Strength",
+  "url": "https://openlibrary.org/search.json?title=Starting%20Strength&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:52:37.124Z",
+  "status": 200,
+  "search": {
+    "numFound": 19,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 19,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Mark Rippetoe"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2011,
+        "isbn": [
+          "0982522797",
+          "9780976805458",
+          "0976805456",
+          "0982522746",
+          "9780982522790",
+          "0982522738",
+          "9780982522745",
+          "9780982522738"
+        ],
+        "key": "/works/OL19903741W",
+        "language": [
+          "eng",
+          "spa"
+        ],
+        "title": "Starting strength",
+        "ratings_average": 5,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Mark Rippetoe",
+          "Lon Kilgore"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2007,
+        "isbn": [
+          "9780976805427",
+          "0976805421"
+        ],
+        "key": "/works/OL19582888W",
+        "language": [
+          "eng"
+        ],
+        "title": "Starting strength",
+        "ratings_average": 4.6666665,
+        "ratings_count": 3
+      },
+      {
+        "author_name": [
+          "Mark Rippetoe"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2005,
+        "isbn": [
+          "0976805464",
+          "9780976805465",
+          "0976805405",
+          "9780976805403"
+        ],
+        "key": "/works/OL8845579W",
+        "language": [
+          "eng"
+        ],
+        "title": "Starting Strength"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Coaching",
+      "Weight training",
+      "Weight lifting",
+      "Styrketräning",
+      "Tyngdlyftning"
+    ],
+    "key": "/works/OL19903741W",
+    "title": "Starting strength",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3032635A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8722490
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-07T10:31:50.228306"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-07-13T07:28:44.401335"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "mention": "Establishing Quantum Physics in Munich",
+  "url": "https://openlibrary.org/search.json?title=Establishing%20Quantum%20Physics%20in%20Munich&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:56:56.447Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Michael Eckert"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2020,
+        "isbn": [
+          "9783030620332",
+          "3030620336"
+        ],
+        "key": "/works/OL26759695W",
+        "language": [
+          "eng"
+        ],
+        "title": "Establishing Quantum Physics in Munich"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Establishing Quantum Physics in Munich",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL983239A"
+        }
+      }
+    ],
+    "key": "/works/OL26759695W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-12-29T19:54:55.193043"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-12-29T19:54:55.193043"
+    }
+  }
+}

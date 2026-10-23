@@ -1,0 +1,93 @@
+{
+  "mention": "Masterminds of Programming",
+  "url": "https://openlibrary.org/search.json?title=Masterminds%20of%20Programming&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:11.108Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Federico Biancuzzi",
+          "Shane Warden"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 2008,
+        "isbn": [
+          "0596550944",
+          "9781306814669",
+          "059680167X",
+          "9780596801670",
+          "0596555504",
+          "9780596550943",
+          "0596515170",
+          "9780596515171",
+          "1306814669",
+          "9780596555504"
+        ],
+        "key": "/works/OL9486342W",
+        "language": [
+          "eng"
+        ],
+        "title": "Masterminds of Programming",
+        "ratings_average": 3.5,
+        "ratings_count": 2
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T00:36:58.900414"
+    },
+    "subjects": [
+      "Informatici",
+      "Interviews",
+      "Programmeertalen",
+      "Computer algorithms",
+      "Computer programming",
+      "Computer programmers",
+      "Programming languages (Electronic computers)",
+      "Ontwerpers",
+      "Programming languages (electronic computers)"
+    ],
+    "latest_revision": 4,
+    "key": "/works/OL9486342W",
+    "title": "Masterminds of Programming",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3501217A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2727107A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-21T05:46:32.330389"
+    },
+    "covers": [
+      8680984
+    ],
+    "revision": 4
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "mention": "Empire of Ice and Stone",
+  "url": "https://openlibrary.org/search.json?title=Empire%20of%20Ice%20and%20Stone&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:31.775Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Buddy Levy"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2022,
+        "isbn": [
+          "1250274451",
+          "9781250274458",
+          "9781250871633",
+          "1250274443",
+          "1250871638",
+          "9781250274441"
+        ],
+        "key": "/works/OL27043826W",
+        "language": [
+          "eng"
+        ],
+        "title": "Empire of Ice and Stone"
+      },
+      {
+        "author_name": [
+          "Irb Media"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2024,
+        "isbn": [
+          "9798330099177"
+        ],
+        "key": "/works/OL38678879W",
+        "language": [
+          "eng"
+        ],
+        "title": "Summary of Buddy Levy's Empire of Ice and Stone"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Empire of Ice and Stone",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7979863A"
+        }
+      }
+    ],
+    "covers": [
+      12554599
+    ],
+    "key": "/works/OL27043826W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-01-16T11:07:35.455166"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-01-16T11:07:35.455166"
+    }
+  }
+}

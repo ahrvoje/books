@@ -1,0 +1,105 @@
+{
+  "mention": "Jacquard's Web",
+  "url": "https://openlibrary.org/search.json?title=Jacquard's%20Web&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:20.447Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "James Essinger"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2004,
+        "isbn": [
+          "9780192805775",
+          "0192805770",
+          "9780192805782",
+          "0192805789"
+        ],
+        "key": "/works/OL825104W",
+        "language": [
+          "eng"
+        ],
+        "title": "Jacquard's web"
+      },
+      {
+        "author_name": [
+          "James Essinger"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2007,
+        "isbn": [
+          "1281346543",
+          "9780191517259",
+          "9781281346544",
+          "0191517259"
+        ],
+        "key": "/works/OL26528926W",
+        "language": [
+          "eng"
+        ],
+        "title": "Jacquard's Web"
+      },
+      {
+        "author_name": [
+          "Essinger, James"
+        ],
+        "edition_count": 1,
+        "isbn": [
+          "0192805770",
+          "9780192805775"
+        ],
+        "key": "/works/OL13633527W",
+        "language": [
+          "und"
+        ],
+        "title": "JACQUARD'S WEB: HOW A HAND-LOOM LED TO THE BIRTH OF THE INFORMATION AGE"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T05:01:05.798410"
+    },
+    "subjects": [
+      "Jacquard knitting machines",
+      "Computers",
+      "Information technology",
+      "History",
+      "Inventors"
+    ],
+    "latest_revision": 6,
+    "key": "/works/OL825104W",
+    "title": "Jacquard's web",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL70017A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-01T06:24:53.254420"
+    },
+    "covers": [
+      118059
+    ],
+    "revision": 6
+  }
+}

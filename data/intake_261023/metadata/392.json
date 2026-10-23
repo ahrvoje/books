@@ -1,0 +1,113 @@
+{
+  "mention": "On Having No Head",
+  "url": "https://openlibrary.org/search.json?title=On%20Having%20No%20Head&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:51:30.589Z",
+  "status": 200,
+  "search": {
+    "numFound": 7,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 7,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Douglas Edison Harding"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2013,
+        "isbn": [
+          "9781908774064",
+          "9781914316258",
+          "1908774061",
+          "1914316258"
+        ],
+        "key": "/works/OL20853045W",
+        "language": [
+          "eng"
+        ],
+        "title": "On Having No Head"
+      },
+      {
+        "author_name": [
+          "Douglas E. Harding"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2002,
+        "isbn": [
+          "1878019198",
+          "9781878019196"
+        ],
+        "key": "/works/OL8882128W",
+        "language": [
+          "eng"
+        ],
+        "title": "On Having No Head",
+        "ratings_average": 4,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "D. E. Harding"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 1961,
+        "isbn": [
+          "185063047X",
+          "9781850630470",
+          "0140190430",
+          "9780140190434"
+        ],
+        "key": "/works/OL4035430W",
+        "language": [
+          "eng"
+        ],
+        "title": "On having no head"
+      }
+    ]
+  },
+  "work": {
+    "title": "On Having No Head",
+    "covers": [
+      10165408
+    ],
+    "key": "/works/OL20853045W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3967840A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Spiritual life",
+      "Zen Buddhism",
+      "Enlightenment (Zen Buddhism)",
+      "Vie spirituelle",
+      "Bouddhisme zen",
+      "Illumination (Bouddhisme Zen)",
+      "Spirituelle Erfahrung",
+      "Zen-Buddhismus",
+      "Erleuchtung",
+      "Meditation"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-06-11T02:18:15.928007"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-08-15T05:02:53.506043"
+    }
+  }
+}

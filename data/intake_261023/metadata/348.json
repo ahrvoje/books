@@ -1,0 +1,100 @@
+{
+  "mention": "The Grand Contraption",
+  "url": "https://openlibrary.org/search.json?title=The%20Grand%20Contraption&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:51:01.114Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David Park",
+          "David Allen Park"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2005,
+        "isbn": [
+          "0691130531",
+          "0691121338",
+          "9780691121338",
+          "9780691130538"
+        ],
+        "key": "/works/OL8327729W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Grand Contraption",
+        "ratings_average": 5,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "David Allen Park"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2005,
+        "isbn": [
+          "0691121338",
+          "9780691121338"
+        ],
+        "key": "/works/OL3346913W",
+        "language": [
+          "eng"
+        ],
+        "title": "The grand contraption"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:39:11.224780"
+    },
+    "subjects": [
+      "Social aspects",
+      "Science",
+      "Science and civilization",
+      "History",
+      "Science, history",
+      "Science, social aspects"
+    ],
+    "latest_revision": 5,
+    "key": "/works/OL8327729W",
+    "title": "The Grand Contraption",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2769505A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL543025A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-20T07:37:02.733013"
+    },
+    "covers": [
+      443851
+    ],
+    "revision": 5
+  }
+}

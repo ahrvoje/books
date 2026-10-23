@@ -1,0 +1,80 @@
+{
+  "mention": "Sunburst and Luminary",
+  "url": "https://openlibrary.org/search.json?title=Sunburst%20and%20Luminary&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:22.545Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Don Eyles"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2018,
+        "isbn": [
+          "9780986385933",
+          "0986385905",
+          "9780986385902",
+          "098638593X"
+        ],
+        "key": "/works/OL20599917W",
+        "language": [
+          "eng"
+        ],
+        "title": "Sunburst and Luminary",
+        "ratings_average": 5,
+        "ratings_count": 1
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Biography",
+      "Technology",
+      "Manned space flight",
+      "Space flight to the moon",
+      "Computer software developers",
+      "Apollo-Programm",
+      "Project Apollo (U.S.)"
+    ],
+    "key": "/works/OL20599917W",
+    "title": "Sunburst and Luminary",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7809786A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      9240661
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "In 1966 the author, newly graduated from college, went to work for the MIT laboratory where the Apollo guidance system was designed. His assignment was to program the complex lunar landing phase in the Lunar Module's on board computer. As Apollo 11 approaches, the author flies lunar landings in simulators and meets the astronauts who will fly the LM for real. He explains the computer alarms that almost prevented Neil Armstrong from landing and describes a narrow escape from another dangerous problem. On Apollo 14 he devises a workaround when a faulty pushbutton threatens Alan Shepard's mission, earning a NASA award, a story in Rolling Stone, and a few lines in the history books. This memoir is a new kind of book about Apollo. It tells a story never told before by an insider the development of the on board software for the Apollo spacecraft. It makes a vertical connection between technical details and historic events, but by broadening the story using his own experiences as he grows into adulthood in the 1960s the author draws a parallel between that era of successful space exploration, and the exploration, inner and outer, that was taking place in the culture."
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-12-22T03:01:15.425521"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-05-21T05:05:33.401971"
+    }
+  }
+}

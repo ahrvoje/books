@@ -328,6 +328,16 @@ export function frontierLayers(rows, axes) {
     return layer;
   });
 }
+// Points are distinct frontier coordinates, sorted by increasing screen X.
+// Step through the dominated corner; interpolation invents unsupported trade-offs.
+export function frontierPath(points, xDirection) {
+  if (points.length < 2) return '';
+  let path = `M${points[0].join(',')}`;
+  for (const [x, y] of points.slice(1)) {
+    path += xDirection === 'min' ? `H${x}V${y}` : `V${y}H${x}`;
+  }
+  return path;
+}
 export function validateModel(m) {
   const errors = [];
   if (!m || m.version !== VERSION) return ['Settings require schema version 3. Earlier raw weights cannot be reused.'];

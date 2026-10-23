@@ -1,0 +1,79 @@
+{
+  "mention": "Introduction to Algorithms — Udi Manber",
+  "url": "https://openlibrary.org/search.json?title=Introduction%20to%20Algorithms&author=Udi%20Manber&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:28.116Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Udi Manber"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1989,
+        "isbn": [
+          "0201524899",
+          "9780201120370",
+          "0201120372",
+          "9780201524895"
+        ],
+        "key": "/works/OL5092129W",
+        "language": [
+          "eng"
+        ],
+        "title": "Introduction to algorithms"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "Combines inductive reasoning and recursive structure into a novel approach for algorithm design."
+    },
+    "covers": [
+      134112
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-07-31T13:11:02.579829"
+    },
+    "latest_revision": 5,
+    "key": "/works/OL5092129W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1120706A"
+        }
+      }
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T08:37:49.720418"
+    },
+    "title": "Introduction to algorithms",
+    "subjects": [
+      "Computer algorithms",
+      "Data structures (Computer science)",
+      "algorithm design",
+      "induction",
+      "reasoning",
+      "recursion",
+      "Data structures (computer science)",
+      "Algorithms"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 5
+  }
+}

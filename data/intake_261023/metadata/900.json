@@ -1,0 +1,123 @@
+{
+  "mention": "Mr Tompkins in Paperback",
+  "url": "https://openlibrary.org/search.json?title=Mr%20Tompkins%20in%20Paperback&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:56:58.114Z",
+  "status": 200,
+  "search": {
+    "numFound": 5,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 5,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "George Gamow"
+        ],
+        "edition_count": 10,
+        "first_publish_year": 1965,
+        "isbn": [
+          "9780521447713",
+          "9780521093552",
+          "0521093554",
+          "9780521069052",
+          "052106905X",
+          "0521447712"
+        ],
+        "key": "/works/OL1136294W",
+        "language": [
+          "eng"
+        ],
+        "title": "Mr. Tompkins in paperback"
+      },
+      {
+        "author_name": [
+          "George Gamow",
+          "Roger Penrose"
+        ],
+        "edition_count": 7,
+        "first_publish_year": 1965,
+        "isbn": [
+          "9781107390638",
+          "9781139644143",
+          "110739063X",
+          "9780511001154",
+          "1139644149",
+          "0511001150",
+          "9781139632355",
+          "1107295645",
+          "1139638181",
+          "1139632353",
+          "9781107295643",
+          "9781139638180"
+        ],
+        "key": "/works/OL25713957W",
+        "language": [
+          "eng"
+        ],
+        "title": "Mr Tompkins in Paperback"
+      },
+      {
+        "author_name": [
+          "George Gamow"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1965,
+        "isbn": [
+          "9780521447713",
+          "0521447712"
+        ],
+        "key": "/works/OL13401965W",
+        "language": [
+          "eng"
+        ],
+        "title": "Mr Tompkins in paperback"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Physics",
+      "Addresses, essays, lectures",
+      "Science",
+      "Quantum theory",
+      "Relativity (physics)",
+      "Physique",
+      "Quantentheorie",
+      "Kosmologie",
+      "Atomphysik",
+      "Theoretische Physik",
+      "Relativitätstheorie"
+    ],
+    "key": "/works/OL1136294W",
+    "title": "Mr. Tompkins in paperback",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL115823A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      339744
+    ],
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T20:33:55.298698"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-09-15T04:45:30.775245"
+    }
+  }
+}

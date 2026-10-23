@@ -1,0 +1,111 @@
+{
+  "mention": "Are Your Lights On?",
+  "url": "https://openlibrary.org/search.json?title=Are%20Your%20Lights%20On%3F&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:13.095Z",
+  "status": 200,
+  "search": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Donald C. Gause",
+          "Gerald M. Weinberg"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 1977,
+        "isbn": [
+          "9780876260470",
+          "9780933950474",
+          "9780932633163",
+          "9780876260487",
+          "0932633161",
+          "0933950470",
+          "0876260474",
+          "0876260482"
+        ],
+        "key": "/works/OL4802376W",
+        "language": [
+          "eng"
+        ],
+        "title": "Are your lights on?",
+        "ratings_average": 3,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Gerald M. Weinberg"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2011,
+        "isbn": [
+          "9781458100108",
+          "1458100103"
+        ],
+        "key": "/works/OL40041608W",
+        "language": [
+          "eng"
+        ],
+        "title": "Are Your Lights On?"
+      },
+      {
+        "edition_count": 1,
+        "first_publish_year": 1982,
+        "isbn": [
+          "0316305219",
+          "9780316305211"
+        ],
+        "key": "/works/OL10427231M",
+        "title": "Are Your Lights On? How to Figure Out What the Problem Really Is"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Problem solving",
+      "Computers",
+      "Psychology"
+    ],
+    "key": "/works/OL4802376W",
+    "title": "Are your lights on?",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1010801A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL235110A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      711868
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T07:35:09.592849"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-17T20:40:06.989979"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "mention": "The Design and Evolution of C++",
+  "url": "https://openlibrary.org/search.json?title=The%20Design%20and%20Evolution%20of%20C%2B%2B&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:28.418Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Bjarne Stroustrup"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1994,
+        "isbn": [
+          "0201543303",
+          "9780201543308"
+        ],
+        "key": "/works/OL53182W",
+        "language": [
+          "eng"
+        ],
+        "title": "The design and evolution of C[plus plus]"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "C++ (Computer program language)",
+      "C[plus plus]",
+      "C (computer program language)",
+      "Qa76.73.c153 s79 1994",
+      "005.13/3"
+    ],
+    "key": "/works/OL53182W",
+    "title": "The design and evolution of C[plus plus]",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL34366A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      135125
+    ],
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-10-15T17:17:53.713360"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-07-25T19:55:16.537616"
+    }
+  }
+}

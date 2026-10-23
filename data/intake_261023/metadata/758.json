@@ -1,0 +1,100 @@
+{
+  "mention": "Pro Spring",
+  "url": "https://openlibrary.org/search.json?title=Pro%20Spring&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:27.432Z",
+  "status": 200,
+  "search": {
+    "numFound": 34,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 34,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Felipe Gutierrez"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2016,
+        "isbn": [
+          "1484214323",
+          "9781484214329"
+        ],
+        "key": "/works/OL19546884W",
+        "title": "Pro Spring Boot"
+      },
+      {
+        "author_name": [
+          "Carlo Scarioni"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2013,
+        "isbn": [
+          "9781484250518",
+          "1430248203",
+          "143024819X",
+          "9798868800344",
+          "1484250516",
+          "9781430248194",
+          "9781430248200"
+        ],
+        "key": "/works/OL19897545W",
+        "language": [
+          "eng"
+        ],
+        "title": "Pro Spring Security"
+      },
+      {
+        "author_name": [
+          "Felipe Gutierrez"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2023,
+        "isbn": [
+          "9781484292938",
+          "1484292936"
+        ],
+        "key": "/works/OL34341598W",
+        "language": [
+          "eng"
+        ],
+        "title": "Pro Spring Boot 3"
+      }
+    ]
+  },
+  "work": {
+    "title": "Pro Spring Boot",
+    "covers": [
+      8512945
+    ],
+    "key": "/works/OL19546884W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6906768A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Java (Computer program language)"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-04-05T18:34:14.956550"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-08-10T04:33:50.963370"
+    }
+  }
+}

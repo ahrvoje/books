@@ -195,6 +195,7 @@ try {
   await page.waitForFunction(()=>document.querySelector('#matching-count').textContent!=='0');
   await page.locator('[data-panel="pareto"]').click();
   await page.locator('[data-path="axes.1.id"]').selectOption('SRC');
+  await page.locator('[data-path="axes.1.direction"]').selectOption('min');
   await page.waitForFunction(()=>!document.querySelector('#apply').disabled);
   await page.locator('#apply').click();
   assert(await page.locator('.plot-point').count()>0);
@@ -205,6 +206,16 @@ try {
   await page.locator('#plot-y-scale').selectOption('log');
   assert.deepEqual(await page.locator('.plot-point').evaluateAll(nodes=>nodes.map(n=>n.dataset.paretoLayer)),layersBefore);
   assert.notDeepEqual(await page.locator('.plot-point>circle:first-child').evaluateAll(nodes=>nodes.map(n=>n.getAttribute('cy'))),positionsBefore);
+  assert(await page.locator('[data-frontier-layer]').evaluateAll(paths=>paths.length===3&&paths.every(path=>{
+    if (!/^M[^A-Za-z]+(?:V[^A-Za-z]+H[^A-Za-z]+)+$/.test(path.getAttribute('d'))) return false;
+    const dots=[...document.querySelectorAll(`.plot-point[data-pareto-layer="${path.dataset.frontierLayer}"]>circle:first-child`)];
+    for(let i=0;i<=100;i++) {
+      const p=path.getPointAtLength(path.getTotalLength()*i/100);
+      if(!dots.some(dot=>+dot.getAttribute('cx')>=p.x-.01&&+dot.getAttribute('cy')>=p.y-.01)) return false;
+    }
+    return true;
+  })),'Score-max/source-min log boundaries must contain only trade-offs supported by actual books');
+  await page.screenshot({path:path.join(out,'pareto-source-min.png')});
   assert(await page.locator('#plot svg [cx],#plot svg [d]').evaluateAll(nodes=>nodes.every(n=>!['cx','cy','d'].some(a=>/NaN|Infinity/.test(n.getAttribute(a)||'')))));
   await page.reload();
   await page.locator('#plot-y-scale').waitFor();

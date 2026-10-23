@@ -1,0 +1,60 @@
+{
+  "mention": "The Switch — Chris McDonald",
+  "url": "https://openlibrary.org/search.json?title=The%20Switch&author=Chris%20McDonald&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:51:02.441Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Chris McDonald"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2021,
+        "isbn": [
+          "9781736385807",
+          "1736385801"
+        ],
+        "key": "/works/OL29239477W",
+        "title": "The Switch"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The Switch",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2945783A"
+        }
+      }
+    ],
+    "key": "/works/OL29239477W",
+    "covers": [
+      14049007
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-10-27T03:06:02.171924"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-04-16T09:54:22.558816"
+    }
+  }
+}

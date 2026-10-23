@@ -1,0 +1,90 @@
+{
+  "mention": "A Work in Progress — Rene Redzepi",
+  "url": "https://openlibrary.org/search.json?title=A%20Work%20in%20Progress&author=Rene%20Redzepi&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:28.133Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "René Redzepi"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2013,
+        "isbn": [
+          "0714866911",
+          "9780714866918"
+        ],
+        "key": "/works/OL19369477W",
+        "language": [
+          "eng"
+        ],
+        "title": "René Redzepi: A Work in Progress"
+      },
+      {
+        "author_name": [
+          "René Redzepi"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2019,
+        "isbn": [
+          "9780714877549",
+          "0714877549"
+        ],
+        "key": "/works/OL25001042W",
+        "title": "A Work in Progress"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Noma (Restaurant : Copenhagen, Denmark)",
+      "Scandinavian Cooking",
+      "Cooking, scandinavian",
+      "Restaurants, europe",
+      "Cuisine scandinave",
+      "Food and Drink",
+      "Skandinavisk matlagning",
+      "A work in progress"
+    ],
+    "key": "/works/OL19369477W",
+    "title": "René Redzepi: A Work in Progress",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7491529A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8494461
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"A Work in Progress is a collectible set of three beautifully designed books: a cookbook with 100 new recipes from Noma; a personal journal written by Redzepi in which he explores creativity, innovation, and the meaning of success; and a pocket book of candid, Instagram-style snapshots featuring the influential chef and his team.\"--"
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-03-31T15:31:12.237741"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-09-02T04:56:13.411260"
+    }
+  }
+}

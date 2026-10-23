@@ -1,0 +1,88 @@
+{
+  "mention": "Eloquent Ruby",
+  "url": "https://openlibrary.org/search.json?title=Eloquent%20Ruby&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:52:16.093Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Russ Olsen"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2011,
+        "isbn": [
+          "0321700279",
+          "0321584104",
+          "9780321584106",
+          "9780321700278"
+        ],
+        "key": "/works/OL16948453W",
+        "language": [
+          "eng"
+        ],
+        "title": "Eloquent Ruby",
+        "ratings_average": 4.5,
+        "ratings_count": 4
+      },
+      {
+        "author_name": [
+          "Russ Olsen"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2011,
+        "isbn": [
+          "0321584104",
+          "9780321584106"
+        ],
+        "key": "/works/OL17048809W",
+        "language": [
+          "eng"
+        ],
+        "title": "Eloquent Ruby",
+        "ratings_average": 5,
+        "ratings_count": 2
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Ruby (Computer program language)"
+    ],
+    "key": "/works/OL16948453W",
+    "title": "Eloquent Ruby",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1170910A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      9534809
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2014-07-29T03:15:40.728491"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-08-22T00:21:46.850556"
+    }
+  }
+}

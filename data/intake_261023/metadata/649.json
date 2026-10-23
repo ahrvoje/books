@@ -1,0 +1,83 @@
+{
+  "mention": "Debugging the Development Process",
+  "url": "https://openlibrary.org/search.json?title=Debugging%20the%20Development%20Process&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:16.615Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Steve Maguire"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1994,
+        "isbn": [
+          "1556156502",
+          "9781556156502"
+        ],
+        "key": "/works/OL3488652W",
+        "language": [
+          "eng"
+        ],
+        "title": "Debugging the development process"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1994",
+    "title": "Debugging the development process",
+    "covers": [
+      776724
+    ],
+    "lc_classifications": [
+      "QA76.9.D43 M33 1994"
+    ],
+    "key": "/works/OL3488652W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL582304A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "005.1/068"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Development",
+      "Debugging in computer science",
+      "Computer software",
+      "Programmation",
+      "Logiciels",
+      "Développement",
+      "Génie logiciel"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"In Debugging the Development Process, Maguire describes the sometimes controversial but always effective practices that enabled his software teams at Microsoft to develop high-quality software - on schedule. With the refreshing candor reviewers admired in Writing Solid Code, Maguire talks about what did and what didn't work at Microsoft and tells you how to energize software teams to work effectively - and to enjoy their work; why you might want to kick your star programmer off your team; how to avoid corporate snares and overblown corporate processes; which tiny changes produce major results; how to deliver on schedule and without overwork; how to pull twice the value out of everything you do; how to get your team going on a creative roll; and how to raise the average programmer level at your company\"--Publisher description."
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T03:41:59.432402"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-01-09T02:20:37.246964"
+    }
+  }
+}

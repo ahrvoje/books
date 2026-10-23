@@ -1,0 +1,83 @@
+{
+  "mention": "Refactoring to Patterns",
+  "url": "https://openlibrary.org/search.json?title=Refactoring%20to%20Patterns&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:54.469Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Joshua Kerievsky"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2004,
+        "isbn": [
+          "0321213351",
+          "9780321213358"
+        ],
+        "key": "/works/OL8924975W",
+        "language": [
+          "eng"
+        ],
+        "title": "Refactoring to Patterns",
+        "ratings_average": 4,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Joshua Kerievsky"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2004,
+        "isbn": [
+          "0321630017",
+          "0321213351",
+          "9780321630018",
+          "9780321213358"
+        ],
+        "key": "/works/OL8924974W",
+        "language": [
+          "eng"
+        ],
+        "title": "Refactoring to patterns"
+      }
+    ]
+  },
+  "work": {
+    "title": "Refactoring to Patterns",
+    "covers": [
+      193049
+    ],
+    "key": "/works/OL8924975W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL3082820A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T23:32:17.366764"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-03-12T20:48:31.956560"
+    }
+  }
+}

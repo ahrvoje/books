@@ -1,0 +1,328 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22Commodore%22%20AND%20author%3A%22bagnall%22)%20OR%20(title%3A%22The%20Particle%20at%20the%20End%20of%20the%20Universe%22%20AND%20author%3A%22carroll%22)%20OR%20(title%3A%22The%20Wisdom%20of%20Crowds%22%20AND%20author%3A%22surowiecki%22)%20OR%20(title%3A%22Confessions%20of%20a%20Pricing%20Man%22%20AND%20author%3A%22simon%22)%20OR%20(title%3A%22Invent%20and%20Wander%22%20AND%20author%3A%22bezos%22)%20OR%20(title%3A%22Computing%20Calamities%22%20AND%20author%3A%22glass%22)%20OR%20(title%3A%22My%20Years%20with%20General%20Motors%22%20AND%20author%3A%22sloan%22)%20OR%20(title%3A%22Global%20Capitalism%22%20AND%20author%3A%22frieden%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T07:57:06.543Z",
+    "file": "data/metadata_261023/raw/library-b6436e4b8ea77fb0.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 15,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 15,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"Commodore\" AND author:\"bagnall\") OR (title:\"The Particle at the End of the Universe\" AND author:\"carroll\") OR (title:\"The Wisdom of Crowds\" AND author:\"surowiecki\") OR (title:\"Confessions of a Pricing Man\" AND author:\"simon\") OR (title:\"Invent and Wander\" AND author:\"bezos\") OR (title:\"Computing Calamities\" AND author:\"glass\") OR (title:\"My Years with General Motors\" AND author:\"sloan\") OR (title:\"Global Capitalism\" AND author:\"frieden\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Alfred P. Sloan Jr."
+        ],
+        "edition_key": [
+          "OL18805778M",
+          "OL19699948M",
+          "OL5909931M",
+          "OL22433461M",
+          "OL1851610M",
+          "OL20322892M",
+          "OL19152569M",
+          "OL14985859M",
+          "OL20124011M",
+          "OL22817872M",
+          "OL21252295M",
+          "OL19825972M",
+          "OL21172448M",
+          "OL10172708M"
+        ],
+        "isbn": [
+          "0330731556",
+          "9780330731553",
+          "0140091068",
+          "9780385042352",
+          "0385042353",
+          "9780140091069",
+          "0206140703",
+          "028399357X",
+          "9780283993572",
+          "9780206140700"
+        ],
+        "key": "/works/OL4440870W",
+        "title": "My years with General Motors"
+      },
+      {
+        "author_name": [
+          "James Surowiecki"
+        ],
+        "edition_key": [
+          "OL7914228M",
+          "OL24297473M",
+          "OL9414725M",
+          "OL9369151M",
+          "OL7440777M",
+          "OL10686988M",
+          "OL7441903M",
+          "OL7914227M",
+          "OL7425746M",
+          "OL9788708M"
+        ],
+        "isbn": [
+          "9780349116051",
+          "0349116059",
+          "9780349117072",
+          "0385513453",
+          "0385503865",
+          "9780739311950",
+          "9780385513456",
+          "9780385721707",
+          "9780316861731",
+          "9780307275059",
+          "0385721706",
+          "9780375433627",
+          "9780385503860",
+          "9780739311967",
+          "0316861731",
+          "0739311956",
+          "0739311964",
+          "0375433627",
+          "0307275051",
+          "0349117071"
+        ],
+        "key": "/works/OL8036447W",
+        "title": "The Wisdom of Crowds:Why the Many Are Smarter Than the Few and How Collective Wisdom Shapes Business, Economies, Societies and Nations"
+      },
+      {
+        "author_name": [
+          "Walter Isaacson",
+          "Jeff Bezos"
+        ],
+        "edition_key": [
+          "OL28302595M",
+          "OL31380184M"
+        ],
+        "isbn": [
+          "1647820715",
+          "9781647820718",
+          "9781663710758",
+          "1663710759"
+        ],
+        "key": "/works/OL20895272W",
+        "title": "Invent and Wander"
+      },
+      {
+        "author_name": [
+          "Sean M. Carroll"
+        ],
+        "edition_key": [
+          "OL41548798M",
+          "OL38265761M",
+          "OL25426862M",
+          "OL37163631M",
+          "OL31935441M",
+          "OL38311029M",
+          "OL26577107M",
+          "OL25442661M",
+          "OL32980653M",
+          "OL35694316M"
+        ],
+        "isbn": [
+          "9780142180303",
+          "147034274X",
+          "9780525953593",
+          "9788875783709",
+          "9781780742335",
+          "1780742320",
+          "9788499922997",
+          "9780616808863",
+          "8875783705",
+          "8499922996",
+          "9781780742458",
+          "9781470342746",
+          "9781780742328",
+          "9781780742403",
+          "0525953590",
+          "1786076063",
+          "0616808860",
+          "9781786076069",
+          "1780742401",
+          "1780742452",
+          "0142180300",
+          "1780742339"
+        ],
+        "key": "/works/OL16803831W",
+        "title": "The Particle at the End of the Universe"
+      },
+      {
+        "author_name": [
+          "Jeffry A. Frieden"
+        ],
+        "edition_key": [
+          "OL7454425M",
+          "OL7457942M",
+          "OL3408469M"
+        ],
+        "isbn": [
+          "9780393058086",
+          "0393058085",
+          "039332981X",
+          "9780393329810"
+        ],
+        "key": "/works/OL4067914W",
+        "title": "Global Capitalism"
+      },
+      {
+        "author_name": [
+          "Brian Bagnall"
+        ],
+        "edition_key": [
+          "OL39451929M",
+          "OL29385534M",
+          "OL39383661M"
+        ],
+        "isbn": [
+          "0994031033",
+          "9780994031075",
+          "9780994031037",
+          "9780994031082",
+          "0994031076",
+          "0994031084"
+        ],
+        "key": "/works/OL21627842W",
+        "title": "Commodore"
+      },
+      {
+        "author_name": [
+          "Brian Bagnall"
+        ],
+        "edition_key": [
+          "OL8580808M"
+        ],
+        "isbn": [
+          "9780973864908",
+          "0973864907"
+        ],
+        "key": "/works/OL4710727W",
+        "title": "On the Edge"
+      },
+      {
+        "author_name": [
+          "Jeffry A. Frieden"
+        ],
+        "edition_key": [
+          "OL30033009M",
+          "OL29766842M",
+          "OL29466942M"
+        ],
+        "isbn": [
+          "1324004207",
+          "0393635775",
+          "9781324004202",
+          "0393358259",
+          "9780393358254",
+          "9780393635775"
+        ],
+        "key": "/works/OL21665826W",
+        "title": "Global Capitalism"
+      },
+      {
+        "author_name": [
+          "Alfred P. Sloan"
+        ],
+        "edition_key": [
+          "OL43289874M"
+        ],
+        "key": "/works/OL31613844W",
+        "title": "My years with General Motors"
+      },
+      {
+        "author_name": [
+          "Brian Bagnall"
+        ],
+        "edition_key": [
+          "OL39825262M",
+          "OL26939996M"
+        ],
+        "isbn": [
+          "9780973864960",
+          "9780994031006",
+          "9780994031020",
+          "0973864966",
+          "0994031009",
+          "0994031025"
+        ],
+        "key": "/works/OL19726890W",
+        "title": "Commodore"
+      },
+      {
+        "author_name": [
+          "Alfred P. Sloan"
+        ],
+        "edition_key": [
+          "OL57422533M"
+        ],
+        "key": "/works/OL42330418W",
+        "title": "My years with General Motors"
+      },
+      {
+        "author_name": [
+          "Alfred P. Sloan Jr.",
+          "David Colacci"
+        ],
+        "edition_key": [
+          "OL32651728M"
+        ],
+        "isbn": [
+          "9781684413485",
+          "1684413486"
+        ],
+        "key": "/works/OL24612589W",
+        "title": "My Years With General Motors"
+      },
+      {
+        "author_name": [
+          "Robert L. Glass"
+        ],
+        "edition_key": [
+          "OL7333315M",
+          "OL378797M",
+          "OL9287965M"
+        ],
+        "isbn": [
+          "0130828629",
+          "9780130828620"
+        ],
+        "key": "/works/OL1966540W",
+        "title": "Computing Calamities"
+      },
+      {
+        "author_name": [
+          "Jeff Bezos",
+          "Walter Isaacson",
+          "Albert Beteta Mas"
+        ],
+        "edition_key": [
+          "OL42178416M"
+        ],
+        "isbn": [
+          "9786075690148",
+          "607569014X"
+        ],
+        "key": "/works/OL30687789W",
+        "title": "Crea y Divaga / Invent and Wander"
+      },
+      {
+        "author_name": [
+          "Brian Bagnall"
+        ],
+        "edition_key": [
+          "OL35796942M"
+        ],
+        "isbn": [
+          "1326519433",
+          "9781326519438"
+        ],
+        "key": "/works/OL26487321W",
+        "title": "Sulla Cresta... Del Baratro"
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "mention": "Darwinian Fairytales",
+  "url": "https://openlibrary.org/search.json?title=Darwinian%20Fairytales&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:52:24.764Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David Stove"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2006,
+        "isbn": [
+          "9781594033018",
+          "1594033013",
+          "1594032009",
+          "9781594032004"
+        ],
+        "key": "/works/OL8515372W",
+        "language": [
+          "eng"
+        ],
+        "title": "Darwinian Fairytales"
+      },
+      {
+        "author_name": [
+          "D. C. Stove"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1995,
+        "isbn": [
+          "9781594031403",
+          "1859723063",
+          "1594031401",
+          "9781859723067"
+        ],
+        "key": "/works/OL14863014W",
+        "language": [
+          "eng"
+        ],
+        "title": "Darwinian fairytales",
+        "ratings_average": 0,
+        "ratings_count": 0
+      }
+    ]
+  },
+  "work": {
+    "title": "Darwinian Fairytales",
+    "covers": [
+      1987804
+    ],
+    "key": "/works/OL8515372W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2850698A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Evolution"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:54:04.396271"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-12-29T02:29:09.528972"
+    }
+  }
+}

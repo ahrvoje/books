@@ -1,0 +1,112 @@
+{
+  "mention": "Copies in Seconds",
+  "url": "https://openlibrary.org/search.json?title=Copies%20in%20Seconds&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:20.911Z",
+  "status": 200,
+  "search": {
+    "numFound": 50,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 50,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David Owen",
+          "Owen, David"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2004,
+        "isbn": [
+          "9781416598329",
+          "0743251180",
+          "0743251172",
+          "1416598324",
+          "9780743251181",
+          "9780743251174"
+        ],
+        "key": "/works/OL7969303W",
+        "language": [
+          "eng"
+        ],
+        "title": "Copies in Seconds"
+      },
+      {
+        "author_name": [
+          "United States. Congress. House. Committee on Elections"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1870,
+        "key": "/works/OL11389413W",
+        "language": [
+          "eng"
+        ],
+        "title": "Elections in second district of Texas. Letter from the Secretary of War in answer to a resolution of the House, of March 28, 1870, transmitting copies of the returns of the election held in the second congressional district of Texas, in November and December last"
+      },
+      {
+        "author_name": [
+          "United States. Congress. House. Committee on Appropriations"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1906,
+        "key": "/works/OL10849154W",
+        "language": [
+          "eng"
+        ],
+        "title": "Second International Peace Conference. Letter from the Secretary of the Treasury, transmitting a copy of a communication from the Secretary of State submitting an estimate of appropriation for participation in Second International Peace Conference"
+      }
+    ]
+  },
+  "work": {
+    "title": "Copies in Seconds",
+    "covers": [
+      473798
+    ],
+    "key": "/works/OL7969303W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2657191A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL936512A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Inventors",
+      "Xerography",
+      "History",
+      "Xerografie",
+      "Kopieermachines",
+      "Xerox corporation"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"Chester Carlson grew up in poverty, worked his way through junior college and the California Institute of Technology, and made his discovery in solitude in the depths of the Great Depression. He offered his big ideas to two dozen major corporations - among them IBM, RCA, and General Electric - all of which turned him down. So persistent was this failure of capitalist vision that by the time the Xerox 914 was manufactured by an obscure photographic supply company in Rochester, New York, Carlson's original patent had expired. Xerography was so unusual and nonintuitive that it conceivably could have been overlooked entirely. Scientists who visited the drafty warehouses where the first machines were built sometimes doubted that Carlson's invention was even theoretically feasible.\" \"Drawing on interviews, Xerox company archives, and the private papers of the Carlson family, David Owen has woven together a story about persistence, courage, and technological innovation - a story that has never before been fully told.\"--Jacket."
+    },
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:15:42.697382"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-04-06T23:15:53.293547"
+    }
+  }
+}

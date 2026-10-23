@@ -1,0 +1,87 @@
+{
+  "mention": "Cows in the Maze",
+  "url": "https://openlibrary.org/search.json?title=Cows%20in%20the%20Maze&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:56:03.768Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ian Stewart"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2010,
+        "isbn": [
+          "1283296810",
+          "0199562075",
+          "9780199562077",
+          "9781283296816"
+        ],
+        "key": "/works/OL17418325W",
+        "language": [
+          "eng"
+        ],
+        "title": "Cows In The Maze"
+      },
+      {
+        "author_name": [
+          "Ian Stewart"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2010,
+        "isbn": [
+          "0191612731",
+          "9780191612732"
+        ],
+        "key": "/works/OL44566047W",
+        "language": [
+          "eng"
+        ],
+        "title": "Cows in the Maze"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Mathematics",
+      "Popular works",
+      "Mathematical recreations",
+      "Puzzles"
+    ],
+    "key": "/works/OL17418325W",
+    "title": "Cows In The Maze",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL22342A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      7539204
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2016-10-14T05:39:54.780111"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-29T22:32:56.232472"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "mention": "Dr. Euler's Fabulous Formula",
+  "url": "https://openlibrary.org/search.json?title=Dr.%20Euler's%20Fabulous%20Formula&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:56:03.112Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Paul J. Nahin"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 2006,
+        "isbn": [
+          "9781283058018",
+          "0691175918",
+          "9780691118222",
+          "1283058014",
+          "9781400838479",
+          "0691150370",
+          "9780691175911",
+          "9780691150376",
+          "0691118221",
+          "1400838479"
+        ],
+        "key": "/works/OL1907378W",
+        "language": [
+          "eng"
+        ],
+        "title": "Dr. Euler's fabulous formula"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "2006",
+    "subtitle": "cures many mathematical ills",
+    "title": "Dr. Euler's fabulous formula",
+    "covers": [
+      443584
+    ],
+    "lc_classifications": [
+      "QA255 .N339 2006"
+    ],
+    "key": "/works/OL1907378W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL228363A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "512.7/88"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Euler's numbers",
+      "Complex Numbers",
+      "Mathematics",
+      "History",
+      "Komplexe Zahl",
+      "Eulersche Formel",
+      "E <Zahl>",
+      "Mathematics, history",
+      "Numbers, complex"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Presents the story of the formula - zero equals e[pi] i+1 long regarded as the gold standard for mathematical beauty. This book shows why it still lies at the heart of complex number theory. It discusses many sophisticated applications of complex numbers in pure and applied mathematics, and to electronic technology."
+    },
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:33:06.069850"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-08-18T06:30:46.934489"
+    }
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22Sophistication%20and%20Simplicity%22%20AND%20author%3A%22weyhrich%22)%20OR%20(title%3A%22Taming%20the%20Infinite%22%20AND%20author%3A%22stewart%22)%20OR%20(title%3A%22iWoz%22%20AND%20author%3A%22wozniak%22)%20OR%20(title%3A%22American%20Steel%22%20AND%20author%3A%22preston%22)%20OR%20(title%3A%22Life%20Is%20Simple%22%20AND%20author%3A%22mcfadden%22)%20OR%20(title%3A%22Backroom%20Boys%22%20AND%20author%3A%22spufford%22)%20OR%20(title%3A%22Bodies%2FMachines%22%20AND%20author%3A%22morus%22)%20OR%20(title%3A%22Mathematics%20and%20the%20Physical%20World%22%20AND%20author%3A%22kline%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T07:57:36.583Z",
+    "file": "data/metadata_261023/raw/library-afeb9a925849791c.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 21,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 21,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"Sophistication and Simplicity\" AND author:\"weyhrich\") OR (title:\"Taming the Infinite\" AND author:\"stewart\") OR (title:\"iWoz\" AND author:\"wozniak\") OR (title:\"American Steel\" AND author:\"preston\") OR (title:\"Life Is Simple\" AND author:\"mcfadden\") OR (title:\"Backroom Boys\" AND author:\"spufford\") OR (title:\"Bodies/Machines\" AND author:\"morus\") OR (title:\"Mathematics and the Physical World\" AND author:\"kline\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Morris Kline"
+        ],
+        "edition_key": [
+          "OL9476094M",
+          "OL17642113M",
+          "OL6268791M",
+          "OL19020149M",
+          "OL21210305M",
+          "OL16082916M",
+          "OL18075300M"
+        ],
+        "isbn": [
+          "9780815202158",
+          "0815202156"
+        ],
+        "key": "/works/OL1947923W",
+        "title": "Mathematics and the physical world"
+      },
+      {
+        "author_name": [
+          "Francis Spufford"
+        ],
+        "edition_key": [
+          "OL3358062M",
+          "OL40487666M",
+          "OL22558999M",
+          "OL7857905M",
+          "OL22817094M"
+        ],
+        "isbn": [
+          "1845056736",
+          "0571214975",
+          "0571266444",
+          "9780571214976",
+          "9780571214969",
+          "0571214967",
+          "9781845056735",
+          "9780571266449"
+        ],
+        "key": "/works/OL2706775W",
+        "title": "Backroom boys"
+      },
+      {
+        "author_name": [
+          "Steve Wozniak",
+          "Steve Wozniak",
+          "Gina Smith"
+        ],
+        "edition_key": [
+          "OL29594802M",
+          "OL7452113M",
+          "OL17205556M",
+          "OL27586995M",
+          "OL34586926M"
+        ],
+        "isbn": [
+          "9780393061437",
+          "2211215734",
+          "0393061434",
+          "9780393066869",
+          "039306686X",
+          "9782211215732",
+          "0755314085",
+          "9780755314089"
+        ],
+        "key": "/works/OL12085888W",
+        "title": "iWoz"
+      },
+      {
+        "author_name": [
+          "Steve Wozniak",
+          "Gina Smith"
+        ],
+        "edition_key": [
+          "OL9581416M"
+        ],
+        "isbn": [
+          "0393330435",
+          "9780393330434"
+        ],
+        "key": "/works/OL21728841W",
+        "title": "Iwoz - Computer Geek to Cult Icon"
+      },
+      {
+        "author_name": [
+          "Ian Stewart"
+        ],
+        "edition_key": [
+          "OL35692131M",
+          "OL28025624M",
+          "OL38629740M",
+          "OL29700581M",
+          "OL35365618M",
+          "OL25177875M",
+          "OL11916368M",
+          "OL43976766M",
+          "OL9364843M"
+        ],
+        "isbn": [
+          "1623654742",
+          "9781847240170",
+          "8537811815",
+          "1847240178",
+          "1847241816",
+          "6051713735",
+          "9783827423009",
+          "9654827352",
+          "9789654827355",
+          "3827423007",
+          "9781847247681",
+          "9786051713731",
+          "9781847241818",
+          "9788537811818",
+          "8484323692",
+          "9788484323693",
+          "1847247687",
+          "9781623654740"
+        ],
+        "key": "/works/OL5838160W",
+        "title": "Story of Mathematics"
+      },
+      {
+        "author_name": [
+          "Johnjoe McFadden"
+        ],
+        "edition_key": [
+          "OL33944705M",
+          "OL34787187M",
+          "OL34129017M",
+          "OL35990459M",
+          "OL34806809M",
+          "OL36357291M"
+        ],
+        "isbn": [
+          "9781541620445",
+          "1541600312",
+          "1529364957",
+          "9781541620438",
+          "9781529364934",
+          "9781529364958",
+          "1541620437",
+          "9781541600317",
+          "1541620445",
+          "1529364930",
+          "9781529364941",
+          "1529364949"
+        ],
+        "key": "/works/OL25338016W",
+        "title": "Life Is Simple"
+      },
+      {
+        "author_name": [
+          "Steve Wozniak"
+        ],
+        "edition_key": [
+          "OL8365647M",
+          "OL8365328M"
+        ],
+        "isbn": [
+          "9781400153282",
+          "1400133289",
+          "140015328X",
+          "9781400133284"
+        ],
+        "key": "/works/OL8062154W",
+        "title": "Iwoz"
+      },
+      {
+        "author_name": [
+          "Richard Preston"
+        ],
+        "edition_key": [
+          "OL7432924M"
+        ],
+        "isbn": [
+          "9780380718221",
+          "0380718227"
+        ],
+        "key": "/works/OL7644723W",
+        "title": "American Steel"
+      },
+      {
+        "author_name": [
+          "Morris Kline"
+        ],
+        "edition_key": [
+          "OL52459100M",
+          "OL38355712M",
+          "OL52444494M",
+          "OL27073412M",
+          "OL38283430M"
+        ],
+        "isbn": [
+          "9780486136318",
+          "0486136310",
+          "0690525028",
+          "1306349508",
+          "9781306349505",
+          "9780690525021"
+        ],
+        "key": "/works/OL19886470W",
+        "title": "Mathematics and the physical world"
+      },
+      {
+        "author_name": [
+          "Richard Preston"
+        ],
+        "edition_key": [
+          "OL21400471M"
+        ],
+        "isbn": [
+          "9780130296047",
+          "013029604X"
+        ],
+        "key": "/works/OL13373730W",
+        "title": "American steel"
+      },
+      {
+        "author_name": [
+          "Steven Weyhrich"
+        ],
+        "edition_key": [
+          "OL39417421M",
+          "OL29140214M"
+        ],
+        "isbn": [
+          "0994031041",
+          "0986832278",
+          "9780986832277",
+          "9780994031044"
+        ],
+        "key": "/works/OL21498075W",
+        "title": "Sophistication and Simplicity"
+      },
+      {
+        "author_name": [
+          "Steve Wozniak"
+        ],
+        "edition_key": [
+          "OL26328341M"
+        ],
+        "isbn": [
+          "9780755314065",
+          "0755314069",
+          "9780755314072",
+          "0755314077"
+        ],
+        "key": "/works/OL17727180W",
+        "title": "IWoz"
+      },
+      {
+        "author_name": [
+          "Kline"
+        ],
+        "edition_key": [
+          "OL19109038M"
+        ],
+        "key": "/works/OL12642757W",
+        "title": "Mathematics and the physical world"
+      },
+      {
+        "author_name": [
+          "STEVE WOZNIAK"
+        ],
+        "edition_key": [
+          "OL47208551M"
+        ],
+        "isbn": [
+          "8494122916",
+          "9788494122910"
+        ],
+        "key": "/works/OL34853792W",
+        "title": "Iwoz"
+      },
+      {
+        "author_name": [
+          "Steven Weyhrich  Steven"
+        ],
+        "edition_key": [
+          "OL39417974M"
+        ],
+        "isbn": [
+          "0994031068",
+          "9780994031068"
+        ],
+        "key": "/works/OL28721896W",
+        "title": "Sophistication and Simplicity"
+      },
+      {
+        "author_name": [
+          "Morris Kline"
+        ],
+        "edition_key": [
+          "OL19605309M",
+          "OL20431063M"
+        ],
+        "key": "/works/OL12813893W",
+        "title": "Mathematics and the physical world"
+      },
+      {
+        "author_name": [
+          "Iwan Rhys Morus"
+        ],
+        "edition_key": [
+          "OL3554024M"
+        ],
+        "isbn": [
+          "1859736955",
+          "9781859736951",
+          "9781859736906",
+          "1859736904"
+        ],
+        "key": "/works/OL18358134W",
+        "title": "Bodies/machines"
+      },
+      {
+        "author_name": [
+          "Morris Kline"
+        ],
+        "edition_key": [
+          "OL23790956M"
+        ],
+        "key": "/works/OL18478392W",
+        "title": "Mathematics and the physical world"
+      },
+      {
+        "author_name": [
+          "Morris Kline"
+        ],
+        "edition_key": [
+          "OL7635609M"
+        ],
+        "isbn": [
+          "9780486241043",
+          "0486241041"
+        ],
+        "key": "/works/OL1947907W",
+        "title": "Mathematics and the Physical World"
+      },
+      {
+        "author_name": [
+          "Iwan Rhys Morus"
+        ],
+        "edition_key": [
+          "OL48617679M"
+        ],
+        "isbn": [
+          "1845208765",
+          "9781845208769"
+        ],
+        "key": "/works/OL36018706W",
+        "title": "Bodies/Machines"
+      },
+      {
+        "author_name": [
+          "Richard Preston"
+        ],
+        "edition_key": [
+          "OL1862598M"
+        ],
+        "isbn": [
+          "9780130296047",
+          "013029604X"
+        ],
+        "key": "/works/OL761334W",
+        "title": "American steel"
+      }
+    ]
+  }
+}

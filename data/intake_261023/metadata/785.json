@@ -1,0 +1,75 @@
+{
+  "mention": "Language Implementation Patterns",
+  "url": "https://openlibrary.org/search.json?title=Language%20Implementation%20Patterns&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:45.564Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Terence Parr"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2009,
+        "isbn": [
+          "9781934356456",
+          "193435645X"
+        ],
+        "key": "/works/OL16986483W",
+        "language": [
+          "eng"
+        ],
+        "title": "Language Implementation Patterns"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Domain-specific programming languages",
+      "Programmeertalen",
+      "Parsing (computer grammar)",
+      "Programming languages (electronic computers)",
+      "Other programming languages"
+    ],
+    "key": "/works/OL16986483W",
+    "title": "Language Implementation Patterns",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL3035185A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8684570
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Learn to build configuration file readers, data readers, model-driven code generators, source-to-source translators, source analyzers, and interpreters. You don’t need a background in computer science—ANTLR creator Terence Parr demystifies language implementation by breaking it down into the most common design patterns. Pattern by pattern, you’ll learn the key skills you need to implement your own computer languages.\r\n\r\n---\r\n\r\nKnowing how to create domain-specific languages (DSLs) can give you a huge productivity boost. Instead of writing code in a general-purpose programming language, you can first build a custom language tailored to make you efficient in a particular domain.\r\n\r\nThe key is understanding the common patterns found across language implementations. *Language Implementation Patterns* identifies and condenses the most common design patterns, providing sample implementations of each.\r\n\r\nThe pattern implementations use Java, but the patterns themselves are completely general. Some of the implementations use the well-known ANTLR parser generator, so readers will find this book an excellent source of ANTLR examples as well. But this book will benefit anyone interested in implementing languages, regardless of their tool of choice. Other language implementation books focus on compilers, which you rarely need in your daily life. Instead, Language Design Patterns shows you patterns you can use for all kinds of language applications.\r\n\r\nYou’ll learn to create configuration file readers, data readers, model-driven code generators, source-to-source translators, source analyzers, and interpreters. Each chapter groups related design patterns and, in each pattern, you’ll get hands-on experience by building a complete sample implementation. By the time you finish the book, you’ll know how to solve most common language implementation problems."
+    },
+    "subtitle": "Create Your Own Domain-Specific and General Programming Languages",
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2014-07-30T04:11:13.439678"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-07-06T02:18:35.174909"
+    }
+  }
+}

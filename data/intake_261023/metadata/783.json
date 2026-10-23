@@ -1,0 +1,75 @@
+{
+  "mention": "The Architecture of Concurrent Programs",
+  "url": "https://openlibrary.org/search.json?title=The%20Architecture%20of%20Concurrent%20Programs&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:43.768Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Per Brinch Hansen"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1977,
+        "isbn": [
+          "9780130446282",
+          "0130446289"
+        ],
+        "key": "/works/OL3231954W",
+        "language": [
+          "eng"
+        ],
+        "title": "The architecture of concurrent programs"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1977",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-18T07:28:22.781859"
+    },
+    "title": "The architecture of concurrent programs",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T03:00:39.111720"
+    },
+    "covers": [
+      4413136
+    ],
+    "lc_classifications": [
+      "QA76.73.C65 B73 1977"
+    ],
+    "latest_revision": 5,
+    "key": "/works/OL3231954W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL526517A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "001.6/424"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Concurrent Pascal (Computer program language)",
+      "Operating systems (Computers)",
+      "Computer programs, design"
+    ],
+    "revision": 5
+  }
+}

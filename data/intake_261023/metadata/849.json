@@ -1,0 +1,87 @@
+{
+  "mention": "Disquisitiones Arithmeticae",
+  "url": "https://openlibrary.org/search.json?title=Disquisitiones%20Arithmeticae&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:56:26.431Z",
+  "status": 200,
+  "search": {
+    "numFound": 6,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 6,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Carl Friedrich Gauß"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1986,
+        "isbn": [
+          "1493975609",
+          "9781493975600"
+        ],
+        "key": "/works/OL38053736W",
+        "title": "Disquisitiones Arithmeticae"
+      },
+      {
+        "author_name": [
+          "Paul Groth",
+          "Todd W. Bressi"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2006,
+        "isbn": [
+          "0300194250",
+          "9780300194258"
+        ],
+        "key": "/works/OL26500034W",
+        "language": [
+          "eng"
+        ],
+        "title": "Disquisitiones Arithmeticae"
+      },
+      {
+        "author_name": [
+          "Carl Friedrich Gauss"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2009,
+        "isbn": [
+          "3941300091",
+          "9783941300095"
+        ],
+        "key": "/works/OL19252462W",
+        "title": "Disquisitiones Arithmeticae"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Disquisitiones Arithmeticae",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL13674877A"
+        }
+      }
+    ],
+    "key": "/works/OL38053736W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-04-24T22:10:35.972214"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-04-24T22:10:35.972214"
+    }
+  }
+}

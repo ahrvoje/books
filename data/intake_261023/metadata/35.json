@@ -1,0 +1,88 @@
+{
+  "mention": "A Year in the Life of a Developer",
+  "url": "https://openlibrary.org/search.json?title=A%20Year%20in%20the%20Life%20of%20a%20Developer&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:47:38.512Z",
+  "status": 200,
+  "search": {
+    "numFound": 5,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 5,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Maja Zupančič"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2000,
+        "isbn": [
+          "9616348035",
+          "9789616348034"
+        ],
+        "key": "/works/OL23951333W",
+        "language": [
+          "eng"
+        ],
+        "title": "The development of object-play in the first two years of a childś life"
+      },
+      {
+        "author_name": [
+          "Sara Zimmerman"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1999,
+        "isbn": [
+          "061241356X",
+          "9780612413566"
+        ],
+        "key": "/works/OL12508606W",
+        "language": [
+          "eng"
+        ],
+        "title": "A dynamic systems perspective on the development of coping in the second year of life"
+      },
+      {
+        "edition_count": 1,
+        "key": "/works/OL17798016W",
+        "title": "Infants in institutions: a comparison of their development with family-reared infants during the first year of life"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The development of object-play in the first two years of a childś life",
+    "subjects": [
+      "Symbolic play",
+      "Cross-cultural studies",
+      "Play",
+      "Child development",
+      "Mother and child"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9012817A"
+        }
+      }
+    ],
+    "key": "/works/OL23951333W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-12-11T21:54:43.467940"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-12-11T21:54:43.467940"
+    }
+  }
+}

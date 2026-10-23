@@ -1,0 +1,115 @@
+{
+  "mention": "Apprenticeship Patterns",
+  "url": "https://openlibrary.org/search.json?title=Apprenticeship%20Patterns&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:41.483Z",
+  "status": 200,
+  "search": {
+    "numFound": 7,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 7,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Dave H. Hoover",
+          "Adewale Oshineye"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 2009,
+        "isbn": [
+          "9781449379407",
+          "9780596806842",
+          "9781306809313",
+          "9781449388973",
+          "0596806841",
+          "0596518382",
+          "1449388973",
+          "1449379400",
+          "1306809312",
+          "9780596518387"
+        ],
+        "key": "/works/OL16245067W",
+        "language": [
+          "eng"
+        ],
+        "title": "Apprenticeship Patterns",
+        "ratings_average": 3.4285715,
+        "ratings_count": 7
+      },
+      {
+        "author_name": [
+          "Peter Jones"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2018,
+        "isbn": [
+          "9781719469616",
+          "171946961X"
+        ],
+        "key": "/works/OL40481136W",
+        "language": [
+          "eng"
+        ],
+        "title": "Apprenticeship Patterns"
+      },
+      {
+        "author_name": [
+          "Associated Independent Electrical Contractors of America"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1977,
+        "key": "/works/OL11301400W",
+        "language": [
+          "eng"
+        ],
+        "title": "National pattern standards of apprenticeship and training for electricians"
+      }
+    ]
+  },
+  "work": {
+    "title": "Apprenticeship Patterns",
+    "key": "/works/OL16245067W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL13457826A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      },
+      {
+        "author": {
+          "key": "/authors/OL10148750A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Vocational guidance",
+      "Computer software developers",
+      "Computer software, development"
+    ],
+    "covers": [
+      8618769
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-11-04T19:33:37.611270"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-10T10:20:40.296139"
+    }
+  }
+}

@@ -1,0 +1,958 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22The%20Rickover%20Effect%22%20AND%20author%3A%22rockwell%22)%20OR%20(title%3A%22Show%20Stopper!%22%20AND%20author%3A%22zachary%22)%20OR%20(title%3A%22Energy%22%20AND%20author%3A%22smil%22)%20OR%20(title%3A%22Tubes%22%20AND%20author%3A%22blum%22)%20OR%20(title%3A%22Sunburst%20and%20Luminary%22%20AND%20author%3A%22eyles%22)%20OR%20(title%3A%22More%20and%20More%20and%20More%22%20AND%20author%3A%22fressoz%22)%20OR%20(title%3A%22Fly%20by%20Wire%22%20AND%20author%3A%22langewiesche%22)%20OR%20(title%3A%22The%20Toyota%20Way%22%20AND%20author%3A%22liker%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T07:54:31.947Z",
+    "file": "data/metadata_261023/raw/library-b281f58bf9a5b864.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 50,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 50,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"The Rickover Effect\" AND author:\"rockwell\") OR (title:\"Show Stopper!\" AND author:\"zachary\") OR (title:\"Energy\" AND author:\"smil\") OR (title:\"Tubes\" AND author:\"blum\") OR (title:\"Sunburst and Luminary\" AND author:\"eyles\") OR (title:\"More and More and More\" AND author:\"fressoz\") OR (title:\"Fly by Wire\" AND author:\"langewiesche\") OR (title:\"The Toyota Way\" AND author:\"liker\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jeffrey K. Liker"
+        ],
+        "edition_key": [
+          "OL33975269M",
+          "OL3326238M",
+          "OL8808609M"
+        ],
+        "isbn": [
+          "9781932378702",
+          "9780071392310",
+          "0071435638",
+          "0071392319",
+          "1932378707",
+          "9780071435635"
+        ],
+        "key": "/works/OL5756030W",
+        "title": "The Toyota Way"
+      },
+      {
+        "author_name": [
+          "Don Eyles"
+        ],
+        "edition_key": [
+          "OL29463359M",
+          "OL27849851M"
+        ],
+        "isbn": [
+          "9780986385933",
+          "0986385905",
+          "9780986385902",
+          "098638593X"
+        ],
+        "key": "/works/OL20599917W",
+        "title": "Sunburst and Luminary"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL36754111M",
+          "OL40063403M",
+          "OL1092168M",
+          "OL40079978M",
+          "OL36756982M",
+          "OL34664128M",
+          "OL26516869M"
+        ],
+        "isbn": [
+          "9780813319018",
+          "9780262035774",
+          "9780429720123",
+          "0813319021",
+          "0429700113",
+          "9780429740138",
+          "9780367008925",
+          "9780813319025",
+          "0367008920",
+          "0262035774",
+          "0813319013",
+          "042903878X",
+          "0429720122",
+          "9780429700118",
+          "0429740131",
+          "9780429038785"
+        ],
+        "key": "/works/OL1855321W",
+        "title": "Energy in world history"
+      },
+      {
+        "author_name": [
+          "G. Pascal Zachary"
+        ],
+        "edition_key": [
+          "OL52582551M",
+          "OL52576355M",
+          "OL52538939M",
+          "OL51027952M",
+          "OL25969733M",
+          "OL10446650M",
+          "OL24314782M",
+          "OL36308821M",
+          "OL36206428M",
+          "OL35652162M",
+          "OL16686664M",
+          "OL21270490M",
+          "OL1096174M"
+        ],
+        "isbn": [
+          "9780759285804",
+          "9780759285774",
+          "1497638836",
+          "0759285772",
+          "9781480494855",
+          "1480494852",
+          "9781497638839",
+          "0751516295",
+          "9781306585491",
+          "1480494860",
+          "0759285780",
+          "0759285802",
+          "9780759285798",
+          "0316911135",
+          "0759285799",
+          "0759285810",
+          "9780029356715",
+          "9780759285781",
+          "0759285829",
+          "9780759285828",
+          "130658549X",
+          "1480494844",
+          "9781480494862",
+          "9780759285811",
+          "9781480494848",
+          "9780751516296",
+          "0029356717",
+          "9780316911139"
+        ],
+        "key": "/works/OL106726W",
+        "title": "Show-Stopper!"
+      },
+      {
+        "author_name": [
+          "Jeffrey K. Liker",
+          "Jeffrey  Liker",
+          "David Meier"
+        ],
+        "edition_key": [
+          "OL7300897M",
+          "OL24265467M",
+          "OL22380443M"
+        ],
+        "isbn": [
+          "0071448934",
+          "9780071502115",
+          "0071502114",
+          "9780071448932"
+        ],
+        "key": "/works/OL5756028W",
+        "title": "The Toyota way fieldbook"
+      },
+      {
+        "author_name": [
+          "Andrew Blum"
+        ],
+        "edition_key": [
+          "OL28495429M",
+          "OL37390309M",
+          "OL47749560M",
+          "OL35963290M",
+          "OL27566841M",
+          "OL32243970M",
+          "OL25259933M",
+          "OL38660778M"
+        ],
+        "isbn": [
+          "9781554689804",
+          "006285030X",
+          "0061994936",
+          "0062096753",
+          "9780062850201",
+          "014104909X",
+          "9780062850300",
+          "9780670919000",
+          "0670919004",
+          "9780141049090",
+          "0062850202",
+          "9780061994937",
+          "9780062096753",
+          "0061994952",
+          "1554689805",
+          "9780061994951"
+        ],
+        "key": "/works/OL16572261W",
+        "title": "Tubes"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL29764686M",
+          "OL29770136M",
+          "OL27372237M",
+          "OL29770138M",
+          "OL32491897M"
+        ],
+        "isbn": [
+          "0262338300",
+          "9781469070483",
+          "0262536161",
+          "1469070480",
+          "9780262338301",
+          "9780262338295",
+          "0262338297",
+          "0262338319",
+          "9780262536165",
+          "9780262338318"
+        ],
+        "key": "/works/OL20186754W",
+        "title": "Energy and Civilization"
+      },
+      {
+        "author_name": [
+          "Theodore Rockwell"
+        ],
+        "edition_key": [
+          "OL1702888M",
+          "OL787535M",
+          "OL7551418M",
+          "OL7580267M"
+        ],
+        "isbn": [
+          "9780595252701",
+          "9780471122968",
+          "1557507023",
+          "9781557507020",
+          "0595252702",
+          "0471122963",
+          "9780595745272",
+          "059574527X"
+        ],
+        "key": "/works/OL2925636W",
+        "title": "The Rickover Effect"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL35764638M",
+          "OL24493456M",
+          "OL46017118M"
+        ],
+        "isbn": [
+          "1283029383",
+          "9780844743288",
+          "0844743453",
+          "9781283029384",
+          "9780844743455",
+          "0844743283"
+        ],
+        "key": "/works/OL15536746W",
+        "title": "Energy myths and realities"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL35952532M",
+          "OL34019369M",
+          "OL25650632M",
+          "OL26516873M",
+          "OL8971647M"
+        ],
+        "isbn": [
+          "9781786071330",
+          "1786071339",
+          "1780741510",
+          "1786071347",
+          "9781780741512",
+          "1851684522",
+          "9781786071347",
+          "9781851684526"
+        ],
+        "key": "/works/OL1855318W",
+        "title": "Energy"
+      },
+      {
+        "author_name": [
+          "Jeffrey Liker"
+        ],
+        "edition_key": [
+          "OL9964694M"
+        ],
+        "isbn": [
+          "9780071492171",
+          "0071492178"
+        ],
+        "key": "/works/OL9290835W",
+        "title": "Toyota Culture"
+      },
+      {
+        "author_name": [
+          "Jeffrey K. Liker"
+        ],
+        "edition_key": [
+          "OL22381590M"
+        ],
+        "isbn": [
+          "0071492178",
+          "9780071492171"
+        ],
+        "key": "/works/OL5756027W",
+        "title": "Toyota culture"
+      },
+      {
+        "author_name": [
+          "Jean-Baptiste Fressoz"
+        ],
+        "edition_key": [
+          "OL57552669M",
+          "OL57764379M"
+        ],
+        "isbn": [
+          "9780063444935",
+          "0063444933",
+          "9781802067316",
+          "1802067310"
+        ],
+        "key": "/works/OL42416617W",
+        "title": "More and More and More"
+      },
+      {
+        "author_name": [
+          "William Langewiesche"
+        ],
+        "edition_key": [
+          "OL24002412M",
+          "OL24085402M",
+          "OL24282146M"
+        ],
+        "isbn": [
+          "184614308X",
+          "0374157189",
+          "9780374157180",
+          "1410425460",
+          "9781846143083",
+          "9781410425461"
+        ],
+        "key": "/works/OL14963753W",
+        "title": "Fly by wire"
+      },
+      {
+        "author_name": [
+          "Jeffrey Liker"
+        ],
+        "edition_key": [
+          "OL27056492M"
+        ],
+        "isbn": [
+          "9780070587472",
+          "0070587477"
+        ],
+        "key": "/works/OL19868981W",
+        "title": "The Toyota Way: 14 Management Principles from the World's Greatest Manufacturer [Import]"
+      },
+      {
+        "author_name": [
+          "LIKER"
+        ],
+        "edition_key": [
+          "OL27284935M"
+        ],
+        "isbn": [
+          "9780070610880",
+          "0070610886"
+        ],
+        "key": "/works/OL20104916W",
+        "title": "The Toyota Way Fieldbook"
+      },
+      {
+        "author_name": [
+          "William Langewiesche"
+        ],
+        "edition_key": [
+          "OL24537871M"
+        ],
+        "isbn": [
+          "9780374157180",
+          "0374157189"
+        ],
+        "key": "/works/OL15586289W",
+        "title": "Fly by wire"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL353725M",
+          "OL29259025M",
+          "OL9617210M",
+          "OL9577987M"
+        ],
+        "isbn": [
+          "0262283832",
+          "0262194104",
+          "9780262194105",
+          "9780262283830",
+          "9780262692359",
+          "026269235X"
+        ],
+        "key": "/works/OL1855343W",
+        "title": "Energies"
+      },
+      {
+        "author_name": [
+          "Jeffrey K. Liker"
+        ],
+        "edition_key": [
+          "OL25060871M"
+        ],
+        "isbn": [
+          "0071780785",
+          "9780071780780"
+        ],
+        "key": "/works/OL16184012W",
+        "title": "The Toyota way to lean leadership"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL29031057M",
+          "OL9563464M",
+          "OL9452680M",
+          "OL29752673M"
+        ],
+        "isbn": [
+          "0262283840",
+          "9780262693240",
+          "026230368X",
+          "9780262303682",
+          "0262693240",
+          "9780262283847",
+          "9780262194921",
+          "0262194929"
+        ],
+        "key": "/works/OL1855337W",
+        "title": "Energy at the Crossroads"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL10238619M",
+          "OL10237651M",
+          "OL29707178M",
+          "OL29753897M",
+          "OL29254608M",
+          "OL17568477M"
+        ],
+        "isbn": [
+          "9780262309585",
+          "9780262693561",
+          "9780262195652",
+          "9780262332637",
+          "0262309580",
+          "0262332639",
+          "9780262297028",
+          "0262195658",
+          "0262693569",
+          "0262297027"
+        ],
+        "key": "/works/OL1855344W",
+        "title": "Energy in Nature and Society"
+      },
+      {
+        "author_name": [
+          "WILLIAM LANGEWIESCHE"
+        ],
+        "edition_key": [
+          "OL28148545M"
+        ],
+        "isbn": [
+          "9780312655389",
+          "031265538X"
+        ],
+        "key": "/works/OL20794815W",
+        "title": "FLY BY WIRE"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL29459269M",
+          "OL29455280M",
+          "OL29459211M",
+          "OL29455281M",
+          "OL2384093M"
+        ],
+        "isbn": [
+          "0873324234",
+          "9781315493947",
+          "1315493977",
+          "9781315493978",
+          "9781315493954",
+          "9781315493961",
+          "1315493942",
+          "1315493969",
+          "1315493950",
+          "9780873324236"
+        ],
+        "key": "/works/OL1855320W",
+        "title": "Energy in China's modernization"
+      },
+      {
+        "author_name": [
+          "Jeffrey Liker",
+          "Karyn Ross"
+        ],
+        "edition_key": [
+          "OL27696792M"
+        ],
+        "isbn": [
+          "9781259641107",
+          "1259641104"
+        ],
+        "key": "/works/OL20468950W",
+        "title": "The Toyota Way to Service Excellence"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL33753610M",
+          "OL33600528M",
+          "OL34584144M",
+          "OL3673385M",
+          "OL33468986M",
+          "OL22558954M",
+          "OL33769468M",
+          "OL33624463M"
+        ],
+        "isbn": [
+          "1134377649",
+          "9780415314992",
+          "9781134377640",
+          "9781280063329",
+          "1134377665",
+          "9781134377695",
+          "1280063327",
+          "9781134377688",
+          "1134377681",
+          "9781134377664",
+          "0415314992",
+          "113437769X",
+          "0415314984",
+          "0203563204",
+          "9780415314985",
+          "9780203563205"
+        ],
+        "key": "/works/OL1855317W",
+        "title": "China's past, China's future"
+      },
+      {
+        "author_name": [
+          "William Langewiesche"
+        ],
+        "edition_key": [
+          "OL45960983M",
+          "OL29028632M",
+          "OL37367732M"
+        ],
+        "isbn": [
+          "142996331X",
+          "9781553655138",
+          "1553655133",
+          "9780141046747",
+          "9781429963312",
+          "0141046740"
+        ],
+        "key": "/works/OL21439096W",
+        "title": "Fly by Wire"
+      },
+      {
+        "author_name": [
+          "Andrew Blum"
+        ],
+        "edition_key": [
+          "OL26819332M"
+        ],
+        "isbn": [
+          "9780670918980",
+          "0670918989"
+        ],
+        "key": "/works/OL19363459W",
+        "title": "Tubes: Behind the Scenes at the Internet"
+      },
+      {
+        "author_name": [
+          "Jeffrey K. Liker"
+        ],
+        "edition_key": [
+          "OL23099566M",
+          "OL24290518M",
+          "OL12337656M"
+        ],
+        "isbn": [
+          "0071509941",
+          "9861574611",
+          "1933309695",
+          "9781933309699",
+          "9780071509947",
+          "9789861574615"
+        ],
+        "key": "/works/OL5756029W",
+        "title": "Toyota Talent"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL24049868M"
+        ],
+        "isbn": [
+          "9780313381775",
+          "0313381771",
+          "9780313381782",
+          "031338178X"
+        ],
+        "key": "/works/OL15692535W",
+        "title": "Energy transitions"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL7400815M",
+          "OL4425490M",
+          "OL7400817M",
+          "OL21547660M"
+        ],
+        "isbn": [
+          "9780198544258",
+          "0198544251",
+          "0198544219",
+          "9780198544210"
+        ],
+        "key": "/works/OL8013715W",
+        "title": "Energy in the Developing World"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL28608175M",
+          "OL28049814M",
+          "OL29754106M"
+        ],
+        "isbn": [
+          "0262326914",
+          "9780262029148",
+          "0262029146",
+          "9780262326919",
+          "0262529734",
+          "9780262529730"
+        ],
+        "key": "/works/OL20739200W",
+        "title": "Power Density"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL10288334M",
+          "OL5214739M"
+        ],
+        "isbn": [
+          "0275230500",
+          "0275230503",
+          "9780275230500"
+        ],
+        "key": "/works/OL1855332W",
+        "title": "China's energy"
+      },
+      {
+        "author_name": [
+          "William Langewiesche"
+        ],
+        "edition_key": [
+          "OL24552332M"
+        ],
+        "isbn": [
+          "0374157189",
+          "9780374157180"
+        ],
+        "key": "/works/OL15601643W",
+        "title": "Fly by wire"
+      },
+      {
+        "author_name": [
+          "William Langewiesche"
+        ],
+        "edition_key": [
+          "OL24562643M"
+        ],
+        "isbn": [
+          "9781410425461",
+          "1410425460"
+        ],
+        "key": "/works/OL15612435W",
+        "title": "Fly by wire"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL30374771M",
+          "OL27021393M",
+          "OL3167579M"
+        ],
+        "isbn": [
+          "1461336929",
+          "9781461336938",
+          "1461336937",
+          "9781461336914",
+          "1461336910",
+          "0306413124",
+          "9781461336921",
+          "9780306413124"
+        ],
+        "key": "/works/OL1855315W",
+        "title": "Biomass energies"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL37277863M",
+          "OL34635103M"
+        ],
+        "isbn": [
+          "144085324X",
+          "9781440853241",
+          "9781440853258",
+          "1440853258"
+        ],
+        "key": "/works/OL25742956W",
+        "title": "Energy Transitions"
+      },
+      {
+        "author_name": [
+          "G. Pascal Zachary"
+        ],
+        "edition_key": [
+          "OL26733207M"
+        ],
+        "isbn": [
+          "345511038X",
+          "9783455110388"
+        ],
+        "key": "/works/OL19075674W",
+        "title": "Show Stopper!: The Breakneck Race to Create Windows NT and the Next Generation at Microsoft"
+      },
+      {
+        "author_name": [
+          "Jeffrey K. Liker"
+        ],
+        "edition_key": [
+          "OL25074596M"
+        ],
+        "isbn": [
+          "9780071477468",
+          "0071477462"
+        ],
+        "key": "/works/OL16211657W",
+        "title": "The Toyota way to continuous improvement"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL10328707M",
+          "OL1881457M"
+        ],
+        "isbn": [
+          "0471629057",
+          "9780471629054",
+          "9780471526995",
+          "0471526991"
+        ],
+        "key": "/works/OL1855324W",
+        "title": "General energetics"
+      },
+      {
+        "author_name": [
+          "William Langewiesche",
+          "David Drummond"
+        ],
+        "edition_key": [
+          "OL33138854M"
+        ],
+        "isbn": [
+          "9781615873654",
+          "1615873651"
+        ],
+        "key": "/works/OL24930388W",
+        "title": "Fly by Wire : The Geese, The Glide, The Miracle on the Hudson"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL2734172M"
+        ],
+        "isbn": [
+          "0198285108",
+          "9780198285106"
+        ],
+        "key": "/works/OL1855319W",
+        "title": "Energy, food, environment"
+      },
+      {
+        "author_name": [
+          "Andrew Blum"
+        ],
+        "edition_key": [
+          "OL26605598M"
+        ],
+        "isbn": [
+          "9781554689798",
+          "1554689791"
+        ],
+        "key": "/works/OL18020820W",
+        "title": "Tubes"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL26565855M",
+          "OL21286690M",
+          "OL5232646M"
+        ],
+        "key": "/works/OL1855322W",
+        "title": "Energy and the environment"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL53274925M",
+          "OL53279713M"
+        ],
+        "isbn": [
+          "9780262250214",
+          "0585270961",
+          "9780585270968",
+          "0262250217"
+        ],
+        "key": "/works/OL39135417W",
+        "title": "Energies"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL8316135M",
+          "OL3487497M"
+        ],
+        "isbn": [
+          "9780865311671",
+          "0865311676"
+        ],
+        "key": "/works/OL1855336W",
+        "title": "Energy analysis and agriculture"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL53278908M"
+        ],
+        "isbn": [
+          "9781423725473",
+          "1423725476"
+        ],
+        "key": "/works/OL39138368W",
+        "title": "Energy at the Crossroads"
+      },
+      {
+        "author_name": [
+          "Vaclav Smil"
+        ],
+        "edition_key": [
+          "OL58755565M"
+        ],
+        "key": "/works/OL43139776W",
+        "title": "china's energy achievements, problems, prospects"
+      },
+      {
+        "author_name": [
+          "Andrew Blum"
+        ],
+        "edition_key": [
+          "OL35320024M"
+        ],
+        "isbn": [
+          "9786055150822",
+          "6055150824"
+        ],
+        "key": "/works/OL26171054W",
+        "title": "Tubes<br>internetin Merkezine Yolculuk"
+      },
+      {
+        "author_name": [
+          "Andrew Blum"
+        ],
+        "edition_key": [
+          "OL26947606M"
+        ],
+        "isbn": [
+          "607400949X",
+          "9786074009491"
+        ],
+        "key": "/works/OL19734514W",
+        "title": "Tubos"
+      },
+      {
+        "author_name": [
+          "Barton M. Blum"
+        ],
+        "edition_key": [
+          "OL17615823M"
+        ],
+        "key": "/works/OL12229985W",
+        "title": "Plastic tubing for collecting maple sap"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "mention": "The Honors Class",
+  "url": "https://openlibrary.org/search.json?title=The%20Honors%20Class&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:56:32.101Z",
+  "status": 200,
+  "search": {
+    "numFound": 14,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 14,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ben Yandell"
+        ],
+        "edition_count": 4,
+        "first_publish_year": 2001,
+        "isbn": [
+          "1568812167",
+          "9781439864227",
+          "9781568811413",
+          "9781568812168",
+          "1568811411",
+          "1439864225"
+        ],
+        "key": "/works/OL4551667W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Honors Class"
+      },
+      {
+        "author_name": [
+          "Hugh Nibley"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1988,
+        "isbn": [
+          "0875791891",
+          "9780875791890"
+        ],
+        "key": "/works/OL15026656W",
+        "title": "Lectures on the Book of Mormon (Brigham Young University Honors Class Lectures 20-38, 2)"
+      },
+      {
+        "author_name": [
+          "Hugh Nibley"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1988,
+        "isbn": [
+          "9780875791906",
+          "0875791905"
+        ],
+        "key": "/works/OL15026657W",
+        "title": "Lectures on the Book of Mormon Volume 3 (Brigham Young University Honors Class Volume 3: Lectures 39-56, 3)"
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      13324934,
+      -1
+    ],
+    "key": "/works/OL4551667W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL919204A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "title": "The Honors Class",
+    "subjects": [
+      "Biography",
+      "History",
+      "Mathematicians",
+      "Mathematics",
+      "award:euler_book_prize",
+      "Mathematics, history",
+      "Mathematicians, biography",
+      "Mathématiques",
+      "Histoire",
+      "Mathématiciens",
+      "Biographies"
+    ],
+    "subject_times": [
+      "20th century"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subtitle": "Hilbert's Problems and Their Solvers",
+    "latest_revision": 11,
+    "revision": 11,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T06:43:41.285701"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-02-19T15:53:07.471831"
+    }
+  }
+}

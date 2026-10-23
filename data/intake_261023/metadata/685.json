@@ -1,0 +1,79 @@
+{
+  "mention": "The Wizardry Compiled",
+  "url": "https://openlibrary.org/search.json?title=The%20Wizardry%20Compiled&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:39.422Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Rick Cook"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1989,
+        "isbn": [
+          "9780671698560",
+          "1555940595",
+          "9781555940591",
+          "0671698567"
+        ],
+        "key": "/works/OL5910115W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Wizardry Compiled",
+        "ratings_average": 4.2,
+        "ratings_count": 5
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "What do you get when a computer geek crosses a wizard? Answer: A very angry wizard - and a computer geek in a lot of trouble. Spells are a lot like computer programs: they're both formulas, recipes for getting things done. And they both can be buggy. The spell that called master hacker 'Wiz' Zumwalt to the world of the Black League was very buggy. The wizard who called him is dead, Wiz is magically in love with a red-headed witch, who despises him, and no one - not the elves, not the dwarves, not even the dragons - can figure out what this computer wiz is good for. Oh, yes. The entire Black League wants Wiz dead - he might be good for something after all - and they'll stop at nothing to get what they want."
+    },
+    "key": "/works/OL5910115W",
+    "title": "The Wizardry Compiled",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1458919A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      6684409
+    ],
+    "subjects": [
+      "Fiction, science fiction, general",
+      "Fiction, fantasy, general"
+    ],
+    "genres": [
+      "/tags/OL179T",
+      "/tags/OL169T"
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T18:10:29.496389"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-09-07T20:08:14.395021"
+    }
+  }
+}

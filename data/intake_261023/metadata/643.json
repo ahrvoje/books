@@ -1,0 +1,95 @@
+{
+  "mention": "Inside the C++ Object Model",
+  "url": "https://openlibrary.org/search.json?title=Inside%20the%20C%2B%2B%20Object%20Model&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:12.432Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Stanley B. Lippman"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1996,
+        "isbn": [
+          "9780201834543",
+          "0201834545"
+        ],
+        "key": "/works/OL1836490W",
+        "language": [
+          "eng"
+        ],
+        "title": "Inside the C⁺⁺ object model"
+      },
+      {
+        "author_name": [
+          "David M. Papurt"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1996,
+        "isbn": [
+          "9781884842054",
+          "1884842054"
+        ],
+        "key": "/works/OL3514373W",
+        "language": [
+          "eng"
+        ],
+        "title": "Inside the Object Model: The Sensible Use of C++ (SIGS: Advances in Object Technology)"
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1996",
+    "title": "Inside the C⁺⁺ object model",
+    "covers": [
+      136450
+    ],
+    "lc_classifications": [
+      "QA76.73.C153 L58 1996"
+    ],
+    "key": "/works/OL1836490W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL219935A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "005.13/3"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "C++ (Computer program language)",
+      "Object-oriented programming (Computer science)",
+      "C plus plus (computer program language)"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Inside the C++ Object Model focuses on the underlying mechanisms that support object-oriented programming within C++: constructor semantics, temporary generation, support for encapsulation, inheritance and \"the virtuals\" - virtual functions and virtual inheritance. This book shows how your understanding the underlying implementation models can help you code more efficiently and with greater confidence.\n\nLippman dispells the misinformation and myths about the overhead and complexity associated with C++, while pointing out areas in which costs and trade-offs, sometimes hidden, do exist. He then explains how the various implementation models arose, points out areas where they are likely to evolve, and why they are what they are. He covers the semantic implications of the C++ object model and how that model affects you programs."
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:26:46.801191"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-07-30T15:49:47.295660"
+    }
+  }
+}

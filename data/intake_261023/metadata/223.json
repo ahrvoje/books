@@ -1,0 +1,75 @@
+{
+  "mention": "Get the Picture — Bianca Bosker",
+  "url": "https://openlibrary.org/search.json?title=Get%20the%20Picture&author=Bianca%20Bosker&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:49:40.190Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Bianca Bosker"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 2024,
+        "isbn": [
+          "9780525562207",
+          "1911630474",
+          "0525562206",
+          "1911630466",
+          "1420513591",
+          "9781420513592",
+          "9781911630470",
+          "9781911630463",
+          "9780525562214",
+          "0525562214"
+        ],
+        "key": "/works/OL37628790W",
+        "language": [
+          "eng"
+        ],
+        "title": "Get the Picture",
+        "ratings_average": 4,
+        "ratings_count": 1
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Get the Picture",
+    "subjects": [
+      "Art",
+      "nyt:hardcover-nonfiction=2024-02-25",
+      "New York Times bestseller"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7126363A"
+        }
+      }
+    ],
+    "key": "/works/OL37628790W",
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-01-31T10:07:04.447017"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-02-21T14:05:37.424153"
+    }
+  }
+}

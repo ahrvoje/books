@@ -1,0 +1,86 @@
+{
+  "mention": "Etudes for Programmers",
+  "url": "https://openlibrary.org/search.json?title=Etudes%20for%20Programmers&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:47.427Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Charles Wetherell"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1978,
+        "isbn": [
+          "9780132918077",
+          "0132918072"
+        ],
+        "key": "/works/OL6670385W",
+        "language": [
+          "eng"
+        ],
+        "title": "Etudes for programmers"
+      },
+      {
+        "author_name": [
+          "Alberta. Alberta Education"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1991,
+        "key": "/works/OL24977274W",
+        "language": [
+          "fre"
+        ],
+        "title": "Programme d'études pour les écoles élémentaires offrant l'enseignement selon l'article 159(1)(a) du School Act. = Program of studies for elementary schools offering instruction according to section 159(1) (a) of the School Act"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "Etudes for Programmers is a collection of large-scale problems for \"learning by doing\". Each problem includes a real world background, discussion of appropriate program and techniques, detailed requirements for correct solution, extensions, and annotated bibliography. These are realistic problems similar to those in countered an actual practice.\r\n\r\nTwo of the problems are completely solved by the author. The solutions concentrate on good programming techniques, measuring the quality of the program and the output, and possible extensions of the problem. They are models of what solutions to any programming job should be and contain many practical hints about writing good programs.\r\n\r\nAmong its outstanding features, the book:\r\n\r\n * Discusses programming problems of sufficient length to require you to face challenges of \"big\" as opposed to \"toy\" programs.\r\n * Provides detailed and careful analysis of the real world situation surrounding each program problem\r\n * Provides self-contained problems that may be done without outside help\r\n * Offers references to sources for programming information into further reading about problem subjects\r\n * Includes a complete set of four projects for a programming language course -- macro interpreter, compiler, relocating loader, and computer simulator.\r\n * Lets the reader choose interesting problems for himself\r\n * Shows how \"academic\" algorithms can be used to solve \"real\" problems\r\n * Puts some fun back into programming"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-18T09:45:04.729877"
+    },
+    "title": "Etudes for programmers",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T19:32:52.813420"
+    },
+    "covers": [
+      9243206,
+      4415226
+    ],
+    "first_publish_date": "1978",
+    "latest_revision": 9,
+    "key": "/works/OL6670385W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1802643A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Computer programming",
+      "Problems, exercises",
+      "Electronic digital computers, programming"
+    ],
+    "revision": 9
+  }
+}

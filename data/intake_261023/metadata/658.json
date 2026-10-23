@@ -1,0 +1,140 @@
+{
+  "mention": "Types and Programming Languages",
+  "url": "https://openlibrary.org/search.json?title=Types%20and%20Programming%20Languages&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:22.758Z",
+  "status": 200,
+  "search": {
+    "numFound": 8,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 8,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Benjamin C. Pierce"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2002,
+        "isbn": [
+          "0262162091",
+          "9780262162098"
+        ],
+        "key": "/works/OL4078119W",
+        "language": [
+          "eng"
+        ],
+        "title": "Types and Programming Languages",
+        "ratings_average": 4.5,
+        "ratings_count": 2
+      },
+      {
+        "author_name": [
+          "Benjamin C. Pierce"
+        ],
+        "edition_count": 6,
+        "first_publish_year": 2004,
+        "isbn": [
+          "1548918032",
+          "9781548918033",
+          "0262281597",
+          "1423729846",
+          "9781423729846",
+          "9780262552677",
+          "0262552671",
+          "9780262281591",
+          "9780262332668",
+          "0262162288",
+          "9780262162289",
+          "0262332663"
+        ],
+        "key": "/works/OL17832622W",
+        "language": [
+          "eng"
+        ],
+        "title": "Advanced topics in types and programming languages",
+        "ratings_average": 0,
+        "ratings_count": 0
+      },
+      {
+        "author_name": [
+          "Benjamin C. Pierce"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2004,
+        "isbn": [
+          "0262162288",
+          "9780262162289"
+        ],
+        "key": "/works/OL4078116W",
+        "language": [
+          "eng"
+        ],
+        "title": "Advanced Topics in Types and Programming Languages"
+      }
+    ]
+  },
+  "work": {
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Types_and_Programming_Languages",
+        "type": {
+          "key": "/type/link"
+        },
+        "title": "Wikipedia"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q7860935",
+        "type": {
+          "key": "/type/link"
+        },
+        "title": "Wikidata"
+      }
+    ],
+    "covers": [
+      150506
+    ],
+    "key": "/works/OL4078119W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL763492A"
+        }
+      }
+    ],
+    "title": "Types and Programming Languages",
+    "subjects": [
+      "Programming languages (Electronic computers)",
+      "Programming Languages",
+      "Langages de programmation",
+      "COMPUTERS",
+      "General",
+      "Programmeertalen",
+      "Linguagem de programação (textos avançados)",
+      "Qa76.7 .p54 2002",
+      "005.13"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "A type system is a syntactic method for automatically checking the absence of certain erroneous behaviors by classifying program phrases according to the kinds of values they compute. The study of type systems--and of programming languages from a type-theoretic perspective -- -has important applications in software engineering, language design, high-performance compilers, and security. This text provides a comprehensive introduction both to type systems in computer science and to the basic theory of programming languages. The approach is pragmatic and operational; each new concept is motivated by programming examples and the more theoretical sections are driven by the needs of implementations. Each chapter is accompanied by numerous exercises and solutions, as well as a running implementation, available via the Web. Dependencies between chapters are explicitly identified, allowing readers to choose a variety of paths through the material. The core topics include the untyped lambda-calculus, simple type systems, type reconstruction, universal and existential polymorphism, subtyping, bounded quantification, recursive types, kinds, and type operators. Extended case studies develop a variety of approaches to modeling the features of object-oriented languages."
+    },
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T05:18:35.599830"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-07-20T03:01:39.693195"
+    }
+  }
+}

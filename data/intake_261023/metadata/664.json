@@ -1,0 +1,97 @@
+{
+  "mention": "Expert C Programming",
+  "url": "https://openlibrary.org/search.json?title=Expert%20C%20Programming&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:26.440Z",
+  "status": 200,
+  "search": {
+    "numFound": 5,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 5,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Peter Van der Linden"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1994,
+        "isbn": [
+          "0131774298",
+          "9780131774292"
+        ],
+        "key": "/works/OL639069W",
+        "language": [
+          "eng"
+        ],
+        "title": "Expert C programming!",
+        "ratings_average": 4,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Peter van der Linden"
+        ],
+        "edition_count": 2,
+        "isbn": [
+          "0133522237",
+          "0133522229",
+          "9780133522228",
+          "9780133522235"
+        ],
+        "key": "/works/OL26343716W",
+        "language": [
+          "eng"
+        ],
+        "title": "Expert C Programming"
+      },
+      {
+        "edition_count": 1,
+        "first_publish_year": 1994,
+        "key": "/works/OL15672141W",
+        "title": "Expert C Programming"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "C (Computer program language)",
+      "Qa76.73.c15 v356 1994",
+      "005.13/3"
+    ],
+    "key": "/works/OL639069W",
+    "title": "Expert C programming!",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL49199A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      88161
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"This is a very different book on the C language! In an easy, conversational style, Peter van der Linden, of Sun's compiler and OS kernel group, presents dozens of astonishing examples drawn from practical experience, including software that blew up the space probe to Venus; the C bug that shut down the entire AT & T phone system; C programmer job interview secrets; why programmers can't tell Halloween from Christmas day; and the C code for a complete BASIC interpreter.\" \"Expert C Programming reveals the coding techniques used by the best C programmers. It relates C to other languages, and includes an introduction to C++ that can be understood by any programmer without weeks of mind-bending study. Covering both the IBM PC and UNIX systems, it is an entertaining and educational romp through C showing how experts really use it. Expert C Programming is a must read for anyone who wants to learn more about the implementation, practical use, and folklore of C.\"--Jacket."
+    },
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-08T07:01:07.190570"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-08-22T01:20:14.067614"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "mention": "C# Black Book",
+  "url": "https://openlibrary.org/search.json?title=C%23%20Black%20Book&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:55:08.299Z",
+  "status": 200,
+  "search": {
+    "numFound": 7,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 7,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Matthew A. Telles",
+          "Matthew Telles"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2001,
+        "isbn": [
+          "9781588801920",
+          "1588801926"
+        ],
+        "key": "/works/OL23744442W",
+        "language": [
+          "eng"
+        ],
+        "title": "C# black book"
+      },
+      {
+        "author_name": [
+          "Matthew Telles"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2002,
+        "isbn": [
+          "1932111174",
+          "9781932111170"
+        ],
+        "key": "/works/OL8955078W",
+        "language": [
+          "eng"
+        ],
+        "title": "C# Black Book"
+      },
+      {
+        "author_name": [
+          "Bill Wagner"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2001,
+        "isbn": [
+          "158880058X",
+          "9781932111279",
+          "1932111271",
+          "9781588800589"
+        ],
+        "key": "/works/OL2037009W",
+        "language": [
+          "eng"
+        ],
+        "title": "C# Core Language Little Black Book"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "C# black book",
+    "subjects": [
+      "C# (Computer program language)"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL259092A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3103213A"
+        }
+      }
+    ],
+    "covers": [
+      857143
+    ],
+    "key": "/works/OL23744442W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-12-03T17:27:00.845372"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-12-03T17:27:00.845372"
+    }
+  }
+}

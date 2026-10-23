@@ -1,0 +1,247 @@
+{
+  "source": {
+    "url": "https://openlibrary.org/search.json?q=(title%3A%22Humble%20Pi%22%20AND%20author%3A%22parker%22)%20OR%20(title%3A%22Exploding%20the%20Phone%22%20AND%20author%3A%22lapsley%22)%20OR%20(title%3A%22Inventing%20Accuracy%22%20AND%20author%3A%22mackenzie%22)%20OR%20(title%3A%22Copies%20in%20Seconds%22%20AND%20author%3A%22owen%22)%20OR%20(title%3A%22The%20Secret%20Horsepower%20Race%22%20AND%20author%3A%22douglas%22)%20OR%20(title%3A%22Code%22%20AND%20author%3A%22petzold%22)%20OR%20(title%3A%22Engineering%20in%20Plain%20Sight%22%20AND%20author%3A%22hillhouse%22)%20OR%20(title%3A%22Failure%20Is%20Not%20an%20Option%22%20AND%20author%3A%22kranz%22)&fields=key,title,author_name,edition_key,isbn&limit=100",
+    "retrieved": "2026-10-23T07:55:07.992Z",
+    "file": "data/metadata_261023/raw/library-cf08dcaefae94c3a.json",
+    "status": 200
+  },
+  "data": {
+    "numFound": 11,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 11,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "(title:\"Humble Pi\" AND author:\"parker\") OR (title:\"Exploding the Phone\" AND author:\"lapsley\") OR (title:\"Inventing Accuracy\" AND author:\"mackenzie\") OR (title:\"Copies in Seconds\" AND author:\"owen\") OR (title:\"The Secret Horsepower Race\" AND author:\"douglas\") OR (title:\"Code\" AND author:\"petzold\") OR (title:\"Engineering in Plain Sight\" AND author:\"hillhouse\") OR (title:\"Failure Is Not an Option\" AND author:\"kranz\")",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Gene Kranz"
+        ],
+        "edition_key": [
+          "OL7926524M",
+          "OL24752251M",
+          "OL7927002M",
+          "OL7504611M",
+          "OL9640886M",
+          "OL44252734M",
+          "OL9316715M",
+          "OL28142717M"
+        ],
+        "isbn": [
+          "0743214471",
+          "0783891377",
+          "0316519340",
+          "0425179877",
+          "9780783891361",
+          "1439148813",
+          "9780316519342",
+          "9780743200790",
+          "9780743214476",
+          "9781439148815",
+          "0783891369",
+          "9780783891378",
+          "9780425179871",
+          "0743200799"
+        ],
+        "key": "/works/OL15842718W",
+        "title": "Failure is not an option"
+      },
+      {
+        "author_name": [
+          "Charles Petzold",
+          "Charles Petzold"
+        ],
+        "edition_key": [
+          "OL7890589M",
+          "OL45224660M",
+          "OL37826421M",
+          "OL48596347M",
+          "OL7890773M",
+          "OL48596346M",
+          "OL17703091M"
+        ],
+        "isbn": [
+          "9780735605053",
+          "0735611319",
+          "0735634688",
+          "0137909101",
+          "073560505X",
+          "9780735611313",
+          "9780735634688",
+          "9780137909100"
+        ],
+        "key": "/works/OL1972516W",
+        "title": "Code"
+      },
+      {
+        "author_name": [
+          "Matt Parker"
+        ],
+        "edition_key": [
+          "OL38789933M",
+          "OL27919148M",
+          "OL28698717M",
+          "OL31829191M",
+          "OL27915551M",
+          "OL35412085M",
+          "OL29448812M",
+          "OL28698758M"
+        ],
+        "isbn": [
+          "8491991913",
+          "9786254435133",
+          "9780241360194",
+          "9780593084694",
+          "9788491991915",
+          "0141989149",
+          "9780141989143",
+          "0241360196",
+          "0141989130",
+          "0593084691",
+          "9780141989136",
+          "9780241360231",
+          "9780593084687",
+          "0241360234",
+          "0593084683",
+          "6254435136"
+        ],
+        "key": "/works/OL20646270W",
+        "title": "Humble Pi"
+      },
+      {
+        "author_name": [
+          "Phil Lapsley"
+        ],
+        "edition_key": [
+          "OL36201171M",
+          "OL27545574M",
+          "OL26030741M"
+        ],
+        "isbn": [
+          "9780802120618",
+          "0802122280",
+          "080212061X",
+          "9780802193759",
+          "0802193757",
+          "9780802122285"
+        ],
+        "key": "/works/OL17446552W",
+        "title": "Exploding the Phone"
+      },
+      {
+        "author_name": [
+          "Grady Hillhouse"
+        ],
+        "edition_key": [
+          "OL37783137M"
+        ],
+        "isbn": [
+          "9781718502321",
+          "171850232X"
+        ],
+        "key": "/works/OL27700321W",
+        "title": "Engineering in Plain Sight"
+      },
+      {
+        "author_name": [
+          "Donald MacKenzie"
+        ],
+        "edition_key": [
+          "OL9792976M",
+          "OL9637673M"
+        ],
+        "isbn": [
+          "0262132583",
+          "9780262631471",
+          "9780262132589",
+          "0262631474"
+        ],
+        "key": "/works/OL8530023W",
+        "title": "Inventing Accuracy"
+      },
+      {
+        "author_name": [
+          "Charles Petzold"
+        ],
+        "edition_key": [
+          "OL16198279M",
+          "OL25420399M",
+          "OL7891109M",
+          "OL24251844M"
+        ],
+        "isbn": [
+          "0735690626",
+          "9780735690622",
+          "0735619573",
+          "9780735619579"
+        ],
+        "key": "/works/OL1972513W",
+        "title": "Applications = Code + Markup"
+      },
+      {
+        "author_name": [
+          "Donald A. Mackenzie"
+        ],
+        "edition_key": [
+          "OL1854178M"
+        ],
+        "isbn": [
+          "0262132583",
+          "9780262132589"
+        ],
+        "key": "/works/OL4444288W",
+        "title": "Inventing accuracy"
+      },
+      {
+        "author_name": [
+          "David Owen",
+          "Owen, David"
+        ],
+        "edition_key": [
+          "OL36189846M",
+          "OL7947592M",
+          "OL7947591M"
+        ],
+        "isbn": [
+          "9781416598329",
+          "0743251180",
+          "0743251172",
+          "1416598324",
+          "9780743251181",
+          "9780743251174"
+        ],
+        "key": "/works/OL7969303W",
+        "title": "Copies in Seconds"
+      },
+      {
+        "author_name": [
+          "Charles Petzold"
+        ],
+        "edition_key": [
+          "OL39215406M"
+        ],
+        "isbn": [
+          "9787121181184",
+          "7121181185"
+        ],
+        "key": "/works/OL28600663W",
+        "title": "编码"
+      },
+      {
+        "author_name": [
+          "Charles Petzold"
+        ],
+        "edition_key": [
+          "OL24307141M"
+        ],
+        "isbn": [
+          "0735619573",
+          "9780735619579"
+        ],
+        "key": "/works/OL15175390W",
+        "title": "Applications = Code + Markup: A Guide to the Microsoft® Windows® Presentation Foundation"
+      }
+    ]
+  }
+}

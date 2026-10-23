@@ -1,0 +1,79 @@
+{
+  "mention": "Cheer! — Kate Torgovnick",
+  "url": "https://openlibrary.org/search.json?title=Cheer!&author=Kate%20Torgovnick&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:50:12.116Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Kate Torgovnick"
+        ],
+        "edition_count": 5,
+        "first_publish_year": 2008,
+        "isbn": [
+          "1416535969",
+          "1416535977",
+          "1416566007",
+          "9781416535966",
+          "9781416566007",
+          "9781416535973"
+        ],
+        "key": "/works/OL9740718W",
+        "language": [
+          "eng"
+        ],
+        "title": "Cheer!",
+        "ratings_average": 4,
+        "ratings_count": 1
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      2787140
+    ],
+    "key": "/works/OL9740718W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3732152A"
+        }
+      }
+    ],
+    "title": "Cheer!",
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Cheerleading"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "Think cheerleading is just pom-poms, \"gimme an 'R,'\" and pleated skirts? Not any more. College cheerleaders are extreme athletes who fly thirty feet in the air, build pyramids in which a single slip can send ten people crashing to the ground, and compete in National Championships that are won by hundredths of a point. These are people who risk horrifying injuries on a daily basis, battle demons like eating disorders and steroid use, and form intense bonds, and this book is a year-long odyssey into their universe, following three squads from tryouts to Nationals.--From publisher description."
+    },
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T01:14:16.844968"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-29T06:07:56.338537"
+    }
+  }
+}

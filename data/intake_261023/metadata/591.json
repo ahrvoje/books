@@ -1,0 +1,94 @@
+{
+  "mention": "Fact, Fiction, and Forecast",
+  "url": "https://openlibrary.org/search.json?title=Fact%2C%20Fiction%2C%20and%20Forecast&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:38.775Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Nelson Goodman"
+        ],
+        "edition_count": 14,
+        "first_publish_year": 1954,
+        "isbn": [
+          "0672613476",
+          "9780674290716",
+          "9780672518898",
+          "9780672613470",
+          "9780674290709",
+          "0672518899",
+          "0674290712",
+          "0674290704"
+        ],
+        "key": "/works/OL4810083W",
+        "language": [
+          "eng"
+        ],
+        "title": "Fact, fiction and forecast"
+      },
+      {
+        "edition_count": 1,
+        "key": "/works/OL29295034W",
+        "title": "Fact, Fiction, and Forecast.  Second edition."
+      },
+      {
+        "edition_count": 1,
+        "key": "/works/OL34652105W",
+        "title": "Fact, Fiction and Forecast (Harvester studies in philosophy) by Nelson Goodman (1974-05-03)"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Addresses, essays, lectures",
+      "Conditionals (Logic)",
+      "Forecasting",
+      "Induction (Logic)",
+      "Logic",
+      "Philosophy",
+      "Possibility",
+      "Prediction (Logic)",
+      "Science",
+      "Mind & Body",
+      "General",
+      "Philosophy / General",
+      "Science, philosophy"
+    ],
+    "key": "/works/OL4810083W",
+    "title": "Fact, fiction and forecast",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL1013261A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      4276702
+    ],
+    "latest_revision": 12,
+    "revision": 12,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T07:36:44.979500"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-11-27T12:00:57.658311"
+    }
+  }
+}

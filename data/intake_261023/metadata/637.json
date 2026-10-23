@@ -1,0 +1,127 @@
+{
+  "mention": "Writing Secure Code",
+  "url": "https://openlibrary.org/search.json?title=Writing%20Secure%20Code&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:54:08.430Z",
+  "status": 200,
+  "search": {
+    "numFound": 9,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 9,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Michael Howard",
+          "David LeBlanc"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 2001,
+        "isbn": [
+          "9780735615885",
+          "0735637407",
+          "9780735635500",
+          "0735615888",
+          "9780735637405",
+          "0735635501"
+        ],
+        "key": "/works/OL18167146W",
+        "language": [
+          "eng"
+        ],
+        "title": "Writing secure code"
+      },
+      {
+        "author_name": [
+          "Michael Howard",
+          "David LeBlanc"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2002,
+        "isbn": [
+          "9780735617223",
+          "0735617228"
+        ],
+        "key": "/works/OL16797180W",
+        "language": [
+          "eng"
+        ],
+        "title": "Writing Secure Code, Second Edition",
+        "ratings_average": 4,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "David LeBlanc"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2002,
+        "isbn": [
+          "9780735690134",
+          "0735617228",
+          "9780735617223",
+          "0735690138"
+        ],
+        "key": "/works/OL15173225W",
+        "language": [
+          "eng"
+        ],
+        "title": "Writing Secure Code for Windows Vista™"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Data encryption (Computer science)",
+      "Computer security",
+      "Sécurité informatique",
+      "Systèmes informatiques",
+      "Sécurité",
+      "Mesures",
+      "Chiffrement (Informatique)",
+      "Anwendungssoftware",
+      "Datensicherung",
+      "Programmierung",
+      "Rechnernetz",
+      "Softwareentwicklung"
+    ],
+    "key": "/works/OL18167146W",
+    "title": "Writing secure code",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL830541A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2638479A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      461346
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-01-10T22:51:38.010706"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-05-03T07:48:27.672855"
+    }
+  }
+}

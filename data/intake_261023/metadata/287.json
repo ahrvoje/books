@@ -1,0 +1,66 @@
+{
+  "mention": "Revelations in Air",
+  "url": "https://openlibrary.org/search.json?title=Revelations%20in%20Air&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:50:21.786Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jude Stewart"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2021,
+        "isbn": [
+          "0143135996",
+          "9780143135999"
+        ],
+        "key": "/works/OL24549279W",
+        "title": "Revelations in Air"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Revelations in Air",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7067249A"
+        }
+      }
+    ],
+    "covers": [
+      11192398
+    ],
+    "key": "/works/OL24549279W",
+    "subjects": [
+      "Physiology",
+      "Smell",
+      "Physiological aspects",
+      "Odors"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-05-30T18:38:36.233706"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-10T21:35:38.082533"
+    }
+  }
+}

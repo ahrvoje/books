@@ -1,0 +1,105 @@
+{
+  "mention": "The Art of the Metaobject Protocol",
+  "url": "https://openlibrary.org/search.json?title=The%20Art%20of%20the%20Metaobject%20Protocol&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:44.759Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Gregor Kiczales"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1991,
+        "isbn": [
+          "0262610744",
+          "9780262610742",
+          "9780262111584",
+          "0262111586"
+        ],
+        "key": "/works/OL4088774W",
+        "language": [
+          "eng"
+        ],
+        "title": "The art of the metaobject protocol",
+        "ratings_average": 4,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Gregor Kiczales",
+          "Jim des Rivieres",
+          "Daniel G. Bobrow"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1991,
+        "isbn": [
+          "9780262277082",
+          "0262277085"
+        ],
+        "key": "/works/OL21809119W",
+        "language": [
+          "eng"
+        ],
+        "title": "Art of the Metaobject Protocol"
+      },
+      {
+        "author_name": [
+          "Gregor Kiczales"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 1991,
+        "isbn": [
+          "9780585358123",
+          "0585358125"
+        ],
+        "key": "/works/OL19828082W",
+        "language": [
+          "eng"
+        ],
+        "title": "The art of the metaobject protocol"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "COMMON LISP (Computer program language)",
+      "Object-oriented programming (Computer science)"
+    ],
+    "key": "/works/OL4088774W",
+    "title": "The art of the metaobject protocol",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL765839A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      151841
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T05:19:47.674790"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-07-18T08:36:19.914545"
+    }
+  }
+}

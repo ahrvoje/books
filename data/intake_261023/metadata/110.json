@@ -1,0 +1,113 @@
+{
+  "mention": "Flying Without Wings",
+  "url": "https://openlibrary.org/search.json?title=Flying%20Without%20Wings&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:26.936Z",
+  "status": 200,
+  "search": {
+    "numFound": 23,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 23,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Arnold R. Beisser"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 1989,
+        "isbn": [
+          "9780553348682",
+          "055334868X",
+          "9780816153374",
+          "0385247702",
+          "081615337X",
+          "9780385247702"
+        ],
+        "key": "/works/OL4982393W",
+        "language": [
+          "eng"
+        ],
+        "title": "Flying without wings",
+        "ratings_average": 1,
+        "ratings_count": 1
+      },
+      {
+        "author_name": [
+          "Autumn Leigh"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 2008,
+        "isbn": [
+          "1435800893",
+          "9781283032964",
+          "1283032961",
+          "9781435800892"
+        ],
+        "key": "/works/OL27042923W",
+        "language": [
+          "eng"
+        ],
+        "title": "Flying Without Wings"
+      },
+      {
+        "author_name": [
+          "Rishabh Puri"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2017,
+        "isbn": [
+          "9352773209",
+          "9789352773206"
+        ],
+        "key": "/works/OL24291670W",
+        "title": "Flying Without Wings"
+      }
+    ]
+  },
+  "work": {
+    "title": "Flying without wings",
+    "covers": [
+      369448
+    ],
+    "subject_places": [
+      "California"
+    ],
+    "subjects": [
+      "Biography",
+      "Paralytics",
+      "Psychiatrists",
+      "Health",
+      "Psychiatry",
+      "Paralysis",
+      "Psychiatrists, biography"
+    ],
+    "subject_people": [
+      "Arnold R. Beisser"
+    ],
+    "key": "/works/OL4982393W",
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL890850A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-11-11T17:07:25.508891"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-12-30T01:02:27.029494"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "mention": "C Interfaces and Implementations",
+  "url": "https://openlibrary.org/search.json?title=C%20Interfaces%20and%20Implementations&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:52:35.108Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David R. Hanson"
+        ],
+        "edition_count": 3,
+        "first_publish_year": 1996,
+        "isbn": [
+          "0201498413",
+          "0321562801",
+          "9780201498417",
+          "9780321562807"
+        ],
+        "key": "/works/OL3285534W",
+        "language": [
+          "eng"
+        ],
+        "title": "C interfaces and implementations"
+      }
+    ]
+  },
+  "work": {
+    "lc_classifications": [
+      "QA76.73.C15 H37 1997"
+    ],
+    "title": "C interfaces and implementations",
+    "covers": [
+      135017
+    ],
+    "first_sentence": {
+      "type": "/type/text",
+      "value": "A big program is made up of many small modules."
+    },
+    "excerpts": [
+      {
+        "excerpt": "A big program is made up of many small modules."
+      }
+    ],
+    "first_publish_date": "August 20, 1996",
+    "key": "/works/OL3285534W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL536889A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "005.13/3"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Reusability",
+      "C (Computer program language)",
+      "Computer software",
+      "C (computer program language)",
+      "Computer software--reusability",
+      "Qa76.73.c15 h37 1997",
+      "005.13/3"
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T03:14:50.267771"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-19T21:21:24.002643"
+    }
+  }
+}

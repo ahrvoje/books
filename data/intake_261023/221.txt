@@ -1,0 +1,23 @@
+3699242: What are some highly-regarded books on (modern or historic) programming language design?
+I greatly enjoyed Douglas Crockford's recent lecture series , particularly the talk which covered the history of programming languages. I'd like to learn about this subject in more detail. Consider this question language agnostic. I'm not interested in books that teach programming. I'm interested in books which discuss decisions made during the design of one or more languages.
+
+3744034: 
+Rationale for the Design of the Ada Programming Language: http://www.amazon.com/Rationale-Design-Programming-Language-Companion/dp/0521392675 Although the book discusses the original version of the language, it still makes interesting reading. For each design decision, rationale and discussion is included, both from the point view the programmer and compiler implementer.
+
+3744020: 
+"Architecture of Concurrent Programs", by the late Per Brinch Hansen, includes a good overview of the design and rationale for his Concurrent Pascal language, which added monitors (and other things) to his Sequential Pascal, a proper subset of Pascal. The big thing missing from Sequential Pascal is pointers. However, given the restrictions intended to be placed on Sequential Pascal programs, everything you can do with a pointer you can also do with an array index, and in a more secure way, "secure" in the sense that it is impossible (and checked by the compiler!) to do illegal things.
+
+3743951: 
+Structure and Interpretation of Computer Programs. I have a print copy, but it's now available online for free: http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html#%_toc_start
+
+3701117: 
+Every 15 years, the ACM puts on a History of Programming Languages conference (affectionately known as HoPL ). The proceedings are of exceptionally high quality, and are available, unfortunately only behind the ACM paywall. (However, if you access them from a university, college or school IP address, you should be able to access them.) For HoPL-III (2007) , Guido van Rossum wanted to submit a paper about Python, but he wasn't able to meet the review requirements in time, so he published it in form of a blog instead . Several presenters also published their papers for free, in addition to the official conference proceedings. Also, several presenters gave the same talk again, at a different venue. For example, Guy L. Steele, Jr. and Richard P. "Dick" Gabriel repeated their " 50 in 50 " talk (which, as you can imagine if you've ever seen a talk by Guy Steele or Dick Gabriel, is not really a talk, more like multimedia performance art crossed with poetry slam meets Broadway), which presents 50 programming languages in 50 words each. As @Missing Faktor mentioned above, not only Project Oberon , but all of Niklaus Wirth's languages are tremendously well documented: Algol-60, Algol-X, Algol-W, Pascal, Modula-2, and Oberon.
+
+3700803: 
+Following three are IMO the must-read books for any programming langauges junky :) Project Oberon by Niklaus Wirth Language Implementation Patterns by Terence Parr Programming Language Pragmatics by Michael Scott
+
+3699249: 
+Programming Language Essentials
+
+3699247: 
+The Design and Evolution of C++ http://www2.research.att.com/~bs/dne.html

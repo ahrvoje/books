@@ -1,0 +1,60 @@
+{
+  "mention": "Rebooting a Nation",
+  "url": "https://openlibrary.org/search.json?title=Rebooting%20a%20Nation&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:48:05.118Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Joel Burke"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2025,
+        "isbn": [
+          "9781805263012",
+          "1805263013"
+        ],
+        "key": "/works/OL42395221W",
+        "language": [
+          "eng"
+        ],
+        "title": "Rebooting a Nation"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Rebooting a Nation",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL16085268A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "key": "/works/OL42395221W",
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2025-01-24T19:48:26.923016"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-12-31T19:50:22.378886"
+    }
+  }
+}

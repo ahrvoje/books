@@ -1,0 +1,102 @@
+{
+  "mention": "Semantic Information Processing",
+  "url": "https://openlibrary.org/search.json?title=Semantic%20Information%20Processing&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,edition_count,ratings_average,ratings_count",
+  "retrieved": "2026-10-22T23:53:38.096Z",
+  "status": 200,
+  "search": {
+    "numFound": 10,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 10,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Marvin Minsky"
+        ],
+        "edition_count": 2,
+        "first_publish_year": 1968,
+        "isbn": [
+          "9780262130448",
+          "0262130440"
+        ],
+        "key": "/works/OL4981640W",
+        "language": [
+          "eng"
+        ],
+        "title": "Semantic information processing",
+        "ratings_average": 5,
+        "ratings_count": 1
+      },
+      {
+        "edition_count": 1,
+        "first_publish_year": 1968,
+        "key": "/works/OL18512582M",
+        "language": [
+          "eng"
+        ],
+        "title": "Semantic information processing"
+      },
+      {
+        "author_name": [
+          "Marvin Minsky"
+        ],
+        "edition_count": 1,
+        "first_publish_year": 2015,
+        "isbn": [
+          "9780262516853",
+          "0262516853"
+        ],
+        "key": "/works/OL39119723W",
+        "language": [
+          "eng"
+        ],
+        "title": "Semantic Information Processing"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Addresses, essays, lectures",
+      "Artificial intelligence",
+      "Computational linguistics",
+      "Semantics",
+      "Data processing"
+    ],
+    "key": "/works/OL4981640W",
+    "title": "Semantic information processing",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1076682A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      7149134,
+      13217297
+    ],
+    "first_publish_date": "1968",
+    "dewey_number": [
+      "001.53"
+    ],
+    "latest_revision": 9,
+    "revision": 9,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T08:12:38.843082"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-02-09T01:46:18.061151"
+    }
+  }
+}
