@@ -43,6 +43,8 @@ export const REGISTRY = [
   { id: 'H13', name: 'Historical-topic age', max: 300, weight: -12, unit: 'years', description: 'Review year minus the central period endpoint. Explicit non-period accounts use zero.' },
   { id: 'P14', name: 'Original publication age', max: 100, weight: -10, unit: 'years', description: 'Review year minus original production year. Reprints do not reset age.' },
   { id: 'O15', name: 'Amazon rating count', max: 1000, weight: -20, unit: 'ratings', description: 'One verified product aggregate; unknown is not zero. Default bands preserve rule 15.' },
+  { id: 'REL', name: 'Relevance', max: 20, weight: 1, unit: 'points', bonus: true, description: '2 × √(s − 1), where s is the number of distinct recorded sources. No upper cap; repeated mentions within a source count once.' },
+  { id: 'RD', name: 'R&D', max: 20, weight: 1, unit: 'points', bonus: true, description: '20 × reference pages / total pages: one point per 5%, including fractional points. Uses available counts; differing or unconfirmed editions give an estimate. Missing counts contribute zero. No explicit cap.' },
   ...DOMAIN_IDS.map((id, i) => ({ id, name: domains[i][0], description: domains[i][1], max: 4, weight: 0, unit: 'depth', group: 'Domains' })),
   { id: 'SRC', name: 'Contributing sources', max: 10, weight: 0, unit: 'sources', group: 'Length and sources', description: 'Distinct recorded source IDs, not independent endorsements.' },
   { id: 'PG', name: 'Edition length', max: 1000, weight: 0, unit: 'pages', group: 'Length and sources', description: 'Verified pages in the identified edition or complete nominated series.' },
@@ -59,6 +61,7 @@ export const REGISTRY = [
 export const BY_ID = Object.fromEntries(REGISTRY.map(r => [r.id, r]));
 export function rawGuidance(id) {
   const r = BY_ID[id];
+  if (r.bonus) return 'Raw values are calculated bonus points. The default adds them without a cap; multiplier 1 preserves the formula. Unknown inputs receive a labelled zero fallback. Normalized display uses 20 points = 100 and can exceed 100; it does not cap the score.';
   if (r.unit === 'flag') return 'Raw values: 0 = does not apply; 1 = applies.';
   if (r.unit === 'depth') return 'Raw range: 0–4 in whole steps, from absent to sustained domain depth. Unknown is separate from 0.';
   if (id === 'O15') return 'Raw range: 0 and above (whole-number ratings); no fixed upper limit. Default deductions: 0–9 → −20; 10–99 → −10; 100–999 → −5; 1,000+ → 0. Unknown is separate from 0.';
@@ -109,7 +112,7 @@ export function defaultTerm(id, target = null) {
   const high = ['SPAN', 'ORDER'].includes(id) && target ? target.domains.length : r.max;
   return { enabled: r.weight !== 0, kind: id === 'O15' ? 'bands' : 'affine', low: 0, high, signed: false, pivot: high / 2, reverse: false,
     bands: clone(STANDARD_BANDS), curve: r.quadratic ? 'quadratic' : 'linear', slope: 1, intercept: 0,
-    knots: [[0, 0], [1, 1]], mode: 'weight', weight: r.weight, rate: 0, reference: 0 };
+    knots: [[0, 0], [1, 1]], mode: r.bonus ? 'unbounded' : 'weight', weight: r.weight, rate: 0, reference: 0 };
 }
 export function defaultModel(reviewYear = 2026) {
   return { version: VERSION, reviewYear, target: null, terms: Object.fromEntries(REGISTRY.map(r => [r.id, defaultTerm(r.id)])), filters: {},
@@ -119,7 +122,7 @@ export function defaultModel(reviewYear = 2026) {
       { kind: 'raw', id: 'PG', direction: 'min', label: 'Pages', terms: [] }] };
 }
 export function restoreOptionalTerms(model) {
-  if (model?.version === VERSION && model.terms && !Object.hasOwn(model.terms, 'RP')) model.terms.RP = defaultTerm('RP');
+  if (model?.version === VERSION && model.terms) for (const id of ['RP','REL','RD']) if (!Object.hasOwn(model.terms, id)) model.terms[id] = defaultTerm(id);
   return model;
 }
 export function normalize(v, t) {
@@ -146,7 +149,7 @@ export function shape(n, t) {
   return n;
 }
 export function coefficients(t) {
-  if (t.mode === 'weight') return { w: t.weight, b: 0 };
+  if (t.mode === 'weight' || t.mode === 'unbounded') return { w: t.weight, b: 0 };
   const w = t.rate * (t.high - t.low) / (t.signed ? 2 : 1) * (t.reverse ? -1 : 1);
   const origin = t.signed ? t.pivot : t.reverse ? t.high : t.low;
   return { w, b: t.rate * (origin - t.reference) };
@@ -160,12 +163,14 @@ export function changeMode(t, mode) {
   t.mode = mode;
 }
 export function canonicalFallback(id, t) {
+  if (['REL','RD'].includes(id) && t.mode === 'unbounded') return true;
   return id === 'O15' && t.kind === 'bands' && !t.signed && !t.reverse && t.curve === 'linear' && t.mode === 'weight' &&
     JSON.stringify(t.bands) === JSON.stringify(STANDARD_BANDS);
 }
 export function termValue(v, t, id) {
   const { w, b } = coefficients(t), active = t.enabled && w !== 0;
   if (!known(v)) return { n: null, z: null, c: 0, missing: active && !canonicalFallback(id, t), fallback: active && canonicalFallback(id, t) };
+  if (t.mode === 'unbounded') return { n: v / t.high, z: v / t.high, c: active ? w * v : 0, missing: false, fallback: false };
   const n = normalize(v, t), z = shape(n, t);
   return { n, z, c: active ? b + w * z : 0, missing: false, fallback: false };
 }
@@ -174,7 +179,7 @@ export function validateTerm(t) {
   need(t && typeof t === 'object', 'Term must be an object.'); if (!t) return errors;
   need(['affine', 'bands'].includes(t.kind), 'Choose affine or bands.');
   need(['linear', 'quadratic', 'scaled', 'piecewise'].includes(t.curve), 'Unknown curve.');
-  need(['rate', 'weight'].includes(t.mode), 'Unknown parameter mode.');
+  need(['rate', 'weight', 'unbounded'].includes(t.mode), 'Unknown parameter mode.');
   for (const p of ['low', 'high', 'pivot', 'slope', 'intercept', 'weight', 'rate', 'reference']) need(known(t[p]), `${p} must be finite.`);
   for (const p of ['enabled', 'signed', 'reverse']) need(typeof t[p] === 'boolean', `${p} must be boolean.`);
   need(t.low < t.high, 'Lower anchor must be below upper anchor.');
@@ -249,8 +254,12 @@ export function connectionValues(book, target) {
   result.FIT = result.LINK * (.5 + .5 * result.FLOOR / 100);
   return { values: result, reason: '', winning, level: winningLevel };
 }
+export function bonusValues(sources, pages, referencePages) {
+  return { REL: Number.isInteger(sources) && sources >= 1 ? 2 * Math.sqrt(sources - 1) : null,
+    RD: known(pages) && pages > 0 && known(referencePages) && referencePages >= 0 ? 20 * referencePages / pages : null };
+}
 export function rawValues(book, year) {
-  return { ...book.values, P14: Math.max(0, year - book.year), H13: book.periodEnd === null ? 0 : Math.max(0, year - book.periodEnd) };
+  return { ...book.values, ...bonusValues(book.values.SRC, book.values.PG, book.values.RP), P14: Math.max(0, year - book.year), H13: book.periodEnd === null ? 0 : Math.max(0, year - book.periodEnd) };
 }
 export function evaluateBook(book, model) {
   const connection = connectionValues(book, model.target), values = { ...rawValues(book, model.reviewYear), ...connection.values };
@@ -351,9 +360,10 @@ export function validateModel(m) {
   if (!m || m.version !== VERSION) return ['Settings require schema version 3. Earlier raw weights cannot be reused.'];
   if (!Number.isInteger(m.reviewYear) || m.reviewYear < 1 || m.reviewYear > 9999) errors.push('Review year must be an integer from 1 to 9999.');
   errors.push(...validateTarget(m.target));
-  if (!m.terms || Object.keys(m.terms).length !== REGISTRY.length || Object.keys(m.terms).some(id => !hasID(id))) return [...errors, 'Exactly 43 registered terms are required.'];
+  if (!m.terms || Object.keys(m.terms).length !== REGISTRY.length || Object.keys(m.terms).some(id => !hasID(id))) return [...errors, `Exactly ${REGISTRY.length} registered terms are required.`];
   for (const r of REGISTRY) {
     errors.push(...validateTerm(m.terms[r.id]).map(e => `${r.id}: ${e}`));
+    if (r.bonus && m.terms[r.id].mode !== 'unbounded') errors.push(`${r.id} uses an uncapped formula multiplier.`);
     if (!m.target && r.derived && m.terms[r.id].enabled) errors.push(`${r.id} requires a connection target.`);
   }
   if (!m.filters || typeof m.filters !== 'object') errors.push('Invalid filters.');

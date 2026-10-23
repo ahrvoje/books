@@ -45,11 +45,11 @@ function mechanism(id, domains, strength = 4) {
   return { id, domains, strength, confidence: 'high', statement: 'Synthetic joint constraint', scope: 'Test system',
     roles: Object.fromEntries(domains.map(d => [d, 'constraint'])), refs: ['synthetic test fixture'] };
 }
-test('dataset identity, 44 variables, exact current baseline, and display reconciliation', () => {
+test('dataset identity, 46 variables, exact current baseline, and display reconciliation', () => {
   const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/catalog.json'), 'utf8'));
   const compiled = JSON.parse(fs.readFileSync(path.join(ROOT, catalog.compiled), 'utf8'));
   assert.equal(data.books.length, compiled.currentBooks.filter(b => b.status === 'recommended').length);
-  assert.equal(REGISTRY.length, 44); assert.equal(new Set(REGISTRY.map(r => r.id)).size, 44);
+  assert.equal(REGISTRY.length, 46); assert.equal(new Set(REGISTRY.map(r => r.id)).size, 46);
   assert.deepEqual(validateModel(model), []);
   assert.equal(data.issues.length, 0);
   for (const b of data.books) { close(evaluateBook(b, model).total, b.base); assert.equal(evaluateBook(b, model).missing.length, 0); }
@@ -62,6 +62,23 @@ test('canonical full, half, flag, age, and count contributions', () => {
   for (const [id, raw, expected] of [['E',10,5],['S',8.5,4.25],['M',6,6],['D',5,2.5],['T11',1,-10],['T12',1,-10],['H13',75,-3],['H13',326,-12],['P14',75,-7.5],['P14',226,-10]]) close(termValue(raw, defaultTerm(id), id).c, expected);
   [0,9,10,99,100,999,1000,null].forEach((n,i)=>close(termValue(n,defaultTerm('O15'),'O15').c,[-20,-20,-10,-10,-5,-5,0,0][i]));
   assert.equal(termValue(null, defaultTerm('O15'), 'O15').missing, false);
+});
+
+test('Relevance and R&D formulas are fractional, uncapped, and restored into saved settings', () => {
+  const b=fixture(),m=defaultModel();b.values.SRC=5;b.values.PG=400;b.values.RP=30;
+  const row=evaluateBook(b,m);close(row.terms.REL.c,4);close(row.terms.RD.c,1.5);
+  b.values.SRC=10001;b.values.PG=100;b.values.RP=200;
+  const large=evaluateBook(b,m);close(large.terms.REL.c,200);close(large.terms.RD.c,40);
+  m.terms.REL.weight=2;m.terms.RD.enabled=false;
+  close(evaluateBook(b,m).terms.REL.c,400);close(evaluateBook(b,m).terms.RD.c,0);
+  m.terms.RD.enabled=true;b.values.RP=null;
+  const missing=evaluateBook(b,m);assert(missing.fallback.includes('RD'));assert.equal(missing.values.RD,null);close(missing.terms.RD.c,0);
+  b.values.RP=0;assert.equal(evaluateBook(b,m).values.RD,0);assert(!evaluateBook(b,m).fallback.includes('RD'));
+  b.values.PG=0;assert.equal(evaluateBook(b,m).values.RD,null);
+  b.values.SRC=1;close(evaluateBook(b,m).terms.REL.c,0);
+  const old=defaultModel();delete old.terms.REL;delete old.terms.RD;old.terms.E.weight=7;
+  restoreOptionalTerms(old);assert.deepEqual(validateModel(old),[]);assert.equal(old.terms.E.weight,7);assert.equal(old.terms.REL.weight,1);assert(old.terms.RD.enabled);
+  old.terms.RD.mode='weight';assert(validateModel(old).some(x=>x.includes('uncapped')));
 });
 
 test('default columns stay compact when scoring changes, preserving custom choices', () => {
@@ -211,7 +228,7 @@ test('filters remain independent of scoring, use correct bases, and partition al
   const all=evaluateCatalog(data.books,m);assert.equal(all.matching.length+all.filtered.length,data.books.length);
   for(const list of [all.matching,all.filtered])for(let i=1;i<list.length;i++)assert(list[i-1].total>=list[i].total);
   assert.equal(m.terms.PG.enabled,false);
-  m.terms.PG.enabled=true;m.terms.PG.weight=-10;m.plot=true;const r=evaluateBook(b,m);assert(r.missing.includes('PG'));assert.equal(r.axes[1],null);close(r.total,b.base);
+  m.terms.PG.enabled=true;m.terms.PG.weight=-10;m.plot=true;const r=evaluateBook(b,m);assert(r.missing.includes('PG'));assert.equal(r.axes[1],null);close(r.total,b.base-data.books[0].values.RD);
 });
 test('Pareto ties, minimization, non-convex frontier and missing points', () => {
   const axes=[{direction:'max'},{direction:'max'}];

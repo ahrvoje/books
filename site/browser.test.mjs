@@ -19,7 +19,7 @@ try {
   page.on('pageerror', e => errors.push(e.message));
   await page.route('http**/*', route => { requests.push(route.request().url()); return route.abort(); });
   await page.goto(pathToFileURL(path.join(isolated, 'index.html')).href);
-  const legacy=defaultModel();delete legacy.columnsMode;legacy.columns=['year','raw:SRC','raw:PG'];legacy.selected=['removed-book'];legacy.selectedOnly=true;
+  const legacy=defaultModel();delete legacy.terms.REL;delete legacy.terms.RD;delete legacy.columnsMode;legacy.columns=['year','raw:SRC','raw:PG'];legacy.selected=['removed-book'];legacy.selectedOnly=true;
   await page.evaluate(model=>localStorage.setItem('books.model.v3',JSON.stringify({datasetHash:'older-catalog',model})),legacy);
   await page.reload();
   assert.equal(await page.locator('.masthead>.eyebrow,#matching-title').count(),0);
@@ -135,6 +135,18 @@ try {
   await page.locator('[data-columns-preset="default"]').click();
   await page.waitForFunction(()=>!document.querySelector('#apply').disabled);
   await page.locator('#apply').click();
+  await page.locator('[data-panel="scoring"]').click();
+  await page.locator('[data-variable="REL"] summary').click();
+  assert.equal(await page.locator('[data-path="terms.REL.weight"]').inputValue(),'1');
+  await page.locator('[data-path="terms.REL.weight"]').fill('2');
+  await page.waitForFunction(()=>!document.querySelector('#apply').disabled);
+  await page.locator('#apply').click();
+  const bonusBook=expected.books[0];
+  assert(Math.abs(Number(await page.locator(`tr[data-book="${bonusBook.id}"] .score`).textContent())-(bonusBook.base+bonusBook.values.REL))<.01);
+  await page.locator('[data-panel="scoring"]').click();
+  await page.locator('#reset-section').click();
+  await page.waitForFunction(()=>!document.querySelector('#apply').disabled);
+  await page.locator('#apply').click();
   await page.locator('[data-panel="filters"]').click();
   assert.match(await page.locator('[data-variable="E"] .raw-guidance').textContent(),/0–20 attainment points/);
   assert.match(await page.locator('[data-variable="O15"] .raw-guidance').textContent(),/no fixed upper limit/);
@@ -170,7 +182,7 @@ try {
   await page.locator('[data-panel="pareto"]').click();
   const xOptions=await page.locator('[data-path="axes.0.id"] option').evaluateAll(nodes=>nodes.map(n=>n.value));
   assert.deepEqual(await page.locator('[data-path="axes.1.id"] option').evaluateAll(nodes=>nodes.map(n=>n.value)),xOptions);
-  assert(xOptions.includes('BASE')&&xOptions.includes('TOTAL')&&xOptions.includes('O15')&&xOptions.includes('H13'));
+  assert(xOptions.includes('BASE')&&xOptions.includes('TOTAL')&&xOptions.includes('O15')&&xOptions.includes('H13')&&xOptions.includes('REL')&&xOptions.includes('RD'));
   await page.locator('[data-path="axes.1.id"]').selectOption('TOTAL');
   assert.equal(await page.locator('[data-path="axes.1.kind"]').inputValue(),'aggregate');
   await page.locator('[data-path="axes.0.id"]').selectOption('O15');

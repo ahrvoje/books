@@ -37,6 +37,7 @@ function isCustom(m) {
 }
 function termSummary(t) {
   if (!t.enabled || coefficients(t).w === 0) return 'Off';
+  if (t.mode === 'unbounded') return `${t.weight} × formula`;
   return t.mode === 'rate' ? `${t.rate > 0 ? '+' : ''}${t.rate}/unit` : `${t.weight > 0 ? '+' : ''}${t.weight} pt`;
 }
 function render() {
@@ -49,7 +50,7 @@ function render() {
   const incomplete = result.rows.filter(r => r.missing.length).length;
   $('#missing-summary').textContent = incomplete ? `${incomplete.toLocaleString()} scores have missing active data` : `${DATA.books.length.toLocaleString()} books · ${isCustom(state) ? 'complete active inputs' : 'complete baseline'}`;
   $('#model-name').textContent = isCustom(state) ? 'Custom evaluation' : 'Repository evaluation';
-  $('#model-description').textContent = isCustom(state) ? 'Your weights and curves. Baseline retained.' : '15 rules. Evidence, integration, utility.';
+  $('#model-description').textContent = isCustom(state) ? 'Your weights and curves. Baseline retained.' : '17 rules. Includes Relevance and R&D. Scores can exceed 100.';
   $('#data-summary').innerHTML = `${DATA.reviewYear} assessment · ${DATA.coverage.pages.toLocaleString()} verified page counts<br>${DATA.coverage.domainValues.toLocaleString()} domain values in ${DATA.coverage.domainBooks.toLocaleString()} books · ${DATA.coverage.mechanisms} mechanisms`;
   const activeFilters = Object.values(state.filters).filter(f => f.enabled).length + !!state.exact + !!state.requireKnown + (state.baseMin !== null) + (state.totalMin !== null);
   $('#filter-count').textContent = activeFilters;
@@ -117,6 +118,7 @@ function field(label, path, value, options = {}) {
 function pair(...fields) { return `<div class="field-row">${fields.join('')}</div>`; }
 function termEditor(id, t, prefix) {
   const r = BY_ID[id], { w, b } = coefficients(t);
+  if (r.bonus) return `<p class="help">${esc(r.description)}</p><p class="help raw-guidance">${esc(rawGuidance(id))}</p>${field('Use in scoring', prefix + '.enabled', t.enabled, { check: true })}${field('Bonus multiplier (1 = formula; negative is allowed)', prefix + '.weight', t.weight)}<div class="formula">${esc(id)}: ${format(t.weight)} × calculated bonus points. No clipping.</div>`;
   const locked = r.derived && !draft.target;
   const sample = r.unit === 'pages' ? 500 : r.unit === 'years' ? 25 : r.max / 2;
   const value = termValue(sample, t, id);
@@ -152,7 +154,7 @@ function variableList(type) {
   return html;
 }
 function idealEditor() {
-  let html = `<p class="intro">The initial ideal is the repository evaluation: ten positive criteria and five deductions. Scoring and Ideal book share one model.</p><button data-editor-action="quality">Edit the 15-rule evaluation</button>
+  let html = `<p class="intro">The initial ideal is the repository evaluation: ten positive criteria, five deductions, and two bonuses. Scoring and Ideal book share one model.</p><button data-editor-action="quality">Edit the 17-rule evaluation</button>
     ${field('Review year for custom age scoring', 'reviewYear', draft.reviewYear)}
     <h3 class="group-label">Optional domain connections</h3><p class="help">Choose subjects, desired depth and importance, then set the minimum strength and confidence for connections. Apply saves the target; it does not change the ranking by itself. In Adjust scoring, enable Target coverage or a connection measure and set its weight to use it in the score. You can also use these measures in Filter books, Columns or Pareto tradeoffs. Books without the required evidence remain unknown.</p>
     <button data-editor-action="${draft.target ? 'clear-target' : 'create-target'}">${draft.target ? 'Clear target and dependent settings' : 'Configure a connection target'}</button>`;
@@ -316,7 +318,7 @@ $('#editor-body').addEventListener('click', e => {
   const action = el.dataset.editorAction;
   if (el.dataset.columnsPreset) {
     draft.columnsMode = el.dataset.columnsPreset === 'default' ? 'active' : 'custom';
-    draft.columns = el.dataset.columnsPreset==='quality' ? REGISTRY.slice(0,15).map(r=>'points:'+r.id) :
+    draft.columns = el.dataset.columnsPreset==='quality' ? REGISTRY.filter(r=>r.group==='Existing evaluation').map(r=>'points:'+r.id) :
       el.dataset.columnsPreset==='recency' ? ['year','periodEnd','raw:PG','points:H13','points:P14'] :
       el.dataset.columnsPreset==='none' ? [] : [...DEFAULT_COLUMNS];
     dirty=true;renderEditor(true);
@@ -401,13 +403,14 @@ function showDialog(title, body) {
 function showBook(id) {
   currentDetails = id;
   const r = rowById.get(id), b = r.book;
-  let html = `<p>${esc(b.author)} · original year ${b.year} · ${esc(b.confidence)} assessment confidence</p><div class="details-links">${anchor(b.purchaseUrl, 'Reading edition ↗')}${anchor(b.analysis, 'Repository analysis ↗')}</div>
+  let html = `<p>${esc(b.author)} · original year ${b.year} · ${esc(b.confidence)} assessment confidence</p><div class="details-links">${anchor(b.purchaseUrl, 'Reading edition ↗')}${anchor(b.analysis, 'Repository analysis ↗')}${anchor(b.scoreReview, 'Current score update ↗')}</div>
     <div class="facts"><div><strong>${format(r.total)}</strong><span>Current score${r.missing.length ? ' · incomplete' : ''}</span></div><div><strong>${format(b.base)}</strong><span>Repository baseline</span></div><div><strong>${r.active - r.missing.length}/${r.active}</strong><span>Active inputs known or prescribed fallback</span></div></div>
     ${b.verdict ? `<p>Repository verdict: ${esc(b.verdict)}. This verdict is retained when custom weights change.</p>` : ''}
     ${b.ledgerMismatch ? '<p class="reason">Rounding reconciliation: the ledger displays 88.17; its full score 88.175 rounds to 88.18 here. No criterion was changed.</p>' : ''}
     ${r.reasons.length ? `<h3>Failed filters</h3><ul>${r.reasons.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
     ${r.missing.length ? `<p class="reason">Missing: ${esc(r.missing.join(', '))}. These terms contribute zero, which can favor books with missing penalties.</p>` : ''}
-    ${r.fallback.length ? '<p class="help">Amazon count unavailable: the repository rule uses no obscurity deduction. The count remains unknown.</p>' : ''}
+    ${r.fallback.includes('O15') ? '<p class="help">Amazon count unavailable: the repository rule uses no obscurity deduction. The count remains unknown.</p>' : ''}
+    ${r.fallback.some(id=>['REL','RD'].includes(id)) ? '<p class="help">Unknown bonus inputs contribute zero under the repository fallback. They remain unknown.</p>' : ''}
     <h3>How the score is built</h3><table class="breakdown"><thead><tr><th>Variable</th><th>Raw</th><th>Level /100</th><th>After curve</th><th>Points</th></tr></thead><tbody>`;
   for (const variable of REGISTRY) {
     const id = variable.id, v = r.terms[id], evidence = b.evidence[id];
@@ -447,7 +450,7 @@ document.addEventListener('click', e => {
 $('#details-body').addEventListener('click',e=>{const b=e.target.closest('[data-back-book]');if(b)showBook(b.dataset.backBook);});
 $('#data-review').onclick = () => {
   currentDetails = null;
-  showDialog('Data and review notes', `<p>This file contains ${DATA.books.length.toLocaleString()} current recommended works. All calculations run locally. The baseline reproduces the stored 15-rule assessments.</p><ul class="data-list">
+  showDialog('Data and review notes', `<p>This file contains ${DATA.books.length.toLocaleString()} current recommended works. All calculations run locally. The baseline reproduces the stored 17-rule scores, including Relevance and R&amp;D. Scores can exceed 100.</p><ul class="data-list">
     <li><strong>Page evidence:</strong> ${DATA.coverage.pages} verified editions. Missing lengths stay unknown; enable “require known” when using a page penalty.</li>
     <li><strong>Domain evidence:</strong> ${DATA.coverage.domainValues.toLocaleString()} supported values across ${DATA.coverage.domainBooks.toLocaleString()} books; ${DATA.coverage.domains} complete 20-domain profiles. ${DATA.coverage.mechanisms} documented mechanisms; ${DATA.coverage.connections} complete connection reviews. Partial evidence does not establish absence or an exact all-domain match.</li>
     <li><strong>Research coverage:</strong> ${DATA.coverage.reviewed.toLocaleString()} books have recorded enrichment reviews. Unknown fields retain a reason in book details. A research pass does not mean all facts were available.</li>
@@ -556,7 +559,7 @@ function renderReferenceLists() {
 $('#vetoed-list').onclick = e => {
   const id=e.target.closest('[data-veto-details]')?.dataset.vetoDetails;if(!id)return;
   const b=DATA.vetoed.find(b=>b.id===id);currentDetails=null;
-  showDialog(b.title, `<p>${esc(b.author)} · original year ${esc(b.year)}</p><div class="facts"><div><strong>${esc(b.score)}</strong><span>Stored counterfactual score</span></div><div><strong>${esc(b.veto)}</strong><span>Veto · ${esc(b.confidence)} confidence</span></div></div><p>${esc(b.reason)}</p><p>The veto remains in force. This score suspends only that gate and retains the recorded flaws and deductions.</p><p>Pages: ${b.edition ? `${anchor(b.edition.url,String(b.edition.pages))} · ${esc(b.edition.id)} · ${esc(b.edition.format)} · ${esc(b.edition.year)}. ${esc(b.edition.notes || "")}` : "Unknown: no verified matching edition count."}</p><p>Reference pages: ${b.referencePages.pages===null ? esc(b.referencePages.reason) : `${anchor(b.referencePages.url,String(b.referencePages.pages))} · ${esc(b.referencePages.edition.id)} · ${esc(b.referencePages.confidence)} confidence. ${esc(b.referencePages.ranges.map(r=>`${r.label} ${r.start}–${r.end}`).join("; "))}. ${esc(b.referencePages.limitation)}`}</p><p>Amazon ratings: ${b.amazon.count!==null ? anchor(b.amazon.url,String(b.amazon.count)) : "Unknown"}. ${esc(b.amazon.marketplace)} · ${esc(b.amazon.product)} · Retrieved ${esc(b.amazon.retrieved)}. ${esc(b.amazon.limitations)}</p><p>Contributing sources: ${esc(b.sources)}.</p><div class="details-links">${anchor(b.analysis,'Full recorded assessment')} ${b.ratingReview ? anchor(b.ratingReview,'Rating and total update') : ''}</div>`);
+  showDialog(b.title, `<p>${esc(b.author)} · original year ${esc(b.year)}</p><div class="facts"><div><strong>${esc(b.score)}</strong><span>Stored counterfactual score</span></div><div><strong>${esc(b.veto)}</strong><span>Veto · ${esc(b.confidence)} confidence</span></div></div><p>${esc(b.reason)}</p><p>The veto remains in force. This score suspends only that gate and retains the recorded flaws and deductions.</p><p>Pages: ${b.edition ? `${anchor(b.edition.url,String(b.edition.pages))} · ${esc(b.edition.id)} · ${esc(b.edition.format)} · ${esc(b.edition.year)}. ${esc(b.edition.notes || "")}` : "Unknown: no verified matching edition count."}</p><p>Reference pages: ${b.referencePages.pages===null ? esc(b.referencePages.reason) : `${anchor(b.referencePages.url,String(b.referencePages.pages))} · ${esc(b.referencePages.edition.id)} · ${esc(b.referencePages.confidence)} confidence. ${esc(b.referencePages.ranges.map(r=>`${r.label} ${r.start}–${r.end}`).join("; "))}. ${esc(b.referencePages.limitation)}`}</p><p>Amazon ratings: ${b.amazon.count!==null ? anchor(b.amazon.url,String(b.amazon.count)) : "Unknown"}. ${esc(b.amazon.marketplace)} · ${esc(b.amazon.product)} · Retrieved ${esc(b.amazon.retrieved)}. ${esc(b.amazon.limitations)}</p><p>Contributing sources: ${esc(b.sources)}.</p><p>Relevance: ${format(b.bonuses.REL)} points. R&amp;D: ${format(b.bonuses.RD)} points. ${esc(b.bonusAssessment.reason)}</p><div class="details-links">${anchor(b.scoreReview,'Current score breakdown')} ${anchor(b.analysis,'Full recorded assessment')} ${b.ratingReview ? anchor(b.ratingReview,'Rating and total update') : ''}</div>`);
 };
 function showPage(focus = false) {
   const hash=location.hash.slice(1),name=hash.replace(/-view$/,''),page=['vetoed','excluded','sources','methodology'].includes(name)?name:hash.startsWith('method-')?'methodology':'books';

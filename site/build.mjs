@@ -4,7 +4,7 @@ import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
 import { gzipSync } from 'node:zlib';
-import { REGISTRY, DOMAIN_IDS, defaultModel, evaluateBook, format, fold, known } from './model.mjs';
+import { REGISTRY, DOMAIN_IDS, defaultModel, evaluateBook, format, fold, known, bonusValues } from './model.mjs';
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const OUTPUT_DIR = path.join(ROOT, 'docs');
@@ -86,11 +86,17 @@ export function buildDataset() {
     assert(b && format(b.total) === score, `Unmatched veto ledger score: ${row[3]}`);
     assert.equal(row[8],pageCell(editions[b.id]), `Vetoed page-count mismatch: ${b.id}`);
     assert.equal(row[9],ratingCell(b.amazon), `Vetoed rating-count mismatch: ${b.id}`);
+    const bonus = bonusValues(new Set(row[7].match(/\d+/g)).size, editions[b.id]?.pages ?? null, referencePages[b.id].pages);
+    for (const [i,id] of ['REL','RD'].entries()) {
+      assert.equal(b.bonuses[id], bonus[id] ?? 0, `${b.id}: stale counterfactual ${id}`);
+      assert.equal(row[10+i], format(b.bonuses[id]), `${b.id}: counterfactual bonus ledger mismatch`);
+    }
     return { id: b.id, title: titleOf(row[3]), author: row[2], year: row[1], score, sourceCount: new Set(row[7].match(/\d+/g)).size,
       veto: row[5], confidence: row[6], sources: row[7], analysis: analysisPath(link(row[3])),
       edition: editions[b.id] || null,
       referencePages: referencePages[b.id],
       ratingReview: b.ratingReview?.analysis || '',
+      scoreReview: b.scoreReview || '', bonuses: b.bonuses, bonusAssessment: b.bonusAssessment,
       amazon: {count:b.amazon?.count ?? null,url:safeURL(b.amazon?.url),marketplace:b.amazon?.marketplace || '',product:b.amazon?.asin || '',retrieved:b.amazon?.retrievedAt || b.amazon?.retrieved || b.amazon?.verifiedAt || '',limitations:b.amazon?.status || 'No verified count.'},
       reason: b.vetoReason || b.reason || b.eligibility || b.assessment?.note || 'See the retained assessment for the veto rationale.' };
   }).sort((a, b) => compiled.currentBooks.find(v => v.id === b.id).total - compiled.currentBooks.find(v => v.id === a.id).total || a.title.localeCompare(b.title));
@@ -138,6 +144,11 @@ export function buildDataset() {
     }
     REGISTRY.slice(0, 10).forEach((r, i) => { assert(b.raw[i] >= 0 && b.raw[i] <= r.max); values[r.id] = b.raw[i]; });
     Object.assign(values, { T11: -b.T11 / 10, T12: -b.T12 / 10, SRC: sources.length, O15: b.amazon?.count ?? null, PG: extra.edition?.pages ?? null, RP: referencePages[b.id].pages });
+    Object.assign(values, bonusValues(values.SRC, values.PG, values.RP));
+    for (const id of ['REL','RD']) {
+      assert.equal(b.bonuses[id], values[id] ?? 0, `${b.id}: stale ${id} bonus`);
+      assert.equal(row[ledgerColumn(id === 'REL' ? 'Relevance' : 'R&D')], format(b.bonuses[id]), `${b.id}: bonus ledger mismatch`);
+    }
     for (const id of DOMAIN_IDS) {
       const e = extra.domains?.[id]; if (!e) continue;
       assert(Number.isInteger(e.value) && e.value >= 0 && e.value <= 4 && e.refs?.length && e.rationale && ['high', 'moderate', 'low'].includes(e.confidence));
@@ -158,7 +169,9 @@ export function buildDataset() {
     Object.assign(evidence, extra.domains || {});
     const rp = referencePages[b.id];
     evidence.RP = { confidence: rp.confidence, refs: [rp.url].filter(Boolean),
-      rationale: rp.pages === null ? rp.reason : `${rp.pages} documented reference pages in ${rp.edition.id}: ${rp.ranges.map(s=>`${s.label} ${s.start}–${s.end}`).join('; ')}. ${rp.sameEditionAsPG ? 'Same edition as the length field.' : 'Reference edition can differ from the length field; do not divide the two counts without matching editions.'} ${rp.limitation}` };
+      rationale: rp.pages === null ? rp.reason : `${rp.pages} documented reference pages in ${rp.edition.id}: ${rp.ranges.map(s=>`${s.label} ${s.start}–${s.end}`).join('; ')}. ${rp.sameEditionAsPG ? 'Same edition as the length field.' : 'R&D uses these available counts as an estimate; matching editions are not confirmed.'} ${rp.limitation}` };
+    evidence.REL = {confidence:'high', refs:[b.scoreReview], rationale:`${sources.length} distinct recorded sources; 2 × √(${sources.length} − 1) = ${format(values.REL)} points. Source coverage is not independent evidence of quality.`};
+    evidence.RD = {confidence:b.bonusAssessment.confidence, refs:[b.scoreReview, rp.url, extra.edition?.url].filter(Boolean), rationale:b.bonusAssessment.reason};
     if(b.ratingReview) evidence.O15={rationale:b.amazon.status,confidence:b.amazon.confidence,refs:[b.ratingReview.analysis,b.amazon.url]};
     if (extra.edition) evidence.PG = {
       rationale: `${extra.edition.pages} pages in ${extra.edition.id}; ${extra.edition.language}, ${extra.edition.format}, edition year ${extra.edition.year}. ${extra.edition.notes || extra.edition.note || ''}`,
@@ -172,7 +185,7 @@ export function buildDataset() {
       verdict: b.verdict || '', evidence, analysis: analysisPath(b.reviewAnchor || b.currentReview || b.priorReport),
       amazon: { count: values.O15, url: safeURL(b.amazon?.url), marketplace: b.amazon?.marketplace || '', product: b.amazon?.asin || b.amazon?.productIdentifier || b.amazon?.product || '', retrieved: b.amazon?.verifiedAt || b.amazon?.retrievedAt || b.amazon?.retrieved || b.amazon?.attemptedAt || '', limitations: b.amazon?.status || 'See source assessment.' },
       reader: b.reader || '', edition: extra.edition || null, research: extra.research || null, ratingReview: b.ratingReview?.analysis || '',
-      referencePages: rp,
+      referencePages: rp, scoreReview: b.scoreReview,
       connections: extra.connections || { status: 'unreviewed', mechanisms: [], joins: [], limitations: 'Domain and connection evidence has not been coded under this model.' },
       base: b.total, ledgerScore: +row[4], ledgerMismatch: false
     };
