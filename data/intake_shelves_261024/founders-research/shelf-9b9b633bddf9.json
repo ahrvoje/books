@@ -1,0 +1,89 @@
+{
+  "title": "Socrates: A Man for Our Times",
+  "author": "Paul Johnson",
+  "url": "https://openlibrary.org/search.json?title=Socrates&author=Paul%20Johnson&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Paul Bede Johnson"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "0670023035",
+          "9780670023035"
+        ],
+        "key": "/works/OL15947712W",
+        "language": [
+          "eng"
+        ],
+        "title": "Socrates"
+      },
+      {
+        "author_name": [
+          "Paul Johnson"
+        ],
+        "first_publish_year": 2013,
+        "isbn": [
+          "9780143122210",
+          "0143122215"
+        ],
+        "key": "/works/OL21041379W",
+        "language": [
+          "eng"
+        ],
+        "title": "Socrates"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Philosophers",
+      "Biography",
+      "Socrates"
+    ],
+    "subject_people": [
+      "Socrates"
+    ],
+    "key": "/works/OL15947712W",
+    "title": "Socrates",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL24645A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      11716041
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Socrates is often called the father of philosophy. Yet he left no writings, so what we know of his life and ideas comes from the works of his contemporaries. Socrates taught--and strove to embody--that how each of us chooses to live and die has great meaning. By constantly examining one's life and actions, a philosophy of ethics is born. As Plutarch observed, \"He was the first person to demonstrate that life is open to philosophy at all times, in every part, among all kinds of people, and in every experience and activity.\" In this biography, historian Paul Johnson situates Socrates in the life of fifth-century B.C. Athens, and his wide range of acquaintances, from the local grocer to the leading politicians, dramatists, and scholars. By studying his life and times, we benefit from his philosophy, for as Cicero said, \"Socrates was the first to call Philosophy down from the skies ... and introduce her into people's homes, and force her to investigate ordinary life, ethics, good and evil.\"--From publisher description."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-07-26T22:59:45.307342"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-08-30T13:39:09.100762"
+    }
+  }
+}

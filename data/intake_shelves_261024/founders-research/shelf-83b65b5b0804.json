@@ -1,0 +1,108 @@
+{
+  "title": "Alfred Nobel: A Biography",
+  "author": "Kenne Fant",
+  "url": "https://openlibrary.org/search.json?title=Alfred%20Nobel&author=Kenne%20Fant&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Kenne Fant"
+        ],
+        "first_publish_year": 1991,
+        "isbn": [
+          "9783764350598",
+          "9781559703284",
+          "1559703288",
+          "9119190727",
+          "9781559702225",
+          "3764350598",
+          "1559702222",
+          "9789119190727"
+        ],
+        "key": "/works/OL2146105W",
+        "language": [
+          "swe",
+          "ger",
+          "eng"
+        ],
+        "title": "Alfred Bernhard Nobel"
+      },
+      {
+        "author_name": [
+          "Kenne Fant",
+          "Marianne Ruuth"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "1628723262",
+          "9783034863681",
+          "3034863683",
+          "1611456835",
+          "9781628723267",
+          "9781611456837"
+        ],
+        "key": "/works/OL21067166W",
+        "language": [
+          "eng",
+          "ger"
+        ],
+        "title": "Alfred Nobel"
+      }
+    ]
+  },
+  "work": {
+    "title": "Alfred Bernhard Nobel",
+    "covers": [
+      3939876
+    ],
+    "subject_places": [
+      "Sweden"
+    ],
+    "first_publish_date": "1991",
+    "subject_people": [
+      "Alfred Bernhard Nobel (1833-1896)"
+    ],
+    "key": "/works/OL2146105W",
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL269085A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "660/.092",
+      "B"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Chemical engineers",
+      "Biography"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Fant's biography of Alfred Nobel, the only one available in English, shows the paradoxes of the man who revolutionized the technology of destruction and invented dynamite, but whose dreams of a disarmed world inspired him to create the Nobel Peace Prize."
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T23:00:29.135479"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-07-05T00:06:19.181899"
+    }
+  }
+}

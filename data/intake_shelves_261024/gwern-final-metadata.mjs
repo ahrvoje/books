@@ -1,0 +1,13 @@
+import {dir,read,write} from './capture.mjs';
+const v=read(dir+'/veto-overrides.json');
+for(const t of ['The Secret History of the Mongols','Pillow book of Sei Shonagon','The City of Falling Angels','The Hye Ch’O Diary: Memoir of the Pilgrimage to the Five Regions of India','The Chicago World’s Fair of 1893'])v[t]={veto:'V3',vetoConfidence:'moderate',vetoReason:'Historical or visual observations have documentary value, but local particulars dominate over transferable explanatory mechanisms. No scientific-biography exception applies.'};write(dir+'/veto-overrides.json',v);
+const m=read(dir+'/metadata-overrides.json');
+for(const t of ['The Secret History of the Mongols','Pillow book of Sei Shonagon','The Autobiography Of Benvenuto Cellini','The Hye Ch’O Diary: Memoir of the Pilgrimage to the Five Regions of India'])m[t]={yearConfidence:'low'};
+for(const[t,id,url,pg,y,start,end]of[
+['Travelers of 100 Ages','OL380508M','https://openlibrary.org/books/OL380508M/Travelers_of_a_hundred_ages',468,1999,443,449],
+['Chinese History in Economic Perspective','NZ:38115431','https://natlib.govt.nz/records/38115431',362,1992,325,350]
+])m[t]={edition:{id,url,pages:pg,year:y,language:'English',format:'print-based',retrieved:'2026-10-24',confidence:'high'},referencePages:{pages:end-start+1,ranges:[{start,end,label:'references'}],edition:{id},url,sameEditionAsPG:true,confidence:'high',limitation:'Cataloged references and numbered extent.'}};
+m['Clever Hans']={edition:{id:'Wellcome:w7kszn88',url:'https://wellcomecollection.org/works/w7kszn88',pages:274,year:1911,language:'English',format:'hardcover',retrieved:'2026-10-24',confidence:'high'},referencePages:{pages:8,ranges:[{start:267,end:274,label:'references'}],edition:{id:'OL18821050M:1998'},url:'https://openlibrary.org/books/OL18821050M/Clever_Hans_%28the_horse_of_Mr._Von_Osten%29',sameEditionAsPG:false,confidence:'high',limitation:'1998 reprint reference range paired with 1911 total; cross-edition estimate.'}};
+m['Japan As Number One Lessons for America']={referencePages:{pages:7,ranges:[{start:259,end:265,label:'bibliography'}],edition:{id:'ISBN:0674472152:1979'},url:'https://ndlsearch.ndl.go.jp/en/books/R100000001-I37111110295401',sameEditionAsPG:false,confidence:'high',limitation:'1979 catalog bibliography; ratio uses whichever documented edition extent is available and is estimated unless confirmed matching.'}};
+write(dir+'/metadata-overrides.json',m);
+const a=read(dir+'/triaged.json'),b=a.find(b=>b.title==='The Secret History of the Mongols');delete b.metadata;b.author='Anonymous; Igor de Rachewiltz, translator';b.identityNote='Source identifies the medieval chronicle, not the unrelated modern catalog work attributed to The Arth Estate.';write(dir+'/triaged.json',a);

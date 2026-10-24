@@ -1,0 +1,102 @@
+{
+  "title": "My Life with Charlie Brown",
+  "author": "Charles Schulz",
+  "url": "https://openlibrary.org/search.json?title=My%20Life%20with%20Charlie%20Brown&author=Charles%20Schulz&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Charles M. Schulz",
+          "M. Thomas Inge"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "9781604734478",
+          "9781604734485",
+          "1621035603",
+          "1604734477",
+          "1604734485",
+          "9781621035602",
+          "9781282503038",
+          "1282503030"
+        ],
+        "key": "/works/OL10510864W",
+        "language": [
+          "eng"
+        ],
+        "title": "My Life with Charlie Brown"
+      }
+    ]
+  },
+  "work": {
+    "key": "/works/OL10510864W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL2751472A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL579763A"
+        }
+      }
+    ],
+    "title": "My Life with Charlie Brown",
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Cartoonists",
+      "Biography",
+      "Artists",
+      "Humor",
+      "Autobiography",
+      "Comic Strips & Cartoons",
+      "Schulz, charles m. (charles monroe), 1922-2000"
+    ],
+    "subject_people": [
+      "Charles M. Schulz (1922-2000)"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "Autobiographical essays, introductions, articles, reviews, and lectures that tell the personal tale of the Peanuts creator and America's greatest comic strip."
+    },
+    "covers": [
+      12524337
+    ],
+    "subject_times": [
+      "1922-2000"
+    ],
+    "genres": [
+      "/tags/OL172T"
+    ],
+    "latest_revision": 12,
+    "revision": 12,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T03:05:29.585806"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-08-26T09:53:24.773603"
+    }
+  }
+}

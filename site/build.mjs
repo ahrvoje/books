@@ -63,8 +63,12 @@ export function buildDataset() {
     assert(r.pages === null || Number.isInteger(r.pages) && r.pages >= 0, `Invalid reference-page count: ${id}`);
     assert(['unknown','low','moderate','high'].includes(r.confidence), `Invalid reference confidence: ${id}`);
     if (r.pages !== null) {
-      assert(r.edition?.id && safeURL(r.url) && r.ranges?.length, `Missing reference-page evidence: ${id}`);
-      assert.equal(r.pages, referenceRangeCount(r.ranges), `Reference range arithmetic mismatch: ${id}`);
+      assert(r.edition?.id && safeURL(r.url) && (r.ranges?.length || r.documentedCounts?.length), `Missing reference-page evidence: ${id}`);
+      if (r.ranges?.length) assert.equal(r.pages, referenceRangeCount(r.ranges), `Reference range arithmetic mismatch: ${id}`);
+      else {
+        assert(r.documentedCounts.every(c => Number.isInteger(c.pages) && c.pages >= 0 && c.label && c.evidence), `Invalid documented reference count: ${id}`);
+        assert.equal(r.pages, r.documentedCounts.reduce((sum, c) => sum + c.pages, 0), `Documented reference count mismatch: ${id}`);
+      }
     }
   }
   for(const [id,e] of Object.entries(editions)){

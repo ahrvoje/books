@@ -1,0 +1,67 @@
+{
+  "title": "A History of Great Inventions",
+  "author": "James Dyson",
+  "url": "https://openlibrary.org/search.json?title=A%20History%20of%20Great%20Inventions&author=James%20Dyson&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Dyson, James."
+        ],
+        "first_publish_year": 2001,
+        "isbn": [
+          "9780786709038",
+          "0786709030"
+        ],
+        "key": "/works/OL919269W",
+        "language": [
+          "eng"
+        ],
+        "title": "A history of great inventions"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Inventions",
+      "History",
+      "Inventions, history"
+    ],
+    "key": "/works/OL919269W",
+    "title": "A history of great inventions",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL81240A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      543093
+    ],
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T07:25:56.036404"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-10-08T06:20:41.602128"
+    }
+  }
+}

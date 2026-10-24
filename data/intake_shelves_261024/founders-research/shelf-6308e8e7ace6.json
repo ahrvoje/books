@@ -1,0 +1,97 @@
+{
+  "title": "Charles de Gaulle",
+  "author": "Julian Jackson",
+  "url": "https://openlibrary.org/search.json?title=Charles%20de%20Gaulle&author=Julian%20Jackson&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Julian Jackson"
+        ],
+        "first_publish_year": 1990,
+        "isbn": [
+          "0747403996",
+          "1904341446",
+          "9781904341444",
+          "9780747403999"
+        ],
+        "key": "/works/OL4970749W",
+        "language": [
+          "eng"
+        ],
+        "title": "Charles De Gaulle"
+      },
+      {
+        "author_name": [
+          "Julian Jackson"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "0190906367",
+          "9780190906368"
+        ],
+        "key": "/works/OL34051083W",
+        "language": [
+          "eng"
+        ],
+        "title": "Charles de Gaulle"
+      }
+    ]
+  },
+  "work": {
+    "title": "Charles De Gaulle",
+    "covers": [
+      950825
+    ],
+    "subject_places": [
+      "France"
+    ],
+    "subjects": [
+      "Biography",
+      "Generals",
+      "Politics and government",
+      "Presidents",
+      "Statesmen",
+      "Gaulle, charles de, 1890-1970",
+      "France, juvenile literature"
+    ],
+    "subject_people": [
+      "Charles de Gaulle (1890-1970)"
+    ],
+    "key": "/works/OL4970749W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1073294A"
+        }
+      }
+    ],
+    "subject_times": [
+      "20th century"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T08:10:20.390494"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-06-17T08:30:42.476679"
+    }
+  }
+}

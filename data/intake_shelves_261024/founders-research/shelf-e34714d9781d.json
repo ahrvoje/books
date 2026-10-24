@@ -1,0 +1,85 @@
+{
+  "title": "Cinema Speculation",
+  "author": "Quentin Tarantino",
+  "url": "https://openlibrary.org/search.json?title=Cinema%20Speculation&author=Quentin%20Tarantino&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Quentin Tarantino"
+        ],
+        "first_publish_year": 2022,
+        "isbn": [
+          "9781474624237",
+          "1474624243",
+          "9780063112575",
+          "0063112574",
+          "9781474624244",
+          "1474624235"
+        ],
+        "key": "/works/OL28024547W",
+        "language": [
+          "eng"
+        ],
+        "title": "Cinema Speculation"
+      },
+      {
+        "author_name": [
+          "Quentin Tarantino"
+        ],
+        "first_publish_year": 2022,
+        "isbn": [
+          "9781474624220",
+          "1474624227"
+        ],
+        "key": "/works/OL26772608W",
+        "language": [
+          "eng"
+        ],
+        "title": "Cinema Speculation"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Cinema Speculation",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL224417A"
+        }
+      }
+    ],
+    "key": "/works/OL28024547W",
+    "covers": [
+      13481760
+    ],
+    "subjects": [
+      "nyt:paperback-nonfiction=2024-04-21",
+      "New York Times bestseller"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-06-18T02:57:27.955482"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-04-17T14:05:35.727152"
+    }
+  }
+}

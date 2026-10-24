@@ -1,0 +1,94 @@
+{
+  "title": "Mozart: A Life",
+  "author": "Paul Johnson",
+  "url": "https://openlibrary.org/search.json?title=Mozart&author=Paul%20Johnson&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Paul Johnson"
+        ],
+        "first_publish_year": 2013,
+        "isbn": [
+          "1410467899",
+          "9780670026371",
+          "9781410467898",
+          "0670026379"
+        ],
+        "key": "/works/OL19970887W",
+        "language": [
+          "eng"
+        ],
+        "title": "Mozart"
+      },
+      {
+        "author_name": [
+          "Paul Johnson"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "0143126067",
+          "9780143126065"
+        ],
+        "key": "/works/OL20319904W",
+        "title": "Mozart"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "A superb examination of Mozart and his glorious music by eminent historian Paul Johnson."
+    },
+    "title": "Mozart",
+    "subject_places": [
+      "Austria"
+    ],
+    "subjects": [
+      "Composers",
+      "Biography",
+      "Composers, austria",
+      "Composers, biography",
+      "BIOGRAPHY & AUTOBIOGRAPHY",
+      "Composers & Musicians"
+    ],
+    "subject_people": [
+      "Wolfgang Amadeus Mozart (1756-1791)"
+    ],
+    "key": "/works/OL19970887W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6474641A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      12577250
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-18T05:16:21.766561"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-07-30T19:45:41.803556"
+    }
+  }
+}

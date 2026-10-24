@@ -1,0 +1,85 @@
+{
+  "title": "Anna: The Biography",
+  "author": "Amy Odell",
+  "url": "https://openlibrary.org/search.json?title=Anna&author=Amy%20Odell&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Amy Odell"
+        ],
+        "first_publish_year": 2022,
+        "isbn": [
+          "1982122633",
+          "183895726X",
+          "1838957251",
+          "198212265X",
+          "9781838957278",
+          "9781838957261",
+          "9781982122645",
+          "9781982122652",
+          "9781838957285",
+          "1982122641",
+          "9781838957254",
+          "1838957278",
+          "9781982122638",
+          "1838957286"
+        ],
+        "key": "/works/OL26663334W",
+        "language": [
+          "eng"
+        ],
+        "title": "Anna"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Anna",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9729371A"
+        }
+      }
+    ],
+    "key": "/works/OL26663334W",
+    "subjects": [
+      "nyt:combined-print-and-e-book-nonfiction=2022-05-22",
+      "New York Times bestseller",
+      "Periodical editors",
+      "Biography",
+      "Women periodical editors",
+      "Fashion editors",
+      "Rédacteurs en chef",
+      "Biographies",
+      "Vogue (London, England)"
+    ],
+    "covers": [
+      12771417
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-12-28T09:38:01.141097"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-01-10T21:01:21.931688"
+    }
+  }
+}

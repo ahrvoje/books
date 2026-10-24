@@ -1,0 +1,94 @@
+{
+  "title": "Life of an American Workman",
+  "author": "Walter Chrysler",
+  "url": "https://openlibrary.org/search.json?title=Life%20of%20an%20American%20Workman&author=Walter%20Chrysler&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 5,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 5,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Walter Percy Chrysler"
+        ],
+        "first_publish_year": 1937,
+        "key": "/works/OL7441602W",
+        "language": [
+          "eng"
+        ],
+        "title": "Life of an American workman"
+      },
+      {
+        "author_name": [
+          "Walter P. Chrysler",
+          "Boyden Sparkes"
+        ],
+        "first_publish_year": 1938,
+        "isbn": [
+          "1849023956",
+          "9781849023955",
+          "9781849023276",
+          "1849023271"
+        ],
+        "key": "/works/OL20435930W",
+        "language": [
+          "eng"
+        ],
+        "title": "Life of an American Workman"
+      }
+    ]
+  },
+  "work": {
+    "key": "/works/OL7441602W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2249152A"
+        }
+      }
+    ],
+    "title": "Life of an American workman",
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Automobile industry and trade",
+      "Biography",
+      "History",
+      "Industrialists",
+      "Kraftfahrzeugindustrie"
+    ],
+    "subject_people": [
+      "Walter P. Chrysler (1875-1940)",
+      "Walter Percy Chrysler (1875-1940)"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      10781198
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "For other editions, see Author Catalog."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T21:09:49.797610"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-05-01T14:51:47.550539"
+    }
+  }
+}

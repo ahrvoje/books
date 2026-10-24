@@ -1,0 +1,86 @@
+{
+  "title": "Today and Tomorrow",
+  "author": "Henry Ford",
+  "url": "https://openlibrary.org/search.json?title=Today%20and%20Tomorrow&author=Henry%20Ford&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 6,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 6,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ford, Henry"
+        ],
+        "first_publish_year": 1926,
+        "isbn": [
+          "9780915299362",
+          "0915299364"
+        ],
+        "key": "/works/OL4418042W",
+        "language": [
+          "eng"
+        ],
+        "title": "Today and Tomorrow"
+      },
+      {
+        "author_name": [
+          "Henry Ford"
+        ],
+        "first_publish_year": 1926,
+        "isbn": [
+          "1563271605",
+          "9781563271601"
+        ],
+        "key": "/works/OL8084352W",
+        "language": [
+          "eng"
+        ],
+        "title": "Today and tomorrow"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Industrial management",
+      "Ford Motor Company",
+      "Gestion d'entreprise",
+      "BUSINESS & ECONOMICS",
+      "Management",
+      "Management Science",
+      "Organizational Behavior"
+    ],
+    "key": "/works/OL4418042W",
+    "title": "Today and Tomorrow",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL874199A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      705452
+    ],
+    "latest_revision": 10,
+    "revision": 10,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T06:18:10.169439"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-08-11T10:35:29.487226"
+    }
+  }
+}

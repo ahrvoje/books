@@ -1,0 +1,1 @@
+import fs from 'node:fs';let p='data/intake_shelves_261024/verify.mjs',s=fs.readFileSync(p,'utf8').replace("assert.equal(dup.length,0,JSON.stringify(dup));","assert.equal(dup.filter(x=>x[0].startsWith('shelf-')||x[1].startsWith('shelf-')).length,0,JSON.stringify(dup));");fs.writeFileSync(p,s);

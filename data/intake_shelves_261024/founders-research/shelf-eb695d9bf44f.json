@@ -1,0 +1,68 @@
+{
+  "title": "The Power of Fastenal People",
+  "author": "Robert Kierlin",
+  "url": "https://openlibrary.org/search.json?title=The%20Power%20of%20Fastenal%20People&author=Robert%20Kierlin&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Robert A Kierlin"
+        ],
+        "first_publish_year": 1997,
+        "isbn": [
+          "9780965927000",
+          "0965927008"
+        ],
+        "key": "/works/OL9733129W",
+        "language": [
+          "eng"
+        ],
+        "title": "The power of Fastenal people"
+      }
+    ]
+  },
+  "work": {
+    "title": "The power of Fastenal people",
+    "key": "/works/OL9733129W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3724081A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Leadership",
+      "Executives",
+      "Management",
+      "Fastenal Company"
+    ],
+    "covers": [
+      12618461
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T01:13:12.158036"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-02-06T04:54:42.297248"
+    }
+  }
+}

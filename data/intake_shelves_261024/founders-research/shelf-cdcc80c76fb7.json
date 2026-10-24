@@ -1,0 +1,52 @@
+{
+  "title": "Make Something Wonderful",
+  "author": "Steve Jobs",
+  "url": "https://openlibrary.org/search.json?title=Make%20Something%20Wonderful&author=Steve%20Jobs&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Steve Jobs"
+        ],
+        "first_publish_year": 2023,
+        "key": "/works/OL40360935W",
+        "title": "Make Something Wonderful"
+      }
+    ]
+  },
+  "work": {
+    "title": "Make Something Wonderful",
+    "key": "/works/OL40360935W",
+    "type": {
+      "key": "/type/work"
+    },
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL7015512A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-09-24T00:49:50.233700"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-09-24T00:54:59.648739"
+    }
+  }
+}

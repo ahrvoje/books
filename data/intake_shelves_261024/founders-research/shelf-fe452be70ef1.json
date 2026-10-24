@@ -1,0 +1,118 @@
+{
+  "title": "Edison: A Biography",
+  "author": "Matthew Josephson",
+  "url": "https://openlibrary.org/search.json?title=Edison&author=Matthew%20Josephson&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 5,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 5,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Josephson, Matthew",
+          "M Josephson",
+          "Matthew Josephson"
+        ],
+        "first_publish_year": 1959,
+        "isbn": [
+          "9786000883720",
+          "0070330468",
+          "0703304682",
+          "0471548065",
+          "9780471548065",
+          "9780703304681",
+          "9780070330467",
+          "6000883722"
+        ],
+        "key": "/works/OL2942424W",
+        "language": [
+          "eng"
+        ],
+        "title": "Edison a Biography"
+      },
+      {
+        "author_name": [
+          "Matthew Josephson"
+        ],
+        "first_publish_year": 1961,
+        "key": "/works/OL42807630W",
+        "language": [
+          "eng"
+        ],
+        "title": "Edison"
+      }
+    ]
+  },
+  "work": {
+    "title": "Edison a Biography",
+    "key": "/works/OL2942424W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL448737A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3181068A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL4345659A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      10848877,
+      305622
+    ],
+    "subject_places": [
+      "United States"
+    ],
+    "first_publish_date": "1959",
+    "subject_people": [
+      "Thomas A. Edison (1847-1931)",
+      "Thomas A Edison (1847-1931)",
+      "Thomas Alva, 1847-1931 Edison"
+    ],
+    "dewey_number": [
+      "621.3/092",
+      "B"
+    ],
+    "subjects": [
+      "Biography",
+      "Inventors",
+      "Edison, Thomas A. (Thomas Alva), 1847-1931",
+      "Chemists",
+      "Edison, thomas a. (thomas alva), 1847-1931"
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T01:09:50.803277"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-10-18T10:50:59.910312"
+    }
+  }
+}

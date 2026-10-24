@@ -1,0 +1,80 @@
+{
+  "title": "Jimmy Buffett: A Good Life All the Way",
+  "author": "Ryan White",
+  "url": "https://openlibrary.org/search.json?title=Jimmy%20Buffett&author=Ryan%20White&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ryan White"
+        ],
+        "first_publish_year": 2017,
+        "isbn": [
+          "1501132571",
+          "9781501132575"
+        ],
+        "key": "/works/OL25410735W",
+        "language": [
+          "eng"
+        ],
+        "title": "Jimmy Buffett"
+      },
+      {
+        "author_name": [
+          "White, Ryan (Journalist)"
+        ],
+        "first_publish_year": 2017,
+        "isbn": [
+          "1501132563",
+          "9781501132568",
+          "9781501132551",
+          "1501132555"
+        ],
+        "key": "/works/OL20055208W",
+        "language": [
+          "eng"
+        ],
+        "title": "Jimmy Buffett"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Jimmy Buffett",
+    "subjects": [
+      "Rock musicians, biography",
+      "Rock musicians, united states"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL887216A"
+        }
+      }
+    ],
+    "key": "/works/OL25410735W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-09-30T00:15:23.054880"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-30T00:15:23.054880"
+    }
+  }
+}

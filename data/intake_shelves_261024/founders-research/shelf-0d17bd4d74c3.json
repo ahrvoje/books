@@ -1,0 +1,82 @@
+{
+  "title": "Hess: The Last Oil Baron",
+  "author": "Tina Davis and Jessica Resnick-Ault",
+  "url": "https://openlibrary.org/search.json?title=Hess&author=Tina%20Davis&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Tina Davis",
+          "Jessica Resnick-Ault"
+        ],
+        "first_publish_year": 2015,
+        "isbn": [
+          "1118923464",
+          "1118923448",
+          "1118923456",
+          "9781118923450",
+          "9781118923443",
+          "9781118923467"
+        ],
+        "key": "/works/OL20314169W",
+        "language": [
+          "eng"
+        ],
+        "title": "Hess"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-10-20T22:27:29.140011"
+    },
+    "subjects": [
+      "Petroleum industry and trade, united states",
+      "Businesspeople, biography",
+      "Petroleum industry and trade",
+      "Businessmen",
+      "Biography"
+    ],
+    "latest_revision": 3,
+    "key": "/works/OL20314169W",
+    "title": "Hess",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1428723A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7699544A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-09-21T08:16:01.323900"
+    },
+    "covers": [
+      8975133
+    ],
+    "revision": 3
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "title": "Carroll Shelby: The Authorized Biography",
+  "author": "Rinsey Mills",
+  "url": "https://openlibrary.org/search.json?title=Carroll%20Shelby&author=Rinsey%20Mills&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Rinsey Mills",
+          "Edsel B. Ford"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "1844253244",
+          "9780760346464",
+          "0760340560",
+          "9781844253241",
+          "0760346461",
+          "9780760340561"
+        ],
+        "key": "/works/OL21519125W",
+        "language": [
+          "eng"
+        ],
+        "title": "Carroll Shelby"
+      }
+    ]
+  },
+  "work": {
+    "title": "Carroll Shelby",
+    "subjects": [
+      "Automobile drivers",
+      "Engineers, biography",
+      "Automobile racing drivers",
+      "Biography",
+      "Automobile engineers",
+      "Automobile racing, biography"
+    ],
+    "key": "/works/OL21519125W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1481128A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8234055A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      12477086
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-23T00:31:17.077085"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-07-17T15:49:30.539943"
+    }
+  }
+}

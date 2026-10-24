@@ -1,0 +1,88 @@
+{
+  "title": "Onassis: An Extravagant Life",
+  "author": "Frank Brady",
+  "url": "https://openlibrary.org/search.json?title=Onassis&author=Frank%20Brady&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Frank Brady"
+        ],
+        "first_publish_year": 1977,
+        "isbn": [
+          "0136343783",
+          "9780136343783"
+        ],
+        "key": "/works/OL4618285W",
+        "language": [
+          "eng"
+        ],
+        "title": "Onassis, an extravagant life"
+      },
+      {
+        "author_name": [
+          "Frank Brady"
+        ],
+        "first_publish_year": 1978,
+        "isbn": [
+          "9780708814680",
+          "0708814689",
+          "0515047465",
+          "9780515047462"
+        ],
+        "key": "/works/OL25727436W",
+        "language": [
+          "eng"
+        ],
+        "title": "Onassis"
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      8093560
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-10-13T07:01:02.750974"
+    },
+    "latest_revision": 5,
+    "key": "/works/OL4618285W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL947137A"
+        }
+      }
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T06:59:01.557811"
+    },
+    "title": "Onassis, an extravagant life",
+    "subjects": [
+      "Biography",
+      "Merchant marine",
+      "Onassis, Aristotle Socrates, 1906-1975",
+      "Shipowners"
+    ],
+    "subject_people": [
+      "Aristotle Socrates Onassis (1906-1975)"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 5
+  }
+}

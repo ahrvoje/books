@@ -1,0 +1,90 @@
+{
+  "title": "George Lucas: A Life",
+  "author": "Brian Jay Jones",
+  "url": "https://openlibrary.org/search.json?title=George%20Lucas&author=Brian%20Jay%20Jones&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Brian Jay Jones"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "9780316257459",
+          "0316257443",
+          "1472224310",
+          "0316257427",
+          "1472224337",
+          "1478968451",
+          "1472224329",
+          "9781472224330",
+          "9788416709519",
+          "9781472224316",
+          "9781478968450",
+          "9780316257442",
+          "9781472224323",
+          "0316257451",
+          "8416709513",
+          "9780316257428"
+        ],
+        "key": "/works/OL20041015W",
+        "language": [
+          "eng"
+        ],
+        "title": "George Lucas"
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "\"The best-selling author of Jim Henson: The Biography traces the story of the man behind such blockbuster franchises as Star Wars and Indiana Jones, offering insight into the challenges he overcame and his influential legacy,\"--NoveList."
+    },
+    "title": "George Lucas",
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Biography",
+      "Motion picture producers and directors",
+      "Lucas, george, 1944-",
+      "Motion pictures, biography",
+      "BIOGRAPHY & AUTOBIOGRAPHY / Entertainment & Performing Arts"
+    ],
+    "subject_people": [
+      "George Lucas (1944-)"
+    ],
+    "key": "/works/OL20041015W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3041332A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-19T18:00:22.397031"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-19T23:29:58.144552"
+    }
+  }
+}

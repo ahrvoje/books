@@ -1,0 +1,4 @@
+import fs from'node:fs';import{dir,read,write}from'./capture.mjs';
+const a=read(dir+'/auxiliary-audit.json');fs.mkdirSync(dir+'/aux-research',{recursive:true});let next=0;
+async function worker(){while(next<a.length){let i=next++,b=a[i];if(b.hits.length===1)continue;let file=dir+'/aux-research/'+i+'.json';if(fs.existsSync(file))continue;let o={...b};try{let r=await fetch(b.url,{signal:AbortSignal.timeout(20000)});o.resolved=r.url;o.status=r.status;}catch(e){o.error=String(e)}if(!b.hits.length){try{let u='https://openlibrary.org/search.json?title='+encodeURIComponent(b.title.split(':')[0])+'&limit=3&fields=key,title,author_name,first_publish_year,isbn';let r=await fetch(u,{signal:AbortSignal.timeout(20000)});o.catalog=await r.json();}catch(e){o.catalogError=String(e)}}write(file,o);console.log(i,b.title,o.resolved);}}
+await Promise.all(Array.from({length:5},worker));

@@ -1,0 +1,66 @@
+{
+  "title": "A Small Difference",
+  "author": "Raymond Plank",
+  "url": "https://openlibrary.org/search.json?title=A%20Small%20Difference&author=Raymond%20Plank&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Raymond Plank"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "0533165261",
+          "9780533165261",
+          "9780533165872",
+          "0533165873"
+        ],
+        "key": "/works/OL20398513W",
+        "title": "A Small Difference"
+      }
+    ]
+  },
+  "work": {
+    "title": "A Small Difference",
+    "covers": [
+      9065916
+    ],
+    "key": "/works/OL20398513W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7732241A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Businessmen",
+      "Biography",
+      "Apache Corporation"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-11-03T01:13:41.849073"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-13T13:13:10.275306"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Authentic: A Memoir",
+  "author": "Paul Van Doren",
+  "url": "https://openlibrary.org/search.json?title=Authentic&author=Paul%20Van%20Doren&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Paul Van Doren"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "9781641120241",
+          "164112024X"
+        ],
+        "key": "/works/OL25761145W",
+        "language": [
+          "eng"
+        ],
+        "title": "Authentic"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Authentic",
+    "subjects": [
+      "Manufactures"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9740619A"
+        }
+      }
+    ],
+    "key": "/works/OL25761145W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-10-07T02:31:19.486664"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-10-07T02:31:19.486664"
+    }
+  }
+}

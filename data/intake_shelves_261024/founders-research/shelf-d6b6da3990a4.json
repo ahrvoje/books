@@ -1,0 +1,103 @@
+{
+  "title": "Decoded",
+  "author": "Jay Z",
+  "url": "https://openlibrary.org/search.json?title=Decoded&author=Jay%20Z&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 5,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 5,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jay-Z"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "9781400068920",
+          "1400068924",
+          "9780753540565",
+          "0753540568",
+          "9781588369598",
+          "0753522705",
+          "9780753522707",
+          "1588369595"
+        ],
+        "key": "/works/OL15481126W",
+        "language": [
+          "eng"
+        ],
+        "title": "Decoded"
+      },
+      {
+        "author_name": [
+          "Jay-Z"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "1400068924",
+          "9781400068920"
+        ],
+        "key": "/works/OL15633486W",
+        "language": [
+          "eng"
+        ],
+        "title": "Decoded"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Rap musicians",
+      "Biography",
+      "Rap (Music)",
+      "Texts",
+      "Analysis, appreciation",
+      "History and criticism",
+      "Rap (music)",
+      "Music, history and criticism",
+      "Music, american",
+      "Music",
+      "nyt:hardcover-nonfiction=2010-12-05",
+      "New York Times bestseller",
+      "Rap musicians, biography",
+      "Jay-z , 1969-",
+      "Rap musicians--united states--biography",
+      "Rap (music)--history and criticism",
+      "Ml420.j29 a3 2010",
+      "782.421649092 b"
+    ],
+    "key": "/works/OL15481126W",
+    "title": "Decoded",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6850189A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      6671502
+    ],
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-11-17T18:48:08.491593"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-20T01:53:08.570833"
+    }
+  }
+}

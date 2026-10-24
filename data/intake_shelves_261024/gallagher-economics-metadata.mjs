@@ -1,0 +1,7 @@
+import {dir,read,write} from './capture.mjs';
+const v=read(dir+'/veto-overrides.json');
+v['Extraordinary Popular Delusions and the Madness of Crowds']={veto:'V1',vetoConfidence:'moderate',vetoReason:'The influential tulipmania case materially supports the crowd-irrationality account using propagated anecdotes and claims of universal participation and broad ruin contradicted by archival scholarship. This is a central evidential failure, not an assertion that every historical essay is false.'};
+v['A History of Money and Banking in the United States']={veto:'V1',vetoConfidence:'moderate',vetoReason:'The inspected methodological introduction treats the economic causal laws organizing the historical account as certain and insulated from empirical testing. This forecloses counterevidence to the central explanatory framework. Historical motive judgments can still be revised; the veto is not based simply on Austrian affiliation.'};write(dir+'/veto-overrides.json',v);
+const m=read(dir+'/metadata-overrides.json');
+m['Racing the Enemy']={edition:{id:'ISBN:0674016939',url:'https://natlib.govt.nz/records/22097345',pages:382,year:2005,language:'English',format:'hardcover',retrieved:'2026-10-24',confidence:'high'},referencePages:{pages:54,ranges:[{start:309,end:362,label:'references'}],edition:{id:'ISBN:0674016939'},url:'https://natlib.govt.nz/records/22097345',sameEditionAsPG:true,confidence:'high',limitation:'Cataloged reference range and numbered extent; separate plate pages not included in extent.'}};
+write(dir+'/metadata-overrides.json',m);

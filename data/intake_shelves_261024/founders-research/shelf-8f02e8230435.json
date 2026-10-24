@@ -1,0 +1,97 @@
+{
+  "title": "Napoleon: A Concise Biography",
+  "author": "David Bell",
+  "url": "https://openlibrary.org/search.json?title=Napoleon&author=David%20Bell&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David A. Bell"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "0190262710",
+          "9780190262716",
+          "9780199321667",
+          "0199321663"
+        ],
+        "key": "/works/OL20184323W",
+        "language": [
+          "eng"
+        ],
+        "title": "Napoleon"
+      },
+      {
+        "author_name": [
+          "Laure Murat",
+          "Deke Dusinberre",
+          "David A. Bell"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "9781322047188",
+          "022602587X",
+          "022602573X",
+          "1322047189",
+          "9780226025735",
+          "9780226025872"
+        ],
+        "key": "/works/OL21077085W",
+        "language": [
+          "eng"
+        ],
+        "title": "Man Who Thought He Was Napoleon"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Napoleon i, emperor of the french, 1769-1821",
+      "Emperors",
+      "France, biography",
+      "Biography",
+      "History",
+      "France, history, 1789-1815"
+    ],
+    "key": "/works/OL20184323W",
+    "title": "Napoleon",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2624714A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8832578
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "This Very Short Introduction provides a concise, accurate, and lively portrait of Napoleon Bonaparte's character and career, situating him firmly in historical context.\r\n\r\nDavid Bell emphasizes the astonishing sense of human possibility--for both good and ill--that Napoleon represented. By his late twenties, Napoleon was already one of the greatest generals in European history. At thirty, he had become absolute master of Europe's most powerful country. In his early forties, he ruled a European empire more powerful than any since Rome, fighting wars that changed the shape of the continent and brought death to millions. Then everything collapsed, leading him to spend his last years in miserable exile in the South Atlantic.\r\n\r\nBell emphasizes the importance of the French Revolution in understanding Napoleon's career. The revolution made possible the unprecedented concentration of political authority that Napoleon accrued, and his success in mobilizing human and material resources. Without the political changes brought about by the revolution, Napoleon could not have fought his wars. Without the wars, he could not have seized and held onto power. Though his virtual dictatorship betrayed the ideals of liberty and equality, his life and career were revolutionary."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-10-07T08:04:41.888121"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-10-02T07:44:46.810736"
+    }
+  }
+}

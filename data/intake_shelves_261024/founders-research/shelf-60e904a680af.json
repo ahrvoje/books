@@ -1,0 +1,70 @@
+{
+  "title": "Arnold and Me: In the Shadow of the Austrian Oak",
+  "author": "Barbara Outland Baker",
+  "url": "https://openlibrary.org/search.json?title=Arnold%20and%20Me&author=Barbara%20Outland%20Baker&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Barbara, Outland Baker"
+        ],
+        "first_publish_year": 2006,
+        "isbn": [
+          "1425952224",
+          "1425952216",
+          "9781425952211",
+          "9781425952228"
+        ],
+        "key": "/works/OL8807147W",
+        "language": [
+          "eng"
+        ],
+        "title": "Arnold and Me"
+      }
+    ]
+  },
+  "work": {
+    "title": "Arnold and Me",
+    "covers": [
+      1842142
+    ],
+    "key": "/works/OL8807147W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3009059A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Bodybuilders",
+      "Biography",
+      "Governors",
+      "College teachers"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T23:21:06.426554"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-12-17T03:25:13.282702"
+    }
+  }
+}

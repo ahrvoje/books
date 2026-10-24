@@ -1,0 +1,81 @@
+{
+  "title": "Walt Disney: An American Original",
+  "author": "Bob Thomas",
+  "url": "https://openlibrary.org/search.json?title=Walt%20Disney&author=Bob%20Thomas&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 11,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 11,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Thomas, Bob"
+        ],
+        "first_publish_year": 1958,
+        "key": "/works/OL549233W",
+        "language": [
+          "eng"
+        ],
+        "title": "Walt Disney, the art of animation"
+      },
+      {
+        "author_name": [
+          "Thomas, Bob"
+        ],
+        "first_publish_year": 1958,
+        "isbn": [
+          "9780671812423",
+          "9780352309723",
+          "0352309725",
+          "9780786861293",
+          "9780671223328",
+          "0671223321",
+          "0786861290",
+          "0671812424"
+        ],
+        "key": "/works/OL549243W",
+        "language": [
+          "eng"
+        ],
+        "title": "Walt Disney"
+      }
+    ]
+  },
+  "work": {
+    "subtitle": "the story of the Disney Studio contribution to a new art",
+    "title": "Walt Disney, the art of animation",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-08T05:01:11.517631"
+    },
+    "id": 35661766,
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-03-12T04:50:00.570691"
+    },
+    "latest_revision": 2,
+    "key": "/works/OL549233W",
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL39099A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Walt Disney Productions",
+      "Animated films",
+      "Sleeping Beauty (Motion picture)"
+    ],
+    "revision": 2
+  }
+}

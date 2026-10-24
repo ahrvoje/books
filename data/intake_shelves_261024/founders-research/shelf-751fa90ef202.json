@@ -1,0 +1,111 @@
+{
+  "title": "Arnold: The Education of a Bodybuilder",
+  "author": "Arnold Schwarzenegger",
+  "url": "https://openlibrary.org/search.json?title=Arnold&author=Arnold%20Schwarzenegger&limit=2&fields=key,title,author_name,first_publish_year,isbn,language",
+  "status": 200,
+  "search": {
+    "numFound": 14,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 14,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Arnold Schwarzenegger",
+          "Bill Dobbins"
+        ],
+        "first_publish_year": 1981,
+        "isbn": [
+          "9780722176344",
+          "0722176341",
+          "072071379X",
+          "9780671256135",
+          "0671256130",
+          "0671531638",
+          "9783453414808",
+          "9781439127285",
+          "3453414802",
+          "9780751507430",
+          "9780720713794",
+          "0751507431",
+          "9780671531638",
+          "143912728X"
+        ],
+        "key": "/works/OL893220W",
+        "language": [
+          "eng"
+        ],
+        "title": "Arnold's bodybuilding for men"
+      },
+      {
+        "author_name": [
+          "Arnold Schwarzenegger"
+        ],
+        "first_publish_year": 1979,
+        "isbn": [
+          "0671424793",
+          "5551942856",
+          "0720712912",
+          "9780722176641",
+          "9785551942856",
+          "9780720712919",
+          "0671243012",
+          "9780671243012",
+          "9780671424794",
+          "0722176643"
+        ],
+        "key": "/works/OL893222W",
+        "language": [
+          "eng"
+        ],
+        "title": "Arnold's bodyshaping for women"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Bodybuilding",
+      "Culturisme",
+      "Weight lifting"
+    ],
+    "key": "/works/OL893220W",
+    "title": "Arnold's bodybuilding for men",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL79023A"
+        }
+      },
+      {
+        "author": {
+          "key": "/authors/OL4295589A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      4364856
+    ],
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T06:52:50.872607"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-03-17T15:21:36.527781"
+    }
+  }
+}
