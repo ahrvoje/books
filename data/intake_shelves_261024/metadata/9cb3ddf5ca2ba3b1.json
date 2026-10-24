@@ -1,0 +1,90 @@
+{
+  "title": "Most of the Good Stuff",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Most%20of%20the%20Good%20Stuff&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:25:45.742Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Laurie M. Brown",
+          "John S. Rigden"
+        ],
+        "first_publish_year": 1993,
+        "isbn": [
+          "0883188708",
+          "9780883188705"
+        ],
+        "key": "/works/OL19211070W",
+        "language": [
+          "eng"
+        ],
+        "title": "Most of the good stuff",
+        "subject": [
+          "Physics",
+          "Physicists",
+          "Biography",
+          "History"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2019-03-11T18:37:50.581857"
+    },
+    "title": "Most of the good stuff",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-03-11T18:37:50.581857"
+    },
+    "covers": [
+      680902
+    ],
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Physics",
+      "Physicists",
+      "Biography",
+      "History"
+    ],
+    "subject_people": [
+      "Richard Phillips Feynman"
+    ],
+    "key": "/works/OL19211070W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL537991A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1195826A"
+        }
+      }
+    ],
+    "latest_revision": 1,
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

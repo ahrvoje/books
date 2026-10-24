@@ -1,0 +1,62 @@
+{
+  "title": "Hidden Victims",
+  "author": "Cormac Ó Gráda",
+  "url": "https://openlibrary.org/search.json?title=Hidden%20Victims&author=Cormac%20%C3%93%20Gr%C3%A1da&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:51:37.168Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Cormac Ó Gráda"
+        ],
+        "first_publish_year": 2024,
+        "isbn": [
+          "0691258759",
+          "0691258740",
+          "9780691258744",
+          "9780691258751"
+        ],
+        "key": "/works/OL37836993W",
+        "language": [
+          "eng"
+        ],
+        "title": "Hidden Victims"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Hidden Victims",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL229478A"
+        }
+      }
+    ],
+    "key": "/works/OL37836993W",
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-02-17T08:19:48.716464"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-03-22T22:18:17.331106"
+    }
+  }
+}

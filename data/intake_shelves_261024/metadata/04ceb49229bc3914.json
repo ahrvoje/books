@@ -1,0 +1,100 @@
+{
+  "title": "The Empathy Exams",
+  "author": "Leslie Jamison",
+  "url": "https://openlibrary.org/search.json?title=The%20Empathy%20Exams&author=Leslie%20Jamison&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:45:22.423Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Leslie Jamison",
+          "Coleen Marlo"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "1501277022",
+          "9781847088420",
+          "9781555976712",
+          "1555970885",
+          "1555976719",
+          "9781501277023",
+          "1847088422",
+          "9781555970888"
+        ],
+        "key": "/works/OL17582095W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Empathy Exams Essays",
+        "subject": [
+          "Empathy",
+          "Pain",
+          "Essays (single author)",
+          "nyt:paperback-nonfiction=2014-04-20",
+          "New York Times bestseller",
+          "American essays"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Empathy",
+      "Pain",
+      "Essays (single author)",
+      "nyt:paperback-nonfiction=2014-04-20",
+      "New York Times bestseller",
+      "American essays"
+    ],
+    "key": "/works/OL17582095W",
+    "title": "The Empathy Exams Essays",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6643389A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3481758A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      7864900,
+      10314161,
+      12221885
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "A collection of essays explores empathy, using topics ranging from street violence and incarceration to reality television and literary sentimentality to ask questions about people's understanding of and relationships with others."
+    },
+    "latest_revision": 9,
+    "revision": 9,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2016-10-19T07:00:36.791623"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-12-04T17:30:42.410550"
+    }
+  }
+}

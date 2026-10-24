@@ -1,0 +1,82 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=ISBN:0374533229&jscmd=details&format=json",
+  "retrieved": "2026-10-24T09:22:58.438Z",
+  "status": 200,
+  "data": {
+    "ISBN:0374533229": {
+      "bib_key": "ISBN:0374533229",
+      "info_url": "http://openlibrary.org/books/OL28167250M/Origins_of_Political_Order",
+      "preview": "noview",
+      "preview_url": "http://openlibrary.org/books/OL28167250M/Origins_of_Political_Order",
+      "thumbnail_url": "https://covers.openlibrary.org/b/id/10105880-S.jpg",
+      "details": {
+        "publishers": [
+          "Farrar Straus Giroux",
+          "FSG Adult",
+          "Farrar, Straus and Giroux"
+        ],
+        "physical_format": "paperback",
+        "lc_classifications": [
+          "",
+          "JC11 .F85 2012"
+        ],
+        "source_records": [
+          "amazon:0374533229",
+          "bwb:9780374533229",
+          "promise:bwb_daily_pallets_2022-04-01",
+          "marc:marc_columbia/Columbia-extract-20221130-021.mrc:23688304:901",
+          "promise:bwb_daily_pallets_2021-06-10",
+          "marc:marc_nuls/NULS_PHC_180925.mrc:68203158:2350",
+          "idb:9780374533229"
+        ],
+        "title": "Origins of Political Order",
+        "number_of_pages": 606,
+        "covers": [
+          10105880
+        ],
+        "isbn_13": [
+          "9780374533229"
+        ],
+        "full_title": "Origins of Political Order",
+        "isbn_10": [
+          "0374533229"
+        ],
+        "publish_date": "Mar 27, 2012",
+        "key": "/books/OL28167250M",
+        "authors": [
+          {
+            "key": "/authors/OL389579A",
+            "name": "Francis Fukuyama"
+          }
+        ],
+        "works": [
+          {
+            "key": "/works/OL20806730W"
+          }
+        ],
+        "type": {
+          "key": "/type/edition"
+        },
+        "local_id": [
+          "urn:bwbsku:O8-AHK-778",
+          "urn:bwbsku:P7-AED-628",
+          "urn:nuls:31786102840250"
+        ],
+        "oclc_numbers": [
+          "781848431"
+        ],
+        "latest_revision": 8,
+        "revision": 8,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2020-06-01T01:33:38.360324"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2023-12-19T22:09:45.971788"
+        }
+      }
+    }
+  },
+  "file": "data/top500_261024/raw/853dd33ef056cf7a.json"
+}

@@ -1,0 +1,122 @@
+{
+  "title": "Seeing and Believing",
+  "author": "Richard Panek",
+  "url": "https://openlibrary.org/search.json?title=Seeing%20and%20Believing&author=Richard%20Panek&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:26:31.069Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Richard Panek"
+        ],
+        "first_publish_year": 1998,
+        "isbn": [
+          "9780140280616",
+          "0756753430",
+          "9780670876280",
+          "0140280618",
+          "9781841153797",
+          "0670876283",
+          "9780756753436",
+          "1841152862",
+          "9781841152868",
+          "9780613268929",
+          "061326892X",
+          "1841153796"
+        ],
+        "key": "/works/OL1878791W",
+        "language": [
+          "eng"
+        ],
+        "title": "Seeing and Believing",
+        "subject": [
+          "Astronomy",
+          "Popular works",
+          "Telescopes",
+          "History",
+          "New York Times reviewed",
+          "Télescopes",
+          "Histoire",
+          "Science",
+          "Astronomy, history"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1998",
+    "title": "Seeing and Believing",
+    "covers": [
+      401997
+    ],
+    "first_sentence": {
+      "type": "/type/text",
+      "value": "Tube of lead, two disks of glass: The answer, when at last it arrived, appeared to be simplicity itself."
+    },
+    "lc_classifications": [
+      "QB88 .P18 1998"
+    ],
+    "key": "/works/OL1878791W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL224936A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "522/.2/09"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Astronomy",
+      "Popular works",
+      "Telescopes",
+      "History",
+      "New York Times reviewed",
+      "Télescopes",
+      "Histoire",
+      "Science",
+      "Astronomy, history"
+    ],
+    "links": [
+      {
+        "url": "http://www.nytimes.com/1998/10/08/books/books-of-the-times-the-heavens-came-tumbling-to-earth.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      },
+      {
+        "url": "http://www.nytimes.com/1999/02/14/books/books-in-brief-nonfiction-202452.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 11,
+    "revision": 11,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:30:22.862082"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-17T20:24:48.177190"
+    }
+  }
+}

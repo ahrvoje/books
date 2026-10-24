@@ -1,0 +1,27 @@
+{
+  "id": "shelf-fe4f785f7fa8",
+  "title": "The Everything Token",
+  "author": "Steve Kaczynski and Scott Duke Kominers",
+  "retrieved": "2026-10-24",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/isbn/0593545109.json",
+      "status": 200
+    },
+    {
+      "url": "https://openlibrary.org/works/OL37565112W/editions.json?limit=50",
+      "status": 503
+    },
+    {
+      "url": "https://www.amazon.de/dp/0593545109",
+      "status": 200,
+      "bytes": 3815
+    }
+  ],
+  "retried": false,
+  "sourceNoteISBN": "0593545109",
+  "error": "SyntaxError: Unexpected token '<', \"<html><bod\"... is not valid JSON",
+  "amazonURL": "https://www.amazon.de/dp/0593545109",
+  "isbn": "0593545109",
+  "amazonText": " Amazon.de Klicke auf die Schaltfläche unten, um mit dem Einkauf fortzufahren Weiter shoppen Unsere AGB Datenschutzerklärung &copy; 1996-2025, Amazon.com, Inc. oder Tochtergesellschaften "
+}

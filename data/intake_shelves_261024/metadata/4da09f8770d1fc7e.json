@@ -1,0 +1,84 @@
+{
+  "title": "Dynamics for Physicists",
+  "author": "Faber",
+  "url": "https://openlibrary.org/search.json?title=Dynamics%20for%20Physicists&author=Faber&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:25:27.636Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "T. E. Faber"
+        ],
+        "first_publish_year": 1995,
+        "isbn": [
+          "0521429692",
+          "9780511806735",
+          "9780521429696",
+          "0511806736",
+          "9780521419437",
+          "0521419433"
+        ],
+        "key": "/works/OL3483862W",
+        "language": [
+          "eng"
+        ],
+        "title": "Fluid dynamics for physicists",
+        "subject": [
+          "Fluid dynamics"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1995",
+    "title": "Fluid dynamics for physicists",
+    "covers": [
+      338583
+    ],
+    "lc_classifications": [
+      "QC151 .F33 1995"
+    ],
+    "key": "/works/OL3483862W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL581306A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "532/.05"
+    ],
+    "subjects": [
+      "Fluid dynamics"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "\"This textbook provides an accessible and comprehensive account of fluid dynamics that emphasizes fundamental physical principles and stresses connections with other branches of physics. Beginning with a basic introduction, the book goes on to cover many topics not typically treated in texts, such as compressible flow and shock waves, sound attenuation and bulk viscosity, solitary waves and ship waves, thermal convection, instabilities, turbulence, and the behavior of anisotropic, non-Newtonian and quantum fluids. Undergraduate or graduate students in physics or engineering who are taking courses in fluid dynamics will find this book invaluable\" -- Amazon.com."
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T03:41:24.567963"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-04-01T12:19:09.584762"
+    }
+  }
+}

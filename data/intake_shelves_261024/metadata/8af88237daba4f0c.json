@@ -1,0 +1,85 @@
+{
+  "title": "Flight to the Moon",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Flight%20to%20the%20Moon&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:34:16.247Z",
+  "status": 200,
+  "search": {
+    "numFound": 17,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 17,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "George Fowler"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "9781018445663",
+          "1018451137",
+          "9781018451138",
+          "0342228056",
+          "9780342228058",
+          "1018445668",
+          "0342228048",
+          "9780342228041"
+        ],
+        "key": "/works/OL28474418W",
+        "language": [
+          "eng"
+        ],
+        "title": "Flight to the Moon, or, the Vision of Randalthus"
+      },
+      {
+        "author_name": [
+          "J. W. Campbell"
+        ],
+        "first_publish_year": 1941,
+        "key": "/works/OL11580475W",
+        "title": "Rocket flight to the moon"
+      },
+      {
+        "author_name": [
+          "hal clement"
+        ],
+        "first_publish_year": 1970,
+        "key": "/works/OL35285300W",
+        "language": [
+          "eng"
+        ],
+        "title": "First Flights to the Moon"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Flight to the Moon, or, the Vision of Randalthus",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6009752A"
+        }
+      }
+    ],
+    "key": "/works/OL28474418W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-07-20T15:02:13.644821"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-07-20T15:02:13.644821"
+    }
+  }
+}

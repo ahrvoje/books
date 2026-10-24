@@ -1,0 +1,114 @@
+{
+  "title": "Everything Is Obvious",
+  "author": "Duncan Watts",
+  "url": "https://openlibrary.org/search.json?title=Everything%20Is%20Obvious&author=Duncan%20Watts&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:04.662Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Duncan J. Watts"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "1848872151",
+          "0385531680",
+          "1848872143",
+          "9781848872158",
+          "9781848872141",
+          "9781848872165",
+          "184887216X",
+          "9780385531689"
+        ],
+        "key": "/works/OL16139881W",
+        "language": [
+          "eng"
+        ],
+        "title": "Everything is obvious",
+        "subject": [
+          "Common sense",
+          "Thought and thinking",
+          "Reasoning",
+          "New York Times reviewed"
+        ]
+      },
+      {
+        "author_name": [
+          "Duncan J. Watts"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "9780307951793",
+          "9780857895066",
+          "0307951790",
+          "0857895060"
+        ],
+        "key": "/works/OL20729572W",
+        "language": [
+          "eng"
+        ],
+        "title": "Everything Is Obvious",
+        "subject": [
+          "Common sense"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "Discusses how the concept of common sense is inadequate in an increasingly complex world and draws on multiple disciplines to offer insight into the sources of such topics as popularity, economics, and self-deception."
+    },
+    "covers": [
+      7953510
+    ],
+    "key": "/works/OL16139881W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL242261A"
+        }
+      }
+    ],
+    "title": "Everything is obvious",
+    "subjects": [
+      "Common sense",
+      "Thought and thinking",
+      "Reasoning",
+      "New York Times reviewed"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "links": [
+      {
+        "url": "http://www.nytimes.com/2011/06/26/books/review/book-review-everything-is-obvious-once-you-know-the-answer-by-duncan-j-watts.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-10-22T03:06:50.844019"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-08-06T23:45:46.229692"
+    }
+  }
+}

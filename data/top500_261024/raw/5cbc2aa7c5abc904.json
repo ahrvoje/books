@@ -1,0 +1,88 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=ISBN:0674979850&jscmd=details&format=json",
+  "retrieved": "2026-10-24T09:26:48.946Z",
+  "status": 200,
+  "data": {
+    "ISBN:0674979850": {
+      "bib_key": "ISBN:0674979850",
+      "info_url": "http://openlibrary.org/books/OL29349357M/Capital_in_the_Twenty-First_Century",
+      "preview": "restricted",
+      "preview_url": "https://archive.org/details/capitalintwentyf0000pike",
+      "thumbnail_url": "https://covers.openlibrary.org/b/id/14448967-S.jpg",
+      "details": {
+        "title": "Capital in the Twenty-First Century",
+        "authors": [
+          {
+            "key": "/authors/OL466123A",
+            "name": "Thomas Piketty"
+          },
+          {
+            "key": "/authors/OL2756535A",
+            "name": "Arthur Goldhammer"
+          }
+        ],
+        "publish_date": "2017",
+        "publishers": [
+          "Harvard University Press"
+        ],
+        "source_records": [
+          "bwb:9780674979857",
+          "amazon:0674979850",
+          "marc:marc_columbia/Columbia-extract-20221130-027.mrc:139006105:3813",
+          "ia:capitalintwentyf0000pike"
+        ],
+        "isbn_13": [
+          "9780674979857"
+        ],
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "full_title": "Capital in the Twenty-First Century",
+        "lc_classifications": [
+          "HB501.P43613 2017",
+          "HB501 .P43613 2017"
+        ],
+        "type": {
+          "key": "/type/edition"
+        },
+        "subjects": [
+          "Capital",
+          "Income distribution",
+          "Wealth",
+          "Labor economics"
+        ],
+        "oclc_numbers": [
+          "997225376"
+        ],
+        "ocaid": "capitalintwentyf0000pike",
+        "key": "/books/OL29349357M",
+        "number_of_pages": 816,
+        "works": [
+          {
+            "key": "/works/OL16814568W"
+          }
+        ],
+        "covers": [
+          14448967
+        ],
+        "description": {
+          "type": "/type/text",
+          "value": "ix, 793 pages : 22 cm"
+        },
+        "latest_revision": 8,
+        "revision": 8,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2020-08-24T23:42:22.177986"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2023-10-18T22:56:25.464273"
+        }
+      }
+    }
+  },
+  "file": "data/top500_261024/raw/5cbc2aa7c5abc904.json"
+}

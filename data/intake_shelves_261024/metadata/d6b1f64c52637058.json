@@ -1,0 +1,83 @@
+{
+  "title": "How To Make A Few Billion Dollars",
+  "author": "Brad Jacobs",
+  "url": "https://openlibrary.org/search.json?title=How%20To%20Make%20A%20Few%20Billion%20Dollars&author=Brad%20Jacobs&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:47:25.651Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Brad Jacobs"
+        ],
+        "first_publish_year": 2023,
+        "isbn": [
+          "9798886451740",
+          "9798886451757"
+        ],
+        "key": "/works/OL36848381W",
+        "language": [
+          "eng"
+        ],
+        "title": "How to Make a Few Billion Dollars",
+        "subject": [
+          "Business"
+        ]
+      },
+      {
+        "author_name": [
+          "Brad Jacobs"
+        ],
+        "first_publish_year": 2025,
+        "isbn": [
+          "9798886454659"
+        ],
+        "key": "/works/OL44593969W",
+        "language": [
+          "eng"
+        ],
+        "title": "How to Make a Few More Billion Dollars",
+        "subject": [
+          "Business"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "How to Make a Few Billion Dollars",
+    "subjects": [
+      "Business"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL192654A"
+        }
+      }
+    ],
+    "key": "/works/OL36848381W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2023-10-17T09:38:59.439200"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-10-17T09:38:59.439200"
+    }
+  }
+}

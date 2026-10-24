@@ -1,0 +1,95 @@
+{
+  "title": "Not Even Wrong",
+  "author": "Peter Woit",
+  "url": "https://openlibrary.org/search.json?title=Not%20Even%20Wrong&author=Peter%20Woit&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:29:07.557Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Peter Woit"
+        ],
+        "first_publish_year": 2006,
+        "isbn": [
+          "9781446443019",
+          "9780465092758",
+          "0224076051",
+          "1446443019",
+          "9780465092765",
+          "0465092764",
+          "0465092756",
+          "9780224076050",
+          "9780099488644",
+          "0099488647"
+        ],
+        "key": "/works/OL7923504W",
+        "language": [
+          "eng"
+        ],
+        "title": "Not Even Wrong",
+        "subject": [
+          "String models",
+          "Superstring theories",
+          "Physical laws",
+          "Quantum theory",
+          "Supersymmetry",
+          "Popular works",
+          "39.30 cosmology",
+          "33.50 physics of elementary particles and fields: general",
+          "String theory",
+          "Controversies"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "String models",
+      "Superstring theories",
+      "Physical laws",
+      "Quantum theory",
+      "Supersymmetry",
+      "Popular works",
+      "39.30 cosmology",
+      "33.50 physics of elementary particles and fields: general",
+      "String theory",
+      "Controversies"
+    ],
+    "key": "/works/OL7923504W",
+    "title": "Not Even Wrong",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2645455A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      299320
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:13:32.529350"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-03-25T06:22:58.813892"
+    }
+  }
+}

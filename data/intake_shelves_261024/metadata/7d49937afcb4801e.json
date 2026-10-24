@@ -1,0 +1,94 @@
+{
+  "title": "The Great Ordeal",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=The%20Great%20Ordeal&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:37:20.850Z",
+  "status": 200,
+  "search": {
+    "numFound": 6,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 6,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Johan Fabricius"
+        ],
+        "first_publish_year": 1951,
+        "key": "/works/OL1226750W",
+        "language": [
+          "eng"
+        ],
+        "title": "The great ordeal"
+      },
+      {
+        "author_name": [
+          "Johan Fabricius"
+        ],
+        "first_publish_year": 1951,
+        "key": "/works/OL12521276W",
+        "language": [
+          "eng"
+        ],
+        "title": "The great ordeal"
+      },
+      {
+        "author_name": [
+          "R. Scott Bakker"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "1468301691",
+          "9781468301694"
+        ],
+        "key": "/works/OL20035744W",
+        "language": [
+          "eng"
+        ],
+        "title": "The great ordeal",
+        "subject": [
+          "Imaginary wars and battles",
+          "Fiction",
+          "Fiction, fantasy, epic"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "lc_classifications": [
+      "PT5834.F32 G73"
+    ],
+    "key": "/works/OL1226750W",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T20:47:22.304569"
+    },
+    "title": "The great ordeal",
+    "first_publish_date": "1951",
+    "latest_revision": 2,
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-01-22T23:11:28.103673"
+    },
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL123741A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "839.3135",
+      "839.3136*"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "id": 36405220,
+    "revision": 2
+  }
+}

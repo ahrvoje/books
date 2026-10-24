@@ -1,0 +1,108 @@
+{
+  "title": "Shin Kokinshu",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Shin%20Kokinshu&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:34:39.306Z",
+  "status": 200,
+  "search": {
+    "numFound": 32,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 32,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Nishishita, Kyōichi",
+          "Kiyoshi Sanekata"
+        ],
+        "first_publish_year": 1960,
+        "key": "/works/OL33600925W",
+        "language": [
+          "jpn"
+        ],
+        "title": "Kokinshū ; Shin kokinshū",
+        "subject": [
+          "Criticism, interpretation",
+          "Kokin wakashū",
+          "Shin kokin wakashū"
+        ]
+      },
+      {
+        "author_name": [
+          "Shōichirō Kubota"
+        ],
+        "first_publish_year": 1961,
+        "key": "/works/OL12127829W",
+        "language": [
+          "jpn"
+        ],
+        "title": "Kokinshū Shin kokinshū"
+      },
+      {
+        "author_name": [
+          "Nobuyuki Kanechiku"
+        ],
+        "first_publish_year": 2006,
+        "isbn": [
+          "4473032663",
+          "9784473032669"
+        ],
+        "key": "/works/OL33084222W",
+        "language": [
+          "jpn"
+        ],
+        "title": "Kokinshū, Shin kokinshū",
+        "subject": [
+          "Manuscripts",
+          "Japanese language",
+          "Cursive writing",
+          "Kokin wakashū",
+          "Shin kokin wakashū"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Kokinshū ; Shin kokinshū",
+    "subjects": [
+      "Criticism, interpretation",
+      "Kokin wakashū",
+      "Shin kokin wakashū"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1246645A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL12134758A"
+        }
+      }
+    ],
+    "key": "/works/OL33600925W",
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2023-01-09T04:51:46.773830"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-09-07T16:40:03.546130"
+    }
+  }
+}

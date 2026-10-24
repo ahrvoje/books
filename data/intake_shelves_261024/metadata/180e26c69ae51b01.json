@@ -1,0 +1,108 @@
+{
+  "title": "Atomic Audit",
+  "author": "Stephen Schwartz",
+  "url": "https://openlibrary.org/search.json?title=Atomic%20Audit&author=Stephen%20Schwartz&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:30:52.918Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Stephen I. Schwartz"
+        ],
+        "first_publish_year": 1998,
+        "isbn": [
+          "9780815791829",
+          "0815777736",
+          "9780815777748",
+          "0815777744",
+          "0815791828",
+          "9780815777731"
+        ],
+        "key": "/works/OL8512996W",
+        "language": [
+          "eng"
+        ],
+        "title": "Atomic Audit",
+        "subject": [
+          "Nuclear weapons",
+          "United states, military policy"
+        ]
+      },
+      {
+        "author_name": [
+          "Stephen I. Schwartz"
+        ],
+        "first_publish_year": 1998,
+        "isbn": [
+          "9780815777731",
+          "9780585041636",
+          "9780815777748",
+          "0815777744",
+          "9780815722946",
+          "0815777736",
+          "0585041636",
+          "081572294X"
+        ],
+        "key": "/works/OL18288966W",
+        "language": [
+          "eng"
+        ],
+        "title": "Atomic audit",
+        "subject": [
+          "Nuclear weapons",
+          "Costs",
+          "History",
+          "United states, military policy",
+          "Military-industrial complex",
+          "United states, defenses",
+          "TECHNOLOGY & ENGINEERING",
+          "Military Science",
+          "Military",
+          "Other"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "Atomic Audit",
+    "covers": [
+      613972
+    ],
+    "key": "/works/OL8512996W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL2849440A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Nuclear weapons",
+      "United states, military policy"
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:53:54.564123"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-09-17T19:57:07.738754"
+    }
+  }
+}

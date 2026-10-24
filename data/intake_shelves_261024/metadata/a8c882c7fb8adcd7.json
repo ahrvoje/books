@@ -1,0 +1,85 @@
+{
+  "title": "Useful Belief",
+  "author": "Chris Helder",
+  "url": "https://openlibrary.org/search.json?title=Useful%20Belief&author=Chris%20Helder&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:25.916Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Chris Helder"
+        ],
+        "first_publish_year": 2015,
+        "isbn": [
+          "0730327450",
+          "9780730327417",
+          "0730327418",
+          "0730327426",
+          "9780730327455",
+          "0730385396",
+          "9780730327424",
+          "9780730385394"
+        ],
+        "key": "/works/OL21577251W",
+        "language": [
+          "eng"
+        ],
+        "title": "Useful Belief",
+        "subject": [
+          "Self-actualization (psychology)",
+          "Success",
+          "Business",
+          "Self-actualization (Psychology)",
+          "Self-consciousness (Awareness)",
+          "Belief change"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "Useful Belief",
+    "subjects": [
+      "Self-actualization (psychology)",
+      "Success",
+      "Business",
+      "Self-actualization (Psychology)",
+      "Self-consciousness (Awareness)",
+      "Belief change"
+    ],
+    "key": "/works/OL21577251W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3866402A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      12676497
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-24T06:25:28.432057"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-03-19T04:31:38.497284"
+    }
+  }
+}

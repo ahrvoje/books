@@ -1,0 +1,11 @@
+import fs from 'node:fs';import {dir,read,write} from './capture.mjs';
+const o=read(dir+'/metadata-overrides.json');
+const entries=[
+['Transforming the Twentieth Century: Technical Innovations and Their Consequences','9780195168754',358,2006,313,340,'https://obnb.uk/p13408348-transforming-the-twentieth-century-technical-innovations-and-their-consequences'],
+['Imperial China, 900-1800','0674445155',1107,1999,1057,1083,'https://openlibrary.org/books/OL15472712M/Imperial_China_900-1800'],
+['The Sinews of Power: War, Money, and the English State, 1688–1783','0394577760',289,1989,252,278,'https://library.hs.ias.edu/ipac20/ipac.jsp?booklistformat=&profile=hslib&session=1M6151R1K7455.2051862&uri=full%3D3100001~%2117315~%210']
+];
+for(const [title,isbn,pages,year,start,end,url] of entries)o[title]={evidence:[url],edition:{id:'ISBN:'+isbn,url,pages,year,language:'English',format:'print; binding unspecified',retrieved:'2026-10-24',confidence:'moderate'},referencePages:{pages:end-start+1,confidence:'moderate',ranges:[{start,end,label:'bibliographical references'}],edition:{id:'ISBN:'+isbn},url,sameEditionAsPG:true,limitation:title.startsWith('Imperial China')?'Two catalog records agree on 1057–1083; another gives 979–1083, apparently including the notes. The narrower explicit bibliography is used.':'Library catalog supplies both counts; physical pages not inspected.'}};
+write(dir+'/metadata-overrides.json',o);
+let s=fs.readFileSync(dir+'/civil-decisions.tsv','utf8').replace('The Sinews of Power: War, Money, and the English State, 1688–1783|1989|','The Sinews of Power: War, Money, and the English State, 1688–1783|1988|').replace('Original publication year requires bibliographic confirmation; assessed 1989, moderate confidence.','The Institute for Advanced Study catalog confirms original London publication in 1988; 1989 is the first American edition.');fs.writeFileSync(dir+'/civil-decisions.tsv',s);
+const a=read(dir+'/triaged.json');for(const b of a)if(b.title.startsWith('Cataclysm: The First World War')){b.metadataRejected=b.metadata;b.metadata={title:b.title,author:'David Stevenson',year:2004,isbn:['0465081843'],description:'International history of First World War political decisions and military developments; publisher preview verified.'};}write(dir+'/triaged.json',a);

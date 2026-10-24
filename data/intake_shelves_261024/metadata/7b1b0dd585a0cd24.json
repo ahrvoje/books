@@ -1,0 +1,68 @@
+{
+  "title": "The Book of Dust",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=The%20Book%20of%20Dust&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:26:02.913Z",
+  "status": 200,
+  "search": {
+    "numFound": 27,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 27,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "isbn": [
+          "9780553510683",
+          "0553510681"
+        ],
+        "key": "/works/OL37899933W",
+        "title": "The Book of Dust"
+      },
+      {
+        "author_name": [
+          "Elena del Rivero"
+        ],
+        "first_publish_year": 2006,
+        "key": "/works/OL42215268W",
+        "language": [
+          "eng"
+        ],
+        "title": "The book of dust",
+        "subject": [
+          "September 11 Terrorist Attacks, 2001",
+          "Pictorial works",
+          "Artists' books"
+        ]
+      },
+      {
+        "first_publish_year": 2017,
+        "isbn": [
+          "9780857561091",
+          "085756109X"
+        ],
+        "key": "/works/OL35273097W",
+        "title": "The Book of Dust Volume One"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The Book of Dust",
+    "key": "/works/OL37899933W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-02-25T01:04:41.615426"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-02-25T01:04:41.615426"
+    }
+  }
+}

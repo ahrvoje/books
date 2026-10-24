@@ -1,0 +1,67 @@
+{
+  "title": "The Calculus Story",
+  "author": "David Acheson",
+  "url": "https://openlibrary.org/search.json?title=The%20Calculus%20Story&author=David%20Acheson&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:32:21.181Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David Acheson"
+        ],
+        "first_publish_year": 2017,
+        "key": "/works/OL38057605W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Calculus Story",
+        "subject": [
+          "Science, Maths and Technology"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "The Calculus Story",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL859638A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "key": "/works/OL38057605W",
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "This book describes and teaches calculus just like an adventure story!"
+    },
+    "subjects": [
+      "Science, Maths and Technology"
+    ],
+    "subtitle": "A Mathematical Adventure",
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-05-08T04:41:07.776310"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-05-08T04:43:04.980191"
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "title": "New York Times",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=New%20York%20Times&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:38:05.854Z",
+  "status": 200,
+  "search": {
+    "numFound": 2720,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2720,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Craig Claiborne"
+        ],
+        "first_publish_year": 1961,
+        "isbn": [
+          "9780060160104",
+          "0060107901",
+          "9780060107901",
+          "0060160101"
+        ],
+        "key": "/works/OL54838W",
+        "language": [
+          "eng"
+        ],
+        "title": "New York Times Cook Book",
+        "subject": [
+          "American Cookery",
+          "International Cookery",
+          "American Cooking",
+          "International cooking",
+          "Cookery, International",
+          "Cooking, American",
+          "PRO Dobrinin, Sara B. de (autograph)",
+          "Cookbooks",
+          "CHR 1961",
+          "Cooking"
+        ]
+      },
+      {
+        "author_name": [
+          "Jean Hewitt"
+        ],
+        "first_publish_year": 1972,
+        "isbn": [
+          "0380412284",
+          "9780380412280",
+          "9780285624870",
+          "9780380009510",
+          "9780285620698",
+          "028562069X",
+          "0285624873",
+          "038000951X"
+        ],
+        "key": "/works/OL4121571W",
+        "language": [
+          "eng"
+        ],
+        "title": "The New York times natural foods cookbook",
+        "subject": [
+          "Cookery",
+          "Cookery (Natural foods)",
+          "Cooking (Natural foods)",
+          "Cooking"
+        ]
+      },
+      {
+        "author_name": [
+          "Craig Claiborne"
+        ],
+        "first_publish_year": 1975,
+        "isbn": [
+          "0517413272",
+          "9780517324172",
+          "0812905849",
+          "0517248662",
+          "9780517459973",
+          "9780812905847",
+          "9780517248669",
+          "0446935344",
+          "0517459973",
+          "9780517413272",
+          "0446871494",
+          "9780446935340",
+          "0446934720",
+          "9780517413265",
+          "9780517459966",
+          "0517324172",
+          "9780446934725",
+          "0517459965",
+          "9780446871495",
+          "0517413264"
+        ],
+        "key": "/works/OL54829W",
+        "language": [
+          "eng"
+        ],
+        "title": "Craig Claiborne's Favorites From The New York Times",
+        "subject": [
+          "Cookery",
+          "Cooking"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "American Cookery",
+      "International Cookery",
+      "American Cooking",
+      "International cooking",
+      "Cookery, International",
+      "Cooking, American",
+      "PRO Dobrinin, Sara B. de (autograph)",
+      "Cookbooks",
+      "CHR 1961",
+      "Cooking"
+    ],
+    "key": "/works/OL54838W",
+    "title": "New York Times Cook Book",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL19599A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      22160,
+      6889669
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "This is a classic cookbook for the home gourmet cook, by Craig Claiborne and the New York Times.  Terrific recipes!"
+    },
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-10-15T19:26:30.023841"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-08-09T09:56:44.047971"
+    }
+  }
+}

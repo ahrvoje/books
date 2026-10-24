@@ -1,0 +1,107 @@
+{
+  "title": "We the Corporations",
+  "author": "Adam Winkler",
+  "url": "https://openlibrary.org/search.json?title=We%20the%20Corporations&author=Adam%20Winkler&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:29:42.265Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Adam Winkler"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "1538504391",
+          "9780871403841",
+          "9781538504390",
+          "9781631495441",
+          "1631495445",
+          "1538504383",
+          "0871403846",
+          "9780871407122",
+          "0871407124",
+          "9781538504383"
+        ],
+        "key": "/works/OL19732477W",
+        "language": [
+          "eng"
+        ],
+        "title": "We the corporations",
+        "subject": [
+          "Civil rights of corporations",
+          "Corporation law, united states",
+          "Juristic persons",
+          "New York Times reviewed",
+          "LAW",
+          "General",
+          "Unternehmensrecht",
+          "Corporations"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "Traces the two-hundred-year history of corporate America's battle to achieve constitutional freedom from federal control, examining the civil rights debates and key events that shaped the controversial 2010 Supreme Court decision to extend constitutional protections to businesses."
+    },
+    "title": "We the corporations",
+    "covers": [
+      8860711
+    ],
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Civil rights of corporations",
+      "Corporation law, united states",
+      "Juristic persons",
+      "New York Times reviewed",
+      "LAW",
+      "General",
+      "Unternehmensrecht",
+      "Corporations"
+    ],
+    "key": "/works/OL19732477W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7531476A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "links": [
+      {
+        "url": "https://www.nytimes.com/2018/03/05/books/review/adam-winkler-we-the-corporations.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-05-24T03:44:32.972964"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-18T04:11:23.607382"
+    }
+  }
+}

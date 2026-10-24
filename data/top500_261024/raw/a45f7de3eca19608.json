@@ -1,0 +1,45 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Misbehaving&author=Richard%20H.%20Thaler&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-24T09:28:17.601Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Richard H. Thaler"
+        ],
+        "edition_key": [
+          "OL26631779M",
+          "OL32641512M",
+          "OL35664954M",
+          "OL26804266M",
+          "OL29706773M",
+          "OL26531656M",
+          "OL32989423M"
+        ],
+        "key": "/works/OL17940527W",
+        "title": "Misbehaving"
+      },
+      {
+        "author_name": [
+          "Richard H. Thaler",
+          "L.J. Ganser"
+        ],
+        "edition_key": [
+          "OL38797431M",
+          "OL38565278M"
+        ],
+        "key": "/works/OL28170009W",
+        "title": "Misbehaving"
+      }
+    ]
+  },
+  "file": "data/top500_261024/raw/a45f7de3eca19608.json"
+}

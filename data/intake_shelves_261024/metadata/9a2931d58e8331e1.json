@@ -1,0 +1,80 @@
+{
+  "title": "Think of a Number",
+  "author": "Malcolm E. Lines",
+  "url": "https://openlibrary.org/search.json?title=Think%20of%20a%20Number&author=Malcolm%20E.%20Lines&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:29:08.559Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Malcolm E. Lines"
+        ],
+        "first_publish_year": 1990,
+        "isbn": [
+          "0852741839",
+          "9780852741832"
+        ],
+        "key": "/works/OL3501530W",
+        "language": [
+          "eng"
+        ],
+        "title": "Think of a number",
+        "subject": [
+          "Mathematics",
+          "Popular works",
+          "Mathematics, popular works"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1990",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-14T08:01:09.715723"
+    },
+    "title": "Think of a number",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T03:43:28.755739"
+    },
+    "covers": [
+      649644
+    ],
+    "lc_classifications": [
+      "QA93 .L554 1990"
+    ],
+    "latest_revision": 4,
+    "key": "/works/OL3501530W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL585069A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "510"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Mathematics",
+      "Popular works",
+      "Mathematics, popular works"
+    ],
+    "revision": 4
+  }
+}

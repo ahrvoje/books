@@ -1,0 +1,89 @@
+{
+  "g0563": {
+    "referenceRecord": {
+      "pages": 15,
+      "ranges": [
+        {
+          "start": 585,
+          "end": 599,
+          "label": "Bibliography",
+          "method": "catalogued-range",
+          "evidence": "GSI library record: Literaturverz. S. 585 - 599 und Index."
+        }
+      ],
+      "edition": {
+        "id": "ISBN:9781568813295",
+        "title": "A Cultural History of Physics",
+        "author": "Károly Simonyi",
+        "year": 2012,
+        "language": "English"
+      },
+      "url": "https://repository.gsi.de/record/67331/export/hr?ln=en",
+      "source": {
+        "file": "data/top500_261024/web-print-identities.json",
+        "retrieved": "2026-10-24"
+      },
+      "confidence": "moderate",
+      "method": "catalogued-range",
+      "sameEditionAsPG": false,
+      "limitation": "Explicit catalogued bibliography range only; index excluded."
+    },
+    "editionCorrection": {
+      "pages": 622,
+      "id": "ISBN:9781568813295",
+      "url": "https://repository.gsi.de/record/67331/export/hr?ln=en",
+      "retrieved": "2026-10-24",
+      "language": "English",
+      "format": "Hardcover",
+      "year": 2012,
+      "confidence": "moderate",
+      "title": "A cultural history of physics",
+      "authors": "Károly Simonyi",
+      "publisher": "A K Peters; CRC Press",
+      "isbn10": [],
+      "isbn13": [
+        "9781568813295"
+      ],
+      "notes": "Corrected prepublication year 2010 to the 2012 English edition. GSI and IAS catalogs agree. Extent xiv + 622 numbered pages; existing 622-page count retained. Hardcover binding is corroborated by the saved Amazon product snapshot.",
+      "source": {
+        "provider": "GSI Helmholtz Centre library",
+        "url": "https://repository.gsi.de/record/67331/export/hr?ln=en",
+        "rawFile": "data/top500_261024/web-print-identities.json",
+        "retrieved": "2026-10-24"
+      },
+      "previousCatalogSource": {
+        "provider": "Open Library",
+        "api": "https://openlibrary.org/api/books?bibkeys=OLID:OL30901515M,OLID:OL34103739M,OLID:OL32232503M,OLID:OL29539459M,OLID:OL28002251M,OLID:OL29279783M,OLID:OL53251382M,OLID:OL36801705M,OLID:OL46835541M,OLID:OL44428948M,OLID:OL49220178M,OLID:OL24579545M,OLID:OL50842273M,OLID:OL7641175M,OLID:OL7360264M,OLID:OL17078792M,OLID:OL18489931M,OLID:OL24740450M,OLID:OL62374702M,OLID:OL61664033M,OLID:OL56414546M,OLID:OL55317384M,OLID:OL55124035M,OLID:OL25650632M,OLID:OL35952532M,OLID:OL34019369M,OLID:OL26516873M,OLID:OL8971647M,OLID:OL24049868M,OLID:OL37277863M,OLID:OL34635103M,OLID:OL24656713M,OLID:OL37116502M,OLID:OL28468910M,OLID:OL7698544M&jscmd=details&format=json",
+        "rawFile": "data/enrichment_261020/pages/raw/ol-editions-1540-5ce2a1e28a638dfa.json",
+        "sha256": "ebf52cf1d57e4d50f3a232328ac8f6b67c9f7bebc0b2769de6e275e9e4b97534",
+        "editionKey": "/books/OL24579545M"
+      }
+    },
+    "product": {
+      "id": "1568813295",
+      "url": "https://www.amazon.com.au/dp/1568813295",
+      "format": "Hardcover",
+      "language": "English",
+      "title": "A Cultural History of Physics",
+      "author": "Károly Simonyi",
+      "sourceSnapshot": "data/rating_gaps_261022/raw/g0563-www.amazon.com.au-1568813295.html.gz",
+      "limitation": "Saved 2026-10-22 Amazon snapshot verifies this English hardcover. Replaces the ebook product link with a verified print identity; no paperback identity was established. German availability remains unverified."
+    }
+  },
+  "g0623": {
+    "productCandidate": {
+      "id": "9780743200110",
+      "url": "https://www.simonandschuster.com/books/Parasite-Rex-%28with-a-New-Epilogue%29/Carl-Zimmer/9780743200110",
+      "format": "Paperback",
+      "reason": "Publisher-confirmed paperback ISBN."
+    }
+  },
+  "progress-0037": {
+    "productCandidate": {
+      "id": "9780262520126",
+      "url": "https://mitpress.mit.edu/9780262020398/scientists-against-time/",
+      "format": "Paperback",
+      "reason": "Publisher product page confirms paperback ISBN; a separate title-catalog PDF contains a different number and is not used."
+    }
+  }
+}

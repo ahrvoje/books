@@ -1,0 +1,17 @@
+import fs from 'node:fs';
+const dir='data/top500_261024',c=JSON.parse(fs.readFileSync(dir+'/reference-candidates.json'));
+// These source records were reviewed individually; this is not automatic search-result acceptance.
+const selected=[[37,'9780415538381',2012],[38,'9780805095159',2014],[40,'0375508589',2004],[41,'9781509881574',2020],[42,'9780465097586',2017],[44,null,2020],[46,'9780061146657',2013],[47,'9780593831847',2026],[48,'9781524748258',2019],[49,'9780521867092',2009],[50,null,2021],[51,'9781335013415',2024],[52,'9781610399500',2019],[53,'9781574889239',2005],[54,'9780375414145',2014],[56,'9781524732851',2023],[57,'0226817415',2006],[58,'0262032597',1998],[60,'9780465093526',2019],[62,'9781802060157',2023],[63,null,1954],[64,'9781984877710',2019],[66,'9780593796726',2024],[67,'9780394528366',2002],[68,'9789048122523',2009],[69,'0571214967',2003],[70,'1859736904',2002],[72,'9781324004776',2020],[73,'9781984881137',2023],[75,null,2007],[76,'9783899552775',2009],[77,'9780385545655',2021],[79,'1568812051',2004],[80,'9780385546232',2022],[81,'9780061999772',2011],[82,'9780465071005',2009],[84,'9781982128562',2021],[85,'9780434013180',2008],[86,'9780521150187',2015],[87,'0300265093',2022],[88,'9781857423198',1995],[89,'0007162200',2004],[91,'0374138583',1999],[92,'0316277665',2004],[93,null,2009],[95,'9780199855766',2013],[96,null,1992]];
+const out={};
+for(const [i,isbn,year]of selected){
+ const x=c[i],ranges=x.ranges.filter((r,j,a)=>a.findIndex(t=>t.start===r.start&&t.end===r.end)===j);
+ const r={pages:x.pages,confidence:'moderate',ranges,method:'reviewed-library-catalog-range',edition:{id:isbn?'ISBN:'+isbn:'Catalog:'+x.url,title:x.title,author:x.author,year,language:i===76?'English and German':'English'},url:x.url,source:{file:x.file,retrieved:'2026-10-24',evidence:ranges.map(v=>v.evidence).join('; ')},sameEditionAsPG:false,limitation:'Documented reference ranges only; separate uncounted notes may remain. Index excluded. Search-index snapshot. Source edition and total-page edition may differ.'};
+ if(i===37){r.ranges.push({start:222,end:228,label:'bibliographical references',method:'catalogued-range',evidence:'Includes bibliographical references (p. [177]-193, [222]-228) and indexes'});r.pages=24;r.source.evidence=r.ranges[1].evidence;}
+ if(i===56){r.ranges=[{start:365,end:398,label:'Notes',method:'contents-boundary',evidence:'Publisher contents: Notes 365; Bibliography 399'},{start:399,end:401,label:'Bibliography',method:'catalogued-range',evidence:'Wake County library bibliography pages 399-401'}];r.supportingSources=['https://penguinrandomhousesecondaryeducation.com/book/?isbn=9780525434245','https://catalog.wake.gov/Record/774663'];r.limitation+=' Publisher contents corroborate the notes start; the catalog supplies the bibliography end. Final blank pages are not inferred as references.';}
+ if(i===72){r.confidence='low';r.limitation+=' Conflicting catalog endpoints: Brooklyn records 469–507, while CiNii records 469–511 for the same ISBN. Use the narrower documented span pending direct text verification; do not infer the extra four pages.';r.conflictingSource='https://cir.nii.ac.jp/crid/1971712334704313402';}
+ if(i===49)r.limitation+=' References belong to the 2009 Jim Endersby scholarly edition, not the original 1859 printing.';
+ if(i===66)r.limitation+=' References belong to the revised 2024 edition.';
+ out[x.id]={referenceRecord:r};
+}
+fs.writeFileSync(dir+'/manual-05.json',JSON.stringify(out,null,2)+'\n');
+console.log({accepted:selected.length});

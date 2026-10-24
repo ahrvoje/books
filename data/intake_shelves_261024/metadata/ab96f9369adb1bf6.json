@@ -1,0 +1,69 @@
+{
+  "title": "The Alter Ego Effect",
+  "author": "Todd Herman",
+  "url": "https://openlibrary.org/search.json?title=The%20Alter%20Ego%20Effect&author=Todd%20Herman&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:22:53.053Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Todd Herman"
+        ],
+        "first_publish_year": 2019,
+        "isbn": [
+          "9781982606527",
+          "1982606525",
+          "0062838636",
+          "0062838679",
+          "9780062838643",
+          "9780062838636",
+          "9780062838674",
+          "0062838644"
+        ],
+        "key": "/works/OL20152712W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Alter Ego Effect"
+      }
+    ]
+  },
+  "work": {
+    "title": "The Alter Ego Effect",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-10-04T01:54:11.594088"
+    },
+    "covers": [
+      8797399
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2019-10-04T01:54:11.594088"
+    },
+    "latest_revision": 1,
+    "key": "/works/OL20152712W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3031996A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

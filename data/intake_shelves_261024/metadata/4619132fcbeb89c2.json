@@ -1,0 +1,103 @@
+{
+  "title": "Cancer Ward",
+  "author": "Aleksandr Solzhenitsyn",
+  "url": "https://openlibrary.org/search.json?title=Cancer%20Ward&author=Aleksandr%20Solzhenitsyn&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:45:45.467Z",
+  "status": 200,
+  "search": {
+    "numFound": 10,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 10,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Александр Исаевич Солженицын"
+        ],
+        "first_publish_year": 1997,
+        "isbn": [
+          "9780141180564",
+          "0141180560",
+          "0099745313",
+          "9780099745310"
+        ],
+        "key": "/works/OL29335918W",
+        "language": [
+          "rus",
+          "eng"
+        ],
+        "title": "Cancer Ward",
+        "subject": [
+          "Continental european fiction (fictional works by one author)",
+          "Soviet union, fiction",
+          "Cancer",
+          "Patients",
+          "Fiction"
+        ]
+      },
+      {
+        "author_name": [
+          "Aleksandr I. Solzhenitsyn"
+        ],
+        "first_publish_year": 1972,
+        "isbn": [
+          "0055304753",
+          "9780055304759"
+        ],
+        "key": "/works/OL28965109W",
+        "title": "Cancer Ward"
+      },
+      {
+        "author_name": [
+          "Александр Исаевич Солженицын"
+        ],
+        "first_publish_year": 1969,
+        "key": "/works/OL29298491W",
+        "language": [
+          "eng"
+        ],
+        "title": "Cancer Ward"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Cancer Ward",
+    "subjects": [
+      "Continental european fiction (fictional works by one author)",
+      "Soviet union, fiction",
+      "Cancer",
+      "Patients",
+      "Fiction"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL222507A"
+        }
+      }
+    ],
+    "key": "/works/OL29335918W",
+    "covers": [
+      13623304
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-11-17T11:39:27.758173"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-09-26T21:04:24.317814"
+    }
+  }
+}

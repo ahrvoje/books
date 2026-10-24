@@ -1,0 +1,69 @@
+{
+  "title": "My Father's Business",
+  "author": "Cal Turner Jr",
+  "url": "https://openlibrary.org/search.json?title=My%20Father's%20Business&author=Cal%20Turner%20Jr&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:30:03.411Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Turner, Cal, Jr.",
+          "Rob Simbeck"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "9781478992974",
+          "1478992972"
+        ],
+        "key": "/works/OL25890731W",
+        "language": [
+          "eng"
+        ],
+        "title": "My Father's Business"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "My Father's Business",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9784247A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1602022A"
+        }
+      }
+    ],
+    "key": "/works/OL25890731W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-10-09T10:00:41.963907"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-10-09T10:00:41.963907"
+    }
+  }
+}

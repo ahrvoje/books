@@ -1,0 +1,105 @@
+{
+  "title": "A History of Science",
+  "author": "John Gribbin",
+  "url": "https://openlibrary.org/search.json?title=A%20History%20of%20Science&author=John%20Gribbin&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:30:24.894Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John R. Gribbin"
+        ],
+        "first_publish_year": 1998,
+        "isbn": [
+          "9781902328454",
+          "9780297824497",
+          "0760710651",
+          "1902328450",
+          "9780760711835",
+          "9780760710654",
+          "9781841880365",
+          "0760711836",
+          "1841880361",
+          "203505110X",
+          "9782035051103",
+          "029782449X"
+        ],
+        "key": "/works/OL7918907W",
+        "language": [
+          "eng",
+          "fre"
+        ],
+        "title": "A Brief History of Science",
+        "subject": [
+          "Science",
+          "Popular works",
+          "History",
+          "Discoveries in science",
+          "Science, history"
+        ]
+      },
+      {
+        "author_name": [
+          "John Gribbin"
+        ],
+        "first_publish_year": 1998,
+        "key": "/works/OL43021938W",
+        "language": [
+          "eng"
+        ],
+        "title": "A Brief History of Science"
+      }
+    ]
+  },
+  "work": {
+    "title": "A Brief History of Science",
+    "key": "/works/OL7918907W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL24877A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Science",
+      "Popular works",
+      "History",
+      "Discoveries in science",
+      "Science, history"
+    ],
+    "covers": [
+      13066500,
+      14447269,
+      14906075
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Tells the story of the development of scientific theory, from the dawn of history to now: the leaps of imagination, the intellectual virtuosity, and the sheer hard work that has accompanied this pursuit of truth."
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:13:16.993636"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-03-09T18:40:19.890468"
+    }
+  }
+}

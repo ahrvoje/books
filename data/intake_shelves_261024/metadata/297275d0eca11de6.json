@@ -1,0 +1,81 @@
+{
+  "title": "Imperial Tragedy",
+  "author": "Michael Kulikowski",
+  "url": "https://openlibrary.org/search.json?title=Imperial%20Tragedy&author=Michael%20Kulikowski&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:51:56.983Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Michael Kulikowski"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "9781781256336",
+          "1781256330"
+        ],
+        "key": "/works/OL25766756W",
+        "language": [
+          "eng"
+        ],
+        "title": "Imperial Tragedy",
+        "subject": [
+          "Italy, history"
+        ]
+      },
+      {
+        "author_name": [
+          "Professor Michael Kulikowski"
+        ],
+        "first_publish_year": 2019,
+        "isbn": [
+          "1781256322",
+          "9781781256329"
+        ],
+        "key": "/works/OL34778829W",
+        "title": "Imperial Tragedy",
+        "subject": [
+          "Rome, history, empire, 30 b.c.-476 a.d."
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Imperial Tragedy",
+    "subjects": [
+      "Italy, history"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2771970A"
+        }
+      }
+    ],
+    "key": "/works/OL25766756W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-10-07T04:34:05.776054"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-10-07T04:34:05.776054"
+    }
+  }
+}

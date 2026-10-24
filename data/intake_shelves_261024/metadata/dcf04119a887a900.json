@@ -1,0 +1,110 @@
+{
+  "title": "Cenotaph",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Cenotaph&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:32:47.439Z",
+  "status": 200,
+  "search": {
+    "numFound": 53,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 53,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Robert E. Vardeman"
+        ],
+        "first_publish_year": 1983,
+        "isbn": [
+          "0441098452",
+          "9780441098453"
+        ],
+        "key": "/works/OL4653608W",
+        "language": [
+          "eng"
+        ],
+        "title": "Cenotaph Road",
+        "subject": [
+          "Fiction, fantasy, general",
+          "Cenotaph road (imaginary place), fiction"
+        ]
+      },
+      {
+        "author_name": [
+          "Robert E. Vardeman"
+        ],
+        "first_publish_year": 1985,
+        "isbn": [
+          "9780441098460",
+          "0441098460"
+        ],
+        "key": "/works/OL4653607W",
+        "language": [
+          "eng"
+        ],
+        "title": "Cenotaph Road",
+        "subject": [
+          "Fiction, fantasy, general",
+          "Cenotaph road (imaginary place), fiction"
+        ]
+      },
+      {
+        "author_name": [
+          "Eric Pankey"
+        ],
+        "first_publish_year": 2000,
+        "isbn": [
+          "0375407642",
+          "9780375407642",
+          "9780375709746",
+          "0375709746"
+        ],
+        "key": "/works/OL27349W",
+        "language": [
+          "eng"
+        ],
+        "title": "Cenotaph"
+      }
+    ]
+  },
+  "work": {
+    "title": "Cenotaph Road",
+    "covers": [
+      7155261
+    ],
+    "key": "/works/OL4653608W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL956432A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Fiction, fantasy, general",
+      "Cenotaph road (imaginary place), fiction"
+    ],
+    "genres": [
+      "/tags/OL169T"
+    ],
+    "latest_revision": 9,
+    "revision": 9,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T07:04:32.608650"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-09-07T10:10:54.332941"
+    }
+  }
+}

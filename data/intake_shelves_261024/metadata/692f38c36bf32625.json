@@ -1,0 +1,68 @@
+{
+  "title": "Open Socrates: The Case for a Philosophical Life",
+  "author": "Agnes Callard",
+  "url": "https://openlibrary.org/search.json?title=Open%20Socrates&author=Agnes%20Callard&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:41:41.582Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Agnes Callard"
+        ],
+        "first_publish_year": 2025,
+        "isbn": [
+          "0241476194",
+          "9780241476192",
+          "1631498460",
+          "9781631498466"
+        ],
+        "key": "/works/OL42406398W",
+        "language": [
+          "eng"
+        ],
+        "title": "Open Socrates",
+        "subject": [
+          "Philosophy"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Open Socrates",
+    "subjects": [
+      "Philosophy"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8104947A"
+        }
+      }
+    ],
+    "key": "/works/OL42406398W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2025-01-24T21:39:05.026198"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-01-24T21:39:05.026198"
+    }
+  }
+}

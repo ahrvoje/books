@@ -1,0 +1,96 @@
+{
+  "title": "Beyond Measure",
+  "author": "Jim Baggott",
+  "url": "https://openlibrary.org/search.json?title=Beyond%20Measure&author=Jim%20Baggott&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:29:40.590Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jim Baggott"
+        ],
+        "first_publish_year": 2003,
+        "isbn": [
+          "9780198525363",
+          "9780198529279",
+          "0198525362",
+          "0198529279"
+        ],
+        "key": "/works/OL8013361W",
+        "language": [
+          "eng"
+        ],
+        "title": "Beyond Measure",
+        "subject": [
+          "Quantum theory",
+          "Physics",
+          "Philosophy"
+        ]
+      },
+      {
+        "author_name": [
+          "Jim Baggott"
+        ],
+        "first_publish_year": 2003,
+        "isbn": [
+          "9780198525363",
+          "0198525362"
+        ],
+        "key": "/works/OL13619510W",
+        "language": [
+          "eng",
+          "und"
+        ],
+        "title": "BEYOND MEASURE: MODERN PHYSICS, PHILOSOPHY AND THE MEANING OF QUANTUM THEORY",
+        "subject": [
+          "Quantum theory",
+          "Physics",
+          "Philosophy"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Quantum theory",
+      "Physics",
+      "Philosophy"
+    ],
+    "key": "/works/OL8013361W",
+    "title": "Beyond Measure",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2667667A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      1135786
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T22:18:01.444799"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-12-08T03:22:49.940142"
+    }
+  }
+}

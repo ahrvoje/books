@@ -1,0 +1,78 @@
+{
+  "title": "Mindshift",
+  "author": "Barbara Oakley",
+  "url": "https://openlibrary.org/search.json?title=Mindshift&author=Barbara%20Oakley&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:28:48.229Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Barbara A. Oakley"
+        ],
+        "first_publish_year": 2017,
+        "isbn": [
+          "1101982853",
+          "9781101982853"
+        ],
+        "key": "/works/OL20053918W",
+        "language": [
+          "eng"
+        ],
+        "title": "Mindshift",
+        "subject": [
+          "Continuing education",
+          "Self-actualization (Psychology)",
+          "Adult education",
+          "Learning disabilities",
+          "EDUCATION / Adult & Continuing Education"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Continuing education",
+      "Self-actualization (Psychology)",
+      "Adult education",
+      "Learning disabilities",
+      "EDUCATION / Adult & Continuing Education"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"Mindshift reveals how we can overcome stereotypes and preconceived ideas about what is possible for us to learn and become. At a time when we are constantly being asked to retrain and reinvent ourselves to adapt to new technologies and changing industries, this book shows us how we can uncover and develop talents we didn't realize we had--no matter what our age or background. Drawing on the latest neuroscientific insights, Dr. Oakley shepherds us past simplistic ideas of 'aptitude' and 'ability,' which provide only a snapshot of who we are now. Even seemingly 'bad' traits, such as a poor memory, come with hidden advantages--like increased creativity. Dr. Oakley teaches us strategies for learning that are backed by neuroscience so that we can realize the joy and benefits of a learning lifestyle\"--"
+    },
+    "key": "/works/OL20053918W",
+    "title": "Mindshift",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL526596A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-19T22:41:46.630576"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-08-30T01:31:30.197847"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "title": "Cut to the Chase",
+  "author": "Stuart Levine",
+  "url": "https://openlibrary.org/search.json?title=Cut%20to%20the%20Chase&author=Stuart%20Levine&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:23:57.033Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Stuart R. Levine"
+        ],
+        "first_publish_year": 2006,
+        "isbn": [
+          "0385516207",
+          "1905211414",
+          "9781407059891",
+          "9781905211418",
+          "1407059890",
+          "9780385516204"
+        ],
+        "key": "/works/OL3907603W",
+        "language": [
+          "eng"
+        ],
+        "title": "Cut to the Chase",
+        "subject": [
+          "Self-management (Psychology)",
+          "Organizational effectiveness",
+          "Interpersonal relations",
+          "Time management",
+          "Self-management (psychology)"
+        ]
+      },
+      {
+        "author_name": [
+          "Stuart Levine"
+        ],
+        "first_publish_year": 2006,
+        "isbn": [
+          "9781400133017",
+          "1400133017",
+          "1400153018",
+          "9781400153015"
+        ],
+        "key": "/works/OL6907808W",
+        "language": [
+          "eng"
+        ],
+        "title": "Cut to the Chase"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T04:50:20.744229"
+    },
+    "subjects": [
+      "Self-management (Psychology)",
+      "Organizational effectiveness",
+      "Interpersonal relations",
+      "Time management",
+      "Self-management (psychology)"
+    ],
+    "latest_revision": 4,
+    "key": "/works/OL3907603W",
+    "title": "Cut to the Chase",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL710994A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-10-09T00:26:37.717195"
+    },
+    "covers": [
+      242882
+    ],
+    "revision": 4
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://openlibrary.org/search.json?title=The%20Narrow%20Corridor&author=Daron%20Acemoglu&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-24T09:30:44.188Z",
+  "status": 200,
+  "data": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Daron Acemoglu",
+          "James A. Robinson"
+        ],
+        "edition_key": [
+          "OL29875181M",
+          "OL29466847M",
+          "OL27410795M"
+        ],
+        "key": "/works/OL20220421W",
+        "title": "The Narrow Corridor"
+      },
+      {
+        "author_name": [
+          "Daron Acemoglu"
+        ],
+        "edition_key": [
+          "OL33900449M"
+        ],
+        "key": "/works/OL25313265W",
+        "title": "The Narrow Corridor"
+      },
+      {
+        "author_name": [
+          "Daron Acemoglu"
+        ],
+        "edition_key": [
+          "OL27857078M"
+        ],
+        "key": "/works/OL20605785W",
+        "title": "THE NARROW CORRIDOR"
+      }
+    ]
+  },
+  "file": "data/top500_261024/raw/ee8d7e7fb87de6dc.json"
+}

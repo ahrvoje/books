@@ -1,0 +1,99 @@
+{
+  "title": "Focus",
+  "author": "Leo Babauta",
+  "url": "https://openlibrary.org/search.json?title=Focus&author=Leo%20Babauta&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:12.431Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Leo Babauta"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "1434103072",
+          "9780984376490",
+          "9781434116048",
+          "9781434103079",
+          "1434116042",
+          "0984376496"
+        ],
+        "key": "/works/OL27434797W",
+        "language": [
+          "eng"
+        ],
+        "title": "Focus"
+      },
+      {
+        "author_name": [
+          "Leo Babauta"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "9789049200763",
+          "9049200761"
+        ],
+        "key": "/works/OL24991538W",
+        "language": [
+          "dut"
+        ],
+        "title": "Focus!",
+        "subject": [
+          "Tijdmanagement",
+          "Tijdsindeling",
+          "Time management"
+        ]
+      },
+      {
+        "author_name": [
+          "Leo Babauta"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "9781326235994",
+          "1326235990"
+        ],
+        "key": "/works/OL29114005W",
+        "language": [
+          "fre"
+        ],
+        "title": "Focus - l'Art de Se Concentrer"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Focus",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6816681A"
+        }
+      }
+    ],
+    "key": "/works/OL27434797W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-03-01T04:40:26.792965"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-03-01T04:40:26.792965"
+    }
+  }
+}

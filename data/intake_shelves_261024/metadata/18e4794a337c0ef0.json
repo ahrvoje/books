@@ -1,0 +1,83 @@
+{
+  "title": "At the Loch of the Green Corrie",
+  "author": "Andrew Greig",
+  "url": "https://openlibrary.org/search.json?title=At%20the%20Loch%20of%20the%20Green%20Corrie&author=Andrew%20Greig&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:45:35.587Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Andrew Greig"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "9780857381361",
+          "9781847249968",
+          "1847249965",
+          "0857381369"
+        ],
+        "key": "/works/OL15418958W",
+        "language": [
+          "eng"
+        ],
+        "title": "At the Loch of the Green Corrie",
+        "subject": [
+          "Friends and associates",
+          "Fishing",
+          "Description and travel",
+          "Fishing, scotland",
+          "Scotland, description and travel"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "key": "/works/OL15418958W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL262398A"
+        }
+      }
+    ],
+    "title": "At the Loch of the Green Corrie",
+    "subject_places": [
+      "Highlands",
+      "Scotland"
+    ],
+    "subjects": [
+      "Friends and associates",
+      "Fishing",
+      "Description and travel",
+      "Fishing, scotland",
+      "Scotland, description and travel"
+    ],
+    "subject_people": [
+      "Andrew Greig"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-10-21T23:38:05.465517"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-16T23:22:36.222187"
+    }
+  }
+}

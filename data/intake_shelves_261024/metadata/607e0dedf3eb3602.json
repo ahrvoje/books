@@ -1,0 +1,65 @@
+{
+  "title": "How to Know Everything",
+  "author": "Elke Wiss",
+  "url": "https://openlibrary.org/search.json?title=How%20to%20Know%20Everything&author=Elke%20Wiss&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:23:42.276Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Elke Wiss"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "1787467686",
+          "1473591457",
+          "9781787467682",
+          "9781473591455"
+        ],
+        "key": "/works/OL25275448W",
+        "language": [
+          "eng"
+        ],
+        "title": "How to Know Everything"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "How to Know Everything",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9552944A"
+        }
+      }
+    ],
+    "key": "/works/OL25275448W",
+    "covers": [
+      13290498
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-09-22T01:47:46.302428"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-02-11T01:39:27.034140"
+    }
+  }
+}

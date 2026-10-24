@@ -1,0 +1,90 @@
+{
+  "title": "Half Known Life",
+  "author": "Pico Iyer",
+  "url": "https://openlibrary.org/search.json?title=Half%20Known%20Life&author=Pico%20Iyer&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:20.570Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Pico Iyer"
+        ],
+        "first_publish_year": 2023,
+        "isbn": [
+          "9780593420256",
+          "059342025X"
+        ],
+        "key": "/works/OL27774938W",
+        "title": "The Half Known Life"
+      },
+      {
+        "author_name": [
+          "Pico Iyer"
+        ],
+        "first_publish_year": 2024,
+        "isbn": [
+          "9781526655028",
+          "1526655020"
+        ],
+        "key": "/works/OL37826703W",
+        "language": [
+          "eng"
+        ],
+        "title": "Half Known Life",
+        "subject": [
+          "Religion"
+        ]
+      },
+      {
+        "author_name": [
+          "Pico Iyer"
+        ],
+        "first_publish_year": 2023,
+        "isbn": [
+          "1526655012",
+          "9781526655011"
+        ],
+        "key": "/works/OL37505774W",
+        "title": "Half Known Life"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The Half Known Life",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL540629A"
+        }
+      }
+    ],
+    "key": "/works/OL27774938W",
+    "covers": [
+      13136852
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-05-21T13:11:41.890747"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-07-20T01:08:30.724095"
+    }
+  }
+}

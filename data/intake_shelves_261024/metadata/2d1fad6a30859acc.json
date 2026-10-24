@@ -1,0 +1,110 @@
+{
+  "title": "Show Your Work",
+  "author": "Austin Kleon",
+  "url": "https://openlibrary.org/search.json?title=Show%20Your%20Work&author=Austin%20Kleon&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:22:58.004Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Austin Kleon"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "9780761178972",
+          "9783442392995",
+          "9780761181361",
+          "9780606356398",
+          "9788532530905",
+          "0606356398",
+          "3442392993",
+          "1974052265",
+          "8532530907",
+          "9781974052264",
+          "0761181369",
+          "076117897X"
+        ],
+        "key": "/works/OL16821630W",
+        "language": [
+          "eng",
+          "por"
+        ],
+        "title": "Show Your Work!",
+        "subject": [
+          "Career development",
+          "Business networks",
+          "Success in business",
+          "Créativité",
+          "Schaffensprozess",
+          "Vocational guidance",
+          "Kreativität",
+          "Bekanntheit",
+          "Erfolg",
+          "Success",
+          "Netzwerk",
+          "Business",
+          "Kunst",
+          "nyt:advice-how-to-and-miscellaneous=2014-03-09",
+          "New York Times bestseller"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Career development",
+      "Business networks",
+      "Success in business",
+      "Créativité",
+      "Schaffensprozess",
+      "Vocational guidance",
+      "Kreativität",
+      "Bekanntheit",
+      "Erfolg",
+      "Success",
+      "Netzwerk",
+      "Business",
+      "Kunst",
+      "nyt:advice-how-to-and-miscellaneous=2014-03-09",
+      "New York Times bestseller"
+    ],
+    "key": "/works/OL16821630W",
+    "title": "Show Your Work!",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6789787A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      7284188,
+      8476111,
+      9947393
+    ],
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2014-07-20T01:41:54.815298"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-11-27T23:15:00.117696"
+    }
+  }
+}

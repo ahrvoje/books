@@ -1,0 +1,68 @@
+{
+  "title": "Nothing & Everything",
+  "author": "Val N. Tine",
+  "url": "https://openlibrary.org/search.json?title=Nothing%20%26%20Everything&author=Val%20N.%20Tine&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:21:07.723Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Val N. Tine"
+        ],
+        "first_publish_year": 2017,
+        "isbn": [
+          "1521711917",
+          "9781521711910"
+        ],
+        "key": "/works/OL27421017W",
+        "language": [
+          "eng"
+        ],
+        "title": "Nothing & Everything",
+        "subject": [
+          "Nihilism",
+          "Emptiness (Philosophy)"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Nothing & Everything",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL10271941A"
+        }
+      }
+    ],
+    "key": "/works/OL27421017W",
+    "subjects": [
+      "Nihilism",
+      "Emptiness (Philosophy)"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-02-28T15:17:04.179015"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-04-21T12:11:55.280046"
+    }
+  }
+}

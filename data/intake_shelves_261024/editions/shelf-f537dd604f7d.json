@@ -1,0 +1,27 @@
+{
+  "id": "shelf-f537dd604f7d",
+  "title": "Anchored",
+  "author": "Lucas Skrobot",
+  "retrieved": "2026-10-24",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/isbn/1696567629.json",
+      "status": 200
+    },
+    {
+      "url": "https://openlibrary.org/works/OL30146188W/editions.json?limit=50",
+      "status": 503
+    },
+    {
+      "url": "https://www.amazon.de/dp/1696567629",
+      "status": 200,
+      "bytes": 3815
+    }
+  ],
+  "retried": false,
+  "sourceNoteISBN": "1696567629",
+  "error": "SyntaxError: Unexpected token '<', \"<html><bod\"... is not valid JSON",
+  "amazonURL": "https://www.amazon.de/dp/1696567629",
+  "isbn": "1696567629",
+  "amazonText": " Amazon.de Klicke auf die Schaltfläche unten, um mit dem Einkauf fortzufahren Weiter shoppen Unsere AGB Datenschutzerklärung &copy; 1996-2025, Amazon.com, Inc. oder Tochtergesellschaften "
+}

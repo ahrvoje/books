@@ -1,0 +1,85 @@
+{
+  "title": "Excuse Me Sir, Would You Like to Buy a Kilo of Isopropyl Bromide",
+  "author": "Max Gergel",
+  "url": "https://openlibrary.org/search.json?title=Excuse%20Me%20Sir%2C%20Would%20You%20Like%20to%20Buy%20a%20Kilo%20of%20Isopropyl%20Bromide&author=Max%20Gergel&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:30:06.919Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Max G Gergel"
+        ],
+        "first_publish_year": 1977,
+        "key": "/works/OL13680069W",
+        "language": [
+          "eng"
+        ],
+        "title": "Excuse me sir, would you like to buy a kilo of isopropyl bromide?",
+        "subject": [
+          "Chemists",
+          "Biography"
+        ]
+      },
+      {
+        "author_name": [
+          "Max Gergel"
+        ],
+        "first_publish_year": 1979,
+        "key": "/works/OL44186804W",
+        "title": "Excuse Me Sir, Would You Like to Buy a Kilo of Isopropyl Bromide?"
+      },
+      {
+        "author_name": [
+          "Max G. Gergel"
+        ],
+        "first_publish_year": 1979,
+        "key": "/works/OL12976554W",
+        "language": [
+          "eng"
+        ],
+        "title": "Excuse me sir, would you like to buy a kilo of isopropyl bromide?"
+      }
+    ]
+  },
+  "work": {
+    "key": "/works/OL13680069W",
+    "title": "Excuse me sir, would you like to buy a kilo of isopropyl bromide?",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T10:18:41.265982"
+    },
+    "first_publish_date": "1977",
+    "latest_revision": 2,
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-01-29T13:49:34.332180"
+    },
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL6534969A"
+        }
+      }
+    ],
+    "subject_people": [
+      "Max G Gergel"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Chemists",
+      "Biography"
+    ],
+    "revision": 2
+  }
+}

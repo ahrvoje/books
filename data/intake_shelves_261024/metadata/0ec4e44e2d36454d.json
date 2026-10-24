@@ -1,0 +1,68 @@
+{
+  "title": "Rural Hours",
+  "author": "Harriet Baker",
+  "url": "https://openlibrary.org/search.json?title=Rural%20Hours&author=Harriet%20Baker&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:51:32.884Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Harriet Baker"
+        ],
+        "first_publish_year": 2024,
+        "isbn": [
+          "0141998598",
+          "9780241540510",
+          "0241540518",
+          "9780141998596"
+        ],
+        "key": "/works/OL37572068W",
+        "language": [
+          "eng"
+        ],
+        "title": "Rural Hours",
+        "subject": [
+          "English literature"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Rural Hours",
+    "subjects": [
+      "English literature"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL13515253A"
+        }
+      }
+    ],
+    "key": "/works/OL37572068W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-01-31T00:02:22.601074"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-01-31T00:02:22.601074"
+    }
+  }
+}

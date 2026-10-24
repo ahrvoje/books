@@ -1,0 +1,64 @@
+{
+  "title": "Prototype Nation",
+  "author": "Silvia M. Lindtner",
+  "url": "https://openlibrary.org/search.json?title=Prototype%20Nation&author=Silvia%20M.%20Lindtner&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:52.562Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Silvia M. Lindtner"
+        ],
+        "first_publish_year": 2020,
+        "isbn": [
+          "0691207674",
+          "0691204950",
+          "9780691179483",
+          "0691179484",
+          "9780691204956",
+          "9780691207674"
+        ],
+        "key": "/works/OL21686575W",
+        "language": [
+          "eng"
+        ],
+        "title": "Prototype Nation"
+      }
+    ]
+  },
+  "work": {
+    "title": "Prototype Nation",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-26T12:05:39.419699"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-26T12:05:39.419699"
+    },
+    "latest_revision": 1,
+    "key": "/works/OL21686575W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8296487A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

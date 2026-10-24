@@ -1,0 +1,77 @@
+{
+  "title": "Cows, Pigs, Wars, and Witches",
+  "author": "Marvin Harris",
+  "url": "https://openlibrary.org/search.json?title=Cows%2C%20Pigs%2C%20Wars%2C%20and%20Witches&author=Marvin%20Harris&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:21:25.514Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Marvin Harris"
+        ],
+        "first_publish_year": 1975,
+        "isbn": [
+          "009122750X",
+          "9780006341116",
+          "000634111X",
+          "9780091227500"
+        ],
+        "key": "/works/OL29346583W",
+        "language": [
+          "eng"
+        ],
+        "title": "Cows, Pigs, Wars and Witches",
+        "subject": [
+          "Ethnology",
+          "Witchcraft",
+          "Social sciences",
+          "Customs & traditions"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Cows, Pigs, Wars and Witches",
+    "subjects": [
+      "Ethnology",
+      "Witchcraft",
+      "Social sciences",
+      "Customs & traditions"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL30811A"
+        }
+      }
+    ],
+    "key": "/works/OL29346583W",
+    "covers": [
+      14151924
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-11-17T20:10:36.993738"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-19T20:15:17.589840"
+    }
+  }
+}

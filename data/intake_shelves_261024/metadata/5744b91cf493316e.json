@@ -1,0 +1,94 @@
+{
+  "title": "The Lady Tasting Tea",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=The%20Lady%20Tasting%20Tea&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:39:19.982Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David Salsburg"
+        ],
+        "first_publish_year": 2001,
+        "isbn": [
+          "9780805071344",
+          "853780116X",
+          "9780716741060",
+          "0716741067",
+          "0805071342",
+          "9788537801161"
+        ],
+        "key": "/works/OL4274440W",
+        "language": [
+          "eng",
+          "por"
+        ],
+        "title": "The Lady Tasting Tea",
+        "subject": [
+          "History",
+          "Science",
+          "Statistical methods",
+          "Statistiek",
+          "Science, statistical methods",
+          "Statistics",
+          "Statistics as Topic"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      580975,
+      12370446
+    ],
+    "key": "/works/OL4274440W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL828505A"
+        }
+      }
+    ],
+    "title": "The Lady Tasting Tea",
+    "subjects": [
+      "History",
+      "Science",
+      "Statistical methods",
+      "Statistiek",
+      "Science, statistical methods",
+      "Statistics",
+      "Statistics as Topic"
+    ],
+    "subject_times": [
+      "20th century"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "Discusses how statistics have changed the field of science in the twentieth century, focusing on the theories and ideas of famous scientists and thinkers."
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T05:53:06.973288"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-12-02T04:37:30.582979"
+    }
+  }
+}

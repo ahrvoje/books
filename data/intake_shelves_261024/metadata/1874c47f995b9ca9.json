@@ -1,0 +1,115 @@
+{
+  "title": "Dinosaur Comics",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Dinosaur%20Comics&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:37:02.206Z",
+  "status": 200,
+  "search": {
+    "numFound": 27,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 27,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "MK Reed"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "9781626721449",
+          "1626727287",
+          "1626721440",
+          "9781626727281"
+        ],
+        "key": "/works/OL20229967W",
+        "title": "Science Comics : Dinosaurs",
+        "subject": [
+          "Dinosaurs",
+          "Dinosaurs, juvenile literature",
+          "Fossils",
+          "Fossils, juvenile literature",
+          "Paleontology, juvenile literature",
+          "Cartoons and comics",
+          "Juvenile",
+          "series:Science_comics"
+        ]
+      },
+      {
+        "author_name": [
+          "Jacques Boivin"
+        ],
+        "first_publish_year": 1983,
+        "key": "/works/OL11985251W",
+        "language": [
+          "eng"
+        ],
+        "title": "Dinosaur comics",
+        "subject": [
+          "Dinosaurs",
+          "Comic books, strips, etc",
+          "Comic books, strips"
+        ]
+      },
+      {
+        "author_name": [
+          "Tracey Turner"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "9781408817469",
+          "1408817462"
+        ],
+        "key": "/works/OL17392607W",
+        "title": "The Comic Strip Book Of Dinosaurs",
+        "subject": [
+          "Dinosaurs",
+          "Miscellanea",
+          "Juvenile literature"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Dinosaurs",
+      "Dinosaurs, juvenile literature",
+      "Fossils",
+      "Fossils, juvenile literature",
+      "Paleontology, juvenile literature",
+      "Cartoons and comics",
+      "Juvenile",
+      "series:Science_comics"
+    ],
+    "key": "/works/OL20229967W",
+    "title": "Science Comics : Dinosaurs",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7487927A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8883631
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-10-12T08:53:44.690130"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-20T06:45:00.350219"
+    }
+  }
+}

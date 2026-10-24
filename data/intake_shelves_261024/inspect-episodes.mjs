@@ -1,0 +1,2 @@
+import fs from 'node:fs';import {dir,write,clean} from './capture.mjs';
+let rows=[];for(const f of fs.readdirSync(dir+'/episodes')){let s=fs.readFileSync(dir+'/episodes/'+f,'utf8');let a=[...s.matchAll(/self.__next_f.push\((.*?)\)<\/script>/gs)].map(m=>{try{return JSON.parse(m[1])[1]||''}catch{return ''}}).join('');write(dir+'/episodes/'+f+'.txt',a);let k=a.indexOf('What I learned');if(k<0)k=a.indexOf('description');rows.push({slug:f.replace('.html',''),sample:a.slice(k,k+1400)});}write(dir+'/episodes-inspected.json',rows);console.log(rows.slice(0,5));

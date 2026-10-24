@@ -1,0 +1,49 @@
+{
+  "url": "https://openlibrary.org/search.json?title=The%20Invention%20of%20Science&author=David%20Wootton&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-24T09:32:23.206Z",
+  "status": 200,
+  "data": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David Wootton"
+        ],
+        "edition_key": [
+          "OL30857388M",
+          "OL26884904M"
+        ],
+        "key": "/works/OL19666035W",
+        "title": "The invention of science"
+      },
+      {
+        "author_name": [
+          "David Wootton"
+        ],
+        "edition_key": [
+          "OL27444664M",
+          "OL34022920M"
+        ],
+        "key": "/works/OL20248668W",
+        "title": "The Invention of Science"
+      },
+      {
+        "author_name": [
+          "david wootton"
+        ],
+        "edition_key": [
+          "OL27443995M"
+        ],
+        "key": "/works/OL20248049W",
+        "title": "The Invention of Science"
+      }
+    ]
+  },
+  "file": "data/top500_261024/raw/b502ffd146f959a8.json"
+}

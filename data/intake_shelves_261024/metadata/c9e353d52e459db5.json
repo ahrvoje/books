@@ -1,0 +1,72 @@
+{
+  "title": "English Pastoral: An Inheritance",
+  "author": "James Rebanks",
+  "url": "https://openlibrary.org/search.json?title=English%20Pastoral&author=James%20Rebanks&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:41:36.933Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "James Rebanks"
+        ],
+        "first_publish_year": 2020,
+        "isbn": [
+          "0241501210",
+          "0241245729",
+          "0141982586",
+          "0141982578",
+          "9780141982588",
+          "9780241501214",
+          "9780241245729",
+          "9780141982571"
+        ],
+        "key": "/works/OL21682837W",
+        "language": [
+          "eng"
+        ],
+        "title": "English Pastoral",
+        "subject": [
+          "Agriculture"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "English Pastoral",
+    "key": "/works/OL21682837W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7487599A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Agriculture"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-26T10:48:36.146135"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-21T15:19:34.105488"
+    }
+  }
+}

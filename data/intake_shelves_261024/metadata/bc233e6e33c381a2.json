@@ -1,0 +1,72 @@
+{
+  "title": "Silently and Very Fast",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Silently%20and%20Very%20Fast&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:38:33.242Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Catherynne M Valente"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "9781936896004",
+          "1936896001"
+        ],
+        "key": "/works/OL20871323W",
+        "title": "Silently and Very Fast"
+      },
+      {
+        "author_name": [
+          "Catherynne M. Valente"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "1936896028",
+          "9781936896028"
+        ],
+        "key": "/works/OL19920605W",
+        "title": "Silently and Very Fast"
+      }
+    ]
+  },
+  "work": {
+    "title": "Silently and Very Fast",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-06-16T22:55:51.803010"
+    },
+    "covers": [
+      10191198
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-06-16T22:55:51.803010"
+    },
+    "latest_revision": 1,
+    "key": "/works/OL20871323W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7686491A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

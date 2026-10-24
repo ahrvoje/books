@@ -1,0 +1,84 @@
+{
+  "title": "Do the Work",
+  "author": "Steven Pressfield",
+  "url": "https://openlibrary.org/search.json?title=Do%20the%20Work&author=Steven%20Pressfield&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:21:31.126Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Steven Pressfield"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "9781491513491",
+          "9781936891375",
+          "1491513497",
+          "1455820997",
+          "9781455820993",
+          "1936891379"
+        ],
+        "key": "/works/OL22106238W",
+        "title": "Do the Work"
+      },
+      {
+        "author_name": [
+          "Steven Pressfield"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "1936719010",
+          "9781936719013"
+        ],
+        "key": "/works/OL16965713W",
+        "language": [
+          "eng"
+        ],
+        "title": "Do the work!",
+        "subject": [
+          "Leadership",
+          "Motivation (Psychology)",
+          "Success"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "Do the Work",
+    "covers": [
+      10441643
+    ],
+    "key": "/works/OL22106238W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL33112A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-09-13T13:17:48.627350"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-03-10T08:59:11.322043"
+    }
+  }
+}

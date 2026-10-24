@@ -1,0 +1,62 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=ISBN:1962413225&jscmd=details&format=json",
+  "retrieved": "2026-10-24T09:29:15.482Z",
+  "status": 200,
+  "data": {
+    "ISBN:1962413225": {
+      "bib_key": "ISBN:1962413225",
+      "info_url": "http://openlibrary.org/books/OL52224415M/The_Making_of_Karateka",
+      "preview": "noview",
+      "preview_url": "http://openlibrary.org/books/OL52224415M/The_Making_of_Karateka",
+      "details": {
+        "type": {
+          "key": "/type/edition"
+        },
+        "authors": [
+          {
+            "key": "/authors/OL3907637A",
+            "name": "Jordan Mechner"
+          }
+        ],
+        "isbn_13": [
+          "9781962413220"
+        ],
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "publish_date": "2024",
+        "publishers": [
+          "Magnetic Press"
+        ],
+        "source_records": [
+          "bwb:9781962413220"
+        ],
+        "subjects": [
+          "Computers",
+          "Technology"
+        ],
+        "title": "The Making of Karateka",
+        "full_title": "The Making of Karateka",
+        "works": [
+          {
+            "key": "/works/OL28594042W"
+          }
+        ],
+        "key": "/books/OL52224415M",
+        "latest_revision": 1,
+        "revision": 1,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2024-06-21T20:54:45.939189"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2024-06-21T20:54:45.939189"
+        }
+      }
+    }
+  },
+  "file": "data/top500_261024/raw/c08c2e6c9858124c.json"
+}

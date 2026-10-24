@@ -1,0 +1,81 @@
+{
+  "title": "True Style",
+  "author": "G. Bruce Boyer",
+  "url": "https://openlibrary.org/search.json?title=True%20Style&author=G.%20Bruce%20Boyer&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:23:44.178Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "G. Bruce Boyer"
+        ],
+        "first_publish_year": 2015,
+        "isbn": [
+          "0465053998",
+          "0465061591",
+          "9780465061594",
+          "9780465053995"
+        ],
+        "key": "/works/OL20006762W",
+        "language": [
+          "eng"
+        ],
+        "title": "True style",
+        "subject": [
+          "Men's clothing",
+          "Grooming for men",
+          "DESIGN / Essays",
+          "DESIGN / Fashion"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Men's clothing",
+      "Grooming for men",
+      "DESIGN / Essays",
+      "DESIGN / Fashion"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"From choosing the right pair of eyeglasses to properly coordinating a tie, shirt, and pocket square, getting dressed is an art to be mastered. Yet how many of us just throw on, well, whatever in the morning? How many understand the subtleties of selecting the right pair of shoelaces or the most compatible patterns-much less the history, imperatives, and importance of our choices? In True Style, fashion expert G. Bruce Boyer provides a crisp, indispensable primer for this daily ritual, cataloguing the essential elements of the male wardrobe and showing how best to employ them. Detailing the evolution of the most classic items and traditions in menswear-from fabrics like denim and linen, to staples like blazers and button-down shirts, to the rules for combining them all-Boyer reveals what true style looks like, and why\"--"
+    },
+    "key": "/works/OL20006762W",
+    "title": "True style",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1013452A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      14752613
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-19T03:58:56.387199"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-04-23T00:43:11.567884"
+    }
+  }
+}

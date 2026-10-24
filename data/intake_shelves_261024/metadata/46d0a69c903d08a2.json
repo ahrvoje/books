@@ -1,0 +1,79 @@
+{
+  "title": "This Sovereign Isle: Britain In and Out of Europe",
+  "author": "Robert Tombs",
+  "url": "https://openlibrary.org/search.json?title=This%20Sovereign%20Isle&author=Robert%20Tombs&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:43:45.215Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Robert Tombs"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "9780241480380",
+          "0241480388",
+          "0141995033",
+          "0141995025",
+          "9780141995038",
+          "9780141995021"
+        ],
+        "key": "/works/OL21696405W",
+        "language": [
+          "eng"
+        ],
+        "title": "This Sovereign Isle",
+        "subject": [
+          "Great britain, history",
+          "History",
+          "Foreign relations",
+          "Diplomatic relations"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "This Sovereign Isle",
+    "key": "/works/OL21696405W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL20107A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Great britain, history",
+      "History",
+      "Foreign relations",
+      "Diplomatic relations"
+    ],
+    "covers": [
+      14687827
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-26T16:34:14.117234"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-10-28T07:57:14.769994"
+    }
+  }
+}

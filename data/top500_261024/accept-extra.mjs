@@ -1,0 +1,8 @@
+import fs from 'node:fs';
+const dir='data/top500_261024',books=JSON.parse(fs.readFileSync(dir+'/targets.json')),out={};
+const add=(needle,isbn,year,ranges,url,file,note='')=>{const b=books.find(b=>b.title.toLowerCase().includes(needle));if(!b)throw Error(needle);out[b.id]={referenceRecord:{pages:ranges.reduce((n,r)=>n+r[1]-r[0]+1,0),confidence:'moderate',ranges:ranges.map(([start,end,label])=>({start,end,label,method:'catalogued-range',evidence:label+' pages '+start+'–'+end})),method:'reviewed-catalog-range',edition:{id:'ISBN:'+isbn,title:b.title,author:b.author,year,language:'English'},url,source:{file:dir+'/'+file,retrieved:'2026-10-24'},sameEditionAsPG:false,limitation:'Documented sections only; index excluded. Search-index snapshot. Edition may differ from total-page edition. '+note}};};
+add('postwar','9780143037750',2006,[[835,878,'bibliographical references']],'https://www.cca.qc.ca/fr/recherche/details/library/publication/71333824','search-ref-128.json');
+add("einstein's clocks",'0393020010',2003,[[355,370,'bibliographical references']],'https://openlibrary.org/books/OL15550346M','search-ref-148.json');
+add('planet remade','9780691148250',2016,[[393,414,'bibliographical references']],'https://library.wur.nl/WebQuery/titel/2103990','search-ref-196.json');
+add('more work for mother','0465047319',1983,[[220,233,'Bibliographic essays'],[234,249,'Notes']],'https://wwws.loc.gov/rr/program/journey/household.html','search-ref-228.json','Library of Congress lists both sections; the narrower AGRIS bibliography range alone would omit the notes.');
+fs.writeFileSync(dir+'/manual-06.json',JSON.stringify(out,null,2)+'\n');

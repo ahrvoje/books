@@ -1,0 +1,79 @@
+{
+  "title": "Right Kind of Wrong",
+  "author": "Amy Edmondson",
+  "url": "https://openlibrary.org/search.json?title=Right%20Kind%20of%20Wrong&author=Amy%20Edmondson&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:30:20.613Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Amy C. Edmondson"
+        ],
+        "first_publish_year": 2023,
+        "isbn": [
+          "1982195061",
+          "1847943764",
+          "9781982195083",
+          "9781982195069",
+          "198219507X",
+          "1982195088",
+          "9781847943767",
+          "9781847943781",
+          "1847943780",
+          "9781847943774",
+          "1847943772",
+          "9781982195076"
+        ],
+        "key": "/works/OL34027233W",
+        "language": [
+          "eng"
+        ],
+        "title": "Right Kind of Wrong",
+        "subject": [
+          "Psychology, industrial"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Right Kind of Wrong",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1190992A"
+        }
+      }
+    ],
+    "key": "/works/OL34027233W",
+    "subjects": [
+      "Psychology, industrial"
+    ],
+    "covers": [
+      14416130
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2023-01-17T05:15:39.667087"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-04-15T20:44:39.557110"
+    }
+  }
+}

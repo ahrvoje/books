@@ -1,0 +1,86 @@
+{
+  "title": "The Simple Men",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=The%20Simple%20Men&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:38:56.471Z",
+  "status": 200,
+  "search": {
+    "numFound": 17,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 17,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David Troupes"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "9781906120603",
+          "1906120609"
+        ],
+        "key": "/works/OL32148188W",
+        "language": [
+          "eng"
+        ],
+        "title": "The simple men"
+      },
+      {
+        "author_name": [
+          "Marjorie ENNON"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "9798453397716"
+        ],
+        "key": "/works/OL29174266W",
+        "language": [
+          "eng"
+        ],
+        "title": "Simple Weight Tracker - Mens Vintage Dadzilla Father of the Monsters"
+      },
+      {
+        "author_name": [
+          "Shalana Frisby"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "1947209493",
+          "9781947209497"
+        ],
+        "key": "/works/OL19784942W",
+        "title": "The Simple Gratitude Journal: A Notebook for Men & Teen Boys (Christian Workbooks)"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The simple men",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL11667416A"
+        }
+      }
+    ],
+    "key": "/works/OL32148188W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-12-12T14:01:38.511720"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-12T14:01:38.511720"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "title": "Skip the Line",
+  "author": "James Altucher",
+  "url": "https://openlibrary.org/search.json?title=Skip%20the%20Line&author=James%20Altucher&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:27.006Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "James Altucher"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "9781799952275",
+          "9780753557976",
+          "9780062998934",
+          "0062998935",
+          "1799952266",
+          "0753557975",
+          "9780062998927",
+          "1799952274",
+          "0062998927",
+          "9781799952268"
+        ],
+        "key": "/works/OL21967809W",
+        "language": [
+          "eng"
+        ],
+        "title": "Skip the Line",
+        "subject": [
+          "Economics",
+          "Entrepreneurship",
+          "Self-realization",
+          "Success",
+          "Success in business",
+          "BUSINESS & ECONOMICS / Economics / General"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "Skip the Line",
+    "key": "/works/OL21967809W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1432690A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Economics",
+      "Entrepreneurship",
+      "Self-realization",
+      "Success",
+      "Success in business",
+      "BUSINESS & ECONOMICS / Economics / General"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-09-02T02:46:34.924664"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-12T08:40:52.772757"
+    }
+  }
+}

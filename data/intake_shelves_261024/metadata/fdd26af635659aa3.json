@@ -1,0 +1,76 @@
+{
+  "title": "Totally Random",
+  "author": "Tanya Bub and Jeffrey Bub",
+  "url": "https://openlibrary.org/search.json?title=Totally%20Random&author=Tanya%20Bub&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:29:29.768Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Tanya Bub"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "9781400890392",
+          "0691176957",
+          "9780691176956",
+          "140089039X"
+        ],
+        "key": "/works/OL19764590W",
+        "language": [
+          "eng"
+        ],
+        "title": "Totally random",
+        "subject": [
+          "Quantum theory",
+          "Mechanics",
+          "Comic books, strips"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-05-31T10:03:14.635668"
+    },
+    "subjects": [
+      "Quantum theory",
+      "Mechanics",
+      "Comic books, strips"
+    ],
+    "latest_revision": 1,
+    "description": {
+      "type": "/type/text",
+      "value": "\"Totally Random is a comic for the serious reader who wants to really understand the central mystery of quantum mechanics--entanglement: what it is, what it means, and what you can do with it\"--Inside cover flap."
+    },
+    "key": "/works/OL19764590W",
+    "title": "Totally random",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7544644A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2019-05-31T10:03:14.635668"
+    },
+    "revision": 1
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "title": "Causing a Scene",
+  "author": "Charlie Todd",
+  "url": "https://openlibrary.org/search.json?title=Causing%20a%20Scene&author=Charlie%20Todd&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:31.234Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Charlie Todd"
+        ],
+        "first_publish_year": 2009,
+        "isbn": [
+          "9780061876561",
+          "0061876569",
+          "9780061703638",
+          "0061876550",
+          "9780061876578",
+          "0061876585",
+          "0061876577",
+          "9780061876585",
+          "006170363X",
+          "9780061876554"
+        ],
+        "key": "/works/OL24607586W",
+        "language": [
+          "eng"
+        ],
+        "title": "Causing a Scene",
+        "subject": [
+          "Humor, form, jokes & riddles",
+          "Practical jokes"
+        ]
+      },
+      {
+        "author_name": [
+          "Charlie Todd"
+        ],
+        "first_publish_year": 2009,
+        "isbn": [
+          "0061876526",
+          "9780061703638",
+          "006170363X",
+          "0061876534",
+          "0061876542",
+          "9780061876523",
+          "9780061876530",
+          "9780061876547"
+        ],
+        "key": "/works/OL13683773W",
+        "language": [
+          "eng"
+        ],
+        "title": "Causing a scene",
+        "subject": [
+          "Practical jokes",
+          "Art",
+          "Nonfiction",
+          "Humor, form, jokes & riddles"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "Causing a Scene",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL6538495A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "key": "/works/OL24607586W",
+    "type": {
+      "key": "/type/work"
+    },
+    "subtitle": "Extraordinary Pranks in Ordinary Places with Improv Everywhere",
+    "subjects": [
+      "Humor, form, jokes & riddles",
+      "Practical jokes"
+    ],
+    "covers": [
+      11273787
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Shares behind-the-scenes accounts of pranks by the internationally popular improvisational group, describing the efforts behind some of their endeavors from the annual \"No Pants\" subway ride to their synchronized swimming show in a public fountain."
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-06-17T09:32:53.578546"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-09-06T22:22:21.951593"
+    }
+  }
+}

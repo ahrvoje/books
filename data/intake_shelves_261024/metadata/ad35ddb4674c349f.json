@@ -1,0 +1,102 @@
+{
+  "title": "Critical Assembly",
+  "author": "Lillian Hoddeson & Paul Henriksen",
+  "url": "https://openlibrary.org/search.json?title=Critical%20Assembly&author=Lillian%20Hoddeson%20%26%20Paul%20Henriksen&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:30:46.879Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Lillian Hoddeson",
+          "Paul W. Henriksen"
+        ],
+        "first_publish_year": 1992,
+        "isbn": [
+          "9780511665400",
+          "9780511882876",
+          "0521441560",
+          "9780521441568",
+          "0511882874",
+          "0511665407"
+        ],
+        "key": "/works/OL21381501W",
+        "language": [
+          "eng"
+        ],
+        "title": "Critical Assembly",
+        "subject": [
+          "Philosophy"
+        ]
+      },
+      {
+        "author_name": [
+          "Lillian Hoddeson",
+          "Paul W. Henriksen",
+          "Roger A. Meade",
+          "Catherine L. Westfall"
+        ],
+        "first_publish_year": 2004,
+        "isbn": [
+          "0521541174",
+          "9780521541176"
+        ],
+        "key": "/works/OL20995651W",
+        "language": [
+          "eng"
+        ],
+        "title": "Critical Assembly",
+        "subject": [
+          "Manhattan project (u.s.)",
+          "Atomic bomb",
+          "Los alamos (n.m.)"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-19T08:44:51.418606"
+    },
+    "title": "Critical Assembly",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-19T08:44:51.418606"
+    },
+    "subjects": [
+      "Philosophy"
+    ],
+    "latest_revision": 1,
+    "key": "/works/OL21381501W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2685377A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2766015A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

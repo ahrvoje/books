@@ -1,0 +1,87 @@
+{
+  "title": "Tribal",
+  "author": "Michael Morris",
+  "url": "https://openlibrary.org/search.json?title=Tribal&author=Michael%20Morris&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:21:39.569Z",
+  "status": 200,
+  "search": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Morris, Michael"
+        ],
+        "first_publish_year": 2024,
+        "isbn": [
+          "9780735218093",
+          "0735218099"
+        ],
+        "key": "/works/OL37845982W",
+        "language": [
+          "eng"
+        ],
+        "title": "Tribal"
+      },
+      {
+        "author_name": [
+          "Michael Morris"
+        ],
+        "first_publish_year": 2025,
+        "isbn": [
+          "1800755198",
+          "9781800755192"
+        ],
+        "key": "/works/OL44553879W",
+        "language": [
+          "eng"
+        ],
+        "title": "Tribal"
+      },
+      {
+        "author_name": [
+          "Michael Morris"
+        ],
+        "first_publish_year": 2024,
+        "isbn": [
+          "1800755171",
+          "9781800755178"
+        ],
+        "key": "/works/OL45986211W",
+        "title": "Tribal"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Tribal",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL651833A"
+        }
+      }
+    ],
+    "key": "/works/OL37845982W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-02-17T10:13:26.045570"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-02-17T10:13:26.045570"
+    }
+  }
+}

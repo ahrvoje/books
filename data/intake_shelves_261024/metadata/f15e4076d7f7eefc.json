@@ -1,0 +1,104 @@
+{
+  "title": "The Music Instinct",
+  "author": "Philip Ball",
+  "url": "https://openlibrary.org/search.json?title=The%20Music%20Instinct&author=Philip%20Ball&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:29:43.020Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Philip Ball"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "1847920888",
+          "9781847920881"
+        ],
+        "key": "/works/OL19937571W",
+        "language": [
+          "eng"
+        ],
+        "title": "The music instinct",
+        "subject": [
+          "Social aspects",
+          "Music",
+          "Music and science",
+          "Philosophy and aesthetics",
+          "Psychological aspects",
+          "History and criticism",
+          "Music appreciation"
+        ]
+      },
+      {
+        "author_name": [
+          "Philip Ball"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "0199754276",
+          "9780199754274"
+        ],
+        "key": "/works/OL16995607W",
+        "language": [
+          "eng"
+        ],
+        "title": "The music instinct",
+        "subject": [
+          "Music",
+          "Music and science",
+          "Philosophy and aesthetics",
+          "Social aspects",
+          "Psychological aspects",
+          "Music, philosophy and aesthetics"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "The music instinct",
+    "subjects": [
+      "Social aspects",
+      "Music",
+      "Music and science",
+      "Philosophy and aesthetics",
+      "Psychological aspects",
+      "History and criticism",
+      "Music appreciation"
+    ],
+    "key": "/works/OL19937571W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2644393A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      11419389
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-16T15:43:57.156228"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-01-02T04:41:12.023793"
+    }
+  }
+}

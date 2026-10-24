@@ -1,0 +1,73 @@
+{
+  "title": "Mendel's Demon",
+  "author": "Mark Ridley",
+  "url": "https://openlibrary.org/search.json?title=Mendel's%20Demon&author=Mark%20Ridley&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:31:14.880Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Mark Ridley"
+        ],
+        "first_publish_year": 2000,
+        "isbn": [
+          "9780753814109",
+          "0753814102",
+          "9780297646341",
+          "0297646346"
+        ],
+        "key": "/works/OL986810W",
+        "language": [
+          "eng"
+        ],
+        "title": "Mendel's Demon",
+        "subject": [
+          "Evolutionary genetics",
+          "Human evolution"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "Mendel's Demon",
+    "covers": [
+      501469
+    ],
+    "key": "/works/OL986810W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL91138A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Evolutionary genetics",
+      "Human evolution"
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T18:39:50.816788"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-06-17T02:48:41.286337"
+    }
+  }
+}

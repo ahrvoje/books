@@ -1,0 +1,78 @@
+{
+  "title": "Orwell: A Man Of Our Time",
+  "author": "Richard Bradford",
+  "url": "https://openlibrary.org/search.json?title=Orwell&author=Richard%20Bradford&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:42:52.523Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Richard Bradford"
+        ],
+        "first_publish_year": 2020,
+        "isbn": [
+          "9781448217694",
+          "1448217687",
+          "1448217695",
+          "9781448217687"
+        ],
+        "key": "/works/OL20744056W",
+        "language": [
+          "eng"
+        ],
+        "title": "Orwell",
+        "subject": [
+          "English literature",
+          "English literature, history and criticism, 20th century",
+          "Orwell, george, 1903-1950"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "English literature",
+      "English literature, history and criticism, 20th century",
+      "Orwell, george, 1903-1950"
+    ],
+    "subject_people": [
+      "George Orwell (1903-1950)"
+    ],
+    "key": "/works/OL20744056W",
+    "title": "Orwell",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2748725A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      13651675
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-05-17T00:05:39.396930"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-03-19T07:59:19.784544"
+    }
+  }
+}

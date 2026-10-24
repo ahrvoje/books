@@ -1,0 +1,98 @@
+{
+  "title": "The Search for the Elements",
+  "author": "Isaac Asimov",
+  "url": "https://openlibrary.org/search.json?title=The%20Search%20for%20the%20Elements&author=Isaac%20Asimov&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:30:24.926Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Isaac Asimov"
+        ],
+        "first_publish_year": 1962,
+        "isbn": [
+          "9788401803345",
+          "8401803349"
+        ],
+        "key": "/works/OL14959285W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Search for the Elements",
+        "subject": [
+          "Chemical elements",
+          "Juvenile literature"
+        ]
+      },
+      {
+        "author_name": [
+          "Isaac Asimov"
+        ],
+        "first_publish_year": 1962,
+        "isbn": [
+          "0465075398",
+          "9780465075393"
+        ],
+        "key": "/works/OL31673313W",
+        "title": "The Search for the Elements (Science & Discovery)"
+      },
+      {
+        "author_name": [
+          "Isaac Asimov"
+        ],
+        "first_publish_year": 1962,
+        "key": "/works/OL43099455W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Search for the Elements"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Chemical elements",
+      "Juvenile literature"
+    ],
+    "key": "/works/OL14959285W",
+    "title": "The Search for the Elements",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL34221A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      9300870
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "The story of the 2,600 year-long quest to identify the stuff of which the universe is made. Covering the tale from ancient to modern times, Asimov also discloses the follies and fakery along the way."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-03-15T22:20:40.167857"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-06-24T11:36:07.406558"
+    }
+  }
+}

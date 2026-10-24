@@ -1,0 +1,17 @@
+import fs from 'node:fs';
+import zlib from 'node:zlib';
+const dir='data/top500_261024',read=p=>JSON.parse(fs.readFileSync(dir+'/'+p)),out={},targets=read('targets.json');
+function add(id,ranges,edition,url,file,confidence='moderate',limitation='Bounded reference sections only; index excluded. Contents boundaries can include a final blank page. Edition matching is unconfirmed.') {
+ const b=targets.find(b=>b.id===id);
+ out[id]={referenceRecord:{pages:ranges.reduce((s,r)=>s+r.end-r.start+1,0),ranges,edition:{title:b.title,author:b.author,language:'English',...edition},url,source:{file,retrieved:'2026-10-24'},confidence,sameEditionAsPG:false,method:'reviewed-reference-sections',limitation}};
+}
+for(const [id,start,end,label]of [['g0894',323,324,'Recommended Readings'],['s51',275,278,'Bibliographical Essay'],['intake-0332',337,345,'Sources Further Reading'],['intake-0274',375,390,'A Note on Sources']]){
+ const c=read('google-contents-reviewed-candidates.json').find(x=>x.id===id),h=zlib.gunzipSync(fs.readFileSync(c.file)).toString(),volume=h.match(/"volume_id":"([^"]+)"/)?.[1];
+ add(id,[{start,end,label,method:'contents-boundary',evidence:c.toc.filter(x=>x.p>=start).map(x=>x.title+' '+x.p).join('; ')}],{id:'GoogleBooks:'+volume},c.url,c.file);
+}
+add('progress-0418',[{start:267,end:274,label:'Notes',method:'contents-boundary',evidence:'Notes 267 (8 pages); Index 275.'}],{id:'ISBN:156098998X',year:2001},'https://campusstore.miamioh.edu/moon-lander-how-we-developed-apollo-lunar/bk/9781560989981',dir+'/web-reference-special-02.json');
+const spans=[[7,7],[16,17],[21,22],[28,29],[36,37],[45,45],[51,52],[56,57],[63,64],[71,71],[79,80],[85,85],[89,90],[96,99],[105,106],[111,112],[120,122]];
+add('progress-0803',spans.map(([start,end])=>({start,end,label:'Chapter references',method:'direct-PDF-inspection',evidence:'Printed pages '+start+'–'+end+'; physical PDF offset +10. Reference heading and following author biography inspected.'})),{id:'CEPRPDF:WWII:2020',year:2020,physicalPages:133},read('raw/ww2economics.pdf.json').url,dir+'/raw/ww2economics.pdf','high','Seventeen chapter reference sections. Counts pages occupied by references, including pages shared with prose or author biography; excludes pages containing only biographies. Physical PDF extent is 133; page-count edition match remains unconfirmed.');
+const id='n173dd4c6a8',a=read('amazon.json').books[id],attempt=a.attempts.find(x=>x.url.endsWith('/0738200301')),h=zlib.gunzipSync(fs.readFileSync(attempt.rawFile)).toString();
+out[id]={amazon:{...a.amazon,count:74,url:attempt.url,asin:'0738200301',retrievedAt:attempt.retrieved,verifiedAt:attempt.retrieved,productTitle:attempt.title,byline:attempt.byline,evidence:['74 global ratings'],sourceSnapshot:attempt.rawFile,stars:Number(h.match(/id="acrPopover"[^>]*title="([\d.]+) out of 5 stars/)?.[1])||null,identityVerification:{url:'https://books.google.com/books/about/Darwin_Among_The_Machines.html?hl=en&id=bd6bAnApnJUC&output=html_text',reason:'Google Books identifies ISBN 0738200301 as George B. Dyson, Basic Books, 1998. Amazon abbreviates the author as Dyson. This product has 74 ratings, versus 2 for ISBN 0713992050; neither count is summed.'}},product:{id:'0738200301',url:attempt.url,format:'Paperback',language:'English',title:attempt.title,author:'George B. Dyson',sourceSnapshot:attempt.rawFile,identitySource:dir+'/web-darwin-isbn.json'}};
+fs.writeFileSync(dir+'/manual-10.json',JSON.stringify(out,null,2)+'\n');

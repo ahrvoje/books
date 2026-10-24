@@ -1,0 +1,75 @@
+{
+  "title": "The Art of Project Management",
+  "author": "Scott Berkun",
+  "url": "https://openlibrary.org/search.json?title=The%20Art%20of%20Project%20Management&author=Scott%20Berkun&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:00.118Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Scott Berkun"
+        ],
+        "first_publish_year": 2005,
+        "isbn": [
+          "1600330533",
+          "9781600330537",
+          "0596007868",
+          "9780596007867"
+        ],
+        "key": "/works/OL5857852W",
+        "language": [
+          "eng"
+        ],
+        "title": "The art of project management",
+        "subject": [
+          "Leadership",
+          "Project management",
+          "Hd69.p75 b47 2005"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Leadership",
+      "Project management",
+      "Hd69.p75 b47 2005"
+    ],
+    "key": "/works/OL5857852W",
+    "title": "The art of project management",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1438336A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      389008
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T18:05:05.305787"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-19T23:10:58.915300"
+    }
+  }
+}

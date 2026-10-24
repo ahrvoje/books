@@ -1,0 +1,77 @@
+{
+  "title": "Excellent Advice for Living",
+  "author": "Kevin Kelly",
+  "url": "https://openlibrary.org/search.json?title=Excellent%20Advice%20for%20Living&author=Kevin%20Kelly&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:23:11.169Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Kevin Kelly"
+        ],
+        "first_publish_year": 2023,
+        "isbn": [
+          "0593654528",
+          "9780593654521"
+        ],
+        "key": "/works/OL28861061W",
+        "language": [
+          "eng"
+        ],
+        "title": "Excellent Advice for Living",
+        "subject": [
+          "wisdom",
+          "Advice on careers & achieving success",
+          "living"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Excellent Advice for Living",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL1003497A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "key": "/works/OL28861061W",
+    "covers": [
+      13573028
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Kelly's timeless advice covers an astonishing range, from right living to setting ambitious goals, optimizing generosity, and cultivating compassion. He has wisdom for career, relationships, parenting, and finances, and gives guidance for practical matters ranging from travel to troubleshooting. (Goodreads)"
+    },
+    "subjects": [
+      "wisdom",
+      "Advice on careers & achieving success",
+      "living"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-09-18T19:13:06.547038"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-10-20T20:19:49.993867"
+    }
+  }
+}

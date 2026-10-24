@@ -1,0 +1,76 @@
+{
+  "title": "Stubborn Attachments",
+  "author": "Tyler Cowen",
+  "url": "https://openlibrary.org/search.json?title=Stubborn%20Attachments&author=Tyler%20Cowen&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:22:20.119Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Tyler Cowen"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "9781953953353",
+          "9781732265134",
+          "1953953352",
+          "1732265135"
+        ],
+        "key": "/works/OL26422034W",
+        "language": [
+          "eng"
+        ],
+        "title": "Stubborn Attachments",
+        "subject": [
+          "Economics",
+          "Long Now Manual for Civilization",
+          "Business"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Stubborn Attachments",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL30602A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "covers": [
+      12385566,
+      12646754
+    ],
+    "key": "/works/OL26422034W",
+    "subjects": [
+      "Economics",
+      "Long Now Manual for Civilization",
+      "Business"
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-11-27T01:00:43.243379"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-11-03T17:41:11.893754"
+    }
+  }
+}

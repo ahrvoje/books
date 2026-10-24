@@ -1,0 +1,75 @@
+{
+  "title": "Chance and Necessity",
+  "author": "Jacques Monod",
+  "url": "https://openlibrary.org/search.json?title=Chance%20and%20Necessity&author=Jacques%20Monod&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:31:04.677Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jacques Monod"
+        ],
+        "first_publish_year": 1974,
+        "isbn": [
+          "0140256466",
+          "9780006434757",
+          "0006434754",
+          "9780140256468"
+        ],
+        "key": "/works/OL29343007W",
+        "language": [
+          "eng"
+        ],
+        "title": "Chance and Necessity",
+        "subject": [
+          "Science and civilization",
+          "Genetics",
+          "Chance"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Chance and Necessity",
+    "subjects": [
+      "Science and civilization",
+      "Genetics",
+      "Chance"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL122791A"
+        }
+      }
+    ],
+    "key": "/works/OL29343007W",
+    "covers": [
+      14063783
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-11-17T17:40:29.181993"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-04-16T18:29:59.492691"
+    }
+  }
+}

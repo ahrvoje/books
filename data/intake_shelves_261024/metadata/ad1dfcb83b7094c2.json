@@ -1,0 +1,100 @@
+{
+  "title": "American Icon",
+  "author": "Bryce G. Hoffman",
+  "url": "https://openlibrary.org/search.json?title=American%20Icon&author=Bryce%20G.%20Hoffman&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:30:00.555Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Bryce G. Hoffman"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "9780307886071",
+          "0307886069",
+          "0307886050",
+          "0307886077",
+          "9780307886064",
+          "9780307886057"
+        ],
+        "key": "/works/OL16152506W",
+        "language": [
+          "eng"
+        ],
+        "title": "American icon",
+        "subject": [
+          "Automobile industry and trade",
+          "Ford Motor Company",
+          "History",
+          "Automobile industry and trade, united states",
+          "New York Times reviewed"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "American icon",
+    "covers": [
+      7430946
+    ],
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Automobile industry and trade",
+      "Ford Motor Company",
+      "History",
+      "Automobile industry and trade, united states",
+      "New York Times reviewed"
+    ],
+    "subject_people": [
+      "Alan R. Mulally"
+    ],
+    "key": "/works/OL16152506W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7000634A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "links": [
+      {
+        "url": "http://www.nytimes.com/2012/04/01/business/american-icon-examines-fords-rebound-review.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "At the end of 2008, Ford Motor Company was just months away from running out of cash. With the auto industry careening toward ruin, Congress offered all three Detroit automakers a bailout. General Motors and Chrysler grabbed the lifeline, but Ford decided to save itself. Under the leadership of charismatic CEO Alan Mulally, the man who had saved Boeing, Ford had put together a bold plan to unify its divided global operations, transform its lackluster product lineup, and overcome a dysfunctional culture of infighting, backstabbing, and excuses. It was an extraordinary risk, but it was the only way America's last great industrial dynasty could hold on to their company. Mulally and his team pulled off one of the greatest comebacks in business history, and this is the behind-the-scenes account of that epic turnaround.--From publisher description."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-10-22T09:28:58.972285"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-01-11T03:12:38.282614"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "title": "Who Governs Britain?",
+  "author": "Anthony King",
+  "url": "https://openlibrary.org/search.json?title=Who%20Governs%20Britain%3F&author=Anthony%20King&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:45:09.516Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Anthony King"
+        ],
+        "first_publish_year": 2015,
+        "isbn": [
+          "0141980656",
+          "9780141980669",
+          "0141980664",
+          "9780141980652"
+        ],
+        "key": "/works/OL21101753W",
+        "language": [
+          "eng"
+        ],
+        "title": "Who Governs Britain?",
+        "subject": [
+          "Great britain, politics and government",
+          "Politics and government"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "Who Governs Britain?",
+    "subjects": [
+      "Great britain, politics and government",
+      "Politics and government"
+    ],
+    "key": "/works/OL21101753W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL717036A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      12487109
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-04T15:04:05.943604"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-12-24T09:21:48.914775"
+    }
+  }
+}

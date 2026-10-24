@@ -1,0 +1,36 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Progress&author=Johan%20Norberg&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-24T09:29:45.876Z",
+  "status": 200,
+  "data": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Johan Norberg",
+          "Diego Sánchez de la Cruz",
+          "Laurent Bury",
+          "Mathieu Laine"
+        ],
+        "edition_key": [
+          "OL32639561M",
+          "OL42851028M",
+          "OL29314201M",
+          "OL31929749M",
+          "OL27220660M",
+          "OL29842725M",
+          "OL26928239M"
+        ],
+        "key": "/works/OL19715103W",
+        "title": "Progress"
+      }
+    ]
+  },
+  "file": "data/top500_261024/raw/a137b8301f2c923d.json"
+}

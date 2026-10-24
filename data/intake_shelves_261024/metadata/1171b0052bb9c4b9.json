@@ -1,0 +1,60 @@
+{
+  "title": "Pomodoro Technique Illustrated",
+  "author": "Staffan Nöteberg",
+  "url": "https://openlibrary.org/search.json?title=Pomodoro%20Technique%20Illustrated&author=Staffan%20N%C3%B6teberg&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:30.588Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Staffan Nöteberg"
+        ],
+        "first_publish_year": 2009,
+        "isbn": [
+          "1409280292",
+          "9781409280293"
+        ],
+        "key": "/works/OL28973309W",
+        "language": [
+          "eng"
+        ],
+        "title": "Pomodoro Technique Illustrated"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Pomodoro Technique Illustrated",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL10078062A"
+        }
+      }
+    ],
+    "key": "/works/OL28973309W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-10-17T05:37:26.949158"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-10-17T05:37:26.949158"
+    }
+  }
+}

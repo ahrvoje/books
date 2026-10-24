@@ -1,0 +1,92 @@
+{
+  "title": "Foolproof Fish",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Foolproof%20Fish&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:26:46.558Z",
+  "status": 200,
+  "search": {
+    "numFound": 9,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 9,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Irene McDonald"
+        ],
+        "first_publish_year": 2020,
+        "isbn": [
+          "9798463845283",
+          "9798573606316",
+          "9798666151211",
+          "9798599465065"
+        ],
+        "key": "/works/OL30653504W",
+        "language": [
+          "eng"
+        ],
+        "title": "Foolproof Fish Cookbook"
+      },
+      {
+        "author_name": [
+          "Tracey Ferguson"
+        ],
+        "first_publish_year": 2020,
+        "isbn": [
+          "9798568630203",
+          "9798701294255"
+        ],
+        "key": "/works/OL25541904W",
+        "language": [
+          "eng"
+        ],
+        "title": "Foolproof Fish Cookbook"
+      },
+      {
+        "author_name": [
+          "Libby Silbermann"
+        ],
+        "first_publish_year": 2022,
+        "isbn": [
+          "9781787137912",
+          "1787137910"
+        ],
+        "key": "/works/OL25921535W",
+        "language": [
+          "eng"
+        ],
+        "title": "Foolproof Fish"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Foolproof Fish Cookbook",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL4849026A"
+        }
+      }
+    ],
+    "key": "/works/OL30653504W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-11-30T06:33:09.195569"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-11-30T06:33:09.195569"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "title": "Little Bets",
+  "author": "Peter Sims",
+  "url": "https://openlibrary.org/search.json?title=Little%20Bets&author=Peter%20Sims&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:11.019Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Peter Sims"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "1439170444",
+          "1409038033",
+          "9781439170434",
+          "9781452603933",
+          "1452603936",
+          "9781409038030",
+          "9781439170427",
+          "1439170436",
+          "9781847940483",
+          "184794048X",
+          "9781439170441",
+          "1439170428",
+          "1847940498",
+          "9781847940476",
+          "9781847940490",
+          "1847940471"
+        ],
+        "key": "/works/OL17363369W",
+        "language": [
+          "eng"
+        ],
+        "title": "Little Bets",
+        "subject": [
+          "Creative ability",
+          "Success in business",
+          "Risk assessment",
+          "Psychology"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Creative ability",
+      "Success in business",
+      "Risk assessment",
+      "Psychology"
+    ],
+    "key": "/works/OL17363369W",
+    "title": "Little Bets",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2877912A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8463571
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "In \"Little Bets\", leading business consultant Peter Sims turns problems on their heads and outlines a counter-intuitive path to perfection using negativity to positive effect."
+    },
+    "latest_revision": 8,
+    "revision": 8,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2016-08-26T17:32:47.019680"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-05-19T11:11:09.717694"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "title": "Start Small, Stay Small",
+  "author": "Rob Walling and Mike Taber",
+  "url": "https://openlibrary.org/search.json?title=Start%20Small%2C%20Stay%20Small&author=Rob%20Walling&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:23:20.283Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Rob Walling",
+          "Mike Taber"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "9780615373966",
+          "0615373968",
+          "9798987746530"
+        ],
+        "key": "/works/OL16458108W",
+        "language": [
+          "eng"
+        ],
+        "title": "Start Small, Stay Small"
+      }
+    ]
+  },
+  "work": {
+    "title": "Start Small, Stay Small",
+    "key": "/works/OL16458108W",
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      7010380
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7941508A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8180461A"
+        }
+      }
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2012-01-16T06:01:13.742634"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-11-15T00:53:57.718414"
+    }
+  }
+}

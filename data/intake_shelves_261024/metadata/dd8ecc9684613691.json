@@ -1,0 +1,76 @@
+{
+  "title": "The Cinema of George Lucas",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=The%20Cinema%20of%20George%20Lucas&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:38:34.027Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Marcus Hearn"
+        ],
+        "first_publish_year": 2005,
+        "isbn": [
+          "0810949687",
+          "9780810949683"
+        ],
+        "key": "/works/OL14968701W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Cinema of George Lucas",
+        "subject": [
+          "Lucas, george, 1944-"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "covers": [
+      597011
+    ],
+    "key": "/works/OL14968701W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL44442A"
+        }
+      }
+    ],
+    "title": "The Cinema of George Lucas",
+    "subjects": [
+      "Lucas, george, 1944-"
+    ],
+    "subject_people": [
+      "George Lucas (1944-)"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "Citing the filmmaker's contributions to the movie industry since the inception of the Star Wars series, a tribute to Lucas's vision draws on interviews and the Lusasfilm archives to survey some of his most significant achievements."
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-03-16T03:13:45.113603"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-05-18T00:13:56.620779"
+    }
+  }
+}

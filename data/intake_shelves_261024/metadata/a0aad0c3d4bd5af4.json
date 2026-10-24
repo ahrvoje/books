@@ -1,0 +1,89 @@
+{
+  "title": "Average Is Over",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Average%20Is%20Over&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:36:44.939Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Tyler Cowen"
+        ],
+        "first_publish_year": 2013,
+        "isbn": [
+          "9780525953739",
+          "9780142181119",
+          "0525953736",
+          "0142181110"
+        ],
+        "key": "/works/OL17362758W",
+        "language": [
+          "eng"
+        ],
+        "title": "Average is Over",
+        "subject": [
+          "Economic policy",
+          "Economic conditions",
+          "Economic forecasting",
+          "United states, economic conditions, 2009-",
+          "United states, economic policy, 2009-",
+          "Conditions économiques",
+          "Politique économique",
+          "Economic history"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "Average is Over",
+    "subjects": [
+      "Economic policy",
+      "Economic conditions",
+      "Economic forecasting",
+      "United states, economic conditions, 2009-",
+      "United states, economic policy, 2009-",
+      "Conditions économiques",
+      "Politique économique",
+      "Economic history"
+    ],
+    "key": "/works/OL17362758W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL30602A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      13048107
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "There are more rich people and more poor people in our country than ever before. That widening gap means dealing with one big, uncomfortable truth: the middle is growing thinner and thinner. Globally renowned economist Tyler Cowen explains how this happened: high earners are taking ever more advantage of computers and achieving ever-better results. Meanwhile, low earners who haven't committed to learning the new technologies have poor prospects. Nearly every business sector relies less and less on manual labor for high-value jobs, and this fact is forever changing the world of work and wages. About 3/4 of the jobs created in the United States since the great recession pay $13.52 an hour or less--there is no longer a steady, secure life somewhere in the middle. Here, Cowen reveals what the new features of this economy mean for taxes, government spending, employee benefits, debt and education. Most importantly, Cowen identifies the best path forward for workers and entrepreneurs and provides readers with a road map to a new economic landscape.--From publisher description."
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2016-08-23T20:26:12.508742"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-09-24T08:48:12.769968"
+    }
+  }
+}

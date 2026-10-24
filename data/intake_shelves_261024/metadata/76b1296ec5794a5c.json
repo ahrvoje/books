@@ -1,0 +1,77 @@
+{
+  "title": "Preserving the Promise",
+  "author": "Scott Dessain",
+  "url": "https://openlibrary.org/search.json?title=Preserving%20the%20Promise&author=Scott%20Dessain&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:30:04.593Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Scott Dessain",
+          "Scott Fishman"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "9780128092163",
+          "0128092165",
+          "0128092092",
+          "9780128092095"
+        ],
+        "key": "/works/OL21137756W",
+        "language": [
+          "eng"
+        ],
+        "title": "Preserving the Promise",
+        "subject": [
+          "Biotechnology"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-05T08:30:33.028319"
+    },
+    "title": "Preserving the Promise",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-05T08:30:33.028319"
+    },
+    "subjects": [
+      "Biotechnology"
+    ],
+    "latest_revision": 1,
+    "key": "/works/OL21137756W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8093281A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2631219A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

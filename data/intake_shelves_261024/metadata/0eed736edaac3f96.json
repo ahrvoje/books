@@ -1,0 +1,83 @@
+{
+  "title": "Restricted Data",
+  "author": "Alex Wellerstein",
+  "url": "https://openlibrary.org/search.json?title=Restricted%20Data&author=Alex%20Wellerstein&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:30:52.555Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Alex Wellerstein"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "9780226020419",
+          "0226833445",
+          "022602041X",
+          "9780226833446",
+          "9780226020389",
+          "022602038X"
+        ],
+        "key": "/works/OL24321392W",
+        "language": [
+          "eng"
+        ],
+        "title": "Restricted Data",
+        "subject": [
+          "Military art and science",
+          "American Nuclear weapons information",
+          "Access control",
+          "Classified Defense information"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Restricted Data",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL7920351A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "covers": [
+      10840383
+    ],
+    "key": "/works/OL24321392W",
+    "subjects": [
+      "Military art and science",
+      "American Nuclear weapons information",
+      "Access control",
+      "Classified Defense information"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "The first full history of US nuclear secrecy, from its origins in the late 1930s to our post–Cold War present.\r\n\r\nThe American atomic bomb was born in secrecy. From the moment scientists first conceived of its possibility to the bombings of Hiroshima and Nagasaki and beyond, there were efforts to control the spread of nuclear information and the newly discovered scientific facts that made such powerful weapons possible. The totalizing scientific secrecy that the atomic bomb appeared to demand was new, unusual, and very nearly unprecedented. It was foreign to American science and American democracy—and potentially incompatible with both. From the beginning, this secrecy was controversial, and it was always contested. The atomic bomb was not merely the application of science to war, but the result of decades of investment in scientific education, infrastructure, and global collaboration. If secrecy became the norm, how would science survive? \r\n\r\nDrawing on troves of declassified files, including records released by the government for the first time through the author’s efforts, Restricted Data traces the complex evolution of the US nuclear secrecy regime from the first whisper of the atomic bomb through the mounting tensions of the Cold War and into the early twenty-first century. A compelling history of powerful ideas at war, it tells a story that feels distinctly American: rich, sprawling, and built on the conflict between high-minded idealism and ugly, fearful power."
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-04-09T16:17:29.696761"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-02-18T09:01:22.697556"
+    }
+  }
+}

@@ -28,8 +28,8 @@ try {
   assert.deepEqual(iconSizes,Array.from({length:4},()=>({width:16,height:16})));
   await page.waitForFunction(count=>Number(document.querySelector('#matching-count').textContent.replace(/\D/g,''))===count,bookCount);
   assert.equal(await page.locator('#notice').isVisible(),false,'Catalog updates must be silent');
-  assert.match(await page.title(),/Book explorer/);
-  assert.match(await page.locator('h1').textContent(),/Book explorer/);
+  assert.match(await page.title(),/Book Explorer/);
+  assert.match(await page.locator('h1').textContent(),/Book Explorer/);
   assert.equal(await page.locator('[data-select],#selection,#clear-selection').count(),0);
   assert.equal(await page.locator('.table-scroll[tabindex="0"],.column-scrollbar[tabindex="0"]').count(),0,'Passive table containers must not be Tab stops');
   await page.locator('[data-page="vetoed"]').click();

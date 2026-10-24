@@ -1,0 +1,60 @@
+{
+  "title": "Anchored",
+  "author": "Lucas Skrobot",
+  "url": "https://openlibrary.org/search.json?title=Anchored&author=Lucas%20Skrobot&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:23.696Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Lucas Skrobot"
+        ],
+        "first_publish_year": 2019,
+        "isbn": [
+          "1696567629",
+          "9781696567626"
+        ],
+        "key": "/works/OL30146188W",
+        "language": [
+          "eng"
+        ],
+        "title": "Anchored"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Anchored",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL11088126A"
+        }
+      }
+    ],
+    "key": "/works/OL30146188W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-11-25T17:02:59.529625"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-11-25T17:02:59.529625"
+    }
+  }
+}

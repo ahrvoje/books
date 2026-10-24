@@ -1,0 +1,79 @@
+{
+  "title": "Mexico Culture Smart",
+  "author": "Russell Maddicks",
+  "url": "https://openlibrary.org/search.json?title=Mexico%20Culture%20Smart&author=Russell%20Maddicks&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:23:37.865Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Russell Maddicks",
+          "Culture Smart!"
+        ],
+        "first_publish_year": 2017,
+        "isbn": [
+          "1787023435",
+          "9781787029866",
+          "1787029867",
+          "9781787023444",
+          "1787029859",
+          "9781787023420",
+          "1787023427",
+          "9781787023437",
+          "9781787029873",
+          "9781787029859",
+          "1787029875",
+          "1787023443"
+        ],
+        "key": "/works/OL28404651W",
+        "language": [
+          "eng"
+        ],
+        "title": "Mexico - Culture Smart!"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Mexico - Culture Smart!",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7331604A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7636969A"
+        }
+      }
+    ],
+    "key": "/works/OL28404651W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-07-19T20:57:32.375873"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-07-19T20:57:32.375873"
+    }
+  }
+}

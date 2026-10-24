@@ -1,0 +1,60 @@
+{
+  "title": "Failed State: Why Nothing Works and How We Fix It",
+  "author": "Sam Freedman",
+  "url": "https://openlibrary.org/search.json?title=Failed%20State&author=Sam%20Freedman&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:41:42.109Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Sam Freedman"
+        ],
+        "first_publish_year": 2025,
+        "isbn": [
+          "9781035026609",
+          "1035026600"
+        ],
+        "key": "/works/OL42539929W",
+        "language": [
+          "eng"
+        ],
+        "title": "Failed State"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Failed State",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2922188A"
+        }
+      }
+    ],
+    "key": "/works/OL42539929W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2025-02-17T00:50:44.816687"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-02-17T00:50:44.816687"
+    }
+  }
+}

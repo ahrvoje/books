@@ -1,0 +1,128 @@
+{
+  "title": "Helvetica",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Helvetica&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:36:00.611Z",
+  "status": 200,
+  "search": {
+    "numFound": 245,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 245,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Lars Müller"
+        ],
+        "first_publish_year": 2005,
+        "isbn": [
+          "9783037780466",
+          "3037780460"
+        ],
+        "key": "/works/OL9052698W",
+        "language": [
+          "eng"
+        ],
+        "title": "Helvetica",
+        "subject": [
+          "Graphic design (typography)",
+          "Type and type-founding",
+          "Sans serif type",
+          "Specimens",
+          "Posters",
+          "Pictorial works",
+          "Signs and signboards",
+          "Artistic Photography"
+        ]
+      },
+      {
+        "author_name": [
+          "Paige Shelton"
+        ],
+        "first_publish_year": 2017,
+        "isbn": [
+          "9781541459243",
+          "0425277259",
+          "9780425277256",
+          "1410498603",
+          "9781410498601",
+          "1541459245"
+        ],
+        "key": "/works/OL21110198W",
+        "language": [
+          "eng"
+        ],
+        "title": "To Helvetica and Back",
+        "subject": [
+          "Fiction, mystery & detective, general",
+          "Typewriters",
+          "Fiction",
+          "Murder",
+          "Investigation",
+          "Ski resorts",
+          "Books and reading",
+          "Retail Stores",
+          "Strangers"
+        ]
+      },
+      {
+        "author_name": [
+          "François J. Rappard"
+        ],
+        "first_publish_year": 1993,
+        "key": "/works/OL1660263W",
+        "language": [
+          "fre"
+        ],
+        "title": "Heraldica helvetica",
+        "subject": [
+          "Heraldry",
+          "Genealogy"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Graphic design (typography)",
+      "Type and type-founding",
+      "Sans serif type",
+      "Specimens",
+      "Posters",
+      "Pictorial works",
+      "Signs and signboards",
+      "Artistic Photography"
+    ],
+    "key": "/works/OL9052698W",
+    "title": "Helvetica",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3164648A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      995331
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T23:45:18.555521"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-12-19T12:37:40.494728"
+    }
+  }
+}

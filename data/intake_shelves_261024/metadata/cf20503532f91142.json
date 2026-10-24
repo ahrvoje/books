@@ -1,0 +1,73 @@
+{
+  "title": "Israel: the Misunderstood Country",
+  "author": "Noa Tishby",
+  "url": "https://openlibrary.org/search.json?title=Israel&author=Noa%20Tishby&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:22:45.430Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Noa Tishby"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "1797128213",
+          "9781982144944",
+          "1982144947",
+          "9781797128214"
+        ],
+        "key": "/works/OL24558730W",
+        "language": [
+          "eng"
+        ],
+        "title": "Israel",
+        "subject": [
+          "nyt:paperback-nonfiction=2023-10-29",
+          "New York Times bestseller"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Israel",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9253496A"
+        }
+      }
+    ],
+    "covers": [
+      11205782
+    ],
+    "key": "/works/OL24558730W",
+    "subjects": [
+      "nyt:paperback-nonfiction=2023-10-29",
+      "New York Times bestseller"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-06-02T17:04:32.948431"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-10-25T14:05:39.468096"
+    }
+  }
+}

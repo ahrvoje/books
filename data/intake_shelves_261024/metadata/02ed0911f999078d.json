@@ -1,0 +1,110 @@
+{
+  "title": "Animerica",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Animerica&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:33:26.670Z",
+  "status": 200,
+  "search": {
+    "numFound": 5,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 5,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Viz Media Staff"
+        ],
+        "first_publish_year": 2007,
+        "isbn": [
+          "1421514281",
+          "9781421507552",
+          "1421514303",
+          "9781421514307",
+          "142151429X",
+          "9781421514284",
+          "1421507552",
+          "9781421514291"
+        ],
+        "key": "/works/OL37839519W",
+        "language": [
+          "eng"
+        ],
+        "title": "Animerica",
+        "subject": [
+          "Comics & graphic novels, east asian style, manga, general"
+        ]
+      },
+      {
+        "author_name": [
+          "Viz Media Staff"
+        ],
+        "first_publish_year": 2008,
+        "isbn": [
+          "9781421518251",
+          "1421518252",
+          "9781421518268",
+          "1421518260"
+        ],
+        "key": "/works/OL37839144W",
+        "language": [
+          "eng"
+        ],
+        "title": "Animerica BGI",
+        "subject": [
+          "Comics & graphic novels, east asian style, manga, general"
+        ]
+      },
+      {
+        "author_name": [
+          "VIZ Media"
+        ],
+        "first_publish_year": 2003,
+        "isbn": [
+          "9781569318997",
+          "1569318999"
+        ],
+        "key": "/works/OL8436808W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Best Of Animerica",
+        "subject": [
+          "Comics & graphic novels, east asian style, manga, general"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Animerica",
+    "subjects": [
+      "Comics & graphic novels, east asian style, manga, general"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL13607469A"
+        }
+      }
+    ],
+    "key": "/works/OL37839519W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-02-17T08:53:14.687695"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-02-17T08:53:14.687695"
+    }
+  }
+}

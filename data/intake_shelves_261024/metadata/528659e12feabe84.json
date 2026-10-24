@@ -1,0 +1,97 @@
+{
+  "title": "Frankenstein",
+  "author": "Shelly",
+  "url": "https://openlibrary.org/search.json?title=Frankenstein&author=Shelly&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:41:25.676Z",
+  "status": 200,
+  "search": {
+    "numFound": 5,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 5,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Marry Shelly"
+        ],
+        "first_publish_year": 2017,
+        "isbn": [
+          "9781973431206",
+          "1973431203"
+        ],
+        "key": "/works/OL29707068W",
+        "language": [
+          "eng"
+        ],
+        "title": "Frankenstein"
+      },
+      {
+        "author_name": [
+          "Mary Wollstonecraft Shelly"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "0486282112",
+          "9780486282114"
+        ],
+        "key": "/works/OL45587825W",
+        "language": [
+          "eng"
+        ],
+        "title": "Frankenstein",
+        "subject": [
+          "Fiction",
+          "Scientists",
+          "Monsters",
+          "Horror stories",
+          "Literature"
+        ]
+      },
+      {
+        "author_name": [
+          "Mary W. Shelly"
+        ],
+        "first_publish_year": 2019,
+        "isbn": [
+          "9781095891339",
+          "1095891332"
+        ],
+        "key": "/works/OL29819332W",
+        "language": [
+          "eng"
+        ],
+        "title": "Frankenstein : Or the Modern Prometheus"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Frankenstein",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL10980053A"
+        }
+      }
+    ],
+    "key": "/works/OL29707068W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-11-21T18:55:37.049160"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-11-21T18:55:37.049160"
+    }
+  }
+}

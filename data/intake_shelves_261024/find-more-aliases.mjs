@@ -1,0 +1,4 @@
+import {read,dir} from './capture.mjs';
+const base=read('data/top500_261024/compiled.json'),old=[...base.currentBooks,...base.exclusions],q=read(dir+'/research-queue.json');
+const norm=s=>s.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/\([^)]*\)/g,'').replace(/[^a-z0-9 ]/g,' ').replace(/\b(the|a|an|and|of|by|dr)\b/g,' ').replace(/\s+/g,' ').trim();
+for(const b of q){const n=norm(b.title.split(':')[0]),ws=n.split(' '),author=norm(b.author||b.metadata?.author||'');if(!author)continue;const hits=old.filter(o=>{const on=norm(o.title.split(':')[0]),aw=norm(o.author).split(' ');return (n===on||ws.length>=3&&ws.every(w=>on.includes(w))||on.split(' ').length>=3&&on.split(' ').every(w=>n.includes(w)))&&aw.some(w=>w.length>3&&author.split(' ').includes(w));});if(hits.length)console.log(JSON.stringify({id:b.id,t:b.title,a:b.author,h:hits.map(o=>({id:o.id,t:o.title,a:o.author}))}));}

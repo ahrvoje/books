@@ -1,0 +1,115 @@
+{
+  "title": "Essays One",
+  "author": "Lydia Davis",
+  "url": "https://openlibrary.org/search.json?title=Essays%20One&author=Lydia%20Davis&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:04.643Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Lydia Davis"
+        ],
+        "first_publish_year": 2019,
+        "isbn": [
+          "0374719241",
+          "9780374148850",
+          "9780374905538",
+          "0241371473",
+          "0374148856",
+          "9780374719241",
+          "9789877122282",
+          "9780241985465",
+          "0374905533",
+          "9781250758156",
+          "0241985463",
+          "1250758157",
+          "9780241985458",
+          "9877122286",
+          "9780241371473",
+          "0241985455"
+        ],
+        "key": "/works/OL20812087W",
+        "language": [
+          "eng"
+        ],
+        "title": "Essays One",
+        "subject": [
+          "American literature",
+          "New York Times reviewed",
+          "Essays (single author)",
+          "Reading",
+          "Writing"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "American literature",
+      "New York Times reviewed",
+      "Essays (single author)",
+      "Reading",
+      "Writing"
+    ],
+    "key": "/works/OL20812087W",
+    "title": "Essays One",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2674893A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      10112635,
+      14028796
+    ],
+    "links": [
+      {
+        "url": "https://www.nytimes.com/2019/11/05/books/review-essays-one-lydia-davis.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      },
+      {
+        "url": "https://www.nytimes.com/2019/11/12/books/review/essays-one-by-lydia-davis-an-excerpt.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      },
+      {
+        "url": "https://www.nytimes.com/2019/11/12/books/review/essays-one-lydia-davis.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 9,
+    "revision": 9,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-06-02T11:20:31.465924"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-09-14T14:04:31.712121"
+    }
+  }
+}

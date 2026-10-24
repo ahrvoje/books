@@ -1,0 +1,79 @@
+{
+  "title": "So Late in the Day",
+  "author": "Claire Keegan",
+  "url": "https://openlibrary.org/search.json?title=So%20Late%20in%20the%20Day&author=Claire%20Keegan&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:41:50.681Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Claire Keegan"
+        ],
+        "first_publish_year": 2023,
+        "isbn": [
+          "0802160859",
+          "9791130664903",
+          "9780802160850"
+        ],
+        "key": "/works/OL35762090W",
+        "language": [
+          "eng"
+        ],
+        "title": "So Late in the Day"
+      },
+      {
+        "author_name": [
+          "Claire Keegan"
+        ],
+        "first_publish_year": 2025,
+        "isbn": [
+          "9780571398041",
+          "0571398049"
+        ],
+        "key": "/works/OL44555295W",
+        "language": [
+          "eng"
+        ],
+        "title": "So Late in the Day"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "So Late in the Day",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL82155A"
+        }
+      }
+    ],
+    "key": "/works/OL35762090W",
+    "covers": [
+      14444954
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2023-06-17T11:21:30.636151"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-05-15T21:45:14.563389"
+    }
+  }
+}

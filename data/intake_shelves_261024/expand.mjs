@@ -1,0 +1,4 @@
+import fs from 'node:fs';import {dir,read,write,clean} from './capture.mjs';
+fs.mkdirSync(dir+'/episodes',{recursive:true});let jobs=read(dir+'/261-unparsed.json').map(e=>({url:'https://www.founderspodcast.com/episodes/'+e.slug,file:dir+'/episodes/'+e.slug+'.html'}));
+jobs.push(...[2,3].map(p=>({url:'https://marginalrevolution.com/marginalrevolution/2024/11/best-non-fiction-of-2024.html/feed?paged='+p,file:dir+'/raw/252-feed'+p+'.html'})));
+let next=0,results=[];async function worker(){while(next<jobs.length){let j=jobs[next++];if(fs.existsSync(j.file))continue;try{let r=await fetch(j.url,{signal:AbortSignal.timeout(30000)}),s=await r.text();write(j.file,s);results.push({...j,status:r.status,bytes:s.length});}catch(e){results.push({...j,error:String(e)})}}}await Promise.all(Array.from({length:6},worker));write(dir+'/expansion.json',results);console.log({requests:results.length,failed:results.filter(r=>r.status!==200)});

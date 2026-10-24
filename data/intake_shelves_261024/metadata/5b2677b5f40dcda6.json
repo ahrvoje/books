@@ -1,0 +1,104 @@
+{
+  "title": "The Seventh Function of Language",
+  "author": "Laurent Binet",
+  "url": "https://openlibrary.org/search.json?title=The%20Seventh%20Function%20of%20Language&author=Laurent%20Binet&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:29:24.318Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Laurent Binet"
+        ],
+        "first_publish_year": 2017,
+        "isbn": [
+          "1250181682",
+          "0374715084",
+          "1470863294",
+          "9781470863296",
+          "0374261563",
+          "9780374261566",
+          "9780374715083",
+          "9781250181688"
+        ],
+        "key": "/works/OL19712768W",
+        "language": [
+          "eng"
+        ],
+        "title": "The seventh function of language",
+        "subject": [
+          "Death and burial",
+          "Fiction",
+          "Fiction, crime",
+          "Fiction, mystery & detective, general",
+          "New York Times reviewed",
+          "Barthes, Roland -- Death and burial -- Fiction"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "The suspicious death of literary critic Roland Barthes in 1980 Paris reveals the secret history of the French intelligentsia, plunging a hapless police detective into the depths of literary theory as it was documented in a famed linguist's lost manuscript."
+    },
+    "title": "The seventh function of language",
+    "covers": [
+      8837027
+    ],
+    "subjects": [
+      "Death and burial",
+      "Fiction",
+      "Fiction, crime",
+      "Fiction, mystery & detective, general",
+      "New York Times reviewed",
+      "Barthes, Roland -- Death and burial -- Fiction"
+    ],
+    "subject_people": [
+      "Roland Barthes"
+    ],
+    "key": "/works/OL19712768W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL4963809A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "links": [
+      {
+        "url": "https://www.nytimes.com/2017/08/16/books/review/the-seventh-function-of-language-laurent-binet.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "genres": [
+      "/tags/OL175T"
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-05-23T21:26:38.043956"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-08-29T05:14:56.758030"
+    }
+  }
+}

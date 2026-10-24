@@ -1,0 +1,86 @@
+{
+  "title": "Faster, Better, Cheaper",
+  "author": "Christoph Roser",
+  "url": "https://openlibrary.org/search.json?title=Faster%2C%20Better%2C%20Cheaper&author=Christoph%20Roser&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:29:53.885Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Christoph Roser"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "149875631X",
+          "9781498756310",
+          "9781498756303",
+          "9781315350912",
+          "1315350912",
+          "1498756301"
+        ],
+        "key": "/works/OL25705033W",
+        "language": [
+          "eng"
+        ],
+        "title": "Faster, Better, Cheaper in the History of Manufacturing",
+        "subject": [
+          "Manufacturing processes",
+          "History",
+          "Fabrication",
+          "Histoire",
+          "TECHNOLOGY & ENGINEERING",
+          "Industrial Engineering",
+          "Industrial Technology",
+          "Manufacturing",
+          "Technical & Manufacturing Industries & Trades"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Faster, Better, Cheaper in the History of Manufacturing",
+    "subjects": [
+      "Manufacturing processes",
+      "History",
+      "Fabrication",
+      "Histoire",
+      "TECHNOLOGY & ENGINEERING",
+      "Industrial Engineering",
+      "Industrial Technology",
+      "Manufacturing",
+      "Technical & Manufacturing Industries & Trades"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9714568A"
+        }
+      }
+    ],
+    "key": "/works/OL25705033W",
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-10-05T19:12:45.322194"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-15T07:11:18.611872"
+    }
+  }
+}

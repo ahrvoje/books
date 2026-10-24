@@ -1,0 +1,69 @@
+{
+  "title": "Write Useful Books",
+  "author": "Rob Fitzpatrick",
+  "url": "https://openlibrary.org/search.json?title=Write%20Useful%20Books&author=Rob%20Fitzpatrick&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:21:17.223Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Rob Fitzpatrick",
+          "Adam Rosen"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "1919621601",
+          "9781919621609"
+        ],
+        "key": "/works/OL24831613W",
+        "title": "Write Useful Books"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Write Useful Books",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3042000A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9364528A"
+        }
+      }
+    ],
+    "covers": [
+      11647391
+    ],
+    "key": "/works/OL24831613W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-08-15T21:32:58.219735"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-08-15T21:32:58.219735"
+    }
+  }
+}

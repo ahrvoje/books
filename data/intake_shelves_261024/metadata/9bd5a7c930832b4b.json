@@ -1,0 +1,103 @@
+{
+  "title": "Search and Screening",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Search%20and%20Screening&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:36:29.502Z",
+  "status": 200,
+  "search": {
+    "numFound": 5,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 5,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Bernard Osgood Koopman"
+        ],
+        "first_publish_year": 1946,
+        "isbn": [
+          "0930473086",
+          "9780930473082"
+        ],
+        "key": "/works/OL17646127W",
+        "language": [
+          "eng"
+        ],
+        "title": "Search and screening",
+        "subject": [
+          "Submarine warfare",
+          "Electronic apparatus and appliances"
+        ]
+      },
+      {
+        "author_name": [
+          "Bernard Osgood Koopman"
+        ],
+        "first_publish_year": 1980,
+        "isbn": [
+          "0080231357",
+          "9780080231358",
+          "0080231365",
+          "9780080231365"
+        ],
+        "key": "/works/OL6563317W",
+        "language": [
+          "eng"
+        ],
+        "title": "Search and screening",
+        "subject": [
+          "Search theory",
+          "Target acquisition"
+        ]
+      },
+      {
+        "author_name": [
+          "Clark, William E."
+        ],
+        "first_publish_year": 1963,
+        "key": "/works/OL16458706W",
+        "language": [
+          "eng"
+        ],
+        "title": "Measuring the operational effectiveness of search and screening sensors from exercise data"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2017-04-28T07:23:23.205096"
+    },
+    "subjects": [
+      "Submarine warfare",
+      "Electronic apparatus and appliances"
+    ],
+    "latest_revision": 1,
+    "key": "/works/OL17646127W",
+    "title": "Search and screening",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1759048A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2017-04-28T07:23:23.205096"
+    },
+    "covers": [
+      7918871
+    ],
+    "revision": 1
+  }
+}

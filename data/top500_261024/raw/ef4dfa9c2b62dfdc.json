@@ -1,0 +1,38 @@
+{
+  "url": "https://openlibrary.org/search.json?title=The%20Great%20Wave&author=David%20Hackett%20Fischer&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-24T09:28:08.595Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David Hackett Fischer"
+        ],
+        "edition_key": [
+          "OL7388480M",
+          "OL814657M"
+        ],
+        "key": "/works/OL26739W",
+        "title": "The Great Wave"
+      },
+      {
+        "author_name": [
+          "David Hackett Fischer"
+        ],
+        "edition_key": [
+          "OL18661603M"
+        ],
+        "key": "/works/OL11285671W",
+        "title": "The Great Wave"
+      }
+    ]
+  },
+  "file": "data/top500_261024/raw/ef4dfa9c2b62dfdc.json"
+}

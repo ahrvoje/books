@@ -1,0 +1,90 @@
+{
+  "title": "The Green and the Black",
+  "author": "Gary Sernovitz",
+  "url": "https://openlibrary.org/search.json?title=The%20Green%20and%20the%20Black&author=Gary%20Sernovitz&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:30:00.486Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Gary Sernovitz"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "9781466892576",
+          "1466892579",
+          "9781250080660",
+          "1250080665"
+        ],
+        "key": "/works/OL20020887W",
+        "language": [
+          "eng"
+        ],
+        "title": "The green and the black",
+        "subject": [
+          "Gas industry",
+          "Hydraulic fracturing",
+          "Energy policy",
+          "Energy policy, united states",
+          "Oil-shale industry",
+          "Environmental aspects",
+          "Political aspects"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "\"Fracking has become a four-letter word to environmentalists. But most people don't know what it means. In his ... book, Sernovitz explains [what he sees as] the reality of fracking: what it is, how it can be made safer, and how the oil business works. He also tells the bigger story. Fracking was just one part of a shale revolution that shocked our assumptions about fueling America's future. The revolution has transformed the world with consequences for the oil industry, investors, environmentalists, political leaders, and anyone who lives in areas shaped by the shales, uses fossil fuels, or cares about the climate\"--Dust jacket flap."
+    },
+    "key": "/works/OL20020887W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1477348A"
+        }
+      }
+    ],
+    "title": "The green and the black",
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Gas industry",
+      "Hydraulic fracturing",
+      "Energy policy",
+      "Energy policy, united states",
+      "Oil-shale industry",
+      "Environmental aspects",
+      "Political aspects"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      13101925
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-19T09:50:38.752993"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-05-02T10:04:13.825674"
+    }
+  }
+}

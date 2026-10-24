@@ -1,0 +1,123 @@
+{
+  "title": "Grand Pursuit",
+  "author": "Sylvia Nasar",
+  "url": "https://openlibrary.org/search.json?title=Grand%20Pursuit&author=Sylvia%20Nasar&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:31:00.166Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Sylvia Nasar"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "0684872986",
+          "8499921337",
+          "1439198616",
+          "9781841154558",
+          "1442340142",
+          "9781841154565",
+          "9788499921334",
+          "1841154563",
+          "9789752116290",
+          "0007465742",
+          "9781442340145",
+          "9780684872995",
+          "9752116299",
+          "9780007465743",
+          "0684872994",
+          "9780684872988",
+          "1841154555",
+          "9781439198612"
+        ],
+        "key": "/works/OL15719750W",
+        "language": [
+          "spa",
+          "eng",
+          "tur"
+        ],
+        "title": "Grand Pursuit",
+        "subject": [
+          "New York Times bestseller",
+          "nyt:hardcover_business_books=2011-09-24",
+          "History",
+          "Economics",
+          "Economists",
+          "Economic history",
+          "New York Times reviewed",
+          "Economics, history"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subtitle": "The Story of Economic Genius",
+    "covers": [
+      6906324,
+      12302503
+    ],
+    "key": "/works/OL15719750W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL82784A"
+        }
+      }
+    ],
+    "title": "Grand Pursuit",
+    "subjects": [
+      "New York Times bestseller",
+      "nyt:hardcover_business_books=2011-09-24",
+      "History",
+      "Economics",
+      "Economists",
+      "Economic history",
+      "New York Times reviewed",
+      "Economics, history"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "links": [
+      {
+        "url": "http://www.nytimes.com/2011/10/09/books/review/grand-pursuit-by-sylvia-nasar-book-review.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      },
+      {
+        "url": "http://www.nytimes.com/2011/12/02/books/grand-pursuit-by-sylvia-nasar-review.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "A brilliant new approach to the story of modern economics and to understanding how we got into today's financial mess. As the twenty-first century faces new and ever more daunting economic obstacles, Sylvia Nasar tells the story of how our financial world came to function as it does today, and how a handful of men and women would change the lives of every person on the planet. Economics was not always associated with bankers and excess, or with recessions and bailouts. Economics, as we know it, was born in the nineteenth century when Charles Dickens and Henry Mayhew chronicled the destitution in London's slums and wanted to turn money into a force for social good. Man's material fate would be placed in his own hands, rather than left to destiny. The torch would be carried on by everyone from Marx and Engels to Keynes and Friedman, with revolutionary results."
+    },
+    "latest_revision": 12,
+    "revision": 12,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2011-04-29T20:27:58.723174"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-11-19T09:47:10.267286"
+    }
+  }
+}

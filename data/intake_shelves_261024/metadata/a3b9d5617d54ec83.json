@@ -1,0 +1,57 @@
+{
+  "title": "The Lifetime Learner's Guide to Reading and Learning",
+  "author": "Gary Hoover",
+  "url": "https://openlibrary.org/search.json?title=The%20Lifetime%20Learner's%20Guide%20to%20Reading%20and%20Learning&author=Gary%20Hoover&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:28:45.899Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Gary Hoover"
+        ],
+        "first_publish_year": 2017,
+        "isbn": [
+          "0999114948",
+          "9780999114940"
+        ],
+        "key": "/works/OL28172986W",
+        "title": "The Lifetime Learner's Guide to Reading and Learning"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The Lifetime Learner's Guide to Reading and Learning",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8653745A"
+        }
+      }
+    ],
+    "key": "/works/OL28172986W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-06-24T08:33:34.726905"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-06-24T08:33:34.726905"
+    }
+  }
+}

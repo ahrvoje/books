@@ -1,0 +1,72 @@
+{
+  "title": "Imperial Triumph",
+  "author": "Michael Kulikowski",
+  "url": "https://openlibrary.org/search.json?title=Imperial%20Triumph&author=Michael%20Kulikowski&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:51:57.786Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Michael Kulikowski"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "184668370X",
+          "1846683718",
+          "9781846683718",
+          "9781846683701"
+        ],
+        "key": "/works/OL25654958W",
+        "language": [
+          "eng"
+        ],
+        "title": "Imperial Triumph",
+        "subject": [
+          "Rome, history, empire, 30 b.c.-476 a.d.",
+          "History",
+          "Politics and government"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Imperial Triumph",
+    "subjects": [
+      "Rome, history, empire, 30 b.c.-476 a.d.",
+      "History",
+      "Politics and government"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2771970A"
+        }
+      }
+    ],
+    "key": "/works/OL25654958W",
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-10-04T15:50:21.341094"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-19T05:13:13.495175"
+    }
+  }
+}

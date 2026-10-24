@@ -1,0 +1,79 @@
+{
+  "title": "Flex",
+  "author": "Ben Fletcher and Karen Pine",
+  "url": "https://openlibrary.org/search.json?title=Flex&author=Ben%20Fletcher&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:25:04.885Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ben Fletcher",
+          "Karen J. Pine"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "9781306025164",
+          "1306025168",
+          "1907396691",
+          "9781907396540",
+          "9781907396694",
+          "1907396543"
+        ],
+        "key": "/works/OL26734218W",
+        "language": [
+          "eng"
+        ],
+        "title": "Flex",
+        "subject": [
+          "Self-actualization (psychology)"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Flex",
+    "subjects": [
+      "Self-actualization (psychology)"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL945599A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL10051805A"
+        }
+      }
+    ],
+    "key": "/works/OL26734218W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-12-29T04:48:25.867031"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-12-29T04:48:25.867031"
+    }
+  }
+}

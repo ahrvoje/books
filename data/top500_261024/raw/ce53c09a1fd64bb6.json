@@ -1,0 +1,78 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=ISBN:0525536558&jscmd=details&format=json",
+  "retrieved": "2026-10-24T09:30:14.147Z",
+  "status": 200,
+  "data": {
+    "ISBN:0525536558": {
+      "bib_key": "ISBN:0525536558",
+      "info_url": "http://openlibrary.org/books/OL28649425M/A_World_Without_Email",
+      "preview": "noview",
+      "preview_url": "http://openlibrary.org/books/OL28649425M/A_World_Without_Email",
+      "thumbnail_url": "https://covers.openlibrary.org/b/id/10328430-S.jpg",
+      "details": {
+        "notes": "Source title: A World Without Email: Reimagining Work in an Age of Communication Overload",
+        "title": "A World Without Email",
+        "subtitle": "Reimagining Work in an Age of Communication Overload",
+        "authors": [
+          {
+            "key": "/authors/OL2853212A",
+            "name": "Cal Newport"
+          }
+        ],
+        "publish_date": "Mar 02, 2021",
+        "publishers": [
+          "Portfolio"
+        ],
+        "covers": [
+          10328430
+        ],
+        "physical_format": "hardcover",
+        "full_title": "A World Without Email : Reimagining Work in an Age of Communication Overload",
+        "source_records": [
+          "amazon:0525536558",
+          "bwb:9780525536550",
+          "promise:bwb_daily_pallets_2022-08-30"
+        ],
+        "type": {
+          "key": "/type/edition"
+        },
+        "key": "/books/OL28649425M",
+        "number_of_pages": 304,
+        "works": [
+          {
+            "key": "/works/OL21162433W"
+          }
+        ],
+        "identifiers": {
+          "goodreads": [
+            "54326146"
+          ]
+        },
+        "isbn_10": [
+          "0525536558"
+        ],
+        "isbn_13": [
+          "9780525536550"
+        ],
+        "classifications": {},
+        "lc_classifications": [
+          "HF5718.N395 2021"
+        ],
+        "local_id": [
+          "urn:bwbsku:O8-CTS-986"
+        ],
+        "latest_revision": 7,
+        "revision": 7,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2020-08-06T01:36:31.557718"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2022-12-04T14:58:34.667508"
+        }
+      }
+    }
+  },
+  "file": "data/top500_261024/raw/ce53c09a1fd64bb6.json"
+}

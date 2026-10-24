@@ -1,0 +1,57 @@
+{
+  "title": "The Developing World",
+  "author": "Fredrik Härén",
+  "url": "https://openlibrary.org/search.json?title=The%20Developing%20World&author=Fredrik%20H%C3%A4r%C3%A9n&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:23:19.372Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Fredrik Härén"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "9789197547079",
+          "9197547077"
+        ],
+        "key": "/works/OL33755520W",
+        "title": "The Developing World"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The Developing World",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL10433686A"
+        }
+      }
+    ],
+    "key": "/works/OL33755520W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2023-01-14T09:52:45.976818"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-01-14T09:52:45.976818"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "title": "The Artist’s Journey",
+  "author": "Steven Pressfield",
+  "url": "https://openlibrary.org/search.json?title=The%20Artist%E2%80%99s%20Journey&author=Steven%20Pressfield&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:23:44.678Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Steven Pressfield",
+          "Shawn Coyne"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "1936891549",
+          "9781936891542"
+        ],
+        "key": "/works/OL21964085W",
+        "title": "The Artist's Journey"
+      }
+    ]
+  },
+  "work": {
+    "title": "The Artist's Journey",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-09-02T01:49:14.229588"
+    },
+    "covers": [
+      10413735
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-09-02T01:49:14.229588"
+    },
+    "latest_revision": 1,
+    "key": "/works/OL21964085W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL33112A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7912128A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

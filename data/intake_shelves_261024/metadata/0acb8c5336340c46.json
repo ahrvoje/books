@@ -1,0 +1,99 @@
+{
+  "title": "Me, Inc",
+  "author": "Gene Simmons",
+  "url": "https://openlibrary.org/search.json?title=Me%2C%20Inc&author=Gene%20Simmons&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:56.549Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Simmons, Gene"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "9780062322616",
+          "0062322613"
+        ],
+        "key": "/works/OL19990284W",
+        "language": [
+          "eng"
+        ],
+        "title": "Me, Inc",
+        "subject": [
+          "Entrepreneurship",
+          "Success in business",
+          "nyt:celebrities=2014-11-09",
+          "New York Times bestseller"
+        ]
+      },
+      {
+        "author_name": [
+          "Gene Simmons"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "1483028917",
+          "0062322621",
+          "9781483028910",
+          "9780062322623"
+        ],
+        "key": "/works/OL24232447W",
+        "language": [
+          "eng"
+        ],
+        "title": "Me, Inc."
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "The KISS co-founder discusses the entrepreneurial philosophies that have shaped his successes in a range of industries, outlining how to build a solid business strategy, make the most of today's digital tools, and create an effective network and brand."
+    },
+    "title": "Me, Inc",
+    "covers": [
+      9250568
+    ],
+    "subjects": [
+      "Entrepreneurship",
+      "Success in business",
+      "nyt:celebrities=2014-11-09",
+      "New York Times bestseller"
+    ],
+    "subject_people": [
+      "Gene Simmons (1949-)"
+    ],
+    "key": "/works/OL19990284W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1520672A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-18T17:06:43.305192"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-08-06T02:57:47.174884"
+    }
+  }
+}

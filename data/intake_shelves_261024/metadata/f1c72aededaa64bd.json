@@ -1,0 +1,79 @@
+{
+  "title": "Trans: When Ideology Meets Reality",
+  "author": "Helen Joyce",
+  "url": "https://openlibrary.org/search.json?title=Trans&author=Helen%20Joyce&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:43:14.940Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Helen Joyce"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "0861540506",
+          "0861540492",
+          "9780861543373",
+          "9780861543724",
+          "9780861540501",
+          "0861543726",
+          "0861543378",
+          "9780861540495"
+        ],
+        "key": "/works/OL24312206W",
+        "language": [
+          "eng"
+        ],
+        "title": "Trans",
+        "subject": [
+          "Sociology",
+          "Gender identity",
+          "Social aspects"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Trans",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3589049A"
+        }
+      }
+    ],
+    "covers": [
+      10828744
+    ],
+    "key": "/works/OL24312206W",
+    "subjects": [
+      "Sociology",
+      "Gender identity",
+      "Social aspects"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-03-30T17:06:54.352254"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-12T00:04:55.300597"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "title": "Connecting the Dots",
+  "author": "Sam Brinson",
+  "url": "https://openlibrary.org/search.json?title=Connecting%20the%20Dots&author=Sam%20Brinson&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:23:32.645Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Sam Brinson"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "9781535237956",
+          "1535237953"
+        ],
+        "key": "/works/OL40605069W",
+        "language": [
+          "eng"
+        ],
+        "title": "Connecting the Dots"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Connecting the Dots",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL14511611A"
+        }
+      }
+    ],
+    "key": "/works/OL40605069W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-09-25T21:37:03.464998"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-09-25T21:37:03.464998"
+    }
+  }
+}

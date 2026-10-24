@@ -1,0 +1,75 @@
+{
+  "title": "Project Nim",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Project%20Nim&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:36:03.769Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Herbert S. Terrace"
+        ],
+        "first_publish_year": 1976,
+        "key": "/works/OL38455775W",
+        "language": [
+          "eng"
+        ],
+        "title": "Project Nim",
+        "subject": [
+          "Chimpanzees",
+          "Behavior",
+          "Animal communication",
+          "Sign language",
+          "Structural linguistics"
+        ]
+      },
+      {
+        "first_publish_year": 2013,
+        "key": "/works/OL33918971W",
+        "title": "Project Nim"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Project Nim",
+    "subjects": [
+      "Chimpanzees",
+      "Behavior",
+      "Animal communication",
+      "Sign language",
+      "Structural linguistics"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1125472A"
+        }
+      }
+    ],
+    "key": "/works/OL38455775W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-07-12T00:12:47.991774"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-07-12T00:12:47.991774"
+    }
+  }
+}

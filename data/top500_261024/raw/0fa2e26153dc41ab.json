@@ -1,0 +1,44 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Founders%20at%20Work&author=Jessica%20Livingston&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-24T09:22:52.434Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jessica Livingston"
+        ],
+        "edition_key": [
+          "OL8848927M",
+          "OL25428099M",
+          "OL17075907M",
+          "OL28023901M",
+          "OL27436967M",
+          "OL24962027M"
+        ],
+        "key": "/works/OL16063674W",
+        "title": "Founders at work"
+      },
+      {
+        "author_name": [
+          "Jessica Livingston"
+        ],
+        "edition_key": [
+          "OL37097328M",
+          "OL32246667M",
+          "OL50574933M"
+        ],
+        "key": "/works/OL24351799W",
+        "title": "Founders at Work"
+      }
+    ]
+  },
+  "file": "data/top500_261024/raw/0fa2e26153dc41ab.json"
+}

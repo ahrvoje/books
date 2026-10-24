@@ -1,0 +1,109 @@
+{
+  "title": "Savage Europe",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Savage%20Europe&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:34:52.053Z",
+  "status": 200,
+  "search": {
+    "numFound": 6,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 6,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Harry De Windt"
+        ],
+        "first_publish_year": 1907,
+        "key": "/works/OL206671W",
+        "language": [
+          "eng"
+        ],
+        "title": "Through savage Europe",
+        "subject": [
+          "Description and travel"
+        ]
+      },
+      {
+        "author_name": [
+          "Avigdor Hameiri",
+          "Peter C. Appelbaum"
+        ],
+        "first_publish_year": 2020,
+        "isbn": [
+          "9781644693360",
+          "9781644693377",
+          "1644693380",
+          "9781644693384",
+          "1644693364",
+          "1644693372"
+        ],
+        "key": "/works/OL20764789W",
+        "language": [
+          "eng"
+        ],
+        "title": "Voyage into Savage Europe",
+        "subject": [
+          "Europe, central, history"
+        ]
+      },
+      {
+        "author_name": [
+          "Harry De Windt"
+        ],
+        "first_publish_year": 2015,
+        "isbn": [
+          "9781340133153",
+          "1340133156",
+          "9781377309439",
+          "1377309436"
+        ],
+        "key": "/works/OL28492453W",
+        "language": [
+          "eng"
+        ],
+        "title": "Through Savage Europe"
+      }
+    ]
+  },
+  "work": {
+    "key": "/works/OL206671W",
+    "title": "Through savage Europe",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-10-21T21:57:02.427825"
+    },
+    "id": 35028998,
+    "subject_places": [
+      "Balkan Peninsula",
+      "Soviet Union",
+      "Russia"
+    ],
+    "first_publish_date": "1907",
+    "latest_revision": 2,
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-02-03T01:25:24.577202"
+    },
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2412523A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Description and travel"
+    ],
+    "revision": 2
+  }
+}

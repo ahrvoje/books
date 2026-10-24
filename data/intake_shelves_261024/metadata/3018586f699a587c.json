@@ -1,0 +1,118 @@
+{
+  "title": "Into the Woods: How Stories Work",
+  "author": "John Yorke",
+  "url": "https://openlibrary.org/search.json?title=Into%20the%20Woods&author=John%20Yorke&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:30:28.545Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John Yorke"
+        ],
+        "first_publish_year": 2013,
+        "isbn": [
+          "1846146445",
+          "9781846146442",
+          "1468310941",
+          "9781468310948",
+          "9781846146435",
+          "0141978104",
+          "1846146437",
+          "9780141978109",
+          "9781468309584",
+          "1468309587"
+        ],
+        "key": "/works/OL21076193W",
+        "language": [
+          "eng"
+        ],
+        "title": "Into the Woods",
+        "subject": [
+          "Plots (drama, novel, etc.)",
+          "Motion picture authorship",
+          "Storytelling",
+          "Storytelling--philosophy",
+          "Motion picture authorship--philosophy",
+          "Anpassung",
+          "Drehbuch",
+          "Literatur",
+          "Pn212 .y67 2013",
+          "808.54301"
+        ]
+      },
+      {
+        "author_name": [
+          "Yorke, John (Television producer)"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "1468308092",
+          "9781468308099"
+        ],
+        "key": "/works/OL20021807W",
+        "language": [
+          "eng"
+        ],
+        "title": "Into the woods",
+        "subject": [
+          "Authorship",
+          "Creative writing",
+          "Plots (drama, novel, etc.)",
+          "Motion picture authorship",
+          "Storytelling",
+          "Philosophy",
+          "Adaption",
+          "Drehbuch",
+          "Literatur"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "Into the Woods",
+    "subjects": [
+      "Plots (drama, novel, etc.)",
+      "Motion picture authorship",
+      "Storytelling",
+      "Storytelling--philosophy",
+      "Motion picture authorship--philosophy",
+      "Anpassung",
+      "Drehbuch",
+      "Literatur",
+      "Pn212 .y67 2013",
+      "808.54301"
+    ],
+    "key": "/works/OL21076193W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1482840A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-03T22:18:40.358939"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-20T03:30:47.824570"
+    }
+  }
+}

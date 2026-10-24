@@ -1,0 +1,73 @@
+{
+  "title": "Only the Longest Threads",
+  "author": "Tasneem Zehra Husain",
+  "url": "https://openlibrary.org/search.json?title=Only%20the%20Longest%20Threads&author=Tasneem%20Zehra%20Husain&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:29:32.216Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Tasneem Zehra Husain"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "9781589880887",
+          "1589880889"
+        ],
+        "key": "/works/OL21248724W",
+        "language": [
+          "eng"
+        ],
+        "title": "Only the Longest Threads",
+        "subject": [
+          "Quantum field theory",
+          "Quantum theory",
+          "Gravitation"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "Only the Longest Threads",
+    "subjects": [
+      "Quantum field theory",
+      "Quantum theory",
+      "Gravitation"
+    ],
+    "key": "/works/OL21248724W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8137306A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      12186410
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-15T12:08:24.970766"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-10-23T04:29:39.939200"
+    }
+  }
+}

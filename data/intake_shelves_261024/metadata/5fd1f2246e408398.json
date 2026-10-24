@@ -1,0 +1,52 @@
+{
+  "title": "Wedge’s Gamble",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Wedge%E2%80%99s%20Gamble&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:37:27.983Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Michael A. Stackpole"
+        ],
+        "key": "/works/OL28031204W",
+        "title": "Wedge's Gamble"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Wedge's Gamble",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL40284A"
+        }
+      }
+    ],
+    "key": "/works/OL28031204W",
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-06-18T09:06:16.430669"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-05-10T14:42:05.702966"
+    }
+  }
+}

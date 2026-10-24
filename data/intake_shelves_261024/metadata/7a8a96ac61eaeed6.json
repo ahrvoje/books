@@ -1,0 +1,72 @@
+{
+  "title": "The Last Days of Socrates",
+  "author": "Plato",
+  "url": "https://openlibrary.org/search.json?title=The%20Last%20Days%20of%20Socrates&author=Plato&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:41:25.169Z",
+  "status": 200,
+  "search": {
+    "numFound": 10,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 10,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Hugh Plato; Tredennick"
+        ],
+        "first_publish_year": 1993,
+        "key": "/works/OL31479971W",
+        "title": "The Last Days of Socrates"
+      },
+      {
+        "author_name": [
+          "Hugh Plato; Tredennick"
+        ],
+        "first_publish_year": 1992,
+        "key": "/works/OL31296145W",
+        "title": "Last Days of Socrates, the"
+      },
+      {
+        "author_name": [
+          "Πλάτων"
+        ],
+        "first_publish_year": 1954,
+        "key": "/works/OL13770547M",
+        "language": [
+          "eng"
+        ],
+        "title": "The last days of Socrates"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The Last Days of Socrates",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL11422545A"
+        }
+      }
+    ],
+    "key": "/works/OL31479971W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-12-07T13:47:59.772113"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-07T13:47:59.772113"
+    }
+  }
+}

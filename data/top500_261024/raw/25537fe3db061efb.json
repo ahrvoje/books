@@ -1,0 +1,51 @@
+{
+  "url": "https://openlibrary.org/search.json?title=The%20Unbound%20Prometheus&author=David%20S.%20Landes&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-24T09:27:26.744Z",
+  "status": 200,
+  "data": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "David S. Landes"
+        ],
+        "edition_key": [
+          "OL21439710M"
+        ],
+        "key": "/works/OL10447010W",
+        "title": "The unbound Prometheus"
+      },
+      {
+        "author_name": [
+          "David S. Landes"
+        ],
+        "edition_key": [
+          "OL7765316M",
+          "OL5613176M",
+          "OL18889067M",
+          "OL20024585M",
+          "OL7745051M"
+        ],
+        "key": "/works/OL894119W",
+        "title": "The unbound Prometheus"
+      },
+      {
+        "author_name": [
+          "David S. Landes"
+        ],
+        "edition_key": [
+          "OL20171706M"
+        ],
+        "key": "/works/OL9946104W",
+        "title": "The unbound Prometheus"
+      }
+    ]
+  },
+  "file": "data/top500_261024/raw/25537fe3db061efb.json"
+}

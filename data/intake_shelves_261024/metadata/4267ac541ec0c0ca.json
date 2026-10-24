@@ -1,0 +1,80 @@
+{
+  "title": "Obliquity",
+  "author": "John Kay",
+  "url": "https://openlibrary.org/search.json?title=Obliquity&author=John%20Kay&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:30:18.763Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "John Kay"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "3423248300",
+          "9783423248303"
+        ],
+        "key": "/works/OL20415596W",
+        "title": "Obliquity"
+      },
+      {
+        "author_name": [
+          "John Kay",
+          "Jeff Kanipe"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "9781846682896",
+          "1846682894"
+        ],
+        "key": "/works/OL26461049W",
+        "language": [
+          "eng"
+        ],
+        "title": "Obliquity",
+        "subject": [
+          "Success",
+          "Goal (psychology)"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "Obliquity",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-11-06T13:19:53.137802"
+    },
+    "covers": [
+      9083358
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2019-11-06T13:19:53.137802"
+    },
+    "latest_revision": 1,
+    "key": "/works/OL20415596W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL676066A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

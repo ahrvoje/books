@@ -1,0 +1,79 @@
+{
+  "title": "Never Let Go",
+  "author": "Dan John",
+  "url": "https://openlibrary.org/search.json?title=Never%20Let%20Go&author=Dan%20John&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:08.280Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Dan John"
+        ],
+        "first_publish_year": 2009,
+        "isbn": [
+          "9781931046381",
+          "1931046387"
+        ],
+        "key": "/works/OL13775223W",
+        "language": [
+          "eng"
+        ],
+        "title": "Never let go",
+        "subject": [
+          "Bodybuilding",
+          "Weight lifting",
+          "Weight training",
+          "Physical education and training"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "lc_classifications": [
+      "GV546.3 .J64 2009"
+    ],
+    "key": "/works/OL13775223W",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T10:35:29.538902"
+    },
+    "title": "Never let go",
+    "first_publish_date": "2009",
+    "latest_revision": 3,
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-04-20T02:54:55.246529"
+    },
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL6616520A"
+        }
+      }
+    ],
+    "subtitle": "a philosophy of lifting, living and learning",
+    "dewey_number": [
+      "613.7/1301"
+    ],
+    "subjects": [
+      "Bodybuilding",
+      "Weight lifting",
+      "Weight training",
+      "Physical education and training"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "id": 48942063,
+    "revision": 3
+  }
+}

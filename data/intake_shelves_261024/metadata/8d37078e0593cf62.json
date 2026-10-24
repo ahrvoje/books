@@ -1,0 +1,82 @@
+{
+  "title": "Onassis: The Definitive Biography",
+  "author": "Willi Frischauer",
+  "url": "https://openlibrary.org/search.json?title=Onassis&author=Willi%20Frischauer&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:51:44.093Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Willi Frischauer"
+        ],
+        "first_publish_year": 1968,
+        "isbn": [
+          "9780370004426",
+          "0370004426"
+        ],
+        "key": "/works/OL6608750W",
+        "language": [
+          "eng"
+        ],
+        "title": "Onassis",
+        "subject": [
+          "Onassis, aristotle socrates, 1906-1975",
+          "Shipowners",
+          "Biography"
+        ]
+      },
+      {
+        "author_name": [
+          "Frischauer Willi"
+        ],
+        "first_publish_year": 1969,
+        "key": "/works/OL33762897W",
+        "title": "qui donc etes vous, monsieur onassis ?"
+      }
+    ]
+  },
+  "work": {
+    "subject_people": [
+      "Aristotle Socrates Onassis (1906-1975)"
+    ],
+    "key": "/works/OL6608750W",
+    "title": "Onassis",
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL1776639A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8089721
+    ],
+    "subjects": [
+      "Onassis, aristotle socrates, 1906-1975",
+      "Shipowners",
+      "Biography"
+    ],
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T19:26:26.354695"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-05-31T23:55:25.366832"
+    }
+  }
+}

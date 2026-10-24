@@ -1,0 +1,69 @@
+{
+  "title": "Scepticism: A Very Short Introduction",
+  "author": "Duncan Pritchard",
+  "url": "https://openlibrary.org/search.json?title=Scepticism&author=Duncan%20Pritchard&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:23:43.566Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Duncan Pritchard"
+        ],
+        "first_publish_year": 2019,
+        "isbn": [
+          "0198829167",
+          "9780198829164"
+        ],
+        "key": "/works/OL20649401W",
+        "title": "Scepticism",
+        "subject": [
+          "Philosophy",
+          "Skepticism"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subtitle": "a very short introduction",
+    "covers": [
+      9283990
+    ],
+    "key": "/works/OL20649401W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2669251A"
+        }
+      }
+    ],
+    "title": "Scepticism",
+    "subjects": [
+      "Philosophy",
+      "Skepticism"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-02-28T22:48:58.697430"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-21T08:56:58.750409"
+    }
+  }
+}

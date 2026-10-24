@@ -1,0 +1,118 @@
+{
+  "title": "Dishoom",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Dishoom&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:26:49.884Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Kavi Thakrar",
+          "Shamil Thakrar",
+          "Naved Nasir"
+        ],
+        "first_publish_year": 2019,
+        "isbn": [
+          "9781408890677",
+          "1408890674"
+        ],
+        "key": "/works/OL21648531W",
+        "language": [
+          "eng"
+        ],
+        "title": "Dishoom",
+        "subject": [
+          "Cooking, indic"
+        ]
+      },
+      {
+        "author_name": [
+          "Robert Canfield"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "9798753695703"
+        ],
+        "key": "/works/OL27182494W",
+        "language": [
+          "eng"
+        ],
+        "title": "Dishoom"
+      },
+      {
+        "author_name": [
+          "Rohit Dhawan",
+          "Sajid Nadiadwala",
+          "Sunil Lulla",
+          "Varun Dhawan"
+        ],
+        "first_publish_year": 2016,
+        "key": "/works/OL19720589W",
+        "language": [
+          "hin"
+        ],
+        "title": "Dishoom",
+        "subject": [
+          "Drama",
+          "Cricket players",
+          "Kidnapping",
+          "Police"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-25T19:43:09.809377"
+    },
+    "title": "Dishoom",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-25T19:43:09.809377"
+    },
+    "subjects": [
+      "Cooking, indic"
+    ],
+    "latest_revision": 1,
+    "key": "/works/OL21648531W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8280274A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8280275A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8280276A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

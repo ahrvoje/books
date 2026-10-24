@@ -1,0 +1,102 @@
+{
+  "title": "Analyzing Congress",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Analyzing%20Congress&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:26:23.218Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Charles Stewart",
+          "Charles Stewart III"
+        ],
+        "first_publish_year": 2001,
+        "isbn": [
+          "0393976262",
+          "9780393976267"
+        ],
+        "key": "/works/OL18366225W",
+        "language": [
+          "eng"
+        ],
+        "title": "Analyzing congress",
+        "subject": [
+          "United States",
+          "United States. Congress",
+          "United states, congress"
+        ]
+      },
+      {
+        "author_name": [
+          "Charles Haines Stewart"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "039393506X",
+          "9780393935066"
+        ],
+        "key": "/works/OL16003034W",
+        "language": [
+          "eng"
+        ],
+        "title": "Analyzing Congress",
+        "subject": [
+          "United States",
+          "United States. Congress",
+          "United states, congress"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-02-06T02:14:11.061373"
+    },
+    "subjects": [
+      "United States",
+      "United States. Congress",
+      "United states, congress"
+    ],
+    "latest_revision": 2,
+    "key": "/works/OL18366225W",
+    "title": "Analyzing congress",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL480964A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2685918A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-18T22:37:03.267068"
+    },
+    "covers": [
+      253017
+    ],
+    "revision": 2
+  }
+}

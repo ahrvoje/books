@@ -1,0 +1,62 @@
+{
+  "title": "Almost Perfect",
+  "author": "Erika Lemay",
+  "url": "https://openlibrary.org/search.json?title=Almost%20Perfect&author=Erika%20Lemay&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:22:48.018Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Erika Lemay"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "1631954253",
+          "1631954261",
+          "9781631954252",
+          "9781631954269"
+        ],
+        "key": "/works/OL25458364W",
+        "language": [
+          "eng"
+        ],
+        "title": "Almost Perfect"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Almost Perfect",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9619641A"
+        }
+      }
+    ],
+    "key": "/works/OL25458364W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-09-30T13:31:55.018196"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-30T13:31:55.018196"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "title": "The Terraformers",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=The%20Terraformers&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:26:14.278Z",
+  "status": 200,
+  "search": {
+    "numFound": 6,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 6,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "T. J. Shelley"
+        ],
+        "first_publish_year": 2017,
+        "isbn": [
+          "197318253X",
+          "9781973212232",
+          "1973212234",
+          "9781973182535"
+        ],
+        "key": "/works/OL29442535W",
+        "language": [
+          "eng"
+        ],
+        "title": "Terraforming the Soul"
+      },
+      {
+        "author_name": [
+          "Annalee Newitz"
+        ],
+        "first_publish_year": 2022,
+        "isbn": [
+          "9781250907547",
+          "1250907543"
+        ],
+        "key": "/works/OL31112951W",
+        "language": [
+          "eng"
+        ],
+        "title": "Sneak Peek for the Terraformers"
+      },
+      {
+        "author_name": [
+          "Stone Waters MD"
+        ],
+        "first_publish_year": 1996,
+        "isbn": [
+          "1551971224",
+          "9781551971223"
+        ],
+        "key": "/works/OL9813785W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Terraformers"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Terraforming the Soul",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL10875089A"
+        }
+      }
+    ],
+    "key": "/works/OL29442535W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-11-19T15:53:56.318425"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-11-19T15:53:56.318425"
+    }
+  }
+}

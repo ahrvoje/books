@@ -1,0 +1,93 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=ISBN:0143125788&jscmd=details&format=json",
+  "retrieved": "2026-10-24T09:23:37.500Z",
+  "status": 200,
+  "data": {
+    "ISBN:0143125788": {
+      "bib_key": "ISBN:0143125788",
+      "info_url": "http://openlibrary.org/books/OL31983905M/Command_and_Control",
+      "preview": "restricted",
+      "preview_url": "https://archive.org/details/commandcontrolnu0000schl_d5s2",
+      "thumbnail_url": "https://covers.openlibrary.org/b/id/10657747-S.jpg",
+      "details": {
+        "type": {
+          "key": "/type/edition"
+        },
+        "title": "Command and Control",
+        "authors": [
+          {
+            "key": "/authors/OL1422119A",
+            "name": "Eric Schlosser"
+          }
+        ],
+        "publish_date": "Aug 26, 2014",
+        "source_records": [
+          "amazon:0143125788",
+          "ia:commandcontrolnu0000schl_d5s2",
+          "bwb:9780143125785",
+          "promise:bwb_daily_pallets_2022-09-02",
+          "promise:bwb_daily_pallets_2021-06-09",
+          "idb:9780143125785"
+        ],
+        "number_of_pages": 656,
+        "publishers": [
+          "Penguin Books"
+        ],
+        "physical_format": "paperback",
+        "full_title": "Command and Control Nuclear Weapons, the Damascus Accident, and the Illusion of Safety",
+        "subtitle": "Nuclear Weapons, the Damascus Accident, and the Illusion of Safety",
+        "notes": "Source title: Command and Control: Nuclear Weapons, the Damascus Accident, and the Illusion of Safety",
+        "covers": [
+          10657747
+        ],
+        "works": [
+          {
+            "key": "/works/OL16809886W"
+          }
+        ],
+        "key": "/books/OL31983905M",
+        "identifiers": {},
+        "ocaid": "commandcontrolnu0000schl_d5s2",
+        "isbn_10": [
+          "0143125788"
+        ],
+        "isbn_13": [
+          "978-0143125785"
+        ],
+        "oclc_numbers": [
+          "1285471375"
+        ],
+        "lccn": [
+          "2013017151"
+        ],
+        "classifications": {},
+        "lc_classifications": [
+          "U264.3 .S45 2013"
+        ],
+        "dewey_decimal_class": [
+          "363.17/990976774"
+        ],
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "local_id": [
+          "urn:bwbsku:O8-CUV-566",
+          "urn:bwbsku:P7-APA-168"
+        ],
+        "latest_revision": 9,
+        "revision": 9,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2021-02-24T00:46:47.586091"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2023-12-19T20:58:53.126322"
+        }
+      }
+    }
+  },
+  "file": "data/top500_261024/raw/0a38cfc2a1833e6a.json"
+}

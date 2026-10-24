@@ -1,0 +1,103 @@
+{
+  "title": "Peak",
+  "author": "Anders Ericsson & Robert Pool",
+  "url": "https://openlibrary.org/search.json?title=Peak&author=Anders%20Ericsson%20%26%20Robert%20Pool&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:30:26.662Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Anders Ericsson",
+          "Robert Pool"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "9781473513143",
+          "1531864880",
+          "9780544456259",
+          "0544456254",
+          "1473513146",
+          "9781531864880"
+        ],
+        "key": "/works/OL21817078W",
+        "language": [
+          "eng"
+        ],
+        "title": "Peak",
+        "subject": [
+          "Excellence",
+          "Gifted persons",
+          "Performance"
+        ]
+      },
+      {
+        "author_name": [
+          "Anders,Pool, Robert Ericsson"
+        ],
+        "first_publish_year": 2017,
+        "isbn": [
+          "9780099598473",
+          "0099598477"
+        ],
+        "key": "/works/OL20195943W",
+        "title": "PEAK",
+        "subject": [
+          "Excellence",
+          "Gifted persons",
+          "Performance"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "Peak",
+    "subjects": [
+      "Excellence",
+      "Gifted persons",
+      "Performance"
+    ],
+    "key": "/works/OL21817078W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6888054A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL4806383A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      10467082
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-30T10:30:00.822913"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-10-29T00:08:30.262365"
+    }
+  }
+}

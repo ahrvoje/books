@@ -1,0 +1,127 @@
+{
+  "progress-0815": {
+    "referenceRecord": {
+      "pages": 26,
+      "ranges": [
+        {
+          "start": 254,
+          "end": 279,
+          "label": "References",
+          "evidence": "Physical PDF pages 256–281; next page begins acknowledgements.",
+          "method": "direct-PDF-inspection"
+        }
+      ],
+      "edition": {
+        "title": "The Role of Critical Minerals in Clean Energy Transitions",
+        "language": "English",
+        "id": "PublisherPDF:minerals:2021",
+        "year": 2021,
+        "physicalPages": 287
+      },
+      "url": "https://iea.blob.core.windows.net/assets/278ae0c8-28b8-402b-b9ab-6e45463c273f/TheRoleofCriticalMineralsinCleanEnergyTransitions.pdf",
+      "source": {
+        "file": "data/top500_261024/raw/minerals.pdf",
+        "retrieved": "2026-10-24"
+      },
+      "confidence": "high",
+      "sameEditionAsPG": false,
+      "method": "reviewed-primary-or-library-evidence",
+      "limitation": "Only documented reference sections are counted; excludes index. Edition matching is unconfirmed; R&D ratio is an estimate."
+    }
+  },
+  "g0272": {
+    "referenceRecord": {
+      "pages": 8,
+      "ranges": [
+        {
+          "start": 219,
+          "end": 226,
+          "label": "Notes",
+          "evidence": "Publisher contents: Notes 219; Index 227.",
+          "method": "contents-boundary"
+        }
+      ],
+      "edition": {
+        "title": "Monetizing Innovation",
+        "language": "English",
+        "id": "ISBN:9781119240884",
+        "year": 2016
+      },
+      "url": "https://www.wiley.com/en-gb/monetizing-innovation-how-smart-companies-design-the-product-around-the-price-p-9781119240884",
+      "source": {
+        "file": "data/top500_261024/search-toc-100.json",
+        "retrieved": "2026-10-24"
+      },
+      "confidence": "moderate",
+      "sameEditionAsPG": false,
+      "method": "reviewed-primary-or-library-evidence",
+      "limitation": "Only documented reference sections are counted; excludes index. Edition matching is unconfirmed; R&D ratio is an estimate."
+    }
+  },
+  "progress-0095": {
+    "referenceRecord": {
+      "pages": 59,
+      "ranges": [
+        {
+          "start": 709,
+          "end": 767,
+          "label": "bibliographical references",
+          "evidence": "bibliographical references (p. 709-767",
+          "method": "catalogued-range"
+        }
+      ],
+      "edition": {
+        "title": "The Printing Press as an Agent of Change",
+        "language": "English",
+        "id": "ISBN:0521220440",
+        "year": 1979
+      },
+      "url": "https://openlibrary.org/books/OL21421601M/The_printing_press_as_an_agent_of_change",
+      "source": {
+        "file": "data/top500_261024/search-ref-168.json",
+        "retrieved": "2026-10-24"
+      },
+      "confidence": "moderate",
+      "sameEditionAsPG": false,
+      "method": "reviewed-primary-or-library-evidence",
+      "limitation": "Catalog explicitly identifies bibliographical references on pages 709–767. The section is named Bibliographical Index in the contents; it is distinct from the general index. Two-volume work with continuous pagination."
+    }
+  },
+  "intake-0189": {
+    "referenceRecord": {
+      "pages": 48,
+      "confidence": "moderate",
+      "method": "google-contents-boundaries",
+      "ranges": [
+        {
+          "start": 289,
+          "end": 330,
+          "label": "Notes",
+          "evidence": "Notes 289; Bibliographic Review 331",
+          "method": "contents-boundary"
+        },
+        {
+          "start": 331,
+          "end": 336,
+          "label": "Bibliographic Review",
+          "evidence": "Bibliographic Review 331; Index 337",
+          "method": "contents-boundary"
+        }
+      ],
+      "edition": {
+        "id": "GoogleBooks:Q_12f2ciVK0C",
+        "title": "Before the Computer: IBM, NCR, Burroughs, and Remington Rand and the ...",
+        "author": "James W. Cortada",
+        "language": "English numbered contents"
+      },
+      "url": "https://books.google.com/books?id=Q_12f2ciVK0C&hl=en",
+      "source": {
+        "url": "https://books.google.com/books?vid=ISBN0691050457&hl=en",
+        "file": "data/top500_261024/raw/google-425e3a1782029aa9.html.gz",
+        "retrieved": "2026-10-24T09:49:29.460Z"
+      },
+      "sameEditionAsPG": false,
+      "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition. The six-page bibliographic review is included with the notes."
+    }
+  }
+}

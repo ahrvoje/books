@@ -1,0 +1,71 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=ISBN:039335279X&jscmd=details&format=json",
+  "retrieved": "2026-10-24T09:28:14.599Z",
+  "status": 200,
+  "data": {
+    "ISBN:039335279X": {
+      "bib_key": "ISBN:039335279X",
+      "info_url": "http://openlibrary.org/books/OL26631779M/Misbehaving",
+      "preview": "noview",
+      "preview_url": "http://openlibrary.org/books/OL26631779M/Misbehaving",
+      "thumbnail_url": "https://covers.openlibrary.org/b/id/8315354-S.jpg",
+      "details": {
+        "title": "Misbehaving",
+        "subtitle": "The Making of Behavioral Economics",
+        "publish_date": "2016",
+        "publishers": [
+          "W. W. Norton"
+        ],
+        "covers": [
+          8315354
+        ],
+        "physical_format": "Paperback",
+        "publish_places": [
+          "New York, USA"
+        ],
+        "pagination": "xvi, 415p.",
+        "source_records": [
+          "amazon:039335279X",
+          "bwb:9780393352795",
+          "promise:bwb_daily_pallets_2022-06-30",
+          "promise:bwb_daily_pallets_2022-03-17",
+          "idb:9780393352795"
+        ],
+        "isbn_13": [
+          "9780393352785"
+        ],
+        "isbn_10": [
+          "039335279X"
+        ],
+        "type": {
+          "key": "/type/edition"
+        },
+        "key": "/books/OL26631779M",
+        "number_of_pages": 415,
+        "works": [
+          {
+            "key": "/works/OL17940527W"
+          }
+        ],
+        "lc_classifications": [
+          "HB74.P8"
+        ],
+        "local_id": [
+          "urn:bwbsku:W7-CHK-935",
+          "urn:bwbsku:W7-BGM-689"
+        ],
+        "latest_revision": 12,
+        "revision": 12,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2019-01-04T03:02:41.288098"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2023-12-19T22:13:11.473522"
+        }
+      }
+    }
+  },
+  "file": "data/top500_261024/raw/05810ae6c88d7afd.json"
+}

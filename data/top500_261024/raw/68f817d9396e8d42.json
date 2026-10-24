@@ -1,0 +1,92 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=ISBN:0393324818&jscmd=details&format=json",
+  "retrieved": "2026-10-24T09:23:46.525Z",
+  "status": 200,
+  "data": {
+    "ISBN:0393324818": {
+      "bib_key": "ISBN:0393324818",
+      "info_url": "http://openlibrary.org/books/OL7454028M/Moneyball",
+      "preview": "restricted",
+      "preview_url": "https://archive.org/details/moneyball00mich",
+      "thumbnail_url": "https://covers.openlibrary.org/b/id/250590-S.jpg",
+      "details": {
+        "publishers": [
+          "W. W. Norton & Company"
+        ],
+        "identifiers": {
+          "goodreads": [
+            "1301"
+          ],
+          "librarything": [
+            "7676"
+          ],
+          "amazon": [
+            ""
+          ]
+        },
+        "subtitle": "The Art of Winning an Unfair Game",
+        "isbn_10": [
+          "0393324818"
+        ],
+        "covers": [
+          250590
+        ],
+        "lc_classifications": [
+          "GV880.L49 2003"
+        ],
+        "key": "/books/OL7454028M",
+        "authors": [
+          {
+            "key": "/authors/OL383719A",
+            "name": "Michael Lewis"
+          }
+        ],
+        "ocaid": "moneyball00mich",
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "source_records": [
+          "marc:marc_openlibraries_phillipsacademy/PANO_FOR_IA_05072019.mrc:22347945:3745",
+          "bwb:9780393324815",
+          "promise:bwb_daily_pallets_2020-04-09"
+        ],
+        "title": "Moneyball",
+        "number_of_pages": 320,
+        "isbn_13": [
+          "9780393324815"
+        ],
+        "local_id": [
+          "urn:phillips:31867007125821",
+          "urn:phillips:31867005089136",
+          "urn:bwbsku:O6-BUA-101"
+        ],
+        "publish_date": "April 2004",
+        "works": [
+          {
+            "key": "/works/OL7944813W"
+          }
+        ],
+        "type": {
+          "key": "/type/edition"
+        },
+        "first_sentence": {
+          "type": "/type/text",
+          "value": "THE FIRST THING they always did was run you."
+        },
+        "latest_revision": 12,
+        "revision": 12,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2008-04-29T13:35:46.876380"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2025-12-24T23:26:04.873349"
+        }
+      }
+    }
+  },
+  "file": "data/top500_261024/raw/68f817d9396e8d42.json"
+}

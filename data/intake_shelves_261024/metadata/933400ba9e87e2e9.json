@@ -1,0 +1,82 @@
+{
+  "title": "From Rebel to Ruler",
+  "author": "Tony Saich",
+  "url": "https://openlibrary.org/search.json?title=From%20Rebel%20to%20Ruler&author=Tony%20Saich&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:22.736Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Tony Saich"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "0674259637",
+          "9780674259638",
+          "9780674293915",
+          "0674293916",
+          "0674988116",
+          "9780674988118"
+        ],
+        "key": "/works/OL25468106W",
+        "language": [
+          "eng"
+        ],
+        "title": "From Rebel to Ruler",
+        "subject": [
+          "History",
+          "Communism",
+          "Politics and government",
+          "POLITICAL SCIENCE / General",
+          "Zhongguo gong chan dang"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "From Rebel to Ruler",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL863295A"
+        }
+      }
+    ],
+    "key": "/works/OL25468106W",
+    "subjects": [
+      "History",
+      "Communism",
+      "Politics and government",
+      "POLITICAL SCIENCE / General",
+      "Zhongguo gong chan dang"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"On the centennial of the founding of the Chinese Communist Party, Tony Saich offers the definitive history of the CCP's rise and rule. The party has suffered self-inflicted wounds yet thrived thanks to its flexibility. Looking ahead, Saich assesses how the CCP is adapting to global leadership and the expectations of China's growing middle class\"--"
+    },
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-09-30T15:59:57.787465"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-02-11T05:50:36.457929"
+    }
+  }
+}

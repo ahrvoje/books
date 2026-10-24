@@ -1,0 +1,92 @@
+{
+  "title": "Learning How to Learn",
+  "author": "Barbara Oakley",
+  "url": "https://openlibrary.org/search.json?title=Learning%20How%20to%20Learn&author=Barbara%20Oakley&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:28:46.557Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Barbara Oakley",
+          "Terrence Sejnowski  PhD"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "9781974903917",
+          "1974903915",
+          "9781974903870",
+          "1974903877"
+        ],
+        "key": "/works/OL20537101W",
+        "title": "Learning How to Learn"
+      },
+      {
+        "author_name": [
+          "Barbara Oakley PhD",
+          "Terrence Sejnowski PhD",
+          "Alistair McConville"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "0143132547",
+          "9780143132547"
+        ],
+        "key": "/works/OL20168714W",
+        "language": [
+          "eng"
+        ],
+        "title": "Learning How to Learn",
+        "subject": [
+          "Students",
+          "Students, juvenile literature"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "Learning How to Learn",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-12-12T18:55:28.661475"
+    },
+    "covers": [
+      9185178
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2019-12-12T18:55:28.661475"
+    },
+    "latest_revision": 1,
+    "key": "/works/OL20537101W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3887775A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7781088A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

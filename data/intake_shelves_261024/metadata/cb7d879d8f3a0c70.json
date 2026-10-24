@@ -1,0 +1,72 @@
+{
+  "title": "Growth: A Reckoning",
+  "author": "Daniel Susskind",
+  "url": "https://openlibrary.org/search.json?title=Growth&author=Daniel%20Susskind&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:41:40.662Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Daniel Susskind"
+        ],
+        "first_publish_year": 2024,
+        "isbn": [
+          "9780141998718",
+          "9780674294493",
+          "0141998717",
+          "9780674297050",
+          "9780241542309",
+          "0674297059",
+          "0241542308",
+          "0674294491"
+        ],
+        "key": "/works/OL37588166W",
+        "language": [
+          "eng"
+        ],
+        "title": "Growth",
+        "subject": [
+          "Economics"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Growth",
+    "subjects": [
+      "Economics"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7895936A"
+        }
+      }
+    ],
+    "key": "/works/OL37588166W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-01-31T01:55:19.843678"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-01-31T01:55:19.843678"
+    }
+  }
+}

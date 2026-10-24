@@ -1,0 +1,97 @@
+{
+  "title": "Spam Nation",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Spam%20Nation&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:37:05.936Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Brian Krebs"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "9781322221267",
+          "1492603236",
+          "9781402295621",
+          "9781402295614",
+          "1402295626",
+          "132222126X",
+          "1402295618",
+          "1402295634",
+          "9781402295638",
+          "9781492603238"
+        ],
+        "key": "/works/OL19266938W",
+        "language": [
+          "eng"
+        ],
+        "title": "Spam Nation: The Inside Story of Organized Cybercrime-from Global Epidemic to Your Front Door",
+        "subject": [
+          "Phishing",
+          "Organized crime",
+          "Computer crimes",
+          "Internet fraud",
+          "Spam (Electronic mail)",
+          "Electronic mail systems",
+          "Identity theft",
+          "nyt:crime-and-punishment=2014-12-07",
+          "New York Times bestseller"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Phishing",
+      "Organized crime",
+      "Computer crimes",
+      "Internet fraud",
+      "Spam (Electronic mail)",
+      "Electronic mail systems",
+      "Identity theft",
+      "nyt:crime-and-punishment=2014-12-07",
+      "New York Times bestseller"
+    ],
+    "key": "/works/OL19266938W",
+    "title": "Spam Nation: The Inside Story of Organized Cybercrime-from Global Epidemic to Your Front Door",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7476806A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8432163
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Explores \"the criminal masterminds driving some of the biggest spam and hacker operations targeting Americans and their bank accounts. Tracing the rise, fall, and alarming resurrection of the digital mafia behind the two largest spam pharmacies--and countless viruses, phishing, and spyware attacks--he delivers the first definitive narrative of the global spam problem and its threat to consumers everywhere\"--Amazon.com."
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-03-12T18:54:41.631879"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-10-24T12:51:13.059960"
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "progress-0813": {
+    "referenceRecord": {
+      "pages": 7,
+      "confidence": "high",
+      "ranges": [
+        {
+          "start": 26,
+          "end": 26,
+          "label": "References",
+          "method": "direct-PDF-inspection",
+          "evidence": "Printed pages 26–26; text and section boundaries inspected."
+        },
+        {
+          "start": 48,
+          "end": 48,
+          "label": "References",
+          "method": "direct-PDF-inspection",
+          "evidence": "Printed pages 48–48; text and section boundaries inspected."
+        },
+        {
+          "start": 66,
+          "end": 67,
+          "label": "References",
+          "method": "direct-PDF-inspection",
+          "evidence": "Printed pages 66–67; text and section boundaries inspected."
+        },
+        {
+          "start": 91,
+          "end": 91,
+          "label": "References",
+          "method": "direct-PDF-inspection",
+          "evidence": "Printed pages 91–91; text and section boundaries inspected."
+        },
+        {
+          "start": 118,
+          "end": 118,
+          "label": "References",
+          "method": "direct-PDF-inspection",
+          "evidence": "Printed pages 118–118; text and section boundaries inspected."
+        },
+        {
+          "start": 128,
+          "end": 128,
+          "label": "References",
+          "method": "direct-PDF-inspection",
+          "evidence": "Printed pages 128–128; text and section boundaries inspected."
+        }
+      ],
+      "method": "direct-PDF-inspection",
+      "edition": {
+        "id": "PublisherPDF:petrochemicals:2018",
+        "title": "The Future of Petrochemicals",
+        "author": "International Energy Agency",
+        "year": 2018,
+        "language": "English",
+        "physicalPages": 132
+      },
+      "url": "https://iea.blob.core.windows.net/assets/bee4ef3a-8876-4566-98cf-7a130c013805/The_Future_of_Petrochemicals.pdf",
+      "source": {
+        "file": "data/top500_261024/raw/petrochemicals.pdf",
+        "retrieved": "2026-10-24T09:45:31.908Z"
+      },
+      "sameEditionAsPG": false,
+      "limitation": "Six chapter reference sections; seven actual pages. This public IEA file has 132 physical PDF pages and skips printed page 92. Do not infer references on the absent page. The existing OECD total-page edition is listed as 152 pages, so the R&D ratio is an estimate."
+    }
+  },
+  "progress-0814": {
+    "referenceRecord": {
+      "pages": 6,
+      "confidence": "high",
+      "ranges": [
+        {
+          "start": 217,
+          "end": 222,
+          "label": "References",
+          "method": "direct-PDF-inspection",
+          "evidence": "Printed pages 217–222; text and section boundaries inspected."
+        }
+      ],
+      "method": "direct-PDF-inspection",
+      "edition": {
+        "id": "PublisherPDF:netzero:2021",
+        "title": "Net Zero by 2050: A Roadmap for the Global Energy Sector",
+        "author": "International Energy Agency",
+        "year": 2021,
+        "language": "English",
+        "physicalPages": 224
+      },
+      "url": "https://iea.blob.core.windows.net/assets/063ae08a-7114-4b58-a34e-39db2112d0a2/NetZeroby2050-ARoadmapfortheGlobalEnergySector.pdf",
+      "source": {
+        "file": "data/top500_261024/raw/netzero.pdf",
+        "retrieved": "2026-10-24T09:45:35.168Z"
+      },
+      "sameEditionAsPG": false,
+      "limitation": "Annex D spans printed pages 217–222 (physical PDF pages 218–223); the final colophon is excluded. Total physical PDF extent is 224, corroborating the publisher page count. Edition match to publisher metadata remains unconfirmed."
+    }
+  },
+  "g1153": {
+    "referenceRecord": {
+      "pages": 39,
+      "confidence": "moderate",
+      "method": "google-contents-boundaries",
+      "ranges": [
+        {
+          "start": 277,
+          "end": 302,
+          "label": "Notes",
+          "evidence": "Notes 277; Bibliography 303",
+          "method": "contents-boundary"
+        },
+        {
+          "start": 303,
+          "end": 315,
+          "label": "Bibliography",
+          "evidence": "Bibliography 303; Index 316",
+          "method": "contents-boundary"
+        }
+      ],
+      "edition": {
+        "id": "GoogleBooks:zg91TAIs6bgC",
+        "title": "The (Mis)Behaviour of Markets: A Fractal View of Risk, Ruin and Reward",
+        "author": "Benoit B. Mandelbrot, Richard L. Hudson",
+        "language": "English numbered contents"
+      },
+      "url": "https://books.google.com/books?id=zg91TAIs6bgC&hl=en",
+      "source": {
+        "url": "https://books.google.com/books?id=zg91TAIs6bgC&source=gbs_book_other_versions&hl=en",
+        "file": "data/top500_261024/raw/google-c194cafad525fa4d.html.gz",
+        "retrieved": "2026-10-24T09:34:00.900Z"
+      },
+      "sameEditionAsPG": false,
+      "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition. Chosen over a bibliography-only catalog count because this contents record also gives a bounded notes section."
+    }
+  },
+  "intake-0192": {
+    "referenceRecord": {
+      "pages": 50,
+      "confidence": "moderate",
+      "method": "google-contents-boundaries",
+      "ranges": [
+        {
+          "start": 263,
+          "end": 290,
+          "label": "Notes",
+          "evidence": "Notes 263; Bibliography 291",
+          "method": "contents-boundary"
+        },
+        {
+          "start": 291,
+          "end": 312,
+          "label": "Bibliography",
+          "evidence": "Bibliography 291; Index 313",
+          "method": "contents-boundary"
+        }
+      ],
+      "edition": {
+        "id": "GoogleBooks:2SNFpgX_WigC",
+        "title": "From Counterculture to Cyberculture: Stewart Brand, the Whole Earth Network ...",
+        "author": "Fred Turner",
+        "language": "English numbered contents"
+      },
+      "url": "https://books.google.com/books?id=2SNFpgX_WigC&hl=en",
+      "source": {
+        "url": "https://books.google.com/books?id=2SNFpgX_WigC&source=gbs_book_other_versions&hl=en",
+        "file": "data/top500_261024/raw/google-8f3f061499d5a489.html.gz",
+        "retrieved": "2026-10-24T09:46:45.239Z"
+      },
+      "sameEditionAsPG": false,
+      "limitation": "Only displayed, bounded reference sections are counted. Google Books may omit other sections from its contents list; a boundary may include a final blank page. Edition can differ from the length edition. Chosen over a bibliography-only catalog count because this contents record also gives a bounded notes section."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+import fs from 'node:fs';import {dir,read,write} from './capture.mjs';
+let p=read(dir+'/pending.json'),cache=fs.readdirSync(dir+'/metadata').map(f=>({...read(dir+'/metadata/'+f),file:f}));
+for(const b of p){let m=cache.find(x=>x.title===b.title&&x.author===b.author),z=m?.search?.docs?.[0];b.metadataFile=m?.file;b.metadata=z?{title:z.title,author:z.author_name?.join('; '),year:z.first_publish_year,key:z.key,language:z.language,subjects:z.subject?.slice(0,18),description:typeof m.work?.description==='string'?m.work.description:m.work?.description?.value}:null;}
+write(dir+'/review.json',p);const start=+process.argv[2]||0,n=+process.argv[3]||50;console.log(p.slice(start,start+n).map(b=>`${b.index} | ${b.title} — ${b.author} | ${b.metadata?.year||'?'} ${b.metadata?.author||''}\n${b.context?.slice(0,650)}\nMETA: ${b.metadata?.description?.slice(0,650)||b.metadata?.subjects?.join(', ')||'unknown'}`).join('\n\n'));

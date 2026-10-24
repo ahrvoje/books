@@ -1,0 +1,74 @@
+{
+  "title": "The Autumn of the Patriarch",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=The%20Autumn%20of%20the%20Patriarch&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:34:43.001Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Gabriel García Márquez"
+        ],
+        "first_publish_year": 1977,
+        "key": "/works/OL34652146W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Autumn of the Patriarch"
+      },
+      {
+        "author_name": [
+          "Gabriel García Márquez"
+        ],
+        "first_publish_year": 1997,
+        "isbn": [
+          "8401242290",
+          "9788401242298"
+        ],
+        "key": "/works/OL13186428M",
+        "title": "El Otono Del Patriarca / the Autumn of the Patriarch (Fiction, Poetry & Drama)",
+        "subject": [
+          "Modern fiction",
+          "Spanish",
+          "Foreign Language Study",
+          "Fiction"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The Autumn of the Patriarch",
+    "key": "/works/OL34652146W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL27363A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2023-02-28T05:26:17.504886"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-08-17T07:24:34.112163"
+    }
+  }
+}

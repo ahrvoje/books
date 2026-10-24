@@ -1,0 +1,82 @@
+{
+  "title": "Private Revolutions",
+  "author": "Yuan Yang",
+  "url": "https://openlibrary.org/search.json?title=Private%20Revolutions&author=Yuan%20Yang&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:21:39.498Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Yuan Yang"
+        ],
+        "first_publish_year": 2024,
+        "isbn": [
+          "9781526655899",
+          "9780593493908",
+          "0593493907",
+          "9781526655905",
+          "152665590X",
+          "1526655896"
+        ],
+        "key": "/works/OL37828044W",
+        "language": [
+          "eng"
+        ],
+        "title": "Private Revolutions",
+        "subject": [
+          "Sociology"
+        ]
+      },
+      {
+        "author_name": [
+          "Yuan Yang"
+        ],
+        "first_publish_year": 2025,
+        "isbn": [
+          "152665587X",
+          "9781526655875"
+        ],
+        "key": "/works/OL45345452W",
+        "title": "Private Revolutions"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Private Revolutions",
+    "subjects": [
+      "Sociology"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7616545A"
+        }
+      }
+    ],
+    "key": "/works/OL37828044W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-02-17T06:51:22.282506"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-02-17T06:51:22.282506"
+    }
+  }
+}

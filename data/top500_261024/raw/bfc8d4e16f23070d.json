@@ -1,0 +1,64 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=ISBN:152903423X&jscmd=details&format=json",
+  "retrieved": "2026-10-24T09:34:33.913Z",
+  "status": 200,
+  "data": {
+    "ISBN:152903423X": {
+      "bib_key": "ISBN:152903423X",
+      "info_url": "http://openlibrary.org/books/OL39959338M/Rise_and_Reign_of_the_Mammals",
+      "preview": "noview",
+      "preview_url": "http://openlibrary.org/books/OL39959338M/Rise_and_Reign_of_the_Mammals",
+      "details": {
+        "type": {
+          "key": "/type/edition"
+        },
+        "authors": [
+          {
+            "key": "/authors/OL7329857A",
+            "name": "Steve Brusatte"
+          }
+        ],
+        "isbn_13": [
+          "9781529034233"
+        ],
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "pagination": "400",
+        "publish_date": "2023",
+        "publishers": [
+          "Pan Macmillan"
+        ],
+        "source_records": [
+          "bwb:9781529034233",
+          "promise:bwb_daily_pallets_2024-02-22:KT-250-609"
+        ],
+        "title": "Rise and Reign of the Mammals",
+        "subtitle": "A New History, from the Shadow of the Dinosaurs to Us",
+        "full_title": "Rise and Reign of the Mammals A New History, from the Shadow of the Dinosaurs to Us",
+        "works": [
+          {
+            "key": "/works/OL27412277W"
+          }
+        ],
+        "key": "/books/OL39959338M",
+        "local_id": [
+          "urn:bwbsku:KT-250-609"
+        ],
+        "latest_revision": 2,
+        "revision": 2,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2022-10-18T05:28:34.307688"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2024-02-24T01:01:52.051484"
+        }
+      }
+    }
+  },
+  "file": "data/top500_261024/raw/bfc8d4e16f23070d.json"
+}

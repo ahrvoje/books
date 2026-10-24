@@ -1,0 +1,61 @@
+{
+  "title": "The Way of the Linguist",
+  "author": "Steve Kaufmann",
+  "url": "https://openlibrary.org/search.json?title=The%20Way%20of%20the%20Linguist&author=Steve%20Kaufmann&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:23:46.616Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Steve Kaufmann"
+        ],
+        "first_publish_year": 2005,
+        "isbn": [
+          "1420873296",
+          "9781420873290"
+        ],
+        "key": "/works/OL8780878W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Way of the Linguist"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T23:18:01.657222"
+    },
+    "title": "The Way of the Linguist",
+    "covers": [
+      764576
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-04-28T09:49:16.144515"
+    },
+    "latest_revision": 2,
+    "key": "/works/OL8780878W",
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL2992038A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 2
+  }
+}

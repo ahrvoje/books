@@ -1,0 +1,95 @@
+{
+  "title": "Batrachomyomachia",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Batrachomyomachia&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:34:47.670Z",
+  "status": 200,
+  "search": {
+    "numFound": 72,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 72,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Hesiod"
+        ],
+        "first_publish_year": 1888,
+        "key": "/works/OL17041502W",
+        "language": [
+          "lat",
+          "eng"
+        ],
+        "title": "Homer's Batrachomyomachia",
+        "subject": [
+          "Classical literature"
+        ]
+      },
+      {
+        "author_name": [
+          ". Homerus",
+          "Franz Xaver Weinzierl"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "9781021369970",
+          "1021369977",
+          "137703884X",
+          "9781377038841"
+        ],
+        "key": "/works/OL28514099W",
+        "language": [
+          "eng"
+        ],
+        "title": "Batrachomyomachia"
+      },
+      {
+        "author_name": [
+          "George Chapman"
+        ],
+        "first_publish_year": 1888,
+        "key": "/works/OL4981963W",
+        "language": [
+          "eng"
+        ],
+        "title": "Homer's Batrachomyomachia"
+      }
+    ]
+  },
+  "work": {
+    "title": "Homer's Batrachomyomachia",
+    "key": "/works/OL17041502W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL46125A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Classical literature"
+    ],
+    "covers": [
+      9727889
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2014-08-04T22:10:32.538418"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-02-12T06:54:26.163245"
+    }
+  }
+}

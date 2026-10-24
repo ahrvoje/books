@@ -1,0 +1,84 @@
+{
+  "title": "Warhammer 40k",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Warhammer%2040k&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:40:09.461Z",
+  "status": 200,
+  "search": {
+    "numFound": 39,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 39,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Games Workshop"
+        ],
+        "first_publish_year": 2019,
+        "isbn": [
+          "9781788263962",
+          "1788263960"
+        ],
+        "key": "/works/OL24494727W",
+        "title": "Warhammer 40K"
+      },
+      {
+        "author_name": [
+          "Games Workshop"
+        ],
+        "first_publish_year": 2020,
+        "isbn": [
+          "9781839061059",
+          "1839061057"
+        ],
+        "key": "/works/OL27038384W",
+        "title": "Warhammer 40K Codex Supplement"
+      },
+      {
+        "author_name": [
+          "Forge World"
+        ],
+        "first_publish_year": 2013,
+        "isbn": [
+          "1782534555",
+          "9781782534556"
+        ],
+        "key": "/works/OL24236130W",
+        "title": "The Horus Heresy Book Three - Extermination Warhammer 40k"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Warhammer 40K",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3052068A"
+        }
+      }
+    ],
+    "covers": [
+      11113763
+    ],
+    "key": "/works/OL24494727W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-05-17T23:09:21.369016"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-05-17T23:09:21.369016"
+    }
+  }
+}

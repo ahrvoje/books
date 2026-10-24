@@ -1,0 +1,82 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=ISBN:0316451398&jscmd=details&format=json",
+  "retrieved": "2026-10-24T09:24:49.631Z",
+  "status": 200,
+  "data": {
+    "ISBN:0316451398": {
+      "bib_key": "ISBN:0316451398",
+      "info_url": "http://openlibrary.org/books/OL33243503M/Noise",
+      "preview": "noview",
+      "preview_url": "http://openlibrary.org/books/OL33243503M/Noise",
+      "thumbnail_url": "https://covers.openlibrary.org/b/id/11943397-S.jpg",
+      "details": {
+        "type": {
+          "key": "/type/edition"
+        },
+        "title": "Noise",
+        "authors": [
+          {
+            "key": "/authors/OL2066695A",
+            "name": "Daniel Kahneman"
+          },
+          {
+            "key": "/authors/OL7768363A",
+            "name": "Olivier Sibony"
+          },
+          {
+            "key": "/authors/OL234141A",
+            "name": "Cass R. Sunstein"
+          }
+        ],
+        "publish_date": "May 31, 2022",
+        "source_records": [
+          "amazon:0316451398",
+          "bwb:9780316451390",
+          "promise:bwb_daily_pallets_2023-08-04:W8-BEE-038"
+        ],
+        "number_of_pages": 464,
+        "publishers": [
+          "Little, Brown and Company"
+        ],
+        "physical_format": "paperback",
+        "full_title": "Noise A Flaw in Human Judgment",
+        "subtitle": "A Flaw in Human Judgment",
+        "notes": "Source title: Noise: A Flaw in Human Judgment",
+        "covers": [
+          11943397
+        ],
+        "works": [
+          {
+            "key": "/works/OL17962180W"
+          }
+        ],
+        "key": "/books/OL33243503M",
+        "identifiers": {},
+        "isbn_10": [
+          "0316451398"
+        ],
+        "isbn_13": [
+          "9780316451390"
+        ],
+        "classifications": {},
+        "dewey_decimal_class": [
+          "153.83 K1225N"
+        ],
+        "local_id": [
+          "urn:bwbsku:W8-BEE-038"
+        ],
+        "latest_revision": 5,
+        "revision": 5,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2021-09-10T12:54:06.504801"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2023-08-06T01:08:27.810149"
+        }
+      }
+    }
+  },
+  "file": "data/top500_261024/raw/504a20f55ef563e3.json"
+}

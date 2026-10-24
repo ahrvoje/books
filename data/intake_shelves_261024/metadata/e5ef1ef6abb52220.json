@@ -1,0 +1,56 @@
+{
+  "title": "The Bridge to Lucy Dunne",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=The%20Bridge%20to%20Lucy%20Dunne&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:37:53.957Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Exurb1a"
+        ],
+        "first_publish_year": 2016,
+        "key": "/works/OL43933526W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Bridge To Lucy Dunne"
+      }
+    ]
+  },
+  "work": {
+    "title": "The Bridge To Lucy Dunne",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL7366892A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "key": "/works/OL43933526W",
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2025-08-23T13:03:24.867523"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-08-23T13:03:24.867523"
+    }
+  }
+}

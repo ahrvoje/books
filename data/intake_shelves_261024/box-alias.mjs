@@ -1,0 +1,2 @@
+import {dir,read,write} from './capture.mjs';
+const a=read(dir+'/triaged.json'),rows=read(dir+'/rows.json');for(const[t,id]of [['The Box: How the Shipping Container Made the World Smaller and the World Economy Bigger','q0004'],['The Prize: The Epic Quest for Oil, Money & Power','q0015']]){const b=a.find(b=>b.title===t);if(!b)throw Error(t);for(const r of rows.filter(r=>r.newId===b.id)){r.id=id;r.status='recommended';delete r.newId;}}write(dir+'/rows.json',rows);

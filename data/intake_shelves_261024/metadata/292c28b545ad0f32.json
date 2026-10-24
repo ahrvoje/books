@@ -1,0 +1,105 @@
+{
+  "title": "Master of Precision: Henry Leland",
+  "author": "Ottilie Leland and Minnie Dubbs Millbrook",
+  "url": "https://openlibrary.org/search.json?title=Master%20of%20Precision&author=Ottilie%20Leland&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:50:48.541Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Henry M. Leland",
+          "Ottilie M. Leland",
+          "Minnie Dubbs Millbrook"
+        ],
+        "first_publish_year": 1996,
+        "isbn": [
+          "081432665X",
+          "9780814326657"
+        ],
+        "key": "/works/OL26479442W",
+        "language": [
+          "eng"
+        ],
+        "title": "Master of Precision",
+        "subject": [
+          "Leland, henry martyn, 1843-1932"
+        ]
+      },
+      {
+        "author_name": [
+          "Ottilie M. Leland"
+        ],
+        "first_publish_year": 1966,
+        "isbn": [
+          "9780837171920",
+          "083717192X"
+        ],
+        "key": "/works/OL7203300W",
+        "language": [
+          "eng"
+        ],
+        "title": "Master of precision",
+        "subject": [
+          "Leland, henry martyn, 1843-1932"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Master of Precision",
+    "subjects": [
+      "Leland, henry martyn, 1843-1932"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3327929A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2068654A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1782176A"
+        }
+      }
+    ],
+    "covers": [
+      5015184
+    ],
+    "key": "/works/OL26479442W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-12-25T12:07:24.732387"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-12-25T12:07:24.732387"
+    }
+  }
+}

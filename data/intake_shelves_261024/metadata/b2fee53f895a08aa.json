@@ -1,0 +1,84 @@
+{
+  "title": "Enjoy Our Universe",
+  "author": "Alvaro De Rújula",
+  "url": "https://openlibrary.org/search.json?title=Enjoy%20Our%20Universe&author=Alvaro%20De%20R%C3%BAjula&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:29:26.231Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Alvaro De Rújula"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "0198817800",
+          "9780198817802"
+        ],
+        "key": "/works/OL25055889W",
+        "language": [
+          "eng"
+        ],
+        "title": "Enjoy Our Universe",
+        "subject": [
+          "Cosmogony",
+          "Cosmology"
+        ]
+      },
+      {
+        "author_name": [
+          "Alvaro De Rujula"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "9781684415304",
+          "1684415306"
+        ],
+        "key": "/works/OL20570679W",
+        "title": "Enjoy Our Universe"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Enjoy Our Universe",
+    "subjects": [
+      "Cosmogony",
+      "Cosmology"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9453825A"
+        }
+      }
+    ],
+    "key": "/works/OL25055889W",
+    "description": {
+      "type": "/type/text",
+      "value": "A richly illustrated book on fundamental physics, cosmology, black holes, Higgs bosons, and time travel for a wide audience. This guide for an enjoyable visit to the Universe is humorous but not a joke. It establishes clear distinctions between things we know for sure and things that we know we do not know. In this sense, it is scientifically honest."
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-09-13T23:15:51.162560"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-08-08T19:51:56.720155"
+    }
+  }
+}

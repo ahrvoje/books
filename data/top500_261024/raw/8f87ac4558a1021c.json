@@ -1,0 +1,161 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL21336636M,ISBN:1953953166&jscmd=details&format=json",
+  "retrieved": "2026-10-24T09:28:46.845Z",
+  "status": 200,
+  "data": {
+    "OLID:OL21336636M": {
+      "bib_key": "OLID:OL21336636M",
+      "info_url": "http://openlibrary.org/books/OL21336636M/The_big_score",
+      "preview": "borrow",
+      "preview_url": "https://archive.org/details/bigscorebilli00malo",
+      "thumbnail_url": "https://covers.openlibrary.org/b/id/7885281-S.jpg",
+      "details": {
+        "publishers": [
+          "Doubleday"
+        ],
+        "number_of_pages": 442,
+        "subtitle": "the billion dollar story of Silicon Valley",
+        "isbn_10": [
+          "0385183518"
+        ],
+        "covers": [
+          7885281
+        ],
+        "lc_classifications": [
+          "HD9696.A3 U5668 1985"
+        ],
+        "key": "/books/OL21336636M",
+        "authors": [
+          {
+            "key": "/authors/OL6251896A",
+            "name": "Michael S. Malone"
+          }
+        ],
+        "ocaid": "bigscorebilli00malo",
+        "publish_places": [
+          "Garden City, N.Y"
+        ],
+        "subjects": [
+          "Microelectronics industry -- California -- Santa Clara County."
+        ],
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "pagination": "x, 442 p. ;",
+        "classifications": {},
+        "source_records": [
+          "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run01.mrc:139004772:1823",
+          "marc:marc_loc_2016/BooksAll.2016.part14.utf8:44127283:758",
+          "bwb:9780385183512",
+          "marc:marc_columbia/Columbia-extract-20221130-001.mrc:475595779:1127",
+          "marc:harvard_bibliographic_metadata/ab.bib.00.20150123.full.mrc:314366941:700"
+        ],
+        "title": "The big score",
+        "lccn": [
+          "82046038"
+        ],
+        "notes": "Includes index.",
+        "identifiers": {
+          "librarything": [
+            "2387912"
+          ],
+          "goodreads": [
+            "767761"
+          ]
+        },
+        "edition_name": "1st ed.",
+        "dewey_decimal_class": [
+          "338.4/76213817/0979473"
+        ],
+        "local_id": [
+          "urn:sfpl:31223013258034",
+          "urn:sfpl:31223900702821",
+          "urn:sfpl:31223901490012"
+        ],
+        "publish_date": "1985",
+        "publish_country": "xxu",
+        "by_statement": "Michael S. Malone.",
+        "oclc_numbers": [
+          "11370487"
+        ],
+        "works": [
+          {
+            "key": "/works/OL1881367W"
+          }
+        ],
+        "type": {
+          "key": "/type/edition"
+        },
+        "latest_revision": 17,
+        "revision": 17,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2008-11-01T21:47:24.456765"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2025-10-19T17:19:03.741281"
+        }
+      }
+    },
+    "ISBN:1953953166": {
+      "bib_key": "ISBN:1953953166",
+      "info_url": "http://openlibrary.org/books/OL36603064M/The_Big_Score",
+      "preview": "noview",
+      "preview_url": "http://openlibrary.org/books/OL36603064M/The_Big_Score",
+      "thumbnail_url": "https://covers.openlibrary.org/b/id/12508415-S.jpg",
+      "details": {
+        "title": "The Big Score",
+        "subtitle": "The Billion-Dollar Story of Silicon Valley",
+        "publish_date": "2021",
+        "publishers": [
+          "Stripe Press"
+        ],
+        "type": {
+          "key": "/type/edition"
+        },
+        "covers": [
+          12508415
+        ],
+        "isbn_13": [
+          "9781953953162"
+        ],
+        "isbn_10": [
+          "1953953166"
+        ],
+        "edition_name": "Second edition",
+        "languages": [
+          {
+            "key": "/languages/eng"
+          }
+        ],
+        "source_records": [
+          "promise:bwb_daily_pallets_2022-05-24:O8-BEI-442",
+          "bwb:9781953953162"
+        ],
+        "local_id": [
+          "urn:bwbsku:O8-BEI-442"
+        ],
+        "key": "/books/OL36603064M",
+        "works": [
+          {
+            "key": "/works/OL1881367W"
+          }
+        ],
+        "latest_revision": 9,
+        "revision": 9,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2022-01-01T10:55:01.940031"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2025-10-19T17:19:03.741281"
+        }
+      }
+    }
+  },
+  "file": "data/top500_261024/raw/8f87ac4558a1021c.json"
+}

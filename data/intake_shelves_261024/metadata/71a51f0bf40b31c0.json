@@ -1,0 +1,85 @@
+{
+  "title": "The Big Score",
+  "author": "Jacquie McNish",
+  "url": "https://openlibrary.org/search.json?title=The%20Big%20Score&author=Jacquie%20McNish&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:30:06.500Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jacquie McNish"
+        ],
+        "first_publish_year": 1998,
+        "isbn": [
+          "0385259069",
+          "0385257589",
+          "9780385259064",
+          "9780385257589"
+        ],
+        "key": "/works/OL634920W",
+        "language": [
+          "eng"
+        ],
+        "title": "The big score",
+        "subject": [
+          "Diamond Fields (Firm)",
+          "Inco Limited",
+          "Nickel industry",
+          "Nickel mines and mining"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "The big score",
+    "covers": [
+      238641
+    ],
+    "subject_places": [
+      "Newfoundland and Labrador",
+      "Newfoundland",
+      "Voisey Bay"
+    ],
+    "subjects": [
+      "Diamond Fields (Firm)",
+      "Inco Limited",
+      "Nickel industry",
+      "Nickel mines and mining"
+    ],
+    "subject_people": [
+      "Robert Friedland"
+    ],
+    "key": "/works/OL634920W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL48879A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-08T06:53:28.481021"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-10-01T13:12:39.723037"
+    }
+  }
+}

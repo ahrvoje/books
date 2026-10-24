@@ -1,0 +1,80 @@
+{
+  "title": "Linear Algebra",
+  "author": "Elizabeth S. Meckes and Mark Meckes",
+  "url": "https://openlibrary.org/search.json?title=Linear%20Algebra&author=Elizabeth%20S.%20Meckes&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:27:45.880Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Elizabeth S. Meckes",
+          "Mark W. Meckes"
+        ],
+        "first_publish_year": 2018,
+        "isbn": [
+          "1107177901",
+          "9781107177901",
+          "9781316823200",
+          "1316823202"
+        ],
+        "key": "/works/OL22541975W",
+        "language": [
+          "eng"
+        ],
+        "title": "Linear Algebra",
+        "subject": [
+          "Algebras, linear"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "Linear Algebra",
+    "subjects": [
+      "Algebras, linear"
+    ],
+    "key": "/works/OL22541975W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8123386A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8614482A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      13839334
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-10-11T17:40:16.237432"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-04-05T20:12:19.559809"
+    }
+  }
+}

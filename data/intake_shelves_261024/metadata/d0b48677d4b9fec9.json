@@ -1,0 +1,60 @@
+{
+  "title": "The Motivation Hacker",
+  "author": "Nick Winter",
+  "url": "https://openlibrary.org/search.json?title=The%20Motivation%20Hacker&author=Nick%20Winter&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:45:40.113Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Nick Winter"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "0989279820",
+          "9780989279826"
+        ],
+        "key": "/works/OL26438071W",
+        "title": "The Motivation Hacker"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The Motivation Hacker",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9962682A"
+        }
+      }
+    ],
+    "covers": [
+      12458180
+    ],
+    "key": "/works/OL26438071W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-12-21T23:26:19.074968"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-12-21T23:26:19.074968"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+import fs from 'node:fs';import {chromium} from 'playwright';import {dir,write,clean} from './capture.mjs';
+const browser=await chromium.launch({headless:true}),page=await browser.newPage();await page.route('**/*',r=>r.abort());
+for(const i of ['254-comments2','264','265']){await page.setContent(fs.readFileSync(dir+'/raw/'+i+'.html','utf8').replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,''));let a=await page.evaluate(()=>[...document.querySelectorAll('.comment-content,.wp-block-comment-content')].map(e=>e.textContent.trim()));write(dir+'/'+i+'-comments.txt',a.join('\n\n'));console.log(i,a.length);}
+await browser.close();let s=fs.readFileSync(dir+'/raw/252-feed.html','utf8');write(dir+'/252-comments.txt',[...s.matchAll(/<content:encoded><!\[CDATA\[([\s\S]*?)\]\]>/g)].map(m=>clean(m[1])).join('\n\n'));console.log('MR comments',s.match(/<item>/g).length);

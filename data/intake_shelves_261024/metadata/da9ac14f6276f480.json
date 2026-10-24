@@ -1,0 +1,79 @@
+{
+  "title": "The Hidden Half: How the World Conceals its Secrets",
+  "author": "Michael Blastland",
+  "url": "https://openlibrary.org/search.json?title=The%20Hidden%20Half&author=Michael%20Blastland&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:43:46.262Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Michael Blastland"
+        ],
+        "first_publish_year": 2019,
+        "isbn": [
+          "1786496372",
+          "9781786496379",
+          "9781786497772",
+          "9781786496393",
+          "1786497778",
+          "1786496399"
+        ],
+        "key": "/works/OL20873314W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Hidden Half",
+        "subject": [
+          "Knowledge, theory of",
+          "Curiosities and wonders",
+          "Popular culture",
+          "Theory of Knowledge"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Knowledge, theory of",
+      "Curiosities and wonders",
+      "Popular culture",
+      "Theory of Knowledge"
+    ],
+    "key": "/works/OL20873314W",
+    "title": "The Hidden Half",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3064994A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      10194204
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-06-17T16:05:46.044761"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-18T14:16:35.817146"
+    }
+  }
+}

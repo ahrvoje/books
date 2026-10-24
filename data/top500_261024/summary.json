@@ -1,0 +1,41 @@
+{
+  "selected": 500,
+  "initialRankRange": [
+    12,
+    1086
+  ],
+  "booksEnriched": 231,
+  "pagesAdded": 27,
+  "ratingsAdded": 107,
+  "referenceCountsAdded": 151,
+  "referenceCountsExpanded": 1,
+  "linksCorrected": 54,
+  "scoresChanged": 204,
+  "remaining": {
+    "pages": 3,
+    "ratings": 119,
+    "references": 271
+  },
+  "report": "analysis/analysis_top500data_261024_1353.md",
+  "amazonRequests": 189,
+  "amazonStop": {
+    "url": "https://www.amazon.com.au/dp/1859841082",
+    "retrieved": "2026-10-24T11:49:34.540Z",
+    "rawFile": "data/top500_261024/raw/amazon-progress-0029-1859841082.html.gz",
+    "status": 200,
+    "reason": "Access challenge or rate limit; no further automated requests."
+  },
+  "libraryStops": {
+    "openlibrary.org": {
+      "url": "https://openlibrary.org/api/books?bibkeys=OLID:OL8748640M,ISBN:1576754138&jscmd=details&format=json",
+      "status": 503
+    }
+  },
+  "googleSteps": 726,
+  "archiveLookups": 294,
+  "archiveStop": null,
+  "archiveIsbnBatches": 26,
+  "archiveIsbnStop": null,
+  "amazonBooksAttempted": 141,
+  "amazonMissingWithoutDirectAttempt": 85
+}

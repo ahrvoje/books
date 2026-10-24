@@ -1,0 +1,119 @@
+{
+  "title": "Every Thing Must Go",
+  "author": "James Ladyman and Don Ross",
+  "url": "https://openlibrary.org/search.json?title=Every%20Thing%20Must%20Go&author=James%20Ladyman&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:28:58.883Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "James Ladyman",
+          "Don Ross",
+          "Don Spurrett",
+          "John Collier"
+        ],
+        "first_publish_year": 2007,
+        "isbn": [
+          "9781435623354",
+          "9780199573097",
+          "0199573093",
+          "9781281164674",
+          "1435623355",
+          "9780191534751",
+          "1281164674",
+          "0191534757",
+          "0199276196",
+          "9780199276196"
+        ],
+        "key": "/works/OL18752051W",
+        "language": [
+          "eng"
+        ],
+        "title": "Every thing must go",
+        "subject": [
+          "Metaphysics"
+        ]
+      },
+      {
+        "author_name": [
+          "James Ladyman"
+        ],
+        "first_publish_year": 2007,
+        "isbn": [
+          "9780199276196",
+          "0199276196"
+        ],
+        "key": "/works/OL12248234W",
+        "language": [
+          "eng"
+        ],
+        "title": "Every thing must go"
+      }
+    ]
+  },
+  "work": {
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-02-12T16:49:02.013399"
+    },
+    "subjects": [
+      "Metaphysics"
+    ],
+    "latest_revision": 1,
+    "key": "/works/OL18752051W",
+    "title": "Every thing must go",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2695854A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL74373A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3378307A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL318116A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2019-02-12T16:49:02.013399"
+    },
+    "covers": [
+      2334197
+    ],
+    "revision": 1
+  }
+}

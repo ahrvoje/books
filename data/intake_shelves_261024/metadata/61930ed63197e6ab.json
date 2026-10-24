@@ -1,0 +1,65 @@
+{
+  "title": "Asian 21st Century",
+  "author": "Kishore Mahbubani",
+  "url": "https://openlibrary.org/search.json?title=Asian%2021st%20Century&author=Kishore%20Mahbubani&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:36.572Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Kishore Mahbubani"
+        ],
+        "first_publish_year": 2022,
+        "isbn": [
+          "9789811668104",
+          "9811668132",
+          "9789811668135",
+          "9811668108"
+        ],
+        "key": "/works/OL25815143W",
+        "language": [
+          "eng"
+        ],
+        "title": "Asian 21st Century"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Asian 21st Century",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL313650A"
+        }
+      }
+    ],
+    "key": "/works/OL25815143W",
+    "covers": [
+      13730985
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-10-08T04:54:15.298290"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-03-21T01:38:30.898054"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "title": "Waste Books",
+  "author": "Georg Christoph Lichtenberg",
+  "url": "https://openlibrary.org/search.json?title=Waste%20Books&author=Georg%20Christoph%20Lichtenberg&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:20:54.940Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Georg Christoph Lichtenberg"
+        ],
+        "first_publish_year": 2000,
+        "isbn": [
+          "0940322501",
+          "9780940322509"
+        ],
+        "key": "/works/OL1673057W",
+        "language": [
+          "eng"
+        ],
+        "title": "The waste books",
+        "subject": [
+          "Aphorisms and apothegms"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "2000",
+    "title": "The waste books",
+    "covers": [
+      717566
+    ],
+    "lc_classifications": [
+      "PT2423.L4 A25 2000"
+    ],
+    "key": "/works/OL1673057W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL188452A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "838/.602"
+    ],
+    "subjects": [
+      "Aphorisms and apothegms"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "\"German scientist and man of letters Georg Christoph Lichtenberg was an 18th-century polymath: an experimental physicist, an astronomer, a mathematician, a practicing critic both of art and literature. He is most celebrated, however, for the casual notes and aphorisms that he collected in what he called his Waste Books. With unflagging intelligence and encyclopedic curiosity, Lichtenberg wittily deflates the pretensions of learning and society, examines a range of philosophical questions, and tracks his own thoughts down hidden pathways to disconcerting and sometimes hilarious conclusions. Lichtenberg's Waste Books have been greatly admired by writers as very different as Tolstoy, Einstein, and Andre Breton, while Nietzsche and Wittgenstein acknowledged them as a significant inspiration for their own radical work in philosophy. The record of a brilliant and subtle mind in action, The Waste Books are above all a powerful testament to the necessity, and pleasure, of unfettered thought.\"--Amazon.com."
+    },
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T22:06:25.969357"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-04-26T02:25:34.479261"
+    }
+  }
+}

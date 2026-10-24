@@ -1,0 +1,118 @@
+{
+  "title": "The Book",
+  "author": "Keith Houston",
+  "url": "https://openlibrary.org/search.json?title=The%20Book&author=Keith%20Houston&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:32:02.339Z",
+  "status": 200,
+  "search": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Keith Houston"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "0393244792",
+          "9780393244793",
+          "0393244806",
+          "9780393244809",
+          "8365271362",
+          "9788365271365"
+        ],
+        "key": "/works/OL20034402W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Book",
+        "subject": [
+          "Illustration of books",
+          "Paper",
+          "Books",
+          "Printing",
+          "History",
+          "Books, history",
+          "CRAFTS & HOBBIES / Book Printing & Binding",
+          "HISTORY / World"
+        ]
+      },
+      {
+        "author_name": [
+          "John Brunner"
+        ],
+        "first_publish_year": 1976,
+        "key": "/works/OL15558756W",
+        "language": [
+          "eng"
+        ],
+        "title": "The book of John Brunner",
+        "subject": [
+          "English Science fiction",
+          "Science fiction, English"
+        ]
+      },
+      {
+        "author_name": [
+          "John Brunner"
+        ],
+        "first_publish_year": 1976,
+        "key": "/works/OL37438215W",
+        "language": [
+          "eng"
+        ],
+        "title": "The book of John Brunner",
+        "subject": [
+          "English Science fiction"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Illustration of books",
+      "Paper",
+      "Books",
+      "Printing",
+      "History",
+      "Books, history",
+      "CRAFTS & HOBBIES / Book Printing & Binding",
+      "HISTORY / World"
+    ],
+    "description": "Reveals how books and the materials that make them reflect the history of human civilization, tracing the development of writing, printing, illustrating, and binding to demonstrate the transition from cuneiform tablets and papyrus scrolls to the mass-distributed books of today.\r\n\r\n\"We may love books, but do we know what lies behind them? In The Book, Keith Houston reveals that the paper, ink, thread, glue, and board from which a book is made tell as rich a story as the words on its pages--of civilizations, empires, human ingenuity, and madness. In an invitingly tactile history of this 2,000-year-old medium, Houston follows the development of writing, printing, the art of illustrations, and binding to show how we have moved from cuneiform tablets and papyrus scrolls to the hardcovers and paperbacks of today. Sure to delight book lovers of all stripes with its lush, full-color illustrations, The Book gives us the momentous and surprising history behind humanity's most important--and universal--information technology.\"--Back cover.",
+    "key": "/works/OL20034402W",
+    "title": "The Book",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL7366832A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      12568778
+    ],
+    "subtitle": "A Cover-to-Cover Exploration of the Most Powerful Object of Our Time",
+    "latest_revision": 10,
+    "revision": 10,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-19T15:16:26.289746"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-09-17T16:39:51.476820"
+    }
+  }
+}

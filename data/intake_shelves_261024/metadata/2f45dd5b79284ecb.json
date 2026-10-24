@@ -1,0 +1,73 @@
+{
+  "title": "Wanting",
+  "author": "Luke Burgis",
+  "url": "https://openlibrary.org/search.json?title=Wanting&author=Luke%20Burgis&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:22:50.252Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Luke Burgis"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "1250262488",
+          "9781250262493",
+          "1250262496",
+          "1800750560",
+          "9781250262486",
+          "9781800750562"
+        ],
+        "key": "/works/OL24166598W",
+        "language": [
+          "eng"
+        ],
+        "title": "Wanting",
+        "subject": [
+          "Psychology"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Wanting",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7788029A"
+        }
+      }
+    ],
+    "covers": [
+      10580856
+    ],
+    "key": "/works/OL24166598W",
+    "subjects": [
+      "Psychology"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-01-26T04:05:54.166327"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-30T18:05:07.661175"
+    }
+  }
+}

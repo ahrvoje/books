@@ -1,0 +1,56 @@
+{
+  "title": "Ikigai",
+  "author": "Sebastian Marshall",
+  "url": "https://openlibrary.org/search.json?title=Ikigai&author=Sebastian%20Marshall&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:23:18.577Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Sebastian Marshall"
+        ],
+        "first_publish_year": 2011,
+        "key": "/works/OL33090388W",
+        "title": "Ikigai"
+      }
+    ]
+  },
+  "work": {
+    "title": "Ikigai",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL12000439A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "key": "/works/OL33090388W",
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      13117492
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-12-27T08:51:17.543780"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-03-01T01:17:52.436293"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "shelf-407fcbc52ca1",
+  "title": "Asian 21st Century",
+  "author": "Kishore Mahbubani",
+  "retrieved": "2026-10-24",
+  "attempts": [
+    {
+      "url": "https://openlibrary.org/isbn/9789811668.json",
+      "status": 404
+    },
+    {
+      "url": "https://openlibrary.org/works/OL25815143W/editions.json?limit=50",
+      "status": 200
+    },
+    {
+      "url": "https://www.amazon.de/dp/9789811668",
+      "status": 200,
+      "bytes": 3815
+    }
+  ],
+  "retried": false,
+  "edition": {
+    "type": {
+      "key": "/type/edition"
+    },
+    "authors": [
+      {
+        "key": "/authors/OL313650A"
+      }
+    ],
+    "isbn_13": [
+      "9789811668104"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "lc_classifications": [
+      "JA1-92"
+    ],
+    "publish_date": "2022",
+    "publishers": [
+      "Springer Singapore Pte. Limited",
+      "Springer"
+    ],
+    "source_records": [
+      "bwb:9789811668104",
+      "amazon:9811668108"
+    ],
+    "title": "Asian 21st Century",
+    "pagination": "190",
+    "full_title": "Asian 21st Century",
+    "works": [
+      {
+        "key": "/works/OL25815143W"
+      }
+    ],
+    "key": "/books/OL34807501M",
+    "covers": [
+      13730985
+    ],
+    "number_of_pages": 277,
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-10-08T04:55:32.749305"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-03-21T01:38:30.898054"
+    }
+  },
+  "amazonURL": "https://www.amazon.de/dp/9789811668",
+  "isbn": "9789811668",
+  "amazonText": " Amazon.de Klicke auf die Schaltfläche unten, um mit dem Einkauf fortzufahren Weiter shoppen Unsere AGB Datenschutzerklärung &copy; 1996-2025, Amazon.com, Inc. oder Tochtergesellschaften "
+}

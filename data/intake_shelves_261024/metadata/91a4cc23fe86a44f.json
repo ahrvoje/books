@@ -1,0 +1,91 @@
+{
+  "title": "Failure",
+  "author": "Stuart Firestein",
+  "url": "https://openlibrary.org/search.json?title=Failure&author=Stuart%20Firestein&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:30:20.594Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Stuart Firestein"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "019939010X",
+          "9780199390106"
+        ],
+        "key": "/works/OL20017693W",
+        "language": [
+          "eng"
+        ],
+        "title": "Failure",
+        "subject": [
+          "Science",
+          "Philosophy",
+          "Discoveries in science",
+          "Failure (Psychology)",
+          "Failure (psychology)",
+          "Science, philosophy",
+          "Échec",
+          "Découvertes scientifiques",
+          "SCIENCE",
+          "Philosophy & Social Aspects"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Science",
+      "Philosophy",
+      "Discoveries in science",
+      "Failure (Psychology)",
+      "Failure (psychology)",
+      "Science, philosophy",
+      "Échec",
+      "Découvertes scientifiques",
+      "SCIENCE",
+      "Philosophy & Social Aspects"
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"The pursuit of science by professional scientists every day bears less and less resemblance to the perception of science by the general public. It is not the rule-based, methodical system for accumulating facts that dominates the public view. Rather it is the idiosyncratic, often bumbling search for understanding in mostly uncharted places. It is full of wrong turns, cul-de-sacs, mistaken identities, false findings, errors of fact and judgment-and the occasional remarkable success. The widespread but distorted view of science as infallible originates in an education system that teaches nothing but facts using very large, very frightening textbooks, and is spread by media that report on discoveries but almost never on process. It is further reinforced by politicians who pay for it and want to use it to determine policy and therefore want it right and, worst of all, sometimes by scientists who learn early on that talking too much about failures and not enough about successes can harm their careers. Failure, then, is a book that seeks to make science more appealing by exposing its faults. In this sequel to Ignorance, Stuart Firestein shows us that scientific enterprise is riddled with failures, and that this is not only necessary but good. Failure reveals how science got its start, when humans began to use a process-trial and error-as a kind of recipe that includes a hefty dose of failure. It gives the non-scientifically trained public an insider's view of how science is actually done, with the aim of making it accessible, comprehensible, and entertaining.\" --Publisher description."
+    },
+    "key": "/works/OL20017693W",
+    "title": "Failure",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7072376A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      14573527
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-19T08:44:18.341427"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-02-01T08:32:23.941269"
+    }
+  }
+}

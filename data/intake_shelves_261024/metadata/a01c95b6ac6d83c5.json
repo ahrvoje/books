@@ -1,0 +1,73 @@
+{
+  "title": "The Future of Almost Everything",
+  "author": "Patrick Dixon",
+  "url": "https://openlibrary.org/search.json?title=The%20Future%20of%20Almost%20Everything&author=Patrick%20Dixon&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:56.397Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Patrick Dixon"
+        ],
+        "first_publish_year": 2015,
+        "isbn": [
+          "9781781254974",
+          "1781254974"
+        ],
+        "key": "/works/OL20032389W",
+        "language": [
+          "eng"
+        ],
+        "title": "The future of (almost) everything",
+        "subject": [
+          "Globalization",
+          "The Future",
+          "Social change"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "The future of (almost) everything",
+    "subjects": [
+      "Globalization",
+      "The Future",
+      "Social change"
+    ],
+    "key": "/works/OL20032389W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL478113A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      11414363
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-19T14:09:38.646482"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-07-12T04:43:03.159315"
+    }
+  }
+}

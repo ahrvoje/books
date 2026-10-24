@@ -1,0 +1,96 @@
+{
+  "title": "Poking a Dead Frog",
+  "author": "Mike Sacks",
+  "url": "https://openlibrary.org/search.json?title=Poking%20a%20Dead%20Frog&author=Mike%20Sacks&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:54.611Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Mike Sacks"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "1101613270",
+          "0143123785",
+          "9781101613276",
+          "9780143123781"
+        ],
+        "key": "/works/OL19983420W",
+        "language": [
+          "eng"
+        ],
+        "title": "Poking a dead frog",
+        "subject": [
+          "Stand-up comedy",
+          "Interviews",
+          "Comedians",
+          "Anecdotes",
+          "HUMOR / Form / Anecdotes",
+          "PERFORMING ARTS / Comedy",
+          "nyt:humor=2014-09-07",
+          "New York Times bestseller",
+          "Comedians, biography",
+          "Comedians, united states"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Stand-up comedy",
+      "Interviews",
+      "Comedians",
+      "Anecdotes",
+      "HUMOR / Form / Anecdotes",
+      "PERFORMING ARTS / Comedy",
+      "nyt:humor=2014-09-07",
+      "New York Times bestseller",
+      "Comedians, biography",
+      "Comedians, united states"
+    ],
+    "key": "/works/OL19983420W",
+    "title": "Poking a dead frog",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL6504814A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      12943444
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Amy Poehler, Mel Brooks, Adam McKay, George Saunders, Bill Hader, Patton Oswalt, and many more take us deep inside the mysterious world of comedy in this fascinating, laugh-out-loud-funny book. Packed with behind-the-scenes stories, from a day in the writers room at The Onion to why a sketch does or doesnt make it onto Saturday Night Live to how the BBC nearly erased the entire first season of Monty Pythons Flying Circus? Poking a Dead Frog is a must-read for comedy buffs, writers and pop culture junkies alike."
+    },
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-07-18T14:11:29.343361"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-02-13T10:20:25.302189"
+    }
+  }
+}

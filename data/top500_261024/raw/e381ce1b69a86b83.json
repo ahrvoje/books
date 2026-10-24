@@ -1,0 +1,53 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Every%20Tool%E2%80%99s%20a%20Hammer&author=Adam%20Savage&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-24T09:26:14.756Z",
+  "status": 200,
+  "data": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Adam Savage"
+        ],
+        "edition_key": [
+          "OL34939006M",
+          "OL28228872M",
+          "OL34938874M",
+          "OL29462033M",
+          "OL44624016M",
+          "OL29425045M",
+          "OL29431650M"
+        ],
+        "key": "/works/OL20849720W",
+        "title": "Every Tool's a Hammer"
+      },
+      {
+        "author_name": [
+          "Adam Savage"
+        ],
+        "edition_key": [
+          "OL26651707M"
+        ],
+        "key": "/works/OL18184215W",
+        "title": "Every Tool's a Hammer"
+      },
+      {
+        "author_name": [
+          "Adam Savage"
+        ],
+        "edition_key": [
+          "OL61865870M"
+        ],
+        "key": "/works/OL45399666W",
+        "title": "Every Tool's A Hammer: Life Is What You Make It"
+      }
+    ]
+  },
+  "file": "data/top500_261024/raw/e381ce1b69a86b83.json"
+}

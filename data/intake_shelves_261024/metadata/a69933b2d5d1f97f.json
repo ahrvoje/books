@@ -1,0 +1,129 @@
+{
+  "title": "Sorting Things Out",
+  "author": "Geoffrey C. Bowker",
+  "url": "https://openlibrary.org/search.json?title=Sorting%20Things%20Out&author=Geoffrey%20C.%20Bowker&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:32:08.836Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Geoffrey C. Bowker",
+          "Susan Leigh Star"
+        ],
+        "first_publish_year": 1999,
+        "isbn": [
+          "0585123977",
+          "9780262261609",
+          "026226160X",
+          "0262522950",
+          "9780585123974",
+          "9780262522953"
+        ],
+        "key": "/works/OL20989007W",
+        "language": [
+          "eng"
+        ],
+        "title": "Sorting Things Out",
+        "subject": [
+          "Sociology",
+          "Classification",
+          "Knowledge, sociology of",
+          "Klassifikation",
+          "Wissenssoziologie",
+          "Bd175 .b68 2000",
+          "001/.01/2",
+          "Ms 6950"
+        ]
+      },
+      {
+        "author_name": [
+          "Geoffrey C. Bowker"
+        ],
+        "first_publish_year": 1999,
+        "isbn": [
+          "0262024616",
+          "9780262024617"
+        ],
+        "key": "/works/OL14872509W",
+        "language": [
+          "eng"
+        ],
+        "title": "Sorting things out",
+        "subject": [
+          "Sociology of Knowledge",
+          "Knowledge, Sociology of",
+          "Classification",
+          "Sociologie de la connaissance",
+          "REFERENCE",
+          "Questions & Answers",
+          "Classificaties",
+          "Ordening",
+          "Speculative Philosophy",
+          "Philosophy",
+          "Philosophy & Religion",
+          "Klassifikation",
+          "Wissenssoziologie",
+          "Bd175 .b68 2000",
+          "001/.01/2",
+          "Ms 6950"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Sociology",
+      "Classification",
+      "Knowledge, sociology of",
+      "Klassifikation",
+      "Wissenssoziologie",
+      "Bd175 .b68 2000",
+      "001/.01/2",
+      "Ms 6950"
+    ],
+    "key": "/works/OL20989007W",
+    "title": "Sorting Things Out",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL24920A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1002678A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      151161
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-07-31T16:20:17.137338"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-12-19T21:37:35.441582"
+    }
+  }
+}

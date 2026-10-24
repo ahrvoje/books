@@ -1,0 +1,93 @@
+{
+  "title": "Happy",
+  "author": "Derren Brown",
+  "url": "https://openlibrary.org/search.json?title=Happy&author=Derren%20Brown&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:21:20.760Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Derren Brown"
+        ],
+        "first_publish_year": 1964,
+        "isbn": [
+          "0593076192",
+          "0593076206",
+          "147352685X",
+          "9781473526853",
+          "9780593076194",
+          "0552172359",
+          "9780552172356",
+          "9780593076200"
+        ],
+        "key": "/works/OL20182706W",
+        "language": [
+          "eng"
+        ],
+        "title": "Happy",
+        "subject": [
+          "Happiness"
+        ]
+      },
+      {
+        "author_name": [
+          "Derren Brown",
+          "Lisa Feldman Barrett",
+          "Iota"
+        ],
+        "first_publish_year": 2019,
+        "isbn": [
+          "9123877502",
+          "9789123877508"
+        ],
+        "key": "/works/OL22325455W",
+        "title": "Happy Derren Brown, How Emotions Are Made The Secret Life of the Brain, No Alzheimer's Smarter Brain Keto Solution 3 Books Collection Set"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Happiness"
+    ],
+    "key": "/works/OL20182706W",
+    "title": "Happy",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL5544660A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8830630
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "1 volume :"
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-10-07T01:57:46.111762"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-10-21T04:20:38.537382"
+    }
+  }
+}

@@ -1,0 +1,3254 @@
+{
+  "books": {
+    "liftoff": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Liftoff%22%29+AND+creator%3A%28%22Berger%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T10:58:51.615Z",
+      "file": "data/top500_261024/raw/archive-liftoff.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "reentry": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Reentry%22%29+AND+creator%3A%28%22Berger%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T10:59:01.623Z",
+      "file": "data/top500_261024/raw/archive-reentry.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "ignition": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Ignition%21%22%29+AND+creator%3A%28%22Clark%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T10:59:11.632Z",
+      "file": "data/top500_261024/raw/archive-ignition.json",
+      "status": 200,
+      "found": 7,
+      "done": true
+    },
+    "eghbal": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Working+in+Public%22%29+AND+creator%3A%28%22Eghbal%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T10:59:21.641Z",
+      "file": "data/top500_261024/raw/archive-eghbal.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "q0038": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Soul+of+A+New+Machine%22%29+AND+creator%3A%28%22Kidder%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T10:59:31.648Z",
+      "file": "data/top500_261024/raw/archive-q0038.json",
+      "status": 200,
+      "found": 7,
+      "done": true
+    },
+    "witt": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Thinking+Machine%22%29+AND+creator%3A%28%22Witt%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T10:59:41.656Z",
+      "file": "data/top500_261024/raw/archive-witt.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "q0024": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22How+Music+Got+Free%22%29+AND+creator%3A%28%22Witt%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T10:59:51.665Z",
+      "file": "data/top500_261024/raw/archive-q0024.json",
+      "status": 200,
+      "found": 5,
+      "reference": {
+        "pages": 16,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 271,
+            "end": 286,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (pages 271-286",
+            "method": "catalogued-range"
+          },
+          {
+            "start": 271,
+            "end": 286,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (pages 271-286",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:9781847923363",
+          "title": "How music got free : what happens when an entire generation commits the same crime?",
+          "author": "Witt, Stephen, author",
+          "year": "2015",
+          "language": "eng",
+          "isbn": [
+            "9781847923363",
+            "1847923364",
+            "9781847922823",
+            "1847922821"
+          ]
+        },
+        "url": "https://archive.org/details/howmusicgotfreew0000witt",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22How+Music+Got+Free%22%29+AND+creator%3A%28%22Witt%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-q0024.json",
+          "retrieved": "2026-10-24T10:59:51.665Z",
+          "evidence": "296 pages ; 24 cm\n\"A blistering story of obsession, music, crime, and money. A story of visionaries, criminals and moguls. It's about the greatest pirate in history, the most powerful executive in the music business, and an illegal website four times the size of the iTunes.\"--Page 2 of cover\nIncludes bibliographical references (pages 271-286) and index\nPublished also as: How music got free : the end of an industry, the turn of the century, and the patient zero of piracy\nPublished also as: How music got free : the end of an industry, the turn of the century, and the patient zero of piracy.-Includes bibliographical references (pages 271-286) and index.-\"A blistering story of obsession, music, crime, and money. A story of visionaries, criminals and moguls. It's about the greatest pirate in history, the most powerful executive in the music business, and an illegal website four times the size of the iTunes.\" -- Page [2] of cover.-100 billion files shared, 21 billion dollars lost, 350 million ipods sold, 50 million active users, 300,000 songs ripped, 25,000 albums leaked, 1500 CD's smuggled, 150 conspirators charged, 14 seismic years, 1 person responsible"
+        },
+        "sameEditionAsPG": false,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "q0069": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Skunk+Works%22%29+AND+creator%3A%28%22Rich%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:00:01.674Z",
+      "file": "data/top500_261024/raw/archive-q0069.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "q0065": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Countdown+to+Zero+Day%22%29+AND+creator%3A%28%22Zetter%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:00:11.682Z",
+      "file": "data/top500_261024/raw/archive-q0065.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "progress-0717": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Design+and+Engineering+of+Curiosity%22%29+AND+creator%3A%28%22Lakdawalla%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:00:21.690Z",
+      "file": "data/top500_261024/raw/archive-progress-0717.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "q0027": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Uncommon+Carriers%22%29+AND+creator%3A%28%22McPhee%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:00:31.698Z",
+      "file": "data/top500_261024/raw/archive-q0027.json",
+      "status": 200,
+      "found": 4,
+      "done": true
+    },
+    "g0158": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Creativity%2C+Inc.%22%29+AND+creator%3A%28%22Catmull%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:00:41.704Z",
+      "file": "data/top500_261024/raw/archive-g0158.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "ncc9f754730": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Numbers+Don%27t+Lie%22%29+AND+creator%3A%28%22Smil%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:00:51.716Z",
+      "file": "data/top500_261024/raw/archive-ncc9f754730.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "rem-u1252": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22How+To+Build+A+Car%22%29+AND+creator%3A%28%22Newey%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:01:01.728Z",
+      "file": "data/top500_261024/raw/archive-rem-u1252.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "g0364": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Innovator%27s+Dilemma%22%29+AND+creator%3A%28%22Christensen%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:01:11.731Z",
+      "file": "data/top500_261024/raw/archive-g0364.json",
+      "status": 200,
+      "found": 4,
+      "done": true
+    },
+    "necf7390c86": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Art+of+Doing+Science+and+Engineering%22%29+AND+creator%3A%28%22Hamming%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:01:21.739Z",
+      "file": "data/top500_261024/raw/archive-necf7390c86.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "g0280": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Out+of+the+Crisis%22%29+AND+creator%3A%28%22Deming%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:01:31.748Z",
+      "file": "data/top500_261024/raw/archive-g0280.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "g0363": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Zero+to+One%22%29+AND+creator%3A%28%22Thiel%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:01:41.756Z",
+      "file": "data/top500_261024/raw/archive-g0363.json",
+      "status": 200,
+      "found": 4,
+      "done": true
+    },
+    "g0423": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Code%22%29+AND+creator%3A%28%22Petzold%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:01:51.765Z",
+      "file": "data/top500_261024/raw/archive-g0423.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "g0586": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Energy%22%29+AND+creator%3A%28%22Smil%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:02:01.773Z",
+      "file": "data/top500_261024/raw/archive-g0586.json",
+      "status": 200,
+      "found": 12,
+      "done": true
+    },
+    "q0147": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Working%22%29+AND+creator%3A%28%22Caro%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:02:11.782Z",
+      "file": "data/top500_261024/raw/archive-q0147.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "q0075": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Carrying+the+Fire%22%29+AND+creator%3A%28%22Collins%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:02:21.787Z",
+      "file": "data/top500_261024/raw/archive-q0075.json",
+      "status": 200,
+      "found": 4,
+      "done": true
+    },
+    "rem-u1696": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Focus%22%29+AND+creator%3A%28%22Hijink%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:02:31.799Z",
+      "file": "data/top500_261024/raw/archive-rem-u1696.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "n8b3892bf9a": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Failure+Is+Not+an+Option%22%29+AND+creator%3A%28%22Kranz%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:02:41.806Z",
+      "file": "data/top500_261024/raw/archive-n8b3892bf9a.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "g1282": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Visual+Explanations%22%29+AND+creator%3A%28%22Tufte%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:02:51.815Z",
+      "file": "data/top500_261024/raw/archive-g1282.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "g0159": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Crossing+the+Chasm%22%29+AND+creator%3A%28%22Moore%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:03:01.823Z",
+      "file": "data/top500_261024/raw/archive-g0159.json",
+      "status": 200,
+      "found": 9,
+      "done": true
+    },
+    "rem-u1254": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22747%22%29+AND+creator%3A%28%22Sutter%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:03:11.830Z",
+      "file": "data/top500_261024/raw/archive-rem-u1254.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "nc31a516e68": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Blood%2C+Sweat%2C+and+Pixels%22%29+AND+creator%3A%28%22Schreier%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:03:21.841Z",
+      "file": "data/top500_261024/raw/archive-nc31a516e68.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "nbbc2087dc6": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Show+Stopper%21%22%29+AND+creator%3A%28%22Zachary%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:03:31.848Z",
+      "file": "data/top500_261024/raw/archive-nbbc2087dc6.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "nf47d68e25a": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Fly+by+Wire%22%29+AND+creator%3A%28%22Langewiesche%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:03:41.857Z",
+      "file": "data/top500_261024/raw/archive-nf47d68e25a.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "n328d031d68": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22UNIX%22%29+AND+creator%3A%28%22Kernighan%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:03:51.864Z",
+      "file": "data/top500_261024/raw/archive-n328d031d68.json",
+      "status": 200,
+      "found": 8,
+      "done": true
+    },
+    "q0022": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22A+Short+Bright+Flash%22%29+AND+creator%3A%28%22Levitt%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:04:01.873Z",
+      "file": "data/top500_261024/raw/archive-q0022.json",
+      "status": 200,
+      "found": 3,
+      "reference": {
+        "pages": 29,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 235,
+            "end": 263,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (pages 235-263",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:9780393068795",
+          "title": "A short, bright flash : Augustin Fresnel and the birth of the modern lighthouse",
+          "author": "Levitt, Theresa",
+          "year": "2013",
+          "language": "eng",
+          "isbn": [
+            "9780393068795"
+          ]
+        },
+        "url": "https://archive.org/details/shortbrightflash0000levi_o4h5",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22A+Short+Bright+Flash%22%29+AND+creator%3A%28%22Levitt%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-q0022.json",
+          "retrieved": "2026-10-24T11:04:01.873Z",
+          "evidence": "281 pages : 22 cm\nIncludes bibliographical references (pages 235-263) and index\nDark and deadly shores -- Dreams of glory -- The flash of brilliance -- The dream of total refraction -- Race to perfection -- The American exception -- Everything recklessly broken -- The golden age"
+        },
+        "sameEditionAsPG": false,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "rem-u1663": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Volt+Rush%22%29+AND+creator%3A%28%22Sanderson%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:04:11.882Z",
+      "file": "data/top500_261024/raw/archive-rem-u1663.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "n6092737d47": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Quantum+Computing+Since+Democritus%22%29+AND+creator%3A%28%22Aaronson%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:04:21.889Z",
+      "file": "data/top500_261024/raw/archive-n6092737d47.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "g0362": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Hard+Thing+About+Hard+Things%22%29+AND+creator%3A%28%22Horowitz%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:04:31.898Z",
+      "file": "data/top500_261024/raw/archive-g0362.json",
+      "status": 200,
+      "found": 4,
+      "done": true
+    },
+    "progress-0589": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Engineer+in+History%22%29+AND+creator%3A%28%22Rae%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:04:41.905Z",
+      "file": "data/top500_261024/raw/archive-progress-0589.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "rem-u1833": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Sporty+Game%22%29+AND+creator%3A%28%22Newhouse%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:04:51.915Z",
+      "file": "data/top500_261024/raw/archive-rem-u1833.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "q0185": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22An+Astronaut%27s+Guide+to+Life+on+Earth%22%29+AND+creator%3A%28%22Hadfield%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:05:01.919Z",
+      "file": "data/top500_261024/raw/archive-q0185.json",
+      "status": 200,
+      "found": 5,
+      "done": true
+    },
+    "g0527": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Innovator%27s+Solution%22%29+AND+creator%3A%28%22Christensen%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:05:11.925Z",
+      "file": "data/top500_261024/raw/archive-g0527.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "q0157": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Ship+of+Gold+in+the+Deep+Blue+Sea%22%29+AND+creator%3A%28%22Kinder%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:05:21.937Z",
+      "file": "data/top500_261024/raw/archive-q0157.json",
+      "status": 200,
+      "found": 7,
+      "done": true
+    },
+    "progress-0636": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22More%22%29+AND+creator%3A%28%22Coggan%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:05:31.947Z",
+      "file": "data/top500_261024/raw/archive-progress-0636.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "g0560": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22What+Do+You+Care+What+Other+People+Think%3F%22%29+AND+creator%3A%28%22Feynman%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:05:41.956Z",
+      "file": "data/top500_261024/raw/archive-g0560.json",
+      "status": 200,
+      "found": 9,
+      "done": true
+    },
+    "progress-0806": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22100%2B+Years+of+Plastics%22%29+AND+creator%3A%28%22Strom%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:05:51.964Z",
+      "file": "data/top500_261024/raw/archive-progress-0806.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "q0037": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Smartest+Guys+in+the+Room%22%29+AND+creator%3A%28%22McLean%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:06:01.973Z",
+      "file": "data/top500_261024/raw/archive-q0037.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "progress-0750": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Weaving+the+Web%22%29+AND+creator%3A%28%22BernersLee%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:06:11.982Z",
+      "file": "data/top500_261024/raw/archive-progress-0750.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "ne6f78bd25a": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Sciences+of+the+Artificial%22%29+AND+creator%3A%28%22Simon%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:06:21.988Z",
+      "file": "data/top500_261024/raw/archive-ne6f78bd25a.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "progress-0697": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Sensors+in+Automotive%22%29+AND+creator%3A%28%22Yoshida%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:06:31.998Z",
+      "file": "data/top500_261024/raw/archive-progress-0697.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "nf19a141734": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22A+Singular+Mathematical+Promenade%22%29+AND+creator%3A%28%22Ghys%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:06:42.007Z",
+      "file": "data/top500_261024/raw/archive-nf19a141734.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "rem-u1555": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Humble+Pi%22%29+AND+creator%3A%28%22Parker%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:06:52.015Z",
+      "file": "data/top500_261024/raw/archive-rem-u1555.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "nf754668e17": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Exploding+the+Phone%22%29+AND+creator%3A%28%22Lapsley%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:07:02.022Z",
+      "file": "data/top500_261024/raw/archive-nf754668e17.json",
+      "status": 200,
+      "found": 3,
+      "reference": {
+        "pages": 56,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 337,
+            "end": 392,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (pages 337-392",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:9780802122285",
+          "title": "Exploding the phone : the untold story of the teenagers and outlaws who hacked Ma Bell",
+          "author": "Lapsley, Phil, 1965- author",
+          "year": "2013",
+          "language": "eng",
+          "isbn": [
+            "9780802122285",
+            "0802122280",
+            "9780802193759"
+          ]
+        },
+        "url": "https://archive.org/details/explodingphoneun0000laps_s8y2",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Exploding+the+Phone%22%29+AND+creator%3A%28%22Lapsley%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-nf754668e17.json",
+          "retrieved": "2026-10-24T11:07:02.022Z",
+          "evidence": "xiv, 414 pages, 16 unnumbered pages of plates : 21 cm\nDescribes how \"phone phreaks\" learned how to make illicit but technologically innovative free phone calls and shared the technique, and places the process in the development of telecommunications and the behavior of the telephone monopoly\n\"Before smartphones, before the Internet and before the personal computer, a misfit group of technophiles, blind teenagers, hippies, and outlaws figured out how to hack the world's largest machine: the telephone system. Starting with Alexander Graham Bell's revolutionary 'harmonic telegraph,' by the middle of the twentieth century the phone system had grown into something extraordinary, a web of cutting-edge switching machines and human operators that linked together millions of people like never before. Unfortunately for the telephone company, the network has a billion-dollar flaw. And once people discovered it, things would never the be the same. Phil Lapsley's Exploding the phone tells this story in full for the first time. It traces the birth of long distance communication and the telephone, the rise of AT&T's monopoly, the creation of the sophisticated machines that made it all work, and the discovery of Ma Bell's Achilles' heel. Lapsley expertly weaves together the clandestine underground of 'phone phreaks' who turned the network into the electronic playground, the mobsters who exploited its flaws to avoid the feds, and the counterculture movement that argued you should rip off the phone company to fight against the war in Vietnam... AT&T responded with 'Greenstar'... The FBI fought back, too... Phone phreaking exploded into the popular culture, with famous actors, musicians, and investors caught with 'blue boxes,' many of them built by two young phone phreaks named Steve Jobs and Steve Wozniak... The product of extensive original research, including exclusive interviews and declassified government documents, Exploding the phone is a captivating, ground-breaking work about an important part of our cultural and technological history\"--\nMaps on endpapers\nIncludes bibliographical references (pages 337-392) and index"
+        },
+        "sameEditionAsPG": true,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "progress-0763": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Flight%22%29+AND+creator%3A%28%22Kraft%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:07:12.031Z",
+      "file": "data/top500_261024/raw/archive-progress-0763.json",
+      "status": 200,
+      "found": 11,
+      "done": true
+    },
+    "s49": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Inventing+Accuracy%22%29+AND+creator%3A%28%22MacKenzie%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:07:22.039Z",
+      "file": "data/top500_261024/raw/archive-s49.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "n47ca1851b4": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Secret+Horsepower+Race%22%29+AND+creator%3A%28%22Douglas%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:07:32.047Z",
+      "file": "data/top500_261024/raw/archive-n47ca1851b4.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "nc7402e44f9": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Turing%27s+Cathedral%22%29+AND+creator%3A%28%22Dyson%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:07:42.054Z",
+      "file": "data/top500_261024/raw/archive-nc7402e44f9.json",
+      "status": 200,
+      "found": 3,
+      "reference": {
+        "pages": 37,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 341,
+            "end": 377,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (pages 341-377",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:9780713997507",
+          "title": "Turing's cathedral : the origins of the digital universe",
+          "author": "Dyson, George, 1953-",
+          "year": "2012",
+          "language": "eng",
+          "isbn": [
+            "9780713997507",
+            "0713997508"
+          ]
+        },
+        "url": "https://archive.org/details/turingscathedral0000dyso_m6h3",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Turing%27s+Cathedral%22%29+AND+creator%3A%28%22Dyson%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-nc7402e44f9.json",
+          "retrieved": "2026-10-24T11:07:42.054Z",
+          "evidence": "xxii, 401 pages, 24 unnumbered pages of plates : 24 cm\nIn 'Turing's Cathedral', historian and philosopher of science George Dyson vividly recreates the scenes of focused experimentation, incredible mathematical insight, and pure creative genius that gave us computers, television, modern genetics and models of stellar evolution\nIncludes bibliographical references (pages 341-377) and index\nLegacy 2018"
+        },
+        "sameEditionAsPG": false,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "g0458": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Revolution+in+The+Valley%22%29+AND+creator%3A%28%22Hertzfeld%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:07:52.064Z",
+      "file": "data/top500_261024/raw/archive-g0458.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "h0315": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Engineering+in+Plain+Sight%22%29+AND+creator%3A%28%22Hillhouse%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:08:02.073Z",
+      "file": "data/top500_261024/raw/archive-h0315.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "bg5ca24349c5": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Play+Nice+But+Win%22%29+AND+creator%3A%28%22Kaplan%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:08:12.081Z",
+      "file": "data/top500_261024/raw/archive-bg5ca24349c5.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "intake-0010": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Sunburst+and+Luminary%22%29+AND+creator%3A%28%22Eyles%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:08:22.088Z",
+      "file": "data/top500_261024/raw/archive-intake-0010.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "q0258": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Shoe+Dog%22%29+AND+creator%3A%28%22Knight%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:08:32.095Z",
+      "file": "data/top500_261024/raw/archive-q0258.json",
+      "status": 200,
+      "found": 4,
+      "done": true
+    },
+    "q0092": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Big+Short%22%29+AND+creator%3A%28%22Lewis%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:08:42.104Z",
+      "file": "data/top500_261024/raw/archive-q0092.json",
+      "status": 200,
+      "found": 8,
+      "done": true
+    },
+    "g1254": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Mathematics%22%29+AND+creator%3A%28%22Aleksandrov%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:08:52.112Z",
+      "file": "data/top500_261024/raw/archive-g1254.json",
+      "status": 200,
+      "found": 5,
+      "done": true
+    },
+    "n5492aa5512": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Effective+Executive%22%29+AND+creator%3A%28%22Drucker%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:09:02.122Z",
+      "file": "data/top500_261024/raw/archive-n5492aa5512.json",
+      "status": 200,
+      "found": 10,
+      "done": true
+    },
+    "nb06e887b70": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Apollo+13+%28originally+Lost+Moon%22%29+AND+creator%3A%28%22Lovell%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:09:12.129Z",
+      "file": "data/top500_261024/raw/archive-nb06e887b70.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "g1050": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Kelly%22%29+AND+creator%3A%28%22Johnson%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:09:22.137Z",
+      "file": "data/top500_261024/raw/archive-g1050.json",
+      "status": 200,
+      "found": 12,
+      "done": true
+    },
+    "intake-0031": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Eccentric+Orbits%22%29+AND+creator%3A%28%22Bloom%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:09:32.145Z",
+      "file": "data/top500_261024/raw/archive-intake-0031.json",
+      "status": 200,
+      "found": 2,
+      "reference": {
+        "pages": 15,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 495,
+            "end": 509,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (pages 495-509",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:1611855357",
+          "title": "Eccentric orbits : the Iridium story",
+          "author": "Bloom, John, 1953- author",
+          "year": "2016",
+          "language": "eng",
+          "isbn": [
+            "1611855357",
+            "9781611855357"
+          ]
+        },
+        "url": "https://archive.org/details/eccentricorbitsi0000bloo",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Eccentric+Orbits%22%29+AND+creator%3A%28%22Bloom%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-intake-0031.json",
+          "retrieved": "2026-10-24T11:09:32.145Z",
+          "evidence": "xx, 537 pages, 16 unnumbered pages of plates : 24 cm\nDescribes the complex and revolutionary satellite system built in the 1990s by Motorola, which was supposed to support a cutting-edge cell phone, but instead became a commercial disaster and resulted in one of the largest bankruptcies in American history\nIncludes bibliographical references (pages 495-509) and index\n\"How the largest man-made constellation in the heavens was built by dreamers in the Arizona Desert, targeted for destruction by panicked executives, and saved by a single Palm Beach retiree who battled Motorola, cajoled the Pentagon, wrestled with thirty banks, survived an attack by Congress, infiltrated the White House, found allies through the Black Entertainment Network, and wooed a mysterious Arab prince to rescue the only phone that links every inch of the planet.\"\nThe conspirators -- Nerds, Nazis, and nukes -- The spooks -- The dreamers -- Treasons, stratagems, and spoils -- Rocket man -- Fast Eddie -- Man overboard -- The wonks scramble -- The tower -- Et Tu? -- The fixer -- Chicken little -- Four dead birds in the situation room -- Moose hunters, Marines, and thugs"
+        },
+        "sameEditionAsPG": false,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "n86606a9cda": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22What+Are+Numbers%3F%22%29+AND+creator%3A%28%22Kirillov%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:09:42.156Z",
+      "file": "data/top500_261024/raw/archive-n86606a9cda.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "q0055": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22ASML%27s+Architects%22%29+AND+creator%3A%28%22Raaijmakers%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:09:52.164Z",
+      "file": "data/top500_261024/raw/archive-q0055.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "intake-0131": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Sidewinder%22%29+AND+creator%3A%28%22Westrum%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:10:02.172Z",
+      "file": "data/top500_261024/raw/archive-intake-0131.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "n5b9201e509": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Character+of+Physical+Law%22%29+AND+creator%3A%28%22Feynman%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:10:12.181Z",
+      "file": "data/top500_261024/raw/archive-n5b9201e509.json",
+      "status": 200,
+      "found": 6,
+      "done": true
+    },
+    "n02580139f6": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Breaking+Through%22%29+AND+creator%3A%28%22Karik%C3%B3%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:10:22.188Z",
+      "file": "data/top500_261024/raw/archive-n02580139f6.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "q0155": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Dreamland%22%29+AND+creator%3A%28%22Merlin%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:10:32.195Z",
+      "file": "data/top500_261024/raw/archive-q0155.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "g0186": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Founders+at+Work%22%29+AND+creator%3A%28%22Livingston%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:10:42.206Z",
+      "file": "data/top500_261024/raw/archive-g0186.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "g0274": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22My+Years+with+General+Motors%22%29+AND+creator%3A%28%22Sloan%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:10:52.214Z",
+      "file": "data/top500_261024/raw/archive-g0274.json",
+      "status": 200,
+      "found": 6,
+      "done": true
+    },
+    "progress-0197": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Beautiful+Evidence%22%29+AND+creator%3A%28%22Tufte%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:11:02.222Z",
+      "file": "data/top500_261024/raw/archive-progress-0197.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "rem-u1748": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22In+Pursuit+of+Unicorns%22%29+AND+creator%3A%28%22Harris%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:11:12.230Z",
+      "file": "data/top500_261024/raw/archive-rem-u1748.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "g0657": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Great+Mental+Models%22%29+AND+creator%3A%28%22Parrish%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:11:22.239Z",
+      "file": "data/top500_261024/raw/archive-g0657.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "q0138": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Into+the+Deep%22%29+AND+creator%3A%28%22Ballard%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:11:32.247Z",
+      "file": "data/top500_261024/raw/archive-q0138.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "g0804": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Wealth+of+Nations%22%29+AND+creator%3A%28%22Smith%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:11:42.257Z",
+      "file": "data/top500_261024/raw/archive-g0804.json",
+      "status": 200,
+      "found": 12,
+      "done": true
+    },
+    "g0825": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Complexity+and+the+Economy%22%29+AND+creator%3A%28%22Arthur%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:11:52.264Z",
+      "file": "data/top500_261024/raw/archive-g0825.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "progress-0037": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Scientists+Against+Time%22%29+AND+creator%3A%28%22Baxter%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:12:02.272Z",
+      "file": "data/top500_261024/raw/archive-progress-0037.json",
+      "status": 200,
+      "found": 7,
+      "done": true
+    },
+    "bgaa87d10c3d": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+General+Theory+of+Employment%2C+Interest%2C+and+Money%22%29+AND+creator%3A%28%22Keynes%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:12:12.280Z",
+      "file": "data/top500_261024/raw/archive-bgaa87d10c3d.json",
+      "status": 200,
+      "found": 12,
+      "done": true
+    },
+    "h0174": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Chasing+the+Rabbit%22%29+AND+creator%3A%28%22Spear%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:12:22.289Z",
+      "file": "data/top500_261024/raw/archive-h0174.json",
+      "status": 200,
+      "found": 1,
+      "reference": {
+        "pages": 28,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 365,
+            "end": 392,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (p. 365-392",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:9780071499880",
+          "title": "Chasing the rabbit : how market leaders outdistance the competition and how great companies can catch up and win",
+          "author": "Spear, Steven J",
+          "year": "2009",
+          "language": "eng",
+          "isbn": [
+            "9780071499880",
+            "0071499881"
+          ]
+        },
+        "url": "https://archive.org/details/chasingrabbithow0000spea",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Chasing+the+Rabbit%22%29+AND+creator%3A%28%22Spear%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-h0174.json",
+          "retrieved": "2026-10-24T11:12:22.289Z",
+          "evidence": "xxvi, 404 p. : 24 cm\nIncludes bibliographical references (p. 365-392) and index"
+        },
+        "sameEditionAsPG": false,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "q0256": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Moneyball%22%29+AND+creator%3A%28%22Lewis%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:12:32.297Z",
+      "file": "data/top500_261024/raw/archive-q0256.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "intake-0119": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Spacesuit%22%29+AND+creator%3A%28%22Monchaux%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:12:42.306Z",
+      "file": "data/top500_261024/raw/archive-intake-0119.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "rem-u1666": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Crude+Capitalism%22%29+AND+creator%3A%28%22Hanieh%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:12:52.315Z",
+      "file": "data/top500_261024/raw/archive-rem-u1666.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "intake-0092": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Project+Azorian%22%29+AND+creator%3A%28%22Polmar%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:13:02.318Z",
+      "file": "data/top500_261024/raw/archive-intake-0092.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "g0552": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Six+Easy+Pieces%22%29+AND+creator%3A%28%22Feynman%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:13:12.330Z",
+      "file": "data/top500_261024/raw/archive-g0552.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "rem-u0900": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22HBR%27s+10+Must+Reads+on+Strategy+%28including+featured+article+%27What+Is+Strategy%3F%27+by+Michael+E.+Porter%29%22%29+AND+creator%3A%28%22Mauborgne%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:13:22.338Z",
+      "file": "data/top500_261024/raw/archive-rem-u0900.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "n3cb68f6e47": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22This+Is+for+Everyone%22%29+AND+creator%3A%28%22BernersLee%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:13:32.346Z",
+      "file": "data/top500_261024/raw/archive-n3cb68f6e47.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "bga6834f601a": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Railroader%22%29+AND+creator%3A%28%22Green%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:13:42.355Z",
+      "file": "data/top500_261024/raw/archive-bga6834f601a.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "q0179": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22How+Africa+Works%22%29+AND+creator%3A%28%22Studwell%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:13:52.362Z",
+      "file": "data/top500_261024/raw/archive-q0179.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "g0533": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Who+Says+Elephants+Can%27t+Dance%3F%22%29+AND+creator%3A%28%22Jr%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:14:02.370Z",
+      "file": "data/top500_261024/raw/archive-g0533.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "g1140": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Most+Important+Thing%22%29+AND+creator%3A%28%22Marks%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:14:12.380Z",
+      "file": "data/top500_261024/raw/archive-g1140.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "q0132": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22X%2C+Y+%26+Z%22%29+AND+creator%3A%28%22Turing%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:14:22.388Z",
+      "file": "data/top500_261024/raw/archive-q0132.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "nddeeef2037": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Pope+of+Physics%22%29+AND+creator%3A%28%22Segr%C3%A8%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:14:32.396Z",
+      "file": "data/top500_261024/raw/archive-nddeeef2037.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "rem-u0145": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Worlds+I+See%22%29+AND+creator%3A%28%22Li%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:14:42.405Z",
+      "file": "data/top500_261024/raw/archive-rem-u0145.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "n4d0716e7af": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Nature+and+Art+of+Workmanship%22%29+AND+creator%3A%28%22Pye%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:14:52.413Z",
+      "file": "data/top500_261024/raw/archive-n4d0716e7af.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "q0137": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Between+Silk+and+Cyanide%22%29+AND+creator%3A%28%22Marks%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:15:02.422Z",
+      "file": "data/top500_261024/raw/archive-q0137.json",
+      "status": 200,
+      "found": 5,
+      "done": true
+    },
+    "q0193": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Ancestor%27s+Tale%22%29+AND+creator%3A%28%22Dawkins%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:15:12.431Z",
+      "file": "data/top500_261024/raw/archive-q0193.json",
+      "status": 200,
+      "found": 5,
+      "reference": {
+        "pages": 19,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 624,
+            "end": 642,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (p. 624-642",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:061861916X",
+          "title": "The ancestor's tale : a pilgrimage to the dawn of evolution",
+          "author": "Dawkins, Richard, 1941-",
+          "year": "2005",
+          "language": "eng",
+          "isbn": [
+            "061861916X",
+            "9780618619160"
+          ]
+        },
+        "url": "https://archive.org/details/ancestorstale00rich_0",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Ancestor%27s+Tale%22%29+AND+creator%3A%28%22Dawkins%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-q0193.json",
+          "retrieved": "2026-10-24T11:15:12.431Z",
+          "evidence": "\"A Mariner book.\"\n\"The New York times book review ... notable book of the year 2004\"--Cover\nIncludes bibliographical references (p. 624-642) and index\nThe conceit of hindsight -- The general prologue -- The pilgrimage begins -- Rendezvous 0. All humankind -- Archaic Homo sapiens -- Ergasts -- Habilines -- Ape-men -- Rendezvous 1. Chimpanzees -- Rendezvous 2. Gorillas -- Rendezvous 3. Orang utans -- Rendezvous 4. Gibbons -- Rendezvous 5. Old world monkeys -- Rendezvous 6. New world monkeys -- Rendezvous 7. Tarsiers -- Rendezvous 8. Lemurs, bushbabies and their kin -- The great cretaceous catastrophe -- Rendezvous 9. Colugos and the tree shrews -- Rendezvous 10. Rodents and rabbitkind -- Rendezvous 11. Laurasiatheres -- Rendezvous 12. Xenarthrans -- Rendezvous 13. Afrotheres -- Rendezvous 14. Marsupials -- Rendezvous 15. Monotremes -- Mammal-like reptiles -- Rendezvous 16. Sauropsids -- Rendezvous 17. Amphibians -- Rendezvous 18. Lungfish -- Rendezvous 19. Coelacanths -- Rendezvous 20. Ray-finned fish -- Rendezvous 21. Sharks and their kin -- Rendezvous 22. Lampreys and hagfish -- Rendezvous 23. Lancelets -- Rendezvous 24. Sea squirts -- Rendezvous 25. Ambulacrarians -- Rendezvous 26. Protostomes -- Rendezvous 27. Acoelomorph flatworms -- Rendezvous 28. Cnidarians -- Rendezvous 29. Ctenophores -- Rendezvous 30. Placozoans -- Rendezvous 31. Sponges -- Rendezvous 32. Choanoflagellates -- Rendezvous 33. Drips -- Rendezvous 34. Fungi -- Rendezvous 35. Amoebozoans -- Rendezvous 36. Plants -- Rendezvous 37. Uncertain -- The great historic rendezvous -- Rendezvous 38. Archaea -- Rendezvous 39. Eubacteria -- Canterbury -- The host's return\nThe renowned biologist and thinker Richard Dawkins presents his most expansive work yet: a comprehensive look at evolution, ranging from the latest developments in the field to his own provocative views. Loosely based on the form of Chaucer's Canterbury Tales, Dawkins' Tale takes us modern humans back through four billion years of life on our planet. As the pilgrimage progresses, we join with other organisms at the forty \"rendezvous points\" where we find a common ancestor. The band of pilgrims swells into a vast crowd as we join first with other primates, then with other mammals, and so on back to the first primordial organism. Dawkins' brilliant, inventive approach allows us to view the connections between ourselves and all other life in a bracingly novel way. It also lets him shed bright new light on the most compelling aspects of evolutionary history and theory: sexual selection, speciation, convergent evolution, extinction, genetics, plate tectonics, geographical dispersal, and more. The Ancestor's Tale is at once a far-reaching survey of the latest, best thinking on biology and a fascinating history of life on Earth. Here Dawkins shows us how remarkable we are, how astonishing our history, and how intimate our relationship with the rest of the living world"
+        },
+        "sameEditionAsPG": true,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "q0090": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Structure+of+Scientific+Revolutions%22%29+AND+creator%3A%28%22Kuhn%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:15:22.437Z",
+      "file": "data/top500_261024/raw/archive-q0090.json",
+      "status": 200,
+      "found": 12,
+      "done": true
+    },
+    "g0476": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Master+Algorithm%22%29+AND+creator%3A%28%22Domingos%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:15:32.448Z",
+      "file": "data/top500_261024/raw/archive-g0476.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "intake-0271": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Sum+of+the+People%22%29+AND+creator%3A%28%22Whitby%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:15:42.454Z",
+      "file": "data/top500_261024/raw/archive-intake-0271.json",
+      "status": 200,
+      "found": 1,
+      "reference": {
+        "pages": 61,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 275,
+            "end": 335,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (pages 275-335",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:9781541619340",
+          "title": "The sum of the people : how the census has shaped nations, from the ancient world to the modern age",
+          "author": "Whitby, Andrew, 1981- author",
+          "year": "2020",
+          "language": "eng",
+          "isbn": [
+            "9781541619340",
+            "154161934X"
+          ]
+        },
+        "url": "https://archive.org/details/sumofpeoplehowce0000whit",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Sum+of+the+People%22%29+AND+creator%3A%28%22Whitby%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-intake-0271.json",
+          "retrieved": "2026-10-24T11:15:42.454Z",
+          "evidence": "ix, 356 pages : 25 cm\nProvides a 3,000-year history of the census, chronicling the practices of the ancient world through the Supreme Court rulings of today, examining how censuses have been used as tools of democracy, exclusion and mass surveillance\nIn 2020, the United States will embark again on what has been called \"the largest peacetime mobilization in American history\": the decennial population census. It is part of a tradition of counting people that goes back more than three millennia and now spans the globe. In The Sum of the People, data scientist Andrew Whitby traces the remarkable history of the census from ancient China and the Roman Empire through revolutionary America, Nazi-occupied Europe, and post-apartheid South Africa all the way to the steps of the Supreme Court. Conceived in antiquity to impose taxation and military conscription, the census was reinvented in the Enlightenment era to support representative government and delimit the boundaries of new nation states. As enumeration became a foundation of modern, technocratic governance in the nineteenth and twentieth centuries, controversy raged about who was counted, who was not, and what questions they were asked. Censuses have been marvels of democracy, instruments of exclusion, and, at worst, tools of tyrrany and genocide. They have profoundly shaped the societies we've built. Today, in a world beset by high-tech surveillance, The Sum of the People shows how the traditional census--direct, transparent and accountable--is something worth celebrating--Publisher's description\nIncludes bibliographical references (pages 275-335) and index"
+        },
+        "sameEditionAsPG": true,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "intake-0017": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22When+the+Heavens+Went+on+Sale%22%29+AND+creator%3A%28%22Vance%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:15:52.463Z",
+      "file": "data/top500_261024/raw/archive-intake-0017.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "q0143": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Dictator%27s+Handbook%22%29+AND+creator%3A%28%22Mesquita%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:16:02.472Z",
+      "file": "data/top500_261024/raw/archive-q0143.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "nd00d2fb0cf": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Human+Use+of+Human+Beings%22%29+AND+creator%3A%28%22Wiener%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:16:12.479Z",
+      "file": "data/top500_261024/raw/archive-nd00d2fb0cf.json",
+      "status": 200,
+      "found": 10,
+      "done": true
+    },
+    "nf2334e4f10": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Every+Tool%27s+a+Hammer%22%29+AND+creator%3A%28%22Savage%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:16:22.488Z",
+      "file": "data/top500_261024/raw/archive-nf2334e4f10.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "intake-0345": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Making+Modern+Science%22%29+AND+creator%3A%28%22Bowler%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:16:32.496Z",
+      "file": "data/top500_261024/raw/archive-intake-0345.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "g0473": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Inmates+Are+Running+the+Asylum%22%29+AND+creator%3A%28%22Cooper%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:16:42.505Z",
+      "file": "data/top500_261024/raw/archive-g0473.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "g0230": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Confessions+of+a+Pricing+Man%22%29+AND+creator%3A%28%22Simon%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:16:52.514Z",
+      "file": "data/top500_261024/raw/archive-g0230.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "q0212": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Control+of+Nature%22%29+AND+creator%3A%28%22McPhee%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:17:02.521Z",
+      "file": "data/top500_261024/raw/archive-q0212.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "rem-u0184": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Invent+and+Wander%22%29+AND+creator%3A%28%22Bezos%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:17:12.530Z",
+      "file": "data/top500_261024/raw/archive-rem-u0184.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "g0059": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Fate+Is+The+Hunter%22%29+AND+creator%3A%28%22Gann%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:17:22.537Z",
+      "file": "data/top500_261024/raw/archive-g0059.json",
+      "status": 200,
+      "found": 7,
+      "done": true
+    },
+    "q0074": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Unbound+Prometheus%22%29+AND+creator%3A%28%22Landes%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:17:32.545Z",
+      "file": "data/top500_261024/raw/archive-q0074.json",
+      "status": 200,
+      "found": 6,
+      "done": true
+    },
+    "n7323020521": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Dance+of+the+Photons%22%29+AND+creator%3A%28%22Zeilinger%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:17:42.553Z",
+      "file": "data/top500_261024/raw/archive-n7323020521.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "rem-u0448": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Undoing+Project%22%29+AND+creator%3A%28%22Lewis%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:17:52.564Z",
+      "file": "data/top500_261024/raw/archive-rem-u0448.json",
+      "status": 200,
+      "found": 8,
+      "reference": {
+        "pages": 8,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 353,
+            "end": 360,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (pages 353-360",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:9780393254594",
+          "title": "The undoing project : a friendship that changed our minds",
+          "author": "Lewis, Michael (Michael M.), author",
+          "year": "2017",
+          "language": "eng",
+          "isbn": [
+            "9780393254594",
+            "0393254593"
+          ]
+        },
+        "url": "https://archive.org/details/undoingprojectfr0000lewi_u6c1",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Undoing+Project%22%29+AND+creator%3A%28%22Lewis%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-rem-u0448.json",
+          "retrieved": "2026-10-24T11:17:52.564Z",
+          "evidence": "362 pages : 25 cm\nIncludes bibliographical references (pages 353-360)\nIntroduction. The problem that never goes away -- Man boobs -- The outsider -- The insider -- Errors -- The collision -- The mind's rules -- The rules of prediction -- Going viral -- Birth of the warrior psychologist -- The isolation effect -- The rules of undoing -- This cloud of possibility -- Coda. Bora-Bora"
+        },
+        "sameEditionAsPG": false,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "q0277": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Death+and+Life+of+Great+American+Cities%22%29+AND+creator%3A%28%22Jacobs%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:18:02.572Z",
+      "file": "data/top500_261024/raw/archive-q0277.json",
+      "status": 200,
+      "found": 7,
+      "done": true
+    },
+    "g0201": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Startup%22%29+AND+creator%3A%28%22Kaplan%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:18:12.579Z",
+      "file": "data/top500_261024/raw/archive-g0201.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "progress-0771": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Making+of+Prince+of+Persia%22%29+AND+creator%3A%28%22Mechner%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:18:22.588Z",
+      "file": "data/top500_261024/raw/archive-progress-0771.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "g0313": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Big+Score%22%29+AND+creator%3A%28%22Malone%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:18:32.596Z",
+      "file": "data/top500_261024/raw/archive-g0313.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "g0444": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Men%2C+Machines%2C+and+Modern+Times%22%29+AND+creator%3A%28%22Morison%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:18:42.605Z",
+      "file": "data/top500_261024/raw/archive-g0444.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "intake-0091": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Right+Kind+of+Crazy%22%29+AND+creator%3A%28%22Steltzner%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:18:52.612Z",
+      "file": "data/top500_261024/raw/archive-intake-0091.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "progress-0770": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Making+of+Karateka%22%29+AND+creator%3A%28%22Mechner%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:19:02.620Z",
+      "file": "data/top500_261024/raw/archive-progress-0770.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "q0133": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22A+History+of+Civilizations%22%29+AND+creator%3A%28%22Braudel%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:19:12.629Z",
+      "file": "data/top500_261024/raw/archive-q0133.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "q0026": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Deltoid+Pumpkin+Seed%22%29+AND+creator%3A%28%22McPhee%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:19:22.635Z",
+      "file": "data/top500_261024/raw/archive-q0026.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "q0170": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Oranges%22%29+AND+creator%3A%28%22McPhee%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:19:32.634Z",
+      "file": "data/top500_261024/raw/archive-q0170.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "q0296": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Origin%22%29+AND+creator%3A%28%22Raff%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:19:42.634Z",
+      "file": "data/top500_261024/raw/archive-q0296.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "rem-u1784": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Supremacy%22%29+AND+creator%3A%28%22Olson%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:19:52.643Z",
+      "file": "data/top500_261024/raw/archive-rem-u1784.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "g0691": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Expert+Political+Judgment%22%29+AND+creator%3A%28%22Tetlock%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:20:02.655Z",
+      "file": "data/top500_261024/raw/archive-g0691.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "s46": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Inside+the+Black+Box%22%29+AND+creator%3A%28%22Rosenberg%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:20:12.663Z",
+      "file": "data/top500_261024/raw/archive-s46.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "nb0b9b5e594": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Never-Ending+Challenge+of+Engineering%22%29+AND+creator%3A%28%22Rickover%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:20:22.671Z",
+      "file": "data/top500_261024/raw/archive-nb0b9b5e594.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "progress-0017": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Plastic%22%29+AND+creator%3A%28%22Fenichell%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:20:32.679Z",
+      "file": "data/top500_261024/raw/archive-progress-0017.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "progress-0587": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Encyclopedia+of+Architectural+and+Engineering+Feats%22%29+AND+creator%3A%28%22Langmead%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:20:42.687Z",
+      "file": "data/top500_261024/raw/archive-progress-0587.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "q0103": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Barbarians+At+The+Gate%22%29+AND+creator%3A%28%22Burrough%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:20:52.695Z",
+      "file": "data/top500_261024/raw/archive-q0103.json",
+      "status": 200,
+      "found": 9,
+      "done": true
+    },
+    "intake-0071": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Changing+How+the+World+Does+Business%22%29+AND+creator%3A%28%22Frock%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:21:02.702Z",
+      "file": "data/top500_261024/raw/archive-intake-0071.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "nc848a956e9": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Flight+232%22%29+AND+creator%3A%28%22Gonzales%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:21:12.711Z",
+      "file": "data/top500_261024/raw/archive-nc848a956e9.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "q0310": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Surely+You%27re+Joking+Mr.+Feynman%22%29+AND+creator%3A%28%22Feynman%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:21:22.719Z",
+      "file": "data/top500_261024/raw/archive-q0310.json",
+      "status": 200,
+      "found": 5,
+      "done": true
+    },
+    "intake-0035": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22A+Year+in+Development%22%29+AND+creator%3A%28%22Corporation%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:21:32.728Z",
+      "file": "data/top500_261024/raw/archive-intake-0035.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "q0203": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Bad+Samaritans%22%29+AND+creator%3A%28%22Chang%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:21:42.735Z",
+      "file": "data/top500_261024/raw/archive-q0203.json",
+      "status": 200,
+      "found": 4,
+      "done": true
+    },
+    "progress-0713": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22History+of+Strength+of+Materials%22%29+AND+creator%3A%28%22Timoshenko%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:21:52.739Z",
+      "file": "data/top500_261024/raw/archive-progress-0713.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "progress-0410": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Technology%2C+Management%2C+and+Society%22%29+AND+creator%3A%28%22Drucker%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:22:02.754Z",
+      "file": "data/top500_261024/raw/archive-progress-0410.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "progress-0775": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Aftermath%22%29+AND+creator%3A%28%22Magazine%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:22:12.763Z",
+      "file": "data/top500_261024/raw/archive-progress-0775.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "progress-0774": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Salt%22%29+AND+creator%3A%28%22Laszlo%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:22:22.766Z",
+      "file": "data/top500_261024/raw/archive-progress-0774.json",
+      "status": 200,
+      "found": 2,
+      "reference": {
+        "pages": 21,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 172,
+            "end": 192,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (p. [172]-192",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:0060084685",
+          "title": "Salt : grain of life",
+          "author": "Laszlo, Pierre; Mader, Mary Beth",
+          "year": "2002",
+          "language": "eng",
+          "isbn": [
+            "0060084685",
+            "9780060084684"
+          ]
+        },
+        "url": "https://archive.org/details/saltgrainoflife00lasz",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Salt%22%29+AND+creator%3A%28%22Laszlo%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-progress-0774.json",
+          "retrieved": "2026-10-24T11:22:22.766Z",
+          "evidence": "Includes bibliographical references (p. [172]-192)"
+        },
+        "sameEditionAsPG": false,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "rem-u0260": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Exit%2C+Voice%2C+and+Loyalty%22%29+AND+creator%3A%28%22Hirschman%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:22:32.779Z",
+      "file": "data/top500_261024/raw/archive-rem-u0260.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "g0469": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Boy+Who+Harnessed+The+Wind%22%29+AND+creator%3A%28%22Kamkwamba%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:22:42.786Z",
+      "file": "data/top500_261024/raw/archive-g0469.json",
+      "status": 200,
+      "found": 5,
+      "done": true
+    },
+    "progress-0065": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Metals%2C+Energy+and+Sustainability%22%29+AND+creator%3A%28%22Golding%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:22:52.796Z",
+      "file": "data/top500_261024/raw/archive-progress-0065.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "progress-0595": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Various+and+Ingenious+Machines+%282+Vols.+%29%22%29+AND+creator%3A%28%22Lawton%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:23:02.804Z",
+      "file": "data/top500_261024/raw/archive-progress-0595.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "g0886": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Idealist%22%29+AND+creator%3A%28%22Munk%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:23:12.811Z",
+      "file": "data/top500_261024/raw/archive-g0886.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "progress-0499": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Computer+and+the+Brain%22%29+AND+creator%3A%28%22Neumann%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:23:22.818Z",
+      "file": "data/top500_261024/raw/archive-progress-0499.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "g0797": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Rational+Optimist%22%29+AND+creator%3A%28%22Ridley%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:23:32.829Z",
+      "file": "data/top500_261024/raw/archive-g0797.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "progress-0025": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Sextant%22%29+AND+creator%3A%28%22Barrie%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:23:42.835Z",
+      "file": "data/top500_261024/raw/archive-progress-0025.json",
+      "status": 200,
+      "found": 2,
+      "reference": {
+        "pages": 5,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 313,
+            "end": 317,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (pages 313-317",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:9780062279347",
+          "title": "Sextant : a young man's daring sea voyage and the men who mapped the world's oceans",
+          "author": "Barrie, David, 1953- author",
+          "year": "2014",
+          "language": "eng",
+          "isbn": [
+            "9780062279347",
+            "0062279343",
+            "9780062279354",
+            "0062279351"
+          ]
+        },
+        "url": "https://archive.org/details/sextantyoungmans0000barr",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Sextant%22%29+AND+creator%3A%28%22Barrie%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-progress-0025.json",
+          "retrieved": "2026-10-24T11:23:42.835Z",
+          "evidence": "xx, 340 pages, 16 unnumbered pages of plates : 22 cm\nChronicles the author's first transatlantic voyage, when he learned to navigate using a sextant, and traces how this indispensable navigational tool was used by daring mariners to explore and map the world\nIncludes bibliographical references (pages 313-317) and index\nIntroduction -- Setting sail -- First sight -- The origins of the sextant -- Bligh's boat journey -- Anson's ordeals -- The marine chronometer -- Celestial timekeeping -- Captain Cook charts the Pacific -- Bougainville in the South Seas -- La Pérouse vanishes -- The travails of George Vancouver -- Flinders-coasting Australia -- Flinders-shipwreck and captivity -- Voyages of the Beagle -- Slocum circles the world -- Endurance -- \"These are men\" -- Two landfalls -- Epilogue"
+        },
+        "sameEditionAsPG": false,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "progress-0600": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Physicists%22%29+AND+creator%3A%28%22Kevles%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:23:52.862Z",
+      "file": "data/top500_261024/raw/archive-progress-0600.json",
+      "status": 200,
+      "found": 4,
+      "reference": {
+        "pages": 30,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 435,
+            "end": 464,
+            "label": "Bibliography:",
+            "evidence": "Bibliography: p. 435-464",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:0394726693",
+          "title": "The physicists : the history of a scientific community in modern America",
+          "author": "Kevles, Daniel J",
+          "year": "1979",
+          "language": "eng",
+          "isbn": [
+            "0394726693"
+          ]
+        },
+        "url": "https://archive.org/details/physicistshist00kevl",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Physicists%22%29+AND+creator%3A%28%22Kevles%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-progress-0600.json",
+          "retrieved": "2026-10-24T11:23:52.862Z",
+          "evidence": "Reprint of the ed. published by Knopf, New York\nBibliography: p. 435-464\nIncludes index"
+        },
+        "sameEditionAsPG": false,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "progress-0080": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Pop+Internationalism%22%29+AND+creator%3A%28%22Krugman%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:24:02.870Z",
+      "file": "data/top500_261024/raw/archive-progress-0080.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "progress-0367": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Accidental+Theorist%22%29+AND+creator%3A%28%22Krugman%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:24:12.878Z",
+      "file": "data/top500_261024/raw/archive-progress-0367.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "intake-0044": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22iWoz%22%29+AND+creator%3A%28%22Wozniak%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:24:22.888Z",
+      "file": "data/top500_261024/raw/archive-intake-0044.json",
+      "status": 200,
+      "found": 5,
+      "done": true
+    },
+    "g0374": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22AI+Superpowers%22%29+AND+creator%3A%28%22Lee%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:24:32.895Z",
+      "file": "data/top500_261024/raw/archive-g0374.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "n99a0799831": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Fire+in+the+Valley%22%29+AND+creator%3A%28%22Freiberger%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:24:42.904Z",
+      "file": "data/top500_261024/raw/archive-n99a0799831.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "g0306": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22That+Will+Never+Work%22%29+AND+creator%3A%28%22Randolph%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:24:52.913Z",
+      "file": "data/top500_261024/raw/archive-g0306.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "nf5dc5a1ea8": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Smart+Choices%22%29+AND+creator%3A%28%22Hammond%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:25:02.918Z",
+      "file": "data/top500_261024/raw/archive-nf5dc5a1ea8.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "g0368": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Blitzscaling%22%29+AND+creator%3A%28%22Hoffman%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:25:12.927Z",
+      "file": "data/top500_261024/raw/archive-g0368.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "intake-0897": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Establishing+Quantum+Physics+in+Berlin%22%29+AND+creator%3A%28%22Goenner%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:25:22.936Z",
+      "file": "data/top500_261024/raw/archive-intake-0897.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "progress-0773": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22How+We+Got+Here%22%29+AND+creator%3A%28%22Hallpike%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:25:32.946Z",
+      "file": "data/top500_261024/raw/archive-progress-0773.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "n117091cdd5": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Pieces+of+the+Action%22%29+AND+creator%3A%28%22Bush%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:25:42.952Z",
+      "file": "data/top500_261024/raw/archive-n117091cdd5.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "g0939": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Explaining+Social+Behavior%22%29+AND+creator%3A%28%22Elster%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:25:52.962Z",
+      "file": "data/top500_261024/raw/archive-g0939.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "intake-0045": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Rickover+Effect%22%29+AND+creator%3A%28%22Rockwell%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:26:02.968Z",
+      "file": "data/top500_261024/raw/archive-intake-0045.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "g0162": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Measure+What+Matters%22%29+AND+creator%3A%28%22Doerr%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:26:12.979Z",
+      "file": "data/top500_261024/raw/archive-g0162.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "progress-0358": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Slack%22%29+AND+creator%3A%28%22DeMarco%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:26:22.986Z",
+      "file": "data/top500_261024/raw/archive-progress-0358.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "n1d28d21315": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Elusive%22%29+AND+creator%3A%28%22Close%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:26:32.995Z",
+      "file": "data/top500_261024/raw/archive-n1d28d21315.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "progress-0014": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Steel%22%29+AND+creator%3A%28%22Stoddard%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:26:43.003Z",
+      "file": "data/top500_261024/raw/archive-progress-0014.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "q0149": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Subtle+Is+the+Lord%22%29+AND+creator%3A%28%22Pais%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:26:53.012Z",
+      "file": "data/top500_261024/raw/archive-q0149.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "rem-u0807": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+White+Man%27s+Burden%22%29+AND+creator%3A%28%22Easterly%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:27:03.020Z",
+      "file": "data/top500_261024/raw/archive-rem-u0807.json",
+      "status": 200,
+      "found": 4,
+      "done": true
+    },
+    "progress-0695": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Fabless%22%29+AND+creator%3A%28%22Nenni%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:27:13.029Z",
+      "file": "data/top500_261024/raw/archive-progress-0695.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "rem-u0829": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Bottle+of+Lies%22%29+AND+creator%3A%28%22Eban%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:27:23.038Z",
+      "file": "data/top500_261024/raw/archive-rem-u0829.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "progress-0649": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Energy+and+the+Wealth+of+Nations%22%29+AND+creator%3A%28%22Hall%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:27:33.045Z",
+      "file": "data/top500_261024/raw/archive-progress-0649.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "n5ebb281344": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Facemaker%22%29+AND+creator%3A%28%22Fitzharris%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:27:43.050Z",
+      "file": "data/top500_261024/raw/archive-n5ebb281344.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "q0388": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Toms+River%22%29+AND+creator%3A%28%22Fagin%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:27:53.059Z",
+      "file": "data/top500_261024/raw/archive-q0388.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "g0198": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Powerful%22%29+AND+creator%3A%28%22McCord%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:28:03.069Z",
+      "file": "data/top500_261024/raw/archive-g0198.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "progress-0508": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22This+Will+Make+You+Smarter%22%29+AND+creator%3A%28%22Brockman%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:28:13.078Z",
+      "file": "data/top500_261024/raw/archive-progress-0508.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "progress-0690": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Noble+Obsession%22%29+AND+creator%3A%28%22Slack%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:28:23.085Z",
+      "file": "data/top500_261024/raw/archive-progress-0690.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "q0184": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Geons%2C+Black+Holes%2C+and+Quantum+Foam%22%29+AND+creator%3A%28%22Wheeler%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:28:33.095Z",
+      "file": "data/top500_261024/raw/archive-q0184.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "g1155": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Essays+of+Warren+Buffett%22%29+AND+creator%3A%28%22Buffett%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:28:43.102Z",
+      "file": "data/top500_261024/raw/archive-g1155.json",
+      "status": 200,
+      "found": 5,
+      "done": true
+    },
+    "q0182": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Rise+of+the+West%22%29+AND+creator%3A%28%22McNeill%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:28:53.112Z",
+      "file": "data/top500_261024/raw/archive-q0182.json",
+      "status": 200,
+      "found": 8,
+      "done": true
+    },
+    "progress-0624": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Crick%22%29+AND+creator%3A%28%22Cobb%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:29:03.119Z",
+      "file": "data/top500_261024/raw/archive-progress-0624.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "g0175": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Talent%22%29+AND+creator%3A%28%22Gross%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:29:13.128Z",
+      "file": "data/top500_261024/raw/archive-g0175.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "progress-0761": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Netscape+Time%22%29+AND+creator%3A%28%22Clark%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:29:23.136Z",
+      "file": "data/top500_261024/raw/archive-progress-0761.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "bgf077c854c9": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22My+Life+and+Work%22%29+AND+creator%3A%28%22Crowther%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:29:33.143Z",
+      "file": "data/top500_261024/raw/archive-bgf077c854c9.json",
+      "status": 200,
+      "found": 6,
+      "done": true
+    },
+    "intake-0015": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22How+to+Make+a+Spaceship%22%29+AND+creator%3A%28%22Guthrie%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:29:43.153Z",
+      "file": "data/top500_261024/raw/archive-intake-0015.json",
+      "status": 200,
+      "found": 4,
+      "done": true
+    },
+    "g0512": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22How+Google+Works%22%29+AND+creator%3A%28%22Schmidt%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:29:53.162Z",
+      "file": "data/top500_261024/raw/archive-g0512.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "intake-0195": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Making+Software%22%29+AND+creator%3A%28%22Oram%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:30:03.169Z",
+      "file": "data/top500_261024/raw/archive-intake-0195.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "q0329": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Unnatural+Causes%22%29+AND+creator%3A%28%22Shepherd%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:30:13.178Z",
+      "file": "data/top500_261024/raw/archive-q0329.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "q0309": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22QED%22%29+AND+creator%3A%28%22Feynman%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:30:23.186Z",
+      "file": "data/top500_261024/raw/archive-q0309.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "n1dd01d3afa": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Ghost+in+the+Wires%22%29+AND+creator%3A%28%22Mitnick%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:30:33.188Z",
+      "file": "data/top500_261024/raw/archive-n1dd01d3afa.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "q0009": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Arms+and+Influence%22%29+AND+creator%3A%28%22Schelling%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:30:43.202Z",
+      "file": "data/top500_261024/raw/archive-q0009.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "rem-u1720": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Co-Intelligence%22%29+AND+creator%3A%28%22Mollick%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:30:53.203Z",
+      "file": "data/top500_261024/raw/archive-rem-u1720.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "rem-u1599": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Periodic+Tales%22%29+AND+creator%3A%28%22AlderseyWilliams%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:31:03.204Z",
+      "file": "data/top500_261024/raw/archive-rem-u1599.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "g0845": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Knowledge+and+The+Wealth+of+Nations%22%29+AND+creator%3A%28%22Warsh%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:31:13.209Z",
+      "file": "data/top500_261024/raw/archive-g0845.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "progress-0217": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Great+A%26P+and+the+Struggle+for+Small+Business+in+America%22%29+AND+creator%3A%28%22Levinson%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:31:23.220Z",
+      "file": "data/top500_261024/raw/archive-progress-0217.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "intake-0062": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Tolbert+Lanston+and+the+Monotype%22%29+AND+creator%3A%28%22Hopkins%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:31:33.228Z",
+      "file": "data/top500_261024/raw/archive-intake-0062.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "progress-0598": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Baidarka%22%29+AND+creator%3A%28%22Dyson%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:31:43.235Z",
+      "file": "data/top500_261024/raw/archive-progress-0598.json",
+      "status": 200,
+      "found": 1,
+      "reference": {
+        "pages": 5,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 208,
+            "end": 212,
+            "label": "Bibliography:",
+            "evidence": "Bibliography: p. [208]-[212]",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:088240315X",
+          "title": "Baidarka",
+          "author": "Dyson, George, 1953-",
+          "year": "1986",
+          "language": "eng",
+          "isbn": [
+            "088240315X"
+          ]
+        },
+        "url": "https://archive.org/details/baidarka0000dyso",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Baidarka%22%29+AND+creator%3A%28%22Dyson%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-progress-0598.json",
+          "retrieved": "2026-10-24T11:31:43.235Z",
+          "evidence": "xii, 203, [13] p. : 21 x 28 cm\nBibliography: p. [208]-[212]\nIncludes index"
+        },
+        "sameEditionAsPG": false,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "g0862": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Race+Against+The+Machine%22%29+AND+creator%3A%28%22Brynjolfsson%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:31:53.244Z",
+      "file": "data/top500_261024/raw/archive-g0862.json",
+      "status": 200,
+      "found": 1,
+      "reference": {
+        "pages": 12,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 81,
+            "end": 92,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (p. 81-92",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:9780984725113",
+          "title": "Race against the machine : how the digital revolution is accelerating innovation, driving productivity, and irreversibly transforming employment and the economy",
+          "author": "Brynjolfsson, Erik",
+          "year": "2011",
+          "language": "eng",
+          "isbn": [
+            "9780984725113",
+            "0984725113"
+          ]
+        },
+        "url": "https://archive.org/details/raceagainstmachi0000bryn",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Race+Against+The+Machine%22%29+AND+creator%3A%28%22Brynjolfsson%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-g0862.json",
+          "retrieved": "2026-10-24T11:31:53.244Z",
+          "evidence": "92 p. : 23 cm\nExamines how information technologies are affecting jobs, skills, wages, and the economy. As one of the most important forces in the economy today, digital technologies are transforming the world of work and are key drivers of productivity and growth\nIncludes bibliographical references (p. 81-92)\nTechnology's influence on employment and the economy -- Humanity and technology on the second half of the chessboard -- Creative destruction: the economics of accelerating technology and disappearing jobs -- What is to be done? Prescriptions and recommendations -- Conclusion: The digital frontier"
+        },
+        "sameEditionAsPG": true,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "q0266": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Almost+Perfect%22%29+AND+creator%3A%28%22Peterson%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:32:03.253Z",
+      "file": "data/top500_261024/raw/archive-q0266.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "g0544": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Pleasure+of+Finding+Things+Out%22%29+AND+creator%3A%28%22Feynman%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:32:13.259Z",
+      "file": "data/top500_261024/raw/archive-g0544.json",
+      "status": 200,
+      "found": 4,
+      "done": true
+    },
+    "g0603": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Idea+Makers%22%29+AND+creator%3A%28%22Wolfram%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:32:23.269Z",
+      "file": "data/top500_261024/raw/archive-g0603.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "rem-u1741": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22High-Speed+Dreams%22%29+AND+creator%3A%28%22Conway%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:32:33.278Z",
+      "file": "data/top500_261024/raw/archive-rem-u1741.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "bg35aa63a232": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22It%27s+Your+Ship%22%29+AND+creator%3A%28%22Abrashoff%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:32:43.286Z",
+      "file": "data/top500_261024/raw/archive-bg35aa63a232.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "intake-0187": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Quest+for+Artificial+Intelligence%22%29+AND+creator%3A%28%22Nilsson%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:32:53.293Z",
+      "file": "data/top500_261024/raw/archive-intake-0187.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "q0016": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Pursuit+of+Power%22%29+AND+creator%3A%28%22McNeill%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:33:03.300Z",
+      "file": "data/top500_261024/raw/archive-q0016.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "progress-0689": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22First+Light%22%29+AND+creator%3A%28%22Preston%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:33:13.308Z",
+      "file": "data/top500_261024/raw/archive-progress-0689.json",
+      "status": 200,
+      "found": 4,
+      "done": true
+    },
+    "nb7f4a67284": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Open+Circuits%22%29+AND+creator%3A%28%22Oskay%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:33:23.318Z",
+      "file": "data/top500_261024/raw/archive-nb7f4a67284.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "q0160": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Second+World+War%22%29+AND+creator%3A%28%22Beevor%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:33:33.326Z",
+      "file": "data/top500_261024/raw/archive-q0160.json",
+      "status": 200,
+      "found": 4,
+      "done": true
+    },
+    "q0293": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Blueprint%22%29+AND+creator%3A%28%22Christakis%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:33:43.332Z",
+      "file": "data/top500_261024/raw/archive-q0293.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "n6694fcb8ec": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+World+Is+Your+Office%22%29+AND+creator%3A%28%22Choudhury%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:33:53.343Z",
+      "file": "data/top500_261024/raw/archive-n6694fcb8ec.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "intake-0299": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Pacific+Crucible%22%29+AND+creator%3A%28%22Toll%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:34:03.352Z",
+      "file": "data/top500_261024/raw/archive-intake-0299.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "n0ba6424513": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Polymath%22%29+AND+creator%3A%28%22Burke%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:34:13.356Z",
+      "file": "data/top500_261024/raw/archive-n0ba6424513.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "q0215": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Jakarta+Method%22%29+AND+creator%3A%28%22Bevins%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:34:23.370Z",
+      "file": "data/top500_261024/raw/archive-q0215.json",
+      "status": 200,
+      "found": 5,
+      "done": true
+    },
+    "bgebf9a1a227": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Strategy+of+Conflict%22%29+AND+creator%3A%28%22Schelling%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:34:33.377Z",
+      "file": "data/top500_261024/raw/archive-bgebf9a1a227.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "rem-u1023": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Way+Things+Work+Now%22%29+AND+creator%3A%28%22Macaulay%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:34:43.385Z",
+      "file": "data/top500_261024/raw/archive-rem-u1023.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "progress-0535": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Possiplex%22%29+AND+creator%3A%28%22Nelson%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:34:53.394Z",
+      "file": "data/top500_261024/raw/archive-progress-0535.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "rem-u1208": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22A+Template+for+Understanding+Big+Debt+Crises%22%29+AND+creator%3A%28%22Dalio%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:35:03.403Z",
+      "file": "data/top500_261024/raw/archive-rem-u1208.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "g0179": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22What+You+Do+Is+Who+You+Are%22%29+AND+creator%3A%28%22Horowitz%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:35:13.410Z",
+      "file": "data/top500_261024/raw/archive-g0179.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "n08b0bddcfa": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Breakneck%22%29+AND+creator%3A%28%22Wang%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:35:23.419Z",
+      "file": "data/top500_261024/raw/archive-n08b0bddcfa.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "rem-u1224": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Great+Tech+Game%22%29+AND+creator%3A%28%22Suri%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:35:33.426Z",
+      "file": "data/top500_261024/raw/archive-rem-u1224.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "rem-u1759": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Now+It+Can+Be+Told%22%29+AND+creator%3A%28%22Groves%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:35:43.435Z",
+      "file": "data/top500_261024/raw/archive-rem-u1759.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "g1065": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Origin+Story%22%29+AND+creator%3A%28%22Christian%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:35:53.445Z",
+      "file": "data/top500_261024/raw/archive-g1065.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "progress-0708": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Brunelleschi%27s+Dome%22%29+AND+creator%3A%28%22King%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:36:03.451Z",
+      "file": "data/top500_261024/raw/archive-progress-0708.json",
+      "status": 200,
+      "found": 8,
+      "done": true
+    },
+    "n22132d6148": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%221493%22%29+AND+creator%3A%28%22Mann%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:36:13.460Z",
+      "file": "data/top500_261024/raw/archive-n22132d6148.json",
+      "status": 200,
+      "found": 4,
+      "done": true
+    },
+    "progress-0704": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Brunel%22%29+AND+creator%3A%28%22Brindle%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:36:23.470Z",
+      "file": "data/top500_261024/raw/archive-progress-0704.json",
+      "status": 200,
+      "found": 2,
+      "reference": {
+        "pages": 2,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 189,
+            "end": 190,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (pages 189-190",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:9780753821251",
+          "title": "Brunel : the man who built the world",
+          "author": "Brindle, Steven",
+          "year": "2006",
+          "language": "eng",
+          "isbn": [
+            "9780753821251",
+            "0753821257"
+          ]
+        },
+        "url": "https://archive.org/details/brunelmanwhobuil0000brin",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Brunel%22%29+AND+creator%3A%28%22Brindle%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-progress-0704.json",
+          "retrieved": "2026-10-24T11:36:23.470Z",
+          "evidence": "196 pages, 24 unnumbered pages of plates : 20 cm\nIncludes bibliographical references (pages 189-190) and index\nFather & son -- From London to Bristol -- Family life -- Railways -- Brunel's bridges -- The three great ships -- The office, the team and professional life -- The legacy"
+        },
+        "sameEditionAsPG": false,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "sr-u0095": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Cathedral+and+the+Bazaar%22%29+AND+creator%3A%28%22Raymond%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:36:33.478Z",
+      "file": "data/top500_261024/raw/archive-sr-u0095.json",
+      "status": 200,
+      "found": 1,
+      "reference": {
+        "pages": 2,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 234,
+            "end": 235,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (p. 234-235",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:9780596001087",
+          "title": "The cathedral and the bazaar : musings on Linux and Open Source by an accidental revolutionary",
+          "author": "Raymond, Eric S",
+          "year": "2001",
+          "language": "eng",
+          "isbn": [
+            "9780596001087",
+            "0596001312",
+            "0596001088"
+          ]
+        },
+        "url": "https://archive.org/details/cathedralbaz00raym",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Cathedral+and+the+Bazaar%22%29+AND+creator%3A%28%22Raymond%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-sr-u0095.json",
+          "retrieved": "2026-10-24T11:36:33.478Z",
+          "evidence": "Includes bibliographical references (p. 234-235) and index"
+        },
+        "sameEditionAsPG": true,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "progress-0481": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Age+of+Edison%22%29+AND+creator%3A%28%22Freeberg%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:36:43.485Z",
+      "file": "data/top500_261024/raw/archive-progress-0481.json",
+      "status": 200,
+      "found": 3,
+      "reference": {
+        "pages": 25,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 317,
+            "end": 341,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (pages 317-341",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:9781594204265",
+          "title": "The age of Edison : electric light and the invention of modern America",
+          "author": "Freeberg, Ernest, author",
+          "year": "2013",
+          "language": "eng",
+          "isbn": [
+            "9781594204265",
+            "1594204268",
+            "9780143124443"
+          ]
+        },
+        "url": "https://archive.org/details/ageofedisonelect0000free",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Age+of+Edison%22%29+AND+creator%3A%28%22Freeberg%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-progress-0481.json",
+          "retrieved": "2026-10-24T11:36:43.485Z",
+          "evidence": "354 pages : 24 cm\n\"The late nineteenth century was a period of explosive technological creativity, but arguably the most important invention of all was Thomas Edison's incandescent lightbulb. Unveiled in his Menlo Park, New Jersey, laboratory in 1879, the lightbulb overwhelmed the American public with the sense of the birth of a new age. More than any other invention, the electric light marked the arrival of modernity. The lightbulb became a catalyst for the nation's transformation from a rural to an urban-dominated culture. City streetlights defined zones between rich and poor, and the electrical grid sharpened the line between town and country. \"Bright lights\" meant \"big city.\" Like moths to a flame, millions of Americans migrated to urban centers in these decades, leaving behind the shadow of candle and kerosene lamp in favor of the exciting brilliance of the urban streetscape. The Age of Edison places the story of Edison's invention in the context of a technological revolution that transformed America and Europe in these decades. Edison and his fellow inventors emerged from a culture shaped by broad public education, a lively popular press that took an interest in science and technology, and an American patent system that encouraged innovation and democratized the benefits of invention. And in the end, as Freeberg shows, Edison's greatest invention was not any single technology, but rather his reinvention of the process itself. At Menlo Park he gathered the combination of capital, scientific training, and engineering skill that would evolve into the modern research and development laboratory. His revolutionary electrical grid not only broke the stronghold of gas companies, but also ushered in an era when strong, clear light could become accessible to everyone. In The Age of Edison, Freeberg weaves a narrative that reaches from Coney Island and Broadway to the tiniest towns of rural America, tracing the progress of electric light through the reactions of everyone who saw it. It is a quintessentially American story of ingenuity, ambition, and possibility, in which the greater forces of progress and change are made visible by one of our most humble and ubiquitous objects.\"--\n\"The Age of Edison places the story of Edison's invention in the context of a technological revolution that transformed America and Europe in these decades. Edison and his fellow inventors emerged from a culture shaped by broad public education, a lively popular press that took an interest in science and technology, and an American patent system that encouraged innovation and democratized the benefits of invention. And in the end, as Freeberg shows, Edison's greatest invention was not any single technology, but rather his reinvention of the process itself. At Menlo Park he gathered the combination of capital, scientific training, and engineering skill that would evolve into the modern research and development laboratory. His revolutionary electrical grid not only broke the stronghold of gas companies, but also ushered in an era when strong, clear light could become accessible to everyone\"--\nIncludes bibliographical references (pages 317-341) and index\nInventing Edison -- Inventing electric light -- Civic light -- Creative destruction: Edison and the gas companies -- Work light -- Leisure light -- Inventive nation -- Looking at inventions, inventing new ways of looking -- Inventing a profession -- The light of civilization -- Exuberance and order -- Illumination science -- Rural light -- Electric light's golden jubilee"
+        },
+        "sameEditionAsPG": false,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "progress-0388": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Computers+and+Society%22%29+AND+creator%3A%28%22Hamming%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:36:53.494Z",
+      "file": "data/top500_261024/raw/archive-progress-0388.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "progress-0387": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Engineers%27+Dreams%22%29+AND+creator%3A%28%22Ley%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:37:03.503Z",
+      "file": "data/top500_261024/raw/archive-progress-0387.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "progress-0578": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Roskam%27s+Airplane+War+Stories%22%29+AND+creator%3A%28%22Roskam%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:37:13.510Z",
+      "file": "data/top500_261024/raw/archive-progress-0578.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "progress-0066": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Frackers%22%29+AND+creator%3A%28%22Zuckerman%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:37:23.524Z",
+      "file": "data/top500_261024/raw/archive-progress-0066.json",
+      "status": 200,
+      "found": 5,
+      "reference": {
+        "pages": 8,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 397,
+            "end": 404,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (pages 397-404",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:9781591846451",
+          "title": "The frackers : the outrageous inside story of the new billionaire wildcatters",
+          "author": "Zuckerman, Gregory, author",
+          "year": "2013",
+          "language": "eng",
+          "isbn": [
+            "9781591846451",
+            "1591846455"
+          ]
+        },
+        "url": "https://archive.org/details/constitutionalmy0000raph",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Frackers%22%29+AND+creator%3A%28%22Zuckerman%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-progress-0066.json",
+          "retrieved": "2026-10-24T11:37:23.524Z",
+          "evidence": "ix, 404 pages, 8 unnumbered pages of plates : 24 cm\n\"The riveting, untold story of the men who are transforming global energy. In five years, the United States has seen a historic burst of oil and natural gas production, easing our insatiable hunger for energy. A new drilling process called fracking has made us the world's fastest growing energy power, on track to pass Saudi Arabia by 2020. But despite headlines and controversy, no previous book has shown how the revolution really happened. The Frackers tells the dramatic tale of how a group of ambitious and headstrong wildcatters ignored the ridicule of experts and derision of colleagues to pursue massive, long-overlooked deposits. Against all odds, they changed the world-and made astonishing fortunes in the process. Zuckerman's exclusive access enabled him to get close to men like George Mitchell, who developed a new way to drill for gas in shale rock; Harold Hamm, who discovered so much oil he's now worth more than the estate of Steve Jobs; and Aubrey McClendon, who lost more than $2 billion on a misguided gambit. Zuckerman shows how the frackers are now using their wealth to shake up Hollywood, education, politics, sports, and other fields, much like the Rockefellers and Gettys before them. He also explores the debate over the environmental risks of fracking, and whether those risks are worth it for the United States to achieve energy independence and for the rest of the world to follow\"--\n\"In five years, the United States has seen a historic burst of oil and natural gas production, easing our insatiable hunger for energy. A new drilling process called fracking has made us the world's fastest growing energy power, on track to pass Saudi Arabia by 2020. But despite headlines and controversy, no previous book has shown how the revolution really happened. The Frackers tells the dramatic tale of how a group of ambitious and headstrong wildcatters ignored the ridicule of experts and derision of colleagues to pursue massive, long-overlooked deposits. Against all odds, they changed the world--and made astonishing fortunes in the process. Zuckerman's exclusive access enabled him to get close to men like George Mitchell, who developed a new way to drill for gas in shale rock; Harold Hamm, who discovered so much oil he's now worth more than the estate of Steve Jobs; and Aubrey McClendon, who lost more than $2 billion on a misguided gambit. Zuckerman shows how the frackers are now using their wealth to shake up Hollywood, education, politics, sports, and other fields, much like the Rockefellers and Gettys before them\"--\nIncludes bibliographical references (pages 397-404)"
+        },
+        "sameEditionAsPG": false,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "progress-0513": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22A+Beautiful+Question%22%29+AND+creator%3A%28%22Wilczek%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:37:33.527Z",
+      "file": "data/top500_261024/raw/archive-progress-0513.json",
+      "status": 200,
+      "found": 1,
+      "reference": {
+        "pages": 3,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 407,
+            "end": 409,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (pages 407-409",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:9781594205262",
+          "title": "A beautiful question : finding nature's deep design",
+          "author": "Wilczek, Frank, author",
+          "year": "2015",
+          "language": "eng",
+          "isbn": [
+            "9781594205262"
+          ]
+        },
+        "url": "https://archive.org/details/beautifulquestio0000wilc",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22A+Beautiful+Question%22%29+AND+creator%3A%28%22Wilczek%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-progress-0513.json",
+          "retrieved": "2026-10-24T11:37:33.527Z",
+          "evidence": "430 pages : 25 cm\nDoes the universe embody beautiful ideas? Artists as well as scientists throughout human history have pondered this \"beautiful question.\" With Nobel laureate Frank Wilczek as your guide, embark on a voyage of related discoveries, from Plato and Pythagoras up to the present. Wilczek's groundbreaking work in quantum physics was inspired by his intuition to look for a deeper order of beauty in nature. In fact, every major advance in his career came from this intuition: to assume that the universe embodies beautiful forms, forms whose hallmarks are symmetry--harmony, balance, proportion--and economy. There are other meanings of \"beauty,\" but this is the deep logic of the universe--and it is no accident that it is also at the heart of what we find aesthetically pleasing and inspiring. As he reveals here, this has been the heart of scientific pursuit from Pythagoras, the ancient Greek who was the first to argue that \"all things are number,\" to Galileo, Newton, Maxwell, Einstein, and into the deep waters of twentieth-century physics. Gorgeously illustrated, A Beautiful Question is a mind-shifting book that braids the age-old quest for beauty and the age-old quest for truth into a thrilling synthesis. Yes: the world is a work of art, and its deepest truths are ones we already feel, as if they were somehow written in our souls.--From publisher description\nIncludes bibliographical references (pages 407-409) and index"
+        },
+        "sameEditionAsPG": false,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "intake-0176": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Brain+Makers%22%29+AND+creator%3A%28%22Newquist%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:37:43.536Z",
+      "file": "data/top500_261024/raw/archive-intake-0176.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "intake-0325": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Life+Is+Simple%22%29+AND+creator%3A%28%22McFadden%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:37:53.541Z",
+      "file": "data/top500_261024/raw/archive-intake-0325.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "necb2191e2d": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Black+Hole+War%22%29+AND+creator%3A%28%22Susskind%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:38:03.551Z",
+      "file": "data/top500_261024/raw/archive-necb2191e2d.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "progress-0765": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+HP+Way%22%29+AND+creator%3A%28%22Packard%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:38:13.560Z",
+      "file": "data/top500_261024/raw/archive-progress-0765.json",
+      "status": 200,
+      "found": 4,
+      "done": true
+    },
+    "intake-0102": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Exponential%22%29+AND+creator%3A%28%22Azhar%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:38:23.569Z",
+      "file": "data/top500_261024/raw/archive-intake-0102.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "rem-u1174": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Crime+and+Punishment+of+I.G.+Farben%22%29+AND+creator%3A%28%22Borkin%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:38:33.577Z",
+      "file": "data/top500_261024/raw/archive-rem-u1174.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "nd5b0d3fc85": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Rework%22%29+AND+creator%3A%28%22Fried%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:38:43.585Z",
+      "file": "data/top500_261024/raw/archive-nd5b0d3fc85.json",
+      "status": 200,
+      "found": 5,
+      "done": true
+    },
+    "intake-0336": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Mathematics+and+the+Physical+World%22%29+AND+creator%3A%28%22Kline%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:38:53.592Z",
+      "file": "data/top500_261024/raw/archive-intake-0336.json",
+      "status": 200,
+      "found": 4,
+      "done": true
+    },
+    "q0010": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Networks+of+Power%22%29+AND+creator%3A%28%22Hughes%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:39:03.602Z",
+      "file": "data/top500_261024/raw/archive-q0010.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "n6bcdcb62bf": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Effective+Engineer%22%29+AND+creator%3A%28%22Lau%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:39:13.608Z",
+      "file": "data/top500_261024/raw/archive-n6bcdcb62bf.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "progress-0637": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Liquid+Stone%22%29+AND+creator%3A%28%22Cohen%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:39:23.619Z",
+      "file": "data/top500_261024/raw/archive-progress-0637.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "intake-0106": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Entering+Space%22%29+AND+creator%3A%28%22Zubrin%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:39:33.625Z",
+      "file": "data/top500_261024/raw/archive-intake-0106.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "intake-0137": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Slide+Rule%22%29+AND+creator%3A%28%22Shute%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:39:43.634Z",
+      "file": "data/top500_261024/raw/archive-intake-0137.json",
+      "status": 200,
+      "found": 6,
+      "done": true
+    },
+    "bg41b3ac7320": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Apprentice+to+Genius%22%29+AND+creator%3A%28%22Kanigel%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:39:53.643Z",
+      "file": "data/top500_261024/raw/archive-bg41b3ac7320.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "intake-0404": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Emotional+Design%22%29+AND+creator%3A%28%22Norman%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:40:03.651Z",
+      "file": "data/top500_261024/raw/archive-intake-0404.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "rem-u1338": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Children+of+Ash+and+Elm%22%29+AND+creator%3A%28%22Price%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:40:13.659Z",
+      "file": "data/top500_261024/raw/archive-rem-u1338.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "progress-0013": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Epic+of+Steel%22%29+AND+creator%3A%28%22Fisher%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:40:23.668Z",
+      "file": "data/top500_261024/raw/archive-progress-0013.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "g0685": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22What+is+Life%3F%22%29+AND+creator%3A%28%22Schr%C3%B6dinger%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:40:33.677Z",
+      "file": "data/top500_261024/raw/archive-g0685.json",
+      "status": 200,
+      "found": 10,
+      "done": true
+    },
+    "g0450": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22One+Up%22%29+AND+creator%3A%28%22Dreunen%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:40:43.683Z",
+      "file": "data/top500_261024/raw/archive-g0450.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "g0240": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Execution%22%29+AND+creator%3A%28%22Bossidy%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:40:53.692Z",
+      "file": "data/top500_261024/raw/archive-g0240.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "rem-u1680": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Inadequate+Equilibria%22%29+AND+creator%3A%28%22Yudkowsky%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:41:03.703Z",
+      "file": "data/top500_261024/raw/archive-rem-u1680.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "intake-0320": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Light+Ages%22%29+AND+creator%3A%28%22Falk%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:41:13.710Z",
+      "file": "data/top500_261024/raw/archive-intake-0320.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "nc1414aa02d": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Mathematical+Thought+from+Ancient+to+Modern+Times%22%29+AND+creator%3A%28%22Kline%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:41:23.717Z",
+      "file": "data/top500_261024/raw/archive-nc1414aa02d.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "nc94cb01924": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22How+to+Build+Impossible+Things%22%29+AND+creator%3A%28%22Ellison%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:41:33.726Z",
+      "file": "data/top500_261024/raw/archive-nc94cb01924.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "progress-0420": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Jony+Ive%22%29+AND+creator%3A%28%22Kahney%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:41:43.734Z",
+      "file": "data/top500_261024/raw/archive-progress-0420.json",
+      "status": 200,
+      "found": 3,
+      "reference": {
+        "pages": 20,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 275,
+            "end": 294,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (pages 275-294",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:9781591846178",
+          "title": "Jony Ive : the genius behind Apple's greatest products",
+          "author": "Kahney, Leander",
+          "year": "2013",
+          "language": "eng",
+          "isbn": [
+            "9781591846178",
+            "9781591846758"
+          ]
+        },
+        "url": "https://archive.org/details/jonyivegeniusbeh0000kahn",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Jony+Ive%22%29+AND+creator%3A%28%22Kahney%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-progress-0420.json",
+          "retrieved": "2026-10-24T11:41:43.734Z",
+          "evidence": "305 pages : 24 cm\n\"The bestselling author of Inside Steve's Brain profiles Apple's legendary chief designer, Jonathan Ive. Jony Ive's designs have not only made Apple one of the most valuable companies in the world; they've overturned entire industries, from music and mobile phones to PCs and tablets. But for someone who has changed the world as much as he has, little is widely known about Apple's senior vice president of industrial design. Unlike his former boss and creative partner Steve Jobs, Ive shuns the spotlight. Naturally shy and soft-spoken, he lets his work speak for itself and concerns himself only with his craft\"--\nIncludes bibliographical references (pages 275-294) and index"
+        },
+        "sameEditionAsPG": false,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "nef311ecc75": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Lightning+Tamers%22%29+AND+creator%3A%28%22Joseph%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:41:53.742Z",
+      "file": "data/top500_261024/raw/archive-nef311ecc75.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "g0843": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22How+The+West+Grew+Rich%22%29+AND+creator%3A%28%22Rosenberg%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:42:03.751Z",
+      "file": "data/top500_261024/raw/archive-g0843.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "g1253": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Mathematician%27s+Delight%22%29+AND+creator%3A%28%22Sawyer%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:42:13.761Z",
+      "file": "data/top500_261024/raw/archive-g1253.json",
+      "status": 200,
+      "found": 12,
+      "done": true
+    },
+    "n48cd09a0bd": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Once+Upon+a+Prime%22%29+AND+creator%3A%28%22Hart%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:42:23.769Z",
+      "file": "data/top500_261024/raw/archive-n48cd09a0bd.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "rem-u1771": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Reckoning+with+Risk%22%29+AND+creator%3A%28%22Gigerenzer%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:42:33.777Z",
+      "file": "data/top500_261024/raw/archive-rem-u1771.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "n2460503f23": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Warped+Passages%22%29+AND+creator%3A%28%22Randall%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:42:43.785Z",
+      "file": "data/top500_261024/raw/archive-n2460503f23.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "progress-0718": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Code+Name+Ginger%22%29+AND+creator%3A%28%22Kemper%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:42:53.792Z",
+      "file": "data/top500_261024/raw/archive-progress-0718.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "q0347": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Breath+from+Salt%22%29+AND+creator%3A%28%22Trivedi%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:43:03.801Z",
+      "file": "data/top500_261024/raw/archive-q0347.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "g0262": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Innovating+Out+of+Crisis%22%29+AND+creator%3A%28%22Komori%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:43:13.810Z",
+      "file": "data/top500_261024/raw/archive-g0262.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "g1214": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Little+Book+of+Common+Sense+Investing%22%29+AND+creator%3A%28%22Bogle%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:43:23.816Z",
+      "file": "data/top500_261024/raw/archive-g1214.json",
+      "status": 200,
+      "found": 4,
+      "done": true
+    },
+    "q0192": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Strangers+and+Intimates%22%29+AND+creator%3A%28%22Jenkins%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:43:33.825Z",
+      "file": "data/top500_261024/raw/archive-q0192.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "g0642": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Sustainable+Materials+With+Both+Eyes+Open%22%29+AND+creator%3A%28%22Allwood%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:43:43.831Z",
+      "file": "data/top500_261024/raw/archive-g0642.json",
+      "status": 200,
+      "found": 1,
+      "reference": {
+        "pages": 9,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 357,
+            "end": 365,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (pages 357-365",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:9781906860059",
+          "title": "Sustainable materials with both eyes open",
+          "author": "Allwood, Julian M",
+          "year": "2012",
+          "language": "eng",
+          "isbn": [
+            "9781906860059",
+            "190686005X",
+            "9781906860073",
+            "1906860076"
+          ]
+        },
+        "url": "https://archive.org/details/sustainablemater0000allw",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Sustainable+Materials+With+Both+Eyes+Open%22%29+AND+creator%3A%28%22Allwood%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-g0642.json",
+          "retrieved": "2026-10-24T11:43:43.831Z",
+          "evidence": "373 pages : 23 cm\nThis is a follow-up book to the author's Sustainable Energy Without the Hot Air, which had a large influence on both government policy and public opinion of how we should plan our energy for the future. This book faces up to the impacts of making materials in the 21st century. We are already making materials well, but demand keeps growing and we need to plan for a sustainable material future. The steel and aluminium industries alone account for nearly 30 per cent of global emissions, and demand is rising. The world target is to reduce industry's carbon emissions by 50 per cent by 2050. However, projections are that world demand for materials will double by 2050, so to meet our emissions target, we have to achieve a 4-fold reduction in emissions per unit of material used: industry will have to make huge changes, not just to the processes involved, but to the entire product life-cycle. This book presents a vision of change for how future generations can still use steel, cement, plastics etc., but with less impact on the environment. First it is a wake-up call, then it is a solutions manual. The solutions presented here are ahead of the game now. By providing an evidence-based vision of change, this book can play a significant role in influencing our energy future\nIncludes bibliographical references (pages 357-365) and index\nThe World of Materials. Material wealth and health ; Scale, uncertainty and estimation ; Our uses of steel and aluminum ; Metal journeys ; Energy and emissions ; Where does the money go? . -- With One Eye Open. Energy efficiency ; Opportunities for capturing heat ; Novel process routes ; Carbon sequestration ; Future energy use and emissions. -- With Both Eyes Open. Using less metal by design ; Reducing yield losses ; Diverting manufacturing scrap ; Re-using metal components ; Longer life products ; Reducing final demand ; Options for change ; Future energy use and emissions. -- Other Materials. Cement ; Plastic ; Paper. -- Creating a Sustainable Material Future. Business activity evaluation ; The influence of policy ; The actions of individuals"
+        },
+        "sameEditionAsPG": true,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "g0617": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Nature+via+Nurture+%28also+The+Agile+Gene%29%22%29+AND+creator%3A%28%22Ridley%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:43:53.841Z",
+      "file": "data/top500_261024/raw/archive-g0617.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "nb298658135": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Love+and+Math%22%29+AND+creator%3A%28%22Frenkel%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:44:03.848Z",
+      "file": "data/top500_261024/raw/archive-nb298658135.json",
+      "status": 200,
+      "found": 1,
+      "reference": {
+        "pages": 36,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 247,
+            "end": 282,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (pages 247-282",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:0465064957",
+          "title": "Love and math : the heart of hidden reality",
+          "author": "Frenkel, Edward, 1968- author",
+          "year": "2014",
+          "language": "eng",
+          "isbn": [
+            "0465064957",
+            "9780465064953",
+            "9780465069958"
+          ]
+        },
+        "url": "https://archive.org/details/lovemathheartofh0000fren_e4w3",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Love+and+Math%22%29+AND+creator%3A%28%22Frenkel%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-nb298658135.json",
+          "retrieved": "2026-10-24T11:44:03.848Z",
+          "evidence": "292 pages : 21 cm\n\"Love and Math tells the two intertwined stories of mathematics and the adventure of one man in learning it. The result is a story about how he became one of the twenty-first century's leading mathematicians, working on one of the biggest ideas to come out of mathematics in the last 50 years: the Langlands Program. As Frenkel proves, a mathematical formula can be as elegant and beautiful as a painting, a poem, or a piece of music. And the process of creating new mathematics is just that, an artistic pursuit--a deeply personal experience, which requires passion, dedication, and love. In Love and Math, Frenkel shows readers the aesthetic--and the truly powerful--side of mathematics, and enables appreciation of the field even from those who have long been terrified by it.\"--\nIncludes bibliographical references (pages 247-282) and index\nA guide for the reader -- A mysterious beast -- The essence of symmetry -- The fifth problem -- Kerosinka -- Threads of the solution -- Apprentice mathematician -- The Grand Unified Theory -- Magic numbers -- Rosetta stone -- Being in the loop -- Conquering the summit -- Tree of knowledge -- Harvard calling -- Tying the sheaves of wisdom -- A delicate dance -- Quantum Duality -- Uncovering hidden connections -- Searching for the formula for love"
+        },
+        "sameEditionAsPG": true,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "n135e62ec09": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Prime+Obsession%22%29+AND+creator%3A%28%22Derbyshire%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:44:13.859Z",
+      "file": "data/top500_261024/raw/archive-n135e62ec09.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "progress-0062": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Iron%2C+Steam+%26+Money%22%29+AND+creator%3A%28%22Osborne%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:44:23.868Z",
+      "file": "data/top500_261024/raw/archive-progress-0062.json",
+      "status": 200,
+      "found": 2,
+      "reference": {
+        "pages": 8,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 366,
+            "end": 373,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (pages 366-373",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:9781847921895",
+          "title": "Iron, steam & money : the making of the industrial revolution",
+          "author": "Osborne, Roger, 1954-",
+          "year": "2013",
+          "language": "eng",
+          "isbn": [
+            "9781847921895",
+            "1847921892"
+          ]
+        },
+        "url": "https://archive.org/details/ironsteammoneyma0000roge",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Iron%2C+Steam+%26+Money%22%29+AND+creator%3A%28%22Osborne%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-progress-0062.json",
+          "retrieved": "2026-10-24T11:44:23.868Z",
+          "evidence": "vi, 392 p. : 24 cm\nIn late eighteenth-century Britain a handful of men brought about the greatest transformation in human history. Inventors, industrialists and entrepreneurs ushered in the age of powered machinery and the factory, and thereby changed the whole of human society, bringing into being new methods of social and economic organisation, new social classes, and new political forces. The Industrial Revolution also dramatically altered humanity's relation to the natural world and embedded the belief that change, not stasis, is the necessary backdrop for human existence. Iron, Steam and Money tells the thrilling story of those few decades, the moments of inspiration, the rivalries, skulduggery and death threats, and the tireless perseverance of the visionaries who made it all happen. Richard Arkwright, James Watt, Richard Trevithick and Josiah Wedgwood are among the giants whose achievements and tragedies fill these pages. In this authoritative study Roger Osborne also shows how and why the revolution happened, revealing pre-industrial Britain as a surprisingly affluent society, with wealth spread widely through the population, and with craft industries in every town, village and front parlour. The combination of disposable income, widespread demand for industrial goods, and a generation of time-served artisans created the unique conditions that propelled humanity into the modern world. The industrial revolution was arguably the most important episode in modern human history; Iron, Steam and Money reminds us of its central role, while showing the extraordinary excitement of those tumultuous decades\nIncludes bibliographical references (pages 366-373) and index\nPart I, Invention -- Part II, Coal -- Part III, Power -- Part IV, Cotton -- Part V, Iron -- Part VI, Transport -- Part VII, Money -- Part VIII, Work"
+        },
+        "sameEditionAsPG": false,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "progress-0384": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Future+Perfect%22%29+AND+creator%3A%28%22Johnson%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:44:33.868Z",
+      "file": "data/top500_261024/raw/archive-progress-0384.json",
+      "status": 200,
+      "found": 4,
+      "reference": {
+        "pages": 7,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 219,
+            "end": 225,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (p. 219-225",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:9781594488207",
+          "title": "Future perfect : the case for progress in a networked age",
+          "author": "Johnson, Steven, 1968-",
+          "year": "2012",
+          "language": "eng",
+          "isbn": [
+            "9781594488207",
+            "1594488207"
+          ]
+        },
+        "url": "https://archive.org/details/futureperfectcas0000john",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Future+Perfect%22%29+AND+creator%3A%28%22Johnson%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-progress-0384.json",
+          "retrieved": "2026-10-24T11:44:33.868Z",
+          "evidence": "xxxvii, 233 p. ; 22 cm\nPresents an optimistic assessment of how a technologically connected world can enable a better if different future, outlining a rising model of political change that breaks traditional categories of thinking and enables positive solutions\nIncludes bibliographical references (p. 219-225) and index"
+        },
+        "sameEditionAsPG": false,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "g0850": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Models.+Behaving.+Badly.%22%29+AND+creator%3A%28%22Derman%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:44:43.868Z",
+      "file": "data/top500_261024/raw/archive-g0850.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "n17ad18ba21": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Music+and+the+Making+of+Modern+Science%22%29+AND+creator%3A%28%22Pesic%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:44:53.876Z",
+      "file": "data/top500_261024/raw/archive-n17ad18ba21.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "intake-0584": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Just+for+Fun%22%29+AND+creator%3A%28%22Torvalds%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:45:03.883Z",
+      "file": "data/top500_261024/raw/archive-intake-0584.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "g0629": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Plentiful+Energy%22%29+AND+creator%3A%28%22Till%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:45:13.890Z",
+      "file": "data/top500_261024/raw/archive-g0629.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "q0129": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Inward+Bound%22%29+AND+creator%3A%28%22Pais%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:45:23.902Z",
+      "file": "data/top500_261024/raw/archive-q0129.json",
+      "status": 200,
+      "found": 2,
+      "done": true
+    },
+    "intake-0825": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22e%22%29+AND+creator%3A%28%22Maor%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:45:33.910Z",
+      "file": "data/top500_261024/raw/archive-intake-0825.json",
+      "status": 200,
+      "found": 5,
+      "reference": {
+        "pages": 3,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 213,
+            "end": 215,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (p. [213]-215",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:0691033900",
+          "title": "E : the story of a number",
+          "author": "Maor, Eli",
+          "year": "1994",
+          "language": "eng",
+          "isbn": [
+            "0691033900"
+          ]
+        },
+        "url": "https://archive.org/details/estoryofnumber0000maor",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22e%22%29+AND+creator%3A%28%22Maor%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-intake-0825.json",
+          "retrieved": "2026-10-24T11:45:33.910Z",
+          "evidence": "xiv, 223 p. : 25 cm\nIncludes bibliographical references (p. [213]-215) and index\n500002829\n94 12 16"
+        },
+        "sameEditionAsPG": false,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "bg0cdd5d067e": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Berkshire+Hathaway+Letters+to+Shareholders%22%29+AND+creator%3A%28%22Buffett%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:45:43.918Z",
+      "file": "data/top500_261024/raw/archive-bg0cdd5d067e.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "nf427e62692": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Innumeracy%22%29+AND+creator%3A%28%22Paulos%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:45:53.930Z",
+      "file": "data/top500_261024/raw/archive-nf427e62692.json",
+      "status": 200,
+      "found": 7,
+      "done": true
+    },
+    "q0093": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Party%22%29+AND+creator%3A%28%22McGregor%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:46:03.932Z",
+      "file": "data/top500_261024/raw/archive-q0093.json",
+      "status": 200,
+      "found": 5,
+      "done": true
+    },
+    "g1138": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Secrets+of+Sand+Hill+Road%22%29+AND+creator%3A%28%22Kupor%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:46:13.942Z",
+      "file": "data/top500_261024/raw/archive-g1138.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "intake-0034": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Sweating+Bullets%22%29+AND+creator%3A%28%22Gaskins%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:46:23.950Z",
+      "file": "data/top500_261024/raw/archive-intake-0034.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "naef7c41178": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+4%25+Universe%22%29+AND+creator%3A%28%22Panek%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:46:33.959Z",
+      "file": "data/top500_261024/raw/archive-naef7c41178.json",
+      "status": 200,
+      "found": 1,
+      "done": true
+    },
+    "rem-u0281": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Code+of+Capital%22%29+AND+creator%3A%28%22Pistor%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:46:43.967Z",
+      "file": "data/top500_261024/raw/archive-rem-u0281.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "intake-0311": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Elixir%22%29+AND+creator%3A%28%22Fagan%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:46:53.976Z",
+      "file": "data/top500_261024/raw/archive-intake-0311.json",
+      "status": 200,
+      "found": 1,
+      "reference": {
+        "pages": 19,
+        "confidence": "moderate",
+        "ranges": [
+          {
+            "start": 351,
+            "end": 369,
+            "label": "bibliographical references",
+            "evidence": "bibliographical references (p. [351]-369",
+            "method": "catalogued-range"
+          }
+        ],
+        "method": "catalogued-reference-ranges",
+        "edition": {
+          "id": "ISBN:9781608190034",
+          "title": "Elixir : a history of water and humankind",
+          "author": "Fagan, Brian M",
+          "year": "2011",
+          "language": "eng",
+          "isbn": [
+            "9781608190034",
+            "160819003X"
+          ]
+        },
+        "url": "https://archive.org/details/elixirhistoryofw0000faga_y1r7",
+        "source": {
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Elixir%22%29+AND+creator%3A%28%22Fagan%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+          "file": "data/top500_261024/raw/archive-intake-0311.json",
+          "retrieved": "2026-10-24T11:46:53.976Z",
+          "evidence": "xxvii, 384 p. : 25 cm\nIncludes bibliographical references (p. [351]-369) and index"
+        },
+        "sameEditionAsPG": false,
+        "limitation": "Library metadata explicitly states the reference range. Only documented ranges are counted; unlisted notes may remain uncounted. Reference and total-page editions may differ."
+      },
+      "done": true
+    },
+    "q0206": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Half+Lives%22%29+AND+creator%3A%28%22Santos%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:47:03.983Z",
+      "file": "data/top500_261024/raw/archive-q0206.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "q0429": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Address+Book%22%29+AND+creator%3A%28%22Mask%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:47:13.991Z",
+      "file": "data/top500_261024/raw/archive-q0429.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "nc97887258a": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Fundamentals%22%29+AND+creator%3A%28%22Wilczek%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:47:23.997Z",
+      "file": "data/top500_261024/raw/archive-nc97887258a.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    },
+    "ncaa247ed7e": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22The+Joy+of+X%22%29+AND+creator%3A%28%22Strogatz%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:47:34.008Z",
+      "file": "data/top500_261024/raw/archive-ncaa247ed7e.json",
+      "status": 200,
+      "found": 3,
+      "done": true
+    },
+    "bg7bdb79df18": {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Under+a+White+Sky%22%29+AND+creator%3A%28%22Kolbert%22%29+AND+mediatype%3Atexts&output=json&rows=12&fl%5B%5D=identifier%2Ctitle%2Ccreator%2Cdescription%2Clanguage%2Cisbn%2Cdate",
+      "retrieved": "2026-10-24T11:47:44.018Z",
+      "file": "data/top500_261024/raw/archive-bg7bdb79df18.json",
+      "status": 200,
+      "found": 0,
+      "done": true
+    }
+  },
+  "intervalMs": 10000,
+  "lastRequest": 1792842464018
+}

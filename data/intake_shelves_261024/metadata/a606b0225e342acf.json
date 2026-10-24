@@ -1,0 +1,112 @@
+{
+  "title": "Vaxxers",
+  "author": "Sarah Gilbert",
+  "url": "https://openlibrary.org/search.json?title=Vaxxers&author=Sarah%20Gilbert&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:43:16.245Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Sarah Gilbert",
+          "Dr. Catherine Green"
+        ],
+        "first_publish_year": 2022,
+        "isbn": [
+          "9781529369854",
+          "1529369851"
+        ],
+        "key": "/works/OL24723068W",
+        "title": "Vaxxers",
+        "subject": [
+          "Public health",
+          "COVID-19 (Disease)",
+          "Vaccination",
+          "Viral vaccines",
+          "Research",
+          "Vaccines",
+          "University of Oxford",
+          "Edward Jenner Institute for Vaccine Research",
+          "AstraZeneca (Firm)"
+        ]
+      },
+      {
+        "author_name": [
+          "Sarah Gilbert",
+          "Catherine Green"
+        ],
+        "first_publish_year": 2022,
+        "isbn": [
+          "1529369886",
+          "9781529369878",
+          "1529369878",
+          "9781529369885"
+        ],
+        "key": "/works/OL24723070W",
+        "language": [
+          "eng"
+        ],
+        "title": "Vaxxers",
+        "subject": [
+          "Public health"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Vaxxers",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL840931A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL9322084A"
+        }
+      }
+    ],
+    "covers": [
+      11452580
+    ],
+    "key": "/works/OL24723068W",
+    "subjects": [
+      "Public health",
+      "COVID-19 (Disease)",
+      "Vaccination",
+      "Viral vaccines",
+      "Research",
+      "Vaccines",
+      "University of Oxford",
+      "Edward Jenner Institute for Vaccine Research",
+      "AstraZeneca (Firm)"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-07-18T12:26:11.767796"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-12T15:08:11.956952"
+    }
+  }
+}

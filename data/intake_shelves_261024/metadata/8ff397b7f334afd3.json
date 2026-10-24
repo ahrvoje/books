@@ -1,0 +1,82 @@
+{
+  "title": "The Minimalist Entrepreneur",
+  "author": "Sahil Lavingia",
+  "url": "https://openlibrary.org/search.json?title=The%20Minimalist%20Entrepreneur&author=Sahil%20Lavingia&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:22:09.525Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Sahil Lavingia"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "9780349431406",
+          "0593192397",
+          "9780349431383",
+          "0349431388",
+          "034943140X",
+          "9780593192399"
+        ],
+        "key": "/works/OL24326694W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Minimalist Entrepreneur",
+        "subject": [
+          "Economics"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The Minimalist Entrepreneur",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL9150839A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "covers": [
+      10846857
+    ],
+    "key": "/works/OL24326694W",
+    "links": [
+      {
+        "title": "Website",
+        "url": "https://www.minimalistentrepreneur.com/",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "subjects": [
+      "Economics"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-04-11T22:21:49.745048"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-22T04:20:32.210614"
+    }
+  }
+}

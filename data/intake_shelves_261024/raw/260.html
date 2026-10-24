@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="generator" content="Hugo 0.121.2"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>Bookshelves&nbsp;&ndash;&nbsp;CK&#39;s Tech Blog</title><link rel="stylesheet" href="/css/core.min.4bd31accfc196b333ac497cb347b6a8429062756df3c8ec1db7a7e9b9dc083ebfdab7a31b8a1535950098f9cd2e1d7c8.css" integrity="sha384-S9MazPwZazM6xJfLNHtqhCkGJ1bfPI7B23p&#43;m53Ag&#43;v9q3oxuKFTWVAJj5zS4dfI"><link rel="alternate" type="application/rss+xml" href="/bookshelf/index.xml" title="CK's Tech Blog" /><link rel="stylesheet" href="/static/css/style.css">
+
+
+</head>
+<body>
+    <div class="base-body"><section id="header" class="site header max-body-width">
+    <div class="header wrap">
+        <div class="header left-side" style="padding-top: -10px">
+            <div>
+            <a class="site home" href="/"><span class="site name">CK's Tech Blog</span>
+            </a>
+            </div>
+            <div>&nbsp;</div>
+        </div>
+        <div class="header right-side"><div class="nav wrap">
+<nav class="nav"><a class="nav item" href="/tags/">Tags</a><a class="nav item" href="/bookshelf/">Bookshelf</a><a class="nav item" href="/snippets/">Snippets</a><a class="nav item" href="/articles/">Articles</a><a class="nav item" href="/links/">Links</a><a class="nav item" href="/papers/">Papers</a><a class="nav item" href="/bookmarks/">Bookmarks</a></nav>
+</div>
+
+<div id="search_app" v-cloak>
+    <div class="search search-container">
+        <input type="text" placeholder="Search"
+            v-model="searchTerm"
+            class="search search-input" />
+        <div v-show="showDropdown" class="search search-results">
+            <div v-for="(item, i) in searchResults" :key="i"
+                class="search search-result">
+                <div class="search search-result-title">
+                    <a v-bind:href="item.url">[[item.title]]</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div></div>
+    </div></section><div id="content" class="max-body-width"><style type="text/css">
+
+.w-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px
+}
+
+.w-container:before,
+.w-container:after {
+    content: " ";
+    display: table;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2
+}
+
+.w-container:after {
+    clear: both
+}
+
+.w-container .w-row {
+    margin-left: -10px;
+    margin-right: -10px
+}
+
+.w-row:before,
+.w-row:after {
+    content: " ";
+    display: table;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2
+}
+
+.w-row:after {
+    clear: both
+}
+
+.w-row .w-row {
+    margin-left: 0;
+    margin-right: 0
+}
+
+.w-col {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.w-col .w-col {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.w-col-1 {
+    width: 8.33333333%
+}
+
+.w-col-2 {
+    width: 16.66666667%
+}
+
+.w-col-3 {
+    width: 25%
+}
+
+.w-col-4 {
+    width: 33.33333333%
+}
+
+.w-col-5 {
+    width: 41.66666667%
+}
+
+.w-col-6 {
+    width: 50%
+}
+
+.w-col-7 {
+    width: 58.33333333%
+}
+
+.w-col-8 {
+    width: 66.66666667%
+}
+
+.w-col-9 {
+    width: 75%
+}
+
+.w-col-10 {
+    width: 83.33333333%
+}
+
+.w-col-11 {
+    width: 91.66666667%
+}
+
+.w-col-12 {
+    width: 100%
+}
+
+.w-hidden-main {
+    display: none !important
+}
+
+@media screen and (max-width:991px) {
+    .w-container {
+        max-width: 728px
+    }
+    .w-hidden-main {
+        display: inherit !important
+    }
+    .w-hidden-medium {
+        display: none !important
+    }
+    .w-col-medium-1 {
+        width: 8.33333333%
+    }
+    .w-col-medium-2 {
+        width: 16.66666667%
+    }
+    .w-col-medium-3 {
+        width: 25%
+    }
+    .w-col-medium-4 {
+        width: 33.33333333%
+    }
+    .w-col-medium-5 {
+        width: 41.66666667%
+    }
+    .w-col-medium-6 {
+        width: 50%
+    }
+    .w-col-medium-7 {
+        width: 58.33333333%
+    }
+    .w-col-medium-8 {
+        width: 66.66666667%
+    }
+    .w-col-medium-9 {
+        width: 75%
+    }
+    .w-col-medium-10 {
+        width: 83.33333333%
+    }
+    .w-col-medium-11 {
+        width: 91.66666667%
+    }
+    .w-col-medium-12 {
+        width: 100%
+    }
+    .w-col-stack {
+        width: 100%;
+        left: auto;
+        right: auto
+    }
+}
+
+@media screen and (max-width:767px) {
+    .w-hidden-main {
+        display: inherit !important
+    }
+    .w-hidden-medium {
+        display: inherit !important
+    }
+    .w-hidden-small {
+        display: none !important
+    }
+    .w-row,
+    .w-container .w-row {
+        margin-left: 0;
+        margin-right: 0
+    }
+    .w-col {
+        width: 100%;
+        left: auto;
+        right: auto
+    }
+    .w-col-small-1 {
+        width: 8.33333333%
+    }
+    .w-col-small-2 {
+        width: 16.66666667%
+    }
+    .w-col-small-3 {
+        width: 25%
+    }
+    .w-col-small-4 {
+        width: 33.33333333%
+    }
+    .w-col-small-5 {
+        width: 41.66666667%
+    }
+    .w-col-small-6 {
+        width: 50%
+    }
+    .w-col-small-7 {
+        width: 58.33333333%
+    }
+    .w-col-small-8 {
+        width: 66.66666667%
+    }
+    .w-col-small-9 {
+        width: 75%
+    }
+    .w-col-small-10 {
+        width: 83.33333333%
+    }
+    .w-col-small-11 {
+        width: 91.66666667%
+    }
+    .w-col-small-12 {
+        width: 100%
+    }
+}
+
+@media screen and (max-width:479px) {
+    .w-container {
+        max-width: none
+    }
+    .w-hidden-main {
+        display: inherit !important
+    }
+    .w-hidden-medium {
+        display: inherit !important
+    }
+    .w-hidden-small {
+        display: inherit !important
+    }
+    .w-hidden-tiny {
+        display: none !important
+    }
+    .w-col {
+        width: 100%
+    }
+    .w-col-tiny-1 {
+        width: 8.33333333%
+    }
+    .w-col-tiny-2 {
+        width: 16.66666667%
+    }
+    .w-col-tiny-3 {
+        width: 25%
+    }
+    .w-col-tiny-4 {
+        width: 33.33333333%
+    }
+    .w-col-tiny-5 {
+        width: 41.66666667%
+    }
+    .w-col-tiny-6 {
+        width: 50%
+    }
+    .w-col-tiny-7 {
+        width: 58.33333333%
+    }
+    .w-col-tiny-8 {
+        width: 66.66666667%
+    }
+    .w-col-tiny-9 {
+        width: 75%
+    }
+    .w-col-tiny-10 {
+        width: 83.33333333%
+    }
+    .w-col-tiny-11 {
+        width: 91.66666667%
+    }
+    .w-col-tiny-12 {
+        width: 100%
+    }
+}
+
+
+ 
+
+
+.collection-list-wrapper {
+  width: auto;
+}
+
+.div-book-notes {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.book-notes-title {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  clear: none;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  font-family: 'Equity text a', sans-serif;
+  color: #4e4e4e;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.paragraph-author {
+  margin-top: -1px;
+  font-family: 'Equity text a', sans-serif;
+  color: #4e4e4e;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.collection-item {
+  max-width: 250px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 0px;
+}
+
+.image {
+  max-width: 100%;
+  border-radius: 0px;
+  -webkit-transition: box-shadow 175ms ease;
+  transition: box-shadow 175ms ease;
+}
+
+.image:hover {
+  border: 1px none #cecece;
+  box-shadow: 0 0 20px 1px #4e4e4e;
+}
+
+.collection-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+   
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+</style>
+
+<div class="container-main-body w-container">
+<div class="div-large">
+<div class="collection-list-wrapper w-dyn-list">
+
+
+
+   
+    <h2>Timeless</h2>
+   <div class="collection-list w-dyn-items w-row">
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="/bookshelf/the-mythical-man-month/" class="book-note-link w-inline-block" ><img height="225" src="/static/books/the_mythical_man_month_0201835959.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">The Mythical Man-Month</h1>
+            <p class="paragraph-author">Frederick P. Brooks Jr.</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Peopleware-Productive-Projects-Teams-3rd/dp/0321934113/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/peopleware_0321934113.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Peopleware: Productive Projects and Teams</h1>
+            <p class="paragraph-author">Tom DeMarco</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/AWK-Programming-Language-Alfred-Aho/dp/020107981X/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/the_awk_programming_language_020107981X.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">The AWK Programming Language</h1>
+            <p class="paragraph-author">Alfred V. Aho</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Little-Schemer-Daniel-P-Friedman/dp/0262560992/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/the_little_schemer_0262560992.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">The Little Schemer</h1>
+            <p class="paragraph-author">Daniel P. Friedman</p>
+         </div>
+      </div>
+      
+   </div>
+   
+    <h2>Computer/Internet History</h2>
+   <div class="collection-list w-dyn-items w-row">
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Dream-Machine-M-Mitchell-Waldrop/dp/1732265119/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/the_dream_machine_1732265119.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">The Dream Machine</h1>
+            <p class="paragraph-author">M. Mitchell Waldrop</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Where-Wizards-Stay-Up-Late/dp/0684832674/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/where_wizards_stay_up_late_0684832674.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Where Wizards Stay Up Late: The Origins Of The Internet</h1>
+            <p class="paragraph-author">Katie Hafner</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/the_soul_of_a_new_machine_0316491977.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">The Soul of A New Machine</h1>
+            <p class="paragraph-author">Tracy Kidder</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Dealers-Lightning-Xerox-PARC-Computer-ebook/dp/B0029PBVCA/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/dealers_of_lightning_B0029PBVCA.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Dealers of Lightning: Xerox PARC and the Dawn of the Computer Age</h1>
+            <p class="paragraph-author">Michael A. Hiltzik</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Hackers-Heroes-Computer-Revolution-Anniversary/dp/B017RV1I3C/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/heroes_of_the_computer_revolution_B017RV1I3C.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Hackers: Heroes of the Computer Revolution</h1>
+            <p class="paragraph-author">Steven Levy</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Man-Future-Visionary-Life-Neumann-ebook/dp/B098TYZN67/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/the_man_from_the_future_B098TYZN67.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">The Man from the Future: The Visionary Ideas of John von Neumann</h1>
+            <p class="paragraph-author">Ananyo Bhattacharya</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Idea-Factory-Great-American-Innovation/dp/0143122797/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/the_idea_factory_0143122797.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">The Idea Factory: Bell Labs and the Great Age of American Innovation</h1>
+            <p class="paragraph-author">Jon Gertner</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/How-Internet-Happened-Netscape-iPhone/dp/1631493078/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/how_the_internet_happened_1631493078.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">How the Internet Happened: From Netscape to the iPhone</h1>
+            <p class="paragraph-author">Brian McCullough</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Just-Fun-Story-Accidental-Revolutionary/dp/0066620732/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/just_for_fun_0066620732.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Just for Fun: The Story of an Accidental Revolutionary</h1>
+            <p class="paragraph-author">Linus Torvalds, David Diamond</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="/bookshelf/masters-of-doom/" class="book-note-link w-inline-block" ><img height="225" src="/static/books/masters_of_doom_0749924896.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Masters of Doom</h1>
+            <p class="paragraph-author">David Kushner</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Woz-Computer-Getting-Apples-Inventor/dp/0755314085" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/i_woz_0755314085.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">I, Woz</h1>
+            <p class="paragraph-author">Steve Wozniak</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Fire-Valley-Michael-Swaine/dp/1937785769" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/fire_in_the_valley_1937785769.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Fire in the Valley: The Birth and Death of the Personal Computer</h1>
+            <p class="paragraph-author">Michael Swaine, Paul Freiberger</p>
+         </div>
+      </div>
+      
+   </div>
+   
+    <h2>Code as Craft</h2>
+   <div class="collection-list w-dyn-items w-row">
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/the_pragmatic_programmer_020161622X.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">The Pragmatic Programmer: From Journeyman to Master</h1>
+            <p class="paragraph-author">Andrew Hunt</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Effective-Engineer-Engineering-Disproportionate-Meaningful/dp/0996128107" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/the_effective_engineer_0996128107.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">The Effective Engineer: How to Leverage Your Efforts In Software Engineering to Make a Disproportionate and Meaningful Impact</h1>
+            <p class="paragraph-author">Edmond Lau</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Passionate-Programmer-Remarkable-Development-Pragmatic/dp/1934356344/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/the_passionate_programmer_1934356344.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">The Passionate Programmer: Creating a Remarkable Career in Software Development</h1>
+            <p class="paragraph-author">Chad Fowler</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Effective-Programming-More-Than-Writing/dp/147830054X/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/effective_programming_147830054X.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Effective Programming: More Than Writing Code</h1>
+            <p class="paragraph-author">Jeff Atwood</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="/bookshelf/joel-on-software/" class="book-note-link w-inline-block" ><img height="225" src="/static/books/joel_on_software_1590593898.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Joel on Software</h1>
+            <p class="paragraph-author">Joel Spolsky</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/clean_code_0132350882.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Clean Code: A Handbook of Agile Software Craftsmanship</h1>
+            <p class="paragraph-author">Robert C. Martin</p>
+         </div>
+      </div>
+      
+   </div>
+   
+    <h2>Software Architecture</h2>
+   <div class="collection-list w-dyn-items w-row">
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/designing_data_intensive_applications_1449373321.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems</h1>
+            <p class="paragraph-author">Martin Kleppmann</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Philosophy-Software-Design-2nd/dp/173210221X/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/a_philosophy_of_software_design_173210221X.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">A Philosophy of Software Design</h1>
+            <p class="paragraph-author">John Ousterhout</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://leanpub.com/software-architecture-for-developers" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/software_architecture_for_developers.png" alt="" class="image"></a>
+            <h1 class="book-notes-title">Software Architecture for Developers: Technical leadership and the balance with agility</h1>
+            <p class="paragraph-author">Simon Brown</p>
+         </div>
+      </div>
+      
+   </div>
+   
+    <h2>Python / Django</h2>
+   <div class="collection-list w-dyn-items w-row">
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://adamchainz.gumroad.com/l/byddx" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/boost_your_django_dx.png" alt="" class="image"></a>
+            <h1 class="book-notes-title">Boost Your Django DX (2022)</h1>
+            <p class="paragraph-author">Adam Johnson</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://adamchainz.gumroad.com/l/suydt" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/speed_up_your_django_tests.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Speed Up Your Django Tests (2020)</h1>
+            <p class="paragraph-author">Adam Johnson</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/High-Performance-Django-Peter-Baumgartner/dp/1508748128/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/high_performance_django_1508748128.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">High Performance Django (2015)</h1>
+            <p class="paragraph-author">Peter Baumgartner</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Python-Tricks-Buffet-Awesome-Features/dp/1775093301/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/python_tricks_1775093301.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Python Tricks: A Buffet of Awesome Python Features (2017)</h1>
+            <p class="paragraph-author">Dan Bader</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://leanpub.com/python201" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/python_201.png" alt="" class="image"></a>
+            <h1 class="book-notes-title">Python 201: Intermediate Python (2018)</h1>
+            <p class="paragraph-author">Michael Driscoll</p>
+         </div>
+      </div>
+      
+   </div>
+   
+    <h2>Infrastructure</h2>
+   <div class="collection-list w-dyn-items w-row">
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Site-Reliability-Engineering-Production-Systems/dp/149192912X/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/site_reliability_engineering_149192912X.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Site Reliability Engineering: How Google Runs Production Systems</h1>
+            <p class="paragraph-author">Niall Richard Murphy</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Site-Reliability-Workbook-Practical-Implement/dp/1492029505/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/the_site_reliability_workbook_1492029505.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">The Site Reliability Workbook: Practical Ways to Implement SRE</h1>
+            <p class="paragraph-author">Betsy Beyer</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Terraform-Running-Writing-Infrastructure-Code/dp/1492046906/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/terraform_up_running_1492046906.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Terraform: Up & Running: Writing Infrastructure as Code</h1>
+            <p class="paragraph-author">Yevgeniy Brikman</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://leanpub.com/antifragilesoftware" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/antifragile_software.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Antifragile Software: Building Adaptable Software with Microservices</h1>
+            <p class="paragraph-author">Russ Miles</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Release-Design-Deploy-Production-Ready-Software/dp/1680502395/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/release_it_1680502395.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Release It!: Design and Deploy Production-Ready Software</h1>
+            <p class="paragraph-author">Michael T. Nygard</p>
+         </div>
+      </div>
+      
+   </div>
+   
+    <h2>Project management</h2>
+   <div class="collection-list w-dyn-items w-row">
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://basecamp.com/books/shapeup" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/shape_up.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Shape Up: Stop running in circles and ship work that matters</h1>
+            <p class="paragraph-author">Ryan Singer</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271951/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/the_goal_0884271951.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">The Goal: A Process of Ongoing Improvement</h1>
+            <p class="paragraph-author">Eliyahu M. Goldratt, Jeff Cox</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/1942788290/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/the_phoenix_project_1942788290.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">The Phoenix Project (A Novel About IT, DevOps, and Helping Your Business Win)</h1>
+            <p class="paragraph-author">Gene Kim</p>
+         </div>
+      </div>
+      
+   </div>
+   
+    <h2>Usability</h2>
+   <div class="collection-list w-dyn-items w-row">
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/dont_make_me_think_0321965515.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability</h1>
+            <p class="paragraph-author">Steve Krug</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/design_of_everyday_things_0465050654.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">The Design Of Everyday Things</h1>
+            <p class="paragraph-author">Don Norman</p>
+         </div>
+      </div>
+      
+   </div>
+   
+    <h2>Nim</h2>
+   <div class="collection-list w-dyn-items w-row">
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Mastering-Nim-complete-programming-language/dp/B0B4R7B9YX/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/mastering_nim_B0B4R7B9YX.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Mastering Nim: A complete guide to the programming language</h1>
+            <p class="paragraph-author">Andreas Rumpf</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Nim-Action-Dominik-Picheta/dp/1617293431/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/nim_in_action_1617293431.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Nim in Action</h1>
+            <p class="paragraph-author">Dominik Picheta</p>
+         </div>
+      </div>
+      
+   </div>
+   
+    <h2>Problem solving</h2>
+   <div class="collection-list w-dyn-items w-row">
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/-/de/dp/0932633161/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/are_your_lights_on_0932633161.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Are Your Lights On?: How to Figure Out What the Problem Really Is</h1>
+            <p class="paragraph-author">Donald C. Gause, Gerald M. Weinberg</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Problem-Solving-101-Simple-People/dp/1591842425/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/problem_solving_101_1591842425.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Problem Solving 101: A Simple Book for Smart People</h1>
+            <p class="paragraph-author">Ken Watanabe</p>
+         </div>
+      </div>
+      
+   </div>
+   
+    <h2>Information Retrieval</h2>
+   <div class="collection-list w-dyn-items w-row">
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Introduction-Information-Retrieval-Christopher-Manning/dp/0521865719/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/introduction_to_information_retrieval_0521865719.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Introduction to Information Retrieval</h1>
+            <p class="paragraph-author">Christopher D. Manning</p>
+         </div>
+      </div>
+      
+   </div>
+   
+    <h2>Algorithms</h2>
+   <div class="collection-list w-dyn-items w-row">
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/grokking_algorithms_1617292230.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People</h1>
+            <p class="paragraph-author">Aditya Bhargava</p>
+         </div>
+      </div>
+      
+      <div class="collection-item w-dyn-item w-col w-col-4">
+         <div class="div-book-notes">
+            <a href="https://www.amazon.com/Algorithms-to-Live-By-audiobook/dp/B01D24NAL6/" class="book-note-link w-inline-block" target="_blank"><img height="225" src="/static/books/algorithms_to_live_by_1627790365.jpg" alt="" class="image"></a>
+            <h1 class="book-notes-title">Algorithms to Live By: The Computer Science of Human Decisions</h1>
+            <p class="paragraph-author">Brian Christian, Tom Griffiths</p>
+         </div>
+      </div>
+      
+   </div>
+   
+
+</div>
+</div>
+</div></div><section id="footer" class="footer max-body-width"><div class="footer-wrap">
+    <p class="copyright">CK's Tech Blog</p>
+    <p class="powerby"><span>Powered by </span><a href="https://gohugo.io"
+        target="_blank">Hugo</a></p>
+</div>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.8/lunr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
+<script src="/static/js/vue_search.js"></script>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+{
+  "title": "An Evil Guest",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=An%20Evil%20Guest&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:36:22.918Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Gene Wolfe"
+        ],
+        "first_publish_year": 2008,
+        "isbn": [
+          "9780765360977",
+          "9781429933537",
+          "0765360977",
+          "0765321343",
+          "1429933534",
+          "9780765321343",
+          "9780765321336",
+          "0765321335"
+        ],
+        "key": "/works/OL14871889W",
+        "language": [
+          "eng"
+        ],
+        "title": "An evil guest",
+        "subject": [
+          "Actresses",
+          "Fiction",
+          "Fiction, horror",
+          "Fiction, science fiction, general",
+          "Fiction, occult & supernatural",
+          "Fiction, mystery & detective, general",
+          "Actresses, fiction",
+          "Private investigators, fiction"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "2008",
+    "title": "An evil guest",
+    "covers": [
+      5358515,
+      6824503,
+      10376010
+    ],
+    "lc_classifications": [
+      "PS3573.O52 E95 2008"
+    ],
+    "key": "/works/OL14871889W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL24856A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "813/.54"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Actresses",
+      "Fiction",
+      "Fiction, horror",
+      "Fiction, science fiction, general",
+      "Fiction, occult & supernatural",
+      "Fiction, mystery & detective, general",
+      "Actresses, fiction",
+      "Private investigators, fiction"
+    ],
+    "genres": [
+      "/tags/OL171T",
+      "/tags/OL179T",
+      "/tags/OL175T"
+    ],
+    "latest_revision": 14,
+    "revision": 14,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-08T01:34:20.099025"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-09-07T13:06:28.664191"
+    }
+  }
+}

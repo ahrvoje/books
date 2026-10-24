@@ -1,0 +1,89 @@
+{
+  "title": "The Barbell Prescription",
+  "author": "Jonathon M. Sullivan",
+  "url": "https://openlibrary.org/search.json?title=The%20Barbell%20Prescription&author=Jonathon%20M.%20Sullivan&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:24.112Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jonathon M Sullivan",
+          "Andy Baker"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "9780982522776",
+          "0982522770"
+        ],
+        "key": "/works/OL20240363W",
+        "title": "The Barbell Prescription",
+        "subject": [
+          "Weight training",
+          "Physical fitness for middle-aged persons",
+          "Physical fitness for older people",
+          "Exercise for middle-aged persons",
+          "Exercise for older people",
+          "Muscle strength",
+          "Aging",
+          "Physiological aspects"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "The Barbell Prescription",
+    "covers": [
+      8895011
+    ],
+    "key": "/works/OL20240363W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7671587A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7671588A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Weight training",
+      "Physical fitness for middle-aged persons",
+      "Physical fitness for older people",
+      "Exercise for middle-aged persons",
+      "Exercise for older people",
+      "Muscle strength",
+      "Aging",
+      "Physiological aspects"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-10-13T08:04:44.830138"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-02-19T06:10:55.199331"
+    }
+  }
+}

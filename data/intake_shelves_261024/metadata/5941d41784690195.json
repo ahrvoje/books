@@ -1,0 +1,77 @@
+{
+  "title": "Building the H-Bomb",
+  "author": "Kenneth W. Ford",
+  "url": "https://openlibrary.org/search.json?title=Building%20the%20H-Bomb&author=Kenneth%20W.%20Ford&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:30:48.880Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Kenneth W. Ford"
+        ],
+        "first_publish_year": 2015,
+        "isbn": [
+          "9814618802",
+          "9789814618809"
+        ],
+        "key": "/works/OL36453518W",
+        "language": [
+          "eng"
+        ],
+        "title": "Building the H Bomb",
+        "subject": [
+          "Hydrogen bomb"
+        ]
+      },
+      {
+        "author_name": [
+          "Kenneth W. Ford"
+        ],
+        "first_publish_year": 2015,
+        "key": "/works/OL43024051W",
+        "language": [
+          "eng"
+        ],
+        "title": "Building the H Bomb, A Personal History"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Building the H Bomb",
+    "subjects": [
+      "Hydrogen bomb"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2685393A"
+        }
+      }
+    ],
+    "key": "/works/OL36453518W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2023-08-17T03:11:48.077653"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-08-17T03:11:48.077653"
+    }
+  }
+}

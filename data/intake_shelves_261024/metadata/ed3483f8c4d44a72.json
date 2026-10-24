@@ -1,0 +1,80 @@
+{
+  "title": "Man on Wire",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Man%20on%20Wire&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:35:59.497Z",
+  "status": 200,
+  "search": {
+    "numFound": 6,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 6,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Philippe Petit"
+        ],
+        "first_publish_year": 2008,
+        "isbn": [
+          "9781628732818",
+          "1628732814"
+        ],
+        "key": "/works/OL25374971W",
+        "language": [
+          "eng"
+        ],
+        "title": "Man on Wire"
+      },
+      {
+        "author_name": [
+          "Philipe Petit"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "9781102794448",
+          "1102794449"
+        ],
+        "key": "/works/OL38246319W",
+        "language": [
+          "eng"
+        ],
+        "title": "Man on Wire"
+      },
+      {
+        "first_publish_year": 2008,
+        "key": "/works/OL33887457W",
+        "title": "Man on Wire"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Man on Wire",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1149207A"
+        }
+      }
+    ],
+    "key": "/works/OL25374971W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-09-29T12:25:10.068324"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-29T12:25:10.068324"
+    }
+  }
+}

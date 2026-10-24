@@ -1,0 +1,3 @@
+import fs from 'node:fs';import {dir,read,write,clean} from './capture.mjs';
+let rows=[];for(const f of fs.readdirSync(dir+'/episodes')){let s=fs.readFileSync(dir+'/episodes/'+f,'utf8');let scripts=[...s.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];for(const m of scripts){try{let j=JSON.parse(m[1]);if(j.description)rows.push({slug:f.replace('.html',''),title:j.name,description:j.description});}catch{}}}write(dir+'/episodes-full.json',rows);console.log(rows.slice(0,2));
+for(const n of [2,3]){let s=fs.readFileSync(dir+'/raw/252-feed'+n+'.html','utf8');write(dir+'/252-comments'+n+'.txt',[...s.matchAll(/<content:encoded><!\[CDATA\[([\s\S]*?)\]\]>/g)].map(m=>clean(m[1])).join('\n\n'));console.log('MR page',n,s.match(/<item>/g)?.length);}

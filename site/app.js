@@ -569,7 +569,7 @@ function showPage(focus = false) {
   $('#book-toolbar').hidden=page!=='books';
   for(const a of $$('[data-page]')){if(a.dataset.page===page)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');}
   $('.skip').href=page==='books'?'#results':'#'+page+'-view';
-  document.title=({books:'Book explorer',vetoed:'Vetoed books',excluded:'Excluded books',sources:'Sources',methodology:'Methodology'})[page]+' — a working library';
+  document.title=({books:'Book Explorer',vetoed:'Vetoed books',excluded:'Excluded books',sources:'Sources',methodology:'Methodology'})[page]+' — a working library';
   if(focus&&!hash.startsWith('method-')){scrollTo(0,0);}
 }
 for(const name of ['books','vetoed','excluded'])$('#nav-'+name+'-count').textContent=DATA[name].length.toLocaleString();

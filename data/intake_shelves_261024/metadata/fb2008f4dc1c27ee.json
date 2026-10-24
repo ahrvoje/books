@@ -1,0 +1,102 @@
+{
+  "title": "Perhaps the Stars",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Perhaps%20the%20Stars&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:25:59.225Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ada Palmer"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "9781786699626",
+          "9781786699596",
+          "9782381630618",
+          "1786699613",
+          "9780765378071",
+          "9781466858770",
+          "0765378078",
+          "9781786699619",
+          "2381630619",
+          "1786699591",
+          "9780765378064",
+          "1786699621",
+          "1786699605",
+          "9781786699602",
+          "076537806X",
+          "146685877X"
+        ],
+        "key": "/works/OL21150097W",
+        "language": [
+          "eng",
+          "fre"
+        ],
+        "title": "Perhaps the Stars",
+        "subject": [
+          "American literature",
+          "series:terra_ignota"
+        ]
+      },
+      {
+        "author_name": [
+          "Robert L. Stearns"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "9781439276983",
+          "1439276986"
+        ],
+        "key": "/works/OL31502835W",
+        "title": "Perhaps A Man Can Change the Stars",
+        "subject": [
+          "Businesspeople, biography"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "Perhaps the Stars",
+    "key": "/works/OL21150097W",
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL7475792A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "American literature",
+      "series:terra_ignota"
+    ],
+    "covers": [
+      11239945,
+      12194941
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-05T15:36:10.899935"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-03-09T13:08:09.355180"
+    }
+  }
+}

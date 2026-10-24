@@ -1,0 +1,42 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Men%2C%20Machines%2C%20and%20Modern%20Times&author=Elting%20E.%20Morison&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-24T09:29:03.453Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Elting E. Morison"
+        ],
+        "edition_key": [
+          "OL53282181M",
+          "OL43149512M",
+          "OL29754097M",
+          "OL27726561M",
+          "OL19323963M"
+        ],
+        "key": "/works/OL8804257W",
+        "title": "Men, machines and modern times"
+      },
+      {
+        "author_name": [
+          "Elting E. Morison",
+          "Rosalind Williams"
+        ],
+        "edition_key": [
+          "OL29310542M"
+        ],
+        "key": "/works/OL21589489W",
+        "title": "Men, Machines, and Modern Times, 50th Anniversary Edition"
+      }
+    ]
+  },
+  "file": "data/top500_261024/raw/5cbfb16e5f801d8d.json"
+}

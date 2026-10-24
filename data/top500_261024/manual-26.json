@@ -1,0 +1,40 @@
+{
+  "progress-0417": {
+    "referenceRecord": {
+      "pages": 20,
+      "confidence": "moderate",
+      "ranges": [
+        {
+          "start": 415,
+          "end": 421,
+          "label": "Explanatory notes",
+          "evidence": "Publisher contents: Explanatory notes 415; Bibliography 422. Visually checked physical PDF page 5.",
+          "method": "contents-boundary"
+        },
+        {
+          "start": 422,
+          "end": 434,
+          "label": "bibliographical references",
+          "evidence": "bibliographical references (p. [422]-434",
+          "method": "catalogued-range"
+        }
+      ],
+      "method": "publisher-contents-and-library-range",
+      "edition": {
+        "id": "ISBN:9780521867092",
+        "title": "The Origin of Species",
+        "author": "Charles Darwin",
+        "year": 2009,
+        "language": "English"
+      },
+      "url": "https://assets.cambridge.org/97805218/67092/frontmatter/9780521867092_frontmatter.pdf",
+      "source": {
+        "file": "data/top500_261024/raw/darwin-front.pdf",
+        "retrieved": "2026-10-24",
+        "evidence": "Publisher contents visually verified in raw/darwin-contents.png. Seven pages of notes plus 13 bibliography pages; the latter also documented by NLM https://www.ncbi.nlm.nih.gov/nlmcatalog/101527081."
+      },
+      "sameEditionAsPG": false,
+      "limitation": "Reference apparatus in the 2009 Endersby scholarly edition, not the 1859 original. Notes span inferred from the next contents boundary; possible trailing blank pages cannot be checked in this preview. Front-matter footnotes are not counted. Total-page edition may differ."
+    }
+  }
+}

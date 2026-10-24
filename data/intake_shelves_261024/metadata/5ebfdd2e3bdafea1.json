@@ -1,0 +1,81 @@
+{
+  "title": "The Meat Racket",
+  "author": "Christopher Leonard",
+  "url": "https://openlibrary.org/search.json?title=The%20Meat%20Racket&author=Christopher%20Leonard&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:30:03.564Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Christopher Leonard"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "9781451645811",
+          "9781451645842",
+          "1451645813",
+          "145164583X",
+          "1451645848",
+          "9781451645835"
+        ],
+        "key": "/works/OL17581342W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Meat Racket",
+        "subject": [
+          "Meat industry and trade",
+          "Investigative reporting",
+          "Tyson (Firm)"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Meat industry and trade",
+      "Investigative reporting",
+      "Tyson (Firm)"
+    ],
+    "key": "/works/OL17581342W",
+    "title": "The Meat Racket",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7354926A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      7863392
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "In The Meat Racket, investigative reporter Christopher Leonard delivers the first-ever account of how a handful of companies have seized the nation's meat supply. He shows how they built a system that puts farmers on the edge of bankruptcy, charges high prices to consumers, and returns the industry to the shape it had in the 1900s before the meat monopolists were broken up. At the dawn of the 21st century, the greatest capitalist country in the world has an oligarchy controlling much of the food we eat and a high-tech sharecropping system to make that possible. These companies are even able to raise meat prices for consumers while pushing down the price they pay to farmers. We know that it takes big companies to bring meat to the American table. What The Meat Racket shows is that this industrial system is rigged against all of us.--From publisher description."
+    },
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2016-10-19T06:04:30.680113"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-10-09T05:22:40.480852"
+    }
+  }
+}

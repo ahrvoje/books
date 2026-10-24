@@ -1,0 +1,116 @@
+{
+  "title": "Man’yoshu",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Man%E2%80%99yoshu&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:36:55.828Z",
+  "status": 200,
+  "search": {
+    "numFound": 307,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 307,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Alexander Vovin"
+        ],
+        "first_publish_year": 2009,
+        "isbn": [
+          "9004284974",
+          "9789004212992",
+          "900421299X",
+          "9789004212794",
+          "9789004431850",
+          "9004345760",
+          "9004322523",
+          "9789004315594",
+          "9004431853",
+          "9789004345768",
+          "9789004284975",
+          "9789004322523",
+          "9004315594",
+          "9004212795"
+        ],
+        "key": "/works/OL20767208W",
+        "language": [
+          "eng"
+        ],
+        "title": "Man'yōshū",
+        "subject": [
+          "Literature, medieval, history and criticism",
+          "Classical literature, history and criticism"
+        ]
+      },
+      {
+        "author_name": [
+          "René Sieffert"
+        ],
+        "first_publish_year": 2003,
+        "isbn": [
+          "2716903352",
+          "2716903387",
+          "9782716903356",
+          "9782716903387"
+        ],
+        "key": "/works/OL9017154W",
+        "language": [
+          "fre"
+        ],
+        "title": "Man.Yôshû",
+        "subject": [
+          "Waka",
+          "Translations into French",
+          "Japanese poetry"
+        ]
+      },
+      {
+        "author_name": [
+          "Senkaku"
+        ],
+        "first_publish_year": 1709,
+        "key": "/works/OL24055518W",
+        "language": [
+          "jpn"
+        ],
+        "title": "Man'yōshū",
+        "subject": [
+          "Japanese poetry"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "Man'yōshū",
+    "key": "/works/OL20767208W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL718600A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Literature, medieval, history and criticism",
+      "Classical literature, history and criticism"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-05-17T21:13:02.234811"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-06-11T01:16:21.738705"
+    }
+  }
+}

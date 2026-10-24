@@ -1,0 +1,42 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Dance%20of%20the%20Photons&author=Anton%20Zeilinger&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-24T09:27:50.580Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Anton Zeilinger"
+        ],
+        "edition_key": [
+          "OL37388210M",
+          "OL46073805M",
+          "OL46064305M",
+          "OL57606196M",
+          "OL23668204M",
+          "OL23687291M"
+        ],
+        "key": "/works/OL9059674W",
+        "title": "Dance of the photons"
+      },
+      {
+        "author_name": [
+          "Anton Zeilinger"
+        ],
+        "edition_key": [
+          "OL24814035M"
+        ],
+        "key": "/works/OL15907387W",
+        "title": "Dance of the photons"
+      }
+    ]
+  },
+  "file": "data/top500_261024/raw/984595eda03abd65.json"
+}

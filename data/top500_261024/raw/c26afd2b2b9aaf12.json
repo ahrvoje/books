@@ -1,0 +1,40 @@
+{
+  "url": "https://openlibrary.org/search.json?title=Empires%20of%20Light&author=Jill%20Jonnes&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-24T09:24:16.588Z",
+  "status": 200,
+  "data": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jill Jonnes"
+        ],
+        "edition_key": [
+          "OL7426028M",
+          "OL7427531M"
+        ],
+        "key": "/works/OL2488115W",
+        "title": "Empires of Light"
+      },
+      {
+        "author_name": [
+          "Jill Jonnes",
+          "Chris Sorensen"
+        ],
+        "edition_key": [
+          "OL40408829M",
+          "OL32641281M"
+        ],
+        "key": "/works/OL24607109W",
+        "title": "Empires of Light"
+      }
+    ]
+  },
+  "file": "data/top500_261024/raw/c26afd2b2b9aaf12.json"
+}

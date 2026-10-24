@@ -1,0 +1,77 @@
+{
+  "title": "Basic Category Theory",
+  "author": "Tom Leinster",
+  "url": "https://openlibrary.org/search.json?title=Basic%20Category%20Theory&author=Tom%20Leinster&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:28:45.234Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Tom Leinster"
+        ],
+        "first_publish_year": 2014,
+        "isbn": [
+          "1107044243",
+          "9781107360068",
+          "1139990535",
+          "9781139990530",
+          "9781107044241",
+          "1107360064"
+        ],
+        "key": "/works/OL17472285W",
+        "language": [
+          "eng"
+        ],
+        "title": "Basic Category Theory",
+        "subject": [
+          "Categories (mathematics)"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Categories (mathematics)"
+    ],
+    "key": "/works/OL17472285W",
+    "title": "Basic Category Theory",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2766641A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      7646746
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"At the heart of this short introduction to category theory is the idea of a universal property, important throughout mathematics. After an introductory chapter giving the basic definitions, separate chapters explain three ways of expressing universal properties: via adjoint functors, representable functors, and limits. A final chapter ties all three together.\"--Provided by publisher"
+    },
+    "latest_revision": 5,
+    "revision": 5,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2016-10-14T11:20:35.089766"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-08-28T00:37:36.142380"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://openlibrary.org/search.json?title=The%20Master%20Algorithm&author=Pedro%20Domingos&fields=key,title,author_name,edition_key&limit=5",
+  "retrieved": "2026-10-24T09:25:16.688Z",
+  "status": 200,
+  "data": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Pedro Domingos"
+        ],
+        "edition_key": [
+          "OL30399717M",
+          "OL27215677M",
+          "OL38807110M",
+          "OL36314700M",
+          "OL33374398M",
+          "OL31906494M",
+          "OL28609830M",
+          "OL27362042M",
+          "OL26883060M"
+        ],
+        "key": "/works/OL19663805W",
+        "title": "The Master Algorithm"
+      }
+    ]
+  },
+  "file": "data/top500_261024/raw/36706ed4f709dc5b.json"
+}

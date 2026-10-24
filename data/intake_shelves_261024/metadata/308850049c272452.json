@@ -1,0 +1,62 @@
+{
+  "title": "Our Cosmic Origins",
+  "author": "Paul Dejillas",
+  "url": "https://openlibrary.org/search.json?title=Our%20Cosmic%20Origins&author=Paul%20Dejillas&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:31:05.066Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Paul Dejillas"
+        ],
+        "first_publish_year": 2017,
+        "isbn": [
+          "9781520874470",
+          "9781546319054",
+          "1520874472",
+          "1546319050"
+        ],
+        "key": "/works/OL29763225W",
+        "language": [
+          "eng"
+        ],
+        "title": "Our Cosmic Origins"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Our Cosmic Origins",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL10940635A"
+        }
+      }
+    ],
+    "key": "/works/OL29763225W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-11-22T06:36:03.287706"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-11-22T06:36:03.287706"
+    }
+  }
+}

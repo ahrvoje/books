@@ -1,0 +1,49 @@
+{
+  "title": "X1, . . . , Xn",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=X1%2C%20.%20.%20.%20%2C%20Xn&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:33:42.277Z",
+  "status": 200,
+  "search": {
+    "numFound": 10,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 10,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Liwen Jin"
+        ],
+        "first_publish_year": 1992,
+        "key": "/works/OL35476777W",
+        "language": [
+          "ger"
+        ],
+        "title": "Infrarot-Spektroskopie am Orientierungsglas Ar1-x(N2)x"
+      },
+      {
+        "isbn": [
+          "8440060815",
+          "9788440060815"
+        ],
+        "key": "/works/OL31813206W",
+        "title": "FUNCION DE UNO, EQUIS, ENE F ( 1.X.N.)"
+      },
+      {
+        "first_publish_year": 2018,
+        "isbn": [
+          "1721289143",
+          "9781721289141"
+        ],
+        "key": "/works/OL40522235W",
+        "language": [
+          "eng"
+        ],
+        "title": "Band-Gap Engineering in Sputter Deposited Amorphous/Microcrystalline Sc(x)Ga(1-x)N"
+      }
+    ]
+  }
+}

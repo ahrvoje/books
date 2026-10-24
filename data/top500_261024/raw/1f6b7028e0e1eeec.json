@@ -1,0 +1,67 @@
+{
+  "url": "https://openlibrary.org/api/books?bibkeys=ISBN:1984899015&jscmd=details&format=json",
+  "retrieved": "2026-10-24T09:23:25.477Z",
+  "status": 200,
+  "data": {
+    "ISBN:1984899015": {
+      "bib_key": "ISBN:1984899015",
+      "info_url": "http://openlibrary.org/books/OL37872610M/Empire_of_Pain",
+      "preview": "noview",
+      "preview_url": "http://openlibrary.org/books/OL37872610M/Empire_of_Pain",
+      "details": {
+        "type": {
+          "key": "/type/edition"
+        },
+        "title": "Empire of Pain",
+        "authors": [
+          {
+            "key": "/authors/OL6511583A",
+            "name": "Patrick Radden Keefe"
+          }
+        ],
+        "publish_date": "Mar 01, 2022",
+        "source_records": [
+          "amazon:1984899015",
+          "bwb:9781984899019",
+          "promise:bwb_daily_pallets_2023-08-02:W8-BCJ-495"
+        ],
+        "publishers": [
+          "Random House LCC US"
+        ],
+        "isbn_10": [
+          "1984899015"
+        ],
+        "isbn_13": [
+          "9781984899019"
+        ],
+        "physical_format": "paperback",
+        "full_title": "Empire of Pain The Secret History of the Sackler Dynasty",
+        "subtitle": "The Secret History of the Sackler Dynasty",
+        "notes": {
+          "type": "/type/text",
+          "value": "Source title: Empire of Pain: The Secret History of the Sackler Dynasty"
+        },
+        "works": [
+          {
+            "key": "/works/OL24218388W"
+          }
+        ],
+        "key": "/books/OL37872610M",
+        "local_id": [
+          "urn:bwbsku:W8-BCJ-495"
+        ],
+        "latest_revision": 5,
+        "revision": 5,
+        "created": {
+          "type": "/type/datetime",
+          "value": "2022-05-14T19:26:58.557215"
+        },
+        "last_modified": {
+          "type": "/type/datetime",
+          "value": "2024-07-16T01:12:27.390763"
+        }
+      }
+    }
+  },
+  "file": "data/top500_261024/raw/1f6b7028e0e1eeec.json"
+}

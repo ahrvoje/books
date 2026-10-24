@@ -1,0 +1,78 @@
+{
+  "title": "Zen Wisdom for the Anxious",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Zen%20Wisdom%20for%20the%20Anxious&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:26:30.918Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Shinsuke Hosokawa",
+          "Ayako Taniyama"
+        ],
+        "first_publish_year": 2020,
+        "isbn": [
+          "9784805315736",
+          "4805315733"
+        ],
+        "key": "/works/OL21895241W",
+        "language": [
+          "eng"
+        ],
+        "title": "Zen Wisdom for the Anxious",
+        "subject": [
+          "Buddhism"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "Zen Wisdom for the Anxious",
+    "key": "/works/OL21895241W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL8366547A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7528024A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Buddhism"
+    ],
+    "covers": [
+      13874202
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-09-01T03:10:15.442176"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-04-09T17:10:03.148823"
+    }
+  }
+}

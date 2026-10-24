@@ -1,0 +1,106 @@
+{
+  "title": "Fields",
+  "author": "Warren Siegel",
+  "url": "https://openlibrary.org/search.json?title=Fields&author=Warren%20Siegel&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:27:18.215Z",
+  "status": 200,
+  "search": {
+    "numFound": 4,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 4,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Warren Siegel"
+        ],
+        "first_publish_year": 1988,
+        "isbn": [
+          "1616100494",
+          "1299672795",
+          "9812798366",
+          "9781616100490",
+          "9789812798367",
+          "9781299672796"
+        ],
+        "key": "/works/OL26731691W",
+        "language": [
+          "eng"
+        ],
+        "title": "Introduction to String Field Theory"
+      },
+      {
+        "author_name": [
+          "Warren Siegel"
+        ],
+        "first_publish_year": 1988,
+        "isbn": [
+          "9789971507312",
+          "9789971507329",
+          "9971507315",
+          "9971507323"
+        ],
+        "key": "/works/OL496227W",
+        "language": [
+          "eng"
+        ],
+        "title": "Introduction to string field thoery",
+        "subject": [
+          "Quantum field theory",
+          "String models",
+          "Field theory (Physics)",
+          "Cosmic physics"
+        ]
+      },
+      {
+        "author_name": [
+          "Warren Siegel"
+        ],
+        "first_publish_year": 1988,
+        "isbn": [
+          "9789971507329",
+          "9971507323"
+        ],
+        "key": "/works/OL496225W",
+        "language": [
+          "eng"
+        ],
+        "title": "Introduction to String Field Theory (Advanced Series in Mathematical Physics)",
+        "subject": [
+          "String models",
+          "Quantum field theory"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Introduction to String Field Theory",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL33024A"
+        }
+      }
+    ],
+    "key": "/works/OL26731691W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-12-29T03:31:20.654992"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-12-29T03:31:20.654992"
+    }
+  }
+}

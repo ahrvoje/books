@@ -1,0 +1,102 @@
+{
+  "title": "The Death of Ivan Ilyich",
+  "author": "Leo Tolstoy",
+  "url": "https://openlibrary.org/search.json?title=The%20Death%20of%20Ivan%20Ilyich&author=Leo%20Tolstoy&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:41:53.739Z",
+  "status": 200,
+  "search": {
+    "numFound": 10,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 10,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Лев Толстой"
+        ],
+        "first_publish_year": 2011,
+        "isbn": [
+          "184749191X",
+          "9781847491916"
+        ],
+        "key": "/works/OL16563010W",
+        "language": [
+          "eng"
+        ],
+        "title": "The death of Ivan Ilyich and The devil"
+      },
+      {
+        "author_name": [
+          "Лев Толстой"
+        ],
+        "first_publish_year": 2013,
+        "isbn": [
+          "9780871404268",
+          "0871404265"
+        ],
+        "key": "/works/OL17578495W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Death of Ivan Ilyich and Confession",
+        "subject": [
+          "Judges",
+          "Fiction",
+          "Fiction, general",
+          "Christian life, fiction",
+          "Russia (federation), fiction",
+          "Families",
+          "Religion",
+          "Spirituality",
+          "Personal narratives"
+        ]
+      },
+      {
+        "author_name": [
+          "Лев Толстой",
+          "David Shaw-Parker"
+        ],
+        "first_publish_year": 2017,
+        "isbn": [
+          "1520067496",
+          "9781520067490"
+        ],
+        "key": "/works/OL24517468W",
+        "title": "The Death of Ivan Ilyich"
+      }
+    ]
+  },
+  "work": {
+    "title": "The death of Ivan Ilyich and The devil",
+    "key": "/works/OL16563010W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL26783A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      11616112
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2012-03-23T06:30:56.415792"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-08-14T00:31:41.109417"
+    }
+  }
+}

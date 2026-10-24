@@ -1,0 +1,117 @@
+{
+  "title": "Hidden Order",
+  "author": "John Holland",
+  "url": "https://openlibrary.org/search.json?title=Hidden%20Order&author=John%20Holland&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:32:17.641Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Holland, John H."
+        ],
+        "first_publish_year": 1995,
+        "isbn": [
+          "9780201407938",
+          "0201442302",
+          "9780201442304",
+          "0201407930"
+        ],
+        "key": "/works/OL2679207W",
+        "language": [
+          "eng"
+        ],
+        "title": "Hidden order",
+        "subject": [
+          "Mathematical models",
+          "Adaptive control systems",
+          "Adaptation (Biology)",
+          "New York Times reviewed"
+        ]
+      },
+      {
+        "author_name": [
+          "John H. Holland"
+        ],
+        "first_publish_year": 1996,
+        "isbn": [
+          "9780201442304",
+          "0201442302"
+        ],
+        "key": "/works/OL7999897W",
+        "language": [
+          "eng"
+        ],
+        "title": "Hidden Order",
+        "subject": [
+          "Mathematical models",
+          "Adaptive control systems",
+          "Adaptation (Biology)"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "first_publish_date": "1995",
+    "title": "Hidden order",
+    "covers": [
+      3808805
+    ],
+    "lc_classifications": [
+      "TJ217 .H64 1995"
+    ],
+    "key": "/works/OL2679207W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL391049A"
+        }
+      }
+    ],
+    "dewey_number": [
+      "003.7"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Mathematical models",
+      "Adaptive control systems",
+      "Adaptation (Biology)",
+      "New York Times reviewed"
+    ],
+    "links": [
+      {
+        "url": "http://www.nytimes.com/1995/10/01/books/a-theory-of-almost-everything.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "\"The father of the field of genetic algorithms, and one of the pioneers of the new science of complexity, Holland has been at the center of the emerging field of complex adaptive systems (cas) since its inception.\".\n\n\"This landmark book offers for the first time a coherent synthesis of this nascent discipline, a summing up which carries on every page the weight of Holland's authority and distinctive point of view. This book emphasizes the search for general principles that govern cas behavior, enlarging on the intuitions of a broad spectrum of scientists, and it includes a computer model that applies to the full range of cas.\n\nHolland concludes with a description of what we might do to enhance our theoretical understanding of cas. He suggests ways in which theory can provide useful guidelines for attacking the perplexing cas problems that stretch our resources and place our world in jeopardy.\"--BOOK JACKET."
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T00:12:38.789985"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-09-08T18:04:24.101747"
+    }
+  }
+}

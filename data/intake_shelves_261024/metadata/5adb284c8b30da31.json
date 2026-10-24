@@ -1,0 +1,80 @@
+{
+  "title": "The Martian/Hail Mary",
+  "author": "Andy Weir",
+  "url": "https://openlibrary.org/search.json?title=The%20Martian%2FHail%20Mary&author=Andy%20Weir&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:40:59.991Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Andy Weir"
+        ],
+        "first_publish_year": 2022,
+        "isbn": [
+          "9781637990520",
+          "1637990529"
+        ],
+        "key": "/works/OL36735881W",
+        "language": [
+          "eng"
+        ],
+        "title": "The Martian / Artemis / Project Hail Mary",
+        "subject": [
+          "Fiction, science fiction, general",
+          "Anthology"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "The Martian / Artemis / Project Hail Mary",
+    "subjects": [
+      "Fiction, science fiction, general",
+      "Anthology"
+    ],
+    "authors": [
+      {
+        "author": {
+          "key": "/authors/OL7234434A"
+        },
+        "type": {
+          "key": "/type/author_role"
+        }
+      }
+    ],
+    "key": "/works/OL36735881W",
+    "identifiers": {
+      "librarything": [
+        "28432112"
+      ]
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "***Project Hail Mary***\r\nRyland Grace is the sole survivor on a desperate, last-chance mission – and if he fails, humanity and the earth itself will perish. Except that right now, he doesn't know that. He can't even remember his own name, let alone the nature of his assignment or how to complete it.\r\n\r\n***Artemis***\r\nJazz Bashara is one of the criminals. She lives in a poor area of Artemis and subsidises her work as a porter with smuggling contraband onto the moon. But it's not enough. So when she's offered the chance to make a lot of money she jumps at it. But though planning a crime in 1/6th gravity may be more fun, it's also a lot more dangerous.\r\n\r\n***The Martian***\r\nIf the oxygenator breaks down, I'll suffocate. If the water reclaimer breaks down, I'll die of thirst. If the hab breaches, I'll just kind of explode. If none of those things happen, I'll eventually run out of food and starve to death."
+    },
+    "genres": [
+      "/tags/OL179T"
+    ],
+    "latest_revision": 4,
+    "revision": 4,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2023-09-17T21:36:13.782046"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-09-01T01:33:56.253676"
+    }
+  }
+}

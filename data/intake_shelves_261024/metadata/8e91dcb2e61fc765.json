@@ -1,0 +1,60 @@
+{
+  "title": "McNamara’s Folly",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=McNamara%E2%80%99s%20Folly&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:33:56.146Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Hamilton Gregory"
+        ],
+        "first_publish_year": 2015,
+        "isbn": [
+          "9781495805486",
+          "1495805484"
+        ],
+        "key": "/works/OL20795589W",
+        "title": "McNamara's Folly"
+      }
+    ]
+  },
+  "work": {
+    "title": "McNamara's Folly",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-05-28T08:50:03.319912"
+    },
+    "covers": [
+      10090503
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-05-28T08:50:03.319912"
+    },
+    "latest_revision": 1,
+    "key": "/works/OL20795589W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL223538A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

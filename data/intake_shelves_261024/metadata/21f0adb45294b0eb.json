@@ -1,0 +1,108 @@
+{
+  "title": "Patriot Game",
+  "author": "Peter Brimelow",
+  "url": "https://openlibrary.org/search.json?title=Patriot%20Game&author=Peter%20Brimelow&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:31:45.885Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Peter Brimelow"
+        ],
+        "first_publish_year": 1986,
+        "isbn": [
+          "9780817986827",
+          "9780817986810",
+          "1550131303",
+          "9781550131307",
+          "0817986820",
+          "1550130013",
+          "9781550130010",
+          "0817986812"
+        ],
+        "key": "/works/OL2465245W",
+        "language": [
+          "eng"
+        ],
+        "title": "The patriot game",
+        "subject": [
+          "Politics and government",
+          "Canada",
+          "English-French relations",
+          "Nationalism",
+          "Liberalism",
+          "Canada, politics and government"
+        ]
+      },
+      {
+        "author_name": [
+          "Peter Brimelow"
+        ],
+        "key": "/works/OL18175296W",
+        "language": [
+          "eng"
+        ],
+        "title": "The patriot game : national dreams & political realities",
+        "subject": [
+          "Liberalism"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "The patriot game",
+    "covers": [
+      768207,
+      4970408
+    ],
+    "subject_places": [
+      "Canada"
+    ],
+    "first_publish_date": "1986",
+    "key": "/works/OL2465245W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL343062A"
+        }
+      }
+    ],
+    "subject_times": [
+      "1980-",
+      "1984-",
+      "1980-1984"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "subjects": [
+      "Politics and government",
+      "Canada",
+      "English-French relations",
+      "Nationalism",
+      "Liberalism",
+      "Canada, politics and government"
+    ],
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-09T23:44:21.872847"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-12-26T12:59:06.530824"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "title": "Red Crosses",
+  "author": "Sasha Filipenko",
+  "url": "https://openlibrary.org/search.json?title=Red%20Crosses&author=Sasha%20Filipenko&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:42:02.319Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Sasha Filipenko"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "9781609456948",
+          "1609456947"
+        ],
+        "key": "/works/OL32103762W",
+        "language": [
+          "eng"
+        ],
+        "title": "Red Crosses / Sasha Filipenko",
+        "subject": [
+          "Apartment houses",
+          "Fiction",
+          "Alzheimer's disease"
+        ]
+      },
+      {
+        "author_name": [
+          "Sasha Filipenko",
+          "Brian James Baer",
+          "Ellen Vayner"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "9781609456931",
+          "1609456939",
+          "1787703142",
+          "9781787703148"
+        ],
+        "key": "/works/OL25334562W",
+        "language": [
+          "eng"
+        ],
+        "title": "Red Crosses",
+        "subject": [
+          "Slavic philology"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Red Crosses / Sasha Filipenko",
+    "subjects": [
+      "Apartment houses",
+      "Fiction",
+      "Alzheimer's disease"
+    ],
+    "subject_places": [
+      "Russia"
+    ],
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7599933A"
+        }
+      }
+    ],
+    "key": "/works/OL32103762W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-12-12T05:16:04.147862"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-12T05:16:04.147862"
+    }
+  }
+}

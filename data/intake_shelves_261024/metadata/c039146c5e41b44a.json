@@ -1,0 +1,131 @@
+{
+  "title": "The Sorcerer’s House",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=The%20Sorcerer%E2%80%99s%20House&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:37:12.511Z",
+  "status": 200,
+  "search": {
+    "numFound": 8,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 8,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Gene Wolfe",
+          "Dirk Berger",
+          "Tim Powers"
+        ],
+        "first_publish_year": 2010,
+        "isbn": [
+          "1848630727",
+          "9781429991773",
+          "076532458X",
+          "9780765324580",
+          "0765324598",
+          "9781848630727",
+          "9780765324597",
+          "1429991771"
+        ],
+        "key": "/works/OL14927781W",
+        "language": [
+          "eng"
+        ],
+        "title": "The sorcerer's house",
+        "subject": [
+          "Magic",
+          "Paranormal fiction",
+          "Ex-convicts",
+          "Fiction",
+          "Abandoned houses",
+          "Supernatural",
+          "Fiction, fantasy, general",
+          "Fiction, occult & supernatural"
+        ]
+      },
+      {
+        "key": "/works/OL34695217W",
+        "title": "The Sorcerer's House"
+      },
+      {
+        "author_name": [
+          "Haldane Macfall"
+        ],
+        "first_publish_year": 1900,
+        "key": "/works/OL2344771W",
+        "language": [
+          "eng"
+        ],
+        "title": "The house of the sorcerer"
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Magic",
+      "Paranormal fiction",
+      "Ex-convicts",
+      "Fiction",
+      "Abandoned houses",
+      "Supernatural",
+      "Fiction, fantasy, general",
+      "Fiction, occult & supernatural"
+    ],
+    "key": "/works/OL14927781W",
+    "title": "The sorcerer's house",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL24856A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7960261A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL40077A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      7106935,
+      9108835,
+      10143665
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "In a novel told entirely through a series of letters, a man inherits a sorcerer's house and is immediately confronted by supernatural and fantastical creatures and events that utterly transform his life."
+    },
+    "genres": [
+      "/tags/OL169T"
+    ],
+    "latest_revision": 16,
+    "revision": 16,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2010-03-12T20:02:39.828799"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-09-02T23:22:05.834356"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+import fs from 'node:fs';import {dir,read,write} from './capture.mjs';
+const jobs=read(dir+'/261-episodes.json');let i=0,done=0;const results=[];
+await Promise.all(Array.from({length:8},async()=>{while(i<jobs.length){const e=jobs[i++],file=dir+'/episodes/'+e.slug+'.html';if(fs.existsSync(file))continue;const url='https://www.founderspodcast.com/episodes/'+e.slug;try{let r=await fetch(url,{signal:AbortSignal.timeout(20000)});write(file,await r.text());results.push({url,status:r.status});}catch(error){results.push({url,error:String(error)});}if(++done%50===0)console.log(done+' new episode pages');}}));write(dir+'/founders-fetch.json',results);

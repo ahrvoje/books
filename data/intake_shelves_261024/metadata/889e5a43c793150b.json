@@ -1,0 +1,87 @@
+{
+  "title": "Kingdom of Characters",
+  "author": "Jing Tsu",
+  "url": "https://openlibrary.org/search.json?title=Kingdom%20of%20Characters&author=Jing%20Tsu&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:35.251Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Jing Tsu"
+        ],
+        "first_publish_year": 2022,
+        "isbn": [
+          "0735214727",
+          "9780735214729",
+          "9780241295854",
+          "0241295858",
+          "9780735214743",
+          "0735214735",
+          "9780735214736",
+          "0735214743",
+          "0241295866",
+          "9787521754858",
+          "9780141985312",
+          "9780241295861",
+          "7521754859",
+          "0141985313"
+        ],
+        "key": "/works/OL25326985W",
+        "language": [
+          "chi",
+          "eng"
+        ],
+        "title": "Kingdom of Characters",
+        "subject": [
+          "Chinese characters",
+          "History",
+          "Chinese language",
+          "Writing",
+          "Modern Chinese"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Kingdom of Characters",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1428289A"
+        }
+      }
+    ],
+    "key": "/works/OL25326985W",
+    "subjects": [
+      "Chinese characters",
+      "History",
+      "Chinese language",
+      "Writing",
+      "Modern Chinese"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-09-28T10:52:14.928083"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-12-12T12:02:48.912524"
+    }
+  }
+}

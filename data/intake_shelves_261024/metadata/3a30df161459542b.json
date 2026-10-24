@@ -1,0 +1,65 @@
+{
+  "title": "Python 201: Intermediate Python (2018)",
+  "author": "Michael Driscoll",
+  "url": "https://openlibrary.org/search.json?title=Python%20201&author=Michael%20Driscoll&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:40:16.563Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Michael Driscoll"
+        ],
+        "first_publish_year": 2016,
+        "isbn": [
+          "9780996062831",
+          "0996062831",
+          "9781717721037",
+          "1717721036"
+        ],
+        "key": "/works/OL21236183W",
+        "language": [
+          "eng"
+        ],
+        "title": "Python 201"
+      }
+    ]
+  },
+  "work": {
+    "title": "Python 201",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-15T01:33:14.078017"
+    },
+    "covers": [
+      10355282
+    ],
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-15T01:33:14.078017"
+    },
+    "latest_revision": 1,
+    "key": "/works/OL21236183W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL4640987A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

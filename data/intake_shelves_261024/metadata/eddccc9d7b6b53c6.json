@@ -1,0 +1,75 @@
+{
+  "title": "What’s in It for Them?",
+  "author": "Joe Polish",
+  "url": "https://openlibrary.org/search.json?title=What%E2%80%99s%20in%20It%20for%20Them%3F&author=Joe%20Polish&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:23:41.174Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Joe Polish"
+        ],
+        "first_publish_year": 2022,
+        "isbn": [
+          "9781837821020",
+          "1401960103",
+          "9781401960100",
+          "183782102X",
+          "9781401975852",
+          "1401975852"
+        ],
+        "key": "/works/OL25924207W",
+        "language": [
+          "eng"
+        ],
+        "title": "What's in It for Them?",
+        "subject": [
+          "Success in business",
+          "Entrepreneurship"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "What's in It for Them?",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7646250A"
+        }
+      }
+    ],
+    "key": "/works/OL25924207W",
+    "covers": [
+      12970968
+    ],
+    "subjects": [
+      "Success in business",
+      "Entrepreneurship"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-10-09T18:50:13.196705"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-06-17T10:54:14.607049"
+    }
+  }
+}

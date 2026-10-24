@@ -1,0 +1,103 @@
+{
+  "title": "Silicon Snake Oil: Second Thoughts on the Information Highway",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Silicon%20Snake%20Oil&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:38:20.186Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Clifford Stoll"
+        ],
+        "first_publish_year": 1995,
+        "isbn": [
+          "9780385419932",
+          "9780785794943",
+          "0385419945",
+          "0785794948",
+          "0385419937",
+          "9780333647875",
+          "0333647874",
+          "9780330344425",
+          "0330344420",
+          "9780385419949"
+        ],
+        "key": "/works/OL3741564W",
+        "language": [
+          "eng"
+        ],
+        "title": "Silicon snake oil",
+        "subject": [
+          "Computers and civilization",
+          "Information technology",
+          "Internet",
+          "Internet (Computer network)",
+          "New York Times reviewed",
+          "Computer Communication Networks",
+          "Computers"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "description": {
+      "type": "/type/text",
+      "value": "Perhaps our networked world isn't a universal doorway to freedom. Might it be a distraction from reality? An ostrich hole to divert our attention and resources from social problems? A misuse of technology that encourages passive rather than active participation? I'm starting to ask questions like this, and I'm not the first. - Preface."
+    },
+    "covers": [
+      3910892,
+      196413
+    ],
+    "key": "/works/OL3741564W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL656669A"
+        }
+      }
+    ],
+    "title": "Silicon snake oil",
+    "subjects": [
+      "Computers and civilization",
+      "Information technology",
+      "Internet",
+      "Internet (Computer network)",
+      "New York Times reviewed",
+      "Computer Communication Networks",
+      "Computers"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "links": [
+      {
+        "url": "http://www.nytimes.com/1995/05/08/books/books-of-the-times-feeling-hornswoggled-by-the-computer-age.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 10,
+    "revision": 10,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T04:21:47.045042"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-05-20T10:40:44.196450"
+    }
+  }
+}

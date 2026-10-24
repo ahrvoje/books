@@ -1,0 +1,68 @@
+{
+  "title": "Islam Explained",
+  "author": "Ahmad Rashid Salim",
+  "url": "https://openlibrary.org/search.json?title=Islam%20Explained&author=Ahmad%20Rashid%20Salim&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:23:07.700Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Ahmad Rashid Salim"
+        ],
+        "first_publish_year": 2020,
+        "isbn": [
+          "1646113233",
+          "1646113241",
+          "9781646113248",
+          "9781646113231"
+        ],
+        "key": "/works/OL27735152W",
+        "language": [
+          "eng"
+        ],
+        "title": "Islam Explained",
+        "subject": [
+          "Religion"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Islam Explained",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL10354128A"
+        }
+      }
+    ],
+    "key": "/works/OL27735152W",
+    "subjects": [
+      "Religion"
+    ],
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-05-07T19:49:58.412470"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2023-08-17T05:21:48.570683"
+    }
+  }
+}

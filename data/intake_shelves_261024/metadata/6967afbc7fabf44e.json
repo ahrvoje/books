@@ -1,0 +1,98 @@
+{
+  "title": "Three Coins in the Fountain",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Three%20Coins%20in%20the%20Fountain&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:34:52.010Z",
+  "status": 200,
+  "search": {
+    "numFound": 3,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Victor Young"
+        ],
+        "first_publish_year": 1954,
+        "key": "/works/OL16877429W",
+        "title": "Three coins in the fountain",
+        "subject": [
+          "Motion picture music",
+          "Popular music",
+          "Scores"
+        ]
+      },
+      {
+        "author_name": [
+          "Catherine Tondelli",
+          "Francesca Maggi"
+        ],
+        "first_publish_year": 2013,
+        "isbn": [
+          "1461128145",
+          "9781461128144"
+        ],
+        "key": "/works/OL20369269W",
+        "title": "Three Coins in the Fountain"
+      },
+      {
+        "first_publish_year": 1999,
+        "isbn": [
+          "0769210112",
+          "9780769210117"
+        ],
+        "key": "/works/OL10961240M",
+        "language": [
+          "eng"
+        ],
+        "title": "Three Coins in the Fountain and 51 Classic Sammy Cahn Songs",
+        "subject": [
+          "General",
+          "Music"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2014-07-25T23:14:09.104641"
+    },
+    "latest_revision": 1,
+    "key": "/works/OL16877429W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7177117A"
+        }
+      }
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2014-07-25T23:14:09.104641"
+    },
+    "title": "Three coins in the fountain",
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Motion picture music",
+      "Popular music",
+      "Scores"
+    ],
+    "subject_times": [
+      "1951-1960"
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

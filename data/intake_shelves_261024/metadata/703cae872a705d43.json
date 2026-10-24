@@ -1,0 +1,104 @@
+{
+  "title": "50 in 50",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=50%20in%2050&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:38:16.201Z",
+  "status": 200,
+  "search": {
+    "numFound": 3959,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 3959,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Adam Fletcher"
+        ],
+        "first_publish_year": 2013,
+        "isbn": [
+          "9783406653643",
+          "3406653642",
+          "9783406656835",
+          "3406656838"
+        ],
+        "key": "/works/OL16807546W",
+        "language": [
+          "ger"
+        ],
+        "title": "Wie man Deutscher wird in 50 einfachen Schritten"
+      },
+      {
+        "author_name": [
+          "Albert Podell"
+        ],
+        "first_publish_year": 2015,
+        "isbn": [
+          "1466852933",
+          "9781250051981",
+          "1250051983",
+          "9781466852938",
+          "9781250094223",
+          "1250094224"
+        ],
+        "key": "/works/OL19998585W",
+        "language": [
+          "eng"
+        ],
+        "title": "Around the world in 50 years",
+        "subject": [
+          "Travel",
+          "Voyages around the world",
+          "TRAVEL / Road Travel",
+          "TRAVEL / Essays & Travelogues",
+          "nyt:expeditions-disasters-and-adventures=2015-04-12",
+          "New York Times bestseller"
+        ]
+      },
+      {
+        "author_name": [
+          "Stefan Baumgartner"
+        ],
+        "first_publish_year": 2020,
+        "isbn": [
+          "9783945749906",
+          "3945749905"
+        ],
+        "key": "/works/OL24230345W",
+        "language": [
+          "eng"
+        ],
+        "title": "TypeScript in 50 Lessons"
+      }
+    ]
+  },
+  "work": {
+    "title": "Wie man Deutscher wird in 50 einfachen Schritten",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2013-10-07T14:50:32.088721"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2013-10-07T14:59:43.535261"
+    },
+    "latest_revision": 3,
+    "key": "/works/OL16807546W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL7171084A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 3
+  }
+}

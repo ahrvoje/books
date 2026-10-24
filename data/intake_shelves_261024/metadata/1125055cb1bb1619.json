@@ -1,0 +1,112 @@
+{
+  "title": "Working",
+  "author": "Robert Caro",
+  "url": "https://openlibrary.org/search.json?title=Working&author=Robert%20Caro&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:30:30.265Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Robert A. Caro"
+        ],
+        "first_publish_year": 2019,
+        "isbn": [
+          "9781473572416",
+          "9780593081914",
+          "9780525656340",
+          "0525656340",
+          "1847926053",
+          "9781529112030",
+          "147357241X",
+          "0593081919",
+          "9781847926050",
+          "1529112036"
+        ],
+        "key": "/works/OL20161697W",
+        "language": [
+          "eng"
+        ],
+        "title": "Working",
+        "subject": [
+          "Journalists, biography",
+          "Authors, biography",
+          "Authorship",
+          "Journalists, united states",
+          "nyt:combined-print-and-e-book-nonfiction=2019-04-28",
+          "New York Times bestseller",
+          "New York Times reviewed",
+          "Journalists",
+          "Biography",
+          "American Authors",
+          "LANGUAGE ARTS & DISCIPLINES / Journalism",
+          "LANGUAGE ARTS & DISCIPLINES / Composition & Creative Writing"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Journalists, biography",
+      "Authors, biography",
+      "Authorship",
+      "Journalists, united states",
+      "nyt:combined-print-and-e-book-nonfiction=2019-04-28",
+      "New York Times bestseller",
+      "New York Times reviewed",
+      "Journalists",
+      "Biography",
+      "American Authors",
+      "LANGUAGE ARTS & DISCIPLINES / Journalism",
+      "LANGUAGE ARTS & DISCIPLINES / Composition & Creative Writing"
+    ],
+    "key": "/works/OL20161697W",
+    "title": "Working",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL797731A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      8807459
+    ],
+    "links": [
+      {
+        "url": "https://www.nytimes.com/2019/04/16/books/review/robert-a-caro-working.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "description": {
+      "type": "/type/text",
+      "value": "Two-time Pulitzer Prize winner Robert Caro gives us a glimpse into his own life and work. He describes what it was like to interview the mighty Robert Moses; what it felt like to begin discovering the extent of the political power Moses wielded; the combination of discouragement and exhilaration he felt confronting the vast holdings of the Lyndon B. Johnson Library in Austin, Texas; his encounters with witnesses, including longtime residents wrenchingly displaced by the construction of Moses' Cross-Bronx Expressway and Lady Bird Johnson acknowledging the beauty and influence of one of LBJ's mistresses. He gratefully remembers how, after years of working in solitude, he found a writers' community at the New York Public Library, and details the ways he goes about planning and composing his books. Caro recalls the moments at which he came to understand that he wanted to write not just about the men who wielded power but about the people and the politics that were shaped by that power. And he talks about the importance to him of the writing itself, of how he tries to infuse it with a sense of place and mood to bring characters and situations to life on the page."
+    },
+    "latest_revision": 7,
+    "revision": 7,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-10-04T19:57:53.451394"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2025-07-14T11:26:27.007261"
+    }
+  }
+}

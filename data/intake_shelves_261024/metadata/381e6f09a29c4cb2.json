@@ -1,0 +1,62 @@
+{
+  "title": "Other Rivers",
+  "author": "Peter Hessler",
+  "url": "https://openlibrary.org/search.json?title=Other%20Rivers&author=Peter%20Hessler&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:00.298Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Peter Hessler"
+        ],
+        "first_publish_year": 2024,
+        "isbn": [
+          "1805462857",
+          "0593655338",
+          "9781805462859",
+          "9780593655337"
+        ],
+        "key": "/works/OL37936742W",
+        "language": [
+          "eng"
+        ],
+        "title": "Other Rivers"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "Other Rivers",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL13636968A"
+        }
+      }
+    ],
+    "key": "/works/OL37936742W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2024-03-17T07:42:05.273519"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2024-03-17T07:42:05.273519"
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "title": "Into the Cool",
+  "author": "Eric Schneider",
+  "url": "https://openlibrary.org/search.json?title=Into%20the%20Cool&author=Eric%20Schneider&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:32:08.966Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Eric D. Schneider"
+        ],
+        "first_publish_year": 2004,
+        "isbn": [
+          "9780226739366",
+          "0226739368"
+        ],
+        "key": "/works/OL5719530W",
+        "language": [
+          "eng"
+        ],
+        "title": "Into the cool",
+        "subject": [
+          "Bioenergetics",
+          "Biological systems",
+          "Biological control systems",
+          "Science, popular works",
+          "Energy Metabolism",
+          "Thermodynamics",
+          "42.10 theoretical biology",
+          "35.12 chemical thermodynamics, phase theory",
+          "Leben",
+          "Hauptsatz der Thermodynamik 2",
+          "Biologisches System",
+          "Kosmologie",
+          "Evolution"
+        ]
+      },
+      {
+        "author_name": [
+          "Eric D. Schneider",
+          "Dorion Sagan"
+        ],
+        "first_publish_year": 2006,
+        "isbn": [
+          "0226739376",
+          "9780226739373"
+        ],
+        "key": "/works/OL21006133W",
+        "language": [
+          "eng"
+        ],
+        "title": "Into the Cool",
+        "subject": [
+          "Bioenergetics"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subjects": [
+      "Bioenergetics",
+      "Biological systems",
+      "Biological control systems",
+      "Science, popular works",
+      "Energy Metabolism",
+      "Thermodynamics",
+      "42.10 theoretical biology",
+      "35.12 chemical thermodynamics, phase theory",
+      "Leben",
+      "Hauptsatz der Thermodynamik 2",
+      "Biologisches System",
+      "Kosmologie",
+      "Evolution"
+    ],
+    "key": "/works/OL5719530W",
+    "title": "Into the cool",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1391032A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      142873
+    ],
+    "latest_revision": 9,
+    "revision": 9,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T11:08:41.793421"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-12-23T08:31:54.615867"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "title": "Cyprus Culture Smart",
+  "author": "Constantine Buhayer",
+  "url": "https://openlibrary.org/search.json?title=Cyprus%20Culture%20Smart&author=Constantine%20Buhayer&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:24:38.217Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Constantine Buhayer"
+        ],
+        "first_publish_year": 2021,
+        "isbn": [
+          "1787022617",
+          "1787022609",
+          "9781787022607",
+          "9781787022614",
+          "9781787022621",
+          "1787022625"
+        ],
+        "key": "/works/OL21914052W",
+        "language": [
+          "eng"
+        ],
+        "title": "Cyprus - Culture Smart!"
+      }
+    ]
+  },
+  "work": {
+    "title": "Cyprus - Culture Smart!",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-09-01T09:37:58.739980"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-09-01T09:37:58.739980"
+    },
+    "latest_revision": 1,
+    "key": "/works/OL21914052W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL3039914A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "revision": 1
+  }
+}

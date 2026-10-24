@@ -1,0 +1,102 @@
+{
+  "title": "The Operator",
+  "author": "Tom King",
+  "url": "https://openlibrary.org/search.json?title=The%20Operator&author=Tom%20King&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:29:59.548Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Tom King",
+          "Thomas R. King"
+        ],
+        "first_publish_year": 2000,
+        "isbn": [
+          "9780679457541",
+          "0679457542",
+          "0767907574",
+          "9780767907576"
+        ],
+        "key": "/works/OL5940946W",
+        "language": [
+          "eng"
+        ],
+        "title": "The operator",
+        "subject": [
+          "Biography",
+          "Motion picture producers and directors",
+          "Executives",
+          "Gay motion picture producers and directors",
+          "Gay men"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subtitle": "David Geffen builds, buys, and sells the new Hollywood",
+    "title": "The operator",
+    "covers": [
+      419169,
+      419170,
+      527963
+    ],
+    "subject_places": [
+      "United States"
+    ],
+    "subjects": [
+      "Biography",
+      "Motion picture producers and directors",
+      "Executives",
+      "Gay motion picture producers and directors",
+      "Gay men"
+    ],
+    "subject_people": [
+      "David Geffen (1943-)",
+      "David Giffen"
+    ],
+    "key": "/works/OL5940946W",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL1472863A"
+        }
+      },
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2853095A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "description": {
+      "type": "/type/text",
+      "value": "A biography of Geffen who founded Gerren Records and the movie studio Dreamworks SKG."
+    },
+    "latest_revision": 11,
+    "revision": 11,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-10T18:13:51.726137"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2026-01-13T02:02:20.241384"
+    }
+  }
+}

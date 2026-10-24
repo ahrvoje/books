@@ -1,0 +1,57 @@
+{
+  "title": "A First Course in Linear Algebra",
+  "author": "Robert A. Beezer",
+  "url": "https://openlibrary.org/search.json?title=A%20First%20Course%20in%20Linear%20Algebra&author=Robert%20A.%20Beezer&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:27:48.275Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Robert A Beezer"
+        ],
+        "first_publish_year": 2012,
+        "isbn": [
+          "9780984417551",
+          "0984417559"
+        ],
+        "key": "/works/OL27819008W",
+        "title": "A First Course in Linear Algebra"
+      }
+    ]
+  },
+  "work": {
+    "type": {
+      "key": "/type/work"
+    },
+    "title": "A First Course in Linear Algebra",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL10382027A"
+        }
+      }
+    ],
+    "key": "/works/OL27819008W",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2022-05-25T21:07:08.383285"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2022-05-25T21:07:08.383285"
+    }
+  }
+}

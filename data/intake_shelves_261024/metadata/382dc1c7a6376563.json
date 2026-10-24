@@ -1,0 +1,89 @@
+{
+  "title": "Disney's Land: Walt Disney and the Invention of the Amusement Park That Changed the World",
+  "author": "Richard Snow",
+  "url": "https://openlibrary.org/search.json?title=Disney's%20Land&author=Richard%20Snow&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:47:22.854Z",
+  "status": 200,
+  "search": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 1,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "Richard Snow"
+        ],
+        "first_publish_year": 2019,
+        "isbn": [
+          "9781501190810",
+          "1501190822",
+          "1501190814",
+          "9781501190803",
+          "9781501190827",
+          "1501190806"
+        ],
+        "key": "/works/OL20641904W",
+        "language": [
+          "eng"
+        ],
+        "title": "Disney's Land",
+        "subject": [
+          "New York Times reviewed",
+          "Disney, walt, 1901-1966",
+          "Disneyland (calif.)",
+          "Architecture, united states"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "subtitle": "Walt Disney and the Invention of the Amusement Park That Changed the World",
+    "key": "/works/OL20641904W",
+    "title": "Disney's Land",
+    "authors": [
+      {
+        "type": {
+          "key": "/type/author_role"
+        },
+        "author": {
+          "key": "/authors/OL2649908A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "covers": [
+      9261108
+    ],
+    "subjects": [
+      "New York Times reviewed",
+      "Disney, walt, 1901-1966",
+      "Disneyland (calif.)",
+      "Architecture, united states"
+    ],
+    "links": [
+      {
+        "url": "https://www.nytimes.com/2019/11/25/books/review/disneys-land-richard-snow-disneyland.html",
+        "title": "New York Times review",
+        "type": {
+          "key": "/type/link"
+        }
+      }
+    ],
+    "latest_revision": 6,
+    "revision": 6,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-02-01T17:18:45.610002"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-09-20T21:50:25.919538"
+    }
+  }
+}

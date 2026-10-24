@@ -1,0 +1,68 @@
+{
+  "title": "Scholar’s Stage",
+  "author": "",
+  "url": "https://openlibrary.org/search.json?title=Scholar%E2%80%99s%20Stage&limit=3&fields=key,title,author_name,first_publish_year,isbn,language,subject",
+  "retrievedAt": "2026-10-24T12:46:06.006Z",
+  "status": 200,
+  "search": {
+    "numFound": 2,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 2,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "",
+    "offset": null,
+    "docs": [
+      {
+        "author_name": [
+          "H. A. Evans"
+        ],
+        "first_publish_year": 1953,
+        "key": "/works/OL12730133W",
+        "language": [
+          "eng"
+        ],
+        "title": "The scholar on the London stage, c. 1580-1620"
+      },
+      {
+        "author_name": [
+          "Frederick Edward Jones"
+        ],
+        "first_publish_year": 2015,
+        "isbn": [
+          "1298128854",
+          "9781298128850"
+        ],
+        "key": "/works/OL24213798W",
+        "title": "Familiar Epistles to Frederick E. Jones Esq. on the Present State of the Irish stage - Scholar's Choice Edition"
+      }
+    ]
+  },
+  "work": {
+    "key": "/works/OL12730133W",
+    "created": {
+      "type": "/type/datetime",
+      "value": "2009-12-11T07:38:52.269037"
+    },
+    "title": "The scholar on the London stage, c. 1580-1620",
+    "first_publish_date": "1953",
+    "latest_revision": 2,
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2010-01-24T14:16:25.951343"
+    },
+    "authors": [
+      {
+        "type": "/type/author_role",
+        "author": {
+          "key": "/authors/OL5703952A"
+        }
+      }
+    ],
+    "type": {
+      "key": "/type/work"
+    },
+    "id": 47897986,
+    "revision": 2
+  }
+}
