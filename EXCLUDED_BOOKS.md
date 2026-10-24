@@ -2,13 +2,17 @@
 
 - #AskGaryVee — Gary Vaynerchuk
 - $100M Offers — Alex Hormozi
+- 100 African-Americans Who Shaped American History — Chrisanne Beckner
 - 100 Deadly Skills — Clint Emerson
 - 100 Ways to Improve Your Writing — Gary Provost
 - 100 Years of Nobel Prizes
+- 100,000 Whys for Kids – The Ultimate Question & Answer Book: Clear Answers to Curious Questions About Science, Space, Animals, Technology, History, and More (Ages 6–12) — Owen Mercer
 - 1000 Ways to Make $1,000 — F.C. Minaker
+- 1001 Inventions and Awesome Facts from Muslim Civilization — National Geographic
 - 1001 Nights
 - 101 Things I Learned in Engineering School — John Kuprenas; Matthew Frederick
 - 11/22/63 — Stephen King
+- 125 Cool Inventions: Supersmart Machines and Wacky Gadgets You Never Knew You Wanted! — National Geographic Kids
 - 180 Days of Science for Fourth Grade: Practice, Assess, Diagnose — Lauren Homayoun
 - 2021 Guide to the Business of Chemistry — American Chemistry Council
 - 2666 — Roberto Bolaño
@@ -58,6 +62,7 @@
 - A History of Mathematics — Victor J. Katz
 - A History of the Theories of Aether and Electricity — E. T. Whittaker
 - A History of the Theory of Investments — Mark Rubinstein
+- A Little History of the World — E.H. Gombrich
 - A Little Life — Hanya Yanagihara
 - A Madman Dreams of Turing Machines — Janna Levin
 - A Man Called Ove — Fredrik Backman
@@ -83,6 +88,7 @@
 - A Radical Approach to Lebesgue's Theory of Integration — David M. Bressoud
 - A Radical Approach to Real Analysis — David M. Bressoud
 - A Raisin in the Sun — Lorraine Hansberry
+- A Really Short History of Nearly Everything — Bill Bryson
 - A River Runs Through It — Norman Maclean
 - A Room with a View — E. M. Forster
 - A Royal Road to Algebraic Geometry — Audun Holme
@@ -107,6 +113,7 @@
 - Abhajaner Mahabharat — Mahbub Lilen
 - About Face — Alan Cooper
 - About Face 2.0 — Cooper, Alan
+- Absolutely Everything!: A History of Earth, Dinosaurs, Rulers, Robots and Other Things Too Numerous to Mention — Christopher Lloyd
 - Abstract Algebra — David S. Dummit; Richard M. Foote
 - Abstract Algebra — I. N. Herstein
 - Accelerando
@@ -128,6 +135,7 @@
 - Aesop’s Fables — Aesop and George Fyler Townsend
 - Affective Neuroscience — Jaak Panksepp
 - Affliction — Russell Banks
+- African American Inventors — Otha Richard Sullivan and Jim Haskins
 - After Dark — Haruki Murakami
 - Agents of Dreamland — Caitlín R. Kiernan
 - Agile Principles, Patterns, and Practices in C# — Robert C. Martin; Micah Martin
@@ -168,6 +176,7 @@
 - All the Mathematics You Missed: But Need to Know for Graduate School — Thomas A. Garrity
 - All the Pretty Horses (The Border Trilogy, #1) — Cormac McCarthy
 - Altered Carbon — Richard K. Morgan
+- Amazing Airplanes (Amazing Machines) — Tony Mitton
 - American Dirt — Jeanine Cummins
 - American Gods — Neil Gaiman
 - American Pastoral — Philip Roth
@@ -183,6 +192,7 @@
 - An Evil Guest — Gene Wolfe
 - An Illustrated Book of Bad Arguments — Ali Almossawi
 - An Illustrated Theory of Numbers — Martin H. Weissman
+- An Illustrated Timeline of Inventions and Inventors — Kremena Spengler and Richard John Morgan
 - An Imaginary Tale — Paul J. Nahin
 - An Introduction to GW-BASIC — Unspecified edition
 - An Introduction to Harmonic Analysis (Cambridge Mathematical Library) — Yitzhak Katznelson
@@ -261,6 +271,7 @@
 - Beating The Street — Peter Lynch
 - Beautiful Code — Andy Oram; Greg Wilson (editors)
 - Become a Professional Inventor: The Insider's Guide to Companies Looking for Ideas — Stephen Key
+- Before Columbus: The Americas of 1491 — Charles C. Mann, adapted by Rebecca Stefoff
 - Before the Storm (Star Wars: Black Fleet Crisis, #1) — Michael P. Kube-McDowell
 - Before We Go — Dan John
 - Beginning C# 3.0 — Jack J. Purdum
@@ -270,6 +281,7 @@
 - Being Logical — D. Q. McInerny
 - Being With Dying — Joan Halifax
 - Beloved — Toni Morrison
+- Ben Franklin's Big Splash: The Mostly True Story of His First Invention — Barb Rosenstock, S.D. Schindler
 - Beowulf — Anonymous
 - Beowulf — Seamus Heaney
 - Beowulf: A Translation and Commentary, together with Sellic Spell — Unknown
@@ -289,6 +301,7 @@
 - Bird by Bird — Anne Lamott
 - Bit-Slice Microprocessor Design — John Mick; Jim Brick
 - Bitter Seeds — Ian Tregillis
+- Black Pioneers of Science and Invention — Louis Haber
 - Black Swan Green — David Mitchell
 - Blandings
 - Blandings Castle series — P. G. Wodehouse
@@ -304,6 +317,7 @@
 - Blow Him Away — Marcy Michaels; Marie Desalle
 - Blue Mars — Kim Stanley Robinson
 - Bobby Dollar trilogy — Tad Williams
+- Bomb: The Race to Build—and Steal—the World's Most Dangerous Weapon — Steve Sheinkin
 - Bone — Jeff Smith
 - Book from the Ground — Xu, Bing
 - Book of Proof — Richard Hammack
@@ -358,6 +372,7 @@
 - Cashing in on the American Dream — Paul Terhorst
 - Catch-22 — Joseph Heller
 - Category Theory in Context — Emily Riehl
+- Cathedral — David Macaulay
 - Causality: Models, Reasoning, and Inference — Pearl, J.
 - Celestial Mechanics — Shlomo Sternberg
 - Century Rain — Alastair Reynolds
@@ -380,6 +395,7 @@
 - Citizen Sim — Michael Solana
 - City of Golden Shadow — Tad Williams
 - City of Thieves — David Benioff
+- City: A Story of Roman Planning and Construction — David Macaulay
 - Civilizations — Laurent Binet
 - Classical Algebra — Roger Cooke
 - Classical and Modern Integration Theories — Ivan N. Pesin
@@ -437,6 +453,7 @@
 - Computer Applications in Aircraft Design and Operation — Murthy, T. K. S.
 - Computer Architecture: A Quantitative Approach — John L. Hennessy; David A. Patterson
 - Computer Architecture: Concepts and Evolution — Gerrit A. Blaauw; Frederick P. Brooks Jr.
+- Computer Decoder: Dorothy Vaughan, Computer Scientist — Andi Diehn and Katie Mazeika
 - Computer Engineering — C. Gordon Bell; J. Craig Mudge; John E. McNamara
 - Computer Graphics: Principles and Practice — James D. Foley; Andries van Dam; Steven K. Feiner; John F. Hughes
 - Computer Networking: A Top-Down Approach — James F. Kurose; Keith W. Ross
@@ -574,6 +591,7 @@
 - Distant Waves — Suzanne Weyn
 - Div, Grad, Curl, and All That — H. M. Schey
 - Divine Proportions — Norman J. Wildberger
+- DK Life Stories: Katherine Johnson — Ebony Joy Wilkins and Charlotte Ager
 - Do Androids Dream Of Electric Sheep? — Philip K. Dick
 - Doll-E 1.0 — Shanda McCloskey
 - Domain-Driven Design: Tackling Complexity in the Heart of Software — Eric Evans
@@ -632,9 +650,11 @@
 - Elements of Poker — Tommy Angelo
 - Elements of Set Theory — Herbert B. Enderton
 - Elliptic Curves, Modular Forms and Their L-Functions — Álvaro Lozano-Robledo
+- Elon Musk and the Quest for a Fantastic Future: Young Readers' Edition — Ashlee Vance
 - Eloquent Javascript: A Modern Introduction to Programming — Marijn Haverbeke
 - Eloquent Ruby — Russ Olsen
 - Emma — Jane Austen
+- Emmy Noether: The Most Important Mathematician You've Never Heard Of — Helaine Becker; Kari Rust (illustrator)
 - Emperor Mage — Tamora Pierce
 - Emperor of Thorns — Mark Lawrence
 - Empire Falls — Richard Russo
@@ -706,6 +726,7 @@
 - Fate, Time, and Language — David Foster Wallace; Steven M. Cahn; Maureen Eckert
 - Fatherland — Robert Harris
 - Fear and Loathing in Las Vegas — Hunter S. Thompson
+- Fearless Trailblazers: 11 Latinos who made U.S. History (English and Spanish Edition) — Naibe Reynoso
 - Fer-de-Lance — Rex Stout
 - Feynman Lectures on Computation — Richard Phillips Feynman
 - Feynman Lectures On Gravitation — Richard Phillips Feynman
@@ -793,6 +814,7 @@
 - Generatingfunctionology — Wilf
 - Geometry and Its History — John Stillwell
 - Geometry, Topology, and Physics — Mikio Nakahara
+- George Washington Carver (National Geographic Readers) — Kitson Jazynka
 - Germinal — Émile Zola
 - Geronimo Rex — Barry Hannah
 - Get Smarter — Seymour Schulich
@@ -806,6 +828,7 @@
 - Gilgamesh — Stephen Mitchell; Mitchell, Stephen
 - Giovanni’s Room — James Baldwin
 - Girl, Woman, Other — Bernardine Evaristo
+- Girls Think of Everything: Stories of Ingenious Inventions by Women — Catherine Thimmesh, Melissa Sweet
 - Glamorama — Bret Easton Ellis
 - Glasshouse — Charles Stross
 - Global Business — Mike W. Peng (source identity conditional)
@@ -887,6 +910,7 @@
 - Hooked — Nir Eyal
 - Hopping Over The Rabbit Hole — Anthony Scaramucci
 - Hornblower Saga — C.S. Forester
+- Horrible Histories Blood Curdling Box (Horrible Histories Collections) — Terry Deary
 - House Made of Dawn — N. Scott Momaday
 - House of Chains — Steven Erikson
 - House of Leaves
@@ -922,6 +946,7 @@
 - Howl's Moving Castle — Diana Wynne Jones
 - Hug Your Haters — Jay Baer
 - Human Acts — Han Kang
+- Human Computer: Mary Jackson, Engineer — Andi Diehn and Katie Mazeika
 - Human Resource Exploitation Training Manual — Central Intelligence Agency
 - Humboldt's Gift — Saul Bellow
 - Hunter's Run — George R. R. Martin; Gardner Dozois; Daniel Abraham
@@ -1034,7 +1059,9 @@
 - Judgment in Managerial Decision Making — Max Bazerman
 - JUnit in Action — Vincent Massol
 - Jurassic Park
+- Just Like Rube Goldberg: The Incredible True Story of the Man Behind the Machines — Sarah Aronson
 - Kaikeyi — Vaishnavi Patel
+- Katherine Johnson — Thea Feldman and Alyssa Petersen
 - Kawasaki Klr650 1987-2006 — Clymer Publications
 - Khana Mihirer Dhipi — Bani Basu
 - Kill Decision — Daniel Suarez
@@ -1105,6 +1132,7 @@
 - Life Cycle of Software Objects
 - Life in Moving Fluids — Steven Vogel
 - Life of Pi — Yann Martel
+- Lift-the-Flap Periodic Table: An Interactive Usborne Book About the 118 Elements for Children (Ages 7-10) (See Inside) — Alice James
 - Light (Kefahuchi Tract, #1) — M. John Harrison
 - Lila — Robert M. Pirsig
 - Lincoln in the Bardo — George Saunders
@@ -1145,6 +1173,7 @@
 - Macroeconomics for Professionals: A Guide for Analysts and Those Who Need to Understand Them — Leslie Lipschitz
 - Mad Science: Experiments You Can Do at Home—But Probably Shouldn't — Theodore Gray
 - Madame Bovary — Gustave Flaubert
+- Magic Ramen: The Story of Momofuku Ando — Andrea Wang, Kana Urbanowicz
 - Magnus O'Meere, Mind Pioneer — Kristin S Pierce
 - Main Street Millionaire — Codie Sanchez
 - Make Better Landings — Alan Ellesmere Bramson
@@ -1152,10 +1181,12 @@
 - Making History — Stephen Fry
 - Malazan Book of the Fallen — Steven Erikson
 - Managing Gigabytes — Ian H. Witten; Alistair Moffat; Timothy C. Bell
+- Manfish: A Story of Jacques Cousteau — Jennifer Berne, Éric Puybaret
 - Manufacturing Processes for Design Professionals — Rob Thompson
 - March — Geraldine Brooks
 - Maritime Economics 3e — Martin Stopford
 - Martin Dressler: The Tale of an American Dreamer — Steven Millhauser
+- Marvelous Mattie: How Margaret E. Knight Became an Inventor — Emily Arnold McCully
 - Mary Had a Little Lab — Sue Fliess and Petros Bouloubasis
 - Master and Commander (Vol. Book 1) (Aubrey/Maturin Novels) — Patrick O'Brian
 - Mastering C++ — Unspecified author
@@ -1165,6 +1196,7 @@
 - Mastering Turbo Assembler — Tom Swan
 - Mastering Turbo Pascal — Douglas Hergert
 - Mastiff — Tamora Pierce
+- Material Resources, Productivity and the Environment — OECD
 - Materials Science and Engineering: An Introduction — William D. Callister Jr.; David G. Rethwisch
 - Math Refresher for Scientists and Engineers — John R. Fanchi
 - Math, Better Explained — Kalid Azad
@@ -1177,6 +1209,7 @@
 - Mathematical Omnibus: Thirty Lectures on Classic Mathematics — Dmitry Fuchs; Serge Tabachnikov
 - Mathematical Physics — Robert Geroch
 - Mathematical Tools for Physics — James Nearing
+- Mathematicians Are People, Too: Stories from the Lives of Great Mathematicians, Volume 1 — Luetta Reimer; Wilbert Reimer
 - Mathematics and Its History — John Stillwell
 - Mathematics and Plausible Reasoning — George Pólya
 - Mathematics Emerging — Jacqueline Stedall
@@ -1217,6 +1250,7 @@
 - Millennium — K. P. Poornachandra Tejaswi; Pradeep Kenjige
 - Mind-Body Problem — Rebecca Goldstein
 - Mindfulness in Plain English — Henepola Gunaratana
+- Mistakes That Worked: 40 Familiar Inventions & How They Came to Be — Charlotte Foltz Jones and John O'Brien
 - Mistborn — Brandon Sanderson
 - Mistborn series — Brandon Sanderson
 - Moby-Dick — Herman Melville
@@ -1250,6 +1284,7 @@
 - Mr Tompkins in Paperback — George Gamow
 - Mr. Bunny's Big Cup o' Java — Carlton Egremont III
 - Mr. Bunny's Guide to ActiveX — Carlton Egremont III
+- Mr. Ferris and His Wheel — Kathryn Gibbs Davis and Gilbert Ford
 - Mr. Fox — Helen Oyeyemi
 - Mr. Kafka and Other Tales from the Time of the Cult — Bohumil Hrabal
 - Mr. Penumbra's 24-Hour Bookstore — Robin Sloan
@@ -1267,7 +1302,9 @@
 - Mythos - The Greek Myths Retold (Stephen Fry's Great Mythology, #1) — Stephen Fry
 - Naive Set Theory — Paul R. Halmos
 - Napoleon and Modern War — Napoleon and Col. Lanza
+- NASA Mathematician Katherine Johnson — Heather E. Schwartz
 - Needful Things — Stephen King
+- Net Zero by 2050: A Roadmap for the Global Energy Sector — International Energy Agency
 - Network Security Hacks — Andrew Lockhart
 - Network Warrior — Gary A. Donahue
 - Networks, Crowds, and Markets — David Easley; Jon Kleinberg
@@ -1306,6 +1343,7 @@
 - Notes on Fermat's Last Theorem — A. J. Van Der Poorten
 - Notes on the Synthesis of Form — Christopher Alexander
 - Nothing to Fear — Julie McFadden
+- Now & Ben: The Modern Inventions of Benjamin Franklin — Gene Barretta
 - Now, Discover Your Strengths — Don Clifton
 - Number Theory — George E. Andews
 - Number Theory 1: Fermat's Dream — Kazuya Kato; Nobushige Kurokawa; Takeshi Saito
@@ -1370,6 +1408,7 @@
 - Oscillations and Waves — Kato
 - Othello — William Shakespeare
 - Otherland — Tad Williams
+- Otis and Will Discover the Deep: The Record-Setting Dive of the Bathysphere — Barb Rosenstock, Katherine Roy
 - Outer Dark — Cormac McCarthy
 - Outer Order, Inner Calm — Gretchen Rubin
 - p-adic Analysis Compared with Real — Svetlana Katok
@@ -1388,6 +1427,7 @@
 - Paul Halmos: Celebrating 50 Years of Mathematics — John Ewing, F.W. Gehring
 - Payments Systems in the U.S. — Scott Loftesness
 - Payments Systems in the U.S.A — Carol Coye Benson
+- Peek Inside how a Fire Truck works: An Interactive Introduction to Firefighters Who Save the Day for Children (Ages 3-5) — Lara Bryan
 - Perdido Street Station — China Miéville
 - Perfidia: A novel — James Ellroy
 - Perhaps the Stars — Ada Palmer
@@ -1415,12 +1455,14 @@
 - Pirate Freedom — Gene Wolfe
 - Pitch Anything — Oren Klaff
 - Pixar Storytelling: Rules for Effective Storytelling Based on Pixar’s Greatest Films — Dean Movshovitz
+- Planes — Byron Barton
 - Points of Origin — John L. Orr
 - Politics Is for Power: How to Move Beyond Political Hobbyism, Take Action, and Make Real Change — Eitan D. Hersh
 - Pomodoro Technique Illustrated — Staffan Nöteberg
 - Pompeii — Robert Harris
 - Poor No More — Robert Ruark
 - Poor White — Sherwood Anderson
+- Pop!: The Invention of Bubble Gum — Meghan McCarthy
 - Postsingular — Rudy Rucker
 - Powers — Ursula K. Le Guin
 - Practical Common Lisp — Peter Seibel
@@ -1531,6 +1573,7 @@
 - Rational Number Theory in the 20th Century: From PNT to FLT — Władysław Narkiewicz
 - Rationale for the Design of the Ada Programming Language — Jean D. Ichbiah
 - Raven Black — Ann Cleeves
+- Reaching for the Moon: The Autobiography of NASA Mathematician Katherine Johnson — Katherine Johnson
 - Ready Player One — Ernest Cline
 - Ready Player Two — Ernest Cline
 - Real Analysis — Halsey L. Royden
@@ -1578,6 +1621,7 @@
 - Rise and Fall — Eliot Schrefer
 - Riverworld series — Philip José Farmer
 - Robinson Cruse
+- Robots, Robots Everywhere — Sue Fliess, Bob Staake
 - Rocket Propulsion Elements
 - Romeo and Juliet — William Shakespeare
 - Roots of Strategy — Thomas R. Phillips
@@ -1588,6 +1632,7 @@
 - Rust Atomics and Locks — Mara Bos
 - Safety and Survival at Sea — E. C. B. Lee; Kenneth Lee
 - Salt, Fat, Acid, Heat — Samin Nosrat
+- Sand and Sustainability: 10 Strategic Recommendations to Avert a Crisis — UNEP
 - Sands of Mars — Arthur C. Clarke
 - Savage News — Jessica Yellin
 - Save the Cat — Blake Snyder
@@ -1601,6 +1646,7 @@
 - Schindler's List — Thomas Keneally
 - Schismatrix — Bruce Sterling
 - Schismatrix Plus — Bruce Sterling
+- Science Year by Year: A Visual History, from Stone Tools to Space Travel — DK
 - Scrooge's Cryptic Carol — Gilmore, Robert; R. S. Gilmore
 - Sea of Tranquility — Emily St. John Mandel
 - Sea/Shadow trilogies
@@ -1610,6 +1656,7 @@
 - Secrets of Closing the Sale — Zig Ziglar
 - Secrets of Power Negotiating — Roger Dawson
 - Security Analysis — Benjamin Graham
+- See Inside How Things Work: A Usborne Flap Book Revealing Car Engines, Submarines, and Machines for Kids (Ages 6-9) — Conrad Mason
 - Seeker — Arwen Elys Dayton
 - Seiobo There Below — László Krasznahorkai
 - Sell with a Story — Paul Smith
@@ -1645,6 +1692,7 @@
 - Single Variable Calculus: Early Transcendentals — James Stewart
 - Site Reliability Engineering — Niall Richard Murphy; Betsy Beyer; Chris Jones; Jennifer Petoff (editors)
 - Six Days of the Condor — James Grady
+- Six Dots: A Story of Young Louis Braille — Jen Bryant, Boris Kulikov
 - Six Not-So-Easy Pieces — Richard Feynman
 - Six of Crows — Leigh Bardugo
 - Sixty Stories — Donald Barthelme
@@ -1703,6 +1751,7 @@
 - Squire — Tamora Pierce
 - Stability and Chaos in Celestial Mechanics — Alessandra Celletti
 - Stairway Walks in San Francisco — Adah Bakalinsky
+- Stamped: Racism, Antiracism, and You — Jason Reynolds; Ibram X. Kendi
 - Stand On Zanzibar — John Brunner
 - Stand Out: How to Find Your Breakthrough Idea and Build a Following Around It — Dorie Clark
 - Staples Plus 5
@@ -1767,6 +1816,7 @@
 - Surreal Numbers — Donald E. Knuth
 - Surviving Climate Anxiety: A Guide to Coping, Healing, and Thriving — Thomas Doherty
 - Suttree — Cormac McCarthy
+- Sweet Dreams, Sarah: From Slavery to Inventor — Vivian Kirkfield, Chris Ewald
 - Sword of Shannara — Terry Brooks; Terry Brroks
 - Synchronization: A Universal Concept in Nonlinear Sciences — Arkady Pikovsky; Michael Rosenblum; Jürgen Kurths
 - System Design from Provably Correct Constructs — James Martin
@@ -1866,6 +1916,7 @@
 - The Bogleheads’ Guide to Investing — Taylor Larimore; Mel Lindauer; Michael LeBoeuf
 - The Bonehunters — Steven Erikson
 - The Bonfire of the Vanities — Tom Wolfe
+- The Boo-Boos That Changed the World: A True Story about an Accidental Invention (Really!) — Barry Wittenstein and Chris Hsu
 - The Book of Disquiet (Serpent's Tail Classics) — Fernando Pessoa
 - The Book of Dust — Philip Pullman
 - The Book of Five Rings — Miyamoto Musashi
@@ -1880,6 +1931,8 @@
 - The Books of Jacob — Olga Tokarczuk
 - The Borderers
 - The Boron Letters — Gary C. Halbert; Bond Halbert
+- The Boy Who Invented the Popsicle: The Cool Science Behind Frank Epperson's Famous Frozen Treat — Anne Renaud, Milan Pavlovi?
+- The Boy Who Invented TV: The Story of Philo Farnsworth — Kathleen Krull, Greg Couch
 - The Bricklayer's Bible — Unknown
 - The Bridge of San Luis Rey — Thornton Wilder
 - The Bridge to Lucy Dunne — Exurb1a
@@ -1932,12 +1985,14 @@
 - The Count of Monte Cristo — Alexandre Dumas
 - The Covenant of Water — Abraham Verghese
 - The Craft of Prolog — Richard A. O'Keefe
+- The Crayon Man: the True Story of the Invention of Crayola Crayons — Natascha Biebow and Steven Salerno
 - The Crippled God — Steven Erikson
 - The Curious Incident of the Dog in the Night-Time — Mark Haddon
 - The Dance of Gods — Mayer Alan Brenner
 - The Dark Forest — Liu Cixin
 - The Dark Side of the Moon — Martin Suter
 - The Dark Tower — Stephen King
+- The Day-Glo Brothers: The True Story of Bob and Joe Switzer's Bright Ideas and Brand-New Colors — Chris Barton, Tony Persiani
 - The Deadline — Tom DeMarco
 - The Death of Grass — John Christopher
 - The Death of Ivan Ilyich — Leo Tolstoy
@@ -1953,6 +2008,7 @@
 - The Diamond of Darkhold
 - The Dispossessed — Ursula K. Le Guin
 - The Divine Comedy — Dante Alighieri
+- The Doctor with an Eye for Eyes: The Story of Dr. Patricia Bath — Julia Finley Mosca, Daniel Rieley
 - The Dorling Kindersley History of the World
 - The Dream Hunters
 - The Dynamical Theory of Gases — Jeans
@@ -2051,6 +2107,7 @@
 - The Heart of Valor — Tanya Huff
 - The Help — Kathryn Stockett
 - The Herbal Home Remedy Book — Joyce A. Wardwell
+- The Heroic Age of American Invention — L. Sprague de Camp
 - The Historical Development of Quantum Theory — Jagdish Mehra; Helmut Rechenberg
 - The Historical Development of the Calculus — C. H. Edwards
 - The History of Mathematics: A Reader — John Fauvel; Jeremy Gray (editors)
@@ -2128,6 +2185,7 @@
 - The Low Down on Going Down — Marcy Michaels; Marie Desalle
 - The Luxury Strategy — Jean-Noël Kapferer and Vincent Bastien
 - The Magic Mountain — Thomas Mann
+- The Magic Of Reality — Richard Dawkins
 - The Magnificent Ambersons — Booth Tarkington
 - The Magus — John Fowles
 - The Making of a Manager — Julie Zhuo
@@ -2140,6 +2198,7 @@
 - The Mansion — William Faulkner
 - The March North — Graydon Saunders
 - The Martian — Andy Weir
+- The Marvelous Thing That Came from a Spring: The Accidental Invention of the Toy That Swept the Nation — Gilbert Ford
 - The Master and Margarita — Mikhail Bulgakov
 - The Master of Hestviken — Sigrid Undset
 - The Mathematical Foundations of Quantum Mechanics — George Mackey
@@ -2278,11 +2337,13 @@
 - The Screwtape Letters — C. S. Lewis
 - The Scribe Method — Tucker Max; Zach Obront
 - The Sea of Fertility — Yukio Mishima
+- The Search for the Elements — Isaac Asimov
 - The Seasoned Schemer — Daniel P. Friedman; Matthias Felleisen
 - The Seasons of Thomas Tebo — John Nagenda
 - The Second Sleep — Robert Harris
 - The Secret Commonwealth — Philip Pullman
 - The Secret Science Alliance and the Copycat Crook — Eleanor Davis
+- The Secret Subway — Shana Corey and Red Nose Studio
 - The Secrets of Story — Matt Bird
 - The Sense of Structure — George Gopen
 - The Sense of Style — Steven Pinker
@@ -2370,6 +2431,7 @@
 - The Unholy Consult
 - The Unicorn Project — Gene Kim
 - The UNIX Programming Environment — Brian W. Kernighan
+- The Unstoppable Garrett Morgan: Inventor, Entrepreneur, Hero — Joan Dicicco, Ebony Glenn
 - The Up-and-Under series — A. Deborah Baker
 - The Upward Spiral: Using Neuroscience to Reverse the Course of Depression, One Small Change at a Time — Alex Korb
 - The Utopians trilogy
@@ -2382,6 +2444,7 @@
 - The Water Knife — Paolo Bacigalupi
 - The Way of Kings — Brandon Sanderson
 - The Way of the Linguist — Steve Kaufmann
+- The Way Things Work Now — David Macaulay
 - The Way West — A. B. Guthrie Jr.
 - The Weak Interaction in Nuclear, Particle, and Astrophysics — K. Grotz and H. V. Klapdor
 - The Weight of Nations: Material Outflows from Industrial Economies — Emily Matthews et al.
@@ -2402,6 +2465,7 @@
 - The World Copper Factbook 2021 — International Copper Study Group
 - The World Is Not Enough — Zoé Oldenbourg
 - The World of Edena — Moebius
+- The Wright Brothers — Quentin Reynolds
 - The Yearling — Marjorie Kinnan Rawlings
 - The Young Elites series — Marie Lu
 - The Zenith Angle — Bruce Sterling
@@ -2435,7 +2499,9 @@
 - Thus Spoke Zarathustra — Friedrich Nietzsche
 - Tigana — Guy Gavriel Kay
 - TIHKAL
+- Timeless Thomas: How Thomas Edison Changed Our Lives — Gene Barretta
 - Timeline of World History — Matt Baker; John Andrews (editors)
+- Timelines of World History: A Gorgeously Illustrated Guide with Key Dates from the Stone Age to the Year 2000 for Children (Ages 9-12) (Where's the...) — Jane Chisholm
 - Tinkerlab: A Hands-On Guide for Little Inventors — Rachelle Doorley
 - Tinkers — Paul Harding
 - Tipping Points — Liz Wheeler
@@ -2526,7 +2592,9 @@
 - Web Typography
 - Wedge’s Gamble
 - Weekend Language — Andy Craig & Dave Yewman
+- What Color Is My World?: The Lost History of African-American Inventors — Kareem Abdul-Jabbar, Raymond Obstfeld, et al.
 - What Is Mathematics? — Richard Courant; Herbert Robbins
+- What Was the Bombing of Hiroshima? — Jess Brallier
 - What We Talk About When We Talk About Love — Raymond Carver
 - When Cultures Collide: Leading Across Cultures — Richard Lewis
 - When I Say No, I Feel Guilty — Manuel J. Smith
@@ -2535,13 +2603,20 @@
 - Who — Geoff Smart
 - Who Can Be Happy and Free in Russia — Nikolay A. Nekrasov
 - Who Moved My Cheese? — Spencer Johnson
+- Who Was Alexander Graham Bell? — Bonnie Bader
+- Who Was Leonardo da Vinci? — Roberta Edwards
+- Who Was Nikola Tesla? — Jim Gigliotti, Who HQ, et al.
+- Who Was Steve Jobs? — Pam Pollack, Meg Belviso, Who HQ, John O'Brien
+- Who Were the Wright Brothers? — James Buckley Jr.
 - Whole Earth Catalog — Stewart Brand (editor)
 - Whole Earth Epilog — Stewart Brand
+- Whoosh!: Lonnie Johnson's Super-Soaking Stream of Inventions — Chris Barton, Don Tate
 - Why's Poignant Guide to Ruby — Why The Lucky Stiff
 - Wie der Bundesrat die Schweiz regiert: Und weshalb es trotzdem funktioniert — Walter Thurnherr
 - Wild Magic — Tamora Pierce
 - Wild Seed — Octavia E. Butler
 - Win Your Case — Gerry Spence
+- Wind-up Digger: A Toy and Book Gift Featuring a Hands-On Exploration Of Diggers And Construction Sites — Sarah Hull
 - Windows 95 System Programming Secrets — Matt Pietrek
 - Winesburg, Ohio — Sherwood Anderson
 - Winning Ways for Your Mathematical Plays — Elwyn R. Berlekamp; John H. Conway; Richard K. Guy
@@ -2551,6 +2626,7 @@
 - Wireshark Network Analysis — Laura Chappell
 - Wolf Hall (Thomas Cromwell, #1) — Hilary Mantel
 - Wolf Speaker — Tamora Pierce
+- Women in Science: 50 Fearless Pioneers Who Changed the World — Rachel Ignotofsky
 - Women Who Count: Honoring African American Women Mathematicians — Shelly M. Jones
 - Wonder — R. J. Palacio
 - Wool — Hugh Howey
@@ -2558,6 +2634,7 @@
 - Work Clean: The life-changing power of mise-en-place to organize your life, work, and mind — Dan Charnas
 - Working Effectively with Legacy Code — Michael Feathers
 - World Energy Investment — International Energy Agency
+- World Energy Outlook — International Energy Agency
 - Worm (Parahumans, #1)
 - Write Useful Books — Rob Fitzpatrick
 - Writing Efficient Programs — Jon Bentley

@@ -328,13 +328,13 @@ test('generated standalone script parses without replacement-string corruption',
   assert(Buffer.byteLength(html)<=1500*(data.books.length+data.vetoed.length));
   assert(!html.includes('src="http'));
   const rules=fs.readFileSync(path.join(ROOT,'AGENTS.md'),'utf8');
-  for(const [heading,prefix] of [['## Hard exclusion rules','Works which do not represent a book'],['## Hard exclusion rules','Exclude fiction books'],['## Hard exclusion rules','Technical training and reference exclusion'],['## Veto rules','Hype or ephemerality dependence'],['## Veto rules','Religious doctrine or ideological extremism'],['## Veto rules','Partisan mobilization']]){
+  for(const [heading,prefix] of [['## Hard exclusion rules','Works which do not represent a book'],['## Hard exclusion rules','Exclude all fiction'],['## Hard exclusion rules','Technical training and reference exclusion'],['## Hard exclusion rules','Exclude children books'],['## Hard exclusion rules','Exclude dry and routine'],['## Veto rules','Hype or ephemerality dependence'],['## Veto rules','Religious doctrine or ideological extremism'],['## Veto rules','Partisan mobilization'],['## Veto rules','Spirituality, meditation'],['## Veto rules','Veto works whose central purpose']]){
     const text=rules.split(heading)[1].split(/\r?\n/).map(line=>line.replace(/^\d+\. /,'')).find(line=>line.startsWith(prefix));
     const escaped=text.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
     const methodology=html.split('id="methodology-view"')[1].split('<section aria-labelledby="method-rules">')[0];
     assert(methodology.includes(escaped),'Visible methodology must include the exact current rule');
   }
-  for(const marker of ['BOOK_FORM','FICTION','REFERENCE','V4','V5','V6'])assert(!html.includes('/* '+marker+' */'));
+  for(const marker of ['BOOK_FORM','FICTION','REFERENCE','H5','H6','V4','V5','V6','V7','V8'])assert(!html.includes('/* '+marker+' */'));
 });
 test('catalog calculation performance: 30 updates over 2000 works', () => {
   const books=Array.from({length:2000},(_,i)=>({...data.books[i%data.books.length],id:'perf'+i}));

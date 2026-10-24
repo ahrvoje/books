@@ -33,9 +33,11 @@ Make elaborate use of any external or built-in resource to accurately resolve th
 
 ## Hard exclusion rules - a book is excluded and not even considered vetoed:
 1. Works which do not represent a book and are never published in a book form.
-2. Exclude fiction books and do not consider them vetoed. Discard them before scoring or further analysis.
+2. Exclude all fiction.
 3. Technical training and reference exclusion. Exclude works whose main purpose is to teach a technical curriculum, develop specialist proficiency, present formal proofs or derivations, provide procedures, or serve as a technical reference. Clear prose, historical introductions, conceptual explanations, prestige, and absence of exercises do not override this exclusion. Allow technically demanding books when their main purpose is sustained explanation of discoveries, mechanisms, decisions, or historical development, and their main intellectual value can be obtained without completing a course of technical study. Historical scientific treatises remain excluded when their main content requires reconstruction of specialist proofs, notation, or obsolete technical methods. Historical importance alone does not establish eligibility. Historical surveys and annotated chronologies can qualify when substantive explanatory prose provides value beyond locating references.
 4. Exclude books not available in English or Croatian language.
+5. Exclude children books, books primarly intended for precollege audience.
+6. Exclude dry and routine government and institutional reports without long-lasting narrative created for the only purpose of routine institutional activity.
 
 Apply both hard exclusions before vetoes or scoring, including to profile examples and books previously recommended or vetoed. Scores, reader ratings, author standing and the biography exceptions under V3 cannot override a hard exclusion. Record hard-excluded books in EXCLUDED_BOOKS.md, not in either scored book list, and do not assign them new scores or counterfactual veto scores.
 
@@ -46,6 +48,8 @@ Apply both hard exclusions before vetoes or scoring, including to profile exampl
 4. Hype or ephemerality dependence - The book’s value depends primarily on a passing controversy, fashionable terminology, launch publicity, or premature claims of revolutionary importance. Educated speculative prediction is allowed if stated in professional substantiated balanced argumentative way with elaborate guardrails.
 5. Religious doctrine or ideological extremism. Veto scripture, devotional or proselytizing works, and works whose central purpose is to establish religious doctrine as authoritative truth. Also veto explicit advocacy of ideological extremism, supported by specific evidence such as dehumanization, persecution, violent domination or suppression of dissent. A manifesto label, advocacy, activism, political position, technological vision, institutional criticism or proposed reform is not sufficient. Historical or analytical discussion of religion or extremist movements is not itself advocacy.
 6. Partisan mobilization. Veto works whose dominant purpose is to recruit, rally, or reinforce allegiance to a political leader, party, or movement, or to supply campaign attacks against opponents. Establish this purpose from the introduction, representative passages, and stated aims. Apply the rule equally across political positions. A policy conclusion, institutional criticism, or reform proposal alone is insufficient.
+7. Spirituality, meditation, life and optimism support books, cookbooks, nutrition or health advices, parenting and raising children. Related title and label is not sufficient to veto the book, veto must be supstantiated by the content characterization. Allow for Meditations by Marcus Aurelius.
+8. Veto works whose central purpose is to explain, develop, defend, or assess the truth of religious or spiritual doctrines, including their philosophical foundations. This applies even when the argument is secular, naturalistic, or analytical. Historical or social studies of religion remain eligible when doctrinal exposition is incidental.
 
 ## Scoring rules:
 %  Rule  Weight  Operational question
