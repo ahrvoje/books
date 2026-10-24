@@ -62,7 +62,11 @@ try {
   assert.equal(await page.locator('#vetoed-list tr[data-veto-book]').count(),expected.vetoed.length);
   assert.equal(await page.locator('#vetoed-list .score').first().textContent(),expected.vetoed[0].score);
   assert.deepEqual(await page.locator('#vetoed-list tr[data-veto-book]').evaluateAll(rows=>rows.map(r=>[6,7,5,8].map(i=>r.children[i].textContent))),expected.vetoed.map(b=>[b.edition?.pages ?? '—',b.referencePages.pages ?? '—',b.amazon.count ?? '—',b.sourceCount].map(String)));
-  assert.equal(await page.locator('#vetoed-list td a').count(),0);
+  assert.deepEqual(await page.locator('#vetoed-list a.book-title').evaluateAll(links=>links.map(a=>({title:a.textContent,href:a.href,target:a.target}))),expected.vetoed.map(b=>({title:b.title,href:new URL(b.purchaseUrl).href,target:'_blank'})));
+  const vetoPopup=page.waitForEvent('popup');
+  await page.locator('#vetoed-list a.book-title').first().click();
+  const openedVeto=await vetoPopup;
+  await openedVeto.close();
   assert(await page.locator('#vetoed-list .veto-meta').evaluateAll(cells=>cells.every(c=>c.textContent!=='Unknown')));
   assert.equal(await page.locator('.control-shell').isVisible(),false);
   assert.equal(await page.locator('#book-toolbar').isVisible(),false);

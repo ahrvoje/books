@@ -1,0 +1,536 @@
+{
+  "g0222": {
+    "domains": {
+      "HEU": {
+        "value": 2,
+        "confidence": "low",
+        "rationale": "Recognition and bias explain some rapid decisions, with weak general boundary conditions for trusting intuition. This HEU depth is a new interpretation of the cited prior assessment, not a full-text measurement.",
+        "refs": [
+          "analysis/analysis_glaspbiz_261019_0144.md#g0222"
+        ]
+      }
+    },
+    "connections": {
+      "status": "partial",
+      "mechanisms": [],
+      "joins": [],
+      "inspected": [
+        "Book-specific prior repository assessment: analysis/analysis_glaspbiz_261019_0144.md#g0222",
+        "Bounded screen of first 500 description characters and first eight contents entries where available. https://openlibrary.org/books/OL24055710M"
+      ],
+      "limitations": "Bounded review of the listed materials. The full book, all chapters and all possible cross-domain explanations have not been inspected for this schema. Missing records are not evidence of no connections."
+    },
+    "edition": {
+      "pages": 320,
+      "id": "ISBN:0316010669",
+      "url": "https://openlibrary.org/books/OL24055710M/Blink",
+      "retrieved": "2026-10-20T14:31:40.204Z",
+      "language": "English",
+      "format": "Paperback",
+      "year": 2007,
+      "confidence": "moderate",
+      "title": "Blink: The Power of Thinking Without Thinking",
+      "authors": "Malcolm Gladwell",
+      "publisher": "Back Bay Books",
+      "isbn10": [
+        "0316010669"
+      ],
+      "isbn13": [
+        "9780316010665"
+      ],
+      "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Source: raw/ol-isbn-1225-35bf6012f84830fb.json",
+      "source": {
+        "provider": "Open Library",
+        "api": "https://openlibrary.org/api/books?bibkeys=ISBN:0140257314,ISBN:1736703307,ISBN:1401302378,ISBN:1401309666,ISBN:0385484488,ISBN:1591848237,ISBN:1982132612,ISBN:1594201048,ISBN:0143112449,ISBN:1473613809,ISBN:0316010669,ISBN:0812933788,ISBN:1451672489,ISBN:0446582034,ISBN:0767911784,ISBN:0062369830,ISBN:0446576220,ISBN:030746086X,ISBN:0812928350,ISBN:0062652508,ISBN:0553251473,ISBN:1611720230,ISBN:1501123203,ISBN:081433279X,ISBN:0385042353,ISBN:1982126809,ISBN:0809078813,ISBN:022648694X,ISBN:1595230955,ISBN:0071736360,ISBN:0060742763,ISBN:0306825465,ISBN:1591841267,ISBN:0316530204,ISBN:0385546475&jscmd=details&format=json",
+        "rawFile": "data/enrichment_261020/pages/raw/ol-isbn-1225-35bf6012f84830fb.json",
+        "sha256": "9dd45735e6c44d9da5bf99e7502dbace0473484b447bc1d778421036d2c8f6bb",
+        "editionKey": "/books/OL24055710M"
+      }
+    },
+    "research": {
+      "reviewed": "2026-10-20",
+      "domainBasis": "Manual semantic reading of book-specific prior assessment; no title-keyword rubric or automatic grade conversion.",
+      "primaryReview": null,
+      "unknownDomains": [
+        "SCI",
+        "QNT",
+        "CMP",
+        "HTC",
+        "ENG",
+        "ENE",
+        "MAT",
+        "PRD",
+        "QLT",
+        "LOG",
+        "TRD",
+        "SCL",
+        "INN",
+        "INS",
+        "ECO",
+        "FIN",
+        "POL",
+        "MIL",
+        "STR"
+      ],
+      "unknownReason": "The inspected materials do not establish domain-specific depth for these fields. Absence of discussion in a short assessment or catalog description is not evidence of absence in the book. Further contents or full-text evidence remains necessary.",
+      "pageAttempts": 1,
+      "pageReason": "",
+      "newAmazonObservation": null,
+      "amazonReviewReason": "",
+      "domainAudit": "data/enrichment_261020/domains_a/assessments.json",
+      "pageAudit": "data/enrichment_261020/pages/progress.json"
+    }
+  },
+  "q0445": {
+    "domains": {
+      "SCI": {
+        "value": 3,
+        "confidence": "low",
+        "rationale": "Biological levels explain behavioral influences; the broader rejection of agency remains a philosophical inference. Depth is a cautious assessment from the cited prior review, not a full-text measurement.",
+        "refs": [
+          "analysis/analysis_changedmind_261017_2105.md#c044",
+          "analysis/analysis_pubcap_261018_2125.md"
+        ]
+      },
+      "HEU": {
+        "value": 2,
+        "confidence": "low",
+        "rationale": "Biological levels explain behavioral influences; the broader rejection of agency remains a philosophical inference. Depth is a cautious assessment from the cited prior review, not a full-text measurement.",
+        "refs": [
+          "analysis/analysis_changedmind_261017_2105.md#c044",
+          "analysis/analysis_pubcap_261018_2125.md"
+        ]
+      }
+    },
+    "connections": {
+      "status": "partial",
+      "mechanisms": [],
+      "joins": [],
+      "inspectedMaterial": [
+        "analysis/analysis_changedmind_261017_2105.md#c044",
+        "analysis/analysis_pubcap_261018_2125.md"
+      ],
+      "limitations": "Prior book-specific assessment excerpts were inspected. A full contents/sample review and a complete inventory of mechanisms and joins are not established; absence of a recorded mechanism is not an assessed zero."
+    },
+    "edition": {
+      "pages": 528,
+      "id": "ASIN:0525560998",
+      "url": "https://www.amazon.com/dp/0525560998",
+      "retrieved": "2026-10-20T14:44:09.028Z",
+      "language": "English",
+      "format": "Paperback",
+      "year": 2024,
+      "confidence": "high",
+      "title": "Determined: A Science of Life without Free Will",
+      "authors": "by Robert M. Sapolsky (Author) Format: Paperback",
+      "isbn10": [
+        "0525560998"
+      ],
+      "isbn13": [
+        "9780525560999"
+      ],
+      "notes": "Page count, title, author, language, format and edition year observed on the same product page. Product ID verified from the landing page when available; original request URL retained in provenance.",
+      "source": {
+        "provider": "www.amazon.com",
+        "rawFile": "data/enrichment_261020/pages/raw/amazon-q0445-0525560998-www.amazon.com-d84d798a97f04190.html.gz",
+        "sha256": "8f0de11a080a4801041b990c56705175079130329bc9f24261abef973346c5d3",
+        "requestedUrl": "https://www.amazon.com/dp/0525560998"
+      }
+    },
+    "research": {
+      "reviewed": "2026-10-20",
+      "domainBasis": "Manual semantic review of book-specific repository assessment excerpts. No title/keyword-to-grade rule. Known grades are conservative estimates and require later contents/sample verification.",
+      "primaryReview": null,
+      "unknownDomains": [
+        "QNT",
+        "CMP",
+        "HTC",
+        "ENG",
+        "ENE",
+        "MAT",
+        "PRD",
+        "QLT",
+        "LOG",
+        "TRD",
+        "SCL",
+        "INN",
+        "INS",
+        "ECO",
+        "FIN",
+        "POL",
+        "MIL",
+        "STR"
+      ],
+      "unknownReason": "The reviewed evidence supports the coded threads but does not establish the depth or absence of all other domains. Uncoded fields remain unknown.",
+      "pageAttempts": 3,
+      "pageReason": "",
+      "newAmazonObservation": null,
+      "amazonReviewReason": "",
+      "domainAudit": "data/enrichment_261020/domains_b/assessments.json",
+      "pageAudit": "data/enrichment_261020/pages/progress.json"
+    }
+  },
+  "n488d494b9d": {
+    "domains": {
+      "SCI": {
+        "value": 3,
+        "confidence": "low",
+        "rationale": "forest ecology and mycorrhizal research with contested inferences",
+        "refs": [
+          "data/sources_261020/primary/tail-research-01.json",
+          "data/sources_261020/primary/tail-research-04.json",
+          "data/sources_261020/primary/tail-research-05.json",
+          "data/sources_261020/primary/tail-research-06.json",
+          "https://news.ycombinator.com/item?id=29462663"
+        ]
+      },
+      "INS": {
+        "value": 2,
+        "confidence": "low",
+        "rationale": "research access and forestry institutions",
+        "refs": [
+          "data/sources_261020/primary/tail-research-01.json",
+          "data/sources_261020/primary/tail-research-04.json",
+          "data/sources_261020/primary/tail-research-05.json",
+          "data/sources_261020/primary/tail-research-06.json",
+          "https://news.ycombinator.com/item?id=29462663"
+        ]
+      },
+      "MAT": {
+        "value": 1,
+        "confidence": "low",
+        "rationale": "resource exchange in forests",
+        "refs": [
+          "data/sources_261020/primary/tail-research-01.json",
+          "data/sources_261020/primary/tail-research-04.json",
+          "data/sources_261020/primary/tail-research-05.json",
+          "data/sources_261020/primary/tail-research-06.json",
+          "https://news.ycombinator.com/item?id=29462663"
+        ]
+      },
+      "HEU": {
+        "value": 1,
+        "confidence": "low",
+        "rationale": "interpretation of experiments",
+        "refs": [
+          "data/sources_261020/primary/tail-research-01.json",
+          "data/sources_261020/primary/tail-research-04.json",
+          "data/sources_261020/primary/tail-research-05.json",
+          "data/sources_261020/primary/tail-research-06.json",
+          "https://news.ycombinator.com/item?id=29462663"
+        ]
+      }
+    },
+    "connections": {
+      "status": "partial",
+      "mechanisms": [],
+      "joins": [],
+      "limitations": "Only selected causal connections supported by the reviewed scope are recorded."
+    },
+    "research": {
+      "reviewed": "2026-10-20",
+      "unknownReason": "Unassessed domains remain unknown. Edition and connection coverage are documented separately.",
+      "unknownDomains": [
+        "QNT",
+        "CMP",
+        "HTC",
+        "ENG",
+        "ENE",
+        "PRD",
+        "QLT",
+        "LOG",
+        "TRD",
+        "SCL",
+        "INN",
+        "ECO",
+        "FIN",
+        "POL",
+        "MIL",
+        "STR"
+      ]
+    },
+    "edition": {
+      "pages": 384,
+      "year": 2022,
+      "id": "ISBN:9780525565994",
+      "url": "https://www.penguinrandomhouse.com/books/602589/finding-the-mother-tree-by-suzanne-simard/",
+      "retrieved": "2026-10-20",
+      "language": "English",
+      "format": "paperback",
+      "confidence": "moderate",
+      "notes": "Extent of one identified edition, not an average across formats. ",
+      "source": {
+        "capture": "data/sources_261020/primary/tail-research-01.json"
+      }
+    }
+  },
+  "n47abd068a7": {
+    "domains": {
+      "SCI": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "cyclic-cosmology proposal",
+        "refs": [
+          "data/sources_261020/primary/math-research-02.json",
+          "https://people.uncw.edu/hermanr/booklist.htm",
+          "https://www.penguinrandomhouse.com/books/129417/cycles-of-time-by-roger-penrose/9780307596741/"
+        ]
+      },
+      "QNT": {
+        "value": 3,
+        "confidence": "moderate",
+        "rationale": "geometric and entropy constraints",
+        "refs": [
+          "data/sources_261020/primary/math-research-02.json",
+          "https://people.uncw.edu/hermanr/booklist.htm",
+          "https://www.penguinrandomhouse.com/books/129417/cycles-of-time-by-roger-penrose/9780307596741/"
+        ]
+      },
+      "HEU": {
+        "value": 1,
+        "confidence": "moderate",
+        "rationale": "distinction between consistency and empirical support",
+        "refs": [
+          "data/sources_261020/primary/math-research-02.json",
+          "https://people.uncw.edu/hermanr/booklist.htm",
+          "https://www.penguinrandomhouse.com/books/129417/cycles-of-time-by-roger-penrose/9780307596741/"
+        ]
+      }
+    },
+    "connections": {
+      "status": "partial",
+      "mechanisms": [],
+      "joins": [],
+      "limitations": "Selected causal connections are recorded where the reviewed contents support distinct domain roles. This is not a complete connection inventory."
+    },
+    "research": {
+      "reviewed": "2026-10-20",
+      "unknownReason": "Graded domains reflect the reviewed explanatory scope. Absent domains remain unknown, not zero; the evidence does not justify a complete twenty-domain audit.",
+      "unknownDomains": [
+        "CMP",
+        "HTC",
+        "ENG",
+        "ENE",
+        "MAT",
+        "PRD",
+        "QLT",
+        "LOG",
+        "TRD",
+        "SCL",
+        "INN",
+        "INS",
+        "ECO",
+        "FIN",
+        "POL",
+        "MIL",
+        "STR"
+      ]
+    },
+    "edition": {
+      "pages": 304,
+      "year": 2012,
+      "id": "ISBN:9780307278463",
+      "url": "https://www.penguinrandomhouse.com/books/129417/cycles-of-time-by-roger-penrose/9780307596741/",
+      "retrieved": "2026-10-20",
+      "language": "English",
+      "format": "paperback",
+      "confidence": "moderate",
+      "notes": "One identified edition; page extent is not a work-level average. ",
+      "source": {
+        "capture": "data/sources_261020/primary/math-research-02.json"
+      }
+    }
+  },
+  "g0567": {
+    "domains": {
+      "SCI": {
+        "value": 1,
+        "confidence": "low",
+        "rationale": "Cosmological models receive familiar popular explanation; the shift from physical vacuum to philosophical nothing is not established. This SCI depth is a new interpretation of the cited prior assessment, not a full-text measurement.",
+        "refs": [
+          "analysis/analysis_glaspsci_261019_0144.md#g0567"
+        ]
+      },
+      "QNT": {
+        "value": 1,
+        "confidence": "low",
+        "rationale": "Cosmological models receive familiar popular explanation; the shift from physical vacuum to philosophical nothing is not established. This QNT depth is a new interpretation of the cited prior assessment, not a full-text measurement.",
+        "refs": [
+          "analysis/analysis_glaspsci_261019_0144.md#g0567"
+        ]
+      }
+    },
+    "connections": {
+      "status": "partial",
+      "mechanisms": [],
+      "joins": [],
+      "inspected": [
+        "Book-specific prior repository assessment: analysis/analysis_glaspsci_261019_0144.md#g0567",
+        "Bounded screen of first 500 description characters and first eight contents entries where available. https://openlibrary.org/books/OL27145211M"
+      ],
+      "limitations": "Selected causal connections are recorded where the reviewed contents support distinct domain roles. This is not a complete connection inventory."
+    },
+    "edition": {
+      "pages": 202,
+      "id": "ISBN:1451624468",
+      "url": "https://openlibrary.org/books/OL27145211M/A_universe_from_nothing",
+      "retrieved": "2026-10-20T14:32:06.624Z",
+      "language": "English",
+      "format": "Not stated by source",
+      "year": 2013,
+      "confidence": "moderate",
+      "title": "A universe from nothing: why there is something rather than nothing",
+      "authors": "Lawrence Maxwell Krauss",
+      "publisher": "Atria Paperback",
+      "isbn10": [
+        "1451624468"
+      ],
+      "isbn13": [
+        "9781451624465"
+      ],
+      "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Source pagination: xxix, 202 p.. Source: raw/ol-isbn-1505-35f4d17525dd8448.json",
+      "source": {
+        "provider": "Open Library",
+        "api": "https://openlibrary.org/api/books?bibkeys=ISBN:0143107976,ISBN:0735225028,ISBN:1478921420,ISBN:0316478512,ISBN:1400044111,ISBN:0812979206,ISBN:9351777596,ISBN:0399562850,ISBN:1604599545,ISBN:0553447084,ISBN:0393542130,ISBN:0316118117,ISBN:0195045319,ISBN:0812975170,ISBN:0735217718,ISBN:1594488428,ISBN:0691138737,ISBN:0765807009,ISBN:1788735501,ISBN:1612195180,ISBN:0399562397,ISBN:0312430000,ISBN:1101873469,ISBN:0618057072,ISBN:0465023959,ISBN:0387955011,ISBN:0143120530,ISBN:046509760X,ISBN:074321630X,ISBN:0544668251,ISBN:0553347845,ISBN:0670063584,ISBN:0195143280,ISBN:1451624468,ISBN:0316628212&jscmd=details&format=json",
+        "rawFile": "data/enrichment_261020/pages/raw/ol-isbn-1505-35f4d17525dd8448.json",
+        "sha256": "1b2d7f6707319b4763dafe0a43fd5f336e2c5c4797095019ac10e0ec28583635",
+        "editionKey": "/books/OL27145211M"
+      }
+    },
+    "research": {
+      "reviewed": "2026-10-20",
+      "domainBasis": "Manual semantic reading of book-specific prior assessment; no title-keyword rubric or automatic grade conversion.",
+      "primaryReview": null,
+      "unknownDomains": [
+        "CMP",
+        "HTC",
+        "ENG",
+        "ENE",
+        "MAT",
+        "PRD",
+        "QLT",
+        "LOG",
+        "TRD",
+        "SCL",
+        "INN",
+        "INS",
+        "ECO",
+        "FIN",
+        "POL",
+        "MIL",
+        "STR",
+        "HEU"
+      ],
+      "unknownReason": "Graded domains reflect the reviewed explanatory scope. Absent domains remain unknown, not zero; the evidence does not justify a complete twenty-domain audit.",
+      "pageAttempts": 1,
+      "pageReason": "",
+      "newAmazonObservation": null,
+      "amazonReviewReason": "No cached matching product response; public collection stopped at CAPTCHA/Server Busy.",
+      "domainAudit": "data/enrichment_261020/domains_a/assessments.json",
+      "pageAudit": "data/enrichment_261020/pages/progress.json"
+    }
+  },
+  "g1058": {
+    "domains": {
+      "TRD": {
+        "value": 2,
+        "confidence": "low",
+        "rationale": "Trade, conquest and institutional change form a contested historical causal thesis. This TRD depth is a new interpretation of the cited prior assessment, not a full-text measurement.",
+        "refs": [
+          "analysis/analysis_glasphist_261019_0144.md#g1058"
+        ]
+      },
+      "POL": {
+        "value": 2,
+        "confidence": "low",
+        "rationale": "Trade, conquest and institutional change form a contested historical causal thesis. This POL depth is a new interpretation of the cited prior assessment, not a full-text measurement.",
+        "refs": [
+          "analysis/analysis_glasphist_261019_0144.md#g1058"
+        ]
+      },
+      "INS": {
+        "value": 2,
+        "confidence": "low",
+        "rationale": "Trade, conquest and institutional change form a contested historical causal thesis. This INS depth is a new interpretation of the cited prior assessment, not a full-text measurement.",
+        "refs": [
+          "analysis/analysis_glasphist_261019_0144.md#g1058"
+        ]
+      },
+      "LOG": {
+        "value": 1,
+        "confidence": "low",
+        "rationale": "Trade, conquest and institutional change form a contested historical causal thesis. This LOG depth is a new interpretation of the cited prior assessment, not a full-text measurement.",
+        "refs": [
+          "analysis/analysis_glasphist_261019_0144.md#g1058"
+        ]
+      }
+    },
+    "connections": {
+      "status": "partial",
+      "mechanisms": [],
+      "joins": [],
+      "inspected": [
+        "Book-specific prior repository assessment: analysis/analysis_glasphist_261019_0144.md#g1058",
+        "Bounded screen of first 500 description characters and first eight contents entries where available. https://openlibrary.org/books/OL3946469M"
+      ],
+      "limitations": "Bounded review of the listed materials. The full book, all chapters and all possible cross-domain explanations have not been inspected for this schema. Missing records are not evidence of no connections."
+    },
+    "edition": {
+      "pages": 293,
+      "id": "ISBN:0486420116",
+      "url": "https://openlibrary.org/books/OL3946469M/Mohammed_Charlemagne",
+      "retrieved": "2026-10-20T14:31:50.780Z",
+      "language": "English",
+      "format": "Not stated by source",
+      "year": 2001,
+      "confidence": "moderate",
+      "title": "Mohammed & Charlemagne",
+      "authors": "Henri Pirenne",
+      "publisher": "Dover Publications, Inc.; Dover Publications",
+      "isbn10": [
+        "0486420116"
+      ],
+      "isbn13": [
+        "9780486420110"
+      ],
+      "notes": "Exact catalogued edition. Page count is number_of_pages, not a work-level median. Source pagination: 293 p. ; 22 cm.. Source: raw/ol-isbn-1365-11e966ad0137b593.json",
+      "source": {
+        "provider": "Open Library",
+        "api": "https://openlibrary.org/api/books?bibkeys=ISBN:0521398320,ISBN:0375405445,ISBN:1846144434,ISBN:0874744911,ISBN:0300058705,ISBN:0743299639,ISBN:0061988359,ISBN:1406854735,ISBN:0060935502,ISBN:0486420116,ISBN:0520248406,ISBN:0465093817,ISBN:0865479585,ISBN:0060995068,ISBN:0316392006,ISBN:1682472183,ISBN:1857994051,ISBN:1400078970,ISBN:0865475105,ISBN:0544947231,ISBN:1982120258,ISBN:0156180359,ISBN:0307700763,ISBN:0393333647,ISBN:1530109019,ISBN:1250257670,ISBN:1610396359,ISBN:150119626X,ISBN:0688060129,ISBN:1558760911,ISBN:0140240845,ISBN:0691192820,ISBN:0143036211,ISBN:0691037809,ISBN:1586483323&jscmd=details&format=json",
+        "rawFile": "data/enrichment_261020/pages/raw/ol-isbn-1365-11e966ad0137b593.json",
+        "sha256": "12a0f129eb6b1611f3a367afc77d08c44747228a7146c946b25751774037f832",
+        "editionKey": "/books/OL3946469M"
+      }
+    },
+    "research": {
+      "reviewed": "2026-10-20",
+      "domainBasis": "Manual semantic reading of book-specific prior assessment; no title-keyword rubric or automatic grade conversion.",
+      "primaryReview": null,
+      "unknownDomains": [
+        "SCI",
+        "QNT",
+        "CMP",
+        "HTC",
+        "ENG",
+        "ENE",
+        "MAT",
+        "PRD",
+        "QLT",
+        "SCL",
+        "INN",
+        "ECO",
+        "FIN",
+        "MIL",
+        "STR",
+        "HEU"
+      ],
+      "unknownReason": "The inspected materials do not establish domain-specific depth for these fields. Absence of discussion in a short assessment or catalog description is not evidence of absence in the book. Further contents or full-text evidence remains necessary.",
+      "pageAttempts": 3,
+      "pageReason": "",
+      "newAmazonObservation": null,
+      "amazonReviewReason": "Public product requests blocked; no total count observed.",
+      "domainAudit": "data/enrichment_261020/domains_a/assessments.json",
+      "pageAudit": "data/enrichment_261020/pages/progress.json"
+    }
+  }
+}

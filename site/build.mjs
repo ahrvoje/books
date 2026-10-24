@@ -97,6 +97,7 @@ export function buildDataset() {
     }
     return { id: b.id, title: titleOf(row[3]), author: row[2], year: row[1], score, sourceCount: new Set(row[7].match(/\d+/g)).size,
       veto: row[5], confidence: row[6], sources: row[7], analysis: analysisPath(link(row[3])),
+      purchaseUrl: [b.purchaseUrl, link(b.titleCell || ''), b.amazon?.url, editions[b.id]?.url].find(u => /^https?:\/\//.test(u || '')) || `https://www.amazon.de/s?k=${encodeURIComponent(titleOf(row[3]) + ' ' + row[2])}`,
       edition: editions[b.id] || null,
       referencePages: referencePages[b.id],
       ratingReview: b.ratingReview?.analysis || '',
@@ -265,6 +266,7 @@ export function build() {
       .replace('/* V6 */', () => rule('## Veto rules', 'Partisan mobilization'))
       .replace('/* V7 */', () => rule('## Veto rules', 'Spirituality, meditation'))
       .replace('/* V8 */', () => rule('## Veto rules', 'Veto works whose central purpose'))
+      .replace('/* V9 */', () => rule('## Veto rules', 'Highly disputed foundations'))
       .replace('/* RULES */', () => escape(rules)))
     .replace('/* STYLES */', () => read('site/style.css'))
     .replace('/* DATA */', () => payload)

@@ -108,6 +108,7 @@ test('read-only collections retain saved membership and veto scores', () => {
     assert.equal(cells[8],b.edition?`[${b.edition.pages}](${b.edition.url})`:'Unknown');
     if(b.edition)assert(!/audio|disc|cassette/i.test(b.edition.format));
     assert(data.documents[b.analysis.split('#')[0]],'Veto assessment must work in the isolated file');
+    assert.match(b.purchaseUrl,/^https?:\/\//,'Vetoed titles must retain an external reading link');
     assert(!data.books.some(r=>r.id===b.id));
   });
   assert.deepEqual(data.excluded,fs.readFileSync(path.join(ROOT,'EXCLUDED_BOOKS.md'),'utf8').split(/\r?\n/).filter(l=>l.startsWith('- ')).map(l=>l.slice(2).normalize('NFKC').replace(/\s+/g,' ').trim()));
@@ -334,7 +335,9 @@ test('generated standalone script parses without replacement-string corruption',
     const methodology=html.split('id="methodology-view"')[1].split('<section aria-labelledby="method-rules">')[0];
     assert(methodology.includes(escaped),'Visible methodology must include the exact current rule');
   }
-  for(const marker of ['BOOK_FORM','FICTION','REFERENCE','H5','H6','V4','V5','V6','V7','V8'])assert(!html.includes('/* '+marker+' */'));
+  for(const marker of ['BOOK_FORM','FICTION','REFERENCE','H5','H6','V4','V5','V6','V7','V8','V9'])assert(!html.includes('/* '+marker+' */'));
+  const v9=rules.split('## Veto rules')[1].split(/\r?\n/).find(line=>line.startsWith('9. Highly disputed foundations.')).slice(3);
+  assert(html.includes(v9.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))),'Visible methodology must include exact V9');
 });
 test('catalog calculation performance: 30 updates over 2000 works', () => {
   const books=Array.from({length:2000},(_,i)=>({...data.books[i%data.books.length],id:'perf'+i}));
