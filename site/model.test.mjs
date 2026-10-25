@@ -311,6 +311,10 @@ test('model export is reproducible and rejects incompatible or invalid models', 
 test('generated standalone script parses without replacement-string corruption', () => {
   build();
   const html=fs.readFileSync(HTML_FILE,'utf8');
+  const exclusions=html.split('id="method-exclusions"')[1].split('</section>')[0];
+  assert(exclusions.includes('H7 — Art appreciation'));
+  assert(exclusions.includes('Retain books whose main contribution explains transferable principles'));
+  assert(exclusions.includes('Other exclusions and vetoes still apply.'));
   const script=html.match(/<script type="module">([\s\S]*?)<\/script>/)[1];
   assert.doesNotThrow(()=>new (Object.getPrototypeOf(async function(){}).constructor)(script));
   assert(script.includes('const $$ ='));
