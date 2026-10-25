@@ -57,6 +57,9 @@ dialog{border:1px solid var(--line);border-radius:8px;max-width:850px;width:calc
   .book-table{min-width:0}
   .book-table td{padding:0}
   .book-table .parameter-cell{display:none}
+  /* Groups of 50 keep all titles searchable without laying out every phone card. */
+  .book-table tbody{content-visibility:auto;contain-intrinsic-height:auto 4500px}
+  .book-table tbody:not(:last-child) tr:last-child{border-bottom:0}
   .book-table tr{padding:7px 0}
   .book-title{font-size:16px}
   .author{font-size:11px}

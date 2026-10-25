@@ -1,5 +1,11 @@
-const packed = Uint8Array.from(atob(document.getElementById('catalog-data').textContent.trim()), c => c.charCodeAt(0));
-const DATA = JSON.parse(await new Response(new Blob([packed]).stream().pipeThrough(new DecompressionStream('gzip'))).text());
+async function readCatalog() {
+  const element = document.getElementById('catalog-data');
+  const binary = atob(element.textContent.trim()), packed = new Uint8Array(binary.length);
+  for (let i = 0; i < binary.length; i++) packed[i] = binary.charCodeAt(i);
+  element.remove();
+  return JSON.parse(await new Response(new Blob([packed]).stream().pipeThrough(new DecompressionStream('gzip'))).text());
+}
+const DATA = await readCatalog();
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
 const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -9,7 +15,7 @@ const STORAGE = 'books.model.v3';
 const initial = defaultModel(DATA.reviewYear);
 let state = clone(initial), draft = null, currentPanel = '', previousFocus = null;
 let result, rowById = new Map(), previewTimer, searchTimer, dirty = false;
-let currentDetails = null, plotGroups = [];
+let currentDetails = null, plotGroups = [], plotWidth = 0;
 function notify(text) { $('#notice').innerHTML = text ? `<span>${esc(text)}</span> <button type="button" data-dismiss-notice aria-label="Dismiss notice">×</button>` : ''; $('#notice').hidden = !text; }
 $('#notice').onclick = e => { if (e.target.closest('[data-dismiss-notice]')) notify(''); };
 function restore() {
@@ -76,6 +82,7 @@ function renderList(kind, rows) {
     return;
   }
   const columns = state.columns.map(id => COLUMN_BY_ID[id]);
+  const mobile = innerWidth < 768;
   const columnWidth = c => c.id === 'year' ? 54 : ['raw:PG','raw:SRC'].includes(c.id) ? 60 : c.kind === 'raw' && !CORE_COLUMNS.includes(c.id) ? 96 : 80;
   const tableWidth = 468 + columns.reduce((width, c) => width + columnWidth(c), 0);
   const heading = c => c.kind === 'points' ? `${esc(c.short.replace(/ points$/, ''))} <small>points</small>` : esc(c.short);
@@ -85,12 +92,12 @@ function renderList(kind, rows) {
     if (!known(v)) return '—';
     return c.kind === 'points' || c.id === 'base' || !Number.isInteger(v) ? format(v) : String(v);
   };
-  const body = rows.map(r => {
+  const body = rows.map((r, i) => {
     const b = r.book;
-    return `<tr data-book="${esc(b.id)}">
+    return `${i && i % 50 === 0 ? '</tbody><tbody>' : ''}<tr data-book="${esc(b.id)}">
       <td class="score-cell"><span class="score">${format(r.total)}</span>${r.missing.length ? '<span class="incomplete">incomplete</span>' : ''}</td>
-      <td class="title-cell"><a class="book-title" href="${esc(b.purchaseUrl)}" target="_blank" rel="noopener">${esc(b.title)}</a><span class="author"> — ${esc(b.author)}</span><div class="mobile-meta">${columns.map(c=>`<span title="${esc(c.tooltip)}">${esc(c.short)} <strong>${print(r,c)}</strong></span>`).join(' · ')}</div>${r.reasons.length ? `<div class="reason">${esc(r.reasons[0])}${r.reasons.length > 1 ? ` (+${r.reasons.length - 1})` : ''}</div>` : ''}</td>
-      ${columns.map(c=>`<td class="parameter-cell meta-number" data-column="${esc(c.id)}" title="${esc(c.tooltip)}${c.id==='periodEnd'&&b.periodEnd===null?' · non-period account':''}${c.kind==='points'&&r.terms[c.variable].missing?' · missing input; zero fallback':''}">${print(r,c)}${c.kind==='points'&&r.terms[c.variable].missing?'*':''}</td>`).join('')}
+      <td class="title-cell"><a class="book-title" href="${esc(b.purchaseUrl)}" target="_blank" rel="noopener">${esc(b.title)}</a><span class="author"> — ${esc(b.author)}</span>${mobile ? `<div class="mobile-meta">${columns.map(c=>`<span title="${esc(c.tooltip)}">${esc(c.short)} <strong>${print(r,c)}</strong></span>`).join(' · ')}</div>` : ''}${r.reasons.length ? `<div class="reason">${esc(r.reasons[0])}${r.reasons.length > 1 ? ` (+${r.reasons.length - 1})` : ''}</div>` : ''}</td>
+      ${(mobile ? [] : columns).map(c=>`<td class="parameter-cell meta-number" data-column="${esc(c.id)}" title="${esc(c.tooltip)}${c.id==='periodEnd'&&b.periodEnd===null?' · non-period account':''}${c.kind==='points'&&r.terms[c.variable].missing?' · missing input; zero fallback':''}">${print(r,c)}${c.kind==='points'&&r.terms[c.variable].missing?'*':''}</td>`).join('')}
       <td class="action-cell"><button class="text-button details-button" data-details="${esc(b.id)}" aria-label="Details for ${esc(b.title)}">Details</button></td></tr>`;
   }).join('');
   root.innerHTML = `${columns.length>CORE_COLUMNS.length?`<div class="column-scroll-control"><span>Scroll to see all columns ↔</span><div class="column-scrollbar" tabindex="-1" aria-label="Scroll ${kind} book columns"><div style="width:${tableWidth}px"></div></div></div>`:''}<div class="table-scroll" tabindex="-1" aria-label="${kind==='matching'?'Matching':'Filtered'} books, all ${rows.length} rows"><table class="book-table" style="--table-min:${tableWidth}px"><colgroup><col class="score-col"><col>${columns.map(c=>`<col class="parameter-col" style="width:${columnWidth(c)}px">`).join('')}<col class="action-col"></colgroup><thead><tr><th scope="col" class="score-heading" title="Total score using your current settings">Score</th><th scope="col" title="Book title and its author">Title / author</th>${columns.map(c=>`<th scope="col" class="parameter-heading" data-column="${esc(c.id)}" title="${esc(c.tooltip)}">${heading(c)}</th>`).join('')}<th scope="col" title="Open evidence, assessments and score calculations">Details</th></tr></thead><tbody>${body}</tbody></table></div>`;
@@ -353,9 +360,14 @@ $('#cancel').onclick = $('#close-editor').onclick = closeEditor;
 $('#panel-tabs').onclick = e => { const b = e.target.closest('[data-panel]'); if (b) openEditor(b.dataset.panel); };
 $('#columns').onclick = () => openEditor('columns');
 $('#search').addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(() => { state.query = $('#search').value; if (draft) draft.query = state.query; persist(); render(); }, 150); });
-$('#toggle-filtered').onclick = () => { state.showFiltered = !state.showFiltered; persist(); render(); };
+$('#toggle-filtered').onclick = () => {
+  state.showFiltered = !state.showFiltered; persist();
+  $('#filtered-list').hidden = !state.showFiltered;
+  $('#toggle-filtered').textContent = state.showFiltered ? 'Collapse' : 'Expand';
+  $('#toggle-filtered').setAttribute('aria-expanded', state.showFiltered);
+};
 for (const axis of ['x', 'y']) $('#plot-' + axis + '-scale').onchange = e => { state[axis + 'Scale'] = e.target.value; if (draft) draft[axis + 'Scale'] = e.target.value; persist(); renderPlot(); };
-$('#hide-plot').onclick = () => { state.plot = false; persist(); render(); };
+$('#hide-plot').onclick = () => { state.plot = false; persist(); $('#plot-section').hidden = true; };
 $('#results').addEventListener('click', e => {
   const el = e.target.closest('button'); if (!el) return;
   if (el.dataset.details) showBook(el.dataset.details);
@@ -372,8 +384,19 @@ document.addEventListener('keydown', e => {
     else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
   }
 });
+let viewportWidth = innerWidth, plotResizeTimer;
 addEventListener('resize', () => {
-  if (state.plot && result) renderPlot();
+  // Mobile browser chrome changes height while scrolling, not plot width.
+  if (innerWidth === viewportWidth) return;
+  const layoutChanged = (innerWidth < 768) !== (viewportWidth < 768);
+  viewportWidth = innerWidth;
+  if (layoutChanged && result) {
+    renderList('matching', result.matching); renderList('filtered', result.filtered);
+  }
+  clearTimeout(plotResizeTimer);
+  if (state.plot && result) plotResizeTimer = setTimeout(() => {
+    if (!$('#books-view').hidden) renderPlot();
+  }, 150);
   if (!draft) return;
   const mobile = innerWidth < 768;
   $('#results').inert = mobile; $('.masthead').inert = mobile; $('#panel-tabs').inert = mobile;
@@ -457,7 +480,7 @@ $('#data-review').onclick = () => {
     <li><strong>Rounding:</strong> Scores use full precision for calculation and order. The site and ledgers share the same two-decimal display rounding.</li>
     <li><strong>Dates:</strong> ${DATA.reviewYear} is the fixed baseline review year. Original years and historical scope are inherited from the repository with their recorded confidence.</li>
     <li><strong>Confidence:</strong> high in verified calculation equivalence; book assessments retain their own confidence.</li>
-    <li><strong>Portability:</strong> this is one self-contained HTML file, including the catalog, styles, scripts, and cited repository analyses. All features and embedded evidence work offline. Only optional external purchase/publisher/source links need a connection.</li></ul><p class="help">Dataset ${esc(DATA.datasetHash)}. Build ${esc(DATA.generated)}. More review notes are in IMPLEMENTATION_REVIEW.md in the repository.</p>`);
+    <li><strong>Portability:</strong> this is one self-contained HTML file, including the catalog, styles, scripts, and displayed assessments and evidence links. Scoring, filters, plots, and book details work offline. Full repository analyses and external purchase/publisher/source links need a connection.</li></ul><p class="help">Dataset ${esc(DATA.datasetHash)}. Build ${esc(DATA.generated)}. More review notes are in IMPLEMENTATION_REVIEW.md in the repository.</p>`);
 };
 $('#footer-review').onclick = () => $('#data-review').click();
 function renderPlot() {
@@ -478,6 +501,7 @@ function renderPlot() {
   $('#plot-caption').textContent = `${points.length.toLocaleString()} books plotted · Boundary sizes: ${layers.map(layer=>layer.size).join(' / ')} · ${missing.toLocaleString()} unplotted: missing axis data.${points.length && !matchingPoints.length ? ' No matching books can be plotted; boundaries use visible filtered books.' : ''}${logarithmic.some(Boolean) ? ` Logarithmic ${['X', 'Y'].filter((_, i) => logarithmic[i]).join(' / ')}: ${nonpositive.toLocaleString()} unplotted with zero or negative values on a logarithmic axis; boundaries compare original values of plottable books.` : ''} ${state.axes.map(a => a.label + (a.direction === 'max' ? ' ↑' : ' ↓')).join(' / ')}`;
   if (!points.length) { $('#plot').innerHTML = '<p class="plot-empty">No boundary can be drawn: no books have plottable values on both axes.<br>Choose variables with known data, or use linear scales for zero or negative values.</p>'; return; }
   const W = Math.max(270, $('#plot').clientWidth), H = innerWidth < 768 ? 300 : 350, pad = { l: logarithmic[1] ? 76 : 52, r: 18, t: 22, b: 54 };
+  plotWidth = W;
   const bounds = [0, 1].map(i => { const v = points.map(r => transform(r.axes[i], i)), lo = Math.min(...v), hi = Math.max(...v), margin = (hi - lo || Math.max(1, Math.abs(lo) * .1)) * .06; return [lo - margin, hi + margin]; });
   const x = v => pad.l + (transform(v, 0) - bounds[0][0]) / (bounds[0][1] - bounds[0][0]) * (W - pad.l - pad.r);
   const y = v => H - pad.b - (transform(v, 1) - bounds[1][0]) / (bounds[1][1] - bounds[1][0]) * (H - pad.t - pad.b);
@@ -551,10 +575,12 @@ $('#plot').addEventListener('focusin', e => { const index = highlightPlotTitle(e
 $('#plot').addEventListener('focusout', e => highlightPlotTitle($('#plot').contains(e.relatedTarget) ? e.relatedTarget : null));
 $('#plot').addEventListener('click', e => { const p = e.target.closest('[data-point]'); if (p) showPoint(+p.dataset.point); });
 $('#plot').addEventListener('keydown', e => { const p = e.target.closest('[data-point]'); if (p && ['Enter', ' '].includes(e.key)) { e.preventDefault(); showPoint(+p.dataset.point); } });
-function renderReferenceLists() {
-  $('#vetoed-list').innerHTML = `<div class="table-scroll" tabindex="-1" aria-label="All ${DATA.vetoed.length} vetoed books"><table class="veto-table"><thead><tr><th title="Score if the veto were suspended">Stored score</th><th title="Book title and its author">Title / author</th><th title="Year first published or originally composed">Year</th><th title="Rules that prevent recommendation">Veto</th><th title="Confidence in the veto decision">Confidence</th><th title="Amazon ratings for one product">Amazon ratings</th><th title="Pages in the recorded edition">Pages</th><th title="Pages of references or endnotes">Reference pages</th><th title="Number of distinct recorded sources">Sources</th><th title="Open evidence, assessments and score calculations">Details</th></tr></thead><tbody>${DATA.vetoed.map(b=>`<tr data-veto-book="${esc(b.id)}"><td class="veto-score"><span class="score">${esc(b.score)}</span></td><td class="veto-title"><a class="book-title" href="${esc(b.purchaseUrl)}" target="_blank" rel="noopener">${esc(b.title)}</a><span class="author"> — ${esc(b.author)}</span><div class="mobile-meta">Year ${esc(b.year)} · ${esc(b.veto)} · ${esc(b.confidence)} confidence · Amazon ratings ${esc(b.amazon.count ?? "—")} · Pages ${esc(b.edition?.pages ?? "—")} · Reference pages ${esc(b.referencePages.pages ?? "—")} · Sources ${esc(b.sourceCount)}</div></td><td class="veto-meta">${esc(b.year)}</td><td class="veto-meta">${esc(b.veto)}</td><td class="veto-meta">${esc(b.confidence)}</td><td class="veto-meta">${esc(b.amazon.count ?? "—")}</td><td class="veto-meta">${esc(b.edition?.pages ?? "—")}</td><td class="veto-meta">${esc(b.referencePages.pages ?? "—")}</td><td class="veto-meta">${esc(b.sourceCount)}</td><td class="veto-action"><button class="text-button details-button" data-veto-details="${esc(b.id)}" aria-label="Details for ${esc(b.title)}">Details</button></td></tr>`).join('')}</tbody></table></div>`;
-  $('#excluded-list').innerHTML = DATA.excludedGroups.map((group, i)=>`<section aria-labelledby="excluded-category-${i}"><h3 id="excluded-category-${i}">${esc(group.name)} <small>(${group.books.length})</small></h3><ul class="excluded-list">${group.books.map(b=>`<li>${esc(b)}</li>`).join('')}</ul></section>`).join('');
-  $('#sources-list').innerHTML = Object.values(DATA.sources).sort((a,b)=>a.id-b.id).map(s=>`<tr data-source="${s.id}"><th scope="row" class="source-number">${s.id}</th><td class="source-date"><time datetime="${esc(s.date)}">${esc(s.date)}</time></td><td class="source-title">${anchor(s.url,s.label)}</td><td class="source-analysis">${anchor(s.analysis,'Read analysis')}</td></tr>`).join('');
+function renderReferenceLists(page) {
+  const root = $('#' + page + '-list');
+  if (!root || root.childElementCount) return;
+  if (page === 'vetoed') $('#vetoed-list').innerHTML = `<div class="table-scroll" tabindex="-1" aria-label="All ${DATA.vetoed.length} vetoed books"><table class="veto-table"><thead><tr><th title="Score if the veto were suspended">Stored score</th><th title="Book title and its author">Title / author</th><th title="Year first published or originally composed">Year</th><th title="Rules that prevent recommendation">Veto</th><th title="Confidence in the veto decision">Confidence</th><th title="Amazon ratings for one product">Amazon ratings</th><th title="Pages in the recorded edition">Pages</th><th title="Pages of references or endnotes">Reference pages</th><th title="Number of distinct recorded sources">Sources</th><th title="Open evidence, assessments and score calculations">Details</th></tr></thead><tbody>${DATA.vetoed.map(b=>`<tr data-veto-book="${esc(b.id)}"><td class="veto-score"><span class="score">${esc(b.score)}</span></td><td class="veto-title"><a class="book-title" href="${esc(b.purchaseUrl)}" target="_blank" rel="noopener">${esc(b.title)}</a><span class="author"> — ${esc(b.author)}</span><div class="mobile-meta">Year ${esc(b.year)} · ${esc(b.veto)} · ${esc(b.confidence)} confidence · Amazon ratings ${esc(b.amazon.count ?? "—")} · Pages ${esc(b.edition?.pages ?? "—")} · Reference pages ${esc(b.referencePages.pages ?? "—")} · Sources ${esc(b.sourceCount)}</div></td><td class="veto-meta">${esc(b.year)}</td><td class="veto-meta">${esc(b.veto)}</td><td class="veto-meta">${esc(b.confidence)}</td><td class="veto-meta">${esc(b.amazon.count ?? "—")}</td><td class="veto-meta">${esc(b.edition?.pages ?? "—")}</td><td class="veto-meta">${esc(b.referencePages.pages ?? "—")}</td><td class="veto-meta">${esc(b.sourceCount)}</td><td class="veto-action"><button class="text-button details-button" data-veto-details="${esc(b.id)}" aria-label="Details for ${esc(b.title)}">Details</button></td></tr>`).join('')}</tbody></table></div>`;
+  if (page === 'excluded') $('#excluded-list').innerHTML = DATA.excludedGroups.map((group, i)=>`<section aria-labelledby="excluded-category-${i}"><h3 id="excluded-category-${i}">${esc(group.name)} <small>(${group.books.length})</small></h3><ul class="excluded-list">${group.books.map(b=>`<li>${esc(b)}</li>`).join('')}</ul></section>`).join('');
+  if (page === 'sources') $('#sources-list').innerHTML = Object.values(DATA.sources).sort((a,b)=>a.id-b.id).map(s=>`<tr data-source="${s.id}"><th scope="row" class="source-number">${s.id}</th><td class="source-date"><time datetime="${esc(s.date)}">${esc(s.date)}</time></td><td class="source-title">${anchor(s.url,s.label)}</td><td class="source-analysis">${anchor(s.analysis,'Read analysis')}</td></tr>`).join('');
 }
 $('#vetoed-list').onclick = e => {
   const id=e.target.closest('[data-veto-details]')?.dataset.vetoDetails;if(!id)return;
@@ -563,16 +589,19 @@ $('#vetoed-list').onclick = e => {
 };
 function showPage(focus = false) {
   const hash=location.hash.slice(1),name=hash.replace(/-view$/,''),page=['vetoed','excluded','sources','methodology'].includes(name)?name:hash.startsWith('method-')?'methodology':'books';
+  renderReferenceLists(page);
   if(draft)closeEditor();
   if(page!=='books')currentDetails=null;
   for(const name of ['books','vetoed','excluded','sources','methodology'])$('#'+name+'-view').hidden=name!==page;
+  if (page === 'books' && state.plot && plotWidth !== Math.max(270, $('#plot').clientWidth)) renderPlot();
   $('#book-toolbar').hidden=page!=='books';
   for(const a of $$('[data-page]')){if(a.dataset.page===page)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');}
   $('.skip').href=page==='books'?'#results':'#'+page+'-view';
   document.title=({books:'Book Explorer',vetoed:'Vetoed books',excluded:'Excluded books',sources:'Sources',methodology:'Methodology'})[page]+' — a working library';
   if(focus&&!hash.startsWith('method-')){scrollTo(0,0);}
 }
-for(const name of ['books','vetoed','excluded'])$('#nav-'+name+'-count').textContent=DATA[name].length.toLocaleString();
+for(const name of ['books','vetoed'])$('#nav-'+name+'-count').textContent=DATA[name].length.toLocaleString();
+$('#nav-excluded-count').textContent=DATA.excludedGroups.reduce((n, group) => n + group.books.length, 0).toLocaleString();
 $('#nav-sources-count').textContent=Object.keys(DATA.sources).length.toLocaleString();
 addEventListener('hashchange',()=>showPage(true));
-restore(); $('#search').value = state.query; render(); renderReferenceLists(); showPage();
+restore(); $('#search').value = state.query; render(); showPage();

@@ -324,12 +324,29 @@ test('generated standalone script parses without replacement-string corruption',
   for (const collection of ['books','vetoed']) embedded[collection].forEach((b,i)=>{
     const expected=JSON.parse(JSON.stringify(data[collection][i]));
     if(expected.edition){
-      for(const k of ['pages','id','url','retrieved','language','format','year','confidence','notes','note'])assert.deepEqual(b.edition[k],expected.edition[k]);
+      for(const k of ['pages','id','url','retrieved','language','format','year','confidence','notes'])assert.deepEqual(b.edition[k],expected.edition[k]);
       expected.edition=b.edition;
+    }
+    const omit = (object, keys) => { if(object) for(const key of keys.split(' ')) delete object[key]; };
+    if(collection==='books'){
+      omit(expected,'entryDate ledgerScore referencePages');
+      for(const evidence of Object.values(expected.evidence))omit(evidence,'value');
+      omit(expected.research,'pageAttempts domainAudit pageAudit');
+      omit(expected.research?.primaryReview,'retrieved refs confidence');
+      omit(expected.research?.newAmazonObservation,'source');
+      omit(expected.connections,'inspectedMaterial inspected');
+      close(evaluateBook(b,model).total,expected.base);
+    }else{
+      expected.bonusAssessment={reason:expected.bonusAssessment.reason};
+      omit(expected.referencePages,'method source sameEditionAsPG documentedCounts');
+      if(expected.referencePages.edition)expected.referencePages.edition={id:expected.referencePages.edition.id};
+      for(const range of expected.referencePages.ranges||[])omit(range,'evidence method volume');
     }
     assert.deepEqual(b,expected,'Portable records preserve all displayed facts and assessments');
   });
-  assert.deepEqual(embedded.documents,{});
+  assert.equal(embedded.documents,undefined);
+  assert.equal(embedded.excluded,undefined);
+  assert.deepEqual(embedded.excludedGroups,data.excludedGroups);
   assert(Buffer.byteLength(html)<=1500*(data.books.length+data.vetoed.length));
   assert(!html.includes('src="http'));
   const rules=fs.readFileSync(path.join(ROOT,'AGENTS.md'),'utf8');

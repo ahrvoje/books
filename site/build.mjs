@@ -236,13 +236,39 @@ export function buildDataset() {
       connections: books.filter(b => b.connections.status === 'complete').length
     } };
 }
+// Explicit page schema: research archives stay in the repository, not the browser.
+export function portableDataset(dataset) {
+  const pick = (value, keys) => value == null ? value : Object.fromEntries(keys.split(' ').filter(k => k in value).map(k => [k, value[k]]));
+  const edition = value => pick(value, 'pages id url retrieved language format year confidence notes');
+  return {
+    ...pick(dataset, 'reviewYear datasetHash generated coverage sources excludedGroups'),
+    books: dataset.books.map(b => ({
+      ...pick(b, 'id title author year purchaseUrl subtitle sources values periodEnd scope scopeNote confidence yearConfidence periodConfidence verdict analysis amazon reader ratingReview scoreReview base ledgerMismatch search sortKey'),
+      edition: edition(b.edition),
+      connections: pick(b.connections, 'status mechanisms joins limitations'),
+      evidence: Object.fromEntries(Object.entries(b.evidence).map(([id, e]) => [id, pick(e, 'rationale confidence refs')])),
+      research: b.research && {
+        ...pick(b.research, 'reviewed domainBasis unknownDomains unknownReason pageReason amazonReviewReason'),
+        primaryReview: pick(b.research.primaryReview, 'method limitations'),
+        newAmazonObservation: pick(b.research.newAmazonObservation, 'count url marketplace product retrieved confidence limitations')
+      }
+    })),
+    vetoed: dataset.vetoed.map(b => ({
+      ...pick(b, 'id title author year score sourceCount veto confidence sources analysis purchaseUrl ratingReview scoreReview bonuses amazon reason'),
+      edition: edition(b.edition),
+      bonusAssessment: pick(b.bonusAssessment, 'reason'),
+      referencePages: {
+        ...pick(b.referencePages, 'pages confidence url limitation reason'),
+        edition: pick(b.referencePages.edition, 'id'),
+        ranges: b.referencePages.ranges?.map(r => pick(r, 'label start end'))
+      }
+    }))
+  };
+}
 export function build() {
   const dataset = buildDataset();
-  // Keep book evidence offline; full historical reports stay in the repository.
-  const portableBook = b => ({ ...b, ...(b.edition ? { edition: Object.fromEntries(
-    ['pages', 'id', 'url', 'retrieved', 'language', 'format', 'year', 'confidence', 'notes', 'note'].filter(k => k in b.edition).map(k => [k, b.edition[k]])
-  ) } : {}) });
-  const portable = { ...dataset, books: dataset.books.map(portableBook), vetoed: dataset.vetoed.map(portableBook), documents: {} };
+  // Keep displayed evidence offline; full historical reports stay in the repository.
+  const portable = portableDataset(dataset);
   const payload = gzipSync(JSON.stringify(portable), { level: 9 }).toString('base64');
   const model = read('site/model.mjs').replace(/^export /gm, '');
   const rules = read('AGENTS.md'), escape = text => text.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
