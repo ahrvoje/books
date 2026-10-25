@@ -1,0 +1,24 @@
+{
+  "books": {
+    "shelf-57f1c44d2300": {
+      "attempts": [
+        {
+          "url": "https://www.amazon.com/dp/0195168755",
+          "rawFile": "data/metadata1000_261025/raw/amazon-shelf-57f1c44d2300-0195168755.html.gz",
+          "retrieved": "2026-10-25T14:02:03.574Z",
+          "status": 200
+        }
+      ],
+      "done": true
+    }
+  },
+  "intervalMs": 60000,
+  "lastRequest": 1792936923573,
+  "blocked": {
+    "url": "https://www.amazon.com/dp/0195168755",
+    "rawFile": "data/metadata1000_261025/raw/amazon-shelf-57f1c44d2300-0195168755.html.gz",
+    "retrieved": "2026-10-25T14:02:03.574Z",
+    "status": 200,
+    "reason": "Access challenge; direct Amazon requests stopped without changing region or identity."
+  }
+}

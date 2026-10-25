@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+const dir='data/metadata1000_261025',m=JSON.parse(fs.readFileSync(dir+'/manual.json')),b=JSON.parse(fs.readFileSync(dir+'/targets.json'));
+function edition(id,pages,isbn,year,format,url,file){const t=b.find(x=>x.id===id);(m[id]||={}).edition={id:'ISBN:'+isbn,pages,year,format,language:'English',url,title:t.title,authors:t.author,retrieved:'2026-10-25',confidence:'moderate',source:{file:dir+'/raw/'+file,url,retrieved:'2026-10-25'},notes:'Manually matched edition extent and identifiers in the cited publisher or library record.'};}
+function reference(id,isbn,year,ranges,url,file){const t=b.find(x=>x.id===id);(m[id]||={}).referenceRecord={pages:ranges.reduce((s,r)=>s+r[1]-r[0]+1,0),ranges:ranges.map(([start,end,label])=>({start,end,label,method:'reviewed-contents-or-catalog',evidence:label+' '+start+'–'+end})),edition:{id:'ISBN:'+isbn,title:t.title,author:t.author,year,language:'English'},confidence:'moderate',method:'reviewed-contents-or-catalog',url,source:{file:dir+'/raw/'+file,url,retrieved:'2026-10-25'},sameEditionAsPG:false,limitation:'Only named bounded reference sections included; excludes index and any unlisted material.'};}
+edition('shelf-376c83ac7d97',504,'9781472530226',2015,'Paperback','https://www.peervries.com/index.php','page-search-000.json');
+m['shelf-376c83ac7d97'].edition.notes+=' Paperback ISBN confirmed by the publisher copyright page in the introduction PDF cited in the same saved search; extent from the author’s publication list.';
+edition('rest-129-108',262,'9780241999509',2025,'Print edition (binding unspecified)','https://ge.nii.ac.jp/ncid/BD13572250','page-search-000.json');
+reference('rest-129-108','9780241999509',2025,[[203,247,'Bibliographical references']],'https://ge.nii.ac.jp/ncid/BD13572250','page-search-000.json');
+edition('shelf-a7c185b14dd3',528,'9780226826684',2023,'Hardcover','https://press.uchicago.edu/dam/jcr%3A756fc987-ee69-4af5-9553-07ebb3d51c6b/F23Chicago_FINAL.pdf','page-search-000.json');
+edition('shelf-8977291d1d3e',336,'9780735216143',2018,'Paperback','https://www.penguinrandomhouse.com/books/551484/fifty-inventions-that-shaped-the-modern-economy-by-tim-harford/9780735216150/','page-search-000.json');
+edition('shelf-8b77c5584d4c',341,'9780822352877',2012,'Google Books edition (binding unspecified)','https://books.google.com/books/about/MP3.html?id=O9bcwTHMpN0C','page-search-004.json');
+reference('shelf-8b77c5584d4c','9780822352877',2012,[[247,294,'Notes'],[299,330,'Bibliography']],'https://books.google.com/books/about/MP3.html?id=O9bcwTHMpN0C','page-search-004.json');
+fs.writeFileSync(dir+'/manual.json',JSON.stringify(m,null,2)+'\n');

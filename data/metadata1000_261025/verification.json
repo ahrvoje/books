@@ -1,0 +1,48 @@
+{
+  "catalogValidation": "passed",
+  "unitTests": 21,
+  "build": "passed",
+  "unchangedInputs": {
+    "VETOED_BOOKS.md": true,
+    "EXCLUDED_BOOKS.md": true,
+    "site/enrichment.json": true,
+    "data/intake_complete_261025/compiled.json": true
+  },
+  "browser": {
+    "errors": [],
+    "networkRequests": [],
+    "viewports": [
+      {
+        "width": 320,
+        "scroll": 320,
+        "renderMs": 446.80000019073486
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "renderMs": 446.80000019073486
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "renderMs": 446.80000019073486
+      },
+      {
+        "width": 1099,
+        "scroll": 1099,
+        "renderMs": 446.80000019073486
+      },
+      {
+        "width": 1100,
+        "scroll": 1100,
+        "renderMs": 446.80000019073486
+      },
+      {
+        "width": 1440,
+        "scroll": 1440,
+        "renderMs": 446.80000019073486
+      }
+    ],
+    "checks": "Isolated compressed file; 5799 books, 755 vetoed works and 2898 exclusions; 288 sources with online input and analysis links; offline book evidence and methodology; silent catalog migration; four default columns; controls above results; underlined titles; filters, signed rate, Pareto, settings, mobile drafts and persistence passed."
+  }
+}
