@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+const p='data/metadata2_261025/manual.json',m=JSON.parse(fs.readFileSync(p));
+const add=(id,title,authors,pages,year,isbn,url,file,format='Print edition (binding unspecified)')=>{(m[id]||={}).edition={id:'ISBN:'+isbn,title,authors,pages,year,isbn:[isbn],url,format,language:'English',confidence:'moderate',source:{file:'data/metadata2_261025/raw/'+file,url,retrieved:'2026-10-25',evidence:'Explicit matching title, author and edition page count.'}};};
+add('shelf-a86bbb5039a5','Against the Odds: An Autobiography','James Dyson',288,1997,'0752809814','https://obnb.uk/p10733640-against-the-odds-an-autobiography','manual-pages-001.json','Hardcover');
+add('shelf-cedaa1931544','What is Life?: How Chemistry Becomes Biology','Addy Pross',208,2016,'0198784791','https://books.google.com/books/about/What_is_Life.html?id=ETUTDAAAQBAJ','manual-pages-001.json');
+add('shelf-49223c76f9aa','Bloomberg by Bloomberg, Revised and Updated','Michael R. Bloomberg',256,2019,'9781119554264','https://www.wiley.com/en-us/bloomberg-by-bloomberg-revised-and-updated-p-9781119554264','manual-pages-003.json','Hardcover');
+add('shelf-cdcc80c76fb7','Make Something Wonderful: Steve Jobs in his own words','Steve Jobs',253,2023,'unassigned-SJA-2023','https://www.abebooks.com/first-edition/wonderful-steve-jobs-own-words-archive/32401011907/bd','manual-pages-003.json','Hardcover');
+m['shelf-cdcc80c76fb7'].edition.id='SteveJobsArchive:2023-hardcover';m['shelf-cdcc80c76fb7'].edition.isbn=[];
+add('shelf-ba6efe733858','Messy: How to Be Creative and Resilient in a Tidy-Minded World','Tim Harford',284,2016,'unassigned-NIE-Messy','https://niews.nie.edu.sg/jul2017/bookworm.html','manual-pages-003.json');
+m['shelf-ba6efe733858'].edition.id='NIE:Messy-2017-library-list';m['shelf-ba6efe733858'].edition.isbn=[];m['shelf-ba6efe733858'].edition.notes='NIE library list identifies the exact UK title, author and 284 pages. Binding and ISBN not supplied; edition year follows the work year and is unconfirmed.';m['shelf-ba6efe733858'].edition.year=null;
+fs.writeFileSync(p,JSON.stringify(m,null,2)+'\n');

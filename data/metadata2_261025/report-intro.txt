@@ -1,0 +1,37 @@
+let text=`# Second recommended-book metadata collection
+
+${date}, Europe/Warsaw. This round starts from the completed first-round catalog, ${baseline}. Books are queued by their initial unrounded repository scores. Each newly known numeric field counts once per book. Earlier additions, repeated evidence, score recalculations, link replacements and corrections to already-known values do not count toward the requested 1,000 missing fields.
+
+| Change | Count |
+|---|---:|
+| New page counts | ${summary.pagesAdded} |
+| New reference-page counts | ${summary.referenceCountsAdded} |
+| New Amazon rating aggregates | ${summary.ratingsAdded} |
+| **New numeric fields** | **${summary.numericDataPoints}** |
+| Existing page counts corrected, additional | ${summary.pageCountsCorrected} |
+| Generic Amazon searches replaced with ISBN URLs, additional | ${summary.searchLinksReplaced} |
+| All changed fields | ${summary.totalChanges} |
+
+${summary.booksEnriched} recommended books changed; ${summary.scoresChanged} scores changed. Eligibility, raw criterion judgments, density assessments, thematic deductions, publication ages and distinct source membership are retained. R&D is recalculated from documented reference and total-page counts; unknown inputs retain the explicit zero fallback. O15 changes only for a newly established Amazon aggregate. Totals use unrounded inputs. No new source IDs or books were added.
+
+## Collection and evidence
+
+Open Library requests are at least 3.5 seconds apart; CiNii and Harvard requests at least four seconds; Google Books previews at least six seconds; Internet Archive and small HathiTrust batches at least ten seconds. Independent services run concurrently. Earlier completed searches and saved responses are reused where available. Collectors stop on access-limit responses. Public indexed Google Books records provide further edition lengths and numbered contents. No login, CAPTCHA bypass or proxy rotation is used.
+
+The preceding round's direct Amazon access challenge was not retried. Public web-cache checks for the highest remaining rating gaps returned cache misses. Missing or blocked counts stay unknown, and no verified zero-rating book was established. Link replacements identify a documented print edition; **Amazon product endpoints and stock remain unverified**. A valid ISBN is not proof that an Amazon listing is live.
+
+Metadata sources include [Open Library](https://openlibrary.org), [Internet Archive](https://archive.org), [Google Books](https://books.google.com), [CiNii Books](https://ci.nii.ac.jp/books/), [HathiTrust](https://www.hathitrust.org/member-libraries/resources-for-librarians/data-resources/bibliographic-api/) and [Harvard Library](https://library.harvard.edu/services-tools/harvard-library-datasets). Harvard bibliographic metadata is supplied by Harvard Library, OCLC and the Library of Congress under Harvard's open-metadata terms; no additional restrictions are claimed over that metadata.
+
+Reference counts use only explicitly bounded sections and exclude indexes. A partial catalog listing can omit other reference sections; unlisted pages are not inferred. Catalogued numbered extents exclude Roman preliminaries and separately numbered plates. Every accepted value retains a source, retrieval record and edition identity. Metadata confidence is generally moderate. Reference-to-total ratios from different or unconfirmed editions are labelled estimates with low confidence. This is not a full-text audit of every book.
+
+## Verification and held candidates
+
+The inherited series and identity holds remain. Single-volume or abridgment candidates for The History of the Standard Oil Company, On What Matters, Hitler: A Biography, A Study of History and The Story of Civilization are not accepted as counts for an unspecified whole work. Ambiguous expanded titles, shorter adaptations and future-dated editions are held. Matching title and author alone does not establish matching scope. Additional held candidates and review decisions are recorded in the collection scripts and audit files.
+
+The Nature of Rationality had a prior 40-page chapter extent (p.1–40) recorded as a full-book length. The matching library record documents xvi, 226 pages; this correction is separate from the missing-field target. The original record remains in the prior catalog snapshot. The title-specific entry below records the revised score and evidence.
+
+Automated verification checks positive page counts, bounded reference ranges, identity matches, distinct changed fields, retained source membership and raw judgments, and recomputed scores. All old analyses remain history.
+
+Machine-readable records: [changes](../${dir}/review.json), [summary](../${dir}/summary.json), [library](../${dir}/library.json), [archive](../${dir}/archive.json), [CiNii](../${dir}/cinii.json), [Harvard](../${dir}/harvard.json), [HathiTrust](../${dir}/hathi.json), [Google previews](../${dir}/google-html.json), [indexed Google records](../${dir}/search-pages.json).
+
+`;

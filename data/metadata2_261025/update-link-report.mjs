@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+const p='data/metadata2_261025/publish.mjs';let s=fs.readFileSync(p,'utf8');
+s=s.replace("searchLinksReplaced:changes.filter(x=>x.purchaseUrl).length", "searchLinksReplaced:changes.filter(x=>x.purchaseUrl&&x.oldLink.includes('/s?')).length,editionLinksUpdated:changes.filter(x=>x.purchaseUrl&&!x.oldLink.includes('/s?')).length");
+s=s.replace('summary.numericDataPoints+summary.searchLinksReplaced+summary.pageCountsCorrected','summary.numericDataPoints+summary.searchLinksReplaced+summary.editionLinksUpdated+summary.pageCountsCorrected');
+s=s.replace('generic search replaced by an ISBN-specific Amazon.de URL','purchase target updated to an ISBN-specific Amazon.de URL');
+s=s.replace('replaces [generic search](${x.oldLink})','replaces [previous purchase link](${x.oldLink})');
+s=s.replace('Public web-cache checks for the highest remaining rating gaps returned cache misses.', 'Public web-cache checks for several high-ranked rating gaps failed. A matching cached paperback page for Dark Data supplied its product-level aggregate of 64; the snapshot is labelled September 2026. This is not a fresh count or an exhaustive comparison of editions.');
+s=s.replace('| All changed fields |', '| Existing product links changed to a documented paperback, additional | ${summary.editionLinksUpdated} |\n| All changed fields |');
+fs.writeFileSync(p,s);
+const v='data/metadata2_261025/validate.mjs';s=fs.readFileSync(v,'utf8').replace("assert(x.oldLink.includes('/s?'));", "assert(x.oldLink.includes('/s?')||x.linkEvidence.replaceExisting===true);");fs.writeFileSync(v,s);

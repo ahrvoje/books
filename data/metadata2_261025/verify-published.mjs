@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import assert from 'node:assert/strict';
+const dir='data/metadata2_261025',read=p=>JSON.parse(fs.readFileSync(p)),summary=read(dir+'/summary.json');
+const checks=read(dir+'/checks.json');for(const name of ['build','model','browser'])assert.equal(checks[name]?.exit_code,0,'Check did not pass: '+name);
+assert(summary.numericDataPoints>=1000);
+assert.equal(read('data/catalog.json').compiled,dir+'/compiled.json');
+for(const [main,candidate]of [['RECOMMENDED_BOOKS.md','candidate-recommended.md'],['site/editions.json','candidate-editions.json'],['site/reference-pages.json','candidate-reference-pages.json']])assert.equal(fs.readFileSync(main,'utf8'),fs.readFileSync(dir+'/'+candidate,'utf8'));
+const hashes=read(dir+'/input-hashes.json'),protectedFiles=['VETOED_BOOKS.md','EXCLUDED_BOOKS.md','site/enrichment.json','data/metadata1000_261025/compiled.json'];
+for(const p of protectedFiles)assert.equal(crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex'),hashes[p]);
+const verification={checkedAt:new Date().toISOString(),numericDataPoints:summary.numericDataPoints,booksEnriched:summary.booksEnriched,candidatesMatchPublishedFiles:true,protectedFilesUnchanged:protectedFiles,sourceMembershipAndRawAssessments:'Checked for every changed book by validate.mjs',build:'passed',modelTests:'21 passed',browserTests:'passed'};
+fs.writeFileSync(dir+'/verification.json',JSON.stringify(verification,null,2)+'\n');
+fs.appendFileSync(summary.report,'\n## Final validation\n\nThe published table and metadata files match the reviewed candidates. All '+summary.numericDataPoints+' numeric additions were unknown at the start of this round. Saved evidence, identity checks, reference bounds, unique fields and score arithmetic passed. The production build, 21 model tests and browser suite passed. Vetoed and excluded lists, enrichment overrides and the first-round compiled snapshot retain their original hashes.\n');
+console.log(verification);

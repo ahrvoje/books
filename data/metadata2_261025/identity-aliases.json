@@ -1,0 +1,68 @@
+{
+  "shelf-a86bbb5039a5": {
+    "expected": "Against the Odds: An Autobiography by James Dyson",
+    "observed": "Against the Odds: An Autobiography",
+    "source": "data/metadata2_261025/raw/manual-pages-001.json",
+    "reason": "The catalog title appends the author's name. British bibliography explicitly identifies James Dyson's autobiography, ISBN 0752809814."
+  },
+  "shelf-cedaa1931544": {
+    "expected": "What Is Life? How Chemistry Becomes Biology",
+    "observed": "What is Life?: How Chemistry Becomes Biology",
+    "source": "data/metadata2_261025/raw/manual-pages-001.json",
+    "reason": "Only title punctuation differs. Google Books explicitly identifies Addy Pross, Oxford University Press, ISBN 0198784791."
+  },
+  "shelf-49223c76f9aa": {
+    "expected": "Bloomberg",
+    "observed": "Bloomberg by Bloomberg, Revised and Updated",
+    "source": "data/metadata2_261025/raw/manual-pages-003.json",
+    "reason": "The catalog abbreviates Michael Bloomberg's autobiography title. Wiley identifies the 2019 revised edition, ISBN 9781119554264. This is a later edition, not a change to the original publication year."
+  },
+  "shelf-e63a48b9c24a": {
+    "expected": "Isambard Kingdom Brunel: The Definitive Biography of The Engineer, Visionary, and Great Briton",
+    "observed": "Isambard Kingdom Brunel",
+    "source": "data/metadata2_261025/raw/manual-pages-004.json",
+    "reason": "Manual match of named author and full work; catalog subtitle or punctuation differs from the source record."
+  },
+  "shelf-3066f2c783a3": {
+    "expected": "Explore/Create My Life in Pursuit of New Frontiers, Hidden Worlds, and the Creative Spark",
+    "observed": "Explore/Create: My Life in Pursuit of New Frontiers, Hidden Worlds, and the Creative Spark",
+    "source": "data/metadata2_261025/raw/manual-pages-004.json",
+    "reason": "Manual match of named author and full work; catalog subtitle or punctuation differs from the source record."
+  },
+  "progress-0594": {
+    "expected": "Naval Engineering and American Sea Power",
+    "observed": "Naval Engineering and American Sea Power",
+    "source": "data/metadata2_261025/raw/manual-pages-004.json",
+    "reason": "Manual match of named author and full work; catalog subtitle or punctuation differs from the source record."
+  },
+  "rest-103-119": {
+    "expected": "Quantum Computing: From Colossus to Qubits",
+    "observed": "Quantum Computing from Colossus to Qubits: The History, Theory, and Application of a Revolutionary Science",
+    "source": "data/metadata2_261025/raw/manual-pages-007.json",
+    "reason": "Same main title and author; publisher puts From Colossus to Qubits before the colon and supplies a longer subtitle."
+  },
+  "shelf-764a452b2351": {
+    "expected": "Cosmology, the Science of the Universe",
+    "observed": "Cosmology: The Science of the Universe",
+    "source": "data/metadata2_261025/raw/manual-pages-008.json",
+    "reason": "Only comma versus colon differs. Edward R. Harrison and edition ISBN match."
+  },
+  "shelf-b8b27535442e": {
+    "expected": "Junk to Gold (Copart)",
+    "observed": "Junk to Gold: From Salvage to the World’s Largest Online Auto Auction",
+    "source": "data/metadata2_261025/raw/manual-pages-009.json",
+    "reason": "Copart is the catalog identity qualification; the description explicitly identifies Willis Johnson as Copart founder."
+  },
+  "shelf-f0ce9be52ce5": {
+    "expected": "Sir James Jeans",
+    "observed": "Sir James Jeans, Scientist, Philosopher and Musician. Through Space and Time in the first half of the 20th Century",
+    "source": "data/metadata2_261025/raw/manual-pages-011.json",
+    "reason": "Book website supplies the expanded title, both named authors, ISBN, binding and page count."
+  },
+  "shelf-03213572e888": {
+    "expected": "Maintenance of Everything, part one",
+    "observed": "Maintenance of Everything: Part One",
+    "source": "data/metadata2_261025/raw/brand-retailers.json",
+    "reason": "Same explicit Part One scope; comma versus colon differs. Publisher link establishes the matching retailer edition."
+  }
+}

@@ -1,0 +1,7 @@
+import fs from 'node:fs';
+const dir='data/metadata2_261025',s=JSON.parse(fs.readFileSync(dir+'/summary.json')),n=v=>v.toLocaleString('en-US');
+let text=fs.readFileSync('README.md','utf8');
+const paragraph=`Second metadata round, 25 October 2026: [evidence and score report](${s.report}). Added **${n(s.numericDataPoints)} new numeric fields**: ${n(s.pagesAdded)} page counts, ${n(s.referenceCountsAdded)} reference-page counts and ${n(s.ratingsAdded)} Amazon aggregates. Updated ${n(s.booksEnriched)} recommended books and recalculated ${n(s.scoresChanged)} scores. Additional changes: ${s.pageCountsCorrected} existing page-count correction, ${s.searchLinksReplaced} generic Amazon searches replaced with ISBN URLs, and ${s.editionLinksUpdated} existing product link changed to a documented paperback. Cached Amazon counts retain snapshot dates; no verified zero was found. Purchase endpoints remain unverified. Metadata confidence is generally moderate; conflicting records and cross-edition ratios are explicitly labelled. The active catalog is \`${dir}/compiled.json\`. Membership, source IDs and raw content assessments are unchanged.\n\n`;
+text=text.replace('## Use\n\n','## Use\n\n'+paragraph).replace('## Use\r\n\r\n','## Use\r\n\r\n'+paragraph);
+text=text.replace('The active catalog is `data/metadata1000_261025/compiled.json`; prior snapshots remain history.','That round’s snapshot is `data/metadata1000_261025/compiled.json`; it remains history.');
+fs.writeFileSync('README.md',text);

@@ -1,0 +1,23 @@
+{
+  "build": {
+    "chunk_id": "54e3b5",
+    "wall_time_seconds": 5.6171812,
+    "exit_code": 0,
+    "original_token_count": 28,
+    "output": "\n> build\n> node site/build.mjs\n\nBuilt docs/index.html: 5799 books, 9,165,193 bytes, dataset ab53296b2b0e0fef\n"
+  },
+  "model": {
+    "chunk_id": "43e8cd",
+    "wall_time_seconds": 9.2141488,
+    "exit_code": 0,
+    "original_token_count": 543,
+    "output": "\n> test\n> node --test site/model.test.mjs\n\nBuilt docs/index.html: 5799 books, 9,165,193 bytes, dataset ab53296b2b0e0fef\nCalculation p95 (2000 works): 9.0 ms\n✔ reference ranges distinguish volumes and deduplicate within each volume (0.9063ms)\n✔ reference pages support rates, missing-data filters, columns, and existing saved settings (1.0855ms)\n✔ dataset identity, 46 variables, exact current baseline, and display reconciliation (304.7824ms)\n✔ canonical full, half, flag, age, and count contributions (0.2499ms)\n✔ Relevance and R&D formulas are fractional, uncapped, and restored into saved settings (0.5631ms)\n✔ default columns stay compact when scoring changes, preserving custom choices (0.3625ms)\n✔ read-only collections retain saved membership and veto scores (395.6524ms)\n✔ parameter guidance distinguishes raw scales from scoring anchors (0.2073ms)\n✔ edition facts, domain provenance, and partial reviews retain their meaning (623.4165ms)\n✔ signed normalization, quadratic polarity, and conversion between rates and weights (0.8443ms)\n✔ page and date examples, bounded curves, and validation (0.4395ms)\n✔ unknown input does not receive an offset; custom count normalization loses fallback (0.1301ms)\n✔ six connection fixtures distinguish coverage, disconnected pairs, joined chains, and joint mechanisms (0.6271ms)\n✔ connection unknowns, cycles, threshold changes and target reset are explicit (0.3622ms)\n✔ filters remain independent of scoring, use correct bases, and partition all books (34.7321ms)\n✔ Pareto ties, minimization, non-convex frontier and missing points (1.4389ms)\n✔ three Pareto layers remove all ties and honor both axis directions (0.3526ms)\n✔ Pareto boundaries follow supported dominance without crossing between sparse points (0.7352ms)\n✔ model export is reproducible and rejects incompatible or invalid models (0.9851ms)\n✔ generated standalone script parses without replacement-string corruption (3394.5856ms)\n✔ catalog calculation performance: 30 updates over 2000 works (261.3508ms)\nℹ tests 21\nℹ suites 0\nℹ pass 21\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 8893.6751\n"
+  },
+  "browser": {
+    "chunk_id": "3ca506",
+    "wall_time_seconds": 0.0000077,
+    "exit_code": 0,
+    "original_token_count": 179,
+    "output": "\n> test:browser\n> node site/browser.test.mjs\n\nBuilt docs/index.html: 5799 books, 9,165,193 bytes, dataset ab53296b2b0e0fef\n{\n  \"browser\": \"Chromium\",\n  \"offline\": true,\n  \"errors\": [],\n  \"networkRequests\": 0,\n  \"viewports\": [\n    {\n      \"width\": 320,\n      \"scroll\": 320,\n      \"renderMs\": 447.40000009536743\n    },\n    {\n      \"width\": 390,\n      \"scroll\": 390,\n      \"renderMs\": 447.40000009536743\n    },\n    {\n      \"width\": 768,\n      \"scroll\": 768,\n      \"renderMs\": 447.40000009536743\n    },\n    {\n      \"width\": 1099,\n      \"scroll\": 1099,\n      \"renderMs\": 447.40000009536743\n    },\n    {\n      \"width\": 1100,\n      \"scroll\": 1100,\n      \"renderMs\": 447.40000009536743\n    },\n    {\n      \"width\": 1440,\n      \"scroll\": 1440,\n      \"renderMs\": 447.40000009536743\n    }\n  ],\n  \"screenshots\": \"C:\\\\repos\\\\books\\\\site\\\\qa-output\"\n}\n"
+  }
+}
