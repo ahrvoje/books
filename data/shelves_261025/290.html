@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="generator" content="pandoc">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="author" content="Joe Cheung">
+<meta name="description" content="Citation Needed">
+<meta name="title" content="Bookshelf">
+
+
+
+
+
+
+
+
+
+<title>
+  Bookshelf</title>
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Bookshelf" />
+<meta name="author" content="Joe Cheung" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Citation Needed" />
+<meta property="og:description" content="Citation Needed" />
+<link rel="canonical" href="http://joe-cheung.github.io/bookshelf/" />
+<meta property="og:url" content="http://joe-cheung.github.io/bookshelf/" />
+<meta property="og:site_name" content="SubCriticalAppraisal" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Bookshelf" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Joe Cheung"},"description":"Citation Needed","headline":"Bookshelf","url":"http://joe-cheung.github.io/bookshelf/"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link rel="icon" type="image/png" href="/images/Random-Confounder-Theory-Logo.png" />
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="canonical" href="http://joe-cheung.github.io/bookshelf/">
+<link rel="alternate" type="application/rss+xml" title="SubCriticalAppraisal"
+  href="/feed.xml">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'G-ZWN0CHR9LT', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+<script>
+  function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+      var elements = document.querySelectorAll(".post img");
+      Array.prototype.forEach.call(elements, function (el, i) {
+        if (el.getAttribute("title")) {
+          const caption = document.createElement('figcaption');
+          var node = document.createTextNode(el.getAttribute("title"));
+          caption.appendChild(node);
+          const wrapper = document.createElement('figure');
+          wrapper.className = 'image';
+          el.parentNode.insertBefore(wrapper, el);
+          el.parentNode.removeChild(el);
+          wrapper.appendChild(el);
+          wrapper.appendChild(caption);
+        }
+      });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+  }
+  window.onload = wrap_img;
+</script>
+
+<!-- rel prev and next -->
+
+
+
+<!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+<![endif]-->
+
+  <body>
+    <header class="site-header">
+    <div class="container" style="max-width: 100%; margin-top: -5px;"></div>
+
+<a href="http://joe-cheung.github.io"><img src="/images/Random-Confounder-Theory-Logo.png"
+        style="padding-right:5px; position:relative; top: 28px; max-width: 50px; display: inline-block;"
+        alt='SubCriticalAppraisal' /><a href="http://joe-cheung.github.io"
+        style="position:relative; top: 25px; color: var(--main-text-color); text-decoration: none; display: inline-block;">
+        <h3>Sub<br>Critical<br>Appraisal</h3>
+</a>
+    
+<!--Navbar Burger-->
+
+<label for="toggle-1" class="toggle-menu">
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</label>
+
+<input type="checkbox" id="toggle-1">
+
+<br>
+
+<hr style="width: 400%; margin-top: 40px; margin-left: -300px; z-index: 100; position: relative;">
+
+<div class="fullbar" style="width: 100%; margin-top: -25px; text-align:right; position: relative;">
+    <nav>
+        <ul class="menu-items" style="list-style-type: none;">
+            <h3>
+                <div class="vl"></div><li><a href="/about">&nbspAbout</a></li>
+                <div class="vl"></div><li><a href="/archives">&nbspArchives</a></li>
+                <div class="vl"></div><li><a href="/bookshelf">&nbspBookshelf</a></li>
+                <div class="vl"></div><li><a href="/links">&nbspLinks</a></li>
+                <div class="vl"></div><li><a href="https://subcriticalappraisal.substack.com">&nbspSubscribe</a></li>
+                <div class="vl"></div><li><a href="/support">&nbspSupport</a></li>
+            </h3>
+        </ul>
+    </nav>
+
+    <div class="vl" style=" display: inline-block; text-align:right;"></div>
+    <h3 style=" display: inline-block; text-align:right; margin-bottom: 8px;"><div class="darkmode"><a href="" id="theme-toggle"
+            onclick="modeSwitcher()" style="cursor: pointer;"></a></div></h3>
+</div>
+
+<hr style="width: 400%; margin-top: -10px; margin-left: -300px;">
+
+<div class="menu-burger">
+    <h3>
+        <a href="/about">&nbspAbout</a>
+        <a href="/archives">&nbspArchives</a>
+        <a href="/bookshelf">&nbspBookshelf</a>
+        <a href="/links">&nbspLinks</a>
+        <a href="https://subcriticalappraisal.substack.com">&nbspSubscribe</a>
+        <a href="/support">&nbspSupport</a>
+    </h3>
+</div>
+    <h1 class="title">Bookshelf</h1>
+      
+</header>
+    <div class="content">
+    <main class="wrapper">
+      <body style="display: block;">
+    <article>
+        <p>Buying books and reading books are completely unrelated hobbies. Now that I have done the hoarding for you, you can focus on the latter.</p>
+
+<p>I always enjoy reading others’ lists and browsing their bookshelves, but I’ve always found it odd when people see my collection and say “What a lot of books! Have you read all of them?” Behold my (non-exhaustive) <a href="https://books.google.com/books?id=_ntDTaMUys8C&amp;lpg=PT115&amp;ots=E3jhWnG6aB&amp;pg=PT124#v=onepage&amp;q&amp;f=false">antilibrary</a> that would make Umberto Eco proud. All of them are worth reading, though as always it’s kinda hard to recommend books in the abstract.</p>
+
+<p>Drop me an <a href="mailto:subcriticalappraisal@gmail.com">email</a> if you’ve got recommendations! Always appreciated.</p>
+
+<ol id="markdown-toc">
+  <li><a href="#philosophy-of-science" id="markdown-toc-philosophy-of-science">Philosophy of Science</a></li>
+  <li><a href="#history-of-science" id="markdown-toc-history-of-science">History of Science</a></li>
+  <li><a href="#complexity" id="markdown-toc-complexity">Complexity</a></li>
+  <li><a href="#mathematics" id="markdown-toc-mathematics">Mathematics</a></li>
+  <li><a href="#mathematicians" id="markdown-toc-mathematicians">Mathematicians</a></li>
+  <li><a href="#computer-science" id="markdown-toc-computer-science">Computer Science</a></li>
+  <li><a href="#physics" id="markdown-toc-physics">Physics</a></li>
+  <li><a href="#physicists" id="markdown-toc-physicists">Physicists</a></li>
+  <li><a href="#biology" id="markdown-toc-biology">Biology</a></li>
+  <li><a href="#biologists" id="markdown-toc-biologists">Biologists</a></li>
+  <li><a href="#medicine" id="markdown-toc-medicine">Medicine</a></li>
+  <li><a href="#reasoning" id="markdown-toc-reasoning">Reasoning</a></li>
+  <li><a href="#philosophy" id="markdown-toc-philosophy">Philosophy</a></li>
+  <li><a href="#effective-altruism" id="markdown-toc-effective-altruism">Effective Altruism</a></li>
+  <li><a href="#existential-risk" id="markdown-toc-existential-risk">Existential Risk</a></li>
+  <li><a href="#progress-studies" id="markdown-toc-progress-studies">Progress Studies</a></li>
+  <li><a href="#economics" id="markdown-toc-economics">Economics</a></li>
+  <li><a href="#economic-history" id="markdown-toc-economic-history">Economic History</a></li>
+  <li><a href="#technology" id="markdown-toc-technology">Technology</a></li>
+  <li><a href="#technologists" id="markdown-toc-technologists">Technologists</a></li>
+  <li><a href="#engineering" id="markdown-toc-engineering">Engineering</a></li>
+  <li><a href="#space-flight" id="markdown-toc-space-flight">Space Flight</a></li>
+  <li><a href="#firms" id="markdown-toc-firms">Firms</a></li>
+  <li><a href="#startup" id="markdown-toc-startup">Startup</a></li>
+  <li><a href="#business" id="markdown-toc-business">Business</a></li>
+  <li><a href="#management" id="markdown-toc-management">Management</a></li>
+  <li><a href="#leadership" id="markdown-toc-leadership">Leadership</a></li>
+  <li><a href="#finance" id="markdown-toc-finance">Finance</a></li>
+  <li><a href="#psychology" id="markdown-toc-psychology">Psychology</a></li>
+  <li><a href="#clinical-psychology" id="markdown-toc-clinical-psychology">Clinical Psychology</a></li>
+  <li><a href="#theory-of-mind" id="markdown-toc-theory-of-mind">Theory of Mind</a></li>
+  <li><a href="#social-anthropology" id="markdown-toc-social-anthropology">Social Anthropology</a></li>
+  <li><a href="#anthropology" id="markdown-toc-anthropology">Anthropology</a></li>
+  <li><a href="#cultural-anthropology" id="markdown-toc-cultural-anthropology">Cultural Anthropology</a></li>
+  <li><a href="#culture" id="markdown-toc-culture">Culture</a></li>
+  <li><a href="#sociology" id="markdown-toc-sociology">Sociology</a></li>
+  <li><a href="#parentingeducation" id="markdown-toc-parentingeducation">Parenting/Education</a></li>
+  <li><a href="#politics" id="markdown-toc-politics">Politics</a></li>
+  <li><a href="#geopolitics" id="markdown-toc-geopolitics">Geopolitics</a></li>
+  <li><a href="#statesmen" id="markdown-toc-statesmen">Statesmen</a></li>
+  <li><a href="#law" id="markdown-toc-law">Law</a></li>
+  <li><a href="#military-strategy" id="markdown-toc-military-strategy">Military Strategy</a></li>
+  <li><a href="#grand-history" id="markdown-toc-grand-history">Grand History</a></li>
+  <li><a href="#history" id="markdown-toc-history">History</a></li>
+  <li><a href="#wars" id="markdown-toc-wars">Wars</a></li>
+  <li><a href="#china" id="markdown-toc-china">China</a></li>
+  <li><a href="#chinese-economy" id="markdown-toc-chinese-economy">Chinese Economy</a></li>
+  <li><a href="#chinese-history" id="markdown-toc-chinese-history">Chinese History</a></li>
+  <li><a href="#chinese-philosophy" id="markdown-toc-chinese-philosophy">Chinese Philosophy</a></li>
+  <li><a href="#chinese-literature" id="markdown-toc-chinese-literature">Chinese Literature</a></li>
+  <li><a href="#religion" id="markdown-toc-religion">Religion</a></li>
+  <li><a href="#autobiographymemoir" id="markdown-toc-autobiographymemoir">Autobiography/Memoir</a></li>
+  <li><a href="#sports" id="markdown-toc-sports">Sports</a></li>
+  <li><a href="#interviews" id="markdown-toc-interviews">Interviews</a></li>
+  <li><a href="#essays" id="markdown-toc-essays">Essays</a></li>
+  <li><a href="#urban-design" id="markdown-toc-urban-design">Urban Design</a></li>
+  <li><a href="#architecture" id="markdown-toc-architecture">Architecture</a></li>
+  <li><a href="#art" id="markdown-toc-art">Art</a></li>
+  <li><a href="#design" id="markdown-toc-design">Design</a></li>
+  <li><a href="#game-design" id="markdown-toc-game-design">Game Design</a></li>
+  <li><a href="#film-making" id="markdown-toc-film-making">Film Making</a></li>
+  <li><a href="#music" id="markdown-toc-music">Music</a></li>
+  <li><a href="#writing" id="markdown-toc-writing">Writing</a></li>
+  <li><a href="#literature" id="markdown-toc-literature">Literature</a></li>
+  <li><a href="#epic-poetry" id="markdown-toc-epic-poetry">Epic Poetry</a></li>
+  <li><a href="#comics" id="markdown-toc-comics">Comics</a></li>
+  <li><a href="#hard-sci-fi" id="markdown-toc-hard-sci-fi">Hard Sci-Fi</a></li>
+  <li><a href="#soft-sci-fi" id="markdown-toc-soft-sci-fi">Soft Sci-Fi</a></li>
+  <li><a href="#space-opera" id="markdown-toc-space-opera">Space Opera</a></li>
+  <li><a href="#cyberpunk" id="markdown-toc-cyberpunk">Cyberpunk</a></li>
+  <li><a href="#biopunk" id="markdown-toc-biopunk">Biopunk</a></li>
+  <li><a href="#military-sci-fi" id="markdown-toc-military-sci-fi">Military Sci-Fi</a></li>
+  <li><a href="#first-encounter-sci-fi" id="markdown-toc-first-encounter-sci-fi">First Encounter Sci-Fi</a></li>
+  <li><a href="#dystopian-sci-fi" id="markdown-toc-dystopian-sci-fi">Dystopian Sci-Fi</a></li>
+  <li><a href="#time-travel-sci-fi" id="markdown-toc-time-travel-sci-fi">Time Travel Sci-Fi</a></li>
+  <li><a href="#superhero-sci-fi" id="markdown-toc-superhero-sci-fi">Superhero Sci-Fi</a></li>
+  <li><a href="#science-fantasy" id="markdown-toc-science-fantasy">Science Fantasy</a></li>
+  <li><a href="#literary-sci-fi" id="markdown-toc-literary-sci-fi">Literary Sci-Fi</a></li>
+  <li><a href="#sci-fi-short-story" id="markdown-toc-sci-fi-short-story">Sci-Fi Short Story</a></li>
+  <li><a href="#fantasy-series" id="markdown-toc-fantasy-series">Fantasy Series</a></li>
+  <li><a href="#fantasy" id="markdown-toc-fantasy">Fantasy</a></li>
+  <li><a href="#wuxia" id="markdown-toc-wuxia">Wuxia</a></li>
+  <li><a href="#childrens-fantasy" id="markdown-toc-childrens-fantasy">Children’s Fantasy</a></li>
+  <li><a href="#horror" id="markdown-toc-horror">Horror</a></li>
+  <li><a href="#short-stories" id="markdown-toc-short-stories">Short Stories</a></li>
+  <li><a href="#classic-fiction" id="markdown-toc-classic-fiction">Classic Fiction</a></li>
+  <li><a href="#fiction" id="markdown-toc-fiction">Fiction</a></li>
+  <li><a href="#plays" id="markdown-toc-plays">Plays</a></li>
+</ol>
+
+<h2 id="philosophy-of-science">Philosophy of Science</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/10483171-the-beginning-of-infinity">The Beginning of Infinity: Explanations That Transform the World by David Deutsch</a></li>
+  <li><a href="https://www.goodreads.com/book/show/61539.The_Structure_of_Scientific_Revolutions">The Structure of Scientific Revolutions by Thomas S. Kuhn</a></li>
+  <li><a href="https://www.goodreads.com/book/show/530415.The_Art_of_Doing_Science_and_Engineering">The Art of Doing Science and Engineering: Learning to Learn by Richard Hamming</a></li>
+  <li><a href="https://www.goodreads.com/book/show/5535956-scientific-freedom">Scientific Freedom: The Elixir of Civilization by Donald W. Braben</a></li>
+  <li><a href="https://www.goodreads.com/book/show/137979.Against_Method">Against Method by Paul Karl Feyerabend </a></li>
+  <li><a href="https://www.goodreads.com/book/show/61550.The_Logic_of_Scientific_Discovery">The Logic of Scientific Discovery by Karl Popper</a></li>
+  <li><a href="https://www.goodreads.com/book/show/11667578-reinventing-discovery">Reinventing Discovery: The New Era of Networked Science by Michael Nielsen</a></li>
+  <li><a href="https://www.goodreads.com/book/show/238558.A_New_Kind_of_Science">A New Kind of Science by Stephen Wolfram</a></li>
+  <li><a href="https://www.goodreads.com/book/show/168414.The_Myths_We_Live_by">The Myths We Live by by Mary Midgley</a></li>
+  <li><a href="https://www.goodreads.com/book/show/33279.Clock_of_the_Long_Now">Clock of the Long Now: Time and Responsibility: The Ideas Behind the World’s Slowest Computer by Stewart Brand</a></li>
+</ul>
+
+<h2 id="history-of-science">History of Science</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/26592380-the-invention-of-science">The Invention of Science: The Scientific Revolution from 1500 to 1750 by David Wootton</a></li>
+  <li><a href="https://www.goodreads.com/book/show/3410541-science-since-babylon">Science Since Babylon: Enlarged Edition by Derek John de Solla Price</a></li>
+  <li><a href="https://www.goodreads.com/book/show/461104.The_Ascent_of_Man">The Ascent of Man by Jacob Bronowski</a></li>
+  <li><a href="https://www.goodreads.com/book/show/22328555-to-explain-the-world">To Explain the World: The Discovery of Modern Science by Steven Weinberg</a></li>
+  <li><a href="https://www.goodreads.com/book/show/977262.Asimov_s_New_Guide_To_Science">Asimov’s New Guide To Science by Isaac Asimov</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2802997-from-galileo-to-newton">From Galileo to Newton by A. Rupert Hall</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6298393-the-science-of-conjecture">The Science of Conjecture: Evidence and Probability Before Pascal by James Franklin</a></li>
+</ul>
+
+<h2 id="complexity">Complexity</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/24113.G_del_Escher_Bach">Gödel, Escher, Bach: an Eternal Golden Braid by Douglas R. Hofstadter</a></li>
+  <li><a href="https://www.goodreads.com/book/show/676046.The_Sciences_of_the_Artificial">The Sciences of the Artificial by Herbert A. Simon</a></li>
+  <li><a href="https://www.goodreads.com/book/show/31670196-scale">Scale: The Universal Laws of Growth, Innovation, Sustainability, and the Pace of Life in Organisms, Cities, Economies, and Companies by Geoffrey B. West</a></li>
+  <li><a href="https://www.goodreads.com/book/show/337123.Complexity">Complexity: The Emerging Science at the Edge of Order and Chaos by M. Mitchell Waldrop</a></li>
+  <li><a href="https://www.goodreads.com/book/show/38315.Fooled_by_Randomness">Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets by Nassim Nicholas Taleb</a></li>
+  <li><a href="https://www.goodreads.com/book/show/242472.The_Black_Swan">The Black Swan: The Impact of the Highly Improbable by Nassim Nicholas Taleb</a></li>
+  <li><a href="https://www.goodreads.com/book/show/13530973-antifragile">Antifragile: Things That Gain from Disorder by Nassim Nicholas Taleb</a></li>
+  <li><a href="https://www.goodreads.com/book/show/36064445-skin-in-the-game">Skin in the Game: The Hidden Asymmetries in Daily Life by Nassim Nicholas Taleb</a></li>
+</ul>
+
+<h2 id="mathematics">Mathematics</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/434707.Proofs_and_Refutations">Proofs and Refutations: The Logic of Mathematical Discovery by Imre Lakatos</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1134117.Mathematician_s_Delight">Mathematician’s Delight by WW Sawyer</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1454428.The_Psychology_of_Invention_in_the_Mathematical_Field">The Psychology of Invention in the Mathematical Field by Jacques Hadamard</a></li>
+  <li><a href="https://www.goodreads.com/book/show/192221.How_to_Solve_It">How to Solve It: A New Aspect of Mathematical Method by George Pólya</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2146185.Problem_Solving_Through_Problems">Problem-Solving Through Problems by Loren C. Larson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1693774.The_Nature_of_Mathematical_Modeling">The Nature of Mathematical Modeling by Neil Gershenfeld</a></li>
+  <li><a href="https://www.goodreads.com/book/show/64582.Chaos">Chaos: Making a New Science by James Gleick</a></li>
+  <li><a href="https://www.goodreads.com/book/show/8701960-the-information">The Information: A History, a Theory, a Flood by James Gleick</a></li>
+  <li><a href="https://www.goodreads.com/book/show/38412.Fermat_s_Enigma">Fermat’s Enigma: The Epic Quest to Solve the World’s Greatest Mathematical Problem by Simon Singh</a></li>
+  <li><a href="https://www.goodreads.com/book/show/151848.Probability_Theory">Probability Theory: The Logic of Science by ET Jaynes</a></li>
+  <li><a href="https://www.goodreads.com/book/show/147358.Statistics">Statistics by David Freedman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/51291.How_to_Lie_with_Statistics">How to Lie with Statistics by Darrell Huff</a></li>
+  <li><a href="https://www.goodreads.com/book/show/51289.Damned_Lies_and_Statistics">Damned Lies and Statistics: Untangling Numbers from the Media, Politicians, and Activists by Joel Best</a></li>
+  <li><a href="https://www.goodreads.com/book/show/10672848-the-theory-that-would-not-die">The Theory That Would Not Die: How Bayes’ Rule Cracked the Enigma Code, Hunted Down Russian Submarines, and Emerged Triumphant from Two Centuries of Controversy by Sharon Bertsch McGrayne</a></li>
+</ul>
+
+<h2 id="mathematicians">Mathematicians</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/26330891-leonhard-euler">Leonhard Euler: Mathematical Genius in the Enlightenment by Ronald S. Calinger</a></li>
+  <li><a href="https://www.goodreads.com/book/show/106139.The_Man_Who_Knew_Infinity">The Man Who Knew Infinity: A Life of the Genius Ramanujan by Robert Kanigel</a></li>
+  <li><a href="https://www.goodreads.com/book/show/13912.A_Beautiful_Mind">A Beautiful Mind by Sylvia Nasar</a></li>
+  <li><a href="https://www.goodreads.com/book/show/51287.Incompleteness">Incompleteness: The Proof and Paradox of Kurt Gödel by Rebecca Goldstein</a></li>
+  <li><a href="https://www.goodreads.com/el/book/show/154060">A Mathematician’s Apology by GH Hardy</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/34848865">Exact Thinking in Demented Times: The Vienna Circle and the Epic Quest for the Foundations of Science by Karl Sigmund</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6493321-logicomix">Logicomix: An Epic Search for Truth by Apostolos Doxiadis</a></li>
+</ul>
+
+<h2 id="computer-science">Computer Science</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/43713.Structure_and_Interpretation_of_Computer_Programs">Structure and Interpretation of Computer Programs by Harold Abelson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17274.Feynman_Lectures_On_Computation">Feynman Lectures On Computation by Richard P. Feynman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/433439.Elements_of_Information_Theory">Elements of Information Theory by Thomas M. Cover</a></li>
+  <li><a href="https://www.goodreads.com/book/show/24582662-neural-networks-and-deep-learning">Neural Networks and Deep Learning by Michael Nielsen</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17471298-quantum-computing-since-democritus">Quantum Computing Since Democritus by Scott Aaronson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/45454080-quantum-computing-for-the-very-curious">Quantum Computing for The Very Curious by Michael Nielsen</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2913814-the-elements-of-computing-systems">The Elements of Computing Systems: Building a Modern Computer from First Principles by Noam Nisan</a></li>
+  <li><a href="https://www.goodreads.com/book/show/54140556-working-in-public">Working in Public: The Making and Maintenance of Open Source Software by Nadia Eghbal</a></li>
+</ul>
+
+<h2 id="physics">Physics</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/5546.The_Feynman_Lectures_on_Physics">The Feynman Lectures on Physics by Richard P. Feynman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/291920.The_Character_of_Physical_Law">The Character of Physical Law by Richard P. Feynman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/55030.Cosmos">Cosmos by Carl Sagan</a></li>
+  <li><a href="https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time">A Brief History of Time by Stephen Hawking</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1090599.The_Road_to_Reality">The Road to Reality: A Complete Guide to the Laws of the Universe by Roger Penrose</a></li>
+  <li><a href="https://www.goodreads.com/book/show/150129.Dreams_of_a_Final_Theory">Dreams of a Final Theory: The Scientist’s Search for the Ultimate Laws of Nature by Steven Weinberg</a></li>
+  <li><a href="https://www.goodreads.com/book/show/150131.The_First_Three_Minutes">The First Three Minutes: A Modern View of the Origin of the Universe by Steven Weinberg</a></li>
+  <li><a href="https://www.goodreads.com/book/show/5552.QED">QED: The Strange Theory of Light and Matter by Richard P. Feynman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/177068.The_Fabric_of_Reality">The Fabric of Reality: The Science of Parallel Universes–and Its Implications by David Deutsch</a></li>
+  <li><a href="https://www.goodreads.com/book/show/745236.The_Copernican_Revolution">The Copernican Revolution: Planetary Astronomy in the Development of Western Thought by Thomas S. Kuhn</a></li>
+  <li><a href="https://www.goodreads.com/book/show/27578.Not_Even_Wrong">Not Even Wrong: The Failure of String Theory and the Search for Unity in Physical Law by Peter Woit</a></li>
+  <li><a href="https://www.goodreads.com/book/show/36341728-lost-in-math">Lost in Math: How Beauty Leads Physics Astray by Sabine Hossenfelder</a></li>
+  <li><a href="https://www.goodreads.com/book/show/108939.The_Trouble_with_Physics">The Trouble with Physics: The Rise of String Theory, the Fall of a Science and What Comes Next by Lee Smolin</a></li>
+  <li><a href="https://www.goodreads.com/book/show/180506.If_the_Universe_Is_Teeming_with_Aliens_Where_Is_Everybody_">If the Universe Is Teeming with Aliens … Where Is Everybody?: Fifty Solutions to the Fermi Paradox and the Problem of Extraterrestrial Life by Stephen Webb</a></li>
+</ul>
+
+<h2 id="physicists">Physicists</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/98685.Genius">Genius: The Life and Science of Richard Feynman by James Gleick</a></li>
+  <li><a href="https://www.goodreads.com/book/show/35167685-surely-you-re-joking-mr-feynman">“Surely You’re Joking, Mr. Feynman!”: Adventures of a Curious Character by Richard P. Feynman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/5550.Perfectly_Reasonable_Deviations_from_the_Beaten_Track">Perfectly Reasonable Deviations from the Beaten Track: Letters of Richard P. Feynman by Richard P. Feynman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6996.No_Ordinary_Genius">No Ordinary Genius: The Illustrated Richard Feynman by Richard P. Feynman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/258459.Strange_Beauty">Strange Beauty: Murray Gell-Mann and the Revolution in Twentieth-Century Physics by George Johnson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/282459.Subtle_Is_the_Lord">Subtle Is the Lord: The Science and the Life of Albert Einstein by Abraham Pais</a></li>
+  <li><a href="https://www.goodreads.com/book/show/10884.Einstein">Einstein: His Life and Universe by Walter Isaacson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/7536088-the-many-worlds-of-hugh-everett-iii">The Many Worlds of Hugh Everett III: Multiple Universes, Mutual Assured Destruction, and the Meltdown of a Nuclear Family by Peter Byrne</a></li>
+  <li><a href="https://www.goodreads.com/book/show/3226232-alvarez">Alvarez by Luis W. Alvarez</a></li>
+  <li><a href="https://www.goodreads.com/book/show/80571.American_Prometheus">American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer by Kai Bird</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6321411-something-incredibly-wonderful-happens">Something Incredibly Wonderful Happens: Frank Oppenheimer and the world he made up by KC Cole</a></li>
+</ul>
+
+<h2 id="biology">Biology</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/22463.The_Origin_of_Species">The Origin of Species by Charles Darwin</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2068.Darwin_s_Dangerous_Idea">Darwin’s Dangerous Idea: Evolution and the Meanings of Life by Daniel C. Dennett</a></li>
+  <li><a href="https://www.goodreads.com/book/show/61535.The_Selfish_Gene">The Selfish Gene by Richard Dawkins</a></li>
+  <li><a href="https://www.goodreads.com/book/show/61538.The_Extended_Phenotype">The Extended Phenotype: The Long Reach of the Gene by Richard Dawkins</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17977.The_Ancestor_s_Tale">The Ancestor’s Tale: A Pilgrimage to the Dawn of Evolution by Richard Dawkins</a></li>
+  <li><a href="https://www.goodreads.com/book/show/31624963-the-evolution-of-beauty">The Evolution of Beauty: How Darwin’s Forgotten Theory of Mate Choice Shapes the Animal World—And Us by Richard O. Prum</a></li>
+  <li><a href="https://www.goodreads.com/book/show/16176.The_Red_Queen">The Red Queen: Sex and the Evolution of Human Nature by Matt Ridley</a></li>
+  <li><a href="https://www.goodreads.com/book/show/162780.What_Is_Life_with_Mind_and_Matter_and_Autobiographical_Sketches">What Is Life? with Mind and Matter and Autobiographical Sketches</a></li>
+  <li><a href="https://www.goodreads.com/book/show/13400.Molecular_Biology_of_the_Cell">Molecular Biology of the Cell by Bruce Alberts</a></li>
+  <li><a href="https://www.goodreads.com/book/show/359114.An_Introduction_to_Systems_Biology">An Introduction to Systems Biology: Design Principles of Biological Circuits by Uri Alon</a></li>
+  <li><a href="https://www.goodreads.com/book/show/546725.The_Song_of_the_Dodo">The Song of the Dodo: Island Biogeography in an Age of Extinctions by David Quammen</a></li>
+  <li><a href="https://www.goodreads.com/book/show/8696.Last_Chance_to_See">Last Chance to See by Douglas Adams</a></li>
+  <li><a href="https://www.goodreads.com/book/show/13542563-the-ocean-of-life">The Ocean of Life: The Fate of Man and the Sea by Callum Roberts</a></li>
+  <li><a href="https://www.goodreads.com/book/show/54983.Oranges">Oranges by John McPhee</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/23584772">Life in Our Phage World by Forest Rohwer</a></li>
+</ul>
+
+<h2 id="biologists">Biologists</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/126061.The_Double_Helix">The Double Helix by James D Watson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/228568.The_Eighth_Day_of_Creation">The Eighth Day of Creation by Horace Freeland Judson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/164064.Time_Love_Memory">Time, Love, Memory: A Great Biologist and His Quest for the Origins of Behavior by Jonathan Weiner</a></li>
+  <li><a href="https://www.goodreads.com/book/show/185404.The_Autobiography_of_Charles_Darwin_1809_82">The Autobiography of Charles Darwin, 1809–82 by Charles Darwin</a></li>
+  <li><a href="https://www.goodreads.com/book/show/34959327-the-wizard-and-the-prophet">The Wizard and the Prophet: Two Remarkable Scientists and Their Dueling Visions to Shape Tomorrow’s World by Charles C. Mann</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1063258.A_Life_of_Sir_Francis_Galton">A Life of Sir Francis Galton: From African Exploration to the Birth of Eugenics by Nicholas Wright Gillham</a></li>
+  <li><a href="https://www.goodreads.com/book/show/4595.The_Genome_War">The Genome War: How Craig Venter Tried to Capture the Code of Life and Save the World by James Shreeve</a></li>
+</ul>
+
+<h2 id="medicine">Medicine</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/663201.Oxford_Handbook_of_Clinical_Medicine">Oxford Handbook of Clinical Medicine by Murray Longmore</a></li>
+  <li><a href="https://www.goodreads.com/book/show/15983253-dr-pestana-s-surgery-notes">Dr. Pestana’s Surgery Notes: Top 180 Vignettes for the Surgical Wards by Carlos Pestana</a></li>
+  <li><a href="https://www.goodreads.com/book/show/291177.Top_Knife">Top Knife: The Art and Craft of Trauma Surgery by Asher Hirshberg</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1605760.Practical_Statistics_for_Medical_Research">Practical Statistics for Medical Research by Douglas G. Altman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/7170627-the-emperor-of-all-maladies">The Emperor of All Maladies: A Biography of Cancer by Siddhartha Mukherjee</a></li>
+  <li><a href="https://www.goodreads.com/book/show/25899336-when-breath-becomes-air">When Breath Becomes Air by Paul Kalanithi</a></li>
+  <li><a href="https://www.goodreads.com/book/show/21086818-do-no-harm">Do No Harm: Stories of Life, Death and Brain Surgery by Henry Marsh</a></li>
+  <li><a href="https://www.goodreads.com/book/show/63697.The_Man_Who_Mistook_His_Wife_for_a_Hat_and_Other_Clinical_Tales">The Man Who Mistook His Wife for a Hat and Other Clinical Tales</a></li>
+  <li><a href="https://www.goodreads.com/book/show/5579.Eat_Drink_and_Be_Healthy">Eat, Drink, and Be Healthy: The Harvard Medical School Guide to Healthy Eating by Walter C. Willett</a></li>
+  <li><a href="https://www.goodreads.com/book/show/29243729-the-hungry-brain">The Hungry Brain: Outsmarting the Instincts That Make Us Overeat by Stephan Guyenet</a></li>
+  <li><a href="https://www.goodreads.com/book/show/44643351-fentanyl-inc">Fentanyl, Inc.: How Rogue Chemists Are Creating the Deadliest Wave of the Opioid Epidemic by Ben Westhoff</a></li>
+  <li><a href="https://www.goodreads.com/book/show/502931.Ketamine">Ketamine: Dreams and Realities by Karl Jansen</a></li>
+  <li><a href="https://www.goodreads.com/book/show/22103751-drugs-2-0?rating=3">Drugs 2.0: The Web Revolution That’s Changing How the World Gets High by Mike Power</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1440324.The_Vaccinators">The Vaccinators: Smallpox, Medical Knowledge, and the ‘Opening’ of Japan by Ann Jannetta</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6091379-smallpox">Smallpox: The Death of a Disease: The Inside Story of Eradicating a Worldwide Killer by DA Henderson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/335598.Polio">Polio: An American Story by David M. Oshinsky</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1710940-miracle-cure">Miracle Cure: The Creation of Antibiotics and the Birth of Modern Medicine by William Rosen</a></li>
+  <li><a href="https://www.goodreads.com/book/show/107971.The_Birth_of_the_Clinic">The Birth of the Clinic: An Archaeology of Medical Perception by Michel Foucault</a></li>
+  <li><a href="https://www.goodreads.com/book/show/353340.Happy_Accidents">Happy Accidents: Serendipity in Modern Medical Breakthroughs by Morton A. Meyers</a></li>
+</ul>
+
+<h2 id="reasoning">Reasoning</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/25131230-rationality">Rationality: From AI to Zombies by Eliezer Yudkowsky</a></li>
+  <li><a href="https://www.goodreads.com/book/show/23995360-superforecasting">Superforecasting: The Art and Science of Prediction by Philip E. Tetlock</a></li>
+  <li><a href="https://www.goodreads.com/book/show/89158.Expert_Political_Judgment">Expert Political Judgment: How Good Is It? How Can We Know? by Philip E. Tetlock</a></li>
+  <li><a href="https://www.goodreads.com/book/show/13588394-the-signal-and-the-noise">The Signal and the Noise: Why So Many Predictions Fail—But Some Don’t by Nate Silver</a></li>
+  <li><a href="https://www.goodreads.com/book/show/42041926-the-scout-mindset">The Scout Mindset: Why Some People See Things Clearly and Others Don’t by Julia Galef</a></li>
+  <li><a href="https://www.goodreads.com/book/show/25666050-algorithms-to-live-by">Algorithms to Live By: The Computer Science of Human Decisions by Brian Christian</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/35957157">Thinking in Bets: Making Smarter Decisions When You Don’t Have All the Facts by Annie Duke</a></li>
+  <li><a href="https://www.goodreads.com/book/show/3828902-thinking-in-systems">Thinking in Systems: A Primer by Donella H. Meadows</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2466179.Thinking_and_Deciding">Thinking and Deciding by Jonathan Baron</a></li>
+  <li><a href="https://www.goodreads.com/book/show/36515223-inadequate-equilibria">Inadequate Equilibria: Where and How Civilizations Get Stuck by Eliezer Yudkowsky</a></li>
+  <li><a href="https://www.goodreads.com/book/show/247891.The_Art_Of_The_Long_View">The Art Of The Long View: Planning For The Future In An Uncertain World by Peter Schwartz</a></li>
+</ul>
+
+<h2 id="philosophy">Philosophy</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/30659.Meditations">Meditations by Marcus Aurelius</a></li>
+  <li><a href="https://www.goodreads.com/book/show/97412.On_the_Shortness_of_Life">On the Shortness of Life by Seneca</a></li>
+  <li><a href="https://www.goodreads.com/book/show/189989.Finite_and_Infinite_Games">Finite and Infinite Games: A Vision of Life as Play and Possibility by James P. Carse</a></li>
+  <li><a href="https://www.goodreads.com/book/show/34459.Metaphors_We_Live_By">Metaphors We Live By by George Lakoff</a></li>
+  <li><a href="https://www.goodreads.com/book/show/25658482-at-the-existentialist-caf">At the Existentialist Café: Freedom, Being, and Apricot Cocktails by Sarah Bakewell</a></li>
+  <li><a href="https://www.goodreads.com/book/show/91950.The_Myth_of_Sisyphus">The Myth of Sisyphus by Albert Camus</a></li>
+  <li><a href="https://www.goodreads.com/book/show/629.Zen_and_the_Art_of_Motorcycle_Maintenance">Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values by Robert M. Pirsig</a></li>
+  <li><a href="https://www.goodreads.com/book/show/7832916-finding-our-sea-legs">Finding Our Sea-Legs: Ethics, Experience and the Ocean of Stories by Will Buckingham</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2002987.Anthropic_Bias">Anthropic Bias: Observation Selection Effects in Science and Philosophy by Nick Bostrom</a></li>
+  <li><a href="https://www.goodreads.com/book/show/227113.Walking">Walking by Henry David Thoreau</a></li>
+  <li><a href="https://www.goodreads.com/book/show/385.On_Bullshit">On Bullshit by Harry G. Frankfurt</a></li>
+  <li><a href="https://www.goodreads.com/book/show/94318.Awareness">Awareness: The Perils and Opportunities of Reality by Anthony de Mello</a></li>
+  <li><a href="https://www.goodreads.com/book/show/143878.Total_Freedom">Total Freedom: The Essential Krishnamurti by Jiddu Krishnamurti</a></li>
+  <li><a href="https://www.goodreads.com/book/show/18682791-thus-spake-zarathustra-a-book-for-all-and-none">Thus Spake Zarathustra: A Book For All And None by Friedrich Nietzsche</a></li>
+  <li><a href="https://www.goodreads.com/book/show/62804.Sun_and_Steel">Sun and Steel by Yukio Mishima</a></li>
+  <li><a href="https://www.goodreads.com/book/show/13425570-how-will-you-measure-your-life">How Will You Measure Your Life? by Clayton M. Christensen</a></li>
+  <li><a href="https://www.goodreads.com/book/show/35024337-the-scent-of-time">The Scent of Time: A Philosophical Essay on the Art of Lingering by Byung-Chul Han</a></li>
+  <li><a href="https://www.goodreads.com/book/show/29946.Illusions">Illusions: The Adventures of a Reluctant Messiah by Richard Bach</a></li>
+</ul>
+
+<h2 id="effective-altruism">Effective Altruism</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/327051.Reasons_and_Persons">Reasons and Persons by Derek Parfit</a></li>
+  <li><a href="https://www.goodreads.com/book/show/23398748-doing-good-better">Doing Good Better: How Effective Altruism Can Help You Make a Difference by William MacAskill</a></li>
+  <li><a href="https://www.goodreads.com/book/show/49046572-moral-uncertainty">Moral Uncertainty by William MacAskill</a></li>
+  <li><a href="https://www.goodreads.com/book/show/33229792-80-000-hours">80,000 Hours: Find a fulfilling career that does good by Benjamin Todd</a></li>
+  <li><a href="https://www.goodreads.com/book/show/11417583-the-expanding-circle">The Expanding Circle: Ethics and Sociobiology by Peter Singer</a></li>
+  <li><a href="https://www.goodreads.com/book/show/4722934-the-life-you-can-save">The Life You Can Save: Acting Now to End World Poverty by Peter Singer</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6411373-whole-earth-discipline">Whole Earth Discipline: An Ecopragmatist Manifesto by Stewart Brand</a></li>
+</ul>
+
+<h2 id="existential-risk">Existential Risk</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/50485582-the-precipice">The Precipice: Existential Risk and the Future of Humanity by Toby Ord</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2659696-global-catastrophic-risks">Global Catastrophic Risks by Nick Bostrom</a></li>
+  <li><a href="https://www.goodreads.com/book/show/20527133-superintelligence">Superintelligence: Paths, Dangers, Strategies by Nick Bostrom</a></li>
+  <li><a href="https://www.goodreads.com/book/show/34272565-life-3-0">Life 3.0: Being Human in the Age of Artificial Intelligence by Max Tegmark</a></li>
+</ul>
+
+<h2 id="progress-studies">Progress Studies</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/41077238-stubborn-attachments">Stubborn Attachments: A Vision for a Society of Free, Prosperous, and Responsible Individuals by Tyler Cowen</a></li>
+  <li><a href="https://www.goodreads.com/book/show/10276354-the-great-stagnation">The Great Stagnation: How America Ate All The Low-Hanging Fruit of Modern History, Got Sick, and Will (Eventually) Feel Better by Tyler Cowen</a></li>
+  <li><a href="https://www.goodreads.com/book/show/11107244-the-better-angels-of-our-nature">The Better Angels of Our Nature: Why Violence Has Declined by Steven Pinker</a></li>
+  <li><a href="https://www.goodreads.com/book/show/35696171-enlightenment-now">Enlightenment Now: The Case for Reason, Science, Humanism, and Progress by Steven Pinker</a></li>
+  <li><a href="https://www.goodreads.com/book/show/31951505-the-great-leveler">The Great Leveler: Violence and the History of Inequality from the Stone Age to the Twenty-First Century by Walter Scheidel</a></li>
+  <li><a href="https://www.goodreads.com/book/show/282085.Human_Accomplishment">Human Accomplishment: The Pursuit of Excellence in the Arts and Sciences, 800 BC to 1950 by Charles Murray</a></li>
+  <li><a href="https://www.goodreads.com/book/show/29452523-a-culture-of-growth">A Culture of Growth: The Origins of the Modern Economy by Joel Mokyr</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/15127558">A Brief History of How the Industrial Revolution Changed the World by Thomas Crump</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2120575.Men_Machines_and_Modern_Times">Men, Machines, and Modern Times by Elting E. Morison</a></li>
+  <li><a href="https://www.goodreads.com/book/show/257489.The_Lever_of_Riches">The Lever of Riches: Technological Creativity and Economic Progress by Joel Mokyr</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17847857-mass-flourishing">Mass Flourishing: How Grassroots Innovation Created Jobs, Challenge, and Change by Edmund S. Phelps</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/42585094">The Technology Trap: Capital, Labor, and Power in the Age of Automation by Carl Benedikt Frey</a></li>
+</ul>
+
+<h2 id="economics">Economics</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/1048424.Governing_the_Commons">Governing the Commons: The Evolution of Institutions for Collective Action by Elinor Ostrom</a></li>
+  <li><a href="https://www.goodreads.com/book/show/317333.Micromotives_and_Macrobehavior">Micromotives and Macrobehavior by Thomas C. Schelling</a></li>
+  <li><a href="https://www.goodreads.com/book/show/366821.The_Evolution_of_Cooperation">The Evolution of Cooperation by Robert Axelrod</a></li>
+  <li><a href="https://www.goodreads.com/book/show/369409.The_Logic_of_Collective_Action">The Logic of Collective Action: Public Goods and the Theory of Groups by Mancur Olson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1245046.Incentives">Incentives: Motivation and the Economics of Information by Donald E. Campbell</a></li>
+  <li><a href="https://www.goodreads.com/book/show/13410360-due-diligence">Due Diligence: An Impertinent Inquiry into Microfinance by David Roodman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/316767.The_Box">The Box: How the Shipping Container Made the World Smaller and the World Economy Bigger by Marc Levinson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/16044961-ninety-percent-of-everything">Ninety Percent of Everything: Inside Shipping, the Invisible Industry That Puts Clothes on Your Back, Gas in Your Car, and Food on Your Plate by Rose George</a></li>
+  <li><a href="https://www.goodreads.com/book/show/9623583-the-political-economy-of-american-trade-policy">The Political Economy of American Trade Policy by Anne O. Krueger</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1713426.Predictably_Irrational">Predictably Irrational: The Hidden Forces That Shape Our Decisions by Dan Ariely</a></li>
+  <li><a href="https://www.goodreads.com/book/show/87062.John_Maynard_Keynes">John Maynard Keynes: 1883-1946: Economist, Philosopher, Statesman by Robert Skidelsky</a></li>
+</ul>
+
+<h2 id="economic-history">Economic History</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/11569567-global-economic-history">Global Economic History: A Very Short Introduction by Robert C. Allen</a></li>
+  <li><a href="https://www.goodreads.com/book/show/150437.A_Farewell_to_Alms">A Farewell to Alms: A Brief Economic History of the World by Gregory Clark</a></li>
+  <li><a href="https://www.goodreads.com/book/show/711592.The_Wages_of_Destruction">The Wages of Destruction: The Making and Breaking of the Nazi Economy by Adam Tooze</a></li>
+  <li><a href="https://www.goodreads.com/book/show/19955202-a-great-leap-forward">A Great Leap Forward: 1930s Depression and US Economic Growth by Alexander J. Field</a></li>
+  <li><a href="https://www.goodreads.com/book/show/26634594-the-rise-and-fall-of-american-growth">The Rise and Fall of American Growth: The US Standard of Living Since the Civil War by Robert J. Gordon</a></li>
+  <li><a href="https://www.goodreads.com/book/show/103431.Civilization_and_Capitalism_15th_18th_Century_Vol_1">Civilization and Capitalism 15th-18th Century, Vol. 1: The Structures of Everyday Life by Fernand Braudel</a></li>
+  <li><a href="https://www.goodreads.com/book/show/552175.Progress_and_Poverty">Progress and Poverty by Henry George</a></li>
+  <li><a href="https://www.goodreads.com/book/show/28699242-the-invisible-hand">The Invisible Hand?: How Market Economies Have Emerged and Declined Since AD 500 by Bas van Bavel</a></li>
+  <li><a href="https://www.goodreads.com/book/show/775030.Power_and_Plenty">Power and Plenty: Trade, War, and the World Economy in the Second Millennium by Ronald Findlay</a></li>
+  <li><a href="https://www.goodreads.com/book/show/16144575-how-asia-works">How Asia Works: Success and Failure in the World’s Most Dynamic Region by Joe Studwell</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6474653-the-british-industrial-revolution-in-global-perspective">The British Industrial Revolution in Global Perspective by Robert C. Allen</a></li>
+  <li><a href="https://www.goodreads.com/book/show/7146167-the-enlightened-economy">The Enlightened Economy: An Economic History of Britain 1700-1850 by Joel Mokyr</a></li>
+  <li><a href="https://www.goodreads.com/book/show/28130834-the-path-to-sustained-growth">The Path to Sustained Growth: England’s Transition from an Organic Economy to an Industrial Revolution by EA Wrigley</a></li>
+  <li><a href="https://www.goodreads.com/book/show/771283.MITI_and_the_Japanese_Miracle">MITI and the Japanese Miracle: The Growth of Industrial Policy, 1925-1975 by Chalmers Johnson</a></li>
+</ul>
+
+<h2 id="technology">Technology</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/42036377-where-is-my-flying-car">Where Is My Flying Car?: A Memoir of Future Past by J Storrs Hall</a>** **</li>
+  <li><a href="https://www.goodreads.com/book/show/243725.Out_of_Control">Out of Control: The New Biology of Machines, Social Systems, and the Economic World by Kevin Kelly</a></li>
+  <li><a href="https://www.goodreads.com/book/show/32073021-life-after-google">Life After Google: The Fall of Big Data and the Rise of the Blockchain Economy by George Gilder</a></li>
+  <li><a href="https://www.goodreads.com/book/show/688489.Technics_and_Civilization">Technics and Civilization by Lewis Mumford</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/134808.The_Sources_of_Innovation">The Sources of Innovation by Eric von Hippel</a></li>
+  <li><a href="https://www.goodreads.com/book/show/8238778-democratizing-innovation">Democratizing Innovation by Eric von Hippel</a></li>
+  <li><a href="https://www.goodreads.com/book/show/7954936-what-technology-wants">What Technology Wants by Kevin Kelly</a></li>
+  <li><a href="https://www.goodreads.com/book/show/26831944-the-age-of-em">The Age of Em: Work, Love and Life When Robots Rule the Earth by Robin Hanson</a></li>
+</ul>
+
+<h2 id="technologists">Technologists</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/41438647-the-dream-machine">The Dream Machine: JCR Licklider and the Revolution That Made Computing Personal by M. Mitchell Waldrop</a></li>
+  <li><a href="https://www.goodreads.com/book/show/101438.Skunk_Works">Skunk Works: A Personal Memoir of My Years at Lockheed by Ben R. Rich</a></li>
+  <li><a href="https://www.goodreads.com/book/show/475762.Endless_Frontier">Endless Frontier: Vannevar Bush, Engineer of the American Century by G. Pascal Zachary</a></li>
+  <li><a href="https://www.goodreads.com/book/show/25541028-elon-musk">Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future by Ashlee Vance</a></li>
+  <li><a href="https://www.goodreads.com/book/show/11084145-steve-jobs">Steve Jobs by Walter Isaacson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/34684622-leonardo-da-vinci">Leonardo da Vinci by Walter Isaacson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/4806.Longitude">Longitude: The True Story of a Lone Genius Who Solved the Greatest Scientific Problem of His Time by Dava Sobel</a></li>
+  <li><a href="https://www.goodreads.com/book/show/22609391-the-wright-brothers">The Wright Brothers by David McCullough</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6465337-the-heroic-age-of-american-invention">The Heroic Age of American Invention by L. Sprague de Camp</a></li>
+</ul>
+
+<h2 id="engineering">Engineering</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/16884.The_Making_of_the_Atomic_Bomb">The Making of the Atomic Bomb by Richard Rhodes</a></li>
+  <li><a href="https://www.goodreads.com/book/show/16889.Dark_Sun">Dark Sun: The Making of the Hydrogen Bomb by Richard Rhodes</a></li>
+  <li><a href="https://www.goodreads.com/book/show/543704.The_Chip">The Chip: How Two Americans Invented the Microchip and Launched a Revolution by TR Reid</a></li>
+  <li><a href="https://www.goodreads.com/book/show/23546676-digital-gold">Digital Gold: Bitcoin and the Inside Story of the Misfits and Millionaires Trying to Reinvent Money by Nathaniel Popper</a></li>
+  <li><a href="https://www.goodreads.com/book/show/50175330-the-infinite-machine">The Infinite Machine: How an Army of Crypto-hackers Is Building the Next Internet with Ethereum by Camila Russo</a></li>
+  <li><a href="https://www.goodreads.com/book/show/8201080-the-master-switch">The Master Switch: The Rise and Fall of Information Empires by Tim Wu</a></li>
+  <li><a href="https://www.goodreads.com/book/show/191355.Darwin_Among_The_Machines">Darwin Among The Machines: The Evolution Of Global Intelligence by George Dyson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/9542311-packing-for-mars">Packing for Mars: The Curious Science of Life in the Void by Mary Roach</a></li>
+  <li>​​<a href="https://www.goodreads.com/book/show/3175205-inventing-temperature">Inventing Temperature: Measurement and Scientific Progress by Hasok Chang</a></li>
+</ul>
+
+<h2 id="space-flight">Space Flight</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/40538718-one-giant-leap">One Giant Leap: The Impossible Mission That Flew Us to the Moon by Charles Fishman</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/8146619">The Right Stuff by Tom Wolfe</a></li>
+  <li><a href="https://www.goodreads.com/book/show/35414997-rocket-men">Rocket Men: The Daring Odyssey of Apollo 8 and the Astronauts Who Made Man’s First Journey to the Moon by Robert Kurson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/849747.Moondust">Moondust: In Search Of The Men Who Fell To Earth by Andrew Smith</a></li>
+  <li><a href="https://www.goodreads.com/book/show/36205015-the-space-barons">The Space Barons: Elon Musk, Jeff Bezos, and the Quest to Colonize the Cosmos by Christian Davenport</a></li>
+</ul>
+
+<h2 id="firms">Firms</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/11797471-the-idea-factory">The Idea Factory: Bell Labs and the Great Age of American Innovation by Jon Gertner</a></li>
+  <li><a href="https://www.goodreads.com/book/show/38276.The_Media_Lab">The Media Lab: Inventing the Future at MIT by Stewart Brand</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1101290.Dealers_of_Lightning">Dealers of Lightning: Xerox PARC and the Dawn of the Computer Age by Michael A. Hiltzik</a></li>
+  <li><a href="https://www.goodreads.com/book/show/638812.Fumbling_the_Future">Fumbling the Future: How Xerox Invented, Then Ignored, the First Personal Computer by Douglas K. Smith</a></li>
+  <li><a href="https://www.goodreads.com/book/show/15877224-doing-the-impossible">Doing the Impossible: George E. Mueller &amp; the Management of NASA’s Human Spaceflight Program by Arthur L. Slotkin</a></li>
+  <li><a href="https://www.goodreads.com/book/show/618007.Tuxedo_Park">Tuxedo Park: A Wall Street Tycoon and the Secret Palace of Science That Changed the Course of World War II by Jennet Conant</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/1332894">Sidewinder: Creative Missile Development At China Lake by Ron Westrum</a></li>
+  <li><a href="https://www.goodreads.com/book/show/7841446-in-the-plex">In the Plex: How Google Thinks, Works, and Shapes Our Lives by Steven Levy</a></li>
+  <li><a href="https://www.goodreads.com/book/show/18077903-creativity-inc">Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration by Ed Catmull</a></li>
+  <li><a href="https://www.goodreads.com/book/show/283521.The_Notenki_Memoirs">The Notenki Memoirs: Studio Gainax and the Men Who Created Evangelion by Yasuhiro Takeda</a></li>
+</ul>
+
+<h2 id="startup">Startup</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/18050143-zero-to-one">Zero to One: Notes on Startups, or How to Build the Future by Peter Thiel</a></li>
+  <li><a href="https://www.goodreads.com/book/show/98233.Founders_at_Work">Founders at Work: Stories of Startups’ Early Days by Jessica Livingston</a></li>
+  <li><a href="https://www.goodreads.com/book/show/18176747-the-hard-thing-about-hard-things">The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers by Ben Horowitz</a></li>
+  <li><a href="https://www.goodreads.com/book/show/44063692-what-you-do-is-who-you-are">What You Do Is Who You Are: How to Create Your Business Culture by Ben Horowitz</a></li>
+  <li><a href="https://www.goodreads.com/book/show/40536148-high-growth-handbook">High Growth Handbook by Elad Gil</a></li>
+  <li><a href="https://www.goodreads.com/book/show/10127019-the-lean-startup">The Lean Startup: How Today’s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses by Eric Ries</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2615.The_Innovator_s_Dilemma">The Innovator’s Dilemma: The Revolutionary Book that Will Change the Way You Do Business by Clayton M. Christensen</a></li>
+  <li><a href="https://www.goodreads.com/book/show/76865.Good_to_Great">Good to Great: Why Some Companies Make the Leap… and Others Don’t by James C. Collins</a></li>
+  <li><a href="https://www.goodreads.com/book/show/11878168-anything-you-want">Anything You Want by Derek Sivers</a></li>
+</ul>
+
+<h2 id="business">Business</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/438607.Hard_Landing">Hard Landing: The Epic Contest for Power and Profits That Plunged the Airlines into Chaos by Thomas Petzinger Jr.</a></li>
+  <li>​​<a href="https://www.goodreads.com/book/show/16121.Titan">Titan: The Life of John D. Rockefeller, Sr. by Ron Chernow</a></li>
+  <li><a href="https://www.goodreads.com/book/show/281544.Andrew_Carnegie">Andrew Carnegie by Joseph Frazier Wall</a></li>
+  <li><a href="https://www.goodreads.com/book/show/27220736-shoe-dog">Shoe Dog: A Memoir by the Creator of Nike by Phil Knight</a></li>
+  <li><a href="https://www.goodreads.com/book/show/118824.Walt_Disney">Walt Disney: The Triumph of the American Imagination by Neal Gabler</a></li>
+  <li><a href="https://www.goodreads.com/book/show/44525305-the-ride-of-a-lifetime">The Ride of a Lifetime: Lessons Learned from 15 Years as CEO of the Walt Disney Company by Robert Iger</a></li>
+  <li><a href="https://www.goodreads.com/book/show/10631.Sam_Walton">Sam Walton: Made In America by Sam Walton</a></li>
+  <li><a href="https://www.goodreads.com/book/show/52032133-facebook">Facebook: The Inside Story by Steven Levy</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17660462-the-everything-store">The Everything Store: Jeff Bezos and the Age of Amazon by Brad Stone</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1122090.My_Forty_Years_with_Ford">My Forty Years with Ford by Charles E. Sorensen</a></li>
+  <li><a href="https://www.goodreads.com/book/show/113576.The_Smartest_Guys_in_the_Room">The Smartest Guys in the Room: The Amazing Rise and Scandalous Fall of Enron by Bethany McLean</a></li>
+  <li><a href="https://www.goodreads.com/book/show/37976541-bad-blood">Bad Blood: Secrets and Lies in a Silicon Valley Startup by John Carreyrou</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/44573628">Super Pumped: The Battle for Uber by Mike Isaac</a></li>
+  <li><a href="https://www.goodreads.com/book/show/30759083-the-spider-network">The Spider Network: The Wild Story of a Math Genius, a Gang of Backstabbing Bankers, and One of the Greatest Scams in Financial History by David Enrich</a></li>
+  <li><a href="https://www.goodreads.com/book/show/781182.Barbarians_at_the_Gate">Barbarians at the Gate: The Fall of RJR Nabisco by Bryan Burrough</a></li>
+  <li><a href="https://www.goodreads.com/book/show/4191136-business-adventures">Business Adventures by John Brooks</a></li>
+  <li><a href="https://www.goodreads.com/book/show/40092129-who-is-michael-ovitz">Who Is Michael Ovitz? by Michael Ovitz</a></li>
+  <li><a href="https://www.goodreads.com/book/show/760025.Positioning">Positioning: The Battle for Your Mind: How to Be Seen and Heard in the Overcrowded Marketplace by Al Ries</a></li>
+  <li><a href="https://www.goodreads.com/book/show/40549476-this-is-marketing">This is Marketing: You Can’t Be Seen Until You Learn To See by Seth Godin</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/50403486">Subprime Attention Crisis: Advertising and the Time Bomb at the Heart of the Internet by Tim Hwang</a></li>
+</ul>
+
+<h2 id="management">Management</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/53138083-working-backwards">Working Backwards: Insights, Stories, and Secrets from Inside Amazon by Colin Bryar</a></li>
+  <li><a href="https://www.goodreads.com/book/show/45303387-an-elegant-puzzle">An Elegant Puzzle: Systems of Engineering Management by Will Larson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/324750.High_Output_Management">High Output Management by Andrew S. Grove</a></li>
+  <li><a href="https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month">The Mythical Man-Month: Essays on Software Engineering by Frederick P. Brooks Jr.</a></li>
+  <li><a href="https://www.goodreads.com/book/show/116187.Organizing_Genius">Organizing Genius: The Secrets of Creative Collaboration by Warren Bennis</a></li>
+  <li><a href="https://www.goodreads.com/book/show/279812.Moral_Mazes">Moral Mazes: The World of Corporate Managers by Robert Jackall</a></li>
+  <li><a href="https://www.goodreads.com/book/show/25159550-an-everyone-culture">An Everyone Culture: Becoming a Deliberately Developmental Organization by Robert Kegan</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/18581690">The Gervais Principle: The Complete Series, with a Bonus Essay on Office Space by Venkatesh G. Rao</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6667514-the-checklist-manifesto">The Checklist Manifesto: How to Get Things Right by Atul Gawande</a></li>
+  <li><a href="https://www.goodreads.com/book/show/25696722-perspective-on-mckinsey">Perspective on McKinsey by Martin Bower</a></li>
+</ul>
+
+<h2 id="leadership">Leadership</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/4865.How_to_Win_Friends_and_Influence_People">How to Win Friends and Influence People by Dale Carnegie</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6342995-the-score-takes-care-of-itself">The Score Takes Care of Itself: My Philosophy of Leadership by Bill Walsh</a></li>
+  <li><a href="https://www.goodreads.com/book/show/34536488-principles">Principles: Life and Work by Ray Dalio</a></li>
+  <li><a href="https://www.goodreads.com/book/show/25073935-nonviolent-communication">Nonviolent Communication: A Language of Life by Marshall B. Rosenberg</a></li>
+  <li><a href="https://www.goodreads.com/book/show/15014.Crucial_Conversations">Crucial Conversations: Tools for Talking When Stakes Are High by Kerry Patterson</a></li>
+</ul>
+
+<h2 id="finance">Finance</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/6025160-lords-of-finance">Lords of Finance: The Bankers Who Broke the World by Liaquat Ahamed</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/26597296">Money Changes Everything: How Finance Made Civilization Possible by William N. Goetzmann</a></li>
+  <li><a href="https://www.goodreads.com/book/show/25706.The_Money_Game">The Money Game by Adam Smith</a></li>
+  <li><a href="https://www.goodreads.com/book/show/709669.Supermoney">Supermoney by Adam Smith</a></li>
+  <li><a href="https://www.goodreads.com/book/show/43889703-the-man-who-solved-the-market">The Man Who Solved the Market: How Jim Simons Launched the Quant Revolution by Gregory Zuckerman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/944652.Poor_Charlie_s_Almanack">Poor Charlie’s Almanack: The Wit and Wisdom of Charles T. Munger by Charles T. Munger</a></li>
+  <li><a href="https://www.goodreads.com/book/show/41397.My_Life_as_a_Quant">My Life as a Quant: Reflections on Physics and Finance by Emanuel Derman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1334384.What_I_Learned_Losing_a_Million_Dollars">What I Learned Losing a Million Dollars by Jim Paul</a></li>
+  <li><a href="https://www.goodreads.com/book/show/186124.Fortune_s_Formula">Fortune’s Formula: The Untold Story of the Scientific Betting System That Beat the Casinos and Wall Street by William Poundstone</a></li>
+  <li><a href="https://www.goodreads.com/book/show/55738971-optionality">Optionality: How to Survive and Thrive in a Volatile World by Richard Meadows</a></li>
+  <li><a href="https://www.goodreads.com/book/show/26889576-the-big-short">The Big Short: Inside the Doomsday Machine by Michael Lewis</a></li>
+  <li><a href="https://www.goodreads.com/book/show/24724602-flash-boys">Flash Boys: A Wall Street Revolt by Michael Lewis</a></li>
+  <li><a href="https://www.goodreads.com/book/show/7865083-liar-s-poker">Liar’s Poker by Michael Lewis</a></li>
+  <li><a href="https://www.goodreads.com/book/show/38605195-lying-for-money">Lying for Money: How Legendary Frauds Reveal the Workings of Our World by Dan Davies</a></li>
+  <li><a href="https://www.goodreads.com/book/show/18887983-the-kelly-capital-growth-investment-criterion">The Kelly Capital Growth Investment Criterion: Theory and Practice by Leonard C. Maclean</a></li>
+  <li><a href="https://www.goodreads.com/book/show/900892.A_Random_Walk_Down_Wall_Street">A Random Walk Down Wall Street: The Time-Tested Strategy for Successful Investing by Burton G. Malkiel</a></li>
+  <li><a href="https://www.goodreads.com/book/show/106835.The_Intelligent_Investor">The Intelligent Investor by Benjamin Graham</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1052.The_Richest_Man_in_Babylon">The Richest Man in Babylon by George S. Clason</a></li>
+</ul>
+
+<h2 id="psychology">Psychology</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/345095.The_Evolving_Self">The Evolving Self: Problem and Process in Human Development by Robert Kegan</a></li>
+  <li><a href="https://www.goodreads.com/book/show/36700770-cognitive-gadgets">Cognitive Gadgets: The Cultural Evolution of Thinking by Cecilia Heyes</a></li>
+  <li><a href="https://www.goodreads.com/book/show/51710349-the-weirdest-people-in-the-world">The WEIRDest People in the World: How the West Became Psychologically Peculiar and Particularly Prosperous by Joseph Henrich</a></li>
+  <li><a href="https://www.goodreads.com/book/show/751572.The_Cambridge_Handbook_of_Expertise_and_Expert_Performance">The Cambridge Handbook of Expertise and Expert Performance by K Anders Ericsson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/26312997-peak">Peak: Secrets from the New Science of Expertise by K. Anders Ericsson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/66354.Flow">Flow: The Psychology of Optimal Experience by Mihaly Csikszentmihalyi</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6283340-spent">Spent: Sex, Evolution, and Consumer Behavior by Geoffrey Miller</a></li>
+  <li><a href="https://www.goodreads.com/book/show/28815.Influence">Influence: The Psychology of Persuasion by Robert B. Cialdini</a></li>
+  <li><a href="https://www.goodreads.com/book/show/18007504-mindwise">Mindwise: How We Understand What Others Think, Believe, Feel, and Want by Nicholas Epley</a></li>
+  <li><a href="https://www.goodreads.com/book/show/764822.Bias_in_Mental_Testing">Bias in Mental Testing by Arthur R. Jensen</a></li>
+  <li><a href="https://www.goodreads.com/book/show/31170723-behave">Behave: The Biology of Humans at Our Best and Worst by Robert M. Sapolsky</a></li>
+</ul>
+
+<h2 id="clinical-psychology">Clinical Psychology</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/17054323-unlocking-the-emotional-brain">Unlocking the Emotional Brain: Eliminating Symptoms at Their Roots Using Memory Reconsolidation by Bruce Ecker</a></li>
+  <li><a href="https://www.goodreads.com/book/show/168349.Internal_Family_Systems_Therapy">Internal Family Systems Therapy by Richard C. Schwartz</a></li>
+  <li><a href="https://www.goodreads.com/book/show/789725.Change">Change: Principles of Problem Formation and Problem Resolution by Paul Watzlawick</a></li>
+  <li><a href="https://www.goodreads.com/book/show/11350120-mindfulness">Mindfulness: An Eight-Week Plan for Finding Peace in a Frantic World by J. Mark G. Williams</a></li>
+</ul>
+
+<h2 id="theory-of-mind">Theory of Mind</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/22478.The_Origin_of_Consciousness_in_the_Breakdown_of_the_Bicameral_Mind">The Origin of Consciousness in the Breakdown of the Bicameral Mind by Julian Jaynes</a></li>
+  <li><a href="https://www.goodreads.com/book/show/5752.The_Blank_Slate">The Blank Slate: The Modern Denial of Human Nature by Steven Pinker</a></li>
+  <li><a href="https://www.goodreads.com/book/show/5755.The_Language_Instinct">The Language Instinct: How the Mind Creates Language by Steven Pinker</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6968772-the-master-and-his-emissary">The Master and His Emissary: The Divided Brain and the Making of the Western World by Iain McGilchrist</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/36325702">The Mind is Flat: The Illusion of Mental Depth and The Improvised Mind by Nick Chater</a></li>
+  <li><a href="https://www.goodreads.com/book/show/20741.Interaction_Ritual">Interaction Ritual: Essays on Face-To-Face Behavior by Erving Goffman</a></li>
+</ul>
+
+<h2 id="social-anthropology">Social Anthropology</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/20186.Seeing_Like_a_State">Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed by James C. Scott</a></li>
+  <li><a href="https://www.goodreads.com/book/show/32081.Albion_s_Seed">Albion’s Seed: Four British Folkways in America by David Hackett Fischer</a></li>
+  <li><a href="https://www.goodreads.com/book/show/8211037-the-collapse-of-complex-societies">Collapse of Complex Societies by Joseph A. Tainter</a></li>
+  <li><a href="https://www.goodreads.com/book/show/12158480-why-nations-fail">Why Nations Fail: The Origins of Power, Prosperity, and Poverty by Daron Acemoğlu</a></li>
+  <li><a href="https://www.goodreads.com/book/show/42286006-the-revolt-of-the-public-and-the-crisis-of-authority-in-the-new-millenni">The Revolt of the Public and the Crisis of Authority</a></li>
+  <li><a href="https://www.goodreads.com/book/show/42778734-the-true-believer">The True Believer: Thoughts on the Nature of Mass Movements by Eric Hoffer</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2774428-community">Community: The Structure of Belonging by Peter Block</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/49766350">Get Together: How to build a community with your people by Bailey Richardson</a></li>
+</ul>
+
+<h2 id="anthropology">Anthropology</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/35749414-who-we-are-and-how-we-got-here">Who We Are and How We Got Here: Ancient DNA and the New Science of the Human Past by David Reich</a></li>
+  <li><a href="https://www.goodreads.com/book/show/25761655-the-secret-of-our-success">The Secret of Our Success: How Culture Is Driving Human Evolution, Domesticating Our Species, and Making Us Smarter by Joseph Henrich</a></li>
+  <li><a href="https://www.goodreads.com/book/show/12633085-cultural-evolution">Cultural Evolution: How Darwinian Theory Can Explain Human Culture and Synthesize the Social Sciences by Alex Mesoudi</a></li>
+  <li><a href="https://www.goodreads.com/book/show/104527.Not_by_Genes_Alone">Not by Genes Alone: How Culture Transformed Human Evolution by Peter J. Richerson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/27867828-ultrasociety">Ultrasociety: How 10,000 Years of War Made Humans the Greatest Cooperators on Earth by Peter Turchin</a></li>
+</ul>
+
+<h2 id="cultural-anthropology">Cultural Anthropology</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/337517.Things_Hidden_Since_the_Foundation_of_the_World">Things Hidden Since the Foundation of the World by René Girard</a></li>
+  <li><a href="https://www.goodreads.com/book/show/337521.Violence_and_the_Sacred">Violence and the Sacred by René Girard</a></li>
+  <li><a href="https://www.goodreads.com/book/show/306940.Impro">Impro: Improvisation and the Theatre by Keith Johnstone</a></li>
+  <li><a href="https://www.goodreads.com/book/show/215868.Improvise_">Improvise.: Scene from the Inside Out by Mick Napier</a></li>
+  <li><a href="https://www.goodreads.com/book/show/28820444-the-elephant-in-the-brain">The Elephant in the Brain: Hidden Motives in Everyday Life by Kevin Simler</a></li>
+  <li><a href="https://www.goodreads.com/book/show/60044.Class">Class: A Guide Through the American Status System by Paul Fussell</a></li>
+  <li><a href="https://www.goodreads.com/book/show/50053432-the-decadent-society">The Decadent Society: How We Became the Victims of Our Own Success by Ross Douthat</a></li>
+  <li><a href="https://www.goodreads.com/book/show/38212112-the-culture-of-narcissism">The Culture of Narcissism: American Life in An Age of Diminishing Expectations by Christopher Lasch</a></li>
+  <li><a href="https://www.goodreads.com/book/show/11324722-the-righteous-mind">The Righteous Mind: Why Good People Are Divided by Politics and Religion by Jonathan Haidt</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17707599-moral-tribes">Moral Tribes: Emotion, Reason, and the Gap Between Us and Them by Joshua D. Greene</a></li>
+</ul>
+
+<h2 id="culture">Culture</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/25955.The_Medium_is_the_Massage">The Medium is the Massage by Marshall McLuhan</a></li>
+  <li><a href="https://www.goodreads.com/book/show/74034.Amusing_Ourselves_to_Death">Amusing Ourselves to Death: Public Discourse in the Age of Show Business by Neil Postman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/35519.The_Power_of_Myth">The Power of Myth by Joseph Campbell</a></li>
+  <li><a href="https://www.goodreads.com/book/show/48582.The_Spell_of_the_Sensuous">The Spell of the Sensuous: Perception and Language in a More-Than-Human World by David Abram</a></li>
+  <li><a href="https://www.goodreads.com/book/show/22318578-the-life-changing-magic-of-tidying-up">The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing by Marie Kondō</a></li>
+</ul>
+
+<h2 id="sociology">Sociology</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/48710529-very-important-people">Very Important People: Status and Beauty in the Global Party Circuit by Ashley Mears</a></li>
+  <li><a href="https://www.goodreads.com/book/show/11694500-pricing-beauty">Pricing Beauty: The Making of a Fashion Model by Ashley Mears</a></li>
+  <li><a href="https://www.goodreads.com/book/show/25898213-gender-in-modern-east-asia">Gender in Modern East Asia by Barbara Molony</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17573685-the-feminine-mystique">The Feminine Mystique by Betty Friedan</a></li>
+  <li><a href="https://www.goodreads.com/book/show/24396873-mate">Mate: Become the Man Women Want by Tucker Max</a></li>
+  <li><a href="https://www.goodreads.com/book/show/12633800-models">Models: Attract Women Through Honesty by Mark Manson</a></li>
+</ul>
+
+<h2 id="parentingeducation">Parenting/Education</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/en/book/show/10266902">Selfish Reasons to Have More Kids: Why Being a Great Parent is Less Work and More Fun Than You Think by Bryan Caplan</a></li>
+  <li><a href="https://www.goodreads.com/book/show/21264029-how-and-why-i-taught-my-toddler-to-read">How and Why I Taught My Toddler to Read by Larry Sanger</a></li>
+  <li>​​<a href="https://www.goodreads.com/book/show/769016.How_to_Talk_So_Kids_Will_Listen_Listen_So_Kids_Will_Talk">How to Talk So Kids Will Listen &amp; Listen So Kids Will Talk</a></li>
+  <li><a href="https://www.goodreads.com/book/show/633128.The_Nurture_Assumption">The Nurture Assumption: Why Children Turn Out the Way They Do by Judith Rich Harris</a></li>
+  <li><a href="https://www.goodreads.com/book/show/51579752-the-origins-of-you">The Origins of You: How Childhood Shapes Later Life by Jay Belsky</a></li>
+  <li><a href="https://www.goodreads.com/book/show/703532.Mindstorms">Mindstorms: Children, Computers, And Powerful Ideas by Seymour Papert</a></li>
+  <li><a href="https://www.goodreads.com/book/show/648782.The_Educated_Mind">The Educated Mind: How Cognitive Tools Shape Our Understanding by Kieran Egan</a></li>
+</ul>
+
+<h2 id="politics">Politics</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/28862.The_Prince">The Prince by Niccolò Machiavelli</a></li>
+  <li><a href="https://www.goodreads.com/book/show/167924.Discourses_on_Livy">The Discourses by Niccolò Machiavelli</a></li>
+  <li><a href="https://www.goodreads.com/book/show/57981.The_End_of_History_and_the_Last_Man">The End of History and the Last Man by Francis Fukuyama</a></li>
+  <li><a href="https://www.goodreads.com/book/show/9704856-the-origins-of-political-order">The Origins of Political Order: From Prehuman Times to the French Revolution by Francis Fukuyama</a></li>
+  <li><a href="https://www.goodreads.com/book/show/20575435-political-order-and-political-decay">Political Order and Political Decay: From the Industrial Revolution to the Globalization of Democracy by Francis Fukuyama</a></li>
+  <li><a href="https://www.goodreads.com/book/show/5354038-democracy-in-america">Democracy in America by Alexis de Tocqueville</a></li>
+  <li><a href="https://www.goodreads.com/book/show/27311899-democracy-for-realists">Democracy for Realists: Why Elections Do Not Produce Responsive Government by Christopher H. Achen</a></li>
+  <li><a href="https://www.goodreads.com/book/show/299215.The_Road_to_Serfdom">The Road to Serfdom by Friedrich A. Hayek</a></li>
+  <li><a href="https://www.goodreads.com/book/show/51877.Capitalism_and_Freedom">Capitalism and Freedom by Milton Friedman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1111.The_Power_Broker">The Power Broker: Robert Moses and the Fall of New York by Robert A. Caro</a></li>
+  <li><a href="https://www.goodreads.com/book/show/12617.Manufacturing_Consent">Manufacturing Consent: The Political Economy of the Mass Media by Edward S. Herman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/194805.Understanding_Power">Understanding Power: The Indispensable Chomsky by Noam Chomsky</a></li>
+  <li><a href="https://www.goodreads.com/book/show/3044.The_Vision_of_the_Anointed">The Vision of the Anointed: Self-Congratulation as a Basis for Social Policy by Thomas Sowell</a></li>
+  <li><a href="https://www.goodreads.com/book/show/86312.The_Quest_for_Cosmic_Justice">The Quest for Cosmic Justice by Thomas Sowell</a></li>
+  <li><a href="https://www.goodreads.com/book/show/7285385-intellectuals-and-society">Intellectuals and Society by Thomas Sowell</a></li>
+</ul>
+
+<h2 id="geopolitics">Geopolitics</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/hu/book/show/413179">The Clash of Civilizations and the Remaking of World Order</a></li>
+  <li><a href="https://www.goodreads.com/book/show/20821140-world-order">World Order by Henry Kissinger</a></li>
+  <li><a href="https://www.goodreads.com/nl/book/show/37133029-psychopolitics">Psychopolitics: Neoliberalism and New Technologies of Power by Byung-Chul Han</a></li>
+  <li><a href="https://www.goodreads.com/book/show/152038.The_Politics_of_Heroin">The Politics of Heroin: CIA Complicity in the Global Drug Trade by Alfred W. McCoy</a></li>
+  <li><a href="https://www.goodreads.com/book/show/5762121-the-prize">The Prize: The Epic Quest for Oil, Money, and Power by Daniel Yergin</a></li>
+  <li><a href="https://www.goodreads.com/book/show/12152359-the-shadow-world">The Shadow World: Inside the Global Arms Trade by Andrew Feinstein</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/36360063">Has the West Lost It?: A Provocation by Kishore Mahbubani</a></li>
+  <li><a href="https://www.goodreads.com/book/show/34889281-the-dawn-of-eurasia">The Dawn of Eurasia: On the Trail of the New World Order by Bruno Maçães</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/42778728">Disunited Nations: Succeeding in a World Where No One Gets Along by Peter Zeihan</a></li>
+  <li><a href="https://www.goodreads.com/book/show/13330422-the-revenge-of-geography">The Revenge Of Geography: What the Map Tells Us About Coming Conflicts and the Battle Against Fate by Robert D. Kaplan</a></li>
+</ul>
+
+<h2 id="statesmen">Statesmen</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/52309.The_Autobiography_of_Benjamin_Franklin">The Autobiography of Benjamin Franklin by Benjamin Franklin</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17675780-the-years-of-lyndon-johnson-set">The Years of Lyndon Johnson Set: The Path to Power; Means of Ascent; Master of the Senate; The Passage of Power by Robert A. Caro</a></li>
+  <li><a href="https://www.goodreads.com/book/show/8255917-washington">Washington: A Life by Ron Chernow</a></li>
+  <li><a href="https://www.goodreads.com/book/show/33998241-hoover">Hoover: An Extraordinary Life in Extraordinary Times by Kenneth Whyte</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2393575.Nixonland">Nixonland: The Rise of a President and the Fracturing of America by Rick Perlstein</a></li>
+  <li><a href="https://www.goodreads.com/book/show/326981.The_Singapore_Story">The Singapore Story: Memoirs of Lee Kuan Yew by Lee Kuan Yew</a></li>
+  <li><a href="https://www.goodreads.com/book/show/9717129-the-park-chung-hee-era">The Park Chung Hee Era: The Transformation of South Korea by Byung-Kook Kim</a></li>
+  <li><a href="https://www.goodreads.com/book/show/93959.Hirohito_and_the_Making_of_Modern_Japan">Hirohito and the Making of Modern Japan by Herbert P. Bix</a></li>
+  <li><a href="https://www.goodreads.com/book/show/64682.A_Prince_of_Our_Disorder">A Prince of Our Disorder: The Life of TE Lawrence by John E. Mack</a></li>
+</ul>
+
+<h2 id="law">Law</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/41716936-the-nonsense-factory">The Nonsense Factory: The Making and Breaking of the American Legal System by Bruce Cannon Gibney</a></li>
+  <li><a href="https://www.goodreads.com/book/show/30066446-legal-systems-very-different-from-ours">Legal Systems Very Different From Ours by David D. Friedman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/998023.The_Enterprise_of_Law">The Enterprise of Law: Justice Without the State by Bruce L. Benson</a></li>
+</ul>
+
+<h2 id="military-strategy">Military Strategy</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/10534.The_Art_of_War">The Art of War by Sun Tzu</a></li>
+  <li><a href="https://www.goodreads.com/book/show/867247.A_Book_of_Five_Rings">A Book of Five Rings: The Classic Guide to Strategy by Miyamoto Musashi</a></li>
+  <li><a href="https://www.goodreads.com/book/show/305909.Strategy">Strategy by BH Liddell Hart</a></li>
+  <li><a href="https://www.goodreads.com/book/show/200844.Military_Misfortunes">Military Misfortunes: The Anatomy of Failure in War by Eliot A. Cohen</a></li>
+  <li><a href="https://www.goodreads.com/book/show/135151.The_Grand_Strategy_of_the_Roman_Empire_from_the_First_Century_AD_to_the_Third">The Grand Strategy of the Roman Empire from the First Century AD to the Third by Edward N. Luttwak</a></li>
+  <li><a href="https://www.goodreads.com/book/show/797049.Spec_Ops">Spec Ops: Case Studies in Special Operations Warfare: Theory and Practice by William H. McRaven</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1303.The_48_Laws_of_Power">The 48 Laws of Power by Robert Greene</a></li>
+</ul>
+
+<h2 id="grand-history">Grand History</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/6940427-the-lessons-of-history">The Lessons of History by Will Durant</a></li>
+  <li><a href="https://www.goodreads.com/book/show/9491855-why-the-west-rules-for-now">Why the West Rules—for Now: The Patterns of History, and What They Reveal About the Future by Ian Morris</a></li>
+  <li><a href="https://www.goodreads.com/book/show/168445.A_History_of_Civilizations">A History of Civilizations by Fernand Braudel</a></li>
+  <li><a href="https://www.goodreads.com/book/show/58233.From_Dawn_to_Decadence">From Dawn to Decadence: 500 Years of Western Cultural Life, 1500 to the Present by Jacques Barzun</a></li>
+  <li><a href="https://www.goodreads.com/book/show/21.A_Short_History_of_Nearly_Everything">A Short History of Nearly Everything by Bill Bryson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/52879286-humankind">Humankind: A Hopeful History by Rutger Bregman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/34324534-against-the-grain">Against the Grain: A Deep History of the Earliest States by James C. Scott</a></li>
+  <li><a href="https://www.goodreads.com/book/show/739784.Thinking_in_Time">Thinking in Time: The Uses of History for Decision-Makers by Richard E. Neustadt</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1842.Guns_Germs_and_Steel">Guns, Germs, and Steel: The Fates of Human Societies by Jared Diamond</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/18246">War and Peace and War: The Rise and Fall of Empires by Peter Turchin</a></li>
+  <li><a href="https://www.goodreads.com/book/show/8778747-secular-cycles">Secular Cycles by Peter Turchin</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2714607-the-ascent-of-money">The Ascent of Money: A Financial History of the World by Niall Ferguson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6617037-debt">Debt: The First 5,000 Years by David Graeber</a></li>
+  <li><a href="https://www.goodreads.com/book/show/46725.Plagues_and_Peoples">Plagues and Peoples by William H. McNeill</a></li>
+  <li><a href="https://www.goodreads.com/book/show/31850765-energy-and-civilization">Energy and Civilization: A History by Vaclav Smil</a></li>
+  <li><a href="https://www.goodreads.com/book/show/9553383-a-history-of-the-world-in-100-objects">A History of the World in 100 Objects by Neil MacGregor A History of the World in 100 Objects</a></li>
+  <li><a href="https://www.goodreads.com/book/show/19909691-memory-of-the-world">Memory of the World: The treasures that record our history from 1700 BC to the present day by UNESCO</a></li>
+</ul>
+
+<h2 id="history">History</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/3311835-the-histories">The Histories by Herodotus</a></li>
+  <li><a href="https://www.goodreads.com/book/show/70561.The_Gulag_Archipelago_1918_1956">The Gulag Archipelago 1918–1956 by Aleksandr Solzhenitsyn</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/297901">Russia and the Russians: A History by Geoffrey Hosking</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1883390.The_Discovery_of_France">The Discovery of France: A Historical Geography from the Revolution to the First World War by Graham Robb</a></li>
+  <li><a href="https://www.goodreads.com/book/show/23569457-the-english-and-their-history">The English and their History by Robert Tombs</a></li>
+  <li><a href="https://www.goodreads.com/book/show/159210.How_the_Scots_Invented_the_Modern_World">How the Scots Invented the Modern World by Arthur Herman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/8155672-the-german-genius">The German Genius: Europe’s Third Renaissance, the Second Scientific Revolution, and the Twentieth Century by Peter Watson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/767171.The_Rise_and_Fall_of_the_Third_Reich">The Rise and Fall of the Third Reich</a></li>
+  <li><a href="https://www.goodreads.com/book/show/52090.Eichmann_in_Jerusalem">Eichmann in Jerusalem: A Report on the Banality of Evil by Hannah Arendt</a></li>
+  <li><a href="https://www.goodreads.com/book/show/12080.Wittgenstein_s_Vienna">Wittgenstein’s Vienna by Allan Janik</a></li>
+  <li><a href="https://www.goodreads.com/book/show/19560.The_Italians">The Italians: A Full-Length Portrait Featuring Their Manners and Morals by Luigi Barzini</a></li>
+  <li><a href="https://www.goodreads.com/book/show/182129.The_New_Spaniards">The New Spaniards by John Hooper</a></li>
+  <li><a href="https://www.goodreads.com/book/show/933346.The_Making_of_Europe">The Making of Europe: Conquest, Colonization, and Cultural Change, 950-1350 by Robert Bartlett</a></li>
+  <li><a href="https://www.goodreads.com/book/show/4100352-the-arabs">The Arabs: A History by Eugene Rogan</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17262206-lawrence-in-arabia">Lawrence in Arabia: War, Deceit, Imperial Folly, and the Making of the Modern Middle East by Scott Anderson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2615255-empire-of-the-mind">Empire of the Mind: A History of Iran by Michael Axworthy</a></li>
+  <li><a href="https://www.goodreads.com/book/show/13436287-korea">Korea: The Impossible Country by Daniel Tudor</a></li>
+  <li><a href="https://www.goodreads.com/book/show/40604846-nothing-to-envy">Nothing to Envy: Ordinary Lives in North Korea by Barbara Demick</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6687144-crossroads">Crossroads: A Popular History of Malaysia and Singapore by Jim Baker</a></li>
+  <li><a href="https://www.goodreads.com/book/show/144409.From_Third_World_to_First">From Third World to First: The Singapore Story: 1965-2000 by Lee Kuan Yew</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/18595641">Massacre in Malaya: Exposing Britain’s My Lai by Christopher Hale</a></li>
+  <li><a href="https://www.goodreads.com/book/show/185675.Pol_Pot">Pol Pot: Anatomy of a Nightmare by Philip Short</a></li>
+  <li><a href="https://www.goodreads.com/book/show/4308027-empires-of-the-silk-road">Empires of the Silk Road: A History of Central Eurasia from the Bronze Age to the Present by Christopher I. Beckwith</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/44244939">Fifth Sun: A New History of the Aztecs by Camilla Townsend</a></li>
+  <li><a href="https://www.goodreads.com/book/show/171362.The_Mediterranean_and_the_Mediterranean_World_in_the_Age_of_Philip_II_Volume_I">The Mediterranean and the Mediterranean World in the Age of Philip II by Fernand Braudel</a></li>
+  <li><a href="https://www.goodreads.com/book/show/771271.The_Beginnings_of_Rome">The Beginnings of Rome: Italy from the Bronze Age to the Punic Wars by Tim J. Cornell</a></li>
+  <li><a href="https://www.goodreads.com/book/show/14741709-through-the-eye-of-a-needle">Through the Eye of a Needle: Wealth, the Fall of Rome &amp; the Making of Christianity in the West, 350-550 AD by Peter RL Brown</a></li>
+  <li><a href="https://www.goodreads.com/book/show/273197.Embracing_Defeat">Embracing Defeat: Japan in the Wake of World War II by John W. Dower</a></li>
+  <li><a href="https://www.goodreads.com/book/show/779508.Washington_s_Crossing">Washington’s Crossing by David Hackett Fischer</a></li>
+  <li><a href="https://www.goodreads.com/book/show/8723692-american-colossus">American Colossus: The Triumph of Capitalism, 1865-1900 by HW Brands</a></li>
+  <li><a href="https://www.goodreads.com/book/show/568236.A_Distant_Mirror">A Distant Mirror: The Calamitous 14th Century by Barbara W. Tuchman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/261089.The_Quest_for_El_Cid">The Quest for El Cid by Richard Fletcher</a></li>
+  <li><a href="https://www.goodreads.com/book/show/397483.The_Devil_in_the_White_City">The Devil in the White City: Murder, Magic, and Madness at the Fair That Changed America by Erik Larson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/13147382-proving-history">Proving History: Bayes’s Theorem and the Quest for the Historical Jesus by Richard C. Carrier</a></li>
+  <li><a href="https://www.goodreads.com/book/show/28228.Double_Fold">Double Fold: Libraries and the Assault on Paper by Nicholson Baker</a></li>
+</ul>
+
+<h2 id="wars">Wars</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/en/book/show/592167">The Conquest of Gaul by Gaius Julius Caesar</a></li>
+  <li><a href="https://www.goodreads.com/book/show/55148.The_Punic_Wars">The Punic Wars by Adrian Goldsworthy</a></li>
+  <li><a href="https://www.goodreads.com/fr/book/show/428521.The_Fall_of_Constantinople_1453">The Fall of Constantinople 1453 by Steven Runciman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/100834.A_World_Undone">A World Undone: The Story of the Great War, 1914 to 1918 by GJ Meyer</a></li>
+  <li><a href="https://www.goodreads.com/book/show/11366.The_Guns_of_August">The Guns of August by Barbara W. Tuchman The Guns of August</a></li>
+  <li><a href="https://www.goodreads.com/book/show/831378.Why_the_Allies_Won">Why the Allies Won by Richard Overy</a></li>
+  <li><a href="https://www.goodreads.com/book/show/34184217-the-second-world-wars">The Second World Wars: How the First Global Conflict Was Fought and Won by Victor Davis Hanson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/13167112-savage-continent">Savage Continent: Europe in the Aftermath of World War II by Keith Lowe</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6069.Achilles_in_Vietnam">Achilles in Vietnam: Combat Trauma and the Undoing of Character by Jonathan Shay</a></li>
+  <li><a href="https://www.goodreads.com/book/show/7519640-war">War by Sebastian Junger</a></li>
+  <li><a href="https://www.goodreads.com/book/show/55403.Black_Hawk_Down">Black Hawk Down: A Story of Modern War by Mark Bowden</a></li>
+</ul>
+
+<h2 id="china">China</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/18490568-age-of-ambition">Age of Ambition: Chasing Fortune, Truth, and Faith in the New China by Evan Osnos</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/31389008">Knowing China: A Twenty-First Century Guide by Frank N. Pieke</a></li>
+  <li><a href="https://www.goodreads.com/book/show/31125556-destined-for-war">Destined for War: Can America and China Escape Thucydides’s Trap? by Graham Allison</a></li>
+  <li><a href="https://www.goodreads.com/book/show/9328314-on-china">On China by Henry Kissinger</a></li>
+  <li><a href="https://www.goodreads.com/book/show/11472345-deng-xiaoping-and-the-transformation-of-china">Deng Xiaoping and the Transformation of China by Ezra F. Vogel</a></li>
+  <li><a href="https://www.goodreads.com/book/show/29866971-ceo-china">CEO, China: The Rise of Xi Jinping by Kerry Brown</a></li>
+  <li><a href="https://www.goodreads.com/book/show/55503091-from-rebel-to-ruler">From Rebel to Ruler: One Hundred Years of the Chinese Communist Party by Tony Saich</a></li>
+  <li><a href="https://www.goodreads.com/book/show/23502919-china-under-mao">China Under Mao: A Revolution Derailed by Andrew G. Walder</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2418533.Out_of_Mao_s_Shadow">Out of Mao’s Shadow: The Struggle for the Soul of a New China by Philip P. Pan</a></li>
+  <li><a href="https://www.goodreads.com/book/show/31248728-the-souls-of-china">The Souls of China: The Return of Religion After Mao by Ian Johnson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/94053.River_Town">River Town: Two Years on the Yangtze by Peter Hessler</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1848.Wild_Swans">Wild Swans: Three Daughters of China by Jung Chang</a></li>
+  <li><a href="https://www.goodreads.com/book/show/372985.To_Change_China">To Change China: Western Advisers in China by Jonathan D. Spence</a></li>
+  <li><a href="https://www.goodreads.com/book/show/94561.Land_of_Plenty">Land of Plenty: A Treasury of Authentic Sichuan Cooking by Fuchsia Dunlop</a></li>
+  <li><a href="https://www.goodreads.com/book/show/13707601-every-grain-of-rice">Every Grain of Rice: Simple Chinese Home Cooking by Fuchsia Dunlop</a></li>
+</ul>
+
+<h2 id="chinese-economy">Chinese Economy</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/13076769-the-economic-history-of-china">The Economic History of China by Richard von Glahn</a></li>
+  <li><a href="https://www.goodreads.com/book/show/199002.The_Great_Divergence">The Great Divergence: China, Europe, and the Making of the Modern World Economy by Kenneth Pomeranz</a></li>
+  <li><a href="https://www.goodreads.com/book/show/56963892-the-rise-of-china-s-industrial-policy">The Rise of China’s Industrial Policy by Barry Naughton</a> (<a href="https://dusselpeters.com/CECHIMEX/Naughton2021_Industrial_Policy_in_China_CECHIMEX.pdf">pdf</a>)</li>
+  <li><a href="https://www.goodreads.com/book/show/36698744-the-chinese-economy-second-edition">The Chinese Economy, Second Edition: Adaptation and Growth by Barry J Naughton</a></li>
+  <li><a href="https://www.goodreads.com/book/show/28192242-china-s-economy">China’s Economy: What Everyone Needs to Know by Arthur R. Kroeber</a></li>
+  <li><a href="https://www.goodreads.com/book/show/18564223-avoiding-the-fall">Avoiding the Fall: China’s Economic Restructuring by Michael Pettis</a></li>
+  <li><a href="https://www.goodreads.com/book/show/49105000-china-s-gilded-age">China’s Gilded Age: The Paradox of Economic Boom and Vast Corruption by Yuen Yuen Ang</a></li>
+</ul>
+
+<h2 id="chinese-history">Chinese History</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/15930529-chinese-history">Chinese History: A New Manual by Endymion Wilkinson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17287091-the-tragedy-of-liberation">The Tragedy of Liberation: A History of the Chinese Revolution 1945-1957 by Frank Dikötter</a></li>
+  <li><a href="https://www.goodreads.com/book/show/8410925-mao-s-great-famine">Mao’s Great Famine: The History Of China’s Most Devastating Catastrophe, 1958-62 by Frank Dikötter</a></li>
+  <li><a href="https://www.goodreads.com/book/show/26073079-the-cultural-revolution">The Cultural Revolution: A People’s History, 1962-1976 by Frank Dikötter</a></li>
+  <li><a href="https://www.goodreads.com/book/show/13538825-tombstone">Tombstone: The Great Chinese Famine, 1958-1962 by Yang Jisheng</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/25387260">The Cowshed: Memories of the Chinese Cultural Revolution by Ji Xianlin</a></li>
+  <li><a href="https://www.goodreads.com/book/show/12520340-autumn-in-the-heavenly-kingdom">Autumn in the Heavenly Kingdom: China, the West, and the Epic Story of the Taiping Civil War by Stephen R. Platt</a></li>
+  <li><a href="https://www.goodreads.com/book/show/50504318-the-story-of-china">The Story of China: The Epic History of a World Power from the Middle Kingdom to Mao and the China Dream by Michael Wood</a></li>
+  <li><a href="https://www.goodreads.com/book/show/272793.Imperial_China_900_1800">Imperial China 900-1800 by Frederick W. Mote</a></li>
+  <li><a href="https://www.goodreads.com/book/show/178794.China">China: A New History by John King Fairbank</a></li>
+  <li><a href="https://www.goodreads.com/book/show/571867.A_History_of_Chinese_Civilization">A History of Chinese Civilization by Jacques Gernet</a></li>
+  <li><a href="https://www.goodreads.com/book/show/7690166-the-troubled-empire">The Troubled Empire: China in the Yuan and Ming Dynasties by Timothy Brook</a></li>
+</ul>
+
+<h2 id="chinese-philosophy">Chinese Philosophy</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/27297.The_Analects">The Analects by Confucius</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6979007-zhuangzi">Zhuangzi: The Essential Writings: With Selections from Traditional Commentaries by Zhuangzi</a></li>
+  <li><a href="https://www.goodreads.com/book/show/5758114-mengzi">Mencius by Mencius</a></li>
+  <li><a href="https://www.goodreads.com/book/show/21981656-xunzi">Xunzi: The Complete Text by Xun Kuang</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1320199.The_Scholars">The Scholars by Wu Jingzi</a></li>
+  <li><a href="https://www.goodreads.com/book/show/10534.The_Art_of_War">The Art of War by Sun Tzu</a></li>
+  <li><a href="https://www.goodreads.com/book/show/14568892-the-book-of-lord-shang---a-classic-of-the-chinese-school-of-law">The Book of Lord Shang by Shang Yang</a></li>
+</ul>
+
+<h2 id="chinese-literature">Chinese Literature</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/32336650-a-new-literary-history-of-modern-china">A New Literary History of Modern China by David Der-wei Wang</a></li>
+  <li><a href="https://www.goodreads.com/book/show/100237.Monkey">The Journey to the West by Wu Cheng’en</a></li>
+  <li><a href="https://www.goodreads.com/book/show/158771.Romance_of_the_Three_Kingdoms_Vol_1_of_2">Romance of the Three Kingdoms by Luo Guanzhong</a></li>
+  <li><a href="https://www.goodreads.com/book/show/158778.Outlaws_of_the_Marsh">Outlaws of the Marsh by Shi Nai’an</a></li>
+  <li><a href="https://www.goodreads.com/book/show/243878.The_Dream_of_the_Red_Chamber">The Dream of the Red Chamber by Cáo Xuěqín</a></li>
+  <li><a href="https://www.goodreads.com/book/show/486177.The_Plum_in_the_Golden_Vase_or_Chin_P_ing_Mei">The Plum in the Golden Vase or, Chin P’ing Mei</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1690630.The_Carnal_Prayer_Mat">The Carnal Prayer Mat by Li Yu</a></li>
+</ul>
+
+<h2 id="religion">Religion</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/82241.The_Book_of_Job">The Book of Job by Anonymous</a></li>
+  <li><a href="https://www.goodreads.com/book/show/242319.I_See_Satan_Fall_Like_Lightning">I See Satan Fall Like Lightning by René Girard</a></li>
+  <li><a href="https://www.goodreads.com/book/show/28820.The_Varieties_of_Religious_Experience">The Varieties of Religious Experience by William James</a></li>
+  <li><a href="https://www.goodreads.com/book/show/10847.Under_the_Banner_of_Heaven">Under the Banner of Heaven: A Story of Violent Faith by Jon Krakauer</a></li>
+  <li><a href="https://www.goodreads.com/book/show/4129848-mastering-the-core-teachings-of-the-buddha">Mastering the Core Teachings of the Buddha: An Unusually Hardcore Dharma Book by Daniel M. Ingram</a></li>
+  <li><a href="https://www.goodreads.com/book/show/32895535-why-buddhism-is-true">Why Buddhism is True: The Science and Philosophy of Meditation and Enlightenment by Robert Wright</a></li>
+</ul>
+
+<h2 id="autobiographymemoir">Autobiography/Memoir</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/16902.Walden">Walden by Henry David Thoreau</a></li>
+  <li><a href="https://www.goodreads.com/book/show/108713.Pimp">Pimp: The Story of My Life by Iceberg Slim</a></li>
+  <li><a href="https://www.goodreads.com/book/show/26584278-narrative-of-the-life-of-frederick-douglass-an-american-slave">Narrative of the Life of Frederick Douglass, an American Slave</a></li>
+  <li><a href="https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning">Man’s Search for Meaning by Viktor E. Frankl</a></li>
+  <li><a href="https://www.goodreads.com/book/show/48855.The_Diary_of_a_Young_Girl">The Diary of a Young Girl by Anne Frank</a></li>
+  <li><a href="https://www.goodreads.com/book/show/393199.Down_and_Out_in_Paris_and_London">Down and Out in Paris and London by George Orwell</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6982043-autobiography">The Autobiography of Bertrand Russell by Bertrand Russell</a></li>
+  <li><a href="https://www.goodreads.com/book/show/629429.The_World_of_Yesterday">The World of Yesterday by Stefan Zweig</a></li>
+  <li><a href="https://www.goodreads.com/book/show/149786.Autobiography_of_Anthony_Trollope">Autobiography of Anthony Trollope by Anthony Trollope</a></li>
+  <li><a href="https://www.goodreads.com/book/show/27161156-hillbilly-elegy">Hillbilly Elegy: A Memoir of a Family and Culture in Crisis by JD Vance</a></li>
+  <li><a href="https://www.goodreads.com/book/show/22609522-red-notice">Red Notice: A True Story of High Finance, Murder, and One Man’s Fight for Justice by Bill Browder</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17859574-how-to-fail-at-almost-everything-and-still-win-big">How to Fail at Almost Everything and Still Win Big by Scott Adams</a></li>
+  <li><a href="https://www.goodreads.com/book/show/10264047-excuse-me-sir-would-you-like-to-buy-a-kilo-of-isopropyl-bromide">Excuse Me Sir, Would You Like to Buy a Kilo of Isopropyl Bromide? By Max G Gergel</a></li>
+  <li><a href="https://www.goodreads.com/book/show/4420281-don-t-sleep-there-are-snakes">Don’t Sleep, There Are Snakes: Life and Language in the Amazonian Jungle by Daniel L. Everett</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1845.Into_the_Wild">Into the Wild by Jon Krakauer</a></li>
+</ul>
+
+<h2 id="sports">Sports</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/905.The_Inner_Game_of_Tennis">The Inner Game of Tennis: The Classic Guide to the Mental Side of Peak Performance by W. Timothy Gallwey</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6480781-open">Open by Andre Agassi</a></li>
+  <li><a href="https://www.goodreads.com/book/show/115759.Arnold">Arnold: The Education of a Bodybuilder by Arnold Schwarzenegger</a></li>
+  <li><a href="https://www.goodreads.com/book/show/18693910-barbarian-days">Barbarian Days: A Surfing Life by William Finnegan</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1898.Into_Thin_Air">Into Thin Air: A Personal Account of the Mount Everest Disaster by Jon Krakauer</a></li>
+</ul>
+
+<h2 id="interviews">Interviews</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/11473.The_Paris_Review_Interviews_I">The Paris Review Interviews, I: 16 Celebrated Interviews by The Paris Review</a></li>
+  <li><a href="https://www.goodreads.com/book/show/16168108-the-playboy-interview">The Playboy Interview: The Essentials by Playboy Enterprises</a></li>
+</ul>
+
+<h2 id="essays">Essays</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/16566.Selected_Non_Fictions">Selected Non-Fictions by Jorge Luis Borges</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1294428.Urne_Burial">Urne Burial by Thomas Browne</a></li>
+  <li><a href="https://www.goodreads.com/book/show/181239.Metamagical_Themas">Metamagical Themas: Questing for the Essence of Mind and Pattern by Douglas R. Hofstadter</a></li>
+  <li><a href="https://www.goodreads.com/book/show/41793.Hackers_Painters">Hackers &amp; Painters: Big Ideas from the Computer Age by Paul Graham</a></li>
+  <li><a href="https://www.goodreads.com/book/show/24091886-raw-thought-raw-nerve">Raw Thought, Raw Nerve: Inside the Mind of Aaron Swartz by Aaron Swartz</a></li>
+  <li><a href="https://www.goodreads.com/book/show/5984293-the-journal-1837-1861">The Journal, 1837-1861 by Henry David Thoreau</a></li>
+  <li><a href="https://www.goodreads.com/book/show/424.Slouching_Towards_Bethlehem">Slouching Towards Bethlehem by Joan Didion</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2327.The_Letters_of_J_R_R_Tolkien">The Letters of JRR Tolkien by JRR Tolkien</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/35721134">A Carnival of Losses: Notes Nearing Ninety by Donald Hall</a></li>
+  <li><a href="https://www.goodreads.com/book/show/61552.Popper_Selections">Popper Selections by Karl Popper</a></li>
+  <li><a href="https://www.goodreads.com/book/show/152435.Steps_to_an_Ecology_of_Mind">Steps to an Ecology of Mind: Collected Essays in Anthropology, Psychiatry, Evolution, and Epistemology by Gregory Bateson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/307457.The_Disappointment_Artist">The Disappointment Artist by Jonathan Lethem</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6751.Consider_the_Lobster_and_Other_Essays">Consider the Lobster and Other Essays by David Foster Wallace</a></li>
+  <li><a href="https://www.goodreads.com/book/show/52523856-hell-yeah-or-no">Hell Yeah or No: What’s Worth Doing by Derek Sivers</a></li>
+  <li><a href="https://www.goodreads.com/book/show/10383597-arguably">Arguably: Selected Essays by Christopher Hitchens</a></li>
+  <li><a href="https://www.goodreads.com/book/show/249198.Readings">Readings: Essays and Literary Entertainments by Michael Dirda</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2313641.Pandaemonium_1660_1886">Pandaemonium, 1660-1886: The Coming of the Machine as Seen by Contemporary Observers by Humphrey Jennings</a></li>
+</ul>
+
+<h2 id="urban-design">Urban Design</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/30833.The_Death_and_Life_of_Great_American_Cities">The Death and Life of Great American Cities</a></li>
+  <li><a href="https://www.goodreads.com/book/show/39644188-order-without-design">Order Without Design: How Markets Shape Cities by Alain Bertaud</a></li>
+  <li><a href="https://www.goodreads.com/book/show/544053.The_City_in_History">The City in History: Its Origins, Its Transformations, and Its Prospects by Lewis Mumford</a></li>
+  <li><a href="https://www.goodreads.com/ru/book/show/9897152-triumph-of-the-city">Triumph of the City: How Our Greatest Invention Makes Us Richer, Smarter, Greener, Healthier and Happier by Edward L. Glaeser</a></li>
+  <li><a href="https://www.goodreads.com/book/show/20758195-extrastatecraft">Extrastatecraft: The Power of Infrastructure Space by Keller Easterling</a></li>
+  <li><a href="https://www.goodreads.com/book/show/101843.The_High_Cost_of_Free_Parking">The High Cost of Free Parking by Donald C. Shoup</a></li>
+</ul>
+
+<h2 id="architecture">Architecture</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/38310.How_Buildings_Learn">How Buildings Learn: What Happens After They’re Built by Stewart Brand</a></li>
+  <li><a href="https://www.goodreads.com/book/show/79766.A_Pattern_Language">A Pattern Language: Towns, Buildings, Construction by Christopher W. Alexander</a></li>
+  <li><a href="https://www.goodreads.com/book/show/10662758-architecture">Architecture: Form, Space, &amp; Order by Francis DK Ching</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1015870.A_Visual_Dictionary_of_Architecture">A Visual Dictionary of Architecture by Francis DK Ching</a></li>
+  <li><a href="https://www.goodreads.com/book/show/620755.Architects_Data">Architects’ Data by Ernst Neufert</a></li>
+  <li><a href="https://www.goodreads.com/book/show/13269.The_Poetics_of_Space">The Poetics of Space by Gaston Bachelard</a></li>
+  <li><a href="https://www.goodreads.com/book/show/34473.In_Praise_of_Shadows">In Praise of Shadows by Jun’ichirō Tanizaki</a></li>
+</ul>
+
+<h2 id="art">Art</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/233389.The_Lives_of_the_Artists">The Lives of the Artists by Giorgio Vasari</a></li>
+  <li><a href="https://www.goodreads.com/book/show/222078.The_Story_of_Art">The Story of Art by EH Gombrich</a></li>
+  <li><a href="https://www.goodreads.com/book/show/330451.Civilisation">Civilisation by Kenneth Clark</a></li>
+  <li><a href="https://www.goodreads.com/book/show/101128.The_Nude">The Nude: A Study in Ideal Form by Kenneth Clark</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1319.The_War_of_Art">The War of Art: Winning the Inner Creative Battle by Steven Pressfield</a></li>
+  <li><a href="https://www.goodreads.com/book/show/18834806-art-fear">Art and Fear: Observations on the Perils (and Rewards) of Artmaking by David Bayles</a></li>
+</ul>
+
+<h2 id="design">Design</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/16867.The_Design_of_Everyday_Things">The Design of Everyday Things by Donald A. Norman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/320553.Notes_on_the_Synthesis_of_Form">Notes on the Synthesis of Form by Christopher W. Alexander</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6432807-magic-ink-information-software-and-the-graphical-interface">Magic Ink Information Software and the Graphical Interface by Bret Victor</a></li>
+  <li><a href="https://www.goodreads.com/book/show/16031799-make-it-so">Make It So: Interaction Design Lessons From Science Fiction by Nathan Shedroff</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6705771-literary-machines">Literary Machines by Theodor Holm Nelson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17743.Beautiful_Evidence">Beautiful Evidence by Edward R. Tufte</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17745.Envisioning_Information">Envisioning Information by Edward R. Tufte</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17744.The_Visual_Display_of_Quantitative_Information">The Visual Display of Quantitative Information by Edward R. Tufte</a></li>
+  <li><a href="https://www.goodreads.com/book/show/44735.The_Elements_of_Typographic_Style">The Elements of Typographic Style by Robert Bringhurst</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/35429034">Web Typography: A handbook for designing beautiful and effective responsive typography by Richard Rutter</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6728983-logo-design-love">Logo Design Love: A Guide to Creating Iconic Brand Identities by David Airey</a></li>
+</ul>
+
+<h2 id="game-design">Game Design</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/52824295-the-making-of-prince-of-persia">The Making of Prince of Persia: Journals 1985-1993–Illustrated Edition by Jordan Mechner</a></li>
+  <li><a href="https://www.goodreads.com/book/show/3396933-the-art-of-game-design">The Art of Game Design: A Book of Lenses by Jesse Schell</a></li>
+  <li><a href="https://www.goodreads.com/book/show/222146.Masters_of_Doom">Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture by David Kushner</a></li>
+  <li><a href="https://www.goodreads.com/series/286049-the-digital-antiquarian">The Digital Antiquarian Series by Jimmy Maher</a></li>
+  <li><a href="https://www.goodreads.com/book/show/13748038-addiction-by-design">Addiction by Design: Machine Gambling in Las Vegas by Natasha Dow Schüll</a></li>
+</ul>
+
+<h2 id="film-making">Film Making</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/5949.The_Conversations">The Conversations: Walter Murch and the Art of Editing Film by Michael Ondaatje</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2141.In_the_Blink_of_an_Eye">In the Blink of an Eye: A Perspective on Film Editing by Walter Murch</a></li>
+  <li><a href="https://www.goodreads.com/book/show/779491.Planet_Hong_Kong">Planet Hong Kong: Popular Cinema and the Art of Entertainment by David Bordwell</a></li>
+  <li><a href="https://www.goodreads.com/book/show/393601.Hitchcock">Hitchcock by François Truffaut</a></li>
+  <li><a href="https://www.goodreads.com/book/show/28495.Sculpting_in_Time">Sculpting in Time by Andrei Tarkovsky</a></li>
+  <li><a href="https://www.goodreads.com/book/show/84038.My_Autobiography">Charlie Chaplin My Autobiography by Charlie Chaplin</a></li>
+  <li><a href="https://www.goodreads.com/book/show/23564.Roger_Ebert_s_Book_of_Film">Roger Ebert’s Book of Film: From Tolstoy to Tarantino, the Finest Writing From a Century of Film by Roger Ebert</a></li>
+  <li><a href="https://www.goodreads.com/book/show/23559.The_Great_Movies">The Great Movies by Roger Ebert</a></li>
+</ul>
+
+<h2 id="music">Music</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/18222670-beethoven">Beethoven: Anguish and Triumph by Jan Swafford</a></li>
+  <li><a href="https://www.goodreads.com/book/show/28449249-original-gangstas">Original Gangstas: The Untold Story of Dr. Dre, Eazy-E, Ice Cube, Tupac Shakur, and the Birth of West Coast Rap by Ben Westhoff</a></li>
+  <li><a href="https://www.goodreads.com/book/show/10119693-dirty-south">Dirty South: OutKast, Lil Wayne, Soulja Boy, and the Southern Rappers Who Reinvented Hip-Hop by Ben Westhoff</a></li>
+  <li><a href="https://www.goodreads.com/book/show/392563.The_Rest_Is_Noise">The Rest Is Noise: Listening to the Twentieth Century by Alex Ross</a></li>
+</ul>
+
+<h2 id="writing">Writing</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/20821371-the-sense-of-style">The Sense of Style: The Thinking Person’s Guide to Writing in the 21st Century by Steven Pinker</a></li>
+  <li><a href="https://www.goodreads.com/book/show/53343.On_Writing_Well">On Writing Well: The Classic Guide to Writing Nonfiction by William Zinsser</a></li>
+  <li><a href="https://www.goodreads.com/book/show/120549.Clear_and_Simple_as_the_Truth">Clear and Simple as the Truth: Writing Classic Prose by Francis-Noel Thomas</a></li>
+  <li><a href="https://www.goodreads.com/book/show/10569.On_Writing">On Writing: A Memoir of the Craft by Stephen King</a></li>
+  <li><a href="https://www.goodreads.com/book/show/43205240-working">Working: Researching, Interviewing, Writing by Robert A. Caro</a></li>
+  <li><a href="https://www.goodreads.com/book/show/39934.Reading_Like_a_Writer">Reading Like a Writer: A Guide for People Who Love Books and for Those Who Want to Write Them by Francine Prose</a></li>
+</ul>
+
+<h2 id="literature">Literature</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/20941.The_Western_Canon">The Western Canon: The Books and School of the Ages by Harold Bloom</a></li>
+  <li><a href="https://www.goodreads.com/book/show/26633749-the-complete-review-guide-to-contemporary-world-fiction">The Complete Review Guide to Contemporary World Fiction by M.A. Orthofer</a></li>
+  <li><a href="https://www.goodreads.com/book/show/588138.The_Hero_With_a_Thousand_Faces">The Hero With a Thousand Faces by Joseph Campbell</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1355465.How_Fiction_Works">How Fiction Works by James Wood</a></li>
+  <li><a href="https://www.goodreads.com/book/show/9912752-story-engineering">Story Engineering: Character Development, Story Concept, Scene Construction by Larry Brooks</a></li>
+  <li><a href="https://www.goodreads.com/book/show/30340.The_Pound_Era">The Pound Era by Hugh Kenner</a></li>
+  <li><a href="https://www.goodreads.com/book/show/102920.Understanding_Comics">Understanding Comics: The Invisible Art by Scott McCloud</a></li>
+  <li><a href="https://www.goodreads.com/book/show/60116.Reinventing_Comics">Reinventing Comics: How Imagination and Technology Are Revolutionizing an Art Form by Scott McCloud</a></li>
+</ul>
+
+<h2 id="epic-poetry">Epic Poetry</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/34068470-the-odyssey">The Odyssey by Homer</a></li>
+  <li><a href="https://www.goodreads.com/book/show/23460877-the-iliad">The Iliad by Homer</a></li>
+  <li><a href="https://www.goodreads.com/book/show/336518.Paradise_Lost_and_Paradise_Regained">Paradise Lost and Paradise Regained by John Milton</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6656.The_Divine_Comedy">The Divine Comedy by Dante Alighieri</a><span style="text-decoration:underline;"> </span></li>
+  <li><a href="https://www.goodreads.com/book/show/138371.Gilgamesh">The Epic of Gilgamesh by Anonymous</a></li>
+  <li><a href="https://www.goodreads.com/book/show/52357.Beowulf">Beowulf by Unknown</a></li>
+  <li><a href="https://www.goodreads.com/book/show/99944.The_Bhagavad_Gita">The Bhagavad Gita by Krishna-Dwaipayana Vyasa</a></li>
+  <li><a href="https://www.goodreads.com/book/show/35187179-the-conference-of-the-birds">The Conference of the Birds by Attar of Nishapur</a></li>
+</ul>
+
+<h2 id="comics">Comics</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/24812.The_Complete_Calvin_and_Hobbes">The Complete Calvin and Hobbes by Bill Watterson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/21413662-what-if-serious-scientific-answers-to-absurd-hypothetical-questions">What If? Serious Scientific Answers to Absurd Hypothetical Questions by Randall Munroe</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6902644-xkcd">xkcd: volume 0 by Randall Munroe</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17571564-hyperbole-and-a-half">Hyperbole and a Half: Unfortunate Situations, Flawed Coping Mechanisms, Mayhem, and Other Things That Happened by Allie Brosh</a></li>
+  <li><a href="https://www.goodreads.com/book/show/11073526-save-yourself-mammal">Save Yourself, Mammal!: A Saturday Morning Breakfast Cereal Collection by Zach Weinersmith</a></li>
+  <li><a href="https://www.goodreads.com/book/show/20869872-homestuck">Homestuck by Andrew Hussie</a></li>
+</ul>
+
+<h2 id="hard-sci-fi">Hard Sci-Fi</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/34569357-remembrance-of-earth-s-past">Remembrance of Earth’s Past: The Three-Body Trilogy by Liu Cixin</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1156345.Radiance">Radiance by Carter Scholz</a></li>
+  <li><a href="https://www.goodreads.com/book/show/816.Cryptonomicon">Cryptonomicon by Neal Stephenson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/910863.Spin">Spin by Robert Charles Wilson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/18007564-the-martian">The Martian by Andy Weir</a></li>
+  <li><a href="https://www.goodreads.com/book/show/16690.The_Moon_Is_a_Harsh_Mistress">The Moon Is a Harsh Mistress by Robert A. Heinlein</a></li>
+  <li><a href="https://www.goodreads.com/book/show/333867.The_Stars_My_Destination">The Stars My Destination by Alfred Bester</a></li>
+  <li><a href="https://www.goodreads.com/book/show/16066335-fine-structure">Fine Structure by Sam Hughes</a></li>
+  <li><a href="https://www.goodreads.com/book/show/76778.The_Martian_Chronicles">The Martian Chronicles by Ray Bradbury</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1655299.Mars_Trilogy">Mars Trilogy by Kim Stanley Robinson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/156785.Diaspora">Diaspora by Greg Egan</a></li>
+  <li><a href="https://www.goodreads.com/book/show/156784.Permutation_City">Permutation City by Greg Egan</a></li>
+  <li><a href="https://www.goodreads.com/book/show/156775.Quarantine">Quarantine by Greg Egan</a></li>
+  <li><a href="https://www.goodreads.com/book/show/156780.Schild_s_Ladder">Schild’s Ladder by Greg Egan</a></li>
+  <li><a href="https://www.goodreads.com/book/show/433567.Flatland">Flatland: A Romance of Many Dimensions by Edwin A. Abbott</a></li>
+  <li><a href="https://www.goodreads.com/book/show/22572511-the-colonel">The Colonel by Peter Watts</a></li>
+</ul>
+
+<h2 id="soft-sci-fi">Soft Sci-Fi</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/386162.The_Hitchhiker_s_Guide_to_the_Galaxy">The Hitchhiker’s Guide to the Galaxy by Douglas Adams</a></li>
+  <li><a href="https://www.goodreads.com/book/show/18373.Flowers_for_Algernon">Flowers for Algernon by Daniel Keyes</a></li>
+  <li><a href="https://www.goodreads.com/book/show/44767458-dune">Dune by Frank Herbert</a></li>
+  <li><a href="https://www.goodreads.com/book/show/106.Dune_Messiah">Dune Messiah by Frank Herbert</a></li>
+  <li><a href="https://www.goodreads.com/book/show/164154.A_Canticle_for_Leibowitz">A Canticle for Leibowitz by Walter M. Miller Jr.</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2845024-anathem">Anathem by Neal Stephenson</a></li>
+  <li><a href="https://www.goodreads.com/series/166200-terra-ignota">Terra Ignota by Ada Palmer</a></li>
+  <li><a href="https://www.goodreads.com/book/show/70535.2001">2001: A Space Odyssey by Arthur C. Clarke</a></li>
+  <li><a href="https://www.goodreads.com/book/show/10906610-valis">VALIS by Philip K. Dick</a></li>
+  <li><a href="https://www.goodreads.com/book/show/22590.Ubik">Ubik by Philip K. Dick Ubik</a></li>
+  <li><a href="https://www.goodreads.com/book/show/350.Stranger_in_a_Strange_Land">Stranger in a Strange Land by Robert A. Heinlein</a></li>
+</ul>
+
+<h2 id="space-opera">Space Opera</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/2749148-last-and-first-men">Last and First Men by Olaf Stapledon</a></li>
+  <li><a href="https://www.goodreads.com/book/show/525304.Star_Maker">Star Maker by Olaf Stapledon</a></li>
+  <li><a href="https://www.goodreads.com/book/show/77566.Hyperion">Hyperion by Dan Simmons</a></li>
+  <li><a href="https://www.goodreads.com/book/show/77565.The_Fall_of_Hyperion">The Fall of Hyperion by Dan Simmons</a></li>
+  <li><a href="https://www.goodreads.com/book/show/8935689-consider-phlebas">The Culture Series by Iain M. Banks</a></li>
+  <li><a href="https://www.goodreads.com/book/show/25499718-children-of-time">Children of Time by Adrian Tchaikovsky</a></li>
+  <li><a href="https://www.goodreads.com/book/show/46654.The_Foundation_Trilogy">The Foundation Trilogy by Isaac Asimov</a></li>
+  <li><a href="https://www.goodreads.com/book/show/45252.Pandora_s_Star">Commonwealth Saga by Peter F. Hamilton</a></li>
+</ul>
+
+<h2 id="cyberpunk">Cyberpunk</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/830.Snow_Crash">Snow Crash by Neal Stephenson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/827.The_Diamond_Age">The Diamond Age: Or, a Young Lady’s Illustrated Primer by Neal Stephenson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/161296.Schismatrix_Plus">Schismatrix Plus by Bruce Sterling</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17863.Accelerando">Accelerando by Charles Stross</a></li>
+  <li><a href="https://www.goodreads.com/book/show/81992.Singularity_Sky">Singularity Sky by Charles Stross</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17866.Glasshouse">Glasshouse by Charles Stross</a></li>
+  <li><a href="https://www.goodreads.com/book/show/737628.A_Signal_Shattered">A Signal Shattered by Eric S. Nylund</a></li>
+  <li><a href="https://www.goodreads.com/book/show/700919.Signal_to_Noise">Signal to Noise by Eric S. Nylund</a></li>
+  <li><a href="https://www.goodreads.com/book/show/29939057-void-star">Void Star by Zachary Mason</a></li>
+  <li><a href="https://www.goodreads.com/book/show/20821159-the-peripheral">The Peripheral by William Gibson</a></li>
+  <li><a href="https://www.goodreads.com/series/57134-jean-le-flambeur">Jean le Flambeur Series by Hannu Rajaniemi</a></li>
+  <li><a href="https://www.goodreads.com/book/show/28695.City_of_Golden_Shadow">City of Golden Shadow by Tad Williams</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/15998174">Friendship is Optimal by iceman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/64341.The_Metamorphosis_of_Prime_Intellect">The Metamorphosis of Prime Intellect by Roger Williams</a></li>
+</ul>
+
+<h2 id="biopunk">Biopunk</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/941193.Blood_Music">Blood Music by Greg Bear</a></li>
+  <li><a href="https://www.goodreads.com/book/show/46756.Oryx_and_Crake">Oryx and Crake by Margaret Atwood</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6597651-the-windup-girl">The Windup Girl by Paolo Bacigalupi</a></li>
+</ul>
+
+<h2 id="military-sci-fi">Military Sci-Fi</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/375802.Ender_s_Game">Ender’s Game by Orson Scott Card</a></li>
+  <li><a href="https://www.goodreads.com/book/show/7967.Speaker_for_the_Dead">Speaker for the Dead by Orson Scott Card</a></li>
+  <li><a href="https://www.goodreads.com/book/show/9532.Ender_s_Shadow">Ender’s Shadow by Orson Scott Card</a></li>
+  <li><a href="https://www.goodreads.com/book/show/21611.The_Forever_War">The Forever War by Joe Haldeman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/51964.Old_Man_s_War">Old Man’s War by John Scalzi</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17214.Starship_Troopers">Starship Troopers by Robert A. Heinlein</a></li>
+  <li><a href="https://www.goodreads.com/book/show/102327.Armor">Armor by John Steakley</a></li>
+</ul>
+
+<h2 id="first-encounter-sci-fi">First Encounter Sci-Fi</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/48484.Blindsight">Blindsight by Peter Watts</a></li>
+  <li><a href="https://www.goodreads.com/book/show/54493401-project-hail-mary">Project Hail Mary by Andy Weir</a></li>
+  <li><a href="https://www.goodreads.com/book/show/61666.Contact">Contact by Carl Sagan</a></li>
+  <li><a href="https://www.goodreads.com/book/show/414999.Childhood_s_End">Childhood’s End by Arthur C. Clarke</a></li>
+  <li><a href="https://www.goodreads.com/book/show/95558.Solaris">Solaris by Stanisław Lem</a></li>
+  <li><a href="https://www.goodreads.com/book/show/112537.Rendezvous_with_Rama">Rendezvous with Rama by Arthur C. Clarke</a></li>
+  <li><a href="https://www.goodreads.com/book/show/268638.The_Mote_in_God_s_Eye">The Mote in God’s Eye by Larry Niven</a></li>
+  <li><a href="https://www.goodreads.com/book/show/840278.Eon">Eon by Greg Bear</a></li>
+  <li><a href="https://www.goodreads.com/book/show/61179.Ringworld">Ringworld by Larry Niven</a></li>
+  <li><a href="https://www.goodreads.com/book/show/334176.The_Sparrow">The Sparrow by Mary Doria Russell</a></li>
+</ul>
+
+<h2 id="dystopian-sci-fi">Dystopian Sci-Fi</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/40961427-1984">1984 by George Orwell</a></li>
+  <li><a href="https://www.goodreads.com/book/show/5129.Brave_New_World">Brave New World by Aldous Huxley</a></li>
+  <li><a href="https://www.goodreads.com/book/show/41069.Stand_on_Zanzibar">Stand on Zanzibar by John Brunner</a></li>
+</ul>
+
+<h2 id="time-travel-sci-fi">Time Travel Sci-Fi</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/20706317-the-first-fifteen-lives-of-harry-august">The First Fifteen Lives of Harry August by Claire North</a></li>
+  <li><a href="https://www.goodreads.com/book/show/33413556-the-gone-world">The Gone World by Tom Sweterlitsch</a></li>
+  <li><a href="https://www.goodreads.com/book/show/10644930-11-22-63">11/22/63 by Stephen King</a></li>
+</ul>
+
+<h2 id="superhero-sci-fi">Superhero Sci-Fi</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/472331.Watchmen">Watchmen by Alan Moore</a></li>
+  <li><a href="https://www.goodreads.com/book/show/18713259-worm">Worm by Wildbow</a></li>
+  <li><a href="https://www.goodreads.com/book/show/22872436-the-metropolitan-man">The Metropolitan Man by Alexander Wales</a></li>
+  <li><a href="https://www.goodreads.com/book/show/59960.Batman">Batman: The Dark Knight Returns by Frank Miller</a></li>
+</ul>
+
+<h2 id="science-fantasy">Science Fantasy</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/968868.The_Book_of_the_New_Sun">The Book of the New Sun by Gene Wolfe</a></li>
+  <li><a href="https://www.goodreads.com/book/show/13821.Lord_of_Light">Lord of Light by Roger Zelazny</a></li>
+  <li><a href="https://www.goodreads.com/book/show/22635765-ra">Ra by Sam Hughes</a></li>
+  <li><a href="https://www.goodreads.com/book/show/149267.The_Stand">The Stand by Stephen King</a></li>
+  <li><a href="https://www.goodreads.com/book/show/19887474-the-fifth-season">The Broken Earth by NK Jemisin</a></li>
+</ul>
+
+<h2 id="literary-sci-fi">Literary Sci-Fi</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/6334.Never_Let_Me_Go">Never Let Me Go by Kazuo Ishiguro</a></li>
+  <li><a href="https://www.goodreads.com/book/show/16634.The_Glass_Bead_Game">The Glass Bead Game by Hermann Hesse</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6288.The_Road?from_search=true">The Road by Cormac McCarthy</a></li>
+  <li><a href="https://www.goodreads.com/book/show/415.Gravity_s_Rainbow">Gravity’s Rainbow by Thomas Pynchon</a></li>
+  <li><a href="https://www.goodreads.com/sv/book/show/10374">Hard-Boiled Wonderland and the End of the World</a></li>
+  <li><a href="https://www.goodreads.com/book/show/49628.Cloud_Atlas">Cloud Atlas by David Mitchell</a></li>
+  <li><a href="https://www.goodreads.com/book/show/59780.Cosmicomics">Cosmicomics by Italo Calvino</a></li>
+  <li><a href="https://www.goodreads.com/book/show/331256.Roadside_Picnic">Roadside Picnic by Arkady Strugatsky</a></li>
+  <li><a href="https://www.goodreads.com/book/show/4981.Slaughterhouse_Five">Slaughterhouse-Five by Kurt Vonnegut Jr.</a></li>
+  <li><a href="https://www.goodreads.com/book/show/135479.Cat_s_Cradle">Cat’s Cradle by Kurt Vonnegut Jr.</a></li>
+</ul>
+
+<h2 id="sci-fi-short-story">Sci-Fi Short Story</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/223380.Stories_of_Your_Life_and_Others">Stories of Your Life and Others by Ted Chiang</a></li>
+  <li><a href="https://www.goodreads.com/book/show/41160292-exhalation">Exhalation: Stories by Ted Chiang</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17563539-the-egg">The Egg by Andy Weir</a></li>
+  <li><a href="https://www.goodreads.com/book/show/4988167-reasons-to-be-cheerful">Reasons to be Cheerful by Greg Egan</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17871.A_Colder_War">A Colder War by Charles Stross</a></li>
+  <li><a href="https://www.goodreads.com/book/show/156783.Axiomatic">Axiomatic by Greg Egan</a></li>
+  <li><a href="https://www.goodreads.com/book/show/35058443-the-study-of-anglophysics-and-other-stories">The Study of Anglophysics and Other Stories by Scott Alexander</a></li>
+  <li><a href="https://www.goodreads.com/book/show/415459.I_Have_No_Mouth_and_I_Must_Scream">I Have No Mouth and I Must Scream by Harlan Ellison</a></li>
+</ul>
+
+<h2 id="fantasy-series">Fantasy Series</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/33.The_Lord_of_the_Rings">The Lord of the Rings by JRR Tolkien</a></li>
+  <li><a href="https://www.goodreads.com/book/show/7332.The_Silmarillion">The Silmarillion by JRR Tolkien</a></li>
+  <li><a href="https://www.goodreads.com/book/show/289870.The_Hobbit">The Hobbit by JRR Tolkien</a></li>
+  <li><a href="https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind">The Kingkiller Chronicles by Patrick Rothfuss</a></li>
+  <li><a href="https://www.goodreads.com/book/show/119322.The_Golden_Compass">His Dark Materials by Philip Pullman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/533613.The_Color_of_Magic">Discworld by Terry Pratchett</a></li>
+  <li><a href="https://www.goodreads.com/book/show/23753.The_Absolute_Sandman_Volume_One">The Sandman by Neil Gaiman</a></li>
+  <li><a href="https://www.goodreads.com/series/220240-malazan-authors-suggested-reading-order">Malazan Book of the Fallen by Steven Erikson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/7235533-the-way-of-kings">The Stormlight Archive by Brandon Sanderson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/13496.A_Game_of_Thrones">A Song of Ice and Fire by George RR Martin</a></li>
+  <li><a href="https://www.goodreads.com/book/show/43615.The_Gunslinger">The Dark Tower by Stephen King</a></li>
+  <li><a href="https://www.goodreads.com/book/show/104086.The_Summer_Tree">The Fionavar Tapestry by Guy Gavriel Kay</a></li>
+  <li><a href="https://www.goodreads.com/book/show/13642.A_Wizard_of_Earthsea">Earthsea Cycle by Ursula K. Le Guin</a></li>
+  <li><a href="https://www.goodreads.com/book/show/228665.The_Eye_of_the_World">The Wheel of Time by Robert Jordan</a></li>
+  <li><a href="https://www.goodreads.com/book/show/944073.The_Blade_Itself">The First Law by Joe Abercrombie</a></li>
+  <li><a href="https://www.goodreads.com/book/show/127455.The_Lies_of_Locke_Lamora">Gentleman Bastard by Scott Lynch</a></li>
+  <li><a href="https://www.goodreads.com/book/show/68428.Mistborn">The Mistborn Saga by Brandon Sanderson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/9579634-prince-of-thorns">The Broken Empire by Mark Lawrence</a></li>
+  <li><a href="https://www.goodreads.com/book/show/47212.Storm_Front">The Dresden Files by Jim Butcher</a></li>
+  <li><a href="https://www.goodreads.com/book/show/36146179-worth-the-candle">Worth the Candle by Alexander Wales</a></li>
+  <li><a href="https://www.goodreads.com/book/show/41033158-the-wandering-inn">The Wandering Inn by Pirateaba</a></li>
+  <li><a href="https://www.goodreads.com/book/show/50992902-mother-of-learning">Mother of Learning by Nobody103</a></li>
+</ul>
+
+<h2 id="fantasy">Fantasy</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/28589297-unsong">Unsong by Scott Alexander</a></li>
+  <li><a href="https://www.goodreads.com/book/show/10016013-harry-potter-and-the-methods-of-rationality">Harry Potter and the Methods of Rationality by Eliezer Yudkowsky</a></li>
+  <li><a href="https://www.goodreads.com/book/show/56468078-chili-and-the-chocolate-factory">Chili and the Chocolate Factory: Fudge Revelation by gazemaize</a></li>
+  <li><a href="https://www.goodreads.com/book/show/30165203-american-gods">American Gods by Neil Gaiman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/12067.Good_Omens">Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch by Terry Pratchett</a></li>
+  <li><a href="https://www.goodreads.com/book/show/4214.Life_of_Pi">Life of Pi by Yann Martel</a></li>
+  <li><a href="https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell">Jonathan Strange &amp; Mr Norrell by Susanna Clarke</a></li>
+  <li><a href="https://www.goodreads.com/book/show/104089.Tigana">Tigana by Guy Gavriel Kay</a></li>
+  <li><a href="https://www.goodreads.com/book/show/43353094-a-song-for-arbonne">A Song for Arbonne by Guy Gavriel Kay</a></li>
+  <li><a href="https://www.goodreads.com/book/show/21787.The_Princess_Bride">The Princess Bride by William Goldman</a></li>
+  <li><a href="https://www.nickbostrom.com/fable/dragon.html">The Fable of the Dragon-Tyrant by Nick Bostrom</a></li>
+  <li><a href="https://www.goodreads.com/book/show/190554.Declare">Declare by Tim Powers</a></li>
+</ul>
+
+<h2 id="wuxia">Wuxia</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/1589878._">The Legend of the Condor Heroes by Jin Yong</a></li>
+  <li><a href="https://www.goodreads.com/book/show/4531901">The Return of the Condor Heroes by Jin Yong</a></li>
+  <li><a href="https://www.goodreads.com/book/show/1210062._">The Heaven Sword and Dragon Saber by Jin Yong</a></li>
+  <li><a href="https://www.goodreads.com/book/show/634244._">Demigods and Semi-Devils by Jin Yong</a></li>
+  <li><a href="https://www.goodreads.com/book/show/552705.The_Deer_and_the_Cauldron">The Deer and the Cauldron by Jin Yong</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6317155">The Smiling Proud Wanderer by Jin Yong</a></li>
+  <li><a href="https://www.goodreads.com/book/show/552708.The_Book_and_the_Sword">The Book and The Sword by Jin Yong</a></li>
+</ul>
+
+<h2 id="childrens-fantasy">Children’s Fantasy</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/76620.Watership_Down">Watership Down by Richard Adams</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6310.Charlie_and_the_Chocolate_Factory">Charlie and the Chocolate Factory by Roald Dahl</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6324090-alice-s-adventures-in-wonderland">Alice’s Adventures in Wonderland by Lewis Carroll</a></li>
+  <li><a href="https://www.goodreads.com/book/show/83346.Through_the_Looking_Glass_and_What_Alice_Found_There">Through the Looking-Glass and What Alice Found There by Lewis Carroll</a></li>
+  <li><a href="https://www.goodreads.com/book/show/11127.The_Chronicles_of_Narnia">The Chronicles of Narnia by CS Lewis</a></li>
+  <li><a href="https://www.goodreads.com/book/show/370493.The_Giving_Tree">The Giving Tree by Shel Silverstein</a></li>
+  <li><a href="https://www.goodreads.com/book/show/378.The_Phantom_Tollbooth">The Phantom Tollbooth by Norton Juster</a></li>
+  <li><a href="https://www.goodreads.com/book/show/157993.The_Little_Prince">The Little Prince by Antoine de Saint-Exupéry</a></li>
+</ul>
+
+<h2 id="horror">Horror</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/24800.House_of_Leaves">House of Leaves by Mark Z. Danielewski</a></li>
+  <li><a href="https://www.goodreads.com/book/show/11588.The_Shining">The Shining by Stephen King</a></li>
+  <li><a href="https://www.goodreads.com/book/show/830502.It">It by Stephen King</a></li>
+  <li><a href="https://www.goodreads.com/book/show/53402238-the-interface-series">The Interface Series by _9MOTHER9HORSE9EYES9</a></li>
+  <li><a href="https://www.goodreads.com/book/show/39058.The_Gormenghast_Novels">The Gormenghast Novels by Mervyn Peake</a></li>
+  <li><a href="https://www.goodreads.com/book/show/11851522-the-complete-works-of-h-p-lovecraft">The Complete Works of HP Lovecraft by HP Lovecraft</a></li>
+</ul>
+
+<h2 id="short-stories">Short Stories</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/426504.Ficciones">Ficciones by Jorge Luis Borges</a></li>
+  <li><a href="https://www.goodreads.com/book/show/109812.Kolyma_Tales">Kolyma Tales by Varlam Shalamov</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/18114111">The Corpse Exhibition and Other Stories of Iraq by Hassan Blasim</a></li>
+  <li><a href="https://www.goodreads.com/book/show/4948826-sum">Sum: Forty Tales from the Afterlives by David Eagleman</a></li>
+  <li><a href="https://www.goodreads.com/book/show/5693.Selected_Stories_of_Anton_Chekhov">Selected Stories of Anton Chekhov by Anton Chekhov</a></li>
+  <li><a href="https://www.goodreads.com/book/show/8146.The_Stories_of_Vladimir_Nabokov">The Stories of Vladimir Nabokov by Vladimir Nabokov</a></li>
+  <li><a href="https://www.goodreads.com/book/show/252981.The_Collected_Tales_of_Nikolai_Gogol">The Collected Tales of Nikolai Gogol by Nikolai Gogol</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/60409">The Complete Works of Isaac Babel by Isaac Babel</a></li>
+  <li><a href="https://www.goodreads.com/book/show/284996.The_Complete_Stories">The Complete Stories by Flannery O’Connor</a></li>
+</ul>
+
+<h2 id="classic-fiction">Classic Fiction</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/153747.Moby_Dick_or_the_Whale">Moby-Dick or, the Whale by Herman Melville</a></li>
+  <li><a href="https://www.goodreads.com/book/show/119073.The_Name_of_the_Rose">The Name of the Rose by Umberto Eco</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17841.Foucault_s_Pendulum">Foucault’s Pendulum by Umberto Eco</a><span style="text-decoration:underline;"> </span></li>
+  <li><a href="https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray">The Picture of Dorian Gray by Oscar Wilde</a></li>
+  <li><a href="https://www.goodreads.com/book/show/4671.The_Great_Gatsby">The Great Gatsby by F. Scott Fitzgerald</a></li>
+  <li><a href="https://www.goodreads.com/book/show/117833.The_Master_and_Margarita">The Master and Margarita by Mikhail Bulgakov</a></li>
+  <li><a href="https://www.goodreads.com/book/show/7126.The_Count_of_Monte_Cristo">The Count of Monte Cristo by Alexandre Dumas</a></li>
+  <li><a href="https://www.goodreads.com/book/show/373755.Absalom_Absalom_">Absalom, Absalom! by William Faulkner</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17245.Dracula">Dracula by Bram Stoker</a></li>
+  <li><a href="https://www.goodreads.com/book/show/406373.Faust">Faust by Johann Wolfgang von Goethe Faust</a></li>
+  <li><a href="https://www.goodreads.com/book/show/656.War_and_Peace">War and Peace by Leo Tolstoy</a></li>
+  <li><a href="https://www.goodreads.com/book/show/15823480-anna-karenina">Anna Karenina by Leo Tolstoy</a></li>
+  <li><a href="https://www.goodreads.com/book/show/135060.Hadji_Mur_d">Hadji Murád by Leo Tolstoy</a></li>
+  <li><a href="https://www.goodreads.com/da/book/show/18162555-a-confederacy-of-dunces">A Confederacy of Dunces by John Kennedy Toole</a></li>
+  <li><a href="https://www.goodreads.com/book/show/88077.The_Magic_Mountain">The Magic Mountain by Thomas Mann</a></li>
+  <li><a href="https://www.goodreads.com/book/show/28634.Immortality">Immortality by Milan Kundera</a></li>
+  <li><a href="https://www.goodreads.com/book/show/23878.Chronicle_of_a_Death_Foretold">Chronicle of a Death Foretold by Gabriel García Márquez</a></li>
+  <li><a href="https://www.goodreads.com/book/show/7805.Pale_Fire">Pale Fire by Vladimir Nabokov</a></li>
+  <li><a href="https://www.goodreads.com/book/show/4406.East_of_Eden">East of Eden by John Steinbeck</a></li>
+</ul>
+
+<h2 id="fiction">Fiction</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/sl/book/show/28921">The Remains of the Day by Kazuo Ishiguro</a></li>
+  <li><a href="https://www.goodreads.com/series/73045-min-kamp">Min kamp Series by Karl Ove Knausgård</a></li>
+  <li><a href="https://www.goodreads.com/book/show/401876.The_House_of_God">The House of God by Samuel Shem</a></li>
+  <li><a href="https://www.goodreads.com/book/show/57913.The_Illuminatus_Trilogy">The Illuminatus! Trilogy by Robert Shea</a></li>
+  <li><a href="https://www.goodreads.com/book/show/905459.Wolf_Solent">Wolf Solent by John Cowper Powys</a></li>
+  <li><a href="https://www.goodreads.com/book/show/959613.A_Glastonbury_Romance">A Glastonbury Romance by John Cowper Powys</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2231561.Darconville_s_Cat">Darconville’s Cat by Alexander Theroux</a></li>
+  <li><a href="https://www.goodreads.com/book/show/83017.The_Tartar_Steppe">The Tartar Steppe by Dino Buzzati</a></li>
+  <li><a href="https://www.goodreads.com/book/show/2033025.The_Opposing_Shore">The Opposing Shore by Julien Gracq</a></li>
+  <li><a href="https://www.goodreads.com/book/show/18824493-my-brilliant-friend">The Neapolitan Novels by Elena Ferrante</a></li>
+  <li><a href="https://www.goodreads.com/book/show/14836.Midnight_s_Children">Midnight’s Children by Salman Rushdie</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6481280-red-plenty">Red Plenty by Francis Spufford</a></li>
+  <li><a href="https://www.goodreads.com/book/show/6759.Infinite_Jest">Infinite Jest by David Foster Wallace</a></li>
+  <li><a href="https://www.goodreads.com/book/show/35519.The_Power_of_Myth">The Power of Myth by Joseph Campbell</a></li>
+  <li><a href="https://www.goodreads.com/book/show/8130077-the-screwtape-letters">The Screwtape Letters by CS Lewis</a></li>
+  <li><a href="https://www.goodreads.com/book/show/394535.Blood_Meridian_or_the_Evening_Redness_in_the_West">Blood Meridian, or the Evening Redness in the West by Cormac McCarthy</a></li>
+  <li><a href="https://www.goodreads.com/book/show/9665288-we-have-always-lived-in-the-castle">We Have Always Lived in the Castle by Shirley Jackson</a></li>
+  <li><a href="https://www.goodreads.com/book/show/52382796-sh-gun">Shōgun by James Clavell</a></li>
+  <li><a href="https://www.goodreads.com/book/show/7141642-the-thousand-autumns-of-jacob-de-zoet">The Thousand Autumns of Jacob de Zoet by David Mitchell</a></li>
+  <li><a href="https://www.goodreads.com/book/show/34051011-pachinko">Pachinko by Min Jin Lee</a></li>
+  <li><a href="https://www.goodreads.com/book/show/22034.The_Godfather">The Godfather by Mario Puzo</a></li>
+  <li><a href="https://www.goodreads.com/book/show/17333223-the-goldfinch">The Goldfinch by Donna Tartt</a></li>
+  <li><a href="https://www.goodreads.com/book/show/256008.Lonesome_Dove">Lonesome Dove by Larry McMurtry</a></li>
+</ul>
+
+<h2 id="plays">Plays</h2>
+<ul>
+  <li><a href="https://www.goodreads.com/book/show/384597.Arcadia">Arcadia by Tom Stoppard</a></li>
+  <li><a href="https://www.goodreads.com/book/show/18545.Rosencrantz_and_Guildenstern_Are_Dead">Rosencrantz and Guildenstern Are Dead by Tom Stoppard</a></li>
+  <li><a href="https://www.goodreads.com/book/show/53413.Hopscotch">Hopscotch by Julio Cortázar</a></li>
+  <li><a href="https://www.goodreads.com/book/show/403098.A_Man_for_All_Seasons">A Man for All Seasons by Robert Bolt</a></li>
+</ul>
+
+    </article>
+</body>
+      
+
+      
+
+<script>
+    $(document).ready(function () {
+        $('#tipue_search_input').tipuesearch();
+        $("#search-toggle").click(function () {
+            $("#fade").show();
+            $("#openModal").show();
+        });
+
+        $("#closeModal").click(function () {
+            $("#fade").hide();
+            $("#openModal").hide();
+        })
+    });
+
+    document.addEventListener('keyup', function (e) {
+        if (e.keyCode == 27) {
+            $("#fade").hide();
+            $("#openModal").hide();
+        }
+    });
+</script>
+      <div id="fade"></div>
+    </main>
+    <script id="dsq-count-scr" src="//joe-cheung-github-io.disqus.com/count.js" async></script>
+    <script src="/mode-switcher.js"></script>
+    </div>
+    <footer class="footer">
+    <div class="container">
+        <h3 style= "padding-right: 10px; margin-bottom: 20px; display: inline-block;" class="pull-left">&copy; 2023</h3>
+        <h3 style="display: inline-block;">
+    <a class="no-after social-icon" target="_blank" href="/feed.xml">
+        <i class="fa fa-rss"></i>
+    </a>
+    
+    
+    <a class="no-after social-icon" href="https://twitter.com/SubCriticalA">
+        <i class="fa fa-twitter"></i>
+    </a>
+    
+</h3>
+    </div>
+</footer>
+  </body>
+</html>

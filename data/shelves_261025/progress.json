@@ -1,0 +1,26 @@
+{
+  "status": "incomplete",
+  "requestedSelectedBooks": 200,
+  "selectedBooks": 31,
+  "remainingSelection": 169,
+  "newRecommendedBooks": 69,
+  "newVetoedBooks": 12,
+  "newHardExcludedBooks": 207,
+  "mandatorySources": [
+    {
+      "source": 294,
+      "pending": 0
+    },
+    {
+      "source": 295,
+      "pending": 0
+    }
+  ],
+  "pendingSourceRecords": 1792,
+  "note": "Pending records are not a count of unique eligible books. The 200-book selection is incomplete; mandatory full-source intake is separate.",
+  "checks": {
+    "duplicateSourceIDs": 0,
+    "withdrawnGatesSourceLinks": 0,
+    "baselineStatusCriteriaDeductionsPreserved": true
+  }
+}

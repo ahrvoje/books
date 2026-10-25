@@ -288,3 +288,18 @@
 | 286 | 2026-10-24 | [machinists](https://www.reddit.com/r/Machinists/comments/x3hgip/book_recommendation/) | [Partial intake; coverage and pending work](analysis/analysis_machinists_261024_2307.md) |
 | 287 | 2026-10-24 | [mooreforum](https://www.polytechforum.com/metalworking/free-foundations-of-mechanical-accuracy-643988-.htm) | [Partial intake; coverage and pending work](analysis/analysis_mooreforum_261024_2307.md) |
 | 288 | 2026-10-24 | [furman](https://meettheprof.com/view/professors/entry/buff-furman/) | [Partial intake; coverage and pending work](analysis/analysis_furman_261024_2307.md) |
+| 289 | 2026-10-25 | [nikomc](https://nikomc.com/bookshelf) | [Intake and source-count audit; assessment in progress](analysis/analysis_nikomc_261025_2011.md) |
+| 290 | 2026-10-25 | [subcritical](https://subcriticalappraisal.com/bookshelf/) | [Intake and source-count audit; assessment in progress](analysis/analysis_subcritical_261025_2011.md) |
+| 291 | 2026-10-25 | [bretvictor](https://theinternate.com/bret-victors-bookshelf/) | [Intake and source-count audit; assessment in progress](analysis/analysis_bretvictor_261025_2011.md) |
+| 292 | 2026-10-25 | [kamdar](https://mbkamdar.github.io/books/science-tech) | [Intake and source-count audit; assessment in progress](analysis/analysis_kamdar_261025_2011.md) |
+| 293 | 2026-10-25 | [mcateer](https://matthewmcateer.me/bookshelf/) | [Intake and source-count audit; assessment in progress](analysis/analysis_mcateer_261025_2011.md) |
+| 294 | 2026-10-25 | [karpathy](https://recommentions.com/andrej-karpathy/books/) | [Intake and source-count audit; assessment in progress](analysis/analysis_karpathy_261025_2011.md) |
+| 295 | 2026-10-25 | [friedberg](https://www.bookselects.com/person/david-friedberg) | [Intake and source-count audit; assessment in progress](analysis/analysis_friedberg_261025_2011.md) |
+| 296 | 2026-10-25 | [Gates Notes — withdrawn by user; inactive ID](https://www.gatesnotes.com/books) | [Historical intake and withdrawal](analysis/analysis_gatesbooks_261025_2011.md); excluded from source counts and pending intake. |
+| 297 | 2026-10-25 | [ringsmuth](https://andrewringsmuth.com/resources/) | [Intake and source-count audit; assessment in progress](analysis/analysis_ringsmuth_261025_2011.md) |
+| 298 | 2026-10-25 | [computepod](https://github.com/krypted/TheHistoryOfComputingPodcast) | [Intake and source-count audit; assessment in progress](analysis/analysis_computepod_261025_2011.md) |
+| 299 | 2026-10-25 | [leinweber](https://scottleinweber.com/books) | [Intake and source-count audit; assessment in progress](analysis/analysis_leinweber_261025_2011.md) |
+| 300 | 2026-10-25 | [hendricks](https://kenthendricks.com/bookshelf/) | [Intake and source-count audit; assessment in progress](analysis/analysis_hendricks_261025_2011.md) |
+| 301 | 2026-10-25 | [czarandy](https://github.com/czarandy/reading) | [Intake and source-count audit; assessment in progress](analysis/analysis_czarandy_261025_2011.md) |
+| 302 | 2026-10-25 | [scientists](https://www.fromthegreats.com/collections/scientists) | [Intake and source-count audit; assessment in progress](analysis/analysis_scientists_261025_2011.md) |
+| 303 | 2026-10-25 | [elitescience](https://elitereads.com/genre/science-technology) | [Intake and source-count audit; assessment in progress](analysis/analysis_elitescience_261025_2011.md) |

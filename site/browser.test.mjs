@@ -26,6 +26,25 @@ try {
   assert.match(await page.locator('[data-panel="pareto"]').textContent(),/Pareto/);
   const iconSizes=await page.locator('.panel-tabs button:visible svg').evaluateAll(nodes=>nodes.map(n=>({width:n.getBoundingClientRect().width,height:n.getBoundingClientRect().height})));
   assert.deepEqual(iconSizes,Array.from({length:3},()=>({width:16,height:16})));
+  let desktopDividerY;
+  for(const width of [390,752,768,1074,1075,1076,1099,1100,1101,1440,1600]){
+    await page.setViewportSize({width,height:1000});
+    const header=await page.evaluate(()=>{
+      const bounds=selector=>document.querySelector(selector).getBoundingClientRect();
+      const button=bounds('[data-panel="pareto"]');
+      return {right:button.right,edges:['.title-row','.library-nav','.search-row'].map(selector=>bounds(selector).right),
+        dividerY:bounds('.result-summary').top,gap:bounds('.result-summary').top-bounds('.search-row').bottom,
+        overflow:document.documentElement.scrollWidth>innerWidth};
+    });
+    assert(header.edges.every(right=>Math.abs(right-header.right)<1),`Header must end at the Pareto button at ${width}px`);
+    assert.equal(header.overflow,false,`No page overflow at ${width}px`);
+    if(width>=768){
+      desktopDividerY ??= header.dividerY;
+      assert.equal(header.gap,16,`Divider must stay 16px below the toolbar at ${width}px`);
+      assert.equal(header.dividerY,desktopDividerY,`Divider must not shift vertically at ${width}px`);
+    }
+  }
+  await page.setViewportSize({width:1440,height:1000});
   await page.waitForFunction(count=>Number(document.querySelector('#matching-count').textContent.replace(/\D/g,''))===count,bookCount);
   assert.equal(await page.locator('#notice').isVisible(),false,'Catalog updates must be silent');
   assert.match(await page.title(),/Book Explorer/);
@@ -209,6 +228,7 @@ try {
   assert.equal(await page.locator('.plot-point[data-pareto-layer="1"]').count(),1,'Same score on both axes has one best coordinate');
   assert.equal(await page.locator('[data-frontier-layer="1"]').count(),0,'A single frontier coordinate must not draw a line');
   assert.equal(await page.locator('.plot-point .plot-ring').count(),0);
+  await page.mouse.move(0,0);
   assert.equal(await page.locator('#plot-hover-ring').isVisible(),false);
   await page.locator('#search').fill('no-matching-book-zzzz');
   await page.waitForFunction(()=>document.querySelector('#matching-count').textContent==='0');
