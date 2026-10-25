@@ -1,0 +1,5 @@
+# Queue review
+
+Queue review, 25 October 2026: [decision report](analysis/analysis_continuation_261025_1223.md). All 408 starting entries were reviewed; 397 were resolved. Added 295 recommended works, 79 vetoed works and 19 hard exclusions; merged two existing-work matches and one within-batch duplicate; removed one non-book program. No new source IDs. Current totals: **5,799 recommended, 755 vetoed, 2,898 excluded**. The active catalog is `data/intake_complete_261025/compiled.json`. [Eleven unresolved identities or formats](data/intake_complete_261025/unresolved.json) remain explicitly held without scores or source credit. New score estimates have low confidence; unknown auxiliary inputs use the prescribed fallbacks.
+
+Run `node data/intake_complete_261025/verify.mjs` to check preservation, disjoint membership, unique source counts, score arithmetic and queue accounting. The integrator is guarded against replay after catalog advancement. `specs-*.json` hold individual decisions; `evidence-*.txt` retain retrieved evidence. `unresolved.json` records the precise remaining blockers. Prior snapshots and analyses remain history.

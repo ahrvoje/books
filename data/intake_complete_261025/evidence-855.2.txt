@@ -1,0 +1,131 @@
+A Pre-mortem on The First Major AI-Enabled Terrorism Event and The Choices That Could Enable it: Plus 9 Predictions | The Belfer Center for Science and International Affairs (https://www.belfercenter.org/research-analysis/pre-mortem-first-major-ai-enabled-terrorism-event-and-choices-could-enable-it)
+citeturn644search0 [wordlim: 200] Published: last week; Crawled: yesterday; 
+
+# A Pre-mortem on The First Major AI-Enabled Terrorism Event and The Choices That Could Enable it: Plus 9 Predictions
+
+Frontier AI developers' model reports and the dedicated risk-assessment teams at governmental AI institutes such as UK AISI and US CAISSI now treat a major AI-enabled cyber, biological, or chemical terror event as a credible concern. But how, precisely, might such an event happen? What choices across the model lifecycle may contribute to it? This paper studies what current evidence suggests about how specific mistakes from AI developers, distributors, and governments may contribute to such an event.
+
+The authors conclude with a set of 9 falsifiable predictions about how the first major AI-enabled cyber, bio, or chemical terrorism attack may occur and outline two illustrative hypothetical scenarios for such an event. 
+
+Download the PDF
+
+Published: Oct. 15, 2026
+
+Author
+Stephen Casper
+
+Image: Stephen Casper headshot.png
+
+Author
+Max Kamachee
+
+Image: Max Kamachee headshot
+Automated refusal ablation (a.k.a. “abliteration”) removes refusal with no specialized fine-tuning data and no expertise. Safe refusal refers to the safety behavior in which a model declines harmful requests. Empirically, refusal behavior can often be controlled by simple perturbations to the internal activations of models (Arditi et al., 2024). Heretic (Weidmann, 2026), for example, is an open-source automated toolkit that can, for example, uncensor a model like Llama-3.1-8B in under an hour on a single GPU, requiring no understanding of model internals. Heretic and other tools feed an ecosystem of thousands of pre-stripped models an attacker can download rather than produce (Young, 2025; Sokhansaj, 2025). A team at Anthropic demonstrated this by “abliterating” a leading open-weight model, GLM 5.3, and recorded that with as little as $4,400, GLM 5.3’s refusal rate to dangerous requests dropped from 90% to 2-3%. Cell values reflect the presence and extent of public reporting, which is a proxy for transparency, not a rating of safeguard rigor or implementation. This was conducted in August 2026.
+
+Human uplift randomized control trials are a direct measurement of whether a model can actually help a person accomplish weapons-relevant tasks. They are also expensive, mostly proprietary, and run voluntarily by a few frontier labs and third-party evaluators. Relative to the importance of this measurement, public facing work is thin: RAND has published work on cyber and biology human-uplift studies (Aguirre et al., 2026; Mouton et al., 2024; Hong et al., 2026), and SecureBio maintains a synthesis of biology human-uplift trials (SecureBio, 2026). Developers themselves report little. In our audit of leading model cards, only Anthropic reported running an uplift trial, a catastrophic biological scenario tested with five three-person teams (Anthropic, 2026; Table 4). No other developer, open or closed, reported one at all. This does not prove these trials were not run, but it leaves the public with no basis to verify that models are tested for real-world uplift before release. 
+
+There is currently no industry-wide standard nor clear legally established protocols for how to identify, escalate, share signs of concerning activity before a harm has materialized. Providers have publicly described detecting and banning accounts engaged in serious misuse (Anthropic, 2026; Anthropic, 2025; GTIG, 2026; OpenAI, 2026), but none detail the mechanism in which they escalate this information in a timely manner to law enforcement. A failure of this was demonstrated when OpenAI banned an account in June 2025 after automated detection of a usage-policy violation but did not contact authorities, citing an internal threshold that was not met. Eight months later the account holder carried out a mass shooting at a school in Tumbler Ridge, British Columbia (NYT, 2026). Regardless of whether or not the judgement was reasonable, the threshold was provider-defined with no external oversight. Proposals for structured public-private escalation channels exist, including a standing AI Threat Fusion Center with classified infrastructure and cross-cleared personnel, but none have been implemented (Hersman, 2026). Anthropic has since reported disrupting several weapons development programs, potential biological plots, and cyber-offensive operations through internal monitoring rather than pre-attack law-enforcement referral (Anthropic, 2026). Similarly, there is no framework for sharing threat intelligence across model providers to defend against multi-provider abuse. Analogous frameworks have been long-established in the field of cybersecurity (CISA, 2026).
+
+Detection: Some providers have detected and disrupted closed-model misuse through account and usage monitoring, while open-model misuse has not been observable. Some closed-weight system providers have implemented the detection mechanisms covered in Section 3.5 and used them to disrupt observed campaigns. For example, Anthropic detected the GTG-1002 autonomous espionage campaign because of its sustained volume and banned accounts over roughly ten days as it mapped the operation (Anthropic, 2025). Google has reportedly attributed and disabled the accounts behind Gemini-enabled APT campaigns each time it identified them (GTIG, 2026). OpenAI has traced and banned scam and influence-operation clusters through usage monitoring (OpenAI, 2026). This track record is self-reported and unaudited, so it functions as a lower bound on actual misuse. Open-weight abuse is difficult to detect because open-weight deployments have no observable stage: initial fine-tuning or abliteration can be conducted on the actor's own hardware, distribution happens through public and private platforms, and downstream users run the pre-stripped model locally. 
+
+
+Detection: To the best of our knowledge, all publicly available evidence of terror-related AI use is post-hoc and sourced from law enforcement, court proceedings, or field research. The use of chatbots in Cybertruck, Palm Springs, and Red Fort cases became clear through post-incident investigation (PBS, 2025; CNBC, 2025) and Boko Haram's use of AI surfaced through Juelich (2026) reporting interviews with former members. Instances where a plot was foiled by law enforcement similarly surfaced incriminating chat logs with AI systems after the fact (The Economic Times, 2026; Broekaert & Clarke, 2026). Model provider-led disruption of a terror plot specifically is not on the public record, though such detection, if it occurred, may be unlikely to be disclosed due to national security purposes. Adjacently, Anthropic recently released a threat report detailing how they thwarted several instances of potential misuse, though it is unclear whether the threat actors were terrorists (Anthropic, 2026). 
+
+Detection: To the best of our knowledge, all publicly available evidence of terror-related AI use is post-hoc and sourced from law enforcement, court proceedings, or field research. The use of chatbots in Cybertruck, Palm Springs, and Red Fort cases became clear through post-incident investigation (PBS, 2025; CNBC, 2025) and Boko Haram's use of AI surfaced through Juelich (2026) reporting interviews with former members. Instances where a plot was foiled by law enforcement similarly surfaced incriminating chat logs with AI systems after the fact (The Economic Times, 2026; Broekaert & Clarke, 2026). Model provider-led disruption of a terror plot specifically is not on the public record, though such detection, if it occurred, may be unlikely to be disclosed due to national security purposes. Adjacently, Anthropic recently released a threat report detailing how they thwarted several instances of potential misuse, though it is unclear whether the threat actors were terrorists (Anthropic, 2026). However, outside of this report, the general lack of public data may also indicate a lack of instrumenting rigorous monitoring and mechanisms to effectively escalate incidents to the relevant authorities. Hunter & Righetti (2026) find that a large fraction of explosives plots are foiled by law enforcement, which makes incident escalation from a developer to law enforcement a priority (Section 3.5).
+Deployment: The model primarily implicated in this attack was closed-weight and primarily accessed by users through a web application with tens of millions of monthly active users. However, the terrorist organization could not use that application directly because it operated in a region of the world where the model developer did not offer its products. Instead, it reached them primarily through a third party commercial reseller that was popular among customers facing the same restriction, running accounts under synthetic identities, retaining no records, and fronting a dozen models from several vendors. This service offered the organization several useful features including the dilution of its bio-related queries with other customers’ queries and the ability to automatically query different models upon encountering a refusal (Anthropic, 2026). 
+
+Elicitation: The terrorist organization experimented with multiple elicitation strategies and multiple models from multiple providers. The full set of queries from the terrorist organization, seen together, would have been recognizable as a malicious operation, but the use of multiple accounts and dilution by the intermedia vendor ultimately circumvented the monitoring strategy. 
+
+Outside the model lifecycle: The group placed its synthesis orders through a cloud laboratory^{12} that ran no sequence screening (RAND, 2025). Even if screening were run, the variant the group had arrived at with model assistance was novel enough that basic algorithms would likely have failed to flag it (Wittmann et al., 2025). In addition to custom AI-designed lab protocols, the group also drew from published protocols and bought synthetic DNA commercially, splitting its laboratory work across providers so that none saw the full set of orders. The jailbroken AI model assisted in coordinating these efforts.
+
+Outcome: The terrorist group synthesized and released a novel infectious pathogen in a highly-trafficked public space. The attack succeeded, and the confirmed death toll climbed to exceed 100. The role that the frontier AI model played in the attack was unknown until an investigation by law enforcement found extensive notes and chat transcripts on recovered devices. 
+
+Scenario B: Small state-sponsored group with computer science expertise, open-weight model, cyberattack against US critical infrastructure
+
+Summary: A state-sponsored hacking group with significant but limited cyber offense expertise downloaded a frontier open weight model and stripped safeguards from it at a cost of approximately 2,000 USD. This gave the group access to capabilities and scalability that they did not previously possess. They used this model to create an agent swarm that successfully caused cascading disruptions across US infrastructure at a total cost of several billion dollars.
+
+Recommended citation
+
+Casper, Stephen, Max Kamachee, Jordi Weinstock, Antonia Juelich, Jonas Raedler and Elise Racine. “A Pre-mortem on The First Major AI-Enabled Terrorism Event and The Choices That Could Enable it: Plus 9 Predictions.” October 15, 2026
+
+Footnotes
+
+  1. Anthropic reported that it could not determine if this was for legitimate or malicious ends.
+
+  2. Cyberterrorism incidents have simpler supply chains behind them, and there is generally a lower barrier to the creation of threats. However, bio and chemical incidents are a more acute threat to human life. It is generally expected that significant cyber incidents will happen sooner in the cyber domain, but it is generally regarded as unclear in which domains the first “critical” incidents will occur.
+
+  3. Pretraining on dual-use content is not strictly necessary. An open-weight model whose pretraining corpus was filtered can still acquire dangerous capability through sufficient downstream fine-tuning (Section 3.3). But comprehensive pretraining-data filtration is difficult and rarely reported on (Section 3.4) so harmful capabilities are often present in practice.
+--------------------------------------------------------------------------------
+The Shahada in Sydney Reminds Us That Political Islam Is Deadly | The Belfer Center for Science and International Affairs (https://www.belfercenter.org/publication/shahada-sydney-reminds-us-political-islam-deadly)
+citeturn644search1 [wordlim: 200] Published: 11.9 years ago; Crawled: last week; 
+
+Article
+
+from Time
+
+# The Shahada in Sydney Reminds Us That Political Islam Is Deadly
+
+  * View Citation
+  *   * Published: December 16, 2014
+
+Author
+Ayaan Hirsi Ali
+
+Image
+
+No symbol represents the soul of Islam more than the Shahada. But today there is a contest within Islam for the ownership of that symbol.
+
+There is still much that we do not know about the Lindt café siege in Sydney. We know that two innocent people are dead: the café manager, Tori Johnson; and barrister and mother of three Katrina Dawson. And we know that the armed man who was holding them and 15 other people hostage, Man Haron Monis, was a self-styled Muslim cleric.
+
+Having been convicted of writing poison-pen letters to the families of fallen Australian servicemen, Monis was clearly no innocent imam. He had recently been charged not only with being an accessory to the murder of his ex-wife but also with more than 50 instances of indecent and sexual assault.
+
+Yet Monis’ message to the world—emblazoned in Arabic on a black flag held to the window of the Lindt café—was a classic one: “I bear witness that there is no god but Allah, and Muhammad is His messenger.” I well remember my last visit to Australia, just last year, when I was greeted by a pack of baying Islamists carrying signs that read: “Message to INFIDEL Ayaan Hirsi Ali. BURN IN HELL FOREVER.” Those same thugs were also carrying a flag inscribed with the shahada.
+
+Even when they themselves do not commit acts of violence, radical preachers are very often the instigators of terrorist acts that their perpetrators glorify as jihad—holy war, as waged by Muhammad after Medina.
+
+To the extent that sincerely peace-loving Muslims wish to combat this trend, they need to do more than utter platitudes. They need to disown the likes of Man Haron Monis before they resort to violence, when they are preaching it. Unless this political dimension of Islam is acknowledged and repudiated, we will see no end to this type of terror, and no city—not even Sydney, more than 8,000 miles removed from Medina—will be safe.
+
+Ayaan Hirsi Ali is the founder of the AHA Foundation and the author of Infidel, Nomad, and the forthcoming Heretic: The Case for a Muslim Reformation, to be published next spring.
+
+Recommended citation
+
+Ali, Ayaan. “The Shahada in Sydney Reminds Us That Political Islam Is Deadly.” Time, December 16, 2014--------------------------------------------------------------------------------
+Belfer Center: 2015 at a Glance | The Belfer Center for Science and International Affairs (https://www.belfercenter.org/publication/belfer-center-2015-glance)
+citeturn644search2 [wordlim: 200] Published: 10.9 years ago; Crawled: 3 weeks ago; 
+>  
+> 
+> "Engage Muslim Millennials"
+
+  * The Great War of Our Time
+Michael Morell
+  * Building Dumbledore’s Army to fight ISIS
+Farah Pandith
+  * Heretic: Why Islam Needs A Reformation Now
+Ayaan Hirsi Ali
+  * Paris and the fall of Rome
+Niall Ferguson
+  * Engage Muslim Millennials
+Farah Pandith
+  * Are vicious Islamists expanding? Is that the real issue?
+Rami Khouri
+  * Europe Must Deal With the Breeding of Terrorism Within Its Borders
+Kelly M.Greenhill
+
+U.S.-Russia Relations
+
+* * *
+
+> When the Soviet Union collapsed in 1991, Russia was on its knees...it was not surprising that Western leaders became accustomed to ignoring Russian perspectives. But since Vladimir Putin took over in 1999, he has led a recovery of Russia’s sense of itself as a great power.
+>  
+> 
+> "Russia and America: Stumbling to War"
+
+--------------------------------------------------------------------------------
+New Data Solutions for the China S&T Challenge | The Belfer Center for Science and International Affairs (https://www.belfercenter.org/event/new-data-solutions-china-st-challenge)
+citeturn644search3 [wordlim: 200] Published: 5.4 years ago; Crawled: last month; 
+Before joining the IC, she served as a technical research analyst at the Institute for Defense Analysis supporting the Strategic Defense Initiative Organization. Ms. McCarthy is a graduate of the University of South Carolina and holds a Master’s Degree in Public Policy from the University of Maryland.
+
+### Carmen Medina, Former Deputy Director of Intelligence, CIA
+
+Carmen, a retired Senior Federal Executive with 32 years’ experience in the Intelligence Community, is a recognized national and international expert on intelligence analysis, strategic thinking, diversity of thought, and innovation and intrapreneurs in the public sector. She is the co-author of the book: Rebels At Work: A Handbook for Leading Change from Within and of the landmark Deloitte University Press paper on Diversity’s New Fronter: Diversity of Thought and the Future of the Workplace. Her story as a heretic and change agent at CIA is featured in Wharton School professor Adam Grant’s bestseller Originals: How Non-Conformists Move the World.
+

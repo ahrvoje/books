@@ -70,6 +70,7 @@
 - A Madman Dreams of Turing Machines — Janna Levin
 - A Man — Oriana fallaci
 - A Man Called Ove — Fredrik Backman
+- A Manual for Creating Atheists — Peter Boghossian
 - A Mathematical Gift: The Interplay between Topology, Functions, Geometry, and Algebra — Kenji Ueno; Koji Shiga; Shigeyuki Morita
 - A Mathematical Introduction to Logic — Herbert B. Enderton
 - A Memory Called Empire — Arkady Martine
@@ -356,6 +357,7 @@
 - Breaking Bias — Anu Gupta
 - Breathing Lessons — Anne Tyler
 - Brief Interviews with Hideous Men — David Foster Wallace
+- British Propeller Makers of World War I — Bob Gardner
 - Brownian Motion — Peter Mörters; Yuval Peres
 - Brrm Brrm — Clive James
 - BSD Hacks — Dru Lavigne
@@ -559,6 +561,7 @@
 - Dark Empire
 - Dark Integers
 - Dark Matter — Blake Crouch
+- Darwin and His Bears — Frank J. Sulloway
 - Data Access Patterns — Clifton Nock
 - Data Analysis with Open Source Tools — Philipp K. Janert
 - Data Science for Business: What you need to know about data mining and data-analytic thinking — Foster Provost and Tom Fawcett
@@ -989,6 +992,7 @@
 - How Things Work — Bloomfield
 - How to Abandon Ship — Richards, Phil
 - How to Advertise — Kenneth Roman; Jane Maas; Martin Nisenholtz
+- How to Argue — Gerry Spence
 - How to Be a Founder, Matt Clifford — Alice Bentinck; Matt Clifford
 - How To Buy Stocks — Louis Engel
 - How to Cook Everything — Mark Bittman
@@ -1023,6 +1027,7 @@
 - Hyouka
 - Hyperefficient: Optimize Your Brain to Transform the Way You Work — Mithu Storoni
 - Hyperion — Dan Simmons
+- I Am America (And So Can You!) — Stephen Colbert
 - I Am Pilgrim — Terry Hayes
 - I Have No Mouth, and I Must Scream 
 - I Remember Lemuria!
@@ -1058,6 +1063,7 @@
 - Instrument Flying Handbook 2007 (FAA Handbooks) — Federal Aviation Administration
 - Instrument Oral Exam Guide — Michael D. Hayes
 - Instrument Procedures Handbook — United States Federal Aviation Administration
+- Instruments and Experiences: Papers on Measurement and Instrument Design — Jones, R.V.
 - Interactive Data Visualization for the Web — Scott Murray
 - Intermolecular and Surface Forces — Jacob N. Israelachvili
 - International Business: Competing in the Global Marketplace — Charles W. L. Hill and G. Tomas M. Hult
@@ -1551,6 +1557,7 @@
 - Perhaps the Stars — Ada Palmer
 - Perl Best Practices — Damian Conway
 - Perl Testing: A Developer's Notebook — Ian Langworth; chromatic
+- Permission Marketing — Seth Godin
 - Permutation City — Greg Egan
 - Perseverance Island
 - Persuasion Story Code — David Garfinkel
@@ -1795,6 +1802,7 @@
 - Secret Sauce — Austen Allred & Vin Clancy
 - Secrets of Closing the Sale — Zig Ziglar
 - Secrets of Power Negotiating — Roger Dawson
+- Secrets of the Sommeliers — Rajat Parr & Jordan Mackay
 - Security Analysis — Benjamin Graham
 - See Inside How Things Work: A Usborne Flap Book Revealing Car Engines, Submarines, and Machines for Kids (Ages 6-9) — Conrad Mason
 - Seeds in the Heart — Donald Keene
@@ -1873,6 +1881,7 @@
 - Solving Kepler's Equation over Three Centuries — Peter Colwell
 - Something Wicked This Way Comes — Ray Bradbury
 - Sometimes a Great Notion — Ken Kesey
+- Sono un ottimista globale — Bill Gates; Massimo Franco
 - Sophie's World — Jostein Gaarder
 - Sorrows of Werther — Johann Wolfgang von Goethe
 - Sourcebook in the Mathematics of Ancient Greece and the Eastern Mediterranean — Victor J. Katz; Clemency Montelle (editors)
@@ -1893,6 +1902,7 @@
 - SPIN Selling: Situation Problem Implication Need-payoff — Neil Rackham
 - Spin Sucks — Gini Dietrich
 - Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days — Jake Knapp, John Zeratsky, Braden Kowitz
+- Spy the Lie: Former CIA Officers Teach You How to Detect Deception — Philip Houston, Michael Floyd, Susan Carnicero, Don Tennant
 - SQL for Smarties — Joe Celko
 - Squire — Tamora Pierce
 - Stability and Chaos in Celestial Mechanics — Alessandra Celletti
@@ -1959,6 +1969,7 @@
 - Sunrise on the Reaping — Suzanne Collins
 - Super Porphyry Copper & Gold Deposits: A Global Perspective — T. M. Porter (editor)
 - Super Sad True Love Story — Gary Shteyngart
+- Supercommunicators: How to Unlock the Secret Language of Connection — Charles Duhigg
 - Superstring Theory — Michael B. Green
 - Surface Detail — Iain M. Banks
 - Surface Science Technologies — Walls, J.M. and R. Smith, eds.
@@ -2067,6 +2078,7 @@
 - The Bible of Options Strategies — Guy Cohen
 - The Biology of Cancer, 2nd Edition — Robert A. Weinberg
 - The Black Company
+- The Black Death: A Personal History (Abridged) — John Hatcher
 - The Black Fleet Crisis
 - The Blacktongue Thief — Christopher Buehlman
 - The Blade Itself — Joe Abercrombie
@@ -2175,6 +2187,7 @@
 - The Diamond Eye — Kate Quinn
 - The Diamond of Darkhold
 - The Diaries of Adam and Eve — Mark Twain
+- The Dirty Guide to Wine — Alice Feiring
 - The Dispossessed — Ursula K. Le Guin
 - The Divine Comedy — Dante Alighieri
 - The Doctor with an Eye for Eyes: The Story of Dr. Patricia Bath — Julia Finley Mosca, Daniel Rieley
@@ -2258,6 +2271,7 @@
 - The Goldfinch — Donna Tartt
 - The Golf Omnibus — P. G. Wodehouse
 - The Good Earth — Pearl S. Buck
+- The Gospel of the Flying Spaghetti Monster — Bobby Henderson
 - The Grapes of Wrath — John Steinbeck
 - The Grass Is Singing — Doris Lessing
 - The Graveyard Book — Neil Gaiman
@@ -2332,6 +2346,7 @@
 - The Legacy of Leonhard Euler — Lokenath Debnath
 - The Legend of Sigurd and Gudrún — J. R. R. Tolkien
 - The Leviathan — Rosie Andrews
+- The Liar Paradox and the Towers of Hanoi: The Ten Greatest Math Puzzles of All Time — Marcel Danesi
 - The Library at Mount Char — Scott Hawkins
 - The Licanius Trilogy — James Islington
 - The Life-Changing Magic of Not Giving a F*ck — Sarah Knight
@@ -2418,8 +2433,10 @@
 - The New Hacker's Dictionary — Eric S. Raymond (editor)
 - The New One Minute Manager — Ken Blanchard
 - The New Rules of Lifting — Lou Schuler
+- The New Testament as Literature: A Very Short Introduction — Kyle Keefer
 - The New Turing Omnibus — A. K. Dewdney
 - The New Typography — Jan Tschichold
+- The New Wines of Mount Etna — Benjamin North Spencer
 - The Next Whole Earth Catalog — Stewart Brand
 - The Nickel Boys — Colson Whitehead
 - The Nightingale — Kristin Hannah
@@ -2516,6 +2533,7 @@
 - The Rum Diary — Hunter S. Thompson
 - The Sailor Who Fell from Grace with the Sea — Yukio Mishima
 - The Sales Acceleration Formula — Mark Roberge
+- The Salmon of Doubt: Hitchhiking the Galaxy One Last Time — Douglas Adams
 - The Sandman — Neil Gaiman
 - The Satanic Verses — Salman Rushdie
 - The Scelbi-Byte Primer — Nat Wadsworth
@@ -2557,7 +2575,9 @@
 - The Site Reliability Workbook: Practical Ways to Implement SRE — Betsy Beyer
 - The Snows of Kilimanjaro — Ernest Hemingway
 - The Social Animal — Elliot Aronson
+- The Social Animal: The Hidden Sources of Love, Character, and Achievement — David Brooks
 - The Song of Achilles — Madeline Miller
+- The Sopranos Sessions — Matt Zoller Seitz & Alan Sepinwall
 - The Sorcerer’s House — Gene Wolfe; Dirk Berger; Tim Powers
 - The Sound and the Fury — William Faulkner
 - The Specialist — Charles Sale
@@ -2746,6 +2766,7 @@
 - Types and Programming Languages — Benjamin C. Pierce
 - Tyrant: Shakespeare on Politics — Stephen Greenblatt
 - U.S.A
+- Ubi Sunt — Blaise Agüera y Arcas
 - Ukridge — P. G. Wodehouse
 - Ultima — Stephen Baxter
 - Ulysses — James Joyce
@@ -2850,6 +2871,7 @@
 - Wonder — R. J. Palacio
 - Wool — Hugh Howey
 - Wool series — Hugh Howey
+- Words That Work: It’s Not What You Say, It’s What People Hear — Frank I. Luntz
 - Work Clean: The life-changing power of mise-en-place to organize your life, work, and mind — Dan Charnas
 - Working Effectively with Legacy Code — Michael Feathers
 - World Energy Investment — International Energy Agency

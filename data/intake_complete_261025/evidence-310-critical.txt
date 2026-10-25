@@ -1,0 +1,278 @@
+2.6.3 Review of Probability (https://sist.sathyabama.ac.in/sist_coursematerial/uploads/SMRA3003.pdf)
+citeturn916search12 [wordlim: 200] Published: 4.7 years ago; 
+2.6.3 Review of Probability
+
+- Natural way to represent uncertainty
+- People have intuitive notions about probabilities
+- Many of these are wrong or inconsistent
+- Most people don’t get what probabilities mean
+- Understanding Probabilities
+- Initially, probabilities are “relative frequencies”
+- This works well for dice and coin flips
+- For more complicated events, this is problematic
+
+2.6.4 Probabilities and Beliefs
+
+- Suppose I have flipped a coin and hidden the outcome
+- What is P(Heads)?
+- Note that this is a statement about a belief, not a statement about the world
+- The world is in exactly one state (at the macro level) and it is in that state with probability 1.
+- Assigning truth values to probability statements is very tricky business
+- Must reference speakers state of knowledge
+
+2.6.5 Frequentism and Subjectivism
+
+- Frequentists hold that probabilities must come from relative frequencies
+- This is a purist viewpoint
+- This is corrupted by the fact that relative frequencies are often unobtainable
+- Often requires complicated and convoluted
+- Assumptions to come up with probabilities
+- Subjectivists: probabilities are degrees of belief
+
+23--------------------------------------------------------------------------------
+Review of Selected Topics in Probability (https://eclass.upatras.gr/modules/document/file.php/MED1207/%CE%92%27%20%CE%BC%CE%AD%CF%81%CE%BF%CF%82%20%28%CE%9D%CE%B9%CE%BA%CE%BF%CE%BB%CE%B5%CF%84%CF%83%CE%AD%CE%B1%CF%82-%CE%A1%CE%B1%CF%80%CF%84%CF%8C%CF%80%CE%BF%CF%85%CE%BB%CE%BF%CF%82%29/Review%20on%20Probability.pdf)
+citeturn916search13 [wordlim: 200] Published: 1.4 years ago; 
+Additional Assumptions for Step 3
+1. The prize is behind a door with probability 1
+3.
+2. The contestant chooses a door equiprobably.
+3. If the organizers have a choice for which door to open, they
+choose one equiprobably.
+Example: In the Monty Hall problem Pr(A, A, C) = 1
+3 · 1
+3 · 1
+2 = 1
+18
+and Pr(A, B, C) = 1
+9.
+3 · 1
+3 · 1 = 1--------------------------------------------------------------------------------
+Review of Probability (https://courses.cs.duke.edu/fall22/compsci570/probreview.pdf)
+citeturn916search14 [wordlim: 200] Published: 8 months ago; 
+Probabilities and Beliefs
+• Suppose I have flipped a coin and hidden the outcome
+• What is P(Heads)?
+• Note that this is a statement about a belief, not a 
+Source: Wikipedia
+statement about the world
+• The world is in exactly one state (at the macro level) and it 
+is in that state with probability 1.
+• Assigning truth values to probability statements is very 
+tricky business
+• Must reference speakers state of knowledge
+Frequentism and Subjectivism
+• Frequentists: Probabilities = relative frequencies
+– Purist viewpoint 
+– But, relative frequencies often unobtainable
+– Often requires complicated and convoluted assumptions to 
+come up with probabilities
+• Subjectivists: Probabilities = degrees of belief 
+– Taints purity of probabilities
+– Often more practical
+7--------------------------------------------------------------------------------
+4  Review of probability theory (https://alertgeomaterials.eu/data/school/2014/2014_ALERT_schoolbook.pdf)
+citeturn916search15 [wordlim: 200] Published: 12.3 years ago; 
+4  Review of probability theory
+
+The frequency interpretation is probably the most powerful and commonly used interpretation of probability. It allows the estimation of probability by counting the number of occurrences of a particular event of interest and dividing by the total number of occurrences possible. For example, if an experiment has two possible outcomes, A and B, and out of 80 experiments, event A occurred 20 times, then we say that the probability of the event A is (at least approximately) 20/80.
+
+Finally, subjective interpretations are often extremely valuable, especially in geotechnical engineering, since years of experience can rarely be captured by a mathematical model... In fact there are those that argue that most engineering probability estimates are subjective. They are probably right in that most engineering situations do not allow a very large number of experiments to assess probabilities according to the frequency interpretation. Often it boils down to an expert’s opinion regarding the basic event probabilities, usually derived from years of experience with similar events.
+
+2  Mathematics of Probability
+
+*Definition of Probability:*
+
+The probability of an event A, denoted by P[A], is a number which satisfies axioms 1 and 2 listed next. More generally, the probabilities associated with any set of disjoint events A1, A2, . . ., where each Ai ∈ S, are numbers which satisfy axioms 1, 2, and 3.
+
+*Three Axioms* (fundamental assumptions)
+
+1. for any event A, P[A] ≥ 0
+
+2. a certain event has probability 1: P[S] = 1
+
+3. for any sequence of disjoint events, A1, A2, . . .,
+
+   P[A1 ∪ A2 ∪ ···] = P[A1] + P[A2] + ··· (1)
+
+From these three fundamental assumptions, all probability theory is constructed!
+
+*Important Results:*
+
+a) P[∅] = 0
+
+b) if A1 and A2 are disjoint then
+
+   P[A1 ∪ A2] = P[A1] + P[A2] (addition rule) (2)
+
+   and similarly for any finite number of disjoint events.
+
+c) P[A ∪ Ac] = P[A] + P[Ac] since A and Ac are disjoint events. Furthermore
+
+   P[A ∪ Ac] = P[S] = 1 → P[Ac] = 1 − P[A] (3)
+
+ALERT Doctoral School 2014--------------------------------------------------------------------------------
+How good are you with probability? (https://www.reddit.com/r/puzzle/comments/1x8yluq/how_good_are_you_with_probability/)
+citeturn916reddit16 [wordlim: 200] Published: last week; 
+Its 1/4th
+
+[Friday October 23 2026] [+2 votes]
+There is some ambiguity in the question. As all these argument viral questions go.
+It matters what the speaker knows. Similar to Monty Hall. If we assume the speaker will review, then tell us randomly the status of one coin, it's 50% (potentially reveal a goat). If you assume they look and tell you the result of a single Heads, then it's 33%. (reveal only ever a car)
+Even in the git repo, it's making the second assumption. Both the left and right UI element is "given". Yes, if the rule is "reveal a tail and ask if double tails" or "reveal a head and ask if double heads", that's 33%
+Flip two coins, reveal one at random and ask if it's a double or not, is 50/50  
+HH, TT => both return yes  
+HT, TH => both return no
+So both answers are correct, if we got clarification on what the speaker's actual revealing rule is. Without that knowledge, it's mostly irrelevant noise.
+In the Monty Hall problem, we know Monty never reveals a goat. We have that information from many many iterations and how game shows work. --------------------------------------------------------------------------------
+1
+INTRODUCTION AND REVIEW
+We demand rigidly define (https://catalogimages.wiley.com/images/db/pdf/9781118740651.excerpt.pdf)
+citeturn916search17 [wordlim: 200] Published: 10.7 years ago; 
+X1 + · · · + Xn
+lim
+n→∞
+n
+= P(A), with probability 1.
+(1.1)
+For large n, the Monte Carlo estimate of P(A) is
+P(A) ≈X1 + · · · + Xn
+n
+.
+In this book, we use the software package R for simulation. R is a flexible and
+interactive environment. We often use R to illustrate the result of an exact, theoretical
+calculation with numerical verification. The easy-to-learn software allows the user
+to see the impact of varying parameters and assumptions of the model. For example,
+in the Reed–Frost epidemic model of Example 1.2, it is interesting to see how small
+changes in the infection probability affect the duration and intensity of the epidemic.
+See the R script file ReedFrost.R and Exercise 1.36 to explore this question.
+If you have not used R before, work through the exercises in the introductory tuto-
+rial in Appendix A: Getting Started with R.
+1.4
+CONDITIONAL PROBABILITY
+The simplest stochastic process is a sequence of i.i.d. random variables. Such
+sequences are often used to model random samples in statistics. However, most
+real-world systems exhibit some type of dependency between variables, and an
+independent sequence is often an unrealistic model.
+Thus, the study of stochastic processes really begins with conditional
+probability—conditional distributions and conditional expectation. These will
+become essential tools for all that follows.--------------------------------------------------------------------------------
+Bayesian Statistics: notes to accompany the lectures (https://www-users.york.ac.uk/~bp787/Bayes_notes.html)
+citeturn916search0 [wordlim: 200] Crawled: last month; 
+
+# 2 A review of probability
+
+This chapter reviews the parts of probability theory that we shall use. Most of it will be familiar. The emphasis, however, is slightly different from that of a first course: we are interested in probability as a description of uncertain knowledge, and so we pay particular attention to conditional probability, which is the mathematical form of learning.
+
+## 2.1 Sample spaces, events and probabilities
+
+A sample space $\Omega$Ω is a set of possible outcomes, or states of the world. One can think of it as an ‘atomic’ description: each outcome specifies everything that is relevant to the problem at hand. For a single roll of a die, $\Omega=\{1,2,3,4,5,6\}$Ω={1,2,3,4,5,6}. For a patient undergoing a test, $\Omega$Ω might consist of the four combinations of disease status and test result.
+
+An event $E\subseteq\Omega$E⊆Ω is a set of outcomes, and we say that $E$E occurs if the outcome that is realised belongs to it. For the die, ‘an even number is rolled’ is the event $\{2,4,6\}${2,4,6}. --------------------------------------------------------------------------------
+Probability | The Oxford Handbook of Philosophy of Science | Oxford Academic (https://academic.oup.com/edited-volume/34503/chapter/292751095)
+citeturn916search1 [wordlim: 200] Published: 11.1 years ago; Crawled: yesterday; 
+
+The Oxford Handbook of Philosophy of Science
+
+[Button: Contents ]
+
+[Button: Contents ]
+
+[Input: Search in this book] Search in this book
+
+Buy on Amazon
+
+[Button: Disclosure]
+
+As an Amazon Associate OUP earns from qualifying purchases.
+
+Chapter
+
+# Probability
+
+Antony Eagle
+
+Antony Eagle
+
+Philosophy, University of Adelaide
+
+Find on
+
+Oxford Academic
+
+Google Scholar
+
+Antony Eagle, Department of Philosophy, University of Adelaide
+
+https://doi.org/10.1093/oxfordhb/9780199368815.013.24_update_001
+
+  * Published:
+
+05 October 2015
+
+  * This version:
+
+18 July 2015
+
+Updated in this version:
+
+This more in-depth online version of this article features the following changes from the print handbook version: expanded sections discussing topics in more detail such as chance in physical theories and the Dutch Book Argument.
+
+## Abstract
+
+Rather than entailing that a particular outcome will occur, many scientific theories only entail that an outcome will occur with a certain probability. Because scientific evidence inevitably falls short of conclusive proof, when choosing between different theories it is standard to make reference to how probable the various options are in light of the evidence. A full understanding of probability in science needs to address both the role of probabilities in theories, or chances, as well as the role of probabilistic judgment in theory choice. In this chapter, the author introduces and distinguishes the two sorts of probability from one another and attempt to offer a satisfactory characterization of how the different uses for probability in science are to be understood. A closing section turns to the question of how views about the chance of some outcome should guide our confidence in that outcome.
+
+Keywords: probability, chance, frequency, determinism, philosophy of science, credence, confirmation, Bayesianism, the Principal Principle
+
+## 1. Introduction
+
+When thinking about probability in the philosophy of science, we ought to distinguish between probabilities in (or according to) theories and probabilities of theories.--------------------------------------------------------------------------------
+2.2 Probability Measures | Reasoning about Uncertainty (https://flylib.com/books/en/1.99.1.12/1/)
+citeturn916search2 [wordlim: 200] Crawled: 3 weeks ago; 
+### 2.2.1 Justifying Probability
+
+If belief is quantified using probability, then it is important to explain what the numbers represent, where they come from, and why finite additivity is appropriate. Without such an explanation, it will not be clear how to assign probabilities in applications, nor how to interpret the results obtained by using probability.
+
+The classical approach to applying probability, which goes back to the seventeenth and eighteenth centuries, is to reduce a situation to a number of elementary outcomes. A natural assumption, called the principle of indifference, is that all elementary outcomes are equally likely. Intuitively, in the absence of any other information, there is no reason to consider one more likely than another. Applying the principle of indifference, if there are n elementary outcomes, the probability of each one is 1/n; the probability of a set of k outcomes is k/n. Clearly this definition satisfies P1 and P2 (where W consists of all the elementary outcomes).
+
+This is certainly the justification for ascribing to each of the six outcomes of the toss of a die a probability of 1/6. --------------------------------------------------------------------------------
+Introduction and Review of Probability | Massachusetts Institute of Technology - Edubirdie (https://notes.edubirdie.com/docs/massachusetts-institute-of-technology/6-262-discrete-stochastic-processes/94574-introduction-and-review-of-probability)
+citeturn916search3 [wordlim: 200] Crawled: last month; 
+
+Lecture Note
+
+# Introduction and Review of Probability
+
+  * University:
+
+Massachusetts Institute of Technology
+  * Course:
+
+6.262 | Discrete Stochastic Processes
+  * Academic year:
+
+2023
+
+  * Views:
+
+492
+
+Pages:
+
+56
+
+  * Author:
+
+Donavan Freeman
+
+## [Button: Description ]
+
+Chapter 1 INTRODUCTION AND REVIEW OF PROBABILITY 1.1 Probability models Probability theory is a central ﬁeld of mathematics, widely applicable to scientiﬁc, techno­ logical, and human situations involving uncertainty. The most obvious applications are to situations, such as games of chance, in which repeated trials of essentially the same proce­ dure lead to di↵ering outcomes. For example, when we ﬂip a coin, roll a die, pick a card from a shu✏ed deck, or spin a ball onto a roulette wheel, the procedure is the same from one trial to the next, but the outcome (heads (H) or tails (T ) in the case of a coin, one to six in the case of a die, etc.) varies from one trial to another in a seemingly random fashion. For the case of ﬂipping a coin, the outcome of the ﬂip could be predicted from the initial position, velocity, and angular momentum of the coin and from the nature of the surface on which it lands. --------------------------------------------------------------------------------
+The Equiprobability Bias from a Mathematical and Psychological Perspective - PMC (https://pmc.ncbi.nlm.nih.gov/articles/PMC4310748/)
+citeturn916search4 [wordlim: 200] Published: 11.8 years ago; Crawled: today; 
+We will discuss this point further.
+
+### Equiprobability as an implicit rule in the classroom
+
+The current theory of probability defines a probability P on a sample space U as a measure complying with the axiom of P(U) = 1. For a finite sample space U = {a_{1}, …, a_{n}}, this amounts to set non-negative numbers P(a_{i}) which sum up to 1. For instance, in the situation of a coin toss with two possible outcomes, H and T, we have U = {H, T}. To define a probability, we can choose any number p between 0 and 1, and set P(H) = p. P(T) is then bound to equate 1-p, because the sum P(H) + P(T) must be 1. The usual case, in which P(H) = P(T) (i.e., p = 0.5) is only one of an infinity of possibilities. The other values for p may be interpreted as resulting from tossing a hypothetical unfair coin (note that Gelman & Nolan (2002) argued that in fact there is no such thing as an unfair coin).
+
+However, the first definition of probability given in the classroom is Laplace’s formula (Laplace, 1812), defined a century before Kolmogorov’s axioms were published (Kolmogorov, 1933). 

@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-25",
+  "catalog": "data/intake_complete_261025/compiled.json",
+  "counts": {
+    "recommended": 5799,
+    "vetoed": 755,
+    "excluded": 2898,
+    "pending": 11
+  },
+  "modelTests": {
+    "passed": 21,
+    "failed": 0
+  },
+  "audit": {
+    "checks": "passed",
+    "sourceRows": 288,
+    "distinctSourceLocations": 287,
+    "historicalSourceAliasCorrected": "111 → 55",
+    "previousAssessmentsPreserved": 6180,
+    "previousExclusionsPreserved": 2879,
+    "newScoreCalculationsVerified": 374,
+    "repeatedSourceChanges": 0,
+    "remainingCandidates": 11
+  },
+  "browser": {
+    "errors": [],
+    "networkRequests": [],
+    "viewports": [
+      {
+        "width": 320,
+        "scroll": 320,
+        "renderMs": 643.1000001430511
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "renderMs": 643.1000001430511
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "renderMs": 643.1000001430511
+      },
+      {
+        "width": 1099,
+        "scroll": 1099,
+        "renderMs": 643.1000001430511
+      },
+      {
+        "width": 1100,
+        "scroll": 1100,
+        "renderMs": 643.1000001430511
+      },
+      {
+        "width": 1440,
+        "scroll": 1440,
+        "renderMs": 643.1000001430511
+      }
+    ],
+    "checks": "Isolated compressed file; 5799 books, 755 vetoed works and 2898 exclusions; 288 sources with online input and analysis links; offline book evidence and methodology; silent catalog migration; four default columns; controls above results; underlined titles; filters, signed rate, Pareto, settings, mobile drafts and persistence passed."
+  },
+  "newAnalysisAnchors": {
+    "checked": 374,
+    "broken": 0
+  },
+  "html": {
+    "path": "docs/index.html",
+    "bytes": 7960991,
+    "sha256": "95934524e53a6e17f19f1db0976a3361f8e99a8270338b62c88c59b1307177a9"
+  },
+  "rulesSha256": "d657bc90666be152ef5ce1538805fdd10b1f277b76465ad0f303666f249c18be"
+}
