@@ -73,7 +73,7 @@ export function buildDataset() {
   }
   for(const [id,e] of Object.entries(editions)){
     assert(currentIds.has(id), `Edition for a non-current scored work: ${id}`);
-    assert(Number.isInteger(e.pages) && e.pages>0 && e.id && safeURL(e.url) && e.retrieved && e.language && e.format && Number.isInteger(e.year), `Incomplete edition: ${id}`);
+    assert(Number.isInteger(e.pages) && e.pages>0 && e.id && safeURL(e.url) && e.retrieved && e.language && e.format && (e.year === null || Number.isInteger(e.year)), `Incomplete edition: ${id}`);
     assert(!/audio/i.test(e.format), `Audio is not a page-count edition: ${id}`);
   }
   const pageCell = e => e ? `[${e.pages}](${e.url})` : 'Unknown';
@@ -160,7 +160,7 @@ export function buildDataset() {
       values[id] = e.value;
     }
     if (extra.edition) assert(Number.isInteger(extra.edition.pages) && extra.edition.pages > 0 && extra.edition.id &&
-      safeURL(extra.edition.url) && extra.edition.retrieved && extra.edition.language && extra.edition.format && Number.isInteger(extra.edition.year));
+      safeURL(extra.edition.url) && extra.edition.retrieved && extra.edition.language && extra.edition.format && (extra.edition.year === null || Number.isInteger(extra.edition.year)));
     const evidence = {};
     REGISTRY.slice(0, 10).forEach((r, i) => {
       const c = b.criteria?.find(c => c.code === r.id);
@@ -174,12 +174,12 @@ export function buildDataset() {
     Object.assign(evidence, extra.domains || {});
     const rp = referencePages[b.id];
     evidence.RP = { confidence: rp.confidence, refs: [rp.url].filter(Boolean),
-      rationale: rp.pages === null ? rp.reason : `${rp.pages} documented reference pages in ${rp.edition.id}: ${rp.ranges.map(s=>`${s.label} ${s.start}–${s.end}`).join('; ')}. ${rp.sameEditionAsPG ? 'Same edition as the length field.' : 'R&D uses these available counts as an estimate; matching editions are not confirmed.'} ${rp.limitation}` };
+      rationale: rp.pages === null ? rp.reason : `${rp.pages} documented reference pages in ${rp.edition.id}: ${(rp.ranges?.map(s=>`${s.label} ${s.start}–${s.end}`) || rp.documentedCounts.map(s=>`${s.label}: ${s.pages} pages`)).join('; ')}. ${rp.sameEditionAsPG ? 'Same edition as the length field.' : 'R&D uses these available counts as an estimate; matching editions are not confirmed.'} ${rp.limitation}` };
     evidence.REL = {confidence:'high', refs:[b.scoreReview], rationale:`${sources.length} distinct recorded sources; 2 × √(${sources.length} − 1) = ${format(values.REL)} points. Source coverage is not independent evidence of quality.`};
     evidence.RD = {confidence:b.bonusAssessment.confidence, refs:[b.scoreReview, rp.url, extra.edition?.url].filter(Boolean), rationale:b.bonusAssessment.reason};
     if(b.ratingReview) evidence.O15={rationale:b.amazon.status,confidence:b.amazon.confidence,refs:[b.ratingReview.analysis,b.amazon.url]};
     if (extra.edition) evidence.PG = {
-      rationale: `${extra.edition.pages} pages in ${extra.edition.id}; ${extra.edition.language}, ${extra.edition.format}, edition year ${extra.edition.year}. ${extra.edition.notes || extra.edition.note || ''}`,
+      rationale: `${extra.edition.pages} pages in ${extra.edition.id}; ${extra.edition.language}, ${extra.edition.format}, edition year ${extra.edition.year ?? 'unknown'}. ${extra.edition.notes || extra.edition.note || ''}`,
       confidence: extra.edition.confidence || 'moderate', refs: [extra.edition.url]
     };
     const book = {
@@ -248,7 +248,7 @@ export function build() {
   const rules = read('AGENTS.md'), escape = text => text.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
   const rule = (heading, prefix) => {
     const section = rules.split(heading)[1]?.split('\n## ')[0];
-    const line = section?.split(/\r?\n/).map(line => line.replace(/^\d+\. /, '')).find(line => line.startsWith(prefix));
+    const line = section?.split(/(?:^|\r?\n)\d+\. /).map(line => line.split(/\r?\n\s*\r?\n/)[0].replace(/\r?\n/g, ' ').trim()).find(line => line.startsWith(prefix));
     assert(line, `Missing ${heading} rule: ${prefix}`);
     return escape(line);
   };
@@ -261,6 +261,7 @@ export function build() {
       .replace('/* LANGUAGE */', () => rule('## Hard exclusion rules', 'Exclude books not available in English or Croatian'))
       .replace('/* H5 */', () => rule('## Hard exclusion rules', 'Exclude children books'))
       .replace('/* H6 */', () => rule('## Hard exclusion rules', 'Exclude dry and routine'))
+      .replace('/* H7 */', () => rule('## Hard exclusion rules', 'Exclude books primarily devoted to art appreciation'))
       .replace('/* V4 */', () => rule('## Veto rules', 'Hype or ephemerality dependence'))
       .replace('/* V5 */', () => rule('## Veto rules', 'Religious doctrine or ideological extremism'))
       .replace('/* V6 */', () => rule('## Veto rules', 'Partisan mobilization'))

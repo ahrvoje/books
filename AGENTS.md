@@ -38,6 +38,7 @@ Make elaborate use of any external or built-in resource to accurately resolve th
 4. Exclude books not available in English or Croatian language.
 5. Exclude children books, books primarly intended for precollege audience.
 6. Exclude dry and routine government and institutional reports without long-lasting narrative created for the only purpose of routine institutional activity.
+7. Exclude books primarily devoted to art appreciation, art criticism, narrow art history, poetry, or routine advice on relationships, communication, marketing, sales, negotiation, PR, HR, and hiring. Retain books whose main contribution explains transferable principles of aesthetics and design, creative production, technology adoption, or organizing skilled technical and creative work. Retain biographies of historically significant people. Other exclusions and vetoes still apply.
 
 Apply both hard exclusions before vetoes or scoring, including to profile examples and books previously recommended or vetoed. Scores, reader ratings, author standing and the biography exceptions under V3 cannot override a hard exclusion. Record hard-excluded books in EXCLUDED_BOOKS.md, not in either scored book list, and do not assign them new scores or counterfactual veto scores.
 

@@ -1,0 +1,416 @@
+ABC’s of Quantum Mechanics – Rydnik (LaTeX version) | Mir Books (https://mirtitles.org/2020/04/05/abcs-of-quantum-mechanics-rydnik-latex-version/)
+citeturn310search0 [wordlim: 200] Published: 6.6 years ago; Crawled: 2 weeks ago; 
+
+## ABC’s of Quantum Mechanics – Rydnik (LaTeX version)
+
+Posted on April 5, 2020 by The Mitr
+
+We have already seen this book earlier. But this post is to bring to your notice the electronic version of the book typeset using LuaLaTeX.
+
+Image: Rydnik-ABCs-of-Quantum-Mechanics-Mir-2020 copy
+
+The book has come out nicely. Of course, it could have been better! I have typeset it in A5 paper, with 12 pt font with LuaLaTeX. The font used is EB Garamond. I have tried to maintain the typesetting of the original book with no chapter numbers or section numbers.
+
+The table of elementary particles and their properties was one of the more challenging tasks in this otherwise simple book to typeset. It took me almost a day to just typeset this table. The rest was easy.
+
+Image: Screenshot 2020-04-04 at 18.40.17I have also created the front and back covers using TikZ, the first time I have tried this. Though they could have been done better.
+
+The Internet Archive Link and here
+
+The source files can be found at the gitlab project page:
+
+https://gitlab.com/mirtitles/rydnik-abc-qm
+
+Note: The original scan (by itanveer) which we had cleaned and posted had two pages (258-259) missing. I had already made a draft post asking for help for these two pages from people who might have the book, as I do not currently have the access to my physical collection. Except for these two pages, the rest of the book was processed and ready. Serendipitously, just a couple of days back Hemant Garach commented on the earlier post saying that he has this book! I requested him to scan these two missing pages and thanks to him we now have the complete book!
+
+TODO: What remains to be done (in order of need):
+
+  1. One more round of copy-editing. Though I tried my best, there will be many small typos here and there. I hope I have not screwed up in any major way. A thousand eyes are better than just two!
+  2. Recreating figures (and front cover) using TikZ or other tools, so that it becomes completely electronic. For this release, I have used the scanned raster figures. Some actual photos of cloud chambers and particle tracks can be used instead of the current ones.
+  3.  There has been much increase in our knowledge of particle physics (both empirical and theoretical) ever since the book was written in the 1960s. The book itself might be expanded as much of the information might seem dated to a particle physicist. Perhaps a new expanded edition of the book covering the era from the 1970s to present? Anyone interested?!
+
+## About The Mitr
+
+I am The Mitr, The Friend
+
+View all posts by The Mitr →
+
+This entry was posted in books, mir books, mir publishers, physics, science and tagged atoms, elementary, history, latex, nuclei, particles, physics, quanta, quantum mechanics. Bookmark the permalink.--------------------------------------------------------------------------------
+Abcs of Quantum Mechanics by Rydnik PDF | PDF | Quantum Mechanics | Light (https://www.scribd.com/doc/290337220/abcs-of-quantum-mechanics-by-rydnik-pdf)
+citeturn310search1 [wordlim: 200] Crawled: 10.9 years ago; 
+
+0 ratings 0% found this document useful (0 votes)
+
+182 views 314 pages
+
+Abcs of Quantum Mechanics by Rydnik PDF
+
+## Uploaded by
+
+angelita_carvalho_6
+
+AI-enhanced title
+
+Copyright
+
+© All Rights Reserved
+
+We take content rights seriously. If you suspect this is your content, claim it here.
+
+Available Formats
+
+Download as PDF, TXT or read online on Scribd
+
+# ABC's of Quantum Mechanics
+
+Preface
+
+by
+V. Rydnik
+ISBN: 0-89875-581-6
+Copyright 2001 by University Press of the Pacific
+Reprinted from the 1978 edition
+University Press of the Pacific
+Honolulu, Hawaii
+[Link]
+All rights reserved, including the right to reproduce
+this book, or portions thereof, in any form.
+
+## At the turn of the century, physics entered
+
+into a new world, the invisible silent world of
+atoms, atomic nuclei and elementary particles.
+Our twentieth century then produced the theory
+that has been serving physicists so faithfully for
+over sixty years - quantum mechanics.
+The landscape of the new world is quite unlike our own. The Reverse of the Obvio~s
+The Ubiquitous Quantum .
+FROM QUANTUM
+
+274
+276
+279
+
+281
+283
+287
+290
+
+292
+295
+297
+299
+
+302
+306
+308
+310
+
+312
+
+MECHANICS TO
+
+Indeterminable Determmacies .
+.
+The Biography of Quantum Mechanics .
+Quantum Mechanics Gets Its Second Wmd
+
+## From classical mechanics
+
+to quantum mechanics
+
+315
+320
+324
+
+In Lieu of an Introduction
+Atomic energy. Radioactive isotopes. Semiconductors.
+Elementary particles. Masers. Lasers. All quite familiar
+terms, yet the oldest IS hardly twenty-five years of age.
+They are all children of twentieth-century
+physics.
+In this age, knowledge is advancing at a fantastic
+rate, and every new step opens up fresh vistas.
+The old sciences are going through a second youth.
+PhySICS has pushed out ahead of all others and is
+pioneering into the unknown. As the front broadens,
+the attack slows up only to make renewed thrusts
+forward.
+To get at the secrets of nature, physics has had
+to find powerful instruments, to devise precise and
+convincing experiments. At the physics headquarters
+18
+
+## Probably not a single branch of phySICShas escaped
+
+a certain vagueness 10 rerrmnology. There arc many
+reasons for this. but they are primarily of a histoncal
+nature.
+First of all. why mechanics? There was nothing
+mechJOlcal 10 the new theory. and as we shall see
+later on, there couldn't be The word 'mechanics' is
+Justified only 10 that It IS used 10 a general sense,
+like we speak of the 'mechanics of a watch' meanmg
+the prinCiple of operatIOn. The conceptual range of
+quantum mechamcs IS better covered by the broad
+definttlon of phySICS Itself.
+Secondly. why quantum" Quantum 10 Latin means
+'discrete portion or 'quantlty', Further on we shall
+see that the new science does actually deal With
+'discreteness' In the properties of the surrounding
+world. That IS onc of ItS basic pnnclples. On the
+other hand, as we shall sec, thrs discreteness IS not
+at all general. and IS not found everywherc or at all
+times.
+What IS more, It IS only one Side of the medal
+A no less peculiar aspect IS the duality of the
+properties of matter. The dual nature of matter lies
+10 the fact that one and the same entity (object)
+comhlOcs the properties of particles and waves
+The new science was relined to wave mechaOlcs'
+But here again we have only half of It - there IS no
+menuon of quanta
+We conclude that none of the names of the new
+phySical theory was satisfactory But couldn't somethlOg
+be thought up more 10 keeping With the actual
+contents of the subject'!
+The Introduction or new terms 10 science ISa labonous
+and thankless job New terms come 10 slowly and
+l'[Link]~ ,,1111
+more slowly. PhYSICistSundcrstand the new
+
+,.
+
+19
+
+## The first steps
+
+of the new theory
+
+## There is exploration ahead 10 this science for hundreds
+
+and thousands of years. As yet we are only at the
+source of a mighty nver of knowledge.
+Even so, what amazing things are revealed to the
+explorer of this recently discovered world. What
+inspinng, truly fantastic horizons does this new science
+open up for technology, industry, agriculture and
+medrcme. Nuclear power stauons, radroactive isotopes,
+solar batteries, to name a few We are on the threshold
+of controlled thermonuclear reacuons and we are
+penetrating IOta outer space All these great attamments
+of the bnght present and the dazzhng future were
+born 10 our century out of a small seed thrown
+Sixty years ago, into the ferule soil of scientific
+knowledge by Max Planck and, since, carefully
+cultivated by a whole galaxy of bnlhant scientists.
+
+## Heat and Light
+
+It's nice, on a cold winter evening, to Sit near
+a hot stove and listen to the sputtenng flames inside
+and feel the warmth of the fire. But why warmth?
+Why IS It warm near a stove? coming out of the muzzle of Big Bertha
+A real wonder, this nucleus. What is more, an electron
+flying out of a nucleus VIOlates two baSIC laws of
+physics: that of the conservallon of energy and of
+angular momentum.
+208
+
+## The Electron Has an Accomplice
+
+In physics there are laws so fundamental that the
+enure edifice of science depends on them. These laws
+hold for all worlds and all phenomena.
+One IS that motion can neither be created nor destroyed. One type of motion can generate another type,
+motion can change form, can even become Imperceptible.
+But It never vanishes.
+At the dawn of classical physics, science felt the need
+for some measure of motion. One felt It necessary not
+only to describe motion but also to measure and count
+It. Two new quantities were Introduced Into phySICS:
+energy and momentum.
+
+## And the proposition that motion IS neither born nor
+
+dies found Its reflection in the mvariabrlity
+of total
+energy and momentum of bodies taking part in a common action. The recoil of a gun, the heating of a
+working engme. pile dnvmg, and numberless other
+Instances - all meticulously obey two great laws: the
+conservation of energy and momentum. For rotational
+motion, a no less fundamental law was the law of
+conservation of angular momentum. Even figure skaters
+make use of tlus law When they bnng their arms
+together, rotation speeds up
+We can well imagme the consternation of physicists
+when It was found that the beta particles can have
+any energy value from zero to a certain maximum.
+The nucleus. It will be recalled - and It was clear to
+all at that time - IS a quantum system and has definite
+levels of energy.
+In other words. any process In the nucleus (an
+example of which IS the ejection of a beta particle)
+can proceed only in such fashion that the nucleus
+moves from one definite energy level to another one.
+14-70
+
+209
+
+SacrilegIous! Man trying
+to change the god-given geometry of the world!
+But 10 the works of E10stem these notions now
+found a worthy place. Just as there IS no space
+without bodies, there IS no Unified homogeneous space.
+The shortest line between two POints in empty space
+View
+
+16
+
+243
+
+## surrounding bodies is now, in the general case, no
+
+longer a straight line but a curved line, called a geodesic.
+The closer the two end-points of our curve are to bodies
+and the more massive these bodies, the more 'curved'
+IS the curve.
+How do we know? LIght rays should help us.
+The curvature of space due to bodies is very slight
+and under ordinary conditions IS not noticeable. We'll
+have to take the experiment out rnto interstellar space
+and choose some massive object, like our sun, as the
+'curving' body. It is naturally most convenient to observe
+curvature in a line which we consider to be straight.
+If we believe classical physics, this should be a line
+produced by a ray of light. This IS what Einstem set
+out to refute.
+Let us point our telescope at some star and
+photograph it. Then we photograph it again when its
+light rays pass close to the sun. The first picture is
+taken at night, the second, dunng a total eclipse
+of the sun.
+According to classical physics, both pictures should
+show the star in one and the same place on the
+photographic plate. Whether the light passes near the
+sun or far away from it should make no difference.
+According to the general theory of relanvity, however,
+the path of light should curve as it passes close
+to the sun. The photographic plate should exhibit thrs
+curvature as a displacement relative to the first
+picture of the star.
+In August 1919, a special expedition set out for
+the Arabian desert to observe a total solar eclipse.
+One of Its tasks was to verify Ernstcm's predrcuon.
+Sensational news! The photographs showed space to be
+curved; what is more, the curvature was almost exactly
+as predicted by Einstein!
+244
+
+Secondly,
+because one type of particle va DIshes and a different
+type of particle appears, yet the equations of motion
+referred always to a single invariable type of particle.
+WhICh means that this classical approach to phenomena of the microworld carried over into quantum
+mechanics by means of the space and time concepts
+was clearly insufficient. It did not reflect the basic essense of this world, the transformations of particles into
+309
+
+one another and mto field quanta, and also the reverse
+conversion of quanta into partic1es of matter. The
+problem now was to determine the actual course of
+transformation. But this required a radical change in
+the mode of description.
+Quantum mechanics did this by introducing the virtual processes that we' have spoken about. They too
+fail and do not yield a final solution to the problem.
+A still more profound approach is needed in which
+the classical conceptions of space and time will probably
+undergo fundamental change.
+
+## The Reverse of the Obvious
+
+How to begin tltis new thing? Some say: give up
+the notions of space and time as such.
+Hardly! Physics would then find itself in difficult
+straits, for the existmg concepts of the rmcroworld,
+despite their unusual nature, are still based on our
+customary notions about space and time. It is indeed
+hard to reject such fundamental ideas which we are used to
+from the first day of our life. On the other hand, space
+and time are needed anyway to describe phenomena
+in the microworld that are not associated with transformations of particles, for such concepts are very convenient here.
+There is another, more realistic, approach: revise our
+concepts of space and time. Einstein did this for the
+first time half a century ago. Now we have to supplement Einstein's views, which apply to the world in
+the large, with the peculiarities of the world of the
+ultrasmall.
+What is the true essence of space and lime? They
+are so familiar that we never give them thought. To
+our everyday mind, space is a repository of bodies.
+310
+
+The first stage IS from Planck to de Broglie, and
+embraces 25 years - from the discovery of the material properties of light waves to the discovery of the wave
+properties of material particles. During these years,
+320
+
+## Einstein and Bohr developed the theory of particles of
+
+light (photons), the first very imperfect theory of atomic structure and of atomic phenomena.
+The second stage in the development of quantum
+mechanics began with de Broglie's discovery in 1924.
+Within the exceptionally short period of about 5 years
+was created the basic 'working tool' of the new theory.
+Dirac synthesized quantum mechanics and Einstein's
+relativity theory. During the period up to the Second
+World War, the theory of the atomic nucleus was created.
+And, finally, the third period - after World War II _
+quantum mechanics was extended to the elementary
+particles and to the second basic form of matter,
+the field.
+During this third stage, quantum mechanics came up
+against ever greater difficulties. After the brilliant victories of its early years carne a series of setbacks and
+failures.
+The impression is that, good as it is against atoms
+and molecules, it is simply not strong enough for those
+extrahard nuts - the structure of elementary particles
+and their interactions.
+Experiment today has gone out far ahead of theory.
+Theory has yet to interpret processes in the deep interior of atomic nuclei. On the agenda are problems
+dealing with the very essence of the concept of elementary particles.
+Quantum mechanics has not yet succeeded in resolving these problems. Its limitations, which twenty
+years ago had seemed so hazy and distant, are now
+becoming ever clearer. The time is ripe for a rejuvenation of quantum mechanics.
+Isn't this reminiscent of the situation at the turn of
+the century with regard to classical mechanics?
+321
+
+--------------------------------------------------------------------------------
+ABC's of quantum mechanics / :: Jahangirnagar University Library (https://vufind.juniv.edu/Record/63357/Similar)
+citeturn310search2 [wordlim: 200] Crawled: 2 days ago; 
+
+# ABC's of quantum mechanics /
+
+Bibliographic Details
+Main Author:  | Rydnik, V.
+Format:  | Book
+Language:  | English
+Published:  | Moscow : Mir Pub, 1965.
+Tags:  | Add Tag No Tags, Be the first to tag this record!
+
+## Similar Items
+
+The abc of Soils . / by: Joffe, Jacob S. Published: (1949)
+ABC of relativity / Published: (1964)
+ABC of Relativity by: Russell, Bertrand Published: (1958)
+ABC of reading. / Ezra Pound. by: Pound, Ezra Published: (1934)
+
+ABC'S of electronics. / WATERS, Farl, J. by: WATERS, Farl, J. Published: (1966)
+The ABC of Research: behavioural & social sciences/ by: Nalwa, Vanit Published: (1992)
+The ABCs of JavaScript / by: Purcell, Lee Published: (1997)
+ABC`s of transformers and coils / by: Bukstein , Edward . Published: (1968)
+
+ABC `s modern radio / by: Salm , Walter G. Published: (1966)
+The ABCs of JavaScript by: Purcell, Lee Published: (1997)
+ABC of medical biochemistry / by: Hoque, Mohammad Mozammel Published: (2010)
+

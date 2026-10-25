@@ -21,6 +21,7 @@
 - 97 Things Every Programmer Should Know — Kevlin Henney
 - A Bell for Adano — John Hersey
 - A Book of Abstract Algebra — Charles C. Pinter
+- A Brief History of Mexico — Lynn Foster
 - A Calendar of Wisdom — Leo Tolstoy
 - A Casino Odyssey in Cyberspace — Roger Williams
 - A Christmas Carol — Charles Dickens
@@ -57,14 +58,17 @@
 - A Good Scent from a Strange Mountain — Robert Olen Butler
 - A Guide To Econometrics — Peter E. Kennedy
 - A Handbook for New Stoics — Massimo Pigliucci
+- A Handbook of Dimensional Measurement — Francis T. Farago; Mark A. Curtis
 - A History of Algebraic and Differential Topology, 1900–1960 — Jean Alexandre Dieudonné
 - A History of Algebraic Geometry — Jean Dieudonne
 - A History of Mathematics — Victor J. Katz
 - A History of the Theories of Aether and Electricity — E. T. Whittaker
 - A History of the Theory of Investments — Mark Rubinstein
+- A Little Devil in America — Hanif Abdurraqib
 - A Little History of the World — E.H. Gombrich
 - A Little Life — Hanya Yanagihara
 - A Madman Dreams of Turing Machines — Janna Levin
+- A Man — Oriana fallaci
 - A Man Called Ove — Fredrik Backman
 - A Mathematical Gift: The Interplay between Topology, Functions, Geometry, and Algebra — Kenji Ueno; Koji Shiga; Shigeyuki Morita
 - A Mathematical Introduction to Logic — Herbert B. Enderton
@@ -100,6 +104,7 @@
 - A Storm of Swords — George R. R. Martin
 - A Story Like the Wind — Laurens van der Post
 - A Streetcar Named Desire — Tennessee Williams
+- A Theater of Envy: William Shakespeare — René Girard
 - A Thousand Acres — Jane Smiley
 - A Thousand Splendid Suns — Khaled Hosseini
 - A Trajectory Description of Quantum Processes — A. S. Sanz
@@ -113,6 +118,7 @@
 - Abhajaner Mahabharat — Mahbub Lilen
 - About Face — Alan Cooper
 - About Face 2.0 — Cooper, Alan
+- Absolute Friends — John le Carré
 - Absolutely Everything!: A History of Earth, Dinosaurs, Rulers, Robots and Other Things Too Numerous to Mention — Christopher Lloyd
 - Abstract Algebra — David S. Dummit; Richard M. Foote
 - Abstract Algebra — I. N. Herstein
@@ -126,6 +132,7 @@
 - Advanced Nutrition and Human Metabolism
 - Advanced Programming in the UNIX Environment — W. Richard Stevens; Stephen A. Rago
 - Advanced Topics in Types and Programming Languages — Benjamin C. Pierce
+- Advancement of Intelligent Production — Usui, E., ed.
 - Adventures of an IT Leader — Robert D. Austin, Richard L. Nolan, Shannon O'Donnell
 - Adventures of Huckleberry Finn — Mark Twain
 - Advertising Secrets of the Written Word — Joseph Sugarman
@@ -136,6 +143,7 @@
 - Affective Neuroscience — Jaak Panksepp
 - Affliction — Russell Banks
 - African American Inventors — Otha Richard Sullivan and Jim Haskins
+- After Atlas — Emma Newman
 - After Dark — Haruki Murakami
 - Agents of Dreamland — Caitlín R. Kiernan
 - Agile Principles, Patterns, and Practices in C# — Robert C. Martin; Micah Martin
@@ -158,6 +166,7 @@
 - Algebraic Number Theory — Jürgen Neukirch
 - Algebraic Topology — Allen Hatcher
 - Algorithm Design Manual — Steven S Skiena
+- Algorithmic Game Theory — Noam Nisan, Tim Roughgarden, Eva Tardos and Vijay V. Vazirani
 - Algorithmic Learning in a Random World — Vladimir Vovk; Alex Gammerman; Glenn Shafer
 - Algorithms — Robert Sedgewick
 - Algorithms + Data Structures = Programs — Niklaus Wirth
@@ -167,7 +176,10 @@
 - Alice in Quantumland — Gilmore, Robert; Robert Gilmore; Ji er mo (Gilmore, Robert)
 - Alice in Wonderland — Lewis Carroll
 - Alice's Adventures in Wonderland — Lewis Carroll
+- Aliss at the Fire — Jon Fosse
 - Alkali-activated Cements and Concretes — Caijun Shi; Pavel V. Krivenko; Della Roy
+- All About Love — bell hooks
+- All Marketers are Liars — Seth Godin
 - All of Statistics: A Concise Course in Statistical Inference — Larry Wasserman
 - All Quiet on the Western Front — Erich Maria Remarque
 - All That the Rain Promises and More — David Arora
@@ -198,6 +210,7 @@
 - An Introduction to Harmonic Analysis (Cambridge Mathematical Library) — Yitzhak Katznelson
 - An Introduction to Homological Algebra — Charles Weibel
 - An Introduction to Homological Algebra — Joseph Rotman
+- An Introduction to Japanese Court Poetry — Earl Miner
 - An Introduction to Manifolds — Loring W. Tu
 - An Introduction to Modern Cosmology — A. Liddle
 - An Introduction to Non-Classical Logic — Graham Priest
@@ -227,8 +240,10 @@
 - Antifragile Software: Building Adaptable Software with Microservices — Russ Miles
 - Antigone — Sophocles
 - Antigone, Oedipus the King and Electra — Sophocles
+- Anxious People — Fredrik Backman
 - Apple Inside Macintosh, Volumes I, II, and III — Rose, Caroline
 - Applied Cryptography 2nd (second) edition Text Only — Bruce Schneier
+- Applied Digital Control — J. R. Leigh
 - Applying UML and Patterns — Craig Larman
 - Apprenticeship Patterns — Dave H. Hoover; Adewale Oshineye
 - Arabian Nights
@@ -249,10 +264,12 @@
 - Aubrey–Maturin series
 - Ausgepowert: Das Ende des Olzeitalters als Chance — Marcel Hänggi
 - Automated Democracy — Christian R. Ulbrich/Bruno S. Frey
+- Automatic Control Engineering — Francis H. Raven
 - Awaken the Giant Within — Tony Robbins
 - Awakening Joy — James Baraz, Shoshana Alexander
 - Awakening Through Love — John Makransky
 - Back to Barbary Lane — Armistead Maupin
+- Back to Basics: A Complete Guide to Traditional Skills — Abigail R. Gehring
 - Backgammon — Paul Magriel; Renée Magriel Roberts
 - Backpacking California — Wilderness Press
 - Bad Wisdom — Bill Drummond; Mark Manning / Zodiac Mindwarp
@@ -267,6 +284,7 @@
 - Battle Magic — Tamora Pierce
 - Battle Royale — Kōshun Takami
 - Bayesian Data Analysis
+- Bayesian Methods for Hackers — Cameron Davidson-Pilon
 - Beat the Dealer: A Winning Strategy for the Game of Twenty-One — Edward O. Thorp
 - Beating The Street — Peter Lynch
 - Beautiful Code — Andy Oram; Greg Wilson (editors)
@@ -282,6 +300,7 @@
 - Being With Dying — Joan Halifax
 - Beloved — Toni Morrison
 - Ben Franklin's Big Splash: The Mostly True Story of His First Invention — Barb Rosenstock, S.D. Schindler
+- Ben Hogan’s Five Lessons — Ben Hogan
 - Beowulf — Anonymous
 - Beowulf — Seamus Heaney
 - Beowulf: A Translation and Commentary, together with Sellic Spell — Unknown
@@ -299,6 +318,8 @@
 - Biology, 8th Edition — Neil Alexander Campbell
 - Biophysics — Bialik
 - Bird by Bird — Anne Lamott
+- Bird: The Definitive Visual Guide — DK; BirdLife International; David Burnie
+- Birds Art Life: A Year of Observation — Kyo Maclear
 - Bit-Slice Microprocessor Design — John Mick; Jim Brick
 - Bitter Seeds — Ian Tregillis
 - Black Pioneers of Science and Invention — Louis Haber
@@ -327,6 +348,8 @@
 - Bradbury Stories — Ray Bradbury
 - Brain Games - Sticker by Letter: Space — Publications International Ltd., Brain Games, New Seasons
 - Brain Wave
+- Brainfluence — Roger Dooley
+- Branding Terror — Artur Beifuss
 - Brave New World — Aldous Huxley
 - Break the Cycle — Mariel Buqué
 - Break the Good Girl Myth — Majo Molfino
@@ -346,11 +369,13 @@
 - Building a StoryBrand: Clarify Your Message So Customers Will Listen — Donald Miller
 - Building Microservices: Designing Fine-Grained Systems — Sam Newman
 - Building Ontologies with Basic Formal Ontology
+- Building Scientific Apparatus — John H. Moore; Christopher C. Davis; Michael A. Coplan
 - Built to Sell — John Warrillow
 - Bunny — Mona Awad
 - Bunreacht na hEireann (English and Irish Edition) Constitution of Ireland — Ireland.
 - Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers — Alexander Osterwalder and Yves Pigneur
 - But What Will People Say? — Sahaj Kaur Kohli
+- Buyology — Martin Lindstrom
 - C for Dummies — Dan Gookin
 - C Interfaces and Implementations — David R. Hanson
 - C# Black Book — Matthew A. Telles; Matthew Telles
@@ -386,10 +411,12 @@
 - Childhood's End — Arthur C. Clarke
 - Children of Dune
 - Children of the Sky — Vernor Vinge
+- Children of Time — Adrian Tchaikovsky
 - Children of Virtue and Vengeance — Tomi Adeyemi
 - Chile Culture Smart — Caterina Perrone
 - Chronicle of a Death Foretold — Gabriel García Márquez
 - Cicero trilogy
+- Cinema Speculation — Quentin Tarantino
 - Circe — Madeline Miller
 - Circle of Magic books 1-4 — Tamora Pierce
 - Citizen Sim — Michael Solana
@@ -465,6 +492,7 @@
 - Concepts, Techniques, and Models of Computer Programming — Peter Van Roy; Seif Haridi
 - Conceptual Mathematics — F. William Lawvere; Stephen Hoel Schanuel
 - Conceptual Physics — Paul G. Hewitt
+- Concerning the Spiritual in Art — Wassily Kandinsky
 - Concrete Mathematics — Ronald L. Graham; Donald E. Knuth; Oren Patashnik
 - Condensed Matter Field Theory — Altland and Simons
 - Confessions of a Public Speaker — Scott Berkun
@@ -484,12 +512,16 @@
 - Conversations — Sally Rooney; Katia Banovic
 - Cooking as Courtship (Under Structure) — Susan Wiegand
 - Cool Tools
+- Coordinate Measuring Machines and Systems — John A. Bosch; Robert J. Hocken; Paulo H. Pereira
 - Coraline — Neil Gaiman
+- Cosmic View: The Universe in 40 Jumps — Kees Boeke
+- Cosmicomics — Italo Calvino
 - Cosmological Physics — John A. Peacock
 - Cosmology — S. Weinberg
 - Cosmology and Gravitation — M. Berry
 - Cosmology for the Curious — Perlov & Vilenkin
 - Counterexamples in Topology — Lynn Arthur Steen and J. Arthur Seebach
+- Coup d’État: A Practical Handbook — Edward Luttwak
 - Course of Theoretical Physics volumes 5 & 6 — Landau and Lifshitz
 - Cracking the Coding Interview: 189 Programming Questions and Solutions — Gayle Laakmann McDowell
 - Cradle — Will Wight
@@ -508,6 +540,7 @@
 - Crucial Conversations — Kerry Patterson et al.
 - Crush It! — Gary Vaynerchuk
 - Cryptonomicon — Neal Stephenson
+- Crystal Nights — Greg Egan
 - Crystal Star
 - Cuentos Completos — Jorge Luis Borges
 - Culture series
@@ -527,12 +560,15 @@
 - Dark Integers
 - Dark Matter — Blake Crouch
 - Data Access Patterns — Clifton Nock
+- Data Analysis with Open Source Tools — Philipp K. Janert
 - Data Science for Business: What you need to know about data mining and data-analytic thinking — Foster Provost and Tom Fawcett
 - Data Structures and C Programs — Christopher J. Van Wyk
 - Data-Driven Marketing — Mark Jeffery
 - Database Management Systems — Raghu Ramakrishnan; Johannes Gehrke
 - Database System Concepts — Abraham Silberschatz; Henry F. Korth; S. Sudarshan
 - Daughter of the Moon Goddess — Sue Lynn Tan
+- David Bowie Made Me Gay: 100 Years of LGBT Music — Darryl W. Bullock
+- Days at the Morisaki Bookshop — Satoshi Yagisawa
 - De Architectura — Vitruvius
 - De Re Metallica — Georgius Agricola
 - Dead Astronauts — Jeff VanderMeer
@@ -559,6 +595,7 @@
 - Design Patterns: Elements of Reusable Object-Oriented Software — Erich Gamma; Richard Helm; Ralph Johnson; John Vlissides
 - Designing Brand Identity — Alina Wheeler, Rob Meyerson
 - Designing Casinos to Dominate the Competition — Bill Friedman
+- Designing Cost-Effective Mechanisms — Lawrence J. Kamm
 - Designing Cost-Efficient Mechanisms — Lawrence J. Kamm
 - Designing Data Visualizations — Noah P. N. Iliinsky
 - Designing Data-Intensive Applications — Martin Kleppmann
@@ -566,19 +603,24 @@
 - Designing Games: A Guide to Engineering Experiences
 - Designing Walkable Urban Thoroughfares A Context Sensitive Approach — Institute of Transportation Engineers
 - Detailed Mechanical Design — James G. Skakoon
+- Developments in Nanotechnology, Volume 3: Nanotechnology in Medicine and the Biosciences — R. R. H. Coombs; D. W. Robinson
 - Dhalgren — Samuel R. Delany
 - Diagonalization and Self-Reference — Raymond M. Smullyan
+- Dialogue on the Two Chief World Systems — Galileo Galilei
 - Diaspora
 - Dictator (Cicero Trilogy) — Robert Harris
 - Die with Zero — Bill Perkins
 - Diet for a Small Planet — Frances Moore Lappé
 - Dieter Rams: The Complete Works — Klaus Klemp
+- Differential Equations and Linear Algebra — Gilbert Strang
 - Differential Equations: Geometric Theory — Solomon Lefschetz
 - Differential Forms with Applications to the Physical Sciences — Harley Flanders
 - Differential Geometry: Connections, Curvature, and Characteristic Classes — Loring W. Tu
 - Differential Topology — Victor Guillemin and Alan Pollack
 - Differential Topology and Quantum Field Theory — Charles Nash
 - Differently Morphous — Yahtzee Croshaw
+- Digital Control Systems — Benjamin C. Kuo
+- Dimensional Instability: An Introduction — Marschall, C.W. and R.E. Maringer
 - Dimensioning and Tolerancing Handbook — Paul J. Drake Jr. (editor)
 - Dinosaur Comics — Ryan North
 - Dirk Gently’s Holistic Detective Agency — Douglas Adams
@@ -593,6 +635,7 @@
 - Divine Proportions — Norman J. Wildberger
 - DK Life Stories: Katherine Johnson — Ebony Joy Wilkins and Charlotte Ager
 - Do Androids Dream Of Electric Sheep? — Philip K. Dick
+- Doing Bayesian Data Analysis — John Kruschke
 - Doll-E 1.0 — Shanda McCloskey
 - Domain-Driven Design: Tackling Complexity in the Heart of Software — Eric Evans
 - Don Quixote — Miguel de Cervantes; Edith Grossman (translator)
@@ -644,6 +687,7 @@
 - Elementary Differential Geometry — Andrew Pressley
 - Elementary Linear Algebra — Howard Anton; Chris Rorres
 - Elementary Linear Algebra — Keith Matthews
+- Elementary Particles and the Laws of Physics: The 1986 Dirac Memorial Lectures — Richard P. Feynman & Steven Weinberg
 - Elements of Clojure — Zach Tellman
 - Elements of Information Theory — Thomas M. Cover, Joy A. Thomas
 - Elements of Mathematics — Nicolas Bourbaki
@@ -680,6 +724,7 @@
 - Equoid
 - Eragon
 - Eragon (The Inheritance Cycle, #1) — Christopher Paolini
+- Essays One — Lydia Davis
 - Essential .NET — Don Box; Chris Sells
 - Essentialism — Greg McKeown
 - Ethan Frome — Edith Wharton
@@ -689,6 +734,7 @@
 - Euler — William Dunham
 - Euler's Gem — David S. Richeson
 - Eunoia — Christian Bok
+- Evaluating Learning Algorithms — Nathalie Japkowicz
 - Eve’s Hollywood — Eve Babitz
 - Everything Flows
 - Everything You Need to Ace Science in One Big Fat Notebook: The Complete Middle School Study Guide — Workman Publishing, Michael Geisen, et al.
@@ -696,6 +742,7 @@
 - Evil Under the Sun — Agatha Christie
 - Evolution: Selected Papers — Sewall Wright
 - Evolutionary Dynamics: Exploring the Equations of Life — Martin A. Nowak
+- Exact Constraint: Machine Design Using Kinematic Principles — Douglass L. Blanding
 - Exactly What to Say: The Magic Words for Influence and Impact — Phil M. Jones
 - Excellent Intentions — Richard Hull
 - Excession — Iain M. Banks
@@ -737,6 +784,7 @@
 - Fields — Warren Siegel
 - Fierce Love — Jacqui Lewis
 - Fifty Classic Destinations for Pilots — Ney Grant
+- Fight Club — Chuck Palahniuk
 - Financial Derivatives — Jamil Baz
 - Finland Culture Shock — Deborah Swallow
 - Finnegan’s Wake — James Joyce
@@ -749,12 +797,15 @@
 - Flowers for Algernon — Daniel Keyes
 - Fluent Forever — Gabriel Wyner
 - Fluent Python: Clear, Concise, and Effective Programming — Luciano Ramalho
+- Fluid-Dynamic Drag — Sighard F. Hoerner
+- Fluid-Dynamic Lift — Sighard F. Hoerner; Henry V. Borst
 - Flying IFR — Richard L. Collins
 - Foolproof Fish
 - For Whom the Bell Tolls — Ernest Hemingway
 - Foreign Affairs — Alison Lurie
 - Forget the Funnel — Claire Suellentrop; Georgiana Laudi
 - Formation and Evolution of Rotating Stars — Meynet
+- Formulas for Natural Frequency and Mode Shape — Robert D. Blevins
 - FORTRAN IV with WATFOR and WATFIV — Paul Cress
 - Forward the Foundation — Isaac Asimov
 - Foucault's Pendulum — Umberto Eco
@@ -767,9 +818,12 @@
 - Foundations of Programming — Karl Seguin
 - Foundations of Quantum Mechanics — Josef M. Jauch
 - Foundations of Stable Homotopy Theory — David Barnes; Constanze Roitzheim
+- Foundations of Ultraprecision Mechanism Design — Stuart T. Smith; Derek G. Chetwynd
 - Founding Sales — Peter Kazanjy
 - Four Pivots — Shawn Ginwright
 - Fourier Analysis — T. W. Körner
+- Fourth Wing — Rebecca Yarros
+- Fractal Worlds — Michael Frame & Amelia Urry
 - Framework Design Guidelines — Krzysztof Cwalina; Brad Abrams
 - Frank Stewart's Bridge Club — Frank Stewart
 - Frankenstein — Mary Shelley
@@ -780,6 +834,7 @@
 - From Clocks to Chaos — Leon Glass; Michael C. Mackey
 - From Kant to Hilbert — William Ewald (editor)
 - From Mathematics to Generic Programming — Alexander A. Stepanov; Daniel E. Rose
+- Fujiwara Teika’s Hundred-Poem Sequence of the Shōji Era, 1200 — Robert H. Brower; Fujiwara no Teika
 - Full Catastrophe Living: Using the Wisdom of Your Body and Mind to Face Stress, Pain, and Illness — Jon Kabat-Zinn
 - Functional Differential Geometry — Gerald Jay Sussman
 - Functions of Bounded Variation and Free Discontinuity Problems — Luigi Ambrosio; Nicola Fusco; Diego Pallara
@@ -788,6 +843,7 @@
 - Fundamentals of Complex Analysis — Saff and Snider
 - Fundamentals of Data Visualization
 - Fundamentals of International Business Management — Steven Globerman
+- Fundamentals of Machining and Machine Tools — Geoffrey Boothroyd; Winston A. Knight
 - Fundamentals of Physics — David Resnick
 - Fundamentals of Plasma Physics — Paul M. Bellan
 - Fundamentals of Statistical and Thermal Physics — F. Reif
@@ -818,6 +874,7 @@
 - Germinal — Émile Zola
 - Geronimo Rex — Barry Hannah
 - Get Smarter — Seymour Schulich
+- Getting Even — Woody Allen
 - Getting Everything You Can Out of All You've Got — Jay Abraham
 - Getting It Done — Roger Fisher
 - Getting Past No — William Ury
@@ -854,6 +911,7 @@
 - Great Formulas Explained — Metin Bektas
 - Greek Lessons — Han Kang
 - Green Mars — Kim Stanley Robinson
+- Green Rider — Kristen Britain
 - Grendel — John Gardner
 - Grid Systems in Graphic Design — Josef Müller-Brockmann
 - Grokking Algorithms — Aditya Bhargava
@@ -861,19 +919,25 @@
 - Group Theory and Physics — Shlomo Sternberg
 - Groups and Symmetries — Yvette Kosmann-Schwarzbach
 - Growing Object-Oriented Software, Guided by Tests — Steve Freeman, Nat Pryce
+- Growth Hacker Marketing — Ryan Holiday
+- Guards! Guards! — Terry Pratchett
+- Guerrilla Marketing — Jay Conrad Levinson
 - Guided Fight Discovery — Jeppesen
 - Guru’Guay Guide to Montevideo — Karen Higgs
 - Hacker's Delight — Henry S. Warren Jr.
 - Hacking Sales — Max Altschuler
 - Hacking the Xbox — Andrew Huang
+- Haikai Poet Yosa Buson And The Bashō Revival — Cheryl A. Crowley
 - Half of a Yellow Sun — Chimamanda Ngozi Adichie
 - Halftime — Bob Buford
 - Hamlet — William Shakespeare
 - Hamnet — Maggie O'Farrell
 - Han Solo Adventures
 - Handbook of Intelligence
+- Handbook of Micro/Nano Tribology — Bharat Bhushan
 - Handbook of Product Design for Manufacturing — James G. Bralla (editor)
 - Handbook of Silicon Semiconductor Metrology — Alain C. Diebold (editor)
+- Handbook of Surface Metrology — D. J. Whitehouse
 - Hard Rain Falling — Don Carpenter
 - Hard Times — Charles Dickens
 - Hard-Boiled Wonderland and the End of the World — Haruki Murakami
@@ -889,6 +953,8 @@
 - Harry Potter and the Sorcerer's Stone — J. K. Rowling
 - Head First Design Patterns — Eric Freeman, Bert Bates, Kathy Sierra, Elisabeth Robson
 - Heart of Darkness — Joseph Conrad
+- Hearts In Atlantis — Stephen King
+- Helping: How to Offer, Give, and Receive Help (Humble Leadership) — Edgar H. Schein
 - Heretics of Dune — Frank Herbert
 - Hidden Empire — Kevin Anderson
 - Hierarchy — James Islington
@@ -902,6 +968,7 @@
 - His Master’s Voice — Stanisław Lem
 - Historical Building Construction — Donald Friedman
 - History and Geography of Human Genes — L. Luca Cavalli-Sforza; Paolo Menozzi; Alberto Piazza
+- History of Art — H. W. Janson
 - Holes — Sachar
 - Holy Fire — Bruce Sterling
 - Home — Nnedi Okorafor
@@ -916,6 +983,8 @@
 - House of Leaves
 - How An Economy Grows and Why It Crashes — Peter D. Schiff; Andrew J. Schiff
 - How Companies Win — Rick Kash
+- How I Raised Myself from Failure to Success in Selling — Frank Bettger
+- How not to write a novel — Howard Mittelmark; Sandra Newman
 - How Technology Works — DK
 - How Things Work — Bloomfield
 - How to Abandon Ship — Richards, Phil
@@ -959,6 +1028,7 @@
 - I Remember Lemuria!
 - I Who Have Never Known Men — Jacqueline Harpman
 - I Will Teach You To Be Rich — Ramit Sethi
+- I, Partridge: We Need to Talk about Alan — Steve Coogan
 - Identification Problems in the Social Sciences — Manski
 - If I Built a Car — Chris Van Dusen
 - If on a Winter’s Night a Traveler — Italo Calvino
@@ -971,6 +1041,9 @@
 - Imperium trilogy — Robert Harris
 - Implementation Patterns — Kent Beck
 - Impro — Keith Johnstone
+- In Ascension — Martin MacInnes
+- In Montmartre — Sue Roe
+- In-Process Quality Control for Manufacturing — Barkman, William E.
 - Independence Day — Richard Ford
 - Indistractable — Nir Eyal
 - Infinite Jest
@@ -985,6 +1058,8 @@
 - Instrument Flying Handbook 2007 (FAA Handbooks) — Federal Aviation Administration
 - Instrument Oral Exam Guide — Michael D. Hayes
 - Instrument Procedures Handbook — United States Federal Aviation Administration
+- Interactive Data Visualization for the Web — Scott Murray
+- Intermolecular and Surface Forces — Jacob N. Israelachvili
 - International Business: Competing in the Global Marketplace — Charles W. L. Hill and G. Tomas M. Hult
 - International Business: The Challenges of Globalization — John J. Wild and Kenneth L. Wild
 - International Trade Procedures and Management — Alexander Walker
@@ -995,6 +1070,8 @@
 - Introduction to 3-Manifolds — Jennifer Schultens
 - Introduction To Algorithms — Thomas H. Cormen, Charles E. Leiserson, et al.
 - Introduction to Algorithms — Udi Manber
+- Introduction to Classical and Quantum Computing — Thomas G. Wong
+- Introduction to Classical Mechanics — David Morin
 - Introduction to Common Lisp — Taichi Yuasa et
 - Introduction to Commutative Algebra — Michael F. Atiyah; I. G. Macdonald
 - Introduction to Cosmology — B. Ryden
@@ -1005,6 +1082,7 @@
 - Introduction to High Performance Blending
 - Introduction to Information Retrieval — Christopher D. Manning
 - Introduction to Logic — Irving M. Copi; Carl Cohen; Kenneth McMahon
+- Introduction to Microlithography — Larry F. Thompson; C. Grant Willson; Murrae J. Bowden
 - Introduction to Modern Dynamics: Chaos, Networks, Space and Time — David D. Nolte
 - Introduction to Modern Number Theory: Fundamental Problems, Ideas and Theories — Yuri I. Manin; Alexei A. Panchishkin
 - Introduction to Probability — Charles M. Grinstead and J. Laurie Snell
@@ -1024,7 +1102,9 @@
 - Invisible Cities — Italo Calvino
 - Invisible Man — Ralph Ellison
 - Invisibles
+- iOS Programming: The Big Nerd Ranch Guide — Big Nerd Ranch
 - Iron Council — China Miéville
+- Iron Flame — Rebecca Yarros
 - Ironweed — William Kennedy
 - Ishmael — Daniel Quinn
 - Island — Aldous Huxley
@@ -1042,6 +1122,7 @@
 - Jack Reacher (series) — Lee Child; later Andrew Child
 - Jade City — Fonda Lee
 - Jane Eyre — Charlotte Brontë
+- Japanese Court Poetry — Robert H. Brower and Earl Miner
 - Java Concurrency in Practice — Brian Goetz
 - JavaScript: The Definitive Guide — David Flanagan
 - JavaScript: The Good Parts — Douglas Crockford
@@ -1063,6 +1144,8 @@
 - Kaikeyi — Vaishnavi Patel
 - Katherine Johnson — Thea Feldman and Alyssa Petersen
 - Kawasaki Klr650 1987-2006 — Clymer Publications
+- Keep the Aspidistra Flying — George Orwell
+- Kenneth Clark's Civilisation — Kenneth Clark
 - Khana Mihirer Dhipi — Bani Basu
 - Kill Decision — Daniel Suarez
 - Kill It with Fire — Marianne Bellotti
@@ -1077,6 +1160,7 @@
 - Knots and Physics — Louis Kauffman
 - Kristin Lavransdatter — Sigrid Undset
 - Kulang na Silya — Ricky Lee
+- L’immaterialità del materiale: Claudio Silvestrin — Franco Bertoni; Germano Celant (eds.)
 - La Prochaine Peste (The Next Plague) — Serge Morand
 - Labyrinths — Jorge Luis Borges
 - Lady Knight — Tamora Pierce
@@ -1084,11 +1168,16 @@
 - Land of Lisp — Conrad Barski
 - Lando Calrissian Adventures
 - Language Implementation Patterns — Terence Parr
+- Laser Metrology and Machine Performance II — Hope, A.D. G.T. Smith, D.M.S. Blackshaw
 - Last and First Men — Olaf Stapledon
 - Last Horizon
+- Late Bloomer — Mazey Eddings
+- Laura Dean Keeps Breaking Up with Me — Mariko Tamaki
 - Law and Economics — Cooter and Ulen
 - Law of Attraction — Michael J. Losier
+- Laws of UX: Using Psychology to Design Better Products & Services — Jon Yablonski
 - Le Chant du Départ — Max Gallo
+- Leadership and Self-Deception — The Arbinger Institute
 - Leadership Coaching: From Personal Insights to Organisational Performance — Graham Lee
 - Leadership Embodiment: How the Way We Sit and Stand Can Change the Way We Think and Speak — Wendy Palmer; Janet Crawford
 - Leading from the Emerging Future: From Ego-System to Eco-System Economies — C. Otto Scharmer and Katrin Kaufer
@@ -1096,6 +1185,7 @@
 - Learn to Play Go — Janice Kim
 - Learn You a Haskell for Great Good! — Miran Lipovaca
 - Learning C# 2005 — Jesse Liberty; Brian MacDonald
+- Learning from Data — Yaser S. Abu-Mostafa
 - Learning How to Learn — Barbara Oakley
 - Learning Modern Algebra from Early Attempts to Prove Fermat's Last Theorem — Al Cuoco; Joseph Rotman
 - Learning Python — Mark Lutz
@@ -1123,6 +1213,7 @@
 - Less Than Zero — Bret Easton Ellis
 - Lessons in Chemistry — Bonnie Garmus
 - Lest Darkness Fall — L. Sprague de Camp
+- Let's Talk — Therese Huston
 - Lexicon Urthus — Michael Andre-Driussi
 - Libra — Don DeLillo
 - Lie Groups — Daniel Bump
@@ -1134,13 +1225,16 @@
 - Life of Pi — Yann Martel
 - Lift-the-Flap Periodic Table: An Interactive Usborne Book About the 118 Elements for Children (Ages 7-10) (See Inside) — Alice James
 - Light (Kefahuchi Tract, #1) — M. John Harrison
+- Light and Electron Microscopy — Elizabeth M. Slayter; Henry S. Slayter
 - Lila — Robert M. Pirsig
 - Lincoln in the Bardo — George Saunders
 - Linear Algebra — Elizabeth S. Meckes and Mark Meckes
 - Linear Algebra — Jim Hefferon
 - Linear Algebra Done Right — Sheldon Axler
 - Linguistics: A Complete Introduction — David Hornsby
+- Liquid Reign — Tim Reutemann
 - LISP 1.5 Programmer's Manual — John McCarthy
+- literally show me a healthy person — Darcie Wilder
 - Literate Programming — Donald Knuth
 - Little First Stickers Diggers and Cranes: An Entertaining Sticker Activity Book About Construction for Children (Ages 3-5) — Hannah Watson
 - Little Prisons — Ilona Bannister
@@ -1160,6 +1254,9 @@
 - Lord of the Flies — William Golding
 - Lore of Running — Timothy Noakes
 - Love Among the Chickens
+- Love in the Palm of His Hand, Vol. 1 — Rinteku
+- Love in the Palm of His Hand, Vol. 2 — Rinteku
+- Love, Theoretically — Ali Hazelwood
 - Lucy 3: Lucy and the Rise of the Parabola — Anandajit Goswami
 - Lyra’s Oxford — Philip Pullman
 - Macbeth — William Shakespeare
@@ -1170,6 +1267,7 @@
 - Machine Learning: A Probabilistic Perspective — Kevin Murphy
 - Machine Super Intelligence
 - Machinery's Handbook — Erik Oberg; Franklin D. Jones; subsequent editors
+- Machining Dynamics: Frequency Response to Improved Productivity — Tony L. Schmitz; K. Scott Smith
 - Macroeconomics for Professionals: A Guide for Analysts and Those Who Need to Understand Them — Leslie Lipschitz
 - Mad Science: Experiments You Can Do at Home—But Probably Shouldn't — Theodore Gray
 - Madame Bovary — Gustave Flaubert
@@ -1182,12 +1280,16 @@
 - Malazan Book of the Fallen — Steven Erikson
 - Managing Gigabytes — Ian H. Witten; Alistair Moffat; Timothy C. Bell
 - Manfish: A Story of Jacques Cousteau — Jennifer Berne, Éric Puybaret
+- Manufacturing Engineering and Technology — Serope Kalpakjian
+- Manufacturing Intelligence — Wright, Paul Kenneth and D.A. Bourne
 - Manufacturing Processes for Design Professionals — Rob Thompson
+- Manufacturing Processes for Engineering Materials — Serope Kalpakjian
 - March — Geraldine Brooks
 - Maritime Economics 3e — Martin Stopford
 - Martin Dressler: The Tale of an American Dreamer — Steven Millhauser
 - Marvelous Mattie: How Margaret E. Knight Became an Inventor — Emily Arnold McCully
 - Mary Had a Little Lab — Sue Fliess and Petros Bouloubasis
+- Mass Effect: Revelation — Drew Karpyshyn
 - Master and Commander (Vol. Book 1) (Aubrey/Maturin Novels) — Patrick O'Brian
 - Mastering C++ — Unspecified author
 - Mastering Nim: A complete guide to the programming language — Andreas Rumpf
@@ -1203,6 +1305,7 @@
 - Mathematical Expeditions — Reinhard Laubenbacher; David Pengelley
 - Mathematical Logic — W. V. O. Quine
 - Mathematical Masterpieces — Art Knoebel; Reinhard Laubenbacher; Jerry M. Lodder; David Pengelley
+- Mathematical Methods for Physics and Engineering — K. F. Riley; M. P. Hobson; S. J. Bence
 - Mathematical Methods in Physical Sciences — Boas
 - Mathematical Methods of Classical Mechanics — V. I. Arnold
 - Mathematical Models — H. M. Cundy; A. P. Rollett
@@ -1225,6 +1328,8 @@
 - McTeague — Frank Norris
 - Mean Spirit — Linda Hogan
 - Measure What Matters — Katie Delahaye Paine
+- Mechanical Vibrations — J. P. Den Hartog
+- Mechanisms and Mechanical Device Sourcebook — Nicholas P. Chironis
 - Meditation for Beginners — Jack Kornfield
 - Melting Stones — Tamora Pierce
 - Memoirs Found in a Bathtub — Stanisław Lem
@@ -1234,6 +1339,7 @@
 - Memories of Ice — Steven Erikson
 - Memory as a Programming Concept in C and C++ — Frantisek Franek
 - Memos From The Chairman — Alan Greenberg
+- Metal Cutting — Edward M. Trent
 - Methods of Modern Mathematical Physics — Michael Reed and Barry Simon
 - Methods of Operations Research
 - Methods of Persuasion — Nick Kolenda
@@ -1263,6 +1369,7 @@
 - Modern Engineering for Design of Liquid Propellant Rocket Engines — Dieter K. Huzel; David H. Huang
 - Modern Fortran Explained — Metcalf, Reid, and Cohen
 - Modern Geometry — Methods and Applications — B. A. Dubrovin
+- Modern Grinding Process Technology — Stuart C. Salmon
 - Modern Operating Systems — Andrew S. Tanenbaum; Herbert Bos
 - Modernist Cuisine — Nathan Myhrvold, Chris Young, Maxime Bilet
 - Molecular Biology of the Cell — Bruce Alberts; Alexander Johnson; Julian Lewis; David Morgan; Martin Raff; Keith Roberts; Peter Walter
@@ -1298,13 +1405,18 @@
 - My Crazy Inventions Sketchbook: 50 Awesome Drawing Activities for Young Inventors — Lisa Regan and Andrew Rae
 - My Dark Vanessa — Kate Elizabeth Russell
 - My Grandmother's Hands — Resmaa Menakem
+- My Life In Advertising & Scientific Advertising — Claude C. Hopkins
+- My Man Jeeves — P.G. Wodehouse
 - My Side of the Mountain — George
 - Mythos - The Greek Myths Retold (Stephen Fry's Great Mythology, #1) — Stephen Fry
 - Naive Set Theory — Paul R. Halmos
+- Nanotechnology—Integrated Processing Systems for Ultra-Precision and Ultra-Fine Products — Taniguchi, N., ed.
 - Napoleon and Modern War — Napoleon and Col. Lanza
 - NASA Mathematician Katherine Johnson — Heather E. Schwartz
+- Near-Field Optics: Theory, Instrumentation, and Applications — Michael A. Paesler; Patrick J. Moyer
 - Needful Things — Stephen King
 - Net Zero by 2050: A Roadmap for the Global Energy Sector — International Energy Agency
+- Network Medicine: Complex Systems in Human Disease — Joseph Loscalzo, Albert-László Barabási & Edwin K. Silverman
 - Network Security Hacks — Andrew Lockhart
 - Network Warrior — Gary A. Donahue
 - Networks, Crowds, and Markets — David Easley; Jon Kleinberg
@@ -1315,6 +1427,7 @@
 - Never Eat Alone — Keith Ferrazzi; Tahl Raz
 - Never Let Go — Dan John
 - Never Let Me Go — Kazuo Ishiguro
+- Never Split the Difference — Chris Voss; Tahl Raz
 - Neverwhere — Neil Gaiman
 - New Legends
 - New Methods of Celestial Mechanics — Henri Poincaré; Daniel L. Goroff (editor)
@@ -1325,6 +1438,7 @@
 - Nine Stories — J. D. Salinger
 - Nineteen Eighty-Four — George Orwell
 - Nmap Network Scanning — Gordon Lyon
+- No B.S. Ruthless Management of People and Profits — Dan S. Kennedy
 - No Bugs! — David Thielen
 - No Bullshit Guide to Math and Physics — Ivan Savov
 - No Country for Old Men — Cormac McCarthy
@@ -1373,6 +1487,7 @@
 - Old Man’s War — John Scalzi
 - Olive Kitteridge — Elizabeth Strout
 - Oliver Byrne — Euclid
+- Oliver Twist — Charles Dickens
 - On Combat: The Psychology and Physiology of Deadly Conflict in War and Peace — Dave Grossman; Loren W. Christensen
 - On Directing Film — David Mamet
 - On Earth as it is Beneath — Ana Paula Maia
@@ -1400,6 +1515,7 @@
 - Operating System Concepts — Abraham Silberschatz
 - Operating Systems: Design and Implementation — Andrew S. Tanenbaum
 - Operating Systems: Three Easy Pieces — Remzi H. Arpaci-Dusseau; Andrea C. Arpaci-Dusseau
+- Optical Methods in Engineering Metrology — D. C. Williams
 - Options, Futures, and Other Derivatives — John Hull
 - Organic Chemistry in Its Applications to Agriculture and Physiology — Justus von Liebig
 - Origami Design Secrets — Robert J. Lang
@@ -1417,11 +1533,13 @@
 - Page — Tamora Pierce
 - Pale Fire — Vladimir Nabokov
 - Papa's Mechanical Fish — Candace Fleming, Boris Kulikov
+- Parable of the Sower — Octavia E. Butler
 - Paradigms of Artificial Intelligence Programming — Peter Norvig
 - Paradise Lost — John Milton
 - Parallel and Concurrent Programming in Haskell — Simon Marlow
 - Parker O-Ring Handbook — Parker Hannifin Corporation
 - Particle Physics and Introduction to Field Theory — T. D. Lee
+- Pattern Recognition — William Gibson
 - Patterns of Enterprise Application Architecture — Martin Fowler
 - Patterns of Home — Max Jacobson; Murray Silverstein; Barbara Winslow
 - Paul Halmos: Celebrating 50 Years of Mathematics — John Ewing, F.W. Gehring
@@ -1442,9 +1560,11 @@
 - Photography — Barbara London
 - PHP Objects, Patterns, and Practice — Matt Zandstra
 - Physical Fluid Dynamics — Tritton
+- Physics at Surfaces — Andrew Zangwill
 - Physics for Scientists and Engineers — Paul A. Tipler, Gene Mosca
 - Physics from Finance — Jakob Schwichtenberg
 - Physics of Fully Ionized Gases — Spitzer
+- Physics: A Complete Introduction — Jim Breithaupt
 - Physics: Principles with Applications — Douglas Giancoli
 - Physik mit Bleistift — Hermann Schulz
 - Pigeon — Patrick Süskind
@@ -1458,28 +1578,38 @@
 - Planes — Byron Barton
 - Points of Origin — John L. Orr
 - Politics Is for Power: How to Move Beyond Political Hobbyism, Take Action, and Make Real Change — Eitan D. Hersh
+- Polostan — Neal Stephenson
 - Pomodoro Technique Illustrated — Staffan Nöteberg
 - Pompeii — Robert Harris
 - Poor No More — Robert Ruark
 - Poor White — Sherwood Anderson
 - Pop!: The Invention of Bubble Gum — Meghan McCarthy
+- Positioning — Al Ries
 - Postsingular — Rudy Rucker
 - Powers — Ursula K. Le Guin
 - Practical Common Lisp — Peter Seibel
 - Practical Criticism — I. A. Richards
+- Practical Electronics for Inventors — Paul Scherz; Simon Monk
 - Practical Object Oriented Design in Ruby — Sandi Metz
 - Practical Typography
 - Practices of an Agile Developer — Venkat Subramaniam
 - Pragmatic Unit Testing in C# with NUnit — Andy Hunt
+- Precision Machine Design — Alexander H. Slocum
+- Precision Optical Glassworking: A Manual for Craftsmen and Designers — W. Zschommler
+- Precision Spindle Metrology — Eric R. Marsh
 - Prediction, Learning, and Games — Nicolo Cesa-Bianchi; Gabor Lugosi
 - Prelude to Foundation — Isaac Asimov
+- Pretty Guardian Sailor Moon Eternal Edition, Vol. 1 — Naoko Takeuchi
+- Pricing Insurance Risk — Stephen J. Mildenhall
 - Pride and Prejudice — Jane Austen
 - Primes of the Form x² + ny² — David A. Cox
 - Princeton Lectures in Analysis — Elias M. Stein; Rami Shakarchi
 - Principles of Algebraic Geometry — Phillip Griffiths and Joseph Harris
+- Principles of Analytical Electron Microscopy — David C. Joy; Alton D. Romig Jr.; Joseph I. Goldstein
 - Principles of Economics — N. Gregory Mankiw
 - Principles of Economics — Saifedean Ammous
 - Principles of Mathematical Analysis — Rudin
+- Principles of Neural Science — Eric R. Kandel and coeditors
 - Principles of Neurobiology — Liqun Luo
 - Principles of Quantum Mechanics — Ramamurti Shankar
 - Principles of Theory of Solids — Ziman
@@ -1487,6 +1617,7 @@
 - Pro Git — Scott Chacon
 - Pro Spring — Rob Harrop; Jan Machacek
 - Probabilistic Reasoning in Intelligent Systems — Pearl
+- Probability for the Enthusiastic Beginner — David J. Morin
 - Probability Theory — S.R.S. Varadhan
 - Probability Theory and Random Processes — Grimmett and Stirzaker
 - Probability Theory: The Logic of Science — E. T. Jaynes
@@ -1517,9 +1648,11 @@
 - Programming Windows with MFC — Jeff Prosise
 - Project Hail Mary — Andy Weir
 - Project Oberon — Niklaus Wirth
+- Proof and the Art of Mathematics — Joel David Hamkins
 - Proofs from THE BOOK — Martin Aigner; Günter M. Ziegler
 - Proofs of the Cantor-Bernstein Theorem — Arie Hinkis
 - Proofs that Really Count: The Art of Combinatorial Proof — Arthur T. Benjamin and Jennifer Quinn
+- Properties and Application of Diamond — Wilks, J. and E. Wilks
 - Protocols: An Operating Manual for the Human Body — Andrew Huberman
 - Proving History — Richard C. Carrier
 - Proxima — Stephen Baxter
@@ -1531,10 +1664,13 @@
 - Psychology of the Rich Aunt — Erich Mühsam
 - Public Relations — Edward L. Bernays
 - Purely Functional Data Structures — Chris Okasaki
+- Purple Cow — Seth Godin
 - Purple Hibiscus — Chimamanda Ngozi Adichie
 - Puzzles of the Black Widowers — Isaac Asimov
+- Pygmalion — George Bernard Shaw
 - Python 201: Intermediate Python (2018) — Michael Driscoll
 - Python Crash Course, 2nd Edition: A Hands-On, Project-Based Introduction to Programming — Eric Matthes
+- Python for Data Analysis — Wes McKinney
 - Python for Finance — Yves Hilpisch
 - Python Tricks: A Buffet of Awesome Python Features (2017) — Dan Bader
 - Q.E.D. — Burkard Polster
@@ -1564,6 +1700,7 @@
 - Racing Weight — Matt Fitzgerald
 - Radiance — Catherynne M. Valente; Catherynne M. Valente; Heath Miller
 - Radiation Detection and Measurement — Glenn F. Knoll
+- Radical Candor — Kim Scott
 - Ragtime — E. L. Doctorow
 - Random Walk and the Heat Equation — Gregory F. Lawler
 - Random Walks and Electric Networks — Peter G. Doyle; J. Laurie Snell
@@ -1593,6 +1730,7 @@
 - Red Plenty — Francis Spufford
 - Red Rising — Pierce Brown
 - Red Rising saga — Pierce Brown
+- Red, White & Royal Blue — Casey McQuiston
 - Redwinter series — Ed McDonald
 - Refactoring to Patterns — Joshua Kerievsky
 - Refactoring UI — Adam Wathan & Steve Schoger
@@ -1620,6 +1758,7 @@
 - Ringworld — Larry Niven
 - Rise and Fall — Eliot Schrefer
 - Riverworld series — Philip José Farmer
+- Roark's Formulas for Stress and Strain — Raymond J. Roark
 - Robinson Cruse
 - Robots, Robots Everywhere — Sue Fliess, Bob Staake
 - Rocket Propulsion Elements
@@ -1647,6 +1786,7 @@
 - Schismatrix — Bruce Sterling
 - Schismatrix Plus — Bruce Sterling
 - Science Year by Year: A Visual History, from Stone Tools to Space Travel — DK
+- Scientific Advertising — Claude C. Hopkins
 - Scrooge's Cryptic Carol — Gilmore, Robert; R. S. Gilmore
 - Sea of Tranquility — Emily St. John Mandel
 - Sea/Shadow trilogies
@@ -1657,8 +1797,10 @@
 - Secrets of Power Negotiating — Roger Dawson
 - Security Analysis — Benjamin Graham
 - See Inside How Things Work: A Usborne Flap Book Revealing Car Engines, Submarines, and Machines for Kids (Ages 6-9) — Conrad Mason
+- Seeds in the Heart — Donald Keene
 - Seeker — Arwen Elys Dayton
 - Seiobo There Below — László Krasznahorkai
+- Selected Papers on Optomechanical Design — O’Shea, Donald, ed.
 - Sell with a Story — Paul Smith
 - Semantic Information Processing — Marvin Minsky
 - Semiconductor Packaging: Materials Interaction and Reliability — John H. Lau
@@ -1675,6 +1817,7 @@
 - Shadow of the Sun — Sylvia Pell
 - Shadows Linger
 - Shadows of the Apt — Adrian Tchaikovsky
+- Shakespeare in a Divided America — James Shapiro
 - Shamal Days — Sabin Iqbal
 - Shame: Confessions of the Father of the Neutron Bomb — Salman Rushdie
 - Shantaram — Gregory David Roberts
@@ -1686,9 +1829,12 @@
 - Shigley's Mechanical Engineering Design — Joseph E. Shigley; Richard G. Budynas; J. Keith Nisbett
 - Ship of Destiny — Robin Hobb
 - Ship of Magic — Robin Hobb
+- Shock and Vibration Isolation Handbook — Cyril M. Harris; Charles E. Crede
 - Siddhartha — Hermann Hesse
+- Sideways — Rex Pickett
 - Silence — Shusaku Endo
 - Silently and Very Fast — Catherynne M. Valente
+- Silverview — John le Carré
 - Single Variable Calculus: Early Transcendentals — James Stewart
 - Site Reliability Engineering — Niall Richard Murphy; Betsy Beyer; Chris Jones; Jennifer Petoff (editors)
 - Six Days of the Condor — James Grady
@@ -1759,6 +1905,7 @@
 - Starship Troopers — Robert A. Heinlein
 - Starship's Mage — Glynn Stewart
 - Start Small, Stay Small — Rob Walling and Mike Taber
+- Start with No — Jim Camp
 - Starting a Business QuickStart Guide: The Simplified Beginner's Guide to Launching a Successful Small Business, Turning Your Vision into Reality, and Achieving Your Entrepreneurial Dream — Ken Colwell PhD MBA
 - Starting Forth — Leo Brodie; Inc Staff Forth
 - Starting Strength — Mark Rippetoe; Lon Kilgore
@@ -1806,6 +1953,7 @@
 - Structured Computer Organization — Andrew S. Tanenbaum
 - Structured Design — Edward Yourdon; Larry L. Constantine
 - Structured Programming — Edsger W. Dijkstra; Ole-Johan Dahl; C. A. R. Hoare
+- Stuck? Diagrams Help. — Abby Covert
 - Successful Investing is a Process — Jacques Lussier
 - Sum — David Eagleman
 - Sunrise on the Reaping — Suzanne Collins
@@ -1813,10 +1961,12 @@
 - Super Sad True Love Story — Gary Shteyngart
 - Superstring Theory — Michael B. Green
 - Surface Detail — Iain M. Banks
+- Surface Science Technologies — Walls, J.M. and R. Smith, eds.
 - Surreal Numbers — Donald E. Knuth
 - Surviving Climate Anxiety: A Guide to Coping, Healing, and Thriving — Thomas Doherty
 - Suttree — Cormac McCarthy
 - Sweet Dreams, Sarah: From Slavery to Inventor — Vivian Kirkfield, Chris Ewald
+- Swiss Graphic Design — Richard Hollis
 - Sword of Shannara — Terry Brooks; Terry Brroks
 - Synchronization: A Universal Concept in Nonlinear Sciences — Arkady Pikovsky; Michael Rosenblum; Jürgen Kurths
 - System Design from Provably Correct Constructs — James Martin
@@ -1846,6 +1996,8 @@
 - Test-Driven Development with Python — Harry Percival
 - Tested Advertising Methods — John Caples
 - The 1-Page Marketing Plan: Get New Customers, Make More Money, And Stand out From The Crowd — Allan Dib
+- The 100 Greatest Advertisements: Who Wrote Them and What They Did — Julian Lewis Watkins
+- The 22 Immutable Laws of Marketing — Al Ries
 - The 4 Disciplines of Execution: Achieving Your Wildly Important Goals — Chris McChesney, Sean Covey, Jim Huling
 - The 4 Hour Work Week — Tim Ferriss
 - The 4-Hour Body — Tim Ferriss
@@ -1875,8 +2027,10 @@
 - The Arrival — Shaun Tan
 - The Art and Craft of Problem Solving 1st Edition — Paul Zeitz
 - The Art of Agile Development — James Shore
+- The Art of Asking — Amanda Palmer
 - The Art of Computer Programming — Donald E. Knuth
 - The Art of Edena — Moebius
+- The Art of Electronics — Paul Horowitz; Winfield Hill
 - The Art of Game Design — Jesse Schell
 - The Art of Mathematics: Coffee Time in Memphis — Bela Bollobas
 - The Art of Negotiation: How to Improvise Agreement in a Chaotic World — Michael A. Wheeler
@@ -1884,10 +2038,15 @@
 - The Art of Problem Solving — Richard Rusczyk; Sandor Lehoczky
 - The Art of Project Management — Scott Berkun
 - The Art of Prolog — Leon Sterling; Ehud Yehuda Shapiro
+- The Art of Reading Minds — Henrik Fexeus
+- The Art of Seduction — Robert Greene
 - The Art of Software Testing — Glenford J. Myers
+- The Art of Spirited Away — Hayao Miyazaki
 - The Art of the Metaobject Protocol — Gregor Kiczales
 - The Art of the Pitch — Peter Coughter
+- The Art of Ukraine — Alisa Lozhkina
 - The Art of Unix Programming — Eric S. Raymond
+- The Art of Writing Advertising — Denis Higgins
 - The Ashley Book of Knots — Clifford W. Ashley
 - The Ashtadhyayi — Pāṇini
 - The Ask and the Answer 
@@ -1933,6 +2092,7 @@
 - The Boron Letters — Gary C. Halbert; Bond Halbert
 - The Boy Who Invented the Popsicle: The Cool Science Behind Frank Epperson's Famous Frozen Treat — Anne Renaud, Milan Pavlovi?
 - The Boy Who Invented TV: The Story of Philo Farnsworth — Kathleen Krull, Greg Couch
+- The Brand Flip — Marty Neumeier
 - The Bricklayer's Bible — Unknown
 - The Bridge of San Luis Rey — Thornton Wilder
 - The Bridge to Lucy Dunne — Exurb1a
@@ -1949,6 +2109,7 @@
 - The Calculus Story — David Acheson
 - The Call of Cthulhu — H. P. Lovecraft
 - The Call of the Wild — Jack London
+- The Cambridge Introduction to Creative Writing — David Morley
 - The Canterbury Tales — Chaucer
 - The Career Programmer — Christopher Duncan
 - The Case of the IBM 386 PC — Jim Grep
@@ -1961,6 +2122,7 @@
 - The Chicken from Minsk — Yuri B. Chernyak
 - The Child's Discovery of Space — Jean Sauvy
 - The Cider House Rules — John Irving
+- The Cinema of George Lucas — Marcus Hearn
 - The Circle Opens books 1-4 — Tamora Pierce
 - The Circus of Dr. Lao — Charles G. Finney
 - The City & the City — China Miéville
@@ -1969,6 +2131,7 @@
 - The Clockwork Rocket — Greg Egan
 - The Clockwork Rocket (Orthogonal) — Greg Egan
 - The Coaching Habit — Michael Bungay Stanier
+- The Collected Poems of Audre Lorde — Audre Lorde
 - The Collected Stories of Katherine Anne Porter — Katherine Anne Porter
 - The Colonel — Peter Watts
 - The Color Purple — Alice Walker
@@ -1979,6 +2142,8 @@
 - The Complete Stories — Franz Kafka
 - The Computational Beauty of Nature — Gary William Flake
 - The Confessions of Nat Turner — William Styron
+- The Confessor — Daniel Silva
+- The Conversation: How Talking Honestly About Racism Can Transform Individuals and Organizations — Robert Livingston
 - The Cornerstone — Zoé Oldenbourg
 - The Corpse Exhibition and Other Stories of Iraq
 - The Corrections — Jonathan Franzen
@@ -1987,7 +2152,10 @@
 - The Craft of Prolog — Richard A. O'Keefe
 - The Crayon Man: the True Story of the Invention of Crayola Crayons — Natascha Biebow and Steven Salerno
 - The Crippled God — Steven Erikson
+- The Culting of Brands — Douglas Atkin
+- The Culture Code — Clotaire Rapaille
 - The Curious Incident of the Dog in the Night-Time — Mark Haddon
+- The Da Vinci Code — Dan Brown
 - The Dance of Gods — Mayer Alan Brenner
 - The Dark Forest — Liu Cixin
 - The Dark Side of the Moon — Martin Suter
@@ -2006,6 +2174,7 @@
 - The Diamond Age — Neal Stephenson
 - The Diamond Eye — Kate Quinn
 - The Diamond of Darkhold
+- The Diaries of Adam and Eve — Mark Twain
 - The Dispossessed — Ursula K. Le Guin
 - The Divine Comedy — Dante Alighieri
 - The Doctor with an Eye for Eyes: The Story of Dr. Patricia Bath — Julia Finley Mosca, Daniel Rieley
@@ -2018,6 +2187,7 @@
 - The Education of Cyrus — Xenophon
 - The Effects of Nuclear Weapons — Samuel Glasstone
 - The Elder Scrolls: The Official Cookbook — Chelsea Monroe-Cassel
+- The Electric War — Mike Winchell
 - The Elements of Computing Systems — Noam Nisan; Shimon Schocken
 - The Elements of Mechanical Design — James G. Skakoon
 - The Elements of Programming Style — Brian W. Kernighan; P. J. Plauger
@@ -2039,9 +2209,11 @@
 - The Farseer Trilogy — Robin Hobb
 - The Fault in Our Stars — John Green
 - The Fear Index — Robert Harris
+- The Feeling of Power — Isaac Asimov
 - The Fellowship of the Ring — J. R. R. Tolkien
 - The Feynman Lectures on Physics — Richard P. Feynman; Robert B. Leighton; Matthew Sands
 - The Fifth Science, Exurb1a
+- The Fine Art of Small Talk — Debra Fine
 - The First 20 Hours — Josh Kaufman
 - The First 90 Days: Critical Success Strategies for New Leaders at All Levels — Michael Watkins
 - The First Snap-Fit Handbook — Paul R. Bonenberger
@@ -2060,9 +2232,12 @@
 - The Four Steps to the Epiphany — Steve Blank
 - The Frugal Wizard’s Handbook for Surviving Medieval England — Brandon Sanderson
 - The Fuck-Up — Arthur Nersesian
+- The Fury — Alex Michaelides
 - The Galaxy and the Ground Within
 - The Gamma Function — Emil Artin
 - The Gap and the Gain — Dan Sullivan; Benjamin Hardy
+- The Genesis of Desire — Jean-Michel Oughourlian
+- The Gentle Seduction — Marc Stiegler
 - The Geometry of Biological Time — Arthur T. Winfree
 - The Geometry of Compasses — Oliver Byrne
 - The Geometry of Schemes — David Eisenbud and Joseph Harris
@@ -2176,6 +2351,7 @@
 - The Lizard King — Jamie Weinstein; Will Rahn
 - The Locked Tomb series — Tamsyn Muir
 - The Loneliness of the Long-Distance Runner — Alan Sillitoe
+- The Lonely City: Adventures in the Art of Being Alone — Olivia Laing
 - The Lonely Londoners — Sam Selvon
 - The Longevity Solution — Dr. James DiNicolantonio, Dr. Jason Fung
 - The Lord of the Rings — J. R. R. Tolkien
@@ -2184,6 +2360,7 @@
 - The Love of Singular Men — Victor Heringer
 - The Low Down on Going Down — Marcy Michaels; Marie Desalle
 - The Luxury Strategy — Jean-Noël Kapferer and Vincent Bastien
+- The Machine Stops — E.M. Forster
 - The Magic Mountain — Thomas Mann
 - The Magic Of Reality — Richard Dawkins
 - The Magnificent Ambersons — Booth Tarkington
@@ -2224,6 +2401,7 @@
 - The Most Magnificent Thing — Ashley Spires
 - The Mote in God’s Eye — Larry Niven; Jerry Pournelle
 - The Motive — Patrick M. Lencioni
+- The Mountain in the Sea — Ray Nayler
 - The Murder of Roger Ackroyd — Agatha Christie
 - The MVT: A Most Valuable Theorem — Donald W. Hight
 - The Mysterious Island — Jules Verne
@@ -2247,6 +2425,7 @@
 - The Nightingale — Kristin Hannah
 - The Non-Designer's Design Book — Robin Williams; Robin Williams
 - The Non-Runner's Marathon Trainer — David A. Whitsett
+- The Nude — Kenneth Clark
 - The Obsolete Employee — Michael Russer
 - The Ocean at the End of the Lane — Neil Gaiman
 - The Odyssey — Homer; Emily Wilson (translator)
@@ -2256,6 +2435,8 @@
 - The Ones Who Walk Away from Omelas — Ursula K. Le Guin
 - The Only Investment Guide You'll Ever Need — Andrew Tobias
 - The Optimist's Daughter — Eudora Welty
+- The Oresteia: Agamemnon; The Libation Bearers; The Eumenides — Aeschylus
+- The Origins of Genome Architecture — Michael Lynch
 - The Origins of Order — Stuart A. Kauffman
 - The Orphan Master's Son — Adam Johnson
 - The Outsider — Albert Camus
@@ -2266,6 +2447,7 @@
 - The Palace of Illusions — Chitra Banerjee Divakaruni
 - The Paladin’s Legacy — Elizabeth Moon
 - The Paper Menagerie and Other Stories — Ken Liu
+- The Paris Apartment — Lucy Foley
 - The Park Bench — Christophe Chabouté
 - The Pea and the Sun — Leonard M. Wapner
 - The Peace War — Vernor Vinge
@@ -2281,6 +2463,7 @@
 - The Physiognomy — Jeffrey Ford
 - The Picture of Dorian Gray — Oscar Wilde
 - The Pillars of the Earth — Ken Follett
+- The Plague — Albert Camus
 - The Player of Games — Iain M. Banks
 - The Pocket Guide to Product Launches — Mary Sheehan
 - The Poisonwood Bible — Barbara Kingsolver
@@ -2308,10 +2491,12 @@
 - The Psychology of Eating — Ogden
 - The Punishings — H. R. Bellicosa
 - The Quantum Theory: Origins and Ideas — Carl S. Helrich
+- The Rachel Incident — Caroline O'Donoghue
 - The Ragged-Trousered Philanthropists — Robert Tressell
 - The Rain Forests of Home — Peter K. Schoonmaker
 - The Random House Handbook — Frederick Crews
 - The Rapture of the Nerds — Cory Doctorow; Charles Stross
+- The Razor’s Edge — W. Somerset Maugham
 - The Real and the Complex — Jeremy J. Gray
 - The Real Estate Game — William J. Poorvu
 - The Realm of the Gods — Tamora Pierce
@@ -2328,12 +2513,15 @@
 - The Rosie Effect — Graeme Simsion
 - The Rosie Project — Graeme Simsion
 - The Rules of Fortune — Danielle Prescod
+- The Rum Diary — Hunter S. Thompson
 - The Sailor Who Fell from Grace with the Sea — Yukio Mishima
 - The Sales Acceleration Formula — Mark Roberge
 - The Sandman — Neil Gaiman
+- The Satanic Verses — Salman Rushdie
 - The Scelbi-Byte Primer — Nat Wadsworth
 - The Science of Hitting — Ted Williams and John Underwood
 - The Science of Scaling — Benjamin Hardy; Blake Erickson
+- The Science of Storytelling — Will Storr
 - The Screwtape Letters — C. S. Lewis
 - The Scribe Method — Tucker Max; Zach Obront
 - The Sea of Fertility — Yukio Mishima
@@ -2342,11 +2530,13 @@
 - The Seasons of Thomas Tebo — John Nagenda
 - The Second Sleep — Robert Harris
 - The Secret Commonwealth — Philip Pullman
+- The Secret of Selling Anything — Harry Browne
 - The Secret Science Alliance and the Copycat Crook — Eleanor Davis
 - The Secret Subway — Shana Corey and Red Nose Studio
 - The Secrets of Story — Matt Bird
 - The Sense of Structure — George Gopen
 - The Sense of Style — Steven Pinker
+- The Seven Husbands of Evelyn Hugo — Taylor Jenkins Reid
 - The Seventh Function of Language — Laurent Binet
 - The Shadow of the Torturer — Gene Wolfe
 - The Shadow of the Wind — Carlos Ruiz Zafón
@@ -2358,12 +2548,14 @@
 - The Shipping Man — Matthew McCleery
 - The Shipping News — Annie Proulx
 - The Shockwave Rider — John Brunner
+- The Short Story of Art — Susie Hodge
 - The Short-Timers — Gustav Hasford
 - The Signature of All Things — Elizabeth Gilbert
 - The Silent Patient — Alex Michaelides
 - The Silmarillion — J. R. R. Tolkien
 - The Sirens of Titan — Kurt Vonnegut
 - The Site Reliability Workbook: Practical Ways to Implement SRE — Betsy Beyer
+- The Snows of Kilimanjaro — Ernest Hemingway
 - The Social Animal — Elliot Aronson
 - The Song of Achilles — Madeline Miller
 - The Sorcerer’s House — Gene Wolfe; Dirk Berger; Tim Powers
@@ -2378,6 +2570,7 @@
 - The Stories of John Cheever — John Cheever
 - The Stormlight Archive — Brandon Sanderson
 - The Story of Algebraic Numbers in the First Half of the 20th Century: From Hilbert to Tate — Władysław Narkiewicz
+- The Story of Art Without Men — Katy Hessel
 - The Story of B — Daniel Quinn
 - The Story of Spin — Sin-Itiro Tomonaga
 - The Strange Bird — Jeff VanderMeer
@@ -2385,6 +2578,7 @@
 - The Structure and Evolution of Stars — Eldridge and Tout
 - The Structure of Magic — Richard Bandler; John Grinder
 - The Subtle Knife — Philip Pullman
+- The Summer War — Naomi Novik
 - The Sun Also Rises — Ernest Hemingway
 - The Sundays of Jean Dézert — Jean de La Ville de Mirmont
 - The Sunken Land Begins to Rise Again — M. John Harrison
@@ -2421,6 +2615,7 @@
 - The Transit of Venus — Shirley Hazzard
 - The Travels of Jaimie McPheeters — Robert Lewis Taylor
 - The Travels of Lao Can — Liu T'ieh-Yun
+- The Trial — Franz Kafka
 - The Trusted Advisor — David H. Maister; Charles H. Green; Robert M. Galford
 - The Truth about Employee Engagement: A Fable about Addressing the Three Root Causes of Job Misery — Patrick M. Lencioni
 - The Two Towers — J. R. R. Tolkien
@@ -2431,6 +2626,7 @@
 - The Unholy Consult
 - The Unicorn Project — Gene Kim
 - The UNIX Programming Environment — Brian W. Kernighan
+- The Unpublished David Ogilvy — David Ogilvy, edited by Joel Raphaelson
 - The Unstoppable Garrett Morgan: Inventor, Entrepreneur, Hero — Joan Dicicco, Ebony Glenn
 - The Up-and-Under series — A. Deborah Baker
 - The Upward Spiral: Using Neuroscience to Reverse the Course of Depression, One Small Change at a Time — Alex Korb
@@ -2440,6 +2636,7 @@
 - The Wallet of Kai Lung (Kai Lung #1) — Ernest Bramah
 - The Wandering Earth — Liu Cixin
 - The Wandering Inn — pirateaba
+- The War of the Worlds — H. G. Wells
 - The Warden — Anthony Trollope
 - The Water Knife — Paolo Bacigalupi
 - The Way of Kings — Brandon Sanderson
@@ -2466,6 +2663,7 @@
 - The World Is Not Enough — Zoé Oldenbourg
 - The World of Edena — Moebius
 - The Wright Brothers — Quentin Reynolds
+- The Year of Lear: Shakespeare in 1606 — James Shapiro
 - The Yearling — Marjorie Kinnan Rawlings
 - The Young Elites series — Marie Lu
 - The Zenith Angle — Bruce Sterling
@@ -2481,7 +2679,9 @@
 - Thermal Physics — Kittel and Cromer
 - Thermodynamics — Fermi
 - Thermodynamics and an Introduction to Thermostatistics — Herbert B. Callen
+- They Both Die at the End — Adam Silvera
 - Thief of Souls — Brian Klingborg
+- Thin Films in Tribology — Dowson, D.
 - Things Fall Apart — Chinua Achebe
 - Thinking Forth — Leo Brodie
 - Thinking from A to Z — Nigel Warburton
@@ -2491,6 +2691,7 @@
 - Thinking Physics — Lewis Carroll Epstein
 - Thinking with Type — Ellen Lupton
 - This Is How You Lose the Time War — Amal El-Mohtar; Max Gladstone
+- This Is Marketing — Seth Godin
 - Three Famous Short Novels — William Faulkner
 - Three Jews — Yuri Mukhin
 - Three Men in a Boat — Jerome K. Jerome
@@ -2504,6 +2705,7 @@
 - Timelines of World History: A Gorgeously Illustrated Guide with Key Dates from the Stone Age to the Year 2000 for Children (Ages 9-12) (Where's the...) — Jane Chisholm
 - Tinkerlab: A Hands-On Guide for Little Inventors — Rachelle Doorley
 - Tinkers — Paul Harding
+- Tiny House: Beginner's Guide to Minimalist Living: Building Your Small Home Guide — Carson Wyatt
 - Tipping Points — Liz Wheeler
 - Titanium Noir — Nick Harkaway
 - To Kill a Mockingbird — Harper Lee
@@ -2528,6 +2730,8 @@
 - Travels with My Aunt — Graham Greene
 - Trees of Golden Gate Park and San Francisco, The — Elizabeth McClintock
 - Tress of the Emerald Sea — Brandon Sanderson
+- Tribology and Mechanics of Magnetic Storage Devices — Bhushan, Bharat
+- Tribology: Friction and Wear of Engineering Materials — Ian M. Hutchings
 - Trout Fishing in America — Richard Brautigan
 - True Grit — Charles Portis
 - Trust — Hernan Diaz
@@ -2537,8 +2741,10 @@
 - Turtles All the Way Down — John Green
 - Twelve Landmarks of Twentieth-Century Analysis — Denis Choimet; Hervé Queffélec
 - Twilight — Stephenie Meyer
+- Two Scoops of Django — Daniel Greenfeld
 - Typee: A Peep at Polynesian Life — Herman Melville
 - Types and Programming Languages — Benjamin C. Pierce
+- Tyrant: Shakespeare on Politics — Stephen Greenblatt
 - U.S.A
 - Ukridge — P. G. Wodehouse
 - Ultima — Stephen Baxter
@@ -2547,12 +2753,14 @@
 - UML Distilled — Martin Fowler
 - Un Lun Dun — China Miéville
 - Uncle Petros and Goldbach's Conjecture — Apostolos Doxiadis
+- Unconventional Success — David F. Swensen
 - Undermajordomo Minor — Patrick deWitt
 - Understanding Physics — Isaac Asimov
 - Understanding Semiconductors — Corey Richard
 - Underworld — Don DeLillo
 - Une histoire populaire du baseball — Gaétan Alibert
 - Unitary Group Representations in Physics, Probability, and Number Theory — George Mackey
+- Universe: The Definitive Visual Guide — DK; Martin Rees (consultant)
 - Unix and Linux System Administration Handbook — Evi Nemeth, Garth Snyder, et al.
 - Unravelling Complexity — ed. Shyam Wuppuluri & Francisco Doria
 - Unsheltered — Barbara Kingsolver
@@ -2563,7 +2771,9 @@
 - Use of Weapons — Iain M. Banks
 - Useful Belief — Chris Helder
 - V for Vendetta — Alan Moore; David Lloyd
+- Vacuum Mechatronics — Beni, Gerardo
 - Valid — Chris Bergeron
+- Valuable Humans in Transit — qntm
 - Valuation — Tim Koller
 - Vector Calculus, Linear Algebra, and Differential Forms: A Unified Approach — John H. Hubbard; Barbara Burke Hubbard
 - Venture Deals  — Brad Feld; Jason Mendelson
@@ -2573,7 +2783,10 @@
 - Visual Complex Functions — Elias Wegert
 - Visual Group Theory — Nathan Carter
 - Vita Nostra — Marina Dyachenko; Sergey Dyachenko
+- Vladimir — Julia May Jonas
+- VLSI Technology — S. M. Sze
 - Vorkosigan Saga — Lois McMaster Bujold
+- Waiting for Godot — Samuel Beckett
 - Waking Up: Overcoming the Obstacles to Human Potential — Charles T. Tart
 - Walking Through Clear Water in a Pool Painted Black — Cookie Mueller
 - Walking Your Blues Away — Thom Hartmann
@@ -2587,7 +2800,9 @@
 - Way of the Peaceful Warrior — Dan Millman
 - Way Station — Clifford D. Simak
 - Wayfarers series — Becky Chambers
+- Ways of Seeing — John Berger
 - We Are Legion (We Are Bob) — Dennis E. Taylor
+- We Need To Talk: How to Have Conversations That Matter — Celeste Headlee
 - Wealth of Wisdom — Tom McCullough
 - Web Typography
 - Wedge’s Gamble
@@ -2600,6 +2815,7 @@
 - When I Say No, I Feel Guilty — Manuel J. Smith
 - When We Cease to Understand the World — Benjamín Labatut
 - Whisky Classified — Wishart, David Dr
+- White Noise — Don DeLillo
 - Who — Geoff Smart
 - Who Can Be Happy and Free in Russia — Nikolay A. Nekrasov
 - Who Moved My Cheese? — Spencer Johnson
@@ -2608,9 +2824,11 @@
 - Who Was Nikola Tesla? — Jim Gigliotti, Who HQ, et al.
 - Who Was Steve Jobs? — Pam Pollack, Meg Belviso, Who HQ, John O'Brien
 - Who Were the Wright Brothers? — James Buckley Jr.
+- Who's Got Your Back: The Breakthrough Program to Build Deep, Trusting Relationships That Create Success--And Won't Let You Fail — Keith Ferrazzi
 - Whole Earth Catalog — Stewart Brand (editor)
 - Whole Earth Epilog — Stewart Brand
 - Whoosh!: Lonnie Johnson's Super-Soaking Stream of Inventions — Chris Barton, Don Tate
+- Why Are We Yelling?: The Art of Productive Disagreement — Buster Benson
 - Why's Poignant Guide to Ruby — Why The Lucky Stiff
 - Wie der Bundesrat die Schweiz regiert: Und weshalb es trotzdem funktioniert — Walter Thurnherr
 - Wild Magic — Tamora Pierce
@@ -2619,6 +2837,7 @@
 - Wind-up Digger: A Toy and Book Gift Featuring a Hands-On Exploration Of Diggers And Construction Sites — Sarah Hull
 - Windows 95 System Programming Secrets — Matt Pietrek
 - Winesburg, Ohio — Sherwood Anderson
+- Winning the Story Wars — Jonah Sachs
 - Winning Ways for Your Mathematical Plays — Elwyn R. Berlekamp; John H. Conway; Richard K. Guy
 - Winter’s Heart — Robert Jordan
 - Wired for Story — Lisa Cron
@@ -2642,11 +2861,15 @@
 - Writing Secure Code — Michael Howard; David LeBlanc
 - Writing Solid Code — Steve Maguire
 - Writing to Learn — William Zinsser
+- Writing to the Moment — Tom Paulin
 - Writing Tools — Roy Peter Clark
 - XKCD — Randall Munroe
 - xUnit Test Patterns — Gerard Meszaros
 - Yamaha XJ600 SECA II 92-98 (Clymer Motorcycle Repair) — Clymer Publications
 - Yellowface — R. F. Kuang
+- Yes! 50 Scientifically Proven Ways to Be Persuasive — Noah J. Goldstein; Steve J. Martin; Robert B. Cialdini
+- You Can Negotiate Anything — Herb Cohen
+- You, Inc - The Art of Selling Yourself — Harry Beckwith and Christine Clifford Beckwith
 - Your Memory — Kenneth L. Higbee
 - Youth — J. M. Coetzee
 - Yumi and the Nightmare Painter — Brandon Sanderson

@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-24",
+  "previous": "data/intake_next_261024/compiled.json",
+  "sources": [
+    269,
+    270,
+    272,
+    276,
+    278,
+    283,
+    285
+  ],
+  "newSourceIds": 0,
+  "aliasesResolved": 199,
+  "updatedWorks": 23,
+  "newSourceLinks": 23,
+  "newRecommended": 25,
+  "newVetoed": 15,
+  "nonBooksRemoved": 18,
+  "closedCandidates": 323,
+  "malformedEntriesRepaired": 421,
+  "newExcluded": 64,
+  "pendingCandidates": 629,
+  "coverage": "partial",
+  "pendingFile": "data/intake_large_261024/pending.json",
+  "duplicateSourceCorrections": [
+    {
+      "aliasSource": 111,
+      "canonicalSource": 55,
+      "id": "fabric",
+      "title": "The Fabric of Civilization",
+      "oldSources": [
+        55,
+        111,
+        122,
+        141,
+        162,
+        212,
+        270
+      ],
+      "sources": [
+        55,
+        122,
+        141,
+        162,
+        212,
+        270
+      ],
+      "oldREL": 4.898979485566356,
+      "REL": 4.47213595499958,
+      "oldTotal": 97.47397948556637,
+      "total": 97.04713595499959,
+      "reason": "Identical publisher page, including the same ISBN URL; source 111 is historical alias 55, not another recommendation source."
+    }
+  ],
+  "distinctSourceLocations": 287,
+  "sourceRowsIncludingHistoricalAlias": 288
+}

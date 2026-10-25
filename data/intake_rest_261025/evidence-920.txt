@@ -1,0 +1,284 @@
+A general methodology for machine tool accuracy enhancement by error compensation - ScienceDirect (https://www.sciencedirect.com/science/article/pii/0141635986900590)
+citeturn255search0 [wordlim: 200] Crawled: 2 months ago; 
+
+## Precision Engineering
+
+Date: October 1986
+
+Pages: 187-196
+
+Volume: Volume 8, Issue 4
+
+## Published by: Elsevier
+
+# A general methodology for machine tool accuracy enhancement by error compensation
+
+Author links open overlay panel M.A. Donmez ^{∗}, D.S. Blomquist ^{∗}, R.J. Hocken ^{∗}, C.R. Liu ^{†}, M.M. Barash ^{†}
+
+Show more
+
+Cite
+
+Add to Mendeley
+
+Share
+
+10.1016/0141-6359(86)90059-0
+
+Access through your organizationPurchase PDF
+
+
+## Abstract
+
+A general methodology for increasing the accuracy of machine tools by compensating for the inherent systematic errors is described. This methodology in
+
+## Keywords
+
+machine tools
+
+;
+
+error compensation
+
+;
+
+accuracy
+
+;
+
+microprocessor control
+--------------------------------------------------------------------------------
+"A GENERAL METHODOLOGY FOR MACHINE TOOL ACCURACY ENHANCEMENT: THEORY, A" by M. ALKAN DONMEZ (https://docs.lib.purdue.edu/dissertations/AAI8529274/)
+citeturn255search1 [wordlim: 200] Crawled: last month; 
+
+# A GENERAL METHODOLOGY FOR MACHINE TOOL ACCURACY ENHANCEMENT: THEORY, APPLICATION AND IMPLEMENTATION (COMPENSATION, CNC, SOFTWARE)
+
+M. ALKAN DONMEZ, Purdue University
+
+#### Abstract
+
+The accuracy of a machine tool is the limiting factor in the accuracy of finished parts. Errors in the machine tool motion produce a one-to-one error correspondence in the final workpiece. These errors in motion are caused by geometric errors of the structural elements and by thermally-induced errors caused by the machining process itself. It is impossible to completely eliminate errors by design and/or manufacturing modifications. Even a small geometric error of one machine element will be amplified at the cutting tool by the long travel ranges of the slides and the tool offsets. Mechanical design cannot eliminate thermally-induced errors because of continuous heat generation by drive motors, friction in slideways, spindle and leadscrew bearings and the cutting tool-workpiece interface. Rather than attempting to eliminate errors, this study provides a methodology for predicting errors and compensating for them in real-time, thus improving the accuracy of machined workpieces. A general mathematical model is developed, determining the total error at the cutting tool tip contributed by the errors of each machine elements and their thermally-induced variations. Homogeneous coordinate transformations for each element of the machine tool are employed. In order to predict each error component, a methodology for the machine tool error calibration is determined. A flexible and modular software compensation system is developed based on the models created in the methodology. The compensation system predicts the errors of the machine tool using a combination of data taken from various sensors on the machine tool and established error relationships. Finally, the methodology is implemented on a two-axis turning center. The predictions for geometric and thermally-induced errors for this machine are generated using least squares curve fitting techniques on the error data. A single-board microprocessor-based system translates errors into servo counts, which are injected into the machine tool controller in real-time. To demonstrate the validity of the model and methodology, cutting tests were performed under transient thermal conditions on a computerized numerical control (CNC) turning center. Accuracy enhancements of up to 20 times were obtained.
+
+#### Degree
+
+Ph.D.
+
+#### Subject Area
+
+Industrial engineering--------------------------------------------------------------------------------
+Some guidelines for implementing error compensation on machine tools (https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5236.pdf)
+citeturn255search12 [wordlim: 200] Published: 9.5 years ago; 
+6. References
+1.
+M.A. Donmez, et
+al., "A General Methodology for Machine Tool Accuracy Enhancement
+by Error Compensation," Precision Engineering, vol.4, 1986.
+2.
+M.A. Donmez, et
+al., "A Generalized Mathematical Model for Machine Tool Errors," in
+Modeling, Sensing, and Control of Manufacturing Processes, Bk. No. H00370, K.
+Srinivasan, D.L.E. Hardt, and R. Komanduri, eds. (ASME, New York, 1987)
+3.
+R.P. Paul, Robot Manipulators: Mathematics, Programming, and Control, The MIT
+Press, 1981.
+4.
+C.S.G. Lee, "Robot Arm Kinematics," Tutorial on Robotics, IEEE Computer Society,
+Washington, DC, 1983.
+5.
+J. Tlusty, "Techniques for Testing Accuracy of NC Machine Tools," Proc. of 12th MTDR
+Conference, University of Manchester, Manchester, U.K., 1971.
+6.
+J. Denavit and R.S. Hartenberg, "A Kinematic Notation for Lower Pair Mechanisms
+Based on Matrices," Journal of Applied Mechanics, June 1955.
+7.
+W.T. Estler, "High-Accuracy Displacement Interferometry in Air," Applied Optics, vol. 24,
+No. 6, 1985.
+8.
+Hewlett Packard Laser Interferometer Model 5528 User Manual
+9.
+K. Harper, "Determination of the Geometric Thermal Errors of a Turning Machine," (to
+be published).
+10.
+M.A. Donmez, A General Methodology for Machine Tool Accuracy Enhancement-Theory,
+Application and Implementation,
+Ph.D. Dissertation, Purdue University, August 1985.
+55--------------------------------------------------------------------------------
+Advances in Industrial and Manufacturing Engineering 5 (2022) 100089 (https://mtrc.utk.edu/wp-content/uploads/sites/45/2022/07/machine-tool-error-compensation.pdf)
+citeturn255search13 [wordlim: 200] Published: 10 months ago; 
+Precis. Eng.
+1 (3).
+Donmez, M.A., 1985. A general methodology for machine tool accuracy enhancement:
+Upon assembly of the physical machine, the post-mortem, specific
+to each individual machine, and for a given process, can certainly be
+done. As an illustrative example, we may consider Schmitz et al. (2008)
+who compared the relative importance of error sources for a milling
+process using a general purpose CNC milling machine. Error sources
+studied included quasi-static geometric, thermal induced geometric,
+spindle thermal growth, contouring, and surface location errors due to
+stable forced vibrations in cutting. The effects of the first three sources
+on part dimensions was studied using an HTM approach integrated
+into a Monte Carlo simulation. The cutting force induced error was
+found to dominate, but it was reported that this component could
+become insignificant at slightly different cutting speeds. The machine
+effectively compensated for spindle thermal growth. Thermal growth
+of the machine contributed an additional and equal effect to the cold
+--------------------------------------------------------------------------------
+BIBLIOGRAPHY (https://pure.tue.nl/ws/files/1717013/400139.pdf)
+citeturn255search14 [wordlim: 200] Published: 10 months ago; 
+BIBLIOGRAPHY
+
+[33] M. A. Donmez. “A General methodology for machine tool accuracy: theory, application and implementation”. PhD thesis, Purdue university, 1985.
+
+[34] M. A. Donmez. “Progress report of the quality in automation project for FY90”. Technical Report NISTIR 4536, National Institute of Standards and Technology, Gaithersburg, MD 20899, 1991.
+
+[35] M. A. Donmez, D. S. Blomquist, R. J. Hocken, C. R. Liu, and M. M. Barash. “A general methodology for machine tool accuracy enhancement by error compensation”. Precision Engineering, 8(4):187–196, 1986.
+
+[36] M. A. Donmez, C. R. Liu, M. Barash, and F. Mirski. “Statistical analysis of positioning error of a CNC milling machine”. Journal of Manufacturing Systems, 1(1):33–41, 1986.
+
+[37] N. A. Duffie and S. J. Malmberg. “Error diagnosis and compensation using kinematic models and position error data”. Annals of the CIRP, 36(1):355–358, 1987.
+
+[38] N. A. Duffie and S. M. Yang. “Generation of parametric kinematic error-correction function from volumetric error measurements”. Annals of the CIRP, 34(1):435–438, 1985.
+
+[39] P. Dufour and R. Groppetti. “Computer aided accuracy improvement in large NC machine tools”. In MTDR Conference Proceedings, pages 611–617, 1980.
+
+[40] K. F. Eman, B. T. Wu, and M. F. DeVries. “A generalized geometric error model for multi-axis machines”. Annals of the CIRP, 36(1):253–256, 1987.
+
+[41] C. Ericson. “Machine alignment — The first step towards product accuracy”. ASTME, Tech. Paper MM66-171, 1966.
+
+[42] L. J. Everett, M. Driels, and B. W. Mooring. “Kinematic modelling for robot calibration”. In Proceedings of the 1987 IEEE International Conference on Robotics and Automation, pages 183–189, 1987.--------------------------------------------------------------------------------
+NAT'L
+INST. OF STAND & TECH
+NIST
+REFERENCE
+PUBLICA (https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6722.pdf)
+citeturn255search15 [wordlim: 200] Published: 1.9 years ago; 
+6.0 References
+1.
+Chatteijee, S., An Assessment of Quasi-Static and Operational Errors in NC Machine
+Tools, Journal of Manufacturing Systems, vol. 16,
+1, pp. 59-68, 1997.
+2.
+Chen, X.B., Geddam, S., Yuan, Z.J., Accuracy Improvement of Three-Axis CNC
+Machining Centers by Quasi-Static Error Compensation, journal of Manufacturing
+Systems, Vol 16, 5, pp. 323-336, 1997.
+3.
+Donmez, M.A., A General Methodology for Machine Tool Accuracy Enhancement:
+Theory, Application and Implementation, Ph.D. Thesis, Purdue University, 1985.
+4.
+Donmez, M.A., Blomquist, D.S., Hocken, R.J., Liu, C.R., Barash, M.M., A general
+methodology for machine tool accuracy enhancement by error compensation.
+Precision Engineering, 8, pp. 187-195, 1986.
+5.
+Donmez, M.A., Yee, K.W., Damazo, B., Some Guidelines for Implementing Error
+Compensation on Machine Tools, NISTIR 5236, National Institute of Standards and
+Technology, Gaithersburg, MD, 1993.
+6.
+Domdorf, U., Kiridena, V.S.B., Ferreira, P.M., Optimal Budgeting of Quasistatic
+Machine Tool Errors, Journal of Eng. for Industry, Vol.
+--------------------------------------------------------------------------------
+Machine Tool Metrology Archives - eMetrology (https://emetrology.com/metrology-type/machine-tool-metrology/)
+citeturn255search2 [wordlim: 200] Crawled: 5 months ago; 
+X. Zhang , Y.H. Zhang, S.M. Yang. Z. Li】
+
+  * ## Laser Interferometer
+
+A laser interferometer, uses a split laser source beam to compare a test surface against a high-quality, “perfect” reference surface with sub-nanometer resolution. For machine tool metrology, a laser interferometer is used to map the errors of the slide ways (straightness, perpendicularity, pitch, yaw, and roll of each axis). The most common measurement mode for a…
+
+Read More
+
+  * ## The Abbe principle revisited: an updated interpretation – Jim Bryan
+
+Read More The Abbe principle revisited: an updated interpretation – Jim Bryan
+
+  * ## A General Methodology for Machine Tool Accuracy Enhancement: Theory, Application and Implementation(compensation, CNC, Software)
+
+DONMEZ, M. ALKAN.   Purdue University ProQuest Dissertations & Theses,  1985. 8529274.
+
+Read More A General Methodology for Machine Tool Accuracy Enhancement: Theory, Application and Implementation(compensation, CNC, Software)--------------------------------------------------------------------------------
+Transactions on Engineering Sciences vol 16, © 1997 WIT Press, www.witpress.com, ISSN 1743-3533 (https://www.witpress.com/Secure/elibrary/papers/LAMDAMAP97/LAMDAMAP97027FU.pdf)
+citeturn255search16 [wordlim: 200] Published: last year; 
+Transactions on Engineering Sciences vol 16, © 1997 WIT Press, www.witpress.com, ISSN 1743-3533 
+316 
+Laser Metrology and Machine Performance
+5. Postlethwaite S.R. Electronic Based Accuracy Enhancement of CNC
+Machine Tools, Ph.D. Thesis, The University of Huddersfield, 1992.
+6. Donmez A. A General Methodology for Machine Tool Accuracy
+Enhancement Theory, Application and Implementation, Ph.D. Thesis,
+Purdue University, 1985.
+7. Kunzmann H. and Waldele F. Two Numerical Error Correction Methods for
+Coordinate Measuring Machines, Software for Coordinate Measuring
+Machines Conference, NPL, 1985.
+8. Voutsadopoulas C.M. Study of the Calibration and Accuracy Specification
+of Coordinate Measuring Machines, Ph.D. Thesis, UMIST, 1980.--------------------------------------------------------------------------------
+Machining accuracy enhancement by compensating for volumetric errors of a machine tool and on-machine measurement - ScienceDirect (https://www.sciencedirect.com/science/article/abs/pii/S0924013605003249)
+citeturn255search3 [wordlim: 200] Published: 20.4 years ago; Crawled: 2 months ago; 
+It is also useful because the error model can be expressed with a few characteristic parameters that can be determined by various methods [4].
+
+First, it is
+
+### Error compensation and on-machine measurement
+
+Up to now, two approaches to predict the positioning errors of a tool tip are explained. In this section, some machining experiments are performed to verify the effectiveness of the suggested approach. A touch trigger probe is used to measure the machined parts while they still stay on the machine table. We can separate the machining errors from the OMM data since we have already constructed the error map by the explained modeling technique. These machining errors are compensated for by editing
+
+### Conclusion
+
+A general methodology to improve the machining accuracy is suggested and verified in this research. With the parametric modeling technique, positioning errors at any tool point within the work volume of a machine tool could be predicted as accurately as those predicted with the existing volumetric model. The parametric model can reduce the calibration time and cost because it requires the measurement data at only 14 positions from four body diagonal measurements.
+
+An OMM system with a touch
+
+## References (9)
+
+  * R. Ramesh et al.
+
+### Error compensation in machine tools—a review Part 1: geometric, cutting-force induced and fixture-dependent errors
+
+### Int. J. Mach. Tools Manufact.
+
+(2000)
+
+  * M.A. Donmez et al.
+
+### A general methodology for machine tool accuracy enhancement by error compensation
+
+### Prec. Eng.
+
+(1986)
+
+  * J. Mou et al.
+
+### A method for enhancing the accuracy of CNC machining tools for on-machining inspection
+
+### J. Manuf. Syst.
+
+(1992)
+
+  * D. Lin et al.
+
+### Direct volumetric error evaluation for multi-axis machines
+
+### Int. J. Mach. Tools Manufact.
+
+(1993)
+
+There are more references available in the full text version of this article.
+
+View full text--------------------------------------------------------------------------------
+98
+
+16. Donmez, A., *A General Methodology For Mac (https://constellation.uqac.ca/id/eprint/617/1/24044342.pdf)
+citeturn255search17 [wordlim: 200] Crawled: 20.7 years ago; 
+98
+
+16. Donmez, A., *A General Methodology For Machine Tool Accuracy Enhancement - Theory, Application and Implementation*, Perdue University, W. Lafayette, Indiana, 1985.
+
+17. Ferreira, P.M. and Liu, C.R., *A Contribution to the Analysis and Compensation of the Geometric Error of Machining Center*, Annals of CIRP, Vol. 1, 1986.
+
+18. Kiridena, V.S.B. and Ferreira, P.M., *Mapping the Effects of Positioning Errors on the Volumetric Accuracy of Five-Axis CNC Machine Tools*, Journal of Machine Tools Manufacturing, Vol. 33, 1993.
+
+19. Kiridena, V.S.B. and Ferreira, P.M., *Kinematic Modeling of Quasistatic Errors of Three-Axis Machining Centers*, Journal of Machine Tools Manufacturing, Vol. 1, 1994.
+
+20. Eman, K.F. and Wu, B.T., *A Generalized Geometric Error Model For Multi-Axis Machine*, Annals of CIRP, Vol. 1, 1987.
+
+21. Lin, P.D. and Ehmann, K.F., *Direct Volumetric Error Evaluation for Multi-Axis Machines*, Journal of Machine Tools Manufacturing, Vol. 5, 1993.
+
+22. Takeuchi, Y., Sakamoto, M. and Sata, T., *Improvement in the Working Accuracy of an NC Lathe by Compensation for Thermal expansion*, Journal of Precision Engineering, Vol. 

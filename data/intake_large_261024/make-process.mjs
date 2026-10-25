@@ -1,0 +1,28 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+let s=fs.readFileSync('data/intake_next_261024/process.mjs','utf8');
+function rep(a,b){assert(s.includes(a),a);s=s.replace(a,b);}
+rep("const dir='data/intake_next_261024'","const dir='data/intake_large_261024'");
+rep("const previous='data/intake_continue_261024/compiled.json'","const previous='data/intake_next_261024/compiled.json'");
+rep("278:'sinclarius',284:","278:'sinclarius',283:'ashod',284:");
+rep("stamp='261024_2330'","stamp='261024_2353'");
+rep("b.status='recommended';b.entryDate", "b.status=b.status||'recommended';b.entryDate");
+rep("b.periodConfidence=b.id==='next-rivas'?'low':'moderate'", "b.periodConfidence=b.periodEnd==null?'moderate':'low'");
+rep("editions[b.id]={", "if(b.pages>0)editions[b.id]={");
+rep("const id='next-ex-'", "const id='large-ex-'");
+const start=s.indexOf("const queue=read('data/intake_continue_261024/pending.json');"),end=s.indexOf("write(dir+'/pending.json'",start);assert(start>0&&end>start);
+s=s.slice(0,start)+`const queue=read(dir+'/cleaned.json'), nonbooks=read(dir+'/nonbooks.json');
+const closed=new Set([...resolved.map(x=>x.index),...read(dir+'/exclusions.json').map(x=>x.index),...nonbooks.map(x=>x.index),...newBooks.flatMap(b=>b.indices)]);
+const pending=queue.filter(x=>!closed.has(x.index));
+assert.equal(pending.length+closed.size,queue.length);
+`+s.slice(end);
+rep("if(!r){assert.equal(status,'recommended');r=[b.entryDate,''+b.year,b.author,b.titleCell,'','','','Unknown',link(b.pages,b.metadata),b.referencePages==null?'Unknown':link(b.referencePages,b.metadata),''];}","if(!r){const pg=b.pages>0?link(b.pages,b.metadata):'Unknown';r=status==='recommended'?[b.entryDate,''+b.year,b.author,b.titleCell,'','','','Unknown',pg,b.referencePages==null?'Unknown':link(b.referencePages,b.metadata),'']:[b.entryDate,''+b.year,b.author,link(b.title,b.scoreReview),'',b.veto,b.vetoConfidence,'',pg,'Unknown','',''];}");
+rep("write(file,lines.filter(l=>!/^\\| \\d{4}-/.test(l)).join('\\n').trimEnd()+'\\n'+out.join('\\n')+'\\n');", "const header=lines.filter(l=>!/^\\| \\d{4}-/.test(l)).join('\\n').replace(/\\d+ unique works\\./,out.length+' unique works.');write(file,header.trimEnd()+'\\n'+out.join('\\n')+'\\n');");
+rep("...newExcluded.flatMap(b=>b.sources)]).sort", "...newExcluded.flatMap(b=>b.sources),...nonbooks.map(b=>b.source)]).sort");
+rep("if(b.status==='vetoed')out+=`Veto retained:", "if(b.status==='vetoed')out+=`Veto decision:");
+rep(" / ${b.pages} pages;", " / ${b.pages??'unknown'} pages;");
+rep("write(report(source),out);", "const omitted=nonbooks.filter(x=>x.source===source);if(omitted.length)out+='\\n## Non-book references\\n\\n'+omitted.map(x=>'- '+esc(x.title)+': '+x.reason).join('\\n')+'\\n';write(report(source),out);");
+rep("newRecommended:newBooks.length,newVetoed:0", "newRecommended:newBooks.filter(b=>b.status==='recommended').length,newVetoed:newBooks.filter(b=>b.status==='vetoed').length,nonBooksRemoved:nonbooks.length,closedCandidates:closed.size,malformedEntriesRepaired:421");
+rep("${newBooks.length} new eligible books scored, ${newExcluded.length} works hard excluded (fiction or technical curriculum). No new veto decisions.", "${result.newRecommended} new eligible books scored, ${result.newVetoed} new vetoes with full counterfactual scores, and ${newExcluded.length} works hard excluded (fiction or technical curriculum). ${nonbooks.length} non-book references removed from the queue. ${closed.size} source/title candidates resolved; 421 malformed source-283 title/author records repaired. These counts overlap and must not be added together.");
+rep("// Apply only individually reviewed", "// Do not rerun after another intake; this integrator is tied to the stated baseline.\nassert.equal(read('data/catalog.json').compiled,previous,'Catalog advanced; rebase this intake before applying.');\n// Apply only individually reviewed");
+fs.writeFileSync('data/intake_large_261024/process.mjs',s);
