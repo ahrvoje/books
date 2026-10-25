@@ -74,13 +74,38 @@ export const DEFAULT_COLUMNS = [...CORE_COLUMNS];
 const columnNames = { E: 'Evidence', S: 'Systems integration', U: 'Strategic utility', M: 'Causal depth', D: 'Information density',
   R: 'Durability', F: 'Domain fit', A: 'Expert authority', N: 'Narrative clarity', P: 'Prose precision', T11: 'Unwanted theme',
   T12: 'Secondary topic', H13: 'Topic age', P14: 'Publication age', O15: 'Amazon ratings', PG: 'Pages', RP: 'Reference pages', SRC: 'Sources' };
+const columnDescriptions = {
+  E: 'Reliability of evidence and reasoning', S: 'Connections between systems and disciplines',
+  U: 'Lessons useful across different situations', M: 'Explanation of causes and mechanisms',
+  D: 'Useful learning per page', R: 'Usefulness beyond current trends',
+  F: 'Fit with preferred subject areas', A: 'Author expertise and specialist recognition',
+  N: 'Clear structure and cumulative explanation', P: 'Precise language and disciplined writing',
+  T11: 'Unwanted theme dominates the book', T12: 'Secondary subject dominates the book',
+  H13: 'Years since historical period ended', P14: 'Years since original publication',
+  O15: 'Amazon ratings for one product', REL: 'Bonus for distinct recommending sources',
+  RD: 'Bonus for reference page proportion', SCI: 'Scientific explanations and physical principles',
+  QNT: 'Mathematical models and uncertainty', CMP: 'Computing, software and information',
+  HTC: 'Advanced technologies and instruments', ENG: 'Engineering design and technical tradeoffs',
+  ENE: 'Energy generation, storage and efficiency', MAT: 'Materials, resources and their constraints',
+  PRD: 'Manufacturing capacity and industrial productivity', QLT: 'Quality, reliability and measurement precision',
+  LOG: 'Transport, distribution and infrastructure', TRD: 'Trade and global supply relationships',
+  SCL: 'Scaling technology and overcoming limits', INN: 'Invention, experimentation and improvement',
+  INS: 'Institutions, incentives and organizational coordination', ECO: 'Economic development and living standards',
+  FIN: 'Investment, credit and financial risk', POL: 'Policy, regulation and government capability',
+  MIL: 'Military resources, doctrine and operations', STR: 'Competition, geography and strategic risk',
+  HEU: 'Practical reasoning and decision shortcuts', SRC: 'Number of distinct recorded sources',
+  PG: 'Pages in the recorded edition', RP: 'Pages of references or endnotes',
+  COV: 'Coverage of your chosen subjects', FLOOR: 'Coverage of your weakest subject',
+  LINK: 'Strength of connected subject coverage', SPAN: 'Subjects within one connected explanation',
+  ORDER: 'Subjects sharing one causal mechanism', FIT: 'Connected coverage adjusted for gaps'
+};
 export const COLUMNS = [
-  { id: 'year', label: 'Original year', short: 'Year', kind: 'metadata' },
-  { id: 'periodEnd', label: 'Central historical period end', short: 'Period end', kind: 'metadata' },
-  { id: 'base', label: 'Repository baseline', short: 'Baseline score', kind: 'metadata' },
+  { id: 'year', label: 'Original year', short: 'Year', kind: 'metadata', tooltip: 'Year first published or originally composed' },
+  { id: 'periodEnd', label: 'Central historical period end', short: 'Period end', kind: 'metadata', tooltip: 'Last year of the main historical period' },
+  { id: 'base', label: 'Repository baseline', short: 'Baseline score', kind: 'metadata', tooltip: 'Original score before your scoring changes' },
   ...REGISTRY.flatMap(r => [
-    { id: `raw:${r.id}`, label: `${r.name} — raw ${r.unit}`, short: columnNames[r.id] || r.name, kind: 'raw', variable: r.id },
-    { id: `points:${r.id}`, label: `${r.name} — contribution to current score`, short: `${columnNames[r.id] || r.name} points`, kind: 'points', variable: r.id }
+    { id: `raw:${r.id}`, label: `${r.name} — raw ${r.unit}`, short: columnNames[r.id] || r.name, kind: 'raw', variable: r.id, tooltip: columnDescriptions[r.id] },
+    { id: `points:${r.id}`, label: `${r.name} — contribution to current score`, short: `${columnNames[r.id] || r.name} points`, kind: 'points', variable: r.id, tooltip: `Score impact: ${columnDescriptions[r.id].toLowerCase()}` }
   ])
 ];
 export const COLUMN_BY_ID = Object.fromEntries(COLUMNS.map(c => [c.id, c]));
