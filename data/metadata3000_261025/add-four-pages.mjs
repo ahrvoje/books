@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+const dir='data/metadata3000_261025',p=dir+'/manual.json',m=JSON.parse(fs.readFileSync(p)),now=new Date().toISOString();
+const rows=[
+['complete-437-318','The Complete Guide to Absolutely Everything (Abridged): Adventures in Math and Science','Adam Rutherford; Hannah Fry',304,2022,'9780393881578','Hardcover','https://www.kirkusreviews.com/book-reviews/adam-rutherford/the-complete-guide-to-absolutely-everything-abridg/','retail-pages-0012.json'],
+['shelf-b53adef3da78','Carlo Scarpa: The Complete Buildings','Emiliano Bugatti',352,2024,'9783791377148','Hardcover','https://www.penguinrandomhouse.com/books/742382/carlo-scarpa-by-emiliano-bugatti/','retail-pages-0016.json'],
+['rest-77-69','Pronoun Trouble: The Story of Us in Seven Little Words','John McWhorter',240,2025,'9780593713280','Print edition (binding unspecified)','https://www.kirkusreviews.com/book-reviews/john-mcwhorter/pronoun-trouble/','retail-pages-0024.json'],
+['shelf-58e433e822eb','The Sources of Social Power: Volume 1, A History of Power from the Beginning to AD 1760','Michael Mann',578,2012,'9781107635975','Paperback','https://www.dymocks.com.au/the-sources-of-social-power-volume-1-a-history-of-power-from-the-beginning-to-ad-1760-by-michael-mann-9781107635975','retail-pages-0032.json']
+];
+for(const [id,title,authors,pages,year,isbn,format,url,file] of rows){m[id]||={};m[id].edition={id:'ISBN:'+isbn,title,authors,pages,year,isbn13:[isbn],format,language:'English',url,retrieved:now,confidence:'moderate',source:{file:dir+'/raw/'+file,url,retrieved:now,evidence:title+'; '+authors+'; ISBN '+isbn+'; explicit page count '+pages},notes:'Edition-specific page count from publisher, bookseller or review bibliographic metadata. Dates corroborated in four-pages-proof.json. '+(id==='shelf-58e433e822eb'?'Second edition of volume one, not a chapter or the full four-volume series.':id==='shelf-b53adef3da78'?'Publisher total 352; library numbered extent 351 differs by one page.':'')};}
+fs.writeFileSync(p,JSON.stringify(m,null,2)+'\n');

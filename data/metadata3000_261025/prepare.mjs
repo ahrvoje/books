@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+const dir='data/metadata3000_261025';
+const read=p=>JSON.parse(fs.readFileSync(p));
+fs.mkdirSync(dir+'/raw',{recursive:true});
+if(fs.existsSync(dir+'/targets.json'))throw Error('Baseline already exists');
+const baseline=read('data/catalog.json'),c=read(baseline.compiled),e=read('site/editions.json'),n=read('site/enrichment.json').books,r=read('site/reference-pages.json');
+const targets=c.currentBooks.filter(b=>b.status==='recommended').sort((a,b)=>b.total-a.total||a.title.localeCompare(b.title)).map((b,i)=>({id:b.id,title:b.title,author:b.author,rank:i+1,year:b.year||b.production?.year||+b.firstYear,total:b.total,titleCell:b.titleCell,purchaseUrl:b.purchaseUrl,amazon:b.amazon?.count!=null?{count:b.amazon.count,asin:b.amazon.asin,url:b.amazon.url}:null,edition:n[b.id]?.edition||e[b.id]||null,reference:r[b.id]}));
+for(const [name,v]of Object.entries({'baseline.json':baseline,'targets.json':targets,'input-hashes.json':Object.fromEntries(['RECOMMENDED_BOOKS.md','VETOED_BOOKS.md','EXCLUDED_BOOKS.md','site/editions.json','site/reference-pages.json','site/enrichment.json','data/catalog.json',baseline.compiled].map(p=>[p,crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex')]))}))fs.writeFileSync(dir+'/'+name,JSON.stringify(v,null,2)+'\n');
+console.log({books:targets.length,missingPages:targets.filter(b=>!b.edition).length,missingRatings:targets.filter(b=>!b.amazon).length,missingReferences:targets.filter(b=>b.reference.pages==null).length});

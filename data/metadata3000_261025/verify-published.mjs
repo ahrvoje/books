@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import assert from 'node:assert/strict';
+const dir='data/metadata3000_261025';
+const read=p=>JSON.parse(fs.readFileSync(p));
+for(const [canonical,candidate] of [['RECOMMENDED_BOOKS.md','candidate-recommended.md'],['site/editions.json','candidate-editions.json'],['site/reference-pages.json','candidate-reference-pages.json'],['site/enrichment.json','candidate-enrichment.json']])assert(fs.readFileSync(canonical).equals(fs.readFileSync(dir+'/'+candidate)),canonical);
+assert.equal(read('data/catalog.json').compiled,dir+'/compiled.json');
+const hashes=read(dir+'/input-hashes.json');
+for(const p of ['VETOED_BOOKS.md','EXCLUDED_BOOKS.md','data/shelves_261025/scored-compiled.json'])assert.equal(crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex'),hashes[p],p);
+assert(fs.readFileSync(read(dir+'/summary.json').report).equals(fs.readFileSync(dir+'/analysis.md')));
+console.log('Published files match validated candidates; excluded, vetoed and historical catalog files are unchanged.');

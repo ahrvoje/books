@@ -1,0 +1,8 @@
+import fs from 'node:fs';
+const dir='data/metadata3000_261025',m=JSON.parse(fs.readFileSync(dir+'/manual.json')),targets=JSON.parse(fs.readFileSync(dir+'/targets.json'));
+const source={file:dir+'/raw/page-corrections-evidence.json',retrieved:'2026-10-25'};
+const url='https://www.penguinrandomhouse.com/books/639563/how-minds-change-by-david-mcraney/';
+m.naa8f588553={correctEdition:{id:'ISBN:0593190297',title:'How Minds Change: The Surprising Science of Belief, Opinion, and Persuasion',authors:'David McRaney',pages:352,year:2022,publisher:'Portfolio',format:'Hardcover',language:'English',isbn10:['0593190297'],isbn13:['9780593190296'],url,source:{...source,url,evidence:'Publisher lists 352 pages, hardcover, 21 June 2022, ISBN 9780593190296.'},retrieved:'2026-10-25',confidence:'high',notes:'Replaces an Open Library prepublication-style record dated 2019 with 256 pages. The published 2022 hardcover is confirmed by its publisher as 352 pages. Separate bibliographic records describe xx, 330 numbered pages; 352 is the publisher’s full extent.'}};
+const b=targets.find(x=>x.id==='g0757');
+m.g0757={correctEdition:{...b.edition,year:2019,notes:(b.edition.notes||'')+' Corrected the erroneous 1900 edition-year value to 2019. The publisher and Manitoba Legislative Library confirm publication in 2019; the existing 224-page count is retained.',source:{...source,url:'https://www.penguinrandomhouse.com/books/610434/taken-for-granted-by-gianno-caldwell/',evidence:'Publisher: Gianno Caldwell, Taken for Granted, published 12 November 2019. Manitoba library also records the first edition as Crown Forum, 2019.'}}};
+fs.writeFileSync(dir+'/manual.json',JSON.stringify(m,null,2));

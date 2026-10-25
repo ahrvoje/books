@@ -1,0 +1,7 @@
+import fs from 'node:fs';
+const dir='data/metadata3000_261025',p=dir+'/manual.json',m=JSON.parse(fs.readFileSync(p)),now=new Date().toISOString();
+const add=(id,e,file,evidence)=>{m[id]||={};m[id].edition={...e,retrieved:now,confidence:'moderate',source:{file:dir+'/raw/'+file,url:e.url,retrieved:now,evidence},notes:'Documented edition-specific page count. '+(e.notes||'')};};
+add('progress-0591',{id:'ISBN:9780241298824',title:'Engineers',authors:'Adam Hart-Davis; DK (publisher)',publisher:'DK',pages:360,year:2017,format:'Hardback',language:'English',isbn13:['9780241298824'],url:'https://dk.com/products/9780241298824-engineers',notes:'The ledger credits the publisher, DK; the publisher product page names Adam Hart-Davis.'},'manual-page-followup-proof.json','DK product page: Engineers by Adam Hart-Davis; ISBN 9780241298824, Hardback, 3 April 2017, 360 pages.');
+add('shelf-d50477494380',{id:'ISBN:9780984898602',title:'Lessons From Century Club Companies: Managing for Long-Term Success',authors:'Vicki Tenhaken',publisher:'Spinner Press',pages:164,year:2016,format:'Paperback',language:'English',isbn13:['9780984898602'],url:'https://booksplea.se/lessons-from-century-club-companies-managing-for-long-term-success-by-vicki-tenhaken-9780984898602/?setCurrencyId=2'},'century-pages-search.json','ISBN 9780984898602; Vicki Tenhaken; paperback; page count 164. Year corroborated by Goodreads search snapshot page-followup-b.json.');
+fs.writeFileSync(p,JSON.stringify(m,null,2)+'\n');
+

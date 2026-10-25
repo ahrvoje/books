@@ -1,0 +1,7 @@
+import fs from 'node:fs';
+const dir='data/metadata3000_261025',s=JSON.parse(fs.readFileSync(dir+'/summary.json')),p='README.md';
+let text=fs.readFileSync(p,'utf8');
+const paragraph=`Third metadata round, 25 October 2026: [evidence and score report](${s.report}). Filled **${s.allNewFields} missing fields across ${s.allAffectedBooks} recommended books**: **${s.numericDataPoints} numeric fields** (${s.pagesAdded} page counts, ${s.referenceCountsAdded} reference-page counts and ${s.ratingsAdded} Amazon rating aggregates), plus **${s.editionDetailFields} supporting edition fields** (publisher, catalogued pagination, ISBN, edition year or binding). This is not 3,000 new numeric counts. Also corrected ${s.pageCountsCorrected} existing page counts and ${s.otherEditionCorrections} other edition records, changed ${s.searchLinksReplaced+s.editionLinksUpdated} purchase links and recalculated ${s.scoresChanged} scores. No verified zero-rating case was found. Cached counts retain snapshot limits; live Amazon endpoints remain unverified. Metadata confidence is generally moderate; cross-edition ratios have low confidence. The current catalog is \`data/metadata3000_261025/compiled.json\`; membership, source IDs and raw content assessments are unchanged.`;
+if(!text.includes('Third metadata round,'))text=text.replace('## Use\n\n','## Use\n\n'+paragraph+'\n\n');
+text=text.replace('The active catalog is `data/metadata2_261025/compiled.json`.','That round’s historical snapshot is `data/metadata2_261025/compiled.json`.');
+fs.writeFileSync(p,text);

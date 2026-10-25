@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Amazon ASIN Lookup - Product Details, Price &amp; Reviews by ASIN or UPC</title>
+    <meta name="description" content="Free Amazon ASIN lookup. Enter an ASIN, an Amazon URL, or a UPC / EAN / ISBN and see the product&#039;s title, brand, price, rating, availability, categories, variations, and top reviews on any Amazon marketplace.">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="canonical" href="https://keywordseverywhere.com/tools/amazon-asin-lookup/">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Free Marketing Tools by Keywords Everywhere">
+        <meta property="og:title" content="Amazon ASIN Lookup - Product Details by ASIN, URL, or UPC by Keywords Everywhere">
+    <meta property="og:description" content="Free Amazon ASIN lookup. Enter an ASIN, an Amazon URL, or a UPC / EAN / ISBN and see the product&#039;s title, brand, price, rating, availability, categories, variations, and top reviews on any Amazon marketplace.">
+    <meta property="og:url" content="https://keywordseverywhere.com/tools/amazon-asin-lookup/">
+        <meta property="og:image" content="https://keywordseverywhere.com/tools/assets/img/og-cards/amazon-asin-lookup.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@keywordsevery">
+        <meta name="twitter:title" content="Amazon ASIN Lookup - Product Details by ASIN, URL, or UPC by Keywords Everywhere">
+    <meta name="twitter:description" content="Free Amazon ASIN lookup. Enter an ASIN, an Amazon URL, or a UPC / EAN / ISBN and see the product&#039;s title, brand, price, rating, availability, categories, variations, and top reviews on any Amazon marketplace.">
+        <meta name="twitter:image" content="https://keywordseverywhere.com/tools/assets/img/og-cards/amazon-asin-lookup-twitter.png">
+                        <script src="../assets/js/ke-analytics.js?v=21789892674" data-umami-src="https://freewebsiteanalytics.net/script.js" data-umami-website-id="35a99acc-04ff-40be-ad96-a450988077b3"></script>
+        <link rel="icon" type="image/png" href="../assets/img/keywords-everywhere-logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/css/pe-icon-7-stroke.css?v=21779343221">
+    <link rel="stylesheet" href="../assets/css/tools.css?v=21792501589">
+        <link rel="stylesheet" href="https://keywordseverywhere.com/css/ke-header.css?v=c8b4633e">
+        <link rel="stylesheet" href="https://keywordseverywhere.com/css/ke-footer.css?v=e007a1e3">
+        <link rel="stylesheet" href="../assets/css/amazon-lookup-tool.css?v=21792498180">        <link rel="stylesheet" href="../assets/css/tools-skin.css?v=21792509328">   <!-- the redesign skin, last so it wins (docs/site-redesign.md) -->
+                    <script>
+            window.KE_RECAPTCHA = {
+                enabled: true,
+                siteKey: "6LfyirUUAAAAAD9xhtDTsQD-i1JQMFqZJ87bW9io"            };
+        </script>
+        <script src="https://www.google.com/recaptcha/api.js?render=6LfyirUUAAAAAD9xhtDTsQD-i1JQMFqZJ87bW9io" async defer></script>
+        <script src="../assets/js/recaptcha.js?v=21779343221"></script>
+            <script>
+        window.KE_FAVORITES = {
+            enabled: false,
+            endpoint: "..\/favorites\/api.php"        };
+    </script>
+            <script>
+        window.KE_SIGNIN_NUDGE = { loginUrl: "\/tools\/login\/?return=%2Ftools%2Famazon-asin-lookup%2F" };
+    </script>
+    <script defer src="../assets/js/signin-nudge.js?v=21789312465"></script>
+            <script src="../assets/js/url-safety.js?v=21779343221"></script>
+    <script src="../assets/js/favorites.js?v=21781699149"></script>
+    <script src="../assets/js/keyword-table-tools.js?v=21782064318"></script>
+    <script src="../assets/js/clipboard-table.js?v=21782064318"></script>
+    <script src="../assets/js/debug-sql.js?v=21781609202"></script>
+    <script src="../assets/js/crosslinks.js?v=21779343221"></script>
+    <script src="../assets/js/details-modal.js?v=21788443974"></script>
+    <script src="../assets/js/wysiwyg.js?v=21779343221"></script>
+    <script src="../assets/js/serp-location-pref.js?v=21779343221"></script>
+    <script src="../assets/js/back-to-top.js?v=21779384367" defer></script>
+        <script src="../assets/js/tool-rail.js?v=21792508546" defer></script>
+    <script src="../assets/js/quota-banner.js?v=21789312465"></script>
+    <script src="../assets/js/mobile-columns.js?v=21779608341"></script>
+    <script src="../assets/js/no-autofill.js?v=21779608341"></script>
+    </head>
+<body>
+        <header class="ke-hdr" id="ke-hdr">
+<div class="ke-hdr__in">
+<a class="ke-hdr__brand ke-hdr__brand--section" href="https://keywordseverywhere.com/"><img src="https://keywordseverywhere.com/img/keywords-everywhere-logo.png" alt="" width="38" height="38"><span class="ke-hdr__lockup"><span class="ke-hdr__name">Marketing Tools</span><span class="ke-hdr__by">by Keywords Everywhere</span></span></a>
+<button class="ke-hdr__toggle" type="button" aria-expanded="false" aria-controls="ke-hdr-menu" aria-label="Menu"><span></span><span></span><span></span></button>
+<div class="ke-hdr__menu" id="ke-hdr-menu">
+<nav class="ke-hdr__nav" aria-label="Site">
+<a class="ke-hdr__link is-active" href="https://keywordseverywhere.com/tools/">Free Tools</a>
+<a class="ke-hdr__link" href="https://keywordseverywhere.com/ctl/subscriptions">Pricing</a>
+<a class="ke-hdr__link" href="https://keywordseverywhere.com/frequently-asked-questions.html">FAQ</a>
+<a class="ke-hdr__link" href="https://keywordseverywhere.com/contact.html">Contact</a>
+</nav>
+<nav class="ke-hdr__nav ke-hdr__nav--section" aria-label="Section">
+<a class="ke-hdr__link ke-hdr__link--section" href="/tools/embed/">Embed these tools</a>
+</nav>
+<div class="ke-hdr__account">
+<a class="ke-hdr__pill" href="https://keywordseverywhere.com/account/sign-in">Sign in</a>
+</div>
+</div>
+</div>
+<script>(function(){var h=document.getElementById('ke-hdr'),b=h.querySelector('.ke-hdr__toggle'),m=h.querySelector('.ke-hdr__menu');b.addEventListener('click',function(){var o=h.classList.toggle('is-open');b.setAttribute('aria-expanded',o?'true':'false');});document.addEventListener('keydown',function(e){if(e.key==='Escape'&&h.classList.contains('is-open')){h.classList.remove('is-open');b.setAttribute('aria-expanded','false');}});})();</script>
+</header>
+            <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-main">
+                                <nav class="page-hero-crumbs" aria-label="Breadcrumb"><a href="../">Free tools</a><span aria-hidden="true">/</span><a href="../#amazon">Amazon Tools</a></nav>
+                                                <h1><span class="page-hero-icon"><svg class="ke-icon" aria-hidden="true" focusable="false"><use href="../assets/img/ke-icons.svg?v=21792496978#i-pe-7s-search"></use></svg></span>Amazon ASIN Lookup</h1>
+                                                    <p class="page-hero-description">Enter an ASIN, Amazon URL, or UPC and see the product title, price, rating, availability, variations, and top reviews.</p>
+                            </div>
+                    </div>
+    </section>
+        <main class="tool-main">
+        <div class="container">
+
+            <section class="tool-form-card">
+                <p class="aml-intro">Look up any Amazon product by ASIN, product URL, or UPC / EAN / ISBN and see its title, brand, price, rating, availability, categories, variations, and top reviews on the marketplace you choose.</p>
+                <div class="aml-row">
+                    <div class="aml-field aml-field-grow">
+                        <label class="aml-label" for="aal-input">ASIN, Amazon URL, or UPC / EAN / ISBN</label>
+                        <input type="text" id="aal-input" class="text-input aml-text" placeholder="B0CHX3QBCH, https://www.amazon.com/dp/B0CHX3QBCH, or 194253001348" autocomplete="off" spellcheck="false">
+                    </div>
+                    <div class="aml-field aml-field-sm">
+                        <label class="aml-label" for="aal-market">Marketplace</label>
+                        <select id="aal-market" class="aml-select">
+                                                        <option value="com">United States (amazon.com)</option>
+                                                        <option value="co.uk">United Kingdom (amazon.co.uk)</option>
+                                                        <option value="ca">Canada (amazon.ca)</option>
+                                                        <option value="de">Germany (amazon.de)</option>
+                                                        <option value="fr">France (amazon.fr)</option>
+                                                        <option value="it">Italy (amazon.it)</option>
+                                                        <option value="es">Spain (amazon.es)</option>
+                                                        <option value="nl">Netherlands (amazon.nl)</option>
+                                                        <option value="com.au">Australia (amazon.com.au)</option>
+                                                        <option value="in">India (amazon.in)</option>
+                                                        <option value="com.mx">Mexico (amazon.com.mx)</option>
+                                                    </select>
+                    </div>
+                    <button type="button" class="primary-btn" id="aml-submit" data-base-label="Look Up">Look Up</button>
+                </div>
+                <div class="aml-progress" id="aml-progress" hidden><span class="aml-spinner"></span> Fetching the product page, usually under a minute...</div>
+            </section>
+
+            <aside class="quota-chip" id="aml-quota-chip" hidden>
+                <span class="quota-chip-icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+                <span class="quota-chip-text" id="aml-quota-text"></span>
+                <a class="quota-chip-upgrade" id="aml-quota-upgrade" href="https://keywordseverywhere.com/ctl/subscriptions" hidden>Upgrade</a>
+            </aside>
+
+            <div class="aml-errors" id="aml-errors" hidden></div>
+
+            <section class="aml-results" id="aml-results" hidden>
+                <div id="aal-card"></div>
+            </section>
+
+            <section class="aml-history" id="aml-history-region" hidden>
+                <h2 class="aml-history-title">Recent lookups</h2>
+                <ul class="aml-history-list" id="aml-history-list"></ul>
+            </section>
+
+            <aside class="upgrade-banner upgrade-banner--signin" aria-label="Sign in for a higher daily limit"><div class="upgrade-banner-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="4"/><path d="M10.85 12.15 19 4"/><path d="M18 5l2 2"/><path d="M15 8l2 2"/></svg></div><div class="upgrade-banner-text"><strong>Sign in to double your daily limit</strong><span>Without signing in you get 5 Amazon lookups per day. Signed in, you get 10.</span></div><a class="primary-btn upgrade-banner-cta" href="/tools/login/?return=%2Ftools%2Famazon-asin-lookup%2F"><span>Sign in</span><svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></aside>
+            <section class="tool-info" id="tool-info" aria-label="About this tool">
+                <div class="tool-info-block tool-info-block--static">
+                    <h2 class="tool-info-heading">How it works</h2>
+                    <div class="tool-info-body">
+                        <p>Paste an ASIN, any Amazon product URL (the ASIN and the marketplace are read from it), or a UPC / EAN / ISBN. For a code, the lookup first searches the marketplace and takes the first exact product match. It then fetches the product page for the marketplace you picked through a licensed marketplace-data provider and shows what the public page says: title, brand, the price shown to shoppers in that country, the star rating and how many ratings, availability, Amazon's "bought in past month" figure when the page shows one, categories, the product information table, the variation ASINs, and the top reviews.</p>
+                        <p>Results are cached for seven days so repeat lookups of the same ASIN cost nothing and load instantly; the card says when it came from the cache. Every lookup gets a shareable link that re-opens the result for seven days. Nothing connects to your seller account and nothing is scraped from our servers.</p>
+                    </div>
+                </div>
+                <div class="tool-info-block tool-info-block--static">
+                    <h2 class="tool-info-heading">What the card shows</h2>
+                    <div class="tool-info-body">
+                        <dl class="tool-info-glossary">
+                            <dt>Price</dt><dd>The price on the public product page for the chosen marketplace at lookup time, in that marketplace's currency; a range when variations differ.</dd>
+                            <dt>Rating and ratings count</dt><dd>The star average and the number of ratings the page shows.</dd>
+                            <dt>Bought in past month</dt><dd>Amazon's own rounded sales signal ("2K+ bought in past month"), shown only where the page shows it.</dd>
+                            <dt>Availability</dt><dd>Whether the page offered the product for purchase at lookup time.</dd>
+                            <dt>Variations</dt><dd>The sibling ASINs (sizes, colours) grouped under the same parent; click one to look it up.</dd>
+                            <dt>Top reviews</dt><dd>The reviews Amazon features on the product page, with their star rating and date.</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="tool-info-block tool-info-block--static">
+                    <h2 class="tool-info-heading">Frequently asked questions</h2>
+                    <div class="tool-info-body tool-info-faq">
+                                                <div class="faq-item">
+                            <h3 class="faq-question">What is an ASIN?</h3>
+                            <div class="faq-answer"><p>The Amazon Standard Identification Number: a 10-character code (letters and digits, usually starting with B0) that identifies one product on Amazon. Books use their ISBN-10 as the ASIN. It appears in every product URL after <code>/dp/</code> and in the Product information section of a listing. Every variation of a product (size, colour) has its own ASIN, grouped under a parent ASIN.</p></div>
+                        </div>
+                                                <div class="faq-item">
+                            <h3 class="faq-question">How do I find a product by UPC, EAN, or ISBN?</h3>
+                            <div class="faq-answer"><p>Paste the barcode digits into the box. The lookup searches the marketplace for that code and shows the first exact product match, with its ASIN, so you can go from a supplier's UPC or a book's ISBN to the Amazon listing. A code with no match on the chosen marketplace returns "not found"; try another marketplace, since the same product can be listed in one country only.</p></div>
+                        </div>
+                                                <div class="faq-item">
+                            <h3 class="faq-question">Can I look up the ASIN from a UPC, or the UPC from an ASIN?</h3>
+                            <div class="faq-answer"><p>UPC to ASIN, yes: enter the UPC and the result card shows the ASIN. ASIN to UPC, only when the listing publishes it in its product information, which is rare; Amazon does not expose the GTIN behind an ASIN as a rule, and the card says so when it is missing.</p></div>
+                        </div>
+                                                <div class="faq-item">
+                            <h3 class="faq-question">Where does the data come from?</h3>
+                            <div class="faq-answer"><p>From a licensed marketplace-data provider that reads the public Amazon product page for the marketplace you pick, at the moment of your lookup (results are cached for a week, and the card says when it came from the cache). Nothing here scrapes Amazon from our servers or connects to your seller account. The figures are what the public page shows: the price and availability a shopper in that country sees, the star rating and count, and Amazon's "bought in past month" figure where the page shows one.</p></div>
+                        </div>
+                                                <div class="faq-item">
+                            <h3 class="faq-question">Why does the price differ from what I see on Amazon?</h3>
+                            <div class="faq-answer"><p>Amazon shows different prices to different shoppers: by marketplace, by delivery address, by Prime status, by seller (the Buy Box winner changes), and by the variation selected. The lookup reports the price on the public page for the chosen marketplace at lookup time, without a signed-in account. Check the <a href="../amazon-price-checker/">Amazon Price Checker</a> to compare the same ASIN across marketplaces.</p></div>
+                        </div>
+                                                <div class="faq-item">
+                            <h3 class="faq-question">Does this work for every Amazon marketplace?</h3>
+                            <div class="faq-answer"><p>Eleven: the United States, United Kingdom, Canada, Germany, France, Italy, Spain, the Netherlands, Australia, India, and Mexico. The marketplace is detected from a pasted URL and can be changed in the menu. Japan, Brazil, the UAE, and other sites are not covered.</p></div>
+                        </div>
+                                                <div class="faq-item">
+                            <h3 class="faq-question">Can I export the result?</h3>
+                            <div class="faq-answer"><p>Yes. Export CSV downloads the product card as a two-column file (field, value) including the product information rows, ready for a spreadsheet. Each lookup also gets a shareable link that re-opens the same result for seven days without spending another lookup.</p></div>
+                        </div>
+                                                <div class="faq-item">
+                            <h3 class="faq-question">Is the Amazon ASIN lookup free?</h3>
+                            <div class="faq-answer"><p>Yes, free with no signup. Lookups draw from a shared daily allowance of Amazon lookups shown by the quota chip, because each uncached lookup costs us a data call; signing in on a paid Keywords Everywhere plan raises the daily cap. Every plan has a cap, higher tiers simply get a higher one.</p></div>
+                        </div>
+                                            </div>
+                </div>
+            </section>
+
+            <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is an ASIN?","acceptedAnswer":{"@type":"Answer","text":"The Amazon Standard Identification Number: a 10-character code (letters and digits, usually starting with B0) that identifies one product on Amazon. Books use their ISBN-10 as the ASIN. It appears in every product URL after /dp/ and in the Product information section of a listing. Every variation of a product (size, colour) has its own ASIN, grouped under a parent ASIN."}},{"@type":"Question","name":"How do I find a product by UPC, EAN, or ISBN?","acceptedAnswer":{"@type":"Answer","text":"Paste the barcode digits into the box. The lookup searches the marketplace for that code and shows the first exact product match, with its ASIN, so you can go from a supplier's UPC or a book's ISBN to the Amazon listing. A code with no match on the chosen marketplace returns \"not found\"; try another marketplace, since the same product can be listed in one country only."}},{"@type":"Question","name":"Can I look up the ASIN from a UPC, or the UPC from an ASIN?","acceptedAnswer":{"@type":"Answer","text":"UPC to ASIN, yes: enter the UPC and the result card shows the ASIN. ASIN to UPC, only when the listing publishes it in its product information, which is rare; Amazon does not expose the GTIN behind an ASIN as a rule, and the card says so when it is missing."}},{"@type":"Question","name":"Where does the data come from?","acceptedAnswer":{"@type":"Answer","text":"From a licensed marketplace-data provider that reads the public Amazon product page for the marketplace you pick, at the moment of your lookup (results are cached for a week, and the card says when it came from the cache). Nothing here scrapes Amazon from our servers or connects to your seller account. The figures are what the public page shows: the price and availability a shopper in that country sees, the star rating and count, and Amazon's \"bought in past month\" figure where the page shows one."}},{"@type":"Question","name":"Why does the price differ from what I see on Amazon?","acceptedAnswer":{"@type":"Answer","text":"Amazon shows different prices to different shoppers: by marketplace, by delivery address, by Prime status, by seller (the Buy Box winner changes), and by the variation selected. The lookup reports the price on the public page for the chosen marketplace at lookup time, without a signed-in account. Check the Amazon Price Checker to compare the same ASIN across marketplaces."}},{"@type":"Question","name":"Does this work for every Amazon marketplace?","acceptedAnswer":{"@type":"Answer","text":"Eleven: the United States, United Kingdom, Canada, Germany, France, Italy, Spain, the Netherlands, Australia, India, and Mexico. The marketplace is detected from a pasted URL and can be changed in the menu. Japan, Brazil, the UAE, and other sites are not covered."}},{"@type":"Question","name":"Can I export the result?","acceptedAnswer":{"@type":"Answer","text":"Yes. Export CSV downloads the product card as a two-column file (field, value) including the product information rows, ready for a spreadsheet. Each lookup also gets a shareable link that re-opens the same result for seven days without spending another lookup."}},{"@type":"Question","name":"Is the Amazon ASIN lookup free?","acceptedAnswer":{"@type":"Answer","text":"Yes, free with no signup. Lookups draw from a shared daily allowance of Amazon lookups shown by the quota chip, because each uncached lookup costs us a data call; signing in on a paid Keywords Everywhere plan raises the daily cap. Every plan has a cap, higher tiers simply get a higher one."}}]}</script>
+
+        </div>
+    </main>
+
+    <script src="../assets/js/amazon-lookup-tool.js?v=21791716066"></script>
+    <script src="assets/js/tool.js?v=21790495267"></script>
+<section class="related-tools" aria-label="Related tools">
+    <div class="container">
+        <h2 class="related-tools-heading">Related tools</h2>
+        <div class="related-tools-grid">
+                            <a href="../amazon-price-checker/" class="related-tool-card">
+                    <span class="related-tool-icon"><svg class="ke-icon" aria-hidden="true" focusable="false"><use href="../assets/img/ke-icons.svg?v=21792496978#i-pe-7s-cash"></use></svg></span>
+                    <h3 class="related-tool-name">Amazon Price Checker</h3>
+                    <p class="related-tool-description">Paste an ASIN or URL and see the current price, discount, rating, and availability on six Amazon marketplaces at once.</p>
+                    <span class="related-tool-cta">Open tool</span>
+                </a>
+                            <a href="../amazon-product-research-tool/" class="related-tool-card">
+                    <span class="related-tool-icon"><svg class="ke-icon" aria-hidden="true" focusable="false"><use href="../assets/img/ke-icons.svg?v=21792496978#i-pe-7s-graph2"></use></svg></span>
+                    <h3 class="related-tool-name">Amazon Product Research Tool</h3>
+                    <p class="related-tool-description">Enter a keyword and see the top Amazon products for it: prices, ratings, bought in past month, badges, and the sponsored share.</p>
+                    <span class="related-tool-cta">Open tool</span>
+                </a>
+                            <a href="../amazon-link-generator/" class="related-tool-card">
+                    <span class="related-tool-icon"><svg class="ke-icon" aria-hidden="true" focusable="false"><use href="../assets/img/ke-icons.svg?v=21792496978#i-pe-7s-link"></use></svg></span>
+                    <h3 class="related-tool-name">Amazon Link Generator</h3>
+                    <p class="related-tool-description">Paste any Amazon URL to get the clean amazon.com/dp link, the amzn.com short link, an affiliate link, and every marketplace.</p>
+                    <span class="related-tool-cta">Open tool</span>
+                </a>
+                            <a href="../amazon-image-resizer/" class="related-tool-card">
+                    <span class="related-tool-icon"><svg class="ke-icon" aria-hidden="true" focusable="false"><use href="../assets/img/ke-icons.svg?v=21792496978#i-pe-7s-photo"></use></svg></span>
+                    <h3 class="related-tool-name">Amazon Image Resizer</h3>
+                    <p class="related-tool-description">Resize product images to Amazon sizes and check the main image for a pure white background and the 85% fill rule.</p>
+                    <span class="related-tool-cta">Open tool</span>
+                </a>
+                    </div>
+    </div>
+</section>
+            <footer class="ke-ftr">
+    <div class="ke-ftr__in">
+    <nav class="ke-ftr__cats" aria-label="Free tools by platform">
+                <a href="/tools/free-seo-tools/">Free SEO Tools</a>
+                <a href="/tools/free-instagram-tools/">Free Instagram Tools</a>
+                <a href="/tools/free-pinterest-tools/">Free Pinterest Tools</a>
+                <a href="/tools/free-youtube-tools/">Free YouTube Tools</a>
+                <a href="/tools/free-reddit-tools/">Free Reddit Tools</a>
+                <a href="/tools/free-twitter-tools/">Free Twitter Tools</a>
+                <a href="/tools/free-ecommerce-tools/">Free eCommerce Tools</a>
+                <a href="/tools/free-amazon-tools/">Free Amazon Tools</a>
+                <a href="/tools/free-ebay-tools/">Free eBay Tools</a>
+                <a href="/tools/free-etsy-tools/">Free Etsy Tools</a>
+        </nav>
+    <div class="ke-ftr__cols">
+        <div class="ke-ftr__col">
+    <h4 class="ke-ftr__h">Metrics</h4>
+    <nav class="ke-ftr__links" aria-label="Metrics">
+        <a href="https://keywordseverywhere.com/seo-metrics.html">SEO Metrics</a>
+        <a href="https://keywordseverywhere.com/link-metrics.html">Link Metrics</a>
+        <a href="https://keywordseverywhere.com/organic-traffic.html">Traffic Metrics</a>
+        <a href="https://keywordseverywhere.com/youtube-metrics.html">YouTube Metrics</a>
+        <a href="https://keywordseverywhere.com/x-twitter-metrics.html">Twitter Metrics</a>
+        <a href="https://keywordseverywhere.com/instagram-metrics.html">Instagram Metrics</a>
+        <a href="https://keywordseverywhere.com/pinterest-marketing-metrics.html">Pinterest Metrics</a>
+        </nav>
+    </div>
+        <div class="ke-ftr__col">
+    <h4 class="ke-ftr__h">Tools</h4>
+    <nav class="ke-ftr__links" aria-label="Tools">
+        <a href="https://keywordseverywhere.com/tools/">Free Tools</a>
+        <a href="https://keywordseverywhere.com/tools/free-seo-tools/">Free SEO Tools</a>
+        <a href="https://openpagerank.keywordseverywhere.com/" target="_blank" rel="noopener">OpenPageRank</a>
+        <a href="https://websiterankingchecker.com/" target="_blank" rel="noopener">Rank Tracker</a>
+        <a href="https://keywordseverywhere.com/seo-reports.html">SEO Reports</a>
+        <a href="https://keywordseverywhere.com/api-documentation.html">API Doc</a>
+        <a href="https://keywordseverywhere.com/all-stats.html">Stats</a>
+        </nav>
+    </div>
+        <div class="ke-ftr__col">
+    <h4 class="ke-ftr__h">AI</h4>
+    <nav class="ke-ftr__links" aria-label="AI">
+        <a href="https://keywordseverywhere.com/ai-overview-metrics.html">AI Overview Metrics</a>
+        <a href="https://aibrandtracker.keywordseverywhere.com/" target="_blank" rel="noopener">AI Brand Tracker</a>
+        <a href="https://aiseo.keywordseverywhere.com/">AI SEO Tool</a>
+        <a href="https://keywordseverywhere.com/chatgpt-prompt-templates.html">ChatGPT Prompts</a>
+        <a href="https://keywordseverywhere.com/mcp.html">MCP Server</a>
+        <a href="https://keywordseverywhere.com/llm.html">LLMs</a>
+        <a href="https://keywordseverywhere.com/ai-seo-show.html">AI SEO Show</a>
+        </nav>
+    </div>
+        <div class="ke-ftr__col">
+    <h4 class="ke-ftr__h">Company</h4>
+    <nav class="ke-ftr__links" aria-label="Company">
+        <a href="https://keywordseverywhere.com/blog/">Blog</a>
+        <a href="https://keywordseverywhere.com/news/">Marketing News</a>
+        <a href="https://keywordseverywhere.com/product-news.html">Product News</a>
+        <a href="https://keywordseverywhere.com/videos.html">Videos</a>
+        <a href="https://keywordseverywhere.com/reviews.html">Reviews</a>
+        <a href="https://keywordseverywhere.com/team.html">Team</a>
+        <a href="https://keywordseverywhere.com/contact.html">Contact</a>
+        </nav>
+    </div>
+        <div class="ke-ftr__col">
+    <h4 class="ke-ftr__h">Account</h4>
+    <nav class="ke-ftr__links" aria-label="Account">
+        <a href="https://keywordseverywhere.com/first-install-addon.html">Get API Key</a>
+        <a href="https://keywordseverywhere.com/reset-api-key.html">Reset API Key</a>
+        <a href="https://keywordseverywhere.com/conserving-credits.html">About Credits</a>
+        <a href="https://keywordseverywhere.com/ctl/subscriptions">Pricing</a>
+        <a href="https://websitemonitor.keywordseverywhere.com/" target="_blank" rel="noopener">Website Monitor</a>
+        <a href="https://keywordseverywhere.com/changelog.html">Changelog</a>
+        <a href="https://status.keywordseverywhere.com/">Status</a>
+        </nav>
+    </div>
+        <div class="ke-ftr__col">
+    <h4 class="ke-ftr__h">More from us</h4>
+    <nav class="ke-ftr__links" aria-label="More from us">
+        <a href="https://trends.keywordseverywhere.com/" target="_blank" rel="noopener">Trends</a>
+        <a href="https://marketingtemplates.co/" target="_blank" rel="noopener">Marketing Templates</a>
+        <a href="https://keywordseverywhere.com/seominion/">SEO Minion</a>
+        <a href="https://seochecker.io/" target="_blank" rel="noopener">SEO Checker</a>
+        <a href="https://poweredby.keywordseverywhere.com/" target="_blank" rel="noopener">PoweredBy</a>
+        <a href="https://keywordseverywhere.com/alternatives.html">Alternatives</a>
+        <a href="https://keywordseverywhere.com/affiliate-program.html">Affiliate Program</a>
+        </nav>
+    </div>
+        </div>
+    <div class="ke-ftr__row">
+    <h4 class="ke-ftr__h">Supported sites</h4>
+    <nav class="ke-ftr__links ke-ftr__links--inline" aria-label="Supported sites">
+        <a href="https://keywordseverywhere.com/google-search-volume.html">Google Search</a>
+        <a href="https://keywordseverywhere.com/google-search-console.html">Search Console</a>
+        <a href="https://keywordseverywhere.com/google-analytics-keyword-volume.html">Google Analytics</a>
+        <a href="https://keywordseverywhere.com/google-trends.html">Google Trends</a>
+        <a href="https://keywordseverywhere.com/google-keyword-planner-volume.html">Keyword Planner</a>
+        <a href="https://keywordseverywhere.com/bing-search-volume.html">Bing</a>
+        <a href="https://keywordseverywhere.com/youtube-search-volume.html">YouTube</a>
+        <a href="https://keywordseverywhere.com/amazon-search-volume.html">Amazon</a>
+        <a href="https://keywordseverywhere.com/ebay-search-volume.html">eBay</a>
+        <a href="https://keywordseverywhere.com/etsy-search-volume.html">Etsy</a>
+        <a href="https://keywordseverywhere.com/google-play-search-volume.html">Play Store</a>
+        <a href="https://keywordseverywhere.com/x-twitter-metrics.html">X (Twitter)</a>
+        <a href="https://keywordseverywhere.com/instagram-metrics.html">Instagram</a>
+        <a href="https://keywordseverywhere.com/pinterest-marketing-metrics.html">Pinterest</a>
+        <a href="https://keywordseverywhere.com/chatgpt-prompt-templates.html">ChatGPT</a>
+        <a href="https://keywordseverywhere.com/claude-prompt-templates.html">Claude</a>
+        <a href="https://keywordseverywhere.com/gemini-prompt-templates.html">Gemini</a>
+        <a href="https://keywordseverywhere.com/deepseek-prompt-templates.html">DeepSeek</a>
+        </nav>
+    </div>
+    <div class="ke-ftr__legal">
+    <a class="ke-ftr__brand" href="https://keywordseverywhere.com/"><img src="https://keywordseverywhere.com/img/keywords-everywhere-logo.png" alt="" width="26" height="26"><span>Keywords Everywhere</span></a>
+    <p class="ke-ftr__copy">&copy; 2015-2026 <a href="https://keywordseverywhere.com/">Keywords Everywhere</a>. All Rights Reserved</p>
+    <nav class="ke-ftr__legal-links" aria-label="Legal">
+    <a href="/tools/embed/">Embed These Tools</a>
+        <a href="https://keywordseverywhere.com/privacy.html">Privacy</a>
+        <a href="https://keywordseverywhere.com/terms.html">Terms</a>
+        <a href="https://keywordseverywhere.com/dpa.html">DPA</a>
+        <a href="https://keywordseverywhere.com/security.html">Security</a>
+            <a href="https://keywordseverywhere.com/account/sign-in">Sign in</a>
+        </nav>
+    </div>
+    </div>
+    </footer>
+
+        <button type="button" class="back-to-top" id="back-to-top" aria-label="Back to top" hidden>
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 19V5"></path>
+            <path d="M5 12l7-7 7 7"></path>
+        </svg>
+    </button>
+    
+    </body>
+</html>

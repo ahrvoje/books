@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+const dir='data/metadata3000_261025',p=dir+'/manual.json',m=JSON.parse(fs.readFileSync(p)),aliases=JSON.parse(fs.readFileSync(dir+'/identity-aliases.json')),targets=JSON.parse(fs.readFileSync(dir+'/targets.json')),now=new Date().toISOString();
+const rows=[
+['shelf-98c420358647','My Turn: A Life of Total Football','Johan Cruyff',336,2016,'9781568585727','Ebook with publisher page count','https://www.hachettebookgroup.com/titles/johan-cruyff/my-turn/9781568585727/','retail-pages-0044.json'],
+['shelf-7ca78719c76d','I Am Spock','Leonard Nimoy',352,2015,'9780316388375','Trade Paperback','https://www.hachettebookgroup.com/titles/leonard-nimoy/i-am-spock/9780316388375/?lens=grand-central-publishing','retail-pages-0100.json'],
+['shelf-6eed16653424','McNamara’s Folly: The Use of Low-IQ Troops in the Vietnam War','Hamilton Gregory',266,2015,'9781495805486','Paperback','https://booksrun.com/9781495805486-mcnamaras-folly','retail-pages-0060.json'],
+['shelf-7c13083881ce','The Born-Einstein Letters, 1916-1955','Albert Einstein; Max Born',256,2004,'9781403944962','Print edition (binding unspecified)','https://www.labyrinthbooks.com/born-einstein-letters/','retail-pages-0024.json'],
+['progress-0458','Selections from Science and Sanity, Second Edition','Alfred Korzybski',240,null,'9780982755907','Hardback','https://www.awesomebooks.com/book/9780982755907/selections-from-science-and-sanity-second-edition','retail-pages-0100.json'],
+['rem-u0988','Secondhand Time: The Last of the Soviets','Svetlana Alexievich; Bela Shayevich',496,2016,'9780399588808','Hardcover','https://www.kirkusreviews.com/book-reviews/svetlana-alexievich/secondhand-time/','retail-pages-0104.json']
+];
+for(const [id,title,authors,pages,year,isbn,format,url,file] of rows){m[id]||={};m[id].edition={id:'ISBN:'+isbn,title,authors,pages,year,isbn13:[isbn],format,language:'English',url,retrieved:now,confidence:'moderate',source:{file:dir+'/raw/'+file,url,retrieved:now,evidence:'Edition metadata: '+title+'; '+authors+'; ISBN '+isbn+'; pages '+pages},notes:'Explicit edition page count. Unknown edition year remains unknown. '+(format.startsWith('Ebook')?'Publisher gives a page count for its ebook ISBN; this is not a physical paperback extent.':'')};}
+const id='shelf-7ca78719c76d';aliases[id]={expected:targets.find(b=>b.id===id).title,observed:'I Am Spock',source:dir+'/raw/retail-pages-0100.json',reason:'Ledger prefixes the memoir title with its author’s name; Hachette identifies I Am Spock by Leonard Nimoy.'};
+fs.writeFileSync(p,JSON.stringify(m,null,2)+'\n');fs.writeFileSync(dir+'/identity-aliases.json',JSON.stringify(aliases,null,2)+'\n');

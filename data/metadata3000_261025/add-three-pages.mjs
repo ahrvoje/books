@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+const dir='data/metadata3000_261025',p=dir+'/manual.json',m=JSON.parse(fs.readFileSync(p)),a=JSON.parse(fs.readFileSync(dir+'/identity-aliases.json')),file=dir+'/raw/three-pages-proof.json',retrieved=new Date().toISOString();
+const rows=[
+['shelf-d008e56115cb','I, Pencil','Leonard E. Read',12,null,'9781572460430','Pamphlet','https://www.allbookstores.com/Pencil-Leonard-Read/9781572460430'],
+['shelf-e3ee5ab13498','Capital account: a money manager’s reports from a turbulent decade (1993-2002)','Edward Chancellor; Marathon Asset Management Ltd.',283,2004,'1587991802','Print edition (binding unspecified)','https://openlibrary.org/books/OL3383327M/Capital_account'],
+['complete-532-96','Almost Everyone’s Guide to Science: The Universe, Life and Everything','John Gribbin; Mary Gribbin',240,2000,'9780300084603','Paperback','https://yalebooks.yale.edu/book/9780300084603/almost-everyones-guide-to-science/']
+];
+for(const [id,title,authors,pages,year,isbn,format,url]of rows){m[id]||={};m[id].edition={id:'ISBN:'+isbn,title,authors,pages,year,...(isbn.length===10?{isbn10:[isbn]}:{isbn13:[isbn]}),format,language:'English',url,retrieved,confidence:'moderate',source:{file,url,retrieved,evidence:title+'; '+authors+'; '+pages+' pages; '+isbn},notes:'Documented edition count. '+(id==='shelf-d008e56115cb'?'The ledger’s I am a Pencil names Leonard E. Read’s I, Pencil, not Sam Swope’s unrelated I Am a Pencil. FEE pamphlet ISBN identifies the selected 12-page extent; edition year is unknown.':id==='shelf-e3ee5ab13498'?'Open Library records numbered extent 283 and identifies the selected Marathon Asset Management essays edited by Edward Chancellor.':'Yale University Press confirms 240 pages, paperback, 11 August 2000.')};}
+a['shelf-d008e56115cb']={expected:'I am a Pencil',observed:'I, Pencil',source:file,reason:'Leonard E. Read’s 1958 essay in a published FEE pamphlet; distinct from Sam Swope’s I Am a Pencil.'};
+a['complete-532-96']={expected:'Almost Everyone’s Guide to Science: The Universe, Life and Everything (Yale Nota Bene)',observed:'Almost Everyone’s Guide to Science: The Universe, Life and Everything',expectedAuthor:'Dr. John Gribbin, Mary Gribbin',observedAuthor:'John Gribbin; Mary Gribbin',source:file,reason:'Publisher’s exact title omits the ledger’s series label.'};
+fs.writeFileSync(p,JSON.stringify(m,null,2)+'\n');fs.writeFileSync(dir+'/identity-aliases.json',JSON.stringify(a,null,2)+'\n');
+

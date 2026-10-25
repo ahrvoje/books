@@ -1,0 +1,28 @@
+{
+  "shelf-58e433e822eb": {
+    "expected": "The Sources of Social Power Volume 1",
+    "observed": "The Sources of Social Power: Volume 1, A History of Power from the Beginning to AD 1760",
+    "source": "data/metadata3000_261025/raw/retail-pages-0032.json",
+    "reason": "The same numbered volume; the retailer inserts a colon and the full subtitle. ISBN 9781107635975 is volume 1, second edition."
+  },
+  "shelf-7ca78719c76d": {
+    "expected": "Leonard Nimoy’s I Am Spock",
+    "observed": "I Am Spock",
+    "source": "data/metadata3000_261025/raw/retail-pages-0100.json",
+    "reason": "Ledger prefixes the memoir title with its author’s name; Hachette identifies I Am Spock by Leonard Nimoy."
+  },
+  "shelf-d008e56115cb": {
+    "expected": "I am a Pencil",
+    "observed": "I, Pencil",
+    "source": "data/metadata3000_261025/raw/three-pages-proof.json",
+    "reason": "Leonard E. Read’s 1958 essay in a published FEE pamphlet; distinct from Sam Swope’s I Am a Pencil."
+  },
+  "complete-532-96": {
+    "expected": "Almost Everyone’s Guide to Science: The Universe, Life and Everything (Yale Nota Bene)",
+    "observed": "Almost Everyone’s Guide to Science: The Universe, Life and Everything",
+    "expectedAuthor": "Dr. John Gribbin, Mary Gribbin",
+    "observedAuthor": "John Gribbin; Mary Gribbin",
+    "source": "data/metadata3000_261025/raw/three-pages-proof.json",
+    "reason": "Publisher’s exact title omits the ledger’s series label."
+  }
+}
