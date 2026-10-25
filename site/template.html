@@ -5,24 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="A personal nonfiction catalog. Compare evidence, mechanisms, domain connections, and reading tradeoffs.">
   <title>Book Explorer — a working library</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='1' y='1' width='62' height='62' rx='6' fill='%23163875'/%3E%3Cpath d='M6 4v48' stroke='%238fb3ed' stroke-width='2'/%3E%3Cpath d='M9 55h51v5H9a2.5 2.5 0 0 1 0-5' fill='%23f6f4ed'/%3E%3Ctext x='35' y='45' text-anchor='middle' font-family='Arial,sans-serif' font-size='42' font-weight='normal' textLength='46' lengthAdjust='spacingAndGlyphs' fill='white'%3EBE%3C/text%3E%3C/svg%3E">
   <style>/* STYLES */</style>
 </head>
 <body>
 <a class="skip" href="#results">Skip to books</a>
 <header class="masthead">
-  <div class="title-row"><div class="title-brand"><h1>Book Explorer<span class="blue">.</span></h1><p class="branding">by Hrvoje Abraham, ahrvoje@gmail.com</p></div></div>
+  <div class="title-row"><div class="title-brand"><h1>Book Explorer<span class="blue">.</span></h1><div class="branding"><span>by Hrvoje Abraham</span><nav class="profile-links" aria-label="Author links">
+    <a href="mailto:ahrvoje@gmail.com" title="ahrvoje@gmail.com" aria-label="Email Hrvoje Abraham: ahrvoje@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg></a>
+    <a href="https://www.linkedin.com/in/hrvojeabraham/" target="_blank" rel="noopener" title="Hrvoje Abraham on LinkedIn" aria-label="Hrvoje Abraham on LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM7.93 18.75H4.98V9.2h2.95v9.55ZM6.46 7.9a1.71 1.71 0 1 1 0-3.42 1.71 1.71 0 0 1 0 3.42Zm12.29 10.85H15.8V14.1c0-1.11-.02-2.54-1.55-2.54-1.55 0-1.79 1.21-1.79 2.46v4.73H9.51V9.2h2.83v1.3h.04c.39-.74 1.36-1.52 2.79-1.52 2.98 0 3.58 1.96 3.58 4.51v5.26Z"/></svg></a>
+    <a href="https://ahrvoje.github.io/books/" target="_blank" rel="noopener" title="Book Explorer on GitHub Pages" aria-label="Book Explorer on GitHub Pages"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.77-.24.77-.54v-2.08c-3.13.68-3.79-1.33-3.79-1.33-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.68.08-.68 1.13.08 1.73 1.16 1.73 1.16 1 .72 2.06.51 2.7.39.1-.73.39-1.23.71-1.51-2.5-.28-5.13-1.25-5.13-5.57 0-1.23.44-2.23 1.16-3.02-.12-.29-.5-1.43.11-2.98 0 0 .95-.3 3.08 1.15a10.7 10.7 0 0 1 5.6 0c2.14-1.45 3.08-1.15 3.08-1.15.62 1.55.23 2.69.12 2.98.72.79 1.15 1.79 1.15 3.02 0 4.33-2.64 5.28-5.15 5.56.41.35.77 1.03.77 2.08v3.63c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8Z"/></svg></a>
+  </nav></div></div></div>
   <nav class="library-nav" aria-label="Library pages"><a href="#books" data-page="books" aria-current="page">Books <span id="nav-books-count"></span></a><a href="#vetoed" data-page="vetoed">Vetoed <span id="nav-vetoed-count"></span></a><a href="#excluded" data-page="excluded">Excluded <span id="nav-excluded-count"></span></a><a href="#sources" data-page="sources">Sources <span id="nav-sources-count"></span></a><a href="#methodology" data-page="methodology">Methodology</a></nav>
-  <div id="book-toolbar" class="search-row"><label class="search-label" for="search">Search the library</label><input id="search" type="search" placeholder="Title, author, or subtitle…" autocomplete="off"><button id="export">Export settings</button><label class="button file-label">Import<input type="file" id="import" accept=".json,application/json"></label></div>
-</header>
-<div id="notice" class="notice" role="status" hidden></div>
-<div id="books-view" class="layout">
-  <aside class="control-shell" aria-label="Catalog controls">
+  <div id="book-toolbar" class="search-row"><label class="search-label" for="search">Search the library</label><input id="search" type="search" placeholder="Title, author, or subtitle…" autocomplete="off">
     <nav id="panel-tabs" class="panel-tabs" aria-label="Model sections">
       <button data-panel="filters" title="Choose which books appear"><span aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 5h18l-7 8v6l-4 2v-8Z"/></svg></span> Filter books <span id="filter-count">0</span></button>
       <button data-panel="scoring" title="Change criterion weights and score curves"><span aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 7h18M3 17h18M8 3v8M16 13v8"/></svg></span> Adjust scoring</button>
       <button hidden data-panel="ideal" title="Choose desired subjects and connections"><span aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span> Define ideal book</button>
       <button data-panel="pareto" title="Compare books across two measures with three Pareto boundaries"><span aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 3v18h18M6 16l5-6 5-3 5-2"/><circle cx="11" cy="10" r="1.5"/><circle cx="16" cy="7" r="1.5"/></svg></span> Pareto tradeoffs</button>
     </nav>
+<button id="export" hidden>Export settings</button><label class="button file-label" hidden>Import<input type="file" id="import" accept=".json,application/json"></label></div>
+</header>
+<div id="notice" class="notice" role="status" hidden></div>
+<div id="books-view" class="layout">
+  <aside class="control-shell" aria-label="Catalog controls">
     <section class="model-card"><div class="eyebrow">CURRENT MODEL</div><strong id="model-name">Repository evaluation</strong><p id="model-description">17 rules. Includes Relevance and R&D. Scores can exceed 100.</p><div id="data-summary"></div><button id="data-review" class="text-button">Data and review notes ↗</button></section>
     <section id="editor" hidden aria-labelledby="editor-title">
       <div class="editor-head"><h2 id="editor-title"></h2><button id="close-editor" aria-label="Close editor">×</button></div>

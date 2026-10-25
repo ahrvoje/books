@@ -24,8 +24,8 @@ try {
   await page.reload();
   assert.equal(await page.locator('.masthead>.eyebrow,#matching-title').count(),0);
   assert.match(await page.locator('[data-panel="pareto"]').textContent(),/Pareto/);
-  const iconSizes=await page.locator('.panel-tabs svg').evaluateAll(nodes=>nodes.map(n=>({width:n.getBoundingClientRect().width,height:n.getBoundingClientRect().height})));
-  assert.deepEqual(iconSizes,Array.from({length:4},()=>({width:16,height:16})));
+  const iconSizes=await page.locator('.panel-tabs button:visible svg').evaluateAll(nodes=>nodes.map(n=>({width:n.getBoundingClientRect().width,height:n.getBoundingClientRect().height})));
+  assert.deepEqual(iconSizes,Array.from({length:3},()=>({width:16,height:16})));
   await page.waitForFunction(count=>Number(document.querySelector('#matching-count').textContent.replace(/\D/g,''))===count,bookCount);
   assert.equal(await page.locator('#notice').isVisible(),false,'Catalog updates must be silent');
   assert.match(await page.title(),/Book Explorer/);
@@ -318,7 +318,9 @@ try {
   assert(await page.locator('#details .breakdown tbody tr').count()>=43);
   await page.locator('#close-details').click();
   // Settings round trip, validated through the actual import control.
-  const downloaded = page.waitForEvent('download'); await page.locator('#export').click();
+  assert.equal(await page.locator('#export').isVisible(),false);
+  assert.equal(await page.locator('.file-label').isVisible(),false);
+  const downloaded = page.waitForEvent('download'); await page.locator('#export').evaluate(button=>button.click());
   const download=await downloaded; const exported=path.join(out,'settings.json');await download.saveAs(exported);
   await page.locator('#import').setInputFiles(exported);
   const oldCatalog=JSON.parse(fs.readFileSync(exported,'utf8'));oldCatalog.datasetHash='old-import';
@@ -355,8 +357,9 @@ try {
   await page.setViewportSize({width:390,height:844});
   await page.evaluate(()=>scrollTo(0,0));
   await page.screenshot({path:path.join(out,'phone.png')});
-  // Make a target through UI; inherited scores must remain unchanged.
-  await page.locator('[data-panel="ideal"]').click();
+  // The entry point is temporarily hidden; keep testing the retained editor.
+  assert.equal(await page.locator('[data-panel="ideal"]').isVisible(), false);
+  await page.locator('[data-panel="ideal"]').evaluate(button => button.click());
   await page.locator('[data-editor-action="create-target"]').click();
   await page.locator('[data-domain="ENG"]').check();
   await page.locator('[data-domain="ENE"]').check();
