@@ -1,0 +1,97 @@
+{
+  "id": "gen-1793574734-PJPHGSveZXltAMCcNlZM",
+  "object": "chat.completion",
+  "created": 1793574734,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "Based",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Chosen-Few-Education-Princeton-Economic/dp/0691163510",
+              "title": "The Chosen Few: How Education Shaped Jewish History, 70-1492 ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Chosen Few: How Education Shaped Jewish History, 70-1492 ...\nWhat's it about? Maristella Botticini and Zvi Eckstein apply economic analysis to explain how Jewish transformation from agrarian to literate urbanites was driven by educational norms within Judaism rather than persecution.\n\n## \n\nThe Chosen Few: How Education Shaped Jewish History, 70-1492 ...\n30-day returns Maristella Botticini and Zvi Eckstein apply economic analysis to explain how Jewish transformation from agrarian to literate urbanites was driven by educational"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Chosen-Faith-Based-Scripture-Magdalene-Elizabeth/dp/B0CV7CN92P",
+              "title": "The Chosen - TV Guide: 4 Seasons, Episode Recaps, Faith ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Chosen - TV Guide: 4 Seasons, Episode Recaps, Faith ...\nThis special collector's edition of The Chosen is the ultimate guide to the inspirational worldwide phenomenon including all four seasons.\n\n## \n\nThe Chosen - TV Guide: 4 Seasons, Episode Recaps, Faith ...\nBook details ; Reading age 3 years and up ; Print length 96 pages ; Language English ; Publisher a360media ; Publication date. January 11, 2024."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Chosen-Few-Education-Princeton-Economic/dp/0691144877",
+              "title": "The Chosen Few: How Education Shaped Jewish History, 70-1492 ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Click the button below to continue shopping\n\nContinue shopping\nConditions of Use Privacy Policy\n© 1996-2025, Amazon.com, Inc. or its affiliates"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/",
+              "title": "Amazon.com. Spend less. Smile more.",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## Skip to\n\n* Main content\n\n* * *\n\n## Keyboard shortcuts\n\n* Search alt \\+ /\n* Cart shift \\+ alt \\+ C\n* Home shift \\+ alt \\+ H\n* Orders shift \\+ alt \\+ O\n* Show/Hide shortcuts\n  \n  shift \\+ alt \\+ Z\n\nTo move between items, use your keyboard's up or down arrows.\n\n[.us](https://www.amazon.com/ref=nav_logo)\n\nDelivering to Losangeles 90001 Update location\n\nAll\n\nAll Departments Alexa Skills Amazon Devices Amazon Fresh Amazon Global Store Amazon Haul Amazon One Medical Amazon Pharmacy Amazon Resale Appliances Apps & Games Arts, Crafts & Sewing Audible Books & Originals Automotive Parts & Accessories Baby Beauty & Personal Care Books Bristol Farms CDs & Vinyl Cell Phones & Accessories Clothing, Shoes & Jewelry Women's Clothing, Shoes & Jewelry Men's Clothing, Shoes & Jewelry Girl's Clothing, Shoes & Jewelry Boy's Clothing, Shoes & Jewelry Baby Clothing, Shoes & Jewelry Collectibles & Fine Art Computers Credit and Payment Cards Digital Music\n\n...\n\n[EN](https://www.amazon.com/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang)\n\n...\n\n* [Get what you need fast ## Free delivery on millions of items Join Prime Shipping Terms apply.](https://www.amazon.com/prime/?_encoding=UTF8&pd_rd_w=93kLe&content-id=amzn1.sym.174f1e08-00ec-4941-b5eb-5a7b509b8c07&pf_rd_p=174f1e08-00ec-4941-b5eb-5a7b509b8c07&pf_rd_r=MA2VPRNQPNQ9NCDMA53Y&pd"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1270,
+    "completion_tokens": 1,
+    "total_tokens": 1271,
+    "cost": 0.0010226611,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00002289,
+      "upstream_inference_prompt_cost": 0.00002286,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Chosen Few\" Maristella Botticini and Zvi Eckstein \"global ratings\"",
+  "bookId": "shelf-685b4358c281",
+  "retrieved": "2026-11-01T23:12:12.136Z"
+}

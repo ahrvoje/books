@@ -1,0 +1,80 @@
+{
+  "retrieved": "2026-11-01T21:18:48.067Z",
+  "bookId": "intake-0153",
+  "id": "gen-1793567927-tGb86VlJAwQYEgS2x17U",
+  "object": "chat.completion",
+  "created": 1793567927,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"intake-0153\",\n  \"title\": \"Platform Studies (series)\",\n  \"author\": \"Nick Montfort; Ian Bogost (series editors)\",\n  \"amazon\": null,\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.de/s?k=Platform%20Studies%20(series)%20Nick%20Montfort%3B%20Ian%20Bogost%20(series%20editors)\"\n  ],\n  \"limitations\": \"The provided search query was for a series, not a specific book within the series. Therefore, specific page counts, reference counts, and edition details for individual books within the series could not be determined. The search results primarily focused on 'Racing the Beam: The Atari Video Computer System (Platform Studies)', which is a book *within* the 'Platform Studies' series, not the series itself.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Racing-Beam-Computer-Platform-Studies/dp/026201257X",
+              "title": "Racing the Beam: The Atari Video Computer System (Platform Studies)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Racing the Beam: The Atari Video Computer System (Platform Studies)\nBrand: Nick Montfort\nCategory: Programming > Game Programming\n\n## Specifications\nPublisher: Mit Pr; Publication date: January 1, 2009; Edition: 2nd ptg; Language: English; Print length: 180 pages\n\n## Pricing & Reviews\nRated 4.4 from 218 reviews.\n\n## Details\nUPC: 026201257X\n\n...\n\nStudies of digital media have rarely investigated platforms—the systems underlying computing. This book (the first in a series of Platform Studies) does so, developing a critical approach that examines the relationship between platforms and creative expression. Nick Montfort and Ian Bogost discuss the Atari VCS itself and examine in detail six game cartridges: Combat, Adventure, Pac-Man, Yars' Revenge, Pitfall!, and Star Wars: The Empire Strikes Back.\n\n...\n\nASIN: 026201257X"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://nickm.com/books/racing_the_beam/",
+              "title": "Racing the Beam",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Racing the Beam\n\n## Nick Montfort & Ian Bogost\n\n## The MIT Press, 2009\n\n184 pp., 22 illus. Cloth: 2009. ISBN: 9780262012577. $22.95/£14.95 Publisher info/order/request examination copy Compare online bookstore prices\n\nRacing the Beam is a detailed and accessible study of the most important early videogame console, the Atari Video Computer System (also known as the Atari VCS or the Atari 2600). Through its main example, the book provides unique insight into the role of underlying hardware and software systems in new media. It is the first extensive application of the platform studies approach to a single computing system.\n\n...\n\nRacing the Beam is a collaborative work by Nick Montfort and Ian Bogost, published by The MIT Press.\n\n## Contents\n\n- Series Foreword\n- Acknowledgements\n- Timeline\n\n1. Stella\n2. Combat\n3. Adventure\n4. Pac-Man\n5. Yars' Revenge\n6. Pitfall!\n7. Star Wars: The Empire Strikes Back\n8. After the Crash\n\n- Afterword on Platform Studies\n- Notes\n- Bibliography"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://acervus.unicamp.br/acervo/detalhe/1260387",
+              "title": "Terminal - Sophia Biblioteca Web",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Terminal - Sophia Biblioteca Web\n\n Nick Montfort and Ian Bogost \n\nMaterial\n\n LIVRO \n\nIdioma\n\nInglês \n\nISBN\n\nPublicação\n\nCambridge, MA : MIT Press, c2009. \n\nDescrição física\n\n180 p. : il.\n\nSérie\n\n(Platform studies)\n\nAssuntos\n\nAutoria\n\n Montfort, Nick \n\n Bogost, Ian Coautor \n\n Nick Montfort and Ian Bogost \n\n### Exemplares\n\n Nº de exemplares: 1 Não existem reservas para esta obra \n\n| Informações do exemplar | Informações do exemplar | Nº de chamada | Biblioteca | Localização | Situação | QR Code |\n| --- | --- | --- | --- | --- | --- | --- |\n| Tombo: 1139422 Ano: c2009 Suporte: Impresso Nº de chamada: 794.8 M765r Biblioteca : IMECC Situação: Disponível Visualizar QR Code | Tombo: 1139422 Ano: c2009 Suporte: Impresso | 794.8 M765r | IMECC | | Disponível | |"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1342,
+    "completion_tokens": 221,
+    "total_tokens": 1563,
+    "cost": 0.007220374,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002226,
+      "upstream_inference_prompt_cost": 0.0001342,
+      "upstream_inference_completions_cost": 0.0000884
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

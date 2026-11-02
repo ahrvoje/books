@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576277-WX3YteVII0JK1l4Aef8r",
+  "object": "chat.completion",
+  "created": 1793576277,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u1451:amazon:https://www.amazon.com/Black-Count-Revolution-Betrayal-Cristo/dp/030738246X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"rem-u1716:amazon:https://www.amazon.com/Best-Loser-Wins-Thinking-high-stake-ebook/dp/B0B1V9ZZHG\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"rem-u1306:amazon:https://www.amazon.com/Mayflower-Story-Courage-Community-War/dp/0670037605\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"intake-0393:amazon:https://www.amazon.com/Critique-Pure-Reason-Penguin-Classics/dp/0140447474\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"complete-789-219:amazon:https://www.amazon.com/Mental-Floss-History-World-Civilizations/dp/0061842672\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3549,
+    "completion_tokens": 400,
+    "total_tokens": 3949,
+    "cost": 0.0002073555,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020945,
+      "upstream_inference_prompt_cost": 0.00017745,
+      "upstream_inference_completions_cost": 0.000032
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:38:04.024Z"
+}

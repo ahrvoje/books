@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793575692-OyftDS9rsRpHwxkyAMF4",
+  "object": "chat.completion",
+  "created": 1793575692,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Flow-Hydration-Alkaline-Spring-Unflavored/dp/B07RFCDQ6S",
+              "title": "Amazon.com: Flow Alkaline Spring Water - Refreshing Taste Of Natural Alkaline Water With Natural Electrolytes, Eco-Friendly Packaging, Non-GMO And BPA-Free. Unflavored. 12 Pack of 1 Liter Bottles : Grocery & Gourmet Food",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "alkaline spring water flow healthy h2o sustainable sourced paper bottle sugar free drink hydration\n*  | original Flow | original Flow | lemon + ginger | cucumber + mint | strawberry + rose | blackberry + hibiscus\n*  | Buying Options | Buying Options | Buying Options | Buying Options | Buying Options | Buying Options\n\n...\n\nGOFILTR Alkaline Water Infuser - 9.5 pH + Electrolytes for Any Water Bottle/Small Pitcher, 750 Refills / 3 Months, Ionized Mineral Water Infuser (1 Pack)\n4.2 4.2 out of 5 stars 2,627\nGBP19.77 GBP 19 . 77 Typical: GBP21.97 GBP21.97\nNext page\n\nCustomer reviews\n\n4.3 out of 5 stars\n4.3 out of 5\n1,956 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 73% 9% 6% 3% 9% 73%\n* 5 star 4 star 3 star 2 star 1 star 4 star 73% 9% 6% 3% 9% 9%\n* 5 star 4 star 3 star 2 star 1 star 3 star 73% 9% 6% 3% 9% 6%\n* 5 star 4 star 3 star 2 star 1 star 2 star 73% 9% 6% 3% 9% 3%\n* 5 star 4 star 3 star 2 star 1 star 1 star 73% 9% 6% 3% 9% 9%\nHow customer reviews and ratings work\nSponsored\n\nCustomers say\n\n...\n\nmazing & refreshing !\n\nReviewed in the United States on October 2, 2025\nSize: 16.9 Fl Oz (Pack of 12) Verified Purchase\nWhen we order liquids they should put on the box fragile because my water was busted inside the box . Otherwise best water to buy .\nOne person found this helpful Helpful Report\n* T. Conway\n\n...\n\nPackaging, Non-GMO And BPA-Free. Unflavored. 12 Pack of 1 Liter Bottles\n\nFrom Flow\n4.3 out of 5 stars, 1"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201957730",
+              "title": "Legal Notices for Echo, Echo Dot (1st Generation), and Echo Remote - Amazon Customer Service",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "To move between items, use your keyboard's up or down arrows.\n.us\nDelivering to Sanjose 95101 Update location\nAll\n\n...\n\nLegal Notices for Echo, Echo Dot (1st Generation), and Echo Remote\n\nEcho and Echo Dot device software, the Echo and Echo Dot Quick Start Guides, the Product Information Guide, and the Things to Try\n\n...\n\nand Echo Dot devices and methods used in association with the Echo and Echo Dot devices may be covered by one or more patents or pending patent applications.\nAll other brands, product names, company names, trademarks, and service marks are the properties of their respective owners.\nINFORMATION FOR THOSE WITH COPYRIGHT CONCERNS\nAmazon.com, Inc.\n\n...\n\nbeen copied in a way that constitutes copyright infringement, please provide Amazon’s copyright agent the written information specified below. Please note that this procedure is exclusively for notifying Amazon that your copyrighted material has been infringed.\n\n...\n\n- A statement by you that you have a good-faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law;\n\n...\n\nAmazon's Copyright Agent for notice of claims of copyright infri\n\n...\n\n(C) Copyright Jeremy Siek, David Abrahams 2000-2006.\n(C) Copyright Jim Douglas 2005.\n(C) Copyright Joel de Guzman 2003.\n(C) Copyright Johan Rade 2006.\n(C) Copyright John Maddock & Thorsten Ottosen 2005.\n(C) Copyright John Maddock 1999-2005.\n(C) Copyright John Maddock 2000.\n(C) Copyrig"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1408,
+    "completion_tokens": 1,
+    "total_tokens": 1409,
+    "cost": 0.00102512026,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000025374,
+      "upstream_inference_prompt_cost": 0.000025344,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Dark Hero of the Information Age\" Flo Conway; Jim Siegelman \"global ratings\"",
+  "bookId": "nc3e7251da3",
+  "retrieved": "2026-11-01T23:28:13.552Z"
+}

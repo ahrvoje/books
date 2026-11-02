@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:47.406Z",
+  "bookId": "shelf-0aa95f84b2e6",
+  "id": "gen-1793571226-npmhqBAwrDI0UiuDfxiM",
+  "object": "chat.completion",
+  "created": 1793571226,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-0aa95f84b2e6\",\n  \"title\": \"The Emergence of Life on Earth\",\n  \"author\": \"Iris Fry\",\n  \"knownEdition\": {\n    \"id\": \"OL36849M\",\n    \"url\": \"https://openlibrary.org/books/OL36849M/The_emergence_of_life_on_Earth\",\n    \"pages\": 327\n  },\n  \"purchaseUrl\": \"https://www.amazon.de/dp/0813527392\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 327,\n    \"editionId\": \"OL36849M\",\n    \"editionYear\": null,\n    \"format\": null,\n    \"language\": null,\n    \"url\": \"https://openlibrary.org/books/OL36849M/The_emergence_of_life_on_Earth\",\n    \"evidence\": \"The book has 327 pages according to Open Library.\",\n    \"sourceTitle\": \"The emergence of life on Earth\",\n    \"sourceAuthor\": \"Iris Fry\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Emergence-Life-Earth-Historical-Scientific/dp/0813527406\",\n    \"https://www.amazon.com/Origin-Nature-Life-Earth-Emergence/dp/1107121884\",\n    \"https://www.amazon.com/Fifth-Miracle-Search-Origin-Meaning/dp/0684837994\",\n    \"https://www.amazon.com/-/es/Paul-C-W-Davies/dp/0140263306\",\n    \"https://www.amazon.com/Lifes-Origin-Beginnings-Biological-Evolution/dp/0520233913\"\n  ],\n  \"limitations\": \"No Amazon product matching the exact title and author was found with explicit 'global ratings'. The search results provided information for books with similar titles but different authors or editions.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Emergence-Life-Earth-Historical-Scientific/dp/0813527406",
+              "title": "Emergence of Life on Earth: A Historical and Scientific ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "This book presents a unique perspective--a combined historical, scientific, and philosophical analysis, which does justice to the complex nature of the subject."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Origin-Nature-Life-Earth-Emergence/dp/1107121884",
+              "title": "The Origin and Nature of Life on Earth: The Emergence ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Origin and Nature of Life on Earth: The Emergence ...\nThis book explores the origin of life as a planetary process, combining geology, geochemistry, biochemistry, microbiology, evolution and statistical physics\n\n## \n\nThe Origin and Nature of Life on Earth: The Emergence ...\nBook details ; ISBN-10. 1107121884 ; ISBN-13. 978-1107121881 ; Edition. 1st ; Publisher. Cambridge University Press ; Publication date. June 6, 2016."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Fifth-Miracle-Search-Origin-Meaning/dp/0684837994",
+              "title": "The Fifth Miracle: The Search for the Origin and Meaning of Life: Davies, Paul: 9780684837994: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Fifth Miracle recounts the discovery in Antarctica of a meteorite from Mars (ALH84001) that may contain traces of life. Three and a half billion years ago, Mars resembled Earth.\n\n...\n\nHe goes on to describe a still more startling scenario: If life once existed on Mars, might it have originated there and traveled to Earth inside meteorites blasted into space by cosmic impacts? Conversely, did life spread from Earth to Mars? Could microbes have journeyed even farther afield inside comets?\n\nDavies builds on the latest scientific discoveries and theories to address the larger question: What, exactly, is life? Davies shows that the living call is an information-processing system that uses a sophisticated mathematical code, and he argues that the secret of life lies not with exotic chemistry but with the emergence of information-based complexity. He then goes on to ask: Is life the inevitable by-product of physical laws, as many scientists maintain, or an almost miraculous accident? Are we alone in the universe, or will life emerge on all Earthlike planets? And if there is life elsewhere in the universe, is it preordained to evolve toward greater complexity and intelligence?\n\n...\n\n_Next page_\n\n* * *\n\n## Customer reviews\n\n_4\\.4 out of 5 stars_\n\n4\\.4 out of 5\n\n140 global ratings\n\n...\n\nDavies begins by noting that the probability of the self-assembly, by sheer random accident, of even the most primitive life found on Earth today (what biologists now call Archaea"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/es/Paul-C-W-Davies/dp/0140263306",
+              "title": "The Fifth Miracle: the Search for the Origin of Life ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Explores life's origins, suggesting it began in Earth's deep crust rather than Darwin's warm pond. Examines potential extraterrestrial life, particularly on"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Lifes-Origin-Beginnings-Biological-Evolution/dp/0520233913",
+              "title": "Life's Origin: The Beginnings of Biological Evolution",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Scientists explore how life emerged from cosmic matter, tracing its origins to distant stars and explaining early Earth's biological evolution."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1356,
+    "completion_tokens": 521,
+    "total_tokens": 1877,
+    "cost": 0.00534056,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000344,
+      "upstream_inference_prompt_cost": 0.0001356,
+      "upstream_inference_completions_cost": 0.0002084
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

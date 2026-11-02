@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793572735-Pz6M7khyruvrbzVgBq5P",
+  "object": "chat.completion",
+  "created": 1793572735,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u0483:amazon:https://www.amazon.com/World-Appears-Journey-into-Consciousness/dp/198488199X\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 897 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"naef7c41178:reference:https://archive.org/details/4percentuniverse0000pane_k1s5\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Bibliographical references explicitly stated on pages 244-276.\"\n    },\n    {\n      \"key\": \"g0736:amazon:https://www.amazon.com/Monsoon-Indian-Ocean-Future-American/dp/0812979206\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 481 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"n2ae4ff00e5:amazon:https://www.amazon.com/Art-Thinking-Clearly-Rolf-Dobelli/dp/0062219693\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 8,081 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-6c5d77fd55e3:amazon:https://www.amazon.com/Peoples-Platform-Taking-Culture-Digital/dp/0805093567\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 90 global ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3413,
+    "completion_tokens": 414,
+    "total_tokens": 3827,
+    "cost": 0.0002017323,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020377,
+      "upstream_inference_prompt_cost": 0.00017065,
+      "upstream_inference_completions_cost": 0.00003312
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:38:58.784Z"
+}

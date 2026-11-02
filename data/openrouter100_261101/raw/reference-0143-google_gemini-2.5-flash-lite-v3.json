@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:45.744Z",
+  "bookId": "intake-0345",
+  "id": "gen-1793571225-eX7UH4iYURKrnAnOinvz",
+  "object": "chat.completion",
+  "created": 1793571225,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"intake-0345\",\n  \"title\": \"Making Modern Science\",\n  \"author\": \"Peter J. Bowler; Iwan Rhys Morus\",\n  \"knownEdition\": {\n    \"id\": \"/books/OL7415497M\",\n    \"url\": \"https://openlibrary.org/books/OL7415497M\"\n  },\n  \"purchaseUrl\": \"https://www.amazon.de/dp/0226068609\",\n  \"reference\": {\n    \"count\": null,\n    \"editionId\": null,\n    \"editionYear\": null,\n    \"url\": null,\n    \"evidence\": \"The Wellcome Collection and Internet Archive entries state that the book 'Includes bibliographical references and index.' However, specific page ranges for the bibliographical references are not provided in the retrieved content.\",\n    \"sourceTitle\": null,\n    \"sourceAuthor\": null,\n    \"ranges\": [],\n    \"method\": \"The presence of bibliographical references is noted in multiple library catalog entries. However, the exact page numbers or a range for these references were not explicitly stated in the provided search results.\",\n    \"limitation\": \"The exact page range for the bibliographical references is not available from the provided search results. The search results confirm the existence of bibliographical references but do not specify their location within the book.\"\n  },\n  \"searchedUrls\": [\n    \"https://works.www.wellcomecollection.org/works/e7mdwmm6\",\n    \"https://content.www.wellcomecollection.org/works/e7mdwmm6\",\n    \"https://archive.org/details/makingmodernscie0000bowl_b4z3\",\n    \"https://archive.org/details/makingmodernscie0000bowl\",\n    \"https://www.bibliovault.org/BV.landing.epl?ISBN=9780226365930\"\n  ],\n  \"limitations\": \"The provided search results confirm that the book includes bibliographical references, but do not specify the page range where they are located. The page count of 529 pages is observed for the 2005 edition from multiple sources, but the specific edition linked by the `knownEdition` ID (OL7415497M) does not have an explicit page count in the provided results.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://works.www.wellcomecollection.org/works/e7mdwmm6",
+              "title": "Making modern science : a historical survey / Peter J. Bowler and Iwan Rhys Morus. | Wellcome Collection",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Search the catalogue\nSearch\n\nMaking modern science : a historical survey / Peter J. Bowler and Iwan Rhys Morus.\n\n* Peter J. Bowler\nDate: [2005]\n* Books\n\nAbout this work\n\nPublication/Creation\n\nChicago : University of Chicago Press, [2005]\n\nPhysical description\n\nviii, 529 pages : illustrations ; 24 cm\n\nContributors\n\n* Peter J. Bowler\n* Iwan Morus\n\nBibliographic information\n\nIncludes bibliographical references and index.\n\nContents\n\nINTRODUCTION: SCIENCE, SOCIETY, AND HISTORY -- EPISODES IN THE DEVELOPMENT OF SCIENCE -- THE SCIENTIFIC REVOLUTION -- THE CHEMICAL REVOLUTION -- THE CONSERVATION OF ENERGY -- THE AGE OF THE EARTH -- THE DARWINIAN REVOLUTION -- THE NEW BIOLOGY -- GENETICS -- ECOLOGY AND THE ENVIRONMENTAL SCIENCES -- CONTINENTAL DRIFT -- TWENTIETH-CENTURY PHYSICS -- REVOLUTIONIZING COSMOLOGY -- THE EMERGENCE OF THE HUMAN SCIENCES -- THEMES IN THE HISTORY OF SCIENCE -- THE ORGANIZATION OF SCIENCE -- SCIENCE AND RELIGION -- POPULAR SCIENCE -- SCIENCE AND TECHNOLOGY -- BIOLOGY AND IDEOLOGY -- SCIENCE AND MEDICINE -- SCIENCE AND WAR -- SCIENCE AND GENDER.\n\nLanguages\n\n* English\n\nSubjects\n\n* Science History\n\nWhere to find it\n\n* * Location | Status |  | \n* History of Medicine\nAB /BOW |Open shelves | | |\n\nPermanent link\n\nPage URL\n\nIdentifiers\n\nISBN\n\n* 0226068609\n* 0226068617\n183 Euston Road LondonNW1 2BE\n+44 (0)20 7611 2222 info@wellcomecollection.org\n\n...\n\nAccessibility\n* Visit us\n* What’s on\n* Stories\n* Collections\n* Get involved\n* About us\n* Contact us"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://content.www.wellcomecollection.org/works/e7mdwmm6",
+              "title": "Making modern science : a historical survey / Peter J. Bowler and Iwan Rhys Morus. | Wellcome Collection",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Search the catalogue\nSearch\n\nMaking modern science : a historical survey / Peter J. Bowler and Iwan Rhys Morus.\n\n* Peter J. Bowler\nDate: [2005]\n* Books\n\nAbout this work\n\nPublication/Creation\n\nChicago : University of Chicago Press, [2005]\n\nPhysical description\n\nviii, 529 pages : illustrations ; 24 cm\n\nContributors\n\n* Peter J. Bowler\n* Iwan Morus\n\nBibliographic information\n\nIncludes bibliographical references and index.\n\nContents\n\nINTRODUCTION: SCIENCE, SOCIETY, AND HISTORY -- EPISODES IN THE DEVELOPMENT OF SCIENCE -- THE SCIENTIFIC REVOLUTION -- THE CHEMICAL REVOLUTION -- THE CONSERVATION OF ENERGY -- THE AGE OF THE EARTH -- THE DARWINIAN REVOLUTION -- THE NEW BIOLOGY -- GENETICS -- ECOLOGY AND THE ENVIRONMENTAL SCIENCES -- CONTINENTAL DRIFT -- TWENTIETH-CENTURY PHYSICS -- REVOLUTIONIZING COSMOLOGY -- THE EMERGENCE OF THE HUMAN SCIENCES -- THEMES IN THE HISTORY OF SCIENCE -- THE ORGANIZATION OF SCIENCE -- SCIENCE AND RELIGION -- POPULAR SCIENCE -- SCIENCE AND TECHNOLOGY -- BIOLOGY AND IDEOLOGY -- SCIENCE AND MEDICINE -- SCIENCE AND WAR -- SCIENCE AND GENDER.\n\nLanguages\n\n* English\n\nSubjects\n\n* Science History\n\nWhere to find it\n\n* * Location | Status |  | \n* History of Medicine\nAB /BOW |Open shelves | | |\n\nPermanent link\n\nPage URL\n\nIdentifiers\n\nISBN\n\n* 0226068609\n* 0226068617\n183 Euston Road LondonNW1 2BE\n+44 (0)20 7611 2222 info@wellcomecollection.org\n\n...\n\nAccessibility\n* Visit us\n* What’s on\n* Stories\n* Collections\n* Get involved\n* About us\n* Contact us"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/makingmodernscie0000bowl_b4z3",
+              "title": "Making modern science : a historical survey : Bowler, Peter J : Free Download, Borrow, and Streaming : Internet Archive",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "* Jobs\n* Volunteer\n* Sign up for free\n* Log in * About\n* Blog\n* Events\n* Projects\n* Help\n* Donate\n* Contact\n* Jobs\n* Volunteer\n\nMaking modern science : a historical survey\n\nBookreader Item Preview\n\n...\n\nby Bowler, Peter J\nPublication date 2005 Topics Science -- History -- Textbooks , Science -- History -- 20th century -- Textbooks , Science -- history , History, 20th Century , Sciences -- Histoire -- Manuels d'enseignement supérieur , Sciences -- Histoire -- 20e siècle -- Manuels d'enseignement supérieur , 30.01 history of the exact sciences , Science -- History -- Textbooks -- 20th century , Science , Naturwissenschaften , Natuurwetenschappen Publisher Chicago : University of Chicago Press Collection internetarchivebooks ; printdisabled Contributor Internet Archive Language English Item Size 1.4G\nviii, 529 pages : 24 cm\nBowler & Morus explore the history of science & its influence on modern thought\nIncludes bibliographical references and index\nIntroduction : Science, society, and history -- The scientific revolution -- The chemical revolution -- The conservation of energy -- The age of the Earth -- The Darwinian revolution -- The new biology -- Genetics -- Ecology and environmentalism --\n\n...\n\nAccess-restricted-item true Addeddate 2022-02-08 13:06:20 Associated-names Morus, Iwan Rhys, 1964- Bookplateleaf 0006 Boxid IA40337316 Camera Sony Alpha-A6300 (Control) Collection_set printdisabled"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/makingmodernscie0000bowl",
+              "title": "Making modern science : a historical survey : Bowler, Peter J : Free Download, Borrow, and Streaming : Internet Archive",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Keep the news in the Wayback Machine. Sign Fight for the Future's letter .\n\nMaking modern science : a historical survey\n\nBookreader Item Preview\n\n \nremove-circle\n\n...\n\n* Marketing/Phishing/Advertising\n* Misleading/Inaccurate/Missing Metadata\ntexts\n\nMaking modern science : a historical survey\n\nby Bowler, Peter J\nPublication date 2005 Topics Science -- History -- Textbooks , Science -- History -- 20th century -- Textbooks , Science -- history , History, 20th Century , Sciences -- Histoire -- Manuels d'enseignement supérieur , Sciences -- Histoire -- 20e siècle -- Manuels d'enseignement supérieur , 30.01 history of the exact sciences , Science -- History -- Textbooks -- 20th century , Science , Naturwissenschaften , Natuurwetenschappen Publisher Chicago : University of Chicago Press Collection internetarchivebooks ; printdisabled Contributor Internet Archive Language English Item Size 978.5M\nviii, 529 pages : 24 cm\nBowler & Morus explore the history of science & its influence on modern thought\nIncludes bibliographical references and index\nIntroduction : Science, society, and history -- The scientific revolution -- The chemical revolution -- The conservation of energy -- The age of the Earth -- The Darwinian revolution -- The new\n\n...\n\n2021-10-14 13:06:16 Associated-names Morus, Iwan Rhys, 1964- Boxid IA40258416 Camera Sony Alpha-A6300 (Control) Collection_set printdisabled External-identifier urn:oclc:record:1285648510 [WorldCat"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.bibliovault.org/BV.landing.epl?ISBN=9780226365930",
+              "title": "Making Modern Science, Second Edition - BiblioVault",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Cover of Making Modern Science, Second Edition\nMaking Modern Science, Second Edition\nby Peter J. Bowler and Iwan Rhys Morus\nUniversity of Chicago Press, 2020 Cloth : 978-0-226-36562-6 | Paper : 978-0-226-36576-3 | Electronic : 978-0-226-36593-0 DOI: 10.7208/chicago/9780226365930.001.0001\n\nAVAILABLE FROM\n\n...\n\nIn this new edition of the top-selling coursebook, seasoned historians Peter J. Bowler and Iwan Rhys Morus expand on their authoritative survey of how the development of science has shaped our world. Exploring both the history of science and its influence on modern thought, the authors chronicle the major developments in scientific thinking, from the revolutionary ideas of the seventeenth century to contemporary issues in genetics, physics, and more.\nThoroughly revised and expanded, the second edition draws on the latest research and scholarship. It also contains two entirely new chapters: one that explores the impact of computing on the development of science, and another that shows how the West used science and technology as tools for geopolitical expansion. Designed for entry-level college courses and as a single-volume introduction for the general reader, Making Modern Science presents the history of science not as a series of names and dates, but as an interconnected and complex web of relationships joining science and society.\n\nAUTHOR BIOGRAPHY\n\nPeter J.\n\n...\n\nBook published by University of Chicago Press , 2020. Page maintained by BiblioVault ."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2742,
+    "completion_tokens": 551,
+    "total_tokens": 3293,
+    "cost": 0.005489654,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004946,
+      "upstream_inference_prompt_cost": 0.0002742,
+      "upstream_inference_completions_cost": 0.0002204
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

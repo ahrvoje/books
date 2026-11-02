@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:15:36.262Z",
+  "bookId": "bg324c28a727",
+  "id": "gen-1793571335-NPLMPzdidMPtKjigonbV",
+  "object": "chat.completion",
+  "created": 1793571335,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"bg324c28a727\",\n  \"title\": \"2030\",\n  \"author\": \"Mauro F. Guillén\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 278,\n    \"editionId\": \"9781250268174\",\n    \"editionYear\": 2020,\n    \"format\": \"Book\",\n    \"language\": \"English\",\n    \"url\": \"https://academic.macmillan.com/academictrade/9781250268174/2030howtodaysbiggesttrendswillcollideandreshapethefutureofeverything/\",\n    \"evidence\": \"vi, 278 pages : illustrations ; 25 cm\",\n    \"sourceTitle\": \"2030 : : how today's biggest trends will collide and reshape...\",\n    \"sourceAuthor\": \"Guillén, Mauro F.\"\n  },\n  \"reference\": {\n    \"count\": 23,\n    \"editionId\": \"9781250268174\",\n    \"editionYear\": 2020,\n    \"url\": \"https://broomfieldkids.flatironslibrary.org/Record/.b29636383\",\n    \"evidence\": \"Includes bibliographical references (pages 245-267) and index.\",\n    \"sourceTitle\": \"2030 : : how today's biggest trends will collide and reshape...\",\n    \"sourceAuthor\": \"Guillén, Mauro F.\",\n    \"ranges\": [\n      {\n        \"start\": 245,\n        \"end\": 267,\n        \"label\": \"Bibliographical references\",\n        \"evidence\": \"Includes bibliographical references (pages 245-267) and index.\"\n      }\n    ],\n    \"method\": \"explicitly catalogued\",\n    \"limitation\": \"The reference count is derived from the page range provided in the catalog record. The exact number of references is not explicitly stated.\"\n  },\n  \"searchedUrls\": [\n    \"https://broomfieldkids.flatironslibrary.org/Record/.b29636383\",\n    \"https://catalog.myrichlandlibrary.org/Record/244925\",\n    \"https://metro-prod.groveforlibraries.com/Record/CARL0000988901\",\n    \"https://catalog.wake.gov/Record/745698\",\n    \"https://wyld.wyldcatalog.org/Record/a2383930\"\n  ],\n  \"limitations\": \"The provided Amazon purchase URL does not contain bibliographic details. Page counts vary slightly between sources (278 vs. 288), but the majority of sources indicate 278 pages. The reference page range is consistently reported as 245-267 across multiple library catalog entries.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://broomfieldkids.flatironslibrary.org/Record/.b29636383",
+              "title": "2030 : : how today's biggest trends will collide and reshape...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# 2030: how today's biggest trends will collide and reshape the future of everything (Book)\n\n...\n\nAuthor: Guillén, Mauro F., \n\nPublished: New York : St. Martin's Press, 2020.\n\nFormat: Book\n\nEdition: First edition.\n\nPhysical Desc: vi, 278 pages : illustrations ; 25 cm\n\nStatus:\n\nOn Shelf \n\n| Available Copies | Location | Call Number |\n| --- | --- | --- |\n| 1 of 1 | Clearview Windsor Non-Fiction | 330.9 GUILLEN |\n| 0 of 1 | Louisville Adult Non-Fiction | 330.9 GUILLEN |\n| 1 of 1 | Loveland Adult Nonfiction | 330.9 Guillen, M. |\n\n## Copies\n\n...\n\nLouisville Adult Non-Fiction 330.9 GUILLEN Due Nov 13, 2026\n\nLoveland Adult Nonfiction 330.9 Guillen, M.\n\n...\n\n## Table of Contents\n\n1. Introduction: the clock is ticking \n2. Follow the babies \n3. Gray is the new black \n4. Keeping up with the Singhs and the Wangs \n5. Second sex no more? \n6. Cities drown first \n7. More cellphones than toilets \n8. Imagine new possessions \n9. More currencies that countries.\n\n...\n\n## More Details\n\nLanguage: English\n\nISBN: 9781250268174, 1250268176\n\n#### Notes\n\nBibliography\n\nIncludes bibliographical references (pages 245-267) and index.\n\n...\n\n### MARC Record\n\n| LEADER | | | 04593pam a2200541 i 4500 |\n| --- | --- | --- | --- |\n| 001 | | | BK0026157814 |\n| 003 | | | DLC |\n| 005 | | | 20200818094721.8 |\n| 008 | | | 200521s2020 nyua e b 001 0 eng |\n| 010 | | | |a 2020016408 |\n| 020 | | | |a 9781250268174 |q (hardcover) |\n| 020 | | | |a 1250268176 |q (hardcover) |\n| 040 | | | |a DLC |b eng |e rda |c DLC |d GCmBT |d CoBoFLC |\n| 050 | 0 | 0 | |a HC59.3 |b .G84 2020 |\n| 082 | 0 | 0 | |a 330.9 |2 23 |\n| 100 | 1 | | |a Guillén, Mauro F., |e author. |\n| 245 | 1 | 0 | |a 2030 : |b how today's biggest trends will collide and reshape the future of everything / |c Mauro F. Guillén. |\n| 246 | 3 | | |a Twenty thirty |\n| 250 | | | |a First edition. |\n| 264 | | 1 | |a New York : |b St. Martin's Press, |c 2020. |\n| 264 | | 4 | |c ©2020 |\n| 300 | | | |a vi, 278 pages : |b illustrations ; |c 25 cm |\n| 336 | | | |a text |b txt |2 rdacontent |\n| 337 | | | |a unmediated |b n |2 rdamedia |\n| 338 | | | |a volume |b nc |2 rdacarrier |\n| 340 | | | |p illustration |2 rdaill |\n| 504 | | | |a Includes bibliographical references (pages 245-267) and index. |\n| 505 | 0 | | |a Introduction: the clock is ticking -- Follow the babies -- Gray is the new black -- Keeping up with the Singhs and the Wangs -- Second sex no more? -- Cities drown first -- More cellphones than toilets -- Imagine new possessions -- More currencies that countries. |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.myrichlandlibrary.org/Record/244925",
+              "title": "2030 : how today's biggest trends will collide and reshape... | Richland Public Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# 2030 : how today's biggest trends will collide and reshape the future of everything (Book)\n\nAverage Rating\n\nAuthor Guillén, Mauro F., \n\nStatus\n\nOn Shelf\n\nRPL - Adult Nonfiction 330.9 GUILLEN 1 available\n\n## Copies\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| RPL - Adult Nonfiction | 330.9 GUILLEN | Available |\n\nCOVID-19 (Disease) -- Economic aspects. Economic forecasting. Economic history -- 21st century. \n\n## More Details\n\nFormat Book\n\nPhysical Desc vi, 278 pages : illustrations ; 24 cm\n\nStreet Date 2008\n\nLanguage English\n\n#### Notes\n\nBibliography\n\nIncludes bibliographical references (pages 245-267) and index.\n\n...\n\nGuillén, M. F. (2020). 2030: how today's biggest trends will collide and reshape the future of everything (First edition.). St. Martin's Press."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://metro-prod.groveforlibraries.com/Record/CARL0000988901",
+              "title": "2030 : how today's biggest trends will collide and reshape... | Metropolitan Library System",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# 2030 : how today's biggest trends will collide and reshape the future of everything (Book)\n\nAverage Rating\n\nAuthor Guillén, Mauro F \n\nPublished New York : St. Martin's Press, ©2020.\n\nFormat Book\n\nPhysical Desc vi, 278 pages : illustrations ; 24 cm\n\nStatus\n\nOn Shelf\n\nDowntown Library - Adult Nonfiction 330.9 G9589t 1 available\n\nNorthwest Library - Adult Nonfiction 330.9 G9589t 1 available\n\nWhere is it?\n\n## Copies\n\n| Location | Call Number | Item | Status |\n| --- | --- | --- | --- |\n| Downtown Library - Adult Nonfiction | 330.9 G9589t | M12759233 | On Shelf |\n| Northwest Library - Adult Nonfiction | 330.9 G9589t | M12759251 | On Shelf |\n\n## Other Editions and Formats\n\n...\n\nMidwest City Library - Adult Nonfiction 330.9 G9589t AUDIO PLAYER 1 available\n\n## More Details\n\nLanguage English\n\nISBN 9781250268174 (hardcover), 1250268176 (hardcover)\n\nOther Title Twenty thirty\n\nBibliography\n\nIncludes bibliographical references (pages 245-267) and index.\n\n## Subjects\n\nCOVID-19 (Disease) -- Economic aspects. Economic forecasting. Economic history -- 21st century."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.wake.gov/Record/745698",
+              "title": "2030 : : how today's biggest trends will collide and reshape...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# 2030: how today's biggest trends will collide and reshape the future of everything (Book)\n\nAuthor: Guillén, Mauro F. \n\nStatus:\n\nOn Shelf \n\nCary Regional - Adult Non-Fiction 330.9 GUILL\n\nNorth Regional - Adult Non-Fiction 330.9 GUILL\n\nWest Regional - Adult Non-Fiction has 3 330.9 GUILL\n\n| Available Copies | Location | Call Number |\n| --- | --- | --- |\n| 1 of 2 | Cary Regional - Adult Non-Fiction | 330.9 GUILL |\n| 0 of 1 | Eva H. Perry Regional - Adult Non-Fiction | 330.9 GUILL |\n| 1 of 1 | North Regional - Adult Non-Fiction | 330.9 GUILL |\n| 3 of 4 | West Regional - Adult Non-Fiction | 330.9 GUILL |\n\n## Copies\n\nLocation Call Number Status\n\nCary Regional - Adult Non-Fiction 330.9 GUILL On Shelf\n\nCary Regional - Adult Non-Fiction 330.9 GUILL Remote Storage\n\nEva H. Perry Regional - Adult Non-Fiction 330.9 GUILL Checked Out\n\nNorth Regional - Adult Non-Fiction 330.9 GUILL On Shelf\n\nWest Regional - Adult Non-Fiction 330.9 GUILL On Shelf\n\nWest Regional - Adult Non-Fiction 330.9 GUILL On Shelf\n\nWest Regional - Adult Non-Fiction 330.9 GUILL On Shelf\n\nWest Regional - Adult Non-Fiction 330.9 GUILL No Longer Avail. (Not Holdable)\n\n## More Details\n\nPublished: New York : St. Martin's Press, 2020.\n\nFormat: Book\n\nEdition: First edition.\n\nPhysical Desc: vi, 278 pages ; 24 cm\n\nLanguage: English\n\nISBN: 9781250268174, 1250268176, 9781250268174\n\n#### Notes\n\nBibliography Includes bibliographical references and index.\n\n...\n\nGuillén, M. F. (2020). 2030: how today's biggest trends will collide and reshape the future of everything. First edition. St. Martin's Press.\n\n...\n\nGuillén, Mauro F. 2020. 2030: How Today's Biggest Trends Will Collide and Reshape the Future of Everything. St. Martin's Press.\n\n...\n\n### MARC Record\n\n| LEADER | | | 04496pam a2200493 i 4500 |\n| --- | --- | --- | --- |\n| 001 | | | 2020016408 |\n| 003 | | | DLC |\n| 005 | | | 20220317110100.0 |\n| 008 | | | 200521s2020 nyu b 001 0 eng |\n| 010 | | | |a 2020016408 |\n| 020 | | | |a 9781250268174 |c $28.99 |\n| 020 | | | |a 1250268176 |c $28.99 |\n| 020 | | | |a 9781250268174 |q (hardcover) |\n| 020 | | | |z 9781250268181 |q (ebook) |\n| 040 | | | |a DLC |b eng |e rda |c DLC |d TnLvILS |\n| 042 | | | |a pcc |\n| 050 | 0 | 0 | |a HC59.3 |b .G84 2020 |\n| 082 | 0 | 0 | |a 330.9 |2 23 |\n| 092 | | | |a 330.9 GUILL |\n| 100 | 1 | | |a Guillén, Mauro F. |e author. |\n| 245 | 1 | 0 | |a 2030 : |b how today's biggest trends will collide and reshape the future of everything / |c Mauro F. Guillén. |\n| 246 | 3 | | |a Twenty thirty |\n| 250 | | | |a First edition. |\n| 264 | | 1 | |a New York : |b St. Martin's Press, |c 2020. |\n| 300 | | | |a vi, 278 pages ; |c 24 cm |\n| 336 | | | |a text |b txt |2 rdacontent |\n| 337 | | | |a unmediated |b n |2 rdamedia |\n| 338 | | | |a volume |b nc |2 rdacarrier |\n| 504 | | | |a Includes bibliographical references and index. |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://wyld.wyldcatalog.org/Record/a2383930",
+              "title": "2030 : how today's biggest trends will collide and reshape... | Wyoming Libraries - All",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# 2030 : how today's biggest trends will collide and reshape the future of everything (Book)\n\nAuthor Guillén, Mauro F. \n\nPublished New York : St. Martin's Press, 2020.\n\nEdition First edition.\n\nPhysical Description vi, 278 pages : illustrations ; 24 cm\n\nStatus\n\nOn Shelf Show All Copies\n\n## Copies\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| Sheridan Co. - Fulmer Branch - Nonfiction | 330.9 GUILLEN M | On Shelf |\n| Sweetwater Co. - White Mtn Library - Nonfiction | 330.9 GUIL | On Shelf |\n\nCOVID-19 (Disease) -- Economic aspects. Economic forecasting. Economic history -- 21st century. \n\n## More Details\n\nFormat Book\n\nLanguage English\n\nISBN 9781250268174 (hardcover), 1250268176 (hardcover)\n\nNotes\n\nOther Title Twenty thirty\n\nBibliography\n\nIncludes bibliographical references (pages 245-267) and index.\n\n...\n\nGuillén, M. F. (2020). 2030: how today's biggest trends will collide and reshape the future of everything. (First edition). St. Martin's Press."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4007,
+    "completion_tokens": 686,
+    "total_tokens": 4693,
+    "cost": 0.007668349,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006751,
+      "upstream_inference_prompt_cost": 0.0004007,
+      "upstream_inference_completions_cost": 0.0002744
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

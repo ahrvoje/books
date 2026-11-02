@@ -1,0 +1,82 @@
+{
+  "id": "gen-1793576997-WkgD6RdYUALw6P9TViVw",
+  "object": "chat.completion",
+  "created": 1793576997,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "Here",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/normchroniclesst0000blas_g3w3",
+              "title": "The Norm chronicles : stories and numbers about danger and ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Norm chronicles : stories and numbers about danger and ...\nIn The Norm Chronicles, journalist Michael Blastland and risk expert David Spiegelhalter answer these questions--and far more--in a commonsense (and wildly entertaining) guide to personal risk."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/halfhasneverbeen0000bapt_c1d5",
+              "title": "The half has never been told : slavery and the making of ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe half has never been told : slavery and the making of ...\nThe half has never been told : slavery and the making of American capitalism. by: Baptist, Edward E., author."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/secretdoctrinehp0003blav",
+              "title": "The secret doctrine : H.P. Blavatsky collected writings",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe secret doctrine : H.P. Blavatsky collected writings\nAnthropogenesis -- v. 3. Index and bibliography. No suitable files to display here."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 391,
+    "completion_tokens": 1,
+    "total_tokens": 392,
+    "cost": 0.00100699732,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000007068,
+      "upstream_inference_prompt_cost": 0.000007038,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "shelf-963a8168ff30",
+  "method": "archive",
+  "query": "site:archive.org/details \"The Hidden Half\" Michael Blastland \"bibliographical references\"",
+  "retrieved": "2026-11-01T23:49:59.633Z"
+}

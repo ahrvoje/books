@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575759-sb6qoUjzWhPjUks7YoVc",
+  "object": "chat.completion",
+  "created": 1793575759,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g1267:amazon:https://www.amazon.com/Science-Conjecture-Evidence-Probability-before/dp/0801871093\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 30 ratings.\"\n    },\n    {\n      \"key\": \"resume-430-4:amazon:https://www.amazon.com/Hackers-Mind-Powerful-Societys-Rules/dp/0393866661\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 497 ratings.\"\n    },\n    {\n      \"key\": \"progress-0439:amazon:https://www.amazon.com/Singularity-Rising-Surviving-Thriving-Dangerous/dp/1936661659\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 50 global ratings.\"\n    },\n    {\n      \"key\": \"g0665:amazon:https://www.amazon.com/Meaning-All-Thoughts-Citizen-Scientist/dp/0465023940\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 573 global ratings.\"\n    },\n    {\n      \"key\": \"n7910c752df:amazon:https://www.amazon.com/Briefer-History-Time-Science-Accessible/dp/0553385461\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 2,538 ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3329,
+    "completion_tokens": 439,
+    "total_tokens": 3768,
+    "cost": 0.0001995543,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020157,
+      "upstream_inference_prompt_cost": 0.00016645,
+      "upstream_inference_completions_cost": 0.00003512
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:29:27.353Z"
+}

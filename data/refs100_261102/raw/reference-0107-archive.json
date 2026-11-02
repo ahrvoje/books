@@ -1,0 +1,72 @@
+{
+  "id": "gen-1793576994-r704qfYnqBaB0ahqPpPW",
+  "object": "chat.completion",
+  "created": 1793576994,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "Here",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/isbn_9780028655628",
+              "title": "Mathematics [electronic resource] : Brandenberger, Barry Max, 1971- : Free Download, Borrow, and Streaming : Internet Archive",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Keep the news in the Wayback Machine. Sign Fight for the Future's letter .\n\nMathematics [electronic resource]\n\nBookreader Item Preview\n\nremove-circle\n\nShare or Embed This Item\n\n...\n\nresource] : Brandenberger, Barry Max, 1971- : Free Download, Borrow, and Streaming : Internet Archive) Copy Link\nEMBED\n\n...\n\n* Marketing/Phishing/Advertising\n* Misleading/Inaccurate/Missing Metadata\ntexts\n\nMathematics [electronic resource]\n\nby Brandenberger, Barry Max, 1971-\nPublication date 2002 Topics Mathematics , Mathematics Publisher New York : Macmillan Reference USA Collection internetarchivebooks ; inlibrary ; printdisabled Contributor Internet Archive Language English Item Size 460.3M\nMode of access: World Wide Web\nExplores the functions of math in daily life, as well as its role as a tool for measurement, data analysis, and technological development. This illustrated set also explains basic concepts of math and geometry, and provides information on historical milestones, notable mathematicians, and today's career choices. Each volume includes photos, illustrations, sidebars, bibliographies, and a glossary\nAvailable through the Gale virtual reference library\nv. 1. Ab-Cy -- v. 2. Da-Lo -- v. 3. Ma-Ro -- v. 4. Sc-Ze\nDescription based on print version record\nAccess-restricted-item true Addeddate 2015-02-25 19:40:06.159251 Bookplateleaf 0004 Boxid IA1128901 Camera Canon EOS 5D Mark II City New York\n\n...\n\nTerms of Service (last updated 12/31/2014)"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/flooved3501",
+              "title": "Math in Society : David Lippman;Jeff Eldridge;Mike Kenyon",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nMath in Society : David Lippman;Jeff Eldridge;Mike Kenyon\nNov 14, 2013 — Publication date: 20120101; Topics: Maths, Mathematics; Publisher: Flooved.com on behalf of the author; Collection: flooved; journals\n\n## \n\nMath in Society : David Lippman;Jeff Eldridge;Mike Kenyon\nNov 14, 2013 — Math in Society. by: David Lippman;Jeff Eldridge;Mike Kenyon;Lawrence Morales;Melonie Rasmussen. Publication date: 20120101; Topics: Maths,"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 789,
+    "completion_tokens": 1,
+    "total_tokens": 790,
+    "cost": 0.00101408968,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000014232,
+      "upstream_inference_prompt_cost": 0.000014202,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "n88837eb597",
+  "method": "archive",
+  "query": "site:archive.org/details \"What's Happening in the Mathematical Sciences\" Barry Cipra; Dana Mackenzie (series authors; volume scope unspecified) \"bibliographical references\"",
+  "retrieved": "2026-11-01T23:49:56.832Z"
+}

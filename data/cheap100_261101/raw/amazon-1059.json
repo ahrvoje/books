@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572151-0dEBg59RKekOWXbFQ6Jw",
+  "object": "chat.completion",
+  "created": 1793572151,
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "provider": "Nvidia",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"id\": \"shelf-894ec0a8ba9e\",\n  \"title\": \"The Main Stream of Mathematics\",\n  \"author\": \"Edna E. Kramer\",\n  \"amazon\": {\n    \"count\": 3,\n    \"url\": \"https://www.amazon.com/-/he/Edna-Kramer/dp/B0007EFCN4\",\n    \"asin\": \"B0007EFCN4\",\n    \"evidence\": [\n      \"[amazon.com](https://www.amazon.com/-/he/Edna-Kramer/dp/B0007EFCN4) (Fawcett premier book edition)\",\n      \"[amazon.com](https://www.amazon.com/-/he/Edna-Kramer/dp/B0007E6X7I) (Oxford University Press edition)\",\n      \"[amazon.com](https://www.amazon.com/-/he/Edna-Ph-D-Kramer/dp/B0000CHZ27) (Ph.D. Kramer edition)\"\n    ]\n  },\n  \"reference\": {\n    \"count\": 3,\n    \"url\": \"https://www.amazon.com/-/he/Edna-Kramer/dp/B0007EFCN4\",\n    \"evidence\": [\n      \"[amazon.com](https://www.amazon.com/-/he/Edna-Kramer/dp/B0007EFCN4) (Fawcett premier book edition)\",\n      \"[amazon.com](https://www.amazon.com/-/he/Edna-Kramer/dp/B0007E6X7I) (Oxford University Press edition)\",\n      \"[amazon.com](https://www.amazon.com/-/he/Edna-Ph-D-Kramer/dp/B0000CHZ27) (Ph.D. Kramer edition)\"\n    ],\n    \"ranges\": [\n      {\n        \"start\": 1,\n        \"end\": 3,\n        \"label\": \"editions\"\n      }\n    ]\n  }\n}",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/he/Edna-Ph-D-Kramer/dp/B0000CHZ27",
+              "title": "The Main Stream of Mathematics: Kramer, Edna E., Ph.D.: ספרים",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Ph.D. Kramer, Edna E. The Main Stream of Mathematics."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/he/Edna-Kramer/dp/B0007EFCN4",
+              "title": "The main stream of mathematics (Fawcett premier book)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Edna E Kramer. The main stream of mathematics (Fawcett premier book). The main stream of mathematics (Fawcett premier book). פותח את אותו תוכן במסך מלא"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/he/Edna-Kramer/dp/B0007E6X7I",
+              "title": "The main stream of mathematics: Kramer, Edna E.: ספרים",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The main stream of mathematics · פותח את אותו תוכן במסך מלא. פרטי הספר. מוציא לאור. Oxford University Press; תאריך פרסום 1 ינואר 1955; שפה. English; אורך הדפסה"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Edna-Kramer/s?rh=n%3A283155%2Cp_27%3AEdna%2BKramer",
+              "title": "Edna Kramer: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Main Stream of Mathematics by Edna E. Kramer (1988-06-15) · by Edna E. Kramer · Paperback · See options. See all details. The Main Stream of Mathematics by"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/es/main-stream-mathematics-Edna-Kramer/dp/B0007E6X7I",
+              "title": "The main stream of mathematics: Kramer, Edna E.: Libros",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The main stream of mathematics · Abre el mismo contenido en pantalla completa. Detalles del libro. Editorial Oxford University Press; Fecha de publicación 1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 780,
+    "completion_tokens": 429,
+    "total_tokens": 1209,
+    "cost": 0.005,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "shelf-894ec0a8ba9e",
+  "retrieved": "2026-11-01T22:29:13.236Z"
+}

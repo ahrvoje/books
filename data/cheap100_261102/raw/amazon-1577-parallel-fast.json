@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793574374-GLuBBq2h9KxNwXLM99TM",
+  "object": "chat.completion",
+  "created": 1793574374,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"bg460b718966\",\n  \"title\": \"The Carolina Way\",\n  \"author\": \"Dean Smith and Gerald D. Bell with John Kilgo\",\n  \"pages\": null,\n  \"amazon\": {\n    \"count\": 1,\n    \"url\": \"https://www.amazon.com/dp/0471525967\",\n    \"asin\": \"B00005Q5QN\",\n    \"evidence\": \"site:amazon.com \\\"The Carolina Way\\\" Dean Smith and Gerald D. Bell with John Kilgo \\\"global ratings\\\"\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/The-HPScast/dp/B08K59Q6V9",
+              "title": "Amazon.com: The HPScast : HPS Investment Partners LLC: Audible Books & Originals",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "HPS Investment Partners LLC (Author)\nAbout the podcast\nBecoming a leading global investment firm doesn't happen in a vacuum.\n\n...\n\nThis year, we heard from leaders at the top of their fields, including a legendary global financial executive, an American fashion icon, and a powerhouse in the hospitality industry, as well as\n\n...\n\nplatform that recently combined with BlackRock. Jim reflects on growing up in St. Louis, studying economics at the University of North Carolina at Chapel Hill, and building a career in commercial real estate that led to founding ElmTree. Jim shares his perspective on how the current interest rate environment is affecting the net-lease market.\nLearn more about Jim and his work with ElmTree Funds here. Read Project Hail Mary, a science fiction novel by Andy Weir, Jim’s Best Idea, here. Read Colbert’s Best Idea for this week, The Carolina Way, by legendary University of North Carolina basketball coach Dean Smith, co-authored with Gerald D. Bell and John Kilgo, here.\nRead More\nMar 18, 2026\n25 min\nListen With Audible Listen with Amazon Music\nElyce Arons — Co-Founder of Kate Spade, Co-Founder and CEO of Frances Valentine\nThis week on the HPScast, host Colbert Cannon speaks with Elyce Arons, the co-founder of Kate Spade and co-founder and\n\n...\n\n0% 0% 0% 0% 0%\n* 5 star 4 star 3 star 2 star 1 star 2 star 0% 0% 0% 0% 0% 0%\n* 5 star 4 star 3 star 2 star 1 star 1 star 0% 0% 0% 0% 0% 0%\nHow customer reviews and ratings work\nView Image Gallery"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 797,
+    "completion_tokens": 151,
+    "total_tokens": 948,
+    "cost": 0.00101868724,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000018876,
+      "upstream_inference_prompt_cost": 0.000014346,
+      "upstream_inference_completions_cost": 0.00000453
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Carolina Way\" Dean Smith and Gerald D. Bell with John Kilgo \"global ratings\"",
+  "bookId": "bg460b718966",
+  "retrieved": "2026-11-01T23:06:18.130Z"
+}

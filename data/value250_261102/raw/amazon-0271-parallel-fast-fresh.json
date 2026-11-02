@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793575592-zycjDGdtRwRfy2Zh4GyW",
+  "object": "chat.completion",
+  "created": 1793575592,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Professor-Maxwells-Duplicitous-Demon-Science-ebook/dp/B07KGNBZGP",
+              "title": "Professor Maxwell's Duplicitous Demon: The Life and Science of James Clerk Maxwell, Clegg, Brian, eBook - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Faraday, Maxwell, and the Electromagnetic Field: How Two Men Revolutionized Physics\nNancy Forbes\n4.6 out of 5 stars 1,009\nKindle Edition\n-17% EUR13.39 EUR 13 . 39\nPrint List Price: EUR 16.08\n2. Too Big for a Single Mind: How the Greatest Generation of Physicists Uncovered the Quantum World\nToo Big for a Single Mind: How the Greatest Generation of Physicists Uncovered the Quantum World\nTobias Hürter\n4.6 out of 5 stars 194\nKindle Edition\n-22% EUR12.50 EUR 12 . 50\nDigital List Price: EUR 16.07\n3. The Man Who Changed Everything: The Life of James Clerk Maxwell\nThe Man Who Changed Everything: The Life of\n\n...\n\nBook cover Too Big for a Single Mind: How the Greatest Generation of Physicists Uncovered the Quantum World Too Big for a Single Mind: How the Greatest Generation of Physicists Uncovered the Quantum World Too Big for a Single Mind: How the Greatest Generation of Physici…\n194\nKindle Edition\nEUR12.50 EUR 12 . 50\n3.\n\n...\n\n4.8 4.8 out of 5 stars 15\nEUR6.25 EUR 6 . 25 Print List Price: EUR13.39 EUR13.39\nNext page\n\nCustomer reviews\n\n4.7 out of 5 stars\n4.7 out of 5\n79 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 77% 19% 3% 1% 0% 77%\n* 5 star 4 star 3 star 2 star 1 star 4 star 77% 19% 3% 1% 0% 19%\n* 5 star 4 star 3 star 2 star 1 star 3 star 77% 19% 3% 1% 0% 3%\n* 5 star 4 star 3 star 2 star 1 star 2 star 77% 19% 3% 1% 0% 1%\n* 5 star 4 star 3 star 2 star 1 star 1 star 77% 19% 3% 1% 0% 0"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Too-Big-Single-Mind-Generation/dp/1615199209",
+              "title": "Too Big for a Single Mind: How the Greatest Generation of ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nToo Big for a Single Mind: How the Greatest Generation of ...\nThe epic story of how, amid two world wars, history's greatest physicists redefined the universe and the reality we live in.\n\n## \n\nToo Big for a Single Mind: How the Greatest Generation of Physicists ...\nFree delivery 30-day returns Print length. 368 pages ; Language. English ; Publisher. The Experiment ; Publication date. October 4, 2022 ; Dimensions. 6.3 x 1.3 x 9.4 inches."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1132,
+    "completion_tokens": 1,
+    "total_tokens": 1133,
+    "cost": 0.00102020194,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000020406,
+      "upstream_inference_prompt_cost": 0.000020376,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Too Big for a Single Mind\" Tobias Hürter \"global ratings\"",
+  "bookId": "rest-127-107",
+  "retrieved": "2026-11-01T23:26:33.437Z"
+}

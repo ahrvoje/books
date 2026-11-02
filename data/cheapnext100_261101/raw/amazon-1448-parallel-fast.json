@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793573508-fjyyA53g9oLAc8qK2egA",
+  "object": "chat.completion",
+  "created": 1793573508,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-f0fabd67a94a\",\n  \"title\": \"The Two-State Delusion: Israel and Palestine--A Tale of Two Narratives\",\n  \"author\": \"Padraig O'Malley\",\n  \"pages\": null,\n  \"amazon\": {\n    \"count\": 4.4,\n    \"url\": \"https://www.amazon.com/Two-State-Delusion-Israel-Palestine-Narratives/dp/0143129171\",\n    \"asin\": \"0143129171\",\n    \"evidence\": \"Global ratings: 4.4 out of 5 stars\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Two-State-Delusion-Israel-Palestine-Narratives/dp/0143129171",
+              "title": "The Two-State Delusion: Israel and Palestine-A Tale of ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Two-State Delusion: Israel and Palestine-A Tale of ...\nIn a book that is sure to spark controversy, renowned peacemaker Padraig O'Malley argues that the moment for a two-state solution has passed.\n\n## \n\nThe Two-State Delusion: Israel and Palestine-A Tale of ...\nA comprehensive analysis arguing that the two-state solution for Israel-Palestine conflict is no longer viable, examining key obstacles including demographics,\n\n## \n\nThe Two-State Delusion: Israel and Palestine--A Tale of Two Narratives"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 542,
+    "completion_tokens": 166,
+    "total_tokens": 708,
+    "cost": 0.00101458864,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000014736,
+      "upstream_inference_prompt_cost": 0.000009756,
+      "upstream_inference_completions_cost": 0.00000498
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Two-State Delusion\" Padraig O'Malley \"global ratings\"",
+  "bookId": "shelf-f0fabd67a94a",
+  "retrieved": "2026-11-01T22:52:16.114Z"
+}

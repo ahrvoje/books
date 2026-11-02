@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:16:34.373Z",
+  "bookId": "q0422",
+  "id": "gen-1793571394-3Wm64L450WOPHB5H3PIM",
+  "object": "chat.completion",
+  "created": 1793571394,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"q0422\",\n  \"title\": \"How the World Thinks\",\n  \"author\": \"Julian Baggini\",\n  \"knownEdition\": {\n    \"id\": \"ASIN:1783782307\",\n    \"url\": \"https://www.amazon.com/dp/1783782307\",\n    \"pages\": 432\n  },\n  \"purchaseUrl\": \"https://www.amazon.de/dp/1783782307\",\n  \"reference\": {\n    \"count\": null,\n    \"editionId\": null,\n    \"editionYear\": null,\n    \"url\": null,\n    \"evidence\": \"The NYSL Catalog states: \\\"Includes bibliographical references and index.\\\" The Flatirons Library catalog also states: \\\"Includes bibliographical references and index.\\\" The WeLib entry states: \\\"Includes Bibliographical References And Index.\\\"\",\n    \"sourceTitle\": \"NYSL Catalog: Search\",\n    \"sourceAuthor\": \"Julian Baggini\",\n    \"ranges\": [],\n    \"method\": \"The presence of \\\"bibliographical references\\\" is noted in multiple library catalog entries, but specific page ranges are not provided.\",\n    \"limitation\": \"Specific page ranges for the bibliographical references are not available in the provided search results.\"\n  },\n  \"searchedUrls\": [\n    \"http://library.nysoclib.org/record=b1282471\",\n    \"https://broomfieldkids.flatironslibrary.org/Record/.b31560817\",\n    \"https://la.welib.org/md5/c8db99dfeb5118965717372b73617d05\",\n    \"https://sunrise.ub.uni-bayreuth.de/NeuErw/00/00/2025_04_701.html\",\n    \"https://sunrise.ub.uni-bayreuth.de/NeuErw/00/03/2025_04_32.html\"\n  ],\n  \"limitations\": \"Specific page ranges for bibliographical references were not found. The page count of 432 from the Amazon link is for an unspecified edition. The NYSL catalog lists 398 pages for its edition, and the Flatirons Library catalog lists 1 volume (20 cm) for its edition. A German edition from C.H.Beck is listed with 442 pages.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://library.nysoclib.org/record=b1282471",
+              "title": "NYSL Catalog: Search",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "NYSL Catalog: Search\n\n| Author | Baggini, Julian. |\n| --- | --- |\n| Title | How the world thinks : a global history of philosophy / Julian Baggini. |\n| Publication Info. | London : Granta Books, 2018. |\n| | ©2018 |\n\n \n\n| Location | Call No. | Status | Note |\n| --- | --- | --- | --- |\n| Stack 11 | 109 B | IN LIBRARY | |\n\n| Description | xxxiii, 398 pages ; 24 cm |\n| --- | --- |\n| Bibliography | Includes bibliographical references and index. |\n| Subject | Philosophy -- History. |\n| Added Title | Global history of philosophy |\n| ISBN | 9781783784837 (paperback) |\n| | 1783784830 (paperback) |\n| | 9781783782284 (hardback) |\n| | 1783782285 (hardback) |\n| | 9781783782291 (ebook) |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://broomfieldkids.flatironslibrary.org/Record/.b31560817",
+              "title": "How the world thinks : : a global history of philosophy / |...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "How the world thinks : : a global history of philosophy / |...\n\n# How the world thinks: a global history of philosophy (Book)\n\nAuthor: Baggini, Julian, \n\nPublished: London : Granta, 2019.\n\nFormat: Book\n\nPhysical Desc: 1 volume : illustrations (black and white) ; 20 cm\n\nStatus:\n\nOn Shelf \n\n| Available Copies | Location | Call Number |\n| --- | --- | --- |\n| 1 of 1 | Longmont Adult Nonfiction | 109 BAG |\n\n## Copies\n\nLocation Call Number Status Last Check-In\n\nLongmont Adult Nonfiction 109 BAG On Shelf Aug 15, 2026\n\n## Description\n\n\"The first ever global overview of philosophy: how it developed around the world and impacted the cultures in which it flourished.\"--\n\n## Table of Contents\n\n1. Machine generated contents note: pt. One How the World Knows \n2. 1. Insight \n3. 2. The ineffable \n4. 3. Theology or philosophy? \n5. 4. Logic \n6. 5. Secular reason \n7. 6. Pragmatism \n8. 7. Tradition \n9. 8. Conclusion \n10. pt. Two How the World Is \n11. 9. Time \n12. 10. Karma \n13. 11. Emptiness \n14. 12. Naturalism \n15. 13. Unity \n16. 14. Reductionism \n17. 15. Conclusion \n18. pt. Three Who in the World Are We? \n19. 16. No-self \n20. 17. The relational self \n21. 18. The atomised self \n22. 19. Conclusion \n23. pt. Four How the World Lives \n24. 20. Harmony \n25. 21. Virtue \n26. 22. Moral exemplars \n27. 23. Liberation \n28. 24. Transience \n29. 25. Impartiality \n30. 26. Conclusion \n31. pt. Five Concluding Thoughts \n32. 27. How the world thinks \n33. 28. A sense of place.\n\n## Subjects\n\nLC Subjects Philosophy -- History. Philosophy, Comparative. \n\n## More Details\n\nLanguage: English\n\nISBN: 9781783782307, 1783782307\n\n#### Notes\n\nGeneral Note Originally published: 2018.\n\nBibliography Includes bibliographical references and index.\n\nDescription\n\n\"The first ever global overview of philosophy: how it developed around the world and impacted the cultures in which it flourished.\"--,Provided by publisher.\n\nBaggini, J. (2019). How the world thinks: a global history of philosophy. Granta.\n\nBaggini, Julian. 2019. How the World Thinks: A Global History of Philosophy. Granta.\n\nChicago / Turabian - Humanities Citation(style guide)\n\nBaggini, Julian, How the World Thinks: A Global History of Philosophy. Granta, 2019. \n\n Baggini, Julian. How the World Thinks: A Global History of Philosophy. Granta, 2019. \n\nNote! Citation formats are based on standards as of July 2022. Citations contain only title, author, edition, publisher, and year published. Citations should be used as a guideline and should be double checked for accuracy.\n\n...\n\n### MARC Record\n\n| LEADER | | | 02160cam a2200385 i 4500 |\n| --- | --- | --- | --- |\n| 001 | | | sky297465691 |\n| 003 | | | SKY |\n| 005 | | | 20250218151439.1 |\n| 008 | | | 190612r20192018enka e 001 0 eng d |\n| 020 | | | |a 9781783782307 |q pbk |\n| 020 | | | |a 1783782307 |q pbk |\n| 040 | | | |a StDuBDS |b eng |e rda |c StDuBDS |d SKYRV |\n| 050 | | | |a B72 |b .B324 2019 |\n| 082 | 0 | 4 | |a 109 |2 23 |\n| 100 | 1 | | |a Baggini, Julian, |e author. |\n| 245 | 1 | 0 | |a How the world thinks : |b a global history of philosophy / |c Julian Baggini. |\n| 264 | | 1 | |a London : |b Granta, |c 2019. |\n| 264 | | 4 | |c ©2018 |\n| 300 | | | |a 1 volume : |b illustrations (black and white) ; |c 20 cm |\n| 336 | | | |a text |b txt |2 rdacontent |\n| 336 | | | |a still image |b sti |2 rdacontent |\n| 337 | | | |a unmediated |b n |2 rdamedia |\n| 338 | | | |a volume |b nc |2 rdacarrier |\n| 340 | | | |g monochrome |2 rdacc |\n| 340 | | | |p illustration |2 rdaill |\n| 500 | | | |a Originally published: 2018. |\n| 504 | | | |a Includes bibliographical references and index. |\n| 505 | 0 | | |a Machine generated contents note: pt. One How the World Knows -- 1. Insight -- 2. The ineffable -- 3. Theology or philosophy? -- 4. Logic -- 5. Secular reason -- 6. Pragmatism -- 7. Tradition -- 8. Conclusion -- pt. Two How the World Is -- 9. Time -- 10. Karma -- 11. Emptiness -- 12. Naturalism -- 13. Unity -- 14. Reductionism -- 15. Conclusion -- pt. Three Who in the World Are We? -- 16. No-self -- 17. The relational self -- 18. The atomised self -- 19. Conclusion -- pt. Four How the World Lives -- 20. Harmony -- 21. Virtue -- 22. Moral exemplars -- 23. Liberation -- 24. Transience -- 25. Impartiality -- 26. Conclusion -- pt. Five Concluding Thoughts -- 27. How the world thinks -- 28. A sense of place. |\n| 520 | | | |a \"The first ever global overview of philosophy: how it developed around the world and impacted the cultures in which it flourished.\"-- |c Provided by publisher. |\n| 650 | | 0 | |a Philosophy |x History. |\n| 650 | | 0 | |a Philosophy, Comparative. |\n| 907 | | | |a .b31560817 |b lg |\n| 945 | | | |y .i49387157 |i 33060013901587 |l lgnfa |s - |h |u 5 |x 2 |w 3 |v 5 |t 1 |z 250218 |1 08-16-2026 01:29 |r - |o - |a 109 BAG |\n| 995 | | | |a Loaded with m2btab.ltibib in 2026.07, Backstage backfile |\n| 998 | | | |f - |e a |i eng |h lg |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://la.welib.org/md5/c8db99dfeb5118965717372b73617d05",
+              "title": "How the world thinks : a global history of philosophy ( EPUB, 0.6 MB ) - WeLib",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## WeLib\n\n# How the world thinks : a global history of philosophy \n\nBaggini, Julian\n\n...\n\nnexusstc/How the World Thinks: A Global History of Philosophy/c8db99dfeb5118965717372b73617d05.epub\n\nAuctor alternus\n\nJulian Baggini\n\nEditor alternus\n\nGranta Publications\n\nEditio alterna\n\nThis paperback edition published by Granta Books, 2019, London, 2019\n\nEditio alterna\n\nUnited Kingdom and Ireland, United Kingdom\n\nEditio alterna\n\nReprint, 2019\n\nEditio alterna\n\nOct 08, 2019\n\nEditio alterna\n\nLondon, 2018\n\nEditio alterna\n\nUS, 2018\n\n...\n\nIncludes Bibliographical References And Index."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://sunrise.ub.uni-bayreuth.de/NeuErw/00/00/2025_04_701.html",
+              "title": "Neuerwerbungslisten: 04/2025 ZWST 00 / Fach Alle Fächer",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Neuerwerbungslisten: 04/2025 ZWST 00 / Fach Alle Fächer\n\n### Neuerwerbungen im April 2025\n\nFach: Alle Fächer\n\n...\n\nBaggini, Julian: Wie die Welt denkt : eine globale Geschichte der Philosophie / Julian Baggini ; aus dem Englischen von Frank Lachmann, Karin Schuler und Thomas Stauder. - München : C.H.Beck, [2025]. - 442 Seiten EST:How the world thinks ISBN 978-3-406-83094-5 - ISBN 3-406-83094-3 \n\n- 50/CD 1000 B144"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://sunrise.ub.uni-bayreuth.de/NeuErw/00/03/2025_04_32.html",
+              "title": "Neuerwerbungslisten: 04/2025 ZWST 00 / Fach Theologie, Religionswissenschaft und Philosophie",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Neuerwerbungslisten: 04/2025 ZWST 00 / Fach Theologie, Religionswissenschaft und Philosophie\n\n### Neuerwerbungen im April 2025\n\nFach: Theologie, Religionswissenschaft und Philosophie\n\n...\n\n- [ohne Signatur]\n\n Baggini, Julian: Wie die Welt denkt : eine globale Geschichte der Philosophie / Julian Baggini ; aus dem Englischen von Frank Lachmann, Karin Schuler und Thomas Stauder. - München : C.H.Beck, [2025]. - 442 Seiten EST:How the world thinks ISBN 978-3-406-83094-5 - ISBN 3-406-83094-3 \n\n- 50/CD 1000 B144"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3580,
+    "completion_tokens": 580,
+    "total_tokens": 4160,
+    "cost": 0.0075841,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00059,
+      "upstream_inference_prompt_cost": 0.000358,
+      "upstream_inference_completions_cost": 0.000232
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

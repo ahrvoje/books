@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793572717-YdNAxGBnxxfbfH3W8sCH",
+  "object": "chat.completion",
+  "created": 1793572717,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u0461:pages:https://www.goodreads.com/en/book/show/48132.My_Family_and_Other_Animals\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The page count is explicitly stated as 273 pages for the paperback edition.\"\n    },\n    {\n      \"key\": \"complete-711-186:pages:https://www.amazon.com/Attack-Theocrats-Religious-Right-All_and/dp/0984493255\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The page count is explicitly stated as 165 pages for the print edition.\"\n    },\n    {\n      \"key\": \"rem-u1241:pages:https://www.amazon.com/Currency-Wars-III-Financial-frontiers/dp/1913890600\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The page count is explicitly stated as 414 pages for the print edition.\"\n    },\n    {\n      \"key\": \"bga602dae20f:amazon:https://www.amazon.com/Bezos-Letters-Principles-Business-Amazon/dp/1642793329\",\n      \"status\": \"reject\",\n      \"reason\": \"The author names do not match exactly. The evidence does not explicitly state the number of ratings.\"\n    },\n    {\n      \"key\": \"q0998:amazon:https://www.amazon.com/There-Are-No-Accidents-Disaster_Who/dp/1982129662\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence explicitly states the number of ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2151,
+    "completion_tokens": 433,
+    "total_tokens": 2584,
+    "cost": 0.0001407681,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00014219,
+      "upstream_inference_prompt_cost": 0.00010755,
+      "upstream_inference_completions_cost": 0.00003464
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:38:43.393Z"
+}

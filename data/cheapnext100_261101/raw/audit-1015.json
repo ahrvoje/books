@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793573570-Vklx5g0PHu8TuehvHHDG",
+  "object": "chat.completion",
+  "created": 1793573570,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g0946:amazon:https://www.amazon.com/Knowledge-Decisions-Thomas-Sowell/dp/0465037380\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count, which is explicitly labelled.\"\n    },\n    {\n      \"key\": \"bg1105a42955:amazon:https://www.amazon.com/Intellectuals-Society-Thomas-Sowell-2012-02-23/dp/B01NAOS4PB\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count, which is explicitly labelled.\"\n    },\n    {\n      \"key\": \"shelf-a854ff9e9e38:amazon:https://www.amazon.com/Wild-Company-Untold-Banana-Republic/dp/1451683480\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a rating count, which is explicitly labelled. The print length is explicitly stated.\"\n    },\n    {\n      \"key\": \"rest-67-59:amazon:https://www.amazon.com/Embers-War-Empire-Americas-Vietnam/dp/0375504427\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count, which is explicitly labelled.\"\n    },\n    {\n      \"key\": \"g0883:amazon:https://www.amazon.com/Great-Transformation-Political-Economic-Origins/dp/080705643X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count, which is explicitly labelled.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3462,
+    "completion_tokens": 467,
+    "total_tokens": 3929,
+    "cost": 0.0002083554,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021046,
+      "upstream_inference_prompt_cost": 0.0001731,
+      "upstream_inference_completions_cost": 0.00003736
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:52:55.557Z"
+}

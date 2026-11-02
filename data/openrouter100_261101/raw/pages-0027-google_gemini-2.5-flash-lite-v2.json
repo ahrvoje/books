@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:12:03.180Z",
+  "bookId": "shelf-73c061452938",
+  "id": "gen-1793571124-XucCJHKSpR4LyfHfvRha",
+  "object": "chat.completion",
+  "created": 1793571124,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-73c061452938\",\n  \"title\": \"A Small Difference\",\n  \"author\": \"Raymond Plank\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 352,\n    \"editionId\": null,\n    \"editionYear\": 2012,\n    \"format\": \"Paperback\",\n    \"language\": \"English\",\n    \"url\": \"https://www.amazon.com/Small-Difference-Raymond-Plank/dp/0533165261\",\n    \"evidence\": \"Print length: 352 pages\",\n    \"sourceTitle\": \"A Small Difference: Plank, Raymond: 9780533165261: Amazon.com: Books\",\n    \"sourceAuthor\": \"Raymond Plank\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Small-Difference-Raymond-Plank/dp/0533165261\",\n    \"https://www.goodreads.com/book/show/15805479-a-small-difference\",\n    \"https://www.amazon.com/Small-Difference-Raymond-Plank/dp/0533165873\",\n    \"https://wyld.wyldcatalog.org/GroupedWork/e06a9cde-5287-e1b6-7c88-f433c1285f04-eng/Home\",\n    \"https://www.abebooks.co.uk/9780533165261/Small-Difference-Plank-Raymond-0533165261/plp\"\n  ],\n  \"limitations\": \"No specific edition ID was found. The ASIN 0533165261 is associated with the edition with 352 pages.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Small-Difference-Raymond-Plank/dp/0533165261",
+              "title": "A Small Difference: Plank, Raymond: 9780533165261: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# A Small Difference\nBrand: Raymond Plank\nCategory: Professionals & Academics > Business & Industry\n\n## Specifications\nPublisher: Vantage Pr; Publication date: January 1, 2012; Edition: Stated First Edition; Language: English; Print length: 352 pages\n\n...\n\n## Details\nUPC: 0533165261\n\n...\n\nASIN: 0533165261"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.goodreads.com/book/show/15805479-a-small-difference",
+              "title": "A Small Difference by Raymond Plank | Goodreads",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "as his lifelong compass, his father urging him to \"try to make ... , he chose instead to pursue an independent path. This book chronicles the innovations Plank brought to bear in the\n...\n- Genres Business\n\n352 pages, Paperback\n\nFirst published May 4, 2012"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Small-Difference-Raymond-Plank/dp/0533165873",
+              "title": "A Small Difference",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# A Small Difference\nBrand: Raymond Plank\nCategory: Professionals & Academics > Business & Industry\n\n## Specifications\nPublisher: Vantage Pr; Publication date: January 1, 2012; Edition: y First edition; Language: English; Print length: 352 pages\n\n...\n\n## Details\nUPC: 0533165873\n\n...\n\nASIN: 0533165873"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://wyld.wyldcatalog.org/GroupedWork/e06a9cde-5287-e1b6-7c88-f433c1285f04-eng/Home",
+              "title": "A small difference | Wyoming Libraries - All",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "A small difference | Wyoming Libraries - All\n\n# A small difference\n\nAuthor Plank, Raymond, 1922-2018\n\nPublisher Vantage Press\n\nPublication Date 2012\n\nLanguage English\n\nBook Show Edition\n...\nEarly years \n\n After Mother, Lonnie \n\n Blake years"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.abebooks.co.uk/9780533165261/Small-Difference-Plank-Raymond-0533165261/plp",
+              "title": "A Small Difference - Plank, Raymond: 9780533165261 - AbeBooks",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "A Small Difference - Plank, Raymond: 9780533165261 - AbeBooks\n\n## Plank, Raymond\n\n \n\nThis specific ISBN edition is currently not available.\n\n0 Used\n\n0 New\n\n...\n\nPublisher\n: Vantage Pr\nPublication date\n: 2012\nLanguage\n: English\nISBN 10 \n: 0533165261\nISBN 13 \n: 9780533165261\nBinding\n: Paperback\nNumber of pages\n: 352\n\n(No Available Copies)"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1215,
+    "completion_tokens": 469,
+    "total_tokens": 1684,
+    "cost": 0.007306009,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003091,
+      "upstream_inference_prompt_cost": 0.0001215,
+      "upstream_inference_completions_cost": 0.0001876
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

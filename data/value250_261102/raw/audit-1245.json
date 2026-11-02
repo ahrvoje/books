@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575799-kOY23fAm8QLzoxXubViX",
+  "object": "chat.completion",
+  "created": 1793575799,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"q1024:amazon:https://www.amazon.com/Less-is-More/dp/1786091216\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 968 ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1275:amazon:https://www.amazon.com/Witches-Salem-1692-Stacy-Schiff/dp/0316200603\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 2,034 ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-a96ebface863:amazon:https://www.amazon.com/Empireland-Imperialism-Shaped-Modern-Britain/dp/0241445299\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 2,568 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1312:amazon:https://www.amazon.com/Storm-Before-Beginning-Roman-Republic/dp/1610397215\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 4,438 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1376:amazon:https://www.amazon.com/Cleopatra-Life-Stacy-Schiff/dp/0316120448\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 2,453 ratings is explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3660,
+    "completion_tokens": 424,
+    "total_tokens": 4084,
+    "cost": 0.0002147508,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021692,
+      "upstream_inference_prompt_cost": 0.000183,
+      "upstream_inference_completions_cost": 0.00003392
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:30:05.685Z"
+}

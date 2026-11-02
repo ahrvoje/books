@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576327-cuw7WPYErnptZxm3GFy2",
+  "object": "chat.completion",
+  "created": 1793576327,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g1121:amazon:https://www.amazon.com/Tragedy-Hope-History-World-Time/dp/0913022144\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 363 global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1416:amazon:https://www.amazon.com/All-Shahs-Men-American-Middle/dp/047018549X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 1,629 global ratings.\"\n    },\n    {\n      \"key\": \"q1030:amazon:https://www.amazon.com/Color-Compromise-American-Churchs-Complicity/dp/0310113601\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 4,050 global ratings.\"\n    },\n    {\n      \"key\": \"intake-0249:amazon:https://www.amazon.com/Travels-Siberia-Ian-Frazier/dp/0374278725\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 392 global ratings.\"\n    },\n    {\n      \"key\": \"shelf-4db28c09ecd3:amazon:https://www.amazon.com/My-Promised-Land-Triumph-Tragedy/dp/0385521707\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 5,442 ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3700,
+    "completion_tokens": 432,
+    "total_tokens": 4132,
+    "cost": 0.0002173644,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021956,
+      "upstream_inference_prompt_cost": 0.000185,
+      "upstream_inference_completions_cost": 0.00003456
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:38:54.404Z"
+}

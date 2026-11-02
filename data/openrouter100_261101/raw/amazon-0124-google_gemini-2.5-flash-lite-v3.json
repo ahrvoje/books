@@ -1,0 +1,70 @@
+{
+  "retrieved": "2026-11-01T22:14:26.907Z",
+  "bookId": "rest-27-24",
+  "id": "gen-1793571266-LdKYk3q2tNKULACIKPFz",
+  "object": "chat.completion",
+  "created": 1793571266,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"rest-27-24\",\n  \"title\": \"Only the Dead,\",\n  \"author\": \"Bear Braumoeller\",\n  \"amazon\": null,\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/DeadHeads-Brett-Pierce/dp/B0H7QPBHKD\"\n  ],\n  \"limitations\": \"No Amazon product found for the exact title \\\"Only the Dead,\\\" by Bear Braumoeller. The search results provided information for a movie titled \\\"DeadHeads\\\" and a book titled \\\"The Great Powers and the International System\\\" by Braumoeller, but not the requested book.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/DeadHeads-Brett-Pierce/dp/B0H7QPBHKD",
+              "title": "Watch DeadHeads | Prime Video",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nWatch DeadHeads | Prime Video\n... 4.1/5 . IMDb 5.3/1020111 h 30 min. Comedy•Horror•Humorous. Comedy•Horror•Humorous. 4.1/5. IMDb 5.3/1020111 h 30 min. Cast: Michael McKiddy. R. Related Details\n\n## \n\nWatch DeadHeads | Prime Video\nDEADHEADS follows zombie slackers, Mike & Brent , who find themselves surprisingly reborn from the dead amid a disastrous zombie outbreak.\n\n## \n\nWatch DeadHeads | Prime Video\n4.1 out of 5 stars 73 global ratings 5 star 63% 4 star 9% 3 star 10% 2 star 11% 1 star 7% R brief drug use, some sexual content, language, bloody violence\n\n## \n\nWatch DeadHeads | Prime Video\n... DeadHeads. Comedy•Horror•Humorous. 4.1/5. IMDb 5.3/1020111 h 30 min. DEADHEADS follows zombie slackers, Mike & Brent, who find themselves surprisingly reborn"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Powers-International-Cambridge-Studies-Relations-ebook/dp/B009ZRNRRW",
+              "title": "The Great Powers and the International System",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Great Powers and the International System\nBraumoeller argues persuasively that both perspectives are correct: leaders shape the main International Organization, Political Analysis and International"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 949,
+    "completion_tokens": 165,
+    "total_tokens": 1114,
+    "cost": 0.005159291,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001609,
+      "upstream_inference_prompt_cost": 0.0000949,
+      "upstream_inference_completions_cost": 0.000066
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

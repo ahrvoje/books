@@ -1,0 +1,87 @@
+{
+  "id": "gen-1793575085-0DqU4mmYsSIq1pWpqXip",
+  "object": "chat.completion",
+  "created": 1793575085,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Martin-Stopford/s?rh=n%3A283155%2Cp_27%3AMartin%2BStopford",
+              "title": "Martin Stopford: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "* Orders shift + alt + O\n* Show/Hide shortcuts\nshift + alt + Z\nTo move between items, use your keyboard's up or down arrows.\n.us\nDelivering to Nashville 37217 Update location\nBooks\n\n...\n\nPrice, product page $133.00 $ 133 . 00 Digital List Price: $140.00 Digital List Price: $140.00 $140.00\nAvailable instantly\nHardcover\nPrice, product page $216.00 $ 216 . 00 List: $285.00 List: $285.00 $285.00\nFREE delivery Nov 18 - 28\nOr fastest delivery Nov 15 - 25\nMore Buying Choices $200.71 (9+ used & new offers)\nMaritime Economics Second Edition\n## Maritime Economics Second Edition\nby Martin Stopford | Dec 14, 1997\n4.4 4.4 out of 5 stars (13)\nPaperback\nSee options\nNo featured offers available $30.42 (10 used & new offers)\nHardcover\nCurrently unavailable.\nDynasties of the Sea: The Shipowners and Financiers Who Expanded the Era of Free Trade\n## Dynasties of the Sea: The Shipowners and Financiers Who Expanded the Era of Free Trade\nby Lori Ann LaRocco , Lawrence Lindsey , et al. | Dec 22, 2013\n4.0 4.0 out of 5 stars (95)\nKindle\nPrice, product page $9.99 $ 9 . 99 Print List Price: $16.75 Print List Price: $16.75 $16.75\nAvailable instantly\nPaperback\nPrice, product page $15.95 $ 15 . 95 List: $16.75 List: $16.75 $16.75\nJoin Prime to get FREE delivery Tomorrow, Oct 7\nOr Non-members get FREE delivery Sun, Oct 11 on $35 of items shipped by Amazon\nOnly 5 left in stock (more on the way).\nMore Buying Choices $3.24 (10+ used & new offers)\nAudiobook\nPrice,"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Dynasties-Sea-Shipowners-Financiers-Expanded/dp/0983716331",
+              "title": "Dynasties of the Sea: The Shipowners and Financiers Who ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nDynasties of the Sea: The Shipowners and Financiers Who ...\nDynasties of the Sea is the first book to examine one of the most powerful forces in global trade and economic development: world shipping and the magnates"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B0030INSF8",
+              "title": "Lori Ann LaRocco: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nLori Ann LaRocco: books, biography, latest update\nFollow Lori Ann LaRocco and explore their bibliography from Amazon's Lori Ann LaRocco Author Page.\n\n## \n\nLori Ann LaRocco: books, biography, latest update\nLori Ann LaRocco is the award-winning author of \"Embracing Your Past to Empower Your Future\", \"Trade War Containers Don't Lie: Navigating the Bluster (Marine"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1167,
+    "completion_tokens": 1,
+    "total_tokens": 1168,
+    "cost": 0.00102082564,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000021036,
+      "upstream_inference_prompt_cost": 0.000021006,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Dynasties of the Sea\" Lori Ann LaRocco \"global ratings\"",
+  "bookId": "shelf-893c89219488",
+  "retrieved": "2026-11-01T23:18:02.911Z"
+}

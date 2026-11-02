@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572099-8C6OsbHIma3dy82pIaPN",
+  "object": "chat.completion",
+  "created": 1793572099,
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "provider": "Nvidia",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"id\": \"progress-0083\",\n  \"title\": \"Recent economic changes, and their effect on the production and distribution of wealth and the well-being of society\",\n  \"author\": \"David Ames Wells\",\n  \"amazon\": null,\n  \"reference\": null\n}",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/economic-changes-production-distribution-well-being/dp/9353804965",
+              "title": "Recent economic changes, and their effect on the production ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Recent economic changes, and their effect on the production and distribution of wealth and the well-being of society ... David Ames Wells."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/economic-changes-production-distribution-well-being/dp/B00AV6UPUS",
+              "title": "Recent economic changes, and their effect on the production ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Recent economic changes, and their effect on the production and distribution of wealth and the well-being of society [Wells, David Ames] on Amazon.com."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Recent-Economic-Changes-Production-Distribution/dp/1143048709",
+              "title": "Recent Economic Changes: And Their Effect On the Production ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Recent Economic Changes: And Their Effect On the Production and Distribution of Wealth and the Well-Being of Society · Book overview · Browse all categories."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/es/David-Ames-Wells/dp/1230271155",
+              "title": "Recent Economic Changes; And Their Effect on the Production ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Amazon.com: Recent Economic Changes; And Their Effect on the Production and Distribution of Wealth and the Well-Being of Society: 9781230271156: Wells,"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Economic-Changes-Production-Distribution-Well-Being/dp/B002OHDI2E",
+              "title": "Recent Economic Changes, and Their Effect on the Production ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Recent Economic Changes, and Their Effect on the Production and Distribution of Wealth and the Well-Being of Society: -1898 [Wells, David Ames] on"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 746,
+    "completion_tokens": 63,
+    "total_tokens": 809,
+    "cost": 0.005,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "progress-0083",
+  "retrieved": "2026-11-01T22:28:19.163Z"
+}

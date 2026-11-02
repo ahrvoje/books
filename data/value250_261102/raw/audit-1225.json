@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575787-lMJUQ74YkRFASlOfo3PW",
+  "object": "chat.completion",
+  "created": 1793575787,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"q0978:amazon:https://www.amazon.com/Divide-Brief-Global-Inequality-Solutions/dp/1785151126\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating count is explicitly stated as 503 global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1672:amazon:https://www.amazon.com/King-Oil-Secret-Lives-Marc/dp/0312570740\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating count is explicitly stated as 1,631 global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1839:amazon:https://www.amazon.com/Transformation-War-Reinterpretation-Conflict-Clausewitz/dp/0029331552\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating count is explicitly stated as 112 global ratings.\"\n    },\n    {\n      \"key\": \"g0602:amazon:https://www.amazon.com/Ice-Age-John-Gribbin/dp/1511926422\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating count is explicitly stated as 309 global ratings.\"\n    },\n    {\n      \"key\": \"shelf-b24cdf1309e3:amazon:https://www.amazon.com/Minimalist-Entrepreneur-Great-Founders-More/dp/0593192397\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating count is explicitly stated as 764 global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3443,
+    "completion_tokens": 461,
+    "total_tokens": 3904,
+    "cost": 0.0002069397,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020903,
+      "upstream_inference_prompt_cost": 0.00017215,
+      "upstream_inference_completions_cost": 0.00003688
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:29:54.256Z"
+}

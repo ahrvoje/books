@@ -1,0 +1,87 @@
+{
+  "id": "gen-1793574428-n2QvJPEiiwKkPG3slBUJ",
+  "object": "chat.completion",
+  "created": 1793574428,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-c48507d1d6a8\",\n  \"title\": \"Onassis\",\n  \"author\": \"Willi Frischauer\",\n  \"pages\": null,\n  \"amazon\": {\n    \"count\": 4.5,\n    \"url\": \"https://www.amazon.com/Onassis-Willi-Frischauer/dp/B001JSPJHQ\",\n    \"asin\": \"B001JSPJHQ\",\n    \"evidence\": \"Explicitly labeled global ratings on Amazon product page\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Onassis-Willi-Frischauer/dp/B001JSPJHQ",
+              "title": "Onassis: Willi Frischauer - Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nOnassis: Willi Frischauer - Books\nBook details · Language. English · Publisher. Meredith Press · Publication date. January 1, 1968. See all details. Brief content visible, double tap to read"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Price-Glory-Henriette-von-Schirach/dp/B0000CKMHN",
+              "title": "The Price of Glory: Henriette von Schirach, Willi Frischauer",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Price of Glory: Henriette von Schirach, Willi Frischauer\nThe Price of Glory ; Print length. 222 pages ; Language. English ; Publisher. Frederick Muller ; Publication date. January 1, 1960 ; Edition, 1st."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Goering-Willi-Frischauer-ebook/dp/B00FVXQ1AE",
+              "title": "Goering eBook : Frischauer, Willi: Kindle Store",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nGoering eBook : Frischauer, Willi: Kindle Store\nA comprehensive biography of Hermann Goering, exploring his transformation from WWI ace pilot to Nazi leader, revealing his complex personality through"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 649,
+    "completion_tokens": 139,
+    "total_tokens": 788,
+    "cost": 0.00101569348,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000015852,
+      "upstream_inference_prompt_cost": 0.000011682,
+      "upstream_inference_completions_cost": 0.00000417
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Onassis\" Willi Frischauer \"global ratings\"",
+  "bookId": "shelf-c48507d1d6a8",
+  "retrieved": "2026-11-01T23:07:16.442Z"
+}

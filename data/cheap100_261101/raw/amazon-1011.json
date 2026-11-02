@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572090-nAfqMYNM3Jss4nKGy3Nc",
+  "object": "chat.completion",
+  "created": 1793572090,
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "provider": "Nvidia",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"id\": \"n042be46599\",\n  \"title\": \"The Doomsday Machine: Confessions of a Nuclear War Planner\",\n  \"author\": \"Daniel Ellsberg\",\n  \"amazon\": {\n    \"count\": 3,\n    \"url\": \"https://www.amazon.com/Doomsday-Machine-Confessions-Nuclear-Planner/dp/1608196704\",\n    \"asin\": \"1608196704\",\n    \"evidence\": \"[amazon.com](https://www.amazon.com/Doomsday-Machine-Confessions-Nuclear-Planner/dp/1608196704)\"\n  },\n  \"reference\": {\n    \"count\": 3,\n    \"url\": \"https://www.amazon.com/Daniel-Ellsberg/e/B001KHUX0E\",\n    \"evidence\": \"[amazon.com](https://www.amazon.com/Daniel-Ellsberg/e/B001KHUX0E)\",\n    \"ranges\": [\n      {\n        \"start\": 1,\n        \"end\": 3,\n        \"label\": \"Amazon search results for \\\"The Doomsday Machine\\\" Daniel Ellsberg\"\n      }\n    ]\n  }\n}",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Doomsday-Machine-Confessions-Nuclear-Planner/dp/1608196704",
+              "title": "The Doomsday Machine: Confessions of a Nuclear War ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Doomsday Machine: Confessions of a Nuclear War ...\nThis book deserves to be widely read, discussed and acted upon.\" - Shelf Awareness \"In his recent book The Doomsday Machine, Daniel Ellsberg reports that\n\n## \n\nThe Doomsday Machine: Confessions of a Nuclear War Planner\nHere, for the first time, former high-level defense analyst Daniel Ellsberg reveals his shocking firsthand account of America's nuclear program in the 1960s.\n\n## \n\nThe Doomsday Machine: Confessions of a Nuclear War ...\nFormer defense analyst Daniel Ellsberg reveals firsthand accounts of America's nuclear program, exposing dangerous policies from the 1960s that continue to"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Doomsday-Machine-Confessions-Nuclear-Planner/dp/1608196739",
+              "title": "The Doomsday Machine: Confessions of a Nuclear War Planner",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Doomsday Machine: Confessions of a Nuclear War Planner\nHere, for the first time, former high-level defense analyst Daniel Ellsberg reveals his shocking firsthand account of America's nuclear program in the 1960s."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/es/Daniel-Ellsberg/dp/1408899892",
+              "title": "The Doomsday Machine: Confessions of a Nuclear War Planner ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Amazon.com: The Doomsday Machine: Confessions of a Nuclear War Planner [Paperback] [Jan 01, 2017] Daniel Ellsberg: 9781408899892: Daniel Ellsberg: Libros."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Doomsday-Machine-Daniel-Ellsberg/dp/1408889293",
+              "title": "Doomsday Machine: ELLSBERG,DANIEL",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Book overview. The Doomsday Machine: Confessions of a Nuclear War Planner. Read more. Great on Kindle. Great Experience. Great Value. iphone with kindle app."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Daniel-Ellsberg/e/B001KHUX0E",
+              "title": "Daniel Ellsberg: books, biography, latest update - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nDaniel Ellsberg: books, biography, latest update - Amazon.com\nFollow Daniel Ellsberg and explore their bibliography from Amazon's Daniel Ellsberg Author Page.\n\n## \n\nDaniel Ellsberg: books, biography, latest update\nBooks · Editor's Pick. Best History. Image of The Doomsday Machine: Confessions of a Nuclear War Planner · Image of Secrets: A Memoir of Vietnam and the \n\n## \n\nDaniel Ellsberg: books, biography, latest update\nSecrets: A Memoir of Vietnam and the Pentagon Papers. Kindle Edition. Other formats: Audiobook, Hardcover, Paperback, Audio CD · Editor's Pick. Best History."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1035,
+    "completion_tokens": 282,
+    "total_tokens": 1317,
+    "cost": 0.005,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "n042be46599",
+  "retrieved": "2026-11-01T22:28:10.840Z"
+}

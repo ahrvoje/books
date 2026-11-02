@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576345-6qfMamitYNCf3GbU5FXf",
+  "object": "chat.completion",
+  "created": 1793576345,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-8e7123a84381:amazon:https://www.amazon.com/Great-Disruption-Nature-Reconstitution-Social/dp/0684865777\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"resume-145-11:amazon:https://www.amazon.com/Burn-Book-Tech-Love-Story/dp/1982163909\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"intake-0756:amazon:https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"bg0c1b526ea0:amazon:https://www.amazon.com/Personal-History-Katharine-Graham/dp/0394585852\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"complete-321-136:amazon:https://www.amazon.com/Other-Words-Jhumpa-Lahiri/dp/1101875550\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The evidence is a numeric rating count.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3546,
+    "completion_tokens": 442,
+    "total_tokens": 3988,
+    "cost": 0.0002105334,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021266,
+      "upstream_inference_prompt_cost": 0.0001773,
+      "upstream_inference_completions_cost": 0.00003536
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:39:14.747Z"
+}

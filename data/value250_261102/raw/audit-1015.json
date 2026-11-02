@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575549-rfg21dyYuUFOMEac00ls",
+  "object": "chat.completion",
+  "created": 1793575549,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g0340:amazon:https://www.amazon.com/Science-Success-Market-Based-Management-Largest/dp/0470139889\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count of 321.\"\n    },\n    {\n      \"key\": \"nce10db8d6e:amazon:https://www.amazon.com/End-Everything-Astrophysically-Speaking/dp/1982103558\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count of 3,181.\"\n    },\n    {\n      \"key\": \"rem-u1615:amazon:https://www.amazon.com/This-Your-Brain-Music-Obsession/dp/0452288525\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count of 3,022.\"\n    },\n    {\n      \"key\": \"g0248:amazon:https://www.amazon.com/Good-Profit-Creating-Successful-Companies/dp/1101904135\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count of 990.\"\n    },\n    {\n      \"key\": \"shelves-monkeyluv:amazon:https://www.amazon.com/Monkeyluv-Other-Essays-Lives-Animals/dp/0743260163\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a rating count of 219.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3386,
+    "completion_tokens": 451,
+    "total_tokens": 3837,
+    "cost": 0.0002033262,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020538,
+      "upstream_inference_prompt_cost": 0.0001693,
+      "upstream_inference_completions_cost": 0.00003608
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:25:56.080Z"
+}

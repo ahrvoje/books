@@ -1,0 +1,107 @@
+{
+  "id": "gen-1793575083-o0eWLCCVe4UKqFmn4jhw",
+  "object": "chat.completion",
+  "created": 1793575083,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "{\n",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Evolution-Physics-Albert-Einstein/dp/0671201565",
+              "title": "The Evolution of Physics: Einstein, Albert, Infeld, Leopold: 9780671201562: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "ommendations\nWilliam Kirby\nWilliam Kirby William Kirby\nFollow\nSomething went wrong. Please try your request again later.\nOK\n\nThe Evolution of Physics Paperback – Illustrated, October 30, 1967\n\nby Albert Einstein (Author), Leopold Infeld (Author)\n4.5 4.5 out of 5 stars (253)\nSorry, there was a problem loading this page. Try again.\nSee all formats and editions\n\n...\n\nOriginally published in 1938 by Cambridge University Press, The Evolution of Physics traces the development of ideas in physics, in a manner suitable for any reader. Written by famed physicist Albert Einstein and Leopold Infeld, this latest edition includes a new introduction from modern Einstein biographer, Walter Isaacson.\nUsing this work to push his realist approach to physics in defiance of much of quantum mechanics, Einstein's The Evolution of Physics was published to great popularity and was featured in a Time magazine cover story. A classic work for any student of physics or lover of Albert Einstein, The Evolution of Physics can be enjoyed by any and\n\n...\n\nA Brief History of Italy: Tracing the Renaissance, Unification, and the Lively Evolution of Art and Culture\n4.3 4.3 out of 5 stars 223\n$15.99 $ 15 . 99\nNext page\n\nCustomer reviews\n\n4.5 out of 5 stars\n4.5 out of 5\n253 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 72% 15% 7% 2% 4% 72%\n* 5 star 4 star 3 star 2 star 1 star 4 star 72% 15% 7% 2% 4% 15%\n* 5 star 4 star 3 star 2 star 1 star 3 star 72% 15% 7% 2% 4% 7%"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Evolution-Physics-Albert-Einstein-Leopold/dp/B000WS5AZU",
+              "title": "Evolution of Physics: Albert Einstein And Leopold Infeld",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nEvolution of Physics: Albert Einstein And Leopold Infeld\nLeopold Infeld] An exploration of how human minds connect theoretical physics concepts to real-world phenomena, Publisher Clarion Publication date January 1,"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/he/Albert-Einstein/dp/B00O862WZ8",
+              "title": "Die Evolution der Physik: Albert Einstein, Leopold Infeld",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nDie Evolution der Physik: Albert Einstein, Leopold Infeld\n《物理学的进化》是物理学家爱因斯坦和英费尔德合著的科普名著，于1938年首次出版。本书介绍了物理学从伽利略、牛顿时代的经典理论到现代场论、相对论和量子理论的发展"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/EINSTEIN-University-Distinguished-Professor-Humanities/dp/9810239130",
+              "title": "EINSTEIN, PHYSICS AND REALITY",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nEINSTEIN, PHYSICS AND REALITY\nAlbert Einstein was one of the principal founders of the quantum and relativity theories. Until 1925, when the Bose-Einstein statistics was discovered,"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Mein-Weltbild-Albert-Einstein/dp/3548367283",
+              "title": "Mein Weltbild: Einstein, Albert: 9783548367286 - Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nMein Weltbild: Einstein, Albert: 9783548367286 - Books\nA world-famous theoretical physicist, he was awarded the 1921 Nobel Prize for Physics and is renowned for his Theory of Relativity."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1276,
+    "completion_tokens": 1,
+    "total_tokens": 1277,
+    "cost": 0.00103666366,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000037034,
+      "upstream_inference_prompt_cost": 0.000037004,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Evolution of Physics\" Albert Einstein; Leopold Infeld \"global ratings\"",
+  "bookId": "intake-0328",
+  "retrieved": "2026-11-01T23:18:01.789Z"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575781-MmSGcor2Nhx0KRkf7XSF",
+  "object": "chat.completion",
+  "created": 1793575781,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"progress-0031:amazon:https://www.amazon.com/Catalogues-Counters-History-Roebuck-Company/dp/B0006DDANK\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 6 global ratings. The print page count is 788 pages, explicitly identified as a print edition.\"\n    },\n    {\n      \"key\": \"intake-0450:amazon:https://www.amazon.com/Way-We-Think-Conceptual-Complexities/dp/0465087868\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 62 global ratings.\"\n    },\n    {\n      \"key\": \"bgcb095f9fc5:amazon:https://www.amazon.com/Greatest-Trade-Ever-Behind-Scenes/dp/0385529945\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 578 global ratings.\"\n    },\n    {\n      \"key\": \"g1076:amazon:https://www.amazon.com/City-History-Origins-Transformations-Prospects/dp/0156180359\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 152 ratings.\"\n    },\n    {\n      \"key\": \"shelf-5c890b37e955:amazon:https://www.amazon.com/Good-They-Cant-Ignore-You/dp/1455509124\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 899 global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3327,
+    "completion_tokens": 453,
+    "total_tokens": 3780,
+    "cost": 0.0002005641,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020259,
+      "upstream_inference_prompt_cost": 0.00016635,
+      "upstream_inference_completions_cost": 0.00003624
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:29:47.998Z"
+}

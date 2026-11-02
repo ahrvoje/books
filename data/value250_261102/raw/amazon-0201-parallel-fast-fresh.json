@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793575570-OsO6lcqqVuSDtkHIutJd",
+  "object": "chat.completion",
+  "created": 1793575570,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Enrico-Fermi-Physicist-Emilio-Segre/dp/0226744736",
+              "title": "Enrico Fermi, Physicist: Segre, Emilio: 9780226744735",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nEnrico Fermi, Physicist: Segre, Emilio: 9780226744735\nStudent, collaborator and lifelong friend of Enrico Fermi, Emilio Segrè presents a rich, well-rounded portrait of the scientist."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 488,
+    "completion_tokens": 1,
+    "total_tokens": 489,
+    "cost": 0.00100872586,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000008814,
+      "upstream_inference_prompt_cost": 0.000008784,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"From Falling Bodies to Radio Waves\" Emilio Segrè \"global ratings\"",
+  "bookId": "shelf-eb4738be2e7c",
+  "retrieved": "2026-11-01T23:26:11.531Z"
+}

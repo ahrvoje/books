@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:17:12.554Z",
+  "bookId": "g0356",
+  "id": "gen-1793571432-hBwUhH6qouAtkQqdU7ZJ",
+  "object": "chat.completion",
+  "created": 1793571432,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"g0356\",\n  \"title\": \"Whiplash\",\n  \"author\": \"Joi Ito\",\n  \"knownEdition\": {\n    \"id\": \"ISBN:1455544590\",\n    \"url\": \"https://openlibrary.org/books/OL26240453M/Whiplash\",\n    \"pages\": 318\n  },\n  \"purchaseUrl\": \"https://www.amazon.de/dp/1455544590\",\n  \"reference\": {\n    \"editionId\": \"ISBN:1455544590\",\n    \"url\": \"https://catalog.wake.gov/Record/718316\",\n    \"evidence\": \"Bibliography Includes bibliographical references (pages 265-312).\",\n    \"sourceTitle\": \"Whiplash : : how to survive our faster future / | Wake County...\",\n    \"sourceAuthor\": \"It, Jichi, 1966-\",\n    \"ranges\": [\n      {\n        \"start\": 265,\n        \"end\": 312,\n        \"label\": \"Bibliography\"\n      }\n    ],\n    \"method\": \"catalog record\",\n    \"limitation\": \"The exact number of references is not explicitly stated, only the page range for the bibliography.\"\n  },\n  \"searchedUrls\": [\n    \"https://catalog.wake.gov/Record/718316\",\n    \"https://catalog.nwrlib.org/Record/224932?page=1&recordIndex=17&searchId=33990258\",\n    \"https://catalog.ocls.org/Record/.b21494873\",\n    \"https://lccc.wyldcatalog.org/Record/a2191423\",\n    \"https://broomfieldkids.flatironslibrary.org/Record/.b25986880\"\n  ],\n  \"limitations\": \"No explicit count of bibliographical references was found, only the page range for the bibliography section.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.wake.gov/Record/718316",
+              "title": "Whiplash : : how to survive our faster future / | Wake County...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Whiplash: how to survive our faster future (Book)\n\nAuthor: It, Jichi, 1966- \n\nContributors: Howe, Jeff, 1970- author. \n\nStatus:\n\nOn Shelf \n\nEva H. Perry Regional - Adult Non-Fiction 303.48 ITO\n\nNorth Regional - Adult Non-Fiction 303.48 ITO\n\nOberlin Regional - Adult Non-Fiction has 3 303.48 ITO\n\n| Available Copies | Location | Call Number |\n| --- | --- | --- |\n| 0 of 1 | Cary Regional - Adult Non-Fiction | 303.48 ITO |\n| 1 of 1 | Eva H. Perry Regional - Adult Non-Fiction | 303.48 ITO |\n| 1 of 1 | North Regional - Adult Non-Fiction | 303.48 ITO |\n| 3 of 3 | Oberlin Regional - Adult Non-Fiction | 303.48 ITO |\n| 1 of 1 | West Regional - Adult Non-Fiction | 303.48 ITO |\n\n## Copies\n\nLocation Call Number Status\n\nCary Regional - Adult Non-Fiction 303.48 ITO Checked Out\n\nEva H. Perry Regional - Adult Non-Fiction 303.48 ITO On Shelf\n\nNorth Regional - Adult Non-Fiction 303.48 ITO On Shelf\n\nOberlin Regional - Adult Non-Fiction 303.48 ITO On Shelf\n\nOberlin Regional - Adult Non-Fiction 303.48 ITO On Shelf\n\nOberlin Regional - Adult Non-Fiction 303.48 ITO On Shelf\n\nWest Regional - Adult Non-Fiction 303.48 ITO On Shelf\n\n## More Details\n\nPublished: New York, NY : Grand Central Publishing, 2016.\n\nFormat: Book\n\nEdition: First edition.\n\nPhysical Desc: 318 pages ; 24 cm\n\nLanguage: English\n\nISBN: 9781455544592, 1455544590\n\n#### Notes\n\nBibliography Includes bibliographical references (pages 265-312).\n\nDescription\n\nThe director of MIT's Media Lab and a contributor to \"Wired\" present a set of working principles for adapting and thriving in the face of the twenty-first century's rapidly changing and unpredictable digital environments.\n\n...\n\n### MARC Record\n\n| LEADER | | | 02522cam a2200517 i 4500 |\n| --- | --- | --- | --- |\n| 001 | | | ocn935196069 |\n| 003 | | | OCoLC |\n| 005 | | | 20161228160100.0 |\n| 008 | | | 161007t20162016nyu b 000 0 eng |\n| 010 | | | |a 2016032313 |\n| 020 | | | |a 9781455544592 |q (hardcover) |\n| 020 | | | |a 1455544590 |q (hardcover) |\n| 035 | | | |a (OCoLC)935196069 |\n| 040 | | | |a DLC |b eng |e rda |c DLC |d BTCTA |d BDX |d YDXCP |d TOH |d VTL |d ZHB |d VP@ |d JQM |d IHX |d ILC |\n| 042 | | | |a pcc |\n| 043 | | | |a n-us--- |\n| 049 | | | |a NXAA |\n| 050 | 0 | 0 | |a HC79.T4 |b I8165 2016 |\n| 082 | 0 | 0 | |a 303.48/3 |2 23 |\n| 092 | | | |a 303.48 ITO |\n| 100 | 1 | | |a It, Jichi, |d 1966- |e author. |\n| 245 | 1 | 0 | |a Whiplash : |b how to survive our faster future / |c Joi Ito and Jeff Howe. |\n| 250 | | | |a First edition. |\n| 264 | | 1 | |a New York, NY : |b Grand Central Publishing, |c 2016. |\n| 264 | | 4 | |c Ã2016 |\n| 300 | | | |a 318 pages ; |c 24 cm |\n| 336 | | | |a text |b txt |2 rdacontent |\n| 337 | | | |a unmediated |b n |2 rdamedia |\n| 338 | | | |a volume |b nc |2 rdacarrier |\n| 504 | | | |a Includes bibliographical references (pages 265-312). |\n| 520 | | | |a The director of MIT's Media Lab and a contributor to \"Wired\" present a set of working principles for adapting and thriving in the face of the twenty-first century's rapidly changing and unpredictable digital environments. |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.nwrlib.org/Record/224932?page=1&recordIndex=17&searchId=33990258",
+              "title": "Whiplash : how to survive our faster future / | Northwest Regional Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Whiplash : how to survive our faster future (Book)\n\nAverage Rating\n\nAuthor Itō, Jōichi, 1966- \n\nContributors\n\nHowe, Jeff, 1970- author.\n\nPublished New York, NY : Grand Central Publishing, [2016]\n\nPhysical Desc 318 pages ; 24 cm\n\nStatus\n\nAvailable from another library Where is it?\n\n## Copies\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| Fosston Public Library - Main | 303.483 ITO | Available |\n\n...\n\n## More Details\n\nFormat Book\n\nEdition First edition.\n\nLanguage English\n\n#### Notes\n\nBibliography Includes bibliographical references (pages 265-312).\n\n...\n\n(First edition)."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.ocls.org/Record/.b21494873",
+              "title": "Whiplash : how to survive our faster future / | Orange County Library System",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Whiplash : how to survive our faster future (Book)\n\nAverage Rating\n\nAuthor Itō, Jōichi, 1966- \n\nContributors\n\nHowe, Jeff, 1970- author.\n\nStatus\n\nOn Shelf\n\nOrlando Public Library (Downtown) - Third Floor 303.483 ITO 1 available\n\n## Copies\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| Orlando Public Library (Downtown) - Third Floor | 303.483 ITO | On Shelf |\n\n...\n\n## More Details\n\nPublished New York, NY : Grand Central Publishing, 2016.\n\nFormat Book\n\nEdition First edition.\n\nPhysical Desc 318 pages ; 24 cm\n\nLanguage English\n\nISBN 9781455544592 hardcover :, 1455544590 hardcover\n\nNotes\n\nBibliography Includes bibliographical references (pages 265-312)."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://lccc.wyldcatalog.org/Record/a2191423",
+              "title": "Whiplash : how to survive our faster future / | Laramie County Community College",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Whiplash : how to survive our faster future (Book)\n\nAverage Rating\n\nAuthor Itō, Jōichi, 1966- \n\nContributors\n\nHowe, Jeff, 1970- author.\n\nPublished New York, NY : Grand Central Publishing, [2016]\n\nEdition First edition.\n\nPhysical Description 318 pages ; 24 cm\n\nStatus\n\nOn Shelf\n\nLCCC Cheyenne Campus - Main Collection HC79 .T4 I86 2016 1 available\n\nLaramie County Community College\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| LCCC Cheyenne Campus - Main Collection | HC79 .T4 I86 2016 | On Shelf |\n\nOther Locations\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| Big Horn Co. - Lovell Branch - Nonfiction | 303.48 ITO | On Shelf |\n| Natrona Co. Public Library - Nonfiction | 303.483 ITO | On Shelf |\n| Park Co. Library - Meeteetse - Main collection | 303.483 ITO | On Shelf |\n| Uinta Co. - Evanston - Nonfiction | 303.483 ITO | On Shelf |\n\n...\n\n## More Details\n\nFormat Book\n\nLanguage English\n\nISBN 9781455544592\n\nNotes\n\nBibliography Includes bibliographical references (pages 265-312)."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://broomfieldkids.flatironslibrary.org/Record/.b25986880",
+              "title": "Whiplash : : how to survive our faster future / | Marmot...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Whiplash: how to survive our faster future (Book)\n\nAuthor: Itō, Jōichi, 1966- \n\nContributors: Howe, Jeff, 1970- author. \n\nPublished: New York, NY : Grand Central Publishing, 2016.\n\nFormat: Book\n\nEdition: First edition.\n\nPhysical Desc: 318 pages ; 24 cm\n\nStatus:\n\nCurrently Unavailable \n\n| Available Copies | Location | Call Number |\n| --- | --- | --- |\n| 0 of 1 | Broomfield Non-Fiction | 303.483 Ito |\n\n...\n\nLanguage: English\n\nISBN: 9781455544592 (hardcover), 1455544590 (hardcover)\n\n#### Notes\n\nBibliography Includes bibliographical references.\n\n...\n\n| 100 | 1 | | |a Itō, Jōichi, |d 1966- |e author. |\n| 245 | 1 | 0 | |a Whiplash : |b how to survive our faster future / |c Joi Ito and Jeff Howe. |\n| 250 | | | |a First edition. |\n| 264 | | 1 | |a New York, NY : |b Grand Central Publishing, |c 2016. |\n| 300 | | | |a 318 pages ; |c 24 cm |\n| 336 | | | |a text |b txt |2 rdacontent |\n\n...\n\n| 338 | | | |a volume |b nc |2 rdacarrier |\n| 504 | | | |a Includes bibliographical references. |"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3185,
+    "completion_tokens": 499,
+    "total_tokens": 3684,
+    "cost": 0.007512919,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005181,
+      "upstream_inference_prompt_cost": 0.0003185,
+      "upstream_inference_completions_cost": 0.0001996
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793574341-oJKPXlC0jl7NtdWTESg5",
+  "object": "chat.completion",
+  "created": 1793574341,
+  "model": "mistralai/mistral-nemo",
+  "provider": "Io Net",
+  "system_fingerprint": "vllm-0.25.1-95d19908",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"id\": \"rem-u0485\",\n  \"title\": \"Women in Mathematics: The Addition of Difference\",\n  \"author\": \"Claudia Henrion\",\n  \"pages\": null,\n  \"amazon\": {\n    \"count\": 1,\n    \"url\": \"https://www.amazon.com/Women-Mathematics-Addition-Difference/dp/0190257437\",\n    \"asin\": \"0190257437\",\n    \"evidence\": \"Amazon product page with global ratings\"\n  },\n  \"reference\": null\n}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 347,
+    "completion_tokens": 132,
+    "total_tokens": 479,
+    "cost": 0.0010077816376,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 128,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00000786024,
+      "upstream_inference_prompt_cost": 0.00000500904,
+      "upstream_inference_completions_cost": 0.0000028512
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Women in Mathematics\" Claudia Henrion \"global ratings\"",
+  "bookId": "rem-u0485",
+  "retrieved": "2026-11-01T23:05:41.067Z"
+}

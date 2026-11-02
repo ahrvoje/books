@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:17:00.115Z",
+  "bookId": "progress-0535",
+  "id": "gen-1793571415-mylufZuClIheExjKNMoq",
+  "object": "chat.completion",
+  "created": 1793571415,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"progress-0535\",\n  \"title\": \"Possiplex\",\n  \"author\": \"Ted Nelson\",\n  \"knownEdition\": {\n    \"id\": \"ISBN:9780893470043\",\n    \"url\": \"https://www.lulu.com/shop/ted-nelson/possiplex/paperback/product-14925222.html\",\n    \"pages\": 380\n  },\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 380,\n    \"editionId\": \"ISBN:9780893470043\",\n    \"editionYear\": \"2010\",\n    \"format\": \"Paperback\",\n    \"language\": \"English\",\n    \"url\": \"https://www.lulu.com/shop/ted-nelson/possiplex/paperback/product-14925222.html\",\n    \"evidence\": \"Print Book, English, 2010, ©2010 ... Physical Description: 380 pages\",\n    \"sourceTitle\": \"POSSIPLEX : Movies, Intellect, Creative Control, My Computer Life and the Fight for Civilization : AN AUTOBIOGRAPHY OF Ted Nelson\",\n    \"sourceAuthor\": \"Ted Nelson\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.lulu.com/shop/ted-nelson/possiplex/paperback/product-14925222.html\",\n    \"https://www.amazon.de/dp/089347004X\",\n    \"https://search.worldcat.org/title/671424633\",\n    \"https://link.springer.com/chapter/10.1007/978-3-319-16925-5_16\",\n    \"http://hyperland.com/possiplex/Excerpts.htm\",\n    \"https://archive.swarthmore.edu/bulletin_2008-2014/april-2011_possiplex-ted-nelson-59-and-the-literary-machine.html\",\n    \"http://hyperland.com/TNvita\"\n  ],\n  \"limitations\": \"No explicit page ranges for bibliographical references were found for 'Possiplex'. The provided search results include a bibliography of Ted Nelson's works in general, but do not specify which references pertain to 'Possiplex' or their page numbers within that specific book.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://search.worldcat.org/title/671424633",
+              "title": "POSSIPLEX : Movies, Intellect, Creative Control, My Computer Life and the Fight for Civilization : AN AUTOBIOGRAPHY OF Ted Nelson",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# POSSIPLEX : Movies, Intellect, Creative Control, My Computer Life and the Fight for Civilization : AN AUTOBIOGRAPHY OF Ted Nelson\n\n4 reviews\n\nAuthor: Theodor H. Nelson\n\nPrint Book, English, 2010, ©2010\n\nEdition:First edition View all formats and editions\n\nPublisher: Mindful Press, Hackettstown, New Jersey, 2010, ©2010\n\nGenre:Biographies\n\nPhysical Description:380 pages : illustrations ; 28 cm\n\nISBN:\n\n9780893470043, 089347004X\n\nOCLC Number / Unique Identifier:671424633\n\nSubjects:\n\nBiographies\n\nComputer scientists\n\nComputer scientists United States Biography\n\nInformaticiens États-Unis Biographies\n\nNelson, Theodor H\n\nNelson, Theodor H. 1937-\n\nUnited States\n\nShow more information\n\nFeatured librariesAll libraries\n\nShowing 9 libraries near\n\nBoardman, Oregon\n\nOnly public libraries\n\nAcademic\n\nUtah State University\n\nMerrill-Cazier Library\n\n485 miles from your current location.\n\nMerrill-Cazier Library, 3000 Old Main Hill, Logan, UT, 84322-3000, United States\n\nBorrow\n\nFavorite Library\n\nAcademic\n\nStanford University\n\nCecil H. Green Library\n\n593 miles from your current location.\n\n557 Escondido Mall, Arguello Way, Stanford, CA, 94305-6004, United States\n\nBorrow\n\nFavorite Library\n\nAcademic\n\nChapman University, Leatherby Libraries\n\nLeatherby Libraries\n\n837 miles from your current location.\n\nOne University Drive, Orange, CA, 92866, United States\n\nBorrow\n\nFavorite Library\n\nAcademic\n\nMaharishi International University Library\n\n1,424 miles from your current location.\n\n1000 Fourth Street, Fairfield, IA, 52557-0001, United States\n\nBorrow\n\nFavorite Library\n\nAcademic\n\nUniversity of Iowa Libraries\n\n1,428 miles from your current location.\n\n125 W Washington St., Iowa City, IA, 52242-1479, United States\n\nBorrow\n\nFavorite Library\n\nAcademic\n\nUniversity of Vermont Howe Library\n\nDavid W. Howe Memorial Library\n\n2,237 miles from your current location.\n\n538 Main Street, Burlington, VT, 05405-0036, United States\n\nBorrow\n\nFavorite Library\n\nAcademic\n\nCentenary University\n\nTaylor Memorial Library\n\n2,252 miles from your current location.\n\nTaylor Memorial Library, 400 Jefferson St, Hackettstown, NJ, 07840, United States\n\nBorrow\n\nFavorite Library\n\nAcademic\n\nSwarthmore College\n\nMcCabe Library\n\n2,254 miles from your current location.\n\nMcCabe Library, 500 College Avenue, Swarthmore, PA, 19081, United States\n\nBorrow\n\nFavorite Library\n\nRegional or National\n\nBibliothèque nationale de France\n\nBnF\n\n5,028 miles from your current location."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://link.springer.com/chapter/10.1007/978-3-319-16925-5_16",
+              "title": "Ted Nelson: A Critical (and Critically Incomplete) Bibliography | Springer Nature Link",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "You have full access to this open access chapter \n\n- Henry Lowood 3 \n\n Part of the book series: History of Computing ((HC)) \n\n## Abstract\n\nThe goal of this bibliography is to put together a complete picture of Ted Nelson’s body of work as expressed in publication, including selections from ephemeral and non-print media.\n\n You have full access to this open access chapter, Download chapter PDF \n\n## 16.1 Introduction\n\n...\n\nAnd yet, there is no way around the fact that most of Ted’s work has been published on paper. This fact alone does not produce a particularly difficult problem for bibliography. The difficulty is rather that many of his important writings appeared in ephemeral or semi-published formats, ranging from conference proceedings and magazines of every ilk to self-published books that were produced anywhere and nowhere – at least from the perspective of libraries such as my own that tried desperately to acquire copies. As a result of the vagabond nature of the Nelson oeuvre, few libraries own more than a few of his published works, and several of his most important texts, such as the earliest editions of Computer Lib/Dream Machines and Literary Machines have achieved almost legendary status for being difficult to lay hands on. So where are we to turn for the texts?\n\nThus, this bibliography. At least it is a start. My goal has been to put together a complete picture of Ted Nelson’s body of work as expressed in publication, including selections from ephemeral and non-print media. It has not been easy. As the former bibliographer of the Society for the History of Technology, I adopted and long held to the habit of requiring visual inspection of texts that appeared in my bibliographies. Until this project, I had little reason to abandon this practice. Academic publication practices are easy to trace. It turns out that a number of Ted’s publications have followed different paths to readers. Since they have often eluded library catalogs and on-line databases, I have had to trust sources such as c.v. entries, footnotes, and Web traces more than I would like. As a compromise with my earlier bibliographic rule, I have included most of what I have found, indicating works that I was unable to inspect with an asterisk preceding their entries in this bibliography. I ask that any readers who may have access to these texts to contact me. I will produce a revised version of this bibliography someday, if revisions are necessary as a result from any such contacts. Ted’s work is worth it.\n\n## Theodor H. Nelson Bibliography\n\n- *Nelson TH, Caplan RL (1957) Anything & everything: the 1957 Hamburg show at Swarthmore College. Audio recording – 33 1/3 rpm microgroove, Swarthmore\n\n...\n\n- Nelson TH (1958) Schematics, systematics, normatics. http://tprints.ecs.soton.ac.uk/4/ \n- Nelson TH (1959) The Epiphany of Slocum Furlow. ... Student film, Streamed video uploaded 2012.\n- *Nelson TH (1959) We need a sociology department. Swarthmore, PA. Collected essays written as an undergraduate at Swarthmore College\n\n...\n\n- Nelson TH (1965) A file structure for the complex, the changing and the indeterminate. In: ACM ‘65: proceedings of the 20th national conference. Association for Computing Machinery, New York, pp 84–100. doi: 10.1145/800197.806036. Paper 4.2 prepared for session 4, “Complex Information Processing,” of the 1965 ACM Conference. Reprinted, with introduction by Noah Wardrip-Fruin. In: eds. Noah Wardrip-Fruin and Nick Montfort (eds) The new media reader. Cambridge: MIT Press, 2003, pp 133–45\n- Nelson TH (1965) Computer-indexed film handling. J SMPTE – Soc Motion Pict Telev Eng 74:818–819. (Preprint of conference presentation)\n\n Google Scholar \n- *Nelson TH (1965) Suggestion for an on-line Braille display. In: Proceedings of the society for information display. Society for Information Display. Paper presented to Sixth National Symposium on Information Display, Los Angeles, pp 31–39\n\n Google Scholar \n- *Nelson TH (1965) The hypertext. In: Proceedings of the World Documentation Federation\n\n...\n\n- Nelson TH (1966–1967) Hypertext notes. http://web.archive.org/web/20031127035740/http://www.xanadu.com/XUarchive/. Unpublished series of ten short essays or “notes“\n- Nelson TH (1967) Getting it out of our system. In: Schechter G (ed) Information retrieval: a critical review. Thompson Books, Washington, DC, pp 191–210\n\n...\n\nUniversity of Illinois Press,\n\n...\n\n- *Nelson TH (1973) As we will think. In: Online 72: conference proceedings … International conference on online interactive computing, Brunel University, Uxbridge, 4–7 September 1972, pp 439–54. Uxbridge, England: Online Computer Systems, Ltd. Examines Vannevar’s Bush 1945 essay. Reprinted In: James M. ... Academic Press, Boston, 1991, pp 245–260\n\n...\n\n- Nelson TH (1974) Computer Lib: you can and must understand computers now/dream machines: new freedoms through computer screens – a minority report. Chicago: Hugo’s Book Service, for the author. Two books joined together in tête-bêche format. A reprint edition was created from negatives in 2013 by the author\n\n...\n\n- Nelson TH (1981) Literary machines: the report on, and of, project Xanadu concerning word processing, electronic publishing, hypertext, thinkertoys, tomorrows intellectual revolution, and certain other topics including knowledge, education and freedom. Theodor H. Nelson, Swarthmore (Subsequent re-publication dates appear to be: 1981, 1982, 1983, 1984, 1987, 1990, 1991, 1992 and 1993. The 1987 publication was a revision (version 87.1), as was the version published in 1992 and 1993 (version 93.1). Only the 1981, 1987, 1990, 1992 and 1993 publications could be verified against privately or institutionally held copies)\n\n...\n\n- Nelson TH (1987) Computer lib …/dream machines … Tempus Books of Microsoft Press, Redmond, Revised and updated edition\n\n...\n\n- Nelson TH (1987) Literary machines … Edition 87.1. South Bend, Ind.: The Distributors. http://archive.org/details/Literary.Machines.1987 (“Literary Machines, published by the author, 1981; various revisions from year to year; this is edition 87.1, being published by the author, 1987. Simultaneous mass-market edition being published by special arrangement by The Distributors, 702 South Michigan, South Bend IN 46618; simultaneous Macintosh hypertext edition in GUIDE being published by Owl International, Inc., 14218 NE 21st Street, Bellevue WA 98007”)\n\n...\n\n- Nelson TH (1990) Literary machines … 89.1 edn. Mindful Press, Sausalito\n\n...\n\n- Nelson TH (1992) Literary Machines … 93.1 edn.\n\n...\n\n- Nelson TH (1995) The heart of connection: hypermedia unified by transclusion. Commun ACM 38(8):31–33.\n\n...\n\n- Nelson TH (1997) Transcopyright: a simple legal arrangement for sharing, re-use and republication of copyrighted material on the net.\n\n...\n\n- Nelson TH, Smith RA (2007) Back to the future: hypertext the way it used to be. ... ACM, New York, pp 227–228. http://dl.acm.org/citation.cfm?id=1286303.\n\n...\n\n- Nelson TH (2008) Geeks bearing gifts: how the computer world got this way.\n\n...\n\n- Nelson TH (2010) Possiplex: movies, intellect, creative control, my computer life and the fight for civilization: an autobiography of Ted Nelson. Mindful Press, Hackettstown; distributed by Lulu.com. http://www.lulu.com/shop/ted-nelson/possiplex/ebook/product-17533977.html\n\n...\n\n### Cite this chapter\n\nLowood, H. (2015). Ted Nelson: A Critical (and Critically Incomplete) Bibliography. In: Dechow, D., Struppa, D. (eds) Intertwingled. History of Computing. Springer, Cham. https://doi.org/10.1007/978-3-319-16925-5_16"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://hyperland.com/possiplex/Excerpts.htm",
+              "title": "hyperland.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "(twPossiplexPage-D29w)\n\nfrom\n\n Possiplex-D28s\n\n10.10.14\n...\nall of which I presented in my book Computer Lib in 1974— months ahead of the first personal computer kit, which started the gold rush\n...\nBut now, in this new world, anthologies could be"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.swarthmore.edu/bulletin_2008-2014/april-2011_possiplex-ted-nelson-59-and-the-literary-machine.html",
+              "title": "Possiplex: Ted Nelson ’59 and the Literary Machine - Swarthmore College Bulletin",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "view it as a guide to his papers. Those papers, scattered in warehouses across the country, are voluminous, for Nelson ... -night beer was unaccompanied by pen and clipboard. In later years, Nelson’s tape"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://hyperland.com/TNvita",
+              "title": "Ted Nelson - Curriculum Vitae",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Swedish. 1981: Literary Machines. 1987: Major revision. 1993: most recent edition (Literary Machines ... Italian. 1997: The Future of Information. Published in Japan ... Kay Nishi in a special limited edition. 2008: Geeks Bearing Gifts: How the Computer"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3776,
+    "completion_tokens": 615,
+    "total_tokens": 4391,
+    "cost": 0.007617364,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006236,
+      "upstream_inference_prompt_cost": 0.0003776,
+      "upstream_inference_completions_cost": 0.000246
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "gen-1793575617-sd711DaCCrj2MDzzaHC6",
+  "object": "chat.completion",
+  "created": 1793575617,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Reuben-Hersh/e/B000APHKBM/ref=dp_byline_cont_book_1",
+              "title": "Reuben Hersh: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Reuben Hersh: books, biography, latest update\nFollow Reuben Hersh and explore their bibliography from Amazon's Reuben Hersh Author Page. Section:  > \nReuben Hersh: books, biography, latest update\nMost popular What Is Mathematics, Really? The Mathematical Experience, Study Edition. Loving and Hating Mathematics: Challenging the Myths of Mathematical Life"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/es/Philip-J-Davis/dp/B01K0UNJFM",
+              "title": "Dream: The World According to Mathematics (Dover Books ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nDream: The World According to Mathematics (Dover Books ...\nEssays examining René Descartes' vision of a mathematics-unified world, exploring how mathematical applications shape society, transform perceptions, and"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Mathematical-Experience-Phillip-J-Davis/dp/0395929687",
+              "title": "The Mathematical Experience: A National Book Award ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Enter the characters you see below\n\nSorry, we just need to make sure you're not a robot. For best results, please make sure your browser is accepting cookies.\n\nType the characters you see in this image:\n\nTry different image\nContinue shopping\nConditions of Use Privacy Policy\n© 1996-2014, Amazon.com, Inc. or its affiliates"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 684,
+    "completion_tokens": 1,
+    "total_tokens": 685,
+    "cost": 0.00101221858,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000012342,
+      "upstream_inference_prompt_cost": 0.000012312,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Mathematical Experience\" Philip J. Davis; Reuben Hersh \"global ratings\"",
+  "bookId": "n9d43a54989",
+  "retrieved": "2026-11-01T23:26:59.277Z"
+}

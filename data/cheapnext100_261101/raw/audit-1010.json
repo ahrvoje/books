@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793573570-fcWnqCSGgA77q2Vw4te8",
+  "object": "chat.completion",
+  "created": 1793573570,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u1269:amazon:https://www.amazon.com/Over-Edge-World-Terrifying-Circumnavigation/dp/006093638X\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 4,727 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"progress-0470:pages:https://www.waterstones.com/book/the-act-of-creation/arthur-koestler/9781939438980\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 752 pages explicitly labelled for a print edition.\"\n    },\n    {\n      \"key\": \"shelf-f9ce0d7f51f0:reference:https://librarycatalog.ecu.edu/catalog/6698944\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Bibliographical references explicitly stated from pages 221-289.\"\n    },\n    {\n      \"key\": \"rem-u1662:reference:https://link.europarl.europa.eu/resource/vhfHIr3vAx4\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Bibliographical references explicitly stated from pages 173-181.\"\n    },\n    {\n      \"key\": \"g0582:reference:https://cmc.marmot.org/Record/.b59767509\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Bibliographical references explicitly stated from pages 313-355.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5531,
+    "completion_tokens": 404,
+    "total_tokens": 5935,
+    "cost": 0.0003057813,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00030887,
+      "upstream_inference_prompt_cost": 0.00027655,
+      "upstream_inference_completions_cost": 0.00003232
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:52:53.925Z"
+}

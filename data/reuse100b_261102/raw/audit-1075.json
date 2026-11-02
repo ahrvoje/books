@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575272-KhnEUpo8S7YWfGYhzlSP",
+  "object": "chat.completion",
+  "created": 1793575272,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"progress-0384:amazon:https://www.amazon.com/Future-Perfect-Case-Progress-Networked/dp/1594488207\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count.\"\n    },\n    {\n      \"key\": \"shelf-34e6d72419d6:amazon:https://www.amazon.com/Charles-Darwin-Biography-Vol-Voyaging/dp/0394579429\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count.\"\n    },\n    {\n      \"key\": \"shelf-6e90dabf0c38:amazon:https://www.amazon.com/This-Economy-Money-Markets-Really/dp/0593727878\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count.\"\n    },\n    {\n      \"key\": \"n1781c138fd:amazon:https://www.amazon.com/Fabric-Cosmos-Space-Texture-Reality/dp/0375412883\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count.\"\n    },\n    {\n      \"key\": \"shelf-42f068080cc6:amazon:https://www.amazon.com/Four-Seasons-Story-Business-Philosophy/dp/0143170880\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3553,
+    "completion_tokens": 448,
+    "total_tokens": 4001,
+    "cost": 0.0002113551,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021349,
+      "upstream_inference_prompt_cost": 0.00017765,
+      "upstream_inference_completions_cost": 0.00003584
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:21:20.550Z"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793575678-VbkCO3nvTF3B4xfFnJYO",
+  "object": "chat.completion",
+  "created": 1793575678,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Yeager-Autobiography-Chuck/dp/0553050931",
+              "title": "Chuck Yeager - An Autobiography",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nChuck Yeager - An Autobiography\nGeneral Chuck Yeager's autobiography recounts his life as a test pilot who broke the sound barrier, engaged in dogfights over Nazi Europe, and escaped occupied\n\n## \n\nChuck Yeager - An Autobiography\nChuck Yeager's autobiography recounts his life as a test pilot who broke the sound barrier, engaged in dogfights over Nazi Europe, and escaped occupied France.\nChuck Yeager - An Autobiography\nGeneral Chuck Yeager's autobiography recounts his life as a test pilot who broke the sound barrier, engaged in dogfights over Nazi Europe, and escaped occupied\n\n##\n\n...\n\nAn Autobiography: Chuck Yeager, Leo Janos\nGeneral Chuck Yeager's autobiography recounts his life as a test pilot who broke the sound barrier, engaged in dogfights over Nazi Europe, and escaped occupied\n\n## \n\nAn Autobiography: Chuck Yeager, Leo Janos\nYeager: An Autobiography [Chuck Yeager, Leo Janos] on Amazon.com. *FREE* shipping on qualifying offers. Yeager: An Autobiography.\n\n## \n\nAn Autobiography: Chuck Yeager, Leo Janos\nChuck Yeager's autobiography recounts. At any of our 50,000 US locations. Gulf Coast Books LLC\n\n## \n\nAn Autobiography: Chuck Yeager, Leo Janos\nChuck Yeager's autobiography. At any of our 50,000 US locations. Publication date June 1, 1985 … tells his whole incredible life story with the same \"wide-open"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 740,
+    "completion_tokens": 1,
+    "total_tokens": 741,
+    "cost": 0.0010132165,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001335,
+      "upstream_inference_prompt_cost": 0.00001332,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Yeager\" Chuck Yeager; Leo Janos \"global ratings\"",
+  "bookId": "rem-u1255",
+  "retrieved": "2026-11-01T23:27:59.129Z"
+}

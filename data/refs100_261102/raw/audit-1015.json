@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793577347-Qt6vWtu2F4rZW8G6W8rY",
+  "object": "chat.completion",
+  "created": 1793577347,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelves-engineeringhistory:reference:https://collection.sl.nsw.gov.au/record/74VvxlowWywX\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title and text match the book and author exactly. The reference pages are explicitly stated as 515-516.\"\n    },\n    {\n      \"key\": \"g0356:reference:https://catalog.nwrlib.org/Record/224932?page=1&recordIndex=17&searchId=33990258\",\n      \"status\": \"reject\",\n      \"reason\": \"The source title includes a subtitle, but the candidate does not. The author name is different in the source text.\"\n    },\n    {\n      \"key\": \"q0283:reference:https://collection.sl.nsw.gov.au/record/74VKa0NbgNOg\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title and text match the book and author exactly. The reference pages are explicitly stated as 531-625.\"\n    },\n    {\n      \"key\": \"q0713:reference:https://catalog.library.cornell.edu/catalog/15072894\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title and text match the book and author exactly. The reference pages are explicitly stated as 279-293.\"\n    },\n    {\n      \"key\": \"rem-u1103:reference:https://idiscover.lib.cam.ac.uk/discovery/fulldisplay?adaptor=Local%20Search%20Engine&context=L&docid=alma991007227719103606&lang=en&tab=cam_lib_coll&vid=44CAM_INST%3A44CAM_PROD\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title and text match the book and author exactly. The reference pages are explicitly stated as 295-310.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3048,
+    "completion_tokens": 485,
+    "total_tokens": 3533,
+    "cost": 0.000189288,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001912,
+      "upstream_inference_prompt_cost": 0.0001524,
+      "upstream_inference_completions_cost": 0.0000388
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:55:54.838Z"
+}

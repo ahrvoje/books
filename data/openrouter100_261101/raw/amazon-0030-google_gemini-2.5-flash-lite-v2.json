@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:11:54.830Z",
+  "bookId": "shelf-d59bf6fe653e",
+  "id": "gen-1793571115-80NTcnfy24GyLx30tfeY",
+  "object": "chat.completion",
+  "created": 1793571115,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-d59bf6fe653e\",\n  \"title\": \"The Self-Made Tapestry\",\n  \"author\": \"Philip Ball\",\n  \"amazon\": {\n    \"count\": 36,\n    \"stars\": 4.7,\n    \"asin\": \"0198502443\",\n    \"marketplace\": \"amazon.com\",\n    \"url\": \"https://www.amazon.com/Self-Made-Tapestry-Pattern-Formation-Nature/dp/0198502443\",\n    \"evidence\": \"Rated 4.7 from 36 reviews.\",\n    \"sourceTitle\": \"The Self-Made Tapestry: Pattern Formation in Nature\",\n    \"sourceAuthor\": \"Philip Ball\",\n    \"snapshotLimitation\": \"The provided search results contain multiple Amazon product listings for \\\"The Self-Made Tapestry\\\" by Philip Ball. The rating of 4.7 stars from 36 reviews appears consistently across several of these listings, suggesting it is the aggregate global rating for this edition. The ASIN 0198502443 is associated with a listing that explicitly states \\\"Rated 4.7 from 36 reviews.\\\"\"\n  },\n  \"pages\": {\n    \"count\": 296,\n    \"editionId\": \"OL7399940M\",\n    \"editionYear\": 1999,\n    \"format\": \"Print\",\n    \"language\": \"English\",\n    \"url\": \"https://www.amazon.com/Self-Made-Tapestry-Pattern-Formation-Nature/dp/0198502443\",\n    \"evidence\": \"Print length: 296 pages\",\n    \"sourceTitle\": \"The Self-Made Tapestry: Pattern Formation in Nature\",\n    \"sourceAuthor\": \"Philip Ball\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/dp/B01JXPSBFS\",\n    \"https://www.amazon.com/Self-Made-Tapestry-Pattern-Formation-Nature/dp/0198502435\",\n    \"https://www.amazon.com/Self-Made-Tapestry-Pattern-Formation-Nature/dp/0198502443\",\n    \"https://www.amazon.com/Self-Made-Tapestry-Pattern-Formation-Nature-ebook/dp/B001G60W64\",\n    \"https://www.amazon.com/Philip-Ball-Self-Made-Tapestry-Formation/dp/B008UYKDF0\"\n  ],\n  \"limitations\": \"The search results provided multiple Amazon listings for the book. The rating of 4.7 stars from 36 reviews was consistently found across several listings, and the ASIN 0198502443 was directly linked to a listing with this rating. The page count of 296 pages was found associated with the ASIN 0198502443 and a publication date of January 7, 1999, which aligns with the known edition's details.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/dp/B01JXPSBFS",
+              "title": "The Self-Made Tapestry: Pattern Formation in Nature",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The Self-Made Tapestry: Pattern Formation in Nature\nBrand: Philip Ball\nCategory: New, Used & Rental Textbooks > Science & Mathematics\n\n## Pricing & Reviews\nRated 4.6 from 26 reviews.\nTop review: I've long been interested in the curious, often mathematical, patterns in the nonhuman world. I especially got interested in what David Wade, in his book _Li_, calls \"Li\" patterns. Wade recommends this book. I like it very much and am reading it slowly to absorb all its provocative lessons. The only reason I'm giving it four stars instead of five is that while it is well-written, it's not for everyone: it's at the level of a college science textbook. If you want something simpler to understand with LOTS of fabulous illustrations, I highly recommend David Wade's _Li_.I originally read this around the end of high school. ... controvers ... , ... think this ... would be most enjoyed by science graduates; despite having science A-levels, I admit parts of this book went over my head\n\n...\n\n## Details\nUPC: ‏ ‎ 0198502443\n\nASIN: B01JXPSBFS"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Self-Made-Tapestry-Pattern-Formation-Nature/dp/0198502435",
+              "title": "The Self-Made Tapestry: Pattern Formation in Nature",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The Self-Made Tapestry: Pattern Formation in Nature\nBrand: Philip Ball\nCategory: Biology > Developmental Biology\n\n## Specifications\nPublisher: Oxford University Press; Publication date: October 18, 2001; Edition: Reprint; Language: English; Print length: 456 pages\n\n## Pricing & Reviews\nPrice: 100 USD.\nRated 4.7 from 36 reviews.\n\n...\n\nUPC: 0198502435"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Self-Made-Tapestry-Pattern-Formation-Nature/dp/0198502443",
+              "title": "The Self-Made Tapestry: Pattern Formation in Nature",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The Self-Made Tapestry: Pattern Formation in Nature\nBrand: Philip Ball\nCategory: Biological Sciences > Biology\n\n## Specifications\nPublisher: Oxford University Press; Publication date: January 7, 1999; Edition: First Edition; Language: English; Print length: 296 pages\n\n## Pricing & Reviews\nPrice: 71.01 USD.\nRated 4.7 from 36 reviews.\n\n## Details\nUPC: 0198502443\n\n...\n\nASIN: 0198502443"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Self-Made-Tapestry-Pattern-Formation-Nature-ebook/dp/B001G60W64",
+              "title": "The Self-Made Tapestry: Pattern Formation in Nature",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The Self-Made Tapestry: Pattern Formation in Nature\nBrand: Philip Ball\nCategory: Biological Sciences > Biology\n\n## Specifications\nFile size: 17.1 MB; Publisher: Oxford University Press; Publication date: January 7, 1999; Language: English; X-Ray: Not Enabled\n\n## Pricing & Reviews\nPrice: 28.99 USD.\nRated 4.7 from 36 reviews.\n\n...\n\nASIN: B001G60W64"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Philip-Ball-Self-Made-Tapestry-Formation/dp/B008UYKDF0",
+              "title": "By Philip Ball - The Self-Made Tapestry: Pattern Formation in Nature",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# By Philip Ball - The Self-Made Tapestry: Pattern Formation in Nature\nBrand: Philip Ball\n\n## Specifications\nPublisher: Oxford University Press, USA; Language: English\n\n## Pricing & Reviews\nPrice: 158.03 USD.\nRated 4.7 from 36 reviews.\n\n...\n\nASIN: B008UYKDF0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1468,
+    "completion_tokens": 739,
+    "total_tokens": 2207,
+    "cost": 0.007437976,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004424,
+      "upstream_inference_prompt_cost": 0.0001468,
+      "upstream_inference_completions_cost": 0.0002956
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

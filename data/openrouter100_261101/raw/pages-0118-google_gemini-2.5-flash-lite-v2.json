@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:16:41.377Z",
+  "bookId": "intake-0480",
+  "id": "gen-1793571397-jxH1llBC4lYlRnAVmxbX",
+  "object": "chat.completion",
+  "created": 1793571397,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"intake-0480\",\n  \"title\": \"Italy and Her Invaders\",\n  \"author\": \"Thomas Hodgkin\",\n  \"amazon\": null,\n  \"pages\": [\n    {\n      \"count\": 722,\n      \"editionId\": \"9781241432232\",\n      \"editionYear\": null,\n      \"format\": \"Paperback\",\n      \"language\": \"English\",\n      \"url\": \"https://www.waterstones.com/book/italy-and-her-invaders-vol-1-4/thomas-hodgkin/9781241432232\",\n      \"evidence\": \"Publisher: British Library, Historical Print Editions ISBN: 9781241432232 Number of pages: 722\",\n      \"sourceTitle\": \"Italy and her Invaders, Vol. 1-4.\",\n      \"sourceAuthor\": \"Thomas Hodgkin\"\n    },\n    {\n      \"count\": 568,\n      \"editionId\": \"9781241439194\",\n      \"editionYear\": null,\n      \"format\": \"Paperback\",\n      \"language\": \"English\",\n      \"url\": \"https://www.waterstones.com/book/italy-and-her-invaders-volume-i-second-edition/thomas-hodgkin/9781241439194\",\n      \"evidence\": \"Publisher: British Library, Historical Print Editions ISBN: 9781241439194 Number of pages: 568\",\n      \"sourceTitle\": \"Italy and her Invaders, Volume I. Second Edition.\",\n      \"sourceAuthor\": \"Thomas Hodgkin\"\n    },\n    {\n      \"count\": 536,\n      \"editionId\": \"9781024744699\",\n      \"editionYear\": null,\n      \"format\": \"Paperback\",\n      \"language\": \"English\",\n      \"url\": \"https://www.hatchards.co.uk/book/italy-and-her-invaders/thomas-hodgkin/9781024744699\",\n      \"evidence\": \"Number of pages: 536\",\n      \"sourceTitle\": \"Italy And Her Invaders\",\n      \"sourceAuthor\": \"Thomas Hodgkin\"\n    },\n    {\n      \"count\": 790,\n      \"editionId\": \"9781022873216\",\n      \"editionYear\": null,\n      \"format\": \"Paperback\",\n      \"language\": \"English\",\n      \"url\": \"https://www.waterstones.com/book/italy-and-her-invaders-volume-3/thomas-hodgkin/9781022873216\",\n      \"evidence\": \"Publisher: Legare Street Press ISBN: 9781022873216 Number of pages: 790\",\n      \"sourceTitle\": \"Italy and Her Invaders; Volume 3\",\n      \"sourceAuthor\": \"Thomas Hodgkin\"\n    },\n    {\n      \"count\": 616,\n      \"editionId\": \"978-0-341-97705-6\",\n      \"editionYear\": \"2018\",\n      \"format\": \"paperback\",\n      \"language\": null,\n      \"url\": \"https://www.isbnlab.com/book/9780341977056/italy-and-her-invaders\",\n      \"evidence\": \"Pages: 616\",\n      \"sourceTitle\": \"Italy And Her Invaders\",\n      \"sourceAuthor\": \"Thomas Hodgkin\"\n    }\n  ],\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.waterstones.com/book/italy-and-her-invaders-vol-1-4/thomas-hodgkin/9781241432232\",\n    \"https://www.waterstones.com/book/italy-and-her-invaders-volume-i-second-edition/thomas-hodgkin/9781241439194\",\n    \"https://www.hatchards.co.uk/book/italy-and-her-invaders/thomas-hodgkin/9781024744699\",\n    \"https://www.waterstones.com/book/italy-and-her-invaders-volume-3/thomas-hodgkin/9781022873216\",\n    \"https://www.isbnlab.com/book/9780341977056/italy-and-her-invaders\"\n  ],\n  \"limitations\": \"The search results provided page counts for multiple editions and volumes of the book. A definitive total page count for a single, comprehensive edition was not available.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.waterstones.com/book/italy-and-her-invaders-vol-1-4/thomas-hodgkin/9781241432232",
+              "title": "Italy and her Invaders, Vol. 1-4. by Thomas Hodgkin | Waterstones",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Italy and her Invaders, Vol. 1-4. (Paperback)\n\n Thomas Hodgkin (author) \n\n Price: £26.95 \n\n Paperback 722 Pages Published: 25/03/2011\n\n...\n\n## Publisher information\n\n Publisher: British Library, Historical Print Editions ISBN: 9781241432232 Number of pages: 722 Dimensions: 246 x 189 x 37 mm Weight: 1266 g Language: English"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.waterstones.com/book/italy-and-her-invaders-volume-i-second-edition/thomas-hodgkin/9781241439194",
+              "title": "Italy and her Invaders, Volume I. Second Edition. by Thomas Hodgkin | Waterstones",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Italy and her Invaders, Volume I. Second Edition. (Paperback)\n\n Thomas Hodgkin (author) \n\n Price: £23.95 \n\n Paperback 568 Pages Published: 25/03/2011\n\n...\n\n## Publisher information\n\n Publisher: British Library, Historical Print Editions ISBN: 9781241439194 Number of pages: 568 Dimensions: 246 x 189 x 29 mm Weight: 1002 g Language: English"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.hatchards.co.uk/book/italy-and-her-invaders/thomas-hodgkin/9781024744699",
+              "title": "Italy And Her Invaders by Thomas Hodgkin | Hatchards",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Italy And Her Invaders\n\nThomas Hodgkin (author)\n\nPaperback Published on: 22/05/2025\n\nPrice: £23.95 No reviews yet, be the first Free UK delivery on orders over £25, otherwise £2.99\n\n...\n\nView other formats and editions \n\n## Publisher information\n\n- Publisher: Hutson Street Press\n- ISBN: 9781024744699\n- Number of pages: 536\n- Dimensions: 234 x 156 x 27 mm\n- Weight: 744g\n- Languages: English"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.waterstones.com/book/italy-and-her-invaders-volume-3/thomas-hodgkin/9781022873216",
+              "title": "Italy and Her Invaders; Volume 3 by Thomas Hodgkin | Waterstones",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Italy and Her Invaders; Volume 3 (Paperback)\n\n Thomas Hodgkin (author) \n\n Sign in to write a review \n\n Price: £29.95 \n\n Paperback 790 Pages Published: 18/07/2023\n\n...\n\nView other formats and editions \n\n## Publisher information\n\n Publisher: Legare Street Press ISBN: 9781022873216 Number of pages: 790 Dimensions: 234 x 156 x 40 mm Weight: 1084 g Language: English"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.isbnlab.com/book/9780341977056/italy-and-her-invaders",
+              "title": "Italy And Her Invaders | ISBNLab.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Italy And Her Invaders | ISBNLab.com\n\n## Italy And Her Invaders\n\n \n\nTitle\n: Italy And Her Invaders\nISBN-10\n: 0-341-97705-5\nISBN-13\n: 978-0-341-97705-6\nAuthor(s)\n: Thomas Hodgkin\nPublisher\n: Franklin Classics \nPublished\n: 2018 \nFormat\n: paperback\nSubtitle\n: Login for full book details.\nSeries\n: Login to see series details.\nImprint\n: Login for imprint details. \nPages\n: 616\nLanguage\n: Login for language details.\nSubjects\n: Login for subjects details.\nGenre\n: Login for genre details."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1482,
+    "completion_tokens": 1176,
+    "total_tokens": 2658,
+    "cost": 0.007612414,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006186,
+      "upstream_inference_prompt_cost": 0.0001482,
+      "upstream_inference_completions_cost": 0.0004704
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

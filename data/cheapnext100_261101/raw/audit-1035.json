@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793573577-rRWslCZONjjjLSTwMSi0",
+  "object": "chat.completion",
+  "created": 1793573577,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"progress-0107:pages:https://www.amazon.com/Anything-collection-Reddits-best-IAmA/dp/0692582266\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. Print length is 400 pages.\"\n    },\n    {\n      \"key\": \"shelf-cb760025e019:pages:https://www.amazon.com/Tune-Beatles-All-These-Years/dp/1101903295\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. Print length is 944 pages.\"\n    },\n    {\n      \"key\": \"shelf-491c2fe5e3d7:pages:https://www.ebay.com/itm/336706172123\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. Number of pages is 204.\"\n    },\n    {\n      \"key\": \"q0952:pages:https://www.booksamillion.com/p/Was-Never-About/J-C-Maurer/9798182244497\",\n      \"status\": \"reject\",\n      \"reason\": \"Publication date is 2026, which is in the future.\"\n    },\n    {\n      \"key\": \"shelf-7e26ecd95367:pages:https://www.waterstones.com/book/a-voyage-around-the-queen/craig-brown/9780008557539\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. Number of pages is 672.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2833,
+    "completion_tokens": 422,
+    "total_tokens": 3255,
+    "cost": 0.0001736559,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00017541,
+      "upstream_inference_prompt_cost": 0.00014165,
+      "upstream_inference_completions_cost": 0.00003376
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:53:01.830Z"
+}

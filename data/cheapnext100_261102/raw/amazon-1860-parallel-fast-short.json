@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793574777-ngjcbU4TbCrrIYubQrs4",
+  "object": "chat.completion",
+  "created": 1793574777,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Djordje-S-Anicic/s?rh=n%3A283155%2Cp_27%3ADjordje%2BS.%2BAnicic",
+              "title": "Djordje S. Anicic: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nDjordje S. Anicic: Books\nShooting Down the Stealth Fighter: Eyewitness Accounts from Those Who Were There · by Mihajlo (Mike) S Mijajlović · Hardcover. Add to cart."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Shooting-Down-Stealth-Fighter-Eyewitness/dp/1526780429",
+              "title": "Shooting Down the Stealth Fighter: Eyewitness Accounts ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nShooting Down the Stealth Fighter: Eyewitness Accounts ...\nEyewitness accounts from both sides of the 1999 downing of an F-117A Stealth Fighter over Yugoslavia, exploring the technical and tactical aspects of this\n\n## \n\nShooting Down the Stealth Fighter: Eyewitness Accounts ...\nHe was deputy commander of the 3rd Battalion, 250th Air Defense Missile Brigade and was one of the commanders in the combat shift that shot down the F-117A."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 661,
+    "completion_tokens": 1,
+    "total_tokens": 662,
+    "cost": 0.00101180872,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000011928,
+      "upstream_inference_prompt_cost": 0.000011898,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Shooting Down the Stealth Fighter\" Mihajlo S. Mijajlović; Djordje S. Aničić \"global ratings\"",
+  "bookId": "intake-0098",
+  "retrieved": "2026-11-01T23:12:54.946Z"
+}

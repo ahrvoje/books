@@ -1,0 +1,60 @@
+{
+  "retrieved": "2026-11-01T22:11:39.376Z",
+  "bookId": "rest-89-78",
+  "id": "gen-1793571100-t6TW8wff2rHUwamQM2Ty",
+  "object": "chat.completion",
+  "created": 1793571100,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"rest-89-78\",\n  \"title\": \"The Tower and the Bridge\",\n  \"author\": \"David P. Billington\",\n  \"amazon\": null,\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Robert-Maillarts-Bridges-Art-Engineering/dp/0691082030\"\n  ],\n  \"limitations\": \"The search results provided information for the book \\\"Robert Maillart's Bridges: The Art of Engineering\\\" by David P. Billington, not \\\"The Tower and the Bridge\\\". Therefore, I could not find the requested Amazon information for \\\"The Tower and the Bridge\\\".\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Robert-Maillarts-Bridges-Art-Engineering/dp/0691082030",
+              "title": "Follow the author",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Robert Maillart's Bridges: The Art of Engineering: Billington Jr., David P.: 9780691082035: Amazon.com: Books\n\n...\n\n# Follow the author\n\nDavid P. Billington\n\nFollow\n\nSomething went wrong. Please try your request again later.\n\nby\n\n4.5 out of 5 stars 5 ratings\n\nSee all formats and editions\n\n---\n\nThe description for this book, Robert Maillart's Bridges: The Art of Engineering, will be forthcoming.\n\nRead more\n\n...\n\nPrevious slide of product details\n\nPrint length\n\n168 pages\n\nLanguage\n\nEnglish\n\nPublisher\n\nPrinceton University Press\n\nPublication date\n\nJune 21, 1979\n\nISBN-10\n\n0691082030\n\nISBN-13\n\n978-0691082035\n\n...\n\n### About the Author\n\nDavid P. Billington is Professor of Civil Engineering at Princeton University and the author of The Tower and the Bridge: The New Art of Structural Engineering (Princeton).\n\n---\n\n## Product details\n\n...\n\nCustomer Reviews:\n\n4.5 out of 5 stars 5 ratings\n\n...\n\n## David P. Billington\n\n...\n\n## Customer reviews\n\n4.5 out of 5 stars\n\n5 global ratings\n\n2 star\n\n0%\n\n1 star\n\n0%\n\n- 3 star20%\n- 4 star12%\n- 5 star68%\n\nHow customer reviews and ratings work\n\nCustomer Reviews, including Product Star Ratings help customers to learn more about the product and decide whether it is the right product for them.\n\nTo calculate the overall star rating and percentage breakdown by star, we don’t use a simple average. Instead, our system considers things like how recent a review is and if the reviewer bought the item on Amazon. It also analyzed reviews to verify trustworthiness.\n\nLearn more how customers reviews work on Amazon\n\n---\n\n...\n\nAmazon Customer\n\n5.0 out of 5 stars\n\n...\n\n### Top reviews from the United States\n\n...\n\nHector Faundez Velasco\n\n##### 3.0 out of 5 stars Great content but poor edition\n\nReviewed in the United States on April 26, 2010\n\nVerified Purchase\n\nYes, by my own point of view the content of this book is great but the edition in black and white looses much of the details of the photos and pictures of the book.\n\nRead more\n\n...\n\nNicholas Ordway\n\n##### 4.0 out of 5 stars The Work of a Structural Artist\n\nReviewed in the United States on May 22, 2000\n\nTo the layman, the name Robert Maillart probably means nothing. However, in the field of civil enigineering, the Swiss bridge designer is regarded as not only one of the most inovative and important structural artists of the twentieth century, but an engineer whose work was beautiful enough to be displayed in the Museum of Modern Art. This book analyzes what Maillart is most known for: his bridges. David Billington, as he did briefly in his other engineering guidebook, \"The Tower and the Bridge,\" convincingly argues the superiority of Maillart's reinforced concrete bridges over the works of any other concrete bridge designer during the first half of the twentieth century due to the artist's careful balance of efficiency, economy, and elegance in all his designs. By managing to convey the significance of the great designer through clear illustrations of the many new forms and creative building techniques while at the same time carefully avoiding too much technical jargon, this is a wonderful book for those without much engineering background who wish to understand the methods and works of not just a civil engineer, but a great structural artist.\n\nRead more\n\n9 people found this helpful\n\n...\n\n### Top reviews from other countries\n\nEdoardo\n\n##### 5.0 out of 5 stars Positive transaction\n\nReviewed in the United Kingdom on November 28, 2018\n\nVerified Purchase\n\nDelivers and in good status as described\n\nRead more\n\nReport\n\nc r williams\n\n##### 5.0 out of 5 stars Five Stars\n\nReviewed in the United Kingdom on March 14, 2018\n\nVerified Purchase\n\nCould not be better\n\nRead more\n\nReport"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1493,
+    "completion_tokens": 176,
+    "total_tokens": 1669,
+    "cost": 0.007217503,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002197,
+      "upstream_inference_prompt_cost": 0.0001493,
+      "upstream_inference_completions_cost": 0.0000704
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

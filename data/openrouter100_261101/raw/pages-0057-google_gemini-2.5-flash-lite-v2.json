@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:17.633Z",
+  "bookId": "shelf-5a1d50a81947",
+  "id": "gen-1793571198-RmUXvEB1Xj1dFQQ5ecEg",
+  "object": "chat.completion",
+  "created": 1793571198,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-5a1d50a81947\",\n  \"title\": \"Adventures of a Reckless Amateur\",\n  \"author\": \"Sverre Aarseth\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 261,\n    \"editionId\": null,\n    \"editionYear\": 2014,\n    \"format\": \"Paperback\",\n    \"language\": \"English\",\n    \"url\": \"https://www.readings.com.au/product/9781291991673/adventures-of-a-reckless-amateur--sverre-aarseth--2014--9781291991673\",\n    \"evidence\": \"Format Paperback\\nPublisher Lulu Press Inc\\nCountry United Kingdom\\nDate 29 August 2014\\nPages 261\",\n    \"sourceTitle\": \"Adventures of a Reckless Amateur, Sverre Aarseth (9781291991673) — Readings Books\",\n    \"sourceAuthor\": \"Sverre Aarseth\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Adventures-Reckless-Amateur-Sverre-Aarseth/dp/1291991670\",\n    \"https://www.readings.com.au/product/9781291991673/adventures-of-a-reckless-amateur--sverre-aarseth--2014--9781291991673\",\n    \"https://www.amazon.com/Adventures-Reckless-Amateur-Sverre-Aarseth-ebook/dp/B00N8YQYB4\",\n    \"https://www.allbookstores.com/Sverre-Aarseth/author\",\n    \"https://www.ast.cam.ac.uk/news/sverre-aarseth-20-july-1934-28-december-2024\"\n  ],\n  \"limitations\": \"The Amazon.com link for the paperback edition did not explicitly state the page count, but did mention 'Print length: 261 pages'. The Readings Books link also confirmed 261 pages for the paperback edition.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Adventures-Reckless-Amateur-Sverre-Aarseth/dp/1291991670",
+              "title": "Adventures of a Reckless Amateur",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Adventures of a Reckless Amateur\nBrand: Sverre Aarseth\nCategory: Mountaineering > Mountain Climbing\n\n## Specifications\nPublisher: Lulu.com; Publication date: August 21, 2014; Edition: null; Language: English; Print length: 261 pages\n\n...\n\n## Details\nUPC: 1291991670\n\n...\n\nASIN: 1291991670"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.readings.com.au/product/9781291991673/adventures-of-a-reckless-amateur--sverre-aarseth--2014--9781291991673",
+              "title": "Adventures of a Reckless Amateur, Sverre Aarseth (9781291991673) — Readings Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Paperback\n\n# Adventures of a Reckless Amateur\n\nSverre Aarseth\n\n$28.99 \n\nThis title is printed to order. This book may have been self-published. If so, we cannot guarantee the quality of the content. In the main most books will have gone through the editing process however some may not. We therefore suggest that you be aware of this before ordering this book. If in doubt check either the author or publisher’s details as we are unable to accept any returns unless they are faulty. Please contact us if you have any questions.\n\n...\n\nFormat Paperback\n\nPublisher Lulu Press Inc\n\nCountry United Kingdom\n\nDate 29 August 2014\n\nPages 261\n\n ISBN 9781291991673\n\nThis title is printed to order. This book may have been self-published. If so, we cannot guarantee the quality of the content. In the main most books will have gone through the editing process however some may not."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Adventures-Reckless-Amateur-Sverre-Aarseth-ebook/dp/B00N8YQYB4",
+              "title": "Adventures of a Reckless Amateur",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Adventures of a Reckless Amateur\nBrand: Sverre Aarseth\nCategory: Biographies > Adventurers & Explorers\n\n## Specifications\nFile size: 1.9 MB; Publisher: PublishNation; Publication date: September 1, 2014; Language: English; Screen Reader: Supported"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.allbookstores.com/Sverre-Aarseth/author",
+              "title": "Sverre Aarseth Books - List of books by Sverre Aarseth",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Sort by\nTitle\nPublication Date\n*\nAdventures of a Reckless Amateur\n**\nAdventures of a Reckless Amateur\nAuthor:\nSverre Aarseth\nPaperback\nAug 2014\nList Price:\n$14.18\nCompare Prices\n*\nThe\n...\nN-Body Lectures (Lecture Notes in Physics)\nAuthor:\nSverre Aarseth,"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.ast.cam.ac.uk/news/sverre-aarseth-20-july-1934-28-december-2024",
+              "title": "Sverre Aarseth (20 July 1934 – 28 December 2024) | Institute of Astronomy",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "delighted Cambridge astronomers. Sverre’s climbing exploits are recounted in his own ... in the family cabin in the Norwegian mountains that he had built with his father. He went on to conquer ... western world even after losing his toes early on in his"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1365,
+    "completion_tokens": 572,
+    "total_tokens": 1937,
+    "cost": 0.007361647,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003653,
+      "upstream_inference_prompt_cost": 0.0001365,
+      "upstream_inference_completions_cost": 0.0002288
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

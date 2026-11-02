@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574812-r0IcmOdUUmrKUIH5UGPe",
+  "object": "chat.completion",
+  "created": 1793574812,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g1135:amazon:https://www.amazon.com/Psychology-Money-Timeless-lessons-happiness/dp/0857197681\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 75,012 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"intake-0291:amazon:https://www.amazon.com/Second-World-War-Volumes/dp/B005NS30ZG\",\n      \"status\": \"reject\",\n      \"reason\": \"The title is not an exact match. The title is a series, not a single volume.\"\n    },\n    {\n      \"key\": \"shelf-d145dcdaa665:amazon:https://www.amazon.com/Other-Rivers-Education-Peter-Hessler/dp/0593655354\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 364 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"intake-0428:amazon:https://www.amazon.com/Capitalism-Freedom-Phoenix-Milton-Friedman/dp/0226264017\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 2,880 global ratings explicitly stated. Print length of 208 pages explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-fc25a8f071b7:amazon:https://www.amazon.com/Pragmatism-Name-Some-Ways-Thinking/dp/1169319254\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 27 global ratings explicitly stated. Print length of 318 pages explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3419,
+    "completion_tokens": 447,
+    "total_tokens": 3866,
+    "cost": 0.0002046429,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020671,
+      "upstream_inference_prompt_cost": 0.00017095,
+      "upstream_inference_completions_cost": 0.00003576
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:13:34.342Z"
+}

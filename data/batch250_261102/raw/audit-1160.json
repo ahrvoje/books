@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576376-n1DpXMDvq1iz8TJEIp5N",
+  "object": "chat.completion",
+  "created": 1793576376,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"intake-0023:amazon:https://www.amazon.com/One-Mans-Wilderness-50th-Anniversary/dp/1513261649\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 2,979 global ratings.\"\n    },\n    {\n      \"key\": \"shelf-56e0c3b8b9a2:amazon:https://www.amazon.com/Coddling-American-Mind-Intentions-Generation/dp/0141986301\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 9,831 ratings.\"\n    },\n    {\n      \"key\": \"bg43f098cd3c:amazon:https://www.amazon.com/Death-Dying-Elizabeth-Kubler-Ross/dp/002089130X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 2,466 global ratings.\"\n    },\n    {\n      \"key\": \"rem-u0072:amazon:https://www.amazon.com/Cyber-War-Threat-National-Security/dp/0061962244\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 706 ratings.\"\n    },\n    {\n      \"key\": \"shelf-baebe19fd7b0:amazon:https://www.amazon.com/Examined-Life-Lose-Find-Ourselves/dp/0393079546\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 3,734 global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3761,
+    "completion_tokens": 452,
+    "total_tokens": 4213,
+    "cost": 0.0002219679,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00022421,
+      "upstream_inference_prompt_cost": 0.00018805,
+      "upstream_inference_completions_cost": 0.00003616
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:39:48.311Z"
+}

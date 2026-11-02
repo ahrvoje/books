@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793575576-CZlMWurOH4KRql4eJVza",
+  "object": "chat.completion",
+  "created": 1793575576,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 351,
+    "completion_tokens": 1,
+    "total_tokens": 352,
+    "cost": 0.00100628452,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000006348,
+      "upstream_inference_prompt_cost": 0.000006318,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Let It Go\" Stephanie Shirley; Richard Askwith \"global ratings\"",
+  "bookId": "intake-0175",
+  "retrieved": "2026-11-01T23:26:17.051Z"
+}

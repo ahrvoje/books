@@ -1,0 +1,75 @@
+{
+  "metric": "Recorded current-round USD / new reference counts accepted and cataloged",
+  "denominator": 100,
+  "reportedCostUSD": 2.721759281142,
+  "costPerAcceptedCatalogedEntryUSD": 0.02721759281142,
+  "auditCostUSD": 0.0039023325000000007,
+  "groups": {
+    "catalog": {
+      "successfulResearchCalls": 40,
+      "researchCostUSD": 0.0432840671644,
+      "acceptedCatalogedEntries": 1,
+      "allocatedAuditCostUSD": 0.00003560238,
+      "totalAttributedCostUSD": 0.0433196695444,
+      "costPerAcceptedCatalogedEntryUSD": 0.0433196695444
+    },
+    "precise": {
+      "successfulResearchCalls": 2138,
+      "researchCostUSD": 2.318774818175603,
+      "acceptedCatalogedEntries": 95,
+      "allocatedAuditCostUSD": 0.0037198101600000003,
+      "totalAttributedCostUSD": 2.322494628335603,
+      "costPerAcceptedCatalogedEntryUSD": 0.02444731187721687
+    },
+    "wide": {
+      "successfulResearchCalls": 80,
+      "researchCostUSD": 0.08736294236480002,
+      "acceptedCatalogedEntries": 0,
+      "allocatedAuditCostUSD": 0,
+      "totalAttributedCostUSD": 0.08736294236480002,
+      "costPerAcceptedCatalogedEntryUSD": null
+    },
+    "standard": {
+      "successfulResearchCalls": 40,
+      "researchCostUSD": 0.043439951178400014,
+      "acceptedCatalogedEntries": 0,
+      "allocatedAuditCostUSD": 0,
+      "totalAttributedCostUSD": 0.043439951178400014,
+      "costPerAcceptedCatalogedEntryUSD": null
+    },
+    "archive": {
+      "successfulResearchCalls": 150,
+      "researchCostUSD": 0.16031782926239996,
+      "acceptedCatalogedEntries": 2,
+      "allocatedAuditCostUSD": 0.00007120476,
+      "totalAttributedCostUSD": 0.16038903402239996,
+      "costPerAcceptedCatalogedEntryUSD": 0.08019451701119998
+    },
+    "bundle-five": {
+      "successfulResearchCalls": 60,
+      "researchCostUSD": 0.0646773404964,
+      "acceptedCatalogedEntries": 0,
+      "allocatedAuditCostUSD": 0,
+      "totalAttributedCostUSD": 0.0646773404964,
+      "costPerAcceptedCatalogedEntryUSD": null
+    },
+    "cached-evidence": {
+      "successfulResearchCalls": 0,
+      "researchCostUSD": 0,
+      "acceptedCatalogedEntries": 2,
+      "allocatedAuditCostUSD": 0.0000757152,
+      "totalAttributedCostUSD": 0.0000757152,
+      "costPerAcceptedCatalogedEntryUSD": 0.0000378576
+    }
+  },
+  "failedRequestRecords": 274,
+  "limitations": [
+    "Cost is response usage, not an invoice; HTTP failures without usage cannot be priced.",
+    "Different book cohorts and query order confound method comparisons.",
+    "A field is credited once, to the evidence actually used. Recovered secondary matches count only when cataloged.",
+    "Cache evidence uses previous-round paid searches; those historical sunk costs are excluded from current incremental cost.",
+    "Null cost per entry means zero cataloged yield, not zero cost."
+  ],
+  "narrative": "Per-method figures count each accepted entry once, against the source response actually used. catalog: 1 cataloged entries; $0.043320 attributed cost; $0.043320 per entry. precise: 95 cataloged entries; $2.322495 attributed cost; $0.024447 per entry. wide: 0 cataloged entries; $0.087363 attributed cost; no finite cost per entry (zero accepted yield). standard: 0 cataloged entries; $0.043440 attributed cost; no finite cost per entry (zero accepted yield). archive: 2 cataloged entries; $0.160389 attributed cost; $0.080195 per entry. bundle-five: 0 cataloged entries; $0.064677 attributed cost; no finite cost per entry (zero accepted yield). cached-evidence: 2 cataloged entries; $0.000076 attributed cost; $0.000038 per entry. All unsuccessful-yield query costs remain included. The broad bibliography-pages follow-up and archive-only trials did not justify expanding those methods. Exact title-and-author queries supplied most accepted entries; cache reuse avoided new search fees for two entries. Rate limits occurred during overlapping research batches; retries used two concurrent calls. Source acquisition dominates cost, so further reply shortening is a smaller opportunity than query yield and cache reuse. Checking record bodies under generic page headings recovered 12 accepted entries from evidence already retrieved, without additional search calls. The five-book OR trial also remains fully charged to this round, including any zero yield.",
+  "recordBodyRecoveredEntries": 12
+}

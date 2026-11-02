@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:14:31.423Z",
+  "bookId": "rest-6-5",
+  "id": "gen-1793571271-yLoUhOt8mjLCCFyGG7GJ",
+  "object": "chat.completion",
+  "created": 1793571271,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"rest-6-5\",\n  \"title\": \"The Discovery of Global Warming\",\n  \"author\": \"Spencer Weart\",\n  \"amazon\": {\n    \"count\": 328,\n    \"stars\": 3.8,\n    \"asin\": \"B095SYYRJN\",\n    \"marketplace\": \"amazon.com\",\n    \"url\": \"https://www.amazon.com/Discovery-Global-Warming-histories-technology-ebook/dp/B095SYYRJN\",\n    \"evidence\": \"3.8 on Goodreads (328)\",\n    \"sourceTitle\": \"The Discovery of Global Warming: Revised and Expanded\",\n    \"sourceAuthor\": \"Spencer R. Weart\"\n  },\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Discovery-Global-Warming-Histories-Technology/dp/067403189X\",\n    \"https://www.amazon.com/Vast-Machine-Computer-Politics-Infrastructures-ebook/dp/B08BT1ZYL1\",\n    \"https://www.amazon.com/Science-Politics-Global-Climate-Change/dp/131663132X\",\n    \"https://www.amazon.com/Climate-Change-International-History-Environmental-ebook/dp/B0CRHBP711\",\n    \"https://www.amazon.com/Discovery-Global-Warming-histories-technology-ebook/dp/B095SYYRJN\"\n  ],\n  \"limitations\": \"The search for a total rating aggregate on amazon.de and amazon.com did not yield a direct result. The Goodreads rating was found on an Amazon product page.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Discovery-Global-Warming-Histories-Technology/dp/067403189X",
+              "title": "The Discovery of Global Warming: Revised and Expanded ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "This book is about the discovery of global warming and how scientists reached that conclusion, as well as the latest scientific consensus on the issue"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Vast-Machine-Computer-Politics-Infrastructures-ebook/dp/B08BT1ZYL1",
+              "title": "Computer Models, Climate Data, and the Politics of Global ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Discovery of Global Warming: Revised and Expanded Edition (New Histories of Science, Technology, and Medicine Book 13). Spencer R. Weart ... Best Sellers Rank."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Science-Politics-Global-Climate-Change/dp/131663132X",
+              "title": "The Science and Politics of Global Climate Change: A ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Paperback The Discovery of Global Warming: Rank #1,315,484 in Books (See Top 100 in Books) #502 in Rivers in Earth Science #672 in Earth Sciences (Books)"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Climate-Change-International-History-Environmental-ebook/dp/B0CRHBP711",
+              "title": "Climate Change and International History",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Discovery of Global Warming: Revised and Expanded Edition (New Histories of Science, Technology, and Medicine Book 13). Spencer R. Weart. Kindle Edition."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Discovery-Global-Warming-histories-technology-ebook/dp/B095SYYRJN",
+              "title": "The Discovery of Global Warming: Revised and Expanded ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "3.8 on Goodreads (328) This book is about the discovery of global warming … the latest scientific consensus on the issue"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 948,
+    "completion_tokens": 421,
+    "total_tokens": 1369,
+    "cost": 0.005260568,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002632,
+      "upstream_inference_prompt_cost": 0.0000948,
+      "upstream_inference_completions_cost": 0.0001684
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

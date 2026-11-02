@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574812-C8gKF86UbjhB2IkmPSW5",
+  "object": "chat.completion",
+  "created": 1793574812,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-cd0e9e1689db:amazon:https://www.amazon.com/Show-Your-Work-Austin-Kleon/dp/076117897X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count.\"\n    },\n    {\n      \"key\": \"rem-u0206:amazon:https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0143126563\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count.\"\n    },\n    {\n      \"key\": \"rem-u1846:amazon:https://www.amazon.com/What-Got-Here-Wont-There/dp/1401301304\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count.\"\n    },\n    {\n      \"key\": \"rem-u1095:amazon:https://www.amazon.com/Solitude-Return-Self-Anthony-Storr/dp/0743280741\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count.\"\n    },\n    {\n      \"key\": \"shelf-22ce3507a296:amazon:https://www.amazon.com/Story-Civilization-Full-11-Set/dp/B001IUG0Q4\",\n      \"status\": \"reject\",\n      \"reason\": \"The title is a single volume, not the whole series.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3343,
+    "completion_tokens": 407,
+    "total_tokens": 3750,
+    "cost": 0.0001977129,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019971,
+      "upstream_inference_prompt_cost": 0.00016715,
+      "upstream_inference_completions_cost": 0.00003256
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:13:33.813Z"
+}

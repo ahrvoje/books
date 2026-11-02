@@ -1,0 +1,80 @@
+{
+  "retrieved": "2026-11-01T21:18:48.515Z",
+  "bookId": "shelf-09edf84abcfe",
+  "id": "gen-1793567928-FgOEkOwSsKzvd9J19V1A",
+  "object": "chat.completion",
+  "created": 1793567928,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-09edf84abcfe\",\n  \"title\": \"The Sources of Social Power Volume 2\",\n  \"author\": \"Michael Mann\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 844,\n    \"editionId\": \"2nd Edition\",\n    \"editionYear\": 2012,\n    \"format\": \"Paperback\",\n    \"language\": null,\n    \"url\": \"https://www.cambridge.org/us/universitypress/subjects/sociology/social-theory/sources-social-power-volume-2-2nd-edition\",\n    \"evidence\": \"length: 844 pages\",\n    \"sourceTitle\": \"The Sources of Social Power\",\n    \"sourceAuthor\": \"Michael Mann\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.cambridge.org/us/universitypress/subjects/sociology/social-theory/sources-social-power-volume-2-2nd-edition\",\n    \"https://research.sociology.cam.ac.uk/sources-social-power-vol-ii-rise-classes-and-nation-states-1760-1914\",\n    \"https://www.booktopia.com.au/the-sources-of-social-power-michael-mann/book/9781107670648.html\"\n  ],\n  \"limitations\": \"The provided Amazon URL was a search URL and did not lead to specific product information for the book. Therefore, Amazon-specific details such as count, stars, asin, and marketplace could not be retrieved.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.cambridge.org/us/universitypress/subjects/sociology/social-theory/sources-social-power-volume-2-2nd-edition",
+              "title": "The Sources of Social Power",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The Sources of Social Power\n\nVolume 2. The Rise of Classes and Nation-States, 1760–1914\n\n2nd Edition\n\n## $44.99 (G)\n\n- Author: Michael Mann, University of California, Los Angeles\n\n- isbn: 9781107670648\n- format: Paperback\n- availability: Available\n- Date Published: September 2012\n\nRate & review\n\n## $ 44.99 (G) Paperback\n\nAdd to cart Add to wishlist\n\n#### Other available formats: Hardback, eBook\n\n...\n\nFirst published in 1993, this new edition of volume 2 includes a new preface by the author examining the impact and legacy of the work.\n\n...\n\n## Product details\n\n- length: 844 pages\n- isbn: 9781107670648\n- format: Paperback\n- Date Published: September 2012\n- Edition: 2nd Edition\n\n- availability: Available\n- contains: 5 b/w illus. 36 tables\n- weight: 1.09kg\n- dimensions: 226 x 152 x 48 mm\n\n...\n\n### Sorry, this resource is locked\n\nPlease register or sign in to request access."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://research.sociology.cam.ac.uk/sources-social-power-vol-ii-rise-classes-and-nation-states-1760-1914",
+              "title": "The Sources of Social Power, Vol II: The Rise of Classes and Nation-States, 1760 -1914 | Sociology Research",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Sociology Research\n\n# The Sources of Social Power, Vol II: The Rise of Classes and Nation-States, 1760 -1914\n\n- Department ↗\n- Sociology Research\n\nFull citation:\n\nM. Mann (1993) The Sources of Social Power, Vol II: The Rise of Classes and Nation-States, 1760 -1914. Cambridge University Press, 830 pages. Translated into German, Spanish, Greek, Japanese and Chinese.\n\nBook Publisher:\n\nCambridge University Press\n\nPublication Date:\n\n1993\n\nResearch Themes:\n\nAuthor:\n\nM. Mann\n\n© 2026 University of Cambridge"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.booktopia.com.au/the-sources-of-social-power-michael-mann/book/9781107670648.html",
+              "title": "The Sources of Social Power",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Sources of Social Power by Michael Mann | Volume 2, The Rise of Classes and Nation-States, 1760â\"1914 | 9781107670648 | Booktopia\n\n...\n\n# The Sources of Social Power\n\n## Volume 2, The Rise of Classes and Nation-States, 1760â\"1914\n\nBy: Michael Mann\n\nWrite A Review\n\nPaperback | 17 September 2012 | Edition Number 2\n\n##### At a Glance\n\nPaperback844 Pages\n\nEdition TypeRevised\n\nDimensions(cm)22.5 x 14.5 x 4.5\n\n### Paperback\n\n---\n\nRRP $67.95\n\n$66.25\n\n...\n\nAims to ship in 7 to 10 business days"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1291,
+    "completion_tokens": 389,
+    "total_tokens": 1680,
+    "cost": 0.007281853,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002847,
+      "upstream_inference_prompt_cost": 0.0001291,
+      "upstream_inference_completions_cost": 0.0001556
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

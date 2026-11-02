@@ -1,0 +1,56 @@
+{
+  "recordedCostUSD": 0.5388561051392002,
+  "prior100RecordedCostUSD": 1.5993444011183964,
+  "savingFraction": 0.6630768802752012,
+  "costPerAcceptedFieldUSD": 0.005388561051392003,
+  "acceptedFields": 100,
+  "cachedFields": 3,
+  "groups": {
+    "parallel/fast/10 results": {
+      "calls": 409,
+      "costUSD": 0.4458457124464002,
+      "acceptedFields": 95,
+      "meanCostUSD": 0.001090087316494866
+    },
+    "evidence audit": {
+      "calls": 20,
+      "costUSD": 0.004141892699999999,
+      "acceptedFields": 0,
+      "meanCostUSD": 0.00020709463499999996
+    },
+    "parallel fast server trial": {
+      "calls": 4,
+      "costUSD": 0.0046149404008000005,
+      "acceptedFields": 0,
+      "meanCostUSD": 0.0011537351002000001
+    },
+    "exa/default/1 result": {
+      "calls": 12,
+      "costUSD": 0.08425355959200001,
+      "acceptedFields": 2,
+      "meanCostUSD": 0.0070211299660000006
+    }
+  },
+  "confidence": "High for saved response costs; moderate for general cost/yield conclusions. Not a controlled quality comparison.",
+  "costScope": "Successful saved API responses, including experiments and audits. Interrupted requests may incur additional charges; this is not an account invoice.",
+  "futureDefaults": {
+    "model": "mistralai/mistral-nemo",
+    "plugin": {
+      "id": "web",
+      "engine": "parallel",
+      "mode": "fast",
+      "max_results": 10
+    },
+    "auditModel": "mistralai/mistral-small-24b-instruct-2501"
+  },
+  "lessons": [
+    "Reuse saved source evidence before new calls.",
+    "Search mode produced the main saving: fast search fee $0.001 versus prior default $0.005.",
+    "One-result Exa still charged $0.007; reducing results did not save its search fee.",
+    "Four server-tool trials did not establish a useful gain from larger requested excerpts.",
+    "Remap useful secondary results to their actual catalog books; do not confuse related products.",
+    "Short title plus bibliographical references found useful library ranges.",
+    "Review batches and stop research as soon as the verified target is reached."
+  ],
+  "pricingSource": "https://github.com/OpenRouterTeam/docs/blob/main/guides/features/plugins/web-search.mdx"
+}

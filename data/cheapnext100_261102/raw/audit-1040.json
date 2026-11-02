@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574806-sUWXCM1HdOzfMCGoALTT",
+  "object": "chat.completion",
+  "created": 1793574806,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u0253:amazon:https://www.amazon.com/Liberty-John-Stuart-Mill/dp/0140432078\",\n      \"status\": \"reject\",\n      \"reason\": \"The title and author match, but the evidence does not specify a print edition, and the page count is not for a print edition.\"\n    },\n    {\n      \"key\": \"complete-295-269:amazon:https://www.amazon.com/Cosa-Nostra-History-Sicilian-Mafia/dp/1403970424\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the evidence.\"\n    },\n    {\n      \"key\": \"g1301:amazon:https://www.amazon.com/British-Are-Coming-Lexington-Revolution/dp/1250231329\",\n      \"status\": \"reject\",\n      \"reason\": \"The title and author match, but the evidence does not specify a print edition, and the page count is not for a print edition.\"\n    },\n    {\n      \"key\": \"bg03c1900c52:amazon:https://www.amazon.com/Cultural-Revolution-Peoples-History-1962_1976/dp/1632864231\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the evidence.\"\n    },\n    {\n      \"key\": \"g0809:amazon:https://www.amazon.com/Human-Action-Ludwig-von-Mises/dp/0930073185\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the evidence.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3682,
+    "completion_tokens": 411,
+    "total_tokens": 4093,
+    "cost": 0.0002148102,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021698,
+      "upstream_inference_prompt_cost": 0.0001841,
+      "upstream_inference_completions_cost": 0.00003288
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:13:28.807Z"
+}

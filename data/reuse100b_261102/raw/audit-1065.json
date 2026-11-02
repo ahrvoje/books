@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575273-GVptYQNX5j106RSomYO0",
+  "object": "chat.completion",
+  "created": 1793575273,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-0842be7ee59c:amazon:https://www.amazon.com/Inside-Box-Constraints-Make-Better/dp/0593715713\",\n      \"status\": \"reject\",\n      \"reason\": \"The title and author do not match the supplied book and author. The supplied book is 'Inside the Box: The fascinating New York Times bestseller that reveals the hidden power of limits' by David Epstein, but the source title is 'Inside the Box: How Constraints Make Us Better' by David Epstein.\"\n    },\n    {\n      \"key\": \"shelf-df7c6c4a5b62:amazon:https://www.amazon.com/Eastern-Front-History-Great-1914-1918/dp/1324092718\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The supplied book is 'The Eastern Front' by Nick Lloyd, and the source title is 'The Eastern Front: A History of the Great War, 1914-1918' by Nick Lloyd. The ratings evidence is 377 global ratings.\"\n    },\n    {\n      \"key\": \"rest-142-128:amazon:https://www.amazon.com/Being-You-Inside-Story-Universe/dp/0571337708\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The supplied book is 'Being You' by Anil Seth, and the source title is 'Being You: The Inside Story of Your Inner Universe' by Professor Anil Seth. The ratings evidence is 2,115 global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1876:amazon:https://www.amazon.com/High-Conflict-Why-Get-Trapped/dp/1982128569\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The supplied book is 'High Conflict: Why We Get Trapped and How We Get Out' by Amanda Ripley, and the source title is 'High Conflict: Why We Get Trapped and How We Get Out' by Amanda Ripley. The ratings evidence is 1,282 global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1232:amazon:https://www.amazon.com/Rise-Fall-Nations-Forces-Post-Crisis/dp/0393248895\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The supplied book is 'The Rise and Fall of Nations: Forces of Change in the Post-Crisis World' by Ruchir Sharma, and the source title is 'The Rise and Fall of Nations: Forces of Change in the Post-Crisis World' by Ruchir Sharma. The ratings evidence is 1,052 ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3425,
+    "completion_tokens": 685,
+    "total_tokens": 4110,
+    "cost": 0.0002237895,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00022605,
+      "upstream_inference_prompt_cost": 0.00017125,
+      "upstream_inference_completions_cost": 0.0000548
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:21:27.560Z"
+}

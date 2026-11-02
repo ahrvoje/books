@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575747-lwOhvFWsBLezZ5sWKBU5",
+  "object": "chat.completion",
+  "created": 1793575747,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u1531:amazon:https://www.amazon.com/We-Have-No-Idea-Universe/dp/0735211515\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 2,615 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"intake-0387:amazon:https://www.amazon.com/Euclids-Window-Geometry-Parallel-Hyperspace/dp/0684865246\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 483 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"n1af14336f8:amazon:https://www.amazon.com/Art-War-Sun-Tzu/dp/0877734526\",\n      \"status\": \"reject\",\n      \"reason\": \"Author mismatch. Source lists Thomas Cleary as translator, not author.\"\n    },\n    {\n      \"key\": \"n4f90c642b5:amazon:https://www.amazon.com/Many-Worlds-One-Search-Universes/dp/0809095238\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 97 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"bg021268ad2f:amazon:https://www.amazon.com/Great-Influenza-Deadliest-Pandemic-History-ebook/dp/B000OCXFWE\",\n      \"status\": \"reject\",\n      \"reason\": \"No print page count provided. Kindle edition.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3307,
+    "completion_tokens": 400,
+    "total_tokens": 3707,
+    "cost": 0.0001953765,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019735,
+      "upstream_inference_prompt_cost": 0.00016535,
+      "upstream_inference_completions_cost": 0.000032
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:29:17.329Z"
+}

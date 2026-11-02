@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793572741-OrITO9cxKUkR1HMCRJOn",
+  "object": "chat.completion",
+  "created": 1793572741,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u1630:amazon:https://www.amazon.com/Pluto-Files-Americas-Favorite-Planet/dp/0393065200\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 395.\"\n    },\n    {\n      \"key\": \"rem-u1420:amazon:https://www.amazon.com/Operation-Mincemeat-Story-Changed-Course/dp/1408809214\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a rating count of 6,397.\"\n    },\n    {\n      \"key\": \"n49c4ee2b56:reference:https://gc.wyldcatalog.org/Record/a2019242\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a bibliographical reference range of pages 239-241.\"\n    },\n    {\n      \"key\": \"resume-189-21:reference:https://link.deschuteslibrary.org/resource/nypAQyt9S_c\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a bibliographical reference range of pages 179-194.\"\n    },\n    {\n      \"key\": \"q0322:reference:https://broomfieldkids.flatironslibrary.org/Record/.b31692540\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a bibliographical reference range of pages [245]-267.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4077,
+    "completion_tokens": 415,
+    "total_tokens": 4492,
+    "cost": 0.0002346795,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00023705,
+      "upstream_inference_prompt_cost": 0.00020385,
+      "upstream_inference_completions_cost": 0.0000332
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:39:03.578Z"
+}

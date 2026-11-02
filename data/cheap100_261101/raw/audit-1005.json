@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793572717-atLdlGJZCZC96ejvpaBw",
+  "object": "chat.completion",
+  "created": 1793572717,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g1134:amazon:https://www.amazon.com/Intelligent-Investor-Classic-Value-Investing/dp/0060752610\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count, which is explicitly labelled.\"\n    },\n    {\n      \"key\": \"large-409:amazon:https://www.amazon.com/Blood-Machine-Origins-Rebellion-Against/dp/0316487740\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count, which is explicitly labelled.\"\n    },\n    {\n      \"key\": \"q0421:reference:https://searchworks.stanford.edu/view/13835736\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a bibliographical range, which is explicitly labelled.\"\n    },\n    {\n      \"key\": \"g0618:reference:https://muir.tdslib.org/Record/359047\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a bibliographical range, which is explicitly labelled.\"\n    },\n    {\n      \"key\": \"g0489:amazon:https://www.amazon.com/What-Technology-Wants-Kevin-Kelly/dp/0143120174\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count, which is explicitly labelled.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3043,
+    "completion_tokens": 394,
+    "total_tokens": 3437,
+    "cost": 0.0001818333,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00018367,
+      "upstream_inference_prompt_cost": 0.00015215,
+      "upstream_inference_completions_cost": 0.00003152
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:38:42.942Z"
+}

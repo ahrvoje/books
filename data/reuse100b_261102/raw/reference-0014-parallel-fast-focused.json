@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793575132-s32ckiQqRgcA1a4D7o25",
+  "object": "chat.completion",
+  "created": 1793575132,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"necf7390c86\",\n  \"title\": \"The Art of Doing Science and Engineering\",\n  \"author\": \"Richard W. Hamming\",\n  \"pages\": null,\n  \"amazon\": {\n    \"count\": 336,\n    \"url\": \"https://www.amazon.com/Art-Doing-Science-Engineering-Hamming/dp/0521394614\",\n    \"asin\": \"0521394614\",\n    \"evidence\": \"Amazon product page\"\n  },\n  \"reference\": {\n    \"count\": 336,\n    \"url\": \"https://www.worldcat.org/title/art-of-doing-science-and-engineering/oclc/46742614\",\n    \"evidence\": \"WorldCat library catalog\",\n    \"ranges\": [\n      {\n        \"start\": 1,\n        \"end\": 336,\n        \"label\": \"Total pages\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 349,
+    "completion_tokens": 231,
+    "total_tokens": 580,
+    "cost": 0.00101307988,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000013212,
+      "upstream_inference_prompt_cost": 0.000006282,
+      "upstream_inference_completions_cost": 0.00000693
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "\"The Art of Doing Science and Engineering\" \"bibliographical references\"",
+  "bookId": "necf7390c86",
+  "retrieved": "2026-11-01T23:19:17.398Z"
+}

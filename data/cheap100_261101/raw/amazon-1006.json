@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572080-h7t4c0ZHfLFxj28qiDPF",
+  "object": "chat.completion",
+  "created": 1793572080,
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "provider": "Nvidia",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"id\": \"bgc810d28a67\",\n  \"title\": \"The Polyester Prince: The Rise of Dhirubhai Ambani\",\n  \"author\": \"Hamish McDonald\",\n  \"amazon\": {\n    \"count\": 1,\n    \"url\": \"https://www.amazon.com/Polyester-Prince-Rise-Dhirubhai-Ambani/dp/1864484683\",\n    \"asin\": \"1864484683\",\n    \"evidence\": \"[amazon.com](https://www.amazon.com/Polyester-Prince-Rise-Dhirubhai-Ambani/dp/1864484683)\"\n  },\n  \"reference\": {\n    \"count\": 1,\n    \"url\": \"https://www.amazon.com/stores/author/B001K89TS0\",\n    \"evidence\": \"[amazon.com](https://www.amazon.com/stores/author/B001K89TS0)\",\n    \"ranges\": [\n      {\n        \"start\": 1,\n        \"end\": 1,\n        \"label\": \"author page\"\n      }\n    ]\n  }\n}",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Polyester-Prince-Rise-Dhirubhai-Ambani/dp/1864484683",
+              "title": "The Polyester Prince: The Rise of Dhirubhai Ambani",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Polyester Prince: The Rise of Dhirubhai Ambani\nChronicles Dhirubhai Ambani's transformation from street vendor to business tycoon, building Reliance Group into a major corporation amid\n\n...\n\nwhere\n\n## \n\nThe Polyester Prince: The Rise of Dhirubhai Ambani - Amazon.com\nChronicles Dhirubhai Ambani's transformation from street vendor to business tycoon, building Reliance Group into a major\n\n...\n\nThird World.\nT\n\n...\n\nthe Third\n\n## \n\nThe Polyester Prince: The Rise of Dhirubhai Ambani\nThe Polyester Prince: The Rise of Dhirubhai Ambani [McDonald, Hamish] on Amazon.com. *FREE* shipping on qualifying offers.\n\n## \n\nThe Polyester Prince: The Rise of Dhirubhai Ambani\nHamish McDonald has most recently been based in New Delhi as the bureau chief for the Far Eastern Economic Review and has now returned to Australia as Foreign Editor of the Sydney Morning Herald.\n\n## \n\nThe Polyester Prince: The Rise of Dhirubhai Ambani\nHamish McDonald has most recently been based in New Delhi as the bureau chief for the Far Eastern Economic Review and has now returned to Australia as Foreign Editor of the Sydney Morning Herald. Help others learn more about this product by uploading a video! Follow authors to get new release updates\n\n...\n\n## \n\nThe Polyester Prince:\n\n...\n\ncrashes for Ambani and his company.\n\n## \n\nThe Polyester Prince: The Rise of Dhirubhai Ambani\nThe Polyester Prince: The Rise of Dhirubhai Ambani by Hamish McDonald (Author) Format: Paperback\n\n##"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B001K89TS0",
+              "title": "Hamish McDonald: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nHamish McDonald: books, biography, latest update\nFollow Hamish McDonald and explore their bibliography from Amazon&#39;s. Ambani & Sons Quick look. The Polyester Prince: The Rise of Dhirubhai Ambani Quick\n\n## \n\nHamish McDonald: books, biography, latest update\nFollow Hamish McDonald and explore their bibliography from Amazon's Hamish McDonald Author Page ... Ambani & Sons. Kindle Edition. Other formats: Hardcover,"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Hamish-McDonald/s?rh=n%3A283155%2Cp_27%3AHamish%2BMcDonald",
+              "title": "Hamish McDonald: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "by Hamish McDonald · Kindle Edition · See all details · The Polyester Prince: The Rise of Dhirubhai Ambani."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Melanesia-Travels-Oceania-Hamish-McDonald/dp/1805263951",
+              "title": "Melanesia: Travels in Black Oceania: McDonald, Hamish",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "By land and sea, Hamish McDonald travels from one end of Melanesia ... His books include The Polyester Prince and Demokrasi: Indonesia in the 21st Century."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Melanesia-Travels-Oceania-Hamish-McDonald-ebook/dp/B0DYP9B4D4",
+              "title": "Melanesia: Travels in Black Oceania eBook : McDonald ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "By land and sea, Hamish McDonald travels from one end of Melanesia ... His books include The Polyester Prince and Demokrasi: Indonesia in the 21st Century."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1177,
+    "completion_tokens": 265,
+    "total_tokens": 1442,
+    "cost": 0.005,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "bgc810d28a67",
+  "retrieved": "2026-11-01T22:28:00.372Z"
+}

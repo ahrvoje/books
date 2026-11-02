@@ -1,0 +1,87 @@
+{
+  "id": "gen-1793573500-sXunovzaO6livS5thwqU",
+  "object": "chat.completion",
+  "created": 1793573500,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"g0737\",\n  \"title\": \"Mr. Putin: Operative in the Kremlin\",\n  \"author\": \"Fiona Hill; Clifford G. Gaddy\",\n  \"pages\": {\n    \"count\": 390,\n    \"url\": \"https://www.amazon.com/Mr-Putin-Operative-Fiona-Hill/dp/0815723768\",\n    \"edition\": \"Paperback\",\n    \"format\": \"Print\",\n    \"evidence\": \"Amazon product page\"\n  },\n  \"amazon\": {\n    \"count\": 1,\n    \"url\": \"https://www.amazon.com/dp/0815723768\",\n    \"asin\": \"0815723768\",\n    \"evidence\": \"Amazon search results\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Mr-Putin-Operative-Fiona-Hill/dp/0815723768",
+              "title": "Mr. Putin: Operative in the Kremlin",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nMr. Putin: Operative in the Kremlin\nBook details ; Print length. 390 pages ; Language. English ; Publisher. Brookings Institution Press ; Publication date. December 18, 2012 ; Dimensions. 1 x 1.11 x 1\n\n## \n\nMr. Putin: Operative in the Kremlin\n\"With so many one-dimensional portraits of the Russian leader, the new offering by Fiona Hill and Clifford Gaddy is a refreshing change of pace. Mr. Putin:"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/zh_TW/Fiona-Hill/dp/B00BSZXWN8",
+              "title": "Mr. Putin: Operative in the Kremlin (Brookings FOCUS ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Mr. Putin: Operative in the Kremlin (Brookings FOCUS ...\nMr. Putin: Operative in the Kremlin (Brookings FOCUS Book) by Hill, Fiona, Gaddy, Clifford G. unknown Edition [Hardcover(2013)]. Section:  > \nMr. Putin: Operative in the Kremlin (Brookings FOCUS ...\nMr. Putin: Operative in the Kremlin (Brookings FOCUS Book) by Hill, Fiona, Gaddy, Clifford G. unknown Edition [Hardcover(2013)]: Analysis of Vladimir Putin's"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Siberian-Curse-Communist-Planners-Russia/dp/0815736452",
+              "title": "The Siberian Curse: How Communist Planners Left Russia ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Siberian Curse: How Communist Planners Left Russia ...\nIn this highly-original work, Fiona Hill and Clifford Gaddy argue that Russia's geography, history, and monumental mistakes perpetrated by Soviet planners have"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 772,
+    "completion_tokens": 197,
+    "total_tokens": 969,
+    "cost": 0.00101960794,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000019806,
+      "upstream_inference_prompt_cost": 0.000013896,
+      "upstream_inference_completions_cost": 0.00000591
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Mr. Putin\" Fiona Hill; Clifford G. Gaddy \"global ratings\"",
+  "bookId": "g0737",
+  "retrieved": "2026-11-01T22:52:01.363Z"
+}

@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:16:51.625Z",
+  "bookId": "g0680",
+  "id": "gen-1793571409-eFft0PQLoPilWVOBHDfy",
+  "object": "chat.completion",
+  "created": 1793571409,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"g0680\",\n  \"title\": \"This Explains Everything\",\n  \"author\": \"John Brockman (editor)\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 411,\n    \"editionId\": \"ISBN:0062230174\",\n    \"editionYear\": 2013,\n    \"format\": \"pbk.\",\n    \"language\": \"eng\",\n    \"url\": \"https://catalog.slcpl.org/search/title.aspx?cn=351117&pos=1\",\n    \"evidence\": \"Description: xx, 411 pages ; 21 cm\",\n    \"sourceTitle\": \"Catalog - The City Library\",\n    \"sourceAuthor\": null\n  },\n  \"reference\": {\n    \"count\": null,\n    \"editionId\": \"ISBN:0062230174\",\n    \"editionYear\": 2013,\n    \"url\": \"https://catalog.slcpl.org/search/title.aspx?cn=351117&pos=1\",\n    \"evidence\": \"Notes: Includes bibliographical references and index.\",\n    \"sourceTitle\": \"Catalog - The City Library\",\n    \"sourceAuthor\": null,\n    \"ranges\": [],\n    \"method\": \"The catalog record explicitly states that the book includes bibliographical references. However, the specific page range for the references is not provided.\",\n    \"limitation\": \"The exact page range for the bibliographical references is not available in the provided search results. The count of references is also not explicitly stated.\"\n  },\n  \"searchedUrls\": [\n    \"https://catalog.slcpl.org/search/title.aspx?cn=351117&pos=1\",\n    \"https://library.nysoclib.org/record=b1258354\",\n    \"https://welib.org/md5/d43a3aeff8c1aaecbba0a7e195f8324b\",\n    \"https://link.calcasieulibrary.org/resource/I2lWToyop0k\",\n    \"https://link.livebrary.com/resource/nARoghqgjF8\"\n  ],\n  \"limitations\": \"The specific page range for the bibliographical references is not provided in the search results. The total count of references is also not explicitly stated.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://library.nysoclib.org/record=b1258354",
+              "title": "NYSL Catalog: Search",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "NYSL Catalog: Search\n\n| Title | This explains everything : deep, beautiful, and elegant theories of how the world works / edited by John Brockman. |\n| --- | --- |\n| Publication Info. | New York : Harper Perennial, c2013. |\n\n \n\n| Location | Call No. | Status | Note |\n| --- | --- | --- | --- |\n| Stack 3 | 500 T | IN LIBRARY | |\n\n| Edition | 1st ed. |\n| --- | --- |\n| Description | xx, 411 p. ; 21 cm. |\n| Bibliography | Includes bibliographical references and index. |\n| Subject | Science -- Miscellanea. |\n| | Explanation. |\n| Added Author | Brockman, John, 1941- editor. |\n| Added Title | Deep, beautiful, and elegant theories of how the world works |\n| ISBN | 9780062230171 (pbk.) |\n| | 0062230174 (pbk.) |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.slcpl.org/search/title.aspx?cn=351117&pos=1",
+              "title": "Catalog - The City Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Catalog - The City Library\n\n \n\n2013\n\n| Format: | Book |\n| --- | --- |\n| Title: | This explains everything : deep, beautiful, and elegant theories of how the world works / edited by John Brockman. |\n| Edition: | 1st ed. |\n| Publisher, Date: | New York : Harper Perennial, 2013. |\n| Description: | xx, 411 pages ; 21 cm |\n| Summary: | \"Drawn from the cutting-edge frontiers of science, This Explains Everything presents 150 of the most deep, surprising, and brilliant explanations of how the world works, with contributions by Jared Diamond, Richard Dawkins, Nassim Taleb, Brian Eno, Steven Pinker, and more\"-- Provided by publisher. |\n| Subjects: | Science -- Miscellanea. Explanation. |\n| Genre: | Trivia and miscellanea. |\n| Other Author: | Brockman, John, 1941- |\n| Notes: | Includes bibliographical references and index. |\n| Contents: | Evolution by means of natural selection / Susan Blackmore -- Life is a digital code / Matt Ridley -- Redundancy reduction and pattern recognition / Richard Dawkins -- The power of absurdity / Scott Atran -- How apparent finality can emerge / Carlo Rovelli -- The overdue demise of monogamy / Aubrey de Grey -- Boltzmann's explanation of the second law of thermodynamics / Leonard Susskind -- The dark matter of the mind / Joel Gold -- \"There are more things in heaven and earth ... than are dreamt of in your philosophy.\" / Alan Alda -- An unresolved (and therefore unbeautiful) reaction to the edge question / Rebecca Newberger Goldstein -- Ptolemy's universe / James J. O'Donnell -- Quasi-elegance / Paul Steinhardt -- Mathematical object or natural object? / Shing-Tung Yau -- Simplicity / Frank Wilczek -- Simplicity itself / Thomas Metzinger -- Einstein explains why gravity is universal / Sean Carroll -- Evolutionary genetics and the conflicts of human social life / Steven Pinker -- The Faurie-Raymond hypothesis / Jonathan Gottschall -- Group polarization / David G. Myers -- The price equation / Armand Marie Leroi -- Unconscious inferences / Gerd Gigerenzer -- Snowflakes and the multiverse / Martin J. Rees -- Einstein's photons / Anton Zeilinger -- Go small / Jeremy Bernstein -- Why is our world comprehensible? / Andrei Linde -- Alfvén's cosmos / George Dyson -- Our universe grew like a baby / Max Tegmark -- Kepler et al. and the nonexistent problem / Gino Segrè -- How incompatible worldviews can coexist / Freeman Dyson -- Impossible inexactness / Satyajit Das -- The next level of fundamental matter? / Haim Harari -- Observers observing / Robert Provine -- Genes, claustrum, and consciousness / V.S. Ramachandran -- Overlapping solutions / David M. ... Thaler -- Tit for tat / Jennifer Jacquet -- True or false : beauty is truth / Judith Rich Harris -- Eratosthenes and the modular mind / Dan Sperber -- Dan Sperber's explanation of culture / Clay Shirky -- Metarepresentations explain human uniqueness / Hugo Mercier -- Why the human mind may seem to have an elegant explanation even if it doesn't / Nicholas Humphrey -- Fitness landscapes / Stewart Brand -- On oceans and airport security / Kevin P. Hand -- Plate tectonics elegantly validates continental drift / Paul Saffo -- Why some sea turtles migrate / Daniel C. Dennett -- A hot young earth : unquestionably beautiful and stunningly wrong / Carl Zimmer -- Sexual-conflict theory / David M. Buss -- The seeds of historical dominance / David Pizarro -- The importance of individuals / Howard Gardner -- Subjective environment / Andrian Kreye -- My favorite annoying elegant explanation : quantum theory / Raphael Bousso -- Einstein's revenge : the new geometric quantum / Eric R. ... / John McWhorter -- Germs cause disease / Gregory Cochran -- Dirt is matter out of place / Christine Finn -- Information is the resolution of uncertainty / Andrew Lih -- Everything is the way it is because it got that way / PZ Myers -- The idea of emergence / David Christian -- Frames of reference / Dimitar D. Sasselov -- Epigenetics-- the missing link / Helen Fisher -- Flocking behavior in birds / John Naughton -- Lemons are fast / Barry C. Smith -- Falling into place : entropy and the desperate ingenuity of life / John Tooby -- Why things happen / Peter Atkins -- Why we feel pressed for time / Elizabeth Dunn -- Why the sun still shines / Bart Kosko -- Boscovich's explanation of atomic forces / Charles Simonyi -- Birds are the direct descendants of dinosaurs / Gregory S. Paul -- Complexity out of simplicity / Bruce Hood -- Russell's theory of descriptions / A.C. Grayling -- Feynman's lifeguard / Timo Hannay -- The limits of intuition / Brian Eno -- The Higgs mechanism / Lisa Randall -- The mind thinks in embodied metaphors / Simone Schnall -- Metaphors are in the mind / Benjamin K. Bergen -- The pigeonhole principle / Jon Kleinberg -- Why programs have bugs / Marti Hearst -- Cagepatterns / Hans-Ulrich Obrist -- The true rotational symmetry of space / Seth LLoyd -- The pigeonhole principle revisited / Charles Seife -- Moore's Law / Rodney A. Brooks -- Cosmic complexity / John C. ... Abbas Raza -- The Collingridge dilemma / Evgeny Morozov -- Trusting trust / Ernst Pöppel -- It just is? / Bruce Parker -- Subverting biology / Patrick Bateson -- Sex at your fingertips / Simon Baron-Cohen -- Why do movies move? / Alvy Ray Smith -- Would you like blue cheese with it? / Albert-László Barabási -- Mother nature's laws / Stuart Pimm -- The Oklo pyramid / Karl Sabbagh -- Kitty Genovese and group apathy / Adam Alter -- The wizard of I / Gerald Smallberg -- One coincidence; two déjà vus / Douglas Coupland -- Occam's razor / Katinka Matson -- Deep time / Alun Anderson -- Placing psychotherapy on a scientific basis : five easy lessons / Eric R. Kandel -- Transitional objects / Sherry Turkel -- Natural selection is simple but the systems it shapes are unimaginably complex / Randolph Nesse -- How to have a good idea / Marcel Kinsbourne -- Out of the mouths of babes / Nicholas A. Christakis -- The beauty in a sunrise / Philip Campbell -- The origin of money / Dylan Evans -- The precession of the simulacra / Douglas Rushkoff -- Time perspective theory / Philip Zimbardo -- Developmental timing explains the woes of adolescence / Alison Gopnik -- Implications of Ivan Pavlov's great discovery / Stephen M. Kosslyn and Robin Rosenberg -- Nature is cleverer than we are / Terrence J. Sejnowski -- Imposing randomness / Michael I. Norton -- The unification of electricity and magnetism / Lawrence M. Krauss -- Furry rubber bands / Neil Gershenfeld -- The principle of inertia / Lee Smolin -- Seeing is believing : from placebos to movies in our brain / Eric J. Topol -- The discontinuity of science and culture / Gerald Holton -- Hormesis is redundancy / Nassim Nicholas Taleb -- The beautiful law of unintended consequences / Robert Kurzban -- We are what we do / Timothy D. Wilson -- Personality differences : the importance of chance / Samuel Barondes -- Metabolic syndrome : cell energy adaptations in a toxic world? / Beatrice Golomb -- Death is the final repayment / Emanuel Derman -- Denumerable infinities and mental states / David Gelernter -- Inverse power laws / Rudy Rucker -- How the leopard got his spots / Samuel Arbesman -- The universal algorithm for human decision making / Stanislas Dehaene -- Lord Acton's dilemma / Mihaly Csikszentmihalyi -- Fact, fiction, and our probabilitic world / Victoria Stodden -- Elegance = complex / George Church -- Tinbergen's questions / Irene Pepperberg -- The universal turing machine / Gloria Origgi -- A matter of poetics / Richard Foreman -- The origins of biological electricity / Jared Diamond -- Why the Greeks painted red people on black pots / Timothy Taylor -- Language as an adaptive system / Andy Clark -- The mechanism of mediocrity / Nicholas J. Carr -- The principle of empiricism, or see for yourself / Michael Shermer -- We are stardust / Kevin Kelly. |\n| LCCN: | 2012032107 |\n| ISBN: | 9780062230171 0062230174 |\n| Other Number: | 795758008 |\n| System Availability: | 2 |\n| Current Holds: | 0 |\n| # Local items: | 2 |\n| Control Number: | 351117 |\n| # Local items in: | 2 |\n| # System items in: | 2 |\n| Call Number: | 500 This exp |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://link.calcasieulibrary.org/resource/I2lWToyop0k",
+              "title": "Bibliograph",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "This explains everything, deep, beautiful, and elegant theories of how the world works, edited by John Brockman\n\nType\n\n- http://bibfra.me/vocab/lite/Work\n- http://bibfra.me/vocab/marc/Books\n- http://bibfra.me/vocab/marc/LanguageMaterial\n\n- Brockman, John, 1941-\n\nSubject\n\nContent\n\nThis explains everything, deep, beautiful, and elegant theories of how the world works, edited by John Brockman\n\nLanguage eng\n\nBibliography note Includes bibliographical references and index\n\nIllustrations illustrations\n\nIndex index present\n\nLiterary form non fiction\n\nNature of contents bibliography\n\nResponsibility statement edited by John Brockman"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://link.livebrary.com/resource/nARoghqgjF8",
+              "title": "Bibliograph",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "This explains everything, deep, beautiful, and elegant theories of how the world works, edited by John Brockman\n\n...\n\nContent\n\nThis explains everything, deep, beautiful, and elegant theories of how the world works, edited by John Brockman\n\nLanguage eng\n\nBibliography note Includes bibliographical references and index\n\nIllustrations illustrations\n\nIndex index present\n\nLiterary form non fiction\n\nNature of contents bibliography"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://welib.org/md5/d43a3aeff8c1aaecbba0a7e195f8324b",
+              "title": "This Explains Everything : 150 Deep, Beautiful, and Elegant Theories of How the World Works ( PDF, 1.8 MB ) - WeLib",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Resolution Of Uncertainty / Andrew Lih -- Everything Is The Way It Is Because It Got That Way / Pz ... -- The Idea Of Emergence / David Christian -- Frames Of Reference / Dimitar D ... -- Flocking Behavior In Birds / John Naughton -- Lemons Are Fast /"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3192,
+    "completion_tokens": 577,
+    "total_tokens": 3769,
+    "cost": 0.0075445,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00055,
+      "upstream_inference_prompt_cost": 0.0003192,
+      "upstream_inference_completions_cost": 0.0002308
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

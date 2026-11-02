@@ -1,0 +1,87 @@
+{
+  "id": "gen-1793575646-rYBVBXIhdNGvill6IUQI",
+  "object": "chat.completion",
+  "created": 1793575646,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Radical-Markets-Uprooting-Capitalism-Democracy/dp/0691177503",
+              "title": "Radical Markets: Uprooting Capitalism and Democracy for a Just Society: Posner, Eric A., Weyl, Eric Glen: 9780691177502: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "QR code to download the Kindle App\n* Radical Markets: Uprooting Capitalism and Democracy for a Just Society\n* To view this video download Flash Player\n* IMAGES\n* \nRead sample\nLoading Play\nPause Audible sample\n0:00\n\nFollow the author\n\nEric A. Posner\nEric A. Posner Eric A. Posner\nFollow\nSomething went wrong. Please try your request again later.\nOK\n\nRadical Markets: Uprooting Capitalism and Democracy for a Just Society Hardcover – May 15, 2018\n\nby Eric A. Posner (Author), Eric Glen Weyl (Author)\n4.2 4.2 out of 5 stars 270 ratings\n\n...\n\nEric Posner and Glen Weyl demonstrate why private property is inherently monopolistic, and how we would all be better off if private ownership were converted into a public auction for public benefit. They show how the principle of one person, one vote inhibits democracy, suggesting instead an ingenious way for voters to effectively influence the issues that matter most to them.\n\n...\n\nOnly 1 left in stock - order soon.\nNext set of slides\n\nEditorial Reviews\n\nReview\n\n\"One of The Economist's Best Business and Economics Books of 2018\"\n\"E.\n\n...\n\nEric Posner and Glen Weyl argue that market-based ideas of a radically new sort (though based on neglected insights from the past) have the power to create greater equality and reciprocity.\n\n...\n\n(Self-Learning Management Series)\n4.3 4.3 out of 5 stars 19\n$26.99 $ 26 . 99\nNext page\n\nCustomer reviews\n\n4.2 out of 5 stars\n4.2 out of 5\n270 global ratings"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Radical-Markets-Uprooting-Capitalism-Democracy/dp/0691196060",
+              "title": "Radical Markets: Uprooting Capitalism and Democracy for ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nRadical Markets: Uprooting Capitalism and Democracy for ...\nWith a new foreword by Ethereum creator Vitalik Buterin and virtual reality pioneer Jaron Lanier as well as a new afterword by Eric Posner and Glen Weyl, this\n\n## \n\nRadical Markets: Uprooting Capitalism and Democracy for a Just ...\nIt shows how the emancipatory force of genuinely open, free, and competitive markets can reawaken the dormant nineteenth-century spirit of liberal reform and\n\n## \n\nRadical Markets: Uprooting Capitalism and Democracy for ...\nRevolutionary ideas on how to use markets to achieve fairness and prosperity for all. Many blame today's economic inequality, stagnation, and political"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Radical-Markets-Uprooting-Capitalism-Democracy-ebook/dp/B07TP5HLWQ",
+              "title": "Amazon.com: Radical Markets: Uprooting Capitalism and ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nAmazon.com: Radical Markets: Uprooting Capitalism and ...\nThe solution is to rein in the market, right? Radical Markets turns this thinking on its head. With a new foreword by Ethereum creator Vitalik Buterin and virtual reality pioneer Jaron Lanier as well as a new afterword by Eric Posner and Glen Weyl, this provocative book reveals bold new ways to organize markets for the good of everyone."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 1,
+    "total_tokens": 1188,
+    "cost": 0.00102118204,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000021396,
+      "upstream_inference_prompt_cost": 0.000021366,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Radical Markets\" Eric A. Posner/E. Glenn Weyl \"global ratings\"",
+  "bookId": "rem-u0292",
+  "retrieved": "2026-11-01T23:27:27.915Z"
+}

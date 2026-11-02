@@ -1,0 +1,152 @@
+{
+  "id": "gen-1793577502-Hn3l71VsmnjvmyAxbgmF",
+  "object": "chat.completion",
+  "created": 1793577502,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "Based",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://semiwiki.com/books/Fabless%202019%20Version%20PDF.pdf",
+              "title": "[PDF] Fabless: The Transformation of the Semiconductor Industry - SemiWiki",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "FABLESS:\n\nThe Transformation of The Semiconductor Industry\n\nDANIEL NENNI PAUL MCLELLAN\n\nWITH FOREWORD BY CLIFF HOU VP OF R&D, TSMC\n\nA SEMIWIKI.COM PROJECT\nFabless: The Transformation of the Semiconductor Industry\nCopyright 2019 by SemiWiki.com LLC. All rights reserved. Printed in the United States of America.\n\n...\n\nwithout the prior written consent of the publisher.\nAuthors: Daniel Nenni and Paul McLellan Editors: Beth Martin and Amanda Ketchum ISBN-13: 978-1497525047\nISBN-10: 1497525047\nBISAC: Business & Economics / General\n3\n4\n\nTable of Contents\n\nIntroduction ...................................................................................................................... 7\n\n...\n\n.............. 299\n6\n7\n\nIntroduction\n\nPaul McLellan, Daniel Payne, and I have more than 100 years of combined experience in the semiconductor industry.\n\n...\n\nThis particular book started it all when Paul McLellan, Beth Martin, and I decided to document the history of the fabless semiconductor industry as published on SemiWiki.com.\n\n...\n\nWalden Rhines. Thank you again for reading and I hope to see you on www.SemiWiki.com.\n\nDaniel Nenni\n\nCEO, Founder, SemiWiki.com LLC June 2019\n\n9\n\nForeword\n\nDr.\n\n...\n\nsemiconductor industry. The company is no longer in business, but one of their early and long-time employees, and co-author of this book Paul McLellan, has written this history of VLSI Technology."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://docslib.org/doc/3691187/fabless-the-transformation-of-the-semiconductor-industry",
+              "title": "Fabless: the Transformation of the Semiconductor Industry - DocsLib",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "DOCSLIB.ORG\n* Sign Up\n* Log In\n* Upload\nSearch\n* Sign Up\n* Log In\n* Upload\n\nFabless: the Transformation of the Semiconductor Industry\n\nTotal Page： 16\nFile Type： pdf , Size： 1020Kb\nDownload full-text PDF Read full-text\n* Html View\n* Text View\nLoad more\n 217 \nCopy Link\nDANIEL NENNI PAUL MCLELLAN FABLESS: THE TRANSFORMATION OF THE SEMICONDUCTOR INDUSTRY Foreword by Dr. Cliff Hou, VP of R&D, TSMC A SEMIWIKI.COM PROJECT FABLESS: The Transformation of The Semiconductor Industry DANIEL NENNI PAUL MCLELLAN WITH FOREWORD BY CLIFF HOU, VP OF R&D, TSMC A SEMIWIKI.COM PROJECT Fabless: The Transformation of the Semiconductor Industry Copyright 2013 by SemiWiki.com LLC. All rights reserved. Printed in the United States of America.\n\n...\n\nsystem without the prior written consent of the publisher. Authors: Daniel Nenni and Paul McLellan Editors: Beth Martin and Shushana Nenni ISBN: 978-1-4675-9307-6 BISAC: Business & Economics / General Fabless: The Transformation of the Semiconductor Industry Table of Contents\n\n...\n\nn, let’s define some terms. Rather than electronics, which refers to whole devices like your cell phone or TV, we’ll be using the terms chip, IC, ASIC, SoC, and FPGA throughout the book as we focus on the components that go into the devices. Chip or IC can refer more broadly to the two main types of semiconductor devices we cover: ASICs and SoCs (systems-on-chip), and FPGAs (field-programmable\n\n...\n\nASIC: Application specific integrated circuit refers to two th"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.slideshare.net/slideshow/fabless-the-transformation-of-the-semiconductor-industry-daniel-nenni-4538/280904839",
+              "title": "Fabless The Transformation Of The Semiconductor Industry Daniel Nenni | PDF",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "https://ebookbell.com/product/fables-of-the-law-fairy-tales-in-a-\nlegal-context-digital-original-daniela-carpi-38462506\n\nFABLESS:\nTHE TRANSFORMATION OF THE\nSEMICONDUCTOR INDUSTRY\nA SEMIWIKI.COM PROJECT\nDANIEL NENNI\nPAUL MCLELLAN\nForeword by Dr. Cliff Hou, VP of R&D, TSMC\n\nFABLESS:\nThe Transformation of The\nSemiconductor Industry\nDANIEL NENNI\nPAUL MCLELLAN\nWITH FOREWORD BY CLIFF HOU,\nVP OF R&D, TSMC\nA SEMIWIKI.COM PROJECT\n\nFabless: The Transformation of the Semiconductor Industry\n\nAmerica. Except as permitted under the United States Copyright Act of 1976, no part of this\n\n...\n\nAuthors: Daniel Nenni and Paul McLellan\nEditors: Beth Martin and Shushana Nenni\nISBN: 978-1-4675-9307-6\nBISAC: Business & Economics / General\n\n...\n\nChip or IC can refer more\nbroadly to the two main types of semiconductor devices we cover: ASICs\nand SoCs (systems-on-chip), and FPGAs (field-programmable gate\n\n...\n\nthat created the ASIC business model, VLSI Technology, and one of the\nnew breed of design services companies, eSilicon.\n\n29\nFabless: The Transformation of the Semiconductor Industry\nIn Their Own Words: VLSI\nTechnology\nAs one of the companies that founded the ASIC business\nmodel, VLSI Technology helped set the course of the\nentire semiconductor industry. The company is no longer in\nbusiness, but one of their early and long-time employees, and\nco-author of this book Paul McLellan, has written this history\nof VLSI Technology.\nVLSI Technology was founded in 1979 by Dan Floyd, Jack"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://community.cadence.com/cadence_blogs_8/b/breakfast-bytes/posts/fabless-book",
+              "title": "Fabless: The Transformation of the Semiconductor Industry and How I Wrote the Book - Breakfast Bytes - Cadence Blogs - Cadence Community",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "providers per our Cookie Policy and Privacy Policy .\n1. Blogs\n2. Breakfast Bytes\n3. Fabless: The Transformation of the Semiconductor Industry…\nPaul McLellan\nPaul McLellan\nCommunity Member\nBlog Activity\nOptions\n* Subscribe by email\n* More\n* Cancel\nhyperscalar\nfabless\nbooks\n\nFabless: The Transformation of the Semiconductor Industry and How I Wrote the Book\n\n7 Jun 2022 • 2 minute read\n\n...\n\nIf you are attending, I will be there giving away copies of Cadence's latest book, which I wrote along with Frank Schirrmeister, with editing by Tanushri Shah.\n\n...\n\nBut I also want to plug another book that Daniel Nenni and I wrote several years ago, with a foreword by TSMC's Cliff Hou. Since it is mostly a history of how semiconductors went from the era where every semiconductor company had its own fabs to an era where very few of them did, it is not something that goes out of date. If anything, the message of the book has only got stronger now that there are just three foundries that can build chips that require EUV lithography (plus some dedicated memory fabs). Dan and I revised the book in 2019 to produce a second edition, with a completely new last chapter of predictions (largely written by Wally Rhines).\nThat book is Fabless: The Transformation of the Semiconductor Industry . If you absolutely have to have a hard copy, then it is available on Amazon for $15. But the SemiWiki book page has a free download."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://pdfroom.com/books/fabless-the-transformation-of-the-semiconductor-industry/JZOgZ4yj5kb",
+              "title": "Fabless: The Transformation of The Semiconductor... (PDF)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Fabless: The Transformation of The Semiconductor Industry\n\nFabless: The Transformation of The Semiconductor Industry (PDF)\n\nDaniel Nenni, Paul McLellan\n\n2014 • 217 Pages • 6.35 MB • English \nPosted April 14, 2020 • Submitted by melody.botsford\n   \n\nExplore PDF\n\nDownload PDF Download PDF Save for offline reading\n\nRead PDF online\n\n0 Comments\n\nLeave a Comment\n\n...\n\nDANIEL NENNI PAUL MCLELLAN FABLESS: THE TRANSFORMATION OF THE SEMICONDUCTOR INDUSTRY Foreword by Dr. Cliff Hou, VP of R&D, TSMC A SEMIWIKI.COM PROJECT\nPage 2\nFABLESS: The Transformation of The Semiconductor Industry DANIEL NENNI PAUL MCLELL AN WITH FOREWORD BY CLIFF HOU, VP OF R&D, T SMC A SEMIWIKI .C OM PROJECT\nPage 3\nFabless: Te Transformation of the Semiconductor Industry Copyright 2013 by SemiWiki.com LLC. All rights reserved. Printed in the United States of America.\n\n...\n\nsystem without the prior written consent of the publisher. Authors: Daniel Nenni and Paul McLellan Editors: Beth Martin and Shushana Nenni ISBN: 978-1-4675-9307-6 BISAC: Business & Economics /\n\n...\n\nindustry. Before we dive in, let’s defne some terms. Rather than electronics, which refers to whole devices like your cell\n\n...\n\nChip or IC can refer more broadly to the two main types of semiconductor devices we cover: ASICs and SoCs (systems-on-chip), and FPGAs (feld-programmable gate arrays).\n\n...\n\nThe term “fab” refers to any semiconductor fabrication plant, whether run as part of an IDM (like Intel) or as a foundry (like TSMC)."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.npbookstore.com/book/9781497525047",
+              "title": "Fabless: The Transformation of the Semiconductor Industry | Next Page Bookstore",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Search type Books Audiobooks\nSearch\nSearch\nFabless: The Transformation of the Semiconductor Industry\n\nFabless: The Transformation of the Semiconductor Industry\n\nPaul McLellan , Daniel Nenni\nCurrent price: $21.00\nThis product is not returnable.\nPublish Date: April 1, 2014\nPublisher:\nCreatespace Independent Publishing Platform\nISBN:\n9781497525047\nPages:\n222\nLanguage:\nEnglish\nQTY\n\n...\n\nPaul McLellan has a 25 year background in semiconductor and EDA with both deep technical knowledge and extensive business experience. He works as a consultant in EDA, embedded systems and semiconductor. Paul was educated in Britain and spent the early part of his career as a software engineer at VLSI Technology both in California and France, eventually becoming CEO of Compass Design Automation. Since then he was VP engineering at Ambit, corporate VP at Cadence, VPs of marketing at VaST Systems Technology and Virtutech, and interim CEO at Envis Corporation. He blogs at dac.com and at semiwiki.com and has published a book EDAgrafitti on the EDA and semiconductor industries. Daniel Nenni has worked in Silicon Valley since 1984 with computer manufacturers, electronic design automation software, and semiconductor intellectual property companies. Currently Daniel is a Strategic Foundry Relationship expert for companies wishing to partner with TSMC, UMC, SMIC, Global Foundries, and their top customers. Daniel is the founder of the Semiconductor Wiki Project (www.sem"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://littleredgeneralstore.com/products/fabless-the-transformation-of-the-semiconductor-industry-paperback",
+              "title": "\n      Fabless: The Transformation of the Semiconductor Industry - Paperback\n – Little Red General Store",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## Fabless: The Transformation of the Semiconductor Industry - Paperback\nRegular price $27.00\nRegular price Sale price $27.00\nSale Sold out\nShipping calculated at checkout.\nIn stock\n\n...\n\nby Paul McLellan (Author), Daniel Nenni (Author)\nThe purpose of this book is to illustrate the magnificence of the fabless semiconductor ecosystem, and to give credit where credit is due. We trace the history of the semiconductor industry from both a technical and business perspective. We argue that the development of the fabless business model was a key enabler of the growth in semiconductors since the mid-1980s. Because business models, as much as the technology, are what keep us thrilled with new gadgets year after year, we focus on the evolution of the electronics\n\n...\n\nlopments (both in technology and business models) that made them successful, and how they in turn drive the further evolution of the semiconductor industry.\n\nAuthor Biography\n\nDr. Paul McLellan has a 25 year background in semiconductor and EDA with both deep technical knowledge and extensive business experience.\n\n...\n\nDaniel Nenni has worked in Silicon Valley since 1984 with computer manufacturers, electronic design automation software, and semiconductor intellectual property companies.\n\n...\n\nDaniel is the founder of the Semiconductor Wiki Project (www.semiwiki.com).\nNumber of Pages: 222\nDimensions: 0.47 x 9.02 x 5.98 IN\nPublication Date: April 01, 2014\nShare Share\nLink"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://de.wikipedia.org/wiki/Fabless",
+              "title": "fabless – Wikipedia",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "]\n\nBeschreibung\n\n[ Bearbeiten | Quelltext bearbeiten ]\nDas Modell „Fabless“ steht in engem Zusammenhang mit sogenannten Fertigungsdienstleistern oder Auftragsfertigern.\n\n...\n\nDas Fabless-Geschäftsmodell existiert in einer anderen Form auch in anderen Industriebranchen, beispielsweise in der Rüstungsindustrie bzw. Wehrtechnik .\n\n...\n\nDas Fabless-Geschäftsmodell, das von Gordon Campbell , dem Gründer von Chips & Technologies , und Bernie Vonderschmitt\n\n...\n\nVor allem in einer Zeit, in der die Errichtung einer Halbleiterfabrik mehrere Milliarden Euro kostet, sind fabless companies weltweit verteilt.\n\n...\n\nEinige Fabless-Unternehmen gehören der Global Semiconductor Alliance (GSA) an, die aus der Fabless Semiconductor Association (FSA) hervorgegangen ist. [ 2 ] Zur GSA gehören mittlerweile nicht nur Fabless-Unternehmen, sondern auch solche aus allen Bereichen der Halbleiterindustrie, bis hin zu reinen Auftragsfertigern.\n\nWirtschaft\n\n[ Bearbeiten | Quelltext bearbeiten ]\n→ Hauptartikel : Halbleiterhersteller\n\nLiteratur\n\n[ Bearbeiten | Quelltext bearbeiten ]\n* Daniel Nenni, Paul McLellan : Fabless: The Transformation of the Semiconductor Industry . CreateSpace Independent Publishing, 2014, ISBN 978-1-4975-2504-7 (englisch).\n* Paul McLellan: Chips and Technologies: The First Fabless Company - Breakfast Bytes - Cadence Blogs - Cadence Community. Abgerufen am 25. Dezember 2022 (englisch).\n\nEinzelnachweise\n\n[ Bearbeiten | Quelltext bearbeiten ]\n1."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://nextbooklist.com/book/fabless",
+              "title": "Fabless by Daniel Nenni and Paul McLellan. Book Review & Summary",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Next Book List\nBest Books Lindy Lists Fiction Reading Paths Categories Search\nFabless by Daniel Nenni and Paul McLellan book cover\n\nFabless\n\nby Daniel Nenni and Paul McLellan · 2013\nThe industry-insider account of how splitting chip design from chip manufacturing remade semiconductors -- and made Moore's Law survivable.\nWorth reading? Fabless explains a decision that reshaped the entire chip industry: separating the company that designs a chip from the company that manufactures it. Compared to Chip War's sweeping geopolitical narrative, this is a narrower, more technical business history, written by two longtime industry insiders (one of them ran SemiWiki) rather than journalists. It reads more like an industry trade report than a mass-market narrative, and several chapters are contributed by executives from companies telling their own corporate history, so expect\n\n...\n\nominant model and how TSMC's foundry business grew out of that split. Skip it if you want a current picture of the industry -- treat this as history, not a 2026 snapshot.\n* Full Title | Fabless: The Transformation of the Semiconductor Industry\n* Author | Daniel Nenni and Paul McLellan\n* Published | 2013\n* Category | Business & Money\nISBN: 9781497525047 ISBN10: 1497525047 ASIN: 1497525047\n\nThe Verdict\n\nNenni and McLellan aren’t journalists explaining the chip industry from outside, they built careers inside it, and it shows: this"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.allbookstores.com/Fabless-The-Transformation-Semiconductor-Industry/9781497525047",
+              "title": "Fabless: The Transformation of the Semiconductor Industry by Nenni, Daniel, McLellan, Paul (9781497525047)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Engineering\n4. Electrical & Electronics\n5. Electronics\n\nFabless: The Transformation of the Semiconductor Industry\n\nFabless: The Transformation of the Semiconductor Industry\nAuthor: Daniel Nenni , Paul Mclellan (Contributor), Nenni, Daniel\nFormat: Paperback\nPublish Date: Apr 01, 2014\nISBN-10: 1497525047\nISBN-13: 9781497525047\nAdd to Wish List Link to this Book Add to Bookbag Sell this Book Buy it at Amazon Compare Prices\n* Details\n* Description\n* Reviews\nAuthor: Daniel Nenni Contributor: Paul Mclellan Author: Nenni, Daniel\nLanguage: English\nPages: 220\nPublisher: CreateSpace Independent Publishing Platform\nWeight: 0.67 pounds\nLength: 9 inches\n\n...\n\nsemiconductor industry.\nNice reference book\nBy Tamjid Chowdhury on Feb 03, 2015\nNice reference book for understanding the semiconductor business process and history.\nNice historical perspective.\n\n...\n\nThe parts of the book written by the author are reasonably good but some of the guest pieces feel terribly out of place. I ended up putting the book down around the chapter on GlobalFoundries.\nAdd a Book Review\n\nBook Summary:\n\nThe title of this book is Fabless and it was written by Daniel Nenni , Paul Mclellan (Contributor), Nenni, Daniel . This particular edition is in a Paperback format. This books publish date is Apr 01, 2014. It was published by CreateSpace Independent Publishing Platform and has a total of 220 pages in the book."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4454,
+    "completion_tokens": 1,
+    "total_tokens": 4455,
+    "cost": 0.00107939998,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000080202,
+      "upstream_inference_prompt_cost": 0.000080172,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "progress-0695",
+  "method": "precise",
+  "query": "\"Fabless\" Daniel Nenni; Paul McLellan \"bibliographical references\"",
+  "retrieved": "2026-11-01T23:58:24.484Z"
+}

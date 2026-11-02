@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572480-0WrXGr3Lo0D00C5ddezl",
+  "object": "chat.completion",
+  "created": 1793572480,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"g0749\",\n  \"title\": \"Putin's Kleptocracy: Who Owns Russia?\",\n  \"author\": \"Karen Dawisha\",\n  \"amazon\": {\n    \"count\": 366,\n    \"url\": \"https://www.amazon.com/Putins-Kleptocracy-Who-Owns-Russia/dp/1476795207\",\n    \"asin\": \"1476795207\",\n    \"evidence\": \"https://www.amazon.com/-/he/Karen-Dawisha-ebook/dp/B00L01GHGY\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/he/Karen-Dawisha-ebook/dp/B00L01GHGY",
+              "title": "Putin's Kleptocracy: Who Owns Russia? (A Modern History of Russia) - Kindle edition by Dawisha, Karen. Politics & Social Sciences Kindle eBooks @ Amazon.com.",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Putin's Kleptocracy: Who Owns Russia? (A Modern History of Russia)\n\nby Karen Dawisha (Author) Format: Kindle Edition\n* 4.4 4.4 out of 5 stars (366)\nSorry, there was a problem loading this page. Try again.\nSee all formats and editions\nThe raging question in the world today is who is the real Vladimir Putin and what are his intentions. Karen Dawisha’s brilliant Putin’s Kleptocracy provides an answer, describing how Putin got to power, the cabal he brought with him, the billions they have looted, and his plan to restore the Greater Russia.\nRussian scholar Dawisha describes and exposes the origins of Putin’s kleptocratic regime. S\n\n...\n\nbetween Putin, Petromed, and “Putin’s Palace” near Sochi; and the role of security officials from Putin’s KGB days in Leningrad and Dresden, many of whom have maintained their contacts with Russian organized crime.\nPutin’s Kleptocracy is the result of years of research into the KGB and the various Russian crime syndicates.\n\n...\n\nIt is also a guide to the crony capitalism that grew out of the nexus of Mr. Putin’s plutocratic interests, his shady past\n\n...\n\n(A Modern History of Russia) Putin's Kleptocracy: Who Owns Russia? (A Modern History of Russia)\n\nCustomer reviews\n\n4.4 out of 5 stars\n4.4 out of 5\n366 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 66% 20% 9% 3% 2% 66%\n* 5 star 4 star 3 star 2 star 1 star 4 star 66% 20% 9% 3% 2% 20%\n* 5 star 4 star 3 star 2 star 1 star 3 star 66% 20% 9% 3% 2% 9%"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Putins-Kleptocracy-Who-Owns-Russia/dp/1476795207",
+              "title": "Putin's Kleptocracy: Who Owns Russia? (A Modern History ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nPutin's Kleptocracy: Who Owns Russia? (A Modern History ...\nRussian scholar Dawisha describes and exposes the origins of Putin's kleptocratic regime. She presents extensive new evidence about the Putin circle's use of"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Putins-Kleptocracy-Russia-Dawisha-Hardcover/dp/B00YDJE8Y8",
+              "title": "Putin's Kleptocracy: Who Owns Russia? by Dawisha ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "by Dawisha, Karen (2014) Hardcover. 3.9 on Goodreads. (1,001)."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Biographies-Vladimir-Putin-Books/s?rh=n%3A2%2Cp_lbr_biography_subjects_browse-bin%3AVladimir%2BPutin",
+              "title": "Vladimir Putin - Biographies: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Putin's Kleptocracy: Who Owns Russia? (A Modern History of Russia) by Karen Dawisha Paperback 90 days. The World's Most Dangerous Man?"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Organized-Crime-True-Accounts-Donald-Trump/s?rh=n%3A271636011%2Cp_lbr_biography_subjects_browse-bin%3ADonald%2BTrump",
+              "title": "Donald Trump - Organized Crime True Accounts / True Crime",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Putin's Kleptocracy: Who Owns Russia? (A Modern History of Russia) · by Karen Dawisha · Paperback."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1209,
+    "completion_tokens": 155,
+    "total_tokens": 1364,
+    "cost": 0.00502614788,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000026412,
+      "upstream_inference_prompt_cost": 0.000021762,
+      "upstream_inference_completions_cost": 0.00000465
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "g0749",
+  "retrieved": "2026-11-01T22:34:50.110Z"
+}

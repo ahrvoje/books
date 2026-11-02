@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572584-GPUQGQoPglNME8OOTDzc",
+  "object": "chat.completion",
+  "created": 1793572584,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"complete-794-176\",\n  \"title\": \"The Formation of Islam: Religion and Society in the Near East, 600-1800\",\n  \"author\": \"Jonathan P. Berkey\",\n  \"amazon\": {\n    \"count\": 320,\n    \"url\": \"https://www.amazon.com/Formation-Islam-Religion-Society-600-1800/dp/0521588138\",\n    \"asin\": \"0521588138\",\n    \"evidence\": \"Amazon product page [amazon.com](https://www.amazon.com/dp/0521588138)\"\n  },\n  \"reference\": {\n    \"count\": 320,\n    \"url\": \"https://www.amazon.com/stores/author/B001IO9PJO\",\n    \"evidence\": \"Author's Amazon page [amazon.com](https://www.amazon.com/stores/author/B001IO9PJO)\"\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Formation-Islam-Religion-Society-600-1800/dp/0521588138",
+              "title": "The Formation of Islam: Religion and Society in the Near ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Formation of Islam: Religion and Society in the Near ...\nJonathan Berkey surveys the religious history of the peoples of the Near East from approximately 600 to 1800 c.e. He then traces the emergence of new forms of\n\n## \n\nThe Formation of Islam: Religion and Society in the Near ...\nThis book explores the religious history of the Near East from 600 to 1800 CE, focusing on Islam's emergence and evolution alongside other religious traditions."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Formation-Islam-Religion-Society-600-1800-ebook/dp/B000VDM4Q4",
+              "title": "The Formation of Islam: Religion and Society in the Near East ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Jonathan P. Berkey. The Formation of Islam: Religion and Society in the Near East, 600–1800 (Themes in Islamic History Book 2). 3.7 on Goodreads. (201)."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/zh_TW/Jonathan-P-Berkey/dp/0521582148",
+              "title": "The Formation of Islam: Religion and Society in the ... - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "This book explores the religious history of the Near East from 600 to 1800 CE, focusing on Islam's emergence and evolution alongside other religious traditions."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B001IO9PJO",
+              "title": "Jonathan Porter Berkey: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nJonathan Porter Berkey: books, biography, latest update\nFollow Jonathan Porter Berkey and explore their bibliography from Amazon&#39;s. Most popular The Formation of Islam: Religion and Society in the Near East, 600"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Closing-Muslim-Mind-Intellectual-Islamist-ebook/dp/B0C477PWG3",
+              "title": "How Intellectual Suicide Created the Modern Islamist Crisis",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Formation of Islam: Religion and Society in the Near East, 600–1800 (Themes in Islamic History Book 2). Jonathan P. Berkey. Kindle Edition."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 879,
+    "completion_tokens": 243,
+    "total_tokens": 1122,
+    "cost": 0.00502288088,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000023112,
+      "upstream_inference_prompt_cost": 0.000015822,
+      "upstream_inference_completions_cost": 0.00000729
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "complete-794-176",
+  "retrieved": "2026-11-01T22:36:40.830Z"
+}

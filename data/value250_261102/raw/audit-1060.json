@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575660-fmxXJ05QPOakER07u7s3",
+  "object": "chat.completion",
+  "created": 1793575660,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelves-evolutionsbite:amazon:https://www.amazon.com/Evolutions-Bite-Story-Teeth-Origins/dp/0691160538\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 75 global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1593:amazon:https://www.amazon.com/Story-Human-Body-Evolution-Disease/dp/030774180X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 2,065 ratings.\"\n    },\n    {\n      \"key\": \"rest-43-37:amazon:https://www.amazon.com/Greeks-Global-History-Roderick-Beaton/dp/1541618297\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 413 global ratings.\"\n    },\n    {\n      \"key\": \"rest-35-29:amazon:https://www.amazon.com/Economy-Princeton-Economic-History-Western/dp/0691177945\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 48 ratings.\"\n    },\n    {\n      \"key\": \"n51d1d8c1a8:amazon:https://www.amazon.com/Thunderstruck-Erik-Larson/dp/1400080673\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 8,337 ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3576,
+    "completion_tokens": 431,
+    "total_tokens": 4007,
+    "cost": 0.0002111472,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021328,
+      "upstream_inference_prompt_cost": 0.0001788,
+      "upstream_inference_completions_cost": 0.00003448
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:27:47.073Z"
+}

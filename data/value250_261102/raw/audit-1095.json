@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575677-7nCaiksHdxoM9WSDVi9N",
+  "object": "chat.completion",
+  "created": 1793575677,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u1605:amazon:https://www.amazon.com/What-Life-Matter-Autobiographical-Sketches/dp/0521427088\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"bgc25fc0e34a:amazon:https://www.amazon.com/Behind-Beautiful-Forevers-BOO-KATHERINE/dp/1846274516\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating count is explicitly labelled as ratings.\"\n    },\n    {\n      \"key\": \"shelf-317adda31056:amazon:https://www.amazon.com/Friends-Robin-Dunbar/dp/1408711737\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"shelf-71edd30fcd4a:amazon:https://www.amazon.com/Psychology-Invention-Mathematical-Field/dp/0486201074\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"n22b6ad54ee:amazon:https://www.amazon.com/Little-Bosses-Everywhere-Pyramid-America/dp/0593443926\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating count is explicitly labelled as global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3799,
+    "completion_tokens": 454,
+    "total_tokens": 4253,
+    "cost": 0.0002240073,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00022627,
+      "upstream_inference_prompt_cost": 0.00018995,
+      "upstream_inference_completions_cost": 0.00003632
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:28:04.008Z"
+}

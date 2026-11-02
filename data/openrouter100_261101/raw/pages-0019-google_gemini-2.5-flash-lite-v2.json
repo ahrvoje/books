@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:11:56.896Z",
+  "bookId": "complete-307-208",
+  "id": "gen-1793571114-j9ura398fvv5ypPW2lwp",
+  "object": "chat.completion",
+  "created": 1793571114,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"complete-307-208\",\n  \"title\": \"The History of the Standard Oil Company\",\n  \"author\": \"Ida M. Tarbell\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 544,\n    \"editionId\": \"9781956527421\",\n    \"editionYear\": 2022,\n    \"format\": \"Paperback\",\n    \"language\": \"English\",\n    \"url\": \"https://www.mcnallyjackson.com/book/9781956527421\",\n    \"evidence\": \"Pages: 544 Language: English\",\n    \"sourceTitle\": \"The History of the Standard Oil Company (Paperback)\",\n    \"sourceAuthor\": \"Ida M. Tarbell\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.mcnallyjackson.com/book/9781956527421\",\n    \"https://www.northshire.com/book/9781956527421\",\n    \"https://www.libroworld.com/9781956527421/\",\n    \"https://blackwells.co.uk/bookshop/product/The-History-of-the-Standard-Oil-Company-by-Tarbell-Ida-M/9781956527421\",\n    \"https://en.wikipedia.org/wiki/The_History_of_the_Standard_Oil_Company\"\n  ],\n  \"limitations\": \"The provided search results offer consistent page counts for a 2022 paperback edition. Information regarding the original publication's page count or reference section is not available in the provided snippets.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.mcnallyjackson.com/book/9781956527421",
+              "title": "The History of the Standard Oil Company (Paperback) | McNally Jackson Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The History of the Standard Oil Company (Paperback)\n\n By Ida M. Tarbell \n\n $19.99\n...\nProduct Details\n\n ISBN: 9781956527421 ISBN-10: 1956527427 Publisher: Olahauski Books Publication Date: February 26th, 2022 Pages: 544 Language: English"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.northshire.com/book/9781956527421",
+              "title": "The History of the Standard Oil Company (Paperback)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The History of the Standard Oil Company (Paperback)\n\nBy Ida M. Tarbell\n\n$19.99\n...\nProduct Details ISBN: 9781956527421 ISBN-10: 1956527427 Publisher: Olahauski Books Publication Date: February 26th, 2022 Pages: 544 Language: English Categories"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.libroworld.com/9781956527421/",
+              "title": "The History of the Standard Oil Company",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The History of the Standard Oil Company\n\n## Ida M. Tarbell\n\n## Olahauski Books\n\n...\n\nProduct Details\n\nAuthor:\nIda M. Tarbell\nPublisher:\nOlahauski Books\nPublication Date:\nFeb 26, 2022\nNumber of pages:\n544 pages\nLanguage:\nEnglish\nBinding:\nPaperback\nISBN-10:\n1956527427\nISBN-13:\n9781956527421"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://blackwells.co.uk/bookshop/product/The-History-of-the-Standard-Oil-Company-by-Tarbell-Ida-M/9781956527421",
+              "title": "The History of the Standard Oil Company",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The History of the Standard Oil Company\n\nTarbell, Ida, M.\n\nPaperback (26 Feb 2022)\n\n- $28.06\n\n...\n\n### Other formats & editions\n\n...\n\n| ISBN: | 9781956527421 |\n| --- | --- |\n| Publisher: | Olahauski Books |\n| Imprint: | Olahauski Books |\n| Pub date: | 26 Feb 2022 |\n| DEWEY: | 338.7622382 |\n| Language: | English |\n| Number of pages: | 544 |\n| Weight: | 780g |\n| Height: | 154mm |\n| Width: | 229mm |\n| Spine width: | 33mm |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://en.wikipedia.org/wiki/The_History_of_the_Standard_Oil_Company",
+              "title": "The History of the Standard Oil Company",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The History of the Standard Oil Company \n\n| | |\n| --- | --- |\n| Author | Ida M. Tarbell |\n| Language | English |\n| Subject | Standard Oil Company |\n| Published | 1904 McClure, Phillips and Co. |\n| Publication place | United States |\n| Media type | Print |\n| OCLC | 12591113 |\n| LC Class | 04035331 |\n| Text | The History of the Standard Oil Company at Wikisource |\n\nThe History of the Standard Oil Company is a 1904 book by journalist Ida Tarbell.\n\n...\n\nThe original book was a two-volume hardcover set. An abridged paperback edition was released later."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1407,
+    "completion_tokens": 436,
+    "total_tokens": 1843,
+    "cost": 0.007311949,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003151,
+      "upstream_inference_prompt_cost": 0.0001407,
+      "upstream_inference_completions_cost": 0.0001744
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

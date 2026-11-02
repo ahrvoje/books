@@ -1,0 +1,60 @@
+{
+  "retrieved": "2026-11-01T22:16:34.860Z",
+  "bookId": "shelf-4d43a4130314",
+  "id": "gen-1793571395-kynm0kiF4ZsDcxZeSxXL",
+  "object": "chat.completion",
+  "created": 1793571395,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-4d43a4130314\",\n  \"title\": \"Finding My Virginity: The New Autobiography\",\n  \"author\": \"Richard Branson\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 471,\n    \"editionId\": \"OL26937879M\",\n    \"editionYear\": null,\n    \"format\": null,\n    \"language\": null,\n    \"url\": \"https://openlibrary.org/books/OL26937879M\",\n    \"evidence\": \"471 pages\",\n    \"sourceTitle\": \"Open Library\",\n    \"sourceAuthor\": \"Internet Archive\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://wigan.spydus.co.uk/cgi-bin/spydus.exe/ENQ/OPAC/BIBENQ?BRN=267862&SETLVL=\"\n  ],\n  \"limitations\": \"No bibliographical reference information was found for 'Finding My Virginity: The New Autobiography'. The provided search result was for a different book by the same author, 'Reach for the skies : ballooning, birdmen and blasting into space', which stated it included bibliographical references and index, but did not specify page ranges.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://wigan.spydus.co.uk/cgi-bin/spydus.exe/ENQ/OPAC/BIBENQ?BRN=267862&SETLVL=",
+              "title": "Reach for the skies : ballooning, birdmen and blasting into space / Richard Branson. | Wigan Borough Libraries",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Reach for the skies : ballooning, birdmen and blasting into space\n\nBranson, Richard2010\n\n--Book\n\nTotal copies: 1\n\nAvailable: 1\n\nAvailability by location --\n\n## Summary\n\nAs far back as stories go, pioneers have reached for the skies. In this book Richard Branson looks at the history of flight through the stories and people who have inspired him. These are tales of miraculous rescues, surprising feats of endurance and survival, and of records made and broken.\n\n## Record details\n\nMain title:\n\nReach for the skies : ballooning, birdmen and blasting into space/ Richard Branson.\n\nAuthor:\n\nBranson, Richard\n\nWork:\n\nReach for the skies : ballooning, birdmen and blasting into space\n\nImprint:\n\n[London?] : Virgin, 2010.\n\nCollation:\n\n343 p., [16] p. of plates : ill. (some col.), ports. (some col.) ; 25 cm.\n\nNotes:\n\nIncludes bibliographical references and index.\n\nISBN:\n\n9781905264919 (hbk)\n\nDewey class:\n\n629.1309\n\nLanguage:\n\nEnglish\n\nSubject:\n\nFlight -- History Aeronautics -- History Air pilots -- History\n\nBRN:\n\n267862\n\nBookmark link:\n\nhttps://wigan.spydus.co.uk/cgi-bin/spydus.exe/ENQ/OPAC/BIBENQ?SETLVL=&BRN=267862\n\nMore Information:\n\nLimited preview in Google Book Search\n\nView more information in LibraryThing - 93 entries\n\n...\n\n## Similar titlesShow All (1)\n\n--\n\n--\n\nFlight : 100 years of aviation\n\nFlight : 100 years of aviation\n\nGrant, R. G.2007\n\n--\n\n## Titles by this authorShow All (3)\n\n--\n\n--\n\nFinding my virginity : the new autob\n\nFinding my virginity : the new autobiography\n\nBranson, Richard2017\n\n--\n\nLosing my virginity : the autobiogra\n\nLosing my virginity : the autobiography\n\nBranson, Richard2007\n\n--\n\nReach for the skies : ballooning, bi\n\nReach for the skies : ballooning, birdmen and blasting into space\n\nBranson, Richard2010\n\n--\n\n-- --\n\n--0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1162,
+    "completion_tokens": 316,
+    "total_tokens": 1478,
+    "cost": 0.007240174,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002426,
+      "upstream_inference_prompt_cost": 0.0001162,
+      "upstream_inference_completions_cost": 0.0001264
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

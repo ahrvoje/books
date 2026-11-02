@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576403-3ijnGwJi8zbE7O1CgFLT",
+  "object": "chat.completion",
+  "created": 1793576403,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g1137:amazon:https://www.amazon.com/Bitcoin-Billionaires-Genius-Betrayal-Redemption/dp/1250217741\",\n      \"status\": \"supported\",\n      \"reason\": \"Title and author match. 3,075 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"q1038:amazon:https://www.amazon.com/Are-Prisons-Obsolete-Angela-Davis/dp/B006R9G2QE\",\n      \"status\": \"supported\",\n      \"reason\": \"Title and author match. 2,082 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"intake-0041:amazon:https://www.amazon.com/Bill-Gates-Problem-Reckoning-Billionaire/dp/1250850096\",\n      \"status\": \"supported\",\n      \"reason\": \"Title and author match. 97 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1133:amazon:https://www.amazon.com/Games-People-Play-Eric-Berne/dp/0394171349\",\n      \"status\": \"supported\",\n      \"reason\": \"Title and author match. 1,555 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1379:amazon:https://www.amazon.com/His-Excellency-Washington-Joseph-Ellis/dp/1400040310\",\n      \"status\": \"supported\",\n      \"reason\": \"Title and author match. 1,315 global ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3611,
+    "completion_tokens": 401,
+    "total_tokens": 4012,
+    "cost": 0.0002105037,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021263,
+      "upstream_inference_prompt_cost": 0.00018055,
+      "upstream_inference_completions_cost": 0.00003208
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:40:10.274Z"
+}

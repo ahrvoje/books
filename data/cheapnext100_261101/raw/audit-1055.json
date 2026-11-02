@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793573727-JjEzZ5eIkkk0kTDNkh1E",
+  "object": "chat.completion",
+  "created": 1793573727,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-8017bc9c3f95:amazon:https://www.amazon.com/You-Are-Not-So-Smart/dp/1592407366\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 2,875 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-5c71e48a3738:amazon:https://www.amazon.com/Richer-Wiser-Happier-Greatest-Investors/dp/1501164856\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 4,670 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u0599:amazon:https://www.amazon.com/Youre-Not-Listening-Missing-Matters/dp/1250760348\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 2,432 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-188eef4f8ab9:amazon:https://www.amazon.com/Cosmopolitanism-Ethics-World-Strangers-Issues/dp/039332933X\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 367 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1004:amazon:https://www.amazon.com/Map-That-Changed-World-William/dp/0060193611\",\n      \"status\": \"reject\",\n      \"reason\": \"Author mismatch. Simon Winchester is listed as the author, but Soun Vannithone is also listed as an illustrator.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3594,
+    "completion_tokens": 447,
+    "total_tokens": 4041,
+    "cost": 0.0002133054,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021546,
+      "upstream_inference_prompt_cost": 0.0001797,
+      "upstream_inference_completions_cost": 0.00003576
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:55:31.451Z"
+}

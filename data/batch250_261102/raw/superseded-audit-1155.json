@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576374-MCvp05uNqdJwpQu4U0ZI",
+  "object": "chat.completion",
+  "created": 1793576374,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u0737:amazon:https://www.amazon.com/Second-Sex-Simone-Beauvoir/dp/030727778X\",\n      \"status\": \"reject\",\n      \"reason\": \"The author field includes translators, not just the main author.\"\n    },\n    {\n      \"key\": \"rem-u0365:amazon:https://www.amazon.com/1001-Inventions-Civilization-Companion-Exhibition/dp/1426209347\",\n      \"status\": \"supported\",\n      \"reason\": \"The author and title match exactly, and the rating is explicitly labeled.\"\n    },\n    {\n      \"key\": \"shelf-68d5133c99ef:amazon:https://www.amazon.com/Walt-Disney-American-Original-Editions/dp/0786860278\",\n      \"status\": \"reject\",\n      \"reason\": \"The edition is abridged, not a single volume.\"\n    },\n    {\n      \"key\": \"q1037:amazon:https://www.amazon.com/1619-Project-American-Origin-Story/dp/0753559536\",\n      \"status\": \"reject\",\n      \"reason\": \"The author field includes an organization, not just the main author.\"\n    },\n    {\n      \"key\": \"bge455f2ec20:amazon:https://www.amazon.com/Change-edu-Rebooting-New-Talent-Economy/dp/1609788990\",\n      \"status\": \"supported\",\n      \"reason\": \"The author and title match exactly, and the rating is explicitly labeled.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3457,
+    "completion_tokens": 405,
+    "total_tokens": 3862,
+    "cost": 0.0002031975,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020525,
+      "upstream_inference_prompt_cost": 0.00017285,
+      "upstream_inference_completions_cost": 0.0000324
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:39:45.817Z"
+}

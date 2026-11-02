@@ -1,0 +1,157 @@
+{
+  "id": "gen-1793574859-4XSUf8iKNKHS8yKt8LDK",
+  "object": "chat.completion",
+  "created": 1793574859,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "Based on the provided web search results, here are the bibliographical references related to Zeckendorf:\n\n1. **Lekkerkerker, C. G.** (1951-1952). Voorstelling van natuurlijke getallen door een som van getallen van Fibonacci. *Simon Stevin*, 29:190--195.\n   - [Source](https://www.fq.math.ca/Papers1/48-2/Griffiths.pdf)\n\n2. **Zeckendorf, E.** (1972). Représentation des nombres naturels par une somme de nombres de Fibonacci ou de nombres de Lucas. *Bulletin de la société royale des sciences de Liège*, 41, 179–182.\n   - [Source](https://fr.wikipedia.org/wiki/%C3%89douard_Zeckendorf)\n\n3. **Hoggatt, V. E., Jr.** (1972). The Generalized Zeckendorf Theorem. *The Fibonacci Quarterly*, 10(1), 92-97.\n   - [Source](https://www.fq.math.ca/Scanned/10-1/hoggatt2.pdf)\n\n4. **Knuth, D.** (1988). Fibonacci Multiplication. *Applied Mathematics Letters*, 1(1), 57-60.\n   - [Source](https://math.osu.edu/sites/math.osu.edu/files/henderson_zeckendorf.pdf)\n\n5. **Frougny, C., & Sakarovitch, J.** ([9]). A finite two-tape automaton converting Zeckendorf expansion into Bergman representation.\n   - [Source](https://kr.mirrors.cicku.me/ctan/macros/generic/zeckendorf/zeckendorf-doc.pdf)\n\n6. **Shallit, J.** ([10]). Revisiting the Frougny-Sakarovitch automaton for converting Zeckendorf expansions into Bergman representations.\n   - [Source](https://jp.mirrors.cicku.me/ctan/macros/generic/zeckendorf/zeckendorf-doc.pdf)\n\nThese references discuss various aspects of Zeckendorf representations, including their existence, uniqueness, and conversions to other representations.",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://mailman.ctan.org/mailman3/hyperkitty/list/ctan-ann@ctan.org/thread/4CN2ZZKWM3R45RLEANWM6NGHUFSRXLSM",
+              "title": "\nCTAN update: zeckendorf - ctan-ann - ctan.org\n",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "* j l : Jump to MailingList overview\nList overview All Threads Download\nnewer\n\nCTAN update: zeckendorf\n\nolder\nCTAN update: KKsymbols\nCTAN update: tikz-shields\n* First Post\n* Replies\n* Stats\nCTAN Announcements\n18 Oct 2025 18 Oct '25\n4:38 p.m.\nJean-François Burnol submitted an update to the\n...\n            zeckendorf\npackage.\nVersion: 0.9c 2025-10-17 License: lppl1.3c\nSummary description: Knuth Fibonacci multiplication, Zeckendorf and Bergman representations of big integers\n\nAnnouncement text:\n\nThis adds many new features and has some breaking changes due to renamings, not listed here.\n* It is not \\xintiieval but \\xinteval's syntax which is now extended.\n* Variables phi and psi are defined and one can do algebra with +, -, *, and ^ on them in Q(phi).\n* The Bergman phi-representation is added for elements of Z[phi] in particular for integers.\n* The $ character doing the Knuth Fibonacci multiplication on positive integers now uses the (more efficient) Arnoux formula. The $$ computes out of deference according to the Knuth formula.\n* The PDF documentation section on the mathematical background has been extended and includes bibliographical references.\n* The interactive interface integrates all novelties.\nThe package’s Catalogue entry can be viewed at https://ctan.org/pkg/zeckendorf\nThe package’s files themselves can be inspected at https://mirrors.\n\n...\n\nctan-ann@ctan.org\n0 comments\n1 participants\nAdd to favorites Remove from favorites\ntags (0)\nparticipants (1)\n*"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://mailman.ctan.org/mailman3/hyperkitty/list/ctan-ann@ctan.org/message/4CN2ZZKWM3R45RLEANWM6NGHUFSRXLSM",
+              "title": "\nCTAN update: zeckendorf - ctan-ann - ctan.org\n",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "* j l : Jump to MailingList overview\nthread\n\nCTAN update: zeckendorf\n\nCTAN Announcements\n18 Oct 2025 18 Oct '25\n4:38 p.m.\nJean-François Burnol submitted an update to the\n...\n            zeckendorf\npackage.\nVersion: 0.9c 2025-10-17 License: lppl1.3c\nSummary description: Knuth Fibonacci multiplication, Zeckendorf and Bergman representations of big integers\n\nAnnouncement text:\n\nThis adds many new features and has some breaking changes due to renamings, not listed here.\n* It is not \\xintiieval but \\xinteval's syntax which is now extended.\n* Variables phi and psi are defined and one can do algebra with +, -, *, and ^ on them in Q(phi).\n* The Bergman phi-representation is added for elements of Z[phi] in particular for integers.\n* The $ character doing the Knuth Fibonacci multiplication on positive integers now uses the (more efficient) Arnoux formula. The $$ computes out of deference according to the Knuth formula.\n* The PDF documentation section on the mathematical background has been extended and includes bibliographical references.\n* The interactive interface integrates all novelties.\nThe package’s Catalogue entry can be viewed at https://ctan.org/pkg/zeckendorf\nThe package’s files themselves can be inspected at https://mirrors.ctan.org/macros/generic/zeckendorf/\nThanks for the upload.\nFor the CTAN Team Vincent Goulet\nCTAN is run entirely by volunteers and supported by TeX user groups. Please join a user group or donate to one, see https://ctan.org/lugs"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archiveswest.orbiscascade.org/ark:80444/xv651833",
+              "title": "William Zeckendorf papers, 1946-1968 - Archives West",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Archives West Orbis Cascade Alliance Logo\nMenu icon\n* about\n* contact\n* help\n* Search Finding Aids\nPrint View XML QR Code\n\nWilliam Zeckendorf papers, 1946-1968\n\nTable of Contents\n\n...\n\nOverview of the Collection\n\nCreator Zeckendorf, William, 1905-1976. Title William Zeckendorf papers Dates 1946-1968 (inclusive)\nDate of Collection Date of Collection Quantity 0.45 cubic ft. (1 box) Collection Number 02915 Summary Papers of a prominent American real estate developer. Repository American Heritage Center, University of Wyoming American Heritage Center University of Wyoming 1000 E. University Ave. Dept. 3924 Laramie, WY 82071 Telephone: 3077663756 ahcref@uwyo.edu Access Restrictions Access Restrictions\n\n...\n\nLanguages English\nReturn to Top\n\nHistorical Note\n\nWilliam Zeckendorf (1905-1976) was a prominent American real estate developer. Through his development company Webb and Knapp, Inc.—for which he began working in 1938 and which he purchased in 1949—he developed a significant portion of the New York City urban landscape. In the 1960s, Webb and Knapp filed for bankruptcy protection.\nReturn to Top\n\nContent Description\n\nThe collection contains fourteen pieces of correspondence for 1946 and 1968 (including items from Nelson A. Rockefeller); blueprints for a partially submerged garage at Robert R. Young Village, New York; and six magazine and newspaper articles about Zeckendorf.\nReturn to Top"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://faculty.evansville.edu/ck6/bstud/zecken.html",
+              "title": "EDOUARD ZECKENDORF",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Edouard Zeckendorf (1901-1983) M.D.,\n\nColonel (ret. 1957) Belgian Medical Corps, number-theorist\n|Many number theorists know about Zeckendorf sums, but few know anything about man for whom these sums\n\n...\n\nEdouard was born in Liège, and in 1925 he qualifed as a medical doctor at the University of Liège and became a Belgian Army officer. Before 1930, he also obtained a License for Dental Surgery. Both Dr. Zeckendorf and his wife were artists.\nIn 1940, Dr. Zeckendorf was taken prisoner by the Germans, and in that capacity, he provided medical care to allied POW's until 1945.\n\n...\n\nZeckendorf published several mathematical papers.\n* Zeckendorf wrote in a 1972 article that the sums that bear his name date from 1939. It seems likely that the earliest published reference to these sums is in an article by C. G. Lekkerkerker, dated 1952-1953. Zeckendorf's theorem about these sums is as follows: Each positive integer has a unique representation as a sum of two or more nonconsecutive Fibonacci numbers, as exemplified by | \n38 = 34 + 3 + 1 39 = 34 + 5 40 = 34 + 5 + 1 41 = 34 + 5 + 2 42 = 34 + 8\nIn many ways, these representations can be compared with binary representations. Numerous articles published in The Fibonacci Quarterly discuss Zeckendorf sums and their many generalizations. For further biographical notes, see the article \"Edouard Zeckendorf,\" The Fibonacci Quarterly 36 (1998) 416-418.\nIf you know of any of Dr."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.fq.math.ca/Papers1/48-2/Griffiths.pdf",
+              "title": "DIGIT PROPORTIONS IN ZECKENDORF REPRESENTATIONS 1. Introduction The most well-known method for representing non-negative integers using just the digits 0",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "One such system is the Zeckendorf representation. In this paper we study the structural properties of an infinite matrix for which the rows correspond to the Zeckendorf representations of the\n\n...\n\nZeckendorf Representations of Integers\nZeckendorf’s theorem is a reasonably well-known result concerning the possibility of writ- ing positive integers as a sum of distinct Fibonacci numbers.\n\n...\n\nME 48, NUMBER 2\nDIGIT PROPORTIONS IN ZECKENDORF REPRESENTATIONS\nZeckendorf (1901–1983). Although he did\n\n...\n\nThe consecutive Fibonacci numbers appearing in the second sum above preclude this from being a Zeckendorf representation. It is in fact clear that the first sum is a Zeckendorf representation of 43. Furthermore, by Zeckendorf’s theorem, this is the only way (other than the order of the terms) that 43 can be expressed in this way. We may thus write\n43 = 10010001 Z ,\nwith the subscript denoting the fact that this is a Zeckendorf representation.\nNote that no Zeckendorf representation requires the use of F 1. Clearly, if a Zeckendorf representation of n contains F 2 then on replacing F 2 with F 1 we would still have a represen- tation for n that does not include any consecutive Fibonacci numbers.\n\n...\n\nWe construct from this the infinite Zeckendorf matrix M whose entry m ( i, j ) gives the coefficient c j of F j in the Zeckendorf representation of n .\n\n...\n\nThe r th row-sum of the above triangle is easily shown to be r \nk =1 F k F r − k +1 = 1\n5 ( rF r +1 + 2( r + 1) F r )"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.fq.math.ca/Scanned/10-1/hoggatt2.pdf",
+              "title": "2. THE GENERALIZED ZECKENDORF THEOREM",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "GENERALIZED ZECKENDORF THEOREM\nV.E.HOGGATTJR.\nSan Jose State College, Sao Jose, California\nDEDICATED TO DR. E. ZECKENDORF\n1. INTRODUCTION\nThe Zeckendorf theorem states that every positive integer can be\nuniquely represented as the sum of distinct Fibonacci numbers if no two con-\nsecutive Fibonacci numbers are used in any given sum.\nD. E. Daykin [1] proved the converse of the Zeckendorf theorem.\nKeller [2] generalized the Zeckendorf theorem and proved a restricted con-\nverse for monotone increasing integer sequences. Hence we generalize the\nZeckendorf theorem in a different way and also get a restricted converse.\nThis leaves two open questions as to validity of the unrestricted converse\ntheorems.\n2. THE GENERALIZED ZECKENDORF THEOREM\nTheorem 1. Let U0 = 05 Ut = 1, and U n + 2 = kU n + 1 + U Q (n > 0,\nk > 1), then every positive integer N9 has a unique representation in the\nform\n\n...\n\nu 2 a_ 1\n1972] GENERALIZED ZECKENDORF\n\n...\n\nr 1°° Definition: For fixed integer K ^ 1, a sequence {V } of positive\nintegers will be called a Zeckendorf K-basis (or briefly a K-basis) if every\npositive integer n has a unique representation in the form\n92 GENERALIZED ZECKENDORF THEOREM [Jan.\nm\n<« - = E e i v i •\ni=l\n\n...\n\nI wish to thank John L. Brown, Jr. , for the details of the restricted\nconverse theorem.\nREFERENCES\n1. Do E. Daykin, \"Representation of Natural Numbers as Sums of General-\nized Fibonacci Numbers, n"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://math.osu.edu/sites/math.osu.edu/files/henderson_zeckendorf.pdf",
+              "title": "2 Preliminary Results",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "If _k_ \\+ 1 is a Fibonacci number, then that provides the Zeckendorf representation. If _k_ \\+ 1 is not a Fibonacci number, then _∃_ _j_ _∈_ N such that _F_ _j_ _< k_ \\+1 _< F_ _j_ \\+1. Define _a_ = _k_ \\+1 _−_ _F_ _j_ , so _a_ _≤_ _k_ , meaning _a_ has a Zeckendorf representation by hypothesis. We also note that\n\n_F_ _j_ \\+ _a_ = _k_ \\+ 1 _< F_ _j_ \\+1 = _F_ _j_ \\+ _F_ _j_ _−_ 1 _a < F_ _j_ _−_ 1 _._\n\n2\n\nThus, the Zeckendorf representation of _a_ does not contain a _F_ _j_ _−_ 1 term, so _k_ \\+ 1 = _F_ _j_ \\+ _a_ will yield a Zeckendorf representation for _k_ \\+ 1. This proves the existence of the Zeckendorf representation for positive integers by induction. We will now prove uniqueness. Let _n_ be a positive integer with two nonempty sets of terms _S_ and _T_ which form Zeckendorf representations of _n_ .\n\n...\n\n. . d_ 1 _d_ 0) _F_ is a Zeckendorf representation pre- cisely when\n\n(Z1) _d_ _i_ = 0 or _d_ _i_ = 1, _∀_ _i_ _∈_ N,\n\n(Z2) _d_ _i_ _d_ _i_ \\+1 = 0, _∀_ _i_ _∈_ N,\n\n...\n\n**Theorem 3:** Every positive integer has a Zeckendorf representation.\n\n_Proof._ We first note that 1 = (100) _F_ satisfies (Z1-3). We see that, if we have a Zeckendorf representation of _n_ , then\n\n_n_ = ( _d_ _s_ _. . . d_ 2 _d_ 1 _d_ 0) _F_ = ( _d_ _s_ _. . .\n\n...\n\nHe also mentioned that Porta and Stolarsky found that _m_ _∗_ _n_ _∼_ 3 _._ 62 _mn_ .\n\n### **References**\n\n[1] D. Knuth, _Fibonacci Multiplication_ , App. Math. Lett. Vol.1 pp. 57-60, 1988.\n\n[2] G."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://fr.wikipedia.org/wiki/%C3%89douard_Zeckendorf",
+              "title": "Édouard Zeckendorf — Wikipédia",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Un article de Wikipédia, l'encyclopédie libre.\nPage d’aide sur l’homonymie\nPour les articles homonymes, voir Zeckendorf .\nÉdouard Zeckendorf\n* Naissance | 2 mai 1901\n* Liège ( Belgique )\n* Décès | 16 mai 1983 (à 82 ans)\n* Liège ( Belgique )\n* Nationalité | Belge\n* Domaines | Mathématiques\n* Renommé pour | théorème de Zeckendorf\nmodifier \nÉdouard Ze\n\n...\n\nIl est connu pour avoir démontré que tout entier positif a une représentation unique comme somme de nombre de Fibonacci non consécutifs. Cette représentation est la représentation de Zeckendorf .\n\nBiographie\n\n[ modifier | modifier le code ]\nZeckendorf est né à Liège en 1901. Il a fait des études de médecine à l' université de Liège . En 1925, il obtient son doctorat et intègre le corps médical de l' armée belge . De 1930 à 1940, Zeckendorf dirige l' hôpital militaire Saint Laurent de Liège.\n\n...\n\n[ modifier | modifier le code ]\nZeckendorf a écrit de nombreux articles de mathématiques entre 1949 et 1978, la plupart publiés dans le Bulletin de la société royale des sciences de Liège .\n\n...\n\n* Édouard Zeckendorf, « Représentation des nombres naturels par une somme de nombres de Fibonacci ou de nombres de Lucas », Bull. Soc. Roy. Sci. Liège , vol. 41, ‎ 1972 , p. 179–182\n* Clark Kimberling, « Edouard Zeckendorf », Fibonacci Quarterly , vol. 36, ‎ 1998 , p. 416–418 ( lire en ligne ) .\n\nLiens externes\n\n[ modifier | modifier le code ]\n* (en) John J. O'Connor et Edmund F."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://kr.mirrors.cicku.me/ctan/macros/generic/zeckendorf/zeckendorf-doc.pdf",
+              "title": "The Zeckendorf package",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "This package is still in alpha stage. Any or all of the user interface may change in backwards incompatible ways at each release. Suggestions for new features are most welcome!\n\n...\n\ndigits. This is because we have arbitrary precision logarithm available from xintexpr, with the fastest being with eight decimal digits precision, and after all we were not preparing a reference\n\n...\n\nSimilar remarks apply to Zeckendorf representations.\n5\nREFERENCES\nequal to k. (So we can always find the location of the radix separator if we had lost it). Christiane Frougny and Jacques Sakarovitch ([9]) showed that there exists a (non explicited) finite two-tape automaton which converts the Zeckendorf ex- pansion of a positive integer into the Bergman representation (where the part with negative exponents is ``folded'' across the radix point to sit on top (or below) the part with positive exponents). Very recently Jeffrey Shal- lit ([10]) has revisited this topic and constructed explicitly a Frougny- Sakarovitch automaton.\nReferences\n[1] C. G. Lekkerkerker. Voorstelling van natuurlijke getallen door een som van getallen van Fibonacci. Simon Stevin, 29:190--195, 1951-1952.\n[2] E. Zeckendorf. Représentation des nombres naturels par une s\n\n...\n\nient) Arnoux formula. The $$ computes out of deference according to the original Knuth defini- tion.\n• The PDF documentation section on the mathematical background has been extended and includes bibliographical references."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://jp.mirrors.cicku.me/ctan/macros/generic/zeckendorf/zeckendorf-doc.pdf",
+              "title": "The Zeckendorf package",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "This package is still in alpha stage. Any or all of the user interface may change in backwards incompatible ways at each release. Suggestions for new features are most welcome!\nMathematical background . . . . . . . . . . . . . . . . . . . . . . . 1, p. 2\nReferences . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . p. 6\nPart I. User manual\n\n...\n\nSimilar remarks apply to Zeckendorf representations.\n5\nREFERENCES\nequal to k. (So we can always find the location of the radix separator if we had lost it). Christiane Frougny and Jacques Sakarovitch ([9]) showed that there exists a (non explicited) finite two-tape automaton which converts the Zeckendorf ex- pansion of a positive integer into the Bergman representation (where the part with negative exponents is ``folded'' across the radix point to sit on top (or below) the part with positive exponents). Very recently Jeffrey Shal- lit ([10]) has revisited this topic and constructed explicitly a Frougny- Sakarovitch automaton.\nReferences\n[1] C. G. Lekkerkerker. Voorstelling van natuurlijke getallen door een som van getallen van Fibonacci. Simon Stevin, 29:190--195, 1951-1952.\n[2] E. Zeckendorf. Représentation des nombres naturels par une s\n\n...\n\n• The $ character doing the Knuth Fibonacci multiplication on posi- tive integers now uses the (more effic\n\n...\n\nto the original Knuth defini- tion.\n• The PDF documentation section on the mathematical background has been extended and includes bibliographical references."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4967,
+    "completion_tokens": 490,
+    "total_tokens": 5457,
+    "cost": 0.00110306494,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000104106,
+      "upstream_inference_prompt_cost": 0.000089406,
+      "upstream_inference_completions_cost": 0.0000147
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "\"Zeckendorf\" \"bibliographical references\"",
+  "bookId": "shelf-0e97247b2049",
+  "retrieved": "2026-11-01T23:14:35.227Z"
+}

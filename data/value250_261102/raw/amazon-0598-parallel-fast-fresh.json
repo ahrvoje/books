@@ -1,0 +1,97 @@
+{
+  "id": "gen-1793575696-jCZQE103A7bd5VideM7p",
+  "object": "chat.completion",
+  "created": 1793575696,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "{\n",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/God-Particle-Leon-M-Lederman/dp/0395558492",
+              "title": "The God Particle: Lederman, Leon M., Teresi, Dick",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe God Particle: Lederman, Leon M., Teresi, Dick\nThe world's foremost experimental physicist uses humor, metaphor, and storytelling to delve into the mysteries of matter, discussing the particle\n\n## \n\nThe God Particle: Lederman, Leon M., Teresi, Dick\nThe God Particle ; Publisher. Houghton Mifflin Harcourt ; Publication date. January 1, 1993 ; Dimensions. 5.5 x 1.5 x 8.5 inches ; ISBN-10. 0395558492 ; ISBN-13. 978"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/God-Particle-Discovery-Modeling-Ultimate/dp/1581129599",
+              "title": "The God Particle: The Discovery and Modeling of the Ultimate Prime ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe God Particle: The Discovery and Modeling of the Ultimate Prime ...\nDubbed the \"God particle\" by Nobel Prize-winning physicist Leon Lederman, the Higgs boson is a hypothetical particle which, like divinity, is all pervading\n\n## \n\nThe God Particle: The Discovery and Modeling of ...\nBook details · Print length. 208 pages · Language. English · Publisher. Universal Publishers · Publication date. June 27, 2007 · Dimensions. 5.5 x 0.48 x 8.5 inches."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/God-Particle-Universe-Answer-Question/dp/0618711686",
+              "title": "The God Particle: If the Universe Is the Answer, What ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe God Particle: If the Universe Is the Answer, What ...\nThe God Particle, a funny and fascinating look at the universe from the Nobel Prize–winning physicist. a fascinating tour of the history of particle physics.\n\n## \n\nThe God Particle: If the Universe Is the Answer, What ...\nIn this extraordinarily accessible and enormously witty book, the Nobel Prize–winning physicist Leon Lederman guides us on a fascinating tour of the history of"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B000APW300",
+              "title": "Leon Lederman: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nLeon Lederman: books, biography, latest update\nLeon M. Lederman, is Resident Scholar at the Illinois Mathematics and Science Academy, Most popular God Particle: If the Universe Is the Answer, What Is the\n\n## \n\nLeon Lederman: books, biography, latest update\nLeon M. Lederman, is Resident Scholar at the Illinois Mathematics and Science Academy, Director Emeritus of Fermi National Accelerator Laboratory, Pritzker\n\n## \n\nLeon Lederman: books, biography, latest update\nLeon M. Lederman, Nobel Laureate (Batavia, IL), is Resident Scholar at the Illinois Mathematics and Science Academy, Director Emeritus of Fermi National"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1022,
+    "completion_tokens": 1,
+    "total_tokens": 1023,
+    "cost": 0.00102937132,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000029668,
+      "upstream_inference_prompt_cost": 0.000029638,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The God Particle\" Leon M. Lederman; Dick Teresi \"global ratings\"",
+  "bookId": "n7ed58f57b9",
+  "retrieved": "2026-11-01T23:28:18.767Z"
+}

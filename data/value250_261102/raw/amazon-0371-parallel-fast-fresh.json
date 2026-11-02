@@ -1,0 +1,107 @@
+{
+  "id": "gen-1793575624-SyvbKIz1TwACl8n4A1pW",
+  "object": "chat.completion",
+  "created": 1793575624,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Mass-Customization-Frontier-Business-Competition/dp/0875849466",
+              "title": "Mass Customization: The New Frontier in Business Competition",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nMass Customization: The New Frontier in Business Competition\nA groundbreaking resource offers companies an abundance of ways to mass produce and individually customize their products and services and shows companies how\n\n## \n\nMass Customization: The New Frontier in Business Competition\nJoseph, Pine II, B. Joseph, Davis, Stan] Publisher Harvard Business School Pr Publication date January 1, 1999. Author B. Joseph Pine II … internationally\n\n## \n\nMass Customization: The New Frontier in Business Competition\nFree delivery Free 30-day returns A groundbreaking resource offers companies an abundance of ways to mass produce and individually customize their products and services"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Manufacturing-Scale-Up-Dispersion-Production-Formulation/dp/B0HCKYTP9Q",
+              "title": "Manufacturing and Scale-Up: Batching, Dispersion Equipment ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nManufacturing and Scale-Up: Batching, Dispersion Equipment ...\nThis book is about the part of the job that happens after a formula is proven: batch tickets, dispersion equipment, order of addition at production scale, the math behind why bigger batches don't scale in a straight line, and how to troubleshoot a batch that comes back wrong without immediately blaming the formula."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://music.amazon.com/podcasts/3f65bf92-345a-4599-88b8-8165ccd10cef/heart-forward-conversations-from-the-heart",
+              "title": "Heart Forward Conversations from the Heart Podcast",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nHeart Forward Conversations from the Heart Podcast\nThis podcast explores the American system against the plumb line of an international best practice, recognized by the World Health Organization (WHO), in\n\n## \n\nHeart Forward Conversations from the Heart Podcast on ...\nThis podcast is curated and hosted by Kerry Morrison, founder and project director of Heart Forward LA (https://www.heartforwardla.org/).\n\n## \n\nHeart Forward Conversations from the Heart Podcast on ...\nTopics will address contemporary challenges in the American failed mental health system as\n\n...\n\nwe speak with Claudia Battison, a Psychiatric Rehabilitation Technician (PRT)\n\n...\n\nInterviews will touch upon how the guiding principles of the Italian system – social recovery, whole person care, system accountability, and the human right to\n\n## \n\nHeart Forward Conversations from the Heart - Amazon Music\nInterviews will touch upon how the guiding principles of the Italian system – social recovery, whole person care, system accountability, and the human right to\n\n## \n\nHeart Forward Conversations from the Heart Podcast on ...\nThis podcast explores the American system. Trieste, Italy. we speak with Claudia Battison, a Psychiatric Rehabilitation Technician (PRT) in the mental health\n\n## \n\nHeart Forward Conversations from the Heart Podcast on ...\nBeatrice Stanig. The episodes will be ready for release mid-January 2025. This is a non-sponsored podcast\n\n## \n\nHeart Forward Conversations from the Heart Podcast on ..."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/2025-2030-World-Outlook-Masterbatch/dp/B0CZM17XZK",
+              "title": "The 2025-2030 World Outlook for Masterbatch",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe 2025-2030 World Outlook for Masterbatch\nThis study covers the world outlook for masterbatch across more than 190 countries. For each year reported, estimates are given for the latent demand,"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Edwin-Batte-MD/s?rh=n%3A283155%2Cp_27%3AEdwin%2BBatte%2BMD",
+              "title": "Edwin Batte MD: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nEdwin Batte MD: Books\nFrom Success To Significance: A Doctor's Prescription for Building Purposeful Wealth Through Multifamily Investing · by Edwin Batte MD · Paperback. Add to cart."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1264,
+    "completion_tokens": 1,
+    "total_tokens": 1265,
+    "cost": 0.00102255418,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000022782,
+      "upstream_inference_prompt_cost": 0.000022752,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Muskets to Mass Production\" Edwin A. Battison \"global ratings\"",
+  "bookId": "rest-949-123",
+  "retrieved": "2026-11-01T23:27:05.746Z"
+}

@@ -1,0 +1,157 @@
+{
+  "id": "gen-1793574741-RIlprQ9c4ahJZXzYcpzC",
+  "object": "chat.completion",
+  "created": 1793574741,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "Based on the provided web search results, here's the requested metadata in JSON format:\n\n```json\n{\n  \"id\": \"shelf-a9f899cd78a4\",\n  \"title\": \"Barnum: An American Life\",\n  \"author\": \"Robert Wilson\",\n  \"pages\": null,\n  \"amazon\": {\n    \"count\": 358,\n    \"url\": \"https://www.amazon.com/Barnum-American-Life-Robert-Wilson/dp/030682014X\",\n    \"asin\": \"030682014X\",\n    \"evidence\": \"Product details page\"\n  },\n  \"reference\": {\n    \"count\": 394,\n    \"url\": \"https://www.worldcat.org/title/struggles-and-triumphs-or-forty-years-recollections-of-p-t-barnum-written-by-himself/oclc/1014027\",\n    \"evidence\": \"WorldCat record\",\n    \"ranges\": [\n      {\n        \"start\": 1,\n        \"end\": 394,\n        \"label\": \"Pages\"\n      }\n    ]\n  }\n}\n```\n\nExplanation:\n\n* The Amazon product page lists the book as having 358 pages.\n* The WorldCat record for \"Struggles and triumphs, or, Forty years’ recollections of P.T. Barnum\" (a book written by Barnum himself) indicates that it has 394 pages. This is likely the most comprehensive firsthand account of Barnum's life, making it a relevant reference for a biography like \"Barnum: An American Life\".\n* The other search results did not provide explicit page counts for relevant books, and none of them were exact matches for the target title.",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://bportlibrary.org/hc/wp-content/uploads/BHC-MSS-0001-P.T.-Barnum-Research-Collection.pdf",
+              "title": "Guide to the P.T. Barnum Research Collection (BHC-MS 0001) By Meghan Rinn January 2017",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "_Corporate Names_ Barnum & London Circus Barnum and Bailey Barnum and Bailey--History. Barnum and Bailey--People--1890-1900. Barnum and Bailey--People--1900-1910. Barnum's American Museum Barnum Institute of Science and History Bridgeport Scientific Society Fairfield County Historical Society P.T.\n\n...\n\nTo Eames, June 8, 1880 9. To Nate [Beers], June 11, 1880 10. To Eames, 1881 11. To Nate [Beers], April 3, 1881 12. To Wheeler and Wilson Co., June 20, 1881 13. To Samuel [?], January 15, 1882 14. To Nate [Beers], December 31, 1882 15. To Conant?, March 15, 1883 16. To Nate Beers, January 1, 1884 17. To R.B. Leacey, December 31, 1884 18. To Mayor Morgan, February 23, 1885 19. To Julian Sterling, March 28, 1885 20. To Julian Sterling, April 15, 1885 21. [Note on shares] July 13, 1885 22. To James A. Bailey, October 4, 1885 23. To Julian Sterling, January 13, 1886 24. To Julian Sterling, January 14, 1886 25. To Unknown recipient, Reference to Regis Falls, White Mountains, August 13, 1886 26. To R. B. Leacey, September 6, 1886 27. To Barnum to A.C. Sherwood, February 12, 1887 28. To Nate Beers, May 25, 1887 29. To Waldo [Curtis?], June 14, 1887 30. To Editor of the London Times, December 25, 1887 31. To George Curtis, March 1, 1888 32. To James A. Bailey, July 5, 188 33. To Barnum to David Pell (?), August 10, 1888\n\n34\\. To I. DeVer Warner, agreement signed by Barnum, November 20, 1888 35. To Nate Beers, October 3, probably 1888 36. James Bailey, probably 1888 37."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://libsearch.cbs.dk/discovery/sourceRecord?docId=alma9910289309705765&recordOwner=45KBDK_NETWORK&vid=45KBDK_CBS%3ACBS",
+              "title": "https://libsearch.cbs.dk/discovery/sourceRecord?docId=alma9910289309705765&recordOwner=45KBDK_NETWORK&vid=45KBDK_CBS%3ACBS",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Kilde\n\nleader\t01714nam a2200385 i 4500\n001\t992670000000427399\n005\t20230123222824.0\n006\tm     o  d |      \n007\tcr#-n---------\n008\t230123s2013    ctuab   ob    001 0 eng d\n020\t##$a0-8195-7332-9\n\n...\n\n035\t##$a(PQKB)10353875 \n035\t##$a(MiAaPQ)EBC1414169 \n035\t##$a(OCoLC)867741478 \n035\t##$a(MdBmJHUP)muse27434 \n035\t##$a(Au-PeEL)EBL1414169 \n035\t##$a(CaPaEBR)ebr10769728 \n035\t##$a(OCoLC)862209109 \n035\t##$a(MiAaPQ)EBC29040032 \n035\t##$a(Au-PeEL)EBL29040032 \n040\t##$aMiAaPQ $beng $erda $epn $cMiAaPQ $dMiAaPQ \n041\t##$aeng \n043\t##$an-us--- \n050\t#4$aGN69.5.S9 $b.L446 2013 \n082\t0#$a791.092 $223 \n100\t1#$aLehman, Eric D., $eauthor. \n245\t10$aBecoming Tom Thumb : $bCharles Stratton, P.T. Barnum, and the dawn of American celebrity / $cEric D. Lehman. \n250\t##$a1st ed. \n264\t#1$aMiddletown, Connecticut : $bWesleyan University Press, $c[2013] \n264\t#4$c©2013 \n300\t##$a1 online resource (273 p.) \n336\t##$atext $btxt \n337\n\n...\n\n520\t##$aThe definitive biography of an iconic American entertainer \n546\t##$aEnglish \n505\t0#$aPrologue: playing The palace  -- The boy from Bridgeport -- At the American Museum -- Prince Charles the\n\n...\n\n504\t##$aIncludes bibliographical references and index. \n588\t##$aDescription based on print version record. \n650\t#0$aCircus performers. \n600\t10$aThumb, Tom, $d1838-1883. \n600\t10$aBarnum, P. T. $q(Phineas Taylor), $d1810-1891. \n776\t##$z0-8195-7331-0 \n830\t#0$aDriftless Connecticut series. \n906\t##$aBOOK"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://bportlibrary.org/hc/barnum-and-related-items/p-t-barnum-bibliography-and-sources",
+              "title": "Bibliography and Sources:  P.T. Barnum – Bridgeport History Center",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Notes:  Includes index.   Bibliography:  p. 197-200.\n[782.1092 L742w]\n* Struggles and triumphs, or, Forty years’ recollections of P.T. Barnum , written by himself,  edited and abridged with an introduction by Carl Bode.  New York, N.Y.:  Penguin Books, 1981.  394 p.; 19 cm.  Series:  The Penguin American library Penguin American library.  Includes bibliographical references (p. 35).\n[B B2635b]\n* Selected letters of P.T. Barnum , edited and introduced by A.H. Saxon.   New York:  Columbia University Press, 1983.  xxxv, 351 p.:  ill., facsims., ports. ; 24 cm.  Includes bliographical references and index.\n[816 B263s]\n* Barnum / par lui-m^eme ; lettres choisies et presentees par A.H. Saxon ;  traduites de l’americain par L.R. Dauven.  Sorvilier [Switzerland]:   Editions de la Gardine, 1986.\n\n...\n\ndestines aux proprietaires de lettres et photos originales …”–\nColophon.\n[816 B263s2]\n* P.T. Barnum:  the legend and the man / A.H. Saxon.  New York:  Columbia University Press, c1989. xii, 437 p., [53] p. of plates : ill. (some col.) ; 25 cm.\nNotes:   Includes index.   Bibliography:  p. [345]-423.\n[HCB B2635a]\n* P. T. Barnum : the world’s greatest showman , by Alice Fleming.  New York:  Walker and Co., c1993.  vi, 160 p. : ill. ; 24 cm. Bibliography includes bibliographical references and index.\n[HCB B2635fL]\n* P. T. Barnum\n: American dreamer"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.nypl.org/research/research-catalog/bib/b12328241",
+              "title": "P.T. Barnum : America's greatest showman | Item Details | Research Catalog | NYPL",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Read our User Guide to learn more about using the Research Catalog and requesting research materials.\n\nP.T. Barnum : America's greatest showman\n\nSave\nTitle 1. P.T. Barnum : America's greatest showman / by Philip B. Kunhardt, Jr., Philip B. Kunhardt III, and Peter W. Kunhardt.\nAuthor 1. Kunhardt, Philip B., Jr., 1928-2006 - [Browse in author index]\nPublished by 1. New York : Knopf, 1995.\nFormat 1. Book/text\n\nItems in the library and offsite\n\nFilter by\nLocation\nStatus\n\nDisplaying 1 item\n\n* Status | Access | Call number | Item location\n\n...\n\n|Access Use in library |Call number MWES (Barnum, P.) 95-15161 |Item location Performing Arts Research Collections - Theatre |\n\nDetails\n\nAdditional authors 1. Kunhardt, Philip B., III, 1951- - [Browse in author index] 2. Kunhardt, Peter W. - [Browse in author index]\nPlace of publication 1. New York\nDescription 1. ix, 358 p. : ill. (some col.) ; 26 cm.\nAlternative title 1. Phineas Taylor Barnum\nSubject 1. Barnum, P. T. (Phineas Taylor), 1810-1891. - [Browse in subject index] 2. Circus owners -- United States -- Biography. - [Browse in subject index]\nCall number 1. MWES (Barnum, P.) 95-15161\nLanguage 1. English\nNote 1. \"This is a Borzoi book\"--T.p. verso.\nBibliography (note) 1. Includes bibliographical references (p. 349-350) and index.\nAuthor 1. Kunhardt, Philip B., Jr., 1928-2006.\nEdition 1. 1st ed.\nLCCN 1. 94042597\nISBN 1. 0679435743 : $45.00 ($63.00 Can.)\nView MARC record\nHelp and Feedback"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://collection.sl.nsw.gov.au/record/74VvRLWy0A43",
+              "title": "Graphic design : Australian style manual / Andrew Barnum ... [et al.]. | Collection - State Library of NSW",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "rt Share this record Print record\n\nGraphic design : Australian style manual / Andrew Barnum ... [et al.].\n\nGraphic design : Australian style manual / Andrew Barnu...\nHelp | Ask | Become a Library member\n\nGraphic design : Australian style manual / Andrew Barnum ... [et al.].\n\nhttps://collection.sl.nsw.gov.au/record/74VvRLWy0A43\n\nGraphic design : Australian style manual / Andrew Barnum ... [et al.].\n\nAbout this item\n\nFull title\nGraphic design : Australian style manual / Andrew Barnum ... [et al.].\nPublisher\nNorth Ryde, N.S.W. : McGraw-Hill, 2011.\nDate\n2011.\nCall Numbers\nGQ 2025/0204 , Q760/4\nRecord Identifier\n74VvRLWy0A43\nMMS ID\n9910 0910428970 2626\nLanguage\nEnglish\nFormats\nBooks\n\nPhysical Description\n\nPhysical content\nxii, 355 p. : ill. ; 26 cm.\nContents\nDesign and its audience -- Conceptualising and process -- Colour, elements and illustration -- Typography -- Print design -- Pre-press and print -- Digital design\n\n...\n\n\"Graphic Design : Australian Style Manual is the first textbook for design students written with an Australian and New Zealand focus.\n\n...\n\nAuthors, Artists and Contributors\n\nAuthor / Artists\nBarnum, Andrew Townley.\n\nNotes\n\nGeneral note\nIncludes bibliographical references and index.\nGQ 2025/0204 transferred from NQ760/30\n\nIdentifiers\n\nPrimary Identifiers\n\nCall Numbers\nGQ 2025/0204 , Q760/4\nRecord Identifier\n74VvRLWy0A43\nPermalink\nhttps://collection.sl.nsw.gov.au/record/74VvRLWy0A43\nCopy Link\n\nOther Identifiers\n\nISBN\n9780071011051 (pbk.)\nDD"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://es.wikipedia.org/wiki/P._T._Barnum",
+              "title": "P. T. Barnum - Wikipedia, la enciclopedia libre",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Barnum en la cultura popular Alternar subsección P. T. Barnum en la cultura popular\n* 2.1 Cine y televisión\n* 2.2 Teatro\n* 2.3 Libros\n* 2.4 Canciones\n* 3 Véase también\n* 4 Referencias\n\n...\n\nand Barnum & Bailey Circus . [ 1 ] A pesar de que Barnum fue también un autor, editor, filántropo e incluso llegó a ser político, se\n\n...\n\npromulgadas por los calvinistas que trataban de restringir los juegos de azar y los viajes. En 1829, Barnum fundó un periódico semanal en Danbury , titulado The Herald of Freedom , y en noviembre de ese mismo año se casó con Charity Hallett. Tuvieron cuatro hijas: Caroline Cordelia (Barnum) Thompson (1833-1911), Helen Maria (Barnum) Buchtel (1840-1915), Frances Barnum (1843-1844) y Pauline\n\n...\n\nesquina de Ann Street y Broadway , en Manhattan , Nueva York . Barnum rebautizó el museo como Museo Americano Barnum ( Barnum's American Museum ) y lo remodeló, modernizando el edificio de cinco\n\n...\n\nBarnum se encuentra en la portada del álbum Dangerous de Michael Jackson de 1991\n\nVéase también\n\n[ editar ]\n* Efecto Barnum .\n\nReferencias\n\n[ editar ]\n1. ↑ North American Theatre Online: Phineas T. Barnum\n2. 1 2 Philip B. Kunhardt, et al., P. T. Barnum: America's Greatest Showman ,Alfred A. Knopf, New York, 1995, ISBN 0-679-43574-3 , p. vi\n3. ↑ Shapiro, Fred R. The Yale Book of Quotations. New\n\n...\n\nBarnum (en inglés) . Dillon Press. p. 8 .\n6. ↑ «P. T. Barnum en Find a Grave» .\n7. ↑ «A One-Name Study for the Barnum/Barnham Surname. Notes for Nancy Fish» ."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.slcpl.org/search/title.aspx?&cn=95665&pos=1",
+              "title": "Catalog - The City Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "×\nSkip to main content Displaying 1 of 1\nThe life of P.T. Barnum\nBook\n2000\n[Google Books Preview](javascript:showModalBasicWithIframe('https://catalog.slcpl.org/search/components/ajaxGooglePreview.aspx?isbn=ISBN:9780252069024','', true))\n* Format: | Book\n* Author: | Barnum, P. T. (Phineas Taylor), 1810-1891.\n* Title: | The life of P.T. Barnum / written by himself, Phineas T. Barnum ; introduction by Terence Whalen.\n* Publisher, Date: | Urbana : University of Illinois Press, c2000.\n* Description: | xxxvii, 404 p. : ill. ; 22 cm.\n* Subjects: | Barnum, P. T. (Phineas Taylor), 1810-1891.\n* Circus owners -- United States -- Biography.\n* Notes: | 791.3/092.\nOriginally published: New York : Redfield, 1855.\n* Includes bibliographical references.\n* LCCN: | 99462094\n* ISBN: | 0252069021\n* System Availability: | 1\n* Current Holds: | 0\n* # Local items: | 1\n* Control Number: | 95665\n* # Local items in: | 1\n* # System items in: | 1\n* Call Number: | BIO Barnum\n*  | \n* Place Hold\n[Add to My List](javascript:AddToList(3231, 1, '95665', 0))\nExpand All | Collapse All\nAvailability\nMap It\nDisplaying 1 of 1\n* \n* Language\n* English\n* Español\n* My SLCPL\n* Quick Search\n* My Library Card\n* My Lists\n* Items Checked Out\n* Hold Requests\n* Reading History\n* Explore\n* Keyword\n* Advanced\n* Browse\n* Phrase\n* Exact\n* Digital Library\n* Downloadables\n* eBooks\n* Creative Lab\n* Events\n* Calendar\n\n...\n\n* Contact Us\n* Help\nPolaris Version: 7.8.56431 © 2025 Clarivate\nMobile Site"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.encyclopedia.com/people/literature-and-arts/theater-biographies/p-t-barnum",
+              "title": "P T Barnum | Encyclopedia.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Citation styles\n\nEncyclopedia.com gives you the ability to cite reference entries and articles according to common styles from the Modern Language Association (MLA), The Chicago Manual of Style, and\n\n...\n\nreference entry or article, Encyclopedia.com cannot guarantee eac\n\n...\n\n* Most online reference entries and articles do not have page numbers. Therefore, that information is unavailable for most Encyclopedia.com content. However, the date of retrieval is often important.\n\n...\n\nTherefore, be sure to refer to those guidelines when editing your bibliography or works cited list.\n\nBarnum, P. T.\n\ngale\nviews updated Jun 08 2018\n\nBarnum, P. T.\n\n(1810-1891) Barnum and Bailey Circus\n\nOverview\n\nP. T. Barnum called himself the \"Prince of Humbugs,\" in reference to the many outrageous stunts and exhibits that were part of his exploits as a showman. His tours, museum\n\n...\n\nRefer to each style’s convention regarding the best way to format page numbers and retrieval dates.\n\n...\n\nTherefore, be sure to refer to those guidelines when editing your bibliography or works cited list.\n\nBarnum, Phineas Taylor\n\ngale\nviews updated May 29 2018\n\nBARNUM, PHINEAS TAYLOR\n\nP. T.\n\n...\n\nreference entry or article, Encyclopedia.com cannot guarantee each citation it generates. Therefore, it’s best to use Encyclopedia.com citations as a starting poin\n\n...\n\nAmerican Psychological Association\n\nhttp://apastyle.apa.org/\n\nNotes:\n\n* Most online reference entries and articles do not have page numbers."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://academicworks.cuny.edu/pubs/index.46.html",
+              "title": "\nCUNY Academic Works, Publications and Research | City University of New York (CUNY)\n",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Barnas, Robert Newman, Christopher J. Felege, Michael P. Corcoran, Samuel D. Hervey, Tanner J. Stechmann, Robert F. Rockwell, and Susan N. Ellis-Felege\nPDF\nTranscription Activator Like Effector Nucleases (TALENs): A New, Important, and Versatile Gene Editing Technique with a Growing Literature , Philip Barnett\nPDF\nThe crime kaleidoscope: A cross-jurisdictional analysis of place features and crime in three urban environments , Jeremy D. Barnum, Joel M. Caplan, Leslie W. Kennedy, and Eric L. Piza\nPDF\nA Flying Saucer Belonging To A Joan Rivers Clone Lands On Temple Emanu-El of New York's Roof (Sans Fiddler) , Marleen S. Barr\nPDF\nA Heads Up on Kathy Griffin's Trump Head Depiction , Marleen S. Barr\nPDF\nDuck, Donald: A Trump Exorcism , Marleen S. Barr\nPDF\nFeminist Extraterrestrials Establish Economic Utopia on Earth , Marleen S. Barr\nPDF\nFirst 100 Days: Two Trump Heads Are Better Than One?\n\n...\n\nPROFESSIONAL LICENSING AND TEACHER CERTIFICATION FOR NON-CITIZENS: FEDERALISM, EQUAL PROTECTION AND A STATE’S SOCIOECONOMIC INTERESTS , Janet M. Calvo\nPDF\nCrime in Context: Utilizing Risk Terrain Modeling and Conjunctive Analysis of Case Configurations to Explore the Dynamics of Criminogenic Behavior Settings. , Joel M. Caplan, Leslie W. Kennedy, Jeremy D. Barnum, and Eric L. Piza\nPDF\nTraining pharmacists in the stage-of-change model of smoking cessation and motivational interviewing: A randomized controlled trial , Pasquale"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://en.wikipedia.org/wiki/P._T._Barnum",
+              "title": "P. T. Barnum - Wikipedia",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Books\n\n[ edit ]\n* The Great and Only Barnum; the Tremendous, Stupendous Life of Showman P. T. Barnum\n\nMusic\n\n[ edit ]\n* \"U.S. Blues\" – a song from the album From the Mars Hotel by the Grateful Dead\n* \"Killer Clowns\" – a song from the EP Killer Clowns From Outer Space by The Dickies makes reference to P.T. Barnum and his associate James Anthony Bailey, as well as the often misattributed quote: \"there's a sucker born every minute you know\" (\"There's one born every minute, don't you know?\").\n* On their The Origin of the Feces album (1992), Type O Negative listed P.T.\n\n...\n\n* Barnum's Aquarial Gardens , Boston, Massachusetts (1862–1863)\n* John Genin\n* Cardiff Giant\n* Colonel Routh Goshen\n* Carl Hagenbeck\n* Forest King\n* Human zoo\n* Fedor Jeftichew\n* Nellie Keeler\n* Isaac W. Sprague\n* Wild Men of Borneo\n* Lucia Zarate\n* Oong Ar-Showe , who worked as an interpreter for Barnum\n* Zip the Pinhead\n\nReferences\n\n[ edit ]\n1. ↑ North American Theatre Online: Phineas T. Barnum\n2. ↑ Kunhardt, Kunhardt & Kunhardt 1995 , p. vi\n3. ↑ Shapiro, Fred R. (2006). The Yale Book of Quotations\n\n...\n\n1782439935\n\nExternal links\n\n[ edit ]\n*  | This article's use of external links may not follow Wikipedia's policies or guidelines .\n\n...\n\n* Museum founders\n* 19th-century Christian universalists\n* American circus owners\n* American abolitionists\n* 19th-century American businesspeople\n* 19th-century mayors of places in Connecticut"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5969,
+    "completion_tokens": 389,
+    "total_tokens": 6358,
+    "cost": 0.00111792088,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000119112,
+      "upstream_inference_prompt_cost": 0.000107442,
+      "upstream_inference_completions_cost": 0.00001167
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "\"Barnum\" \"bibliographical references\"",
+  "bookId": "shelf-a9f899cd78a4",
+  "retrieved": "2026-11-01T23:13:05.221Z"
+}

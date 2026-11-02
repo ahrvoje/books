@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574389-bdlugz9P9WlkuvOjNXXp",
+  "object": "chat.completion",
+  "created": 1793574389,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g0422:amazon:https://www.amazon.com/Chaos-Monkeys-Obscene-Fortune-Failure/dp/0062458191\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as ratings.\"\n    },\n    {\n      \"key\": \"n36b6ba3cf3:amazon:https://www.amazon.com/Different-Gender-Through-Eyes-Primatologist/dp/1324007109\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as ratings.\"\n    },\n    {\n      \"key\": \"rem-u1621:amazon:https://www.amazon.com/Moral-Animal-Science-Evolutionary-Psychology/dp/0679763996\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"n3601f83f7f:amazon:https://www.amazon.com/Parallel-Worlds-Journey-Creation-Dimensions/dp/1400033721\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"intake-0050:amazon:https://www.amazon.com/Billion-Dollar-Loser-Spectacular-Neumann/dp/0316461369\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3395,
+    "completion_tokens": 419,
+    "total_tokens": 3814,
+    "cost": 0.0002012373,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020327,
+      "upstream_inference_prompt_cost": 0.00016975,
+      "upstream_inference_completions_cost": 0.00003352
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:06:33.361Z"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574397-KxNdjxW2XYtzKNo5s39a",
+  "object": "chat.completion",
+  "created": 1793574397,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"intake-0260:amazon:https://www.amazon.com/Perfect-Storm-True-Story-Against/dp/0393337014\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 3,377.\"\n    },\n    {\n      \"key\": \"rest-28-25:amazon:https://www.amazon.com/Invisible-Hook-Hidden-Economics-Pirates/dp/0691150095\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 309.\"\n    },\n    {\n      \"key\": \"g0689:amazon:https://www.amazon.com/Permanent-Record-Edward-Snowden/dp/1250772907\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 17,187.\"\n    },\n    {\n      \"key\": \"g1029:amazon:https://www.amazon.com/Deng-Xiaoping-Transformation-China-Vogel/dp/0674055446\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 639.\"\n    },\n    {\n      \"key\": \"intake-0448:amazon:https://www.amazon.com/Philosophy-Flesh-Embodied-Challenge-Western/dp/0465056741\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a rating count of 143.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3405,
+    "completion_tokens": 428,
+    "total_tokens": 3833,
+    "cost": 0.0002024451,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020449,
+      "upstream_inference_prompt_cost": 0.00017025,
+      "upstream_inference_completions_cost": 0.00003424
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:06:40.787Z"
+}

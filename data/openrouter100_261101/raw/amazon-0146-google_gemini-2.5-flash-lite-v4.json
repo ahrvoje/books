@@ -1,0 +1,60 @@
+{
+  "retrieved": "2026-11-01T22:14:41.050Z",
+  "bookId": "progress-0168",
+  "id": "gen-1793571281-wUJrMa20I34TY2OYvDjl",
+  "object": "chat.completion",
+  "created": 1793571281,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"progress-0168\",\n  \"title\": \"Libraries of the Future\",\n  \"author\": \"J. C. R. Licklider\",\n  \"knownEdition\": {\n    \"id\": \"/books/OL5942946M\",\n    \"url\": \"https://openlibrary.org/books/OL5942946M\",\n    \"pages\": 219\n  },\n  \"purchaseUrl\": \"https://www.amazon.de/dp/026212016X\",\n  \"amazon\": null,\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.co.uk/Beyond-Library-Future-Alternative-Futures/dp/1563084562\"\n  ],\n  \"limitations\": \"No Amazon product found for the specified book title and author. The search result found a different book with a similar title: 'Beyond the Library of the Future: More Alternative Futures for the Public Library' by Bruce A. Shuman.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.co.uk/Beyond-Library-Future-Alternative-Futures/dp/1563084562",
+              "title": "Beyond the Library of the Future: More Alternative Futures for the Public Library: Amazon.co.uk: Shuman, Bruce A.: 9781563084560: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Beyond the Library of the Future: More Alternative Futures for the Public Library: Amazon.co.uk: Shuman, Bruce A.: 9781563084560: Books\n\n Paperback — \n\nCurrently unavailable. We don't know when or if this item will be back in stock. \n\n- \n- \n\nBruce A. Shuman\n\n by Bruce A. Shuman (Author) Format: Paperback \n\nWith insightful comments from a variety of sources-and a generous dose of humor-Shuman builds fictional scenarios that are guaranteed to get librarians thinking, What if…? Eight new scenarios explore such developments as virtual reality, robots, time travel, computer viruses, security, and more-all within the context of the public library (or cybrary, as the author calls it). Written in a conversational tone, the book is intended to stimulate discourse and exploration of issues. Current trends are carefully woven into each scenario as Shuman investigates issues surrounding the library's role in the future. A list of quotations about the future and an extensive bibliography for further reading conclude the work. This book is a sequel to (not a revision of) Shuman's previous work The Library of the Future. Like its predecessor, it is entertaining and thought-provoking-a great read for librarians, library administrators, and students in library school.\n\n1. Reading age 7 - 17 years \n2. Print length 212 pages \n3. Language English \n4. Dimensions 15.6 x 1.27 x 23.39 cm \n5. Publisher Libraries Unlimited Inc \n6. Publication date 15 Mar. 1997 \n7. ISBN-10 1563084562 \n8. ISBN-13 978-1563084560 \n\n### Review\n\n \"Shuman's book could be either a useful jump-start in preparing for the future or, alternatively, a primer for readers to chart their own scenarios and, ultimately, strategies.\"-Journal of the American Society for Information Science \n\n### About the Author\n\nBRUCE A. SHUMAN is Adjunct Professor, Texas Woman's University, School of Library & Information Science, Denton.\n\n...\n\n## Product details\n\n- Publisher ‏ : ‎ Libraries Unlimited Inc \n- Publication date ‏ : ‎ 15 Mar. 1997 \n- Language ‏ : ‎ English \n- Print length ‏ : ‎ 212 pages \n- ISBN-10 ‏ : ‎ 1563084562 \n- ISBN-13 ‏ : ‎ 978-1563084560"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1223,
+    "completion_tokens": 259,
+    "total_tokens": 1482,
+    "cost": 0.007223641,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002259,
+      "upstream_inference_prompt_cost": 0.0001223,
+      "upstream_inference_completions_cost": 0.0001036
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

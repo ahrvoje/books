@@ -1,0 +1,117 @@
+{
+  "id": "gen-1793575726-akCCJbmjEsKeNJGCYBHA",
+  "object": "chat.completion",
+  "created": 1793575726,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Leys-Simon/s?rh=n%3A283155%2Cp_27%3ALeys%2BSimon",
+              "title": "Leys Simon: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nLeys Simon: Books\nThe Hall of Uselessness: Collected Essays (New York Review Books Classics) · by Simon Leys · Paperback. Add to cart. Other format: Kindle."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Wreck-Batavia-True-Story/dp/1560258217",
+              "title": "The Wreck of the Batavia: A True Story: Leys, Simon",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Wreck of the Batavia: A True Story: Leys, Simon\nSimon Leys recounts the 1629 \"Batavia\" shipwreck where survivors faced a psychopath's massacre, drawing parallels to totalitarian atrocities, plus an elegiac"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/es/Ideas-ajenas-Simon-Leys/dp/8494383051",
+              "title": "Ideas ajenas - Leys ., Simon, Lanero ., Teresa: Libros",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nIdeas ajenas - Leys ., Simon, Lanero ., Teresa: Libros\nUna antología que reuniera citas elegidas solo por su elocuencia, su profundidad, su chispa o su belleza correría el riesgo de ser aburrida, interminable e"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/he/Simon-Leys-ebook/dp/B00N6PB7YE",
+              "title": "The Death of Napoleon (New York Review Books Classics)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Death of Napoleon (New York Review Books Classics)\nAmazon.com: The Death of Napoleon eBook : Leys, Simon, Clancy, Adapted into Alan Taylor's 2001 film The Emperor's New Clothes, The Death of Napoleon is a smart"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Abolition-Political-Parties-NYRB-Classics/dp/1590177819",
+              "title": "On the Abolition of All Political Parties (NYRB Classics)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nOn the Abolition of All Political Parties (NYRB Classics)\nSimone Weil challenges partisan politics, arguing that party spirit corrupts truth, education, journalism, and art, threatening democracy worldwide.\nOn the Abolition of All Political Parties (NYRB Classics)\nWhat's it about? Simone Weil challenges partisan politics, arguing that party spirit corrupts truth, education, journalism, and art, threatening democracy\n\n## \n\nOn the Abolition of All Political Parties (NYRB Classics)\nSimone Weil challenges partisan politics, arguing that party spirit corrupts truth, education, journalism, and art, threatening democracy worldwide."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Analects-Confucius-1998-01-14/dp/B01K0UGOQS",
+              "title": "The Analects of Confucius by Confucius (1998-01-14)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Analects of Confucius by Confucius (1998-01-14)\nA collection of moral and political teachings compiled by Confucius's disciples, focusing on ancient wisdom and ceremonial conduct rather than theology or"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1076,
+    "completion_tokens": 1,
+    "total_tokens": 1077,
+    "cost": 0.00101920402,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000019398,
+      "upstream_inference_prompt_cost": 0.000019368,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Hall of Uselessness\" Simon Leys \"global ratings\"",
+  "bookId": "shelf-74566cb0656c",
+  "retrieved": "2026-11-01T23:28:47.977Z"
+}

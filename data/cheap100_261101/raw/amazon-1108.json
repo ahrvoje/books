@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572407-G12QSAtdGCk26McXxkBn",
+  "object": "chat.completion",
+  "created": 1793572407,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"n4e758d1d82\",\n  \"title\": \"Dynamo and Virgin Reconsidered: Essays in the Dynamism of Western Culture\",\n  \"author\": \"Lynn White Jr.\",\n  \"amazon\": {\n    \"count\": 288,\n    \"url\": \"https://www.amazon.com/Dynamo-Virgin-Reconsidered-Lynn-White/dp/0262730243\",\n    \"asin\": \"0262730243\",\n    \"evidence\": \"https://www.amazon.com/Dynamo-Virgin-Reconsidered-Lynn-White/dp/0262730243\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Dynamo-Virgin-Reconsidered-Lynn-White/dp/0262730243",
+              "title": "Dynamo and Virgin Reconsidered MacHina Ex Deo",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Dynamo and Virgin Reconsidered MacHina Ex Deo [lynn-white] on Amazon.com. *FREE* shipping on qualifying offers. Dynamo and Virgin Reconsidered MacHina Ex"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Lynn-White-Jr/s?rh=n%3A283155%2Cp_27%3ALynn%2BWhite%2BJr.",
+              "title": "Lynn White Jr.: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "DYNAMO AND VIRGIN RECONSIDERED: Essays in the Dynamism of Western Culture · by Lynn Jr."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Dynamo-Virgin-Reconsidered-Dynamism-Western/dp/B000J3IS70",
+              "title": "Dynamo and Virgin Reconsidered - Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Dynamo and Virgin Reconsidered: Essays in the Dynamism of Western Culture [White, Lynn, Jr] on Amazon.com. *FREE* shipping on qualifying offers."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B00NMWRBTG",
+              "title": "Joyce Lynn White: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nJoyce Lynn White: books, biography, latest update\nJoyce White Nelson, M.Ed., PBIS, is a nationally recognized educational leader in trust-centered systems growth, keynote speaker, certified positive behavioral\n\n## \n\nJoyce Lynn White: books, biography, latest update\n... founder of iQuoteHero™ Public Benefit Corporation — a platform that amplifies human connection through ethics-guided AI... Read full bio. Most popular. Global\n\n## \n\nJoyce Lynn White: books, biography, latest update - Amazon.com\nJoyce White Nelson, M.Ed., PBIS, is a nationally recognized educational leader in trust-centered systems growth, keynote speaker, certified positive behavioral\n\n## \n\nJoyce Lynn White: books, biography, latest update\nJoyce is the author of SHIFT, Authentic Networking!, and the Perfect Networker series. She is a past president of Women in Management (Green Bay, WI), an\nJoyce Lynn White: books, biography, latest update\nJoyce White Nelson, M.Ed., PBIS, is a nationally recognized educational leader in trust-centered systems growth, keynote speaker, certified positive behavioral"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B0034NVO28",
+              "title": "Lynn White: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nLynn White: books, biography, latest update\nFollow Lynn White and explore their bibliography from Amazon&#39;s. Most popular The Transformation of the Roman World: Gibbon's Problem after Two Centuries.\n\n## \n\nLynn White: books, biography, latest update\nFollow Lynn White and explore their bibliography from Amazon's Lynn White Author Page."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 982,
+    "completion_tokens": 172,
+    "total_tokens": 1154,
+    "cost": 0.00502260764,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000022836,
+      "upstream_inference_prompt_cost": 0.000017676,
+      "upstream_inference_completions_cost": 0.00000516
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "n4e758d1d82",
+  "retrieved": "2026-11-01T22:33:39.869Z"
+}

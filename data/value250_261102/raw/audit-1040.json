@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575651-Zgo0GMc16qgps4aMAmbl",
+  "object": "chat.completion",
+  "created": 1793575651,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rest-55-48:amazon:https://www.amazon.com/Osmans-Dream-History-Ottoman-Empire/dp/0465023967\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly labelled as 'global ratings'.\"\n    },\n    {\n      \"key\": \"intake-0293:amazon:https://www.amazon.com/Entirely-Synthetic-Fish-Rainbow-Beguiled/dp/0300140878\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly labelled as 'global ratings'.\"\n    },\n    {\n      \"key\": \"g1163:amazon:https://www.amazon.com/Random-Walk-Down-Wall-Street/dp/0393340740\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly labelled as 'global ratings'.\"\n    },\n    {\n      \"key\": \"g1289:amazon:https://www.amazon.com/Black-Flags-Rise-Joby-Warrick/dp/0385538219\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly labelled as 'ratings'.\"\n    },\n    {\n      \"key\": \"shelf-7b96f40f7246:amazon:https://www.amazon.com/Henry-J-Kaiser-Builder-American/dp/0292742266\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly labelled as 'ratings'. The print length is explicitly stated as 406 pages.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3440,
+    "completion_tokens": 453,
+    "total_tokens": 3893,
+    "cost": 0.0002061576,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020824,
+      "upstream_inference_prompt_cost": 0.000172,
+      "upstream_inference_completions_cost": 0.00003624
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:27:40.037Z"
+}

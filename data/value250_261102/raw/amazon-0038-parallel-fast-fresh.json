@@ -1,0 +1,97 @@
+{
+  "id": "gen-1793575518-VMG1xC6zk0UuOJmSJGmr",
+  "object": "chat.completion",
+  "created": 1793575518,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Chaos-Systems-Mathematics-Science-Books/b?ie=UTF8&node=13567",
+              "title": "Amazon.com: Chaos Theory: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": ".us\nDelivering to Council B... 51502 Update location\nChaos Theory\nChaos Theory All Departments Alexa Skills Amazon Autos Amazon Devices Amazon Global Store Amazon Haul Amazon Luxury Amazon One\n\n...\n\nChaos Theory\n\nAmazon Prime\n* Prime Eligible\n\n...\n\n1-12 of over 2,000 results for Chaos Theory\nLiber Null & Psychonaut: The Practice of Chaos Magic (Revised and Expanded Edition) (Weiser Classics Series)\n## Liber Null & Psychonaut: The Practice of Chaos Magic (Revised and Expanded Edition) (Weiser Classics Series)\nby Peter J. Carroll and Ronald Hutton\n4.7 4.7 out of 5 stars (243)\nPaperback\n\n...\n\nMore Buying Choices $14.95 (10+ used & new offers)\nBest Seller in Chaos Theory\nChaos: Making a New Science\n## Chaos: Making a New Science\nby James Gleick\n4.5 4.5 out of 5 stars (3.1K)\nPaperback\nPrice, product page $19.20 $ 19 . 20 List: $23.00 List: $23.00 $23.00\n\n...\n\nNonlinear Dynamics and Chaos in Semiconductors (Condensed Matter Physics)\n## Nonlinear Dynamics and Chaos in Semiconductors (Condensed Matter Physics)\nPart of: Condensed Matter Physics (7 books)\nHardcover\nNotes on Complexity: A Scientific Theory of Connection, Consciousness, and Being\n\n...\n\nMaking Sense of Chaos: A Better Economics for a Better World\n## Making Sense of Chaos: A Better Economics for a Better World\nby J. Doyne Farmer\n4.4 4.4 out of 5 stars (155)\nHardcover"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Cosmos-Chaos-World-Come-2nd/dp/0300090889",
+              "title": "Cosmos, Chaos, and the World to Come, 2nd Edition",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nCosmos, Chaos, and the World to Come, 2nd Edition\nLanguage. English ; Publisher. Yale University Press ; Publication date. September 1, 2001 ; Dimensions. 7.7 x 4.9 x 0.7 inches ; ISBN-10. 0300090889.\n\n## \n\nCosmos, Chaos, and the World to Come, 2nd Edition - Amazon.com\nExplores how ancient civilizations' static worldview transformed through Zoroaster's revolutionary idea of a final battle between good and evil forces,\n\n## \n\nCosmos, Chaos, and the World to Come, 2nd Edition\nIn this engrossing book, the author of the classic work The Pursuit of the Millennium takes us on a journey of exploration, through the world-views of ancient\n\n## \n\nCosmos, Chaos, and the World to Come, 2nd Edition: Cohn ...\nFor Zoroaster, the world was moving, through incessant conflict, toward a conflictless state―“cosmos without chaos.” The time would come when, in a prodigious battle, the supreme god would utterly defeat the forces of chaos and their human allies and eliminate them forever, and so bring an absolutely good world into being."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Descent-into-Chaos-Building-Afghanistan/dp/1455837431",
+              "title": "Descent into Chaos: The United States and the Failure of ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nDescent into Chaos: The United States and the Failure of ...\nDescent into Chaos: The United States and the Failure of Nation Building in Pakistan, Afghanistan, and Central Asia [Rashid, Ahmed, Morey, Arthur, Perez,\n\n## \n\nDescent into Chaos: The United States and the Failure of ...\nIn Descent Into Chaos, Rashid reviews the regional conditions since 9/11 and the catastrophic aftermath of America's failed war on terror. The underlying theme"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Chaos-Violence-Globalization-Terrorism-Foreign/dp/0742540715",
+              "title": "Chaos and Violence: What Globalization, Failed States ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nChaos and Violence: What Globalization, Failed States ...\nStanley Hoffmann examines U.S. foreign policy post-9/11, exploring intervention ethics, human rights morality, repairing European relations, and the dangers of"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1376,
+    "completion_tokens": 1,
+    "total_tokens": 1377,
+    "cost": 0.00102455002,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000024798,
+      "upstream_inference_prompt_cost": 0.000024768,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Chaos Avant-Garde\" Ralph Abraham; Yoshisuke Ueda (editors) \"global ratings\"",
+  "bookId": "na92a76e14d",
+  "retrieved": "2026-11-01T23:25:20.345Z"
+}

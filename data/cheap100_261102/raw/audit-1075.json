@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574486-dXm3kmtGaF9QvQPUrpEk",
+  "object": "chat.completion",
+  "created": 1793574486,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-20f22aa6b70a:amazon:https://www.amazon.com/dp/B01FKTM2ME\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 3 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"n5bf3f42e77:amazon:https://www.amazon.com/The-Status-Game/dp/0008354634\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 1,072 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1835:amazon:https://www.amazon.com/Talent-Code-Greatness-Born-Grown/dp/055380684X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 4,445 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1051:amazon:https://www.amazon.com/Medical-Apartheid-Experimentation-Americans-Colonial/dp/076791547X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 6,822 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"complete-402-305:amazon:https://www.amazon.com/Gift-Fear-Survival-Signals-Violence/dp/0440226198\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 13,785 global ratings is explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3482,
+    "completion_tokens": 422,
+    "total_tokens": 3904,
+    "cost": 0.0002057814,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020786,
+      "upstream_inference_prompt_cost": 0.0001741,
+      "upstream_inference_completions_cost": 0.00003376
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:08:08.740Z"
+}

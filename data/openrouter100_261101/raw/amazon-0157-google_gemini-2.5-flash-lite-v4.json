@@ -1,0 +1,70 @@
+{
+  "retrieved": "2026-11-01T22:14:48.966Z",
+  "bookId": "intake-0172",
+  "id": "gen-1793571289-E0fhBrYPEvnJri6lqiLg",
+  "object": "chat.completion",
+  "created": 1793571289,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"intake-0172\",\n  \"title\": \"History of Programming Languages\",\n  \"author\": \"Richard L. Wexelblat; Thomas J. Bergin; Richard G. Gibson; subsequent editors\",\n  \"knownEdition\": null,\n  \"purchaseUrl\": \"https://www.amazon.de/s?k=History%20of%20Programming%20Languages%20Richard%20L.%20Wexelblat%3B%20Thomas%20J.%20Bergin%3B%20Richard%20G.%20Gibson%3B%20subsequent%20editors\",\n  \"amazon\": null,\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.co.uk/Engineers-Scientists-Iconoclasts-Programmers-Revolution/dp/0465042260\",\n    \"https://www.amazon.co.uk/Engineers-Scientists-Iconoclasts-Programmers-Revolution/dp/0465042252\"\n  ],\n  \"limitations\": \"The search results provided information about a book titled \\\"Go To: The Story of the Math Majors, Bridge Players, Engineers, Chess Wizards, Maverick Scientists, and Iconoclasts-- The Programmers Who Created the Software Revolution\\\" by Steve Lohr, not the requested \\\"History of Programming Languages\\\" by Richard L. Wexelblat et al. Therefore, no Amazon product details, page counts, or reference information could be found for the specified book.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.co.uk/Engineers-Scientists-Iconoclasts-Programmers-Revolution/dp/0465042260",
+              "title": "Go To: The Story of the Math Majors, Bridge Players, Engineers, Chess Wizards, Maverick Scientists, and Iconoclasts- The Programmers Who Created the Software Revolution: Amazon.co.uk: Lohr, Steve: 9780465042265: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Go To: The Story of the Math Majors, Bridge Players, Engineers, Chess Wizards, Maverick Scientists, and Iconoclasts- The Programmers Who Created the Software Revolution: Amazon.co.uk: Lohr, Steve: 9780465042265: Books\n\n...\n\n# Go To: The Story of the Math Majors, Bridge Players, Engineers, Chess Wizards, Maverick Scientists, and Iconoclasts-- The Programmers Who Created the Software Revolution \n\n by Steve Lohr (Author) Format: Paperback \n\n 4.2 4.2 out of 5 stars (14) \n\n In Go To, Steve Lohr chronicles the history of software from the early days of complex mathematical codes mastered by a few thousand to today's era of user-friendly software and over six million professional programmers worldwide. Lohr maps out the unique seductions of programming, and gives us an intimate portrait of the peculiar kind of genius that is drawn to this blend of art, science, and engineering, introducing us to the movers and shakers of the 1950s and the open-source movement of today. With original reporting and deft storytelling, Steve Lohr shows us how software transformed the world, and what it holds in store for our future. \n\n1. Print length 266 pages \n2. Language English \n3. Publication date 10 Oct. 2002 \n4. Dimensions 13.46 x 1.6 x 20.57 cm \n5. ISBN-10 0465042260 \n6. ISBN-13 978-0465042265 \n\n### About the Author\n\n Steve Lohr, senior writer and technology correspondent for the New York Times, and is co-author of U.S. v. Microsoft. He lives in New York City. \n\n## Product details\n\n- Publisher ‏ : ‎ Basic Books \n- Publication date ‏ : ‎ 10 Oct. 2002 \n- Edition ‏ : ‎ Revised ed. \n- Language ‏ : ‎ English \n- Print length ‏ : ‎ 266 pages \n- ISBN-10 ‏ : ‎ 0465042260 \n- ISBN-13 ‏ : ‎ 978-0465042265\n\n...\n\newomack\n\n##### Outdated, but still a useful resource for the history of computing and programming...\n\nReviewed in the United States on 25 December 2018\n\nFormat: Hardcover\n\n...\n\nTo add yet another layer to an already lumbering pile of skepticism, the history of computer programming languages appears even more ephemeral than that of computers in general.\n\n...\n\nWell, no. First of all, very few books on the history of programming languages exist. The few that do exist date from the 1960s to the 1990s. An expensive two-volume tome, called \"History of Programming Languages,\" from 1996 contains a few thousand pages of papers from an academic conference. This might accommodate those of an academic bend, but it might not be an easy place to start, given both the set's cost and length, for working programmers. In 2001, a much shorter book aimed at general readers appeared called \"Go To,\" or, to give its exhaustingly full title, \"Go To: The Story of the Math Majors, Bridge Players, Engineers, Chess Wizards, Maverick Scientists and Iconoclasts - The Programmers who Created the Software Revolution.\" Though often listed amongst the very few books that delineate the history of programming languages, the book's full title helps reveal what the book really contains. It does include a history of programming languages, true, but not one with much technical depth. For one, the book contains very little actual code, with an emphasis on \"very little.\" Also, the author doesn't appear to have ever worked as a programmer. Anyone expecting anything resembling a detailed technical analysis or a comparison on the usability of one language over another will not find it here. In fact, programmers will likely learn little to nothing about the art or craft of programming from this book. It will not make anyone into a better programmer.\n\nDespite that, \"Go To\" still deserves a read, especially by programmers. It may not make anyone a better programmer, but it will heighten historic awareness of the profession, reveal just how programming fits into the business of computing overall and how it ultimately became a viable profession. ... The book's main narrative begins with IBM's struggles in the 1950s to make programming its hardware easier. Assembly language then dominated and its close to the machine and sometimes mystical nature kept programming relegated to a \"priesthood\" of specialists. FORTRAN and compilers changed all of that, it also ushered in the era of disgruntled programmers complaining about disruptive technology devaluing their skills by making programming \"easier.\" Fear of job losses by people holding the title of \"Computer,\" once a human occupation, also created anxiety right at the dawn of the business computing era. Higher level languages proved themselves and FORTRAN spawned many descendants, including Lisp, Algol and COBOL. In the 1960s, COBOL, with its designed by committee English-like syntax, claimed to make programming accessible to business users, but programming nonetheless remained a specialty staffed by people that embodied an evasive skill set difficult to ascertain.\n\n...\n\nThe narrative moves in roughly chronological order, but some stories span a number of chapters, sometimes non-contiguous chapters. It also states openly that it does not present a definitive history, but it does give a decent high-level overview of computing and programming up to the years of 2000 and 2001."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.co.uk/Engineers-Scientists-Iconoclasts-Programmers-Revolution/dp/0465042252",
+              "title": "Go to: The Story of the Math Majors, Bridge Players, Engineers, Chess Wizards, Scientists and Iconoclasts Who Were the Hero Programmers of the Software Revolution: Amazon.co.uk: Lohr, Steve: 9780465042258: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Go to: The Story of the Math Majors, Bridge Players, Engineers, Chess Wizards, Scientists and Iconoclasts Who Were the Hero Programmers of the Software Revolution: Amazon.co.uk: Lohr, Steve: 9780465042258: Books\n\n...\n\nby Steve Lohr (Author) \n\n 4.2 4.2 out of 5 stars (14) \n\n The remarkable story of the scientific revolution that made the new economy possible-software-told through the unsung heroes of programming and their achievements. . In the 1950s, just before John Backus's team developed the Fortran language that revolutionized the first generation of programming, it took dozens of full-time programmers and operators to run and debug each of the era's room-sized computers. Today, languages like HTML are simple enough that anyone who knows it can set up a personal Web page, using a laptop that has many times the power of those early giant computers. In Go To, Steve Lohr chronicles the history of software from the early days of complex mathematical codes mastered by a few thousand to today's era of user-friendly software and over six million professional programmers worldwide. Lohr maps out the unique seductions of programming, and gives us an intimate portrait of the peculiar kind of genius that is drawn to this unique blend of art, science, and engineering. We meet the movers and shakers of every era from the 1950s to the open-source movement of today-iconoclasts such as Ken Thompson and Dennis Ritchie, the Bell Labs engineers whose Unix operating system and C programming language loosened the grip of IBM; Charles Simonyi, the father of Word, the most popular software application; and James Gosling, the creative force behind Java, the leading programming language for the Internet. With original reporting and deft storytelling, Steve Lohr shows us how software transformed the world, and what it holds in store for our future.\n\n...\n\n1. ISBN-10 0465042252 \n2. ISBN-13 978-0465042258 \n3. Edition New \n4. Publisher Basic Books \n5. Publication date 17 Oct. 2001 \n6. Language English \n7. Dimensions 16.51 x 3.18 x 24.13 cm \n8. Print length 264 pages\n\n...\n\n- Publication date ‏ : ‎ 17 Oct. 2001 \n- Edition ‏ : ‎ New\n\n...\n\newomack\n\n##### Outdated, but still a useful resource for the history of computing and programming...\n\nReviewed in the United States on 25 December 2018\n\n...\n\nWell, no. First of all, very few books on the history of programming languages exist. The few that do exist date from the 1960s to the 1990s. An expensive two-volume tome, called \"History of Programming Languages,\" from 1996 contains a few thousand pages of papers from an academic conference. This might accommodate those of an academic bend, but it might not be an easy place to start, given both the set's cost and length, for working programmers. In 2001, a much shorter book aimed at general readers appeared called \"Go To,\" or, to give its exhaustingly full title, \"Go To: The Story of the Math Majors, Bridge Players, Engineers, Chess Wizards, Maverick Scientists and Iconoclasts - The Programmers who Created the Software Revolution.\" Though often listed amongst the very few books that delineate the history of programming languages, the book's full title helps reveal what the book really contains. It does include a history of programming languages, true, but not one with much technical depth. For one, the book contains very little actual code, with an emphasis on \"very little.\" Also, the author doesn't appear to have ever worked as a programmer. Anyone expecting anything resembling a detailed technical analysis or a comparison on the usability of one language over another will not find it here. In fact, programmers will likely learn little to nothing about the art or craft of programming from this book. It will not make anyone into a better programmer.\n\n...\n\nThe narrative moves in roughly chronological order, but some stories span a number of chapters, sometimes non-contiguous chapters. It also states openly that it does not present a definitive history, but it does give a decent high-level overview of computing and programming up to the years of 2000 and 2001."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3022,
+    "completion_tokens": 367,
+    "total_tokens": 3389,
+    "cost": 0.00744451,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000449,
+      "upstream_inference_prompt_cost": 0.0003022,
+      "upstream_inference_completions_cost": 0.0001468
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

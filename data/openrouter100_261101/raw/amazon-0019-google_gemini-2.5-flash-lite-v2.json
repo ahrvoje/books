@@ -1,0 +1,60 @@
+{
+  "retrieved": "2026-11-01T22:11:42.169Z",
+  "bookId": "rest-21-18",
+  "id": "gen-1793571103-wTvQIj6PdMnbaaPAfSwY",
+  "object": "chat.completion",
+  "created": 1793571103,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"rest-21-18\",\n  \"title\": \"Codes of the Underworld: How Criminals Communicate\",\n  \"author\": \"Diego Gambetta\",\n  \"amazon\": null,\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Sicilian-Mafia-Business-Private-Protection/dp/0674807413\"\n  ],\n  \"limitations\": \"The search results provided information about a different book by the same author, \\\"The Sicilian Mafia: The Business of Private Protection.\\\" While it mentioned \\\"Codes of the Underworld\\\" in a customer review, it did not provide direct product information or ratings for \\\"Codes of the Underworld\\\" on amazon.com. Therefore, I cannot fulfill the request for \\\"Codes of the Underworld\\\" based on the provided search results.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Sicilian-Mafia-Business-Private-Protection/dp/0674807413",
+              "title": "Follow the author",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Sicilian Mafia: The Business of Private Protection: Gambetta, Diego: 9780674807419: Amazon.com: Books\n\n...\n\n# Follow the author\n\nDiego Gambetta\n\nFollow\n\nSomething went wrong. Please try your request again later.\n\nby\n\n4.2 out of 5 stars 33 ratings\n\nSee all formats and editions\n\n---\n\nIn a society where trust is in short supply and democracy weak, the Mafia sells protection, a guarantee of safe conduct for parties to commercial transactions. Drawing on the confessions of eight Mafiosi, Diego Gambetta develops an elegant analysis of the economic and political role of the Sicilian Mafia.\n\nRead more\n\n...\n\nPrevious slide of product details\n\nISBN-10\n\n0674807413\n\nISBN-13\n\n978-0674807419\n\nEdition\n\n0\n\nPublisher\n\nHarvard University Press\n\nPublication date\n\nJanuary 1, 1993\n\nLanguage\n\nEnglish\n\nDimensions\n\n6.5 x 1.25 x 9.5 inches\n\nPrint length\n\n346 pages\n\n...\n\n---\n\n## Customers who viewed this item also viewed\n\nPage 1 of 1 Start overPage 1 of 1\n\nPrevious set of slides\n\nCosa Nostra: A History of the Sicilian Mafia\n\nJohn Dickie\n\nPaperback\n\n-45%$14.29\n\nList: $25.99\n\nGet it as soon as Friday, May 2\n\nFREE Shipping on orders over $35 shipped by Amazon\n\nCodes of the Underworld: How Criminals Communicate\n\nDiego Gambetta\n\nPaperback\n\n$32.00\n\nGet it as soon as Friday, May 2\n\nFREE Shipping on orders over $35 shipped by Amazon\n\nNext set of slides\n\n...\n\nCustomer Reviews:\n\n4.2 out of 5 stars 33 ratings\n\n...\n\n## Customer reviews\n\n4.2 out of 5 stars\n\n33 global ratings\n\n- 1 star4%\n- 2 star4%\n- 3 star11%\n- 4 star24%\n- 5 star57%\n\nHow customer reviews and ratings work\n\nCustomer Reviews, including Product Star Ratings help customers to learn more about the product and decide whether it is the right product for them.\n\nTo calculate the overall star rating and percentage breakdown by star, we don’t use a simple average. Instead, our system considers things like how recent a review is and if the reviewer bought the item on Amazon. It also analyzed reviews to verify trustworthiness.\n\nLearn more how customers reviews work on Amazon\n\n---\n\n...\n\nAI-generated from the text of customer reviews\n\n...\n\n\"Fascinating stuff. Compliments \"Codes of the Underworld.\"\"\n\n...\n\nNarbona\n\n##### 5.0 out of 5 stars GREAT BOOK\n\nReviewed in the United States on July 21, 2023\n\nVerified Purchase\n\nFascinating stuff. Compliments \"Codes of the Underworld.\"\n\nRead more\n\nHelpful\n\nReport\n\n...\n\n### Top reviews from other countries\n\nJamie Andrews\n\n##### 4.0 out of 5 stars Initially a little dry\n\nReviewed in Australia on January 22, 2022"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1298,
+    "completion_tokens": 205,
+    "total_tokens": 1503,
+    "cost": 0.007209682,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002118,
+      "upstream_inference_prompt_cost": 0.0001298,
+      "upstream_inference_completions_cost": 0.000082
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

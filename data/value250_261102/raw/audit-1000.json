@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575549-Fj4i22Nm0gMNfdhCIAhw",
+  "object": "chat.completion",
+  "created": 1793575549,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-91e900ef9d3f:amazon:https://www.amazon.com/Status-Culture-Creates-Identity-Constant/dp/0593296702\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 251 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1123:amazon:https://www.amazon.com/What-Learned-Losing-Million-Dollars/dp/0963579495\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 1,798 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-1aecb42a953a:amazon:https://www.amazon.com/Fate-Rome-Climate-Disease-Princeton/dp/0691166838\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 624 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"progress-0170:amazon:https://www.amazon.com/Toward-Theory-Instruction-Jerome-Bruner/dp/0674897005\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 27 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u0964:reference:https://library.usi.edu/record/1405308?ln=en&p=subjectheading%3A%5BInternationale+conflicten.%5D\",\n      \"status\": \"reject\",\n      \"reason\": \"Author list mismatch. Source lists Margaret MacMillan, Richard Holbrooke, Casey Hampton, but sourceText lists only Margaret MacMillan, Richard Holbrooke.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3494,
+    "completion_tokens": 439,
+    "total_tokens": 3933,
+    "cost": 0.0002077218,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020982,
+      "upstream_inference_prompt_cost": 0.0001747,
+      "upstream_inference_completions_cost": 0.00003512
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:25:55.865Z"
+}

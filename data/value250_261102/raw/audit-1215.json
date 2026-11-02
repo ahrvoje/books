@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575782-UbUIudNW9yoPH2Z2DXtA",
+  "object": "chat.completion",
+  "created": 1793575782,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g1014:amazon:https://www.amazon.com/American-Nations-History-Regional-Cultures/dp/0143122029\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 5,248 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1191:amazon:https://www.amazon.com/History-Mary-Prince-Penguin-Classics/dp/0140437495\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 220 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-4c5f91a756c8:amazon:https://www.amazon.com/Four-Pillars-Investing-Building-Portfolio/dp/0071385290\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 1,124 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"n7fe336bbf9:amazon:https://www.amazon.com/Save-Everything-Click-Here-Technological/dp/1610391381\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 195 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u0801:amazon:https://www.amazon.com/Doughnut-Economics-Seven-21st-Century-Economist/dp/1847941397\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 3,979 global ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3549,
+    "completion_tokens": 426,
+    "total_tokens": 3975,
+    "cost": 0.0002094147,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021153,
+      "upstream_inference_prompt_cost": 0.00017745,
+      "upstream_inference_completions_cost": 0.00003408
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:29:47.455Z"
+}

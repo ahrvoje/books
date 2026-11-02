@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:42.543Z",
+  "bookId": "shelf-174bf7d583b1",
+  "id": "gen-1793571221-2GDcXDkZc1XIh7pQ9b69",
+  "object": "chat.completion",
+  "created": 1793571221,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-174bf7d583b1\",\n  \"title\": \"The Lifeways of Hunter-Gatherers: The Foraging Spectrum\",\n  \"author\": \"Robert L. Kelly\",\n  \"amazon\": {\n    \"count\": 10,\n    \"stars\": 4.5,\n    \"asin\": \"1107607612\",\n    \"marketplace\": \"amazon.com\",\n    \"url\": \"https://www.amazon.com/Lifeways-Hunter-Gatherers-Foraging-Spectrum/dp/1107607612\",\n    \"evidence\": \"10 global ratings\",\n    \"sourceTitle\": \"The Lifeways of Hunter-Gatherers: The Foraging Spectrum\",\n    \"sourceAuthor\": \"Robert L. Kelly\"\n  },\n  \"pages\": {\n    \"count\": 376,\n    \"editionId\": \"ISBN:9781107607613\",\n    \"editionYear\": null,\n    \"format\": \"Paperback\",\n    \"language\": null,\n    \"url\": \"https://www.cambridge.org/core/books/lifeways-of-huntergatherers/119FA31DAC04B7A4787D1C6B0248AFEE\",\n    \"evidence\": \"376 pages\",\n    \"sourceTitle\": \"The Lifeways of Hunter-Gatherers: The Foraging Spectrum\",\n    \"sourceAuthor\": \"Robert L. Kelly\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Lifeways-Hunter-Gatherers-Foraging-Spectrum/dp/1107607612\",\n    \"https://www.amazon.com/Foraging-Spectrum-Diversity-Hunter-Gatherer-Lifeways/dp/0975273884\",\n    \"https://www.amazon.com/Foraging-Spectrum-Diversity-Hunter-Gatherer-Lifeways/dp/1560984651\",\n    \"https://www.amazon.com/hunter-gatherer/s?k=hunter+gatherer\",\n    \"https://www.amazon.com/Handbook-Archaeology-Anthropology-Hunter-Gatherers-Handbooks-ebook/dp/B00KOSMEAM\"\n  ],\n  \"limitations\": \"No specific edition year or language was found for the page count. No reference section information was found.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Lifeways-Hunter-Gatherers-Foraging-Spectrum/dp/1107607612",
+              "title": "The Lifeways of Hunter-Gatherers: The Foraging Spectrum",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Lifeways of Hunter-Gatherers: The Foraging Spectrum\nIn this book, Robert L. Kelly challenges the preconceptions that hunter-gatherers were Paleolithic relics living in a raw state of nature, instead crafting"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Foraging-Spectrum-Diversity-Hunter-Gatherer-Lifeways/dp/0975273884",
+              "title": "The Foraging Spectrum: Diversity in Hunter-Gatherer ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Foraging Spectrum: Diversity in Hunter-Gatherer ...\nAn anthropological examination of hunter-gatherer societies that challenges archaeological models by documenting the actual diversity in foraging practices,"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Foraging-Spectrum-Diversity-Hunter-Gatherer-Lifeways/dp/1560984651",
+              "title": "The Foraging Spectrum: Diversity in Hunter-Gatherer ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Foraging Spectrum: Diversity in Hunter-Gatherer ...\nAn anthropological examination of hunter-gatherer societies that challenges archaeological models by documenting the actual diversity in foraging practices,"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/hunter-gatherer/s?k=hunter+gatherer",
+              "title": "Hunter Gatherer",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Lifeways of Hunter-Gatherers: The Foraging Spectrum · by Robert L. Kelly · Paperback. 90 days free of"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Handbook-Archaeology-Anthropology-Hunter-Gatherers-Handbooks-ebook/dp/B00KOSMEAM",
+              "title": "The Oxford Handbook of the Archaeology and ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "This book provides a comprehensive review of hunter-gatherer studies ... The Lifeways of Hunter-Gatherers: The Foraging Spectrum. Robert L. Kelly."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1021,
+    "completion_tokens": 584,
+    "total_tokens": 1605,
+    "cost": 0.005332343,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003357,
+      "upstream_inference_prompt_cost": 0.0001021,
+      "upstream_inference_completions_cost": 0.0002336
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

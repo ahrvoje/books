@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793577334-XvSlPzVMp0UfBQbRoLds",
+  "object": "chat.completion",
+  "created": 1793577334,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rest-77-69:reference:https://collection.sl.nsw.gov.au/record/74VKLvkvpVPX\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title and author match the book and author. The reference range is explicitly stated as pages 217-223.\"\n    },\n    {\n      \"key\": \"nb2806edfbc:reference:https://archive.org/details/hitlerbiography0000kers\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title and author match the book and author. The reference range is explicitly stated as pages 971-974.\"\n    },\n    {\n      \"key\": \"rest-16-14:reference:https://librarysearch.melbourne.vic.gov.au/cgi-bin/spydus.exe/ENQ/OPAC/BIBENQ?BRN=548567&CF=BIB&SETLVL\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title and author match the book and author. The reference range is explicitly stated as pages 225-232.\"\n    },\n    {\n      \"key\": \"shelf-7c13083881ce:reference:https://wellcomecollection.org/works/hm5sv7nj\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title and author match the book and author. The reference range is explicitly stated as pages 230-231.\"\n    },\n    {\n      \"key\": \"nfc78b44b21:reference:https://wellcomecollection.org/works/peevg7jw\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title and author match the book and author. The reference range is explicitly stated as pages 281-282.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3400,
+    "completion_tokens": 443,
+    "total_tokens": 3843,
+    "cost": 0.0002033856,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020544,
+      "upstream_inference_prompt_cost": 0.00017,
+      "upstream_inference_completions_cost": 0.00003544
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:55:47.468Z"
+}

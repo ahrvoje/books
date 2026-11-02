@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:07.714Z",
+  "bookId": "shelf-b385f413f1e9",
+  "id": "gen-1793571186-XGReEFMy4dlQ0OYDymIu",
+  "object": "chat.completion",
+  "created": 1793571186,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-b385f413f1e9\",\n  \"title\": \"Perils and Prospects of a United Ireland\",\n  \"author\": \"Padraig O'Malley\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 532,\n    \"editionId\": null,\n    \"editionYear\": 2023,\n    \"format\": \"Paperback\",\n    \"language\": \"English\",\n    \"url\": \"https://touchebooks.com/perils-and-prospects-of-a-united-ireland-padraig-omalley/\",\n    \"evidence\": \"Pages: 532\",\n    \"sourceTitle\": \"Perils and Prospects of a United Ireland — Padraig O’Malley by Padraig O’Malley | Book details\",\n    \"sourceAuthor\": \"Padraig O’Malley\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.lilliputpress.ie/products/perils-and-prospects-of-a-united-ireland\",\n    \"https://catalogue.nli.ie/Record/vtls000920588\",\n    \"https://touchebooks.com/perils-and-prospects-of-a-united-ireland-padraig-omalley/\",\n    \"https://www.centralbooks.com/perils-and-prospects-of-a-united-ireland.html\",\n    \"https://en.wikipedia.org/wiki/Padraig_O'Malley\"\n  ],\n  \"limitations\": \"No Amazon data was found for this book. The page count is consistently reported as 532 across multiple sources.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.lilliputpress.ie/products/perils-and-prospects-of-a-united-ireland",
+              "title": "Perils and Prospects of a United Ireland",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Perils and Prospects of a United Ireland\nSold by: lilliputpress.ie\n\n## Specifications\nBook cover type: Paperback\n\n...\n\nPadraig O’Malley’s Perils and Prospects of a United Ireland presents a wide-ranging and unique study of the questions around the future of Northern Irish politics, including the idea of reunification."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalogue.nli.ie/Record/vtls000920588",
+              "title": "Holdings: Perils and prospects of a united Ireland / :: Library Catalog",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Holdings: Perils and prospects of a united Ireland / :: Library Catalog\n\n##### Padraig O'Malley.\n\nBibliographic Details\n\n| Main Creator: | O'Malley, Padraig, author. |\n| --- | --- |\n| Format: | Book |\n| Language: | English |\n| Published / Created: | Dublin : The Lilliput Press, 2023. |\n| Subjects: | European Union > Northern Ireland > 21st century. European Union > Great Britain > Membership. Irish unification question. Northern Ireland > Politics and government > 1998-. Northern Ireland > Relations > Great Britain. Northern Ireland > Relations > Ireland. |\n| Notes: | Acquired through legal deposit. Signed by author, dated 30/3/23. Includes bibliographical references and index. Physical description: xxvii, 532 pages, xvi pages of plates : illustrations, maps ; 24 cm. more |\n| ISBN: | 9781843518518 1843518511 |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://touchebooks.com/perils-and-prospects-of-a-united-ireland-padraig-omalley/",
+              "title": "Perils and Prospects of a United Ireland — Padraig O’Malley by Padraig O'Malley | Book details",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Perils and Prospects of a United Ireland\n\nAuthor: Padraig O’Malley\n\nPublisher: Lilliput Press\n\nYear: 2023\n\nLanguage: en\n\nPages: 532\n\nISBN-13: 9781843518518\n...\nof Unionism and Nationalism, as well as the economic considerations surrounding potential"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.centralbooks.com/perils-and-prospects-of-a-united-ireland.html",
+              "title": "Perils and Prospects of a United Ireland",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Perils and Prospects of a United Ireland\n\n...\n\nMore Information\n\n| Weight | 0.925000 |\n| --- | --- |\n| ISBN13/Barcode | 9781843518518 |\n| ISBN10 | 1843518511 |\n| Author | Padraig O'Malley |\n\n| Binding | Paperback |\n| --- | --- |\n| Date Published | 22nd March 2023 |\n| Pages | 532 |\n| Publisher | Lilliput Press Ltd |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://en.wikipedia.org/wiki/Padraig_O'Malley",
+              "title": "Padraig O'Malley",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Shades of Difference: Mac Maharaj and the Struggle for South Africa*\n...\n* *The Two-State Delusion: Israel and Palestine - A Tale of Two Narratives* (2015) ISBN 978-0-670-02505-3\n* *Perils and Prospects of a United Ireland* (2023) ISBN 978-1843518518"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1368,
+    "completion_tokens": 417,
+    "total_tokens": 1785,
+    "cost": 0.007300564,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003036,
+      "upstream_inference_prompt_cost": 0.0001368,
+      "upstream_inference_completions_cost": 0.0001668
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:37.795Z",
+  "bookId": "shelf-a794bbb32da3",
+  "id": "gen-1793571217-FH5cBPigoG2xS5j0nbKC",
+  "object": "chat.completion",
+  "created": 1793571217,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-a794bbb32da3\",\n  \"title\": \"Past, Present, and Future of Statistical Science\",\n  \"author\": \"Xihong Lin, Christian Genest, David L. Banks, Geert Molenberghs, David W. Scott and Jane-Ling Wang, editors\",\n  \"knownEdition\": {\n    \"id\": \"OL31016777M\",\n    \"url\": \"https://openlibrary.org/books/OL31016777M\"\n  },\n  \"purchaseUrl\": \"https://www.amazon.de/dp/1482204967\",\n  \"pages\": {\n    \"count\": 622,\n    \"editionId\": \"OL31016777M\",\n    \"editionYear\": \"2014\",\n    \"format\": \"Book\",\n    \"language\": null,\n    \"url\": \"https://library.lemoyne.edu/record=b1767462\",\n    \"evidence\": \"xxiii, 622 pages : illustrations, map ; 24 cm\",\n    \"sourceTitle\": \"Past, present, and future of statistical science / edited by Xihong Lin, Christian Genest, David L. Banks, Geert Molenberghs, David W. Scott, and Jane-Ling Wang\",\n    \"sourceAuthor\": \"Lin, Xihong\"\n  },\n  \"reference\": {\n    \"count\": null,\n    \"editionId\": null,\n    \"editionYear\": null,\n    \"url\": null,\n    \"evidence\": \"Includes bibliographical references\",\n    \"sourceTitle\": \"Past, present, and future of statistical science / edited by Xihong Lin, Christian Genest, David L. Banks, Geert Molenberghs, David W. Scott, and Jane-Ling Wang\",\n    \"sourceAuthor\": \"Lin, Xihong\",\n    \"ranges\": [],\n    \"method\": \"The library catalog explicitly states that the book 'Includes bibliographical references', but does not provide a page range for them.\",\n    \"limitation\": \"The specific page range for the bibliographical references is not provided in the available catalog information.\"\n  },\n  \"searchedUrls\": [\n    \"https://library.lemoyne.edu/record=b1767462\",\n    \"https://higherlogicdownload.s3.amazonaws.com/AMSTAT/71a758c7-5229-4729-bb64-caf9d1cf855f/UploadedImages/past-present-future-copss.pdf\",\n    \"https://qwern.net/doc/statistics/2014-copss-pastpresentfuturestatistics.pdf\",\n    \"https://ndlsearch.ndl.go.jp/search?cs=bib&from=0&q-other_category=%22QA276%22&size=20\",\n    \"https://www.routledge.com/Past-Present-and-Future-of-Statistical-Science/Lin-Genest-Banks-Molenberghs-Scott-Wang/p/book/9781482204964\"\n  ],\n  \"limitations\": \"The exact page range for the bibliographical references could not be determined from the provided search results. While some sources mention the inclusion of bibliographical references, they do not specify the page numbers.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://library.lemoyne.edu/record=b1767462",
+              "title": "Le Moyne College Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "KEYWORD AUTHOR TITLE SUBJECT CALL NO RESOURCE NAME RESOURCE SUBJECT RECORD #\n* Title | Past, present, and future of statistical science / edited by Xihong Lin, Christian Genest, David L. Banks, Geert Molenberghs, David W. Scott, and Jane-Ling Wang\n* Publisher | Boca Raton : CRC Press, Taylor & Francis Group, [2014]\n*  | 2014\n* Rating | Rating\nBook Cover\nPermanent link to this record\n* LOCATION | CALL NO. | STATUS\n* Bookstacks | QA276 .P276 2014 | AVAILABLE\n\nDetails\n\n* Contributor | Lin, Xihong\n* Corp Author | Committee of Presidents of Statistical Societies\n* Description | xxiii, 622 pages : illustrations, map ; 24 cm\n* text txt rdacontent\n* unmediated n rdamedia\n* volume nc rdacarrier\n* Note | \"COPSS, Committee of Presidents of Statistical Societies.\"\n* Bib Note | Includes bibliographical references\n* Summary | Past, Present, and Future of Statistical Science was commissioned in 2013 by the Committee of Presidents of Statistical Societies (COPSS) to celebrate its 50th anniversary and the International Year of Statistics.\n\n...\n\nThrough the contributions of a distinguished group of 50 statisticians who are past winners of at least one of the five awards sponsored by COPSS, this volume showcases the breadth and vibrancy of statistics, describes current challenges and new opportunities, highlights the exciting future of statistical science, and provides guidance to future generations of statisticians."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://higherlogicdownload.s3.amazonaws.com/AMSTAT/71a758c7-5229-4729-bb64-caf9d1cf855f/UploadedImages/past-present-future-copss.pdf",
+              "title": "Past, Present, and Future of Statistical Science",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "18 A journey into statistical genetics and genomics 189\nXihong Lin 18.1 The ’omics era . . . . . . . . . . . . . . . . . . . . . . . . . . 189\n18.2 My move into statistical genetics and genomics . . .\n\n...\n\nhighlight the exciting future of statistical science, and to provide guidance for future generations of statisticians.\nThe 50 contributors to this volume are all past winners of at least one of\n\n...\n\nbiometry. The E.L. Scott Award and F.N. David Award are also given biennially to commend efforts in promoting the role of women in\nxvii\nxviii Past, Present, and Future of Statistical Science\n\n...\n\nThis volume is not only about statistics and science, but also about people\nand their passion for discovery.\n\n...\n\neter Hall and Xihong Lin).\nPart IV consists of 24 articles, in which authors provide insight on past de-\nvelopments, current challenges, and future opportunities in statistical science. A broad spectrum of issues is addressed, including the foundations and princi- ples of statistical inference (Don Fraser, Jim Berger, Art Dempster), nonpara- metric statistics (David Dunson), model\n\n...\n\ncs that we share with the authors. Happy reading!\nThe editors\nXihong Lin Harvard University Boston, MA\nDavid L. Banks Duke University Durham, NC\nDavid W. Scott Rice University Houston, TX\nChristian Genest McGill University Montr´eal, QC\nGeert Molenberghs Universiteit Hasselt and KU Leuven Belgium\nJane-Ling Wang University of California Davis, CA\n\nContributors\n\nTheodore W."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://qwern.net/doc/statistics/2014-copss-pastpresentfuturestatistics.pdf",
+              "title": "Past, Present, and Future of Statistical Science",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "highlight the exciting future of statistical science, and to provide guidance for future generations of statisticians.\nThe 50 contributors to this volume are all past winners of at least one of\n\n...\n\nbiometry. The E.L. Scott Award and F.N. David Award are also given biennially to commend efforts in promoting the role of women in\nxvii\nxviii Past, Present, and Future of Statistical Science\n\n...\n\ndiversity in statistics (Mary Thompson, Nancy Reid, and Louise Ryan), and the challenges of statistical science as we enter the era of big data (Peter Hall and Xihong Lin).\nPart IV consists of 24 articles, in which authors provide insight on past de-\nvelopments, current challenges, and future opportunities in statistical science. A broad spectrum of issues is addressed, including the foundations and princi- ples of statistical inference (Don Fraser, Jim Berger, Art Dempster), nonpara- metric statistics (David Dunson), model\n\n...\n\nning committee, Joel Greenhouse, John Kittelson, Christian L´eger, Xihong Lin, Bob Rodriguez, and Jeff Wu.\nAdditional funding for this book was provided by the International Chi-\n\n...\n\ncs that we share with the authors. Happy reading!\nThe editors\nXihong Lin Harvard University Boston, MA\nDavid L. Banks Duke University Durham, NC\nDavid W. Scott Rice University Houston, TX\nChristian Genest McGill University Montr´eal, QC\nGeert Molenberghs Universiteit Hasselt and KU Leuven Belgium\nJane-Ling Wang University of California Davis, CA\n\nContributors\n\nTheodore W."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://ndlsearch.ndl.go.jp/search?cs=bib&from=0&q-other_category=%22QA276%22&size=20",
+              "title": "「\"QA276\"」の検索結果 | NDLサーチ | 国立国会図書館",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "適合度順 出版年：古い順 出版年：新しい順 タイトル：昇順 タイトル：降順 著者：昇順 著者：降順 請求記号順\nタイトルでまとめる\n一括お気に入り\n\nImproving tests for discrete small sample data (Springer Briefs in statistics) (JSS research series in statistics)\n\n紙 図書\nNobuhiro Taneichi, Yuri Sekiya Springer [2026] \n国立国会図書館\n* LCC QA276\n\nHandbook of scan statistics (Springer Nature reference)\n\n紙 図書\nJoseph Glaz, Markos V. Koutras, editors Springer [2024] \n国立国会図書館\n\n...\n\n紙 図書\nSyouji Nakamura, Katsushige Sawaki, Toshio Nakagawa, editors Springer [2024] \n国立国会図書館\n* LCC QA276\n\nThinking about statistics : the philosophical\n\n...\n\nStatistical inference based on kernel distribution function estimators (SpringerBriefs in statistics) (JSS research series in statistics)\n\n紙 図書\nRizky Reza Fauzi, Yoshihiko Maesono Springer [2023] \n国立国会図書館\n* LCC QA276\n\nMixed-effects models and small area estimation (SpringerBriefs in statistics ; JSS research series in statistics)\n\n紙 図書\nShonosuke Sugasawa, Tatsuya Kubokawa Springer [2023]\n\n...\n\nCRC Press, Taylor & Francis Group [2018] \n国立国会図書館\n* LCC QA276\n\nPast, present, and future of statistical science\n\n紙 図書\nedited by Xihong Lin, Christian Genest, David L. Banks, Geert Molenberghs, David W. Scott, and Jane-Ling Wang. CRC Press [2014] \n国立国会図書館\n* LCC QA276\n\nIn all likelihood : statistical modelling and inference using likelihood\n\n紙 図書\nYudi Pawitan. Oxford University Press [2013] \n国立国会図書館\n* LCC QA276\n\n...\n\n国会図書館ホームページ\n* お問い合わせ\n* お知らせ\n* プライバシーポリシー\n* サイトポリシー\n© 2024- National Diet Library, Japan.\n画面番号 102"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.routledge.com/Past-Present-and-Future-of-Statistical-Science/Lin-Genest-Banks-Molenberghs-Scott-Wang/p/book/9781482204964",
+              "title": "Past, Present, and Future of Statistical Science - 1st Edition - Xihon",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Table of Contents Book Description Instructor Resources\n1st Edition\n\nPast, Present, and Future of Statistical Science\n\nEdited By Xihong Lin , Christian Genest , David L. Banks , Geert Molenberghs , David W. Scott , Jane-Ling Wang Copyright 2014\n646 Pages 37 B/W Illustrations\nby Chapman & Hall\n646 Pages 37 B/W Illustrations\nby Chapman & Hall\n646 Pages\n\n...\n\nPast, Present, and Future of Statistical Science was commissioned in 2013 by the Committee of Presidents of Statistical Societies (COPSS) to celebrate its 50th anniver\n\n...\n\nthe COPSS Presidents’ award.\nThrough the contributions of a distinguished group of 50 statisticians who are past winners of at least one of the five awards sponsored by COPSS, this volume showcases the breadth and vibrancy of statistics, describes current challenges and new opportunities, highlights the exciting future of statistical science, and provides guidance to future generations of statisticians. The book is not only about statistics and science but also about people and their passion for discovery.\nDistinguished authors present expository articles on a broad spectrum of topics in statistical education, research, and applications.\n\n...\n\nReflections on the Discipline. Advice for the Next Generation.\n\nEditor(s)\n\nBiography\n\nXihong Lin, Christian Genest, David L. Banks, Geert Molenberghs, David W. Scott, Jane-Ling Wang\nAdd to Cart"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2780,
+    "completion_tokens": 790,
+    "total_tokens": 3570,
+    "cost": 0.00558806,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000594,
+      "upstream_inference_prompt_cost": 0.000278,
+      "upstream_inference_completions_cost": 0.000316
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

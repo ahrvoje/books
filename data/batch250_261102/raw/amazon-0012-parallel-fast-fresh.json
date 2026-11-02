@@ -1,0 +1,87 @@
+{
+  "id": "gen-1793575999-Lrom0lMtujRs9XLXsnn4",
+  "object": "chat.completion",
+  "created": 1793575999,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Legacy-Genetic-History-Jewish-People/dp/0195379616",
+              "title": "Legacy: A Genetic History of the Jewish People",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nLegacy: A Genetic History of the Jewish People\nA medical geneticist explores the history of efforts to identify who the Jews are, and the insights that genetics has provided about the histories of\n\n## \n\nLegacy: A Genetic History of the Jewish People\nHarry Ostrer, a medical geneticist and authority on the genetics of the Jewish people, explores not only the history of these efforts, but also the insights"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Legacy-J-Leonard-Costner/dp/B0CHL1FMQQ",
+              "title": "Legacy Series - Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nLegacy Series - Books\nA university student discovers his bloodline ties to epic warriors of old legends, thrusting him into an age-old feud with history's greatest adversaries. See\n\n## \n\nLegacy Series - Books\nHis debut series, \"Legacy\", is a testament to his boundless creativity. Intricately weaving history with fantasy, and reality with myth, Costner's works are as\n\n## \n\nLegacy Series - Books\nIn \"Legacy\", and in all of his works, Costner invites readers not just into a story, but into a world. A world that is at once enchanting and believable, vast"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/clp/B00BC0JH24",
+              "title": "Legacy: The Complete Series",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nLegacy: The Complete Series\nLegacy: The Complete Series. Runtime 12 hours and 21 minutes Southern family story. Three (66 Episodes)\n\n## \n\nLegacy: The Complete Series\nLegacy: The Complete Series : , Steven Williams, 18 Episodes: Runtime 12 hours and 21 minutes - 18 Episodes Complete Series)\n\n## \n\nLegacy: The Complete Series\nLegacy: The Complete Series : Brett Cullen, Sharon Leal, Steven Williams, 18 Episodes: Full episode count 24: TV Series Complete Seasons. Music Prime Video\n\n## \n\nLegacy: The Complete Series\nGenre. Drama ; Format. Color, Full Screen, Multiple Formats, NTSC ; Contributor. 18 Episodes, Brett Cullen, Sharon Leal, Steven Williams ; Number Of Discs. 2.\n\n## \n\nLegacy: The Complete Series\nLegacy: The Complete Series : Brett Cullen, Sharon Leal, Steven Williams, 18 Episodes: Full episode count 24: TV Series Complete Seasons 5-8 DVD Collection\n\n## \n\nLegacy: The Complete Series\nLegacy: The Complete Series : Brett Cullen, Sharon Leal, Steven Williams, 18 Episodes: Runtime 12 hours and 21 minutes Publication Date May 7, 2013"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 960,
+    "completion_tokens": 1,
+    "total_tokens": 961,
+    "cost": 0.0010171369,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001731,
+      "upstream_inference_prompt_cost": 0.00001728,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Legacy\" Harry Ostrer \"global ratings\"",
+  "bookId": "progress-0489",
+  "retrieved": "2026-11-01T23:33:21.200Z"
+}

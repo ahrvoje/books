@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575774-rvZx4yyVDdY9kaY0B3jz",
+  "object": "chat.completion",
+  "created": 1793575774,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-1d18309bc2fb:amazon:https://www.amazon.com/Chance-Necessity-Natural-Philosophy-Biology/dp/0394466152\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly stated as '38 global ratings'.\"\n    },\n    {\n      \"key\": \"bg271075acc1:amazon:https://www.amazon.com/Storytelling-Animal-Stories-Make-Human/dp/0544002342\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly stated as '1,018 ratings'.\"\n    },\n    {\n      \"key\": \"g0897:amazon:https://www.amazon.com/Price-Peace-Democracy-Maynard-Keynes/dp/0525509038\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly stated as '1,267 ratings'.\"\n    },\n    {\n      \"key\": \"rest-118-98:amazon:https://www.amazon.com/Little-History-Religion-Histories/dp/0300228813\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly stated as '938 global ratings'.\"\n    },\n    {\n      \"key\": \"rem-u0288:amazon:https://www.amazon.com/Narrative-Economics-Stories-Economic-Events/dp/0691210268\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly stated as '899 global ratings'.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3503,
+    "completion_tokens": 467,
+    "total_tokens": 3970,
+    "cost": 0.0002103849,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021251,
+      "upstream_inference_prompt_cost": 0.00017515,
+      "upstream_inference_completions_cost": 0.00003736
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:29:41.678Z"
+}

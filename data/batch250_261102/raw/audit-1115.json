@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576338-vFcfN4WUi8vkA7CbO9B2",
+  "object": "chat.completion",
+  "created": 1793576338,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"intake-0383:amazon:https://www.amazon.com/Gutenberg-Galaxy-Marshall-McLuhan/dp/144261269X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"g1080:amazon:https://www.amazon.com/Creature-Jekyll-Island-Federal-Reserve/dp/0912986395\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"intake-0541:amazon:https://www.amazon.com/Interviews-Francis-Bacon-David-Sylvester/dp/0500292531\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"complete-198-9:amazon:https://www.amazon.com/Hour-Predator-Encounters-Autocrats-Billionaires/dp/B0F27HBD28\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"g0439:amazon:https://www.amazon.com/Irresistible-Addictive-Technology-Business-Keeping/dp/1594206643\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3634,
+    "completion_tokens": 407,
+    "total_tokens": 4041,
+    "cost": 0.0002121174,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021426,
+      "upstream_inference_prompt_cost": 0.0001817,
+      "upstream_inference_completions_cost": 0.00003256
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:39:05.478Z"
+}

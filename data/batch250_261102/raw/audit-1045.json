@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576282-NVeQZlaicfj8Sk50Izbt",
+  "object": "chat.completion",
+  "created": 1793576282,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u1429:amazon:https://www.amazon.com/Greater-Journey-Americans-Paris/dp/1416571760\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the source title and text. The rating count is explicitly stated as 2,653 ratings.\"\n    },\n    {\n      \"key\": \"g1077:amazon:https://www.amazon.com/Clash-Civilizations-Remaking-World-Order/dp/1451628978\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the source title and text. The rating count is explicitly stated as 1,640 global ratings.\"\n    },\n    {\n      \"key\": \"complete-818-363:amazon:https://www.amazon.com/Great-War-Civilisation-Conquest-Middle/dp/1400041511\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the source title and text. The rating count is explicitly stated as 1,313 global ratings.\"\n    },\n    {\n      \"key\": \"shelf-4d7576102855:amazon:https://www.amazon.com/Nineteen-Ways-Looking-at-Consciousness/dp/1250151171\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the source title and text. The rating count is explicitly stated as 68 ratings.\"\n    },\n    {\n      \"key\": \"shelf-ed0d12e989cf:amazon:https://www.amazon.com/Tycoons-War-Cornelius-Vanderbilt-Adventurer/dp/0306818566\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the source title and text. The rating count is explicitly stated as 65 global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3446,
+    "completion_tokens": 469,
+    "total_tokens": 3915,
+    "cost": 0.0002077218,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020982,
+      "upstream_inference_prompt_cost": 0.0001723,
+      "upstream_inference_completions_cost": 0.00003752
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:38:09.447Z"
+}

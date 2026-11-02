@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574891-TlJ6NyEx3JEiwPIRpss5",
+  "object": "chat.completion",
+  "created": 1793574891,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"complete-342-283:amazon:https://www.amazon.com/Heat-Adventures-Pasta-Maker-Apprentice-Dante-Quoting/dp/1400034477\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count of 1,457.\"\n    },\n    {\n      \"key\": \"ne393674504:amazon:https://www.amazon.com/Voices-Chernobyl-Selection-Svetlana-Alexievich-ebook/dp/B016QMCBKM\",\n      \"status\": \"reject\",\n      \"reason\": \"The title and author do not match the supplied book and author. The supplied book is 'Voices from Chernobyl: The Oral History of a Nuclear Disaster' by Svetlana Alexievich, but the source title is 'Voices from Chernobyl (Lannan Selection)' by Svetlana Alexievich, Keith Gessen.\"\n    },\n    {\n      \"key\": \"rem-u1792:amazon:https://www.amazon.com/Boy-Who-Raised-Psychiatrists-Notebook-What/dp/0465056539\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a rating count of 8,962.\"\n    },\n    {\n      \"key\": \"bg4a944d9ccf:amazon:https://www.amazon.com/Prepared-What-Kids-Need-Fulfilled/dp/1984826069\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a rating count of 875.\"\n    },\n    {\n      \"key\": \"rem-u1789:amazon:https://www.amazon.com/Act-Creation-Arthur-Koestler/dp/1939438985\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a rating count of 85.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3564,
+    "completion_tokens": 513,
+    "total_tokens": 4077,
+    "cost": 0.0002170476,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021924,
+      "upstream_inference_prompt_cost": 0.0001782,
+      "upstream_inference_completions_cost": 0.00004104
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:14:55.245Z"
+}

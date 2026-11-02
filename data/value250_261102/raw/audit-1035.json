@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575601-Bj56aTMDkOgJW7U0904n",
+  "object": "chat.completion",
+  "created": 1793575601,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"complete-666-109:amazon:https://www.amazon.com/Bad-Astronomy-Misconceptions-Revealed-Astrology/dp/0471409766\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 280 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"n045f6d232e:amazon:https://www.amazon.com/Understanding-Power-Indispensible-Chomsky-Noam/dp/1565847032\",\n      \"status\": \"reject\",\n      \"reason\": \"Title mismatch. Source title includes additional text: \\\"The Indispensible Chomsky\\\".\"\n    },\n    {\n      \"key\": \"rem-u1282:amazon:https://www.amazon.com/Code-Girls-Untold-American-Breakers/dp/0316439894\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 6,725 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"shelf-98fc49596c59:amazon:https://www.amazon.com/Riddle-Labyrinth-Quest-Crack-Ancient/dp/0062228838\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 974 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"q0983:amazon:https://www.amazon.com/Silent-Spring-Rachel-Carson/dp/0395683297\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 3,848 ratings explicitly labelled.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3497,
+    "completion_tokens": 419,
+    "total_tokens": 3916,
+    "cost": 0.0002062863,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020837,
+      "upstream_inference_prompt_cost": 0.00017485,
+      "upstream_inference_completions_cost": 0.00003352
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:27:06.612Z"
+}

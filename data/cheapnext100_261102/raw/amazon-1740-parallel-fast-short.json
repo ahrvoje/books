@@ -1,0 +1,87 @@
+{
+  "id": "gen-1793574739-sS81dCHDC7V6vnXujfqf",
+  "object": "chat.completion",
+  "created": 1793574739,
+  "model": "mistralai/mistral-nemo",
+  "provider": "Io Net",
+  "system_fingerprint": "vllm-0.25.1-95d19908",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "{\n",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Bacardi-Long-Fight-Cuba-Biography/dp/0143116320",
+              "title": "Bacardi and the Long Fight for Cuba: The Biography of a ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nBacardi and the Long Fight for Cuba: The Biography of a ...\nChronicles the 150-year history of the Bacardi family's rum dynasty in Cuba, from their fight for independence to Castro's rise, interweaving business, politics\n\n## \n\nBacardi and the Long Fight for Cuba: The Biography of a ...\nIn this widely hailed book, NPR correspondent Tom Gjelten fuses the story of the Bacardi family and their famous rum business with Cuba's tumultuous experience \n\n## \n\nBacardi and the Long Fight for Cuba: The Biography of a Cause\nPublisher\nPenguin Books\nPublication date\nAugust 25, 2009\nEdition\nReprint\nLanguage\n‎English\nPrint length\n464 pages\n\n## \n\nBacardi and the Long Fight for Cuba: The Biography of a Cause\nThe book recounts the impact on America of the 1965 Immigration Act, which officially opened the country's doors to immigrants of color. ... His 2008 book,\n\n## \n\nBacardi and the Long Fight for Cuba: The Biography of a Cause\nFree 30-day returns The company Facundo Bacardi launched in Cuba in 1862 brought worldwide fame to the island, and in the decades that followed his Bacardi descendants participated\n\n## \n\nBacardi and the Long Fight for Cuba: The Biography of a Cause\nPrint length. 464 pages · Language. English · Publisher. Penguin Books · Publication date. August 25, 2009 · Grade level. 12 and up · Reading age. 18 years and up."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Bacardi-Long-Fight-Cuba-Biography/dp/067001978X",
+              "title": "Bacardi and the Long Fight for Cuba: The Biography of a ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nBacardi and the Long Fight for Cuba: The Biography of a ...\nChronicles the 150-year history of the Bacardi family's rum dynasty in Cuba, from their fight for independence to Castro's rise, interweaving business, politics\n\n## \n\nBacardi and the Long Fight for Cuba: The Biography of a ...\nChronicles the 150-year history of the Bacardi family's rum dynasty in Cuba, Amazon Sold by: Happy Trade Store"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B001JPCPRQ",
+              "title": "Amazon.com: Anthony DePalma: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "In addition, he wrote extensively about the creation of the territory of Nunavut, in which Inuit people formed their own government. Besides North America, Mr. DePalma has reported from Cuba, Guatemala, Suriname, Guyana, and, during the Kosovo crisis, Montenegro and Albania. His book \"Here: A Biography of the New American Continent,\" was published in the\n\n...\n\nwork on \"The Man Who Invented Fidel: Castro, Cuba and Herbert L. Matthews of The New York Times,\" which was published in 2006. It has been translated into Spanish, Portuguese and Italian. Mr.\n\n...\n\nThe Chicago Sun-Times named it one of the best non-fiction books of the year. In May, 2020, Mr. DePalma's latest book, \"The Cubans: Ordinary Lives in Extraordinary Times,\" was published by Viking, an imprint of Penguin/ Random House. The culmination of four decades of both personal and professional involvement and immersion in Cuba, it humanizes the millions of ordinary Cubans whose voices have not been heard for 60 years. And without listening to them, there is no way to understand them.\nRead full bio\n\nMost popular\n\nThe Cubans: Ordinary Lives in Extraordinary Times\n4.6 out of 5 stars\n382\n4.6 out of 5 stars. 382 customer reviews.\nKindle Edition\n$ 6 . 99 Strike through - was: $ 18 . 00\n\nBooks\n\nCustomers also bought items by\n\n* Ada Ferrer\n* Henry Louis Gates Jr.\n* Chanel Cleeton\n* Percival L. Everett\n* Mirta Ojito\n* Tom Gjelten\nAnthony DePalma profile image\n\nAnthony DePalma"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1323,
+    "completion_tokens": 1,
+    "total_tokens": 1324,
+    "cost": 0.001020981268,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 128,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000211932,
+      "upstream_inference_prompt_cost": 0.0000211716,
+      "upstream_inference_completions_cost": 2.16e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Bacardi and the Long Fight for Cuba\" Tom Gjelten \"global ratings\"",
+  "bookId": "shelf-d951028303e4",
+  "retrieved": "2026-11-01T23:12:17.266Z"
+}

@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:09.653Z",
+  "bookId": "shelf-d40d1b9998bf",
+  "id": "gen-1793571190-CEChShItkqacJPuw46ZY",
+  "object": "chat.completion",
+  "created": 1793571190,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-d40d1b9998bf\",\n  \"title\": \"China’s World View\",\n  \"author\": \"David Daokui Li\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 288,\n    \"editionId\": \"978-0-393-29239-8\",\n    \"editionYear\": 2024,\n    \"format\": \"Hardcover\",\n    \"language\": \"English\",\n    \"url\": \"https://wwnorton.com/books/9780393292398\",\n    \"evidence\": \"288 pages\",\n    \"sourceTitle\": \"China's World View | David Daokui Li | W. W. Norton & Company\",\n    \"sourceAuthor\": \"David Daokui Li\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://wwnorton.com/books/9780393292398\",\n    \"https://www.harvard.com/book/9780393292398\",\n    \"https://www.amazon.com/Chinas-World-View-Demystifying-Conflict/dp/0393292398\",\n    \"https://wwnorton.co.uk/books/9780393292398-china-s-world-view\",\n    \"https://chaucersbooks.com/book/9780393292398\"\n  ],\n  \"limitations\": \"The user requested information on the paperback format, but the available evidence consistently points to a hardcover edition with 288 pages. No specific paperback page count was found.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://wwnorton.com/books/9780393292398",
+              "title": "China's World View | David Daokui Li | W. W. Norton & Company",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "China's World View | David Daokui Li | W. W. Norton & Company \n\n## Demystifying China to Prevent Global Conflict\n\nby David Daokui Li (Author)\n\nA distinguished Chinese economist offers a timely, essential exploration of China’s perspective on economy, government, society, and its position in the world.\n\nDr.\n\n...\n\n$29.99\n\n- ISBN: 978-0-393-29239-8\n- 288 pages\n\n...\n\n- Hardcover\n- ---"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.harvard.com/book/9780393292398",
+              "title": "China's World View: Demystifying China to Prevent Global Conflict",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# China's World View: Demystifying China to Prevent Global Conflict\n\nDavid Daokui Li\n\nCurrent price: $29.99\n\nPublish Date: January 9, 2024\n\nPublisher:\n\nW. W. Norton & Company\n\nISBN:\n\n9780393292398\n\nPages:\n\n288\n\nLanguage:\n\nEnglish\n\nQTY\n\nAsk a Bookseller Add to wishlist\n\nAvailable Formats Hardcover (1/9/2024) Digital - Audio (Libro.FM) Digital - eBook (Bookshop.org)"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Chinas-World-View-Demystifying-Conflict/dp/0393292398",
+              "title": "China's World View: Demystifying China to Prevent Global Conflict",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# China's World View: Demystifying China to Prevent Global Conflict\nBrand: David Daokui Li\nCategory: International & World Politics > Asian\n\n## Specifications\nPublisher: W. W. Norton & Company; Publication date: January 9, 2024; Language: English; Print length: 288 pages; ISBN-10: 0393292398"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://wwnorton.co.uk/books/9780393292398-china-s-world-view",
+              "title": "China's World View - Description | W. W. Norton & Company Ltd.",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "China's World View - Description | W. W. Norton & Company Ltd.\n\n## Demystifying China to Prevent Global Conflict\n\n23 February 2024\n\nTerritory Rights — Worldwide.\n\nDavid Daokui Li (Author)\n...\n## Hardback\n\n160 x 236 mm • 288 pages\n\n£22.99\n\n## Ebook"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://chaucersbooks.com/book/9780393292398",
+              "title": "China's World View: Demystifying China to Prevent Global Conflict | Chaucer's Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# China's World View: Demystifying China to Prevent Global Conflict \n\n David Daokui Li \n\n Current price: $29.99 \n\nPublish Date: January 9, 2024 \n\nPublisher:\n\n W. W. Norton & Company \n\nISBN:\n\n 9780393292398 \n\nPages:\n\n 288 \n\nLanguage:\n\n English"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1244,
+    "completion_tokens": 421,
+    "total_tokens": 1665,
+    "cost": 0.007289872,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002928,
+      "upstream_inference_prompt_cost": 0.0001244,
+      "upstream_inference_completions_cost": 0.0001684
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

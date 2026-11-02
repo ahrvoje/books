@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:14:44.947Z",
+  "bookId": "n88a1be84a0",
+  "id": "gen-1793571283-hMkp58VN8RTea7sb3waa",
+  "object": "chat.completion",
+  "created": 1793571283,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"n88a1be84a0\",\n  \"title\": \"Aramis, or the Love of Technology\",\n  \"author\": \"Bruno Latour\",\n  \"knownEdition\": {\n    \"id\": \"9780674043237\",\n    \"url\": \"https://www.harvard.com/book/9780674043237\",\n    \"pages\": 336\n  },\n  \"purchaseUrl\": \"https://www.amazon.com.au/dp/0674043235\",\n  \"reference\": {\n    \"count\": 1,\n    \"editionId\": \"9780674043237\",\n    \"editionYear\": \"1996\",\n    \"url\": \"https://library.oapen.org/bitstream/id/1fe31e18-c3a9-4607-ad61-5b4a73b964fe/9781000546538.pdf\",\n    \"evidence\": \"Bibliography 127\",\n    \"sourceTitle\": \"Latour for Architects\",\n    \"sourceAuthor\": \"Albena Yaneva\",\n    \"ranges\": [\n      {\n        \"start\": 127,\n        \"end\": null,\n        \"label\": \"Bibliography\",\n        \"evidence\": \"Bibliography 127\"\n      }\n    ],\n    \"method\": \"The source provides a page number for the bibliography section.\",\n    \"limitation\": \"The end page of the bibliography is not specified.\"\n  },\n  \"searchedUrls\": [\n    \"https://www.harvard.com/book/9780674043237\",\n    \"https://www.amazon.com.au/dp/0674043235\",\n    \"https://ideas.repec.org/a/sae/envira/v31y1999i6p1047-1071.html\",\n    \"https://apps.uab.cat/guies/public/html/2023/assignatura/100317/en\",\n    \"https://www.grafiati.com/en/literature-selections/aramide-aramide/book/\",\n    \"https://library.oapen.org/bitstream/id/1fe31e18-c3a9-4607-ad61-5b4a73b964fe/9781000546538.pdf\",\n    \"http://sites.unice.fr/gdr-biomim/wp-admin/sm2g9bec/33e864-bruno-latour-nous-n%27avons-jamais-%C3%A9t%C3%A9-modernes-pdf\"\n  ],\n  \"limitations\": \"The exact page range for the bibliographical references could not be determined from the provided search results. One source indicates the bibliography starts on page 127, but does not provide an end page.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://ideas.repec.org/a/sae/envira/v31y1999i6p1047-1071.html",
+              "title": "X-Morphising: Review Essay of Bruno Latour's Aramis, or the Love of Technology",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "X-Morphising: Review Essay of Bruno Latour's Aramis, or the Love of Technology\n\n## Author\n\nListed: \n\n- E Laurier\n- C Philo\n\nRegistered:\n\n## Abstract\n\nAn extended review is presented of Bruno Latour's book Aramis, or the Love of Technology (Harvard University Press, 1996). Attention is paid to the textual style and strategies in the book, and also to how it fits in with, and exemplifies, many of the more abstract claims central to Latour's actor-network theory. In particular, consideration is given to the provocative arguments in the book about the status of nonhuman beings in social-scientific research, and to the specific manoeuvre whereby Aramis, this transportation project which never quite made it from being an idea to being a completed object, is accorded agencyâ€”and even a voiceâ€”in the text. The â€˜x-morphisingâ€™ which underpins Aramis in this respect is examined, and is subsequently criticised for a flattening out of agency which permits humans and nonhumans to be regarded as â€˜socialâ€™ equivalents. Although attracted to Latour's radical emancipation of nonhuman things from a social-scientific netherworld, we nonetheless conclude by worrying about the flat and undifferentiated â€˜spatial imaginaryâ€™ at the heart of what he is attempting to do for actors of all kinds in Aramis.\n\n## Suggested Citation\n\n E Laurier & C Philo, 1999. \" X-Morphising: Review Essay of Bruno Latour's Aramis, or the Love of Technology,\" Environment and Planning A, , vol. 31(6), pages 1047-1071, June. Handle: RePEc:sae:envira:v:31:y:1999:i:6:p:1047-1071 DOI: 10.1068/a311047 \n\n## References listed on IDEAS\n\n1. J Murdoch, 1995. \" Actor-Networks and the Evolution of Economic Forms: Combining Description and Explanation in Theories of Regulation, Flexible Specialization, and Networks,\" Environment and Planning A, , vol. 27(5), pages 731-757, May. \n\n1. Sodero, Stephanie, 2011. \" Policy in motion: reassembling carbon pricing policy development in the personal transport sector in British Columbia,\" Journal of Transport Geography, Elsevier, vol. 19(6), pages 1474-1481.\n\n...\n\n10.\n\n...\n\n14. WANG, James Jixian & YAU, Selina, 2018. \" Case studies on transport infrastructure projects in belt and road initiative: An actor network theory perspective,\" Journal of Transport Geography, Elsevier, vol. 71(C), pages 213-223.\n\n...\n\n17.\n\n...\n\n18. Mimi Sheller & John Urry, 2006. \" The New Mobilities Paradigm,\" Environment and Planning A, , vol. 38(2), pages 207-226, February. \n19. S Pinch & N Henry, 1999. \" Discursive Aspects of Technological Innovation: The Case of the British Motor-Sport Industry,\" Environment and Planning A, , vol. 31(4), pages 665-682, April. \n20. James R. Faulconbridge, 2007. \" London's and New York's Advertising and Law Clusters and their Networks of Learning: Relational Analyses with a Politics of Scale?,\" Urban Studies, Urban Studies Journal Limited, vol. 44(9), pages 1635-1656, August."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://apps.uab.cat/guies/public/html/2023/assignatura/100317/en",
+              "title": "apps.uab.cat",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## Philosophy of Technology \n\n| Degree | Type | Year | Semester |\n| --- | --- | --- | --- |\n| 2500246 Philosophy | OT | 3 | 2 |\n| 2500246 Philosophy | OT | 4 | 2 |\n\n## Contact\n\nName:\n: Jaume Sastre Juan\n\n...\n\n## Methodology\n\nThe subject combines theoretical classes with discussion seminars around selected readings. It is expected from students a serious engagement with readings and an active participation in the collective discussion.\n\nEath topic will deal with one or several philosophical, historical, anthropological or sociological perspectives about technology, that will always be discussed in relation to specific and situated tools, artefacts or techical systems. Further bibliographical references for each of the topics will be published in the campus virtual.\n\n...\n\n## Bibliography\n\nAlmazán, Adrián (2021). Técnica y tecnología: Cómo conversar con un tecnolófilo. Madrid: Taugenit.\n\nAnders, Günther (2011 [1956]) La obsolescencia del hombre: Sobre el alma en la época de la segunda revolución industrial. Valencia: Pre-Textos.\n\nBenjamin, Ruha (2019). Race After Technology: Abolitionist Tools for the New Jim Code. Cambridge: Polity Press.\n\nBerlan, Aurélien (2021). Terre et liberté: La quête d’autonomie contre le fantasme de délivrance. Saint-Michel-de-Vax: La Lenteur.\n\nBijker, Wiebe; Law, John (eds.). Shaping Technology/Building Society. Cambridge: MIT Press.\n\nBonneuil, Christophe; Fressoz, Jean-Baptiste (2015). The Shock of the Anthropocene: The Earth, History, and Us. London: Verso.\n\nCollins, Harry; Kusch, Martin (1998). The Shape of Actions: What Humans and Machines can Do. Cambridge: MIT Press.\n\nCrawford, Kate (2023). Atlas de IA: Poder, política y costes planetarios de la inteligencia artificial. Barcelona: NED Ediciones.\n\nDusek, Val (2006). Philosophy of Technology: An Introduction. Malden: Willey-Blackwell.\n\nEdgerton, David (2006). The Shock of the Old: Technology and Global History Since 1900. London: Profile Books.\n\nFriis, Jan Kyrre Berg Olsen et al. (eds.) (2013). A Companion to the Philosophy of Technology. Malden: Wiley-Blackwell.\n\nHaraway, Donna (1991). Simians, Cyborgs, and Women: The Reinvention of Nature. New York: Routledge, 149-182.\n\nHaraway, Donna (2019). Seguir con el problema: Generar parentesco en el Chthuluceno. Bilbao: Consonni.\n\nIllich, Ivan (2012 [1973]). La convivencialidad. Barcelona: Virus.\n\nIppolita (2016). Anime elettriche: riti e miti sociali. Milano: Jaca Books.\n\nKapp, Ernst (2018). Elements of a Philosophy of Technology. Minneapolis: University of Minnesota Press.\n\nLatour, Bruno (1996 [1993]). Aramis, or the Love of Technology. Cambridge: Harvard University Press.\n\nMacKenzie, Donald; Wajcman, Judy (eds.) (1999). The Social Shaping of Technology (2nd edition). Philadelphia: Open University Press.\n\nMilani, Carlo (2022). Tecnologie conviviali. Milán: Elèuthera.\n\nMitcham, Carl (1994). Thinking through Technology: The Path Between Engineering and Philosophy. Chicago: University of Chicago Press.\n\nMumford, Lewis (2016 [1967-1970]). El mito de la máquina (2 vols.). Logroño: Pepitas de Calabaza.\n\nOrtega y Gasset, José (2014 [1933]). Ensimismamiento y alteración. Meditación de la técnica y otros ensayos. Madrid: Alianza Editorial.\n\nScharff, Robert; Dusek, Val (eds.) (2014). Philosophy of Technology: The Technological Condition (2nd edition). An Anthology. Malden: Willey-Blackwell.\n\nSchatzberg, Eric (2018) Technology: Critical History of a Concept. Chicago: University of Chicago Press.\n\nSchüll, Natasha Dow (2012). Addiction by Design: Machine Gambling in Las Vegas. Princeton: Princeton University Press. \n\nSimondon, Gilbert (2017 [1953-1983]). Sobre la técnica. Buenos Aires: Cactus.\n\nSimondon, Gilbert (2018 [1958]). El modo de existencia de los objetos técnicos. Buenos Aires: Prometeo.\n\nSuchman, Lucy (2006). Human-Machine Reconfigurations: Plans and Situated Actions, 2nd Edition. Cambridge: Cambridge University Press.\n\nTiqqun (2015). La hipótesis cibernética. Madrid: Acuarela & Antonio Machado.\n\nTrocchi, Agnese (2019). Internet, mon amour: Cronache prima del crollo di ieri. C.I.R.C.E. [https://ima.circex.org/]\n\nVerbeek, Peter-Paul (2005). What Things Do. Philosophical Reflections on Technology, Agency, and Design. University Park: The Pennsylvania State University Press.\n\nVerbeek, Peter-Paul (2011). Moralizing Technology: Understanding and Designing the Morality of Things. Chicago: The University of Chicago Press.\n\nWinner, Langdon (1986). The Whale and the Reactor: A Search for Limits in an Age of High-Technology. Chicago: University of Chicago Press."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.grafiati.com/en/literature-selections/aramide-aramide/book/",
+              "title": "Books: 'Aramide Aramide' – Grafiati",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Books: 'Aramide Aramide' – Grafiati\n\n# Books on the topic 'Aramide Aramide' \n\nAuthor: Grafiati\n\nPublished: 4 June 2021 \n\nLast updated: 1 February 2022\n\n...\n\nConsult the top 50 books for your research on the topic 'Aramide Aramide.'\n\nNext to every source in the list of references, there is an 'Add to bibliography' button. Press on it, and we will generate automatically the bibliographic reference to the chosen work in the citation style you need: APA, MLA, Harvard, Chicago, Vancouver, etc.\n\nYou can also download the full text of the academic publication as pdf and read online its abstract whenever available in the metadata.\n\n...\n\nLatour, Bruno. Aramis, ou, L'amour des techniques. La Découverte, 1992.\n\n...\n\nLatour, Bruno. Aramis, or, The love of technology. Harvard University Press, 1996.\n\nLatour, Bruno. Aramis: Or the love of technology. Harvard University Press, 1996."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://library.oapen.org/bitstream/id/1fe31e18-c3a9-4607-ad61-5b4a73b964fe/9781000546538.pdf",
+              "title": "Latour for Architects",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "LATOUR FOR ARCHITECTS\n\nBruno Latour is one of the leading figures\n\n...\n\nLatour for Architects is the first introduction to the key concepts and ideas of Bruno Latour that are relevant to architects.\n\n...\n\n## Latour\n\n#### for Architects\n\n### Albena Yaneva\n\nFirst published 2022 \nby Routledge \n4 Park Square, Milton Park, Abingdon, Oxon OX14 4RN \nand by Routledge \n605 Third Avenue, New York, NY 10158 \nRoutledge is an imprint of the Taylor & Francis Group, an informa business \n© 2022 Albena Yaneva\n\n...\n\nBritish Library Cataloguing-in-Publication Data \nA catalogue record for this book is available from the British Library \nLibrary of Congress Cataloging-in-Publication Data \nNames: Yaneva, Albena, author. \nTitle: Latour for architects / Albena Yaneva. \nDescription: Abingdon, Oxon; New York: Routledge, 2022. | \nSeries: Thinkers for architects | Includes bibliographical references and index. \nIdentifiers: LCCN 2021043936 (print) | LCCN 2021043937 (ebook) | \nISBN 9780367348618 (hardback) | ISBN 9780367348632 (paperback) | \nISBN 9780429328510 (ebook) \nSubjects: LCSH: Latour, Bruno. | Architecture—Philosophy. \nClassification: LCC B2430.L3594 Y36 2022 (print) | LCC B2430.L3594 (ebook) | \nDDC 720.1—dc23 \nLC record available at https://lccn.loc.gov/2021043936 \nLC ebook record available at https://lccn.loc.gov/2021043937 \nISBN: 978–0–367–34861–8 (hbk) \nISBN: 978–0–367–34863–2 (pbk) \nISBN: 978–0–429–32851–0 (ebk) \nDOI: 10.4324/9780429328510\n\n...\n\nFurther reading 125 \nBibliography 127"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://sites.unice.fr/gdr-biomim/wp-admin/sm2g9bec/33e864-bruno-latour-nous-n%27avons-jamais-%C3%A9t%C3%A9-modernes-pdf",
+              "title": "bruno latour nous n'avons jamais été modernes pdf",
+              "start_index": 0,
+              "end_index": 0,
+              "content": ". le foss se creuse entre les franais et les politiques. « Armillaire », 1999, ... été modernes (1994), Bruno Latour s’attache à montrer comment concevoir ensemble ... the Postmodern Divide, Chicago et Londres, The University of Chicago Press, 1992,"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3907,
+    "completion_tokens": 745,
+    "total_tokens": 4652,
+    "cost": 0.007681813,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006887,
+      "upstream_inference_prompt_cost": 0.0003907,
+      "upstream_inference_completions_cost": 0.000298
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

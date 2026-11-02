@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793577358-OYM6gqyupWFyNJKoDYaZ",
+  "object": "chat.completion",
+  "created": 1793577358,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-a2900b9ae77f:reference:https://catalog.folger.edu/record/1152479\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title and author match the candidate book and author. The reference range is explicitly stated as pages 261-265.\"\n    },\n    {\n      \"key\": \"q0629:reference:https://collection.sl.nsw.gov.au/record/74VKVWmkW5Qy\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title and author match the candidate book and author. The reference range is explicitly stated as pages 127-146.\"\n    },\n    {\n      \"key\": \"progress-0175:reference:https://collection.sl.nsw.gov.au/record/74VKKxZ4Rjdl\",\n      \"status\": \"reject\",\n      \"reason\": \"The source title includes an additional author, Carol Devine, who is not mentioned in the candidate.\"\n    },\n    {\n      \"key\": \"q0767:reference:https://gapines.org/eg/opac/nb_bounce?redirect_to=%2Feg%2Fopac%2Frecord%2F6574844%3Flocg%3D1\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title and author match the candidate book and author. The reference range is explicitly stated as pages 319-344.\"\n    },\n    {\n      \"key\": \"shelf-a96ebface863:reference:https://works.www.wellcomecollection.org/works/dcj37bs3\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title and author match the candidate book and author. The reference range is explicitly stated as pages 233-312.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3059,
+    "completion_tokens": 447,
+    "total_tokens": 3506,
+    "cost": 0.0001868229,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00018871,
+      "upstream_inference_prompt_cost": 0.00015295,
+      "upstream_inference_completions_cost": 0.00003576
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:56:05.253Z"
+}

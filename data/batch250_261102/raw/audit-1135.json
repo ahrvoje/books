@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576354-mdVNHOjrsgYCmUkJ3bdP",
+  "object": "chat.completion",
+  "created": 1793576354,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-81fcbf92e89a:amazon:https://www.amazon.com/Nolan-Variations-Mysteries-Marvels-Christopher/dp/0525655328\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"naa7c6aae3e:amazon:https://www.amazon.com/Identity-Trap-Story-Ideas-Power/dp/0593493184\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating is explicitly labelled as ratings.\"\n    },\n    {\n      \"key\": \"complete-314-273:amazon:https://www.amazon.com/Blind-Side-Evolution-Game/dp/0393330478\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"shelf-8787184df57d:amazon:https://www.amazon.com/Michael-Jordan-Life-Roland-Lazenby/dp/031619476X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating is explicitly labelled as ratings.\"\n    },\n    {\n      \"key\": \"rem-u0846:amazon:https://www.amazon.com/Absent-Superpower-Revolution-Without-America/dp/099850520X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating is explicitly labelled as ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3114,
+    "completion_tokens": 418,
+    "total_tokens": 3532,
+    "cost": 0.0001872486,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00018914,
+      "upstream_inference_prompt_cost": 0.0001557,
+      "upstream_inference_completions_cost": 0.00003344
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:39:22.944Z"
+}

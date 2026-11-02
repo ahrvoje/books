@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576247-XQFPY9uuDA54A93YAl71",
+  "object": "chat.completion",
+  "created": 1793576247,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u1730:amazon:https://www.amazon.com/Draft-No-4-Writing-Process/dp/0374537976\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"rem-u0319:amazon:https://www.amazon.com/Destiny-Disrupted-History-through-Islamic/dp/1586486063\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"rem-u0811:amazon:https://www.amazon.com/Mystery-Capital-Capitalism-Triumphs-Everywhere-ebook/dp/B00CW0MA1S\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"rem-u1899:amazon:https://www.amazon.com/Rise-Fall-Modern-Medicine/dp/0786707321\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"rem-u1030:amazon:https://www.amazon.com/Gods-Philosophers-Medieval-Foundations-Science/dp/1848311508\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3443,
+    "completion_tokens": 400,
+    "total_tokens": 3843,
+    "cost": 0.0002021085,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020415,
+      "upstream_inference_prompt_cost": 0.00017215,
+      "upstream_inference_completions_cost": 0.000032
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:37:34.188Z"
+}

@@ -1,0 +1,51 @@
+{
+  "recordedCostUSD": 0.2608571937155999,
+  "previous100RecordedCostUSD": 0.29326151182400007,
+  "changeFraction": -0.11049632086684291,
+  "acceptedFields": 100,
+  "costPerAcceptedFieldUSD": 0.002608571937155999,
+  "cachedFields": 1,
+  "groups": {
+    "fresh Amazon search": {
+      "calls": 220,
+      "costUSD": 0.23494148039559995,
+      "acceptedFields": 99
+    },
+    "audit": {
+      "calls": 20,
+      "costUSD": 0.0041289534000000004,
+      "acceptedFields": 0
+    },
+    "reference search": {
+      "calls": 20,
+      "costUSD": 0.02178675992,
+      "acceptedFields": 0
+    }
+  },
+  "previouslyAttemptedBooksExcluded": 854,
+  "freshRequests": 220,
+  "repeatedAmazonBookRequests": 0,
+  "lessons": [
+    "Reuse cached source evidence before searching.",
+    "Exclude already attempted Amazon books to avoid repeating unproductive searches. This round excluded 854 previously attempted book IDs.",
+    "Use title and author queries, Mistral Nemo, Parallel fast, and ten results per call. One-token output is sufficient only when source annotations are the intended output.",
+    "Match useful secondary results to their actual works; do not accept counts for related books as the queried book.",
+    "Twenty reference searches supplied no accepted counts; do not infer counts from reference-section presence.",
+    "Keep the separate Mistral Small 24B audit and resolve flags against source evidence.",
+    "This is a batch comparison, not a controlled causal test: field mix, cache availability and search difficulty differ."
+  ],
+  "scope": "Recorded successful OpenRouter responses including all research and audits; not an invoice.",
+  "confidence": "High for recorded costs and arithmetic; moderate for generalizing search efficiency.",
+  "futureDefaults": {
+    "researchModel": "mistralai/mistral-nemo",
+    "plugin": {
+      "id": "web",
+      "engine": "parallel",
+      "mode": "fast",
+      "max_results": 10
+    },
+    "researchMaxTokens": 1,
+    "auditModel": "mistralai/mistral-small-24b-instruct-2501",
+    "auditMaxTokens": 3000
+  }
+}

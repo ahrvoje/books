@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572533-iXWfD9AjWRXda1fr1OXt",
+  "object": "chat.completion",
+  "created": 1793572533,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"g1168\",\n  \"title\": \"Biography of the Dollar: How the Mighty Buck Conquered the World and Why It's Under Siege\",\n  \"author\": \"Craig Karmin\",\n  \"amazon\": {\n    \"count\": 3,\n    \"url\": \"https://www.amazon.com/Biography-Dollar-Mighty-Conquered-World/dp/0307339866\",\n    \"asin\": \"0307339866\",\n    \"evidence\": \"https://www.amazon.com/Biography-Dollar-Mighty-Conquered-World/dp/0307339866#customerReviews\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Marvelous-History-US-Dollar/dp/B08BJX5RS3",
+              "title": "The Marvelous History of the US Dollar - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Producers: Christine Camdessus. Cast: Craig Karmin, Richard Doty, Richard Nixon. Studio: Questar Entertainment. Reviews. 5.0 out of 5 stars. 3 global ratings. 5 ..."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/es/Craig-Karmin/dp/B001TIKF02",
+              "title": "Amazon.com: Biography of the Dollar: How the Mighty Buck ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Craig Karmin. Biography of the Dollar: How the Mighty Buck Conquered the World and Why It's Under Siege [BIOG OF THE DOLLAR]. 3.6 en Goodreads. (144)."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Craig-Karmin/s?rh=n%3A283155%2Cp_27%3ACraig%2BKarmin",
+              "title": "Craig Karmin: Books - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Biography of the Dollar: How the Mighty Buck Conquered the World and Why It's Under Siege · by Craig Karmin · Hardcover. Add to cart."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Biography-Dollar-Mighty-Conquered-World/dp/0307339866",
+              "title": "Biography of the Dollar: How the Mighty Buck Conquered the ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Explores the US dollar's global dominance, its role in international trade, and mounting concerns about its future sustainability due to America's massive ..."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Seeing-Elephant-Understanding-Globalization-Trunk-ebook/dp/B00245A4AU",
+              "title": "Seeing the Elephant: Understanding Globalization from Trunk ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "—Craig Karmin, Wall Street Journal reporter and author of Biography of the Dollar: How the Mighty Buck Conquered the World and Why It's Under Siege. \"Peter ..."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 758,
+    "completion_tokens": 167,
+    "total_tokens": 925,
+    "cost": 0.00501846746,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000018654,
+      "upstream_inference_prompt_cost": 0.000013644,
+      "upstream_inference_completions_cost": 0.00000501
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "g1168",
+  "retrieved": "2026-11-01T22:35:44.430Z"
+}

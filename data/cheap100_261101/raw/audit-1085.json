@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793572736-V68LfJ4tbIknPUwmRHzj",
+  "object": "chat.completion",
+  "created": 1793572736,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"n4983e6b803:reference:https://qcpl.quezoncity.gov.ph/catalog/25609\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The bibliographical reference range is explicitly stated as pages 461-494.\"\n    },\n    {\n      \"key\": \"q0972:reference:https://librarysearch.temple.edu/catalog/991036985407903811\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The bibliographical reference range is explicitly stated as pages 537-663.\"\n    },\n    {\n      \"key\": \"g1148:amazon:https://www.amazon.com/Mastering-Market-Cycle-Getting-Odds/dp/1328479250\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The global ratings are explicitly labelled as 3,681 global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1132:amazon:https://www.amazon.com/More-Beautiful-Question-Inquiry-Breakthrough/dp/1632861054\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The global ratings are explicitly labelled as 1,636 global ratings.\"\n    },\n    {\n      \"key\": \"q0968:amazon:https://www.amazon.com/Progress-Poverty-Industrial-Depressions-Increase/dp/0486842088\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The global ratings are explicitly labelled as 156 ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3215,
+    "completion_tokens": 428,
+    "total_tokens": 3643,
+    "cost": 0.0001930401,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019499,
+      "upstream_inference_prompt_cost": 0.00016075,
+      "upstream_inference_completions_cost": 0.00003424
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:38:58.418Z"
+}

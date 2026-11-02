@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+const d='data/cheap100_261102/';
+let s=fs.readFileSync(d+'finalize.mjs','utf8');
+s=s.replace('analysis_fast100_','analysis_reuse100_').replace('Further metadata with cheaper search','Further metadata with reused evidence');
+const start=s.indexOf('The main saving came from setting Parallel search mode');
+const end=s.indexOf('## Accepted values',start);
+if(start<0||end<0)throw Error('Report section not found');
+const section='This round used the established Mistral Nemo plus Parallel fast search setup, with ten results per call. Thirteen accepted values came from the prior round’s saved sources at no new search cost. Other searches also supplied useful secondary results for different catalog books. All such results were matched to their actual work before acceptance.\n\nA nine-book matched pilot replaced title and author with ISBN-only queries. All nine returned irrelevant seller profiles and produced no accepted book count. The title-and-author controls supplied four accepted counts. The pilot cost about $0.010. Keep title and author in the query; this small pilot does not establish that every ISBN-assisted query is poor.\n\nReference searches were less productive in this batch: sixty calls supplied three newly accepted reference counts. Two other reference counts came from saved sources. No total-page count was accepted. The Amazon-heavy field mix differs from the previous round, so the lower total cost is not a controlled measure of search improvement. Recorded cost includes the failed pilot and separate evidence audits.\n\nFor the next batch: reuse saved evidence first, inspect useful secondary book results, retain title and author in queries, and keep Parallel fast mode with ten results. Track accepted values and cost separately by field. Stop low-yield query variants early. Never infer a missing count or zero, accept a seller rating as a book rating, substitute one volume for a whole series, or accept worker output without source evidence.\n\n';
+s=s.slice(0,start)+section.replaceAll('\n','\\n')+s.slice(end);
+fs.writeFileSync(d+'finalize.mjs',s);
+let review=fs.readFileSync(d+'close-review.mjs','utf8').replace('controls supplied three accepted values','controls supplied four accepted values');
+fs.writeFileSync(d+'close-review.mjs',review);

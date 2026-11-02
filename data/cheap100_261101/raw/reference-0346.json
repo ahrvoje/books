@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572644-gfHpiOXxjKB9zGiZ4pqF",
+  "object": "chat.completion",
+  "created": 1793572644,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"q0336\",\n  \"title\": \"Madhouse at the end of the Earth: the Belgica's journey into the dark Antarctic night\",\n  \"author\": \"Julian Sancton\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 1,\n    \"url\": \"https://catalog.wake.gov/Record/751053\",\n    \"evidence\": \"Includes bibliographical references (pages 321-331) and index.\",\n    \"ranges\": [\n      {\n        \"start\": 321,\n        \"end\": 331,\n        \"label\": \"bibliographical references\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.wake.gov/Record/751053",
+              "title": "Madhouse at the end of the Earth : : the Belgica's journey...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Madhouse at the end of the Earth: the Belgica's journey into the dark Antarctic night (Book)\n\n...\n\nAuthor: Sancton, Julian \n\nStatus:\n\nOn Shelf \n\nEast Regional - Adult Non-Fiction 919.89 SANCT\n\nEva H. Perry Regional - Adult Non-Fiction has 2 919.89 SANCT\n\nMiddlecreek Community - Adult Non-Fiction 919.89 SANCT\n\n| Available Copies | Location | Call Number |\n| --- | --- | --- |\n| 0 of 1 | Cary Regional - Adult Non-Fiction | 919.89 SANCT |\n| 1 of 1 | East Regional - Adult Non-Fiction | 919.89 SANCT |\n| 2 of 3 | Eva H. Perry Regional - Adult Non-Fiction | 919.89 SANCT |\n| 0 of 1 | Fuquay-Varina Community - Adult Non-Fiction | 919.89 SANCT |\n| 1 of 1 | Middlecreek Community - Adult Non-Fiction | 919.89 SANCT |\n| 1 of 1 | North Regional - Adult Non-Fiction | 919.89 SANCT |\n| 1 of 2 | Oberlin Regional - Adult Non-Fiction | 919.89 SANCT |\n| 1 of 1 | Southgate Community - Adult Non-Fiction | 919.89 SANCT |\n| 1 of 1 | West Regional - Adult Non-Fiction | 919.89 SANCT |\n\n## Copies\n\nLocation Call Number Status\n\nCary Regional - Adult Non-Fiction 919.89 SANCT Checked Out\n\nEast Regional - Adult Non-Fiction 919.89 SANCT On Shelf\n\nEva H. Perry Regional - Adult Non-Fiction 919.89 SANCT On Shelf\n\nEva H. Perry Regional - Adult Non-Fiction 919.89 SANCT On Shelf\n\nEva H. Perry Regional - Adult Non-Fiction 919.89 SANCT Remote Storage\n\nFuquay-Varina Community - Adult Non-Fiction 919.89 SANCT Remote Storage\n\nMiddlecreek Community - Adult Non-Fiction 919.89 SANCT On Shelf\n\nNorth Regional - Adult Non-Fiction 919.89 SANCT On Shelf\n\nOberlin Regional - Adult Non-Fiction 919.89 SANCT Checked Out\n\nOberlin Regional - Adult Non-Fiction 919.89 SANCT On Shelf\n\nSouthgate Community - Adult Non-Fiction 919.89 SANCT On Shelf\n\nWest Regional - Adult Non-Fiction 919.89 SANCT On Shelf\n\n## More Details\n\nPublished: New York : Crown, 2021.\n\nFormat: Book\n\nEdition: First edition.\n\nPhysical Desc:\n\nviii, 350 pages, 16 unnumbered pages of plates : illustrations, maps ; 25 cm\n\nLanguage: English\n\nISBN: 9781984824332, 1984824333, 9781984824332\n\n#### Notes\n\nBibliography\n\nIncludes bibliographical references (pages 321-331) and index.\n\n...\n\nSancton, J. (2021). Madhouse at the end of the Earth: the Belgica's journey into the dark Antarctic night. First edition. Crown.\n\n...\n\n### MARC Record\n\n| LEADER | | | 03843pam a2200625 i 4500 |\n| --- | --- | --- | --- |\n| 001 | | | 2021004352 |\n| 003 | | | DLC |\n| 005 | | | 20210429091700.0 |\n| 008 | | | 210216s2021 nyuabf b 001 0deng |\n| 010 | | | |a 2021004352 |\n| 020 | | | |a 9781984824332 |c $30.00 |\n| 020 | | | |a 1984824333 |c $30.00 |\n| 020 | | | |a 9781984824332 |q (hbk. ; |q acid-free paper) |\n| 020 | | | |z 9781984824356 |q (ebk.) |\n| 035 | | | |a (OCoLC)1240828369 |\n| 040 | | | |a DLC |b eng |e rda |c DLC |d TnLvILS |\n| 042 | | | |a pcc |\n| 043 | | | |a t------ |a e-be--- |\n| 050 | 0 | 0 | |a G850 1898 |b .B28 2021 |\n| 082 | 0 | 0 | |a 919.8904 |2 23 |\n| 092 | | | |a 919.89 SANCT |\n| 100 | 1 | | |a Sancton, Julian |e author. |\n| 245 | 1 | 0 | |a Madhouse at the end of the Earth : |b the Belgica's journey into the dark Antarctic night / |c Julian Sancton. |\n| 246 | 3 | 0 | |a Belgica's journey into the dark Antarctic night |\n| 250 | | | |a First edition. |\n| 264 | | 1 | |a New York : |b Crown, |c 2021. |\n| 300 | | | |a viii, 350 pages, 16 unnumbered pages of plates : |b illustrations, maps ; |c 25 cm |\n| 336 | | | |a text |b txt |2 rdacontent |\n| 336 | | | |a still image |b sti |2 rdacontent |\n| 336 | | | |a cartographic image |2 rdacontent |\n| 337 | | | |a unmediated |b n |2 rdamedia |\n| 338 | | | |a volume |b nc |2 rdacarrier |\n\n...\n\n| 504 | | | |a Includes bibliographical references (pages 321-331) and index. |\n\n...\n\n| 776 | 0 | 8 | |i Online version: |a Sancton, Julian, |t Madhouse at the end of the Earth |d New York : Crown, 2021."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://gc.wyldcatalog.org/Record/a2418488",
+              "title": "Madhouse at the end of the Earth : the Belgica's journey into... | Gillette College Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Madhouse at the end of the Earth : the Belgica's journey into the dark Antarctic night (Book)\n\nAverage Rating\n\n5 star\n\n...\n\n4 star\n\n3 star\n\n2 star\n\n1 star\n\nAuthor Sancton, Julian. \n\nPublished New York : Crown, [2021]\n\nEdition First edition.\n\nPhysical Description\n\nviii, 350 pages, 16 pages of unnumbered plates : illustrations, maps ; 25 cm\n\nStatus\n\nNot Owned Show All Copies\n\n## Copies\n\n| Location | Call Number | Note | Status |\n| --- | --- | --- | --- |\n| Albany Co. Public Library - Nonfiction | 919.89 SANCTON | | On Shelf |\n| Campbell Co. Public Library - Travel Collection | TRAVEL 919.8904 SANCTON 2021 | Housed in the Travel Neighborhood in Adult Nonfiction | On Shelf |\n| Fremont Co. - Riverton - Nonfiction | 919.89 SANCTON | | On Shelf |\n| Laramie Co. Library - Cheyenne - Third Floor | 998.9 SAN | | On Shelf |\n| Natrona Co. Public Library - Nonfiction | 919.8904 SANCTON | | On Shelf |\n| Park Co. Library - Nonfiction | 919.8904 SANCTON | | On Shelf |\n| Park Co. Library - Powell - Nonfiction | 919.8904 SANCTON | | Checked Out |\n| Sheridan Co. - Fulmer Branch - Nonfiction | 919.8904 SANCTON J | | On Shelf |\n| Teton Co. Library - Nonfiction | 919.8904 SANCTON J | | On Shelf |\n| Washakie Co. - Ten Sleep Branch - Nonfiction | 919.89 SANC | | On Shelf |\n\n...\n\n## More Details\n\nFormat Book\n\nLanguage English\n\nISBN 9781984824349, 9781984824332, 1984824333\n\nNotes\n\nBibliography\n\nIncludes bibliographical references (pages 321-325) and index."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://buenavistapl.marmot.org/Record/.b63619787",
+              "title": "Madhouse at the end of the Earth : : the Belgica's journey...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Madhouse at the end of the Earth: the Belgica's journey into the dark Antarctic night (Book)\n\n...\n\nAuthor: Sancton, Julian, \n\nPublished: New York : Crown, [2021].\n\nFormat: Book\n\nEdition: First edition.\n\nISBN: 9781984824332, 1984824333, 9781984824349, 1984824341\n\nPhysical Desc:\n\nviii, 350 pages, 16 unnumbered pages of plates : illustrations, maps ; 25 cm\n\nStatus:\n\nOn Shelf \n\nBuena Vista Adult Non-Fic 919.89 San\n\n| Available Copies | Location | Call Number |\n| --- | --- | --- |\n| 1 of 1 | Buena Vista Adult Non-Fic | 919.89 San |\n| 1 of 1 | Basalt Non Fiction | 919.89 SAN |\n| 1 of 1 | Crested Butte Non Fiction | 919.89 San |\n| 1 of 1 | EPL Non-Fiction | 919.8904 SANCTON, JULIAN |\n| 1 of 1 | EVLD Avon Public Library | 919.8904 SAN |\n| 1 of 1 | EVLD Eagle Public Library | 919.8904 SAN |\n| 1 of 1 | GRC Juniper Non-Fiction | 919.89 SAN |\n| 1 of 1 | MCPLD Central Non-Fiction | 919.8904 S212m |\n| 1 of 1 | MRLD Montrose Nonfiction 900 | 919.8904 San |\n| 1 of 1 | MRLD Naturita Nonfiction 900 | 919.8904 San |\n| 1 of 1 | Pine River Adult Non-Fiction | HISTORY |\n| 1 of 1 | Pitkin County Library | 919.8904 S212 |\n| 0 of 1 | SRL Adult Nonfiction | 919.89 SAN |\n| 0 of 1 | SSCL Bud Adult Nonfiction | 919.89 SAN |\n| 1 of 1 | TELL WPL Adult NonFiction | 919.89 SANCTON |\n| 1 of 1 | Vail Public Library Non Fic & Classics | 919.89 SAN |\n\n...\n\n## More Details\n\n...\n\nUPC: 40030621849\n\n#### Notes\n\nBibliography Includes bibliographical references and index.\n\n...\n\n| LEADER | | | 10701cam a2201489 i 4500 |\n| --- | --- | --- | --- |\n| 001 | | | 1240828369 |\n| 003 | | | OCoLC |\n| 005 | | | 20220427150250.0 |\n| 008 | | | 210216s2021 nyuabf b 001 0 eng |\n| 010 | | | |a 2021004352 |\n| 019 | | | |a 1184238310 |a 1224585959 |a 1242982422 |a 1246181941 |a 1253678625 |\n| 020 | | | |a 9781984824332 |q hardcover |\n| 020 | | | |a 1984824333 |q hardcover |\n| 020 | | | |a 9781984824349 |q paperback |\n| 020 | | | |a 1984824341 |q paperback |\n| 020 | | | |z 9781984824356 |q electronic book |\n\n...\n\n| 100 | 1 | | |a Sancton, Julian, |e author. |\n| 245 | 1 | 0 | |a Madhouse at the end of the Earth : |b the Belgica's journey into the dark Antarctic night / |c Julian Sancton. |\n| 246 | 3 | 0 | |a Belgica's journey into the dark Antarctic night |\n| 250 | | | |a First edition. |\n| 264 | | 1 | |a New York : |b Crown, |c [2021] |\n| 300 | | | |a viii, 350 pages, 16 unnumbered pages of plates : |b illustrations, maps ; |c 25 cm |\n| 336 | | | |a text |b txt |2 rdacontent |\n| 337 | | | |a unmediated |b n |2 rdamedia |\n| 338 | | | |a volume |b nc |2 rdacarrier |\n| 340 | | | |p illustration |p map |2 rdaill |\n| 340 | | | |p plate |\n| 504 | | | |a Includes bibliographical references and index. |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.nwrlib.org/Record/366083",
+              "title": "Madhouse at the end of the Earth : the Belgica's journey into... | Northwest Regional Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Madhouse at the end of the Earth : the Belgica's journey into the dark Antarctic night (Book)\n\nAverage Rating\n\nAuthor Sancton, Julian \n\nPublished New York : Crown, 2021.\n\nPhysical Desc viii, 350 pages : illustrations ; 25 cm\n\nStatus\n\nOn Shelf\n\nRed Lake Falls Public Library - Main 919.8904 SAN 1 available\n\nWhere is it?\n\n...\n\n| Location\n\n...\n\n| Red Lake Falls Public Library - Main | 919.8904 SAN | Available |\n\n...\n\n## More Details\n\nFormat Book\n\nEdition First edition.\n\nLanguage English\n\nNotes\n\nBibliography Includes bibliographical references and index."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://adams.discovery.sparkpa.org/Record/11591325",
+              "title": "Madhouse at the end of the Earth : the Belgica's journey into... | Adams County Library System",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Madhouse at the end of the Earth : the Belgica's journey into the dark Antarctic night (Book)\n\nAverage Rating\n\nAuthor Sancton, Julian \n\nStatus\n\nOn Shelf\n\nGettysburg Library - Nonfiction 919.89 SANCTON 1 available\n\n## Copies\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| Gettysburg Library - Nonfiction | 919.89 SANCTON | Available |\n\n## Other Editions and Formats\n\nBook Show Edition\n\nOn Shelf\n\nGettysburg Library - Nonfiction 919.89 SANCTON 1 available\n\nLarge Print Show Edition\n\nOn Shelf\n\nTrone Memorial Library (East Berlin) - Large Print Nonfiction LP 919.89 SANCTON 1 available\n\n## Table of Contents\n\nPrologue \n\n Part 1. Why not Belgium? ; \"Gold and diamonds\" ; Tribute to Neptune ; Showdown ; \"Defeat before the fight\" ; \"A body on our path\" ; Uncharted ; \"To the South!\" \n\n Part 2. Icebound ; The last sunset ; The southernmost funeral ; Madhouse promenade ; The order of the penguin ; Insanity ; Darkness under the sun ; Man against ice ; Last ditch ; Strangers in the mirror \n\n Beyond the Belgica \n\n Author's note.\n\n## More Details\n\nPublished New York : Crown, an imprint of Random House, [2021]\n\nFormat Book\n\nEdition First edition.\n\nPhysical Desc\n\nviii, 350 pages, 16 unnumbered pages of plates : illustrations, maps ; 25 cm\n\nLanguage English\n\n9781984824332 (hardcover), 1984824333 (hardcover), 9781984824349 paperback, 1984824341 paperback\n\nNotes\n\nOther Title Belgica's journey into the dark Antarctic night\n\nBibliography\n\nIncludes bibliographical references (pages 321-325) and index."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4616,
+    "completion_tokens": 160,
+    "total_tokens": 4776,
+    "cost": 0.007241164,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002436,
+      "upstream_inference_prompt_cost": 0.0002308,
+      "upstream_inference_completions_cost": 0.0000128
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "q0336",
+  "retrieved": "2026-11-01T22:37:27.685Z"
+}

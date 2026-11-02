@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793577657-MDPlJlcPF8ku5JOsATv5",
+  "object": "chat.completion",
+  "created": 1793577657,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rest-13-12:reference:https://search.library.yale.edu/catalog/17383384\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match for title and author. Bibliographical references are on pages 485-493.\"\n    },\n    {\n      \"key\": \"q0643:reference:https://collection.sl.nsw.gov.au/record/74VKaBK76WdM\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match for title and author. Bibliographical references are on pages 357-377.\"\n    },\n    {\n      \"key\": \"complete-536-20:reference:https://archive.org/details/philosophyverysh0000crai\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match for title and author. Bibliographical references are on pages 119-125.\"\n    },\n    {\n      \"key\": \"n2e430d8ba8:reference:https://catalog.libraries.psu.edu/catalog/45341365\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match for title and author. Bibliographical references are on pages 233-324.\"\n    },\n    {\n      \"key\": \"complete-228-231:reference:https://rtrl.nsw.gov.au/cgi-bin/spydus.exe/ENQ/OPAC/BIBENQ?BRN=552547&SETLVL\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match for title and author. Bibliographical references are on pages 271-287.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2984,
+    "completion_tokens": 408,
+    "total_tokens": 3392,
+    "cost": 0.0001800216,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00018184,
+      "upstream_inference_prompt_cost": 0.0001492,
+      "upstream_inference_completions_cost": 0.00003264
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-02T00:01:02.993Z"
+}

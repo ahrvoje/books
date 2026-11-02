@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574389-3aEmrfY5YmOhQ7D0cTBb",
+  "object": "chat.completion",
+  "created": 1793574389,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"n0cf11d5e25:amazon:https://www.amazon.com/Longest-Day-Classic-Epic-D-Day/dp/0671890913\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 2,069 ratings is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"complete-198-9:reference:https://link.europarl.europa.eu/resource/9JaSqstD1Ro\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of bibliographical references (pages 139-144) is explicitly stated.\"\n    },\n    {\n      \"key\": \"q1001:reference:https://collection.sl.nsw.gov.au/record/74VKaK7Ev4gl\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of bibliographical references (pages 280-298) is explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-e8725d9e6ecf:amazon:https://www.amazon.com/National-Populism-Against-Liberal-Democracy/dp/0241312000\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and authors match exactly. The evidence of 585 global ratings is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"bg4d51d81a85:amazon:https://www.amazon.com/Power-Powerless-Vaclav-Havel/dp/178487504X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 466 global ratings is explicitly labelled as global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3259,
+    "completion_tokens": 444,
+    "total_tokens": 3703,
+    "cost": 0.0001964853,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019847,
+      "upstream_inference_prompt_cost": 0.00016295,
+      "upstream_inference_completions_cost": 0.00003552
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:06:33.937Z"
+}

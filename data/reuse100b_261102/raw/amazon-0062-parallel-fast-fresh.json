@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793575066-Vxdyon0zzwQre7SBqxU6",
+  "object": "chat.completion",
+  "created": 1793575066,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Behaviour-Change-Wheel-Designing-Interventions/dp/1912141000",
+              "title": "Amazon.com: The Behaviour Change Wheel: A Guide To Designing Interventions: 9781912141005: Michie, Prof Susan, Atkins, Dr Lou, West, Prof Robert: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "through the specific techniques to produce the change, to the contextualising factors.\" Professor Ron Borland, Nigel Gray Distinguished Fellow in Cancer Prevention at Cancer Council Victoria\n\"Michie, Atkins and West provide an excellent step-by-step guide based on their extensive experience and expertise, using their COM-B model.\" Marie Johnston, Emeritus Professor of Health Psychology, University of Aberdeen\nChapters\n* Introduction\n* Who the Guide is for\n* Why have we written this Guide?\n* More about the Behaviour Change Wheel (BCW)\n* Things to remember\n\n...\n\nABC of Behaviour Change Theories\nSusan Michie\n4.5 out of 5 stars 21\nPaperback\n$55.00 $\n\n...\n\nMy main areas of work are addiction, particularly to smoking and alcohol, plus traffic accidents and behaviour change theory.\nRead more about this author\n\nRate today's book shopping experience\n\n*  |  |  |  | \n* Very poor | Poor | Neutral | Good | Great\n1 2 3 4 5\nVery poor Neutral Very good\nSend rating\n\nRate today's book shopping experience\n\n...\n\nPsychology Books For Mental Health)\n4.8 4.8 out of 5 stars 211\n$32.95 $ 32 . 95\nNext page\n\nCustomer reviews\n\n4.6 out of 5 stars\n4.6 out of 5\n132 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 74% 17% 6% 2% 1% 74%\n* 5 star 4 star 3 star 2 star 1 star 4 star 74% 17% 6% 2% 1% 17%\n* 5 star 4 star 3 star 2 star 1 star 3 star 74% 17% 6% 2% 1% 6%\n* 5 star 4 star 3 star 2 star 1 star 2 star 74% 17% 6% 2% 1% 2%"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 904,
+    "completion_tokens": 1,
+    "total_tokens": 905,
+    "cost": 0.00101613898,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000016302,
+      "upstream_inference_prompt_cost": 0.000016272,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Creative Computer\" Donald Michie and Rory Johnston \"global ratings\"",
+  "bookId": "shelf-9340b16bacba",
+  "retrieved": "2026-11-01T23:17:43.778Z"
+}

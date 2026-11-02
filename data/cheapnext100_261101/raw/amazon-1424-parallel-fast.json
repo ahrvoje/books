@@ -1,0 +1,117 @@
+{
+  "id": "gen-1793573378-W5rn45I7iBsITH6ia6Fc",
+  "object": "chat.completion",
+  "created": 1793573378,
+  "model": "mistralai/mistral-nemo",
+  "provider": "Io Net",
+  "system_fingerprint": "vllm-0.25.1-95d19908",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"id\": \"intake-0327\",\n  \"title\": \"From the Closed World to the Infinite Universe\",\n  \"author\": \"Alexandre Koyré\",\n  \"pages\": null,\n  \"amazon\": {\n    \"count\": 1,\n    \"url\": \"https://www.amazon.com/Closed-World-Infinite-Universe-ebook/dp/B00CRND2SA\",\n    \"asin\": \"B00CRND2SA\",\n    \"evidence\": \"Explicit title, author, and global ratings match on Amazon Kindle edition page.\"\n  },\n  \"reference\": null\n}",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Closed-Infinite-Universe-Noguchi-Lecture/dp/0801803470",
+              "title": "From the Closed World to the Infinite Universe",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nFrom the Closed World to the Infinite Universe\nAlexander Koyré traces how European thought shifted from a finite Aristotelian cosmos to an infinite universe through figures like Copernicus, Bruno, Descartes"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B001H6IVXY",
+              "title": "Alexandre Koyré: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nAlexandre Koyré: books, biography, latest update\nFollow Alexandre Koyré and explore their bibliography from Amazon&#39;s. Books From the Closed World to the Infinite Universe Kindle Edition Books. History &\n\n## \n\nAlexandre Koyré: books, biography, latest update\nFollow Alexandre Koyré and explore their bibliography from Amazon's Alexandre Koyré Author Page.\n\n## \n\nAlexandre Koyré: books, biography, latest update\n8 janv. 2026 — From the Closed World to the Infinite Universe (Annotated): Enriched Edition. A Classic Study of the Scientific Revolution and the Birth of Modern Cosmology.\n\n## \n\nAlexandre Koyré: books, biography, latest update\nFrom the Closed World to the Infinite Universe (Annotated): Enriched Edition. A Classic Study of the Scientific Revolution and the Birth of Modern Cosmology."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Closed-World-Infinite-Universe-ebook/dp/B00CRND2SA",
+              "title": "From the Closed World to the Infinite Universe",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nFrom the Closed World to the Infinite Universe\nKindle edition by Koyré, Alexandre. This is a study of the evolution of cosmology from antiquity to mid-20th century. history of science, astronomy,"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Alexandre-Koyre/s?rh",
+              "title": "Alexandre Koyre: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nAlexandre Koyre: Books\nFrom the Closed World to the Infinite Universe (Hideyo Noguchi Lecture) · by Alexandre Koyre · Paperback. Add to cart. Other format: Hardcover."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Relocating-Modern-Science-Circulation-Construction/dp/0230238505",
+              "title": "Relocating Modern Science: Circulation and the ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nRelocating Modern Science: Circulation and the ...\nKAPIL RAJ teaches at the École des Hautes Études en Sciences Sociales, Paris and is a member of the Centre Alexandre Koyré for the History of Science. He\n\n## \n\nRelocating Modern Science: Circulation and the ...\nRelocating Modern Science challenges the belief that modern science was created uniquely in the West and was subsequently diffused elsewhere."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/es/Estudos-Historia-do-Pensamento-Filosofico/dp/8530935683",
+              "title": "Amazon.com: Estudos de Historia do Pensamento Filosofico",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nAmazon.com: Estudos de Historia do Pensamento Filosofico\nA obra Estudos de história do pensamento filosófico, de Alexandre Koyré, é o resultado de longos e perseverantes estudos deste competentíssimo mestre."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1055,
+    "completion_tokens": 135,
+    "total_tokens": 1190,
+    "cost": 0.0010194530248,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 128,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001964952,
+      "upstream_inference_prompt_cost": 0.00001673352,
+      "upstream_inference_completions_cost": 0.000002916
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"From the Closed World to the Infinite Universe\" Alexandre Koyré \"global ratings\"",
+  "bookId": "intake-0327",
+  "retrieved": "2026-11-01T22:49:37.693Z"
+}

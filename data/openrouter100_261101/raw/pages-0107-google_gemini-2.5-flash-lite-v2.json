@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:16:27.923Z",
+  "bookId": "rem-u0965",
+  "id": "gen-1793571385-JHlkhBKFo9okvFVCqua3",
+  "object": "chat.completion",
+  "created": 1793571385,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"rem-u0965\",\n  \"title\": \"The Complete Persepolis (Persepolis, #1-4)\",\n  \"author\": \"Marjane Satrapi\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 341,\n    \"editionId\": \"0375714839\",\n    \"editionYear\": 2007,\n    \"format\": \"Paperback\",\n    \"language\": \"English\",\n    \"url\": \"https://www.amazon.com/Complete-Persepolis-Marjane-Satrapi/dp/0375714839\",\n    \"evidence\": \"Print length: 341 pages\",\n    \"sourceTitle\": \"The Complete Persepolis: Satrapi, Marjane, Singh, Anjali ...\",\n    \"sourceAuthor\": \"Marjane Satrapi\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://app.thestorygraph.com/books/bfeb3a3b-cc08-4844-9a3d-3d18e10adc2f\",\n    \"https://www.amazon.com/Complete-Persepolis-Marjane-Satrapi/dp/0375714839\",\n    \"https://penguinrandomhousesecondaryeducation.com/book/?isbn=9780375714832\",\n    \"https://www.penguinrandomhouse.com/books/160892/the-complete-persepolis-by-marjane-satrapi/\",\n    \"https://www.goodreads.com/work/editions/13344769-persepolis\"\n  ],\n  \"limitations\": \"The search results provided multiple page counts for different editions of \\\"The Complete Persepolis\\\". The page count of 341 pages is associated with the Pantheon Books paperback edition published on October 30, 2007, with ASIN 0375714839. Other editions have different page counts (e.g., 352 pages, 344 pages, 366 pages, 368 pages). The request specified \\\"English paperback pages ISBN publisher\\\", and the 341-page count from Amazon.com fits these criteria.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://app.thestorygraph.com/books/bfeb3a3b-cc08-4844-9a3d-3d18e10adc2f",
+              "title": "The Complete Persepolis by Marjane Satrapi | The StoryGraph",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "### The Complete Persepolis \n\n Marjane Satrapi with Mattias Ripa (Translator), Blake Ferris (Translator) \n\n 341 pages • paperback • first pub 2000 • 107 editions \n\nFormat: Paperback\n\nLanguage: English\n\nPublisher: Pantheon Books\n\nEdition Pub Date: 30 Oct 2007"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Complete-Persepolis-Marjane-Satrapi/dp/0375714839",
+              "title": "The Complete Persepolis: Satrapi, Marjane, Singh, Anjali ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The Complete Persepolis\nBrand: Marjane Satrapi\nCategory: Specific Topics > Censorship\n\n## Specifications\nPublisher: Pantheon; Publication date: October 30, 2007; Edition: Media tie-in; Language: English; Print length: 341 pages\n\n...\n\n## Details\nUPC: 0375714839\n\n...\n\nASIN: 0375714839"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://penguinrandomhousesecondaryeducation.com/book/?isbn=9780375714832",
+              "title": "The Complete Persepolis - Penguin Random House Secondary ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Complete Persepolis | Penguin Random House Secondary Education\n\nLook inside\n\n# The Complete Persepolis\n\n## Volumes 1 and 2\n\n## Part of Pantheon Graphic Library\n\nTranslated by Anjali Singh\n\nAdd to Wish List Added to Wish List\n\nLook inside\n\nBest Seller\n\nPaperback\n\n$28.00 US\n\n6.06\"W x 8.88\"H x 0.87\"D\n\nOn sale Oct 30, 2007 | 352 Pages | 9780375714832\n\nGrades 9-12 + AP/IB\n\n...\n\nMar ... Satra"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.penguinrandomhouse.com/books/160892/the-complete-persepolis-by-marjane-satrapi/",
+              "title": "The Complete Persepolis by Marjane Satrapi: 9780593701058 ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Complete Persepolis by Marjane Satrapi: 9780593701058 | PenguinRandomHouse.com: Books\n\nBest Seller\n\n# The Complete Persepolis\n\nVolumes 1 and 2\n\n20th Anniversary Edition\n\n## By Marjane Satrapi Translated by Anjali Singh\n\n## By Marjane Satrapi Translated by Anjali Singh\n\n \n\n Hardcover $35.00 Published on Aug 08, 2023 | 352 Pages\n\n Paperback $28.00 Published on Oct 30, 2007 | 352 Pages"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.goodreads.com/work/editions/13344769-persepolis",
+              "title": "Editions of The Complete Persepolis by Marjane Satrapi",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Editions of The Complete Persepolis by Marjane Satrapi\n\n# The Complete Persepolis > Editions \n\n## by Marjane Satrapi First published 2007 \n\n \n\n The Complete Persepolis (Paperback) \n\n Published October 30th 2007 by Pantheon Books \n\n Media tie-in, Paperback, 341 pages \n\n Marjane Satrapi \n\n ISBN: 9780375714832 (ISBN10: 0375714839) \n\n ASIN: 0375714839 \n\n Edition language: English \n\n Average rating: 4.39 (187,933 ratings) \n\n \n\n Persepolis: The Story of a Childhood and The Story of a Return (Paperback) \n\n Published March 6th 2008 by Vintage \n\n 2nd, Paperback, 344 pages \n\n Marjane Satrapi, \n\n Anjali Singh (Translator) \n\n ISBN: 9780099523994 (ISBN10: 009952399X) \n\n ASIN: 009952399X\n\n...\n\nPersépolis (Paperback) \n\n Published December 10th 2007 by Companhia das Letras \n\n Paperback, 352 pages \n\n Marjane Satrapi, \n\n Paulo Werneck (Translator) \n\n ISBN: 9788535911626 (ISBN10: 8535911626) \n\n ASIN: 8535911626\n\n...\n\nPersépolis (Persepolis #1-4) \n\n Published December 30th 2007 by Norma Editorial \n\n Colección \"Nómadas\" (n.3). Volumen integral, Hardcover, 366 pages \n\n Marjane Satrapi, \n\n Albert Agut Iglesias (Translator) \n\n ISBN: 9788498470666 (ISBN10: 8498470668) \n\n ASIN: 8498470668 \n\n Average rating: 4.52 (1,637 ratings) \n\n \n\n Persepolis: The Story of a Childhood and the Story of a Return (Paperback) \n\n Published July 6th 2006 by Jonathan Cape \n\n Paperback, 343 pages \n\n Marjane Satrapi, \n\n Anjali Singh (Translator), \n\n Blake Ferris (Translator) \n\n ISBN: 9780224080392 (ISBN10: 0224080393) \n\n ASIN: 0224080393\n\n...\n\nPersépolis (Paperback) \n\n Published November 2017 by Norma Editorial \n\n Edición integral, Paperback, 368 pages \n\n Marjane Satrapi, \n\n Albert Agut Iglesias (Translator) \n\n ISBN: 9788467916560 (ISBN10: 8467916567) \n\n ASIN: 8467916567"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2004,
+    "completion_tokens": 547,
+    "total_tokens": 2551,
+    "cost": 0.007415008,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004192,
+      "upstream_inference_prompt_cost": 0.0002004,
+      "upstream_inference_completions_cost": 0.0002188
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

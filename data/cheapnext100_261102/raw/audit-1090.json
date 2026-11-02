@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574891-uHmG5iVoYqW6vYeJl7bF",
+  "object": "chat.completion",
+  "created": 1793574891,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-834cb22312f2:amazon:https://www.amazon.com/dp/B07CXS9NLG\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 371.\"\n    },\n    {\n      \"key\": \"resume-200-25:amazon:https://www.amazon.com/Promise-Access-Technology-Inequality-Political/dp/0262542331\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 12.\"\n    },\n    {\n      \"key\": \"rem-u0513:amazon:https://www.amazon.com/Lost-Math-Beauty-Physics-Astray/dp/0465094252\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 1,314.\"\n    },\n    {\n      \"key\": \"shelves-rationalityaizombies:amazon:https://www.amazon.com/Rationality-AI-Zombies-Eliezer-Yudkowsky-ebook/dp/B00ULP6EW2\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 239.\"\n    },\n    {\n      \"key\": \"q1044:amazon:https://www.amazon.com/Braiding-Sweetgrass-Indigenous-Scientific-Knowledge-ebook/dp/B07Z1DZC9D\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 22,763.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3418,
+    "completion_tokens": 434,
+    "total_tokens": 3852,
+    "cost": 0.0002035638,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020562,
+      "upstream_inference_prompt_cost": 0.0001709,
+      "upstream_inference_completions_cost": 0.00003472
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:14:54.356Z"
+}

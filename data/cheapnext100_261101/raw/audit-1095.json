@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793573953-mRGYbawsjjSMlnvxmbDj",
+  "object": "chat.completion",
+  "created": 1793573953,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-d874bac6fc3b:amazon:https://www.amazon.com/Hershey-Milton-Hersheys-Extraordinary-Utopian/dp/074326410X\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 362 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"intake-0370:amazon:https://www.amazon.com/Deschooling-Society-Open-Forum-S/dp/0714508799\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 358 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u0116:reference:https://catalog.princeton.edu/catalog/99106203253506421\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and authors. Bibliographical references explicitly stated on pages 235-300.\"\n    },\n    {\n      \"key\": \"n3acb62827b:reference:https://archive.org/details/shakehandswithde0000dall_l3u7\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and authors. Bibliographical references explicitly stated on pages [545]-548.\"\n    },\n    {\n      \"key\": \"g0637:amazon:https://www.amazon.com/Something-Deeply-Hidden-Emergence-Spacetime/dp/1524743038\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 3,438 global ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3503,
+    "completion_tokens": 423,
+    "total_tokens": 3926,
+    "cost": 0.0002069001,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020899,
+      "upstream_inference_prompt_cost": 0.00017515,
+      "upstream_inference_completions_cost": 0.00003384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:59:19.753Z"
+}

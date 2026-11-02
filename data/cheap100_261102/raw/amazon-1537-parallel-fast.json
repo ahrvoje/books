@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793574266-94sRqp1OBZFvMpgJ2B5I",
+  "object": "chat.completion",
+  "created": 1793574266,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-250aa9ae6475\",\n  \"title\": \"We Are Free to Change the World: Hannah Arendt’s Lessons in Love and Disobedience\",\n  \"author\": \"Lyndsey Stonebridge\",\n  \"pages\": null,\n  \"amazon\": {\n    \"count\": 4.5,\n    \"url\": \"https://www.amazon.com/We-Are-Free-Change-World/dp/0226762447\",\n    \"asin\": \"0226762447\",\n    \"evidence\": \"global ratings\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Lyndsey-Stonebridge/e/B001H6W0FY",
+              "title": "Lyndsey Stonebridge: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Lyndsey Stonebridge: books, biography, latest update\nLyndsey Stonebridge FBA is currently Professor of Humanities and Human Rights at University of Birmingham, and a regular media commentator."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B0GH8LVD5C/about",
+              "title": "Lyndsey Simpson: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Lyndsey Simpson: books, biography, latest update\nA serial entrepreneur, she has built the world's most trusted platform for the over 50s, advising major organisations including Amazon, AXA, Barclays and Diageo"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 539,
+    "completion_tokens": 153,
+    "total_tokens": 692,
+    "cost": 0.00101414908,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000014292,
+      "upstream_inference_prompt_cost": 0.000009702,
+      "upstream_inference_completions_cost": 0.00000459
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"We Are Free to Change the World\" Lyndsey Stonebridge \"global ratings\"",
+  "bookId": "shelf-250aa9ae6475",
+  "retrieved": "2026-11-01T23:04:31.703Z"
+}

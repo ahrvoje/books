@@ -1,0 +1,152 @@
+{
+  "id": "gen-1793577191-6m67GwVVpqJsPY0VgHxb",
+  "object": "chat.completion",
+  "created": 1793577191,
+  "model": "mistralai/mistral-nemo",
+  "provider": "Parasail",
+  "system_fingerprint": "vllm-0.23.0-644748b9",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "Based",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.library.cornell.edu/catalog/13084503",
+              "title": "A singular mathematical promenade - Cornell University Library Catalog",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Number Browse Publisher for\nSearch\n* Advanced Search\n* Select\n* Email\n* Export\n* EndNote\n* EndNote XML\n* RIS\n* Print\n\nA singular mathematical promenade\n\nÉtienne Ghys.\n\nAvailability\nMathematics Library Hours\nQA614.58 .G495 2017\nAvailable\nRequest item [Request scan of article/chapter](https://cornell.hosts.atlas-sys.com/illiad/illiad.dll?Action=10&Form=30&url_ver=Z39.88-2004&rfr_id=info%3Asid%2Fcatalog.library.cornell.edu&rft.title=A+singular+mathematical+promenade&rft.isbn=9782847889390 (pbk.) \"Request scan\")\nAuthor, etc.: Ghys, E. (Etienne), author Author info » Format: Book Language: English. Published: Lyon : ENS Éditions, 2017. Subject: Singularities (Mathematics) Topology. Mathematics > History. Mathematicians > Biography. Logic, Symbolic and mathematical. Summary: \"A stroll in the mathematical world. This is neither an elementary introduction to the theory of singularities, nor a specialized treatise containing many new theorems. The purpose of this little book is to invite the reader on a mathematical promenade. We pay a visit to Hipparchus, Newton and Gauss, but also to many contemporary mathematicians.\n\n...\n\nDescription: viii, 302 pages : illustrations (some color) ; 25 cm ISBN: 9782847889390 (pbk.) 2847889396 (pbk.) Notes: Includes bibliographical referen\n\n...\n\nI527 2008\nImage not found\nReal and complex singularities\nOnline\nQA614.58 .I527 2008\nImage not found\nReal and complex singularities\nOnline\nReturn to start\n\nA singular mathematical promenade\n\nAuthor:"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://perso.ens-lyon.fr/ghys/promenade/",
+              "title": "A Singular Mathematical Promenade - Étienne Ghys",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Étienne Ghys\nMenu\n* Home\n* CV\n* Publications\n* Papers\n* Surveys\n* Collective\n* Thesis\n* Edition\n* Outreach\n* Dans le Monde\n* Papers and chronicles\n* Medias\n* Conferences\n* Students\n* Collaborators\n* Action\n* Links\n* Blog\n* Français\nSearch for:\n\nA Singular Mathematical Promenade\n\nA stroll in the mathematical world. This is neither an elementary introduction to the theory of singularities, nor a specialized treatise containing many new theorems. The purpose of this little book is to invite the reader on a mathematical promenade. We pay a visit to Hipparchus, Newton and Gauss, but also to many contemporary mathematicians. We play with a bit of algebra, topology, geometry, complex analysis, combinatorics, and computer science.\n\n...\n\nThis pdf book is available free of charge here (37 Mo), or on Arxiv , or on the website of ENS Éditions . Reviews by\nSerge Tabachnikov , from the Math Intelligencer ,\nDamien Mégy , from the Gazette des mathématiciens,\nFernando Gouvea from the Mathematical Association of America ,\n\n...\n\nEvelyn Lamb , from Mathematical Reviews ,\nVicente Munoz , from the European Mathematical Society .\nThe LaTeX source files can be downloaded here (170 Mo).\nA printed version is available for sale at ENS Éditions (27 €).\nThis book is published under a Creative Commons CC0 license.\n\nTurkish\n\nI am very proud that a Turkish translation is available."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://ghys.perso.math.cnrs.fr/bricabrac/promenade.pdf",
+              "title": "http://ghys.perso.math.cnrs.fr/bricabrac/promenade.pdf",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "i\nA singular mathematical promenade\nii\nCaspar David Friedrich\n“ Wanderer above\nthe sea of fog” ( 1818 )\n©\nÉ T I E N N E G H Y S\nA S I N G U L A R\nM AT H E M AT I C A L\nP R O M E N A D E\niv\nCataloging–in–Publication Data\nA singular mathematical promenade/Étienne Ghys – Lyon, ENS Éditions,\nimpr. 2017 . – 1 vol. ( 306 p.).\nISBN 978 - 2 - 84788 - 940 - 6\nThe text and the illustrations without the symbol © have been produced by Étienne Ghys\nwho has waived all copyright and related or neighboring rights. You can copy, modify, and\n\n...\n\na singular mathematical promenade\nNewton’s method for finding approximations of the roots of poly-\nnomials. It also introduces the related idea of Newton’s polygons .\n\n...\n\nIf π ( 2 ) = π ( 1 ) + 1 we are done since the image of { 1,2 } is the\ninterval { π ( 1 ) , π ( 2 )} . Hence we assume that π ( 2 ) > π ( 1 ) + 1 .\n14\na singular mathematical promenade\n\n...\n\nOrder its elements using the first ordering\nx 1 ≪ x 2 ≪ . . . ≪ x n .\n18\na singular mathematical promenade\nLook now at the way they are ordered under ⋘ . This defines\na permutation π of { 1,2, . . .\n\n...\n\na singular mathematical promenade\nStack-sortable permutations are described uniquely by a\nsequence of 2 n Push’s and Pop’s. Conversely, a sequence of\n\n...\n\nThis shows, after a moment of reflection, that the number\n24\na singular mathematical promenade\nof rooted planar binary trees with n + 1 leaves satisfies Catalan’s\nrecurrence relation."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.wovepaper.com/papers/1612.06373-a-singular-mathematical-promenade",
+              "title": "A Singular Mathematical Promenade",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "A Singular Mathematical Promenade\n\narXiv 1612.06373, published 2016-12-01. No model-written summary yet — the abstract is the record.\n\nMetadata\n\n* arXiv ID: 1612.06373\n* Primary category: math.GT\n* Categories: math.GT, math.AG, math.HO\n* Published: 2016-12-01\n* Updated: 2017-08-24\n* Citations: 31\n* Comment: 300 pages, 500 figures\n\nAuthors\n\n* Etienne Ghys\n\nAbstract\n\nThis is neither an elementary introduction to singularity theory nor a specialized treatise containing many new theorems. The purpose of this little book is to invite the reader on a mathematical promenade. We pay a visit to Hipparchus, Newton and Gauss, but also to many contemporary mathematicians. We play with a bit of algebra, topology, geometry, complex analysis and computer science. Hopefully, some motivated undergraduates and some more advanced mathematicians will enjoy some of these panoramas.\n\nSource\n\n* arXiv abstract: https://arxiv.org/abs/1612.06373\n* PDF: https://arxiv.org/pdf/1612.06373\n* JSON: https://api.wovepaper.com/api/papers/1612.06373\n\nCited by, in this archive\n\n* The combinatorics of plane curve singularities. How Newton polygons blossom into lotuses\n* Differential Geometric Foundations for Power Flow Computations\n* Measuring the local non-convexity of real algebraic curves\n* Poincaré-Reeb graphs of real algebraic domains\n* Permutations encoding the local shape of level curves of real polynomials via generic projections\n\n...\n\nbecause"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://arxiv.org/pdf/1612.06373",
+              "title": "i Asingularmathematicalpromenade",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "i\nA singular mathematical promenade\nii\nCaspar David Friedrich “Wanderer above the sea of fog” (1818) ©\n\nÉ T I E N N E G H Y S\n\nA S I N G U L A R M AT H E M AT I C A L P R O M E N A D E\n\niv\nCataloging–in–Publication Data\nA singular mathematical promenade/Étienne Ghys – Lyon, ENS Éditions,\nimpr. 2017. –1 vol. (306 p.).\nISBN 978-2-84788-940-6\nThe text and the illustrations without the symbol © have been produced by Étienne Ghys who has waived all copyright and related or neighboring rights.\n\n...\n\nThe L A TEX source files can be downloaded here.\nA printed version is available for sale at ENS Éditions.\nContact address:\nÉtienne Ghys\n\n...\n\nefficient\n2 a singular mathematical promenade\nway to reach a specific goal and actually there is no goal to this text.\n\n...\n\nThe main purpose of this final chapter is to encourage the reader to continue the exploration.\n8 a singular mathematical promenade\n\n...\n\n©\n10 a singular mathematical promenade\nFrom “A new view of the tree of life” Nature Microbiology 1, (2016). Can these branches be made graphs of polynomials? ©\n\nIntersecting polynomials\n\n...\n\n12 a singular mathematical promenade\nFor instance:\nP 1( x ) = − x 2 ; P 2( x ) = 0 ; P 3( x ) = x 2\nP 1( x ) = − x 2 ; P 2( x ) = x 2 ; P 3( x ) = − x P 1( x ) = x ; P 2( x ) = − x 2 ; P 3( x ) = x 2\n\n...\n\nk ) = n + 1 − π ( k ).\nIf π (2) = π (1) + 1 we are done since the image of {1,2} is the interval { π (1), π (2)}. Hence we assume that π (2) > π (1) + 1.\n14 a singular mathematical promenade"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://perso.ens-lyon.fr/ghys/articles/Promenade.pdf",
+              "title": "Promenade",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "ii\nCaspar David Friedrich “Wanderer above the sea of fog” (1818) ©\n\nÉ T I E N N E G H Y S\n\nA S I N G U L A R M AT H E M AT I C A L P R O M E N A D E\n\niv\nÉtienne Ghys\n\n...\n\nThe text and the illustrations without the symbol © have been produced by Étienne Ghys who has waived all copyright and related or neighboring rights.\n\n...\n\n2 a singular mathematical promenade\nway to reach a specific goal and actually there is no goal to this text.\n\n...\n\nThis paper contains a detailed presentation of the famous\n6 a singular mathematical promenade\nNewton’s method for finding approximations of the roots of poly- nomials.\n\n...\n\nThe main purpose of this final chapter is to encourage the reader to continue the exploration.\n8 a singular mathematical promenade\n\n...\n\n©\n10 a singular mathematical promenade\nFrom “A new view of the tree of life” Nature Microbiology 1, (2016). Can these branches be made graphs of polynomials? ©\n\nIntersecting polynomials\n\n...\n\npolynomials.\n12 a singular mathematical promenade\nFor\n\n...\n\ninterval { p (1), p (2)}. Hence we assume that p (2) > p (1) + 1.\n14 a singular mathematical promenade\nConsider the smallest integer k such that p ({2, . . .\n\n...\n\n18 a singular mathematical promenade\nLook now at the way they are ordered under ￿. This defines\na permutation p of {1,2, . . . , n } such that\nx p (1) ￿ x p (2) ￿ . . . ￿ x p ( n ).\n\n...\n\nGiven two elements P , Q of E , seen\n28 a singular mathematical promenade\nas leaves, we look in the tree for th"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://perso.ens-lyon.fr/ghys/reviews/Swetz.pdf",
+              "title": "A Singular Mathematical Promenade",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "10/30/2020 A Singular Mathematical Promenade | Mathematical Association of America\nhttps://www.maa.org/press/maa-reviews/a-singular-mathematical-promenade 1/2\nPublisher: Publication Date: Number of Pages: Format: ISBN: Category: BLL Rating:\n\nÉtienne Ghys\n\nENS Éditions 2017 302 Paperback 9782847889390 Monograph BLL*\nThe Basic Library List Committee recommends this book for acquisition by undergraduate\nmathematics libraries.\n\nA Singular Mathematical Promenade\n\nMAA REVIEW\n\nTABLE OF CONTENTS\n\n[Reviewed by Frank Swetz, on 01/24/2019]\nThere is some whimsy in the conception of this book’s title. The word “singular” does not refer to a unitary encounter but to singular points of a planar algebraic curve and the “promenade”, a mathematical tour of many concepts. The tour is leisurely but those mathematically “out of condition” might find the going a little tough.\nThe author, Étienne Ghys, Director of Research at the École Normale Superiere de Lyon, is a versatile mathematician and a skilled communicator, both with words and visual images. This book abounds with appealing and informative images, especially the supporting computer graphics. Ghys was prompted on this writing task by the realization that the relative position of the graphs of four real polynomials is subject to some constraints, a fact brought to his attention by a\n\n...\n\nTags: Biography Mathematics for the General Reader Singularities Surveys of Mathematics\nThis book can be purchased from the ENS Lyon web site."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://www.ens-lyon.fr/en/research/honors-and-awards/etienne-ghys-mathematician-umpa",
+              "title": "Étienne Ghys, mathematician, UMPA | Site Ens international",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## Breadcrumb\n\n1. Home\n2. Research\n3. Honors and awards\n\n# Étienne Ghys, mathematician, UMPA\n\nÉtienne Ghys, mathematician, UMPA\n\n## Biography\n\nBorn in 1954, Étienne Ghys is a French mathematician.\n\n...\n\nÉtienne Ghys has been a member of the Academy of Sciences since 2005 and, since January 2018, he has belonged to the Scientific Council of National Education.\n\nÉtienne Ghys has played an important role in developing the diffusion of mathematics in France. A tireless promoter of the usefulness and beauty of mathematics, he was awarded the CNRS Medal for Scientific Mediation in 2022, in recognition of his fervent\n\n...\n\nSMF d'Alembert Award (with Alvarez and Leys) in 2010\n\nD'Alembert Prize for the film \"Dimensions... a mathematical walk\" in 2010\n\nHonorary doctorate from the University of Geneva in 2008\n\n...\n\n_[Couverture du livre d'Etienne Ghys \"A singular mathematical promenade\"](http://perso.ens-lyon.fr/ghys/promenade/) [A singular mathematical promenade](http://perso.ens-lyon.fr/ghys/promenade/ \"Se procurer \\\"A Singular Mathematical Promenade\\\"\") , ENS éditions_\n\n_A stroll in the mathematical world. This is neither an elementary introduction to the theory of singularities, nor a specialized treatise containing many new theorems. The purpose of this little book is to invite the reader on a mathematical promenade. We pay a visit to Hipparchus, Newton and Gauss, but also to many contemporary mathematicians. We play with a bit of algebra, topology, geometry, complex analysis"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://perso.ens-lyon.fr/ghys/reviews/Kontorovich.pdf",
+              "title": "Reviews",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "To cite this article: Alex Kontorovich (2020) Reviews, The American Mathematical Monthly, 127:4, 381-384, DOI: 10.1080/00029890.2020.1712912\nTo link to this article: https://doi.org/10.1080/00029890.2020.1712912\nPublished online: 30 Mar 2020.\nSubmit your article to this journal\nArticle views: 305\nView related articles\nView Crossmark data\n\nREVIEWS\n\nEdited by Darren Glass\n\nDepartment of Mathematics, Gettysburg College, Gettysburg, PA 17325\nA Singular Mathematical Promenade . By ´ Etienne Ghys, ENS ´ Editions, Lyon, 2017. 302 pp., ISBN 978-2-84788-939-0, $22.95.\n\nReviewed by Alex Kontorovich\n\nLet us get straight to the point: A Singular Mathematical Promenade is a delightful book by a gifted expositor that beautifully showcases both the unity of mathematics, and the realm of possibility which is opened when one retires the austere Bourbaki- style adherence to cycles of Definition-Theorem-Proof. The Bourbaki group of course had good reason for this style, with so many 19th century foundational crises in geom- etry, analysis, set theory, etc.\n\n...\n\nand as the reader flips through the pages they are just as likely to be greeted with a series of equations, a quotation from Newton, or a photo- graph of something such as a railroad station or a palm tree. Here is but a sample of the juicy eye-candy to be found on nearly every page:\nApril 2020] REVIEWS 383\n\n...\n\n(Let us all be so “unprofessional”!)\nREFERENCES\n[1] Ghys, E. (2007). Knots and dynami"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.ams.org/publicoutreach/feature-column/fc-2017-03",
+              "title": " AMS :: Feature Column :: Patterns in Permutations",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "$\\underline{3142}$.\nThis gives the following characterization of permutations in the basis ${\\cal B}_d$:\nA permutation is in ${\\cal B}_d$ if and only if it has exactly $d$ descents and any ascents appear in the patterns $\\underline{2143}$ and $\\underline{3142}$.\nThe Catalan numbers make another appearance: Bouvel and Pergola show that the number of minimal permutations having $d$ descents and length $2d$ is the Catalan number $C_d$.\nComments ?\n\nSummary\n\nThe use of patterns to describe permutation classes is currently a growing area. In \"A Singular Mathematical Promenade,\" Ghys describes a recent result of Kontsevich concerning \"polynomial interchanges.\"\nSuppose we have a collection of polynomials ordered so that $P_1(x) \\lt P_2(x) \\lt \\ldots \\lt P_n(x)$ for negative values of $x$ close to 0. We obtain a permutation by comparing this ordering to that obtained using positive values of $x$ close to 0.\nFor instance, the polynomials shown below define the permutation 213.\nKontsevich showed that the class of permutations that arise in this way avoid the patterns 2413 and 3142.\n\n...\n\n* Sergey Kitaev. Patterns in Permutations and Words. Monographs in Theoretical Computer Science. Springer, Heidelberg, 2011.\n* Étienne Ghys. A singular mathematical promenade. Freely available through the American Mathematical Society's Open Math Books.\nAs the title suggests, Ghys's book is enjoyable tour through a remarkable range of mathematical topics."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4589,
+    "completion_tokens": 1,
+    "total_tokens": 4590,
+    "cost": 0.001136323,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001377,
+      "upstream_inference_prompt_cost": 0.00013767,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "nf19a141734",
+  "method": "wide",
+  "query": "\"A Singular Mathematical Promenade\" Étienne Ghys bibliography pages",
+  "retrieved": "2026-11-01T23:53:13.614Z"
+}

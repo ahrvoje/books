@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572586-paaLVcYS1XQqXwNQAc2h",
+  "object": "chat.completion",
+  "created": 1793572586,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"g0867\",\n  \"title\": \"The Bet: Paul Ehrlich, Julian Simon, and Our Gamble over Earth's Future\",\n  \"author\": \"Paul Sabin\",\n  \"amazon\": {\n    \"count\": 384,\n    \"url\": \"https://www.amazon.com/Bet-Ehrlich-Julian-Gamble-Earth%C2%92s/dp/0300176481\",\n    \"asin\": \"0300176481\",\n    \"evidence\": \"https://www.amazon.com/gp/customer-reviews/R3Q6Z1Z1811YXN/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=0300176481\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Bet-Ehrlich-Julian-Gamble-Earth%C2%92s/dp/0300176481",
+              "title": "The Bet: Paul Ehrlich, Julian Simon, and Our Gamble over ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Bet: Paul Ehrlich, Julian Simon, and Our Gamble over ...\nIn 1980, the iconoclastic economist Julian Simon challenged celebrity biologist Paul Ehrlich to a bet. Their wager on the future prices of five metals captured\n\n## \n\nThe Bet: Paul Ehrlich, Julian Simon, and Our Gamble over ...\nA historical account of the 1980 wager between biologist Paul Ehrlich and economist Julian Simon over resource scarcity, reflecting America's deepening\n\n## \n\nThe Bet: Paul Ehrlich, Julian Simon, and Our Gamble over ...\nAre we headed for a world of scarce resources and environmental catastrophe, or will innovation and markets yield greater prosperity"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B001H6NI4Q",
+              "title": "Paul Sabin: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nPaul Sabin: books, biography, latest update\nPaul Sabin is the Randolph W. Townsend, Jr. Professor of History at Yale University. He is the author of PUBLIC CITIZENS: THE ATTACK ON BIG GOVERNMENT\n\n## \n\nPaul Sabin: books, biography, latest update\nProfessor of History at Yale University. ... Image of Crude Politics: The California Oil Market, 1900-1940. Quick look. Crude Politics: The California Oil Market,"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Betrayal-Sabin-Willett/dp/0749321873",
+              "title": "The Betrayal: Willett, Sabin",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Betrayal: Willett, Sabin\nBetrayed ambassador's daughter kidnapped, embroiling her in international bribery scheme of unprecedented proportions involving weapons, assassination."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://us.amazon.com/stores/author/B001H6NI4Q/about",
+              "title": "Paul Sabin: books, biography, latest update - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nPaul Sabin: books, biography, latest update - Amazon.com\nPaul Sabin is the Randolph W. Townsend, Jr. Professor of History at Yale University. He is the author of PUBLIC CITIZENS: THE ATTACK ON BIG GOVERNMENT AND"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Crude-Politics-California-Market-1900-1940/dp/0520241983",
+              "title": "Crude Politics: The California Oil Market, 1900-1940",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nCrude Politics: The California Oil Market, 1900-1940\nIn this timely and absorbing book, Paul Sabin challenges us to see politics and law as crucial forces behind the dramatic growth of the US oil market during\n\n## \n\nCrude Politics: The California Oil Market, 1900-1940\nPaul Sabin challenges us to see politics and law as crucial forces behind the dramatic growth of the U.S. oil market during the twentieth century."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1017,
+    "completion_tokens": 196,
+    "total_tokens": 1213,
+    "cost": 0.00502394414,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000024186,
+      "upstream_inference_prompt_cost": 0.000018306,
+      "upstream_inference_completions_cost": 0.00000588
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "g0867",
+  "retrieved": "2026-11-01T22:36:46.941Z"
+}

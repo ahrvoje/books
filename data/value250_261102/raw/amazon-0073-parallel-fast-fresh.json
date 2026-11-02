@@ -1,0 +1,97 @@
+{
+  "id": "gen-1793575529-wawVb3EkXxrSi0Aip2jU",
+  "object": "chat.completion",
+  "created": 1793575529,
+  "model": "mistralai/mistral-nemo",
+  "provider": "Io Net",
+  "system_fingerprint": "vllm-0.25.1-95d19908",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Five-Ages-Universe-Physics-Eternity/dp/0684865769",
+              "title": "The Five Ages of the Universe: Inside the Physics of Eternity",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Five Ages of the Universe: Inside the Physics of Eternity\nAs the twentieth century closed, Fred Adams and Greg Laughlin captured the attention of the world by identifying the five ages of time. In The Five Ages of\n\n## \n\nThe Five Ages of the Universe: Inside the Physics of Eternity\nIn The Five Ages of the Universe, Adams and Laughlin demonstrate that we can now understand the complete life story of the cosmos from beginning to end. Adams\n\n## \n\nThe Five Ages of the Universe: Inside the Physics of Eternity\nA comprehensive scientific exploration of the universe's complete life story, from its beginning to end, examining the physical processes that shape cosmic\n\n## \n\nThe Five Ages of the Universe: Inside the Physics of Eternity\nAs the twentieth century closed, Fred Adams and Greg Laughlin captured the attention of the world by identifying the five ages of time. In The Five Ages of the Universe, Adams and Laughlin demonstrate that we can now understand the complete life story of the cosmos from beginning to end.\n\n## \n\nThe Five Ages of the Universe: Inside the Physics of Eternity\nThis book tells the biography of the universe, from beginning to end.\n\n...\n\nA comprehensive scientific exploration of the universe's complete life story, from its beginning to end, examining the physical processes that shape cosmic\n\n...\n\nIt is the story of the familiar stars of the night sky slowly giving way to bizarre frozen\n\n## \n\nThe Five Ages of the Universe: Inside the Physics of Eternity"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Five-Ages-Universe-Physics-Eternity/dp/0684854228",
+              "title": "The Five Ages of the Universe: Inside the Physics of Eternity",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Five Ages of the Universe: Inside the Physics of Eternity\nTwo astrophysicists offer a chronicle of the universe's history, describing its beginning with the Big Bang and looking into the incredibly distant future,\n\n## \n\nThe Five Ages of the Universe: Inside the Physics of Eternity\nIn The Five Ages of the Universe, Adams, who teaches physics at the University of Michigan, and Laughlin, a postdoctoral fellow at the University of California at Berkeley, deftly invoke all known laws of the universe to spin an entertainingly scary picture of our distant future."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Five-Ages-Universe-Physics-Eternity-ebook/dp/B00AK80GXI",
+              "title": "The Five Ages of the Universe: Inside the Physics of Eternity",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Five Ages of the Universe: Inside the Physics of Eternity\nIn The Five Ages of the Universe, Adams and Laughlin demonstrate that we can now understand the complete life story of the cosmos from beginning to end.\n\n## \n\nThe Five Ages of the Universe: Inside the Physics of Eternity\nA comprehensive scientific exploration of the universe's complete life story, from its beginning to end, examining the physical processes that shape cosmic"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Billy-Jack-Tom-Laughlin/dp/B001D25LX0",
+              "title": "Amazon.com: Billy Jack (DVD) : Tom Laughlin, Delores Taylor ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nAmazon.com: Billy Jack (DVD) : Tom Laughlin, Delores Taylor ...\nAmazon.com: Billy Jack (DVD) : Tom Laughlin, Delores Taylor, Clark Howat, Victor Izay, Bert Freed, Howard Hesseman, Susan Foster, Lynn Baker, Teresa Kelly, Paul Bruce, Katy Moffatt, David Roya, Fred Koenekamp, John M. Stephens, Mundell Lowe, Tom Laughlin, Laurence Heath, Marion Rothman, Larry Heath: Movies & TV Currently unavailable. We don't know when or if this item will be back in stock."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1223,
+    "completion_tokens": 1,
+    "total_tokens": 1224,
+    "cost": 0.001019341828,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 128,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000195372,
+      "upstream_inference_prompt_cost": 0.0000195156,
+      "upstream_inference_completions_cost": 2.16e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Five Ages of the Universe\" Fred Adams; Greg Laughlin \"global ratings\"",
+  "bookId": "shelf-0a6459eae53f",
+  "retrieved": "2026-11-01T23:25:30.947Z"
+}

@@ -1,0 +1,80 @@
+{
+  "retrieved": "2026-11-01T21:18:41.789Z",
+  "bookId": "shelf-60503276f7c8",
+  "id": "gen-1793567921-9mzIaGQcwTl6IMC9ORNy",
+  "object": "chat.completion",
+  "created": 1793567921,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-60503276f7c8\",\n  \"title\": \"The Pursuit of Noninvasive Glucose Blood Tests: “Hunting the Deceitful Turkey”\",\n  \"author\": \"John L. Smith\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": null,\n    \"editionId\": null,\n    \"editionYear\": null,\n    \"format\": null,\n    \"language\": null,\n    \"url\": \"https://nivglucose.com/The%20Pursuit%20of%20Noninvasive%20Glucose%209th%20Edition.pdf\",\n    \"evidence\": \"The document is a PDF and the user is instructed to use \\\"control-f\\\" to find any word in such a document.\",\n    \"sourceTitle\": \"The Pursuit of Noninvasive Glucose: “Hunting the Deceitful Turkey”\",\n    \"sourceAuthor\": \"John L. Smith\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://nivglucose.com/The%20Pursuit%20of%20Noninvasive%20Glucose%209th%20Edition.pdf\",\n    \"https://www.researchgate.net/publication/358511516_The_Pursuit_of_Noninvasive_Glucose_Hunting_the_Deceitful_Turkey_8th_Edition\",\n    \"https://www.researchgate.net/publication/343695948_The_Pursuit_of_Noninvasive_Glucose_Hunting_the_Deceitful_Turkey_Seventh_Edition\"\n  ],\n  \"limitations\": \"The provided search results are for PDF versions of the book, and a total print page count from a publisher, library catalog, or bookseller with an identifiable edition is not available. The PDF document itself does not explicitly state a page count, but rather instructs users to use the 'control-f' function for navigation.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://nivglucose.com/The%20Pursuit%20of%20Noninvasive%20Glucose%209th%20Edition.pdf",
+              "title": "Measurement of blood glucose without drawing blood",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "i\nThe Pursuit of Noninvasive Glucose: “Hunting the Deceitful \nTurkey”\nBy John L. Smith\nNinth Edition: Revised, Expanded, and Final\nParts Copyright 2023 by John L. Smith\nii\nPreface to the Ninth Edition\nThe hopeful prediction that the sixth edition might have been the final update this subject \nneeded was extremely incorrect, but age and health will make this edition my very last. I \nwould like to see someone carry on this tradition, and I will provide whatever assistance I \ncan to anyone who is willing to try.\nWhile much of the new effort has indeed been directed toward continuous “wearable” \nglucose monitoring, there has been no decrease in the number of new attempts to end this \npursuit. The arrival of COVID-19 in early 2020 and its extension into 2022 certainly \nreduced the number of groups surviving, as it has affected many other areas of our lives.\nIt has also provided some degree of excuse for groups whose progress has not been up to \nexpectations, and allowed a few of the groups to pursue activities with even greater press \nappeal than this topic—a few examples are provided.1\nFor 35 years, I have championed noninvasive glucose measurements. I have worked hard \nto help make technologies (mine and others’) work, only to see them all fail. I have \nrepeatedly been misled, lied to, followed false leads, and had my hopes dashed along \nwith those of everyone else who thought someday this grand idea could work. As in all \nprevious editions, there have been numerous new patents, publications, and press releases \nin all the areas covered below, including breath, RF impedance, near-infrared, mid\u0002infrared, photoacoustic, PPG, Raman, saliva, sweat, and tears. There is no attempt to list \nall of these, that would take a much larger and less interesting manuscript. Instead, only \nthe truly new, the very loud, and any promising ones are described here.\nAa before, all new content has been entered in colored type (simple editing corrections \nare not so indicated). Because I am older and less patient, I have decided to do away with \n1 An egregious example of a glucose company going into questionable areas is that of Decision \nDiagnostics, a company that manufactures “generic” test strips to work in others’ meters, and that was \ntwice in litigation with LifeScan related to this activity. In mid-2020, the company said it had adapted its\nglucose testing technology to measure COVID-19 antigens, and could do so with a fingerstick blood test\nstrip called “GenViro!™”. The stock price shot up twentyfold, but the statements were not true, and in \naddition to investor lawsuits against the company, as of this writing, CEO Keith Berman was still awaiting \ncriminal trial for securities fraud. \niii\nthe index. This is a pdf document, and everyone should know by now how to use \n“control-f” to find any word in such a document (you will have to spell it correctly, \nthough, which may present a challenge for some of the newer companies like Mymonx).\nA growing trend in the past decade has been the increase in attempts to mine the pulse \nwave (see “PPG” below) for both glucose and noninvasive blood pressure information—\nindeed, several groups appear to have migrated primarily to the pursuit of the latter after \nnot succeeding with the former, but to date, results have been no more promising.\nAnother trend that has intensified in recent years is the use of radio frequency \nmeasurements—whether by impedance, absorption, or changes in other parameters, but a \nstrong concern remains that all these approaches will be severely complicated by \nvariations in hydration that affect bulk properties of tissue (please see the section on \nwater redistribution under “Specificity”).\nThe tests (at least for a spectroscopic method) way below have been augmented from the \nones in the earlier editions. Ignore these at your own peril!\n\n...\n\nAfter too many years of looking into noninvasive glucose technologies, I will repeat \nbelow what may be an overly skeptical classification system for new ideas (this section \nhas been re-inserted by popular request): \n1. Holy cow, not this again! This technology has been investigated before (maybe five or \nten times), and the investigators have always run up against the same roadblocks.\n\n...\n\nThis is an old idea revived by researchers who think they have discovered that the \nearlier investigators “quit too soon,” or think they have a unique insight into why an idea\n\n...\n\n3. This is a new and possibly unique idea, but there is no scientific basis on which it \ncould reasonably provide accurate glucose measurements. \niv\n\n...\n\n1 A note about Internet links. At the risk of reading like a Wikipedia entry, the first appearance of \ncompanies, groups, and systems that were current or have persistent links as of 2022 were provided with \nlinks that mostly survive into the .pdf edition you are reading. Many of these groups are ephemeral, and \nsome don’t survive beyond a single initial press release, so please accept the reality that quite of few of \nthese will be dead ends. Any that were known to have already disappeared by the time of writing have been \ndeleted."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.researchgate.net/publication/358511516_The_Pursuit_of_Noninvasive_Glucose_Hunting_the_Deceitful_Turkey_8th_Edition",
+              "title": "The Pursuit of Noninvasive Glucose: \"Hunting the Deceitful ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "(PDF) The Pursuit of Noninvasive Glucose: \"Hunting the Deceitful Turkey\" 8th Edition\n\n# The Pursuit of Noninvasive Glucose: \"Hunting the Deceitful Turkey\" 8th Edition\n\n- February 2022\n\n \n\n- NIVG Consulting LLC\n\n## Abstract and Figures\n\nSame as before, with even more\n\n \n\nAbbott Laboratories. … \n\nAnother entrant in this field, with a technology described as \"Radio frequency (RF) spread spectrum identification and quantization of glucose\" was Jupiter Devices located Yet another patent application (US 20170049393) describes a sensor as \"noninvasive,\" but requires implantation in bone, in the form of a tooth implant. Other patents for tooth implant glucose sensors were issued to In Han Lee (US 10,980,449. left) and Uchu Biosensors (WO 2021/155285, right) in 2021."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.researchgate.net/publication/343695948_The_Pursuit_of_Noninvasive_Glucose_Hunting_the_Deceitful_Turkey_Seventh_Edition",
+              "title": "The Pursuit of Noninvasive Glucose: \"Hunting the Deceitful ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "(PDF) The Pursuit of Noninvasive Glucose: \"Hunting the Deceitful Turkey\" Seventh Edition\n\n# The Pursuit of Noninvasive Glucose: \"Hunting the Deceitful Turkey\" Seventh Edition\n\n- August 2020\n\n \n\n- Oct 2023\n\nOrsus Medical had US 2019/0053741 publish, using RF frequencies around 314 GHz, only to be followed by this announcement in March of 2019: \"Glucose monitoring tech start-up seeks buyer.\" They were bought by Afon in April of 2019."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2230,
+    "completion_tokens": 463,
+    "total_tokens": 2693,
+    "cost": 0.007404118,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004082,
+      "upstream_inference_prompt_cost": 0.000223,
+      "upstream_inference_completions_cost": 0.0001852
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793577366-SfJ99TjGibrKG4tXaaEK",
+  "object": "chat.completion",
+  "created": 1793577366,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"complete-639-36:reference:https://library.arce.org/portal/Search/Results?lookfor=Ancient+Egypt\",\n      \"status\": \"supported\",\n      \"reason\": \"The source text explicitly mentions 'Ancient Egypt : a very short introduction' by 'Ian Shaw' and includes the bibliographical references (pages 161-165).\"\n    },\n    {\n      \"key\": \"complete-566-99:reference:https://openlibrary.org/books/OL576921M/Kinds_of_minds\",\n      \"status\": \"supported\",\n      \"reason\": \"The source text explicitly mentions 'Kinds of minds: toward an understanding of consciousness' by 'Daniel C. Dennett' and includes the bibliographical references (p. 175-180).\"\n    },\n    {\n      \"key\": \"shelf-baebe19fd7b0:reference:https://catalog.princeton.edu/catalog/9979751243506421\",\n      \"status\": \"supported\",\n      \"reason\": \"The source text explicitly mentions 'The examined life : how we lose and find ourselves' by 'Stephen Grosz' and includes the bibliographical references (pages 217-221).\"\n    },\n    {\n      \"key\": \"rem-u1414:reference:https://archive.org/details/romanovs161319180000seba_a6h1\",\n      \"status\": \"supported\",\n      \"reason\": \"The source text explicitly mentions 'The Romanovs : 1613-1918' by 'Simon Sebag Montefiore' and includes the bibliographical references (pages 659-673).\"\n    },\n    {\n      \"key\": \"complete-230-192:reference:http://collection.sl.nsw.gov.au/record/74VKaOx7mJ3g\",\n      \"status\": \"supported\",\n      \"reason\": \"The source text explicitly mentions 'The age of acrimony : how American's fought to fix their democracy, 1865-1915' by 'Jon Grinspan' and includes the bibliographical references (pages 279-307).\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3293,
+    "completion_tokens": 527,
+    "total_tokens": 3820,
+    "cost": 0.0002047419,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020681,
+      "upstream_inference_prompt_cost": 0.00016465,
+      "upstream_inference_completions_cost": 0.00004216
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:56:15.486Z"
+}

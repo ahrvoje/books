@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576310-zLTUjrhXD1JCDHdDhktT",
+  "object": "chat.completion",
+  "created": 1793576310,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g0984:amazon:https://www.amazon.com/Homo-Deus-Brief-History-Tomorrow/dp/0062464345\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 37,538 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"g1072:amazon:https://www.amazon.com/Spain-Our-Hearts-Americans-1936-1939/dp/0547973187\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 965 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-4fda8ee84304:amazon:https://www.amazon.com/Swiss-Watching-Inside-Land-Money/dp/1857885872\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 912 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"progress-0654:amazon:https://www.amazon.com/End-All-Wars-Rebellion-1914-1918/dp/0618758283\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 850 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"complete-324-278:amazon:https://www.amazon.com/Good-Mothers-Story-Worlds-Powerful/dp/0062655604\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 404 global ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3621,
+    "completion_tokens": 425,
+    "total_tokens": 4046,
+    "cost": 0.0002128995,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021505,
+      "upstream_inference_prompt_cost": 0.00018105,
+      "upstream_inference_completions_cost": 0.000034
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:38:37.869Z"
+}

@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:14:54.235Z",
+  "bookId": "progress-0530",
+  "id": "gen-1793571293-czDzFmxygYSuK99ky6Ei",
+  "object": "chat.completion",
+  "created": 1793571293,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"progress-0530\",\n  \"title\": \"Computers and the World of the Future\",\n  \"author\": \"Martin Greenberger\",\n  \"knownEdition\": {\n    \"id\": \"/books/OL28428030M\",\n    \"url\": \"https://openlibrary.org/books/OL28428030M\"\n  },\n  \"purchaseUrl\": \"https://www.amazon.de/dp/0262570025\",\n  \"reference\": {\n    \"editionId\": \"/books/OL28428030M\",\n    \"ranges\": [\n      {\n        \"start\": 180,\n        \"end\": 219,\n        \"label\": \"The computer in the university\",\n        \"evidence\": \"Perlis, A. J. (1962). The computer in the university. In M. Greenberger (Ed.), Computers and the world of the future (pp. 180–219). MIT Press. [sites.bc.edu](https://sites.bc.edu/devtech/wp-content/uploads/sites/181/2023/11/Teaching_Computational_Thinking_and_Coding_to_Youn.pdf)\"\n      },\n      {\n        \"start\": 271,\n        \"end\": 287,\n        \"label\": \"Discussion of Brown's contribution\",\n        \"evidence\": \"48. Hopper, G.M. (1962) Discussion of Brown's contribution, in Computers and the world of the future, Greenberger, M. (ed) (MIT Press, Cambridge, MA) pp. 271-87. [academia.edu](https://www.academia.edu/55008465/The_stages_model_and_the_phases_of_the_IS_field)\"\n      }\n    ],\n    \"method\": \"The HfG-Archiv catalog lists the book with a section titled '007 Kybernetik' and includes entries for other books with page counts and reference information. One entry for 'Computers and the world of the future' by Martin Greenberger indicates 'MIT Press, Cambridge, 1966' and '340 Seiten'. Additionally, a PDF from academia.edu references a chapter within 'Computers and the world of the future' by Martin Greenberger, specifying page numbers 271-87 for 'Discussion of Brown's contribution'. Another PDF from sites.bc.edu references a chapter titled 'The computer in the university' by A. J. Perlis, within 'Computers and the world of the future' edited by M. Greenberger, with page numbers 180-219.\",\n    \"limitation\": \"The exact total number of bibliographical reference pages is not explicitly stated. The HfG-Archiv catalog provides a page count for the book itself (340 pages) but not for its reference section. The provided references are for specific chapters or contributions within the book, not a comprehensive list of all references.\"\n  },\n  \"searchedUrls\": [\n    \"https://hfg-archiv.museumulm.de/wp-content/uploads/2019/01/f_05_bibliothek.pdf\",\n    \"https://www.academia.edu/55008465/The_stages_model_and_the_phases_of_the_IS_field\",\n    \"https://dokumen.pub/recoding-gender-womens-changing-participation-in-computing-9780262018067-2012009891-0262018063.html\",\n    \"https://sites.bc.edu/devtech/wp-content/uploads/sites/181/2023/11/Teaching_Computational_Thinking_and_Coding_to_Youn.pdf\",\n    \"https://www.academia.edu/41763760/THE_AGE_OF_SPIRITUAL_MACHINES\"\n  ],\n  \"limitations\": \"The HfG-Archiv catalog provides a page count for the book (340 pages) but does not explicitly state the total number of pages dedicated to bibliographical references. The provided references are for specific chapters or contributions within the book, not a comprehensive list of all references.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://hfg-archiv.museumulm.de/wp-content/uploads/2019/01/f_05_bibliothek.pdf",
+              "title": "Findbuch HfG-Bibliothek",
+              "start_index": 0,
+              "end_index": 0,
+              "content": ":Ulmer Museum/HfG-Archiv\n\n## Findbuch HfG-Bibliothek\n\nStadt Ulm Ulmer Museum HfG-Archiv\n\nFindbuch 05: Bibliothek HfG\n\nRedaktion: Christiane Wachsmann\n\nUlmer Museum / HfG-Archiv \nAm Hochsträß 8 \n89081 Ulm \n0731 / 161-4370 \n\n© 2015 Ulmer Museum / HfG-Archiv\n\nDie Erschließung und Verzeichnung wurde gefördert durch die Stiftung Kulturgut Baden-Württemberg.\n\n### Inhalt\n\n...\n\n11\n\n...\n\nGeschichte der Bibliothek ...\n\n...\n\nAufbau der HfG-Bibliothek: Die Dezimalklassifikation ...\n\n...\n\nDie Bibliothek der Hochschule für Gestaltung Ulm ...\n\n...\n\n01 Bibliografien ... 52\n\n...\n\nIm Wesentlichen seit 1968 abgeschlossen, lässt die Büchersammlung Rückschlüsse auf Schwerpunktsetzungen und vorherrschende Themen jener Jahre zu. So finden sich viele Titel zum Thema Kybernetik und Futurologie. Dasselbe gilt für literarische Werke, denn von populären Titeln wurden gleich mehrere Exemplare angeschafft.\n\n...\n\nDie Bibliothek ist nach dem Dezimalklassifikationssystem geordnet.\n\n...\n\n### Aufbau des Findbuches\n\nGrundlage für dieses Findbuch ist das analoge Karteisystem, das während des Bestehens der HfG von den Bibliothekarinnen erstellt und gepflegt wurde. Für jedes Buch wurden mindestens zwei Karten angelegt, die dann einmal unter dem Autor, ein- oder mehrere Male in einer nach Themengebieten geordneten Kartei eingeordnet wurden.\n\nManche Schriften ließen sich auch in mehrere Bereiche einordnen, wie hier im Beispiel die Reihe \n„Aesthetica“ von Max Bense. \nDie Karte oben links gehört zu der alphabetischen Kartei; im linken oberen Quadrat steht die Signatur \n(hier: 18 für „Ästhetik im Allgemeinen“ 6, der Anhang .01 für einen „theoretischen Gesichtspunkt“ 7 und \nBen als Kürzel für den Autorennahmen. \nDie Karte unten links gehört zur systematischen Kartei; hier stehen neben den bereits erwähnten Angaben \nin der linken Spalte noch weitere mögliche Zuordnungszahlen der Dezimalklassifikation. \nDie Karte rechts unten trägt eine andere Signatur, 007 Ben (007 für das Thema „Tätigkeit und \nOrganisation“). Dieser Karte fehlt die rechte obere Ecke als Hinweis darauf, dass es sich hier nur um einen \nVerweis handelt. Das Buch selbst steht im Regal unter der eigentlichen Signatur 18.01 Ben. \n\nIn einer weiteren abgeschlossenen Kartei sind die Zeitschriftenartikel aus sämtlichen Fachzeitschriften ebenfalls nach dem System der Dezimalklassifikation verzeichnet, außerdem gibt es noch eine Schlagwortkartei „Zeitschriftenartikel über ... “ und eine Kartei mit Ausstellungskatalogen. Diese Teile des Bibliothekskataloges haben wir nicht in das Findbuch aufgenommen. Bei der Auflistung in diesem Findbuch haben wir uns an die systematische Ordnung gehalten, und uns dabei auf die Haupteinträge beschränkt: Es gibt zu jedem Buch nur eine Karte. Mithilfe der Suchfunktion eines Computers ist sowohl die Suche als auch die Bereitstellung einfacher geworden.\n\n...\n\nim Juni 2015 \n\n### Die Bibliothek der Hochschule für Gestaltung Ulm 0 Allgemeines 001 Wissenschaft und Kenntnisse im allgemeinen\n\n...\n\n### 007 Kybernetik\n\n007 Ana\n\n...\n\n007 Bee \nBeer, Stafford \nKybernetik und Management. (Cybernetics and management. [dt.]) \n3. erw. Aufl. \nS. Fischer, Frankfurt/M., 1967 \nWelt im Werden. Literaturhinw. S-277-279 \n287 Seiten \n007 Bel \nBelevitch, Vitold \nLangage des machines et langage humain \nOffice de Publicité, Bruxelles, 1956 \nCollections Lebègue & Nationale. 120 \n119 Seiten \n007 Che \nCherry, Colin \nKommunikationsforschung - eine neue Wissenschaft. (On human Communication.[dt.]) \nS. Fischer, Hamburg, 1963 \nWelt im Werden Terminologie, Literaturverz. S. 364-387 \n397 Seiten \n007 Com \nComputers and the world of the future. \nEd.: Martin Greenberger. \nMIT Press, Cambridge, 1966 \nMIT. 1. \n340 Seiten \n\n007 Cou\n\n...\n\n### 01 Bibliografien"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.academia.edu/55008465/The_stages_model_and_the_phases_of_the_IS_field",
+              "title": "(PDF) The stages model and the phases of the IS field",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "1994, Journal of Information Technology\n\nvisibility\n\n117 views\n\ndescription\n\n12 pages\n\n...\n\nCite this paperclose\n\nMLAcontent_copy\n\nFriedman, Andrew. “The Stages Model and the Phases of the IS Field.” Journal of Information Technology, Springer Nature, 1994.\n\n...\n\n## References (90)\n\n...\n\n47. Hansen, P.\n\n...\n\n48. Hopper, G.M. (1962) Discussion of Brown's contribution, in Computers and the world of the future, Greenberger, M. (ed) (MIT Press, Cambridge, MA) pp. 271-87."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://dokumen.pub/recoding-gender-womens-changing-participation-in-computing-9780262018067-2012009891-0262018063.html",
+              "title": "Recoding Gender: Women's Changing Participation in ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Emerson W. Pugh, Memories That Shaped an Industry Emerson W. Pugh, Lyle R. Johnson, ... Vardalas, The Computer Revolution in Canada: Building National Technological Competence, ... or mechanical means (including photocopying, recording, or information"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://sites.bc.edu/devtech/wp-content/uploads/sites/181/2023/11/Teaching_Computational_Thinking_and_Coding_to_Youn.pdf",
+              "title": "Teaching Computational Thinking and Coding to Young ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## Teaching Computational\n\n## Thinking and Coding to\n\n## Young Children\n\nMarina Bers\n\nTufts University, USA\n\nA volume in the Advances in Early\n\nChildhood and K-12 Education (AECKE) Book Series\n\nTeaching Computational Thinking and Coding to Young Children, edited by Marina Bers, IGI Global, 2021. ProQuest Ebook Central, http://ebookcentral.proquest.com/lib/bostoncollege-ebooks/detail.action?docID=6692377.\n\n1 .\n\n...\n\nLibrary of Congress Cataloging-in-Publication Data\n\nBritish Cataloguing in Publication Data \nA Cataloguing in Publication record for this book is available from the British Library. \nAll work contributed to this book is new, previously-unpublished material. \nThe views expressed in this book are those of the authors, but not necessarily of the publisher. \nFor electronic access to this publication, please contact: eresources@igi-global.com. \nNames: Ber, Marina, 1970- editor. \nTitle: Teaching computational thinking and coding to young children / \nMarina Ber, editor. \nDescription: Hershey, PA : Information Science Reference, 2022. | Includes \nbibliographical references and index. | Summary: “This book starts with \nan introduction to the topic of computational thinking and young \nchildren and then presents chapters of different aspects to consider in \nteaching computational thinking to young children,”-- Provided by \npublisher. \nIdentifiers: LCCN 2021023096 (print) | LCCN 2021023097 (ebook) | ISBN \n9781799873082 (hardcover) | ISBN 9781799873099 (paperback) | ISBN \n9781799873105 (ebook) \nSubjects: LCSH: Computer science--Study and teaching (Elementary) | \nComputer programming--Study and teaching (Elementary) | Logic--Study and \nteaching (Elementary) | Problem solving--Study and teaching (Elementary) \n| Computer literacy. \nClassification: LCC QA76.27 .T423 2022 (print) | LCC QA76.27 (ebook) | \nDDC 004.071--dc23 \nLC record available at https://lccn.loc.gov/2021023096 \nLC ebook record available at https://lccn.loc.gov/2021023097 \nThis book is published in the IGI Global book series Advances in Early Childhood and K-12 \nEducation (AECKE) (ISSN: 2329-5929; eISSN: 2329-5937)\n\n...\n\nCOMPUTATIONAL THINKING: THEORETICAL FOUNDATIONS\n\nThe idea that the “theory of computation” is for everyone, and not only for computer scientists, dates back to the 1960’s (Perlis, 1962). As technology progressed, computers became more accessible, but programming languages’ syntax and grammar were still too difficult to understand and manipulate. In 1982, Perlis, one of the pioneers in developing the ALGOL programming language wrote “most people find the concept of programming obvious, but the doing impossible” (Perlis, 1982, p. 10). What Perlis referred to as the “concept of programming” is close to our current understanding of computational thinking. Furthermore, Perlis distinguished the cognitive processes associated with thinking in abstract and logical ways from the mastery of a programming language.\n\n...\n\n#### REFERENCES\n\n...\n\n1 .\n\nFrom Computational Thinking to Computational Doing\n\nPei, C., Weintrop, D., & Wilensky, U. (2018). Cultivating computational thinking practices and mathematical habits of mind in lattice land. Mathematical Thinking\n\nand Learning, 20(1), 75–89.\n\nPerlis, A. J. (1962). The computer in the university. In M. Greenberger (Ed.),\n\nComputers and the world of the future (pp. 180–219). MIT Press."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.academia.edu/41763760/THE_AGE_OF_SPIRITUAL_MACHINES",
+              "title": "THE AGE OF SPIRITUAL MACHINES",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "PART TWO: PREPARING THE PRESENT CHAPTER SIX: BUILDING NEW BRAINS . . . ... Cleverly, it has created organisms who in turn invented a computational technology a million times faster than carbon -based neurons"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3084,
+    "completion_tokens": 1011,
+    "total_tokens": 4095,
+    "cost": 0.007705672,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0007128,
+      "upstream_inference_prompt_cost": 0.0003084,
+      "upstream_inference_completions_cost": 0.0004044
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

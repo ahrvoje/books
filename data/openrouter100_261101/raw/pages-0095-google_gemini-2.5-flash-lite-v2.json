@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:58.622Z",
+  "bookId": "complete-284-244",
+  "id": "gen-1793571238-PIyP779PZEnjDTlS7uJl",
+  "object": "chat.completion",
+  "created": 1793571238,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"complete-284-244\",\n  \"title\": \"Reckoning with Race\",\n  \"author\": \"Gene Dattel\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 352,\n    \"editionId\": \"9781594039096\",\n    \"editionYear\": 2017,\n    \"format\": \"Hardcover\",\n    \"language\": \"English\",\n    \"url\": \"https://www.encounterbooks.com/books/reckoning-with-race/\",\n    \"evidence\": \"Hardcover / 352 pages ISBN: 9781594039096 AVAILABLE: 9/19/2017\",\n    \"sourceTitle\": \"Reckoning with Race - Encounter Books\",\n    \"sourceAuthor\": \"Gene Dattel\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.encounterbooks.com/books/reckoning-with-race/\",\n    \"https://ernestandhadleybooks.com/book/9781594039096\",\n    \"https://www.amazon.com/Reckoning-Race-Americas-Gene-Dattel/dp/1594039097\",\n    \"https://ingramacademic.com/products/reckoning-with-race-9781594039096\",\n    \"https://www.books-express.ro/reckoning-with-race/p/shb,9781594039096\"\n  ],\n  \"limitations\": \"The user requested information on the English paperback version, but the available evidence consistently points to a hardcover edition with 352 pages. No specific paperback page count was found.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.encounterbooks.com/books/reckoning-with-race/",
+              "title": "Reckoning with Race - Encounter Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## America’s Failure\n\n By Gene Dattel \n\n \n\n $27.99 \n\n## Publication Details\n\nHardcover / 352 pages ISBN: 9781594039096 AVAILABLE: 9/19/2017\n...\nThe book moves to the Great Migration north and the urban ghettos that still plague"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://ernestandhadleybooks.com/book/9781594039096",
+              "title": "Reckoning with Race: America's Failure | E&H Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Reckoning with Race: America's Failure \n\n Gene Dattel \n\n Previous price: $27.99 Current price: $13.25 \n\nPublish Date: September 19, 2017 \n\nPublisher:\n\n Encounter Books \n\nISBN:\n\n 9781594039096 \n\nPages:\n\n 352 \n\nLanguage:\n\n English"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Reckoning-Race-Americas-Gene-Dattel/dp/1594039097",
+              "title": "Reckoning with Race: America's Failure",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Reckoning with Race: America's Failure\nBrand: Gene Dattel\nCategory: African Descent & Black > African American Studies\n\n## Specifications\nPublisher: Encounter Books; Publication date: September 19, 2017; Edition: Illustrated; Language: English; Print length: 352 pages\n\n...\n\n## Details\nUPC: 1594039097\n\n...\n\nASIN: 1594039097"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://ingramacademic.com/products/reckoning-with-race-9781594039096",
+              "title": "Reckoning with Race",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Reckoning with Race\n\n Gene dattel \n\nPublisher:\n\n Encounter Books\n\n...\n\n- Format: Hardcover \n- Publication Date: 19 September 2017\n- ISBN: 9781594039096\n- Pages: 352\n- Imprint: Encounter Books\n\n...\n\nPublisher: Encounter Books \n\n Imprint: Encounter Books \n\n Publication Date: 19 September 2017 \n\n Trim Size: 9.00 X 6.00 in \n\n ISBN: 9781594039096 \n\n Format: Hardcover"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.books-express.ro/reckoning-with-race/p/shb,9781594039096",
+              "title": "Reckoning with Race de Gene Dattel",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Race \n\n Autor Gene Dattel \n\n en Limba Engleză Hardback – 19 sep 2017\n...\n#### Carte indisponibilă temporar\n\n## Specificații\n\nISBN-13: 9781594039096 ISBN-10: 1594039097 Pagini: 352 Dimensiuni: 153 x 229 x 19 mm Greutate: 0.73 kg Editura: ENCOUNTER BOOKS"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1246,
+    "completion_tokens": 439,
+    "total_tokens": 1685,
+    "cost": 0.007297198,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003002,
+      "upstream_inference_prompt_cost": 0.0001246,
+      "upstream_inference_completions_cost": 0.0001756
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793577354-Pwo77jV4Lp2ANcuN5eC0",
+  "object": "chat.completion",
+  "created": 1793577354,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g1271:reference:https://collection.sl.nsw.gov.au/record/74VKadAOxM5A\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 401-436.\"\n    },\n    {\n      \"key\": \"shelf-5975d2894f9e:reference:https://works.www.wellcomecollection.org/works/dpymhgtx\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 303-329.\"\n    },\n    {\n      \"key\": \"rem-u0328:reference:https://collection.sl.nsw.gov.au/record/74VKaeEJygxb\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 457-517.\"\n    },\n    {\n      \"key\": \"complete-712-47:reference:https://archive.org/details/leadershipverysh0000grin\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 127-132.\"\n    },\n    {\n      \"key\": \"bg7db373e68a:reference:https://bulibrary.bugemauniv.ac.ug/bib/169\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 275-282.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3117,
+    "completion_tokens": 401,
+    "total_tokens": 3518,
+    "cost": 0.0001860507,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00018793,
+      "upstream_inference_prompt_cost": 0.00015585,
+      "upstream_inference_completions_cost": 0.00003208
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:56:00.031Z"
+}

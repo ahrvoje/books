@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793572741-lUM2eGfA0unywfuKoNjz",
+  "object": "chat.completion",
+  "created": 1793572741,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u0270:reference:https://catalog.myrichlandlibrary.org/Record/248066\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 305-334.\"\n    },\n    {\n      \"key\": \"shelf-0c3d9d42de01:reference:https://link.ebrpl.com/resource/S5niPHmhiUI\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages [485]-552.\"\n    },\n    {\n      \"key\": \"n1d273f3e77:reference:https://link.livebrary.com/resource/MmYrccrq1mU\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 268-276.\"\n    },\n    {\n      \"key\": \"q0233:reference:https://broomfieldkids.flatironslibrary.org/Record/.b29645888\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 229-242.\"\n    },\n    {\n      \"key\": \"nffe62a175d:amazon:https://www.amazon.com/Spy-Traitor-Greatest-Espionage-Story/dp/1101904194\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The global ratings are explicitly labelled as 36,296.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3861,
+    "completion_tokens": 412,
+    "total_tokens": 4273,
+    "cost": 0.0002237499,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00022601,
+      "upstream_inference_prompt_cost": 0.00019305,
+      "upstream_inference_completions_cost": 0.00003296
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:39:04.320Z"
+}

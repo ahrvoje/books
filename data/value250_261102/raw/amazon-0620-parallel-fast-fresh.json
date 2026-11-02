@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793575690-21YcofGQFAo8f1exn7Bk",
+  "object": "chat.completion",
+  "created": 1793575690,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Everything-Must-Go-Steely-Dan/dp/B0000936MD",
+              "title": "Everything Must Go",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nEverything Must Go\nSteely Dan Everything Must Go Remixes. Track Listings 1 The Last Mall 2 Things I Miss the Most 3 Blues Beach 4 Godwhacker 5 Slang of Ages 6 Green Book Original\n\n## \n\nEverything Must Go\nSteely Dan, Walter Becker, Track Listings 1 The Last Mall 2 Things I Miss the Most 3. Rank: #5,845 in CDs & Vinyl\n\n## \n\nEverything Must Go\n2, Things I Miss the Most ; 3, Blues Beach ; 4, Godwhacker ; 5, Slang of Ages ; 6, Green Book.\n\n## \n\nEverything Must Go\nThe finished album reveals to its makers deep subterranean themes and powerful emotional undercurrents that satisfy and surprise at the same time.\n\n## \n\nEverything Must Go\nSteely Dan, Walter Becker, wiggy vocal and stellar solo work are stacked atop the now-realized grooves and harmonies. Walter Becker and Donald Fagen. ,365 in"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 630,
+    "completion_tokens": 1,
+    "total_tokens": 631,
+    "cost": 0.0010112563,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001137,
+      "upstream_inference_prompt_cost": 0.00001134,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Every Thing Must Go\" James Ladyman; Don Ross; Don Spurrett; John Collier \"global ratings\"",
+  "bookId": "shelf-18a13d0d8866",
+  "retrieved": "2026-11-01T23:28:12.181Z"
+}

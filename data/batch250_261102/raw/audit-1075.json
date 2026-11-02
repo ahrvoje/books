@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576309-n3xSeO0WSao1r9qUKA2t",
+  "object": "chat.completion",
+  "created": 1793576309,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"n4fd46af2a6:amazon:https://www.amazon.com/Tiger-Vengeance-Survival-Vintage-Departures/dp/0307389049\",\n      \"status\": \"supported\",\n      \"reason\": \"The book title and author match the source title and text. The rating count is explicitly labelled and matches the value.\"\n    },\n    {\n      \"key\": \"rem-u1423:amazon:https://www.amazon.com/Island-Center-World-Manhattan-Forgotten/dp/1400078679\",\n      \"status\": \"supported\",\n      \"reason\": \"The book title and author match the source title and text. The rating count is explicitly labelled and matches the value.\"\n    },\n    {\n      \"key\": \"n2929598fb8:amazon:https://www.amazon.com/Etymologicon-Circular-Through-Connections-Language/dp/0425260798\",\n      \"status\": \"supported\",\n      \"reason\": \"The book title and author match the source title and text. The rating count is explicitly labelled and matches the value.\"\n    },\n    {\n      \"key\": \"rem-u0926:amazon:https://www.amazon.com/Speed-Trust-Stephen-M-R-Covey/dp/0743295609\",\n      \"status\": \"supported\",\n      \"reason\": \"The book title and author match the source title and text. The rating count is explicitly labelled and matches the value.\"\n    },\n    {\n      \"key\": \"progress-0768:amazon:https://www.amazon.com/Disrupted-My-Misadventure-Start-Up-Bubble/dp/0316306088\",\n      \"status\": \"supported\",\n      \"reason\": \"The book title and author match the source title and text. The rating count is explicitly labelled and matches the value.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3462,
+    "completion_tokens": 452,
+    "total_tokens": 3914,
+    "cost": 0.0002071674,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020926,
+      "upstream_inference_prompt_cost": 0.0001731,
+      "upstream_inference_completions_cost": 0.00003616
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:38:37.792Z"
+}

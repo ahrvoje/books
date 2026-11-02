@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576303-hJyegq7M9PzxNLQ5w38z",
+  "object": "chat.completion",
+  "created": 1793576303,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g0268:amazon:https://www.amazon.com/Linchpin-Are-Indispensable-Seth-Godin/dp/1591843162\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 4,031 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"g0334:amazon:https://www.amazon.com/Oz-Principle-Individual-Organizational-Accountability/dp/1591843480\",\n      \"status\": \"reject\",\n      \"reason\": \"Author mismatch. Source lists three authors, but candidate lists only one.\"\n    },\n    {\n      \"key\": \"shelf-b9cf438ecc85:amazon:https://www.amazon.com/Toilet-Paper-Entrepreneur-tell-like/dp/0981808204\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 1,356 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"shelf-ced2a4df2425:amazon:https://www.amazon.com/Practice-Shipping-Creative-Work/dp/0593328973\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 2,141 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"bg3b081e5b38:amazon:https://www.amazon.com/Homage-Catalonia-George-Orwell/dp/0140016996\",\n      \"status\": \"reject\",\n      \"reason\": \"6,132 ratings not explicitly labelled.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3711,
+    "completion_tokens": 412,
+    "total_tokens": 4123,
+    "cost": 0.0002163249,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021851,
+      "upstream_inference_prompt_cost": 0.00018555,
+      "upstream_inference_completions_cost": 0.00003296
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:38:30.762Z"
+}

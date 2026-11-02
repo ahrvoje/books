@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572332-DJaEP6q0iF4nXBZoP128",
+  "object": "chat.completion",
+  "created": 1793572332,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"g0831\",\n  \"title\": \"Filters Against Folly: How To Survive Despite Economists, Ecologists, and the Merely Eloquent\",\n  \"author\": \"Garrett Hardin\",\n  \"amazon\": {\n    \"count\": 224,\n    \"url\": \"https://www.amazon.com/Filters-Against-Folly-Economists-Ecologists/dp/0140077294\",\n    \"asin\": \"0140077294\",\n    \"evidence\": [\n      [\"Filters Against Folly: How To Survive Despite Economists, Ecologists, and the Merely Eloquent · by Garrett Hardin · Paperback. Add to cart.\", \"https://www.amazon.com/Books-Garrett-Hardin/s?rh=n%3A283155%2Cp_27%3AGarrett%2BHardin\"],\n      [\"Filters Against Folly: How To Survive Despite Economists, Ecologists, and the Merely Eloquent · by Garrett Hardin · Paperback. Add to cart.\", \"https://www.amazon.com/Politics-Social-Sciences-Garrett-Hardin-Books/s?rh=n%3A3377866011%2Cp_27%3AGarrett%2BHardin\"]\n    ]\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Politics-Social-Sciences-Garrett-Hardin-Books/s?rh=n%3A3377866011%2Cp_27%3AGarrett%2BHardin",
+              "title": "Garrett Hardin - Politics & Social Sciences: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Filters Against Folly: How To Survive Despite Economists, Ecologists, and the Merely Eloquent · by Garrett Hardin · Paperback. Add to cart."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/es/Filters-against-Folly-Garrett-Hardin/dp/067080410X",
+              "title": "Filters against Folly: 9780670804108: Hardin, Garrett: Libros",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "\"For 20 years Garrett Hardin has been our most hardnosed thinker about ecological problems...Filters Against Folly makes provocative reading."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Filters-Against-Folly-Economists-Ecologists/dp/0140077294",
+              "title": "Filters Against Folly: How To Survive Despite Economists ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "\"For 20 years Garrett Hardin has been our most hardnosed thinker about ecological problems...Filters Against Folly makes provocative reading."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/es/Garrett-Hardin/dp/B01NANDCNB",
+              "title": "Filters against Folly by Garrett Hardin (1985-07-12)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "For 20 years Garrett Hardin has been our most hardnosed thinker about ecological problems...Filters Against Folly makes provocative reading."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Garrett-Hardin/s?rh=n%3A283155%2Cp_27%3AGarrett%2BHardin",
+              "title": "Garrett Hardin: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nGarrett Hardin: Books\nFilters Against Folly: How To Survive Despite Economists, Ecologists, and the Merely Eloquent · by Garrett Hardin · Paperback. Add to cart."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 778,
+    "completion_tokens": 316,
+    "total_tokens": 1094,
+    "cost": 0.00502324916,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000023484,
+      "upstream_inference_prompt_cost": 0.000014004,
+      "upstream_inference_completions_cost": 0.00000948
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "g0831",
+  "retrieved": "2026-11-01T22:32:33.734Z"
+}

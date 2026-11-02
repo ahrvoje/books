@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:11:49.143Z",
+  "bookId": "large-3",
+  "id": "gen-1793571109-pqZAhQaGoZJJk7IyEX8F",
+  "object": "chat.completion",
+  "created": 1793571109,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"large-3\",\n  \"title\": \"The Secret Life of Science\",\n  \"author\": \"Jeremy J. Baumberg\",\n  \"amazon\": {\n    \"count\": 12,\n    \"stars\": 3.9,\n    \"asin\": \"0691174350\",\n    \"marketplace\": \"amazon.com\",\n    \"url\": \"https://www.amazon.com/Secret-Life-Science-Really-Matters/dp/0691174350\",\n    \"evidence\": \"Rated 3.9 from 12 reviews.\",\n    \"sourceTitle\": \"The Secret Life of Science: How It Really Works and Why It Matters\",\n    \"sourceAuthor\": \"Jeremy J. Baumberg\",\n    \"snapshotLimitation\": \"The provided search results contain multiple Amazon product snapshots for \\\"The Secret Life of Science\\\" by Jeremy J. Baumberg. This response consolidates the rating information from the snapshot that explicitly lists the ASIN '0691174350' and the review count and star rating. Other snapshots for different ASINs (e.g., B0779LT9HZ, B08Z2TMPKF, B08Z9W51LB) also show the same rating aggregate, but the ASIN '0691174350' is directly linked to the print edition mentioned in the initial query.\"\n  },\n  \"pages\": {\n    \"count\": 248,\n    \"editionId\": \"ISBN:0691174350\",\n    \"editionYear\": \"2018\",\n    \"format\": \"Print\",\n    \"language\": \"English\",\n    \"url\": \"https://www.amazon.com/Secret-Life-Science-Really-Matters/dp/0691174350\",\n    \"evidence\": \"Print length: 248 pages\",\n    \"sourceTitle\": \"The Secret Life of Science: How It Really Works and Why It Matters\",\n    \"sourceAuthor\": \"Jeremy J. Baumberg\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Secret-Life-Science-Really-Matters/dp/0691174350\",\n    \"https://www.amazon.com/Secret-Life-Science-Really-Matters-ebook/dp/B0779LT9HZ\",\n    \"https://www.amazon.com/Secret-Life-Science-Really-Matters/dp/B08Z2TMPKF\",\n    \"https://www.amazon.com/Secret-Life-Science-Really-Matters/dp/B08Z9W51LB\"\n  ],\n  \"limitations\": \"The search results provided multiple Amazon product snapshots for the book. The rating and review count were extracted from the snapshot associated with ASIN 0691174350, which aligns with the print edition. Other snapshots for different ASINs (ebooks and audiobooks) showed the same rating aggregate but were not prioritized for the primary amazon object. The 'pages' field was populated using the print length from the ASIN 0691174350 snapshot.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Secret-Life-Science-Really-Matters/dp/0691174350",
+              "title": "The Secret Life of Science: How It Really Works and Why It Matters",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The Secret Life of Science: How It Really Works and Why It Matters\nBrand: Jeremy J. Baumberg\nCategory: Science & Math > History & Philosophy\n\n## Specifications\nPublisher: Princeton University Press; Publication date: May 15, 2018; Edition: Illustrated; Language: English; Print length: 248 pages\n\n## Pricing & Reviews\nPrice: 7.1 USD.\nRated 3.9 from 12 reviews.\n\n## Details\nUPC: 9780691174358\n\n...\n\nASIN: 0691174350"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Secret-Life-Science-Really-Matters-ebook/dp/B0779LT9HZ",
+              "title": "The Secret Life of Science: How It Really Works and Why It Matters",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The Secret Life of Science: How It Really Works and Why It Matters\nBrand: Jeremy J. Baumberg\nCategory: Education > Research\n\n## Specifications\nFile size: 14.9 MB; Publisher: Princeton University Press; Publication date: May 15, 2018; Edition: Illustrated; Language: English\n\n## Pricing & Reviews\nPrice: 16.17 USD.\nRated 3.9 from 12 reviews.\n\n...\n\nASIN: B0779LT9HZ"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Secret-Life-Science-Really-Matters/dp/B08Z2TMPKF",
+              "title": "The Secret Life of Science: How It Really Works and Why It Matters",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The Secret Life of Science: How It Really Works and Why It Matters\nBrand: Jeremy J. Baumberg\nCategory: Social Sciences > Popular Culture\n\n## Specifications\nPublisher: Tantor and Blackstone Publishing; Publication date: March 1, 2021; Edition: Unabridged; Language: English; Print length: 1 pages\n\n## Pricing & Reviews\nPrice: 41.49 USD.\nRated 3.9 from 12 reviews.\n\n...\n\nASIN: B08Z2TMPKF"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Secret-Life-Science-Really-Matters/dp/B08Z9W51LB",
+              "title": "The Secret Life of Science: How It Really Works and Why It Matters",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The Secret Life of Science: How It Really Works and Why It Matters\nBrand: Jeremy J. Baumberg\nCategory: Social Sciences > Popular Culture\n\n## Specifications\nPublisher: Tantor and Blackstone Publishing; Publication date: March 1, 2021; Edition: Unabridged; Language: English; Print length: 1 pages\n\n## Pricing & Reviews\nPrice: 38.14 USD.\nRated 3.9 from 12 reviews.\n\n...\n\nASIN: B08Z9W51LB"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Secret-Life-Materials-Jeremy-Baumberg/dp/B09YZHCD3Y",
+              "title": "The Secret Life of Materials",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The Secret Life of Materials\nBrand: Jeremy Baumberg, Nick Chapman\nCategory: DVD > Documentary\n...\nMPAA rating: PG (Parental Guidance Suggested); Director: Nick Chapman; Media Format: NTSC, Widescreen; Run time: 1 hour; Release date: May 31, 2022"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1355,
+    "completion_tokens": 749,
+    "total_tokens": 2104,
+    "cost": 0.007430749,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004351,
+      "upstream_inference_prompt_cost": 0.0001355,
+      "upstream_inference_completions_cost": 0.0002996
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

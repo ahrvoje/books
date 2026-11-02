@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576392-Sw7BHZpDK17uqa5xxVwP",
+  "object": "chat.completion",
+  "created": 1793576392,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g0952:amazon:https://www.amazon.com/Genealogy-Morals-Oxford-Worlds-Classics/dp/0199537089\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and correctly labeled.\"\n    },\n    {\n      \"key\": \"g1052:amazon:https://www.amazon.com/Lincoln-Gettysburg-Words-Remade-America/dp/0671867423\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and correctly labeled.\"\n    },\n    {\n      \"key\": \"n256a470331:amazon:https://www.amazon.com/New-Confessions-Economic-Hit-Man/dp/1785033859\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and correctly labeled.\"\n    },\n    {\n      \"key\": \"rem-u1838:amazon:https://www.amazon.com/Third-Door-Uncover-Successful-Launched/dp/0804136661\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and correctly labeled.\"\n    },\n    {\n      \"key\": \"nd161628787:amazon:https://www.amazon.com/Losing-Eden-Fundamental-Natural/dp/152474932X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and correctly labeled.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3628,
+    "completion_tokens": 421,
+    "total_tokens": 4049,
+    "cost": 0.0002129292,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021508,
+      "upstream_inference_prompt_cost": 0.0001814,
+      "upstream_inference_completions_cost": 0.00003368
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:39:58.028Z"
+}

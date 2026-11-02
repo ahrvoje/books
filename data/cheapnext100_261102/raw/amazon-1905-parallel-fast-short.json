@@ -1,0 +1,87 @@
+{
+  "id": "gen-1793574846-0dapTtw5OvkNsu0utZZW",
+  "object": "chat.completion",
+  "created": 1793574846,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/My-Fathers-Business-Small-Town-Billion-Dollar/dp/1478992980",
+              "title": "My Father's Business: The Small-Town Values That Built ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nMy Father's Business: The Small-Town Values That Built ...\nThis book is about the story of Cal Turner Jr., the heir to Dollar General, and how he navigated the family business to become a Fortune 300 company\n\n## \n\nMy Father's Business: The Small-Town Values That Built Dollar ...\nCal shares how the small-town values with which he was raised helped him guide Dollar General from family enterprise to national powerhouse. Chronicling\n\n## \n\nMy Father's Business: The Small-Town Values That Built Dollar ...\nHe reveals how his driven father hatched the game-changing dollar price point strategy and why it worked. took his place at the helm -- values-based, people-\n\n##\n\n...\n\nThis book is about the story of Cal Turner Jr., the heir to Dollar General, and how he navigated the family business to become a Fortune 300 company. DG stores\nMy Father's Business: The Small-Town Values That Built Dollar ...\nLongtime Dollar General CEO Cal Turner, Jr. shares his extraordinary life as heir to the company founded by his father, Cal Turner, Sr., and his grandfather.\nMy Father's Business: The Small-Town Values That Built Dollar ...\nThis book is about the story of Cal Turner Jr., the heir to Dollar General, and how he navigated the family business to\n\n...\n\nThis book is about the story of Cal Turner Jr., the heir to Dollar General, with sales of $40 million, to more than 6,000, with sales in excess of $6 billion."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://us.amazon.com/Darrell-Simbeck/e/B0GD8Y7817/ref=zg_bsnr_g_297490_d_sccl_1_bl/000-0000000-0000000",
+              "title": "Darrell Simbeck: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nDarrell Simbeck: books, biography, latest update\nFollow Darrell Simbeck and explore their bibliography from Amazon's Darrell Simbeck Author Page."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Handmade-Sneakers-Waterproof-Lightweight-Breathable/dp/B0CZLGXCDB",
+              "title": "Women's Italian Handmade Leather Sneakers, Outdoor ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nWomen's Italian Handmade Leather Sneakers, Outdoor ...\nAnd these Italian shoes for women are waterproof, non-slip and breathable, ensuring your feet remain comfortable throughout outdoor activities. 【Soft & NonSlip"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 940,
+    "completion_tokens": 1,
+    "total_tokens": 941,
+    "cost": 0.0010167805,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001695,
+      "upstream_inference_prompt_cost": 0.00001692,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"My Father's Business\" Cal Turner Jr. and Rob Simbeck \"global ratings\"",
+  "bookId": "shelf-1ada8c47c87d",
+  "retrieved": "2026-11-01T23:14:05.553Z"
+}

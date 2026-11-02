@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:15:17.292Z",
+  "bookId": "g0618",
+  "id": "gen-1793571315-5TMcrgk83ULsvzxu5aS2",
+  "object": "chat.completion",
+  "created": 1793571315,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"g0618\",\n  \"title\": \"Nine Pints\",\n  \"author\": \"Rose George\",\n  \"knownEdition\": {\n    \"id\": \"ISBN:1627796371\",\n    \"url\": \"https://openlibrary.org/books/OL26978141M/Nine_pints\",\n    \"pages\": 353\n  },\n  \"purchaseUrl\": \"https://www.amazon.com/dp/1627796371\",\n  \"reference\": {\n    \"editionId\": \"ISBN:1627796371\",\n    \"url\": \"https://hplct.library.link/resource/mnw6_cl0kNs\",\n    \"evidence\": \"Includes bibliographical references (pages 289-333) and index\",\n    \"ranges\": [\n      {\n        \"start\": 289,\n        \"end\": 333,\n        \"label\": \"Bibliographical references\"\n      }\n    ],\n    \"method\": \"The Muir Library System catalog explicitly states that the book includes bibliographical references on pages 289-333. This is corroborated by the HPLCT library link which also states 'Includes bibliographical references (pages 289-333) and index'.\",\n    \"limitation\": \"The exact number of references is not provided, only the page range.\"\n  },\n  \"searchedUrls\": [\n    \"http://library.nysoclib.org/record=b1282386\",\n    \"https://catalog.wake.gov/Record/735002\",\n    \"https://muir.tdslib.org/Record/359047\",\n    \"https://catalog.ocls.org/Record/.b22297613\",\n    \"https://hplct.library.link/resource/mnw6_cl0kNs\"\n  ],\n  \"limitations\": \"No explicit count of bibliographical references was found in the provided search results. The page range for the bibliographical references was found.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://library.nysoclib.org/record=b1282386",
+              "title": "NYSL Catalog: Search",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "NYSL Catalog: Search\n\n| Author | George, Rose, 1969- |\n| --- | --- |\n| Title | Nine pints : a journey through the money, medicine, and mysteries of blood / Rose George. |\n| Publication Info. | New York : Metropolitan Books/ Henry Holt and Company, 2018. |\n\n \n\n| Location | Call No. | Status | Note |\n| --- | --- | --- | --- |\n| Stack 11 | 612.1 G | IN LIBRARY | |\n\n| Edition | First edition. |\n| --- | --- |\n| Description | 353 pages : illustrations ; 25 cm |\n| Bibliography | Includes bibliographical references and index. |\n| Contents | My pint -- That most singular and valuable reptile -- Janet and Percy -- Blood borne -- The yellow stuff -- Rotting pickles -- Nasty cloths -- Code red -- Blood like Guinness : the future. |\n| Subject | Blood. |\n| Added Title | Journey through the money, medicine, and mysteries of blood |\n| ISBN | 9781627796378 (hardcover) |\n| | 1627796371 |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.wake.gov/Record/735002",
+              "title": "Nine pints : : a journey through the money, medicine, and...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Nine pints: a journey through the money, medicine, and mysteries of blood (Book)\n\nAuthor: George, Rose, 1969- \n\nStatus:\n\nOn Shelf \n\nCary Regional - Adult Non-Fiction 612.11 GEORG\n\nEast Regional - Adult Non-Fiction 612.11 GEORG\n\nEva H. Perry Regional - Adult Non-Fiction 612.11 GEORG\n\n| Available Copies | Location | Call Number |\n| --- | --- | --- |\n| 1 of 1 | Cary Regional - Adult Non-Fiction | 612.11 GEORG |\n| 1 of 1 | East Regional - Adult Non-Fiction | 612.11 GEORG |\n| 1 of 1 | Eva H. Perry Regional - Adult Non-Fiction | 612.11 GEORG |\n| 0 of 1 | Leesville Community - Adult Non-Fiction | 612.11 GEORG |\n| 1 of 1 | Morrisville Community - Adult Non-Fiction | 612.11 GEORG |\n| 1 of 1 | North Regional - Adult Non-Fiction | 612.11 GEORG |\n| 1 of 1 | Northeast Regional - Adult Non-Fiction | 612.11 GEORG |\n| 4 of 4 | Oberlin Regional - Adult Non-Fiction | 612.11 GEORG |\n| 1 of 1 | Remote Storage - Adult Non-Fiction | 612.11 GEORG |\n| 1 of 1 | Richard B Harrison - Adult Non-Fiction | 612.11 GEORG |\n| 1 of 1 | Wake Forest Community - Adult Non-Fiction | 612.11 GEORG |\n| 2 of 2 | West Regional - Adult Non-Fiction | 612.11 GEORG |\n\n## Copies\n\nLocation Call Number Status\n\nCary Regional - Adult Non-Fiction 612.11 GEORG On Shelf\n\nEast Regional - Adult Non-Fiction 612.11 GEORG On Shelf\n\nEva H. Perry Regional - Adult Non-Fiction 612.11 GEORG On Shelf\n\nLeesville Community - Adult Non-Fiction 612.11 GEORG Checked Out\n\nMorrisville Community - Adult Non-Fiction 612.11 GEORG On Shelf\n\nNorth Regional - Adult Non-Fiction 612.11 GEORG On Shelf\n\nNortheast Regional - Adult Non-Fiction 612.11 GEORG On Shelf\n\nOberlin Regional - Adult Non-Fiction 612.11 GEORG On Shelf\n\n...\n\n## More Details\n\nPublished: New York : Metropolitan Books/Henry Holt and Company, 2018.\n\nFormat: Book\n\nEdition: First edition.\n\nPhysical Desc: 353 pages : illustrations ; 25 cm\n\nLanguage: English\n\nISBN: 9781627796378, 1627796371, 9781627796378\n\n#### Notes\n\nBibliography Includes bibliographical references and index.\n\n...\n\n### MARC Record\n\n| LEADER | | | 03550pam a2200637 i 4500 |\n| --- | --- | --- | --- |\n| 001 | | | 2018013647 |\n| 003 | | | DLC |\n| 005 | | | 20200309112900.0 |\n| 008 | | | 180426s2018 nyua b 001 0 eng d |\n| 010 | | | |a 2018013647 |\n| 020 | | | |a 9781627796378 |c $30.00 |\n| 020 | | | |a 1627796371 |c $30.00 |\n| 020 | | | |a 9781627796378 |q (hbk.) |\n| 035 | | | |a (OCoLC)1021809819 |\n| 040 | | | |a DLC |b eng |e rda |c DLC |d TnLvILS |\n| 042 | | | |a pcc |\n| 050 | 0 | 0 | |a QP91 |b .G37 2018 |\n| 082 | 0 | 0 | |a 612.1/1 |2 23 |\n| 092 | | | |a 612.11 GEORG |\n| 100 | 1 | | |a George, Rose, |d 1969- |e author. |\n| 245 | 1 | 0 | |a Nine pints : |b a journey through the money, medicine, and mysteries of blood / |c Rose George. |\n| 246 | 3 | | |a 9 pints |\n| 250 | | | |a First edition. |\n| 264 | | 1 | |a New York : |b Metropolitan Books/Henry Holt and Company, |c 2018. |\n| 300 | | | |a 353 pages : |b illustrations ; |c 25 cm |\n| 336 | | | |a text |b txt |2 rdacontent |\n| 337 | | | |a unmediated |b n |2 rdamedia |\n| 338 | | | |a volume |b nc |2 rdacarrier |\n| 504 | | | |a Includes bibliographical references and index. |\n| 505 | 0 | | |a The most singular and valuable reptile -- -- Janet and Percy -- Blood borne -- The yellow stuff -- Rotting pickles -- Nasty cloths -- Code red -- Blood like Guinness: the future. |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://muir.tdslib.org/Record/359047",
+              "title": "Nine pints : a journey through the money, medicine, and... | Muir Library System",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Nine pints : a journey through the money, medicine, and mysteries of blood (Book)\n\nAverage Rating\n\nAuthor George, Rose, 1969- \n\nPublished\n\nNew York, New York : Metropolitan Books/ Henry Holt and Company, 2018.\n\nFormat Book\n\nEdition First edition.\n\nISBN 9781627796378 (hardcover), 1627796371 (hardcover)\n\nPhysical Desc 353 pages : illustrations ; 25 cm\n\nStatus\n\nAvailable from Another Library See all copies\n\n## Copies\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| Le Sueur Public Library - Adult Nonfiction | 612.11 George | Available |\n\n## More Details\n\nLanguage English\n\nNotes\n\nOther Title Journey through the money, medicine, and mysteries of blood\n\nBibliography\n\nIncludes bibliographical references (pages 289-333) and index.\n\nDescription\n\nExplores the science, traditions, and myths surrounding blood, from ancient bloodletting practices to the development of mass blood donations during the Blitz and from researchers working on synthetic blood to the lucrative business of plasma transfusions.\n\n## Table of Contents\n\nMy pint \n\n That most singular and valuable reptile \n\n Janet and Percy \n\n Blood borne \n\n The yellow stuff \n\n Rotting pickles \n\n Nasty cloths \n\n Code red \n\n Blood like Guinness : the future."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.ocls.org/Record/.b22297613",
+              "title": "Nine pints : a journey through the money, medicine, and... | Orange County Library System",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Nine pints : a journey through the money, medicine, and mysteries of blood (Book)\n\nAverage Rating\n\nAuthor George, Rose, 1969- \n\nStatus\n\nOn Shelf\n\nOrlando Public Library (Downtown) - Third Floor 612.11 GEO 1 available\n\nAlafaya - Adult 612.11 GEO 1 available\n\nWindermere - Adult 612.11 GEO 1 available\n\n## Copies\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| Orlando Public Library (Downtown) - Third Floor | 612.11 GEO | On Shelf |\n| Alafaya - Adult | 612.11 GEO | On Shelf |\n| Windermere - Adult | 612.11 GEO | On Shelf |\n\n...\n\n## More Details\n\nPublished New York : Metropolitan Books/ Henry Holt and Company, 2018.\n\nFormat Book\n\nEdition First edition.\n\nPhysical Desc 353 pages : illustrations ; 25 cm\n\nStreet Date 1810\n\nLanguage English\n\nISBN 9781627796378 (hardcover) :, 1627796371\n\nNotes\n\nBibliography Includes bibliographical references and index."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://hplct.library.link/resource/mnw6_cl0kNs",
+              "title": "Bibliograph",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Bibliograph\n\nNine pints, a journey through the money, medicine, and mysteries of blood, Rose George\n\nType\n\n- http://bibfra.me/vocab/lite/Work\n- http://bibfra.me/vocab/marc/Books\n- http://bibfra.me/vocab/marc/LanguageMaterial\n\nClassification\n\nCreator\n\n- George, Rose, 1969-\n\nGenre\n\nSubject\n\nContent\n\nAuthor\n\n- George, Rose, 1969-\n\nMapped to\n\nLabel\n\nNine pints, a journey through the money, medicine, and mysteries of blood, Rose George\n\nLanguage eng\n\nBibliography note\n\nIncludes bibliographical references (pages 289-333) and index\n\nIllustrations illustrations\n\nIndex index present\n\nLiterary form non fiction\n\nMain title Nine pints\n\nNature of contents bibliography\n\nResponsibility statement Rose George\n\na journey through the money, medicine, and mysteries of blood"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3205,
+    "completion_tokens": 499,
+    "total_tokens": 3704,
+    "cost": 0.007514899,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005201,
+      "upstream_inference_prompt_cost": 0.0003205,
+      "upstream_inference_completions_cost": 0.0001996
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

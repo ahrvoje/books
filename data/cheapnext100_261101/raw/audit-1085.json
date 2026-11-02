@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793573953-EQ2F48UnY1HmXnq0bDDW",
+  "object": "chat.completion",
+  "created": 1793573953,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g0748:amazon:https://www.amazon.com/Public-Opinion-Walter-Lippmann/dp/1604599545\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 135 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"ne1389782f7:amazon:https://www.amazon.com/Ancient-Engineers-Astonishing-Wonders-Creators/dp/0345482875\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 57 ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"complete-531-95:amazon:https://www.amazon.com/Physics-Star-Trek-Lawrence-Krauss/dp/0060977108\",\n      \"status\": \"reject\",\n      \"reason\": \"The author is listed as Lawrence M. Krauss, but the evidence lists Stephen Hawking as a co-author.\"\n    },\n    {\n      \"key\": \"intake-0223:amazon:https://www.amazon.com/Get-Picture-Mind-Bending-Inspired-Obsessive/dp/0525562206\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 772 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1520:amazon:https://www.amazon.com/How-Emotions-Are-Made-Secret/dp/1509837523\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 4,208 ratings is explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3808,
+    "completion_tokens": 432,
+    "total_tokens": 4240,
+    "cost": 0.0002227104,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00022496,
+      "upstream_inference_prompt_cost": 0.0001904,
+      "upstream_inference_completions_cost": 0.00003456
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:59:19.899Z"
+}

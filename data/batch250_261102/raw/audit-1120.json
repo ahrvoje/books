@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576341-MZ2ApPBfXAoTquRF83c4",
+  "object": "chat.completion",
+  "created": 1793576341,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-4a3b7ccff2c3:amazon:https://www.amazon.com/Saving-Time-Discovering-Beyond-Clock/dp/059324270X\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Rating count and type match evidence.\"\n    },\n    {\n      \"key\": \"shelf-af6eddd621c6:amazon:https://www.amazon.com/Making-English-Working-Class/dp/B0000CLY74\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Rating count and type match evidence.\"\n    },\n    {\n      \"key\": \"rest-49-43:amazon:https://www.amazon.com/Fifth-Sun-New-History-Aztecs/dp/0197577660\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Rating count and type match evidence.\"\n    },\n    {\n      \"key\": \"progress-0429:amazon:https://www.amazon.com/Chinese-Lessons-Classmates-Story-China/dp/0805086641\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Rating count and type match evidence.\"\n    },\n    {\n      \"key\": \"intake-0354:amazon:https://www.amazon.com/Republic-Lost-Money-Corrupts-Congress/dp/0446576441\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Rating count and type match evidence.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3580,
+    "completion_tokens": 402,
+    "total_tokens": 3982,
+    "cost": 0.0002090484,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021116,
+      "upstream_inference_prompt_cost": 0.000179,
+      "upstream_inference_completions_cost": 0.00003216
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:39:08.182Z"
+}

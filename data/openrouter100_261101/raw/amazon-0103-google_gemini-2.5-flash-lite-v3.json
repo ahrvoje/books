@@ -1,0 +1,70 @@
+{
+  "retrieved": "2026-11-01T22:14:02.317Z",
+  "bookId": "progress-0650",
+  "id": "gen-1793571242-ylSjvQIyG7h8YYhEKrNf",
+  "object": "chat.completion",
+  "created": 1793571242,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"progress-0650\",\n  \"title\": \"War of Invention\",\n  \"author\": \"Guy Hartcup\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 226,\n    \"editionId\": \"/books/OL20970601M\",\n    \"editionYear\": null,\n    \"format\": \"Hardcover\",\n    \"language\": null,\n    \"url\": \"https://openlibrary.org/books/OL20970601M\",\n    \"evidence\": \"226 pages\",\n    \"sourceTitle\": \"Open Library\",\n    \"sourceAuthor\": null\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Effect-Science-Second-World-War/dp/1349398764\",\n    \"https://www.amazon.com/Balance-Alternate-History-Second-Worldwar/dp/0345388526\"\n  ],\n  \"limitations\": \"No Amazon product found with explicit total rating aggregate for the specified book. The provided search results do not contain information about the book \\\"War of Invention\\\" by Guy Hartcup.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Effect-Science-Second-World-War/dp/1349398764",
+              "title": "The Effect of Science on the Second World War ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Explores how Allied and Axis powers exploited scientific advances like radar, sonar, operational research, and the atomic bomb during WWII, The War in"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Balance-Alternate-History-Second-Worldwar/dp/0345388526",
+              "title": "In the Balance (Worldwar, Book One)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nIn the Balance (Worldwar, Book One)\nAn alien invasion force arrives during World War II, uniting humanity against a technologically superior extraterrestrial threat.\n\n## \n\nIn the Balance (Worldwar, Book One): Turtledove, Harry\nAn alien invasion force arrives during World War II, uniting humanity against a technologically superior extraterrestrial threat. ... Harry Turtledove is\n\n## \n\nIn the Balance (Worldwar, Book One): Turtledove, Harry\nAn alien invasion force arrives during World War II, uniting humanity against a technologically superior extraterrestrial threat.\n\n## \n\nIn the Balance (Worldwar, Book One): Turtledove, Harry\nWhat's it about? An alien invasion force arrives during World War II, uniting humanity against a technologically superior extraterrestrial threat. See more.\n\n## \n\nHarry Turtledove - In the Balance (Worldwar, Book One)\nAn alien invasion force arrives during World War II, uniting humanity against a technologically superior extraterrestrial threat."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 872,
+    "completion_tokens": 294,
+    "total_tokens": 1166,
+    "cost": 0.005202752,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002048,
+      "upstream_inference_prompt_cost": 0.0000872,
+      "upstream_inference_completions_cost": 0.0001176
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575660-TzgdbWuiFAUv4CjxkKQd",
+  "object": "chat.completion",
+  "created": 1793575660,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rest-125-105:amazon:https://www.amazon.com/Capital-Ideology-Thomas-Piketty/dp/0674980824\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 955 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"g0953:amazon:https://www.amazon.com/Personal-Knowledge-Towards-Post-Critical-Philosophy/dp/0226672883\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 105 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1243:amazon:https://www.amazon.com/Adam-Smith-Beijing-Lineages-Twenty-First/dp/1844671046\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 31 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"progress-0441:amazon:https://www.amazon.com/Process-Education-Jerome-Bruner/dp/0674710010\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 85 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-6ec727285042:amazon:https://www.amazon.com/Exercised-Science-Physical-Activity-Health/dp/0241309271\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 1,694 global ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3646,
+    "completion_tokens": 414,
+    "total_tokens": 4060,
+    "cost": 0.0002132658,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021542,
+      "upstream_inference_prompt_cost": 0.0001823,
+      "upstream_inference_completions_cost": 0.00003312
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:27:46.908Z"
+}

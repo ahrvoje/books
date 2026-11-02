@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793575547-RlXwLhn2SygZmJOEvRda",
+  "object": "chat.completion",
+  "created": 1793575547,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Programmers-Work-Interviews-programming-visionaries/dp/B0GPDWCMMM",
+              "title": "Programmers at Work: Interviews with 19 programming ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nProgrammers at Work: Interviews with 19 programming ...\nProgrammers at Work: Interviews with 19 programming visionaries who ignited the PC software revolution [Lammers, Susan] on Amazon.com."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Susan-Lammers/e/B0GW337HHG/ref=zg_bsnr_g_3839_d_sccl_7_bl/000-0000000-0000000",
+              "title": "Susan Lammers: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Section:  > \nSusan Lammers: books, biography, latest update\nFollow Susan Lammers and explore their bibliography from Amazon's Susan Lammers Author Page. Susan Lammers: books, biography, latest update\nMost popular Programmers at Work: Interviews with 19 programming visionaries who ignited the PC software revolution. Hardcover, Paperback"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 584,
+    "completion_tokens": 1,
+    "total_tokens": 585,
+    "cost": 0.00101043658,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000010542,
+      "upstream_inference_prompt_cost": 0.000010512,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Programmers at Work\" Susan Lammers \"global ratings\"",
+  "bookId": "intake-0157",
+  "retrieved": "2026-11-01T23:25:48.840Z"
+}

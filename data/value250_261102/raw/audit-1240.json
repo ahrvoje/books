@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575794-oh50Th0Li9uLm7DhAuvA",
+  "object": "chat.completion",
+  "created": 1793575794,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"bg6f8b82a443:amazon:https://www.amazon.com/Ten-Commandments-Business-Failure/dp/1591844134\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 369 ratings.\"\n    },\n    {\n      \"key\": \"shelf-9518ba96f9ad:amazon:https://www.amazon.com/Book-Elon-Guide-Purpose-Success/dp/1544550758\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 401 global ratings.\"\n    },\n    {\n      \"key\": \"shelf-de55affc0c70:amazon:https://www.amazon.com/English-Their-History-Robert-Tombs/dp/1101873361\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 1,566 global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1870:amazon:https://www.amazon.com/Leadership-Six-Studies-World-Strategy/dp/0593489446\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 1,348 global ratings.\"\n    },\n    {\n      \"key\": \"g0772:amazon:https://www.amazon.com/Man-Without-Face-Unlikely-Vladimir/dp/1594488428\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 2,071 ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3689,
+    "completion_tokens": 443,
+    "total_tokens": 4132,
+    "cost": 0.0002176911,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021989,
+      "upstream_inference_prompt_cost": 0.00018445,
+      "upstream_inference_completions_cost": 0.00003544
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:30:00.738Z"
+}

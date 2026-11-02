@@ -1,0 +1,92 @@
+{
+  "id": "gen-1793577004-JNMWkNGZ8sO1kGV83T1G",
+  "object": "chat.completion",
+  "created": 1793577004,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "Here",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/b28521560",
+              "title": "A treatise on salt, showing its hurtful effects on the body ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nA treatise on salt, showing its hurtful effects on the body ...\ntitle and copyright on cover page."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/saltcivilization00adsh",
+              "title": "Salt and civilization : Adshead, Samuel Adrian M. ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nSalt and civilization : Adshead, Samuel Adrian M. ...\nJul 16, 2013 — Includes bibliographical references (p. 382-392) Salt and civilization Bookreader … 391 Previews 11 Favorites DOWNLOAD OPTIONS\n\n## \n\nSalt and civilization : Adshead, Samuel Adrian M. ...\nJul 16, 2013 — Salt and civilization by Adshead, Samuel Adrian M. (Samuel Adrian Miles) Publication date 1992 Topics Salt industry and trade, Salt Publisher"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/NationalGeographicMagazineCollection",
+              "title": "National Geographic Magazine Collection : Free Download, Borrow, and Streaming : Internet Archive",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Keep the news in the Wayback Machine. Sign Fight for the Future's letter .\n\nNational Geographic Magazine Collection\n\nBookreader Item Preview\n\n \nremove-circle\n\n...\n\nEMBED (for Archive.org item Description fields) [archiveorg NationalGeographicMagazineCollection width=560 height=384 frameborder=0 webkitallowfullscreen=true mozallowfullscreen=true]\nWant more?\n\n...\n\n* Marketing/Phishing/Advertising\n* Misleading/Inaccurate/Missing Metadata\ntexts\n\nNational Geographic Magazine Collection\n\nTopics National Geographic , Magazine , Mags Collection nationalgeographicmag ; travelmagazines ; magazine_rack Language English Item Size 39.5G\nNational Geographic Magazine Collection\nAddeddate 2017-02-01 22:55:09 Coverleaf 0 Identifier NationalGeographicMagazineCollection Identifier-ark ark:/13960/t9v174z26 Ocr_converted abbyy-to-hocr 1.1.37 Ocr_module_version 0.0.21 Page_number_confidence 29 Page_number_module_version 1.0.5 Pdf_degraded invalid-jp2-headers Pdf_module_version 0.0.25 Ppi 600 Scanner Internet Archive HTML5 Uploader 1.6.3\nShow More\n\ncomment\n\nReviews (1)\n184,784 Views\n186 Favorites\n1 Review\n\nDOWNLOAD OPTIONS\n\ndownload 93 files\nABBYY GZ Uplevel BACK\n3.9M\nNational Geographic 2009 HEINLE Reading Explorer 1_abbyy.gz download\n2.6M\nNational Geographic 2009-01_abbyy.gz download\n2.7M\nNational Geographic 2009-05_abbyy.gz download\n2.3M\nNational Geographic 2009-06_abbyy.gz download\n3.0M\nNational Geographic 2010-01_abbyy.gz download"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/vintage-vhs-national-geographic-really-wild-animals-polar-prowl",
+              "title": "[Vintage VHS] National Geographic Really Wild Animals: Polar ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\n[Vintage VHS] National Geographic Really Wild Animals: Polar ...\nAddeddate 2024-11-12 03:52:53 Aspect_ratio 4:3 Collection_added vhsvault opensource Identifier vintage-vhs-national-geographic-really-wild-animals-polar-prowl Scanner Internet Archive Python library 4.1.0 Sound sound Source VHS tape"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 982,
+    "completion_tokens": 1,
+    "total_tokens": 983,
+    "cost": 0.00101752894,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000017706,
+      "upstream_inference_prompt_cost": 0.000017676,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "q0347",
+  "method": "archive",
+  "query": "site:archive.org/details \"Breath from Salt\" Bijal P. Trivedi \"bibliographical references\"",
+  "retrieved": "2026-11-01T23:50:07.220Z"
+}

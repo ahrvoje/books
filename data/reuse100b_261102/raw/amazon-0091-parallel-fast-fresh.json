@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793575074-DvN76oghrmo9JdNwdK5k",
+  "object": "chat.completion",
+  "created": 1793575074,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Millers-Antiques-Checklist-John-Mighell/dp/1857329457",
+              "title": "Miller's Antiques Checklist: Clocks: Mighell, John",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nMiller's Antiques Checklist: Clocks: Mighell, John\nIn 1979 she co-founded the international bestseller Miller's Antiques Price Guide and has since written more than 100 books, which are held in high regard by"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 484,
+    "completion_tokens": 1,
+    "total_tokens": 485,
+    "cost": 0.00100865458,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000008742,
+      "upstream_inference_prompt_cost": 0.000008712,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Master of Precision\" Ottilie M. Leland and Minnie Dubbs Millbrook \"global ratings\"",
+  "bookId": "shelf-adf4fcb03c68",
+  "retrieved": "2026-11-01T23:17:52.303Z"
+}

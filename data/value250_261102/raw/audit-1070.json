@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575666-YQTURPrdJHvbmjO7lLoF",
+  "object": "chat.completion",
+  "created": 1793575666,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-8e3d2aaa3a73:amazon:https://www.amazon.com/Liberalism-Its-Discontents-Francis-Fukuyama/dp/0374606714\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 871 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"complete-227-191:amazon:https://www.amazon.com/American-Caesar-Douglas-MacArthur-1880/dp/0316024740\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 1,695 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u0215:amazon:https://www.amazon.com/Civilization-Discontents-Standard-Complete-Psychological/dp/0393301583\",\n      \"status\": \"reject\",\n      \"reason\": \"Title mismatch. Source title includes 'The Standard Edition (Complete Psychological Works of Sigmund Freud)'\"\n    },\n    {\n      \"key\": \"nf4a5fd8915:amazon:https://www.amazon.com/Endurance-Year-Space-Lifetime-Discovery/dp/0525432434\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 4,967 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-bc02228347b1:amazon:https://www.amazon.com/James-J-Hill-Northwest-Biographies/dp/0806128607\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 46 global ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3741,
+    "completion_tokens": 440,
+    "total_tokens": 4181,
+    "cost": 0.0002200275,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00022225,
+      "upstream_inference_prompt_cost": 0.00018705,
+      "upstream_inference_completions_cost": 0.0000352
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:27:52.637Z"
+}

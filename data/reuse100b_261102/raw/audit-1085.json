@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575272-hcOgjuCGLyD8BuyXvXUm",
+  "object": "chat.completion",
+  "created": 1793575272,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"bg2f942d83e9:amazon:https://www.amazon.com/Collapse-Societies-Choose-Fail-Succeed/dp/0143036556\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 3,628 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"n8fdc7ed7fa:amazon:https://www.amazon.com/Elegant-Universe-Superstrings-Dimensions-Ultimate/dp/0393058581\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 4,208 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"intake-0216:amazon:https://www.amazon.com/Secret-Lives-Color-Kassia-Clair/dp/0143131141\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 4,596 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"progress-0734:amazon:https://www.amazon.com/Extra-Life-History-Living-Longer/dp/0525538852\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 332 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1233:amazon:https://www.amazon.com/Breakout-Nations-Pursuit-Economic-Miracles/dp/0393080269\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 435 global ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3535,
+    "completion_tokens": 419,
+    "total_tokens": 3954,
+    "cost": 0.0002081673,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021027,
+      "upstream_inference_prompt_cost": 0.00017675,
+      "upstream_inference_completions_cost": 0.00003352
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:21:19.846Z"
+}

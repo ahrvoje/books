@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:14:13.677Z",
+  "bookId": "rest-170-131",
+  "id": "gen-1793571253-M2ySiQbBaaOLZXw7v5Dh",
+  "object": "chat.completion",
+  "created": 1793571253,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"rest-170-131\",\n  \"title\": \"Mind in Motion\",\n  \"author\": \"Barbara Tversky\",\n  \"amazon\": null,\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Books-Barbara-Tversky/s?rh=n%3A283155%2Cp_27%3ABarbara%2BTversky\",\n    \"https://www.amazon.com/Signal-Symbol-Evolution-Philosophical-Psychology/dp/0262045974\",\n    \"https://us.amazon.com/Popular-Psychology-Creativity-Genius-eBooks-Audio/s?rh=n%3A11160%2Cp_n_feature_nine_browse-bin%3A210961470011\",\n    \"https://www.amazon.com/Architectural-Drafting-Presentation-eBooks-Audio-Architecture/s?rh=n%3A266160%2Cp_n_feature_nine_browse-bin%3A210961470011\",\n    \"https://www.amazon.com/Education-Teaching-Kindle-Books/s?rh=n%3A8975347011%2Cp_n_feature_eighteen_browse-bin%3A8622848011\"\n  ],\n  \"limitations\": \"No Amazon product with an explicit TOTAL rating aggregate was found for the specified book and marketplace. The search results provided links to general book category pages or other books by the author, but not a direct product page for 'Mind in Motion' with the requested rating information.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Barbara-Tversky/s?rh=n%3A283155%2Cp_27%3ABarbara%2BTversky",
+              "title": "Barbara Tversky: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Mind in Motion: How Action Shapes Thought by Barbara Tversky. Memory for Everyday and Emotional Events. Paperback Ages: 1 year and up"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Signal-Symbol-Evolution-Philosophical-Psychology/dp/0262045974",
+              "title": "From Signal to Symbol: The Evolution of Language (Life ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Customers who bought this item also bought. Mind in Motion: How Action Shapes Thought. Barbara Tversky. Hardcover."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://us.amazon.com/Popular-Psychology-Creativity-Genius-eBooks-Audio/s?rh=n%3A11160%2Cp_n_feature_nine_browse-bin%3A210961470011",
+              "title": "EBooks With Audio - Popular Psychology Creativity & ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Best Seller Mind in Motion: How Action Shapes. Thought by Barbara Tversky Kindle Best Price in 30 Days Other formats: Audiobook, Hardcover, Paperback, +1 more"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Architectural-Drafting-Presentation-eBooks-Audio-Architecture/s?rh=n%3A266160%2Cp_n_feature_nine_browse-bin%3A210961470011",
+              "title": "EBooks With Audio - Architectural Drafting & Presentation ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Mind in Motion: How Action Shapes Thought · by Barbara Tversky · Kindle. Best Price in 30 Days. Other formats: Audiobook"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Education-Teaching-Kindle-Books/s?rh=n%3A8975347011%2Cp_n_feature_eighteen_browse-bin%3A8622848011",
+              "title": "Education & Teaching: Books - Kindle",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Mind in Motion: How Action Shapes Thought · by Barbara Tversky · Kindle. Best Price in 30 Days. Other formats: Audiobook"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1070,
+    "completion_tokens": 420,
+    "total_tokens": 1490,
+    "cost": 0.00527225,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000275,
+      "upstream_inference_prompt_cost": 0.000107,
+      "upstream_inference_completions_cost": 0.000168
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

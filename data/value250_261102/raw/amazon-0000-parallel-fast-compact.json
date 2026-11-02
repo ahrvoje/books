@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793575487-oD8BxPTAHmd0hiL6yDML",
+  "object": "chat.completion",
+  "created": 1793575487,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "Here",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Age-Entanglement-Louisa-Gilder-Paperback/dp/B00328RQ7W",
+              "title": "The Age of Entanglement Louisa Gilder Paperback",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Age of Entanglement Louisa Gilder Paperback\nA book about the history of quantum entanglement, a phenomenon that Einstein called \"spooky action at a distance.\" Section:  > \nThe Age of Entanglement Louisa Gilder Paperback\nA book about the history of quantum entanglement, a phenomenon that Einstein called \"spooky action at a distance.\" including visible creases along the spine"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 266,
+    "completion_tokens": 1,
+    "total_tokens": 267,
+    "cost": 0.00100476982,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000004818,
+      "upstream_inference_prompt_cost": 0.000004788,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Age of Entanglement\" Louisa Gilder \"ratings\"",
+  "bookId": "nac3183e643",
+  "retrieved": "2026-11-01T23:24:48.508Z"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575741-VHNFXQwDQGw6TYIqsvpe",
+  "object": "chat.completion",
+  "created": 1793575741,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"intake-0773:amazon:https://www.amazon.com/Six-Thinking-Hats-Bono-Edward/dp/0141033053\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 1,989 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"bgcf1adb2f17:amazon:https://www.amazon.com/Mr-China-Memoir-Tim-Clissold/dp/0060761393\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 421 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"g0671:amazon:https://www.amazon.com/Sixth-Extinction-Unnatural-History/dp/0805092994\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 10,030 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"g0496:amazon:https://www.amazon.com/Clear-Thinking/dp/1529915945\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 3,069 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-400808607782:amazon:https://www.amazon.com/Direct-Dell-Strategies-Revolutionized-Industry/dp/0887309143\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 250 ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3438,
+    "completion_tokens": 409,
+    "total_tokens": 3847,
+    "cost": 0.0002025738,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020462,
+      "upstream_inference_prompt_cost": 0.0001719,
+      "upstream_inference_completions_cost": 0.00003272
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:29:07.276Z"
+}

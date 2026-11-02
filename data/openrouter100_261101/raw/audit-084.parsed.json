@@ -1,0 +1,88 @@
+{
+  "results": [
+    {
+      "key": "reference-0504-google_gemini-2.5-flash-lite-v2:reference",
+      "status": "supported",
+      "reason": "The title, author, and the calculated number of bibliography pages match the information provided in the source text. The page range for the bibliography is also accurately reflected.",
+      "evidence": "Title: 'The ocean of life : the fate of man and the sea' (source) vs 'The Ocean of Life' (candidate). Author: 'Roberts, Callum.' (source) vs 'Callum Roberts' (candidate). Bibliography: 'Includes bibliographical references (p. [361]-391) and index.' (source). Calculation: 391 - 361 + 1 = 31 pages.",
+      "editionCorrection": null
+    },
+    {
+      "key": "reference-0517-google_gemini-2.5-flash-lite-v2:reference",
+      "status": "supported",
+      "reason": "The title, author, and the calculated number of bibliography pages match the information provided in the source text. The page range for the bibliography is also accurately reflected.",
+      "evidence": "Title: 'A history of America in 100 maps' (source) vs 'A History of America in 100 Maps' (candidate). Author: 'Schulten, Susan,' (source) vs 'Susan Schulten' (candidate). Bibliography: 'Includes bibliographical references (pages 260-263) and index.' (source). Calculation: 263 - 260 + 1 = 4 pages.",
+      "editionCorrection": null
+    },
+    {
+      "key": "reference-0529-google_gemini-2.5-flash-lite-v2:reference",
+      "status": "supported",
+      "reason": "The title, author, and the calculated number of bibliography pages match the information provided in the source text. The page range for the bibliography is also accurately reflected.",
+      "evidence": "Title: 'The inheritance of Rome : a history of Europe from 400 to 1000' (source) vs 'The Inheritance of Rome' (candidate). Author: 'Wickham, Chris, 1950-' (source) vs 'Chris Wickham' (candidate). Bibliography: 'Includes bibliographical references (p. 565-622) and index.' (source). Calculation: 622 - 565 + 1 = 58 pages.",
+      "editionCorrection": null
+    },
+    {
+      "key": "reference-0540-google_gemini-2.5-flash-lite-v2:reference",
+      "status": "supported",
+      "reason": "The title, author, and the calculated number of bibliography pages match the information provided in the source text. The page range for the bibliography is also accurately reflected.",
+      "evidence": "Title: 'Self comes to mind : constructing the conscious brain' (source) vs 'Self Comes to Mind' (candidate). Author: 'Damasio, Antonio R.' (source) vs 'Antonio Damasio' (candidate). Bibliography: 'Includes bibliographical references (p. [319]-342) and index.' (source). Calculation: 342 - 319 + 1 = 24 pages.",
+      "editionCorrection": null
+    },
+    {
+      "key": "reference-0541-google_gemini-2.5-flash-lite-v2:reference",
+      "status": "supported",
+      "reason": "The title, author, and the calculated number of bibliography pages match the information provided in the source text. The page range for the bibliography is also accurately reflected.",
+      "evidence": "Title: 'Creation : how science is reinventing life itself' (source) vs 'Creation: How Science is Reinventing Life Itself' (candidate). Author: 'Rutherford, Adam.' (source) vs 'Adam Rutherford' (candidate). Bibliography: 'Includes bibliographical references (pages [255]-268) and index.' (source). Calculation: 268 - 255 + 1 = 14 pages.",
+      "editionCorrection": null
+    },
+    {
+      "key": "reference-0543-google_gemini-2.5-flash-lite-v2:reference",
+      "status": "supported",
+      "reason": "The title, author, and the calculated number of bibliography pages match the information provided in the source text. The page range for the bibliography is also accurately reflected.",
+      "evidence": "Title: '2030: how today's biggest trends will collide and reshape the future of everything' (source) vs '2030' (candidate). Author: 'Guillén, Mauro F.,' (source) vs 'Mauro F. Guillén' (candidate). Bibliography: 'Includes bibliographical references (pages 245-267) and index.' (source). Calculation: 267 - 245 + 1 = 23 pages.",
+      "editionCorrection": null
+    },
+    {
+      "key": "reference-0552-google_gemini-2.5-flash-lite-v2:reference",
+      "status": "supported",
+      "reason": "The author and the calculated number of bibliography pages match the information provided in the source text. The page range for the bibliography is also accurately reflected. The candidate title is a combination of two titles, but the source only provides one, 'Here's looking at Euclid'. However, the primary purpose of this audit is to verify the reference value, which is supported.",
+      "evidence": "Author: 'Bellos, Alex, 1969-' (source) vs 'Alex Bellos' (candidate). Bibliography: 'Includes bibliographical references (p. 293-294) and index.' (source). Calculation: 294 - 293 + 1 = 2 pages. Source title: 'Here's looking at Euclid : a surprising excursion through the astonishing world of math'. Candidate title: 'Alex’s Adventures in Numberland / Here’s Looking at Euclid'.",
+      "editionCorrection": null
+    },
+    {
+      "key": "reference-0563-google_gemini-2.5-flash-lite-v2:reference",
+      "status": "supported",
+      "reason": "The title, author, and the calculated number of bibliography pages match the information provided in the source text. The page range for the bibliography is also accurately reflected. The source explicitly states this is 'the first of two volumes', matching the candidate's scope.",
+      "evidence": "Title: 'The house of Rothschild' (source) vs 'The House of Rothschild, Volume I: Money’s Prophets, 1798–1848' (candidate). Author: 'Ferguson, Niall' (source) vs 'Niall Ferguson' (candidate). Bibliography: 'Includes bibliographical references (p. [599]-626) and index' (source). Calculation: 626 - 599 + 1 = 28 pages. Edition/Scope: 'This is the first of two volumes of The house of Rothschild'--T.p. verso (source).",
+      "editionCorrection": null
+    },
+    {
+      "key": "amazon-0180-google_gemini-2.5-flash-lite-v4:amazon",
+      "status": "supported",
+      "reason": "The title, author, and rating count are directly supported by the source text. The number of written reviews is also consistent with the rating count.",
+      "evidence": "Title: 'Donald Michie: machine intelligence, biology and more: On Machine Intelligence, Biology and More' (source) vs 'Donald Michie' (candidate). Author: 'Donald Michie' (source) vs 'Donald Michie; edited by Ashwin Srinivasan' (candidate). Rating count: '2 ratings' (source) vs '2' (candidate). Written reviews: One explicit review is visible, and the total ratings are 2, which is consistent.",
+      "editionCorrection": null
+    },
+    {
+      "key": "amazon-0199-google_gemini-2.5-flash-lite-v4:amazon",
+      "status": "supported",
+      "reason": "The title, author, and rating count are directly supported by the source text. The number of written reviews is also consistent with the rating count.",
+      "evidence": "Title: 'The Equation That Couldn't Be Solved: How Mathematical Genius Discovered the Language of Symmetry' (source) vs 'The Equation That Couldn't Be Solved' (candidate). Author: 'Livio, Mario' (source) vs 'Mario Livio' (candidate). Rating count: '122 ratings' (source) vs '122' (candidate). Written reviews: Multiple reviews are visible, and the total ratings are 122, which is consistent.",
+      "editionCorrection": null
+    },
+    {
+      "key": "amazon-0209-google_gemini-2.5-flash-lite-v4:amazon",
+      "status": "supported",
+      "reason": "The title, author, and rating count are directly supported by the source text. The number of written reviews is also consistent with the rating count.",
+      "evidence": "Title: 'Happy Accidents: Serendipity in Major Medical Breakthroughs in the Twentieth Century' (source) vs 'Happy Accidents' (candidate). Author: 'Meyers, Morton A.' (source) vs 'Morton A. Meyers' (candidate). Rating count: '175 ratings' (source) vs '175' (candidate). Written reviews: No explicit written reviews are shown, but the total ratings are 175, which is consistent with the absence of a separate review count.",
+      "editionCorrection": null
+    },
+    {
+      "key": "amazon-0212-google_gemini-2.5-flash-lite-v4:amazon",
+      "status": "supported",
+      "reason": "The title, author, and rating count are directly supported by the source text. The number of written reviews is also consistent with the rating count.",
+      "evidence": "Title: 'Jony Ive: The Genius Behind Apple’s Greatest Products' (source) vs 'Jony Ive' (candidate). Author: 'Leander Kahney (Author)' (source) vs 'Leander Kahney' (candidate). Rating count: '1,227' (source) vs '1227' (candidate). Written reviews: Multiple reviews are visible, and the total ratings are 1,227, which is consistent.",
+      "editionCorrection": null
+    }
+  ]
+}

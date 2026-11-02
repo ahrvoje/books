@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+const dir='data/cheapnext100_261102',read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+fs.mkdirSync(dir+'/raw',{recursive:true});
+if(fs.existsSync(dir+'/baseline.json'))throw Error('Baseline exists');
+const base=read('data/catalog.json'),c=read(base.compiled),e=read('site/editions.json'),n=read('site/enrichment.json').books,r=read('site/reference-pages.json');
+const targets=c.currentBooks.filter(b=>b.status==='recommended').sort((a,b)=>b.total-a.total).map((b,i)=>({id:b.id,title:b.title,author:b.author,rank:i+1,amazon:b.amazon?.count??null,edition:n[b.id]?.edition||e[b.id]||null,reference:r[b.id]}));
+fs.writeFileSync(dir+'/baseline.json',JSON.stringify(base,null,2));fs.writeFileSync(dir+'/targets.json',JSON.stringify(targets,null,2));
+fs.writeFileSync(dir+'/input-hashes.json',JSON.stringify(Object.fromEntries(['data/catalog.json','RECOMMENDED_BOOKS.md','VETOED_BOOKS.md','EXCLUDED_BOOKS.md','SOURCES.md','site/editions.json','site/reference-pages.json','site/enrichment.json'].map(p=>[p,crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex')])),null,2));
+console.log({books:targets.length,pages:targets.filter(b=>!b.edition).length,amazon:targets.filter(b=>b.amazon===null).length,reference:targets.filter(b=>b.reference.pages===null).length});

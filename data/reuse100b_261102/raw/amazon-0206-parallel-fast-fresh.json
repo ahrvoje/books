@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793575232-A2uEs9uy0Q42FmzZpD1R",
+  "object": "chat.completion",
+  "created": 1793575232,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Harold-Evans/e/B000APM00S",
+              "title": "Harold Evans: books, biography, latest update - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nHarold Evans: books, biography, latest update - Amazon.com\nFollow Harold Evans and explore their bibliography from Amazon's Harold Evans Author Page.\n\n## \n\nHarold Evans: books, biography, latest update\nAppointed editor of the influential London Sunday Times in 1967 and then of The Times in 1981, Evans was voted by British journalists the greatest all-time\n\n## \n\nHarold Evans: books, biography, latest update\nHarold Evans is the author of two critically acclaimed landmark histories of America: the New York Times bestseller \"The American Century\" and \"They Made"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 527,
+    "completion_tokens": 1,
+    "total_tokens": 528,
+    "cost": 0.00100942084,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000009516,
+      "upstream_inference_prompt_cost": 0.000009486,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"They Made America\" Harold Evans; Gail Buckland; David Lefer \"global ratings\"",
+  "bookId": "intake-0407",
+  "retrieved": "2026-11-01T23:20:30.581Z"
+}

@@ -1,0 +1,80 @@
+{
+  "retrieved": "2026-11-01T21:18:38.678Z",
+  "bookId": "q0065",
+  "id": "gen-1793567917-X9FkmBNlsjKY1VffUGx1",
+  "object": "chat.completion",
+  "created": 1793567917,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"q0065\",\n  \"title\": \"Countdown to Zero Day\",\n  \"author\": \"Kim Zetter\",\n  \"amazon\": {\n    \"count\": null,\n    \"stars\": null,\n    \"asin\": \"0770436196\",\n    \"marketplace\": \"amazon.de\",\n    \"url\": \"https://www.amazon.de/dp/0770436196\",\n    \"evidence\": null,\n    \"sourceTitle\": null,\n    \"sourceAuthor\": null,\n    \"snapshotLimitation\": null\n  },\n  \"pages\": {\n    \"count\": 448,\n    \"editionId\": \"ASIN:0770436196\",\n    \"editionYear\": 2014,\n    \"format\": \"Paperback\",\n    \"language\": \"English\",\n    \"url\": \"https://www.google.com/books/edition/Countdown_to_Zero_Day/pCfZCwAAQBAJ?hl=en&gbpv=1&dq=stuxnet&printsec=frontcover\",\n    \"evidence\": \"Page count: 448\",\n    \"sourceTitle\": \"Google Books\",\n    \"sourceAuthor\": \"Kim Zetter\"\n  },\n  \"reference\": {\n    \"count\": null,\n    \"editionId\": \"ASIN:0770436196\",\n    \"editionYear\": null,\n    \"url\": \"https://broomfieldkids.flatironslibrary.org/Record/.b22103284\",\n    \"evidence\": \"Includes bibliographical references and index.\",\n    \"sourceTitle\": \"broomfieldkids.flatironslibrary.org\",\n    \"sourceAuthor\": \"Kim Zetter\",\n    \"ranges\": [],\n    \"method\": \"The provided search results indicate that the book includes bibliographical references, but do not specify the page range for this section. The table of contents for the book is available, but it does not explicitly list a 'Bibliography' or 'References' section with a page range. The roddie.digital/stuxnet page provides footnotes for specific chapters, but this is not a consolidated bibliography section.\",\n    \"limitation\": \"The exact page range for the bibliographical references could not be determined from the provided search results. While the presence of references is confirmed, their specific location within the book is not detailed.\"\n  },\n  \"searchedUrls\": [\n    \"https://broomfieldkids.flatironslibrary.org/Record/.b22103284\",\n    \"https://www.google.com/books/edition/Countdown_to_Zero_Day/pCfZCwAAQBAJ?hl=en&gbpv=1&dq=stuxnet&printsec=frontcover\",\n    \"https://roddie.digital/stuxnet/\"\n  ],\n  \"limitations\": \"The exact page range for the bibliographical references could not be determined from the provided search results. While the presence of references is confirmed, their specific location within the book is not detailed.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://broomfieldkids.flatironslibrary.org/Record/.b22103284",
+              "title": "Countdown to zero day : : Stuxnet and the launch of the...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Countdown to zero day: Stuxnet and the launch of the world's first digital weapon (Book)\n\n...\n\nAuthor: Zetter, Kim, \n\nPublished: New York : Crown, [2014].\n\nFormat: Book\n\nEdition: First edition.\n\nPhysical Desc: 433 pages ; 25 cm\n\nStatus:\n\nCurrently Unavailable\n\n...\n\n## Table of Contents\n\n1. Prologue : The case of the centrifuges \n2. Early warning \n3. 500 kilobytes of mystery \n4. Natanz \n5. Stuxnet deconstructed \n6. Springtime for Ahmadinejad \n7. Digging for zero days \n8. Zero-day paydays \n9. The payload \n10. Industrial controls out of control \n11. Precision weapon \n12. A digital plot is hatched \n13. A new fighting domain \n14. Digital warheads \n15. Son of Stuxnet \n16. Flame \n17. Olympic Games \n18. The mystery of the centrifuges \n19. Qualified success \n20. Digital Pandora.\n\n...\n\n## More Details\n\nLanguage: English\n\nISBN:\n\n9780770436179 (hardcover), 077043617X (hardcover), 9780770436193 (paperback), 0770436196 (paperback)\n\n#### Notes\n\nBibliography Includes bibliographical references and index.\n\n...\n\n| 245 | 1 | 0 | |a Countdown to zero day : |b Stuxnet and the launch of the world's first digital weapon / |c Kim Zetter. |\n| 250 | | | |a First edition. |\n| 264 | | 1 | |a New York : |b Crown, |c [2014] |\n| 300 | | | |a 433 pages ; |c 25 cm |\n\n...\n\n| 504 | | | |a Includes bibliographical references and index. |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.google.com/books/edition/Countdown_to_Zero_Day/pCfZCwAAQBAJ?hl=en&gbpv=1&dq=stuxnet&printsec=frontcover",
+              "title": "Google Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Countdown to Zero Day\n\nStuxnet and the Launch of the World's First Digital Weapon\n\nBy Kim Zetter· 2014\n\n...\n\nAbout this edition\n\nISBN: 9780770436193, 0770436196\n\nPage count: 448\n\nPublished: 2014\n\nFormat: Paperback\n\nPublisher: Crown\n\nLanguage: English\n\nAuthor: Kim Zetter"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://roddie.digital/stuxnet/",
+              "title": "roddie.digital / Stuxnet",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "This is a collection of the footnotes from Kim Zetter's incredible book Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapon which included references to resources available online. When I was reading the book, I found myself taking notes of all the pages containing links I could go to for further consumption - in case anyone else would have the same experience as me, I wanted to make it easy for someone to access all these linked resources. The edition that I read was the first paperback edition from Broadway Books with the ISBN 978-0-7704-3619-3 so I can't guarantee page numbers are correct for other editions that might be available.\n\nWhere necessary, I've tidied the links due to them changing since publication, containing errors or unnecessary jumplinks etc. If the link is dead I've tried to source an alternative or linked to a snapshot of it on the wonderful Internet Archive. Some of the footnotes contained references without URLs which I knew were probably available online so I've added links to them wherever possible. I'm also in the ongoing process of adding snapshots of all the links.\n\n...\n\n### Table of contents\n\nChapter 1 -- Early Warning Chapter 2 -- 500 Kilobytes of Mystery Chapter 3 -- Natanz Chapter 4 -- Stuxnet Deconstructed Chapter 5 -- Springtime for Ahmadinejad Chapter 6 -- Digging for Zero Days Chapter 7 -- Zero-Day Paydays Chapter 8 -- The Payload Chapter 9 -- Industrial Controls Out of Control Chapter 10 - Precision Weapon Chapter 11 - A Digital Plot Is Hatched Chapter 12 - A New Fighting Domain Chapter 13 - Digital Warheads Chapter 14 - Son of Stuxnet Chapter 15 - Flame Chapter 16 - Olympic Games Chapter 17 - The Mystery of the Centrifuges Chapter 18 - Qualified Success Chapter 19 - Digital Pandora \n\n## Chapter 1 - Early Warning\n\np7 ch1 3 Information about VirusBlokAda's encounter with the malware comes from interviews with Sergey Ulasen and Oleg Kupreev, as well as from an account published by Kaspersky Lab in 2011, after the Russian antivirus firm hired Ulasen away from VirusBlokAda. That interview, \"The Man Who Found Stuxnet - Sergey Ulasen in the Spotlight,\" was published November 2, 2011. [snapshot] [pdf]\n\np13 ch1 13 Jarno Niemela, \"It's Signed, Therefore It's Clean, Right?\" presented at the CARO conference in Helsinki, Finland. [snapshot] [pdf]\n\np14 ch1 16 Ulasen published his note on his company's site and at the Wilders Security forum. [snapshot] [pdf] [snapshot] [pdf]\n\np14 ch1 17 Krebs, a former Washington Post reporter, runs the KrebsonSecurity.com blog, which focuses on computer security and cybercrime. He published his post \"Experts Warn of New Windows Shortcut Flaw\" July 15, 2010. [snapshot] [pdf]\n\np14 ch1 18 Lenny Zeltser, \"Preempting a Major Issue Due to the .LNK Vulnerability - Raising Infocon to Yellow,\" published July 19, 2010. [snapshot] [pdf]\n\np14 ch1 20 \"Vulnerability in Windows Shell Could Allow Remote Code Execution,\" Microsoft advisory, August 2, 2010. [snapshot] [pdf]\n\np16 ch1 25 Pierre-Marc Bureau, \"Win32/Stuxnet Signed Binaries,\" published August 9, 2010. [snapshot] [pdf]\n\np17 ch1 26 Boldewin published his note in the thread \"Rootkit.TmpHider.\" [snapshot] [pdf] [text]\n\n## Chapter 2 - 500 Kilobytes of Mystery\n\np25 ch2 3 Nicolas Falliere, Liam O'Murchu, and Eric Chien, \"W32.Stuxnet Dossier\" (report, February 2011), 13-15. Symantec's extensive dossier describes in detail Stuxnet's technical specs and what each function in the code is designed to do. [snapshot] [pdf]\n\n## Chapter 3 - Natanz\n\np34 ch3 1 Alireza Jafarzadeh's speech is available in C-SPAN's library. A nonofficial transcript of his comments is also available. [snapshot] [pdf]\n\n...\n\n## Chapter 4 - Stuxnet Deconstructed\n\np63 ch4 6 Nate Lawson, \"Stuxnet Is Embarrassing, Not Amazing,\" January 17, 2011. [snapshot] [pdf]\n\n...\n\n[snapshot] [pdf]\n\n...\n\n[snapshot] [pdf]\n\np68 ch4 12 Patrick Fitzgerald and Eric Chien, \"The Hackers Behind Stuxnet,\" Symantec, July 21, 2010. [snapshot] [pdf]\n\n## Chapter 5 - Springtime for Ahmadinejad\n\n...\n\n## Chapter 6 - Digging for Zero Days\n\np94 ch6 7 Carsten Kohler, \"Print Your Shell,\" Hakin9, April 1, 2009. [pdf]\n\np95 ch6 8 The post on the English-language forum where the Siemens password was posted was available but the post has since been deleted. [snapshot]\n\n## Chapter 7 - Zero-Day Paydays\n\np102 ch7 1 Andy Greenberg, \"Shopping for Zero-Days: A Price List for Hackers' Secret Software Exploits,\" Forbes, March 23, 2012. [pdf]\n\np104 ch7 2 Charlie Miller, \"The Legitimate Vulnerability Market: Inside the Secretive World of 0-Day Exploit Sales,\" Independent Security Evaluators, May 6, 2007. [pdf]\n\np105 ch7 5 Greenberg, \"Shopping for Zero-Days: A Price List for Hackers' Secret Software Exploits.\" [pdf]\n\np107 ch7 6 Tonya Layman, \"Rouland's Tech Security Firm Growing Fast,\" Atlanta Business Chronicle, June 11, 2011. [pdf]\n\n...\n\n[pdf]\n\np110 ch7 9 The brochure, \"VUPEN Threat Protection Program,\" is available.\n\n...\n\np113 ch7 11 Ryan Naraine, \"0-Day Exploit Middlemen Are Cowboys, Ticking Bomb,\" ZDNet.com, February 16, 2012.\n\n...\n\n## Chapter 8 - The Payload\n\n...\n\n## Chapter 9 - Industrial Controls Out of Control\n\n...\n\n## Chapter 10 - Precision Weapon\n\np168 ch10 3 Robert McMillan, \"After Worm, Siemens Says Don't Change Passwords,\" PCWorld.com, July 19, 2010.\n\np169 ch10 5 ICS-CERT Advisory ICSA-10-201-01C, \"USB Malware Targeting Siemens Control Software,\" August 2, 2010, with subsequent updates.\n\n...\n\np183 ch10 17 David E.\n\n...\n\np187 ch10 21 ICS-CERT Advisory ICSA-10-201-01C, \"USB Malware Targeting Siemens Control Software\" and ICS-CERT Advisory ICSA-10-238-01B, \"Stuxnet Malware Mitigation.\"\n\n## Chapter 11 - A Digital Plot Is Hatched\n\np191 ch11 1 Spiegel staff, \"Cables Show Arab Leaders Fear a Nuclear Iran,\" Der Spiegel, December 1, 2010.\n\np191 ch11 2 US State Department cable, from CDA Michael Gfoeller, April 20, 2008.\n\np191 ch11 3 \"Cables Show Arab Leaders Fear a Nuclear Iran,\" Der Spiegel.\n\np191 ch11 4 Jeffrey Goldberg, \"The Point of No Returns,\" The Atlantic Monthly, September 2010.\n\np192 ch11 7 Erich Follath and Holger Stark, \"The Story of 'Operation Orchard': How Israel Destroyed Syria's Al Kibar Nuclear Reactor,\" Der Spiegel, November 2, 2009.\n\n...\n\n## Chapter 12 - A New Fighting Domain\n\n...\n\n## Chapter 13 - Digital Warheads\n\np237 ch13 6 Eric Chien, \"Stuxnet: A Breakthrough,\" Symantec blog, November 12, 2010.\n\np239 ch13 7 \"Iranian Nuclear Scientist Killed in Motorbike Attack,\" BBC, November 29, 2010.\n\np240 ch13 8 William Yong and Robert F. Worth, \"Bombings Hit Atomic Experts in Iran Streets,\" New York Times, November\n\n...\n\n## Chapter 14 - Son of Stuxnet\n\np259 ch14 8 Dugald McConnel, \"Iranian Official: New Computer Worm Discovered,\" CNN, April 27, 2011.\n\np261 ch14 11 Symantec's Duqu report, \"W32.Duqu: The Precursor to the Next Stuxnet\", November 23, 2011.\n\np267 ch14 20 Kelly Jackson Higgins, \"Same Toolkit Spawned Stuxnet, Duqu, and Other Campaigns,\" Dark Reading, January 3, 2012.\n\n...\n\n## Chapter 15 - Flame\n\np284 ch15 9 Kim Zetter, \"Meet Flame, the Massive Spy Malware Infiltrating Iranian Computers,\" Wired.com, May 28, 2012.\n\n...\n\n## Chapter 16 - Olympic Games\n\n...\n\n## Chapter 17 - The Mystery of the Centrifuges\n\np338 ch17 3 David Albright and Jacqueline Shire, \"IAEA Report on Iran: Centrifuge and LEU Increases; Access to Arak Reactor Denied; No Progress on Outstanding Issues,\" June 5, 2009.\n\np338 ch17 4 Albright and Shire, IAEA Report, June 5, 2009.\n\n...\n\np356 ch17 37 David Albright, Paul Brannan, and Andrea Stricker, \"What Is Iran’s Competence in Operating Centrifuges?\"\n\n...\n\np357 ch17 40 IAEA Board of Governors, \"Implementation of the NPT Safeguards Agreement and the Relevant Provisions of Security Council Resolutions in the Islamic Republic of Iran\" (report, November 23, 2010).\n\n## Chapter 18 - Qualified Success\n\np359 ch18 1 David Albright, Paul Brannan, and Christina Walrond, \"Did Stuxnet Take Out 1,000 Centrifuges at the Natanz Enrichment Plant? Preliminary Assessment,\" Institute for Science and International Security, December 22, 2010.\n\np360 ch18 2 William J. Broad, John Markoff, and David E. Sanger, \"Israeli Test on Worm Called Crucial in Iran Nuclear Delay,\" New York Times, January 15, 2011.\n\np360 ch18 3 Yossi Melman, \"Outgoing Mossad Chief: Iran Won't Have Nuclear Capability Before 2015,\" Ha'aretz, January 7, 2011.\n\np361 ch18 4 Mark Landler, \"U.S.\n\n...\n\n## Chapter 19 - Digital Pandora"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3857,
+    "completion_tokens": 705,
+    "total_tokens": 4562,
+    "cost": 0.007661023,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006677,
+      "upstream_inference_prompt_cost": 0.0003857,
+      "upstream_inference_completions_cost": 0.000282
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

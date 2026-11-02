@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793572717-0Y5iE7bFAUs7zihSY2Fl",
+  "object": "chat.completion",
+  "created": 1793572717,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g0555:amazon:https://www.amazon.com/Evolution-Everything-How-Ideas-Emerge/dp/0062296000\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 825 global ratings is explicitly labelled.\"\n    },\n    {\n      \"key\": \"progress-0076:amazon:https://www.amazon.com/American-Colossus-Triumph-Capitalism-1865-1900/dp/0385523335\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 483 global ratings is explicitly labelled.\"\n    },\n    {\n      \"key\": \"shelf-d92cdd2e5c4b:pages:https://www.abebooks.co.uk/9789197547079/Developing-World-Explosion-Creativity-Changing-9197547077/plp\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 188 pages is explicitly labelled.\"\n    },\n    {\n      \"key\": \"g1084:amazon:https://www.amazon.com/End-History-Last-Man/dp/0029109752\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 913 global ratings is explicitly labelled.\"\n    },\n    {\n      \"key\": \"rem-u1018:reference:https://openlibrary.org/books/OL1955393M/The_sleepwalkers\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of bibliographical references (p. [555]-557) is explicitly labelled.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3175,
+    "completion_tokens": 451,
+    "total_tokens": 3626,
+    "cost": 0.0001928817,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019483,
+      "upstream_inference_prompt_cost": 0.00015875,
+      "upstream_inference_completions_cost": 0.00003608
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:38:44.074Z"
+}

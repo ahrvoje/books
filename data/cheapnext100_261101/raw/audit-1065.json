@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793573727-EN110vBmPURCuo0AjSTY",
+  "object": "chat.completion",
+  "created": 1793573727,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-c9a892e5e832:amazon:https://www.amazon.com/Lies-that-Bind-Rethinking-Identity/dp/1631495976\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly stated as '407 global ratings'.\"\n    },\n    {\n      \"key\": \"intake-0539:amazon:https://www.amazon.com/Max-Perkins-Editor-Scott-Berg/dp/042522337X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly stated as '440 ratings'.\"\n    },\n    {\n      \"key\": \"complete-370-290:amazon:https://www.amazon.com/Most-Good-You-Can-Effective/dp/0300180276\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly stated as '635 ratings'.\"\n    },\n    {\n      \"key\": \"rem-u1370:amazon:https://www.amazon.com/Library-Book-Susan-Orlean/dp/1476740194\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly stated as '10,808 global ratings'.\"\n    },\n    {\n      \"key\": \"complete-491-334:amazon:https://www.amazon.com/Heat-Will-Kill-You-First/dp/0316497576\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly stated as '1,895 global ratings'.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3450,
+    "completion_tokens": 462,
+    "total_tokens": 3912,
+    "cost": 0.0002073654,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020946,
+      "upstream_inference_prompt_cost": 0.0001725,
+      "upstream_inference_completions_cost": 0.00003696
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:55:30.752Z"
+}

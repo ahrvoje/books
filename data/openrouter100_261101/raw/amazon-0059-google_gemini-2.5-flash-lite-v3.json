@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:11.532Z",
+  "bookId": "shelf-aa6e416d9337",
+  "id": "gen-1793571191-7hUsQmNQ4m4xjsX1VnMD",
+  "object": "chat.completion",
+  "created": 1793571191,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-aa6e416d9337\",\n  \"title\": \"The Path to the Double Helix\",\n  \"author\": \"Robert C. Olby\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 510,\n    \"editionId\": \"ISBN:0333140176\",\n    \"editionYear\": null,\n    \"format\": \"Hardcover\",\n    \"language\": null,\n    \"url\": \"https://wellcomecollection.org/works/bmuvu3wg\",\n    \"evidence\": \"510 pages\",\n    \"sourceTitle\": \"The Path to the Double Helix: The Discovery of DNA\",\n    \"sourceAuthor\": \"Robert C. Olby\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Books-Robert-Olby/s?rh=n%3A283155%2Cp_27%3ARobert%2BOlby\"\n  ],\n  \"limitations\": \"No Amazon product found with explicit total rating aggregate for the specified book. The provided Amazon search results do not contain rating information for 'The Path to the Double Helix' by Robert C. Olby.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Robert-Olby/s?rh=n%3A283155%2Cp_27%3ARobert%2BOlby",
+              "title": "Robert Olby: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Path to the Double Helix: The Discovery of DNA (Dover Books on Biology) · by Robert Olby · Paperback. Add to cart. Other formats: Kindle, Hardcover."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Annotated-Illustrated-Double-Helix/dp/1476715491",
+              "title": "The Annotated and Illustrated Double Helix",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Annotated and Illustrated Double Helix\na freshly annotated and illustrated edition of The Double Helix provides new insights into a scientific revolution.\n\n## \n\nThe Annotated and Illustrated Double Helix\na freshly annotated and illustrated edition of The Double Helix provides new insights into a scientific revolution. adding over 250 annotations\n\n## \n\nThe Annotated and Illustrated Double Helix\nOn the fiftieth anniversary of Watson and Crick receiving the Nobel Prize, a freshly annotated and illustrated edition of The Double Helix provides new insights"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Double-Helix-James-D-Watson/dp/B001SQ5BHW",
+              "title": "The Double Helix: Watson, James D.",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Double Helix: Watson, James D.\nLanguage. English ; Publisher. Readers Union ; Publication date. January 1, 1969 ; Edition, RU Edition.\n\n## \n\nThe Double Helix: Watson, James D.\nJames Watson's Nobel Prize-winning account of discovering DNA's structure reveals the messy reality of scientific work, including rivalries and conflicts among"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Double-Helix-James-Watson/dp/075382843X",
+              "title": "Double Helix: James D. Watson: 9780753828434",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nDouble Helix: James D. Watson: 9780753828434\nThe Double Helix is a startling window into the scientific method, full of insight and wit, and packed with the kind of science anecdotes that are told and\n\n## \n\nDouble Helix: James D. Watson: 9780753828434\nJames Watson's Nobel Prize-winning account of discovering DNA's structure reveals the messy reality of scientific work, including rivalries and conflicts among"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Double-Helix-Chinese-Yang-Wanqing/dp/7229158109",
+              "title": "The Double Helix (Chinese Edition) - Yang Wanqing",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Double Helix (Chinese Edition) - Yang Wanqing\nBook details ; Print length. 348 pages ; Language. Chinese ; Publisher. Chongqing Press ; Publication date. May 1, 2021 ; ISBN-10. 7229158109.\n\n## \n\nThe Double Helix (Chinese Edition) - Yang Wanqing\nPublisher, Chongqing Press. Publication date, May 1, 2021. Edition, First Edition. Language, ‎Chinese. Print length, 348 pages. ISBN-10, 7229158109.\n\n## \n\nThe Double Helix (Chinese Edition) - Yang Wanqing\nBook details · Print length 348 pages · Language Chinese · Publisher Chongqing Press · Publication date. May 1, 2021 · ISBN-13 978-7229158101. See more. Loading"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1340,
+    "completion_tokens": 300,
+    "total_tokens": 1640,
+    "cost": 0.00525146,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000254,
+      "upstream_inference_prompt_cost": 0.000134,
+      "upstream_inference_completions_cost": 0.00012
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

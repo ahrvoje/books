@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:14:18.790Z",
+  "bookId": "rest-4-3",
+  "id": "gen-1793571257-5RDwW98SluPTg4BMqLGw",
+  "object": "chat.completion",
+  "created": 1793571257,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"rest-4-3\",\n  \"title\": \"Alien Oceans\",\n  \"author\": \"Kevin Hand\",\n  \"amazon\": {\n    \"count\": 116,\n    \"stars\": 4.6,\n    \"asin\": \"0691179514\",\n    \"marketplace\": \"amazon.com\",\n    \"url\": \"https://www.amazon.com/Alien-Oceans-Search-Depths-Space/dp/0691179514\",\n    \"evidence\": \"116 global ratings\",\n    \"sourceTitle\": \"Alien Oceans: The Search for Life in the Depths of Space\",\n    \"sourceAuthor\": \"Kevin Hand\",\n    \"snapshotLimitation\": \"The provided snapshot does not contain the specific text 'global ratings' but does contain the number of ratings.\"\n  },\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Alien-Oceans-Search-Depths-Space/dp/0691179514\"\n  ],\n  \"limitations\": \"The search for the book's page count, reference section, and specific edition details was unsuccessful. The Amazon snapshot did not explicitly contain the phrase 'global ratings' but did provide the total number of ratings.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Alien-Oceans-Search-Depths-Space/dp/0691179514",
+              "title": "Alien Oceans: The Search for Life in the Depths of Space",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Alien Oceans: The Search for Life in the Depths of Space\nKevin Peter Hand takes readers from the depths of Earth's oceans to those of the outer solar system, describing encounters with magical, alien-like creatures"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/alien-books-non-fiction/s?k=alien+books+non+fiction",
+              "title": "Alien Books Non Fiction",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Alien Oceans: The Search for Life in the Depths of Space by Kevin Hand. Audiobook, Hardcover, Paperback. A high quality digital reading experience."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://music.amazon.com/es-us/podcasts/ae33a979-d3c8-4b4f-9e83-e8bfa69bac9b/episodes/1545d9a3-d54e-4e42-b03b-98cbfce94567/planetary-radio-space-exploration-astronomy-and-science-book-club-edition-alien-oceans-by-kevin-hand",
+              "title": "Book Club Edition: Alien Oceans by Kevin Hand",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Book Club Edition: Alien Oceans by Kevin Hand\nSpace Exploration, Astronomy and Science. Planetary scientist and author Kevin Hand looks to warm, salty ocean depths beneath protective layers of ice on Section:  > \nBook Club Edition: Alien Oceans by Kevin Hand\nWhere are we most likely to find evidence of life, past or living, in the Solar System? Planetary scientist and author Kevin Hand looks to warm, salty ocean"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://us.amazon.com/Geochemistry-Hardcover-Earth-Sciences/s?rh=n%3A226694%2Cp_n_feature_browse-bin%3A2656020011",
+              "title": "Geochemistry / Earth Sciences: Books - Hardcover",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Alien Oceans: The Search for Life in the Depths of Space by Kevin Hand Hardcover. Emerging Contaminants in River Ecosystems: Effects Under Multiple Stress"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Uranus-University-Arizona-Space-Science-ebook/dp/B09C1T96KK",
+              "title": "Uranus",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Alien Oceans: The Search for Life in the Depths of Space. Kevin Hand. Kindle Edition. Explore more"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1092,
+    "completion_tokens": 311,
+    "total_tokens": 1403,
+    "cost": 0.005231264,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002336,
+      "upstream_inference_prompt_cost": 0.0001092,
+      "upstream_inference_completions_cost": 0.0001244
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

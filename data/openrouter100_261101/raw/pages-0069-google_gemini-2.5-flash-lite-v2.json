@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:30.959Z",
+  "bookId": "shelf-2c49b8112d78",
+  "id": "gen-1793571209-10Iv1W3BBQntY7hvVxDa",
+  "object": "chat.completion",
+  "created": 1793571209,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-2c49b8112d78\",\n  \"title\": \"Estée Lauder: A Success Story\",\n  \"author\": \"Estée Lauder\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 222,\n    \"editionId\": null,\n    \"editionYear\": 1985,\n    \"format\": \"Hardcover\",\n    \"language\": \"English\",\n    \"url\": \"https://www.goodreads.com/book/show/1748531.Est_e\",\n    \"evidence\": \"222 pages, Hardcover\",\n    \"sourceTitle\": \"Estée: A Success Story\",\n    \"sourceAuthor\": \"Estée Lauder\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://archive.org/details/estesuccesssto00laud\",\n    \"https://www.goodreads.com/book/show/1748531.Est_e\",\n    \"https://readfounders.com/books/estee-lauder-lauder/\",\n    \"https://share.snipd.com/book/32aeb78b-04dc-418e-9ec1-35c11736df39\",\n    \"https://www.founderspodcast.com/episodes/217-est-e-lauder\"\n  ],\n  \"limitations\": \"No specific information found for paperback format, ISBN, or publisher for the requested edition. The page count and format (Hardcover) are available for the first published edition.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/estesuccesssto00laud",
+              "title": "Estée : a success story : Lauder, Estée : Free Download ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Estée : a success story : Lauder, Estée : Free Download, Borrow, and Streaming : Internet Archive\n\nby\n: Lauder, Estée\n\nPublication date\n: 1985 \nTopics\n: Lauder, Estée, Estée Lauder, Inc, Perfumes industry, Cosmetics industry, Businesswomen\nPublisher\n: New York : Random House\nCollection\n: internetarchivebooks; americana; printdisabled; inlibrary\nContributor\n: Internet Archive\nLanguage\n: English\nItem Size\n: 502.3M \n\nPersonal reminiscence, business triumphs, and high society are the ingredients of the autobiography of the doyenne of the cosmetics industry, who talks about the beginnings of her business, success, and the tension between a career and family \n\nNo suitable files to display here."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.goodreads.com/book/show/1748531.Est_e",
+              "title": "Estée: A Success Story by Estée Lauder | Goodreads",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Estée: A Success Story by Estée Lauder | Goodreads\n\n# Estée: A Success Story\n\nEstée Lauder\n\n208 ratings 25 reviews\n\nPersonal reminiscence, business triumphs, and high society are the ingredients of the autobiography of the doyenne of the cosmetics industry, who talks about the beginnings of her business, success, and the tension between a career and family\n\n- Genres Biography Business Autobiography Nonfiction Memoir\n\n222 pages, Hardcover\n\nFirst published October 12, 1985"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://readfounders.com/books/estee-lauder-lauder/",
+              "title": "Estée Lauder by Estée Lauder · Read Founders",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Lauder by Estée Lauder · Read Founders\n\nEstée Lauder\n\nEstée Lauder\n\n# Estée Lauder\n\nA Success Story\n\nby Estée Lauder\n\nThe main book of Episode #217 (2021), on Estée Lauder. It comes up again in 8 other episodes.\n\n- 9 episodes\n- #26 of 386 books\n- 2021"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://share.snipd.com/book/32aeb78b-04dc-418e-9ec1-35c11736df39",
+              "title": "Estée: A Success Story - Book mentions",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Estée: A Success Story\n\nBook • 1985\n\nAuthor Estée Lauder\n\nThis book is an autobiography by Estée Lauder, the founder of the Estée Lauder Companies. It recounts her ... , her encounter with her uncle who taught her how to make skin products, and her"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.founderspodcast.com/episodes/217-est-e-lauder",
+              "title": "www.founderspodcast.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# 217 Estée Lauder\n\nEpisode 217 · November 18, 2021 · 1h 22m\n\nListen: Audio\n\n## Notes\n\nWhat I learned from rereading Estée Lauder: A Success Story by Estée Lauder. \n\nWatch Runnin' Down a Dream ... to Succeed and Thrive in a Career You Love by Bill Gurley."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1229,
+    "completion_tokens": 385,
+    "total_tokens": 1614,
+    "cost": 0.007274131,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002769,
+      "upstream_inference_prompt_cost": 0.0001229,
+      "upstream_inference_completions_cost": 0.000154
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793573703-yInss4Pf9p4qzrFsy4ek",
+  "object": "chat.completion",
+  "created": 1793573703,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-8449d355c7f0\",\n  \"title\": \"The Operations Evaluation Group\",\n  \"author\": \"Keith R. Tidman\",\n  \"pages\": null,\n  \"amazon\": {\n    \"count\": 1,\n    \"url\": \"https://www.amazon.com/Operations-Evaluation-Group-Keith-Tidman/dp/0470023542\",\n    \"asin\": \"0470023542\",\n    \"evidence\": \"site:amazon.com \\\"The Operations Evaluation Group\\\" Keith R. Tidman \\\"global ratings\\\"\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Global-Networks-Engineering-Operations-Design/dp/111994340X",
+              "title": "Global Networks: Engineering, Operations and Design ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nGlobal Networks: Engineering, Operations and Design ...\nGlobal Networks is a complete and thorough assessment of the communications industry today, written by an author of international renown. Key features:."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 441,
+    "completion_tokens": 157,
+    "total_tokens": 598,
+    "cost": 0.00101252152,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000012648,
+      "upstream_inference_prompt_cost": 0.000007938,
+      "upstream_inference_completions_cost": 0.00000471
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Operations Evaluation Group\" Keith R. Tidman \"global ratings\"",
+  "bookId": "shelf-8449d355c7f0",
+  "retrieved": "2026-11-01T22:55:13.075Z"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575232-BOu3G7eheLII7DT59hGK",
+  "object": "chat.completion",
+  "created": 1793575232,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"ne439a68a5d:amazon:https://www.amazon.com/What-Real-Unfinished-Meaning-Quantum/dp/0465096050\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 1,219.\"\n    },\n    {\n      \"key\": \"shelf-ce81d507ad50:amazon:https://www.amazon.com/Dawn-Eurasia-Trail-World-Order/dp/0300235933\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a rating count of 44.\"\n    },\n    {\n      \"key\": \"g1004:amazon:https://www.amazon.com/Red-Queen-Evolution-Human-Nature/dp/0060556579\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 1,102.\"\n    },\n    {\n      \"key\": \"nf4e0a8e1ff:amazon:https://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/0670022950\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 3,817.\"\n    },\n    {\n      \"key\": \"shelf-199bf8849f16:amazon:https://www.amazon.com/Bloomberg-Michael-R/dp/0471155454\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a rating count of 160.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3127,
+    "completion_tokens": 438,
+    "total_tokens": 3565,
+    "cost": 0.0001894761,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019139,
+      "upstream_inference_prompt_cost": 0.00015635,
+      "upstream_inference_completions_cost": 0.00003504
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:20:40.229Z"
+}

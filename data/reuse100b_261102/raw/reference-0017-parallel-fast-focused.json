@@ -1,0 +1,157 @@
+{
+  "id": "gen-1793575137-Zd0gIua2MrzKyEb06ymt",
+  "object": "chat.completion",
+  "created": 1793575137,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "Based on the provided web search results, here's the reference metadata for \"Faster, Better, Cheaper\" by Christoph Roser in JSON format:\n\n```json\n{\n  \"id\": \"shelf-30c7a895dd66\",\n  \"title\": \"Faster, Better, Cheaper\",\n  \"author\": \"Christoph Roser\",\n  \"pages\": null,\n  \"amazon\": {\n    \"count\": 1,\n    \"url\": \"https://www.amazon.com/Faster-Better-Cheaper-Manufacturing-Manufacturing/dp/1498756301\",\n    \"asin\": \"1498756301\",\n    \"evidence\": \"Product title and author match\"\n  },\n  \"reference\": {\n    \"count\": 1,\n    \"url\": \"https://api.pageplace.de/preview/DT0400.9781498756310_A28397600/preview-9781498756310_A28397600.pdf\",\n    \"evidence\": \"Title match and author match\",\n    \"ranges\": [\n      {\n        \"start\": 4,\n        \"end\": 6,\n        \"label\": \"Chapter 1: Introduction\"\n      }\n    ]\n  }\n}\n```\n\nExplanation:\n- The Amazon URL matches the product title and author, providing evidence for the book's existence and format (paperback).\n- The PDF preview URL from PagePlace matches the title and author, providing evidence for the book's content and a specific range (Chapter 1: Introduction) where the title is mentioned.",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://ntrs.nasa.gov/citations/19990100660",
+              "title": "The Faster, Better, Cheaper Approach to Space Missions: An Engineering Management Assessment - NASA Technical Reports Server (NTRS)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Faster, Better, Cheaper Approach to Space Missions: An Engineering Management Assessment NASA was chartered as an independent civilian space agency in 1958 following the Soviet Union's dramatic launch of the Sputnik 1 (1957). In his state of the union address in May of 1961, President Kennedy issued to the fledging organization his famous challenge for a manned lunar mission by the end of\n\n...\n\nas put under severe annual budget constraints in the 1970's. NASAs response was to hold to the high quality standards, low risk and annual cost and let schedule suffer.\n\n...\n\nDan Goldin's mantra was \"faster, better, cheaper\" and his enthusiasm and determination to change the NASA culture was not to be ignored. This research paper documents the various implementations of \"faster, better, cheaper\" that have been attempted, analyzes their impact and compares the cost performance of these new projects to previous NASA benchmarks. Fundamentally, many elements of \"faster, better, cheaper\" are found to be working well, especially on smaller projects. Some of the initiatives are found to apply only to smaller or experimental projects however, so that extrapolation to \"flagship\" projects may be problematic. Document ID\n19990100660\nAcquisition Source\nMarshall Space Flight Center\nDocument Type\nConference Paper\nAuthors\nHamaker, Joseph W. (NASA Marshall Space Flight Center Huntsville, AL United States)\nDate Acquired\nSeptember 6, 2013\nPublication Date\nJanuary 1, 1999\nSubject Category"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.press.jhu.edu/books/title/1568/faster-better-cheaper",
+              "title": "Faster, Better, Cheaper | Hopkins Press",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Cover image of Faster, Better, Cheaper\nCover image of Faster, Better, Cheaper Share this Title:\n\nFaster, Better, Cheaper\n\nLow-Cost Innovation in the U.S. Space Program\nHoward E. McCurdy\nPublication Date\nOctober 29, 2003\nBinding Type\nPaperback\n$35.95\nE-book\n$33.00\nQuantity\nIn Faster, Better, Cheaper: Low-Cost Innovation in the U.S. Space Program , Howard E. McCurdy examines NASA's recent efforts to save money while improving mission frequency and performance.\n\n...\n\nellites, two rendezvous with comets and asteroids, and a test of an ion propulsion engine—which cost less than the sum traditionally spent on a single, conventionally planned planetary mission. He shows how these missions employed smaller spacecraft and...\nRead more\nIn Faster, Better, Cheaper: Low-Cost Innovation in the U.S. Space Program , Howard E.\n\n...\n\nHe shows how these missions employed smaller spacecraft and cheaper technology to undertake less complex and more specific tasks in outer space. While the technological innovation and space exploration approach that McCurdy describes is still controversial, the historical perspective on its disappointments and triumphs points to ways of developing \"faster, better, and cheaper\" as a\n\n...\n\nFeatured Contributor\n\nHoward E. McCurdy\n\nHoward E. McCurdy is a professor in the School of Public Affairs at American University and the author of Faster, Better, Cheaper: Low-Cost Innovation in the\n\n...\n\npublished by Johns Hopkins.\nR"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://apps.dtic.mil/sti/citations/AD1016355",
+              "title": "Faster, Better, Cheaper Revisited: Program Management Lessons from NASA",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Faster, Better, Cheaper Revisited: Program Management Lessons from NASA\n\nreport Miscellaneous Citation | Accession Number: AD1016355 | report Open PDF\n\nAbstract:\n\nIn 1992, NASA administrator Daniel Goldin began the agencys Faster, Better, Cheaper initiative. Over the next eight years, 16 missions were launched under the FBC banner, including the remarkable Mars Pathfinder mission. Today, however, many people look back at FBC with disparaging chuckles and wry remarks, as if it were an embarrassing failed experiment. Casual observers and serious students alike have apparently concluded that its impossible for a high-tech project to be simultaneously faster, better, and cheaper and that its foolish to even try.\n\n...\n\naperpick two. It turns out popular consensus is wrong. A closer examination of NASAs FBC missions reveals an admirablerecord of success, along with helpful and illuminating lessons for anyone involved in developing and fielding high-tech systems. Far from an embarrassing failure or proof that program managers must pick two, the FBC initiative actually improved cost, schedule, and performance all at once. NASAs experience provides an insightful organizational roadmap for sustaining mission success while respecting constraints of time and funding.\nRead Less Read More\nAuthor(s):\n\n...\n\ncecraft, artificial satellites, missions, cost analysis, management planning and control, LESSONS LEARNED\nReport Date:\n2010 Apr 01\nDefense Technical Information Center"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.nist.gov/publications/faster-better-cheaper-new-automated-vacuum-calibration-service-nist",
+              "title": "Faster, Better, Cheaper: New Automated Vacuum Calibration Service at NIST | NIST",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Faster, Better, Cheaper: New Automated Vacuum Calibration Service at NIST\n\nPublished\nOctober 1, 2012\n\nAuthor(s)\n\nJacob E. Ricker , Jay H. Hendricks , Douglas A. Olson , Gregory F. Strouse\n\nAbstract\n\nIn todays fast-paced world and ever expanding quality assurance requirements, the National Institute of Standards and Technology (NIST) has developed a system to fill the need for faster, better, and cheaper low pressure calibrations (0.65 Pa to 130 kPa). This has been achieved by using the advantages of an automated calibration system. This new system has resulted in reduced turnaround time (faster), lower costs for customers and NIST (cheaper), and provides broader access to direct traceability from NIST standards (better). The enabling technology is a combination of commercially available computer controlled systems (flow meters, throttling gate valves, etc.), a NIST developed high-accuracy transfer standard, and intelligent software allowing all the parts to work together as an automated calibration system. While this article is specific to vacuum calibrations, the concept of automating calibration service delivery is a general concept that can be used by other metrology labs to enable delivery of faster, better and cheaper calibration services.\nCitation\nCal Lab: Ther International Journal of Metrology\nPub Type\nOthers\n\nKeywords\n\nvacuum, automated vacuum calibration, low pressure\nMetrology\n\nCitation\n\nRicker, J. , Hendricks, J. , Olson, D. and Strouse, G."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S009457650600405X",
+              "title": "“Faster, better, and cheaper” at NASA: Lessons learned in managing and accepting risk - ScienceDirect",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "“Faster, better, and cheaper” at NASA: Lessons learned in managing and accepting risk\n\nAuthor links open overlay panel Larry J. Paxton\nShow more\nAdd to Mendeley\nShare\nCite\nhttps://doi.org/10.1016/j.actaastro.2006.10.014 Get rights and content\n\nAbstract\n\nCan Earth observing missions be done “better, faster and cheaper”? In this paper I explore the management and technical issues that arose from the attempt to do things “faster, better and cheaper” at NASA.\n\n...\n\nIn this paper, I look at what can be accomplished when an organization's leader embraces change: in this case, the “faster, better, cheaper” program espoused by NASA Administrator Dan Goldin in the\n\n...\n\ntransform the mission timescale from decades to years. He called his approach “faster, better, cheaper”.\n\n...\n\nTo be able to missions within this cost range means that the mission approach must be faster, better and cheaper t\n\n...\n\nFaster, better, and cheaper\n\nMuch of the space community would attribute the basic model of “faster, better, cheaper” to the Skunk Works philosophy developed by Kelly Johnson [6], [7]. The key principles that Mr. Johnson used to operate the Skunk Works are:\n* 1. The Skunk Works manager must be delegated practically complete control of his program in all aspects.\n\n...\n\nMcCurdy, Faster, Better, Cheaper: Low-Cost Innovation in the U.S. Space Program (New Series in NASA History),...\n* R.E. Bilstein"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://en.wikipedia.org/wiki/%22Faster,_better,_cheaper%22_approach",
+              "title": "\"Faster, better, cheaper\" approach - Wikipedia",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The \"faster, better, cheaper\" approach (FBC) was a management philosophy adopted by NASA under Administrator Daniel Goldin (1992–2001).\n\n...\n\nagency saw dwindling budgets, and the new NASA administrator, Daniel Goldin , introduced the so-called \"faster, better, cheaper\" approach in 1992, which encouraged smaller, cheaper missions built\n\n...\n\nThe \"faster, better, cheaper\" approach was described as: [ 5 ]\nFaster applies to project development time, which for convenience can be defined as the period from project approval to launch.\n\n...\n\ned from the plans. [ 1 ] :   260–261   Stone himself saw the \"faster-better-cheaper\" as a cultural change of the lab's engineering practices. [ 1 ] :   223\n\n...\n\nIn 1997, ESA proposed to \"radically restructure\" the Horizon 2000 program \"to make missions faster and cheaper\". [ 26 ] [ 27 ]\nTakahiro Yamada of JAXA wrote positively of the FBC approach: \"\"Far faster, far better, far cheaper” may be difficult, but “a little faster, a little better, a little cheaper” must be within the\n\n...\n\n(1999). The Faster, Better, Cheaper Approach to Space Missions: An Engineering Management Assessment (Report) – via ntrs.nasa.gov.\n* Lawler, Andrew (2000). \" 'Faster, Cheaper, Better' on Trial\". Science . 288 (5463): 32– 34. doi : 10.1126/science.288.5463.32 .\n* McCurdy, Howard E. (2001). Faster, Better, Cheaper: Low-Cost Innovation in the U.S. Space Program . JHU Press."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://api.pageplace.de/preview/DT0400.9781498756310_A28397600/preview-9781498756310_A28397600.pdf",
+              "title": "\" Faster, Better Cheaper\"in the History of Manufacturing: From the Stone Age to Lean Manufacturing and Beyond",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "\"Faster, Better, Cheaper\"in the History of Manufacturing\n\nFrom the Stone Age to Lean Manufacturing and Beyond\n\nChristoph Roser\n\nFrom the Stone Age to Lean Manufacturing and Beyond\n\n\"Faster, Better, Cheaper\"in the History of Manufacturing\n\nCRC Press is an imprint of the Taylor & Francis Group, an informa business\nBoca Raton London New York\nA PRODUCTIVITY PRESS BOOK\n\nFrom the Stone Age to Lean Manufacturing and Beyond Christoph Roser\n\n\"Faster, Better, Cheaper\"in the History of Manufacturing\n\n...\n\nLibrary of Congress Cataloging‑in‑Publication Data\nNames: Roser, Christoph, author. Title: “Faster, better, cheaper” in the history of manufacturing : from the Stone Age to lean manufacturing and\n\n...\n\nPress, 2016. | Includes bibliographical references and index. Identifiers: LCCN 2016003463 | ISBN 9781498756303 Subjects: LCSH: Manufacturing processes--History.\n\n...\n\nThis book is not about hobbies; it is about making money through man- ufacturing. Industry is on a never ending quest to produce faster, better, and cheaper.\n\n...\n\n0%. Similarly, satisfaction with job security reached 89% in 1991 (Adler 1995).\n4 • “Faster, Better, Cheaper” in the History of Manufacturing\nThere were many other changes.\n\n...\n\nFinkelstein, S., 2004. Why Smart Executives Fail: And What You Can Learn from Their Mistakes . Portfolio, New York.\n6 • “Faster, Better, Cheaper” in the History of Manufacturing\nGlass, I., 2010."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://store.computer.org/csdl/magazine/cg/1997/06/mcg1997060010/13rRUx0xQ1Q",
+              "title": "Faster, better, cheaper-NASA visualizes the solar system",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "IEEE Computer Graphics and Applications\n4. 1997.06\nIEEE Computer Graphics and Applications\n\nFaster, better, cheaper-NASA visualizes the solar system Nov.-Dec. 1997, pp. 10-15, vol. 17\n\nDOI Bookmark: 10.1109/38.626958\n\nAuthors\n\nB. Delaney , CyberEdge Inf. Services, Sausalito, CA, USA\nDownload PDF SHARE ARTICLE\nGenerate Citation\n\nKeywords\n\nVisualization, Solar System, Costs, NASA, Operating Systems, Space Exploration, Hardware, Modems, Real Time Systems, Rockets\n\nAbstract\n\nPathfinder is the first of many planned \"Discovery Program\" missions by NASA. The Discovery program is based on the concept of using \"industry spacecraft\" comprised of near commodity components built from generic parts that cost orders of magnitude less than the custom built equipment of earlier phases of space exploration. Daniel Goldin, administrator of NASA, has given his agency a mandate to explore the solar system faster, better, and cheaper than in the past. How do you build an \"industry spacecraft\"? First, use as much COTS (commercial off the shelf) hardware and software as possible. That eliminates the need for NASA to build every part and write all the software. Instead of building a custom computer, at a cost of millions, now NASA finds a commercial system (on Pathfinder, an\n\n...\n\nmmercial operating system, saving thousands or millions more dollars in development costs. Other COTS components include the Motorola modem used to communicate between the rover and lander, and the"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.nationaldefensemagazine.org/articles/2012/4/1/2012april-faster-better-cheaper-why-not-pick-all-three",
+              "title": "Faster, Better, Cheaper: Why Not Pick All Three?",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Faster, Better, Cheaper: Why Not Pick All Three?\n\n4/1/2012 By Dan Ward\nfacebook sharing button Share\ntwitter sharing button Post\nemail sharing button Email\nwhatsapp sharing button Share\nsharethis sharing button Share\nlinkedin sharing button Share\nSpend any time with (or as) an engineer, and you will probably hear the phrase “Faster, better, cheaper — pick two.” Sometimes referred to as The Iron Triangle, this supposedly self-evident truism is repeated with great regularity among technologists, program managers and engineers, usually to justify the extensive amount of time and money expended on large, high-tech projects.\nUnfortunately, the idea that we can’t make simultaneous improvements in a project’s cost, schedule and performance does not get a lot of critical analysis, even among people who do critical analysis\n\n...\n\ngets so little scrutiny in the first place. For example, many people write off NASA’s experiment with faster-better-cheaper in the 1990s as if it was an embarrassing flop, but when pressed, precious few can say what exactly NASA attempted or accomplished under that banner. To help remedy that, let’s look at the numbers.\nAccording to Howard McCurdy’s book “Faster, Better, Cheaper,” NASA launched 16 major missions between 1992 and 1999. Far from backyard science projects, these missions were some of the most challenging things NASA ever attempted, including missions to Mars, to the moon, several Earth-orbiting satellites and even an"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://download.e-bookshelf.de/download/0000/5963/63/L-G-0000596363-0002363727.pdf",
+              "title": "SPACECRAFT SYSTEMS ENGINEERING - download",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "es of a competent professional should be sought.\nLibrary of Congress Cataloging-in-Publication Data\nSpacecraft systems engineering / edited by Peter Fortescue, Graham Swinerd, John Stark.—4th ed. p. cm. Includes bibliographical references and index. ISBN 978-0-470-75012-4 (hardback) 1. Space vehicles—Design and construction. 2. Astronautics—Systems engineering. I. Fortescue, Peter W. II. Swin\n\n...\n\nlaunch vehicles section (Chapter 7) is on the\n\n...\n\nThe majority of the book content, however, focuses on the design and engineering of unmanned spacecraft, and around the turn of the millennium, the ‘faster, better, cheaper’ design philosophy was particularly influential in reducing the size and mass of science spacecraft in particular. However, this has been tempered somewhat by the occurrence of inopportune in-orbit failures, which have provided lessons that maybe faster and cheaper are not necessarily better. However, the explosion of interest in small, capable spacecraft continues unabated, and this is reflected in an updated\n\n...\n\nsuccess in his new role. Over to you, Graham . . .\nPeter Fortescue , Southampton, July 2002\nSince the publication of the previous edition, Dan Goldin’s ‘Faster, Better, Cheaper’ space mission philosophy has had a major impact upon American activities. As a consequence, the last of the heavyweight interplanetary spacecraft, Cassini, was launched in October 1997 on its mission to Saturn.\n\n...\n\nEURECA European Retrievable Carrier E"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4405,
+    "completion_tokens": 365,
+    "total_tokens": 4770,
+    "cost": 0.0010893376,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00009024,
+      "upstream_inference_prompt_cost": 0.00007929,
+      "upstream_inference_completions_cost": 0.00001095
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "\"Faster, Better, Cheaper\" \"bibliographical references\"",
+  "bookId": "shelf-30c7a895dd66",
+  "retrieved": "2026-11-01T23:19:08.472Z"
+}

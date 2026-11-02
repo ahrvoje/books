@@ -1,0 +1,70 @@
+{
+  "retrieved": "2026-11-01T22:14:05.745Z",
+  "bookId": "shelf-5473668dc56d",
+  "id": "gen-1793571245-C9Dkhp5N2UISaRZAGj7e",
+  "object": "chat.completion",
+  "created": 1793571245,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "I am sorry, but I cannot fulfill this request. The search results provided do not contain information about the book \"Cells to Civilizations\" by Enrico Coen on Amazon. The results mention a different book, \"Revolution in Science\" by I. Bernard Cohen, and general information about Amazon's filtering services, neither of which is relevant to the requested book. Therefore, I cannot provide the requested JSON output.",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Revolution-Science-I-Bernard-Cohen/dp/0674767780",
+              "title": "Revolution in Science: Cohen, I. Bernard: 9780674767782 ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nRevolution in Science: Cohen, I. Bernard: 9780674767782 ...\n“Professor Cohen’s Revolution in Science offers an impressive survey―with his own critical insights and interpretations―of the concept of revolutions. Only someone with his prodigious erudition and knowledge of the history of science could undertake such a project."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://docs.aws.amazon.com/id_id/location/latest/developerguide/places-filtering.html",
+              "title": "Pemfilteran - Amazon Location Service",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Filter geografis Filter area administratif Filter kategori POI Definisi filter Tempatkan filter jenis Kategori filter Filter Jenis Makanan Filter Rantai Bisnis\n\n...\n\nAmazon Location Service Places API menawarkan opsi pemfilteran untuk mempersempit hasil penelusuran berdasarkan kriteria tertentu. Parameter ini menyempurnakan hasil dengan memasukkan atau mengecualikan kriteria seperti kendala geografis, wilayah administrasi, rantai bisnis, kategori POI, dan jenis makanan.\nBagian ini merinci parameter pemfilteran dan opsi yang tersedia di Amazon Location Service Places API. Setiap filter dijelaskan di bawah ini, termasuk dampaknya pada hasil pencarian.\n\n...\n\n* Jenis Filter | Geocode | Membalikkan Geocode | Pelengkapan otomatis | Dapatkan Tempat | Cari Teks | Cari Terdekat | Sarankan\n* Lingkaran | Tidak | Tidak | Ya | N/A | Ya | Tidak | Ya\n\n...\n\n\"Center\": [-122.3321, 47.6062],\n    \"Radius\": 5000\n}\n\nFilter area administratif\n\nFilter ini memungkinkan pengguna untuk membatasi hasil pencaria\n\n...\n\nFilter kategori POI menyempurnakan hasil pencarian berdasarkan kategori Poin Minat (POI), seperti rantai bisnis atau jenis makanan tertentu.\n\ncatatan\n\n...\n\n| Tidak | Tidak | N/A | Tidak | IYA* | Tidak\n\nDefinisi filter\n\nPemfilteran untuk jenis tempat dapat dilakukan dengan menggunakan kriteria berikut: FoodType, Kategori, dan BusinessChainId."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1079,
+    "completion_tokens": 83,
+    "total_tokens": 1162,
+    "cost": 0.005139689,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001411,
+      "upstream_inference_prompt_cost": 0.0001079,
+      "upstream_inference_completions_cost": 0.0000332
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

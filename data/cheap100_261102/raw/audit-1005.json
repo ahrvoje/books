@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574267-ogoCTdimWTlh67Hcd4mD",
+  "object": "chat.completion",
+  "created": 1793574267,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-64d895826485:amazon:https://www.amazon.com/Pakistan-Hard-Country-Anatol-Lieven/dp/1610391454\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 313 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"bg946fbec6b6:amazon:https://www.amazon.com/Big-Little-Breakthroughs-Innovations-Oversized/dp/1642936774\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 262 global ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"shelf-1a522ce6dec7:amazon:https://www.amazon.com/How-Make-Few-Billion-Dollars/dp/B0CHTQP25T\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 1,323 global ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"rem-u0984:amazon:https://www.amazon.com/Coming-Third-Reich-Richard-Evans/dp/0143034693\",\n      \"status\": \"reject\",\n      \"reason\": \"Title includes series information, not a single volume.\"\n    },\n    {\n      \"key\": \"rem-u1736:amazon:https://www.amazon.com/Flash-Boys-Wall-Street-Revolt/dp/0393351599\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 18,521 global ratings explicitly labelled.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3430,
+    "completion_tokens": 418,
+    "total_tokens": 3848,
+    "cost": 0.0002028906,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020494,
+      "upstream_inference_prompt_cost": 0.0001715,
+      "upstream_inference_completions_cost": 0.00003344
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:04:36.974Z"
+}

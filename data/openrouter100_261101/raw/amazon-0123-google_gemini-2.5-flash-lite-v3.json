@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:14:22.761Z",
+  "bookId": "shelves-riseyeast",
+  "id": "gen-1793571262-ZgdHC27NPbaaPGlMNvIj",
+  "object": "chat.completion",
+  "created": 1793571262,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelves-riseyeast\",\n  \"title\": \"The Rise of Yeast: How the Sugar Fungus Shaped Civilization\",\n  \"author\": \"Nicholas P. Money\",\n  \"amazon\": {\n    \"count\": 380,\n    \"stars\": 3.7,\n    \"asin\": \"0198749708\",\n    \"marketplace\": \"amazon.com\",\n    \"url\": \"https://www.amazon.com/Rise-Yeast-fungus-shaped-civilisation/dp/0198749708\",\n    \"evidence\": \"3.7 on Goodreads. (380).\",\n    \"sourceTitle\": \"The Rise of Yeast: How the sugar fungus shaped civilisation\",\n    \"sourceAuthor\": \"Nicholas P. Money\"\n  },\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Rise-Yeast-fungus-shaped-civilisation/dp/0198749708\",\n    \"https://www.amazon.com/Rise-Yeast-Fungus-Shaped-Civilization/dp/0190270713\",\n    \"https://www.amazon.com/Rise-Yeast-Fungus-Shaped-Civilization-ebook/dp/B079J2GNXZ\",\n    \"https://www.amazon.com/Books-Nicholas-Money/s?rh=n%3A283155%2Cp_27%3ANicholas%2BMoney\",\n    \"https://www.amazon.com/stores/author/B001IXU4AO\"\n  ],\n  \"limitations\": \"No explicit mention of 'global ratings' was found in the search results. The rating and count are from Goodreads, as cited on Amazon.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Rise-Yeast-fungus-shaped-civilisation/dp/0198749708",
+              "title": "The Rise of Yeast: How the sugar fungus shaped civilisation",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Nicholas P. Money. The Rise of Yeast: How the sugar fungus shaped civilisation. ISBN-13: 978-0198749707, ISBN-10: 0198749708. 3.7 on Goodreads. (380)."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Rise-Yeast-Fungus-Shaped-Civilization/dp/0190270713",
+              "title": "The Rise of Yeast: How the Sugar Fungus Shaped ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Explores how yeast, a simple fungus, revolutionized human civilization through fermentation, breadmaking, and scientific discoveries in cell biology and"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Rise-Yeast-Fungus-Shaped-Civilization-ebook/dp/B079J2GNXZ",
+              "title": "The Rise of Yeast: How the Sugar Fungus Shaped ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Explores how yeast, a simple fungus, revolutionized human civilization through fermentation, breadmaking, and scientific discoveries in cell biology and"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Nicholas-Money/s?rh=n%3A283155%2Cp_27%3ANicholas%2BMoney",
+              "title": "Nicholas Money: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Rise of Yeast: How the Sugar Fungus Shaped Civilization by Nicholas P. Money Hardcover 90 days free of Amazon Music with purchase"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B001IXU4AO",
+              "title": "Nicholas P. Money: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nNicholas P. Money: books, biography, latest update\nNicholas P. Money is a biologist and science writer. He belongs to a species of African ape and lives on a planet that is 4.6 billion years old.\n\n## \n\nNicholas P. Money: books, biography, latest update - Amazon.com\nNicholas P. Money is a biologist and science writer. He belongs to a species of African ape and lives on a planet that is 4.6 billion years old.\n\n## \n\nNicholas P. Money: books, biography, latest update\nAmoeba: The Story of Life in a Single Cell. The Complete Fungi: Evolution, Diversity and Ecology. Mushrooms: A Natural and Cultural History. Fungi: A Very\n\n## \n\nNicholas P. Money: books, biography, latest update\nMoney is a biologist and science writer. A Is for Amoeba: The Story of Life in a Single Cell. The Complete Fungi: Evolution, Diversity and Ecology. Nature Fast"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1230,
+    "completion_tokens": 440,
+    "total_tokens": 1670,
+    "cost": 0.00529601,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000299,
+      "upstream_inference_prompt_cost": 0.000123,
+      "upstream_inference_completions_cost": 0.000176
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

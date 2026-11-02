@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793574772-S5ucMbqGAuBShqUhYVzi",
+  "object": "chat.completion",
+  "created": 1793574772,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Age-Cryptocurrency-Blockchain-Challenging-Economic/dp/1250081556",
+              "title": "The Age of Cryptocurrency: How Bitcoin and the Blockchain Are Challenging the Global Economic Order: Vigna, Paul, Casey, Michael J.: 9781250081551: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "* \nRead sample\nPlay Audible sample\n\nFollow the authors\n\nGet new release updates & improved recommendations\nPaul Vigna\nPaul Vigna\nFollow\nMichael J. Casey\nMichael J. Casey\nFollow\nSomething went wrong. Please try your request again later.\nOK\n\nThe Age of Cryptocurrency: How Bitcoin and the Blockchain Are Challenging the Global Economic Order Paperback – January 12, 2016\n\nby Paul Vigna (Author), Michael J. Casey (Author)\n4.4 4.4 out of 5 stars (656)\nSorry, there was a problem loading this page. Try again.\nSee all formats and editions\n\n...\n\nMichael Casey and Paul Vigna's admirably clea\n\n...\n\nA native of Perth, Western Australia, Michael Casey is a journalist, media executive, podcaster, educator and author of six books.\n\n...\n\none of New York Times' critic Michiko Kakutani's Top Ten picks of 2009.\n--The Unfair Trade: How Our Broken Global Financial System Destroys the Middle Class (2012), which looked at the global\n\n...\n\nexplores the radically decentralized global economy that these portend.\n-- Our Biggest Fight: Reclaiming Liberty, Humanity and Dignity in the Digital Age (2024), co-authored with Frank H. McCourt Jr. A manifesto on the desperate need to fix a broken internet that is harming people, society and democracy that offers up a solution in form of tools to give people control over their data.\n\n...\n\n-3168373e9364)\nNext page\n\nCustomer reviews\n\n4.4 out of 5 stars\n4.4 out of 5\n656 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 59% 27% 9% 4% 1% 59%"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 866,
+    "completion_tokens": 1,
+    "total_tokens": 867,
+    "cost": 0.00101546182,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000015618,
+      "upstream_inference_prompt_cost": 0.000015588,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Our Biggest Fight\" Frank H. McCourt Jr.; Michael J. Casey \"global ratings\"",
+  "bookId": "resume-174-17",
+  "retrieved": "2026-11-01T23:12:50.146Z"
+}

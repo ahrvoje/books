@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576388-wUz8jLbpOwNpi8eNwkHl",
+  "object": "chat.completion",
+  "created": 1793576388,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-14b56faacdf5:amazon:https://www.amazon.com/B-S-Time-Management-Entrepreneurs-Productivity/dp/1599186152\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating is explicitly labeled as global ratings.\"\n    },\n    {\n      \"key\": \"shelf-8b638923d2fc:amazon:https://www.amazon.com/Driven-Within-Michael-Jordan/dp/0743284003\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating is explicitly labeled as global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1105:amazon:https://www.amazon.com/Becoming-Person-Carl-R-Rogers/dp/0317596225\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating is explicitly labeled as global ratings.\"\n    },\n    {\n      \"key\": \"g0652:amazon:https://www.amazon.com/Cancer-Code-Revolutionary-Understanding-Wellness/dp/0062894005\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating is explicitly labeled as global ratings.\"\n    },\n    {\n      \"key\": \"shelf-e0d045497115:amazon:https://www.amazon.com/-/es/Socrates-Translated-Tredennick-Tarrant-Introduction/dp/B00QAT5UKA\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating is explicitly labeled as global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3601,
+    "completion_tokens": 423,
+    "total_tokens": 4024,
+    "cost": 0.0002117511,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021389,
+      "upstream_inference_prompt_cost": 0.00018005,
+      "upstream_inference_completions_cost": 0.00003384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:39:53.892Z"
+}

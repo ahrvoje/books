@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793572717-QeiytH5zvkBl6ullrT1T",
+  "object": "chat.completion",
+  "created": 1793572717,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"q0409:reference:https://aspen.greenvillelibrary.org/Record/278523\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 271-279.\"\n    },\n    {\n      \"key\": \"q0320:reference:https://catalog.ocls.org/Record/.b18022662\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 345-370.\"\n    },\n    {\n      \"key\": \"shelf-5f7218552936:amazon:https://www.amazon.com/Spooky-Action-Distance-Phenomenon-Time/dp/0374536619\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"progress-0035:pages:https://blackwells.co.uk/bookshop/product/Germ-Theory-by-Robert-P-Gaynes/9781683673767\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The page count is explicitly stated as 384 pages for a print edition.\"\n    },\n    {\n      \"key\": \"shelf-58e433e822eb:amazon:https://www.amazon.com/Sources-Social-Power-History-Beginning/dp/052131349X\",\n      \"status\": \"reject\",\n      \"reason\": \"The title is a single volume, not the whole series. The rating is explicitly labelled as global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3269,
+    "completion_tokens": 428,
+    "total_tokens": 3697,
+    "cost": 0.0001957131,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019769,
+      "upstream_inference_prompt_cost": 0.00016345,
+      "upstream_inference_completions_cost": 0.00003424
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:38:43.363Z"
+}

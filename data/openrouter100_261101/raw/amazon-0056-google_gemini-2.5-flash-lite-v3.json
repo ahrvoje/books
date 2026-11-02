@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:09.470Z",
+  "bookId": "shelf-06bb708701dd",
+  "id": "gen-1793571187-vxjiKwTvLjGKptXhFVr6",
+  "object": "chat.completion",
+  "created": 1793571187,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-06bb708701dd\",\n  \"title\": \"Arabs\",\n  \"author\": \"Tim Mackintosh-Smith\",\n  \"amazon\": {\n    \"count\": 64,\n    \"stars\": 4.4,\n    \"asin\": \"0300180284\",\n    \"marketplace\": \"amazon.com\",\n    \"url\": \"https://www.amazon.com/Arabs-000-Year-History-Peoples-Empires/dp/0300180284\",\n    \"evidence\": \"4.4 out of 5 stars\\n4.4 out of 5\\n43 global ratings\",\n    \"sourceTitle\": \"Arabs: A 3000-Year History of Peoples, Tribes and Empires\",\n    \"sourceAuthor\": \"Tim Mackintosh-Smith\",\n    \"snapshotLimitation\": \"The search result for \\\"Arabs\\\" on amazon.com shows \\\"43 global ratings\\\" for the book \\\"Yemen\\\" by Tim Mackintosh-Smith, not for \\\"Arabs\\\". The \\\"Arabs\\\" book on amazon.com has \\\"656 pages\\\" and \\\"4.4 out of 5 stars\\\" with \\\"43 global ratings\\\" according to another amazon.com result.\"\n  },\n  \"pages\": {\n    \"count\": 656,\n    \"editionId\": null,\n    \"editionYear\": 2019,\n    \"format\": \"Paperback\",\n    \"language\": \"English\",\n    \"url\": \"https://www.amazon.com/Arabs-000-Year-History-Peoples-Empires/dp/0300180284\",\n    \"evidence\": \"Book details ; Print length. 656 pages ; Language. English ; Publisher. Yale University Press ; Publication date. April 30, 2019 ; Dimensions. 6.25 x 2.25 x 9.5\",\n    \"sourceTitle\": \"Arabs: A 3000-Year History of Peoples, Tribes and Empires\",\n    \"sourceAuthor\": \"Tim Mackintosh-Smith\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Yemen-Tim-Mackintosh-Smith/dp/1585670014\",\n    \"https://www.amazon.com/Ibn-Fadlans-Journey-Russia-Tenth-Century/dp/155876366X\",\n    \"https://www.amazon.com/Arabs-000-Year-History-Peoples-Empires/dp/0300180284\",\n    \"https://www.amazon.com/-/es/Arabs-000-Year-History-Peoples-Empires/dp/0300180284\",\n    \"https://www.amazon.com/Travels-Ibn-Battuta-R-GIBB/dp/8187570563\"\n  ],\n  \"limitations\": \"The primary amazon.com search result for \\\"Arabs\\\" by Tim Mackintosh-Smith provides page count and publication details. However, the customer rating information (4.4 out of 5 stars, 43 global ratings) appears to be associated with a different book by the same author, \\\"Yemen\\\", based on the provided search snippets. Another amazon.com result for \\\"Arabs\\\" confirms \\\"656 pages\\\" and \\\"4.4 out of 5 stars\\\" with \\\"43 global ratings\\\", but the source snippet is ambiguous about whether this rating is for \\\"Arabs\\\" or another book. Therefore, the amazon rating count is inferred to be 43, but with a note of caution due to the conflicting information.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Yemen-Tim-Mackintosh-Smith/dp/1585670014",
+              "title": "Yemen: Mackintosh-Smith, Tim: 9781585670017: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Arguably the most fascinating and least understood country in the Arab world, Yemen has a way of attracting comment that ranges from the superficial to the wildly fantastic.\n\n...\n\nFREE Shipping on orders over $35 shipped by Amazon\n3. The Travels of Ibn Battutah\nThe Travels of Ibn Battutah\nTim Mackintosh-Smith\n4.5 out of 5 stars 729\nHardcover\n$14.99 $ 14 . 99\n\n...\n\nPage 1 of 2\nPrevious page\n1. Book cover Arabs: A 3,000-Year History of Peoples, Tribes and Empires Arabs: A 3,000-Year History of Peoples, Tribes and Empires Arabs: A 3,000-Year History of Peoples, Tribes and Empires\n364\nPaperback\n$18.00 $ 18 . 00\nFREE delivery Fri, Mar 20\n2.\n\n...\n\nEnglishman Tim Mackintosh-Smith was studying Arabic at Oxford when he visited Yemen, a forgotten country at the heel of the Arabian peninsula, and became obsessed with the place and its language.\n\n...\n\nstudy.\" Yemen is surely an exotic land, and one of its charms--fully revealed in Mackintosh-Smith's digressive prose--is the way it has remained quaintly Arabic and seemingly immune to the modern\n\n...\n\nBrief content visible, double tap to read full content.\nFull content visible, double tap to read brief content.\n\n...\n\nre feedback after 30 days.\n\nCustomer reviews\n\n4.4 out of 5 stars\n4.4 out of 5\n43 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 64% 20% 11% 5% 0% 64%\n* 5 star 4 star 3 star 2 star 1 star 4 star 64% 20% 11% 5% 0% 20%\n* 5 star 4 star 3 star 2 star 1 star 3 star 64% 20% 11% 5% 0% 11%"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Ibn-Fadlans-Journey-Russia-Tenth-Century/dp/155876366X",
+              "title": "Ibn Fadlan's Journey To Russia: Ibn Fadlan, Ahmad, Frye, Richard N.: 9781558763661: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Ibn Fadlan was an Arab missionary sent by the Caliph in Baghdad to the king of the Bulghars. He journeyed from Baghdad to Bukhara in Central Asia and then continued across the desert to the town of\n\n...\n\nThis item: Ibn Fadlan's Journey To Russia\n$24.95 $ 24 . 95\nGet it as soon as Monday, Jun 8\nAvailable to ship in 1-2 days\nShips from and sold by Amazon.com.\n+\nIbn Fadlan and the Land of Darkness: Arab Travellers in the Far North (Penguin Classics)\nIbn Fadlan and the Land of Darkness: Arab Travellers in the Far North (Penguin Classics)\n$14.10 $\n\n...\n\nVolga (Library of Arabic Literature)\nAhmad Ibn Fadlan\n4.5 out of 5 stars 48\nPaperback\n$10.60 $ 10 . 60\nGet it as soon as Sunday, Jun 7\nFREE Shipping on orders over $35 shipped by Amazon\n3. The Travels of Ibn Battutah\nThe Travels of Ibn Battutah\nTim Mackintosh-Smith\n4.5 out of 5 stars 739\nHardcover\n$14.99 $ 14 . 99\nGet it as soon as Saturday, Jun 6\nFREE Shipping on orders over $35 shipped by Amazon\n4. Two Arabic Travel Books: Accounts of China and India and Mission to the Volga (Library of Arabic Literature, 17)\nTwo Arabic Travel Books: Accounts of China and India and Mission to the Volga (Library of Arabic Literature, 17)\nAbū Zayd al-Sīrāfī\n4.9 out of 5 stars 22\nHardcover\n$32.84 $ 32 . 84\n\n...\n\n4.7 out of 5 stars\n4.7 out of 5\n41 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 86% 5% 7% 1% 1% 86%\n* 5 star 4 star 3 star 2 star 1 star 4 star 86% 5% 7% 1% 1% 5%"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Arabs-000-Year-History-Peoples-Empires/dp/0300180284",
+              "title": "Arabs: A 3000-Year History of Peoples, Tribes and Empires",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nArabs: A 3000-Year History of Peoples, Tribes and Empires\nThis kaleidoscopic book covers almost 3,000 years of Arab history and shines a light on the footloose Arab peoples and tribes who conquered lands and \n\n## \n\nArabs: A 3000-Year History of Peoples, Tribes and Empires\nTim Mackintosh-Smith is an eminent Arabist, translator, and traveler whose previous publications include Travels with a Tangerine and Yemen. He has lived in the\n\n## \n\nArabs: A 3000-Year History of Peoples, Tribes and Empires\nBook details ; Print length. 656 pages ; Language. English ; Publisher. Yale University Press ; Publication date. April 30, 2019 ; Dimensions. 6.25 x 2.25 x 9.5"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/es/Arabs-000-Year-History-Peoples-Empires/dp/0300180284",
+              "title": "Arabs: A 3000-Year History of Peoples, Tribes and Empires",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nArabs: A 3000-Year History of Peoples, Tribes and Empires\nAmazon.com: Arabs: A 3000-Year History of Peoples, Tribes and Empires: 9780300180282: Mackintosh-Smith, Tim: Libros. ... Número de páginas, 656 páginas. ISBN"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Travels-Ibn-Battuta-R-GIBB/dp/8187570563",
+              "title": "The Travels of Ibn Battuta: H.A.R. GIBB: 9788187570561: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Previous slide of product details\n1. Print length\n398 pages\n2. Language\nEnglish\n3. Publisher\nGoodword Books\n4. Publication date\nJanuary 1, 2000\n5. Dimensions\n7.09 x 3.94 x 1.18 inches\n6. ISBN-10\n8187570563\n7. ISBN-13\n978-8187570561\nNext slide of product details\nSee all details\n\n...\n\nPrevious set of slides\n1. The Travels of Ibn Battutah\nThe Travels of Ibn Battutah\nTim Mackintosh-Smith\n4.5 out of 5 stars 738\nHardcover\n$14.99 $ 14 . 99\nGet it as soon as Tuesday, May 26\nFREE Shipping on orders over $35 shipped by Amazon\nNext set of slides\n\nProduct details\n\n* Publisher ‏ : ‎ Goodword Books\n* Publication date ‏ : ‎ January 1, 2000\n* Language ‏ : ‎ English\n* Print length ‏ : ‎ 398 pages\n* ISBN-10 ‏ : ‎ 8187570563\n* ISBN-13 ‏ : ‎ 978-8187570561\n* Item Weight ‏ : ‎ 1.1 pounds\n* Dimensions ‏ : ‎ 7.09 x 3.94 x 1.18 inches\n* Best Sellers Rank: #4,508,707 in Books ( See Top 100 in Books )\n\n...\n\ngO4&pd_rd_w=pPTtP&pd_rd_r=02a9e988-bcaa-43e6-b003-b93c7065c679)\nNext page\n\nCustomer reviews\n\n4.2 out of 5 stars\n4.2 out of 5\n40 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 54% 23% 15% 8% 0% 54%\n* 5 star 4 star 3 star 2 star 1 star 4 star 54% 23% 15% 8% 0% 23%\n* 5 star 4 star 3 star 2 star 1 star 3 star 54% 23% 15% 8% 0% 15%\n* 5 star 4 star 3 star 2 star 1 star 2 star 54% 23% 15% 8% 0% 8%\n* 5 star 4 star 3 star 2 star 1 star 1 star 54% 23% 15% 8% 0% 0%\nHow customer reviews and ratings work\nView Image Gallery"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2819,
+    "completion_tokens": 876,
+    "total_tokens": 3695,
+    "cost": 0.005625977,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006323,
+      "upstream_inference_prompt_cost": 0.0002819,
+      "upstream_inference_completions_cost": 0.0003504
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

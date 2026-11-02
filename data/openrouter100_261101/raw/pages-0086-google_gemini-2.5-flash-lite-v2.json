@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:49.755Z",
+  "bookId": "q0952",
+  "id": "gen-1793571229-GhZnqA81Vd1J7pRvGSoP",
+  "object": "chat.completion",
+  "created": 1793571229,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"q0952\",\n  \"title\": \"It Was Never About You\",\n  \"author\": \"J. C. Maurer\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 314,\n    \"editionId\": \"9798182244497\",\n    \"editionYear\": null,\n    \"format\": \"Taschenbuch\",\n    \"language\": \"English\",\n    \"url\": \"https://shop.falter.at/detail/9798182244497/it-was-never-about-you\",\n    \"evidence\": \"314 Seiten, Taschenbuch\",\n    \"sourceTitle\": \"It Was Never About You von J C Maurer\",\n    \"sourceAuthor\": \"J C Maurer\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://shop.falter.at/detail/9798182244497/it-was-never-about-you\",\n    \"https://bigshopper.ie/product/it-was-never-about-you-a-philosophy-of-science-and-physics-3591497408.htm\",\n    \"https://www.amazon.com/Was-Never-About-You-Philosophy-ebook/dp/B0H3GZBXVP\",\n    \"https://elevenreader.io/audiobooks/it-was-never-about-you-audiobook/wS3jmPx1aUaQakekwmt9\",\n    \"https://hellonettles.com/shop/p/it-was-never-about-you-hardback-x45yp\"\n  ],\n  \"limitations\": \"The search results provided a page count for a paperback edition. Information about the publisher was not explicitly stated in the provided snippets, though one source listed 'Independently Published' as the brand.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://shop.falter.at/detail/9798182244497/it-was-never-about-you",
+              "title": "It Was Never About You von J C Maurer - faltershop.at",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# It Was Never About You\n\nA Philosophy of Science and Physics\n\nvon J C Maurer \n\n314 Seiten, Taschenbuch\n\n€ 25,00\n...\non us, not waiting for us, and not required to make ... you.That may be the first honest step toward understanding your place inside it"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://bigshopper.ie/product/it-was-never-about-you-a-philosophy-of-science-and-physics-3591497408.htm",
+              "title": "Buy It Was Never About You: A Philosophy of Science and Physics? Compare at Bigshopper",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# It Was Never About You: A Philosophy of Science and Physics\n\n \n\n Prices from \n\n 17. 45 \n\n## Description \n\nIt Was Never About You: A Philosophy of Science and Physics\n\nIt Was Never About You: A Philosophy of Science and Physics\n\n## Product specifications\n\n| Brand | Independently Published |\n| --- | --- |\n| EAN | 9798182244497 |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Was-Never-About-You-Philosophy-ebook/dp/B0H3GZBXVP",
+              "title": "It Was Never About You: A Philosophy of Science",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# It Was Never About You: A Philosophy of Science\nBrand: J C Maurer\nCategory: Astronomy & Space Science > Cosmology\n\n## Specifications\nFile size: 858 KB; Publication date: May 31, 2026; Edition: 1st; Language: English; Screen Reader: Supported\n\n...\n\nASIN: B0H3GZBXVP"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://elevenreader.io/audiobooks/it-was-never-about-you-audiobook/wS3jmPx1aUaQakekwmt9",
+              "title": "It Was Never About You Audiobook by J C Maurer - ElevenReader",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# It Was Never About You\n\nA Philosophy of Science and Physics By J C Maurer\n\n...\n\n## Audiobook details\n\nRating★★★★★ 5.0 (1)\n\nGenre Philosophy, Science and Nature\n\nLength 11 hrs 3 mins\n\nNarrated by Listen with 1,000+ voices\n\nFormat eBook with Audio\n\nPublish date Nov 2, 2021\n\nLanguage English"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://hellonettles.com/shop/p/it-was-never-about-you-hardback-x45yp",
+              "title": "It Was Never About You | Paperback — Hello Nettles",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "It Was Never About You | Paperback — Hello Nettles\n\n Image 1 of 1 \n\n $15.00 \n\nIn this moving memoir, Eric Nettles Sr. unveils the profound story of his life's journey. From a challenging childhood marked by trauma to the depths of depression and the brink of despair, Eric's narrative is a testament to the power of healing and resilience. Join him as he candidly shares his path to self-liberation and invites you to discover the strength within you. \"Free Yourself\" is a compelling tale of transformation and hope, inspiring readers to conquer their own shadows and embrace the light of personal growth."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1216,
+    "completion_tokens": 460,
+    "total_tokens": 1676,
+    "cost": 0.007302544,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003056,
+      "upstream_inference_prompt_cost": 0.0001216,
+      "upstream_inference_completions_cost": 0.000184
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

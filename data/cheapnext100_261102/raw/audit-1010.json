@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574799-6XWnzuyU14LGDBpXretD",
+  "object": "chat.completion",
+  "created": 1793574799,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"progress-0473:amazon:https://www.amazon.com/River-Town-Years-Yangtze-P-S/dp/0060855029\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 1,279.\"\n    },\n    {\n      \"key\": \"n928f28537f:amazon:https://www.amazon.com/Reassembling-Social-Introduction-Actor-Network-Theory-Management/dp/0199256055\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a rating count of 105.\"\n    },\n    {\n      \"key\": \"intake-0269:amazon:https://www.amazon.com/Big-Oyster-History-Half-Shell/dp/0345476395\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 765.\"\n    },\n    {\n      \"key\": \"rest-18-16:amazon:https://www.amazon.com/State-Affairs-Rethinking-Infidelity/dp/0062322591\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 5,491.\"\n    },\n    {\n      \"key\": \"bg0c9b85ad20:amazon:https://www.amazon.com/Hitler-Ascent-1889-1939-Volker-Ullrich/dp/1101872055\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a rating count of 1,212.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3557,
+    "completion_tokens": 450,
+    "total_tokens": 4007,
+    "cost": 0.0002117115,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021385,
+      "upstream_inference_prompt_cost": 0.00017785,
+      "upstream_inference_completions_cost": 0.000036
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:13:22.842Z"
+}

@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:15:33.253Z",
+  "bookId": "shelf-0292ed0d982e",
+  "id": "gen-1793571331-U0H623u2HDOkhZtzbHU6",
+  "object": "chat.completion",
+  "created": 1793571331,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-0292ed0d982e\",\n  \"title\": \"Self Comes to Mind\",\n  \"author\": \"Antonio Damasio\",\n  \"knownEdition\": {\n    \"id\": \"ISBN:9780307378750\",\n    \"url\": \"https://archive.org/details/selfcomestomindc0000dama\",\n    \"pages\": 367\n  },\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 367,\n    \"editionId\": \"ISBN:9780307378750\",\n    \"editionYear\": 2010,\n    \"format\": \"Book\",\n    \"language\": \"English\",\n    \"url\": \"https://catalog.ocls.org/Record/.b17528161\",\n    \"evidence\": \"Physical Desc xi, 367 p. ; 25 cm.\",\n    \"sourceTitle\": \"Self comes to mind : constructing the conscious brain / | Orange County Library System\",\n    \"sourceAuthor\": \"Damasio, Antonio R.\"\n  },\n  \"reference\": {\n    \"count\": 24,\n    \"editionId\": \"ISBN:9780307378750\",\n    \"editionYear\": 2010,\n    \"url\": \"https://catalog.ocls.org/Record/.b17528161\",\n    \"evidence\": \"Includes bibliographical references (p. [319]-342) and index.\",\n    \"sourceTitle\": \"Self comes to mind : constructing the conscious brain / | Orange County Library System\",\n    \"sourceAuthor\": \"Damasio, Antonio R.\",\n    \"ranges\": [\n      {\n        \"start\": 319,\n        \"end\": 342,\n        \"label\": \"Bibliography\",\n        \"evidence\": \"Includes bibliographical references (p. [319]-342) and index.\"\n      }\n    ],\n    \"method\": \"explicitly catalogued page range\",\n    \"limitation\": \"The total count of 24 references is inferred from the range 319-342, assuming an average of 1 reference per page. This is an estimation and not explicitly stated.\"\n  },\n  \"searchedUrls\": [\n    \"https://catalog.ocls.org/Record/.b17528161\",\n    \"https://librarycatalog.ecu.edu/catalog/2443342\",\n    \"https://link.livebrary.com/resource/nFYO9YYpTyg\",\n    \"https://link.ccpl.org/resource/Pl9jh-YYXN4\",\n    \"https://catalog.slcpl.org/search/title.aspx?cn=280277&pos=1\"\n  ],\n  \"limitations\": \"The total reference count of 24 is an inference based on the provided page range (319-342) and is not explicitly stated in the search results. The exact number of references within this range is not provided.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.ocls.org/Record/.b17528161",
+              "title": "Self comes to mind : constructing the conscious brain / | Orange County Library System",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Self comes to mind : constructing the conscious brain / | Orange County Library System\n\n# Self comes to mind : constructing the conscious brain (Book)\n\nAverage Rating\n\nAuthor Damasio, Antonio R. \n\nStatus\n\nOn Shelf\n\nOrlando Public Library (Downtown) - Third Floor 612.823 DAM 1 available\n\nWest Oaks - Adult 612.823 DAM 1 available\n\n## Copies\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| Orlando Public Library (Downtown) - Third Floor | 612.823 DAM | On Shelf |\n| West Oaks - Adult | 612.823 DAM | On Shelf |\n\nBrain -- Evolution. Consciousness. Developmental neurobiology. \n\n## More Details\n\nPublished New York : Pantheon Books, c2010.\n\nFormat Book\n\nEdition 1st ed.\n\nPhysical Desc xi, 367 p. ; 25 cm.\n\nLanguage English\n\nISBN 0307378756 :, 9780307378750\n\nNotes\n\nBibliography\n\nIncludes bibliographical references (p. [319]-342) and index.\n\nAPA Citation, 7th Edition(Style Guide)\n\nDamasio, A. R. (2010). Self comes to mind: constructing the conscious brain. Pantheon Books.\n\nChicago / Turabian - Author Date Citation, 18th Edition(Style Guide)\n\nDamasio, Antonio R. 2010. Self Comes to Mind: Constructing the Conscious Brain. Pantheon Books.\n\nChicago / Turabian - Humanities (Notes and Bibliography) Citation, 18th Edition(Style Guide)\n\n...\n\nSelf Comes to Mind: Constructing the Conscious Brain. Pantheon Books, 2010. \n\nUCL Harvard Citation(Style Guide)\n\n Damasio, A. ... (2010). Self comes to mind: constructing the conscious brain. New York: Pantheon Books."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://librarycatalog.ecu.edu/catalog/2443342",
+              "title": "Self comes to mind : constructing the conscious brain / Antonio Damasio. - ECU Libraries Catalog",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Self comes to mind : constructing the conscious brain / Antonio Damasio.\n\n| Author/creator | Damasio, Antonio R. |\n| --- | --- |\n| Format | Book |\n| Edition | 1st ed. |\n| Publication Info | New York : Pantheon Books, ©2010. |\n| Description | xi, 367 pages : illustrations ; 25 cm |\n| Subjects | Brain-- Evolution. Developmental neurobiology. Consciousness. |\n\n| Contents | Starting over. Awakening ; From life regulation to biological value -- What's in a brain that a mind can be? Making maps and making images ; The body in mind ; Emotions and feelings ; An architecture for memory -- Being conscious. Consciousness observed ; Building a conscious mind ; The autobiographical self ; Putting it together -- Long after consciousness. Living with consciousness. |\n| --- | --- |\n\n...\n\n| Bibliography note | Includes bibliographical references and index. |\n| LCCN | 2010011660 |\n| ISBN | 9780307378750 |\n| ISBN | 0307378756 |\n\n### Availability\n\n| Library | Location | Call Number | Status | Item Actions |\n| --- | --- | --- | --- | --- |\n| Joyner | General Stacks | QP376 .D356 2010 | ✔ Available | Place Hold |\n\n East Carolina University East Fifth Street | Greenville, NC 27858-4353 USA | 252.328.6131 (12523286131) | Contact Webmaster"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://link.livebrary.com/resource/nFYO9YYpTyg",
+              "title": "Bibliograph",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Bibliograph\n\nSelf comes to mind, constructing the conscious brain, Antonio R. Damasio\n\nType\n\n- http://bibfra.me/vocab/lite/Work\n- http://bibfra.me/vocab/marc/Books\n- http://bibfra.me/vocab/marc/LanguageMaterial\n\n### Link Analysis\n\n- 612.8/23\n\n- Damasio, Antonio R\n\nSubject\n\nContent\n\nLabel\n\nSelf comes to mind, constructing the conscious brain, Antonio R. Damasio\n\nLanguage eng\n\nBibliography note\n\nIncludes bibliographical references (pages [321]-342) and index\n\nIllustrations illustrations\n\nIndex index present\n\nLiterary form non fiction\n\nMain title Self comes to mind\n\nNature of contents bibliography\n\nResponsibility statement Antonio R. Damasio\n\nSub title constructing the conscious brain"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://link.ccpl.org/resource/Pl9jh-YYXN4",
+              "title": "Bibliograph",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Bibliograph\n\nSelf comes to mind, constructing the conscious brain, Antonio Damasio\n\nType\n\n- http://bibfra.me/vocab/lite/Work\n- http://bibfra.me/vocab/marc/Books\n- http://bibfra.me/vocab/marc/LanguageMaterial\n\n### Link Analysis\n\n- 612.8/23\n\nCreator\n\n- Damasio, Antonio R\n\nSubject\n\nContent\n\nMapped to\n\nLabel\n\nSelf comes to mind, constructing the conscious brain, Antonio Damasio\n\nLanguage eng\n\nBibliography note Includes bibliographical references and index\n\nIllustrations illustrations\n\nIndex index present\n\nLiterary form non fiction\n\nMain title Self comes to mind\n\nNature of contents bibliography\n\nOclc number 500797252\n\nResponsibility statement Antonio Damasio\n\nSub title constructing the conscious brain"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.slcpl.org/search/title.aspx?cn=280277&pos=1",
+              "title": "Catalog - The City Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Catalog - The City Library\n\n \n\n2010\n\n| Format: | Book |\n| --- | --- |\n| Author: | Damasio, Antonio R. |\n| Title: | Self comes to mind : constructing the conscious brain / Antonio Damasio. |\n| Edition: | 1st ed. |\n| Publisher, Date: | New York : Pantheon Books, ©2010. |\n| Description: | xi, 367 pages : illustrations ; 25 cm |\n\n...\n\n| Subjects: | Brain -- Evolution. Developmental neurobiology. Consciousness. |\n| Notes: | Includes bibliographical references and index. |\n| Contents: | Starting Over. Awakening ; From life regulation to biological value -- What's in a Brain That a Mind Can Be? Making maps and making images ; The body in mind ; Emotions and feelings ; An architecture for memory -- Being Conscious. Consciousness observed ; Building a conscious mind ; The autobiographical self ; Putting it together -- Long after Consciousness. Living with consciousness. |\n| Web Site: | Sample text Contributor biographical information Publisher description |\n| LCCN: | 2010011660 |\n| ISBN: | 9780307378750 0307378756 |\n| Other Number: | 500797252 |\n| System Availability: | 1 |\n| Current Holds: | 0 |\n| # Local items: | 1 |\n| Control Number: | 280277 |\n| # Local items in: | 1 |\n| # System items in: | 1 |\n| Call Number: | 612.823 Damasio |"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2291,
+    "completion_tokens": 730,
+    "total_tokens": 3021,
+    "cost": 0.007515889,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005211,
+      "upstream_inference_prompt_cost": 0.0002291,
+      "upstream_inference_completions_cost": 0.000292
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

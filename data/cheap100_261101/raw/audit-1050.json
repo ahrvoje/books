@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793572727-lVyVdNKKnkxdWid0G51c",
+  "object": "chat.completion",
+  "created": 1793572727,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"nfb1980bfe5:amazon:https://www.amazon.com/Doing-Good-Better-Effective-Altruism/dp/1592409660\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 1,308 global ratings is explicitly labelled and numeric.\"\n    },\n    {\n      \"key\": \"q0982:amazon:https://www.amazon.com/Poverty-America-Matthew-Desmond/dp/0593239911\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 3,813 global ratings is explicitly labelled and numeric.\"\n    },\n    {\n      \"key\": \"rem-u1646:amazon:https://www.amazon.com/Ultra-Processed-People-Science-Behind-Food/dp/1324036729\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 1,841 global ratings is explicitly labelled and numeric.\"\n    },\n    {\n      \"key\": \"rem-u0865:amazon:https://www.amazon.com/This-Changes-Everything-Capitalism-Climate/dp/0307401995\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 3,939 global ratings is explicitly labelled and numeric.\"\n    },\n    {\n      \"key\": \"g1019:amazon:https://www.amazon.com/Bowling-Alone-Collapse-American-Community/dp/0743203046\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 1,107 ratings is explicitly labelled and numeric.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3416,
+    "completion_tokens": 445,
+    "total_tokens": 3861,
+    "cost": 0.000204336,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002064,
+      "upstream_inference_prompt_cost": 0.0001708,
+      "upstream_inference_completions_cost": 0.0000356
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:38:52.779Z"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793577393-3bxp9p8LOT0CtvmoNO4l",
+  "object": "chat.completion",
+  "created": 1793577393,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"q1062:reference:https://catalog.libraries.psu.edu/catalog/27408162\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 207-218.\"\n    },\n    {\n      \"key\": \"rem-u0492:reference:https://siris-libraries.si.edu/ipac20/ipac.jsp?aspect=subtab103&index=PSUBJ&menu=search&profile=liball&ri=1&source=~!silibraries&term=Neohelix%20albolabris%20--%20Anecdotes.&uri=link%3D3100009~!2607979~!3100001~!3100002\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages [179]-186.\"\n    },\n    {\n      \"key\": \"progress-0257:reference:https://archive.org/details/alexiadofannacom0000comn_q1g6\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 524-525.\"\n    },\n    {\n      \"key\": \"q0889:reference:https://rtrl.nsw.gov.au/cgi-bin/spydus.exe/ENQ/OPAC/BIBENQ?BRN=567745&SETLVL\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 315-317.\"\n    },\n    {\n      \"key\": \"n22132d6148:reference:https://collection.sl.nsw.gov.au/record/74VvKOGx7Lwy\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages [413]-509.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3377,
+    "completion_tokens": 518,
+    "total_tokens": 3895,
+    "cost": 0.0002081871,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021029,
+      "upstream_inference_prompt_cost": 0.00016885,
+      "upstream_inference_completions_cost": 0.00004144
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:56:43.212Z"
+}

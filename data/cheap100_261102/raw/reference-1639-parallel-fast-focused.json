@@ -1,0 +1,157 @@
+{
+  "id": "gen-1793574341-6r3v5bnPYPlDifkgRmwZ",
+  "object": "chat.completion",
+  "created": 1793574341,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "Based on the provided web search results, here's the metadata for \"The Meaning of Life: A Very Short Introduction\" by Terry Eagleton in JSON format:\n\n```json\n{\n  \"id\": \"complete-731-50\",\n  \"title\": \"The Meaning of Life: A Very Short Introduction\",\n  \"author\": \"Terry Eagleton\",\n  \"pages\": null,\n  \"amazon\": {\n    \"count\": 1,\n    \"url\": \"https://www.amazon.com/Meaning-Life-Very-Short-Introduction/dp/0198754703\",\n    \"asin\": \"0198754703\",\n    \"evidence\": \"Product title and author match\"\n  },\n  \"reference\": {\n    \"count\": 2,\n    \"url\": [\n      \"https://www.cambridge.org/core/journals/think/article/philosophy-and-the-meaning-of-life/E5E1602E255D578C1CB6C1E5A3DC6128\",\n      \"https://pressbooks.senecapolytechnic.ca/themeaningoflife/back-matter/appendix/\"\n    ],\n    \"evidence\": \"Bibliographical references to 'The Meaning of Life' in academic journals and textbooks\",\n    \"ranges\": [\n      {\n        \"start\": 33,\n        \"end\": 49,\n        \"label\": \"Think, Volume 21, Issue 60, Spring 2022\"\n      },\n      {\n        \"start\": null,\n        \"end\": null,\n        \"label\": \"The Meaning of Life. PHL 108, Appendix\"\n      }\n    ]\n  }\n}\n```\n\nThe book has 144 pages according to the Amazon listing, but I've set \"pages\" to null as no explicit count was found in the provided references. The reference count is 2, with inclusive ranges for one of the references (Think journal, Volume 21, Issue 60, Spring 2022, pages 33-49).",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.cambridge.org/core/journals/think/article/philosophy-and-the-meaning-of-life/E5E1602E255D578C1CB6C1E5A3DC6128",
+              "title": "PHILOSOPHY AND THE MEANING OF LIFE | Think | Cambridge Core",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Search\n* Home\n* \nJournals\n* \nThink\n* \nVolume 21 Issue 60\n* \nPHILOSOPHY AND THE MEANING OF LIFE\n* English\n* Français\nThink\n\nArticle contents\n\n* Abstract\n* References\n\nPHILOSOPHY AND THE MEANING OF LIFE\n\nPublished online by Cambridge University Press: 30 December 2021\nWilliam Lyons\n* Article\n* Metrics\nArticle contents\n* Abstract\n* References\nGet access\nShare\nCite\n\nAbstract\n\nThe author sets out to respond to the student complaint that ‘Philosophy did not answer “the big questions”’, in particular the question ‘What is the meaning of life?’ The response first outlines and evaluates the most common religious answer, that human life is given a meaning by God who created us and informs us that this life is just the pilgrim way to the next eternal life in heaven. He then discusses the response that, from the point of view of post-Darwinian science and the evolution of the universe and all that is in it, human life on Earth must be afforded no more meaning than the meaning we would give to a\n\n...\n\nThere is no plan or purpose. In the last sections the author outlines the view that it is we humans ourselves who give meaning to our lives by our choices of values or things that are worth pursuing and through our resulting sense of achievement or the opposite. Nevertheless the question ‘What is the meaning of life?’ can mean quite different things in different contexts, and so merit different"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://pressbooks.senecapolytechnic.ca/themeaningoflife/back-matter/appendix/",
+              "title": "References – The Meaning of Life. PHL 108",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Seneca Polytechnic Pressbooks System home\nMenu\nPrimary Navigation\n* Home\n* Read\n* Sign in\n* Search in book: Search\nWant to create or adapt books like this? Learn more about how Pressbooks supports open publishing practices. \nBook Contents Navigation\nContents\n\nThe Meaning of Life. PHL 108\n\nChapter 1\n\nRussell, Bertrand. 1912. The Problems of Philosophy. Edited in hypertext by Andrew Chrucky. https://www.ditext.com/russell/russell.html\n\nFallacies\n\nWalton, Douglas. 1995. A Pragmatic Theory of Fallacy . Tuscaloosa, AL: The University of Alabama Press.\nWalton, Douglas. 2008. Informal Logic: A Pragmatic Approach . 2nd ed. Cambridge/New York: Cambridge University Press.\nPrevious/next navigation\nPrevious: Virtue Ethics—The Role of Character in Moral Philosophy\n\nLicense\n\nIcon for the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\nThe Meaning of Life. PHL 108 Copyright © 2024 by Ana Belen Gonzalez Perez is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License , except where otherwise noted.\n\nShare This Book\n\n  \nPressbooks\nPowered by Pressbooks\n* Pressbooks User Guide\n* | Pressbooks Directory\n* | Contact\nPressbooks on YouTube Pressbooks on LinkedIn"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.cambridge.org/core/journals/think/article/abs/philosophy-and-the-meaning-of-life/E5E1602E255D578C1CB6C1E5A3DC6128",
+              "title": "PHILOSOPHY AND THE MEANING OF LIFE | Think | Cambridge Core",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "As a result, we have suspended some systems and services. Customers may experience temporary disruption.\n\n...\n\n(0) Cart\nSearch\n* Browse\n* Services\n* Open research\nInstitution Login\nSearch\n* Home\n* \nJournals\n* \nThink\n* \nVolume 21 Issue 60\n* \nPHILOSOPHY AND THE MEANING OF LIFE\n* English\n* Français\nThink\n\nArticle contents\n\n* Abstract\n* References\n\nPHILOSOPHY AND THE MEANING OF LIFE\n\nPublished online by Cambridge University Press: 30 December 2021\nWilliam Lyons\n* Article\n* Metrics\nArticle contents\n* Abstract\n* References\nGet access\nShare\nCite\n\nAbstract\n\nThe author sets out to respond to the student complaint that ‘Philosophy did not answer “the big questions”’, in particular the question ‘What is the meaning of life?’ The response first outlines and evaluates the most common religious answer, that human life is given a meaning by God who created us and informs us that this life is just the pilgrim way to the next eternal life in heaven. He then discusses the response that, from the point of view of post-Darwinian science and the evolution of the universe and all that is in it, human life on Earth must be afforded no more meaning\n\n...\n\nestion ‘What is the meaning of life?’ can mean quite different things in different contexts, and so merit different if related answers. From one point of view one answer may lie in terms of the love of one human for another.\n\nInformation\n\nType Research Article\nInformation Think , Volume 21 , Issue 60 , Spring 2022 , pp. 33 - 49"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://plato.stanford.edu/archives/win2022/entries/life-meaning",
+              "title": "\nThe Meaning of Life (Stanford Encyclopedia of Philosophy/Winter 2022 Edition)\n",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "between the meaning “in” life, where a human person is\nwhat can exhibit meaning, and the meaning “of” life in a\nnarrow sense, where the human species as a whole is what can be\nmeaningful or not.\n\n...\n\nHowever, there are philosophers who maintain that something much more\nmonistic is true of the concept, so that (nearly) all thought about\nmeaningfulness in a person’s life is essentially about a single\nproperty. Suggestions include being devoted to or in awe of\nqualitatively superior goods (Taylor 1989, 3–24), transcending\none’s limits (Levy 2005), or making a contribution (Martela\n2016).\n\nRecently there has been something of an “interpretive\nturn” in the field, one instance of which is the strong view\nthat meaning-talk is logically about whether and how a life is\nintelligible within a wider frame of reference (Goldman 2018,\n116–29; Seachris 2019; Thomas 2019; cf. Repp 2018). According to\nthis approach, inquiring into life’s meaning is nothing other\nthan seeking out sense-making information, perhaps a narrative about\nlife or an explanation of its source and destiny. This analysis has\nthe advantage of promising to unify a wide array of uses of the term\n“meaning.” However, it has the disadvantages of being\nunable to capture the intuitions that meaning in life is essentially\ngood for its own sake (Landau 2017, 12–15), that it is not\nlogically contradictory to maintain that an ineffable condition is"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.loc.gov/item/14014470",
+              "title": "The meaning of life,  | Library of Congress",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Book/Printed Material The meaning of life,\n\nBack to Search Results\nView 70 images in sequence. Download: PDF ( Complete ) Text ( Complete ) XML (19.2 KB) JPEG (2391x3425px) JPEG (1195x1712px) JPEG (597x856px) JPEG (298x428px) JPEG2000 (412.7 KB) Go\n\nAbout this Item\n\nTitle\n\n* The meaning of life,\n\nNames\n\n* Courtney, W. L. (William Leonard), 1850-1928.\n\nCreated / Published\n\n* New York, E.P. Dutton & Company [c1914]\n\nHeadings\n\n* - Life\n\nNotes\n\n* - Also\n\n...\n\n* Courtney, W. L. (William Leonard)\n\nDates\n\n* 1914\n\nLanguage\n\n* English\n\nSubject\n\n* Life\n\nRights & Access\n\nThe books in this collection are in the public domain and are free to use and reuse.\n\n...\n\nCiting Primary Sources .\n\nCite This Item\n\nCitations are generated automatically from bibliographic data as a convenience, and may not be complete or accurate.\n\nChicago citation style:\n\nCourtney, W. L. The Meaning of Life . [New York, E.P. Dutton & Company, 1914] Pdf. https://www.loc.gov/item/14014470/.\n\nAPA citation style:\n\nCourtney, W. L. (1914) The Meaning of Life . [New York, E.P. Dutton & Company] [Pdf] Retrieved from the Library of Congress, https://www.loc.gov/item/14014470/.\n\nMLA citation style:\n\nCourtney, W. L. The Meaning of Life . [New York, E.P.\n\n...\n\nEcodomy : life in its fullness : brokenness and wholeness Includes bibliographical references (pages 150-168) and index.\n\n...\n\nForms of life and subjectivity : rethinking Sartre's philosophy Includes bibliographical references (pages 305-323) and index."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://philosophynow.org/issues/35/The_Meaning_of_Life",
+              "title": "The Meaning of Life | Issue 35 | Philosophy Now",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "We do not sell personal data or otherwise disclose personal information to other organisations.\nSubmit\n\nHeresy\n\nThe Meaning of Life\n\nDaniel Hill argues that without God, life would be meaningless.\n\nWhat is the meaning of ‘the meaning of life’? In analytic philosophy the bearers of meaning have usually been considered to be words, phrases, clauses, and sentences. Hence life itself is not usually considered to be a bearer of meaning, but the word ‘life’ is. Understanding the meaning of the latter is itself an important philosophical task, to determine whether\n\n...\n\nthe sense usually intended by the earnest questioner. However, the person that asks “What is the meaning of life?” is not usually asking for a definition of the word ‘life’.\n\n...\n\nNo sound or shape essentially means whatever it does in fact mean when produced by a user of the English language as a meaningful linguistic utterance… It has been endowed with whatever meaning or meanings it has by linguistic convention, by agreement among speakers or users of the language. To have meaning of any kind, a thing must be brought under the governance of some kind of purposive intention, whether an intention to refer, to express, to convey, or to operate in the production of some acknowledged value. This is true of all meaning.”\nAs far as life is concerned, then, life has a meaning only if there is an explanation of it in terms of the purposes of an agent that brought life about."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://iep.utm.edu/mean-ear/",
+              "title": "Meaning of Life, The: Early Continental and Analytic Perspectives | Internet Encyclopedia of Philosophy",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "debate in analytic philosophy about the meaning of life.\n\nTable of Contents\n\n1. Background\n1. The Origin of the English Expression “the Meaning of Life”\n2. Questions about the Meaning of Life\n3. The Broader Historical Background\n2. Nineteenth Century Philosophers\n1. Schopenhauer\n2. Kierkegaard\n3. Nietzsche\n4. Tolstoy\n5.\n\n...\n\nConclusion\n6. References and Further Reading\n\n1. Background\n\na. The Origin of the English Expression “the Meaning of Life”\n\nThe English term “meaning” dates back to the fourteenth century C.E.\n\n...\n\nand, on the other hand, dreams, visions, signs, omens, and rituals have or might have. One asks about the meaning of some puzzling utterance, or of the writing on the wall, or of the vision that\n\n...\n\n(7) Finally, the question of the meaning of life can be the question of how one should live in order to have a meaningful life, or, if such a life is impossible, then what the best way to live\n\n...\n\nThese questions are not so much about the meaning of life as about the meaning of “the meaning of life” and its component concepts (“meaning,” “life”), or related ones (“meaningfulness,”\n\n...\n\nthe meaning of life.\n\na. Schopenhauer\n\nThe first Western philosopher to link the ideas of life and meaning, and to ask expressly “What is the meaning of life?” was the great German pessimist Arthur\n\n...\n\nlife is the question how we can live an “authentic” life, one that is our life, not just the life for us that has been fixed by the community we live in."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://plato.stanford.edu/archives/sum2016/entries/life-meaning/",
+              "title": "\nThe Meaning of Life (Stanford Encyclopedia of Philosophy/Summer 2016 Edition)\n",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "meaning on life. This survey focuses heavily on the articulation\n\n...\n\nOne part of the field of life's meaning consists of the systematic attempt to clarify what people mean when they ask in virtue of what life has meaning. This section addresses different accounts of the sense of talk of “life's meaning” (and of “significance,” “importance,” and other synonyms). A large majority of those writing on life's meaning deem talk of it centrally to indicate a positive final value that an individual's life\n\n...\n\n(1948) existentialist account of meaning being constituted by whatever one chooses, and Richard Taylor's (1970, ch. 18) discussion of Sisyphus being able to acquire meaning in his life merely by having his strongest desires satisfied. These are prima facie accounts of meaning in life, but do not essentially involve the attainment of purposes that foster coherence, intelligibility or transcendence.\nThe latter problem also faces the alternative suggestion that talk of “life's meaning” is not necessarily about purposes, but is rather just a matter of referring to goods that are qualitatively superior, worthy of love and devotion, and appropriately awed (Taylor 1989, ch. 1). It is implausible to think that these criteria are satisfied by subjectivist appeals to whatever choices one ends\n\n...\n\nIf you believe that God or a soul is necessary for meaning in life, and if you believe that neither exists, then you are a nihilist, someone who denies that life has meaning."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://plato.stanford.edu/archives/sum2018/entries/life-meaning/",
+              "title": "\nThe Meaning of Life (Stanford Encyclopedia of Philosophy/Summer 2018 Edition)\n",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "meaning on life. This survey focuses heavily on the articulation\n\n...\n\nOne part of the field of life's meaning consists of the systematic attempt to clarify what people mean when they ask in virtue of what life has meaning. This section addresses different accounts of the sense of talk of “life's meaning” (and of “significance,” “importance,” and other synonyms). A large majority of those writing on life's meaning deem talk of it centrally to indicate a positive final value that an individual's life\n\n...\n\n(1948) existentialist account of meaning being constituted by whatever one chooses, and Richard Taylor's (1970, ch. 18) discussion of Sisyphus being able to acquire meaning in his life merely by having his strongest desires satisfied. These are prima facie accounts of meaning in life, but do not essentially involve the attainment of purposes that foster coherence, intelligibility or transcendence.\nThe latter problem also faces the alternative suggestion that talk of “life's meaning” is not necessarily about purposes, but is rather just a matter of referring to goods that are qualitatively superior, worthy of love and devotion, and appropriately awed (Taylor 1989, ch. 1). It is implausible to think that these criteria are satisfied by subjectivist appeals to whatever choices one ends\n\n...\n\nIf you believe that God or a soul is necessary for meaning in life, and if you believe that neither exists, then you are a nihilist, someone who denies that life has meaning."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://plato.stanford.edu/archives/fall2016/entries/life-meaning/",
+              "title": "\nThe Meaning of Life (Stanford Encyclopedia of Philosophy/Fall 2016 Edition)\n",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "meaning on life. This survey focuses heavily on the articulation\n\n...\n\nOne part of the field of life's meaning consists of the systematic attempt to clarify what people mean when they ask in virtue of what life has meaning. This section addresses different accounts of the sense of talk of “life's meaning” (and of “significance,” “importance,” and other synonyms). A large majority of those writing on life's meaning deem talk of it centrally to indicate a positive final value that an individual's life\n\n...\n\n(1948) existentialist account of meaning being constituted by whatever one chooses, and Richard Taylor's (1970, ch. 18) discussion of Sisyphus being able to acquire meaning in his life merely by having his strongest desires satisfied. These are prima facie accounts of meaning in life, but do not essentially involve the attainment of purposes that foster coherence, intelligibility or transcendence.\nThe latter problem also faces the alternative suggestion that talk of “life's meaning” is not necessarily about purposes, but is rather just a matter of referring to goods that are qualitatively superior, worthy of love and devotion, and appropriately awed (Taylor 1989, ch. 1). It is implausible to think that these criteria are satisfied by subjectivist appeals to whatever choices one ends\n\n...\n\nIf you believe that God or a soul is necessary for meaning in life, and if you believe that neither exists, then you are a nihilist, someone who denies that life has meaning."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4275,
+    "completion_tokens": 456,
+    "total_tokens": 4731,
+    "cost": 0.0010897237,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00009063,
+      "upstream_inference_prompt_cost": 0.00007695,
+      "upstream_inference_completions_cost": 0.00001368
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "\"The Meaning of Life\" \"bibliographical references\"",
+  "bookId": "complete-731-50",
+  "retrieved": "2026-11-01T23:05:59.628Z"
+}

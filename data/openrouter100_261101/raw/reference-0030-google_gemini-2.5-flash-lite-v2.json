@@ -1,0 +1,70 @@
+{
+  "retrieved": "2026-11-01T22:11:50.347Z",
+  "bookId": "n328d031d68",
+  "id": "gen-1793571108-bnjNz0LySV2OBb0t0SV4",
+  "object": "chat.completion",
+  "created": 1793571108,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"n328d031d68\",\n  \"title\": \"UNIX: A History and a Memoir\",\n  \"author\": \"Brian W. Kernighan\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 198,\n    \"editionId\": \"9781695978553\",\n    \"editionYear\": null,\n    \"format\": \"Hardcover\",\n    \"language\": \"English\",\n    \"url\": \"https://mitpressbookstore.mit.edu/book/9781695978553\",\n    \"evidence\": \"198 pages\",\n    \"sourceTitle\": \"UNIX: A History and a Memoir\",\n    \"sourceAuthor\": \"Brian W. Kernighan\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://mitpressbookstore.mit.edu/book/9781695978553\",\n    \"https://www.amazon.com.au/dp/1695978552\",\n    \"https://artinv.thorden.se/Art_Aura_Ideas_Booklet.pdf\",\n    \"https://dokumen.pub/conscience-and-history-a-memoir-1nbsped-9781442673236-9780802044259.html\"\n  ],\n  \"limitations\": \"No explicit mention of bibliographical reference page ranges was found in the provided search results. The search results for 'UNIX: A History and a Memoir' did not contain a table of contents or a specific section detailing bibliographical references. The 'Art Aura Ideas Booklet.pdf' mentioned 'lookbib for bibliographic references' in the context of Unix tools but not for the book itself. The 'dokumen.pub' link was for a different memoir ('Conscience and History').\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://artinv.thorden.se/Art_Aura_Ideas_Booklet.pdf",
+              "title": "From Unix Pipes to the App Store The Ideas Behind the Software",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## Art\n\n## Aura\n\n#### From Unix Pipes to the App Store The Ideas Behind the Software\n\nOn cataloging art with command-line tools, the writings that shaped a way of thinking, preserving the aura of original works, and building software that respects both the art and its owners.\n\n### Thompson, Kernighan, and a Way of Thinking\n\nBefore there was Art Aura, before there was an iPad or an App Store, there was a philosophy about how software should work. It came from Bell Labs in New Jersey, and it was articulated most clearly by two people: Ken Thompson and Brian Kernighan.\n\nThompson created Unix in 1969 — not as a commercial product, but as a way to get work done. The operating system was small, elegant, and built on a radical idea: that programs should be simple tools that do one thing well, and that the power comes from combining them. A pipe — the vertical bar character | — connects the output of one program to the input of another. No menus. No configuration dialogs. Just a stream of text flowing from tool to tool.\n\nBrian Kernighan gave this philosophy its voice. His writing — always clear, always precise, always humane — turned a technical system into a way of thinking about problems. The Unix Programming Environment, which he wrote with Rob Pike in 1984, is not just a manual. It is, quietly, one of the great books about design. Every page demonstrates the same principle: start with something simple, compose it with something else simple, and the result is powerful without being complicated.\n\n“Although the Unix system introduces a number of innovative programs and techniques, no single program or idea makes it work well. Instead, what makes it effective is the approach to programming, a philosophy of using the computer. Although that philosophy can’t be written down in a single sentence, at its heart is the idea that the power of a system comes more from the relationships among programs than from the programs themselves.”\n\n— Brian Kernighan & Rob Pike, The Unix Programming Environment, 1984\n\nKernighan had a gift that is rarer than technical brilliance: he could explain complex ideas simply. The C Programming Language, written with Dennis Ritchie, taught a generation of programmers not just a language but a discipline — economy of expression, clarity of thought, respect for the reader. His later books — The Practice of Programming, The Go\n\nProgramming Language, and the memoir UNIX: A History and a Memoir — carry the same quiet authority. He never wastes a word. He never obscures a concept. He trusts the reader to understand, and that trust is always rewarded.\n\nReading Kernighan taught me something that applies far beyond programming: that simplicity is not the absence of sophistication but its highest form. That a tool should be transparent to its user. That the data should be readable by human eyes, not trapped inside a proprietary format. That the best interface is often no interface at all — just text flowing through a pipe.\n\nThese principles shaped everything that followed.\n\n...\n\n### The Hamilton Archive\n\nRichard Hamilton was meticulous about his work. Every piece had to be documented, cataloged, and tracked. Where was it? Who owned it? When was it made? Was there a good photograph? He cared about these questions with the same intensity he brought to making the work itself.\n\nAt the time, the tools available for this kind of work were not software packages or cloud platforms. They were the Unix toolbox: ed for editing, grep for searching, awk for transforming data, lookbib for bibliographic references, nroff and troff for typesetting. When something more specific was needed, you wrote a small C program and connected it to the others through pipes. The philosophy was exactly what Kernighan and Pike had described: each tool does one thing well, and you compose them together.\n\nThe inventory itself was a plain text file. One line per artwork. Fields separated by colons — the standard Unix delimiter. Seven fields, always in the same order:\n\ninventoryNumber : scanStatus : title : year : medium : dimensions : owner"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://dokumen.pub/conscience-and-history-a-memoir-1nbsped-9781442673236-9780802044259.html",
+              "title": "Conscience and History : A Memoir [1&nbsp;ed.]\n 9781442673236, 9780802044259 - DOKUMEN.PUB",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Conscience and History : A Memoir [1 ed.] 9781442673236, 9780802044259 - DOKUMEN.PUB\n\n# Conscience and History : A Memoir [1 ed.] 9781442673236, 9780802044259\n\nConscience and History is a thought-provoking personal look at the ethical questions Canadians have faced in the past fi\n\n756 102 12MB\n\nEnglish Pages 221 Year 1999\n\n...\n\n##### Polecaj historie\n\n...\n\n###### UNIX: A History and a Memoir 1695978552, 978169597855, 9781695978553\n\nThe fascinating story of how Unix began and how it took over the world. Brian Kernighan was a member of the original gro 6,220 841 11MB Read more\n\n###### UNIX. Время UNIX. A history and a memoir 9785446116690\n\nОперационная система Unix завоевала мир, чего совсем не могли представить ее создатели, творя историю на последнем этаже 801 86 5MB Read more\n\n###### UNIX: A History And A Memoir 1695978552, 978169597855, 9781695978553\n\nThe fascinating story of how Unix began and how it took over the world. Brian Kernighan was a member of the original gro 1,427 143 11MB Read more\n\n...\n\n- Author / Uploaded\n- Kenneth McNaught\n- Michael Bliss\n- J. L. Granatstein\n\n##### Citation preview\n\n---\n\nCONSCIENCE AND HISTORY Ken McNaught sketching on Garden Island off Kingston, Ontario KENNETH McNAUGHT Conscience and History: A Memoir UNIVERSITY OF TORONTO PRESS Toronto Buffalo London www.utppublishing.com University of Toronto Press Incorporated 1999 Toronto Buffalo London Printed in Canada ISBN 0-8020-4425-5 (cloth) Printed on acid-free paper Canadian Cataloguing in Publication Data McNaught, Kenneth, 1918-1997 Conscience and history: a memoir Includes bibliographical references and index. ISBN 0-8020-4425-5 1. McNaught, Kenneth, 1918-1997. 2. Historians - Canada Biography. 3. College teachers-Canada-Biography. I. Title. FC151.M32A3 1999 F1024.6.M32A3 1999 971'.007'202 C98-932593-8 The photographs that appear in this book are from the collection of Beverley McNaught. University of Toronto Press acknowledges the financial assistance to its publishing program of the Canada Council for the Arts and the Ontario Arts Council. Contents Foreword vii J.L. GRANATSTEIN and MICHAEL BLISS MEMOIRS 3 Postscript Kenneth W. McNaught: Untypical Professor 195 RAMSAY COOK Index 199 Illustrations follow page 86."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2331,
+    "completion_tokens": 457,
+    "total_tokens": 2788,
+    "cost": 0.007411741,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004159,
+      "upstream_inference_prompt_cost": 0.0002331,
+      "upstream_inference_completions_cost": 0.0001828
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

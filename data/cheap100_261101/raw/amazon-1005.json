@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572077-0rodrGxN1iK5rKdVasDB",
+  "object": "chat.completion",
+  "created": 1793572077,
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "provider": "Nvidia",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"id\": \"shelf-63be5ddce8e3\",\n  \"title\": \"Crossroads: A Popular History of Malaysia and Singapore\",\n  \"author\": \"Jim Baker\",\n  \"amazon\": {\n    \"count\": 4,\n    \"url\": \"https://www.amazon.com/Crossroads-Popular-History-Malaysia-Singapore/dp/9812615229\",\n    \"asin\": \"9812615229\",\n    \"evidence\": \"[amazon.com](https://www.amazon.com/Crossroads-Popular-History-Malaysia-Singapore/dp/9812615229)\"\n  },\n  \"reference\": {\n    \"count\": 4,\n    \"url\": \"https://www.amazon.com/Crossroads-Popular-History-Malaysia-Singapore/dp/9812615229\",\n    \"evidence\": \"[amazon.com](https://www.amazon.com/Crossroads-Popular-History-Malaysia-Singapore/dp/9812615229)\",\n    \"ranges\": [\n      {\n        \"start\": 1,\n        \"end\": 4,\n        \"label\": \"editions\"\n      }\n    ]\n  }\n}",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Crossroads-Popular-History-Malaysia-Singapore/dp/9812615229",
+              "title": "A Popular History of Malaysia and Singapore by Jim Baker ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Crossroads: A Popular History of Malaysia and Singapore by Jim Baker (2010) Paperback ; Publication date. December 1, 2010 ; Dimensions. 5.87 x 1.22 x 8.86 inches."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Crossroads-Popular-History-Malaysia-Singapore/dp/9814841900",
+              "title": "Crossroads: A Popular History of Malaysia and Singapore",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Jim Baker is an American who has lived in Singapore and Malaysia for most of his life. He first published Crossroads in 1999, and subsequently wrote The Eagle"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/he/Jim-Baker-ebook/dp/B00BARLF38",
+              "title": "Crossroads: A Popular History of Malaysia and Singapore",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "In this fully updated, second edition of Crossroads, Jim Baker adds two new chapters that bring Malaysia and Singapore into the middle of the first decade"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Southeast-Asia-History-BAKER-Asian/s?rh=n%3A16252731%2Cp_27%3ABAKER",
+              "title": "Southeast Asia History / Asian History: Books - BAKER",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Crossroads: A Popular History of Malaysia and Singapore · by Jim Baker ... by Jim Baker · Paperback · See options. Other format: Kindle. See all details"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Crossroads-Popular-History-Malaysia-Singapore-ebook/dp/B087Z6F4WJ",
+              "title": "Crossroads: A Popular History of Malaysia and Singapore ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "In this fully updated 4th edition of his ever-popular Crossroads, Jim Baker adds new analysis following the watershed 2018 general elections in Malaysia and"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 782,
+    "completion_tokens": 291,
+    "total_tokens": 1073,
+    "cost": 0.005,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "shelf-63be5ddce8e3",
+  "retrieved": "2026-11-01T22:27:57.552Z"
+}

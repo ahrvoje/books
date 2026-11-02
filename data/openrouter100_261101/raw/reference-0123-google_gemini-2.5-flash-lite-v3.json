@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:22.959Z",
+  "bookId": "q0179",
+  "id": "gen-1793571201-psXxZdmXt7i2MFZzUtRH",
+  "object": "chat.completion",
+  "created": 1793571201,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"q0179\",\n  \"title\": \"How Africa Works\",\n  \"author\": \"Joe Studwell\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 448,\n    \"editionId\": \"ASIN:1788167996\",\n    \"editionYear\": 2026,\n    \"format\": \"Hardback\",\n    \"language\": \"English\",\n    \"url\": \"https://blackwells.co.uk/bookshop/product/How-Africa-Works-by-Joe-Studwell/9781788167994\",\n    \"evidence\": \"Number of pages: | 448\",\n    \"sourceTitle\": \"How Africa Works : Joe Studwell : 9781788167994 : Blackwell's\",\n    \"sourceAuthor\": \"Joe Studwell\"\n  },\n  \"reference\": {\n    \"count\": 66,\n    \"editionId\": \"9780802158437\",\n    \"editionYear\": 2026,\n    \"url\": \"https://elibrary.rockingham.wa.gov.au/cgi-bin/spydus.exe/ENQ/OPAC/BIBENQ?SETLVL=&BRN=565302&CF=BIB&ISGLB=0\",\n    \"evidence\": \"Notes: Includes bibliographical references and index.\",\n    \"sourceTitle\": \"How Africa works : success and failure on the world's last ...\",\n    \"sourceAuthor\": \"Joe Studwell\",\n    \"ranges\": [\n      {\n        \"start\": 337,\n        \"end\": 402,\n        \"label\": \"bibliographical references\",\n        \"evidence\": \"Note bibliography: Includes bibliographical references (pages 337-402) and index.\"\n      }\n    ],\n    \"method\": \"The Library of Congress catalog explicitly states that bibliographical references are included on pages 337-402. This range is used to determine the reference count.\",\n    \"limitation\": \"The exact number of pages for the bibliographical references is not explicitly stated, but the range is provided. The count of 66 is derived from the difference between the start and end pages (402 - 337 + 1 = 66).\"\n  },\n  \"searchedUrls\": [\n    \"https://www.amazon.com.au/dp/1788167996\",\n    \"https://www.amazon.de/dp/1788167996\",\n    \"https://elibrary.rockingham.wa.gov.au/cgi-bin/spydus.exe/ENQ/OPAC/BIBENQ?SETLVL=&BRN=565302&CF=BIB&ISGLB=0\",\n    \"https://www.netgalley.com/catalog/book/699777\",\n    \"https://blackwells.co.uk/bookshop/product/How-Africa-Works-by-Joe-Studwell/9781788167994\",\n    \"https://groveatlantic.com/book/how-africa-works\",\n    \"http://id.loc.gov/resources/instances/in00024337178\"\n  ],\n  \"limitations\": \"The page count for the bibliographical references is inferred from the provided range. Different editions may have different page counts and reference sections.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://id.loc.gov/resources/instances/in00024337178",
+              "title": "How Africa works (Instance) - LC Linked Data Service | Library of Congress",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Bibframe Instance\n\nTitle How Africa works success and failure on the world's last developmental frontier\nIdentified By Lccn: 2025045684 Isbn: 9780802158437 (hardcover) Isbn: 9780802158444 (ebook) ( canceled or invalid )\nNote bibliography: Includes bibliographical references (pages 337-402) and index.\nDimensions 24 cm\nExtent x, 435 pages map\nProvision Activity Publication: New York (State) 2026 Publication: New York: Atlantic Monthly Press, 2026\nCopyright Date 2026\nResponsibility Statement Joe Studwell\nMedia unmediated\nIssuance single unit\nCarrier volume\nEdition Statement First Grove Atlantic US hardcover edition\nAdmin Metadata\nStatus: new\nDate: 2025-09-30T00:00:00\nAgent:\nAdmin Metadata\nStatus: changed\nDate: 2026-07-21T09:32:43\nDescription Modifier: United States, Library of Congress\nAdmin Metadata\nGeneration Process: https://github.com/lcnetdev/bibframe2marc/tree/v3.1-dev\nStatus: changed\nDate: 2026-02-18T00:00:00\n\n...\n\nDescription Conventions: ISBD: International standard bibliographic description Resource description and access\nIdentified By: bf:Local, in00024337178\nDescription Language: English\nDescription Authentication: pcc\nNote: 040 $aIEN/DLC$beng$erda$cDLC$dDLC-MRC$dDLC$dDLC-MRC$dDLC\nNon-rendered Predicates: lclocal:d999\n\n...\n\n* Bounded Description (N-Triples)\n* Load to Marva (bibframe.org Demo)\nInstance Of Studwell, Joe. How Africa works : success and failure on the world's last developmental frontier\nFollow Us\n* Email"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://elibrary.rockingham.wa.gov.au/cgi-bin/spydus.exe/ENQ/OPAC/BIBENQ?SETLVL=&BRN=565302&CF=BIB&ISGLB=0",
+              "title": "How Africa works : success and failure on the world's last ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "London : Profile Books, 2026.©2026. Collation: x, 435 pages : 1 map ; 24 cm. Notes: Includes bibliographical references and index. ISBN: 9781805226772"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.netgalley.com/catalog/book/699777",
+              "title": "    How Africa Works | Joe Studwell | 9780802158437 | NetGalley\n",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Loading in Reader.\n\n× Close\nPlease wait... This may take a moment.\nbook cover for How Africa Works\n\nHow Africa Works\n\nSuccess and Failure on the World's Last Developmental Frontier\nby Joe Studwell\nMore\nThis title was previously available on NetGalley and is now archived.\nBuy on Amazon Buy on BN.com Buy on Bookshop.org\n\n...\n\nUse #HowAfricaWorks #NetGalley . More hashtag tips!\n\nDescription\n\n“[O]ne of the most original and important books on Africa in years.”— Financial Times\n“Challenges outdated narratives and makes a compelling case for the continent's economic potential.”—Bill Gates\n\n...\n\nThe culmination of twenty years spent studying Asian economics, Joe Studwell’s celebrated How Asia Works revealed the key policies behind the meteoric growth of the “Asian tigers.” The question he kept hearing from those inspired by his clear-eyed\n\n...\n\nA decade of research, travel and on-the-ground reporting began.\nStudwell expected that Africa’s challenging geography and its crippling legacies of colonialism would necessitate a unique\n\n...\n\nHe explores these winning policies via four countries that have seen exceptional economic growth (Botswana, Mauritius, Ethiopia and Rwanda) and that demonstrate both the promise and the particular\n\n...\n\n* EDITION | Other Format\n* ISBN | 9780802158437\n* PRICE | $32.00 (USD)\n* PAGES | 480\n\nAvailable on NetGalley\n\nNetGalley Reader (EPUB)\nNetGalley Shelf App (EPUB)\nSend to Kindle (EPUB)\nSend to Kobo (EPUB)\nDownload (EPUB)\n\nAvailable to Buy"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://blackwells.co.uk/bookshop/product/How-Africa-Works-by-Joe-Studwell/9781788167994",
+              "title": "\nHow Africa Works : Joe Studwell : 9781788167994 :\n\n Blackwell's",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "* Development studies\nHow Africa Works\n\nHow Africa Works Success and Failure on the World's Last Developmental Frontier\n\n[Joe Studwell](/bookshop/search/author/Joe Studwell)\nHardback (29 Jan 2026)\n\n...\n\nates, no tariffs applied\n10+ copies available online - Usually dispatched within two working days\nX\nCheck stock\n\nOther formats & editions\n\nNew Paperback (21 Jan 2027) $17.61\n\nPublisher's Synopsis\n\n'One of the most original and important books on Africa in years' FINANCIAL TIMES The birth of new nations, independent democracies, the unprecedented growth of cities from Lagos to Cairo; the\n\n...\n\nIn a groundbreaking new study of Africa's developmental history, economist Joe Studwell debunks long-held views about the continent's presumed resistance to growth, charting monumental changes in government, demography and asset management. Considering everything from settler colonialism to soil conditions, mineral extractivism to disease development and eradication, Studwell persuasively\n\n...\n\ns economic development. From slavery to independence and beyond, this is the definitive account of the world's second largest continent - and an optimistic look to its future.\n* Field name | Data\n* ISBN: | 9781788167994\n* Publisher: | Profile\n* Imprint: | [Profile Books](/bookshop/search/publisher/Profile Books)\n* Pub date: | 29 Jan 2026\n* DEWEY: | 338.96\n* DEWEY edition: | 23\n* Language: | English\n* Number of pages: | 448\n* Weight: | 676g\n* Height: | 243mm"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://groveatlantic.com/book/how-africa-works",
+              "title": "How Africa Works | Grove Atlantic",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "* zoom\n* download\nAtlantic Monthly Press\nAtlantic Monthly Press\nAtlantic Monthly Press\n\nHow Africa Works\n\nSuccess and Failure on the World’s Last Developmental Frontier\n\nby Joe Studwell\n“[O]ne of the most original and important books on Africa in years.”— Financial Times\n“Challenges outdated narratives and makes a compelling case for the continent’s economic potential.”—Bill Gates\nLonglisted for the Financial Times Business Book of the Year\nFrom the acclaimed author of How Asia Works , an essential exploration of the engines of economic growth across Africa.\n* Hardcover\n* E-Book\n* Imprint Atlantic Monthly Press\n* Page Count 448\n* Publication Date February 17, 2026\n* ISBN-13 978-0-8021-5843-7\n* Dimensions 6\" x 9\"\n* US List Price $32.00\n* \n* \n* \n* \n* Imprint Atlantic Monthly Press\n* Publication Date February 17, 2026\n* ISBN-13 978-0-8021-5844-4\n* US List Price $32.00\n* \n* \n* \n* \n* \n* Joe Studwell is Senior Visiting Fellow at the UK’s Overseas Development Institute (ODI).\n\n...\n\nRead More About Joe Studwell\n* joestudwell.wordpress.com\nThe culmination of twenty years spent studying Asian economics, Joe Studwell’s celebrated How Asia Works revealed the key policies behind the\n\n...\n\nHe was finally convinced to investigate further when the inquiries began coming from Africans themselves. A decade of research, travel and on-the-ground\n\n...\n\nStudwell’s thesis is bold, his arguments persuasive, and his style pugnacious. It adds up to a highly readable and i"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2506,
+    "completion_tokens": 826,
+    "total_tokens": 3332,
+    "cost": 0.00557519,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000581,
+      "upstream_inference_prompt_cost": 0.0002506,
+      "upstream_inference_completions_cost": 0.0003304
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

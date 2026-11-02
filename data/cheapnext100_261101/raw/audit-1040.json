@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793573578-j9pvVnb5B2KNf9KZ8FFi",
+  "object": "chat.completion",
+  "created": 1793573578,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-ac437943f6e6:pages:https://www.ndbooks.com/book/urn-burial\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Page count is explicitly stated as 96 for the paperback edition.\"\n    },\n    {\n      \"key\": \"rem-u0957:pages:https://www.goodreads.com/en/book/show/775198.I_Escaped_from_Auschwitz\",\n      \"status\": \"reject\",\n      \"reason\": \"The author is listed as Rudolf Vrba, Robin Vrba, et al. The supplied author is not an exact match.\"\n    },\n    {\n      \"key\": \"rem-u0515:reference:https://link.europarl.europa.eu/resource/pUhsx7GSJK4\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Bibliographic references are explicitly stated as pages 317-318.\"\n    },\n    {\n      \"key\": \"g0480:amazon:https://www.amazon.com/Singularity-Near-Humans-Transcend-Biology/dp/0143037889\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. The global ratings are explicitly stated as 2,055.\"\n    },\n    {\n      \"key\": \"rem-u1594:amazon:https://www.amazon.com/World-Without-Us-Alan-Weisman/dp/0312427905\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. The ratings are explicitly stated as 2,134.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3058,
+    "completion_tokens": 407,
+    "total_tokens": 3465,
+    "cost": 0.0001836054,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00018546,
+      "upstream_inference_prompt_cost": 0.0001529,
+      "upstream_inference_completions_cost": 0.00003256
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:53:01.962Z"
+}

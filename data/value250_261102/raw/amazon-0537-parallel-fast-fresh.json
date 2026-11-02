@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793575677-7fbz9SpihbznMVqiE2GG",
+  "object": "chat.completion",
+  "created": 1793575677,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Pocket-Emergency-Medicine-Joshua-Kosowsky-ebook/dp/B0GX2DMNM4",
+              "title": "Amazon.com: Pocket Emergency Medicine eBook : Kosowsky ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nAmazon.com: Pocket Emergency Medicine eBook : Kosowsky ...\nDesigned for portability and quick reference, Pocket Emergency Medicine, Sixth Edition, provides accurate, actionable, and up-to-date information essential to caring for patients in life-threatening situations, and is an excellent resource for clinical board review.\n\n## \n\nAmazon.com: Pocket Emergency Medicine eBook : Kosowsky ...\nEdited by Drs. Joshua M. Kosowsky and Daniel Resnick-Ault, this fully updated volume in the popular Pocket Notebook series supports the thought processes needed to hone everyday diagnostic decision making, providing a concise and focused review in an easy-to-navigate, pocket-sized handbook.\n\n## \n\nPocket Emergency Medicine - amazon.com\nDesigned for portability and quick reference, Pocket Emergency Medicine, Sixth Edition, provides accurate, actionable, and up-to-date information essential to caring for patients in life-threatening situations, and is an excellent resource for clinical board review. Edited by Drs. Joshua M. Kosowsky and Daniel Resnick-Ault, this fully updated volume in the popular Pocket Notebook series"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 641,
+    "completion_tokens": 1,
+    "total_tokens": 642,
+    "cost": 0.00101145232,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000011568,
+      "upstream_inference_prompt_cost": 0.000011538,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Hess\" Tina Davis and Jessica Resnick-Ault \"global ratings\"",
+  "bookId": "shelf-0d17bd4d74c3",
+  "retrieved": "2026-11-01T23:27:59.094Z"
+}

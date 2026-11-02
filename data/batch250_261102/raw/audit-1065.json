@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576301-6Yj2j5KhP2EEgzGzWmlj",
+  "object": "chat.completion",
+  "created": 1793576301,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g1049:amazon:https://www.amazon.com/Karl-Marxs-Theory-History-Cohen/dp/0691070687\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Rating evidence is explicit and numeric.\"\n    },\n    {\n      \"key\": \"shelf-2ba61becb6c5:amazon:https://www.amazon.com/Madame-Curie-Biography-Eve/dp/0306810387\",\n      \"status\": \"reject\",\n      \"reason\": \"Author mismatch. Source title lists Eve Curie, source text lists Eve Curie and Vincent Sheean.\"\n    },\n    {\n      \"key\": \"bg12ad2f3302:amazon:https://www.amazon.com/Uncertain-World-Choices-Street-Washington/dp/0375505857\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Rating evidence is explicit and numeric.\"\n    },\n    {\n      \"key\": \"shelves-flashpoints:amazon:https://www.amazon.com/Flashpoints-Emerging-Crisis-George-Friedman/dp/0307951138\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Rating evidence is explicit and numeric.\"\n    },\n    {\n      \"key\": \"rem-u1080:amazon:https://www.amazon.com/Passionate-Programmer-Remarkable-Development-Pragmatic/dp/1934356344\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Rating evidence is explicit and numeric.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3351,
+    "completion_tokens": 407,
+    "total_tokens": 3758,
+    "cost": 0.0001981089,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020011,
+      "upstream_inference_prompt_cost": 0.00016755,
+      "upstream_inference_completions_cost": 0.00003256
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:38:29.573Z"
+}

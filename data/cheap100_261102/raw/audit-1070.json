@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574486-FXWzKVq408x7WbE3CZzz",
+  "object": "chat.completion",
+  "created": 1793574486,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-706cf62bd6f6:amazon:https://www.amazon.com/Media-Lab-Inventing-Future-M-I-T/dp/0670814423\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count.\"\n    },\n    {\n      \"key\": \"intake-0267:amazon:https://www.amazon.com/How-We-Die-Reflections-Chapter/dp/0679742441\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count.\"\n    },\n    {\n      \"key\": \"n6f0ca0d735:amazon:https://www.amazon.com/Civilized-Engineer-Samuel-C-Florman/dp/0312025599\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count.\"\n    },\n    {\n      \"key\": \"shelf-1d19e6c4652a:reference:https://collection.sl.nsw.gov.au/record/74VKVyypqWkA\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a bibliographical range.\"\n    },\n    {\n      \"key\": \"rem-u0104:amazon:https://www.amazon.com/Caesars-Palace-Coup-Billionaire-Exposed/dp/1635767741\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3276,
+    "completion_tokens": 434,
+    "total_tokens": 3710,
+    "cost": 0.0001965348,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019852,
+      "upstream_inference_prompt_cost": 0.0001638,
+      "upstream_inference_completions_cost": 0.00003472
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:08:07.796Z"
+}

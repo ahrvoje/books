@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:11:33.069Z",
+  "bookId": "g0423",
+  "id": "gen-1793571092-GN5T5ul79zcKPUDar7mA",
+  "object": "chat.completion",
+  "created": 1793571092,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"g0423\",\n  \"title\": \"Code\",\n  \"author\": \"Charles Petzold\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 393,\n    \"editionId\": \"OL17703091M\",\n    \"editionYear\": 1999,\n    \"format\": \"Hardcover\",\n    \"language\": \"English\",\n    \"url\": \"https://openlibrary.org/books/OL17703091M/Code\",\n    \"evidence\": \"iii, 393 p. : ill. ; 25 cm.\",\n    \"sourceTitle\": \"Code | BYU Library\",\n    \"sourceAuthor\": \"Petzold, Charles, 1953–\"\n  },\n  \"reference\": {\n    \"count\": 1,\n    \"editionId\": \"OL17703091M\",\n    \"editionYear\": 1999,\n    \"url\": \"https://apps.lib.byu.edu/marcrecord/bib/2678127\",\n    \"evidence\": \"Includes bibliographical references (p. 383) and index.\",\n    \"sourceTitle\": \"Code | BYU Library\",\n    \"sourceAuthor\": \"Petzold, Charles, 1953–\",\n    \"ranges\": [\n      {\n        \"start\": 383,\n        \"end\": 383,\n        \"label\": \"bibliographical references\",\n        \"evidence\": \"Includes bibliographical references (p. 383) and index.\"\n      }\n    ],\n    \"method\": \"explicitly stated page number\",\n    \"limitation\": \"Only one reference range was found.\"\n  },\n  \"searchedUrls\": [\n    \"https://apps.lib.byu.edu/marcrecord/bib/2678127\",\n    \"https://lib.byu.edu/search/byu/record/cat.2678127.item.31197219499693\",\n    \"https://www.scribd.com/document/1024260047/Code-The-Hidden-Language-of-Computer-Hardware-and-Software-2nd-Edition-Charles-Petzold-pdf-instant-download\",\n    \"https://archive.org/stream/programming-windows-31-3rd-ed/programming-windows-31-3rd-ed_djvu.txt\",\n    \"https://apps.lib.byu.edu/marcrecord/bib/7007446\"\n  ],\n  \"limitations\": \"The search for bibliographical references was limited to the provided search results. Some results were for different editions or related works, and not all provided detailed page ranges for references.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://apps.lib.byu.edu/marcrecord/bib/2678127",
+              "title": "apps.lib.byu.edu",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Leader *****pam*a22******a*4500\n001 ## a2678127\n003 ## SIRSI\n005 ## 19991015171959.0\n008 ## 990805s1999 waua b 001 0 eng\n010 ## $a 99040198\n020 ## $a 073560505X\n035 ## $a (OCoLC)ocn367660216\n040 ## $a DLC\n $c DLC\n $d NhCcYBP\n $d UPB\n042 ## $a pcc\n050 00 $a QA76.6\n $b .P495 1999\n079 ## $a ocm42290141\n082 00 $a 005.7/2\n $2 21\n100 1# $a Petzold, Charles,\n $d 1953-\n245 10 $a Code :\n $b the hidden language of computer hardware and software /\n $c Charles Petzold.\n260 ## $a Redmond, Wash. :\n $b Microsoft Press,\n $c ©1999.\n300 ## $a iii, 393 p. :\n $b ill. ;\n $c 25 cm.\n336 ## $a text\n $2 rdacontent\n337 ## $a unmediated\n $2 rdamedia\n338 ## $a volume\n $2 rdacarrier\n504 ## $a Includes bibliographical references (p. 383) and index.\n596 ## $a LEE LDSBC\n650 #0 $a Computer programming.\n650 #0 $a Coding theory.\n583 ## $a cat\n $c 20000125\n $k rsb\n $5 UPB\n583 ## $a cat\n $b LDSBC\n $c 20090921\n $k paf\n $5 UPB"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://lib.byu.edu/search/byu/record/cat.2678127.item.31197219499693",
+              "title": "Code | BYU Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Code | BYU Library\n\n Code\n\nThe hidden language of computer hardware and software\n\n book_2 Book/ Petzold, Charles, 1953– > \n\n©1999, Redmond, Wash.: Microsoft Press, English\n\n QA 76.6 .P495 1999 \n\n## Checked Out — 1 copy \n\n Due 14 Nov \n\n Place a request \n\n## Map\n\n See full map → \n\n### Extent\n\n- iii, 393 p.: ill.; 25 cm.\n\n### Subjects\n\n### Language\n\n- English \n\n### Creation Date\n\n- ©1999\n\n### Bibliography\n\n- Includes bibliographical references (p. 383) and index.\n\n### Choice Review\n\n- Petzold, a writer on computing and programming for more than 15 years, begins Code by introducing several examples of digital codes, e.g., Morse, Braille, film-speed rating, Universal Product(UPC), explaining how to perform binary digital logic using electronic devices, and describing binary arithmetic on integers. All of this material is worked out in careful detail. The second half of the book takes a whirlwind tour of memory, assembly language, character and floating-point encodings, processor design and computer architecture, operating systems, programming languages, and graphics. Petzold discusses all these topics in a gradual fashion, going from the simplest communication code up to the latest graphical interface technologies, such as MIDI. Coverage of many of these latter topics, naturally, is at best a broad overview. But the book is very instructive for those who have wondered just what makes computers as useful as they are and explains all in meticulously worked out prose and attendant graphics. An extremely useful work for all levels of readers. C. J. Van Wyk; Drew University"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.scribd.com/document/1024260047/Code-The-Hidden-Language-of-Computer-Hardware-and-Software-2nd-Edition-Charles-Petzold-pdf-instant-download",
+              "title": "Code: The Hidden Language of Computer Hardware and ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Client Challenge\n\nA required part of this site couldn’t load. This may be due to a browser extension, network issues, or browser settings. Please check your connection, disable any ad blockers, or try using a different browser."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/stream/programming-windows-31-3rd-ed/programming-windows-31-3rd-ed_djvu.txt",
+              "title": "Full text of \"Programming Windows 3.1\"",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Cataloging-in-Publication  Data \nPetzold,  Charles,\n...\nProgramming  Windows  :  the  Microsoft  guide  to  writing  applications \nfor  Windows  3.1  /  Charles  Petzold  —  3rd  ed. \np.  cm. \n\nIncludes  bibliographical  references \nISBN  1-55615 -395 -3"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://apps.lib.byu.edu/marcrecord/bib/7007446",
+              "title": "apps.lib.byu.edu",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## OCoLC\n005 ## 20181212111256.0\n008 ## 180914s2018 nyuacf b 001 0deng d\n010 ## $a 2017962712\n040 ## $a PNX\n $b eng\n $e rda\n $c PNX\n $d OCLCO\n $d TCH\n $d CZA\n $d\n...\n$d DAD\n $d OCLCQ\n $d CGP\n $d OCLCQ\n $d OCP\n $d"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1971,
+    "completion_tokens": 668,
+    "total_tokens": 2639,
+    "cost": 0.007459657,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004643,
+      "upstream_inference_prompt_cost": 0.0001971,
+      "upstream_inference_completions_cost": 0.0002672
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

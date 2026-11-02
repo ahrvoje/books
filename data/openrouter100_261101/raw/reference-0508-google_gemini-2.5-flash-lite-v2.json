@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:14:53.656Z",
+  "bookId": "q0290",
+  "id": "gen-1793571291-wdmD11dJGH9RUiXv3LQ5",
+  "object": "chat.completion",
+  "created": 1793571291,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"q0290\",\n  \"title\": \"A Night to Remember\",\n  \"author\": \"Walter Lord\",\n  \"knownEdition\": {\n    \"id\": \"ASIN:0805077642\",\n    \"url\": \"https://www.amazon.com/dp/0805077642\",\n    \"pages\": 182\n  },\n  \"purchaseUrl\": \"https://www.amazon.de/dp/0805077642\",\n  \"reference\": {\n    \"count\": 1,\n    \"editionId\": \"ASIN:0805077642\",\n    \"editionYear\": \"2005\",\n    \"url\": \"https://catalog.spokanelibrary.org/catalog/Record/19eca097-dbc5-5913-b496-e5e49aaf83c6\",\n    \"evidence\": \"Includes bibliographical references.\",\n    \"sourceTitle\": \"A night to remember /\",\n    \"sourceAuthor\": \"Walter Lord\",\n    \"ranges\": [\n      {\n        \"start\": 17,\n        \"end\": null,\n        \"label\": \"bibliographical references\",\n        \"evidence\": \"Includes bibliographical references (page xvii).\"\n      }\n    ],\n    \"method\": \"The Spokane Library catalog explicitly states that the book includes bibliographical references and provides a page number for them.\",\n    \"limitation\": \"The end page for the bibliographical references is not provided.\"\n  },\n  \"searchedUrls\": [\n    \"https://catalog.spokanelibrary.org/catalog/Record/19eca097-dbc5-5913-b496-e5e49aaf83c6\",\n    \"https://catalog.myrichlandlibrary.org/Record/236296\",\n    \"https://catalog.wake.gov/Record/102314\",\n    \"https://broomfieldkids.flatironslibrary.org/Record/.b16786361\",\n    \"https://library.mlc-wels.edu/Record/330265\"\n  ],\n  \"limitations\": \"While multiple library catalogs mention \\\"Includes bibliographical references,\\\" only one provides a specific starting page number (xvii). The end page for the references is not consistently available across the sources.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.spokanelibrary.org/catalog/Record/19eca097-dbc5-5913-b496-e5e49aaf83c6",
+              "title": "A night to remember /",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# A night to remember \n\nWalter Lord\n\nBook - 2005\n\nProvides an account of the sinking of the \"Titanic,\" a reputedly unsinkable ship that went down in the Atlantic on April 10, 1912 after hitting an iceberg, resulting in the deaths of over 1,500 people.\n\n### Liberty Park\n\n| Barcode | Status | Material Type | CallNumber |\n| --- | --- | --- | --- |\n| 37413316493008 | Checked out | Non-fiction | 910.9163 LORD |\n\nBibliographic Details\n\n| Main Author: | Lord, Walter, 1917- |\n| --- | --- |\n| Format: | Book |\n| Language: | English |\n| Published: | New York : Holt, 2005. |\n| Edition: | 1st Owl Books ed. |\n| Subjects: | Titanic (Steamship) |\n\n...\n\n## MARC\n\n| LEADER | 00000pam a2200000 a 4500 | | |\n| --- | --- | --- | --- |\n| 001 | 291363 | | |\n| 008 | 040916s2005 nyua b 000 0 eng | | |\n| 005 | 20260218141626.2 | | |\n| 010 | | | |a 2004059509 |\n| 020 | | | |a 0805077642 |\n| 035 | | | |a (ICrlF)fol09460038 |\n| 035 | | | |a (ICrlF)25279R |\n| 035 | | | |a (SPS)125856 |\n| 035 | | | |a EAA24F5B49E9481C873317BB2F50FA02 |\n| 040 | | | |a DLC |c DLC |d DLC |d ICrlF |\n| 042 | | | |a pcc |\n| 043 | | | |a ln----- |\n| 050 | 0 | 0 | |a G530.T6 |b L6 2005 |\n| 082 | 0 | 0 | |a 910/.9163/4 |2 22 |\n| 100 | 1 | | |a Lord, Walter, |d 1917- |\n| 245 | 1 | 2 | |a A night to remember / |c Walter Lord. |\n| 250 | | | |a 1st Owl Books ed. |\n| 260 | | | |a New York : |b Holt, |c 2005. |\n| 300 | | | |a xx, 182 p. : |b ill. ; |c 22 cm. |\n| 500 | | | |a \"An Owl book.\" |\n| 500 | | | |a \"First published in hardcover in 1955\"--T.p. verso. |\n| 504 | | | |a Includes bibliographical references. |\n| 520 | | | |a Provides an account of the sinking of the \"Titanic,\" a reputedly unsinkable ship that went down in the Atlantic on April 10, 1912 after hitting an iceberg, resulting in the deaths of over 1,500 people. |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.myrichlandlibrary.org/Record/236296",
+              "title": "A night to remember / | Richland Public Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# A night to remember (Book)\n\nAverage Rating\n\n5 star\n\n4 star\n\n3 star\n\n2 star\n\n1 star\n\nAuthor Lord, Walter, 1917-2002, \n\nContributors Philbrick, Nathaniel, writer of introduction. \n\nLexile measure 950L\n\nStatus\n\nOn Shelf\n\nRPL - Adult Nonfiction 910.9163 LORD 1 available\n\n## Copies\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| RPL - Adult Nonfiction | 910.9163 LORD | Available |\n\n## Other Editions and Formats\n\nBook Show Edition\n\nOn Shelf\n\nRPL - Adult Nonfiction 910.9163 LORD 1 available\n\nOCLC Fast Subjects North Atlantic Ocean. Shipwrecks. Titanic (Steamship) \n\nOther Subjects\n\nNonfiction. Shipwrecks -- North Atlantic Ocean. Shipwrecks -- North Atlantic Ocean. Shipwrecks. Titanic (Steamship.) \n\n## More Details\n\nFormat Book\n\nPhysical Desc xx, 182 pages : illustrations ; 21 cm.\n\nLanguage English\n\nLexile measure 950\n\n#### Notes\n\nGeneral Note \"With a new introduction by Nathaniel Philbrick\"--Cover.\n\nGeneral Note \"Fiftieth-anniversary edition\"--Page 4 of cover.\n\nGeneral Note \"A Owl Book.\"\n\nGeneral Note\n\n\"First published in hardcover in 1955 by Henry, Holt, and Company\"--Title page verso.\n\nBibliography Includes bibliographical references (page xvii).\n\nDescription\n\n...\n\n## Citations\n\nAPA Citation, 7th Edition(style guide)\n\nLord, W., & Philbrick, N. (2005). A night to remember (1st Owl books ed.). Henry, Holt, and Company.\n\nChicago / Turabian - Author Date Citation, 17th Edition(style guide)\n\nLord, Walter, 1917-2002 and Nathaniel, Philbrick. 2005. A Night to Remember. Henry, Holt, and Company.\n\nChicago / Turabian - Humanities (Notes and Bibliography) Citation, 17th Edition(style guide)"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.wake.gov/Record/102314",
+              "title": "A night to remember / | Wake County Public Libraries",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# A night to remember (Book)\n\n...\n\nAuthor: Lord, Walter, 1917-2002 \n\nLexile measure: 950L\n\nRating: 950L\n\nStatus:\n\nOn Shelf \n\nExpress - Fayetteville St. - Adult Non-Fiction 910.4 LORD\n\nMorrisville Community - Adult Non-Fiction 910.4 LORD\n\nNorth Regional - Adult Non-Fiction has 3 910.4 LORD\n\n| Available Copies | Location | Call Number |\n| --- | --- | --- |\n| 1 of 1 | Express - Fayetteville St. - Adult Non-Fiction | 910.4 LORD |\n| 0 of 1 | Fuquay-Varina Community - Adult Non-Fiction | 910.4 LORD |\n| 1 of 1 | Morrisville Community - Adult Non-Fiction | 910.4 LORD |\n| 3 of 3 | North Regional - Adult Non-Fiction | 910.4 LORD |\n| 1 of 1 | Northeast Regional - Adult Non-Fiction | 910.4 LORD |\n| 1 of 1 | Wake Forest Community - Adult Non-Fiction | 910.4 LORD |\n| 1 of 1 | West Regional - Adult Non-Fiction | 910.4 LORD |\n\n...\n\n## More Details\n\nPublished: Toronto ; New York, N.Y. : Bantam Books, 1991.\n\nFormat: Book\n\nPhysical Desc: xii, 164 pages : plans ; 18 cm\n\nLanguage: English\n\nISBN: 9780805077643, 0805077642, 0553278274\n\nAccelerated Reader: UG Level 7, 8 Points\n\nLexile measure: 950\n\n#### Notes\n\nGeneral Note\n\nReprint. Originally published: first ed. New York, N.Y. : Holt, 1955.\n\nBibliography Includes bibliographical references.\n\n...\n\n### MARC Record\n\n| LEADER | | | 03046cam a2200445Ia 4500 |\n| --- | --- | --- | --- |\n| 001 | | | 10971963 |\n| 005 | | | 20260414100000.0 |\n| 008 | | | 840312r19561955once b 000 0 eng d |\n| 020 | | | |a 9780805077643 |\n| 020 | | | |a 0805077642 |\n| 020 | | | |a 0553278274 |\n| 035 | | | |a ()102314 |\n| 040 | | | |d UtOrBLW |\n| 092 | 0 | | |a 910.4 LORD |\n| 100 | 1 | | |a Lord, Walter, |d 1917-2002 |\n| 245 | 1 | 2 | |a A night to remember / |c by Walter Lord. |\n| 264 | | 1 | |a Toronto ; |a New York, N.Y. : |b Bantam Books, |c 1991. |\n| 300 | | | |a xii, 164 pages : |b plans ; |c 18 cm |\n| 336 | | | |a text |b txt |2 rdacontent |\n| 337 | | | |a unmediated |b n |2 rdamedia |\n| 338 | | | |a volume |b nc |2 rdacarrier |\n| 500 | | | |a Reprint. Originally published: first ed. New York, N.Y. : Holt, 1955. |\n| 504 | | | |a Includes bibliographical references. |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://broomfieldkids.flatironslibrary.org/Record/.b16786361",
+              "title": "A night to remember / | Marmot Library Network",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# A night to remember (Book)\n\nYour Rating: 0 stars\n\nAuthor: Lord, Walter, 1917-2002, \n\nContributors: Philbrick, Nathaniel, writer of introduction. \n\nPublished: New York, N.Y. : Henry, Holt, and Co., [2005].\n\nFormat: Book\n\nEdition: 1st Holt Paperbacks ed.\n\nPhysical Desc: xx, 182 page : illustrations, plans ; 21 cm\n\nRating: 950L\n\nStatus:\n\nOn Shelf \n\n| Available Copies | Location | Call Number |\n| --- | --- | --- |\n| 1 of 1 | Boulder Gunbarrel Adult Nonfiction | 910.91634 Lord |\n| 1 of 1 | Longmont Adult Nonfiction | 910.4 LOR |\n| 0 of 1 | Louisville Adult Non-Fiction | 910.9163 LOR |\n\n## Copies\n\nLocation Call Number Status Last Check-In\n\n...\n\nDate | Edition | Publisher | Physical Desc.\n\n...\n\nDate | Source | Publisher | Content Desc.\n\n...\n\n## More Details\n\nLanguage: English\n\nISBN: 9780805077643, 0805077642\n\nAccelerated Reader: UG Level 7, 8 Points\n\nLexile measure: 950\n\n#### Notes\n\nGeneral Note\n\nFirst published in hardcover in 1955 by Henry, Holt, and Company.\n\nGeneral Note \"A Holt Paperback.\"\n\nGeneral Note\n\n\"The classic account of the final hours of the Titanic.\"--Cover.\n\nGeneral Note Includes facts about the Titanic and passenger list.\n\nBibliography Includes bibliographical references (page xvii).\n\n...\n\nLord, Walter, 1917-2002 and Nathaniel, Philbrick. 2005. A Night to Remember. Henry, Holt, and Co.\n\n...\n\n| LEADER | | | 02273cam a2200505 a 4500 |\n| --- | --- | --- | --- |\n| 001 | | | CoBPL2004059509 |\n| 003 | | | DLC |\n| 005 | | | 20061127101914.0 |\n| 008 | | | 040916r20051955nyuae e b 000 0 eng |\n| 010 | | | |a 2004059509 |\n| 020 | | | |a 9780805077643 |q (paperback) |\n| 020 | | | |a 0805077642 |q (paperback) |\n| 040 | | | |a DLC |c DLC |d DLC |d CoBoFLC |d CoBPL |\n| 042 | | | |a pcc |\n| 043 | | | |a ln----- |\n| 050 | 0 | 0 | |a G530.T6 |b L6 2005 |\n| 082 | 0 | 0 | |a 910/.9163/4 |2 23 |\n| 100 | 1 | | |a Lord, Walter, |d 1917-2002, |e author. |\n| 245 | 1 | 2 | |a A night to remember / |c Walter Lord ; [with a new introduction by Nathaniel Philbrick]. |\n| 250 | | | |a 1st Holt Paperbacks ed. |\n| 264 | | 1 | |a New York, N.Y. : |b Henry, Holt, and Co., |c [2005] |\n| 264 | | 4 | |c ©2005 |\n| 300 | | | |a xx, 182 page : |b illustrations, plans ; |c 21 cm |\n| 336 | | | |a text |b txt |2 rdacontent |\n| 336 | | | |a still image |b sti |2 rdacontent |\n| 337 | | | |a unmediated |b n |2 rdamedia |\n| 338 | | | |a volume |b nc |2 rdacarrier |\n| 340 | | | |p illustration |p plan |2 rdaill |\n| 500 | | | |a First published in hardcover in 1955 by Henry, Holt, and Company. |\n| 500 | | | |a \"A Holt Paperback.\" |\n| 500 | | | |a \"The classic account of the final hours of the Titanic.\"--Cover. |\n| 500 | | | |a Includes facts about the Titanic and passenger list. |\n| 504 | | | |a Includes bibliographical references (page xvii). |\n| 520 | | | |a Recounts the demise of the \"unsinkable\" Titanic, the massive luxury liner that housed extravagances such as a French \"sidewalk cafe\" and a grand staircase, but failed to provide enough lifeboats for the 2,207 passengers on board. |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://library.mlc-wels.edu/Record/330265",
+              "title": "Book club discussion kit. A night to remember / | Martin Luther College",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Book club discussion kit. A night to remember (Book)\n\nAverage Rating\n\nAuthor Lord, Walter, 1917-2002 \n\nContributors\n\nPhilbrick, Nathaniel, author of introduction.\n\nPublished\n\n[Place of publication not identified] : [publisher not identified], [2017]\n\nFormat Book\n\nEdition 1st Owl Books ed.\n\nISBN 9780805077643 (paperback), 0805077642 (paperback)\n\nPhysical Desc 8 books (xx, 182 pages) ; (40 x 49 cm) + 1 folder.\n\nLexile measure 950L\n\nStatus\n\nAvailable from Another Library See all copies\n\n## Copies\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| Saint Peter Public Library - Adult Book Club Bag | Book Club Bag 910.9163 Lord | Available |\n\n## More Details\n\nLanguage English\n\nLexile measure 950\n\nNotes\n\nOther Title Book club bag. Night to remember\n\nOther Title Night to remember\n\nGeneral Note Book published by Henry, Holt, and Co., ©2005.\n\nGeneral Note\n\nTitle, statement of responsibility, and edition statement from book title page.\n\nGeneral Note Book includes a reader's guide with discussion questions.\n\nGeneral Note \"With a new introduction by Nathaniel Philbrick\"--Cover.\n\nGeneral Note \"Fiftieth-anniversary edition\"--Page 4 of cover.\n\nGeneral Note \"A Owl Book.\"\n\nGeneral Note\n\n\"First published in hardcover in 1955 by Henry, Holt, and Company\"--Title page verso.\n\nBibliography Includes bibliographical references (page xvii).\n\nBibliography Includes bibliographical references (page 424).\n\n...\n\nDescription A cloth bag containing eight copies of the title."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4701,
+    "completion_tokens": 567,
+    "total_tokens": 5268,
+    "cost": 0.007689931,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006969,
+      "upstream_inference_prompt_cost": 0.0004701,
+      "upstream_inference_completions_cost": 0.0002268
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

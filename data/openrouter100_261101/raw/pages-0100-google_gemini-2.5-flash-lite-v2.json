@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:16:19.030Z",
+  "bookId": "shelf-2beb32b0b2a1",
+  "id": "gen-1793571379-aYGWEUWCaNOeDtjUoyMY",
+  "object": "chat.completion",
+  "created": 1793571379,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-2beb32b0b2a1\",\n  \"title\": \"A Better Life\",\n  \"author\": \"Chris Johnson\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 254,\n    \"editionId\": null,\n    \"editionYear\": 2014,\n    \"format\": \"Hardcover\",\n    \"language\": \"English\",\n    \"url\": \"https://www.amazon.com/Better-Life-Atheists-Meaning-2014-05-03/dp/B01F9Q6NKU/ref=mp_s_a_1_3?crid=7S9IGQWRN4ZH&keywords=finding+meaning+atheist+essays&qid=1697847723&sprefix=finding+meaning+athiest+essays%2Caps%2C71&sr=8-3\",\n    \"evidence\": \"Print length\\n\\n254 pages\",\n    \"sourceTitle\": \"A Better Life: 100 Atheists Speak Out on Joy & Meaning in a World Without God by Chris Johnson (2014-05-03)\",\n    \"sourceAuthor\": \"Chris Johnson\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.de/s?k=A%20Better%20Life%20Chris%20Johnson%20paperback\",\n    \"https://www.amazon.com/Better-Life-Atheists-Meaning-2014-05-03/dp/B01F9Q6NKU\",\n    \"https://books.google.com/books/about/A_Better_Life.html?id=jlt-ngEACAAJ\",\n    \"https://bookscouter.com/author/chris-johnson\",\n    \"https://www.goodreads.com/book/show/18747558-a-better-life\",\n    \"https://www.amazon.com/Better-Life-Atheists-Meaning-2014-05-03/dp/B01F9Q6NKU/ref=mp_s_a_1_3?crid=7S9IGQWRN4ZH&keywords=finding+meaning+atheist+essays&qid=1697847723&sprefix=finding+meaning+athiest+essays%2Caps%2C71&sr=8-3\"\n  ],\n  \"limitations\": \"The search results consistently indicate a print length of 254 pages for the hardcover edition. Information regarding a paperback edition's specific page count is not directly available in the provided search results. The format is identified as Hardcover in multiple sources.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Better-Life-Atheists-Meaning-2014-05-03/dp/B01F9Q6NKU",
+              "title": "A Better Life: 100 Atheists Speak Out on Joy & Meaning in a World Without God by Chris Johnson (2014-05-03)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# A Better Life: 100 Atheists Speak Out on Joy & Meaning in a World Without God by Chris Johnson (2014-05-03)\nBrand: Chris Johnson\n\n## Specifications\nPublisher: Cosmic Teapot / Christopher Johnson; Publication date: January 1, 2014; Language: English; Print length: 254 pages; ISBN-10: 0989936007"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://books.google.com/books/about/A_Better_Life.html?id=jlt-ngEACAAJ",
+              "title": "A Better Life :  100 Atheists Speak Out on Joy and Meaning in a World Without God",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# A Better Life: 100 Atheists Speak Out on Joy and Meaning in a World Without God\n\nChris Johnson (photographer)\n\nCosmic Teapot, 2014 - Photography- 254 pages\n\nChris Johnson, a New York-based photographer, traveled throughout the United States, Canada, and the United Kingdom interviewing and photographing atheists from many different backgrounds and professions highlighting the many and varied ways atheists live lives of joy, passion, meaning and purpose. -- cover.\n\n### Bibliographic information\n\nPhotography\n\n›\n\nGeneral\n\n| Title | A Better Life: 100 Atheists Speak Out on Joy and Meaning in a World Without God |\n| --- | --- |\n| Author | Chris Johnson (photographer) |\n| Photographs by | Chris Johnson (photographer) |\n| Edition | illustrated |\n| Publisher | Cosmic Teapot, 2014 |\n| ISBN | 0989936007, 9780989936002 |\n| Length | 254 pages |\n| Subjects | Photography / General Religion / General |\n|   |   |\n| Export Citation | BiBTeX EndNote RefMan |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://bookscouter.com/author/chris-johnson",
+              "title": "Chris Johnson books - All books by Chris Johnson author | BookScouter.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## A Better Life: 100 Atheists Speak Out on Joy & Meaning in a World Without God by Chris Johnson (2014-05-03)\n\nAuthor(s): Chris Johnson ISBN-13: 9780989936002\n\nPublisher: Cosmic Teapot / Christopher Johnson Released: Jan 01, 2014 Format: Hardcover, 254 pages"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.goodreads.com/book/show/18747558-a-better-life",
+              "title": "A Better Life: 100 Atheists Speak Out on Joy & Meaning in a World Without God by Chris Johnson | Goodreads",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Life highlights the various ways that those who are not religious find joy, meaning, and purpose in life. Photographer Chris Johnson spent two years traveling the world speaking with\n...\n254 pages, Hardcover\n\nFirst published January 1, 2014"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Better-Life-Atheists-Meaning-2014-05-03/dp/B01F9Q6NKU/ref=mp_s_a_1_3?crid=7S9IGQWRN4ZH&keywords=finding+meaning+atheist+essays&qid=1697847723&sprefix=finding+meaning+athiest+essays%2Caps%2C71&sr=8-3",
+              "title": "Amazon Prime includes:",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "A Better Life: 100 Atheists Speak Out on Joy & Meaning in a World Without God by Chris Johnson (2014-05-03): Chris Johnson: 9780989936002: Amazon.com: Books\n\n...\n\nHardcover $36.64\n\n...\n\nThe myth persists. ... Starting out as one of the highest-grossing publishing projects on Kickstarter, A Better Life highlights the various ways that those who are not religious find joy, meaning, and purpose in life. Photographer Chris Johnson spent two years traveling the world speaking with and photographing atheists from all walks of life to create this hardcover photography coffeetable book.\n\n...\n\nReport an issue with this product or seller\n\n---\n\nPrevious slide of product details\n\nPrint length\n\n254 pages\n\nLanguage\n\nEnglish\n\nPublisher\n\nCosmic Teapot / Christopher Johnson\n\nPublication date\n\nJanuary 1, 2014\n\nISBN-10\n\n0989936007\n\nISBN-13\n\n978-0989936002\n\nSee all details\n\nNext slide of product details"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1602,
+    "completion_tokens": 660,
+    "total_tokens": 2262,
+    "cost": 0.007419958,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004242,
+      "upstream_inference_prompt_cost": 0.0001602,
+      "upstream_inference_completions_cost": 0.000264
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

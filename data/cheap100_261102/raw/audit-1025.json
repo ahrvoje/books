@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574389-NMHPhoW4MdFJKwPAFrWN",
+  "object": "chat.completion",
+  "created": 1793574389,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"bg4eb480423f:amazon:https://www.amazon.com/Supermoney-Adam-Smith/dp/B08XZ44KVW\",\n      \"status\": \"reject\",\n      \"reason\": \"The author name is not correct. The author is George J. W. Goodman, not Adam Smith.\"\n    },\n    {\n      \"key\": \"shelf-12607f801692:amazon:https://www.amazon.com/George-Lucas-Brian-Jay-Jones/dp/0316257443\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the source text.\"\n    },\n    {\n      \"key\": \"bg12abbc11fa:amazon:https://www.amazon.com/Benjamin-Franklin-American-Walter-Isaacson/dp/074325807X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the source text.\"\n    },\n    {\n      \"key\": \"g0874:reference:https://link.europarl.europa.eu/resource/3ubAUT7ONS0\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the source text.\"\n    },\n    {\n      \"key\": \"g0885:amazon:https://www.amazon.com/History-Money-Jack-Weatherford/dp/0609801724\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the source text.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3325,
+    "completion_tokens": 370,
+    "total_tokens": 3695,
+    "cost": 0.0001938915,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019585,
+      "upstream_inference_prompt_cost": 0.00016625,
+      "upstream_inference_completions_cost": 0.0000296
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:06:34.304Z"
+}

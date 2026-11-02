@@ -1,0 +1,62 @@
+{
+  "id": "gen-1793577013-qY2VWoXcTmvy36n6PsoK",
+  "object": "chat.completion",
+  "created": 1793577013,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "Here",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/mastermindsofpro0000unse",
+              "title": "Masterminds of programming : Free Download, Borrow, and ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nMasterminds of programming : Free Download, Borrow, and ...\nIn this interview collection, you'll learn about the processes that led to specific design decisions, including the goals these pioneers had in mind, the trade-offs they had to make, and how their experiences have made an impact on programming today.\"--P. [4] of cover \"Conversations with the creators of major programming languages\"--Cover"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 277,
+    "completion_tokens": 1,
+    "total_tokens": 278,
+    "cost": 0.00100496584,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000005016,
+      "upstream_inference_prompt_cost": 0.000004986,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "intake-0178",
+  "method": "archive",
+  "query": "site:archive.org/details \"Masterminds of Programming\" Federico Biancuzzi; Shane Warden \"bibliographical references\"",
+  "retrieved": "2026-11-01T23:50:14.599Z"
+}

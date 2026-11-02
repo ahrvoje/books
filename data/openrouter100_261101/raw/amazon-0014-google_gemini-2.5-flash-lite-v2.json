@@ -1,0 +1,60 @@
+{
+  "retrieved": "2026-11-01T22:11:40.043Z",
+  "bookId": "shelf-e2b828f7560f",
+  "id": "gen-1793571100-NsUxigShVYiCQFMSHUv2",
+  "object": "chat.completion",
+  "created": 1793571100,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-e2b828f7560f\",\n  \"title\": \"Electronic Value Exchange\",\n  \"author\": \"David L. Stearns\",\n  \"amazon\": {\n    \"count\": 18,\n    \"stars\": 4.9,\n    \"asin\": \"1849961387\",\n    \"marketplace\": \"amazon.com\",\n    \"url\": \"https://www.amazon.com/dp/1849961387\",\n    \"evidence\": \"4.9 out of 5 stars\\n18 global ratings\",\n    \"sourceTitle\": \"Electronic Value Exchange: Origins of the VISA Electronic Payment System (History of Computing)\",\n    \"sourceAuthor\": \"David L. Stearns\"\n  },\n  \"pages\": {\n    \"count\": 268,\n    \"editionId\": \"9781849961387\",\n    \"editionYear\": 2011,\n    \"format\": \"Hardcover\",\n    \"language\": \"English\",\n    \"url\": \"https://www.amazon.com/dp/1849961387\",\n    \"evidence\": \"268 pages\",\n    \"sourceTitle\": \"Electronic Value Exchange: Origins of the VISA Electronic Payment System (History of Computing)\",\n    \"sourceAuthor\": \"David L. Stearns\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/dp/1849961387\"\n  ],\n  \"limitations\": \"No specific edition year was found for the page count, but the publication date is listed as January 7, 2011.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/dp/1849961387/ref=cm_sw_r_cp_api_i_.brkCb00WRA77",
+              "title": "Amazon Prime includes:",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Amazon.com: Electronic Value Exchange: Origins of the VISA Electronic Payment System (History of Computing): 9781849961387: Stearns, David L.: Books\n\n...\n\n# Follow the author\n\nDavid L. Stearns\n\nFollow\n\nSomething went wrong. Please try your request again later.\n\nby\n\n4.9 4.9 out of 5 stars 18 ratings\n\nPart of: History of Computing (22 books)\n\nSee all formats and editions\n\n...\n\nElectronic Value Exchange examines in detail the transformation of the VISA electronic payment system from a collection of non-integrated, localized, paper-based bank credit card programs into the cooperative, global, electronic value exchange network it is today. Topics and features: provides a history of the VISA system from the mid-1960s to the early 1980s; presents a historical narrative based on research gathered from personal documents and interviews with key actors; investigates, for the first time, both the technological and social infrastructures necessary for the VISA system to operate; supplies a detailed case study, highlighting the mutual shaping of technology and social relations, and the influence that earlier information processing practices have on the way firms adopt computers and telecommunications; examines how “gateways” in transactional networks can reinforce or undermine established social boundaries, and reviews the establishment of trust in new payment devices.\n\n...\n\nPrevious slide of product details\n\nISBN-10\n\n1849961387\n\nISBN-13\n\n978-1849961387\n\nEdition\n\n2011th\n\nPublisher\n\nSpringer\n\nPublication date\n\nJanuary 7, 2011\n\nPart of series\n\nHistory of Computing\n\nLanguage\n\nEnglish\n\n...\n\n268 pages\n\n...\n\n## Customer reviews\n\n4.9 out of 5 stars\n\n4.9 out of 5\n\nWe don’t use a simple average to calculate the overall star rating and percentage breakdown by star. Our system gives more weight to certain factors—including how recent the review is and if the reviewer bought it on Amazon. Learn more\n\n18 global ratings\n\n| 5 star | 85% |\n| --- | --- |\n| 4 star | 15% |\n| 3 star | 0% |\n| 2 star | 0% |\n| 1 star | 0% |\n\nZero tolerance for fake reviews\n\nOur goal is to make sure every review is trustworthy and useful. That's why we use both technology and human investigators to block fake reviews before customers ever see them. Learn more\n\nWe block Amazon accounts that violate our community guidelines. We also block sellers who buy reviews and take legal actions against parties who provide these reviews. Learn how to report\n\n...\n\n### Top reviews from the United States\n\n#### There was a problem filtering reviews right now. Please try again later.\n\nGeoff Sarkissian\n\n5.0 out of 5 stars Well written and informative\n\nReviewed in the United States on February 3, 2011\n\nVerified Purchase\n\nI work in the credit card industry, but I was frustrated by the difficulty in getting good information on the industry and how it was established. ... bought this book ... , with the hope that a more academic ... might ... in ... of ... that ... the incredibly ... of networks ... processors ... quir ... uers/gateways ... industry ... book far exceeded my best expectation. The writing is very thorough,well documented and very clear. I ... the quality of ... there is so much academic ... that is difficult to read ... just plain ... David Stearns, the author, has done a great service to all those who work in the industry by putting together an overview of the Visa network, and the creation of the credit card industry which is concise, detailed and very interesting.\n\n...\n\nRory Shannon\n\n5.0 out of 5 stars Great history of Visa in layman terms\n\nReviewed in the United States on August 8, 2022\n\nVerified Purchase"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1451,
+    "completion_tokens": 402,
+    "total_tokens": 1853,
+    "cost": 0.007302841,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003059,
+      "upstream_inference_prompt_cost": 0.0001451,
+      "upstream_inference_completions_cost": 0.0001608
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

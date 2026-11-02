@@ -1,0 +1,50 @@
+{
+  "id": "gen-1793577041-j3NnEoNlb2aKtmclz50n",
+  "object": "chat.completion",
+  "created": 1793577041,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "Based",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 153,
+    "completion_tokens": 1,
+    "total_tokens": 154,
+    "cost": 0.00100442233,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000004467,
+      "upstream_inference_prompt_cost": 0.000004437,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "n59d0108e56",
+  "method": "archive",
+  "query": "site:archive.org/details \"Computing in the Middle Ages\" Severo M. Ornstein \"bibliographical references\"",
+  "retrieved": "2026-11-01T23:50:43.102Z"
+}

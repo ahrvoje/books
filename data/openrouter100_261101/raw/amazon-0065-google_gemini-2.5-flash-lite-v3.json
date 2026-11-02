@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:20.039Z",
+  "bookId": "nf19a141734",
+  "id": "gen-1793571199-TtAaFDSlIg5xsuDzi9Ne",
+  "object": "chat.completion",
+  "created": 1793571199,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"nf19a141734\",\n  \"title\": \"A Singular Mathematical Promenade\",\n  \"author\": \"Étienne Ghys\",\n  \"amazon\": null,\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Books-Etienne-Ghys/s?rh=n%3A283155%2Cp_27%3AEtienne%2BGhys\",\n    \"https://www.amazon.com/stores/author/B004N2M7VQ/allbooks\",\n    \"https://us.amazon.com/Books-Etienne-%C3%89tienne-GHYS/s?rh=n%3A283155%2Cp_27%3AEtienne%2B%25C3%2589tienne%2BGHYS\",\n    \"https://www.amazon.com/Football-Amazing-Mathematics-Worlds-Watched-ebook/dp/B0F3RMZ4L6\",\n    \"https://www.amazon.com/Etienne-Ghys/e/B004N2M7VQ\"\n  ],\n  \"limitations\": \"No Amazon product page for \\\"A Singular Mathematical Promenade\\\" by Étienne Ghys was found with explicit global ratings. The provided search results show general author pages or other books by the author, but not the specific book with the requested rating information.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Etienne-Ghys/s?rh=n%3A283155%2Cp_27%3AEtienne%2BGhys",
+              "title": "Etienne Ghys: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "A singular mathematical promenade A singular mathematical promenade by Étienne Ghys. A high quality digital reading experience."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B004N2M7VQ/allbooks",
+              "title": "Etienne Ghys: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Follow Etienne Ghys and explore their bibliography. The Amazing Mathematics of the World's Most Watched. A singular mathematical promenade Quick look A"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://us.amazon.com/Books-Etienne-%C3%89tienne-GHYS/s?rh=n%3A283155%2Cp_27%3AEtienne%2B%25C3%2589tienne%2BGHYS",
+              "title": "Etienne Étienne GHYS: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "A singular mathematical promenade A singular mathematical promenade by Étienne Ghys. A high quality digital reading experience."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Football-Amazing-Mathematics-Worlds-Watched-ebook/dp/B0F3RMZ4L6",
+              "title": "The Amazing Mathematics of the World's Most Watched ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Amazing Mathematics of the World's Most Watched ...\nWith Étienne Ghys as our guide, Ghys begins with the classic Telstar ball used in the 1970 World Cup in Mexico. Its twelve black pentagons and twenty white"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Etienne-Ghys/e/B004N2M7VQ",
+              "title": "Etienne Ghys: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Etienne Ghys: books, biography, latest update\nFollow Etienne Ghys and explore their bibliography from Amazon&#39;s. Most popular The Football: The Amazing Mathematics of the World's Most Watched Object"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 993,
+    "completion_tokens": 345,
+    "total_tokens": 1338,
+    "cost": 0.005234927,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002373,
+      "upstream_inference_prompt_cost": 0.0000993,
+      "upstream_inference_completions_cost": 0.000138
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

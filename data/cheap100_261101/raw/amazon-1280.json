@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572681-0OCxl9umrFoQfLRnykTE",
+  "object": "chat.completion",
+  "created": 1793572681,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"ncd4c588fb5\",\n  \"title\": \"History of Free Fall: Aristotle to Galileo\",\n  \"author\": \"Stillman Drake\",\n  \"amazon\": {\n    \"count\": 3,\n    \"url\": \"https://www.amazon.com/Two-Sciences-History-Free-Fall/dp/0921332505\",\n    \"asin\": \"0921332505\",\n    \"evidence\": \"https://www.amazon.com/Two-Sciences-History-Free-Fall/dp/0921332505\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Two-Sciences-History-Free-Fall/dp/0921332505",
+              "title": "Two New Sciences/A History of Free Fall: Galilei, Galileo, Drake, Stillman, Drake, Stillman: 9780921332503: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "r.\nOK\n\nTwo New Sciences/A History of Free Fall Paperback – September 1, 2000\n\nby Galileo Galilei (Author), Stillman Drake (Author, Translator)\n4.2 4.2 out of 5\n\n...\n\nThis is the acclaimed translation by Stillman Drake of \"Discourses and Mathematical Demonstrations Concerning Two New Sciences Pertaining to Mechanics and Local Motions.\" It\n\n...\n\nHistory of Free Fall, by Stillman Drake\nAppended to Drake's translation and commentaries and bound in with them in the same volume is his monograph History of Free Fall: Aristotle to Galileo on the history of the discovery of the law of falling bodies, from its formulation by Aristotle to its clear statement by Galileo. Drake's painstaking research includes a close examination of Galileo's working papers which record his famous experiments with inclined planes and carefully controlled parabolic projectile paths.\n\n...\n\nHe was awarded the 1988 Sarton Medal of the History of Science Society.\n\nProduct details\n\n* ASIN ‏ : ‎ 0921332505\n* Publisher ‏ : ‎ Wall & Emerson, Inc.\n* Publication date ‏ : ‎ September 1, 2000\n\n...\n\n72 in Physics of Mechanics\n* #6,422 in History & Philosophy of Science (Books)\n* #179,138 in History (Books)\n* Customer Reviews: 4.2 4.2 out of 5 stars 3 ratings\n\n...\n\n4.2 out of 5 stars\n4.2 out of 5\n3 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 76% 0% 0% 24% 0% 76%\n* 5 star 4 star 3 star 2 star 1 star 4 star 76% 0% 0% 24% 0% 0%"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Stillman-Drake/s?rh=n%3A283155%2Cp_27%3AStillman%2BDrake",
+              "title": "Stillman Drake: Books - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "History of Free Fall: Aristotle to Galileo, with an Epilogue on Pi in the Sky by Stillman Drake Paperback. New English Translation Cause, Experiment, and ..."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/he/Stillman-Drake/dp/B01N3YPBJD",
+              "title": "Galileo at Work: His Scientific Biography by Stillman Drake ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nGalileo at Work: His Scientific Biography by Stillman Drake ...\nThis fascinating, scholarly study by one of the world's foremost authorities on Galileo offers a vivid portrait of one of history's greatest minds."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B001IODG6C",
+              "title": "Stillman Drake: books, biography, latest update - amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nStillman Drake: books, biography, latest update - amazon.com\nFollow Stillman Drake and explore their bibliography from Amazon's Stillman Drake Author Page."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Ten-Most-Beautiful-Experiments/dp/140003423X",
+              "title": "The Ten Most Beautiful Experiments - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Twenty years later Stillman Drake, one of the leading experts on Galilean science, was sleuthing among the manuscripts in the Biblioteca Nazionale Centrale ..."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1138,
+    "completion_tokens": 152,
+    "total_tokens": 1290,
+    "cost": 0.00502479356,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000025044,
+      "upstream_inference_prompt_cost": 0.000020484,
+      "upstream_inference_completions_cost": 0.00000456
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "ncd4c588fb5",
+  "retrieved": "2026-11-01T22:38:12.737Z"
+}

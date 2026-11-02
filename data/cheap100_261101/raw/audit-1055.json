@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793572727-ZaRNyY0RvFp9eIbLXErF",
+  "object": "chat.completion",
+  "created": 1793572727,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"n99ea1151c9:amazon:https://www.amazon.com/How-Universe-Got-Its-Spots/dp/B000FA4UKG\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 74.\"\n    },\n    {\n      \"key\": \"complete-420-151:amazon:https://www.amazon.com/Thinking-Outside-Brain-Annie-Murphy/dp/0544947665\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 820.\"\n    },\n    {\n      \"key\": \"rem-u1496:amazon:https://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra/dp/039916524X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 6,939.\"\n    },\n    {\n      \"key\": \"shelf-c1303b6bf5ab:amazon:https://www.amazon.com/Paradox-Choice-Why-More-Less/dp/0060005696\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 2,449.\"\n    },\n    {\n      \"key\": \"complete-406-306:amazon:https://www.amazon.com/Everything-Must-Go-Stories-About/dp/0593317092\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 197.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3410,
+    "completion_tokens": 437,
+    "total_tokens": 3847,
+    "cost": 0.0002034054,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020546,
+      "upstream_inference_prompt_cost": 0.0001705,
+      "upstream_inference_completions_cost": 0.00003496
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:38:50.848Z"
+}

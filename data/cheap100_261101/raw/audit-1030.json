@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793572726-zPJvCg4VkvX4MZl2xJsz",
+  "object": "chat.completion",
+  "created": 1793572726,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u1783:amazon:https://www.amazon.com/Subliminal-Your-Unconscious-Rules-Behavior/dp/0307472256\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 1,618 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"rem-u1040:amazon:https://www.amazon.com/Butchering-Art-Transform-Victorian-Medicine/dp/0374117292\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 4,738 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"progress-0325:amazon:https://www.amazon.com/Future-Shop-Technologies-Will-Change/dp/0312063598\",\n      \"status\": \"reject\",\n      \"reason\": \"Author mismatch. Jim Snider is not the only author.\"\n    },\n    {\n      \"key\": \"bge7a69e814b:reference:https://link.sfpl.org/resource/4uHCispUlko\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Bibliographical references explicitly labelled on pages 361-363.\"\n    },\n    {\n      \"key\": \"rest-44-38:amazon:https://www.amazon.com/Indo-Europeans-Rediscovered-Scientific-Revolution-Rewriting/dp/050002863X\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 35 ratings explicitly labelled.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3097,
+    "completion_tokens": 403,
+    "total_tokens": 3500,
+    "cost": 0.0001852191,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00018709,
+      "upstream_inference_prompt_cost": 0.00015485,
+      "upstream_inference_completions_cost": 0.00003224
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:38:51.231Z"
+}

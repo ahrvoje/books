@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793575724-KATBdPApbkbUEaHbHQ8V",
+  "object": "chat.completion",
+  "created": 1793575724,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/NASA-Archives-40th-Ed/dp/3836588080",
+              "title": "The NASA Archives. 45th Ed. (45th Edition): Bizony, Piers, Chaikin, Andrew, Launius, Roger, Dr.: 9783836588089: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Book Shushanik\n\nImage Unavailable\n\nImage not available for Color:\n* The NASA Archives. 45th Ed. (45th Edition)\n* To view this video download Flash Player\n* VIDEOS\n* 360° VIEW\n* IMAGES\n* \n\nFollow the authors\n\nGet new release updates & improved recommendations\nSee all\nPiers Bizony\nPiers Bizony\nFollow\nAndrew Chaikin\nAndrew Chaikin\nFollow\nSomething went wrong. Please try your request again later.\nOK\n\nThe NASA Archives. 45th Ed. (45th Edition) Hardcover – December 22, 2022\n\nby Piers Bizony (Author), Andrew Chaikin (Author), Dr. Launius, Roger (Author)\n4.9 4.9 out of 5 stars (231)\nSorry, there was a problem loading this page. Try again.\n{\"desktop_buybox_group_1\":[{\"displayPrice\":\"$24.99\",\"priceAmount\":24.99,\"currencySymbol\":\"$\",\"integerValue\":\"24\",\"decima\n\n...\n\nThis compact edition is derived from our XL edition, which was researched in collaboration with NASA, and gathers hundreds of historic photographs and rare concept renderings , scanned and remastered using the latest technology. Texts by science and technology journalist Piers Bizony , former NASA chief historian Roger Launius , and best-selling Apollo historian Andrew Chaikin round out this comprehensive exploration of NASA , from its earliest days to its current development of new space systems for the future .\nThe NASA\n\n...\n\nCustomer reviews\n\n4.9 out of 5 stars\n4.9 out of 5\n231 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 92% 6% 1% 1% 0% 92%\n* 5 star 4 star 3 star 2 star 1 star 4 star 92% 6% 1% 1% 0% 6%"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 901,
+    "completion_tokens": 1,
+    "total_tokens": 902,
+    "cost": 0.00101608552,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000016248,
+      "upstream_inference_prompt_cost": 0.000016218,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The NASA Archives\" Piers Bizony; Andrew Chaikin; Roger Launius \"global ratings\"",
+  "bookId": "shelf-b218ae062ac6",
+  "retrieved": "2026-11-01T23:28:46.230Z"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793575598-hPi47JH1QYqF81UpKwqR",
+  "object": "chat.completion",
+  "created": 1793575598,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/he/Hawking-Jim-Ottaviani/dp/1626720258",
+              "title": "Hawking: 9781626720251: Ottaviani, Jim, Myrick, Leland: ספרים",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nHawking: 9781626720251: Ottaviani, Jim, Myrick, Leland: ספרים\nFollowing their New York Times-bestselling graphic novel Feynman, Jim Ottaviani and Leland Myrick deliver a gripping biography of Stephen Hawking,"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Hawking-Jim-Ottaviani/dp/1626720258",
+              "title": "Hawking: Ottaviani, Jim, Myrick, Leland: 9781626720251",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nHawking: Ottaviani, Jim, Myrick, Leland: 9781626720251\nJim Ottaviani and Leland Myrick deliver a gripping biography of Stephen Hawking, one of the most important scientists of our time.\n\n## \n\nHawking: Ottaviani, Jim, Myrick, Leland: 9781626720251\nA graphic novel biography of Stephen Hawking chronicles his journey from Oxford student to renowned physicist and cultural icon, while battling ALS and writing\n\n## \n\nHawking: Ottaviani, Jim, Myrick, Leland: 9781626720251\nA graphic novel biography of Stephen Hawking chronicles his journey from Oxford student to renowned physicist and cultural icon,\n\n## \n\nHawking: Ottaviani, Jim, Myrick, Leland: 9781626720251\nA graphic novel biography of Stephen Hawking chronicles his journey from Oxford student to renowned physicist and cultural icon, while battling ALS\n\n## \n\nHawking: Ottaviani, Jim, Myrick, Leland: 9781626720251\nWhat's it about? A graphic novel biography of Stephen Hawking chronicles his journey from Oxford student to renowned physicist and cultural icon, while battling"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 865,
+    "completion_tokens": 1,
+    "total_tokens": 866,
+    "cost": 0.001015444,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000156,
+      "upstream_inference_prompt_cost": 0.00001557,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Feynman\" Jim Ottaviani; Leland Myrick \"global ratings\"",
+  "bookId": "shelf-ada3a8dd4984",
+  "retrieved": "2026-11-01T23:26:39.464Z"
+}

@@ -1,0 +1,80 @@
+{
+  "retrieved": "2026-11-01T21:18:21.901Z",
+  "bookId": "rest-109-91",
+  "id": "gen-1793567901-cTzCWBqkcMAelxgQnziG",
+  "object": "chat.completion",
+  "created": 1793567901,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"rest-109-91\",\n  \"title\": \"Spectacular Flops: Game-Changing Technologies That Failed\",\n  \"author\": \"Michael Brian Schiffer\",\n  \"amazon\": {\n    \"count\": null,\n    \"stars\": null,\n    \"asin\": \"B07YGWL6VP\",\n    \"marketplace\": \"amazon.com\",\n    \"url\": \"https://www.amazon.com/Spectacular-Flops-Game-Changing-Technologies-Failed/dp/B07YGWL6VP\",\n    \"evidence\": \"Format: Kindle Edition\",\n    \"sourceTitle\": \"Spectacular Flops: Game-Changing Technologies That Failed\",\n    \"sourceAuthor\": \"Michael Brian Schiffer\",\n    \"snapshotLimitation\": \"The provided Amazon snapshot does not contain an explicit total rating aggregate.\"\n  },\n  \"pages\": {\n    \"count\": 300,\n    \"editionId\": \"Spectacular Flops: Game-Changing Technologies That Failed; edition date unverified\",\n    \"editionYear\": null,\n    \"format\": \"Paperback\",\n    \"language\": \"English\",\n    \"url\": \"https://blackwells.co.uk/bookshop/product/Spectacular-Flops-by-Michael-B-Schiffer/9780989824996\",\n    \"evidence\": \"Number of pages: 300\",\n    \"sourceTitle\": \"Spectacular Flops Game-Changing Technologies That Failed\",\n    \"sourceAuthor\": \"Michael B. Schiffer\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Spectacular-Flops-Game-Changing-Technologies-Failed/dp/B07YGWL6VP\",\n    \"https://www.amazon.com/Spectacular-Flops-Game-Changing-Technologies-Failed/dp/0989824993\",\n    \"https://www.amazon.de/s?k=Spectacular%20Flops%3A%20Game-Changing%20Technologies%20That%20Failed%20Michael%20Brian%20Schiffer\",\n    \"https://blackwells.co.uk/bookshop/product/Spectacular-Flops-by-Michael-B-Schiffer/9780989824996\"\n  ],\n  \"limitations\": \"The Amazon snapshot for the Kindle edition does not provide a total rating aggregate. The provided JSTOR link does not contain information about the total rating aggregate.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Spectacular-Flops-Game-Changing-Technologies-Failed/dp/0989824993",
+              "title": "Spectacular Flops: Game-Changing Technologies That ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Amazon.com\n**\n**#### Enter the characters you see below\nSorry, we just need to make sure you're not a robot. For best results, please make sure your browser is accepting cookies.\n#### Type the characters you see in this image:\n\nTry different image\nContinue shopping\nConditions of UsePrivacy Policy\n© 1996-2014, Amazon.com, Inc. or its affiliates"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/dp/B07YGWL6VP",
+              "title": "Spectacular Flops: Game-Changing Technologies That Failed",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Spectacular Flops: Game-Changing Technologies That Failed\nBrand: by Michael Brian Schiffer (Author) Format: Kindle Edition\nCategory: Engineering & Transportation > Engineering\n\nASIN: B07YGWL6VP"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://blackwells.co.uk/bookshop/product/Spectacular-Flops-by-Michael-B-Schiffer/9780989824996",
+              "title": "Spectacular Flops : Michael B. Schiffer : 9780989824996 :\n\n Blackwell's",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Spectacular Flops : Michael B. Schiffer : 9780989824996 : Blackwell's\n\n# Spectacular Flops Game-Changing Technologies That Failed \n\n Michael B. Schiffer \n\n Paperback (30 Apr 2019) \n\n- ¥6,730 \n\nIn Stock\n\n Includes delivery to Japan \n\n 6 copies available online - Usually dispatched within 7-10 days \n\n## Publisher's Synopsis\n\nMany technologies begin life as someone's vision of an ambitious, perhaps audacious, technology that is expected to have a revolutionary impact on consumers-whether families, companies, or societies. However, if this highly touted technology fails 'prematurely' at some point in its life history, it becomes a spectacular flop.\n\nEmploying a behavioral perspective, this book presents a sample of twelve spectacular flops encompassing the past three centuries-ranging from the world's first automobile to the nuclear-powered bomber. Because technologies may fail from many different causes, spectacular flops pose a special challenge to the author's long-term project of furnishing generalizations about technological change.\n\nInstead of constructing generalizations that apply to all spectacular flops, this book provides limited generalizations that pertain to particular groups of technologies bounded by parameters such as 'long-term development projects' and 'one-off projects.' The reader need have no prior familiarity with the technologies because basic principles are introduced as needed.\n\nBook information\n\n| Field name | Data |\n| --- | --- |\n| ISBN: | 9780989824996 |\n| Publisher: | Eliot Werner Publications |\n| Imprint: | Eliot Werner Publications |\n| Pub date: | 30 Apr 2019 |\n| DEWEY: | 509 |\n| DEWEY edition: | 23 |\n| Language: | English |\n| Number of pages: | 300 |\n| Weight: | 500g |\n| Height: | 291mm |\n| Width: | 227mm |\n| Spine width: | 18mm |"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1324,
+    "completion_tokens": 593,
+    "total_tokens": 1917,
+    "cost": 0.007365904,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003696,
+      "upstream_inference_prompt_cost": 0.0001324,
+      "upstream_inference_completions_cost": 0.0002372
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

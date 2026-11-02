@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:14:58.655Z",
+  "bookId": "shelf-8e7bd449b10c",
+  "id": "gen-1793571299-nhcSR5TBYd5K8LDi1x7q",
+  "object": "chat.completion",
+  "created": 1793571299,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-8e7bd449b10c\",\n  \"title\": \"Neutrino Hunters\",\n  \"author\": \"Ray Jayawardhana\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 243,\n    \"editionId\": \"OL29039704M\",\n    \"editionYear\": null,\n    \"format\": \"Hardcover\",\n    \"language\": \"English\",\n    \"url\": \"https://openlibrary.org/books/OL29039704M\",\n    \"evidence\": \"243 pages\",\n    \"sourceTitle\": \"Open Library\",\n    \"sourceAuthor\": \"Internet Archive\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.de/dp/1443414263\"\n  ],\n  \"limitations\": \"No Amazon product found matching the specific book title and author on amazon.de. The provided search results from Amazon Music are for a song and album by Russell Haswell, not the book by Ray Jayawardhana.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://music.amazon.co.uk/tracks/B0C7NDN8YR",
+              "title": "Neutrino Hunter song by Russell Haswell from 37 Minute Work Out on Amazon Music",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Neutrino Hunter song by Russell Haswell from 37 Minute Work Out on Amazon Music\n\n# Neutrino Hunter\n\nRussell Haswell\n\n37 Minute Work Out\n\n5 MINUTES AND 41 SECONDS • FEB 24 2014\n\n## Album tracklist\n\n1\n\nSpring Break (Extended Freestyle Playlist Edit)\n\n02:40\n\nAlternative Ways to the Truth\n\n2\n\nAlternative Ways to the Truth\n\n02:12\n\nNeutrino Hunter\n\n3\n\nNeutrino Hunter\n\n05:41\n\nUnknown Known\n\n4\n\nUnknown Known\n\n03:11\n\nIncalculable Harm\n\n5\n\nIncalculable Harm\n\n02:42\n\nChaos Clapping\n\n6\n\nChaos Clapping\n\n02:40\n\nChaos Clapping Reprise\n\n7\n\nChaos Clapping Reprise\n\n02:22\n\nIn Memorium of Elph\n\n8\n\nIn Memorium of Elph\n\n02:29\n\nScratchy\n\n9\n\nScratchy\n\n02:58\n\nScratchy (Freeze Dub)\n\n10\n\n03:47\n\nBlast Beats\n\n11\n\nBlast Beats\n\n04:50\n\nConvalescence\n\n12\n\nConvalescence\n\n02:11"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://music.amazon.co.uk/albums/B0C7ND9FZZ",
+              "title": "Play 37 Minute Work Out by Russell Haswell on Amazon Music Unlimited",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Play 37 Minute Work Out by Russell Haswell on Amazon Music Unlimited\n\n# 37 Minute Work Out\n\nRussell Haswell\n\n12 SONGS • 37 MINUTES • FEB 24 2014\n\nSpring Break (Extended Freestyle Playlist Edit)\n\n02:40\n\nAlternative Ways to the Truth\n\n2\n\nAlternative Ways to the Truth\n\n02:12\n\nNeutrino Hunter\n\n3\n\nNeutrino Hunter\n\n05:41\n\nUnknown Known\n\n4\n\nUnknown Known\n\n03:11\n\nIncalculable Harm\n\n5\n\nIncalculable Harm\n\n02:42\n\nChaos Clapping\n\n6\n\nChaos Clapping\n\n02:40\n\nChaos Clapping Reprise\n\n7\n\nChaos Clapping Reprise\n\n02:22\n\nIn Memorium of Elph\n\n8\n\nIn Memorium of Elph\n\n02:29\n\nScratchy\n\n9\n\nScratchy\n\n02:58\n\nScratchy (Freeze Dub)\n\n10\n\n03:47\n\nBlast Beats\n\n11\n\nBlast Beats\n\n04:50\n\nConvalescence\n\n12\n\nConvalescence\n\n02:11"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://music.amazon.co.uk/tracks/B0C7ND3S4J",
+              "title": "Spring Break (Extended Freestyle Playlist Edit) song by Russell Haswell from 37 Minute Work Out on Amazon Music",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Spring Break (Extended Freestyle Playlist Edit)\n\nRussell Haswell\n\n37 Minute Work Out\n\n2 MINUTES AND 40 SECONDS • FEB 24 2014\n\n## Album tracklist\n\n1\n\nSpring Break (Extended Freestyle Playlist Edit)\n\n02:40\n\nAlternative Ways to the Truth\n\n2\n\nAlternative Ways to the Truth\n\n02:12\n\nNeutrino Hunter\n\n3\n\nNeutrino Hunter\n\n05:41"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://music.amazon.co.uk/tracks/B0C7NGGXFB",
+              "title": "Alternative Ways to the Truth song by Russell Haswell from 37 Minute Work Out on Amazon Music",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "37 Minute Work Out\n\n2 MINUTES AND 12 SECONDS • FEB 24 2014\n\n## Album tracklist\n\n1\n\nSpring Break (Extended Freestyle Playlist Edit)\n\n02:40\n\nAlternative Ways to the Truth\n\n2\n\nAlternative Ways to the Truth\n\n02:12\n\nNeutrino Hunter\n\n3\n\nNeutrino Hunter"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://music.amazon.co.uk/tracks/B0C7NDBRGJ",
+              "title": "Unknown Known song by Russell Haswell from 37 Minute Work Out on Amazon Music",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "37 Minute Work Out\n\n3 MINUTES AND 11 SECONDS • FEB 24 2014\n\n## Album tracklist\n\n1\n\nSpring Break (Extended Freestyle Playlist Edit)\n\n02:40\n\nAlternative Ways to the Truth\n\n2\n\nAlternative Ways to the Truth\n\n02:12\n\nNeutrino Hunter\n\n3\n\nNeutrino Hunter"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1542,
+    "completion_tokens": 263,
+    "total_tokens": 1805,
+    "cost": 0.007256806,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002594,
+      "upstream_inference_prompt_cost": 0.0001542,
+      "upstream_inference_completions_cost": 0.0001052
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

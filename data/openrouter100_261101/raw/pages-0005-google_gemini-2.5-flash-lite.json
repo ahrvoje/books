@@ -1,0 +1,80 @@
+{
+  "retrieved": "2026-11-01T21:18:45.966Z",
+  "bookId": "shelf-eea55ad5e3ae",
+  "id": "gen-1793567924-rWvcSBrL87JxBzZOw89V",
+  "object": "chat.completion",
+  "created": 1793567924,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-eea55ad5e3ae\",\n  \"title\": \"The Elon Musk Blog Series: Wait But Why\",\n  \"author\": \"Tim Urban\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 550,\n    \"editionId\": \"Kindle Edition\",\n    \"editionYear\": 2016,\n    \"format\": \"Kindle Edition\",\n    \"language\": null,\n    \"url\": \"https://www.goodreads.com/book/show/29437730-the-elon-musk-blog-series\",\n    \"evidence\": \"550 pages, Kindle Edition\",\n    \"sourceTitle\": \"The Elon Musk Blog Series: Wait But Why by Tim Urban\",\n    \"sourceAuthor\": \"Tim Urban\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.goodreads.com/book/show/29437730-the-elon-musk-blog-series\",\n    \"https://wait-but-why-production.mystagingwebsite.com/2017/03/elon-musk-post-series.html\",\n    \"https://toolsandtoys.net/the-elon-musk-blog-series-kindle-ebook-by-tim-urban/\"\n  ],\n  \"limitations\": \"No print page count was found. The available page count is for the Kindle Edition.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.goodreads.com/book/show/29437730-the-elon-musk-blog-series",
+              "title": "The Elon Musk Blog Series: Wait But Why by Tim Urban | Goodreads",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Elon Musk Blog Series: Wait But Why by Tim Urban | Goodreads\n\n# The Elon Musk Blog Series: Wait But Why\n\nTim Urban\n\n1,836 ratings 155 reviews\n\nIn 2015, Elon Musk reached out to blogger Tim Urban and asked him if he'd take a crack at explaining Elon's endeavors, and the industries surrounding them, to the world. Tim accepted, and after extensive meetings with Elon and his staff, he wrote four blog posts that Vox’s David Roberts called “the meatiest, most fascinating, most satisfying posts I've read in ages.” Here is the whole series, in one ebook.\n\nGenres Nonfiction Biography Science Business Technology Space Entrepreneurship\n\n550 pages, Kindle Edition\n\nFirst published February 29, 2016\n\n334 people are currently reading\n\n2761 people want to read"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://wait-but-why-production.mystagingwebsite.com/2017/03/elon-musk-post-series.html",
+              "title": "The Elon Musk Post Series",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Elon Musk Post Series — Wait But Why\n\nIn 2015, I got a call from Elon Musk. Not something you expect to happen. What ensued was a six-month deep dive into the world of Elon and his companies and four long articles about what I found. Here they are:\n\nPost 1: About Elon—and an intro to the whole series\n\nPost 2: The full story with Tesla\n\nPost 3: The full story with SpaceX\n\nPost 4: About Elon’s secret sauce—the way he thinks\n\nThen, in 2017, Elon started a new company, and I dove back in:\n\nLong Neuralink piece coming out on@waitbutwhy in about a week. Difficult to dedicate the time, but existential risk is too high not to.\n\n— Elon Musk (@elonmusk) March 28, 2017\n\nAnd two months later, another post:\n\nNeuralink and the Brain’s Magical Future\n\nFinally, three shorter articles about other corners of the Elon world:\n\nMini-posts on the Hyperloop and solar energy\n\nAnd a post about SpaceX’s giant rocket that will take people to Mars"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://toolsandtoys.net/the-elon-musk-blog-series-kindle-ebook-by-tim-urban/",
+              "title": "'The Elon Musk Blog Series' Kindle eBook by Tim Urban",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## ‘The Elon Musk Blog Series’ Kindle eBook by Tim Urban\n\nLongtime readers of our Friday Quality Linkage column have already seen me gush about a four-part series of articles, written by Tim Urban of Wait But Why, about Elon Musk and what he's trying to do for humanity.\n\nNow those four massive articles have been collected into a single Kindle ebook. If you haven't had the chance to sink your teeth into this series yet, I'd say this is the best way to do it.\n\n...\n\nPosted By Chris Gonzales"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 342,
+    "total_tokens": 1532,
+    "cost": 0.007253242,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002558,
+      "upstream_inference_prompt_cost": 0.000119,
+      "upstream_inference_completions_cost": 0.0001368
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

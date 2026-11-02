@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574807-cisokNffne3yrXUkYAyy",
+  "object": "chat.completion",
+  "created": 1793574807,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"q1040:amazon:https://www.amazon.com/Chasing-Scream-Opposite-Addiction-Connection/dp/1620408902\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 5,835 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"g1231:amazon:https://www.amazon.com/Warren-Buffett-Inside-Ultimate-Money/dp/1119714591\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 160 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"bgd471008b5d:amazon:https://www.amazon.com/Moment-Lift-Empowering-Women-Changes/dp/1250313570\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 8,756 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"complete-280-243:amazon:https://www.amazon.com/Making-Sense-Conversations-Consciousness-Morality/dp/0062857789\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 661 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"intake-0006:amazon:https://www.amazon.com/Freedoms-Forge-American-Business-Produced/dp/0812982045\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 1,909 ratings explicitly stated. Print length of 432 pages explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3340,
+    "completion_tokens": 430,
+    "total_tokens": 3770,
+    "cost": 0.000199386,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002014,
+      "upstream_inference_prompt_cost": 0.000167,
+      "upstream_inference_completions_cost": 0.0000344
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:13:29.586Z"
+}

@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:11:53.846Z",
+  "bookId": "complete-922-385",
+  "id": "gen-1793571114-6eIJ3hIwGvcyzXt163rm",
+  "object": "chat.completion",
+  "created": 1793571114,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"complete-922-385\",\n  \"title\": \"Surface Science — The First Thirty Years\",\n  \"author\": \"Duke, C.B., ed.\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 332,\n    \"editionId\": null,\n    \"editionYear\": 1994,\n    \"format\": \"Paperback\",\n    \"language\": \"English\",\n    \"url\": \"https://www.isbnlab.com/book/9780444818270/surface-science-the-first-thirty-years\",\n    \"evidence\": \"Pages: 332\",\n    \"sourceTitle\": \"Surface Science: The First Thirty Years\",\n    \"sourceAuthor\": \"Charles B. Duke, C.B. Duke\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.isbnlab.com/book/9780444818270/surface-science-the-first-thirty-years\",\n    \"http://opac.lib.niigata-u.ac.jp/en/recordID/catalog.bib/BA22699341\",\n    \"http://opac.lib.niigata-u.ac.jp/export/bibtex/717732\",\n    \"https://doi.org/10.1016/0039-6028(94)90641-6\",\n    \"http://opac.lib.niigata-u.ac.jp/export/text/717732\"\n  ],\n  \"limitations\": \"The Niigata University Library catalog indicates a page count of 1054 pages for a different edition (hardcover, ISBN 9780444818133). The ISBNLab entry specifies 332 pages for the paperback edition (ISBN 9780444818270).\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://opac.lib.niigata-u.ac.jp/en/recordID/catalog.bib/BA22699341",
+              "title": "Surface science : the first thirty years｜新潟大学附属図書館OPAC",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Surface science : the first thirty years｜新潟大学附属図書館OPAC\n\n# Surface science : the first thirty years \n\n Import bibliographic records \n\nFormat\n: - Book\n\nResponsibility\n: editor: Charles B. Duke \n\nPublished\n: - Amsterdam ; Tokyo : North-Holland , 1994 \n\nDescription\n: - xii , 1054 p. ; 27 cm \n\nISBN\n: - 9780444818133 [0444818138] \n- 9780444818270 [0444818278] (: pbk) \n\nAuthor\n: - Duke, Charles B. \n\nCatalog.Bib\n: - BA22699341\n\nNote\n: - Reprinted from Surface Science 299 / 300 (1994) 1-23\n- Includes index\n\nE-Resources\n\n Bibliographic details \n\nLanguage\n: - English \n\nClassification / Subject\n: - DCC：530.417"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.isbnlab.com/book/9780444818270/surface-science-the-first-thirty-years",
+              "title": "Surface Science: The First Thirty Years | ISBNLab.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## Surface Science: The First Thirty Years\n\n \n\nTitle\n: Surface Science: The First Thirty Years\nISBN-10\n: 0-444-81827-8\nISBN-13\n: 978-0-444-81827-0\nAuthor(s)\n: Charles B. Duke, C.B. Duke\nPublisher\n: Elsevier Science \nPublished\n: 1994 \nFormat\n: Paperback\nSubtitle\n: Login for full book details.\nSeries\n: Login to see series details.\nImprint\n: Login for imprint details. \nPages\n: 332\nLanguage\n: Login for language details.\nSubjects\n: Login for subjects details."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://opac.lib.niigata-u.ac.jp/export/bibtex/717732",
+              "title": "opac.lib.niigata-u.ac.jp",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "@book{\n author = \"Duke, Charles B.\",\n title = \"Surface science : the first thirty years\",\n year: 1994\n key = \"Surface chemistry\",\n key = \"Surfaces (Technology)\",\n key = \"Surfaces (Physics)\",\n publisher = \"North-Holland\",\n address = \"Amsterdam ; Tokyo\",\n ISSN/ISBN = \"9780444818133 [0444818138]\",\n ISSN/ISBN = \"9780444818270 [0444818278] (: pbk)\",\n}"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://doi.org/10.1016/0039-6028(94)90641-6",
+              "title": "Surface science: The first thirty years",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Surface science: The first thirty years\n\nSurface Science. Published: 1994-01-01. 82 citations.\n\n## Authors\n\n- C. B. Duke (Webster, New York, August 27, 1993 USA): h-index 52; 8,793 citations; corresponding author"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://opac.lib.niigata-u.ac.jp/export/text/717732",
+              "title": "opac.lib.niigata-u.ac.jp",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Title: Surface science : the first thirty years\nAuthor: DukeCharles B.\nPublication info: North-Holland, Amsterdam ; Tokyo, 1994\nISBN: 9780444818133\nCatalog key: BA22699341\nURL: http://opac.lib.niigata-u.ac.jp/recordID/catalog.bib/BA22699341\nFormat: Other"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1481,
+    "completion_tokens": 474,
+    "total_tokens": 1955,
+    "cost": 0.007334323,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003377,
+      "upstream_inference_prompt_cost": 0.0001481,
+      "upstream_inference_completions_cost": 0.0001896
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

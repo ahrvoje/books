@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793574264-RNOiLMEKV9Z8vBTkTJhv",
+  "object": "chat.completion",
+  "created": 1793574264,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"bg120b7e5929\",\n  \"title\": \"Beyond Smoke and Mirrors: Mexican Immigration in an Era of Economic Integration\",\n  \"author\": \"Douglas S. Massey, Jorge Durand and Nolan J. Malone\",\n  \"pages\": null,\n  \"amazon\": {\n    \"count\": 4.5,\n    \"url\": \"https://www.amazon.com/Beyond-Smoke-Mirrors-Immigration-Integration/dp/087154590X\",\n    \"asin\": \"087154590X\",\n    \"evidence\": \"Global ratings: 4.5 out of 5 stars (120 ratings)\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Beyond-Smoke-Mirrors-Immigration-Integration/dp/087154590X",
+              "title": "Beyond Smoke and Mirrors: Mexican Immigration in an Era ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nBeyond Smoke and Mirrors: Mexican Immigration in an Era ...\nDouglas S. Massey is the … won the Distinguished Publication Award of the American Sociological Association. Massey is a member of the National Academy of\n\n## \n\nBeyond Smoke and Mirrors: Mexican Immigration in an Era ...\nDouglas S. Massey is the ・ won the Distinguished Publication Award of the American Sociological Association. Beyond Smoke and Mirrors ・ won the 2004 Otis\n\n## \n\nBeyond Smoke and Mirrors: Mexican Immigration in an Era ...\nAnalyzes how US immigration policies from 1986-1996 damaged US-Mexico relations, created black markets for labor, and lowered wages while proposing solutions"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 572,
+    "completion_tokens": 172,
+    "total_tokens": 744,
+    "cost": 0.00101530144,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000015456,
+      "upstream_inference_prompt_cost": 0.000010296,
+      "upstream_inference_completions_cost": 0.00000516
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Beyond Smoke and Mirrors\" Douglas S. Massey, Jorge Durand and Nolan J. Malone \"global ratings\"",
+  "bookId": "bg120b7e5929",
+  "retrieved": "2026-11-01T23:04:25.823Z"
+}

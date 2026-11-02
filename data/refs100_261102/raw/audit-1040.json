@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793577365-GyR3UOdieejan4C8JYpR",
+  "object": "chat.completion",
+  "created": 1793577365,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"q0434:reference:https://ndlsearch.ndl.go.jp/books/R100000136-I1971712334781147314\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title and text match the supplied book and author. The reference range is explicitly stated.\"\n    },\n    {\n      \"key\": \"progress-0040:reference:https://search.library.ucsb.edu/discovery/fulldisplay?adaptor=Local%20Search%20Engine&context=L&docid=alma9947951658603776&lang=en&mode=advanced&offset=0&query=sub%2Cexact%2Cpopulation%20growth%2CAND&search_scope=DN_and_CI&tab=Everything&vid=01UCSB_INST%3AUCSB\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title and text match the supplied book and author. The reference range is explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u0737:reference:https://catalog.libraries.psu.edu/catalog/10770515\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title and text match the supplied book and author. The reference range is explicitly stated.\"\n    },\n    {\n      \"key\": \"q1037:reference:https://hollis.harvard.edu/primo-explore/fulldisplay?adaptor=Local%20Search%20Engine&context=L&docid=01HVD_ALMA212516883130003941&isFrbr=true&lang=en_US&offset=0&query=any%2Ccontains%2Ca&search_scope=HVD_SEC&sortby=title&tab=books&vid=HVD2\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title and text match the supplied book and author. The reference range is explicitly stated.\"\n    },\n    {\n      \"key\": \"complete-713-48:reference:https://wellcomecollection.org/works/haskmqar\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title and text match the supplied book and author. The reference range is explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3717,
+    "completion_tokens": 562,
+    "total_tokens": 4279,
+    "cost": 0.0002285019,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00023081,
+      "upstream_inference_prompt_cost": 0.00018585,
+      "upstream_inference_completions_cost": 0.00004496
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:56:13.872Z"
+}

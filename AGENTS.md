@@ -14,6 +14,20 @@ Files analysis_<short-src>_<date> contains detailed output of every specific ana
 
 Main analysis guidelines are below. They are to be an input for every analysis and provide detailed instructions on collecting, filtering, scoring, judging, and formatting the final result. This prompt is the most relevant part of this page and use is in its strict form and prescribed detail with almost mathematical rigor.
 
+## Low-cost OpenRouter metadata workers
+
+Use this cheapest effective tested setup for missing Amazon rating counts, total-page counts and reference-page counts. The primary assistant verifies and catalogs the evidence.
+
+- **Research:** `mistralai/mistral-nemo`, `temperature: 0`, `max_tokens: 1`, `reasoning: {"enabled": false}`; plugin `{"id":"web","engine":"parallel","mode":"fast","max_results":10}`. Extract saved source text from `choices[0].message.annotations[].url_citation`; never use the generated answer as evidence.
+- **Amazon ratings:** query `site:amazon.com "TITLE" AUTHOR "global ratings"`. For broad collection, combine two title-and-author clauses with `OR`; use individual queries for unresolved books. Accept one matching product’s total ratings, not written reviews or sums across products. Kindle rating aggregates are allowed.
+- **Total pages:** query `"TITLE" AUTHOR publisher paperback pages`, preferably with a known ISBN. Use an explicit publisher or library print-edition count; retain its edition identity and format.
+- **Reference pages:** query `"FULL TITLE" AUTHOR "bibliographical references"` individually. Count the inclusive union of documented notes, bibliography and reference ranges; exclude the index. Do not infer counts from the presence of references. Label unconfirmed or differing-edition ratios as estimates.
+- **Reuse first:** inspect cached source bodies as well as headings, match title and author, and recover useful secondary results. Track attempted IDs and accepted fields to avoid duplicate searches. Missing evidence stays unknown.
+- **Audit:** `mistralai/mistral-small-24b-instruct-2501`, five candidates per call, `temperature: 0`, `max_tokens: 3000`, reasoning disabled, no search plugin. Supply identity, field, count, ranges where relevant, URL and source text; request JSON decisions with reasons. Resolve flags against the source before cataloging.
+- **Execution:** use two concurrent requests, avoid overlapping large batches, and retry missing responses after other batches finish. Stop scheduling searches once enough verified candidates exist; let in-flight calls finish. Save provenance and recalculate affected scores.
+- **Optimization metric:** total recorded batch cost divided by new entries actually accepted and cataloged, including unsuccessful searches, experiments, retries and audits. Count each entry once; separate cached evidence’s earlier sunk costs. Do not optimize for search hits or response counts.
+- **Credential:** read `api-key` only in process memory and send it only to `https://openrouter.ai/api/v1/chat/completions`, with redirects disabled. Never expose it in commands, output, logs or artifacts.
+
 # THE ANALYSIS PROMPT
 Study the thread at the link, including all the individual post's comments which contain most of the data: [INPUT]
 

@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574806-Iiflpu8xiqDGNZbTZ6Gh",
+  "object": "chat.completion",
+  "created": 1793574806,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g1137:reference:https://collection.sl.nsw.gov.au/record/74VKVxr3M3yg\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference pages 275-276 are explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-5fb0bbaf8b07:amazon:https://www.amazon.com/Dior-V-Fashion-Perspectives/dp/1851779787\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The 384 global ratings are explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-bdc88f01a469:amazon:https://www.amazon.com/Bowerman-Oregon-Oregons-Legendary-Co-founder/dp/1594861900\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The 392 global ratings are explicitly stated.\"\n    },\n    {\n      \"key\": \"n1c1b7d9578:amazon:https://www.amazon.com/Art-Looking-Sideways-Alan-Fletcher/dp/0714834491\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The 297 global ratings are explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-8209f42c25db:amazon:https://www.amazon.com/Revolusi-Indonesia-Birth-Modern-World/dp/1324073691\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The 303 global ratings are explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3451,
+    "completion_tokens": 433,
+    "total_tokens": 3884,
+    "cost": 0.0002051181,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020719,
+      "upstream_inference_prompt_cost": 0.00017255,
+      "upstream_inference_completions_cost": 0.00003464
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:13:28.978Z"
+}

@@ -1,0 +1,325 @@
+[
+  {
+    "id": "recursive/flint-v1.0:free",
+    "context_length": 262144,
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  },
+  {
+    "id": "xingchen-agi/xing4.0-29b-a4b:free",
+    "context_length": 262144,
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  },
+  {
+    "id": "nvidia/nemotron-3.5-super-vl:free",
+    "context_length": 1000000,
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  },
+  {
+    "id": "scaledown/summarize",
+    "context_length": 1000000,
+    "pricing": {
+      "prompt": "0.00000004",
+      "completion": "0"
+    }
+  },
+  {
+    "id": "scaledown/extract",
+    "context_length": 1000000,
+    "pricing": {
+      "prompt": "0.00000004",
+      "completion": "0"
+    }
+  },
+  {
+    "id": "upstage/solar-mini4",
+    "context_length": 524288,
+    "pricing": {
+      "prompt": "0.00000005",
+      "completion": "0.0000002",
+      "input_cache_read": "0.000000005"
+    }
+  },
+  {
+    "id": "inference-net/schematron-v2-turbo",
+    "context_length": 128000,
+    "pricing": {
+      "prompt": "0.00000003",
+      "completion": "0.00000015",
+      "input_cache_read": "0.00000003"
+    }
+  },
+  {
+    "id": "inception/mercury-2.5",
+    "context_length": 260000,
+    "pricing": {
+      "prompt": "0.00000004",
+      "completion": "0.00000015",
+      "input_cache_read": "0.000000004"
+    }
+  },
+  {
+    "id": "nex-agi/nex-n2.5-mini",
+    "context_length": 262144,
+    "pricing": {
+      "prompt": "0.000000025",
+      "completion": "0.0000001",
+      "input_cache_read": "0.0000000025"
+    }
+  },
+  {
+    "id": "~z-ai/glm-flash-latest",
+    "context_length": 1048576,
+    "pricing": {
+      "prompt": "0.0000000285",
+      "completion": "0.0000000923",
+      "input_cache_read": "0.0000000285"
+    }
+  },
+  {
+    "id": "z-ai/glm-5.3-flash",
+    "context_length": 1048576,
+    "pricing": {
+      "prompt": "0.0000000285",
+      "completion": "0.0000000923",
+      "input_cache_read": "0.0000000285"
+    }
+  },
+  {
+    "id": "tencent/hy-mt2-1.8b",
+    "context_length": 8192,
+    "pricing": {
+      "prompt": "0.000000044",
+      "completion": "0.000000177"
+    }
+  },
+  {
+    "id": "dots-studio/dots-3-note-preview:free",
+    "context_length": 512000,
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  },
+  {
+    "id": "liquid/lfm-2.5-2.6b:free",
+    "context_length": 65536,
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  },
+  {
+    "id": "nvidia/nemotron-3.5-lightning:free",
+    "context_length": 1000000,
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  },
+  {
+    "id": "thinkingmachines/inkling-small:free",
+    "context_length": 1048576,
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  },
+  {
+    "id": "qwen/qwen3.7-flash",
+    "context_length": 1000000,
+    "pricing": {
+      "prompt": "0.00000003",
+      "completion": "0.00000013",
+      "input_cache_read": "0.000000006",
+      "input_cache_write": "0.000000038",
+      "overrides": [
+        {
+          "min_prompt_tokens": 32000,
+          "prompt": "0.0000001",
+          "completion": "0.0000004",
+          "input_cache_read": "0.00000002",
+          "input_cache_write": "0.000000125"
+        },
+        {
+          "min_prompt_tokens": 256000,
+          "prompt": "0.0000002",
+          "completion": "0.0000008",
+          "input_cache_read": "0.00000004",
+          "input_cache_write": "0.00000025"
+        }
+      ]
+    }
+  },
+  {
+    "id": "inclusionai/ling-3.0-flash",
+    "context_length": 262144,
+    "pricing": {
+      "prompt": "0.000000021",
+      "completion": "0.000000063",
+      "input_cache_read": "0.0000000042"
+    }
+  },
+  {
+    "id": "thinkingmachines/inkling:free",
+    "context_length": 1048576,
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  },
+  {
+    "id": "cohere/north-mini-code:free",
+    "context_length": 256000,
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  },
+  {
+    "id": "nvidia/nemotron-3.5-content-safety:free",
+    "context_length": 128000,
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  },
+  {
+    "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "context_length": 1000000,
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  },
+  {
+    "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "context_length": 256000,
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  },
+  {
+    "id": "google/gemma-4-26b-a4b-it:free",
+    "context_length": 262144,
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  },
+  {
+    "id": "google/gemma-4-31b-it:free",
+    "context_length": 262144,
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  },
+  {
+    "id": "openai/gpt-oss-120b",
+    "context_length": 131072,
+    "pricing": {
+      "prompt": "0.000000029",
+      "completion": "0.000000107",
+      "input_cache_read": "0.000000026"
+    }
+  },
+  {
+    "id": "openai/gpt-oss-20b",
+    "context_length": 131072,
+    "pricing": {
+      "prompt": "0.00000003",
+      "completion": "0.00000013",
+      "input_cache_read": "0.00000003"
+    }
+  },
+  {
+    "id": "google/gemini-2.5-flash-lite",
+    "context_length": 1048576,
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000004",
+      "image": "0.0000001",
+      "audio": "0.0000003",
+      "input_audio_cache": "0.00000003",
+      "web_search": "0.014",
+      "internal_reasoning": "0.0000004",
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.0000000833333333333333"
+    }
+  },
+  {
+    "id": "google/gemma-3-4b-it",
+    "context_length": 131072,
+    "pricing": {
+      "prompt": "0.00000005",
+      "completion": "0.0000001"
+    }
+  },
+  {
+    "id": "google/gemma-3-12b-it",
+    "context_length": 131072,
+    "pricing": {
+      "prompt": "0.00000005",
+      "completion": "0.00000015"
+    }
+  },
+  {
+    "id": "mistralai/mistral-small-24b-instruct-2501",
+    "context_length": 32768,
+    "pricing": {
+      "prompt": "0.00000005",
+      "completion": "0.00000008"
+    }
+  },
+  {
+    "id": "cohere/command-r7b-12-2024",
+    "context_length": 128000,
+    "pricing": {
+      "prompt": "0.0000000375",
+      "completion": "0.00000015"
+    }
+  },
+  {
+    "id": "amazon/nova-micro-v1",
+    "context_length": 128000,
+    "pricing": {
+      "prompt": "0.000000035",
+      "completion": "0.00000014"
+    }
+  },
+  {
+    "id": "sao10k/l3-lunaris-8b",
+    "context_length": 8192,
+    "pricing": {
+      "prompt": "0.00000004",
+      "completion": "0.00000005"
+    }
+  },
+  {
+    "id": "meta-llama/llama-3.1-8b-instruct",
+    "context_length": 131072,
+    "pricing": {
+      "prompt": "0.00000005",
+      "completion": "0.00000008",
+      "input_cache_read": "0.000000025"
+    }
+  },
+  {
+    "id": "mistralai/mistral-nemo",
+    "context_length": 131072,
+    "pricing": {
+      "prompt": "0.000000029",
+      "completion": "0.00000003"
+    }
+  }
+]

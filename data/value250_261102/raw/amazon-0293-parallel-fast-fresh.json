@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793575599-72mp4xlqoA2h8YL7e1so",
+  "object": "chat.completion",
+  "created": 1793575599,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Mein-Weltbild-Albert-Einstein/dp/3548367283",
+              "title": "Mein Weltbild: Einstein, Albert: 9783548367286 - Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nMein Weltbild: Einstein, Albert: 9783548367286 - Books\nA world-famous theoretical physicist, he was awarded the 1921 Nobel Prize for Physics and is renowned for his Theory of Relativity."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/albert-einstein-Books/s?k=albert%20einstein&rh=n%3A283155",
+              "title": "Amazon.com: Albert Einstein: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nAmazon.com: Albert Einstein: Books\nOn a Beam of Light: A Story of Albert Einstein (Illustrated Biographies by Chronicle Books) by Jennifer Berne and Vladimir Radunsky Paperback Ages: 3 - 8 years\n\n## \n\nAmazon.com: Albert Einstein: Books\nAlbert Einstein’s “Why Socialism?\": The Enduring Relevance of His Classic Essay. Online shopping from a great selection at Books Store.\n\n## \n\nAmazon.com: Albert Einstein: Books\nUnderstanding the Theory of Relativity: A Beginner’s Guide to Einstein’s Revolutionary Ideas about Space, Time, and Gravity Part of: Half Hour Help Physics and Theoretical Science Series (18 books)\n\n## \n\nAmazon.com: Albert Einstein: Books\nAlbert Einstein (National Geographic Kids Readers, Level 3) Part of: Readers (39 books) Paperback Ages: 7 - 9 years Add to cart Other formats: Kindle, Library Binding\n\n## \n\nAmazon.com: Albert Einstein: Books\nThe Essential Einstein: Public Writings by Albert Einstein , Diana Kormos Buchwald, et al. Hardcover Add to cart Other formats: Kindle, Audiobook\n\n## \n\nAmazon.com: Albert Einstein: Books\nAlbert Einstein (National Geographic Kids Readers, Level 3) Part of: Readers (39 books) Paperback Savings Get 3 for the price of 2\n\n## \n\nAmazon.com: Albert Einstein: Books\nThe Amazing Story of Albert Einstein: Book for Curious Kids on the Science, Life, and Legacy of a Genius (Legends Who Changed the World)"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 851,
+    "completion_tokens": 1,
+    "total_tokens": 852,
+    "cost": 0.00101519452,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000015348,
+      "upstream_inference_prompt_cost": 0.000015318,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Albert Einstein\" Banesh Hoffmann; Helen Dukas \"global ratings\"",
+  "bookId": "g0034",
+  "retrieved": "2026-11-01T23:26:40.701Z"
+}

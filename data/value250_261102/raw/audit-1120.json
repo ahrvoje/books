@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575734-wPAFKetifPpbaVO3IL4y",
+  "object": "chat.completion",
+  "created": 1793575734,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g0863:amazon:https://www.amazon.com/Stone-Age-Economics-Marshall-Sahlins/dp/0202010996\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 67 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"complete-837-121:amazon:https://www.amazon.com/Evolution-Remarkable-History-Scientific-Chronicles/dp/0679642889\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 87 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"bgbd5e105264:amazon:https://www.amazon.com/Art-Learning-Journey-Optimal-Performance/dp/0743277465\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 5,417 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"intake-0500:amazon:https://www.amazon.com/Art-Profitability-Adrian-Slywotzky/dp/0446692271\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 254 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-30a7c850652a:amazon:https://www.amazon.com/Spec-Ops-Studies-Operations-Practice/dp/0891416005\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 647 ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3563,
+    "completion_tokens": 418,
+    "total_tokens": 3981,
+    "cost": 0.0002094741,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021159,
+      "upstream_inference_prompt_cost": 0.00017815,
+      "upstream_inference_completions_cost": 0.00003344
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:29:01.433Z"
+}

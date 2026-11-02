@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572304-Yt8Y8viryZBI809GqN2n",
+  "object": "chat.completion",
+  "created": 1793572304,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-03cfce0d6d24\",\n  \"title\": \"Rocket Man: Robert H. Goddard and the Birth of the Space Age\",\n  \"author\": \"David A. Clary\",\n  \"amazon\": {\n    \"count\": 288,\n    \"url\": \"https://www.amazon.com/Rocket-Man-Robert-Goddard-Space/dp/0884330973\",\n    \"asin\": \"B00DTOXJPC\",\n    \"evidence\": [\n      [\"Amazon.com\", \"Rocket Man: Robert H. Goddard and the Birth of the Space Age · Paperback.\"],\n      [\"Amazon.com\", \"Rocket Man: Robert H. Goddard and the Birth of the Space Age · by David A. Clary · Kindle Edition · See all details · Network Medicine: Complex Systems in\"]\n    ]\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/es/David-Clary/dp/B00XV41UW4",
+              "title": "Rocket Man : Robert H. Goddard and the Birth of the Space Age ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Amazon.com: Rocket Man : Robert H. Goddard and the Birth of the Space Age(Paperback) - 2004 Edition: 0884330973858: David A. Clary: Libros."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/zh_TW/David-Clary/dp/B00XV41UW4",
+              "title": "Rocket Man : Robert H. Goddard and the Birth of the Space Age ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Amazon.com: Rocket Man : Robert H. Goddard and the Birth of the Space Age(Paperback) - 2004 Edition: 0884330973858: David A. Clary: 圖書."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Kindle-Store-David-Clary/s?rh=n%3A133140011%2Cp_27%3ADavid%2BClary",
+              "title": "David Clary: Kindle Store",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Rocket Man: Robert H. Goddard and the Birth of the Space Age · by David A. Clary · Kindle Edition · See all details · Network Medicine: Complex Systems in"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/he/David-Clary/dp/B00DTOXJPC",
+              "title": "Rocket Man: Robert H. Goddard and the Birth of the Space Age",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Amazon.com: Rocket Man: Robert H. Goddard and the Birth of the Space Age: 0884941593964: Clary, David A.: ספרים."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/rocket-men/s?k=rocket+men",
+              "title": "Rocket Men",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Rocket Man: Robert H. Goddard and the Birth of the Space Age · by David A. Clary · Paperback."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 773,
+    "completion_tokens": 211,
+    "total_tokens": 984,
+    "cost": 0.00502004156,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000020244,
+      "upstream_inference_prompt_cost": 0.000013914,
+      "upstream_inference_completions_cost": 0.00000633
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "shelf-03cfce0d6d24",
+  "retrieved": "2026-11-01T22:31:58.441Z"
+}

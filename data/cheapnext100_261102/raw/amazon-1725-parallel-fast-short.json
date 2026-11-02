@@ -1,0 +1,87 @@
+{
+  "id": "gen-1793574735-cQy1LICYOhFw45TALaQd",
+  "object": "chat.completion",
+  "created": 1793574735,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Politics-Bitcoin-Right-Wing-Extremism-Forerunners/dp/1517901804",
+              "title": "The Politics of Bitcoin: Software as Right-Wing Extremism",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Politics of Bitcoin: Software as Right-Wing Extremism\nThis book is about the political and economic ideas that underpin Bitcoin and its blockchain technology, and how these ideas are connected to far-right \n\n## \n\nThe Politics of Bitcoin: Software as Right-Wing Extremism\nThe Politics of Bitcoin exposes how much of the economic and political thought on which this cryptocurrency is based emerges from ideas that travel the gamut.\n\n## \n\nThe Politics of Bitcoin: Software as Right-Wing Extremism ...\nThe Politics of Bitcoin exposes how much of the economic and political thought on which this cryptocurrency is based emerges from ideas that travel the gamut, from Milton Friedman, F.A. Hayek, and Ludwig von Mises to Federal Reserve conspiracy theorists."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Tech-Coup-Democracy-Silicon-Valley/dp/B0DGQXLTWP",
+              "title": "The Tech Coup: How to Save Democracy from Silicon Valley: Marietje Schaake: 9798228299740: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Facial recognition firms track citizens for police surveillance. Cryptocurrency has wiped out the savings of millions and threatens the stability of the global financial system.\n\n...\n\nPage 1 of 1 Start over\nPrevious set of slides\n1. Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI\nEmpire of AI: Dreams and Nightmares in Sam Altman's OpenAI\nKaren Hao\n4.4 out of 5 stars 2,478\n\n...\n\nCyberlibertarianism: The Right-Wing Politics of Digital Technology\nCyberlibertarianism: The Right-Wing Politics of Digital Technology\nDavid Golumbia\n4.1 out of 5 stars 15\nPaperback\n-14% $30.05 $ 30 . 05\nList: $34.95\nGet it as soon as Sunday, Nov 1\nFREE Shipping on orders over $35 shipped by Amazon\nOnly 17 left in stock (more on the way).\n3. More Everything Forever: AI Overlords, Space Empires, and Silicon Valley's Crusade to Control the Fate of Humanity\n\n...\n\n* #512 in Public Affairs & Policy Politics Books\n* Customer R\n\n...\n\nKindle Edition\n-29% $9.99 $ 9 . 99 Print List Price: $13.99 Print List Price: null $13.99\n4. Numbers Don't Lie - Beyond the Political Narratives: An Independent Look at What the Numbers Tell Us\n\n...\n\nSponsored Ad Sponsored Ad\nSponsored\n\nCustomer reviews\n\n4.4 out of 5 stars\n4.4 out of 5\n92 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 63% 23% 8% 3% 3% 63%\n* 5 star 4 star 3 star 2 star 1 star 4 star 63% 23% 8% 3% 3% 23%\n* 5 star 4 star 3 star 2 star 1 star 3 star 63% 23% 8% 3% 3% 8%\n* 5 star 4 star 3 star 2 star 1 star 2 star 63% 23% 8% 3% 3% 3%"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/David-Golumbia/e/B001JSCME4",
+              "title": "David Golumbia: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nDavid Golumbia: books, biography, latest update\nFollow David Golumbia and explore their bibliography from Amazon's David Golumbia Author Page."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1216,
+    "completion_tokens": 1,
+    "total_tokens": 1217,
+    "cost": 0.00102169882,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000021918,
+      "upstream_inference_prompt_cost": 0.000021888,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Politics of Bitcoin\" David Golumbia \"global ratings\"",
+  "bookId": "complete-256-235",
+  "retrieved": "2026-11-01T23:12:12.576Z"
+}

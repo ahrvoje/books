@@ -1,0 +1,90 @@
+{
+  "retrieved": "2026-11-01T22:14:50.598Z",
+  "bookId": "rest-184-137",
+  "id": "gen-1793571291-obqV1OYycNR5mFe4UYdn",
+  "object": "chat.completion",
+  "created": 1793571291,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"rest-184-137\",\n  \"title\": \"Shorting the Grid\",\n  \"author\": \"Meredith Angwin\",\n  \"amazon\": null,\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.co.uk/Shorting-Grid-Hidden-Fragility-Electric-ebook/dp/B08KZ51SDP\",\n    \"https://www.amazon.co.uk/Energy-Life-Environmentalism-Went-Nuclear/dp/1917458452\",\n    \"https://www.amazon.co.uk/Earth-Nuclear-Planet-Environmental-Power/dp/1637700598\",\n    \"https://www.amazon.co.uk/prime-video/actor/Andi-Osho/amzn1.dv.gti.56d5cb8d-58dd-4db0-864a-6ea3516255e0/\"\n  ],\n  \"limitations\": \"No Amazon product page for 'Shorting the Grid' by Meredith Angwin was found with an explicit total rating aggregate on amazon.co.uk. The search results included a mention of Meredith Angwin as the author of 'Shorting the Grid' in a review for a different book, 'Energy is Life: Why Environmentalism Went Nuclear'.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.co.uk/Shorting-Grid-Hidden-Fragility-Electric-ebook/dp/B08KZ51SDP",
+              "title": "Shorting the Grid: The Hidden Fragility of Our Electric Grid",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Amazon.co.uk\n\n#### Click the button below to continue shopping\n\nContinue shopping\n\nConditions of Use & Sale Privacy Notice\n\n© 1996-2025, Amazon.com, Inc. or its affiliates"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.co.uk/Energy-Life-Environmentalism-Went-Nuclear/dp/1917458452",
+              "title": "Energy is Life: Why Environmentalism Went Nuclear",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Energy is Life: Why Environmentalism Went Nuclear: Amazon.co.uk: Lights, Zion: 9781917458450: Books\n\n...\n\n# Energy is Life: Why Environmentalism Went Nuclear Paperback – 3 Feb. 2026 \n\n by Zion Lights (Author) \n\n 5.0 5.0 out of 5 stars (9) \n\nEnergy is Life: Why Environmentalism Went Nuclear follows Zion Lights’s personal and powerful journey: from grassroots green activism to becoming one of the UK’s leading advocates for nuclear energy. In a time of climate crisis, energy poverty and growing demand for clean power, she examines why long-established environmentalists like herself once feared nuclear energy, why many have since come to embrace it, and makes a compelling case for why nuclear energy must be part of the solution. Accessible, evidence-based, and deeply human, this book challenges common myths and invites readers to rethink what it really means to care for people and planet alike. If you believe in a greener, fairer future, this book just might change your mind – and give you hope.\n\n1. Print length 160 pages \n2. Language English \n3. Publisher Unicorn \n4. Publication date 3 Feb. 2026 \n5. Dimensions 15.6 x 1.5 x 23.4 cm \n6. ISBN-10 1917458452 \n7. ISBN-13 978-1917458450\n\n...\n\n### Review\n\n...\n\n“Lights sees things as they are, not as wealthy people imagine them. Her writing is fresh and vivid. Energy is life. I recommend this book highly.” – Meredith Angwin, former chemist and author of Shorting the Grid\n\n...\n\n### Book Description\n\nEnergy is Life: Why Environmentalism Went Nuclear follows Zion Lights’s personal and powerful journey: from grassroots green activism to becoming one of the UK’s leading advocates for nuclear energy.\n\n### About the Author\n\n Zion Lights is a science communicator whose work has unsettled orthodoxies and reshaped modern environmental debate. As founder of Emergency Reactor, the UK’s first pro-nuclear environmental campaign, she helped to shift global opinion toward a more rational and humane vision of energy and progress. A former editor and spokesperson for Extinction Rebellion, she worked to bring scientific clarity to the climate movement."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.co.uk/Earth-Nuclear-Planet-Environmental-Power/dp/1637700598",
+              "title": "Earth is a Nuclear Planet: The Environmental Case for ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Amazon.co.uk\n\n#### Click the button below to continue shopping\n\nContinue shopping\n...\n© 1996-2025, Amazon.com, Inc. or its affiliates\n...\neu.amazon.co.uk/1/oc-csi/1/OP/requestId=WB5HJ1PC46G10EXYXHTF&js=1)"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.co.uk/prime-video/actor/Andi-Osho/amzn1.dv.gti.56d5cb8d-58dd-4db0-864a-6ea3516255e0/",
+              "title": "Andi Osho: Movies, TV, and Bio",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Andi Osho \n\n Actor, Producer, Writer\n\n...\n\nIn 2014 Andi wrote and produced Brit.i.am (2014), a crowd-sourced short film about Britishness which went on to win three awards and was officially selected for ten festivals. She recently completed her second short, The Grid (2015), a sci thriller starring newcomer Stony Blyden and Eastenders alumni Troy Titus-Adams."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1526,
+    "completion_tokens": 332,
+    "total_tokens": 1858,
+    "cost": 0.007282546,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002854,
+      "upstream_inference_prompt_cost": 0.0001526,
+      "upstream_inference_completions_cost": 0.0001328
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

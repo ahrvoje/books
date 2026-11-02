@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575787-HRx2rpxo4uGIdeNg0xGF",
+  "object": "chat.completion",
+  "created": 1793575787,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"intake-0323:amazon:https://www.amazon.com/Medieval-Origins-Legal-Profession-Canonists/dp/0226077608\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as ratings.\"\n    },\n    {\n      \"key\": \"rem-u0495:amazon:https://www.amazon.com/Every-Living-Thing-Great-Deadly/dp/1984855204\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as ratings.\"\n    },\n    {\n      \"key\": \"g1169:amazon:https://www.amazon.com/Buffett-American-Capitalist-Roger-Lowenstein/dp/0812979273\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"complete-346-291:amazon:https://www.amazon.com/Billion-Dollar-Spy-Espionage-Betrayal/dp/0385537603\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as ratings.\"\n    },\n    {\n      \"key\": \"shelf-6d5d57474088:amazon:https://www.amazon.com/Mastermind-Think-Like-Sherlock-Holmes/dp/0670026573\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3386,
+    "completion_tokens": 422,
+    "total_tokens": 3808,
+    "cost": 0.0002010294,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020306,
+      "upstream_inference_prompt_cost": 0.0001693,
+      "upstream_inference_completions_cost": 0.00003376
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:29:53.908Z"
+}

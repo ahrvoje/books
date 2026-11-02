@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793575521-oVehn4s9WlFyy95pVi2v",
+  "object": "chat.completion",
+  "created": 1793575521,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Maverick-Genius-Pioneering-Odyssey-Freeman/dp/1250042569",
+              "title": "Maverick Genius: The Pioneering Odyssey of Freeman Dyson: Schewe, Phillip F.: 9781250042569: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Using your mobile phone camera - scan the code below and download the Kindle app.\nQR code to download the Kindle App\n* Maverick Genius: The Pioneering Odyssey of Freeman Dyson\n* To view this video download Flash Player\n* IMAGES\n* \nRead sample\n\nFollow the author\n\nPhillip F. Schewe\nPhillip F. Schewe Phillip F. Schewe\nFollow\nSomething went wrong. Please try your request again later.\nOK\n\nMaverick Genius: The Pioneering Odyssey of Freeman Dyson Paperback – January 28, 2014\n\nby Phillip F. Schewe (Author)\n4.4 4.4 out of 5 stars 40 ratings\nSorry, there was\n\n...\n\nreaders.” ― The Wall Street Journal, on The Grid\n“Riveting...An outstanding historical narrative.” ― Nature on The Grid\n“Electrifying.” ― Cleveland Plain-Dealer on The Grid\n“Entertaining and enlightening.” ― Publishers Weekly on The Grid\n\nAbout the Author\n\nPHILLIP F. SCHEWE works at the Joint Quantum Institute at the University of Maryland, where he is director of communication. He has a PhD in physics but has spent most of his career as a writer, chiefly as an explainer and popularizer of science.\n\n...\n\nf 5\n40 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 59% 29% 9% 0% 3% 59%\n* 5 star 4 star 3 star 2 star 1 star 4 star 59% 29% 9% 0% 3% 29%\n\n...\n\nThis is supposed to be a biography of Freeman Dyson, yet Phillip F. Schewe was not given permission to interview Dyson, who is still alive. Schewe had to rely on other sources."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Phillip-F-Schewe/e/B001JSFICC",
+              "title": "Phillip F. Schewe: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nPhillip F. Schewe: books, biography, latest update\nFollow Phillip F. Schewe and explore their bibliography from Amazon's Phillip F. Schewe Author Page."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 924,
+    "completion_tokens": 1,
+    "total_tokens": 925,
+    "cost": 0.00101649538,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000016662,
+      "upstream_inference_prompt_cost": 0.000016632,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Grid\" Phillip F. Schewe \"global ratings\"",
+  "bookId": "shelves-grid-schewe",
+  "retrieved": "2026-11-01T23:25:22.965Z"
+}

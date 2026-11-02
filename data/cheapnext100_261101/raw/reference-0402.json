@@ -1,0 +1,60 @@
+{
+  "id": "gen-1793573153-jNOVyAF70kamVWFKvdvF",
+  "object": "chat.completion",
+  "created": 1793573153,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-f9ce0d7f51f0\",\n  \"title\": \"Tribal : how the cultural instincts that divide us can help bring us together\",\n  \"author\": \"Michael Morris\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 221,\n    \"url\": \"https://librarycatalog.ecu.edu/catalog/6698944\",\n    \"evidence\": \"Bibliography note: Includes bibliographical references (pages 221-289) and index.\",\n    \"ranges\": [\n      {\n        \"start\": 221,\n        \"end\": 289,\n        \"label\": \"Bibliographical references and index\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://librarycatalog.ecu.edu/catalog/6698944",
+              "title": "Tribal : how the cultural instincts that divide us can help bring us together / Michael Morris. - ECU Libraries Catalog",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Tribal : how the cultural instincts that divide us can help bring us together / Michael Morris. - ECU Libraries Catalog\n\n# Tribal : how the cultural instincts that divide us can help bring us together / Michael Morris.\n\n| Author/creator | Morris, Michael W. author. |\n| --- | --- |\n| Format | Book |\n| Publication | [New York] : Thesis, [2024] |\n| Copyright Date | ©2024 |\n| Description | xxxii, 304 pages : illustrations ; 24 cm |\n| Subjects | Collective behavior. Social groups. Culture-- Psychological aspects. Loyalty-- Psychological aspects. Group values (Sociology) Social change. Tribes-- Social aspects. Tribes-- Psychological aspects. Tribus-- Aspect social. Tribus-- Aspect psychologique. Loyauté-- Aspect psychologique. Comportement collectif. Valeurs de groupe (Sociologie) |\n\n| Contents | Introduction: the riddle of Hiddink -- Part 1: Tribal triggers -- Syncing up -- Slaying giants -- Visiting the temple -- Part II: tribal signals -- The rise and fall of prohibition -- Soap operas and social change -- Inside the history factory --Part III: Tribal ripples -- When change spreads, and when it fizzles out -- Toxic tribalism and its antidotes. |\n| --- | --- |\n| Abstract | \"Tribalism is our most misunderstood buzzword. We've all heard pundits bemoan its rise, and it's been blamed for everything from political polarization to workplace discrimination. But as acclaimed cultural psychologist and Columbia professor Michael Morris argues, our tribal instincts are humanity's secret weapon. Countries, churches, political parties, and companies are tribes, and tribal instincts explain our loyalties to them and the hidden ways that they affect our thoughts, actions, and identities. Rather than deriding tribal impulses for their irrationality, we can recognize them as powerful levers that elevate performance, heal rifts, and set off shockwaves of cultural change. Weaving together deep research, current and historical events, and stories from business and politics, Morris cuts across conventional wisdom to completely reframe how we think about our tribes\"-- Provided by publisher. |\n| Bibliography note | Includes bibliographical references (pages 221-289) and index. |\n| LCCN | 2024007382 |\n| ISBN | 9780735218093 (hardcover) |\n| ISBN | 0735218099 (hardcover) |\n| ISBN | (ebook) |\n\n### Availability\n\n| Library | Location | Call Number | Status | Item Actions |\n| --- | --- | --- | --- | --- |\n| Joyner | General Stacks | GN490 .M67 2024 | ✔ Available | Place Hold |\n\n East Carolina University East Fifth Street | Greenville, NC 27858-4353 USA | 252.328.6131 (12523286131) | Contact Webmaster"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1043,
+    "completion_tokens": 173,
+    "total_tokens": 1216,
+    "cost": 0.00702372436,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000023964,
+      "upstream_inference_prompt_cost": 0.000018774,
+      "upstream_inference_completions_cost": 0.00000519
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "shelf-f9ce0d7f51f0",
+  "retrieved": "2026-11-01T22:46:08.986Z"
+}

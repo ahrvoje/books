@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793574769-frJeaUaxbGfoEGISgld3",
+  "object": "chat.completion",
+  "created": 1793574769,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Long-Game-Washington-Redefined-America%C2%92s/dp/161039660X",
+              "title": "The Long Game: How Obama Defied Washington and ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Long Game: How Obama Defied Washington and ...\nAn insider's analysis of Obama's foreign policy legacy, examining how he reshaped America's global role through key challenges like ISIS, Russia, and Iran.\n\n## \n\nThe Long Game: How Obama Defied Washington and ...\nAn unflinching, fast-paced account of U.S. foreign policy, The Long Game reveals how Obama has defied the Washington establishment to redefine America's role in\n\n## \n\nThe Long Game: How Obama Defied Washington and ...\nThe Long Game combines a deep sense of history with new details and compelling insights into how the Obama Administration approached the most difficult global\n\n## \n\nThe Long Game: How Obama Defied Washington and ...\nAn unflinching, fast-paced account of U.S. foreign policy, The Long Game reveals how Obama has defied the Washington establishment to redefine America's role\n\n## \n\nThe Long Game: How Obama Defied Washington and ...\nIn this inside assessment of Barack Obama's foreign policy legacy, Derek Chollet tackles the prevailing consensus to argue that Obama has profoundly altered"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://music.amazon.com/podcasts/d6a6b3c9-d9ad-491f-8bfb-b2ec211ee973/episodes/f41f92e2-c1e4-44fb-b627-f25cfff8eb19/intelligence-matters-marking-one-year-of-war-in-ukraine-state-department-counselor-derek-chollet",
+              "title": "Marking One Year of War in Ukraine: State Department Counselor Derek Chollet | Intelligence Matters Episode on Amazon Music",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "* Amazon Music Amazon Music\n* Home Home\n* Podcasts Podcasts\n* Library \nCancel \n* Sign in\n\nMarking One Year of War in Ukraine: State Department Counselor Derek Chollet\n\nIntelligence Matters\nFeb 22 2023 • 38 mins\nIn this episode of Intelligence Matters, host Michael Morell speaks with State Department Counselor Derek Chollet about the state of the war in Ukraine as it enters its second year. Morell and Chollet discuss the implications of a deepening relationship between Russia and Iran as well as Russia and China, which the U.S. recently warned against providing material aid to Moscow. Chollet also provides new insights into the newly tense relationship between Washington and Beijing, following the shootdown of a Chinese surveillance balloon. He outlines the Biden administration's approach to managing Iran's nuclear ambitions after the earlier collapse of nuclear talks.\n\nYou Might Like\n\nThe Chris Plante Show WMAL | Cumulus Podcast Network | Cumulus Media Washington Americast BBC News Strict Scrutiny Strict Scrutiny Red Eye Radio Cumulus Podcast Network The Lawfare Podcast The Lawfare Institute The DSR Network The DSR Network 5-4 Prologue Projects American Power work Civics 101 NHPR Brief Recess: A Legal Podcast with Michael Foote & Mélissa Malebranche Exactly Right and iHeartPodcasts Optimist Economy Kathryn Anne Edwards and Robin Rauzi The Oath and The Office Corey\n\n...\n\nSchool of Public Policy and Public Affairs at University of Tennessee"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1077,
+    "completion_tokens": 1,
+    "total_tokens": 1078,
+    "cost": 0.00101922184,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000019416,
+      "upstream_inference_prompt_cost": 0.000019386,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"America Between the Wars\" Derek Chollet \"global ratings\"",
+  "bookId": "progress-0524",
+  "retrieved": "2026-11-01T23:12:48.028Z"
+}

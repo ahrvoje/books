@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793575616-gnyTkYsy6Pq93Rjmdofu",
+  "object": "chat.completion",
+  "created": 1793575616,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Tomorrows-Table-Organic-Farming-Genetics/dp/0195393570",
+              "title": "Amazon.com: Tomorrow's Table: Organic Farming, Genetics, and the Future of Food: 9780195393576: Ronald, Pamela C., Adamchak, R. W.: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "See updates from all followed authors in Your Books.\nPamela C. Ronald\nPamela C. Ronald\nFollow\nSomething went wrong. Please try your request again later.\nOK\n\nTomorrow's Table: Organic Farming, Genetics, and the Future of Food\n\nby Pamela C. Ronald (Author), R. W. Adamchak (Author) Format: Paperback\n4.4 4.4 out of 5 stars (121)\n\n...\n\nWritten as part memoir, part instruction, and part contemplation, Tomorrow's Table argues that a judicious blend of two important strands of agriculture--genetic engineering and organic farming--is key to helping feed the world's growing population in an ecologically balanced manner. Pamela Ronald, a geneticist, and her husband, Raoul Adamchak, an organic farmer, take the reader inside their lives for roughly a year, allowing us to look over their shoulders so that we can see what geneticists and organic farmers actually do.\n\n...\n\nRonald and Adamchak's clear, rational approach is refreshing, and the balance they present is sorely needed in our increasingly polarized world.\" -- Science Magazine \"One of the best, most balanced\n\n...\n\nPamela Ronald is Professor of Plant Pathology and Chair of the Plant Genomics Program at the University of California, Davis, where she studies the role that genes play in a plant's response to its\n\n...\n\n4.4 out of 5 stars\n4.4 out of 5\n121 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 66% 19% 9% 4% 2% 66%\n* 5 star 4 star 3 star 2 star 1 star 4 star 66% 19% 9% 4% 2% 19%"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Tomorrows-Table-Organic-Farming-Genetics-ebook/dp/B0787BT3HB",
+              "title": "Organic Farming, Genetics, and the Future of Food",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nOrganic Farming, Genetics, and the Future of Food\nTomorrow's Table: Organic Farming, Genetics, and the Future of Food - Kindle edition by Ronald, Pamela C., Adamchak, Raoul W.. Download it once and read it"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 937,
+    "completion_tokens": 1,
+    "total_tokens": 938,
+    "cost": 0.00101672704,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000016896,
+      "upstream_inference_prompt_cost": 0.000016866,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Tomorrow's Table\" Pamela C. Ronald and Raoul W. Adamchak \"global ratings\"",
+  "bookId": "bgfb6ac7bfa0",
+  "retrieved": "2026-11-01T23:26:57.824Z"
+}

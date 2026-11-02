@@ -1,0 +1,60 @@
+{
+  "id": "gen-1793573170-pDsjWrTS7TE2U0CBXxqI",
+  "object": "chat.completion",
+  "created": 1793573170,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-66aaef8ba60c\",\n  \"title\": \"Authentic: A Memoir\",\n  \"author\": \"Paul Van Doren\",\n  \"amazon\": {\n    \"count\": 288,\n    \"url\": \"https://www.amazon.com/Authentic-Memoir-Paul-Van-Doren/dp/0393351547\",\n    \"asin\": \"0393351547\",\n    \"evidence\": \"Amazon product page\"\n  },\n  \"reference\": {\n    \"count\": 288,\n    \"url\": \"https://discover.bklynlibrary.org/item?b=12053202\",\n    \"evidence\": \"Brooklyn Public Library catalog\",\n    \"ranges\": [\n      {\n        \"start\": 1,\n        \"end\": 288,\n        \"label\": \"Total pages\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://discover.bklynlibrary.org/item?b=12053202",
+              "title": "my journey into the labyrinth of political kidnapping",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The trade : my journey into the labyrinth of political kidnapping - Brooklyn Public Library"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 394,
+    "completion_tokens": 217,
+    "total_tokens": 611,
+    "cost": 0.00701346598,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000013602,
+      "upstream_inference_prompt_cost": 0.000007092,
+      "upstream_inference_completions_cost": 0.00000651
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "shelf-66aaef8ba60c",
+  "retrieved": "2026-11-01T22:46:32.296Z"
+}

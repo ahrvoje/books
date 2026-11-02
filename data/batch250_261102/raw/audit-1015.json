@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576256-DlzisXgffWzTqQVNKGly",
+  "object": "chat.completion",
+  "created": 1793576256,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rest-70-62:amazon:https://www.amazon.com/Christian-Beginnings-Nazareth-Geza-Vermes/dp/0300205953\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 49 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-25e51a2e5376:amazon:https://www.amazon.com/Smart-People-Money-Mistakes-Correct/dp/0684859386\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and authors. 85 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rest-61-54:amazon:https://www.amazon.com/Red-Famine-Stalins-War-Ukraine/dp/0804170886\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 2,160 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-d81eed408e53:amazon:https://www.amazon.com/As-see-autobiography-Paul-Getty/dp/013049593X\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 136 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-9852abc8d13e:amazon:https://www.amazon.com/Upside-Irrationality-Unexpected-Benefits-Defying/dp/0061995037\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 1,043 ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3686,
+    "completion_tokens": 436,
+    "total_tokens": 4122,
+    "cost": 0.0002169882,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021918,
+      "upstream_inference_prompt_cost": 0.0001843,
+      "upstream_inference_completions_cost": 0.00003488
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:37:44.412Z"
+}

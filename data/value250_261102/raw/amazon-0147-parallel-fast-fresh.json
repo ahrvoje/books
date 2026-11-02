@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793575552-TBiCPwsDEfmdO5jKVnoL",
+  "object": "chat.completion",
+  "created": 1793575552,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B00459EWBU",
+              "title": "George G. Szpiro: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nGeorge G. Szpiro: books, biography, latest update\nFollow George G. Szpiro and explore their bibliography from Amazon's George G. Szpiro Author Page."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Man-Made-Object-Vision-Value/dp/B0000CN82E",
+              "title": "The Man-Made Object (Vision + Value series): Gyorgy Kepes",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Man-Made Object (Vision + Value series): Gyorgy Kepes\n230 pages. Language: English. Publisher: George Braziller. Publication date: January 1, 1966. ISBN-10: 1122190875. ISBN-13: 978-1122190879\n\n## \n\nThe Man-Made Object (Vision + Value series): Gyorgy Kepes\nGood hardcover with some shelfwear; date January 1, 1966 Edition 1st Language English Print length 230 pages"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 632,
+    "completion_tokens": 1,
+    "total_tokens": 633,
+    "cost": 0.00101129194,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000011406,
+      "upstream_inference_prompt_cost": 0.000011376,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Kepler’s Conjecture\" George G. Szpiro \"global ratings\"",
+  "bookId": "complete-618-106",
+  "retrieved": "2026-11-01T23:25:54.482Z"
+}

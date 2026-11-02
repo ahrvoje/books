@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:15:44.938Z",
+  "bookId": "progress-0713",
+  "id": "gen-1793571342-cu3toUXTccV69yOxsoRY",
+  "object": "chat.completion",
+  "created": 1793571342,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"progress-0713\",\n  \"title\": \"History of Strength of Materials\",\n  \"author\": \"Stephen Timoshenko\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 452,\n    \"editionId\": \"/books/OL24365100M\",\n    \"editionYear\": 1983,\n    \"format\": \"Paperback\",\n    \"language\": \"English\",\n    \"url\": \"https://openlibrary.org/books/OL24365100M\",\n    \"evidence\": \"The MARC view for the INES Online Library catalog states the physical description as 'x, 452 p. : ill. ; 22 cm.' for the 1983 Dover edition.\",\n    \"sourceTitle\": \"MARC view for: History of strength of materials : › INES Online Library catalog\",\n    \"sourceAuthor\": \"INES Online Library catalog\"\n  },\n  \"reference\": {\n    \"count\": 7,\n    \"editionId\": null,\n    \"editionYear\": 1962,\n    \"url\": \"https://la.welib.org/md5/dea7746153a94f04591b6762367c27d9\",\n    \"evidence\": \"The WeLib entry for the 1962 McGraw-Hill edition states: 'Includes bibliographical references (p. 301-307) and index.'\",\n    \"sourceTitle\": \"History of Strength of Materials - With a Brief Account of the History of Theory of Elasticity and Theory of Structures ( PDF, 24.8 MB ) - WeLib\",\n    \"sourceAuthor\": \"WeLib\",\n    \"ranges\": [\n      {\n        \"start\": 301,\n        \"end\": 307,\n        \"label\": \"bibliographical references\",\n        \"evidence\": \"The WeLib entry for the 1962 McGraw-Hill edition states: 'Includes bibliographical references (p. 301-307) and index.'\",\n        \"sourceTitle\": \"History of Strength of Materials - With a Brief Account of the History of Theory of Elasticity and Theory of Structures ( PDF, 24.8 MB ) - WeLib\",\n        \"sourceAuthor\": \"WeLib\"\n      }\n    ],\n    \"method\": \"The reference page range was explicitly stated in the WeLib entry.\",\n    \"limitation\": \"The reference page range (301-307) is for the 1962 edition, not necessarily the 1983 Dover edition which has 452 pages. The 1983 Dover edition's reference section is not explicitly detailed with page numbers in the provided search results.\"\n  },\n  \"searchedUrls\": [\n    \"https://opac.lib.niigata-u.ac.jp/en/recordID/catalog.bib/ba11994601\",\n    \"https://la.welib.org/md5/dea7746153a94f04591b6762367c27d9\",\n    \"https://la.welib.org/md5/57c2179721f7844fb75a0558897532e8\",\n    \"https://library.ines.ac.rw/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=5507\",\n    \"https://library.ines.ac.rw/bib/5507\"\n  ],\n  \"limitations\": \"The specific page range for the bibliographical references in the 1983 Dover edition is not explicitly provided in the search results. The provided range of 301-307 is for the 1962 edition.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://opac.lib.niigata-u.ac.jp/en/recordID/catalog.bib/ba11994601",
+              "title": "History of strength of materials : with a brief account of the history of theory of elasticity and theory of structures",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "History of strength of materials : with a brief account of the history of theory of elasticity and theory of structures\n\n# History of strength of materials : with a brief account of the history of theory of elasticity and theory of structures \n\n Import bibliographic records \n\nFormat\n: - Book\n\nResponsibility\n: Stephen P. Timoshenko \n\nPublished\n: - New York : McGraw-Hill , 1953 \n\nDescription\n: - x, 452 p. : ill. ; 24 cm \n\nAuthor\n: - Timoshenko, Stephen P., 1878-1972 \n\nCatalog.Bib\n: - BA11994601\n\nNote\n: - Includes bibliographical references and indexes\n\nE-Resources\n\n Bibliographic details \n\nLanguage\n: - English \n\nClassification / Subject\n: - LCC：TA405\n- DCC：620.1/12\n- LCSH：Strength of materials--History\n\nClassification\n: - Strength of materials--History"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://la.welib.org/md5/dea7746153a94f04591b6762367c27d9",
+              "title": "History of Strength of Materials - With a Brief Account of the History of Theory of Elasticity and Theory of Structures ( PDF, 24.8 MB ) - WeLib",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## WeLib\n\n# History of Strength of Materials - With a Brief Account of the History of Theory of Elasticity and Theory of Structures \n\nTimoshenko, Stephen P.\n\ndescriptio\n\nThis excellent historical survey of the strength of materials features many references to the theories of elasticity and structure. Based on an extensive series of lectures, it explores the early roots of the discipline from the great monuments and pyramids of ancient Egypt to the temples and fortifications of the Greeks and Romans. The book contains 245 figures. Content: • Front Matter • Preface • Table of Contents • Introduction 1. The Strength of Materials in the Seventeenth Century 2. Elastic Curves 3. Strength of Materials in the Eighteenth Century 4. Strength of Materials between 1800 and 1833 5. The Beginning of the Mathematical Theory of Elasticity 6. Strength of Materials between 1833 and 1867 7. Strength of Materials in the Evolution of Railway Engineering 8. The Mathematical Theory of Elasticity between 1833 and 1867 9. Strength of Materials in the Period 1867-1900 10. Theory of Structures in the Period 1867-1900 11. Theory of Elasticity between 1867 and 1900 12. Progress in Strength of Materials during the Twentieth Century 13. Theory of Elasticity during the Period 1900-1950 14. Theory of Structures during the Period 1900-1950 Name Index Subject Index\n\n...\n\nTitulus alternus\n\nGroundwater and Seepage (Dover Civil and Mechanical Engineering)\n\nAuctor alternus\n\nMilton Edward Harr, 1925-\n\nAuctor alternus\n\nStephen P. Timoshenko\n\n...\n\nmetadata commentarii\n\nIncludes bibliographical references (p. 301-307) and index. Originally published: New York : Mcgraw-Hill, 1962. \"Unabridged and corrected republication.\""
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://la.welib.org/md5/57c2179721f7844fb75a0558897532e8",
+              "title": "History of strength of materials : with a brief account of the history of theory of elasticity and theory of structures ( PDF, 73.0 MB ) - WeLib",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# History of strength of materials : with a brief account of the history of theory of elasticity and theory of structures \n\nStephen P. Timoshenko\n\ndescriptio\n\nThis excellent historical survey of the strength of materials features many references to the theories of elasticity and structure. Based on an extensive series of lectures, it explores the early roots of the discipline from the great monuments and pyramids of ancient Egypt to the temples and fortifications of the Greeks and Romans. 245 figures.\n\nNomen fasciculi alternum\n\nlgrsnf/F:\\Library.nu\\57\\_268109.57c2179721f7844fb75a0558897532e8.pdf\n\nNomen fasciculi alternum\n\nlgli/F:\\Library.nu\\57\\_268109.57c2179721f7844fb75a0558897532e8.pdf\n\nTitulus alternus\n\nHistory of Strength of Materials (Dover Civil and Mechanical Engineering)\n\nAuctor alternus\n\nTIMOSHENKO S.P.\n\nEditor alternus\n\nAthenaeum of Philadelphia\n\nEditor alternus\n\nDover ; Constable\n\nEditio alterna\n\nUnited States, United States of America\n\nEditio alterna\n\nDover ed, New York, 1983\n\nEditio alterna\n\nNew York, London, 1983\n\nEditio alterna\n\nPS, 1983\n\nEditio alterna\n\n1953\n\nmetadata commentarii\n\nmetadata commentarii\n\nIncludes bibliographical references and indexes. Reprint. Originally published: New York : McGraw-Hill, 1953.\n\n...\n\nLCC: TA405 Copiare nexum exemplatum!\n\nAA: Quaere WeLib pro \"lcc:TA405\"\n\nLCC: TA405 .T53 1983 Copiare nexum exemplatum!\n\nLibrary of Congress Classification\n\nAA: Quaere WeLib pro \"lcc:TA405 .T53 1983\"\n\nLCC: TA405 .T53 1983eb Copiare nexum exemplatum!\n\nLibrary of Congress Classification\n\nAA: Quaere WeLib pro \"lcc:TA405 .T53 1983eb\"\n\nExplorator Codicum: Vide in Exploratore Codicum “lcc:TA405 .T53 1983eb”\n\nAA: Quaere WeLib pro \"lccn:82017713\""
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://library.ines.ac.rw/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=5507",
+              "title": "MARC view for: History of strength of materials : › INES Online Library catalog",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "MARC view for: History of strength of materials : › INES Online Library catalog\n\n# History of strength of materials : (Record no. 5507)\n\nMARC details\n\n| 000 -LEADER | |\n| --- | --- |\n| fixed length control field | 01011pam a2200265 a 4500 |\n| 001 - CONTROL NUMBER | |\n| control field | 4224254 |\n| 003 - CONTROL NUMBER IDENTIFIER | |\n| control field | OSt |\n| 005 - DATE AND TIME OF LATEST TRANSACTION | |\n| control field | 20190228094705.0 |\n| 008 - FIXED-LENGTH DATA ELEMENTS--GENERAL INFORMATION | |\n| fixed length control field | 820903r19831953nyua b 001 0 eng |\n| 010 ## - LIBRARY OF CONGRESS CONTROL NUMBER | |\n| LC control number | 82017713 |\n| 020 ## - INTERNATIONAL STANDARD BOOK NUMBER | |\n| International Standard Book Number | 0486611876 (pbk.) |\n| 040 ## - CATALOGING SOURCE | |\n| Original cataloging agency | DLC |\n| Transcribing agency | DLC |\n| Modifying agency | DLC |\n| 050 00 - LIBRARY OF CONGRESS CALL NUMBER | |\n| Classification number | TA405 |\n| Item number | .T53 1983 |\n| 082 00 - DEWEY DECIMAL CLASSIFICATION NUMBER | |\n| Classification number | 620.1/12 |\n| Edition number | 22 |\n| 100 1# - MAIN ENTRY--PERSONAL NAME | |\n| Personal name | Timoshenko, Stephen, |\n| Dates associated with a name | 1878-1972. |\n| 245 10 - TITLE STATEMENT | |\n| Title | History of strength of materials : |\n| Remainder of title | with a brief account of the history of theory of elasticity and theory of structures / |\n| Statement of responsibility, etc. | Stephen P. Timoshenko. |\n| 260 ## - PUBLICATION, DISTRIBUTION, ETC. | |\n| Place of publication, distribution, etc. | New York : |\n| Name of publisher, distributor, etc. | Dover Publications, |\n| Date of publication, distribution, etc. | 1983. |\n| 300 ## - PHYSICAL DESCRIPTION | |\n| Extent | x, 452 p. : |\n| Other physical details | ill. ; |\n| Dimensions | 22 cm. |\n| 500 ## - GENERAL NOTE | |\n| General note | Reprint. Originally published: New York : McGraw-Hill, 1953. |\n| 504 ## - BIBLIOGRAPHY, ETC. NOTE | |\n| Bibliography, etc. note | Includes bibliographical references and indexes. |\n| 650 #0 - SUBJECT ADDED ENTRY--TOPICAL TERM | |\n| Topical term or geographic name entry element | Strength of materials |\n| General subdivision | History. |\n| 856 42 - ELECTRONIC LOCATION AND ACCESS | |\n| Materials specified | Publisher description |\n| Uniform Resource Identifier | http://www.loc.gov/catdir/enhancements/fy0714/82017713-d.html |\n| 906 ## - LOCAL DATA ELEMENT F, LDF (RLIN) | |\n| a | 7 |\n| b | cbc |\n| c | orignew |\n| d | 1 |\n| e | ocip |\n| f | 19 |\n| g | y-gencatlg |\n| 942 ## - ADDED ENTRY ELEMENTS (KOHA) | |\n| Source of classification or shelving scheme | Dewey Decimal Classification |\n| Koha item type | Book |\n\nHoldings\n\n| Withdrawn status | Lost status | Source of classification or shelving scheme | Damaged status | Not for loan | Home library | Current library | Shelving location | Date acquired | Source of acquisition | Total Checkouts | Full call number | Barcode | Date last seen | Copy number | Price effective from | Koha item type |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | Dewey Decimal Classification | | | INES Library | INES Library | 620 - Engineering | 02/28/2019 | Purchase | | 620.1/12 | 2013-16628 | 02/28/2019 | 1 | 02/28/2019 | Book |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://library.ines.ac.rw/bib/5507",
+              "title": "Details for: \n    History of strength of materials :\n\n\n\n\n\n\n › INES Online Library catalog",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Details for: History of strength of materials : › INES Online Library catalog\n\n# History of strength of materials : with a brief account of the history of theory of elasticity and theory of structures / Stephen P. Timoshenko. \n\nBy: \n\n- Timoshenko, Stephen, 1878-1972\n\nMaterial type: Text Publication details: New York : Dover Publications, 1983. Description: x, 452 p. : ill. ; 22 cm\n\nISBN: \n\n- 0486611876 (pbk.)\n\n- Strength of materials -- History\n\n- 620.1/12 22\n\n- TA405 .T53 1983\n\nHoldings\n\n| Item type | Current library | Call number | Copy number | Status | Barcode |\n| --- | --- | --- | --- | --- | --- |\n| Book | INES Library 620 - Engineering | 620.1/12 (Browse shelf(Opens below)) | 1 | Available | 2013-16628 |\n\n Reprint. Originally published: New York : McGraw-Hill, 1953. \n\n Includes bibliographical references and indexes. \n\nThere are no comments on this title."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3526,
+    "completion_tokens": 898,
+    "total_tokens": 4424,
+    "cost": 0.007704682,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0007118,
+      "upstream_inference_prompt_cost": 0.0003526,
+      "upstream_inference_completions_cost": 0.0003592
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

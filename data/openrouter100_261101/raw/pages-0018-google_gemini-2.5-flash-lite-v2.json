@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:11:55.329Z",
+  "bookId": "shelf-5e0af8e5a91e",
+  "id": "gen-1793571114-ckCbUNXpsnv2w9ENnMQN",
+  "object": "chat.completion",
+  "created": 1793571114,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-5e0af8e5a91e\",\n  \"title\": \"Pioneers of Soviet Computing\",\n  \"author\": \"Boris N. Malinovsky\",\n  \"knownEdition\": null,\n  \"purchaseUrl\": \"https://www.amazon.de/s?k=Pioneers%20of%20Soviet%20Computing%20Boris%20N.%20Malinovsky%20paperback\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 201,\n    \"editionId\": null,\n    \"editionYear\": 2010,\n    \"format\": \"Electronic book\",\n    \"language\": \"English\",\n    \"url\": \"https://www.sigcis.org/files/sigcismc2010_001.pdf\",\n    \"evidence\": \"Description: Electronic book, 201 pp.\",\n    \"sourceTitle\": \"Pioneers of Soviet Computing | SIGCIS\",\n    \"sourceAuthor\": \"Boris Nikolaevich Malinovsky\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.sigcis.org/malinovsky_pioneers\",\n    \"https://www.sigcis.org/files/sigcismc2010_001.pdf\",\n    \"https://sigcis.org/pioneers-of-soviet-computing/\",\n    \"https://sigcis.org/wp-content/uploads/2026/05/SIGCISMC2010_001.pdf\",\n    \"https://www.lhg.org/Documents/Chapters/Pioneers_of_Soviet_Computing.pdf\"\n  ],\n  \"limitations\": \"The search results indicate that the book is available as a free electronic PDF, not a paperback. Therefore, information regarding paperback ISBN, publisher, and page count for a paperback edition is unavailable.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.sigcis.org/malinovsky_pioneers",
+              "title": "Pioneers of Soviet Computing | SIGCIS",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Pioneers of Soviet Computing \n\nTitle: Pioneers of Soviet Computing\n\nDate: 2010(2nd ed.)\n\nAuthor(s): Boris Nikolaevich Malinovsky\n\nEditor(s): Anne Fitzpatrick (ed.); Emmanuel Aronie (trans.); and Kate Maldonado (ed. Consultant)\n\nDescription: Electronic book, 201 pp.\n\nAbstract: Boris N. Malinovsky’s Pioneers of Soviet Computing is the English language version of his earlier Russian language The History of Computing in Personalities.\n\n...\n\nCitation: Malinovsky, Boris Nikolaevich. Pioneers of Soviet Computing. Edited by Anne Fitzpatrick. Translated by Emmanuel Aronie. N.p.: published electronically, 2010. http://www.sigcis.org/files/sigcismc2010_001.pdf.\n\nNotes: This pdf book is available free of charge but users are required to observe the rules of the Creative Commons license for this at http://creativecommons.org/licenses/by-nd/3.0/."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.sigcis.org/files/SIGCISMC2010_001.pdf",
+              "title": "sigcismc2010_001.doc",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Title: Pioneers of Soviet Computing \nDate: 2010 (2 nd ed.) \nAuthor(s): Boris Nikolaevich Malinovsky \nEditor(s): Anne Fitzpatrick (ed.); Emmanuel Aronie (trans.); and Kate Maldonado (ed. \nConsultant) \nDescription: Electronic book, 201 pp. \nAbstract: Boris N. Malinovsky’s Pioneers of Soviet Computing is the English language version \nof his earlier Russian language The History of Computing in Personalities (in Russian: История \nВычислительной Техники в Лицах). Partly technical history and partly a memoir, it is the only \nexisting first person account of the birth of modern computing in Russia, Ukraine, and Belarus.\n\n...\n\nCitation: Malinovsky, Boris Nikolaevich. Pioneers of Soviet Computing. Edited by Anne \nFitzpatrick. Translated by Emmanuel Aronie. N.p.: published electronically, 2010. \nhttp://www.sigcis.org/files/sigcismc2010_001.pdf. \nNotes: This pdf book is available free of charge but users are required to observe the rules of the \nCreative Commons license for this at http://creativecommons.org/licenses/by-nd/3.0/. \nFile Name: sigcismc2010_001.pdf \n\n## Pioneers of Soviet Computing\n\nBy Boris Nikolaevich Malinovsky \nAnne Fitzpatrick, editor \nEmmanuel Aronie, translator \nKate Maldonado, editorial consultant \nForward and New Introduction to the 2010 version of Pioneers of Soviet Computing \nWelcome to the 2010 version of Pioneers of Soviet Computing. Changes in this \nversion include this new forward and introduction, acknowledgements, and several \nappendices that include academic peer reviews, praise, and reader and author comments \noriginally published on sovietcomputing.com, where this book formerly resided. \nThis pdf book is available free of charge but users are required to observe the \nrules of the Creative Commons license for this at http://creativecommons.org/licenses/by \nnd/3.0/. \nOur decision to publish on the internet came from a long and tedious course of \nattempting to work with both university and commercial academic publishers who failed \nto publish it. Bringing this manuscript to publication was an epic adventure in itself, so \nwe decided to share our experience here, along with some commentary on academic \npublishing today and its inevitable demise. \nThe first Russian language version of this book was released in hard copy in 1995 \nin Kiev. By 1999 a sketchy publication contract had been secured by the author with a \nNew York area semi-commercial publisher. From then until 2005 the manuscript \nlanguished at this press while the original academic editor did nothing to push its \nproduction along, yet somehow it had been assigned both cloth and paper ISBN numbers. \nWe terminated our contract with this publisher in 2005 when the latest in a series of three \nsuccessive editors responsible for the project called and said that they could not publish \nthe manuscript because it would not generate enough profit. \nAfter this, several well-known U.S.-based university presses requested from us \nthe manuscript and its prospectus for review. The editor-in-chief at one of these presses \nin the Boston area solicited and received several professional and extremely positive peer \nreviews of the work (available in the appendices of this book) from prominent scholars in \nthe history of computing field: all of the reviewers urged the manuscript’s adoption and \npublication. This press’s editor then abruptly cut off communications with us entirely, \nand our repeated attempts to contact him went unanswered. Almost as bizarre was our \nexperience at another large university press: their acquisitions editor solicited our \nprospectus and two sample chapters, and wrote a few weeks later with the hedgy \nresponse: “our reader had some serious doubts about this project (its reliability; the \nweight of its contribution).” We never saw this reader’s actual review for ourselves and \nthis person refused to identify him/herself. Several other well-regarded university press \neditors who solicited and reviewed it were at least up front and fair, clearly explaining \nthat the manuscript did not fit into the stream of their particular series of books, and \nrelayed this to us by either email or letter in a timely and reasonable manner.\n\n...\n\nPioneers of Soviet Computing \nBy Boris Nikolaevich Malinovsky \nAnne Fitzpatrick, editor \nEmmanuel Aronie, translator \nKate Maldonado, editorial consultant \nCopyright © 2006 Anne Fitzpatrick. All Rights Reserved\n\n...\n\nAnne Fitzpatrick Washington, DC, 2006"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://sigcis.org/pioneers-of-soviet-computing/",
+              "title": "Pioneers of Soviet Computing – SIGCIS",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Pioneers of Soviet Computing\n\nTitle: Pioneers of Soviet Computing\n\nDate: 2010 (2nd ed.)\n\nAuthor(s): Boris Nikolaevich Malinovsky\n\nEditor(s): Anne Fitzpatrick (ed.); Emmanuel Aronie (trans.); and Kate Maldonado (ed. Consultant)\n\nDescription: Electronic book, 201 pp.\n\nAbstract: Boris N. Malinovsky’s Pioneers of Soviet Computing is the English language version of his earlier Russian language The History of Computing in Personalities.\n\n...\n\nCitation: Malinovsky, Boris Nikolaevich. Pioneers of Soviet Computing. Edited by Anne Fitzpatrick. Translated by Emmanuel Aronie. N.p.: published electronically, 2010. https://sigcis.org/wp-content/uploads/2026/05/SIGCISMC2010_001.pdf.\n\nNotes: This pdf book is available free of charge but users are required to observe the rules of the Creative Commons license for this at http://creativecommons.org/licenses/by-nd/3.0/."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.lhg.org/Documents/Chapters/Pioneers_of_Soviet_Computing.pdf",
+              "title": "Pioneers of Soviet Computing",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## Pioneers of Soviet Computing\n\nBy Boris Nikolaevich Malinovsky \nAnne Fitzpatrick, editor \nEmmanuel Aronie, translator \nKate Maldonado, editorial consultant \nPioneers of Soviet Computing \nBy Boris Nikolaevich Malinovsky \nAnne Fitzpatrick, editor \nEmmanuel Aronie, translator \nKate Maldonado, editorial consultant \nCopyright © 2006 Anne Fitzpatrick. All Rights Reserved \n\nTable of Contents\n\nINTRODUCTION TO THE ENGLISH LANGUAGE VERSION \nOF PIONEERS OF SOVIET COMPUTING ...\n\n...\n\nThis English language version is a slight abridgement of Malinovsky’s original"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://sigcis.org/wp-content/uploads/2026/05/SIGCISMC2010_001.pdf",
+              "title": "Title: Pioneers of Soviet Computing Date: 2010 (2 nd ed.) Author(s): Boris Nikolaevich Malinovsky Editor(s): Anne Fitzpatrick (ed.); Emmanuel Aronie (trans.); and Kate Maldonado (ed. Consultant)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Title: Pioneers of Soviet Computing \nDate: 2010 (2 nd ed.) \nAuthor(s): Boris Nikolaevich Malinovsky \nEditor(s): Anne Fitzpatrick (ed.); Emmanuel Aronie (trans.); and Kate Maldonado (ed. \nConsultant) \nDescription: Electronic book, 201 pp. \nAbstract: Boris N. Malinovsky’s Pioneers of Soviet Computing is the English language version \nof his earlier Russian language The History of Computing in Personalities (in Russian: История \nВычислительной Техники в Лицах).\n\n...\n\nCitation: Malinovsky, Boris Nikolaevich. Pioneers of Soviet Computing. Edited by Anne \nFitzpatrick. Translated by Emmanuel Aronie. N.p.: published electronically, 2010. \nhttp://www.sigcis.org/files/sigcismc2010_001.pdf. \nNotes: This pdf book is available free of charge but users are required to observe the rules of the \nCreative Commons license for this at http://creativecommons.org/licenses/by-nd/3.0/. \nFile Name: sigcismc2010_001.pdf \n\n## Pioneers of Soviet Computing\n\nBy Boris Nikolaevich Malinovsky \nAnne Fitzpatrick, editor \nEmmanuel Aronie, translator \nKate Maldonado, editorial consultant \nForward and New Introduction to the 2010 version of Pioneers of Soviet Computing \nWelcome to the 2010 version of Pioneers of Soviet Computing. Changes in this\n\n...\n\noriginally\n\n...\n\nThis pdf book is available free of charge but users are required to observe the \nrules of the Creative Commons license for this at http://creativecommons.org/licenses/by \nnd/3.0/. \nOur decision to publish on the internet came from a long and tedious course of \nattempting to work with both university and commercial academic publishers who failed \nto publish it. Bringing this manuscript to publication was an epic adventure in itself, so \nwe decided to share our experience here, along with some commentary on academic \npublishing today and its inevitable demise. \nThe first Russian language version of this book was released in hard copy in 1995 \nin Kiev. By 1999 a sketchy publication contract had been secured by the author with a \nNew York area semi-commercial publisher. From then until 2005 the manuscript \nlanguished at this press while the original academic editor did nothing to push its \nproduction along, yet somehow it had been assigned both cloth and paper ISBN numbers. \nWe terminated our contract with this publisher in 2005 when the latest in a series of three \nsuccessive editors responsible for the project called and said that they could not publish \nthe manuscript because it would not generate enough profit. \nAfter this, several well-known U.S.-based university presses requested from us \nthe manuscript and its prospectus for review. The editor-in-chief at one of these presses \nin the Boston area solicited and received several professional and extremely positive peer \nreviews of the work (available in the appendices of this book) from prominent scholars in \nthe history of computing field: all of the reviewers urged the manuscript’s adoption and \npublication. This press’s editor then abruptly cut off communications with us entirely, \nand our repeated attempts to contact him went unanswered.\n\n...\n\nPioneers of Soviet Computing \nBy Boris Nikolaevich Malinovsky \nAnne Fitzpatrick, editor \nEmmanuel Aronie, translator \nKate Maldonado, editorial consultant \nCopyright © 2006 Anne Fitzpatrick. All Rights Reserved"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3134,
+    "completion_tokens": 450,
+    "total_tokens": 3584,
+    "cost": 0.007488466,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004934,
+      "upstream_inference_prompt_cost": 0.0003134,
+      "upstream_inference_completions_cost": 0.00018
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

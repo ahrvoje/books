@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576317-ZFZxhu3cxNZDlfzxSyY1",
+  "object": "chat.completion",
+  "created": 1793576317,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-465835214a5e:amazon:https://www.amazon.com/Islam-Future-Tolerance-Sam-Harris/dp/0674241487\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating is explicitly labeled as global ratings.\"\n    },\n    {\n      \"key\": \"shelf-1d0463ba84d4:amazon:https://www.amazon.com/Gambler-Penniless-Kerkorian-Greatest-Capitalist/dp/0062456784\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating is explicitly labeled as global ratings.\"\n    },\n    {\n      \"key\": \"shelf-5849da3bc359:amazon:https://www.amazon.com/Man-Who-Sold-America-Advertising/dp/1591393086\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating is explicitly labeled as global ratings.\"\n    },\n    {\n      \"key\": \"progress-0044:amazon:https://www.amazon.com/IBM-Holocaust-Strategic-Alliance-Corporation/dp/0609607995\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating is explicitly labeled as ratings.\"\n    },\n    {\n      \"key\": \"g1160:amazon:https://www.amazon.com/Where-Are-Customers-Yachts-Street/dp/0471770892\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating is explicitly labeled as global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3662,
+    "completion_tokens": 432,
+    "total_tokens": 4094,
+    "cost": 0.0002154834,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021766,
+      "upstream_inference_prompt_cost": 0.0001831,
+      "upstream_inference_completions_cost": 0.00003456
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:38:47.728Z"
+}

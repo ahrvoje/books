@@ -1,0 +1,88 @@
+{
+  "results": [
+    {
+      "key": "amazon-0094-google_gemini-2.5-flash-lite-v3:amazon",
+      "status": "supported",
+      "reason": "The numeric value, book title, and author are all explicitly supported by the source text.",
+      "evidence": "Steve Jobs in Exile: The Untold Story of NeXT and the Remaking of an American Visionary Hardcover – May 19, 2026 by Geoffrey Cain (Author)... 4.3 4.3 out of 5 stars (39)... 39 global ratings",
+      "editionCorrection": null
+    },
+    {
+      "key": "amazon-0099-google_gemini-2.5-flash-lite-v3:amazon",
+      "status": "reject",
+      "reason": "The candidate title 'Engines of Creation' is an abridged version of the title found in the source text. The source text specifies 'Engines of Creation: The Coming Era of Nanotechnology (Anchor Library of Science)'.",
+      "evidence": "Engines of Creation: The Coming Era of Nanotechnology (Anchor Library of Science) by Eric Drexler (Author) Format: Paperback 4.5 4.5 out of 5 stars (131) ... 131 global ratings",
+      "editionCorrection": null
+    },
+    {
+      "key": "amazon-0107-google_gemini-2.5-flash-lite-v3:amazon",
+      "status": "supported",
+      "reason": "The numeric value, book title, and author are all explicitly supported by the source text.",
+      "evidence": "Left Behind: A New Economics for Neglected Places by Paul Collier (Author) Format: Hardcover 4.0 4.0 out of 5 stars (90) ... 90 global ratings",
+      "editionCorrection": null
+    },
+    {
+      "key": "amazon-0111-google_gemini-2.5-flash-lite-v3:amazon",
+      "status": "supported",
+      "reason": "The numeric value, book title, and author are all explicitly supported by the source text.",
+      "evidence": "Tools for Thought: The History and Future of Mind-Expanding Technology Paperback – April 18, 2000 by Howard Rheingold (Author) 4.6 4.6 out of 5 stars (12) ... 12 global ratings",
+      "editionCorrection": null
+    },
+    {
+      "key": "amazon-0120-google_gemini-2.5-flash-lite-v3:amazon",
+      "status": "supported",
+      "reason": "The numeric value, book title, and author are all explicitly supported by the source text.",
+      "evidence": "The Seven Sins of Memory: How the Mind Forgets and Remembers Paperback – May 7, 2002 by Daniel L. Schacter (Author) 4.3 4.3 out of 5 stars 337 ratings",
+      "editionCorrection": null
+    },
+    {
+      "key": "amazon-0127-google_gemini-2.5-flash-lite-v3:amazon",
+      "status": "reject",
+      "reason": "The candidate title 'Hidden Order' is an abridged version of the title found in the source text. The source text specifies 'Hidden Order: How Adaptation Builds Complexity (Helix Books)'.",
+      "evidence": "Hidden Order: How Adaptation Builds Complexity (Helix Books) First Edition by John H Holland (Author) ... 4.4 out of 5 stars 66 global ratings",
+      "editionCorrection": null
+    },
+    {
+      "key": "amazon-0128-google_gemini-2.5-flash-lite-v3:amazon",
+      "status": "supported",
+      "reason": "The numeric value, book title, and author are all explicitly supported by the source text.",
+      "evidence": "Behind Deep Blue: Building the Computer that Defeated the World Chess Champion Paperback – March 1, 2004 by Feng-hsiung Hsu (Author) 4.6 4.6 out of 5 stars (41) ... 41 global ratings",
+      "editionCorrection": null
+    },
+    {
+      "key": "amazon-0132-google_gemini-2.5-flash-lite-v3:amazon",
+      "status": "supported",
+      "reason": "The numeric value, book title, and author are all explicitly supported by the source text.",
+      "evidence": "The Relentless Revolution: A History of Capitalism First Edition; First by Joyce Appleby (Author) 4.2 4.2 out of 5 stars 60 ratings",
+      "editionCorrection": null
+    },
+    {
+      "key": "reference-0018-google_gemini-2.5-flash-lite-v2:reference",
+      "status": "supported",
+      "reason": "The numeric value (1 page) is correctly calculated from the provided range (p. 383). The label and evidence match the source. The edition is not explicitly stated in the source text.",
+      "evidence": "Includes bibliographical references (p. 383) and index.",
+      "editionCorrection": null
+    },
+    {
+      "key": "reference-0101-google_gemini-2.5-flash-lite-v3:reference",
+      "status": "reject",
+      "reason": "The candidate title 'Rolls-Royce: The Magic of a Name: The First Forty Years of Britain s Most Prestigious Company' is an abridged version of the title found in the source text. The source text specifies 'The magic of a name : the Rolls-Royce story, the first 40 years'. The author is also slightly different, 'Peter Pugh' vs 'Pugh, Peter, 1943-'.",
+      "evidence": "The magic of a name : the Rolls-Royce story, the first 40 years by Pugh, Peter, 1943- ... Includes bibliographical references (pages 325-329) and index",
+      "editionCorrection": null
+    },
+    {
+      "key": "reference-0122-google_gemini-2.5-flash-lite-v3:reference",
+      "status": "supported",
+      "reason": "The numeric value (14 pages) is correctly calculated from the provided range (pages 295-308). The label and evidence match the source. The edition is not explicitly stated in the source text.",
+      "evidence": "Includes bibliographical references (pages 295-308) and index.",
+      "editionCorrection": null
+    },
+    {
+      "key": "reference-0159-google_gemini-2.5-flash-lite-v3:reference",
+      "status": "supported",
+      "reason": "The numeric value (82 pages) is correctly calculated from the provided range (pages 492-573). The label and evidence match the source. The edition is not explicitly stated in the source text.",
+      "evidence": "Includes bibliographical references (pages 492-573) and index.",
+      "editionCorrection": null
+    }
+  ]
+}

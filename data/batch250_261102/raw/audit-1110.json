@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576334-9jgndJw4xrxoYlNQJLho",
+  "object": "chat.completion",
+  "created": 1793576334,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"naeebbf3b4c:amazon:https://www.amazon.com/How-Be-Perfect-Correct-Question/dp/1982159316\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and correctly labeled.\"\n    },\n    {\n      \"key\": \"complete-729-357:amazon:https://www.amazon.com/True-Enough-Learning-Post-Fact-Society/dp/1620458403\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and correctly labeled.\"\n    },\n    {\n      \"key\": \"complete-313-210:amazon:https://www.amazon.com/Kissinger-Biography-Walter-Isaacson/dp/0743286979\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and correctly labeled.\"\n    },\n    {\n      \"key\": \"shelf-849ef8acda03:amazon:https://www.amazon.com/Pulitzer-Life-Politics-Print-Power/dp/0060798696\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and correctly labeled.\"\n    },\n    {\n      \"key\": \"rem-u1837:amazon:https://www.amazon.com/Theory-Moral-Sentiments-Adam-Smith/dp/1614279985\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and correctly labeled.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3436,
+    "completion_tokens": 427,
+    "total_tokens": 3863,
+    "cost": 0.0002039004,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020596,
+      "upstream_inference_prompt_cost": 0.0001718,
+      "upstream_inference_completions_cost": 0.00003416
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:39:01.604Z"
+}

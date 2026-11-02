@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793574739-AHwbr24MkT88AgdvcxIi",
+  "object": "chat.completion",
+  "created": 1793574739,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Who-Better-Than-You-audiobook/dp/B003Y57DP8",
+              "title": "Who Better Than You?: Educating Your Child about Sex ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nWho Better Than You?: Educating Your Child about Sex ...\nDr. Yvonne Kristin Fulbright, educating your child about sex, love, and relationships from birth to their late teen years. A Therapist, HER Therapist, 41"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Brooke-Staggs/e/B0B57MSNSN?sr=1-15",
+              "title": "Amazon.com: Brooke Staggs: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "See more recommendations\n$ERROR_TEXT$\nYou need to complete your public profile in order to start following people. Complete my public profile\n* Home\n* About\n* All Books\n* More\n\nBrooke Staggs\n\n...\n\nhelp our students prosper in this hypercompetitive world.\n“[Ballard is] the first schoolteacher I have met in the United States who has taken it upon him or herself in a serious way to understand what these countries that are vastly outperforming us are doing and to accept the thought that they might actually have something to teach us. I have spent my life trying to help make teaching a profession, and what [he is] doing is what a real professional in education ought\n\n...\n\nor a policymaker—can take right now to nudge our schools in the right direction and help our students prosper in this hypercompetitive world.\n“[Ballard is] the first schoolteacher I have met in the United States who has taken it upon him or herself in a serious way to understand what these countries that are vastly outperforming us are\n\n...\n\n. I have spent my life trying to help make teaching a profession, and what [he is] doing is what a real professional in education ought to be doing. So I see [Ballard] as a pioneer.”\n\n...\n\n* Kindle Edition\n$ 5 . 99\n* Paperback\n$ 14 . 99\nBuy now with 1-Click ®\nSee all details\nSold by Amazon.com Services LLC.\n\nCustomers also bought items by\n\n* Amanda Ripley\nFollow\n$INTRO_HEADER$\n\n...\n\nAre you an author? Visit Author Central to update your books, profile picture,"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 855,
+    "completion_tokens": 1,
+    "total_tokens": 856,
+    "cost": 0.0010152658,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001542,
+      "upstream_inference_prompt_cost": 0.00001539,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Who’s Teaching Your Children?\" Vivian Troen, Katherine C. Boles \"global ratings\"",
+  "bookId": "bg1619098b0c",
+  "retrieved": "2026-11-01T23:12:17.383Z"
+}

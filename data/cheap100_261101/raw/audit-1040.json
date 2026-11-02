@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793572726-2h8Om7Cvfonpd68tXymt",
+  "object": "chat.completion",
+  "created": 1793572726,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"complete-435-317:reference:http://cnl.nsw.gov.au/cgi-bin/spydus.exe/FULL/WPAC/BIBENQ/35777739/15012485,1\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 280-300.\"\n    },\n    {\n      \"key\": \"intake-0481:reference:https://searchworks.stanford.edu/view/11858828\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 347-385.\"\n    },\n    {\n      \"key\": \"q0472:reference:https://discover.bklynlibrary.org/item?b=11843431\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 283-290.\"\n    },\n    {\n      \"key\": \"n3332449af7:amazon:https://www.amazon.com/Newton-Counterfeiter-Detective-Greatest-Scientist/dp/0151012784\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating is explicitly labelled as 287 global ratings.\"\n    },\n    {\n      \"key\": \"g0749:amazon:https://www.amazon.com/-/he/Karen-Dawisha-ebook/dp/B00L01GHGY\",\n      \"status\": \"reject\",\n      \"reason\": \"The title and author match exactly. The rating is explicitly labelled as 366 global ratings. However, the edition is a Kindle edition, not a print edition.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3182,
+    "completion_tokens": 446,
+    "total_tokens": 3628,
+    "cost": 0.0001928322,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019478,
+      "upstream_inference_prompt_cost": 0.0001591,
+      "upstream_inference_completions_cost": 0.00003568
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:38:52.535Z"
+}

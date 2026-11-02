@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575784-obVs2NP9XuxJeMqW8UCB",
+  "object": "chat.completion",
+  "created": 1793575784,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-df1fa2c1c76c:amazon:https://www.amazon.com/Rise-Decline-Medici-Bank-1397-1494/dp/1893122328\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 24 ratings is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"g1208:amazon:https://www.amazon.com/Aspirational-Investor-Taming-Markets-Achieve/dp/0062235095\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 132 ratings is explicitly labelled as ratings.\"\n    },\n    {\n      \"key\": \"bged8652ea0a:amazon:https://www.amazon.com/Losing-My-Virginity-Richard-Branson/dp/0753519550\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 3,600 ratings is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1220:amazon:https://www.amazon.com/Amp-Unlocking-Hypergrowth-Expectations-Intensity/dp/1119836115\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 1,406 ratings is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"g0640:amazon:https://www.amazon.com/Superhuman-Extremes-Mental-Physical-Ability/dp/1408709465\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 51 ratings is explicitly labelled as ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3471,
+    "completion_tokens": 460,
+    "total_tokens": 3931,
+    "cost": 0.0002082465,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021035,
+      "upstream_inference_prompt_cost": 0.00017355,
+      "upstream_inference_completions_cost": 0.0000368
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:29:51.312Z"
+}

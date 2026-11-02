@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574891-5qPHvfXnxwtmEoSNxNsq",
+  "object": "chat.completion",
+  "created": 1793574891,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"complete-375-296:amazon:https://www.amazon.com/When-Stop-Talking-Youll-Know/dp/0446548162\",\n      \"status\": \"reject\",\n      \"reason\": \"The author field contains two names, Jerry Weintraub and Rich Cohen, but the book title is only attributed to Jerry Weintraub in the source text.\"\n    },\n    {\n      \"key\": \"g0719:amazon:https://www.amazon.com/Down-Earth-Politics-Climatic-Regime/dp/1509530568\",\n      \"status\": \"supported\",\n      \"reason\": \"The book title and author match exactly. The evidence of 266 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"g1112b:amazon:https://www.amazon.com/Caesar-Christ-Civilization-Christianity-D/dp/1567310141\",\n      \"status\": \"supported\",\n      \"reason\": \"The book title and author match exactly. The evidence of 110 ratings is explicitly stated. The print length of 752 pages is identified as a print edition.\"\n    },\n    {\n      \"key\": \"g1302:amazon:https://www.amazon.com/Gallic-Wars-Julius-Caesar/dp/1604597623\",\n      \"status\": \"supported\",\n      \"reason\": \"The book title and author match exactly. The evidence of 29 ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1297:amazon:https://www.amazon.com/Army-Dawn-1942-1943-Liberation-Trilogy/dp/0805087249\",\n      \"status\": \"reject\",\n      \"reason\": \"The book title includes a series designation, which is not supported.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3637,
+    "completion_tokens": 454,
+    "total_tokens": 4091,
+    "cost": 0.0002159883,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021817,
+      "upstream_inference_prompt_cost": 0.00018185,
+      "upstream_inference_completions_cost": 0.00003632
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:14:54.711Z"
+}

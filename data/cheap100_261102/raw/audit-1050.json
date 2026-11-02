@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574397-B3eBMrJje2TFpXf2aa8H",
+  "object": "chat.completion",
+  "created": 1793574397,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-82dea5fe604f:amazon:https://www.amazon.com/Metaphors-We-Live-George-Lakoff/dp/0226468011\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence provided is a global rating count of 1,052.\"\n    },\n    {\n      \"key\": \"g1147:amazon:https://www.amazon.com/Market-Wizards-Jack-D-Schwager/dp/0887306101\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence provided is a rating count of 3,566.\"\n    },\n    {\n      \"key\": \"shelf-46b8979de11e:amazon:https://www.amazon.com/Japan-As-Number-One-Lessons/dp/0674472152\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence provided is a global rating count of 19.\"\n    },\n    {\n      \"key\": \"q1002:amazon:https://www.amazon.com/New-Jim-Crow-Incarceration-Colorblindness/dp/1620971933\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence provided is a global rating count of 16,594.\"\n    },\n    {\n      \"key\": \"intake-0162:amazon:https://www.amazon.com/Road-Ahead-Book-CD/dp/0670772895\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence provided is a global rating count of 92.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3568,
+    "completion_tokens": 439,
+    "total_tokens": 4007,
+    "cost": 0.0002113848,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021352,
+      "upstream_inference_prompt_cost": 0.0001784,
+      "upstream_inference_completions_cost": 0.00003512
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:06:40.850Z"
+}

@@ -1,0 +1,60 @@
+{
+  "retrieved": "2026-11-01T22:11:45.175Z",
+  "bookId": "rem-u1696",
+  "id": "gen-1793571105-A7FEFNiyF9ZZMutdys73",
+  "object": "chat.completion",
+  "created": 1793571105,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"rem-u1696\",\n  \"title\": \"Focus: The ASML Way\",\n  \"author\": \"Marc Hijink\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 344,\n    \"editionId\": \"ISBN:9789463823623\",\n    \"editionYear\": null,\n    \"format\": \"Hardcover\",\n    \"language\": \"Dutch\",\n    \"url\": \"https://www.managementboek.nl/boek/9789463823623/focus-marc-hijink\",\n    \"evidence\": \"344 pagina's\",\n    \"sourceTitle\": \"Focus: The ASML Way\",\n    \"sourceAuthor\": \"Marc Hijink\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.managementboek.nl/boek/9789463823623/focus-marc-hijink\",\n    \"https://www.amazon.com.au/dp/946382362X\",\n    \"https://www.abebooks.com/9781844031849/Book-Inventions-Stories-Behind-Inventors-1844031845/plp\"\n  ],\n  \"limitations\": \"The search for bibliographical references for \\\"Focus: The ASML Way\\\" by Marc Hijink did not yield any specific page ranges or explicit mentions of a reference section within the provided search results. The available information focuses on the book's description, publisher, and page count, but not its end matter like references or bibliographies.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.abebooks.com/9781844031849/Book-Inventions-Stories-Behind-Inventors-1844031845/plp",
+              "title": "The Book of Inventions : The Stories Behind the Inventions and Inventors of the Modern World - Ian-harrison: 9781844031849 - AbeBooks",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Book of Inventions : The Stories Behind the Inventions and Inventors of the Modern World - Ian-harrison: 9781844031849 - AbeBooks\n\n- Ian-harrison\n- The Book of Inventions : The Stories Behind the Inventions and Inventors of the Modern World\n- ISBN 13: 9781844031849\n\n# The Book of Inventions : The Stories Behind the Inventions and Inventors of the Modern World - Hardcover\n\n## Ian-harrison\n\nView all 8 copies of The Book of Inventions : The Stories Behind the Inventions and Inventors of the Modern World from US$ 5.06\n\nHardcover\n\nISBN 10: 1844031845 ISBN 13: 9781844031849\n\nPublisher: Cassell Illustrated, 2004\n\nView all copies of this ISBN edition\n\n10 Used From US$ 5.06\n\n0 New\n\n...\n\nHave you ever wondered who invented the zip ? Would you believe that an army officer designed the first Lava-lamp ? The Book of Inventions is an in-depth look at the objects that have advanced every area of human living.\n\n\"synopsis\" may belong to another edition of this title.\n\n...\n\n### From Booklist\n\nWith sliced bread and the lava lamp among his selected inventions, Harrison aims to please more than teach. He allocates a two-page spread for each item, giving it a kaleidoscopic visual treatment with a text block about the inventor, an unusual photograph of the brainchild, and a humorous or historic photograph of the invention in use. In addition to its entertainment value, Harrison's work includes a number of...\n\n\"About this title\" may belong to another edition of this title.\n\nPublisher Cassell Illustrated Publication date2004 LanguageEnglish ISBN 10 1844031845 ISBN 13 9781844031849 BindingHardcover Number of pages288\n\n...\n\n### Customers also shopped for these similar items\n\nSkunk Works: A Personal Memoir of My Years at Lockheed\n\n...\n\nThe Power Broker (Pulitzer Prize Winner): Robert Moses...\n\n...\n\nMasters of Doom: How Two Guys Created an Empire and...\n\nKushner, David\n\nMythical Man-Month, The: Essays on Software Engineering,...\n\nBrooks Jr., Frederick\n\nFocus: The ASML way - Inside the power struggle over...\n\nHijink, Marc\n\nAn Elegant Puzzle: Systems of Engineering Management\n\nLarson, Will\n\n...\n\n## The book of inventions / Ian Harrison\n\nPublished by London : Cassell Illustrated, 2004\n\nISBN 10: 1844031845 ISBN 13: 9781844031849\n\nUsed Hardcover First Edition\n\nSeller: MW Books, New York, NY, U.S.A.\n\nFirst Edition. Fine cloth copy in a near fine, very slightly edge-nicked and dust-dulled dust wrapper, now mylar-sleeved. Remains particularly and surprisingly well-preserved; tight, bright, clean and sharp-cornered. Physical description; 288 p. : ill. (some col.), ports. (some col.) ; 28 cm. Notes; Includes bibliographical references and index. Subjects; Inventions History. Inventors ; Biography. Inventions ; Encyclopedias. Inventions History. Inventors ; Biography. Genres; Bibliography. Illustrated. 4 Kg. Seller Inventory # 292994"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1445,
+    "completion_tokens": 397,
+    "total_tokens": 1842,
+    "cost": 0.007300267,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003033,
+      "upstream_inference_prompt_cost": 0.0001445,
+      "upstream_inference_completions_cost": 0.0001588
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

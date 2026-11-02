@@ -1,0 +1,157 @@
+{
+  "id": "gen-1793574368-MlV6BJbYYU5dQFjJ6Jdw",
+  "object": "chat.completion",
+  "created": 1793574368,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "Based on the provided web search results, here's the bibliographical reference for \"Lost Japan\" by Alex Kerr in JSON format, following the given structure:\n\n```json\n{\n  \"id\": \"shelf-54b131960626\",\n  \"title\": \"Lost Japan\",\n  \"author\": \"Alex Kerr\",\n  \"pages\": {\n    \"count\": 269,\n    \"url\": \"https://wikipedia.blackbriarcomputing.com/content/wikipedia_en_all_maxi_2024-01/A/Lost_Japan\",\n    \"edition\": \"First edition\",\n    \"format\": \"Print\",\n    \"evidence\": \"Explicitly stated in the Wikipedia article\"\n  },\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 269,\n    \"url\": \"https://www.amazon.com/Lost-Japan-Alex-Kerr/dp/0141979747\",\n    \"evidence\": \"Amazon product page\",\n    \"ranges\": [\n      {\n        \"start\": 1,\n        \"end\": 269,\n        \"label\": \"All pages\"\n      }\n    ]\n  }\n}\n```\n\nThis JSON object includes the main product title and author, the number of pages with a URL and evidence for the count, and a reference with a count, URL, evidence, and an inclusive range for all pages. No Amazon or other external product information was provided in the search results, so those fields are set to `null`.",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://en.wikipedia.org/wiki/Lost_Japan",
+              "title": "Lost Japan - Wikipedia",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "* Log in\n\nContents\n\n* (Top)\n* 1 Background\n* 2 Reception\n* 3 Chapters\n* 4 References\n* 5 External links\n\nLost Japan\n\n2 languages\n* 日本語\n\n...\n\nLost Japan ( 美しき日本の残像 , Utsukushiki Nihon no Zanzo ) is a 1993 book written by American Japonologist Alex Kerr . [ 1 ]\n\nBackground\n\n[ edit ]\n\n...\n\nof Bodhi Fishman, and published as Lost Japan in 1996.\nThe original Japanese version was published by Shinchosha in 1993; a paperback version has been published since 2000 by The Asahi Shimbun\n\n...\n\nThe Literati - the author compares Oxford All Souls' Warden John Sparrow as Western literati with the educated leisure class of Japan\n14. Last Glimpse\n\nReferences\n\n[ edit ]\n1. ↑ Komano, Tsuyoshi INTERVIEW/ Alex Kerr: Japan needs to learn how to 'bypass' contentious issues with neighbours November 15, 2013 Archived October 7, 2015, at the Wayback Machine Asahi Shimbun Retrieved October 7, 2015\n2. ↑ Solomon, Charles (20 October 1996). \"LOST JAPAN by Alex Kerr, translated...\" Los Angeles Times . Retrieved 3 February 2020 .\n3. ↑ Alex Kerr.com - Lost Japan Retrieved October 6, 2015\n4. ↑ Kendrick, Vivienne Alex Kerr September 9, 2006 Japan Times Retrieved October 6, 2015\n5. ↑ Sokol, Kathy Arlene (28 March 2019). \"Concretizing the Japanese Dream: Alex Kerr on State-sponsored Vandals, True Romance and Contemporary Genii\" . Kyoto Journal . Retrieved 3 February 2020 .\n6. ↑ Flanagan, Damian (16 January 2016)."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://alex-kerr.com/html/lost_japan__japan_.html",
+              "title": "Lost Japan (Japan)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "* About me, Contact\n\nanimate\n\ncurve02\n『美しき日本の残像』 Utsukushiki Nihon no Zanzo\n|Introduction\nUtsukushiki Nihon no Zanzo is the original Japanese edition of Lost Japan. It's a group of autobiographical essays, describing experiences I had since coming to Japan as a boy in 1964, and how the country has changed.\nI wrote this book in Japanese as a series of articles for Shincho 45 magazine . In 1993, the articles came out as a book Utsukushiki Nihon no Zanzo (Last Glimpse of Beautiful Japan), which won the Shincho Gakugei literature award in 1994 (the first ever by a foreigner ). I later translated the book with the help of Bodhi Fishman into English, and in 1996 Lonely Planet published the English version as _Lost Japan.\n_ In 2000, Shincho-sha the original publisher, ceded the rights to Asahi Bunko, which now publishes the book in soft-cover.\n* The Japanese edition includes two essays lacking in the English version: one, a preface by Kabuki actor Bando Tamasaburo, and the other, an article by noted writer Shiba Ryotaro, who was head of the committee that awarded the book the Shincho Gakugei prize\nLost Japan JPN\nGet it from Amazon.co.jp\nArticles & Interviews\nPreface to Lost Japan, by Bando Tamasaburo, 2001 Oct 1 ** 「アレックスのこと 」坂東玉三郎 ** Revised preface by Kabuki actor Bando Tamasaburo for the 2001 edition of Lost Japan (Japanese edition) 『美しき日本の残像』\n\n...\n\npanel of judges chose to award the Shincho Gakugei Prize to Lost Japan (Japanese edition) 『美しき日本の残像』\nNavUp02\n*  | \n*  | \nEnd-"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://wikipedia.blackbriarcomputing.com/content/wikipedia_en_all_maxi_2024-01/A/Lost_Japan",
+              "title": "Lost Japan",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "* Publication date | 1993 (Japanese), 1996 (English)\n* Media type | Print, e-book\n* Pages | 269 pp.\n* ISBN | 978-0-86442-370-2\n* OCLC | 951481922\nLost Japan ( 美しき日本の残像 , Utsukushiki Nihon no Zanzo ) is a 1993 book written by American Japonologist Alex Kerr . [1]\n\nBackground\n\nThe book deals with Kerr's life in Japan and on aspects of Japanese culture by which he was fascinated. The text is a collection of personal essays in which he suggests that the current popularity of ikebana, Kabuki, and other famous Japanese arts and crafts represents the final efflorescence of a moribund culture. [2] He wrote it in Japanese, and it was translated into English with the help of Bodhi Fishman and published as Lost Japan in 1996.\nThe original Japanese version was published by Shinchosha in 1993; a paperback version has been pub\n\n...\n\nArt Collecting - the author describes collecting centuries-old calligraphy cheaply\n5. China versus Japan\n6. Calligraphy\n7. Tenmangu (after the Ōsaka Tenmangū Shrine )\n8.\n\n...\n\nThe Literati - the author compares Oxford All Souls' Warden John Sparrow as Western literati with the educated leisure class of Japan\n14. Last Glimpse\n\nReferences\n\n1. ↑ Komano, Tsuyoshi INTERVIEW/ Alex Kerr: Japan needs to learn how to 'bypass' contentious issues with neighbours November 15, 2013 Archived October 7, 2015, at the Wayback Machine Asahi Shimbun Retrieved October 7, 2015\n2. ↑ Solomon, Charles (20 October 1996). \"LOS"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://a.osmarks.net/content/wikipedia_en_all_maxi_2020-08/A/Lost_Japan",
+              "title": "Lost Japan",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Lost Japan\n\nLost Japan ( 美しき日本の残像 , Utsukushiki Nihon no Zanzo ) is a 1993 book written by American Japonologist Alex Kerr . [1]\n* 2004 edition cover | \n* Author | Alex Kerr\n* Country | Japan, United States\n* Language | Japanese, English\n* Genre | History , Japan\n* Publisher | Shinchosha , Lonely Planet\n* Publication date | 1993 (Japanese), 1996 (English)\n\n...\n\nThe book deals with his life in Japan and on aspects of Japanese culture that he was fascinated by. The text is a collection of Kerr's personal essays in which he suggests that the current popularity of ikebana, Kabuki, and other famous Japanese arts and crafts represents the final efflorescence of a moribund culture. [2] He wrote it in Japanese, and it was translated into English with the help of Bodhi Fishman and published as Lost Japan in 1996.\nThe original Japanese version was published by Shinchosha in 1993; a paperback versi\n\n...\n\nArt Collecting - the author describes collecting centuries-old calligraphy cheaply\n5. China versus Japan\n6. Calligraphy\n7. Tenmangu (after the Ōsaka Tenmangū Shrine)\n8.\n\n...\n\nThe Literati - the author compares Oxford All Souls' Warden John Sparrow as Western literati with the educated leisure class of Japan\n14. Last Glimpse ## References\n15. Komano, Tsuyoshi INTERVIEW/ Alex Kerr: Japan needs to learn how to 'bypass' contentious issues with neighbours November 15, 2013 Archived October 7, 2015, at the Wayback Machine Asahi Shimbun"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.japansociety.org.uk/review?review=489",
+              "title": "\n\t\tThe Japan Society - Lost Japan",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Orizuru: Folk Tales and Peace\nHouse of the Setting Sun\nHouse of the Setting Sun\nSearch\nPublications Books & Journals The Japan Society Review\nReview | Issues Archive (PDF)\n\nLost Japan\n\nLost Japan\n\nBy Alex Kerr\n\nPenguin (2015) ISBN-10: 0141979747\n\nReview by Harry Martin **\n\n**\nSince its original publication in 1993, Lost Japan by Alex Kerr has stood within the ranks of the more revelatory and nuanced works in a long line of publications unpicking the seeming exoticism and essential unfamiliarity of Japanese history and culture. From the very first page readers find themselves being guided through the author\n\n...\n\narchitecture to set the scene in a much wider context.\nLike many who have spent long periods in Japan, Kerr has a distinct conflict of emotions regarding the country he now calls home, and his writing frequently lays this bare. On the one hand he expresses impassioned admiration and praise for the native culture, while on the other he suggests a thinly veiled sense of disapproval for what he sees as the modern Japanese disregard for their past. This reprimand sets the tenor of the book and seems to be directed at a largely apathetic urban Japanese audience which the author feels needs\n\n...\n\nd for the Japanese reader (it was first published as Utsukushiki nihon no zanzō, Last Glimpse of Beautiful Japan ), with the translation and publication for western audiences somewhat of an"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://wiki.ryanmichaelcurry.com/content/wikipedia_en_all_maxi_2025-08/Lost_Japan",
+              "title": "Lost Japan",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Lost Japan\n\n* 2004 edition cover | \n* Author | Alex Kerr\n* Language | Japanese, English\n* Genre | History , Japan\n* Publisher | Shinchosha , Lonely Planet\n* Publication date | 1993 (Japanese), 1996 (English)\n* Publication place | Japan, United States\n* Media type | Print, e-book\n* Pages | 269 pp.\n* ISBN | 978-0-86442-370-2\n* OCLC | 951481922\nLost Japan ( 美しき日本の残像 , Utsukushiki Nihon no Zanzo ) is a 1993 book written by American Japonologist Alex Kerr . [ 1 ]\n\nBackground\n\nThe book deals with Kerr's life in Japan and on aspects of Japanese culture by which he was fascinated. The text is a collection of personal essays in which he suggests that the current popularity of ikebana, Kabuki, and other famous Japanese arts and crafts represents the final efflorescence of a moribund culture. [ 2 ] He wrote it in Japanese, and it was translated into English with the help of Bodhi Fishman and published as Lost Japan in 1996.\n\n...\n\nThe Literati - the author compares Oxford All Souls' Warden John Sparrow as Western literati with the educated leisure class of Japan\n14. Last Glimpse\n\nReferences\n\n1. ^ Komano, Tsuyoshi INTERVIEW/ Alex Kerr: Japan needs to learn how to 'bypass' contentious issues with neighbours November 15, 2013 Archived October 7, 2015, at the Wayback Machine Asahi Shimbun\n\n...\n\n5\n2. ^ Solomon, Charles (20 October 1996). \"LOST JAPAN by Alex Kerr, translated...\" Los Angeles Times . Retrieved 3 February 2020 .\n3. ^ Alex Kerr.com - Lost Japan Retrieved October 6, 2015\n4."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://ja.wikipedia.org/wiki/%E7%BE%8E%E3%81%97%E3%81%8D%E6%97%A5%E6%9C%AC%E3%81%AE%E6%AE%8B%E5%83%8F",
+              "title": "美しき日本の残像 - Wikipedia",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "印刷/書き出し\n* ブックの新規作成\n* PDF 形式でダウンロード\n* 印刷用バージョン\n他のプロジェクト\n* ウィキデータ項目\n表示\nサイドバーに移動 非表示\n出典: フリー百科事典『ウィキペディア（Wikipedia）』\n美しき日本の残像\n著者\nアレックス・カー\n発行日\n1993年 (日本語版)、 1996年 (英語版)\n発行元\n新潮社 、 Lonely Planet\nジャンル\n歴史 、 日本\n国\n日本、アメリカ合衆国\n言語\n日本語、英語\n形態\n刊本、電子書籍\nページ数\n269 pp.\nコード\nISBN 978-0-86442-370-2 951481922（OCLC）\n* [  ウィキデータ項目を編集 ]\nテンプレートを表示\n美しき日本の残像 （うつくしきにほんのざんぞう、 英語 : Lost Japan （訳:失われた日本））は、1993年にアメリカの 日本学者 アレックス・カー が書いた本である [ 1 ] 。\n\n背景\n\n[ 編集 ]\nこの本は、彼の日本での生活と、彼が魅了された日本文化の側面を扱っている。本文は、カーの個人的なエッセイを集めたもので、生け花、歌舞伎、その他の有名な日本の美術品や工芸品の現在の人気は、衰退した文化の最終的な精華を表すものと彼は示唆している [ 2 ] 。日本語で書かれたこの本は、ボーディ・フィッシュマン (Bodhi Fishman)の助けを借りて英訳され、1996年に Lost Japan として出版された。\n日本語版の原書は1993年に新潮社から出版され、 文庫版 は2000年に 朝日新聞社 から出版されている。英訳版は、1996年に Lonely Planet から初めて出版されたが、2015年には Penguin UK からアレックスが新たに書いた序文を添えて再版された。\n翻訳版は、繁体字中国語、簡体字中国語、イタリア語、ポーランド語、ロシア語、スペイン語でも出版されている。\n\n受容\n\n[ 編集 ]\n同書は1994年に 新潮学芸賞 を受賞した。カーは日本人以外では初の受賞者である [ 3 ] [ 4 ] [ 5 ] 。\nジャパンタイムズ のダミアン・フラナガン (Damian Flanagan)は、次のように書いている。「この本は、四国の 祖谷渓 にある伝統的な日本家屋の修復から、実家の蔵に眠っている日本の骨董品の収集に至るまでを収めた、カーと日本との多様な交流の魅力的な年代記である。第二の祖国（日本）の工芸品や建築物に目が肥えているだけでなく、日本全般についての示唆に富んだ洞察を提供している点でも、カーは優れている。奈良に点在する寺院の 曼荼羅 から、大阪南部の 飛田の古い風俗街 まで、日本文化に隠された魔法のような側面の多くを明らかにする探究を提供している。」 [ 6 ]\n\n章\n\n[ 編集 ]\n1. お城を探す (Looking for a Castle)\n2. 祖谷 (Iya Valley) - 著者による 篪庵 の購入と修理\n3.\n\n...\n\n東南アジア (The Literati) - 西洋の文学者としての オックスフォード・オール・ソウルズ の管理人 ジョン・スパロウ を、日本の教養ある有閑階級と比較している\n14. 最後の光を見ることができた (Last Glimpse)\n\n参考文献\n\n[ 編集 ]\n1."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.penguin.co.uk/books/273227/lost-japan-by-kerr-alex/9780141979748",
+              "title": "Lost Japan",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Join our newsletter for 10% off at the Penguin Shop\nFind the perfect gift this Christmas\n* Home\n* Alex Kerr\n* Lost Japan\nBook cover of Lost Japan by Alex Kerr\n\nLost Japan\n\nby Alex Kerr\n\nFormat:\n\n...\n\ntab Waterstones Opens in a new tab\nAn enchanting and fascinating insight into Japanese landscape, culture, history and future.\nOriginally written in Japanese, this passionate, vividly personal book draws on the author's experiences in Japan over thirty years. Alex Kerr brings to life the ritualized world of Kabuki, retraces his initiation into Tokyo's boardrooms during the heady Bubble Years, and tells the story of the hidden valley that became his home.\nBut the book is not just a love letter. Haunted throughout by nostalgia for the Japan of old, Kerr's book is part paean to that great country and culture, part epitaph in the face of contemporary Japan's environmental and cultural destruction.\nWinner of Japan's Shincho Gakugei Literature Prize, and now with a new preface.\nAlex Kerr is an American writer, antiques collector and Japanologist. Lost Japan is his most famous work. He was the first foreigner to be awarded the Shincho Gakugei Literature Prize for the best work of non-fiction published in Japan.\nRead more\nOne of the finest books about Japan written in decades\n\n...\n\nHe was the first foreigner to be awarded the Shincho Gakugei Literature Prize for the best work of non-fiction published in Japan.\nLearn more\nDetails\n* Imprint: Penguin\n* Published: 03/09/2015\n* ISBN: 97"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.japantimes.co.jp/culture/2016/01/16/books/book-reviews/lost-japan",
+              "title": " Lost Japan - The Japan Times ",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "CULTURE / Books / ESSENTIAL READING FOR JAPANOPHILES\n\nLost Japan\n\nBy Damian Flanagan Special To The Japan Times\nSHARE/SAVE\n\n...\n\nstory Copy link\nJan 16, 2016\nOriginally published in Japanese in 1993 (with the English translation following in 1996), “Lost Japan,” the first book by Alex Kerr, has recently been re-released by Penguin. A fascinating chronicle of Kerr’s diverse interactions with the country, the book spans such subjects as restoring a traditional Japanese house in the Iya Valley in Shikoku to collecting Japanese antiques often found languishing unloved in the kura (storehouses) of family homes.\nLost Japan, by Alex Kerr 256 pages Penguin, Nonfiction.\nKerr is superlative not only in bringing a connoisseur’s eye to the artefacts and architecture of his adopted homeland, but also in providing revelatory insights into the country in general. He provides an illuminating exploration of many hidden, magical aspects of Japanese culture from the mandala of temples studded around Nara to the ancient\n\n...\n\nspecial occasions. The book itself almost seems a kind of hibutsu, bringing into the light so many features of Japan that many people, both Japanese and non-Japanese, didn’t know existed.\n*\n\n...\n\nVisitors to Japan will soon have to wait for consumption tax refunds\nJapan tourist spending rises despite drop in visitor arrivals\nTokyo and Osaka record latest-ever day above 30 Celsius"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://alex-kerr.com/html/lost_japan__english_.html",
+              "title": "Lost Japan (English) - Alex Kerr.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "animate\n\ncurve02\nLost Japan (English)\n|**Introduction\n** Lost Japan is a series of autobiographical essays, describing experiences I had since coming to Japan as a boy in 1964, and how the country has changed.\nI wrote this book originally in Japanese as a series of articles for Shincho 45 magazine.\n\n...\n\nI later translated the book with the help of Bodhi Fishman into English, and in 1996 Lonely Planet published the English version as Lost Japan .\n* My two books on Japan are yin and yang: Dogs and Demons is about \"now\", but Lost Japan is about the past and what it has to teach us.  It's a very personal book, looking back to the glories of the old landscape and traditional culture.\nGet it from Amazon.com\nArticles & Reviews\nJapan Times (Donald Richie), 1995 May 28\nbullet02\n\n...\n\nTokyo Journal, 1996 Aug\nIt's a curiosity of writing on Japan that many of the finest books by foreigners are laments: sighing, nostalgic elegies for a vanished world of delicate beauty, lost forever\n\n...\n\nBut Lost Japan is a true original, a rich blend of art criticism, social history, memoir and polemic, by one of the most interesting foreigners in Japan. Published originally in Japanese\n\n...\n\nAs an authentic modern day hermit-sage, he is effortlessly learned [just occasionally, the sprinkling of Chinese sayings and erudite references (\"When the late Kanzaburo XVII prayed Kumagai.\n\n...\n\nThe Japanese were, of course, referring to 'ts"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5129,
+    "completion_tokens": 326,
+    "total_tokens": 5455,
+    "cost": 0.00110108098,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000102102,
+      "upstream_inference_prompt_cost": 0.000092322,
+      "upstream_inference_completions_cost": 0.00000978
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "\"Lost Japan\" \"bibliographical references\"",
+  "bookId": "shelf-54b131960626",
+  "retrieved": "2026-11-01T23:06:37.969Z"
+}

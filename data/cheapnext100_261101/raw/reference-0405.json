@@ -1,0 +1,60 @@
+{
+  "id": "gen-1793573153-hMBZGbyWhyUX9dxZUSmV",
+  "object": "chat.completion",
+  "created": 1793573153,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"rem-u1662\",\n  \"title\": \"The Rare Metals War\",\n  \"author\": \"Guillaume Pitron\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 263,\n    \"url\": \"https://trove.nla.gov.au/sites/default/files/attachments/2020-11/aug20cla_rap.txt\",\n    \"evidence\": \"library catalog\",\n    \"ranges\": [\n      {\n        \"start\": 263,\n        \"end\": 263,\n        \"label\": \"pages\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://trove.nla.gov.au/sites/default/files/attachments/2020-11/aug20cla_rap.txt",
+              "title": "Aug20cla rap",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Recent Australian Publications \nAugust 2020 - Dewey Classified \n \nRe-use of these records by re-publication is not permitted. \n \n---------------------------------------------\n\n...\n\n--------------------------------------------- \n \n338.27494 23 \nThe rare metals war : the dark side of clean energy and \ndigital technologies / Guillaume Pitron ; translated by \nBianca Jacobsohn.[S.l.] : SCRIBE PUBLICATIONS, 2020.xi, 263 \npages ; 24 cm. \nAN: 67583260 \nISBN: 9781925849325 \nQPPL eng rda QPPL contributed cataloguing \nPitron, Guillaume, author. \nIncludes bibliographical references. \nRare earth metals Environmental aspects.Rare earth industry \nEnvironmental aspects.Rare earth industry Political \naspects.Rare earth metals Economic aspects.Rare earth \nmetals Political aspects.Environmental toxicology. \nJacobson, Bianca, translator. \n \n---------------------------------------------"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 613,
+    "completion_tokens": 145,
+    "total_tokens": 758,
+    "cost": 0.00701523016,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000015384,
+      "upstream_inference_prompt_cost": 0.000011034,
+      "upstream_inference_completions_cost": 0.00000435
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "rem-u1662",
+  "retrieved": "2026-11-01T22:46:08.636Z"
+}

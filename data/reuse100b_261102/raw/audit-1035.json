@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575232-VToayG7ygnbmOiQFEFng",
+  "object": "chat.completion",
+  "created": 1793575232,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"ncaa247ed7e:amazon:https://www.amazon.com/Joy-Guided-Tour-Math-Infinity/dp/0547517653\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The numeric evidence 2,584 is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"complete-441-320:amazon:https://www.amazon.com/Not-End-World-Generation-Sustainable/dp/031653675X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The numeric evidence 1,756 is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"intake-0404:amazon:https://www.amazon.com/Emotional-Design-Love-Everyday-Things/dp/0465051367\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The numeric evidence 938 is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1011:amazon:https://www.amazon.com/Leviathan-Air-Pump-Experimental-Princeton-Classics/dp/0691150206\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The numeric evidence 62 is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1090:amazon:https://www.amazon.com/Surfing-Uncertainty-Prediction-Action-Embodied/dp/0190217014\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The numeric evidence 169 is explicitly labelled as global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3489,
+    "completion_tokens": 442,
+    "total_tokens": 3931,
+    "cost": 0.0002077119,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020981,
+      "upstream_inference_prompt_cost": 0.00017445,
+      "upstream_inference_completions_cost": 0.00003536
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:20:40.203Z"
+}

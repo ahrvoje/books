@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793573577-pFlwK16WWeG0RaPcMt1M",
+  "object": "chat.completion",
+  "created": 1793573577,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-3c2b771f5d48:amazon:https://www.amazon.com/Questions-Are-Answer-Breakthrough-Approach/dp/0062844768\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating of 274.\"\n    },\n    {\n      \"key\": \"intake-0355:amazon:https://www.amazon.com/Minds-Fantasies-Reflections-Self-Soul/dp/0465030912\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and authors match exactly. The evidence is a global rating of 146.\"\n    },\n    {\n      \"key\": \"nd66611cdb7:amazon:https://www.amazon.com/Introducing-Quantum-Theory-Sciences-Discovery/dp/1840468505\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and authors match exactly. The evidence is a global rating of 898.\"\n    },\n    {\n      \"key\": \"shelf-22d40b0fdf92:pages:https://www.amazon.com/Duveen-Story-Most-Spectacular-Dealer/dp/1892145170\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a print length of 242 pages.\"\n    },\n    {\n      \"key\": \"progress-0107:amazon:https://www.amazon.com/Anything-collection-Reddits-best-IAmA/dp/0692582266\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating of 95.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3434,
+    "completion_tokens": 440,
+    "total_tokens": 3874,
+    "cost": 0.000204831,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002069,
+      "upstream_inference_prompt_cost": 0.0001717,
+      "upstream_inference_completions_cost": 0.0000352
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:53:01.061Z"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575555-iv0Jhjwr57C0GzP9f4MM",
+  "object": "chat.completion",
+  "created": 1793575555,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g0582:amazon:https://www.amazon.com/dp/1541646495\",\n      \"status\": \"supported\",\n      \"reason\": \"Title and author match. 926 global ratings are explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-3066f2c783a3:amazon:https://www.amazon.com/Explore-Create-Pursuit-Frontiers-Creative/dp/006228665X\",\n      \"status\": \"supported\",\n      \"reason\": \"Title and author match. 109 ratings are explicitly stated.\"\n    },\n    {\n      \"key\": \"g0924:amazon:https://www.amazon.com/Seeking-Wisdom-Darwin-Munger-3rd/dp/1578644283\",\n      \"status\": \"supported\",\n      \"reason\": \"Title and author match. 397 global ratings are explicitly stated.\"\n    },\n    {\n      \"key\": \"progress-0398:amazon:https://www.amazon.com/Ghetto-Center-World-Chungking-Mansions/dp/0226510190\",\n      \"status\": \"supported\",\n      \"reason\": \"Title and author match. 115 global ratings are explicitly stated.\"\n    },\n    {\n      \"key\": \"g1171:amazon:https://www.amazon.com/Capital-Ideas-Improbable-Origins-Modern/dp/0471731749\",\n      \"status\": \"supported\",\n      \"reason\": \"Title and author match. 131 global ratings are explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3201,
+    "completion_tokens": 399,
+    "total_tokens": 3600,
+    "cost": 0.0001900503,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019197,
+      "upstream_inference_prompt_cost": 0.00016005,
+      "upstream_inference_completions_cost": 0.00003192
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:26:01.499Z"
+}

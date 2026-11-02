@@ -1,0 +1,60 @@
+{
+  "id": "gen-1793573153-P7p6KVOaj5is2V2fW9B0",
+  "object": "chat.completion",
+  "created": 1793573153,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-527c9feb5dde\",\n  \"title\": \"Allies at War: The Politics of Defeating Hitler\",\n  \"author\": \"Tim Bouverie\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 672,\n    \"url\": \"https://calderdale.spydus.co.uk/cgi-bin/spydus.exe/ENQ/OPAC/BIBENQ?BRN=870162&SETLVL=\",\n    \"evidence\": \"Calderdale Libraries - Library Catalogue\",\n    \"ranges\": [\n      {\n        \"start\": 1,\n        \"end\": 672,\n        \"label\": \"Total pages\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://calderdale.spydus.co.uk/cgi-bin/spydus.exe/ENQ/OPAC/BIBENQ?BRN=870162&SETLVL=",
+              "title": "Allies at war : the politics of defeating hitler / Tim Bouverie. | Calderdale Libraries - Library Catalogue",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Allies at war : the politics of defeating hitler / Tim Bouverie. | Calderdale Libraries - Library Catalogue\n\n# Allies at war : the politics of defeating hitler\n\nBouverie, Tim, 1987- 2025\n\nBook\n\nTotal copies: 2\n\nAvailable: 1\n\n## Summary\n\nAfter the fall of France in June 1940, only Britain stood between Hitler and total victory. Desperate for allies, Winston Churchill did everything he could to bring the United States into the conflict, drive the Soviet Union and Nazi Germany apart and persuade neutral countries to resist German domination. By 1942, after the German invasion of Russia and the Japanese attack on Pearl Harbor, the British-Soviet-American alliance was in place. Yet it was an improbable and incongruous coalition, divided by ideology and politics and riven with mistrust and deceit. Churchill, Roosevelt and Stalin were partners in the fight to defeat Hitler, yet they were also rivals who disagreed on strategy, imperialism and the future of liberated Europe. Only by looking at their points of conflict, as well as of co-operation, are we able to understand the course of the war and world that developed in its aftermath.\n\n## Record details\n\nMain title: \n\nAllies at war : the politics of defeating hitler / Tim Bouverie.\n\nAuthor: Bouverie, Tim, 1987-, author\n\nWork: Allies at war : the politics of defeating hitler\n\nImprint: London : The Bodley Head, 2025.\n\nCollation: \n\nxiii, 672 pages, 16 unnumbered pages of plates : illustrations (black and white) ; 24 cm\n\nNotes: Includes bibliographical references and index.\n\nISBN: 9781847926227 (hbk)\n\nDewey class: 940.5322 940.532\n\nLanguage: English\n\nSubject: \n\nWorld War, 1939-1945 -- Diplomatic history Warfare and Defence History European history Second World War Diplomacy\n\nBRN: 870162"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 883,
+    "completion_tokens": 174,
+    "total_tokens": 1057,
+    "cost": 0.00702090286,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000021114,
+      "upstream_inference_prompt_cost": 0.000015894,
+      "upstream_inference_completions_cost": 0.00000522
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "shelf-527c9feb5dde",
+  "retrieved": "2026-11-01T22:46:08.131Z"
+}

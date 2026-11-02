@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:07.080Z",
+  "bookId": "shelf-a6eb41751272",
+  "id": "gen-1793571186-10Nl0mo5mY22dhhrFMMl",
+  "object": "chat.completion",
+  "created": 1793571186,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-a6eb41751272\",\n  \"title\": \"Voters as Mad Scientists\",\n  \"author\": \"Bryan Caplan\",\n  \"knownEdition\": null,\n  \"purchaseUrl\": \"https://www.amazon.de/dp/9798378725\",\n  \"amazon\": {\n    \"count\": null,\n    \"stars\": null,\n    \"asin\": \"B0C2SD1K8B\",\n    \"marketplace\": \"amazon.com\",\n    \"url\": \"https://www.amazon.com/Voters-Mad-Scientists-Political-Irrationality/dp/B0C2SD1K8B?language=en_US&linkCode=sl1&linkId=859aaef5eab9f97c32f44ba77b3a025b&qid=1682011547&refinements=p_27%3ABryan+Caplan&s=books&sr=1-17&tag=bryacaplwebp-20&text=Bryan+Caplan\",\n    \"evidence\": \"Print length\\n\\n226 pages\",\n    \"sourceTitle\": \"Voters as Mad Scientists: Essays on Political Irrationality\",\n    \"sourceAuthor\": \"Bryan Caplan, Brian Mandeville\",\n    \"snapshotLimitation\": \"The provided Amazon link is for the US marketplace, not DE as requested in the purchaseUrl.\"\n  },\n  \"pages\": {\n    \"count\": 226,\n    \"editionId\": \"9798378725281\",\n    \"editionYear\": 2023,\n    \"format\": \"Paperback\",\n    \"language\": \"English\",\n    \"url\": \"https://www.amazon.com/Voters-Mad-Scientists-Political-Irrationality/dp/B0C2SD1K8B?language=en_US&linkCode=sl1&linkId=859aaef5eab9f97c32f44ba77b3a025b&qid=1682011547&refinements=p_27%3ABryan+Caplan&s=books&sr=1-17&tag=bryacaplwebp-20&text=Bryan+Caplan\",\n    \"evidence\": \"Print length\\n\\n226 pages\",\n    \"sourceTitle\": \"Voters as Mad Scientists: Essays on Political Irrationality\",\n    \"sourceAuthor\": \"Bryan Caplan, Brian Mandeville\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Voters-Mad-Scientists-Political-Irrationality/dp/B0C2SD1K8B?language=en_US&linkCode=sl1&linkId=859aaef5eab9f97c32f44ba77b3a025b&qid=1682011547&refinements=p_27%3ABryan+Caplan&s=books&sr=1-17&tag=bryacaplwebp-20&text=Bryan+Caplan\",\n    \"https://book.douban.com/subject/36381812/\",\n    \"https://www.betonit.ai/p/voters-as-mad-scientists-essays-on\",\n    \"https://en.wikipedia.org/wiki/Bryan_Caplan\",\n    \"https://www.amazon.com/Voters-Mad-Scientists-Political-Irrationality-ebook/dp/B0C386RZXG\"\n  ],\n  \"limitations\": \"The purchase URL provided was for amazon.de, but the retrieved evidence was from amazon.com. The evidence for page count, edition year, format, and language was found on multiple sources, including Amazon.com and Douban.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Voters-Mad-Scientists-Political-Irrationality/dp/B0C2SD1K8B?language=en_US&linkCode=sl1&linkId=859aaef5eab9f97c32f44ba77b3a025b&qid=1682011547&refinements=p_27%3ABryan+Caplan&s=books&sr=1-17&tag=bryacaplwebp-20&text=Bryan+Caplan",
+              "title": "Amazon Prime includes:",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Voters as Mad Scientists: Essays on Political Irrationality: Caplan, Bryan, Mandeville, Brian: 9798378725281: Amazon.com: Books\n\n...\n\nKindle $9.99 Available instantly\n\nPaperback $12.00\n\nOther Used and New from $11.98\n\nPaperback from $11.98\n\n$12.00\n\n...\n\nShips from\n\nAmazon.com\n\nShips from\n\nAmazon.com\n\n---\n\nSold by\n\nAmazon.com\n\nSold by\n\nAmazon.com\n\n...\n\n---\n\nPrevious slide of product details\n\nPrint length\n\n226 pages\n\nLanguage\n\nEnglish\n\nPublication date\n\nApril 19, 2023\n\nDimensions\n\n5 x 0.51 x 8 inches\n\nISBN-13\n\n979-8378725281\n\nSee all details\n\nNext slide of product details\n\n...\n\nShips from and sold by Amazon.com."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://book.douban.com/subject/36381812/",
+              "title": "Voters as Mad Scientists (豆瓣)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Voters as Mad Scientists (豆瓣)\n\nVoters as Mad Scientists\n\n \n\n 作者: Bryan Caplan 副标题: Essays on Political Irrationality 出版年: 2023-4-19 页数: 226 装帧: Paperback ISBN: 9798378725281 \n\n 评价人数不足\n...\nof the Rational Voter, Selfish Reasons to Have More Kids, and The"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.betonit.ai/p/voters-as-mad-scientists-essays-on",
+              "title": "Voters as Mad Scientists: Essays on Political Irrationality",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Voters as Mad Scientists: Essays on Political Irrationality\n\n### The next book in the series releases today!\n\nBryan Caplan\n\nApr 24, 2023\n\nVoters as Mad Scientists: Essays on Political Irrationality, the next installment in my eight-volume series of “the best essays I’ve ever written,” is now available for purchase.\n\n...\n\nDespite tons of inflation, I’m keeping the price at $12 for the paperback and $9.99 for the e-book."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://en.wikipedia.org/wiki/Bryan_Caplan",
+              "title": "Bryan Caplan",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "- 2022 Don't Be a Feminist: Essays on Genuine Justice, ISBN \n\n979-8-846-16665-3\n- 2023 Voters as Mad Scientists: Essays on Political Irrationality, ISBN \n\n979-8-378-72528-1\n- 2023 You Will Not Stampede Me: Essays on Non-Conformism, ISBN"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Voters-Mad-Scientists-Political-Irrationality-ebook/dp/B0C386RZXG",
+              "title": "Voters as Mad Scientists: Essays on Political Irrationality",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Voters as Mad Scientists: Essays on Political Irrationality\nBrand: Bryan Caplan, Brian Mandeville\nCategory:\n...\n## Specifications\nFile size: 1.1 MB; Publication date: April 20, 2023; Language: English; Screen Reader: Supported; X-Ray: Not Enabled"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1362,
+    "completion_tokens": 926,
+    "total_tokens": 2288,
+    "cost": 0.007501534,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005066,
+      "upstream_inference_prompt_cost": 0.0001362,
+      "upstream_inference_completions_cost": 0.0003704
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "retrieved": "2026-11-01T22:17:21.810Z",
+  "bookId": "bg707c761fa7",
+  "id": "gen-1793571437-WpTArujF9crFsp6BUed7",
+  "object": "chat.completion",
+  "created": 1793571437,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"bg707c761fa7\",\n  \"title\": \"Public Choice Theory and the Illusion of Grand Strategy\",\n  \"author\": \"Richard Hanania\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 230,\n    \"editionId\": \"9781032121802\",\n    \"editionYear\": null,\n    \"format\": \"Hardback\",\n    \"language\": \"English\",\n    \"url\": \"https://www.routledge.com/Political-Economy-and-Grand-Strategy-A-Neoclassical-Realist-View/Brawley/p/book/9781032121802\",\n    \"evidence\": \"230 pages\",\n    \"sourceTitle\": \"Political Economy and Grand Strategy: A Neoclassical Realist View\",\n    \"sourceAuthor\": \"Brawley\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.prio.org/journals/jpr/booknotes/374\",\n    \"https://www.prio.org/journals/jpr/booknotes\"\n  ],\n  \"limitations\": \"No specific page ranges for bibliographical references were found in the provided search results. The search results from prio.org mention that Book Notes are short and include a full bibliographic reference, but do not specify the page count of the reference section itself or the book's overall reference pages.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.prio.org/journals/jpr/booknotes/374|",
+              "title": "Book notes – Peace Research Institute Oslo (PRIO)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Book notes – Peace Research Institute Oslo (PRIO)\n\n# Book notes\n\nSince 1969, Journal of Peace Research (JPR) has published short Book Notes in addition to longer Review Essays. From 2014, the Book Notes have been published open access and online at PRIO’s website, with a link from the JPR page at our publisher’s site. They are indexed by Google and frequently downloaded. The Book Notes are published online shortly after they have been approved by the editor. Review Essays, which are published infrequently, remain as published articles in the print journal. For Book Notes published in the print journal, see Web of Science or the journal issues at JSTOR.\n\nThe basic rules for the Book Notes remain the same: The books should be relevant to the topics covered by the journal and preferably published in the same year or the year before. The reviewer should be competent in the field and should not be a colleague or a recent close collaborator of the author(s) or editor(s) of the book. The overall length of the Book Note, including a full bibliographic reference and the reviewer’s name and affiliation, should be no more than 300 words. For the format, see the published Book Notes below.\n\nThe editor of the column is Nils Petter Gleditsch who can be reached at booknoteseditor@prio.org.\n\n...\n\n## Book Notes\n\n### 2024\n\n...\n\n### 2023\n\n...\n\n### 2022\n\n...\n\nPublished online 01 March 2022 Philip Dwyer & Mark Micale, eds (2021) The Darker Angels of Our Nature: Refuting the Pinker Theory of History & Violence, by Gordon Burt\n\nPublished online 01 March 2022 Richard Hanania (2022) Public Choice Theory and the Illusion of Grand Strategy: How Generals, Weapons Manufacturers, and Foreign Governments Shape American Foreign Policy, by Kristian Skrede Gleditsch\n\nPublished online 01 March 2022 Bruce D Jones (2021) To Rule the Waves: How Control of the World's Oceans Shapes the Fate of the Superpowers, by Pavel K Baev\n\n...\n\nAn error has occurred. This application may no longer respond until reloaded. An unhandled exception has occurred. See browser dev tools for details."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.prio.org/journals/jpr/booknotes",
+              "title": "Book notes – Peace Research Institute Oslo (PRIO)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Book notes – Peace Research Institute Oslo (PRIO)\n\n# Book notes\n\nSince 1969, Journal of Peace Research (JPR) has published short Book Notes in addition to longer Review Articles. From 2014, the Book Notes have been published open access and online at PRIO’s website, with a link from the JPR page at our publisher’s site. They are indexed by Google and frequently downloaded. The Book Notes are published online shortly after they have been approved by the editor. Review Articles, which are published infrequently, remain as published articles in the journal issues. For Book Notes published in the print journal, see Web of Science or the journal issues at JSTOR.\n\nThe basic rules for the Book Notes remain the same: The books should be relevant to the topics covered by the journal and preferably published in the same year or the year before. The reviewer should be competent in the field and should not be a colleague or a recent close collaborator of the author(s) or editor(s) of the book. The overall length of the Book Note, including a full bibliographic reference and the reviewer’s name and affiliation, should be no more than 300 words. For the format, see the published Book Notes below.\n\nThe editor of the column is Nils Petter Gleditsch who can be reached at booknoteseditor@prio.org.\n\n...\n\n### 2026\n\n...\n\n### 2024\n\n...\n\n### 2023\n\n...\n\n### 2022\n\nPublished online 24 November 2022\n\n...\n\nPublished online 01 March 2022 \n\nPhilip Dwyer & Mark Micale, eds (2021) The Darker Angels of Our Nature: Refuting the Pinker Theory of History & Violence, by Gordon Burt\n\nPublished online 01 March 2022 \n\nRichard Hanania (2022) Public Choice Theory and the Illusion of Grand Strategy: How Generals, Weapons Manufacturers, and Foreign Governments Shape American Foreign Policy, by Kristian Skrede Gleditsch\n\nPublished online 01 March 2022"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1615,
+    "completion_tokens": 343,
+    "total_tokens": 1958,
+    "cost": 0.007295713,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002987,
+      "upstream_inference_prompt_cost": 0.0001615,
+      "upstream_inference_completions_cost": 0.0001372
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

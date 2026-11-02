@@ -1,0 +1,80 @@
+{
+  "retrieved": "2026-11-01T21:18:44.370Z",
+  "bookId": "g0364",
+  "id": "gen-1793567921-HL9GWn7KHezMy7pMEHWm",
+  "object": "chat.completion",
+  "created": 1793567921,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"g0364\",\n  \"title\": \"The Innovator’s Dilemma\",\n  \"author\": \"Clayton M. Christensen\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 288,\n    \"editionId\": \"OL27581964M\",\n    \"editionYear\": 2013,\n    \"format\": \"hardcover\",\n    \"language\": \"English\",\n    \"url\": \"https://openlibrary.org/books/OL27581964M/The_Innovator's_Dilemma\",\n    \"evidence\": \"The Physical Object\\nFormat\\n: hardcover \\nNumber of pages\\n: 288\",\n    \"sourceTitle\": \"The Innovator's Dilemma\",\n    \"sourceAuthor\": \"Clayton M. Christensen, L J Ganser, and Don Leslie\"\n  },\n  \"reference\": {\n    \"count\": 8,\n    \"editionId\": null,\n    \"editionYear\": null,\n    \"url\": \"https://digitale-objekte.hbz-nrw.de/storage2/2025/03/27/file_16/9855508.pdf\",\n    \"evidence\": \"Literaturverzeichnis ... 261\\nEndnoten ... 269\",\n    \"sourceTitle\": \"Inhaltsverzeichnis zu \\\" The Innovator's Dilemma \\\"\",\n    \"sourceAuthor\": null,\n    \"ranges\": [\n      {\n        \"start\": 261,\n        \"end\": 268,\n        \"label\": \"Literaturverzeichnis\",\n        \"evidence\": \"Literaturverzeichnis ... 261\"\n      },\n      {\n        \"start\": 269,\n        \"end\": null,\n        \"label\": \"Endnoten\",\n        \"evidence\": \"Endnoten ... 269\"\n      }\n    ],\n    \"method\": \"The provided table of contents lists a 'Literaturverzeichnis' starting on page 261 and 'Endnoten' starting on page 269. The 'Literaturverzeichnis' is assumed to contain bibliographical references. The endnotes are also considered part of the reference material.\",\n    \"limitation\": \"The exact page range for 'Endnoten' is not fully specified, only the starting page.\"\n  },\n  \"searchedUrls\": [\n    \"https://digitale-objekte.hbz-nrw.de/storage2/2025/03/27/file_16/9855508.pdf\",\n    \"https://openlibrary.org/books/OL27581964M/The_Innovator's_Dilemma\",\n    \"https://archive.org/details/innovatorsdilemm0000chri\"\n  ],\n  \"limitations\": \"The reference section for the edition found on archive.org is listed as 'Literaturverzeichnis ... 261' and 'Endnoten ... 269'. The endnotes do not have a specified end page. The edition on Open Library does not explicitly list page ranges for references.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://digitale-objekte.hbz-nrw.de/storage2/2025/03/27/file_16/9855508.pdf",
+              "title": "Inhaltsverzeichnis zu \" The Innovator's Dilemma \"",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Inhaltsübersicht\n\nVorwort ... 5 \nVorwort zur ersten deutschen Ausgabe ... 9 \nInhaltsverzeichnis ... 13 \nEinführung ... 17 \n\nTeil 1 Zum Scheitern führender Unternehmen - \nein Erklärungsansatz ... 35 \nKapitel 1 Wie es zum Scheitern kommt - ein Blick in die \nComputerbranche und die Kameraindustrie . 37 \nKapitel 2 Wertesysteme und der Antrieb zur Innovation ... 67 \nKapitel 3 Ein disruptiver technologischer Wandel bei Baggergeräten 99 \nKapitel 4 Das „ Einrastprinzip\" ... 117 \n\nTeil 2 Disruptive Herausforderungen meistern ... 139 \nKapitel 5 Die richtige Organisationseinheit beauftragen ... 145 \nKapitel 6 Die Größe der Organisation auf die Größe des Marktes \nabstimmen ... 165 \nKapitel 7 Neue Märkte entdecken ... 183 \nKapitel 8 Wie Sie die Fähigkeiten und „Un\"-Fähigkeiten Ihres \nUnternehmens erkennen ... 199 \nKapitel 9 Leistungsangebot, Marktnachfrage und der \nProduktlebenszyklus ... 229 \nKapitel 10 The Innovator's Dilemma: eine Zusammenfassung ... 249 \nDas Dilemma des Innovators - Reflexionen ... 253 \nDer (eigene) Weg von „understanding disruptions\" zu „managing \ndisruptions\" - oder: Was „Clay\" Christensen mit Open Strategy \nzu tun hat ... 259 \nLiteraturverzeichnis ... 261 \nEndnoten ... 269 \n\nInhaltsverzeichnis\n\nVorwort ... 5 \nVorwort zur ersten deutschen Ausgabe ... 9 \nInhaltsübersicht ... 11 \nEinführung ... 17 \nDas Dilemma ... 21 \nWarum richtiges und gutes Management zum Scheitern führen \nkann ... 22 \nDie „Logik des Scheiterns\" auf dem Prüfstand ... 27 \nWie die Prinzipien disruptiver Innovation genutzt werden können 28 \nDisruptive Chancen und Risiken erkennen ... 33 \nWo disruptive Innovationen stattfinden ... 33 \nTeil 1 Zum Scheitern führender Unternehmen - \nein Erklärungsansatz ... 35 \nKapitel 1 Wie es zum Scheitern kommt - ein Blick in die \nComputerbranche und die Kameraindustrie. 37 \nWie Computerlaufwerke funktionieren ... 38 \nDie ersten Laufwerke ... 39 \nDer Einfluss des technologischen Wandels ... 41 \nEvolutionärer technologischer Wandel ... 43 \nWenn Unternehmen an disruptiven Technologien scheitern ... 47 \nZusammenfassung ... 54 \nDisruption in der Fotografie - oder: Wie die Digitalkamera die \nBranche revolutionierte ... 55 \nKapitel 2 Wertesysteme und der Antrieb zur Innovation ... 67 \nOrganisation und Management als Ursachen für Misserfolg ... 67 \nFähigkeiten und radikale Technologien als Erklärung ... 68 \nWertesysteme und eine neue Perspektive auf die Ursachen des \nMisserfolgs ... 69 \nTechnologische S-Kurven und Wertesysteme ... 76 \nManagemententscheidungen und disruptiver Technologiewandel 78 \n\n14 Inhaltsverzeichnis\n\nFlash Memory und das Wertesystem ... 85 \nImplikationen des Konzeptes des Wertesystems für Innovationen 90 \nDie Schweizer Uhrenindustrie in den 1970er- und 1980er-Jahren . . 92 \nDie Low-Cost-Airlines ... 95 \nKapitel 3 Ein disruptiver technologischer Wandel bei \nBaggergeräten ... 99 \nFührerschaft bei evolutionären technologischen Veränderungen . . 99 \nDie Auswirkungen der disruptiven Hydraulik-Technologie ... 101 \nWie etablierte Hersteller auf die Hydrauliktechnologie reagierten 105 \nDie Entscheidung zwischen Seil- und Hydrauliktechnologie ... 109 \nKönnen wir ein ähnliches Muster auch in Deutschland erkennen? 109 \nFolgen und Implikationen des Einbruchs der \nHydrauliktechnologie ... 115 \nKapitel 4 Das „Einrastprinzip\" ... 117 \nDie Migration der Computerlaufwerke in High-End-Segmente ... 118 \nWertesysteme und ihre typischen Kostenstrukturen ... 119 \nRessourcenallokation und Aufwärtsmigration ... 121 \nDas 1,8-Zoll-Laufwerk ... 124 \nAufwärtsmigration von ganzen Wertesystemen ... 126 \nDie Aufwärtsmigration der integrierten Stahlhersteller ... 128 \nDas Stranggussverfahren der Minimills zur Produktion von \nStahlblech ... 132 \nDie Stahlindustrie in Deutschland ... 133 \nTeil 2 Disruptive Herausforderungen meistern ... 139 \nKapitel 5 Die richtige Organisationseinheit beauftragen ... 145 \nInnovation und Ressourcenallokation ... 147 \nErfolg in der disruptiven Computerlaufwerkstechnologie ... 148 \nDisruptive Technologien und die Theorie der \nRessourcenabhängigkeit ... 151 \nDEC, IBM und der Personal Computer ... 152 \nKresge, Woolworth und die Diskonter im Einzelhandel ... 154 \nÜberleben durch Selbstmord: die Laser- und Tintenstrahldrucker \nvon Hewlett-Packard ... 159 \nInhaltsverzeichnis 15 \nDas bestehende System als Barriere für disruptive Innovationen - \nder Fall Siemens ... 161 \nKapitel 6 Die Größe der Organisation auf die Größe des Marktes \nabstimmen ... 165 \nSind Pioniere immer die Leute mit den Pfeilen im Rücken? ... 165 \nUnternehmensgröße und Innovationsführerschaft bei disruptiven \nTechnologien ... 171 \nFallstudie: Die Wachstumsrate eines neu entstehenden Marktes \nbeschleunigen ... 172 \nFallstudie: Warten, bis der Markt groß genug ist, um interessant zu \nsein ... 175 \nFallstudie: Kleine Märkte kleinen Organisationen zuordnen ... 177 \nZusammenfassung ... 181 \nKapitel 7 Neue Märkte entdecken ... 183 \nMarktprognosen für evolutionäre und disruptive Technologien . . 184 \nMarktidentifikation für das HP 1,3-Zoll-Kittyhawk-Laufwerk ... 186 \nHondas Invasion des nordamerikanischen Marktes für Motorräder 189 \nWie Intel den Markt für Mikroprozessoren entdeckte ... 192 \nUnplanbarkeit und Abwärtsimmobilität in etablierten \nUnternehmen ... 193 \nKapitel 8 Wie Sie die Fähigkeiten und „Un\"-Fähigkeiten Ihres \nUnternehmens erkennen ... 199 \nEin Modell organisationaler Kompetenzen ... 200 \nProzesse, Werte und Erfolg bei evolutionären und disruptiven \nInnovationen ... 204 \nDie Migration der Fähigkeiten ... 206 \nDie Fähigkeit zum Wandel entwickeln ... 209 \nMP3 - eine digitale Disruption aus Deutschland ... 218 \nZusammenfassung ... 227 \nKapitel 9 Leistungsangebot, Marktnachfrage und der \nProduktlebenszyklus ... 229 \nLeistungsüberangebot und sich verändernde Grundlagen des \nWettbewerbs ... 229 \nWann wird ein Produkt ein Massenprodukt? ... 234 \nLeistungsüberangebot und Entwicklung des Produktwettbewerbs 234 \nWeitere Merkmale disruptiver Technologien ... 236 \n\n16 Inhaltsverzeichnis\n\nLeistungsüberangebot im Produktlebenszyklus von Insulin ... 238 \nGoogle versus Microsoft - David gegen Goliath? ... 241 \nDie Entwicklung des Produktwettbewerbs im Auge behalten ... 244 \nRichtige und falsche Strategien ... 247 \nKapitel 10 The Innovator's Dilemma: eine Zusammenfassung . . . 249 \nDas Dilemma des Innovators - Reflexionen ... 253 \nDie These dieses Buches ... 253 \nGrundsätze disruptiver Technologie ... 254 \nFragen zur Diskussion ... 256 \nDer (eigene) Weg von „understanding disruptions\" zu „managing \ndisruptions\" - oder: Was „Clay\" Christensen mit Open Strategy \nzu tun hat ... 259 \nLiteraturverzeichnis ... 261 \nEndnoten ... 269"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://openlibrary.org/books/OL27581964M/The_Innovator%27s_Dilemma",
+              "title": "The Innovator's Dilemma by Clayton M. Christensen | Open Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Innovator's Dilemma by Clayton M. Christensen | Open Library\n\n## by Clayton M. Christensen, L J Ganser, and Don Leslie\n\n...\n\n## The Innovator's Dilemma \n\n An edition of The Innovator's Dilemma (1997) \n\n## by Clayton M. Christensen, L J Ganser, and Don Leslie\n\n...\n\nPublish Date\n\nNov 19, 2013\n\nPublisher\n\n Harvard Business Review Press \n\nPages\n\n288\n\n| Edition | Availability |\n| --- | --- |\n| 1 The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail 2016, Harvard Business Review Press 1633691780 9781633691780 | eeee Preview Only Preview Book × Close |\n| 2 The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail Nov 19, 2013, Harvard Business Review Press hardcover 142219602X 9781422196021 | aaaa Locate |\n| 3 The Innovator's Dilemma: The Revolutionary Book That Will Change the Way You Do Business Oct 04, 2011, HarperBusiness 0062060244 9780062060242 | eeee Preview Only |\n| 4 The innovator's dilemma: the revolutionary national bestseller that changed the way we do business 2000, HarperBusiness in English - 1st HarperBusiness ed. | eeee Preview Only |\n| 5 The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail 1997, Harvard Business School Press in English 0875845851 9780875845852 | eeee Preview Only |\n\n### Edition Notes\n\nSource title: The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail (Management of Innovation and Change) \n\n### Classifications\n\nLibrary of Congress\n: HD53.C49 2013, HD53 .C49 2013\n\n### The Physical Object\n\nFormat\n: hardcover \nNumber of pages\n: 288 \n\n### Edition Identifiers\n\nOpen Library\n: OL27581964M \nISBN 10\n: 142219602X \nISBN 13\n: 9781422196021 \nLCCN\n: 2013020203\nOCLC/WorldCat\n: 826444565\nAmazon ID (ASIN)\n: 142219602X"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/innovatorsdilemm0000chri",
+              "title": "The innovator's dilemma : the revolutionary book that will change the way you do business : Christensen, Clayton M : Free Download, Borrow, and Streaming : Internet Archive",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The innovator's dilemma : the revolutionary book that will change the way you do business \n\nby\n: Christensen, Clayton M\n\nPublication date\n: 2011 \nTopics\n: Innovation, Erfolgsanalyse, Creative ability, Unternehmen, Management, Success, Industrial management, Creative ability in business, Success in business, Customer services, Innovations technologiques, Affaires,\n\n...\n\nPublisher\n: New York : Harper Business\nCollection\n: marygrovecollege; internetarchivebooks; americana; printdisabled\nContributor\n: Internet Archive\nLanguage\n: English\nItem Size\n: 673.5M \n\nxxxvii, 286 pages : 21 cm An analysis of the new business paradigm shows how firms that do \"everything right\" can nevertheless fail because of new technologies and disruptions in the market structure Includes index Originally published: 1st HarperBusiness ed. New York : HarperBusiness, ©2000. With a new preface Part one: Why great companies can fail. How can great firms fail? Insights from the hard disk drive industry ; Value networks and the impetus to innovate ; Disruptive technological change in the mechanical excavator industry ; What goes up, can't go down -- Part two: Managing disruptive technological change. Give responsibility for disruptive technologies to organizations whose customers need them ; Match the size of the organization to the size of the market ; Discovering new and emerging markets ; How to appraise your organization's capabilities and disabilities ; Performance provided, market demand, and the product life cycle ; Managing disruptive technological change: a case study ; The dilemmas of innovation: a summary \n\nNo suitable files to display here."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3767,
+    "completion_tokens": 738,
+    "total_tokens": 4505,
+    "cost": 0.007665181,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006719,
+      "upstream_inference_prompt_cost": 0.0003767,
+      "upstream_inference_completions_cost": 0.0002952
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

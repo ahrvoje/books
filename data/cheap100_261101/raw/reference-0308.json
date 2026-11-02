@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572600-hTqmZDWJURLh7uvuQuwT",
+  "object": "chat.completion",
+  "created": 1793572600,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"q0429\",\n  \"title\": \"The Address Book\",\n  \"author\": \"Deirdre Mask\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 40,\n    \"url\": \"https://library.law.suffolk.edu/record=b9506842~S6\",\n    \"evidence\": \"Includes bibliographical references (pages 273-313) and index\",\n    \"ranges\": [\n      {\n        \"start\": 273,\n        \"end\": 313,\n        \"label\": \"bibliographical references\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://library.nysoclib.org/record=b1289998",
+              "title": "NYSL Catalog: Search",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "NYSL Catalog: Search\n\n| Author | Mask, Deirdre. |\n| --- | --- |\n| Title | The address book : what street addresses reveal about identity, race, wealth, and power / Deirdre Mask. |\n| Publication Info. | New York, NY : St. Martin's Press, an imprint of St. Martin's Publishing Group, 2020. |\n| | ©2020 |\n\n \n\n| Location | Call No. | Status | Note |\n| --- | --- | --- | --- |\n| Stack 3 | 388 M | IN LIBRARY | |\n\n| Edition | First edition. |\n| --- | --- |\n| Description | x, 326 pages : illustrations, maps ; 22 cm |\n| Bibliography | Includes bibliographical references (pages 273-313) and index. |\n| Contents | Introduction: Why do street addresses matter? -- Kolkata : how can street addresses transform the slums? -- Haiti : could street addresses stop an epidemic? -- Rome : how did the ancient Romans navigate? -- London : where do street names come from? -- Vienna : what can house numbers teach us about power? -- Philadelphia : why do Americans love numbered streets? -- Korea and Japan : must streets be named? -- Iran : why do street names follow revolutions? -- Berlin : what do Nazi street names tell us about Vergangenheitsbewältigung? -- Hollywood, Florida : why can't Americans stop arguing about Confederate street names? -- St. Louis : what do Martin Luther King Jr. Streets reveal about race in America? -- South Africa : who belongs on South Africa's street signs? -- Manhattan : how much is a street name worth? -- Homelessness : how do you live without an address? -- Conclusion: The future : are street addresses doomed? |\n| Subject | Street addresses -- Social aspects. |\n| | Street names -- Social aspects. |\n| Added Title | What street addresses reveal about identity, race, wealth, and power |\n| ISBN | 9781250134769 hardcover |\n| | 1250134765 hardcover |\n| | 9781250134783 electronic book |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://os.catalog.lionlibraries.org/Record/.b26445566",
+              "title": "The address book : : what street addresses reveal about...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The address book: what street addresses reveal about identity, race, wealth, and power (Book)\n\n...\n\nAuthor: Mask, Deirdre, \n\nPublished: New York : St. Martin's Press, 2020.\n\nFormat: Book\n\nEdition: First edition.\n\nPhysical Desc: 326 pages ; 22 cm\n\nStatus:\n\nOn Shelf 15 copies, 1 person is on the wait list.\n\nOld Saybrook/Acton Adult Non-Fiction YA388.1 MASK\n\n| Available Copies | Location | Call Number |\n| --- | --- | --- |\n| 1 of 1 | Old Saybrook/Acton Adult Non-Fiction | YA388.1 MASK |\n| 1 of 1 | Branford/Blackstone Adult Nonfiction | 388.1 MAS |\n| 1 of 1 | Durham Adult Non-Fiction | 388.1 MASK |\n| 1 of 1 | East Hampton Adult Nonfiction | 388.1 MAS |\n| 1 of 1 | Essex Adult Nonfiction | 388.1 MAS |\n| 1 of 1 | Guilford Adult Non-Fiction | 388.1 MASK |\n| 0 of 1 | Haddam/Brainerd Adult Nonfiction | 388.1 MAS |\n| 1 of 1 | Lyme Adult Nonfiction | 388.1 MASK |\n| 1 of 1 | Madison/Scranton Adult Nonfiction | 388.1 MASK |\n| 1 of 1 | Norwich/Otis Adult Nonfiction | 388.1 MAS |\n| 1 of 1 | Stony Creek/Willoughby Wallace Adult Non-Fiction | 388.1 MAS |\n| 1 of 1 | Wallingford Adult Nonfiction | 388.1 MASK |\n| 1 of 1 | West Haven Louis Piantino Adult Non-fiction | 388.1 MASK |\n| 1 of 1 | Westbrook Adult Non-Fiction | 388.1 MAS |\n| 1 of 1 | Woodbridge Adult NF 300-399 | 388.1/MAS |\n\n...\n\n## More Details\n\nLanguage: English\n\nISBN: 9781250134769, 1250134765\n\n#### Notes\n\nBibliography Includes bibliographical references and index.\n\n...\n\n### MARC Record\n\n| LEADER | | | 05163nam a2200505 i 4500 |\n| --- | --- | --- | --- |\n| 001 | | | BK0025199726 |\n| 003 | | | DLC |\n| 005 | | | 20250210225420.0 |\n| 008 | | | 191224s2020 nyu e b 001 0 eng |\n| 010 | | | |a 2019048694 |\n| 020 | | | |a 9781250134769 |q (hardcover) |\n| 020 | | | |a 1250134765 |q hardcover |\n| 040 | | | |a LBSOR/DLC |b eng |e rda |c DLC |d nw |d WD |\n| 050 | 0 | 0 | |a HE336.S77 |b M37 2020 |\n| 082 | 0 | 0 | |a 388.1 |2 23 |\n| 100 | 1 | | |a Mask, Deirdre, |e author. |0 http://id.loc.gov/authorities/names/no2019191054 |\n| 245 | 1 | 4 | |a The address book : |b what street addresses reveal about identity, race, wealth, and power / |c Deirdre Mask. |\n| 250 | | | |a First edition. |\n| 264 | | 1 | |a New York : |b St. Martin's Press, |c 2020. |\n| 300 | | | |a 326 pages ; |c 22 cm |\n| 336 | | | |a text |b txt |2 rdacontent |\n| 337 | | | |a unmediated |b n |2 rdamedia |\n| 338 | | | |a volume |b nc |2 rdacarrier |\n| 504 | | | |a Includes bibliographical references and index. |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.wake.gov/Record/748098",
+              "title": "The address book : : what street addresses reveal about...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The address book: what street addresses reveal about identity, race, wealth, and power (Book)\n\n...\n\nAuthor: Mask, Deirdre \n\nStatus:\n\nOn Shelf \n\nAthens Drive Community - Adult Non-Fiction 388.1 MASK\n\nCary Regional - Adult Non-Fiction 388.1 MASK\n\nEast Regional - Adult Non-Fiction 388.1 MASK\n\n| Available Copies | Location | Call Number |\n| --- | --- | --- |\n| 1 of 1 | Athens Drive Community - Adult Non-Fiction | 388.1 MASK |\n| 1 of 1 | Cary Regional - Adult Non-Fiction | 388.1 MASK |\n| 1 of 1 | East Regional - Adult Non-Fiction | 388.1 MASK |\n| 1 of 1 | Leesville Community - Adult Non-Fiction | 388.1 MASK |\n| 2 of 2 | North Regional - Adult Non-Fiction | 388.1 MASK |\n| 4 of 4 | Oberlin Regional - Adult Non-Fiction | 388.1 MASK |\n| 1 of 1 | Wake Forest Community - Adult Non-Fiction | 388.1 MASK |\n| 3 of 3 | West Regional - Adult Non-Fiction | 388.1 MASK |\n\n...\n\n## More Details\n\nPublished: New York : St. Martin's Press, 2020.\n\nFormat: Book\n\nEdition: First edition.\n\nPhysical Desc: x, 326 pages : illustrations, maps ; 22 cm\n\nLanguage: English\n\nISBN: 9781250134769, 1250134765, 9781250134769\n\n#### Notes\n\nBibliography Includes bibliographical references and index.\n\n...\n\n### MARC Record\n\n| LEADER | | | 05531cam a2200601 i 4500 |\n| --- | --- | --- | --- |\n| 001 | | | 2019048694 |\n| 003 | | | DLC |\n| 005 | | | 20201215090700.0 |\n| 008 | | | 191224s2020 nyuab b 001 0 eng |\n| 010 | | | |a 2019048694 |\n| 020 | | | |a 9781250134769 |c $26.99 |\n| 020 | | | |a 1250134765 |c $26.99 |\n| 020 | | | |a 9781250134769 |q (hardcover) |\n| 020 | | | |z 9781250134783 |q (ebook) |\n| 035 | | | |a (OCoLC)1135094596 |\n| 040 | | | |a LBSOR/DLC |b eng |e rda |c DLC |d TnLvILS |\n| 042 | | | |a pcc |\n| 050 | 0 | 0 | |a HE336.S77 |b M37 2020 |\n| 082 | 0 | 0 | |a 388.1 |2 23 |\n| 092 | | | |a 388.1 MASK |\n| 100 | 1 | | |a Mask, Deirdre |e author. |\n| 245 | 1 | 4 | |a The address book : |b what street addresses reveal about identity, race, wealth, and power / |c Deirdre Mask. |\n| 250 | | | |a First edition. |\n| 264 | | 1 | |a New York : |b St. Martin's Press, |c 2020. |\n| 300 | | | |a x, 326 pages : |b illustrations, maps ; |c 22 cm |\n\n...\n\n| 504 | | | |a Includes bibliographical references and index. |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://library.law.suffolk.edu/record=b9506842~S6",
+              "title": "Suffolk University Libraries                                    / All Locations",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Suffolk University Libraries / All Locations\n\n \n\n| Author | Mask, Deirdre, author |\n| --- | --- |\n\n| Title | The address book : what street addresses reveal about identity, race, wealth, and power / Deirdre Mask |\n| --- | --- |\n\n| Imprint | New York, NY : St. Martin's Press, an imprint of St. Martin's Publishing Group, 2020 |\n| --- | --- |\n| | ©2020 |\n\n| Location | Call No. | Status |\n| --- | --- | --- |\n| Sawyer Library 4th Floor | HE336.S77 M37 2020 | Available |\n\n| Description | x, 326 pages : illustrations, maps ; 22 cm |\n| --- | --- |\n| Edition | First edition |\n| Bibliography | Includes bibliographical references (pages 273-313) and index |\n| Contents | Introduction : why do street addresses matter? -- Kolkata : how can street addresses transform the slums? -- Haiti : could street addresses stop an epidemic? -- Rome : how did the ancient Romans navigate? -- London : where do street names come from? -- Vienna : what can house numbers teach us about power? -- Philadelphia : why do Americans love numbered streets? -- Korea and Japan : must streets be named? -- Iran : why do street names follow revolutionariess? -- Berlin : what do Nazi street names tell us about Vergangenheitsbewältigung? -- Hollywood, Florida : why can't Americans stop arguing about Confederate street names? -- St. Louis : what do Martin Luther King Jr. Streets reveal about race in America? -- South Africa : who belongs on South Africa's street signs? -- Manhattan : how much is a street name worth? -- Homelessness : how do you live without an address? -- Conclusion : the future : are street addresses doomed? |\n\n...\n\n| ISBN / ISSN | 9781250134769 |\n| | 1250134765 |\n| | 9781250134790 |\n| | 125013479X |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://metro-prod.groveforlibraries.com/Record/CARL0000972546",
+              "title": "The address book : what street addresses reveal about... | Metropolitan Library System",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The address book : what street addresses reveal about identity, race, wealth, and power (Book)\n\nAverage Rating\n\nAuthor Mask, Deirdre \n\nPublished New York : St. Martin's Press, ©2020.\n\nFormat Book\n\nPhysical Desc x, 326 pages : illustrations, maps ; 22 cm\n\nAppears on list Martin Luther King & Civil Rights \n\nStatus\n\nOn Shelf\n\nBethany Library - Adult Nonfiction 388.411 M3975a 1 available\n\nDowntown Library - Adult Nonfiction 388.411 M3975a 1 available\n\nEdmond Library - Adult Nonfiction 388.411 M3975a 1 available\n\nWhere is it?\n\n## Copies\n\n| Location | Call Number | Item | Status |\n| --- | --- | --- | --- |\n| Bethany Library - Adult Nonfiction | 388.411 M3975a | M12256801 | On Shelf |\n| Downtown Library - Adult Nonfiction | 388.411 M3975a | M22696620 | On Shelf |\n| Edmond Library - Adult Nonfiction | 388.411 M3975a | M22696639 | On Shelf |\n| Northwest Library - Adult Nonfiction | 388.411 M3975a | M12256829 | On Shelf |\n| Southern Oaks Library - Adult Nonfiction | 388.411 M3975a | M12256847 | On Shelf |\n\n...\n\n## More Details\n\nLanguage English\n\n9781250134769 (hardcover), 9781250134790 (Paperback), 1250134765\n\nBibliography\n\nIncludes bibliographical references (pages 273-313) and index."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3986,
+    "completion_tokens": 151,
+    "total_tokens": 4137,
+    "cost": 0.0072092662,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021138,
+      "upstream_inference_prompt_cost": 0.0001993,
+      "upstream_inference_completions_cost": 0.00001208
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "q0429",
+  "retrieved": "2026-11-01T22:36:42.792Z"
+}

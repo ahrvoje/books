@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572656-FQSrTCmF19ulX2RYhXPl",
+  "object": "chat.completion",
+  "created": 1793572656,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-7d875b11ac27\",\n  \"title\": \"The Pmarca Blog Archive Ebook\",\n  \"author\": \"Marc Andreessen\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 1,\n    \"url\": \"https://a16z.com/the-pmarca-blog-archive-is-back-as-an-ebook/\",\n    \"evidence\": \"The Pmarca Blog Archive Is Back… as an Ebook | Andreessen Horowitz\",\n    \"ranges\": [\n      {\n        \"start\": 1,\n        \"end\": 1,\n        \"label\": \"bibliographical references\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://a16z.com/the-pmarca-blog-archive-is-back-as-an-ebook/",
+              "title": "The Pmarca Blog Archive Is Back… as an Ebook | Andreessen Horowitz",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The Pmarca Blog Archive Is Back… as an Ebook\n\na16z editorial and Marc Andreessen Posted January 9, 2015 \n\nSomewhere along the way Marc Andreessen went from being pmarca to @pmarca. He took down his popular blog, and years later took up tweetstorming. Which means you can keep up with his current thoughts on Twitter — and also catch up on them (in the form of tweets, podcasts, and op-eds) here.\n\nBut by popular request, you can now also download many of his older blog posts — The Pmarca Blog Archives — as an ebook, below. [And yes, we do get the irony of doing this!]\n\nEdit notes: We removed all links (and text) that referenced resources that no longer exist or were otherwise outdated out of a live web context. We kept the original formatting (except to turn some subheads into headers) and did not do significant editing. And finally, while it pained us to not include other popular posts (like “Three kinds of platforms you meet on the Internet” or his views on Hollywood and movies and more), you can catch up on some of those posts as archived here, here, and here… \n\nThanks to Jessica Hagy for the cover design and Pressbooks for ebook production and support."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://knowen-production.s3.amazonaws.com/uploads/attachment/file/2771/pmarca-blog-ebook.pdf",
+              "title": "The Pmarca Blog Archives",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "#### The Pmarca Blog Archives (select posts from 2007-2009)\n\nMarc Andreessen copyright: Andreessen Horowitz cover design: Jessica Hagy produced using: Pressbooks\n\n### Contents\n\nTHE PMARCA GUIDE TO STARTUPS\n\nPart 1: Why not to do a startup 2 Part 2: When the VCs say \"no\" 10 Part 3: \"But I don't know any VCs!\" 18 Part 4: The only thing that matters 25 Part 5: The Moby Dick theory of big companies 33 Part 6: How much funding is too little? Too much? 41 Part 7: Why a startup's initial business plan doesn't matter that much\n\n49\n\nTHE PMARCA GUIDE TO HIRING\n\nPart 8: Hiring, managing, promoting, and Dring executives\n\n54\n\nPart 9: How to hire a professional CEO 68 \nHow to hire the best people you've ever worked \nwith \n\n69\n\nTHE PMARCA GUIDE TO BIG COMPANIES\n\nPart 1: Turnaround! 82 \nPart 2: Retaining great people 86 \n\nTHE PMARCA GUIDE TO CAREER, PRODUCTIVITY, AND SOME OTHER THINGS\n\nIntroduction 97 \nPart 1: Opportunity 99 \nPart 2: Skills and education 107 \nPart 3: Where to go and why 120 \nThe Pmarca Guide to Personal Productivity 127 \n\nPSYCHOLOGY AND ENTREPRENEURSHIP\n\nThe Psychology of Entrepreneurial Misjudgment: Biases 1-6\n\n142 \nAge and the Entrepreneur: Some data 154 \nLuck and the entrepreneur: The four kinds of luck 162 \nSerial Entrepreneurs 168 \n\nTHE BACK PAGES\n\nTop 10 science Dction novelists of the '00s ... so far (June 2007)\n\n173 \nBubbles on the brain (October 2009) 180 \nOK, you're right, it IS a bubble (October 2009) 186 \n\n## The Pmarca Guide to Startups\n\n### Part 1: Why not to do a startup\n\nIn this series of posts I will walk through some of my accumu lated knowledge and experience in building high-tech startups.\n\nMy speciXc experience is from three companies I have co founded: Netscape, sold to America Online in 1998 for $4.2 billion; Opsware (formerly Loudcloud), a public soaware com pany with an approximately $1 billion market cap; and now Ning, a new, private consumer Internet company.\n\nBut more generally, I’ve been fortunate enough to be involved in and exposed to a broad range of other startups — maybe 40 or 50 in enough detail to know what I’m talking about — since arriving in Silicon Valley in 1994: as a board member, as an angel investor, as an advisor, as a friend of various founders, and as a participant in various venture capital funds.\n\nThis series will focus on lessons learned from this entire cross section of Silicon Valley startups — so don’t think that anything I am talking about is referring to one of my own companies: most likely when I talk about a scenario I have seen or some thing I have experienced, it is from some other startup that I am not naming but was involved with some other way than as a founder.\n\nFinally, much of my perspective is based on Silicon Valley and the environment that we have here — the culture, the people, the venture capital base, and so on. Some of it will travel well to other regions and countries, some probably will not. Caveat emptor.\n\n...\n\n## The Pmarca Guide to Hiring\n\n### Part 8: Hiring, managing, promoting, and Dring executives"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://app.thestorygraph.com/book_reviews/73203292-8785-4fb4-96b7-b119aa45b129?sort=lowest_rated",
+              "title": "Reviews - The pmarca Blog Archives | The StoryGraph",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Official URL: https://a16z.com/wp-content/uploads/2021/08/The-pmarca-Blog-Archives.pdf TOC: THE PMARCA GUIDE TO STARTUPS Part 1: Why not to do a startup Part 2: When the VCs say \"no\" Part 3: \"But I don't know any VCs!\" ... Too much? ... : ... ' ... that ... SHIP"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.goodreads.com/book/show/24929083-the-pmarca-blog-archives-marc-andreessen",
+              "title": "The pmarca blog Archives, Marc Andreessen",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The pmarca blog Archives, Marc Andreessen\n\n### Marc Andreessen\n\nWant to read\n\nBuy on Amazon\n\nRate this book\n\nThe Pmarca Blog Archive Is Back… as an EbookSomewhere along the way Marc Andreessen went from being pmarca to @pmarca. He took down his popular blog, and years later took up tweetstorming. But by popular request, you can now also download many of his older blog posts — The Pmarca Blog Archives — as an ebook.That said, here are some of our edit notes*: We removed all links (and text) that referenced resources that no longer exist or were otherwise outdated out of a live web context. We kept the original formatting (except to turn some subheads into headers) and did not do significant editing. And finally, it pained us to not include other popular posts (like “Three kinds of platforms you meet on the Internet” or his views on Hollywood and movies and more).\n\n- Genres Business Entrepreneurship Management Finance Nonfiction Essays\n\n170 pages, ebook\n\nFirst published January 9, 2015\n\nBook details & editions\n\n---\n\n...\n\nquite peculiar that the only posts where the publishing date is marked are the ones where he makes fun of people saying there’s a bubble. Even more peculiar is the fact that those dates are wrong - the right date is October 2007, not 2009."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.openculture.com/2016/02/download-marc-andreessens-influential-blog-pmarca-as-a-free-ebook.html",
+              "title": "Download Marc Andreessen's Influential Blog (\"Pmarca\") as a Free eBook |  Open Culture",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "in Business, e-books, Entrepreneurship | February 1st, 2016 Leave a Comment\n\n...\n\nFor years Marc Andreessen–the entre­pre­neur best known for launch­ing Mosa­ic and lat­er Netscape–ran a pop­u­lar blog called “ Pmar­ca” (appar­ent­ly short for “Pri­vate Marc Andreessen”) where he dis­pensed wis­dom on star­tups, busi­ness, invest­ing and beyond.\n\n...\n\nLike so many oth­ers, Andreessen even­tu­al­ly took down his blog and began “tweet­storm­ing” on Twit­ter–all while serv­ing on the boards of Face­book, eBay, and HP, and run­ning his now influ­en­tial VC firm, Andreessen Horowitz. Before “Pmar­ca” could fade com­plete­ly into obliv­ion, fans asked Andreessen to pre­serve the blog for pos­ter­i­ty. And that he did. You can now down­load an archive of “Pmar­ca” as a free ebook. Avail­able in three for­mats (ePub, Mobi, and PDF), the archived ver­sion can be read in pret­ty much the blog’s orig­i­nal for­mat. Start your down­loads here."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2464,
+    "completion_tokens": 159,
+    "total_tokens": 2623,
+    "cost": 0.0071345608,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00013592,
+      "upstream_inference_prompt_cost": 0.0001232,
+      "upstream_inference_completions_cost": 0.00001272
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "shelf-7d875b11ac27",
+  "retrieved": "2026-11-01T22:37:36.399Z"
+}

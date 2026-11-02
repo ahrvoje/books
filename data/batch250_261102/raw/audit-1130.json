@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576348-EEGOKBvqafVnw2HRQRJS",
+  "object": "chat.completion",
+  "created": 1793576348,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-1d19e6c4652a:amazon:https://www.amazon.com/Whiteshift-Populism-Immigration-Future-Majorities/dp/1468316974\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 106 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"intake-0005:amazon:https://www.amazon.com/Will-Keep-Winning-Daigo-Umehara/dp/4093884862\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 819 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"intake-0375:amazon:https://www.amazon.com/Naked-Ape-Desmond-Morris/dp/B000LCD7EI\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 73 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"resume-193-23:amazon:https://www.amazon.com/Extinction-Experience-Being-Human-Disembodied/dp/0393241718\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 228 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"n47b41c6183:amazon:https://www.amazon.com/Biological-War-Scenario-Annie-Jacobsen-ebook/dp/B0FY4TWSQQ\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 2,022 global ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3615,
+    "completion_tokens": 420,
+    "total_tokens": 4035,
+    "cost": 0.0002122065,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021435,
+      "upstream_inference_prompt_cost": 0.00018075,
+      "upstream_inference_completions_cost": 0.0000336
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:39:18.625Z"
+}

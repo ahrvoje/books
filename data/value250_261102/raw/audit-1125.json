@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575735-waegpT8S98kbBH50mRnT",
+  "object": "chat.completion",
+  "created": 1793575735,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-5c737386197a:amazon:https://www.amazon.com/Star-Warriors-Penetrating-Scientists-Weaponry/dp/0671545663\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The evidence is a global rating of 2.\"\n    },\n    {\n      \"key\": \"g0377:amazon:https://www.amazon.com/Read-Write-Own-Building-Internet/dp/0593731387\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The evidence is a global rating of 777.\"\n    },\n    {\n      \"key\": \"shelf-81ba348b04d6:amazon:https://www.amazon.com/Classic-Feynman-Adventures-Curious-Character/dp/0393061329\",\n      \"status\": \"reject\",\n      \"reason\": \"The sourceTitle includes additional authors Ralph Leighton and Freeman Dyson, which are not present in the candidate.\"\n    },\n    {\n      \"key\": \"q0971:amazon:https://www.amazon.com/Open-Society-Its-Enemies-One/dp/0691158134\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The evidence is a global rating of 139.\"\n    },\n    {\n      \"key\": \"q1020:amazon:https://www.amazon.com/Indigenous-Peoples-History-ReVisioning-American/dp/0807057835\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The evidence is a global rating of 5,176.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3556,
+    "completion_tokens": 456,
+    "total_tokens": 4012,
+    "cost": 0.0002121372,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021428,
+      "upstream_inference_prompt_cost": 0.0001778,
+      "upstream_inference_completions_cost": 0.00003648
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:29:02.002Z"
+}

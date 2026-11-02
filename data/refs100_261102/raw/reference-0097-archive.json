@@ -1,0 +1,62 @@
+{
+  "id": "gen-1793576990-05erefJwuvkUv2g507eb",
+  "object": "chat.completion",
+  "created": 1793576990,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "Here",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/makingofkeynesge0000kahn",
+              "title": "The making of Keynes' General theory : Kahn, Richard F. (Richard Ferdinand), 1905- : Free Download, Borrow, and Streaming : Internet Archive",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "As an independent nonprofit, the Internet Archive is fighting for universal access to quality information.\n\n...\n\ninformation\n* Marketing/Phishing/Advertising\n* Misleading/Inaccurate/Missing Metadata\ntexts\n\nThe making of Keynes' General theory\n\nby Kahn, Richard F. (Richard Ferdinand), 1905-\nPublication date 1984 Topics Keynes, John Maynard, 1883-1946 , Keynes, John Maynard, 1883-1946. General theory of employment, interest, and money , Keynesian economics Publisher Cambridge [Cambridgeshire] ; New York : Cambridge University Press Collection trent_university ; internetarchivebooks ; inlibrary ; printdisabled Contributor Internet Archive Language English Item Size 808.5M\nxxv, 304 p. ; 25 cm\nAt head of title: Raffaele Mattioli Foundation\nIncludes index\n\"The Collected writings of John Maynard Keynes\": p. 271-275\nBibliography: p. 279-294\nAccess-restricted-item true Addeddate 2019-02-01 05:26:04 Associated-names Raffaele Mattioli Foundation Bookplateleaf 0005 Boxid IA1636718 Camera Sony Alpha-A6300 (Control) Collection_set printdisabled External-identifier urn:oclc:record:1150283883 [WorldCat (this item)] urn:lcp:makingofkeynesge0000kahn:lcpdf:0110daab-6db9-4a3e-8f27-05d70bfa78e7 urn:lcp:makingofkeynesge0000kahn:epub:bf730fdb-0b11-4756-9bbe-e8b105d90352 Foldoutcount 0 Grant_report Arcadia Identifier makingofkeynesge0000kahn Identifier-ark ark:/13960/t2898pr8z\nShow More\nFull catalog record MARCXML\n\ncomment\n\nReviews\n313 Previews\n10 Favorites\nPurchase options\nBetter World Books"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 720,
+    "completion_tokens": 1,
+    "total_tokens": 721,
+    "cost": 0.0010128601,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001299,
+      "upstream_inference_prompt_cost": 0.00001296,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "shelf-97cdb9bf09b7",
+  "method": "archive",
+  "query": "site:archive.org/details \"The Everything War\" Dana Mattioli \"bibliographical references\"",
+  "retrieved": "2026-11-01T23:49:52.023Z"
+}

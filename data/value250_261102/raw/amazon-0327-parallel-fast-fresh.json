@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793575610-PSwVntkZj9eO4nW1iCY9",
+  "object": "chat.completion",
+  "created": 1793575610,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/New-Powers-Become-Manage-Them/dp/184904077X",
+              "title": "New Powers: Narlikar, Amrita: 9781849040778 - Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Section:  > \nNew Powers: Narlikar, Amrita: 9781849040778 - Books\nNew Powers [Narlikar, Amrita] on Amazon.com. Book details Print length 208 pages Language English Publisher C Hurst & Co Publishers Ltd Publication date July 9 Section:  > \nNew Powers: Narlikar, Amrita: 9781849040778 - Books\nBook details Print length 208 pages Language English Publisher C Hurst & Co Publishers Ltd Publication date July 9, 2010. ISBN-13 978-1849040778. Publication New Powers: Narlikar, Amrita: 9781849040778 - Books\nEstablished powers also have no straightforward answers available to them. If the aims of the new power are limited, then engagement is a worthwhile enterprise"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 634,
+    "completion_tokens": 1,
+    "total_tokens": 635,
+    "cost": 0.00101132758,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000011442,
+      "upstream_inference_prompt_cost": 0.000011412,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The World Trade Organization\" Amrita Narlikar \"global ratings\"",
+  "bookId": "complete-763-53",
+  "retrieved": "2026-11-01T23:26:51.612Z"
+}

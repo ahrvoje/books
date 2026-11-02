@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575601-gGwVvpyqn6MNgJ5LuDtM",
+  "object": "chat.completion",
+  "created": 1793575601,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"intake-0101:amazon:https://www.amazon.com/Who-Owns-Future-Jaron-Lanier/dp/1451654960\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"rem-u1502:amazon:https://www.amazon.com/Lab-Girl-Hope-Jahren/dp/0345809866\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"n3933b51b7f:amazon:https://www.amazon.com/Arms-Krupp-Industrial-Dynasty-Germany/dp/0316529400\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"g1022:amazon:https://www.amazon.com/City-Century-Chicago-Making-America/dp/0684831384\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"intake-0164:amazon:https://www.amazon.com/Close-Machine-Technophilia-Its-Discontents/dp/1250002486\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3306,
+    "completion_tokens": 402,
+    "total_tokens": 3708,
+    "cost": 0.0001954854,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019746,
+      "upstream_inference_prompt_cost": 0.0001653,
+      "upstream_inference_completions_cost": 0.00003216
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:27:00.158Z"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574800-OmaTHoN7J182Kb5uS54v",
+  "object": "chat.completion",
+  "created": 1793574800,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"complete-474-332:amazon:https://www.amazon.com/Dye-Toxic-Fashion-Making-Sick/dp/0593422619\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 161 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"rem-u1552:amazon:https://www.amazon.com/Seven-Daughters-Eve-Science-Ancestry/dp/0393020185\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 1,680 global ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"progress-0194:amazon:https://www.amazon.com/Two-Lucky-People-Milton-Friedman/dp/0226264157\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 19 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"resume-187-19:amazon:https://www.amazon.com/Technology-Character-Contemporary-Life-Philosophical/dp/0226066290\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 26 global ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"rem-u0855:amazon:https://www.amazon.com/Affluent-Society-John-Kenneth-Galbraith/dp/0395925002\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 280 ratings explicitly labelled.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3545,
+    "completion_tokens": 406,
+    "total_tokens": 3951,
+    "cost": 0.0002076327,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020973,
+      "upstream_inference_prompt_cost": 0.00017725,
+      "upstream_inference_completions_cost": 0.00003248
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:13:24.073Z"
+}

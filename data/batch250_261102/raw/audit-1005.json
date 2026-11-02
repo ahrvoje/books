@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576247-4WSGI0GCP8ODIhviyEjZ",
+  "object": "chat.completion",
+  "created": 1793576247,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-e988004538e0:amazon:https://www.amazon.com/Management-Absurd-Richard-Farson/dp/0684800802/ref=sr_1_1?keywords=management%2Bof%2Bthe%2Babsurd&qid=1570445180&sr=8-1\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"shelf-efbb499cbf46:amazon:https://www.amazon.com/Watching-English-Hidden-Rules-Behavior/dp/185788616X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1836:amazon:https://www.amazon.com/Technological-Republic-Power-Belief-Future/dp/0593798694\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"shelf-3b26deb85c35:amazon:https://www.amazon.com/Bourgeois-Virtues-Ethics-Age-Commerce/dp/0226556646\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"shelf-dd24c77b8240:amazon:https://www.amazon.com/Second-Act-Bloomers-Success-Reinventing/dp/1399813315\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating is explicitly labelled as global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3575,
+    "completion_tokens": 501,
+    "total_tokens": 4076,
+    "cost": 0.0002166417,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021883,
+      "upstream_inference_prompt_cost": 0.00017875,
+      "upstream_inference_completions_cost": 0.00004008
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:37:36.417Z"
+}

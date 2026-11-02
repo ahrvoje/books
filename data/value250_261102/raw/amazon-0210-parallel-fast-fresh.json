@@ -1,0 +1,87 @@
+{
+  "id": "gen-1793575573-gEYFvgs6L95P7qh2V3A7",
+  "object": "chat.completion",
+  "created": 1793575573,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Tales-Physicists-Mathematicians-Simon-Gindikin/dp/1461284090",
+              "title": "Tales of Physicists and Mathematicians",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nTales of Physicists and Mathematicians\nTales of Mathematicians and Physicists contains a wealth of new information about the lives and accomplishments of more than a dozen scientists throughout\n\n## \n\nTales of Physicists and Mathematicians\nA unique mixture of mathematics, physics, and history, this volume provides biographical glimpses of scientists and their contributions in the context of the"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Tales-Mathematicians-Physicists-Simon-Gindikin/dp/0387360263",
+              "title": "Tales of Mathematicians and Physicists (Volume 0)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nTales of Mathematicians and Physicists (Volume 0)\nWritten by a distinguished mathematician and accessible to readers at all levels, this book is a wonderful resource for both students and teachers and a\n\n## \n\nTales of Mathematicians and Physicists (Volume 0)\nAlan Shuchat Translator. Tales of Mathematicians and Physicists. Klein, Poincaré, and Ramanujan. A unique mixture of mathematics, physics, and history,\n\n## \n\nTales of Mathematicians and Physicists (Volume 0)\nTales of Mathematicians and Physicists contains a wealth of new information about the lives and accomplishments of more than a dozen scientists throughout five"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/S-G-Gindikin/e/B001HPWCDU/ref=dp_byline_cont_book_1",
+              "title": "S. G. Gindikin: books, biography, latest update - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nS. G. Gindikin: books, biography, latest update - Amazon.com\nFollow S. G. Gindikin and explore their bibliography from Amazon's S. G. Gindikin Author Page."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 791,
+    "completion_tokens": 1,
+    "total_tokens": 792,
+    "cost": 0.00101412532,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000014268,
+      "upstream_inference_prompt_cost": 0.000014238,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Tales of Mathematicians and Physicists\" S. G. Gindikin \"global ratings\"",
+  "bookId": "intake-0885",
+  "retrieved": "2026-11-01T23:26:14.648Z"
+}

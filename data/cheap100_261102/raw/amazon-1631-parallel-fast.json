@@ -1,0 +1,87 @@
+{
+  "id": "gen-1793574350-E4288Ke3p55XOlSNkDPz",
+  "object": "chat.completion",
+  "created": 1793574350,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"intake-0471\",\n  \"title\": \"Implementation: How Great Expectations in Washington Are Dashed in Oakland; Or, Why It's Amazing that Federal Programs Work at All, This Being a Saga . . . Morals on a Foundation (Oakland Project)\",\n  \"author\": \"Jeffrey L. Pressman; Aaron Wildavsky\",\n  \"pages\": null,\n  \"amazon\": {\n    \"count\": 1,\n    \"url\": \"https://www.amazon.com/Implementation-Expectations-Washington-Programs-Foundation/dp/0520053311\",\n    \"asin\": \"0520053311\",\n    \"evidence\": \"Global ratings: 4.4 out of 5 stars (51) on Amazon, 3.7 on Goodreads\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Implementation-Expectations-Washington-Programs-Foundation/dp/0520053311",
+              "title": "Implementation: How Great Expectations in Washington Are Dashed in Oakland; Or, Why It's Amazing that Federal Programs Work at All, This Being a Saga . . . Morals on a Foundation (Oakland Project): Pressman, Jeffrey L. L., Wildavsky, Aaron: 9780520053311: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "App Icon\nFast. Easy.\nShop in our free App today\nOpen\n.us\nSign in ›\nyour account 0\nShop Fanka\nJeffrey L. L. Pressman and 1 more\nJeffrey L. L. Pressman Author\nAaron Wildavsky Author\n\nImplementation: How Great Expectations in Washington Are Dashed in Oakland; Or, Why It's Amazing that Federal Programs Work at All, This Being a Saga . . . Morals on a Foundation (Oakland Project)\n\nISBN-13: 978-0520053311, ISBN-10: 0520053311\n4.4 4.4 out of 5 stars (51)\n3.7 on Goodreads\n(130)\n1. Implementation: How Great Expectations in Washington Are Dashed in Oakland; Or, Why It's Amazing that Federal Programs Work at All, This Being a Saga . . . Morals on a Foundation (Oakland Project)\n2. \n3. \nLoading Images...\nBack\nDouble-tap to zoom\n\n...\n\n59 - $24.69 $ 24 . 69\nSee all formats\nSorry, there was a problem loading this page.\n\n...\n\nList prices may not necessarily reflect the product's prevailing market price. Learn more\nFREE delivery Tuesday, June 16 on orders shipped by Amazon over $35\nOr Prime members get FREE delivery Saturday, June 13 . Order within 11 hrs 42 mins . Join Prime\nArrives 8 days before Father's Day\nDelivering to Queens 11369 - Update location\nIn Stock\n\n...\n\nAccess codes and supplements are not guaranteed with used items.\nAdd to Cart\nEnhancements\n\n...\n\nf9zYbhla8DZefHoX1\",\"locale\":\"en-US\",\"buyingOptionType\":\"USED\",\"aapiBuyingOptionIndex\":1}]}\nBrief content visible, double tap to read full content.\n\n...\n\nCompare New & Used (48) from $8.59 $ 8 . 59 & FREE Shipping"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/implementation/s?k=implementation",
+              "title": "Implementation",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nImplementation\nImplementation: How Great Expectations in Washington Are Dashed in Oakland; Or, Why It's Amazing that Federal Programs Work at All, This Being a Saga ."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Influence-Ratings-International-Finance-Wissenschaft/dp/382447218X",
+              "title": "The Influence of Ratings on International Finance Markets ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Influence of Ratings on International Finance Markets ...\nJulia von Maltzan Pacheco discusses strengths and weaknesses of rating agencies within international markets of sovereign finance. She also presents policy"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1063,
+    "completion_tokens": 201,
+    "total_tokens": 1264,
+    "cost": 0.00102491236,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000025164,
+      "upstream_inference_prompt_cost": 0.000019134,
+      "upstream_inference_completions_cost": 0.00000603
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Implementation\" Jeffrey L. Pressman; Aaron Wildavsky \"global ratings\"",
+  "bookId": "intake-0471",
+  "retrieved": "2026-11-01T23:05:54.330Z"
+}

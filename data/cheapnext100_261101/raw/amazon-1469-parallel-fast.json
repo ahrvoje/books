@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793573621-KGc3YvPFIC0mFDY4A6mk",
+  "object": "chat.completion",
+  "created": 1793573621,
+  "model": "mistralai/mistral-nemo",
+  "provider": "Io Net",
+  "system_fingerprint": "vllm-0.25.1-95d19908",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"id\": \"shelf-675e2c9efd30\",\n  \"title\": \"Samuel Bronfman: The Life and Times of Seagram’s Mr. Sam\",\n  \"author\": \"Michael R. Marrus\",\n  \"pages\": null,\n  \"amazon\": {\n    \"count\": 480,\n    \"url\": \"https://www.amazon.com/Samuel-Bronfman-Life-Times-Seagrams/dp/0874515718\",\n    \"asin\": \"0874515718\",\n    \"evidence\": \"Amazon product page [amazon.com](https://www.amazon.com/Samuel-Bronfman-Life-Times-Seagrams/dp/0874515718)\"\n  },\n  \"reference\": null\n}",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Samuel-Bronfman-Life-Times-Seagrams/dp/0874515718",
+              "title": "Samuel Bronfman: The Life and Times of Seagram's Mr. ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nSamuel Bronfman: The Life and Times of Seagram's Mr. ...\nSam was an intuitive leader and manager who knew his industry inside out and set the highest standards for his products and himself. His life makes a"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 466,
+    "completion_tokens": 187,
+    "total_tokens": 653,
+    "cost": 0.0010109086912,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 128,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001101888,
+      "upstream_inference_prompt_cost": 0.00000697968,
+      "upstream_inference_completions_cost": 0.0000040392
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Samuel Bronfman\" Michael R. Marrus \"global ratings\"",
+  "bookId": "shelf-675e2c9efd30",
+  "retrieved": "2026-11-01T22:53:41.867Z"
+}

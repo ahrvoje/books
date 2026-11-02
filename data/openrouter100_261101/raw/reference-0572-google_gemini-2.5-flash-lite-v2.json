@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:16:47.537Z",
+  "bookId": "shelf-30ae9091a37f",
+  "id": "gen-1793571405-zYPpyDgCLn9UVwwO0xun",
+  "object": "chat.completion",
+  "created": 1793571405,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-30ae9091a37f\",\n  \"title\": \"Sam Walton: The Inside Story of America's Richest Man\",\n  \"author\": \"Vance H. Trimble\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 400,\n    \"editionId\": \"OL7573192M\",\n    \"editionYear\": null,\n    \"format\": \"Print\",\n    \"language\": null,\n    \"url\": \"https://openlibrary.org/books/OL7573192M\",\n    \"evidence\": \"The book has 400 pages.\",\n    \"sourceTitle\": \"Sam Walton: The Inside Story of America's Richest Man\",\n    \"sourceAuthor\": \"Vance H. Trimble\"\n  },\n  \"reference\": {\n    \"count\": 11,\n    \"editionId\": \"OL7573192M\",\n    \"editionYear\": null,\n    \"url\": \"https://pdfcoffee.com/sam-walton-4-pdf-free.html\",\n    \"evidence\": \"The document titled 'Sam Walton' by Katherine Krieg includes a section labeled 'SOURCE NOTES' which lists references for various chapters. Chapter 2, 'Southern Upbringing,' contains 8 citations, and Chapter 3, 'J. C. Penney and World War II,' contains 3 citations. One of these citations in Chapter 2 is for Vance H. Trimble's 'Sam Walton: The Inside Story of America’s Richest Man,' page 22. Another citation in Chapter 3 is for the same book, page 34. Chapter 6, 'Growth Strategy,' also lists a citation for Vance H. Trimble's book, page 119. Chapter 7, 'New Enterprises, New Challenges,' lists two citations for Vance H. Trimble's book, pages 203 and 209.\",\n    \"sourceTitle\": \"Sam Walton\",\n    \"sourceAuthor\": \"Katherine Krieg\",\n    \"ranges\": [\n      {\n        \"start\": 22,\n        \"end\": 22,\n        \"label\": \"Chapter 2. Southern Upbringing\",\n        \"evidence\": \"1. Vance H. Trimble. Sam Walton: The Inside Story of America’s Richest Man. New York: Penguin, 1990. Print. 22.\"\n      },\n      {\n        \"start\": 26,\n        \"end\": 26,\n        \"label\": \"Chapter 2. Southern Upbringing\",\n        \"evidence\": \"4. Vance H. Trimble. Sam Walton: The Inside Story of America’s Richest Man. New York: Penguin, 1990. Print. 26.\"\n      },\n      {\n        \"start\": 34,\n        \"end\": 34,\n        \"label\": \"Chapter 3. J. C. Penney and World War II\",\n        \"evidence\": \"3. Vance H. Trimble. Sam Walton: The Inside Story of America’s Richest Man. New York: Penguin, 1990. Print. 34.\"\n      },\n      {\n        \"start\": 119,\n        \"end\": 119,\n        \"label\": \"Chapter 6. Growth Strategy\",\n        \"evidence\": \"3. Vance H. Trimble. Sam Walton: The Inside Story of America’s Richest Man. New York: Penguin, 1990. Print. 119.\"\n      },\n      {\n        \"start\": 203,\n        \"end\": 203,\n        \"label\": \"Chapter 7. New Enterprises, New Challenges\",\n        \"evidence\": \"1. Vance H. Trimble. Sam Walton: The Inside Story of America’s Richest Man. New York: Penguin, 1990. Print. 203.\"\n      },\n      {\n        \"start\": 209,\n        \"end\": 209,\n        \"label\": \"Chapter 7. New Enterprises, New Challenges\",\n        \"evidence\": \"2. Ibid. 209.\"\n      }\n    ],\n    \"method\": \"The reference section of Katherine Krieg's 'Sam Walton' (cited as 'Sam Walton' in the source) was examined. Specific citations to Vance H. Trimble's 'Sam Walton: The Inside Story of America's Richest Man' were identified, along with their corresponding page numbers.\",\n    \"limitation\": \"The provided source is a PDF of a different book ('Sam Walton' by Katherine Krieg) that *cites* Vance H. Trimble's book. It does not directly provide the reference section of Trimble's book itself. Therefore, the total number of references and their exact ranges within Trimble's book cannot be definitively determined from this source. Only the pages cited *by* Krieg's book are available.\"\n  },\n  \"searchedUrls\": [\n    \"https://pdfcoffee.com/sam-walton-4-pdf-free.html\",\n    \"https://davenport.kohacatalog.com/cgi-bin/koha/opac-detail.pl?biblionumber=22673&shelfbrowse_itemnumber=50150\",\n    \"https://digital-library.cloudnet.com.kh/storage/media_files/0zaKdubHH2j9vQjMKMP7tN7VF5qsgD6igI83VA3P.pdf\",\n    \"https://archive.org/stream/the-cultural-landscape-books/St.%20James%20Encyclopedia%20of%20Popular%20Culture.%20U-Z%2CIndex%20by%20Sara%20Pendergast%2C%20Tom%20Pendergast_djvu.txt\",\n    \"https://dokumen.pub/download/habits-of-the-heartland-small-town-life-in-modern-america-9780801458972.html\"\n  ],\n  \"limitations\": \"The primary source for reference information was a PDF of a different book ('Sam Walton' by Katherine Krieg) that cited Vance H. Trimble's work. This means the reference count and specific page ranges are derived from how Krieg cited Trimble, not from Trimble's own reference section. Therefore, the total number of references and their complete ranges within Trimble's book are not directly observable from the provided search results.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://pdfcoffee.com/sam-walton-4-pdf-free.html",
+              "title": "Sam Walton",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Sam Walton\n\n- Author / Uploaded\n- Romar Angelo Avila\n\n...\n\n##### Citation preview\n\nSAM WALTON Founder of the Walmart Empire B Y K ATH E R I N E KR IEG ESSENTIAL LIVES SAM WALTON Founder of the Walmart Empire SAM WALTON Founder of the Walmart Empire BY K ATHERINE KRIEG CO NT ... CREDITS Published by ABDO Publishing Company, PO Box 398166, Minneapolis, MN 55439. Copyright © 2014 by Abdo Consulting Group, Inc. International copyrights reserved in all countries. No part of this book may be reproduced in any form without written permission from the publisher. ... Printed in the United States of America, North Mankato, Minnesota 052013 092013 Editor: Susan E. ... Abramson/Time Life Pictures/Getty Images, 73; J Pat Carter/AP Images, 80; Jeff Greenberg/Alamy, 83; Dennis MacDonald/Getty Images, 84; Shutterstock Images, 89 Library of Congress Control Number: 2013932967 Cataloging-in-Publication Data Krieg, Katherine. Sam Walton : founder of the Walmart empire / Katherine Krieg. p. cm. -- (Essential lives) ISBN 978-1-61783-898-9 Includes bibliographical references and index. 1. Walton, Sam, 1918-1992--Juvenile literature. 2. Wal-Mart (Firm)--History--Juvenile literature. 3. Business people--United States--Biography--Juvenile literature. 4. Millionaires--United States--Biography--Juvenile literature. 5. Discount houses (Retail trade)--United States--History--Juvenile literature. I. Title. 381/.149/092--dc23 [B] 2013932967 CONTENTS CHAPTER 1 A NEW OPPORTUNITY 6 CHAPTER 2 SOUTHERN UPBRINGING 14 CHAPTER 3 J. C. PENNEY AND WORLD WAR II 26 CHAPTER 4 A SECOND TRY 34 CHAPTER 5 WALMART EXPANDS 44 CHAPTER 6 GROWTH STRATEGY 56 CHAPTER 7 NEW ENTERPRISES, NEW CHALLENGES 66 CHAPTER 8 LATER YEARS 76 CHAPTER 9 LEAVING A LEGACY 84 Timeline Essential Facts Glossary Additional Resources Source Notes Index About the Author About the Consultant 96 100 102 104 106 110 112 112 ... 105 SOURCE NOTES Chapter 1. A New Opportunity 1. Sam Walton and John Huey. Sam Walton: Made in America. New York: Bantam, 1992. Print. 22. 2. Ibid. 24. 3. Ibid. 27. 4. Bob Ortega. In Sam We Trust: The Untold Story of Sam Walton and Wal-Mart, the World’s Most Powerful Retailer. New York: Three Rivers, 2000. Print. 27. 5. Sam Walton and John Huey. Sam Walton: Made in America. New York: Bantam, 1992. Print. 28. 6. Ibid. 30. Chapter 2. Southern Upbringing 1. Vance H. Trimble. Sam Walton: The Inside Story of America’s Richest Man. New York: Penguin, 1990. Print. 22. 2. Sam Walton and John Huey. Sam Walton: Made in America. New York: Bantam, 1992. Print. 5. 3. Ibid. 12. 4. Vance H. Trimble. Sam Walton: The Inside Story of America’s Richest Man. New York: Penguin, 1990. Print. 26. 5. Sam Walton and John Huey. Sam Walton: Made in America. New York: Bantam, 1992. Print. 15. 6. Ibid. 16. 7. Ibid. 8. Ibid. 15. Chapter 3. J. C. Penney and World War II 1. Bob Ortega. In Sam We Trust: The Untold Story of Sam Walton and Wal-Mart, the World’s Most Powerful Retailer. New York: Three Rivers, 2000. Print. 22. 2. Sam Walton and John Huey. Sam Walton: Made In America. New York: Bantam, 1992. Print. 17. 3. Vance H. Trimble. Sam Walton: The Inside Story of America’s Richest Man. New York: Penguin, 1990. Print. 34. 4. Ibid. 106 Chapter 4. A Second Try 1. Sam Walton and John Huey. Sam Walton: Made In America. New York: Bantam, 1992. Print. 32. 2. Ibid. 39. 3. Ibid. 44. 4. Ibid. 43. 5. Bob Ortega. In Sam We Trust: The Untold Story of Sam Walton and Wal-Mart, the World’s Most Powerful Retailer. New York: Three Rivers, 2000. Print. 56. 6. Ibid. 55. Chapter 5. Walmart Expands 1. Sam Walton and John Huey. Sam Walton: Made in America. New York: Bantam, 1992. Print. 50. 2. Bob Ortega. In Sam We Trust: The Untold Story of Sam Walton and Wal-Mart, the World’s Most Powerful Retailer. New York: Three Rivers, 2000. Print. 57. 3. Sam Walton and John Huey. Sam Walton: Made in America. New York: Bantam, 1992. Print. 45–46. 4. Ibid. 89. 5. Ibid. 49. 6. Ibid. 55. 7. Bob Ortega. In Sam We Trust: The Untold Story of Sam Walton and Wal-Mart, the World’s Most Powerful Retailer. New York: Three Rivers, 2000. Print. 56. 8. Sam Walton and John Huey. Sam Walton: Made in America. New York: Bantam, 1992. Print. 66. 9. Ibid. 60. 10. Bob Ortega. In Sam We Trust: The Untold Story of Sam Walton and Wal-Mart, the World’s Most Powerful Retailer. New York: Three Rivers, 2000. Print. 62. 11. Sam Walton and John Huey. Sam Walton: Made in America. New York: Bantam, 1992. Print. 69. 107 SOURCE NOTES CONTINUED Chapter 6. Growth Strategy 1. Sam Walton and John Huey. Sam Walton: Made in America. New York: Bantam, 1992. Print. 99. 2. Ibid. 3. Vance H. Trimble. Sam Walton: The Inside Story of America’s Richest Man. New York: Penguin, 1990. Print. 119. 4. Bob Ortega. In Sam We Trust: The Untold Story of Sam Walton and Wal-Mart, the World’s Most Powerful Retailer. New York: Three Rivers, 2000. Print. 78. 5. Ibid. 6. Sam Walton and John Huey. Sam Walton: Made in America. New York: Bantam, 1992. Print. 148. 7. Ibid. 151. 8. Ibid. 157. 9. Ibid. 152. 10. Ibid. 154. 11. Ibid. 196. Chapter 7. New Enterprises, New Challenges 1. Vance H. Trimble. Sam Walton: The Inside Story of America’s Richest Man. New York: Penguin, 1990. Print. 203. 2. Ibid. 209. 3. Sam Walton and John Huey. Sam Walton: Made in A"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://davenport.kohacatalog.com/cgi-bin/koha/opac-detail.pl?biblionumber=22673&shelfbrowse_itemnumber=50150",
+              "title": "The Wal-Mart effect : how the world's most powerful company really works, and how it's transforming the American economy /  Charles Fishman.",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Details for: The Wal-Mart effect : how the world's most powerful company really works, and how it's transforming the American economy / › Davenport University Libraries catalog Skip to main content\n\nLibrary catalog Title Author Subject ISBN ISSN Series Call number\n\n- Libraries\n- Tag cloud\n- Authority search\n- Advanced search\n\nImage from Syndetics\n\nNormal view MARC view ISBD view\n\n# The Wal-Mart effect : how the world's most powerful company really works, and how it's transforming the American economy / Charles Fishman.\n\nMaterial type: TextPublisher: New York : Penguin Press, 2006Bibliography: Includes bibliographical references (p. 263-283) and index.Description: 294 p. ; 25 cm.ISBN: 1594200769.Other title: The Walmart effect : how the world's most powerful company really works, and how it's transforming the American economy.Subject(s): Wal-Mart (Firm)| Discount houses (Retail trade) -- United States DDC classification: 381/.1490973\n\nContents:\n\n1. Who knew shopping was so important? -- 2. Sam Walton's ten-pound bass -- 3. Makin bacon, a Wal-Mart fairy tale -- 4. The squeeze -- 5. The man who said no to Wal-Mart -- 6. What do we actually know about Wal-Mart? -- 7. Salmon, shirts, and the meaning of low prices -- 8. The power of pennies -- 9. Wal-Mart and the decent society -- Epilogue. Peoria, September 2005.\n\n1 2 3 4 5 Cancel rating. Average rating: 0.0 (0 votes)\n\n- Comments ( 0 )\n- Title notes ( 2 )\n- Holdings ( 1 )\n\n| Item type | Current library | Collection | Call number | Status | Date due | Barcode |\n| --- | --- | --- | --- | --- | --- | --- |\n| Two Weeks | Davenport Library Circulating Collection | Print-Circulating | 381.149 F539 (Browse shelf) | Available | 34284003459328 |\n\n##### Browsing Davenport Library shelves, Shelving location: Circulating Collection, Collection: Print-Circulating Close shelf browser\n\nPrevious\n\nNext\n\n| 381.14206573 Se58 2012 Groupon's biggest deal ever : the inside story of how one insane gamble, tons of unbelievable hype, and millions of wild deals made billions for one ballsy joker / | 381.149 B47 The bully of Bentonville : how the high cost of Wal-Mart's everyday low prices is hurting America / | 381.149 D558 The United States of Wal-Mart / | 381.149 F539 The Wal-Mart effect : how the world's most powerful company really works, and how it's transforming the American economy / | 381.149 L617 2009 The retail revolution : how Wal-Mart created a brave new world of business / | 381.149 Sl15 The Wal-Mart decade : how a generation of leaders turned Sam Walton's legacy into the world's number one company / | 381.149 T735 Sam Walton : the inside story of America's richest man / |\n| --- | --- | --- | --- | --- | --- | --- |\n\nIncludes bibliographical references (p. 263-283) and index.\n\n1. Who knew shopping was so important? -- 2. Sam Walton's ten-pound bass -- 3. Makin bacon, a Wal-Mart fairy tale -- 4. The squeeze -- 5. The man who said no to Wal-Mart -- 6. What do we actually know about Wal-Mart? -- 7. Salmon, shirts, and the meaning of low prices -- 8. The power of pennies -- 9. Wal-Mart and the decent society -- Epilogue. Peoria, September 2005."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://digital-library.cloudnet.com.kh/storage/media_files/0zaKdubHH2j9vQjMKMP7tN7VF5qsgD6igI83VA3P.pdf",
+              "title": "Sourcebooks eBook",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Library of Congress Cataloging-in-Publication Data \nNames: Bustin, Greg. \nTitle: How leaders decide : history\n...\n| (hardcover : alk. paper) \nSubjects: LCSH:\n...\nWEEK 49\n\nSam Walton Hires His First Partner to Support Aggressive Expansion Plan"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/stream/the-cultural-landscape-books/St.%20James%20Encyclopedia%20of%20Popular%20Culture.%20U-Z%2CIndex%20by%20Sara%20Pendergast%2C%20Tom%20Pendergast_djvu.txt",
+              "title": "Full text of \"The Cultural Landscape Books\"",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Library of Congress Cataloging-in-Publication Data \nSt. James Encyclopedia of Popular Culture / with an introduction by ... ; editors, \nTom Pendergast and Sara Pendergast. \np. ... . \nIncludes bibliographical references and index. \nISBN 1-558-62400-7 (set)"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://dokumen.pub/download/habits-of-the-heartland-small-town-life-in-modern-america-9780801458972.html",
+              "title": "Habits of the Heartland",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Library of Congress Cataloging-in-Publication Data \nMacgregor, Lyn Christine, 1973– \nHabits of the heartland : small-town life in modern America / Lyn C. \nMacgregor. \np. cm. \nIncludes bibliographical references and index. \nISBN"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3855,
+    "completion_tokens": 1470,
+    "total_tokens": 5325,
+    "cost": 0.007963765,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0009735,
+      "upstream_inference_prompt_cost": 0.0003855,
+      "upstream_inference_completions_cost": 0.000588
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

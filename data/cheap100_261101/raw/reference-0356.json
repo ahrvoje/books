@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572657-W7tWxrCgBlhiz3mKaJUj",
+  "object": "chat.completion",
+  "created": 1793572657,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"progress-0358\",\n  \"title\": \"Slack\",\n  \"author\": \"Tom DeMarco\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 1,\n    \"url\": \"https://catalogue.miuc.org/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=2180\",\n    \"evidence\": \"Includes bibliographical references and index.\",\n    \"ranges\": [\n      {\n        \"start\": 0,\n        \"end\": 0,\n        \"label\": \"bibliographical references\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.scribd.com/document/909170468/Why-Does-Software-Cost-So-Much-and-Other-Puzzles-of-the-By-Tom-DeMarco-New-York-N-Y-New-York-State-1995-Dorset-House-Publishing-9780",
+              "title": "Software Cost Analysis and Insights | PDF | Unit Testing",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Software Cost Analysis and Insights | PDF | Unit Testing | Computing\n\nDzung Nguyen\n\n# Software Cost Analysis and Insights\n\n## Uploaded by\n\nDzung Nguyen"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://vowi.fsinf.at/images/e/ed/TU_Wien-Risikomanagement_VU_%28Grechenig%29_-_Waltzing_with_bears_demarco.pdf",
+              "title": "Waltzing",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Making sure you're not a bot!\n\nLoading...\n\nYou are seeing this because the administrator of this website has set up Anubis to protect the server against the scourge of AI companies aggressively scraping websites. This can and does cause downtime for the websites, which makes their resources inaccessible for everyone.\n\nAnubis is a compromise. Anubis uses a Proof-of-Work scheme in the vein of Hashcash, a proposed proof-of-work scheme for reducing email spam. The idea is that at individual scales the additional load is ignorable, but at mass scraper levels it adds up and makes scraping much more expensive.\n\nUltimately, this is a placeholder solution so that more time can be spent on fingerprinting and identifying headless browsers (EG: via how they do font rendering) so that the challenge proof of work page doesn't need to be presented to users that are much more likely to be legitimate.\n\nPlease note that Anubis requires the use of modern JavaScript features that plugins like JShelter will disable. Please disable JShelter or other such plugins for this domain."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalogue.miuc.org/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=2180",
+              "title": "MARC view for: Operations management / › MIUC catalog",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "MARC view for: Operations management / › MIUC catalog\n\n# Operations management / (Record no. 2180)\n\nMARC details\n\n| 000 -LEADER | |\n| --- | --- |\n| fixed length control field | 01777cam a22003978i 4500 |\n| 001 - CONTROL NUMBER | |\n| control field | 22374871 |\n| 005 - DATE AND TIME OF LATEST TRANSACTION | |\n| control field | 20240123153947.0 |\n| 008 - FIXED-LENGTH DATA ELEMENTS--GENERAL INFORMATION | |\n| fixed length control field | 220107s2022 enk b 001 0 eng |\n| 010 ## - LIBRARY OF CONGRESS CONTROL NUMBER | |\n| LC control number | 2021056511 |\n| 020 ## - INTERNATIONAL STANDARD BOOK NUMBER | |\n| International Standard Book Number | 9781292408248 |\n| Qualifying information | (print) |\n| 020 ## - INTERNATIONAL STANDARD BOOK NUMBER | |\n| Canceled/invalid ISBN | 9781292408217 |\n| Qualifying information | (PDF) |\n| 020 ## - INTERNATIONAL STANDARD BOOK NUMBER | |\n| Canceled/invalid ISBN | 9781292408224 |\n| Qualifying information | (ePub) |\n| 040 ## - CATALOGING SOURCE | |\n| Original cataloging agency | DLC |\n| Language of cataloging | eng |\n| Description conventions | rda |\n| Transcribing agency | DLC |\n| 042 ## - AUTHENTICATION CODE | |\n| Authentication code | pcc |\n| 050 00 - LIBRARY OF CONGRESS CALL NUMBER | |\n| Classification number | TS155 |\n| Item number | .S562 2022 |\n| 082 00 - DEWEY DECIMAL CLASSIFICATION NUMBER | |\n| Classification number | 658.5 |\n| Edition number | 23/eng/20220118 |\n| 100 1# - MAIN ENTRY--PERSONAL NAME | |\n| Personal name | Slack, Nigel, |\n| Relator term | author. |\n| 245 10 - TITLE STATEMENT | |\n| Title | Operations management / |\n| Statement of responsibility, etc. | Nigel Slack, Alistair Brandon-Jones, Nicola Burgess. |\n| 250 ## - EDITION STATEMENT | |\n| Edition statement | Tenth edition. |\n| 263 ## - PROJECTED PUBLICATION DATE | |\n| Projected publication date | 2203 |\n| 264 #1 - PRODUCTION, PUBLICATION, DISTRIBUTION, MANUFACTURE, AND COPYRIGHT NOTICE | |\n| Place of production, publication, distribution, manufacture | Harlow, England ; |\n| -- | New York : |\n| Name of producer, publisher, distributor, manufacturer | Pearson, |\n| Date of production, publication, distribution, manufacture, or copyright notice | 2022. |\n| 300 ## - PHYSICAL DESCRIPTION | |\n| Extent | pages cm |\n| 336 ## - CONTENT TYPE | |\n| Content type term | text |\n| Content type code | txt |\n| Source | rdacontent |\n| 337 ## - MEDIA TYPE | |\n| Media type term | unmediated |\n| Media type code | n |\n| Source | rdamedia |\n| 338 ## - CARRIER TYPE | |\n| Carrier type term | volume |\n| Carrier type code | nc |\n| Source | rdacarrier |\n| 504 ## - BIBLIOGRAPHY, ETC. NOTE | |\n| Bibliography, etc. note | Includes bibliographical references and index. |\n| 520 ## - SUMMARY, ETC. | |\n| Summary, etc. | \"The text provides a clear, authoritative, well-structured and interesting treatment of operations management as it applies to a variety of businesses and organisations. The text provides both a logical path through the activities of operations management and an understanding of their strategic context. The distinctive features are: Clear structure, Illustrations-based, Worked examples, Critical commentaries, Responsible operations, etc\"-- |\n| Assigning source | Provided by publisher. |\n| 650 #0 - SUBJECT ADDED ENTRY--TOPICAL TERM | |\n| Topical term or geographic name entry element | Production management. |\n| 650 #0 - SUBJECT ADDED ENTRY--TOPICAL TERM | |\n| Topical term or geographic name entry element | Manufacturing processes. |\n| 650 #0 - SUBJECT ADDED ENTRY--TOPICAL TERM | |\n| Topical term or geographic name entry element | Industrial management . |\n| 700 1# - ADDED ENTRY--PERSONAL NAME | |\n| Personal name | Brandon-Jones, Alistair, |\n| Relator term | author. |\n| 700 1# - ADDED ENTRY--PERSONAL NAME | |\n| Personal name | Burgess, Nicola, |\n| Relator term | author. |\n| 906 ## - LOCAL DATA ELEMENT F, LDF (RLIN) | |\n| a | 7 |\n| b | cbc |\n| c | orignew |\n| d | 1 |\n| e | ecip |\n| f | 20 |\n| g | y-gencatlg |\n| 925 0# - | |\n| -- | acquire |\n| -- | 1 shelf copy |\n| -- | policy default |\n| 955 ## - COPY-LEVEL INFORMATION (RLIN) | |\n| -- | xm08 2022-01-18 Telework |\n\nHoldings\n\n| Withdrawn status | Lost status | Source of classification or shelving scheme | Damaged status | Not for loan | Home library | Current library | Shelving location | Date acquired | Source of acquisition | Cost, normal purchase price | Total Checkouts | Full call number | Barcode | Date last seen | Date last checked out | Cost, replacement price | Price effective from | Koha item type |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | Dewey Decimal Classification | | | Marbella International University Centre | Marbella International University Centre | Library | 07/02/2024 | 11 | 60.27 | 2 | 658.5 SLA ope 2180 | 12372 | 14/10/2024 | 05/03/2024 | 60.27 | 07/02/2024 | Books |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://opac.iiitkottayam.ac.in/cgi-bin/koha/opac-ISBDdetail.pl?biblionumber=2476",
+              "title": "ISBD view › IIIT Kottayam Central Library catalog",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "ISBD view › IIIT Kottayam Central Library catalog\n\n# Operations and process management :principles and practice for strategic impact \n\nSlack Nigel Operations and process management :principles and practice for strategic impact - 3rd ed. - New York Pearson Education 2012 - xxii, 540 p. Includes bibliographical references and index. ISBN: 9780273751878 Subjects--Topical Terms: Manufacturing processes. Process control. Operations research. Dewey Class. No.: 658.5 / SLA/O \n\nIIIT Kottayam Central Library | Valavoor P.O., Kottayam–686635, Kerala | 0482-2202104 | 9961452785 | info. library@iiitkottayam.ac.in Visitors: 000000 © IIIT Kottayam 2025"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.freelibrary.org/Record/1519786",
+              "title": "The Blackwell encyclopedia dictionary of operations management  - Free Library Catalog",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Blackwell encyclopedia dictionary of operations management - Free Library Catalog\n\n# Find\n\n \n\n## The Blackwell encyclopedia dictionary of operations management NetLibrary, Inc. \n\n Total Copies: 1 Available: 1 Holds: 0 \n\n### Description \n\n- Online Access: \n\n- Click here to access this eBook \n- Published: Cambridge, Mass. : Blackwell Publishers, 1999 \n- Other Authors: Slack, Nigel. \n- ISBN: 0631228020 (electronic bk.) \n- Format: Book\n- Language: English \n- Subjects: \n\n- Production management > Dictionaries. \n- Electronic books. \n- Physical Description: \n\n- 256 p. ; 25 cm. \n- Bibliography: Includes bibliographical references and index. \n- Tags: No Tags, Be the first to tag this record! Add Tag \n- Awards: \n- About the Author: \n\n#### Internet \n\n 1 Available \n\n| Library | Call Number | Material | Shelf Location | Due Date | Notes |\n| --- | --- | --- | --- | --- | --- |\n| Parkway Central Library | XX(1519786.1) | Electronic Resources | World Wide Web | | |\n\n...\n\n### Staff View \n\n| LEADER | 01447camca2200337La 4500 | | |\n| --- | --- | --- | --- |\n| 001 | ocm48138165 | | |\n| 003 | OCoLC | | |\n| 005 | 20060711000000.0 | | |\n| 006 | m u | | |\n| 007 | cr cn- | | |\n| 008 | 010711s1999 mau sbd 001 0 eng d | | |\n| 040 | | | |a N$T |c N$T |d OCLCQ |\n| 020 | | | |a 0631228020 (electronic bk.) |\n| 049 | | | |a PLFF |\n| 050 | 1 | 4 | |a TS155 |b .B525 1999eb |\n| 099 | | | |a NetLibrary |\n| 245 | 0 | 4 | |a The Blackwell encyclopedia dictionary of operations management |h [electronic resource] / |c edited by Nigel Slack. |\n| 260 | | | |a Cambridge, Mass. : |b Blackwell Publishers, |c 1999. |\n| 300 | | | |a 256 p. ; |c 25 cm. |\n| 504 | | | |a Includes bibliographical references and index. |\n| 533 | | | |a Electronic reproduction. |b Boulder, Colo. : |c NetLibrary, |d 2001. |n Available via World Wide Web. |n Access may be limited to NetLibrary affiliated libraries. |n Excludes some or all of the images found in the original book. |\n| 650 | | 0 | |a Production management |v Dictionaries. |= ^A392554 |\n| 655 | | 7 | |a Electronic books. |2 local |? UNAUTHORIZED |\n| 700 | 1 | | |a Slack, Nigel. |= ^A610534 |\n| 710 | 2 | | |a NetLibrary, Inc. |= ^A454278 |\n| 776 | 1 | | |c Original |z 0631210822 |w (DLC) 00697969 |\n| 856 | 4 | | |3 Click here to access this eBook |u http://www.netLibrary.com/urlapi.asp?action=summary&v=1&bookid=44486 |z An electronic book accessible through the World Wide Web; click for information |\n| 900 | | | |a a1519786 |\n| 994 | | | |a 92 |b PLF |\n| 596 | | | |a 1 |\n| 980 | | | |a 20060728 |b 20230920 |"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3700,
+    "completion_tokens": 142,
+    "total_tokens": 3842,
+    "cost": 0.0071943964,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019636,
+      "upstream_inference_prompt_cost": 0.000185,
+      "upstream_inference_completions_cost": 0.00001136
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "progress-0358",
+  "retrieved": "2026-11-01T22:37:37.571Z"
+}

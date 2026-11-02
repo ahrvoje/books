@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575791-DraAiYBIi68lvAcC6gYW",
+  "object": "chat.completion",
+  "created": 1793575791,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-13b1ae042f6e:amazon:https://www.amazon.com/Formula-Rogues-Geniuses-Reengineered-Fastest-Growing/dp/0063318628\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 1,618 global ratings.\"\n    },\n    {\n      \"key\": \"intake-0058:amazon:https://www.amazon.com/Worst-Journey-World-Penguin-Classics/dp/0143039385\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 1,202 global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1308:amazon:https://www.amazon.com/White-Trash-400-Year-History-America/dp/0670785970\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 5,654 ratings.\"\n    },\n    {\n      \"key\": \"g0686:amazon:https://www.amazon.com/Whos-Charge-Free-Science-Brain/dp/0061906107\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 576 ratings.\"\n    },\n    {\n      \"key\": \"g0982:amazon:https://www.amazon.com/Destined-War-America-Escape-Thucydidess/dp/0544935276\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 2,662 global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3431,
+    "completion_tokens": 451,
+    "total_tokens": 3882,
+    "cost": 0.0002055537,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020763,
+      "upstream_inference_prompt_cost": 0.00017155,
+      "upstream_inference_completions_cost": 0.00003608
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:29:57.969Z"
+}

@@ -1,0 +1,60 @@
+{
+  "retrieved": "2026-11-01T22:11:58.201Z",
+  "bookId": "shelf-c79235dbb2d1",
+  "id": "gen-1793571115-0CDV23LaITLYHAzZ5p7n",
+  "object": "chat.completion",
+  "created": 1793571115,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-c79235dbb2d1\",\n  \"title\": \"The Rules of Contagion: Why Things Spread - and Why They Stop\",\n  \"author\": \"Adam Kucharski\",\n  \"knownEdition\": {\n    \"id\": \"OL29505061M\",\n    \"url\": \"https://openlibrary.org/books/OL29505061M\",\n    \"pages\": 352\n  },\n  \"purchaseUrl\": \"https://www.amazon.de/dp/1788164725\",\n  \"amazon\": {\n    \"count\": 32,\n    \"stars\": 4.6,\n    \"asin\": \"1541606698\",\n    \"marketplace\": \"amazon.com\",\n    \"url\": \"https://www.amazon.com/Proof-Science-Certainty-Adam-Kucharski/dp/1541606698/ref=sr_1_1?crid=171NL83LY67NZ&dib=eyJ2IjoiMSJ9.MeXu1RC7RDbPeNvzVk6EMW6DePsL92GTx6hC6B9MDLqx0-7sZFCRljyGbJjtAGz5yWmjC_a33n2LkpIMmHVgKsMePjLZb5pm2QPh1TX39OtXokgLN9jj_HMqlGJ-zlH73-w5laxztOXRwgXiHfhMvNunS7DxJMELaGa9tsxAF0WGj95ltAUrCy1NIb7yhKQ8qSkhVGpOigo-CXE7w5Y8T5yGOc-6WpJ98PrW0njnI3M.eaYBnHGGc3iAJpy_BB14LzBTTVh5tqcYa6aOtTppcZg&dib_tag=se&keywords=Kucharski&qid=1742330359&sprefix=kucharski%2Caps%2C88&sr=8-1\",\n    \"evidence\": \"4.6 out of 5 stars\\n\\n32 global ratings\",\n    \"sourceTitle\": \"Proof: The Art and Science of Certainty\",\n    \"sourceAuthor\": \"Adam Kucharski\",\n    \"snapshotLimitation\": \"The provided Amazon link is for the book \\\"Proof: The Art and Science of Certainty\\\" by Adam Kucharski, not \\\"The Rules of Contagion\\\". However, the customer review data (32 global ratings, 4.6 stars) and the author information are presented in the context of this \\\"Proof\\\" book, with \\\"The Rules of Contagion\\\" mentioned as another work by the same author. Therefore, the rating and count are attributed to the \\\"Proof\\\" book as it is the direct subject of the customer review section in the provided text.\"\n  },\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Proof-Science-Certainty-Adam-Kucharski/dp/1541606698/ref=sr_1_1?crid=171NL83LY67NZ&dib=eyJ2IjoiMSJ9.MeXu1RC7RDbPeNvzVk6EMW6DePsL92GTx6hC6B9MDLqx0-7sZFCRljyGbJjtAGz5yWmjC_a33n2LkpIMmHVgKsMePjLZb5pm2QPh1TX39OtXokgLN9jj_HMqlGJ-zlH73-w5laxztOXRwgXiHfhMvNunS7DxJMELaGa9tsxAF0WGj95ltAUrCy1NIb7yhKQ8qSkhVGpOigo-CXE7w5Y8T5yGOc-6WpJ98PrW0njnI3M.eaYBnHGGc3iAJpy_BB14LzBTTVh5tqcYa6aOtTppcZg&dib_tag=se&keywords=Kucharski&qid=1742330359&sprefix=kucharski%2Caps%2C88&sr=8-1\"\n  ],\n  \"limitations\": \"The search results provided customer review data for \\\"Proof: The Art and Science of Certainty\\\" by Adam Kucharski, which also mentions \\\"The Rules of Contagion\\\" as another book by the same author. The direct Amazon product page for \\\"The Rules of Contagion\\\" was not found with explicit total rating aggregates in the provided text. Therefore, the rating and count are attributed to the \\\"Proof\\\" book as it is the direct subject of the customer review section in the provided text.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Proof-Science-Certainty-Adam-Kucharski/dp/1541606698/ref=sr_1_1?crid=171NL83LY67NZ&dib=eyJ2IjoiMSJ9.MeXu1RC7RDbPeNvzVk6EMW6DePsL92GTx6hC6B9MDLqx0-7sZFCRljyGbJjtAGz5yWmjC_a33n2LkpIMmHVgKsMePjLZb5pm2QPh1TX39OtXokgLN9jj_HMqlGJ-zlH73-w5laxztOXRwgXiHfhMvNunS7DxJMELaGa9tsxAF0WGj95ltAUrCy1NIb7yhKQ8qSkhVGpOigo-CXE7w5Y8T5yGOc-6WpJ98PrW0njnI3M.eaYBnHGGc3iAJpy_BB14LzBTTVh5tqcYa6aOtTppcZg&dib_tag=se&keywords=Kucharski&qid=1742330359&sprefix=kucharski%2Caps%2C88&sr=8-1",
+              "title": "Follow the author",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Proof: The Art and Science of Certainty: Kucharski, Adam: 9781541606692: Amazon.com: Books\n\n...\n\n# Follow the author\n\nAdam Kucharski\n\n...\n\nby\n\n4.6 out of 5 stars 32 ratings\n\n#1 Best Seller in Mathematics History\n\n...\n\nAn award-winning mathematician—he \"made me smile and made me feel clever\" (Peter Frankopan)—shows how we prove what’s true, and what to do when we can’t How do we establish what we believe? And how can we be certain that what we believe is true? And how do we convince other people that it is true? For thousands of years, from the ancient Greeks to the Arabic golden age to the modern world, science has used different methods—logical, empirical, intuitive, and more—to separate fact from fiction. But it all had the same goal: find perfect evidence and be rewarded with universal truth. As mathematician Adam Kucharski shows, however, there is far more to proof than axioms, theories, and laws: when demonstrating that a new medical treatment works, persuading a jury of someone’s guilt, or deciding whether you trust a self-driving car, the weighing up of evidence is far from simple. To discover proof, we must reach into a thicket of errors and biases and embrace uncertainty—and never more so than when existing methods fail. Spanning mathematics, science, politics, philosophy, and economics, this book offers the ultimate exploration of how we can find our way to proof—and, just as importantly, of how to go forward when supposed facts falter.\n\n...\n\nPublication date\n\nMay 6, 2025\n\n...\n\nThis item: Proof: The Art and Science of Certainty\n\n...\n\n## Customers who viewed this item also viewed\n\nPage 1 of 1 Start over\n\nPrevious set of slides\n\n...\n\nOnly 4 left in stock - order soon.\n\nThe Rules of Contagion: Why Things Spread--And Why They Stop\n\nAdam Kucharski\n\nHardcover\n\n-24%$22.93\n\nList: $30.00\n\nGet it Jun 17 - 23\n\nFREE Shipping\n\nOnly 1 left in stock - order soon.\n\n...\n\n## From the Publisher\n\n4.4 out of 5 stars 888\n\n4.0 out of 5 stars 377\n\n| Rules of Contagion | Perfect Bet |\n| --- | --- |\n| Customer Reviews |\n| Price | $16.70 | $14.99 |\n| Explore the works of Adam Kucharski | A “smart and engaging” (New York Times) look at why the science of outbreaks is the science of modern life. | “An elegant and amusing account” of how gambling has been reshaped by the application of science and revealed the truth behind a lucky bet (Wall Street Journal). |\n\n...\n\n### About the Author\n\nAdam Kucharski is a professor at the London School of Hygiene and Tropical Medicine, where he works on analysis of infectious disease outbreaks, work that won him the 2023 Adams Prize for mathematics. He regularly appears in print and broadcast media and is the author of The Perfect Bet and The Rules of Contagion. He lives in Hertfordshire, UK.\n\n---\n\n## Product details\n\n- Dimensions ‏ : ‎ 6.35 x 1.19 x 9.6 inches\n- Item Weight ‏ : ‎ 1.26 pounds\n- ISBN-13 ‏ : ‎ 978-1541606692\n- ISBN-10 ‏ : ‎ 1541606698\n- Print length ‏ : ‎ 368 pages\n- Language ‏ : ‎ English\n- Publication date ‏ : ‎ May 6, 2025\n- Publisher ‏ : ‎ Basic Books\n\nBest Sellers Rank: #4,784 in Books (See Top 100 in Books)\n\n- #5 in History & Philosophy of Science (Books)\n- #2 in Mathematical Logic\n- #1 in Mathematics History\n\nCustomer Reviews:\n\n4.6 out of 5 stars 32 ratings\n\n...\n\n## About the author\n\n...\n\n## Adam Kucharski\n\nBrief content visible, double tap to read full content.\n\nFull content visible, double tap to read brief content.\n\nAdam Kucharski is a professor at the London School of Hygiene & Tropical Medicine, an award-winning writer, and bestselling author of The Rules of Contagion, which was a Book of the Year in The Times, Guardian and Financial Times.\n\nA mathematician by training, his work on global outbreaks has included Ebola, Zika and COVID. He is in the top 0.1% of cited researchers globally, and he has advised multiple governments and health agencies. He is a TED senior fellow and winner of the University of Cambridge Adams Prize and the Wellcome Trust Science Writing Prize.\n\n...\n\n## Customer reviews\n\n4.6 out of 5 stars\n\n32 global ratings\n\n1 star\n\n0%\n\n- 2 star4%\n- 3 star4%\n- 4 star14%\n- 5 star78%\n\nHow customer reviews and ratings work\n\nCustomer Reviews, including Product Star Ratings help customers to learn more about the product and decide whether it is the right product for them.\n\nTo calculate the overall star rating and percentage breakdown by star, we don’t use a simple average. Instead, our system considers things like how recent a review is and if the reviewer bought the item on Amazon. It also analyzed reviews to verify trustworthiness.\n\nLearn more how customers reviews work on Amazon\n\n---"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2090,
+    "completion_tokens": 1133,
+    "total_tokens": 3223,
+    "cost": 0.007655578,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006622,
+      "upstream_inference_prompt_cost": 0.000209,
+      "upstream_inference_completions_cost": 0.0004532
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

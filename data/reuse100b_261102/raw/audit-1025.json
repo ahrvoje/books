@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575223-jWu2Q0P6Wi514mDY7JSd",
+  "object": "chat.completion",
+  "created": 1793575223,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"bgd9a02a3e7a:amazon:https://www.amazon.com/Elephant-Brain-Hidden-Motives-Everyday/dp/0197551955\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and authors. 1,642 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"shelf-cedaa1931544:amazon:https://www.amazon.com/What-Life-Chemistry-Becomes-Landmark/dp/0198784791\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 569 global ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"intake-0325:amazon:https://www.amazon.com/Life-Simple-Occams-Science-Universe/dp/1541620445\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 173 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"shelf-96d274c8a7ae:amazon:https://www.amazon.com/Origins-Value-Financial-Innovations-Created/dp/0195175719\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and editors. 22 global ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"rem-u1014:amazon:https://www.amazon.com/Brief-History-Everyone-Ever-Lived/dp/0297609378\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 3,832 ratings explicitly labelled.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3332,
+    "completion_tokens": 425,
+    "total_tokens": 3757,
+    "cost": 0.000198594,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002006,
+      "upstream_inference_prompt_cost": 0.0001666,
+      "upstream_inference_completions_cost": 0.000034
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:20:28.248Z"
+}

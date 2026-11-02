@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574389-v4QNMj3vMXJ4DjCYwUCe",
+  "object": "chat.completion",
+  "created": 1793574389,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g0626:amazon:https://www.amazon.com/Physics-Future-Science-Shape-Destiny/dp/0307473333\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 1,422 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"rem-u1464:amazon:https://www.amazon.com/Hyperspace-Scientific-Parallel-Universes-Dimension/dp/0385477058\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 1,460 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"rem-u1398:amazon:https://www.amazon.com/They-Called-Enemy-George-Takei/dp/1603094504\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and authors. 6,005 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"g0889:amazon:https://www.amazon.com/Money-Game-Adam-Smith/dp/0394721039\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 666 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"g0615:amazon:https://www.amazon.com/My-Inventions-Autobiography-Nikola-Tesla/dp/1614270848\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 4,836 ratings explicitly labelled.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3399,
+    "completion_tokens": 398,
+    "total_tokens": 3797,
+    "cost": 0.0001997721,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020179,
+      "upstream_inference_prompt_cost": 0.00016995,
+      "upstream_inference_completions_cost": 0.00003184
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:06:34.915Z"
+}

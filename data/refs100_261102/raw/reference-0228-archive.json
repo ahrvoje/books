@@ -1,0 +1,62 @@
+{
+  "id": "gen-1793577044-mgJjr1dGjkx49w7LpyEb",
+  "object": "chat.completion",
+  "created": 1793577044,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "Here",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/trafficengineeri0000mcsh_b2l1",
+              "title": "Traffic engineering : McShane, William R : Free Download, Borrow, and Streaming : Internet Archive",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Keep the news in the Wayback Machine. Sign Fight for the Future's letter .\n\nTraffic engineering\n\nBookreader Item Preview\n\n \nremove-circle\n\nShare or Embed This Item\n\n...\n\nengineering : McShane, William R : Free Download, Borrow, and Streaming : Internet Archive) Copy Link\nEMBED \nEMBED (for Archive.org item Description fields) [archiveorg trafficengineeri0000mcsh_b2l1 width=560 height=384 frameborder=0 webkitallowfullscreen=true mozallowfullscreen=true]\nWant more?\n\n...\n\n* Marketing/Phishing/Advertising\n* Misleading/Inaccurate/Missing Metadata\ntexts\n\nTraffic engineering\n\nby McShane, William R\nPublication date 1998 Topics Traffic engineering -- United States Publisher Upper Saddle River, N.J. : Prentice Hall Collection internetarchivebooks ; printdisabled Contributor Internet Archive Language English Item Size 1.7G\nxv, 714 p. : 26 cm\nIncludes bibliographical references and index\n\nNotes\n\nObscured text on back cover due to sticker attached.\nAccess-restricted-item true Addeddate 2022-07-16 18:01:23 Associated-names Roess, Roger P; Prassas, Elena S Autocrop_version 0.0.14_books-20220331-0.2 Bookplateleaf 0003 Boxid IA40597912 Camera Sony Alpha-A6300 (Control) Collection_set printdisabled External-identifier urn:lcp:trafficengineeri0000mcsh_b2l1:lcpdf:9843705f-203c-4341-a441-db5beb1070df urn:oclc:record:1342465831 [WorldCat (this"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 626,
+    "completion_tokens": 1,
+    "total_tokens": 627,
+    "cost": 0.00101118502,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000011298,
+      "upstream_inference_prompt_cost": 0.000011268,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "complete-411-308",
+  "method": "archive",
+  "query": "site:archive.org/details \"Killed by a Traffic Engineer\" Wes Marshall \"bibliographical references\"",
+  "retrieved": "2026-11-01T23:50:46.265Z"
+}

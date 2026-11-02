@@ -1,0 +1,72 @@
+{
+  "id": "gen-1793577000-j5fhtKTQZiiiUVl1KFzr",
+  "object": "chat.completion",
+  "created": 1793577000,
+  "model": "mistralai/mistral-nemo",
+  "provider": "Parasail",
+  "system_fingerprint": "vllm-0.23.0-644748b9",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "Based",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/spiritofmarathon0000kisl",
+              "title": "Spirit of the marathon : what to expect in your first ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nSpirit of the marathon : what to expect in your first ...\nContributor Internet Archive Language English Item Size 582.9M 272 pages : 23 cm Includes bibliographical references Access-restricted-item true Addeddate 2020-01-10 06:06:27 Boxid IA1758722 Camera Sony Alpha-A6300 (Control) Collection_set printdisabled External-identifier urn:lcp:spiritofmarathon0000kisl:lcpdf:8722d2a5-8d76-487c-a97b-f2d352399ccc"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/biographyofeldba00ston",
+              "title": "The biography of Eld. Barton Warren Stone",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe biography of Eld. Barton Warren Stone\nJun 30, 2008 — The biography of Eld. Barton Warren Stone. by: Stone, Barton W ... Columbia University Libraries; Language: English; Item Size: 596.3M. ix"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 422,
+    "completion_tokens": 1,
+    "total_tokens": 423,
+    "cost": 0.0010125631,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001269,
+      "upstream_inference_prompt_cost": 0.00001266,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "shelf-86af147da8ed",
+  "method": "archive",
+  "query": "site:archive.org/details \"Spirit to the Stone\" Marion Boatwright \"bibliographical references\"",
+  "retrieved": "2026-11-01T23:50:02.041Z"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "gen-1793575087-L2och8TAOJZLa7u1iMVG",
+  "object": "chat.completion",
+  "created": 1793575087,
+  "model": "mistralai/mistral-nemo",
+  "provider": "Io Net",
+  "system_fingerprint": "vllm-0.25.1-95d19908",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "{\n",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Machines-Who-Think-Artificial-Intelligence/dp/1568812051",
+              "title": "Machines Who Think: A Personal Inquiry into the History ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nMachines Who Think: A Personal Inquiry into the History ...\nThis book is a history of artificial intelligence, that audacious effort to duplicate in an artifact what we consider to be our most important property―our\n\n## \n\nMachines Who Think: A Personal Inquiry into the History and ...\n30-day returns McCorduck details the thoughts of theorists such as Alan Turing (who believed machine intelligence was possible) and John von Neumann (who didn't) and devotes \n\n## \n\nMachines Who Think: A Personal Inquiry into the History ...\nExplores the fascinating history of artificial intelligence, from its early beginnings to its central role in modern technology, examining scientists'\n\n## \n\nMachines Who Think: A Personal Inquiry into the History ...\nThe enormous, if stealthy, influence of AI bears out many of the wonders foretold 25 years ago in Machines Who Think, Pamela McCorduck's groundbreaking survey\n\n## \n\nMachines Who Think: A Personal Inquiry into the History ...\nPamela McCorduck's groundbreaking survey of the history and prospects of the field. on chess- and checkers-playing machines, which"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Machines-That-Think-Artificial-Intelligence/dp/1493227610",
+              "title": "Machines That Think: How Artificial Intelligence Works and ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nMachines That Think: How Artificial Intelligence Works and ...\nPhysicist and AI researcher Inga Strümke pulls back the curtain on the most transformative technology of our time in this captivating introduction to artificial\n\n## \n\nMachines That Think: How Artificial Intelligence Works and ...\nWhere does computing stop and thinking begin? And what happens when machines that learn start shaping the way we live, work, and think? AI researcher Inga Strümke tackles these questions and more in this timely and accessible examination of the past, present, and future of AI. Artificial intelligence is no longer confined to science fiction."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Fifth-Generation-Artificial-Intelligence-Challenge/dp/0201115190",
+              "title": "The Fifth Generation: Artificial Intelligence and Japan's Computer ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Fifth Generation: Artificial Intelligence and Japan's Computer ...\nAnalyzes the potential and the consequences for the United States of Japan's all-out effort to produce the Fifth Generation of computers within ten years\n\n## \n\nThe Fifth Generation: Artificial Intelligence and Japan's ...\nAnalyzes the potential and the consequences for the United States of Japan's all-out effort to produce the Fifth Generation of computers within ten years. Help others learn more about this product by uploading a video! Follow authors to get new release updates, plus improved recommendations.\n\n## \n\nThe Fifth Generation: Artificial Intelligence and Japan's ...\nThe Fifth Generation: Artificial Intelligence and Japan's Computer Challenge to the World [Feigenbaum, Edward A., McCorduck, Pamela] on Amazon.com. *FREE* shipping on qualifying offers."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Thinking-Machines-AI-Future-Humanity/dp/B0GBJJL5HX",
+              "title": "Thinking with Machines: AI and the Future of Humanity",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThinking with Machines: AI and the Future of Humanity\nDec 21, 2025 — It argues that artificial intelligence is not merely changing what humans do, but reshaping how humans think, work, relate, remember, and understand themselves."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1115,
+    "completion_tokens": 1,
+    "total_tokens": 1116,
+    "cost": 0.0010175712328,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 128,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001774872,
+      "upstream_inference_prompt_cost": 0.00001772712,
+      "upstream_inference_completions_cost": 2.16e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Machines Who Think\" Pamela McCorduck \"global ratings\"",
+  "bookId": "intake-0186",
+  "retrieved": "2026-11-01T23:18:04.904Z"
+}

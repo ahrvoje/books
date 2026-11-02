@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574267-aYclgw0fi1Y7amtsxcJA",
+  "object": "chat.completion",
+  "created": 1793574267,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g1230:amazon:https://www.amazon.com/Value-Investing-Techniques-Intelligent-Investment/dp/0470683597\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count of 104.\"\n    },\n    {\n      \"key\": \"nf2824dfc01:amazon:https://www.amazon.com/Hidden-Reality-Parallel-Universes-2011-02-03/dp/B01MXKXWRC\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count of 1,784.\"\n    },\n    {\n      \"key\": \"shelf-48a572aeb020:amazon:https://www.amazon.com/How-Make-More-Billion-Dollars/dp/B0FR861FFN\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count of 3.\"\n    },\n    {\n      \"key\": \"bgdb172dd791:amazon:https://www.amazon.com/Post-American-World-Release-2-0/dp/039308180X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a rating count of 750.\"\n    },\n    {\n      \"key\": \"bg1e16d66dd0:amazon:https://www.amazon.com/Predictable-Revenue-Business-Practices-Salesforce-com/dp/0984380213\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the supplied book and author. The evidence is a global rating count of 2,317.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3399,
+    "completion_tokens": 465,
+    "total_tokens": 3864,
+    "cost": 0.0002050785,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020715,
+      "upstream_inference_prompt_cost": 0.00016995,
+      "upstream_inference_completions_cost": 0.0000372
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:04:34.095Z"
+}

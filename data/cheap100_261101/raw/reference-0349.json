@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572650-ydpzwesC0I2pj811ungw",
+  "object": "chat.completion",
+  "created": 1793572650,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"n8c051b2228\",\n  \"title\": \"Cosmic Origins\",\n  \"author\": \"M. Mitchell Waldrop\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 1,\n    \"url\": \"https://find.lib.uoc.gr/Record/28581/Description\",\n    \"evidence\": \"Includes bibliographical references and index.\",\n    \"ranges\": [\n      {\n        \"start\": 311,\n        \"end\": 324,\n        \"label\": \"bibliographical references\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://apps.lib.byu.edu/marcrecord/bib/2257752",
+              "title": "apps.lib.byu.edu",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Leader *****cam*a22******a*4500\n001 ## a2257752\n003 ## SIRSI\n008 ## 960919s1997 maua b 001 0 eng\n010 ## $a 96046117\n020 ## $a 0201149427\n035 ## $a (MARC)\n035 ## $a (MARCord)\n035 ## $a (OCoLC)ocn369932127\n040 ## $a DLC\n $c DLC\n $d DLC\n $d UPB\n050 00 $a QB991.I54\n $b G88 1997\n079 ## $a ocm35701222\n082 00 $a 523.1/8\n $2 21\n100 1# $a Guth, Alan H.\n245 14 $a The inflationary universe :\n $b the quest for a new theory of cosmic origins /\n $c Alan H. Guth ; with a foreword by Alan Lightman.\n260 ## $a Reading, Mass. :\n $b Addison-Wesley Publishing,\n $c 1997.\n300 ## $a xv, 358 p. :\n $b ill. ;\n $c 24 cm.\n336 ## $a text\n $2 rdacontent\n337 ## $a unmediated\n $2 rdamedia\n338 ## $a volume\n $2 rdacarrier\n504 ## $a Includes bibliographical references (p. 311-324) and index.\n596 ## $a LEE\n650 #0 $a Inflationary universe.\n700 1# $a Lightman, Alan.\n959 ## $a wmb:d;\n988 ## $a 5/31/1997\n $b 6/25/1997\n $c 5/31/1997\n989 ## $a QB 991 .I54 G88 1997\n $w LC\n $h hbll\n $i 31197209648408\n $d 4/10/1998\n $q 1\n $5 1/1"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://find.lib.uoc.gr/Record/28581/Description",
+              "title": "Description: Our cosmic origins : :: Library Catalog",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Description: Our cosmic origins : :: Library Catalog\n\n \n\n# Our cosmic origins : from the big bang to the emergence oflife and intelligence / \n\nBibliographic Details\n\n| Main Author: | Delsemme, A. H. |\n| --- | --- |\n| Format: | Book |\n| Language: | English French |\n| Published: | New York : Cambridge University Press, 1998. |\n| Subjects: | Cosmology. Astronomy > History. |\n\nDescription\n\n| Physical Description: | p. cm. |\n| --- | --- |\n| Bibliography: | Includes bibliographical references and index. |\n| ISBN: | 0521620384 |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://openlibrary.org/show-records/harvard_bibliographic_metadata/20220215_032.bib.mrc:239354477:1670",
+              "title": "MARC Record from Harvard University | Open Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "MARC Record from Harvard University | Open Library\n\n# MARC Record from Harvard University\n\nLEADER: `01670pam a2200301 a 4500` 005 `20120307134419.0` 008 `960919s1997 maua b 001 0 eng ` 001 `990074826750203941` 010 ` $a^^^96046117^` 020 ` $a0201149427$0(uri) http://www.isbnsearch.org/isbn/0201149427` 020 ` $a0201328402 (pbk.)$0(uri) http://www.isbnsearch.org/isbn/0201328402` 035 ` $a(OCoLC)35701222$0(uri) http://www.worldcat.org/oclc/35701222` 040 ` $aDLC$cDLC$dDLC` 050 `00 $aQB991.I54$bG88 1997` 082 `00 $a523.1/8$221` 100 `1 $aGuth, Alan H.$0(uri) http://id.loc.gov/authorities/names/n82109092$0(uri) http://viaf.org/viaf/sourceID/LC|n82109092` 245 `14 $aThe inflationary universe :$bthe quest for a new theory of cosmic origins /$cAlan H. Guth ; with a foreword by Alan Lightman.` 260 ` $aReading, Mass. :$bAddison-Wesley Publishing,$c1997.` 300 ` $axv, 358 p. :$bill. ;$c24 cm.` 490 `0 $aHelix book` 504 ` $aIncludes bibliographical references (p. 311-324) and index.` 650 ` 0 $aInflationary universe.$0(uri) http://id.loc.gov/authorities/subjects/sh89007075` 852 `0 $bWOL$cGENH$hQB991.I54$iG88 1997$8222025311310003941` 852 `0 $bCAB$cGEN$hQB991.I54$iG88 1997$8222025311400003941` 852 `0 $bWOL$cGENS$hQB991.I54$iG88 1997$8222025311330003941` 876 ` $8222025311400003941$q1$70$mGEN$yBOOK$p32044070880034$cGEN$0232025311370003941$h01$nQB991.I54 G88 1997$bCAB$lCAB` 876 ` $8222025311310003941$q1$70$mGENH$yBOOK$p32044077139384$cGENH$0232025311280003941$h01$nQB991.I54 G88 1997$bWOL$lWOL` 876 ` $8222025311330003941$q1$70$mGENS$yBOOK$p32044029719176$cGENS$0232025311320003941$h01$nQB991.I54 G88 1997$bWOL$lWOL`"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/inflationaryuniv0000guth_v1h6",
+              "title": "The inflationary universe : the quest for a new theory of cosmic origins : Guth, Alan H : Free Download, Borrow, and Streaming : Internet Archive",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The inflationary universe : the quest for a new theory of cosmic origins \n\nby\n: Guth, Alan H\n\nPublication date\n: 1997 \nTopics\n: Inflationary universe\nPublisher\n: London, UK : Jonathan Cape\nCollection\n: internetarchivebooks; inlibrary; printdisabled\nContributor\n: Internet Archive\nLanguage\n: English\nItem Size\n: 929.3M \n\nxv, 358 pages : 24 cm Includes bibliographical references (pages 311-324) and index \n\nNo suitable files to display here."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://openlibrary.org/show-records/marc_loc_2016/BooksAll.2016.part25.utf8:109541213:699",
+              "title": "MARC Record from Library of Congress | Open Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "MARC Record from Library of Congress | Open Library\n\n# MARC Record from Library of Congress\n\nLEADER: `00699cam a2200205 a 4500` 001 ` 96046117 ` 003 `DLC` 005 `20001219065715.0` 008 `960919s1997 maua b 001 0 eng ` 010 ` $a 96046117 ` 020 ` $a0201149427` 040 ` $aDLC$cDLC$dDLC` 050 `00 $aQB991.I54$bG88 1997` 082 `00 $a523.1/8$221` 100 `1 $aGuth, Alan H.` 245 `14 $aThe inflationary universe :$bthe quest for a new theory of cosmic origins /$cAlan H. Guth ; with a foreword by Alan Lightman.` 260 ` $aReading, Mass. :$bAddison-Wesley Publishing,$c1997.` 300 ` $axv, 358 p. :$bill. ;$c24 cm.` 504 ` $aIncludes bibliographical references (p. 311-324) and index.` 650 ` 0 $aInflationary universe.`"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2872,
+    "completion_tokens": 143,
+    "total_tokens": 3015,
+    "cost": 0.0071534896,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00015504,
+      "upstream_inference_prompt_cost": 0.0001436,
+      "upstream_inference_completions_cost": 0.00001144
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "n8c051b2228",
+  "retrieved": "2026-11-01T22:37:33.935Z"
+}

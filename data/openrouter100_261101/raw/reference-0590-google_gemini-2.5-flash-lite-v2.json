@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:17:09.716Z",
+  "bookId": "intake-0004",
+  "id": "gen-1793571427-ipLh7Xzke9b7Lw8Juus7",
+  "object": "chat.completion",
+  "created": 1793571427,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"intake-0004\",\n  \"title\": \"The Roald Amundsen Diaries\",\n  \"author\": \"Roald Amundsen; Geir O. Kløver (editor)\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 411,\n    \"editionId\": \"ISBN:9788282350105\",\n    \"editionYear\": 2010,\n    \"format\": \"Softcover\",\n    \"language\": \"English\",\n    \"url\": \"http://www.aquilabooks.com/catalogue_112.htm\",\n    \"evidence\": \"First Time Published Amundsen, Roald. The Roald Amundsen Diaries: The South Pole Expedition 1910-1912. Oslo: The Fram Museum, #9788282350105, 2010, 1st edition. (Softcover) 411pp.\",\n    \"sourceTitle\": \"Catalogue 112 - Winter 2012\",\n    \"sourceAuthor\": null\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"http://www.aquilabooks.com/catalogue_112.htm\",\n    \"https://ilab.org/assets/catalogues/catalogs_files_911_aquila_20books_20catalogue_20112.pdf\",\n    \"https://www.cambridge.org/core/journals/polar-record/article/roald-amundsen-the-south-pole-expedition-19101912-geir-o-klover-editor-2010-oslo-the-fram-museum-411p-illustrated-soft-cover-isbn-97888282350105-price-not-indicated/B97DB6C1E4053425DB78237888C3422A\",\n    \"https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B97DB6C1E4053425DB78237888C3422A/S0032247411000027a.pdf/div-class-title-span-class-italic-roald-amundsen-the-south-pole-expedition-1910-1912-span-geir-o-kloever-editor-2010-oslo-the-fram-museum-411p-illustrated-soft-cover-isbn-9788-82-8235-010-5-price-not-indicated-div.pdf\",\n    \"https://osloliteraryagency.no/book/roald-amundsens-south-pole-diaries-1910-1912/\"\n  ],\n  \"limitations\": \"No explicit page ranges for bibliographical references were found. The book review mentions that the Fram Museum edition includes an appendix on modifications made to Fram for its Antarctic voyage (reprinted from The South Pole), and a register of the contents of each crate carried on the southern journey. However, these are not explicitly stated as bibliographical references and their page ranges are not provided. The review also notes that there is no index.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://www.aquilabooks.com/catalogue_112.htm",
+              "title": "Catalogue 112",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Catalogue 112 - Winter 2012\n\n...\n\nFirst Time Published\n\nAmundsen, Roald. The Roald Amundsen Diaries: The South Pole Expedition 1910-1912. Oslo: The Fram Museum, #9788282350105, 2010, 1st edition. (Softcover) 411pp. As new. Octavo. Original pictorial wrappers. New. With more than 270 colour and black and white photos from the expedition, many previously unpublished. Edited By Geir O. Klover.\n\n \"The Amundsen diaries give readers the opportunity to travel back in time to one of the highlights of international polar exploration. Amundsen kept his diary every day so we can join him from the moment when the Fram left his home south of Oslo, until the telegram about his success was published all over the world in March, 1912. His writing takes us on an oceanographic cruise around the British Isles to Bergen, via Kristiansand and Madeira […] and then on a four-and-a-half month voyage to Antarctica; through nine months of preparations under the ice in Framheim; 99 days of sledging to the South Pole and back\" (from back cover). See photograph. \n\n 45.00 \n\n 4.\n\nAmundsen, Roald [Geir O. Klover, Editor]. Cold Recall - Reflections of a Polar Explorer. Oslo: The Fram Museum, #9788282350037, 2009, 1st edition. (Softcover) 253pp. As new. Quarto. Original pictorial wrappers. New. Illustrated with colour and black and white photos and reproductions of original documents."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://ilab.org/assets/catalogues/catalogs_files_911_aquila_20books_20catalogue_20112.pdf",
+              "title": "AQUILA BOOKS",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "### Winter 2012 CATALOGUE 112\n\n## AQUILA BOOKS Specializing in Books and Ephemera Related to all Aspects of the Polar Regions\n\n...\n\n3. First Time Published Amundsen, Roald. The Roald Amundsen Diaries: The South Pole Expedition 1910-1912. Oslo: The Fram Museum, #9788282350105, 2010, 1st edition. (Softcover) 411pp. As new. Octavo. Original pictorial wrappers. New. With more than 270 colour and black and white photos from the expedition, many previously unpublished. Edited By Geir O. Klover. \"The Amundsen diaries give readers the opportunity to travel back in time to one of the highlights of international polar exploration. Amundsen kept his diary every day so we can join him from the moment when the Fram left his home south of Oslo, until the telegram about his success was published all over the world in March, 1912. His writing takes us on an oceanographic cruise around the British Isles to Bergen, via Kristiansand and Madeira […] and then on a four-and-a-half month voyage to Antarctica; through nine months of preparations under the ice in Framheim; 99 days of sledging to the South Pole and back\" (from back cover). See photograph.\n\n45.00"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.cambridge.org/core/journals/polar-record/article/roald-amundsen-the-south-pole-expedition-19101912-geir-o-klover-editor-2010-oslo-the-fram-museum-411p-illustrated-soft-cover-isbn-97888282350105-price-not-indicated/B97DB6C1E4053425DB78237888C3422A",
+              "title": "ROALD AMUNDSEN: THE SOUTH POLE EXPEDITION 1910–1912. Geir O ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# ROALD AMUNDSEN: THE SOUTH POLE EXPEDITION 1910–1912. Geir O. Kløver (editor). 2010. Oslo: The Fram Museum. 411p, illustrated, soft cover. ISBN 9788-82-8235-010-5 [price not indicated]\n\nPublished online by Cambridge University Press: 09 June 2011\n\nRoss D.E. MacPhee\n\nShow author details\n\n...\n\nType Book Review\n\nInformation\n\nPolar Record, Volume 47, Issue 3, July 2011 , pp. 274 - 275\n\nDOI: https://doi.org/10.1017/S0032247411000027\n\nCopyright\n\nCopyright © Cambridge University Press 2011\n\n...\n\nIndeed, for the great expeditions of the heroic age, other than letters sent back home and the occasional book or interview written years or even decades after the fact, diaries are the only direct voices of record. Because they effectively control what can be chronicled or discussed, they impose both directionality and limitations on the historian's narrative. Yet despite the inherent interest of such personal records, surprisingly few are available in a convenient and inexpensive published form. This especially applies to diaries not written in one of the major European languages. It is therefore especially pleasing to note that, thanks to the efforts of the Fram Museum in cooperation with the National Library of Norway, Roald Amundsen's complete Antarctic diaries are now available in English translation for the first time.\n\nI emphasise the word ‘complete’ because Roland Huntford's recently published Race for the South Pole: the expedition diaries of Scott and Amundsen (Huntford Reference Huntford2010) also presents excerpts from Amundsen's South Pole diaries (along with those of Olav Bjaaland and Robert Falcon Scott), but only for 1 September 1911 to 5 March 1912, the period spanning the race for the pole and its immediate aftermath. By contrast, the Fram Museum's version provides the entirety of Amundsen's text: it begins on board Fram in early June 1910 during the vessel's shakedown cruise, and ends in Buenos Aires in March 1912 with Amundsen's recording, with evident satisfaction, his completion of the first part of what would become The South Pole (Amundsen 1912). This version also includes such extras as a register of the contents of each crate carried on the southern journey, an appendix on modifications made to Fram for its Antarctic voyage (reprinted from The South Pole), and a wonderful selection of expedition photographs, many of which are not to be found in either Huntford's The Amundsen photographs (Huntford Reference Huntford1987) or Geir Kløver's Cold recall (Kløver Reference Kløver2009). Among the photographs are scenes of Fram's departure from Norway, shipboard life on the way to Antarctica, and the pleasant diversions the men experienced in Tasmania and Argentina during their triumphal return to civilisation. Sadly, there is no index.\n\nWhile both publications of the Amundsen diaries are welcome, neither qualifies as a critical edition in the tradition of, say, the Hakluyt Society publications. Huntford supplies an introductory chapter and a number of notes, but there are no departures from his well known position on the differing capacities of Scott and Amundsen. Perhaps wisely, the Fram Museum edition offers a straightforward translation, with the occasional very short editorial note embedded in the text. For those familiar with The South Pole, such incidental help is usually enough when confronted with an unfamiliar surname or toponym. (But one will look fruitlessly for ‘Axel Heiberg Glacier’, because in his diary Amundsen called this feature ‘Folgefonnen’ after a well-known Norwegian glacier, only changing the name later. This omission, while unfortunate, is the only one of consequence that I noted.) Having no Norwegian myself I cannot comment on the accuracy of the translations, except to compare random passages in the two books. I am happy to report that the Huntford and Fram Museum versions are extremely similar, except for what strikes me as acceptable differences in the choice of colloquialisms to make the translations more readable in English.\n\n...\n\nThe publication of Amundsen's South Pole diaries is part of an ambitious project, under the general editorship of the Fram Museum's director, Geir Kløver, to issue in translation the available diaries of all of the major Norwegian polar explorers of the 19th and early 20th centuries (some in parallel Norwegian and English editions). Amundsen's Belgica diary has already been published in this series.\n\n...\n\n## References\n\nBomann-Larsen, T. 2006. Roald Amundsen. Stroud: Sutton. Google Scholar\n\nHuntford, R. 1987. The Amundsen photographs. London: Hodder & Stoughton. Google Scholar\n\nHuntford, R. 2010. Race for the South Pole: the expedition diaries of Scott and Amundsen. London: Continuum. Google Scholar\n\nKløver, G. 2009. Cold recall. Oslo: The Fram Museum. Google Scholar"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B97DB6C1E4053425DB78237888C3422A/S0032247411000027a.pdf/div-class-title-span-class-italic-roald-amundsen-the-south-pole-expedition-1910-1912-span-geir-o-kloever-editor-2010-oslo-the-fram-museum-411p-illustrated-soft-cover-isbn-9788-82-8235-010-5-price-not-indicated-div.pdf",
+              "title": "pol1100002a - Cambridge University Press & Assessment",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "ROALD AMUNDSEN: THE SOUTH POLE EXPED-ITION 1910 -1912. Geir O. Kløver (editor) . 2010. Oslo: The Fram Museum. 411p, illustrated, soft cover. ISBN 9788-82-8235-010-5 [price not indicated] doi:10.1017/S0032247411000027 274 Polar Record 47 (242): 274–286 (2011). c Cambridge University Press 2011\n\n...\n\nI emphasise the word 'complete' because Roland Huntford's recently published Race for the South Pole: the expedition diaries of Scott and Amundsen (Huntford 2010 ) also presents excerpts from Amundsen's South Pole diaries (along with those of Olav Bjaaland and Robert Falcon Scott), but only for 1 September 1911 to 5 March 1912, the period spanning the race for the pole and its immediate aftermath. By contrast, the Fram Museum's version provides the entirety of Amundsen's text: it begins on board Fram in early June 1910 during the vessel's shakedown cruise, and ends in Buenos Aires in March 1912 with Amundsen's recording, with evident satisfaction, his completion of the first part of what would become The South Pole (Amundsen 1912) . This version also includes such extras as a register of the contents of each crate carried on the southern journey, an appendix on modifications made to Fram for its Antarctic voyage (reprinted from The ... Sadly, there is no index.\n\n...\n\n## References\n\nT Bomann-Larsen Roald Amundsen Stroud Sutton 2006 Bomann-Larsen, T. 2006. Roald Amundsen. Stroud: Sutton.\n\nR Huntford The Amundsen photographs London Hodder & Stoughton 1987 Huntford, R. 1987. The Amundsen photographs. London: Hodder & Stoughton.\n\nRace for the South Pole: the expedition diaries of Scott and Amundsen R Huntford 2010 Continuum London Huntford, R. 2010. Race for the South Pole: the expedition diaries of Scott and Amundsen. London: Continuum.\n\nCold recall G Kløver 2009 The Fram Museum Oslo Kløver, G. 2009. Cold recall. Oslo: The Fram Museum."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://osloliteraryagency.no/book/roald-amundsens-south-pole-diaries-1910-1912/",
+              "title": "Roald Amundsen’s South Pole Diaries 1910 – 1912 - Oslo ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "### Roald Amundsens dagbøker – Sydpolekspedisjonen 1910-12 \n\nFrammuseet, 2020\n\n416 pages\n\n### Roald Amundsen’s South Pole Diaries 1910 – 1912\n\n Roald Amundsen\n\n...\n\nOn 14 December 1911, the Norwegian explorer Roald Amundsen (who had already led the first expedition to traverse the North West Passage, and would go on to lead the first successful attempt to cross the Arctic by air) and his team became the first human beings to reach the South Pole, just over a month before Robert Falcon Scott’s ill-fated Terra Nova expedition.\n\nRoald Amundsen’s South Pole Diaries are now available to the public for the first time, more than a hundred years after they were written. The diaries give readers the opportunity to travel back in time to one of the highlights of international polar exploration."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3752,
+    "completion_tokens": 801,
+    "total_tokens": 4553,
+    "cost": 0.007688644,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006956,
+      "upstream_inference_prompt_cost": 0.0003752,
+      "upstream_inference_completions_cost": 0.0003204
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

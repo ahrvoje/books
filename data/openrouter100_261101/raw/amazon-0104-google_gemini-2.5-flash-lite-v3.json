@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:14:04.667Z",
+  "bookId": "shelf-42d37339ba76",
+  "id": "gen-1793571243-DVzdaGYCQMCPGrwYpCDG",
+  "object": "chat.completion",
+  "created": 1793571243,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-42d37339ba76\",\n  \"title\": \"The Political Spectrum\",\n  \"author\": \"Thomas Winslow Hazlett\",\n  \"amazon\": {\n    \"count\": 40,\n    \"stars\": 4.4,\n    \"asin\": \"0300210507\",\n    \"marketplace\": \"amazon.com\",\n    \"url\": \"https://www.amazon.com/Political-Spectrum-Tumultuous-Liberation-Technology/dp/0300210507\",\n    \"evidence\": \"4.4 分的Goodreads. (40).\",\n    \"sourceTitle\": \"The Political Spectrum: The Tumultuous Liberation of Wireless ...\",\n    \"sourceAuthor\": \"Thomas Winslow Hazlett\"\n  },\n  \"pages\": {\n    \"count\": 401,\n    \"editionId\": \"ISBN:9780300210507\",\n    \"editionYear\": null,\n    \"format\": \"Hardcover\",\n    \"language\": \"English\",\n    \"url\": \"https://archive.org/details/politicalspectru0000hazl\",\n    \"evidence\": null,\n    \"sourceTitle\": \"The Political Spectrum: The Tumultuous Liberation of Wireless ...\",\n    \"sourceAuthor\": \"Thomas Winslow Hazlett\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Political-Spectrum-Tumultuous-Liberation-Technology/dp/0300210507\",\n    \"https://www.amazon.com/-/zh_TW/Political-Spectrum-Tumultuous-Liberation-Technology/dp/0300210507\",\n    \"https://www.amazon.com/-/es/Political-Spectrum-Tumultuous-Liberation-Technology/dp/0300210507\",\n    \"https://www.amazon.com/Political-Spectrum-Tumultuous-Liberation-Technology-ebook/dp/B072HHFKL2\",\n    \"https://www.amazon.com/-/zh_TW/Thomas-Winslow-Hazlett-ebook/dp/B072HHFKL2\"\n  ],\n  \"limitations\": \"No specific reference section information was found. The provided search results did not contain information about the reference section of the book.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/zh_TW/Political-Spectrum-Tumultuous-Liberation-Technology/dp/0300210507",
+              "title": "The Political Spectrum: The Tumultuous Liberation of Wireless ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Political Spectrum: The Tumultuous Liberation of Wireless ...\nThomas Winslow Hazlett. The Political Spectrum: The Tumultuous Liberation of Wireless Technology, from Herbert Hoover to the Smartphone. 4.4 分的Goodreads. (40)."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Political-Spectrum-Tumultuous-Liberation-Technology/dp/0300210507",
+              "title": "The Political Spectrum: The Tumultuous Liberation of ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Political Spectrum: The Tumultuous Liberation of ...\nFormer FCC chief economist debunks myths about radio spectrum chaos, revealing how government regulation suppressed innovation and competition in wireless\n\n## \n\nThe Political Spectrum: The Tumultuous Liberation of Wireless ...\nThomas Hazlett was born in Los Angeles, attended UCLA, and became an economist and writer. His work focuses on the evolution and regulation of the\n\n## \n\nThe Political Spectrum: The Tumultuous Liberation of Wireless ...\nThomas Winslow Hazlett, a distinguished scholar in law and economics, debunks the idea that the U.S. government stepped in to impose necessary order."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/es/Political-Spectrum-Tumultuous-Liberation-Technology/dp/0300210507",
+              "title": "The Political Spectrum: The Tumultuous Liberation of Wireless ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Political Spectrum: The Tumultuous Liberation of Wireless ...\nIn this fascinating and entertaining history, Thomas Winslow Hazlett, a distinguished scholar in law and economics, debunks the idea that the U.S. government"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/zh_TW/Thomas-Winslow-Hazlett-ebook/dp/B072HHFKL2",
+              "title": "The Political Spectrum: The Tumultuous Liberation of ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Political Spectrum: The Tumultuous Liberation of ...\nFormer FCC chief economist debunks myths about radio spectrum chaos, revealing how government regulation suppressed innovation and competition in wireless"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Political-Spectrum-Tumultuous-Liberation-Technology-ebook/dp/B072HHFKL2",
+              "title": "The Political Spectrum: The Tumultuous Liberation of ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Political Spectrum: The Tumultuous Liberation of ...\nThomas Winslow Hazlett, a distinguished scholar in law and economics, debunks the idea that the U.S. government stepped in to impose necessary order."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1143,
+    "completion_tokens": 560,
+    "total_tokens": 1703,
+    "cost": 0.005334917,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003383,
+      "upstream_inference_prompt_cost": 0.0001143,
+      "upstream_inference_completions_cost": 0.000224
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

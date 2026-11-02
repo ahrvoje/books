@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793577360-6GYMHV0thbmMXnEw4UzB",
+  "object": "chat.completion",
+  "created": 1793577360,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-48f72c5dc27c:reference:https://www.queenslibrary.org/book/The-Family-Medici-:-the-hidden-history-of-the-Medici-dynasty/944886\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The bibliographical reference range is explicitly stated as pages 452-465.\"\n    },\n    {\n      \"key\": \"shelf-cabc7e6bb24a:reference:https://collection.sl.nsw.gov.au/record/74VKL7mWdPAl\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The bibliographical reference range is explicitly stated as pages 223-243.\"\n    },\n    {\n      \"key\": \"q0313:reference:https://discover.bklynlibrary.org/item?b=12777225\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The bibliographical reference range is explicitly stated as pages 311-368.\"\n    },\n    {\n      \"key\": \"shelf-7fe01a2a2155:reference:https://collection.sl.nsw.gov.au/record/74Vvk7d7e4ll\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The bibliographical reference range is explicitly stated as pages 274-275.\"\n    },\n    {\n      \"key\": \"complete-273-261:reference:https://collection.sl.nsw.gov.au/record/74VKV0Eaj3N3\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The bibliographical reference range is explicitly stated as pages 227-239.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3434,
+    "completion_tokens": 448,
+    "total_tokens": 3882,
+    "cost": 0.0002054646,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020754,
+      "upstream_inference_prompt_cost": 0.0001717,
+      "upstream_inference_completions_cost": 0.00003584
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:56:06.535Z"
+}

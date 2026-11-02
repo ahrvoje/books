@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793573727-OcydvPnAHT3tAxWNQJTw",
+  "object": "chat.completion",
+  "created": 1793573727,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"bg7584acdc24:amazon:https://www.amazon.com/Lindbergh-Scott-Berg/dp/0425170411\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 533 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"complete-440-319:reference:https://link.europarl.europa.eu/resource/2mi4zBMHZHI\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and authors. Bibliographical references explicitly stated as pages 163-[201].\"\n    },\n    {\n      \"key\": \"shelf-276283414797:reference:https://librarycatalog.ecu.edu/catalog/4986051\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Bibliographical references explicitly stated as pages 201-[220].\"\n    },\n    {\n      \"key\": \"naa8f588553:amazon:https://www.amazon.com/How-Minds-Change-People-Without-ebook/dp/B082LQ8471\",\n      \"status\": \"reject\",\n      \"reason\": \"The title includes a subtitle, but the evidence does not include a print page count.\"\n    },\n    {\n      \"key\": \"rem-u1339:amazon:https://www.amazon.com/Professor-Madman-Simon-Winchester/dp/0060175966\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 3,758 global ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3271,
+    "completion_tokens": 412,
+    "total_tokens": 3683,
+    "cost": 0.0001945449,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019651,
+      "upstream_inference_prompt_cost": 0.00016355,
+      "upstream_inference_completions_cost": 0.00003296
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:55:30.143Z"
+}

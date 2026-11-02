@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572077-XGMA6ZH7AjA7FDvZ8ccD",
+  "object": "chat.completion",
+  "created": 1793572077,
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "provider": "Nvidia",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"id\": \"complete-260-260\",\n  \"title\": \"Power to Save the World: The Truth About Nuclear Energy\",\n  \"author\": \"Gwyneth Cravens\",\n  \"amazon\": {\n    \"count\": 1,\n    \"url\": \"https://www.amazon.com/Power-Save-World-Nuclear-Energy/dp/0307385876\",\n    \"asin\": \"0307385876\",\n    \"evidence\": \"[amazon.com](https://www.amazon.com/Power-Save-World-Nuclear-Energy/dp/0307385876)\"\n  },\n  \"reference\": {\n    \"count\": 1,\n    \"url\": \"https://www.amazon.com/Gwyneth-Cravens/e/B001H6G9O2\",\n    \"evidence\": \"[amazon.com](https://www.amazon.com/Gwyneth-Cravens/e/B001H6G9O2)\",\n    \"ranges\": [\n      {\n        \"start\": 1,\n        \"end\": 1,\n        \"label\": \"Amazon Author Page listing\"\n      }\n    ]\n  }\n}",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/zh_TW/Gwyneth-Cravens/dp/B002KAOSLK",
+              "title": "Power to Save the World: The Truth About Nuclear Energy",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Power to Save the World describes the efforts of one determined woman, Gwyneth Cravens, initially a skeptic about nuclear power, as she spends nearly a"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Power-Save-World-Nuclear-Energy/dp/0307385876",
+              "title": "Power to Save the World: The Truth About Nuclear Energy ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Power to Save the World: The Truth About Nuclear Energy (Vintage) [Cravens, Gwyneth, Rhodes, Richard] on Amazon.com. *FREE* shipping on qualifying offers."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Richard-Rhodes-Gwyneth-Cravens-Power/dp/B004SGFR1Y",
+              "title": "by Richard Rhodes,by Gwyneth Cravens Power to Save the ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Power to Save the World is an eloquent, convincing argument for nuclear power as a safe energy source and an essential deterrent to global warming."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Gwyneth-Cravens/s?rh=n%3A283155%2Cp_27%3AGwyneth%2BCravens",
+              "title": "Gwyneth Cravens: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Power to Save the World: The Truth About Nuclear Energy (Vintage) · by Gwyneth Cravens."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Gwyneth-Cravens/e/B001H6G9O2",
+              "title": "Gwyneth Cravens: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Follow Gwyneth Cravens and explore their bibliography from Amazon's Gwyneth Cravens Author Page ... Power to Save the World: The Truth About Nuclear Energy."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 734,
+    "completion_tokens": 265,
+    "total_tokens": 999,
+    "cost": 0.005,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "complete-260-260",
+  "retrieved": "2026-11-01T22:27:56.929Z"
+}

@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:53.244Z",
+  "bookId": "shelf-37ce0a400d89",
+  "id": "gen-1793571233-nSP2vVKuNmrzTSilETHx",
+  "object": "chat.completion",
+  "created": 1793571233,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-37ce0a400d89\",\n  \"title\": \"Excelsior! The Amazing Life of Stan Lee\",\n  \"author\": \"Stan Lee and George Mair\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 256,\n    \"editionId\": \"9780684873053\",\n    \"editionYear\": 2002,\n    \"format\": \"Paperback\",\n    \"language\": \"English\",\n    \"url\": \"https://www.amazon.nl/-/en/Excelsior-Amazing-Life-Stan-Lee/dp/0684873052\",\n    \"evidence\": \"Print length 256 pages\",\n    \"sourceTitle\": \"Excelsior!: The Amazing Life of Stan Lee\",\n    \"sourceAuthor\": \"Stan Lee, George Mair\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.simonandschuster.com/books/Excelsior!/Stan-Lee/9780684873053\",\n    \"https://bookshop.org/p/books/excelsior-the-amazing-life-of-stan-lee-george-mair/ae974c65c7d40644?affiliate=1620&ean=9780684873053\",\n    \"https://www.amazon.com/Excelsior-Amazing-Paperback-Author-George/dp/B00FLHP3FO\",\n    \"https://isfdb.stoecker.eu/cgi-bin/pl.cgi?255554=\",\n    \"https://www.amazon.nl/-/en/Excelsior-Amazing-Life-Stan-Lee/dp/0684873052\"\n  ],\n  \"limitations\": \"The International Standard Book Number (ISBN) 0-684-87305-2 is associated with a page count of 246 in one source, while other sources list 256 pages for ISBN 978-0-684-87305-3. The page count of 256 is more consistently reported across multiple sources.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.simonandschuster.com/books/Excelsior!/Stan-Lee/9780684873053",
+              "title": "Excelsior! | Book by Stan Lee, George Mair | Official Publisher Page | Simon & Schuster",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Excelsior!\n\n## The Amazing Life of Stan Lee\n\nBy Stan Lee and George Mair\n\nTrade Paperback\n\nTrade Paperback\n\nLIST PRICE $17.99\n\n...\n\nExcelsior!\n\nCopyright © 2002 by Stan Lee and George Mair\n\n## About the Authors\n\n...\n\n## Product Details\n\n- Publisher: Atria Books (May 7, 2002)\n- Length: 256 pages\n- ISBN13: 9780684873053\n\n...\n\n```json\n{\"@context\":\"http://schema.org\",\"@type\":\"Book\",\"bookEdition\":null,\"bookFormat\":\"http://schema.org/Paperback\",\"isbn\":\"9780684873053\",\"name\":\"Excelsior!\",\"numberOfPages\":256,\"alternativeHeadline\":\"The Amazing Life of Stan Lee\",\"audience\":{\"@type\":\"PeopleAudience\"},\"author\":\"https://www.simonandschuster.com/authors/Stan-Lee/1716252\",\"award\":\"\",\"dateCreated\":\"2002-05-07\",\"datePublished\":\"2002-05-07\",\"genre\":null,\"headline\":\"Excelsior!\",\"keywords\":\"Non-Fiction\",\"publisher\":\"Simon \\u0026 Schuster\",\"publisherImprint\":\"Atria Books\",\"thumbnailURL\":\" ... ://d2 ... if. ... / ... 73 ... / ... elsior"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://bookshop.org/p/books/excelsior-the-amazing-life-of-stan-lee-george-mair/ae974c65c7d40644?affiliate=1620&ean=9780684873053",
+              "title": "Excelsior! a book by Stan Lee and George Mair - Bookshop.org US",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Excelsior!\n\nThe Amazing Life of Stan Lee\n\n,\n\nPaperback\n\n...\n\nProduct Details\n\n| Publisher | Atria Books |\n| --- | --- |\n| Publish Date | May 07, 2002 |\n| Pages | 256 |\n| Language | English |\n| Type | Paperback |\n| EAN/UPC | 9780684873053 |\n| Dimensions | 233.7 X 156.0 X 20.3 mm | 308.4 g |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Excelsior-Amazing-Paperback-Author-George/dp/B00FLHP3FO",
+              "title": "Excelsior! : The Amazing Life of Stan Lee [Paperback] [2002] (Author) Stan Lee, George Mair",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Excelsior! : The Amazing Life of Stan Lee [Paperback] [2002] (Author) Stan Lee, George Mair\n\n## Specifications\nPublisher: Touchstone; Publication date: May 22, 2002; Language: English\n\n## Pricing & Reviews\nRated 4.8 from 313 reviews.\n\nASIN: B00FLHP3FO"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://isfdb.stoecker.eu/cgi-bin/pl.cgi?255554=",
+              "title": "Publication: Excelsior!: The Amazing Life of Stan Lee",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## Publication: Excelsior!: The Amazing Life of Stan Lee\n\n- Publication: Excelsior!: The Amazing Life of Stan Lee Publication Record # 255554\n- Authors: Stan Lee, George Mair\n- Date: 2002-05-00 \n- ISBN: 0-684-87305-2 [978-0-684-87305-3] \n- Publisher: Fireside Books / Simon & Schuster\n- Price:\n\n$14.00? $: US dollar. ISO code: USD\n- Pages: 246 \n- Format:\n\ntp? Trade paperback. Any softcover book which is at least 7.25\" (or 19 cm) tall, or at least 4.5\" (11.5 cm) wide/deep.\n- Type: NONFICTION"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.nl/-/en/Excelsior-Amazing-Life-Stan-Lee/dp/0684873052",
+              "title": "Excelsior!: The Amazing Life of Stan Lee : Lee, Stan, Mair, George: Amazon.nl: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Excelsior!: The Amazing Life of Stan Lee \n\n English edition by Stan Lee (Author), George Mair (Author) Format: Paperback\n\n...\n\n1. Print length 256 pages \n2. Language English \n3. Publisher Simon & Schuster \n4. Publication date 7 May 2002 \n5. Dimensions 15.54 x 1.47 x 23.5 cm \n6. ISBN-10 0684873052 \n7. ISBN-13 978-0684873053\n\n...\n\n- Publisher ‏ : ‎ Simon & Schuster \n- Publication date ‏ : ‎ 7 May 2002 \n- Edition ‏ : ‎ Original ed. \n- Language ‏ : ‎ English \n- Print length ‏ : ‎ 256 pages \n- ISBN-10 ‏ : ‎ 0684873052 \n- ISBN-13 ‏ : ‎ 978-0684873053"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1826,
+    "completion_tokens": 528,
+    "total_tokens": 2354,
+    "cost": 0.007389862,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003938,
+      "upstream_inference_prompt_cost": 0.0001826,
+      "upstream_inference_completions_cost": 0.0002112
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

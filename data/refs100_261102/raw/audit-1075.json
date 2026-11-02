@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793577657-trMk4HSvNsXQxQdkbtVg",
+  "object": "chat.completion",
+  "created": 1793577657,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g1138:reference:https://catalog.freelibrary.org/Record/2507703\",\n      \"status\": \"supported\",\n      \"reason\": \"The sourceTitle and sourceText match the book and author. The evidence is a bibliographical range.\"\n    },\n    {\n      \"key\": \"rest-71-63:reference:https://collection.sl.nsw.gov.au/record/74VKLvkdXX43\",\n      \"status\": \"supported\",\n      \"reason\": \"The sourceTitle and sourceText match the book and author. The evidence is a bibliographical range.\"\n    },\n    {\n      \"key\": \"shelf-63469286b532:reference:https://wellcomecollection.org/works/k727zuk3\",\n      \"status\": \"supported\",\n      \"reason\": \"The sourceTitle and sourceText match the book and author. The evidence is a bibliographical range.\"\n    },\n    {\n      \"key\": \"rest-132-109:reference:https://rtrl.nsw.gov.au/cgi-bin/spydus.exe/ENQ/OPAC/BIBENQ?BRN=516843&SETLVL\",\n      \"status\": \"supported\",\n      \"reason\": \"The sourceTitle and sourceText match the book and author. The evidence is a bibliographical range.\"\n    },\n    {\n      \"key\": \"rest-72-65:reference:https://muse.jhu.edu/book/131315\",\n      \"status\": \"supported\",\n      \"reason\": \"The sourceTitle and sourceText match the book and author. The evidence is a bibliographical range.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3208,
+    "completion_tokens": 392,
+    "total_tokens": 3600,
+    "cost": 0.0001898424,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019176,
+      "upstream_inference_prompt_cost": 0.0001604,
+      "upstream_inference_completions_cost": 0.00003136
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-02T00:01:02.810Z"
+}

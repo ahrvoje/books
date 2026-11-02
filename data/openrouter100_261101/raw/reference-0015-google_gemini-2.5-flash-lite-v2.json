@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:11:32.532Z",
+  "bookId": "g0363",
+  "id": "gen-1793571087-ZFCITZ0BxYn4Jg60dV8w",
+  "object": "chat.completion",
+  "created": 1793571087,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"g0363\",\n  \"title\": \"Zero to One\",\n  \"author\": \"Peter Thiel; Blake Masters\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 210,\n    \"editionId\": null,\n    \"editionYear\": 2014,\n    \"format\": \"Book\",\n    \"language\": \"English\",\n    \"url\": \"https://www.w-ilmu.intan.my/neuseal/Record/0000071728/Description\",\n    \"evidence\": \"[w-ilmu.intan.my](https://www.w-ilmu.intan.my/neuseal/Record/0000071728/Description)\",\n    \"sourceTitle\": \"ZERO TO ONE / :: Library Catalog\",\n    \"sourceAuthor\": \"Thiel, Peter (Author)\"\n  },\n  \"reference\": {\n    \"count\": 1,\n    \"editionId\": null,\n    \"editionYear\": 2014,\n    \"url\": \"https://www.w-ilmu.intan.my/neuseal/Record/0000071728/Description\",\n    \"evidence\": \"Includes bibliographical references\",\n    \"sourceTitle\": \"ZERO TO ONE / :: Library Catalog\",\n    \"sourceAuthor\": \"Thiel, Peter (Author)\",\n    \"ranges\": [],\n    \"method\": \"The library catalog explicitly states 'Includes bibliographical references'. However, the specific page range for the references is not provided.\",\n    \"limitation\": \"The exact page range for the bibliographical references is not available in the provided search results.\"\n  },\n  \"searchedUrls\": [\n    \"https://www.w-ilmu.intan.my/neuseal/Record/0000071728/Description\",\n    \"https://www.w-ilmu.intan.my/neuseal/Record/0000071728/Details\",\n    \"https://www.amazon.ca/Zero-One-Notes-Startups-Future/dp/0804139296\",\n    \"https://www.amazon.com/Zero-One-Notes-Start-Future-ebook/dp/B00KHX0II4\",\n    \"https://uat-lib.bu.ac.th/cgi-bin/koha/opac-detail.pl?biblionumber=213355&shelfbrowse_itemnumber=481459\"\n  ],\n  \"limitations\": \"The exact page range for the bibliographical references is not available in the provided search results. Some sources mention 'Includes bibliographical references' but do not specify the page numbers.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.w-ilmu.intan.my/neuseal/Record/0000071728/Description",
+              "title": "Description: ZERO TO ONE / :: Library Catalog",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Description: ZERO TO ONE / :: Library Catalog\n\n \n\n# ZERO TO ONE / \n\nBibliographic Details\n\n| Main Author: | Thiel, Peter (Author) |\n| --- | --- |\n| Other Authors: | Masters, Blake( 1986-) |\n| Format: | Book |\n| Language: | English |\n| Published: | London Virgin Books 2014 |\n| Subjects: | New products Diffusion of innovations Entrepreneurship New business enterprises |\n\nDescription\n\n| Item Description: | Includes index |\n| --- | --- |\n| Physical Description: | 210 pages: illustrations; 20cm. |\n| Bibliography: | Includes bibliographical references |\n| ISBN: | 9780753555200 |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.w-ilmu.intan.my/neuseal/Record/0000071728/Details",
+              "title": "Staff View: ZERO TO ONE / :: Library Catalog",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Staff View: ZERO TO ONE / :: Library Catalog\n\n \n\n# ZERO TO ONE / \n\nBibliographic Details\n\n| Main Author: | Thiel, Peter (Author) |\n| --- | --- |\n| Other Authors: | Masters, Blake( 1986-) |\n| Format: | Book |\n| Language: | English |\n| Published: | London Virgin Books 2014 |\n| Subjects: | New products Diffusion of innovations Entrepreneurship New business enterprises |\n\n| LEADER | 00985cam a2200349 7i4500 | | |\n| --- | --- | --- | --- |\n| 001 | 0000071728 | | |\n| 005 | 20240718090000.0 | | |\n| 008 | 240718t2014 xxka e # 1 eng#d | | |\n| 020 | # | # | |a 9780753555200 |\n| 040 | # | # | |a BK |\n| 041 | 0 | # | |a eng |\n| 082 | 0 | # | |a 658.11 |\n| 090 | 0 | # | |a 658.11 |b THI |\n| 100 | 1 | # | |a Thiel, Peter |e author |\n| 245 | 1 | 0 | |a ZERO TO ONE / |c Peter Thiel, Blake Masters. |\n| 264 | # | 4 | |c ♭2014 |\n| 264 | # | 1 | |a London |b Virgin Books |c 2014 |\n| 300 | # | # | |a 210 pages: |b illustrations; |c 20cm. |\n| 336 | # | # | |a text |2 rdacontent |\n| 337 | # | # | |a unmediated |2 rdamedia |\n| 338 | # | # | |a volume |2 rdacarrier |\n| 500 | # | # | |a Includes index |\n| 504 | # | # | |a Includes bibliographical references |\n| 599 | # | # | |a LULUS |\n| 650 | 2 | 0 | |a New products |\n| 650 | 2 | 0 | |a Diffusion of innovations |\n| 650 | 2 | 0 | |a Entrepreneurship |\n| 650 | 1 | 0 | |a New business enterprises |\n| 700 | 1 | # | |a Masters, Blake( |d 1986-) |\n| 997 | # | # | |a BK |\n| 998 | # | # | |a 1000072333 |\n| 999 | | | |a 1000072333 |b BOOK |c Main Non-Fiction |e INTAN Bukit Kiara |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.ca/Zero-One-Notes-Startups-Future/dp/0804139296",
+              "title": "Zero to One: Notes on Startups, or How to Build the Future",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Zero to One: Notes on Startups, or How to Build the Future \n\n by Peter Thiel (Author), Blake Masters (Author) Format: Hardcover\n\n...\n\n1. Print length 224 pages \n2. Language English \n3. Publisher Crown Currency \n4. Publication date Sept. 16 2014 \n5. Dimensions 14.4 x 2.39 x 21.69 cm \n6. ISBN-10 9780804139298 \n7. ISBN-13 978-0804139298"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Zero-One-Notes-Start-Future-ebook/dp/B00KHX0II4",
+              "title": "Zero to One: Notes on Start Ups, or How to Build the Future",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Zero to One: Notes on Start Ups, or How to Build the Future \n\n by Blake Masters (Author), Peter Thiel (Author) Format: Kindle Edition\n\n...\n\n1. Print length 207 pages \n2. Language English \n3. Publisher Virgin Digital \n4. Accessibility Learn more \n5. Publication date September 18, 2014 \n6. File size 3.3 MB\n\n...\n\n## Product details\n\n- ASIN ‏ : ‎ B00KHX0II4 \n- Publisher ‏ : ‎ Virgin Digital \n- Accessibility ‏ : ‎ Learn more \n- Publication date ‏ : ‎ September 18, 2014 \n- Edition ‏ : ‎ 1st \n- Language ‏ : ‎ English \n- File size ‏ : ‎ 3.3 MB\n\n...\n\n- Word Wise ‏ : ‎ Enabled \n- Print length ‏ : ‎ 207 pages \n- ISBN-13 ‏ : ‎ 978-0753550304"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://uat-lib.bu.ac.th/cgi-bin/koha/opac-detail.pl?biblionumber=213355&shelfbrowse_itemnumber=481459",
+              "title": "Log in to your account",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Details for: The unofficial guide to starting a small business / › BU Library and Learning Space catalog Skip to main content\n\nLibrary catalog Title Author Subject ISBN ISSN Series Call number\n\n...\n\n# The unofficial guide to starting a small business / Marcia Layton Turner\n\nMaterial type: TextPublication details: Hoboken, N.J. : Wiley, c2004 Edition: 2nd edDescription: 412 p. : illISBN:\n\n- 0764572857\n\nSubject(s):\n\n- SMALL BUSINESS -- MANAGEMENT\n- NEW BUSINESS ENTERPRISES -- MANAGEMENT\n\nLOC classification:\n\n- HD62.5 T876U 2004\n\nFound in Open Library:\n\n...\n\n| Item type | Home library | Collection | Shelving location | Call number | Status | Barcode |\n| --- | --- | --- | --- | --- | --- | --- |\n| Books | BU Library and Learning Space | Books | Book Shelves | HD62.5 T876U 2004 (Browse shelf) | Available | 200505180038 |\n\nTotal holds: 0\n\n##### Browsing BU Library and Learning Space shelves Close shelf browser\n\nPrevious\n\nNext\n\n| HD62.5 T443Z 2015 Zero to one : notes on startups, or how to build the future / | HD62.5 T555N 1999 New venture creation : entrepreneurship for the 21st century / | HD62.5 T555N 2007 New venture creation : entrepreneurship for the 21st century / | HD62.5 T876U 2004 The unofficial guide to starting a small business / | HD62.5 W376M Mind your own business : a guide for the information entrepreneur / | HD62.57 ล796สสร้างกิจการให้ตัวเอง = Starting your own business : the good the bad and the unexpected / | HD62.6 A444S 2005 Strategic planning for nonprofit organizations : a practical guide and workbook / |\n| --- | --- | --- | --- | --- | --- | --- |\n\nIncludes bibliographical references and index"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2591,
+    "completion_tokens": 644,
+    "total_tokens": 3235,
+    "cost": 0.007511533,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005167,
+      "upstream_inference_prompt_cost": 0.0002591,
+      "upstream_inference_completions_cost": 0.0002576
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

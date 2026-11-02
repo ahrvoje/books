@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574486-raOLEwWtxA2MB2ngoyQ4",
+  "object": "chat.completion",
+  "created": 1793574486,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u1135:amazon:https://www.amazon.com/Janesville-American-Story-Amy-Goldstein/dp/1501102230\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. Evidence of 1,144 global ratings is numeric and explicit.\"\n    },\n    {\n      \"key\": \"n5c1dae56c5:amazon:https://www.amazon.com/Spook-Science-Afterlife-Mary-Roach/dp/0393329127\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. Evidence of 1,501 global ratings is numeric and explicit.\"\n    },\n    {\n      \"key\": \"q0529:reference:https://link.europarl.europa.eu/resource/WNU_40d5o_Q\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. Bibliographical references are explicitly stated as pages 311-319.\"\n    },\n    {\n      \"key\": \"shelf-bceb44f5b4f2:amazon:https://www.amazon.com/Russo-Ukrainian-War-Return-History/dp/1324078928\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. Evidence of 663 global ratings is numeric and explicit.\"\n    },\n    {\n      \"key\": \"progress-0676:amazon:https://www.amazon.com/Gates-Europe-History-Ukraine/dp/0465094864\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. Evidence of 2,527 global ratings is numeric and explicit.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3265,
+    "completion_tokens": 429,
+    "total_tokens": 3694,
+    "cost": 0.0001955943,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019757,
+      "upstream_inference_prompt_cost": 0.00016325,
+      "upstream_inference_completions_cost": 0.00003432
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:08:08.306Z"
+}

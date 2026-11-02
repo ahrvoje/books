@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:12:57.277Z",
+  "bookId": "shelf-8d715a5bb73d",
+  "id": "gen-1793571175-meRPBnk1dcCbwMc66AwD",
+  "object": "chat.completion",
+  "created": 1793571175,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-8d715a5bb73d\",\n  \"title\": \"Rolls-Royce: The Magic of a Name: The First Forty Years of Britain s Most Prestigious Company\",\n  \"author\": \"Peter Pugh\",\n  \"knownEdition\": {\n    \"id\": \"OL28572374M\",\n    \"url\": \"https://openlibrary.org/books/OL28572374M\"\n  },\n  \"purchaseUrl\": \"https://www.amazon.de/s?k=Rolls-Royce%3A%20The%20Magic%20of%20a%20Name%3A%20The%20First%20Forty%20Years%20of%20Britain%20s%20Most%20Prestigious%20Company%20Peter%20Pugh%20paperback\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 320,\n    \"editionId\": \"OL28572374M\",\n    \"editionYear\": null,\n    \"format\": \"Hardback\",\n    \"language\": \"English\",\n    \"url\": \"https://www.waterstones.com/book/9781840461510\",\n    \"evidence\": \"Hardback 320 Pages Published: 01/04/2000\",\n    \"sourceTitle\": \"The Magic of a Name: The Rolls-Royce Story, Part 1: The First Forty Years (Hardback)\",\n    \"sourceAuthor\": \"Peter Pugh\"\n  },\n  \"reference\": {\n    \"count\": 5,\n    \"editionId\": null,\n    \"editionYear\": null,\n    \"url\": \"https://archive.org/details/magicofnamerolls0000pugh\",\n    \"evidence\": \"Includes bibliographical references (pages 325-329)\",\n    \"sourceTitle\": \"The magic of a name : the Rolls-Royce story, the first 40 years\",\n    \"sourceAuthor\": \"Pugh, Peter, 1943-\",\n    \"ranges\": [\n      {\n        \"start\": 325,\n        \"end\": 329,\n        \"label\": \"bibliographical references\",\n        \"evidence\": \"Includes bibliographical references (pages 325-329)\"\n      }\n    ],\n    \"method\": \"explicitly catalogued\",\n    \"limitation\": \"The page range for bibliographical references was found on the Internet Archive entry for the book. The specific edition associated with this page count is not explicitly stated, but it is implied to be the 2000 edition.\"\n  },\n  \"searchedUrls\": [\n    \"https://archive.org/details/magicofnamerolls0000pugh\",\n    \"https://www.akademika.no/humaniora/historie/rolls-royce-magic-name/9781840461510\",\n    \"https://biblio.co.nz/9781840461510\",\n    \"https://www.waterstones.com/book/9781840461510\",\n    \"https://speedreaders.info/3642-the-magic-of-a-name-pugh/\"\n  ],\n  \"limitations\": \"The `knownEdition` from the prompt (OL28572374M) has a page count of 320, while other sources list 340 or 352 pages for different editions. The reference page range (325-329) is from an edition with 340 pages, which contradicts the 320-page count from the `knownEdition` and the Waterstones listing. The specific edition for the reference page count is not definitively linked to the `knownEdition` or the 320-page count.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/magicofnamerolls0000pugh",
+              "title": "The magic of a name : the Rolls-Royce story, the first 40 years : Pugh, Peter, 1943- : Free Download, Borrow, and Streaming : Internet Archive",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "* [Volunteer](https://archive.org/about/volunteer-positions)\n\n# The magic of a name : the Rolls-Royce story, the first 40 years\n\n## Bookreader Item Preview\n\nremove-circle\n\n...\n\n# The magic of a name : the Rolls-Royce story, the first 40 years\n\nby\n    [Pugh, Peter, 1943-](https://archive.org/search.php?query=creator%3A%22Pugh%2C+Peter%2C+1943-%22)\n\nPublication date\n    [2000](https://archive.org/search.php?query=date:2000)\nTopics\n    [Royce, Henry, Sir, 1863-1933](https://archive.org/search.php?query=subject%3A%22Royce%2C+Henry%2C+Sir%2C+1863-1933%22) , [Rolls, Charles Stewart, 1877-1910](https://archive.org/search.php?query=subject%3A%22Rolls%2C+Charles+Stewart%2C+1877-1910%22) , [Rolls-Royce Ltd. -- History](https://archive.org/search.php?query=subject%3A%22Rolls-Royce+Ltd.+--+History%22) , [Rolls-Royce Ltd](https://archive.org/search.php?query=subject%3A%22Rolls-Royce+Ltd%22)\nPublisher\n\n...\n\n[inlibrary](https://archive.org/details/inlibrary) ; [printdisabled](https://archive.org/details/printdisabled)\nContributor\n    [Internet Archive](https://archive.org/details/internetarchivebooks)\n\n...\n\nItem Size\n    1\\.3G\n\nxii, 340 pages, [108] pages of plates : 25 cm  \n  \nIncludes bibliographical references (pages 325-329) and index\n\nAccess-restricted-item\n    true\nAddeddate\n    2022-03-17 12:15:12\nBookplateleaf\n    0004\nBoxid\n    IA40403922\nCamera\n    USB PTP Class Camera\nCollection\\_set\n    printdisabled\nExternal-identifier"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.akademika.no/humaniora/historie/rolls-royce-magic-name/9781848319240",
+              "title": "Rolls-Royce: The Magic of a Name - The First Forty Years of Britain’s Most Prestigious Company, 1904-1944 by Peter Pugh (9781848319240) | Akademika Bokhandel",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "description: The Magic of a Name tells the story of the first forty years of Britain's most prestigious manufacturer - Rolls-Royce.Beginning with the historic meeting in 1904 of Henry Royce and C\n\n...\n\n* 📚 Bli med på Boktober – finn boka du vil lese her!\n/\n* \n\nRolls-Royce: The Magic of a Name The First Forty Years of Britain’s Most Prestigious Company, 1904-1944\n\nPugh, Peter\nHeftet / 2015 / Engelsk\n\nProduktdetaljer\n\nISBN\n9781848319240\nPublisert\n2015-10-01\nUtgiver\nIcon Books\nVekt\n281 gr\nHøyde\n198 mm\nBredde\n129 mm\nDybde\n21 mm\nAldersnivå\nG, 01\nSpråk\nProduct language\nEngelsk\nFormat\nProduct format\nHeftet\nAntall sider\n352\nForfatter\nPugh, Peter\n\nBiografisk notat\n\nPeter Pugh was educated at Oundle and Cambridge, where he read History. He has written more than 50 official histories, including The Magic of a Name, a three-volume history of Rolls-Royce.\n\n...\n\nmerknad\n* Salgsfremmende overskrift\nThe Magic of a Name tells the story of the first forty years of Britain's most prestigious manufacturer - Rolls-Royce.\nBeginning with the historic meeting in 1904 of Henry Royce and C.S. Rolls, and the birth in 1906 of the legendary Silver Ghost, Peter Pugh tells a story of genius, skill and dedication that gave the world cars and aeroengines unrivalled in their excellence.\nIn 1915, 100 years ago, Royce produced the first of many aero engines, the Eagle, which proved itself in battle in the First World War."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://biblio.co.nz/9781840461510",
+              "title": "The Magic of a Name: The Rolls-Royce Story, the First 40 Years\n\t\t\t\t\tby Peter Pugh | \n\t\t\t\t\t\t\tHardback | \n\t\t\t\t\t\t\tSeptember 25, 2000 | \n\t\t\t\t\t\t\tTotem Books  | \n\t\t\t\t\t\t\t9781840461510 \n\t\t\t - Biblio NZ",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Home The Magic of a Name: The Rolls-Royce Story, the First 40 Years by Peter Pugh (ISBN: 9781840461510)\nThe Magic of a Name: The Rolls-Royce Story, the First 40 Years\nStock photo: cover may vary\n\nThe Magic of a Name: The Rolls-Royce Story, the First 40 Years Hardback - 2000\n\nby Peter Pugh\n\nAdd to wish list\nBrowse more copies for sale ↓\n\n...\n\n/shipping information\n\nFrom the publisher\n\nThis volume tells the story of the first 40 years of Britain's most prestigious manufacturer - Rolls-Royce -a company whose record of achievements is part of the history of the 20th century.\n\nDetails\n\n* Title The Magic of a Name: The Rolls-Royce Story, the First 40 Years\n* Author Peter Pugh\n* Binding Hardback\n* Edition First Edition\n* Pages 340\n* Volumes 1\n* Language ENG\n\n...\n\n19 x 3.18 cm)\n* Category Transportation\n* Library of Congress Catalogue Number 99076897\n* Dewey Decimal Code 629.2\nBack to top ↑\n\nMore Copies for Sale\n\nShow all copies\nThe Magic of a Name: The Rolls-Royce Story, Part 1: The First Forty Years\n\nThe Magic of a Name: The Rolls-Royce Story, Part 1: The First Forty Years\n\nby Pugh, Peter\n\n* Used\n* Very good\n* Hardback\nCondition Very good Binding Hardcover ISBN 10 / ISBN 13 1840461519 / 9781840461510 Quantity available 8 Seller World of Books Ltd Item price NZ$5.20\nNZ$20.44 Delivery to USA\n\nShow details\n\n...\n\nem price\nNZ$5.20\nNZ$20.44 Delivery to USA\nThe Magic of a Name, The Rolls-Royce Story, Part One: The First Forty Years Stock photo: cover may vary"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.waterstones.com/book/9781840461510",
+              "title": "The Magic of a Name: The Rolls-Royce Story, Part 1 by Peter Pugh | Waterstones",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Manufacturing Industries\nThe Magic of a Name: The Rolls-Royce Story, Part 1: The First Forty Years (Hardback)\n* The Magic of a Name: The Rolls-Royce Story, Part 1: The First Forty Years (Hardback)\nzoom\n\nThe Magic of a Name: The Rolls-Royce Story, Part 1: The First Forty Years (Hardback)\n\nPeter Pugh (author)\nSign in to write a review\nPrice: £30.00\nHardback 320 Pages Published: 01/04/2000\n\n...\n\nThe Magic of a Name: The Rolls-Royce Story, Part 1: The First Forty Years (Hardback)\n£30.00\nNo\n\n...\n\nThe Magic of a Name tells the story of the first 40 years of Britain’s most prestigious manufacturer - Rolls-Royce.\nBeginning with the historic meeting in 1904 of Henry Royce and the Honourable C.S. Rolls, and the birth in 1906 of the legendary Silver Ghost, Peter Pugh tells a story of genius, skill, hard work and dedication which gave the world cars and aero engines unrivalled in their excellence.\nIn 1915, 100 years ago, the pair produced their first aero engine, the Eagle which along with the Hawk, Falcon and Condor proved themselves in battle in the First World War. In the Second the totemic Merlin was installed in the Spitfire and built in a race against time in 1940 to help win the Battle of Britain.\nWith unrivalled access to the company’s archives, Peter Pugh’s history is a unique portrait of both an iconic name and of British industry at its best.\n\nPublisher information\n\nPublisher: Icon Books ISBN: 9781840461510 Number of pages: 320"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://speedreaders.info/3642-the-magic-of-a-name-pugh/",
+              "title": " » The Magic of a Name: The Rolls-Royce Story, Part 1: The First Forty Years",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The Magic of a Name: The Rolls-Royce Story, Part 1: The First Forty Years\n\n_by Peter Pugh_\n\nIf you associate the name “Harold Nockolds” with a book of this title, you are making the right connections but this is not a re-edition of Nockolds’ 1938 classic that covered the first 34 years of Rolls-Royce history. Even his third and final edition published in 1972 did not deal at length with the firm’s history after 1950 and deferred further discussion until a future edition—that never materialized.\n\n...\n\nVolume I, the one reviewed here, breaks off around 1945, the dawn of the [turbine](https://speedreaders.info/3716-rolls-royce-hillington) engine, just after the Gloster Meteor and its R-R Welland engine make an appearance.\n\nIt should be said first of all that this is not a book about cars. It is a corporate history and mentions Rolls-Royce product only inasmuch as it helps tell that story.\n\n...\n\nPugh, it should be noted, is not a specialist Rolls-Royce scholar but read History at Cambridge, has some 30 business books to his credit, and is Managing Director of Icon Books. He wrote this book at the behest of Rolls-Royce’s chairman at the time, Sir Ralph Robins. The book contains “hitherto unpublished photos,” largely from the holdings of the Rolls-Royce Heritage Trust.\n\n...\n\n[Icon Books](http://www.iconbooks.co.uk/) (UK) or Totem Books (USA), 2000  \n340 pages, 142 b/w photos, hardcover  \nList Price: $50  \nISBN 1-84046-151-9"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3268,
+    "completion_tokens": 927,
+    "total_tokens": 4195,
+    "cost": 0.005690624,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006976,
+      "upstream_inference_prompt_cost": 0.0003268,
+      "upstream_inference_completions_cost": 0.0003708
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

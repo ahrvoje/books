@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793572735-def13uodGRgBDip0S7uZ",
+  "object": "chat.completion",
+  "created": 1793572735,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"q0206:reference:https://catalog.ocls.org/Record/.b23548721\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages [265]-270.\"\n    },\n    {\n      \"key\": \"q0429:reference:https://metro-prod.groveforlibraries.com/Record/CARL0000972546\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 273-313.\"\n    },\n    {\n      \"key\": \"rest-126-106:reference:https://archive.org/details/pursuitofgloryeu0000blan\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 678-688.\"\n    },\n    {\n      \"key\": \"g0667:amazon:https://www.amazon.com/Order-Time-Carlo-Rovelli/dp/073521610X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as 5,822 global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1206:amazon:https://www.amazon.com/Dark-Pools-Machine-Traders-Rigging/dp/0307887189\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as 1,306 ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3277,
+    "completion_tokens": 406,
+    "total_tokens": 3683,
+    "cost": 0.0001943667,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019633,
+      "upstream_inference_prompt_cost": 0.00016385,
+      "upstream_inference_completions_cost": 0.00003248
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:38:58.672Z"
+}

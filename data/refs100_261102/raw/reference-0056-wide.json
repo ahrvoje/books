@@ -1,0 +1,152 @@
+{
+  "id": "gen-1793577204-h9aJX38kFUXRJznbMPDf",
+  "object": "chat.completion",
+  "created": 1793577204,
+  "model": "mistralai/mistral-nemo",
+  "provider": "Io Net",
+  "system_fingerprint": "vllm-0.25.1-95d19908",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "Based",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www2.math.upenn.edu/~kirillov",
+              "title": "Alexandre Kirillov - Penn Math - University of Pennsylvania",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "My photo\n\nAlexandre Kirillov\n\n* Department of Mathematics\n* 209 South 33rd Street\n* University of Pennsylvania\n* Philadelphia, PA 19104-6395 | Email: kirillov@math.upenn.edu\n* Office: 3E1 DRL\n* Phone: (215)898-8466\n* Office hours: by appointment\n\nResearch\n\nRecent books: Lectures on Orbit Method (AMS, 2004) A Tale of Two Fractals (Russian edition: MCCME, Moscow, 2009; English edition: Birkhäuser; 2013) Full list of publications (requires subscription to MathSciNet)\n\nClasses\n\nSpring 2014 semester:\n\n* MATH509 , Advanced Analysis\n* MATH371 , Abstract Algebra\n\nFall 2013 semester:\n\n* MATH508 , Advanced Analysis\n* MATH480/550 , Topics in Math (a problem solving course)\n\nFall 2009 semester:\n\n* Math502: Abstract Algebra\n* Math480/550: Topics in Math (Theory of Fractals)\n\nFall 2008 semester:\n\nMATH370: Course in Algebra\n* Introduction and Problems\n* Algebra Zoo\n\nSpring 2008 semester:\n\nMATH480/550: Topics in modern mathematics: What are numbers? PDF file of my book What are numbers? (abridged translation from Russian)\n* Part I\n* Part II\n\nFall 2007 semester:\n\nMATH548: Spectral Theorem\n* Lecture 1 , FUNCTIONS OF AN OPERATOR ARGUMENT\n* Lecture 2 , OPERATORS IN HILBERT SPACE\nMATH480: Analysis and geometry of fractals Draft version of my book A tale of two fractals .\n\nSpring 2007 semester:\n\nMATH561:\n* Lecture 1 , Representations of Coxeter Groups"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www2.math.upenn.edu/~kirillov/MATH480-F07/tf.pdf",
+              "title": "A tale of two fractals A. A. Kirillov - Penn Math",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Action of the group G and Apollonian gaskets 118 8.2. Action of the group Γ4 on a Apollonian gasket 122\nChapter 9. Many-dimensional Apollonian gaskets 127 9.1. General approach 127 9.2. 3-dimensional Apollonian gasket 130\nBibliography 133 A. Popular books, lectures and surveys 133 B. Books 133 C. Research papers 133 D. Web sites 134\nINTRODUCTION 5\nIntroduction\nThe proposed book is devoted to a phenomenon of fractal sets, or simply fractals .\n\n...\n\n• Elements of Arithmetic: primes, relatively prime numbers, gcd (greatest common divisor), rational numbers, algebraic numbers. • Elements of Group Theory: subgroups, homogeneous spaces, cosets, matrix groups.\n\n...\n\nIn other words, we put 0 instead of every even number and 1 instead of every odd\n9\n10 1. DEFINITION AND GENERAL PROPERTIES\nnumber. We get the following picture\n\n...\n\nObserve that this triangle of size 8 contains 3 identical triangles of size 4 (left, upper and right); each of these triangles contains 3 identical triangles of size 2 which consist of 3 one’s.\n\n...\n\nnue our triangle up to 2 N lines for some big number N . If we contract the triangle to the size of a book page and replace 1’s by black dots and 0’s by white dots, we get a picture like this:\n\n...\n\nDefinition A.6. A map f from a metric space ( M, d ) to itself is called contracting if there is a real number λ ∈ (0 , 1) such that\n(A.5) d  f ( x ) , f ( y )  ≤ λ · d ( x, y ) for all x, y ∈ M.\n\n...\n\nFix a real number α ∈"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.ams.org/books/gsm/174/gsm174-endmatter.pdf",
+              "title": "Quiver Representations and Quiver Varieties",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "https://doi.org/10.1090//gsm/174\n\nQuiver Representations and Quiver Varieties\n\nAlexander Kirillov Jr.\n\nAmerican Mathematical Society Providence, Rhode Island\n\nGRADUATE STUDIES\n\nIN MATHEMATICS 174\n\n...\n\nPrimary 16G20; Secondary 14C05, 14D21, 16G60, 16G70, 17B10, 17B22, 17B67.\nFor additional information and updates on this book, visit www.ams.org/bookpages/gsm-174\nLibrary of Congress Cataloging-in-Publication Data Names: Kirillov, Alexander A., 1967- Title: Quiver representations and quiver varieties / Alexander Kirillov, Jr. Description: Providence, Rhode Island : American Mathematical Society, [2016] | Series: Grad- uate studies in mathematics : volume 174 | Includes biblio\n\n...\n\nIndividual readers of this publication, and nonprofit libraries acting for them, are permitted to make fair use of the material, such as to copy select pages for use in teaching or research.\n\n...\n\nVisit the AMS home page at http://www.ams.org/\n10 9 8 7 6 5 4 3 2 1 21 20 19 18 17 16\nTo my children: Vanya, Elena, and Andrew\n\nContents\n\nPreface xi\nPart 1. Dynkin Quivers\nChapter 1. Basic Theory 3\n\n...\n\nThe material presented in the book is taken from a number of papers and books (some small parts are new).\n\n...\n\nversion of this book and my son Andrew Kirillov for his help with proofreading.\n\nBibliography\n\n[AM1978] R. Abraham and J. E. Marsden, Foundations of mechanics , Benjamin/Cummings Publishing Co., Inc., Advanced Book Program, Reading, Mass., 1978."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://scholar.google.com/citations?hl=en&user=bHn29ScAAAAJ",
+              "title": "‪Alexander Kirillov‬ - ‪Google Scholar‬",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "at Heidelberg University, Germany Verified email at iwr.uni-heidelberg.de\n\nView all\n\nFollow\n\nAlexander Kirillov\n\nAlexander Kirillov\n\nThinking Machines\n\nVerified email at openai.com - [Homepage](https://alexander-kirillov.github.io/)\n\n[computer vision](https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:computer_vision) [machine\n\n...\n\nN Carion, F Massa, G Synnaeve, N Usunier, A Kirillov, S Zagoruyko\n\n...\n\nA Kirillov, K He, R Girshick, C Rother, P Dollár\n\n2019 IEEE/CVF conference on computer vision and pattern recognition\n\n...\n\nA Kirillov, R Girshick, K He, P Dollár\n\nProceedings of the IEEE/CVF Conference on Computer Vision and Pattern … , 2019\n\n...\n\n|[Pointrend: Image segmentation as rendering](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bHn29ScAAAAJ&citation_for_view=bHn29ScAAAAJ:M3ejUd6NZC8C)\n\nA Kirillov, Y Wu, K He, R Girshick\n\n...\n\nT Meinhardt, A Kirillov, L Leal-Taixe, C Feichtenhofer\n\n...\n\nB Cheng, R Girshick, P Dollár, AC Berg, A Kirillov\n\n2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR … , 2021 |[857](https://scholar.google\n\n...\n\nY Wu, A Kirillov, F Massa, WY Lo, R Girshick |[635](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2411010773588152961) |2019 |\n\n...\n\nS Xie, A Kirillov, R Girshick, K He\n\n2019 IEEE/CVF International Conference on Computer\n\n...\n\nA Kirillov, E Mintun, N Ravi, H Mao, C Rolland, L Gustafson, T Xiao, ..."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.ams.org/books/stml/037/stml037-endmatter.pdf",
+              "title": "p-adic Analysis Compared with Real",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "p-adic Analysis Compared with Real\n\nhttp://dx.doi.org/10.1090/stml/037\n\nThis page intentionally left blank\n\nSTUDENT MATHEMATICAL LIBRARY Volume 37\n\np-adic Analysis Compared with Real\n\nSvetlana Katok\n\n...\n\nAlgebraic properties of p-adic integers 39\nVI Contents\n§1.9. Metrics and norms on the rational numbers.\nOstrowski's Theorem 43\nExercises 45-46 47\n§1.10. A digression: what about Q^ if g is not a prime? 47\nExercises 47-50 50\nChapter 2. The Topology of Qp vs. the Topology of E 53\n§2.1. Elementary topological properties 53\nExercises 51-53 60\n§2.2. Cantor sets 60\nExercises 54-65 68\n§2.3. Euclidean models of Zp 69\nExercises 66-68 73\nChapter\n\n...\n\nExercises 101-103\nAnswers, Hints, and Solutions for Selected Exercises\nBibliography\nIndex\n115\n116\n121\n123\n123\n134\n135\n149\n151\n\nThis page intentionally left blank\n\n...\n\nsian, MCCME Press, Moscow, 2004.\n8. A. A. Kirillov and A. D. Gvishiani, Theorems and Problems in Func-\ntional Analysis, Springer-Verlag, Berlin, Heidelberg, New York, 1982.\n9. A. A. Kirillov, Chto Takoe Chislo?, Sovremennaia Matematika dlia\nStudentov, Nauka, Moscow, 1993 (in Russian).\n10. N. Koblitz, p-adic Numbers, p-adic Analysis and Zeta-Functions,\nSpringer-Verlag, Berlin, Heidelberg, New York, Graduate Texts in Mathematics, 1984.\n11. K. Mahler, p-adic Numbers and Their Functions, Cambridge University\nPress, 1973.\n149\n150 Bibliography\n12. MASS Selecta: Teaching and Learning Advanced Undergradute Math-\nematics, American Mathematical Society, Providence, 2003.\n13. C."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.ams.org/books/surv/098/surv098-endmatter.pdf",
+              "title": "Moment Maps, Cobordisms, and Hamiltonian Group Actions",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "5 4 3 2 1\n07 06 05 04 03 02\nContents\nChapter 1.\nIntroduction\n1. Topological aspects of Hamiltonian group actions\n2. Hamiltonian cobordism\n3.\nThe linearization theorem and non-compact cobordisms\n4.\n\n...\n\nKirillov-Kostant pre-quantization\n99\n5.\nPolarizations, complex structures, and geometric quantization\n102\n6.\nDolbeault Quantization and the Riemann-Roch formula\n110\n7.\n\n...\n\n3.\nExistence of non-degenerate two-forms\n294\nAppendix H.\nCharacteristic numbers, non-degenerate cobordisms, and\nnon-virtual quantization\n301\n1. The Hamiltonian cobordism ring and characteristic classes\n301\n2.\nCharacteristic numbers\n304\n3.\nCharacteristic numbers as a full system of invariants\n305\n4. Non-degenerate cobordisms\n308\n5.\n\n...\n\nKawasaki, The index of elliptic operators over V-manifolds.\nNagoya Math. J. 84\n(1981), 135-157.\n[Kil]\nA. A. Kirillov, Unitary representations\nof nilpotent Lie groups, Russian Math. Surveys,\n17 (1962), 53-104.\n[Ki2]\nA. A. Kirillov, Elements\nof the theory of representations\nSpringer-Verlag, Berlin-New\nYork, 1976.\n[Ki3]\nA. A. Kirillov, Theorems and problems in functional\nanalysis, Springer-Verlag, New\nYork, 1982.\n[Ki4]\nA. A. Kirillov, Geometric quantization,\nCurrent problems in mathematics. Fundamental\ndirections, Vol. 4, 1985, 141-178.\n[Ki5]\nA. A. Kirillov, Merits and demerits\nof the orbit method, Bull. Amer. Math. Soc.\n\n...\n\n40.5 Daniel Gorenstein, Richard Lyons, and Ronald Solomon, The classification of the\nfinite simple groups, number 5, 2002"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://d-nb.info/830103198/04",
+              "title": "Theorems and Problems in Functional Analysis",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "A. A. Kirillov\n\nA. D. Gvishiani\n\nTheorems and Problems\n\nin Functional Analysis\n\nTranslated by Harold H. McFaden\n\nWith 6 Illustrations\n\nSpringer-Verlag\n\nNew York Heidelberg Berlin i\n\nContents\n\nChapter I\n\nConcepts from Set Theory and Topology\n\n§1. Relations. The Axiom of Choice and Zorn's Lemma\nTheory (3). Problems (139). Hints (233).\n§2. Completions\nTheory (6). Problems (142). Hints (237).\n§3. Categories and Functors\nTheory (8). Problems (145). Hints (240).\nChapter II\n\nTheory of Measures and Integrals\n\n§1. Measure Theory\n1. Algebras of Sets\nTheory (12). Problems (150). Hints (244).\n2. Extension of a Measure\nTheory (13). Problems (152). Hints (246).\n3. Constructions of Measures\nTheory (18). Problems (154). Hints (250).\n§2. Measurable Functions\n1. Properties of Measurable Functions\nTheory (22). Problems (156). Hints (253).\n2. Convergence of Measurable Functions\nTheory (23). Problems (158). Hints (255).\nVH\nVU1 Contents\n§3. Integrals\n1. The Lebesgue Integral\nTheory (24). Problems (160). Hints (257).\n2. Functions of Bounded Variation and the Lebesque-Stieltjes\nIntegral Theory (28). Problems (163). Hints (263).\n3. Properties of the Lebesgue Integral\nTheory (31). Problems (166).\n\n...\n\nProblems (225). Hints (330).\n2. The Spectral Theorem\nTheory (131). Problems (227). Hints (332).\n\nList of Notation 335\n\nBibliography 339\n\nSubject Index 343"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://www.map.mpim-bonn.mpg.de/Template:Kirillov2004",
+              "title": "Template:Kirillov2004 - Manifold Atlas",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Template:Kirillov2004\n\nFrom Manifold Atlas\nJump to: navigation , search\nA. A. Kirillov, Lectures on the orbit method , Graduate Studies in Mathematics 64, American Mathematical Society, Providence, RI, 2004. MR2069175 (2005c:22001) Zbl 02121486\nRetrieved from \" http://www.map.mpim-bonn.mpg.de/index.php?title=Template:Kirillov2004&oldid=6480 \"\nCategory :\n* Bibliography\n\nPersonal tools\n\n* Log in\n\nNamespaces\n\n* Template\n* Discussion\n\nVariants \n\nViews\n\n* Read\n* Edit\n* View history\n\nActions \n\nSearch\n\nSearch\n* This page was last modified on 13 December 2010, at 17:58.\n* This page has been accessed 2,760 times.\n* Privacy policy\n* About the Manifold Atlas\n* Disclaimers\n* Legal Notice (Impressum)\n* Hosted by MPIM\n* Powered by MediaWiki"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.math.stonybrook.edu/~kirillov/mat560-fall25/CFT-July2025.pdf",
+              "title": "Classical Field Theory For Mathematicians Alexander Kirillov, Jr. Leon A. Takhtajan",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Classical Field Theory For Mathematicians\n\nAlexander Kirillov, Jr.\n\nLeon A. Takhtajan\n\nDepartment of Mathematics, Stony Brook University, Stony Brook, NY 11794, USA\n\n...\n\nParticle in a gravitation field and Levi-Civita connection 233\n§21.3. The Riemann curvature tensor 235\n§21.4. Exercises 237\nChapter 22. Einstein Equations 239\n§22.1. Einstein field equations 239\n§22.2. Hilbert action 241\n§22.3. Einstein equations with matter 243\n§22.4. Asymptotically flat spacetime 246\n§22.5. Exercises 247\nChapter 23. Hamiltonian Formulation and Exact Solutions 249\n§23.1. Palatini first order formalism 249\n§23.2. Hamiltonian formalism in general relativity 251\n§23.3. The Schwarzschild solution 253\n§23.4. Cosmological constant and AdS and dS spacetimes 254\n§23.5. Kaluza-Klein theory 256\n§23.6. Exercises 259\nChapter 24. Notes and References 261\nBibliography 263\n\nPreface\n\nThis book is based on graduate courses taught by the authors over the last fourteen years in the mathematics department of Stony Brook University.\n\n...\n\nwas to introduce second year mathematics graduate students with no prior knowledge of physics to the basic concepts of classical mechanics and classical field theory, and then to quantum mechanics\n\n...\n\nfinite-dimensional manifold M , called a configuration space of the system. Coordinates on M are called generalized coordinates of a system, and the dimension n = dim M is called the number of\n\n...\n\nH L ( q , ˙ q , t ) =  ∂ 2 L\n∂ ˙ q i ∂ ˙ q j ( q , ˙ q , t )  n\ni,j =1"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://arxiv.org/abs/math/9809057",
+              "title": "[math/9809057] On the Lego-Teichmuller game",
+              "start_index": 0,
+              "end_index": 0,
+              "content": " archive\nSearch Submit Donate Log in\n\nMathematics > Geometric Topology\n\narXiv:math/9809057 (math)\n[Submitted on 10 Sep 1998]\n\nTitle: On the Lego-Teichmuller game\n\nAuthors: Bojko Bakalov , Alexander Kirillov\nView PDF HTML (experimental)\nAbstract: For a smooth oriented surface S, denote by M(S) the set of all ways to represent S as a result of gluing together standard spheres with holes (``the Lego game''). In this paper we give a full set of simple moves and relations which turn M(S) into a connected and simply-connected 2-complex. Results of this kind were first obtained by Moore and Seiberg, but their paper contains serious gaps. Our proof is based on a different approach and is much more rigorous.\n* Comments: | 33 pages, lots of figures, LaTeX2e\n* Subjects: | Geometric Topology (math.GT) ; Quantum Algebra (math.QA)\n* Cite as: | arXiv:math/9809057 [math.GT]\n*  | (or arXiv:math/9809057v1 [math.GT] for this version)\n*  | https://doi.org/10.48550/arXiv.math/9809057\nFocus to learn more\narXiv-issued DOI via DataCite |\n\nSubmission history\n\nFrom: Alexander Kirillov Jr. [ view email ] [v1] Thu, 10 Sep 1998 15:22:52 UTC (150 KB)\nFull-text links:\n\nAccess Paper:\n\n* View PDF\n* HTML (experimental)\n* TeX Source\nview license\n\nCurrent browse context:\n\nmath.GT\n< prev | next >\nnew | recent | 1998-09\n\nReferences & Citations\n\n* NASA ADS\n* Google Scholar"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5058,
+    "completion_tokens": 1,
+    "total_tokens": 5059,
+    "cost": 0.0010825793056,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00008341344,
+      "upstream_inference_prompt_cost": 0.00008339184,
+      "upstream_inference_completions_cost": 2.16e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "n86606a9cda",
+  "method": "wide",
+  "query": "\"What Are Numbers?\" A. A. Kirillov bibliography pages",
+  "retrieved": "2026-11-01T23:53:26.503Z"
+}

@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572644-1D3BHalmeCCmiakTuqsX",
+  "object": "chat.completion",
+  "created": 1793572644,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-ee0ea766dda0\",\n  \"title\": \"A History of Interest Rates\",\n  \"author\": \"Sidney Homer and Richard Sylla\",\n  \"amazon\": {\n    \"count\": 472,\n    \"url\": \"https://www.amazon.com/History-Interest-Rates-Sidney-Richard/dp/B00C6P23P2\",\n    \"asin\": \"B00C6P23P2\",\n    \"evidence\": \"https://www.amazon.com/History-Interest-Rates-Sidney-Richard/dp/B00C6P23P2#customerReviews\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/History-Interest-Rates-Sidney-Richard/dp/B00C6P23P2",
+              "title": "A History of Interest Rates by Homer, Sidney, Sylla ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nA History of Interest Rates by Homer, Sidney, Sylla ...\nA History of Interest Rates presents a very readable account of interest rate trends and lending practices over four millennia of economic history."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://us.amazon.com/History-Interest-Sidney-Richard-Eugene/dp/B00A2N2V66",
+              "title": "A History of Interest Rates By Homer Sidney Sylla Richard ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nA History of Interest Rates By Homer Sidney Sylla Richard ...\nThis book provides a detailed analysis of interest rate trends and lending practices over four millennia of economic history, asserting that long-term rates"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/History-Interest-Rates-Fourth-Finance/dp/0471732834",
+              "title": "A History of Interest Rates: 9780471732839",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nA History of Interest Rates: 9780471732839\nA History of Interest Rates presents a very readable account of interest rate trends and lending practices over four millennia of economic history.\n\n## \n\nA History of Interest Rates - Amazon.com\nDespite the paucity of data prior to the Industrial Revolution, authors Homer and Sylla provide a highly detailed analysis of money markets and borrowing\n\n## \n\nA History of Interest Rates: 9780471732839\nThis book provides a detailed analysis of interest rate trends and lending practices over four millennia of economic history, as Canada and the United States\n\n## \n\nA History of Interest Rates\nA History of Interest Rates presents a very readable account of interest rate trends and lending practices over four millennia of economic history.\nA History of Interest Rates: 9780471732839\nA History of Interest Rates presents a very readable account of interest rate trends and lending practices over four millennia of economic history."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/es/History-Interest-Sidney-Richard-Eugene/dp/B00A2N2V66",
+              "title": "A History of Interest Rates By Homer Sidney Sylla Richard ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nA History of Interest Rates By Homer Sidney Sylla Richard ...\nThis book provides a detailed analysis of interest rate trends and lending practices over four millennia of economic history,"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Sidney-Homer/s?rh=n%3A283155%2Cp_27%3ASidney%2BHomer",
+              "title": "Sidney Homer: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nSidney Homer: Books\nA History of Interest Rates A History of Interest Rates by Sidney Homer. The Classic That Created the Science of Bond Analysis. The great American bond market:\n\n## \n\nSidney Homer: Books\nA History of Interest Rates · Sidney Homer · A History of Interest Rates. Hardcover. Kindle ; Inside the Yield Book: The Classic That Created the Science of Bond"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1018,
+    "completion_tokens": 162,
+    "total_tokens": 1180,
+    "cost": 0.00502295216,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000023184,
+      "upstream_inference_prompt_cost": 0.000018324,
+      "upstream_inference_completions_cost": 0.00000486
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "shelf-ee0ea766dda0",
+  "retrieved": "2026-11-01T22:37:48.988Z"
+}

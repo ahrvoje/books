@@ -1,0 +1,72 @@
+{
+  "shelf-0a08fe6e8fe8:pages:https://www.goodreads.com/book/show/35540648-how-to-actually-change-your-mind": {
+    "decision": "accepted after primary source review",
+    "auditReason": "The title includes a volume number, which is not present in the source title. The evidence provided is a page count of 310, but the source text does not specify a print edition.",
+    "reason": "Source explicitly labels Rationality: From AI to Zombies #2 and 310 pages, Paperback. The volume and print binding match.",
+    "source": "https://www.goodreads.com/book/show/35540648-how-to-actually-change-your-mind",
+    "evidence": "310 pages, Paperback"
+  },
+  "finish-114-20:amazon:https://www.amazon.com/Singularity-Nearer-Ray-Kurzweil/dp/0399562761": {
+    "decision": "accepted after primary source review",
+    "auditReason": "The title and author do not match exactly. The source title is 'The Singularity Is Nearer: When We Merge with AI' but the candidate title is 'The Singularity Is Nearer'.",
+    "reason": "Ray Kurzweil and the main title match. The source supplies the full subtitle; its absence from the catalog abbreviation is not a mismatch.",
+    "source": "https://www.amazon.com/Singularity-Nearer-Ray-Kurzweil/dp/0399562761",
+    "evidence": "1,523 global ratings"
+  },
+  "nbdb56daaf6:amazon:https://www.amazon.com/Fugitive-Game-Online-Kevin-Mitnick/dp/0316528692": {
+    "decision": "accepted after primary source review",
+    "auditReason": "The author does not match. The source author is Jonathan Littman, but the candidate author is Kevin Mitnick.",
+    "reason": "Both catalog and source identify Jonathan Littman as author. Kevin Mitnick is the subject. The audit misread the candidate author.",
+    "source": "https://www.amazon.com/Fugitive-Game-Online-Kevin-Mitnick/dp/0316528692",
+    "evidence": "50 global ratings"
+  },
+  "q0952:pages:https://www.booksamillion.com/p/Was-Never-About/J-C-Maurer/9798182244497": {
+    "decision": "accepted after primary source review",
+    "auditReason": "Publication date is 2026, which is in the future.",
+    "reason": "The session date is 1 November 2026. The June 2026 print publication is already past; exact J. C. Maurer title and paperback ISBN match.",
+    "source": "https://www.booksamillion.com/p/Was-Never-About/J-C-Maurer/9798182244497",
+    "evidence": "Page Count : 314\n"
+  },
+  "rem-u0957:pages:https://www.goodreads.com/en/book/show/775198.I_Escaped_from_Auschwitz": {
+    "decision": "accepted after primary source review",
+    "auditReason": "The author is listed as Rudolf Vrba, Robin Vrba, et al. The supplied author is not an exact match.",
+    "reason": "Rudolf Vrba is the principal author in both records. Additional contributor credits do not identify a different work. The source explicitly identifies a paperback.",
+    "source": "https://www.goodreads.com/en/book/show/775198.I_Escaped_from_Auschwitz",
+    "evidence": "447 pages, Paperback"
+  },
+  "intake-0075:pages:https://www.amazon.com/dp/0812929640/?tag=books-in-order-20": {
+    "decision": "accepted after primary source review",
+    "auditReason": "The author name includes Kate Bohner, which is not in the supplied book title.",
+    "reason": "Source byline includes both Donald Trump and Kate Bohner. An author need not appear in the book title.",
+    "source": "https://www.amazon.com/dp/0812929640/?tag=books-in-order-20",
+    "evidence": "Print length\n244 pages"
+  },
+  "rem-u1004:amazon:https://www.amazon.com/Map-That-Changed-World-William/dp/0060193611": {
+    "decision": "accepted after primary source review",
+    "auditReason": "Author mismatch. Simon Winchester is listed as the author, but Soun Vannithone is also listed as an illustrator.",
+    "reason": "Simon Winchester is the author in both records. The additional illustrator credit does not change work identity.",
+    "source": "https://www.amazon.com/Map-That-Changed-World-William/dp/0060193611",
+    "evidence": "999 ratings"
+  },
+  "naa8f588553:amazon:https://www.amazon.com/How-Minds-Change-People-Without-ebook/dp/B082LQ8471": {
+    "decision": "accepted after primary source review",
+    "auditReason": "The title includes a subtitle, but the evidence does not include a print page count.",
+    "reason": "Only the Amazon rating count is being filled. A matching Kindle product aggregate is allowed; print pagination is not required for this field.",
+    "source": "https://www.amazon.com/How-Minds-Change-People-Without-ebook/dp/B082LQ8471",
+    "evidence": "647 global ratings"
+  },
+  "progress-0000:amazon:https://www.amazon.com/Great-Stagnation-Low-Hanging-Eventually-eSpecial-ebook/dp/B004H0M8QS": {
+    "decision": "accepted after primary source review",
+    "auditReason": "The title is not a single volume, it is a series.",
+    "reason": "A Penguin eSpecial from Dutton is an imprint/format designation. The source is the single Tyler Cowen work The Great Stagnation.",
+    "source": "https://www.amazon.com/Great-Stagnation-Low-Hanging-Eventually-eSpecial-ebook/dp/B004H0M8QS",
+    "evidence": "356 global ratings"
+  },
+  "complete-531-95:amazon:https://www.amazon.com/Physics-Star-Trek-Lawrence-Krauss/dp/0060977108": {
+    "decision": "accepted after primary source review",
+    "auditReason": "The author is listed as Lawrence M. Krauss, but the evidence lists Stephen Hawking as a co-author.",
+    "reason": "The product identifies Lawrence M. Krauss and the exact work The Physics of Star Trek. The additional Stephen Hawking credit does not indicate a different book.",
+    "source": "https://www.amazon.com/Physics-Star-Trek-Lawrence-Krauss/dp/0060977108",
+    "evidence": "444 global ratings"
+  }
+}

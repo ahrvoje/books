@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:11:35.847Z",
+  "bookId": "shelf-30c7a895dd66",
+  "id": "gen-1793571090-gaAVUftZV6z7yPXq3OjH",
+  "object": "chat.completion",
+  "created": 1793571090,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-30c7a895dd66\",\n  \"title\": \"Faster, Better, Cheaper\",\n  \"author\": \"Christoph Roser\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 417,\n    \"editionId\": \"OL34539754M\",\n    \"editionYear\": 2017,\n    \"format\": \"Volume\",\n    \"language\": \"English\",\n    \"url\": \"https://openlibrary.org/books/OL34539754M\",\n    \"evidence\": \"xxi, 411 pages : illustrations, maps ; 24 cm\",\n    \"sourceTitle\": \"\\\"Faster, better, cheaper\\\" in the history of manufacturing : from the Stone Age to lean manufacturing and beyond\",\n    \"sourceAuthor\": \"Christoph Roser\"\n  },\n  \"reference\": {\n    \"count\": null,\n    \"editionId\": \"OL34539754M\",\n    \"editionYear\": 2017,\n    \"url\": \"https://api.pageplace.de/preview/DT0400.9781498756310_A28397600/preview-9781498756310_A28397600.pdf\",\n    \"evidence\": \"Includes bibliographical references and index.\",\n    \"sourceTitle\": \"\\\"Faster, better, cheaper\\\" in the history of manufacturing: From the Stone Age to Lean Manufacturing and Beyond\",\n    \"sourceAuthor\": \"Christoph Roser\",\n    \"ranges\": [\n      {\n        \"start\": 19,\n        \"end\": null,\n        \"label\": \"Bibliography\",\n        \"evidence\": \"19 Bibliography\"\n      },\n      {\n        \"start\": 31,\n        \"end\": null,\n        \"label\": \"Bibliography\",\n        \"evidence\": \"31 Bibliography\"\n      },\n      {\n        \"start\": 60,\n        \"end\": null,\n        \"label\": \"Bibliography\",\n        \"evidence\": \"60 Bibliography\"\n      },\n      {\n        \"start\": 78,\n        \"end\": null,\n        \"label\": \"Bibliography\",\n        \"evidence\": \"78 Bibliography\"\n      },\n      {\n        \"start\": 86,\n        \"end\": null,\n        \"label\": \"Bibliography\",\n        \"evidence\": \"86 Bibliography\"\n      },\n      {\n        \"start\": 115,\n        \"end\": null,\n        \"label\": \"Bibliography\",\n        \"evidence\": \"115 Bibliography\"\n      },\n      {\n        \"start\": 138,\n        \"end\": null,\n        \"label\": \"Bibliography\",\n        \"evidence\": \"138 Bibliography\"\n      },\n      {\n        \"start\": 174,\n        \"end\": null,\n        \"label\": \"Bibliography\",\n        \"evidence\": \"174 Bibliography\"\n      },\n      {\n        \"start\": 243,\n        \"end\": null,\n        \"label\": \"Bibliography\",\n        \"evidence\": \"243 Bibliography\"\n      },\n      {\n        \"start\": 280,\n        \"end\": null,\n        \"label\": \"Bibliography\",\n        \"evidence\": \"280 Bibliography\"\n      },\n      {\n        \"start\": 351,\n        \"end\": null,\n        \"label\": \"Bibliography\",\n        \"evidence\": \"351 Bibliography\"\n      },\n      {\n        \"start\": 373,\n        \"end\": null,\n        \"label\": \"Bibliography\",\n        \"evidence\": \"373 Bibliography\"\n      },\n      {\n        \"start\": 388,\n        \"end\": null,\n        \"label\": \"Bibliography\",\n        \"evidence\": \"388 Bibliography\"\n      },\n      {\n        \"start\": 391,\n        \"end\": null,\n        \"label\": \"Index\",\n        \"evidence\": \"391 Index\"\n      }\n    ],\n    \"method\": \"The provided PDF contains multiple sections labeled 'Bibliography' followed by page numbers. The last listed 'Bibliography' section starts on page 388, and the 'Index' starts on page 391. The total count of references cannot be determined from the provided snippets as the end page for each bibliography section is not visible.\",\n    \"limitation\": \"The exact number of bibliographical references cannot be determined as the end page for each bibliography section is not provided in the snippets. The provided snippets show multiple distinct bibliography sections throughout the document.\"\n  },\n  \"searchedUrls\": [\n    \"https://apps.lib.byu.edu/marcrecord/bib/6771660\",\n    \"https://api.pageplace.de/preview/DT0400.9781498756310_A28397600/preview-9781498756310_A28397600.pdf\",\n    \"https://lib.byu.edu/search/byu/record/cat.6771660.item.31197238517921\",\n    \"https://lccc.wyldcatalog.org/Record/a2248186\",\n    \"https://www.scribd.com/document/423013899/Faster-Better-Cheaper-in-the-History-of-Manufacturing-From-the-Stone-Age-to-Lean-Manufacturing-and-Beyond-PDFDrive-com\"\n  ],\n  \"limitations\": \"The total count of bibliographical references could not be determined from the provided snippets as the end page for each bibliography section was not visible. The provided snippets show multiple distinct bibliography sections throughout the document.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://apps.lib.byu.edu/marcrecord/bib/6771660",
+              "title": "apps.lib.byu.edu",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "001 ## y40026613003\n003 ## OCoLC\n005 ## 20161028043634.7\n008 ## 160418t20172017fluab b 001 0 eng\n010 ## $a 2016003463\n040 ## $a DLC\n $b eng\n $e rda\n $c DLC\n $d OCLCF\n $d YDX\n $d UPB\n019 ## $a 960737256\n020 ## $a 9781498756303\n020 ## $a 1498756301\n035 ## $a (OCoLC)947953628\n $z (OCoLC)960737256\n042 ## $a pcc\n050 00 $a TS183\n $b .R68 2017\n082 00 $a 670\n $2 23\n100 1# $a Roser, Christoph,\n $e author.\n245 10 $a \"Faster, better, cheaper\" in the history of manufacturing :\n $b from the Stone Age to lean manufacturing and beyond /\n $c Christoph Roser.\n264 #1 $a Boca Raton :\n $b CRC Press, Taylor & Francis Group,\n $c [2017]\n264 #4 $c ©2017\n300 ## $a xxi, 411 pages :\n $b illustrations, maps ;\n $c 24 cm\n336 ## $a text\n $2 rdacontent\n337 ## $a unmediated\n $2 rdamedia\n338 ## $a volume\n $2 rdacarrier\n504 ## $a Includes bibliographical references and index.\n505 0# $a Preface -- Acknowledgements -- Failure and success in manufacturing\n : the GM-Toyota NUMMI joint venture -- The age of the artisan -- The\n stone age -- The urban revolution : the emergence of society --\n Advances during antiquity -- The middle ages in europe -- The\n industrial revolution : manufacturing gets mechanized -- Early modern\n europe -- Pioneers of a new age : the factory system -- Fire is\n stronger than blood and water : steam power -- Interchangeable parts :\n the end of filing in assembly -- Social conflict -- Modern times : mass\n production for the masses -- Technological advances -- Science meets\n shop floor -- The assembly\n\n...\n\n-- Centrally planned economies : war, communism and other catastrophes\n -- *click* let-me-do-this-for-you *clack* : computers in manufacturing\n -- The Toyota production system and lean manufacturing -- The cutting\n edge -- Where are we now? -- Things to come -- Timelines -- Appendix --\n Index -- About the author.\n\n...\n\n$x History.\n949 ## $a TS 183 .R68 2017"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://api.pageplace.de/preview/DT0400.9781498756310_A28397600/preview-9781498756310_A28397600.pdf",
+              "title": "\" Faster, Better Cheaper\"in the History of Manufacturing: From the Stone Age to Lean Manufacturing and Beyond",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "© 2017 by Christoph Roser\n\n...\n\nVersion Date: 20160524 \nInternational Standard Book Number-13: 978-1-4987-5630-3 (Hardback)\n\n...\n\nLibrary of Congress Cataloging‑in‑Publication Data Names: Roser, Christoph, author. Title: “Faster, better, cheaper” in the history of manufacturing : from the Stone Age to lean manufacturing and beyond / Christoph Roser. Description: 1 Edition. | Boca Raton : CRC Press, 2016. | Includes bibliographical references and index. Identifiers: LCCN 2016003463 | ISBN 9781498756303 Subjects: LCSH: Manufacturing processes--History. Classification: LCC TS183 .R68 2016 | DDC 670--dc23 LC record available at https://lccn.loc.gov/2016003463\n\n...\n\nChapter 2 The Stone Age ...\n\n...\n\n19 \nBibliography ... 20\n\n...\n\nBibliography ... 31\n\n...\n\nBibliography ... 60\n\n...\n\nBibliography ... 78\n\n...\n\nBibliography ... 86\n\n...\n\nBibliography ... 115\n\n...\n\nBibliography ... 138\n\n...\n\nBibliography ... 174\n\n...\n\nBibliography ...\n\n...\n\nBibliography ...\n\n...\n\nBibliography ... 243\n\n...\n\nBibliography ... 280\n\n...\n\nBibliography ...\n\n...\n\nBibliography ...\n\n...\n\nBibliography ... 351\n\n...\n\nBibliography ... 373\n\n...\n\nBibliography ... 388\n\n...\n\n391 \nIndex ... 393\n\n...\n\nBIBLIOGRAPHY\n\nAdler, P.S., 1995. Democratic Taylorism: The Toyota Production System at NUMMI, in: \nLean Work: Empowerment and Exploitation in the Global Auto Industry. Wayne State \nUniversity Press, Detroit, MI. \nAdler, P.S., Goldoftas, B., Levine, D.I., 1998. Stability and Change at NUMMI, in: Between \nImitation and Innovation: Transfer and Hybridization of Production Models in the \nInternational Automobile Industry. Oxford University Press, Oxford, UK. \nChildress, J.R., 2013. Leverage: The CEO’s Guide to Corporate Culture. Principia Associates, \nLondon. \nClarke, C., 2002. Forms and Functions of Standardisation in Production Systems of the \nAutomotive Industry: The Case of Mercedes-Benz (Doctoral). Freie Universität \nBerlin, Berlin. \nFinkelstein, S., 2004. Why Smart Executives Fail: And What You Can Learn from Their \nMistakes. Portfolio, New York. \n\nGlass, I., 2010. “NUMMI.” This American Life. Radio broadcast from Public Radio \nInternational. \nInkpen, A.C., 2008. Knowledge Transfer and International Joint Ventures: The Case of \nNUMMI and General Motors. Strategic Management Journal 29, 447–453. doi:10 \n.1002/smj.663. \nKeller, M., 1989. Rude Awakening: The Rise Fall and Struggle for Recovery of General Motors. \nWilliam Morrow & Co, New York. \nMarsh, P., 2012. The New Industrial Revolution. Yale University Press, New Haven, CT. \nReingold, E.M., 1999. Toyota—A Corporate History. Penguin, London. \nSato, M., 2008. The Toyota Leaders: An Executive Guide. Vertical, New York. \nShook, J., 2010. How to Change a Culture: Lessons from NUMMI. MIT Sloan Management \nRev. 51(2), 63–67. \nSiegel, R., 2010. “The End of the Line for GM–Toyota Joint Venture.” All Things Considered. \nRadio broadcast from National Public Radio. \nTurner, L., 1990. NUMMI—Japanische Produktionskonzepte in den USA. Articles \nand Chapters. In M. Muster & U. Richter (Eds.), Mit Vollgas in den Stau: \nAutomobilproduktion, Unternehmensstrategien und die Perspektiven eines ökolo \ngischen Verkehrssystems, 78–87, VSA-Verlag, Hamburg, Germany. \nWomack, J.P., 1990. The Machine That Changed the World: Based on the Massachusetts \nInstitute of Technology 5-Million-Dollar 5-Year Study on the Future of the Automobile. \nLater Printing. Scribner, Rawson Associates, New York.\n\n...\n\nBIBLIOGRAPHY\n\nBeitz, W., Küttner, K. -H. (Eds.), 1995. Dubbel: Taschenbuch für den Maschinenbau, 18. \nAuflage. Springer, Berlin, Heidelberg, Germany. \nBower, B., 1997. German Mine Yields Ancient Hunting Spears. Science News 151, 134. \nBrown, K.S., Marean, C.W., Herries, A.I.R., Jacobs, Z., Tribolo, C., Braun, D., Roberts, \nD.L., Meyer, M.C., Bernatchez, J., 2009. Fire as an Engineering Tool of Early Modern \nHumans. Science 325, 859–862. doi:10.1126/science.1175028. \nBryson, B., 2004. A Short History of Nearly Everything, 1st ed. Broadway Books, New York. \nChurchill, S.E., Franciscus, R.G., McKean -Peraza, H.A., Daniel, J.A., Warren, B.R., 2009. \nShanidar 3 Neandertal Rib Puncture Wound and Paleolithic Weaponry. Journal of \nHuman Evolution 57, 163–178. doi:10.1016/j.jhevol.2009.05.010. \nHeskel, D.L., 1983. A Model for the Adoption of Metallurgy in the Ancient Middle East. \nCurrent Anthropology 24, 362–366. doi:10.2307/2742674. \n\nKrálík, M., Novotný, V., Oliva, M., 2002. Fingerprint on the Venus of Dolní Věstonice I. \nAnthropologie 40/2, 107–113. \nPanger, M.A., Brooks, A.S., Richmond, B.G., Wood, B., 2002. Older Than the Oldowan? \nRethinking the Emergence of Hominin Tool Use. Evolutionary Anthropology 11, \n235–245. \nPettitt, P., 2000. Odd Man Out: Neanderthals and Modern Humans. British Archaeology \n51, 1357–4442. \nPlummer, T., 2004. Flaked Stones and Old Bones: Biological and Cultural Evolution at the \nDawn of Technology. Yearbook of Physical Anthropology 47, 118–164. \nPringle, H., 1998. New Women of the Ice Age. Discover 19, 62–70. \nRamirez Rozzi, F.V., Bermudez de Castro, J.M., 2004. Surprisingly Rapid Growth in \nNeanderthals. Nature 428, 936–939. doi:10.1038/nature02428. \nRhodes, J.A., Churchill, S.E., 2009. Throwing in the Middle and Upper Paleolithic: Inferences \nfrom an Analysis of Humeral Retroversion. Journal of Human Evolution 561, 1–10. \nSentenac, A., n.d. Witnesses: André Sentenac, Biologist in France [WWW Document]. \nThe Cave of Chauvet -Pont -d’Arc. Available at http://www.culture.gouv.fr/fr/arcnat \n/chauvet/en/temoi9.htm (accessed August 16, 2009). \nSolecki, R.L., Agelarakis, A.P., 2004. The Proto-Neolithic Cemetery in Shanidar Cave. Texas \nA&M University Press, College Station, TX. \nTyldesley, J.A., Bahn, P.G., 1983. Use of Plants in the European Palaeolithic: A Review of the \nEvidence. Quaternary Science Reviews 2, 53–81. \nTzedakis, P.C., Hughen, K.A., Cacho, I., Harvati, K., 2007. Placing Late Neanderthals in a \nClimatic Context. Nature 449, 206–208. doi:10.1038/nature06117. \nValladas, H., Clottes, J., Geneste, J. -M., Garcia, M.A., Arnold, M., Cachier, H., Tisnerat \nLaborde, N., 2001. Palaeolithic Paintings: Evolution of Prehistoric Cave Art. Nature \n413, 479. doi:10.1038/35097160. \nVandiver, P.B., Soffer, O., Klima, B., Svoboda, J., 1989. The Origins of Ceramic Technology \nat Dolni Vestonice, Czechoslovakia. Science 246, 1002–1008. doi:10.1126/science \n.246.4933.1002. \nViegas, J., 2008. Early Weapon Evidence Reveals Bloody Past. Discovery News. \nVishnyatsky, L.B., 1994. Running Ahead of Time in the Development of Palaeolithic \nIndustries. Antiquity 68, 134–140. \nWeiner, J., 2003. Kenntnis -Werkzeug -Rohmaterial. Ein Vademekum zur Technologie der \nsteinzeitlichen Holzbearbeitung. Archäologische Informationen 26, 407–426."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://lib.byu.edu/search/byu/record/cat.6771660.item.31197238517921",
+              "title": "\"Faster, better, cheaper\" in the history of manufacturing | BYU Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "- BYU Library Bookshelves \n\n TS 183 .R68 2017 \n\nbook_2 Book / Floor 2–C\n\n- Available — 1 copy \n\nFrom the Stone Age to lean manufacturing and beyond\n\n book_2 Book/ Roser, Christoph > \n\n2017, Boca Raton: CRC Press, Taylor & Francis Group, English\n\n BYU Library Bookshelves / Floor 2–C \n\n TS 183 .R68 2017 \n\n## Available for Checkout — 1 copy \n\n On shelf. See map. \n\n## Map\n\n See full map → \n\n### Extent\n\n- xxi, 411 pages: illustrations, maps; 24 cm\n\n### Subjects\n\n- Manufacturing processes — History\n\n### Language\n\n- English \n\n### Creation Date\n\n- 2017\n\n...\n\n### Bibliography\n\n- Includes bibliographical references and index."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://lccc.wyldcatalog.org/Record/a2248186",
+              "title": "\"Faster, better, cheaper\" in the history of manufacturing :... | Laramie County Community College",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# \"Faster, better, cheaper\" in the history of manufacturing : from the Stone Age to lean manufacturing and beyond (Book)\n\nAverage Rating\n\nAuthor Roser, Christoph \n\nPublished Boca Raton : CRC Press, Taylor & Francis Group, [2017]\n\nEdition 1 Edition.\n\nPhysical Description xxi, 411 pages: illustrations ; 24 cm\n\nStatus\n\nOn Shelf\n\nLCCC Cheyenne Campus - Main Collection TS183 .R68 2017 1 available\n\n## Copies\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| LCCC Cheyenne Campus - Main Collection | TS183 .R68 2017 | On Shelf |\n\n...\n\n## Subjects\n\nLibrary of Congress Subjects Manufacturing processes -- History. \n\n## More Details\n\nFormat Book\n\nLanguage English\n\nISBN 9781498756303, 1498756301\n\nNotes\n\nBibliography Includes bibliographical references and index."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.scribd.com/document/423013899/Faster-Better-Cheaper-in-the-History-of-Manufacturing-From-the-Stone-Age-to-Lean-Manufacturing-and-Beyond-PDFDrive-com",
+              "title": "Faster, Better, Cheaper in The History of Manufacturing ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Client Challenge\n\nA required part of this site couldn’t load. This may be due to a browser extension, network issues, or browser settings. Please check your connection, disable any ad blockers, or try using a different browser."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4497,
+    "completion_tokens": 1369,
+    "total_tokens": 5866,
+    "cost": 0.007987327,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0009973,
+      "upstream_inference_prompt_cost": 0.0004497,
+      "upstream_inference_completions_cost": 0.0005476
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

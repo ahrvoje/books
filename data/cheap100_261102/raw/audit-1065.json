@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574486-SzcxLQQrGDfVdzl9Ou31",
+  "object": "chat.completion",
+  "created": 1793574486,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u0763:amazon:https://www.amazon.com/Unquiet-Mind-Memoir-Moods-Madness/dp/0679763309\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 7,211 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"complete-391-298:amazon:https://www.amazon.com/Snowden-Files-Inside-Worlds-Wanted/dp/0804173524\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 1,616 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-a6aa5838c542:amazon:https://www.amazon.com/Churchill-Paul-Johnson/dp/0670021059\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 846 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u0743:amazon:https://www.amazon.com/Intellectuals-Paul-Johnson/dp/0060160500\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 186 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"progress-0423:amazon:https://www.amazon.com/Cultural-Amnesia-Necessary-Memories-History/dp/0393061167\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 169 ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3455,
+    "completion_tokens": 412,
+    "total_tokens": 3867,
+    "cost": 0.0002036529,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020571,
+      "upstream_inference_prompt_cost": 0.00017275,
+      "upstream_inference_completions_cost": 0.00003296
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:08:08.496Z"
+}

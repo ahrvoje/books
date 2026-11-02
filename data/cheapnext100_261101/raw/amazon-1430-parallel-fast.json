@@ -1,0 +1,87 @@
+{
+  "id": "gen-1793573395-VKpy2qGJzEvrm8odYW0L",
+  "object": "chat.completion",
+  "created": 1793573395,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"complete-927-386\",\n  \"title\": \"Prospects in Nanotechnology—Toward Molecular Manufacturing\",\n  \"author\": \"M. Krummenacker and J. Lewis, eds.\",\n  \"pages\": null,\n  \"amazon\": {\n    \"count\": 1,\n    \"url\": \"https://www.amazon.com/Prospects-Nanotechnology-Toward-Molecular-Manufacturing/dp/0128177107\",\n    \"asin\": \"0128177107\",\n    \"evidence\": \"Explicit product page with global ratings\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Singularity-Near-Humans-Transcend-Biology/dp/0143037889",
+              "title": "The Singularity Is Near: When Humans Transcend Biology: Kurzweil, Ray: 8601405784551: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "“Anyone can grasp Mr. Kurzweil’s main idea: that mankind’s technological knowledge has been snowballing, with dizzying prospects for the future. The basics are clearly expressed.\n\n...\n\nHow AI Will Shape Our Future: Understand Artificial Intelligence and Stay Ahead. Machine Learning. Generative AI. Robots. Quantum AI. Super Intelligence\n4.6 4.6 out of 5 stars 199\n$19.99 $ 19 . 99\nNext page\n\nCustomer reviews\n\n4.4 out of 5 stars\n4.4 out of 5\n2,055 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 65% 22% 9%\n\n...\n\nKurzweil is only focusing on the humanistic approach and he doesn't believe (his opinion) that the trends he is discussing will progress toward evil or cause ever more chaos in the world.\n\n...\n\nKurzweil attempts to explain both the explosive development of genetics, robotics, and nanotechnology (GRN) and the profound implications these have for the future of our species. The book is worth buying just for its stunning exposition of current trends in GRN.(Actually Garreau's GRIN, for Genetics, Robotics, Information, and Nanotechnology, is a more accurate and therefore\n\n...\n\nlimitations of biology. This transformation will be the result of the confluence of genetics, nanotechnology, and robotics and will occur sometime around 2045.\n\n...\n\nglobal elites who cling to the system as it is now.\nKurzweil himself acknowledges that terrorism is the most likely scenario that would prevent the Singularity yet he admits that he has no solution"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Plunketts-Nanotechnology-Mems-Industry-Almanac/dp/1593920628",
+              "title": "Plunkett's Nanotechnology & Mems Industry Almanac 2007: Nanotechnology & MEMS Industry Market Research, Statistics, Trends & Leading Companies: Jack W. Plunkett, Jack W. Plunkett: 9781593920623: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Manufacturing & Operational Systems\nPaperback $492.99\nOther New from $299.99\nPaperback from $299.99\n$492.99 $ 492 . 99\nFREE delivery October 16 - November 5 . Details\n\n...\n\nfTN2u%2Fm%2BVvtP0mE1ql0AsKX\",\"locale\":\"en-US\",\"buyingOptionType\":\"NEW\",\"aapiBuyingOptionIndex\":0}]}\n\nPurchase options and add-ons\n\nThis exciting new industry will enhance technologies of all types. Nanotechology has applications within biotechnology, manufacturing, aerospace, information systems and many other fields. This book covers such nanotechnology business topics as micro-electro-mechanical systems (MEMS), microengineering, microsystems, microsensors, carbon tubes and much more.\n\n...\n\nCreation of business plans is a frequent use. Other typical uses for Plunkett data include business development research, product strategy research, economic development, competitive intelligence and prospect list creation. Also, marketing execs like Plunkett data for the development of vertical industry sales plans, sales guides and industry-specific marketing tools.\"\nHow has your business changed in recent years? What changes do you expect in the coming years?\n\n...\n\nThe foundation of these data sets is our well-regarded analysis of industry trends, including finances, markets, technologies, deregulation, research/development and globalization. We empower the reader to better utilize knowledge of these trends by adding our industry statistics, profiles of leading companies, glossaries and a databas"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/2021-2026-World-Outlook-Nanodevices/dp/B0863TVK2M",
+              "title": "The 2021-2026 World Outlook for Nanodevices",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe 2021-2026 World Outlook for Nanodevices\nThis study covers the world outlook for nanodevices across more than 190 countries . For each year reported, estimates are given for the latent demand,"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1380,
+    "completion_tokens": 156,
+    "total_tokens": 1536,
+    "cost": 0.0010292248,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00002952,
+      "upstream_inference_prompt_cost": 0.00002484,
+      "upstream_inference_completions_cost": 0.00000468
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Prospects in Nanotechnology—Toward Molecular Manufacturing\" Krummenacker, M. and J. Lewis, eds. \"global ratings\"",
+  "bookId": "complete-927-386",
+  "retrieved": "2026-11-01T22:50:06.094Z"
+}

@@ -1,0 +1,87 @@
+{
+  "id": "gen-1793575080-U5L5rwRocpZtgiR4VTQs",
+  "object": "chat.completion",
+  "created": 1793575080,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Atossa-Araxia-Abrahamian/e/B0DMSFKQLQ",
+              "title": "Amazon.com: Atossa Araxia Abrahamian: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Visit Atossa Araxia Abrahamian Store on Amazon\n1. Atossa Araxia Abrahamian\n* Home\n* All Books\n* More\n\nAtossa Araxia Abrahamian\n\nMost popular\n\nThe Hidden Globe: How Wealth Hacks the World\n\n...\n\nThe Hidden Globe: How Wealth Hacks the World\n\n4.2 4.2 out of 5 stars 194\nCarousel slide 1\nby Atossa Araxia Abrahamian\nNAMED ONE OF THE TOP 5 BOOKS OF 2024 ON CBS SUNDAY MORNING\n\n...\n\nunfair; if capital is free, people deserve the same respect.” — Gideon Lewis-Kraus, The New Yorker\n\" A season of unrest looms ahead, and The Hidden Globe lays out the unvarnished truth in a luminous\n\n...\n\nA journalist’s riveting account exposes a parallel universe that has become a haven for the rich and powerful.\nA globe shows the worl\n\n...\n\nIt consists of thousands of extraterritorial zones that operate largely autonomously, and increasingly for the benefit of the wealthiest individuals and corporations.\nAtossa Abrahamian traces the rise of this hidden globe to thirteenth-century Switzerland, where poor cantons marketed their only commodity: bodies, in the form of mercenary fighters. Over time, economists, theorists, statesmen, and consultants evolved ever more sophisticated ways of exporting and exploiting statelessness, in the form of free trade zones, flags of convenience,\n\n...\n\ntherwise— The Hidden Globe fascinates, enrages, and inspires.\nNAMED ONE OF THE TOP 5 BOOKS OF 2024 ON CBS SUNDAY MORNING\nONE OF THE WASHINGTON POST' S TOP 10 BOOKS OF 2024\nA NEW YORK TIMES NOT"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Hidden-Globe-Wealth-Hacks-World/dp/B0CTVP53XT",
+              "title": "The Hidden Globe: How Wealth Hacks the World - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Hidden Globe: How Wealth Hacks the World - Amazon.com\nListening Length\n12 hours and 50 minutes\nAuthor\nAtossa Araxia Abrahamian\nNarrator\nPatrick Harrison\nPublication date\nOctober 8, 2024\nLanguage\n‎English"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Hidden-Globe-author/dp/0593854098",
+              "title": "The Hidden Globe: Atossa Araxia Abrahamian - Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Hidden Globe: Atossa Araxia Abrahamian - Books\nA journalist's riveting account exposes a parallel universe exempt from the laws of the land, and how the wealthy and powerful benefit from it."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 967,
+    "completion_tokens": 1,
+    "total_tokens": 968,
+    "cost": 0.00101726164,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000017436,
+      "upstream_inference_prompt_cost": 0.000017406,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Hidden Globe\" Atossa Araxia Abrahamian \"global ratings\"",
+  "bookId": "rest-82-72",
+  "retrieved": "2026-11-01T23:17:58.126Z"
+}

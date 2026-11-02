@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:11:41.241Z",
+  "bookId": "g0280",
+  "id": "gen-1793571096-l67ZWBvCvlVT90f2ATR5",
+  "object": "chat.completion",
+  "created": 1793571096,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"g0280\",\n  \"title\": \"Out of the Crisis\",\n  \"author\": \"W. Edwards Deming\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 507,\n    \"editionId\": \"OL22322511M\",\n    \"editionYear\": 1986,\n    \"format\": \"Hardcover\",\n    \"language\": \"English\",\n    \"url\": \"https://openlibrary.org/books/OL22322511M/Out_of_the_crisis\",\n    \"evidence\": \"xiii, 507 pages : illustrations ; 22 cm\",\n    \"sourceTitle\": \"Out of the crisis | BYU Library\",\n    \"sourceAuthor\": \"Deming, W. Edwards\"\n  },\n  \"reference\": {\n    \"count\": null,\n    \"editionId\": null,\n    \"editionYear\": null,\n    \"url\": null,\n    \"evidence\": \"Includes bibliographical references and index.\",\n    \"sourceTitle\": \"Out of the crisis | BYU Library\",\n    \"sourceAuthor\": \"Deming, W. Edwards\",\n    \"ranges\": [],\n    \"method\": \"The presence of \\\"Includes bibliographical references and index\\\" in multiple library catalog entries indicates that a bibliography is present, but the specific page range is not explicitly stated in the provided search results.\",\n    \"limitation\": \"The exact page range for the bibliographical references is not provided in the search results.\"\n  },\n  \"searchedUrls\": [\n    \"https://apps.lib.byu.edu/marcrecord/bib/696196\",\n    \"https://link.library.waubonsee.edu/resource/uTx2gEfDihA\",\n    \"https://link.livebrary.com/resource/r9DwUMZdcsk\",\n    \"https://lib.byu.edu/search/byu/record/cat.696196.item.31197231678555\",\n    \"https://archive.org/details/outofcrisis0000demi\"\n  ],\n  \"limitations\": \"The exact page range for the bibliographical references is not provided in the search results.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://apps.lib.byu.edu/marcrecord/bib/696196",
+              "title": "apps.lib.byu.edu",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Leader *****cam*a22******a*4500\n001 ## DAB6207\n001 ## a696196\n008 ## 870220s1986 maua b 00110 eng\n010 ## $a 84073346\n020 ## $a 0911379010\n035 ## $a (NRN)DAB6207\n035 ## $a (RLIN)UTBG87-B4069\n035 ## $a (OCoLC)ocn135500810\n035 ## $a (OCoLC)ocn505265605\n040 ## $a DLC\n $b eng\n $c DLC\n $d UPB\n043 ## $a n-us---\n050 00 $a HD70.U5\n $b D45 1986\n079 ## $a ocm13126265\n082 00 $a 658\n $2 19\n090 ## $a HD70.U5\n $b D45 1986\n $i 02/20/87 CTZ\n100 1# $a Deming, W. Edwards\n $q (William Edwards),\n $d 1900-1993\n $e author.\n $4 aut\n245 10 $a Out of the crisis /\n $c W. Edwards Deming.\n260 ## $a Cambridge, Massachusetts :\n $b Massachusetts Institute of Technology, Center for Advanced\n Engineering Study,\n $c 1986.\n300 ## $a xiii, 507 pages :\n $b illustrations ;\n $c 22 cm\n336 ## $a text\n $b txt\n $2 rdacontent\n337 ## $a unmediated\n $b n\n $2 rdamedia\n338 ## $a volume\n $b nc\n $2 rdacarrier\n504 ## $a Includes bibliographical references and index.\n596 ## $a LEE\n650 #0 $a Industrial management\n $z United States.\n650 #0 $a Industrial productivity\n $z United States.\n650 #0 $a Quality of products\n $z United States.\n988 ## $a 3/10/1987\n $b 3/15/1990\n $c 3/10/1987\n583 ## $a add\n $b LDSBC\n $c 20040630\n $k kxw\n $5 UPB\n583 ## $c 20151008\n $k sjh/crp\n $l Damaged:black pen\n $5 UPB\n583 ## $c 20151009\n $k sjh/crp\n $l Damaged:pencil, red pen\n $5 UPB\n945 ## $a Edwin G. Yager ;\n $d 06/30/04.\n989 ## $a HD 70 .U5 D45 1986\n $w LC\n $h hbll\n $i 31197122344994\n $d 5/18/1998\n $n 63\n $q 24\n $5 1/1\n955 ## $l MAN\n $c 1\n $r 122344994\n $i 02/20/87 C"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://link.library.waubonsee.edu/resource/uTx2gEfDihA",
+              "title": "Bibliograph",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Bibliograph\n\nOut of the crisis, W. Edwards Deming\n\nType\n\n- http://bibfra.me/vocab/lite/Work\n- http://bibfra.me/vocab/marc/Books\n- http://bibfra.me/vocab/marc/LanguageMaterial\n\n### Link Analysis\n\n- QP 300\n- 658\n- 85.12\n\n- Deming, W. Edwards, William Edwards, 1900-1993\n\nSubject\n\nContent\n\nMapped to\n\nLabel Out of the crisis, W. Edwards Deming\n\nLanguage eng\n\nBibliography note Includes bibliographical references and index\n\nIllustrations illustrations\n\nIndex index present\n\nLiterary form non fiction\n\nMain title Out of the crisis\n\nNature of contents bibliography\n\nOclc number 46934182\n\nResponsibility statement W. Edwards Deming\n\nSummary\n\nDeming makes a case to transform management style from working in current growth to a style where managers and executives are evaluated according to their ability to plan to stay in business. The plan to stay in business includes forecasting industrial futures and matching company needs, protecting investments, and securing more jobs through improved product and service\n\nTable of contents\n\nChain reaction : quality, productivity, lower costs, capture the market -- Principles for transformation of western management -- Diseases and obstacles -- When? How long? -- Questions to help managers -- Quality and the consumer -- Quality and productivity in service organizations -- Some new principles of training and leadership -- Operational definitions, conformance, performance -- Standards and regulations -- Common causes and special causes of improvement. Stable system -- More examples of improvement downstream -- Some disappointments in great ideas -- Two reports to management -- Plan for minimum average total cost for test of incoming materials and final product -- Organization for improvement of quality and productivity -- Some illustrations for improvement of living -- Appendix : Transformation in Japan\n\n### Incoming Resources\n\n- Has instance 1\n\n- Out of the crisis, W. Edwards Deming - alk. paper"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://link.livebrary.com/resource/r9DwUMZdcsk",
+              "title": "Bibliograph",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Bibliograph\n\nOut of the crisis, W. Edwards Deming\n\nType\n\n- http://bibfra.me/vocab/lite/Work\n- http://bibfra.me/vocab/marc/Books\n- http://bibfra.me/vocab/marc/LanguageMaterial\n\n- Deming, W. Edwards, William Edwards, 1900-1993\n\nSubject\n\nContent\n\nOther version\n\n- (Original, 9780262541152)\n\nLabel Out of the crisis, W. Edwards Deming\n\nLanguage eng\n\nBibliography note Includes bibliographical references and index\n\nIllustrations illustrationscharts\n\nIndex index present\n\nLiterary form non fiction\n\nMain title Out of the crisis\n\nNature of contents bibliography\n\nResponsibility statement W. Edwards Deming\n\nTarget audience adult"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://lib.byu.edu/search/byu/record/cat.696196.item.31197231678555",
+              "title": "Out of the crisis | BYU Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Out of the crisis | BYU Library\n\n- BYU Library Bookshelves \n\n HD 70 .U5 D45 1986 \n\nbook_2 Book / Floor 1–C\n\n- Available — 1 copy \n- 2 other copies \n\n book_2 Book/ Deming, W. Edwards, 1900–1993, William Edwards > \n\n1986, Cambridge, Massachusetts: Massachusetts Institute of Technology, Center for Advanced Engineering Study, English\n\n BYU Library Bookshelves / Floor 1–C \n\n HD 70 .U5 D45 1986 \n\n## Available for Checkout — 1 copy \n\n On shelf. See map. \n\n## Checked Out — 2 copies \n\n Due 3 Dec and 5 Apr \n\n Place a request \n\n## Map\n\n See full map → \n\n### Extent\n\n- xiii, 507 pages: illustrations; 22 cm\n\n### Subjects\n\n### Identifier\n\n### Language\n\n- English \n\n### Creation Date\n\n- 1986\n\n### Gift note\n\n- Gift of: Edwin G. Yager\n- Date cataloged: 06/30/04.\n\n### Bibliography\n\n- Includes bibliographical references and index.\n\n### Book List Review\n\n- The most accessible of Deming's writings and a summing up of his work. Deming is frequently credited with being the man who taught the Japanese about quality.\n\n### Summary\n\n- Deming offers a theory of management based on his famous 14 Points for Management."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/outofcrisis0000demi",
+              "title": "Out of the crisis : Deming, W. Edwards (William Edwards), 1900-1993 : Free Download, Borrow, and Streaming : Internet Archive",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Out of the crisis \n\nby\n: Deming, W. Edwards (William Edwards), 1900-1993\n\nPublication date\n: 2000\n\n...\n\nPublisher\n: Cambridge, Mass. : MIT Press\nCollection\n: internetarchivebooks; printdisabled\nContributor\n: Internet Archive\nLanguage\n: English\nItem Size\n: 753.2M \n\nxiii, 507 pages : 22 cm Deming makes a case to transform management style from working in current growth to a style where managers and executives are evaluated according to their ability to plan to stay in business. The plan to stay in business includes forecasting industrial futures and matching company needs, protecting investments, and securing more jobs through improved product and service Includes bibliographical references and index Chain reaction : quality, productivity, lower costs, capture the market -- Principles for transformation of western management -- Diseases and obstacles -- When? How long? -- Questions to help managers -- Quality and the consumer -- Quality and productivity in service organizations -- Some new principles of training and leadership -- Operational definitions, conformance, performance -- Standards and regulations -- Common causes and special causes of improvement. Stable system -- More examples of improvement downstream -- Some disappointments in great ideas -- Two reports to management -- Plan for minimum average total cost for test of incoming materials and final product -- Organization for improvement of quality and productivity -- Some illustrations for improvement of living -- Appendix : Transformation in Japan \n\n## Notes\n\nCut-off text on some pages due text runs into the gutter.\n\nNo suitable files to display here."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2873,
+    "completion_tokens": 526,
+    "total_tokens": 3399,
+    "cost": 0.007492723,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004977,
+      "upstream_inference_prompt_cost": 0.0002873,
+      "upstream_inference_completions_cost": 0.0002104
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

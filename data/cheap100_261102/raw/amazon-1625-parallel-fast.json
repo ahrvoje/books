@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793574335-8ljK02PKZiMOxjjJgrzS",
+  "object": "chat.completion",
+  "created": 1793574335,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"n1ecfe9ecdc\",\n  \"title\": \"Sierra Hotel: Flying Air Force Fighters in the Decade After Vietnam\",\n  \"author\": \"C. R. Anderegg\",\n  \"pages\": {\n    \"count\": 304,\n    \"url\": \"https://www.amazon.com/Sierra-Hotel-Flying-Air-Force/dp/0316361187\",\n    \"edition\": \"Paperback\",\n    \"format\": \"Print\",\n    \"evidence\": \"Amazon product page\"\n  },\n  \"amazon\": {\n    \"count\": 100,\n    \"url\": \"https://www.amazon.com/Sierra-Hotel-Flying-Air-Force/dp/0316361187\",\n    \"asin\": \"0316361187\",\n    \"evidence\": \"Amazon global ratings\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Wild-Cities-Francesca-Anderegg/dp/B01FE83Q3U",
+              "title": "Francis, R. / Anderegg, Francesca - Wild Cities",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nFrancis, R. / Anderegg, Francesca - Wild Cities\nViolinist Francesca Anderegg releases this collection of new works for violin and piano by young composers influenced by the minimalist heritage of John Adams."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 450,
+    "completion_tokens": 212,
+    "total_tokens": 662,
+    "cost": 0.0010143154,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001446,
+      "upstream_inference_prompt_cost": 0.0000081,
+      "upstream_inference_completions_cost": 0.00000636
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Sierra Hotel\" C. R. Anderegg \"global ratings\"",
+  "bookId": "n1ecfe9ecdc",
+  "retrieved": "2026-11-01T23:05:38.410Z"
+}

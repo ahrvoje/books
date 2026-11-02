@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793572726-bdRezd7MevgenUW9eeP7",
+  "object": "chat.completion",
+  "created": 1793572726,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-5a126b79b9e4:amazon:https://www.amazon.com/Political-Order-Decay-Industrial-Globalization/dp/0374227357\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 1,299 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1465:amazon:https://www.amazon.com/Search-Schr%C3%B6dingers-Cat-Quantum-Physics/dp/0553342533\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 617 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"bg67eac18210:amazon:https://www.amazon.com/Brain-Rules-Principles-Surviving-Thriving/dp/0979777747\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 1,423 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u0896:amazon:https://www.amazon.com/Great-Choice-Uncertainty-Luck-Why-Despite/dp/0062120999\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 1,680 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-164ea5990a99:amazon:https://www.amazon.com/Peter-Principle-Dr-Laurence-J/dp/0553054333\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 1,465 global ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3570,
+    "completion_tokens": 439,
+    "total_tokens": 4009,
+    "cost": 0.0002114838,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021362,
+      "upstream_inference_prompt_cost": 0.0001785,
+      "upstream_inference_completions_cost": 0.00003512
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:38:52.031Z"
+}

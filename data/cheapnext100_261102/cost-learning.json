@@ -1,0 +1,61 @@
+{
+  "recordedCostUSD": 0.29326151182400007,
+  "previous100RecordedCostUSD": 0.273962058604,
+  "changeFraction": 0.07044571543352474,
+  "acceptedFields": 100,
+  "costPerAcceptedFieldUSD": 0.0029326151182400007,
+  "cachedFields": 2,
+  "groups": {
+    "one-token Amazon search": {
+      "calls": 220,
+      "costUSD": 0.23577076387480014,
+      "acceptedFields": 97
+    },
+    "500-token Amazon control": {
+      "calls": 10,
+      "costUSD": 0.010784297799999999,
+      "acceptedFields": 0
+    },
+    "audit": {
+      "calls": 20,
+      "costUSD": 0.0041657814,
+      "acceptedFields": 0
+    },
+    "reference search": {
+      "calls": 39,
+      "costUSD": 0.042540668749200004,
+      "acceptedFields": 1
+    }
+  },
+  "pilot": {
+    "books": 10,
+    "controlCostUSD": 0.010784297799999999,
+    "shortCostUSD": 0.010741067470000002,
+    "savingFraction": 0.004008636519662545,
+    "sourceCountsPreserved": true,
+    "evidence": "pilot.json",
+    "limits": "Same excerpt counts do not prove identical excerpt content or equal recall. Search input text and token counts varied between calls."
+  },
+  "lessons": [
+    "Mistral Nemo plus Parallel fast with ten results remains the main low-cost setup.",
+    "One-token responses preserved web annotations in all ten paired calls; measured total savings were less than 1%. Use only when source annotations, not model-generated extraction, are the intended output.",
+    "Keep full output budgets for the evidence audit.",
+    "Reusing evidence and remapping secondary results remain more valuable than output-token savings.",
+    "This round had only two usable cached values and one accepted reference count. Batch mix and search difficulty differ; do not claim a global efficiency improvement.",
+    "Retain title and author in searches; the previous ISBN-only pilot failed."
+  ],
+  "scope": "Recorded successful OpenRouter responses, including pilot and audit. Not an invoice; interrupted requests may be billed separately.",
+  "confidence": "High for recorded cost and arithmetic; moderate for generalization of the small pilot.",
+  "futureDefaults": {
+    "researchModel": "mistralai/mistral-nemo",
+    "plugin": {
+      "id": "web",
+      "engine": "parallel",
+      "mode": "fast",
+      "max_results": 10
+    },
+    "researchMaxTokens": 1,
+    "auditModel": "mistralai/mistral-small-24b-instruct-2501",
+    "auditMaxTokens": 3000
+  }
+}

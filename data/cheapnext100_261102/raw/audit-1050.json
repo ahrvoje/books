@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574809-DtfnauJOH2J9XCCGibzT",
+  "object": "chat.completion",
+  "created": 1793574809,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"bgc3559d0548:amazon:https://www.amazon.com/Billion-Dollar-Whale-Fooled-Hollywood/dp/031643650X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 7,946.\"\n    },\n    {\n      \"key\": \"rest-120-100:amazon:https://www.amazon.com/Enlightenment-Ritchie-Robertson/dp/0062410652\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 432.\"\n    },\n    {\n      \"key\": \"n39e60c9354:amazon:https://www.amazon.com/Shop-Class-Soulcraft-Inquiry-Value-ebook/dp/B00273BHPU\",\n      \"status\": \"reject\",\n      \"reason\": \"The evidence is a global rating count of 1,698, but the print page count is not identified.\"\n    },\n    {\n      \"key\": \"g1079:amazon:https://www.amazon.com/Craft-Freemasons-Made-Modern-World/dp/161039867X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 748.\"\n    },\n    {\n      \"key\": \"rem-u1649:amazon:https://www.amazon.com/Consilience-Knowledge-Edward-Osborne-Wilson/dp/067976867X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 461.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3599,
+    "completion_tokens": 441,
+    "total_tokens": 4040,
+    "cost": 0.0002130777,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021523,
+      "upstream_inference_prompt_cost": 0.00017995,
+      "upstream_inference_completions_cost": 0.00003528
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:13:30.692Z"
+}

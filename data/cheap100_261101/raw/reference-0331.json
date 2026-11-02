@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572628-uz5kbB62HhDigcs7KAAS",
+  "object": "chat.completion",
+  "created": 1793572628,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"intake-0053\",\n  \"title\": \"Idea Man\",\n  \"author\": \"Paul Allen\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 1,\n    \"url\": \"http://lib.pmu.edu.sa/cgi-bin/koha/opac-detail.pl?biblionumber=426&shelfbrowse_itemnumber=728\",\n    \"evidence\": \"Includes bibliographical references and indexes.\",\n    \"ranges\": [\n      {\n        \"start\": 0,\n        \"end\": 0,\n        \"label\": \"bibliographical references\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://lib.pmu.edu.sa/cgi-bin/koha/opac-detail.pl?biblionumber=426&shelfbrowse_itemnumber=728",
+              "title": "Learning Resource Center catalog › Details for: \n    American economic history /",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Learning Resource Center catalog › Details for: American economic history / \n\n \n\n## American economic history / Jonathan Hughes, Louis P. Cain. \n\nBy: Hughes, Jonathan R. T Contributor(s): Cain, Louis P Material type: Text Series: The Pearson series in economics Publisher: Boston : Pearson Addison-Wesley, c2011 Edition: 8th ed Description: xxi, 694 p. : ill., maps ; 24 cm ISBN: 9780137037414 (alk. paper); 0137037414 (alk. paper) Subject(s): United States -- Economic conditions DDC classification: 330.973 LOC classification: HC103 | .H75 2011\n\nRate me Average rating: 0.0 (0 votes)\n\n| Item type | Current library | Call number | Copy number | Status | Notes | Date due | Barcode |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Books | Female Library | HC103 .H75 2011 (Browse shelf (Opens below)) | 1 | Available | STACKS | | 51952000082262 |\n| Books | Main Library | HC103 .H75 2011 (Browse shelf (Opens below)) | 1 | Available | STACKS | | 51952000061199 |\n\n##### Browsing Female Library shelves Close shelf browser \n\n| Previous | | | | | | | | Next |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | HB99.3 .S45 2017 Collective choice and social welfare / | HB99.7 .K3639 2013 Keynes and modern economics / Edited by Ryuzo Kuroki | HC102.5 .A49 A3 2011 Idea man : a memoir by the cofounder of Microsoft / | HC103 .H75 2011 American economic history / | HC105 .B813 2010 American colossus : the triumph of capitalism, 1865-1900 / | HC106.5 .G32 1998 The affluent society / | HC106.83 .L5 2010 The big short : inside the doomsday machine / | |\n\n Includes bibliographical references and indexes. \n\n 1 2 \n\nThere are no comments on this title."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://memoof.me/download/910/pdf/910.pdf",
+              "title": "The Apple II Age",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## The Apple II Age\n\nHOW THE COMPUTER \nBECAME PERSONAL \nLaine Nooney \n\nThe University of Chicago Press Chicago and London\n\nThe University of Chicago Press, Chicago 60637 \nThe University of Chicago Press, Ltd., London \n© 2023 by Laine Nooney\n\n...\n\nISBN-13: 978-0-226-81652-4 (cloth) \nISBN-13: 978-0-226-81653-1 (e-book)\n\n...\n\nLibrary of Congress Cataloging-in-Publication Data \nNames: Nooney, Laine, author. \nTitle: The Apple II age : how the computer became personal / Laine \nNooney. \nDescription: Chicago : The University of Chicago Press, 2023. | \nIncludes bibliographical references and index. \nIdentifiers: LCCN 2022045947 | ISBN 9780226816524 (cloth) | \nISBN 9780226816531 (ebook) \nSubjects: LCSH: Apple II (Computer) | Microcomputers. \nClassification: LCC QA76.8.A66 N66 2023 | DDC 005.265—dc23/ \neng/20221021 \nLC record available at https://lccn.loc.gov/2022045947\n\n...\n\nNotes 285 \nBibliography 321 \nIndex 345\n\n...\n\nYet this spirit of sharing did not limit itself to collaborative coding projects: Altair BASIC itself was also sub ject to extensive unlicensed reproduction—in other words, software piracy. Hobbyists, MITS discovered, were reproducing Altair BASIC within their own hobbyist user groups, duplicating it from one user to\n\nanother as they would a piece of homebrewed software. 67 By the be \nginning of 1976, it was claimed only an estimated 10 percent of Altair \nowners had also purchased Altair BASIC. 68 \nWhile these unlicensed duplications may have short-sheeted \nMITS’s ability to leverage software as a supplemental revenue stream, \nthe real loss of monetary potential was felt by Altair BASIC’s devel \nopers: a minuscule startup called Micro-Soft, helmed by the twenty \ntwo-year-old Paul Allen and Bill Gates, who was all of nineteen at \nthe time. 69 Gates and Allen had drummed up the idea of a BASIC \ninterpreter for the Altair after seeing the January 1975 issue of Popu \nlar Electronics, then called up MITS and bluffed their way through a \nphone call with Ed Roberts. 70 They weren’t the only computer hobby \nists with this scheme: Roberts reported that he received many such \ncalls and would give the contract to the first person who showed up in \nAlbuquerque with a working program. 71 Developing nonstop for the \nnext two months, Gates and Allen managed to be the first to get a \ntightly programmed and fairly sophisticated implementation of BA \nSIC into Roberts’s hands (in no small part thanks to the unsupervised \naccess Gates had to a PDP-10 while enrolled as an undergraduate at \nHarvard). \nThe deal Gates and Allen eventually struck with MITS was multi ­ \nlayered. Foremost, MITS received exclusive worldwide rights and \nlicense to Altair BASIC for ten years, although Micro-Soft retained \nownership of the software. In exchange, Micro-Soft received $3,000 \nup front and a per-copy royalty arrangement. Royalties on bundled \nsales ranged from $30 to $60, depending on whether the 4K, 8K, or \nextended version (bundled, those versions of BASIC cost the con \nsumer $50, $75, or $150, respectively) was sold. 72 Royalties for the \nexpensive stand-alone copies were split fifty-fifty between MITS and \nMicro-Soft, as were any sublicenses sold to other computer manufac \nturers. Since Gates and Allen retained ownership of the software, they \ncould pursue sublicensing arrangements on MITS’s behalf, taking a \n50 percent cut of each flat-fee sublicense all while expanding their \nreputation as the company supplying microcomputer programming \n\nlanguages. Gates and Allen could have elected to sell Altair BASIC themselves, but they benefited by not having to engage with all the details MITS handled, including advertising and marketing, manu facturing, and sales and distribution. By keeping their mission fo cused on software and letting MITS handle the overhead, Micro-Soft avoided having to dramatically scale up its internal management or involve itself in extraneous parts of the supply chain."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://files.znu.edu.ua/files/Bibliobooks/Inshi79/0058907.pdf",
+              "title": "Innovation Project Management",
+              "start_index": 0,
+              "end_index": 0,
+              "content": ": Kerzner, Harold, author. \nTitle: Innovation Project Management : Methods, Case Studies, and Tools for Managing Innovation \nProjects/Harold Kerzner \nDescription: Hoboken, NJ: ... Sons, 2023. | Includes bibliographical references and index."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.princeton.edu/catalog/SCSB-8694224",
+              "title": "The capitalist philosophers : the geniuses of modern business--their lives, times, and ideas / Andrea Gabor. - Princeton University Library Catalog",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The capitalist philosophers : the geniuses of modern business--their lives, times, and ideas / Andrea Gabor. - Princeton University Library Catalog\n\n# The capitalist philosophers : the geniuses of modern business--their lives, times, and ideas / Andrea Gabor.\n\nAuthor\n: Gabor, Andrea [Browse]\n Format \n: Book \n Language \n: English \n Εdition \n: 1st ed. \n Published/​Created \n: New York : Times Business, c2000. \n Description \n: xvi, 384 p. ; 25 cm. \n\n### Copies in the Library\n\n ReCAP - Remote Storage \n\n| Call Number | Status | Location Service |\n| --- | --- | --- |\n| JBE 00-1531 Call no. browse First Edition (2000) | | Request |\n\n## Details\n\n Subject(s) \n: - Taylor, Frederick Winslow 1853-1929— Influence [Browse]\n- Industrial management— United States— History [Browse]\n- Corporations— United States— History— 20th century [Browse]\n- Industrial sociologists— United States— Biography [Browse]\n- Industrial psychologists— United States— Biography [Browse]\n Bibliographic references \n: Includes bibliographical references (p. [359]-366) and index. \n Contents \n: - Frederick Winslow Taylor: the father of scientific management\n- Mary Parker Follett: the mother of postscientific management\n- Chester Barnard: the philosopher king of American management\n- Fritz Roethlisberger and Elton Mayo: two creative misfits who invented \"human relations\" (and put the Harvard Business School on the map)\n- Robert S. McNamara: the \"bean counters\" usher in a new era of scientific management\n- Abraham Maslow and Douglas McGregor: from human relations to the frontiers of system dynamics\n- W. Edwards Deming: the prophets of the quality movement and the learning organization\n- Herbert A. Simon: the needle and the haystack\n- Alfred Du Pont Chandler and Alfred Sloan: the historian and the CEO\n- Peter F. Drucker: the big idea man.\n\n Show 7 more Contents items \n ISBN \n: 0812928202 \n LCCN \n: 99026324 \n OCLC \n: 41039955 \n RCP \n: N - O"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.ocls.org/Record/.b25722141",
+              "title": "Jim Henson's imagination illustrated / | Orange County Library System",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Jim Henson's imagination illustrated / | Orange County Library System\n\n# Jim Henson's imagination illustrated (Book)\n\nAverage Rating\n\nAuthor Falk, Karen \n\nContributors\n\nHenson, Lisa, 1960- Writer of introduction. Howard, Ron, 1954- Writer of foreword.\n\nStatus\n\nChecked Out Check Location Availability\n\n## Copies\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| Alafaya - Adult | 791.53 FAL | Checked Out |\n\n## Table of Contents\n\nPrologue \n\n The Washington years: 1954-1962 \n\n New York and new directions: 1963-1969 \n\n The world tunes in: 1970-1979 \n\n Fantasy, Fraggles, and fearless imagination: 1980-1988 \n\n Epilogue: to be continued: 1989-1990 \n\n Time line \n\n Selected bibliography.\n\nBiographies. Henson, Jim. Muppet show (Television program) Puppeteers -- United States -- Biography. Television producers and directors -- United States -- Biography. \n\n## More Details\n\nPublished San Rafael, California : Insight Editions, 2024.\n\nFormat Book\n\nEdition Updated edition.\n\nPhysical Desc 191 pages : illustrations (some color) ; 26 cm\n\nLanguage English\n\nISBN 9798886636147 (hardcover) :\n\nNotes\n\nGeneral Note \"Disney+ original documentary Jim Henson Idea Man\"--Cover\n\nGeneral Note \"Updated with a new foreword by Ron Howard\"--Cover\n\nGeneral Note\n\nOriginally published as Imagination illustrated: the Jim Henson journal by Chronicle Books in 2012\n\nGeneral Note Edition statement taken from back cover.\n\nBibliography Includes bibliographical references (page 187) and index\n\nDescription\n\n\"This new edition of Imagination Illustrated takes the journal that Henson faithfully kept throughout much of his career and brings it to life with a trove of visual material, including rare sketches, personal and production photographs, storyboards, doodles, and more.\"-- Provided by the publiser\n\nFalk, K., Henson, L., & Howard, R. (2024). Jim Henson's imagination illustrated. (Updated edition). Insight Editions."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3365,
+    "completion_tokens": 151,
+    "total_tokens": 3516,
+    "cost": 0.0071785267,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00018033,
+      "upstream_inference_prompt_cost": 0.00016825,
+      "upstream_inference_completions_cost": 0.00001208
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "intake-0053",
+  "retrieved": "2026-11-01T22:37:12.782Z"
+}

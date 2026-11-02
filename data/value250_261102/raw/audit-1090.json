@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575672-K1r2WeA6E4269k6M5pqR",
+  "object": "chat.completion",
+  "created": 1793575672,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"progress-0302:amazon:https://www.amazon.com/North-Star-over-My-Shoulder/dp/0743262301\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 236 ratings is explicitly labelled.\"\n    },\n    {\n      \"key\": \"shelf-444265f71e4f:amazon:https://www.amazon.com/Perilous-Frontier-Nomadic-Empires-Discontinuity/dp/1557863245\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 15 global ratings is explicitly labelled.\"\n    },\n    {\n      \"key\": \"g0226:amazon:https://www.amazon.com/Certain-Win-Strategy-Applied-Business/dp/1413453767\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 353 global ratings is explicitly labelled.\"\n    },\n    {\n      \"key\": \"shelf-ee1dbb3b07f6:amazon:https://www.amazon.com/Looking-Eleven-Walks-Expert-Eyes/dp/1439191255\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 672 global ratings is explicitly labelled.\"\n    },\n    {\n      \"key\": \"n55f4397a7e:amazon:https://www.amazon.com/Wasteland-Secret-Urgent-Search-Cleaner/dp/0306827115\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 292 ratings is explicitly labelled.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3567,
+    "completion_tokens": 446,
+    "total_tokens": 4013,
+    "cost": 0.0002118897,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021403,
+      "upstream_inference_prompt_cost": 0.00017835,
+      "upstream_inference_completions_cost": 0.00003568
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:27:57.899Z"
+}

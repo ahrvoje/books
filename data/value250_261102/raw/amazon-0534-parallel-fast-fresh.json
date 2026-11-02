@@ -1,0 +1,97 @@
+{
+  "id": "gen-1793575677-fzunA5zmHOnbuTS7lowu",
+  "object": "chat.completion",
+  "created": 1793575677,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Doug-Menuez/e/B001JSBIWG",
+              "title": "Doug Menuez: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nDoug Menuez: books, biography, latest update\nwork, fine art documentary projects and film. Fearless Genius: The Digital Revolution in Silicon Valley. Defying Gravity: The Making of Newton Quick look.\n\n## \n\nDoug Menuez: books, biography, latest update\nDoug Menuez is an American photographer (b.1957) whose career over 30 years has ranged from photojournalism to commissioned work, fine art documentary projects\n\n## \n\nDoug Menuez: books, biography, latest update\nDoug Menuez is an American photographer (b.1957) whose career over 30 years has ranged from photojournalism to commissioned work, fine art documentary"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Fearless-Genius-Digital-Revolution-1985-2000/dp/1476752699",
+              "title": "Fearless Genius: The Digital Revolution in Silicon Valley ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Click the button below to continue shopping\n\nContinue shopping\nConditions of Use Privacy Policy\n© 1996-2025, Amazon.com, Inc. or its affiliates"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/White-Girl-Morgan-Saylor/dp/B01MQKQDSF",
+              "title": "Watch White Girl | Prime Video",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nWatch White Girl | Prime Video\nDirectors: Elizabeth Wood ; Producers: Gabriel Nussbaum ; Cast: Morgan Saylor, Brian \"Sene\" Marc, Justin Bartha, Chris Noth, Bobbi Menuez, Adrian Martinez, \n\n## \n\nWatch White Girl | Prime Video\nA hard-partying, New York college freshman (Morgan Saylor) tries to get a drug dealer (Brian \"Sene\" Marc) out of jail. 3.9/5. IMDb 5.7/1020161 h 30 min.\n\n## \n\nWatch White Girl | Prime Video\nA hard-partying, New York college freshman (Morgan Saylor) tries to get a drug dealer (Brian \"Sene\" Marc) out of jail.\n\n## \n\nWatch White Girl | Prime Video\nPlay 30-day free trial. TV-MA nudity, violence, DVD from $12.08 Blu Prime Video. Amazon Live Registry & Gift List\n\n## \n\nWatch White Girl | Prime Video\nMorgan Saylor from \"Homeland\" shines in this raw, gritty drama. A hard-partying, New York college freshman (Morgan Saylor) tries to get a drug dealer\n\n## \n\nWatch White Girl | Prime Video\nA college girl falls hard for a guy she's just met. After a night of partying goes wrong, she goes to wild extremes to get him back.\n\n## \n\nWatch White Girl | Prime Video\nMorgan Saylor from \"Homeland\" shines in this raw, gritty drama. A college girl falls hard for a guy she's just met. After a night of partying goes wrong, she"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/prime-video/actor/Geerteke-van-Lierop/amzn1.dv.gti.5eecccd9-31f7-48f3-a602-7607abb39514",
+              "title": "Geerteke van Lierop: Movies, TV, and Bio",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nGeerteke van Lierop: Movies, TV, and Bio\nActor, Writer Born July 5, 1980 in Tilburg, Noord-Brabant, Netherlands. She played lead roles in the feature films Second Honeymoon (2015) and Exposure (in\n\n## \n\nGeerteke van Lierop: Movies, TV, and Bio\nIn 2005 she graduated from the University of Amsterdam where she studied Dutch Language and Culture, specialising in South African literature.\n\n## \n\nGeerteke van Lierop: Movies, TV, and Bio\nShe is a popular voice-over for commercials, corporate films and audio books and works closely with TEDx in the Netherlands as a speakers coach."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1252,
+    "completion_tokens": 1,
+    "total_tokens": 1253,
+    "cost": 0.00102234034,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000022566,
+      "upstream_inference_prompt_cost": 0.000022536,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Fearless Genius\" Doug Menuez \"global ratings\"",
+  "bookId": "progress-0767",
+  "retrieved": "2026-11-01T23:27:58.621Z"
+}

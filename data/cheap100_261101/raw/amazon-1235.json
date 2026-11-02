@@ -1,0 +1,70 @@
+{
+  "id": "gen-1793572556-JR6zHnVdwDeRWXkX8J6j",
+  "object": "chat.completion",
+  "created": 1793572556,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"id\": \"g0486\",\n  \"title\": \"There Must Be A Pony In Here Somewhere\",\n  \"author\": \"Kara Swisher; Lisa Dickey\",\n  \"amazon\": {\n    \"count\": 320,\n    \"url\": \"https://www.amazon.com/There-Must-Pony-Here-Somewhere/dp/1400049636\",\n    \"asin\": \"1400049636\",\n    \"evidence\": \"Amazon product page [amazon.com](https://www.amazon.com/There-Must-Pony-Here-Somewhere/dp/1400049636)\"\n  },\n  \"reference\": null\n}",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Lisa-Dickey/s?rh=n%3A283155%2Cp_27%3ALisa%2BDickey",
+              "title": "Lisa Dickey: Books - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "There Must Be a Pony in Here Somewhere: by Kara Swisher. A Remarkable Story of Faith, Family, and Forgiveness"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/There-Must-Pony-Here-Somewhere/dp/1400049636",
+              "title": "There Must Be a Pony in Here Somewhere: The AOL Time ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "A gripping behind-the-scenes account of the disastrous AOL-Time Warner merger and its lasting impact on the digital landscape."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 502,
+    "completion_tokens": 163,
+    "total_tokens": 665,
+    "cost": 0.00501925352,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000019448,
+      "upstream_inference_prompt_cost": 0.000014558,
+      "upstream_inference_completions_cost": 0.00000489
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "g0486",
+  "retrieved": "2026-11-01T22:36:05.921Z"
+}

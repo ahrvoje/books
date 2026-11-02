@@ -1,0 +1,107 @@
+{
+  "id": "gen-1793575550-9qOT5RHt88fCNvolOIT8",
+  "object": "chat.completion",
+  "created": 1793575550,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Cult-Statistical-Significance-Economics-Cognition/dp/0472050079",
+              "title": "The Cult of Statistical Significance: How the Standard Error ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Cult of Statistical Significance: How the Standard Error ...\nStephen T. Ziliak is the author or editor of many articles and two books. He currently lives in Chicago, where he is Professor of Economics at Roosevelt"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Cult-Statistical-Significance-Economics-Cognition/dp/047207007X",
+              "title": "The Cult of Statistical Significance: How the Standard Error ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Cult of Statistical Significance: How the Standard Error ...\nThis book is about how \"statistical significance,\" a technique that dominates many sciences, has been a huge mistake."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Economical-Writing-Third-Thirty-Five-Persuasive/dp/022644807X",
+              "title": "Amazon.com: Economical Writing, Third Edition: Thirty-Five ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nAmazon.com: Economical Writing, Third Edition: Thirty-Five ...\nEconomical Writing, Third Edition: Thirty-Five Rules for Clear and Persuasive Prose (Chicago Guides to Writing, Editing, and Publishing) by Deirdre Nansen McCloskey (Author), Stephen T. Ziliak (Contributor) Format: Paperback Part of: Chicago Guides to Writing, Editing, and Publishing (95 books) See all formats and editions\n\n## \n\nEconomical Writing, Third Edition: Thirty-Five Rules for ...\nEconomical Writing is itself economical: a collection of thirty-five pithy rules for making your writing clear, concise, and effective.\n\n## \n\nEconomical Writing, Third Edition: Thirty-Five Rules for ...\nA concise guide offering thirty-five practical rules for clear and effective writing, focusing on paragraph, sentence, and word-level improvements"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Statistics-Business-Economics-Global-McClave/dp/1292413395",
+              "title": "Statistics for Business & Economics [Global Edition]",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nStatistics for Business & Economics [Global Edition]\nStatistics for Business and Economics introduces statistics in the context of contemporary business. Emphasising statistical literacy in thinking.\n\n## \n\nStatistics for Business & Economics [Global Edition]\nA practical guide to understanding and applying statistical methods in business decision-making, emphasizing data analysis and ethical considerations."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Statistics-People-Think-They-Hate/dp/0761927883",
+              "title": "Statistics For People Who (Think They) Hate Statistics",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nStatistics For People Who (Think They) Hate Statistics\nThe book by Salkind is easy and pleasant to read and one that hardly needs any pre-knowledge of the field to be able to follow the author′s train of thoughts.\n\n## \n\nStatistics For People Who (Think They) Hate Statistics\nPublisher. SAGE Publications, Inc ; Publication date. December 16, 2003 ; Language. English ; Dimensions. 7 x 1 x 9.75 inches ; Print length. 424 pages."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1067,
+    "completion_tokens": 1,
+    "total_tokens": 1068,
+    "cost": 0.00101904364,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000019236,
+      "upstream_inference_prompt_cost": 0.000019206,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Cult of Statistical Significance\" Stephen T. Ziliak; Deirdre N. McCloskey \"global ratings\"",
+  "bookId": "complete-366-94",
+  "retrieved": "2026-11-01T23:25:52.560Z"
+}

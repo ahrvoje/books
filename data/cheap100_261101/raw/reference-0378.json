@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572676-yVFfUVotCJtWjugltvPC",
+  "object": "chat.completion",
+  "created": 1793572676,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-2b5713574a3e\",\n  \"title\": \"Evolution Now\",\n  \"author\": \"John Maynard Smith\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 1,\n    \"url\": \"https://ntrs.nasa.gov/api/citations/20100003003/downloads/20100003003.pdf?attachment=true\",\n    \"evidence\": \"Includes bibliographical references.\",\n    \"ranges\": [\n      {\n        \"start\": 0,\n        \"end\": 0,\n        \"label\": \"bibliographical references\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.nasa.gov/wp-content/uploads/2023/03/sp-4802.pdf?emrc=cf21cc",
+              "title": "Cosmos & Culture: Cultural Evolution in a Cosmic Context",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Edited by Steven J. Dick and Mark L. Lupisella\n\nNASA SP-2009-4802\n\nLibrary of Congress Cataloging-in-Publication Data \nCosmos and Culture : Cultural Evolution in a Cosmic Context / Steven J. Dick and Mark \nLupisella, editors. \np. cm. -- (NASA SP ; 4802) \nIncludes bibliographical references and index. \n1. Cosmology--History. 2. Astronomy--History. 3. Culture--Origin. 4. Social evolution. 5. \nHuman evolution. I. Dick, Steven J. II. Lupisella, Mark. \nQB981.C8263 2009 \n523.109--dc22 \n\n2009004348\n\nI S B N 978-0-16-083119-5\n\n9 0 0 0 0\n\n9 7 8 0 1 6 0 8 3 1 1 9 5\n\n...\n\n### Table of Contents\n\n\n\nIntroduction – Steven J. Dick and Mark L. Lupisella v\n\nPart 1: The Cosmic Context Chapter 1 – Eric J. Chaisson Cosmic Evolution State of the Science 3 \nChapter 2 – Steven J. Dick \nCosmic Evolution \nHistory, Culture, and Human Destiny 25 \n\nPart 2: Cultural Evolution Chapter 3 – Kathryn Denning Social Evolution State of the Field 63 Chapter 4 – Daniel C. Dennett The Evolution of Culture 125\n\nChapter 5 – Howard Bloom The Big Burp and the Multiplanetary Mandate 145\n\nChapter 6 – John M. Smart \nEvo Devo Universe? \nA Framework for Speculations on Cosmic Culture 201 \nChapter 7 – Susan Blackmore\n\n...\n\nBut how shall we characterize complexity, a slippery term for many \nresearchers? In biology alone, much as their inability to reach consensus \non a definition of life, biologists cannot agree on a complexity metric. \nEvolutionist John Maynard Smith (1995) uses nonjunk genome size, biolo \ngist John Tyler Bonner (1988) employs being morphology and behavioral \nflexibility, theorist Stuart Kauffman (1993) charts the number of cell types \nin organisms, and bioengineer Thomas McMahon (1983) appeals to cel \nlular specialization. All these attributes of life have qualitative worth, yet all \nare hard to quantify in practical terms. We must push the envelope beyond \nmere words, beyond biology.\n\n...\n\nReferences \nBonner, J. T., 1988, The Evolution of Complexity. Princeton: Princeton \nUniversity Press. \nChaisson, E. J., 1998, “The cosmic environment for growth of complexity,” \nBioSystems 46:13.\n\n...\n\nGold, T., 1962, “The arrow of time,” American Journal of Physics 30:403. \nKauffman, S., 1993, The Origins of Order. Oxford: Oxford University Press. \nLayzer, D., 1976, “The arrow of time,” Astrophysical Journal 206:559. \nLotka, A., 1922, “Contribution to the energetics of evolution,” Proceedings of \nNational Academy of Sciences 8:147. \nMaynard Smith, J., 1995, “Non-junk DNA,” Nature 374:227. \nMayr, E., 1997, This is Biology. Cambridge: Harvard University Press. \nMcMahon, T. and Bonner, J. T., 1983, On Size and Life. San Francisco: W. H. \nFreeman. \nMorowitz, H. J., 1968, Energy Flow in Biology. New York: Academic Press. \nMorrison, P., 1964, “A thermodynamic characterization of self-reproduction,” \nReviews of Modern Physics 36:517. \nOdum, H., 1988, “Self-organization, transformity, and information,” Science \n242:1132. \n\nPrigogine, I., Nicolis, G., and Babloyantz, A., 1972, “Thermodynamics of \nevolution,” Physics Today 11:23 and 12:38. \nSalk, J., 1982, “An evolutionary approach to world problems,” Paris: \nUNESCO. \nSchroedinger, E., 1944, What is Life? Cambridge: Cambridge University \nPress. \nShapley, H., 1930, Flights from Chaos. New York: McGraw Hill. \nSmil, V., 1999, Energies. Cambridge: MIT Press. \nSpencer, H., 1896, A System of Synthetic Philosophy. London: Williams and \nNorgate. \nSpier, F., 2005, “How big history works,” Social Evolution & History 4:25. \nvon Bertalanffy, L., 1932, Theoretische Biologie. Berlin: Borntraeger. \nWhitehead, A. N., 1925, Science and the Modern World. New York: Macmillan. \nWilson, E. O., 1998, Consilience: The Unity of Knowledge. New York: Knopf."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://openlibrary.org/show-records/harvard_bibliographic_metadata/20220215_026.bib.mrc:285502994:2422",
+              "title": "MARC Record from Harvard University | Open Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "MARC Record from Harvard University | Open Library\n\n# MARC Record from Harvard University\n\nLEADER: `02422nam a2200289 a 4500` 005 `20031210091811.0` 008 `030106s2004 maua b 001 0 eng ` 001 `990092402300203941` 010 ` $a^^2003000140` 020 ` $a1405103450 (pbk. : alk. paper)$0(uri) http://www.isbnsearch.org/isbn/1405103450` 035 ` $a(OCoLC)51330593$z(OCoLC)1201597260$0(uri) http://www.worldcat.org/oclc/51330593$0(uri) http://www.worldcat.org/oclc/1201597260` 040 ` $aDLC$cDLC` 050 `00 $aQH366.2$b.R524 2004` 082 `00 $a576.8$221` 100 `1 $aRidley, Mark$0(uri) http://id.loc.gov/authorities/names/n83230088$0(uri) http://viaf.org/viaf/sourceID/LC|n83230088` 245 `10 $aEvolution /$cMark Ridley.` 250 ` $a3rd ed.` 260 ` $aMalden, Mass. ;$aOxford :$bBlackwell Pub.,$cc2004.` 300 ` $axxv, 751 p. :$bill. ;$c25 cm.` 504 ` $aIncludes bibliographical references (p. [699]-732) and index.` 505 `00 $tThe Rise of Evolutionary Biology --$tMolecular and Mendelian Genetics --$tThe Evidence for Evolution --$tNatural Selection and Variation --$tEvolutionary Genetics --$tThe Theory of Natural Selection --$tRandom Events in Population Genetics --$tNatural Selection and Random Drift in Molecular Evolution --$tTwo-locus and Multilocus Population Genetics --$tQuantitative Genetics --$tAdaptation and Natural Selection --$tAdaptive Explanation --$tThe Units of Selection --$tAdaptations in Sexual Reproduction --$tEvolution and Diversity --$tSpecies Concepts and Intraspecific Variation --$tSpeciation --$tThe Reconstruction of Phylogeny --$tClassification and Evolution --$tEvolutionary Biogeography --$tMacroevolution --$tThe History of Life --$tEvolutionary Genomics --$tEvolutionary Developmental Biology --$tRates of Evolution --$tCoevolution --$tExtinction and Radiation.` 520 ` $aThis edition of Mark Ridley's 'Evolution' now includes two new chapters on evolutionary genomics and evolution and development, and a supporting website provides downloadable PowerPoint presentations and other supplementary material.` 650 ` 0 $aEvolution (Biology)$0(uri) http://id.loc.gov/authorities/subjects/sh90004042` 650 ` 2 $aBiological Evolution$0(uri) http://id.nlm.nih.gov/mesh/D005075` 655 ` 7 $aTextbooks.$2rbgenr` 852 `0 $bCAB$cGEN$hQH366.2$i.R524 2004$8222076262730003941` 876 ` $8222076262730003941$q1$70$mGEN$yBOOK$p32044070909338$cGEN$0232076262720003941$h01$nQH366.2 .R524 2004$bCAB$lCAB`"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://ntrs.nasa.gov/api/citations/20100003003/downloads/20100003003.pdf?attachment=true",
+              "title": "Edited by Steven J. Dick and Mark L. Lupisella",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Edited by Steven J. Dick and Mark L. Lupisella\n\nNASA SP-2009-4802\n\nLibrary of Congress Cataloging-in-Publication Data \nCosmos and Culture : Cultural Evolution in a Cosmic Context / Steven J. Dick and Mark \nLupisella, editors. \np. cm. -- (NASA SP ; 4802) \nIncludes bibliographical references and index. \n1. Cosmology--History. 2. Astronomy--History. 3. Culture--Origin. 4. Social evolution. 5. \nHuman evolution. I. Dick, Steven J. II. Lupisella, Mark. \nQB981.C8263 2009 \n523.109--dc22 \n\n2009004348\n\nI S B N 978-0-16-083119-5\n\n...\n\nBut how shall we characterize complexity, a slippery term for many \nresearchers? In biology alone, much as their inability to reach consensus \non a definition of life, biologists cannot agree on a complexity metric. \nEvolutionist John Maynard Smith (1995) uses nonjunk genome size, biolo \ngist John Tyler Bonner (1988) employs being morphology and behavioral \nflexibility, theorist Stuart Kauffman (1993) charts the number of cell types \nin organisms, and bioengineer Thomas McMahon (1983) appeals to cel \nlular specialization. All these attributes of life have qualitative worth, yet all \nare hard to quantify in practical terms. We must push the envelope beyond \nmere words, beyond biology.\n\n...\n\nReferences\n\n...\n\nMaynard Smith, J., 1995, “Non-junk DNA,” Nature 374:227."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://openlibrary.org/books/OL3671383M/Evolution",
+              "title": "Evolution by Mark Ridley | Open Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Evolution by Mark Ridley | Open Library\n\n# Evolution\n\n 3rd ed. \n\n## by Mark Ridley \n\n \n\n## Evolution \n\n An edition of Evolution (1993) \n\n# Evolution\n\n 3rd ed. \n\nThis edition of Mark Ridley's 'Evolution' now includes two new chapters on evolutionary genomics and evolution and development, and a supporting website provides downloadable PowerPoint presentations and other supplementary material. \n\nPublish Date\n\n2004\n\nPublisher\n\n Blackwell Pub. \n\nLanguage\n\nEnglish\n\nPages\n\n751\n\n Previews available in: English \n\n| Edition | Availability |\n| --- | --- |\n| 1 Evolution 2004, Blackwell Pub. in English - 3rd ed. 1405103450 9781405103459 | aaaa Read Listen Locate |\n| 2 Evolution 1996, Blackwell Science in English - 2nd ed. 0865424950 9780865424951 | eeee Preview Only Preview Book × Close |\n| 3 Evolution 1993, Blackwell Scientific in English 0086542265 9780086542267 | eeee Preview Only |\n\n### Edition Notes\n\nIncludes bibliographical references (p. [699]-732) and index. \n\nPublished in\n: Malden, MA\n\nDewey Decimal Class\n: 576.8\nLibrary of Congress\n: QH366.2 .R524 2004, QH366.2.R524 2003\n\n### The Physical Object\n\nPagination\n: xxv, 751 p., [8] p. of plates : \nNumber of pages\n: 751 \n\n### Edition Identifiers\n\nOpen Library\n: OL3671383M \nInternet Archive\n: evolutionrdediti00ridl\nISBN 10\n: 1405103450 \nLCCN\n: 2003000140\nOCLC/WorldCat\n: 51330593\nLibraryThing\n: 88978\nGoodreads\n: 516549"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://openlibrary.org/books/OL1719876M/Evolution",
+              "title": "Evolution by Mark Ridley | Open Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Evolution by Mark Ridley | Open Library\n\n## by Mark Ridley \n\n \n\n An edition of Evolution (1993) \n\n## by Mark Ridley \n\nThis edition of Mark Ridley's 'Evolution' now includes two new chapters on evolutionary genomics and evolution and development, and a supporting website provides downloadable PowerPoint presentations and other supplementary material. \n\nPublish Date\n\n1993\n\nPublisher\n\n Blackwell Scientific \n\nLanguage\n\nEnglish\n\nPages\n\n670\n\n Previews available in: English \n\n| Edition | Availability |\n| --- | --- |\n| 1 Evolution 2004, Blackwell Pub. in English - 3rd ed. 1405103450 9781405103459 | zzzz Locate |\n| 2 Evolution 1996, Blackwell Science in English - 2nd ed. 0865424950 9780865424951 | eeee Preview Only |\n| 3 Evolution 1993, Blackwell Scientific in English 0086542265 9780086542267 | aaaa Preview Only |\n\n### Edition Notes\n\nIncludes bibliographical references (p. 643-660) and index. \n\nPublished in\n: Boston\n\n### Classifications\n\nDewey Decimal Class\n: 575\nLibrary of Congress\n: QH366.2 .R524 1993, QH366.2.R524 1993\n\n### The Physical Object\n\nPagination\n: viii, 670 p. : \nNumber of pages\n: 670 \n\n### Edition Identifiers\n\nOpen Library\n: OL1719876M \nISBN 10\n: 0086542265, 0632034815 \nLCCN\n: 92023045\nOCLC/WorldCat\n: 26159044\nLibraryThing"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4319,
+    "completion_tokens": 163,
+    "total_tokens": 4482,
+    "cost": 0.0072267001,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00022899,
+      "upstream_inference_prompt_cost": 0.00021595,
+      "upstream_inference_completions_cost": 0.00001304
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "shelf-2b5713574a3e",
+  "retrieved": "2026-11-01T22:37:58.186Z"
+}

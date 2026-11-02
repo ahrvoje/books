@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575601-Q01LBH3mbOMBFMdPGAU9",
+  "object": "chat.completion",
+  "created": 1793575601,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u1526:amazon:https://www.amazon.com/Botany-Desire-PlantS-Eye-View-World/dp/0747563004\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 1,965 global ratings.\"\n    },\n    {\n      \"key\": \"shelf-04d2c61b09c6:amazon:https://www.amazon.com/Grinding-Out-McDonalds-Ray-Kroc/dp/125013028X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 2,759 global ratings.\"\n    },\n    {\n      \"key\": \"shelf-aa46b1b2a859:amazon:https://www.amazon.com/Pixar-Beyond-Unlikely-Journey-Entertainment/dp/0544734149\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 1,435 ratings.\"\n    },\n    {\n      \"key\": \"shelf-a9e84d00527a:amazon:https://www.amazon.com/Alchemists-Three-Central-Bankers-World/dp/0143124994\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 244 global ratings.\"\n    },\n    {\n      \"key\": \"n153b42c197:amazon:https://www.amazon.com/Unreasonable-Hospitality-Remarkable-Giving-People/dp/152914681X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 5,702 global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3702,
+    "completion_tokens": 474,
+    "total_tokens": 4176,
+    "cost": 0.0002207898,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00022302,
+      "upstream_inference_prompt_cost": 0.0001851,
+      "upstream_inference_completions_cost": 0.00003792
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:27:02.652Z"
+}

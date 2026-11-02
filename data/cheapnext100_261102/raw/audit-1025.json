@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574799-btPxZklk1JDgxoX8tjQv",
+  "object": "chat.completion",
+  "created": 1793574799,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"intake-0258:amazon:https://www.amazon.com/Cheese-Worms-Cosmos-Sixteenth-Century-Miller/dp/0801843871\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The numeric evidence 334 is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"shelf-ba78a5da0896:amazon:https://www.amazon.com/dp/1401960103\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The numeric evidence 301 is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"n59b8bdd5c1:amazon:https://www.amazon.com/Lies-My-Teacher-Told-Everything/dp/1620973928\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The numeric evidence 4,699 is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"q0980:amazon:https://www.amazon.com/Three-Guineas-Virginia-Woolf/dp/0156901773\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The numeric evidence 113 is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"g0522:amazon:https://www.amazon.com/Same-Ever-Guide-Never-Changes/dp/0593332709\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The numeric evidence 4,524 is explicitly labelled as global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3553,
+    "completion_tokens": 432,
+    "total_tokens": 3985,
+    "cost": 0.0002100879,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021221,
+      "upstream_inference_prompt_cost": 0.00017765,
+      "upstream_inference_completions_cost": 0.00003456
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:13:22.690Z"
+}

@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "key": "g1212:amazon:https://www.amazon.com/Emotionally-Intelligent-Investor-self-awareness-performance/dp/0615688322",
+      "status": "supported",
+      "reason": "The title and author match the sourceTitle and sourceText. The rating count is explicitly stated as 120 global ratings."
+    },
+    {
+      "key": "rem-u0745:amazon:https://www.amazon.com/dp/0007126905?lv=shuf&channelId=500&plpRedirect=mhFallback",
+      "status": "supported",
+      "reason": "The title and author match the sourceTitle and sourceText. The rating count is explicitly stated as 485 global ratings."
+    },
+    {
+      "key": "g0869:amazon:https://www.amazon.com/Blue-Sweater-Bridging-Between-Interconnected/dp/1605294764",
+      "status": "supported",
+      "reason": "The title and author match the sourceTitle and sourceText. The rating count is explicitly stated as 701 global ratings."
+    },
+    {
+      "key": "g1031:amazon:https://www.amazon.com/Discourses-Livy-Niccolo-Machiavelli/dp/0226500365",
+      "status": "reject",
+      "reason": "The sourceTitle includes additional authors (Mansfield, Nathan Tarcov) not present in the candidate."
+    },
+    {
+      "key": "shelf-adcdb921a432:amazon:https://www.amazon.com/Au-Contraire-Figuring-Out-French/dp/1931930929",
+      "status": "reject",
+      "reason": "The sourceTitle includes a subtitle (Figuring Out the French) not present in the candidate."
+    }
+  ]
+}

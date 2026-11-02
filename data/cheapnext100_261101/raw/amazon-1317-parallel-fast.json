@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793573300-JGt1f2wN18oXU4fVAREI",
+  "object": "chat.completion",
+  "created": 1793573300,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"nd23508a3fc\",\n  \"title\": \"Underground: Tales of Hacking, Madness and Obsession on the Electronic Frontier\",\n  \"author\": \"Suelette Dreyfus\",\n  \"amazon\": {\n    \"count\": 4.5,\n    \"url\": \"https://www.amazon.com/Underground-Hacking-Obsession-Electronic-Frontier/dp/0857862596\",\n    \"asin\": \"0857862596\",\n    \"evidence\": \"https://www.amazon.com/Underground-Hacking-Obsession-Electronic-Frontier/dp/0857862596#customerReviews\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Underground-Hacking-Obsession-Electronic-Frontier/dp/0857862596",
+              "title": "Underground: Tales of Hacking, Madness and Obsession ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nUnderground: Tales of Hacking, Madness and Obsession ...\nSuelette Dreyfus and Julian Assange chronicle elite young hackers who infiltrated major organizations like NASA and the US military in the 1980s and 1990s. This"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Suelette-Dreyfus/e/B001K84OUI/ref=dp_byline_cont_pop_book_1",
+              "title": "Suelette Dreyfus: books, biography, latest update - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nSuelette Dreyfus: books, biography, latest update - Amazon.com\nFollow Suelette Dreyfus and explore their bibliography. Most popular Underground: Tales of hacking, madness, and obsession on the electronic frontier Paperback"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 554,
+    "completion_tokens": 178,
+    "total_tokens": 732,
+    "cost": 0.00101515888,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000015312,
+      "upstream_inference_prompt_cost": 0.000009972,
+      "upstream_inference_completions_cost": 0.00000534
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Underground\" Suelette Dreyfus \"global ratings\"",
+  "bookId": "nd23508a3fc",
+  "retrieved": "2026-11-01T22:48:37.247Z"
+}

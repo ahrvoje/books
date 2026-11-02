@@ -1,0 +1,60 @@
+{
+  "retrieved": "2026-11-01T22:13:20.283Z",
+  "bookId": "shelf-f975c211a6c6",
+  "id": "gen-1793571201-Q0W54VGOkepSSxe4QWqu",
+  "object": "chat.completion",
+  "created": 1793571201,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-f975c211a6c6\",\n  \"title\": \"The Cravath Firm & Its Predecessors\",\n  \"author\": \"Robert T. Swaine\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 1040,\n    \"editionId\": null,\n    \"editionYear\": null,\n    \"format\": \"paperback\",\n    \"language\": \"English\",\n    \"url\": \"https://www.amazon.com/Cravath-Firm-Its-Predecessors-Swaine/dp/0910609000\",\n    \"evidence\": \"1,040 pages\",\n    \"sourceTitle\": \"The Cravath Firm & Its Predecessors\",\n    \"sourceAuthor\": \"Robert T. Swaine\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Cravath-Firm-Its-Predecessors-Swaine/dp/0910609000\",\n    \"https://mjpgallagher.com/bookshelf.html\"\n  ],\n  \"limitations\": \"Publisher information for the page count was not found in the provided search results. The ISBN was not explicitly stated in the search results, but an ASIN was found on Amazon.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://mjpgallagher.com/bookshelf.html",
+              "title": "BOOKSHELF — BOOKS & Links",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "BOOKSHELF — BOOKS & Links\n\n# BOOKS & Links\n\nA curated collection of book recommendations organized by topic, inspired by Patrick Collison's bookshelf.\n\n...\n\n## 2. America & Growth\n\n...\n\n## 4. The Evolution of Technology & Silicon Valley History\n\n...\n\n## 6. The History and Nature of the Corporation\n\n...\n\n## 7. High Quality Industry-Specific Books\n\n...\n\n43. Aerodynamic, Kevin Michaels\n44. Never Lost Again, Bill Kilday\n45. The Political Spectrum, Thomas Winslow Hazlett\n46. The Master Switch, Tim Wu\n47. The One Device, Brian Merchant\n48. Wireless Nation, James Murray\n49. The Cravath Firm & Its Predecessors, Robert T. Swaine\n\n## 8. Market History"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 730,
+    "completion_tokens": 316,
+    "total_tokens": 1046,
+    "cost": 0.007197406,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001994,
+      "upstream_inference_prompt_cost": 0.000073,
+      "upstream_inference_completions_cost": 0.0001264
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

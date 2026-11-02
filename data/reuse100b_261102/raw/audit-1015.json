@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575223-OMiAT3bZJUZwEPfOtDP7",
+  "object": "chat.completion",
+  "created": 1793575223,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"nc97887258a:amazon:https://www.amazon.com/Fundamentals-Keys-Reality-Frank-Wilczek/dp/0735223793\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title, author, and numeric evidence (1,421 ratings).\"\n    },\n    {\n      \"key\": \"bg7bdb79df18:amazon:https://www.amazon.com/Under-White-Sky-Nature-Future/dp/0593136276\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title, author, and numeric evidence (1,947 ratings).\"\n    },\n    {\n      \"key\": \"shelf-71c74d824965:amazon:https://www.amazon.com/Belt-Road-Chinese-World-Order/dp/1787380025\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title, author, and numeric evidence (262 ratings).\"\n    },\n    {\n      \"key\": \"g1181:amazon:https://www.amazon.com/Devil-Take-Hindmost-Financial-Speculation/dp/0374138583\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title, author, and numeric evidence (427 ratings).\"\n    },\n    {\n      \"key\": \"shelf-e7125b40a6c9:amazon:https://www.amazon.com/Leading-Design-Story-Ingvar-Kamprad/dp/0066620384\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title, author, and numeric evidence (17 ratings).\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3254,
+    "completion_tokens": 438,
+    "total_tokens": 3692,
+    "cost": 0.0001957626,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019774,
+      "upstream_inference_prompt_cost": 0.0001627,
+      "upstream_inference_completions_cost": 0.00003504
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:20:28.528Z"
+}

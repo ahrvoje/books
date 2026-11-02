@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793577352-QIPbe28MuF1xDxECs9yi",
+  "object": "chat.completion",
+  "created": 1793577352,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-a011d2e24fe6:reference:https://collection.sl.nsw.gov.au/record/74VKaJ8jdxOg\",\n      \"status\": \"supported\",\n      \"reason\": \"The sourceTitle and sourceText match the book title and author exactly. The evidence is a bibliographical reference range.\"\n    },\n    {\n      \"key\": \"g0572:reference:https://collection.sl.nsw.gov.au/record/74VKavoMLx0y\",\n      \"status\": \"supported\",\n      \"reason\": \"The sourceTitle and sourceText match the book title and author exactly. The evidence is a bibliographical reference range.\"\n    },\n    {\n      \"key\": \"intake-0798:reference:https://archive.org/details/mathbook0000pick\",\n      \"status\": \"supported\",\n      \"reason\": \"The sourceTitle and sourceText match the book title and author exactly. The evidence is a bibliographical reference range.\"\n    },\n    {\n      \"key\": \"shelf-48a572aeb020:reference:https://discover.bklynlibrary.org/item?b=12930972\",\n      \"status\": \"supported\",\n      \"reason\": \"The sourceTitle and sourceText match the book title and author exactly. The evidence is a bibliographical reference range.\"\n    },\n    {\n      \"key\": \"rem-u1620:reference:https://content.www.wellcomecollection.org/works/qs2mrhmf\",\n      \"status\": \"supported\",\n      \"reason\": \"The sourceTitle and sourceText match the book title and author exactly. The evidence is a bibliographical reference range.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3287,
+    "completion_tokens": 396,
+    "total_tokens": 3683,
+    "cost": 0.0001940697,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019603,
+      "upstream_inference_prompt_cost": 0.00016435,
+      "upstream_inference_completions_cost": 0.00003168
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:55:58.852Z"
+}

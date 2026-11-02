@@ -1,0 +1,80 @@
+{
+  "retrieved": "2026-11-01T22:15:36.703Z",
+  "bookId": "shelf-0430a6741e71",
+  "id": "gen-1793571336-Nk9MeEVadPfSWjNZoFdK",
+  "object": "chat.completion",
+  "created": 1793571336,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-0430a6741e71\",\n  \"title\": \"Life in Our Phage World\",\n  \"author\": \"Forest Rohwer, Merry Youle, Nao Hisakawa and Heather Maughan\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 408,\n    \"editionId\": \"GoogleBooks:g4HTrQEACAAJ\",\n    \"editionYear\": null,\n    \"format\": null,\n    \"language\": null,\n    \"url\": \"https://books.google.com/books/about/Life_in_Our_Phage_World.html?id=g4HTrQEACAAJ\",\n    \"evidence\": \"The Google Books page for \\\"Life in Our Phage World\\\" lists the page count as 408.\",\n    \"sourceTitle\": \"Life in Our Phage World\",\n    \"sourceAuthor\": \"Forest Rohwer, Merry Youle, Nao Hisakawa, Heather Maughan\"\n  },\n  \"reference\": {\n    \"count\": null,\n    \"editionId\": null,\n    \"editionYear\": null,\n    \"url\": \"https://coralandphage.org/files/Life_In_Our_Phage_World_sampler.pdf\",\n    \"evidence\": \"The sampler PDF includes a section titled \\\"Cited references\\\" and \\\"Recommended review\\\" which lists multiple entries. However, a total count is not provided, nor are specific page ranges for the references within the book.\",\n    \"sourceTitle\": \"Life in Our Phage World A centennial field guide to the Earth’s most diverse inhabitants\",\n    \"sourceAuthor\": \"Forest Rohwer Merry Youle Heather Maughan Nao Hisakawa\",\n    \"ranges\": [],\n    \"method\": \"The sampler PDF was examined for sections explicitly labeled as \\\"Cited references\\\" or \\\"Bibliography\\\". The content under these headings was reviewed to identify the presence of references and any associated page information.\",\n    \"limitation\": \"The provided sampler PDF contains sections of cited references but does not offer a total count or specific page ranges for these references within the complete book. The table of contents indicates appendices and a glossary, but not a dedicated bibliography section with page numbers.\"\n  },\n  \"searchedUrls\": [\n    \"https://coralandphage.org/files/Life_In_Our_Phage_World_sampler.pdf\",\n    \"https://searchworks.stanford.edu/view/11232614\",\n    \"https://docslib.org/doc/5474705/life-in-our-phage-world-sam\",\n    \"https://books.google.com/books/about/Life_in_Our_Phage_World.html?id=g4HTrQEACAAJ\"\n  ],\n  \"limitations\": \"The provided sampler PDF contains sections of cited references but does not offer a total count or specific page ranges for these references within the complete book. The table of contents indicates appendices and a glossary, but not a dedicated bibliography section with page numbers. Library catalog entries confirm the inclusion of bibliographical references but do not specify page ranges.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://coralandphage.org/files/Life_In_Our_Phage_World_sampler.pdf",
+              "title": "coralandphage.org",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "##### Life in Our Phage World A centennial field guide to the Earth’s most diverse inhabitants\n\nby Forest Rohwer Merry Youle Heather Maughan Nao Hisakawa\n\nIllustrations by Leah L Pantéa and Benjamin Darby\n\nSan Diego, CA\n\nFirst edition, December 2014, June 2015 Copyright © 2014 by Forest Rohwer\n\nLife in Our Phage World by Forest Rohwer et al. is licensed under a Creative Com mons Attribution-NonCommercial-NoDerivs 3.0 Unported License which permits non-commercial use without modification provided author and source are credited.\n\nLibrary of Congress Cataloging-in-Publication Data Rohwer, Forest Life in our phage world: a centennial field guide to the Earth’s most diverse inhabitants. 1 st ed. Includes bibliographical references. Library of Congress Control Number: 2014945859\n\nISBN: 978-0-9904943-0-0\n\nCover art by Leah L Pantéa Book design by Alexis Morrison, Set Right Typography\n\nPublished by Wholon, San Diego, CA http://www.wholon.org/\n\nPrinted in the United States of America\n\nLife in Our Phage World v\n\n#### Table of Contents\n\nPreface . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . xi \nAcknowledgements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . xii \nIntroduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . xiv \nChapter 1: Welcome to the Phage World . . . . . . . . . . . . . . . . . ... . . . . . . . . . . . . . . . . . . . . . 1-1\n\n...\n\n. . . ... . ... . ... . ... .\n\n...\n\n. ... . . . . ... . . ... . ... . . ... . ... . 1-5\n\n...\n\nPhage Classification for the 21st Century . . . . . . . . . . . ... . . . . . . . . . . . . . . . . . 1-8 \nby Daniel C. Nelson \nChapter 2: On the Prowl . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2-1\n\n...\n\nTesting the Waters . . ... . . . . . . . . . . . . . . . . . . . ... . ... . ... .\n\n...\n\n.\n\n...\n\n. . ... . ... . ... . ... .\n\n...\n\n. . ... . . ... . ... . . ... . ... . . . . ... . . . . ... . . . ... . . ... 2-35\n\n...\n\n. . ... . ... . ... . 2-39 by Ben Knowles\n\n...\n\n. ... . .\n\n...\n\nSullivan\n\n...\n\n. .\n\n...\n\n.\n\n...\n\n.\n\n...\n\nAppendix A: Technical Notes . . . . . . ... . . . . ... . ... . ... . ... .\n\n...\n\nAppendix A1: Sources for Field Guide Data . . ... . . . . . . . . ... . ... . ... . ... . . . . . 8-5\n\n...\n\n. ... . . . ... . ... . ... . . ... . ... . . 8-6 \nAppendix A3: The Phage Proteomic Tree . ... . . . . . . . . . . ... . . . . . . . . . . . ... . . . . 8-8 \nAppendix A4: Global Maps . . . . . . . . . . . . . . . . . . . . . . . ... . . . . . . . . . . . . . . . . . . 8-20 \nAppendix A5: Annotated Genome Maps . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8-24 \nAppendix B: Lexicon of Phage Behaviors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8-27 \nB1: Rationale . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8-27 \nB2: Lexicon . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8-29 \nGlossary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8-36 \nIndex . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8-41 \nAbout Us . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8-47\n\n...\n\nCited references \nBrenner, S., Champe, S., Streisinger, G., and Barnett, L. (1962). On the interaction of adsorption cofactors with bacteriophages T2 and T4. \nVirology 17, 30-39. \nConley, M.P., and Wood, W.B. (1975). Bacteriophage T4 whiskers: A rudimentary environment-sensing device. Proc Natl Acad Sci USA 72, \n3701-3705. \nEfimov, V.P., Nepluev, I.V., Sobolev, B.N., Zurabishvili, T.G., Schulthess, T., Lustig, A., Engel, J., Haener, M., Aebi, U., and Venyaminov, S.Y. \n(1994). Fibritin encoded by bacteriophage T4 Gene wac has a parallel triple-stranded α-helical coiled-coil structure. J Mol Biol \n242, 470-486. \nHu, B., Margolin, W., Molineux, I.J., and Liu, J. (2013). The bacteriophage T7 virion undergoes extensive structural remodeling during \ninfection. Science 339, 576-579. \nKellenberger, E., Bolle, A., Boy De La Tour, E., Epstein, R., Franklin, N., Jerne, N., Reale-Scafati, A., Sechaud, J., Bendet, I., and Goldstein, D. \n(1965). Functions and properties related to the tail fibers of bacteriophage T4. Virology 26, 419-440. \nKostyuchenko, V.A., Chipman, P.R., Leiman, P.G., Arisaka, F., Mesyanzhinov, V.V., and Rossmann, M.G. (2005). The tail structure of \nbacteriophage T4 and its mechanism of contraction. Nat Struct Mol Biol 12, 810-813. \nLetarov, A., Manival, X., Desplats, C., and Krisch, H. (2005). gpwac of the T4-type bacteriophages: Structure, function, and evolution of a \nsegmented coiled-coil protein that controls viral infectivity. J Bacteriol 187, 1055-1066. \nRecommended review \nLeiman, P, F Arisaka, M van Raaij, V Kostyuchenko, A Aksyuk, S Kanamaru, M Rossmann. 2010. Morphogenesis of the T4 tail and tail fibers. \nVirol J 7:355. \n\n10 24\n\nHendrix, RW. 2010. Recoding in bacteriophages. in JF Atkins, RF Gesteland, editors. Recoding: Expansion of Decoding Rules Enriches Gene Expression . Springer. p. 249-258.\n\n...\n\nCited references \nBradley, DE. 1967. Ultrastructure of bacteriophage and bacteriocins. Bacteriol Rev 31:230-314. \nClick, EM, RE Webster. 1998. The TolQRA proteins are required for membrane insertion of the major capsid protein of the filamentous \nphage f1 during infection. J Bacteriol 180:1723-1728. \nDeng, LW, RN Perham. 2002. Delineating the site of interaction on the pIII protein of filamentous bacteriophage fd with the F-pilus of \nEscherichia coli. J Mol Biol 319:603-614. \nEckert, B, A Martin, J Balbach, FX Schmid. 2005. Prolyl isomerization as a molecular timer in phage infection. Nat Struct Mol Biol 12:619- \n623. \nGlaser-Wuttke, G, J Keppner, I Rasched. 1989. Pore-forming properties of the adsorption protein of filamentous phage fd. Biochim \nBiophys Acta 985:239-247. \nGlucksman, MJ, S Bhattacharjee, L Makowski. 1992. Three-dimensional structure of a cloning vector. X-ray diffraction studies of \nfilamentous bacteriophage M13 at 7 Å resolution. J Mol Biol 226:455-470. \nGray, CW, RS Brown, DA Marvin. 1981. Adsorption complex of filamentous fd virus. J Mol Biol 146:621-627. \nHolliger, P, L Riechmann. 1997. A conserved infection pathway for filamentous bacteriophages is suggested by the structure of the \nmembrane penetration domain of the minor coat protein g3p from phage fd. Structure 5:265-275. \nJakes, K, N Davis, N Zinder. 1988. A hybrid toxin from bacteriophage f1 attachment protein and colicin E3 has altered cell receptor \nspecificity. J Bacteriol 170:4231-4238. \nLubkowski, J, F Hennecke, A Pluckthun, A Wlodawer. 1999. Filamentous phage infection: Crystal structure of g3p in complex with its \ncoreceptor, the C-terminal domain of TolA. Structure 7:711-722. \nMarciano, DK, M Russel, SM Simon. 1999. An aqueous channel for filamentous phage export. Science 284:1516-1519. \nMarvin, D, B Hohn. 1969. Filamentous bacterial viruses. Bacteriol Rev 33:172-209. \nMarvin, DA. 1998. Filamentous phage structure, infection and assembly. Curr Opin Struct Biol 8:150-158. \nChapter 7: Escape 7-21 \n \nNickerson, NN, SS Abby, EP Rocha, M Chami, AP Pugsley. 2012. A single amino acid substitution changes the self-assembly status of a \ntype IV piliation secretin. J Bacteriol 194:4951-4958. \nRakonjac, J, NJ Bennett, J Spagnuolo, D Gagic, M Russel. 2011. Filamentous bacteriophage: Biology, phage display and nanotechnology \napplications. Curr Issues Mol Biol 13:51-76. \nRakonjac, J, P Model. 1998. Roles of pIII in filamentous phage assembly. J Mol Biol 282:25-41. \nRiechmann, L, P Holliger. 1997. The C-terminal domain of TolA is the coreceptor for filamentous phage infection of E. coli. Cell 90:351- \n360. \nRussel, M. 1991. Filamentous phage assembly. Mol Microbiol 5:1607-1613. \nRussel, M, NA Linderoth, A Sali. 1997. Filamentous phage assembly: Variation on a protein export theme. Gene 192:23-32. \nRecommended reviews \nMarvin, D, B Hohn. 1969. Filamentous bacterial viruses. Bacteriol Rev 33:172-209. \nMarvin, D, M Symmons, S Straus. 2014. Structure and assembly of filamentous bacteriophages. Prog Biophys Mol Biol 114:80-122. \nRakonjac, J, NJ Bennett, J Spagnuolo, D Gagic, M Russel. 2011. Filamentous bacteriophage: Biology, phage display and nanotechnology \napplications. Curr Issues MolBiol 13:51-76."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://searchworks.stanford.edu/view/11232614",
+              "title": "Life in our phage world : a centennial field guide to the Earth's most diverse inhabitants",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Life in our phage world : a centennial field guide to the Earth's most diverse inhabitants\n\nResponsibility by Forest Rohwer, Merry Youle, Heather Maughan, Nao Hisakawa ; illustrations by Leah L Pantéa and Benjamin Darby. Edition First edition. Publication San Diega, CA : Wholon, 2015. Copyright notice ©2014 Physical description 1 volume (various pagings) : illustrations (some color), color maps ; 29 cm\n\n## At the library\n\n### Science Library (Li and Ma)\n\nStacks\n\n| QR342 .R64 2015 | Unknown |\n| --- | --- |\n\n### More options\n\n(Limited preview)\n\n- Find it at other libraries via WorldCat\n\n- Bottom\n- Browse\n- Info\n- Subjects\n- Summary\n- Contributors\n- Top\n\n## Description\n\n### Creators/Contributors\n\nAuthor/Creator Rohwer, Forest, author. Contributor Youle, Merry, author. Maughan, Heather, author. Hisakawa, Nao, author. Pantéa, Leah L., illustrator. Darby, Benjamin, illustrator.\n\n### Contents/Summary\n\nBibliography Includes bibliographical references and index.\n\n### Subjects\n\nSubjects Bacteriophages.\n\n### Bibliographic information\n\nPublication date 2015 Copyright date 2014 ISBN 9780990494300 0990494306\n\n## Browse related items\n\nStart at call number: QR342 .R64 2015\n\nView full page\n\nLibrarian view| Catkey: 11232614"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://docslib.org/doc/5474705/life-in-our-phage-world-sam",
+              "title": "Life in Our Phage World Sam - DocsLib",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "s most diverse inhabitants by Forest Rohwer Merry Youle Heather Maughan Nao Hisakawa Illustrations by Leah L Pantéa ... most diverse inhabitants. 1st ed. Includes bibliographical references. Library of Congress"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4538,
+    "completion_tokens": 709,
+    "total_tokens": 5247,
+    "cost": 0.007730026,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0007374,
+      "upstream_inference_prompt_cost": 0.0004538,
+      "upstream_inference_completions_cost": 0.0002836
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

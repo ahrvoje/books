@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:46.630Z",
+  "bookId": "shelf-ac8d0f22db53",
+  "id": "gen-1793571226-yc4JN58f8tkJuG1f0z2j",
+  "object": "chat.completion",
+  "created": 1793571226,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-ac8d0f22db53\",\n  \"title\": \"Life’s Ratchet\",\n  \"author\": \"Peter M. Hoffmann\",\n  \"amazon\": {\n    \"count\": 286,\n    \"stars\": 4.5,\n    \"asin\": \"0465022537\",\n    \"marketplace\": \"Amazon.com\",\n    \"url\": \"https://www.amazon.com/Lifes-Ratchet-Molecular-Machines-Extract/dp/0465022537\",\n    \"evidence\": \"4.5 4.5 out of 5 stars (286)\",\n    \"sourceTitle\": \"Life's Ratchet: How Molecular Machines Extract Order from Chaos: Hoffmann, Peter M: 9780465022533: Amazon.com: Books\",\n    \"sourceAuthor\": \"Peter M. Hoffmann\",\n    \"snapshotLimitation\": null\n  },\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Lifes-Ratchet-Molecular-Machines-Extract/dp/0465022537\"\n  ],\n  \"limitations\": \"The page count and reference information were not found in the provided search results.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Lifes-Ratchet-Molecular-Machines-Extract/dp/0465022537",
+              "title": "Life's Ratchet: How Molecular Machines Extract Order from Chaos: Hoffmann, Peter M: 9780465022533: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "* Life's Ratchet: How Molecular Machines Extract Order from Chaos\n* To view this video download Flash Player\n* IMAGES\n* \nRead sample\nPlay Audible sample\n\nFollow the author\n\nGet new release updates & improved recommendations\nPeter M. Hoffmann\nPeter M. Hoffmann Peter M. Hoffmann\nFollow\nSomething went wrong. Please try your request again later.\nOK\n\nLife's Ratchet: How Molecular Machines Extract Order from Chaos Hardcover – October 30, 2012\n\nby Peter M Hoffmann (Author)\n4.5 4.5 out of 5 stars (286)\nSorry, there was a problem loading this page. Try again.\nSee all formats and editions\n\n...\n\nWith wit and literary prowess, author Peter M. Hoffmann delivers a profound message about the nature of the life within our lives.\n\n...\n\nNew Scientist In Life's Ratchet , biophysicist Peter Hoffmann reveals that the secret to life isn't some mysterious force. Rather, it is chaos itself. Hoffmann provides a ringside perspective on life at its most fundamental level, gained through his work on imaging and manipulating molecules.”\n\n...\n\nll to life. Life's Ratchet is an exciting guide to the wondrous strange nanoworld of molecules driving the machinery of life. Engaging, provocative, and profound.”\n\n...\n\n* 5 star 4 star 3 star 2 star 1 star 5 star 68% 23% 5% 3% 1% 68%\n* 5 star 4 star 3 star 2 star 1 star 4 star 68% 23% 5% 3% 1% 23%\n* 5 star 4 star 3 star 2 star 1 star 3 star 68% 23% 5% 3% 1% 5%"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Biophysics-eBooks-Audio-Biological-Sciences/s?rh=n%3A13514%2Cp_n_feature_nine_browse-bin%3A210961470011",
+              "title": "EBooks With Audio - Biophysics / Biological Sciences: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Life's Ratchet: How Molecular Machines Extract Order from Chaos · by Peter M Hoffmann · Kindle."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/ingranaggi-Dio-caos-molecolare-alla/dp/8833930718",
+              "title": "Gli ingranaggi di Dio. Dal caos molecolare alla vita - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "In \"Life's Ratchet,\" physicist Peter M. Hoffmann locates the answer to this age-old question at the nanoscale. The complex molecules of our cells can rightfully"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://us.amazon.com/Nanostructures-Physics-Bargain-Books/s?rh=n%3A14573%2Cp_n_special_merchandising_browse-bin%3A394172011",
+              "title": "Amazon.com: Bargain Books - Nanostructures In Physics ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Life's Ratchet: How Molecular Machines Extract Order from Chaos · by Peter M. Hoffmann · Hardcover."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://us.amazon.com/Organic-Chemistry-eBooks-Audio/s?rh=n%3A13585%2Cp_n_feature_nine_browse-bin%3A210961470011",
+              "title": "EBooks With Audio - Organic Chemistry ... - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Life's Ratchet: How Molecular Machines Extract Order from Chaos · by Peter M Hoffmann · Kindle."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1419,
+    "completion_tokens": 314,
+    "total_tokens": 1733,
+    "cost": 0.005264825,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002675,
+      "upstream_inference_prompt_cost": 0.0001419,
+      "upstream_inference_completions_cost": 0.0001256
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

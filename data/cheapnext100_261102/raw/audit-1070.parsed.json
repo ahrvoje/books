@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "key": "complete-375-296:amazon:https://www.amazon.com/When-Stop-Talking-Youll-Know/dp/0446548162",
+      "status": "reject",
+      "reason": "The author field contains two names, Jerry Weintraub and Rich Cohen, but the book title is only attributed to Jerry Weintraub in the source text."
+    },
+    {
+      "key": "g0719:amazon:https://www.amazon.com/Down-Earth-Politics-Climatic-Regime/dp/1509530568",
+      "status": "supported",
+      "reason": "The book title and author match exactly. The evidence of 266 global ratings is explicitly stated."
+    },
+    {
+      "key": "g1112b:amazon:https://www.amazon.com/Caesar-Christ-Civilization-Christianity-D/dp/1567310141",
+      "status": "supported",
+      "reason": "The book title and author match exactly. The evidence of 110 ratings is explicitly stated. The print length of 752 pages is identified as a print edition."
+    },
+    {
+      "key": "g1302:amazon:https://www.amazon.com/Gallic-Wars-Julius-Caesar/dp/1604597623",
+      "status": "supported",
+      "reason": "The book title and author match exactly. The evidence of 29 ratings is explicitly stated."
+    },
+    {
+      "key": "rem-u1297:amazon:https://www.amazon.com/Army-Dawn-1942-1943-Liberation-Trilogy/dp/0805087249",
+      "status": "reject",
+      "reason": "The book title includes a series designation, which is not supported."
+    }
+  ]
+}

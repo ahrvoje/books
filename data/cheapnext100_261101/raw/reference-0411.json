@@ -1,0 +1,60 @@
+{
+  "id": "gen-1793573172-m6WSss3tyufmnfYHv4Ws",
+  "object": "chat.completion",
+  "created": 1793573172,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"intake-0826\",\n  \"title\": \"A Concise History of Mathematics\",\n  \"author\": \"Dirk J. Struik\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 299,\n    \"url\": \"https://koha.library.msu.ac.zw:8000/cgi-bin/koha/opac-detail.pl?biblionumber=27597\",\n    \"evidence\": \"Library catalog\",\n    \"ranges\": [\n      {\n        \"start\": 1,\n        \"end\": 299,\n        \"label\": \"pages\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://koha.library.msu.ac.zw:8000/cgi-bin/koha/opac-detail.pl?biblionumber=27597",
+              "title": "A concise history of mathematics /  created by Dirk J. Struik",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Details for: A concise history of mathematics / › Midlands State University Library catalog Skip to main content\n\nLibrary catalog Title Author Subject ISBN ISSN Series Call number\n\n...\n\nNormal view MARC view ISBD view\n\n# A concise history of mathematics / created by Dirk J. Struik\n\nMaterial type: Text G. Bell, 1954©1954Description: 299 pagesContent type:\n\n- text\n\nMedia type:\n\n- unmediated\n\nCarrier type:\n\n- volume\n\nSubject(s):\n\n- Mathematics -- History\n\nLOC classification:\n\n- QA21 STR\n\n...\n\n- Comments ( 0 )\n- Title notes ( 1 )\n- Holdings ( 1 )\n\n| Item type | Current library | Call number | Copy number | Status | Date due | Barcode |\n| --- | --- | --- | --- | --- | --- | --- |\n| Archive | Main Library Archives | QA21 STR (Browse shelf) | 1538 | Not for loan | BK27582 |\n\nIncludes bibliographical references and index"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 615,
+    "completion_tokens": 154,
+    "total_tokens": 769,
+    "cost": 0.0070155331,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001569,
+      "upstream_inference_prompt_cost": 0.00001107,
+      "upstream_inference_completions_cost": 0.00000462
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "intake-0826",
+  "retrieved": "2026-11-01T22:46:21.232Z"
+}

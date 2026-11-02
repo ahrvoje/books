@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:42.404Z",
+  "bookId": "intake-0172",
+  "id": "gen-1793571221-sM4fBFiBdvvL8F1KICuz",
+  "object": "chat.completion",
+  "created": 1793571221,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"intake-0172\",\n  \"title\": \"History of Programming Languages\",\n  \"author\": \"Richard L. Wexelblat; Thomas J. Bergin; Richard G. Gibson; subsequent editors\",\n  \"knownEdition\": null,\n  \"amazon\": null,\n  \"pages\": null,\n  \"reference\": {\n    \"count\": null,\n    \"editionId\": null,\n    \"editionYear\": null,\n    \"url\": null,\n    \"evidence\": \"No explicit page range for bibliographical references was found in the provided search results for the book titled 'History of Programming Languages' edited by Richard L. Wexelblat. The search results primarily focused on the content and publication details of 'History of Programming Languages---II' (1996) and the article 'A history of the history of programming languages' (2007) by Thomas J. Bergin.\",\n    \"sourceTitle\": null,\n    \"sourceAuthor\": null,\n    \"ranges\": [],\n    \"method\": \"manual\",\n    \"limitation\": \"The search results did not provide direct access to the full text or a detailed table of contents for the specific edition of 'History of Programming Languages' edited by Richard L. Wexelblat that would clearly delineate the bibliographical reference pages. Information was more readily available for 'History of Programming Languages---II' and related articles.\"\n  },\n  \"searchedUrls\": [\n    \"https://bitfragment.net/notes/proglang-bib-bergin-history-2007/\",\n    \"https://dl.acm.org/doi/10.1145/234286\",\n    \"https://dl.acm.org/doi/book/10.1145/234286\",\n    \"https://dl.acm.org/doi/fullHtml/10.1145/1230819.1230841\",\n    \"https://dl.acm.org/doi/abs/10.1145/800025\"\n  ],\n  \"limitations\": \"The search results provided information about two distinct books with similar titles: 'History of Programming Languages' (edited by Richard L. Wexelblat, published 1978/1981) and 'History of Programming Languages---II' (edited by Thomas J. Bergin and Richard G. Gibson, published 1996). The specific bibliographical reference page range for the 1978/1981 edition edited by Wexelblat was not explicitly found. The article by Thomas J. Bergin ('A history of the history of programming languages') provided a bibliography, but this is a separate work and not a reference section within the Wexelblat edited book.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://bitfragment.net/notes/proglang-bib-bergin-history-2007/",
+              "title": "Bibliography: Bergin, \"A History of the History of Programming Languages\" (2007)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "bitfragment.net/notes\nAbout\n\nBibliography: Bergin, \"A History of the History of Programming Languages\" (2007)\n\nView revision history\nBergin’s timeline:\n* 1966 “The Use of English as a Programming Language.” Jean E.Sammet. Communications of the ACM 9,3 (Mar. 1966), 228-230; http://doi.acm.org/10.1145/365230.365274.\n* 1967 Saul Rosen, Ed. Programming Systems and Languages. McGraw-Hill, New York. Note: The largest single source of articles is from Communications of the ACM.\n* 1967 “Fundamental Concepts of Programming Languages.” Computers and Automation 16, 2.\n* 1967 “Roster of Programming Languages.” Jean E. Sammet. Computers and Automation 16, 6, 120-123.\n\n...\n\n* 1978 June 1-3, ACM SIGPLAN History of Programming Languages Conference, Los Angeles CA.\n* 1981 Richard Wexelblat. History of Programming Languages. Academic Press, New York.\n* 1981 “An Overview of High-Level Languages.” Jean E. Sammet. In Advances in Computers, Vol. 20, Academic Press, New York.\n* 1985 “Brief Summary of the Early History of COBOL,” Jean E.\n\n...\n\n* 1993 April 20-23, ACM Second SIGPLAN History of Programming Languages Conference (HOPL II), Cambridge, MA.\n* 1996 Thomas J. Bergin, Jr. and Richard G. Gibson, Jr. History of Programming Languages, ACM Press/Addison-Wesley, New York.\n* 1996 HOPL-II Conference Banquet. SIGPLAN Notices 31, 11 (Nov.), 9-20; http://doi.acm.org/10.1145/240964.1198155."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://dl.acm.org/doi/10.1145/234286",
+              "title": "History of programming languages---II | ACM Other Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "History of programming languages---II January 1996\n\n* Editors:\n* Author Picture Thomas J. Bergin ,\n* Author Picture Richard G. Gibson\nPublisher:\n* Association for Computing Machinery\n* New York\n* NY\n* United States\nISBN: 978-0-201-89502-5\nDOI: https://doi.org/10.1145/234286\nPublished: 01 January 1996\nPages:\n880\nAvailable at Amazon\nSave to binder (Premium feature)\nSave to Binder Binder\n\n...\n\nxport Citation Citation\nShare on\n\nSections\n\nHistory of programming languages---II\n1996\nPrevious Next\n*\n\n...\n\nIn 1978, the ACM Special Interest Group on Programming Languages (SIGPLAN) sponsored a Conference on the History of Programming Languages (HOPL). Papers were prepared and presentations made at a Conference in Los Angeles, California. The Program Committee selected thirteen languages that met the criteria of having been in use for at least 10 years, had significant influence, and were still in use. The languages were: ALGOL, APL, APT, BASIC, COBOL, FORTRAN,GPSS, JOSS, JOVIAL, LISP, PL/I,SIMULA, and SNOBOL. The results of that conference were recorded in History of Programming Languages, edited by Richard L. Wexelblat [New York: Academic Press, 19811.\nThe Second ACM SIGPLAN History of Programming Languages Conference (HOPL-II) took place on April 20-23, 1993 in Cambridge, Massachusetts. The papers prepared for that conference form the basis of this present volume, along with the transcripts of the presentations, a keynote address \"Language Design as Design\" by Fred Brooks, a"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://dl.acm.org/doi/book/10.1145/234286",
+              "title": "History of programming languages---II | ACM Other Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "* Download citation\n* Copy citation\nSkip header Section\n\nHistory of programming languages---II January 1996\n\n* Editors:\n* Author Picture Thomas J. Bergin ,\n* Author Picture Richard G. Gibson\nPublisher:\n* Association for Computing Machinery\n* New York\n* NY\n* United States\nISBN: 978-0-201-89502-5\nDOI: https://doi.org/10.1145/234286\nPublished: 01 January 1996\nPages:\n880\nAvailable at Amazon\n\n...\n\nConference in Los Angeles, California. The Program Committee selected thirteen languages that met the criteria of having been in use for at least 10 years, had significant influence, and were still in use. The languages were: ALGOL, APL, APT, BASIC, COBOL, FORTRAN,GPSS, JOSS, JOVIAL, LISP, PL/I,SIMULA, and SNOBOL. The results of that conference were recorded in History of Programming Languages, edited by Richard L. Wexelblat [New York: Academic Press, 19811.\n\n...\n\n(3) have had considerable influence on the field of computing.\n[ History of Programming Languages , Richard L. Wexelblat, ed., Academic Press, ACM Monograph Series, 1981 ), page xviii.]\n(The cutoff date of 1967 was chosen to provide perspective from a distance of at least ten years.)\nThe languages chosen by the Program Committee as meeting those criteria were: ALGOL, APL, APT,\n\n...\n\nincluded.\nContributors\n* Thomas J Bergin\nThomas J Bergin\nAmerican University\n* Richard G Gibson\nRichard G Gibson\n\nIndex Terms\n\nIndex Terms (Premium feature)\n1. History of programming languages---II"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://dl.acm.org/doi/fullHtml/10.1145/1230819.1230841",
+              "title": "A history of the history of programming languages",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "ACM Digital Library\nCommunications of the ACM\nVolume 50, Number 5 (2007), Pages 69-74\n* A history of the history of programming languages | \n* Thomas J. (Tim) Bergin\n|Table of Contents\n* Lead-in\n* Introduction\n* The Beginning\n* The First HOPL Conference, Los Angeles, CA, 1978\n* HOPL II, Cambridge, MA, 1993\n* HOPL III, San Diego, CA, 2007\n* Reflections\n* Author\n* Footnotes\n* Figures\n\n...\n\n1 Sammet was also cataloging languages and publishing numerous \"rosters\" of languages. 2 A major outgrowth of this research was PROGRAMMING LANGUAGES: History and Fundamentals. 3 This w\n\n...\n\nMoreover, these languages served as the foundation for all subsequent programming language development.\nTable 2.\nTable 3.\n\n...\n\nSome of the more memorable comments appeared in the Annals of the History of Computing, including Grace Hopper's famous \"bug\" story. 10 HOPL was captured in History of Programming Languages edited by Richard L. Wexelblat.\nback to top HOPL II, Cambridge, MA, 1993\nSeveral years after HOPL, Sammet and Lee began thinking about a second conference, with the intent of building on what had been learned at HOPL and expanding its scope and coverage. In 1990, SIGPLAN authorized the Second History of Programming Languages Conference (HOPL-II) with Lee as Conference Chairman and Sammet as Program Committee Chair.\n\n...\n\nMahoney, discussed \"Making History.\" 13 The proceedings were published in 1996 as History of Programming Languages, edited by Thomas J. Bergin and Richard G. Gibson. 14"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://dl.acm.org/doi/abs/10.1145/800025",
+              "title": "History of programming languages | ACM Other Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Several features on this page require Premium Access.\nLearn more Sign in\n\nHistory of programming languages\n\nJune 1978\nEditor : Richard L. Wexelblat\nPublisher:\nAssociation for Computing Machinery, New York, NY, United States\nISBN : 0127450408\nDOI : https://doi.org/10.1145/800025\nPublished : 01 June 1978\nPages : 782\nSave to Binder\nExport Citation\nShare on\nContents\nHistory of programming languages\n* Abstract\nACM Digital Library\n* Information & Contributors\n* Bibliometrics & Citations\n* Reading Options\n* References\n* Figures\n* Tables\n* Media\n* Share\n\nAbstract\n\nThese proceedings of the ACM SIGPLAN History of Programming Languages (HOPL) conference are a record, in the words of those who helped make the history, of a baker's dozen of the languages that set the tone of most of today's programming. It is difficult to describe the feeling that prevailed at the conference. There were no parallel sessions. Some attendees were graduate students, some pioneers, many were practitioners, and there seemed roughly an even division\n\n...\n\nPublished In\n\ncover image ACM Other Books\nHistory of programming languages\nJune 1978\n782 pages\nISBN: 0127450408\nDOI: 10.1145/800025\n* Editor:\n* Author Picture Richard L. Wexelblat\nCopyright © 1981.\n\nPublisher\n\nAssociation for Computing Machinery\nNew York, NY, United States\n\nPublication History\n\nPublished : 01 June 1978\n\nPermissions"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2880,
+    "completion_tokens": 635,
+    "total_tokens": 3515,
+    "cost": 0.00553658,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000542,
+      "upstream_inference_prompt_cost": 0.000288,
+      "upstream_inference_completions_cost": 0.000254
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

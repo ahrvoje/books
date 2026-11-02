@@ -1,0 +1,152 @@
+{
+  "id": "gen-1793576864-Jv2nO4E4TleS5yPJyDGJ",
+  "object": "chat.completion",
+  "created": 1793576864,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "Based",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.ams.org/books/gsm/174/gsm174-endmatter.pdf",
+              "title": "Quiver Representations and Quiver Varieties",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "https://doi.org/10.1090//gsm/174\n\nQuiver Representations and Quiver Varieties\n\nAlexander Kirillov Jr.\n\nAmerican Mathematical Society Providence, Rhode Island\n\nGRADUATE STUDIES\n\nIN MATHEMATICS 174\n\nEDITORIAL COMMITTEE\nDan Abramovich Daniel S. Freed (Chair) Gigliola Staffilani Jeff A. Viaclovsky\n2010 Mathematics Subject Classification . Primary 16G20; Secondary 14C05, 14D21, 16G60, 16G70, 17B10, 17B22, 17B67.\nFor additional information and updates on this book, visit www.ams.org/bookpages/gsm-174\nLibrary of Congress Cataloging-in-Publication Data Names: Kirillov, Alexander A., 1967- Title: Quiver representations and quiver varieties / Alexander Kirillov, Jr. Description: Providence, Rhode Island : American Mathematical Society, [2016] | Series: Grad- uate studies in mathematics : volume 174 | Includes bibliographical references and index. Identifiers: LCCN 2016018803 | ISBN 9781470423070 (alk. paper) Subjects: LCSH: Directed graphs. | Representations of graphs. | Graph theory.\n\n...\n\nNonassociative rings and algebras – Lie algebras and Lie superalgebras – Root systems. msc | Nonassociative rings and algebras – Lie algebras and Lie superalgebras – Kac-Moody (super)algebras; extended affine Lie algebras; toroidal Lie algebras. msc Classification: LCC QA166.15 .K75 2016 | DDC 512/.46–dc23 LC record available at https:// lccn.loc.gov/2016018803\nCopying and reprinting."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www2.math.upenn.edu/~kirillov/MATH480-F07/tf.pdf",
+              "title": "A tale of two fractals A. A. Kirillov - Penn Math",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "), rational numbers, algebraic numbers. • Elements of Group Theory: subgroups, homogeneous spaces, cosets, matrix groups.\n\n...\n\nIn other words, we put 0 instead of every even number and 1 instead of every odd\n9\n10 1. DEFINITION AND GENERAL PROPERTIES\nnumber. We get the following picture\n\n...\n\nThe remaining place is occupied by zeros. Let us try to imagine what happens if we continue our triangle up to 2 N lines for some big number N . If we contract the triangle to the size of a book page and replace 1’s by black dots and 0’s by white dots, we get a picture like this:\nFigure 1.1. Pascal triangle mod 2\nHere the whole triangle contains 3 triangles of half-size, which look sim- ilar to the whole thing. The space bounded by these triangles is filled by white dots.\n\n...\n\nShow that ( X, d ) is complete if and only if the set X is closed in M .\nHint. This is simply a test on knowing and understanding the defini- tions. Formulate accurately what is done and what we have to prove and you will obtain a proof.\nWarning. If this exercise does not seem easy for you, try again or discuss it with your instructor.\nA.2.\nDefinition A.6. A map f from a metric space ( M, d ) to itself is called contracting if there is a real number λ ∈ (0 , 1) such that\n(A.5) d  f ( x ) , f ( y )  ≤ λ · d ( x, y ) for all x, y ∈ M.\n\n...\n\nFix a real number α ∈\n\n...\n\nWe refer to the nice surveys [Str99,TAV00] and the original papers [Str00,MT95,Ram84, ?NS ] for more details."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.ams.org/books/surv/058/surv058-endmatter.pdf",
+              "title": "Lectures on Representation Theory and Knizhnik-Zamolodchikov Equations",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "finite simple groups, number 3, 1998\n40.2 Daniel Gorenstein, Richard Lyons, and Ronald Solomon, The classification of the\nfinite simple groups, number 2, 1995\n40.1 Daniel Gorenstein, Richard Lyons, and Ronald Solomon, The classification of the\nfinite simple groups, number 1, 1994\n39 Sigurdur Helgason, Geometric analysis on symmetric spaces, 1994\n\n...\n\nIn the book, we have tried to give a self-contained exposition of the theory of Knizhnik-Zamolodchikov equations and related topics that requires no previous knowledge of physics. The book would be useful to everyone interested in mathematical physics, from graduate students to experts. It can be used as a basis for a one-semester graduate course.\nLibrary of Congress Cataloging-in-Publication Data Etingof, P. I. (Pavel I.), 1969-\nLectures on representation theory and Knizhnik-Zamolodchikov equations / Pavel I. Etingof,\nIgor B. Frenkel, Alexander A. Kirillov, Jr.\np. cm. — (Mathematical surveys and monographs, ISSN 0076-5376 ; v. 58)\nIncludes bibliographical references and index. ISBN 0-8218-0496-0 (hardcover : alk. paper) 1. Broken symmetry (Physics) 2. Quantum groups. 3. Kac-Moody algebras. 4. Mathe-\nmatical physics. I. Frenkel, Igor. II. Kirillov, Alexander A., 1967- . III. Title. IV. Series:\nMathematical surveys and monographs ; no. 58. QC174.17.S9E88 1998\n530.14 / 2—dc21 98-2948\nCIP\nCopying and reprinting.\n\n...\n\nA. Shohat and J. D. Tamarkin, The problem of moments, 1943\n(See the AMS catalog for earlier titles)"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://inspirehep.net/literature?q=citedby:recid:1273649",
+              "title": "INSPIRE",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "literature\n* Help\n* Submit\n* Login\nLiterature\nAuthors\nJobs\nSeminars\nConferences\nData BETA\nMore...\n\nDate of paper\n\n1977 2013\n\nNumber of authors\n\nSingle author\n3\n10 authors or fewer\n44\n\nExclude RPP\n\nExclude Review of Particle Physics\n49\n\nDocument Type\n\npublished\n49\narticle\n47\nconference paper\n2\nreview\n1\n\nAuthor\n\nMaxim Yu. Khlopov\n7\nKonstantin M. Belotsky\n6\nMichael Kuss\n3\nAlexander A. Kirillov\n3\n\n...\n\n,\n* Basudeb Dasgupta ( + ICTP, Trieste )\net al.\n( Oct 7, 2013 )\n* Published in:\n* Phys.Rev.D 89 (2014) 8 , 083001\n•\n* e-Print:\n* 1310.1915 [astro-ph.CO]\npdf DOI cite claim\nreference search 82 citations\nAstrophysical manifestations of clumps of cold dark matter\n#3\n* K.M. Belotsky ( + Moscow Phys. Eng. Inst. )\n,\n* A.A. Kirillov ( + Moscow Phys. Eng. Inst. )\n,\n* M.Yu. Khlopov ( + Moscow Phys. Eng. Inst. and\n* APC, Paris )\n( 2013 )\n* Published in:\n* Phys.Atom.Nucl. 76 (2013) 469-475 ,\n* Yad.Fiz. 76 (2013) 506-512\nDOI cite claim\nreference search 5 citations\nGamma-ray evidences of the dark matter clumps\n#4\n* K. Belotsky ( + Moscow Phys. Eng. Inst. and\n* COSMION, Moscow )\n,\n* A. Kirillov ( + Moscow Phys. Eng. Inst. and\n* COSMION, Moscow )\n,\n* M.\n\n...\n\nBerkov ( + Moscow Phys. Eng. Inst. )\n,\n* A.A. Kirillov ( + Moscow Phys. Eng. Inst. )\n,\n* S.G. Rubin ( + Moscow Phys. Eng. Inst. )\n( Aug, 2011 )\n* Published in:\n* Astropart.Phys. 35 (2011) 28-32\n•"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://github.com/valeman/Awesome_Math_Books",
+              "title": "GitHub - valeman/Awesome_Math_Books · GitHub",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "valeman/Awesome_Math_Books\n\n* Page: GitHub repository\n* URL: https://github.com/valeman/Awesome_Math_Books\n* Default branch: main\n* Created: 2024-09-01T11:55:44.000Z\n* Commits: 198\n\nTop-level files\n\n...\n\nscientists, engineers, and AI researchers.\n📚 Complete catalog of faithful English translations from original Russian editions: russianmathbooks.com — Northern Star Academic Press.\n\n...\n\nOvcharov\n3. Principles of Mathematical Analysis by Walter Rudin\n4. What is mathemarics by Richard Courand and Herbert Robbins\n5. Introduction to matrix analysis by Richard Bellman\n6.\n\n...\n\nving Problems In Geometry by V. Gusev; V. Litvinenko; A. Mordkovich\n74. Sequences, Combinations, Limits (Library of School Mathematics Vol. 3) by S.I. Gelfand; M.L. Gerver; N.N. Konstantinov; A. G. Kushnirenko; A.A. Kirillov\n75. Worked Problems In Applied Mathematics by N. N. Lebedev; I. P. Skalskaya; Y. S. Uflyand\n76. Limits And Continuity ( Pocket Mathematical Library) by P. P. Korovkin\n77.\n\n...\n\nov, Tuliakov and Shabunin\n96. Learn Limits Through Problems! Pocket Mathematical Library Workbook 2 by S. I. Gelfand; M. L. Gerver; A. A. Kirillov; N. N. Konstantinov; A.G. Kushnirenko\n97.\n\n...\n\nVector Analysis by M.L. Krasnov; A.I. Kiselev; G.I. Makarenko.\n134. Learn Limits Through Problems! ( Pocket Mathematical Library Workbook 2) by S. I. Gelfand; M. L. Gerver; A. A. Kirillov; N. N."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://inspirehep.net/literature?q=refersto:recid:1267190",
+              "title": "INSPIRE",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "literature\n* Help\n* Submit\n* Login\nLiterature\nAuthors\nJobs\nSeminars\nConferences\nData BETA\nMore...\n\nDate of paper\n\n2014 2024\n\nNumber of authors\n\n10 authors or fewer\n1\n\nExclude RPP\n\nExclude Review of Particle Physics\n4\n\nDocument Type\n\narticle\n4\npublished\n4\n\nAuthor\n\nHannu Kurki-Suonio\n1\nAlexander A. Kirillov\n1\nNigel Keith George\n1\nHubert Degaudenzi\n1\nCarlo Baccigalupi\n1\nDimitri Alexei Gadotti\n1\nXavier Dupac\n1\nSmaïn Kermiche\n1\nWill J. Percival\n1\nAndrea Cimatti\n1\nShow 90 more\n\nSubject\n\nAstrophysics\n4\nGravitation and Cosmology\n1\nInstrumentation\n1\n\narXiv Category\n\nastro-ph.GA\n3\nastro-ph.IM\n2\nastro-ph.CO\n1\ngr-qc\n1\nphysics.pop-ph\n1\n\nCollaboration\n\nEuclid\n1\n4 results cite all\nCitation Summary\nMost Recent\nEuclid: Early Release Observations of diffuse stellar structures and globular clusters as probes of the mass assembly of galaxies in the Dorado group\n#1\n* Euclid\nCollaboration\n•\n* M. Urbano ( + Strasbourg Observ. )\net al.\n( Dec 23, 2024 )\n* Published in:\n* Astron.Astrophys. 700 (2025) A104\n•\n* e-Print:\n* 2412.17672 [astro-ph.GA]\npdf DOI cite claim\nreference search 7 citations\nPossible formation of ring galaxies by torus-shaped magnetic wormholes\n#2\n* A.A. Kirillov ( + Baumann State Tech. U., Moscow )\n,\n* E.P. Savelova ( + Baumann State Tech. U., Moscow )\n( Jul 5, 2020 )\n* Published in:\n* Eur.Phys.J.C 80 (2020) 9 , 810\n•\n* e-Print:\n* 2006.15331 [gr-qc]\npdf DOI cite claim"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://library.kaist.ac.kr/search/ctlgSearch/posesn/view.do?bibctrlno=518806&ty=B",
+              "title": "Lectures on tensor categories and modular functors - 도서관",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "* Lectures on tensor categories and modular functors\n* 서명 / 저자 | Lectures on tensor categories and modular functors / Bojko Bakalov, Alexander Kirillov, Jr.\n* 저자명 | [Bakalov, Bojko](javascript:fn_tailJsrch('OUTPT_AUTHOR','Bakalov, Bojko')) ; [Kirillov, Alexander A](javascript:fn_tailJsrch('OUTPT_AUTHOR','Kirillov, Alexander A'))\n* 발행사항 | Providence, R.I. : [American Mathematical Society,](javascript:fn_tailJsrch('OUTPT_PUBLISHER','American Mathematical Society, ') ) 2001.\n* 총서명 | University lecture series, 1047-3998 ; v. 21\n\n소장정보\n\n등록번호\nMS03328\n소장위치/청구기호\n수학도서관\nQA169 .B65 2001\n[휴대폰 전송](javascript:fn_msgAfterLogin('로그인 후 이용하시길 바랍니다.');)\n도서상태\n이용가능(대출불가)\n[사유안내](javascript:viewFailAlert('로그인 후 이용하시길 바랍니다.');)\n반납예정일\n\n리뷰정보\n\n* 별점 | (0 명)\n* 명문장 | \n* 서평 | \n전체보기 참여하기\n\n서지기타정보\n\n* 청구기호 | QA169 .B65 2001\n* 형태사항 | x, 221 p. : ill. ; 26 cm.\n* 언어 | English\n* 서지주기 | Includes bibliographical references (p. 213-216) and index.\n* 주제 | [Abelian categories.](javascript:fn_tailJsrch('KWRD_SBJECT_TRM','Abelian categories.\n* '))\n\n...\n\nfn_tailJsrch('KWRD_SBJECT_TRM','Quantum field theory.\n* '))\n* LCCN | 00045141\n* ISBN | 0821826867 (pbk.)\nQR CODE\nScan me!\n\n책소개\n\n전체보기\n\n목차\n\n전체보기\nIntroduction Braided tensor categories Ribbon categories Modular tensor categories 3-dimensional topological quantum field theory Modular functor Moduli spaces and complex modular functor\n\n...\n\nJ QA169 .B533 a\n* Rings, modules, and preradicals Rings, modules, and preradicals Bican, Ladislav QA169 .B583 r"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://library.imsc.res.in/bib/15135",
+              "title": "Details for: \n    Lectures on Representation Theory and Knizhnik-Zamolodchikov Equations\n\n\n\n\n\n\n › IMSc Library catalog",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Search:\nLibrary catalog Title Author Subject ISBN Series Call number Publication year Publisher Barcode/ACCN NO\n-- All Item type -- BOOKS JOURNALS (PRINT) E-BOOKS E-JOURNALS THESIS CDROM Videos\nAdvanced Search\n* Advanced search\n* Tag cloud\n* Libraries\n\nLog in to your account\n\n×\nLogin: Password:\nPlease use your IMSc email user id and password to Login\n1. Home\n2. Details for: Lectures on Representation Theory and Knizhnik-Zamolodchikov Equations\nAmazon cover image\nImage from Amazon.com\nNormal view MARC view ISBD view\n\nLectures on Representation Theory and Knizhnik-Zamolodchikov Equations\n\nBy: * Etingof, Pavel I\n* Frenkel, I B\n* Kirillov, A A. Jr Material type: Text Text Series: Mathematical surveys and monographs ; 00058 Publication details: USA ; AMS ; 1998 Description: 198pp ISBN: * 0821804960 Subject(s): * Broken Symmetry (Physics) Quantum Groups Kac-Moody algebras\nItem type: BOOKS\nTags from this library: No tags from this library for this title. Log in to add tags.\nStar ratings\n1 2 3 4 5 Average rating: 0.0 (0 votes)\n* Holdings ( 1 )\n* Comments ( 0 )\n* Home library | Call number | Materials specified | Status | Date due | Barcode | \n* IMSc Library | 530.14 ETI\n* ( Browse shelf (Opens below) ) |  | Available |  | 40243 | \nThere are no comments on this title.\nLog in to your account to post a comment.\n* Place hold\n* Print\n* Send to device\n* Save record\nBIBTEX Dublin Core RIS MARC (Unicode/UTF-8, Standard)\n* More searches\nSearch for this title in:"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.math.columbia.edu/~woit/LieGroups-2013",
+              "title": "Representation Theory",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Lie Groups and Representations: Mathematics G4343 (fall 2013)\nMonday and Wednesday 10:10-11:25am 507 Mathematics\nThis course will cover various aspects of the theory of Lie groups, Lie algebras and their representations.  It is aimed at first-year mathematics graduate students although students in physics might also find it of interest.  This semester, the emphasis will be on Lie algebras and the classification of representations of finite-dimensional complex semi-simple Lie algebras, covering most of the material in the Kirillov textbook.  This will be supplemented with various other topics, including examples from quantum mechanics, sometimes extracted from the notes on quantum mechanics and representation theory available\n\n...\n\nDue Monday, October 21. Problem Set 4 .  Due Monday, November 11. Problem Set 5 .  Due Monday, November 25. Problem Set 6 .  Due Monday, December 9.\n\nTextbook\n\nAlexander Kirillov, Jr. An Introduction to Lie Groups and Lie Algebras Cambridge University Press, 2008\nNote that electronic version of this book is available freely for Columbia students at the link above or via its entry in the Columbia library catalog.\nAnother strongly recommended source is Eckhard Meinrenken's lecture notes on Lie Groups and Lie Algebras .\n\n...\n\nleft-versus-right actions and actions on spaces versus actions on functions on the spaces.\n\nOther References\n\nKnapp, Anthony W., Lie Groups: Beyond an Introduction (Second Edition) Birkhauser, 2002."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://library.imsc.res.in/bib/40721",
+              "title": "Details for: \n    Representation theory of groups and algebras /\n\n\n\n\n\n\n › IMSc Library catalog",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Library catalog Title Author Subject ISBN Series Call number Publication year Publisher Barcode/ACCN NO\n-- All Item type -- BOOKS JOURNALS (PRINT) E-BOOKS E-JOURNALS THESIS CDROM Videos\n\n...\n\naries\n\nLog in to your account\n\n×\nLogin: Password:\nPlease use your IMSc email user id and password to Login\n1. Home\n2. Details for: Representation theory of groups and algebras /\nAmazon cover image\n\n...\n\nContents\n* Contents\nContents:\nThe orbit method. I. Geometric quantization / Aleksandr Aleksandrovich Kirillov -- http://www.ams.org/conm/145/ http://dx.doi.org/10.1090/conm/145/1216179 The orbit method. II. Infinite-dimensional Lie groups and Lie algebras / Aleksandr Aleksandrovich Kirillov -- http://www.ams.org/conm/145/ http://dx.doi.org/10.1090/conm/145/1216180 Quantized differential forms in noncommutative topology and geometry / Joachim Cuntz -- http://www.ams.org/conm/145/ http://dx.doi.org/10.1090/conm/145/1216181 Novikov's conjecture on higher signatures: the operator $K$-theory\n\n...\n\n\"Contains proceedings from activities ... during the years 1989-1992\"--Pref.\nIncludes bibliographical references.\nThe orbit method. I. Geometric quantization / Aleksandr Aleksandrovich Kirillov -- The orbit method. II. Infinite-dimensional Lie groups and Lie algebras / Aleksandr Aleksandrovich Kirillov -- Quantized differential forms in noncommutative topology and geometry / Joachim Cuntz -- Novikov's conjecture on higher signatures: the operator $K$-theory approach / Gennadi Kasparov -- ${\\rm"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5203,
+    "completion_tokens": 1,
+    "total_tokens": 5204,
+    "cost": 0.00109274716,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000093684,
+      "upstream_inference_prompt_cost": 0.000093654,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "n86606a9cda",
+  "method": "standard",
+  "query": "\"What Are Numbers?\" A. A. Kirillov \"bibliographical references\" pages library catalog",
+  "retrieved": "2026-11-01T23:47:47.282Z"
+}

@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572660-bGxjnHceUrLMKyLznrDN",
+  "object": "chat.completion",
+  "created": 1793572660,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"intake-0848\",\n  \"title\": \"The Shaping of Arithmetic after C. F. Gauss's Disquisitiones Arithmeticae\",\n  \"author\": \"Catherine Goldstein; Norbert Schappacher; Joachim Schwermer (editors)\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 1,\n    \"url\": \"https://link.springer.com/book/10.1007/978-3-540-34720-0\",\n    \"evidence\": \"Bibliographic information\",\n    \"ranges\": [\n      {\n        \"start\": 563,\n        \"end\": 577,\n        \"label\": \"List of Illustrations, Index, Authors’ Addresses\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://irma.math.unistra.fr/~schappa/NSch/Publications_files/2007a1_2_ShapingCGNSch.pdf",
+              "title": "Goldstein · Schappacher · Schwermer",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Catherine Goldstein Norbert Schappacher Joachim Schwermer Editors\n\n## The Shaping of Arithmetic after C. F. Gauss’s Disquisitiones Arithmeticae\n\nWith 36 Figures\n\n...\n\nLibrary of Congress Control Number: 2006932291\n\nISBN 978-3-540-20441-1 Springer Berlin Heidelberg New York\n\n...\n\n1. A preliminary version of this bibliography has been kindly put on line by Franz Lem mermeyer on a website hosted by the University of Heidelberg ( http://www.rzuser.uni heidelberg.de/∼ hb3/HINTbib.html ).\n\n...\n\nChap\n\n...\n\nJacqueline Boniface \nChapter V.2 On Arithmetization 343 \nBirgit Petri & Norbert Schappacher\n\n...\n\nNumber | Theory | Disquisitiones and the in | France after 1850 375 |\n| --- | --- | --- | --- | --- |\n| Chapter | VI.1 | The Hermitian | Disquisitiones Form of Reading the | 377 |\n| | Catherine | Goldstein | | |\n| Chapter | VI.2 | Number | Association française Theory at the | pour |\n| | | l’avancement | des sciences | 411 |\n\nAnne-Marie Décaillot\n\nPart VII. Spotlighting Some Later Reactions 429\n\nChapter VII.1 An Overview on Italian Arithmetic after the Disquisitiones \nArithmeticae 431 \nAldo Brigaglia \nChapter VII.2 Zolotarev’s Theory of Algebraic Numbers 453 \nPaola Piazza \nChapter VII.3 Gauss Goes West: The Reception of the Disquisitiones \nArithmeticae in the USA 463 \nDella Fenster \n\nPart VIII. Gauss’s Theorems in the Long Run: Three Case Studies 481\n\nChapter VIII.1 Reduction Theory of Quadratic Forms: Toward Räumliche \nAnschauung in Minkowski’s Early Work 483 \nJoachim Schwermer \nChapter VIII.2 Gauss Sums 505 \nSamuel J. Patterson \nChapter VIII.3 The Development of the Principal Genus Theorem 529 \nFranz Lemmermeyer \n\nList of Illustrations 563 \nIndex 565 \nAuthors’ Addresses 577 \n\n### Editions of Carl Friedrich Gauss’s Disquisitiones Arithmeticae\n\nThe Disquisitiones Arithmeticae has been omitted from the list of references of the individual chapters: we list underneath its various editions. Throughout this book, passages from Gauss’s Disquisitiones Arithmeticae are referred to only by the article number. The title of Gauss’s work is routinely abbreviated as “D.A.” For all works, a mention of [Author 1801a] refers to the item “AUTHOR. 1801a” in the bibliography, a mention of [Author 1801/1863] refers to the 1863 edition in this item.\n\n1801. Disquisitiones Arithmeticae. Leipzig: Fleischer. Repr. Bruxelles: Culture \net civilisation, 1968. Repr. Hildesheim: Olms, 2006. Rev. ed. in Werke, vol. 1, \ned. Königliche Gesellschaft zu Göttingen [E. Schering]. Göttingen: Universitäts \nDruckerei, 1863; 2 nd rev. ed., 1870; repr. Hildesheim: Olms, 1973. \nhttp://gallica.bnf.fr \nhttp://dz-srv1.sub.uni-goettingen.de/cache/toc/D137206.html \n1807. Recherches arithmétiques. French transl. A.-C.-M. Poullet-Delisle. Paris: \nCourcier. Repr. Sceaux: Gabay, 1989. \nhttp://gallica.bnf.fr \n1889. Arithmetische Untersuchungen. German transl. H. Maser. In Untersuchungen \nüber höhere Arithmetik, pp. 1–453. Berlin: Springer. Repr. New York: Chelsea, \n1965; 2 nd ed., 1981. \nhttp://dz-srv1.sub.uni-goettingen.de/cache/toc/D232699.html \n1959. Arifmeticeskie issledovaniya ˇ . Russian transl. V. B. Dem’yanov. In Trudi \npo teorii cisel ˇ [Works on number theory], ed. I. M. Vinogradov, B. N. Delone, \npp. 7–583. Moscow: Academy of Sciences USSR. \n1966. Disquisitiones Arithmeticae. English transl. A. A. Clarke. New Haven: Yale \nUniversity Press. Rev. ed. W. C. Waterhouse. New York: Springer, 1986. \n1995. Disquisitiones Arithmeticae. Spanish transl. H. Barrantes Campos, M. Josephy, \nA. Ruiz Z`uñiga. Colecci ´on Enrique Pérez Arbelaez 10. Santa Fe de Bogot´a: \nAcademia Colombiana de Ciencias Exactas, Fisicas y Naturales. \n1995. Seisuu ron. Japanese transl. Takase Masahito. Tokyo: Asakura-Shoten. \n1996. Disquisicions aritmètiques. Catalan transl. G. Pascual Xufré. Barcelona: \nInstitut d’Estudis Catalans, Societat Catalana de Matemàtiques."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://link.springer.com/book/10.1007/978-3-540-34720-0",
+              "title": "The Shaping of Arithmetic after C.F. Gauss's Disquisitiones Arithmeticae | Springer Nature Link",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "- Book\n- © 2007\n\n## Overview\n\nEditors:\n: - Catherine Goldstein 0, \n- Norbert Schappacher 1, \n- Joachim Schwermer 2\n\n...\n\nThis is a preview of subscription content, log in via an institution to check access. \n\n## Table of contents (20 chapters)\n\n1. ### Front Matter\n\nPages i-xi \n\n Download chapter PDF \n2. ### A Book’s History\n\n1. #### Front Matter\n\nPages 1-1 \n\n Download chapter PDF \n2. #### A Book in Search of a Discipline (1801–1860) \n\n- Catherine Goldstein, Norbert Schappacher\n\nPages 2-65 \n3. #### Several Disciplines and a Book (1860–1901) \n\n- Catherine Goldstein, Norbert Schappacher\n\nPages 66-103 \n3. ### Algebraic Equations, Quadratic Forms, Higher Congruences: Key Mathematical Techniques of the Disquisitiones Arithmeticae\n\n1. #### Front Matter\n\nPages 105-105 \n\n Download chapter PDF \n2. #### The Disquisitiones Arithmeticae and the Theory of Equations \n\n- Olaf Neumann\n\nPages 107-127 \n3. #### Composition of Binary Quadratic Forms and the Foundations of Mathematics \n\n- Harold M. Edwards\n\nPages 129-144 \n4. #### Composition of Quadratic Forms: An Algebraic Perspective \n\n- Della D. Fenster, Joachim Schwermer\n\nPages 145-158 \n5. #### The Unpublished Section Eight: On the Way to Function Fields over a Finite Field \n\n- Günther Frei\n\nPages 159-198 \n4. ### The German Reception of the Disquisitiones Arithmeticae: Institutions and Ideas\n\n1. #### Front Matter\n\nPages 199-199 \n\n Download chapter PDF \n2. #### A Network of Scientific Philanthropy: Humboldt’s Relations with Number Theorists \n\n- Herbert Pieper\n\nPages 201-233 \n3. #### ‘O Θɛòζ’ Aριθμηίíξɛι: The Rise of Pure Mathematics as Arithmetic with Gauss \n\n- José Ferreirós\n\nPages 234-268 \n5. ### Complex Numbers and Complex Functions in Arithmetic\n\n1. #### Front Matter\n\nPages 269-269 \n\n Download chapter PDF \n2. #### From Reciprocity Laws to Ideal Numbers: An (Un)Known Manuscript by E.E. Kummer \n\n- Reinhard Bölling\n\nPages 270-290 \n3. #### Elliptic Functions and Arithmetic \n\n- Christian Houzel\n\nPages 291-312 \n6. ### Numbers as Model Objects of Mathematics\n\n1. #### Front Matter\n\nPages 313-313 \n\n Download chapter PDF \n2. #### The Concept of Number from Gauss to Kronecker \n\n- Jacqueline Boniface\n\nPages 314-342 \n3. #### On Arithmetization \n\n- Birgit Petri, Norbert Schappacher\n\nPages 343-374 \n7. ### Number Theory and the Disquisitiones in France after 1850\n\n1. #### Front Matter\n\nPages 375-375 \n\n Download chapter PDF \n2. #### The Hermitian Form of Reading the Disquisitiones \n\n- Catherine Goldstein\n\nPages 376-410\n\n...\n\n## Bibliographic information\n\n- Book title: The Shaping of Arithmetic after C.F. Gauss's Disquisitiones Arithmeticae\n- Editors: Catherine Goldstein, Norbert Schappacher, Joachim Schwermer\n- DOI: https://doi.org/10.1007/978-3-540-34720-0\n- Publisher: Springer Berlin, Heidelberg\n- eBook packages: Mathematics and Statistics, Mathematics and Statistics (R0) \n- Copyright information: Springer-Verlag Berlin Heidelberg 2007\n- Hardcover ISBN: 978-3-540-20441-1 Published: 09 January 2007\n- Softcover ISBN: 978-3-642-05802-8 Published: 12 February 2010\n- eBook ISBN: 978-3-540-34720-0 Published: 03 February 2007\n- Edition number: 1\n- Number of pages: XII, 578\n- Number of illustrations: 36 b/w illustrations\n- Topics: Number Theory, Algebra, History of Mathematical Sciences"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://acervus.unicamp.br/acervo/detalhe/1327147",
+              "title": "Terminal - Sophia Biblioteca Web",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Terminal - Sophia Biblioteca Web\n\n# The shaping of arithmetic after C.F. Gauss's disquisitiones arithmeticae [recurso eletrônico]\n\n edited by Catherine Goldstein, Norbert Schappacher, Joachim Schwermer \n\nMaterial\n\n E-BOOK \n\nIdioma\n\nund \n\nISBN\n\nPublicação\n\nHeidelberg : Springer, 2007. \n\nDescrição física\n\n1 recurso online (XII, 578 p.) : il.\n\nAssuntos\n\nAutoria\n\n Goldstein, Catherine Editor \n\n Schappacher, Norbert Editor \n\n Schwermer, Joachim Editor \n\n Sites"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://books.google.com/books?id=IUFTcOsMTysC",
+              "title": "The Shaping of Arithmetic after C.F. Gauss's Disquisitiones Arithmeticae",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The Shaping of Arithmetic after C.F. Gauss's Disquisitiones Arithmeticae\n\nCatherine Goldstein, Norbert Schappacher, Joachim Schwermer\n\nSpringer Science & Business Media, Feb 3, 2007 - Mathematics- 578 pages\n\n...\n\n### Selected pages\n\nPage 2\n\nTable of Contents\n\nIndex\n\nReferences"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://content.e-bookshelf.de/media/reading/L-10893-1d5d325d91.pdf",
+              "title": "Goldstein · Schappacher · Schwermer The Shaping of Arithmetic after C. F. Gauss’s Disquisitiones Arithmeticae",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "### Editions of Carl Friedrich Gauss’s Disquisitiones Arithmeticae\n\nThe Disquisitiones Arithmeticae has been omitted from the list of references of the individual chapters: we list underneath its various editions. Throughout this book, passages from Gauss’s Disquisitiones Arithmeticae are referred to only by the article number. The title of Gauss’s work is routinely abbreviated as “D.A.” For all works, a mention of [Author 1801a] refers to the item “AUTHOR. 1801a” in the bibliography, a mention of [Author 1801/1863] refers to the 1863 edition in this item.\n\n1801. Disquisitiones Arithmeticae. Leipzig: Fleischer. Repr. Bruxelles: Culture \net civilisation, 1968. Repr. Hildesheim: Olms, 2006. Rev. ed. in Werke, vol. 1, \ned. Königliche Gesellschaft zu Göttingen [E. Schering]. Göttingen: Universitäts \nDruckerei, 1863; 2 nd rev. ed., 1870; repr. Hildesheim: Olms, 1973. \nhttp://gallica.bnf.fr \nhttp://dz-srv1.sub.uni-goettingen.de/cache/toc/D137206.html \n1807. Recherches arithmétiques. French transl. A.-C.-M. Poullet-Delisle. Paris: \nCourcier. Repr. Sceaux: Gabay, 1989. \nhttp://gallica.bnf.fr \n1889. Arithmetische Untersuchungen. German transl. H. Maser. In Untersuchungen \nüber höhere Arithmetik, pp. 1–453. Berlin: Springer. Repr. New York: Chelsea, \n1965; 2 nd ed., 1981. \nhttp://dz-srv1.sub.uni-goettingen.de/cache/toc/D232699.html \n1959. Arifmeticeskie issledovaniya ˇ . Russian transl. V. B. Dem’yanov. In Trudi \npo teorii cisel ˇ [Works on number theory], ed. I. M. Vinogradov, B. N. Delone, \npp. 7–583. Moscow: Academy of Sciences USSR. \n1966. Disquisitiones Arithmeticae. English transl. A. A. Clarke. New Haven: Yale \nUniversity Press. Rev. ed. W. C. Waterhouse. New York: Springer, 1986. \n1995. Disquisitiones Arithmeticae. Spanish transl. H. Barrantes Campos, M. Josephy, \nA. Ruiz Z`uñiga. Colecci ´on Enrique Pérez Arbelaez 10. Santa Fe de Bogot´a: \nAcademia Colombiana de Ciencias Exactas, Fisicas y Naturales. \n1995. Seisuu ron. Japanese transl. Takase Masahito. Tokyo: Asakura-Shoten. \n1996. Disquisicions aritmètiques. Catalan transl. G. Pascual Xufré. Barcelona: \nInstitut d’Estudis Catalans, Societat Catalana de Matemàtiques."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3986,
+    "completion_tokens": 187,
+    "total_tokens": 4173,
+    "cost": 0.0072121174,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021426,
+      "upstream_inference_prompt_cost": 0.0001993,
+      "upstream_inference_completions_cost": 0.00001496
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "intake-0848",
+  "retrieved": "2026-11-01T22:37:41.925Z"
+}

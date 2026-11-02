@@ -1,0 +1,87 @@
+{
+  "id": "gen-1793574840-x3z3m4VVCI3JRyHXmxo1",
+  "object": "chat.completion",
+  "created": 1793574840,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Culture-Given-Choice-2nd/dp/1577662695",
+              "title": "Culture as Given, Culture as Choice, 2nd Edition",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nCulture as Given, Culture as Choice, 2nd Edition\nThis creatively written introductory work is full of insights about how humanity's defining adaptation has evolved and functions. What makes van der Elst's"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://advertising.amazon.com/nl-nl/library/research/global-trends-shaping-culture",
+              "title": "Van advertenties tot tijdgeest: Een onderzoek naar cultuur en adverteren | Amazon Ads",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Amazon Ads\n\nVan advertenties\n\ntot tijdgeest\nOntdek de wereldwijde trends die cultuur vormgeven.\nRapport downloaden\n\nDe relatie tussen adverteren en cultuur begrijpen\n\nAmazon Ads heeft een wereldwijd onderzoek uitgevoerd met focusgroepen en consumentenonderzoeken op basis van interviews met deskundigen en trendanalyses.\nVan advertenties tot tijdgeest presenteert nieuwe inzichten, nieuwe perspectieven en bruikbare aanbevelingen voor merken die deel willen uitmaken van het culturele gesprek.\n\nWat we hebben ontdekt\n\nIn een snel veranderende wereld van vluchtige virale momenten verlangen consumenten naar verbinding en saamhorigheid.\nMerken hebben een mogelijkheid om cultuur vorm te geven (en er niet alleen op te reageren) door gedeelde waarden uit te dragen en consumenten de mogelijkheid te bieden om zichzelf uit te drukken.\n\n...\n\nultuur\n\nVan Zuid-Koreaanse content tot Latijns-Amerikaanse muziek, steeds meer regio's dragen bij aan de wereldwijde cultuur en wel op manieren die authentiek, origineel en zelfbepalend zijn.\n\nOngeveer zeven op de tien consumenten willen meer authentieke, echte verhalen in de media zien die verschillende culturen weerspiegelen.\n\nGedemocratiseerde creativiteit\n\nEen wederzijdse culturele dialoog\n\nDe digitale cultuur heeft de oude hiërarchieën uitgehold. De macht van de fans van onderaf wordt steeds meer een onmiskenbare kracht bij het bepalen van de\n\n...\n\n62% van de consumenten is op zoek naar meer originele content.\n\n\"Er"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Jos%C3%A9-van-Dijck/s?rh=n%3A283155%2Cp_27%3AJos%25C3%25A9%2Bvan%2BDijck",
+              "title": "José Van Dijck: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Culture of Connectivity: A Critical History of Social Media\n## The Culture of Connectivity: A Critical History of Social Media\nby Jose van Dijck | Jan 30, 2013\n4.3 4.3 out of 5 stars (69)\nPaperback\nPrice, product page IDR 461,944.28 IDR 461,944 . 28 List: IDR 884,355.23 List: IDR 884,355.23 IDR884,355.23\nIDR 181,\n\n...\n\nShips to Indonesia\nUsually ships within 6 days\nMore Buying Choices IDR 3,041,358.84 (5+ used & new offers)\nMediated Memories in the Digital Age (Cultural Memory in the Present)\n## Mediated Memories in the Digital Age (Cultural Memory in the Present)\nPart of: Cultural Memory in the Present (213 books) | by Jose Van Dijck | Jun 29, 2007\n4.6 4.6 out of 5 stars (10)\nPaperback\nPrice, product page IDR 396,957.98 IDR 396,957 . 98 List: IDR 451,293.75 List: IDR 451,293.75 IDR451,293.75\n90 days free of Amazon Music with purchase\nIDR 166,978.69 delivery Tue, Nov 3\n\n...\n\nlian Edition | by José van Dijck\n4.7 4.7 out of 5 stars (106)\nPaperback\nSee options\nThe Transparent Body: A Cultural Analysis of Medical Imaging (In Vivo: The Cultural Mediations of Biomedical\n\n...\n\nety: Essays on Visual Culture\n## The Image Society: Essays on Visual Culture\nby Jose van Dijck , Frank van Vree , et al. | Mar 2, 2003\nPaperback\nSee options\nMass Market Paperback\n\n...\n\n180,336.98 IDR 180,336 . 98\nAvailable instantly\nDigital Culture & Society (DCS): Vol. 9, Issue 2/2023: Frictions: Conflicts, Controversies and Design Alternatives in Digi..."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1497,
+    "completion_tokens": 1,
+    "total_tokens": 1498,
+    "cost": 0.00102670624,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000026976,
+      "upstream_inference_prompt_cost": 0.000026946,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Culture as Given, Culture as Choice\" Dirk van der Elst \"global ratings\"",
+  "bookId": "intake-0464",
+  "retrieved": "2026-11-01T23:13:58.400Z"
+}

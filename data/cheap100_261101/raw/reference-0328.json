@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572623-2mqRPNAYolA7X9nwqMba",
+  "object": "chat.completion",
+  "created": 1793572623,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"intake-0377\",\n  \"title\": \"Grammatical man : information, entropy, language, and life\",\n  \"author\": \"Jeremy Campbell\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 319,\n    \"url\": \"https://catalog.freelibrary.org/Record/464934\",\n    \"evidence\": \"Physical Description: 319 p.\",\n    \"ranges\": [\n      {\n        \"start\": 319,\n        \"end\": 319,\n        \"label\": \"Physical Description\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://apps.lib.byu.edu/marcrecord/bib/170243",
+              "title": "apps.lib.byu.edu",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Leader *****cam*a22******a*4500\n001 ## a170243\n003 ## SIRSI\n008 ## 820921s1982 nyu b 00110 eng\n010 ## $a 82003272\n020 ## $a 0671440616\n035 ## $a (RLIN)UTBG82-B45817\n035 ## $a (OCoLC)ocn135512268\n039 0# $a 2\n $b 3\n $c 3\n $d 3\n $e 3\n050 0# $a Q360\n $b .C33 1982\n079 ## $a ocm08306673\n082 0# $a 001.53/9\n $2 19\n090 ## $a Q360\n $b .C33 1982\n $i 12/11/84 T\n $h 01/07/83 CT\n100 1# $a Campbell, Jeremy,\n $d 1931-\n245 10 $a Grammatical man :\n $b information, entropy, language, and life /\n $c by Jeremy Campbell.\n260 ## $a New York :\n $b Simon and Schuster,\n $c ©1982.\n300 ## $a 319 p. ;\n $c 22 cm.\n336 ## $a text\n $2 rdacontent\n337 ## $a unmediated\n $2 rdamedia\n338 ## $a volume\n $2 rdacarrier\n504 ## $a Includes bibliographical references and index.\n650 #0 $a Information theory.\n950 ## $l SCI\n $h 01/07/83 C\n955 ## $l SCI\n $c 1\n $q 82B45817-1\n $q inv. K 852514\n $r 11154314\n $h 01/07/83 C\n955 ## $l SCI\n $c 2\n $r 11344329\n $i 12/11/84 C\n989 ## $a Q360 .C33 1982\n $w LC\n $h sci\n $i 31197011154314\n $d 10/10/1994\n $n 11\n $q 2\n $5 1/1\n989 ## $a Q360 .C33 1982\n $w LC\n $h sci\n $i 31197011344329\n $d 1/2/1996\n $n 10\n $q 2\n $5 2/1\n596 ## $a LEE"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.freelibrary.org/Record/464934",
+              "title": "Grammatical man : information, entropy, language, and life  - Free Library Catalog",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Grammatical man : information, entropy, language, and life - Free Library Catalog\n\n# Find\n\n### Grammatical man : information, entropy, language, and life by Campbell, Jeremy, 1931- \n\n Overall Rating: \n\n Your Rating: Log in to rate. \n\n##### Book \n\n Total Copies: 1 Available: 1 Holds: 0 \n\n#### Description\n\n- Published: New York : Simon and Schuster, 1982 \n- ISBN: 0671440616 \n- Format: Book\n- Language: English \n- Subjects: \n\n- Information theory.\n- Physical Description: 319 p. \n- Bibliography: Includes bibliographical references and index. \n- Tags: No Tags, Be the first to tag this record! Add Tag \n- Awards: \n- About the Author: \n\n#### Holdings\n\n 1 Available \n\n| Library: | Call Number: | Material: | Shelf Location: | Due Date: | Notes: |\n| --- | --- | --- | --- | --- | --- |\n| Parkway Central Library | 001.539 C152G | Adult Reference | Request Item - Regional Operations Center | | |\n\n...\n\n#### Staff View\n\n| LEADER | 00830cam a22002898a 4500 | | |\n| --- | --- | --- | --- |\n| 001 | ocm08306673 | | |\n| 008 | 820305s1982 nyu b 001 0 eng | | |\n| 010 | | | |a 82003272 |\n| 035 | | | |a (Sirsi) ABB-5507 |\n| 040 | | | |a DLC |c DLC |d PLF |\n| 020 | | | |a 0671440616 |\n| 050 | 0 | | |a Q360 |b .C33 |\n| 082 | 0 | | |a 001.53/9 |2 19 |\n| 099 | | | |a 001.539 |a C152g |\n| 049 | | | |a PLFS |\n| 100 | 1 | | |a Campbell, Jeremy, |d 1931- |= ^A135438 |\n| 245 | 1 | 0 | |a Grammatical man : |b information, entropy, language, and life / |c by Jeremy Campbell. |\n| 260 | | | |a New York : |b Simon and Schuster, |c c1982. |\n| 263 | | | |a 8208 |\n| 300 | | | |a 319 p. |\n| 504 | | | |a Includes bibliographical references and index. |\n| 650 | | 0 | |a Information theory. |= ^A377838 |\n| 900 | | | |a a464934 |\n| 913 | | | |a CAMGMAN99 |\n| 948 | | | |a 05/11/1995 |b 10/26/1996 |\n| 596 | | | |a 1 |\n| 980 | | | |a 19950511 |b 20220419 |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://openlibrary.org/books/OL3483814M/Grammatical_man",
+              "title": "Grammatical man by Jeremy Campbell | Open Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "This book is currently unavailable on Open Library, check out available alternatives.\n\n...\n\nAn edition of Grammatical man\n(1973)\n# Grammatical man\n##\ninformation, entropy, language, and life\n##\nby Jeremy Campbell, Jeremy Campbell, and Jeremy Campbell\n\n...\n\nAn edition of Grammatical man\n(1973)\n# Grammatical man\n##\ninformation, entropy, language, and life\n##\nby Jeremy Campbell, Jeremy Campbell, and Jeremy Campbell\n\n...\n\nPublish Date\n1982\nPublisher\nSimon and Schuster\nLanguage\nEnglish\nPages\n319\n\n...\n\nSearch:\n|Edition|Availability|\n|5\nCover of: Grammatical man\n\nGrammatical man: information, entropy, language, and life\n\n1982, Simon and Schuster\nin English\n0671440616 9780671440619\n|\naaaa\n*\nLocate\n|\n|3\nCover of: Grammatical man\n\nGrammatical man: information, entropy, language, and life\n\n1982, Simon and Schuster\nin English\n0671440616 9780671440619\n|\ncccc\n*\nBorrow\n* Listen\n* Locate\n|\n|6\nCover of: Grammatical Man\n\nGrammatical Man: Information, Entropy, Language and Life\n\nSeptember 1973, Simon & Schuster (Paper)\nPaperback\nin English\n0671440624 9780671440626\n|\ncccc\n*\nBorrow\n* Listen\n* Locate\n|\nShowing 1 to 3 of 6 entries\nAdd another edition?\n## Book Details\n### Edition Notes\nIncludes bibliographical references and index.\nPublished in\nNew York\n### Classifications\nDewey Decimal Class\n001.53/9\nLibrary of Congress\nQ360 .C33 1982\n### The Physical Object\nPagination\n319 p. ;\nNumber of pages\n319\n### Edition Identifiers\nOpen Library\nOL3483814M\nISBN 10\n0671440616\nLCCN\n82003272\nLibraryThing\n53146\nGoodreads\n722028\n### Work Identifiers\nWork ID\nOL11314275W\n### Source records\n* Scriblio MARC record"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://lib.byu.edu/search/byu/record/cat.170243.item.31197011154314",
+              "title": "Grammatical man | BYU Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Grammatical man | BYU Library\n\n- BYU Library Bookshelves \n\n Q 360 .C33 1982 \n\nbook_2 Book / Floor 2–C\n\n- Available — 1 copy \n\nInformation, entropy, language, and life\n\n book_2 Book/ Campbell, Jeremy, 1931– > \n\n©1982, New York: Simon and Schuster, English\n\n BYU Library Bookshelves / Floor 2–C \n\n Q 360 .C33 1982 \n\n## Available for Checkout — 1 copy \n\n On shelf. See map. \n\n## Map\n\n See full map → \n\n### Extent\n\n- 319 p.; 22 cm.\n\n### Subjects\n\n- Information theory Synonyms arrow_drop_down\n\n### Language\n\n- English \n\n### Creation Date\n\n- ©1982\n\n### Bibliography\n\n- Includes bibliographical references and index."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.scribd.com/document/709969642/Grammatical-Man-Information-Entropy-Language-And-Life-Campbell-Jeremy-1931-9-Print-New-York-NY-1982-New-York-Simon-and-9780",
+              "title": "Grammatical Man - Information, Entropy, Language, and Life",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Client Challenge\n\nA required part of this site couldn’t load. This may be due to a browser extension, network issues, or browser settings. Please check your connection, disable any ad blockers, or try using a different browser."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2936,
+    "completion_tokens": 147,
+    "total_tokens": 3083,
+    "cost": 0.0071569744,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00015856,
+      "upstream_inference_prompt_cost": 0.0001468,
+      "upstream_inference_completions_cost": 0.00001176
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "intake-0377",
+  "retrieved": "2026-11-01T22:37:05.505Z"
+}

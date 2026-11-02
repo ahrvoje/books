@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572604-jXrlcAKTOaK9MGOMmfgh",
+  "object": "chat.completion",
+  "created": 1793572604,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-f0ce9be52ce5\",\n  \"title\": \"Science & music\",\n  \"author\": \"Jeans, James, 1877-1946\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 1,\n    \"url\": \"https://lib.byu.edu/search/byu/record/cat.950719.item.31197203736563\",\n    \"evidence\": \"Includes bibliographical references (p.x) and index.\",\n    \"ranges\": [\n      {\n        \"start\": \"x\",\n        \"end\": \"x\",\n        \"label\": \"bibliographical references\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://apps.lib.byu.edu/marcrecord/bib/950719",
+              "title": "apps.lib.byu.edu",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Leader *****cam*a22******a*4500\n001 ## a950719\n003 ## SIRSI\n008 ## 901022s1968 nyua b 00110 eng d\n010 ## $a 68024652\n020 ## $a 0486619648\n035 ## $a (Sirsi) DBJ8630\n035 ## $a (NRN)DBJ8630\n035 ## $a (RLIN)UTBG90-B25328\n035 ## $a (OCoLC)ocn135397436\n040 ## $a UPB\n $c UPB\n079 ## $a ocm00443536\n090 ## $a ML3805.J43\n $b S3 1968\n $i 10/22/90 CTZ\n100 1# $a Jeans, James,\n $d 1877-1946.\n245 10 $a Science & music /\n $c by Sir James Jeans.\n260 ## $a New York :\n $b Dover Publications,\n $c 1968.\n300 ## $a x, 258 p. :\n $b ill. ;\n $c 22 cm.\n336 ## $a text\n $2 rdacontent\n337 ## $a unmediated\n $2 rdamedia\n338 ## $a volume\n $2 rdacarrier\n500 ## $a \"This Dover edition is an unabridged republication of the work\n originally published in 1937 by\" by Cambridge University Press -- t.p.\n verso.\n504 ## $a Includes bibliographical references (p.x) and index.\n596 ## $a LEE\n650 #0 $a Music\n $x Acoustics and physics.\n650 #0 $a Sound.\n740 01 $a Science and music.\n988 ## $a 11/6/1990\n $c 11/6/1990\n950 ## $l MAN\n $i 10/22/90 C\n955 ## $l MAN\n $c 1\n $r 203736563\n $i 10/22/90 C\n989 ## $a ML 3805.J43 S3 1968\n $w LC\n $h hbll\n $i 31197203736563\n $d 11/22/1997\n $n 15\n $q 3\n $5 1/1\n $m MUSIC\n $t BOOK\n $l MUSIC-STKS"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://lib.byu.edu/search/byu/record/cat.950719.item.31197203736563",
+              "title": "Science & music | BYU Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Science & music | BYU Library\n\n- Music & Dance — Bookshelves \n\n ML 3805 .J43 S3 1968 \n\nbook_2 Book / Floor 4–C\n\n- Available — 1 copy \n- On-Site Storage \n\n ML 3805 .J32x \n\nbook_2 Book / Floor 3–C\n\n- Available — 1 copy \n- On-Site Storage \n\n ML 3805 .J43 S3 1937a \n\nbook_2 Book / Floor 3–C\n\n- Available — 1 copy \n\n# Science & music\n\n book_2 Book/ Jeans, James, 1877–1946 > \n\n1968, New York: Dover Publications, English\n\n Music & Dance — Bookshelves / Floor 4–C \n\n ML 3805 .J43 S3 1968 \n\n## Available for Checkout — 1 copy \n\n On shelf (Level 4, North) \n\n## Map\n\n See full map → \n\n### Extent\n\n- x, 258 p.: ill.; 22 cm.\n\n### Subjects\n\n- Music — Acoustics and physics Synonyms arrow_drop_down\n- Sound Synonyms arrow_drop_down\n\n### Identifier\n\n- ISBN: 0486619648\n\n### Language\n\n- English \n\n### Creation Date\n\n- 1968\n\n### General Note\n\n- \"This Dover edition is an unabridged republication of the work originally published in 1937 by\" by Cambridge University Press\n- t.p. verso.\n\n### Bibliography\n\n- Includes bibliographical references (p.x) and index.\n\n### Summary\n\n- Sir James Jeans, noted British scientist, has given a physical analysis of musical sounds, in what is considered to be the best exposition on the subject, a book of great intellectual stature. His aim has been to convey precise information, in a simple non-technical way, that will be of interest to the amateur as well as the serious student of music. The discussion begins with an explanation of the development of the human faculty of hearing. It is established that each sound can be represented by a curve. An examination of the general properties of sound-curves follows. For example, why do some sounds produce pleasure when they reach our ears and some pain? How do we retain the pleasurable qualities in the sound-curve, as it passes on from one stage of electronic equipment to another? To what extent is it possible to prevent unpleasant qualities from contaminating the curve? These and other pertinent questions on the transmission and reproduction of sound-curves are answered in a discussion of tuning-forks and pure tones. The various methods of producing sound, and the qualities of the sounds produced, are further discussed as they relate to vibrations of strings and harmonics, and vibrations of air. Harmony and discord are also considered. In the final chapters on the concert room and hearing, the discussion focuses on the transmission of sound from its source to the eardrum and from the eardrum to the brain. A general theory of acoustics is also covered as well as acoustical analyses."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://annas-archive.gl/md5/870633c79148ab060f09ae823f9ecf52",
+              "title": "An Introduction to the Kinetic Theory of Gases (Cambridge Science Classics) - Anna’s Archive",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Anna’s Archive\n\n Report file quality\n\nAn Introduction to the Kinetic Theory of Gases (Cambridge Science Classics) 🔍\n\n Jeans, James Hopwood, Sir, 1877-1946 Cambridge [Cambridgeshire] : Cambridge University Press, Cambridge science classics, Cambridge [Cambridgeshire], England, 1982\n\nEnglish [en] · PDF · 14.4MB · 1982 · 📗 Book (unknown) · 🚀/ia/zlib · Save \n\ndescription\n\n311 p. : 22 cm Includes indexes\n\nAlternative filename\n\nia/introductiontoki0000jean_i7r7.pdf\n\nJames Hopwood Jeans\n\nby Sir James Jeans\n\nAlternative publisher\n\nCambridge University Press (Virtual Publishing)\n\nAlternative edition\n\nCambridge science classics, Cambridge [Cambridgeshire, 1982, ©1940\n\nAlternative edition\n\nCambridge science classics, Cambridge, United Kingdom, 1982\n\nAlternative edition\n\nUnited Kingdom and Ireland, United Kingdom\n\nAlternative edition\n\nCambridge, England, 1946\n\nmetadata comments\n\nIncludes indexes.\n\nmetadata comments\n\nIncludes index.\n\nmetadata comments\n\nIncludes bibliographical references and indexes.\n\nAlternative description\n\nThis book can be described as a student's edition of the author's Dynamical Theory of Gases. It is written, however, with the needs of the student of physics and physical chemistry in mind, and those parts of which the interest was mainly mathematical have been discarded. This does not mean that the book contains no serious mathematical discussion.\n\n2024-08-23\n\n...\n\nOCLC Holdings (from library_ids): copy copied! 10"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://annas-archive.gl/md5/3db4a9a4dd4db69ae16b1d135e1d24c2",
+              "title": "Science & music - Anna’s Archive",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Science & music - Anna’s Archive\n\n# Anna’s Archive\n\n Report file quality\n\nzlib/ no-category/ Jeans, James, 1877-1946, Nicolas Slonimsky Collection (Library of Congress)/ Science & music_122092289.pdf\n\nScience & music 🔍\n\n Jeans, James, 1877-1946, Nicolas Slonimsky Collection (Library of Congress) Cambridge [England] : The University Press, Cambridge [Eng.], England, 1937\n\nEnglish [en] · PDF · 9.2MB · 1937 · 📗 Book (unknown) · 🚀/ia/zlib · Save \n\ndescription\n\nx, 258 pages : 20 cm, Includes bibliographical references (page x) and index\n\nAlternative filename\n\nia/sciencemusic0000jean_c4u9.pdf\n\nby Sir James Jeans ..\n\nJames Hopwood Jeans\n\nAlternative publisher\n\nThe Macmillan Company : The University Press\n\nAlternative edition\n\nNew York, Cambridge, Eng, 1937\n\nmetadata comments\n\nBibliography: p. x.\n\nAlternative description\n\n\"A considerable fraction of my book is merely Helmholtz modernized and rewritten in simple language\"--Preface.\n\n2023-06-28\n\n OCLC 1151158345 AacId aacid__worldcat__20250804T000000Z__H3fSjd8jW5uBDJUumZJffZ ... acId aacid__worldcat__20250804T000000Z__SHsEMr3 ... BtPYF ... Z2FnPB ... ac ... a ... lib ... 60 ... 1 ... 0 ... 0 ... 9 ... Q ... To ... AA Record ID md5:3db4a9a4dd4db69ae16b1d135e1d24c2 ... 0 ... path zlib/no ... category/Jeans, James, 1877-1946, Nicolas Slonimsky Collection (Library of Congress)/Science & music_122092289.pdf ... ize 9 ... IA Collection americana IA Collection inlibrary IA Collection internetarchivebooks IA Collection marygrovecollege IA Collection printdisabled Language en LCC ML3805.J43 S3 1937 LCCN 37036626 Library Thing 27966 MD5 3db4a9a4dd4db69ae16b1d135e1d24c2 IA sciencemusic0000jean_c4u9 OCLC"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://la.welib.org/md5/b38b7751839481855bb682a9dc34cf2e",
+              "title": "An Introduction to the Kinetic Theory of Gases (Cambridge Science Classics) ( PDF, 10.3 MB ) - WeLib",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## WeLib\n\n# An Introduction to the Kinetic Theory of Gases (Cambridge Science Classics) \n\nJames Hopwood Jeans\n\ndescriptio\n\nThis book can be described as a student's edition of the author's Dynamical Theory of Gases. It is written, however, with the needs of the student of physics and physical chemistry in mind, and those parts of which the interest was mainly mathematical have been discarded. This does not mean that the book contains no serious mathematical discussion; the discussion in particular of the distribution law is quite detailed; but in the main the mathematics is concerned with the discussion of particular phenomena rather than with the discussion of fundamentals.\n\nNomen fasciculi alternum\n\nlgrsnf/D:\\!genesis\\library.nu\\b3\\_113531.b38b7751839481855bb682a9dc34cf2e.pdf\n\nNomen fasciculi alternum\n\nlgli/D:\\!genesis\\library.nu\\b3\\_113531.b38b7751839481855bb682a9dc34cf2e.pdf\n\nTitulus alternus\n\nAn Introduction to the Kinetic Theory of Gases (Cambridge Library Collection - Physical Sciences)\n\nAuctor alternus\n\nby Sir James Jeans\n\nAuctor alternus\n\nJeans, James\n\nEditor alternus\n\nCambridge Library Collection\n\nEditio alterna\n\nCambridge library collection, Cambridge, England, New York, England, 2011\n\nEditio alterna\n\nCambridge science classics, Cambridge [Cambridgeshire, 1982, ©1940\n\nEditio alterna\n\nCambridge science classics, Cambridge, United Kingdom, 1982\n\nEditio alterna\n\nUnited Kingdom and Ireland, United Kingdom\n\nEditio alterna\n\nCambridge, England, 1946\n\nEditio alterna\n\nCambridge, 2009\n\nEditio alterna\n\n1, FR, 2009\n\nmetadata commentarii\n\nmetadata commentarii\n\nmetadata commentarii\n\nIncludes bibliographical references and indexes.\n\nmetadata commentarii\n\nIncludes indexes.\n\n...\n\nLCC: QC175 .J45 2011 Copiare nexum exemplatum!\n\nLCC: QC175 J45 1982 Copiare nexum exemplatum!\n\nLCC: QC175,QC175 J45 1982 Copiare nexum exemplatum!\n\nLibrary of Congress Classification\n\nLibrary of Congress Control Number\n\nAA: Quaere WeLib pro \"lccn:84148726\""
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3530,
+    "completion_tokens": 172,
+    "total_tokens": 3702,
+    "cost": 0.0071883574,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019026,
+      "upstream_inference_prompt_cost": 0.0001765,
+      "upstream_inference_completions_cost": 0.00001376
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "shelf-f0ce9be52ce5",
+  "retrieved": "2026-11-01T22:36:48.748Z"
+}

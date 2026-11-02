@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575549-P26qS4ErsectTmsxHDmU",
+  "object": "chat.completion",
+  "created": 1793575549,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u1900:amazon:https://www.amazon.com/Endure-Curiously-Elastic-Limits-Performance/dp/006249998X\",\n      \"status\": \"supported\",\n      \"reason\": \"Title and author match. 4,300 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"rest-23-113:amazon:https://www.amazon.com/Religion-Explained-Evolutionary-Origins-Religious/dp/0465006965\",\n      \"status\": \"supported\",\n      \"reason\": \"Title and author match. 258 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"bgebbfba2a81:amazon:https://www.amazon.com/Merchants-Doubt-Handful-Scientists-Obscured/dp/1608193942\",\n      \"status\": \"supported\",\n      \"reason\": \"Title and author match. 1,929 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"shelf-953131962b1e:amazon:https://www.amazon.com/Ruling-Void-Hollowing-Western-Democracy/dp/1844673243\",\n      \"status\": \"supported\",\n      \"reason\": \"Title and author match. 84 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"nc194dd7f59:amazon:https://www.amazon.com/Accidental-Empires-Silicon-Millions-Competition/dp/0887308554\",\n      \"status\": \"supported\",\n      \"reason\": \"Title and author match. 137 ratings explicitly labelled.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3550,
+    "completion_tokens": 420,
+    "total_tokens": 3970,
+    "cost": 0.000208989,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002111,
+      "upstream_inference_prompt_cost": 0.0001775,
+      "upstream_inference_completions_cost": 0.0000336
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:25:55.791Z"
+}

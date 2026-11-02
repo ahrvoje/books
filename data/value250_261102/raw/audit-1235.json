@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575793-jRI61jcfkZERxzSKPGul",
+  "object": "chat.completion",
+  "created": 1793575793,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-6b7635bd8e6b:amazon:https://www.amazon.com/Dont-Sleep-There-Are-Snakes/dp/0307386120\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 1,127 global ratings.\"\n    },\n    {\n      \"key\": \"n2b3d6fd6c8:amazon:https://www.amazon.com/Sirens-Call-Attention-Endangered-Resource-ebook/dp/B0DDNGLSJP\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 1,230 global ratings.\"\n    },\n    {\n      \"key\": \"g1152:amazon:https://www.amazon.com/Stress-Test-Reflections-Financial-Crises/dp/0804138613\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 1,452 global ratings.\"\n    },\n    {\n      \"key\": \"shelf-a811a079935e:amazon:https://www.amazon.com/One-Buck-Time-Insiders-American/dp/0895876817\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 110 global ratings.\"\n    },\n    {\n      \"key\": \"bg7883719d4e:amazon:https://www.amazon.com/Warren-Buffett-CEO-Berkshire-Hathaway/dp/0471442593\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 24 ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3416,
+    "completion_tokens": 454,
+    "total_tokens": 3870,
+    "cost": 0.0002050488,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020712,
+      "upstream_inference_prompt_cost": 0.0001708,
+      "upstream_inference_completions_cost": 0.00003632
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:29:59.889Z"
+}

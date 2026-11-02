@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572369-YLuPEaIw5wDI3VhJ3BBN",
+  "object": "chat.completion",
+  "created": 1793572369,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"progress-0098\",\n  \"title\": \"Streetfight: Handbook for an Urban Revolution\",\n  \"author\": \"Janette Sadik-Khan\",\n  \"amazon\": {\n    \"count\": 288,\n    \"url\": \"https://www.amazon.com/Streetfight-Handbook-Revolution-Janette-Sadik-Khan/dp/0525429840\",\n    \"asin\": \"0525429840\",\n    \"evidence\": [\n      \"https://www.amazon.com/Streetfight-Handbook-Revolution-Janette-Sadik-Khan/dp/0525429840\",\n      \"https://www.amazon.com/-/he/Streetfight-Handbook-Revolution-Janette-Sadik-Khan/dp/0525429840\",\n      \"https://www.amazon.com/-/zh_TW/dp/B01K3JIL8K\"\n    ]\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Janette-Sadik-Khan/s?rh=n%3A283155%2Cp_27%3AJanette%2BSadik-Khan",
+              "title": "Janette Sadik-Khan: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Streetfight: Handbook for an Urban Revolution · Janette Sadik-Khan · Other formats: Kindle, Audiobook, Hardcover, +1 more ; Roadways for People: Rethinking"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Streetfight-Handbook-Revolution-Janette-Sadik-Khan/dp/0525429840",
+              "title": "Streetfight: Handbook for an Urban Revolution",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Streetfight: Handbook for an Urban Revolution\nAn empowering road map for rethinking, reinvigorating, and redesigning our cities, from a pioneer in the movement for safer, more livable streets"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/he/Streetfight-Handbook-Revolution-Janette-Sadik-Khan/dp/0525429840",
+              "title": "Streetfight: Handbook for an Urban Revolution",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Breaking the street into its component parts, Streetfight demonstrates, with step-by-step visuals, how to rewrite the underlying “source code” of a street, with"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/zh_TW/dp/B01K3JIL8K",
+              "title": "Handbook for an Urban Revolution by Janette Sadik-Khan (2016 ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Streetfight: Handbook for an Urban Revolution by Janette Sadik-Khan (2016-03-08) ; 出版者. Viking ; 出版日期. 1705年1月1日 ; 深入瞭解關於Great on Kindle (Kindle"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Kindle-Store-Janette-Sadik-Khan/s?rh=n%3A133140011%2Cp_27%3AJanette%2BSadik-Khan",
+              "title": "Janette Sadik-Khan: Kindle Store",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Streetfight: Handbook for an Urban Revolution · Janette Sadik-Khan ; Roadways for People: Rethinking Transportation Planning and Engineering · Lynn Peterson."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 813,
+    "completion_tokens": 233,
+    "total_tokens": 1046,
+    "cost": 0.00502140776,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000021624,
+      "upstream_inference_prompt_cost": 0.000014634,
+      "upstream_inference_completions_cost": 0.00000699
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "progress-0098",
+  "retrieved": "2026-11-01T22:33:32.150Z"
+}

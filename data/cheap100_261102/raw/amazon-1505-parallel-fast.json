@@ -1,0 +1,157 @@
+{
+  "id": "gen-1793574178-TEky6CIaTMkJtYxZJbRq",
+  "object": "chat.completion",
+  "created": 1793574178,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "Here's the relevant information in the requested JSON format, based on the provided web search results:\n\n```json\n{\n  \"id\": \"q1027\",\n  \"title\": \"Eating Animals\",\n  \"author\": \"Jonathan Safran Foer\",\n  \"pages\": {\n    \"count\": 384,\n    \"url\": \"https://www.amazon.com/Eating-Animals-Jonathan-Safran-Foer/dp/0316069884\",\n    \"edition\": \"Paperback\",\n    \"format\": \"Print\",\n    \"evidence\": \"Explicitly stated on the product page\"\n  },\n  \"amazon\": {\n    \"count\": 3676,\n    \"url\": \"https://www.amazon.com/Eating-Animals-Jonathan-Safran-Foer/dp/0316069884\",\n    \"asin\": \"0316069884\",\n    \"evidence\": \"Explicitly stated on the product page\"\n  },\n  \"reference\": {\n    \"count\": 3676,\n    \"url\": \"https://www.amazon.com/Eating-Animals-Jonathan-Safran-Foer/dp/0316069884\",\n    \"evidence\": \"Explicitly stated on the product page\",\n    \"ranges\": [\n      {\n        \"start\": 1,\n        \"end\": 3676,\n        \"label\": \"global ratings\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Eating-Animals-Jonathan-Safran-Foer/dp/0316069884",
+              "title": "Amazon.com: Eating Animals: 9780316069885: Foer, Jonathan Safran: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Page 1 of 1 Start over\nPrevious set of slides\n1. \n\nLowest Price\n\nin this set of products\n\nThis item: Eating Animals Eating Animals\n\nJonathan Safran Foer\n4.6 out of 5 stars 3,676\nPaperback\n$10.99 $ 10 . 99\nGet it as soon as Thursday, Dec 11\nFREE Shipping on orders over $35 shipped by Amazon\n2. \n\nHighest rated\n\nin this set of products This Is Vegan Propaganda: (And Other Lies the Meat Industry Tells You) This Is Vegan Propaganda: (And Other\n\n...\n\nfbb&pf_rd_p=ccb770a9-35d\n\n...\n\nP5&pd_rd_w=9OC1m&pd_rd_r=1e75708c-ca5d-4c3a-b7a6-be059b0ad02f)\nNext page\n\nCustomer reviews\n\n4.6 out of 5 stars\n4.6 out of 5\n3,676 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 76% 17% 5% 1% 1% 76%\n* 5 star 4 star 3 star 2 star 1 star 4 star 76% 17% 5% 1% 1% 17%\n* 5 star 4 star 3 star 2 star 1 star 3 star 76% 17% 5% 1% 1% 5%\n* 5 star 4 star 3 star 2 star 1 star 2 star 76% 17% 5% 1% 1% 1%\n* 5 star 4 star 3 star 2 star 1 star 1 star 76% 17% 5% 1% 1% 1%\nHow customer reviews and ratings work\n\nCustomers say\n\n...\n\nWe buy directly from the couple that raises the chickens, the chickens are out pecking in the yard every day, and they are slaughtered at a kosher facility. We also buy the highest humane ratings we can find at Whole Foods.\nThese are still only rationalizations. There's still the damage to the environment to consider.\n\n...\n\nIt's difficult to imagine designing a more insanely cruel system. I won't further belabor the details."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Jonathan-Safran-Foer/s?rh=n%3A283155%2Cp_27%3AJonathan%2BSafran%2BFoer",
+              "title": "Jonathan Safran Foer: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "85 List: $18.99 List: $18.99 $18.99\nFREE delivery Tue, Aug 19 on $35 of items shipped by Amazon\nMore Buying Choices $1.49 (41+ used & new offers)\nKindle\nPrice, product page $7.99 $ 7 . 99 Print List Price: $18.99 Print List Price: $18.99 $18.99\nAvailable instantly\nAudible Audiobook\nPrice, product page $0.00 $ 0 . 00\nFree with Audible trial\nAvailable instantly\n\n...\n\nEating Animals\n## Eating Animals\nby Jonathan Safran Foer | Sep 1, 2010\n4.6 out of 5 stars 3,662\nPaperback\nPrice, product page $10.99 $ 10 . 99 List: $19.99 List: $19.99 $19.99\nFREE delivery Tue, Aug 19 on $35 of items shipped by Amazon\nMore Buying Choices $1.80 (27+ used & new offers)\nAudible Audiobook\nPrice, product page $0.00 $ 0 . 00 $21.49 $21.49\nFree with Audible trial\nAvailable instantly\nKindle\nPrice, product page $10.44 $ 10 . 44 Digital List Price: $17.99 Digital List Price: $17.99 $17.99\nAvailable instantly\nOther formats: Hardcover, Audio CD\nEverything Is Illuminated\n## Everything Is Illuminated\nby Robert Petkoff , Jonathan Safran Foer , et al.\n4.1 out of 5 stars 2,028\nAudible Audiobook\n\n...\n\n4.6 out of 5 stars 147\nPaperback\nPrice, product page $16.74 $ 16 . 74 List: $18.00 List: $18.00 $18.00\nFREE delivery Tue, Aug 19 on $35 of items shipped by Amazon\n\n...\n\nFREE delivery Tue, Aug 19 on $35 of items shipped by Amazon\nTree of Codes\n## Tree of Codes\nby Jonathan Safran Foer | Nov 8, 2010\n4.4 out of 5 stars 99\nPaperback\nEditors' pick Best Nonfiction"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Everything-Illuminated-Jonathan-Safran-Foer/dp/0141008253",
+              "title": "Everything is Illuminated: Foer, Jonathan Safran: 9780141008257: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Jonathan Safran Foer\n4.1 out of 5 stars 2,028\nPaperback\n$14.43 $ 14 . 43\nGet it as soon as Tuesday, Aug 19\nFREE Shipping on orders over $35 shipped by Amazon\n3. Eating Animals\nEating Animals\nJonathan Safran Foer\n4.6 out of 5 stars 3,662\nPaperback\n$10.99 $ 10 . 99\nGet it as soon as Tuesday, Aug 19\nFREE Shipping on orders over $35 shipped by Amazon\n4. We Are the Weather\nWe Are the Weather\nJonathan Safran Foer\n4.3 out of 5 stars 950\nPaperback\n$10.98 $ 10 . 98\n\n...\n\n4.8 4.8 out of 5 stars 261\n$23.95 $ 23 . 95\nNext page\nTop About this item Reviews\n\nCustomer reviews\n\n4.1 out of 5 stars\n4.1 out of 5\n2,028 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 53% 22% 14% 6% 5% 53%\n* 5 star 4 star 3 star 2 star 1 star 4 star 53% 22% 14% 6% 5% 22%\n* 5 star 4 star 3 star 2 star 1 star 3 star 53% 22% 14% 6% 5% 14%\n* 5 star 4 star 3 star 2 star 1 star 2 star 53% 22% 14% 6% 5% 6%\n* 5 star 4 star 3 star 2 star 1 star 1 star 53% 22% 14% 6% 5% 5%\nHow customer reviews and ratings work\n\nReview this product\n\n...\n\nJonathan Safran Foer\n4.0 out of 5 stars 2,676\nPaperback\n$15.81 $ 15 . 81\nGet it as soon as Tuesday, Aug 19\nFREE Shipping on orders over $35 shipped by Amazon\nOnly 1 left in stock - order soon.\n4. Eating Animals\nEating Animals\n\n...\n\nFREE Shipping on orders over $35 shipped by Amazon\n3. Eating Animals\nEating Animals\nJonathan Safran Foer\n4.6 out of 5 stars 3,662\nPaperback\n$10.99 $ 10 . 99\nGet it as soon as Tuesday, Aug 19"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/dp/B0BW6L3DPK?lv=shuf&channelId=500&plpRedirect=mhFallback",
+              "title": "Amazon.com: Chopped: A Novel: 9798218117016: Pollock, Dale M.: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Frequently purchased items with fast delivery\n\nPage 1 of 1 Start over\nPrevious set of slides\n1. My Year of Meats\nMy Year of Meats\nRuth L. Ozeki\n4.5 out of 5 stars 1,263\nPaperback\n-41% $11.23 $ 11 . 23\nList: $19.00\nGet it as soon as Monday, Nov 2\nFREE Shipping on orders over $35 shipped by Amazon\nOnly 1 left in stock - order soon.\n2. The Gastronomical Me\nThe Gastronomical Me\nM.F.K. Fisher\n4.4 out of 5 stars 230\nPaperback\n-45% $10.48 $ 10 . 48\nList: $19.00\nGet it as soon as Monday, Nov 2\nFREE Shipping on orders over $35 shipped by Amazon\n3. Eating Animals\nEating Animals\nJonathan Safran Foer\n4.6 out of 5 stars 3,689\nPaperback\n-29% $14.14 $ 14 . 14\nList: $19.99\nGet it Nov 5 - 12\nFREE Shipping\nOnly 1 left in stock - order soon.\n4. Small Fry: A Memoir\nSmall Fry: A Memoir\nLisa Brennan-Jobs\n4.3 out of 5 stars 5,541\nPaperback\n-44% $10.64 $ 10 . 64\nList: $19.00\n\n...\n\nCustomer reviews\n\n4.4 out of 5 stars\n4.4 out of 5\n38 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 60% 27% 8% 0% 5% 60%\n* 5 star 4 star 3 star 2 star 1 star 4 star 60% 27% 8% 0% 5% 27%\n* 5 star 4 star 3 star 2 star 1 star 3 star 60% 27% 8% 0% 5% 8%\n* 5 star 4 star 3 star 2 star 1 star 2 star 60% 27% 8% 0% 5% 0%\n* 5 star 4 star 3 star 2 star 1 star 1 star 60% 27% 8% 0% 5% 5%\nHow customer reviews and ratings work\nFiltering customer reviews\nLoading customer reviews\nSign in to see customer reviews."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Eating-Animals-Jonathan-Safran-Foer/dp/0316069906",
+              "title": "Eating Animals - Foer, Jonathan Safran: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nEating Animals - Foer, Jonathan Safran: Books\nPart memoir and part investigative report, Eating Animals is the groundbreaking moral examination of vegetarianism, farming, and the food we eat every day"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Eating-Animals-first-Text-Only/dp/B004TB8G02",
+              "title": "Eating Animals 1st (first) edition Text Only: Jonathan Safran Foer",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nEating Animals 1st (first) edition Text Only: Jonathan Safran Foer\nFoer Eating Animals 1st (first) edition. An investigative exploration into food ethics and farming practices, Publication date January 1, 2008"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Extremely-Incredibly-Close-Jonathan-Safran/dp/0618329706",
+              "title": "Extremely Loud and Incredibly Close: Foer, Jonathan Safran",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nExtremely Loud and Incredibly Close: Foer, Jonathan Safran\nBook details ; Print length. 368 pages ; Language. English ; Publisher. Mariner Books ; Publication date. April 4, 2005 ; Dimensions. 6 x 1.18 x 9 inches.\n\n## \n\nExtremely Loud and Incredibly Close: Foer, Jonathan Safran\nEdition, First Edition. Language, ‎English. Print length, 368 pages. ISBN-10 ... 6 x 1.18 x 9 inches. Best Sellers Rank. #838,030 in Books (See Top 100 in Books).\n\n## \n\nExtremely Loud and Incredibly Close: Foer, Jonathan Safran\nA nine-year-old boy embarks on a quest to find a lock that fits a mysterious key belonging to his father, who died in the World Trade Center on 9/11.\n\n## \n\nExtremely Loud and Incredibly Close: Foer, Jonathan Safran\nJONATHAN SAFRAN FOER is the author of the novels Everything is Illuminated and Extremely Loud and Incredibly Close, and a work of nonfiction, Eating Animals."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Everything-Illuminated-Extremely-Incredibly-Close/dp/0547447264",
+              "title": "Everything Is Illuminated / Extremely Loud & Incredibly Close",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Section:  > \nEverything Is Illuminated / Extremely Loud & Incredibly Close\nJONATHAN SAFRAN FOER is the author of the novels Everything is Illuminated and Extremely Loud and Incredibly Close, and a work of nonfiction, Eating Animals. Everything Is Illuminated / Extremely Loud & Incredibly Close\nEverything Is Illuminated, Jonathan Safran Foer's stunning debut, tells the story of a young Jewish American's quixotic journey into an unexpected past"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Extremely-Loud-and-Incredibly-Close/dp/B0008KLPLU",
+              "title": "Amazon.com: Extremely Loud and Incredibly Close (Audible Audio Edition): Jonathan Safran Foer, Jeff Woodman, Barbara Caruso, Richard Ferrone, Recorded Books: Audible Books & Originals",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Jonathan Safran Foer (Author), Jeff Woodman (Narrator), Barbara Caruso (Narrator), Format: Audible Audiobook\n4.2 4.2 out of 5 stars (6,682)\nEditors' pick Best Books of the Year 2005\nSorry, there was a problem loading this page. Try again.\nSee all formats and editions\nJonathan Safran Foer's best-selling debut novel, Everything Is Illuminated , wowed critics on its way to winning\n\n...\n\nPrevious slide of product details\n1. Listening Length\n10 hours and 57 minutes\n2. Author\n[Jonathan Safran Foer](/s?k=Jonathan Safran Foer&i=audible&ref=adbl_pdp_slider_author)\n3. Narrator\nJeff Woodman, see all\n4. Publication date\nMarch 28, 2005\n5. Language\nEnglish\n6. Publisher\nRecorded Books\n7. ASIN\nB0008KLPLU\n8. Version\nUnabridged\n9. Program Type\nAudiobook\n\n...\n\nAudible Audiobook\n$0.00 Free with Audible trial\n6. \nEating Animals\nJonathan Safran Foer\n3,682\nAudible Audiobook\n$0.00 Free with Audible trial\n7. \nHere I Am: A Novel\nJonathan Safran Foer\n2,689\n\n...\n\n* Listening Length | 10 hours and 57 minutes\n* Author | Jonathan Safran Foer\n*\n\n...\n\n* Version | Unabridged\n* Language | English\n* ASIN | B0008KLPLU\n\nCustomer reviews\n\n4.2 out of 5 stars\n4.2 out of 5\n6,682 global ratings\n\n...\n\nJonathan Safran Foer's \"Extremely Loud and Incredibly Close\" is a multifaceted look at our very human attempt to make sense of tragedy.\n\n...\n\n\"Extremely Loud and Incredibly Close\" by Jonathan Safran Foer is a novel that elicits strong reactions."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Audible-Books-Originals-Indonesian/s?rh=n%3A18145289011%2Cp_n_feature_six_browse-bin%3A18685588011",
+              "title": "Indonesian: Audible Books & Originals",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nIndonesian: Audible Books & Originals\nBumi · Tere Liye ; The Girl with The Dragon Tattoo · Stieg Larsson ; Girl who Kicked the Hornet's Nest, The · Stieg Larsson ; Girl who Played with Fire, The · Stieg\n\n## \n\nIndonesian: Audible Books & Originals - Amazon.com\nMagic Library: Perpustakaan Ajaib Bibbi Bokken, The · Jostein Gaarder ; The Girl with The Dragon Tattoo · Stieg Larsson ; Bumi · Tere Liye ; Eating Animals · Jonathan\n\n## \n\nIndonesian: Audible Books & Originals\nEating Animals · Jonathan Safran Foer ; Bumi · Tere Liye ; Magic Library: Perpustakaan Ajaib Bibbi Bokken, The · Jostein Gaarder ; Cerita Anak Nusantara · Kitty\n\n## \n\nIndonesian: Audible Books & Originals\nStieg Larsson · Audible Audiobook · Ages: 9 years and up · See all details. The Girl with The Dragon Tattoo. Audible Audiobook.\n\n## \n\nIndonesian: Audible Books & Originals\nResults · The Girl on the Train · The Girl on the Train · Eating Animals · Eating Animals · Girl who Played with Fire, The · Girl who Played with Fire, The · Bumi.\n\n## \n\nIndonesian: Audible Books & Originals\nOnline shopping from a great selection at Audible Books. Unabridged Format Audiobook Podcast Duration. Audible Audiobook Ages: 9 years and up"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4635,
+    "completion_tokens": 337,
+    "total_tokens": 4972,
+    "cost": 0.0010926046,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00009354,
+      "upstream_inference_prompt_cost": 0.00008343,
+      "upstream_inference_completions_cost": 0.00001011
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Eating Animals\" Jonathan Safran Foer \"global ratings\"",
+  "bookId": "q1027",
+  "retrieved": "2026-11-01T23:03:28.979Z"
+}

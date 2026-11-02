@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576278-NUR2DhyDXaI0MqSaC9JT",
+  "object": "chat.completion",
+  "created": 1793576278,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g0954:amazon:https://www.amazon.com/Plato-Platypus-Walk-into-Understanding/dp/0143113879\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 1,840 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"g0769:amazon:https://www.amazon.com/Line-Becomes-River-Dispatches-Border/dp/0735217718\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 2,670 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"progress-0500:amazon:https://www.amazon.com/Irony-American-History-Reinhold-Niebuhr/dp/0226583988\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 246 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1292:amazon:https://www.amazon.com/Twelve-Years-Slave-Penguin-Classics/dp/0143106708\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 37,159 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"intake-0776:amazon:https://www.amazon.com/Strategy-Dolphin-Scoring-Chaotic-World/dp/0449905292\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 24 global ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3330,
+    "completion_tokens": 410,
+    "total_tokens": 3740,
+    "cost": 0.000197307,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001993,
+      "upstream_inference_prompt_cost": 0.0001665,
+      "upstream_inference_completions_cost": 0.0000328
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:38:05.448Z"
+}

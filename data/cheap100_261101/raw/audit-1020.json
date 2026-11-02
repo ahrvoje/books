@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793572717-h4lLiwQ1HeZs9lH7IHrz",
+  "object": "chat.completion",
+  "created": 1793572717,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"complete-395-301:pages:https://openlibrary.org/books/OL32003045M/A_Thousand_Pounds_of_Dynamite\",\n      \"status\": \"supported\",\n      \"reason\": \"The source text explicitly states the number of pages as 71, matching the value provided.\"\n    },\n    {\n      \"key\": \"rem-u1203:pages:https://www.amazon.com/Rock-Hard-Place-Miners-Strike/dp/1803994657\",\n      \"status\": \"supported\",\n      \"reason\": \"The source text explicitly states the print length as 192 pages, matching the value provided.\"\n    },\n    {\n      \"key\": \"complete-759-160:reference:https://catalog.freelibrary.org/Record/1685007\",\n      \"status\": \"supported\",\n      \"reason\": \"The source text explicitly states the bibliographical references range as pages 112-113, matching the value provided.\"\n    },\n    {\n      \"key\": \"progress-0659:pages:https://www.hatchards.co.uk/book/a-north-sea-diary-1914-1918-commander-stephen-king-hall/sir-stephen-king-hall/9781016837798\",\n      \"status\": \"supported\",\n      \"reason\": \"The source text explicitly states the number of pages as 250, matching the value provided.\"\n    },\n    {\n      \"key\": \"shelf-2beb32b0b2a1:pages:https://www.goodreads.com/book/show/18747558-a-better-life\",\n      \"status\": \"supported\",\n      \"reason\": \"The source text explicitly states the number of pages as 254, matching the value provided.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1915,
+    "completion_tokens": 444,
+    "total_tokens": 2359,
+    "cost": 0.0001299573,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00013127,
+      "upstream_inference_prompt_cost": 0.00009575,
+      "upstream_inference_completions_cost": 0.00003552
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:38:43.931Z"
+}

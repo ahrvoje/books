@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793574771-b4YrKXwv1rjoFatEvB1K",
+  "object": "chat.completion",
+  "created": 1793574771,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Robert-Y.-Kline/e/B001JS6H8Q",
+              "title": "Robert Y. Kline: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nRobert Y. Kline: books, biography, latest update\nBorn in suburban Philadelphia many years ago. Earned my BS degree in Marketing from PMC College (night school) in 1964. Retired from 3M Company in 1993\n\n## \n\nRobert Y. Kline: books, biography, latest update\nFollow Robert Y. Kline and explore their bibliography from Amazon's Robert Y. Kline Author Page.\n\n## \n\nRobert Y. Kline: books, biography, latest update\nbooks, biography, Born in suburban Philadelphia many years ago. Retired from 3M Company in 1993 after 30 year career mostly in International Marketing.\n\n## \n\nRobert Y. Kline: books, biography, latest update\nFollow Robert Y. Kline and explore their bibliography. Retired from 3M Company in 1993 after 30 year career mostly in International Marketing. contentedly\n\n## \n\nRobert Y. Kline: books, biography, latest update\nBorn in suburban Philadelphia. Retired from 3M Company in 1993 after 30 year career mostly in International Marketing. woodworking and writing and marketing"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://us.amazon.com/stores/author/B000APHP3K/about",
+              "title": "Robert E. Kelley: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nRobert E. Kelley: books, biography, latest update\nDr. Kelley is a Distinguished Service Professor of Management at the Tepper School of Business at Carnegie Mellon University. As President of CEO Consulting LLC\n\n## \n\nRobert E. Kelley: books, biography, latest update - Amazon.com\nAs President of CEO Consulting LLC, Dr. Kelley helps national and international clients, like AT&T and Bosch, and consults with government officials and\n\n## \n\nRobert E. Kelley: books, biography, latest update\nAs President of CEO Consulting LLC, Dr. Kelley helps national and international clients, like AT&T and Bosch, and consults with government officials and\n\n## \n\nRobert E. Kelley: books, biography, latest update\nHis national Business Week and Amazon.com best-seller, How to Be a Star at Work: Nine Breakthrough Strategies You Need to Succeed, was honored as one of \"The"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 877,
+    "completion_tokens": 1,
+    "total_tokens": 878,
+    "cost": 0.00101565784,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000015816,
+      "upstream_inference_prompt_cost": 0.000015786,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Power of Fastenal People\" Robert Kierlin \"global ratings\"",
+  "bookId": "shelf-eb695d9bf44f",
+  "retrieved": "2026-11-01T23:12:49.353Z"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575721-UYo3eKRAe7RQNS5r6U7P",
+  "object": "chat.completion",
+  "created": 1793575721,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"progress-0566:amazon:https://www.amazon.com/Thinking-Time-History-Decision-Makers/dp/0029227909\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"shelves-mahonmaxwell:amazon:https://www.amazon.com/Man-Who-Changed-Everything-Maxwell/dp/0470861711\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"n1ec329a42c:amazon:https://www.amazon.com/Am-Strange-Loop-Douglas-Hofstadter/dp/0465030793\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"shelf-d40d1b9998bf:amazon:https://www.amazon.com/Chinas-World-View-Demystifying-Conflict/dp/0393292398\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"progress-0001:amazon:https://www.amazon.com/Future-Its-Enemies-Creativity-Enterprise-ebook/dp/B004U7GX0U\",\n      \"status\": \"reject\",\n      \"reason\": \"The rating count is explicitly labelled as global ratings, but the edition is Kindle, not print.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3533,
+    "completion_tokens": 449,
+    "total_tokens": 3982,
+    "cost": 0.0002104443,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021257,
+      "upstream_inference_prompt_cost": 0.00017665,
+      "upstream_inference_completions_cost": 0.00003592
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:28:48.744Z"
+}

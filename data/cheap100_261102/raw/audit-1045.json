@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574396-08hjK7SFlICCcDOUnPkU",
+  "object": "chat.completion",
+  "created": 1793574396,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"progress-0427:amazon:https://www.amazon.com/Cypherpunks-Freedom-Internet-Julian-Assange/dp/1944869085\",\n      \"status\": \"reject\",\n      \"reason\": \"The author listed in the source is not Julian Assange, but Julian Assange, Jacob Appelbaum, Andy Muller-Maguhn, and Jérémie Zimmermann.\"\n    },\n    {\n      \"key\": \"complete-300-248:amazon:https://www.amazon.com/Death-Expertise-Campaign-Established-Knowledge/dp/0190469412\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 2,885 ratings is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1568:amazon:https://www.amazon.com/Gut-Inside-Story-Bodys-Underrated/dp/1771641495\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 2,767 ratings is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"g0519:amazon:https://www.amazon.com/Play-Bigger-Dreamers-Innovators-Dominate/dp/0062407619\",\n      \"status\": \"reject\",\n      \"reason\": \"The author listed in the source is not Al Ramadan, but Al Ramadan, Dave Peterson, Christopher Lochhead, and Kevin Maney.\"\n    },\n    {\n      \"key\": \"complete-412-309:amazon:https://www.amazon.com/Night-Falls-Fast-Understanding-Suicide/dp/0375701478\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 654 ratings is explicitly labelled as global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3528,
+    "completion_tokens": 470,
+    "total_tokens": 3998,
+    "cost": 0.00021186,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000214,
+      "upstream_inference_prompt_cost": 0.0001764,
+      "upstream_inference_completions_cost": 0.0000376
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:06:40.814Z"
+}

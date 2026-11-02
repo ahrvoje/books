@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575223-Oa0tAVe3GWmOcdOr8TnU",
+  "object": "chat.completion",
+  "created": 1793575223,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"complete-435-317:amazon:https://www.amazon.com/Code-Dependent-Living-Shadow-Madhumita-Murgia/dp/1250867398\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title, author, and field. The evidence is a global rating count.\"\n    },\n    {\n      \"key\": \"rest-68-60:amazon:https://www.amazon.com/History-Bible-Story-Worlds-Influential/dp/0525428771\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title, author, and field. The evidence is a global rating count.\"\n    },\n    {\n      \"key\": \"shelf-a86bbb5039a5:amazon:https://www.amazon.com/Against-Odds-Autobiography-James-Dyson/dp/1587991705\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title, author, and field. The evidence is a global rating count.\"\n    },\n    {\n      \"key\": \"shelf-093afeaac936:amazon:https://www.amazon.com/Creativity-Flow-Psychology-Discovery-Invention/dp/0062283251\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title, author, and field. The evidence is a global rating count.\"\n    },\n    {\n      \"key\": \"g0558:amazon:https://www.amazon.com/Precipice-Existential-Risk-Future-Humanity/dp/031648492X\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title, author, and field. The evidence is a global rating count.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3555,
+    "completion_tokens": 439,
+    "total_tokens": 3994,
+    "cost": 0.0002107413,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021287,
+      "upstream_inference_prompt_cost": 0.00017775,
+      "upstream_inference_completions_cost": 0.00003512
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:20:29.614Z"
+}

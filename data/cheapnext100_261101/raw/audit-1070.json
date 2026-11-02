@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793573727-SS56FQSi9buSwMpr6R7a",
+  "object": "chat.completion",
+  "created": 1793573727,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-78dacb531c1c:amazon:https://www.amazon.com/Sinews-Power-Money-English-1688-1783/dp/0674809300\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 36 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"complete-316-275:amazon:https://www.amazon.com/Dopesick-Dealers-Doctors-Company-Addicted/dp/0316551244\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 5,147 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"shelf-9fc2f19c17d1:amazon:https://www.amazon.com/Overhaul-Insiders-Administrations-Emergency-Industry/dp/0547577427\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 85 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"complete-484-333:amazon:https://www.amazon.com/Exposure-Robert-Bilott/dp/1471189619\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 961 global ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"shelf-bceb44f5b4f2:reference:https://link.europarl.europa.eu/resource/1Myuc2D8tu4\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. Bibliographical references explicitly labelled with inclusive range.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3557,
+    "completion_tokens": 423,
+    "total_tokens": 3980,
+    "cost": 0.0002095731,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021169,
+      "upstream_inference_prompt_cost": 0.00017785,
+      "upstream_inference_completions_cost": 0.00003384
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:55:31.045Z"
+}

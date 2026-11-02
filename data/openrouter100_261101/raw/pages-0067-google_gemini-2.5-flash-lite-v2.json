@@ -1,0 +1,80 @@
+{
+  "retrieved": "2026-11-01T22:13:29.193Z",
+  "bookId": "shelf-cb760025e019",
+  "id": "gen-1793571207-h1CHstlYPw3Q58Kd9Cut",
+  "object": "chat.completion",
+  "created": 1793571207,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-cb760025e019\",\n  \"title\": \"Tune In (All These Years, pt.1)\",\n  \"author\": \"Mark Lewisohn\",\n  \"knownEdition\": null,\n  \"purchaseUrl\": \"https://www.amazon.de/s?k=Tune%20In%20(All%20These%20Years%2C%20pt.1)%20Mark%20Lewisohn%20paperback\",\n  \"amazon\": null,\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://mjpgallagher.com/bookshelf.html\",\n    \"https://www.bloomsbury.com/us/\",\n    \"https://en.wikipedia.org/wiki/A_Spaniard_in_the_Works\"\n  ],\n  \"limitations\": \"Page count information for the specified edition (English paperback) was not found in the provided search results. The search results mention the book title and author but do not include details about its page count, ISBN, or publisher for a specific paperback edition.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://mjpgallagher.com/bookshelf.html",
+              "title": "BOOKSHELF — BOOKS & Links",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "BOOKSHELF — BOOKS & Links\n\n# BOOKS & Links\n\nA curated collection of book recommendations organized by topic, inspired by Patrick Collison's bookshelf.\n\n...\n\n## 25. Beatles Books & Rock Biographies\n\n(h/t Tyler Cowen)\n\n1. Tune In (All These Years, pt.1), Mark Lewisohn\n2. Revolution in the Head, Ian MacDonald\n3. You Never Give Me Your Money, Peter Doggett\n4. Dreaming the Beatles, Rob Sheffield\n5. The Complete Beatles Chronicle, Mark Lewisohn\n6. Bring It On Home, Mark Blake\n7. The Byrds: Timeless Flight Revisited, The Sequel, Johnny Rogan\n\nContact: michaeljpgallagher@gmail.com"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.bloomsbury.com/us/",
+              "title": "Bloomsbury Publishing (US) - Bloomsbury",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Bloomsbury Publishing (US) - Bloomsbury\n\n# Bloomsbury Home\n\n Free US delivery on orders $35 or over\n\n## Welcome to the Valkyrie Cycle\n\nSarah J. Maas, the #1 bestselling author of the Court of Thorns and Roses series, returns to the courts of Prythian…"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://en.wikipedia.org/wiki/A_Spaniard_in_the_Works",
+              "title": "A Spaniard in the Works - Wikipedia",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "A Spaniard in the Works \n\n| First edition | |\n| --- | --- |\n| Author | John Lennon |\n| Language | English |\n| Genre | Literary nonsense Surreal poetry |\n| Published | 24 June 1965 by Jonathan Cape |\n| Publication place | United Kingdom |\n| Media type | Print |\n| OCLC | 252932871 |\n\n...\n\n- Howlett, Kevin; Lewisohn, Mark (1990). In My Life: John Lennon Remembered. London: BBC Books. ISBN \n\n0-563-36105-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 966,
+    "completion_tokens": 267,
+    "total_tokens": 1233,
+    "cost": 0.007201366,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002034,
+      "upstream_inference_prompt_cost": 0.0000966,
+      "upstream_inference_completions_cost": 0.0001068
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

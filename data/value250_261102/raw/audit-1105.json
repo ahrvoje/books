@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575721-hO9CXeZT7LwHGLkD1BDD",
+  "object": "chat.completion",
+  "created": 1793575721,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g0528:amazon:https://www.amazon.com/Medici-Effect-Breakthrough-Insights-Intersection/dp/1591391865\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 233 ratings is explicitly labelled.\"\n    },\n    {\n      \"key\": \"g0655:amazon:https://www.amazon.com/Fabric-Reality-Parallel-Universes-Implications/dp/014027541X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 932 global ratings is explicitly labelled.\"\n    },\n    {\n      \"key\": \"rem-u1743:amazon:https://www.amazon.com/How-Mighty-Fall-Companies-Never/dp/0977326411\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 1,100 global ratings is explicitly labelled.\"\n    },\n    {\n      \"key\": \"progress-0019:amazon:https://www.amazon.com/Nanofuture-Nanotechnology-J-Storrs-Hall/dp/1591022878\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 27 global ratings is explicitly labelled.\"\n    },\n    {\n      \"key\": \"intake-0237:amazon:https://www.amazon.com/Rediscovery-America-Unmaking-American-Modernity/dp/0300244053\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 539 global ratings is explicitly labelled.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3615,
+    "completion_tokens": 422,
+    "total_tokens": 4037,
+    "cost": 0.0002123649,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021451,
+      "upstream_inference_prompt_cost": 0.00018075,
+      "upstream_inference_completions_cost": 0.00003376
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:28:48.733Z"
+}

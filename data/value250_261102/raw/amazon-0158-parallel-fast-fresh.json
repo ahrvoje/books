@@ -1,0 +1,87 @@
+{
+  "id": "gen-1793575556-M1BrLRdJsq69PEObpj1j",
+  "object": "chat.completion",
+  "created": 1793575556,
+  "model": "mistralai/mistral-nemo",
+  "provider": "Io Net",
+  "system_fingerprint": "vllm-0.25.1-95d19908",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "{\n",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Ending-Empire-Contested-Sovereignty-Territorial/dp/0801443148",
+              "title": "Ending Empire: Contested Sovereignty and Territorial ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nEnding Empire: Contested Sovereignty and Territorial ...\nHendrik Spruyt examines why some empires dissolved peacefully while others faced violent conflict, arguing that domestic institutional structures determined"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Sovereign-State-Its-Competitors-International/dp/0691029105",
+              "title": "The Sovereign State and Its Competitors: An Analysis of ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Sovereign State and Its Competitors: An Analysis of ...\nThe present international system, composed for the most part of sovereign, territorial states, is often viewed as the inevitable outcome of historical development. Hendrik Spruyt argues that there was nothing inevitable about the rise of the state system, however.\n\n## \n\nThe Sovereign State and Its Competitors: An Analysis ...\n\"This intriguing book argues that nation-states and territorially sovereign powers were not the only possible form of organization, and that the end of the\n\n## \n\nThe Sovereign State and Its Competitors: An Analysis ...\nWhat's it about? Analyzes how sovereign territorial states emerged as the dominant political institution over competing forms like urban leagues and city-states\n\n## \n\nThe Sovereign State and Its Competitors: An Analysis ...\nHendrik Spruyt argues that there was nothing inevitable about the rise of the state system, however. A significant contribution to political science and to"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Great-Games-Local-Rules-Contest/dp/019933143X",
+              "title": "Great Games, Local Rules: The New Great Power Contest in Central Asia: Cooley, Alexander: 9780199331437: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Unraveling of the American Global Order Exit from Hegemony: The Unraveling of the American Global Order Exit from Hegemony: The Unraveling of the American Global Order\n36\nHardcover\n$19.20 $ 19 .\n\n...\n\nWorld Politics Undermining American Hegemony: Goods Substitution in World…\nHardcover\n$100.29 $ 100 . 29\n$3.99 delivery Mar 3 - 10\n8. Book cover Ranking the World Ranking the World Ranking the World\n2\n\n...\n\nPrevious set of slides\n1. Dictating the Agenda: The Authoritarian Resurgence in World Politics\nDictating the Agenda: The Authoritarian Resurgence in World Politics\nAlexander Cooley\n\n...\n\nPolitics: Democratic Change and the U.S. Military Overseas; and Contracting States: Sovereign Transfers in International Relations, co-authored with Hendrik Spruyt. He also co-edited, with Jack Snyder, Ranking the World: Grading States as a Tool of Global Governance (Cambridge 2015).\nCooley's 2012 book on the emerging multipolar politics of of Central Asia- Great Games, Local Rules: the New Great Power Contest for Central Asia- was published by Oxford University Press.\n\n...\n\nout of 5 stars 614\n$21.97 $ 21 . 97 List: $30.97 $30.97\nNext page\n\nCustomer reviews\n\n4.2 out of 5 stars\n4.2 out of 5\n32 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 43% 40% 17% 0% 0% 43%\n* 5 star 4 star 3 star 2 star 1 star 4 star 43% 40% 17% 0% 0% 40%\n* 5 star 4 star 3 star 2 star 1 star 3 star 43% 40% 17% 0% 0% 17%"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1236,
+    "completion_tokens": 1,
+    "total_tokens": 1237,
+    "cost": 0.0010195549552,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 128,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001975248,
+      "upstream_inference_prompt_cost": 0.00001973088,
+      "upstream_inference_completions_cost": 2.16e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The World Imagined\" Hendrik Spruyt \"global ratings\"",
+  "bookId": "shelf-942fb9f788ff",
+  "retrieved": "2026-11-01T23:25:58.030Z"
+}

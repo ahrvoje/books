@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575794-BmAMsc1yrhl0TCQNh30N",
+  "object": "chat.completion",
+  "created": 1793575794,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"n2dd4d99b9d:amazon:https://www.amazon.com/Wizard-Times-Nikola-Biography-Genius/dp/1559723297\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 1,605 global ratings.\"\n    },\n    {\n      \"key\": \"nbdd8adfeb5:amazon:https://www.amazon.com/Conscious-Mind-Search-Fundamental-Philosophy/dp/0195105532\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 332 global ratings.\"\n    },\n    {\n      \"key\": \"shelf-5ecc479d6cb1:amazon:https://www.amazon.com/Blazing-World-History-Revolutionary-1603-1689/dp/0593318358\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 600 global ratings.\"\n    },\n    {\n      \"key\": \"intake-0085:amazon:https://www.amazon.com/Conquistador-Hernan-Cortes-Montezuma-Aztecs/dp/0553384716\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 1,608 ratings.\"\n    },\n    {\n      \"key\": \"bg1994e200af:amazon:https://www.amazon.com/Who-Michael-Ovitz/dp/1591845548\",\n      \"status\": \"reject\",\n      \"reason\": \"The author name does not match. The source text lists Robert Slater as the author, not Michael Ovitz.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3577,
+    "completion_tokens": 461,
+    "total_tokens": 4038,
+    "cost": 0.0002135727,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021573,
+      "upstream_inference_prompt_cost": 0.00017885,
+      "upstream_inference_completions_cost": 0.00003688
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:30:00.023Z"
+}

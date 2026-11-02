@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "key": "shelf-52bcb19e4077:amazon:https://www.amazon.com/Dodge-Brothers-Motor-Legacy-Great/dp/0814332463",
+      "status": "supported",
+      "reason": "The title and author match the sourceTitle and sourceText. The numeric evidence 140 is explicitly labelled as global ratings."
+    },
+    {
+      "key": "shelf-c61aa9c3772d:amazon:https://www.amazon.com/How-Brands-Grow-What-Marketers/dp/0195573560",
+      "status": "supported",
+      "reason": "The title and author match the sourceTitle and sourceText. The numeric evidence 1,211 is explicitly labelled as global ratings."
+    },
+    {
+      "key": "shelf-760e05bd4a60:amazon:https://www.amazon.com/Iron-Kingdom-Downfall-Prussia-1600-1947/dp/0674031962",
+      "status": "supported",
+      "reason": "The title and author match the sourceTitle and sourceText. The numeric evidence 1,158 is explicitly labelled as global ratings."
+    },
+    {
+      "key": "g1199:amazon:https://www.amazon.com/Quality-Investing-Owning-best-companies/dp/0857195123",
+      "status": "reject",
+      "reason": "The sourceText lists multiple authors, but the candidate lists only Lawrence A. Cunningham."
+    },
+    {
+      "key": "rest-59-52:amazon:https://www.amazon.com/dp/1476735409?lv=shuf&channelId=500&plpRedirect=mhFallback",
+      "status": "supported",
+      "reason": "The title and author match the sourceTitle and sourceText. The numeric evidence 1,619 is explicitly labelled as global ratings."
+    }
+  ]
+}

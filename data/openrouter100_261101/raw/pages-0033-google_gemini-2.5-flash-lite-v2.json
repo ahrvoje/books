@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:12:10.317Z",
+  "bookId": "complete-273-261",
+  "id": "gen-1793571130-nOSZoKnwZh8l7Y3ThdMD",
+  "object": "chat.completion",
+  "created": 1793571130,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"complete-273-261\",\n  \"title\": \"Influenza\",\n  \"author\": \"Dr. Jeremy Brown\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 272,\n    \"editionId\": null,\n    \"editionYear\": null,\n    \"format\": \"Paperback\",\n    \"language\": \"English\",\n    \"url\": \"https://www.libroworld.com/9781501181252/\",\n    \"evidence\": \"Number of pages: 272 pages\\nLanguage: English\\nBinding: Paperback\",\n    \"sourceTitle\": \"Influenza: The Hundred-Year Hunt to Cure the 1918 Spanish Flu Pandemic\",\n    \"sourceAuthor\": \"Dr Jeremy Brown\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.libroworld.com/9781501181252/\",\n    \"https://www.amazon.com/Influenza-Hundred-Year-Deadliest-Disease-History/dp/1501181254\",\n    \"https://www.simonandschuster.net/books/Influenza/Jeremy-Brown/9781501181252\",\n    \"https://www.readings.com.au/product/9781911231219/9781911231219\",\n    \"https://www.porchlightbooks.com/products/influenza-jeremy-brown-9781501181252\"\n  ],\n  \"limitations\": \"The search results provided multiple ISBNs and editions. The page count of 272 pages was consistently observed across several sources for the English paperback edition. However, specific edition IDs and publication years for the page count were not consistently available or clearly distinguishable across all sources.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.libroworld.com/9781501181252/",
+              "title": "Influenza: The Hundred-Year Hunt to Cure the 1918 Spanish Flu Pandemic",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Influenza: The Hundred-Year Hunt to Cure the 1918 Spanish Flu Pandemic\n\n## Dr Jeremy Brown\n\n## Atria Books\n\n...\n\nProduct Details\n\nAuthor:\nDr Jeremy Brown\nPublisher:\nAtria Books\nPublication Date:\nOctober 1, 2019\nNumber of pages:\n272 pages\nLanguage:\nEnglish\nBinding:\nPaperback\nISBN-10:\n1501181254\nISBN-13:\n9781501181252"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Influenza-Hundred-Year-Deadliest-Disease-History/dp/1501181254",
+              "title": "Influenza: The Hundred-Year Hunt to Cure the 1918 ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Influenza: The Hundred-Year Hunt to Cure the 1918 Spanish Flu Pandemic\nBrand: Dr Jeremy Brown\n\n...\n\n## Specifications\nPublisher: Atria Books; Publication date: October 1, 2019; Edition: Reprint; Language: English; Print length: 272 pages\n\n...\n\n## Details\nUPC: 1501181254\n\n...\n\nASIN: 1501181254"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.simonandschuster.net/books/Influenza/Jeremy-Brown/9781501181252",
+              "title": "www.simonandschuster.net",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Influenza\n\n## The Hundred-Year Hunt to Cure the 1918 Spanish Flu Pandemic\n\nBy Jeremy Brown\n\nTrade Paperback\n\n- eBook\n- Unabridged Audio Download\n\nLIST PRICE $17.00\n\n...\n\n## Product Details\n\n- Publisher: Atria Books (October 1, 2019)\n- Length: 272 pages\n- ISBN13: 9781501181252\n\n...\n\n```json\n{\"@context\":\"http://schema.org\",\"@type\":\"Book\",\"bookEdition\":null,\"bookFormat\":\"http://schema.org/Paperback\",\"isbn\":\"9781501181252\",\"name\":\"Influenza\",\"numberOfPages\":272,\"alternativeHeadline\":\"The Hundred-Year Hunt to Cure the 1918 Spanish Flu Pandemic\",\"audience\":{\"@type\":\"PeopleAudience\"},\"author\":\"https://www.simonandschuster.net/authors/Jeremy-Brown/2141998225\",\"award\":\"\",\"dateCreated\":\"2019-10-01\",\"datePublished\":\"2019-10-01\",\"genre\":null,\"headline\":\"Influenza\",\"keywords\":\"Doctors, Wellness, Non fiction\",\"publisher\":\"Simon \\u0026 Schuster\",\"publisherImprint\":\"Atria Books\",\""
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.readings.com.au/product/9781911231219/9781911231219",
+              "title": "Influenza, Jeremy Brown (9781911231219) — Readings Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": ", a veteran ER doctor, explores the troubling, ... of the 1918 flu that killed millions, to vexing questions such as – are we\n...\nFormat Paperback\n\nPublisher Text Publishing\n\nCountry United Kingdom\n\nDate 31 January 2019\n\nPages 272\n\n ISBN 9781911231219"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.porchlightbooks.com/products/influenza-jeremy-brown-9781501181252",
+              "title": "Influenza by Jeremy Brown\n– Porchlight Book Company",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Atria Books \n\n# Influenza: The Hundred-Year Hunt to Cure the 1918 Spanish Flu Pandemic \n\n By Jeremy Brown\n\n Paperback\n\n...\n\n#### Details\n\n| Publish date | October 01, 2019 |\n| --- | --- |\n| Publisher | Atria Books |\n| Format | Paperback |\n| Pages | 272 |\n| Language | Eng |\n| ISBN | 9781501181252 1501181254 |"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1452,
+    "completion_tokens": 457,
+    "total_tokens": 1909,
+    "cost": 0.00732472,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000328,
+      "upstream_inference_prompt_cost": 0.0001452,
+      "upstream_inference_completions_cost": 0.0001828
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

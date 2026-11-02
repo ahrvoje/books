@@ -1,0 +1,80 @@
+{
+  "retrieved": "2026-11-01T22:10:47.627Z",
+  "bookId": "shelf-b973a9ae2267",
+  "id": "gen-1793571047-yZcvkTys8PtuwhxhJHLJ",
+  "object": "chat.completion",
+  "created": 1793571047,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-b973a9ae2267\",\n  \"title\": \"The Carving of Reality (Best of LessWrong 2020)\",\n  \"author\": \"LessWrong contributors\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 1000,\n    \"editionId\": \"9798987388006\",\n    \"editionYear\": \"2023\",\n    \"format\": \"Perfect Paperback\",\n    \"language\": null,\n    \"url\": \"https://bookscouter.com/author/lesswrong\",\n    \"evidence\": \"Publisher: LessWrong Press Released: Jan 01, 2023 Format: Perfect Paperback, 1000 pages\",\n    \"sourceTitle\": \"LessWrong books - All books by LessWrong author | BookScouter.com\",\n    \"sourceAuthor\": \"LessWrong\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://bookscouter.com/author/lesswrong\",\n    \"https://www.lesswrong.com/w/lesswrong-books\"\n  ],\n  \"limitations\": \"No specific edition information was available for the 'amazon' field. The 'language' for the 'pages' field was not specified.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://bookscouter.com/author/lesswrong",
+              "title": "LessWrong books - All books by LessWrong author | BookScouter.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "LessWrong books - All books by LessWrong author | BookScouter.com\n\n## See the best price to sell, buy, or rent books by LessWrong. BookScouter helps to compare book prices from 25+ online bookstores and 30+ buyback vendors with a single search.\n\n## A Map that Reflects the Territory: Essays by the LessWrong Community\n\nAuthor(s): LessWrong ISBN-13: 9781736128503 Edition: First Edition\n\nPublisher: LessWrong Press Released: Jan 01, 2020 Format: Paperback, 720 pages\n\n## The Engines of Cognition: Essays by the LessWrong Community\n\nAuthor(s): LessWrong ISBN-13: 9781736128510 Edition: First Edition\n\nPublisher: LessWrong Press Released: Jan 01, 2021 Format: Paperback, 948 pages\n\n## The Carving of Reality: Essays by the LessWrong Community vol. III\n\nAuthor(s): LessWrong ISBN-13: 9798987388006\n\nPublisher: LessWrong Press Released: Jan 01, 2023 Format: Perfect Paperback, 1000 pages"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.lesswrong.com/w/lesswrong-books",
+              "title": "LessWrong Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "### Book Launch: \"The Carving of Reality,\" Best of LessWrong vol. III\n\nBy Raemon \n2023-08-16 23:52:12Z\n\n* Karma: 131\n* Tags: LessWrong Annual Review, LessWrong Books, Community (Frontpage)\n\nRead more: /api/post/book-launch-the-carving-of-reality-best-of-lesswrong-vol-iii"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.lesswrong.com/books",
+              "title": "Books — LessWrong",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Books of LessWrong\n\nEach December since 2018, the LessWrong community comes together to look at the best posts from the previous year, and reflect on which of them have stood the test of time. We hold 2-month-long annual review process. At the end, the thousands of posts from a given year are narrowed down into approximately 50 posts.\n\nThose posts are collected in these Best Of LessWrong sequences. If you'd like to get a sense of what intellectual work LessWrong has done in the past few years, this is a good place to start.\n\n A Map That Reflects the Territory (Best of 2018) Buy on Amazon\n\n The Engines of Cognition Best of 2019 Buy on Amazon\n\n \n\nThe Carving of Reality Best of 2020 Buy on Amazon"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1149,
+    "completion_tokens": 308,
+    "total_tokens": 1457,
+    "cost": 0.007235719,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002381,
+      "upstream_inference_prompt_cost": 0.0001149,
+      "upstream_inference_completions_cost": 0.0001232
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

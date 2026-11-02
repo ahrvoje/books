@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572321-O7fAszbS42uszV0WKS52",
+  "object": "chat.completion",
+  "created": 1793572321,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"rem-u0474\",\n  \"title\": \"My Brain is Open: The Mathematical Journeys of Paul Erdős\",\n  \"author\": \"Bruce Schechter\",\n  \"amazon\": {\n    \"count\": 288,\n    \"url\": \"https://www.amazon.com/My-Brain-Open-Mathematical-Erdos/dp/0198504713\",\n    \"asin\": \"0198504713\",\n    \"evidence\": [\n      \"Amazon.com: My Brain is Open: Mathematical Journeys of Paul Erdos: 9780198504719: Schechter, Bruce: Libros. [amazon.com](https://www.amazon.com/-/es/Bruce-Schechter/dp/0198504713)\",\n      \"Amazon.com: My Brain is Open: Mathematical Journeys of Paul Erdos: 9780198504719: Schechter, Bruce: 圖書. [amazon.com](https://www.amazon.com/-/zh_TW/Bruce-Schechter/dp/0198504713)\"\n    ]\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/he/Bruce-Schechter/dp/4320017447",
+              "title": "My Brain Is Open: The Mathematical Journeys of Paul ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Amazon.com: My Brain Is Open: The Mathematical Journeys of Paul Erdos [Japanese Edition]: 9784320017443: Bruce Schechter, Bruce Schechter: ספרים."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/es/Bruce-Schechter/dp/0198504713",
+              "title": "My Brain is Open: Mathematical Journeys of Paul Erdos ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Amazon.com: My Brain is Open: Mathematical Journeys of Paul Erdos: 9780198504719: Schechter, Bruce: Libros."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Brain-open-Chinese-Bruce-Schechter/dp/7532770788",
+              "title": "My Brain is open (Chinese Edition): 9787532770786: Bruce ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Amazon.com: My Brain is open (Chinese Edition): 9787532770786: Bruce Schechter: Books. ... Bruce Schechter. My Brain is open (Chinese Edition). 4.2 on"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B001HMT54M",
+              "title": "Bruce Schechter: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "My Brain is Open: The Mathematical Journeys of Paul Erdos. Hardcover. Books. Filters. Sort by: Popularity. 3 titles. Image of My Brain is Open: The"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/zh_TW/Bruce-Schechter/dp/0198504713",
+              "title": "My Brain is Open: Mathematical Journeys of Paul Erdos ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Amazon.com: My Brain is Open: Mathematical Journeys of Paul Erdos: 9780198504719: Schechter, Bruce: 圖書."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 773,
+    "completion_tokens": 280,
+    "total_tokens": 1053,
+    "cost": 0.00502209086,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000022314,
+      "upstream_inference_prompt_cost": 0.000013914,
+      "upstream_inference_completions_cost": 0.0000084
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "rem-u0474",
+  "retrieved": "2026-11-01T22:32:18.800Z"
+}

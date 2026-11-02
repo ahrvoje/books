@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575272-hnJWbKvgyg9cXMmLEZID",
+  "object": "chat.completion",
+  "created": 1793575272,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"bg0b1dcb7765:amazon:https://www.amazon.com/Triumph-City-Greatest-Invention-Healthier/dp/159420277X\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 841 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"g0436:amazon:https://www.amazon.com/Humans-Need-Not-Apply-Intelligence/dp/0300213557\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 456 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"shelf-a9480733b203:amazon:https://www.amazon.com/Decisive-Make-Better-Choices-Life-ebook/dp/B009JU6UPG\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and authors. 2,414 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"shelf-4ac29bdcd15c:amazon:https://www.amazon.com/Engineering-Ancient-World-Revised-Landels/dp/0520227824\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 69 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"g1138:amazon:https://www.amazon.com/Secrets-Sand-Hill-Road-Capital_and/dp/0753553961\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 1,186 ratings explicitly labelled.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3418,
+    "completion_tokens": 422,
+    "total_tokens": 3840,
+    "cost": 0.0002026134,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020466,
+      "upstream_inference_prompt_cost": 0.0001709,
+      "upstream_inference_completions_cost": 0.00003376
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:21:25.980Z"
+}

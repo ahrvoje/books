@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574486-XZ5BctzqznLNBwJrzj17",
+  "object": "chat.completion",
+  "created": 1793574486,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"q0996:amazon:https://www.amazon.com/Bullshit-Jobs-Theory-David-Graeber/dp/150114331X\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 3,270 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"progress-0138:amazon:https://www.amazon.com/CEO-China-Rise-Xi-Jinping/dp/178453322X\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 168 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1313:amazon:https://www.amazon.com/SPQR-History-Ancient-Mary-Beard/dp/0871404230\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 11,875 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u0912:amazon:https://www.amazon.com/Culture-Code-Secrets-Highly-Successful/dp/0804176981\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 8,535 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"complete-222-229:amazon:https://www.amazon.com/Anarchy-State-Utopia-Robert-Nozick/dp/0465051006\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 559 global ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3675,
+    "completion_tokens": 415,
+    "total_tokens": 4090,
+    "cost": 0.0002147805,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021695,
+      "upstream_inference_prompt_cost": 0.00018375,
+      "upstream_inference_completions_cost": 0.0000332
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:08:07.841Z"
+}

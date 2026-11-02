@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572650-HefD4NdOAmWrN5gFIN20",
+  "object": "chat.completion",
+  "created": 1793572650,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"progress-0591\",\n  \"title\": \"Engineers\",\n  \"author\": \"DK\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 1,\n    \"url\": \"https://apps.lib.byu.edu/marcrecord/bib/4441621\",\n    \"evidence\": \"Includes bibliographical references (p. 227-234) and index.\",\n    \"ranges\": [\n      {\n        \"start\": 227,\n        \"end\": 234,\n        \"label\": \"bibliographical references\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://apps.lib.byu.edu/marcrecord/bib/4441621",
+              "title": "apps.lib.byu.edu",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Leader *****cam*a22******a*4500\n001 ## a4441621\n003 ## SIRSI\n005 ## 20100504123051.0\n008 ## 050506s2010 enka b 001 0 eng\n019 ## $a 149491844\n $a 149512835\n020 ## $a 0415325250 (hbk.)\n020 ## $a 9780415325257 (hbk.)\n020 ## $a 0415325269 (pbk.)\n020 ## $a 9780415325264 (pbk.)\n020 ## $a 9780203358184 (ebk.)\n020 ## $a 020335818X (ebk.)\n035 ## $a (OCoLC)ocm61217527\n $z (OCoLC)149491844\n $z (OCoLC)149512835\n035 ## $a (OCoLC)ocn645731995\n040 ## $a UKM\n $c UKM\n $d BAKER\n $d NLGGC\n $d BTCTA\n $d YDXCP\n $d ERASA\n $d BWK\n $d C#P\n $d NhCcYBP\n050 #4 $a TA636\n $b .W45 2010\n079 ## $a ocm61217527\n082 04 $a 624.109\n084 ## $a 50.11\n $2 bcl\n100 1# $a Wells, Matthew.\n245 10 $a Engineers :\n $b a history of engineering and structural design /\n $c Matthew Wells.\n260 ## $a London ;\n $a New York :\n $b Routledge,\n $c 2010.\n300 ## $a xii, 243 p. :\n $b ill. ;\n $c 25 cm.\n336 ## $a text\n $2 rdacontent\n337 ## $a unmediated\n $2 rdamedia\n338 ## $a volume\n $2 rdacarrier\n504 ## $a Includes bibliographical references (p. 227-234) and index.\n596 ## $a LEE\n650 #0 $a Structural engineering\n $x History.\n583 ## $a cat\n $c 20100624\n $k nsh\n $5 UPB"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://lib.pmu.edu.sa/cgi-bin/koha/opac-ISBDdetail.pl?biblionumber=7230",
+              "title": "Learning Resource Center catalog › ISBD view",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Learning Resource Center catalog › ISBD view\n\nMechanical engineers' handbook / edited by Myer Kutz. - 3rd ed. - Hoboken, N.J. : Wiley, c2006. - 4 v. : ill. ; 25 cm. Includes bibliographical references and index. v. 1. Materials and mechanical design -- v. 2. Instrumentation, systems, controls, and MEMS -- v. 3. Manufacturing and management -- v. 4. Energy and power. Mechanical Engineers' Handbook, Third Edition, Four Volume Set provides a single source for all critical information needed by mechanical engineers in the diverse industries and job functions they find themselves. No single engineer can be a specialist in all areas that they are called on to work and the handbook provides a quick guide to specialized areas so that the engineer can know the basics and where to go for further reading. ISBN: 0471449903 (cloth : alk. paper) 9780471449904 (cloth : alk. paper) 0471719854 (v.1) 9780471719854 (v.1) 0471719862 (v.2) 9780471719861 (v.2) 0471719870 (v.3) 9780471719878 (v.3) 0471719889 (v.4) 9780471719885 (v.4) LCCN: 2005008603 Subjects--Topical Terms: Mechanical engineering--Handbooks, manuals, etc. LC Class. No.: TJ151 / .M395 2006 Dewey Class. No.: 621"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://apps.lib.byu.edu/marcrecord/bib/6840095",
+              "title": "apps.lib.byu.edu",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Leader *****pam*a22******i*4500\n001 ## y99973502759\n003 ## SIRSI\n005 ## 20170921145811.5\n008 ## 170721t20182018flua b 001 0 eng\n010 ## $a 2017016364\n020 ## $a 9781498798815\n $q hardcover\n $q acid-free paper\n020 ## $a 1498798810\n $q hardcover\n $q acid-free paper\n020 ## $z 9781315154961\n $q electronic book\n035 ## $a (OCoLC)982654393\n035 ## $a UtOrBLW\n040 ## $a DLC\n $b eng\n $e rda\n $c DLC\n $d BTCTA\n $d YDX\n $d BDX\n $d OCLCO\n $d OCLCF\n $d NhCcYBP\n $d UPB\n042 ## $a pcc\n050 00 $a TA347.D45\n $b K35 2018\n082 00 $a 515/.35\n $2 23\n100 1# $a Kalbaugh, David V.,\n $e author.\n245 10 $a Differential equations for engineers :\n $b the essentials /\n $c by David V. Kalbaugh.\n264 #1 $a Boca Raton, FL :\n $b CRC Press, Taylor & Francis Group,\n $c [2018]\n264 #4 $c ©2018\n300 ## $a xvii, 433 pages :\n $b illustrations ;\n $c 26 cm\n336 ## $a text\n $b txt\n $2 rdacontent\n337 ## $a unmediated\n $b n\n $2 rdamedia\n338 ## $a volume\n $b nc\n $2 rdacarrier\n504 ## $a Includes bibliographical references (page 428) and index.\n596 ## $a LEE\n650 #0 $a Differential equations.\n650 #0 $a Engineering mathematics.\n583 ## $a sr\n $b YBP\n $c 20170922\n $5 UPB\n583 ## $a copy\n $c 20171024\n $k jlc\n $5 UPB"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://librarycatalog.ecu.edu/catalog/2192516",
+              "title": "Life cycle costing for engineers / B.S. Dhillon. - ECU Libraries Catalog",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Life cycle costing for engineers / B.S. Dhillon. - ECU Libraries Catalog\n\n# Life cycle costing for engineers / B.S. Dhillon.\n\n| Author/creator | Dhillon, B. S., 1947- |\n| --- | --- |\n| Format | Book |\n| Publication Info | Boca Raton : CRC Press, ©2010. |\n| Description | xvii, 204 pages : illustrations ; 25 cm |\n| Subjects | Life cycle costing. Engineering economy. Product life cycle. |\n\n## Click here for more information about this title \n\n| Bibliography note | Includes bibliographical references and index. |\n| --- | --- |\n| LCCN | 2009030894 |\n| ISBN | 9781439816882 (hard back : alk. paper) |\n| ISBN | 1439816883 (hard back : alk. paper) |\n\n### Availability\n\n| Library | Location | Call Number | Status | Item Actions |\n| --- | --- | --- | --- | --- |\n| Joyner | General Stacks | TA177.7 .D3525 2010 | ✔ Available | Place Hold |\n\n East Carolina University East Fifth Street | Greenville, NC 27858-4353 USA | 252.328.6131 (12523286131) | Contact Webmaster"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://lib.pmu.edu.sa/cgi-bin/koha/opac-detail.pl?biblionumber=3597&shelfbrowse_itemnumber=6710",
+              "title": "Learning Resource Center catalog › Details for: \n    Engineers and their profession /",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Learning Resource Center catalog › Details for: Engineers and their profession / \n\n \n\n## Engineers and their profession / John D. Kemper, Billy R. Sanders. \n\nBy: Kemper, John Dustin Contributor(s): Sanders, Billy R Material type: Text Publisher: New York : Oxford University Press, 2001 Edition: 5th ed Description: xiv, 346 p. : ill. ; 24 cm ISBN: 0195120574; 9780195120578 Subject(s): Engineering DDC classification: 620/.0023 LOC classification: TA157 | .K4 2001 Online resources: Publisher description | Table of contents only \n\nRate me Average rating: 0.0 (0 votes)\n\n| Item type | Current library | Call number | Copy number | Status | Notes | Date due | Barcode |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Books | Female Library | TA157 .K4 2001 (Browse shelf (Opens below)) | 1 | Available | STACKS | | 51952000079644 |\n| Books | Main Library | TA157 .K4 2001 (Browse shelf (Opens below)) | 1 | Available | STACKS | | 51952000057819 |\n\n Includes bibliographical references and index. \n\n 1 2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2941,
+    "completion_tokens": 148,
+    "total_tokens": 3089,
+    "cost": 0.0071573011,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00015889,
+      "upstream_inference_prompt_cost": 0.00014705,
+      "upstream_inference_completions_cost": 0.00001184
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "progress-0591",
+  "retrieved": "2026-11-01T22:37:33.256Z"
+}

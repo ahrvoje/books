@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:16:43.192Z",
+  "bookId": "intake-0164",
+  "id": "gen-1793571401-axXGHXqSHe2mFzIufOsC",
+  "object": "chat.completion",
+  "created": 1793571401,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"intake-0164\",\n  \"title\": \"Close to the Machine\",\n  \"author\": \"Ellen Ullman\",\n  \"knownEdition\": {\n    \"id\": \"/books/OL680682M\",\n    \"url\": \"https://openlibrary.org/books/OL680682M\"\n  },\n  \"purchaseUrl\": \"https://www.amazon.de/dp/1250002486\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 189,\n    \"editionId\": null,\n    \"editionYear\": null,\n    \"format\": \"Softcover\",\n    \"language\": null,\n    \"url\": null,\n    \"evidence\": \"San Francisco: City Lights Books, 1997. Softcover. VERY GOOD. 20 cm.. Covers have some wrinkling to the laminate. 189 pages. Additional info or photos on request. Ships in sturdy cardboard packaging, with tracking and insurance.\",\n    \"sourceTitle\": \"Close to the Machine: Technophilia and its Discontents\",\n    \"sourceAuthor\": \"Ellen Ullman\",\n    \"sourceUrl\": \"https://biblio.com/bookstore/irolita-books-aurora/computers-technology/39719814\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.biblio.com/bookstore/irolita-books-aurora/computers-technology/39719814\",\n    \"https://grafiati.com/en/literature-selections/computer-software-computer-programmers/book/\",\n    \"https://www.earthlightbooks.com/quicksearch/all/Other/product_author_asc?page=52\",\n    \"https://biblio.co.uk/bookstore/irolita-books-aurora/biographies-memoirs/39719773\",\n    \"https://biblio.co.nz/bookstore/irolita-books-aurora/computers-technology/39719814\"\n  ],\n  \"limitations\": \"No explicit mention of bibliographical reference page ranges was found in the provided search results. One result mentions 'Includes bibliographical references and index' for a different edition (Springer, 2010, 239 pages), but this does not apply to the 1997 City Lights edition.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.biblio.com/bookstore/irolita-books-aurora/computers-technology/39719814",
+              "title": "Browse recent arrivals in Computers & Technology from Irolita Books - Biblio",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Browse recent arrivals in Computers & Technology from Irolita Books - Biblio\n\n## New Arrivals\n\n### Close to the Machine: Technophilia and its Discontents\n\n#### by Ellen Ullman\n\nCondition\n: Used - VERY GOOD \nPublished\n: 1997\nBinding\n: Softcover\nISBN\n: 9780872863323\nQuantity Available\n: 1\nSeller\n: Irolita Books \n\n Aurora, Ontario, CAN \n\nSeller rating:\n\nThis seller has earned a 5 of 5 Stars rating from Biblio customers.\nItem Price\n: $17.00 \n\n#### Show Details\n\nDescription:\n\n San Francisco: City Lights Books, 1997. Softcover. VERY GOOD. 20 cm.. Covers have some wrinkling to the laminate. 189 pages. Additional info or photos on request. Ships in sturdy cardboard packaging, with tracking and insurance. \n\nItem Price\n\n $17.00 \n\nStock Photo: Cover May Be Different\n\n...\n\nSpringer, 2010. ... FINE. 24 cm. Clean, unworn copy. No writing or markings. Binding is sound and tight. 239 pages. x, 238 p.: ill. Includes bibliographical references and index. Additional info or photos on request."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.grafiati.com/en/literature-selections/computer-software-computer-programmers/book/",
+              "title": "Books: 'Computer software Computer programmers' – Grafiati",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Books: 'Computer software Computer programmers' – Grafiati\n\n# Books on the topic 'Computer software Computer programmers' \n\nAuthor: Grafiati\n\nPublished: 4 June 2021 \n\nLast updated: 12 February 2022 \n\n## Create a spot-on reference in APA, MLA, Chicago, Harvard, and other styles\n\n...\n\nival ... ( ... Book Book\n\n...\n\nConsult the top 50 books for your research on the topic 'Computer software Computer programmers.'\n\nNext to every source in the list of references, there is an 'Add to bibliography' button. Press on it, and we will generate automatically the bibliographic reference to the chosen work in the citation style you need: APA, MLA, Harvard, Chicago, Vancouver, etc.\n\nYou can also download the full text of the academic publication as pdf and read online its abstract whenever available in the metadata.\n\nBrowse books on a wide variety of disciplines and organise your bibliography correctly.\n\n...\n\nRosenberg, Scott.\n\n...\n\nClose to the Machine: Technophilia and Its Discontents. City Lights Books, 1997."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.earthlightbooks.com/quicksearch/all/Other/product_author_asc?page=52",
+              "title": "Search Results",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Search Results\n\n...\n\n#### Close to the Machine: Technophilia and Its Discontents\n\nBy: Ullman, Ellen\n\nPrice: $8.00\n\nPublisher: City Lights Publishers : 2001-01-01\n\nISBN-13: 9780872863323\n\nVery Good, clean text, trade paperback binding, light wear to corners and edges, satisfaction guaranteed. Earthlight Books is a family owned and operated, independent bookstore serving Walla Walla, Washington since 1973. View More..."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://biblio.co.uk/bookstore/irolita-books-aurora/biographies-memoirs/39719773",
+              "title": "Browse the latest arrivals in Biographies & Memoirs from Irolita Books - Biblio UK",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "### Close to the Machine: Technophilia and its Discontents\n\n#### by Ellen Ullman\n\nCondition\n: Used - VERY GOOD \nPublished\n: 1997\nBinding\n: Softcover\nISBN\n: 9780872863323\nQuantity available\n: 1\nSeller\n: Irolita Books \n\n Aurora, Ontario, CAN \n\nSeller rating:\n\nThis seller has earned a 5 of 5 Stars rating from Biblio customers.\nItem price\n: £12.88 \n\n San Francisco: City Lights Books, 1997. Softcover. VERY GOOD. 20 cm.. Covers have some wrinkling to the laminate. 189 pages. Additional info or photos on request. Ships in sturdy cardboard packaging, with tracking and insurance. \n\n £12.88"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://biblio.co.nz/bookstore/irolita-books-aurora/computers-technology/39719814",
+              "title": "Browse the latest arrivals in Computers & Technology from Irolita Books - Biblio NZ",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## New In\n\n### Close to the Machine: Technophilia and its Discontents\n\n#### by Ellen Ullman\n\nCondition\n: Used - VERY GOOD \nPublished\n: 1997\nBinding\n: Softcover\nISBN\n: 9780872863323\nQuantity available\n: 1\nSeller\n: Irolita Books \n\n Aurora, Ontario, CAN \n\nSeller rating:\n\nThis seller has earned a 5 of 5 Stars rating from Biblio customers.\nItem price\n: NZ$30.36 \n\n#### Show details\n\nDescription:\n\n San Francisco: City Lights Books, 1997. Softcover. VERY GOOD. 20 cm.. Covers have some wrinkling to the laminate. 189 pages. Additional info or photos on request. Ships in sturdy cardboard packaging, with tracking and insurance. \n\nItem price\n\n NZ$30.36 \n\nStock photo: cover may vary"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1835,
+    "completion_tokens": 574,
+    "total_tokens": 2409,
+    "cost": 0.007408969,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004131,
+      "upstream_inference_prompt_cost": 0.0001835,
+      "upstream_inference_completions_cost": 0.0002296
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

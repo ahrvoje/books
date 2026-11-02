@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793575709-ySWtPfmMUj5QCh5W7b9t",
+  "object": "chat.completion",
+  "created": 1793575709,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/How-You-Say-Do_and-About/dp/0544986555",
+              "title": "How You Say It: Why You Talk the Way You Do―And What ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nHow You Say It: Why You Talk the Way You Do―And What ...\nWhat's it about? A psychologist examines how speech causes social divides and how it can help overcome them, exploring how our native tongue affects economic\n\n## \n\nHow You Say It: Why You Talk the Way You Do―And What ...\nA psychologist examines how speech causes social divides and how it can help overcome them, exploring how our native tongue affects economic opportunity and"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 499,
+    "completion_tokens": 1,
+    "total_tokens": 500,
+    "cost": 0.00100892188,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000009012,
+      "upstream_inference_prompt_cost": 0.000008982,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"How You Say It\" Katherine D. Kinzler \"global ratings\"",
+  "bookId": "bg17f41b167b",
+  "retrieved": "2026-11-01T23:28:30.881Z"
+}

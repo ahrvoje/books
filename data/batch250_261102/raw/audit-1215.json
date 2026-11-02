@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576269-P9kLxsNpHhtMAlzoLaec",
+  "object": "chat.completion",
+  "created": 1793576269,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-ab1ae450950d:amazon:https://www.amazon.com/Essays-Aphorisms-Classics-ebook/dp/B002RI9K9K\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and correctly formatted.\"\n    },\n    {\n      \"key\": \"rem-u0805:amazon:https://www.amazon.com/Confessions-Economic-Hit-John-Perkins/dp/1576753018\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and correctly formatted.\"\n    },\n    {\n      \"key\": \"rem-u0141:amazon:https://www.amazon.com/Unfinished-Love-Story-Personal-History/dp/1982108665\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and correctly formatted.\"\n    },\n    {\n      \"key\": \"rem-u0965:amazon:https://www.amazon.com/Complete-Persepolis-Marjane-Satrapi/dp/1435276256\",\n      \"status\": \"reject\",\n      \"reason\": \"The title is not a single volume, it is a series.\"\n    },\n    {\n      \"key\": \"shelf-d4c267790cd4:amazon:https://www.amazon.com/Hot-Commodities-Anyone-Invest-Profitably/dp/0812973712\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and correctly formatted.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3444,
+    "completion_tokens": 419,
+    "total_tokens": 3863,
+    "cost": 0.0002036628,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020572,
+      "upstream_inference_prompt_cost": 0.0001722,
+      "upstream_inference_completions_cost": 0.00003352
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:37:57.397Z"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "gen-1793577011-upwkm6SUdwfUl1vT88yZ",
+  "object": "chat.completion",
+  "created": 1793577011,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "Here",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/musicmakingofmod0000pesi",
+              "title": "Music and the making of modern science",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nMusic and the making of modern science\nJul 7, 2023 — Music and the making of modern science by Pesic, Peter, author viii, 347 pages : 24 cm Includes bibliographical references and index. PTP Class"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/beyondgeometrycl0000unse",
+              "title": "Beyond geometry : classic papers from Riemann to Einstein : Free Download, Borrow, and Streaming : Internet Archive",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Keep the news in the Wayback Machine. Sign Fight for the Future's letter .\n\nBeyond geometry : classic papers from Riemann to Einstein\n\nBookreader Item Preview\n\nremove-circle\n\n...\n\nemail](mailto:?body=https://archive.org/details/beyondgeometrycl0000unse&subject=Beyond geometry : classic papers from Riemann to Einstein : Free Download, Borrow, and Streaming : Internet Archive)\n\n...\n\n* Marketing/Phishing/Advertising\n* Misleading/Inaccurate/Missing Metadata\ntexts\n\nBeyond geometry : classic papers from Riemann to Einstein\n\nPublication date 2007 Topics Riemann, Bernhard, 1826-1866 , Geometry, Riemannian , Surfaces , Generalized spaces Publisher Mineola, N.Y. : Dover Publications Collection internetarchivebooks ; inlibrary ; printdisabled Contributor Internet Archive Language English Item Size 504.2M\n209 p. ; 24 cm\nIncludes bibliographical references (p. 195-207) and index\nAccess-restricted-item true Addeddate 2024-02-23 14:24:02 Associated-names Pesic, Peter Autocrop_version 0.0.17_books-serials-20230720-0.3 Boxid IA41189218 Camera USB PTP Class Camera External-identifier urn:lcp:beyondgeometrycl0000unse:epub:6f822507-3e5f-4fc3-8734-59016febd508 urn:lcp:beyondgeometrycl0000unse:lcpdf:07f9250b-8979-414d-b366-270afdf24174 urn:oclc:record:1424785554 [WorldCat (this item)] Foldoutcount 0 Identifier beyondgeometrycl0000unse Identifier-ark ark:/13960/s2nc9cdfwt3 Isbn 0486453502 Lccn"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 763,
+    "completion_tokens": 1,
+    "total_tokens": 764,
+    "cost": 0.00101362636,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000013764,
+      "upstream_inference_prompt_cost": 0.000013734,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "n17ad18ba21",
+  "method": "archive",
+  "query": "site:archive.org/details \"Music and the Making of Modern Science\" Peter Pesic \"bibliographical references\"",
+  "retrieved": "2026-11-01T23:50:13.251Z"
+}

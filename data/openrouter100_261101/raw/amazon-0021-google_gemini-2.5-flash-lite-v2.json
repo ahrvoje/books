@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:11:46.589Z",
+  "bookId": "progress-0590",
+  "id": "gen-1793571105-Genj6of2l2TfTU0XsK2G",
+  "object": "chat.completion",
+  "created": 1793571105,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"progress-0590\",\n  \"title\": \"Engineers: A History of Engineering and Structural Design\",\n  \"author\": \"Matthew Wells\",\n  \"amazon\": {\n    \"count\": 2,\n    \"stars\": \"2.5\",\n    \"asin\": \"0415325269\",\n    \"marketplace\": \"amazon.com\",\n    \"url\": \"https://www.amazon.com/Engineers-History-Engineering-Structural-Design/dp/0415325269\",\n    \"evidence\": \"Rated 2.5 from 2 reviews.\",\n    \"sourceTitle\": \"Engineers\",\n    \"sourceAuthor\": \"M. Wells\",\n    \"snapshotLimitation\": \"The provided search results include two Amazon product pages for \\\"Engineers\\\" by Matthew Wells. One lists ASIN 0415325269 and states \\\"Rated 2.5 from 2 reviews.\\\" The other lists ASIN B01JXSJ3DO and also states \\\"Rated 2.5 from 2 reviews.\\\" As the request specifies a single matching Amazon product with an explicit TOTAL rating aggregate, and both results show the same rating and review count, the ASIN 0415325269 is selected as it appears to be the primary product listing for the book's print edition based on the provided details (e.g., publisher Routledge, 1st edition, print length). The second listing (ASIN B01JXSJ3DO) might be a different format or edition, but the rating information is identical.\"\n  },\n  \"pages\": {\n    \"count\": 256,\n    \"editionId\": null,\n    \"editionYear\": \"2010\",\n    \"format\": \"Print\",\n    \"language\": \"English\",\n    \"url\": \"https://www.amazon.com/Engineers-History-Engineering-Structural-Design/dp/0415325269\",\n    \"evidence\": \"Print length: 256 pages\",\n    \"sourceTitle\": \"Engineers\",\n    \"sourceAuthor\": \"M. Wells\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Engineers-History-Engineering-Structural-Design/dp/0415325269\",\n    \"https://www.amazon.com/Engineers-History-Engineering-Structural-2010-04-10/dp/B01JXSJ3DO\"\n  ],\n  \"limitations\": \"The `knownEdition` provided in the prompt has a page count of 244, while the Amazon search results indicate a print length of 256 pages for the edition with ASIN 0415325269. The `knownEdition`'s page count could refer to a different edition or format not detailed in the search results. The `purchaseUrl` provided in the prompt (amazon.de) did not yield a direct match with an explicit total rating aggregate in the initial search, so amazon.com was used as per the preference order.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Engineers-History-Engineering-Structural-Design/dp/0415325269",
+              "title": "Engineers",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Engineers\nBrand: M. Wells\nCategory: Civil & Environmental > Structural\n\n## Specifications\nPublisher: Routledge; Publication date: March 4, 2010; Edition: 1st; Language: English; Print length: 256 pages\n\n## Pricing & Reviews\nPrice: 65.99 USD.\nRated 2.5 from 2 reviews.\nTop review: lacks....too Anglo-Saxon engineering focused!\n\n## Details\nUPC: 0415325269\n\n## Description\nThis innovative new book presents the vast historical sweep of engineering innovation and technological change to describe and illustrate engineering design and what conditions, events, cultural climates and personalities have brought it to its present state.Matthew Wells covers topics based on an examination of paradigm shifts, the contribution of individuals, important structures and influential disasters to show approaches to the modern concept of structure. By demonstrating the historical context of engineering, Wells has created a guide to design like no other, inspirational for both students and practitioners working in the fields of architecture and engineering.\n\nASIN: 0415325269"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Engineers-History-Engineering-Structural-2010-04-10/dp/B01JXSJ3DO",
+              "title": "Engineers: A History of Engineering and Structural Design by M. Wells (2010-04-10)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Engineers: A History of Engineering and Structural Design by M. Wells (2010-04-10)\nBrand: Matthew Wells\n\n## Specifications\nPublisher: Routledge\n\n## Pricing & Reviews\nRated 2.5 from 2 reviews.\n\n## Description\nThis innovative new book presents the vast historical sweep of engineering innovation and technological change to describe and illustrate engineering design and what conditions, events, cultural climates and personalities have brought it to its present state.Matthew Wells covers topics based on an examination of paradigm shifts, the contribution of individuals, important structures and influential disasters to show approaches to the modern concept of structure. By demonstrating the historical context of engineering, Wells has created a guide to design like no other, inspirational for both students and practitioners working in the fields of architecture and engineering.\n\nASIN: B01JXSJ3DO"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Skyscrapers-Structure-Design-Matthew-Wells/dp/1856694038",
+              "title": "Skyscrapers Structure and Design /anglais",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Skyscrapers Structure and Design /anglais\nBrand: WELLS MATTHEW\nCategory: Architecture > History\n\n## Specifications\nPublisher: LAURENCE KING; Publication date: June 13, 2005; Language: English; Print length: 191 pages; ISBN-10: 1856694038\n\n## Pricing & Reviews\nRated 4.6 from 8 reviews."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/dp/B008CM6278",
+              "title": "Building: 3,000 Years of Design, Engineering and Construction",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "on somethings. This book is encylopedic. Sure, it has a western, and ... there is tons of detailed, technical information alongside the personalities, cultures, and economics that drove decisions. I gave it 5 stars because it has some much rich detail"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/30-Bridges-Matthew-Wells/dp/0823053547",
+              "title": "30 Bridges",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# 30 Bridges\nBrand: Matthew Wells\nCategory: Architecture > Buildings\n\n## Specifications\nPublisher: Watson-Guptill; Publication date: February 1, 2002; Edition: First Edition; Language: English; Print length: 192 pages"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1397,
+    "completion_tokens": 714,
+    "total_tokens": 2111,
+    "cost": 0.007421047,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004253,
+      "upstream_inference_prompt_cost": 0.0001397,
+      "upstream_inference_completions_cost": 0.0002856
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

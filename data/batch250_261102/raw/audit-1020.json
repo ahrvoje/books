@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576261-nIJbZgZt7BqFy40QuOy1",
+  "object": "chat.completion",
+  "created": 1793576261,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-8413660b0432:amazon:https://www.amazon.com/Twilight-of-Democracy/dp/0141991674\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title, author, and rating count.\"\n    },\n    {\n      \"key\": \"intake-0238:amazon:https://www.amazon.com/Misbelief-Rational-People-Believe-Irrational/dp/0063280434\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title, author, and rating count.\"\n    },\n    {\n      \"key\": \"shelf-d854566f79ad:amazon:https://www.amazon.com/How-Be-Rich-Paul-Getty/dp/0515087378\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title, author, and rating count.\"\n    },\n    {\n      \"key\": \"rem-u1622:amazon:https://www.amazon.com/Black-Holes-Universes-Other-Essays/dp/0553406639\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title, author, and rating count.\"\n    },\n    {\n      \"key\": \"rem-u1381:amazon:https://www.amazon.com/Stamped-Beginning-Definitive-History-National/dp/1568585985\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title, author, and rating count.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3803,
+    "completion_tokens": 391,
+    "total_tokens": 4194,
+    "cost": 0.0002192157,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00022143,
+      "upstream_inference_prompt_cost": 0.00019015,
+      "upstream_inference_completions_cost": 0.00003128
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:37:49.152Z"
+}

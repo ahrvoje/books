@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574806-HdlowI3zrGTrxBIM59w2",
+  "object": "chat.completion",
+  "created": 1793574806,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"nb01239545a:amazon:https://www.amazon.com/Mathematics-Human-Flourishing-Francis/dp/0300237138\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 429 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-fe387ee3abdc:amazon:https://www.amazon.com/Galileos-Middle-Finger-Heretics-Activists/dp/1594206082\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 503 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"intake-0452:amazon:https://www.amazon.com/Jorge-Luis-Borges-Selected-Non-Fictions/dp/0670849472\",\n      \"status\": \"reject\",\n      \"reason\": \"Author mismatch. Jorge Luis Borges is the author, not Eliot Weinberger or Esther Allen.\"\n    },\n    {\n      \"key\": \"shelves-elementsmoral:amazon:https://www.amazon.com/Elements-Moral-Philosophy-James-Rachels/dp/0078119065\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 390 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"g0514:amazon:https://www.amazon.com/N-Out-Burger-Behind-Counter-Fast-Food/dp/0061346713\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 514 global ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3313,
+    "completion_tokens": 418,
+    "total_tokens": 3731,
+    "cost": 0.0001970991,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019909,
+      "upstream_inference_prompt_cost": 0.00016565,
+      "upstream_inference_completions_cost": 0.00003344
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:13:28.837Z"
+}

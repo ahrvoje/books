@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575728-uzlz5fKN2BbGht828CR7",
+  "object": "chat.completion",
+  "created": 1793575728,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"intake-0644:amazon:https://www.amazon.com/Are-Your-Lights-Figure-Problem/dp/0932633161\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and authors. 95 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"resume-483-6:amazon:https://www.amazon.com/Shikake-Japanese-Shaping-Behavior-Through/dp/1631497812\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 80 global ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"g0358:amazon:https://www.amazon.com/Winning-Jack-Welch/dp/0060753943\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 1,997 global ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"bg1a7c4e2bb3:amazon:https://www.amazon.com/Outliers-Malcolm-Gladwell/dp/0141043024\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 39,366 global ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"g0529:amazon:https://www.amazon.com/Method-Obsessions-Scrappy-Start-up-Industry/dp/1591843995\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 62 global ratings explicitly labelled.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3552,
+    "completion_tokens": 405,
+    "total_tokens": 3957,
+    "cost": 0.0002079,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021,
+      "upstream_inference_prompt_cost": 0.0001776,
+      "upstream_inference_completions_cost": 0.0000324
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:28:54.674Z"
+}

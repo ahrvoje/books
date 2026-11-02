@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574812-jgmf1jqJfkIzFMcLUqXr",
+  "object": "chat.completion",
+  "created": 1793574812,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u1406:amazon:https://www.amazon.com/Band-Brothers-Regiment-Airborne-Normandy/dp/1501179403\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence provided is a global rating count of 15,259.\"\n    },\n    {\n      \"key\": \"g0974:amazon:https://www.amazon.com/Story-Philosophy-Opinions-Greatest-Philosophers/dp/0671739166\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence provided is a global rating count of 2,595.\"\n    },\n    {\n      \"key\": \"complete-731-50:amazon:https://www.amazon.com/Meaning-Life-Short-Introduction-Introductions/dp/0199210705?tag=bitesnews-20\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence provided is a global rating count of 24.\"\n    },\n    {\n      \"key\": \"shelf-8ac08ba838f8:amazon:https://www.amazon.com/Original-Sin-President-Cover-Up-Disastrous/dp/B0DTYKCJC9\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence provided is a global rating count of 6,242.\"\n    },\n    {\n      \"key\": \"rem-u1334:amazon:https://www.amazon.com/Wars-Roses-Fall-Plantagenets-Tudors/dp/0143127888\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence provided is a global rating count of 2,829.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3619,
+    "completion_tokens": 455,
+    "total_tokens": 4074,
+    "cost": 0.0002151765,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021735,
+      "upstream_inference_prompt_cost": 0.00018095,
+      "upstream_inference_completions_cost": 0.0000364
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:13:34.432Z"
+}

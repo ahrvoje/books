@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572415-Rj4ITsxXpj0GV1SPLpKT",
+  "object": "chat.completion",
+  "created": 1793572415,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"intake-0871\",\n  \"title\": \"The History of the Priority Dispute between Newton and Leibniz\",\n  \"author\": \"Thomas Sonar\",\n  \"amazon\": {\n    \"count\": 1,\n    \"url\": \"https://www.amazon.com/History-Priority-Dispute-Newton-Leibniz/dp/099715420X\",\n    \"asin\": \"099715420X\",\n    \"evidence\": \"site:amazon.com \\\"The History of the Priority Dispute between Newton and Leibniz\\\" Thomas Sonar\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Calculus-Wars-Leibniz-Greatest-Mathematical/dp/1560257067",
+              "title": "The Calculus Wars: Newton, Leibniz, and the Greatest ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Calculus Wars: Newton, Leibniz, and the Greatest ...\nThe book is about the bitter dispute between Sir Isaac Newton and Gottfried Wilhelm Leibniz over the discovery of calculus, which was one of the most important"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Calculus-Wars-Jason-Socrates-Bardi/dp/1560259922",
+              "title": "The Calculus Wars: Newton, Leibniz, and the Greatest ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Calculus Wars: Newton, Leibniz, and the Greatest ...\nToday Newton and Leibniz are generally considered the twin independent inventors of calculus, and they are both credited with giving mathematics its greatest \n\n## \n\nThe Calculus Wars: Newton, Leibniz, and the Greatest ...\nThe book is about the bitter dispute between Sir Isaac Newton and Gottfried Wilhelm Leibniz over the discovery of calculus, which was one of the most important"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Leibniz-Clarke-Correspondence-extracts-Principia-Philosophy/dp/0719006694",
+              "title": "The Leibniz-Clarke Correspondence: With extracts from ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Leibniz-Clarke Correspondence: With extracts from ...\nA 1715-1717 philosophical exchange between Leibniz and Samuel Clarke debating Newton's philosophy, natural religion, and the nature of space and time.\n\n## \n\nThe Leibniz-Clarke Correspondence: With extracts from ...\nWhat's it about? A 1715-1717 philosophical exchange between Leibniz and Samuel Clarke debating Newton's philosophy, natural religion, and the nature of space"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B00LF5U87Y",
+              "title": "Thomas Sonar: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThomas Sonar: books, biography, latest update\nFollow Thomas Sonar and explore their bibliography from Amazon's Thomas Sonar Author Page."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Interpreting-Newton-Critical-Andrew-Janiak/dp/0521766184",
+              "title": "Interpreting Newton: Critical Essays - Andrew Janiak",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nInterpreting Newton: Critical Essays - Andrew Janiak\nThe essays analyze Newton's relation to his contemporaries, especially Barrow, Descartes, Leibniz and Locke, and discuss the ways in which a broad range of"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 883,
+    "completion_tokens": 149,
+    "total_tokens": 1032,
+    "cost": 0.00502016036,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000020364,
+      "upstream_inference_prompt_cost": 0.000015894,
+      "upstream_inference_completions_cost": 0.00000447
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "intake-0871",
+  "retrieved": "2026-11-01T22:33:44.873Z"
+}

@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:17:14.663Z",
+  "bookId": "shelf-6d53dc2ea6f7",
+  "id": "gen-1793571434-FqSItqtbpjoRmrugTG9C",
+  "object": "chat.completion",
+  "created": 1793571434,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-6d53dc2ea6f7\",\n  \"title\": \"General Relativity from A to B\",\n  \"author\": \"Robert Geroch\",\n  \"knownEdition\": {\n    \"id\": \"OL9514040M\",\n    \"url\": \"https://openlibrary.org/books/OL9514040M\",\n    \"pages\": 233\n  },\n  \"purchaseUrl\": \"https://www.amazon.de/dp/0226288641\",\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.ca.infn.it/wp-content/doe/inventario_libri.html\",\n    \"https://biblio-n.oca.eu/biblio/pmb3.0/opac_css/index.php?id=416&lvl=indexint_see&main=\",\n    \"https://biblio-n.oca.eu/biblio/pmb3.0/opac_css/index.php?id=416&l_typdoc=&lvl=indexint_see&nb_per_page_custom=152&nb_per_page_custom=50&nbr_lignes=152&page=1\",\n    \"https://www.abebooks.com/9789814271202/FEYNMAN-MOTIVES-Marcolli-Matilde-9814271209/plp\",\n    \"http://strangebeautiful.com/lmu/lectures-lmu-stein.pdf\"\n  ],\n  \"limitations\": \"No explicit page ranges for bibliographical references were found in the provided search results. One source mentions Chapter 3 as a reference, but does not provide page numbers or a total count for the bibliography.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.ca.infn.it/wp-content/doe/inventario_libri.html",
+              "title": "Elenco libri",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Elenco libri\n\n| Inventario | Descrizione | Altre info |\n| --- | --- | --- |\n\n...\n\n| 2896 | *General relativity from A to B / Robert Geroch. - Chicago ; London : University of Chicago press, c1978. - XI, 225 p. ; 21 cm | |\n| 2895 | *Mathematical physics / Robert Geroch. - Chicago ; London : The University of Chicago press, c1985. - VI, 351 p. : ill. ; 23 cm(*Chicago lectures in physics) | |\n\n...\n\n| 2893 | *Perspectives in computation / Robert Geroch. - Chicago : The University of Chicago Press, 2009. - VI, 200 p. ; 24 cm(*Chicago lectures in physics) | |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://biblio-n.oca.eu/biblio/pmb3.0/opac_css/index.php?id=416&lvl=indexint_see&main=",
+              "title": "Catalogue en ligne Service bibliothèque de l'Observatoire de la Côte d'Azur / Côte d'Azur Observatory library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Catalogue en ligne Service bibliothèque de l'Observatoire de la Côte d'Azur / Côte d'Azur Observatory library\n\n### 530.11 : Théorie de la relativité\n\n...\n\n### Ouvrages de la bibliothèque en indexation 530.11\n\n...\n\n> ### Exemplaires (1)\n> \n> | Code-barres | Cote | Support | Localisation | Section | Disponibilité |\n> | --- | --- | --- | --- | --- | --- |\n> | OCA-NI-007671 | 007671 | Ouvrages / Books | OCA Bib. Nice Mont-Gros | NI-Sous sol-1-Ouvrages | Exclu du prêt |\n>\n\n...\n\n> A General Relativity Coursebook / Ed. ... 2023) \n> \n> General relativity for mathematicians / Rainer Kurt Sachs (1977) \n> \n> General relativity from A to B / Robert Geroch (1978) \n>"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://biblio-n.oca.eu/biblio/pmb3.0/opac_css/index.php?id=416&l_typdoc=&lvl=indexint_see&nb_per_page_custom=152&nb_per_page_custom=50&nbr_lignes=152&page=1",
+              "title": "Catalogue en ligne Service bibliothèque de l'Observatoire de la Côte d'Azur / Côte d'Azur Observatory library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Catalogue en ligne Service bibliothèque de l'Observatoire de la Côte d'Azur / Côte d'Azur Observatory library\n\n### 530.11 : Théorie de la relativité\n\n...\n\n### Ouvrages de la bibliothèque en indexation 530.11\n\n...\n\n> \n> | Code-barres | Cote | Support | Localisation | Section | Disponibilité |\n> | --- | --- | --- | --- | --- | --- |\n> | OCA-NI-007671 | 007671 | Ouvrages / Books | OCA Bib. Nice Mont-Gros | NI-Sous sol-1-Ouvrages | Exclu du prêt |\n\n...\n\n> General relativity for mathematicians / Rainer Kurt Sachs (1977) \n> \n> General relativity from A to B / Robert Geroch (1978) \n>"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.abebooks.com/9789814271202/FEYNMAN-MOTIVES-Marcolli-Matilde-9814271209/plp",
+              "title": "FEYNMAN MOTIVES - Marcolli Matilde: 9789814271202 - AbeBooks",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Scientific Publishing Company Publication date2009 LanguageEnglish ISBN 10 9814271209\n...\nPhysical Foundations of Cosmology\n\nMukhanov, Viatcheslav\n\nGeneral Relativity from A to B\n\nGeroch, Robert\n\nGuide To Mathematical Methods For Physicists, A: With..."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://strangebeautiful.com/lmu/lectures-lmu-stein.pdf",
+              "title": "Schedule of Lectures for “The Philosophy of Howard Stein”",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## Schedule of Lectures for “The Philosophy of Howard Stein”\n\n#### Dr. Erik Curiel erik.curiel@lmu.de office: Ludwigstr. 31, R130 office hours: by appointment (email me)\n\ncourse website: http://strangebeautiful.com/lmu/2018-winter-stein.html\n\nWinter, 2018–2019 Wed. 12:00–14:00 C.T.\n\n#### Ludwigstr. 31, 028\n\n...\n\n### Lectures 5–7: Newtonian Space-Time (21. Nov – 05. Dec)\n\nLecture 5: Newtonian Space-Time I. (21. Nov)\n\n...\n\n24. Geroch (1981), General Relativity from A to B: ch. 3\n\n...\n\n24. Geroch (1981), General Relativity from A to B: ch. 3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1796,
+    "completion_tokens": 442,
+    "total_tokens": 2238,
+    "cost": 0.007352836,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003564,
+      "upstream_inference_prompt_cost": 0.0001796,
+      "upstream_inference_completions_cost": 0.0001768
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

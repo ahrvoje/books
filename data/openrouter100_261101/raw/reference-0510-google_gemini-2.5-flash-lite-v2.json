@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:14:55.111Z",
+  "bookId": "q0421",
+  "id": "gen-1793571294-ONxGkSEESk0s6Ia32Vho",
+  "object": "chat.completion",
+  "created": 1793571294,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"q0421\",\n  \"title\": \"Fevers, Feuds, and Diamonds\",\n  \"author\": \"Paul Farmer\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 653,\n    \"editionId\": \"ASIN:1250800234\",\n    \"editionYear\": \"2020\",\n    \"format\": \"hardcover\",\n    \"language\": \"English\",\n    \"url\": \"https://www.amazon.de/dp/1250800234\",\n    \"evidence\": \"The Amazon product page for the ASIN:1250800234 lists the book as having 704 pages. However, multiple library catalog entries consistently state 653 pages for the first edition.\",\n    \"sourceTitle\": \"Fevers, Feuds, and Diamonds: Ebola and the Ravages of History\",\n    \"sourceAuthor\": \"Paul Farmer\"\n  },\n  \"reference\": {\n    \"count\": 93,\n    \"editionId\": null,\n    \"editionYear\": \"2020\",\n    \"url\": null,\n    \"evidence\": \"Multiple library catalog entries state that the book includes bibliographical references on pages 527-619. This range covers 93 pages.\",\n    \"sourceTitle\": \"Fevers, Feuds, and Diamonds: Ebola and the Ravages of History\",\n    \"sourceAuthor\": \"Paul Farmer\",\n    \"ranges\": [\n      {\n        \"start\": 527,\n        \"end\": 619,\n        \"label\": \"Bibliographical references\",\n        \"evidence\": \"Multiple library catalog entries state: 'Includes bibliographical references (pages 527-619) and index.' [searchworks.stanford.edu], [library.nysoclib.org], [catalog.ocls.org], [catalog.myrichlandlibrary.org], [catalog.nols.org]\"\n      }\n    ],\n    \"method\": \"The reference section page range was explicitly stated in multiple library catalog entries.\",\n    \"limitation\": \"The exact count of references within the specified pages is not provided.\"\n  },\n  \"searchedUrls\": [\n    \"https://www.amazon.de/dp/1250800234\",\n    \"https://searchworks.stanford.edu/view/13835736\",\n    \"http://library.nysoclib.org/record=b1292624\",\n    \"https://catalog.ocls.org/Record/.b23255274\",\n    \"https://catalog.myrichlandlibrary.org/Record/247341\",\n    \"https://catalog.nols.org/Record/844563\"\n  ],\n  \"limitations\": \"The Amazon page lists 704 pages, while library catalogs consistently list 653 pages for the first edition. The exact number of bibliographical references within the cited range is not available.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://searchworks.stanford.edu/view/13835736",
+              "title": "Fevers, feuds, and diamonds : Ebola and the ravages of history",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Fevers, feuds, and diamonds : Ebola and the ravages of history\n\nResponsibility Paul Farmer Edition First edition Publication New York : Farrar, Straus and Giroux, 2020 Copyright notice ©2020 Physical description xxviii, 653 pages, 8 unnumbered pages of plates : illustrations, maps ; 24 cm\n\n## At the library\n\n### Green Library\n\nFind it Stacks\n\n| RC140.5 .F37 2020 | Unknown |\n| --- | --- |\n\n### More options\n\n(Limited preview)\n\n- Find it at other libraries via WorldCat\n\n- Bottom\n- Browse\n- Info\n- Subjects\n- Summary\n- Contributors\n- Top\n\n## Description\n\n### Creators/Contributors\n\nAuthor/Creator Farmer, Paul, 1959-2022 author.\n\n### Contents/Summary\n\nBibliography Includes bibliographical references (pages 527-619) and index Contents\n\n...\n\n### Bibliographic information\n\nPublication date 2020 Copyright date 2020 Title variation Ebola and the ravages of history ISBN 9780374234324 (hardcover) 0374234329 (hardcover)\n\n...\n\n## Browse related items\n\nStart at call number: RC140.5 .F37 2020\n\nView full page\n\nLibrarian view| Catkey: 13835736"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://library.nysoclib.org/record=b1292624",
+              "title": "NYSL Catalog: Search",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "NYSL Catalog: Search\n\n| Author | Farmer, Paul, 1959-2022 |\n| --- | --- |\n| Title | Fevers, feuds, and diamonds : Ebola and the ravages of history / Paul Farmer. |\n| Publication Info. | New York : Farrar, Straus and Giroux, 2020. |\n| | ©2020 |\n\n \n\n| Location | Call No. | Status | Note |\n| --- | --- | --- | --- |\n| Stack 11 | 614.4 F | IN LIBRARY | |\n\n| Edition | First edition. |\n| --- | --- |\n| Description | xxviii, 653 pages, 8 unnumbered pages of plates : illustrations, maps ; 24 cm |\n| Bibliography | Includes bibliographical references (pages 527-619) and index. |\n| Contents | Preface: The caregiver's disease -- Part I: Ebola hits home. The twenty-fifth epidemic? -- Tough calls -- Ibrahim's second chance -- The two ordeals of Yabom -- Interlude I: Down the rabbit hole -- Part II: Fevers, feuds, and diamonds. The upper Guinea coast and the world the slaves made -- The great scramble and the rise of the Pasteurians -- A world at war: The making of a clinical desert -- Things fall apart: Civil war and its aftermath -- Interlude II: The crisis caravan -- Part III: Death and life after Ebola. How Ebola kills: An exercise in social medicine -- The silly things and the fever next time -- Epilogue: The color of COVID. |\n| Subject | Ebola virus disease -- History. |\n| | Epidemics. |\n| | Medical care. |\n| Added Author | New York Society Library. Book Committee. 2021. |\n| Added Title | Ebola and the ravages of history |\n| ISBN | 9780374234324 hardcover |\n| | 0374234329 hardcover |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.ocls.org/Record/.b23255274",
+              "title": "Fevers, feuds, and diamonds : Ebola and the ravages of history / | Orange County Library System",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Fevers, feuds, and diamonds : Ebola and the ravages of history (Book)\n\nAverage Rating\n\nAuthor Farmer, Paul, 1959- \n\nStatus\n\nOn Shelf\n\nOrlando Public Library (Downtown) - Third Floor 614.57 FAR 1 available\n\nAlafaya - Adult 614.57 FAR 1 available\n\nSouth Trail - Adult 614.57 FAR 1 available\n\n## Copies\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| Orlando Public Library (Downtown) - Third Floor | 614.57 FAR | On Shelf |\n| Alafaya - Adult | 614.57 FAR | On Shelf |\n| South Trail - Adult | 614.57 FAR | On Shelf |\n\n...\n\n## More Details\n\nPublished New York : Farrar, Straus and Giroux, 2020.\n\nFormat Book\n\nEdition First edition.\n\nPhysical Desc\n\nxxviii, 653 pages, 8 unnumbered pages of plates : illustrations, maps ; 24 cm\n\nLanguage English\n\nNotes\n\nOther Title Ebola and the ravages of history\n\nBibliography\n\nIncludes bibliographical references (pages 527-619) and index."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.myrichlandlibrary.org/Record/247341",
+              "title": "Fevers, feuds, and diamonds : Ebola and the ravages of history / | Richland Public Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Fevers, feuds, and diamonds : Ebola and the ravages of history (Book)\n\nAverage Rating\n\nAuthor Farmer, Paul, 1959-2022, \n\nStatus\n\nOn Shelf\n\nRPL - Adult Nonfiction 614.57 FARMER 1 available\n\n## Copies\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| RPL - Adult Nonfiction | 614.57 FARMER | Available |\n\n## Other Editions and Formats\n\nBook Show Edition\n\nOn Shelf\n\nRPL - Adult Nonfiction 614.57 FARMER 1 available\n\n...\n\nAvailable Online\n\n...\n\n## More Details\n\nFormat Book\n\nPhysical Desc\n\n xxviii, 653 pages, 8 unnumbered pages of plates : illustrations, maps ; 24 cm\n\nLanguage English\n\n#### Notes\n\nBibliography\n\nIncludes bibliographical references (pages 527-619) and index.\n\nDescription"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.nols.org/Record/844563",
+              "title": "Fevers, feuds, and diamonds : Ebola and the ravages of history / | NOLS",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Fevers, feuds, and diamonds : Ebola and the ravages of history (Book)\n\nAuthor Farmer, Paul, 1959-2022 \n\nPublished New York : Farrar, Straus and Giroux, 2020.\n\nFormat Book\n\nEdition First edition.\n\nStatus\n\nOn Shelf\n\nPort Angeles - Nonfiction (Adult) 614.57 FARMER 1 available\n\n## Copies\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| Port Angeles - Nonfiction (Adult) | 614.57 FARMER | Shelving Cart |\n\n...\n\n## More Details\n\nPhysical Desc\n\nxxviii, 653 pages, 8 unnumbered pages of plates : illustrations, maps ; 24 cm\n\nLanguage English\n\nISBN 9780374234324 (hardcover), 0374234329 (hardcover)\n\nNotes\n\nOther Title Ebola and the ravages of history.\n\nBibliography\n\nIncludes bibliographical references (pages 527-619) and index.\n\nDescription\n\n\"Public health expert Paul Farmer describes the historical origins of the 2014 Ebola epidemic\"-- Provided by publisher."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2293,
+    "completion_tokens": 707,
+    "total_tokens": 3000,
+    "cost": 0.007506979,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005121,
+      "upstream_inference_prompt_cost": 0.0002293,
+      "upstream_inference_completions_cost": 0.0002828
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

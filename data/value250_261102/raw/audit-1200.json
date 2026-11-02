@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575788-8EpNnqcaV7WXwyhVtZAa",
+  "object": "chat.completion",
+  "created": 1793575788,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u1054:amazon:https://www.amazon.com/Four-Hidden-Amazon-Facebook-Google/dp/0735213674\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 4,198 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"g1083:amazon:https://www.amazon.com/Discovery-France-Historical-Geography-Revolution-ebook/dp/B000WJSBCS\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 429 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-277545f61d15:amazon:https://www.amazon.com/Making-Ideas-Happen-Overcoming-Obstacles/dp/159184312X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 639 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-62e8f5497a60:amazon:https://www.amazon.com/Born-this-land-life-story/dp/B07YNZF25Z\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 33 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"progress-0063:amazon:https://www.amazon.com/Magnetic-Mountain-Stalinism-as-Civilization/dp/0520208234\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 88 global ratings is explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3557,
+    "completion_tokens": 434,
+    "total_tokens": 3991,
+    "cost": 0.0002104443,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021257,
+      "upstream_inference_prompt_cost": 0.00017785,
+      "upstream_inference_completions_cost": 0.00003472
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:29:54.073Z"
+}

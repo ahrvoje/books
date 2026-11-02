@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793577375-9sHiJJy13b5qMWO0xtzY",
+  "object": "chat.completion",
+  "created": 1793577375,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"q0660:reference:https://discover.bklynlibrary.org/item?b=12569271\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title matches the book title and author. The reference range is explicitly stated as pages 239-274.\"\n    },\n    {\n      \"key\": \"q0950:reference:https://rutgers.primo.exlibrisgroup.com/discovery/fulldisplay/alma991031360861304646/01RUT_INST:01RUT\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title matches the book title and author. The reference range is explicitly stated as pages 443-504.\"\n    },\n    {\n      \"key\": \"q1082:reference:https://catalog.libraries.psu.edu/catalog/21317430\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title matches the book title and author. The reference range is explicitly stated as pages 243-248.\"\n    },\n    {\n      \"key\": \"bg3898721134:reference:https://catalog.libraries.psu.edu/catalog/24138168\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title matches the book title and author. The reference range is explicitly stated as pages 331-338.\"\n    },\n    {\n      \"key\": \"shelf-1cccb70dd0fe:reference:https://archive.org/details/greenspansbubble0000flec\",\n      \"status\": \"supported\",\n      \"reason\": \"The source title matches the book title and author. The reference range is explicitly stated as pages 189-194.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3056,
+    "completion_tokens": 441,
+    "total_tokens": 3497,
+    "cost": 0.0001861992,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00018808,
+      "upstream_inference_prompt_cost": 0.0001528,
+      "upstream_inference_completions_cost": 0.00003528
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:56:26.788Z"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793574252-a6rAzOOoVhtEndoNL6HE",
+  "object": "chat.completion",
+  "created": 1793574252,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"rem-u1659\",\n  \"title\": \"Food or War\",\n  \"author\": \"Julian Cribb\",\n  \"pages\": null,\n  \"amazon\": {\n    \"count\": 4.4,\n    \"url\": \"https://www.amazon.com/Food-War-Julian-Cribb/dp/1108712908\",\n    \"asin\": \"1108712908\",\n    \"evidence\": \"Global ratings: 4.4 (100+ ratings)\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Food-War-Julian-Cribb/dp/1108712908",
+              "title": "Food or War: Cribb, Julian: 9781108712903 - Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nFood or War: Cribb, Julian: 9781108712903 - Books\nAs a science writer and a grandparent, Julian Cribb is deeply concerned at the existential emergency facing humanity, the mounting scientific evidence for it"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 460,
+    "completion_tokens": 138,
+    "total_tokens": 598,
+    "cost": 0.0010122958,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001242,
+      "upstream_inference_prompt_cost": 0.00000828,
+      "upstream_inference_completions_cost": 0.00000414
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Food or War\" Julian Cribb \"global ratings\"",
+  "bookId": "rem-u1659",
+  "retrieved": "2026-11-01T23:04:22.674Z"
+}

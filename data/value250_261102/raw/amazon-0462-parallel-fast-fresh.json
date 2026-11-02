@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793575654-yvSw75GhxAXP8FD7ZQzq",
+  "object": "chat.completion",
+  "created": 1793575654,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Silent-Deep-Royal-Submarine-Service/dp/0241959489",
+              "title": "The Silent Deep: The Royal Navy Submarine Service ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Silent Deep: The Royal Navy Submarine Service ...\nThe Silent Deep: The Royal Navy Submarine Service Since 1945 [Jinks, James, Hennessy, Peter] on Amazon.com. *FREE* shipping on qualifying offers.\n\n## \n\nThe Silent Deep: The Royal Navy Submarine Service ...\nThe Silent Deep: The Royal Navy Submarine Service Since 1945 ; Print length. 448 pages ; Language. English ; Publisher. Penguin UK ; Publication date. September 1,\n\n## \n\nThe Silent Deep: The Royal Navy Submarine Service ...\nThe Silent Deep is the first authoritative history of the Submarine Service from the end of World War II to the present."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Deep-Robert-Shaw/dp/B001M3ZKJ0",
+              "title": "Watch The Deep | Prime Video",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nWatch The Deep | Prime Video\nA young couple holidaying in Bermuda discover a sunken wreck full of morphine and treasure. Based on Peter Benchley's best selling book. 4.6/5. IMDb 6.3/1019772\n\n## \n\nWatch The Deep | Prime Video\nA young couple holidaying in Bermuda discover a sunken wreck full of morphine and treasure. Based on Peter Benchley's best selling book."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 680,
+    "completion_tokens": 1,
+    "total_tokens": 681,
+    "cost": 0.0010121473,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001227,
+      "upstream_inference_prompt_cost": 0.00001224,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Silent Deep\" Peter Hennessy; James Jinks \"global ratings\"",
+  "bookId": "progress-0756",
+  "retrieved": "2026-11-01T23:27:35.954Z"
+}

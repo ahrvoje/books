@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576264-KrFdmtlNbdpDcX14NPVr",
+  "object": "chat.completion",
+  "created": 1793576264,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u1744:amazon:https://www.amazon.com/How-Invest-David-M-Rubenstein/dp/1982190302\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly stated as '736 global ratings'.\"\n    },\n    {\n      \"key\": \"shelves-autumnheavenly:amazon:https://www.amazon.com/Autumn-Heavenly-Kingdom-China-Taiping/dp/0307271730\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly stated as '413 ratings'.\"\n    },\n    {\n      \"key\": \"shelf-c34574e392ed:amazon:https://www.amazon.com/Slaves-Horses-Crone/dp/0521529409\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly stated as '6 global ratings'.\"\n    },\n    {\n      \"key\": \"shelf-c3192f0ebdf3:amazon:https://www.amazon.com/Self-Made-Creating-Identities-Vinci-Kardashians/dp/1541789016\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly stated as '43 global ratings'.\"\n    },\n    {\n      \"key\": \"n78fd235812:amazon:https://www.amazon.com/Poison-Squad-Chemists-Single-Minded-Twentieth/dp/1594205140\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the number of ratings is explicitly stated as '740 global ratings'.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3637,
+    "completion_tokens": 471,
+    "total_tokens": 4108,
+    "cost": 0.0002173347,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021953,
+      "upstream_inference_prompt_cost": 0.00018185,
+      "upstream_inference_completions_cost": 0.00003768
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:37:54.141Z"
+}

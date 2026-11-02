@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575549-2iwBsn6gx6D2EppxtmTi",
+  "object": "chat.completion",
+  "created": 1793575549,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"intake-0813:amazon:https://www.amazon.com/Professor-Stewarts-Cabinet-Mathematical-Curiosities/dp/0465013023\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 169 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"g0308:amazon:https://www.amazon.com/80-20-Principle-Secret-Achieving/dp/0385491743\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 2,821 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"bgaa4cd74300:amazon:https://www.amazon.com/End-Poverty-Economic-Possibilities-Time/dp/1594200459\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 635 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"progress-0479:amazon:https://www.amazon.com/Infinite-Resource-Power-Finite-Planet/dp/161168255X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 135 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"progress-0702:amazon:https://www.amazon.com/Wedding-Waters-Canal-Making-Nation/dp/0393327957\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 254 global ratings is explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3492,
+    "completion_tokens": 432,
+    "total_tokens": 3924,
+    "cost": 0.0002070684,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020916,
+      "upstream_inference_prompt_cost": 0.0001746,
+      "upstream_inference_completions_cost": 0.00003456
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:25:55.904Z"
+}

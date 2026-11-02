@@ -1,0 +1,97 @@
+{
+  "id": "gen-1793575049-jMunkqF9bOlX2VMuNByn",
+  "object": "chat.completion",
+  "created": 1793575049,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Restricted-Data-History-Nuclear-Secrecy/dp/022602038X",
+              "title": "Restricted Data: The History of Nuclear Secrecy in ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nRestricted Data: The History of Nuclear Secrecy in ...\nThe first full history of US nuclear secrecy, from its origins in the late 1930s to our post–Cold War present. The American atomic bomb was born in secrecy.\n\n## \n\nRestricted Data: The History of Nuclear Secrecy in ...\nAlex Wellerstein is a historian of science and nuclear technology. He is a professor at the Stevens Institute of Technology in Hoboken, New Jersey, and and a\n\n## \n\nRestricted Data: The History of Nuclear Secrecy in the United States ...\nAlex Wellerstein is a historian of science and nuclear technology. He is a professor at the Stevens Institute of Technology scientific secrecy in the USA.\n\n## \n\nRestricted Data: The History of Nuclear Secrecy in ...\nA comprehensive history exploring how the US managed nuclear information secrecy from the 1930s through the Cold War, examining tensions between scientific\n\n## \n\nRestricted Data: The History of Nuclear Secrecy in the United ...\nAlex Wellerstein is a historian of science and nuclear technology. He is a professor at the Stevens Institute of Technology in Hoboken, New Jersey, and and a visiting researcher at the Nuclear Knowledges program, Center for International Studies, Sciences Po, Paris."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Last-5-Years-Richard-LaGravenese/dp/B00UIIYISY",
+              "title": "The Last 5 Years : Richard LaGravenese",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Last 5 Years : Richard LaGravenese\nThe Last Five Years is a musical deconstruction of a love affair and a marriage taking place over a five year period.\n\n## \n\nThe Last 5 Years : Richard LaGravenese\nThe Last Five Years is a musical deconstruction of a love affair and a marriage taking place over a five year period. s 1 Runtime 1 hour and 34 minutes\nThe Last 5 Years : Richard LaGravenese\nThe Last Five Years is a musical deconstruction of a love affair and a marriage taking place over a five year period.\n\n## \n\nThe Last 5 Years : Richard LaGravenese\nThe Last Five Years is a musical deconstruction of a love affair and a marriage taking place over a five year period. Jamie Wellerstein (Jeremy Jordan) is an\n\n## \n\nThe Last 5 Years : Richard LaGravenese - Amazon.com\nThe Last Five Years is a musical deconstruction of a love affair and a marriage taking place over a five year period.\n\n## \n\nThe Last 5 Years : Richard LaGravenese\nProduct information ; Aspect Ratio, ‎2.40:1 ; Studio, ‎Anchor Bay Entertainment ; Release date, ‎May 5, 2015.\n\n## \n\nThe Last 5 Years : Richard LaGravenese: Movies & TV\nThe Last Five Years is a musical deconstruction of a love affair and a marriage taking place over a five year period. Runtime 1 hour and 34 minutes"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Last-Five-Years-Blu-ray/dp/B00UIIYKQ4",
+              "title": "The Last Five Years : Richard LaGravenese - Blu-ray",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Section:  > \nThe Last Five Years : Richard LaGravenese - Blu-ray\nThe Last Five Years is a musical deconstruction of a love affair and a marriage taking place over a five year period. Format Blu-ray, Widescreen The Last Five Years : Richard LaGravenese - Blu-ray\nThe Last Five Years is a musical deconstruction of a love affair and a marriage taking place over a five year period. Jamie Wellerstein (Jeremy Jordan) is an up"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Most-Awful-Responsibility-Struggle-Control/dp/0063379430",
+              "title": "Truman and the Secret Struggle for Control of the Atomic ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nTruman and the Secret Struggle for Control of the Atomic ...\nTruman, the story goes, carefully weighed the pros and cons before deciding that the atomic bomb would be used against Japanese cities, as the lesser of two \n\n## \n\nTruman and the Secret Struggle for Control of the Atomic ...\nDec 9, 2025 — \"The Most Awful Responsibility\" reveals Truman's opposition to atomic weapons and civilian casualties, contrary to historical perception of his stance on"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1335,
+    "completion_tokens": 1,
+    "total_tokens": 1336,
+    "cost": 0.0010238194,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00002406,
+      "upstream_inference_prompt_cost": 0.00002403,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Restricted Data\" Alex Wellerstein \"global ratings\"",
+  "bookId": "shelf-7aa23f8a4330",
+  "retrieved": "2026-11-01T23:17:27.568Z"
+}

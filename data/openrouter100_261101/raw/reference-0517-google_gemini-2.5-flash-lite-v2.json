@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:15:07.403Z",
+  "bookId": "shelf-5b8a45540be0",
+  "id": "gen-1793571303-QUZeEwbOJhFKpIFccuhh",
+  "object": "chat.completion",
+  "created": 1793571303,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-5b8a45540be0\",\n  \"title\": \"A History of America in 100 Maps\",\n  \"author\": \"Susan Schulten\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 272,\n    \"editionId\": null,\n    \"editionYear\": \"2018\",\n    \"format\": \"Book\",\n    \"language\": \"English\",\n    \"url\": null,\n    \"evidence\": \"272 pages : illustrations (some color), maps (some color) ; 29 cm\",\n    \"sourceTitle\": \"A history of America in 100 maps / | Marmot Library Network\",\n    \"sourceAuthor\": \"Schulten, Susan\"\n  },\n  \"reference\": {\n    \"count\": 4,\n    \"editionId\": null,\n    \"editionYear\": \"2018\",\n    \"url\": null,\n    \"evidence\": \"Includes bibliographical references (pages 260-263) and index.\",\n    \"sourceTitle\": \"A history of America in 100 maps / | Marmot Library Network\",\n    \"sourceAuthor\": \"Schulten, Susan\",\n    \"ranges\": [\n      {\n        \"start\": 260,\n        \"end\": 263,\n        \"label\": \"bibliographical references\",\n        \"evidence\": \"Includes bibliographical references (pages 260-263) and index.\"\n      }\n    ],\n    \"method\": \"Explicitly stated page range in catalog record.\",\n    \"limitation\": \"The exact number of references is not provided, only the page range.\"\n  },\n  \"searchedUrls\": [\n    \"https://broomfieldkids.flatironslibrary.org/Record/.b29272865\",\n    \"http://library.nysoclib.org/record=b1282136\",\n    \"https://metro-prod.groveforlibraries.com/Record/CARL0000879959\",\n    \"https://becounty.tdslib.org/Record/364835\",\n    \"https://link.livebrary.com/resource/UM7Z4ZXJYjc\"\n  ],\n  \"limitations\": \"No Amazon data was found. The reference count is inferred from the stated page range.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://broomfieldkids.flatironslibrary.org/Record/.b29272865",
+              "title": "A history of America in 100 maps / | Marmot Library Network",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# A history of America in 100 maps (Book)\n\nAuthor: Schulten, Susan, \n\nPublished: Chicago : The University of Chicago Press, [2018].\n\nFormat: Book\n\nPhysical Desc:\n\n272 pages : illustrations (some color), maps (some color) ; 29 cm\n\nStatus:\n\nChecked Out \n\n| Available Copies | Location | Call Number |\n| --- | --- | --- |\n| 0 of 1 | Loveland Adult Nonfiction | 911.73 Schulten, S. |\n\n## Copies\n\nLocation Call Number Status Last Check-In\n\nLoveland Adult Nonfiction 911.73 Schulten, S. In Transit\n\n...\n\n## Table of Contents\n\n1. Introduction : Seeing the past through maps \n2. 1490-1600 : Contact and discovery \n3. 1600-1700 : Early settlement and the Northwest Passage \n4. 1700-1783 : Imperialism and independence \n5. 1783-1835 : A nation realized \n6. 1835-1874 : Expansion, fragmentation, and reunification \n7. 1874-1914 : Industrialization and its discontents \n8. 1914-1940 : Prosperity, depression, and reform \n9. 1940-1962 : Between war and abundance \n10. 1962-2001 : An unsettled peace \n11. Afterword : The road ahead.\n\n## Subjects\n\nAmerica -- Discovery and exploration -- Maps. America -- Historical geography -- Maps. Illustrated books. United States -- Historical geography -- Maps. \n\nOther Subjects Maps. \n\n## More Details\n\nLanguage: English\n\nISBN: 9780226458618 (hardcover), 022645861X (hardcover)\n\n#### Notes\n\nBibliography\n\nIncludes bibliographical references (pages 260-263) and index.\n\n...\n\nSchulten, S. (2018). A history of America in 100 maps. The University of Chicago Press.\n\n...\n\n### MARC Record\n\n| LEADER | | | 02382cam a2200421 i 4500 |\n| --- | --- | --- | --- |\n| 001 | | | sky292966953 |\n| 003 | | | SKY |\n| 005 | | | 20190815000000.0 |\n| 008 | | | 180307s2018 iluab e b 001 0 eng c |\n| 010 | | | |a 2018011133 |\n| 020 | | | |a 9780226458618 (hardcover) |\n| 020 | | | |a 022645861X (hardcover) |\n| 040 | | | |a ICU/DLC |b eng |e rda |c ICU |d DLC |d SKYRV |d CoBoFLC |\n| 042 | | | |a pcc |\n| 043 | | | |a n-us--- |a n------ |a s------ |\n| 050 | 0 | 0 | |a E179.5 |b .S36 2018 |\n| 082 | 0 | 0 | |a 911/.73 |2 23 |\n| 100 | 1 | | |a Schulten, Susan, |e author. |\n| 245 | 1 | 2 | |a A history of America in 100 maps / |c Susan Schulten. |\n| 246 | 3 | 0 | |a America in 100 maps |\n| 264 | | 1 | |a Chicago : |b The University of Chicago Press, |c [2018] |\n| 300 | | | |a 272 pages : |b illustrations (some color), maps (some color) ; |c 29 cm |\n| 336 | | | |a text |b txt |2 rdacontent |\n| 337 | | | |a unmediated |b n |2 rdamedia |\n| 338 | | | |a volume |b nc |2 rdacarrier |\n| 340 | | | |p illustration |p map |2 rdaill |\n| 504 | | | |a Includes bibliographical references (pages 260-263) and index. |\n| 505 | 0 | | |a Introduction : Seeing the past through maps -- 1490-1600 : Contact and discovery -- 1600-1700 : Early settlement and the Northwest Passage -- 1700-1783 : Imperialism and independence -- 1783-1835 : A nation realized -- 1835-1874 : Expansion, fragmentation, and reunification -- 1874-1914 : Industrialization and its discontents -- 1914-1940 : Prosperity, depression, and reform -- 1940-1962 : Between war and abundance -- 1962-2001 : An unsettled peace -- Afterword : The road ahead. |\n\n...\n\n| 650 | | 0 | |a Illustrated books. |\n| 651 | | 0 | |a United States |x Historical geography |v Maps. |\n| 651 | | 0 | |a America |x Historical geography |v Maps. |\n| 651 | | 0 | |a America |x Discovery and exploration |v Maps. |\n| 655 | | 7 | |a Maps. |2 lcgft |\n| 907 | | | |a .b29272865 |b lv |\n| 945 | | | |y .i44707095 |i 000611044 |l lvnfa |s t |h |u 31 |x 2 |w 6 |v 22 |t 0 |z 190903 |1 10-16-2026 20:02 |r - |o - |a 911.73 Schulten, S."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://library.nysoclib.org/record=b1282136",
+              "title": "NYSL Catalog: Search",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "NYSL Catalog: Search\n\n| Author | Schulten, Susan. |\n| --- | --- |\n| Title | A history of America in 100 maps / Susan Schulten. |\n| Publication Info. | Chicago : University of Chicago Press, 2018 |\n\n \n\n| Location | Call No. | Status | Note |\n| --- | --- | --- | --- |\n| Stack 1 Oversize | 911 S OVERSIZE | IN LIBRARY | |\n\n| Description | 272 pages : illustrations (some color), maps (some color) ; 30 cm |\n| --- | --- |\n| Bibliography | Includes bibliographical references and index. |\n| Subject | United States -- Historical geography -- Maps. |\n| | America -- Historical geography -- Maps. |\n| | America -- Discovery and exploration -- Maps. |\n| Added Title | History of America in one hundred maps |\n| ISBN | 9780226458618 hardcover alkaline paper |\n| | 022645861X hardcover alkaline paper |\n| | 9780226458755 electronic book |\n| | 9780712352178 |\n| | 0712352171 |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://metro-prod.groveforlibraries.com/Record/CARL0000879959",
+              "title": "A history of America in 100 maps / | Metropolitan Library System",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# A history of America in 100 maps (Book)\n\nAverage Rating\n\nAuthor Schulten, Susan \n\nPublished Chicago : University of Chicago Press, ©2018.\n\nFormat Book\n\nPhysical Desc\n\n272 pages : illustrations (some color), maps (some color) ; 30 cm\n\nStatus\n\nOn Shelf\n\nBethany Library - Adult Nonfiction 911.73 SCH3869h 1 available\n\nDowntown Library - Adult Nonfiction 911.73 SCH3869h 1 available\n\nNorthwest Library - Adult Nonfiction 911.73 SCH3869h 1 available\n\nWhere is it?\n\n## Copies\n\n| Location | Call Number | Item | Status |\n| --- | --- | --- | --- |\n| Bethany Library - Adult Nonfiction | 911.73 SCH3869h | M10151133 | On Shelf |\n| Downtown Library - Adult Nonfiction | 911.73 SCH3869h | M10151142 | On Shelf |\n| Northwest Library - Adult Nonfiction | 911.73 SCH3869h | M10151151 | On Shelf |\n\n## More Details\n\nLanguage English\n\nISBN\n\n9780226458618 hardcover, 022645861X hardcover, 9780712352178, 0712352171\n\nNotes\n\nOther Title America in 100 maps\n\nBibliography Includes bibliographical references and index.\n\nAmerica -- Discovery and exploration -- Maps. America -- Historical geography -- Maps. United States -- Historical geography -- Maps."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://becounty.tdslib.org/Record/364835",
+              "title": "A history of America in 100 maps / | Blue Earth County Library System",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# A history of America in 100 maps (Book)\n\nAverage Rating\n\nAuthor Schulten, Susan \n\nPublished Chicago : University of Chicago Press, [2018]\n\nFormat Book\n\nISBN\n\n9780226458618 hardcover, 022645861X hardcover, 9780712352178, 0712352171\n\nPhysical Desc\n\n272 pages : illustrations (some color), maps (some color) ; 30 cm\n\nStatus\n\nAvailable from Another Library See all copies\n\n## Copies\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| Watonwan County Library (St. James) - Adult Nonfiction | 911.73 Schulte | Available |\n\n## More Details\n\nLanguage English\n\nNotes\n\nOther Title History of America in one hundred maps\n\nOther Title America in 100 maps\n\nOther Title America in one hundred maps\n\nBibliography Includes bibliographical references and index."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://link.livebrary.com/resource/UM7Z4ZXJYjc",
+              "title": "Bibliograph",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Bibliograph\n\nType\n\n- http://bibfra.me/vocab/lite/Work\n- http://bibfra.me/vocab/marc/Books\n- http://bibfra.me/vocab/marc/LanguageMaterial\n\nCreator\n\n- Schulten, Susan\n\nGenre\n\nSubject\n\nContent\n\nAuthor\n\n- Schulten, Susan\n\nLabel A history of America in 100 maps, Susan Schulten\n\nLanguage eng\n\nBibliography note Includes bibliographical references and index\n\nIndex index present\n\nLiterary form non fiction\n\nMain title A history of America in 100 maps\n\nNature of contents bibliography\n\nResponsibility statement Susan Schulten\n\nTable of contents\n\nIntroduction : Seeing the past through maps -- 1490-1600 : Contact and discovery -- 1600-1700 : Early settlement and the Northwest Passage -- 1700-1783 : Imperialism and independence -- 1783-1835 : A nation realized -- 1835-1874 : Expansion, fragmentation, and reunification -- 1874-1914 : Industrialization and its discontents -- 1914-1940 : Prosperity, depression, and reform -- 1940-1962 : Between war and abundance -- 1962-2001 : An unsettled peace -- Afterword : The road ahead"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3527,
+    "completion_tokens": 556,
+    "total_tokens": 4083,
+    "cost": 0.007569349,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005751,
+      "upstream_inference_prompt_cost": 0.0003527,
+      "upstream_inference_completions_cost": 0.0002224
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

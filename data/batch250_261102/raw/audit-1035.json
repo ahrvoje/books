@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576274-7XBAWE7G35t7QTxHCGwJ",
+  "object": "chat.completion",
+  "created": 1793576274,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"nfc77919b4c:amazon:https://www.amazon.com/True-Believer-Eric-Hoffer/dp/0060916125\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 116 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"rest-13-12:amazon:https://www.amazon.com/Deep-Utopia-Meaning-Solved-World/dp/1646871642\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 211 global ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"shelf-a92511bd0cde:amazon:https://www.amazon.com/Empire-Liberty-History-Republic-1789-1815/dp/0199832463\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 577 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"g0798:amazon:https://www.amazon.com/Bitcoin-Standard-Decentralized-Alternative-Central-ebook/dp/B07BPM3GZQ\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 8,638 global ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"shelf-eb7fb68d2aec:amazon:https://www.amazon.com/Pleasures-Sorrows-Work-Alain-Botton/dp/037542444X\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 364 ratings explicitly labelled.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3758,
+    "completion_tokens": 427,
+    "total_tokens": 4185,
+    "cost": 0.0002198394,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00022206,
+      "upstream_inference_prompt_cost": 0.0001879,
+      "upstream_inference_completions_cost": 0.00003416
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:38:02.062Z"
+}

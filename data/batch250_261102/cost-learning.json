@@ -1,0 +1,142 @@
+{
+  "recordedCostUSD": 0.8307208986484,
+  "previous250CostUSD": 0.9704432956788004,
+  "costPerAcceptedFieldUSD": 0.0033228835945936,
+  "changeFraction": -0.14397790953119838,
+  "acceptedFields": 250,
+  "cachedFields": 1,
+  "groups": {
+    "individual pilot": {
+      "calls": 20,
+      "costUSD": 0.021257242579999995,
+      "acceptedFields": 8
+    },
+    "audit": {
+      "calls": 51,
+      "costUSD": 0.010660329900000003,
+      "acceptedFields": 0
+    },
+    "paired search": {
+      "calls": 740,
+      "costUSD": 0.7988033261683999,
+      "acceptedFields": 241
+    }
+  },
+  "pilot": {
+    "individual": {
+      "calls": 20,
+      "costUSD": 0.021257242579999995,
+      "verifiedTargetMatches": 7,
+      "verified": [
+        {
+          "id": "rem-u0319",
+          "title": "Destiny Disrupted: A History of the World Through Islamic Eyes",
+          "url": "https://www.amazon.com/Destiny-Disrupted-History-through-Islamic/dp/1586486063",
+          "evidence": "2,127 global ratings"
+        },
+        {
+          "id": "rem-u0811",
+          "title": "The Mystery of Capital: Why Capitalism Triumphs in the West and Fails Everywhere Else",
+          "url": "https://www.amazon.com/Mystery-Capital-Capitalism-Triumphs-Everywhere-ebook/dp/B00CW0MA1S",
+          "evidence": "652 global ratings"
+        },
+        {
+          "id": "rem-u1899",
+          "title": "The Rise And Fall Of Modern Medicine",
+          "url": "https://www.amazon.com/Rise-Fall-Modern-Medicine/dp/0786707321",
+          "evidence": "129 ratings"
+        },
+        {
+          "id": "rem-u1030",
+          "title": "God's Philosophers: How the Medieval World Laid the Foundations of Modern Science",
+          "url": "https://www.amazon.com/Gods-Philosophers-Medieval-Foundations-Science/dp/1848311508",
+          "evidence": "209 global ratings"
+        },
+        {
+          "id": "shelf-e988004538e0",
+          "title": "Management of the Absurd",
+          "url": "https://www.amazon.com/Management-Absurd-Richard-Farson/dp/0684800802/ref=sr_1_1?keywords=management%2Bof%2Bthe%2Babsurd&qid=1570445180&sr=8-1",
+          "evidence": "70 global ratings"
+        },
+        {
+          "id": "shelf-efbb499cbf46",
+          "title": "Watching the English",
+          "url": "https://www.amazon.com/Watching-English-Hidden-Rules-Behavior/dp/185788616X",
+          "evidence": "264 global ratings"
+        },
+        {
+          "id": "rem-u1836",
+          "title": "The Technological Republic: Hard Power, Soft Belief, and the Future of the West",
+          "url": "https://www.amazon.com/Technological-Republic-Power-Belief-Future/dp/0593798694",
+          "evidence": "972 global ratings"
+        }
+      ],
+      "costPerVerifiedTargetUSD": 0.0030367489399999994
+    },
+    "paired": {
+      "calls": 10,
+      "costUSD": 0.0107086381984,
+      "verifiedTargetMatches": 5,
+      "verified": [
+        {
+          "id": "rem-u0319",
+          "title": "Destiny Disrupted: A History of the World Through Islamic Eyes",
+          "url": "https://www.amazon.com/Destiny-Disrupted-History-through-Islamic/dp/1586486063",
+          "evidence": "2,127 global ratings"
+        },
+        {
+          "id": "rem-u0811",
+          "title": "The Mystery of Capital: Why Capitalism Triumphs in the West and Fails Everywhere Else",
+          "url": "https://www.amazon.com/Mystery-Capital-Capitalism-Triumphs-Everywhere-ebook/dp/B00CW0MA1S",
+          "evidence": "652 global ratings"
+        },
+        {
+          "id": "rem-u1899",
+          "title": "The Rise And Fall Of Modern Medicine",
+          "url": "https://www.amazon.com/Rise-Fall-Modern-Medicine/dp/0786707321",
+          "evidence": "129 ratings"
+        },
+        {
+          "id": "rem-u1030",
+          "title": "God's Philosophers: How the Medieval World Laid the Foundations of Modern Science",
+          "url": "https://www.amazon.com/Gods-Philosophers-Medieval-Foundations-Science/dp/1848311508",
+          "evidence": "209 global ratings"
+        },
+        {
+          "id": "rem-u1836",
+          "title": "The Technological Republic: Hard Power, Soft Belief, and the Future of the West",
+          "url": "https://www.amazon.com/Technological-Republic-Power-Belief-Future/dp/0593798694",
+          "evidence": "972 global ratings"
+        }
+      ],
+      "costPerVerifiedTargetUSD": 0.0021417276396800003
+    }
+  },
+  "previouslyAttemptedBooksExcluded": 1954,
+  "distinctPairedBookTargets": 1480,
+  "rateLimitedAuditAttempts": 8,
+  "lessons": [
+    "Pair two title-and-author queries with OR, retaining site:amazon.com and global ratings. This pilot reduced target recall but improved cost per verified target.",
+    "Keep ten search results; remap secondary results to their actual books before acceptance.",
+    "Reuse cached evidence; do not repeat previously attempted books. Persist every bookIds entry from paired calls in future attempt filters.",
+    "Use field-specific audit rules: Kindle is allowed for ratings and print requirements apply only to page counts.",
+    "Avoid overlapping research and audits after observed provider rate limits; use audit concurrency two.",
+    "The pilot is only 20 books. Full-batch cost changes are confounded by different books and cache availability."
+  ],
+  "scope": "Recorded successful OpenRouter response costs, including all searches, pilot and audits; not an invoice.",
+  "confidence": "High for recorded costs and arithmetic; moderate for metadata and generalizing the pilot.",
+  "futureDefaults": {
+    "researchModel": "mistralai/mistral-nemo",
+    "plugin": {
+      "id": "web",
+      "engine": "parallel",
+      "mode": "fast",
+      "max_results": 10
+    },
+    "researchMaxTokens": 1,
+    "booksPerSearch": 2,
+    "auditModel": "mistralai/mistral-small-24b-instruct-2501",
+    "auditMaxTokens": 3000,
+    "auditConcurrency": 2
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "retrieved": "2026-11-01T22:13:43.179Z",
+  "bookId": "rest-2-2",
+  "id": "gen-1793571222-iz6Y1enzIDwBsjjZcFfh",
+  "object": "chat.completion",
+  "created": 1793571222,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"rest-2-2\",\n  \"title\": \"The Logic of Chance\",\n  \"author\": \"Eugene Koonin\",\n  \"amazon\": {\n    \"count\": 10,\n    \"stars\": 4.5,\n    \"asin\": \"0133381064\",\n    \"marketplace\": \"amazon.com\",\n    \"url\": \"https://www.amazon.com/Logic-Chance-Biological-Evolution-paperback/dp/0133381064\",\n    \"evidence\": \"10 global ratings\",\n    \"sourceTitle\": \"Logic of Chance, The: The Nature and Origin of Biological ...\",\n    \"sourceAuthor\": \"Eugene Koonin\"\n  },\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Logic-Chance-Biological-Evolution-paperback/dp/0133381064\"\n  ],\n  \"limitations\": \"No page count or reference information found for this specific edition on Amazon.com. The provided search results did not contain explicit page counts or reference section details for the book by Eugene Koonin.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Logic-Chance-Biological-Evolution-paperback/dp/0133381064",
+              "title": "Logic of Chance, The: The Nature and Origin of Biological ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nLogic of Chance, The: The Nature and Origin of Biological ...\nThe Logic of Chance offers a reappraisal and a new synthesis of theories, concepts, and hypotheses on the key aspects of the evolution of life on earth in"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Art-Logic-Sense-World-Doesnt/dp/1788160398",
+              "title": "The Art of Logic: How to Make Sense in a World that Doesn't",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Art of Logic: How to Make Sense in a World that Doesn't\nIn The Art of Logic, Royal Society Science Book Prize nominee Eugenia Cheng shows how anyone can think like a mathematician - and see, argue and think better.\n\n## \n\nThe Art of Logic: How to Make Sense in a World that Doesn't\nEugenia Cheng teaches us how to find clarity without losing nuance, taking a careful scalpel to the complexities of politics, privilege, sexism and dozens of\n\n## \n\nThe Art of Logic: How to Make Sense in a World that Doesn't\nFor thousands of years, mathematicians have used the timeless art of logic to see the world more clearly. In The Art of Logic, Royal Society Science Book Prize nominee Eugenia Cheng shows how anyone can think like a mathematician - and see, argue and think better. Learn how to simplify complex decisions without over-simplifying them. Discover the power of analogies and the dangers of false"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 916,
+    "completion_tokens": 278,
+    "total_tokens": 1194,
+    "cost": 0.005200772,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002028,
+      "upstream_inference_prompt_cost": 0.0000916,
+      "upstream_inference_completions_cost": 0.0001112
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

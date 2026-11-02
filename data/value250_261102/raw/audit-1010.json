@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575549-suvsXwlKuViYtJS4tGMm",
+  "object": "chat.completion",
+  "created": 1793575549,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g0594:amazon:https://www.amazon.com/Love-Physics-Rainbow-Journey-Through/dp/145160713X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1652:amazon:https://www.amazon.com/Shadows-Forgotten-Ancestors-Carl-Sagan/dp/0345384725\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"shelf-e1c174f0c7b0:amazon:https://www.amazon.com/Lady-Tasting-Tea-Statistics-Revolutionized/dp/0805071342\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"shelf-3af7c7070249:amazon:https://www.amazon.com/Everything-Its-Place-Mise-En-Place-Organize/dp/1635650119\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"shelf-2b2b69258295:amazon:https://www.amazon.com/Organized-Mind-Thinking-Straight-Information/dp/052595418X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3564,
+    "completion_tokens": 438,
+    "total_tokens": 4002,
+    "cost": 0.0002111076,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021324,
+      "upstream_inference_prompt_cost": 0.0001782,
+      "upstream_inference_completions_cost": 0.00003504
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:25:55.998Z"
+}

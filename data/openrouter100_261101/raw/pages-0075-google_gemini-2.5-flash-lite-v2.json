@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:38.257Z",
+  "bookId": "shelf-6157e356e87f",
+  "id": "gen-1793571216-cWtc0CBbz14wWCiIz5RY",
+  "object": "chat.completion",
+  "created": 1793571216,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-6157e356e87f\",\n  \"title\": \"The Call of Character\",\n  \"author\": \"Mari Ruti\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 224,\n    \"editionId\": null,\n    \"editionYear\": 2013,\n    \"format\": \"Hardcover\",\n    \"language\": \"English\",\n    \"url\": \"https://cup.columbia.edu/book/the-call-of-character/9780231164085/\",\n    \"evidence\": \"224 Pages\",\n    \"sourceTitle\": \"The Call of Character | Columbia University Press\",\n    \"sourceAuthor\": \"Mari Ruti\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://cup.columbia.edu/book/the-call-of-character/9780231164085/\",\n    \"https://cupola.columbia.edu/978-0-231-16408-5/\",\n    \"https://academic.oup.com/columbia-scholarship-online/book/18888\",\n    \"https://www.amazon.com/Call-Character-Living-Life-Worth/dp/0231164084\",\n    \"https://cup.columbia.edu/book/the-call-of-character/9780231536196/\"\n  ],\n  \"limitations\": \"No specific paperback page count was found, but the hardcover edition has 224 pages. The ASIN provided on Amazon is the same as the ISBN-10, suggesting it might not be a distinct edition for page count purposes.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://cup.columbia.edu/book/the-call-of-character/9780231164085/",
+              "title": "The Call of Character | Columbia University Press",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Call of Character | Columbia University Press\n\nThe Call of Character\n\nLiving a Life Worth Living\n\n Mari Ruti \n\nColumbia University Press\n\nPub Date: December 2013\n\n224 Pages\n\nFormat: Hardcover\n\n List Price: $30.00£25.00 \n\nPub Date: December 2013\n\n224 Pages\n\nFormat: E-book\n\n List Price: $29.99£25.00 \n\n# The Call of Character\n\nLiving a Life Worth Living\n\n Mari Ruti \n\nColumbia University Press"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://cupola.columbia.edu/978-0-231-16408-5/",
+              "title": "The Call of Character: Living a Life Worth Living",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Call of Character: Living a Life Worth Living \n\n Mari Ruti\n\n 2013 (224 pages )\n\n## Available PDF Downloads\n\n Complete Book Download (pages 1-217) \n\n Front Matter (pages 1-10)\n...\nThe Call of Character: Living a Life Worth Living \n\n Author(s): Ruti,"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://academic.oup.com/columbia-scholarship-online/book/18888",
+              "title": "The Call of Character: Living a Life Worth Living",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Call of Character: Living a Life Worth Living | Columbia Scholarship Online | Oxford Academic\n\n \n\n# The Call of Character: Living a Life Worth Living \n\nPublisher: Columbia University Press\n\n Book \n\n \n\n# The Call of Character: Living a Life Worth Living \n\nMari Ruti\n\n Mari Ruti \n\nUniversity of Toronto, St. George Campus\n\n Oxford Academic \n\n Google Scholar \n\nPublished:\n\n3 December 2013\n\nPrint ISBN: 9780231164085\n\nPublisher: Columbia University Press"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Call-Character-Living-Life-Worth/dp/0231164084",
+              "title": "The Call of Character: Living a Life Worth Living",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The Call of Character: Living a Life Worth Living\nBrand: Mari Ruti\nCategory: Movements > Humanism\n\n## Specifications\nPublisher: Columbia University Press; Publication date: December 3, 2013; Language: English; Print length: 224 pages; ISBN-10: 0231164084\n\n...\n\n## Details\nUPC: 0231164084\n\n...\n\nASIN: 0231164084"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://cup.columbia.edu/book/the-call-of-character/9780231536196/",
+              "title": "The Call of Character | Columbia University Press",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Call of Character | Columbia University Press\n\nThe Call of Character\n\nLiving a Life Worth Living\n\n Mari Ruti \n\nColumbia University Press\n\nPub Date: December 2013\n\n224 Pages\n\nFormat: Hardcover\n\n List Price: $30.00£25.00 \n\nPub Date: December 2013\n\n224 Pages\n\nFormat: E-book\n\n List Price: $29.99£25.00 \n\n# The Call of Character\n\nLiving a Life Worth Living\n\n Mari Ruti \n\nColumbia University Press"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1273,
+    "completion_tokens": 425,
+    "total_tokens": 1698,
+    "cost": 0.007294327,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002973,
+      "upstream_inference_prompt_cost": 0.0001273,
+      "upstream_inference_completions_cost": 0.00017
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

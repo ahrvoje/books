@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:12:08.933Z",
+  "bookId": "shelf-6643b5d2ae39",
+  "id": "gen-1793571129-xM6COuEzrKZRMvuKYy5W",
+  "object": "chat.completion",
+  "created": 1793571129,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-6643b5d2ae39\",\n  \"title\": \"The Ageless Gergel\",\n  \"author\": \"Max G. Gergel\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 218,\n    \"editionId\": null,\n    \"editionYear\": 1983,\n    \"format\": \"Hardcover\",\n    \"language\": \"English\",\n    \"url\": \"https://www.goodreads.com/book/show/24821522-the-ageless-gergel\",\n    \"evidence\": \"218 pages, Hardcover\",\n    \"sourceTitle\": \"The Ageless Gergel by Max G. Gergel | Goodreads\",\n    \"sourceAuthor\": \"Max G. Gergel\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.goodreads.com/book/show/24821522-the-ageless-gergel\",\n    \"https://www.amazon.com/The-Ageless-Gergel/dp/B001P4ILWO\",\n    \"https://z-library.co/book/16684948\",\n    \"https://www.science.org/content/blog-post/max-gergel-s-second-odd-book\",\n    \"https://docslib.org/doc/4951452/the-ageless-gergel\"\n  ],\n  \"limitations\": \"The search results provided a page count of 218 for a hardcover edition. No specific ISBN or publisher information was directly available for this edition. Another source mentioned 219 pages for a 1983 edition, but did not specify format or language. The requested format was paperback, but the available page count is for hardcover.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.goodreads.com/book/show/24821522-the-ageless-gergel",
+              "title": "The Ageless Gergel by Max G. Gergel | Goodreads",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Ageless Gergel by Max G. Gergel | Goodreads\n\n# The Ageless Gergel\n\nMax G. Gergel\n\n8 ratings 1 review\n\n218 pages, Hardcover\n\nFirst published January 1, 1983\n\n### About the author\n\n#### Max G. Gergel\n\n4 books 1 follower"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/The-Ageless-Gergel/dp/B001P4ILWO",
+              "title": "The Ageless Gergel",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The Ageless Gergel\nBrand: Max G. Gergel\n\n## Specifications\nPublisher: Max Gergel\n\n## Pricing & Reviews\nRated 5 from 2 reviews.\n\n## Description\n1 HARDCOVER BOOK(no dust cover)\n\nASIN: B001P4ILWO"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://z-library.co/book/16684948",
+              "title": "The Ageless Gergel | Z-Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Ageless Gergel | Z-Library\n\n \n\n# The Ageless Gergel \n\n Gergel Max G. \n\n 4.0 / 5.0 0 comments\n\n 1983. – 219 p. Further tales of chemistry and travel from raconteur Max Gergel. Well worth reading if you enjoyed Excuse Me Sir, Would You Like to Buy a Kilo of Isopropyl Bromide? \n\n Year: 2022 \n\n Language: english"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.science.org/content/blog-post/max-gergel-s-second-odd-book",
+              "title": "Max Gergel's Second Odd Book | Science | AAAS",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Max Gergel's Second Odd Book\n\n- 22 Feb 2012\n- 12:36 PM ET\n- By Derek Lowe\n- 2 min read\n\n...\n\nI mentioned the fearsome memoirs of Max Gergel here, but not many people know that he wrote another volume. \"The Ageless Gergel\", out of print for who knows how long, is available here in PDF form."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://docslib.org/doc/4951452/the-ageless-gergel",
+              "title": "The Ageless Gergel - DocsLib",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# The Ageless Gergel\n\n...\n\nAUTHOR'S PREFACE I started this book in 1979 as a sequel to my first book, Excuse Me Sir, Would You Like to Buy a Kilo of lsopropyl Bromide which was printed by Pierce Chemical Co. and edited by my dear friend Roy Oliver, more because they liked me than with any thought of profit. I had written it within a year but spent four years correcting it and writing my third book, The Early Gergel. A group of my friends encouraged me to print the book myself and I aw indebted to Mr. Hiram Allen, President, Fairfield Chemical Co., Inc., Dr. Alfred Bader, Chairman, Aldrich Sigma, Dr. Roden Bridgwater, Maybridge Chemical Co., Pat Foster, PM Publishing Co., Jim Hardwicke, Hardwicke Chemical Co., Dr. James King, Army Chemical Center, Mr. Kermrt King, attorney at law, Dr. Ed Trueger, Trueger Chemical Co., Dr. Ed Tyczkowski, Armageddon Chemical Co., Mr. Joel Udell, Pyramid Chemical Co., Mr. George Yassmine, Marco Chemical Co., and Fred Zucker, Fluka U.S.A., for financially helping underwrite the book and giving me their encouragement. ... These stories have benefited from their editing. I would like to thank my dear friend Elmer Fike of Fike Chemicals for helping me find Ron Gregory, who could translate the Iliad; John Auge, who did my illustrations; and Bookmasters of Ashland, Ohio and BookCrafters of Chelsea, Michigan, who actually put our work into a finished book."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1389,
+    "completion_tokens": 440,
+    "total_tokens": 1829,
+    "cost": 0.007311751,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003149,
+      "upstream_inference_prompt_cost": 0.0001389,
+      "upstream_inference_completions_cost": 0.000176
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

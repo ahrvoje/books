@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572612-YHTuLSBoonqpNZxC8yZY",
+  "object": "chat.completion",
+  "created": 1793572612,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-a14231679de8\",\n  \"title\": \"A History of Great Inventions\",\n  \"author\": \"James Dyson\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 1,\n    \"url\": \"https://libraries.gateshead.gov.uk/items?offset=0&query=subject%3A%28Inventions+History%29\",\n    \"evidence\": \"A history of great inventions\",\n    \"ranges\": [\n      {\n        \"start\": 187,\n        \"end\": 188,\n        \"label\": \"bibliographical references\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://calderdale.spydus.co.uk/cgi-bin/spydus.exe/ENQ/OPAC/BIBENQ?BRN=156588&SETLVL=",
+              "title": "James Dyson's history of great inventions | Calderdale Libraries - Library Catalogue",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "James Dyson's history of great inventions | Calderdale Libraries - Library Catalogue\n\n# James Dyson's history of great inventions\n\nDyson, James 2001\n\nBook\n\nTotal copies: 1\n\nAvailable: 1\n\nAvailability by location\n\n## Summary\n\nThis journey through the history of invention, under the guidance of inventor and manufacturer James Dyson, reveals the myriad stories of inventions and inventors that have shaped civilisation.\n\n## Record details\n\nMain title: James Dyson's history of great inventions\n\nAuthor: Dyson, James Uhlig, Robert\n\nWork: James Dyson's history of great inventions\n\nImprint: Constable, 2001.\n\nCollation: 188p : ill. (some col.) ; 300x230mm : 1155gm.\n\nNotes: Includes index.\n\nISBN: 1841193410 (hbk)\n\nDewey class: 609\n\nLC class: T15\n\nLanguage: English\n\nSubject: Inventions -- History INVENTIONS.History.Technology\n\nBRN: 156588"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://data.linkeddatafragments.org/loc?subject=http%3A%2F%2Flccn.loc.gov%2F2002327995",
+              "title": "Library of Congress |",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Library of Congress | \n\n- subject http://lccn.loc.gov/2002327995\n- predicate\n- object\n\n### Matches in Library of Congress for { ?p ?o. }\n\n- 2002327995 alternative\" History of great inventions\". \n- 2002327995 contributor B9310111. \n- 2002327995 contributor B9310112. \n- 2002327995 created\" c2001.\". \n- 2002327995 date\" 2001\". \n- 2002327995 date\" c2001.\". \n- 2002327995 dateCopyrighted\" c2001.\". \n- 2002327995 description\" Includes index.\". \n- 2002327995 extent\" 188 p. :\". \n- 2002327995 identifier\" 1841193410\". \n- 2002327995 issued\" 2001\". \n- 2002327995 issued\" c2001.\". \n- 2002327995 language\" eng\". \n- 2002327995 publisher\" London : Constable,\". \n- 2002327995 subject\" 609 21\". \n- 2002327995 subject\" Inventions History.\". \n- 2002327995 subject\" T15 .D97 2001\". \n- 2002327995 title\" History of great inventions\". \n- 2002327995 title\" James Dyson's history of great inventions / edited by Robert Uhlig.\". \n- 2002327995 type\" text\"."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://ctlgs.org/c/books/edition/203359/a-history-of-great-inventions/",
+              "title": "A History of Great Inventions (Hardback, 2001) - ctlgs",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "A History of Great Inventions (Hardback, 2001) - ctlgs\n\n# A History of Great Inventions\n\n| Format | Hardback |\n| --- | --- |\n| Language | English |\n| This Edition Published | 2001 |\n\n| Author | James Dyson |\n| --- | --- |\n| Imprint | Carroll & Graf Publishers, Inc. |\n| Publisher | Avalon Publishing Group |\n| Copyright Holder | Telegraph Group Ltd |\n| Editor | Robert Uhlig |\n| Art Director/Editor | Margaret Donegan |\n| Photo/Picture Editor | Suzanne Hodgart, Claire Patterson |\n| Sub-Editor | Bill Owen |\n| Production | Roger Williams |\n| Contributor | Robert Uhlig |\n| Consultant | James Dyson |\n| Format | Hardback |\n| Language | English |\n| Location | EU |\n| This Edition Published | 2001 |\n| Copyright | 2001 |\n| ISBN | 0-7867-0903-0 |\n| Barcode | 9 780786 709038 |\n| EAN 5 | 50000 |\n| Chapters | Contents Introduction: Man‘s need to invent 2 // The human drive to create and improve Chapter 1: 2.6 million BC to AD1 6 // The first spark of genius 8 // How technology made civilisation possible Chapter 2: AD1 to 1649 36 // Looking at new horizons 38 // Spreading knowledge and shrinking the globe Chapter 3: 1650 to 1829 66 // The age of industrial power 68 // Harnessing steam brings a new way of life Chapter 4: 1830 to 1899 96 // Electricity on the move 98 // The story of light, sound and motion Chapter 5: 1900 to 1944 126 // Journey into the atomic age 128 // Two world wars force the pace of change Chapter 5: 1945 to 2000 156 // Reinventing the world 158 // Living with the chip and the gene 186 // Index Contents Introduction: Man‘s need to invent 2 // The human drive to create and improve Chapter 1: 2.6 million BC to AD1 6 // The first spark of genius 8 // How technology made civilisation possible Chapter 2: AD1 to 1649 36 // Looking at new horizons 38 // Spreading knowledge and shrinking the globe Chapter 3: 1650 to 1829 66 // The age of industrial power 68 // Harnessing steam brings a new way of life Chapter 4: 1830 to 1899 96 // Electricity on the move 98 // The story of light, sound and motion Chapter 5: 1900 to 1944 126 // Journey into the atomic age 128 // Two world wars force the pace of change Chapter 5: 1945 to 2000 156 // Reinventing the world 158 // Living with the chip and the gene 186 // Index Show all ▾ |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://books.google.com/books/about/James_Dyson_s_History_of_Great_Invention.html?id=MmcoAQAACAAJ",
+              "title": "James Dyson's History of Great Inventions",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# James Dyson's History of Great Inventions\n\nJames Dyson Constable, 2001 - Science - 188 pages\n\nThis compelling journey through the history of invention, under the guidance of inventor and manufacturer extraordinaire James Dyson, reveals the myriad stories of inventions and inventors that have shaped civilisation. Packed with colour illustrations, the book examines a host of lesser known as well as more famous discoveries, ranging from early Persian ice cream to the invention of the microchip and the extraordinary advances in animal cloning. Discover how: * Roman dentists developed rope-powered drills * Women's corsets led to the invention of the modern umbrella * The hovercraft emerged from an empty cat-food tin * And how the internet really came about With unique insights into the processes of invention and additional expert contributions, Dyson's History of Great Inventions is certain to fascinate and inspire in equal measure.\n\n### Bibliographic information\n\n| Title | James Dyson's History of Great Inventions |\n| --- | --- |\n| Author | James Dyson |\n| Editor | Robert Uhlig |\n| Edition | illustrated |\n| Publisher | Constable, 2001 |\n| ISBN | 1841193410, 9781841193410 |\n| Length | 188 pages |\n| Subjects | Science › General Science / General Technology & Engineering / General Technology & Engineering / Inventions |\n| Export Citation | BiBTeX EndNote RefMan |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://libraries.gateshead.gov.uk/items?offset=0&query=subject%3A%28Inventions+History%29",
+              "title": "Gateshead Libraries Catalogue",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Search results for subject:(Inventions History)\n\n...\n\nCatalogue Search for \"subject:(Inventions History)\"\n\n## Results 1 - 10 of 23\n\nSorted by Relevance\n\n- Next >\n- 3\n- 2\n- 1\n\n## A history of great inventions\n\nBook. English.\n\nPublished London: Constable, 2001\n\nThis compelling journey through the history of invention, under the guidance of inventor and manufacturer extraordinaire James Dyson, reveals the myriad..."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2466,
+    "completion_tokens": 158,
+    "total_tokens": 2624,
+    "cost": 0.0071345806,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00013594,
+      "upstream_inference_prompt_cost": 0.0001233,
+      "upstream_inference_completions_cost": 0.00001264
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "shelf-a14231679de8",
+  "retrieved": "2026-11-01T22:36:53.446Z"
+}

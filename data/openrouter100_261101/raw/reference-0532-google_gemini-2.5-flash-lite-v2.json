@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:15:23.889Z",
+  "bookId": "progress-0597",
+  "id": "gen-1793571320-d1ejUFoXqzrKL3JxL7og",
+  "object": "chat.completion",
+  "created": 1793571320,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"progress-0597\",\n  \"title\": \"Core Memory\",\n  \"author\": \"John Alderman; Mark Richards\",\n  \"knownEdition\": {\n    \"id\": \"OL8003125M\",\n    \"url\": \"https://openlibrary.org/books/OL8003125M\",\n    \"pages\": 160\n  },\n  \"purchaseUrl\": \"https://www.amazon.de/s?k=Core%20Memory%20John%20Alderman%3B%20Mark%20Richards\",\n  \"reference\": {\n    \"count\": null,\n    \"editionId\": null,\n    \"editionYear\": null,\n    \"url\": null,\n    \"evidence\": \"The Computer History Museum catalog entry states: 'Includes bibliographical references and index.' The Taipei Municipal University of Education Library catalog entry also states: 'Includes bibliographical references and index'. The Internet Archive entry for the book also states: 'Includes bibliographical references and index'.\",\n    \"sourceTitle\": \"Core memory : a visual survey of vintage computers featuring machines from The Computer History Museum\",\n    \"sourceAuthor\": \"Mark Richards\",\n    \"ranges\": [],\n    \"method\": \"The presence of bibliographical references is explicitly stated in multiple catalog entries.\",\n    \"limitation\": \"The exact page range for the bibliographical references is not provided in the available catalog information.\"\n  },\n  \"searchedUrls\": [\n    \"https://www.computerhistory.org/collections/catalog/102701028\",\n    \"https://library.utaipei.edu.tw/webpac/bookDetail.do?id=48476\",\n    \"https://archive.org/details/corememoryvisual0000rich\",\n    \"https://www.scribd.com/document/1001810986/Core-Memory-A-Visual-Survey-Of-Vintage-Computers-1st-John-Alderman-Full-Chapters-Included\",\n    \"https://search.library.wisc.edu/catalog/9913153199302121\"\n  ],\n  \"limitations\": \"Page count for the reference section was not explicitly found. The provided page count of 160 for the known edition is from Open Library and not directly confirmed by the catalog entries for the reference section. The Taipei Municipal University of Education Library catalog entry lists 135 pages for the book, while the Computer History Museum catalog entry lists 160 pages. The Internet Archive entry states '1 volume (unpaged)' which is contradictory and likely refers to the main content and not the reference section.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.computerhistory.org/collections/catalog/102701028",
+              "title": "Core memory : a visual survey of vintage computers featuring machines from The Computer History Museum - 102701028 - CHM",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Core memory : a visual survey of vintage computers featuring machines from The Computer History Museum - 102701028 - CHM\n\n# Core memory : a visual survey of vintage computers featuring machines from The Computer History Museum\n\nSigned by the author. Includes bibliographical references and index.\n\n## Item Details\n\nDate\n: 2007 (Made)\nType\n: Document\nCatalogue number\n: 102701028\nOther identifying number\n: 9780811854429 (ISBN) 0811854426 (ISBN) 2006023314 (Library of Congress Catalog Number) QA76.17 .R52 2007 (Library of Congress Catalog Number)\nOrganization\n: Chronicle Books (Publisher)\nPeople\n: Richards, Mark (Author)\nCategory\n: Book\nCredit line\n: Gift of FIC\nExtent\n: 160 p.\nPlace of publication\n: North America/USA/CA/San Francisco\nLanguage\n: English\nAcquisition number\n: X3682.2007\nSubject\n: Computers--History"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://library.utaipei.edu.tw/webpac/bookDetail.do?id=48476",
+              "title": "臺北市立大學圖書館",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "臺北市立大學圖書館 \n\n Check-outs : \n\n### Core memory : a visual survey of vintage computers featuring machines from the computer history museum /\n\n- Hits： 306\n- Ratings： 0\n- Reviews： 0\n- Citations： 0\n- Forwards： 0\n\n| 001 | 48476 |\n| --- | --- |\n\n| 003 | ChTaNC |\n| --- | --- |\n\n| 008 | | 071228s2007 xxua e b 001 0 engxd |\n| --- | --- | --- |\n| 015 | | |a2006023314 |\n| 020 | | |a0811854426 |\n| 020 | | |a9780811854429 |\n| 035 | | |a2006023314 |\n| 040 | | |aTMUE|beng|cTMUE|dTMUE |\n| 050 | 14 | |aQA76.17|bR52 2007 |\n| 082 | 04 | |a004|222 |\n| 082 | 04 | |a004 |\n| 100 | 1 | |aRichardsMark|d1955 Feb. 22 |\n| 245 | 10 | |aCore memory : |ba visual survey of vintage computers featuring machines from the computer history museum / |cphotographs by Mark Richards ; text by John Alderman ; foreword by Dag Spicer |\n| 260 | | |aSan Francisco : |bChronicle Books, |cc2007 |\n| 300 | | |a135 p : |bcol. ill ; |c24 x 29 cm |\n| 504 | | |aIncludes bibliographical references and index |\n| 650 | 0 | |aComputers|xHistory |\n| 650 | 0 | |aElectronic data processing|xHistory |\n| 700 | 1 | |aAlderman John |\n\n \n\n| 2011©臺北市立大學圖書館 博愛校區：10048 臺北市中正區愛國西路1號 TEL:02-23113040 流通服務#2141 參考諮詢#2142 E-mail：library@utaipei.edu.tw 天母校區：11153 臺北市士林區忠誠路二段101號 TEL：02-28718288 流通櫃台#1111 參考諮詢#1104 E-mail：lib@utaipei.edu.tw 本系統由凌網科技股份有限公司建置 |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/corememoryvisual0000rich",
+              "title": "Core memory : a visual survey of vintage computers featuring machines from the computer history museum : Richards, Mark, 1955 February 22- : Free Download, Borrow, and Streaming : Internet Archive",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Core memory : a visual survey of vintage computers featuring machines from the computer history museum \n\nby\n: Richards, Mark, 1955 February 22-\n\nPublication date\n: 2007 \nTopics\n: Electronic data processing -- History, Computers -- History, Electronic data processing, Computers, Geschiedenis (vorm), Computer\nPublisher\n: San Francisco : Chronicle Books\nCollection\n: internetarchivebooks; inlibrary; printdisabled\nContributor\n: Internet Archive\nLanguage\n: English\nItem Size\n: 368.7M \n\n1 volume (unpaged) : 24 x 29 cm Core Memory is a guided tour through some of the most notable and curious devices in the history of computing. Featuring important and eccentric machines spanning more than five decades, this book brings the inspired design of pioneering computer scientists into sharp focus. Mark Richards' lovingly detailed images reveal the sometimes surprising marks of human effort (such as a console equipped with its own ashtray) in a technology that is often thought of as clinical and futuristic, as well as presenting a capsule visual history of modern computing. Each entry also includes text by acclaimed writer John Alderman, detailing the characteristics of each machine and providing an overview of its historical importance and points of scientific interest. Core Memory profiles 35 machines from the collection of the Computer History Museum in Mountain View, California, in the heart of Silicon Valley -- the largest assemblage of vintage technology in the world. - Jacket flap Includes bibliographical references and index Z3 Adder (Reconstruction) -- ENIAC (Electronic Numerical Integrator and Computer) -- UNIVAC I -- Wisconsin Integrally Synchronized Computer (WISC) -- JOHNNIAC -- Core memory -- SAGE (Semi-Automatic Ground Environment) -- NEAC 2203 -- Autonetics Minuteman I Guidance Computer -- Philco 212 -- IBM System/360 (and IBM Model 7030 \"STRETCH\") -- Apollo Guidance Computer -- DEC PDP-8 -- DDP-116 -- Control Data Corp. CDC 6600 -- Interface Message Processor (IMP) -- Kitchen Computer (H316 Pedestal) -- Kenbak-1 -- HP-35 -- SuperPaint -- Altair 8800 Microcomputer System -- Burroughs ILLIAC IV -- Cray-1 -- Cray-2 -- Cray-3 -- Apple II -- TRS-80 Model 1 (And Model 100) -- Minitel -- Osborne 1 -- Commodore 64 -- Compaq Portable -- Macintosh -- Google First Production Server \n\nNo suitable files to display here."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.scribd.com/document/1001810986/Core-Memory-A-Visual-Survey-Of-Vintage-Computers-1st-John-Alderman-Full-Chapters-Included",
+              "title": "Core Memory A Visual Survey of Vintage Computers 1st John ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "encourages users to engage with the material for research and learning, while clarifying that it does not claim ownership of the content. It also acknowledges the contributions of various individuals in"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://search.library.wisc.edu/catalog/9913153199302121",
+              "title": "Birthing the computer : from relays to vacuum tubes - Catalog - UW-Madison Libraries",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Details \n\nCreator\n\nby Stephen H. Kaisler\n\nFormat\n\nBooks\n\n Language \n\nEnglish\n\nPublication\n\n- 1st ed \n- Newcastle upon Tyne, England : Cambridge Scholars Publishing, 2016 \n- ©2016 \n\nPhysical Details\n\n- 1 online resource (376 pages) : illustrations\n\nISBNs"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2452,
+    "completion_tokens": 619,
+    "total_tokens": 3071,
+    "cost": 0.007487872,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004928,
+      "upstream_inference_prompt_cost": 0.0002452,
+      "upstream_inference_completions_cost": 0.0002476
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

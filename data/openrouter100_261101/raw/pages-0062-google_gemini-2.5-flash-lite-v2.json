@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:23.520Z",
+  "bookId": "shelf-eacae140a078",
+  "id": "gen-1793571202-p4UzLbQK2l59wMMzmGEa",
+  "object": "chat.completion",
+  "created": 1793571202,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-eacae140a078\",\n  \"title\": \"Never Let a Good Crisis go to Waste\",\n  \"author\": \"Philip Mirowski\",\n  \"knownEdition\": null,\n  \"purchaseUrl\": \"https://www.amazon.de/s?k=Never%20Let%20a%20Good%20Crisis%20go%20to%20Waste%20Philip%20Mirowski%20paperback\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 466,\n    \"editionId\": null,\n    \"editionYear\": 2013,\n    \"format\": \"paperback\",\n    \"language\": \"English\",\n    \"url\": \"https://www.counterfire.org/article/never-let-a-serious-crisis-go-to-waste/\",\n    \"evidence\": \"Philip Mirowski, Never Let a Good Crisis Go to Waste: How neoliberalism survived the financial meltdown (Verso 2013), 466pp.\",\n    \"sourceTitle\": \"Never Let a Serious Crisis Go to Waste | Counterfire\",\n    \"sourceAuthor\": \"Neil Faulkner\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.counterfire.org/article/never-let-a-serious-crisis-go-to-waste/\",\n    \"https://edwardbetts.com/monograph/Mont_Pelerin_Society\",\n    \"http://et.worldeconomicsassociation.org/files/WEA-ET-6-1.pdf\",\n    \"https://www.berghahnbooks.com/downloads/OpenAccess/HannIndustrial/9781785336799_OA.pdf\",\n    \"https://dokumen.pub/the-continuing-imperialism-of-free-trade-developments-trends-and-the-role-of-supranational-agents-9780203732809-9781138301085.html\"\n  ],\n  \"limitations\": \"The provided search results do not contain information about the ISBN or publisher for the specified edition. The title in the search results is \\\"Never Let a Serious Crisis Go to Waste\\\", which is a slight variation from the requested title \\\"Never Let a Good Crisis go to Waste\\\". However, the author and the context strongly suggest it is the same book.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.counterfire.org/article/never-let-a-serious-crisis-go-to-waste/",
+              "title": "Never Let a Serious Crisis Go to Waste | Counterfire",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Never Let a Serious Crisis Go to Waste | Counterfire\n\n# Never Let a Serious Crisis Go to Waste \n\nAuthor\n: Neil Faulkner \nDate\n: 31 October 2013\nType\n: Review\nShare button\n: Facebook Share button Twitter Share button \n\n \n\n## Neoclassical economics is a discipline that is hollow at the core, finds Neil Faulkner, reviewing Philip Mirowski’s important demolition of neoliberal dogmas\n\n#### Philip Mirowski, Never Let a Good Crisis Go to Waste: How neoliberalism survived the financial meltdown (Verso 2013), 466pp."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://edwardbetts.com/monograph/Mont_Pelerin_Society",
+              "title": "Books: Mont Pelerin Society - Edward Betts",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Mont Pelerin Society\n\n Never Let a Serious Crisis Go to Waste: How Neoliberalism Survived the Financial Meltdown by Philip Mirowski\n\n...\n\nThe most trenchant critic of this work, on whose research my analysis relies in particular, is the economic historian and theorist Philip Mirowski, whose Never Let a Serious Crisis Go to Waste (2014) remains the single most comprehensive account of what he calls the Neoliberal Thought Collective and the nearly identical Mont Pelerin Society (MPS), of which Hayek was the founding president. Mirowski, along with some of his colleagues, has explained with particular cogency how Hayek and others disseminated neoliberal doctrine."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://et.worldeconomicsassociation.org/files/WEA-ET-6-1.pdf",
+              "title": "Volume 6, Issue 1, 2017 - Economic Thought",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "### The Signature of Risk: Agent-based Models, Boolean Networks and Economic Vulnerability\n...\nanalysis is easily convertible into an apologia for existing economic arrangements and it is \nfrequently so converted"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.berghahnbooks.com/downloads/OpenAccess/HannIndustrial/9781785336799_OA.pdf",
+              "title": "Industrial Labor on the Margins of Capitalism",
+              "start_index": 0,
+              "end_index": 0,
+              "content": ") \nobserves, “mature neo-liberalism is not at all enamored of the minimalist\n...\nin neo \nliberalism signals the role that the\n...\nof the two \nkinds of worker. \nThat raises the question of whether—and under what circumstances— \nthis differentiation"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://dokumen.pub/the-continuing-imperialism-of-free-trade-developments-trends-and-the-role-of-supranational-agents-9780203732809-9781138301085.html",
+              "title": "The Continuing Imperialism of Free Trade: Developments, ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "International Relations, Universidad Alberto Hurtado, Chile. Contributors ix Dr Adam Burns University of Leicester Adam Burns is Senior Lecturer in History ... University of Wolverhampton. His ﬁrst book, American Imperialism: The Territorial Expansion of"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 573,
+    "total_tokens": 1763,
+    "cost": 0.007344718,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003482,
+      "upstream_inference_prompt_cost": 0.000119,
+      "upstream_inference_completions_cost": 0.0002292
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

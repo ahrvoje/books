@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575233-3DVetr8XsaODq5bSJw4w",
+  "object": "chat.completion",
+  "created": 1793575233,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-c8b51cff095c:amazon:https://www.amazon.com/Emotional-Brain-Mysterious-Underpinnings-Life/dp/0684836599\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 340 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"intake-0584:amazon:https://www.amazon.com/Just-Fun-Story-Accidental-Revolutionary/dp/0066620732\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and authors match exactly. The evidence of 413 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"intake-0746:amazon:https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783\",\n      \"status\": \"reject\",\n      \"reason\": \"The evidence of 294 ratings is not explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"bg6f76a21b88:amazon:https://www.amazon.com/War-Peace-Rise-Fall-Empires/dp/0452288193\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 469 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"intake-0320:amazon:https://www.amazon.com/Light-Ages-Surprising-Medieval-Science/dp/0393868400\",\n      \"status\": \"reject\",\n      \"reason\": \"The evidence of 543 ratings is not explicitly labelled as global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3262,
+    "completion_tokens": 433,
+    "total_tokens": 3695,
+    "cost": 0.0001957626,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019774,
+      "upstream_inference_prompt_cost": 0.0001631,
+      "upstream_inference_completions_cost": 0.00003464
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:20:40.502Z"
+}

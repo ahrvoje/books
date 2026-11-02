@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "key": "rem-u0737:amazon:https://www.amazon.com/Second-Sex-Simone-Beauvoir/dp/030727778X",
+      "status": "reject",
+      "reason": "The author field includes translators, not just the main author."
+    },
+    {
+      "key": "rem-u0365:amazon:https://www.amazon.com/1001-Inventions-Civilization-Companion-Exhibition/dp/1426209347",
+      "status": "supported",
+      "reason": "The author and title match exactly, and the rating evidence is explicit and numeric."
+    },
+    {
+      "key": "shelf-ff94c80e1294:amazon:https://www.amazon.com/Poking-Dead-Frog-Conversations-Writers/dp/0143123785",
+      "status": "supported",
+      "reason": "The author and title match exactly, and the rating evidence is explicit and numeric."
+    },
+    {
+      "key": "q1037:amazon:https://www.amazon.com/1619-Project-American-Origin-Story/dp/0753559536",
+      "status": "reject",
+      "reason": "The author field includes additional contributors, not just the main author."
+    },
+    {
+      "key": "bge455f2ec20:amazon:https://www.amazon.com/Change-edu-Rebooting-New-Talent-Economy/dp/1609788990",
+      "status": "supported",
+      "reason": "The author and title match exactly, and the rating evidence is explicit and numeric."
+    }
+  ]
+}

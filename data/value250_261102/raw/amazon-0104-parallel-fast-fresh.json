@@ -1,0 +1,87 @@
+{
+  "id": "gen-1793575539-f957JEBIxUQj4Z0D42AF",
+  "object": "chat.completion",
+  "created": 1793575539,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Living-Data-Citizens-Better-Information/dp/1250849152",
+              "title": "Living in Data: 9781250849151: Thorp, Jer: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Living in Data: 9781250849151: Thorp, Jer: Books\nIn Living in Data, Thorp asks a crucial question for our time: How do we stop passively inhabiting data, and instead become active citizens of it? Threading a"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Living-Data-Citizens-Better-Information/dp/0374189900",
+              "title": "Living in Data: A Citizen's Guide to a Better Information ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nLiving in Data: A Citizen's Guide to a Better Information ...\nJer Thorp is an artist, writer and teacher living in New York City. He is best known for designing the algorithm to place the nearly 3,000 names on the 9/11\n\n## \n\nLiving in Data: A Citizen's Guide to a Better Information ...\nTo live in data in the twenty-first century is to be incessantly extracted from, classified and categorized, statisti-fied, sold, and surveilled. Data―our data―"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Jer-Thorp/e/B08DWPMTMS",
+              "title": "Jer Thorp: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nJer Thorp: books, biography, latest update\nJer Thorp is an artist, writer and teacher living in New York City. He is best known for designing the algorithm to place the nearly 3,000 names on the 9/11\n\n## \n\nJer Thorp: books, biography, latest update\nJer is one of the world's foremost data artists, and is a leading voice for the ethical use of big data. Jer's data-inspired artwork has been shown around the"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 777,
+    "completion_tokens": 1,
+    "total_tokens": 778,
+    "cost": 0.00101387584,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000014016,
+      "upstream_inference_prompt_cost": 0.000013986,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Living in Data\" Jer Thorp \"global ratings\"",
+  "bookId": "complete-445-321",
+  "retrieved": "2026-11-01T23:25:40.345Z"
+}

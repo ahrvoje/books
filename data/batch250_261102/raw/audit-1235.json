@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576284-gqPHhQHEeNZDvbgafxJE",
+  "object": "chat.completion",
+  "created": 1793576284,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u0691:amazon:https://www.amazon.com/Return-Pulitzer-Prize-Winner-Fathers/dp/0812985087\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and numeric.\"\n    },\n    {\n      \"key\": \"intake-0833:amazon:https://www.amazon.com/Where-Mathematics-Comes-Embodied-Brings/dp/0465037704\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and numeric.\"\n    },\n    {\n      \"key\": \"intake-0093:amazon:https://www.amazon.com/Secret-History-Mongol-Queens-Daughters/dp/0307407152\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and numeric.\"\n    },\n    {\n      \"key\": \"resume-215-32:amazon:https://www.amazon.com/Wabi-Sabi-Japanese-Art-Impermanence/dp/0804834822\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and numeric.\"\n    },\n    {\n      \"key\": \"rem-u0946:amazon:https://www.amazon.com/Black-Hawk-Down-Story-Modern/dp/0140288503\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and numeric.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3694,
+    "completion_tokens": 414,
+    "total_tokens": 4108,
+    "cost": 0.0002156418,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021782,
+      "upstream_inference_prompt_cost": 0.0001847,
+      "upstream_inference_completions_cost": 0.00003312
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:38:10.139Z"
+}

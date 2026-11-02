@@ -1,0 +1,60 @@
+{
+  "id": "gen-1793573171-zcISELKfdXrdgytZB3cG",
+  "object": "chat.completion",
+  "created": 1793573171,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"intake-0904\",\n  \"title\": \"Directions in Physics\",\n  \"author\": \"Paul A. M. Dirac\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 530,\n    \"url\": \"http://koha.unza.zm:4480/bib/126004\",\n    \"evidence\": \"University of Zambia Library catalog\",\n    \"ranges\": [\n      {\n        \"start\": 1,\n        \"end\": 530,\n        \"label\": \"bibliographical references\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "http://koha.unza.zm:4480/bib/126004",
+              "title": "Details for Directions in physics : › University of Zambia Library catalog",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Details for Directions in physics : › University of Zambia Library catalog\n\n \n\n# Directions in physics : lectures delivered during a visit to Australia and New Zealand August/September 1975 / P. A. M. Dirac ; edited by H. Hora and J. R. Shepanski ; with a foreword by Sir Mark Oliphant. \n\nBy: \n\n- Dirac, P. A. M. (Paul Adrien Maurice), 1902- Dirac, P. A. M. (Paul Adrien Maurice), 1902-, Dirac, P. A. M. (Paul Adrien Maurice), 1902-\n\nMaterial type: Text Publication details: New York : Wiley, c1978.\n\nISBN: \n\n- 0471029971\n\n- Physics\n\n- 530\n\n- QC71 .D55\n\nNo physical items for this record\n\n \"A Wiley-Interscience publication.\" \n\n \"Lectures delivered during a visit to Australia and New Zealand.\" \n\n Includes bibliographical references and index. \n\nThere are no comments on this title."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 618,
+    "completion_tokens": 143,
+    "total_tokens": 761,
+    "cost": 0.00701525986,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000015414,
+      "upstream_inference_prompt_cost": 0.000011124,
+      "upstream_inference_completions_cost": 0.00000429
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "intake-0904",
+  "retrieved": "2026-11-01T22:46:23.623Z"
+}

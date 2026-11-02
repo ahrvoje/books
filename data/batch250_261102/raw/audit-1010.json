@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576254-HsucvZHzl9175NSKmbt9",
+  "object": "chat.completion",
+  "created": 1793576254,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"intake-0554:amazon:https://www.amazon.com/Secret-Barrister-Stories-Law-Broken/dp/1509841105\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"bg6f27165f6e:amazon:https://www.amazon.com/Piece-Action-Middle-Class-Joined/dp/0684804352\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"progress-0762:amazon:https://www.amazon.com/Valley-Boy-Education-Tom-Perkins/dp/1592404030\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"g1196:amazon:https://www.amazon.com/One-Up-Wall-Street-Already/dp/0743200403\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    },\n    {\n      \"key\": \"shelf-2ffbda6371ab:amazon:https://www.amazon.com/Program-Be-Programmed-Commands-Digital/dp/159376426X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a numeric rating count.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3588,
+    "completion_tokens": 402,
+    "total_tokens": 3990,
+    "cost": 0.0002094444,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021156,
+      "upstream_inference_prompt_cost": 0.0001794,
+      "upstream_inference_completions_cost": 0.00003216
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:37:41.768Z"
+}

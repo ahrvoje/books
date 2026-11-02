@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575742-IKIVPE17DuKaKB8jGHPQ",
+  "object": "chat.completion",
+  "created": 1793575742,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g1288:amazon:https://www.amazon.com/Spy-Among-Friends-Philby-Betrayal/dp/0804136653\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 12,575 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"bg3690a5c67f:amazon:https://www.amazon.com/Common-Sense-Mutual-Funds-Anniversary/dp/0470138130\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 584 ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"progress-0018:amazon:https://www.amazon.com/Plastic-Toxic-Story-Susan-Freinkel/dp/054715240X\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 252 global ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"rem-u1050:amazon:https://www.amazon.com/Ingenious-Pursuits-Building-Scientific-Revolution/dp/0385720017\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 48 global ratings explicitly labelled.\"\n    },\n    {\n      \"key\": \"g1236:amazon:https://www.amazon.com/Winning-Losers-Game-Strategies-Successful-ebook/dp/B08NTX7N4Q\",\n      \"status\": \"reject\",\n      \"reason\": \"The source text is for a Kindle edition, not a print edition. The source text does not specify a print edition.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3659,
+    "completion_tokens": 419,
+    "total_tokens": 4078,
+    "cost": 0.0002143053,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021647,
+      "upstream_inference_prompt_cost": 0.00018295,
+      "upstream_inference_completions_cost": 0.00003352
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:29:08.732Z"
+}

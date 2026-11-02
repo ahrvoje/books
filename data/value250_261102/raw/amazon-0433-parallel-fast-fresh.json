@@ -1,0 +1,107 @@
+{
+  "id": "gen-1793575644-7ONFHyrOZE4vY7UL8g7R",
+  "object": "chat.completion",
+  "created": 1793575644,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Many-Worlds-One-Search-Universes/dp/0809095238",
+              "title": "Many Worlds in One: The Search for Other Universes: Vilenkin, Alex: 9780809095230: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "e 27, 2006\n\nby Alex Vilenkin (Author)\n4.3 4.3 out of 5 stars (97)\nSorry, there was a problem loading this page\n\n...\n\nAlex Vilenkin’s own scientific work has been closely tied to the emergence of the new worldview, from the original ideas to the most recent developments.\n\n...\n\n\"Alex Vilenkin mines the subtlest phenomena shaping the cosmos to derive the grandest consequences.\n\n...\n\n\"Alex Vilenkin's MANY WORLDS IN ONE is one of the best science books I have ever read. Not only is Vilenkin one of the great pioneers in the subject of modern cosmology, but also he is exceptionally clear, wonderfully witty, and frequently full of wisdom.\" —\n\n...\n\n\"Can it really be that our Universe is just one of many? Alex Vilenkin is your amiable, but authoritative and completely serious guide to this audacious idea at the frontier of cosmological science.\n\n...\n\nInstitute of Cosmology. He also holds the L. and J. Bernstein Chair in Evolutionary Science.\n\nCustomer reviews\n\n4.3 out of 5 stars\n4.3 out of 5\n97 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 59% 27% 8% 2% 4% 59%\n* 5 star 4 star 3 star 2 star 1 star 4 star 59% 27% 8% 2% 4% 27%\n* 5 star 4 star 3 star 2 star 1 star 3 star 59% 27% 8% 2% 4% 8%\n\n...\n\n2% 4% 4%\nHow customer reviews and ratings work\n\nCustomers say\n\nCustomers find the book extremely readable and well-written, with detailed explanations that make it easy for everyone to understand."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Many-Worlds-One-Search-Universes/dp/0809067226",
+              "title": "Many Worlds in One: The Search for Other Universes - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nMany Worlds in One: The Search for Other Universes - Amazon.com\nWith engaging, well-paced storytelling, a droll sense of humor, and a generous sprinkling of helpful cartoons, he conjures up a bizarre and fascinating new\n\n## \n\nMany Worlds in One: The Search for Other Universes\nCosmologist Alex Vilenkin explains his groundbreaking ideas on eternal cosmic inflation and the quantum creation of the universe from nothing, exploring the"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/A-Vilenkin/e/B000APFM2G/ref=dp_byline_cont_book_1",
+              "title": "A. Vilenkin: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nA. Vilenkin: books, biography, latest update\nAlex Vilenkin is best known for his theories of eternal cosmic inflation, creation of the universe from nothing, and for his groundbreaking work on cosmic"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Calculus-N-Vilenkin-Pure-Mathematics/s?rh=n%3A13905%2Cp_27%3AN.%2BVilenkin",
+              "title": "N. Vilenkin - Calculus / Pure Mathematics: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nN. Vilenkin - Calculus / Pure Mathematics: Books\nOnline shopping from a great selection at Books Store. Calculus / Pure Mathematics: Calculus Format Hardcover Kindle Edition"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Russian-school-Mathematics/s?k=Russian%20school%20of%20Mathematics",
+              "title": "Russian School Of Mathematics",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nRussian School Of Mathematics\nExplore Russian mathematics competition prep books featuring Olympiad problems, detailed solutions, and expert insights for all levels."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1252,
+    "completion_tokens": 1,
+    "total_tokens": 1253,
+    "cost": 0.00102234034,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000022566,
+      "upstream_inference_prompt_cost": 0.000022536,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Many Worlds in One\" Alex Vilenkin \"global ratings\"",
+  "bookId": "n4f90c642b5",
+  "retrieved": "2026-11-01T23:27:25.752Z"
+}

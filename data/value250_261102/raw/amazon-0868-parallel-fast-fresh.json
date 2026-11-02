@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793575768-MPgNa15CqQTGruEhlJUt",
+  "object": "chat.completion",
+  "created": 1793575768,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Everything-Token-NFTs-Transform-Create/dp/0593545109",
+              "title": "The Everything Token: How NFTs and Web3 Will Transform the Way We Buy, Sell, and Create: Kaczynski, Steve, Kominers, Scott Duke: 9780593545102: Amazon.com: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "* The Everything Token: How NFTs and Web3 Will Transform the Way We Buy, Sell, and Create\n* To view this video download Flash Player\n* IMAGES\n* \nRead sample\nLoading Play\nPause Audible sample\n\nFollow the authors\n\nSteve Kaczynski\nSteve Kaczynski Steve Kaczynski\nFollow\nScott Duke Kominers\nScott Duke Kominers Scott Duke Kominers\nFollow\nSomething went wrong. Please try your request again later.\nOK\n\nThe Everything Token: How NFTs and Web3 Will Transform the Way We Buy, Sell, and Create Hardcover – January 23, 2024\n\nby Steve Kaczynski (Author), Scott Duke Kominers (Author)\n4.4 4.4 out of 5 stars 94 ratings\nSorry, there was a problem loadin\n\n...\n\nSteve Kaczynski has more than fifteen years of experience as a communications and marketing professional, including stints in leadership at Progressive Insurance and Nestlé.\nScott Duke Kominers is the Sarofim-Rock Professor of Business Administration at Harvard Business School and a partner at a16z crypto. He co-leads Harvard's Crypto, Fintech, and Web3 Lab.\nBoth advise entrepreneurs and established companies on NFTs, Web3, and marketplace design, and are avid NFT\n\n...\n\nSteve Kaczynski (@NFTbark) is a tech entrepreneur, consultant, and commentator who coauthored the first Harvard Business Review article abou\n\n...\n\n94 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 68% 14% 9% 8% 1% 68%\n* 5 star 4 star 3 star 2 star 1 star 4 star 68% 14% 9% 8% 1% 14%"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B0CTD3YT5J",
+              "title": "Amazon.com: Scott Duke Kominers: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Visit Scott Duke Kominers Store on Amazon\n1. Scott Duke Kominers\n* Home\n* About\n* All Books\n* More\n\nScott Duke Kominers\n\nAbout the author\n\nScott Duke Kominers is the Sarofim-Rock Professor of Business Administration at Harvard Business School, a Faculty Affiliate of the Harvard Department of Economics, and a Research Partner at a16z crypto. He co-leads Harvard's Crypto, Fintech, and Web3 Lab.\nRead full bio\n\nMost popular\n\nThe Everything Token: How NFTs and Web3 Will Transform the Way We Buy, Sell, and Create\n4.4 out of 5 stars\n97\n4.4 out of 5 stars. 97 customer reviews.\nKindle Edition\n$ 4 .\n\n...\n\nThe Everything Token: How NFTs and Web3 Will Transform the Way We Buy, Sell, and Create\n\n4.4 4.4 out of 5 stars 97\nCarousel slide 1\nby Steve Kaczynski et al.\nA Harvard Business School professor and a16z crypto research partner and a career marketer and Web3 entrepreneur demystify the coming digital revolution, showing how NFTs will transform our online and offline interactions.\nNFTs aren’t just pictures on the internet, or a fad that has come and gone.\n\n...\n\nKominers and Kaczynski have created a framework that explains what NFTs are, why they’re valuable, and how businesses can leverage them to build highly engaged and intensely loyal communities around their products and brands.\nThrough original research and industry experience, Kominers and Kaczynski describe the possibilities of this new digital frontier with clarity and rigor."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1262,
+    "completion_tokens": 1,
+    "total_tokens": 1263,
+    "cost": 0.00102251854,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000022746,
+      "upstream_inference_prompt_cost": 0.000022716,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Everything Token\" Steve Kaczynski and Scott Duke Kominers \"global ratings\"",
+  "bookId": "shelf-fe4f785f7fa8",
+  "retrieved": "2026-11-01T23:29:29.365Z"
+}

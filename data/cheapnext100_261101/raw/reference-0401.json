@@ -1,0 +1,60 @@
+{
+  "id": "gen-1793573153-TWEsCYHh0huftojiYrKP",
+  "object": "chat.completion",
+  "created": 1793573153,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"g0422\",\n  \"title\": \"Chaos Monkeys\",\n  \"author\": \"Antonio García Martínez\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 303,\n    \"url\": \"https://lbbd.library.link/resource/GeFfVMzMknA\",\n    \"evidence\": \"Bibliography note Includes bibliographical references and index\",\n    \"ranges\": [\n      {\n        \"start\": 1,\n        \"end\": 303,\n        \"label\": \"Bibliographical references\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://lbbd.library.link/resource/GeFfVMzMknA",
+              "title": "Bibliograph",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Bibliograph\n\n# London Borough of Barking and Dagenham Council Libraries\n\nChaos monkeys, inside the Silicon Valley money machine, Antonio García Martínez\n\nType\n\n- http://bibfra.me/vocab/lite/Work\n- http://bibfra.me/vocab/marc/Books\n- http://bibfra.me/vocab/marc/LanguageMaterial\n\n### Link Analysis\n\n- 303.483\n\n- Martínez, Antonio García\n\nGenre\n\nSubject\n\nAuthor\n\n- Martínez, Antonio García\n\nLabel\n\nChaos monkeys, inside the Silicon Valley money machine, Antonio García Martínez\n\nLanguage eng\n\nBibliography note Includes bibliographical references and index\n\nIndex index present\n\nLiterary form non fiction\n\nMain title Chaos monkeys\n\nNature of contents bibliography\n\nResponsibility statement Antonio García Martínez\n\nSub title inside the Silicon Valley money machine\n\nSummary\n\nAn adrenaline-fuelled exposé of life inside the tech bubble, 'Chaos Monkeys' lays bare the secrets, power plays and lifestyle excesses of the visionaries, grunts, sociopaths, opportunists and money cowboys who are revolutionising our world\n\n### Incoming Resources\n\n- Has instance 1\n\n- Chaos monkeys, inside the Silicon Valley money machine, Antonio García Martínez - (pbk.)"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 615,
+    "completion_tokens": 139,
+    "total_tokens": 754,
+    "cost": 0.0070150876,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00001524,
+      "upstream_inference_prompt_cost": 0.00001107,
+      "upstream_inference_completions_cost": 0.00000417
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "g0422",
+  "retrieved": "2026-11-01T22:46:06.832Z"
+}

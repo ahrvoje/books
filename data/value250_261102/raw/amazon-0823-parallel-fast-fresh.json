@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793575755-cTfuDxDCIrtNT15bJQAa",
+  "object": "chat.completion",
+  "created": 1793575755,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Indiscrete-Thoughts-Gian-Carlo-Rota/dp/0817638660",
+              "title": "Indiscrete Thoughts - Fabrizio Palombi Gian-Carlo Rota",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nIndiscrete Thoughts - Fabrizio Palombi Gian-Carlo Rota\nA mathematician's candid perspective on science and technology from 1950-1990, featuring controversial portraits of notable scientists and debunking academic"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Gian-Carlo-Rota/s?rh=n%3A283155%2Cp_27%3AGian-Carlo%2BRota",
+              "title": "Gian-Carlo Rota: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nGian-Carlo Rota: Books\nBulletin of the American Mathematical Society, Volume 76: January to december, 1970 by )q Bulletin of the American Mathematical Society (Journal); Rota, Gian-"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 569,
+    "completion_tokens": 1,
+    "total_tokens": 570,
+    "cost": 0.00101016928,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000010272,
+      "upstream_inference_prompt_cost": 0.000010242,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Indiscrete Thoughts\" Gian-Carlo Rota \"global ratings\"",
+  "bookId": "shelf-e2ccb0c9a8c3",
+  "retrieved": "2026-11-01T23:29:16.455Z"
+}

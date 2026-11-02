@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:12:12.470Z",
+  "bookId": "shelf-e4aad7c54f0d",
+  "id": "gen-1793571132-PNMpS6q6fx5oTFO64pjY",
+  "object": "chat.completion",
+  "created": 1793571132,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-e4aad7c54f0d\",\n  \"title\": \"A Study of History\",\n  \"author\": \"Arnold J. Toynbee\",\n  \"knownEdition\": null,\n  \"purchaseUrl\": \"https://www.amazon.de/s?k=A%20Study%20of%20History%20Arnold%20J.%20Toynbee%20paperback\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 576,\n    \"editionId\": \"9780500250518\",\n    \"editionYear\": 1976,\n    \"format\": \"Paperback\",\n    \"language\": \"English\",\n    \"url\": \"https://bookscouter.com/book/9780500250518-a-study-of-history\",\n    \"evidence\": \"Released: Jun 21, 1976 Publisher: THAMES HUDSON LTD Format: Paperback, 576 pages\",\n    \"sourceTitle\": \"9780500250518: A Study of History | BookScouter.com\",\n    \"sourceAuthor\": \"BookScouter.com\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://bookscouter.com/book/9780500250518-a-study-of-history\",\n    \"https://apps.lib.byu.edu/marcrecord/bib/569853\",\n    \"https://archive.org/details/studyofhistory0000toyn\",\n    \"https://www.find-book.co.uk/book/A-Study-of-History/0500275394.htm\",\n    \"https://en.wikipedia.org/wiki/A_Study_of_History\"\n  ],\n  \"limitations\": \"The search results provided multiple page counts for different editions and abridgements of \\\"A Study of History\\\". The most consistently cited page count for an abridged paperback edition is 576 pages. However, the original 12-volume work is noted to have approximately 7,000 pages plus indices. The specific edition details (year, publisher) vary across sources, making it difficult to pinpoint a single definitive edition without further clarification.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://bookscouter.com/book/9780500250518-a-study-of-history",
+              "title": "9780500250518: A Study of History | BookScouter.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "9780500250518: A Study of History | BookScouter.com\n\n# A Study of History\n\n(10)\n\nISBN-10: \n\n## 0500250510\n\nISBN-13: \n\n## 9780500250518\n\nAuthor(s): Arnold Joseph Toynbee\n\nEdition: Abridged Ed\n\nReleased: Jun 21, 1976 Publisher: THAMES HUDSON LTD Format: Paperback, 576 pages"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://apps.lib.byu.edu/marcrecord/bib/569853",
+              "title": "apps.lib.byu.edu",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Leader *****cam*a22********4500\n001 ## a569853\n003 ## SIRSI\n005 ## 20070723173436.0\n008 ## 730130s1972 enkabch b 001 0 eng\n015 ## $a B72-25619\n020 ## $a 0192152548\n035 ## $a (NRN)ACW9009\n $b (BFL)\n035 ## $a Reclass\n035 ## $a MARS\n035 ## $a (OCoLC)ocn368272086\n040 ## $d UtOrBLW\n050 0# $a CB63\n $b .T6433\n079 ## $a ocm00594991\n082 0# $a 909\n090 ## $a 901\n $b T668s\n100 1# $a Toynbee, Arnold,\n $d 1889-1975.\n245 12 $a A study of history\n $c [by] Arnold Toynbee.\n250 ## $a New ed.;\n $b revised and abridged by the author and Jane Caplan.\n260 ## $a London :\n $b Oxford University Press; Thames and Hudson,\n $c 1972.\n300 ## $a 576 p.\n $b illus. (some col.), facsims., maps, ports. (some col.)\n $c 30 cm.\n336 ## $a text\n $2 rdacontent\n337 ## $a unmediated\n $2 rdamedia\n338 ## $a volume\n $2 rdacarrier\n500 ## $a First ed. published in 12 vols., 1934-1961.\n504 ## $a Includes bibliographical references."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://archive.org/details/studyofhistory0000toyn",
+              "title": "A study of history",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "A study of history : Toynbee, Arnold Joseph, 1889-1975 : Free Download, Borrow, and Streaming : Internet Archive\n\n# A study of history \n\nby\n: Toynbee, Arnold Joseph, 1889-1975\n\nPublication date\n: 1972 \nTopics\n: Civilization, History -- Philosophy\nPublisher\n: New York : Oxford University Press; distributed in the United States by American Heritage Press\nCollection\n: trent_university; internetarchivebooks; inlibrary; printdisabled\nContributor\n: Internet Archive\nLanguage\n: English\nItem Size\n: 3.2G \n\n576 p. : 30 cm Includes bibliographical references \n\n## Notes\n\nsome text too tight, inherent from the book cut off text due to tight binding skewed pages"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.find-book.co.uk/book/A-Study-of-History/0500275394.htm",
+              "title": "A Study of History: A Book by Arnold Toynbee",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "A Study of History: A Book by Arnold Toynbee \n\n# A Study of History Book\n\nfrom£30.70 | RRP: £18.95 * Excludes Voucher Code Discount Also available Used from £29.54\n\n- ISBN 0500275394\n- ISBN-13 9780500275399\n- Authors Arnold Toynbee\n- Published 13 March 1989\n- Publisher Thames & Hudson Ltd\n- Binding Paperback (Book)\n- Number of Pages 576\n- Edition New ed of Abridged ed\n- Format"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://en.wikipedia.org/wiki/A_Study_of_History",
+              "title": "A Study of History",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "| Cover of D. C. Somervell's abridgement of A Study of History | |\n| --- | --- |\n| Author | Arnold J. Toynbee |\n| Language | English |\n| Subject | World history |\n| Published | 1934–1961 |\n| Publication place | United Kingdom |\n| OCLC | 16276526 |\n\nA Study of History is a 12-volume universal history by the British historian Arnold J. Toynbee, published from 1934 to 1961.\n\n...\n\n## Titles of the volumes\n\nThe 12-volume work contains more than 3 million words and about 7,000 pages, plus 412 pages of indices. [2] \n\n- Publication of A Study of History [3] \n\n- Vol I: Introduction: The Geneses of Civilizations, part one (Oxford University Press, 1934)\n- Vol II: The Geneses of Civilizations, part two (Oxford University Press, 1934)\n- Vol III: The Growths of Civilizations (Oxford University Press, 1934)\n- Vol IV: The Breakdowns of Civilizations (Oxford University Press, 1939)\n- Vol V: The Disintegrations of Civilizations, part one (Oxford University Press, 1939)\n- Vol VI: The Disintegrations of Civilizations, part two (Oxford University Press, 1939)\n- Vol VII: Universal States; Universal Churches (Oxford University Press, 1954) [as two volumes in paperback]\n- Vol VIII: Heroic Ages; Contacts between Civilizations in Space (Encounters between Contemporaries) (Oxford University Press, 1954)\n- Vol IX: Contacts between Civilizations in Time (Renaissances); Law and Freedom in History; The Prospects of the Western Civilization (Oxford University Press, 1954)\n- Vol X: The Inspirations of Historians; A Note on Chronology (Oxford University Press, 1954)\n- Vol XI: Historical Atlas and Gazetteer (Oxford University Press, 1959)\n- Vol XII: Reconsiderations (Oxford University Press, 1961)\n- Abridgements by D. C. Somervell: \n\n- A Study of History: Abridgement of Vols I–VI, with a preface by Toynbee (Oxford University Press, 1946) [4] \n- A Study of History: Abridgement of Vols VII–X (Oxford University Press, 1957)\n- A Study of History: Abridgement of Vols I–X in One Volume, with new preface by Toynbee & new tables (Oxford Univ. Press, 1960)\n- Abridgement by the author and Jane Caplan: \n\n- A Study of History: The Abridged One-Volume Edition, with new foreword by Toynbee & a new chapter (Oxford University Press and Thames & Hudson, 1972)"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2322,
+    "completion_tokens": 563,
+    "total_tokens": 2885,
+    "cost": 0.007452826,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004574,
+      "upstream_inference_prompt_cost": 0.0002322,
+      "upstream_inference_completions_cost": 0.0002252
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

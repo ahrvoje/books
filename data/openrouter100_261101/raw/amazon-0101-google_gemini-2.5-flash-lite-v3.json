@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:14:00.599Z",
+  "bookId": "rest-108-90",
+  "id": "gen-1793571239-mXxJhLE1xlaFCFiANOxX",
+  "object": "chat.completion",
+  "created": 1793571239,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "I am sorry, but I could not find any Amazon product matching the title \"Prefabrication and the Re-Evolution of Construction\" by Marty Corrado with an explicit total rating aggregate. The search results provided information on other books related to prefabricated housing but not the specific one requested.",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Prefab-Houses-45th-Ed/dp/3754404709",
+              "title": "Prefab Houses. 45th Ed. (45th Edition): Cobbers, Arnt, Jahn ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nPrefab Houses. 45th Ed. (45th Edition): Cobbers, Arnt, Jahn ...\nThis book covers prefabs from the USA via Europe to Asia and Africa, giving insight into the various industrially prefabricated components, the difficulties of delivery to the building site, and the intricacies of assembly and completion.\n\n## \n\nPrefab Houses. 45th Ed. (45th Edition)\nAug 25, 2026 — Explores the evolution of prefabricated houses from 1830s England to modern times, covering design innovations, construction methods, and examples from\n\n## \n\nPrefab Houses. 45th Ed. (45th Edition)\nPublisher TASCHEN Publication date August 25, 2026. A prefab is a mass-produced house, constructed in a factory and assembled on–site. Marcel Breuer were\n\n## \n\nPrefab Houses. 45th Ed. (45th Edition)\n25.08.2026 — Book details ; Print length. 512 pages ; Language. English ; Publisher. TASCHEN ; Publication date. August 25, 2026 ; Dimensions. 6.14 x 1.34 x 8.54 inches."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/es/2023-2028-World-Outlook-Prefabricated-Buildings/dp/B09ZCVYN3C",
+              "title": "The 2023-2028 World Outlook for Prefabricated Buildings",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe 2023-2028 World Outlook for Prefabricated Buildings\nThis study covers the world outlook for prefabricated buildings across more than 190 countries. For each year reported, estimates are given for the latent"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Prefab-Housing-Future-Building-Product/dp/1848222181",
+              "title": "Prefab Housing and the Future of Building: Product to ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nPrefab Housing and the Future of Building: Product to ...\nThis book suggests a future scenario for industrialised house building that will both challenge the existing industry and stimulate the public imagination."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Prefabricated-Home-Colin-Davies/dp/1861892438",
+              "title": "The Prefabricated Home: Davies, Colin",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Prefabricated Home: Davies, Colin\nColin Davies explores in The Prefabricated Home how the relationship between architecture and industrialized building has now become an urgent issue for"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/zh_TW/Prof-Philip-M-Parker-Ph-D/dp/B0B5KQN156",
+              "title": "The 2023 Report on Precast Concrete Products: World ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe 2023 Report on Precast Concrete Products: World ...\nThis report covers the top 2,000 cities in over 200 countries. Companies participating in this industry include. Gate Petroleum, High Companies, and Olson"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1278,
+    "completion_tokens": 57,
+    "total_tokens": 1335,
+    "cost": 0.005149094,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001506,
+      "upstream_inference_prompt_cost": 0.0001278,
+      "upstream_inference_completions_cost": 0.0000228
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

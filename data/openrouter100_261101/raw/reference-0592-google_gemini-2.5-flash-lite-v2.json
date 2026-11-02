@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:17:14.140Z",
+  "bookId": "rem-u1255",
+  "id": "gen-1793571432-PhMl2i7M1q0mOznapUKT",
+  "object": "chat.completion",
+  "created": 1793571432,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"rem-u1255\",\n  \"title\": \"Yeager: An Autobiography\",\n  \"author\": \"Chuck Yeager; Leo Janos\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 342,\n    \"editionId\": \"/books/OL22840420M\",\n    \"editionYear\": null,\n    \"format\": \"Hardcover\",\n    \"language\": \"English\",\n    \"url\": \"https://openlibrary.org/books/OL22840420M\",\n    \"evidence\": \"342 pages\",\n    \"sourceTitle\": \"Open Library\",\n    \"sourceAuthor\": null\n  },\n  \"reference\": {\n    \"count\": 1,\n    \"editionId\": null,\n    \"editionYear\": 1985,\n    \"url\": \"https://history.arc.nasa.gov/hist_pdfs/nasa_sp2020-4322_contributionsToShuttle.pdf\",\n    \"evidence\": \"General Chuck Yeager and Leo Janos, Yeager: An Autobiography, (New York: Bantam Books, 1985), p. 108.\",\n    \"sourceTitle\": \"NASA Armstrong Flight Research Center's Contributions to the Space Shuttle Program\",\n    \"sourceAuthor\": \"Christian Gelzer\",\n    \"ranges\": [\n      {\n        \"start\": 108,\n        \"end\": 108,\n        \"label\": \"p. 108\",\n        \"evidence\": \"General Chuck Yeager and Leo Janos, Yeager: An Autobiography, (New York: Bantam Books, 1985), p. 108.\"\n      }\n    ],\n    \"method\": \"Explicit mention of a page number within the text of the source document.\",\n    \"limitation\": \"Only one specific page reference was found. The full extent of bibliographical references within the book itself is not detailed.\"\n  },\n  \"searchedUrls\": [\n    \"https://www.grafiati.com/en/literature-selections/yeager-chuck/book/\",\n    \"https://history.arc.nasa.gov/hist_pdfs/nasa_sp2020-4322_contributionsToShuttle.pdf\",\n    \"https://www.koreanwar.org/pdf-reference/intra-theatre-operations-afd-100924-016.pdf\",\n    \"https://ptgmedia.pearsoncmg.com/images/9780133488760/samplepages/0133488764.pdf\",\n    \"https://www.nasa.gov/wp-content/uploads/2023/04/sp-4232.pdf\"\n  ],\n  \"limitations\": \"The search for bibliographical reference page ranges within the book 'Yeager: An Autobiography' was limited. While one specific page (p. 108) was cited in another document, a comprehensive list or range of bibliographical references within the book itself was not found. The Grafiati entry lists multiple editions but does not specify page ranges for references. The Pearson sample page shows an index entry for 'Yeager, C., 16,22,348' and 'Janos, L., 348', which are likely page numbers for mentions of the authors, not bibliographical references. The NASA document provides a citation to the book with a specific page number, indicating it was used as a source, but does not detail the book's own reference section.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.grafiati.com/en/literature-selections/yeager-chuck/book/",
+              "title": "Books: 'Yeager, Chuck' – Grafiati",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Books: 'Yeager, Chuck' – Grafiati\n\n# Books on the topic 'Yeager, Chuck' \n\nAuthor: Grafiati\n\nPublished: 4 June 2021 \n\nLast updated: 28 July 2025 \n\n## Create a spot-on reference in APA, MLA, Chicago, Harvard, and other styles\n\n...\n\nConsult the top 50 books for your research on the topic 'Yeager, Chuck.'\n\nNext to every source in the list of references, there is an 'Add to bibliography' button. Press on it, and we will generate automatically the bibliographic reference to the chosen work in the citation style you need: APA, MLA, Harvard, Chicago, Vancouver, etc.\n\nYou can also download the full text of the academic publication as pdf and read online its abstract whenever available in the metadata.\n\nBrowse books on a wide variety of disciplines and organise your bibliography correctly.\n\nAyres, Carter M. Chuck Yeager: Fighter pilot. Lerner Publications Co., 1988.\n\nHess, William N. General Charles E. \"Chuck\" Yeager. Mustang International, 1993.\n\nStein, R. Conrad. Chuck Yeager breaks the sound barrier. Children's Press, 1997.\n\nGaffney, Timothy R. Chuck Yeager, first man to fly faster than sound. Childrens Press, 1986.\n\nHarkins, Susan Sales. Breaking the sound barrier: The story of Chuck Yeager. Mitchell Lane Publishers, 2005.\n\nLeo, Janos, ed. Yeager, an autobiography. Bantam Books, 1985.\n\nLeo, Janos, ed. Yeager, an autobiography. Bantam Books, 1986.\n\nPisano, Dominick. Chuck Yeager and the Bell X-1: Breaking the sound barrier. Smithsonian National Air and Space Museum, 2005.\n\n...\n\nJanos, Leo, and Chuck Yeager. Yeager: An Autobiography (G K Hall Large Print Book Series). G K Hall & Co, 1986."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://history.arc.nasa.gov/hist_pdfs/nasa_sp2020-4322_contributionsToShuttle.pdf",
+              "title": "NASA Armstrong Flight Research Center's Contributions to the ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "NASA Armstrong Flight Research Center’s Contributions to the Space Shuttle Program\n\n### Edited by Christian Gelzer\n\nNASA SP-2020-4322\n\nLibrary of Congress Cataloging-in-Publication Data \nNames: Gelzer, Christian, 1957- editor. | NASA Neil A. Armstrong Flight \nResearch Center, issuing body. \nTitle: NASA Armstrong Flight Research Center’s contributions to the space \nshuttle program / Christian Gelzer, editor. \nOther titles: NASA SP (Series) ; 4322. \nDescription: Edwards, CA : National Aeronautics and Space Administration, \nArmstrong Flight Research Center, [2021] | Series: NASA SP ; 2020-4322 | \nIncludes bibliographical references. | Summary: “A history of NASA \nArmstrong Flight Research Center’s role in the Space Shuttle program”-- \nProvided by publisher. \nIdentifiers: LCCN 2021014195 (print) | LCCN 2021014196 (ebook) | ISBN \n9781626830639 (paperback) | ISBN 9781626830646 (Adobe pdf) \nSubjects: LCSH: NASA Neil A. Armstrong Flight Research Center--History. | \nSpace shuttles--United States--History. | Astronautics--United \nStates--History. \nClassification: LCC TL795.5 .N368 2021 (print) | LCC TL795.5 (ebook) | \nDDC 629.4410973--dc23 | SUDOC NAS 1.21:2020-4322 \nLC record available at https://lccn.loc.gov/2021014195 \nLC ebook record available at https://lccn.loc.gov/2021014196\n\n...\n\n3: Turning into the Wind \nChristian Gelzer and Curtis Peebles \nLogical Innovations, Inc., and Jacobs Technology \nNASA Armstrong Flight Research Center \nAbstract: \nThe NACA’s new methods developed at the remote site at Edwards improved safety while setting rules for \nspace-bound vehicles. In 1958 NASA emerged from the NACA with a focus on space. This new Agency drew \nheavily on the desert facility’s experience with rocket planes, energy management, aero-thermo-structural \nloads, reusable spaceplanes, and micro gravity. \nKeywords: \nChuck Yeager; Mel Apt; Scott Crossfield; Bill Dana; X-15; NASA; control room; Space \nAir Force (AF) Capt. Charles “Chuck” Yeager exceeded Mach 1 in the straight-wing Bell X 1 on October \n14, 1947 on the aircraft’s ninth powered flight. He did so again on January 22 and January 30, 1948 (the next \nAF pilot to go supersonic was John Fitzgerald, on April 6, 1948), flights the NACA staff at Muroc was well \naware of since its engineers instrumented the aircraft and their computers reduced the raw data. Not until \nMarch 4, 1948—nearly six months after Yeager’s first supersonic flight—did an NACA pilot exceed the speed \nof sound. 65 The lag underscored the NACA’s focus on data over benchmarks.\n\n...\n\nYeager’s own memory of preparations for the X-1 flights is equally revealing: “I’d attended these highly \ntechnical NACA pre-flight planning sessions…and not known what the hell they were talking about.” 71 \nThings weren’t materially different as late as 1953 and the events surrounding the effort to best the NACA’s \nScott Crossfield’s Mach 2.005 record, which he set in a Douglas D 558-II in November of that year. Yeager \nand Capt. Jack Ridley, close colleagues since the first supersonic flight in the X-1, began planning this \nparticular flight even before the X-1A had flown supersonically. This was a second-generation X-1 - slightly \nlonger, carrying more propellants, and capable of higher speeds. The goal was to reach Mach 2.2 or Mach 2.3 \non the airplane’s fourth powered flight. The biggest obstacle, the two believed, was a reduction of the X-1A’s 67 Milton O. Thompson and Curtis Peebles, Flying Without Wings: NASA Lifting Bodies and the Birth of the Space Shuttle, \n(Washington, D.C.: Smithsonian Institution Press, 1999), pp. 102-103; and John McTigue, interview with Curtis Peebles, September \n22, 2010. \n68 Curtis Peebles, “Then and Now: Flight Research in the Second Half of the 20th Century,” SAFE Journal, Vol. 34, No. 1 Fall 2006, \npp. 37-38; and Peebles, “Risk Management in the X-Planes Era: D-558-II vs. X-1A at Mach 2,” Quest, Vol. No. 11, No. 4 2004, pp. \n40-47. \n69 Curtis Peebles, Road to Mach 10: Lessons Learned from the X-43A Flight Research Program, (Reston Virginia: American Institute \nof Aeronautics and Astronautics, 2008), 190-192; and Betty Love, interviewed by Curtis Peebles December 23, 2003, in his personal \ncollection. \n70 James O. Young, Meeting the Challenge of Supersonic Flight, (Edwards Air Force Base, CA: Air Force Flight Test Center History \nOffice, 1997), pp. 45-47. \n71 General Chuck Yeager and Leo Janos, Yeager: An Autobiography, (New York: Bantam Books, 1985), p. 108. \n\nstability at Mach 2.3, but they didn’t expect to exceed that Mach number, so Yeager and Ridley pressed on \nwith their flight plan: both thought the reduced stability at high speeds could be dealt simply with proper \npiloting technique. 72"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.koreanwar.org/pdf-reference/intra-theatre-operations-afd-100924-016.pdf",
+              "title": "Coalition Air Warfare in the Korean War 1950 - 1953",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## Coalition Air Warfare in the Korean War\n\n1950–1953\n\nProceedings Air Force Historical Foundation Symposium Andrews AFB, Maryland May 7–8, 2002\n\nEdited by \nJacob Neufeld \nand \nGeorge M. Watson, Jr. \n\nU.S. Air Force History and Museums Program Washington, D.C. 2005\n\n...\n\nLibrary of Congress Cataloging-in-Publication Data \nAir Force Historical Foundation. Symposium (2002 : Andrews AFB, Md.) \nCoalition air warfare in the Korean War, 1950-1953 : proceedings, Air"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://ptgmedia.pearsoncmg.com/images/9780133488760/samplepages/0133488764.pdf",
+              "title": "Creating A Software Engineering Culture",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "### CREATING A SOFTWARE ENGINEERING CULTURE\n\n...\n\n## CREATING A SOFTWARE ENGINEERING CULTURE\n\n##### Karl E. Wiegers\n\nDorset House Publishing 353 West 12th Street New York, New York 10014\n\nLibrary of Congress Cataloging-in-Publication Data\n\nWiegers, Karl Eugene, 1953-Creating a software engineering culture / Karl E. Wiegers. p. cm. Includes bibliographical references and index. ISBN 0-932633-33-1 (hardcover) 1. Software engineering. I. Title. QA76.758.W52 1996 005.1 '068--dc20 96-27627 CIP\n\n...\n\nCopyright © 1996 by Karl E. Wiegers. Published by Dorset House Publishing, 353 West 12th Street, New York, NY 10014.\n\n...\n\nPrinted in the United States of America\n\nLibrary of Congress Catalog Number: 96-27627\n\nISBN: 0-932633-33-1 12 11 10 9 8 7 6 5 4\n\n...\n\nPermissions\n\nAcknowledgments\n\nThe author and publisher gratefully acknowledge the following for their permis sion to reprint material quoted on the cited pages.\n\np. 16: Material from Yeager, An Autobiography by Chuck Yeager and Leo Janos, p. 235, reprinted by permission of Bantam Doubleday Dell Publishing Group. Copyright © 1985. All rights reserved. pp.\n\n...\n\nJacobsen, L, 79,102,344 \nJanos, L., 348\n\n...\n\nYeager, C., 16,22,348"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.nasa.gov/wp-content/uploads/2023/04/sp-4232.pdf",
+              "title": "Facing the Heat Barrier: A History of Hypersonics",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Bell X-1, with which Chuck Yeager first broke the sound barrier, also was under ... the state of the art. Sänger projected a mass-ratio, or ratio of fueled to empty ... 10—with the empty weight including that of the wings, crew compartment, landing gear"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3355,
+    "completion_tokens": 823,
+    "total_tokens": 4178,
+    "cost": 0.007658053,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006647,
+      "upstream_inference_prompt_cost": 0.0003355,
+      "upstream_inference_completions_cost": 0.0003292
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575549-PKTaSlEkvy7jT3etqo0c",
+  "object": "chat.completion",
+  "created": 1793575549,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"complete-192-7:amazon:https://www.amazon.com/Cloud-Revolution-Convergence-Technologies-Economic/dp/1641772301\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"bgec05fa2ad7:amazon:https://www.amazon.com/Human-Universals-Donald-Brown/dp/007008209X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"intake-0577:amazon:https://www.amazon.com/Insanely-Great-Macintosh-Computer-Everything/dp/0140291776\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating count is explicitly labelled as ratings.\"\n    },\n    {\n      \"key\": \"n3911e15103:amazon:https://www.amazon.com/Primates-Memoir-Robert-M-Sapolsky/dp/0743202473\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"progress-0605:amazon:https://www.amazon.com/Eulers-Pioneering-Equation-beautiful-mathematics/dp/0198794924\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The rating count is explicitly labelled as global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3373,
+    "completion_tokens": 446,
+    "total_tokens": 3819,
+    "cost": 0.0002022867,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020433,
+      "upstream_inference_prompt_cost": 0.00016865,
+      "upstream_inference_completions_cost": 0.00003568
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:25:55.966Z"
+}

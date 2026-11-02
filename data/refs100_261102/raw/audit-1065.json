@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793577386-ryImUIkO4ToPSY56Rtsp",
+  "object": "chat.completion",
+  "created": 1793577386,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g0064:reference:https://collection.sl.nsw.gov.au/record/74VKO0K8d0Ol\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the source title and author. The reference range is explicitly stated as pages 327-331.\"\n    },\n    {\n      \"key\": \"q0771:reference:https://search.library.yale.edu/catalog/4730003?block=Books\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the source title and author. The reference range is explicitly stated as pages 235-238.\"\n    },\n    {\n      \"key\": \"rest-121-101:reference:https://search.sl.nsw.gov.au/primo-explore/fulldisplay?adaptor=Local%20Search%20Engine&context=L&docid=SLNSW_ALMA21106241640002626&lang=en_US&mode=advanced&offset=0&query=sub%2Cexact%2CPortugal%20--%20Colonies%20--%20History%2CAND&search_scope=E&tab=default_tab&vid=SLNSW\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the source title and author. The reference range is explicitly stated as pages [327]-351.\"\n    },\n    {\n      \"key\": \"q0798:reference:https://collection.sl.nsw.gov.au/record/74VKa27zxwjO\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the source title and author. The reference range is explicitly stated as pages 455-462.\"\n    },\n    {\n      \"key\": \"rest-58-51:reference:https://opac.tangaza.ac.ke/bib/200659\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the source title and author. The reference range is explicitly stated as pages 431-441.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3434,
+    "completion_tokens": 522,
+    "total_tokens": 3956,
+    "cost": 0.0002113254,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021346,
+      "upstream_inference_prompt_cost": 0.0001717,
+      "upstream_inference_completions_cost": 0.00004176
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:56:38.398Z"
+}

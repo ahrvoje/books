@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576283-Ae4tbYTjW1Cxtzc1irM1",
+  "object": "chat.completion",
+  "created": 1793576283,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g0921:amazon:https://www.amazon.com/Finite-Infinite-Games-Vision-Possibility/dp/0345341848\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 1,903 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"n9cea3e6049:amazon:https://www.amazon.com/History-Present-State-Electricity-Experiments/dp/1108064396\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 3 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"nbc45eb665d:amazon:https://www.amazon.com/The-Tyranny-of-Merit/dp/0241407591\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 3,130 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"g1187:amazon:https://www.amazon.com/Inside-Investors-Brain-Power-Money/dp/0470067373\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 39 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"intake-0219:amazon:https://www.amazon.com/Geography-Bliss-Grumps-Search-Happiest/dp/044669889X\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 2,144 global ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3308,
+    "completion_tokens": 404,
+    "total_tokens": 3712,
+    "cost": 0.0001957428,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019772,
+      "upstream_inference_prompt_cost": 0.0001654,
+      "upstream_inference_completions_cost": 0.00003232
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:38:09.549Z"
+}

@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572665-difemZ7gaDl5Db0fl3Ty",
+  "object": "chat.completion",
+  "created": 1793572665,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"intake-0157\",\n  \"title\": \"Programmers at Work\",\n  \"author\": \"Susan Lammers\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 1,\n    \"url\": \"https://www.grafiati.com/en/literature-selections/computer-programmers-training-of/book/\",\n    \"evidence\": \"Lammers, Susan M. Programmers at work: Interviews with 19 programmers who shaped the computer industry. Microsoft Press, 2006.\",\n    \"ranges\": [\n      {\n        \"start\": 1,\n        \"end\": 1,\n        \"label\": \"bibliographical references\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.grafiati.com/en/literature-selections/computer-programmers-training-of/book/",
+              "title": "Books: 'Computer programmers – Training of' – Grafiati",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Books: 'Computer programmers – Training of' – Grafiati\n\n# Books on the topic 'Computer programmers – Training of' \n\nAuthor: Grafiati\n\nPublished: 4 June 2021 \n\nLast updated: 28 January 2023 \n\n## Create a spot-on reference in APA, MLA, Chicago, Harvard, and other styles\n\n...\n\nConsult the top 50 books for your research on the topic 'Computer programmers – Training of.'\n\nNext to every source in the list of references, there is an 'Add to bibliography' button. Press on it, and we will generate automatically the bibliographic reference to the chosen work in the citation style you need: APA, MLA, Harvard, Chicago, Vancouver, etc.\n\nYou can also download the full text of the academic publication as pdf and read online its abstract whenever available in the metadata.\n\nBrowse books on a wide variety of disciplines and organise your bibliography correctly.\n\nStevenson, Walt. A complete computer maintenance training program. E&L Instruments, 1986.\n\nMicrosoft Corporation. Networking essentials: Hands-on self-paced training for supporting local and wide area networks. Microsoft Press, 1996.\n\nJaworski, Jamie. Sun Certification Training Guide: (CS-310-025 & CX-310-027): Java 2 Programmer and Developer Exams. Pearson Education, 2005.\n\nJava 1.1 certification training guide: Java programmer certification, Java developer certification. New Riders, 1998.\n\nDomeyer, Craig. The Netscape road map: A workshop training manual. 2nd ed. C. Domeyer, 1995.\n\nBeacon, Mavis. Mavis Beacon teaches typing 8. Learning Co., 2001.\n\nAbstraction for programmers. McGraw-Hill, 1985.\n\nMathematics for programmers. Prentice Hall, 1990.\n\nC++ for programmers. 2nd ed. Wiley, 1995.\n\nC for programmers. Wiley, 1986.\n\n1945-, Deitel Harvey M., ed. Java for programmers. 2nd ed. Prentice Hall, 2012.\n\nAmmeraal, L. C++ for programmers. Wiley, 1991.\n\nC++ for programmers. 3rd ed. Wiley, 2000.\n\n1945-, Deitel Harvey M., ed. Java for programmers. Prentice Hall, 2009.\n\nDeitel, Paul J. Java for programmers. Prentice Hall, 2009.\n\nDeitel, Paul J. JavaScript for programmers. Prentice Hall, 2010.\n\nDeitel, Paul J. JavaScript for programmers. Prentice Hall, 2010.\n\n1945-, Deitel Harvey M., ed. JavaScript for programmers. Prentice Hall, 2010.\n\n1945-, Deitel Harvey M., ed. C++ for programmers. Prentice Hall, 2009.\n\nLammers, Susan M. Programmers at work: Interviews. Microsoft Press, 1986.\n\nLammers, Susan M. Programmers at work: Interviews. Microsoft Press, 1986.\n\nUML for Java programmers. Prentice Hall PTR, 2003.\n\nC for programmers. Wadsworth Pub. Co., 1988.\n\nLyon, Douglas A. Java for programmers. Pearson Education, 2004.\n\nComputer graphics for Java programmers. Wiley, 1998.\n\nAmmeraal, Leen, and Kang Zhang. Computer Graphics for Java Programmers. Springer International Publishing, 2017. http://dx.doi.org/10.1007/978-3-319-63357-2.\n\nCole, Gerald D. Computer networking for systems programmers. Wiley, 1990.\n\nOualline, Steve. Perl for C programmers. New Riders, 2002.\n\nOualline, Steve. Perl for C programmers. New Riders, 2003.\n\nC for Java programmers. Addison-Wesley, 2000.\n\nJamsa, Kris A. Turbo PASCAL programmers library. McGraw-Hill, 1986.\n\nRex, John H. Practical algorithms for programmers. Addison-Wesley, 1995.\n\nLandis, Norman J. C for Pascal programmers. Scott, Foresman, 1989.\n\nSingh, Harry. UNIX for MVS programmers. Prentice Hall PTR, 1997.\n\nCorporation, International Business Machines. ObjectWindows programmers guide. Macmillan Computing Publ., 1996.\n\nNoel, Llopis, ed. C++ for game programmers. 2nd ed. Charles River Media, 2007.\n\nLammers, Susan M. Programmers at work: Interviews with 19 programmers who shaped the computer industry. Microsoft Press, 2006.\n\nProgrammers at work: Interviews with 19 programmers who shaped the computer industry. Tempus Books of Microsoft Press, 1989.\n\nC++ for Java programmers. Pearson/Prentice Hall, 2004.\n\nPugh, Kenneth. C language for programmers. 2nd ed. QED Information Sciences, 1989.\n\nJennifer, Hamilton. C for RPG programmers. Duke Press, 1992.\n\nInglis, J. Cobol 85 for programmers. J. Wiley, 1989.\n\n1945-, Deitel Harvey M., and Deitel Harvey M. 1945-, eds. C# 2010 for programmers. 4th ed. Prentice Hall, 2011.\n\nC language for programmers. Scott, Foresman, 1985.\n\nData structures for programmers. Wiley, 1988.\n\n1945-, Deitel Harvey M., ed. C# for experienced programmers. Prentice Hall, 2003.\n\nLoukides, Michael Kosta. UNIX for FORTRAN programmers. O'Reilly, 1990.\n\nGreat Britain. Manpower Services Commission., ed. Computer-based training programmes. MSC, 1987.\n\nMalaga, Ernie. AS/400 Primer: Fundamental Concepts and Training for Programmers, Administrators, and System Operators. Midrange Computing, 1995.\n\n...\n\nNetworking Essentials: McSe Self-Paced Kit (Microsoft Training Product). 2nd ed. Microsoft Press, 1997."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.ataricompendium.com/archives/books/master_book_listing.html",
+              "title": "master book listing",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Atari Compendium\n\nMASTER BOOK LISTING\n\nCompiled by Scott Stilphen. Updated 10-2-2026\n...\n-2 (HC); The MIT Press; 2012; $20\n...\nBilliards, Bowling, Table Tennis, Pinball, and ... , Robert R.\n\n0-313-23462-0; ... .00; 163p; HC. Notes: Includes indexes."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://dokumen.pub/facts-and-fallacies-of-software-engineering-0321117425-5220030051-9780321117427.html",
+              "title": "Facts and Fallacies of Software Engineering 0321117425, ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "is. Most testing activities cannot be automated. Programmer-created, built-in ... 91 95 97 101 103 Reviews and Inspections 104 Fact 37 ... 90 percent of errors before the first test case is run. 104 Fact 38. Rigorous inspections should not replace testing"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://attachments.are.na/6332927/d9607c27a9c8c1e8081f56667e6af988.pdf?1583115230=",
+              "title": "co m puter",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Library of Congress Cataloging-in-Publication Data \nCampbell-Kelly, Martin. \nComputer : a history of the information machine\n...\nbibliographical references and index. \nISBN 978-0-8133-4590-1 ( ... .) — ISBN 978-0-8133-4591-8 (ebook)"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.scribd.com/document/532098718/Computer",
+              "title": "Computer | PDF | Personal Computers | Ibm",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Client Challenge\n\nA required part of this site couldn’t load. This may be due to a browser extension, network issues, or browser settings. Please check your connection, disable any ad blockers, or try using a different browser."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2324,
+    "completion_tokens": 164,
+    "total_tokens": 2488,
+    "cost": 0.0071280268,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00012932,
+      "upstream_inference_prompt_cost": 0.0001162,
+      "upstream_inference_completions_cost": 0.00001312
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "intake-0157",
+  "retrieved": "2026-11-01T22:37:45.972Z"
+}

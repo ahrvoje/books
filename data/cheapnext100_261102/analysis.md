@@ -1,0 +1,2828 @@
+# Further metadata with minimal worker replies — 2026-11-02
+
+Completed **100 additional previously missing numeric values**: 0 total-page counts, 99 Amazon rating aggregates, and 1 reference-page counts. 100 books updated; 59 score totals changed.
+
+## Evidence and confidence
+
+The primary assistant checked source identity, explicit numeric evidence, scope, and arithmetic. OpenRouter workers used Mistral Nemo for research and Mistral Small 24B for a separate evidence audit. Source text, not worker-generated numbers, determines acceptance. Metadata confidence is moderate. Amazon counts describe one matched product snapshot; the original indexed snapshot date is unknown. Counts are not guaranteed live and are not sums across products or written-review totals. Print counts identify a print edition. Reference counts use explicit inclusive bibliographical ranges, including catalogued pagination for digital editions where stated. Ratios across different or unconfirmed editions are low-confidence estimates. Unknown inputs retain their prescribed zero-bonus fallback.
+
+Content assessments, eligibility, source memberships, and purchase links are retained. Only missing metadata and its resulting O15/RD scores change. [External audit resolutions](../data/cheapnext100_261102/audit-resolutions.json) explain the primary assistant’s decisions on model flags.
+
+## Cost and reusable findings
+
+Saved successful OpenRouter responses report **$0.293262** in usage, including experiments and audit calls. This is recorded API usage, not an invoice. [Machine-readable cost and yield results](../data/cheapnext100_261102/cost-learning.json) record the comparison.
+
+The best tested base setup remains Mistral Nemo with Parallel fast search and ten results per call, followed by source review and a separate Mistral Small 24B audit. Two accepted values came from previous saved responses. Useful secondary book results were matched to their actual catalog works before acceptance.
+
+A ten-book paired pilot compared a one-token response limit with the previous 500-token limit. All ten retained the same number of source annotations. Total recorded costs were $0.010741 versus $0.010784, a saving of only 0.40%. The excerpts and input token counts can vary, so this is not a controlled proof of equal recall or a stable saving. One-token replies are useful when the source annotations are the intended output; they cannot supply structured model extraction. Full output budgets remain necessary for the evidence audit.
+
+This round cost $0.293262, about 7% more than the prior $0.273962 round. The two batches differ in cached evidence, search difficulty, and field mix. There is no demonstrated overall cost improvement from shorter replies. Fast search mode and avoiding repeat searches remain the larger savings. Thirty-nine saved reference searches supplied one accepted count. No total-page count was accepted.
+
+For the next batch: reuse evidence first; use title and author with Parallel fast search; inspect secondary results for other missing works; stop low-yield query variants early. A minimal output budget is optional for annotation-only research. Do not reduce evidence checks, infer missing values, substitute seller ratings, or replace whole-series data with one volume. The prior ISBN-only pilot supplied no accepted values, so retain title and author in queries.
+
+## Accepted values
+
+| Book | Field | Count | Source | Confidence |
+|---|---|---:|---|---|
+| The Future of Humanity: Terraforming Mars, Interstellar Travel, Immortality and Our Destiny Beyond Earth — Michio Kaku | amazon | 2687 | [evidence](https://www.amazon.com/dp/0385542763) | moderate |
+| Identity — Francis Fukuyama | amazon | 1036 | [evidence](https://www.amazon.com/dp/0374129290) | moderate |
+| The Gathering Storm — Winston S. Churchill | amazon | 2 | [evidence](https://www.amazon.com/dp/B0082DV5P6) | moderate |
+| Programs and Manifestoes on 20th-Century Architecture — Ulrich Conrads | amazon | 85 | [evidence](https://www.amazon.com/dp/0262530309) | moderate |
+| eBoys — Randall E. Stross | amazon | 168 | [evidence](https://www.amazon.com/dp/0812930959) | moderate |
+| The Age of Reason Begins — Will Durant; Ariel Durant | amazon | 40 | [evidence](https://www.amazon.com/dp/0671013203) | moderate |
+| Bloodlands — Timothy Snyder | amazon | 3250 | [evidence](https://www.amazon.com/dp/0465031471) | moderate |
+| Everyday Utopia — Kristen R. Ghodsee | amazon | 59 | [evidence](https://www.amazon.com/dp/1982190213) | moderate |
+| Steal Like An Artist — Austin Kleon | amazon | 20328 | [evidence](https://www.amazon.com/dp/0761169253) | moderate |
+| And a Bottle of Rum — Wayne Curtis | amazon | 819 | [evidence](https://www.amazon.com/dp/0307338622) | moderate |
+| River Town — Peter Hessler | amazon | 1279 | [evidence](https://www.amazon.com/dp/0060855029) | moderate |
+| Reassembling the Social — Bruno Latour | amazon | 105 | [evidence](https://www.amazon.com/dp/0199256055) | moderate |
+| The Big Oyster — Mark Kurlansky | amazon | 765 | [evidence](https://www.amazon.com/dp/0345476395) | moderate |
+| The State of Affairs — Esther Perel | amazon | 5491 | [evidence](https://www.amazon.com/dp/0062322591) | moderate |
+| Hitler: Ascent, 1889–1939 — Volker Ullrich | amazon | 1212 | [evidence](https://www.amazon.com/dp/1101872055) | moderate |
+| To Dye For: How Toxic Fashion Is Making Us Sick--and How We Can Fight Back — Alden Wicker | amazon | 161 | [evidence](https://www.amazon.com/dp/0593422619) | moderate |
+| The Seven Daughters of Eve: The Science That Reveals Our Genetic Ancestry — Bryan Sykes | amazon | 1680 | [evidence](https://www.amazon.com/dp/0393020185) | moderate |
+| Two Lucky People — Milton Friedman; Rose Friedman | amazon | 19 | [evidence](https://www.amazon.com/dp/0226264157) | moderate |
+| Technology and the Character of Contemporary Life — Albert Borgmann | amazon | 26 | [evidence](https://www.amazon.com/dp/0226066290) | moderate |
+| The Affluent Society — John Kenneth Galbraith | amazon | 280 | [evidence](https://www.amazon.com/dp/0395925002) | moderate |
+| Economics in One Lesson — Henry Hazlitt | amazon | 4848 | [evidence](https://www.amazon.com/dp/0517548232) | moderate |
+| King Solomon's Ring — Konrad Lorenz | amazon | 108 | [evidence](https://www.amazon.com/dp/1639235612) | moderate |
+| The Soul of an Octopus: A Surprising Exploration into the Wonder of Consciousness — Sy Montgomery | amazon | 10713 | [evidence](https://www.amazon.com/dp/1451697724) | moderate |
+| Hooked: Food, Free Will, and How the Food Giants Exploit Our Addictions — Michael Moss | amazon | 1187 | [evidence](https://www.amazon.com/dp/0812997298) | moderate |
+| China Road — Rob Gifford | amazon | 385 | [evidence](https://www.amazon.com/dp/0812975243) | moderate |
+| The Cheese and the Worms — Carlo Ginzburg | amazon | 334 | [evidence](https://www.amazon.com/dp/0801843871) | moderate |
+| What’s in It for Them? — Joe Polish | amazon | 301 | [evidence](https://www.amazon.com/dp/1401960103) | moderate |
+| Lies My Teacher Told Me — James W. Loewen | amazon | 4699 | [evidence](https://www.amazon.com/dp/1620973928) | moderate |
+| Three Guineas — Virginia Woolf | amazon | 113 | [evidence](https://www.amazon.com/dp/0156901773) | moderate |
+| Same As Ever — Morgan Housel | amazon | 4524 | [evidence](https://www.amazon.com/dp/0593332709) | moderate |
+| Bitcoin Billionaires — Ben Mezrich | reference | 2 | [evidence](https://collection.sl.nsw.gov.au/record/74VKVxr3M3yg) | moderate |
+| Dior by Dior: The Autobiography of Christian Dior — Christian Dior | amazon | 384 | [evidence](https://www.amazon.com/dp/1851779787) | moderate |
+| Bowerman and the Men of Oregon: The Story of Oregon's Legendary Coach and Nike's Cofounder — Kenny Moore | amazon | 392 | [evidence](https://www.amazon.com/dp/1594861900) | moderate |
+| The Art of Looking Sideways — Alan Fletcher | amazon | 297 | [evidence](https://www.amazon.com/dp/0714834491) | moderate |
+| Revolusi — David van Reybrouck | amazon | 303 | [evidence](https://www.amazon.com/dp/1324073691) | moderate |
+| Mathematics for Human Flourishing — Francis Su | amazon | 429 | [evidence](https://www.amazon.com/dp/0300237138) | moderate |
+| Galileo's Middle Finger: Heretics, Activists, and the Search for Justice in Science — Alice Dreger | amazon | 503 | [evidence](https://www.amazon.com/dp/1594206082) | moderate |
+| Selected Non-Fictions — Jorge Luis Borges | amazon | 101 | [evidence](https://www.amazon.com/dp/0670849472) | moderate |
+| The Elements of Moral Philosophy — James Rachels; later editions revised by Stuart Rachels | amazon | 390 | [evidence](https://www.amazon.com/dp/0078119065) | moderate |
+| In-N-Out Burger — Stacy Perman | amazon | 514 | [evidence](https://www.amazon.com/dp/0061346713) | moderate |
+| On Liberty — John Stuart Mill | amazon | 467 | [evidence](https://www.amazon.com/dp/0140432078) | moderate |
+| Cosa Nostra: A History of the Sicilian Mafia — John Dickie | amazon | 1130 | [evidence](https://www.amazon.com/dp/1403970424) | moderate |
+| The British Are Coming — Rick Atkinson | amazon | 5793 | [evidence](https://www.amazon.com/dp/1250231329) | moderate |
+| The Cultural Revolution — Frank Dikötter | amazon | 813 | [evidence](https://www.amazon.com/dp/1632864231) | moderate |
+| Human Action — Ludwig von Mises | amazon | 325 | [evidence](https://www.amazon.com/dp/0930073185) | moderate |
+| Chasing the Scream — Johann Hari | amazon | 5835 | [evidence](https://www.amazon.com/dp/1620408902) | moderate |
+| Warren Buffett: Inside the Ultimate Money Mind — Robert G. Hagstrom | amazon | 160 | [evidence](https://www.amazon.com/dp/1119714591) | moderate |
+| The Moment of Lift — Melinda Gates | amazon | 8756 | [evidence](https://www.amazon.com/dp/1250313570) | moderate |
+| Making Sense — Sam Harris | amazon | 661 | [evidence](https://www.amazon.com/dp/0062857789) | moderate |
+| Freedom's Forge — Arthur Herman | amazon | 1909 | [evidence](https://www.amazon.com/dp/0812982045) | moderate |
+| Billion Dollar Whale — Tom Wright and Bradley Hope | amazon | 7946 | [evidence](https://www.amazon.com/dp/031643650X) | moderate |
+| The Enlightenment: The Pursuit of Happiness 1680–1790 — Ritchie Robertson | amazon | 432 | [evidence](https://www.amazon.com/dp/0062410652) | moderate |
+| Shop Class as Soulcraft — Matthew B. Crawford | amazon | 1698 | [evidence](https://www.amazon.com/dp/B00273BHPU) | moderate |
+| The Craft — John Dickie | amazon | 748 | [evidence](https://www.amazon.com/dp/161039867X) | moderate |
+| Consilience: The Unity of Knowledge — Edward O. Wilson | amazon | 461 | [evidence](https://www.amazon.com/dp/067976867X) | moderate |
+| The Psychology of Money — Morgan Housel | amazon | 75012 | [evidence](https://www.amazon.com/dp/0857197681) | moderate |
+| The Second World War — Winston S. Churchill | amazon | 176 | [evidence](https://www.amazon.com/dp/B005NS30ZG) | moderate |
+| Other Rivers — Peter Hessler | amazon | 364 | [evidence](https://www.amazon.com/dp/0593655354) | moderate |
+| Capitalism and Freedom — Milton Friedman | amazon | 2880 | [evidence](https://www.amazon.com/dp/0226264017) | moderate |
+| Pragmatism — William James | amazon | 27 | [evidence](https://www.amazon.com/dp/1169319254) | moderate |
+| Show Your Work — Austin Kleon | amazon | 11300 | [evidence](https://www.amazon.com/dp/076117897X) | moderate |
+| Getting Things Done — David Allen | amazon | 10775 | [evidence](https://www.amazon.com/dp/0143126563) | moderate |
+| What Got You Here Won’t Get You There — Marshall Goldsmith; Mark Reiter | amazon | 5384 | [evidence](https://www.amazon.com/dp/1401301304) | moderate |
+| Solitude — Anthony Storr | amazon | 419 | [evidence](https://www.amazon.com/dp/0743280741) | moderate |
+| The Story of Civilization — Will Durant; Ariel Durant | amazon | 135 | [evidence](https://www.amazon.com/dp/B001IUG0Q4) | moderate |
+| Band of Brothers: E Company, 506th Regiment, 101st Airborne from Normandy to Hitler's Eagle's Nest — Stephen E. Ambrose | amazon | 15259 | [evidence](https://www.amazon.com/dp/1501179403) | moderate |
+| The Story of Philosophy — Will Durant | amazon | 2595 | [evidence](https://www.amazon.com/dp/0671739166) | moderate |
+| The Meaning of Life: A Very Short Introduction — Terry Eagleton | amazon | 24 | [evidence](https://www.amazon.com/dp/0199210705) | moderate |
+| Original Sin: President Biden's Decline, Its Cover-Up, and His Disastrous Choice to Run Again — Jake Tapper and Alex Thompson | amazon | 6242 | [evidence](https://www.amazon.com/dp/B0DTYKCJC9) | moderate |
+| The Wars of the Roses: The Fall of the Plantagenets and the Rise of the Tudors — Dan Jones | amazon | 2829 | [evidence](https://www.amazon.com/dp/0143127888) | moderate |
+| When I Stop Talking, You’ll Know I’m Dead — Jerry Weintraub; Rich Cohen | amazon | 1220 | [evidence](https://www.amazon.com/dp/0446548162) | moderate |
+| Down to Earth — Bruno Latour | amazon | 266 | [evidence](https://www.amazon.com/dp/1509530568) | moderate |
+| Caesar and Christ — Will Durant | amazon | 110 | [evidence](https://www.amazon.com/dp/1567310141) | moderate |
+| The Gallic Wars — Julius Caesar; Aulus Hirtius (book VIII) | amazon | 29 | [evidence](https://www.amazon.com/dp/1604597623) | moderate |
+| An Army at Dawn: The War in North Africa, 1942-1943 (World War II Liberation Trilogy, #1) — Rick Atkinson | amazon | 4884 | [evidence](https://www.amazon.com/dp/0805087249) | moderate |
+| The Warren Buffett Portfolio — Robert G. Hagstrom | amazon | 405 | [evidence](https://www.amazon.com/dp/0471392642) | moderate |
+| Shadow of the Silk Road — Colin Thubron | amazon | 641 | [evidence](https://www.amazon.com/dp/0061231770) | moderate |
+| The Warren Buffett Way — Robert Hagstrom | amazon | 148 | [evidence](https://www.amazon.com/dp/0471177504) | moderate |
+| The Persuaders — Anand Giridharadas | amazon | 342 | [evidence](https://www.amazon.com/dp/0241567785) | moderate |
+| Wilde in America — David M. Friedman | amazon | 36 | [evidence](https://www.amazon.com/dp/0393063178) | moderate |
+| The Philosophy of Cognitive-Behavioural Therapy — Donald Robertson | amazon | 95 | [evidence](https://www.amazon.com/dp/036721914X) | moderate |
+| No Place to Hide — Glenn Greenwald | amazon | 3719 | [evidence](https://www.amazon.com/dp/1250062586) | moderate |
+| Columbine — Dave Cullen | amazon | 7323 | [evidence](https://www.amazon.com/dp/0446546925) | moderate |
+| Presidents of War — Michael Beschloss | amazon | 2117 | [evidence](https://www.amazon.com/dp/0307409600) | moderate |
+| The Captive Mind — Czesław Miłosz | amazon | 446 | [evidence](https://www.amazon.com/dp/0679728562) | moderate |
+| Heat — Bill Buford | amazon | 1457 | [evidence](https://www.amazon.com/dp/1400034477) | moderate |
+| Voices from Chernobyl: The Oral History of a Nuclear Disaster — Svetlana Alexievich | amazon | 2774 | [evidence](https://www.amazon.com/dp/B016QMCBKM) | moderate |
+| The Boy Who Was Raised as a Dog — Bruce D. Perry; Maia Szalavitz | amazon | 8962 | [evidence](https://www.amazon.com/dp/0465056539) | moderate |
+| Prepared — Diane Tavenner | amazon | 875 | [evidence](https://www.amazon.com/dp/1984826069) | moderate |
+| The Act of Creation — Arthur Koestler | amazon | 85 | [evidence](https://www.amazon.com/dp/1939438985) | moderate |
+| The Geometry of Wealth — Brian Portnoy | amazon | 371 | [evidence](https://www.amazon.com/dp/B07CXS9NLG) | moderate |
+| The Promise of Access — Daniel Greene | amazon | 12 | [evidence](https://www.amazon.com/dp/0262542331) | moderate |
+| Lost in Math: How Beauty Leads Physics Astray — Sabine Hossenfelder | amazon | 1314 | [evidence](https://www.amazon.com/dp/0465094252) | moderate |
+| Rationality: From AI to Zombies — Eliezer Yudkowsky | amazon | 239 | [evidence](https://www.amazon.com/dp/B00ULP6EW2) | moderate |
+| Braiding Sweetgrass — Robin Wall Kimmerer | amazon | 22763 | [evidence](https://www.amazon.com/dp/B07Z1DZC9D) | moderate |
+| The Great Degeneration: How Institutions Decay and Economies Die — Niall Ferguson | amazon | 777 | [evidence](https://www.amazon.com/dp/0143125524) | moderate |
+| Argumentative Indian — Amartya Sen | amazon | 1406 | [evidence](https://www.amazon.com/dp/031242602X) | moderate |
+| Days of Rage — Bryan Burrough | amazon | 663 | [evidence](https://www.amazon.com/dp/1594204292) | moderate |
+| The Sleepwalkers: A History of Man's Changing Vision of the Universe — Arthur Koestler, Herbert Butterfield | amazon | 224 | [evidence](https://www.amazon.com/dp/0140192468) | moderate |
+| Secondhand Time: The Last of the Soviets — Svetlana Alexievich, Bela Shayevich | amazon | 1589 | [evidence](https://www.amazon.com/dp/0399588809) | moderate |
+<a id="rem-u1535"></a>
+
+## The Future of Humanity: Terraforming Mars, Interstellar Travel, Immortality and Our Destiny Beyond Earth — Michio Kaku
+
+Sources: 204. Prior review: analysis/analysis_scorebonus_261024_0106.md#rem-u1535. 
+
+Added amazon: **2687**. [Source](https://www.amazon.com/dp/0385542763); [saved evidence](../data/cheap100_261102/raw/amazon-1662-parallel-fast.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 11.00 | 6.05 |
+| Systems integration | 11.00 | 7.12 |
+| Transferable strategic utility | 6.00 | 6.00 |
+| Mechanistic and causal depth | 5.00 | 5.00 |
+| Information density | 6.50 | 4.23 |
+| Durability | 4.00 | 4.00 |
+| Direct domain fit | 4.00 | 4.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.00 | 1.00 |
+
+T11 0.00; T12 0.00; H13 0.00; P14 -0.80; O15 0.00; REL 0.00; RD 0.87.
+
+R&D inputs: reference pages 16 (OL26943356M); total pages 368 (/books/OL29556415M). 16 / 368 = 4.35%; R&D 0.87. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **43.96 → 43.96**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="bg930758ee2a"></a>
+
+## Identity — Francis Fukuyama
+
+Sources: 148, 178, 263. Prior review: analysis/analysis_mchale_261024_1455.md#bg930758ee2a. 
+
+Added amazon: **1036**. [Source](https://www.amazon.com/dp/0374129290); [saved evidence](../data/cheap100_261102/raw/amazon-1680-parallel-fast.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 14.00 | 9.80 |
+| Systems integration | 11.00 | 7.12 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 8.00 | 6.40 |
+| Durability | 7.00 | 7.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 -10.00; H13 0.00; P14 -0.80; O15 0.00; REL 2.83; RD 1.74.
+
+R&D inputs: reference pages 19 (OL26966501M); total pages 218 (ISBN:0374129290). 19 / 218 = 8.72%; R&D 1.74. Both counts come from the same catalog record. Ratio confidence: moderate.
+
+Score **40.09 → 40.09**; Poor fit. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="intake-0290"></a>
+
+## The Gathering Storm — Winston S. Churchill
+
+Sources: 212. Prior review: analysis/analysis_scorebonus_261024_0106.md#intake-0290. 
+
+Added amazon: **2**. [Source](https://www.amazon.com/dp/B0082DV5P6); [saved evidence](../data/cheapnext100_261102/raw/amazon-1703-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 13.00 | 9.94 |
+| Transferable strategic utility | 10.00 | 10.00 |
+| Mechanistic and causal depth | 8.00 | 8.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 4.00 | 4.00 |
+| Expert authority | 4.50 | 4.50 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 0.00; T12 -10.00; H13 -3.44; P14 -7.80; O15 -20.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 800 (Edition:Houghton-Mifflin-1948). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **45.35 → 25.35**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="progress-0247"></a>
+
+## Programs and Manifestoes on 20th-Century Architecture — Ulrich Conrads
+
+Sources: 232. Prior review: analysis/analysis_metadata1000_261025_1546.md#progress-0247. 
+
+Added amazon: **85**. [Source](https://www.amazon.com/dp/0262530309); [saved evidence](../data/cheapnext100_261102/raw/amazon-1709-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 16.00 | 12.80 |
+| Systems integration | 8.00 | 3.76 |
+| Transferable strategic utility | 7.00 | 7.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 7.50 | 5.63 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.00 | 2.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 0.00; H13 -2.64; P14 -6.20; O15 -10.00; REL 0.00; RD 0.42.
+
+R&D inputs: reference pages 4 (OL17934128M); total pages 192 (/books/OL17934128M). 4 / 192 = 2.08%; R&D 0.42. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **45.27 → 35.27**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="bgce317e50e7"></a>
+
+## eBoys — Randall E. Stross
+
+Sources: 168. Prior review: analysis/analysis_scorebonus_261024_0106.md#bgce317e50e7. 
+
+Added amazon: **168**. [Source](https://www.amazon.com/dp/0812930959); [saved evidence](../data/cheapnext100_261102/raw/amazon-1714-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 11.00 | 7.12 |
+| Transferable strategic utility | 10.00 | 10.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 6.00 | 6.00 |
+| Direct domain fit | 4.00 | 4.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 -10.00; H13 -1.08; P14 -2.60; O15 -5.00; REL 0.00; RD 0.61.
+
+R&D inputs: reference pages 10 (OL6900043M); total pages 327 (ISBN:0812930959). 10 / 327 = 3.06%; R&D 0.61. Both counts come from the same catalog record. Ratio confidence: moderate.
+
+Score **45.20 → 40.20**; Poor fit. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="g1005d"></a>
+
+## The Age of Reason Begins — Will Durant; Ariel Durant
+
+Sources: 122, 151. Prior review: analysis/analysis_metadata2_261025_1921.md#g1005d. 
+
+Added amazon: **40**. [Source](https://www.amazon.com/dp/0671013203); [saved evidence](../data/cheapnext100_261102/raw/amazon-1727-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 13.00 | 8.45 |
+| Systems integration | 15.00 | 13.24 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 5.00 | 2.50 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 5.00 | 5.00 |
+| Expert authority | 3.00 | 3.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 0.00; H13 -12.00; P14 -6.50; O15 -10.00; REL 2.00; RD 0.90.
+
+R&D inputs: reference pages 33 (ISBN:0671013203); total pages 731 (ISBN:9781451647648). 33 / 731 = 4.51%; R&D 0.90. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **45.09 → 35.09**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="g1018"></a>
+
+## Bloodlands — Timothy Snyder
+
+Sources: 122, 189, 200, 276. Prior review: analysis/analysis_metadata2_261025_1921.md#g1018. 
+
+Added amazon: **3250**. [Source](https://www.amazon.com/dp/0465031471); [saved evidence](../data/cheapnext100_261102/raw/amazon-1729-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 16.00 | 12.80 |
+| Systems integration | 12.00 | 8.47 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 8.00 | 8.00 |
+| Information density | 6.00 | 3.60 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 4.00 | 4.00 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 -10.00; T12 -10.00; H13 -3.24; P14 -1.60; O15 0.00; REL 3.46; RD 1.53.
+
+R&D inputs: reference pages 40 (ISBN:9780465002399); total pages 522 (OL37070223M). 40 / 522 = 7.66%; R&D 1.53. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **45.03 → 45.03**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="n5992cd6384"></a>
+
+## Everyday Utopia — Kristen R. Ghodsee
+
+Sources: 132. Prior review: analysis/analysis_metadata3000_261025_2354.md#n5992cd6384. 
+
+Added amazon: **59**. [Source](https://www.amazon.com/dp/1982190213); [saved evidence](../data/cheapnext100_261102/raw/amazon-1730-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 13.00 | 8.45 |
+| Systems integration | 12.00 | 8.47 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 7.00 | 7.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.00 | 1.00 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -0.30; O15 -10.00; REL 0.00; RD 2.50.
+
+R&D inputs: reference pages 44 (Harvard:99156772580503941); total pages 352 (ISBN:9781982190217). 44 / 352 = 12.50%; R&D 2.50. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **45.02 → 35.02**; Poor fit. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="rem-u0174"></a>
+
+## Steal Like An Artist — Austin Kleon
+
+Sources: 177, 215, 251. Prior review: analysis/analysis_sivers_261024_1455.md#rem-u0174. 
+
+Added amazon: **20328**. [Source](https://www.amazon.com/dp/0761169253); [saved evidence](../data/cheapnext100_261102/raw/amazon-1731-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 12.00 | 7.20 |
+| Systems integration | 5.00 | 1.47 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 5.00 | 5.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 3.00 | 3.00 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 0.00; H13 0.00; P14 -1.40; O15 0.00; REL 2.83; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 176 (/books/OL34143706M). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **45.00 → 45.00**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="intake-0312"></a>
+
+## And a Bottle of Rum — Wayne Curtis
+
+Sources: 213. Prior review: analysis/analysis_metadata2_261025_1921.md#intake-0312. 
+
+Added amazon: **819**. [Source](https://www.amazon.com/dp/0307338622); [saved evidence](../data/cheapnext100_261102/raw/amazon-1735-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 16.00 | 12.80 |
+| Systems integration | 10.00 | 5.88 |
+| Transferable strategic utility | 6.00 | 6.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 7.50 | 5.63 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 3.50 | 3.50 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 0.00; H13 0.00; P14 -2.00; O15 -5.00; REL 0.00; RD 0.59.
+
+R&D inputs: reference pages 9 (ISBN:9781400051670); total pages 304 (/books/OL9428816M). 9 / 304 = 2.96%; R&D 0.59. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **44.90 → 39.90**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="progress-0473"></a>
+
+## River Town — Peter Hessler
+
+Sources: 232, 251, 290. Prior review: analysis/analysis_subcritical_261025_2011.md#progress-0473. 
+
+Added amazon: **1279**. [Source](https://www.amazon.com/dp/0060855029); [saved evidence](../data/cheapnext100_261102/raw/amazon-1739-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 17.00 | 14.45 |
+| Systems integration | 9.00 | 4.76 |
+| Transferable strategic utility | 6.00 | 6.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 8.00 | 6.40 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 1.00 | 1.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 -10.00; T12 0.00; H13 -1.12; P14 -2.50; O15 0.00; REL 2.83; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 399 (/books/OL9237880M). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **44.82 → 44.82**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="n928f28537f"></a>
+
+## Reassembling the Social — Bruno Latour
+
+Sources: 134, 291. Prior review: analysis/analysis_bretvictor_261025_2011.md#n928f28537f. 
+
+Added amazon: **105**. [Source](https://www.amazon.com/dp/0199256055); [saved evidence](../data/cheapnext100_261102/raw/amazon-1749-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 13.00 | 8.45 |
+| Systems integration | 11.00 | 7.12 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 6.00 | 3.60 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 2.00 | 2.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -2.10; O15 -5.00; REL 2.00; RD 1.15.
+
+R&D inputs: reference pages 18 (GoogleBooks:BgJREAAAQBAJ); total pages 312 (OL7404030M). 18 / 312 = 5.77%; R&D 1.15. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **44.72 → 39.72**; Poor fit. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="intake-0269"></a>
+
+## The Big Oyster — Mark Kurlansky
+
+Sources: 212, 276. Prior review: analysis/analysis_metadata2_261025_1921.md#intake-0269. 
+
+Added amazon: **765**. [Source](https://www.amazon.com/dp/0345476395); [saved evidence](../data/cheapnext100_261102/raw/amazon-1751-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 16.00 | 12.80 |
+| Systems integration | 11.00 | 7.12 |
+| Transferable strategic utility | 7.00 | 7.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 7.50 | 5.63 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 0.00; H13 -5.04; P14 -2.00; O15 -5.00; REL 2.00; RD 0.71.
+
+R&D inputs: reference pages 12 (ISBN:0345476387); total pages 336 (/books/OL9420789M). 12 / 336 = 3.57%; R&D 0.71. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **44.72 → 39.72**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="rest-18-16"></a>
+
+## The State of Affairs — Esther Perel
+
+Sources: 269. Prior review: analysis/analysis_metadata2_261025_1921.md#rest-18-16. 
+
+Added amazon: **5491**. [Source](https://www.amazon.com/dp/0062322591); [saved evidence](../data/cheapnext100_261102/raw/amazon-1752-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 14.00 | 9.80 |
+| Systems integration | 7.00 | 2.88 |
+| Transferable strategic utility | 6.00 | 6.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 7.00 | 7.00 |
+| Direct domain fit | 0.00 | 0.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 0.00; H13 0.00; P14 -0.90; O15 0.00; REL 0.00; RD 0.50.
+
+R&D inputs: reference pages 8 (ISBN:9780062322586); total pages 319 (The State of Affairs; edition date unverified). 8 / 319 = 2.51%; R&D 0.50. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **44.68 → 44.68**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="bg0c9b85ad20"></a>
+
+## Hitler: Ascent, 1889–1939 — Volker Ullrich
+
+Sources: 162. Prior review: analysis/analysis_metadata2_261025_1921.md#bg0c9b85ad20. 
+
+Added amazon: **1212**. [Source](https://www.amazon.com/dp/1101872055); [saved evidence](../data/cheapnext100_261102/raw/amazon-1756-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 18.00 | 16.20 |
+| Systems integration | 12.00 | 8.47 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 8.00 | 8.00 |
+| Information density | 6.00 | 3.60 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 4.50 | 4.50 |
+| Narrative architecture | 2.60 | 2.60 |
+| Authorial precision | 1.80 | 1.80 |
+
+T11 -10.00; T12 -10.00; H13 -3.48; P14 -1.30; O15 0.00; REL 0.00; RD 4.25.
+
+R&D inputs: reference pages 212 (ISBN:9781101872055); total pages 998 (9780385354387). 212 / 998 = 21.24%; R&D 4.25. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **44.64 → 44.64**; Poor fit. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="complete-474-332"></a>
+
+## To Dye For: How Toxic Fashion Is Making Us Sick--and How We Can Fight Back — Alden Wicker
+
+Sources: 278. Prior review: analysis/analysis_metadata3000_261025_2354.md#complete-474-332. 
+
+Added amazon: **161**. [Source](https://www.amazon.com/dp/0593422619); [saved evidence](../data/cheapnext100_261102/raw/amazon-1759-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 13.00 | 8.45 |
+| Systems integration | 12.00 | 8.47 |
+| Transferable strategic utility | 7.00 | 7.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 7.00 | 7.00 |
+| Direct domain fit | 4.00 | 4.00 |
+| Expert authority | 3.50 | 3.50 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 0.00; H13 0.00; P14 -0.30; O15 -5.00; REL 0.00; RD 1.60.
+
+R&D inputs: reference pages 23 (Harvard:99156893926503941); total pages 288 (GoogleBooks:MUKOEAAAQBAJ). 23 / 288 = 7.99%; R&D 1.60. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **44.62 → 39.62**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="rem-u1552"></a>
+
+## The Seven Daughters of Eve: The Science That Reveals Our Genetic Ancestry — Bryan Sykes
+
+Sources: 204. Prior review: analysis/analysis_scorebonus_261024_0106.md#rem-u1552. 
+
+Added amazon: **1680**. [Source](https://www.amazon.com/dp/0393020185); [saved evidence](../data/cheapnext100_261102/raw/amazon-1760-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 13.00 | 8.45 |
+| Systems integration | 9.00 | 4.76 |
+| Transferable strategic utility | 6.00 | 6.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 6.00 | 6.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 4.50 | 4.50 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 0.00; H13 0.00; P14 -2.50; O15 0.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 320 (/books/OL29597190M). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **44.61 → 44.61**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="progress-0194"></a>
+
+## Two Lucky People — Milton Friedman; Rose Friedman
+
+Sources: 232. Prior review: analysis/analysis_metadata1000_261025_1546.md#progress-0194. 
+
+Added amazon: **19**. [Source](https://www.amazon.com/dp/0226264157); [saved evidence](../data/cheapnext100_261102/raw/amazon-1761-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 16.00 | 12.80 |
+| Systems integration | 11.00 | 7.12 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 6.50 | 4.23 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 4.50 | 4.50 |
+| Narrative architecture | 2.00 | 2.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 -10.00; H13 -1.12; P14 -2.80; O15 -10.00; REL 0.00; RD 0.33.
+
+R&D inputs: reference pages 11 (OL24750384M); total pages 667 (/books/OL9475976M). 11 / 667 = 1.65%; R&D 0.33. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **44.55 → 34.55**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="resume-187-19"></a>
+
+## Technology and the Character of Contemporary Life — Albert Borgmann
+
+Sources: 272. Prior review: analysis/analysis_ezrascience_261025_1104.md#resume-187-19. 
+
+Added amazon: **26**. [Source](https://www.amazon.com/dp/0226066290); [saved evidence](../data/cheapnext100_261102/raw/amazon-1762-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 13.00 | 8.45 |
+| Systems integration | 11.00 | 7.12 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 5.00 | 5.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.00 | 2.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -4.20; O15 -10.00; REL 0.00; RD 2.78.
+
+R&D inputs: reference pages 42 (ISBN:0226066282); total pages 302 (ISBN:0226066282). 42 / 302 = 13.91%; R&D 2.78. Both counts come from the same catalog record. Ratio confidence: moderate.
+
+Score **44.55 → 34.55**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="rem-u0855"></a>
+
+## The Affluent Society — John Kenneth Galbraith
+
+Sources: 187. Prior review: analysis/analysis_metadata2_261025_1921.md#rem-u0855. 
+
+Added amazon: **280**. [Source](https://www.amazon.com/dp/0395925002); [saved evidence](../data/cheapnext100_261102/raw/amazon-1775-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 14.00 | 9.80 |
+| Systems integration | 12.00 | 8.47 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 7.50 | 5.63 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -6.80; O15 -5.00; REL 0.00; RD 0.80.
+
+R&D inputs: reference pages 11 (ISBN:9781598530773); total pages 276 (/books/OL62086280M). 11 / 276 = 3.99%; R&D 0.80. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **44.39 → 39.39**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="g0799"></a>
+
+## Economics in One Lesson — Henry Hazlitt
+
+Sources: 120, 187, 196, 197, 208, 261, 294. Prior review: analysis/analysis_karpathy_261025_2011.md#g0799. 
+
+Added amazon: **4848**. [Source](https://www.amazon.com/dp/0517548232); [saved evidence](../data/cheapnext100_261102/raw/amazon-1777-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 12.00 | 7.20 |
+| Systems integration | 10.00 | 5.88 |
+| Transferable strategic utility | 10.00 | 10.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 9.00 | 8.10 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.00 | 1.00 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -8.00; O15 0.00; REL 4.90; RD 0.29.
+
+R&D inputs: reference pages 3 (OL4736963M); total pages 205 (OL8359230M). 3 / 205 = 1.46%; R&D 0.29. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **44.37 → 44.37**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="finish-163-21"></a>
+
+## King Solomon's Ring — Konrad Lorenz
+
+Sources: 272. Prior review: analysis/analysis_metadata1000_261025_1546.md#finish-163-21. 
+
+Added amazon: **108**. [Source](https://www.amazon.com/dp/1639235612); [saved evidence](../data/cheapnext100_261102/raw/amazon-1782-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 7.00 | 2.88 |
+| Transferable strategic utility | 6.00 | 6.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 8.00 | 6.40 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 0.00; H13 0.00; P14 -7.70; O15 -5.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 202 (OL6110975M). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **44.33 → 39.33**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="rem-u1577"></a>
+
+## The Soul of an Octopus: A Surprising Exploration into the Wonder of Consciousness — Sy Montgomery
+
+Sources: 204. Prior review: analysis/analysis_scorebonus_261024_0106.md#rem-u1577. 
+
+Added amazon: **10713**. [Source](https://www.amazon.com/dp/1451697724); [saved evidence](../data/cheapnext100_261102/raw/amazon-1783-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 14.00 | 9.80 |
+| Systems integration | 8.00 | 3.76 |
+| Transferable strategic utility | 5.00 | 5.00 |
+| Mechanistic and causal depth | 5.00 | 5.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 7.00 | 7.00 |
+| Direct domain fit | 1.00 | 1.00 |
+| Expert authority | 3.50 | 3.50 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 0.00; T12 0.00; H13 0.00; P14 -1.10; O15 0.00; REL 0.00; RD 0.46.
+
+R&D inputs: reference pages 6 (OL27182716M); total pages 261 (/books/OL27182716M). 6 / 261 = 2.30%; R&D 0.46. Both counts come from the same catalog record. Ratio confidence: moderate.
+
+Score **44.32 → 44.32**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="complete-463-329"></a>
+
+## Hooked: Food, Free Will, and How the Food Giants Exploit Our Addictions — Michael Moss
+
+Sources: 278, 301. Prior review: analysis/analysis_czarandy_261025_2011.md#complete-463-329. 
+
+Added amazon: **1187**. [Source](https://www.amazon.com/dp/0812997298); [saved evidence](../data/cheapnext100_261102/raw/amazon-1784-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 13.00 | 8.45 |
+| Systems integration | 12.00 | 8.47 |
+| Transferable strategic utility | 7.00 | 7.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 7.00 | 7.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 0.00; H13 0.00; P14 -0.50; O15 0.00; REL 2.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 304 (GoogleBooks:Mo2TEAAAQBAJ). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **44.32 → 44.32**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="shelf-e842272b6538"></a>
+
+## China Road — Rob Gifford
+
+Sources: 251. Prior review: analysis/analysis_metadata2_261025_1921.md#shelf-e842272b6538. 
+
+Added amazon: **385**. [Source](https://www.amazon.com/dp/0812975243); [saved evidence](../data/cheapnext100_261102/raw/amazon-1785-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 11.05 | 7.18 |
+| Transferable strategic utility | 8.25 | 8.25 |
+| Mechanistic and causal depth | 7.20 | 7.20 |
+| Information density | 7.00 | 4.90 |
+| Durability | 6.30 | 6.30 |
+| Direct domain fit | 3.85 | 3.85 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.40 | 2.40 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 0.00; H13 -0.84; P14 -1.90; O15 -5.00; REL 0.00; RD 0.22.
+
+R&D inputs: reference pages 4 (ISBN:9781400064670); total pages 368 (OL11348742M). 4 / 368 = 1.09%; R&D 0.22. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **44.31 → 39.31**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="intake-0258"></a>
+
+## The Cheese and the Worms — Carlo Ginzburg
+
+Sources: 212. Prior review: analysis/analysis_metadata3000_261025_2354.md#intake-0258. 
+
+Added amazon: **334**. [Source](https://www.amazon.com/dp/0801843871); [saved evidence](../data/cheapnext100_261102/raw/amazon-1786-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 18.00 | 16.20 |
+| Systems integration | 8.00 | 3.76 |
+| Transferable strategic utility | 6.00 | 6.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 8.00 | 6.40 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 1.00 | 1.00 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 0.00; H13 -12.00; P14 -5.00; O15 -5.00; REL 0.00; RD 3.93.
+
+R&D inputs: reference pages 44 (Harvard:990032336640203941); total pages 224 (ISBN:9781421454634). 44 / 224 = 19.64%; R&D 3.93. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **44.29 → 39.29**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="shelf-ba78a5da0896"></a>
+
+## What’s in It for Them? — Joe Polish
+
+Sources: 251. Prior review: analysis/analysis_metadata1000_261025_1546.md#shelf-ba78a5da0896. 
+
+Added amazon: **301**. [Source](https://www.amazon.com/dp/1401960103); [saved evidence](../data/cheapnext100_261102/raw/amazon-1788-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 12.00 | 7.20 |
+| Systems integration | 8.50 | 4.25 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 5.00 | 2.50 |
+| Durability | 6.30 | 6.30 |
+| Direct domain fit | 2.10 | 2.10 |
+| Expert authority | 3.50 | 3.50 |
+| Narrative architecture | 2.40 | 2.40 |
+| Authorial precision | 1.40 | 1.40 |
+
+T11 0.00; T12 0.00; H13 0.00; P14 -0.40; O15 -5.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 280 (GoogleBooks:LZlyEAAAQBAJ). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **44.25 → 39.25**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="n59b8bdd5c1"></a>
+
+## Lies My Teacher Told Me — James W. Loewen
+
+Sources: 132, 201, 215, 291, 301. Prior review: analysis/analysis_bretvictor_261025_2011.md#n59b8bdd5c1. 
+
+Added amazon: **4699**. [Source](https://www.amazon.com/dp/1620973928); [saved evidence](../data/cheapnext100_261102/raw/amazon-1791-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 14.00 | 9.80 |
+| Systems integration | 8.00 | 3.76 |
+| Transferable strategic utility | 7.00 | 7.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 0.00; H13 0.00; P14 -3.10; O15 0.00; REL 4.00; RD 3.33.
+
+R&D inputs: reference pages 74 (OL17243223M); total pages 444 (OL17243223M). 74 / 444 = 16.67%; R&D 3.33. Both counts come from the same catalog record. Ratio confidence: moderate.
+
+Score **44.20 → 44.20**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="q0980"></a>
+
+## Three Guineas — Virginia Woolf
+
+Sources: 6. Prior review: analysis/analysis_metadata3000_261025_2354.md#q0980. 
+
+Added amazon: **113**. [Source](https://www.amazon.com/dp/0156901773); [saved evidence](../data/cheapnext100_261102/raw/amazon-1792-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 14.00 | 9.80 |
+| Systems integration | 11.33 | 7.56 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 7.06 | 7.06 |
+| Information density | 7.00 | 4.90 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 2.00 | 2.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -8.80; O15 -5.00; REL 0.00; RD 4.68.
+
+R&D inputs: reference pages 44 (Harvard:990009407170203941); total pages 188 (OL28398228M). 44 / 188 = 23.40%; R&D 4.68. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **44.20 → 39.20**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="g0522"></a>
+
+## Same As Ever — Morgan Housel
+
+Sources: 117, 132, 301. Prior review: analysis/analysis_czarandy_261025_2011.md#g0522. 
+
+Added amazon: **4524**. [Source](https://www.amazon.com/dp/0593332709); [saved evidence](../data/cheapnext100_261102/raw/amazon-1796-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 13.00 | 8.45 |
+| Systems integration | 9.00 | 4.76 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 3.00 | 3.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -0.30; O15 0.00; REL 2.83; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 256 (ISBN:0593332709). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **44.14 → 44.14**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="g1137"></a>
+
+## Bitcoin Billionaires — Ben Mezrich
+
+Sources: 123, 182. Prior review: analysis/analysis_scorebonus_261024_0106.md#g1137. 
+
+Added reference: **2**. [Source](https://collection.sl.nsw.gov.au/record/74VKVxr3M3yg); [saved evidence](../data/cheapnext100_261102/raw/reference-1805-parallel-fast-focused.json). Counts the expressly catalogued reference section only; may omit separate notes. Does not count the index. This is metadata evidence, not full-text inspection. No reference-page count is inferred from total length.
+
+Ranges: Bibliographical references: 275–276.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 10.00 | 5.00 |
+| Systems integration | 9.00 | 4.76 |
+| Transferable strategic utility | 6.00 | 6.00 |
+| Mechanistic and causal depth | 5.00 | 5.00 |
+| Information density | 6.00 | 3.60 |
+| Durability | 5.00 | 5.00 |
+| Direct domain fit | 4.00 | 4.00 |
+| Expert authority | 3.00 | 3.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.00 | 1.00 |
+
+T11 0.00; T12 -10.00; H13 -0.36; P14 -0.70; O15 0.00; REL 2.00; RD 0.14.
+
+R&D inputs: reference pages 2 (Source:https://collection.sl.nsw.gov.au/record/74VKVxr3M3yg); total pages 288 (ISBN:1250217768). 2 / 288 = 0.69%; R&D 0.14. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **31.30 → 31.44**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="shelf-5fb0bbaf8b07"></a>
+
+## Dior by Dior: The Autobiography of Christian Dior — Christian Dior
+
+Sources: 261. Prior review: analysis/analysis_founders_261024_1455.md#shelf-5fb0bbaf8b07. 
+
+Added amazon: **384**. [Source](https://www.amazon.com/dp/1851779787); [saved evidence](../data/cheapnext100_261102/raw/amazon-1800-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 13.00 | 8.45 |
+| Systems integration | 11.05 | 7.18 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 6.60 | 6.60 |
+| Information density | 6.50 | 4.23 |
+| Durability | 7.20 | 7.20 |
+| Direct domain fit | 3.85 | 3.85 |
+| Expert authority | 3.75 | 3.75 |
+| Narrative architecture | 2.25 | 2.25 |
+| Authorial precision | 1.40 | 1.40 |
+
+T11 0.00; T12 0.00; H13 -2.80; P14 -7.00; O15 -5.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 178 (OL8972292M). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **44.11 → 39.11**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="shelf-bdc88f01a469"></a>
+
+## Bowerman and the Men of Oregon: The Story of Oregon's Legendary Coach and Nike's Cofounder — Kenny Moore
+
+Sources: 261. Prior review: analysis/analysis_founders_261024_1455.md#shelf-bdc88f01a469. 
+
+Added amazon: **392**. [Source](https://www.amazon.com/dp/1594861900); [saved evidence](../data/cheapnext100_261102/raw/amazon-1803-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 10.20 | 6.12 |
+| Transferable strategic utility | 9.75 | 9.75 |
+| Mechanistic and causal depth | 7.20 | 7.20 |
+| Information density | 6.50 | 4.23 |
+| Durability | 7.20 | 7.20 |
+| Direct domain fit | 3.85 | 3.85 |
+| Expert authority | 3.75 | 3.75 |
+| Narrative architecture | 2.40 | 2.40 |
+| Authorial precision | 1.40 | 1.40 |
+
+T11 -10.00; T12 0.00; H13 -1.08; P14 -2.00; O15 -5.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 480 (OL8879624M). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **44.07 → 39.07**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="n1c1b7d9578"></a>
+
+## The Art of Looking Sideways — Alan Fletcher
+
+Sources: 135. Prior review: analysis/analysis_scorebonus_261024_0106.md#n1c1b7d9578. 
+
+Added amazon: **297**. [Source](https://www.amazon.com/dp/0714834491); [saved evidence](../data/cheapnext100_261102/raw/amazon-1805-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 14.00 | 9.80 |
+| Systems integration | 8.00 | 3.76 |
+| Transferable strategic utility | 6.00 | 6.00 |
+| Mechanistic and causal depth | 5.00 | 5.00 |
+| Information density | 5.00 | 2.50 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 2.00 | 2.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 0.00; H13 0.00; P14 -2.50; O15 -5.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 534 (ISBN:9780714834498). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **44.06 → 39.06**; Poor fit. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="shelf-8209f42c25db"></a>
+
+## Revolusi — David van Reybrouck
+
+Sources: 252. Prior review: analysis/analysis_metadata1000_261025_1546.md#shelf-8209f42c25db. 
+
+Added amazon: **303**. [Source](https://www.amazon.com/dp/1324073691); [saved evidence](../data/cheapnext100_261102/raw/amazon-1822-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 16.00 | 12.80 |
+| Systems integration | 13.60 | 10.88 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 8.40 | 8.40 |
+| Information density | 8.00 | 6.40 |
+| Durability | 8.10 | 8.10 |
+| Direct domain fit | 3.50 | 3.50 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.70 | 2.70 |
+| Authorial precision | 1.60 | 1.60 |
+
+T11 -10.00; T12 -10.00; H13 -2.84; P14 -0.60; O15 -5.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 656 (GoogleBooks:4QjHEAAAQBAJ). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **43.94 → 38.94**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="nb01239545a"></a>
+
+## Mathematics for Human Flourishing — Francis Su
+
+Sources: 139. Prior review: analysis/analysis_scorebonus_261024_0106.md#nb01239545a. 
+
+Added amazon: **429**. [Source](https://www.amazon.com/dp/0300237138); [saved evidence](../data/cheapnext100_261102/raw/amazon-1823-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 9.00 | 4.76 |
+| Transferable strategic utility | 6.00 | 6.00 |
+| Mechanistic and causal depth | 5.00 | 5.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 5.00 | 5.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -0.60; O15 -5.00; REL 0.00; RD 1.11.
+
+R&D inputs: reference pages 16 (GoogleBooks:iS7EDwAAQBAJ); total pages 288 (ISBN:9780300237139). 16 / 288 = 5.56%; R&D 1.11. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **43.93 → 38.93**; Poor fit. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="shelf-fe387ee3abdc"></a>
+
+## Galileo's Middle Finger: Heretics, Activists, and the Search for Justice in Science — Alice Dreger
+
+Sources: 263, 289. Prior review: analysis/analysis_nikomc_261025_2011.md#shelf-fe387ee3abdc. 
+
+Added amazon: **503**. [Source](https://www.amazon.com/dp/1594206082); [saved evidence](../data/cheapnext100_261102/raw/amazon-1826-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 11.05 | 7.18 |
+| Transferable strategic utility | 9.75 | 9.75 |
+| Mechanistic and causal depth | 7.20 | 7.20 |
+| Information density | 7.00 | 4.90 |
+| Durability | 7.20 | 7.20 |
+| Direct domain fit | 4.55 | 4.55 |
+| Expert authority | 4.25 | 4.25 |
+| Narrative architecture | 2.55 | 2.55 |
+| Authorial precision | 1.60 | 1.60 |
+
+T11 -10.00; T12 -10.00; H13 0.00; P14 -1.10; O15 -5.00; REL 2.00; RD 2.55.
+
+R&D inputs: reference pages 43 (OL27176877M); total pages 337 (OL27176877M). 43 / 337 = 12.76%; R&D 2.55. Both counts come from the same catalog record. Ratio confidence: moderate.
+
+Score **43.88 → 38.88**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="intake-0452"></a>
+
+## Selected Non-Fictions — Jorge Luis Borges
+
+Sources: 215, 259, 290. Prior review: analysis/analysis_subcritical_261025_2011.md#intake-0452. 
+
+Added amazon: **101**. [Source](https://www.amazon.com/dp/0670849472); [saved evidence](../data/cheapnext100_261102/raw/amazon-1830-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 14.00 | 9.80 |
+| Systems integration | 6.00 | 2.12 |
+| Transferable strategic utility | 4.00 | 4.00 |
+| Mechanistic and causal depth | 3.00 | 3.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 1.00 | 1.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 0.00; T12 0.00; H13 0.00; P14 -2.70; O15 -5.00; REL 2.83; RD 0.89.
+
+R&D inputs: reference pages 25 (HathiTrust:012281057); total pages 560 (/books/OL7352446M). 25 / 560 = 4.46%; R&D 0.89. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **43.84 → 38.84**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="shelves-elementsmoral"></a>
+
+## The Elements of Moral Philosophy — James Rachels; later editions revised by Stuart Rachels
+
+Sources: 294. Prior review: analysis/analysis_karpathy_261025_2011.md#shelves-elementsmoral. 
+
+Added amazon: **390**. [Source](https://www.amazon.com/dp/0078119065); [saved evidence](../data/cheapnext100_261102/raw/amazon-1832-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 16.00 | 12.80 |
+| Systems integration | 7.00 | 2.88 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 4.50 | 4.50 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -4.00; O15 -5.00; REL 0.00; RD 0.74.
+
+R&D inputs: reference pages 8 (ISBN:0070510989; second edition 1993); total pages 216 (ISBN:0070510989; second edition 1993). 8 / 216 = 3.70%; R&D 0.74. Both counts come from the same catalog record. Ratio confidence: moderate.
+
+Score **43.82 → 38.82**; Poor fit. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="g0514"></a>
+
+## In-N-Out Burger — Stacy Perman
+
+Sources: 117, 261. Prior review: analysis/analysis_founders_261024_1455.md#g0514. 
+
+Added amazon: **514**. [Source](https://www.amazon.com/dp/0061346713); [saved evidence](../data/cheapnext100_261102/raw/amazon-1833-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 10.00 | 5.88 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 6.00 | 3.60 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 3.00 | 3.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 0.00; H13 -0.72; P14 -1.70; O15 -5.00; REL 2.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 345 (ISBN:9780061346712). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **43.81 → 38.81**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="rem-u0253"></a>
+
+## On Liberty — John Stuart Mill
+
+Sources: 177, 276, 293. Prior review: analysis/analysis_mcateer_261025_2011.md#rem-u0253. 
+
+Added amazon: **467**. [Source](https://www.amazon.com/dp/0140432078); [saved evidence](../data/cheapnext100_261102/raw/amazon-1841-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 16.00 | 12.80 |
+| Systems integration | 8.00 | 3.76 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 8.00 | 8.00 |
+| Information density | 8.00 | 6.40 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -10.00; O15 -5.00; REL 2.83; RD 0.42.
+
+R&D inputs: reference pages 4 (ISBN:9780141441474); total pages 192 (ISBN:9780141046945). 4 / 192 = 2.08%; R&D 0.42. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **43.71 → 38.71**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="complete-295-269"></a>
+
+## Cosa Nostra: A History of the Sicilian Mafia — John Dickie
+
+Sources: 276. Prior review: analysis/analysis_metadata2_261025_1921.md#complete-295-269. 
+
+Added amazon: **1130**. [Source](https://www.amazon.com/dp/1403970424); [saved evidence](../data/cheapnext100_261102/raw/amazon-1843-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 16.00 | 12.80 |
+| Systems integration | 13.00 | 9.94 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 8.00 | 8.00 |
+| Information density | 8.00 | 6.40 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 4.50 | 4.50 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 -10.00; H13 0.00; P14 -2.20; O15 0.00; REL 0.00; RD 0.76.
+
+R&D inputs: reference pages 14 (ISBN:0340824344); total pages 370 (GoogleBooks:KkzoBgAAQBAJ). 14 / 370 = 3.78%; R&D 0.76. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **43.70 → 43.70**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="g1301"></a>
+
+## The British Are Coming — Rick Atkinson
+
+Sources: 126, 201. Prior review: analysis/analysis_metadata3000_261025_2354.md#g1301. 
+
+Added amazon: **5793**. [Source](https://www.amazon.com/dp/1250231329); [saved evidence](../data/cheapnext100_261102/raw/amazon-1847-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 18.00 | 16.20 |
+| Systems integration | 12.00 | 8.47 |
+| Transferable strategic utility | 10.00 | 10.00 |
+| Mechanistic and causal depth | 9.00 | 9.00 |
+| Information density | 6.00 | 3.60 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 5.00 | 5.00 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 -10.00; T12 -10.00; H13 -9.96; P14 -0.70; O15 0.00; REL 2.00; RD 1.08.
+
+R&D inputs: reference pages 43 (Harvard:99153813557703941); total pages 800 (ISBN:1250231329). 43 / 800 = 5.38%; R&D 1.08. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **43.69 → 43.69**; Poor fit. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="bg03c1900c52"></a>
+
+## The Cultural Revolution — Frank Dikötter
+
+Sources: 166, 212, 259, 290. Prior review: analysis/analysis_subcritical_261025_2011.md#bg03c1900c52. 
+
+Added amazon: **813**. [Source](https://www.amazon.com/dp/1632864231); [saved evidence](../data/cheapnext100_261102/raw/amazon-1848-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 16.00 | 12.80 |
+| Systems integration | 10.00 | 5.88 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 8.00 | 8.00 |
+| Information density | 8.00 | 6.40 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 4.50 | 4.50 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 -10.00; H13 -2.00; P14 -1.00; O15 -5.00; REL 3.46; RD 2.64.
+
+R&D inputs: reference pages 57 (OL27208867M); total pages 432 (ISBN:1632864231). 57 / 432 = 13.19%; R&D 2.64. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **43.69 → 38.69**; Poor fit. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="g0809"></a>
+
+## Human Action — Ludwig von Mises
+
+Sources: 120. Prior review: analysis/analysis_scorebonus_261024_0106.md#g0809. 
+
+Added amazon: **325**. [Source](https://www.amazon.com/dp/0930073185); [saved evidence](../data/cheapnext100_261102/raw/amazon-1849-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 11.00 | 6.05 |
+| Systems integration | 15.00 | 13.24 |
+| Transferable strategic utility | 11.00 | 11.00 |
+| Mechanistic and causal depth | 8.00 | 8.00 |
+| Information density | 5.00 | 2.50 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 4.00 | 4.00 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 2.00 | 2.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -8.60; O15 -5.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 912 (ISBN:1610161459). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **43.69 → 38.69**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="q1040"></a>
+
+## Chasing the Scream — Johann Hari
+
+Sources: 5, 6, 276. Prior review: analysis/analysis_misiti_261024_2307.md#q1040. 
+
+Added amazon: **5835**. [Source](https://www.amazon.com/dp/1620408902); [saved evidence](../data/cheapnext100_261102/raw/amazon-1853-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 11.00 | 6.05 |
+| Systems integration | 12.75 | 9.56 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 7.06 | 7.06 |
+| Information density | 6.00 | 3.60 |
+| Durability | 7.00 | 7.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 2.00 | 2.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.00 | 1.00 |
+
+T11 -10.00; T12 0.00; H13 0.00; P14 -1.10; O15 0.00; REL 2.83; RD 0.65.
+
+R&D inputs: reference pages 13 (OL26885938M); total pages 400 (ISBN:1408857847). 13 / 400 = 3.25%; R&D 0.65. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **43.65 → 43.65**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="g1231"></a>
+
+## Warren Buffett: Inside the Ultimate Money Mind — Robert G. Hagstrom
+
+Sources: 123. Prior review: analysis/analysis_scorebonus_261024_0106.md#g1231. 
+
+Added amazon: **160**. [Source](https://www.amazon.com/dp/1119714591); [saved evidence](../data/cheapnext100_261102/raw/amazon-1856-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 13.00 | 8.45 |
+| Systems integration | 10.00 | 5.88 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 4.00 | 4.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -0.50; O15 -5.00; REL 0.00; RD 0.88.
+
+R&D inputs: reference pages 12 (GoogleBooks:UjAWEAAAQBAJ); total pages 272 (ISBN:9781119714590). 12 / 272 = 4.41%; R&D 0.88. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **43.61 → 38.61**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="bgd471008b5d"></a>
+
+## The Moment of Lift — Melinda Gates
+
+Sources: 148, 150, 270, 293. Prior review: analysis/analysis_mcateer_261025_2011.md#bgd471008b5d. 
+
+Added amazon: **8756**. [Source](https://www.amazon.com/dp/1250313570); [saved evidence](../data/cheapnext100_261102/raw/amazon-1861-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 13.00 | 8.45 |
+| Systems integration | 10.00 | 5.88 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 7.00 | 7.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 3.50 | 3.50 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 0.00; H13 0.00; P14 -0.70; O15 0.00; REL 3.46; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 304 (9781250257727). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **43.50 → 43.50**; Poor fit. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="complete-280-243"></a>
+
+## Making Sense — Sam Harris
+
+Sources: 276, 303. Prior review: analysis/analysis_elitescience_261025_2011.md#complete-280-243. 
+
+Added amazon: **661**. [Source](https://www.amazon.com/dp/0062857789); [saved evidence](../data/cheapnext100_261102/raw/amazon-1867-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 13.00 | 8.45 |
+| Systems integration | 11.00 | 7.12 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 7.00 | 7.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 3.50 | 3.50 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -0.60; O15 -5.00; REL 2.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 464 (GoogleBooks:DYVdzgEACAAJ). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **43.37 → 38.37**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="intake-0006"></a>
+
+## Freedom's Forge — Arthur Herman
+
+Sources: 207, 261, 263, 269, 276. Prior review: analysis/analysis_metadata1000_261025_1546.md#intake-0006. 
+
+Added amazon: **1909**. [Source](https://www.amazon.com/dp/0812982045); [saved evidence](../data/cheapnext100_261102/raw/amazon-1748-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 14.00 | 11.53 |
+| Transferable strategic utility | 12.00 | 12.00 |
+| Mechanistic and causal depth | 10.00 | 10.00 |
+| Information density | 8.00 | 6.40 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 7.00 | 7.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 0.00; H13 -3.24; P14 -1.40; O15 0.00; REL 4.00; RD 0.61.
+
+R&D inputs: reference pages 13 (ISBN:9781400069644); total pages 428 (/books/OL25061346M). 13 / 428 = 3.04%; R&D 0.61. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **65.15 → 65.15**; Selective. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="bgc3559d0548"></a>
+
+## Billion Dollar Whale — Tom Wright and Bradley Hope
+
+Sources: 148, 276, 289. Prior review: analysis/analysis_nikomc_261025_2011.md#bgc3559d0548. 
+
+Added amazon: **7946**. [Source](https://www.amazon.com/dp/031643650X); [saved evidence](../data/cheapnext100_261102/raw/amazon-1715-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 18.00 | 16.20 |
+| Systems integration | 12.00 | 8.47 |
+| Transferable strategic utility | 11.00 | 11.00 |
+| Mechanistic and causal depth | 9.00 | 9.00 |
+| Information density | 8.00 | 6.40 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 0.00; T12 -10.00; H13 -0.32; P14 -0.80; O15 0.00; REL 2.83; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 379 (ISBN:031643650X). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **63.78 → 63.78**; Low priority. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="rest-120-100"></a>
+
+## The Enlightenment: The Pursuit of Happiness 1680–1790 — Ritchie Robertson
+
+Sources: 270. Prior review: analysis/analysis_metadata3000_261025_2354.md#rest-120-100. 
+
+Added amazon: **432**. [Source](https://www.amazon.com/dp/0062410652); [saved evidence](../data/cheapnext100_261102/raw/amazon-1732-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 18.00 | 16.20 |
+| Systems integration | 14.00 | 11.53 |
+| Transferable strategic utility | 10.00 | 10.00 |
+| Mechanistic and causal depth | 9.00 | 9.00 |
+| Information density | 8.00 | 6.40 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 4.00 | 4.00 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 -10.00; H13 -9.44; P14 -0.60; O15 -5.00; REL 0.00; RD 2.26.
+
+R&D inputs: reference pages 111 (CiNii:BC07403466); total pages 984 (The Enlightenment: The Pursuit of Happiness 1680–1790; edition date unverified). 111 / 984 = 11.28%; R&D 2.26. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **57.85 → 52.85**; Low priority. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="n39e60c9354"></a>
+
+## Shop Class as Soulcraft — Matthew B. Crawford
+
+Sources: 130, 291, 299, 301. Prior review: analysis/analysis_bretvictor_261025_2011.md#n39e60c9354. 
+
+Added amazon: **1698**. [Source](https://www.amazon.com/dp/B00273BHPU); [saved evidence](../data/cheapnext100_261102/raw/amazon-1762-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 14.00 | 9.80 |
+| Systems integration | 11.00 | 7.12 |
+| Transferable strategic utility | 11.00 | 11.00 |
+| Mechanistic and causal depth | 8.00 | 8.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 5.00 | 5.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -1.70; O15 0.00; REL 3.46; RD 3.05.
+
+R&D inputs: reference pages 39 (OL23918482M); total pages 256 (9780143117469). 39 / 256 = 15.23%; R&D 3.05. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **57.63 → 57.63**; Low priority. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="g1079"></a>
+
+## The Craft — John Dickie
+
+Sources: 122, 167. Prior review: analysis/analysis_metadata2_261025_1921.md#g1079. 
+
+Added amazon: **748**. [Source](https://www.amazon.com/dp/161039867X); [saved evidence](../data/cheapnext100_261102/raw/amazon-1843-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 16.00 | 12.80 |
+| Systems integration | 13.00 | 9.94 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 6.00 | 3.60 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 4.00 | 4.00 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -0.60; O15 -5.00; REL 2.00; RD 1.69.
+
+R&D inputs: reference pages 42 (Harvard:99155241440003941); total pages 496 (OL28653699M). 42 / 496 = 8.47%; R&D 1.69. Both counts come from the same catalog record. Ratio confidence: moderate.
+
+Score **57.43 → 52.43**; Low priority. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="rem-u1649"></a>
+
+## Consilience: The Unity of Knowledge — Edward O. Wilson
+
+Sources: 205. Prior review: analysis/analysis_scorebonus_261024_0106.md#rem-u1649. 
+
+Added amazon: **461**. [Source](https://www.amazon.com/dp/067976867X); [saved evidence](../data/cheapnext100_261102/raw/amazon-1814-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 15.00 | 13.24 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 8.00 | 6.40 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 4.00 | 4.00 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -2.80; O15 -5.00; REL 0.00; RD 1.35.
+
+R&D inputs: reference pages 26 (OL18306608M); total pages 384 (/books/OL7700946M). 26 / 384 = 6.77%; R&D 1.35. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **56.44 → 51.44**; Low priority. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="g1135"></a>
+
+## The Psychology of Money — Morgan Housel
+
+Sources: 123, 132, 145, 163, 176, 193, 251, 299, 300, 301. Prior review: analysis/analysis_metadata3000_261025_2354.md#g1135. 
+
+Added amazon: **75012**. [Source](https://www.amazon.com/dp/0857197681); [saved evidence](../data/cheapnext100_261102/raw/amazon-1796-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 14.00 | 9.80 |
+| Systems integration | 9.00 | 4.76 |
+| Transferable strategic utility | 10.00 | 10.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 8.00 | 6.40 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 4.00 | 4.00 |
+| Expert authority | 3.00 | 3.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -0.60; O15 0.00; REL 6.00; RD 0.22.
+
+R&D inputs: reference pages 3 (CiNii:BD14186059); total pages 272 (OL60834911M). 3 / 272 = 1.10%; R&D 0.22. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **53.59 → 53.59**; Low priority. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="intake-0291"></a>
+
+## The Second World War — Winston S. Churchill
+
+Sources: 212, 261. Prior review: analysis/analysis_founders_261024_1455.md#intake-0291. 
+
+Added amazon: **176**. [Source](https://www.amazon.com/dp/B005NS30ZG); [saved evidence](../data/cheapnext100_261102/raw/amazon-1703-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 14.00 | 11.53 |
+| Transferable strategic utility | 11.00 | 11.00 |
+| Mechanistic and causal depth | 9.00 | 9.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 4.00 | 4.00 |
+| Expert authority | 4.50 | 4.50 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 0.00; T12 -10.00; H13 -3.24; P14 -7.80; O15 -5.00; REL 2.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 4554 (EditionSet:Treloar147449). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **51.14 → 46.14**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="shelf-d145dcdaa665"></a>
+
+## Other Rivers — Peter Hessler
+
+Sources: 251. Prior review: analysis/analysis_metadata2_261025_1921.md#shelf-d145dcdaa665. 
+
+Added amazon: **364**. [Source](https://www.amazon.com/dp/0593655354); [saved evidence](../data/cheapnext100_261102/raw/amazon-1739-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 16.00 | 12.80 |
+| Systems integration | 11.90 | 8.33 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 7.20 | 7.20 |
+| Information density | 7.00 | 4.90 |
+| Durability | 7.20 | 7.20 |
+| Direct domain fit | 2.80 | 2.80 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.70 | 2.70 |
+| Authorial precision | 1.60 | 1.60 |
+
+T11 -10.00; T12 0.00; H13 -0.20; P14 -0.20; O15 -5.00; REL 0.00; RD 0.78.
+
+R&D inputs: reference pages 18 (Harvard:99157855477103941); total pages 464 (GoogleBooks:X9HbEAAAQBAJ). 18 / 464 = 3.88%; R&D 0.78. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **50.91 → 45.91**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="intake-0428"></a>
+
+## Capitalism and Freedom — Milton Friedman
+
+Sources: 215, 263, 290, 301. Prior review: analysis/analysis_subcritical_261025_2011.md#intake-0428. 
+
+Added amazon: **2880**. [Source](https://www.amazon.com/dp/0226264017); [saved evidence](../data/cheapnext100_261102/raw/amazon-1761-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 11.00 | 7.12 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 8.00 | 8.00 |
+| Information density | 8.00 | 6.40 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -6.40; O15 0.00; REL 3.46; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 208 (/books/OL3567892M). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **48.83 → 48.83**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="shelf-fc25a8f071b7"></a>
+
+## Pragmatism — William James
+
+Sources: 251, 300. Prior review: analysis/analysis_hendricks_261025_2011.md#shelf-fc25a8f071b7. 
+
+Added amazon: **27**. [Source](https://www.amazon.com/dp/1169319254); [saved evidence](../data/cheapnext100_261102/raw/amazon-1806-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 16.00 | 12.80 |
+| Systems integration | 8.50 | 4.25 |
+| Transferable strategic utility | 10.50 | 10.50 |
+| Mechanistic and causal depth | 7.20 | 7.20 |
+| Information density | 8.00 | 6.40 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 2.10 | 2.10 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 2.10 | 2.10 |
+| Authorial precision | 1.80 | 1.80 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -10.00; O15 -10.00; REL 2.00; RD 0.11.
+
+R&D inputs: reference pages 2 (ISBN:0879756330); total pages 358 (OL22328526M). 2 / 358 = 0.56%; R&D 0.11. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **43.26 → 33.26**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="shelf-cd0e9e1689db"></a>
+
+## Show Your Work — Austin Kleon
+
+Sources: 251. Prior review: analysis/analysis_metadata2_261025_1921.md#shelf-cd0e9e1689db. 
+
+Added amazon: **11300**. [Source](https://www.amazon.com/dp/076117897X); [saved evidence](../data/cheapnext100_261102/raw/amazon-1731-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 12.00 | 7.20 |
+| Systems integration | 6.80 | 2.72 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 4.80 | 4.80 |
+| Information density | 7.00 | 4.90 |
+| Durability | 6.30 | 6.30 |
+| Direct domain fit | 2.10 | 2.10 |
+| Expert authority | 3.00 | 3.00 |
+| Narrative architecture | 2.40 | 2.40 |
+| Authorial precision | 1.40 | 1.40 |
+
+T11 0.00; T12 0.00; H13 0.00; P14 -1.20; O15 0.00; REL 0.00; RD 0.36.
+
+R&D inputs: reference pages 4 (ISBN:9780761178972); total pages 220 (OL55012048M). 4 / 220 = 1.82%; R&D 0.36. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **42.98 → 42.98**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="rem-u0206"></a>
+
+## Getting Things Done — David Allen
+
+Sources: 177, 215, 220, 251, 294. Prior review: analysis/analysis_karpathy_261025_2011.md#rem-u0206. 
+
+Added amazon: **10775**. [Source](https://www.amazon.com/dp/0143126563); [saved evidence](../data/cheapnext100_261102/raw/amazon-1738-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 12.00 | 7.20 |
+| Systems integration | 5.00 | 1.47 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 5.00 | 5.00 |
+| Information density | 6.50 | 4.23 |
+| Durability | 7.00 | 7.00 |
+| Direct domain fit | 1.00 | 1.00 |
+| Expert authority | 3.50 | 3.50 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 0.00; H13 0.00; P14 -2.50; O15 0.00; REL 4.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 288 (/books/OL44225592M). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **42.90 → 42.90**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="rem-u1846"></a>
+
+## What Got You Here Won’t Get You There — Marshall Goldsmith; Mark Reiter
+
+Sources: 193, 251, 263. Prior review: analysis/analysis_sivers_261024_1455.md#rem-u1846. 
+
+Added amazon: **5384**. [Source](https://www.amazon.com/dp/1401301304); [saved evidence](../data/cheapnext100_261102/raw/amazon-1793-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 12.00 | 7.20 |
+| Systems integration | 6.00 | 2.12 |
+| Transferable strategic utility | 7.00 | 7.00 |
+| Mechanistic and causal depth | 4.00 | 4.00 |
+| Information density | 6.00 | 3.60 |
+| Durability | 7.00 | 7.00 |
+| Direct domain fit | 1.00 | 1.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.00 | 1.00 |
+
+T11 0.00; T12 0.00; H13 0.00; P14 -1.90; O15 0.00; REL 2.83; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 256 (ISBN:9781401301309). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **40.35 → 40.35**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="rem-u1095"></a>
+
+## Solitude — Anthony Storr
+
+Sources: 192. Prior review: analysis/analysis_scorebonus_261024_0106.md#rem-u1095. 
+
+Added amazon: **419**. [Source](https://www.amazon.com/dp/0743280741); [saved evidence](../data/cheapnext100_261102/raw/amazon-1804-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 13.00 | 8.45 |
+| Systems integration | 6.00 | 2.12 |
+| Transferable strategic utility | 5.00 | 5.00 |
+| Mechanistic and causal depth | 5.00 | 5.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 1.00 | 1.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 0.00; H13 0.00; P14 -3.80; O15 -5.00; REL 0.00; RD 0.83.
+
+R&D inputs: reference pages 9 (OL2031583M); total pages 216 (/books/OL7948631M). 9 / 216 = 4.17%; R&D 0.83. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **39.50 → 34.50**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="shelf-22ce3507a296"></a>
+
+## The Story of Civilization — Will Durant; Ariel Durant
+
+Sources: 261. Prior review: analysis/analysis_founders_261024_1455.md#shelf-22ce3507a296. 
+
+Added amazon: **135**. [Source](https://www.amazon.com/dp/B001IUG0Q4); [saved evidence](../data/cheapnext100_261102/raw/amazon-1727-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 14.00 | 9.80 |
+| Systems integration | 14.45 | 12.28 |
+| Transferable strategic utility | 10.50 | 10.50 |
+| Mechanistic and causal depth | 7.80 | 7.80 |
+| Information density | 7.50 | 5.63 |
+| Durability | 8.10 | 8.10 |
+| Direct domain fit | 4.55 | 4.55 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.70 | 2.70 |
+| Authorial precision | 1.60 | 1.60 |
+
+T11 0.00; T12 -10.00; H13 -8.44; P14 -9.10; O15 -5.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 11 (OL22927242M). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **39.42 → 34.42**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="rem-u1406"></a>
+
+## Band of Brothers: E Company, 506th Regiment, 101st Airborne from Normandy to Hitler's Eagle's Nest — Stephen E. Ambrose
+
+Sources: 201. Prior review: analysis/analysis_scorebonus_261024_0106.md#rem-u1406. 
+
+Added amazon: **15259**. [Source](https://www.amazon.com/dp/1501179403); [saved evidence](../data/cheapnext100_261102/raw/amazon-1702-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 10.00 | 5.88 |
+| Transferable strategic utility | 7.00 | 7.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 7.50 | 5.63 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 -10.00; H13 -3.24; P14 -3.40; O15 0.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 336 (/books/OL28869123M). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **38.62 → 38.62**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="g0974"></a>
+
+## The Story of Philosophy — Will Durant
+
+Sources: 121, 215, 251, 283. Prior review: analysis/analysis_ashod_261024_2307.md#g0974. 
+
+Added amazon: **2595**. [Source](https://www.amazon.com/dp/0671739166); [saved evidence](../data/cheapnext100_261102/raw/amazon-1727-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 13.00 | 8.45 |
+| Systems integration | 10.00 | 5.88 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 6.00 | 3.60 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -10.00; O15 0.00; REL 3.46; RD 0.06.
+
+R&D inputs: reference pages 2 (OL3253498M); total pages 622 (OL58668464M). 2 / 622 = 0.32%; R&D 0.06. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **35.46 → 35.46**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="complete-731-50"></a>
+
+## The Meaning of Life: A Very Short Introduction — Terry Eagleton
+
+Sources: 283. Prior review: analysis/analysis_metadata2_261025_1921.md#complete-731-50. 
+
+Added amazon: **24**. [Source](https://www.amazon.com/dp/0199210705); [saved evidence](../data/cheapnext100_261102/raw/amazon-1814-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 14.00 | 9.80 |
+| Systems integration | 7.00 | 2.88 |
+| Transferable strategic utility | 5.00 | 5.00 |
+| Mechanistic and causal depth | 5.00 | 5.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 1.00 | 1.00 |
+| Expert authority | 4.50 | 4.50 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -1.90; O15 -10.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 109 (OL9376972M). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **34.68 → 24.68**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="shelf-8ac08ba838f8"></a>
+
+## Original Sin: President Biden's Decline, Its Cover-Up, and His Disastrous Choice to Run Again — Jake Tapper and Alex Thompson
+
+Sources: 263, 276. Prior review: analysis/analysis_metadata2_261025_1921.md#shelf-8ac08ba838f8. 
+
+Added amazon: **6242**. [Source](https://www.amazon.com/dp/B0DTYKCJC9); [saved evidence](../data/cheapnext100_261102/raw/amazon-1737-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 14.00 | 9.80 |
+| Systems integration | 10.20 | 6.12 |
+| Transferable strategic utility | 8.25 | 8.25 |
+| Mechanistic and causal depth | 6.60 | 6.60 |
+| Information density | 6.50 | 4.23 |
+| Durability | 5.40 | 5.40 |
+| Direct domain fit | 2.45 | 2.45 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.40 | 2.40 |
+| Authorial precision | 1.40 | 1.40 |
+
+T11 -10.00; T12 -10.00; H13 -0.08; P14 -0.10; O15 0.00; REL 2.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 352 (GoogleBooks:jPxGEQAAQBAJ). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **32.47 → 32.47**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="rem-u1334"></a>
+
+## The Wars of the Roses: The Fall of the Plantagenets and the Rise of the Tudors — Dan Jones
+
+Sources: 200. Prior review: analysis/analysis_metadata1000_261025_1546.md#rem-u1334. 
+
+Added amazon: **2829**. [Source](https://www.amazon.com/dp/0143127888); [saved evidence](../data/cheapnext100_261102/raw/amazon-1845-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 17.00 | 14.45 |
+| Systems integration | 11.00 | 7.12 |
+| Transferable strategic utility | 7.00 | 7.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 7.50 | 5.63 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 -10.00; H13 -12.00; P14 -1.20; O15 0.00; REL 0.00; RD 0.56.
+
+R&D inputs: reference pages 11 (OL26886199M); total pages 392 (OL26886199M). 11 / 392 = 2.81%; R&D 0.56. Both counts come from the same catalog record. Ratio confidence: moderate.
+
+Score **27.05 → 27.05**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="complete-375-296"></a>
+
+## When I Stop Talking, You’ll Know I’m Dead — Jerry Weintraub; Rich Cohen
+
+Sources: 276. Prior review: analysis/analysis_metadata2_261025_1921.md#complete-375-296. 
+
+Added amazon: **1220**. [Source](https://www.amazon.com/dp/0446548162); [saved evidence](../data/cheapnext100_261102/raw/amazon-1824-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 12.00 | 7.20 |
+| Systems integration | 10.00 | 5.88 |
+| Transferable strategic utility | 7.00 | 7.00 |
+| Mechanistic and causal depth | 5.00 | 5.00 |
+| Information density | 6.50 | 4.23 |
+| Durability | 7.00 | 7.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 -10.00; H13 0.00; P14 -1.60; O15 0.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 291 (ISBN:9780446548151). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **25.21 → 25.21**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="g0719"></a>
+
+## Down to Earth — Bruno Latour
+
+Sources: 119. Prior review: analysis/analysis_scorebonus_261024_0106.md#g0719. 
+
+Added amazon: **266**. [Source](https://www.amazon.com/dp/1509530568); [saved evidence](../data/cheapnext100_261102/raw/amazon-1749-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 10.00 | 5.00 |
+| Systems integration | 11.00 | 7.12 |
+| Transferable strategic utility | 6.00 | 6.00 |
+| Mechanistic and causal depth | 5.00 | 5.00 |
+| Information density | 6.00 | 3.60 |
+| Durability | 6.00 | 6.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 2.00 | 2.00 |
+| Authorial precision | 1.00 | 1.00 |
+
+T11 -10.00; T12 -10.00; H13 0.00; P14 -0.90; O15 -5.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 140 (ISBN:1509530568). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **21.82 → 16.82**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="g1112b"></a>
+
+## Caesar and Christ — Will Durant
+
+Sources: 122, 151. Prior review: analysis/analysis_metadata2_261025_1921.md#g1112b. 
+
+Added amazon: **110**. [Source](https://www.amazon.com/dp/1567310141); [saved evidence](../data/cheapnext100_261102/raw/amazon-1727-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 12.00 | 7.20 |
+| Systems integration | 14.00 | 11.53 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 4.00 | 1.60 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 3.00 | 3.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 -10.00; H13 -12.00; P14 -8.20; O15 -5.00; REL 2.00; RD 0.21.
+
+R&D inputs: reference pages 8 (IA:caesarchristhis01dura); total pages 752 (ISBN:9781451647600). 8 / 752 = 1.06%; R&D 0.21. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **14.84 → 9.84**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="g1302"></a>
+
+## The Gallic Wars — Julius Caesar; Aulus Hirtius (book VIII)
+
+Sources: 122, 126. Prior review: analysis/analysis_scorebonus_261024_0106.md#g1302. 
+
+Added amazon: **29**. [Source](https://www.amazon.com/dp/1604597623); [saved evidence](../data/cheapnext100_261102/raw/amazon-1750-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 9.00 | 4.05 |
+| Systems integration | 10.00 | 5.88 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 8.00 | 6.40 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 4.00 | 4.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 -10.00; T12 -10.00; H13 -12.00; P14 -10.00; O15 -10.00; REL 2.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 160 (OL32791859M). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **13.33 → 3.33**; Poor fit. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="rem-u1297"></a>
+
+## An Army at Dawn: The War in North Africa, 1942-1943 (World War II Liberation Trilogy, #1) — Rick Atkinson
+
+Sources: 199. Prior review: analysis/analysis_scorebonus_261024_0106.md#rem-u1297. 
+
+Added amazon: **4884**. [Source](https://www.amazon.com/dp/0805087249); [saved evidence](../data/cheapnext100_261102/raw/amazon-1847-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 18.00 | 16.20 |
+| Systems integration | 13.00 | 9.94 |
+| Transferable strategic utility | 10.00 | 10.00 |
+| Mechanistic and causal depth | 8.00 | 8.00 |
+| Information density | 8.00 | 6.40 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 5.00 | 5.00 |
+| Expert authority | 4.50 | 4.50 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 -10.00; H13 -3.32; P14 -2.40; O15 0.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 704 (/books/OL33472742M). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **57.82 → 57.82**; Low priority. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="g1225"></a>
+
+## The Warren Buffett Portfolio — Robert G. Hagstrom
+
+Sources: 123, 164. Prior review: analysis/analysis_scorebonus_261024_0106.md#g1225. 
+
+Added amazon: **405**. [Source](https://www.amazon.com/dp/0471392642); [saved evidence](../data/cheapnext100_261102/raw/amazon-1856-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 12.00 | 8.47 |
+| Transferable strategic utility | 11.00 | 11.00 |
+| Mechanistic and causal depth | 9.00 | 9.00 |
+| Information density | 8.00 | 6.40 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 4.00 | 4.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -2.70; O15 -5.00; REL 2.00; RD 0.81.
+
+R&D inputs: reference pages 10 (OL24744173M); total pages 246 (OL24744173M). 10 / 246 = 4.07%; R&D 0.81. Both counts come from the same catalog record. Ratio confidence: moderate.
+
+Score **57.73 → 52.73**; Low priority. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="intake-0251"></a>
+
+## Shadow of the Silk Road — Colin Thubron
+
+Sources: 212. Prior review: analysis/analysis_scorebonus_261024_0106.md#intake-0251. 
+
+Added amazon: **641**. [Source](https://www.amazon.com/dp/0061231770); [saved evidence](../data/cheapnext100_261102/raw/amazon-1855-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 17.00 | 14.45 |
+| Systems integration | 10.00 | 5.88 |
+| Transferable strategic utility | 6.00 | 6.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 8.00 | 6.40 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 0.00; T12 0.00; H13 -0.88; P14 -2.00; O15 -5.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 384 (/books/OL9272587M). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **55.85 → 50.85**; Low priority. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="g1158"></a>
+
+## The Warren Buffett Way — Robert Hagstrom
+
+Sources: 123. Prior review: analysis/analysis_scorebonus_261024_0106.md#g1158. 
+
+Added amazon: **148**. [Source](https://www.amazon.com/dp/0471177504); [saved evidence](../data/cheapnext100_261102/raw/amazon-1856-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 12.00 | 8.47 |
+| Transferable strategic utility | 11.00 | 11.00 |
+| Mechanistic and causal depth | 9.00 | 9.00 |
+| Information density | 8.00 | 6.40 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 4.00 | 4.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -3.20; O15 -5.00; REL 0.00; RD 0.63.
+
+R&D inputs: reference pages 10 (GoogleBooks:AXyrAAAAQBAJ); total pages 320 (ISBN:1118503252). 10 / 320 = 3.13%; R&D 0.63. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **55.05 → 50.05**; Low priority. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="nef1e960de9"></a>
+
+## The Persuaders — Anand Giridharadas
+
+Sources: 132. Prior review: analysis/analysis_scorebonus_261024_0106.md#nef1e960de9. 
+
+Added amazon: **342**. [Source](https://www.amazon.com/dp/0241567785); [saved evidence](../data/cheapnext100_261102/raw/amazon-1863-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 14.00 | 9.80 |
+| Systems integration | 10.00 | 5.88 |
+| Transferable strategic utility | 7.00 | 7.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 6.00 | 6.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 3.00 | 3.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.00 | 1.00 |
+
+T11 -10.00; T12 -10.00; H13 0.00; P14 -0.40; O15 -5.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 352 (ISBN:9780593312643). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **28.18 → 23.18**; Poor fit. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="shelf-5899a73bd52e"></a>
+
+## Wilde in America — David M. Friedman
+
+Sources: 251. Prior review: analysis/analysis_sivers_261024_1455.md#shelf-5899a73bd52e. 
+
+Added amazon: **36**. [Source](https://www.amazon.com/dp/0393063178); [saved evidence](../data/cheapnext100_261102/raw/amazon-1868-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 7.65 | 3.44 |
+| Transferable strategic utility | 7.50 | 7.50 |
+| Mechanistic and causal depth | 5.40 | 5.40 |
+| Information density | 5.50 | 3.03 |
+| Durability | 6.75 | 6.75 |
+| Direct domain fit | 1.75 | 1.75 |
+| Expert authority | 3.75 | 3.75 |
+| Narrative architecture | 2.40 | 2.40 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 -10.00; H13 -5.76; P14 -1.20; O15 -10.00; REL 0.00; RD 2.15.
+
+R&D inputs: reference pages 34 (OL27165132M); total pages 316 (OL27165132M). 34 / 316 = 10.76%; R&D 2.15. Both counts come from the same catalog record. Ratio confidence: moderate.
+
+Score **21.96 → 11.96**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="shelf-71bbcf9c2fcc"></a>
+
+## The Philosophy of Cognitive-Behavioural Therapy — Donald Robertson
+
+Sources: 251. Prior review: analysis/analysis_metadata3000_261025_2354.md#shelf-71bbcf9c2fcc. 
+
+Added amazon: **95**. [Source](https://www.amazon.com/dp/036721914X); [saved evidence](../data/cheapnext100_261102/raw/amazon-1873-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 8.50 | 4.25 |
+| Transferable strategic utility | 9.75 | 9.75 |
+| Mechanistic and causal depth | 7.20 | 7.20 |
+| Information density | 7.00 | 4.90 |
+| Durability | 7.20 | 7.20 |
+| Direct domain fit | 2.45 | 2.45 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.10 | 2.10 |
+| Authorial precision | 1.40 | 1.40 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -1.60; O15 -10.00; REL 0.00; RD 0.43.
+
+R&D inputs: reference pages 6 (Harvard:990126265620203941); total pages 280 (OL29457206M). 6 / 280 = 2.14%; R&D 0.43. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **43.33 → 33.33**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="complete-387-297"></a>
+
+## No Place to Hide — Glenn Greenwald
+
+Sources: 276, 299. Prior review: analysis/analysis_leinweber_261025_2011.md#complete-387-297. 
+
+Added amazon: **3719**. [Source](https://www.amazon.com/dp/1250062586); [saved evidence](../data/cheapnext100_261102/raw/amazon-1877-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 14.00 | 9.80 |
+| Systems integration | 13.00 | 9.94 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 7.50 | 5.63 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 5.00 | 5.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 -10.00; H13 -0.52; P14 -1.20; O15 0.00; REL 2.00; RD 1.16.
+
+R&D inputs: reference pages 15 (ISBN:9781250062581); total pages 259 (GoogleBooks:Q-sxBQAAQBAJ). 15 / 259 = 5.79%; R&D 1.16. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **43.30 → 43.30**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="rem-u1347"></a>
+
+## Columbine — Dave Cullen
+
+Sources: 200. Prior review: analysis/analysis_metadata2_261025_1921.md#rem-u1347. 
+
+Added amazon: **7323**. [Source](https://www.amazon.com/dp/0446546925); [saved evidence](../data/cheapnext100_261102/raw/amazon-1881-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 17.00 | 14.45 |
+| Systems integration | 9.00 | 4.76 |
+| Transferable strategic utility | 7.00 | 7.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 7.50 | 5.63 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 1.00 | 1.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 0.00; H13 -1.08; P14 -1.70; O15 0.00; REL 0.00; RD 0.72.
+
+R&D inputs: reference pages 15 (HathiTrust:006491164); total pages 417 (/books/OL23159773M). 15 / 417 = 3.60%; R&D 0.72. Both counts come from the same catalog record. Ratio confidence: moderate.
+
+Score **43.28 → 43.28**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="g1296"></a>
+
+## Presidents of War — Michael Beschloss
+
+Sources: 126, 148. Prior review: analysis/analysis_scorebonus_261024_0106.md#g1296. 
+
+Added amazon: **2117**. [Source](https://www.amazon.com/dp/0307409600); [saved evidence](../data/cheapnext100_261102/raw/amazon-1883-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 17.00 | 14.45 |
+| Systems integration | 11.00 | 7.12 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 5.00 | 2.50 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 4.00 | 4.00 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 -10.00; T12 -10.00; H13 0.00; P14 -0.80; O15 0.00; REL 2.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 739 (ISBN:0307409600). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **43.27 → 43.27**; Poor fit. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="bg662d9faa53"></a>
+
+## The Captive Mind — Czesław Miłosz
+
+Sources: 162. Prior review: analysis/analysis_scorebonus_261024_0106.md#bg662d9faa53. 
+
+Added amazon: **446**. [Source](https://www.amazon.com/dp/0679728562); [saved evidence](../data/cheapnext100_261102/raw/amazon-1887-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 10.00 | 5.88 |
+| Transferable strategic utility | 11.00 | 11.00 |
+| Mechanistic and causal depth | 8.00 | 8.00 |
+| Information density | 8.00 | 6.40 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 4.50 | 4.50 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 -10.00; H13 -3.00; P14 -7.30; O15 -5.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 272 (9780679728566). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **43.23 → 38.23**; Poor fit. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="complete-342-283"></a>
+
+## Heat — Bill Buford
+
+Sources: 276. Prior review: analysis/analysis_metadata1000_261025_1546.md#complete-342-283. 
+
+Added amazon: **1457**. [Source](https://www.amazon.com/dp/1400034477); [saved evidence](../data/cheapnext100_261102/raw/amazon-1897-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 13.00 | 8.45 |
+| Systems integration | 9.00 | 4.76 |
+| Transferable strategic utility | 5.00 | 5.00 |
+| Mechanistic and causal depth | 5.00 | 5.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 7.00 | 7.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 3.50 | 3.50 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 0.00; H13 0.00; P14 -2.00; O15 0.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 336 (GoogleBooks:qFyTEAAAQBAJ). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **43.11 → 43.11**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="ne393674504"></a>
+
+## Voices from Chernobyl: The Oral History of a Nuclear Disaster — Svetlana Alexievich
+
+Sources: 143, 189, 200, 212. Prior review: analysis/analysis_scorebonus_261024_0106.md#ne393674504. 
+
+Added amazon: **2774**. [Source](https://www.amazon.com/dp/B016QMCBKM); [saved evidence](../data/cheapnext100_261102/raw/amazon-1898-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 13.00 | 8.45 |
+| Systems integration | 7.00 | 2.88 |
+| Transferable strategic utility | 5.00 | 5.00 |
+| Mechanistic and causal depth | 4.00 | 4.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 0.00; H13 -1.20; P14 -2.90; O15 0.00; REL 3.46; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 240 (AppleBooks:1050178292). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **43.10 → 43.10**; Poor fit. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="rem-u1792"></a>
+
+## The Boy Who Was Raised as a Dog — Bruce D. Perry; Maia Szalavitz
+
+Sources: 193. Prior review: analysis/analysis_scorebonus_261024_0106.md#rem-u1792. 
+
+Added amazon: **8962**. [Source](https://www.amazon.com/dp/0465056539); [saved evidence](../data/cheapnext100_261102/raw/amazon-1900-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 16.00 | 12.80 |
+| Systems integration | 9.00 | 4.76 |
+| Transferable strategic utility | 7.00 | 7.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 7.50 | 5.63 |
+| Durability | 7.00 | 7.00 |
+| Direct domain fit | 2.00 | 2.00 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 0.00; H13 0.00; P14 -2.00; O15 0.00; REL 0.00; RD 0.40.
+
+R&D inputs: reference pages 9 (OL17210964M); total pages 448 (/books/OL27853888M). 9 / 448 = 2.01%; R&D 0.40. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **43.09 → 43.09**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="bg4a944d9ccf"></a>
+
+## Prepared — Diane Tavenner
+
+Sources: 148. Prior review: analysis/analysis_scorebonus_261024_0106.md#bg4a944d9ccf. 
+
+Added amazon: **875**. [Source](https://www.amazon.com/dp/1984826069); [saved evidence](../data/cheapnext100_261102/raw/amazon-1907-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 13.00 | 8.45 |
+| Systems integration | 10.00 | 5.88 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 7.00 | 7.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 0.00; H13 0.00; P14 -0.70; O15 -5.00; REL 0.00; RD 0.39.
+
+R&D inputs: reference pages 6 (GoogleBooks:JR6BDwAAQBAJ); total pages 304 (9781984826077). 6 / 304 = 1.97%; R&D 0.39. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **42.93 → 37.93**; Poor fit. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="rem-u1789"></a>
+
+## The Act of Creation — Arthur Koestler
+
+Sources: 193, 215, 258, 291. Prior review: analysis/analysis_bretvictor_261025_2011.md#rem-u1789. 
+
+Added amazon: **85**. [Source](https://www.amazon.com/dp/1939438985); [saved evidence](../data/cheapnext100_261102/raw/amazon-1910-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 13.00 | 8.45 |
+| Systems integration | 12.00 | 8.47 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 7.00 | 4.90 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -6.20; O15 -10.00; REL 3.46; RD 0.32.
+
+R&D inputs: reference pages 12 (OL4284176M); total pages 752 (/books/OL9304664M). 12 / 752 = 1.60%; R&D 0.32. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **42.90 → 32.90**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="shelf-834cb22312f2"></a>
+
+## The Geometry of Wealth — Brian Portnoy
+
+Sources: 251. Prior review: analysis/analysis_metadata1000_261025_1546.md#shelf-834cb22312f2. 
+
+Added amazon: **371**. [Source](https://www.amazon.com/dp/B07CXS9NLG); [saved evidence](../data/cheapnext100_261102/raw/amazon-1912-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 14.00 | 9.80 |
+| Systems integration | 8.50 | 4.25 |
+| Transferable strategic utility | 9.75 | 9.75 |
+| Mechanistic and causal depth | 6.60 | 6.60 |
+| Information density | 6.50 | 4.23 |
+| Durability | 7.20 | 7.20 |
+| Direct domain fit | 2.45 | 2.45 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.25 | 2.25 |
+| Authorial precision | 1.40 | 1.40 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -0.80; O15 -5.00; REL 0.00; RD 1.75.
+
+R&D inputs: reference pages 19 (OL26966471M); total pages 217 (OL26966471M). 19 / 217 = 8.76%; R&D 1.75. Both counts come from the same catalog record. Ratio confidence: moderate.
+
+Score **42.88 → 37.88**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="resume-200-25"></a>
+
+## The Promise of Access — Daniel Greene
+
+Sources: 272. Prior review: analysis/analysis_ezrascience_261025_1104.md#resume-200-25. 
+
+Added amazon: **12**. [Source](https://www.amazon.com/dp/0262542331); [saved evidence](../data/cheapnext100_261102/raw/amazon-1918-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 12.00 | 8.47 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 8.00 | 8.00 |
+| Information density | 7.50 | 5.63 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 5.00 | 5.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 -10.00; T12 -10.00; H13 0.00; P14 -0.50; O15 -10.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 272 (ISBN:0262542331). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **42.85 → 32.85**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="rem-u0513"></a>
+
+## Lost in Math: How Beauty Leads Physics Astray — Sabine Hossenfelder
+
+Sources: 182, 256, 262, 290, 292, 301. Prior review: analysis/analysis_subcritical_261025_2011.md#rem-u0513. 
+
+Added amazon: **1314**. [Source](https://www.amazon.com/dp/0465094252); [saved evidence](../data/cheapnext100_261102/raw/amazon-1919-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 10.00 | 5.88 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 8.00 | 8.00 |
+| Information density | 7.50 | 5.63 |
+| Durability | 7.00 | 7.00 |
+| Direct domain fit | 6.00 | 6.00 |
+| Expert authority | 4.50 | 4.50 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 0.00; H13 0.00; P14 -0.80; O15 0.00; REL 4.47; RD 1.78.
+
+R&D inputs: reference pages 27 (OL26962273M); total pages 304 (/books/OL29836331M). 27 / 304 = 8.88%; R&D 1.78. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **66.71 → 66.71**; Selective. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="shelves-rationalityaizombies"></a>
+
+## Rationality: From AI to Zombies — Eliezer Yudkowsky
+
+Sources: 290, 293, 294. Prior review: analysis/analysis_subcritical_261025_2011.md#shelves-rationalityaizombies. 
+
+Added amazon: **239**. [Source](https://www.amazon.com/dp/B00ULP6EW2); [saved evidence](../data/cheapnext100_261102/raw/amazon-1903-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 12.00 | 7.20 |
+| Systems integration | 9.00 | 4.76 |
+| Transferable strategic utility | 11.00 | 11.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 5.00 | 2.50 |
+| Durability | 7.00 | 7.00 |
+| Direct domain fit | 5.00 | 5.00 |
+| Expert authority | 3.00 | 3.00 |
+| Narrative architecture | 2.00 | 2.00 |
+| Authorial precision | 1.00 | 1.00 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -1.10; O15 -5.00; REL 2.83; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 1775 (ISBN:9781939311146; PDF edition extent reported by Goodreads). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **42.19 → 37.19**; Poor fit. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="q1044"></a>
+
+## Braiding Sweetgrass — Robin Wall Kimmerer
+
+Sources: 6, 135, 204, 303. Prior review: analysis/analysis_elitescience_261025_2011.md#q1044. 
+
+Added amazon: **22763**. [Source](https://www.amazon.com/dp/B07Z1DZC9D); [saved evidence](../data/cheapnext100_261102/raw/amazon-1871-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 14.00 | 9.80 |
+| Systems integration | 9.92 | 5.78 |
+| Transferable strategic utility | 7.00 | 7.00 |
+| Mechanistic and causal depth | 5.65 | 5.65 |
+| Information density | 6.00 | 3.60 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 1.00 | 1.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 -10.00; T12 0.00; H13 0.00; P14 -1.30; O15 0.00; REL 3.46; RD 0.20.
+
+R&D inputs: reference pages 4 (GoogleBooks:vmM9BAAAQBAJ); total pages 408 (ISBN:1571313567). 4 / 408 = 0.98%; R&D 0.20. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **42.19 → 42.19**; Poor fit. Content confidence retained: moderate. Content assessments were not rerated in this metadata update.
+
+<a id="rem-u0294"></a>
+
+## The Great Degeneration: How Institutions Decay and Economies Die — Niall Ferguson
+
+Sources: 178. Prior review: analysis/analysis_scorebonus_261024_0106.md#rem-u0294. 
+
+Added amazon: **777**. [Source](https://www.amazon.com/dp/0143125524); [saved evidence](../data/cheapnext100_261102/raw/amazon-1878-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 12.00 | 7.20 |
+| Systems integration | 11.00 | 7.12 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 6.50 | 4.23 |
+| Durability | 7.00 | 7.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 2.50 | 2.50 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 -10.00; H13 0.00; P14 -1.40; O15 -5.00; REL 0.00; RD 2.31.
+
+R&D inputs: reference pages 20 (OL31076389M); total pages 173 (/books/OL31076389M). 20 / 173 = 11.56%; R&D 2.31. Both counts come from the same catalog record. Ratio confidence: moderate.
+
+Score **41.45 → 36.45**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="shelf-84830a0bdce7"></a>
+
+## Argumentative Indian — Amartya Sen
+
+Sources: 251. Prior review: analysis/analysis_sivers_261024_1455.md#shelf-84830a0bdce7. 
+
+Added amazon: **1406**. [Source](https://www.amazon.com/dp/031242602X); [saved evidence](../data/cheapnext100_261102/raw/amazon-1894-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 16.00 | 12.80 |
+| Systems integration | 11.90 | 8.33 |
+| Transferable strategic utility | 9.00 | 9.00 |
+| Mechanistic and causal depth | 7.20 | 7.20 |
+| Information density | 8.00 | 6.40 |
+| Durability | 8.10 | 8.10 |
+| Direct domain fit | 2.10 | 2.10 |
+| Expert authority | 5.00 | 5.00 |
+| Narrative architecture | 2.40 | 2.40 |
+| Authorial precision | 1.80 | 1.80 |
+
+T11 -10.00; T12 -10.00; H13 0.00; P14 -2.10; O15 0.00; REL 0.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 409 (OL9547826M). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **41.03 → 41.03**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="g0712"></a>
+
+## Days of Rage — Bryan Burrough
+
+Sources: 119, 162, 276. Prior review: analysis/analysis_metadata2_261025_1921.md#g0712. 
+
+Added amazon: **663**. [Source](https://www.amazon.com/dp/1594204292); [saved evidence](../data/cheapnext100_261102/raw/amazon-1875-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 16.00 | 12.80 |
+| Systems integration | 11.00 | 7.12 |
+| Transferable strategic utility | 8.00 | 8.00 |
+| Mechanistic and causal depth | 7.00 | 7.00 |
+| Information density | 6.00 | 3.60 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 3.00 | 3.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 -10.00; T12 -10.00; H13 -1.64; P14 -1.10; O15 -5.00; REL 2.83; RD 0.23.
+
+R&D inputs: reference pages 7 (ISBN:9781594204296); total pages 608 (ISBN:0143107976). 7 / 608 = 1.15%; R&D 0.23. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **38.84 → 33.84**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="rem-u1018"></a>
+
+## The Sleepwalkers: A History of Man's Changing Vision of the Universe — Arthur Koestler, Herbert Butterfield
+
+Sources: 190, 214. Prior review: analysis/analysis_cheap100_261101_2340.md#rem-u1018. 
+
+Added amazon: **224**. [Source](https://www.amazon.com/dp/0140192468); [saved evidence](../data/cheapnext100_261102/raw/amazon-1910-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 13.00 | 8.45 |
+| Systems integration | 10.00 | 5.88 |
+| Transferable strategic utility | 6.00 | 6.00 |
+| Mechanistic and causal depth | 6.00 | 6.00 |
+| Information density | 7.50 | 5.63 |
+| Durability | 9.00 | 9.00 |
+| Direct domain fit | 4.00 | 4.00 |
+| Expert authority | 4.00 | 4.00 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 1.50 | 1.50 |
+
+T11 0.00; T12 0.00; H13 -12.00; P14 -6.70; O15 -5.00; REL 2.00; RD 0.10.
+
+R&D inputs: reference pages 3 (Source:https://openlibrary.org/books/OL1955393M/The_sleepwalkers); total pages 624 (ISBN:9780140192469). 3 / 624 = 0.48%; R&D 0.10. Estimate: editions differ or matching is unconfirmed. Ratio confidence: low.
+
+Score **36.85 → 31.85**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+
+<a id="rem-u0988"></a>
+
+## Secondhand Time: The Last of the Soviets — Svetlana Alexievich, Bela Shayevich
+
+Sources: 189, 200. Prior review: analysis/analysis_metadata3000_261025_2354.md#rem-u0988. 
+
+Added amazon: **1589**. [Source](https://www.amazon.com/dp/0399588809); [saved evidence](../data/cheapnext100_261102/raw/amazon-1898-parallel-fast-short.json). Indexed Amazon product snapshot; original snapshot date not supplied. Retrieved 2026-11-01. Count is the explicit total rating aggregate for one product; not written reviews, not summed across products. Live current count, stock and other editions are unverified.
+
+| Criterion | Linear attainment | Contribution |
+|---|---:|---:|
+| Evidence and inferential integrity | 15.00 | 11.25 |
+| Systems integration | 8.00 | 3.76 |
+| Transferable strategic utility | 4.00 | 4.00 |
+| Mechanistic and causal depth | 4.00 | 4.00 |
+| Information density | 7.50 | 5.63 |
+| Durability | 8.00 | 8.00 |
+| Direct domain fit | 1.00 | 1.00 |
+| Expert authority | 4.50 | 4.50 |
+| Narrative architecture | 3.00 | 3.00 |
+| Authorial precision | 2.00 | 2.00 |
+
+T11 -10.00; T12 -10.00; H13 -0.56; P14 -1.30; O15 0.00; REL 2.00; RD 0.00.
+
+R&D inputs: reference pages unknown (edition unknown); total pages 496 (ISBN:9780399588808). Missing total-page or reference-page count: explicit zero R&D fallback. Ratio confidence: unknown.
+
+Score **27.28 → 27.28**; Poor fit. Content confidence retained: low. Content assessments were not rerated in this metadata update.
+

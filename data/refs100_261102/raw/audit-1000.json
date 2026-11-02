@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793577334-nKK9hUGjnKcFoJAOK4OK",
+  "object": "chat.completion",
+  "created": 1793577334,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u1663:reference:https://link.europarl.europa.eu/resource/nLB3K1C7OGo\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 249-265.\"\n    },\n    {\n      \"key\": \"n5ebb281344:reference:https://archive.org/details/facemakervisiona0000fitz\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages 253-294.\"\n    },\n    {\n      \"key\": \"na3badb010e:reference:https://archive.org/details/mathematicsformf0000macl\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages [457]-460.\"\n    },\n    {\n      \"key\": \"rem-u1297:reference:https://www.loc.gov/item/2002024130\",\n      \"status\": \"reject\",\n      \"reason\": \"The title includes a series designation, which is not allowed. The reference range is explicitly stated as pages [626]-654, but the title is not a single volume.\"\n    },\n    {\n      \"key\": \"shelf-97d48dde4926:reference:https://collection.sl.nsw.gov.au/record/74VKV7l3gdZl\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The reference range is explicitly stated as pages [201]-250.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2937,
+    "completion_tokens": 412,
+    "total_tokens": 3349,
+    "cost": 0.0001780119,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00017981,
+      "upstream_inference_prompt_cost": 0.00014685,
+      "upstream_inference_completions_cost": 0.00003296
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:55:46.609Z"
+}

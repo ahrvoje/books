@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575765-AQ3li7opLJHKj9RmpPjE",
+  "object": "chat.completion",
+  "created": 1793575765,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-52bcb19e4077:amazon:https://www.amazon.com/Dodge-Brothers-Motor-Legacy-Great/dp/0814332463\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The numeric evidence 140 is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"shelf-c61aa9c3772d:amazon:https://www.amazon.com/How-Brands-Grow-What-Marketers/dp/0195573560\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The numeric evidence 1,211 is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"shelf-760e05bd4a60:amazon:https://www.amazon.com/Iron-Kingdom-Downfall-Prussia-1600-1947/dp/0674031962\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The numeric evidence 1,158 is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"g1199:amazon:https://www.amazon.com/Quality-Investing-Owning-best-companies/dp/0857195123\",\n      \"status\": \"reject\",\n      \"reason\": \"The sourceText lists multiple authors, but the candidate lists only Lawrence A. Cunningham.\"\n    },\n    {\n      \"key\": \"rest-59-52:amazon:https://www.amazon.com/dp/1476735409?lv=shuf&channelId=500&plpRedirect=mhFallback\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match the sourceTitle and sourceText. The numeric evidence 1,619 is explicitly labelled as global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3429,
+    "completion_tokens": 488,
+    "total_tokens": 3917,
+    "cost": 0.0002083851,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021049,
+      "upstream_inference_prompt_cost": 0.00017145,
+      "upstream_inference_completions_cost": 0.00003904
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:29:34.765Z"
+}

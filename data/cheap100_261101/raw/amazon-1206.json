@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572467-YnYQtSwJudPN5QqGCe9d",
+  "object": "chat.completion",
+  "created": 1793572467,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-5e29f246ef4c\",\n  \"title\": \"Possible Worlds\",\n  \"author\": \"J. B. S. Haldane\",\n  \"amazon\": {\n    \"count\": 240,\n    \"url\": \"https://www.amazon.com/Possible-Worlds-J-B-S-Haldane/dp/0765807157\",\n    \"asin\": \"0765807157\",\n    \"evidence\": \"https://www.amazon.com/Possible-Worlds-J-B-S-Haldane/dp/0765807157#customerReviews\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Possible-Worlds-J-B-S-Haldane/dp/0765807157",
+              "title": "Possible Worlds: Haldane, J.B.S. - Books - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nPossible Worlds: Haldane, J.B.S. - Books - Amazon.com\nThis volume emphasizes important developments in natural sciences in the early-20th century. It describes Haldane's views on society, art, religion and economy.\n\n## \n\nPossible Worlds: Haldane, J.B.S. - Books\nHaldane advanced genetics, population biology and evolutionary theory. This volume emphasizes important developments in natural sciences in the early-20th"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Possible-Contemporary-Narratology-Frontiers-Narrative/dp/0803294999",
+              "title": "Possible Worlds Theory and Contemporary Narratology ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nPossible Worlds Theory and Contemporary Narratology ...\nThis volume systematically outlines the theoretical underpinnings of the possible worlds approach, provides updated methods for analyzing fictional narrative.\n\n## \n\nPossible Worlds Theory and Contemporary Narratology ...\nThe notion of possible worlds has played a decisive role in postclassical narratology by awakening interest in the nature of fictionality"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Possible-Worlds-Problems-Philosophy-Divers/dp/0415155568",
+              "title": "Possible Worlds (Problems of Philosophy) - John Divers",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nPossible Worlds (Problems of Philosophy) - John Divers\nFree 30-day returns Book details ; ISBN-10. 0415155568 ; ISBN-13. 978-0415155564 ; Edition. 1st ; Publication date. August 29, 2002 ; Part of series. Problems of Philosophy.\n\n## \n\nPossible Worlds (Problems of Philosophy) - John Divers\nPossible Worlds presents the first up-to-date and comprehensive examination of one of the most important topics in metaphysics.\n\n## \n\nPossible Worlds (Problems of Philosophy) - amazon.com\nJohn Divers considers the prevalent philosophical positions, including realism, antirealism and the work of important writers on possible worlds such as David Lewis, evaluating them in detail."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Worlds-Possibility-Modal-Realism-Semantics/dp/0198237677",
+              "title": "The Worlds of Possibility: Modal Realism and ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Worlds of Possibility: Modal Realism and ...\nthis book offers a thorough critical exposition of modal realism, the philosophical doctrine that many possible worlds exist of which our own universe is just"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Heterocosmica-Fiction-Possible-Parallax-Re-visions/dp/080185749X",
+              "title": "Heterocosmica: Fiction and Possible Worlds (Parallax: Re- ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nHeterocosmica: Fiction and Possible Worlds (Parallax: Re- ...\nLubomír Dolezel develops a complete theory of literary fiction using possible worlds philosophy, examining how fictional worlds construct meaning and truth\n\n## \n\nHeterocosmica: Fiction and Possible Worlds (Parallax: Re- ...\nIn Heterocosmica, Lubomír Dolezel offers nothing less than a complete theory of literary fiction based on the idea of possible worlds.\n\n## \n\nHeterocosmica: Fiction and Possible Worlds (Parallax: Re- ...\n\"The universe of possible worlds is constantly expanding and diversifying thanks to the incessant world-constructing activity of human minds and hands."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1132,
+    "completion_tokens": 166,
+    "total_tokens": 1298,
+    "cost": 0.00502510244,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000025356,
+      "upstream_inference_prompt_cost": 0.000020376,
+      "upstream_inference_completions_cost": 0.00000498
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "shelf-5e29f246ef4c",
+  "retrieved": "2026-11-01T22:34:37.742Z"
+}

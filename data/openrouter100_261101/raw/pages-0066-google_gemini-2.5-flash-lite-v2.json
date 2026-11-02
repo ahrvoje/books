@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:26.595Z",
+  "bookId": "progress-0107",
+  "id": "gen-1793571207-30u7vil2AxTqAXyQh7vz",
+  "object": "chat.completion",
+  "created": 1793571207,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"progress-0107\",\n  \"title\": \"Ask Me Anything\",\n  \"author\": \"Reddit\",\n  \"knownEdition\": null,\n  \"purchaseUrl\": \"https://www.amazon.de/dp/0692582266\",\n  \"amazon\": null,\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.bookdepot.com/Store/Details/9781640636583B/ask-me-anything\",\n    \"https://www.waterstones.com/book/ask-me-anything/p-z-reizin/9780751566765\",\n    \"https://www.scribd.com/document/456469285/Ask-Me-Anything-Some-of-Reddit-Reddit-pdf\",\n    \"https://www.foyles.co.uk/book/ask-me-anything/p-z-reizin/9780751566765\",\n    \"https://blackwells.co.uk/bookshop/product/Ask-Me-Anything-by-P-Z-Reizin/9780751566765\"\n  ],\n  \"limitations\": \"The search results provided information for multiple books titled 'Ask Me Anything' by different authors (Molly E. Lee, P. Z. Reizin, and a collection from Reddit). The user's request specified 'Reddit' as the author, but the provided Amazon purchase URL (asin 0692582266) did not yield specific page count information in the search results. The 'Ask Me Anything Some of Reddit Reddit PDF' result from scribd.com describes a collection of AMAs from r/IAmA, with an EPUB ISBN of 978-1-5137-0747-1, but does not provide a print page count for a specific edition.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.bookdepot.com/Store/Details/9781640636583B/ask-me-anything",
+              "title": "Ask Me Anything - Paperback | Book Depot",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Ask Me Anything - Paperback | Book Depot\n\n#### Ask Me Anything\n\n| Author: | Lee, Molly E. |\n| --- | --- |\n| Binding: | Paperback |\n| List Price: | $9.99 |\n| Our Price: | $2.50 $1.75 USD |\n| Qty Avail: | 269 |\n\n| ISBN: | 9781640636583 |\n| --- | --- |\n| Publisher: | Entangled Publishing, LLC |\n| Language: | English |\n| Page Count: | 384 |\n| Publication Date: | 5/7/2019 |\n| Size: | 8.14\" l x 5.43\" w x 1.07\" |\n| Series: | N/A |\n\n| Category | Subject |\n| --- | --- |\n| Young Adult Fiction | Social Situations |\n| Young Adult Fiction | Computers & Digital Media |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.waterstones.com/book/ask-me-anything/p-z-reizin/9780751566765",
+              "title": "Ask Me Anything by P. Z. Reizin | Waterstones",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Ask Me Anything (Paperback)\n\n P. Z. Reizin (author) \n\n Price: £8.99 \n\n Paperback 368 Pages Published: 11/02/2021\n\n...\n\n## Publisher information\n\n Publisher: Little, Brown Book Group ISBN: 9780751566765 Number of pages: 368 Dimensions: 194 x 124 x 28 mm Weight: 251 g Language: English"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.scribd.com/document/456469285/Ask-Me-Anything-Some-of-Reddit-Reddit-pdf",
+              "title": "Ask Me Anything Some of Reddit Reddit PDF | PDF | North Korea | World Politics",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Ask Me Anything Some of Reddit Reddit PDF | PDF | North Korea | World Politics\n\n## A collection of some of Reddit’s best AMAs from r/IAmA.\n\n Vol 1.\n\n Seattle WA 2015 Copyright 2015 Reddit\n\n## This work is licensed under a Creative Commons Attribution-Noncommercial-No\n\n Derivative Works 3.0 Unported License.\n\nAttribution — You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work). Noncommercial — You may not use this work for commercial purposes. No Derivative Works — You may not alter, transform, or build upon this work.\n\n## EPUB ISBN 978-1-5137-0747-1\n\n Table of Contents\n\nTitle Page Copyright Page Introduction About this Book The AMAs\n\nINSPIRING Bassem Youssef Joseph Kim Denzel Washington Mischka & Badgley Idris Elba Eric Glisson Nichelle Nichols Cyndi Lauper Bill Murray Kristin Beck\n\nINFORMATIVE Survived in Nazi Germany Neil deGrasse Tyson Ben Eisenkop The Mortician Senior Staffer to a Member of Congress Former Nuclear Missile Operator\n\nPROVOCATIVE Jen Briney Barack Obama David Zetland Daniel Ellsberg David Belk Ann Coulter Ronda Rousey Spike Lee\n\nFASCINATING Buzz Aldrin Jason “Singer” Smith My Ex Tried to Kill Me Allena Hansen Raised in the Rainforest Double Dick Dude The Man Who Died Twice\n\nBEAUTIFUL Ethan Hawke Zach Phelps-Roper Sir David Attenborough Rosario Dawson Nick Pyenson Jeff Bridges\n\nCOURAGEOUS Randi Gill Damien Echols Carl Estersohn Peter Moore Mohammad Usafi Hubert Buchanan\n\nHUMOROUS Jon Gnarr Chris Rock Andrew W.K. Madonna Waffle House Grill Operator Martha Stewart Channing Tatum\n\nINGENIOUS Elon Musk Louis C.K. Sir Tim Berners-Lee Bill Gates RZA Matthew Markus and George Bonaci Brian Wilson Wolfgang Puck Tilda Swinton\n\nAcknowledgments More Great Reads from Booktrope INTRODUCTION\n\n## Welcome to Ask Me Anything from the current moderation team of\n\n r/IAmA.\n\nWe are the people who write and implement the policies that, in conjunction with user voting, keeps r/IAmA running smoothly. With over 8 million subscribers, some moderation is required to maintain a balanced signal-to-noise ratio. As moderators, we are in the unique position to facilitate some of the most fascinating content on the web. This foreword provides an overview of the history of r/IAmA, from its inception to its current position as one of the most successful crowd- based interview platforms on the Internet.\n\n## Reddit is a social networking website containing content and\n\n submissions that are driven to prominence thanks to votes cast by the user base. The site is broken down into sections, commonly referred to as “subreddits,” with each focusing on a specific subject matter. r/IAmA (as well as more than 10,000 other active Reddit communities) thrive on this voting system: popular and insightful content rises to the top, while less interesting content fades into obscurity. This sets the site apart from other social media platforms since users determine the fate of the content posted to the site. Every user has helped to shape and grow r/IAmA with their posts, votes, and questions.\n\n## Like many subreddits, IAmA began as an idea elsewhere on Reddit,\n\n in this case in /r/askreddit. There, users started Ask Me Anything (AMA) posts in which users were encouraged to ask interesting questions of the postee. Eventually, this lead to the creation of r/IAmA to give these popular threads their own subreddit. The small community grew quickly (gaining 20,000 subscribers in its first four months) and garnering a wide range of posts, topics, and questions.\n\n## With the increasing popularity of the format, users began to request\n\n certain people and topics for AMAs; over time this has led to numerous AMAs that might not have happened otherwise. At the same time, Reddit employees also began reaching out to well-known individuals to participate in AMAs to answer questions for Redditors. These early “celebrity” AMAs were posted on Reddit’s blog, were generally restricted to certain topics, and the questions answered limited to the top ten.\n\n...\n\nOur hope is that this book helps to highlight just a few of the great, unusual, and intriguing interactions between the IAmA community and the people doing the AMAs from over the years, and introduce the world of r/IAmA to those who may not have had the chance to experience it in-depth.\n\n...\n\n## On the Internet, grammar and punctuation are often of their own\n\n making due to mobile use, general laziness, and its own inherent syntax and culture. In an effort to ensure readability in printed and digital long form, the editors of this book have corrected all grammatical errors across the entire breadth of the book. Internet jargon such as ROFL or Reddit-specific language such as “This” remain.\n\n...\n\n## IAmA: Not to be confused with AMA (ask me anything), IAmA\n\n stands for “I Am A.” For example, a mortician might introduce herself by saying, “IAmA mortician, AMA.”"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.foyles.co.uk/book/ask-me-anything/p-z-reizin/9780751566765",
+              "title": "Ask Me Anything by P. Z. Reizin | Foyles",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Ask Me Anything\n\nP. Z. Reizin (author)\n\nPaperback Published on: 11/02/2021\n\n...\n\n## Publisher information\n\n- Publisher: Little, Brown Book Group\n- ISBN: 9780751566765\n- Number of pages: 368\n- Dimensions: 194 x 124 x 28 mm\n- Weight: 251g\n- Languages: English"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://blackwells.co.uk/bookshop/product/Ask-Me-Anything-by-P-Z-Reizin/9780751566765",
+              "title": "Ask Me Anything : P. Z. Reizin : 9780751566765 :\n\n Blackwell's",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Ask Me Anything \n\n P. Z. Reizin \n\n 1st paperback ed \n\n Paperback (11 Feb 2021) \n\n- $13.27\n\n...\n\nBook information\n\n| Field name | Data |\n| --- | --- |\n| ISBN: | 9780751566765 |\n| Publisher: | Little, Brown |\n| Imprint: | Sphere |\n| Pub date: | 11 Feb 2021 |\n| Edition: | 1st paperback ed |\n| DEWEY: | 823.92 |\n| DEWEY edition: | 23 |\n| Language: | English |\n| Number of pages: | 356 |\n| Weight: | 256g |\n| Height: | 127mm |\n| Width: | 199mm |\n| Spine width: | 41mm |"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2527,
+    "completion_tokens": 469,
+    "total_tokens": 2996,
+    "cost": 0.007435897,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004403,
+      "upstream_inference_prompt_cost": 0.0002527,
+      "upstream_inference_completions_cost": 0.0001876
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576366-IChMPqvYQPGeAEhDe9XR",
+  "object": "chat.completion",
+  "created": 1793576366,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g0756:amazon:https://www.amazon.com/Shattered-Inside-Hillary-Clintons-Campaign/dp/0553447084\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 3,958 ratings.\"\n    },\n    {\n      \"key\": \"q1054:amazon:https://www.amazon.com/Animal-Vegetable-Miracle-Year-Food/dp/0060852569\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 2,533 global ratings.\"\n    },\n    {\n      \"key\": \"g0702:amazon:https://www.amazon.com/All-Out-War-Britains-Political/dp/0008215154\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 1,677 global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1396:amazon:https://www.amazon.com/Bomber-Mafia-Temptation-Longest-Second/dp/0316296619\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 10,906 ratings.\"\n    },\n    {\n      \"key\": \"n671fab4f77:amazon:https://www.amazon.com/Laws-Power-Joost-Elffers-Production/dp/1861971346\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 87,779 global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3420,
+    "completion_tokens": 442,
+    "total_tokens": 3862,
+    "cost": 0.0002042964,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020636,
+      "upstream_inference_prompt_cost": 0.000171,
+      "upstream_inference_completions_cost": 0.00003536
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:39:36.249Z"
+}

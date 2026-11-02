@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576269-je2PNdjJRBn42K9IzzzI",
+  "object": "chat.completion",
+  "created": 1793576269,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"bg4fff83a570:amazon:https://www.amazon.com/City-That-Became-Safe-Lessons/dp/0199844429\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 43 global ratings.\"\n    },\n    {\n      \"key\": \"g0610:amazon:https://www.amazon.com/Mapping-Mind-Rita-Carter/dp/0520266285\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 214 global ratings.\"\n    },\n    {\n      \"key\": \"q0977:amazon:https://www.amazon.com/Republic-Plato/dp/B098RS89BH\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 6,549 global ratings.\"\n    },\n    {\n      \"key\": \"g1197:amazon:https://www.amazon.com/Other-Peoples-Money-Housing-Greatest/dp/0142180718\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 204 global ratings.\"\n    },\n    {\n      \"key\": \"shelf-b400facdbc39:amazon:https://www.amazon.com/What-Would-Google-Jeff-Jarvis/dp/0061709719\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 241 global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3432,
+    "completion_tokens": 420,
+    "total_tokens": 3852,
+    "cost": 0.000203148,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002052,
+      "upstream_inference_prompt_cost": 0.0001716,
+      "upstream_inference_completions_cost": 0.0000336
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:37:56.604Z"
+}

@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572116-c4kvl9XuN2wdS8QfGBCA",
+  "object": "chat.completion",
+  "created": 1793572116,
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "provider": "Nvidia",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"id\": \"shelf-cd2e7de9b0d9\",\n  \"title\": \"Chinese History in Economic Perspective\",\n  \"author\": \"Thomas G. Rawski and Lillian M. Li\",\n  \"amazon\": {\n    \"count\": 1,\n    \"url\": \"https://www.amazon.com/Chinese-History-Economic-Perspective-Studies/dp/0520301889\",\n    \"asin\": \"0520301889\",\n    \"evidence\": \"[amazon.com](https://www.amazon.com/Chinese-History-Economic-Perspective-Studies/dp/0520301889)\"\n  },\n  \"reference\": {\n    \"count\": 1,\n    \"url\": \"https://www.amazon.com/Chinese-History-Economic-Perspective-Studies/dp/0520301889\",\n    \"evidence\": \"[amazon.com](https://www.amazon.com/Chinese-History-Economic-Perspective-Studies/dp/0520301889)\",\n    \"ranges\": [\n      {\n        \"start\": 1,\n        \"end\": 1,\n        \"label\": \"pages\"\n      }\n    ]\n  }\n}",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Chinese-History-Economic-Perspective-Studies/dp/0520301889",
+              "title": "Chinese History in Economic Perspective (Studies on China) ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Chinese History in Economic Perspective (Studies on China) (Volume 13) ; Print length. 382 pages ; Language. English ; Publisher. University of California Press."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Chinese-Society-Eighteenth-Century-Naquin/dp/0300046022",
+              "title": "Chinese Society in the Eighteenth Century - Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nChinese Society in the Eighteenth Century - Books\nIn this book Susan Naquin and Evelyn S. Rawski draw on the most recent research to provide a unique overview and reevaluation of the social history of China\n\n## \n\nChinese Society in the Eighteenth Century - Books\nA lucid, original, and scholarly summary of the social, economic, and demographic history of China's last great period of glory.\n\n## \n\nChinese Society in the Eighteenth Century\nChinese Society in the Eighteenth Century [Naquin, Susan, Rawski, Evelyn S ... C. Muldrew. Paperback."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Cambridge-Economic-History-China-1800/dp/1108425577",
+              "title": "The Cambridge Economic History of China: Volume 1, To ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Cambridge Economic History of China: Volume 1, To ...\nA comprehensive survey of Chinese economic history from the pre-imperial era to 1800 from an international team of leading experts."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Economic-History-China-Antiquity-Nineteenth-ebook/dp/B01CJUV2J6",
+              "title": "The Economic History of China: From Antiquity to the ... - Amazon",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Economic History of China: From Antiquity to the ... - Amazon\nIn this comprehensive but accessible study, Richard von Glahn examines the institutional foundations, continuities and discontinuities in China's economic development over three millennia, from the Bronze Age to the early twentieth century."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Cambridge-Economic-History-China-ebook/dp/B09QXDP25D",
+              "title": "The Cambridge Economic History of China - amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Cambridge Economic History of China - amazon.com\nThis volume for the first time brings together the fruits of pioneering international scholarship in all dimensions of economic history to provide an authoritative and comprehensive overview of this tumultuous and dramatic transformation."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 922,
+    "completion_tokens": 283,
+    "total_tokens": 1205,
+    "cost": 0.005,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "shelf-cd2e7de9b0d9",
+  "retrieved": "2026-11-01T22:28:36.060Z"
+}

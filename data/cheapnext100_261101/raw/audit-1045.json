@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793573578-azh4UnuyrN877EEGOlv7",
+  "object": "chat.completion",
+  "created": 1793573578,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g1174:amazon:https://www.amazon.com/Common-Stocks-Uncommon-Profits-Philip/dp/0060321601\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 13.\"\n    },\n    {\n      \"key\": \"rem-u1060:amazon:https://www.amazon.com/Inevitable-Understanding-Technological-Forces-Future/dp/0143110373\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 3,105.\"\n    },\n    {\n      \"key\": \"n3942119c30:amazon:https://www.amazon.com/Dreadnought-Britain-Germany-Coming-Great/dp/0345375564\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 1,418.\"\n    },\n    {\n      \"key\": \"g0321:amazon:https://www.amazon.com/Creative-Curve-Develop-Right-Idea/dp/1524761710\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 727.\"\n    },\n    {\n      \"key\": \"shelf-6a0764b6c0c8:amazon:https://www.amazon.com/Buffett-Munger-Unscripted-Investment-Shareholder/dp/1804090670\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence is a global rating count of 168.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3477,
+    "completion_tokens": 444,
+    "total_tokens": 3921,
+    "cost": 0.0002072763,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020937,
+      "upstream_inference_prompt_cost": 0.00017385,
+      "upstream_inference_completions_cost": 0.00003552
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:53:02.754Z"
+}

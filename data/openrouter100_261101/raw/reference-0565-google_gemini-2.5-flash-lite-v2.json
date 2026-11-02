@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:16:36.558Z",
+  "bookId": "q0289",
+  "id": "gen-1793571394-6r62yTA4QzaVEFhkoiVl",
+  "object": "chat.completion",
+  "created": 1793571394,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"q0289\",\n  \"title\": \"50 Years of Text Games\",\n  \"author\": \"Aaron A. Reed\",\n  \"knownEdition\": null,\n  \"purchaseUrl\": \"https://www.amazon.com/dp/B0CLDY72WT\",\n  \"pages\": {\n    \"count\": 640,\n    \"editionId\": null,\n    \"editionYear\": null,\n    \"format\": null,\n    \"language\": null,\n    \"url\": \"https://if50.textories.com/\",\n    \"evidence\": \"620 pages of in-depth coverage\",\n    \"sourceTitle\": \"50 Years of Text Games\",\n    \"sourceAuthor\": \"Aaron A. Reed\"\n  },\n  \"reference\": {\n    \"count\": null,\n    \"editionId\": null,\n    \"editionYear\": null,\n    \"url\": \"https://if50.textories.com/\",\n    \"evidence\": \"A full index and research bibliography\",\n    \"sourceTitle\": \"50 Years of Text Games\",\n    \"sourceAuthor\": \"Aaron A. Reed\",\n    \"ranges\": [],\n    \"method\": \"The source states that the book contains a \\\"research bibliography\\\" but does not provide page numbers or a count for this section.\",\n    \"limitation\": \"The exact page range or count for the bibliography is not specified in the provided search results.\"\n  },\n  \"searchedUrls\": [\n    \"https://if50.textories.com/\",\n    \"https://aaronareed.net/50-years-of-text-games/\",\n    \"https://aareed.itch.io/50-years-of-text-games\",\n    \"https://dokumen.pub/50-years-of-text-games-from-oregon-trail-to-ai-dungeon-1nbsped-9798985966138-9798985966145.html\"\n  ],\n  \"limitations\": \"The provided search results confirm the existence of a \\\"research bibliography\\\" within the book, but do not specify its page range or exact count. The page count of 640 is an approximation based on the provided Amazon ASIN, while the textories.com source mentions \\\"620 pages of in-depth coverage\\\" which may refer to the main content rather than the total page count including front/back matter.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://if50.textories.com/",
+              "title": "50 Years of Text Games",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## 50 Games in 50 Years\n\nFifty in-depth chapters cover one text game from each year starting in 1971—when a Minnesota teacher wheeled a teletype into his class to debut a game called The Oregon Trail—through the dawn of the 2020s.\n\nThe fifty games include famous classics, overlooked gems, and forgotten genres: everything from epic MUDs to generative text engines, and games running on hardware from teletypes to smart watches. It's the story of interactive fiction, made accessible to outsiders and insiders alike.\n\n## What's Inside?\n\n- 620 pages of in-depth coverage\n- Original maps and diagrams reveal each game's structure\n- Excerpts of text and source code highlight the writing and design of each game\n- Extensive version and release histories for each game\n- Contextualized with overviews of each decade and major trends in the evolution of interactive fiction, and an in-depth look at the roots of digital text in the 1950s and 60s\n- Capsule summaries of nearly five hundred other noteworthy text games\n- A full index and research bibliography\n\n## Further Explorations\n\nA bonus volume crammed full of stuff that just couldn't fit in the main book is also now available. Further Explorations is an 85-page supplement that covers weird text game genres like hacking simulators and type-in books, fan-favorite games like Anchorhead and A Dark Room, and features a detailed timeline of text game history with hundreds of tools, technologies, events, and milestones.\n\nOriginally available exclusively as a perk to crowdfunders, Further Explorations is now available for standalone purchase in a revised and expanded edition."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://if50.textories.com/files/50YearsOfTextGames-Sample.pdf",
+              "title": "TEXT GAMES",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "##### 50 YEARS OF\n\n### TEXT GAMES\n\n#### FROM OREGON TRAIL TO AI DUNGEON\n\nFirst edition Changeful Tales Press Oakland, California\n\nAaron A. Reed\n\nCopyright © 2023 Aaron A. Reed \nAll rights reserved. Permission to excerpt portions of this book for classroom, \neducation, reviewing, archival, or other noncommercial purposes is granted. The \nbook as a whole may not be reproduced or used in any other manner without the \nprior written permission of the author. \nThe images in this book are copyright to their respective owners where credited, or \nappear under fair use. Cover art, layout, and maps by the author except where noted. \nHardcover ISBN: 979-8-9859661-3-8 \nPaperback ISBN: 979-8-9859661-4-5 \nE-book ISBN: 979-8-9859661-2-1 \nName: Reed, Aaron A. \nTitle: 50 Years of Text Games: From Oregon Trail to AI Dungeon / Aaron A. Reed \nDescription: First Edition. Oakland: Changeful Tales Press, 2023 \nIdentifiers: ISBN 9798985966138 (hardcover) / ISBN 9798985966145 (paperback) / \nISBN 9798985966121 (e-book) \nSubjects: LCSH: Computer Games—History. \nLibrary of Congress Control Number: 2022949771 \nFirst Edition March 2023 \n10 9 8 7 6 5 4 3 2 1 \nCopyedited by Emily Morganti. \nTypeset in Baskerville URW, Aktiv Grotesk, Bebas Neue, Calibri, & Nexus Typewriter. \nCovers use Color Basic by Typodermic and Ac437 IBM BIOS by VileR (CC BY-SA 4.0). \nChangeful Tales Press \nOakland, California \naaronareed.net \nPrinted in China\n\n...\n\n## CONTENTS\n\nAcknowledgments ... viii \nGlossary ... xii \nIntroduction ... 1 \nBefore the 70s ... 6 \nThe 1970s ... 27 \nThe 1980s ... 124 \nThe 1990s ... 243 \nThe 2000s ... 369 \nThe 2010s ... 483 \nIndex ... 614 \n1971 The Oregon Trail ... 33 \n1972 ROCKET ... 41 \n1973 Hunt the Wumpus ... 47 \n1974 Super Star Trek ... 55 \n1975 dnd ... 63 \n1976 Adventure ... 75 \n1977 Zork ... 91 \n1978 Pirate Adventure ... 103 \n1979 The Cave of Time (Choose Your Own Adventure #1) 115 \n1980 MUD ... 135 \n1981 His Majesty’s Ship “Impetuous” ... 145 \n1982 The Hobbit ... 153 \n1983 Suspended ... 161 \n1984 The Hitchhiker’s Guide to the Galaxy ... 171 \n1985 A Mind Forever Voyaging ... 183 \n1986 Uncle Roger ... 199 \n1987 Plundered Hearts ... 211 \n1988 P.R.E.S.T.A.V.B.A. ... 221 \n1989 Monster Island ... 231 \n1990 LambdaMOO ... 255 \n1991 Trade Wars 2002 ... 269 \n1992 Silverwolf ... 279 \n1993 Curses ... 289 \n1994 The Playground ... 301 \n1995 Patchwork Girl ... 313 \n1996 So Far ... 325 \n1997 Achaea ... 335 \n1998 Photopia ... 347 \n1999 King of Dragon Pass ... 357 \n2000 Galatea ... 379 \n2001 The Beast ... 389 \n2002 Screen ... 401 \n2003 The Kingdom of Loathing ... 409 \n2004 The Fire Tower ... 417 \n2005 Shades of Doom ... 425 \n2006 Dwarf Fortress ... 435 \n2007 Lieux Communs and El Museo de la Consciencias. . 449 \n2008 Violet ... 461 \n2009 Fallen London ... 471 \n2010 Digital: A Love Story ... 495 \n2011 Nested ... 505 \n2012 Howling Dogs ... 513 \n2013 Versu: A Family Supper ... 523 \n2014 80 Days ... 537 \n2015 Lifeline ... 549 \n2016 Choices: The Freshman ... 557 \n2017 Universal Paperclips ... 569 \n2018 Weyrwood ... 579 \n2019 AI Dungeon ... 589 \n2020 Scents & Semiosis ... 601\n\n...\n\nAlso worthy of special thanks is the Internet Archive, without which hundreds of online and early print sources cited in this volume might have been lost forever; the physical archives of the Computer History Museum in Mountain View, California; MobyGames for their work cataloging vintage game credits and reviews; and every academic institution that open-sources its research rather than locking it behind a paywall.\n\n...\n\nWHILE YOU CAN READ THIS BOOK STRAIGHT THROUGH, each entry is also cross \nlinked to other games connected through threads of inspiration, technology, \nor tradition. References to other games featured in this volume are indicated \nby a stylized year reference 2022, often in a sidebar. Years are printed on the \nbottom outside corners of pages, making it easy to navigate through decades \nas well as by page numbers. Mentions of games not covered in this book are \n2022 cited with [Author/Publisher and Year].\n\n...\n\nCitations are numbered alphabetically at the end of each chapter. “Direct quotations only are attributed” using citation number 5 or in a sidebar for chapters without endnotes. Bibliography links to online content are given a date prepended with either a and date of access, or s and date of a snapshot from the Wayback Machine at the Internet Archive (https://archive.org).\n\n...\n\nIndex to Games by Creation Tool\n\nAn enormous variety of programming languages and authoring tools were\n\nused to create the games in this book; here’s an index to games by creation tool. \nASP: The Beast 2001 (server) \nBASIC: Oregon Trail 1971; ROCKET (1972\n\n...\n\nTrek 1974; Pirate Adventure 1978; His Majesty’s \nShip “Impetuous” 1981; Uncle Roger 1986 \n(commercial version); P.R.E.S.T.A.V.B.A. 1988 \nBCPL: MUD 1980 (version 3) \nC/C++: LambdaMOO 1990 (server); Achaea \n1997; King of Dragon Pass 1999; Screen 2002; \nDwarf Fortress 2006; Choices: The Freshman \n2016 \nChoiceScript: Weyrwood 2018 \nFlash: The Beast 2001 (multimedia) \nFOCAL: ROCKET 1972 (original version) \nFortran: Adventure 1976 \nHap: The Playground 1994 (character logic) \nHourglass: Achaea 1997 (original server) \nInform: Curses 1993; So Far 1996; Photopia\n\n...\n\nInform 7: Violet 2008; Scents & Semiosis 2020\n\n...\n\nFallen London 2009 (frontend); Nested 2011; \nUniversal Paperclips 2018; AI Dungeon 2019 \n(frontend)\n\n...\n\nLua: Achaea 1997 (scripting) \nMACRO-10: MUD 1980 (versions 1 & 2) \nMDL: Zork 1977 \nMOO: LambdaMOO 1990 (world) \nMUDDL: MUD 1980 (world) \nNodeJS: Fallen London 2009 (backend, 2019 \nredesign) \nObjective C: Lifeline 2015 (app) \nPascal: Trade Wars 2002 1991 \nPAW: Silverwolf 1992 \nPerl: The Kingdom of Loathing 2003 (backend) \nPHP: The Kingdom of Loathing 2003 (backend) \nPraxis: A Family Supper 2013 (content) \nPython: AI Dungeon 2019 (backend) \nQuickBasic: Monster Island 1989 \nRapture: Achaea 1997 (2001 server) \nRen’Py: Digital: A Love Story 2010 \nStoryNexus: Fallen London 2009 (content) \nStoryspace: Patchwork Girl 1995 \nTUTOR: dnd 1975 \nTwine: Howling Dogs 2012; Lifeline 2015 (story) \nUnix shell scripts: Uncle Roger 1986 \nVersu: A Family Supper 2013 (engine) \nVisual Basic: Shades of Doom 2005 \nVortex: Achaea 1997 (1998 server) \nZ80 Assembler: The Hobbit 1982 \nZIL: Suspended 1983; The Hitchhiker’s Guide \nto the Galaxy 1984; A Mind Forever Voyaging \n1985; Plundered Hearts 1987"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://aaronareed.net/50-years-of-text-games/",
+              "title": "50 Years of Text Games - Aaron A. Reed",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "a blog series unfolding across each week of 2021, “50 Years of Text Games: From Oregon Trail to A.I. Dungeon ... now a 600 page book celebrating the first half-century of interactive fiction ... 1971, are profiled in depth, with analysis, maps, excerpts,"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://aareed.itch.io/50-years-of-text-games",
+              "title": "50 Years of Text Games: From Oregon Trail to AI Dungeon by Aaron A. Reed",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "A\n\n...\n\n50 Years of Text Games: From Oregon Trail to A.I. Dungeon is an extensively researched book chronicling the first half-century of interactive fiction: video games made from words. Covering one text game released in each year from 1971 to 2020, in-depth chapters dive into classics like Zork, Trade Wars, and Hitchhiker's Guide; beloved fan games like Galatea and Photopia; wild experiments from Dwarf Fortress to Howling Dogs; and breakout hits like 80 Days, Fallen London, and Lifeline. Over 600 pages of coverage and dozens of original maps and flowcharts help explain the structure and design of each game included.\n\nAlso available: the companion volume, Further Explorations, a supplement with even more great chapters of text games history!\n\n The digital edition of 50 Years of Text Games comes in multiple formats, all of which are unlocked with a purchase: \n\n- PDF version: this mirrors the layout of the printed book. Includes internal links and color images.\n- Plain text version: this contains the main text of each chapter in unadorned plain text ASCII. It does not include sidebars and other ancillary material.\n- Reflowable EPUB version: the full contents of the book in a reflowable format good for e-readers and screen readers. The conversion was created with an eye to both readability, and also following accessibility guidelines for blind or low-vision folks using screen readers.\n\n...\n\nNote for libraries, schools and universities: you are granted permission to purchase the ebook at the listed price to offer a single-use (one user at a time) electronic copy for users/students. You may purchase an unlimited license (multiple simultaneous users) for your network for the price of $75, by manually adjusting the payment price above. These licenses do not expire. I can't provide hosting solutions so you need to handle your own distribution. If you are not a library, school, or university, contact me about bulk rates."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://dokumen.pub/50-years-of-text-games-from-oregon-trail-to-ai-dungeon-1nbsped-9798985966138-9798985966145.html",
+              "title": "50 years of Text Games: From Oregon Trail to AI Dungeon [1 ed.]\n 9798985966138, 9798985966145",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "50 YEARS OF TEXT GAMES FROM OREGON TRAIL TO AI DUNGEON ... Permission to excerpt portions of this book for classroom, education, reviewing, archival, or other noncommercial purposes is granted ... be reproduced or used in any other manner without the"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4192,
+    "completion_tokens": 560,
+    "total_tokens": 4752,
+    "cost": 0.007636768,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006432,
+      "upstream_inference_prompt_cost": 0.0004192,
+      "upstream_inference_completions_cost": 0.000224
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

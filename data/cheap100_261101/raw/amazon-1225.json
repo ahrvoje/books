@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572523-ejPN1b0bnoLQSTZx4LLy",
+  "object": "chat.completion",
+  "created": 1793572523,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-113a0664b31e\",\n  \"title\": \"Know-How: The Hidden Driver of Growth and Competitiveness\",\n  \"author\": \"Ram Charan with Geri Willigan\",\n  \"amazon\": {\n    \"count\": 320,\n    \"url\": \"https://www.amazon.com/Know-How-Hidden-Growth-Competitiveness/dp/0071845664\",\n    \"asin\": \"0071845664\",\n    \"evidence\": \"https://www.amazon.com/Know-How-Hidden-Growth-Competitiveness/dp/0071845664#customerReviews\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/he/Leading-Through-Inflation-Recession-Stagflation/dp/1646871219",
+              "title": "Leading Through Inflation: And Recession and ... - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Ram Charan has guided hundreds of companies through many tough business challenges. In the early 1980s, he helped GE preserve its teetering credit rating in the"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Leading-Through-Inflation-Recession-Stagflation-ebook/dp/B0GLDYNGR9",
+              "title": "Leading Through Inflation: And Recession and ... - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Ram Charan has guided hundreds of companies through many tough business challenges. In the early 1980s, he helped GE preserve its teetering credit rating in the"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/he/Ram-Charan-ebook/dp/B0GLDYNGR9",
+              "title": "Leading Through Inflation: And Recession and ... - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Ram Charan has guided hundreds of companies through many tough business challenges. In the early 1980s, he helped GE preserve its teetering credit rating in the"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/es/Ram-Charan-ebook/dp/B0GLDYNGR9",
+              "title": "Leading Through Inflation: And Recession and ... - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Ram Charan has guided hundreds of companies through many tough business challenges. In the early 1980s, he helped GE preserve its teetering credit rating in the"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Leading-Through-Inflation-Recession-Stagflation/dp/1646871219",
+              "title": "Leading Through Inflation: And Recession and Stagflation",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Ram Charan has guided hundreds of companies through many tough business challenges. In the early 1980s, he helped GE preserve its teetering credit rating in the"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 769,
+    "completion_tokens": 177,
+    "total_tokens": 946,
+    "cost": 0.00501896048,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000019152,
+      "upstream_inference_prompt_cost": 0.000013842,
+      "upstream_inference_completions_cost": 0.00000531
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "shelf-113a0664b31e",
+  "retrieved": "2026-11-01T22:35:33.601Z"
+}

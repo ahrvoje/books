@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793575236-i7YzmwRvOzqrVUBUpUSr",
+  "object": "chat.completion",
+  "created": 1793575236,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Gravity-Sandra-Bullock/dp/B00HJ92QTI",
+              "title": "Watch Gravity | Prime Video",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "To move between items, use your keyboard's up or down arrows.\n.us\nPrime Video\nPrime Video All Departments Alexa Skills Amazon Autos Amazon Devices Amazon Global Store Amazon Haul Amazon One Medical\n\n...\n\nSports & Outdoors Subscribe & Save Subscription Boxes Tools & Home Improvement Toys & Games Under $10 Video Games Whole Foods Market\nEN\nHello, sign in Account & Lists\nReturns & Orders 0 Cart\n\nGravity\n\nOSCARS® 7X winner\nAcademy Award® winners Sandra Bullock (The Blind Side) and George Clooney (Up in the Air, Syriana) star in this heart-pounding thriller written, directed and produced by Oscar®\n\n...\n\nThe price before discount is the me\n\n...\n\nRodriguez](/gp/video/search/ref=atv_dp_pd_prod?phrase=Gabriela%20Rodriguez&ie=UTF8)\n\nCast\n\n[Sandra Bullock](/prime-video/actor/Sandra-Bullock/amzn1.dv.gti.54b901d7-5f18-4bd6-85bc-7d2d0e62d15f/ref=atv_dp_md_pp) , [George Clooney](/prime-video/actor/George-Clooney/amzn1.dv.gti.b0ccd746-f1e2-482c-96da-066a001b4d7a/ref=atv_dp_md_pp) , [Ed Harris](/prime-video/actor/Ed-Harris/amzn1.dv.gti.2e5f957e-2348-4da9-9d8f-d2296367ea0f/ref=atv_dp_md_pp)\n\nStudio\n\nWarner Bros.\n\nOther formats\n\nDVD from $4.41\nBlu-ray from $13.00\nBy ordering or viewing, you agree to our Terms . Sold by Amazon.com Services LLC.\n\nReviews\n\n4.5 out of 5 stars\n18,713 global ratings\n1. 5 star 73%\n2. 4 star 15%\n3. 3 star 7%\n4. 2 star 2%\n5. 1 star 3%\nHow are ratings calculated?\nRate this video\nRead all reviews\n\nFeedback\n\nSend us feedback\nSubtitles and Audio\nFullscreen\nClose player"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 916,
+    "completion_tokens": 1,
+    "total_tokens": 917,
+    "cost": 0.00101635282,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000016518,
+      "upstream_inference_prompt_cost": 0.000016488,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Gravity's Fatal Attraction\" Begelman & Rees \"global ratings\"",
+  "bookId": "n451946fbbd",
+  "retrieved": "2026-11-01T23:20:33.733Z"
+}

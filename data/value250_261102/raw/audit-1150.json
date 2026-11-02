@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575757-CpBV8POtEuUxAso6o4Fc",
+  "object": "chat.completion",
+  "created": 1793575757,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u1847:amazon:https://www.amazon.com/What-Wants-Know-Expanded-Updated/dp/0553417789\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1360:amazon:https://www.amazon.com/Lost-City-Monkey-God-Story/dp/1455540013\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"intake-0838:amazon:https://www.amazon.com/Mathematical-Universe-Alphabetical-Problems-Personalities/dp/0471176613\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as ratings.\"\n    },\n    {\n      \"key\": \"intake-0158:amazon:https://www.amazon.com/Gamers-Work-Stories-Behind-People/dp/1430233516\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"shelves-datagoliath:amazon:https://www.amazon.com/Data-Goliath-Battles-Collect-Control/dp/039335217X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3430,
+    "completion_tokens": 410,
+    "total_tokens": 3840,
+    "cost": 0.000202257,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002043,
+      "upstream_inference_prompt_cost": 0.0001715,
+      "upstream_inference_completions_cost": 0.0000328
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:29:25.294Z"
+}

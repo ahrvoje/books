@@ -1,0 +1,107 @@
+{
+  "id": "gen-1793574850-7rSlPQi8UO9tBwiMinI1",
+  "object": "chat.completion",
+  "created": 1793574850,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-D-Jason-Slone/s?rh=n%3A283155%2Cp_27%3AD.%2BJason%2BSlone",
+              "title": "D. Jason Slone: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nD. Jason Slone: Books\nThe Cognitive Science of Religion: A Methodological Introduction to Key Empirical Studies (Scientific Studies of Religion: Inquiry and Explanation)."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Too-Rich-Aid-Poor-Pay/dp/B0GSJTKS5X",
+              "title": "Too Rich for Aid, Too Poor to Pay?: A Former Dean Spills ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nToo Rich for Aid, Too Poor to Pay?: A Former Dean Spills ...\n13 thg 3, 2026 — For 20+ years, Jason Slone lived inside the \"gears of the machine\" as a Professor and University Dean. He's seen how decisions are made, tuition is set, and"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Global-Theology-Evangelical-Perspective-Contextual/dp/0830839569",
+              "title": "Global Theology in Evangelical Perspective: Exploring the ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nGlobal Theology in Evangelical Perspective: Exploring the ...\n\"Global Theology in Evangelical Perspective is an excellent introduction for better understanding what is happening theologically outside the Western church.\"."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Critical-Theology-Introducing-Agenda-Global/dp/0830851291",
+              "title": "Critical Theology: Introducing an Agenda for an Age of ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nCritical Theology: Introducing an Agenda for an Age of ...\nCarl A. Raschke introduces a new critical theology. Academic Publication date July 8, 2016. Rashke's new critical theology takes as its starting point the\n\n## \n\nCritical Theology: Introducing an Agenda for an Age of ...\nCarl A. Raschke introduces a new critical theology that addresses global crises by integrating the biblical claim that the Word became flesh with contemporary"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Twisted-unto-Destruction-Bible-Theology/dp/B0CNTSYPX9",
+              "title": "How \"Bible Alone\" Theology Made the World a Worse Place",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nHow \"Bible Alone\" Theology Made the World a Worse Place\nDonald J. Johnson is an author, speaker, radio show host, and filmmaker. He is the founder and president of Runaway Planet Pictures and Don Johnson"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 898,
+    "completion_tokens": 1,
+    "total_tokens": 899,
+    "cost": 0.00101603206,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000016194,
+      "upstream_inference_prompt_cost": 0.000016164,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Theological Incorrectness\" D. Jason Slone \"global ratings\"",
+  "bookId": "shelf-1bf0831d83ab",
+  "retrieved": "2026-11-01T23:14:08.288Z"
+}

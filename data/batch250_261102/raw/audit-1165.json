@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576385-eB7wZ4bj53YSETdKoZgI",
+  "object": "chat.completion",
+  "created": 1793576385,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u1414:amazon:https://www.amazon.com/Romanovs-1613-1918-Simon-Sebag-Montefiore/dp/0307280519\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and numeric.\"\n    },\n    {\n      \"key\": \"q1042:amazon:https://www.amazon.com/Peoples-History-United-States-1492-Present/dp/0060528370\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and numeric.\"\n    },\n    {\n      \"key\": \"rem-u1114:amazon:https://www.amazon.com/How-Women-Rise-Holding-Promotion/dp/0316440124\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and numeric.\"\n    },\n    {\n      \"key\": \"bg9e09301911:amazon:https://www.amazon.com/Rules-Radicals-Practical-Primer-Realistic/dp/0679721134\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and numeric.\"\n    },\n    {\n      \"key\": \"rem-u1296:amazon:https://www.amazon.com/Narrative-Life-Frederick-Douglass/dp/1503287270\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence for the rating is explicit and numeric.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3625,
+    "completion_tokens": 426,
+    "total_tokens": 4051,
+    "cost": 0.0002131767,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021533,
+      "upstream_inference_prompt_cost": 0.00018125,
+      "upstream_inference_completions_cost": 0.00003408
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:39:52.303Z"
+}

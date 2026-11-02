@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793575489-v22diDSKTBqI4FY4BhkC",
+  "object": "chat.completion",
+  "created": 1793575489,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "Here",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/History-Time-Very-Short-Introduction/dp/0192804995",
+              "title": "The History of Time: A Very Short Introduction",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe History of Time: A Very Short Introduction\nExplores how humans organize time, from Ancient Rome's calendar to revolutionary changes in France and Soviet Union, examining the artificial nature of time\n\n## \n\nThe History of Time: A Very Short Introduction - Amazon.com\nExplores how humans organize time, from Ancient Rome's calendar to revolutionary changes in France and Soviet Union, examining the artificial nature of time\n\n## \n\nThe History of Time: A Very Short Introduction - Amazon.com\nLeofranc Holford-Strevens brings us this fascinating study of time using a range of examples from Ancient Rome and Julius Caesar's imposition of the Leap\n\n## \n\nThe History of Time: A Very Short Introduction\nWhy do we measure time in the way that we do? Why is a week seven days long? At what point did minutes and seconds come into being?"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Oxford-Companion-Year-Exploration-Time-Reckoning/dp/0192142313",
+              "title": "The Oxford Companion to the Year: An Exploration ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Oxford Companion to the Year: An Exploration ...\nBonnie Blackburn and Leofranc Holford-Strevens explore calendar customs, time-reckoning systems across cultures, and the history and lore behind special days"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 446,
+    "completion_tokens": 1,
+    "total_tokens": 447,
+    "cost": 0.00100797742,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000008058,
+      "upstream_inference_prompt_cost": 0.000008028,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The History of Time\" Leofranc Holford-Strevens \"ratings\"",
+  "bookId": "resume-635-8",
+  "retrieved": "2026-11-01T23:24:50.346Z"
+}

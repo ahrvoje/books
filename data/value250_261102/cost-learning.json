@@ -1,0 +1,79 @@
+{
+  "recordedCostUSD": 0.9704432956788004,
+  "previous100CostUSD": 0.2608571937155999,
+  "costPerAcceptedFieldUSD": 0.0038817731827152017,
+  "previousCostPerFieldUSD": 0.002608571937155999,
+  "costPerFieldChangeFraction": 0.48808362438618924,
+  "acceptedFields": 250,
+  "cachedFields": 5,
+  "groups": {
+    "compact prompt pilot": {
+      "calls": 20,
+      "costUSD": 0.021055412072000006,
+      "acceptedFields": 4
+    },
+    "standard search": {
+      "calls": 880,
+      "costUSD": 0.9390154061068009,
+      "acceptedFields": 241
+    },
+    "audit": {
+      "calls": 50,
+      "costUSD": 0.010372477500000003,
+      "acceptedFields": 0
+    }
+  },
+  "pilot": {
+    "fresh": {
+      "calls": 20,
+      "costUSD": 0.021316936570400003,
+      "verifiedTargetMatches": 5,
+      "ids": [
+        "complete-192-7",
+        "bgec05fa2ad7",
+        "intake-0577",
+        "n3911e15103",
+        "progress-0605"
+      ],
+      "costPerVerifiedTargetUSD": 0.00426338731408
+    },
+    "compact": {
+      "calls": 20,
+      "costUSD": 0.021055412072000006,
+      "verifiedTargetMatches": 3,
+      "ids": [
+        "bgec05fa2ad7",
+        "intake-0577",
+        "n3911e15103"
+      ],
+      "costPerVerifiedTargetUSD": 0.0070184706906666686
+    }
+  },
+  "previouslyAttemptedBooksExcluded": 1074,
+  "standardBookQueries": 880,
+  "duplicateStandardQueries": 0,
+  "rateLimitedAuditCalls": 6,
+  "lessons": [
+    "Mistral Nemo plus Parallel fast search with ten results remains the best tested setup.",
+    "Retain title, author and the exact global ratings query. The compact prompt changed both instructions and ratings wording; it saved little per call and found only three of the five verified targets found by the baseline. The sample is small and the effects of the two prompt changes cannot be separated.",
+    "Cache reuse and matching secondary results avoid additional search calls.",
+    "Keep audit concurrency at two after observed rate limits; retry failed calls only.",
+    "Shorten the audit instructions further by making field-specific constraints explicit: print-edition rules apply only to page counts. This is a proposed next test, not a measured gain.",
+    "Cost per accepted field increased versus the prior round. Remaining books and selection difficulty differ; no overall efficiency gain is claimed."
+  ],
+  "scope": "Recorded successful responses including all search calls, the paired pilot and 50 audits. Not an invoice; unsuccessful calls may have costs not returned here.",
+  "confidence": "High for recorded cost and arithmetic; moderate for metadata and pilot generalization.",
+  "futureDefaults": {
+    "researchModel": "mistralai/mistral-nemo",
+    "plugin": {
+      "id": "web",
+      "engine": "parallel",
+      "mode": "fast",
+      "max_results": 10
+    },
+    "researchMaxTokens": 1,
+    "auditModel": "mistralai/mistral-small-24b-instruct-2501",
+    "auditMaxTokens": 3000,
+    "auditConcurrency": 2
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:28.325Z",
+  "bookId": "shelves-alvarez",
+  "id": "gen-1793571206-PuGP89du2icMzrB1p64t",
+  "object": "chat.completion",
+  "created": 1793571206,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelves-alvarez\",\n  \"title\": \"Alvarez: Adventures of a Physicist\",\n  \"author\": \"Luis W. Alvarez\",\n  \"amazon\": {\n    \"count\": 50,\n    \"stars\": 4.6,\n    \"asin\": \"B075TJ1VFK\",\n    \"marketplace\": \"amazon.com\",\n    \"url\": \"https://www.amazon.com/Alvarez-Adventures-Physicist-Luis-W-ebook/dp/B075TJ1VFK?ref_=ast_author_dp\",\n    \"evidence\": \"4.6 out of 5 stars. 50 customer reviews.\",\n    \"sourceTitle\": \"Luis W. Alvarez\",\n    \"sourceAuthor\": \"Luis W. Alvarez\",\n    \"snapshotLimitation\": \"The search result shows customer reviews for the Kindle Edition of 'Alvarez: Adventures of a Physicist' on amazon.com, not the specific edition requested.\"\n  },\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Luis-W-Alvarez/e/B001HNAZ18/ref=dp_byline_cont_book_1\"\n  ],\n  \"limitations\": \"The provided Amazon search results for 'Alvarez: Adventures of a Physicist' on amazon.com primarily show customer ratings and reviews for the Kindle Edition (ASIN B075TJ1VFK). Information regarding the specific edition with ISBN:9780465001156, including its page count, reference section details, or a direct Amazon purchase link with aggregate ratings for that specific edition, was not found. The amazon.de link in the prompt was not directly searched for ratings.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Luis-W-Alvarez/e/B001HNAZ18/ref=dp_byline_cont_book_1",
+              "title": "Amazon.com: Luis W. Alvarez: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Alvarez Store on Amazon\n\nVisit Luis W. Alvarez Store on Amazon\n\n1. Luis W. Alvarez\n\n* [Home](https://www.amazon.com/stores/author/B001HNAZ18?ingress=0&visitId=14ec7b1b-e56b-4984-ac01-0918e4d44e48&ref_=ap_rdr)\n* [All Books](https://www.amazon.com/stores/author/B001HNAZ18/allbooks?ingress=0&visitId=14ec7b1b-e56b-4984-ac01-0918e4d44e48&ref_=ap_rdr)\n* More\n\n# Luis W. Alvarez\n\n## Most popular\n\nAlvarez: Adventures of a Physicist\n\n_4\\.6 out of 5 stars_\n\n50\n\n4\\.6 out of 5 stars. 50 customer reviews.\n\nKindle Edition\n\n$ 9 . 99\n\n## Books\n\nKindle Unlimited\n\nAll Formats\n\nSort by: Popularity\n\n2 titles\n\nCarousel slide 1\n\n## [Alvarez: Adventures of a Physicist](https://www.amazon.com/Alvarez-Adventures-Physicist-Luis-W-ebook/dp/B075TJ1VFK?ref_=ast_author_dp \"Alvarez: Adventures of a Physicist\")\n\n[4\\.6 _4\\.6 out of 5 stars_ 50](https://www.amazon.com/Alvarez-Adventures-Physicist-Luis-W-ebook/dp/B075TJ1VFK?ref_=ast_author_dp \"4.6 out of 5 stars\")\n\nCarousel slide 1\n\n[by Luis W. Alvarez](https://www.amazon.com/Luis-W-Alvarez/e/B001HNAZ18?ref_=ast_author_cp)\n\nDuring World War II, Luis W. Alvarez participated in the Allies’ development of radar at the MIT Radiation Laboratory, and of the atomic bomb at Los Alamos. He then worked as an experimental physicist on cyclotrons, particle accelerators and bubble chambers at UC-Berkeley with Ernest Lawrence. Later in life, he used cosmic rays to “X ray” an Egyptian pyramid, developed a new theory about the extinction"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Alvarez-Adventures-Physicist-Alfred-Foundation/dp/0465001165",
+              "title": "Alvarez: Adventures Of A Physicist (Alfred P. Sloan Foundation Series)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nAlvarez: Adventures Of A Physicist (Alfred P. Sloan Foundation Series)\nThis is a richly absorbing autobiography by the physicist whose hydrogen bubble-chamber experiments won him the 1968 Nobel Prize in his field.\n\n## \n\nAlvarez: Adventures Of A Physicist\nThis is a richly absorbing autobiography by the physicist whose hydrogen bubble-chamber experiments won him the 1968 Nobel Prize in his field."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Discovering-Alvarez-Selected-Commentary-Colleagues/dp/0226813045",
+              "title": "Amazon.com: Discovering Alvarez: Selected Works of Luis W ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The winner of the 1968 Nobel Prize in physics for his work on subatomic particles, Alvarez participated as a scientific observer of the Hiroshima bombing ..."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Icon-Thief-Alec-Nevala-Lee/dp/0451236203",
+              "title": "The Icon Thief - Nevala-Lee, Alec: Books - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Collisions, his biography of the physicist Luis W. Alvarez, was an Economist Best Book of 2025. His short stories have been published in Analog Science ..."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Walter-Alvarez/e/B000APEG2I",
+              "title": "Amazon.com: Walter Alvarez: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Visit Walter Alvarez Store on Amazon\n1. Walter Alvarez\n* Home\n* All Books\n* More\n\nWalter Alvarez\n\nMost popular\n\nT. rex and the Crater of Doom (Princeton Science Library)\n4.6 out of 5 stars\n384\n4.6 out of 5 stars. 384 customer\n\n...\n\nrex and the Crater of Doom (Princeton Science Library)\n\nPart of: Princeton Science Library (61 books)\n4.6 4.6 out of 5 stars 384\nCarousel slide 1\nby Walter Alvarez et al.\n\n...\n\nWhen conditions returned to normal, half the plant and animal genera on Earth had perished.\nThis horrific chain of events is now widely accepted as the solution to a great scientific mystery: what\n\n...\n\n? Walter Alvarez, one of the Berkeley scientists who discovered evidence of the impact, tells the story behind the development of the initially controversial theory. It is a saga of high adventure in remote locations, of arduous data collection and intellectual struggle, of long periods of frustration ended by sudden breakthroughs, of friendships made and lost, and of the exhilaration of discovery that forever altered our understanding of Earth's geological history.\nSixty-five million years ago, a comet or asteroid larger than Mount Everest slammed into the Earth, inducing an explosion equivalent to the detonation of a hundred million hydrogen bombs.\n\n...\n\nWalter Alvarez, a geologist at the University of California at Berkeley, and one of the four scientists who present this theory on the mystery, tells the story in a clear narrative that contains a wealth of scientific"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1852,
+    "completion_tokens": 409,
+    "total_tokens": 2261,
+    "cost": 0.005345312,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003488,
+      "upstream_inference_prompt_cost": 0.0001852,
+      "upstream_inference_completions_cost": 0.0001636
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

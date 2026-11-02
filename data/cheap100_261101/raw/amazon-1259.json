@@ -1,0 +1,100 @@
+{
+  "id": "gen-1793572625-FrRz0XTurr9oVhRFatdb",
+  "object": "chat.completion",
+  "created": 1793572625,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"progress-0035\",\n  \"title\": \"Germ Theory: Medical Pioneers in Infectious Diseases\",\n  \"author\": \"Dr. Robert Gaynes\",\n  \"amazon\": {\n    \"count\": 4,\n    \"url\": \"https://www.amazon.com/s?k=Germ+Theory+Dr.+Robert+Gaynes&ref=nb_sb_noss_2\",\n    \"asin\": null,\n    \"evidence\": \"https://www.amazon.com/s?k=Germ+Theory+Dr.+Robert+Gaynes&ref=nb_sb_noss_2\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Germ-Theory-Applications-Medicine-Surgery/dp/B07NF64JDS",
+              "title": "The Germ Theory and Its Applications to Medicine and Surgery",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Germ Theory and Its Applications to Medicine and Surgery\nPasteur's discovery of the cause of fermentation formed the basis of modern germ theory while Lister developed antiseptic surgical methods based on that. The book contains a description of the theory, and accounts of their work and experiments. Read more Public Domain (P)2019 Museum Audiobooks Previous slide of product details Listening Length"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Overcoming-Germ-Theory-Medical-Myth/dp/B0CW316MT8",
+              "title": "Overcoming the Germ Theory Medical Myth: McCumiskey, James ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nOvercoming the Germ Theory Medical Myth: McCumiskey, James ...\nI published my first book \"The Ultimate Conspiracy: The Biomedical Paradigm\" in 2008. I explain how I came to disbelieve Modern Medicine (The Biomedical Paradigm) and particularly the central dogma of Modern Medicine - the Germ Theory of Disease.\n\n## \n\nOvercoming the Germ Theory Medical Myth: McCumiskey, James ...\nMy third book in this medical trilogy, published in 2024, \"Overcoming the Germ Theory Medical Myth\", explains why we (lay people and medical people) continue to believe in the Germ Theory despite all the contrary evidence."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Good-Bye-Germ-Theory-century-medical/dp/1413454402",
+              "title": "Good-Bye Germ Theory: ending a century of medical fraud",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nGood-Bye Germ Theory: ending a century of medical fraud\nThis book will show you how to know your particular State's vaccination laws inside-out, so that any person may effectively challenge an oppressive vaccination"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B006AHFT6M",
+              "title": "Robert P. Gaynes: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nRobert P. Gaynes: books, biography, latest update\nFollow Robert P. Gaynes and explore their bibliography from Amazon's Robert P. Gaynes Author Page."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Genesis-Germs-Alan-L-Gillen/dp/0890514933",
+              "title": "The Genesis of Germs: Alan L. Gillen",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Genesis of Germs: Alan L. Gillen\nAlan Gillen is a microbiologist and zoologist with a doctorate in science education. He is Professor of Biology at Liberty University in Virginia where he has"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 908,
+    "completion_tokens": 151,
+    "total_tokens": 1059,
+    "cost": 0.00502066526,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000020874,
+      "upstream_inference_prompt_cost": 0.000016344,
+      "upstream_inference_completions_cost": 0.00000453
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "progress-0035",
+  "retrieved": "2026-11-01T22:37:13.966Z"
+}

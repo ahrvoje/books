@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793575579-DrW1CeA313VEAKIYmzmh",
+  "object": "chat.completion",
+  "created": 1793575579,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 354,
+    "completion_tokens": 1,
+    "total_tokens": 355,
+    "cost": 0.00100633798,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000006402,
+      "upstream_inference_prompt_cost": 0.000006372,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Clever Hans\" Oskar Pfungst \"global ratings\"",
+  "bookId": "shelf-881d2c119bb7",
+  "retrieved": "2026-11-01T23:26:20.266Z"
+}

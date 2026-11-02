@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:16:52.047Z",
+  "bookId": "rest-12-11",
+  "id": "gen-1793571411-TxKcEw9kw9Ob46w8hqkU",
+  "object": "chat.completion",
+  "created": 1793571411,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"rest-12-11\",\n  \"title\": \"Understanding Bird Behavior\",\n  \"author\": \"Wenfei Tong\",\n  \"amazon\": null,\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://apps.lib.byu.edu/marcrecord/bib/3341752\",\n    \"https://lib.byu.edu/search/byu/record/cat.3341752.item.31197225218681\",\n    \"https://openlibrary.org/books/OL15560801M/Handbook_of_bird_biology\",\n    \"https://link.wrl.org/resource/KmZ50ceouj8\",\n    \"https://aspen.greenvillelibrary.org/Record/284845\"\n  ],\n  \"limitations\": \"The search results provided information for \\\"Handbook of Bird Biology\\\" edited by Sandy Podulka, Ronald W. Rohrbaugh, and Rick Bonney, and \\\"Insider tips for wing shooting\\\" by Xina M. Uhl, neither of which match the requested book \\\"Understanding Bird Behavior\\\" by Wenfei Tong. Therefore, no bibliographical reference information could be found for the specified book.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://apps.lib.byu.edu/marcrecord/bib/3341752",
+              "title": "apps.lib.byu.edu",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Leader *****cam*a22******a*4500\n001 ## a3341752\n001 ## CUBGGLAD185390795-B\n003 ## SIRSI\n005 ## 20050322080527.0\n008 ## 041206p20042000nyuabm g bf 001 0 eng d\n010 ## $a 2004105098\n020 ## $a 093802762X (hbk.)\n035 ## $a (CU)GLAD185390795\n035 ## $a (OCoLC)ocn373729133\n040 ## $a IaSceD\n $c IaSceD\n $d UPB\n079 ## $a ocm65425577\n245 00 $a Handbook of bird biology /\n $c Sandy Podulka, Ronald W. Rohrbaugh, and Rick Bonney, editors.\n246 33 $a Cornell Lab of Ornithology's Handbook of bird biology\n250 ## $a 2nd ed.\n260 ## $a Ithaca, N.Y. :\n $b Cornell Lab of Ornithology ;\n $a Princeton, N.J. :\n $b In association with Princeton University Press,\n $c ©2004.\n300 ## $a 1 v. (various pagings) :\n $b ill., maps ;\n $c 29 cm. +\n $e 1 sound disc (digital ; 4 3/4 in.)\n336 ## $a text\n $2 rdacontent\n337 ## $a unmediated\n $2 rdamedia\n338 ## $a volume\n $2 rdacarrier\n500 ## $a Compact disc title: Vocal behavior: audio tracks to accompany\n chapter 7. Cornell Lab of Ornithology, c2000.\n504 ## $a Includes bibliographical references and index.\n505 2# $a Birds and humans: a historical perspective -- Introduction: the\n world of birds -- A guide to bird watching -- Form and function: the\n external bird -- What's inside: anatomy and physiology -- Birds on the\n move: flight and migration -- Evolution of birds and avian flight --\n Understanding bird behavior -- Vocal behavior -- Nests, eggs, and\n young: breeding biology of birds -- Individuals, populations, and\n communities: the ecology of birds -- Bird conservation.\n596 ## $a LEE\n650 #0 $a Ornithology\n $v Handbooks, manuals, etc.\n650 #0 $a Birds\n $v Handbooks, manuals, etc.\n650 #0 $a Birding\n $v Handbooks, manuals, etc.\n655 #0 $a Compact discs.\n700 1# $a Podulka, Sandy.\n700 1# $a Rohrbaugh, Ronald W.,\n $c Jr.\n700 1# $a Bonney, Rick,\n $d 1954-\n710 2# $a Cornell University.\n $b Laboratory of Ornithology.\n583 ## $a cat\n $c 20050516\n $k mpl\n $5 UPB\n590 ## $a CD in pocket.\n950 ## $a QL673\n $b .H35 2004"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://lib.byu.edu/search/byu/record/cat.3341752.item.31197225218681",
+              "title": "Handbook of bird biology | BYU Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Handbook of bird biology | BYU Library\n\n# Handbook of bird biology\n\n book_2 Book\n\n©2004, Ithaca, N.Y. : Princeton, N.J.: Cornell Lab of Ornithology ; In association with Princeton University Press, English\n\n QL 673 .H35x 2004 \n\n## Available for Checkout — 1 copy \n\n On shelf. See map. \n\n## Map\n\n See full map → \n\n### Edition\n\n- 2nd ed.\n\n### Extent\n\n- 1 v. (various pagings): ill., maps; 29 cm. + 1 sound disc (digital; 4 3/4 in.)\n\n### Contributors\n\n- Podulka, Sandy \n- Rohrbaugh, Ronald W., Jr. \n- Bonney, Rick, 1954– \n- Cornell University. Laboratory of Ornithology. \n\n### Language\n\n- English \n\n### Creation Date\n\n- ©2004\n\n### Partial Contents\n\n- Birds and humans: a historical perspective\n- Introduction: the world of birds\n- A guide to bird watching\n- Form and function: the external bird\n- What's inside: anatomy and physiology\n- Birds on the move: flight and migration\n- Evolution of birds and avian flight\n- Understanding bird behavior\n- Vocal behavior\n- Nests, eggs, and young: breeding biology of birds\n- Individuals, populations, and communities: the ecology of birds\n- Bird conservation.\n\n### General Note\n\n- Compact disc title: Vocal behavior: audio tracks to accompany chapter 7. Cornell Lab of Ornithology, c2000.\n\n### Bibliography\n\n- Includes bibliographical references and index.\n\n### Local Note\n\n- CD in pocket.\n\n### Summary\n\n- Call it Bird University. This gloriously illustrated volume provides comprehensive college-level information about birds and their environments in a style accessible to nonscientists and teachers the world over. The Handbook of Bird Biology covers all major topics, from anatomy and physiology to ecology, behavior, and conservation biology. One full chapter addresses vocal communication and is accompanied by a CD of bird vocalizations. Produced by the Cornell Laboratory of Ornithology's world-renowned Macaulay Library of Natural Sounds, the CD illustrates key elements of bioacoustics. The book's text was written by 12 leading ornithologists and illustrated by respected photographers and acclaimed artist John Schmitt. It includes an extensive glossary and index, a list of the common and scientific names of all birds mentioned in the text, author profiles, suggested readings following each chapter, and a complete reference section. The Handbook serves as the backbone of the Lab's popular Home Study Course in Bird Biology, a self-paced course that can be taken from anywhere in the world, by anyone with a serious interest in birds who would like guidance from professional ornithologists."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://openlibrary.org/books/OL15560801M/Handbook_of_bird_biology",
+              "title": "Handbook of bird biology by Cornell Lab of Ornithology Staff | Open Library",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Handbook of bird biology\n\n 2nd ed. \n\n## by Cornell Lab of Ornithology Staff \n\n \n\n# Handbook of bird biology\n\n 2nd ed. \n\n## by Cornell Lab of Ornithology Staff \n\n This edition doesn't have a description yet. Can you add one? \n\nPublish Date\n\n2004\n\nPublisher\n\n Cornell Lab of Ornithology, In association with Princeton University Press \n\nLanguage\n\nEnglish\n\n| Edition | Availability |\n| --- | --- |\n| 1 Handbook of bird biology 2004, Cornell Lab of Ornithology, In association with Princeton University Press in English - 2nd ed. 093802762X 9780938027621 | aaaa Borrow Listen Locate |\n\n Birds and humans: a historical perspective\n\n Introduction: the world of birds\n\n A guide to bird watching\n\n Evolution of birds and avian flight\n\n Understanding bird behavior\n\n Vocal behavior\n\n Nests, eggs, and young: breeding biology of birds\n\n Individuals, populations, and communities: the ecology of birds\n\n Bird conservation.\n\n### Edition Notes\n\nCompact disc title: Vocal behavior: audio tracks to accompany chapter 7. Cornell Lab of Ornithology, c2000. \n\nIncludes bibliographical references and index. \n\nPublished in\n: Ithaca, N.Y, Princeton, N.J\nGenre\n: Handbooks, manuals, etc.\nOther Titles\n: Cornell Lab of Ornithology's Handbook of bird biology\n\n### Classifications\n\n### The Physical Object\n\nPagination\n: 1 v. (various pagings) : \n\n### Edition Identifiers\n\nOpen Library\n: OL15560801M \nInternet Archive\n: handbookofbirdbi0000unse\nISBN 10\n: 093802762X \nLCCN\n: 2004105098\nOCLC/WorldCat\n: 57003728\nLibraryThing\n: 1090608\nGoodreads\n: 1196161"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://link.wrl.org/resource/KmZ50ceouj8",
+              "title": "Bibliograph",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Bibliograph\n\nBest-ever backyard birding tips, hundreds of easy ways to attract the birds you love to watch, Deborah L. Martin and the editors of Rodale Garden Books\n\nType\n\n- http://bibfra.me/vocab/lite/Work\n- http://bibfra.me/vocab/marc/Books\n- http://bibfra.me/vocab/marc/LanguageMaterial\n\n### Link Analysis\n\n- 598.072/34\n\nCreator\n\n- Martin, Deborah L\n\nSubject\n\n- Bird watching\n\nContent\n\nIs part of\n\n- Rodale organic gardening book\n\nMapped to\n\nBest-ever backyard birding tips, hundreds of easy ways to attract the birds you love to watch, Deborah L. Martin and the editors of Rodale Garden Books\n\nLanguage eng\n\nBibliography note Includes bibliographical references and index\n\nIndex index present\n\nLiterary form non fiction\n\nMain title Best-ever backyard birding tips\n\nNature of contents bibliography\n\nResponsibility statement Deborah L. Martin and the editors of Rodale Garden Books\n\nTable of contents\n\nBird-attracting basics -- Seeds and feeders -- Plants and landscape features for birds -- Sharing your garden with bug-eating birds -- Making a birdhouse at home -- Water features for birds -- Hosting hummingbirds -- Hawks, owls, and other big birds -- Sharing space with birds -- Understanding bird behaviors -- Less-wanted guests: \"pest\" birds and wildlife at your feeders"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://aspen.greenvillelibrary.org/Record/284845",
+              "title": "Insider tips for wing shooting / | Greenville County",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Insider tips for wing shooting / | Greenville County\n\n# Insider tips for wing shooting (Book)\n\nAuthor Uhl, Xina M. \n\nContributors\n\nBringle, Jennifer, Author.\n\nStatus\n\nOn Shelf\n\nFive Forks - Juvenile Book J 799.24 Uhl 1 available\n\n## Copies\n\n| Location | Call Number | Barcode | Status |\n| --- | --- | --- | --- |\n| Five Forks - Juvenile Book | J 799.24 Uhl | 0000134565522 | On Shelf |\n\nLC Subjects Fowling -- Juvenile literature. \n\n## More Details\n\nPublished New York : Rosen Central, 2019.\n\nFormat Book\n\nEdition First edition.\n\nPhysical Desc 64 pages : color illustrations ; 24 cm\n\nLanguage English\n\nISBN\n\n9781508181927 (library bound) :, 1508181926 (library bound), 9781508181934 (pbk.), 1508181934 (pbk.)\n\nNotes\n\nBibliography Includes bibliographical references (page 60) and index.\n\nDescription\n\nOf the many different types of hunting, wing shooting of game birds in flight is one of the most popular, and one of the most challenging, too. Hunting is done for recreation, food, culling overpopulation or pests, and fur. Whatever the reason, hunters need to be informed about conservation laws, licensing requirements, safety practices, and ethical concerns. This fully illustrated, relevant guide offers tips on each of these as well as how to plan hunts and understand birds' behavior and tendencies for successful and enjoyable hunts. Beginners and more experienced hunters will both benefit from this timely book."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3332,
+    "completion_tokens": 306,
+    "total_tokens": 3638,
+    "cost": 0.007451044,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004556,
+      "upstream_inference_prompt_cost": 0.0003332,
+      "upstream_inference_completions_cost": 0.0001224
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

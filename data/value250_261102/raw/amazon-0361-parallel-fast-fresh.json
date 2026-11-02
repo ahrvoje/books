@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793575621-hHlVAFokeCIrqK7TkwCk",
+  "object": "chat.completion",
+  "created": 1793575621,
+  "model": "mistralai/mistral-nemo",
+  "provider": "Io Net",
+  "system_fingerprint": "vllm-0.25.1-95d19908",
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "{\n",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Harvard-Business-Review-Family-Handbook/dp/1633699048",
+              "title": "Amazon.com: Harvard Business Review Family Business Handbook: How to Build and Sustain a Successful, Enduring Enterprise (HBR Handbooks): 9781633699045: Baron, Josh, Lachenauer, Rob: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "by Josh Baron (Author), Rob Lachenauer (Author)\n4.6 4.6 out of 5 stars (232)\nPart of: HBR Handbooks (5 books)\nSorry, there was a problem loading this page\n\n...\n\nis a cofounder, Partner, and CEO of BanyanGlobal Family Business Advisors. Lachenauer, who works around the world helping business families thrive, is also a frequent contributor to HBR.org. He is the coauthor, with George Stalk, of Hardball: Are You Playing to Play or Playing to Win?\nConnect with Josh Baron and Rob Lachenauer at banyan.global or on LinkedIn. Follow them on Twitter @BanyanFBA.\n\nProduct details\n\n* Publisher ‏ : ‎ Harvard Business Review Press\n* Publication date ‏ : ‎ January 26, 2021\n* Language ‏ : ‎ English\n* Print length ‏ : ‎ 320 pages\n\n...\n\ns set and implement growth strategies. While at BCG, he coauthored Hardball: Are You Playing to Play or Playing to Win? with George Stalk. Published by Harvard Business School Press in 2004, Hardball has sold over 45,000 copies and been translated into ten languages.\nAs the founding CEO of Banyan, Lachenauer has worked closely with scores of family businesses throughout the world, helping them navigate the decisions they face as owners while strengthening family\n\n...\n\n232 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 76% 17% 6% 1% 0% 76%\n* 5 star 4 star 3 star 2 star 1 star 4 star 76% 17% 6% 1% 0% 17%\n\n...\n\n17% 6% 1% 0% 1%\n* 5 star 4 star 3 star 2 star 1 star 1 star 76% 17% 6% 1% 0% 0%\nHow customer reviews and ratings work\n\nCustomers say"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Hardball-Are-You-Playing-Play/dp/1591391679",
+              "title": "Hardball: Are You Playing to Play or Playing to Win",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nHardball: Are You Playing to Play or Playing to Win\nThis book is about how companies can gain extreme competitive advantage by pursuing one or more of the classic \"hardball strategies\".\n\n## \n\nHardball: Are You Playing to Play or Playing to Win\nPublished by Harvard Business School Press in 2004, Hardball has sold over 45,000 copies and been translated into ten languages.\n\n## \n\nHardball: Are You Playing to Play or Playing to Win\nA clear-eyed paean to the timeless strategies that have driven the world's winning companies, Hardball Strategy redefines and reinterprets the meaning of\n\n## \n\nHardball: Are You Playing to Play or Playing to Win\nA clear-eyed paean to the timeless strategies that have driven the world's winning companies, Hardball Strategy redefines and reinterprets the meaning of\nHardball: Are You Playing to Play or Playing to Win\nThis book is about how companies can gain extreme competitive advantage by pursuing one or more of the classic \"hardball strategies\"."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1183,
+    "completion_tokens": 1,
+    "total_tokens": 1184,
+    "cost": 0.001018686052,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 128,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0000188748,
+      "upstream_inference_prompt_cost": 0.0000188532,
+      "upstream_inference_completions_cost": 2.16e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Hardball\" George Stalk and Rob Lachenauer \"global ratings\"",
+  "bookId": "shelf-35ec9ebc7837",
+  "retrieved": "2026-11-01T23:27:02.928Z"
+}

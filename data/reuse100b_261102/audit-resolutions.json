@@ -1,0 +1,44 @@
+{
+  "g0617:amazon:https://www.amazon.com/Nature-Via-Nurture-Genes-Experience/dp/0060006781": {
+    "decision": "accepted after primary source review",
+    "auditReason": "The title does not match exactly. The title on the page is 'Nature Via Nurture' and the candidate is 'Nature via Nurture (also The Agile Gene)'",
+    "reason": "Nature via Nurture matches; the catalog additionally records its alternate title The Agile Gene. This is not an identity conflict.",
+    "source": "https://www.amazon.com/Nature-Via-Nurture-Genes-Experience/dp/0060006781",
+    "evidence": "304 global ratings"
+  },
+  "rem-u1831:amazon:https://www.amazon.com/Boom-Bubbles-Stagnation-Byrne-Hobart-ebook/dp/B0D9BZ7899": {
+    "decision": "accepted after primary source review",
+    "auditReason": "The author names do not match the supplied author.",
+    "reason": "Both Hobart, Byrne and Huber, Tobias appear in the source title. The Kindle product has an explicit 150 global ratings aggregate.",
+    "source": "https://www.amazon.com/Boom-Bubbles-Stagnation-Byrne-Hobart-ebook/dp/B0D9BZ7899",
+    "evidence": "150 global ratings"
+  },
+  "nae12d9795b:amazon:https://www.amazon.com/Grand-Design-Stephen-Hawking/dp/0553805371": {
+    "decision": "accepted after primary source review",
+    "auditReason": "The author listed is 'Stephen Hawking; Leonard Mlodinow' but the title is 'The Grand Design' by 'Stephen Hawking' on the source page.",
+    "reason": "Both Hawking, Stephen and Mlodinow, Leonard appear in the source title, with the exact work.",
+    "source": "https://www.amazon.com/Grand-Design-Stephen-Hawking/dp/0553805371",
+    "evidence": "4,317 ratings"
+  },
+  "intake-0746:amazon:https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783": {
+    "decision": "accepted after primary source review",
+    "auditReason": "The evidence of 294 ratings is not explicitly labelled as global ratings.",
+    "reason": "The product explicitly labels 294 ratings. The rule accepts ratings or global ratings; global is not required.",
+    "source": "https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783",
+    "evidence": "294 ratings"
+  },
+  "intake-0320:amazon:https://www.amazon.com/Light-Ages-Surprising-Medieval-Science/dp/0393868400": {
+    "decision": "accepted after primary source review",
+    "auditReason": "The evidence of 543 ratings is not explicitly labelled as global ratings.",
+    "reason": "The main product explicitly labels 543 ratings; the same excerpt also states 543 global ratings.",
+    "source": "https://www.amazon.com/Light-Ages-Surprising-Medieval-Science/dp/0393868400",
+    "evidence": "543 ratings"
+  },
+  "shelf-0842be7ee59c:amazon:https://www.amazon.com/Inside-Box-Constraints-Make-Better/dp/0593715713": {
+    "decision": "accepted after primary source review",
+    "auditReason": "The title and author do not match the supplied book and author. The supplied book is 'Inside the Box: The fascinating New York Times bestseller that reveals the hidden power of limits' by David Epstein, but the source title is 'Inside the Box: How Constraints Make Us Better' by David Epstein.",
+    "reason": "Inside the Box and David Epstein match. The catalog appends marketing copy about limits; the source uses the subtitle How Constraints Make Us Better. This does not identify the different Inside the Box by Drew Boyd and Jacob Goldenberg, which was rejected during selection.",
+    "source": "https://www.amazon.com/Inside-Box-Constraints-Make-Better/dp/0593715713",
+    "evidence": "21 global ratings"
+  }
+}

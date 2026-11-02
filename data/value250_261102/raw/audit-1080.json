@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575667-GxoNZqKoQoex3uQDMX7G",
+  "object": "chat.completion",
+  "created": 1793575667,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"large-442:amazon:https://www.amazon.com/Means-Control-Alliance-Government-Surveillance-ebook/dp/B0C4J8D8H7\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 159 global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1718:amazon:https://www.amazon.com/Black-Wave-Saudi-Iran-Religion-Destroyed/dp/1250131200\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 2,037 ratings.\"\n    },\n    {\n      \"key\": \"shelf-b05a422d5bc4:amazon:https://www.amazon.com/Power-Regret-Looking-Backward-Forward/dp/0735210659\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 1,747 global ratings.\"\n    },\n    {\n      \"key\": \"rem-u1511:amazon:https://www.amazon.com/Musicophilia-Tales-Music-Oliver-Sacks/dp/1400040817\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 1,576 global ratings.\"\n    },\n    {\n      \"key\": \"complete-340-282:amazon:https://www.amazon.com/Dark-Money-History-Billionaires-Radical/dp/0385535597\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly stated as 6,759 ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3219,
+    "completion_tokens": 448,
+    "total_tokens": 3667,
+    "cost": 0.0001948221,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019679,
+      "upstream_inference_prompt_cost": 0.00016095,
+      "upstream_inference_completions_cost": 0.00003584
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:27:52.640Z"
+}

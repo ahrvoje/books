@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793577346-78oxU9FRUNbgwYi8uz1V",
+  "object": "chat.completion",
+  "created": 1793577346,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"q0982:reference:https://discover.bklynlibrary.org/item?b=12606044\",\n      \"status\": \"supported\",\n      \"reason\": \"The sourceTitle and sourceText match the book and author. The evidence is a bibliographical range.\"\n    },\n    {\n      \"key\": \"shelf-c1303b6bf5ab:reference:https://archive.org/details/paradoxofchoicew0000schw\",\n      \"status\": \"supported\",\n      \"reason\": \"The sourceTitle and sourceText match the book and author. The evidence is a bibliographical range.\"\n    },\n    {\n      \"key\": \"progress-0018:reference:https://collection.sl.nsw.gov.au/record/74VvM0mXAV3g\",\n      \"status\": \"supported\",\n      \"reason\": \"The sourceTitle and sourceText match the book and author. The evidence is a bibliographical range.\"\n    },\n    {\n      \"key\": \"q0709:reference:http://id.loc.gov/resources/instances/in00024407639\",\n      \"status\": \"reject\",\n      \"reason\": \"The sourceTitle includes a subtitle, but the candidate does not.\"\n    },\n    {\n      \"key\": \"g0068:reference:https://archive.org/details/howardhugheshisl0000barl\",\n      \"status\": \"supported\",\n      \"reason\": \"The sourceTitle and sourceText match the book and author. The evidence is a bibliographical range.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3360,
+    "completion_tokens": 364,
+    "total_tokens": 3724,
+    "cost": 0.0001951488,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019712,
+      "upstream_inference_prompt_cost": 0.000168,
+      "upstream_inference_completions_cost": 0.00002912
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:55:52.826Z"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793577662-nfgJIgvbi1IJRElce2rv",
+  "object": "chat.completion",
+  "created": 1793577662,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"q0790:reference:https://wellcomecollection.org/works/gs96jp54\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Bibliographical references range is explicitly stated.\"\n    },\n    {\n      \"key\": \"progress-0457:reference:https://www.biblio.com/book/dawn-innovation-first-american/d/1782579025\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Bibliographical references range is explicitly stated.\"\n    },\n    {\n      \"key\": \"rest-86-75:reference:https://collection.sl.nsw.gov.au/record/74VKagXJmEQX\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Bibliographical references range is explicitly stated.\"\n    },\n    {\n      \"key\": \"rest-106-89:reference:https://link.europarl.europa.eu/resource/sA61n8zIM5w\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Bibliographical references range is explicitly stated.\"\n    },\n    {\n      \"key\": \"g0787:reference:https://link.europarl.europa.eu/resource/NEnAh4-hut0\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. Bibliographical references range is explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2884,
+    "completion_tokens": 352,
+    "total_tokens": 3236,
+    "cost": 0.0001706364,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00017236,
+      "upstream_inference_prompt_cost": 0.0001442,
+      "upstream_inference_completions_cost": 0.00002816
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-02T00:01:10.085Z"
+}

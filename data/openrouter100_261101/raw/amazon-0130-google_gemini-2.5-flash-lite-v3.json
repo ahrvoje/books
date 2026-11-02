@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:14:31.980Z",
+  "bookId": "shelves-timelovememory",
+  "id": "gen-1793571271-xgABsZc4z7vT5DXQnggh",
+  "object": "chat.completion",
+  "created": 1793571271,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelves-timelovememory\",\n  \"title\": \"Time, Love, Memory: A Great Biologist and His Quest for the Origins of Behavior\",\n  \"author\": \"Jonathan Weiner\",\n  \"amazon\": {\n    \"count\": null,\n    \"stars\": null,\n    \"asin\": \"B00ZT1REUE\",\n    \"marketplace\": \"amazon.com\",\n    \"url\": \"https://www.amazon.com/Time-Love-Memory-Biologist-Paperback/dp/B00ZT1REUE\",\n    \"evidence\": \"Time, Love, Memory: A Great Biologist and His Quest for the Origins of Behavior by Weiner, Jonathan (2000) Paperback [Jonathan Weiner] on Amazon.com.\",\n    \"sourceTitle\": \"Time, Love, Memory: A Great Biologist and His Quest for ...\",\n    \"sourceAuthor\": \"Jonathan Weiner\",\n    \"snapshotLimitation\": \"The provided search results do not contain explicit information about the total rating count or star rating for this specific Amazon product.\"\n  },\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.com/Time-Love-Memory-Biologist-Paperback/dp/B00ZT1REUE\",\n    \"https://www.amazon.com/Books-Jonathan-Weiner/s?rh=n%3A283155%2Cp_27%3AJonathan%2BWeiner\",\n    \"https://www.amazon.com/Science-Math-Jonathan-Weiner-Books/s?rh=n%3A75%2Cp_27%3AJonathan%2BWeiner\",\n    \"https://www.amazon.com/First-Fly-Drosophila-Biological-Discovery-ebook/dp/B0GY5PGYSP\",\n    \"https://www.amazon.com/stores/author/B000APBARC\"\n  ],\n  \"limitations\": \"The search for \\\"global ratings\\\" on Amazon.com for the specified book did not yield explicit data on the total rating count or the aggregate star rating. The provided Amazon links confirm the book's presence but lack detailed customer review metrics.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Time-Love-Memory-Biologist-Paperback/dp/B00ZT1REUE",
+              "title": "Time, Love, Memory: A Great Biologist and His Quest for ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nTime, Love, Memory: A Great Biologist and His Quest for ...\nTime, Love, Memory: A Great Biologist and His Quest for the Origins of Behavior by Weiner, Jonathan (2000) Paperback [Jonathan Weiner] on Amazon.com."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Books-Jonathan-Weiner/s?rh=n%3A283155%2Cp_27%3AJonathan%2BWeiner",
+              "title": "Jonathan Weiner: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Time, Love, Memory: A Great Biologist and His Quest for the Origins of Behavior · by Jonathan Weiner · Paperback. Add to cart."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Science-Math-Jonathan-Weiner-Books/s?rh=n%3A75%2Cp_27%3AJonathan%2BWeiner",
+              "title": "Jonathan Weiner - Science & Math: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Time, Love, Memory: A Great Biologist and His Quest for the Origins of Behavior ... Time, Love, Memory: The Discovery of Behaviour Genes ... Amazon Global Store"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/First-Fly-Drosophila-Biological-Discovery-ebook/dp/B0GY5PGYSP",
+              "title": "First in Fly: Drosophila Research and Biological Discovery",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Time, Love , Memory: A Great Biologist and His Quest for the Origins of Behavior. Jonathan Weiner. Kindle Edition."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B000APBARC",
+              "title": "Jonathan Weiner: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nJonathan Weiner: books, biography, latest update\nJonathan Weiner is one of the most distinguished popular-science writers in the country: his books have won the Pulitzer Prize, the National Book Critics."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1004,
+    "completion_tokens": 509,
+    "total_tokens": 1513,
+    "cost": 0.00530096,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000304,
+      "upstream_inference_prompt_cost": 0.0001004,
+      "upstream_inference_completions_cost": 0.0002036
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "retrieved": "2026-11-01T22:14:43.813Z",
+  "bookId": "shelves-engineeringhistory",
+  "id": "gen-1793571284-wMu153WzxVL647uV8f4n",
+  "object": "chat.completion",
+  "created": 1793571284,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelves-engineeringhistory\",\n  \"title\": \"Engineering in History\",\n  \"author\": \"Richard Shelton Kirby; Sidney Withington; Arthur Burr Darling; Frederick Gridley Kilgour\",\n  \"knownEdition\": {\n    \"id\": \"ISBN:9780486264127\",\n    \"url\": \"https://books.google.com/books/about/Engineering_in_History.html?id=UmpRAAAAMAAJ\",\n    \"pages\": 544\n  },\n  \"purchaseUrl\": \"https://www.amazon.de/dp/0486264122\",\n  \"amazon\": null,\n  \"pages\": null,\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.amazon.co.uk/Great-Wall-Beginning-Michael-Yamashita/dp/1402731604\"\n  ],\n  \"limitations\": \"No amazon product found for the specified book on amazon.co.uk. The provided search result is for a different book.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.co.uk/Great-Wall-Beginning-Michael-Yamashita/dp/1402731604",
+              "title": "The Great Wall: From Beginning to End: Amazon.co.uk: Yamashita, Michael, Lindesay, William: 9781402731600: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The Great Wall: From Beginning to End: Amazon.co.uk: Yamashita, Michael, Lindesay, William: 9781402731600: Books\n\n...\n\nMichael S. Yamashita\n\n# The Great Wall: From Beginning to End \n\n by Michael Yamashita (Author), William Lindesay (Author) Format: Hardcover \n\n 4.3 4.3 out of 5 stars (41) \n\n It is arguably the greatest feat of civil engineering in history and indisputably earth's largest single cultural relic: begun around 208 BC and completed nearly 1,800 years later, the Great Wall of China spans more than 4,000 miles. Michael Yamashita, an award-winning National Geographic photographer, spent a year shooting the Wall, its environs and the people who live in its shadow. 160 of his magnificent photographs grace this volume, which also features text by William Lindesay, who conducts tours of the Wall, spearheads the movement to preserve it and has actually run its entire length. Broken into three sections, \"The Great Wall\" provides an overview that debunks myths and dishes up rare facts and figures, a comprehensive history that proceeds dynasty by dynasty through its construction and an account of Lindesay's personal experiences of the Wall. \n\n1. Print length 176 pages \n2. Language English \n3. Publisher Sterling \n4. Publication date 1 Nov. 2007 \n5. Dimensions 31.75 x 2.54 x 26.04 cm \n6. ISBN-10 1402731604 \n7. ISBN-13 978-1402731600 \n\n### From the Back Cover\n\n It is arguably the greatest feat of civil engineering in history, and indisputably earths largest single cultural relic: begun during the Qin Dynasty (around 208 BC) and completed nearly 1,800 years later during the Ming Dynasty, the Great Wall of China spans more than 4,000 miles. No one can calculate how many people worked on and died building it, using only the most rudimentary tools and materials. At the dawn of the Beijing Olympics, the eyes of all the world are upon it. Two men who navigated every inch of the Wall have collaborated on a lavishly-illustrated tribute to this amazing structure. Michael Yamashita, an award-winning National Geographic photographer, spent a year shooting the Wall, its environs, and the people who live in its shadow, for the magazine. One hundred and sixty of his magnificent photographs grace this volume, which features text by William Lindesay, who not only conducts tours of the Wall and spearheads the movement to preserve it, but has actually run its entire length. Broken into three sections, this book provides an overview that debunks myths and dishes up rare facts and figures, a comprehensive history that proceeds dynasty by dynasty through its construction, and an account of Lindesays personal experiences of the Wall. \n\n## Product details\n\n- Publisher ‏ : ‎ Sterling \n- Publication date ‏ : ‎ 1 Nov. 2007 \n- Edition ‏ : ‎ 1st \n- Language ‏ : ‎ English \n- Print length ‏ : ‎ 176 pages \n- ISBN-10 ‏ : ‎ 1402731604 \n- ISBN-13 ‏ : ‎ 978-1402731600\n\n...\n\nThis one of the better books on theGreat Wall but there too many deficiencies to make it excellent.He recounts his travel along the course of the Ming Wall from the Yalu river in ... east to Jaiyuguan in the west.This part of the book gives avery good account of day to day life in those areas.The sections on wall building dynastys other than the Ming are most informative and useful.The downside to the book are a)the map of the walls is totally useless ... it is so ... ) ... are badly ... or exposed ... do not ... of ... a ... such as ... ."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1553,
+    "completion_tokens": 253,
+    "total_tokens": 1806,
+    "cost": 0.007253935,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002565,
+      "upstream_inference_prompt_cost": 0.0001553,
+      "upstream_inference_completions_cost": 0.0001012
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

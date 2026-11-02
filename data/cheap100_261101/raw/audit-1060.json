@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793572734-1kOMrYB8UyyaFWiCfIzt",
+  "object": "chat.completion",
+  "created": 1793572734,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"g0631:amazon:https://www.amazon.com/Reality-Not-What-Seems-Journey/dp/0735213933\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 4,698 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-7664b135b9d7:amazon:https://www.amazon.com/Finding-Next-Steve-Jobs-Creative/dp/147221465X\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 118 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-0ae9756abd4e:amazon:https://www.amazon.com/Panic-1907-Lessons-Learned-Markets/dp/0470452587\",\n      \"status\": \"reject\",\n      \"reason\": \"Author mismatch. The book is listed as authored by Robert F. Bruner and Sean D. Carr, but the source text only lists Robert F. Bruner.\"\n    },\n    {\n      \"key\": \"rem-u1563:amazon:https://www.amazon.com/This-Your-Plants-Michael-Pollan/dp/0593296907\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 3,578 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"bg54bdf01db7:amazon:https://www.amazon.com/Quants-Whizzes-Conquered-Street-Destroyed/dp/0307453383\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match on title and author. 878 global ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3486,
+    "completion_tokens": 448,
+    "total_tokens": 3934,
+    "cost": 0.0002080386,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021014,
+      "upstream_inference_prompt_cost": 0.0001743,
+      "upstream_inference_completions_cost": 0.00003584
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T22:38:58.115Z"
+}

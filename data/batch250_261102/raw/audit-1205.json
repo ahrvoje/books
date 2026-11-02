@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576410-JmdEH4g9nr7b4k1OjRZO",
+  "object": "chat.completion",
+  "created": 1793576410,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u1314:amazon:https://www.amazon.com/Hiroshima-John-Hersey/dp/0679721037\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 5,978 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-f0864bc45305:amazon:https://www.amazon.com/Palestine-Four-Thousand-Year-History/dp/1786992728\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 677 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1894:amazon:https://www.amazon.com/Analects-Confucius-Lun-Yu/dp/0195112768\",\n      \"status\": \"reject\",\n      \"reason\": \"Title mismatch. Source title is 'The Analects of Confucius (Lun Yu)'\"\n    },\n    {\n      \"key\": \"n3767bf9609:amazon:https://www.amazon.com/Exvangelicals-Loving-Living-Leaving-Evangelical/dp/1250284473\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 556 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"complete-228-231:amazon:https://www.amazon.com/Democracies-Death-Cults-Israel-Civilization/dp/0063437139\",\n      \"status\": \"reject\",\n      \"reason\": \"Title mismatch. Source title is 'On Democracies and Death Cults: Israel and the Future of Civilization'\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3655,
+    "completion_tokens": 436,
+    "total_tokens": 4091,
+    "cost": 0.0002154537,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021763,
+      "upstream_inference_prompt_cost": 0.00018275,
+      "upstream_inference_completions_cost": 0.00003488
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:40:18.297Z"
+}

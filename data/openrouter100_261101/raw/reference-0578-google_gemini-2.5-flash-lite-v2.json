@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:16:53.228Z",
+  "bookId": "rem-u0964",
+  "id": "gen-1793571412-YRGW0MfZhEtLHZ0wlPGF",
+  "object": "chat.completion",
+  "created": 1793571412,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"rem-u0964\",\n  \"title\": \"Paris 1919: Six Months that Changed the World\",\n  \"author\": \"Margaret MacMillan, Richard Holbrooke, Casey Hampton\",\n  \"knownEdition\": {\n    \"id\": \"/books/OL7427608M\",\n    \"url\": \"https://openlibrary.org/books/OL7427608M\"\n  },\n  \"purchaseUrl\": \"https://www.amazon.de/s?k=Paris%201919%3A%20Six%20Months%20that%20Changed%20the%20World%20Margaret%20MacMillan%2C%20Richard%20Holbrooke%2C%20Casey%20Hampton%20paperback\",\n  \"reference\": {\n    \"count\": 17,\n    \"editionId\": null,\n    \"editionYear\": null,\n    \"url\": null,\n    \"evidence\": \"Includes bibliographical references (p. [497]-512) and index.\",\n    \"sourceTitle\": \"Paris 1919 : six months that changed the world\",\n    \"sourceAuthor\": \"MacMillan, Margaret, 1943-\",\n    \"ranges\": [\n      {\n        \"start\": 497,\n        \"end\": 512,\n        \"label\": \"Bibliographical references\",\n        \"evidence\": \"Includes bibliographical references (p. [497]-512) and index.\",\n        \"sourceTitle\": \"Paris 1919 : six months that changed the world\",\n        \"sourceAuthor\": \"MacMillan, Margaret, 1943-\"\n      }\n    ],\n    \"method\": \"explicitly catalogued bibliographical references page ranges\",\n    \"limitation\": \"The provided source mentions page range [497]-512 for bibliographical references. Another source mentions pages [497]-544 for bibliographical references. The exact count of 17 is derived from the range 497-512, assuming each page contains at least one reference, which is an inference.\"\n  },\n  \"searchedUrls\": [\n    \"https://catalog.mountainview.gov/Record/.b12611736\",\n    \"https://link.livebrary.com/resource/hg_5DoyycrQ\",\n    \"https://quincy.ocln.org/Record/597935\",\n    \"https://catalog.ocls.org/Record/.b15387884\"\n  ],\n  \"limitations\": \"The 'author' field in the provided book data includes 'Richard Holbrooke' and 'Casey Hampton', but the search results primarily attribute the work to 'Margaret MacMillan'. The page count for the reference section varies between sources ([497]-512 and [497]-544). The total count of 17 references is an inference based on the lower page range and the assumption that each page contains at least one reference.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.mountainview.gov/Record/.b12611736",
+              "title": "Paris 1919 : six months that changed the world (Book)",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Paris 1919 : six months that changed the world(Book)\n\nAverage Rating\n\nUniform Title\n\nPeacemakers\n\nAuthor\n\nMacMillan, Margaret, 1943-\n\nPublished\n\nNew York : Random House, 2003.\n\nFormat\n\nBook\n\nStatus\n\nOn Shelf\n\nNon-Fiction - 2nd Floor940.3141 MacMillan1 available\n\nPlace Hold\n\nAdd to List\n\nSHARE\n\n## Copies\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| Non-Fiction - 2nd Floor | 940.3141 MacMillan | Available |\n\n...\n\n## Subjects\n\nLC Subjects\n\nGermany -- Boundaries. Germany -- History -- 1918-1933. Paris Peace Conference -- (1919-1920) Treaty of Versailles -- (1919 June 28) Wilson, Woodrow, -- 1856-1924. World War, 1914-1918 -- Peace.\n\n## More Details\n\nEdition\n\n2003 Random House Trade Paperback ed.\n\nPhysical Desc\n\nxxxi, 570 pages, [16] pages of plates : ill., maps ; 24 cm\n\nLanguage\n\nEnglish\n\nISBN\n\n9780375760525, 0375760520, 0375508260\n\n#### Notes\n\nGeneral Note\n\nOriginally published: Peacemakers. London : J. Murray, 2001.\n\nBibliography\n\nIncludes bibliographical references (p. [497]-512) and index.\n\n...\n\n## Citations\n\nAPA Citation, 7th Edition(style guide)\n\nMacMillan, M. (2003). Paris 1919: six months that changed the world (2003 Random House Trade Paperback ed.). Random House.\n\nChicago / Turabian - Author Date Citation, 17th Edition(style guide)\n\nMacMillan, Margaret, 1943-. 2003. Paris 1919: Six Months That Changed the World. New York: Random House.\n\n...\n\n(2003). Paris 1919: six months that changed the world. 2003 Random House Trade Paperback ed."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://link.livebrary.com/resource/hg_5DoyycrQ",
+              "title": "Bibliograph",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Bibliograph\n\nParis 1919, six months that changed the world, Margaret MacMillan ; [foreword by Richard Holbrooke]\n\nType\n\n- http://bibfra.me/vocab/lite/Work\n- http://bibfra.me/vocab/marc/Books\n- http://bibfra.me/vocab/marc/LanguageMaterial\n\n- 940.3/141\n\nContributor\n\n- Holbrooke, Richard C.\n\nCreator\n\n- MacMillan, Margaret, 1943-\n\nSubject\n\n- Wilson, Woodrow, 1856-1924\n- Germany -- Boundaries\n- Paris Peace Conference (1919-1920)\n- Treaty of Versailles, (1919 June 28)\n- Germany -- History -- 1918-1933\n- World War, 1914-1918 + Peace\n\nContent\n\nAuthor\n\n- MacMillan, Margaret, 1943-\n\nIs derivative of\n\nauthorofforeword\n\n- Holbrooke, Richard C.\n\nParis 1919, six months that changed the world, Margaret MacMillan ; [foreword by Richard Holbrooke]\n\nLanguage eng\n\nBibliography note\n\nIncludes bibliographical references (pages [497]-544) and index\n\nIllustrations plansillustrationsmapsplates\n\nIndex index present\n\nLiterary form non fiction\n\nMain title Paris 1919\n\nNature of contents bibliography\n\nResponsibility statement Margaret MacMillan ; [foreword by Richard Holbrooke]\n\nSub title six months that changed the world\n\nTarget audience adult\n\nVariant Title\n\nParis 1919Six months that changed the world6 months that changed the world\n\n### Incoming Resources\n\n- Has instance 1\n\n- Paris 1919, six months that changed the world, Margaret MacMillan ; [foreword by Richard Holbrooke]"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://hplct.library.link/resource/MkCwmccAj_Y",
+              "title": "Bibliograph",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Bibliograph\n\nParis 1919, six months that changed the world, Margaret MacMillan\n\nType\n\n- http://bibfra.me/vocab/lite/Work\n- http://bibfra.me/vocab/marc/Books\n- http://bibfra.me/vocab/marc/LanguageMaterial\n\nContributor\n\n- Holbrooke, Richard\n\nCreator\n\n- MacMillan, Margaret, 1943-\n\nGenre\n\nSubject\n\n- Wilson, Woodrow, 1856-1924\n- Wilson, Woodrow <1856-1924>\n- World War, (1914-1918)\n\n...\n\n- Germany -- Boundaries\n- History\n- Paris Peace Conference (1919-1920)\n- Treaty of Versailles, (1919 June 28)\n- Germany -- History -- 1918-1933\n\n...\n\nContent\n\nAuthor\n\n- MacMillan, Margaret, 1943-\n\nIs part of\n\nOther version\n\n- MacMillan, Margaret, 1943-, Paris 1919, Peacemakers, 1st U.S. ed\n\nMapped to\n\nLabel\n\nParis 1919, six months that changed the world, Margaret MacMillan\n\nLanguage eng\n\nBibliography note\n\nIncludes bibliographical references (pages 497-512) and index\n\nIllustrations mapsplatesillustrations\n\nIndex index present\n\nLiterary form non fiction\n\nMain title Paris 1919\n\nNature of contents bibliography\n\nSub title six months that changed the world\n\n...\n\nTable of contents\n\nGetting ready for peace. Woodrow Wilson comes to Europe ; First impressions ; Paris ; Lloyd George and the British Empire delegation -- A new world order. We are the league of the people ; Russia ; The League of Nations ; Mandates -- The Balkans again. Yugoslavia ; Rumania ; Bulgaria ; Midwinter break -- The German issue. Punishment and prevention ; Keeping Germany down ; Footing the bill ; Deadlock over the German terms -- Between East and West. Poland reborn ; Czechs and Slovaks ; Austria ; Hungary -- A troubled spring. The Council of Four ; Italy leaves ; Japan and racial equality ; A dagger pointed at the heart of China -- Setting the Middle East alight. The greatest Greek statesman since Pericles ; The end of the Ottomans ; Arab independence ; Palestine ; Atatürk and the breaking of Sèvres -- Finishing up. The Hall of Mirrors -- Woodrow Wilson's Fourteen Points"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://quincy.ocln.org/Record/597935",
+              "title": "Paris 1919 : six months that changed the world / | Quincy",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Paris 1919 : six months that changed the world (Book)\n\nUniform Title Peacemakers \n\nAuthor MacMillan, Margaret, 1943- \n\nStatus\n\nOn Shelf\n\nQuincy - Thomas Crane Public Library - Nonfiction 940.3141 MACM 1 available\n\nWhere is it?\n\n...\n\nQuincy\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| Quincy - Thomas Crane Public Library - Nonfiction | 940.3141 MACM | Available |\n\nOther Locations\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| Abington Public Library - Nonfiction | 940.3 MCM | Available |\n| Cohasset - Paul Pratt Memorial Library - Nonfiction | 940.3 MAC | Available |\n| Hanover - John Curtis Free Library - Nonfiction | 940.3 MAC | Available |\n| Hingham Public Library - Nonfiction | 940.3141 MAC | Available |\n| Marshfield - Ventress Memorial Library - Nonfiction | 940.3141 MAC | Available |\n| Milton Public Library - Nonfiction Stacks | 940.3141 MAC | Available |\n| Norwell Public Library - Nonfiction | 940.3131 MA | Available |\n| Scituate Town Library - Nonfiction | 940.3141 MAC 2001 | Available |\n| Sharon Public Library - Nonfiction | 940.3141 MAC | Available |\n| Walpole Public Library - Nonfiction | 940.314 MAC 2002 | Available |\n\n...\n\n## More Details\n\nPublished New York : Random House, [2002]\n\nFormat Book\n\nEdition First U.S. edition.\n\nPhysical Desc\n\nxxxi, 570 pages, 16 unnumbered pages of plates : illustrations ; 25 cm\n\nLanguage English\n\nISBN 0375508260\n\nNotes\n\nGeneral Note Originally published: Peacemakers. London : J. Murray, 2001.\n\nBibliography Includes bibliographical references and index."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://catalog.ocls.org/Record/.b15387884",
+              "title": "Paris 1919 : six months that changed the world / | Orange County Library System",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Paris 1919 : six months that changed the world (Book)\n\nAverage Rating\n\nUniform Title Peacemakers \n\nAuthor Macmillan, Margaret Olwen. \n\nStatus\n\nOn Shelf\n\nOrlando Public Library (Downtown) - Fourth Floor 940.3141 MAC 2 available\n\n## Copies\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| Orlando Public Library (Downtown) - Fourth Floor | 940.3141 MAC | On Shelf |\n| Orlando Public Library (Downtown) - Fourth Floor | 940.3141 MAC | On Shelf |\n\nGermany -- Boundaries. Germany -- History -- 1918-1933. Paris Peace Conference (1919-1920) Treaty of Versailles (1919) Wilson, Woodrow, 1856-1924. World War, 1914-1918 -- Peace. \n\n## More Details\n\nPublished New York : Random House, c2002.\n\nFormat Book\n\nEdition 1st U.S. ed.\n\nPhysical Desc 570 p. cm.\n\nStreet Date 0211\n\nLanguage English\n\nISBN 0375508260\n\nNotes\n\nOther Title Paris 1919\n\nOther Title Six months that changed the world\n\nGeneral Note Originally published: Peacemakers. London : J. Murray, 2001.\n\nBibliography Includes bibliographical references and index.\n\nAPA Citation, 7th Edition(Style Guide)\n\nMacmillan, M. O. (2002). Paris 1919: six months that changed the world. (1st U.S. ed). Random House."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3146,
+    "completion_tokens": 708,
+    "total_tokens": 3854,
+    "cost": 0.007591822,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005978,
+      "upstream_inference_prompt_cost": 0.0003146,
+      "upstream_inference_completions_cost": 0.0002832
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

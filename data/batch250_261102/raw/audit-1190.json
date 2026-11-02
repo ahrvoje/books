@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576399-wxJd5o2fjAQlmAlhIPhT",
+  "object": "chat.completion",
+  "created": 1793576399,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"complete-673-352:amazon:https://www.amazon.com/Beyond-Band-Brothers-Memoirs-Winters/dp/0425213757\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 5,130 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"intake-0519:amazon:https://www.amazon.com/Web-Life-Scientific-Understanding-Systems/dp/0385476752\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 176 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-1127846636ef:amazon:https://www.amazon.com/Coco-Chanel-Legend-Justine-Picardie/dp/0062074172\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 904 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u0744:amazon:https://www.amazon.com/Know-All-Humble-Become-Smartest/dp/0743250621\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 694 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-3e4cc2be1029:amazon:https://www.amazon.com/Happiest-Man-Earth-Beautiful-Auschwitz/dp/0063097680\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 25,919 ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3576,
+    "completion_tokens": 428,
+    "total_tokens": 4004,
+    "cost": 0.0002109096,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021304,
+      "upstream_inference_prompt_cost": 0.0001788,
+      "upstream_inference_completions_cost": 0.00003424
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:40:05.219Z"
+}

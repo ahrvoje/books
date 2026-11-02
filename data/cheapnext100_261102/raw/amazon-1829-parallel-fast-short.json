@@ -1,0 +1,117 @@
+{
+  "id": "gen-1793574767-9neLeCmS3FO8y3gp2cJB",
+  "object": "chat.completion",
+  "created": 1793574767,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "{\n",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/stores/author/B004B1B3O6/about",
+              "title": "Wayne Pacelle: books, biography, latest update",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nWayne Pacelle: books, biography, latest update\nWayne Pacelle is the former President and CEO of The Humane Society of the United States, which is one of the nation's top charities.\n\n## \n\nWayne Pacelle: books, biography, latest update\nPacelle is a passionate defender of animals and an inspiration to millions of supporters and advocates. He's seen cruelty and compassion up close in his work,"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Bond-Kinship-Animals-Call-Defend/dp/006196980X",
+              "title": "The Bond: Our Kinship with Animals, Our Call to Defend ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Bond: Our Kinship with Animals, Our Call to Defend ...\nWayne Pacelle explores humanity's complex bond with animals, examining both our deep connections and systemic cruelty, while advocating for a new economy based"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Humane-Economy-Social-Framework-Market/dp/1882926242",
+              "title": "A Humane Economy: The Social Framework of the Free ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nA Humane Economy: The Social Framework of the Free ...\nWilhelm Rpke (1899-1966) was an economist, lecturer, and an author of more than twenty books, including Economics of the Free Society, the Moral Foundations of\n\n## \n\nA Humane Economy: The Social Framework of the Free ...\nA Humane Economy offers an understandable and compelling explanation of how economies operate. A sweeping and brilliant exposition of market mechanics and moral"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Light-Humane-Nature-Environmental-Salvation/dp/161448760X",
+              "title": "In the Light of Humane Nature: Human Values ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nIn the Light of Humane Nature: Human Values ...\nArthur Weissman argues that what causes our environmental problems and stymies solutions ultimately relates to human values and our attitudes toward the world\nHuman Values, Nature, the Green Economy, and ...\nWeissman, Ph.D. is an environmental professional with over thirty years of experience. As president and CEO of Green Seal, he has led the organization both as a\n\n## \n\nIn the Light of Humane Nature: Human Values ...\nIn the Light of Humane Nature: Human Values, Nature, the Green Economy, and Environmental Salvation.\n\n## \n\nIn the Light of Humane Nature: Human Values ...\nWeissman, Ph.D. is an environmental professional with over thirty years of experience. As president and CEO of Green Seal, he has led the organization both as a"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Empire-Obsession-Betrayal-Battle-American/dp/0471403946",
+              "title": "Empire: A Tale of Obsession, Betrayal, and the Battle for an American Icon",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Section:  > \nEmpire: A Tale of Obsession, Betrayal, and the Battle for ...\nMitchell Pacelle chronicles the Empire State Building's history and the power struggles, betrayals, and rivalries among real estate moguls like Trump, the Empire: A Tale of Obsession, Betrayal, and the Battle for an American Icon\nIn a riveting chronicle of betrayal, revenge, family rivalry, and raw greed, award-winning journalist Mitchell Pacelle tells the compelling tale of the history"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Joseph-Hughes-Holly-Presidency-Leadership/dp/B09QYSWVLL",
+              "title": "Joseph V. Hughes Jr. and Holly O. Hughes Series on the ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nJoseph V. Hughes Jr. and Holly O. Hughes Series on the ...\nHughes Series on the Presidency and Leadership (18 book series). Kindle Edition. Louis Fisher. Author · Jean A. Garrison. Author · Richard Jr. Pacelle. Author."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 1,
+    "total_tokens": 1203,
+    "cost": 0.00103453912,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000034888,
+      "upstream_inference_prompt_cost": 0.000034858,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Humane Economy\" Wayne Pacelle \"global ratings\"",
+  "bookId": "bg41f1f253bb",
+  "retrieved": "2026-11-01T23:12:45.245Z"
+}

@@ -1,0 +1,237 @@
+{
+  "recordedCostUSD": 0.273962058604,
+  "previous100RecordedCostUSD": 0.5388561051392,
+  "savingFraction": 0.4915858686741078,
+  "costPerAcceptedFieldUSD": 0.0027396205860400003,
+  "acceptedFields": 100,
+  "cachedFields": 13,
+  "groups": {
+    "ISBN-only pilot": {
+      "calls": 9,
+      "costUSD": 0.0099618288372,
+      "acceptedFields": 0,
+      "meanCostUSD": 0.0011068698708
+    },
+    "Amazon title-author search": {
+      "calls": 181,
+      "costUSD": 0.19449365636080002,
+      "acceptedFields": 84,
+      "meanCostUSD": 0.0010745505876287294
+    },
+    "audit": {
+      "calls": 20,
+      "costUSD": 0.0040829382000000004,
+      "acceptedFields": 0,
+      "meanCostUSD": 0.00020414691000000002
+    },
+    "reference title search": {
+      "calls": 60,
+      "costUSD": 0.065423635206,
+      "acceptedFields": 3,
+      "meanCostUSD": 0.0010903939201000001
+    }
+  },
+  "pilot": [
+    {
+      "bookId": "n8a83f2211d",
+      "isbnQuery": "site:amazon.com \"9780061940811\" \"ratings\"",
+      "isbnFile": "data/cheap100_261102/raw/amazon-1500-parallel-fast-isbn.json",
+      "controlFile": "data/cheap100_261102/raw/amazon-1500-parallel-fast.json",
+      "isbnSourceTitles": [
+        "Amazon.com Seller Profile: Orchard Farm",
+        "Amazon.com Seller Profile: ANTSANG",
+        "Amazon.com Seller Profile: Big Rocket Man USA",
+        "Amazon.com Seller Profile: LoveMoon Floral",
+        "Amazon.com Seller Profile: Tosnail",
+        "Amazon.com Seller Profile: STARLIGHT WIRE",
+        "Amazon.com Seller Profile: kiddie world",
+        "Amazon.com Seller Profile: HORTAS LIMITED",
+        "Amazon.com Seller Profile: PURUO",
+        "Amazon.com Seller Profile: VANTA CORE"
+      ],
+      "acceptedFromControl": false,
+      "isbnAccepted": false
+    },
+    {
+      "bookId": "bg4d51d81a85",
+      "isbnQuery": "site:amazon.com \"9781784875046\" \"ratings\"",
+      "isbnFile": "data/cheap100_261102/raw/amazon-1501-parallel-fast-isbn.json",
+      "controlFile": "data/cheap100_261102/raw/amazon-1503-parallel-fast.json",
+      "isbnSourceTitles": [
+        "Fight Club (Vintage American Gothic): 9781784878542 ...",
+        "Amazon.com Seller Profile: Orchard Farm",
+        "Amazon.com Seller Profile: ANTSANG",
+        "Amazon.com Seller Profile: Big Rocket Man USA",
+        "Amazon.com Seller Profile: Tosnail",
+        "Amazon.com Seller Profile: STARLIGHT WIRE",
+        "Amazon.com Seller Profile: kiddie world",
+        "Amazon.com Seller Profile: HORTAS LIMITED",
+        "Amazon.com Seller Profile: LoveMoon Floral",
+        "Amazon.com Seller Profile: Mins4You"
+      ],
+      "acceptedFromControl": true,
+      "isbnAccepted": false
+    },
+    {
+      "bookId": "g0878",
+      "isbnQuery": "site:amazon.com \"0415041872\" \"ratings\"",
+      "isbnFile": "data/cheap100_261102/raw/amazon-1502-parallel-fast-isbn.json",
+      "controlFile": "data/cheap100_261102/raw/amazon-1506-parallel-fast.json",
+      "isbnSourceTitles": [
+        "Amazon.com Seller Profile: PURUO",
+        "Amazon.com Seller Profile: INTERNUTRIATA",
+        "Amazon.com Seller Profile: ANTSANG",
+        "Amazon.com Seller Profile: kiddie world",
+        "Amazon.com Seller Profile: LoveMoon Floral",
+        "Amazon.com Seller Profile: HongKong Sinuoqi International Trading Co.,Limited",
+        "Amazon.com Seller Profile: Weily Store",
+        "Amazon.com Seller Profile: Orchard Farm",
+        "Amazon.com Seller Profile: HORTAS LIMITED",
+        "Amazon.com Seller Profile: Quicktoner"
+      ],
+      "acceptedFromControl": true,
+      "isbnAccepted": false
+    },
+    {
+      "bookId": "shelf-0b8bbe07ebf4",
+      "isbnQuery": "site:amazon.com \"0593799666\" \"ratings\"",
+      "isbnFile": "data/cheap100_261102/raw/amazon-1503-parallel-fast-isbn.json",
+      "controlFile": "data/cheap100_261102/raw/amazon-1509-parallel-fast.json",
+      "isbnSourceTitles": [
+        "Amazon.com Seller Profile: Coffee Mocha",
+        "Amazon.com Seller Profile: Sunny-Supply",
+        "Amazon.com Seller Profile: INTERNUTRIATA",
+        "Amazon.com Seller Profile: PURUO",
+        "Amazon.com Seller Profile: Orchard Farm",
+        "Amazon.com Seller Profile: Ace Comp Solutions",
+        "Amazon.com Seller Profile: HongKong Sinuoqi International Trading Co.,Limited",
+        "Amazon.com Seller Profile: ANTSANG",
+        "Amazon.com Seller Profile: LoveMoon Floral",
+        "Amazon.com Seller Profile: kiddie world"
+      ],
+      "acceptedFromControl": true,
+      "isbnAccepted": false
+    },
+    {
+      "bookId": "shelves-unnaturalworld",
+      "isbnQuery": "site:amazon.com \"9781476743912\" \"ratings\"",
+      "isbnFile": "data/cheap100_261102/raw/amazon-1504-parallel-fast-isbn.json",
+      "controlFile": "data/cheap100_261102/raw/amazon-1511-parallel-fast.json",
+      "isbnSourceTitles": [
+        "Amazon.com Seller Profile: ANTSANG",
+        "Amazon.com Seller Profile: Orchard Farm",
+        "His Favorites: A Novel: 9781476799391: Walbert ... - Amazon.com",
+        "Amazon.com Seller Profile: Tosnail",
+        "Amazon.com Seller Profile: kiddie world",
+        "Amazon.com Seller Profile: Big Rocket Man USA",
+        "Amazon.com Seller Profile: STARLIGHT WIRE",
+        "Amazon.com Seller Profile: PURUO",
+        "Amazon.com Seller Profile: HORTAS LIMITED",
+        "Amazon.com Seller Profile: LoveMoon Floral"
+      ],
+      "acceptedFromControl": false,
+      "isbnAccepted": false
+    },
+    {
+      "bookId": "rem-u1569",
+      "isbnQuery": "site:amazon.com \"9780307473349\" \"ratings\"",
+      "isbnFile": "data/cheap100_261102/raw/amazon-1505-parallel-fast-isbn.json",
+      "controlFile": "data/cheap100_261102/raw/amazon-1513-parallel-fast.json",
+      "isbnSourceTitles": [
+        "Amazon.com Seller Profile: ANTSANG",
+        "Amazon.com Seller Profile: Orchard Farm",
+        "Amazon.com Seller Profile: Big Rocket Man USA",
+        "Amazon.com Seller Profile: Tosnail",
+        "Amazon.com Seller Profile: LoveMoon Floral",
+        "Amazon.com Seller Profile: VANTA CORE",
+        "Amazon.com Seller Profile: Wolistsa US",
+        "Amazon.com Seller Profile: HORTAS LIMITED",
+        "Amazon.com Seller Profile: kiddie world",
+        "Amazon.com Seller Profile: Kowin"
+      ],
+      "acceptedFromControl": true,
+      "isbnAccepted": false
+    },
+    {
+      "bookId": "shelf-81ec8fff4541",
+      "isbnQuery": "site:amazon.com \"067154330X\" \"ratings\"",
+      "isbnFile": "data/cheap100_261102/raw/amazon-1506-parallel-fast-isbn.json",
+      "controlFile": "data/cheap100_261102/raw/amazon-1514-parallel-fast.json",
+      "isbnSourceTitles": [
+        "Amazon.com Seller Profile: Sunny-Supply",
+        "Amazon.com Seller Profile: Coffee Mocha",
+        "Amazon.com Seller Profile: HongKong Sinuoqi International Trading Co.,Limited",
+        "Amazon.com Seller Profile: Kowin",
+        "Amazon.com Seller Profile: Ace Comp Solutions",
+        "Amazon.com Seller Profile: LoveMoon Floral",
+        "Amazon.com Seller Profile: kiddie world",
+        "Amazon.com Seller Profile: PURUO",
+        "Amazon.com Seller Profile: ANTSANG",
+        "Amazon.com Seller Profile: INTERNUTRIATA"
+      ],
+      "acceptedFromControl": false,
+      "isbnAccepted": false
+    },
+    {
+      "bookId": "progress-0212",
+      "isbnQuery": "site:amazon.com \"9780312427443\" \"ratings\"",
+      "isbnFile": "data/cheap100_261102/raw/amazon-1507-parallel-fast-isbn.json",
+      "controlFile": "data/cheap100_261102/raw/amazon-1516-parallel-fast.json",
+      "isbnSourceTitles": [
+        "Amazon.com Seller Profile: ANTSANG",
+        "Amazon.com Seller Profile: Orchard Farm",
+        "Amazon.com Seller Profile: Tosnail",
+        "Amazon.com Seller Profile: HORTAS LIMITED",
+        "Amazon.com Seller Profile: kiddie world",
+        "Amazon.com Seller Profile: Mins4You",
+        "Amazon.com Seller Profile: STARLIGHT WIRE",
+        "Amazon.com Seller Profile: Wolistsa US",
+        "Amazon.com Seller Profile: LoveMoon Floral",
+        "Amazon.com Seller Profile: VANTA CORE"
+      ],
+      "acceptedFromControl": false,
+      "isbnAccepted": false
+    },
+    {
+      "bookId": "complete-317-251",
+      "isbnQuery": "site:amazon.com \"9780812988758\" \"ratings\"",
+      "isbnFile": "data/cheap100_261102/raw/amazon-1508-parallel-fast-isbn.json",
+      "controlFile": "data/cheap100_261102/raw/amazon-1519-parallel-fast.json",
+      "isbnSourceTitles": [
+        "Amazon.com Seller Profile: ANTSANG",
+        "Amazon.com Seller Profile: Orchard Farm",
+        "Amazon.com Seller Profile: kiddie world",
+        "Amazon.com Seller Profile: Tosnail",
+        "Amazon.com Seller Profile: Big Rocket Man USA",
+        "Amazon.com Seller Profile: STARLIGHT WIRE",
+        "Amazon.com Seller Profile: HORTAS LIMITED",
+        "Amazon.com Seller Profile: LoveMoon Floral",
+        "Amazon.com Seller Profile: SET YOUR HEART ABLAZE",
+        "Amazon.com Seller Profile: PC Outlets"
+      ],
+      "acceptedFromControl": false,
+      "isbnAccepted": false
+    }
+  ],
+  "confidence": "High for recorded usage and accepted values; moderate for strategy comparison. Batches differ in field mix and books.",
+  "scope": "Successful saved OpenRouter responses, including research, pilot and audit. Interrupted requests may be billed separately; not an invoice.",
+  "lessons": [
+    "Reuse prior evidence and remap useful secondary book results before ordering more searches.",
+    "Keep title and author in queries: all nine ISBN-only pilot searches returned irrelevant seller profiles and supplied no accepted value.",
+    "The same-book title-author controls supplied four accepted values; see pilot records.",
+    "Reference counts had lower yield in this batch. Do not infer missing counts or zero to improve yield.",
+    "Keep Mistral Nemo with Parallel fast, ten results; use Mistral Small 24B to flag evidence issues.",
+    "Human review remains necessary: low-cost models misread contributors, pen names, series labels and Kindle rating eligibility.",
+    "Compare cost by field and provenance; an Amazon-heavy round is not a controlled efficiency comparison with a more varied round."
+  ],
+  "futureDefaults": {
+    "model": "mistralai/mistral-nemo",
+    "plugin": {
+      "id": "web",
+      "engine": "parallel",
+      "mode": "fast",
+      "max_results": 10
+    },
+    "auditModel": "mistralai/mistral-small-24b-instruct-2501"
+  }
+}

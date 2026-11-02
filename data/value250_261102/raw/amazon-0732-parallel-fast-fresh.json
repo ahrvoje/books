@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793575725-k448xSGfFpR0yVHTyEdk",
+  "object": "chat.completion",
+  "created": 1793575725,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Why-We-Believe-God-Concise/dp/0984493212",
+              "title": "Why We Believe in God(s): A Concise Guide to the Science ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nWhy We Believe in God(s): A Concise Guide to the Science ...\nAnderson Thomson, Jr., MD, with Clare Aukofer, offers a succinct yet comprehensive study of how and why the human mind generates religious belief. Dr."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Why-Should-Believe-Christianity-Big/dp/1781918694",
+              "title": "Why Should I Believe Christianity? (The Big Ten) - Amazon.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nWhy Should I Believe Christianity? (The Big Ten) - Amazon.com\nJames Anderson, with a clear, humorous logic, explores what Christianity really claims, and shows the underlying reason and consistency behind these claims.\n\n## \n\nWhy Should I Believe Christianity? (The Big Ten)\nJames Anderson in this very readable book offers clear biblical answers to the basic questions about God's existence, the Bible as divine revelation and Jesus'"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 597,
+    "completion_tokens": 1,
+    "total_tokens": 598,
+    "cost": 0.00101066824,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000010776,
+      "upstream_inference_prompt_cost": 0.000010746,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Why We Believe in God(s)\" J. Anderson Thomson; Clare Aukofer \"global ratings\"",
+  "bookId": "g0687",
+  "retrieved": "2026-11-01T23:28:47.331Z"
+}

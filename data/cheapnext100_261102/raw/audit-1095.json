@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574891-XwUeKkFSt3LCLNbfz31v",
+  "object": "chat.completion",
+  "created": 1793574891,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u0294:amazon:https://www.amazon.com/Great-Degeneration-Institutions-Decay-Economies/dp/0143125524\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 777 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-84830a0bdce7:amazon:https://www.amazon.com/Argumentative-Indian-Writings-History-Identity/dp/031242602X\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 1,406 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"g0712:amazon:https://www.amazon.com/Days-Rage-Underground-Forgotten-Revolutionary/dp/1594204292\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 663 ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1018:amazon:https://www.amazon.com/dp/0140192468\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 224 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u0988:amazon:https://www.amazon.com/Secondhand-Time-Soviets-Svetlana-Alexievich/dp/0399588809\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact title and author match. 1,589 ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3684,
+    "completion_tokens": 399,
+    "total_tokens": 4083,
+    "cost": 0.0002139588,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021612,
+      "upstream_inference_prompt_cost": 0.0001842,
+      "upstream_inference_completions_cost": 0.00003192
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:14:54.014Z"
+}

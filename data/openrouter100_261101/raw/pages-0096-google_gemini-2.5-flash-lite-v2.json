@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:59.731Z",
+  "bookId": "shelf-7e26ecd95367",
+  "id": "gen-1793571238-8bRb3uxbyNPuhJKdxlj0",
+  "object": "chat.completion",
+  "created": 1793571238,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-7e26ecd95367\",\n  \"title\": \"A Voyage Around the Queen\",\n  \"author\": \"Craig Brown\",\n  \"knownEdition\": null,\n  \"purchaseUrl\": \"https://www.amazon.de/s?k=A%20Voyage%20Around%20the%20Queen%20Craig%20Brown%20paperback\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 672,\n    \"editionId\": \"978-0-00-855753-9\",\n    \"editionYear\": 2024,\n    \"format\": \"Paperback\",\n    \"language\": \"English\",\n    \"url\": \"https://www.4thestate.co.uk/products/a-voyage-around-the-queen-craig-brown-9780008557539/\",\n    \"evidence\": \"'A very unusual masterpiece … teems with facts, humour and intelligence … I enjoyed A Voyage Around the Queen so much that I wished it were longer than its 672 pages' CHRISTOPHER HOWSE, SUNDAY TELEGRAPH -\",\n    \"sourceTitle\": \"A Voyage Around the Queen - 4th Estate\",\n    \"sourceAuthor\": \"Craig Brown\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.4thestate.co.uk/products/a-voyage-around-the-queen-craig-brown-9780008557539/\",\n    \"https://www.harperreach.com/products/a-voyage-around-the-queen-craig-brown-9780008557508/\",\n    \"https://en.wikipedia.org/wiki/A_Voyage_Around_the_Queen\",\n    \"https://www.hive.co.uk/product/craig-brown/a-voyage-around-the-queen/31624168\",\n    \"https://brownsbfs.co.uk/Product/Brown-Craig/A-Voyage-Around-the-Queen/9780008557539\"\n  ],\n  \"limitations\": \"The page count of 662 pages was observed for a paperback edition published on 28/08/2025, with a note that it was a reprint of the 2024 edition. Other sources consistently list 672 pages for paperback editions with ISBNs 978-0-00-855753-9 and 978-0-00-855750-8, and for the general publication. Therefore, 672 pages is the most consistently observed count.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.4thestate.co.uk/products/a-voyage-around-the-queen-craig-brown-9780008557539/",
+              "title": "A Voyage Around the Queen - 4th Estate",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "A Voyage Around the Queen - 4th Estate\n\n \n\n# A Voyage Around the Queen\n\nBy Craig Brown\n\n...\n\nAuthor: Craig Brown Format: Paperback ISBN: 978-0-00-855753-9\n\n...\n\n'A very unusual masterpiece … teems with facts, humour and intelligence … I enjoyed A Voyage Around the Queen so much that I wished it were longer than its 672 pages' CHRISTOPHER HOWSE, SUNDAY TELEGRAPH -"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.harperreach.com/products/a-voyage-around-the-queen-craig-brown-9780008557508/",
+              "title": "A Voyage Around the Queen - HarperReach",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "A Voyage Around the Queen - HarperReach\n\n \n\n By Craig Brown \n\nTHE\n...\nAuthor: Craig Brown \n\n Format: Trade Paperback \n\n Release Date: 29 Aug 2024 \n\n Imprint: Fourth Estate \n\n Pages: 672 \n\n ISBN: 978-0-00-855750-8 \n\n Price: £18.99, £18.99 (Export Price)"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://en.wikipedia.org/wiki/A_Voyage_Around_the_Queen",
+              "title": "A Voyage Around the Queen",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "A Voyage Around the Queen \n\n| Cover of UK hardback | |\n| --- | --- |\n| Author | Craig Brown |\n| Language | English |\n| Genre | Biography |\n| Publisher | Fourth Estate (UK) Farrar, Straus and Giroux (US) |\n| Publication date | 29 August 2024 |\n| Pages | 672 |\n| ISBN | 978-0008557492 |\n\nA Voyage Around the Queen is a 2024 book on the life of Queen Elizabeth II, written by Craig Brown. It was published in the United States later in the same year as Q: A Voyage Around the Queen."
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.hive.co.uk/product/craig-brown/a-voyage-around-the-queen/31624168",
+              "title": "A Voyage Around the Queen Paperback / softback",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# A Voyage Around the Queen Paperback / softback\n\n## by Craig Brown\n\nPaperback / softback\n\n28/08/2025\n\n9780008557539\n\nIn Stock\n\n...\n\n#### Information\n\n- In Stock\n- Format:Paperback / softback\n- Pages:672 pages\n- Publisher:HarperCollins Publishers\n- Publication Date:28/08/2025\n- Category: Biography: royalty Postwar 20th century history, from c 1945 to c 2.. 21st century history: from c 2000 - Social & cultural history Popular culture\n- ISBN: 9780008557539"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://brownsbfs.co.uk/Product/Brown-Craig/A-Voyage-Around-the-Queen/9780008557539",
+              "title": "A Voyage Around the Queen by Brown, Craig (9780008557539) | Browns Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# A Voyage Around the Queen \n\n Brown, Craig\n\n...\n\nPublisher/Imprint Fourth Estate Ltd \n\nFormat Paperback / softback\n\nDewey 941.085092\n\nPublished 28/08/2025\n\nCountry of Pub United Kingdom\n\nBook Language English\n\nPages 662 pages : illustrations (black and white)\n\nDimensions 20 cm\n\nNotes Reprint. Originally published: 2024."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1388,
+    "completion_tokens": 659,
+    "total_tokens": 2047,
+    "cost": 0.007398376,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004024,
+      "upstream_inference_prompt_cost": 0.0001388,
+      "upstream_inference_completions_cost": 0.0002636
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

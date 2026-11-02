@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:15:32.445Z",
+  "bookId": "rest-133-110",
+  "id": "gen-1793571331-EhjSlqhP0eQ4y8HtaKOk",
+  "object": "chat.completion",
+  "created": 1793571331,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"rest-133-110\",\n  \"title\": \"A Little History of Science\",\n  \"author\": \"William Bynum\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 263,\n    \"editionId\": null,\n    \"editionYear\": \"2012\",\n    \"format\": \"Book\",\n    \"language\": \"English\",\n    \"url\": \"https://broomfieldkids.flatironslibrary.org/Record/.b2023580x\",\n    \"evidence\": \"vi, 263 pages : illustrations ; 23 cm\",\n    \"sourceTitle\": \"A little history of science / | Marmot Library Network\",\n    \"sourceAuthor\": \"Bynum, W. F. 1943-\"\n  },\n  \"reference\": {\n    \"count\": null,\n    \"editionId\": null,\n    \"editionYear\": \"2012\",\n    \"url\": \"https://broomfieldkids.flatironslibrary.org/Record/.b2023580x\",\n    \"evidence\": \"Includes bibliographical references and index.\",\n    \"sourceTitle\": \"A little history of science / | Marmot Library Network\",\n    \"sourceAuthor\": \"Bynum, W. F. 1943-\",\n    \"ranges\": [],\n    \"method\": \"The library catalog explicitly states that the book 'Includes bibliographical references and index.' However, a specific page range for the bibliographical references is not provided in the catalog record.\",\n    \"limitation\": \"The exact page range for the bibliographical references is not available from the provided library catalog information.\"\n  },\n  \"searchedUrls\": [\n    \"https://broomfieldkids.flatironslibrary.org/Record/.b2023580x\",\n    \"https://doi.org/10.12987/9780300189421-fm\",\n    \"https://pubhtml5.com/bbar/ollg/A_Little_History_of_Science_%28William_Bynum%29/\",\n    \"https://link.livebrary.com/resource/4CHwR1JVvN4\"\n  ],\n  \"limitations\": \"The exact page range for the bibliographical references is not available from the provided library catalog information. The publisher's front matter and other sources confirm the presence of bibliographical references but do not specify a page range.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://broomfieldkids.flatironslibrary.org/Record/.b2023580x",
+              "title": "A little history of science / | Marmot Library Network",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "A little history of science / | Marmot Library Network\n\n# A little history of science (Book)\n\nAuthor: Bynum, W. F. 1943- \n\nPublished: New Haven, CT : Yale University Press, [2012].\n\nFormat: Book\n\nPhysical Desc: vi, 263 pages : illustrations ; 23 cm\n\nStatus:\n\nOn Shelf \n\n| Available Copies | Location | Call Number |\n| --- | --- | --- |\n| 1 of 1 | Boulder Main Adult Nonfiction | 509 Bynu |\n| 1 of 1 | Longmont Adult Nonfiction | 509 BYN |\n\n## Copies\n\nLocation Call Number Status Last Check-In\n\nBoulder Main Adult Nonfiction 509 Bynu On Shelf Jan 7, 2026\n\nLongmont Adult Nonfiction 509 BYN On Shelf Jun 28, 2026\n\n...\n\n## Subjects\n\nLC Subjects Science -- History. Science and civilization. \n\n## More Details\n\nLanguage: English\n\nISBN: 9780300136593 (hardback)\n\n#### Notes\n\nBibliography Includes bibliographical references and index.\n\n...\n\nBynum, W. F. 1. (2012). A little history of science. Yale University Press.\n\nChicago / Turabian - Author Date Citation(style guide)\n\nBynum, W. F. 1943-. 2012. A Little History of Science. Yale University Press.\n\nChicago / Turabian - Humanities Citation(style guide)\n\nBynum, W. F. 1943-, A Little History of Science. Yale University Press, 2012. \n\nNote! Citation formats are based on standards as of July 2022. Citations contain only title, author, edition, publisher, and year published. Citations should be used as a guideline and should be double checked for accuracy.\n\n...\n\n### Record Information\n\n...\n\n### MARC Record\n\n| LEADER | | | 02795cam a22003614i 4500 |\n| --- | --- | --- | --- |\n| 001 | | | FLC2012026738 |\n| 003 | | | DLC |\n| 005 | | | 20120827071053.0 |\n| 008 | | | 120814s2012 ctua e b 001 0 eng |\n| 010 | | | |a 2012026738 |\n| 020 | | | |a 9780300136593 (hardback) |\n| 040 | | | |a DLC |b eng |e rda |c DLC |d DLC |d CoBoFLC |\n| 050 | 0 | 0 | |a Q125 |b .B98 2012 |\n| 082 | 0 | 0 | |a 509 |2 23 |\n| 100 | 1 | | |a Bynum, W. F. |q (William F.), |d 1943- |\n| 245 | 1 | 2 | |a A little history of science / |c William Bynum. |\n| 264 | | 1 | |a New Haven, CT : |b Yale University Press, |c [2012] |\n| 264 | | 4 | |c ©2012 |\n| 300 | | | |a vi, 263 pages : |b illustrations ; |c 23 cm |\n| 336 | | | |a text |b txt |2 rdacontent |\n| 337 | | | |a unmediated |b n |2 rdamedia |\n| 338 | | | |a volume |b nc |2 rdacarrier |\n| 340 | | | |p illustration |2 rdaill |\n| 504 | | | |a Includes bibliographical references and index. |\n| 520 | | | |a \"Science is fantastic. It tells us about the infinite reaches of space, the tiniest living organism, the human body, the history of Earth. People have always been doing science because they have always wanted to make sense of the world and harness its power. ... philosophers ... Einstein ... and ... of ... , ... |\n| 650 | | 0 | |a Science |x History. |\n| 650 | | 0 | |a Science and civilization. |\n| 907 | | | |a .b2023580x |\n| 940 | | | |l md |\n| 945 | | | |y .i25011479 |i R0092371756 |l bmnfa |s - |h |u 21 |x 2 |w 0 |v 17 |t 0 |z 121108 |1 01-07-2026 18:12 |r - |o - |a 509 |b Bynu |\n| 945 | | | |y .i32309624 |i 33060009821542 |l lgnfa |s - |h |u 19 |x 1 |w 1 |v 6 |t 0 |z 160330 |1 06-28-2026 22:53 |r - |o - |a 509 BYN |\n| 995 | | | |a Loaded with m2btab.ltibib in 2026.07, Backstage backfile |\n| 998 | | | |f - |e a |i eng |h bm |h lg |"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://doi.org/10.12987/9780300189421-fm",
+              "title": "Frontmatter",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "# Frontmatter\n\nYale University Press eBooks. Published: 2017-12-31. 0 citations.\n\n## Authors\n\n- William F. Bynum: h-index 28; 3,291 citations; corresponding author\n\n---\n\n# a little history of science\n\nFor Alex and Peter\n\nYA L E U N I V E R S I T Y P R E S S NEW HAVEN AND LOND ON\n\nCopyright © 2012 William Bynum All rights reserved. ... Office: sales.press@yale.edu www.yalebooks.com Europe Office: sales@yaleup.co.uk www.yalebooks.co.uk Set in Minion Pro by IDSUK (DataConnection) Ltd Printed in Great Britain by TJ International Ltd, Padstow, Cornwall Library of Congress Cataloging-in-Publication Data Bynum, W. F. (William F.), 1943– A little history of science / William Bynum. pages cm Includes bibliographical references and index. ISBN 978–0–300–13659–3 (hardback) 1. Science—History.\n\n## 2. Science and\n\ncivilization. I. Title. Q125.B98 2012 509—dc23 2012026738 A catalogue record for this book is available from the British Library. 10 9 8 7 6 5 4 3 2 1"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://link.library.waubonsee.edu/resource/xhW6oZC1vFA",
+              "title": "Bibliograph",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Bibliograph\n\nA little history of science, William Bynum\n\nType\n\n- http://bibfra.me/vocab/lite/Work\n- http://bibfra.me/vocab/marc/Books\n- http://bibfra.me/vocab/marc/LanguageMaterial\n\nClassification\n\n- Bynum, W. F., William F., 1943-\n\nGenre\n\n- History\n\nSubject\n\nContent\n\nMapped to\n\nLabel A little history of science, William Bynum\n\nLanguage eng\n\nBibliography note Includes bibliographical references and index\n\nIllustrations illustrations\n\nIndex index present\n\nLiterary form non fiction\n\nMain title A little history of science\n\nResponsibility statement William Bynum\n\n...\n\nTable of contents\n\nIn the beginning -- Needles and numbers -- Atoms and the void -- The father of medicine: Hippocrates -- 'The master of those who know': Aristotle -- The emperor's doctor: Galen -- Science in Islam -- Out of the darkness -- Searching for the philosopher's stone -- Uncovering the human body -- Where ... the centre of the universe? -- Leaning towers and telescopes: Galileo -- Round and round: Harvey -- Knowledge is power: Bacon and Descartes -- The 'new chemistry' -- What goes up ... : ... -- Bright sparks -- The clockwork universe -- Ordering the ... -- Air ... and gases -- Tiny pieces of matter -- Forces, fields ... magnetism -- Dig ... up dinosaurs -- The history of our planet -- The greatest show on Earth -- Little boxes of life -- Coughs, sneezes ... diseases -- Engines and energy -- Tabling the elements -- Into ... atom -- Radioactivity -- The game-changer: Einstein -- Moving continents --What do we inherit? -- Where did we come from? -- Wonder drugs -- Building blocks -- Reading 'the book of life': the Human Genome Project -- The Big Bang -- Science in our digital age\n\n### Incoming Resources\n\n- Has instance 1\n\n- A little history of science, William Bynum - hardback"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://pubhtml5.com/bbar/ollg/A_Little_History_of_Science_%28William_Bynum%29/",
+              "title": "A Little History of Science (William Bynum) - Knowledge Hub MESKK - Page 1 - 271 | Flip PDF Online | PubHTML5",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "A Little History of Science (William Bynum) - Knowledge Hub MESKK - Page 1 - 271 | Flip PDF Online | PubHTML5\n\n# A Little History of Science (William Bynum)\n\n \n\na little history of science\n\nFor Alex and Peter\n\nWILLIAM BYNUM\n\nA LITTLE\n\nHISTORY OF\n\nSCIENCE\n\nYA L E U N I V E R S I T Y P R E S S\n\n...\n\nPrinted in Great Britain by TJ International Ltd, Padstow, Cornwall\n\nLibrary of Congress Cataloging-in-Publication Data\n\nBynum, W. F. (William F.), 1943–\n\nA little history of science / William Bynum.\n\nâ•…â•…pages cm\n\nâ•…â•…Includes bibliographical references and index.\n\nISBN 978–0–300–13659–3 (hardback)\n\n1. Science—History. 2. Science and civilization. I. Title.\n\nQ125.B98 2012\n\n509—dc23\n\nA catalogue record for this book is available from the British Library.\n\nContents\n\n1 In the Beginning 1\n\n2 Needles and Numbers 6\n\n3 Atoms and the Void 14\n\n4 The Father of Medicine: Hippocrates 19\n\n5 ‘The Master of Those Who Know’: Aristotle 24\n\n6 The Emperor’s Doctor: Galen 30\n\n7 Science in Islam 35\n\n8 Out of the Darkness 39\n\n9 Searching for the Philosopher’s Stone 44\n\n10 Uncovering the Human Body 50\n\n11 Where is the Centre of the Universe? 56\n\n12 Leaning Towers and Telescopes: Galileo 62\n\n13 Round and Round: Harvey 68\n\n14 Knowledge is Power: Bacon and Descartes 74\n\n15 The ‘New Chemistry’ 81\n\n16 What Goes Up . . .: Newton 87\n\n17 Bright Sparks 94\n\n18 The Clockwork Universe 100\n\n19 Ordering the World 107\n\nvi c o n t e n t s\n\n20 Airs and Gases 113\n\n21 Tiny Pieces of Matter 120\n\n22 Forces, Fields and Magnetism 127\n\n23 Digging Up Dinosaurs 133\n\n24 The History of Our Planet 139\n\n25 The Greatest Show on Earth 146\n\n26 Little Boxes of Life 154\n\n27 Coughs, Sneezes and Diseases 161\n\n28 Engines and Energy 169\n\n29 Tabling the Elements 175\n\n30 Into the Atom 182\n\n31 Radioactivity 189\n\n32 The Game-Changer: Einstein 196\n\n33 Moving Continents 203\n\n34 What Do We Inherit? 209\n\n35 Where Did We Come From? 217\n\n36 Wonder Drugs 224\n\n37 Building Blocks 231\n\n38 Reading ‘the Book of Life’: The Human Genome Project 237\n\n39 The Big Bang 243\n\n40 Science in Our Digital Age 251\n\nIndex 257"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://link.livebrary.com/resource/4CHwR1JVvN4",
+              "title": "Bibliograph",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Bibliograph\n\nA little history of science, William Bynum\n\nType\n\n- http://bibfra.me/vocab/lite/Work\n- http://bibfra.me/vocab/marc/Books\n- http://bibfra.me/vocab/marc/LanguageMaterial\n\n### Link Analysis\n\n- OverDrive, Inc\n\nCreator\n\n- Bynum, W. F., William F., 1943-\n\nGenre\n\nSubject\n\nContent\n\nAuthor\n\n- Bynum, W. F., William F., 1943-\n\nOther version\n\nLabel A little history of science, William Bynum\n\nLanguage eng\n\nBibliography note Includes bibliographical references and index\n\nIllustrations illustrations\n\nIndex index present\n\nLiterary form non fiction"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3829,
+    "completion_tokens": 571,
+    "total_tokens": 4400,
+    "cost": 0.007605187,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006113,
+      "upstream_inference_prompt_cost": 0.0003829,
+      "upstream_inference_completions_cost": 0.0002284
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "gen-1793575707-mvxh73SmXX5vYdv5BCEL",
+  "object": "chat.completion",
+  "created": 1793575707,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://amazon.com/Best-Sellers-Kindle-Store-History-of-Arctic-Antarctica/zgbs/digital-text/156635011/ref=zg_bs_nav_digital-text_3_10704244011",
+              "title": "Amazon Best Sellers: Best History of Arctic & Antarctica",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "rand and Terrible Polar Voyage of the USS Jeannette\nHampton Sides\n4.6 out of 5 stars 7,525\nKindle Edition\n$9.99\n5 formats available\n4. #4\nThe Worst Journey in the World: Antarctica, 1910-1913\nApsley Cherry-Garrard\n4.4 out of 5 stars 299\nKindle Edition\n$0.99\n2 formats available\n5. #5\nMawson's Will: The Greatest Polar Survival Story Ever Written\nLennard Bickel\n4.5 out of 5 stars 461\nKindle Edition\n$1.99\n4 formats available\n6. #6\nThe Last Viking: The Life of Roald Amundsen (A Merloyd Lawrence Book)\nStephen R. Bown\n4.5 out of 5 stars 1,042\nKindle Edition\n$11.70\n5 formats available\n7. #7\nAn Empire of Ice: Scott, Shackleton, and the Heroic Age of Antarctic Science\nEdward J. Larson\n4.4 out of 5 stars 94\nKindle Edition\n$2.99\n5 formats available\n8. #8\n\n...\n\nThe North Pole and Inner Earth Chronicles: The Smoky God: A Voyage to the Inner World + The Secret Diary of Admiral Richard E. Byrd | Two Books in One Landmark Edition, Arctic, Hollow & Flat Earth\n\n...\n\nConrad Bauer\n3.8 out of 5 stars 74\nKindle Edition\n$1.99\n2 formats available\n17. #17\nThe Lost Men: The Harrowing Saga of Shackleton's Ross Sea Party\nKelly Tyler-Lewis\n4.5 out of 5 stars 503\nKindle Edition\n$8.99\n5 formats available\n18. #18\nThe Ice Master: The Doomed 1913 Voyage of the Karluk\nJennifer Niven\n4.6 out of 5 stars 520\nKindle Edition\n$11.99\n4 formats available\n19. #19\n\n...\n\n3 formats available\n28. #28\nEndurance: Shackleton's Extraordinary Voyage\nDaniel Bryce\n4.5 out of 5 stars 626\nKindle Edition\n$9.99\n29. #29"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 973,
+    "completion_tokens": 1,
+    "total_tokens": 974,
+    "cost": 0.00101736856,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000017544,
+      "upstream_inference_prompt_cost": 0.000017514,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Shackleton's Forgotten Men\" Lennard Bickel \"global ratings\"",
+  "bookId": "n14a47befca",
+  "retrieved": "2026-11-01T23:28:28.995Z"
+}

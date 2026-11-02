@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793575672-xLAI2eJmRUmH0m8uyEak",
+  "object": "chat.completion",
+  "created": 1793575672,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"rem-u1410:amazon:https://www.amazon.com/Rise-Fall-Dinosaurs-History-World/dp/0062490427\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 6,364 ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"bg198c521a8a:amazon:https://www.amazon.com/Schwab-Pride-Performance-Keep-Going/dp/0892881518\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 72 ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u0528:amazon:https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 3,720 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"shelf-66aaef8ba60c:amazon:https://www.amazon.com/Authentic-Founder-Paul-Van-Doren/dp/164112024X\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 500 global ratings is explicitly stated.\"\n    },\n    {\n      \"key\": \"nfc7687f570:amazon:https://www.amazon.com/Predictably-Irrational-Dan-Ariely/dp/1607513943\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The evidence of 11,387 global ratings is explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3531,
+    "completion_tokens": 440,
+    "total_tokens": 3971,
+    "cost": 0.0002096325,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00021175,
+      "upstream_inference_prompt_cost": 0.00017655,
+      "upstream_inference_completions_cost": 0.0000352
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:27:57.860Z"
+}

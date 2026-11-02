@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793574389-AZUsCcINw5DQT6yFsmPV",
+  "object": "chat.completion",
+  "created": 1793574389,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"shelf-b8b27535442e:amazon:https://www.amazon.com/Junk-Gold-Salvage-Largest-Auction/dp/1490816577\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"shelf-194b8b0fbbd8:amazon:https://www.amazon.com/Smartcuts-Hackers-Innovators-Accelerate-Success/dp/0062302450\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as ratings.\"\n    },\n    {\n      \"key\": \"rem-u1680:amazon:https://www.amazon.com/Inadequate-Equilibria-Where-Civilizations-Stuck/dp/1939311225\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as ratings.\"\n    },\n    {\n      \"key\": \"bgb070053c47:amazon:https://www.amazon.com/Let-People-Surfing-Education-Businessman/dp/0143037838\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as global ratings.\"\n    },\n    {\n      \"key\": \"shelves-mamaslasthug:amazon:https://www.amazon.com/Mamas-Last-Hug-Animal-Emotions/dp/0393635066\",\n      \"status\": \"supported\",\n      \"reason\": \"The title and author match exactly. The rating count is explicitly labelled as global ratings.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3413,
+    "completion_tokens": 436,
+    "total_tokens": 3849,
+    "cost": 0.0002034747,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00020553,
+      "upstream_inference_prompt_cost": 0.00017065,
+      "upstream_inference_completions_cost": 0.00003488
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:06:33.588Z"
+}

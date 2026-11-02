@@ -1,0 +1,100 @@
+{
+  "retrieved": "2026-11-01T22:13:11.435Z",
+  "bookId": "progress-0360",
+  "id": "gen-1793571190-yYwur8hp92FSCkkrsaUx",
+  "object": "chat.completion",
+  "created": 1793571190,
+  "model": "google/gemini-2.5-flash-lite",
+  "provider": "Google AI Studio",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"progress-0360\",\n  \"title\": \"East African\",\n  \"author\": \"Davis, Peter J.\",\n  \"knownEdition\": null,\n  \"purchaseUrl\": \"https://www.amazon.de/dp/1873203225\",\n  \"amazon\": null,\n  \"pages\": {\n    \"count\": 131,\n    \"editionId\": \"978-0-9523047-0-8\",\n    \"editionYear\": 1994,\n    \"format\": \"paperback\",\n    \"language\": null,\n    \"url\": \"https://www.isbnlab.com/book/9780952304708/east-african\",\n    \"evidence\": \"Pages: 131\",\n    \"sourceTitle\": \"East African | ISBNLab.com\",\n    \"sourceAuthor\": \"Davis Peter J.\"\n  },\n  \"reference\": null,\n  \"searchedUrls\": [\n    \"https://www.isbnlab.com/book/9780952304708/east-african\",\n    \"https://www.knls.ac.ke/wp-content/uploads/KENYA-NATIONAL-BIBLIOGRAPHY-1994.pdf\",\n    \"https://knls.ac.ke/wp-content/uploads/KENYA-NATIONAL-BIBLIOGRAPHY-2007.pdf\",\n    \"https://knls.ac.ke/wp-content/uploads/KENYA-NATIONAL-BIBLIOGRAPHY-1999.pdf\",\n    \"https://knls.ac.ke/wp-content/uploads/KENYA-NATIONAL-BIBLIOGRAPHY-2004.pdf\"\n  ],\n  \"limitations\": \"The language is not specified in the provided search results.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.isbnlab.com/book/9780952304708/east-african",
+              "title": "East African | ISBNLab.com",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "East African | ISBNLab.com\n\n## East African\n\n \n\nTitle\n: East African\nISBN-10\n: 0-9523047-0-8\nISBN-13\n: 978-0-9523047-0-8\nAuthor(s)\n: Davis Peter J.\nPublisher\n: Runnymede Malthouse \nPublished\n: 1994 \nFormat\nSubtitle\n: Login for full book details.\nSeries\n: Login to see series details.\nImprint\n: Login for imprint details. \nPages\n: 131\nLanguage\n: Login for language details.\nSubjects\n: Login for subjects details.\nGenre\n: Login for genre details. \n\n##### Description"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.knls.ac.ke/wp-content/uploads/KENYA-NATIONAL-BIBLIOGRAPHY-1994.pdf",
+              "title": "KENYA NATIONAL BIBLIOGRAPHY 1994",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "PUBLISHERS: \nAn alphabetical list of publishers and their addresses is given after the Author & Title Index. \nFORMAT AND LEVEL OF DESCRIPTION IN A TYPICAL KNB ENTRY: \nThe fullest information about a book is given in"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://knls.ac.ke/wp-content/uploads/KENYA-NATIONAL-BIBLIOGRAPHY-2007.pdf",
+              "title": "KENYA NATIONAL BIBLIOGRAPHY",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "is given in the main Classified Subject sequence. These include the form of name used by the author in his books, die number of pages, the kind of illustrations, the size, the ISBN (when available) and the price. A shorter entry is given in the Author &"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://knls.ac.ke/wp-content/uploads/KENYA-NATIONAL-BIBLIOGRAPHY-1999.pdf",
+              "title": "KENYA NATIONAL BIBLIOGRAPHY 1999",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The bibliographic details of the book are given in the main Classified Subject sequence. These include the form of name used ... , the size, the ISBN (when available) and the price. A ... (other than the 1st), DDC notation and KNB main entry serial number"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://knls.ac.ke/wp-content/uploads/KENYA-NATIONAL-BIBLIOGRAPHY-2004.pdf",
+              "title": "KENYA NATIONAL BIBLIOGRAPHY",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "Format and level of description in a typical KNB entry: \nThe bibliographic details of ... book are given in the main Classified Subject sequence. These include the \nform of name used by the author\n...\n1st), DDC notation and KNB main entry serial \nnumber."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1070,
+    "completion_tokens": 430,
+    "total_tokens": 1500,
+    "cost": 0.00727621,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000279,
+      "upstream_inference_prompt_cost": 0.000107,
+      "upstream_inference_completions_cost": 0.000172
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

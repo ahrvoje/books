@@ -1,0 +1,47 @@
+{
+  "id": "gen-1793576289-DbecUzNAjJz62V1SnBrC",
+  "object": "chat.completion",
+  "created": 1793576289,
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "provider": "DeepInfra",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"results\": [\n    {\n      \"key\": \"progress-0310:amazon:https://www.amazon.com/Arguably-Essays-Christopher-Hitchens/dp/1455502782\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 1,247 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"rem-u1801:amazon:https://www.amazon.com/Geography-Genius-Creative-Ancient-Silicon/dp/1451691653\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 736 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"n06f5d7dc00:amazon:https://www.amazon.com/Novum-Organum-Francis-Bacon/dp/1976312051\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 67 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"progress-0126:amazon:https://www.amazon.com/Essays-Francis-Bacon-Sutherland-Northup/dp/B009IJX63W\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 25 global ratings explicitly stated.\"\n    },\n    {\n      \"key\": \"complete-872-373:amazon:https://www.amazon.com/Greatest-Minds-Ideas-All-Time/dp/0743235533\",\n      \"status\": \"supported\",\n      \"reason\": \"Exact match of title and author. 1,059 global ratings explicitly stated.\"\n    }\n  ]\n}\n```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3327,
+    "completion_tokens": 412,
+    "total_tokens": 3739,
+    "cost": 0.0001973169,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00019931,
+      "upstream_inference_prompt_cost": 0.00016635,
+      "upstream_inference_completions_cost": 0.00003296
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "retrieved": "2026-11-01T23:38:21.411Z"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "gen-1793574320-oCDe3rJm43SqKG5TxLfA",
+  "object": "chat.completion",
+  "created": 1793574320,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"shelf-7b1ba4841bbe\",\n  \"title\": \"Advice on Upskilling\",\n  \"author\": \"Justin Skycak\",\n  \"pages\": null,\n  \"amazon\": {\n    \"count\": 4.5,\n    \"url\": \"https://www.amazon.com/Advice-Upskilling-Justin-Skycak/dp/B09Z9VY6QN\",\n    \"asin\": \"B09Z9VY6QN\",\n    \"evidence\": \"Explicitly labeled as 'global ratings' on the Amazon product page.\"\n  },\n  \"reference\": null\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Math-Academy-Way-Supercharge-Learning/dp/B0DGXNGX73",
+              "title": "The Math Academy Way: Using the Power of Science to ... - Amazon",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Math Academy Way: Using the Power of Science to ... - Amazon\nOur adaptive, fully-automated platform emulates the decisions of an expert tutor to provide the most effective way to learn math. This working draft describes how it's done.\n\n## \n\nThe Math Academy Way: Using the Power of Science to ... - Amazon\nThis book is a working draft, updated March 2026.Math Academy is solving Bloom’s two-sigma problem by bringing together many evidence-based cognitive learning strategies into a single online learning platform. Our adaptive, fully-automated platform emulates the decisions of an expert tutor to provide the most effective way to learn math.\n\n## \n\nThe Math Academy Way: Using the Power of Science to ... - Amazon\nAmazon.com: The Math Academy Way: Using the Power of Science to Supercharge Student Learning: 9798339127420: Skycak, Justin, Roberts, Jason: Books Purchase options and add-ons This book is a working draft, updated March 2026.Math Academy is solving Bloom’s two-sigma problem by bringing together many evidence-based cognitive learning strategies into a single online learning platform. Our"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Math-Academy-Way-Supercharge-Learning/dp/B0DGY1VNL6",
+              "title": "The Math Academy Way: Using the Power of Science to ... - Amazon",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nThe Math Academy Way: Using the Power of Science to ... - Amazon\nThis book is a working draft, updated March 2026. Math Academy is solving Bloom’s two-sigma problem by bringing together many evidence-based cognitive learning strategies into a single online learning platform.\n\n##\n\n...\n\nMath Academy is solving Bloom’s two-sigma problem by bringing together many evidence-based cognitive learning strategies into a single online learning platform. Our adaptive, fully-automated platform emulates the decisions of an expert tutor to provide the most effective way to learn math.\n\n## \n\nThe Math Academy Way: Using the Power of Science to ... - Amazon\nOur adaptive, fully-automated platform emulates the decisions of an expert tutor to provide the most effective way to learn math. This working draft describes how it's done.\n\n##\n\n...\n\nence ...\nFree 30-day returns Math Academy is solving Bloom's two-sigma problem by bringing together many evidence-based cognitive learning strategies into a single online learning platform.\n\n## \n\nThe Math Academy Way: Using the Power of Science to ...\nIntroduction to Algorithms and Machine Learning: from Sorting to Strategic Agents. Justin Skycak. Hardcover · 10 to 25: The Science of Motivating Young People\n\n## \n\nThe Math Academy Way: Using the Power of Science to ...\nMath Academy's online platform uses cognitive science and technology to revolutionize math education through adaptive learning strategies."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 994,
+    "completion_tokens": 149,
+    "total_tokens": 1143,
+    "cost": 0.00102213838,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000022362,
+      "upstream_inference_prompt_cost": 0.000017892,
+      "upstream_inference_completions_cost": 0.00000447
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"Advice on Upskilling\" Justin Skycak \"global ratings\"",
+  "bookId": "shelf-7b1ba4841bbe",
+  "retrieved": "2026-11-01T23:05:30.480Z"
+}

@@ -1,0 +1,87 @@
+{
+  "id": "gen-1793575232-ALXVGQ3gySirAeptvLFk",
+  "object": "chat.completion",
+  "created": 1793575232,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length",
+      "native_finish_reason": "length",
+      "message": {
+        "role": "assistant",
+        "content": "```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Soviet-Biological-Weapons-Program-History/dp/0674047702",
+              "title": "Amazon.com: The Soviet Biological Weapons Program: A History: 9780674047709: Leitenberg, Milton, Zilinskas, Raymond A., Kuhn, Jens H.: Books",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "* The Soviet Biological Weapons Program: A History\n* To view this video download Flash Player\n* IMAGES\n* \nRead sample\n\nFollow the authors\n\nGet new release updates & improved recommendations\nRaymond A. Zilinskas\nRaymond A. Zilinskas Raymond A. Zilins…\nFollow\nMilton Leitenberg\nMilton Leitenberg Milton Leitenberg\nFollow\nSomething went wrong. Please try your request again later.\nOK\n\nThe Soviet Biological Weapons Program: A History Illustrated Edition\n\nby Milton Leitenberg (Author), Raymond A. Zilinskas (Author), & 1 more\n4.4 4.4 out of 5 stars (24)\n\n...\n\nof pathogenic agents that had never existed in nature. Leitenberg and Zilinskas consider the performance of the U.S.\n\n...\n\nSpanning over a ten-year period, Leitenberg and Zilinskas gathered and analyzed an important and rare collection of declassified\n\n...\n\nbut it demonstrates the great difficulties in seeking to do so.” ― Ambassador Raymond L. Garthoff\n\nAbout the Author\n\nMilton Leitenberg is Senior Research Scholar at the University of Maryland.\nRaymond A. Zilinskas was Director of the Chemical and Biological Weapons Nonproliferation Program and Senior Scientist at the Middlebury Institute of International Studies at Monterey.\n\n...\n\nCustomer reviews\n\n4.4 out of 5 stars\n4.4 out of 5\n24 global ratings\n* 5 star 4 star 3 star 2 star 1 star 5 star 64% 14% 17% 5% 0% 64%\n* 5 star 4 star 3 star 2 star 1 star 4 star 64% 14% 17% 5% 0% 14%"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/Biohazard-Chilling-Largest-Biological-World-Told/dp/0385334966",
+              "title": "Biohazard: The Chilling True Story of the Largest Covert ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nBiohazard: The Chilling True Story of the Largest Covert ...\nBiohazard is the never-before-told story of Russia's darkest, deadliest, and most closely guarded Cold War secret.\n\n## \n\nBiohazard: The Chilling True Story of the Largest Covert ...\nKen Alibek reveals his journey from doctor to leader of Soviet Union's massive biological weapons program, exposing secret facilities, deadly agents, and\n\n## \n\nBiohazard: The Chilling True Story of the Largest Covert Biological ...\nWhat's it about? Ken Alibek reveals his journey from doctor to leader of Soviet Union's massive biological weapons program, exposing secret facilities, deadly\n\n## \n\nBiohazard: The Chilling True Story of the Largest Covert Biological ...\nKen Alibek reveals his journey from doctor to leader of Soviet Union's massive biological weapons program, exposing secret facilities, deadly agents, and"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://www.amazon.com/-/zh_TW/Living-Weapons-Biological-International-Security/dp/0801477522",
+              "title": "Living Weapons: Biological Warfare and International Security ...",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "## \n\nLiving Weapons: Biological Warfare and International Security ...\n\"Living Weapons is a succinct, highly readable analysis of the unique challenges presented by biological weapons. Koblentz provides an excellent summary of"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 1,
+    "total_tokens": 1191,
+    "cost": 0.0010212355,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00002145,
+      "upstream_inference_prompt_cost": 0.00002142,
+      "upstream_inference_completions_cost": 3e-8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "research": {
+    "id": "web",
+    "engine": "parallel",
+    "max_results": 10,
+    "mode": "fast"
+  },
+  "query": "site:amazon.com \"The Soviet Biological Weapons Program\" Milton Leitenberg; Raymond A. Zilinskas; Jens H. Kuhn \"global ratings\"",
+  "bookId": "rest-64-57",
+  "retrieved": "2026-11-01T23:20:29.764Z"
+}

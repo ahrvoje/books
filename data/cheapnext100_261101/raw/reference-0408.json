@@ -1,0 +1,60 @@
+{
+  "id": "gen-1793573171-uSQISdcJhZHBgOxr4Jbh",
+  "object": "chat.completion",
+  "created": 1793573171,
+  "model": "mistralai/mistral-nemo",
+  "provider": "DekaLLM",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"id\": \"n4795183b45\",\n  \"title\": \"The Computer from Pascal to von Neumann\",\n  \"author\": \"Herman H. Goldstine\",\n  \"amazon\": null,\n  \"reference\": {\n    \"count\": 378,\n    \"url\": \"https://west.aspendiscovery.co.uk/Record/12673\",\n    \"evidence\": \"Physical Desc x, 378 p. illus. 25 cm.\",\n    \"ranges\": [\n      {\n        \"start\": 1,\n        \"end\": 378,\n        \"label\": \"pages\"\n      }\n    ]\n  }\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "url": "https://west.aspendiscovery.co.uk/Record/12673",
+              "title": "The computer from Pascal to von Neumann | West County",
+              "start_index": 0,
+              "end_index": 0,
+              "content": "The computer from Pascal to von Neumann | West County\n\n# The computer from Pascal to von Neumann (Book)\n\nAverage Rating\n\nAuthor Goldstine, Herman Heine, 1913- \n\nPublished [Princeton, N.J.] Princeton University Press [1972]\n\nFormat Book\n\nISBN 0691081042\n\nPhysical Desc x, 378 p. illus. 25 cm.\n\nStatus\n\nOn Shelf\n\nMain Library - General Shelves TK7885 A5 .G64 1 available\n\n## Copies\n\n| Location | Call Number | Status |\n| --- | --- | --- |\n| Main Library - General Shelves | TK7885 A5 .G64 | On Shelf |\n\n## More Details\n\nLanguage English\n\nNotes\n\nBibliography Includes bibliographical references.\n\nAPA Citation, 7th Edition(Style Guide)\n\nGoldstine, H. H. (1972). The computer from Pascal to von Neumann. Princeton University Press.\n\nChicago / Turabian - Author Date Citation, 18th Edition(Style Guide)\n\nGoldstine, Herman Heine, 1913-. 1972. The Computer From Pascal to Von Neumann. Princeton University Press.\n\nChicago / Turabian - Humanities (Notes and Bibliography) Citation, 18th Edition(Style Guide)\n\nGoldstine, Herman Heine, 1913-. The Computer From Pascal to Von Neumann. Princeton University Press, 1972. \n\nUCL Harvard Citation(Style Guide)\n\n Goldstine, H. H. (1972). The computer from pascal to von neumann. [Princeton, N.J.]: Princeton University Press.\n\nMLA Citation, 9th Edition(Style Guide)\n\nGoldstine, Herman Heine. The Computer From Pascal to Von Neumann. Princeton University Press, 1972."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 789,
+    "completion_tokens": 155,
+    "total_tokens": 944,
+    "cost": 0.00701866348,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000018852,
+      "upstream_inference_prompt_cost": 0.000014202,
+      "upstream_inference_completions_cost": 0.00000465
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "bookId": "n4795183b45",
+  "retrieved": "2026-11-01T22:46:23.360Z"
+}
