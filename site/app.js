@@ -3,7 +3,7 @@ async function readCatalog() {
   const binary = atob(element.textContent.trim()), packed = new Uint8Array(binary.length);
   for (let i = 0; i < binary.length; i++) packed[i] = binary.charCodeAt(i);
   element.remove();
-  return JSON.parse(await new Response(new Blob([packed]).stream().pipeThrough(new DecompressionStream('gzip'))).text());
+  return unpackDataset(JSON.parse(await new Response(new Blob([packed]).stream().pipeThrough(new DecompressionStream('gzip'))).text()));
 }
 const DATA = await readCatalog();
 const $ = (s, root = document) => root.querySelector(s);

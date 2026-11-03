@@ -81,7 +81,7 @@ The generated site is in `docs/`, the folder name supported by GitHub Pages bran
 
 For the configured remote `ahrvoje/books`, the default project URL would be `https://ahrvoje.github.io/books/`. Commit and push `docs/index.html` and `docs/.nojekyll`, then choose **Settings → Pages → Deploy from a branch → main → /docs → Save**. [GitHub publishing instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
-Publishing `/docs` includes only the approximately 3.72 MB site, keeping the research tree outside the published folder and well below the 1 GB published-site limit. [GitHub Pages limits](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits). Displayed book facts and assessments use lossless gzip compression and base64 encoding. Raw edition collection metadata stays in the research tree. Full historical analyses stay in the repository. The build enforces a limit of 1,500 bytes per recommended or vetoed book.
+Publishing `/docs` includes the approximately 4.52 MB site, keeping the research tree outside the published folder and well below the 1 GB published-site limit. [GitHub Pages limits](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits). Displayed book facts and assessments use shared text and field dictionaries, common text prefixes, and column storage before lossless gzip compression and base64 encoding. The page reconstructs the original records offline. Raw edition collection metadata stays in the research tree. Full historical analyses stay in the repository. Every build checks exact data reconstruction and enforces a limit of 900 bytes per recommended or vetoed book. The [HTML size review](HTML_SIZE_REVIEW.md) records the measured 40.8% reduction and the limits of further packing.
 
 This change prepares the local files only. It does not commit, push, enable Pages, or verify a live deployment. Rebuild and publish the generated files in `docs/` after later catalog changes.
 
@@ -122,6 +122,7 @@ The browser test copies only `docs/index.html` to an isolated folder, opens that
 | `docs/index.html`, `docs/.nojekyll` | Generated, stand-alone deliverable and static publishing marker. Rebuild instead of editing them. |
 | `site/model.mjs` | Registry, normalization, signed scoring, filters, connection measures, validation, and Pareto dominance. |
 | `site/build.mjs` | Reconciles ledger membership, imports current assessments, validates data, and embeds the application. |
+| `site/packing.mjs` | Lossless catalog packing and the decoder embedded in the standalone page. |
 | `site/app.js` | Browser controls, local state, book details, and plot rendering. |
 | `site/template.html`, `site/style.css` | Accessible page structure and responsive layout. |
 | `site/methodology.html` | Readable methodology, with the precise repository instructions embedded during the build. |

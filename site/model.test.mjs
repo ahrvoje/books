@@ -4,9 +4,10 @@ import { performance } from 'node:perf_hooks';
 import { REGISTRY, DOMAIN_IDS, rawGuidance, defaultModel, defaultTerm, clone, normalize, shape, coefficients, changeMode, termValue, validateTerm,
   validateModel, connectionValues, evaluateBook, evaluateCatalog, filterReasons, frontier, frontierLayers, frontierPath, clearTarget, format, columnValue, DEFAULT_COLUMNS, displayedColumns, restoreColumns, restoreOptionalTerms, COLUMN_BY_ID } from './model.mjs';
 import fs from 'node:fs';
-import { gunzipSync } from 'node:zlib';
+import { gunzipSync, gzipSync } from 'node:zlib';
 import path from 'node:path';
 import { ROOT, HTML_FILE, build, buildDataset, validateConnections, referenceRangeCount } from './build.mjs';
+import { packDataset, unpackDataset } from './packing.mjs';
 const close = (a, b) => assert(Math.abs(a - b) < 1e-9, `${a} != ${b}`);
 const data = buildDataset();
 const model = defaultModel();
@@ -308,6 +309,28 @@ test('model export is reproducible and rejects incompatible or invalid models', 
   assert.equal(columnValue(row,'year'),2022);assert.equal(columnValue(row,'periodEnd'),null);
   assert.deepEqual(model.columns,DEFAULT_COLUMNS);
 });
+test('catalog packing preserves JSON types, text, optional fields and record independence', () => {
+  const input = {
+    text: ['0', 'a', '', 'prefix repeated α\n😀', 'prefix repeated α\n😁', '</script> & " \\', '0001'],
+    values: [null, false, true, 0, -1, 1.2345678901234567, 1e100, [], {}, undefined],
+    records: [{ x: 'same', y: null }, { x: 'same', y: null }],
+    emptyRecords: [{}, {}, {}],
+    mixed: [{ x: 1 }, { y: 2 }, ['x'], 3, null],
+    nested: [[{ z: 'same' }, { z: 'same' }]],
+    specialKeys: JSON.parse('{"__proto__":{"polluted":true},"constructor":"value"}'),
+    omitted: undefined
+  };
+  for (const value of [input, null, false, 42, 'text', [], {}, [{}, {}]]) {
+    const packed = JSON.parse(JSON.stringify(packDataset(value)));
+    assert.deepEqual(unpackDataset(packed), JSON.parse(JSON.stringify(value)));
+  }
+  const decoded = unpackDataset(packDataset(input));
+  decoded.records[0].x = 'changed';
+  assert.equal(decoded.records[1].x, 'same', 'Dictionary entries must not introduce shared mutable records');
+  assert.equal({}.polluted, undefined);
+  assert.throws(() => unpackDataset({ version: 2 }), /packing version/);
+});
+
 test('generated standalone script parses without replacement-string corruption', () => {
   build();
   const html=fs.readFileSync(HTML_FILE,'utf8');
@@ -319,7 +342,15 @@ test('generated standalone script parses without replacement-string corruption',
   assert.doesNotThrow(()=>new (Object.getPrototypeOf(async function(){}).constructor)(script));
   assert(script.includes('const $$ ='));
   const payload=html.match(/<script id="catalog-data" type="application\/gzip\+base64">([\s\S]*?)<\/script>/)[1];
-  const embedded=JSON.parse(gunzipSync(Buffer.from(payload,'base64')));
+  const packed=JSON.parse(gunzipSync(Buffer.from(payload,'base64')));
+  // Execute the exact decoder embedded in the deliverable, not a second implementation.
+  const decode=new Function(script.slice(script.indexOf('function unpackDataset('),script.indexOf('async function readCatalog('))+'\nreturn unpackDataset;')();
+  const embedded=decode(packed);
+  assert.deepEqual(embedded.sources,data.sources);
+  assert.deepEqual(embedded.coverage,data.coverage);
+  assert.equal(embedded.datasetHash,data.datasetHash);
+  assert(Buffer.from(payload,'base64').length < 0.75 * gzipSync(JSON.stringify(embedded),{level:9}).length,
+    'Packing must save at least 25% over gzip alone, including its dictionaries');
   assert.equal(embedded.books.length,data.books.length);
   for (const collection of ['books','vetoed']) embedded[collection].forEach((b,i)=>{
     const expected=JSON.parse(JSON.stringify(data[collection][i]));
@@ -347,7 +378,7 @@ test('generated standalone script parses without replacement-string corruption',
   assert.equal(embedded.documents,undefined);
   assert.equal(embedded.excluded,undefined);
   assert.deepEqual(embedded.excludedGroups,data.excludedGroups);
-  assert(Buffer.byteLength(html)<=1500*(data.books.length+data.vetoed.length));
+  assert(Buffer.byteLength(html)<=900*(data.books.length+data.vetoed.length));
   assert(!html.includes('src="http'));
   const rules=fs.readFileSync(path.join(ROOT,'AGENTS.md'),'utf8');
   for(const [heading,prefix] of [['## Hard exclusion rules','Works which do not represent a book'],['## Hard exclusion rules','Exclude all fiction'],['## Hard exclusion rules','Technical training and reference exclusion'],['## Hard exclusion rules','Exclude children books'],['## Hard exclusion rules','Exclude dry and routine'],['## Veto rules','Hype or ephemerality dependence'],['## Veto rules','Religious doctrine or ideological extremism'],['## Veto rules','Partisan mobilization'],['## Veto rules','Spirituality, meditation'],['## Veto rules','Veto works whose central purpose']]){

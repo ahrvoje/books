@@ -4,6 +4,7 @@ import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
 import { gzipSync } from 'node:zlib';
+import { packDataset, unpackDataset } from './packing.mjs';
 import { REGISTRY, DOMAIN_IDS, defaultModel, evaluateBook, format, fold, known, bonusValues } from './model.mjs';
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -269,7 +270,9 @@ export function build() {
   const dataset = buildDataset();
   // Keep displayed evidence offline; full historical reports stay in the repository.
   const portable = portableDataset(dataset);
-  const payload = gzipSync(JSON.stringify(portable), { level: 9 }).toString('base64');
+  const packed = packDataset(portable);
+  assert.deepEqual(unpackDataset(packed), JSON.parse(JSON.stringify(portable)), 'Packed catalog must preserve every portable field.');
+  const payload = gzipSync(JSON.stringify(packed), { level: 9 }).toString('base64');
   const model = read('site/model.mjs').replace(/^export /gm, '');
   const rules = read('AGENTS.md'), escape = text => text.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
   const rule = (heading, prefix) => {
@@ -297,9 +300,9 @@ export function build() {
       .replace('/* RULES */', () => escape(rules)))
     .replace('/* STYLES */', () => read('site/style.css'))
     .replace('/* DATA */', () => payload)
-    .replace('/* APPLICATION */', () => model + '\n' + read('site/app.js'));
+    .replace('/* APPLICATION */', () => model + '\n' + unpackDataset.toString() + '\n' + read('site/app.js'));
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-  assert(Buffer.byteLength(html) <= 1500 * (dataset.books.length + dataset.vetoed.length), 'Standalone HTML exceeds 1,500 bytes per recommended or vetoed book.');
+  assert(Buffer.byteLength(html) <= 900 * (dataset.books.length + dataset.vetoed.length), 'Standalone HTML exceeds 900 bytes per recommended or vetoed book.');
   fs.writeFileSync(HTML_FILE, html);
   fs.writeFileSync(path.join(OUTPUT_DIR, '.nojekyll'), '');
   console.log(`Built docs/index.html: ${dataset.books.length} books, ${Buffer.byteLength(html).toLocaleString('en')} bytes, dataset ${dataset.datasetHash}`);
