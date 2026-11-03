@@ -7,6 +7,7 @@
 - 100 Ways to Improve Your Writing — Gary Provost
 - 100 Years of Nobel Prizes
 - 100,000 Whys for Kids – The Ultimate Question & Answer Book: Clear Answers to Curious Questions About Science, Space, Animals, Technology, History, and More (Ages 6–12) — Owen Mercer
+- 1000 Poems from the Manyoshu — Nippon Gakujutsu Shinkōkai, selectors and translators; various poets
 - 1000 Ways to Make $1,000 — F.C. Minaker
 - 1001 Inventions and Awesome Facts from Muslim Civilization — National Geographic
 - 1001 Nights
@@ -97,6 +98,7 @@
 - A Pattern Language — Christopher Alexander
 - A Perfect Vacuum — Stanisław Lem
 - A Philosophy of Software Design — John Ousterhout
+- A Photographer's Life — Annie Leibovitz
 - A Political Theory Primer
 - A Portrait of the Artist as a Young Man — James Joyce
 - A Practical Guide for Policy Analysis — Eugene Bardach; Eric M. Patashnik
@@ -113,6 +115,7 @@
 - A Shadow Intelligence — Oliver Harris
 - A Short Course in Industrial Design — Eskild Tjalve
 - A Short History of Mathematical Population Dynamics — Nicolas Bacaër
+- A Shropshire Lad — A. E. Housman
 - A Signal Shattered — Eric S. Nylund
 - A Sociopath's Guide to a Successful Marriage — M.K. Oliver
 - A Soldier of the Great War — Mark Helprin
@@ -285,6 +288,7 @@
 - As I Lay Dying — William Faulkner
 - Ascension — Oliver Harris
 - Asimov — Isaac Asimov
+- Asimov’s Guide to Shakespeare — Isaac Asimov
 - Aspects of Symmetry — Sidney Coleman
 - Assassin's Apprentice — Robin Hobb
 - Assassin's Quest — Robin Hobb
@@ -595,6 +599,7 @@
 - Culture series
 - Curso de Análise, Volume 1 — Elon Lages Lima
 - Curso de Análise, Volume 2 — Elon Lages Lima
+- Curves and Angles — Brad Leithauser
 - Cutting for Stone — Abraham Verghese
 - Cybernetics — Norbert Wiener
 - CyberSecurity 101: Fundamentals for Junior Engineers and Job Seekers — Andreas
@@ -900,6 +905,7 @@
 - From Clocks to Chaos — Leon Glass; Michael C. Mackey
 - From Kant to Hilbert — William Ewald (editor)
 - From Mathematics to Generic Programming — Alexander A. Stepanov; Daniel E. Rose
+- From Threshold to Threshold — Paul Celan
 - Fujiwara Teika’s Hundred-Poem Sequence of the Shōji Era, 1200 — Robert H. Brower; Fujiwara no Teika
 - Full Catastrophe Living: Using the Wisdom of Your Body and Mind to Face Stress, Pain, and Illness — Jon Kabat-Zinn
 - Functional Differential Geometry — Gerald Jay Sussman
@@ -1247,6 +1253,7 @@
 - Klara and the Sun — Kazuo Ishiguro
 - Knots and Links — Dale Rolfsen
 - Knots and Physics — Louis Kauffman
+- Kokinshu — Ki no Tsurayuki and fellow compilers; various poets
 - Kolyma Tales — Varlam Shalamov
 - Krazy Kat — George Herriman and Patrick McDonnell and Peter Maresca
 - Kristin Lavransdatter — Sigrid Undset
@@ -1374,6 +1381,7 @@
 - Making a Good Brain Great — Daniel G. Amen
 - Making History — Stephen Fry
 - Malazan Book of the Fallen — Steven Erikson
+- Man’yoshu — Various poets, traditionally compiled by Ōtomo no Yakamochi
 - Managing Gigabytes — Ian H. Witten; Alistair Moffat; Timothy C. Bell
 - Manfish: A Story of Jacques Cousteau — Jennifer Berne, Éric Puybaret
 - Manufacturing Engineering and Technology — Serope Kalpakjian
@@ -1419,12 +1427,14 @@
 - Mathematics in Plato's Academy — David H. Fowler
 - Matter — Iain M. Banks
 - Matterhorn — Karl Marlantes
+- Matthew Barney & Elizabeth Peyton: Blood of Two — Angus Cook; Matthew Barney; Elizabeth Peyton
 - Maui Revealed — Andrew Doughty
 - Max Trescott's G1000 Glass Cockpit Handbook with WAAS 4th Edition — Max Trescott
 - MCAT Biology (Examkrackers) — Jonathan Orsay
 - McTeague — Frank Norris
 - Mean Spirit — Linda Hogan
 - Measure What Matters — Katie Delahaye Paine
+- Mechanical Engineering — Don Herweck
 - Mechanical Vibrations — J. P. Den Hartog
 - Mechanisms and Mechanical Device Sourcebook — Nicholas P. Chironis
 - Meditation for Beginners — Jack Kornfield
@@ -1451,6 +1461,7 @@
 - Midnight Tides — Steven Erikson
 - Midnight's Children — Salman Rushdie
 - Mike and Psmith
+- Milk and Honey — Rupi Kaur
 - Millennium — K. P. Poornachandra Tejaswi; Pradeep Kenjige
 - Min kamp 1 — Karl Ove Knausgård
 - Min kamp Series — Karl Ove Knausgård
@@ -1481,6 +1492,7 @@
 - More Effective C# — Bill Wagner
 - More Effective C++ — Scott Meyers
 - More Great Formulas Explained — Metin Bektas
+- More Poems — A. E. Housman
 - More Programming Pearls — Jon Bentley
 - Morphological Astronomy — Zwicky
 - Morse Theory — John Milnor
@@ -1625,6 +1637,7 @@
 - Origin — Dan Brown
 - Orwell's Revenge — Peter W. Huber
 - Oryx and Crake — Margaret Atwood
+- Oscar: The Style, Inspiration and Life of Oscar de la Renta — Sarah Mower
 - Oscillations and Waves — Kato
 - Othello — William Shakespeare
 - Otherland — Tad Williams
@@ -1693,6 +1706,7 @@
 - Poor No More — Robert Ruark
 - Poor White — Sherwood Anderson
 - Pop!: The Invention of Bubble Gum — Meghan McCarthy
+- Portraits of Interiors — Axel Vervoordt
 - Positioning — Al Ries
 - Postsingular — Rudy Rucker
 - Powers — Ursula K. Le Guin
@@ -1879,6 +1893,7 @@
 - Roadside Picnic — Arkady Strugatsky
 - Roark's Formulas for Stress and Strain — Raymond J. Roark
 - Robinson Cruse
+- Robot — DK; Laura Buller; Clive Gifford; Andrea Mills
 - Robots, Robots Everywhere — Sue Fliess, Bob Staake
 - Rock of Ages — Timothy Hallinan
 - Rocket Propulsion Elements
@@ -1926,6 +1941,7 @@
 - Seeker — Arwen Elys Dayton
 - Seiobo There Below — László Krasznahorkai
 - Selected Papers on Optomechanical Design — O’Shea, Donald, ed.
+- Selected Poems — Paul Celan
 - Selected Stories of Anton Chekhov — Anton Chekhov
 - Sell with a Story — Paul Smith
 - Semantic Information Processing — Marvin Minsky
@@ -1953,6 +1969,7 @@
 - Sherlock Holmes collected works — Arthur Conan Doyle
 - Shift — Hugh Howey
 - Shigley's Mechanical Engineering Design — Joseph E. Shigley; Richard G. Budynas; J. Keith Nisbett
+- Shin Kokinshu — Various poets; Fujiwara no Teika and other compilers
 - Ship of Destiny — Robin Hobb
 - Ship of Magic — Robin Hobb
 - Shock and Vibration Isolation Handbook — Cyril M. Harris; Charles E. Crede
@@ -2038,6 +2055,7 @@
 - Starship's Mage — Glynn Stewart
 - Start Small, Stay Small — Rob Walling and Mike Taber
 - Start with No — Jim Camp
+- Start With Why — Simon Sinek
 - Starting a Business QuickStart Guide: The Simplified Beginner's Guide to Launching a Successful Small Business, Turning Your Vision into Reality, and Achieving Your Entrepreneurial Dream — Ken Colwell PhD MBA
 - Starting Forth — Leo Brodie; Inc Staff Forth
 - Starting Strength — Mark Rippetoe; Lon Kilgore
@@ -2106,6 +2124,7 @@
 - Synthetic Biology: A Primer — Geoff Baldwin and colleagues
 - System Design from Provably Correct Constructs — James Martin
 - Systems Medicine — Uri Alon
+- Taking the Work Out of Networking — Karen Wickre
 - Tale of Genji
 - Tales of Ise — Helen Craig McCullough
 - Tales of the South Pacific — James A. Michener
@@ -2287,6 +2306,7 @@
 - The Complete Guide to Fasting — Dr. Jason Fung
 - The Complete Guide to Sales Force Incentive Compensation — Andris A. Zoltners
 - The Complete Idiot’s Guide to Game Theory — Edward Rosenthal Ph.D.
+- The Complete Poems — Randall Jarrell
 - The Complete Stories — Flannery O’Connor
 - The Complete Stories — Franz Kafka
 - The Complete Works of HP Lovecraft — HP Lovecraft
@@ -2653,6 +2673,7 @@
 - The Plague of Doves — Louise Erdrich
 - The Player of Games — Iain M. Banks
 - The Pocket Guide to Product Launches — Mary Sheehan
+- The Poems of Gerard Manley Hopkins — Gerard Manley Hopkins
 - The Poisonwood Bible — Barbara Kingsolver
 - The Portrait of a Lady — Henry James
 - The Post-Office Girl — Stefan Zweig
@@ -2871,6 +2892,7 @@
 - The World Is Not Enough — Zoé Oldenbourg
 - The World of Edena — Moebius
 - The World Set Free — H.G. Wells
+- The World's Poorest President Speaks Out — Yoshimi Kusaba; José Mujica; Gaku Nakagawa (illustrator)
 - The Wright Brothers — Quentin Reynolds
 - The Year of Lear: Shakespeare in 1606 — James Shapiro
 - The Yearling — Marjorie Kinnan Rawlings
@@ -2976,6 +2998,7 @@
 - Understanding Semiconductors — Corey Richard
 - Underworld — Don DeLillo
 - Une histoire populaire du baseball — Gaétan Alibert
+- Unforgotten Dreams — Shōtetsu; Steven D. Carter, translator and editor
 - Unitary Group Representations in Physics, Probability, and Number Theory — George Mackey
 - Universe: The Definitive Visual Guide — DK; Martin Rees (consultant)
 - Unix and Linux System Administration Handbook — Evi Nemeth, Garth Snyder, et al.

@@ -1,0 +1,17 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import assert from 'node:assert/strict';
+const dir='data/v3_review_261103',read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+const v=read(dir+'/verification.json'),target=read(dir+'/browser-check.json'),browser=read('site/qa-output/results.json');
+assert.deepEqual(browser.errors,[]);assert.deepEqual(browser.networkRequests,[]);assert.deepEqual(target.errors,[]);assert.deepEqual(target.networkRequests,[]);
+assert.equal(target.newVetoDetailsChecked,10);assert.equal(target.revisedRecommendationDetailsChecked,6);
+assert.equal(target.htmlBytes,fs.statSync('docs/index.html').size);
+assert(browser.checks.includes(`${v.recommended} books, ${v.vetoed} vetoed works and ${v.excluded} exclusions`));
+v.tests={model:'npm test: 22 passed, 0 failed',offlineBrowser:'npm run test:browser: passed',focusedDetails:'10 new vetoes and 6 retained or restored recommendations: passed',errors:0,networkRequests:0,viewports:browser.viewports};
+v.html={bytes:target.htmlBytes,datasetHash:target.datasetHash,sha256:crypto.createHash('sha256').update(fs.readFileSync('docs/index.html')).digest('hex'),packing:'Exact round-trip comparison passed for every portable field'};
+v.completed=new Date().toISOString();fs.writeFileSync(dir+'/verification.json',JSON.stringify(v,null,2)+'\n');console.log(v);
+const report='analysis/analysis_v3review_261103_2142.md';let text=fs.readFileSync(report,'utf8');
+text=text.replace('23 hard exclusions, 10 new vetoes and 7 changed numerical scores and 1 restored recommendation.','23 hard exclusions, 10 new vetoes, 7 changed numerical scores and 1 restored recommendation.');
+if(!text.includes('## Final verification'))text+='\n## Final verification\n\nAll 22 calculation and packing tests passed. The offline browser suite passed with zero script errors and zero network requests, at widths from 320 to 1440 pixels. Focused checks opened all 10 new veto details and 6 retained or restored recommendation details. Every current score was independently recalculated; all 323 prior analysis hashes, all source memberships and the earlier compiled catalog were preserved. Current HTML: '+v.html.bytes.toLocaleString('en-US')+' bytes. [Machine-readable verification](../'+dir+'/verification.json).\n';
+fs.writeFileSync(report,text);
+const p='README.md';fs.writeFileSync(p,fs.readFileSync(p,'utf8').replace('**23 hard exclusions**, and **7 numerical score changes**, and','**23 hard exclusions**, **7 numerical score changes**, and'));

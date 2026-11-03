@@ -2,6 +2,8 @@
 
 Date: 2026-11-03. Sizes use decimal MB (1,000,000 bytes).
 
+The measurements below describe the compression experiment before the subsequent [V3 content review](analysis/analysis_v3review_261103_2142.md). That review changes catalog membership and adds evidence. Its current HTML size and integrity checks are recorded in [verification](data/v3_review_261103/verification.json); the earlier comparison remains a fixed benchmark.
+
 The standalone HTML is **40.8% smaller**, with every existing portable data field preserved. Confidence: **high**, based on full data comparison and offline browser tests. The tested methods do **not** reach 600 bytes of uncompressed storage per scored book or a 90% reduction. Confidence in that practical limit: **moderate**; this is an experiment, not a proof that no better encoding exists.
 
 ## Measured result

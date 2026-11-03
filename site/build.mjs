@@ -191,7 +191,7 @@ export function buildDataset() {
       verdict: b.verdict || '', evidence, analysis: analysisPath(b.reviewAnchor || b.currentReview || b.priorReport),
       amazon: { count: values.O15, url: safeURL(b.amazon?.url), marketplace: b.amazon?.marketplace || '', product: b.amazon?.asin || b.amazon?.productIdentifier || b.amazon?.product || '', retrieved: b.amazon?.verifiedAt || b.amazon?.retrievedAt || b.amazon?.retrieved || b.amazon?.attemptedAt || '', limitations: b.amazon?.status || 'See source assessment.' },
       reader: b.reader || '', edition: extra.edition || null, research: extra.research || null, ratingReview: b.ratingReview?.analysis || '',
-      referencePages: rp, scoreReview: b.scoreReview,
+      referencePages: rp, scoreReview: b.scoreReview, intellectualReview: b.intellectualReview || null,
       connections: extra.connections || { status: 'unreviewed', mechanisms: [], joins: [], limitations: 'Domain and connection evidence has not been coded under this model.' },
       base: b.total, ledgerScore: +row[4], ledgerMismatch: false
     };
@@ -244,7 +244,7 @@ export function portableDataset(dataset) {
   return {
     ...pick(dataset, 'reviewYear datasetHash generated coverage sources excludedGroups'),
     books: dataset.books.map(b => ({
-      ...pick(b, 'id title author year purchaseUrl subtitle sources values periodEnd scope scopeNote confidence yearConfidence periodConfidence verdict analysis amazon reader ratingReview scoreReview base ledgerMismatch search sortKey'),
+      ...pick(b, 'id title author year purchaseUrl subtitle sources values periodEnd scope scopeNote confidence yearConfidence periodConfidence verdict analysis amazon reader ratingReview scoreReview intellectualReview base ledgerMismatch search sortKey'),
       edition: edition(b.edition),
       connections: pick(b.connections, 'status mechanisms joins limitations'),
       evidence: Object.fromEntries(Object.entries(b.evidence).map(([id, e]) => [id, pick(e, 'rationale confidence refs')])),
@@ -291,6 +291,7 @@ export function build() {
       .replace('/* H5 */', () => rule('## Hard exclusion rules', 'Exclude children books'))
       .replace('/* H6 */', () => rule('## Hard exclusion rules', 'Exclude dry and routine'))
       .replace('/* H7 */', () => rule('## Hard exclusion rules', 'Exclude books primarily devoted to art appreciation'))
+      .replace('/* V3 */', () => rule('## Veto rules', 'Insufficient explanatory or transferable intellectual content'))
       .replace('/* V4 */', () => rule('## Veto rules', 'Hype or ephemerality dependence'))
       .replace('/* V5 */', () => rule('## Veto rules', 'Religious doctrine or ideological extremism'))
       .replace('/* V6 */', () => rule('## Veto rules', 'Partisan mobilization'))

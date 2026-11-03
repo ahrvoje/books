@@ -387,7 +387,9 @@ test('generated standalone script parses without replacement-string corruption',
     const methodology=html.split('id="methodology-view"')[1].split('<section aria-labelledby="method-rules">')[0];
     assert(methodology.includes(escaped),'Visible methodology must include the exact current rule');
   }
-  for(const marker of ['BOOK_FORM','FICTION','REFERENCE','H5','H6','V4','V5','V6','V7','V8','V9'])assert(!html.includes('/* '+marker+' */'));
+  for(const marker of ['BOOK_FORM','FICTION','REFERENCE','H5','H6','V3','V4','V5','V6','V7','V8','V9'])assert(!html.includes('/* '+marker+' */'));
+  const v3=rules.split('## Veto rules')[1].split(/\r?\n/).find(line=>line.startsWith('3. Insufficient explanatory')).slice(3);
+  assert(html.includes(v3.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))),'Visible methodology must include exact V3');
   const v9=rules.split('## Veto rules')[1].split(/\r?\n/).find(line=>line.startsWith('9. Highly disputed foundations.')).slice(3);
   assert(html.includes(v9.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))),'Visible methodology must include exact V9');
 });

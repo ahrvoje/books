@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-03",
+  "previous": "data/refs100_261102/compiled.json",
+  "report": "analysis/analysis_v3review_261103_2142.md",
+  "screened": 6635,
+  "focused": 64,
+  "existingV3Rechecked": 112,
+  "hardExcluded": 23,
+  "newVetoes": 10,
+  "changedScores": 7,
+  "recommended": 5854,
+  "vetoed": 758,
+  "excluded": 3128,
+  "needsDirectReview": 1763,
+  "sourceCountChanges": 0,
+  "scope": "All structured records screened against the revised V3; existing V3 evidence and low-payload records rechecked, with explicit focused decisions. Prior evidence is reused, not represented as fresh full-text coverage. Unknown purpose and limited inspection remain explicit. Numerical flags do not decide vetoes.",
+  "recoveredPurpose": 412,
+  "finalized": true,
+  "restored": 1,
+  "rulesHash": "7ed6990a4b4c38989574dfa8db8ade5f5d2c7c131ff27452fe4da07b5d030bf6",
+  "sourceMembership": "unchanged for every work",
+  "sourceRegistry": "unchanged",
+  "historicalAnalyses": "323 baseline hashes preserved",
+  "priorCompiled": "unchanged",
+  "scores": "All independently recalculated; exactly seven changes, restricted to recorded criterion decisions",
+  "membership": "Unique and disjoint; all 9740 work identities preserved",
+  "ledgerScores": "All current rows agree with unrounded catalog sorting and shared display rounding",
+  "metadata": "Removed metadata archived; no hard-excluded record retains live scoring metadata",
+  "tests": {
+    "model": "npm test: 22 passed, 0 failed",
+    "offlineBrowser": "npm run test:browser: passed",
+    "focusedDetails": "10 new vetoes and 6 retained or restored recommendations: passed",
+    "errors": 0,
+    "networkRequests": 0,
+    "viewports": [
+      {
+        "width": 320,
+        "scroll": 320,
+        "renderMs": 455.8000000715256
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "renderMs": 455.8000000715256
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "renderMs": 455.8000000715256
+      },
+      {
+        "width": 1099,
+        "scroll": 1099,
+        "renderMs": 455.8000000715256
+      },
+      {
+        "width": 1100,
+        "scroll": 1100,
+        "renderMs": 455.8000000715256
+      },
+      {
+        "width": 1440,
+        "scroll": 1440,
+        "renderMs": 455.8000000715256
+      }
+    ]
+  },
+  "html": {
+    "bytes": 4520879,
+    "datasetHash": "743e97b1c2e7cfd8",
+    "sha256": "1b59b4e01f8546e143cc7e946c211501dc265198e26820337116373e7a9c1ae9",
+    "packing": "Exact round-trip comparison passed for every portable field"
+  },
+  "completed": "2026-11-03T21:22:30.517Z"
+}

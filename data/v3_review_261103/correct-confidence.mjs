@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+const path='data/v3_review_261103/compiled.json';
+const c=JSON.parse(fs.readFileSync(path,'utf8')),b=c.currentBooks.find(b=>b.id==='g1202');
+b.densityAssessment.confidence='low';
+b.densityAssessment.evidence='Prior content assessment plus an author description. The description confirms purpose but cannot establish paragraph-level density; no direct-text density audit.';
+fs.writeFileSync(path,JSON.stringify(c,null,2)+'\n');
+const report='analysis/analysis_v3review_261103_2142.md';
+let text=fs.readFileSync(report,'utf8');
+text=text.replace('Gate confidence is separate from the confidence of an unchanged score.','Gate confidence is separate from the confidence of an unchanged score. The revised Cashflow Quadrant density estimate has low confidence: it relies on prior content evidence, while the new author description establishes purpose only.');
+fs.writeFileSync(report,text);
+const app='site/app.js';
+text=fs.readFileSync(app,'utf8').replace('b.referencePages.ranges.map(r=>','(b.referencePages.ranges || []).map(r=>');
+fs.writeFileSync(app,text);
